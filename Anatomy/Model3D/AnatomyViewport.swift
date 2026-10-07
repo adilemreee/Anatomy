@@ -9,29 +9,43 @@ import UIKit
 
 /// The interactive 3D view: one finger orbits, two fingers pan, pinch zooms
 /// and a tap picks the part under the finger.
-struct AnatomyViewport: View {
+struct AnatomyViewport<Overlay: View>: View {
     let scene: AnatomyScene
     var onTap: (PartRef?) -> Void = { _ in }
+    var onSizeChange: (CGSize) -> Void = { _ in }
+    /// Drawn in the same coordinate space as the 3D view (e.g. labels).
+    @ViewBuilder var overlay: () -> Overlay
 
     var body: some View {
         GeometryReader { proxy in
-            RealityView { content in
-                content.add(scene.root)
+            ZStack(alignment: .topLeading) {
+                RealityView { content in
+                    content.add(scene.root)
+                }
+                .gesture(PanRecognizer(touches: 1...1, scene: scene) { delta in
+                    scene.orbit(by: delta)
+                })
+                .gesture(PanRecognizer(touches: 2...2, scene: scene) { delta in
+                    scene.pan(by: delta, viewHeight: proxy.size.height)
+                })
+                .gesture(PinchRecognizer(scene: scene) { factor in
+                    scene.zoom(by: factor)
+                })
+                .gesture(TapRecognizer { point in
+                    let size = proxy.size
+                    Task { onTap(await scene.pick(at: point, in: size)) }
+                })
+                overlay()
             }
-            .gesture(PanRecognizer(touches: 1...1) { delta in
-                scene.orbit(by: delta)
-            })
-            .gesture(PanRecognizer(touches: 2...2) { delta in
-                scene.pan(by: delta, viewHeight: proxy.size.height)
-            })
-            .gesture(PinchRecognizer { factor in
-                scene.zoom(by: factor)
-            })
-            .gesture(TapRecognizer { point in
-                let size = proxy.size
-                Task { onTap(await scene.pick(at: point, in: size)) }
-            })
+            .onAppear { onSizeChange(proxy.size) }
+            .onChange(of: proxy.size) { _, size in onSizeChange(size) }
         }
+    }
+}
+
+extension AnatomyViewport where Overlay == EmptyView {
+    init(scene: AnatomyScene, onTap: @escaping (PartRef?) -> Void = { _ in }) {
+        self.init(scene: scene, onTap: onTap, onSizeChange: { _ in }, overlay: { EmptyView() })
     }
 }
 
@@ -44,6 +58,7 @@ final class SimultaneousGestureDelegate: NSObject, UIGestureRecognizerDelegate {
 
 private struct PanRecognizer: UIGestureRecognizerRepresentable {
     let touches: ClosedRange<Int>
+    let scene: AnatomyScene
     let onChange: (CGSize) -> Void
 
     func makeCoordinator(converter: CoordinateSpaceConverter) -> SimultaneousGestureDelegate {
@@ -59,6 +74,11 @@ private struct PanRecognizer: UIGestureRecognizerRepresentable {
     }
 
     func handleUIGestureRecognizerAction(_ recognizer: UIPanGestureRecognizer, context: Context) {
+        switch recognizer.state {
+        case .began: scene.beginCameraInteraction()
+        case .ended, .cancelled, .failed: scene.cameraDidSettle()
+        default: break
+        }
         guard recognizer.state == .changed else { return }
         let t = recognizer.translation(in: recognizer.view)
         recognizer.setTranslation(.zero, in: recognizer.view)
@@ -67,6 +87,7 @@ private struct PanRecognizer: UIGestureRecognizerRepresentable {
 }
 
 private struct PinchRecognizer: UIGestureRecognizerRepresentable {
+    let scene: AnatomyScene
     let onChange: (CGFloat) -> Void
 
     func makeCoordinator(converter: CoordinateSpaceConverter) -> SimultaneousGestureDelegate {
@@ -80,6 +101,11 @@ private struct PinchRecognizer: UIGestureRecognizerRepresentable {
     }
 
     func handleUIGestureRecognizerAction(_ recognizer: UIPinchGestureRecognizer, context: Context) {
+        switch recognizer.state {
+        case .began: scene.beginCameraInteraction()
+        case .ended, .cancelled, .failed: scene.cameraDidSettle()
+        default: break
+        }
         guard recognizer.state == .changed else { return }
         onChange(recognizer.scale)
         recognizer.scale = 1

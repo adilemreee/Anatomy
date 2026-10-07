@@ -42,6 +42,16 @@ nonisolated struct PartInfo: Decodable, Hashable, Sendable {
     }
 
     var isFascia: Bool { fascia ?? false }
+
+    /// Sheets that wrap other structures (fasciae, pleura, peritoneal folds,
+    /// meninges). They are hidden by default so the organs inside are visible.
+    var isCovering: Bool {
+        if isFascia { return true }
+        let name = base.lowercased()
+        let words = ["pleura", "omentum", "mesocolon", "meso-appendix", "dura", "falx", "tentorium", "arachnoid", "pia mater"]
+        if words.contains(where: { name.contains($0) }) { return true }
+        return path.contains { $0 == "Meninges" || $0 == "Peritoneal structures" }
+    }
 }
 
 nonisolated struct PackManifest: Decodable, Sendable {

@@ -28,8 +28,17 @@ struct LayersSheet: View {
                     Toggle(isOn: $scene.xray) {
                         Label("Röntgen görünümü", systemImage: "circle.lefthalf.filled")
                     }
-                    Toggle(isOn: $scene.showFascia) {
-                        Label("Fasyaları göster", systemImage: "square.stack.3d.down.forward")
+                    Toggle(isOn: $scene.showCoverings) {
+                        Label {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Örtü dokularını göster")
+                                Text("Fasyalar, plevra, periton ve beyin zarları")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
+                        } icon: {
+                            Image(systemName: "square.stack.3d.down.forward")
+                        }
                     }
                     Button {
                         scene.showAll()

@@ -13,22 +13,27 @@ struct AtlasView: View {
     @State private var showParts = false
     @State private var detail: PartRef?
     @State private var tapCount = 0
+    @AppStorage("atlas.labels") private var showLabels = false
+    @State private var labels: [AnatomyScene.ScreenLabel] = []
+    @State private var viewSize: CGSize = .zero
 
     private var scene: AnatomyScene { app.scene }
 
     var body: some View {
         ZStack {
             backdrop
-            // Only keep the 3D view alive while the tab is on screen so
-            // RealityKit stops rendering in the background.
-            if app.tab == .atlas {
-                AnatomyViewport(scene: scene) { ref in
-                    withAnimation(.snappy) { scene.select(ref) }
-                    tapCount += 1
+            AnatomyViewport(scene: scene, onTap: { ref in
+                withAnimation(.snappy) { scene.select(ref) }
+                tapCount += 1
+            }, onSizeChange: { viewSize = $0 }) {
+                if showLabels, !scene.isCameraMoving {
+                    labelLayer
+                        .transition(.opacity)
                 }
-                .ignoresSafeArea()
             }
+            .ignoresSafeArea()
 
+            if !app.hidesChrome {
             VStack(spacing: 12) {
                 topBar
                 if scene.isIsolating || !scene.hiddenParts.isEmpty || !scene.highlighted.isEmpty {
@@ -47,12 +52,26 @@ struct AtlasView: View {
             }
             .padding(.horizontal, 16)
             .padding(.bottom, 8)
+            }
 
             if !scene.loadingLayers.isEmpty {
                 loadingBadge
             }
         }
+        .toolbarVisibility(app.hidesChrome ? .hidden : .automatic, for: .tabBar)
         .sensoryFeedback(.selection, trigger: tapCount)
+        .task(id: LabelKey(camera: scene.cameraVersion, visibility: scene.visibilityVersion, enabled: showLabels, size: viewSize)) {
+            guard showLabels else {
+                labels = []
+                return
+            }
+            try? await Task.sleep(for: .milliseconds(150))
+            guard !Task.isCancelled else { return }
+            let store = app.store
+            let result = await scene.labels(in: viewSize) { store.displayName(for: $0) }
+            guard !Task.isCancelled else { return }
+            withAnimation(.easeOut(duration: 0.2)) { labels = result }
+        }
         .animation(.snappy, value: scene.selection)
         .animation(.snappy, value: scene.isIsolating)
         .task {
@@ -103,11 +122,66 @@ struct AtlasView: View {
                     GlassIconButton(systemImage: "circle.lefthalf.filled", isOn: scene.xray, label: "Röntgen görünümü") {
                         scene.xray.toggle()
                     }
+                    GlassIconButton(systemImage: "tag", isOn: showLabels, label: "Etiketler") {
+                        withAnimation(.snappy) { showLabels.toggle() }
+                    }
                     GlassIconButton(systemImage: "scope", label: "Görünümü sıfırla") {
                         scene.resetCamera()
                     }
                 }
             }
+        }
+    }
+
+    private var labelLayer: some View {
+        ZStack(alignment: .topLeading) {
+            ForEach(labels) { label in
+                let color = scene.info(label.ref).map { Color(hex: PartPalette.color(for: $0, layer: label.ref.system)) } ?? .accentColor
+                Path { path in
+                    path.move(to: label.anchor)
+                    path.addLine(to: CGPoint(x: label.center.x < label.anchor.x ? label.center.x + 4 : label.center.x - 4, y: label.center.y))
+                }
+                .stroke(.white.opacity(0.85), lineWidth: 1)
+                Circle()
+                    .fill(color)
+                    .stroke(.white, lineWidth: 1.5)
+                    .frame(width: 8, height: 8)
+                    .position(label.anchor)
+                Button {
+                    withAnimation(.snappy) { scene.select(label.ref) }
+                    tapCount += 1
+                } label: {
+                    Text(label.text)
+                        .font(.caption2.weight(.semibold))
+                        .lineLimit(1)
+                        .fixedSize()
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .glassEffect(.regular, in: .capsule)
+                }
+                .buttonStyle(.plain)
+                .position(label.center)
+            }
+        }
+        .frame(width: viewSize.width, height: viewSize.height, alignment: .topLeading)
+    }
+
+    private struct LabelKey: Hashable {
+        let camera: Int
+        let visibility: Int
+        let enabled: Bool
+        let size: CGSize
+
+        static func == (a: LabelKey, b: LabelKey) -> Bool {
+            a.camera == b.camera && a.visibility == b.visibility && a.enabled == b.enabled && a.size == b.size
+        }
+
+        func hash(into hasher: inout Hasher) {
+            hasher.combine(camera)
+            hasher.combine(visibility)
+            hasher.combine(enabled)
+            hasher.combine(size.width)
+            hasher.combine(size.height)
         }
     }
 

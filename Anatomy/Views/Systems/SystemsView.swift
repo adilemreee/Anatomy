@@ -84,7 +84,7 @@ private struct SystemCard: View {
                 .font(.caption)
                 .foregroundStyle(.secondary)
         }
-        .frame(maxWidth: .infinity, minHeight: 140, alignment: .leading)
+        .frame(maxWidth: .infinity, minHeight: 112, alignment: .leading)
         .padding(14)
         .background(
             LinearGradient(colors: [system.tint.opacity(0.18), system.tint.opacity(0.05)], startPoint: .topLeading, endPoint: .bottomTrailing),

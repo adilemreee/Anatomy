@@ -58,7 +58,12 @@ final class AnatomyScene {
     private(set) var hiddenParts: Set<PartRef> = []
     private(set) var isolation: Set<PartRef>?
     private(set) var highlighted: Set<PartRef> = []
-    var showFascia = false { didSet { refreshAll() } }
+    var showCoverings = false { didSet { refreshAll() } }
+    /// Bumped whenever the camera comes to rest (after a gesture or animation).
+    private(set) var cameraVersion = 0
+    private(set) var isCameraMoving = false
+    /// Bumped whenever the set of drawn parts changes.
+    private(set) var visibilityVersion = 0
     var xray = false { didSet { refreshAll() } }
 
     /// Manifests for every layer, loaded eagerly so search works before the
@@ -66,6 +71,8 @@ final class AnatomyScene {
     @ObservationIgnored let manifests: [String: [PartInfo]]
     /// Lowercased part names and group names -> parts.
     @ObservationIgnored private let nameIndex: [String: [PartRef]]
+    /// Per-part `isCovering`, precomputed because it is checked on every refresh.
+    @ObservationIgnored private let coverings: [String: [Bool]]
 
     // MARK: RealityKit
 
@@ -114,6 +121,7 @@ final class AnatomyScene {
             }
         }
         nameIndex = index
+        coverings = manifests.mapValues { $0.map(\.isCovering) }
 
         let cameraComponent = PerspectiveCameraComponent(near: 0.01, far: 50, fieldOfViewInDegrees: fieldOfView, fieldOfViewOrientation: .vertical)
         camera.components.set(cameraComponent)
@@ -266,7 +274,7 @@ final class AnatomyScene {
         guard enabledLayers.contains(ref.system) else { return .hidden }
         if hiddenParts.contains(ref) { return .hidden }
         if let isolation, !isolation.contains(ref) { return .hidden }
-        if !showFascia, manifests[ref.system]?[ref.index].isFascia == true, selection != ref { return .hidden }
+        if !showCoverings, coverings[ref.system]?[ref.index] == true, selection != ref, !highlighted.contains(ref) { return .hidden }
         if selection == ref { return .selected }
         if highlighted.contains(ref) { return .highlighted }
         if xray { return .ghost }
@@ -326,6 +334,7 @@ final class AnatomyScene {
     }
 
     private func refresh(_ layer: String) {
+        visibilityVersion &+= 1
         guard let system = systems[layer] else { return }
         system.mesh.parts.replaceAll(parts(for: system))
         system.entity.isEnabled = enabledLayers.contains(layer)
@@ -446,6 +455,15 @@ final class AnatomyScene {
         applyCamera()
     }
 
+    func setCamera(target newTarget: SIMD3<Float>, distance newDistance: Float, yaw newYaw: Float, pitch newPitch: Float = 0.05) {
+        tween?.cancel()
+        target = newTarget
+        distance = newDistance
+        yaw = newYaw
+        pitch = newPitch
+        applyCamera()
+    }
+
     func resetCamera() {
         animateCamera(target: Self.homeTarget, distance: Self.homeDistance, yaw: 0, pitch: 0.05)
     }
@@ -500,7 +518,18 @@ final class AnatomyScene {
                 self.applyCamera()
                 try? await Task.sleep(for: .milliseconds(12))
             }
+            self?.cameraDidSettle()
         }
+    }
+
+    func beginCameraInteraction() {
+        tween?.cancel()
+        if !isCameraMoving { isCameraMoving = true }
+    }
+
+    func cameraDidSettle() {
+        isCameraMoving = false
+        cameraVersion += 1
     }
 
     private func applyCamera() {
@@ -510,6 +539,104 @@ final class AnatomyScene {
             cos(yaw) * cos(pitch)
         ) * distance
         camera.look(at: target, from: target + offset, relativeTo: nil)
+    }
+
+    // MARK: Labels
+
+    /// A name pinned on screen next to a visible part.
+    nonisolated struct ScreenLabel: Identifiable, Hashable, Sendable {
+        let ref: PartRef
+        /// The pinned surface point.
+        let anchor: CGPoint
+        /// Centre of the text pill, beside the anchor.
+        let center: CGPoint
+        let text: String
+        var id: PartRef { ref }
+    }
+
+    /// Projects a model-space point into view coordinates (nil if behind the camera).
+    func project(_ p: SIMD3<Float>, in size: CGSize) -> CGPoint? {
+        let inverse = camera.transformMatrix(relativeTo: nil).inverse
+        let c = inverse * SIMD4(p, 1)
+        guard c.z < -0.01 else { return nil }
+        let t = tan(fieldOfView * .pi / 360)
+        let aspect = Float(size.width / size.height)
+        let nx = c.x / (-c.z * t * aspect)
+        let ny = c.y / (-c.z * t)
+        return CGPoint(x: CGFloat((nx + 1) / 2) * size.width, y: CGFloat((1 - ny) / 2) * size.height)
+    }
+
+    /// Picks the largest parts on screen that are actually visible at their
+    /// centre and lays out non-overlapping labels for them.
+    func labels(in size: CGSize, name: (PartInfo) -> String, limit: Int = 16) async -> [ScreenLabel] {
+        guard size.width > 0 else { return [] }
+        let t = tan(fieldOfView * .pi / 360)
+        let cameraPosition = camera.position(relativeTo: nil)
+        var candidates: [(ref: PartRef, point: CGPoint, size: CGFloat, info: PartInfo)] = []
+        for (id, system) in systems where enabledLayers.contains(id) {
+            for (i, info) in system.pack.parts.enumerated() {
+                let ref = PartRef(system: id, index: i)
+                let st = state(of: ref)
+                guard st == .solid || st == .selected || st == .highlighted else { continue }
+                let depth = max(simd_distance(info.center, cameraPosition), 0.01)
+                let radius = simd_length(info.extent) / 2
+                let screen = CGFloat(radius / (depth * t)) * size.height / 2
+                guard screen > 18 else { continue }
+                // Anchor on the camera-facing surface rather than the box centre,
+                // which is often buried inside the body.
+                let anchor = Self.surfaceAnchor(pack: system.pack, part: i, camera: cameraPosition) ?? info.center
+                guard let point = project(anchor, in: size),
+                      point.x > 30, point.x < size.width - 30, point.y > 120, point.y < size.height - 150 else { continue }
+                candidates.append((ref, point, screen, info))
+            }
+        }
+        candidates.sort { $0.size > $1.size }
+
+        var out: [ScreenLabel] = []
+        var taken: [CGRect] = []
+        var names = Set<String>()
+        for c in candidates.prefix(140) {
+            guard out.count < limit else { break }
+            let text = name(c.info)
+            guard !names.contains(text) else { continue }
+            // Is the part really what we see at its centre?
+            guard let hit = await pick(at: c.point, in: size), hit == c.ref || manifests[hit.system]?[hit.index].base == c.info.base else { continue }
+            // The pill grows away from the body's midline so the anchor stays visible.
+            let width = CGFloat(text.count) * 6.3 + 22
+            let leftSide = c.point.x < size.width / 2
+            var x = leftSide ? c.point.x - width - 6 : c.point.x + 6
+            x = min(max(x, 8), size.width - width - 8)
+            let rect = CGRect(x: x, y: c.point.y - 12, width: width, height: 24)
+            guard !taken.contains(where: { $0.insetBy(dx: -3, dy: -3).intersects(rect) }) else { continue }
+            taken.append(rect)
+            names.insert(text)
+            out.append(ScreenLabel(ref: c.ref, anchor: c.point, center: CGPoint(x: rect.midX, y: rect.midY), text: text))
+        }
+        return out
+    }
+
+    /// The front-facing vertex closest to the centroid of the part's
+    /// camera-facing surface.
+    nonisolated private static func surfaceAnchor(pack: MeshPack, part: Int, camera: SIMD3<Float>) -> SIMD3<Float>? {
+        let range = pack.ranges[part]
+        let step = max(1, range.vertexCount / 60)
+        var sum = SIMD3<Float>.zero
+        var count: Float = 0
+        var facing: [SIMD3<Float>] = []
+        var v = range.vertexStart
+        let end = range.vertexStart + range.vertexCount
+        while v < end {
+            let p = pack.positions[v]
+            if simd_dot(pack.normals[v], camera - p) > 0 {
+                sum += p
+                count += 1
+                facing.append(p)
+            }
+            v += step
+        }
+        guard count > 0 else { return nil }
+        let centroid = sum / count
+        return facing.min { simd_distance_squared($0, centroid) < simd_distance_squared($1, centroid) }
     }
 
     // MARK: Picking
