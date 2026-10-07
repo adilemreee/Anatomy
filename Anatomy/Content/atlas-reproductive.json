@@ -1,0 +1,529 @@
+{
+ "system": "reproductive",
+ "entries": [
+  {
+   "id": "testis",
+   "tr": "Testis (husye)",
+   "la": "Testis",
+   "en": "Testis",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Skrotum içinde yer alan, sperm hücrelerini ve testosteronu üreten çift erkek üreme bezidir.",
+   "facts": [
+    [
+     "Boyut",
+     "Yaklaşık 4–5 × 3 cm, 15–25 mL"
+    ],
+    [
+     "Kılıflar",
+     "Tunica vaginalis (periton kökenli), tunica albuginea (sert fibröz kapsül)"
+    ],
+    [
+     "İç yapı",
+     "250–300 lobül, tubuli seminiferi contorti (spermatogenez – Sertoli hücreleri), interstisyel Leydig hücreleri (testosteron)"
+    ],
+    [
+     "Kanlanma",
+     "A. testicularis (L2 hizasında aortadan)"
+    ],
+    [
+     "Venöz drenaj",
+     "Plexus pampiniformis → v. testicularis (sağda IVC'ye, solda v. renalis sinistra'ya)"
+    ],
+    [
+     "Lenf drenajı",
+     "Paraaortik (lomber) lenf düğümleri – skrotum derisi ise yüzeyel inguinal düğümlere"
+    ]
+   ],
+   "sections": [
+    [
+     "İniş",
+     "Testisler karın arka duvarında gelişir ve gubernaculum rehberliğinde kasık kanalından geçerek doğumdan önce skrotuma iner."
+    ]
+   ],
+   "clinical": [
+    "İnmemiş testis (kriptorşidizm) infertilite ve kanser riskini artırır.",
+    "Testis torsiyonu ani başlayan şiddetli skrotal ağrıyla seyreden acil bir durumdur; 6 saat içinde müdahale gerekir.",
+    "Varikosel en sık solda görülür (sol testiküler venin renal vene dik açıyla dökülmesi)."
+   ],
+   "related": [
+    "epididymis",
+    "ductus-deferens",
+    "aorta"
+   ],
+   "models": [
+    "Testis"
+   ],
+   "aliases": [
+    "testis",
+    "husye",
+    "yumurtalık (erkek)"
+   ]
+  },
+  {
+   "id": "epididymis",
+   "tr": "Epididim",
+   "la": "Epididymis",
+   "en": "Epididymis",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Testisin arka kenarına yapışık, spermlerin olgunlaştığı ve depolandığı kıvrımlı kanaldır. Açıldığında yaklaşık 6 m uzunluğundadır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Caput, corpus, cauda (ductus deferens'e devam eder)"
+    ],
+    [
+     "İşlev",
+     "Spermlerin hareket yeteneği kazanması (2–3 hafta) ve depolanması"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Epididimit genellikle cinsel yolla bulaşan veya idrar yolu kaynaklı enfeksiyonla gelişir; skrotum kaldırılınca ağrı azalır (Prehn bulgusu)."
+   ],
+   "related": [
+    "testis",
+    "ductus-deferens"
+   ],
+   "models": [
+    "Epididymis"
+   ],
+   "aliases": [
+    "epididim"
+   ]
+  },
+  {
+   "id": "ductus-deferens",
+   "tr": "Sperm kanalı",
+   "la": "Ductus deferens",
+   "en": "Ductus deferens (vas deferens)",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Epididimden prostat içindeki ejakülasyon kanalına kadar spermleri taşıyan, kalın kas duvarlı kanaldır. Funiculus spermaticus'un en belirgin yapısıdır.",
+   "facts": [
+    [
+     "Uzunluk",
+     "Yaklaşık 45 cm"
+    ],
+    [
+     "Seyir",
+     "Funiculus spermaticus içinde kasık kanalından geçer, pelvis yan duvarında üreteri önden çaprazlar, mesanenin arkasında ampulla oluşturur ve glandula vesiculosa kanalıyla birleşerek ductus ejaculatorius'u yapar"
+    ],
+    [
+     "Funiculus spermaticus içeriği",
+     "Ductus deferens, a. testicularis, plexus pampiniformis, a. ductus deferentis, lenfatikler, otonom sinirler, n. genitofemoralis'in genital dalı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Vazektomide skrotum üst kısmında ductus deferens kesilip bağlanarak kalıcı doğum kontrolü sağlanır."
+   ],
+   "related": [
+    "epididymis",
+    "glandula-vesiculosa",
+    "prostata",
+    "testis"
+   ],
+   "models": [
+    "Ductus deferens",
+    "Ejaculatory duct"
+   ],
+   "aliases": [
+    "vas deferens"
+   ]
+  },
+  {
+   "id": "glandula-vesiculosa",
+   "tr": "Seminal bez (vezikül)",
+   "la": "Glandula vesiculosa (vesicula seminalis)",
+   "en": "Seminal gland",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Mesanenin arka yüzünde, ductus deferens'in dışında yer alan, kıvrımlı tüp biçimli çift bezdir. Meninin hacminin yaklaşık %60–70'ini oluşturan, fruktozdan zengin sıvıyı salgılar.",
+   "facts": [
+    [
+     "Konum",
+     "Mesane fundusu ile rektum arasında"
+    ],
+    [
+     "Salgı",
+     "Fruktoz (sperm için enerji), prostaglandinler, semenogelin"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "ductus-deferens",
+    "prostata",
+    "vesica-urinaria"
+   ],
+   "models": [
+    "Seminal gland"
+   ],
+   "aliases": [
+    "seminal vezikül"
+   ]
+  },
+  {
+   "id": "prostata",
+   "tr": "Prostat bezi",
+   "la": "Prostata",
+   "en": "Prostate",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Mesanenin hemen altında, üretranın başlangıç kısmını çevreleyen, ceviz büyüklüğünde bezdir. Meninin yaklaşık %30'unu oluşturan hafif asidik sıvıyı salgılar.",
+   "facts": [
+    [
+     "Ağırlık",
+     "Erişkinde yaklaşık 20 g"
+    ],
+    [
+     "Zonları",
+     "Periferik zon (kanserlerin çoğu – rektal tuşede ele gelir), transizyonel zon (BPH), santral zon, anterior fibromüsküler stroma"
+    ],
+    [
+     "Salgı",
+     "PSA (prostat spesifik antijen), sitrat, çinko, asit fosfataz"
+    ],
+    [
+     "Komşuluk",
+     "Arkasında rektum (rektal tuşe ile muayene edilir)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Benign prostat hiperplazisi (BPH) yaşlı erkeklerde idrar yapma güçlüğü, sık idrara çıkma ve gece idrara kalkmaya neden olur.",
+    "Prostat kanseri erkeklerde en sık görülen kanserlerdendir; omurgaya metastaz yapabilir (Batson venöz pleksusu)."
+   ],
+   "related": [
+    "vesica-urinaria",
+    "urethra",
+    "glandula-vesiculosa",
+    "rectum"
+   ],
+   "models": [
+    "Prostate"
+   ],
+   "aliases": [
+    "prostat",
+    "BPH"
+   ]
+  },
+  {
+   "id": "penis",
+   "tr": "Penis",
+   "la": "Penis",
+   "en": "Penis",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Erkek dış genital organıdır; üretrayı içerir ve işeme ile cinsel işlevde görev alır. Üç silindirik erektil dokudan oluşur.",
+   "facts": [
+    [
+     "Erektil dokular",
+     "İki corpus cavernosum (sırt tarafta) ve bir corpus spongiosum (alt tarafta; üretrayı içerir, ucunda glans penis)"
+    ],
+    [
+     "Bölümleri",
+     "Radix, corpus, glans penis; prepuce (sünnet derisi)"
+    ],
+    [
+     "Kanlanma",
+     "A. pudenda interna dalları: a. dorsalis penis, a. profunda penis (ereksiyon), a. bulbi penis"
+    ],
+    [
+     "İnnervasyon",
+     "N. dorsalis penis (n. pudendus – duyu); ereksiyon parasempatik (S2–S4, nn. splanchnici pelvici), ejakülasyon sempatik"
+    ],
+    [
+     "Akılda tutma",
+     "‘Point and Shoot’: parasempatik ereksiyon, sempatik ejakülasyon"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Erektil disfonksiyonun en sık nedeni vasküler hastalıklardır.",
+    "Hipospadiaste üretra glansın alt yüzünde açılır."
+   ],
+   "related": [
+    "urethra",
+    "n-pudendus",
+    "testis"
+   ],
+   "models": [
+    "Penis",
+    "Male external genitalia",
+    "Corpus cavernosum of penis",
+    "Corpus spongiosum of penis",
+    "Glans penis"
+   ],
+   "aliases": [
+    "penis"
+   ]
+  },
+  {
+   "id": "ovarium",
+   "tr": "Yumurtalık",
+   "la": "Ovarium",
+   "en": "Ovary",
+   "group": "Kadın üreme organları",
+   "region": "pelvis",
+   "summary": "Pelvisin yan duvarında, uterusun iki yanında yer alan, yumurta hücrelerini (oosit) ve östrojen ile progesteron hormonlarını üreten badem biçimli çift kadın üreme bezidir.",
+   "facts": [
+    [
+     "Boyut",
+     "Yaklaşık 3 × 1,5 × 1 cm"
+    ],
+    [
+     "Konum",
+     "Fossa ovarica (a. iliaca interna ve externa arası)"
+    ],
+    [
+     "Bağları",
+     "Lig. suspensorium ovarii (damarları taşır), lig. ovarii proprium (uterusa bağlar), mesovarium"
+    ],
+    [
+     "Yapısı",
+     "Korteks (foliküller) ve medulla (damarlar)"
+    ],
+    [
+     "Kanlanma",
+     "A. ovarica (aortadan) ve a. uterina'nın ovarian dalı"
+    ],
+    [
+     "Döngü",
+     "Her ay bir folikül olgunlaşır; ovulasyon sonrası corpus luteum progesteron salgılar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Over kistleri sıktır; torsiyon akut pelvik ağrıya neden olur.",
+    "Polikistik over sendromu düzensiz adet, hiperandrojenizm ve infertiliteye yol açar.",
+    "Over kanseri genellikle geç tanı alır; ‘sessiz katil’ olarak bilinir.",
+    "Over ağrısı fossa ovarica'nın yan duvarındaki n. obturatorius nedeniyle uyluk iç yüzüne yansıyabilir."
+   ],
+   "related": [
+    "tuba-uterina",
+    "uterus",
+    "aorta"
+   ],
+   "models": [],
+   "aliases": [
+    "over",
+    "yumurtalık"
+   ]
+  },
+  {
+   "id": "tuba-uterina",
+   "tr": "Fallop tüpü",
+   "la": "Tuba uterina",
+   "en": "Uterine tube",
+   "group": "Kadın üreme organları",
+   "region": "pelvis",
+   "summary": "Yumurtalığı uterusa bağlayan, yaklaşık 10 cm uzunluğundaki kanaldır. Döllenme genellikle bu tüpün ampulla bölümünde gerçekleşir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Infundibulum (fimbrialar), ampulla (en geniş; döllenme yeri), isthmus, pars uterina"
+    ],
+    [
+     "Epitel",
+     "Silyalı ve salgı hücreli; yumurtayı uterusa doğru taşır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dış gebeliklerin (ektopik gebelik) %95'inden fazlası tüplerde, en sık ampullada görülür; yırtılması ölümcül kanamaya neden olabilir.",
+    "Pelvik inflamatuvar hastalık tüp hasarı ve infertiliteye yol açabilir.",
+    "Tüp ligasyonu kalıcı doğum kontrol yöntemidir."
+   ],
+   "related": [
+    "ovarium",
+    "uterus"
+   ],
+   "models": [],
+   "aliases": [
+    "fallop",
+    "tuba",
+    "ektopik gebelik"
+   ]
+  },
+  {
+   "id": "uterus",
+   "tr": "Rahim",
+   "la": "Uterus",
+   "en": "Uterus",
+   "group": "Kadın üreme organları",
+   "region": "pelvis",
+   "summary": "Mesane ile rektum arasında yer alan, gebelikte embriyo ve fetüsü barındıran kalın kas duvarlı, armut biçimli organdır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Fundus, corpus, isthmus, cervix (boyun; vajinaya açılır)"
+    ],
+    [
+     "Duvar katmanları",
+     "Endometrium (adet döngüsünde dökülen), myometrium (düz kas), perimetrium (periton)"
+    ],
+    [
+     "Normal pozisyon",
+     "Antefleksiyon ve anteversiyon"
+    ],
+    [
+     "Bağları",
+     "Lig. latum, lig. teres uteri, lig. cardinale (transversum cervicis – en önemli destek), lig. uterosacrale"
+    ],
+    [
+     "Kanlanma",
+     "A. uterina (a. iliaca interna dalı) – üreterin üstünden geçer"
+    ]
+   ],
+   "sections": [
+    [
+     "Rektouterin çukur",
+     "Uterus ile rektum arasındaki excavatio rectouterina (Douglas boşluğu), kadında periton boşluğunun en alçak noktasıdır; sıvı ve kan burada toplanır."
+    ]
+   ],
+   "clinical": [
+    "Miyomlar (leiomyom) uterusun en sık iyi huylu tümörleridir.",
+    "Rahim ağzı (serviks) kanseri HPV ile ilişkilidir; Pap smear taraması ve HPV aşısı ile önlenebilir.",
+    "Endometriozis, endometrium dokusunun uterus dışında bulunmasıdır."
+   ],
+   "related": [
+    "tuba-uterina",
+    "ovarium",
+    "vagina",
+    "vesica-urinaria",
+    "rectum",
+    "ureter"
+   ],
+   "models": [],
+   "aliases": [
+    "rahim",
+    "serviks",
+    "endometrium"
+   ]
+  },
+  {
+   "id": "vagina",
+   "tr": "Vajina",
+   "la": "Vagina",
+   "en": "Vagina",
+   "group": "Kadın üreme organları",
+   "region": "pelvis",
+   "summary": "Rahim boynundan dış genital organlara uzanan, yaklaşık 8–10 cm uzunluğundaki fibromüsküler kanaldır. Doğum kanalının bir parçasıdır.",
+   "facts": [
+    [
+     "Fornixler",
+     "Serviks çevresinde ön, arka (en derin; Douglas boşluğuna komşu) ve yan fornixler"
+    ],
+    [
+     "Epitel",
+     "Çok katlı yassı epitel (keratinsiz); bezsizdir"
+    ],
+    [
+     "Kanlanma",
+     "A. vaginalis, a. uterina dalları"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Arka forniksten Douglas boşluğuna ulaşılabilir (kuldosentez).",
+    "Doğum sırasında perine yırtıklarını önlemek için epizyotomi yapılabilir."
+   ],
+   "related": [
+    "uterus",
+    "vulva",
+    "diaphragma-pelvis"
+   ],
+   "models": [],
+   "aliases": [
+    "vajina"
+   ]
+  },
+  {
+   "id": "vulva",
+   "tr": "Dış genital organlar (kadın)",
+   "la": "Pudendum femininum (vulva)",
+   "en": "Vulva",
+   "group": "Kadın üreme organları",
+   "region": "pelvis",
+   "summary": "Kadın dış genital organlarının tümüdür: mons pubis, büyük ve küçük dudaklar (labia majora ve minora), klitoris, vestibulum vaginae ve bezleri.",
+   "facts": [
+    [
+     "Yapılar",
+     "Mons pubis, labia majora, labia minora, clitoris, vestibulum vaginae (üretra ve vajina ağzı), bulbus vestibuli"
+    ],
+    [
+     "Bezler",
+     "Glandulae vestibulares majores (Bartholin) – vajina girişinin arka-yan kısmında"
+    ],
+    [
+     "İnnervasyon",
+     "N. pudendus, n. ilioinguinalis, n. genitofemoralis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bartholin bezi kanalının tıkanması kist veya apseye yol açabilir."
+   ],
+   "related": [
+    "vagina",
+    "n-pudendus"
+   ],
+   "models": [],
+   "aliases": [
+    "vulva",
+    "klitoris",
+    "labia"
+   ]
+  },
+  {
+   "id": "glandula-mammaria",
+   "tr": "Meme bezi",
+   "la": "Glandula mammaria",
+   "en": "Mammary gland",
+   "group": "Kadın üreme organları",
+   "region": "thorax",
+   "summary": "Göğüs ön duvarında, m. pectoralis major'un fasyası üzerinde yer alan, süt salgılayan modifiye ter bezidir.",
+   "facts": [
+    [
+     "Konum",
+     "2.–6. kaburgalar arası; sternum kenarından orta aksiller hatta; koltuk altına uzanan Spence kuyruğu"
+    ],
+    [
+     "Yapısı",
+     "15–20 lob, her lobun kendi süt kanalı (ductus lactiferus) meme başına açılır; Cooper bağları (ligg. suspensoria mammaria)"
+    ],
+    [
+     "Kanlanma",
+     "A. thoracica interna (perforan dallar), a. thoracica lateralis, aa. intercostales"
+    ],
+    [
+     "Lenf drenajı",
+     "%75 aksiller lenf düğümlerine, geri kalanı parasternal düğümlere"
+    ],
+    [
+     "Hormonal kontrol",
+     "Prolaktin süt yapımını, oksitosin süt salınımını sağlar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Meme kanseri kadınlarda en sık kanserdir; en sık üst-dış kadranda görülür.",
+    "Kanserin Cooper bağlarını tutması deride çekintiye, lenfatik tıkanma ‘portakal kabuğu’ görünümüne (peau d'orange) yol açar.",
+    "Erkeklerde meme dokusunun büyümesine jinekomasti denir."
+   ],
+   "related": [
+    "m-pectoralis-major",
+    "a-subclavia",
+    "nodi-lymphoidei"
+   ],
+   "models": [],
+   "aliases": [
+    "meme",
+    "göğüs"
+   ]
+  }
+ ]
+}

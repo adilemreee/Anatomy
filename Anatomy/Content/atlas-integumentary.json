@@ -1,0 +1,498 @@
+{
+ "system": "integumentary",
+ "entries": [
+  {
+   "id": "cutis",
+   "tr": "Deri",
+   "la": "Cutis",
+   "en": "Skin",
+   "group": "Deri katmanları",
+   "region": "general",
+   "summary": "Vücudun dış yüzeyini örten en büyük organdır. Epidermis, dermis ve altındaki hipodermisten (tela subcutanea) oluşur; koruma, ısı düzenleme, duyu ve metabolik işlevler üstlenir.",
+   "facts": [
+    [
+     "Yüzey alanı",
+     "Erişkinde 1,5–2 m²"
+    ],
+    [
+     "Kalınlık",
+     "0,5 mm (göz kapağı) ile 4 mm (sırt, avuç içi, ayak tabanı) arası"
+    ],
+    [
+     "Katmanlar",
+     "Epidermis (çok katlı yassı keratinize epitel), dermis (bağ dokusu; damarlar, sinirler, ekler), hipodermis (yağ dokusu)"
+    ],
+    [
+     "İşlevler",
+     "Mekanik, kimyasal, UV ve mikrobiyal koruma; su kaybını önleme; ısı düzenleme; dokunma, ağrı, ısı ve basınç algısı; D vitamini sentezi; bağışıklık"
+    ],
+    [
+     "Duyu reseptörleri",
+     "Meissner (hafif dokunma), Pacini (titreşim, basınç), Merkel (sürekli dokunma), Ruffini (gerilme), serbest sinir uçları (ağrı, ısı)"
+    ]
+   ],
+   "sections": [
+    [
+     "Langer çizgileri",
+     "Dermisteki kollajen liflerin yönünü gösteren çizgilerdir; cerrahi kesiler bu çizgilere paralel yapılırsa daha az belirgin iz kalır."
+    ]
+   ],
+   "clinical": [
+    "Yanıklar derinliğine göre birinci, ikinci (yüzeyel ve derin) ve üçüncü derece olarak sınıflandırılır; yetişkinde yüzey alanı ‘dokuzlar kuralı’ ile hesaplanır.",
+    "Melanom en ölümcül deri kanseridir; ABCDE kuralı (asimetri, sınır, renk, çap, değişim) ile şüphelenilir.",
+    "Bası yaraları hareketsiz hastalarda kemik çıkıntılarının üzerinde gelişir."
+   ],
+   "related": [
+    "epidermis",
+    "dermis",
+    "pili",
+    "unguis",
+    "glandulae-cutis"
+   ],
+   "models": [
+    "Regions of human body"
+   ],
+   "aliases": [
+    "deri",
+    "cilt"
+   ]
+  },
+  {
+   "id": "epidermis",
+   "tr": "Epidermis (üst deri)",
+   "la": "Epidermis",
+   "en": "Epidermis",
+   "group": "Deri katmanları",
+   "region": "general",
+   "summary": "Derinin en dış, damarsız tabakasıdır. Çok katlı yassı keratinize epitelden oluşur ve sürekli yenilenir (yaklaşık 4 haftada).",
+   "facts": [
+    [
+     "Tabakaları (derinden yüzeye)",
+     "Stratum basale, stratum spinosum, stratum granulosum, stratum lucidum (yalnız kalın deride), stratum corneum"
+    ],
+    [
+     "Hücreleri",
+     "Keratinositler, melanositler (pigment), Langerhans hücreleri (bağışıklık), Merkel hücreleri (dokunma)"
+    ],
+    [
+     "Kalın deri",
+     "Avuç içi ve ayak tabanı – kıl ve yağ bezi içermez"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Sedef hastalığında (psoriazis) epidermis yenilenmesi hızlanır ve gümüşi pullu plaklar oluşur.",
+    "Bazal hücreli karsinom en sık deri kanseridir; nadiren metastaz yapar."
+   ],
+   "related": [
+    "cutis",
+    "dermis"
+   ],
+   "models": [],
+   "aliases": [
+    "üst deri"
+   ]
+  },
+  {
+   "id": "dermis",
+   "tr": "Dermis (alt deri)",
+   "la": "Dermis (corium)",
+   "en": "Dermis",
+   "group": "Deri katmanları",
+   "region": "general",
+   "summary": "Epidermisin altındaki, kollajen ve elastik liflerden zengin bağ dokusu tabakasıdır; derinin dayanıklılığını ve esnekliğini sağlar.",
+   "facts": [
+    [
+     "Tabakaları",
+     "Stratum papillare (gevşek bağ dokusu; parmak izlerini oluşturan papillalar, Meissner cisimcikleri) ve stratum reticulare (sık düzensiz bağ dokusu)"
+    ],
+    [
+     "İçerik",
+     "Kan ve lenf damarları, sinirler, kıl kökleri, ter ve yağ bezleri, duyu reseptörleri"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dermiste aşırı kollajen birikimi keloid ve hipertrofik skara neden olur.",
+    "Gebelik çatlakları (stria) dermisin aşırı gerilmesiyle oluşur."
+   ],
+   "related": [
+    "cutis",
+    "epidermis",
+    "tela-subcutanea"
+   ],
+   "models": [],
+   "aliases": [
+    "alt deri",
+    "korium"
+   ]
+  },
+  {
+   "id": "tela-subcutanea",
+   "tr": "Deri altı dokusu (hipodermis)",
+   "la": "Tela subcutanea (hypodermis)",
+   "en": "Subcutaneous tissue",
+   "group": "Deri katmanları",
+   "region": "general",
+   "summary": "Deriyi alttaki fasya ve kaslara bağlayan, ağırlıklı olarak yağ dokusundan oluşan tabakadır. Isı yalıtımı, enerji deposu ve darbe emici olarak görev yapar.",
+   "facts": [
+    [
+     "İçerik",
+     "Yağ dokusu, gevşek bağ dokusu, yüzeyel damarlar ve sinirler, Pacini cisimcikleri"
+    ],
+    [
+     "Dağılım",
+     "Cinsiyete, yaşa ve vücut bölgesine göre farklılık gösterir; göz kapağı ve penis derisinde yoktur"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "İnsülin ve bazı aşılar deri altına (subkutan) uygulanır.",
+    "Selülit deri altı dokusunun bakteriyel enfeksiyonudur."
+   ],
+   "related": [
+    "dermis",
+    "cutis"
+   ],
+   "models": [],
+   "aliases": [
+    "hipodermis",
+    "subkutan"
+   ]
+  },
+  {
+   "id": "pili",
+   "tr": "Kıllar",
+   "la": "Pili",
+   "en": "Hair",
+   "group": "Deri ekleri",
+   "region": "general",
+   "summary": "Avuç içi, ayak tabanı, dudaklar ve bazı genital bölgeler dışında tüm vücudu örten, keratinden oluşan iplik biçimli deri ekleridir.",
+   "facts": [
+    [
+     "Yapısı",
+     "Scapus (gövde – deri dışında), radix (kök), bulbus pili, papilla pili (besleyici damarlar)"
+    ],
+    [
+     "Kıl folikülü",
+     "Kıl kökünü saran epitel ve bağ dokusu kılıfı; m. arrector pili (sempatik – ‘tüylerin diken diken olması’) ve yağ bezi bağlıdır"
+    ],
+    [
+     "Büyüme evreleri",
+     "Anagen (büyüme), katagen (gerileme), telogen (dinlenme)"
+    ],
+    [
+     "Tipleri",
+     "Lanugo (fetal), vellus (ince), terminal kıllar (saç, kaş, kirpik, sakal, aksiller ve pubik kıllar)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Androjenetik alopesi (erkek tipi kellik) androjen duyarlı folikülerin küçülmesiyle olur.",
+    "Alopecia areata otoimmün kökenli yamalı saç dökülmesidir."
+   ],
+   "related": [
+    "cutis",
+    "glandulae-cutis"
+   ],
+   "models": [
+    "Hairs",
+    "Hairs of head",
+    "Hairs of eyebrow",
+    "Eyelashes",
+    "Pubic hairs",
+    "Eyebrow"
+   ],
+   "aliases": [
+    "saç",
+    "kıl",
+    "kaş",
+    "kirpik"
+   ]
+  },
+  {
+   "id": "unguis",
+   "tr": "Tırnak",
+   "la": "Unguis",
+   "en": "Nail",
+   "group": "Deri ekleri",
+   "region": "general",
+   "summary": "Parmak uçlarının sırt yüzünde yer alan, sertleşmiş keratin plakadır. Parmak ucunu korur ve ince kavrama hareketlerine yardım eder.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Corpus unguis (tırnak plağı), radix unguis (kök), lunula (beyaz yarımay), eponychium (kütikül), hyponychium, perionyx"
+    ],
+    [
+     "Büyüme hızı",
+     "El tırnakları ayda yaklaşık 3 mm; ayak tırnakları daha yavaş"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Çomak parmak (clubbing) kronik akciğer ve kalp hastalıklarının bulgusu olabilir.",
+    "Batık tırnak en sık ayak başparmağında görülür.",
+    "Koilonişi (kaşık tırnak) demir eksikliği anemisinde görülebilir."
+   ],
+   "related": [
+    "cutis",
+    "phalanges-manus",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "Nail plate",
+    "Nail plate (foot)",
+    "Perionyx",
+    "Perionyx (foot)"
+   ],
+   "aliases": [
+    "tırnak"
+   ]
+  },
+  {
+   "id": "glandulae-cutis",
+   "tr": "Deri bezleri",
+   "la": "Glandulae cutis",
+   "en": "Glands of skin",
+   "group": "Deri ekleri",
+   "region": "general",
+   "summary": "Deride bulunan ter bezleri (ekrin ve apokrin) ile yağ bezleridir (sebase). Isı düzenleme, derinin korunması ve feromon salgısında görev alırlar.",
+   "facts": [
+    [
+     "Ekrin ter bezleri",
+     "Tüm vücutta, en yoğun avuç içi, ayak tabanı ve alında; ısı düzenleme; sempatik ancak kolinerjik innervasyon"
+    ],
+    [
+     "Apokrin ter bezleri",
+     "Koltuk altı, areola ve genital bölgede; kıl foliküllerine açılır; ergenlikte aktifleşir; bakterilerle koku oluşur"
+    ],
+    [
+     "Yağ bezleri",
+     "Kıl foliküllerine açılır; sebum salgılar (holokrin); avuç içi ve ayak tabanında yoktur"
+    ],
+    [
+     "Özel bezler",
+     "Kulak yolunda serüminöz bezler, göz kapağında Meibom bezleri, meme bezi (modifiye apokrin)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akne, yağ bezlerinin tıkanması ve iltihabıdır.",
+    "Hiperhidroz aşırı terlemedir; ciddi vakalarda sempatektomi uygulanabilir."
+   ],
+   "related": [
+    "cutis",
+    "pili",
+    "glandula-mammaria"
+   ],
+   "models": [],
+   "aliases": [
+    "ter bezi",
+    "yağ bezi",
+    "sebase"
+   ]
+  },
+  {
+   "id": "regiones-abdominis",
+   "tr": "Karın bölgeleri",
+   "la": "Regiones abdominis",
+   "en": "Regions of abdomen",
+   "group": "Vücut bölgeleri",
+   "region": "abdomen",
+   "summary": "Karın ön duvarı, klinik muayene ve ağrı lokalizasyonu için iki yatay ve iki dikey çizgiyle dokuz bölgeye ayrılır. Daha basit bir yöntemde göbekten geçen çizgilerle dört kadran tanımlanır.",
+   "facts": [
+    [
+     "Dokuz bölge",
+     "Üstte sağ ve sol hipokondriyak ile epigastrik; ortada sağ ve sol lateral (lumbar) ile umbilikal; altta sağ ve sol inguinal (iliak) ile hipogastrik (suprapubik)"
+    ],
+    [
+     "Çizgiler",
+     "Planum subcostale ve planum intertuberculare (yatay); orta klaviküler hatlar (dikey)"
+    ],
+    [
+     "Dört kadran",
+     "Sağ üst, sol üst, sağ alt, sol alt"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Apandisit ağrısı umbilikal bölgede başlayıp sağ alt kadrana göç eder.",
+    "Safra kesesi ağrısı sağ hipokondriyumda, pankreatit ağrısı epigastriumda hissedilir."
+   ],
+   "related": [
+    "peritoneum",
+    "m-rectus-abdominis"
+   ],
+   "models": [
+    "Regions of abdomen"
+   ],
+   "aliases": [
+    "kadran",
+    "epigastrium",
+    "hipokondriyum"
+   ]
+  },
+  {
+   "id": "trigona-colli",
+   "tr": "Boyun üçgenleri",
+   "la": "Trigona colli",
+   "en": "Triangles of neck",
+   "group": "Vücut bölgeleri",
+   "region": "neck",
+   "summary": "Boyun, m. sternocleidomastoideus tarafından ön ve yan (arka) üçgenlere ayrılır; bunlar da kendi içinde alt üçgenlere bölünür. Klinik muayene ve cerrahi için önemli topografik bölgelerdir.",
+   "facts": [
+    [
+     "Ön üçgen",
+     "Sınırları: orta hat, mandibula alt kenarı, SKM ön kenarı. Alt üçgenleri: submandibular, submental, karotis ve muskuler üçgenler"
+    ],
+    [
+     "Karotis üçgeni içeriği",
+     "A. carotis communis çatallanması, v. jugularis interna, n. vagus, n. hypoglossus"
+    ],
+    [
+     "Yan (arka) üçgen",
+     "Sınırları: SKM arka kenarı, trapezius ön kenarı, clavicula. İçeriği: n. accessorius, plexus brachialis gövdeleri, a. subclavia'nın 3. bölümü, v. jugularis externa"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Arka üçgende yüzeyel seyreden n. accessorius lenf düğümü biyopsisinde zedelenebilir."
+   ],
+   "related": [
+    "m-sternocleidomastoideus",
+    "a-carotis-communis",
+    "n-accessorius",
+    "plexus-brachialis"
+   ],
+   "models": [
+    "Carotid triangle",
+    "Muscular triangle",
+    "Submandibular triangle",
+    "Submental triangle",
+    "Lateral region of neck"
+   ],
+   "aliases": [
+    "karotis üçgeni",
+    "boyun üçgeni"
+   ]
+  },
+  {
+   "id": "fossa-cubitalis",
+   "tr": "Dirsek çukuru",
+   "la": "Fossa cubitalis",
+   "en": "Cubital fossa",
+   "group": "Vücut bölgeleri",
+   "region": "upperLimb",
+   "summary": "Dirseğin önündeki üçgen biçimli çukurdur; damar yolu açma ve kan almanın en sık yapıldığı bölgedir.",
+   "facts": [
+    [
+     "Sınırları",
+     "Yukarıda epikondilleri birleştiren hat, dışta m. brachioradialis, içte m. pronator teres; tabanda m. brachialis ve m. supinator"
+    ],
+    [
+     "İçerik (dıştan içe)",
+     "Biseps tendonu, a. brachialis, n. medianus; dış kenarında n. radialis"
+    ],
+    [
+     "Yüzeyel yapılar",
+     "V. mediana cubiti, v. cephalica, v. basilica"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kan alma sırasında aponeurosis bicipitalis'in altındaki a. brachialis ve n. medianus korunur."
+   ],
+   "related": [
+    "art-cubiti",
+    "a-brachialis",
+    "n-medianus",
+    "vv-membri-superioris"
+   ],
+   "models": [
+    "Cubital fossa",
+    "Anterior region of elbow"
+   ],
+   "aliases": [
+    "kübital fossa"
+   ]
+  },
+  {
+   "id": "trigonum-femorale",
+   "tr": "Uyluk üçgeni (Scarpa)",
+   "la": "Trigonum femorale",
+   "en": "Femoral triangle",
+   "group": "Vücut bölgeleri",
+   "region": "lowerLimb",
+   "summary": "Uyluğun ön üst kısmında, kasık bağının altında yer alan üçgen biçimli bölgedir; femoral damar-sinir paketini içerir.",
+   "facts": [
+    [
+     "Sınırları",
+     "Yukarıda lig. inguinale, dışta m. sartorius'un iç kenarı, içte m. adductor longus'un iç kenarı; taban: m. iliopsoas, m. pectineus"
+    ],
+    [
+     "İçerik (dıştan içe)",
+     "N. femoralis, a. femoralis, v. femoralis, canalis femoralis (lenfatikler) – ‘NAVeL’"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Femoral nabız, arteryel kan gazı, kateterizasyon ve femoral sinir bloğu bu bölgeden yapılır.",
+    "Femoral herni canalis femoralis'ten çıkar ve kadınlarda daha sıktır."
+   ],
+   "related": [
+    "a-femoralis",
+    "n-femoralis",
+    "lig-inguinale",
+    "m-sartorius"
+   ],
+   "models": [
+    "Femoral triangle"
+   ],
+   "aliases": [
+    "Scarpa üçgeni",
+    "femoral üçgen"
+   ]
+  },
+  {
+   "id": "fossa-poplitea",
+   "tr": "Diz çukuru",
+   "la": "Fossa poplitea",
+   "en": "Popliteal fossa",
+   "group": "Vücut bölgeleri",
+   "region": "lowerLimb",
+   "summary": "Dizin arkasındaki baklava (eşkenar dörtgen) biçimli çukurdur.",
+   "facts": [
+    [
+     "Sınırları",
+     "Üst-dış: m. biceps femoris; üst-iç: m. semimembranosus ve semitendinosus; alt: gastrocnemius'un iki başı"
+    ],
+    [
+     "İçerik (yüzeyelden derine)",
+     "N. tibialis ve n. fibularis communis, v. poplitea, a. poplitea (en derin), lenf düğümleri"
+    ],
+    [
+     "Yüzeyel yapılar",
+     "V. saphena parva'nın sonlanması"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Baker kisti diz çukurunda şişlik olarak görülür; yırtılırsa DVT'yi taklit edebilir.",
+    "Popliteal arter anevrizması burada nabız veren bir kitle olarak ele gelir."
+   ],
+   "related": [
+    "a-poplitea",
+    "n-tibialis",
+    "n-fibularis-communis",
+    "art-genus"
+   ],
+   "models": [
+    "Popliteal fossa",
+    "Posterior region of knee"
+   ],
+   "aliases": [
+    "popliteal fossa"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "system": "lymphatic",
+ "entries": [
+  {
+   "id": "splen",
+   "tr": "Dalak",
+   "la": "Splen (lien)",
+   "en": "Spleen",
+   "group": "Lenfoid organlar",
+   "region": "abdomen",
+   "summary": "Karnın sol üst kadranında, midenin arkasında ve diyaframın altında yer alan en büyük lenfoid organdır. Yaşlanmış alyuvarları yıkar, kanı süzer ve bağışıklık yanıtında görev alır.",
+   "facts": [
+    [
+     "Boyut ve ağırlık",
+     "Yaklaşık 12 × 7 × 3 cm, 150 g (‘1-3-5-7-9-11’: 1 × 3 × 5 inç, 7 ons, 9.–11. kaburgalar)"
+    ],
+    [
+     "Konum",
+     "Sol 9.–11. kaburgaların altında, uzun ekseni 10. kaburga boyunca"
+    ],
+    [
+     "Yapısı",
+     "Kırmızı pulpa (kan süzme, alyuvar yıkımı) ve beyaz pulpa (lenfoid doku)"
+    ],
+    [
+     "Bağları",
+     "Lig. gastrosplenicum, lig. splenorenale (pankreas kuyruğu ve splenik damarlar içinde)"
+    ],
+    [
+     "Kanlanma",
+     "A. splenica (truncus coeliacus); v. splenica portal vene katılır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Travmada en sık yaralanan karın içi organdır; sol kaburga kırıklarında dalak rüptürü düşünülmelidir. Ağrı sol omza yansıyabilir (Kehr bulgusu).",
+    "Splenomegali enfeksiyöz mononükleoz, portal hipertansiyon ve hematolojik hastalıklarda görülür; mononükleozda temas sporlarından kaçınılır.",
+    "Splenektomi sonrası kapsüllü bakterilere karşı aşılama gerekir."
+   ],
+   "related": [
+    "truncus-coeliacus",
+    "v-portae-hepatis",
+    "pancreas",
+    "gaster"
+   ],
+   "models": [
+    "Spleen"
+   ],
+   "aliases": [
+    "dalak"
+   ]
+  },
+  {
+   "id": "thymus",
+   "tr": "Timus",
+   "la": "Thymus",
+   "en": "Thymus",
+   "group": "Lenfoid organlar",
+   "region": "thorax",
+   "summary": "Göğüs kemiğinin arkasında, üst mediastinumda yer alan, T lenfositlerinin olgunlaştığı primer lenfoid organdır. Çocuklukta büyüktür, ergenlikten sonra giderek yağ dokusuna dönüşür.",
+   "facts": [
+    [
+     "Konum",
+     "Mediastinum superius ve anterius; sternumun arkası, büyük damarların önü"
+    ],
+    [
+     "Yapısı",
+     "İki lob; her lob korteks (olgunlaşmamış T hücreleri) ve medulla (Hassall cisimcikleri)"
+    ],
+    [
+     "İşlev",
+     "T hücrelerinin olgunlaşması ve öz-antijenlere tolerans (pozitif ve negatif seçilim)"
+    ],
+    [
+     "Yaşla değişim",
+     "Ergenlikte en büyük (yaklaşık 30–40 g); erişkinde involüsyon"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Miyastenia gravis hastalarının bir kısmında timoma veya timus hiperplazisi bulunur; timektomi faydalı olabilir.",
+    "DiGeorge sendromunda timus ve paratiroidler gelişmez (3. ve 4. faringeal cep)."
+   ],
+   "related": [
+    "nodi-lymphoidei",
+    "glandulae-parathyroideae",
+    "sternum"
+   ],
+   "models": [
+    "Thymus",
+    "Left lobe of thymus",
+    "Right lobe of thymus"
+   ],
+   "aliases": [
+    "timus"
+   ]
+  },
+  {
+   "id": "tonsillae",
+   "tr": "Bademcikler ve Waldeyer halkası",
+   "la": "Tonsillae (anulus lymphoideus pharyngis)",
+   "en": "Tonsils (Waldeyer's ring)",
+   "group": "Lenfoid organlar",
+   "region": "neck",
+   "summary": "Ağız ve burun boşluklarının yutağa açıldığı yerde halka biçiminde dizilmiş lenfoid dokulardır; solunan ve yutulan mikroorganizmalara karşı ilk savunma hattını oluştururlar.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Tonsilla pharyngea (adenoid; nazofarinks tavanı), tonsillae tubariae, tonsillae palatinae (bademcikler; arcus palatoglossus ve palatopharyngeus arasında), tonsilla lingualis (dil kökü)"
+    ],
+    [
+     "Palatin tonsil kanlanması",
+     "Esas olarak a. facialis'in r. tonsillaris'i"
+    ],
+    [
+     "Lenf drenajı",
+     "Jugulodigastrik düğüm (tonsiller düğüm)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tonsillit boğaz ağrısı ve yutma güçlüğü yapar; peritonsiller apse uvulayı karşı tarafa iter.",
+    "Tonsillektomi sonrası kanama önemli bir komplikasyondur (v. palatina externa).",
+    "Çocuklarda büyük adenoid ağız solunumu, horlama ve orta kulak iltihabına neden olur."
+   ],
+   "related": [
+    "pharynx",
+    "nodi-lymphoidei"
+   ],
+   "models": [
+    "Pharyngeal lymphoid ring",
+    "Palatine tonsil"
+   ],
+   "aliases": [
+    "bademcik",
+    "adenoid",
+    "tonsil"
+   ]
+  },
+  {
+   "id": "nodi-lymphoidei",
+   "tr": "Lenf düğümleri",
+   "la": "Nodi lymphoidei",
+   "en": "Lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "general",
+   "summary": "Lenf damarları boyunca dizilmiş, lenfi süzen ve bağışıklık yanıtının başladığı fasulye biçimli küçük organlardır. Vücutta 600–700 kadar lenf düğümü bulunur.",
+   "facts": [
+    [
+     "Yapısı",
+     "Kapsül, korteks (B hücreli foliküller), parakorteks (T hücreleri), medulla; afferent damarlar kapsülden girer, efferent damarlar hilumdan çıkar"
+    ],
+    [
+     "Başlıca gruplar",
+     "Servikal, aksiller, inguinal (yüzeyel gruplar ele gelir); mediastinal, paraaortik, mezenterik, iliak (derin gruplar)"
+    ],
+    [
+     "İşlev",
+     "Lenfin süzülmesi, antijenlerin lenfositlere sunulması, antikor üretimi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ağrısız, sert, birbirine yapışık lenf düğümleri malignite açısından değerlendirilmelidir.",
+    "Sol supraklaviküler düğümün büyümesi (Virchow düğümü – Troisier bulgusu) karın içi kanserlerin metastazını düşündürür.",
+    "Meme kanserinde sentinel (bekçi) lenf düğümü biyopsisi evrelemede kullanılır."
+   ],
+   "related": [
+    "nodi-cervicales",
+    "nodi-axillares",
+    "nodi-inguinales",
+    "ductus-thoracicus",
+    "splen"
+   ],
+   "models": [
+    "Lymph nodes"
+   ],
+   "aliases": [
+    "lenf bezi",
+    "lenf nodu",
+    "lenfadenopati"
+   ]
+  },
+  {
+   "id": "nodi-cervicales",
+   "tr": "Boyun lenf düğümleri",
+   "la": "Nodi lymphoidei capitis et colli",
+   "en": "Lymph nodes of head and neck",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "neck",
+   "summary": "Baş ve boynun lenfini toplayan, yüzeyel ve derin zincirler hâlinde dizilmiş lenf düğümleridir. Sonunda derin servikal zincire (v. jugularis interna boyunca) boşalırlar.",
+   "facts": [
+    [
+     "Yüzeyel halka",
+     "Nodi occipitales, mastoidei, parotidei, submandibulares, submentales"
+    ],
+    [
+     "Derin zincir",
+     "Nodi cervicales laterales profundi – v. jugularis interna boyunca; jugulodigastrik ve juguloomohyoid düğümler"
+    ],
+    [
+     "Klinik seviyeler",
+     "Boyun diseksiyonunda I–VI seviyeleri kullanılır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Baş-boyun kanserleri sıklıkla boyun lenf düğümlerine metastaz yapar; boyun diseksiyonu tedavinin parçasıdır.",
+    "Çocuklarda boyun lenfadenopatisi en sık viral enfeksiyonlara bağlıdır."
+   ],
+   "related": [
+    "nodi-lymphoidei",
+    "v-jugularis-interna",
+    "tonsillae"
+   ],
+   "models": [
+    "Lymph nodes of neck",
+    "Lymph nodes of head"
+   ],
+   "aliases": [
+    "servikal lenf"
+   ]
+  },
+  {
+   "id": "nodi-axillares",
+   "tr": "Koltuk altı lenf düğümleri",
+   "la": "Nodi lymphoidei axillares",
+   "en": "Axillary lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "upperLimb",
+   "summary": "Koltuk altı çukurunda yer alan, kolun, memenin ve göğüs duvarının lenfini toplayan 20–30 lenf düğümüdür.",
+   "facts": [
+    [
+     "Grupları",
+     "Anterior (pektoral), posterior (subskapular), lateral (humeral), santral ve apikal düğümler"
+    ],
+    [
+     "Cerrahi seviyeler",
+     "Seviye I (pectoralis minor'un dışı), II (arkası), III (içi)"
+    ],
+    [
+     "Drenaj",
+     "Apikal düğümler → truncus subclavius"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Meme kanseri lenf yayılımının en sık hedefidir; aksiller diseksiyon sonrası kolda lenfödem gelişebilir.",
+    "Aksiller cerrahide n. thoracicus longus ve n. thoracodorsalis korunmalıdır."
+   ],
+   "related": [
+    "nodi-lymphoidei",
+    "glandula-mammaria",
+    "a-axillaris"
+   ],
+   "models": [
+    "Axillary nodes",
+    "Lymph nodes of upper limb"
+   ],
+   "aliases": [
+    "aksiller lenf"
+   ]
+  },
+  {
+   "id": "nodi-inguinales",
+   "tr": "Kasık lenf düğümleri",
+   "la": "Nodi lymphoidei inguinales",
+   "en": "Inguinal lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "lowerLimb",
+   "summary": "Kasık bölgesinde yer alan, bacağın, perinenin, dış genital organların ve göbek altı karın duvarının lenfini toplayan düğümlerdir.",
+   "facts": [
+    [
+     "Yüzeyel grup",
+     "Lig. inguinale'ye paralel ve v. saphena magna'nın sonu çevresinde dizilir; dış genital organlar, perine, anal kanalın alt kısmı, karın alt duvarı ve bacağın yüzeyel lenfini alır"
+    ],
+    [
+     "Derin grup",
+     "V. femoralis'in iç tarafında; Cloquet düğümü canalis femoralis'te"
+    ],
+    [
+     "Drenaj",
+     "Dış iliak düğümlere"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Testis lenfi paraaortik düğümlere gider; skrotum derisi ise kasık düğümlerine. Bu ayrım testis tümörlerinin evrelemesinde önemlidir.",
+    "Bacak ve ayak enfeksiyonlarında kasık lenf düğümleri büyüyebilir."
+   ],
+   "related": [
+    "nodi-lymphoidei",
+    "v-saphena-magna",
+    "lig-inguinale"
+   ],
+   "models": [
+    "Inguinal nodes",
+    "Lymph nodes of lower limb"
+   ],
+   "aliases": [
+    "inguinal lenf"
+   ]
+  },
+  {
+   "id": "nodi-trunci",
+   "tr": "Göğüs ve karın lenf düğümleri",
+   "la": "Nodi lymphoidei thoracis et abdominis",
+   "en": "Thoracic and abdominal lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "abdomen",
+   "summary": "Göğüs boşluğunda (mediastinal, trakeobronşiyal, parasternal) ve karın-pelvis boşluğunda (paraaortik, çölyak, mezenterik, iliak) yer alan derin lenf düğümü gruplarıdır.",
+   "facts": [
+    [
+     "Göğüs",
+     "Trakeobronşiyal, paratrakeal, ön ve arka mediastinal, parasternal ve interkostal düğümler"
+    ],
+    [
+     "Karın",
+     "Paraaortik (lomber), preaortik (çölyak, üst ve alt mezenterik), gastrik, pankreatik, hepatik düğümler"
+    ],
+    [
+     "Pelvis",
+     "Ortak, iç ve dış iliak, sakral düğümler"
+    ],
+    [
+     "Drenaj",
+     "Lomber ve intestinal gövdeler → cisterna chyli → ductus thoracicus"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akciğer kanseri evrelemesinde mediastinal lenf düğümlerinin tutulumu belirleyicidir.",
+    "Lenfoma sıklıkla paraaortik ve mezenterik düğümleri tutar."
+   ],
+   "related": [
+    "nodi-lymphoidei",
+    "ductus-thoracicus"
+   ],
+   "models": [
+    "Thoracic lymph nodes",
+    "Abdominal lymph nodes",
+    "Pelvic lymph nodes",
+    "Mediastinal lymph nodes"
+   ],
+   "aliases": [
+    "mediastinal lenf",
+    "paraaortik"
+   ]
+  },
+  {
+   "id": "ductus-thoracicus",
+   "tr": "Göğüs kanalı",
+   "la": "Ductus thoracicus",
+   "en": "Thoracic duct",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "thorax",
+   "summary": "Vücudun en büyük lenf damarıdır; bacaklar, karın, sol göğüs, sol kol ve başın sol yarısının lenfini toplayarak venöz sisteme boşaltır.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Cisterna chyli (L1–L2, aortanın sağ-arkası)"
+    ],
+    [
+     "Seyir",
+     "Hiatus aorticus'tan göğse girer, aorta ile v. azygos arasında yükselir, T5 hizasında sola geçer"
+    ],
+    [
+     "Sonlanma",
+     "Sol venöz açı (v. jugularis interna sinistra ve v. subclavia sinistra birleşimi)"
+    ],
+    [
+     "Sağ lenf kanalı",
+     "Sağ kol, başın ve göğsün sağ yarısının lenfi ductus lymphaticus dexter ile sağ venöz açıya dökülür"
+    ],
+    [
+     "Uzunluk",
+     "38–45 cm"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Göğüs cerrahisi sonrası hasarı plevrada süt görünümlü sıvı birikmesine (şilotoraks) yol açar."
+   ],
+   "related": [
+    "nodi-lymphoidei",
+    "aorta",
+    "v-azygos",
+    "v-subclavia"
+   ],
+   "models": [],
+   "aliases": [
+    "torasik kanal",
+    "cisterna chyli"
+   ]
+  },
+  {
+   "id": "medulla-ossium",
+   "tr": "Kemik iliği",
+   "la": "Medulla ossium",
+   "en": "Bone marrow",
+   "group": "Lenfoid organlar",
+   "region": "general",
+   "summary": "Kemiklerin iç boşluklarını dolduran, kan hücrelerinin (hematopoez) ve B lenfositlerinin üretildiği yumuşak dokudur. Primer lenfoid organdır.",
+   "facts": [
+    [
+     "Tipleri",
+     "Kırmızı kemik iliği (hematopoetik) ve sarı kemik iliği (yağ)"
+    ],
+    [
+     "Erişkinde kırmızı ilik",
+     "Yassı kemikler (sternum, kaburgalar, pelvis, omurlar, kafatası) ve femur/humerus üst uçları"
+    ],
+    [
+     "Üretilen hücreler",
+     "Alyuvarlar, akyuvarlar ve trombositler; günde yüz milyarlarca hücre"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kemik iliği aspirasyonu ve biyopsisi genellikle crista iliaca posterior'dan yapılır.",
+    "Lösemiler ve aplastik anemi kemik iliği hastalıklarıdır; kemik iliği nakli tedavide kullanılır."
+   ],
+   "related": [
+    "os-coxae",
+    "sternum",
+    "splen",
+    "thymus"
+   ],
+   "models": [],
+   "aliases": [
+    "ilik",
+    "hematopoez"
+   ]
+  }
+ ]
+}

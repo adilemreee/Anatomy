@@ -1,0 +1,287 @@
+{
+ "system": "endocrine",
+ "entries": [
+  {
+   "id": "hypophysis",
+   "tr": "Hipofiz bezi",
+   "la": "Hypophysis (glandula pituitaria)",
+   "en": "Pituitary gland",
+   "group": "Endokrin bezler",
+   "region": "head",
+   "summary": "Sfenoid kemiğin sella turcica'sında oturan, nohut büyüklüğünde ‘usta bez’dir. Hipotalamusun kontrolünde diğer endokrin bezlerin çoğunu yönetir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Adenohypophysis (ön lob – bez dokusu) ve neurohypophysis (arka lob – sinir dokusu)"
+    ],
+    [
+     "Ön lob hormonları",
+     "GH (büyüme), prolaktin, TSH, ACTH, FSH ve LH"
+    ],
+    [
+     "Arka lob hormonları",
+     "ADH (vazopressin) ve oksitosin – hipotalamusta üretilip burada depolanır"
+    ],
+    [
+     "Bağlantı",
+     "Infundibulum ile hipotalamusa; ön lob hipotalamo-hipofizer portal sistemle düzenlenir"
+    ],
+    [
+     "Komşuluklar",
+     "Üstte chiasma opticum, yanlarda sinus cavernosus, altta sinus sphenoidalis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Prolaktinoma en sık hipofiz adenomudur: adet düzensizliği, süt gelmesi, infertilite.",
+    "Büyüme hormonu fazlalığı çocukta gigantizme, erişkinde akromegaliye yol açar.",
+    "Doğum sonrası ağır kanamada hipofiz nekrozu (Sheehan sendromu) gelişebilir."
+   ],
+   "related": [
+    "hypothalamus",
+    "os-sphenoidale",
+    "n-opticus",
+    "glandula-thyroidea",
+    "glandula-suprarenalis"
+   ],
+   "models": [
+    "Hypophysis",
+    "Adenohypophysis",
+    "Neurohypophysis"
+   ],
+   "aliases": [
+    "hipofiz",
+    "pituiter"
+   ]
+  },
+  {
+   "id": "glandula-pinealis",
+   "tr": "Epifiz bezi",
+   "la": "Glandula pinealis (corpus pineale)",
+   "en": "Pineal gland",
+   "group": "Endokrin bezler",
+   "region": "head",
+   "summary": "Ara beynin arka-üst kısmında, iki talamus arasında yer alan küçük, çam kozalağı biçimli bezdir. Melatonin salgılayarak uyku-uyanıklık ritmini düzenler.",
+   "facts": [
+    [
+     "Konum",
+     "Diencephalon (epitalamus), colliculi superiores'in üstü"
+    ],
+    [
+     "Hormon",
+     "Melatonin (karanlıkta artar)"
+    ],
+    [
+     "Kontrol",
+     "Retina → nucleus suprachiasmaticus → sempatik yolak"
+    ],
+    [
+     "Kireçlenme",
+     "Erişkinde sıklıkla kireçlenir (corpora arenacea) ve radyografide orta hat işareti olarak görülür"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pineal tümörler aquaeductus'u tıkayarak hidrosefaliye ve tektuma bası yaparak yukarı bakış felcine (Parinaud sendromu) neden olabilir."
+   ],
+   "related": [
+    "thalamus",
+    "hypothalamus",
+    "mesencephalon"
+   ],
+   "models": [
+    "Pineal gland"
+   ],
+   "aliases": [
+    "epifiz",
+    "pineal",
+    "melatonin"
+   ]
+  },
+  {
+   "id": "glandula-thyroidea",
+   "tr": "Kalkan bezi (tiroid)",
+   "la": "Glandula thyroidea",
+   "en": "Thyroid gland",
+   "group": "Endokrin bezler",
+   "region": "neck",
+   "summary": "Boynun ön kısmında, gırtlağın ve trakeanın önünde yer alan, kelebek biçimli en büyük endokrin bezdir. Metabolizma hızını düzenleyen tiroid hormonlarını salgılar.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Lobus dexter ve sinister, isthmus (2.–4. trakea halkaları önünde), bazen lobus pyramidalis"
+    ],
+    [
+     "Ağırlık",
+     "Yaklaşık 20–25 g"
+    ],
+    [
+     "Hormonlar",
+     "Tiroksin (T4) ve triiyodotironin (T3) – folikül hücreleri; kalsitonin – parafoliküler (C) hücreler"
+    ],
+    [
+     "Kanlanma",
+     "A. thyroidea superior (a. carotis externa), a. thyroidea inferior (truncus thyrocervicalis), bazen a. thyroidea ima"
+    ],
+    [
+     "Venöz drenaj",
+     "Vv. thyroideae superior, media ve inferior"
+    ],
+    [
+     "Önemli komşuluklar",
+     "N. laryngeus recurrens (trakeoözofageal olukta), glandulae parathyroideae (arka yüzde)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hipotiroidi yorgunluk, kilo alma, soğuğa tahammülsüzlük; hipertiroidi (Graves) çarpıntı, kilo kaybı, ekzoftalmiye neden olur.",
+    "Tiroidektomide n. laryngeus recurrens hasarı ses kısıklığına, paratiroidlerin çıkarılması hipokalsemiye (tetani) yol açabilir.",
+    "Yutkunmayla bez yukarı-aşağı hareket eder; boyun kitlelerinin tiroid kaynaklı olup olmadığı bu şekilde anlaşılır."
+   ],
+   "related": [
+    "glandulae-parathyroideae",
+    "larynx",
+    "trachea",
+    "n-vagus",
+    "a-carotis-externa"
+   ],
+   "models": [
+    "Thyroid gland"
+   ],
+   "aliases": [
+    "tiroid",
+    "guatr"
+   ]
+  },
+  {
+   "id": "glandulae-parathyroideae",
+   "tr": "Paratiroid bezleri",
+   "la": "Glandulae parathyroideae",
+   "en": "Parathyroid glands",
+   "group": "Endokrin bezler",
+   "region": "neck",
+   "summary": "Tiroid bezinin arka yüzünde yer alan, genellikle dört adet (iki üst, iki alt) mercimek büyüklüğünde bezlerdir. Kan kalsiyum düzeyini düzenleyen paratiroid hormonu (PTH) salgılarlar.",
+   "facts": [
+    [
+     "Sayı",
+     "Genellikle 4 (2–6 arası değişebilir)"
+    ],
+    [
+     "Hormon",
+     "PTH: kemikten kalsiyum salınımını, böbrekten kalsiyum geri emilimini ve D vitamini aktivasyonunu artırır"
+    ],
+    [
+     "Embriyoloji",
+     "Üst bezler 4. faringeal cepten, alt bezler 3. faringeal cepten (timusla birlikte) gelişir; alt bezlerin yeri daha değişkendir"
+    ],
+    [
+     "Kanlanma",
+     "Çoğunlukla a. thyroidea inferior"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Primer hiperparatiroidi (çoğunlukla adenom) böbrek taşı, kemik ağrısı, karın ağrısı ve psikiyatrik belirtilere yol açar (‘taşlar, kemikler, inlemeler, iniltiler’).",
+    "Tiroid cerrahisi sonrası hipoparatiroidide ağız çevresinde uyuşma, Chvostek ve Trousseau bulguları görülür."
+   ],
+   "related": [
+    "glandula-thyroidea",
+    "thymus"
+   ],
+   "models": [
+    "Parathyroid glands",
+    "Superior parathyroid gland",
+    "Inferior parathyroid gland"
+   ],
+   "aliases": [
+    "paratiroid",
+    "PTH"
+   ]
+  },
+  {
+   "id": "glandula-suprarenalis",
+   "tr": "Böbrek üstü bezi",
+   "la": "Glandula suprarenalis (adrenalis)",
+   "en": "Suprarenal (adrenal) gland",
+   "group": "Endokrin bezler",
+   "region": "abdomen",
+   "summary": "Her iki böbreğin üst kutbunda yer alan, stres hormonlarını üreten çift endokrin bezdir. Sağdaki üçgen, soldaki yarımay biçimlidir.",
+   "facts": [
+    [
+     "Korteks katmanları (dıştan içe)",
+     "Zona glomerulosa (aldosteron), zona fasciculata (kortizol), zona reticularis (androjenler) – ‘tuz, şeker, seks’"
+    ],
+    [
+     "Medulla",
+     "Kromaffin hücreler: adrenalin ve noradrenalin (değişmiş sempatik postganglionik nöronlar)"
+    ],
+    [
+     "Kanlanma",
+     "Aa. suprarenales superior (a. phrenica inferior), media (aorta), inferior (a. renalis)"
+    ],
+    [
+     "Venöz drenaj",
+     "Sağda doğrudan IVC'ye, solda v. renalis sinistra'ya"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Cushing sendromu (kortizol fazlalığı): aydede yüzü, santral obezite, mor çatlaklar, hipertansiyon.",
+    "Addison hastalığı (kortizol eksikliği): halsizlik, hipotansiyon, deride koyulaşma.",
+    "Feokromositoma (medulla tümörü) atak tarzında yüksek tansiyon, çarpıntı, terleme yapar."
+   ],
+   "related": [
+    "ren",
+    "systema-autonomicum",
+    "hypophysis"
+   ],
+   "models": [
+    "Suprarenal gland"
+   ],
+   "aliases": [
+    "adrenal",
+    "böbrek üstü",
+    "kortizol",
+    "adrenalin"
+   ]
+  },
+  {
+   "id": "insulae-pancreaticae",
+   "tr": "Pankreas adacıkları",
+   "la": "Insulae pancreaticae (Langerhans)",
+   "en": "Pancreatic islets",
+   "group": "Endokrin bezler",
+   "region": "abdomen",
+   "summary": "Pankreasın ekzokrin dokusu içine dağılmış, kan şekerini düzenleyen hormonları salgılayan yaklaşık 1 milyon endokrin hücre kümesidir. En yoğun olarak pankreas kuyruğunda bulunurlar.",
+   "facts": [
+    [
+     "Hücre tipleri",
+     "β hücreleri (%60–70; insülin), α hücreleri (glukagon), δ hücreleri (somatostatin), PP hücreleri (pankreatik polipeptit)"
+    ],
+    [
+     "İnsülin",
+     "Kan şekerini düşürür; hücrelere glukoz alımını artırır"
+    ],
+    [
+     "Glukagon",
+     "Kan şekerini yükseltir; karaciğerde glikojen yıkımını ve glukoneogenezi uyarır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tip 1 diyabet β hücrelerinin otoimmün yıkımıyla, tip 2 diyabet insülin direnci ve göreli insülin eksikliğiyle gelişir.",
+    "İnsülinoma tekrarlayan hipoglisemi ataklarına neden olur."
+   ],
+   "related": [
+    "pancreas",
+    "hepar"
+   ],
+   "models": [],
+   "aliases": [
+    "Langerhans",
+    "insülin",
+    "glukagon"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4607 @@
+{
+ "system": "muscular",
+ "entries": [
+  {
+   "id": "m-occipitofrontalis",
+   "tr": "Kafa derisi kası",
+   "la": "M. occipitofrontalis (m. epicranius)",
+   "en": "Occipitofrontalis muscle",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Kafa derisini hareket ettiren, önde alın (venter frontalis) ve arkada art kafa (venter occipitalis) karınlarından oluşan; ikisi arasında yassı bir tendon (galea aponeurotica) bulunan mimik kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Venter frontalis: galea aponeurotica; venter occipitalis: linea nuchae suprema ve processus mastoideus"
+    ],
+    [
+     "İnsersiyo",
+     "Venter frontalis: kaş ve alın derisi; venter occipitalis: galea aponeurotica"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – r. temporalis (frontal) ve n. auricularis posterior (oksipital)"
+    ],
+    [
+     "Kanlanma",
+     "A. supraorbitalis, a. supratrochlearis, a. temporalis superficialis, a. occipitalis"
+    ],
+    [
+     "Fonksiyon",
+     "Kaşları kaldırır ve alnı kırıştırır (şaşırma ifadesi); kafa derisini öne-arkaya çeker"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Periferik fasiyal paralizide (Bell paralizisi) aynı taraf alın kırışığı kaybolur; santral (üst motor nöron) lezyonda ise alın korunur."
+   ],
+   "related": [
+    "n-facialis",
+    "m-orbicularis-oculi"
+   ],
+   "models": [
+    "Epicranius muscle",
+    "Frontalis muscle",
+    "Occipitalis muscle",
+    "Temporoparietalis muscle"
+   ],
+   "aliases": [
+    "frontalis",
+    "occipitalis"
+   ]
+  },
+  {
+   "id": "m-orbicularis-oculi",
+   "tr": "Göz çevresi halka kası",
+   "la": "M. orbicularis oculi",
+   "en": "Orbicularis oculi",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Göz kapakları ve göz çukuru çevresinde halka biçiminde yerleşmiş, gözü kapatan mimik kasıdır. Orbital, palpebral ve lakrimal bölümleri vardır.",
+   "facts": [
+    [
+     "Origo",
+     "Os frontale (pars nasalis), maxilla (processus frontalis), lig. palpebrale mediale, os lacrimale (crista lacrimalis posterior)"
+    ],
+    [
+     "İnsersiyo",
+     "Göz çevresi derisi, raphe palpebralis lateralis"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – rr. temporales ve zygomatici"
+    ],
+    [
+     "Kanlanma",
+     "A. facialis, a. temporalis superficialis, a. ophthalmica dalları"
+    ],
+    [
+     "Fonksiyon",
+     "Pars palpebralis gözü hafifçe kapatır (göz kırpma), pars orbitalis gözü sıkıca kapatır; pars lacrimalis gözyaşı akışına yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Fasiyal sinir felcinde göz kapatılamaz; korneal kuruluk ve ülser riskine karşı göz korunmalıdır.",
+    "Korneal refleksin efferent kolu bu kastır (afferent: n. ophthalmicus)."
+   ],
+   "related": [
+    "n-facialis",
+    "m-occipitofrontalis",
+    "bulbus-oculi"
+   ],
+   "models": [
+    "Orbital part of orbicularis oculi",
+    "Palpebral part of orbicularis oculi"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-orbicularis-oris",
+   "tr": "Ağız çevresi halka kası",
+   "la": "M. orbicularis oris",
+   "en": "Orbicularis oris",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Dudakları çevreleyen ve dudakların büyük kısmını oluşturan halka biçimli mimik kasıdır. Çevredeki pek çok mimik kası liflerini bu kasa karıştırır.",
+   "facts": [
+    [
+     "Origo",
+     "Maxilla ve mandibula'nın kesici dişler hizası, ağız köşesindeki modiolus"
+    ],
+    [
+     "İnsersiyo",
+     "Dudak derisi ve mukozası"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – rr. buccales ve r. marginalis mandibulae"
+    ],
+    [
+     "Kanlanma",
+     "A. labialis superior ve inferior (a. facialis)"
+    ],
+    [
+     "Fonksiyon",
+     "Dudakları kapatır, büzer ve öne uzatır (ıslık çalma, öpme); konuşmada rol alır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-buccinator",
+    "n-facialis",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Orbicularis oris muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-buccinator",
+   "tr": "Yanak kası",
+   "la": "M. buccinator",
+   "en": "Buccinator",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Yanağın derin tabakasını oluşturan, dörtgen biçimli ince mimik kasıdır. Çiğneme sırasında besinin dişler arasında kalmasını sağlar.",
+   "facts": [
+    [
+     "Origo",
+     "Maxilla ve mandibula'nın azı dişleri hizasındaki processus alveolaris'leri, raphe pterygomandibularis"
+    ],
+    [
+     "İnsersiyo",
+     "Ağız köşesi (modiolus), m. orbicularis oris"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – rr. buccales"
+    ],
+    [
+     "Kanlanma",
+     "A. buccalis (a. maxillaris), a. facialis"
+    ],
+    [
+     "Fonksiyon",
+     "Yanağı dişlere bastırır; üflemede ve emmede havayı dışarı iter (trompetçi kası)"
+    ]
+   ],
+   "sections": [
+    [
+     "İlişki",
+     "Ductus parotideus (Stensen kanalı) bu kası deler ve üst 2. azı dişi hizasında ağız boşluğuna açılır."
+    ]
+   ],
+   "clinical": [],
+   "related": [
+    "m-orbicularis-oris",
+    "glandula-parotidea",
+    "n-facialis"
+   ],
+   "models": [
+    "Bucinator"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-zygomaticus-major",
+   "tr": "Büyük elmacık kası",
+   "la": "M. zygomaticus major",
+   "en": "Zygomaticus major",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Elmacık kemiğinden ağız köşesine uzanan, gülümsemeyi sağlayan başlıca mimik kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Os zygomaticum'un dış yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Ağız köşesi (modiolus)"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – rr. zygomatici ve buccales"
+    ],
+    [
+     "Kanlanma",
+     "A. facialis (a. labialis superior)"
+    ],
+    [
+     "Fonksiyon",
+     "Ağız köşesini yukarı ve dışa çeker (gülümseme)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-orbicularis-oris",
+    "os-zygomaticum"
+   ],
+   "models": [
+    "Zygomaticus major muscle",
+    "Zygomaticus minor muscle"
+   ],
+   "aliases": [
+    "zygomaticus"
+   ]
+  },
+  {
+   "id": "m-levator-labii-superioris",
+   "tr": "Üst dudak kaldırıcı kası",
+   "la": "M. levator labii superioris",
+   "en": "Levator labii superioris",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Göz çukurunun altından üst dudağa uzanan mimik kasıdır. Üst dudağı kaldırarak nazolabial oluğu derinleştirir.",
+   "facts": [
+    [
+     "Origo",
+     "Margo infraorbitalis (maxilla ve os zygomaticum)"
+    ],
+    [
+     "İnsersiyo",
+     "Üst dudak derisi ve kası"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – rr. zygomatici ve buccales"
+    ],
+    [
+     "Kanlanma",
+     "A. facialis, a. infraorbitalis"
+    ],
+    [
+     "Fonksiyon",
+     "Üst dudağı kaldırır ve öne çevirir (hüzün, küçümseme ifadesi)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-orbicularis-oris",
+    "maxilla"
+   ],
+   "models": [
+    "Levator labii superioris",
+    "Levator nasolabialis",
+    "Levator anguli oris"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-depressor-anguli-oris",
+   "tr": "Ağız köşesi indirici kası",
+   "la": "M. depressor anguli oris",
+   "en": "Depressor anguli oris",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Alt çenenin yan yüzünden ağız köşesine uzanan üçgen biçimli mimik kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Mandibula'nın linea obliqua'sı"
+    ],
+    [
+     "İnsersiyo",
+     "Ağız köşesi (modiolus)"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – r. marginalis mandibulae ve rr. buccales"
+    ],
+    [
+     "Kanlanma",
+     "A. labialis inferior (a. facialis)"
+    ],
+    [
+     "Fonksiyon",
+     "Ağız köşesini aşağı ve dışa çeker (üzüntü ifadesi)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Submandibular bölge cerrahisinde r. marginalis mandibulae zedelenirse aynı taraf ağız köşesi düşer."
+   ],
+   "related": [
+    "m-orbicularis-oris",
+    "n-facialis"
+   ],
+   "models": [
+    "Depressor anguli oris",
+    "Depressor labii inferioris",
+    "Mentalis muscle",
+    "Risorius muscle"
+   ],
+   "aliases": [
+    "mentalis",
+    "risorius"
+   ]
+  },
+  {
+   "id": "m-nasalis",
+   "tr": "Burun kası",
+   "la": "M. nasalis",
+   "en": "Nasalis",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Burun kanatlarını hareket ettiren, enine (pars transversa) ve kanat (pars alaris) bölümlerinden oluşan küçük mimik kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Maxilla (köpek ve kesici dişlerin üstü)"
+    ],
+    [
+     "İnsersiyo",
+     "Burun sırtı aponeurozu ve burun kanatları"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – rr. buccales"
+    ],
+    [
+     "Kanlanma",
+     "A. labialis superior, a. angularis"
+    ],
+    [
+     "Fonksiyon",
+     "Burun deliklerini daraltır (pars transversa) ve genişletir (pars alaris)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "os-nasale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Nasalis muscle",
+    "Procerus muscle",
+    "Depressor septi nasi",
+    "Corrugator supercilii"
+   ],
+   "aliases": [
+    "procerus",
+    "corrugator"
+   ]
+  },
+  {
+   "id": "m-platysma",
+   "tr": "Platisma",
+   "la": "Platysma",
+   "en": "Platysma",
+   "group": "Boyun kasları",
+   "region": "neck",
+   "summary": "Boynun ön ve yan yüzünde, deri altında yer alan geniş ve ince mimik kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Göğsün üst kısmındaki fascia pectoralis ve fascia deltoidea"
+    ],
+    [
+     "İnsersiyo",
+     "Mandibula'nın alt kenarı, yanak derisi ve ağız köşesi"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (VII) – r. colli"
+    ],
+    [
+     "Kanlanma",
+     "A. submentalis, a. suprascapularis"
+    ],
+    [
+     "Fonksiyon",
+     "Boyun derisini gerer, alt dudağı ve ağız köşesini aşağı çeker; korku ve gerginlik ifadesi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "n-facialis",
+    "m-sternocleidomastoideus"
+   ],
+   "models": [
+    "Platysma"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-masseter",
+   "tr": "Çiğneme kası",
+   "la": "M. masseter",
+   "en": "Masseter",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Alt çenenin ramus'u üzerinde yer alan, dişler sıkıldığında yanakta ele gelen kalın dörtgen kastır. Vücudun ağırlığına göre en güçlü kaslarından biridir.",
+   "facts": [
+    [
+     "Origo",
+     "Pars superficialis: arcus zygomaticus'un ön 2/3'ü; pars profunda: arcus zygomaticus'un arka 1/3'ü ve iç yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Ramus mandibulae'nin dış yüzü, angulus mandibulae ve processus coronoideus"
+    ],
+    [
+     "İnnervasyon",
+     "N. massetericus (n. mandibularis – V3)"
+    ],
+    [
+     "Kanlanma",
+     "A. masseterica (a. maxillaris), a. facialis, a. transversa faciei"
+    ],
+    [
+     "Fonksiyon",
+     "Alt çeneyi kaldırır (ağzı kapatır, dişleri sıkar); yüzeyel lifler protraksiyona yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bruksizm (diş gıcırdatma) kasın hipertrofisine neden olabilir.",
+    "Tetanozda çiğneme kaslarının spazmı ağzın açılamamasına (trismus) yol açar."
+   ],
+   "related": [
+    "m-temporalis",
+    "mm-pterygoidei",
+    "mandibula",
+    "art-temporomandibularis",
+    "n-trigeminus"
+   ],
+   "models": [
+    "Superficial part of masseter",
+    "Deep part of masseter"
+   ],
+   "aliases": [
+    "masseter"
+   ]
+  },
+  {
+   "id": "m-temporalis",
+   "tr": "Şakak kası",
+   "la": "M. temporalis",
+   "en": "Temporalis",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Şakak çukurunu (fossa temporalis) dolduran yelpaze biçimli çiğneme kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Fossa temporalis'in tabanı ve fascia temporalis"
+    ],
+    [
+     "İnsersiyo",
+     "Processus coronoideus ve ramus mandibulae'nin ön kenarı"
+    ],
+    [
+     "İnnervasyon",
+     "Nn. temporales profundi (n. mandibularis – V3)"
+    ],
+    [
+     "Kanlanma",
+     "Aa. temporales profundae (a. maxillaris), a. temporalis media"
+    ],
+    [
+     "Fonksiyon",
+     "Alt çeneyi kaldırır (ön lifler); arka lifler alt çeneyi geriye çeker (retraksiyon)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Temporomandibular eklem bozukluklarında ve gerilim tipi baş ağrısında kasta hassasiyet görülebilir."
+   ],
+   "related": [
+    "m-masseter",
+    "mm-pterygoidei",
+    "mandibula",
+    "os-temporale"
+   ],
+   "models": [
+    "Temporalis muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mm-pterygoidei",
+   "tr": "Kanat kasları",
+   "la": "Mm. pterygoidei medialis et lateralis",
+   "en": "Pterygoid muscles",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Alt çenenin iç tarafında, fossa infratemporalis'te yer alan iki çiğneme kasıdır. M. pterygoideus lateralis ağzı açan tek çiğneme kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Lateral: üst baş ala major'un infratemporal yüzü, alt baş lamina lateralis processus pterygoidei'nin dış yüzü; medial: lamina lateralis'in iç yüzü, os palatinum ve tuber maxillae"
+    ],
+    [
+     "İnsersiyo",
+     "Lateral: collum mandibulae'deki fovea pterygoidea, eklem diski ve kapsülü; medial: ramus ve angulus mandibulae'nin iç yüzü"
+    ],
+    [
+     "İnnervasyon",
+     "N. mandibularis (V3) – n. pterygoideus lateralis ve medialis"
+    ],
+    [
+     "Kanlanma",
+     "A. maxillaris'in pterygoid dalları"
+    ],
+    [
+     "Fonksiyon",
+     "Lateral: alt çeneyi öne çeker ve ağzı açar, öğütmede yana hareket ettirir; medial: alt çeneyi kaldırır, öne çeker ve yana hareket ettirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-masseter",
+    "m-temporalis",
+    "art-temporomandibularis",
+    "os-sphenoidale"
+   ],
+   "models": [
+    "Medial pterygoid muscle",
+    "Superior head of lateral pterygoid muscle",
+    "Inferior head of lateral pterygoid muscle"
+   ],
+   "aliases": [
+    "pterygoideus"
+   ]
+  },
+  {
+   "id": "mm-bulbi",
+   "tr": "Göz dışı kasları",
+   "la": "Mm. bulbi (extraoculares)",
+   "en": "Extra-ocular muscles",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Göz küresini hareket ettiren dört düz (rectus) ve iki eğik (obliquus) kas ile göz kapağını kaldıran m. levator palpebrae superioris'ten oluşan kas grubudur.",
+   "facts": [
+    [
+     "Origo",
+     "Dört rektus kası ve m. obliquus superior: anulus tendineus communis ve çevresi; m. obliquus inferior: orbita tabanının ön-iç kısmı (maxilla)"
+    ],
+    [
+     "İnsersiyo",
+     "Sklera; m. obliquus superior trochlea'dan dönerek göz küresinin arka-üst-dış kadranına"
+    ],
+    [
+     "İnnervasyon",
+     "N. oculomotorius (III): m. rectus superior, inferior, medialis, m. obliquus inferior, m. levator palpebrae; n. trochlearis (IV): m. obliquus superior; n. abducens (VI): m. rectus lateralis"
+    ],
+    [
+     "Kanlanma",
+     "A. ophthalmica'nın muskuler dalları"
+    ],
+    [
+     "Fonksiyon",
+     "Rectus medialis: addüksiyon; lateralis: abdüksiyon; superior: elevasyon (ve içe rotasyon); inferior: depresyon (ve dışa rotasyon); obliquus superior: depresyon, abdüksiyon, içe rotasyon; obliquus inferior: elevasyon, abdüksiyon, dışa rotasyon"
+    ]
+   ],
+   "sections": [
+    [
+     "Akılda tutma",
+     "LR6SO4, geri kalanlar 3: rectus lateralis VI., obliquus superior IV. kranial sinirden, diğerleri III. sinirden innerve edilir."
+    ]
+   ],
+   "clinical": [
+    "N. abducens felcinde göz içe kayar (esotropi) ve dışa bakışta çift görme olur.",
+    "N. oculomotorius felcinde göz aşağı-dışa bakar, pitoz ve midriyazis görülür.",
+    "N. trochlearis felcinde aşağı bakarken (merdiven inerken) çift görme olur; hasta başını sağlam tarafa eğer."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "n-oculomotorius",
+    "n-trochlearis",
+    "n-abducens"
+   ],
+   "models": [
+    "Extra-ocular muscles",
+    "Superior rectus muscle",
+    "Inferior rectus muscle",
+    "Medial rectus muscle",
+    "Lateral rectus muscle",
+    "Superior oblique muscle",
+    "Inferior oblique muscle",
+    "Levator palpebrae superioris"
+   ],
+   "aliases": [
+    "göz kasları",
+    "rectus",
+    "obliquus"
+   ]
+  },
+  {
+   "id": "mm-linguae",
+   "tr": "Dil kasları",
+   "la": "Mm. linguae",
+   "en": "Muscles of tongue",
+   "group": "Baş kasları",
+   "region": "head",
+   "summary": "Dilin şeklini değiştiren iç (intrinsik) kaslar ile dili hareket ettiren dış (ekstrinsik) kaslardan oluşan gruptur. Ekstrinsik kaslar m. genioglossus, m. hyoglossus, m. styloglossus ve m. palatoglossus'tur.",
+   "facts": [
+    [
+     "Origo",
+     "Genioglossus: spina mentalis superior; hyoglossus: os hyoideum (corpus ve cornu majus); styloglossus: processus styloideus"
+    ],
+    [
+     "İnsersiyo",
+     "Dilin alt yüzü, yan kenarları ve dil kökü"
+    ],
+    [
+     "İnnervasyon",
+     "N. hypoglossus (XII) – tüm dil kasları; istisna m. palatoglossus (n. vagus – plexus pharyngeus)"
+    ],
+    [
+     "Kanlanma",
+     "A. lingualis"
+    ],
+    [
+     "Fonksiyon",
+     "Genioglossus dili öne çıkarır; hyoglossus dili aşağı çeker; styloglossus dili yukarı ve geriye çeker; intrinsik kaslar dilin şeklini değiştirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "N. hypoglossus lezyonunda dil dışarı çıkarılınca felçli tarafa sapar.",
+    "Bilinç kaybında m. genioglossus gevşerse dil geriye düşerek hava yolunu tıkayabilir."
+   ],
+   "related": [
+    "lingua",
+    "n-hypoglossus",
+    "os-hyoideum"
+   ],
+   "models": [
+    "Genioglossus muscle",
+    "Hyoglossus muscle"
+   ],
+   "aliases": [
+    "genioglossus",
+    "hyoglossus"
+   ]
+  },
+  {
+   "id": "m-sternocleidomastoideus",
+   "tr": "Göğüs-köprücük-meme kası",
+   "la": "M. sternocleidomastoideus",
+   "en": "Sternocleidomastoid muscle",
+   "group": "Boyun kasları",
+   "region": "neck",
+   "summary": "Boynun yan yüzünde çapraz uzanan, boynu ön ve yan üçgenlere ayıran belirgin kastır. İki başı vardır: sternal ve klaviküler.",
+   "facts": [
+    [
+     "Origo",
+     "Caput sternale: manubrium sterni'nin ön yüzü; caput claviculare: clavicula'nın iç 1/3'ünün üst yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Processus mastoideus'un dış yüzü ve linea nuchae superior'un dış yarısı"
+    ],
+    [
+     "İnnervasyon",
+     "N. accessorius (XI) – motor; C2–C3 – propriyoseptif"
+    ],
+    [
+     "Kanlanma",
+     "A. occipitalis, a. thyroidea superior, a. suprascapularis"
+    ],
+    [
+     "Fonksiyon",
+     "Tek taraflı: başı aynı tarafa eğer, yüzü karşı tarafa ve yukarı çevirir; çift taraflı: başı öne eğer, baş sabitken sternumu kaldırarak yardımcı solunum kası olarak çalışır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Doğumda kasın zedelenmesi veya fibrozu konjenital tortikollise (eğri boyun) yol açar.",
+    "N. accessorius hasarında başı karşı tarafa çevirmekte zayıflık olur."
+   ],
+   "related": [
+    "m-trapezius",
+    "n-accessorius",
+    "os-temporale",
+    "clavicula"
+   ],
+   "models": [
+    "Sternocleidomastoid muscle"
+   ],
+   "aliases": [
+    "SKM",
+    "SCM"
+   ]
+  },
+  {
+   "id": "mm-scaleni",
+   "tr": "Merdiven kasları",
+   "la": "Mm. scaleni (anterior, medius, posterior)",
+   "en": "Scalene muscles",
+   "group": "Boyun kasları",
+   "region": "neck",
+   "summary": "Boyun omurlarının enine çıkıntılarından ilk iki kaburgaya uzanan üç kastır. Ön ve orta skalen arasındaki aralıktan plexus brachialis ve a. subclavia geçer.",
+   "facts": [
+    [
+     "Origo",
+     "C2–C7 omurlarının processus transversus'larının tüberkülleri"
+    ],
+    [
+     "İnsersiyo",
+     "Anterior ve medius: 1. kaburga (m. scalenus anterior tuberculum m. scaleni anterioris'e); posterior: 2. kaburga"
+    ],
+    [
+     "İnnervasyon",
+     "Rami anteriores nervorum cervicalium (C3–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. cervicalis ascendens (a. thyroidea inferior), a. transversa colli"
+    ],
+    [
+     "Fonksiyon",
+     "İlk iki kaburgayı kaldırarak inspirasyona yardım eder; boynu aynı tarafa eğer"
+    ]
+   ],
+   "sections": [
+    [
+     "İlişkiler",
+     "N. phrenicus m. scalenus anterior'un ön yüzünde aşağı iner. V. subclavia bu kasın önünden, a. subclavia ve plexus brachialis arkasından (skalen aralığından) geçer."
+    ]
+   ],
+   "clinical": [
+    "Skalen aralığında sıkışma veya servikal kaburga, torasik çıkış sendromuna (kolda uyuşma, nabız zayıflığı) neden olabilir.",
+    "İnterskalen blok, omuz cerrahisinde plexus brachialis anestezisi için kullanılır."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "a-subclavia",
+    "costae",
+    "n-phrenicus"
+   ],
+   "models": [
+    "Scalenus anterior muscle",
+    "Scalenus medius muscle",
+    "Scalenus posterior muscle"
+   ],
+   "aliases": [
+    "skalen"
+   ]
+  },
+  {
+   "id": "mm-suprahyoidei",
+   "tr": "Dil kemiği üstü kasları",
+   "la": "Mm. suprahyoidei",
+   "en": "Suprahyoid muscles",
+   "group": "Boyun kasları",
+   "region": "neck",
+   "summary": "Dil kemiğinin üstünde yer alan ve ağız tabanını oluşturan dört kas: m. digastricus, m. stylohyoideus, m. mylohyoideus ve m. geniohyoideus.",
+   "facts": [
+    [
+     "Origo",
+     "Digastricus: arka karın incisura mastoidea, ön karın fossa digastrica; stylohyoideus: processus styloideus; mylohyoideus: linea mylohyoidea; geniohyoideus: spina mentalis inferior"
+    ],
+    [
+     "İnsersiyo",
+     "Os hyoideum (digastricus'un ara tendonu fibröz bir halka ile)"
+    ],
+    [
+     "İnnervasyon",
+     "Digastricus ön karın ve mylohyoideus: n. mylohyoideus (V3); digastricus arka karın ve stylohyoideus: n. facialis (VII); geniohyoideus: C1 (n. hypoglossus ile taşınır)"
+    ],
+    [
+     "Kanlanma",
+     "A. submentalis (a. facialis), a. lingualis, a. occipitalis"
+    ],
+    [
+     "Fonksiyon",
+     "Yutkunmada dil kemiğini ve gırtlağı kaldırır; dil kemiği sabitken alt çeneyi indirerek ağzı açar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "os-hyoideum",
+    "mm-infrahyoidei",
+    "mandibula"
+   ],
+   "models": [
+    "Suprahyoid muscles",
+    "Digastric muscle",
+    "Mylohyoid muscle",
+    "Geniohyoid muscle",
+    "Stylohyoid muscle"
+   ],
+   "aliases": [
+    "digastricus",
+    "mylohyoideus"
+   ]
+  },
+  {
+   "id": "mm-infrahyoidei",
+   "tr": "Dil kemiği altı kasları",
+   "la": "Mm. infrahyoidei",
+   "en": "Infrahyoid muscles",
+   "group": "Boyun kasları",
+   "region": "neck",
+   "summary": "Dil kemiğinin altında yer alan, kayış biçiminde dört kas: m. sternohyoideus, m. omohyoideus, m. sternothyroideus ve m. thyrohyoideus.",
+   "facts": [
+    [
+     "Origo",
+     "Sternohyoideus ve sternothyroideus: manubrium sterni'nin arka yüzü; omohyoideus (alt karın): margo superior scapulae; thyrohyoideus: cartilago thyroidea'nın linea obliqua'sı"
+    ],
+    [
+     "İnsersiyo",
+     "Os hyoideum (sternothyroideus: cartilago thyroidea)"
+    ],
+    [
+     "İnnervasyon",
+     "Ansa cervicalis (C1–C3); thyrohyoideus: C1 (n. hypoglossus ile)"
+    ],
+    [
+     "Kanlanma",
+     "A. thyroidea superior, a. lingualis"
+    ],
+    [
+     "Fonksiyon",
+     "Yutkunma ve konuşma sırasında dil kemiğini ve gırtlağı aşağı çeker ve sabitler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tiroid cerrahisinde bu kaslar kenara çekilir; ansa cervicalis korunmaya çalışılır."
+   ],
+   "related": [
+    "os-hyoideum",
+    "mm-suprahyoidei",
+    "glandula-thyroidea",
+    "larynx"
+   ],
+   "models": [
+    "Infrahyoid muscles",
+    "Sternohyoid muscle",
+    "Omohyoid muscle",
+    "Sternothyroid muscle",
+    "Thyrohyoid muscle"
+   ],
+   "aliases": [
+    "sternohyoideus",
+    "omohyoideus"
+   ]
+  },
+  {
+   "id": "mm-prevertebrales",
+   "tr": "Omur önü kasları",
+   "la": "Mm. longus colli et longus capitis",
+   "en": "Prevertebral muscles",
+   "group": "Boyun kasları",
+   "region": "neck",
+   "summary": "Boyun omurlarının ön yüzünde yer alan derin boyun fleksör kaslarıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Longus colli: C3–T3 omur gövdeleri ve enine çıkıntılar; longus capitis: C3–C6 enine çıkıntıları"
+    ],
+    [
+     "İnsersiyo",
+     "Longus colli: atlas'ın tuberculum anterius'u ve üst boyun omurları; longus capitis: os occipitale'nin pars basilaris'i"
+    ],
+    [
+     "İnnervasyon",
+     "Rami anteriores nervorum cervicalium (C1–C6)"
+    ],
+    [
+     "Kanlanma",
+     "A. vertebralis, a. cervicalis ascendens"
+    ],
+    [
+     "Fonksiyon",
+     "Boynu ve başı öne eğer; boyun lordozunu destekler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Whiplash yaralanmalarında derin boyun fleksörleri sıklıkla zorlanır."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "m-sternocleidomastoideus"
+   ],
+   "models": [
+    "Longus colli muscle",
+    "Longus capitis muscle",
+    "Rectus anterior capitis muscle",
+    "Rectus lateralis capitis muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-trapezius",
+   "tr": "Kukuleta kası",
+   "la": "M. trapezius",
+   "en": "Trapezius",
+   "group": "Sırt kasları",
+   "region": "back",
+   "summary": "Sırtın üst kısmı ve boynun arkasında, iki taraftaki ile birlikte eşkenar dörtgen (kukuleta) şekli oluşturan geniş yüzeyel kastır. Üst (pars descendens), orta (pars transversa) ve alt (pars ascendens) bölümleri vardır.",
+   "facts": [
+    [
+     "Origo",
+     "Linea nuchae superior, protuberantia occipitalis externa, lig. nuchae, C7–T12 omurlarının diken çıkıntıları"
+    ],
+    [
+     "İnsersiyo",
+     "Clavicula'nın dış 1/3'ü, acromion ve spina scapulae"
+    ],
+    [
+     "İnnervasyon",
+     "N. accessorius (XI) – motor; C3–C4 – duyusal"
+    ],
+    [
+     "Kanlanma",
+     "A. transversa colli (a. cervicalis superficialis), a. suprascapularis, a. occipitalis"
+    ],
+    [
+     "Fonksiyon",
+     "Üst lifler skapulayı kaldırır (omuz silkme) ve yukarı döndürür; orta lifler geri çeker (retraksiyon); alt lifler aşağı çeker ve yukarı rotasyona yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Boyun lenf nodu biyopsisi sırasında arka üçgende n. accessorius zedelenirse omuz düşer ve kol 90°'nin üzerine kaldırılamaz.",
+    "Omuz silkme testi n. accessorius'u değerlendirir."
+   ],
+   "related": [
+    "m-latissimus-dorsi",
+    "mm-rhomboidei",
+    "m-levator-scapulae",
+    "n-accessorius",
+    "scapula"
+   ],
+   "models": [
+    "Trapezius muscle"
+   ],
+   "aliases": [
+    "trapez"
+   ]
+  },
+  {
+   "id": "m-latissimus-dorsi",
+   "tr": "Geniş sırt kası",
+   "la": "M. latissimus dorsi",
+   "en": "Latissimus dorsi",
+   "group": "Sırt kasları",
+   "region": "back",
+   "summary": "Sırtın alt ve yan kısmını örten, vücudun en geniş kasıdır. Koltuk altının arka duvarını oluşturur.",
+   "facts": [
+    [
+     "Origo",
+     "T7–L5 diken çıkıntıları, fascia thoracolumbalis, crista iliaca'nın arka 1/3'ü, alt 3–4 kaburga, angulus inferior scapulae"
+    ],
+    [
+     "İnsersiyo",
+     "Humerus'un sulcus intertubercularis'inin tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. thoracodorsalis (C6–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. thoracodorsalis (a. subscapularis)"
+    ],
+    [
+     "Fonksiyon",
+     "Kolu ekstansiyon, addüksiyon ve iç rotasyona getirir (tırmanma, kürek çekme); kol sabitken gövdeyi yukarı çeker"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Meme rekonstrüksiyonunda kas, damar sapıyla birlikte flep olarak kullanılabilir.",
+    "Mastektomi sırasında n. thoracodorsalis hasarı kolun addüksiyon ve iç rotasyonunu zayıflatır."
+   ],
+   "related": [
+    "m-teres-major",
+    "m-trapezius",
+    "humerus",
+    "fascia-thoracolumbalis"
+   ],
+   "models": [
+    "Latissimus dorsi muscle"
+   ],
+   "aliases": [
+    "lat"
+   ]
+  },
+  {
+   "id": "mm-rhomboidei",
+   "tr": "Eşkenar dörtgen kaslar",
+   "la": "Mm. rhomboidei major et minor",
+   "en": "Rhomboid muscles",
+   "group": "Sırt kasları",
+   "region": "back",
+   "summary": "Trapezius'un altında, omurga ile kürek kemiğinin iç kenarı arasında uzanan iki kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Minor: lig. nuchae'nin alt kısmı, C7–T1 diken çıkıntıları; major: T2–T5 diken çıkıntıları"
+    ],
+    [
+     "İnsersiyo",
+     "Margo medialis scapulae (minor spina hizasında, major spina ile angulus inferior arasında)"
+    ],
+    [
+     "İnnervasyon",
+     "N. dorsalis scapulae (C4–C5)"
+    ],
+    [
+     "Kanlanma",
+     "A. dorsalis scapulae (a. transversa colli'nin derin dalı)"
+    ],
+    [
+     "Fonksiyon",
+     "Skapulayı geri çeker (retraksiyon), kaldırır ve aşağı döndürür; skapulayı göğüs duvarına tutar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-trapezius",
+    "m-levator-scapulae",
+    "scapula"
+   ],
+   "models": [
+    "Rhomboid major muscle",
+    "Rhomboid minor muscle"
+   ],
+   "aliases": [
+    "rhomboid"
+   ]
+  },
+  {
+   "id": "m-levator-scapulae",
+   "tr": "Kürek kemiği kaldırıcı kası",
+   "la": "M. levator scapulae",
+   "en": "Levator scapulae",
+   "group": "Sırt kasları",
+   "region": "back",
+   "summary": "Boynun arka-yan kısmında, üst boyun omurlarından kürek kemiğinin üst iç köşesine uzanan kastır.",
+   "facts": [
+    [
+     "Origo",
+     "C1–C4 omurlarının processus transversus'larının tuberculum posterius'ları"
+    ],
+    [
+     "İnsersiyo",
+     "Margo medialis scapulae'nin üst kısmı (angulus superior ile spina arası)"
+    ],
+    [
+     "İnnervasyon",
+     "N. dorsalis scapulae (C5) ve C3–C4 spinal sinirler"
+    ],
+    [
+     "Kanlanma",
+     "A. dorsalis scapulae, a. transversa colli"
+    ],
+    [
+     "Fonksiyon",
+     "Skapulayı kaldırır ve aşağı döndürür; boynu aynı tarafa eğer"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Masa başı çalışanlarda kasın gerginliği boyun ağrısı ve tutulmasının sık nedenidir."
+   ],
+   "related": [
+    "mm-rhomboidei",
+    "m-trapezius",
+    "scapula"
+   ],
+   "models": [
+    "Levator scapulae"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mm-serrati-posteriores",
+   "tr": "Arka testere kasları",
+   "la": "Mm. serrati posteriores superior et inferior",
+   "en": "Serratus posterior muscles",
+   "group": "Sırt kasları",
+   "region": "back",
+   "summary": "Sırtın ara tabakasında yer alan, kaburgalara tutunan ince kaslardır; solunumda yardımcı rol oynarlar.",
+   "facts": [
+    [
+     "Origo",
+     "Superior: lig. nuchae, C7–T3 diken çıkıntıları; inferior: T11–L2 diken çıkıntıları"
+    ],
+    [
+     "İnsersiyo",
+     "Superior: 2.–5. kaburgaların üst kenarı; inferior: 9.–12. kaburgaların alt kenarı"
+    ],
+    [
+     "İnnervasyon",
+     "Superior: 2.–5. nn. intercostales; inferior: 9.–11. nn. intercostales ve n. subcostalis"
+    ],
+    [
+     "Kanlanma",
+     "Aa. intercostales posteriores"
+    ],
+    [
+     "Fonksiyon",
+     "Superior kaburgaları kaldırır, inferior kaburgaları aşağı çeker (solunum mekaniğine katkı)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "costae",
+    "mm-intercostales"
+   ],
+   "models": [
+    "Serratus posterior superior muscle",
+    "Serratus posterior inferior muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-erector-spinae",
+   "tr": "Omurga dikleştirici kaslar",
+   "la": "M. erector spinae",
+   "en": "Erector spinae",
+   "group": "Sırt kasları",
+   "region": "back",
+   "summary": "Omurganın iki yanında uzanan, sırtın derin (gerçek/otokton) kaslarının en büyüğüdür. Dıştan içe doğru m. iliocostalis, m. longissimus ve m. spinalis sütunlarından oluşur.",
+   "facts": [
+    [
+     "Origo",
+     "Sakrum'un arka yüzü, crista iliaca'nın arka kısmı, lomber diken çıkıntıları, lig. sacrotuberale ve ortak geniş tendon"
+    ],
+    [
+     "İnsersiyo",
+     "Iliocostalis: kaburgaların angulus'ları ve alt boyun omurlarının enine çıkıntıları; longissimus: enine çıkıntılar, kaburgalar ve processus mastoideus; spinalis: üst diken çıkıntıları"
+    ],
+    [
+     "İnnervasyon",
+     "Rami posteriores nervorum spinalium"
+    ],
+    [
+     "Kanlanma",
+     "Aa. intercostales posteriores, aa. lumbales, aa. sacrales laterales"
+    ],
+    [
+     "Fonksiyon",
+     "Çift taraflı: omurgayı ve başı ekstansiyona getirir (dik duruş); tek taraflı: aynı tarafa lateral fleksiyon; öne eğilmede eksentrik çalışarak hareketi kontrol eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bel tutulması (lumbago) sıklıkla bu kas grubunun spazmıyla ilişkilidir.",
+    "Kronik bel ağrısında kas grubunun güçlendirilmesi rehabilitasyonun temelidir."
+   ],
+   "related": [
+    "mm-transversospinales",
+    "vertebrae-lumbales",
+    "fascia-thoracolumbalis"
+   ],
+   "models": [
+    "Erector spinae",
+    "Iliocostalis muscles",
+    "Longissimus muscles",
+    "Spinalis muscles"
+   ],
+   "aliases": [
+    "iliocostalis",
+    "longissimus",
+    "spinalis",
+    "paravertebral kaslar"
+   ]
+  },
+  {
+   "id": "mm-transversospinales",
+   "tr": "Enine-diken kasları",
+   "la": "Mm. transversospinales",
+   "en": "Transversospinal muscles",
+   "group": "Sırt kasları",
+   "region": "back",
+   "summary": "Omurların enine çıkıntılarından üstteki diken çıkıntılara uzanan derin sırt kaslarıdır: m. semispinalis, mm. multifidi ve mm. rotatores. Bu grubun içinde m. splenius ve kısa segmental kaslar da (mm. interspinales, intertransversarii, levatores costarum) incelenir.",
+   "facts": [
+    [
+     "Origo",
+     "Omurların processus transversus'ları ve sakrum"
+    ],
+    [
+     "İnsersiyo",
+     "Üstteki omurların processus spinosus'ları (semispinalis capitis os occipitale'ye)"
+    ],
+    [
+     "İnnervasyon",
+     "Rami posteriores nervorum spinalium"
+    ],
+    [
+     "Kanlanma",
+     "Aa. intercostales posteriores, aa. lumbales, a. occipitalis"
+    ],
+    [
+     "Fonksiyon",
+     "Omurgayı ekstansiyona getirir ve karşı tarafa döndürür; omurlar arasında segmental stabilite sağlar (özellikle multifidus)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Lomber multifidus atrofisi kronik bel ağrısıyla ilişkilidir."
+   ],
+   "related": [
+    "m-erector-spinae",
+    "mm-suboccipitales"
+   ],
+   "models": [
+    "Transversospinal muscles",
+    "Splenius muscles",
+    "Interspinales muscles",
+    "Levatores costarum",
+    "Dorsal parts of lateral intertransversarii lumborum muscles",
+    "Ventral parts of lateral intertransversarii lumborum muscles"
+   ],
+   "aliases": [
+    "multifidus",
+    "semispinalis",
+    "rotatores",
+    "splenius"
+   ]
+  },
+  {
+   "id": "mm-suboccipitales",
+   "tr": "Art kafa altı kasları",
+   "la": "Mm. suboccipitales",
+   "en": "Suboccipital muscles",
+   "group": "Sırt kasları",
+   "region": "neck",
+   "summary": "Kafatası tabanı ile ilk iki boyun omuru arasında yer alan dört küçük kas: m. rectus capitis posterior major ve minor, m. obliquus capitis superior ve inferior.",
+   "facts": [
+    [
+     "Origo",
+     "Rectus major ve obliquus inferior: axis'in diken çıkıntısı; rectus minor: atlas'ın tuberculum posterius'u; obliquus superior: atlas'ın enine çıkıntısı"
+    ],
+    [
+     "İnsersiyo",
+     "Os occipitale'nin linea nuchae inferior'u (obliquus inferior atlas'ın enine çıkıntısına)"
+    ],
+    [
+     "İnnervasyon",
+     "N. suboccipitalis (C1'in arka dalı)"
+    ],
+    [
+     "Kanlanma",
+     "A. vertebralis, a. occipitalis"
+    ],
+    [
+     "Fonksiyon",
+     "Başı ekstansiyona getirir ve aynı tarafa döndürür; ince postüral ayarlamalar yapar"
+    ]
+   ],
+   "sections": [
+    [
+     "Suboksipital üçgen",
+     "Rectus capitis posterior major, obliquus capitis superior ve inferior arasındaki üçgenin tabanında a. vertebralis ve n. suboccipitalis bulunur."
+    ]
+   ],
+   "clinical": [],
+   "related": [
+    "atlas",
+    "axis",
+    "a-vertebralis",
+    "mm-transversospinales"
+   ],
+   "models": [
+    "Suboccipital muscles",
+    "Rectus posterior major capitis muscle",
+    "Rectus posterior minor capitis muscle",
+    "Obliquus superior capitis muscle",
+    "Obliquus inferior capitis muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-pectoralis-major",
+   "tr": "Büyük göğüs kası",
+   "la": "M. pectoralis major",
+   "en": "Pectoralis major",
+   "group": "Göğüs kasları",
+   "region": "thorax",
+   "summary": "Göğsün ön üst kısmını örten yelpaze biçimli büyük kastır; koltuk altının ön duvarını oluşturur. Klaviküler, sternokostal ve abdominal bölümleri vardır.",
+   "facts": [
+    [
+     "Origo",
+     "Pars clavicularis: clavicula'nın iç yarısı; pars sternocostalis: sternum ve 1.–6. kaburga kıkırdakları; pars abdominalis: m. obliquus externus'un aponeurozu"
+    ],
+    [
+     "İnsersiyo",
+     "Humerus'un crista tuberculi majoris'i (sulcus intertubercularis'in dış dudağı)"
+    ],
+    [
+     "İnnervasyon",
+     "N. pectoralis medialis (C8–T1) ve lateralis (C5–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. thoraco-acromialis'in r. pectoralis'i, a. thoracica lateralis, aa. intercostales"
+    ],
+    [
+     "Fonksiyon",
+     "Kolu addüksiyon ve iç rotasyona getirir; klaviküler bölüm fleksiyon, sternokostal bölüm fleksiyondaki kolu ekstansiyona getirir; kol sabitken gövdeyi yukarı çeker (yardımcı solunum kası)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Poland sendromunda kasın sternokostal bölümü doğuştan yoktur.",
+    "Ağır kaldırmada (bench press) tendonu humerustan kopabilir."
+   ],
+   "related": [
+    "m-pectoralis-minor",
+    "m-deltoideus",
+    "humerus",
+    "glandula-mammaria"
+   ],
+   "models": [
+    "Pectoralis major muscle",
+    "Clavicular head of pectoralis major muscle",
+    "Sternocostal head of pectoralis major muscle",
+    "(Abdominal part of pectoralis major muscle)"
+   ],
+   "aliases": [
+    "göğüs kası",
+    "pektoral"
+   ]
+  },
+  {
+   "id": "m-pectoralis-minor",
+   "tr": "Küçük göğüs kası",
+   "la": "M. pectoralis minor",
+   "en": "Pectoralis minor",
+   "group": "Göğüs kasları",
+   "region": "thorax",
+   "summary": "Büyük göğüs kasının altında yer alan üçgen biçimli ince kastır. Koltuk altı arterini üç bölüme ayırdığı için önemli bir anatomik işarettir.",
+   "facts": [
+    [
+     "Origo",
+     "3.–5. kaburgaların dış yüzü (kıkırdakları yakınında)"
+    ],
+    [
+     "İnsersiyo",
+     "Processus coracoideus scapulae"
+    ],
+    [
+     "İnnervasyon",
+     "N. pectoralis medialis (C8–T1)"
+    ],
+    [
+     "Kanlanma",
+     "A. thoraco-acromialis'in r. pectoralis'i"
+    ],
+    [
+     "Fonksiyon",
+     "Skapulayı öne ve aşağı çeker; skapula sabitken kaburgaları kaldırarak inspirasyona yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kasın kısalması processus coracoideus altında plexus brachialis ve aksiller damarları sıkıştırabilir (pectoralis minor sendromu)."
+   ],
+   "related": [
+    "m-pectoralis-major",
+    "a-axillaris",
+    "scapula"
+   ],
+   "models": [
+    "Pectoralis minor muscle",
+    "Subclavius muscle"
+   ],
+   "aliases": [
+    "subclavius"
+   ]
+  },
+  {
+   "id": "m-serratus-anterior",
+   "tr": "Ön testere kası",
+   "la": "M. serratus anterior",
+   "en": "Serratus anterior",
+   "group": "Göğüs kasları",
+   "region": "thorax",
+   "summary": "Göğüs kafesinin yan yüzünde, kaburgalara testere dişleri gibi tutunan geniş kastır. Kürek kemiğini göğüs duvarına bastırır.",
+   "facts": [
+    [
+     "Origo",
+     "1.–8./9. kaburgaların dış yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Margo medialis scapulae'nin ön (kostal) yüzü, özellikle angulus inferior"
+    ],
+    [
+     "İnnervasyon",
+     "N. thoracicus longus (C5–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. thoracica lateralis, a. thoracodorsalis"
+    ],
+    [
+     "Fonksiyon",
+     "Skapulayı öne çeker (protraksiyon – yumruk atma) ve yukarı döndürerek kolun başın üzerine kaldırılmasını sağlar; skapulayı göğüs duvarında tutar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Aksiller lenf nodu diseksiyonunda n. thoracicus longus hasarı kanatlı skapulaya neden olur; hasta duvarı ittiğinde skapulanın iç kenarı belirgin şekilde kalkar."
+   ],
+   "related": [
+    "scapula",
+    "costae",
+    "m-pectoralis-minor"
+   ],
+   "models": [
+    "Serratus anterior muscle"
+   ],
+   "aliases": [
+    "serratus"
+   ]
+  },
+  {
+   "id": "mm-intercostales",
+   "tr": "Kaburgalar arası kaslar",
+   "la": "Mm. intercostales externi, interni et intimi",
+   "en": "Intercostal muscles",
+   "group": "Göğüs kasları",
+   "region": "thorax",
+   "summary": "Kaburgalar arasındaki boşlukları dolduran üç tabakalı kas grubudur. Dış tabakanın lifleri aşağı-öne, iç tabakanınki aşağı-arkaya uzanır.",
+   "facts": [
+    [
+     "Origo",
+     "Üstteki kaburganın alt kenarı"
+    ],
+    [
+     "İnsersiyo",
+     "Alttaki kaburganın üst kenarı"
+    ],
+    [
+     "İnnervasyon",
+     "Nn. intercostales (T1–T11)"
+    ],
+    [
+     "Kanlanma",
+     "Aa. intercostales anteriores ve posteriores"
+    ],
+    [
+     "Fonksiyon",
+     "Externi: kaburgaları kaldırarak inspirasyona yardım eder; interni ve intimi: zorlu ekspirasyonda kaburgaları aşağı çeker; tümü interkostal aralığı sağlamlaştırır"
+    ]
+   ],
+   "sections": [
+    [
+     "Damar-sinir paketi",
+     "İnterkostal ven, arter ve sinir (yukarıdan aşağı VAN) m. intercostalis internus ile intimus arasında, kaburganın alt kenarındaki sulcus costae'de seyreder."
+    ]
+   ],
+   "clinical": [
+    "Plevral ponksiyon damar-sinir paketini korumak için alttaki kaburganın üst kenarından yapılır.",
+    "İnterkostal sinir blokajı kaburga kırığı ağrısında kullanılır."
+   ],
+   "related": [
+    "costae",
+    "diaphragma",
+    "n-intercostales"
+   ],
+   "models": [
+    "External intercostal muscles",
+    "Internal intercostal muscles",
+    "Innermost intercostal muscles",
+    "Transversus thoracis muscle"
+   ],
+   "aliases": [
+    "interkostal"
+   ]
+  },
+  {
+   "id": "diaphragma",
+   "tr": "Diyafram",
+   "la": "Diaphragma",
+   "en": "Diaphragm",
+   "group": "Göğüs kasları",
+   "region": "thorax",
+   "summary": "Göğüs ve karın boşluklarını birbirinden ayıran, kubbe biçimli kas-tendon yapısıdır. En önemli solunum kasıdır; ortasında yonca biçimli bir tendon (centrum tendineum) bulunur.",
+   "facts": [
+    [
+     "Origo",
+     "Pars sternalis: processus xiphoideus'un arka yüzü; pars costalis: 7.–12. kaburga kıkırdaklarının iç yüzü; pars lumbalis: crus dextrum (L1–L3) ve crus sinistrum (L1–L2), lig. arcuatum mediale ve laterale"
+    ],
+    [
+     "İnsersiyo",
+     "Centrum tendineum"
+    ],
+    [
+     "İnnervasyon",
+     "N. phrenicus (C3–C5) – motor; periferi duyusal olarak alt nn. intercostales"
+    ],
+    [
+     "Kanlanma",
+     "Aa. phrenicae superiores ve inferiores, a. pericardiacophrenica, a. musculophrenica"
+    ],
+    [
+     "Fonksiyon",
+     "Kasıldığında kubbe düzleşir, göğüs boşluğunun dikey çapı artar ve hava akciğerlere girer (inspirasyon); karın içi basıncını artırarak dışkılama, işeme ve doğuma yardım eder"
+    ]
+   ],
+   "sections": [
+    [
+     "Delikleri",
+     "Foramen venae cavae (T8): v. cava inferior ve n. phrenicus dexter'in dalları; hiatus oesophageus (T10): özofagus ve nn. vagi; hiatus aorticus (T12): aorta, ductus thoracicus ve v. azygos. Akılda tutma: 'I 8 10 eggs at 12' (IVC 8, esophagus 10, aorta 12)."
+    ]
+   ],
+   "clinical": [
+    "Hiatus hernisinde midenin bir kısmı hiatus oesophageus'tan göğüs boşluğuna çıkar.",
+    "Diyafram irritasyonu (ör. dalak rüptürü, safra kesesi iltihabı) n. phrenicus aracılığıyla omuza yansıyan ağrıya neden olur (C3–C5 dermatomları).",
+    "Yüksek omurilik yaralanmaları (C3 üstü) diyafram felcine ve solunum durmasına yol açar: 'C3, 4, 5 keeps the diaphragm alive'."
+   ],
+   "related": [
+    "n-phrenicus",
+    "pulmones",
+    "costae",
+    "oesophagus",
+    "aorta"
+   ],
+   "models": [
+    "Diaphragm"
+   ],
+   "aliases": [
+    "diafram"
+   ]
+  },
+  {
+   "id": "m-rectus-abdominis",
+   "tr": "Düz karın kası",
+   "la": "M. rectus abdominis",
+   "en": "Rectus abdominis",
+   "group": "Karın kasları",
+   "region": "abdomen",
+   "summary": "Karın ön duvarında orta hattın iki yanında dikey uzanan uzun kastır. Araya giren 3–4 tendinöz kesi (intersectiones tendineae) ‘altı kas’ görünümünü verir.",
+   "facts": [
+    [
+     "Origo",
+     "Crista pubica ve symphysis pubica"
+    ],
+    [
+     "İnsersiyo",
+     "5.–7. kaburga kıkırdakları ve processus xiphoideus"
+    ],
+    [
+     "İnnervasyon",
+     "Nn. intercostales (T7–T11) ve n. subcostalis (T12)"
+    ],
+    [
+     "Kanlanma",
+     "A. epigastrica superior (a. thoracica interna) ve a. epigastrica inferior (a. iliaca externa)"
+    ],
+    [
+     "Fonksiyon",
+     "Gövdeyi öne eğer (fleksiyon); karın içi basıncını artırır; pelvisi öne eğilmeye karşı stabilize eder"
+    ]
+   ],
+   "sections": [
+    [
+     "Rektus kılıfı",
+     "Kas, karın yan kaslarının aponevrozlarından oluşan kılıf (vagina musculi recti abdominis) içinde yer alır. Kılıfın arka yaprağı göbek ile pubis arasında linea arcuata'nın altında yoktur."
+    ]
+   ],
+   "clinical": [
+    "Gebelik veya obezitede iki kas karnının orta hatta ayrılmasına diastasis recti denir.",
+    "A. epigastrica inferior'un yırtılması rektus kılıfı hematomuna yol açabilir."
+   ],
+   "related": [
+    "m-obliquus-externus",
+    "m-obliquus-internus",
+    "m-transversus-abdominis",
+    "linea-alba"
+   ],
+   "models": [
+    "Rectus abdominis muscle",
+    "Pyramidalis muscle"
+   ],
+   "aliases": [
+    "karın kası",
+    "six pack",
+    "pyramidalis"
+   ]
+  },
+  {
+   "id": "m-obliquus-externus",
+   "tr": "Dış eğik karın kası",
+   "la": "M. obliquus externus abdominis",
+   "en": "External abdominal oblique",
+   "group": "Karın kasları",
+   "region": "abdomen",
+   "summary": "Karın yan duvarının en yüzeyel ve en büyük kasıdır. Lifleri yukarı-dıştan aşağı-içe doğru (ceplere sokulan eller gibi) uzanır.",
+   "facts": [
+    [
+     "Origo",
+     "5.–12. kaburgaların dış yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Linea alba, tuberculum pubicum ve crista iliaca'nın ön yarısı; alt kenarı lig. inguinale'yi oluşturur"
+    ],
+    [
+     "İnnervasyon",
+     "Nn. intercostales (T7–T11), n. subcostalis (T12), n. iliohypogastricus"
+    ],
+    [
+     "Kanlanma",
+     "Aa. intercostales posteriores, a. circumflexa ilium profunda"
+    ],
+    [
+     "Fonksiyon",
+     "Çift taraflı: gövdeyi öne eğer ve karın içi basıncını artırır; tek taraflı: gövdeyi aynı tarafa eğer ve karşı tarafa döndürür"
+    ]
+   ],
+   "sections": [
+    [
+     "Kasık kanalı",
+     "Kasın aponevrozu canalis inguinalis'in ön duvarını oluşturur; aponevrozdaki yarık anulus inguinalis superficialis'tir."
+    ]
+   ],
+   "clinical": [
+    "Kasık fıtıkları (inguinal herniler) bu bölgedeki zayıf noktalardan gelişir."
+   ],
+   "related": [
+    "m-obliquus-internus",
+    "m-transversus-abdominis",
+    "m-rectus-abdominis",
+    "lig-inguinale"
+   ],
+   "models": [
+    "External abdominal oblique muscle"
+   ],
+   "aliases": [
+    "external oblique",
+    "dış oblik"
+   ]
+  },
+  {
+   "id": "m-obliquus-internus",
+   "tr": "İç eğik karın kası",
+   "la": "M. obliquus internus abdominis",
+   "en": "Internal abdominal oblique",
+   "group": "Karın kasları",
+   "region": "abdomen",
+   "summary": "Dış eğik kasın altında yer alan ve liflerinin çoğu ona dik uzanan karın yan duvarı kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Fascia thoracolumbalis, crista iliaca'nın ön 2/3'ü, lig. inguinale'nin dış 2/3'ü"
+    ],
+    [
+     "İnsersiyo",
+     "10.–12. kaburgaların alt kenarı, linea alba, crista pubica ve linea pectinea (falx inguinalis aracılığıyla)"
+    ],
+    [
+     "İnnervasyon",
+     "Nn. intercostales (T7–T11), n. subcostalis, n. iliohypogastricus ve n. ilioinguinalis (L1)"
+    ],
+    [
+     "Kanlanma",
+     "A. epigastrica inferior ve superior, a. circumflexa ilium profunda"
+    ],
+    [
+     "Fonksiyon",
+     "Çift taraflı: gövdeyi öne eğer, karın içi basıncını artırır; tek taraflı: gövdeyi aynı tarafa eğer ve aynı tarafa döndürür"
+    ]
+   ],
+   "sections": [
+    [
+     "Kremaster kası",
+     "Erkekte alt lifleri funiculus spermaticus ile birlikte skrotuma inerek m. cremaster'i oluşturur (n. genitofemoralis'in r. genitalis'i)."
+    ]
+   ],
+   "clinical": [],
+   "related": [
+    "m-obliquus-externus",
+    "m-transversus-abdominis",
+    "m-rectus-abdominis"
+   ],
+   "models": [
+    "Internal abdominal oblique muscle"
+   ],
+   "aliases": [
+    "internal oblique",
+    "iç oblik"
+   ]
+  },
+  {
+   "id": "m-transversus-abdominis",
+   "tr": "Enine karın kası",
+   "la": "M. transversus abdominis",
+   "en": "Transversus abdominis",
+   "group": "Karın kasları",
+   "region": "abdomen",
+   "summary": "Karın yan duvarının en derin kasıdır; lifleri yatay olarak uzanır ve karnı bir korse gibi sarar.",
+   "facts": [
+    [
+     "Origo",
+     "7.–12. kaburga kıkırdaklarının iç yüzü, fascia thoracolumbalis, crista iliaca, lig. inguinale'nin dış 1/3'ü"
+    ],
+    [
+     "İnsersiyo",
+     "Linea alba, crista pubica ve linea pectinea (falx inguinalis)"
+    ],
+    [
+     "İnnervasyon",
+     "Nn. intercostales (T7–T11), n. subcostalis, n. iliohypogastricus, n. ilioinguinalis"
+    ],
+    [
+     "Kanlanma",
+     "A. epigastrica inferior, a. circumflexa ilium profunda, aa. intercostales posteriores"
+    ],
+    [
+     "Fonksiyon",
+     "Karın içi organları sıkıştırır ve karın içi basıncını artırır; bel omurgasının stabilizasyonuna katkıda bulunur (core kası)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "TAP (transversus abdominis plane) bloğu, karın duvarı cerrahisinde ağrı kontrolü için bu kas ile iç eğik kas arasındaki düzleme yapılır."
+   ],
+   "related": [
+    "m-obliquus-internus",
+    "m-obliquus-externus",
+    "fascia-thoracolumbalis"
+   ],
+   "models": [
+    "Transversus abdominis muscle"
+   ],
+   "aliases": [
+    "transversus"
+   ]
+  },
+  {
+   "id": "m-quadratus-lumborum",
+   "tr": "Dörtgen bel kası",
+   "la": "M. quadratus lumborum",
+   "en": "Quadratus lumborum",
+   "group": "Karın kasları",
+   "region": "abdomen",
+   "summary": "Karın arka duvarında, 12. kaburga ile kalça kemiği arasında uzanan dörtgen biçimli kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Crista iliaca'nın arka kısmı ve lig. iliolumbale"
+    ],
+    [
+     "İnsersiyo",
+     "12. kaburganın alt kenarı ve L1–L4 omurlarının enine çıkıntıları"
+    ],
+    [
+     "İnnervasyon",
+     "N. subcostalis (T12) ve L1–L4 ön dalları"
+    ],
+    [
+     "Kanlanma",
+     "Aa. lumbales, a. subcostalis, a. iliolumbalis"
+    ],
+    [
+     "Fonksiyon",
+     "Gövdeyi aynı tarafa eğer; inspirasyonda 12. kaburgayı sabitler; çift taraflı çalışınca bel omurgasını ekstansiyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bel ağrısının sık kas kaynaklı nedenlerinden biridir."
+   ],
+   "related": [
+    "m-iliopsoas",
+    "vertebrae-lumbales",
+    "ren"
+   ],
+   "models": [
+    "Quadratus lumborum muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "diaphragma-pelvis",
+   "tr": "Pelvis tabanı kasları",
+   "la": "Diaphragma pelvis (m. levator ani, m. coccygeus)",
+   "en": "Pelvic diaphragm",
+   "group": "Karın kasları",
+   "region": "pelvis",
+   "summary": "Pelvis boşluğunun tabanını oluşturan, huni biçimli kas tabakasıdır. Pelvis organlarını destekler ve kontinansa katkıda bulunur.",
+   "facts": [
+    [
+     "Origo",
+     "M. levator ani: os pubis'in arka yüzü, arcus tendineus musculi levatoris ani, spina ischiadica; m. coccygeus: spina ischiadica"
+    ],
+    [
+     "İnsersiyo",
+     "Corpus perineale, lig. anococcygeum, koksiks ve sakrumun alt kenarı"
+    ],
+    [
+     "İnnervasyon",
+     "N. musculi levatoris ani (S3–S4), n. pudendus'un dalları"
+    ],
+    [
+     "Kanlanma",
+     "A. glutea inferior, a. pudenda interna, a. vesicalis inferior"
+    ],
+    [
+     "Fonksiyon",
+     "Pelvis organlarını destekler, karın içi basınç artışına karşı koyar; m. puborectalis anorektal açıyı oluşturarak dışkı kontinansını sağlar"
+    ]
+   ],
+   "sections": [
+    [
+     "Bölümleri",
+     "M. levator ani; m. puborectalis, m. pubococcygeus ve m. iliococcygeus bölümlerinden oluşur. M. sphincter ani externus anal kanalı çevreleyen istemli büzücü kastır."
+    ]
+   ],
+   "clinical": [
+    "Doğum sırasında pelvis tabanı kaslarının hasarı stres tipi idrar kaçırma ve pelvik organ sarkmasına (prolapsus) neden olabilir; Kegel egzersizleri bu kasları güçlendirir."
+   ],
+   "related": [
+    "os-coccygis",
+    "vesica-urinaria",
+    "rectum"
+   ],
+   "models": [
+    "Pelvic diaphragm",
+    "Levator ani",
+    "Coccygeus muscle",
+    "Iliococcygeus muscle",
+    "Pubococcygeus muscle",
+    "Pubo-analis muscle",
+    "External anal sphincter",
+    "Tendinous arch of levator ani"
+   ],
+   "aliases": [
+    "levator ani",
+    "pelvik taban"
+   ]
+  },
+  {
+   "id": "linea-alba",
+   "tr": "Beyaz çizgi",
+   "la": "Linea alba",
+   "en": "Linea alba",
+   "group": "Karın kasları",
+   "region": "abdomen",
+   "summary": "Karın ön duvarının orta hattında, processus xiphoideus'tan symphysis pubica'ya uzanan, yan karın kaslarının aponevrozlarının birleşmesiyle oluşan fibröz banttır. Göbek (anulus umbilicalis) bu yapının üzerindedir.",
+   "facts": [
+    [
+     "Oluşum",
+     "M. obliquus externus, m. obliquus internus ve m. transversus abdominis aponevrozlarının orta hatta kesişmesi"
+    ],
+    [
+     "Uzanım",
+     "Processus xiphoideus – symphysis pubica"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Damarsız olduğu için orta hat kesileri (laparotomi) burada yapılır.",
+    "Göbek üstü fıtıkları (epigastrik herni) linea alba'daki açıklıklardan gelişir."
+   ],
+   "related": [
+    "m-rectus-abdominis",
+    "m-obliquus-externus"
+   ],
+   "models": [
+    "Linea alba"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "lig-inguinale",
+   "tr": "Kasık bağı",
+   "la": "Ligamentum inguinale",
+   "en": "Inguinal ligament",
+   "group": "Karın kasları",
+   "region": "pelvis",
+   "summary": "Spina iliaca anterior superior ile tuberculum pubicum arasında uzanan, dış eğik kasın aponevrozunun kıvrılmış alt kenarıdır. Karın ile uyluk arasındaki sınırı oluşturur.",
+   "facts": [
+    [
+     "Uzanım",
+     "SIAS – tuberculum pubicum"
+    ],
+    [
+     "Altından geçenler",
+     "Lacuna musculorum: m. iliopsoas ve n. femoralis; lacuna vasorum: a. ve v. femoralis, canalis femoralis (lenf damarları)"
+    ],
+    [
+     "İlişki",
+     "Canalis inguinalis'in tabanını oluşturur"
+    ]
+   ],
+   "sections": [
+    [
+     "Femoral üçgen",
+     "Lig. inguinale (üst), m. sartorius (dış) ve m. adductor longus (iç) kenarlarının sınırladığı üçgende dıştan içe sinir, arter, ven ve lenfatikler (NAVeL) bulunur."
+    ]
+   ],
+   "clinical": [
+    "İnguinal herniler bağın üstünde, femoral herniler altında ve tuberculum pubicum'un dış-alt tarafında ele gelir.",
+    "Femoral nabız bağın ortasının hemen altında alınır."
+   ],
+   "related": [
+    "m-obliquus-externus",
+    "a-femoralis",
+    "n-femoralis",
+    "os-coxae"
+   ],
+   "models": [
+    "Inguinal ligament",
+    "Iliopectineal arch"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "fascia-thoracolumbalis",
+   "tr": "Göğüs-bel fasyası",
+   "la": "Fascia thoracolumbalis",
+   "en": "Thoracolumbar fascia",
+   "group": "Sırt kasları",
+   "region": "back",
+   "summary": "Sırtın derin kaslarını saran, bel bölgesinde üç yaprak hâlinde düzenlenen güçlü fasya tabakasıdır. Geniş sırt kası ve karın kaslarına tutunma yeri sağlar.",
+   "facts": [
+    [
+     "Yaprakları",
+     "Ön (m. quadratus lumborum önünde), orta (quadratus lumborum ile erector spinae arası) ve arka yaprak (erector spinae'nin arkası)"
+    ],
+    [
+     "Tutunanlar",
+     "M. latissimus dorsi, m. obliquus internus abdominis, m. transversus abdominis, m. serratus posterior inferior"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bel ağrısında fasyanın gerginliği ve inflamasyonu rol oynayabilir."
+   ],
+   "related": [
+    "m-latissimus-dorsi",
+    "m-erector-spinae",
+    "m-transversus-abdominis"
+   ],
+   "models": [
+    "Thoracolumbar fascia"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-deltoideus",
+   "tr": "Omuz kası (deltoid)",
+   "la": "M. deltoideus",
+   "en": "Deltoid",
+   "group": "Omuz kasları",
+   "region": "upperLimb",
+   "summary": "Omzun yuvarlak dış hatlarını oluşturan, üçgen biçimli kalın kastır. Ön (klaviküler), orta (akromiyal) ve arka (spinal) bölümleri vardır.",
+   "facts": [
+    [
+     "Origo",
+     "Clavicula'nın dış 1/3'ü, acromion ve spina scapulae"
+    ],
+    [
+     "İnsersiyo",
+     "Humerus'un tuberositas deltoidea'sı"
+    ],
+    [
+     "İnnervasyon",
+     "N. axillaris (C5–C6)"
+    ],
+    [
+     "Kanlanma",
+     "A. circumflexa humeri posterior, a. thoraco-acromialis'in r. deltoideus'u"
+    ],
+    [
+     "Fonksiyon",
+     "Orta bölüm: kolu 15°'den sonra 90°'ye kadar abdüksiyona getirir; ön bölüm: fleksiyon ve iç rotasyon; arka bölüm: ekstansiyon ve dış rotasyon"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Humerus collum chirurgicum kırığı veya omuz çıkığında n. axillaris hasarı deltoid felcine ve omzun düzleşmesine yol açar; omuz dış yüzünde (regimental badge alanı) his kaybı olur.",
+    "Kas içi enjeksiyonlar için sık kullanılan bir bölgedir; n. axillaris'i korumak için akromiyonun 2–3 parmak altından yapılır."
+   ],
+   "related": [
+    "m-supraspinatus",
+    "n-axillaris",
+    "humerus",
+    "art-humeri"
+   ],
+   "models": [
+    "Deltoid muscle",
+    "Clavicular part of deltoid muscle",
+    "Acromial part of deltoid muscle",
+    "Scapular spinal part of deltoid muscle"
+   ],
+   "aliases": [
+    "deltoid"
+   ]
+  },
+  {
+   "id": "m-supraspinatus",
+   "tr": "Kılçık üstü kası",
+   "la": "M. supraspinatus",
+   "en": "Supraspinatus",
+   "group": "Omuz kasları",
+   "region": "upperLimb",
+   "summary": "Kürek kemiğinin spina'sının üstündeki çukuru dolduran, rotator manşetin üst üyesidir. Abdüksiyonu başlatır.",
+   "facts": [
+    [
+     "Origo",
+     "Fossa supraspinata scapulae"
+    ],
+    [
+     "İnsersiyo",
+     "Tuberculum majus humeri'nin üst yüzü (facies superior) ve eklem kapsülü"
+    ],
+    [
+     "İnnervasyon",
+     "N. suprascapularis (C5–C6)"
+    ],
+    [
+     "Kanlanma",
+     "A. suprascapularis"
+    ],
+    [
+     "Fonksiyon",
+     "Kolun abdüksiyonunu (ilk 15°) başlatır; humerus başını cavitas glenoidalis içinde tutar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Rotator manşetin en sık yırtılan ve sıkışan (impingement) kasıdır; tendonu akromiyon altında sıkışır.",
+    "‘Boş kutu’ (empty can) testi supraspinatus'u değerlendirir; ağrılı ark 60–120° arası abdüksiyonda tipiktir."
+   ],
+   "related": [
+    "m-infraspinatus",
+    "m-teres-minor",
+    "m-subscapularis",
+    "m-deltoideus",
+    "scapula",
+    "art-humeri"
+   ],
+   "models": [
+    "Supraspinatus muscle"
+   ],
+   "aliases": [
+    "rotator manşet"
+   ]
+  },
+  {
+   "id": "m-infraspinatus",
+   "tr": "Kılçık altı kası",
+   "la": "M. infraspinatus",
+   "en": "Infraspinatus",
+   "group": "Omuz kasları",
+   "region": "upperLimb",
+   "summary": "Kürek kemiğinin spina'sının altındaki çukuru dolduran kalın üçgen kastır; rotator manşetin üyesidir.",
+   "facts": [
+    [
+     "Origo",
+     "Fossa infraspinata scapulae"
+    ],
+    [
+     "İnsersiyo",
+     "Tuberculum majus humeri'nin orta yüzü"
+    ],
+    [
+     "İnnervasyon",
+     "N. suprascapularis (C5–C6)"
+    ],
+    [
+     "Kanlanma",
+     "A. suprascapularis, a. circumflexa scapulae"
+    ],
+    [
+     "Fonksiyon",
+     "Kolu dışa döndürür (dış rotasyon); humerus başını eklem çukurunda stabilize eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "N. suprascapularis'in incisura spinoglenoidalis'te sıkışması yalnızca infraspinatus atrofisine yol açabilir (voleybolcularda)."
+   ],
+   "related": [
+    "m-supraspinatus",
+    "m-teres-minor",
+    "scapula"
+   ],
+   "models": [
+    "Infraspinatus muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-teres-minor",
+   "tr": "Küçük yuvarlak kas",
+   "la": "M. teres minor",
+   "en": "Teres minor",
+   "group": "Omuz kasları",
+   "region": "upperLimb",
+   "summary": "Kürek kemiğinin dış kenarından humerusa uzanan küçük, silindir biçimli kastır; rotator manşetin üyesidir.",
+   "facts": [
+    [
+     "Origo",
+     "Margo lateralis scapulae'nin üst 2/3'ü"
+    ],
+    [
+     "İnsersiyo",
+     "Tuberculum majus humeri'nin alt yüzü"
+    ],
+    [
+     "İnnervasyon",
+     "N. axillaris (C5–C6)"
+    ],
+    [
+     "Kanlanma",
+     "A. circumflexa scapulae, a. circumflexa humeri posterior"
+    ],
+    [
+     "Fonksiyon",
+     "Kolu dışa döndürür ve hafif addüksiyona getirir; humerus başını stabilize eder"
+    ]
+   ],
+   "sections": [
+    [
+     "Aralıklar",
+     "Teres minor, teres major, triceps'in uzun başı ve humerus arasında üçgen ve dörtgen aralıklar oluşur; dörtgen aralıktan (spatium quadrangulare) n. axillaris ve a. circumflexa humeri posterior geçer."
+    ]
+   ],
+   "clinical": [],
+   "related": [
+    "m-infraspinatus",
+    "m-teres-major",
+    "n-axillaris"
+   ],
+   "models": [
+    "Teres minor muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-subscapularis",
+   "tr": "Kürek altı kası",
+   "la": "M. subscapularis",
+   "en": "Subscapularis",
+   "group": "Omuz kasları",
+   "region": "upperLimb",
+   "summary": "Kürek kemiğinin ön (kostal) yüzünü kaplayan büyük üçgen kastır; rotator manşetin en güçlü üyesidir.",
+   "facts": [
+    [
+     "Origo",
+     "Fossa subscapularis"
+    ],
+    [
+     "İnsersiyo",
+     "Tuberculum minus humeri"
+    ],
+    [
+     "İnnervasyon",
+     "N. subscapularis superior ve inferior (C5–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. subscapularis, a. suprascapularis"
+    ],
+    [
+     "Fonksiyon",
+     "Kolu içe döndürür (iç rotasyon) ve addüksiyona getirir; humerus başının öne kaymasını engeller"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "‘Lift-off’ (Gerber) testi ve belly-press testi subscapularis bütünlüğünü değerlendirir."
+   ],
+   "related": [
+    "m-supraspinatus",
+    "scapula",
+    "art-humeri"
+   ],
+   "models": [
+    "Subscapularis muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-teres-major",
+   "tr": "Büyük yuvarlak kas",
+   "la": "M. teres major",
+   "en": "Teres major",
+   "group": "Omuz kasları",
+   "region": "upperLimb",
+   "summary": "Kürek kemiğinin alt köşesinden humerusa uzanan kalın kastır; geniş sırt kasıyla birlikte çalışır (latissimus'un küçük yardımcısı).",
+   "facts": [
+    [
+     "Origo",
+     "Angulus inferior scapulae'nin arka yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Humerus'un crista tuberculi minoris'i (sulcus intertubercularis'in iç dudağı)"
+    ],
+    [
+     "İnnervasyon",
+     "N. subscapularis inferior (C5–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. circumflexa scapulae, a. thoracodorsalis"
+    ],
+    [
+     "Fonksiyon",
+     "Kolu addüksiyon, iç rotasyon ve ekstansiyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-latissimus-dorsi",
+    "m-teres-minor",
+    "scapula"
+   ],
+   "models": [
+    "Teres major muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-biceps-brachii",
+   "tr": "Pazı kası (iki başlı kol kası)",
+   "la": "M. biceps brachii",
+   "en": "Biceps brachii",
+   "group": "Kol kasları",
+   "region": "upperLimb",
+   "summary": "Kolun ön yüzünde yer alan, iki başlı belirgin kastır. Hem omuz hem dirsek eklemini aşar; önkolun en güçlü supinatorüdür.",
+   "facts": [
+    [
+     "Origo",
+     "Caput longum: tuberculum supraglenoidale scapulae; caput breve: processus coracoideus"
+    ],
+    [
+     "İnsersiyo",
+     "Tuberositas radii ve aponeurosis bicipitalis aracılığıyla önkol fasyası"
+    ],
+    [
+     "İnnervasyon",
+     "N. musculocutaneus (C5–C6)"
+    ],
+    [
+     "Kanlanma",
+     "A. brachialis'in muskuler dalları"
+    ],
+    [
+     "Fonksiyon",
+     "Önkolu fleksiyona getirir ve supinasyon yaptırır (şişe açma hareketi); kolun fleksiyonuna yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Uzun baş tendonunun kopmasında kas karnı aşağı toplanır (Popeye bulgusu).",
+    "Biseps refleksi C5–C6 segmentlerini test eder.",
+    "Aponeurosis bicipitalis altında a. brachialis ve n. medianus seyreder; kan alınan v. mediana cubiti bu aponevrozun üstündedir."
+   ],
+   "related": [
+    "m-brachialis",
+    "m-triceps-brachii",
+    "n-musculocutaneus",
+    "radius",
+    "art-cubiti"
+   ],
+   "models": [
+    "Biceps brachii muscle",
+    "Long head of biceps brachii",
+    "Short head of biceps brachii"
+   ],
+   "aliases": [
+    "biseps",
+    "pazı"
+   ]
+  },
+  {
+   "id": "m-brachialis",
+   "tr": "Kol kası",
+   "la": "M. brachialis",
+   "en": "Brachialis",
+   "group": "Kol kasları",
+   "region": "upperLimb",
+   "summary": "Biceps'in altında, humerusun alt yarısının önünde yer alan kalın kastır. Dirseğin asıl fleksörüdür.",
+   "facts": [
+    [
+     "Origo",
+     "Humerus'un ön yüzünün alt yarısı"
+    ],
+    [
+     "İnsersiyo",
+     "Processus coronoideus ve tuberositas ulnae"
+    ],
+    [
+     "İnnervasyon",
+     "N. musculocutaneus (C5–C6); dış kısmı n. radialis'ten de lif alır"
+    ],
+    [
+     "Kanlanma",
+     "A. brachialis, a. collateralis radialis"
+    ],
+    [
+     "Fonksiyon",
+     "Önkolu her pozisyonda fleksiyona getirir (dirseğin ‘iş gücü’ kası)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dirsek kırıkları sonrası kas içinde ektopik kemikleşme (miyozitis ossifikans) gelişebilir."
+   ],
+   "related": [
+    "m-biceps-brachii",
+    "m-brachioradialis",
+    "ulna",
+    "art-cubiti"
+   ],
+   "models": [
+    "Brachialis muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-coracobrachialis",
+   "tr": "Gaga-kol kası",
+   "la": "M. coracobrachialis",
+   "en": "Coracobrachialis",
+   "group": "Kol kasları",
+   "region": "upperLimb",
+   "summary": "Processus coracoideus'tan humerusun ortasına uzanan, kolun ön bölmesindeki ince kastır. N. musculocutaneus bu kası deler.",
+   "facts": [
+    [
+     "Origo",
+     "Processus coracoideus scapulae"
+    ],
+    [
+     "İnsersiyo",
+     "Humerus gövdesinin iç yüzünün ortası"
+    ],
+    [
+     "İnnervasyon",
+     "N. musculocutaneus (C5–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. brachialis"
+    ],
+    [
+     "Fonksiyon",
+     "Kolu fleksiyon ve addüksiyona getirir; humerus başını stabilize eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-biceps-brachii",
+    "n-musculocutaneus"
+   ],
+   "models": [
+    "Coracobrachialis muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-triceps-brachii",
+   "tr": "Üç başlı kol kası",
+   "la": "M. triceps brachii",
+   "en": "Triceps brachii",
+   "group": "Kol kasları",
+   "region": "upperLimb",
+   "summary": "Kolun arka bölmesinin tamamını kaplayan, üç başlı kastır. Dirseğin başlıca ekstansörüdür.",
+   "facts": [
+    [
+     "Origo",
+     "Caput longum: tuberculum infraglenoidale scapulae; caput laterale: sulcus nervi radialis'in üstü; caput mediale: sulcus nervi radialis'in altı"
+    ],
+    [
+     "İnsersiyo",
+     "Olecranon ulnae"
+    ],
+    [
+     "İnnervasyon",
+     "N. radialis (C6–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. profunda brachii, a. circumflexa humeri posterior"
+    ],
+    [
+     "Fonksiyon",
+     "Önkolu ekstansiyona getirir; uzun başı kolun ekstansiyon ve addüksiyonuna yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Triseps refleksi C7 segmentini test eder.",
+    "N. radialis humerus ortasında zedelenirse medial başın bir kısmı korunabilir; aksiller bölgedeki yüksek lezyonlarda triseps tamamen felç olur."
+   ],
+   "related": [
+    "m-biceps-brachii",
+    "m-anconeus",
+    "n-radialis",
+    "ulna"
+   ],
+   "models": [
+    "Triceps brachii muscle",
+    "Long head of triceps brachii",
+    "Lateral head of triceps brachii",
+    "Medial head of triceps brachii"
+   ],
+   "aliases": [
+    "triseps"
+   ]
+  },
+  {
+   "id": "m-anconeus",
+   "tr": "Dirsek kası",
+   "la": "M. anconeus",
+   "en": "Anconeus",
+   "group": "Kol kasları",
+   "region": "upperLimb",
+   "summary": "Dirseğin arka-dış yüzünde yer alan küçük üçgen kastır; tricepsin devamı gibi çalışır.",
+   "facts": [
+    [
+     "Origo",
+     "Epicondylus lateralis humeri'nin arka yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Olecranon'un dış yüzü ve ulna'nın arka yüzünün üst kısmı"
+    ],
+    [
+     "İnnervasyon",
+     "N. radialis (C7–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. interossea recurrens"
+    ],
+    [
+     "Fonksiyon",
+     "Dirsek ekstansiyonuna yardım eder; eklem kapsülünü gerer ve pronasyonda ulnayı stabilize eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-triceps-brachii",
+    "art-cubiti"
+   ],
+   "models": [
+    "Anconeus muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-pronator-teres",
+   "tr": "Yuvarlak pronator kas",
+   "la": "M. pronator teres",
+   "en": "Pronator teres",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun ön yüzünün üst kısmında, dirsekten radiusun ortasına çapraz uzanan kastır. İki başı arasından n. medianus geçer.",
+   "facts": [
+    [
+     "Origo",
+     "Caput humerale: epicondylus medialis humeri (ortak fleksör tendonu); caput ulnare: processus coronoideus ulnae"
+    ],
+    [
+     "İnsersiyo",
+     "Radius'un dış yüzünün ortası (tuberositas pronatoria)"
+    ],
+    [
+     "İnnervasyon",
+     "N. medianus (C6–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. ulnaris, a. radialis"
+    ],
+    [
+     "Fonksiyon",
+     "Önkolu pronasyona getirir; dirsek fleksiyonuna yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "İki baş arasında n. medianus sıkışması (pronator teres sendromu) karpal tünel sendromunu taklit eder ancak avuç içinde de uyuşma yapar."
+   ],
+   "related": [
+    "m-pronator-quadratus",
+    "n-medianus",
+    "radius"
+   ],
+   "models": [
+    "Superficial head of pronator teres",
+    "Deep head of pronator teres"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-flexor-carpi-radialis",
+   "tr": "Radial el bileği fleksörü",
+   "la": "M. flexor carpi radialis",
+   "en": "Flexor carpi radialis",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun ön yüzeyel kaslarından biridir; tendonu el bileğinde radial nabzın hemen iç tarafında ele gelir.",
+   "facts": [
+    [
+     "Origo",
+     "Epicondylus medialis humeri (ortak fleksör tendonu)"
+    ],
+    [
+     "İnsersiyo",
+     "2. ve 3. metakarp kemiklerinin tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. medianus (C6–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. radialis"
+    ],
+    [
+     "Fonksiyon",
+     "El bileğini fleksiyona ve radial deviasyona (abdüksiyon) getirir"
+    ]
+   ],
+   "sections": [
+    [
+     "İşaret değeri",
+     "El bileğinde tendonunun dış tarafında a. radialis'in nabzı alınır."
+    ]
+   ],
+   "clinical": [],
+   "related": [
+    "m-palmaris-longus",
+    "m-flexor-carpi-ulnaris",
+    "a-radialis",
+    "n-medianus"
+   ],
+   "models": [
+    "Flexor carpi radialis"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-palmaris-longus",
+   "tr": "Uzun avuç kası",
+   "la": "M. palmaris longus",
+   "en": "Palmaris longus",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "İnce ve uzun tendonlu, kişilerin yaklaşık %14'ünde bulunmayan önkol kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Epicondylus medialis humeri (ortak fleksör tendonu)"
+    ],
+    [
+     "İnsersiyo",
+     "Retinaculum flexorum ve aponeurosis palmaris"
+    ],
+    [
+     "İnnervasyon",
+     "N. medianus (C7–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. ulnaris"
+    ],
+    [
+     "Fonksiyon",
+     "El bileği fleksiyonuna yardım eder; avuç içi aponevrozunu gerer"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tendonu, tendon grefti olarak sık kullanılır.",
+    "N. medianus el bileğinde bu tendonun hemen altında ve dış tarafında seyreder."
+   ],
+   "related": [
+    "m-flexor-carpi-radialis",
+    "n-medianus"
+   ],
+   "models": [
+    "Palmaris longus muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-flexor-carpi-ulnaris",
+   "tr": "Ulnar el bileği fleksörü",
+   "la": "M. flexor carpi ulnaris",
+   "en": "Flexor carpi ulnaris",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun ön-iç kenarında yer alan yüzeyel fleksör kastır; n. ulnaris tarafından innerve edilen iki ön önkol kasından biridir.",
+   "facts": [
+    [
+     "Origo",
+     "Caput humerale: epicondylus medialis humeri; caput ulnare: olecranon ve ulna'nın arka kenarı"
+    ],
+    [
+     "İnsersiyo",
+     "Os pisiforme, hamulus ossis hamati ve 5. metakarpın tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. ulnaris (C7–T1)"
+    ],
+    [
+     "Kanlanma",
+     "A. ulnaris"
+    ],
+    [
+     "Fonksiyon",
+     "El bileğini fleksiyona ve ulnar deviasyona (addüksiyon) getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "İki başı arasındaki kübital tünelde n. ulnaris sıkışabilir (kübital tünel sendromu)."
+   ],
+   "related": [
+    "n-ulnaris",
+    "os-pisiforme",
+    "m-flexor-carpi-radialis"
+   ],
+   "models": [
+    "Humeral head of flexor carpi ulnaris",
+    "Ulnar head of flexor carpi ulnaris"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-flexor-digitorum-superficialis",
+   "tr": "Yüzeyel parmak fleksörü",
+   "la": "M. flexor digitorum superficialis",
+   "en": "Flexor digitorum superficialis",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun ön bölmesinin orta tabakasını oluşturan geniş kastır. Dört tendonu orta falankslara yapışır.",
+   "facts": [
+    [
+     "Origo",
+     "Caput humero-ulnare: epicondylus medialis humeri ve processus coronoideus; caput radiale: radius'un ön yüzünün üst kısmı"
+    ],
+    [
+     "İnsersiyo",
+     "2.–5. parmakların orta falankslarının yan kenarları (tendonları ikiye ayrılarak FDP'ye yol verir)"
+    ],
+    [
+     "İnnervasyon",
+     "N. medianus (C7–T1)"
+    ],
+    [
+     "Kanlanma",
+     "A. ulnaris, a. radialis"
+    ],
+    [
+     "Fonksiyon",
+     "Proksimal interfalangeal (PIP) eklemlerde parmakları büker; MCP ve el bileği fleksiyonuna yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Test: diğer parmaklar ekstansiyonda tutulurken muayene edilen parmağın PIP eklemi bükülür (FDP etkisizleştirilir)."
+   ],
+   "related": [
+    "m-flexor-digitorum-profundus",
+    "n-medianus",
+    "phalanges-manus"
+   ],
+   "models": [
+    "Humero-ulnar head of flexor digitorum superficialis",
+    "Radial head of flexor digitorum superficialis"
+   ],
+   "aliases": [
+    "FDS"
+   ]
+  },
+  {
+   "id": "m-flexor-digitorum-profundus",
+   "tr": "Derin parmak fleksörü",
+   "la": "M. flexor digitorum profundus",
+   "en": "Flexor digitorum profundus",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun ön bölmesinin derin tabakasında yer alan, parmak uçlarını büken kastır. Çift sinirli bir kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Ulna'nın ön ve iç yüzünün üst 3/4'ü ve membrana interossea"
+    ],
+    [
+     "İnsersiyo",
+     "2.–5. parmakların distal falankslarının tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "Dış yarı (2.–3. parmaklar): n. medianus'un n. interosseus anterior dalı; iç yarı (4.–5. parmaklar): n. ulnaris (C8–T1)"
+    ],
+    [
+     "Kanlanma",
+     "A. ulnaris, a. interossea anterior"
+    ],
+    [
+     "Fonksiyon",
+     "Distal interfalangeal (DIP) eklemlerde parmak uçlarını büker; tüm parmak eklemleri ve el bileği fleksiyonuna yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Rugby/jersey finger: yüzük parmağının FDP tendonu distal falankstan kopar.",
+    "Yüksek n. ulnaris lezyonunda 4.–5. parmaklarda DIP fleksiyonu kaybolur."
+   ],
+   "related": [
+    "m-flexor-digitorum-superficialis",
+    "n-medianus",
+    "n-ulnaris",
+    "mm-lumbricales-manus"
+   ],
+   "models": [
+    "Flexor digitorum profundus"
+   ],
+   "aliases": [
+    "FDP"
+   ]
+  },
+  {
+   "id": "m-flexor-pollicis-longus",
+   "tr": "Uzun başparmak fleksörü",
+   "la": "M. flexor pollicis longus",
+   "en": "Flexor pollicis longus",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun derin ön tabakasında, radiusun önünde yer alan ve başparmağın uç bölümünü büken kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Radius'un ön yüzü ve membrana interossea"
+    ],
+    [
+     "İnsersiyo",
+     "Başparmak distal falanksının tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. interosseus anterior (n. medianus; C7–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. interossea anterior"
+    ],
+    [
+     "Fonksiyon",
+     "Başparmağın interfalangeal eklemini ve MCP eklemini büker"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "N. interosseus anterior hasarında başparmak ile işaret parmağı ‘OK’ işareti yapamaz (pinç bozulur)."
+   ],
+   "related": [
+    "n-medianus",
+    "m-flexor-digitorum-profundus"
+   ],
+   "models": [
+    "Flexor pollicis longus"
+   ],
+   "aliases": [
+    "FPL"
+   ]
+  },
+  {
+   "id": "m-pronator-quadratus",
+   "tr": "Dörtgen pronator kas",
+   "la": "M. pronator quadratus",
+   "en": "Pronator quadratus",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun alt ucunda, radius ile ulna arasında enine uzanan dörtgen kastır; pronasyonun asıl kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Ulna'nın ön yüzünün alt 1/4'ü"
+    ],
+    [
+     "İnsersiyo",
+     "Radius'un ön yüzünün alt 1/4'ü"
+    ],
+    [
+     "İnnervasyon",
+     "N. interosseus anterior (n. medianus; C7–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. interossea anterior"
+    ],
+    [
+     "Fonksiyon",
+     "Önkolu pronasyona getirir; distal radioulnar eklemi bir arada tutar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-pronator-teres",
+    "radius",
+    "ulna"
+   ],
+   "models": [
+    "Pronator quadratus"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-brachioradialis",
+   "tr": "Kol-döner kemik kası",
+   "la": "M. brachioradialis",
+   "en": "Brachioradialis",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun dış kenarında yer alan yüzeyel kastır. Arka bölme kası olmasına (n. radialis) rağmen dirseği büker.",
+   "facts": [
+    [
+     "Origo",
+     "Humerus'un crista supracondylaris lateralis'inin üst 2/3'ü"
+    ],
+    [
+     "İnsersiyo",
+     "Processus styloideus radii'nin tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. radialis (C5–C6)"
+    ],
+    [
+     "Kanlanma",
+     "A. recurrens radialis"
+    ],
+    [
+     "Fonksiyon",
+     "Önkol yarı pronasyondayken (çekiç tutar gibi) dirseği büker; önkolu orta pozisyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Brakiyoradiyal refleks C5–C6 segmentlerini test eder."
+   ],
+   "related": [
+    "m-brachialis",
+    "n-radialis",
+    "radius"
+   ],
+   "models": [
+    "Brachioradialis muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mm-extensores-carpi-radiales",
+   "tr": "Radial el bileği ekstansörleri",
+   "la": "Mm. extensores carpi radiales longus et brevis",
+   "en": "Extensor carpi radialis longus and brevis",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun arka-dış kısmında yer alan, el bileğini geriye bükerek kavramayı güçlendiren iki kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Longus: crista supracondylaris lateralis humeri; brevis: epicondylus lateralis humeri (ortak ekstansör tendonu)"
+    ],
+    [
+     "İnsersiyo",
+     "Longus: 2. metakarp tabanı; brevis: 3. metakarp tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "Longus: n. radialis; brevis: n. radialis'in r. profundus'u (C6–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. radialis, a. recurrens radialis"
+    ],
+    [
+     "Fonksiyon",
+     "El bileğini ekstansiyona ve radial deviasyona getirir; yumruk sıkarken el bileğini sabitler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tenisçi dirseği (lateral epikondilit) çoğunlukla ECRB tendonunun epicondylus lateralis'teki aşırı kullanım hasarıdır."
+   ],
+   "related": [
+    "m-extensor-digitorum",
+    "m-extensor-carpi-ulnaris",
+    "n-radialis"
+   ],
+   "models": [
+    "Extensor carpi radialis longus",
+    "Extensor carpi radialis brevis"
+   ],
+   "aliases": [
+    "ECRL",
+    "ECRB"
+   ]
+  },
+  {
+   "id": "m-extensor-digitorum",
+   "tr": "Parmak ekstansörü",
+   "la": "M. extensor digitorum",
+   "en": "Extensor digitorum",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun arka yüzünün ortasında yer alan, dört tendonla parmakları açan (ekstansiyon) kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Epicondylus lateralis humeri (ortak ekstansör tendonu)"
+    ],
+    [
+     "İnsersiyo",
+     "2.–5. parmakların ekstansör aparatusu (orta ve distal falanksların tabanı)"
+    ],
+    [
+     "İnnervasyon",
+     "N. interosseus posterior (n. radialis; C7–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. interossea posterior"
+    ],
+    [
+     "Fonksiyon",
+     "2.–5. parmakları MCP, PIP ve DIP eklemlerinde ekstansiyona getirir; el bileği ekstansiyonuna yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "mm-extensores-carpi-radiales",
+    "n-radialis",
+    "phalanges-manus"
+   ],
+   "models": [
+    "Extensor digitorum",
+    "Extensor digiti minimi",
+    "Extensor indicis"
+   ],
+   "aliases": [
+    "extensor indicis",
+    "extensor digiti minimi"
+   ]
+  },
+  {
+   "id": "m-extensor-carpi-ulnaris",
+   "tr": "Ulnar el bileği ekstansörü",
+   "la": "M. extensor carpi ulnaris",
+   "en": "Extensor carpi ulnaris",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun arka-iç kenarında yer alan yüzeyel ekstansör kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Epicondylus lateralis humeri ve ulna'nın arka kenarı"
+    ],
+    [
+     "İnsersiyo",
+     "5. metakarp tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. interosseus posterior (n. radialis; C7–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. ulnaris, a. interossea posterior"
+    ],
+    [
+     "Fonksiyon",
+     "El bileğini ekstansiyona ve ulnar deviasyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-flexor-carpi-ulnaris",
+    "m-extensor-digitorum"
+   ],
+   "models": [
+    "Humeral head of extensor carpi ulnaris",
+    "Ulnar head of extensor carpi ulnaris"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-supinator",
+   "tr": "Supinator kas",
+   "la": "M. supinator",
+   "en": "Supinator",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Radiusun üst kısmını saran derin arka önkol kasıdır. N. radialis'in derin dalı bu kası delerek arka bölmeye geçer.",
+   "facts": [
+    [
+     "Origo",
+     "Epicondylus lateralis humeri, lig. collaterale radiale, lig. anulare radii, crista musculi supinatoris ulnae"
+    ],
+    [
+     "İnsersiyo",
+     "Radius'un üst 1/3'ünün dış, arka ve ön yüzleri"
+    ],
+    [
+     "İnnervasyon",
+     "N. radialis'in r. profundus'u (C6–C7)"
+    ],
+    [
+     "Kanlanma",
+     "A. recurrens radialis, a. interossea recurrens"
+    ],
+    [
+     "Fonksiyon",
+     "Önkolu supinasyona getirir (özellikle dirsek ekstansiyondayken)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kasın giriş yerindeki fibröz ark (Frohse arkı) altında n. interosseus posterior sıkışabilir; parmak düşüklüğü gelişir, his kaybı olmaz."
+   ],
+   "related": [
+    "m-biceps-brachii",
+    "n-radialis",
+    "radius"
+   ],
+   "models": [
+    "Supinator"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mm-pollicis-longi",
+   "tr": "Başparmağın uzun kasları",
+   "la": "Mm. abductor pollicis longus, extensor pollicis brevis et longus",
+   "en": "Long muscles of the thumb",
+   "group": "Önkol kasları",
+   "region": "upperLimb",
+   "summary": "Önkolun derin arka tabakasından başparmağa uzanan üç kastır. Tendonları el bileğinin dış yüzünde anatomik enfiye çukurunu sınırlar.",
+   "facts": [
+    [
+     "Origo",
+     "Ulna, radius ve membrana interossea'nın arka yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "APL: 1. metakarp tabanı; EPB: başparmak proksimal falanksı tabanı; EPL: başparmak distal falanksı tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. interosseus posterior (n. radialis; C7–C8)"
+    ],
+    [
+     "Kanlanma",
+     "A. interossea posterior"
+    ],
+    [
+     "Fonksiyon",
+     "APL başparmağı abdüksiyona; EPB ve EPL başparmağı ekstansiyona getirir"
+    ]
+   ],
+   "sections": [
+    [
+     "Anatomik enfiye çukuru",
+     "Önde APL ve EPB, arkada EPL tendonları ile sınırlanır. Tabanında os scaphoideum ve os trapezium, içinde a. radialis bulunur."
+    ]
+   ],
+   "clinical": [
+    "De Quervain tenosinoviti: APL ve EPB tendonlarının 1. ekstansör bölmede iltihabı (Finkelstein testi pozitif).",
+    "Radius distal kırıklarından sonra EPL tendonu Lister tüberkülü çevresinde kopabilir."
+   ],
+   "related": [
+    "os-scaphoideum",
+    "a-radialis",
+    "mm-thenares"
+   ],
+   "models": [
+    "Abductor pollicis longus",
+    "Extensor pollicis brevis",
+    "Extensor pollicis longus"
+   ],
+   "aliases": [
+    "APL",
+    "EPB",
+    "EPL"
+   ]
+  },
+  {
+   "id": "mm-thenares",
+   "tr": "Tenar kaslar",
+   "la": "Mm. thenares",
+   "en": "Thenar muscles",
+   "group": "El kasları",
+   "region": "upperLimb",
+   "summary": "Başparmak tabanındaki kabarıklığı (tenar eminens) oluşturan kas grubudur: m. abductor pollicis brevis, m. flexor pollicis brevis, m. opponens pollicis ve derin yerleşimli m. adductor pollicis.",
+   "facts": [
+    [
+     "Origo",
+     "Retinaculum flexorum, os scaphoideum ve os trapezium (adductor pollicis: 2.–3. metakarp ve os capitatum)"
+    ],
+    [
+     "İnsersiyo",
+     "Başparmağın 1. metakarpı ve proksimal falanksı"
+    ],
+    [
+     "İnnervasyon",
+     "N. medianus'un r. recurrens'i (APB, FPB yüzeyel başı, OP); n. ulnaris'in derin dalı (adductor pollicis ve FPB derin başı) – C8–T1"
+    ],
+    [
+     "Kanlanma",
+     "A. radialis'in r. palmaris superficialis'i, arcus palmaris profundus"
+    ],
+    [
+     "Fonksiyon",
+     "Başparmağı abdüksiyon, fleksiyon, opozisyon (karşı koyma) ve addüksiyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Karpal tünel sendromunda tenar atrofi ve opozisyon zayıflığı gelişir.",
+    "N. ulnaris hasarında adductor pollicis zayıflar; kâğıt tutturulunca başparmak IP eklemi bükülür (Froment bulgusu)."
+   ],
+   "related": [
+    "n-medianus",
+    "n-ulnaris",
+    "ossa-metacarpi",
+    "mm-hypothenares"
+   ],
+   "models": [
+    "Abductor pollicis brevis",
+    "Superficial head of flexor pollicis brevis",
+    "Deep head of flexor pollicis brevis",
+    "Opponens pollicis muscle",
+    "Oblique head of adductor pollicis",
+    "Transverse head of adductor pollicis"
+   ],
+   "aliases": [
+    "tenar",
+    "opponens pollicis",
+    "adductor pollicis"
+   ]
+  },
+  {
+   "id": "mm-hypothenares",
+   "tr": "Hipotenar kaslar",
+   "la": "Mm. hypothenares",
+   "en": "Hypothenar muscles",
+   "group": "El kasları",
+   "region": "upperLimb",
+   "summary": "Serçe parmak tabanındaki kabarıklığı oluşturan kas grubudur: m. abductor digiti minimi, m. flexor digiti minimi brevis ve m. opponens digiti minimi.",
+   "facts": [
+    [
+     "Origo",
+     "Os pisiforme, hamulus ossis hamati ve retinaculum flexorum"
+    ],
+    [
+     "İnsersiyo",
+     "5. parmağın proksimal falanksı ve 5. metakarp"
+    ],
+    [
+     "İnnervasyon",
+     "N. ulnaris'in derin dalı (C8–T1)"
+    ],
+    [
+     "Kanlanma",
+     "A. ulnaris'in derin dalı"
+    ],
+    [
+     "Fonksiyon",
+     "Serçe parmağı abdüksiyon, fleksiyon ve opozisyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "N. ulnaris hasarında hipotenar atrofi görülür."
+   ],
+   "related": [
+    "n-ulnaris",
+    "mm-thenares",
+    "os-pisiforme"
+   ],
+   "models": [
+    "Abductor digiti minimi of hand",
+    "Flexor digiti minimi of hand",
+    "Opponens digiti minimi muscle of hand"
+   ],
+   "aliases": [
+    "hipotenar"
+   ]
+  },
+  {
+   "id": "mm-lumbricales-manus",
+   "tr": "Solucan kasları (el)",
+   "la": "Mm. lumbricales manus",
+   "en": "Lumbrical muscles of hand",
+   "group": "El kasları",
+   "region": "upperLimb",
+   "summary": "Derin parmak fleksörünün tendonlarından köken alan dört küçük kastır; kemiğe değil tendona tutunmaları ile özeldir.",
+   "facts": [
+    [
+     "Origo",
+     "M. flexor digitorum profundus tendonları"
+    ],
+    [
+     "İnsersiyo",
+     "2.–5. parmakların ekstansör aparatusunun dış kenarı"
+    ],
+    [
+     "İnnervasyon",
+     "1.–2. lumbrikaller: n. medianus; 3.–4. lumbrikaller: n. ulnaris'in derin dalı"
+    ],
+    [
+     "Kanlanma",
+     "Arcus palmaris superficialis ve profundus"
+    ],
+    [
+     "Fonksiyon",
+     "MCP eklemlerini büker, interfalangeal eklemleri ekstansiyona getirir (‘masa tutma’ pozisyonu)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "N. ulnaris hasarında 4.–5. parmaklarda pençe el (MCP hiperekstansiyon, IP fleksiyon) gelişir; ulnar paradoks: yüksek lezyonda pençe daha belirgin değildir."
+   ],
+   "related": [
+    "m-flexor-digitorum-profundus",
+    "mm-interossei-manus",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Lumbrical muscles of hand"
+   ],
+   "aliases": [
+    "lumbrikal"
+   ]
+  },
+  {
+   "id": "mm-interossei-manus",
+   "tr": "Kemik arası kaslar (el)",
+   "la": "Mm. interossei dorsales et palmares",
+   "en": "Interossei of hand",
+   "group": "El kasları",
+   "region": "upperLimb",
+   "summary": "Metakarp kemikleri arasında yer alan küçük kaslardır: dört dorsal ve üç palmar interosseöz kas.",
+   "facts": [
+    [
+     "Origo",
+     "Komşu metakarp kemiklerinin yan yüzleri"
+    ],
+    [
+     "İnsersiyo",
+     "Proksimal falanksların tabanı ve ekstansör aparatus"
+    ],
+    [
+     "İnnervasyon",
+     "N. ulnaris'in derin dalı (C8–T1)"
+    ],
+    [
+     "Kanlanma",
+     "Aa. metacarpales dorsales ve palmares"
+    ],
+    [
+     "Fonksiyon",
+     "Dorsal interosseöz kaslar parmakları açar (DAB – dorsal abduct); palmar interosseöz kaslar parmakları birleştirir (PAD – palmar adduct); MCP fleksiyonu ve IP ekstansiyonuna yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kâğıt parmaklar arasında tutturularak palmar interosseöz kaslar test edilir; n. ulnaris lezyonunda zayıftır ve ilk dorsal aralıkta atrofi görülür."
+   ],
+   "related": [
+    "mm-lumbricales-manus",
+    "n-ulnaris",
+    "ossa-metacarpi"
+   ],
+   "models": [
+    "Dorsal interossei muscles of hand",
+    "Palmar interossei muscles"
+   ],
+   "aliases": [
+    "interosseöz"
+   ]
+  },
+  {
+   "id": "m-iliopsoas",
+   "tr": "İliopsoas kası",
+   "la": "M. iliopsoas (m. psoas major + m. iliacus)",
+   "en": "Iliopsoas",
+   "group": "Kalça kasları",
+   "region": "pelvis",
+   "summary": "Karın arka duvarından uyluğa uzanan, kalçanın en güçlü fleksör kasıdır. M. psoas major ve m. iliacus'un ortak tendonla birleşmesinden oluşur.",
+   "facts": [
+    [
+     "Origo",
+     "Psoas major: T12–L4 omur gövdeleri, diskler ve L1–L5 enine çıkıntıları; iliacus: fossa iliaca"
+    ],
+    [
+     "İnsersiyo",
+     "Trochanter minor femoris"
+    ],
+    [
+     "İnnervasyon",
+     "Psoas major: L1–L3 ön dalları; iliacus: n. femoralis (L2–L3)"
+    ],
+    [
+     "Kanlanma",
+     "A. iliolumbalis, aa. lumbales, a. circumflexa ilium profunda"
+    ],
+    [
+     "Fonksiyon",
+     "Kalçayı fleksiyona getirir (merdiven çıkma, ayağı kaldırma); uyluk sabitken gövdeyi öne eğer (yatarken doğrulma)"
+    ]
+   ],
+   "sections": [
+    [
+     "İlişkiler",
+     "Plexus lumbalis'in dalları psoas kası içinde oluşur; n. femoralis psoas ile iliacus arasındaki oluktan, n. obturatorius psoas'ın iç kenarından çıkar. Psoas kılıfı boyunca abseler kasığa inebilir."
+    ]
+   ],
+   "clinical": [
+    "Psoas absesi (özellikle tüberküloz spondilitte) kasığa ve uyluğa iner.",
+    "Apandisitte psoas belirtisi: sağ kalçanın pasif ekstansiyonu ağrı oluşturur."
+   ],
+   "related": [
+    "plexus-lumbalis",
+    "n-femoralis",
+    "femur",
+    "m-quadratus-lumborum"
+   ],
+   "models": [
+    "Iliopsoas muscle",
+    "Psoas major",
+    "Iliacus muscle"
+   ],
+   "aliases": [
+    "psoas",
+    "iliacus"
+   ]
+  },
+  {
+   "id": "m-gluteus-maximus",
+   "tr": "Büyük kalça kası",
+   "la": "M. gluteus maximus",
+   "en": "Gluteus maximus",
+   "group": "Kalça kasları",
+   "region": "pelvis",
+   "summary": "Kalçanın yuvarlak şeklini veren, vücudun en büyük ve en ağır kasıdır. İnsanda dik duruş ve yürüyüş için özelleşmiştir.",
+   "facts": [
+    [
+     "Origo",
+     "Os ilium'un dış yüzü (linea glutea posterior'un arkası), sakrum ve koksiksin arka yüzü, lig. sacrotuberale, fascia thoracolumbalis"
+    ],
+    [
+     "İnsersiyo",
+     "Tractus iliotibialis (liflerin büyük kısmı) ve femur'un tuberositas glutea'sı"
+    ],
+    [
+     "İnnervasyon",
+     "N. gluteus inferior (L5–S2)"
+    ],
+    [
+     "Kanlanma",
+     "A. glutea superior ve inferior"
+    ],
+    [
+     "Fonksiyon",
+     "Kalçayı ekstansiyona ve dış rotasyona getirir; oturma pozisyonundan kalkma, merdiven çıkma ve koşmada güçlü çalışır; diz eklemini tractus iliotibialis ile stabilize eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kalçaya kas içi enjeksiyon n. ischiadicus'tan kaçınmak için üst-dış kadrana (veya ventrogluteal bölgeye) yapılır.",
+    "Kas zayıflığında yürürken gövde geriye atılır (gluteus maximus yürüyüşü)."
+   ],
+   "related": [
+    "m-gluteus-medius",
+    "n-ischiadicus",
+    "os-coxae",
+    "tractus-iliotibialis"
+   ],
+   "models": [
+    "Gluteus maximus muscle"
+   ],
+   "aliases": [
+    "kalça kası",
+    "glute"
+   ]
+  },
+  {
+   "id": "m-gluteus-medius",
+   "tr": "Orta kalça kası",
+   "la": "M. gluteus medius",
+   "en": "Gluteus medius",
+   "group": "Kalça kasları",
+   "region": "pelvis",
+   "summary": "Büyük kalça kasının altında, iliumun dış yüzünde yer alan yelpaze biçimli kastır. Yürürken pelvisi dengede tutar.",
+   "facts": [
+    [
+     "Origo",
+     "Os ilium'un dış yüzü (linea glutea anterior ile posterior arası)"
+    ],
+    [
+     "İnsersiyo",
+     "Trochanter major'un dış yüzü"
+    ],
+    [
+     "İnnervasyon",
+     "N. gluteus superior (L4–S1)"
+    ],
+    [
+     "Kanlanma",
+     "A. glutea superior"
+    ],
+    [
+     "Fonksiyon",
+     "Kalçayı abdüksiyona ve iç rotasyona getirir; tek ayak üzerinde dururken karşı taraf pelvisin düşmesini önler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "N. gluteus superior hasarında hasta tek ayak üzerinde durunca karşı taraf pelvis düşer (pozitif Trendelenburg bulgusu) ve sallanarak yürür."
+   ],
+   "related": [
+    "m-gluteus-minimus",
+    "m-gluteus-maximus",
+    "m-tensor-fasciae-latae",
+    "femur"
+   ],
+   "models": [
+    "Gluteus medius muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-gluteus-minimus",
+   "tr": "Küçük kalça kası",
+   "la": "M. gluteus minimus",
+   "en": "Gluteus minimus",
+   "group": "Kalça kasları",
+   "region": "pelvis",
+   "summary": "Kalça kaslarının en derini ve en küçüğüdür; gluteus medius ile birlikte çalışır.",
+   "facts": [
+    [
+     "Origo",
+     "Os ilium'un dış yüzü (linea glutea anterior ile inferior arası)"
+    ],
+    [
+     "İnsersiyo",
+     "Trochanter major'un ön yüzü"
+    ],
+    [
+     "İnnervasyon",
+     "N. gluteus superior (L4–S1)"
+    ],
+    [
+     "Kanlanma",
+     "A. glutea superior"
+    ],
+    [
+     "Fonksiyon",
+     "Kalçayı abdüksiyona ve iç rotasyona getirir; yürüyüşte pelvisi stabilize eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-gluteus-medius",
+    "femur"
+   ],
+   "models": [
+    "Gluteus minimus muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-tensor-fasciae-latae",
+   "tr": "Fasya lata germe kası",
+   "la": "M. tensor fasciae latae",
+   "en": "Tensor fasciae latae",
+   "group": "Kalça kasları",
+   "region": "lowerLimb",
+   "summary": "Uyluğun üst-dış kısmında, iki fasya yaprağı arasında yer alan kastır; tractus iliotibialis ile dize kadar etki eder.",
+   "facts": [
+    [
+     "Origo",
+     "Spina iliaca anterior superior ve crista iliaca'nın ön kısmı"
+    ],
+    [
+     "İnsersiyo",
+     "Tractus iliotibialis aracılığıyla tibianın tuberculum iliotibiale'si (Gerdy tüberkülü)"
+    ],
+    [
+     "İnnervasyon",
+     "N. gluteus superior (L4–S1)"
+    ],
+    [
+     "Kanlanma",
+     "A. circumflexa femoris lateralis, a. glutea superior"
+    ],
+    [
+     "Fonksiyon",
+     "Kalçayı abdüksiyon, iç rotasyon ve fleksiyona getirir; ekstansiyondaki dizi stabilize eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "tractus-iliotibialis",
+    "m-gluteus-medius"
+   ],
+   "models": [
+    "Tensor fasciae latae"
+   ],
+   "aliases": [
+    "TFL"
+   ]
+  },
+  {
+   "id": "tractus-iliotibialis",
+   "tr": "İliotibial bant",
+   "la": "Tractus iliotibialis",
+   "en": "Iliotibial tract",
+   "group": "Kalça kasları",
+   "region": "lowerLimb",
+   "summary": "Uyluğun dış yüzünde, fascia lata'nın kalınlaşmasıyla oluşan güçlü fibröz banttır. Gluteus maximus ve tensor fasciae latae buraya tutunur.",
+   "facts": [
+    [
+     "Uzanım",
+     "Crista iliaca'dan tibianın tuberculum iliotibiale'sine"
+    ],
+    [
+     "İşlev",
+     "Ekstansiyondaki dizi ve kalçayı yan tarafta stabilize eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Koşucularda bandın epicondylus lateralis femoris üzerinde sürtünmesi diz dış yüzünde ağrıya (iliotibial bant sendromu) yol açar."
+   ],
+   "related": [
+    "m-tensor-fasciae-latae",
+    "m-gluteus-maximus"
+   ],
+   "models": [
+    "Iliotibial tract"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mm-rotatores-coxae",
+   "tr": "Kalça dış rotator kasları",
+   "la": "M. piriformis, mm. gemelli, m. obturatorius internus et externus, m. quadratus femoris",
+   "en": "Lateral rotators of hip",
+   "group": "Kalça kasları",
+   "region": "pelvis",
+   "summary": "Kalça ekleminin arkasında yer alan, uyluğu dışa döndüren derin kas grubudur. M. piriformis bölgenin anahtar kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Piriformis: sakrumun ön yüzü; obturatorius internus: membrana obturatoria'nın iç yüzü; gemelli: spina ischiadica (superior) ve tuber ischiadicum (inferior); quadratus femoris: tuber ischiadicum; obturatorius externus: membrana obturatoria'nın dış yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Trochanter major ve fossa trochanterica; quadratus femoris: crista intertrochanterica"
+    ],
+    [
+     "İnnervasyon",
+     "Piriformis: S1–S2; obturatorius internus ve gemellus superior: n. musculi obturatorii interni (L5–S2); quadratus femoris ve gemellus inferior: n. musculi quadrati femoris (L4–S1); obturatorius externus: n. obturatorius"
+    ],
+    [
+     "Kanlanma",
+     "A. glutea superior ve inferior, a. pudenda interna, a. circumflexa femoris medialis"
+    ],
+    [
+     "Fonksiyon",
+     "Uyluğu dışa döndürür ve femur başını asetabulumda tutar; fleksiyondaki kalçada piriformis abdüksiyon yaptırır"
+    ]
+   ],
+   "sections": [
+    [
+     "Piriformis'in önemi",
+     "Foramen ischiadicum majus'u ikiye böler: üstünden (suprapiriform) n. ve vasa glutea superiora; altından (infrapiriform) n. ischiadicus, n. gluteus inferior, n. pudendus, n. cutaneus femoris posterior ve vasa glutea inferiora geçer."
+    ]
+   ],
+   "clinical": [
+    "Piriformis sendromu: n. ischiadicus'un kas tarafından sıkıştırılmasıyla kalçadan bacağa yayılan ağrı."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "m-gluteus-maximus",
+    "art-coxae"
+   ],
+   "models": [
+    "Piriformis muscle",
+    "Superior gemellus muscle",
+    "Inferior gemellus muscle",
+    "Obturator internus",
+    "Obturator externus",
+    "Quadratus femoris muscle"
+   ],
+   "aliases": [
+    "piriformis",
+    "gemellus",
+    "obturator"
+   ]
+  },
+  {
+   "id": "m-sartorius",
+   "tr": "Terzi kası",
+   "la": "M. sartorius",
+   "en": "Sartorius",
+   "group": "Uyluk kasları",
+   "region": "lowerLimb",
+   "summary": "Vücudun en uzun kasıdır; uyluğun önünde dıştan içe çapraz uzanır. Bağdaş kurma pozisyonunu sağladığı için ‘terzi kası’ adını almıştır.",
+   "facts": [
+    [
+     "Origo",
+     "Spina iliaca anterior superior"
+    ],
+    [
+     "İnsersiyo",
+     "Tibianın üst iç yüzü (pes anserinus)"
+    ],
+    [
+     "İnnervasyon",
+     "N. femoralis (L2–L3)"
+    ],
+    [
+     "Kanlanma",
+     "A. femoralis'in muskuler dalları"
+    ],
+    [
+     "Fonksiyon",
+     "Kalçayı fleksiyon, abdüksiyon ve dış rotasyona; dizi fleksiyona getirir"
+    ]
+   ],
+   "sections": [
+    [
+     "Pes anserinus",
+     "Sartorius, gracilis ve semitendinosus tendonları tibianın iç yüzünde kaz ayağı (pes anserinus) şeklinde birleşir. Akılda tutma: ‘SGT – Say Grace before Tea’."
+    ]
+   ],
+   "clinical": [
+    "Femoral üçgenin dış, adduktor kanalının (Hunter kanalı) ön sınırını oluşturur; femoral damarlara ulaşmada önemli işarettir."
+   ],
+   "related": [
+    "m-gracilis",
+    "mm-ischiocrurales",
+    "m-quadriceps-femoris",
+    "n-femoralis"
+   ],
+   "models": [
+    "Sartorius muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-quadriceps-femoris",
+   "tr": "Dört başlı uyluk kası",
+   "la": "M. quadriceps femoris",
+   "en": "Quadriceps femoris",
+   "group": "Uyluk kasları",
+   "region": "lowerLimb",
+   "summary": "Uyluğun ön bölmesinin büyük kısmını oluşturan dört başlı kastır: m. rectus femoris, m. vastus lateralis, m. vastus medialis ve m. vastus intermedius. Dizin tek güçlü ekstansörüdür.",
+   "facts": [
+    [
+     "Origo",
+     "Rectus femoris: spina iliaca anterior inferior ve asetabulumun üst kenarı; vastus lateralis: trochanter major ve linea aspera'nın dış dudağı; vastus medialis: linea intertrochanterica ve linea aspera'nın iç dudağı; vastus intermedius: femur gövdesinin ön-dış yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "Ortak quadriceps tendonu ile patella, lig. patellae aracılığıyla tuberositas tibiae"
+    ],
+    [
+     "İnnervasyon",
+     "N. femoralis (L2–L4)"
+    ],
+    [
+     "Kanlanma",
+     "A. circumflexa femoris lateralis, a. femoralis, a. profunda femoris"
+    ],
+    [
+     "Fonksiyon",
+     "Dizi ekstansiyona getirir; rectus femoris ayrıca kalçayı fleksiyona getirir (iki eklemli tek baş)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Patellar refleks (L3–L4) bu kas grubunun gerilme refleksidir.",
+    "N. femoralis hasarında diz ekstansiyonu kaybolur, hasta merdiven çıkamaz.",
+    "Diz ameliyatları veya immobilizasyon sonrası en hızlı vastus medialis atrofiye uğrar."
+   ],
+   "related": [
+    "femur",
+    "patella",
+    "n-femoralis",
+    "art-genus",
+    "m-sartorius"
+   ],
+   "models": [
+    "Rectus femoris muscle",
+    "Vastus lateralis muscle",
+    "Vastus medialis muscle",
+    "Vastus intermedius muscle"
+   ],
+   "aliases": [
+    "quadriceps",
+    "kuadriseps",
+    "rectus femoris",
+    "vastus"
+   ]
+  },
+  {
+   "id": "mm-adductores",
+   "tr": "Uyluk iç yan kasları (adduktorlar)",
+   "la": "M. adductor longus, brevis et magnus",
+   "en": "Adductor muscles",
+   "group": "Uyluk kasları",
+   "region": "lowerLimb",
+   "summary": "Uyluğun iç bölmesinde yer alan, bacakları birbirine yaklaştıran kas grubudur. M. adductor magnus grubun en büyüğüdür ve iki parçalıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Os pubis'in gövdesi ve ramus inferior'u; adductor magnus'un hamstring bölümü tuber ischiadicum"
+    ],
+    [
+     "İnsersiyo",
+     "Femur'un linea aspera'sı; adductor magnus'un hamstring bölümü tuberculum adductorium"
+    ],
+    [
+     "İnnervasyon",
+     "N. obturatorius (L2–L4); adductor magnus'un hamstring bölümü n. ischiadicus'un tibial bölümü (L4)"
+    ],
+    [
+     "Kanlanma",
+     "A. profunda femoris, a. obturatoria"
+    ],
+    [
+     "Fonksiyon",
+     "Uyluğu addüksiyona getirir; fleksiyon ve rotasyona yardım eder; yürürken pelvisi stabilize eder"
+    ]
+   ],
+   "sections": [
+    [
+     "Adduktor kanalı",
+     "Adductor magnus'taki açıklık (hiatus adductorius) aracılığıyla a. ve v. femoralis diz arkasına geçerek a. ve v. poplitea adını alır."
+    ]
+   ],
+   "clinical": [
+    "Sporcularda kasık gerilmesi (groin strain) çoğunlukla adductor longus'u etkiler."
+   ],
+   "related": [
+    "m-gracilis",
+    "m-pectineus",
+    "n-obturatorius",
+    "femur"
+   ],
+   "models": [
+    "Adductor longus",
+    "Adductor brevis",
+    "Adductor magnus",
+    "(Adductor minimus)"
+   ],
+   "aliases": [
+    "adduktor"
+   ]
+  },
+  {
+   "id": "m-gracilis",
+   "tr": "İnce kas",
+   "la": "M. gracilis",
+   "en": "Gracilis",
+   "group": "Uyluk kasları",
+   "region": "lowerLimb",
+   "summary": "Uyluğun iç yüzünde en yüzeyel yerleşimli, uzun ve ince kastır; iç bölmenin hem kalçayı hem dizi aşan tek kasıdır.",
+   "facts": [
+    [
+     "Origo",
+     "Os pubis'in gövdesi ve ramus inferior'u"
+    ],
+    [
+     "İnsersiyo",
+     "Tibianın üst iç yüzü (pes anserinus)"
+    ],
+    [
+     "İnnervasyon",
+     "N. obturatorius (L2–L3)"
+    ],
+    [
+     "Kanlanma",
+     "A. profunda femoris, a. obturatoria"
+    ],
+    [
+     "Fonksiyon",
+     "Uyluğu addüksiyona, dizi fleksiyona ve içe rotasyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kas, plastik cerrahide fonksiyonel serbest kas flebi olarak sık kullanılır."
+   ],
+   "related": [
+    "mm-adductores",
+    "m-sartorius",
+    "n-obturatorius"
+   ],
+   "models": [
+    "Gracilis muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-pectineus",
+   "tr": "Tarak kası",
+   "la": "M. pectineus",
+   "en": "Pectineus",
+   "group": "Uyluk kasları",
+   "region": "lowerLimb",
+   "summary": "Femoral üçgenin tabanında, iliopsoas ile adductor longus arasında yer alan dörtgen kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Os pubis'in pecten ossis pubis'i (linea pectinea)"
+    ],
+    [
+     "İnsersiyo",
+     "Femur'un linea pectinea'sı (trochanter minor'un altı)"
+    ],
+    [
+     "İnnervasyon",
+     "N. femoralis (L2–L3), bazen n. obturatorius'tan da lif alır"
+    ],
+    [
+     "Kanlanma",
+     "A. circumflexa femoris medialis, a. obturatoria"
+    ],
+    [
+     "Fonksiyon",
+     "Uyluğu addüksiyon ve fleksiyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "mm-adductores",
+    "m-iliopsoas",
+    "n-femoralis"
+   ],
+   "models": [
+    "Pectineus muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mm-ischiocrurales",
+   "tr": "Arka uyluk kasları (hamstringler)",
+   "la": "M. biceps femoris, m. semitendinosus, m. semimembranosus",
+   "en": "Hamstring muscles",
+   "group": "Uyluk kasları",
+   "region": "lowerLimb",
+   "summary": "Uyluğun arka bölmesini oluşturan, kalçayı açıp dizi büken üç kastır. Biceps femoris dışta, semitendinosus ve semimembranosus içte yer alır.",
+   "facts": [
+    [
+     "Origo",
+     "Tuber ischiadicum (biceps femoris'in kısa başı: linea aspera'nın dış dudağı)"
+    ],
+    [
+     "İnsersiyo",
+     "Biceps femoris: caput fibulae; semitendinosus: tibianın üst iç yüzü (pes anserinus); semimembranosus: condylus medialis tibiae'nin arka yüzü"
+    ],
+    [
+     "İnnervasyon",
+     "N. ischiadicus'un tibial bölümü (L5–S2); biceps femoris kısa başı: fibular bölüm"
+    ],
+    [
+     "Kanlanma",
+     "Aa. perforantes (a. profunda femoris), a. circumflexa femoris medialis"
+    ],
+    [
+     "Fonksiyon",
+     "Kalçayı ekstansiyona, dizi fleksiyona getirir; biceps femoris dizi dışa, semitendinosus ve semimembranosus içe döndürür"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hamstring yırtıkları sprint koşucularında en sık görülen kas yaralanmalarındandır.",
+    "Ön çapraz bağ rekonstrüksiyonunda semitendinosus (ve gracilis) tendonu greft olarak sık kullanılır."
+   ],
+   "related": [
+    "m-biceps-femoris",
+    "n-ischiadicus",
+    "os-coxae",
+    "art-genus"
+   ],
+   "models": [
+    "Semitendinosus muscle",
+    "Semimembranosus muscle"
+   ],
+   "aliases": [
+    "hamstring",
+    "semitendinosus",
+    "semimembranosus"
+   ]
+  },
+  {
+   "id": "m-biceps-femoris",
+   "tr": "İki başlı uyluk kası",
+   "la": "M. biceps femoris",
+   "en": "Biceps femoris",
+   "group": "Uyluk kasları",
+   "region": "lowerLimb",
+   "summary": "Uyluğun arka-dış yüzünde yer alan, iki başlı hamstring kasıdır. Tendonu diz arkasının dış kenarında ele gelir.",
+   "facts": [
+    [
+     "Origo",
+     "Caput longum: tuber ischiadicum; caput breve: linea aspera'nın dış dudağı"
+    ],
+    [
+     "İnsersiyo",
+     "Caput fibulae"
+    ],
+    [
+     "İnnervasyon",
+     "Caput longum: n. tibialis bölümü; caput breve: n. fibularis communis bölümü (L5–S2)"
+    ],
+    [
+     "Kanlanma",
+     "Aa. perforantes, a. glutea inferior"
+    ],
+    [
+     "Fonksiyon",
+     "Dizi büker ve bükülü dizi dışa döndürür; uzun başı kalçayı ekstansiyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tendonunun hemen iç-arkasından seyreden n. fibularis communis, diz dış yüzü cerrahisinde zedelenebilir."
+   ],
+   "related": [
+    "mm-ischiocrurales",
+    "fibula",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Long head of biceps femoris",
+    "Short head of biceps femoris"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-tibialis-anterior",
+   "tr": "Ön kaval kası",
+   "la": "M. tibialis anterior",
+   "en": "Tibialis anterior",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Bacağın ön bölmesinde, kaval kemiğinin dış yanında yer alan kastır. Ayağı yukarı kaldırır ve içe çevirir.",
+   "facts": [
+    [
+     "Origo",
+     "Tibianın dış kondili ve dış yüzünün üst 2/3'ü, membrana interossea"
+    ],
+    [
+     "İnsersiyo",
+     "Os cuneiforme mediale ve 1. metatars tabanının iç-alt yüzü"
+    ],
+    [
+     "İnnervasyon",
+     "N. fibularis profundus (L4–L5)"
+    ],
+    [
+     "Kanlanma",
+     "A. tibialis anterior"
+    ],
+    [
+     "Fonksiyon",
+     "Ayağı dorsifleksiyona (yukarı kaldırma) ve inversiyona getirir; ayağın iç kemerini destekler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "N. fibularis hasarında ayak düşer, hasta ayağını sürümemek için dizini yüksek kaldırarak yürür (steppage yürüyüşü).",
+    "Ön kompartman sendromunda bacağın ön kısmında şiddetli ağrı ve dorsifleksiyon zayıflığı olur."
+   ],
+   "related": [
+    "m-extensor-digitorum-longus",
+    "n-fibularis-communis",
+    "tibia"
+   ],
+   "models": [
+    "Tibialis anterior muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-extensor-digitorum-longus",
+   "tr": "Uzun parmak ekstansörü (ayak)",
+   "la": "M. extensor digitorum longus",
+   "en": "Extensor digitorum longus",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Bacağın ön bölmesinde, tibialis anterior'un dışında yer alan ve 2.–5. ayak parmaklarını kaldıran kastır. Alt kısmından ayrılan m. fibularis tertius 5. metatarsa gider.",
+   "facts": [
+    [
+     "Origo",
+     "Tibianın dış kondili, fibula'nın ön yüzünün üst 3/4'ü, membrana interossea"
+    ],
+    [
+     "İnsersiyo",
+     "2.–5. ayak parmaklarının orta ve distal falanksları (dorsal aponevroz); fibularis tertius: 5. metatars tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. fibularis profundus (L5–S1)"
+    ],
+    [
+     "Kanlanma",
+     "A. tibialis anterior"
+    ],
+    [
+     "Fonksiyon",
+     "2.–5. parmakları ekstansiyona, ayağı dorsifleksiyona getirir; fibularis tertius everziyona yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-tibialis-anterior",
+    "m-extensor-hallucis-longus",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Extensor digitorum longus",
+    "Fibularis tertius muscle"
+   ],
+   "aliases": [
+    "fibularis tertius"
+   ]
+  },
+  {
+   "id": "m-extensor-hallucis-longus",
+   "tr": "Uzun başparmak ekstansörü (ayak)",
+   "la": "M. extensor hallucis longus",
+   "en": "Extensor hallucis longus",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Tibialis anterior ile extensor digitorum longus arasında, derinde yer alan ve ayak başparmağını kaldıran kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Fibula'nın ön yüzünün orta kısmı ve membrana interossea"
+    ],
+    [
+     "İnsersiyo",
+     "Ayak başparmağının distal falanksının tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. fibularis profundus (L5)"
+    ],
+    [
+     "Kanlanma",
+     "A. tibialis anterior"
+    ],
+    [
+     "Fonksiyon",
+     "Ayak başparmağını ekstansiyona ve ayağı dorsifleksiyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Başparmak ekstansiyon gücü L5 sinir kökünü değerlendirmek için kullanılır."
+   ],
+   "related": [
+    "m-extensor-digitorum-longus",
+    "m-tibialis-anterior",
+    "a-dorsalis-pedis"
+   ],
+   "models": [
+    "Extensor hallucis longus"
+   ],
+   "aliases": [
+    "EHL"
+   ]
+  },
+  {
+   "id": "m-fibularis-longus",
+   "tr": "Uzun fibular kas",
+   "la": "M. fibularis (peroneus) longus",
+   "en": "Fibularis longus",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Bacağın dış bölmesinin yüzeyel kasıdır. Tendonu dış topuğun arkasından ve küp kemiğinin altından geçerek ayak tabanını çaprazlar.",
+   "facts": [
+    [
+     "Origo",
+     "Caput fibulae ve fibula'nın dış yüzünün üst 2/3'ü"
+    ],
+    [
+     "İnsersiyo",
+     "Os cuneiforme mediale ve 1. metatars tabanının alt yüzü"
+    ],
+    [
+     "İnnervasyon",
+     "N. fibularis superficialis (L5–S1)"
+    ],
+    [
+     "Kanlanma",
+     "A. fibularis, a. tibialis anterior"
+    ],
+    [
+     "Fonksiyon",
+     "Ayağı everziyona (dışa çevirme) ve plantar fleksiyona getirir; ayağın enine kemerini destekler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ayak bileği inversiyon burkulmalarında fibular kaslar ve tendonları zorlanır."
+   ],
+   "related": [
+    "m-fibularis-brevis",
+    "fibula",
+    "os-cuboideum"
+   ],
+   "models": [
+    "Fibularis longus muscle"
+   ],
+   "aliases": [
+    "peroneus longus"
+   ]
+  },
+  {
+   "id": "m-fibularis-brevis",
+   "tr": "Kısa fibular kas",
+   "la": "M. fibularis (peroneus) brevis",
+   "en": "Fibularis brevis",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Fibularis longus'un altında yer alan, tendonu dış topuğun arkasından 5. metatarsa uzanan kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Fibula'nın dış yüzünün alt 2/3'ü"
+    ],
+    [
+     "İnsersiyo",
+     "5. metatars tabanındaki tuberositas"
+    ],
+    [
+     "İnnervasyon",
+     "N. fibularis superficialis (L5–S1)"
+    ],
+    [
+     "Kanlanma",
+     "A. fibularis"
+    ],
+    [
+     "Fonksiyon",
+     "Ayağı everziyona ve plantar fleksiyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ayak bileği inversiyonunda kasın tendonu 5. metatars tabanından kemik parçası kopararak avülsiyon kırığına neden olabilir."
+   ],
+   "related": [
+    "m-fibularis-longus",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Fibularis brevis muscle"
+   ],
+   "aliases": [
+    "peroneus brevis"
+   ]
+  },
+  {
+   "id": "m-triceps-surae",
+   "tr": "Baldır kası (triceps surae)",
+   "la": "M. triceps surae (m. gastrocnemius + m. soleus)",
+   "en": "Triceps surae",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Baldırın kabarık şeklini veren, iki başlı gastrocnemius ile altındaki soleus'tan oluşan güçlü kas kompleksidir. Ortak tendonları vücudun en kalın tendonu olan Aşil tendonudur (tendo calcaneus).",
+   "facts": [
+    [
+     "Origo",
+     "Gastrocnemius: medial baş condylus medialis femoris'in arkası, lateral baş condylus lateralis femoris; soleus: caput fibulae, fibula'nın arka yüzü ve tibianın linea musculi solei'si"
+    ],
+    [
+     "İnsersiyo",
+     "Tendo calcaneus (Aşil tendonu) aracılığıyla tuber calcanei"
+    ],
+    [
+     "İnnervasyon",
+     "N. tibialis (S1–S2)"
+    ],
+    [
+     "Kanlanma",
+     "A. surales (a. poplitea), a. tibialis posterior, a. fibularis"
+    ],
+    [
+     "Fonksiyon",
+     "Ayağı plantar fleksiyona getirir (parmak ucunda yükselme, yürürken itme); gastrocnemius dizin fleksiyonuna da yardım eder; soleus ayakta dururken gövdenin öne düşmesini önler"
+    ]
+   ],
+   "sections": [
+    [
+     "Kas pompası",
+     "Soleus içindeki geniş venöz sinüsler kas kasıldıkça sıkışarak kanı kalbe doğru pompalar (periferik kalp). Hareketsizlik bu pompayı devre dışı bırakarak derin ven trombozu riskini artırır."
+    ]
+   ],
+   "clinical": [
+    "Aşil refleksi S1 segmentini test eder.",
+    "Aşil tendonu yırtığında Thompson testi pozitiftir (baldır sıkılınca ayak hareket etmez).",
+    "Tenisçi bacağı: gastrocnemius medial başının ani yırtığı."
+   ],
+   "related": [
+    "m-plantaris",
+    "n-tibialis",
+    "calcaneus",
+    "femur"
+   ],
+   "models": [
+    "Medial head of gastrocnemius",
+    "Lateral head of gastrocnemius",
+    "Soleus muscle",
+    "Calcaneal tendon"
+   ],
+   "aliases": [
+    "gastrocnemius",
+    "soleus",
+    "aşil",
+    "baldır"
+   ]
+  },
+  {
+   "id": "m-plantaris",
+   "tr": "Taban kası",
+   "la": "M. plantaris",
+   "en": "Plantaris",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Kısa kas karnı ve vücudun en uzun tendonlarından birine sahip, insanların yaklaşık %10'unda bulunmayan küçük kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Condylus lateralis femoris'in üstündeki linea supracondylaris lateralis"
+    ],
+    [
+     "İnsersiyo",
+     "Tendo calcaneus'un iç kenarı veya tuber calcanei"
+    ],
+    [
+     "İnnervasyon",
+     "N. tibialis (S1–S2)"
+    ],
+    [
+     "Kanlanma",
+     "A. poplitea'nın sural dalları"
+    ],
+    [
+     "Fonksiyon",
+     "Gastrocnemius'a zayıf bir yardımcı olarak plantar fleksiyon ve diz fleksiyonu yapar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tendonu rekonstrüktif cerrahide greft olarak kullanılabilir."
+   ],
+   "related": [
+    "m-triceps-surae",
+    "n-tibialis"
+   ],
+   "models": [
+    "Plantaris muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-popliteus",
+   "tr": "Diz arkası kası",
+   "la": "M. popliteus",
+   "en": "Popliteus",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Diz ekleminin arkasında, diz çukurunun tabanında yer alan ince üçgen kastır. Kilitli dizin ‘anahtarı’ olarak bilinir.",
+   "facts": [
+    [
+     "Origo",
+     "Condylus lateralis femoris'in dış yüzü ve menisküs lateralis"
+    ],
+    [
+     "İnsersiyo",
+     "Tibianın arka yüzünün üst kısmı (linea musculi solei'nin üstü)"
+    ],
+    [
+     "İnnervasyon",
+     "N. tibialis (L4–S1)"
+    ],
+    [
+     "Kanlanma",
+     "A. genus inferior medialis ve lateralis"
+    ],
+    [
+     "Fonksiyon",
+     "Tam ekstansiyonda kilitli dizi açar (femuru tibia üzerinde dışa döndürerek); diz fleksiyonuna yardım eder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "art-genus",
+    "n-tibialis"
+   ],
+   "models": [
+    "Popliteus muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-tibialis-posterior",
+   "tr": "Arka kaval kası",
+   "la": "M. tibialis posterior",
+   "en": "Tibialis posterior",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Bacağın arka bölmesinin en derin kasıdır. Tendonu iç topuğun arkasından geçerek ayak tabanına uzanır ve ayağın iç kemerinin başlıca destekçisidir.",
+   "facts": [
+    [
+     "Origo",
+     "Membrana interossea ve tibia ile fibula'nın komşu arka yüzleri"
+    ],
+    [
+     "İnsersiyo",
+     "Tuberositas ossis navicularis, ossa cuneiformia, os cuboideum ve 2.–4. metatars tabanları"
+    ],
+    [
+     "İnnervasyon",
+     "N. tibialis (L4–L5)"
+    ],
+    [
+     "Kanlanma",
+     "A. tibialis posterior, a. fibularis"
+    ],
+    [
+     "Fonksiyon",
+     "Ayağı inversiyona ve plantar fleksiyona getirir; ayağın iç kemerini destekler"
+    ]
+   ],
+   "sections": [
+    [
+     "Tarsal tünel",
+     "İç topuğun arkasından önden arkaya: tibialis posterior tendonu, flexor digitorum longus tendonu, a./v. tibialis posterior, n. tibialis ve flexor hallucis longus tendonu geçer (‘Tom, Dick And Very Nervous Harry’)."
+    ]
+   ],
+   "clinical": [
+    "Tibialis posterior tendon disfonksiyonu erişkinde edinsel düz tabanlığın en sık nedenidir."
+   ],
+   "related": [
+    "m-flexor-digitorum-longus",
+    "m-flexor-hallucis-longus",
+    "os-naviculare",
+    "n-tibialis"
+   ],
+   "models": [
+    "Tibialis posterior muscle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "m-flexor-digitorum-longus",
+   "tr": "Uzun parmak fleksörü (ayak)",
+   "la": "M. flexor digitorum longus",
+   "en": "Flexor digitorum longus",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Bacağın arka bölmesinin derin tabakasında, tibianın arkasında yer alan ve 2.–5. ayak parmaklarını büken kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Tibianın arka yüzünün orta kısmı"
+    ],
+    [
+     "İnsersiyo",
+     "2.–5. ayak parmaklarının distal falanksları"
+    ],
+    [
+     "İnnervasyon",
+     "N. tibialis (S2–S3)"
+    ],
+    [
+     "Kanlanma",
+     "A. tibialis posterior"
+    ],
+    [
+     "Fonksiyon",
+     "2.–5. ayak parmaklarını büker; plantar fleksiyon ve inversiyona yardım eder; ayak tabanının kemerlerini destekler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "m-tibialis-posterior",
+    "m-flexor-hallucis-longus",
+    "n-tibialis"
+   ],
+   "models": [
+    "Flexor digitorum longus"
+   ],
+   "aliases": [
+    "FDL"
+   ]
+  },
+  {
+   "id": "m-flexor-hallucis-longus",
+   "tr": "Uzun başparmak fleksörü (ayak)",
+   "la": "M. flexor hallucis longus",
+   "en": "Flexor hallucis longus",
+   "group": "Bacak kasları",
+   "region": "lowerLimb",
+   "summary": "Bacağın arka bölmesinin derin tabakasında, fibulanın arkasında yer alan ve ayak başparmağını büken güçlü kastır.",
+   "facts": [
+    [
+     "Origo",
+     "Fibula'nın arka yüzünün alt 2/3'ü ve membrana interossea"
+    ],
+    [
+     "İnsersiyo",
+     "Ayak başparmağının distal falanksının tabanı"
+    ],
+    [
+     "İnnervasyon",
+     "N. tibialis (S2–S3)"
+    ],
+    [
+     "Kanlanma",
+     "A. fibularis"
+    ],
+    [
+     "Fonksiyon",
+     "Ayak başparmağını büker (yürüyüşte son itme); plantar fleksiyona yardım eder; iç kemeri destekler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bale dansçılarında tendonu talus arkasında sıkışabilir (dansçı tendiniti)."
+   ],
+   "related": [
+    "m-flexor-digitorum-longus",
+    "m-tibialis-posterior",
+    "talus"
+   ],
+   "models": [
+    "Flexor hallucis longus"
+   ],
+   "aliases": [
+    "FHL"
+   ]
+  },
+  {
+   "id": "mm-dorsi-pedis",
+   "tr": "Ayak sırtı kasları",
+   "la": "M. extensor digitorum brevis et m. extensor hallucis brevis",
+   "en": "Muscles of dorsum of foot",
+   "group": "Ayak kasları",
+   "region": "lowerLimb",
+   "summary": "Ayak sırtında yer alan tek kas grubudur; uzun ekstansörlerin parmak ekstansiyonuna yardım eder.",
+   "facts": [
+    [
+     "Origo",
+     "Calcaneus'un üst-dış yüzü"
+    ],
+    [
+     "İnsersiyo",
+     "EDB: 2.–4. parmakların uzun ekstansör tendonları; EHB: başparmağın proksimal falanksı"
+    ],
+    [
+     "İnnervasyon",
+     "N. fibularis profundus (L5–S1)"
+    ],
+    [
+     "Kanlanma",
+     "A. dorsalis pedis, a. tarsalis lateralis"
+    ],
+    [
+     "Fonksiyon",
+     "Ayak parmaklarını ekstansiyona getirir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ayak sırtında hafif kabarıklık olarak görülen kas karnı, L5–S1 radikülopatisinde atrofiye uğrayabilir."
+   ],
+   "related": [
+    "m-extensor-digitorum-longus",
+    "a-dorsalis-pedis"
+   ],
+   "models": [
+    "Extensor digitorum brevis",
+    "Extensor hallucis brevis"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mm-plantares",
+   "tr": "Ayak tabanı kasları",
+   "la": "Mm. plantares pedis",
+   "en": "Plantar muscles of foot",
+   "group": "Ayak kasları",
+   "region": "lowerLimb",
+   "summary": "Ayak tabanında dört tabaka hâlinde dizilen kaslardır: 1. tabaka abductor hallucis, flexor digitorum brevis, abductor digiti minimi; 2. tabaka quadratus plantae ve lumbrikaller; 3. tabaka flexor hallucis brevis, adductor hallucis, flexor digiti minimi brevis; 4. tabaka interosseöz kaslar.",
+   "facts": [
+    [
+     "Origo",
+     "Calcaneus, aponeurosis plantaris, tarsal ve metatarsal kemikler"
+    ],
+    [
+     "İnsersiyo",
+     "Ayak parmaklarının falanksları ve uzun fleksör tendonları"
+    ],
+    [
+     "İnnervasyon",
+     "N. plantaris medialis (abductor hallucis, FDB, FHB, 1. lumbrikal) ve n. plantaris lateralis (diğerleri) – n. tibialis'in dalları (S1–S3)"
+    ],
+    [
+     "Kanlanma",
+     "A. plantaris medialis ve lateralis, arcus plantaris"
+    ],
+    [
+     "Fonksiyon",
+     "Ayak parmaklarını büker, açar ve birleştirir; ayak kemerlerini aktif olarak destekler ve yürüyüşte dengeyi sağlar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ayak tabanı kaslarının zayıflığı ve aponeurosis plantaris gerginliği plantar fasiite katkıda bulunur."
+   ],
+   "related": [
+    "n-tibialis",
+    "calcaneus",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Abductor hallucis",
+    "Flexor digitorum brevis",
+    "Abductor digiti minimi of foot",
+    "Quadratus plantae muscle",
+    "Lumbrical muscles of foot",
+    "Medial head of flexor hallucis brevis",
+    "Lateral head of flexor hallucis brevis",
+    "Oblique head of adductor hallucis",
+    "Transverse head of adductor hallucis",
+    "Flexor digiti minimi of foot",
+    "(Opponens digiti minimi muscle of foot)",
+    "Dorsal interossei muscles of foot",
+    "Plantar interossei muscles"
+   ],
+   "aliases": [
+    "abductor hallucis",
+    "flexor digitorum brevis",
+    "quadratus plantae",
+    "adductor hallucis"
+   ]
+  }
+ ]
+}

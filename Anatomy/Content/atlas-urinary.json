@@ -1,0 +1,200 @@
+{
+ "system": "urinary",
+ "entries": [
+  {
+   "id": "ren",
+   "tr": "Böbrek",
+   "la": "Ren (nephros)",
+   "en": "Kidney",
+   "group": "Böbrekler",
+   "region": "abdomen",
+   "summary": "Karın arka duvarında, omurganın iki yanında retroperitoneal yerleşimli, fasulye biçimli çift organdır. Kanı süzerek idrar oluşturur, sıvı-elektrolit dengesini ve kan basıncını düzenler.",
+   "facts": [
+    [
+     "Boyut ve ağırlık",
+     "Yaklaşık 11 × 6 × 3 cm, 120–170 g"
+    ],
+    [
+     "Konum",
+     "T12–L3; sağ böbrek karaciğer nedeniyle sola göre 1–2 cm aşağıda"
+    ],
+    [
+     "Kılıfları (içten dışa)",
+     "Capsula fibrosa, capsula adiposa (perirenal yağ), fascia renalis (Gerota), pararenal yağ"
+    ],
+    [
+     "İç yapı",
+     "Cortex renalis, medulla renalis (piramitler), papillae, calices minores ve majores, pelvis renalis"
+    ],
+    [
+     "Hilum renale (önden arkaya)",
+     "V. renalis, a. renalis, pelvis renalis"
+    ],
+    [
+     "Fonksiyonel birim",
+     "Nefron (her böbrekte yaklaşık 1 milyon): glomerül, proksimal tübül, Henle kulpu, distal tübül, toplayıcı kanal"
+    ],
+    [
+     "Endokrin işlevler",
+     "Renin, eritropoetin, kalsitriol (aktif D vitamini) üretimi"
+    ]
+   ],
+   "sections": [
+    [
+     "Filtrasyon",
+     "Böbrekler günde yaklaşık 180 L glomerüler filtrat oluşturur; bunun %99'u geri emilir ve 1–2 L idrar atılır."
+    ]
+   ],
+   "clinical": [
+    "Böbrek taşları (nefrolitiyazis) böğürden kasığa yayılan kolik ağrıya neden olur.",
+    "Kostovertebral açı hassasiyeti piyelonefritin bulgusudur.",
+    "Kronik böbrek hastalığının en sık nedenleri diyabet ve hipertansiyondur.",
+    "At nalı böbrekte iki böbreğin alt kutupları birleşiktir ve IMA altında takılır."
+   ],
+   "related": [
+    "ureter",
+    "aa-renales",
+    "glandula-suprarenalis",
+    "v-cava-inferior",
+    "m-quadratus-lumborum"
+   ],
+   "models": [
+    "Kidney",
+    "Renal pelvis"
+   ],
+   "aliases": [
+    "böbrek",
+    "renal",
+    "nefron"
+   ]
+  },
+  {
+   "id": "ureter",
+   "tr": "İdrar borusu (üreter)",
+   "la": "Ureter",
+   "en": "Ureter",
+   "group": "İdrar yolları",
+   "region": "abdomen",
+   "summary": "Böbrek pelvisinden idrar kesesine idrar taşıyan, yaklaşık 25–30 cm uzunluğunda kaslı borudur. İdrarı peristaltik dalgalarla iletir.",
+   "facts": [
+    [
+     "Seyir",
+     "Psoas kasının önünde iner, iliak damarların çatallanma yerini çaprazlayarak pelvise girer, mesanenin arka-alt yüzüne eğik olarak açılır"
+    ],
+    [
+     "Fizyolojik darlıklar",
+     "Pyeloüreteral bileşke, iliak damarları çaprazladığı yer, mesaneye giriş yeri (en dar) – taşlar bu noktalarda takılır"
+    ],
+    [
+     "Önemli komşuluk",
+     "Kadında a. uterina'nın altından geçer (‘köprünün altından akan su’)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Histerektomide a. uterina bağlanırken üreter zedelenebilir.",
+    "Üreter taşları kolik ağrının yerini (böğür, kasık, genital bölge) taşın düzeyine göre değiştirir."
+   ],
+   "related": [
+    "ren",
+    "vesica-urinaria",
+    "a-iliaca-communis"
+   ],
+   "models": [
+    "Ureter"
+   ],
+   "aliases": [
+    "üreter"
+   ]
+  },
+  {
+   "id": "vesica-urinaria",
+   "tr": "İdrar kesesi (mesane)",
+   "la": "Vesica urinaria",
+   "en": "Urinary bladder",
+   "group": "İdrar yolları",
+   "region": "pelvis",
+   "summary": "Pelviste, symphysis pubica'nın arkasında yer alan, idrarı depolayan kaslı kesedir. Dolu iken karın boşluğuna doğru yükselir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Apex, corpus, fundus, cervix (boyun)"
+    ],
+    [
+     "Trigonum vesicae",
+     "İki üreter ağzı ve iç üretra ağzı arasındaki düz üçgen alan"
+    ],
+    [
+     "Duvar kası",
+     "M. detrusor vesicae (parasempatik – S2–S4 ile kasılır)"
+    ],
+    [
+     "Kapasite",
+     "Normalde 400–600 mL; işeme isteği yaklaşık 150–300 mL'de başlar"
+    ],
+    [
+     "Kanlanma",
+     "A. vesicalis superior ve inferior (a. iliaca interna dalları)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dolu mesane symphysis'in üstünden ekstraperitoneal olarak delinebilir (suprapubik ponksiyon).",
+    "Mesane taşı ve kanseri hematüriye neden olur; sigara mesane kanserinin başlıca risk faktörüdür.",
+    "Omurilik yaralanmalarında nörojenik mesane gelişir."
+   ],
+   "related": [
+    "ureter",
+    "urethra",
+    "prostata",
+    "diaphragma-pelvis"
+   ],
+   "models": [
+    "Urinary bladder"
+   ],
+   "aliases": [
+    "mesane",
+    "idrar torbası"
+   ]
+  },
+  {
+   "id": "urethra",
+   "tr": "İdrar yolu (üretra)",
+   "la": "Urethra",
+   "en": "Urethra",
+   "group": "İdrar yolları",
+   "region": "pelvis",
+   "summary": "İdrarı mesaneden dışarı taşıyan kanaldır. Erkekte yaklaşık 18–20 cm uzunluğunda olup aynı zamanda meninin de geçtiği yoldur; kadında yaklaşık 4 cm'dir.",
+   "facts": [
+    [
+     "Erkek üretrası bölümleri",
+     "Pars intramuralis, pars prostatica (en geniş; ductus ejaculatorii açılır), pars membranacea (en dar ve en kısa; m. sphincter urethrae externus), pars spongiosa (en uzun)"
+    ],
+    [
+     "Kadın üretrası",
+     "Kısa ve düz; vestibulum vaginae'ye açılır"
+    ],
+    [
+     "Sfinkterler",
+     "İç sfinkter (erkekte düz kas, istemsiz) ve dış sfinkter (çizgili kas, n. pudendus – istemli)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kadınlarda üretranın kısa olması idrar yolu enfeksiyonlarının daha sık görülmesine neden olur.",
+    "Pelvis kırıklarında erkek üretrasının membranöz bölümü yırtılabilir; meatusta kan görülmesi durumunda sonda takılmamalıdır."
+   ],
+   "related": [
+    "vesica-urinaria",
+    "prostata",
+    "penis"
+   ],
+   "models": [
+    "Urethra"
+   ],
+   "aliases": [
+    "üretra"
+   ]
+  }
+ ]
+}

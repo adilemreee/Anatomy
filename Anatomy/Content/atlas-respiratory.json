@@ -1,0 +1,463 @@
+{
+ "system": "respiratory",
+ "entries": [
+  {
+   "id": "cavitas-nasi",
+   "tr": "Burun boşluğu",
+   "la": "Cavitas nasi",
+   "en": "Nasal cavity",
+   "group": "Üst solunum yolları",
+   "region": "head",
+   "summary": "Solunum yolunun başlangıcıdır; burun bölmesiyle (septum nasi) sağ ve sol yarıya ayrılır. Havayı ısıtır, nemlendirir, süzer ve tavanında koku duyusunu taşır.",
+   "facts": [
+    [
+     "Sınırları",
+     "Önde nares (burun delikleri), arkada choanae (nazofarinkse açılır); tavan lamina cribrosa, taban sert damak"
+    ],
+    [
+     "Yan duvar",
+     "Concha nasalis superior, media ve inferior; altlarındaki meatus nasi superior, medius ve inferior"
+    ],
+    [
+     "Açılan yapılar",
+     "Meatus inferior: ductus nasolacrimalis; meatus medius: sinus frontalis, maxillaris, ön etmoid hücreler; meatus superior: arka etmoid hücreler; recessus sphenoethmoidalis: sinus sphenoidalis"
+    ],
+    [
+     "Mukoza",
+     "Solunum bölgesi (silyalı psödostratifiye epitel, zengin damar ağı) ve koku bölgesi (regio olfactoria)"
+    ],
+    [
+     "Kanlanma",
+     "A. sphenopalatina, a. ethmoidalis anterior ve posterior, a. palatina major, a. labialis superior"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Burun kanamalarının %90'ı septumun ön-alt kısmındaki Kiesselbach (Little) alanından olur.",
+    "Septum deviasyonu ve konka hipertrofisi burun tıkanıklığının sık nedenleridir."
+   ],
+   "related": [
+    "sinus-paranasales",
+    "os-ethmoidale",
+    "pharynx",
+    "n-olfactorius",
+    "organum-olfactus"
+   ],
+   "models": [
+    "Nose",
+    "Mucosa of nasal cavity",
+    "Nasal cartilages"
+   ],
+   "aliases": [
+    "burun"
+   ]
+  },
+  {
+   "id": "sinus-paranasales",
+   "tr": "Paranazal sinüsler",
+   "la": "Sinus paranasales",
+   "en": "Paranasal sinuses",
+   "group": "Üst solunum yolları",
+   "region": "head",
+   "summary": "Burun boşluğunu çevreleyen kafa kemiklerinin içindeki, mukozayla döşeli hava boşluklarıdır. Kafatasını hafifletir, sese rezonans kazandırır ve solunan havayı nemlendirir.",
+   "facts": [
+    [
+     "Sinüsler",
+     "Sinus frontalis, sinus maxillaris (en büyük), sinus sphenoidalis, cellulae ethmoidales (ön, orta, arka)"
+    ],
+    [
+     "Drenaj",
+     "Frontal, maksiller ve ön etmoid: meatus nasi medius; arka etmoid: meatus nasi superior; sfenoid: recessus sphenoethmoidalis"
+    ],
+    [
+     "Gelişim",
+     "Doğumda maksiller ve etmoid sinüsler küçüktür; frontal ve sfenoid sinüsler çocukluk ve ergenlikte gelişir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akut sinüzit çoğunlukla viral üst solunum yolu enfeksiyonunu izler; maksiller sinüs en sık etkilenendir.",
+    "Fonksiyonel endoskopik sinüs cerrahisinde ostiomeatal kompleks açılır."
+   ],
+   "related": [
+    "cavitas-nasi",
+    "os-frontale",
+    "maxilla",
+    "os-sphenoidale",
+    "os-ethmoidale"
+   ],
+   "models": [
+    "Sinus of frontal bone",
+    "Sinus of sphenoid bone",
+    "Anterior cells of ethmoid bone",
+    "Middle cells of ethmoid bone",
+    "Posterior cells of ethmoid bone"
+   ],
+   "aliases": [
+    "sinüs",
+    "sinüzit"
+   ]
+  },
+  {
+   "id": "larynx",
+   "tr": "Gırtlak",
+   "la": "Larynx",
+   "en": "Larynx",
+   "group": "Üst solunum yolları",
+   "region": "neck",
+   "summary": "Yutak ile soluk borusu arasında, boynun ön orta kısmında (C3–C6) yer alan, kıkırdaklardan oluşan solunum ve ses organıdır. Yutkunma sırasında alt solunum yollarını korur.",
+   "facts": [
+    [
+     "Tek kıkırdaklar",
+     "Cartilago thyroidea (Adem elması – prominentia laryngea), cartilago cricoidea (tam halka), epiglottis"
+    ],
+    [
+     "Çift kıkırdaklar",
+     "Cartilago arytenoidea, corniculata, cuneiformis"
+    ],
+    [
+     "Bölümleri",
+     "Vestibulum laryngis, glottis (ses telleri – plicae vocales ve rima glottidis), cavitas infraglottica"
+    ],
+    [
+     "Kaslar",
+     "M. cricothyroideus (ses tellerini gerer – n. laryngeus superior), m. cricoarytenoideus posterior (ses tellerini açan TEK kas), m. cricoarytenoideus lateralis, m. arytenoideus, m. thyroarytenoideus"
+    ],
+    [
+     "İnnervasyon",
+     "N. vagus: n. laryngeus superior (dış dalı m. cricothyroideus, iç dalı ses telleri üstü duyu) ve n. laryngeus recurrens (diğer kaslar ve ses telleri altı duyu)"
+    ]
+   ],
+   "sections": [
+    [
+     "Ses oluşumu",
+     "Akciğerlerden gelen hava kapalı ses tellerini titreştirir; sesin perdesi ses tellerinin gerginliği ve uzunluğuyla, şiddeti hava basıncıyla belirlenir."
+    ]
+   ],
+   "clinical": [
+    "Acil hava yolu için cricothyroid membran (lig. cricothyroideum medianum) kesilebilir (krikotiroidotomi).",
+    "İki taraflı n. laryngeus recurrens felcinde ses telleri orta hatta kalarak solunum sıkıntısı yapabilir.",
+    "Epiglottit (özellikle çocuklarda) hava yolunu tıkayabilen acil bir durumdur."
+   ],
+   "related": [
+    "trachea",
+    "pharynx",
+    "n-vagus",
+    "os-hyoideum",
+    "glandula-thyroidea"
+   ],
+   "models": [
+    "Larynx",
+    "Laryngeal cartilages",
+    "Thyroid cartilage",
+    "Cricoid cartilage",
+    "Arytenoid cartilage",
+    "Corniculate cartilage",
+    "Epiglottis",
+    "Laryngeal muscles",
+    "Laryngeal joints"
+   ],
+   "aliases": [
+    "gırtlak",
+    "ses telleri",
+    "epiglot",
+    "Adem elması"
+   ]
+  },
+  {
+   "id": "trachea",
+   "tr": "Soluk borusu",
+   "la": "Trachea",
+   "en": "Trachea",
+   "group": "Alt solunum yolları",
+   "region": "neck",
+   "summary": "Gırtlaktan başlayıp göğüs boşluğunda iki ana bronşa ayrılan, 16–20 adet C şeklinde kıkırdak halkayla açık tutulan hava yoludur.",
+   "facts": [
+    [
+     "Uzunluk ve çap",
+     "Yaklaşık 10–12 cm, çap 2–2,5 cm"
+    ],
+    [
+     "Başlangıç",
+     "Cartilago cricoidea'nın altı (C6)"
+    ],
+    [
+     "Çatallanma",
+     "Angulus sterni hizasında (T4–T5) bifurcatio tracheae; içte carina"
+    ],
+    [
+     "Yapısı",
+     "Önde C şeklinde hiyalin kıkırdak halkalar, arkada m. trachealis ve fibröz zar (özofagusla komşu)"
+    ],
+    [
+     "Epitel",
+     "Silyalı psödostratifiye kolumnar epitel ve goblet hücreleri (mukosiliyer temizlik)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Trakeostomi genellikle 2.–4. trakea halkaları arasından yapılır; tiroid isthmusu bu hizadadır.",
+    "Carina mukozası çok duyarlıdır; dokunulması şiddetli öksürük refleksi oluşturur."
+   ],
+   "related": [
+    "larynx",
+    "bronchi",
+    "oesophagus",
+    "glandula-thyroidea"
+   ],
+   "models": [
+    "Trachea"
+   ],
+   "aliases": [
+    "trakea"
+   ]
+  },
+  {
+   "id": "bronchi",
+   "tr": "Bronşlar (bronş ağacı)",
+   "la": "Bronchi (arbor bronchialis)",
+   "en": "Bronchial tree",
+   "group": "Alt solunum yolları",
+   "region": "thorax",
+   "summary": "Trakeanın ikiye ayrılmasıyla başlayan ve akciğerler içinde giderek incelen hava yollarıdır: ana bronşlar → lobar bronşlar → segmental bronşlar → bronşioller → alveoller.",
+   "facts": [
+    [
+     "Sağ ana bronş",
+     "Daha kısa, geniş ve dikey; yabancı cisimler daha sık buraya kaçar; 3 lobar bronş (üst, orta, alt)"
+    ],
+    [
+     "Sol ana bronş",
+     "Daha uzun, dar ve yatay; arcus aortae'nin altından geçer; 2 lobar bronş (üst, alt)"
+    ],
+    [
+     "Segmental bronşlar",
+     "Her biri bir bronkopulmoner segmenti havalandırır: sağda 10, solda 8–10 segment"
+    ],
+    [
+     "Bronşioller",
+     "Kıkırdak içermez; terminal → respiratuvar bronşiyol → ductus alveolaris → alveoller"
+    ]
+   ],
+   "sections": [
+    [
+     "Bronkopulmoner segment",
+     "Kendi segmental bronşu, arteri ve lenfatiği olan, akciğerin cerrahi olarak ayrı çıkarılabilen en küçük birimidir."
+    ]
+   ],
+   "clinical": [
+    "Aspire edilen yabancı cisimler çoğunlukla sağ ana bronşa ve sağ alt loba gider.",
+    "Astımda bronşiyol düz kaslarının kasılması ve mukus artışı hava yolunu daraltır."
+   ],
+   "related": [
+    "trachea",
+    "pulmones",
+    "pulmo-dexter",
+    "pulmo-sinister"
+   ],
+   "models": [
+    "Bronchi",
+    "Tracheobronchial tree",
+    "Right main bronchus",
+    "Left main bronchus",
+    "Intermediate bronchus"
+   ],
+   "aliases": [
+    "bronş",
+    "bronşiyol"
+   ]
+  },
+  {
+   "id": "pulmones",
+   "tr": "Akciğerler",
+   "la": "Pulmones",
+   "en": "Lungs",
+   "group": "Akciğerler ve plevra",
+   "region": "thorax",
+   "summary": "Göğüs boşluğunda kalbin iki yanında yer alan, solunum gazlarının alışverişini sağlayan süngerimsi organlardır. Her biri kendi plevra kesesi içindedir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Apex pulmonis (clavicula'nın 2–3 cm üstüne uzanır), basis (diyafram yüzü), facies costalis ve mediastinalis, hilum pulmonis"
+    ],
+    [
+     "Lob sayısı",
+     "Sağ akciğer 3 lob (üst, orta, alt), sol akciğer 2 lob (üst, alt; lingula içerir)"
+    ],
+    [
+     "Alveol sayısı",
+     "Yaklaşık 300–500 milyon; toplam yüzey alanı 70–100 m²"
+    ],
+    [
+     "Hilum içeriği",
+     "Ana bronş, a. pulmonalis, vv. pulmonales, bronşiyal damarlar, lenf düğümleri ve sinirler"
+    ],
+    [
+     "Kanlanma",
+     "Fonksiyonel: aa. pulmonales; besleyici: aa. bronchiales (aortadan)"
+    ]
+   ],
+   "sections": [
+    [
+     "Yüzey izdüşümü",
+     "Akciğer alt sınırları orta klaviküler hatta 6., orta aksiller hatta 8., skapular hatta 10. kaburgadır. Plevra sınırları bunların iki kaburga altındadır (8, 10, 12)."
+    ]
+   ],
+   "clinical": [
+    "Pnömoni (zatürre) alveollerin iltihabıdır; lobar veya bronkopnömoni şeklinde olabilir.",
+    "Akciğer kanseri dünyada kansere bağlı ölümlerin en sık nedenidir; sigara başlıca risk faktörüdür.",
+    "KOAH, amfizem ve kronik bronşit ile karakterize ilerleyici hava akımı kısıtlılığıdır."
+   ],
+   "related": [
+    "pulmo-dexter",
+    "pulmo-sinister",
+    "bronchi",
+    "pleura",
+    "truncus-pulmonalis",
+    "diaphragma"
+   ],
+   "models": [
+    "Lungs"
+   ],
+   "aliases": [
+    "akciğer",
+    "pulmoner"
+   ]
+  },
+  {
+   "id": "pulmo-dexter",
+   "tr": "Sağ akciğer",
+   "la": "Pulmo dexter",
+   "en": "Right lung",
+   "group": "Akciğerler ve plevra",
+   "region": "thorax",
+   "summary": "Üç loblu, sol akciğerden daha geniş ve kısa olan akciğerdir; karaciğer nedeniyle diyafram sağda daha yüksektir.",
+   "facts": [
+    [
+     "Loblar",
+     "Lobus superior, lobus medius, lobus inferior"
+    ],
+    [
+     "Fissürler",
+     "Fissura obliqua ve fissura horizontalis (4. kaburga hizası)"
+    ],
+    [
+     "Segmentler",
+     "10: üst lob (apikal, posterior, anterior), orta lob (lateral, medial), alt lob (superior, medial bazal, anterior bazal, lateral bazal, posterior bazal)"
+    ],
+    [
+     "Mediastinal yüz",
+     "V. cava superior, v. azygos, özofagus izleri"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Aspirasyon pnömonisi sırtüstü yatan hastada sıklıkla sağ alt lobun süperior segmentinde gelişir."
+   ],
+   "related": [
+    "pulmones",
+    "pulmo-sinister",
+    "bronchi",
+    "pleura"
+   ],
+   "models": [
+    "Right lung",
+    "Superior lobe of right lung",
+    "Middle lobe of right lung",
+    "Inferior lobe of right lung"
+   ],
+   "aliases": [
+    "sağ akciğer"
+   ]
+  },
+  {
+   "id": "pulmo-sinister",
+   "tr": "Sol akciğer",
+   "la": "Pulmo sinister",
+   "en": "Left lung",
+   "group": "Akciğerler ve plevra",
+   "region": "thorax",
+   "summary": "İki loblu, kalbin sola yerleşimi nedeniyle sağdakinden daha küçük ve dar olan akciğerdir. Ön kenarında kalp için bir çentik (incisura cardiaca) bulunur.",
+   "facts": [
+    [
+     "Loblar",
+     "Lobus superior (lingula dahil) ve lobus inferior"
+    ],
+    [
+     "Fissür",
+     "Fissura obliqua"
+    ],
+    [
+     "Özel yapılar",
+     "Incisura cardiaca, lingula pulmonis (sağ orta lobun karşılığı)"
+    ],
+    [
+     "Mediastinal yüz",
+     "Kalp (impressio cardiaca), arcus aortae ve aorta descendens izleri"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "pulmones",
+    "pulmo-dexter",
+    "bronchi",
+    "cor"
+   ],
+   "models": [
+    "Left lung",
+    "Superior lobe of left lung",
+    "Inferior lobe of left lung"
+   ],
+   "aliases": [
+    "sol akciğer",
+    "lingula"
+   ]
+  },
+  {
+   "id": "pleura",
+   "tr": "Akciğer zarı",
+   "la": "Pleura",
+   "en": "Pleura",
+   "group": "Akciğerler ve plevra",
+   "region": "thorax",
+   "summary": "Her akciğeri saran, iki yapraklı seröz zardır: akciğer yüzeyini örten visseral (pulmoner) plevra ve göğüs duvarını döşeyen parietal plevra. Aralarında ince bir sıvı tabakası bulunur.",
+   "facts": [
+    [
+     "Yapraklar",
+     "Pleura visceralis ve pleura parietalis (kostal, diyafragmatik, mediastinal ve servikal – cupula pleurae)"
+    ],
+    [
+     "Boşluk",
+     "Cavitas pleuralis; yaklaşık 10–20 mL sıvı, negatif basınç"
+    ],
+    [
+     "Resesler",
+     "Recessus costodiaphragmaticus (en derin; sıvı ilk burada toplanır), recessus costomediastinalis"
+    ],
+    [
+     "İnnervasyon",
+     "Parietal plevra ağrıya duyarlıdır (interkostal sinirler ve n. phrenicus); visseral plevra ağrıya duyarsızdır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pnömotoraks: plevra boşluğuna hava girmesiyle akciğer söner; tansiyon pnömotoraksı acil iğne dekompresyonu gerektirir.",
+    "Plevral efüzyon (sıvı birikimi) kalp yetmezliği, enfeksiyon veya kanserde görülür; torasentezle boşaltılır.",
+    "Plöritik ağrı solunumla artan keskin göğüs ağrısıdır."
+   ],
+   "related": [
+    "pulmones",
+    "costae",
+    "diaphragma",
+    "mm-intercostales"
+   ],
+   "models": [
+    "Pleura"
+   ],
+   "aliases": [
+    "plevra",
+    "pnömotoraks"
+   ]
+  }
+ ]
+}

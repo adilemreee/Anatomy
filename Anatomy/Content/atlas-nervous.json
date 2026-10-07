@@ -1,0 +1,2547 @@
+{
+ "system": "nervous",
+ "entries": [
+  {
+   "id": "cerebrum",
+   "tr": "Beyin (uç beyin)",
+   "la": "Cerebrum (telencephalon)",
+   "en": "Cerebrum",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Merkezi sinir sisteminin en büyük bölümüdür; orta hattaki derin yarıkla (fissura longitudinalis cerebri) iki yarımküreye (hemispherium) ayrılır. Yüzeyi kıvrımlı gri cevherden (korteks) oluşur ve bilinç, düşünce, dil, hafıza, istemli hareket ile duyuların algılanmasından sorumludur.",
+   "facts": [
+    [
+     "Ağırlık",
+     "Erişkinde yaklaşık 1300–1400 g (tüm beyin)"
+    ],
+    [
+     "Lobları",
+     "Lobus frontalis, parietalis, temporalis, occipitalis, insularis ve limbicus"
+    ],
+    [
+     "Ana yarıklar",
+     "Sulcus centralis (Rolando), sulcus lateralis (Sylvius), sulcus parietooccipitalis, fissura longitudinalis cerebri"
+    ],
+    [
+     "Yapısı",
+     "Dışta gri cevher (cortex cerebri), içte beyaz cevher (assosiyasyon, komissüral ve projeksiyon lifleri) ve derin çekirdekler (nuclei basales)"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri anterior, media ve posterior (circulus arteriosus cerebri)"
+    ]
+   ],
+   "sections": [
+    [
+     "Lateralizasyon",
+     "Çoğu insanda (sağ ellilerin %95'inden fazlasında) sol yarımküre dil için baskındır. Sağ yarımküre uzamsal algı, yüz tanıma ve dilin duygusal tonunda daha etkindir."
+    ],
+    [
+     "Beyaz cevher lifleri",
+     "Assosiyasyon lifleri aynı yarımkürenin bölgelerini, komissüral lifler (corpus callosum) iki yarımküreyi, projeksiyon lifleri (capsula interna) korteksi beyin sapı ve omurilikle bağlar."
+    ]
+   ],
+   "clinical": [
+    "İnme (serebrovasküler olay) en sık a. cerebri media alanını etkiler: karşı tarafta yüz ve kolda baskın güçsüzlük, dominant yarımkürede afazi.",
+    "Glasgow Koma Skalası göz açma, sözel ve motor yanıtlarla bilinç düzeyini değerlendirir."
+   ],
+   "related": [
+    "lobus-frontalis",
+    "lobus-parietalis",
+    "lobus-temporalis",
+    "lobus-occipitalis",
+    "corpus-callosum",
+    "circulus-arteriosus"
+   ],
+   "models": [
+    "Cerebrum",
+    "Telencephalon"
+   ],
+   "aliases": [
+    "beyin",
+    "serebrum",
+    "telensefalon",
+    "beyin yarımküresi"
+   ]
+  },
+  {
+   "id": "lobus-frontalis",
+   "tr": "Alın lobu",
+   "la": "Lobus frontalis",
+   "en": "Frontal lobe",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Sulcus centralis'in önünde kalan, beynin en büyük lobudur. İstemli hareketin planlanması ve başlatılması, yürütücü işlevler, kişilik, karar verme ve konuşmanın üretimi bu lobla ilişkilidir.",
+   "facts": [
+    [
+     "Sınırları",
+     "Arkada sulcus centralis, aşağıda sulcus lateralis"
+    ],
+    [
+     "Önemli alanlar",
+     "Gyrus precentralis – primer motor korteks (Brodmann 4); premotor ve suplementer motor alan (6); frontal göz alanı (8); Broca alanı – motor konuşma (44, 45; dominant yarımkürede); prefrontal korteks"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri media (dış yüz) ve a. cerebri anterior (iç yüz)"
+    ]
+   ],
+   "sections": [
+    [
+     "Motor homunkulus",
+     "Primer motor kortekste vücut tersine haritalanmıştır: bacak iç yüzde (paracentral lobül – a. cerebri anterior alanı), kol ve yüz dış yüzde (a. cerebri media alanı) temsil edilir. El, yüz ve dil geniş alan kaplar."
+    ]
+   ],
+   "clinical": [
+    "Broca afazisinde konuşma akıcı değildir ve zorlanarak yapılır, ancak anlama görece korunur.",
+    "Prefrontal hasar kişilik değişiklikleri, dürtüsellik ve planlama bozukluğuna (Phineas Gage vakası) yol açar.",
+    "Frontal göz alanı lezyonunda gözler lezyon tarafına bakar."
+   ],
+   "related": [
+    "cerebrum",
+    "gyrus-precentralis",
+    "lobus-parietalis"
+   ],
+   "models": [
+    "Frontal lobe"
+   ],
+   "aliases": [
+    "frontal lob"
+   ]
+  },
+  {
+   "id": "gyrus-precentralis",
+   "tr": "Ön merkezi kıvrım (motor korteks)",
+   "la": "Gyrus precentralis",
+   "en": "Precentral gyrus",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Sulcus centralis'in hemen önünde uzanan, istemli hareketin yürütüldüğü primer motor korteksi içeren kıvrımdır. Kortikospinal ve kortikobulbar yolların büyük kısmı buradan başlar.",
+   "facts": [
+    [
+     "Brodmann alanı",
+     "4 (primer motor korteks)"
+    ],
+    [
+     "Hücreler",
+     "Dev piramidal hücreler (Betz hücreleri) – 5. tabaka"
+    ],
+    [
+     "Somatotopi",
+     "Motor homunkulus: bacak orta hatta, yüz aşağıda-yanda"
+    ],
+    [
+     "Projeksiyon",
+     "Tractus corticospinalis (omuriliğe) ve corticonuclearis (beyin sapı motor çekirdeklerine)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bu bölgenin hasarı karşı tarafta üst motor nöron tipi felce (spastisite, hiperrefleksi, Babinski pozitifliği) yol açar.",
+    "Jacksonian nöbette kasılmalar homunkulus boyunca yayılarak (ör. elden kola, yüze) ilerler."
+   ],
+   "related": [
+    "lobus-frontalis",
+    "gyrus-postcentralis",
+    "medulla-spinalis"
+   ],
+   "models": [
+    "Precentral gyrus"
+   ],
+   "aliases": [
+    "motor korteks",
+    "primer motor alan"
+   ]
+  },
+  {
+   "id": "lobus-parietalis",
+   "tr": "Yan kafa lobu",
+   "la": "Lobus parietalis",
+   "en": "Parietal lobe",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Sulcus centralis ile sulcus parietooccipitalis arasında kalan lobdur. Somatik duyuların (dokunma, ağrı, sıcaklık, pozisyon) algılanması ve yorumlanması, uzamsal farkındalık ve dikkat ile ilişkilidir.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Gyrus postcentralis – primer somatosensoriyel korteks (3, 1, 2); lobulus parietalis superior ve inferior; gyrus supramarginalis ve gyrus angularis (dominant yarımkürede dil ve okuma-yazma ile ilişkili)"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri media ve a. cerebri anterior"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dominant olmayan (genellikle sağ) parietal lob hasarında karşı tarafın ihmali (hemispatial neglect) görülür.",
+    "Dominant gyrus angularis lezyonunda Gerstmann sendromu: agrafi, akalkuli, parmak agnozisi, sağ-sol ayrım bozukluğu."
+   ],
+   "related": [
+    "cerebrum",
+    "gyrus-postcentralis",
+    "lobus-frontalis",
+    "lobus-occipitalis"
+   ],
+   "models": [
+    "Parietal lobe"
+   ],
+   "aliases": [
+    "parietal lob"
+   ]
+  },
+  {
+   "id": "gyrus-postcentralis",
+   "tr": "Arka merkezi kıvrım (duyu korteksi)",
+   "la": "Gyrus postcentralis",
+   "en": "Postcentral gyrus",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Sulcus centralis'in hemen arkasında uzanan, vücudun karşı yarısından gelen dokunma, ağrı, sıcaklık ve pozisyon duyularının ulaştığı primer somatosensoriyel korteksi içeren kıvrımdır.",
+   "facts": [
+    [
+     "Brodmann alanları",
+     "3, 1, 2"
+    ],
+    [
+     "Girdi",
+     "Talamusun ventral posterolateral (vücut) ve ventral posteromedial (yüz) çekirdekleri"
+    ],
+    [
+     "Somatotopi",
+     "Duyusal homunkulus; el, dudaklar ve dil geniş alan kaplar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hasarında karşı tarafta ince dokunma ve pozisyon duyusu kaybı, astereognozi (cisimleri dokunarak tanıyamama) görülür."
+   ],
+   "related": [
+    "lobus-parietalis",
+    "gyrus-precentralis",
+    "thalamus"
+   ],
+   "models": [
+    "Postcentral gyrus"
+   ],
+   "aliases": [
+    "somatosensoriyel korteks",
+    "duyu korteksi"
+   ]
+  },
+  {
+   "id": "lobus-temporalis",
+   "tr": "Şakak lobu",
+   "la": "Lobus temporalis",
+   "en": "Temporal lobe",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Sulcus lateralis'in altında yer alan lobdur. İşitme, dilin anlaşılması, hafıza ve duygusal süreçlerle ilişkilidir; iç yüzünde hipokampus ve amigdala bulunur.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Gyri temporales transversi (Heschl) – primer işitme korteksi (41, 42); Wernicke alanı – dilin anlaşılması (22, dominant yarımkürede); gyrus temporalis superior, medius, inferior"
+    ],
+    [
+     "İç yapılar",
+     "Hippocampus, corpus amygdaloideum, gyrus parahippocampalis"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri media ve a. cerebri posterior"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Wernicke afazisinde konuşma akıcı ancak anlamsızdır ve dil anlaşılamaz.",
+    "Temporal lob epilepsisi koku halüsinasyonları, déjà vu ve otomatizmlerle seyredebilir.",
+    "Alzheimer hastalığında medial temporal lob (hipokampus) atrofisi erken bulgudur."
+   ],
+   "related": [
+    "cerebrum",
+    "hippocampus",
+    "corpus-amygdaloideum",
+    "n-vestibulocochlearis"
+   ],
+   "models": [
+    "Temporal lobe"
+   ],
+   "aliases": [
+    "temporal lob"
+   ]
+  },
+  {
+   "id": "lobus-occipitalis",
+   "tr": "Art kafa lobu",
+   "la": "Lobus occipitalis",
+   "en": "Occipital lobe",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Beynin en arka lobudur; görme bilgisinin işlendiği görme merkezini içerir.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Sulcus calcarinus çevresinde primer görme korteksi (area striata, Brodmann 17); görme ilişki alanları (18, 19); cuneus, gyrus lingualis"
+    ],
+    [
+     "Girdi",
+     "Corpus geniculatum laterale'den radiatio optica"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri posterior (a. calcarina)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tek taraflı görme korteksi hasarı karşı tarafta homonim hemianopsiye neden olur; a. cerebri posterior tıkanmasında makula genellikle korunur (çift kanlanma).",
+    "İki taraflı hasar kortikal körlüğe yol açar; Anton sendromunda hasta körlüğünü inkâr eder."
+   ],
+   "related": [
+    "cerebrum",
+    "n-opticus",
+    "lobus-parietalis",
+    "lobus-temporalis"
+   ],
+   "models": [
+    "Occipital lobe"
+   ],
+   "aliases": [
+    "oksipital lob",
+    "görme korteksi"
+   ]
+  },
+  {
+   "id": "insula",
+   "tr": "İnsula",
+   "la": "Lobus insularis (insula)",
+   "en": "Insula",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Sulcus lateralis'in derininde, frontal, parietal ve temporal lobların örtücüleri (opercula) altında saklı kalan kortikal bölgedir.",
+   "facts": [
+    [
+     "Konum",
+     "Sulcus lateralis'in tabanında; sulcus circularis insulae ile çevrili"
+    ],
+    [
+     "İşlevler",
+     "Tat algısı (primer tat korteksi), interosepsiyon (iç organ duyuları), ağrı, duygusal farkındalık, otonom düzenleme"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri media'nın M2 (insular) dalları"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "A. cerebri media inmelerinde insular korteksin erken etkilenmesi BT'de ‘insular ribbon’ bulgusunun kaybıyla görülür."
+   ],
+   "related": [
+    "cerebrum",
+    "lobus-temporalis",
+    "lobus-frontalis"
+   ],
+   "models": [
+    "Insula"
+   ],
+   "aliases": [
+    "insular lob"
+   ]
+  },
+  {
+   "id": "systema-limbicum",
+   "tr": "Limbik sistem",
+   "la": "Systema limbicum (lobus limbicus)",
+   "en": "Limbic system",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Duygu, motivasyon, öğrenme ve hafızadan sorumlu, beyin yarımkürelerinin iç yüzünde halka şeklinde düzenlenmiş yapılar topluluğudur.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Gyrus cinguli, gyrus parahippocampalis, hippocampus, corpus amygdaloideum, fornix, corpora mamillaria, nuclei septales, talamusun ön çekirdekleri, hipotalamus"
+    ],
+    [
+     "Papez devresi",
+     "Hippocampus → fornix → corpus mamillare → tractus mamillothalamicus → talamus ön çekirdekleri → gyrus cinguli → gyrus parahippocampalis → hippocampus"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kronik alkol kullanımına bağlı tiamin eksikliğinde corpora mamillaria hasarı Wernicke–Korsakoff sendromuna (hafıza kaybı, konfabulasyon) yol açar."
+   ],
+   "related": [
+    "hippocampus",
+    "corpus-amygdaloideum",
+    "hypothalamus",
+    "thalamus"
+   ],
+   "models": [
+    "Limbic lobe",
+    "Fornix",
+    "Septal nuclei",
+    "Mamillary body"
+   ],
+   "aliases": [
+    "limbik",
+    "gyrus cinguli",
+    "fornix"
+   ]
+  },
+  {
+   "id": "hippocampus",
+   "tr": "Hipokampus",
+   "la": "Hippocampus",
+   "en": "Hippocampus",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Temporal lobun iç yüzünde, yan karıncığın alt boynuzunun tabanında uzanan, deniz atına benzeyen gri cevher yapısıdır. Yeni bilgilerin uzun süreli hafızaya kaydedilmesi ve uzamsal yön bulmada kritik rol oynar.",
+   "facts": [
+    [
+     "Konum",
+     "Lobus temporalis'in iç yüzü, cornu inferius ventriculi lateralis'in tabanı"
+    ],
+    [
+     "Yapısı",
+     "Cornu ammonis (CA1–CA4), gyrus dentatus, subiculum"
+    ],
+    [
+     "Bağlantılar",
+     "Girdi: korteks entorhinale; çıktı: fornix aracılığıyla corpora mamillaria ve septal çekirdekler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "İki taraflı hipokampus hasarı yeni anı oluşturamama (anterograd amnezi) ile sonuçlanır (H.M. vakası).",
+    "Hipokampus hipoksiye en duyarlı bölgelerden biridir (CA1 bölgesi).",
+    "Alzheimer hastalığında ilk etkilenen yapılardandır; mezial temporal skleroz dirençli epilepsi nedenidir."
+   ],
+   "related": [
+    "systema-limbicum",
+    "lobus-temporalis",
+    "corpus-amygdaloideum"
+   ],
+   "models": [
+    "Hippocampus",
+    "Hippocampal commissure"
+   ],
+   "aliases": [
+    "hipokampüs"
+   ]
+  },
+  {
+   "id": "corpus-amygdaloideum",
+   "tr": "Amigdala",
+   "la": "Corpus amygdaloideum",
+   "en": "Amygdala",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Temporal lobun ön iç kısmında, hipokampusun önünde yer alan badem biçimli çekirdek kümesidir. Korku, tehdit algısı ve duygusal anıların oluşmasında merkezi rol oynar.",
+   "facts": [
+    [
+     "Konum",
+     "Lobus temporalis'in ön iç kısmı (uncus altında)"
+    ],
+    [
+     "Bağlantılar",
+     "Stria terminalis ile hipotalamusa; korteks, talamus ve beyin sapı otonom merkezlerine"
+    ],
+    [
+     "İşlev",
+     "Korku koşullanması, duygusal öğrenme, sosyal davranış, otonom ve endokrin stres yanıtlarının tetiklenmesi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "İki taraflı amigdala hasarı Klüver–Bucy sendromuna (korkusuzluk, hiperoralite, hiperseksüalite) yol açar."
+   ],
+   "related": [
+    "systema-limbicum",
+    "hippocampus",
+    "hypothalamus"
+   ],
+   "models": [
+    "Amygdaloid body",
+    "Stria terminalis"
+   ],
+   "aliases": [
+    "amygdala"
+   ]
+  },
+  {
+   "id": "corpus-callosum",
+   "tr": "Nasırlı cisim",
+   "la": "Corpus callosum",
+   "en": "Corpus callosum",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "İki beyin yarımküresini birbirine bağlayan, yaklaşık 200 milyon sinir lifinden oluşan en büyük komissüral yapıdır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Rostrum, genu, truncus, splenium"
+    ],
+    [
+     "Diğer komissürler",
+     "Commissura anterior, commissura posterior, commissura fornicis (hippocampalis)"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri anterior (a. pericallosa) ve a. cerebri posterior (splenium)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dirençli epilepside corpus callosum kesilebilir (kallozotomi); ‘split-brain’ hastalarda yarımküreler arası bilgi aktarımı bozulur.",
+    "Corpus callosum agenezisi doğumsal bir anomalidir."
+   ],
+   "related": [
+    "cerebrum",
+    "ventriculi-cerebri"
+   ],
+   "models": [
+    "Corpus callosum",
+    "Anterior commissure",
+    "Posterior commissure",
+    "Commissural fibres of telencephalon"
+   ],
+   "aliases": [
+    "korpus kallozum"
+   ]
+  },
+  {
+   "id": "nuclei-basales",
+   "tr": "Bazal çekirdekler",
+   "la": "Nuclei basales",
+   "en": "Basal nuclei (basal ganglia)",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Beyin yarımkürelerinin derininde yer alan, hareketin başlatılması, düzenlenmesi ve motor öğrenmede görev alan gri cevher kitleleridir.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Nucleus caudatus, putamen, globus pallidus (putamen + globus pallidus = nucleus lentiformis; nucleus caudatus + putamen = corpus striatum); işlevsel olarak nucleus subthalamicus ve substantia nigra"
+    ],
+    [
+     "Yolaklar",
+     "Direkt yol hareketi kolaylaştırır, indirekt yol baskılar; substantia nigra'dan gelen dopamin dengeyi sağlar"
+    ],
+    [
+     "Kapsül",
+     "Capsula interna nucleus caudatus ve talamus ile nucleus lentiformis arasından geçer"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Parkinson hastalığı substantia nigra dopaminerjik nöronlarının kaybıyla oluşur: istirahat tremoru, rijidite, bradikinezi.",
+    "Huntington hastalığında nucleus caudatus atrofisi kore (istemsiz dans benzeri hareketler) ve demansa yol açar.",
+    "Wilson hastalığında bakır birikimi özellikle putamen'i etkiler."
+   ],
+   "related": [
+    "thalamus",
+    "mesencephalon",
+    "cerebrum"
+   ],
+   "models": [
+    "Corpus striatum",
+    "Caudate nucleus",
+    "Putamen",
+    "Globus pallidus",
+    "Lentiform nucleus",
+    "Dorsal striatum"
+   ],
+   "aliases": [
+    "bazal ganglionlar",
+    "striatum",
+    "putamen",
+    "nucleus caudatus"
+   ]
+  },
+  {
+   "id": "thalamus",
+   "tr": "Talamus",
+   "la": "Thalamus",
+   "en": "Thalamus",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Ara beynin (diencephalon) en büyük bölümünü oluşturan, üçüncü karıncığın iki yanındaki yumurta biçimli gri cevher kitlesidir. Koku dışındaki tüm duyuların kortekse iletilmesinde ‘aktarma istasyonu’dur.",
+   "facts": [
+    [
+     "Konum",
+     "Diencephalon; ventriculus tertius'un yan duvarı"
+    ],
+    [
+     "Önemli çekirdekler",
+     "VPL (vücut duyusu), VPM (yüz duyusu ve tat), corpus geniculatum laterale (görme), corpus geniculatum mediale (işitme), VA/VL (motor – bazal çekirdek ve beyincik girdileri), ön çekirdekler (limbik), pulvinar"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri posterior ve a. communicans posterior dalları"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Talamik inme karşı tarafta tüm duyu kayıplarına ve sonrasında şiddetli yanıcı ağrıya (Dejerine–Roussy talamik ağrı sendromu) neden olabilir."
+   ],
+   "related": [
+    "hypothalamus",
+    "nuclei-basales",
+    "gyrus-postcentralis",
+    "ventriculi-cerebri"
+   ],
+   "models": [
+    "Thalamus",
+    "Lateral geniculate body",
+    "Medial geniculate body",
+    "Habenula",
+    "Stria medullaris thalami"
+   ],
+   "aliases": [
+    "talamus",
+    "diensefalon",
+    "ara beyin"
+   ]
+  },
+  {
+   "id": "hypothalamus",
+   "tr": "Hipotalamus",
+   "la": "Hypothalamus",
+   "en": "Hypothalamus",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Talamusun altında, üçüncü karıncığın tabanını oluşturan küçük ama yaşamsal ara beyin bölümüdür. Otonom sinir sistemi ile endokrin sistemin ana kontrol merkezidir.",
+   "facts": [
+    [
+     "Konum",
+     "Diencephalon; ventriculus tertius'un tabanı ve alt yan duvarları; altında hipofiz sapı (infundibulum)"
+    ],
+    [
+     "Bölümleri",
+     "Chiasma opticum, tuber cinereum, infundibulum, corpora mamillaria"
+    ],
+    [
+     "Çekirdekler ve işlevler",
+     "Supraoptik ve paraventriküler (ADH, oksitosin), suprakiazmatik (biyolojik saat), arkuat (salgılatıcı hormonlar, iştah), ventromedial (doyma), lateral (açlık), preoptik (ısı düzenleme)"
+    ],
+    [
+     "Hipofiz ilişkisi",
+     "Neurohypophysis'e sinir lifleriyle, adenohypophysis'e portal damar sistemiyle bağlanır"
+    ]
+   ],
+   "sections": [
+    [
+     "Homeostaz",
+     "Vücut ısısı, açlık-tokluk, susuzluk ve su dengesi, uyku-uyanıklık döngüsü, stres yanıtı, üreme davranışları ve otonom işlevlerin (kalp hızı, kan basıncı) düzenlenmesinde rol alır."
+    ]
+   ],
+   "clinical": [
+    "Supraoptik çekirdek veya hipofiz sapının hasarı santral diabetes insipidus'a (aşırı idrar ve susuzluk) yol açar.",
+    "Kraniyofaringiyom hipotalamusa bası yaparak obezite, uyku bozukluğu ve endokrin yetmezliğe neden olabilir."
+   ],
+   "related": [
+    "hypophysis",
+    "thalamus",
+    "systema-limbicum",
+    "n-opticus"
+   ],
+   "models": [
+    "Hypothalamus",
+    "Mamillary body",
+    "Optic chiasm"
+   ],
+   "aliases": [
+    "hipotalamus"
+   ]
+  },
+  {
+   "id": "ventriculi-cerebri",
+   "tr": "Beyin karıncıkları ve BOS",
+   "la": "Ventriculi encephali",
+   "en": "Ventricles of the brain",
+   "group": "Beyin",
+   "region": "head",
+   "summary": "Beyin içinde beyin omurilik sıvısı (BOS) ile dolu, birbiriyle bağlantılı dört boşluktur: iki yan karıncık, üçüncü ve dördüncü karıncık.",
+   "facts": [
+    [
+     "Karıncıklar",
+     "Ventriculi laterales (her yarımkürede, ön-arka-alt boynuzlu), ventriculus tertius (diencephalon), ventriculus quartus (pons-medulla ile beyincik arası)"
+    ],
+    [
+     "Bağlantılar",
+     "Foramen interventriculare (Monro): lateral → 3.; aqueductus mesencephali (Sylvius): 3. → 4.; apertura mediana (Magendie) ve aperturae laterales (Luschka): 4. → subaraknoid aralık"
+    ],
+    [
+     "BOS yapımı",
+     "Plexus choroideus; günde yaklaşık 500 mL üretilir, toplam hacim ~150 mL"
+    ],
+    [
+     "BOS emilimi",
+     "Granulationes arachnoideae aracılığıyla sinus sagittalis superior'a"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "BOS akımının engellenmesi (ör. aquaeductus stenozu) obstrüktif hidrosefaliye neden olur; tedavide ventriküloperitoneal şant takılabilir.",
+    "Lomber ponksiyonla alınan BOS menenjit ve subaraknoid kanama tanısında incelenir."
+   ],
+   "related": [
+    "thalamus",
+    "corpus-callosum",
+    "meninges",
+    "mesencephalon"
+   ],
+   "models": [
+    "Lateral ventricle",
+    "Third ventricle",
+    "Fourth ventricle",
+    "Aqueduct of midbrain",
+    "Choroid plexus",
+    "Septum pellucidum",
+    "Walls of lateral ventricle"
+   ],
+   "aliases": [
+    "ventrikül",
+    "BOS",
+    "beyin omurilik sıvısı",
+    "karıncık"
+   ]
+  },
+  {
+   "id": "mesencephalon",
+   "tr": "Orta beyin",
+   "la": "Mesencephalon",
+   "en": "Midbrain",
+   "group": "Beyin sapı ve beyincik",
+   "region": "head",
+   "summary": "Beyin sapının en üst bölümüdür; ara beyin ile pons arasında yer alır. Görme ve işitme refleksleri, göz hareketleri ve hareket kontrolünde görev alır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Tectum (colliculi superiores – görme refleksleri, colliculi inferiores – işitme), tegmentum (nucleus ruber, III. ve IV. sinir çekirdekleri), crura cerebri (kortikospinal lifler), substantia nigra"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "N. oculomotorius (III) – fossa interpeduncularis'ten; n. trochlearis (IV) – arka yüzden çıkan tek sinir"
+    ],
+    [
+     "Boşluk",
+     "Aqueductus mesencephali"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Weber sendromu: crus cerebri ve n. oculomotorius lezyonu – aynı tarafta III. sinir felci, karşı tarafta hemipleji.",
+    "Parinaud sendromu (pineal tümörlerinde): yukarı bakış felci."
+   ],
+   "related": [
+    "pons",
+    "nuclei-basales",
+    "n-oculomotorius",
+    "n-trochlearis"
+   ],
+   "models": [
+    "Midbrain",
+    "Superior colliculus",
+    "Inferior colliculus",
+    "Red nucleus",
+    "Cerebral peduncle",
+    "Base of peduncle"
+   ],
+   "aliases": [
+    "mezensefalon",
+    "orta beyin"
+   ]
+  },
+  {
+   "id": "pons",
+   "tr": "Köprü",
+   "la": "Pons",
+   "en": "Pons",
+   "group": "Beyin sapı ve beyincik",
+   "region": "head",
+   "summary": "Beyin sapının orta bölümüdür; önde enine liflerin oluşturduğu belirgin bir kabarıklık hâlinde, beyinciğin önünde yer alır. Beyin ile beyincik arasındaki bağlantıları sağlar ve solunum düzenlenmesine katılır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Pars basilaris (ön; pontin çekirdekler, kortikospinal lifler) ve tegmentum (arka)"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "N. trigeminus (V) – ön-yan yüzden; n. abducens (VI), n. facialis (VII) ve n. vestibulocochlearis (VIII) – pontomedüller oluktan"
+    ],
+    [
+     "Bağlantı",
+     "Pedunculus cerebellaris medius ile beyinciğe"
+    ],
+    [
+     "Kanlanma",
+     "A. basilaris'in pontin dalları"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pons tabanındaki büyük lezyonlar ‘kilitli kalma’ (locked-in) sendromuna yol açar: hasta bilinçlidir ancak yalnızca dikey göz hareketleri ve göz kırpma ile iletişim kurabilir.",
+    "Hızlı sodyum düzeltilmesi santral pontin miyelinolize neden olabilir."
+   ],
+   "related": [
+    "mesencephalon",
+    "medulla-oblongata",
+    "cerebellum",
+    "n-trigeminus",
+    "n-facialis"
+   ],
+   "models": [
+    "Pons",
+    "Tegmentum of pons"
+   ],
+   "aliases": [
+    "pons",
+    "köprü"
+   ]
+  },
+  {
+   "id": "medulla-oblongata",
+   "tr": "Soğancık",
+   "la": "Medulla oblongata",
+   "en": "Medulla oblongata",
+   "group": "Beyin sapı ve beyincik",
+   "region": "head",
+   "summary": "Beyin sapının en alt bölümüdür; foramen magnum düzeyinde omuriliğe devam eder. Solunum, kalp atımı ve kan basıncı gibi yaşamsal merkezleri içerir.",
+   "facts": [
+    [
+     "Dış yapılar",
+     "Pyramides (kortikospinal lifler – alt kısmında çaprazlaşır: decussatio pyramidum), olivae, tuberculum gracile ve cuneatum"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "N. glossopharyngeus (IX), n. vagus (X), n. accessorius (XI) – yan oluk; n. hypoglossus (XII) – piramit ile olive arasından"
+    ],
+    [
+     "Yaşamsal merkezler",
+     "Solunum merkezi, kardiyovasküler merkez, kusma, öksürme, yutma refleks merkezleri"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Wallenberg (lateral medüller) sendromu: a. vertebralis/PICA tıkanması – aynı tarafta yüzde, karşı tarafta vücutta ağrı-ısı kaybı, disfaji, ses kısıklığı, Horner sendromu, ataksi.",
+    "Kafa içi basınç artışında beyincik tonsillerinin foramen magnum'a fıtıklaşması medulla'yı sıkıştırarak solunum durmasına yol açar."
+   ],
+   "related": [
+    "pons",
+    "medulla-spinalis",
+    "n-vagus",
+    "n-hypoglossus",
+    "os-occipitale"
+   ],
+   "models": [
+    "Medulla oblongata",
+    "Pyramid of medulla oblongata",
+    "Olive"
+   ],
+   "aliases": [
+    "medulla",
+    "bulbus"
+   ]
+  },
+  {
+   "id": "cerebellum",
+   "tr": "Beyincik",
+   "la": "Cerebellum",
+   "en": "Cerebellum",
+   "group": "Beyin sapı ve beyincik",
+   "region": "head",
+   "summary": "Arka kafa çukurunda, beyin sapının arkasında yer alan ve ‘küçük beyin’ olarak da bilinen yapıdır. Hareketlerin koordinasyonu, denge, kas tonusu ve motor öğrenmeden sorumludur.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Orta hatta vermis, iki yanda hemispheria cerebelli; lobus anterior, posterior ve flocculonodularis"
+    ],
+    [
+     "Bağlantılar",
+     "Pedunculi cerebellares superior (mezensefalona), medius (ponsa), inferior (medullaya)"
+    ],
+    [
+     "Derin çekirdekler",
+     "Nucleus dentatus, emboliformis, globosus, fastigii"
+    ],
+    [
+     "İşlevsel bölgeler",
+     "Vestibuloserebellum (denge, göz hareketleri), spinoserebellum (gövde ve ekstremite koordinasyonu), serebroserebellum (hareket planlama)"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebelli superior, a. inferior anterior cerebelli (AICA), a. inferior posterior cerebelli (PICA)"
+    ]
+   ],
+   "sections": [
+    [
+     "Yan etki kuralı",
+     "Beyincik hemisferleri vücudun aynı tarafını kontrol eder; tek taraflı lezyon aynı tarafta koordinasyon bozukluğu yapar."
+    ]
+   ],
+   "clinical": [
+    "Serebellar lezyonlarda ataksi, dismetri (parmak-burun testinde hedefi bulamama), disdiadokokinezi, niyet tremoru, nistagmus ve dizartri (kesik kesik konuşma) görülür.",
+    "Alkol öncelikle vermisi etkileyerek geniş tabanlı yürüyüşe (gövde ataksisi) neden olur."
+   ],
+   "related": [
+    "pons",
+    "medulla-oblongata",
+    "mesencephalon"
+   ],
+   "models": [
+    "Cerebellum"
+   ],
+   "aliases": [
+    "serebellum",
+    "beyincik"
+   ]
+  },
+  {
+   "id": "medulla-spinalis",
+   "tr": "Omurilik",
+   "la": "Medulla spinalis",
+   "en": "Spinal cord",
+   "group": "Omurilik ve zarlar",
+   "region": "back",
+   "summary": "Foramen magnum'dan başlayıp erişkinde L1–L2 omuru hizasında conus medullaris ile sonlanan, omurga kanalı içindeki silindir biçimli merkezi sinir sistemi bölümüdür. 31 çift spinal siniri verir.",
+   "facts": [
+    [
+     "Uzunluk",
+     "Erişkinde 42–45 cm"
+    ],
+    [
+     "Segmentler",
+     "8 servikal, 12 torakal, 5 lomber, 5 sakral, 1 koksigeal"
+    ],
+    [
+     "Kalınlaşmalar",
+     "Intumescentia cervicalis (C4–T1; kol sinirleri) ve intumescentia lumbosacralis (L2–S3; bacak sinirleri)"
+    ],
+    [
+     "İç yapı",
+     "Ortada H şeklinde gri cevher (ön boynuz – motor, arka boynuz – duyusal, yan boynuz – sempatik T1–L2), çevresinde beyaz cevher kordonları (funiculi)"
+    ],
+    [
+     "Kanlanma",
+     "A. spinalis anterior (ön 2/3), aa. spinales posteriores (arka 1/3), segmental arterler (a. radicularis magna – Adamkiewicz)"
+    ]
+   ],
+   "sections": [
+    [
+     "Başlıca yolaklar",
+     "Arka kordon (fasciculus gracilis ve cuneatus): ince dokunma ve pozisyon duyusu, medullada çaprazlaşır. Tractus spinothalamicus: ağrı ve ısı, omurilikte girdiği seviyede çaprazlaşır. Tractus corticospinalis lateralis: istemli hareket, medullada çaprazlaşmıştır."
+    ]
+   ],
+   "clinical": [
+    "Brown-Séquard sendromu (yarım kesi): lezyon tarafında motor ve pozisyon duyusu kaybı, karşı tarafta ağrı-ısı kaybı.",
+    "Ön spinal arter sendromunda arka kordon duyuları korunur.",
+    "Omurilik yaralanmasının seviyesi tetrapleji (servikal) veya parapleji (torakal ve altı) gelişip gelişmeyeceğini belirler."
+   ],
+   "related": [
+    "cauda-equina",
+    "meninges",
+    "vertebrae-cervicales",
+    "medulla-oblongata",
+    "plexus-brachialis"
+   ],
+   "models": [
+    "Spinal cord"
+   ],
+   "aliases": [
+    "omurilik",
+    "spinal kord"
+   ]
+  },
+  {
+   "id": "cauda-equina",
+   "tr": "At kuyruğu",
+   "la": "Cauda equina",
+   "en": "Cauda equina",
+   "group": "Omurilik ve zarlar",
+   "region": "back",
+   "summary": "Omuriliğin conus medullaris ile sonlandığı yerin altında, omurga kanalı içinde aşağı doğru uzanan lomber, sakral ve koksigeal sinir köklerinin oluşturduğu demettir.",
+   "facts": [
+    [
+     "Konum",
+     "L2 omurundan sakruma kadar, lomber sisterna içinde"
+    ],
+    [
+     "İçerik",
+     "L2–Co1 spinal sinir kökleri ve filum terminale"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kauda equina sendromu (ör. büyük santral disk hernisi): eyer tarzı uyuşukluk, idrar-gaita inkontinansı veya retansiyonu, bacaklarda güçsüzlük – acil cerrahi gerektirir.",
+    "Lomber ponksiyonda iğne kökleri iter, omuriliğe zarar vermez; bu yüzden L3–L4 / L4–L5 güvenlidir."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "vertebrae-lumbales",
+    "plexus-lumbalis",
+    "plexus-sacralis"
+   ],
+   "models": [
+    "Cauda equina"
+   ],
+   "aliases": [
+    "kauda"
+   ]
+  },
+  {
+   "id": "meninges",
+   "tr": "Beyin ve omurilik zarları",
+   "la": "Meninges",
+   "en": "Meninges",
+   "group": "Omurilik ve zarlar",
+   "region": "head",
+   "summary": "Beyin ve omuriliği saran üç koruyucu zardır: dıştan içe dura mater (sert zar), arachnoidea mater (örümceksi zar) ve pia mater (yumuşak zar).",
+   "facts": [
+    [
+     "Dura mater",
+     "Kalın, fibröz dış zar; kafatası içinde iki yapraklıdır ve aralarında venöz sinüsler bulunur. Uzantıları: falx cerebri, tentorium cerebelli, falx cerebelli, diaphragma sellae"
+    ],
+    [
+     "Arachnoidea mater",
+     "İnce, damarsız orta zar; altındaki subaraknoid aralıkta BOS dolaşır"
+    ],
+    [
+     "Pia mater",
+     "Beyin ve omurilik yüzeyine sıkıca yapışık, damarlı iç zar; omurilikte ligg. denticulata ve filum terminale'yi oluşturur"
+    ],
+    [
+     "Aralıklar",
+     "Epidural (kafatasında potansiyel, omurgada gerçek – yağ ve venler), subdural (potansiyel), subaraknoid (gerçek – BOS)"
+    ],
+    [
+     "İnnervasyon",
+     "Dura: n. trigeminus dalları (ön ve orta fossa), n. vagus ve üst servikal sinirler (arka fossa)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Epidural hematom: genellikle a. meningea media yırtığı; lentiform (bikonveks) görünüm, ‘lucid interval’.",
+    "Subdural hematom: köprü venlerin yırtılması; hilal biçimli, yaşlı ve alkoliklerde sık.",
+    "Subaraknoid kanama: çoğunlukla anevrizma rüptürü; ‘hayatımın en şiddetli baş ağrısı’.",
+    "Menenjitte ense sertliği, Kernig ve Brudzinski bulguları görülür."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "cerebrum",
+    "ventriculi-cerebri",
+    "sinus-durae-matris"
+   ],
+   "models": [
+    "Meninges",
+    "Dura",
+    "Cranial dura",
+    "Spinal dura",
+    "Falx cerebri",
+    "Tentorium cerebelli",
+    "Pia",
+    "Cranial pia",
+    "Leptomeninges"
+   ],
+   "aliases": [
+    "dura mater",
+    "araknoid",
+    "pia mater",
+    "meninks"
+   ]
+  },
+  {
+   "id": "tractus-spinales",
+   "tr": "Omurilik yolları",
+   "la": "Tractus medullae spinalis",
+   "en": "Spinal cord tracts",
+   "group": "Omurilik ve zarlar",
+   "region": "back",
+   "summary": "Omuriliğin beyaz cevherinde, beyin ile vücut arasında bilgi taşıyan çıkan (duyusal) ve inen (motor) sinir lifi demetleridir.",
+   "facts": [
+    [
+     "Çıkan yollar",
+     "Fasciculus gracilis ve cuneatus (dorsal kolon – ince dokunma, titreşim, pozisyon), tractus spinothalamicus lateralis ve anterior (ağrı, ısı, kaba dokunma), tractus spinocerebellaris anterior ve posterior (bilinç dışı propriyosepsiyon)"
+    ],
+    [
+     "İnen yollar",
+     "Tractus corticospinalis lateralis ve anterior (istemli hareket), tractus rubrospinalis, vestibulospinalis, reticulospinalis, tectospinalis (postür, refleks ve tonus)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Subakut kombine dejenerasyon (B12 eksikliği): dorsal kolonlar ve kortikospinal yollar etkilenir.",
+    "Siringomiyelide santral kanal genişleyerek çaprazlaşan spinotalamik lifleri bozar; pelerin tarzı ağrı-ısı kaybı olur."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "gyrus-precentralis",
+    "gyrus-postcentralis"
+   ],
+   "models": [
+    "Lateral corticospinal tract",
+    "Anterior corticospinal tract",
+    "Gracile fasciculus",
+    "Cuneate fasciculus",
+    "Lateral spinothalamic tract",
+    "Anterior spinothalamic tract",
+    "Anterior spinocerebellar tract",
+    "Posterior spinocerebellar tract",
+    "Rubrospinal tract",
+    "Tectospinal tract",
+    "Lateral vestibulospinal tract",
+    "Medial vestibulospinal tract"
+   ],
+   "aliases": [
+    "kortikospinal",
+    "spinotalamik",
+    "dorsal kolon"
+   ]
+  },
+  {
+   "id": "n-olfactorius",
+   "tr": "I. Koku siniri",
+   "la": "N. olfactorius (I)",
+   "en": "Olfactory nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Koku duyusunu taşıyan, beyin ön ucuna doğrudan bağlanan duyusal kranial sinirdir. Aslında burun boşluğu tavanındaki koku hücrelerinden çıkan ince liflerden (fila olfactoria) oluşur.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Regio olfactoria (burun boşluğu tavanı) mukozasındaki koku reseptör hücreleri"
+    ],
+    [
+     "Seyir",
+     "Lamina cribrosa'dan geçerek bulbus olfactorius'ta sonlanır; tractus olfactorius ile koku korteksine (uncus, amigdala çevresi) ulaşır"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Özel duyu: koku"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ön kafa tabanı kırıklarında lifler kopabilir ve koku kaybı (anosmi) olur.",
+    "Koku kaybı Parkinson ve Alzheimer hastalıklarının erken bulgusu olabilir; COVID-19 enfeksiyonunda da sık görülmüştür."
+   ],
+   "related": [
+    "os-ethmoidale",
+    "cavitas-nasi",
+    "organum-olfactus"
+   ],
+   "models": [
+    "Olfactory nerve (I)"
+   ],
+   "aliases": [
+    "olfaktör sinir",
+    "I. sinir"
+   ]
+  },
+  {
+   "id": "n-opticus",
+   "tr": "II. Görme siniri",
+   "la": "N. opticus (II)",
+   "en": "Optic nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Retinadan gelen görme bilgisini taşıyan duyusal sinirdir. Embriyolojik olarak beynin bir uzantısıdır; bu nedenle beyin zarlarıyla sarılıdır.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Retinanın ganglion hücrelerinin aksonları (discus nervi optici)"
+    ],
+    [
+     "Seyir",
+     "Canalis opticus'tan kafa içine girer, hipofizin üstünde chiasma opticum'da burun tarafı lifleri çaprazlaşır; tractus opticus ile corpus geniculatum laterale'ye, oradan radiatio optica ile görme korteksine gider"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Özel duyu: görme; pupilla ışık refleksinin afferent kolu"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Optik kiazma basısı (hipofiz adenomu) bitemporal hemianopsiye yol açar.",
+    "Kafa içi basınç artışında optik disk ödemi (papil ödemi) görülür.",
+    "Optik nörit multipl sklerozun ilk bulgusu olabilir."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "lobus-occipitalis",
+    "hypothalamus",
+    "hypophysis"
+   ],
+   "models": [
+    "Optic nerve (II)",
+    "Optic chiasm",
+    "Optic tract"
+   ],
+   "aliases": [
+    "optik sinir",
+    "II. sinir",
+    "kiazma"
+   ]
+  },
+  {
+   "id": "n-oculomotorius",
+   "tr": "III. Göz hareket siniri",
+   "la": "N. oculomotorius (III)",
+   "en": "Oculomotor nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Göz hareketlerinin çoğunu sağlayan, ayrıca göz bebeğini daraltan ve göz merceğinin uyumunu (akomodasyon) yöneten motor ve parasempatik kranial sinirdir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Mesencephalon (fossa interpeduncularis); çekirdekleri nucleus n. oculomotorii ve nucleus accessorius (Edinger–Westphal)"
+    ],
+    [
+     "Seyir",
+     "Sinus cavernosus'un yan duvarından geçer, fissura orbitalis superior'dan göz çukuruna girer"
+    ],
+    [
+     "Motor (efferent)",
+     "M. rectus superior, inferior, medialis, m. obliquus inferior, m. levator palpebrae superioris; parasempatik: ganglion ciliare aracılığıyla m. sphincter pupillae ve m. ciliaris"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tam felçte göz aşağı-dışa bakar, pitoz ve fiks dilate pupil görülür.",
+    "Pupil liflerini içeren dış kısım, a. communicans posterior anevrizması basısında erken etkilenir (pupil tutulumlu III. sinir felci acildir); diyabetik iskemide pupil genellikle korunur."
+   ],
+   "related": [
+    "mm-bulbi",
+    "mesencephalon",
+    "bulbus-oculi",
+    "n-trochlearis",
+    "n-abducens"
+   ],
+   "models": [
+    "Oculomotor nerve (III)",
+    "Oculomotor complex"
+   ],
+   "aliases": [
+    "okülomotor",
+    "III. sinir"
+   ]
+  },
+  {
+   "id": "n-trochlearis",
+   "tr": "IV. Makara siniri",
+   "la": "N. trochlearis (IV)",
+   "en": "Trochlear nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Yalnızca üst eğik göz kasını innerve eden, en ince ve kafa içinde en uzun seyirli kranial sinirdir. Beyin sapının arka yüzünden çıkan ve tamamen çaprazlaşan tek sinirdir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Mesencephalon'un arka yüzü (colliculus inferior'un altı)"
+    ],
+    [
+     "Seyir",
+     "Beyin sapının etrafından öne dolanır, sinus cavernosus'un yan duvarından ve fissura orbitalis superior'dan geçer"
+    ],
+    [
+     "Motor (efferent)",
+     "M. obliquus superior"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Felcinde aşağı ve içe bakışta çift görme olur; hasta merdiven inerken zorlanır ve başını sağlam tarafa eğer.",
+    "Uzun seyri nedeniyle kafa travmalarında kolay zedelenir."
+   ],
+   "related": [
+    "mm-bulbi",
+    "n-oculomotorius",
+    "mesencephalon"
+   ],
+   "models": [
+    "Trochlear nerve (IV)"
+   ],
+   "aliases": [
+    "troklear",
+    "IV. sinir"
+   ]
+  },
+  {
+   "id": "n-trigeminus",
+   "tr": "V. Üçüz sinir",
+   "la": "N. trigeminus (V)",
+   "en": "Trigeminal nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Yüzün başlıca duyu siniri ve çiğneme kaslarının motor siniridir. En büyük kranial sinirdir; ganglion trigeminale'den üç dala ayrılır: oftalmik (V1), maksiller (V2) ve mandibüler (V3).",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Pons'un ön-yan yüzü (büyük duyusal ve küçük motor kök)"
+    ],
+    [
+     "Seyir",
+     "Ganglion trigeminale (Gasser) – V1 fissura orbitalis superior'dan, V2 foramen rotundum'dan, V3 foramen ovale'den çıkar"
+    ],
+    [
+     "Motor (efferent)",
+     "V3: çiğneme kasları (m. masseter, m. temporalis, mm. pterygoidei), m. mylohyoideus, m. digastricus ön karın, m. tensor tympani, m. tensor veli palatini"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Yüz derisi, göz (kornea), burun ve ağız mukozası, dişler, dilin ön 2/3'ünün genel duyusu, dura mater"
+    ]
+   ],
+   "sections": [
+    [
+     "Dalların duyu alanları",
+     "V1: alın, üst göz kapağı, burun sırtı, kornea; V2: alt göz kapağı, yanak, üst dudak, üst dişler, damak; V3: alt dudak, çene, şakağın bir kısmı, alt dişler, dilin ön 2/3'ü (genel duyu)."
+    ]
+   ],
+   "clinical": [
+    "Trigeminal nevralji: yüzde, genellikle V2–V3 alanında, saniyeler süren elektrik çarpması tarzında şiddetli ağrı atakları.",
+    "Zona (herpes zoster oftalmikus) V1 alanında döküntü yapar; burun ucu tutulumu (Hutchinson bulgusu) göz tutulumunu düşündürür.",
+    "Korneal refleksin afferent kolu V1'dir."
+   ],
+   "related": [
+    "m-masseter",
+    "m-temporalis",
+    "mm-pterygoidei",
+    "pons",
+    "dentes"
+   ],
+   "models": [
+    "Trigeminal nerve (V)",
+    "Ophthalmic nerve",
+    "Maxillary nerve",
+    "Mandibular nerve"
+   ],
+   "aliases": [
+    "trigeminal",
+    "V. sinir",
+    "oftalmik",
+    "maksiller",
+    "mandibüler"
+   ]
+  },
+  {
+   "id": "n-abducens",
+   "tr": "VI. Uzaklaştırıcı sinir",
+   "la": "N. abducens (VI)",
+   "en": "Abducens nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Gözü dışa çeviren m. rectus lateralis'i innerve eden motor kranial sinirdir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Pons ile medulla arasındaki oluk"
+    ],
+    [
+     "Seyir",
+     "Clivus boyunca uzun bir yol izler, sinus cavernosus'un içinden (a. carotis interna'nın yanından) geçer, fissura orbitalis superior'dan girer"
+    ],
+    [
+     "Motor (efferent)",
+     "M. rectus lateralis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kafa içi basınç artışında clivus üzerinde gerilerek ‘yanlış lokalize ettirici’ felç yapabilir.",
+    "Felcinde göz içe kayar ve dışa bakışta yatay çift görme olur."
+   ],
+   "related": [
+    "mm-bulbi",
+    "pons",
+    "n-oculomotorius"
+   ],
+   "models": [
+    "Abducens nerve (VI)"
+   ],
+   "aliases": [
+    "abdusens",
+    "VI. sinir"
+   ]
+  },
+  {
+   "id": "n-facialis",
+   "tr": "VII. Yüz siniri",
+   "la": "N. facialis (VII)",
+   "en": "Facial nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Yüz ifadesi (mimik) kaslarının motor siniridir; ayrıca dilin ön 2/3'ünün tat duyusunu taşır ve gözyaşı ile tükürük bezlerine parasempatik lifler verir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Pontomedüller oluk (motor kök ve n. intermedius)"
+    ],
+    [
+     "Seyir",
+     "Meatus acusticus internus → canalis facialis (temporal kemik; ganglion geniculi) → foramen stylomastoideum → parotis bezi içinde beş uç dala ayrılır"
+    ],
+    [
+     "Motor (efferent)",
+     "Mimik kasları, m. stapedius, m. digastricus arka karın, m. stylohyoideus; parasempatik: gözyaşı bezi (n. petrosus major), submandibular ve sublingual bezler (chorda tympani)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Dilin ön 2/3'ünden tat (chorda tympani), dış kulağın bir kısmının derisi"
+    ]
+   ],
+   "sections": [
+    [
+     "Uç dalları",
+     "Parotis içinde: r. temporalis, r. zygomaticus, r. buccalis, r. marginalis mandibulae ve r. colli (‘Ten Zebras Bit My Cat’)."
+    ]
+   ],
+   "clinical": [
+    "Bell paralizisi (periferik): yüzün tüm yarısında felç – alın kırışmaz, göz kapanmaz, ağız köşesi düşer; lezyon düzeyine göre tat kaybı ve hiperakuzi eşlik edebilir.",
+    "Santral (üst motor nöron) lezyonda alın korunur, çünkü alın kaslarının çekirdek bölümü iki yarımküreden lif alır.",
+    "Parotis tümörü cerrahisinde sinir dalları korunmalıdır."
+   ],
+   "related": [
+    "m-occipitofrontalis",
+    "m-orbicularis-oculi",
+    "glandula-parotidea",
+    "ossicula-auditus",
+    "pons"
+   ],
+   "models": [
+    "Facial nerve (VII)",
+    "Chorda tympani"
+   ],
+   "aliases": [
+    "fasiyal sinir",
+    "VII. sinir",
+    "yüz felci"
+   ]
+  },
+  {
+   "id": "n-vestibulocochlearis",
+   "tr": "VIII. İşitme-denge siniri",
+   "la": "N. vestibulocochlearis (VIII)",
+   "en": "Vestibulocochlear nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "İç kulaktan işitme ve denge bilgisini beyin sapına taşıyan duyusal kranial sinirdir; koklear ve vestibüler bölümlerden oluşur.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Pontomedüller oluk (cerebellopontin köşe)"
+    ],
+    [
+     "Seyir",
+     "Meatus acusticus internus içinde n. facialis ile birlikte seyreder; iç kulakta ganglion spirale (koklear) ve ganglion vestibulare'ye ulaşır"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Özel duyu: işitme (cochlea) ve denge (utriculus, sacculus, semisirküler kanallar)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Vestibüler schwannom (akustik nörinom) cerebellopontin köşede tek taraflı işitme kaybı, kulak çınlaması ve dengesizlikle başlar; büyüdükçe V. ve VII. sinirleri etkiler.",
+    "Vestibüler nörit ani başlayan şiddetli baş dönmesine neden olur."
+   ],
+   "related": [
+    "auris-interna",
+    "pons",
+    "n-facialis"
+   ],
+   "models": [
+    "Vestibulocochlear nerve (VIII)",
+    "Cochlear nerve",
+    "Vestibular nerve"
+   ],
+   "aliases": [
+    "akustik sinir",
+    "VIII. sinir",
+    "koklear sinir"
+   ]
+  },
+  {
+   "id": "n-glossopharyngeus",
+   "tr": "IX. Dil-yutak siniri",
+   "la": "N. glossopharyngeus (IX)",
+   "en": "Glossopharyngeal nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Dilin arka 1/3'ünün tat ve genel duyusunu, yutağın duyusunu ve parotis bezinin parasempatik uyarısını sağlayan karma kranial sinirdir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Medulla oblongata'nın yan oluğu"
+    ],
+    [
+     "Seyir",
+     "Foramen jugulare'den çıkar, m. stylopharyngeus boyunca aşağı-öne seyrederek dil köküne ulaşır"
+    ],
+    [
+     "Motor (efferent)",
+     "M. stylopharyngeus; parasempatik: ganglion oticum aracılığıyla glandula parotidea"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Dilin arka 1/3'ünden tat ve genel duyu, orofarinks, tonsiller, orta kulak, sinus caroticus (baroreseptör) ve glomus caroticum (kemoreseptör)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Öğürme refleksinin afferent kolunu oluşturur (efferent: n. vagus).",
+    "Glossofaringeal nevraljide yutkunmayla tetiklenen boğaz ve kulak ağrısı olur."
+   ],
+   "related": [
+    "n-vagus",
+    "lingua",
+    "pharynx",
+    "glandula-parotidea"
+   ],
+   "models": [
+    "Glossopharyngeal nerve (IX)"
+   ],
+   "aliases": [
+    "glossofaringeal",
+    "IX. sinir"
+   ]
+  },
+  {
+   "id": "n-vagus",
+   "tr": "X. Gezgin sinir",
+   "la": "N. vagus (X)",
+   "en": "Vagus nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Boyun, göğüs ve karın organlarının büyük kısmına parasempatik lifler veren, en geniş dağılımlı kranial sinirdir. Ayrıca yutak ve gırtlak kaslarını innerve eder.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Medulla oblongata'nın yan oluğu (nucleus ambiguus, nucleus dorsalis n. vagi, nucleus tractus solitarii)"
+    ],
+    [
+     "Seyir",
+     "Foramen jugulare'den çıkar; boyunda a. carotis ve v. jugularis interna ile birlikte karotis kılıfında iner; göğüste plexus oesophageus'u oluşturur ve hiatus oesophageus'tan karına geçer (truncus vagalis anterior ve posterior)"
+    ],
+    [
+     "Motor (efferent)",
+     "Yutak ve damak kasları (m. tensor veli palatini hariç), tüm gırtlak kasları (n. laryngeus recurrens ve superior); parasempatik: kalp, akciğerler ve colon transversum'un 2/3'üne kadar sindirim kanalı"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Gırtlak ve yutağın alt kısmı, dış kulak yolunun bir kısmı, göğüs ve karın organlarından visseral duyu; epiglot çevresinden tat"
+    ]
+   ],
+   "sections": [
+    [
+     "N. laryngeus recurrens",
+     "Sağda a. subclavia'nın, solda arcus aortae'nin altından dolanarak trakea-özofagus oluğunda yukarı çıkar ve m. cricothyroideus dışındaki tüm gırtlak kaslarını innerve eder."
+    ]
+   ],
+   "clinical": [
+    "N. laryngeus recurrens hasarı (tiroidektomi, aort anevrizması, akciğer tümörü) ses kısıklığına; iki taraflı hasar solunum sıkıntısına yol açar.",
+    "Vagus lezyonunda yumuşak damak sağlam tarafa çekilir ve uvula sağlam tarafa sapar.",
+    "Vazovagal senkop, aşırı vagal aktivite sonucu bradikardi ve hipotansiyonla bayılmadır."
+   ],
+   "related": [
+    "medulla-oblongata",
+    "larynx",
+    "cor",
+    "oesophagus",
+    "truncus-sympathicus"
+   ],
+   "models": [
+    "Vagus nerve (X)"
+   ],
+   "aliases": [
+    "vagus",
+    "X. sinir",
+    "rekürren"
+   ]
+  },
+  {
+   "id": "n-accessorius",
+   "tr": "XI. Yardımcı sinir",
+   "la": "N. accessorius (XI)",
+   "en": "Accessory nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "M. sternocleidomastoideus ve m. trapezius'u innerve eden motor kranial sinirdir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Spinal kökleri C1–C5 omurilik segmentlerinin ön boynuzundan; foramen magnum'dan kafa içine girer"
+    ],
+    [
+     "Seyir",
+     "Foramen jugulare'den çıkar, m. sternocleidomastoideus'u delip boynun arka üçgenini çaprazlayarak m. trapezius'a ulaşır"
+    ],
+    [
+     "Motor (efferent)",
+     "M. sternocleidomastoideus, m. trapezius"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Arka üçgende yüzeyel seyrettiği için lenf nodu biyopsisinde zedelenebilir; omuz düşer ve omuz silkme zayıflar."
+   ],
+   "related": [
+    "m-sternocleidomastoideus",
+    "m-trapezius"
+   ],
+   "models": [
+    "Accessory nerve (XI)",
+    "Nucleus of accessory nerve"
+   ],
+   "aliases": [
+    "aksesuar sinir",
+    "XI. sinir"
+   ]
+  },
+  {
+   "id": "n-hypoglossus",
+   "tr": "XII. Dil altı siniri",
+   "la": "N. hypoglossus (XII)",
+   "en": "Hypoglossal nerve",
+   "group": "Kranial sinirler",
+   "region": "head",
+   "summary": "Dil kaslarının motor siniridir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Medulla oblongata (piramit ile olive arasındaki oluk)"
+    ],
+    [
+     "Seyir",
+     "Canalis nervi hypoglossi'den çıkar, a. carotis externa'yı çaprazlayarak m. hyoglossus'un dış yüzünden dile girer"
+    ],
+    [
+     "Motor (efferent)",
+     "Dilin tüm iç kasları ile m. genioglossus, m. hyoglossus ve m. styloglossus (m. palatoglossus hariç)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tek taraflı alt motor nöron lezyonunda dil dışarı çıkarılınca felçli tarafa sapar ve o tarafta atrofi-fasikülasyon görülür.",
+    "Karotis endarterektomisi sırasında zedelenebilir."
+   ],
+   "related": [
+    "mm-linguae",
+    "lingua",
+    "medulla-oblongata"
+   ],
+   "models": [
+    "Hypoglossal nerve (XII)",
+    "Nucleus of hypoglossal nerve"
+   ],
+   "aliases": [
+    "hipoglossal",
+    "XII. sinir"
+   ]
+  },
+  {
+   "id": "plexus-brachialis",
+   "tr": "Kol ağı (brakiyal pleksus)",
+   "la": "Plexus brachialis",
+   "en": "Brachial plexus",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "upperLimb",
+   "summary": "Kolun tüm motor ve duyusal innervasyonunu sağlayan, C5–T1 spinal sinirlerinin ön dallarından oluşan sinir ağıdır.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "C5, C6, C7, C8 ve T1 ön dalları (kökler)"
+    ],
+    [
+     "Seyir",
+     "Kökler → gövdeler (truncus superior, medius, inferior; skalen aralığında) → bölümler (ön/arka; clavicula arkasında) → kordlar (fasciculus lateralis, medialis, posterior; a. axillaris çevresinde) → uç dallar"
+    ],
+    [
+     "Motor (efferent)",
+     "Uç dallar: n. musculocutaneus, n. medianus, n. ulnaris, n. radialis, n. axillaris; ayrıca n. dorsalis scapulae, n. thoracicus longus, n. suprascapularis, nn. pectorales, nn. subscapulares, n. thoracodorsalis"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Kolun derisi (n. cutaneus brachii ve antebrachii medialis vb.)"
+    ]
+   ],
+   "sections": [
+    [
+     "Akılda tutma",
+     "Kökler–Gövdeler–Bölümler–Kordlar–Dallar: ‘Read That Damn Cadaver Book’. Lateral kord: n. musculocutaneus ve n. medianus'un lateral kökü; medial kord: n. ulnaris ve n. medianus'un medial kökü; posterior kord: n. axillaris ve n. radialis."
+    ]
+   ],
+   "clinical": [
+    "Erb–Duchenne felci (üst gövde, C5–C6): baş-omuz açılmasıyla (doğum, motosiklet kazası) – kol yanda, iç rotasyonda, önkol pronasyonda (‘garson bahşişi’ pozisyonu).",
+    "Klumpke felci (alt gövde, C8–T1): kolun ani yukarı çekilmesiyle – pençe el, Horner sendromu eşlik edebilir.",
+    "Plexus brachialis blokları (interskalen, supraklaviküler, aksiller) kol cerrahisinde kullanılır."
+   ],
+   "related": [
+    "n-medianus",
+    "n-ulnaris",
+    "n-radialis",
+    "n-musculocutaneus",
+    "n-axillaris",
+    "mm-scaleni",
+    "a-axillaris"
+   ],
+   "models": [
+    "Brachial plexus",
+    "Long thoracic nerve",
+    "Dorsal scapular nerve",
+    "Suprascapular nerve",
+    "Thoracodorsal nerve",
+    "Lateral pectoral nerve",
+    "Medial pectoral nerve"
+   ],
+   "aliases": [
+    "brakiyal pleksus",
+    "pleksus"
+   ]
+  },
+  {
+   "id": "n-musculocutaneus",
+   "tr": "Kas-deri siniri",
+   "la": "N. musculocutaneus",
+   "en": "Musculocutaneous nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "upperLimb",
+   "summary": "Kolun ön bölmesindeki fleksör kasları innerve eden ve önkolun dış yüzünün derisine duyu veren sinirdir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus lateralis (C5–C7)"
+    ],
+    [
+     "Seyir",
+     "M. coracobrachialis'i deler, m. biceps ile m. brachialis arasında aşağı iner; dirsekte n. cutaneus antebrachii lateralis olarak devam eder"
+    ],
+    [
+     "Motor (efferent)",
+     "M. coracobrachialis, m. biceps brachii, m. brachialis"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Önkolun dış (lateral) yüzünün derisi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "İzole hasarı nadirdir; dirsek fleksiyonu ve supinasyon zayıflar, biseps refleksi kaybolur."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-biceps-brachii",
+    "m-brachialis"
+   ],
+   "models": [
+    "Musculocutaneous nerve",
+    "Lateral antebrachial cutaneous nerve"
+   ],
+   "aliases": [
+    "muskulokutanöz"
+   ]
+  },
+  {
+   "id": "n-axillaris",
+   "tr": "Koltuk altı siniri",
+   "la": "N. axillaris",
+   "en": "Axillary nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "upperLimb",
+   "summary": "Deltoid ve teres minor kaslarını innerve eden, omzun dış yüzüne duyu veren sinirdir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus posterior (C5–C6)"
+    ],
+    [
+     "Seyir",
+     "Dörtgen aralıktan (spatium quadrangulare) a. circumflexa humeri posterior ile birlikte geçer ve humerusun collum chirurgicum'unu sarar"
+    ],
+    [
+     "Motor (efferent)",
+     "M. deltoideus, m. teres minor"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Omzun dış yüzünün derisi (n. cutaneus brachii lateralis superior – ‘rütbe yaması’ alanı)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Humerus collum chirurgicum kırığı ve omuz çıkığında zedelenir: kolun abdüksiyonu zayıflar, deltoid atrofisi ve omuz dış yüzünde his kaybı olur."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-deltoideus",
+    "m-teres-minor",
+    "humerus"
+   ],
+   "models": [
+    "Axillary nerve"
+   ],
+   "aliases": [
+    "aksiller sinir"
+   ]
+  },
+  {
+   "id": "n-radialis",
+   "tr": "Döner kemik siniri",
+   "la": "N. radialis",
+   "en": "Radial nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "upperLimb",
+   "summary": "Kolun ve önkolun arka bölmesindeki tüm ekstansör kasları innerve eden, plexus brachialis'in en büyük dalıdır.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus posterior (C5–T1)"
+    ],
+    [
+     "Seyir",
+     "Humerusun arkasında sulcus nervi radialis'te a. profunda brachii ile spiral çizer; dirseğin önünde yüzeyel (duyusal) ve derin (motor; n. interosseus posterior) dallara ayrılır"
+    ],
+    [
+     "Motor (efferent)",
+     "M. triceps brachii, m. anconeus, m. brachioradialis, el bileği ve parmak ekstansörleri, m. supinator, başparmağın uzun kasları"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Kolun ve önkolun arka yüzü, elin sırtının dış (radial) yarısı (ilk dorsal aralık)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Humerus gövde kırığı veya kolun uzun süre bir kenara bastırılması (‘Cumartesi gecesi felci’) düşük ele (bilek düşüklüğü) yol açar.",
+    "N. interosseus posterior hasarında parmak düşüklüğü olur, his kaybı olmaz.",
+    "Koltuk değneğinin yanlış kullanımı koltuk altında sinire bası yapabilir."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-triceps-brachii",
+    "humerus",
+    "m-extensor-digitorum",
+    "m-supinator"
+   ],
+   "models": [
+    "Radial nerve"
+   ],
+   "aliases": [
+    "radyal sinir"
+   ]
+  },
+  {
+   "id": "n-medianus",
+   "tr": "Orta sinir",
+   "la": "N. medianus",
+   "en": "Median nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "upperLimb",
+   "summary": "Önkolun fleksör kaslarının çoğunu ve elin tenar kaslarını innerve eden, karpal tünelden geçen tek sinirdir. ‘Elin göz siniri’ olarak da anılır, çünkü ince parmak hareketleri ve parmak ucu duyusu için kritiktir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus lateralis ve medialis'ten gelen iki kök (C5–T1)"
+    ],
+    [
+     "Seyir",
+     "Kolda a. brachialis'in yanında iner, kübital fossada a. brachialis'in iç tarafındadır; m. pronator teres'in iki başı arasından geçer, FDS ile FDP arasında iner, karpal tünelden ele girer"
+    ],
+    [
+     "Motor (efferent)",
+     "Önkol fleksörleri (FCU ve FDP'nin iç yarısı hariç), m. pronator teres ve quadratus; elde ‘LOAF’ kasları: 1.–2. lumbrikaller, opponens pollicis, abductor pollicis brevis, flexor pollicis brevis"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Avuç içinin dış yarısı, başparmak, işaret, orta parmak ve yüzük parmağının dış yarısının palmar yüzü ve uç kısımlarının sırtı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Karpal tünel sendromu en sık tuzak nöropatisidir: geceleri artan uyuşma, Tinel ve Phalen testleri pozitif, ileri evrede tenar atrofi.",
+    "Dirsek üstü lezyonda ‘vaiz eli’ (işaret ve orta parmak bükülemez) görülür.",
+    "Bilekteki kesilerde (intihar girişimi) yüzeyel seyrettiği için zedelenebilir."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "ossa-carpi",
+    "mm-thenares",
+    "m-flexor-digitorum-superficialis",
+    "m-pronator-teres"
+   ],
+   "models": [
+    "Median nerve",
+    "Anterior interosseous nerve of forearm"
+   ],
+   "aliases": [
+    "median sinir",
+    "karpal tünel"
+   ]
+  },
+  {
+   "id": "n-ulnaris",
+   "tr": "Dirsek siniri",
+   "la": "N. ulnaris",
+   "en": "Ulnar nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "upperLimb",
+   "summary": "Elin intrinsik kaslarının çoğunu innerve eden ve elin iç (serçe parmak) tarafına duyu veren sinirdir. Dirsekte deri altında seyrettiği için ‘komik kemik’ hissine neden olur.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus medialis (C8–T1)"
+    ],
+    [
+     "Seyir",
+     "Kolun iç tarafında iner, epicondylus medialis'in arkasındaki oluktan (sulcus nervi ulnaris) geçer, FCU'nun iki başı arasından önkola girer, el bileğinde Guyon kanalından ele ulaşır"
+    ],
+    [
+     "Motor (efferent)",
+     "M. flexor carpi ulnaris, FDP'nin iç yarısı; elde hipotenar kaslar, 3.–4. lumbrikaller, tüm interosseöz kaslar, m. adductor pollicis, FPB derin başı"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Elin iç (ulnar) tarafı: serçe parmak ve yüzük parmağının iç yarısı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dirsekte (kübital tünel) veya el bileğinde (Guyon kanalı) sıkışabilir.",
+    "Hasarında pençe el (4.–5. parmaklar), interosseöz atrofi ve Froment bulgusu görülür.",
+    "Medial epikondil kırıklarında zedelenebilir."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-flexor-carpi-ulnaris",
+    "mm-interossei-manus",
+    "mm-hypothenares",
+    "os-pisiforme"
+   ],
+   "models": [
+    "Ulnar nerve"
+   ],
+   "aliases": [
+    "ulnar sinir",
+    "komik kemik"
+   ]
+  },
+  {
+   "id": "n-phrenicus",
+   "tr": "Frenik sinir",
+   "la": "N. phrenicus",
+   "en": "Phrenic nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "thorax",
+   "summary": "Diyaframın tek motor siniridir. Boyundan göğse inerek diyaframa ulaşır; perikard, mediastinal plevra ve diyafram periton/plevrasından duyu taşır.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus cervicalis – C3, C4, C5 (esas olarak C4)"
+    ],
+    [
+     "Seyir",
+     "M. scalenus anterior'un önünde aşağı iner, a. ve v. subclavia arasından göğse girer, perikardın yan yüzünde akciğer kökünün önünden geçerek diyaframa ulaşır"
+    ],
+    [
+     "Motor (efferent)",
+     "Diaphragma"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Perikard, mediastinal ve diyafragmatik plevra, diyafragmatik periton (merkez kısım)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Diyafram altı irritasyon (safra kesesi, dalak) C3–C5 dermatomlarına, yani omuza yansıyan ağrı yapar.",
+    "Hasarında aynı taraf diyafram yükselir ve paradoks hareket eder."
+   ],
+   "related": [
+    "diaphragma",
+    "mm-scaleni",
+    "cor"
+   ],
+   "models": [],
+   "aliases": [
+    "frenik"
+   ]
+  },
+  {
+   "id": "n-intercostales",
+   "tr": "Kaburgalar arası sinirler",
+   "la": "Nn. intercostales",
+   "en": "Intercostal nerves",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "thorax",
+   "summary": "T1–T11 spinal sinirlerinin ön dallarıdır; göğüs ve karın duvarının kaslarını ve derisini innerve ederler. T12'nin ön dalı n. subcostalis adını alır.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "T1–T11 spinal sinirlerinin ön dalları"
+    ],
+    [
+     "Seyir",
+     "Kaburgaların alt kenarındaki sulcus costae'de, interkostal arter ve venin altında (VAN) seyreder; alt 6 sinir karın duvarına geçer"
+    ],
+    [
+     "Motor (efferent)",
+     "Mm. intercostales, karın ön duvarı kasları (T7–T12), m. serratus posterior"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Göğüs ve karın duvarı derisi (dermatomlar: T4 meme başı, T10 göbek)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Zona (herpes zoster) bir interkostal sinir boyunca kuşak tarzı ağrılı döküntü yapar.",
+    "Kaburga kırıklarında interkostal sinir blokajı ağrıyı azaltır."
+   ],
+   "related": [
+    "mm-intercostales",
+    "costae",
+    "medulla-spinalis"
+   ],
+   "models": [
+    "Intercostal nerves",
+    "Thoracic nerves"
+   ],
+   "aliases": [
+    "interkostal sinir"
+   ]
+  },
+  {
+   "id": "plexus-lumbalis",
+   "tr": "Bel ağı (lomber pleksus)",
+   "la": "Plexus lumbalis",
+   "en": "Lumbar plexus",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "abdomen",
+   "summary": "Karın alt duvarı, kasık ve uyluğun ön-iç kısmını innerve eden, L1–L4 spinal sinirlerinin ön dallarından m. psoas major içinde oluşan sinir ağıdır.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "T12 (katkı), L1–L4 ön dalları"
+    ],
+    [
+     "Seyir",
+     "M. psoas major içinde oluşur; dalları kasın dış kenarından (iliohypogastricus, ilioinguinalis, cutaneus femoris lateralis, femoralis), ön yüzünden (genitofemoralis) ve iç kenarından (obturatorius) çıkar"
+    ],
+    [
+     "Motor (efferent)",
+     "N. femoralis (uyluk ön kasları), n. obturatorius (adduktorlar), n. iliohypogastricus ve ilioinguinalis (karın alt duvarı)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Kasık, genital bölge ön kısmı, uyluğun ön, iç ve dış yüzü"
+    ],
+    [
+     "Dalları",
+     "N. iliohypogastricus (L1), n. ilioinguinalis (L1), n. genitofemoralis (L1–L2), n. cutaneus femoris lateralis (L2–L3), n. femoralis (L2–L4), n. obturatorius (L2–L4)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kasık fıtığı ameliyatında n. ilioinguinalis zedelenirse kasık ve skrotum/labium majus'ta uyuşma olur.",
+    "Kremaster refleksi L1–L2 (n. genitofemoralis) segmentlerini test eder."
+   ],
+   "related": [
+    "n-femoralis",
+    "n-obturatorius",
+    "m-iliopsoas",
+    "plexus-sacralis"
+   ],
+   "models": [
+    "Lumbar plexus",
+    "Iliohypogastric nerve",
+    "Ilio-inguinal nerve",
+    "Genitofemoral nerve",
+    "Lateral femoral cutaneous nerve"
+   ],
+   "aliases": [
+    "lomber pleksus"
+   ]
+  },
+  {
+   "id": "n-femoralis",
+   "tr": "Uyluk siniri",
+   "la": "N. femoralis",
+   "en": "Femoral nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "lowerLimb",
+   "summary": "Plexus lumbalis'in en büyük dalıdır; uyluğun ön bölmesindeki kasları (quadriceps) innerve eder ve uyluk ile bacağın iç yüzüne duyu verir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus lumbalis (L2–L4 arka bölümleri)"
+    ],
+    [
+     "Seyir",
+     "M. psoas ile m. iliacus arasındaki oluktan iner, lig. inguinale'nin altından (lacuna musculorum) femoral üçgene girer ve hemen dallarına ayrılır; uzun duyusal dalı n. saphenus bacağın iç yüzünde v. saphena magna ile iner"
+    ],
+    [
+     "Motor (efferent)",
+     "M. iliacus, m. pectineus, m. sartorius, m. quadriceps femoris"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Uyluğun ön yüzü; n. saphenus ile bacak ve ayağın iç kenarı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hasarında diz ekstansiyonu kaybolur, patellar refleks alınamaz, uyluk önünde his kaybı olur.",
+    "Femoral sinir bloğu kalça ve diz cerrahisinde ağrı kontrolü için kullanılır."
+   ],
+   "related": [
+    "plexus-lumbalis",
+    "m-quadriceps-femoris",
+    "m-sartorius",
+    "lig-inguinale",
+    "a-femoralis"
+   ],
+   "models": [
+    "Femoral nerve",
+    "Saphenous nerve"
+   ],
+   "aliases": [
+    "femoral sinir",
+    "safen sinir"
+   ]
+  },
+  {
+   "id": "n-obturatorius",
+   "tr": "Obturator sinir",
+   "la": "N. obturatorius",
+   "en": "Obturator nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "lowerLimb",
+   "summary": "Uyluğun iç (adduktor) bölmesindeki kasları innerve eden sinirdir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus lumbalis (L2–L4 ön bölümleri)"
+    ],
+    [
+     "Seyir",
+     "M. psoas'ın iç kenarından çıkar, pelvisin yan duvarı boyunca iner, canalis obturatorius'tan uyluğa geçerek ön ve arka dallara ayrılır"
+    ],
+    [
+     "Motor (efferent)",
+     "Mm. adductores longus, brevis, magnus (adduktor bölüm), m. gracilis, m. obturatorius externus"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Uyluğun iç yüzünün orta kısmı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pelvis cerrahisi veya obturator herni sinire bası yaparak uyluk iç yüzünde ağrıya (Howship–Romberg bulgusu) neden olabilir."
+   ],
+   "related": [
+    "plexus-lumbalis",
+    "mm-adductores",
+    "m-gracilis"
+   ],
+   "models": [
+    "Obturator nerve"
+   ],
+   "aliases": [
+    "obturator"
+   ]
+  },
+  {
+   "id": "plexus-sacralis",
+   "tr": "Sağrı ağı (sakral pleksus)",
+   "la": "Plexus sacralis",
+   "en": "Sacral plexus",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "pelvis",
+   "summary": "Kalça, uyluğun arka yüzü, bacak, ayak ve perine bölgesini innerve eden, L4–S4 ön dallarından pelvisin arka duvarında (m. piriformis önünde) oluşan sinir ağıdır.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Truncus lumbosacralis (L4–L5) ve S1–S4 ön dalları"
+    ],
+    [
+     "Seyir",
+     "M. piriformis'in ön yüzünde oluşur; dalların çoğu foramen ischiadicum majus'tan pelvisi terk eder"
+    ],
+    [
+     "Motor (efferent)",
+     "N. ischiadicus, n. gluteus superior ve inferior, n. pudendus, m. piriformis, obturatorius internus ve quadratus femoris sinirleri"
+    ],
+    [
+     "Duyusal (afferent)",
+     "N. cutaneus femoris posterior (uyluk arkası), n. pudendus (perine)"
+    ],
+    [
+     "Dalları",
+     "N. gluteus superior (L4–S1), n. gluteus inferior (L5–S2), n. ischiadicus (L4–S3), n. cutaneus femoris posterior (S1–S3), n. pudendus (S2–S4)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "n-ischiadicus",
+    "n-pudendus",
+    "mm-rotatores-coxae",
+    "plexus-lumbalis"
+   ],
+   "models": [
+    "Sacral plexus",
+    "Lumbosacral plexus",
+    "Superior gluteal nerve",
+    "Posterior femoral cutaneous nerve",
+    "Nerve to piriformis muscle",
+    "Nerve to quadratus femoris muscle"
+   ],
+   "aliases": [
+    "sakral pleksus"
+   ]
+  },
+  {
+   "id": "n-ischiadicus",
+   "tr": "Siyatik sinir",
+   "la": "N. ischiadicus",
+   "en": "Sciatic nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "lowerLimb",
+   "summary": "Vücudun en kalın ve en uzun siniridir. Uyluğun arka kaslarını ve diz altındaki tüm kasları innerve eder.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus sacralis (L4–S3)"
+    ],
+    [
+     "Seyir",
+     "Foramen ischiadicum majus'tan m. piriformis'in altından çıkar, gluteus maximus'un altında trochanter major ile tuber ischiadicum arasından iner; uyluğun arkasında hamstringlerin altında seyreder ve genellikle diz çukurunun üstünde n. tibialis ve n. fibularis communis'e ayrılır"
+    ],
+    [
+     "Motor (efferent)",
+     "Hamstring kasları (biceps femoris, semitendinosus, semimembranosus), adductor magnus'un hamstring bölümü; dalları aracılığıyla bacak ve ayağın tüm kasları"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Dalları aracılığıyla bacak ve ayağın derisinin büyük kısmı (iç kenar hariç – n. saphenus)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Siyatalji: genellikle L4–L5 veya L5–S1 disk hernisi nedeniyle kalçadan bacağa yayılan ağrı; düz bacak kaldırma testi pozitiftir.",
+    "Kalçanın alt-iç kadranına yapılan yanlış enjeksiyonlar sinire zarar verebilir.",
+    "Arka kalça çıkığında zedelenebilir."
+   ],
+   "related": [
+    "plexus-sacralis",
+    "n-tibialis",
+    "n-fibularis-communis",
+    "mm-ischiocrurales",
+    "mm-rotatores-coxae"
+   ],
+   "models": [
+    "Sciatic nerve"
+   ],
+   "aliases": [
+    "siyatik"
+   ]
+  },
+  {
+   "id": "n-tibialis",
+   "tr": "Kaval siniri",
+   "la": "N. tibialis",
+   "en": "Tibial nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "lowerLimb",
+   "summary": "N. ischiadicus'un büyük uç dalıdır; bacağın arka bölmesindeki kasları ve ayak tabanı kaslarının tümünü innerve eder.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "N. ischiadicus (L4–S3)"
+    ],
+    [
+     "Seyir",
+     "Diz çukurunun ortasından a. poplitea'nın yüzeyelinde iner, m. soleus'un altından bacağın arkasına geçer, iç topuğun arkasında (tarsal tünel) n. plantaris medialis ve lateralis'e ayrılır"
+    ],
+    [
+     "Motor (efferent)",
+     "M. gastrocnemius, m. soleus, m. plantaris, m. popliteus, m. tibialis posterior, m. flexor digitorum longus, m. flexor hallucis longus; plantar sinirlerle tüm ayak tabanı kasları"
+    ],
+    [
+     "Duyusal (afferent)",
+     "N. suralis (n. fibularis ile birlikte) bacağın arka-dış yüzü ve ayağın dış kenarı; plantar sinirlerle ayak tabanı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tarsal tünel sendromunda ayak tabanında yanma ve uyuşma olur.",
+    "Hasarında plantar fleksiyon ve parmak fleksiyonu kaybolur, hasta parmak ucunda yükselemez; ayak dorsifleksiyon-everziyon pozisyonunda kalır (pes calcaneovalgus).",
+    "Aşil refleksi (S1) bu sinirle taşınır."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "m-triceps-surae",
+    "m-tibialis-posterior",
+    "mm-plantares"
+   ],
+   "models": [
+    "Tibial nerve",
+    "Medial plantar nerve",
+    "Lateral plantar nerve",
+    "Sural nerve",
+    "Medial sural cutaneous nerve"
+   ],
+   "aliases": [
+    "tibial sinir",
+    "plantar sinir",
+    "sural sinir"
+   ]
+  },
+  {
+   "id": "n-fibularis-communis",
+   "tr": "Ortak fibular sinir",
+   "la": "N. fibularis (peroneus) communis",
+   "en": "Common fibular nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "lowerLimb",
+   "summary": "N. ischiadicus'un küçük uç dalıdır; bacağın ön ve dış bölme kaslarını innerve eder. Collum fibulae'yi sararken deri altında yüzeyel seyrettiği için en sık yaralanan alt ekstremite siniridir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "N. ischiadicus (L4–S2)"
+    ],
+    [
+     "Seyir",
+     "Diz çukurunun dış kenarında biceps femoris tendonunu izler, collum fibulae'yi sararak m. fibularis longus içinde n. fibularis superficialis ve profundus'a ayrılır"
+    ],
+    [
+     "Motor (efferent)",
+     "N. fibularis superficialis: m. fibularis longus ve brevis; n. fibularis profundus: m. tibialis anterior, m. extensor digitorum longus, m. extensor hallucis longus, m. fibularis tertius, ayak sırtı kasları"
+    ],
+    [
+     "Duyusal (afferent)",
+     "N. fibularis superficialis: bacağın ön-dış yüzü ve ayak sırtının büyük kısmı; n. fibularis profundus: 1. ve 2. parmaklar arasındaki deri"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Fibula başı kırığı, sıkı alçı, bacak bacak üstüne atma veya uzun süre çömelme düşük ayağa (foot drop) yol açar: ayak dorsifleksiyonu ve everziyonu yapılamaz, steppage yürüyüşü görülür."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "fibula",
+    "m-tibialis-anterior",
+    "m-fibularis-longus"
+   ],
+   "models": [
+    "Common fibular nerve",
+    "Superficial fibular nerve",
+    "Deep fibular nerve"
+   ],
+   "aliases": [
+    "peroneal sinir",
+    "fibular sinir",
+    "düşük ayak"
+   ]
+  },
+  {
+   "id": "n-pudendus",
+   "tr": "Pudendal sinir",
+   "la": "N. pudendus",
+   "en": "Pudendal nerve",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "pelvis",
+   "summary": "Perine bölgesinin ana siniridir; dış genital organların ve perinenin derisine duyu, perine kaslarına ve dış sfinkterlere motor lifler verir.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus sacralis (S2–S4)"
+    ],
+    [
+     "Seyir",
+     "Foramen ischiadicum majus'tan çıkar, spina ischiadica'yı (lig. sacrospinale) dolanarak foramen ischiadicum minus'tan perineye girer; canalis pudendalis (Alcock) içinde seyreder"
+    ],
+    [
+     "Motor (efferent)",
+     "M. sphincter ani externus, m. sphincter urethrae externus, perine kasları"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Perine derisi, dış genital organlar (n. dorsalis penis/clitoridis)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Doğumda epizyotomi öncesi pudendal blok spina ischiadica yakınına yapılır.",
+    "Uzun süre bisiklet sürme pudendal sinir sıkışmasına (pudendal nevralji) neden olabilir."
+   ],
+   "related": [
+    "plexus-sacralis",
+    "diaphragma-pelvis",
+    "ligg-pelvis"
+   ],
+   "models": [
+    "Pudendal nerve"
+   ],
+   "aliases": [
+    "pudendal"
+   ]
+  },
+  {
+   "id": "truncus-sympathicus",
+   "tr": "Sempatik zincir",
+   "la": "Truncus sympathicus",
+   "en": "Sympathetic trunk",
+   "group": "Otonom sinir sistemi",
+   "region": "back",
+   "summary": "Omurganın iki yanında kafa tabanından koksikse kadar uzanan, birbirine bağlı sempatik ganglionlardan oluşan zincirdir. ‘Savaş ya da kaç’ yanıtını oluşturan sempatik sinir sisteminin ana dağıtım yapısıdır.",
+   "facts": [
+    [
+     "Ganglionlar",
+     "3 servikal (superior, medium, cervicothoracicum/stellatum), 11–12 torakal, 4–5 lomber, 4–5 sakral; altta tek ganglion impar"
+    ],
+    [
+     "Preganglionik lifler",
+     "T1–L2 omurilik segmentlerinin yan boynuzundan (torakolomber çıkış); rr. communicantes albi ile zincire girer"
+    ],
+    [
+     "Postganglionik lifler",
+     "Rr. communicantes grisei ile tüm spinal sinirlere katılır; ayrıca baş, kalp ve akciğerlere dallar verir"
+    ],
+    [
+     "Splanknik sinirler",
+     "N. splanchnicus major (T5–T9), minor (T10–T11), imus (T12): prevertebral ganglionlara (çölyak, mezenterik) gider"
+    ]
+   ],
+   "sections": [
+    [
+     "Sempatik etkiler",
+     "Göz bebeği genişler, kalp hızı ve kasılma gücü artar, bronşlar genişler, sindirim yavaşlar, ter bezleri ve böbrek üstü bezi medullası uyarılır, deri ve iç organ damarları daralır."
+    ]
+   ],
+   "clinical": [
+    "Horner sendromu (servikal sempatik zincir hasarı – ör. Pancoast tümörü): aynı tarafta pitoz, miyozis, anhidroz.",
+    "Stellat ganglion bloğu kol ağrı sendromlarında uygulanabilir."
+   ],
+   "related": [
+    "systema-autonomicum",
+    "medulla-spinalis",
+    "n-vagus"
+   ],
+   "models": [
+    "Sympathetic trunk",
+    "Ganglia of sympathetic trunk",
+    "Sympathetic nerves",
+    "Thoracolumbar part of autonomic division"
+   ],
+   "aliases": [
+    "sempatik",
+    "sempatik gövde"
+   ]
+  },
+  {
+   "id": "systema-autonomicum",
+   "tr": "Otonom sinir sistemi",
+   "la": "Pars autonomica systematis nervosi",
+   "en": "Autonomic nervous system",
+   "group": "Otonom sinir sistemi",
+   "region": "general",
+   "summary": "İç organların, damarların ve bezlerin istem dışı işlevlerini düzenleyen sinir sistemi bölümüdür. Birbirine çoğunlukla zıt etkili sempatik ve parasempatik bölümler ile bağırsak duvarındaki enterik sinir sisteminden oluşur.",
+   "facts": [
+    [
+     "Sempatik bölüm",
+     "Torakolomber çıkış (T1–L2); kısa preganglionik, uzun postganglionik lifler; nörotransmitter genellikle noradrenalin"
+    ],
+    [
+     "Parasempatik bölüm",
+     "Kraniyosakral çıkış (III, VII, IX, X. kranial sinirler ve S2–S4); uzun preganglionik, kısa postganglionik lifler; nörotransmitter asetilkolin"
+    ],
+    [
+     "Parasempatik ganglionlar (baş)",
+     "Ganglion ciliare (III), pterygopalatinum ve submandibulare (VII), oticum (IX)"
+    ],
+    [
+     "Enterik sinir sistemi",
+     "Plexus myentericus (Auerbach) ve submucosus (Meissner)"
+    ],
+    [
+     "Merkezi kontrol",
+     "Hipotalamus, beyin sapı otonom merkezleri"
+    ]
+   ],
+   "sections": [
+    [
+     "Parasempatik etkiler",
+     "‘Dinlen ve sindir’: kalp hızı yavaşlar, göz bebeği küçülür, tükürük ve sindirim salgıları artar, bağırsak hareketleri hızlanır, mesane kasılır."
+    ]
+   ],
+   "clinical": [
+    "Diyabetik otonom nöropati ortostatik hipotansiyon, gastroparezi ve mesane disfonksiyonuna yol açar.",
+    "Hirschsprung hastalığında kolon duvarında enterik ganglion hücreleri yoktur."
+   ],
+   "related": [
+    "truncus-sympathicus",
+    "n-vagus",
+    "hypothalamus",
+    "glandula-suprarenalis"
+   ],
+   "models": [
+    "Autonomic division of peripheral nervous system"
+   ],
+   "aliases": [
+    "otonom",
+    "parasempatik",
+    "vejetatif sinir sistemi"
+   ]
+  },
+  {
+   "id": "ganglion-spinale",
+   "tr": "Spinal sinir ve gangliyonu",
+   "la": "Nervus spinalis et ganglion sensorium",
+   "en": "Spinal nerve and ganglion",
+   "group": "Spinal sinirler ve pleksuslar",
+   "region": "back",
+   "summary": "Omurilikten çıkan ön (motor) ve arka (duyusal) köklerin foramen intervertebrale'de birleşmesiyle oluşan karma sinirlerdir. Arka kök üzerindeki gangliyonda duyusal nöronların hücre gövdeleri bulunur.",
+   "facts": [
+    [
+     "Sayı",
+     "31 çift: 8 servikal, 12 torakal, 5 lomber, 5 sakral, 1 koksigeal"
+    ],
+    [
+     "Kökler",
+     "Radix anterior (motor, ön boynuz) ve radix posterior (duyusal; ganglion sensorium nervi spinalis)"
+    ],
+    [
+     "Dallar",
+     "R. anterior (pleksusları ve interkostal sinirleri oluşturur), r. posterior (sırt derin kasları ve derisi), r. meningeus, rr. communicantes"
+    ],
+    [
+     "Dermatom",
+     "Bir spinal sinirin innerve ettiği deri alanı (ör. C6 başparmak, T4 meme başı, T10 göbek, L4 diz önü, S1 ayak dış kenarı)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Radikülopati, tek bir sinir kökünün basısıyla ilgili dermatomda ağrı ve uyuşma, miyotomda güçsüzlük ve refleks kaybıdır."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "plexus-brachialis",
+    "plexus-lumbalis",
+    "discus-intervertebralis"
+   ],
+   "models": [
+    "Spinal ganglion",
+    "Anterior root of spinal nerve",
+    "Posterior root of spinal nerve",
+    "Roots of nerves"
+   ],
+   "aliases": [
+    "spinal sinir",
+    "dermatom",
+    "arka kök gangliyonu"
+   ]
+  }
+ ]
+}

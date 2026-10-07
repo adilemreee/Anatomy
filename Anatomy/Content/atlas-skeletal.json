@@ -1,0 +1,2453 @@
+{
+ "system": "skeletal",
+ "entries": [
+  {
+   "id": "os-frontale",
+   "tr": "Alın kemiği",
+   "la": "Os frontale",
+   "en": "Frontal bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Alnı ve göz çukurlarının (orbita) tavanını oluşturan tek ve simetrik kafa kemiğidir. Dikey duran pars squamosa, yatay duran pars orbitalis ve küçük pars nasalis olmak üzere üç bölümden oluşur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Yassı kemik (pnömatik – sinus frontalis içerir)"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os parietale (sutura coronalis), os sphenoidale, os ethmoidale, ossa nasalia, maxillae, ossa lacrimalia, ossa zygomatica"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuber frontale, arcus superciliaris, glabella, margo supraorbitalis, incisura/foramen supraorbitale, processus zygomaticus, sinus frontalis, crista frontalis"
+    ],
+    [
+     "Kemikleşme",
+     "Zar içi (intramembranöz); doğumda iki yarım hâlindedir, sutura metopica genellikle 2. yaşta kapanır"
+    ]
+   ],
+   "sections": [
+    [
+     "Yapısı",
+     "Pars squamosa alnı oluşturur; iç yüzünde beyin kıvrımlarının izleri ve orta hatta sinus sagittalis superior oluğu bulunur. Pars orbitalis ince bir kemik levhasıdır ve ön kafa çukurunun (fossa cranii anterior) tabanını oluşturur; iki orbital parça arasındaki incisura ethmoidalis'e etmoid kemiğin lamina cribrosa'sı yerleşir. Sinus frontalis, kaşların arkasında yer alan ve meatus nasi medius'a açılan hava boşluğudur."
+    ]
+   ],
+   "clinical": [
+    "Foramen/incisura supraorbitale'den geçen n. supraorbitalis, alın bölgesi lokal anestezisinde bloke edilir.",
+    "Sinus frontalis enfeksiyonu (frontal sinüzit) alın ağrısına; ön kafa tabanı kırıkları ise beyin omurilik sıvısı burun akıntısına (rinore) neden olabilir."
+   ],
+   "related": [
+    "os-parietale",
+    "os-ethmoidale",
+    "os-sphenoidale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Frontal bone",
+    "Sinus of frontal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-parietale",
+   "tr": "Yan kafa kemiği",
+   "la": "Os parietale",
+   "en": "Parietal bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Kafatası tavanının (calvaria) yan ve üst bölümünü oluşturan, dört kenarlı, çift yassı kemiktir. İki parietal kemik orta hatta sutura sagittalis ile birleşir.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Yassı kemik"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Karşı taraf os parietale (sutura sagittalis), os frontale (sutura coronalis), os occipitale (sutura lambdoidea), os temporale (sutura squamosa), os sphenoidale (ala major)"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuber parietale, linea temporalis superior ve inferior, foramen parietale, iç yüzde a. meningea media olukları (sulci arteriosi)"
+    ],
+    [
+     "Kemikleşme",
+     "Zar içi kemikleşme"
+    ]
+   ],
+   "sections": [
+    [
+     "Fontaneller",
+     "Yenidoğanda parietal kemiklerin köşelerinde bıngıldaklar bulunur: ön fontanel (fonticulus anterior) frontal ve parietal kemikler arasında olup 18–24. ayda; arka fontanel (fonticulus posterior) parietal ve oksipital kemikler arasında olup 2–3. ayda kapanır."
+    ]
+   ],
+   "clinical": [
+    "Pterion bölgesi (frontal, parietal, temporal ve sfenoid kemiklerin birleştiği H şeklindeki alan) ince olduğundan darbe sonrası kırılabilir; altındaki a. meningea media yırtılırsa epidural hematom gelişir.",
+    "Ön fontanelin çökük olması dehidratasyonu, kabarık olması kafa içi basınç artışını düşündürür."
+   ],
+   "related": [
+    "os-frontale",
+    "os-occipitale",
+    "os-temporale"
+   ],
+   "models": [
+    "Parietal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-occipitale",
+   "tr": "Art kafa kemiği",
+   "la": "Os occipitale",
+   "en": "Occipital bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Kafatasının arka ve alt bölümünü oluşturan tek kemiktir. Büyük delik (foramen magnum) aracılığıyla kafa boşluğunu omurga kanalına bağlar ve condyli occipitales ile atlas'la eklem yapar.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Yassı kemik"
+    ],
+    [
+     "Bölümleri",
+     "Pars squamosa, iki pars lateralis (condylaris) ve pars basilaris"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Ossa parietalia, ossa temporalia, os sphenoidale, atlas (articulatio atlanto-occipitalis)"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Foramen magnum, condyli occipitales, canalis nervi hypoglossi, protuberantia occipitalis externa (inion), lineae nuchae, clivus, protuberantia occipitalis interna, sulcus sinus transversi"
+    ],
+    [
+     "Foramen magnum'dan geçenler",
+     "Medulla oblongata ve zarları, aa. vertebrales, a. spinalis anterior ve posteriorlar, n. accessorius'un spinal kökleri"
+    ]
+   ],
+   "sections": [
+    [
+     "Klinik önemi olan bölgeler",
+     "Clivus beyin sapının önünde yer alır. Linea nuchae superior'a m. trapezius ve m. sternocleidomastoideus tutunur. Canalis nervi hypoglossi'den XII. kranial sinir geçer; condylus'ların arkasındaki canalis condylaris'ten emissary venler geçer."
+    ]
+   ],
+   "clinical": [
+    "Arnold–Chiari malformasyonunda beyincik tonsilleri foramen magnum'dan omurga kanalına doğru uzanır.",
+    "Kafa içi basıncı arttığında beyincik tonsillerinin foramen magnum'a fıtıklaşması (tonsiller herniasyon) solunum merkezini baskılayarak ölümcül olabilir."
+   ],
+   "related": [
+    "atlas",
+    "os-parietale",
+    "os-sphenoidale",
+    "medulla-oblongata"
+   ],
+   "models": [
+    "Occipital bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-temporale",
+   "tr": "Şakak kemiği",
+   "la": "Os temporale",
+   "en": "Temporal bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Kafatasının yan duvarı ve tabanında yer alan, işitme ve denge organlarını barındıran karmaşık yapılı çift kemiktir. Alt çene ile temporomandibular eklemi oluşturur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz kemik (pnömatik – cellulae mastoideae)"
+    ],
+    [
+     "Bölümleri",
+     "Pars squamosa, pars tympanica, pars petrosa (piramit) ve processus styloideus"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os parietale, os occipitale, os sphenoidale, os zygomaticum (arcus zygomaticus), mandibula (art. temporomandibularis)"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Meatus acusticus externus ve internus, processus mastoideus, processus zygomaticus, fossa mandibularis, tuberculum articulare, foramen stylomastoideum, canalis caroticus, fossa jugularis"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Orta kulak (cavitas tympani ve kulak kemikçikleri), iç kulak (labirent), canalis facialis"
+    ]
+   ],
+   "sections": [
+    [
+     "Pars petrosa",
+     "Vücudun en sert kemik bölümlerinden biridir; orta ve arka kafa çukurlarını ayırır. İçinde koklea ve semisirküler kanallar bulunur. N. facialis canalis facialis içinde seyreder ve foramen stylomastoideum'dan çıkar; a. carotis interna canalis caroticus'tan kafa içine girer."
+    ]
+   ],
+   "clinical": [
+    "Temporal kemik kırıklarında iletim tipi işitme kaybı, kulaktan BOS akıntısı (otore), fasiyal paralizi ve mastoid bölgede ekimoz (Battle bulgusu) görülebilir.",
+    "Orta kulak enfeksiyonları mastoid hücrelere yayılarak mastoidite neden olabilir."
+   ],
+   "related": [
+    "os-parietale",
+    "mandibula",
+    "auris-media",
+    "auris-interna",
+    "art-temporomandibularis"
+   ],
+   "models": [
+    "Temporal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-sphenoidale",
+   "tr": "Kama kemiği",
+   "la": "Os sphenoidale",
+   "en": "Sphenoid bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Kafatası tabanının ortasında, uçan bir yarasaya benzeyen tek kemiktir. Kafatasının tüm kemikleriyle temas eder ve hipofiz bezini barındıran sella turcica'yı taşır.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz, pnömatik kemik (sinus sphenoidalis)"
+    ],
+    [
+     "Bölümleri",
+     "Corpus, alae minores (küçük kanatlar), alae majores (büyük kanatlar), processus pterygoidei"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sella turcica (fossa hypophysialis), canalis opticus, fissura orbitalis superior, foramen rotundum, foramen ovale, foramen spinosum, processus clinoidei"
+    ],
+    [
+     "Geçen yapılar",
+     "Canalis opticus: n. opticus ve a. ophthalmica; fissura orbitalis superior: III, IV, V1, VI. sinirler ve v. ophthalmica superior; foramen rotundum: V2; foramen ovale: V3; foramen spinosum: a. meningea media"
+    ]
+   ],
+   "sections": [
+    [
+     "Konumu",
+     "Ön, orta ve arka kafa çukurlarının birleşim noktasında yer alır. Gövdesindeki sinus sphenoidalis burun boşluğunun arka-üst bölümüne (recessus sphenoethmoidalis) açılır. Processus pterygoidei çiğneme kaslarından mm. pterygoidei'ye tutunma yeri sağlar."
+    ]
+   ],
+   "clinical": [
+    "Hipofiz tümörlerine sıklıkla sinus sphenoidalis yoluyla burundan (transsfenoidal) ulaşılır.",
+    "Hipofiz adenomu sella turcica'yı genişletip üstündeki optik kiazmaya baskı yaparak bitemporal hemianopsiye yol açabilir."
+   ],
+   "related": [
+    "hypophysis",
+    "os-ethmoidale",
+    "os-frontale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Sinus of sphenoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-ethmoidale",
+   "tr": "Kalbur kemiği",
+   "la": "Os ethmoidale",
+   "en": "Ethmoid bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Göz çukurları arasında, burun boşluğunun üst kısmında yer alan hafif ve süngerimsi tek kemiktir. Burun boşluğunun tavanını, yan duvarlarını ve burun bölmesinin üst kısmını oluşturur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz, pnömatik kemik"
+    ],
+    [
+     "Bölümleri",
+     "Lamina cribrosa, lamina perpendicularis, iki labyrinthus ethmoidalis (cellulae ethmoidales)"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crista galli, lamina cribrosa delikleri, concha nasalis superior ve media, lamina orbitalis (lamina papyracea), bulla ethmoidalis, processus uncinatus"
+    ],
+    [
+     "Geçen yapılar",
+     "Lamina cribrosa deliklerinden koku sinirinin lifleri (fila olfactoria)"
+    ]
+   ],
+   "sections": [
+    [
+     "Etmoid hücreler",
+     "Ön, orta ve arka etmoid hücreler küçük hava boşluklarıdır; ön ve orta hücreler meatus nasi medius'a, arka hücreler meatus nasi superior'a açılır. Orbitaya bakan lamina orbitalis kağıt kadar incedir."
+    ]
+   ],
+   "clinical": [
+    "Lamina cribrosa kırıklarında koku kaybı (anosmi) ve BOS rinoresi görülebilir.",
+    "İnce lamina papyracea nedeniyle etmoid sinüzit göz çukuruna yayılarak orbital selülite neden olabilir."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-frontale",
+    "cavitas-nasi",
+    "sinus-paranasales",
+    "n-olfactorius"
+   ],
+   "models": [
+    "Ethmoid bone",
+    "Anterior cells of ethmoid bone",
+    "Middle cells of ethmoid bone",
+    "Posterior cells of ethmoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "maxilla",
+   "tr": "Üst çene kemiği",
+   "la": "Maxilla",
+   "en": "Maxilla",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Yüz iskeletinin merkezini oluşturan çift kemiktir. Üst dişleri taşır; ağız tavanının (sert damak) büyük kısmını, burun boşluğunun yan duvarını ve göz çukurunun tabanını oluşturur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz, pnömatik kemik (sinus maxillaris)"
+    ],
+    [
+     "Bölümleri",
+     "Corpus ve dört çıkıntı: processus frontalis, zygomaticus, alveolaris ve palatinus"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os frontale, os ethmoidale, os nasale, os lacrimale, os zygomaticum, os palatinum, vomer, concha nasalis inferior, karşı maxilla"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sinus maxillaris, foramen infraorbitale, arcus alveolaris, foramen incisivum, spina nasalis anterior"
+    ]
+   ],
+   "sections": [
+    [
+     "Sinus maxillaris",
+     "Paranazal sinüslerin en büyüğüdür; tabanı üst azı dişlerinin köklerine çok yakındır. Hiatus semilunaris aracılığıyla meatus nasi medius'a açılır; ağzı tavana yakın olduğu için drenajı zordur."
+    ]
+   ],
+   "clinical": [
+    "Üst azı dişi çekimi sırasında sinüs ile ağız arasında açıklık (oroantral fistül) oluşabilir.",
+    "Yüz kırıkları Le Fort I, II ve III olarak sınıflandırılır.",
+    "Damak yarığı, iki palatin çıkıntının birleşememesiyle oluşur."
+   ],
+   "related": [
+    "mandibula",
+    "os-zygomaticum",
+    "os-palatinum",
+    "dentes",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Maxilla"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mandibula",
+   "tr": "Alt çene kemiği",
+   "la": "Mandibula",
+   "en": "Mandible",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Yüzün en büyük ve en güçlü kemiğidir; kafatasının tek hareketli kemiğidir. Alt dişleri taşır ve temporal kemikle temporomandibular eklemi oluşturur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz kemik"
+    ],
+    [
+     "Bölümleri",
+     "Corpus mandibulae ve iki ramus mandibulae; birleşim yeri angulus mandibulae"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Processus condylaris (caput ve collum), processus coronoideus, incisura mandibulae, foramen mandibulae, lingula, foramen mentale, protuberantia mentalis, linea mylohyoidea, fossa digastrica"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. masseter, m. temporalis, mm. pterygoidei medialis et lateralis, m. digastricus, m. mylohyoideus, m. geniohyoideus, m. genioglossus, m. platysma"
+    ],
+    [
+     "Kemikleşme",
+     "Büyük ölçüde zar içi; doğumda iki yarım olup 1. yılda symphysis mentalis'te birleşir"
+    ]
+   ],
+   "sections": [
+    [
+     "Sinir ve damarları",
+     "N. alveolaris inferior foramen mandibulae'den canalis mandibulae'ye girer, alt dişleri innerve eder ve foramen mentale'den n. mentalis olarak çıkarak alt dudak ve çene derisini besler."
+    ]
+   ],
+   "clinical": [
+    "Mandibula kırıkları çoğunlukla iki yerde birden (ör. bir tarafta collum, diğer tarafta corpus) olur.",
+    "Alt diş tedavisinde n. alveolaris inferior, lingula yakınında bloke edilir."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "art-temporomandibularis",
+    "m-masseter",
+    "dentes"
+   ],
+   "models": [
+    "Mandible"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-zygomaticum",
+   "tr": "Elmacık kemiği",
+   "la": "Os zygomaticum",
+   "en": "Zygomatic bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Yanağın çıkıntısını oluşturan, göz çukurunun yan ve alt duvarına katılan çift kemiktir. Processus temporalis'i temporal kemiğin processus zygomaticus'u ile birleşerek arcus zygomaticus'u oluşturur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz kemik"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os frontale, os temporale, os sphenoidale, maxilla"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Processus frontalis, processus temporalis, foramen zygomaticofaciale, foramen zygomaticotemporale"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. masseter (arcus zygomaticus), m. zygomaticus major ve minor"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Elmacık kemiği kırıkları (tripod kırığı) yüz asimetrisine, göz hareketlerinde kısıtlılığa ve yanakta uyuşukluğa (n. infraorbitalis hasarı) neden olabilir."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "m-masseter"
+   ],
+   "models": [
+    "Zygomatic bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-nasale",
+   "tr": "Burun kemiği",
+   "la": "Os nasale",
+   "en": "Nasal bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Burun sırtının üst kısmını oluşturan küçük, dikdörtgen biçimli çift kemiktir. Alt kenarlarına burun kıkırdakları tutunur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Yassı kemik"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os frontale, karşı os nasale, maxilla (processus frontalis), os ethmoidale (lamina perpendicularis)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Yüzün en sık kırılan kemiğidir; kırık sonrası burun septumunda hematom gelişirse kıkırdak nekrozunu önlemek için drenaj gerekir."
+   ],
+   "related": [
+    "maxilla",
+    "os-frontale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Nasal bone",
+    "Nasal septal cartilage",
+    "Major alar cartilage",
+    "Lateral process of nasal septal cartilage"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-lacrimale",
+   "tr": "Gözyaşı kemiği",
+   "la": "Os lacrimale",
+   "en": "Lacrimal bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Göz çukurunun iç duvarının ön kısmında bulunan, kafatasının en küçük ve en ince kemiklerinden biridir. Gözyaşı kesesini barındıran çukura katılır.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Yassı kemik"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crista lacrimalis posterior, sulcus lacrimalis (fossa sacci lacrimalis'in arka kısmı), hamulus lacrimalis"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os frontale, os ethmoidale, maxilla, concha nasalis inferior"
+    ]
+   ],
+   "sections": [
+    [
+     "İşlevi",
+     "Maxilla ile birlikte gözyaşı kesesinin yerleştiği fossa sacci lacrimalis'i ve burun boşluğuna açılan canalis nasolacrimalis'i oluşturur."
+    ]
+   ],
+   "clinical": [
+    "Burun-gözyaşı kanalı tıkanıklığında dakriosistorinostomi ameliyatında bu ince kemik açılarak gözyaşı kesesi burun boşluğuna bağlanır."
+   ],
+   "related": [
+    "apparatus-lacrimalis",
+    "os-ethmoidale",
+    "maxilla"
+   ],
+   "models": [
+    "Lacrimal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-palatinum",
+   "tr": "Damak kemiği",
+   "la": "Os palatinum",
+   "en": "Palatine bone",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Sert damağın arka kısmını, burun boşluğunun yan duvarının arka bölümünü ve göz çukurunun tabanının küçük bir kısmını oluşturan L şeklindeki çift kemiktir.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz kemik"
+    ],
+    [
+     "Bölümleri",
+     "Lamina horizontalis, lamina perpendicularis; processus pyramidalis, orbitalis ve sphenoidalis"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Foramen palatinum majus ve minus, spina nasalis posterior"
+    ]
+   ],
+   "sections": [
+    [
+     "Geçen yapılar",
+     "Foramen palatinum majus'tan n. palatinus major ve a. palatina major, foramina palatina minora'dan n. palatini minores geçer."
+    ]
+   ],
+   "clinical": [],
+   "related": [
+    "maxilla",
+    "vomer",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Palatine bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "vomer",
+   "tr": "Saban kemiği",
+   "la": "Vomer",
+   "en": "Vomer",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Burun bölmesinin (septum nasi) arka-alt kısmını oluşturan, saban demirine benzeyen tek ve ince kemiktir.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Yassı kemik"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os sphenoidale, os ethmoidale, maxillae, ossa palatina, septum kıkırdağı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Burun septumu deviasyonu sıklıkla vomer ile septal kıkırdak birleşim yerini etkiler ve burun tıkanıklığına yol açabilir."
+   ],
+   "related": [
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Vomer"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "concha-nasalis-inferior",
+   "tr": "Alt burun konkası",
+   "la": "Concha nasalis inferior",
+   "en": "Inferior nasal concha",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Burun boşluğunun yan duvarında yer alan, kıvrık yapılı bağımsız çift kemiktir. Üzerindeki mukoza havayı ısıtır ve nemlendirir.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz kemik"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Maxilla, os lacrimale, os ethmoidale, os palatinum"
+    ],
+    [
+     "İlişki",
+     "Altındaki meatus nasi inferior'a ductus nasolacrimalis açılır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "cavitas-nasi",
+    "os-lacrimale",
+    "maxilla"
+   ],
+   "models": [
+    "Inferior nasal concha bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-hyoideum",
+   "tr": "Dil kemiği",
+   "la": "Os hyoideum",
+   "en": "Hyoid bone",
+   "group": "Kafatası (Cranium)",
+   "region": "neck",
+   "summary": "Boyunun ön üst kısmında, alt çene ile gırtlak arasında yer alan U şeklinde kemiktir. Başka hiçbir kemikle eklem yapmaz; kas ve bağlarla asılı durur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Düzensiz kemik"
+    ],
+    [
+     "Bölümleri",
+     "Corpus, iki cornu majus, iki cornu minus"
+    ],
+    [
+     "Seviye",
+     "C3 omuru hizası"
+    ],
+    [
+     "Kas tutunmaları",
+     "Suprahyoid kaslar (m. digastricus, m. stylohyoideus, m. mylohyoideus, m. geniohyoideus), infrahyoid kaslar (m. sternohyoideus, m. omohyoideus, m. thyrohyoideus), m. hyoglossus, m. constrictor pharyngis medius"
+    ]
+   ],
+   "sections": [
+    [
+     "İşlevi",
+     "Dil kökü için hareketli bir taban oluşturur; yutma ve konuşma sırasında gırtlağın yükselip alçalmasına aracılık eder."
+    ]
+   ],
+   "clinical": [
+    "Adli tıpta dil kemiği kırığı boğularak (el ile) öldürülme şüphesini destekler."
+   ],
+   "related": [
+    "larynx",
+    "lingua",
+    "mandibula"
+   ],
+   "models": [
+    "Hyoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossicula-auditus",
+   "tr": "Kulak kemikçikleri",
+   "la": "Ossicula auditus",
+   "en": "Auditory ossicles",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Orta kulakta, kulak zarından iç kulağa sesi ileten üç küçük kemikten oluşan zincirdir: çekiç (malleus), örs (incus) ve üzengi (stapes). Üzengi vücudun en küçük kemiğidir.",
+   "facts": [
+    [
+     "Kemikler",
+     "Malleus (çekiç), incus (örs), stapes (üzengi)"
+    ],
+    [
+     "Eklemler",
+     "Art. incudomallearis ve art. incudostapedialis (sinovyal eklemler)"
+    ],
+    [
+     "İlişkili kaslar",
+     "M. tensor tympani (malleus'a; n. trigeminus/V3) ve m. stapedius (stapes'e; n. facialis)"
+    ],
+    [
+     "İşlevi",
+     "Ses titreşimlerini kulak zarından fenestra vestibuli'ye iletir ve yaklaşık 20 kat güçlendirir"
+    ]
+   ],
+   "sections": [
+    [
+     "Seyir",
+     "Malleus'un manubrium'u kulak zarına yapışır; başı incus'un gövdesiyle eklem yapar. Incus'un uzun kolu stapes'in başıyla birleşir; stapes'in tabanı (basis stapedis) iç kulağın oval penceresini kapatır."
+    ]
+   ],
+   "clinical": [
+    "Otoskleroz, stapes tabanının oval pencereye kemikleşerek yapışmasıdır ve iletim tipi işitme kaybına yol açar; tedavisi stapedektomidir.",
+    "Fasiyal sinir felcinde m. stapedius çalışmadığından yüksek seslere aşırı duyarlılık (hiperakuzi) görülür."
+   ],
+   "related": [
+    "auris-media",
+    "os-temporale",
+    "n-facialis"
+   ],
+   "models": [
+    "Malleus",
+    "Incus",
+    "Stapes"
+   ],
+   "aliases": [
+    "çekiç",
+    "örs",
+    "üzengi",
+    "malleus",
+    "incus",
+    "stapes"
+   ]
+  },
+  {
+   "id": "dentes",
+   "tr": "Dişler",
+   "la": "Dentes",
+   "en": "Teeth",
+   "group": "Kafatası (Cranium)",
+   "region": "head",
+   "summary": "Besinleri kesen, yırtan ve öğüten sert yapılardır. Erişkinde 32 kalıcı diş (her yarım çenede 2 kesici, 1 köpek, 2 küçük azı, 3 büyük azı) bulunur; süt dişleri 20 tanedir.",
+   "facts": [
+    [
+     "Diş formülü (kalıcı)",
+     "2-1-2-3 (her çeyrekte); toplam 32"
+    ],
+    [
+     "Yapısı",
+     "Mine (enamelum), dentin, sement (cementum), diş özü (pulpa dentis)"
+    ],
+    [
+     "Bölümleri",
+     "Corona (taç), cervix (boyun), radix (kök)"
+    ],
+    [
+     "İnnervasyon",
+     "Üst dişler: n. alveolares superiores (V2); alt dişler: n. alveolaris inferior (V3)"
+    ],
+    [
+     "Sürme",
+     "Süt dişleri 6.–24. aylarda; kalıcı dişler 6–12 yaşlarında, 20–25 yaş dişleri 17–25 yaşlarında"
+    ]
+   ],
+   "sections": [
+    [
+     "Diş tipleri",
+     "Kesici dişler (dentes incisivi) ısırma ve kesme, köpek dişleri (dentes canini) yırtma, küçük azılar (dentes premolares) ve büyük azılar (dentes molares) öğütme işlevi görür. Mine vücudun en sert dokusudur."
+    ]
+   ],
+   "clinical": [
+    "Pulpaya ulaşan çürükler (pulpit) şiddetli ağrıya neden olur ve kanal tedavisi gerektirebilir.",
+    "Gömülü yirmi yaş dişleri perikoronite ve komşu dişte hasara yol açabilir."
+   ],
+   "related": [
+    "mandibula",
+    "maxilla",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Teeth"
+   ],
+   "aliases": [
+    "diş",
+    "azı dişi",
+    "kesici diş",
+    "köpek dişi"
+   ]
+  },
+  {
+   "id": "vertebrae-cervicales",
+   "tr": "Boyun omurları",
+   "la": "Vertebrae cervicales (C1–C7)",
+   "en": "Cervical vertebrae",
+   "group": "Omurga (Columna vertebralis)",
+   "region": "neck",
+   "summary": "Omurganın boyun bölümünü oluşturan yedi omurdur. Küçük gövdeleri, enine çıkıntılarındaki delikler (foramen transversarium) ve çatallı diken çıkıntılarıyla diğer omurlardan ayrılırlar.",
+   "facts": [
+    [
+     "Sayı",
+     "7 (C1–C7)"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Foramen transversarium (a. ve v. vertebralis geçer; C7'de genellikle yalnız ven), çatallı processus spinosus (C2–C6), üçgen geniş foramen vertebrale"
+    ],
+    [
+     "Özel omurlar",
+     "C1 atlas, C2 axis, C7 vertebra prominens (en belirgin diken çıkıntı)"
+    ],
+    [
+     "Eğrilik",
+     "Öne doğru dışbükey (servikal lordoz)"
+    ]
+   ],
+   "sections": [
+    [
+     "Hareket",
+     "Boyun bölümü omurganın en hareketli bölümüdür; fleksiyon, ekstansiyon, lateral fleksiyon ve rotasyon yapılabilir. Baş rotasyonunun yaklaşık yarısı atlantoaksiyel eklemde gerçekleşir. C3–C6 gövdelerinin yan kenarlarındaki processus uncinatus'lar uncovertebral (Luschka) eklemleri oluşturur."
+    ]
+   ],
+   "clinical": [
+    "Ani ivmelenme–yavaşlama yaralanmalarında (whiplash) boyun yumuşak dokuları zorlanır.",
+    "C5–C6 ve C6–C7 düzeyleri servikal disk hernisi ve spondilozun en sık görüldüğü seviyelerdir."
+   ],
+   "related": [
+    "atlas",
+    "axis",
+    "vertebrae-thoracicae",
+    "medulla-spinalis",
+    "a-vertebralis"
+   ],
+   "models": [
+    "Cervical vertebrae",
+    "Vertebra C3",
+    "Vertebra C4",
+    "Vertebra C5",
+    "Vertebra C6",
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "boyun omuru",
+    "servikal omur"
+   ]
+  },
+  {
+   "id": "atlas",
+   "tr": "Atlas (1. boyun omuru)",
+   "la": "Atlas (C1)",
+   "en": "Atlas (C1)",
+   "group": "Omurga (Columna vertebralis)",
+   "region": "neck",
+   "summary": "Kafatasını taşıyan birinci boyun omurudur. Gövdesi ve diken çıkıntısı yoktur; ön ve arka kemerler ile iki yan kitleden (massae laterales) oluşan halka biçimindedir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Arcus anterior, arcus posterior, massae laterales, processus transversi"
+    ],
+    [
+     "Eklemleri",
+     "Art. atlanto-occipitalis (condyli occipitales ile; evet hareketi – fleksiyon/ekstansiyon), art. atlantoaxialis (axis ile; hayır hareketi – rotasyon)"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Fovea dentis (dens axis ile eklem), tuberculum anterius ve posterius, sulcus arteriae vertebralis"
+    ],
+    [
+     "Bağlar",
+     "Lig. transversum atlantis dens'i fovea dentis'e karşı tutar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Başın üzerine düşmede atlasın iki kemerinin birden kırılmasına Jefferson kırığı denir.",
+    "Romatoid artrit veya Down sendromunda lig. transversum gevşekliği atlantoaksiyel instabiliteye ve omurilik basısına yol açabilir."
+   ],
+   "related": [
+    "axis",
+    "os-occipitale",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Atlas (C1)"
+   ],
+   "aliases": [
+    "C1"
+   ]
+  },
+  {
+   "id": "axis",
+   "tr": "Axis (2. boyun omuru)",
+   "la": "Axis (C2)",
+   "en": "Axis (C2)",
+   "group": "Omurga (Columna vertebralis)",
+   "region": "neck",
+   "summary": "İkinci boyun omurudur; gövdesinden yukarı doğru uzanan diş şeklindeki çıkıntı (dens axis) atlasın etrafında döndüğü bir eksen oluşturur.",
+   "facts": [
+    [
+     "Ayırt edici özellik",
+     "Dens axis (processus odontoideus) – embriyolojik olarak atlasın gövdesidir"
+    ],
+    [
+     "Eklemleri",
+     "Art. atlantoaxialis mediana (dens–atlas) ve laterales, C3 ile intervertebral eklem"
+    ],
+    [
+     "Bağlar",
+     "Ligg. alaria, lig. apicis dentis, membrana tectoria, lig. cruciforme atlantis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dens kırıkları yaşlılarda düşmelerde sık görülür.",
+    "Asılarak idam yaralanmasında (hangman kırığı) axis'in pediküllerinden kırık oluşur."
+   ],
+   "related": [
+    "atlas",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Axis (C2)"
+   ],
+   "aliases": [
+    "C2",
+    "dens"
+   ]
+  },
+  {
+   "id": "vertebrae-thoracicae",
+   "tr": "Göğüs omurları",
+   "la": "Vertebrae thoracicae (T1–T12)",
+   "en": "Thoracic vertebrae",
+   "group": "Omurga (Columna vertebralis)",
+   "region": "back",
+   "summary": "Kaburgalarla eklem yapan on iki omurdur. Gövdelerinin yanlarında ve enine çıkıntılarında kaburgalar için eklem yüzleri (foveae costales) bulunur.",
+   "facts": [
+    [
+     "Sayı",
+     "12 (T1–T12)"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Gövdede fovea costalis superior ve inferior, enine çıkıntıda fovea costalis processus transversi; uzun, aşağı eğik diken çıkıntılar; yuvarlak foramen vertebrale"
+    ],
+    [
+     "Eklemleri",
+     "Kaburgalarla art. capitis costae ve art. costotransversaria"
+    ],
+    [
+     "Eğrilik",
+     "Arkaya doğru dışbükey (torakal kifoz)"
+    ]
+   ],
+   "sections": [
+    [
+     "Hareket",
+     "Göğüs kafesi nedeniyle fleksiyon-ekstansiyon kısıtlıdır; eklem yüzlerinin frontal düzlemde olması rotasyona izin verir. Diken çıkıntıları kiremit gibi üst üste dizilir."
+    ]
+   ],
+   "clinical": [
+    "Osteoporozlu yaşlılarda göğüs omurlarının kompresyon kırıkları kifozu (kambur) artırır.",
+    "Skolyoz en sık torakal bölgede görülen yanlara doğru eğriliktir."
+   ],
+   "related": [
+    "costae",
+    "vertebrae-cervicales",
+    "vertebrae-lumbales",
+    "sternum"
+   ],
+   "models": [
+    "Thoracic vertebrae"
+   ],
+   "aliases": [
+    "sırt omuru",
+    "torakal omur"
+   ]
+  },
+  {
+   "id": "vertebrae-lumbales",
+   "tr": "Bel omurları",
+   "la": "Vertebrae lumbales (L1–L5)",
+   "en": "Lumbar vertebrae",
+   "group": "Omurga (Columna vertebralis)",
+   "region": "back",
+   "summary": "Omurganın en büyük ve en güçlü omurlarıdır. Vücut ağırlığının büyük kısmını taşıdıkları için gövdeleri iri ve böbrek biçimlidir.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (L1–L5)"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Büyük gövde, kalın ve yatay dikdörtgen diken çıkıntılar, processus mammillaris ve accessorius, foramen transversarium ve kaburga yüzü yoktur"
+    ],
+    [
+     "Omurilik ilişkisi",
+     "Omurilik erişkinde L1–L2 hizasında conus medullaris ile sonlanır; altında cauda equina bulunur"
+    ],
+    [
+     "Eğrilik",
+     "Öne doğru dışbükey (lomber lordoz)"
+    ]
+   ],
+   "sections": [
+    [
+     "Hareket",
+     "Eklem yüzleri sagittal düzleme yakın olduğundan fleksiyon ve ekstansiyon serbesttir, rotasyon kısıtlıdır."
+    ]
+   ],
+   "clinical": [
+    "Bel fıtığı (lomber disk hernisi) en sık L4–L5 ve L5–S1 düzeylerinde görülür ve siyatik sinir boyunca yayılan ağrıya neden olur.",
+    "Lomber ponksiyon omuriliğe zarar vermemek için genellikle L3–L4 veya L4–L5 aralığından yapılır.",
+    "Spondilolistezis, bir omurun alttakinin üzerinde öne kaymasıdır; çoğunlukla L5'te görülür."
+   ],
+   "related": [
+    "vertebrae-thoracicae",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "plexus-lumbalis"
+   ],
+   "models": [
+    "Lumbar vertebrae"
+   ],
+   "aliases": [
+    "lomber omur"
+   ]
+  },
+  {
+   "id": "os-sacrum",
+   "tr": "Sağrı kemiği",
+   "la": "Os sacrum",
+   "en": "Sacrum",
+   "group": "Omurga (Columna vertebralis)",
+   "region": "pelvis",
+   "summary": "Beş sakral omurun kaynaşmasıyla oluşan, üçgen biçimli kemiktir. Pelvisin arka duvarını oluşturur ve kalça kemikleriyle sakroiliak eklemleri yapar.",
+   "facts": [
+    [
+     "Oluşum",
+     "5 sakral omurun (S1–S5) kaynaşması (yaklaşık 25 yaşında tamamlanır)"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Promontorium, foramina sacralia anteriora ve posteriora, crista sacralis mediana, hiatus sacralis, facies auricularis, canalis sacralis, ala ossis sacri"
+    ],
+    [
+     "Eklemleri",
+     "L5 (lumbosakral eklem), ossa coxae (art. sacroiliaca), os coccygis"
+    ],
+    [
+     "Cinsiyet farkı",
+     "Kadında daha geniş, kısa ve daha az kavislidir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hiatus sacralis'ten epidural alana yapılan kaudal anestezi doğum ve pediatrik cerrahide kullanılır.",
+    "Promontorium, obstetrik pelvis ölçümlerinde (konjugata vera) önemli bir referans noktasıdır."
+   ],
+   "related": [
+    "os-coccygis",
+    "os-coxae",
+    "vertebrae-lumbales",
+    "art-sacroiliaca"
+   ],
+   "models": [
+    "Sacrum"
+   ],
+   "aliases": [
+    "sakrum"
+   ]
+  },
+  {
+   "id": "os-coccygis",
+   "tr": "Kuyruk sokumu kemiği",
+   "la": "Os coccygis",
+   "en": "Coccyx",
+   "group": "Omurga (Columna vertebralis)",
+   "region": "pelvis",
+   "summary": "Omurganın en alt ucunda, 3–5 küçük rudimenter omurun kaynaşmasıyla oluşan küçük üçgen kemiktir.",
+   "facts": [
+    [
+     "Oluşum",
+     "3–5 koksigeal omurun kaynaşması"
+    ],
+    [
+     "Tutunanlar",
+     "M. gluteus maximus, m. coccygeus, m. levator ani (lig. anococcygeum), lig. sacrotuberale"
+    ],
+    [
+     "Eklem",
+     "Sakrum ile art. sacrococcygea"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Oturur pozisyonda düşmelerde koksiks kırığı veya ağrısı (koksidini) gelişebilir."
+   ],
+   "related": [
+    "os-sacrum",
+    "diaphragma-pelvis"
+   ],
+   "models": [
+    "Coccyx"
+   ],
+   "aliases": [
+    "koksiks"
+   ]
+  },
+  {
+   "id": "sternum",
+   "tr": "Göğüs kemiği",
+   "la": "Sternum",
+   "en": "Sternum",
+   "group": "Göğüs kafesi (Thorax)",
+   "region": "thorax",
+   "summary": "Göğüs kafesinin ön ortasında yer alan, kılıç biçiminde yassı kemiktir. Köprücük kemikleri ve ilk yedi çift kaburga kıkırdağı ile eklem yapar.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Yassı kemik (kırmızı kemik iliği içerir)"
+    ],
+    [
+     "Bölümleri",
+     "Manubrium sterni, corpus sterni, processus xiphoideus"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Incisura jugularis, incisurae claviculares, angulus sterni (Louis açısı – 2. kaburga hizası), incisurae costales"
+    ],
+    [
+     "Eklemleri",
+     "Clavicula (art. sternoclavicularis), 1.–7. kaburga kıkırdakları (artt. sternocostales)"
+    ]
+   ],
+   "sections": [
+    [
+     "Angulus sterni",
+     "Manubrium ile gövde arasındaki birleşim yeri dışarıdan ele gelir ve 2. kaburga kıkırdağının hizasını gösterir. Bu düzeyde (T4–T5) arcus aortae başlar ve biter, trakea ikiye ayrılır (bifurcatio tracheae)."
+    ]
+   ],
+   "clinical": [
+    "Kemik iliği biyopsisi sternumdan yapılabilir.",
+    "Açık kalp ameliyatlarında sternum ortadan ikiye ayrılır (median sternotomi).",
+    "Kalp masajı (KPR) sternumun alt yarısına yapılır; processus xiphoideus'a bası karaciğeri yaralayabilir."
+   ],
+   "related": [
+    "costae",
+    "clavicula",
+    "cartilagines-costales"
+   ],
+   "models": [
+    "Sternum",
+    "Manubrium of sternum",
+    "Body of sternum",
+    "Xiphoid process"
+   ],
+   "aliases": [
+    "iman tahtası"
+   ]
+  },
+  {
+   "id": "costae",
+   "tr": "Kaburgalar",
+   "la": "Costae",
+   "en": "Ribs",
+   "group": "Göğüs kafesi (Thorax)",
+   "region": "thorax",
+   "summary": "Göğüs kafesinin yan duvarlarını oluşturan on iki çift kavisli yassı kemiktir. Arkada göğüs omurlarıyla, önde kıkırdakları aracılığıyla sternumla birleşirler.",
+   "facts": [
+    [
+     "Sayı ve tipleri",
+     "12 çift: 1–7 gerçek kaburga (costae verae), 8–10 yalancı kaburga (costae spuriae), 11–12 serbest kaburga (costae fluctuantes)"
+    ],
+    [
+     "Bölümleri",
+     "Caput, collum, tuberculum, corpus, angulus costae"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sulcus costae (alt kenarda – interkostal ven, arter ve sinir seyreder: VAN sıralaması), crista capitis costae"
+    ],
+    [
+     "Atipik kaburgalar",
+     "1., 2., 10., 11. ve 12. kaburgalar; 1. kaburga en kısa, en yassı ve en kavislidir (sulcus a./v. subclaviae, tuberculum m. scaleni anterioris)"
+    ]
+   ],
+   "sections": [
+    [
+     "Solunumdaki rolü",
+     "İnspirasyonda üst kaburgalar sternumu öne kaldırarak ön-arka çapı (pompa kolu hareketi), alt kaburgalar yanlara açılarak enine çapı (kova kulpu hareketi) artırır."
+    ]
+   ],
+   "clinical": [
+    "Göğüs tüpü ve torasentez, interkostal damar-siniri korumak için kaburganın üst kenarından yapılır.",
+    "Çok sayıda kaburganın iki yerden kırılması paradoks solunumla seyreden yelken göğse (flail chest) yol açar.",
+    "Servikal kaburga, plexus brachialis veya a. subclavia'ya baskı yaparak torasik çıkış sendromuna neden olabilir."
+   ],
+   "related": [
+    "sternum",
+    "vertebrae-thoracicae",
+    "cartilagines-costales",
+    "mm-intercostales",
+    "diaphragma"
+   ],
+   "models": [
+    "Ribs"
+   ],
+   "aliases": [
+    "kaburga",
+    "kosta"
+   ]
+  },
+  {
+   "id": "cartilagines-costales",
+   "tr": "Kaburga kıkırdakları",
+   "la": "Cartilagines costales",
+   "en": "Costal cartilages",
+   "group": "Göğüs kafesi (Thorax)",
+   "region": "thorax",
+   "summary": "Kaburgaların ön uçlarını sternuma veya üstteki kıkırdağa bağlayan hiyalin kıkırdak çubuklardır. Göğüs kafesine esneklik kazandırırlar.",
+   "facts": [
+    [
+     "Doku",
+     "Hiyalin kıkırdak"
+    ],
+    [
+     "Bağlantılar",
+     "1–7: doğrudan sternuma; 8–10: üstteki kıkırdağa (arcus costalis); 11–12: serbest uçlu"
+    ],
+    [
+     "Yaşla değişim",
+     "İleri yaşta kireçlenebilir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kostokondral bileşkelerin iltihabı (kostokondrit, Tietze sendromu) kalp ağrısını taklit eden göğüs ağrısı yapabilir."
+   ],
+   "related": [
+    "costae",
+    "sternum"
+   ],
+   "models": [
+    "Costal cartilages"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "clavicula",
+   "tr": "Köprücük kemiği",
+   "la": "Clavicula",
+   "en": "Clavicle",
+   "group": "Üst ekstremite kemikleri",
+   "region": "upperLimb",
+   "summary": "Göğüs kemiği ile kürek kemiği arasında yatay uzanan, S şeklinde uzun kemiktir. Kolu gövdeye bağlayan tek kemik köprüdür.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Uzun kemik (ilik boşluğu yoktur)"
+    ],
+    [
+     "Uçları",
+     "Extremitas sternalis (art. sternoclavicularis) ve extremitas acromialis (art. acromioclavicularis)"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberculum conoideum, linea trapezoidea, impressio ligamenti costoclavicularis, sulcus m. subclavii"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. deltoideus, m. trapezius, m. pectoralis major, m. sternocleidomastoideus, m. sternohyoideus, m. subclavius"
+    ],
+    [
+     "Kemikleşme",
+     "Vücutta kemikleşmeye ilk başlayan (5.–6. hafta) ve en son tamamlanan kemiktir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En sık kırılan kemiklerden biridir; kırık genellikle orta ve dış üçte bir birleşiminde olur. Medial parça m. sternocleidomastoideus ile yukarı, lateral parça kolun ağırlığıyla aşağı çekilir.",
+    "Klavikula kırıklarında altından geçen plexus brachialis ve a./v. subclavia zarar görebilir."
+   ],
+   "related": [
+    "scapula",
+    "sternum",
+    "art-humeri",
+    "m-deltoideus"
+   ],
+   "models": [
+    "Clavicle"
+   ],
+   "aliases": [
+    "klavikula"
+   ]
+  },
+  {
+   "id": "scapula",
+   "tr": "Kürek kemiği",
+   "la": "Scapula",
+   "en": "Scapula",
+   "group": "Üst ekstremite kemikleri",
+   "region": "back",
+   "summary": "Göğüs kafesinin arka-üst yüzünde, 2.–7. kaburgalar hizasında yer alan üçgen biçimli yassı kemiktir. Humerus ile omuz eklemini oluşturur ve 17 kasa tutunma yeri sağlar.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Yassı kemik"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Spina scapulae, acromion, processus coracoideus, cavitas glenoidalis, tuberculum supraglenoidale ve infraglenoidale, fossa supraspinata, fossa infraspinata, fossa subscapularis, incisura scapulae"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (art. glenohumeralis), clavicula (art. acromioclavicularis); göğüs duvarıyla işlevsel scapulothoracic eklem"
+    ],
+    [
+     "Kas tutunmaları",
+     "Rotator manşet kasları, m. deltoideus, m. trapezius, m. biceps brachii, m. triceps brachii, m. serratus anterior, mm. rhomboidei, m. levator scapulae, m. teres major, m. pectoralis minor, m. coracobrachialis, m. omohyoideus"
+    ]
+   ],
+   "sections": [
+    [
+     "Hareketleri",
+     "Elevasyon, depresyon, protraksiyon, retraksiyon ve yukarı/aşağı rotasyon yapar. Kolun başın üzerine kaldırılmasında her 3 derecenin yaklaşık 1 derecesi skapulanın rotasyonuyla sağlanır (skapulohumeral ritim)."
+    ]
+   ],
+   "clinical": [
+    "N. thoracicus longus hasarında m. serratus anterior felç olur ve skapulanın iç kenarı kanat gibi kalkar (kanatlı skapula).",
+    "Incisura scapulae'de n. suprascapularis sıkışması omuz ağrısı ve supraspinatus/infraspinatus zayıflığına neden olur."
+   ],
+   "related": [
+    "clavicula",
+    "humerus",
+    "art-humeri",
+    "m-supraspinatus",
+    "m-infraspinatus",
+    "m-subscapularis"
+   ],
+   "models": [
+    "Scapula"
+   ],
+   "aliases": [
+    "skapula",
+    "kürek"
+   ]
+  },
+  {
+   "id": "humerus",
+   "tr": "Kol kemiği",
+   "la": "Humerus",
+   "en": "Humerus",
+   "group": "Üst ekstremite kemikleri",
+   "region": "upperLimb",
+   "summary": "Üst kolun tek ve en uzun kemiğidir. Üstte kürek kemiğiyle omuz eklemini, altta radius ve ulna ile dirsek eklemini oluşturur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Uzun kemik"
+    ],
+    [
+     "Üst uç",
+     "Caput humeri, collum anatomicum, collum chirurgicum, tuberculum majus ve minus, sulcus intertubercularis"
+    ],
+    [
+     "Gövde",
+     "Tuberositas deltoidea, sulcus nervi radialis"
+    ],
+    [
+     "Alt uç",
+     "Capitulum humeri, trochlea humeri, epicondylus medialis ve lateralis, fossa olecrani, fossa coronoidea, fossa radialis, sulcus nervi ulnaris"
+    ],
+    [
+     "Kemikleşme",
+     "Primer merkez gövdede 8. haftada; 8 sekonder merkez"
+    ]
+   ],
+   "sections": [
+    [
+     "Sinir ilişkileri",
+     "Humerus üç önemli sinirle doğrudan temas eder: collum chirurgicum ile n. axillaris, gövdedeki sulcus nervi radialis ile n. radialis ve epicondylus medialis'in arkasında n. ulnaris. Bu nedenle kırıklar sinir yaralanmasına özellikle yatkındır."
+    ]
+   ],
+   "clinical": [
+    "Collum chirurgicum kırığı: n. axillaris ve a. circumflexa humeri posterior hasarı (deltoid felci).",
+    "Gövde ortası kırığı: n. radialis hasarı – düşük el (bilek düşüklüğü).",
+    "Suprakondiler kırık (çocuklarda sık): a. brachialis ve n. medianus hasarı, Volkmann iskemik kontraktürü riski.",
+    "Epicondylus medialis kırığı: n. ulnaris hasarı – pençe el."
+   ],
+   "related": [
+    "scapula",
+    "radius",
+    "ulna",
+    "art-humeri",
+    "art-cubiti",
+    "n-radialis",
+    "n-axillaris"
+   ],
+   "models": [
+    "Humerus"
+   ],
+   "aliases": [
+    "humerus",
+    "pazu kemiği"
+   ]
+  },
+  {
+   "id": "radius",
+   "tr": "Döner kemik",
+   "la": "Radius",
+   "en": "Radius",
+   "group": "Üst ekstremite kemikleri",
+   "region": "upperLimb",
+   "summary": "Önkolun dış (başparmak) tarafındaki uzun kemiktir. Önkolun dönme hareketlerinde (pronasyon-supinasyon) ulna etrafında döner ve el bileğiyle esas eklemi yapar.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Uzun kemik"
+    ],
+    [
+     "Üst uç",
+     "Caput radii, collum radii, tuberositas radii (m. biceps brachii tutunur)"
+    ],
+    [
+     "Alt uç",
+     "Processus styloideus radii, incisura ulnaris, facies articularis carpalis, tuberculum dorsale (Lister tüberkülü)"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (art. humeroradialis), ulna (art. radioulnaris proximalis ve distalis), os scaphoideum ve os lunatum (art. radiocarpalis)"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. biceps brachii, m. supinator, m. pronator teres, m. brachioradialis, m. pronator quadratus, m. flexor pollicis longus, m. abductor pollicis longus"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Uzanmış el üzerine düşmede radius alt ucunun kırığı (Colles kırığı) en sık kırıklardandır; distal parça arkaya yer değiştirir ve 'çatal' görünümü oluşur.",
+    "Çocuklarda kolun aniden çekilmesiyle radius başı lig. anulare'den kayabilir (dadı dirseği)."
+   ],
+   "related": [
+    "ulna",
+    "humerus",
+    "art-cubiti",
+    "art-radiocarpalis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radius"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ulna",
+   "tr": "Dirsek kemiği",
+   "la": "Ulna",
+   "en": "Ulna",
+   "group": "Üst ekstremite kemikleri",
+   "region": "upperLimb",
+   "summary": "Önkolun iç (serçe parmak) tarafındaki uzun kemiktir. Üst ucu humerus ile dirsek ekleminin asıl menteşesini oluşturur; dirseğin ucunu olecranon yapar.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Uzun kemik"
+    ],
+    [
+     "Üst uç",
+     "Olecranon, processus coronoideus, incisura trochlearis, incisura radialis, tuberositas ulnae"
+    ],
+    [
+     "Alt uç",
+     "Caput ulnae, processus styloideus ulnae"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (art. humeroulnaris), radius (artt. radioulnares)"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. triceps brachii (olecranon), m. brachialis (tuberositas ulnae), m. flexor digitorum profundus, m. pronator quadratus, m. supinator, m. anconeus, m. flexor carpi ulnaris, m. extensor carpi ulnaris"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Monteggia kırığı: ulna üst üçte bir kırığı ile radius başı çıkığının birlikteliği.",
+    "Olecranon kırıklarında m. triceps proksimal parçayı yukarı çeker; genellikle cerrahi tespit gerekir."
+   ],
+   "related": [
+    "radius",
+    "humerus",
+    "art-cubiti"
+   ],
+   "models": [
+    "Ulna"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossa-carpi",
+   "tr": "El bilek kemikleri",
+   "la": "Ossa carpi",
+   "en": "Carpal bones",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileğini oluşturan, iki sıra hâlinde dizilmiş sekiz kısa kemiktir. Ön yüzlerinde oluşturdukları oluk (sulcus carpi), retinaculum flexorum ile örtülerek karpal tüneli oluşturur.",
+   "facts": [
+    [
+     "Üst sıra (lateralden mediale)",
+     "Os scaphoideum, os lunatum, os triquetrum, os pisiforme"
+    ],
+    [
+     "Alt sıra (lateralden mediale)",
+     "Os trapezium, os trapezoideum, os capitatum, os hamatum"
+    ],
+    [
+     "Akılda tutma",
+     "‘Kayıkla aya giden üç bezelye; büyük ve küçük çokgen başlı çengele takıldı’"
+    ],
+    [
+     "Karpal tünelden geçenler",
+     "N. medianus ve 9 tendon (4 FDS, 4 FDP, 1 FPL)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Karpal tünel sendromu: n. medianus'un sıkışmasıyla başparmak, işaret, orta parmak ve yüzük parmağının yarısında uyuşma ve tenar kas atrofisi.",
+    "Kemikleşme merkezleri yaşa göre sırayla ortaya çıktığından el bileği grafisi kemik yaşı tayininde kullanılır."
+   ],
+   "related": [
+    "os-scaphoideum",
+    "os-lunatum",
+    "os-triquetrum",
+    "os-pisiforme",
+    "os-trapezium",
+    "os-trapezoideum",
+    "os-capitatum",
+    "os-hamatum",
+    "art-radiocarpalis",
+    "n-medianus"
+   ],
+   "models": [
+    "Scaphoid bone",
+    "Lunate bone",
+    "Triquetrum bone",
+    "Pisiform bone",
+    "Trapezium bone",
+    "Trapezoid bone",
+    "Capitate bone",
+    "Hamate bone"
+   ],
+   "aliases": [
+    "karpal kemikler"
+   ]
+  },
+  {
+   "id": "os-scaphoideum",
+   "tr": "Kayık kemiği (el)",
+   "la": "Os scaphoideum",
+   "en": "Scaphoid bone",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileği kemiklerinin üst sırasının en dışında yer alan, kayık biçimli kemiktir. Radius ile eklem yapan ana kemiklerden biridir ve en sık kırılan karpal kemiktir.",
+   "facts": [
+    [
+     "Konum",
+     "Üst sıra, en lateral; anatomik enfiye çukurunun (tabatière anatomique) tabanında"
+    ],
+    [
+     "Eklemleri",
+     "Radius, os lunatum, os capitatum, os trapezium, os trapezoideum"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberculum ossis scaphoidei (retinaculum flexorum tutunur)"
+    ],
+    [
+     "Kanlanma",
+     "A. radialis dalları; kan akımı distalden proksimale doğrudur"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Uzanmış el üzerine düşmede kırılır; anatomik enfiye çukurunda hassasiyet tipiktir.",
+    "Kanlanma distalden geldiği için bel kısmından kırıklarda proksimal parçada avasküler nekroz gelişebilir; ilk grafiler normal olabileceğinden şüphede alçı uygulanır."
+   ],
+   "related": [
+    "ossa-carpi",
+    "radius",
+    "os-lunatum",
+    "a-radialis"
+   ],
+   "models": [
+    "Scaphoid bone"
+   ],
+   "aliases": [
+    "skafoid",
+    "naviküler (el)"
+   ]
+  },
+  {
+   "id": "os-lunatum",
+   "tr": "Ay kemiği",
+   "la": "Os lunatum",
+   "en": "Lunate bone",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileği üst sırasında, scaphoid ile triquetrum arasında yer alan hilal biçimli kemiktir. Radius ile eklem yapar.",
+   "facts": [
+    [
+     "Konum",
+     "Üst sıra, scaphoid ile triquetrum arası"
+    ],
+    [
+     "Eklemleri",
+     "Radius, discus articularis, os scaphoideum, os triquetrum, os capitatum, os hamatum"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En sık çıkan karpal kemiktir; öne doğru çıkığı karpal tünelde n. medianus'a bası yapabilir.",
+    "Kienböck hastalığı: os lunatum'un avasküler nekrozudur."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "radius"
+   ],
+   "models": [
+    "Lunate bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-triquetrum",
+   "tr": "Üçgen kemik",
+   "la": "Os triquetrum",
+   "en": "Triquetrum",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileği üst sırasında, lunatum'un içinde yer alan piramit biçimli kemiktir. Ön yüzünde pisiform kemikle eklem yapar.",
+   "facts": [
+    [
+     "Konum",
+     "Üst sıra, os lunatum ile os pisiforme arası"
+    ],
+    [
+     "Eklemleri",
+     "Os lunatum, os pisiforme, os hamatum, discus articularis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "os-hamatum"
+   ],
+   "models": [
+    "Triquetrum bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-pisiforme",
+   "tr": "Bezelye kemiği",
+   "la": "Os pisiforme",
+   "en": "Pisiform bone",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileği üst sırasının en içinde, triquetrum'un ön yüzünde oturan küçük bezelye biçimli kemiktir. M. flexor carpi ulnaris tendonu içinde gelişen bir sesamoid kemiktir.",
+   "facts": [
+    [
+     "Konum",
+     "Üst sıra, en medial; el ayasının hipotenar tarafında ele gelir"
+    ],
+    [
+     "Tutunanlar",
+     "M. flexor carpi ulnaris, m. abductor digiti minimi, lig. pisohamatum, lig. pisometacarpale, retinaculum flexorum"
+    ]
+   ],
+   "sections": [
+    [
+     "Guyon kanalı",
+     "Pisiform ile hamatum'un çengeli (hamulus) arasındaki Guyon kanalından n. ulnaris ve a. ulnaris geçer."
+    ]
+   ],
+   "clinical": [
+    "Guyon kanalında n. ulnaris sıkışması (bisikletçi felci) el içi küçük kaslarında zayıflığa neden olur."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-triquetrum",
+    "os-hamatum",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Pisiform bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-trapezium",
+   "tr": "Büyük çokgen kemik",
+   "la": "Os trapezium",
+   "en": "Trapezium",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileği alt sırasının en dışında yer alan kemiktir. Birinci tarak kemiğiyle başparmağın eyer tipi eklemini oluşturur.",
+   "facts": [
+    [
+     "Konum",
+     "Alt sıra, en lateral"
+    ],
+    [
+     "Eklemleri",
+     "Os scaphoideum, os trapezoideum, 1. ve 2. metakarp"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberculum ossis trapezii, m. flexor carpi radialis tendonu için oluk"
+    ]
+   ],
+   "sections": [
+    [
+     "Başparmak eklemi",
+     "Art. carpometacarpalis pollicis eyer (sellar) tipidir; başparmağın karşı koyma (opozisyon) hareketini mümkün kılar."
+    ]
+   ],
+   "clinical": [
+    "Başparmak tabanı (trapeziometakarpal) osteoartriti özellikle orta yaş kadınlarda sık görülür."
+   ],
+   "related": [
+    "ossa-carpi",
+    "ossa-metacarpi",
+    "os-trapezoideum"
+   ],
+   "models": [
+    "Trapezium bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-trapezoideum",
+   "tr": "Küçük çokgen kemik",
+   "la": "Os trapezoideum",
+   "en": "Trapezoid bone",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileği alt sırasında, trapezium ile capitatum arasında yer alan en küçük kemiklerden biridir. İkinci tarak kemiğiyle eklem yapar.",
+   "facts": [
+    [
+     "Konum",
+     "Alt sıra, trapezium ile capitatum arası"
+    ],
+    [
+     "Eklemleri",
+     "Os scaphoideum, os trapezium, os capitatum, 2. metakarp"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum"
+   ],
+   "models": [
+    "Trapezoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-capitatum",
+   "tr": "Başlı kemik",
+   "la": "Os capitatum",
+   "en": "Capitate bone",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileği kemiklerinin en büyüğüdür; alt sıranın ortasında yer alır ve yuvarlak başı üst sıradaki scaphoid ile lunatum'un oluşturduğu çukura oturur.",
+   "facts": [
+    [
+     "Konum",
+     "Alt sıra, merkez"
+    ],
+    [
+     "Eklemleri",
+     "Os scaphoideum, os lunatum, os trapezoideum, os hamatum, 2.–4. metakarplar"
+    ],
+    [
+     "Kemikleşme",
+     "İlk kemikleşen karpal kemiktir (1–3. ay)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "ossa-carpi",
+    "os-lunatum",
+    "os-hamatum"
+   ],
+   "models": [
+    "Capitate bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-hamatum",
+   "tr": "Çengelli kemik",
+   "la": "Os hamatum",
+   "en": "Hamate bone",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El bileği alt sırasının en içinde yer alan, ön yüzünde çengel (hamulus ossis hamati) bulunan kemiktir.",
+   "facts": [
+    [
+     "Konum",
+     "Alt sıra, en medial"
+    ],
+    [
+     "Eklemleri",
+     "Os lunatum, os triquetrum, os capitatum, 4. ve 5. metakarp"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Hamulus ossis hamati – retinaculum flexorum ve lig. pisohamatum tutunur; Guyon kanalının dış duvarı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Golf ve beyzbol oyuncularında hamulus kırığı görülebilir; n. ulnaris'in derin dalı etkilenebilir."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Hamate bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossa-metacarpi",
+   "tr": "El tarak kemikleri",
+   "la": "Ossa metacarpi (I–V)",
+   "en": "Metacarpal bones",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "El ayasının iskeletini oluşturan beş uzun kemiktir. Proksimalde el bileği kemikleriyle, distalde parmakların proksimal falankslarıyla eklem yapar.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (başparmaktan serçe parmağa I–V)"
+    ],
+    [
+     "Bölümleri",
+     "Basis, corpus, caput (yumruk yapılınca 'eklem kemikleri' olarak görülür)"
+    ],
+    [
+     "Eklemleri",
+     "Artt. carpometacarpales, artt. intermetacarpales, artt. metacarpophalangeae"
+    ],
+    [
+     "Özellik",
+     "1. metakarp en kısa ve en kalın, en hareketli olanıdır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Yumrukla vurma sonucu 5. metakarp boynunun kırığı 'boksör kırığı' olarak bilinir.",
+    "1. metakarp tabanının eklem içi kırığına Bennett kırığı denir."
+   ],
+   "related": [
+    "ossa-carpi",
+    "phalanges-manus",
+    "os-trapezium"
+   ],
+   "models": [
+    "First metacarpal bone",
+    "Second metacarpal bone",
+    "Third metacarpal bone",
+    "Fourth metacarpal bone",
+    "Fifth metacarpal bone"
+   ],
+   "aliases": [
+    "metakarp"
+   ]
+  },
+  {
+   "id": "phalanges-manus",
+   "tr": "El parmak kemikleri",
+   "la": "Phalanges manus",
+   "en": "Phalanges of hand",
+   "group": "El kemikleri",
+   "region": "upperLimb",
+   "summary": "Parmakların iskeletini oluşturan 14 kısa uzun kemiktir. Başparmakta iki, diğer parmaklarda üçer falanks bulunur.",
+   "facts": [
+    [
+     "Sayı",
+     "14 (başparmak 2, diğerleri 3'er)"
+    ],
+    [
+     "Adları",
+     "Phalanx proximalis, media ve distalis"
+    ],
+    [
+     "Eklemleri",
+     "Artt. metacarpophalangeae, artt. interphalangeae proximales (PIP) ve distales (DIP)"
+    ],
+    [
+     "Distal falanks",
+     "Ucunda tırnak yatağını taşıyan tuberositas phalangis distalis bulunur"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Distal falanks tabanına yapışan ekstansör tendonun kopmasıyla parmak ucu düşer (çekiç parmak / mallet finger).",
+    "Osteoartritte DIP eklemlerinde Heberden, PIP eklemlerinde Bouchard nodülleri görülür."
+   ],
+   "related": [
+    "ossa-metacarpi",
+    "m-flexor-digitorum-profundus",
+    "m-extensor-digitorum"
+   ],
+   "models": [
+    "Distal phalanx of first finger of hand",
+    "Distal phalanx of second finger of hand",
+    "Distal phalanx of third finger of hand",
+    "Distal phalanx of fourth finger of hand",
+    "Distal phalanx of fifth finger of hand",
+    "Middle phalanx of second finger of hand",
+    "Middle phalanx of third finger of hand",
+    "Middle phalanx of fourth finger of hand",
+    "Middle phalanx of fifth finger of hand",
+    "Proximal phalanx of first finger of hand",
+    "Proximal phalanx of second finger of hand",
+    "Proximal phalanx of third finger of hand",
+    "Proximal phalanx of fourth finger of hand",
+    "Proximal phalanx of fifth finger of hand"
+   ],
+   "aliases": [
+    "falanks",
+    "parmak kemiği"
+   ]
+  },
+  {
+   "id": "os-coxae",
+   "tr": "Kalça kemiği",
+   "la": "Os coxae",
+   "en": "Hip bone",
+   "group": "Alt ekstremite kemikleri",
+   "region": "pelvis",
+   "summary": "Pelvisin yan ve ön duvarını oluşturan büyük, düzensiz biçimli çift kemiktir. Üç ayrı kemiğin (ilium, ischium, pubis) asetabulumda kaynaşmasıyla oluşur.",
+   "facts": [
+    [
+     "Oluşum",
+     "Os ilium, os ischii ve os pubis; 15–17 yaşlarında acetabulum'daki Y kıkırdağında (cartilago triradiata) kaynaşır"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crista iliaca, spina iliaca anterior superior (SIAS) ve inferior, spina iliaca posterior superior, acetabulum, foramen obturatum, tuber ischiadicum, spina ischiadica, incisura ischiadica major ve minor, ramus ossis pubis, tuberculum pubicum, facies symphysialis"
+    ],
+    [
+     "Eklemleri",
+     "Femur (art. coxae), sakrum (art. sacroiliaca), karşı os coxae (symphysis pubica)"
+    ],
+    [
+     "Kas tutunmaları",
+     "Gluteal kaslar, m. iliacus, karın kasları, hamstring kasları (tuber ischiadicum), adduktor kaslar, m. sartorius (SIAS), m. rectus femoris (SIAI)"
+    ]
+   ],
+   "sections": [
+    [
+     "Pelvis cinsiyet farkları",
+     "Kadın pelvisi daha geniş ve sığdır; pelvis girişi oval, subpubik açı geniştir (yaklaşık 80–90°). Erkek pelvisi daha dar ve derindir; giriş kalp biçimli, subpubik açı daralmıştır (yaklaşık 50–60°)."
+    ],
+    [
+     "Delikler",
+     "Foramen ischiadicum majus'tan m. piriformis, n. ischiadicus, damarlar ve n. pudendus; foramen ischiadicum minus'tan m. obturatorius internus tendonu ve n. pudendus; foramen obturatum'dan (canalis obturatorius) n. ve vasa obturatoria geçer."
+    ]
+   ],
+   "clinical": [
+    "Crista iliaca kemik iliği aspirasyonu ve kemik grefti alımı için kullanılır.",
+    "Yaşlılarda pubik kollar sık kırılır; yüksek enerjili pelvis kırıklarında ciddi iç kanama olabilir.",
+    "SIAS yakınında n. cutaneus femoris lateralis'in sıkışması uyluk dış yüzünde yanma ve uyuşukluk (meraljia parestetika) yapar."
+   ],
+   "related": [
+    "femur",
+    "os-sacrum",
+    "art-coxae",
+    "art-sacroiliaca",
+    "m-gluteus-maximus"
+   ],
+   "models": [
+    "Hip bone"
+   ],
+   "aliases": [
+    "ilium",
+    "ischium",
+    "pubis",
+    "leğen kemiği",
+    "kalça"
+   ]
+  },
+  {
+   "id": "femur",
+   "tr": "Uyluk kemiği",
+   "la": "Femur",
+   "en": "Femur",
+   "group": "Alt ekstremite kemikleri",
+   "region": "lowerLimb",
+   "summary": "Vücudun en uzun, en ağır ve en güçlü kemiğidir. Üstte kalça kemiğiyle kalça eklemini, altta tibia ve patella ile diz eklemini oluşturur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Uzun kemik (boyun uzunluğunun yaklaşık 1/4'ü)"
+    ],
+    [
+     "Üst uç",
+     "Caput femoris (fovea capitis), collum femoris, trochanter major ve minor, linea ve crista intertrochanterica"
+    ],
+    [
+     "Gövde",
+     "Linea aspera (labium mediale ve laterale), tuberositas glutea, linea pectinea"
+    ],
+    [
+     "Alt uç",
+     "Condylus medialis ve lateralis, epicondyli, tuberculum adductorium, fossa intercondylaris, facies patellaris, facies poplitea"
+    ],
+    [
+     "Boyun-gövde açısı",
+     "Erişkinde yaklaşık 125° (inklinasyon açısı); öne dönüklük (anteversiyon) yaklaşık 10–15°"
+    ],
+    [
+     "Kas tutunmaları",
+     "Gluteal kaslar, m. iliopsoas (trochanter minor), adduktorlar (linea aspera), vasti, gastrocnemius'un başları"
+    ]
+   ],
+   "sections": [
+    [
+     "Kanlanma",
+     "Femur başını besleyen damarların çoğu a. circumflexa femoris medialis'ten gelen retinaküler dallardır; lig. capitis femoris içindeki arter erişkinde katkısı azdır."
+    ]
+   ],
+   "clinical": [
+    "Yaşlılarda (özellikle osteoporozlu kadınlarda) collum femoris kırıkları sıktır; bacak kısalır ve dışa döner. İntrakapsüler kırıklarda retinaküler damarlar yırtılarak femur başı nekrozu gelişebilir.",
+    "Femur gövde kırıklarında ciddi kan kaybı (1–1,5 L) ve yağ embolisi görülebilir.",
+    "Çocuklarda femur başı epifizinin kayması (SCFE) ve Perthes hastalığı topallığa neden olur."
+   ],
+   "related": [
+    "os-coxae",
+    "tibia",
+    "patella",
+    "art-coxae",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Femur"
+   ],
+   "aliases": [
+    "uyluk"
+   ]
+  },
+  {
+   "id": "patella",
+   "tr": "Diz kapağı kemiği",
+   "la": "Patella",
+   "en": "Patella",
+   "group": "Alt ekstremite kemikleri",
+   "region": "lowerLimb",
+   "summary": "Vücudun en büyük sesamoid kemiğidir. M. quadriceps femoris tendonu içinde gelişir ve diz ekleminin önünde yer alır.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Sesamoid kemik"
+    ],
+    [
+     "Bölümleri",
+     "Basis patellae (üst), apex patellae (alt), facies articularis (arka; lateral faset daha geniş)"
+    ],
+    [
+     "Bağlantılar",
+     "Üstte tendo m. quadricipitis, altta lig. patellae (tuberositas tibiae'ye)"
+    ],
+    [
+     "İşlevi",
+     "Quadriceps'in kaldıraç kolunu uzatarak ekstansiyon gücünü artırır; femur kondillerini korur"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Q açısı arttıkça (genellikle kadınlarda) patella dışa doğru çıkmaya eğilimlidir; m. vastus medialis'in alt lifleri buna karşı koyar.",
+    "Patella kırıkları doğrudan darbeyle olur; ekstansör mekanizmanın bütünlüğü değerlendirilmelidir.",
+    "Patellar refleks (diz refleksi) L2–L4 (özellikle L4) segmentlerini test eder."
+   ],
+   "related": [
+    "femur",
+    "tibia",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Patella"
+   ],
+   "aliases": [
+    "diz kapağı"
+   ]
+  },
+  {
+   "id": "tibia",
+   "tr": "Kaval kemiği",
+   "la": "Tibia",
+   "en": "Tibia",
+   "group": "Alt ekstremite kemikleri",
+   "region": "lowerLimb",
+   "summary": "Bacağın iç tarafındaki, ağırlık taşıyan büyük kemiğidir. Ön kenarı (margo anterior) deri altında boydan boya ele gelir.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Uzun kemik"
+    ],
+    [
+     "Üst uç",
+     "Condylus medialis ve lateralis, eminentia intercondylaris, tuberositas tibiae, facies articularis fibularis"
+    ],
+    [
+     "Gövde",
+     "Margo anterior (kaval kemiği sırtı), facies medialis (deri altında), linea musculi solei"
+    ],
+    [
+     "Alt uç",
+     "Malleolus medialis, incisura fibularis, facies articularis inferior"
+    ],
+    [
+     "Eklemleri",
+     "Femur (diz), fibula (proksimal ve distal tibiofibular eklemler), talus (ayak bileği)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tibia gövdesi en sık açık kırık olan uzun kemiktir; ön-iç yüzü yalnızca deriyle örtülüdür ve kanlanması zayıf olduğundan iyileşme yavaştır.",
+    "Kaval kemiği ağrısı (shin splints) koşucularda sık görülür.",
+    "Ergenlerde tuberositas tibiae'de ağrılı şişlik Osgood–Schlatter hastalığıdır."
+   ],
+   "related": [
+    "femur",
+    "fibula",
+    "patella",
+    "talus",
+    "art-genus",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Tibia"
+   ],
+   "aliases": [
+    "kaval"
+   ]
+  },
+  {
+   "id": "fibula",
+   "tr": "Kamış kemiği",
+   "la": "Fibula",
+   "en": "Fibula",
+   "group": "Alt ekstremite kemikleri",
+   "region": "lowerLimb",
+   "summary": "Bacağın dış tarafında yer alan ince uzun kemiktir. Vücut ağırlığını taşımaz; kaslara tutunma yeri sağlar ve dış topuğu (malleolus lateralis) oluşturarak ayak bileğine katılır.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Uzun kemik"
+    ],
+    [
+     "Bölümleri",
+     "Caput fibulae (apex), collum fibulae, corpus, malleolus lateralis"
+    ],
+    [
+     "Eklemleri",
+     "Tibia (art. tibiofibularis, syndesmosis tibiofibularis), talus"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. biceps femoris, mm. fibulares, m. extensor digitorum longus, m. extensor hallucis longus, m. soleus, m. tibialis posterior, m. flexor hallucis longus"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Collum fibulae'yi saran n. fibularis communis darbede veya sıkı alçıda hasar görebilir; düşük ayak (foot drop) gelişir.",
+    "Fibula gövdesinin orta kısmı damarlı kemik grefti olarak alınabilir.",
+    "Ayak bileği burkulmalarında malleolus lateralis kırığı sık görülür."
+   ],
+   "related": [
+    "tibia",
+    "art-talocruralis",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Fibula"
+   ],
+   "aliases": [
+    "peroneal kemik"
+   ]
+  },
+  {
+   "id": "talus",
+   "tr": "Aşık kemiği",
+   "la": "Talus",
+   "en": "Talus",
+   "group": "Ayak kemikleri",
+   "region": "lowerLimb",
+   "summary": "Bacak kemikleri ile ayak arasında ağırlığı aktaran, ayak bileği ekleminin alt parçasını oluşturan kemiktir. Hiçbir kas tutunmaz.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Caput, collum, corpus, trochlea tali, processus lateralis ve posterior"
+    ],
+    [
+     "Eklemleri",
+     "Tibia ve fibula (art. talocruralis), calcaneus (art. subtalaris), os naviculare (art. talocalcaneonavicularis)"
+    ],
+    [
+     "Özellik",
+     "Yüzeyinin büyük kısmı eklem kıkırdağıyla kaplıdır; kas tutunmaz"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Talus boynu kırıkları (havacı kırığı) kanlanma bozulduğu için avasküler nekrozla sonuçlanabilir."
+   ],
+   "related": [
+    "tibia",
+    "fibula",
+    "calcaneus",
+    "os-naviculare",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Talus"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "calcaneus",
+   "tr": "Topuk kemiği",
+   "la": "Calcaneus",
+   "en": "Calcaneus",
+   "group": "Ayak kemikleri",
+   "region": "lowerLimb",
+   "summary": "Ayağın en büyük kemiğidir. Topuk çıkıntısını oluşturur ve ayakta dururken ağırlığı yere iletir.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuber calcanei, sustentaculum tali, sulcus tendinis m. flexoris hallucis longi, trochlea fibularis"
+    ],
+    [
+     "Eklemleri",
+     "Talus (art. subtalaris), os cuboideum (art. calcaneocuboidea)"
+    ],
+    [
+     "Tutunanlar",
+     "Tendo calcaneus (Aşil tendonu), aponeurosis plantaris, m. flexor digitorum brevis, m. abductor hallucis, m. abductor digiti minimi, m. quadratus plantae, m. extensor digitorum brevis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Yüksekten ayak üstüne düşmede calcaneus kırılır; omurga kompresyon kırığı eşlik edebileceği için omurga da değerlendirilmelidir.",
+    "Topuk dikeni (kalkaneal spur) ve plantar fasiit topuk ağrısının sık nedenleridir."
+   ],
+   "related": [
+    "talus",
+    "os-cuboideum",
+    "m-triceps-surae"
+   ],
+   "models": [
+    "Calcaneus"
+   ],
+   "aliases": [
+    "topuk"
+   ]
+  },
+  {
+   "id": "os-naviculare",
+   "tr": "Kayık kemiği (ayak)",
+   "la": "Os naviculare",
+   "en": "Navicular bone",
+   "group": "Ayak kemikleri",
+   "region": "lowerLimb",
+   "summary": "Ayağın iç tarafında, talus ile çivi kemikleri arasında yer alan kayık biçimli kemiktir. Ayağın iç kemerinin kilit taşıdır.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuberositas ossis navicularis (m. tibialis posterior'un ana tutunma yeri)"
+    ],
+    [
+     "Eklemleri",
+     "Talus, üç os cuneiforme, bazen os cuboideum"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Aksesuar naviküler kemik ayak iç kenarında ağrılı çıkıntı yapabilir.",
+    "Köhler hastalığı çocuklarda naviküler kemiğin avasküler nekrozudur."
+   ],
+   "related": [
+    "talus",
+    "ossa-cuneiformia",
+    "m-tibialis-posterior"
+   ],
+   "models": [
+    "Navicular bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-cuboideum",
+   "tr": "Küp kemiği",
+   "la": "Os cuboideum",
+   "en": "Cuboid bone",
+   "group": "Ayak kemikleri",
+   "region": "lowerLimb",
+   "summary": "Ayağın dış tarafında, topuk kemiği ile 4. ve 5. tarak kemikleri arasında yer alan küp biçimli kemiktir.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuberositas ossis cuboidei, sulcus tendinis m. fibularis longi"
+    ],
+    [
+     "Eklemleri",
+     "Calcaneus, os cuneiforme laterale, os naviculare, 4. ve 5. metatars"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "calcaneus",
+    "ossa-metatarsi",
+    "m-fibularis-longus"
+   ],
+   "models": [
+    "Cuboid bone"
+   ],
+   "aliases": [
+    "kuboid"
+   ]
+  },
+  {
+   "id": "ossa-cuneiformia",
+   "tr": "Çivi kemikleri",
+   "la": "Ossa cuneiformia",
+   "en": "Cuneiform bones",
+   "group": "Ayak kemikleri",
+   "region": "lowerLimb",
+   "summary": "Naviküler kemik ile ilk üç tarak kemiği arasında yer alan, kama biçimli üç kemiktir: iç (mediale), orta (intermedium) ve dış (laterale).",
+   "facts": [
+    [
+     "Kemikler",
+     "Os cuneiforme mediale (en büyük), intermedium (en küçük), laterale"
+    ],
+    [
+     "Eklemleri",
+     "Os naviculare, 1.–3. metatars, os cuboideum (laterale)"
+    ],
+    [
+     "İşlev",
+     "Kama şekilleri ayağın enine kemerinin oluşmasına katkıda bulunur"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "os-naviculare",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone",
+    "Intermediate cuneiform bone",
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "kuneiform"
+   ]
+  },
+  {
+   "id": "ossa-metatarsi",
+   "tr": "Ayak tarak kemikleri",
+   "la": "Ossa metatarsi (I–V)",
+   "en": "Metatarsal bones",
+   "group": "Ayak kemikleri",
+   "region": "lowerLimb",
+   "summary": "Ayak tarağının iskeletini oluşturan beş uzun kemiktir. Birincisi en kısa ve en kalın olanıdır; başları ayakta dururken ağırlığın önemli bir kısmını taşır.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V)"
+    ],
+    [
+     "Önemli oluşumlar",
+     "5. metatarsın tabanında tuberositas ossis metatarsi quinti (m. fibularis brevis tutunur); 1. metatars başının altında iki sesamoid kemik"
+    ],
+    [
+     "Eklemleri",
+     "Artt. tarsometatarsales (Lisfranc eklemi), artt. metatarsophalangeae"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "5. metatars tabanının kırığı (Jones kırığı) ayak bileği burkulmalarında sıktır.",
+    "Uzun yürüyüşlerde 2.–3. metatarslarda stres kırığı (marş kırığı) görülebilir.",
+    "Hallux valgus'ta 1. metatars içe, başparmak dışa sapar."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuboideum",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "First metatarsal bone",
+    "Second metatarsal bone",
+    "Third metatarsal bone",
+    "Fourth metatarsal bone",
+    "Fifth metatarsal bone"
+   ],
+   "aliases": [
+    "metatars"
+   ]
+  },
+  {
+   "id": "phalanges-pedis",
+   "tr": "Ayak parmak kemikleri",
+   "la": "Phalanges pedis",
+   "en": "Phalanges of foot",
+   "group": "Ayak kemikleri",
+   "region": "lowerLimb",
+   "summary": "Ayak parmaklarının 14 kemiğidir. Başparmakta (hallux) iki, diğer parmaklarda üçer falanks bulunur; el falankslarından daha kısadırlar.",
+   "facts": [
+    [
+     "Sayı",
+     "14"
+    ],
+    [
+     "Eklemleri",
+     "Artt. metatarsophalangeae, artt. interphalangeae pedis"
+    ],
+    [
+     "Sesamoid kemikler",
+     "Hallux'un metatarsofalangeal ekleminin altında iki sesamoid kemik bulunur"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Çekiç parmak deformitesi ve gut artriti (özellikle 1. MTP eklemi – podagra) sık görülen sorunlardır."
+   ],
+   "related": [
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Phalanges of foot",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "ayak parmağı"
+   ]
+  }
+ ]
+}

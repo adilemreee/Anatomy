@@ -1,0 +1,2206 @@
+{
+ "system": "cardiovascular",
+ "entries": [
+  {
+   "id": "cor",
+   "tr": "Kalp",
+   "la": "Cor",
+   "en": "Heart",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Göğüs boşluğunun orta bölmesinde (mediastinum medium), iki akciğer arasında yer alan, kanı vücuda pompalayan kaslı organdır. Yaklaşık yumruk büyüklüğündedir; dört boşluğu vardır: iki atrium ve iki ventrikül.",
+   "facts": [
+    [
+     "Ağırlık",
+     "Erişkinde yaklaşık 250–350 g"
+    ],
+    [
+     "Konum",
+     "Mediastinum medium; üçte ikisi orta hattın solunda, tepesi (apex cordis) sol 5. interkostal aralıkta orta klaviküler hatta"
+    ],
+    [
+     "Duvar katmanları",
+     "Endokard, miyokard (kalp kası), epikard (visseral perikard)"
+    ],
+    [
+     "Boşlukları",
+     "Atrium dextrum, ventriculus dexter, atrium sinistrum, ventriculus sinister"
+    ],
+    [
+     "Kapakları",
+     "Triküspit, pulmoner, mitral (biküspit), aort"
+    ],
+    [
+     "Kanlanma",
+     "A. coronaria dextra ve sinistra"
+    ],
+    [
+     "İnnervasyon",
+     "Plexus cardiacus (sempatik: kalp hızı ve kasılma gücünü artırır; parasempatik – n. vagus: kalp hızını azaltır)"
+    ]
+   ],
+   "sections": [
+    [
+     "Kan akışı",
+     "Vücuttan gelen oksijensiz kan vv. cavae ile sağ atriuma, triküspit kapaktan sağ ventriküle, pulmoner kapaktan truncus pulmonalis ile akciğerlere gider. Akciğerlerden vv. pulmonales ile sol atriuma dönen oksijenli kan mitral kapaktan sol ventriküle, aort kapağından aortaya pompalanır."
+    ],
+    [
+     "İleti sistemi",
+     "Nodus sinuatrialis (pacemaker; sağ atrium) → nodus atrioventricularis → His demeti (fasciculus atrioventricularis) → sağ ve sol dallar → Purkinje lifleri."
+    ]
+   ],
+   "clinical": [
+    "Miyokard enfarktüsü koroner arterlerin tıkanmasıyla kalp kasının ölümüdür.",
+    "Kalp yetmezliğinde kalp vücudun ihtiyacı kadar kan pompalayamaz; sol yetmezlik akciğer ödemine, sağ yetmezlik bacak ödemi ve karaciğer büyümesine yol açar.",
+    "Kalp oskültasyon odakları: aort (sağ 2. aralık), pulmoner (sol 2. aralık), triküspit (sol 4.–5. aralık sternum kenarı), mitral (apeks)."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "ventriculus-sinister",
+    "valvae-cordis",
+    "aa-coronariae",
+    "aorta",
+    "pericardium"
+   ],
+   "models": [
+    "Heart"
+   ],
+   "aliases": [
+    "kalp",
+    "kardiyak"
+   ]
+  },
+  {
+   "id": "atrium-dextrum",
+   "tr": "Sağ kulakçık",
+   "la": "Atrium dextrum",
+   "en": "Right atrium",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Vücuttan ve kalbin kendi duvarından gelen oksijensiz kanı toplayan kalp boşluğudur. Kalbin doğal pacemaker'ı olan sinüs düğümünü içerir.",
+   "facts": [
+    [
+     "Açılan damarlar",
+     "V. cava superior, v. cava inferior, sinus coronarius"
+    ],
+    [
+     "İç yapılar",
+     "Auricula dextra, mm. pectinati, crista terminalis, fossa ovalis (foramen ovale kalıntısı), valvula v. cavae inferioris"
+    ],
+    [
+     "İleti sistemi",
+     "Nodus sinuatrialis (v. cava superior girişi yakınında), nodus atrioventricularis (Koch üçgeninde)"
+    ],
+    [
+     "Çıkış",
+     "Ostium atrioventriculare dextrum (triküspit kapak) ile sağ ventriküle"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Foramen ovale doğumdan sonra kapanmazsa (patent foramen ovale) paradoks emboli riski oluşur.",
+    "Atriyal septal defekt (ASD) sağ kalpte hacim yüküne yol açar."
+   ],
+   "related": [
+    "cor",
+    "ventriculus-dexter",
+    "v-cava-superior",
+    "v-cava-inferior",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Right atrium"
+   ],
+   "aliases": [
+    "sağ atriyum"
+   ]
+  },
+  {
+   "id": "ventriculus-dexter",
+   "tr": "Sağ karıncık",
+   "la": "Ventriculus dexter",
+   "en": "Right ventricle",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Oksijensiz kanı akciğerlere pompalayan kalp boşluğudur. Kalbin ön yüzünün büyük kısmını oluşturur; duvarı sol ventriküle göre yaklaşık üç kat incedir.",
+   "facts": [
+    [
+     "Giriş",
+     "Triküspit kapak"
+    ],
+    [
+     "Çıkış",
+     "Conus arteriosus (infundibulum) ve pulmoner kapak ile truncus pulmonalis"
+    ],
+    [
+     "İç yapılar",
+     "Trabeculae carneae, mm. papillares (anterior, posterior, septalis), chordae tendineae, trabecula septomarginalis (moderator bant – sağ dalı taşır)"
+    ],
+    [
+     "Duvar kalınlığı",
+     "3–5 mm"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pulmoner hipertansiyon sağ ventrikül hipertrofisine ve yetmezliğine (kor pulmonale) yol açar.",
+    "Fallot tetralojisinde sağ ventrikül hipertrofisi bileşenlerden biridir."
+   ],
+   "related": [
+    "cor",
+    "atrium-dextrum",
+    "truncus-pulmonalis",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Right ventricle",
+    "Anterior papillary muscle of right ventricle",
+    "Inferior papillary muscle of right ventricle",
+    "Septal papillary muscle of right ventricle"
+   ],
+   "aliases": [
+    "sağ ventrikül"
+   ]
+  },
+  {
+   "id": "atrium-sinistrum",
+   "tr": "Sol kulakçık",
+   "la": "Atrium sinistrum",
+   "en": "Left atrium",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Akciğerlerden gelen oksijenli kanı toplayan, kalbin tabanının (basis cordis) büyük kısmını oluşturan kalp boşluğudur. Kalbin en arkada yer alan boşluğudur ve özofagusla komşudur.",
+   "facts": [
+    [
+     "Açılan damarlar",
+     "Dört v. pulmonalis"
+    ],
+    [
+     "Çıkış",
+     "Mitral kapak ile sol ventriküle"
+    ],
+    [
+     "İç yapılar",
+     "Duvarı büyük ölçüde düzdür; auricula sinistra'da mm. pectinati bulunur"
+    ],
+    [
+     "Komşuluk",
+     "Arkada özofagus – transözofageal ekokardiyografide iyi görüntülenir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Atriyal fibrilasyonda kan sol aurikulada pıhtılaşarak inmeye neden olabilir.",
+    "Mitral darlığında genişleyen sol atrium özofagusa bası yaparak yutma güçlüğüne yol açabilir."
+   ],
+   "related": [
+    "cor",
+    "ventriculus-sinister",
+    "vv-pulmonales",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Left atrium"
+   ],
+   "aliases": [
+    "sol atriyum"
+   ]
+  },
+  {
+   "id": "ventriculus-sinister",
+   "tr": "Sol karıncık",
+   "la": "Ventriculus sinister",
+   "en": "Left ventricle",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Oksijenli kanı aort aracılığıyla tüm vücuda pompalayan, kalbin en güçlü boşluğudur. Kalbin tepesini (apex) ve sol kenarını oluşturur.",
+   "facts": [
+    [
+     "Giriş",
+     "Mitral (biküspit) kapak"
+    ],
+    [
+     "Çıkış",
+     "Vestibulum aortae ve aort kapağı"
+    ],
+    [
+     "İç yapılar",
+     "İnce ve sık trabeculae carneae, iki güçlü papiller kas (anterior ve posterior), chordae tendineae"
+    ],
+    [
+     "Duvar kalınlığı",
+     "8–12 mm"
+    ],
+    [
+     "Ejeksiyon fraksiyonu",
+     "Normalde %55–70"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hipertansiyon ve aort darlığı sol ventrikül hipertrofisine yol açar.",
+    "Ön duvar enfarktüsünde (LAD tıkanması) sol ventrikülün ön duvarı ve septum etkilenir; papiller kas rüptürü akut mitral yetmezliğine neden olabilir."
+   ],
+   "related": [
+    "cor",
+    "atrium-sinistrum",
+    "aorta",
+    "valvae-cordis",
+    "aa-coronariae"
+   ],
+   "models": [
+    "Left ventricle",
+    "Inferior papillary muscle of left ventricle"
+   ],
+   "aliases": [
+    "sol ventrikül"
+   ]
+  },
+  {
+   "id": "valvae-cordis",
+   "tr": "Kalp kapakları",
+   "la": "Valvae cordis",
+   "en": "Heart valves",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Kanın kalp içinde tek yönde akmasını sağlayan dört kapaktır: iki atrioventriküler (triküspit ve mitral) ve iki semilunar (pulmoner ve aort) kapak.",
+   "facts": [
+    [
+     "Triküspit kapak",
+     "Valva atrioventricularis dextra – üç yaprak (anterior, posterior, septal)"
+    ],
+    [
+     "Mitral kapak",
+     "Valva atrioventricularis sinistra – iki yaprak (anterior ve posterior)"
+    ],
+    [
+     "Pulmoner kapak",
+     "Valva trunci pulmonalis – üç yarımay yaprak"
+    ],
+    [
+     "Aort kapağı",
+     "Valva aortae – üç yarımay yaprak (sağ koroner, sol koroner, non-koroner); koroner arterler sinüslerinden çıkar"
+    ],
+    [
+     "Destek yapıları",
+     "Atrioventriküler kapaklar chordae tendineae ile papiller kaslara bağlıdır; fibröz iskelet (anuli fibrosi) kapakları taşır"
+    ]
+   ],
+   "sections": [
+    [
+     "Kalp sesleri",
+     "S1 atrioventriküler kapakların, S2 semilunar kapakların kapanma sesidir."
+    ]
+   ],
+   "clinical": [
+    "Romatizmal kalp hastalığı en sık mitral kapağı etkiler.",
+    "Yaşlılarda aort darlığı (kalsifik) senkop, angina ve kalp yetmezliğine neden olur.",
+    "Enfektif endokardit kapak yapraklarında vejetasyonlar oluşturur."
+   ],
+   "related": [
+    "cor",
+    "atrium-dextrum",
+    "ventriculus-sinister",
+    "aorta"
+   ],
+   "models": [
+    "Valvular complex of heart"
+   ],
+   "aliases": [
+    "kapak",
+    "mitral",
+    "triküspit",
+    "aort kapağı",
+    "pulmoner kapak"
+   ]
+  },
+  {
+   "id": "aa-coronariae",
+   "tr": "Koroner arterler",
+   "la": "Arteriae coronariae",
+   "en": "Coronary arteries",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Kalp kasını besleyen, aort kökünden çıkan iki arterdir. Sol koroner arter kısa bir gövdeden sonra ön inen (LAD) ve sirkumfleks dallarına ayrılır.",
+   "facts": [
+    [
+     "A. coronaria sinistra",
+     "Sol aort sinüsünden; truncus (ana koroner) → r. interventricularis anterior (LAD) ve r. circumflexus"
+    ],
+    [
+     "A. coronaria dextra",
+     "Sağ aort sinüsünden; sulcus coronarius'ta seyreder; r. marginalis dexter, r. interventricularis posterior (çoğu kişide – sağ dominans), SA ve AV düğüm dalları"
+    ],
+    [
+     "LAD beslediği alan",
+     "Sol ventrikül ön duvarı, interventriküler septumun ön 2/3'ü, apeks"
+    ],
+    [
+     "Sirkumfleks beslediği alan",
+     "Sol ventrikül yan ve arka duvarı, sol atrium"
+    ],
+    [
+     "Sağ koroner beslediği alan",
+     "Sağ atrium ve ventrikül, septumun arka 1/3'ü, SA (%60) ve AV (%80) düğümü"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "LAD ‘dul yapan arter’ (widow maker) olarak bilinir; tıkanması geniş ön duvar enfarktüsüne neden olur.",
+    "Sağ koroner tıkanması alt duvar enfarktüsü ve AV blok yapabilir.",
+    "Koroner bypass cerrahisinde a. thoracica interna ve v. saphena magna greft olarak kullanılır."
+   ],
+   "related": [
+    "cor",
+    "aorta",
+    "venae-cordis",
+    "ventriculus-sinister"
+   ],
+   "models": [
+    "Arteries of heart",
+    "Left coronary artery",
+    "Right coronary artery",
+    "Anterior interventricular artery",
+    "Circumflex artery of heart"
+   ],
+   "aliases": [
+    "koroner",
+    "LAD",
+    "sirkumfleks"
+   ]
+  },
+  {
+   "id": "venae-cordis",
+   "tr": "Kalp venleri",
+   "la": "Venae cordis",
+   "en": "Cardiac veins",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Kalp duvarından kirli kanı toplayan venlerdir. Çoğu, kalbin arka yüzündeki sulcus coronarius'ta yer alan sinus coronarius'a dökülür.",
+   "facts": [
+    [
+     "Sinus coronarius",
+     "Sağ atriuma açılır"
+    ],
+    [
+     "Ana venler",
+     "V. cordis magna (LAD ile birlikte), v. cordis media (arka interventriküler olukta), v. cordis parva, v. posterior ventriculi sinistri"
+    ],
+    [
+     "Doğrudan açılanlar",
+     "Vv. cordis anteriores ve vv. cordis minimae (Thebesius)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kardiyak resenkronizasyon tedavisinde sol ventrikül elektrodu sinus coronarius yoluyla kalp venlerine yerleştirilir."
+   ],
+   "related": [
+    "aa-coronariae",
+    "atrium-dextrum",
+    "cor"
+   ],
+   "models": [
+    "Cardiac veins",
+    "Coronary sinus",
+    "Great cardiac vein",
+    "Middle cardiac vein"
+   ],
+   "aliases": [
+    "koroner sinüs"
+   ]
+  },
+  {
+   "id": "pericardium",
+   "tr": "Kalp zarı",
+   "la": "Pericardium",
+   "en": "Pericardium",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Kalbi ve büyük damarların köklerini saran çift katlı keseden oluşan zardır. Dışta sert fibröz perikard, içte seröz perikard (parietal ve visseral yaprak) bulunur.",
+   "facts": [
+    [
+     "Katmanlar",
+     "Pericardium fibrosum ve pericardium serosum (lamina parietalis ve visceralis – epikard)"
+    ],
+    [
+     "Boşluk",
+     "Cavitas pericardialis; 15–50 mL kaydırıcı sıvı içerir"
+    ],
+    [
+     "Sinüsler",
+     "Sinus transversus pericardii (aorta ve truncus pulmonalis arkasında), sinus obliquus pericardii (sol atriumun arkasında)"
+    ],
+    [
+     "İnnervasyon",
+     "N. phrenicus (duyusal)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Perikardit öne eğilmekle azalan keskin göğüs ağrısı ve perikardiyal sürtünme sesiyle seyreder.",
+    "Kardiyak tamponadda perikard boşluğunda biriken sıvı kalbin dolmasını engeller (Beck üçlüsü: hipotansiyon, boyun venlerinde dolgunluk, derinden gelen kalp sesleri)."
+   ],
+   "related": [
+    "cor",
+    "n-phrenicus"
+   ],
+   "models": [],
+   "aliases": [
+    "perikard"
+   ]
+  },
+  {
+   "id": "truncus-pulmonalis",
+   "tr": "Akciğer atardamarı gövdesi",
+   "la": "Truncus pulmonalis",
+   "en": "Pulmonary trunk",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Sağ ventrikülden çıkan ve oksijensiz kanı akciğerlere taşıyan büyük arterdir. Aortanın kavsi altında sağ ve sol pulmoner arterlere ayrılır.",
+   "facts": [
+    [
+     "Köken",
+     "Sağ ventrikülün conus arteriosus'u (pulmoner kapak)"
+    ],
+    [
+     "Dalları",
+     "A. pulmonalis dextra ve sinistra; bunlar akciğer loblarına ve segmentlerine dallanır"
+    ],
+    [
+     "İlişki",
+     "Lig. arteriosum (fetal ductus arteriosus kalıntısı) bifurkasyonu arcus aortae'ye bağlar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pulmoner emboli genellikle bacak derin venlerinden kopan pıhtının pulmoner arterleri tıkamasıdır.",
+    "Patent duktus arteriozus'ta aortadan pulmoner artere sürekli (makine) üfürüm duyulur."
+   ],
+   "related": [
+    "ventriculus-dexter",
+    "pulmones",
+    "aorta"
+   ],
+   "models": [
+    "Pulmonary arteries",
+    "Pulmonary trunk",
+    "Left pulmonary artery",
+    "Right pulmonary artery"
+   ],
+   "aliases": [
+    "pulmoner arter"
+   ]
+  },
+  {
+   "id": "vv-pulmonales",
+   "tr": "Akciğer toplardamarları",
+   "la": "Venae pulmonales",
+   "en": "Pulmonary veins",
+   "group": "Kalp",
+   "region": "thorax",
+   "summary": "Akciğerlerden oksijenlenmiş kanı sol atriuma taşıyan, genellikle dört adet (iki sağ, iki sol) olan venlerdir. Oksijenli kan taşıyan tek venlerdir.",
+   "facts": [
+    [
+     "Sayı",
+     "Genellikle 4: v. pulmonalis dextra superior ve inferior, sinistra superior ve inferior"
+    ],
+    [
+     "Döküldüğü yer",
+     "Atrium sinistrum"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Atriyal fibrilasyon tedavisinde pulmoner ven ağızları kateterle izole edilir (ablasyon)."
+   ],
+   "related": [
+    "atrium-sinistrum",
+    "pulmones"
+   ],
+   "models": [
+    "Pulmonary veins",
+    "Left superior pulmonary vein",
+    "Left inferior pulmonary vein",
+    "Right superior pulmonary vein",
+    "Right inferior pulmonary vein"
+   ],
+   "aliases": [
+    "pulmoner ven"
+   ]
+  },
+  {
+   "id": "aorta",
+   "tr": "Aort (ana atardamar)",
+   "la": "Aorta",
+   "en": "Aorta",
+   "group": "Aorta ve dalları",
+   "region": "thorax",
+   "summary": "Sol ventrikülden çıkan ve oksijenli kanı tüm vücuda dağıtan, vücudun en büyük arteridir. Çıkan aorta, aort kavsi, inen göğüs aortası ve karın aortası bölümlerinden oluşur.",
+   "facts": [
+    [
+     "Köken",
+     "Sol ventrikül (aort kapağı)"
+    ],
+    [
+     "Seyir",
+     "Pars ascendens yukarı çıkar, arcus aortae sol ana bronşun üzerinden arkaya kıvrılır (T4 hizası), pars thoracica omurganın solunda iner, hiatus aorticus'tan (T12) karına geçer ve L4 hizasında aa. iliacae communes'e ayrılır"
+    ],
+    [
+     "Dalları",
+     "Çıkan aorta: aa. coronariae; arcus: truncus brachiocephalicus, a. carotis communis sinistra, a. subclavia sinistra; göğüs aortası: aa. intercostales posteriores, bronşiyal ve özofageal dallar; karın aortası: truncus coeliacus, a. mesenterica superior ve inferior, aa. renales, aa. suprarenales, aa. testiculares/ovaricae, aa. lumbales, a. sacralis mediana"
+    ],
+    [
+     "Beslediği alan",
+     "Tüm vücut (sistemik dolaşım)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Abdominal aort anevrizması genellikle böbrek arterlerinin altında gelişir; rüptürü ölümcüldür.",
+    "Aort diseksiyonunda damarın iç tabakası yırtılır; sırta yayılan yırtılır tarzda göğüs ağrısı tipiktir.",
+    "Aort koarktasyonunda kollardaki tansiyon bacaklardan yüksektir; kaburgalarda interkostal arter genişlemesine bağlı çentikler görülür."
+   ],
+   "related": [
+    "ventriculus-sinister",
+    "truncus-brachiocephalicus",
+    "truncus-coeliacus",
+    "aa-renales",
+    "a-iliaca-communis"
+   ],
+   "models": [
+    "Aorta",
+    "Ascending aorta",
+    "Aortic arch",
+    "Thoracic aorta",
+    "Abdominal aorta"
+   ],
+   "aliases": [
+    "aort",
+    "aorta"
+   ]
+  },
+  {
+   "id": "truncus-brachiocephalicus",
+   "tr": "Kol-baş arter gövdesi",
+   "la": "Truncus brachiocephalicus",
+   "en": "Brachiocephalic trunk",
+   "group": "Aorta ve dalları",
+   "region": "thorax",
+   "summary": "Aort kavsinin ilk ve en büyük dalıdır; yalnızca sağ tarafta bulunur.",
+   "facts": [
+    [
+     "Köken",
+     "Arcus aortae"
+    ],
+    [
+     "Seyir",
+     "Trakeanın önünde sağa ve yukarı çıkar; sağ sternoklaviküler eklemin arkasında ikiye ayrılır"
+    ],
+    [
+     "Dalları",
+     "A. carotis communis dextra, a. subclavia dextra"
+    ],
+    [
+     "Beslediği alan",
+     "Başın ve boynun sağ yarısı, sağ üst ekstremite"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Trakeostomi sırasında aşağıda yer alırsa yaralanma riski taşır."
+   ],
+   "related": [
+    "aorta",
+    "a-carotis-communis",
+    "a-subclavia"
+   ],
+   "models": [
+    "Brachiocephalic trunk"
+   ],
+   "aliases": [
+    "innominate arter"
+   ]
+  },
+  {
+   "id": "a-carotis-communis",
+   "tr": "Ortak şah atardamarı",
+   "la": "A. carotis communis",
+   "en": "Common carotid artery",
+   "group": "Baş ve boyun arterleri",
+   "region": "neck",
+   "summary": "Boynun iki yanında yukarı çıkan, başın ve boynun ana arteridir. Tiroid kıkırdağının üst kenarı hizasında iç ve dış karotis arterlerine ayrılır.",
+   "facts": [
+    [
+     "Köken",
+     "Sağda truncus brachiocephalicus, solda doğrudan arcus aortae"
+    ],
+    [
+     "Seyir",
+     "Karotis kılıfı içinde v. jugularis interna (dışta) ve n. vagus (arkada) ile birlikte yukarı çıkar; C4 (tiroid kıkırdağının üst kenarı) hizasında çatallanır"
+    ],
+    [
+     "Dalları",
+     "A. carotis interna, a. carotis externa (gövdesinden dal çıkmaz)"
+    ],
+    [
+     "Beslediği alan",
+     "Baş ve boyun"
+    ]
+   ],
+   "sections": [
+    [
+     "Karotis cismi ve sinüsü",
+     "Çatallanma yerindeki sinus caroticus kan basıncını (baroreseptör), glomus caroticum kandaki O2/CO2 düzeyini (kemoreseptör) algılar; ikisi de n. glossopharyngeus ile innerve edilir."
+    ]
+   ],
+   "clinical": [
+    "Karotis nabzı m. sternocleidomastoideus'un ön kenarında, tiroid kıkırdağı hizasında alınır.",
+    "Karotis sinüs masajı vagal yanıtla kalp hızını yavaşlatır.",
+    "Karotis bifurkasyonundaki aterosklerotik plaklar inmenin önemli nedenidir."
+   ],
+   "related": [
+    "a-carotis-interna",
+    "a-carotis-externa",
+    "truncus-brachiocephalicus",
+    "v-jugularis-interna",
+    "n-vagus"
+   ],
+   "models": [
+    "Left common carotid artery",
+    "Right common carotid artery"
+   ],
+   "aliases": [
+    "karotis",
+    "şah damarı"
+   ]
+  },
+  {
+   "id": "a-carotis-interna",
+   "tr": "İç şah atardamarı",
+   "la": "A. carotis interna",
+   "en": "Internal carotid artery",
+   "group": "Baş ve boyun arterleri",
+   "region": "head",
+   "summary": "Beynin ön ve orta bölümlerini ve gözü besleyen arterdir. Boyunda dal vermez.",
+   "facts": [
+    [
+     "Köken",
+     "A. carotis communis (C4 hizası)"
+    ],
+    [
+     "Seyir",
+     "Boyunda dal vermeden yukarı çıkar, canalis caroticus'tan kafa tabanına girer, sinus cavernosus içinden geçer (karotis sifonu) ve a. cerebri anterior ile media'ya ayrılır"
+    ],
+    [
+     "Dalları",
+     "A. ophthalmica, a. communicans posterior, a. choroidea anterior, a. cerebri anterior, a. cerebri media"
+    ],
+    [
+     "Beslediği alan",
+     "Beyin yarımkürelerinin büyük kısmı, göz ve orbita, alın derisi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Darlığında geçici iskemik ataklar ve aynı tarafta geçici körlük (amaurosis fugax) görülebilir.",
+    "Sinus cavernosus içinde yırtılması karotiko-kavernöz fistüle (pulsatil ekzoftalmi) neden olur."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "circulus-arteriosus",
+    "cerebrum",
+    "sinus-durae-matris"
+   ],
+   "models": [
+    "Internal carotid artery",
+    "Ophthalmic artery"
+   ],
+   "aliases": [
+    "internal karotis"
+   ]
+  },
+  {
+   "id": "a-carotis-externa",
+   "tr": "Dış şah atardamarı",
+   "la": "A. carotis externa",
+   "en": "External carotid artery",
+   "group": "Baş ve boyun arterleri",
+   "region": "neck",
+   "summary": "Boyun ve yüzün yapılarını, kafa derisini ve dura mater'i besleyen arterdir.",
+   "facts": [
+    [
+     "Köken",
+     "A. carotis communis (C4 hizası)"
+    ],
+    [
+     "Seyir",
+     "Boyunda yukarı çıkar, parotis bezinin içinde mandibula boynu hizasında a. temporalis superficialis ve a. maxillaris'e ayrılır"
+    ],
+    [
+     "Dalları",
+     "A. thyroidea superior, a. lingualis, a. facialis, a. pharyngea ascendens, a. occipitalis, a. auricularis posterior, a. maxillaris, a. temporalis superficialis (‘Some Anatomists Like Freaking Out Poor Medical Students’)"
+    ],
+    [
+     "Beslediği alan",
+     "Tiroid bezi, gırtlak, dil, yüz, yutak, kafa derisi, çene, dişler, burun boşluğu, dura mater (a. meningea media)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "A. meningea media (a. maxillaris dalı) pterion kırığında yırtılarak epidural hematoma neden olur.",
+    "Burun kanamalarının (epistaksis) çoğu a. sphenopalatina ve a. facialis dallarının oluşturduğu Kiesselbach alanından kaynaklanır.",
+    "Yüzeyel temporal arter dev hücreli arteritte (temporal arterit) etkilenir."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "glandula-thyroidea",
+    "meninges"
+   ],
+   "models": [
+    "External carotid artery",
+    "Facial artery",
+    "Superficial temporal artery",
+    "Maxillary artery",
+    "Occipital artery",
+    "Middle meningeal artery",
+    "Ascending pharyngeal artery"
+   ],
+   "aliases": [
+    "external karotis",
+    "fasiyal arter",
+    "meningea media"
+   ]
+  },
+  {
+   "id": "a-vertebralis",
+   "tr": "Omur atardamarı",
+   "la": "A. vertebralis",
+   "en": "Vertebral artery",
+   "group": "Baş ve boyun arterleri",
+   "region": "neck",
+   "summary": "Boyun omurlarının deliklerinden geçerek kafa içine giren ve beyin sapı, beyincik ve beynin arka bölümünü besleyen arterdir. İki vertebral arter birleşerek a. basilaris'i oluşturur.",
+   "facts": [
+    [
+     "Köken",
+     "A. subclavia'nın ilk dalı"
+    ],
+    [
+     "Seyir",
+     "C6–C1 omurlarının foramen transversarium'larından yukarı çıkar, atlas'ın arka kemeri üzerinden dolanır, foramen magnum'dan kafa içine girer; pons-medulla sınırında karşı taraftakiyle birleşerek a. basilaris'i oluşturur"
+    ],
+    [
+     "Dalları",
+     "A. spinalis anterior ve posterior, a. inferior posterior cerebelli (PICA); a. basilaris'ten: AICA, pontin dallar, a. cerebelli superior, a. cerebri posterior"
+    ],
+    [
+     "Beslediği alan",
+     "Omuriliğin üst kısmı, beyin sapı, beyincik, iç kulak, oksipital lob"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Vertebrobaziler yetmezlik baş dönmesi, çift görme, düşme atakları ve dizartriye neden olur.",
+    "Boyun manipülasyonu sonrası vertebral arter diseksiyonu genç inmelerinin nedenlerindendir.",
+    "Subklaviyan çalma sendromunda vertebral arterde akım tersine döner."
+   ],
+   "related": [
+    "a-subclavia",
+    "circulus-arteriosus",
+    "cerebellum",
+    "medulla-oblongata",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Vertebral artery",
+    "Basilar artery"
+   ],
+   "aliases": [
+    "vertebral arter",
+    "baziler arter"
+   ]
+  },
+  {
+   "id": "circulus-arteriosus",
+   "tr": "Willis halkası",
+   "la": "Circulus arteriosus cerebri (Willisi)",
+   "en": "Circle of Willis",
+   "group": "Baş ve boyun arterleri",
+   "region": "head",
+   "summary": "Beynin tabanında, hipofiz sapı ve optik kiazmayı çevreleyen, karotis ve vertebrobaziler sistemleri birbirine bağlayan arter halkasıdır.",
+   "facts": [
+    [
+     "Köken",
+     "Aa. carotides internae ve a. basilaris"
+    ],
+    [
+     "Seyir",
+     "Fossa interpeduncularis çevresinde halka oluşturur"
+    ],
+    [
+     "Dalları",
+     "A. cerebri anterior (iki taraf), a. communicans anterior, a. carotis interna (son kısım), a. communicans posterior (iki taraf), a. cerebri posterior (iki taraf)"
+    ],
+    [
+     "Beslediği alan",
+     "A. cerebri anterior: yarımkürelerin iç yüzü (bacak motor-duyu alanı); a. cerebri media: dış yüz (yüz ve kol, dil alanları); a. cerebri posterior: oksipital lob ve temporal lobun alt yüzü, talamus"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Beyin anevrizmalarının (berry anevrizması) çoğu halkanın ön kısmında, özellikle a. communicans anterior'da gelişir; rüptürü subaraknoid kanamaya yol açar.",
+    "Halkanın varyasyonları yaygındır; yalnızca %20–25 kişide ‘klasik’ tam halka bulunur."
+   ],
+   "related": [
+    "a-carotis-interna",
+    "a-vertebralis",
+    "cerebrum",
+    "hypothalamus"
+   ],
+   "models": [
+    "Cerebral arterial circle",
+    "Anterior communicating artery",
+    "Posterior communicating artery",
+    "Anterior cerebral artery",
+    "Middle cerebral artery (M1-segment)",
+    "Posterior cerebral artery"
+   ],
+   "aliases": [
+    "willis",
+    "a. cerebri media",
+    "serebral arter",
+    "MCA"
+   ]
+  },
+  {
+   "id": "a-subclavia",
+   "tr": "Köprücük altı atardamarı",
+   "la": "A. subclavia",
+   "en": "Subclavian artery",
+   "group": "Baş ve boyun arterleri",
+   "region": "neck",
+   "summary": "Kolun ana arteri olup boyun ve göğüs duvarına da önemli dallar verir. Birinci kaburganın dış kenarında a. axillaris adını alır.",
+   "facts": [
+    [
+     "Köken",
+     "Sağda truncus brachiocephalicus, solda arcus aortae"
+    ],
+    [
+     "Seyir",
+     "Plevra kubbesinin önünden geçer, m. scalenus anterior'un arkasından (skalen aralığı) 1. kaburga üzerinde kola doğru uzanır"
+    ],
+    [
+     "Dalları",
+     "A. vertebralis, a. thoracica interna, truncus thyrocervicalis, truncus costocervicalis, a. dorsalis scapulae"
+    ],
+    [
+     "Beslediği alan",
+     "Üst ekstremite, beyin (a. vertebralis), boyun, göğüs ön duvarı ve meme (a. thoracica interna)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Subklaviyan çalma sendromu: a. subclavia'nın vertebral arter çıkışından önce daralması sonucu kol egzersiziyle baş dönmesi.",
+    "Santral venöz kateter takılırken arter yanlışlıkla delinebilir."
+   ],
+   "related": [
+    "a-axillaris",
+    "a-vertebralis",
+    "mm-scaleni",
+    "truncus-brachiocephalicus"
+   ],
+   "models": [
+    "Left subclavian artery",
+    "Right subclavian artery",
+    "Thyrocervical trunk",
+    "Costocervical trunk",
+    "Internal thoracic artery"
+   ],
+   "aliases": [
+    "subklavyan arter",
+    "internal torasik"
+   ]
+  },
+  {
+   "id": "a-axillaris",
+   "tr": "Koltuk altı atardamarı",
+   "la": "A. axillaris",
+   "en": "Axillary artery",
+   "group": "Üst ekstremite arterleri",
+   "region": "upperLimb",
+   "summary": "A. subclavia'nın birinci kaburganın dış kenarından teres major'un alt kenarına kadar uzanan devamıdır. M. pectoralis minor onu üç bölüme ayırır.",
+   "facts": [
+    [
+     "Köken",
+     "A. subclavia'nın devamı (1. kaburga dış kenarı)"
+    ],
+    [
+     "Seyir",
+     "Koltuk altı çukurunda plexus brachialis kordlarıyla çevrili olarak iner; teres major'un alt kenarında a. brachialis adını alır"
+    ],
+    [
+     "Dalları",
+     "1. bölüm: a. thoracica superior; 2. bölüm: a. thoraco-acromialis, a. thoracica lateralis; 3. bölüm: a. subscapularis, a. circumflexa humeri anterior ve posterior"
+    ],
+    [
+     "Beslediği alan",
+     "Omuz, göğüs duvarı, meme bezi, koltuk altı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Omuz çıkığı ve humerus boyun kırıklarında zedelenebilir.",
+    "Skapula çevresinde zengin kollateral ağ (skapular anastomoz) a. subclavia tıkanmalarında kolu besler."
+   ],
+   "related": [
+    "a-subclavia",
+    "a-brachialis",
+    "plexus-brachialis",
+    "m-pectoralis-minor"
+   ],
+   "models": [
+    "Axillary artery",
+    "Subscapular artery",
+    "Thoraco-acromial artery",
+    "Lateral thoracic artery",
+    "Posterior circumflex humeral artery",
+    "Anterior circumflex humeral artery"
+   ],
+   "aliases": [
+    "aksiller arter"
+   ]
+  },
+  {
+   "id": "a-brachialis",
+   "tr": "Kol atardamarı",
+   "la": "A. brachialis",
+   "en": "Brachial artery",
+   "group": "Üst ekstremite arterleri",
+   "region": "upperLimb",
+   "summary": "Kolun ana arteridir; kolun iç tarafında, biseps kasının iç kenarı boyunca iner ve dirsekte radial ve ulnar arterlere ayrılır.",
+   "facts": [
+    [
+     "Köken",
+     "A. axillaris'in devamı (teres major'un alt kenarı)"
+    ],
+    [
+     "Seyir",
+     "Kolun iç yanında n. medianus ile birlikte iner; kübital fossada aponeurosis bicipitalis'in altında, radius boynu hizasında ikiye ayrılır"
+    ],
+    [
+     "Dalları",
+     "A. profunda brachii (n. radialis ile), aa. collaterales ulnares superior ve inferior, muskuler dallar; uç dalları a. radialis ve a. ulnaris"
+    ],
+    [
+     "Beslediği alan",
+     "Kol kasları, humerus, dirsek eklemi çevresi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tansiyon ölçümünde stetoskop kübital fossada a. brachialis üzerine konur.",
+    "Çocuklarda suprakondiler humerus kırığında zedelenebilir; önkol iskemisi Volkmann kontraktürüne yol açar."
+   ],
+   "related": [
+    "a-axillaris",
+    "a-radialis",
+    "a-ulnaris",
+    "n-medianus",
+    "humerus"
+   ],
+   "models": [
+    "Brachial artery",
+    "Deep brachial artery",
+    "Superior ulnar collateral artery",
+    "Inferior ulnar collateral artery"
+   ],
+   "aliases": [
+    "brakiyal arter"
+   ]
+  },
+  {
+   "id": "a-radialis",
+   "tr": "Döner kemik atardamarı",
+   "la": "A. radialis",
+   "en": "Radial artery",
+   "group": "Üst ekstremite arterleri",
+   "region": "upperLimb",
+   "summary": "Önkolun dış (başparmak) tarafında seyreden, nabzın en sık alındığı arterdir.",
+   "facts": [
+    [
+     "Köken",
+     "A. brachialis (kübital fossa)"
+    ],
+    [
+     "Seyir",
+     "M. brachioradialis'in altında önkolun dış yanında iner; el bileğinde FCR tendonunun dışında yüzeyeldir, sonra anatomik enfiye çukurundan el sırtına geçer ve 1. interosseöz aralıktan avuca girerek arcus palmaris profundus'u oluşturur"
+    ],
+    [
+     "Dalları",
+     "A. recurrens radialis, r. palmaris superficialis, r. carpalis palmaris ve dorsalis, a. princeps pollicis, a. radialis indicis"
+    ],
+    [
+     "Beslediği alan",
+     "Önkolun dış kısmı, el bileği, başparmak ve işaret parmağı, el derin yapıları"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Radyal nabız el bileğinde alınır; arteryel kan gazı için en sık kullanılan arterdir.",
+    "Kateterizasyondan önce el kanlanmasının ulnar arterle yeterli olduğu Allen testiyle değerlendirilir.",
+    "Koroner anjiyografi giderek daha sık radyal arter yoluyla yapılır."
+   ],
+   "related": [
+    "a-brachialis",
+    "a-ulnaris",
+    "arcus-palmares",
+    "m-flexor-carpi-radialis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radial artery"
+   ],
+   "aliases": [
+    "radyal arter",
+    "nabız"
+   ]
+  },
+  {
+   "id": "a-ulnaris",
+   "tr": "Dirsek kemiği atardamarı",
+   "la": "A. ulnaris",
+   "en": "Ulnar artery",
+   "group": "Üst ekstremite arterleri",
+   "region": "upperLimb",
+   "summary": "Önkolun iç (serçe parmak) tarafında seyreden ve brakiyal arterin iki uç dalından büyük olanıdır.",
+   "facts": [
+    [
+     "Köken",
+     "A. brachialis (kübital fossa)"
+    ],
+    [
+     "Seyir",
+     "Derin önkol fleksörlerinin üzerinde, FCU'nun altında iner; el bileğinde Guyon kanalından n. ulnaris ile birlikte geçerek arcus palmaris superficialis'i oluşturur"
+    ],
+    [
+     "Dalları",
+     "Aa. recurrentes ulnares, a. interossea communis (a. interossea anterior ve posterior), r. carpalis palmaris ve dorsalis, r. palmaris profundus"
+    ],
+    [
+     "Beslediği alan",
+     "Önkolun iç kısmı ve derin yapıları (interosseöz arterlerle), elin büyük kısmı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "a-brachialis",
+    "a-radialis",
+    "arcus-palmares",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Ulnar artery",
+    "Common interosseous artery",
+    "Posterior interosseous artery"
+   ],
+   "aliases": [
+    "ulnar arter"
+   ]
+  },
+  {
+   "id": "arcus-palmares",
+   "tr": "Avuç içi arter kavisleri",
+   "la": "Arcus palmaris superficialis et profundus",
+   "en": "Palmar arches",
+   "group": "Üst ekstremite arterleri",
+   "region": "upperLimb",
+   "summary": "El ayasında radial ve ulnar arterlerin oluşturduğu iki anastomotik arter kavsidir; parmakları besleyen dallar bu kavislerden çıkar.",
+   "facts": [
+    [
+     "Köken",
+     "Yüzeyel kavis: esas olarak a. ulnaris; derin kavis: esas olarak a. radialis"
+    ],
+    [
+     "Seyir",
+     "Yüzeyel kavis aponeurosis palmaris'in altında, derin kavis fleksör tendonların altında, metakarp tabanları hizasında"
+    ],
+    [
+     "Dalları",
+     "Aa. digitales palmares communes ve propriae (yüzeyel); aa. metacarpales palmares (derin)"
+    ],
+    [
+     "Beslediği alan",
+     "Avuç içi ve parmaklar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Avuç içi kesilerinde yüzeyel kavis kolayca yaralanabilir ve ciddi kanamaya neden olur."
+   ],
+   "related": [
+    "a-radialis",
+    "a-ulnaris",
+    "ossa-metacarpi"
+   ],
+   "models": [
+    "Superficial palmar arch",
+    "Deep palmar arch",
+    "Common palmar digital arteries",
+    "Proper palmar digital arteries"
+   ],
+   "aliases": [
+    "palmar ark"
+   ]
+  },
+  {
+   "id": "truncus-coeliacus",
+   "tr": "Çölyak gövde",
+   "la": "Truncus coeliacus",
+   "en": "Coeliac trunk",
+   "group": "Karın ve pelvis arterleri",
+   "region": "abdomen",
+   "summary": "Karın aortasının ilk ön dalıdır; ön bağırsak (foregut) türevlerini – mide, karaciğer, safra kesesi, dalak, pankreasın bir kısmı ve duodenumun üst yarısını – besler.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominalis (T12, hiatus aorticus'un hemen altı)"
+    ],
+    [
+     "Seyir",
+     "Kısa bir gövde hâlinde öne çıkar ve hemen üç dala ayrılır"
+    ],
+    [
+     "Dalları",
+     "A. gastrica sinistra, a. hepatica communis (a. hepatica propria, a. gastroduodenalis, a. gastrica dextra), a. splenica (lienalis)"
+    ],
+    [
+     "Beslediği alan",
+     "Karın içi özofagus, mide, duodenumun üst kısmı, karaciğer, safra kesesi, pankreas, dalak"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Arka duvarda yerleşen duodenal ülser a. gastroduodenalis'i aşındırarak ciddi kanamaya yol açabilir.",
+    "Median arkuat ligament sendromu çölyak gövdenin dışarıdan basısıdır."
+   ],
+   "related": [
+    "aorta",
+    "gaster",
+    "hepar",
+    "splen",
+    "pancreas"
+   ],
+   "models": [
+    "Coeliac trunk",
+    "Common hepatic artery",
+    "Proper hepatic artery",
+    "Splenic artery",
+    "Left gastric artery",
+    "Gastroduodenal artery"
+   ],
+   "aliases": [
+    "çölyak",
+    "çölyak trunkus",
+    "hepatik arter",
+    "splenik arter"
+   ]
+  },
+  {
+   "id": "a-mesenterica-superior",
+   "tr": "Üst bağırsak askısı atardamarı",
+   "la": "A. mesenterica superior",
+   "en": "Superior mesenteric artery",
+   "group": "Karın ve pelvis arterleri",
+   "region": "abdomen",
+   "summary": "Orta bağırsak (midgut) türevlerini – duodenumun alt yarısından transvers kolonun 2/3'üne kadar olan bölümü – besleyen arterdir.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominalis (L1, truncus coeliacus'un 1 cm altı)"
+    ],
+    [
+     "Seyir",
+     "Pankreas boynunun arkasından çıkar, v. renalis sinistra ve duodenumun 3. kısmının önünden geçerek mezentere girer"
+    ],
+    [
+     "Dalları",
+     "A. pancreaticoduodenalis inferior, aa. jejunales ve ileales, a. ileocolica (a. appendicularis), a. colica dextra, a. colica media"
+    ],
+    [
+     "Beslediği alan",
+     "Duodenumun alt yarısı, jejunum, ileum, çekum, apendiks, çıkan kolon, transvers kolonun proksimal 2/3'ü, pankreas başı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akut mezenterik iskemi (çoğunlukla emboli) ‘muayeneyle orantısız şiddetli karın ağrısı’ ile seyreder.",
+    "Nutcracker sendromu: v. renalis sinistra'nın aorta ile SMA arasında sıkışması.",
+    "SMA sendromunda duodenumun 3. kısmı aort ile arter arasında sıkışır."
+   ],
+   "related": [
+    "aorta",
+    "intestinum-tenue",
+    "intestinum-crassum",
+    "pancreas",
+    "v-portae-hepatis"
+   ],
+   "models": [
+    "Superior mesenteric artery",
+    "Ileocolic artery",
+    "Middle colic artery",
+    "Right colic artery",
+    "Appendicular artery"
+   ],
+   "aliases": [
+    "SMA",
+    "mezenterik arter"
+   ]
+  },
+  {
+   "id": "a-mesenterica-inferior",
+   "tr": "Alt bağırsak askısı atardamarı",
+   "la": "A. mesenterica inferior",
+   "en": "Inferior mesenteric artery",
+   "group": "Karın ve pelvis arterleri",
+   "region": "abdomen",
+   "summary": "Arka bağırsak (hindgut) türevlerini – transvers kolonun son 1/3'ünden rektumun üst kısmına kadar – besleyen arterdir.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominalis (L3)"
+    ],
+    [
+     "Seyir",
+     "Retroperitoneal olarak sola ve aşağı iner"
+    ],
+    [
+     "Dalları",
+     "A. colica sinistra, aa. sigmoideae, a. rectalis (anorectalis) superior"
+    ],
+    [
+     "Beslediği alan",
+     "Transvers kolonun distal 1/3'ü, inen kolon, sigmoid kolon, rektumun üst kısmı"
+    ]
+   ],
+   "sections": [
+    [
+     "Anastomozlar",
+     "A. marginalis (Drummond) kolon kenarı boyunca SMA ve IMA dallarını birleştirir. Splenik fleksura (Griffiths noktası) iki sistemin sınır bölgesi olduğundan iskemiye en duyarlı yerdir."
+    ]
+   ],
+   "clinical": [
+    "Abdominal aort anevrizması cerrahisinde IMA bağlanabilir; kolon iskemisi riski taşır."
+   ],
+   "related": [
+    "aorta",
+    "intestinum-crassum",
+    "rectum"
+   ],
+   "models": [
+    "Inferior mesenteric artery",
+    "Left colic artery",
+    "Sigmoid arteries",
+    "Superior anorectal artery",
+    "Marginal artery"
+   ],
+   "aliases": [
+    "IMA"
+   ]
+  },
+  {
+   "id": "aa-renales",
+   "tr": "Böbrek atardamarları",
+   "la": "Aa. renales",
+   "en": "Renal arteries",
+   "group": "Karın ve pelvis arterleri",
+   "region": "abdomen",
+   "summary": "Böbrekleri besleyen, karın aortasının iki yanından çıkan büyük arterlerdir. Kalp debisinin yaklaşık %20–25'i böbreklere gider.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominalis (L1–L2, SMA'nın hemen altı)"
+    ],
+    [
+     "Seyir",
+     "Sağ böbrek arteri daha uzundur ve v. cava inferior'un arkasından geçer; hilum renale'de ön ve arka dallara ayrılır"
+    ],
+    [
+     "Dalları",
+     "A. suprarenalis inferior, a. ureterica; böbrek içinde segmental → interlobar → arkuat → interlobüler arterler"
+    ],
+    [
+     "Beslediği alan",
+     "Böbrekler, böbrek üstü bezlerinin bir kısmı, üreterin üst kısmı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Renal arter darlığı (ateroskleroz veya fibromüsküler displazi) ilaçlara dirençli hipertansiyonun ikincil nedenlerindendir.",
+    "Segmental arterler uç arterler olduğundan tıkanmaları kama şeklinde enfarkta yol açar."
+   ],
+   "related": [
+    "aorta",
+    "ren",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Left renal artery",
+    "Right renal artery",
+    "Intrarenal arteries of left kidney",
+    "Intrarenal arteries of right kidney"
+   ],
+   "aliases": [
+    "renal arter",
+    "böbrek arteri"
+   ]
+  },
+  {
+   "id": "a-iliaca-communis",
+   "tr": "Ortak iliak atardamar",
+   "la": "A. iliaca communis",
+   "en": "Common iliac artery",
+   "group": "Karın ve pelvis arterleri",
+   "region": "pelvis",
+   "summary": "Karın aortasının L4 hizasında ikiye ayrılmasıyla oluşan, pelvis ve bacakların arterlerine kaynak olan damarlardır.",
+   "facts": [
+    [
+     "Köken",
+     "Aortanın bifurkasyonu (L4, göbek hizası)"
+    ],
+    [
+     "Seyir",
+     "Psoas kasının iç kenarı boyunca aşağı-dışa iner; sakroiliak eklemin önünde a. iliaca interna ve externa'ya ayrılır"
+    ],
+    [
+     "Dalları",
+     "A. iliaca interna (pelvis organları, kalça, perine) ve a. iliaca externa (lig. inguinale altında a. femoralis olur; a. epigastrica inferior ve a. circumflexa ilium profunda verir)"
+    ],
+    [
+     "Beslediği alan",
+     "Pelvis duvarı ve organları, kalça bölgesi, alt ekstremite"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Leriche sendromu: aortoiliak tıkanma sonucu kalçada kladikasyon, impotans ve femoral nabız kaybı.",
+    "Üreter, iliak arterlerin çatallanma yerini çaprazlar; böbrek taşları bu darlıkta takılabilir."
+   ],
+   "related": [
+    "aorta",
+    "a-femoralis",
+    "ureter"
+   ],
+   "models": [
+    "Common iliac artery",
+    "External iliac artery",
+    "Internal iliac artery",
+    "Inferior epigastric artery",
+    "Superior gluteal artery",
+    "Inferior gluteal artery",
+    "Internal pudendal artery",
+    "Obturator artery"
+   ],
+   "aliases": [
+    "iliak arter",
+    "eksternal iliak",
+    "internal iliak"
+   ]
+  },
+  {
+   "id": "a-femoralis",
+   "tr": "Uyluk atardamarı",
+   "la": "A. femoralis",
+   "en": "Femoral artery",
+   "group": "Alt ekstremite arterleri",
+   "region": "lowerLimb",
+   "summary": "Alt ekstremitenin ana arteridir; kasıkta lig. inguinale'nin altından geçerek uyluğun önüne gelir.",
+   "facts": [
+    [
+     "Köken",
+     "A. iliaca externa'nın devamı (lig. inguinale'nin altı)"
+    ],
+    [
+     "Seyir",
+     "Femoral üçgende yüzeyeldir (n. femoralis dışında, v. femoralis içinde), sonra adduktor kanalında (Hunter) iner ve hiatus adductorius'tan diz arkasına geçerek a. poplitea olur"
+    ],
+    [
+     "Dalları",
+     "A. epigastrica superficialis, a. circumflexa ilium superficialis, aa. pudendae externae, a. profunda femoris (a. circumflexa femoris medialis ve lateralis, aa. perforantes), a. descendens genus"
+    ],
+    [
+     "Beslediği alan",
+     "Uyluk, kalça (kısmen), femur başı (a. circumflexa femoris medialis), diz çevresi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Femoral nabız kasıkta, SIAS ile symphysis pubica arasındaki noktanın hemen altında alınır.",
+    "Kalp kateterizasyonu ve anjiyografi için sık kullanılan giriş yeridir.",
+    "Periferik arter hastalığında yüzeyel femoral arter en sık etkilenen segmenttir (kladikasyo)."
+   ],
+   "related": [
+    "a-iliaca-communis",
+    "a-poplitea",
+    "n-femoralis",
+    "lig-inguinale",
+    "v-femoralis"
+   ],
+   "models": [
+    "Femoral artery",
+    "Deep femoral artery",
+    "Medial circumflex femoral artery",
+    "Lateral circumflex femoral artery",
+    "Perforating femoral arteries"
+   ],
+   "aliases": [
+    "femoral arter",
+    "profunda femoris"
+   ]
+  },
+  {
+   "id": "a-poplitea",
+   "tr": "Diz arkası atardamarı",
+   "la": "A. poplitea",
+   "en": "Popliteal artery",
+   "group": "Alt ekstremite arterleri",
+   "region": "lowerLimb",
+   "summary": "Diz çukurunda (fossa poplitea) yer alan, femoral arterin devamı olan arterdir; diz çukurunun en derin yapısıdır.",
+   "facts": [
+    [
+     "Köken",
+     "A. femoralis'in devamı (hiatus adductorius)"
+    ],
+    [
+     "Seyir",
+     "Diz çukurunda femur ve diz eklem kapsülünün hemen arkasından iner; m. popliteus'un alt kenarında a. tibialis anterior ve posterior'a ayrılır"
+    ],
+    [
+     "Dalları",
+     "Aa. genus superiores (medialis, lateralis), a. genus media, aa. genus inferiores, aa. surales"
+    ],
+    [
+     "Beslediği alan",
+     "Diz eklemi (geniküler anastomoz), baldır kasları"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Popliteal nabız diz bükülüyken derin palpasyonla alınır.",
+    "Popliteal arter anevrizması en sık periferik anevrizmadır.",
+    "Diz çıkıklarında arter yaralanabilir; mutlaka değerlendirilmelidir."
+   ],
+   "related": [
+    "a-femoralis",
+    "a-tibialis-anterior",
+    "a-tibialis-posterior",
+    "art-genus"
+   ],
+   "models": [
+    "Popliteal artery",
+    "Superior medial genicular artery",
+    "Superior lateral genicular artery",
+    "Inferior medial genicular artery",
+    "Inferior lateral genicular artery",
+    "Middle genicular artery"
+   ],
+   "aliases": [
+    "popliteal arter"
+   ]
+  },
+  {
+   "id": "a-tibialis-anterior",
+   "tr": "Ön kaval atardamarı",
+   "la": "A. tibialis anterior",
+   "en": "Anterior tibial artery",
+   "group": "Alt ekstremite arterleri",
+   "region": "lowerLimb",
+   "summary": "Bacağın ön bölmesini besleyen ve ayak bileğinde a. dorsalis pedis adını alan arterdir.",
+   "facts": [
+    [
+     "Köken",
+     "A. poplitea (m. popliteus'un alt kenarı)"
+    ],
+    [
+     "Seyir",
+     "Membrana interossea'nın üst kenarındaki açıklıktan bacağın önüne geçer, n. fibularis profundus ile birlikte membranın önünde iner"
+    ],
+    [
+     "Dalları",
+     "A. recurrens tibialis anterior, aa. malleolares anteriores; devamı a. dorsalis pedis"
+    ],
+    [
+     "Beslediği alan",
+     "Bacağın ön bölme kasları, ayak bileğinin önü"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "related": [
+    "a-poplitea",
+    "a-dorsalis-pedis",
+    "m-tibialis-anterior",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Anterior tibial artery"
+   ],
+   "aliases": [
+    "anterior tibial"
+   ]
+  },
+  {
+   "id": "a-tibialis-posterior",
+   "tr": "Arka kaval atardamarı",
+   "la": "A. tibialis posterior",
+   "en": "Posterior tibial artery",
+   "group": "Alt ekstremite arterleri",
+   "region": "lowerLimb",
+   "summary": "Bacağın arka bölmesini ve ayak tabanını besleyen arterdir.",
+   "facts": [
+    [
+     "Köken",
+     "A. poplitea"
+    ],
+    [
+     "Seyir",
+     "M. soleus'un altında n. tibialis ile birlikte iner; iç topuğun arkasında (tarsal tünel) a. plantaris medialis ve lateralis'e ayrılır"
+    ],
+    [
+     "Dalları",
+     "A. fibularis (peronea – bacağın dış ve arka kısmı), rr. calcanei, a. plantaris medialis, a. plantaris lateralis (arcus plantaris)"
+    ],
+    [
+     "Beslediği alan",
+     "Bacağın arka ve dış bölmesi, topuk, ayak tabanı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Arka tibial nabız iç malleolün arkasında, malleol ile Aşil tendonu arasında alınır."
+   ],
+   "related": [
+    "a-poplitea",
+    "n-tibialis",
+    "m-tibialis-posterior",
+    "mm-plantares"
+   ],
+   "models": [
+    "Posterior tibial artery",
+    "Fibular artery",
+    "Medial plantar artery",
+    "Lateral plantar artery",
+    "Plantar arch"
+   ],
+   "aliases": [
+    "posterior tibial",
+    "fibular arter",
+    "plantar arter"
+   ]
+  },
+  {
+   "id": "a-dorsalis-pedis",
+   "tr": "Ayak sırtı atardamarı",
+   "la": "A. dorsalis pedis",
+   "en": "Dorsalis pedis artery",
+   "group": "Alt ekstremite arterleri",
+   "region": "lowerLimb",
+   "summary": "Ayak sırtını besleyen, ön tibial arterin ayak bileğinden sonraki devamıdır.",
+   "facts": [
+    [
+     "Köken",
+     "A. tibialis anterior'un devamı (ayak bileği önü)"
+    ],
+    [
+     "Seyir",
+     "Ayak sırtında EHL tendonunun dışında öne doğru uzanır; 1. intermetatarsal aralıkta derin plantar dalı ile arcus plantaris'e katılır"
+    ],
+    [
+     "Dalları",
+     "A. tarsalis lateralis ve mediales, a. arcuata (aa. metatarsales dorsales), a. plantaris profunda"
+    ],
+    [
+     "Beslediği alan",
+     "Ayak sırtı ve parmakların sırt yüzü"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dorsalis pedis nabzı EHL tendonunun hemen dış yanında alınır; periferik arter hastalığı değerlendirmesinde önemlidir (bazı kişilerde doğuştan alınamayabilir)."
+   ],
+   "related": [
+    "a-tibialis-anterior",
+    "m-extensor-hallucis-longus"
+   ],
+   "models": [
+    "Dorsalis pedis artery",
+    "Arcuate artery",
+    "Lateral tarsal artery",
+    "Dorsal metatarsal arteries"
+   ],
+   "aliases": [
+    "dorsalis pedis"
+   ]
+  },
+  {
+   "id": "v-cava-superior",
+   "tr": "Üst ana toplardamar",
+   "la": "V. cava superior",
+   "en": "Superior vena cava",
+   "group": "Venler",
+   "region": "thorax",
+   "summary": "Baş, boyun, kollar ve göğsün üst kısmından gelen kirli kanı sağ atriuma taşıyan büyük vendir. Kapakçığı yoktur.",
+   "facts": [
+    [
+     "Oluşum",
+     "Sağ 1. kaburga kıkırdağı arkasında v. brachiocephalica dextra ve sinistra'nın birleşmesiyle"
+    ],
+    [
+     "Döküldüğü yer",
+     "Atrium dextrum (3. kaburga kıkırdağı hizası)"
+    ],
+    [
+     "Kollar",
+     "V. azygos (arkadan), vv. brachiocephalicae (v. jugularis interna + v. subclavia)"
+    ],
+    [
+     "Uzunluk",
+     "Yaklaşık 7 cm"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Vena kava superior sendromu (çoğunlukla akciğer kanseri veya lenfoma basısı): yüz ve kollarda ödem, boyun ve göğüs venlerinde genişleme.",
+    "Santral venöz kateterin ucu ideal olarak bu venin alt kısmında bulunmalıdır."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "v-jugularis-interna",
+    "v-subclavia",
+    "v-azygos"
+   ],
+   "models": [
+    "Superior vena cava",
+    "Left brachiocephalic vein",
+    "Right brachiocephalic vein"
+   ],
+   "aliases": [
+    "VCS",
+    "SVC",
+    "brakiyosefalik ven"
+   ]
+  },
+  {
+   "id": "v-cava-inferior",
+   "tr": "Alt ana toplardamar",
+   "la": "V. cava inferior",
+   "en": "Inferior vena cava",
+   "group": "Venler",
+   "region": "abdomen",
+   "summary": "Diyaframın altındaki tüm vücut bölümlerinden gelen kirli kanı sağ atriuma taşıyan, vücudun en büyük venidir.",
+   "facts": [
+    [
+     "Oluşum",
+     "L5 hizasında vv. iliacae communes'in birleşmesiyle (aortanın sağında)"
+    ],
+    [
+     "Seyir",
+     "Omurganın sağında yukarı çıkar, karaciğerin arka yüzündeki olukta ilerler, diyaframın foramen venae cavae'sinden (T8) geçer"
+    ],
+    [
+     "Kollar",
+     "Vv. lumbales, v. testicularis/ovarica dextra, vv. renales, v. suprarenalis dextra, vv. hepaticae, vv. phrenicae inferiores"
+    ],
+    [
+     "Not",
+     "Sol gonadal ve sol suprarenal venler önce v. renalis sinistra'ya dökülür"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Derin ven trombozu ve tekrarlayan pulmoner embolide IVC filtresi yerleştirilebilir.",
+    "Gebelikte sırtüstü yatarken uterusun IVC'ye basısı hipotansiyona neden olabilir (supin hipotansiyon sendromu); sol yana yatırmak düzeltir."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "hepar",
+    "ren",
+    "aa-renales"
+   ],
+   "models": [
+    "Inferior vena cava (abdominal part)",
+    "Inferior vena cava (thoracic part)",
+    "Left renal vein",
+    "Right renal vein",
+    "Hepatic veins",
+    "Common iliac vein"
+   ],
+   "aliases": [
+    "VCI",
+    "IVC",
+    "renal ven"
+   ]
+  },
+  {
+   "id": "v-jugularis-interna",
+   "tr": "İç şah toplardamarı",
+   "la": "V. jugularis interna",
+   "en": "Internal jugular vein",
+   "group": "Venler",
+   "region": "neck",
+   "summary": "Beyin, yüz ve boynun kanının büyük kısmını toplayan, karotis kılıfı içinde seyreden büyük vendir.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Foramen jugulare'de sinus sigmoideus'un devamı olarak (bulbus superior)"
+    ],
+    [
+     "Seyir",
+     "Karotis kılıfında a. carotis'in dışında iner; m. sternocleidomastoideus'un altında kalır"
+    ],
+    [
+     "Sonlanma",
+     "Clavicula'nın iç ucunun arkasında v. subclavia ile birleşerek v. brachiocephalica'yı oluşturur (venöz açı – sol tarafta ductus thoracicus buraya dökülür)"
+    ],
+    [
+     "Kollar",
+     "Sinus petrosus inferior, v. facialis, v. lingualis, vv. thyroideae superiores ve mediae"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Juguler venöz basınç (JVP) sağ kalp basıncını yansıtır; kalp yetmezliğinde yükselir.",
+    "Santral venöz kateter sıklıkla sağ v. jugularis interna'ya ultrason eşliğinde takılır."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "sinus-durae-matris",
+    "v-subclavia",
+    "v-cava-superior"
+   ],
+   "models": [
+    "Internal jugular vein"
+   ],
+   "aliases": [
+    "juguler ven",
+    "IJV"
+   ]
+  },
+  {
+   "id": "v-jugularis-externa",
+   "tr": "Dış şah toplardamarı",
+   "la": "V. jugularis externa",
+   "en": "External jugular vein",
+   "group": "Venler",
+   "region": "neck",
+   "summary": "Kafa derisinin ve yüzün yüzeyel kanını toplayan, boynun yan yüzünde deri altında görülebilen vendir.",
+   "facts": [
+    [
+     "Oluşum",
+     "Angulus mandibulae arkasında v. retromandibularis'in arka dalı ile v. auricularis posterior'un birleşmesiyle"
+    ],
+    [
+     "Seyir",
+     "M. sternocleidomastoideus'un üzerinden çapraz olarak iner"
+    ],
+    [
+     "Sonlanma",
+     "V. subclavia"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Sağ kalp basıncı arttığında belirginleşir; acil durumlarda damar yolu olarak kullanılabilir."
+   ],
+   "related": [
+    "v-jugularis-interna",
+    "v-subclavia",
+    "m-sternocleidomastoideus"
+   ],
+   "models": [
+    "External jugular vein",
+    "Retromandibular vein",
+    "Facial vein",
+    "Anterior jugular vein"
+   ],
+   "aliases": [
+    "eksternal juguler"
+   ]
+  },
+  {
+   "id": "v-subclavia",
+   "tr": "Köprücük altı toplardamarı",
+   "la": "V. subclavia",
+   "en": "Subclavian vein",
+   "group": "Venler",
+   "region": "neck",
+   "summary": "Kolun derin ve yüzeyel venlerinden gelen kanı toplayan, v. axillaris'in devamı olan vendir.",
+   "facts": [
+    [
+     "Başlangıç",
+     "1. kaburganın dış kenarında v. axillaris'in devamı"
+    ],
+    [
+     "Seyir",
+     "M. scalenus anterior'un önünden (arterden farklı olarak) clavicula'nın arkasından geçer"
+    ],
+    [
+     "Sonlanma",
+     "V. jugularis interna ile birleşerek v. brachiocephalica'yı oluşturur"
+    ],
+    [
+     "Kollar",
+     "V. jugularis externa"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Klavikula altından santral venöz kateter yerleştirilmesinde kullanılır; pnömotoraks bu işlemin önemli komplikasyonudur.",
+    "Paget–Schroetter sendromu: ağır kol egzersizi sonrası subklaviyan ven trombozu."
+   ],
+   "related": [
+    "v-jugularis-interna",
+    "a-subclavia",
+    "v-cava-superior",
+    "vv-membri-superioris"
+   ],
+   "models": [
+    "Left subclavian vein",
+    "Right subclavian vein",
+    "Axillary vein"
+   ],
+   "aliases": [
+    "subklavyan ven",
+    "aksiller ven"
+   ]
+  },
+  {
+   "id": "vv-membri-superioris",
+   "tr": "Kolun yüzeyel venleri",
+   "la": "Vv. superficiales membri superioris",
+   "en": "Superficial veins of upper limb",
+   "group": "Venler",
+   "region": "upperLimb",
+   "summary": "El sırtındaki venöz ağdan başlayan ve kolun deri altında yükselen yüzeyel venlerdir: v. cephalica (dış), v. basilica (iç) ve dirsekte ikisini birleştiren v. mediana cubiti.",
+   "facts": [
+    [
+     "V. cephalica",
+     "El sırtının dış yanından başlar, kolun dış yanında yükselir, deltopektoral oluktan geçerek v. axillaris'e dökülür"
+    ],
+    [
+     "V. basilica",
+     "El sırtının iç yanından başlar, kolun ortasında derine girerek vv. brachiales ile birlikte v. axillaris'i oluşturur"
+    ],
+    [
+     "V. mediana cubiti",
+     "Kübital fossada v. cephalica'dan v. basilica'ya çapraz uzanır"
+    ],
+    [
+     "Derin venler",
+     "Arterlere eşlik eden çift venler (vv. comitantes): vv. radiales, ulnares, brachiales"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kan alma ve damar yolu açma için en sık v. mediana cubiti kullanılır; altında aponeurosis bicipitalis ile korunan a. brachialis ve n. medianus bulunur.",
+    "V. cephalica kalp pili elektrotlarının yerleştirilmesinde kullanılabilir."
+   ],
+   "related": [
+    "v-subclavia",
+    "a-brachialis",
+    "art-cubiti"
+   ],
+   "models": [
+    "Cephalic vein",
+    "Basilic vein",
+    "Median cubital vein",
+    "Median antebrachial vein",
+    "Dorsal venous network of hand",
+    "Brachial veins",
+    "Radial veins",
+    "Ulnar veins"
+   ],
+   "aliases": [
+    "sefalik ven",
+    "bazilik ven",
+    "kan alma"
+   ]
+  },
+  {
+   "id": "v-portae-hepatis",
+   "tr": "Kapı toplardamarı",
+   "la": "V. portae hepatis",
+   "en": "Hepatic portal vein",
+   "group": "Venler",
+   "region": "abdomen",
+   "summary": "Sindirim kanalı, dalak, pankreas ve safra kesesinden gelen besinden zengin kanı karaciğere taşıyan vendir. Karaciğere gelen kanın yaklaşık %75'ini sağlar.",
+   "facts": [
+    [
+     "Oluşum",
+     "Pankreas boynunun arkasında v. mesenterica superior ile v. splenica'nın birleşmesiyle (v. mesenterica inferior genellikle v. splenica'ya dökülür)"
+    ],
+    [
+     "Seyir",
+     "Lig. hepatoduodenale içinde, safra yolu (önde-sağda) ve a. hepatica propria'nın (önde-solda) arkasında karaciğer kapısına (porta hepatis) gider"
+    ],
+    [
+     "Dallanma",
+     "Ramus dexter ve sinister; karaciğer sinüzoidlerinde sonlanır"
+    ],
+    [
+     "Portokaval anastomozlar",
+     "Özofagus alt ucu (vv. gastricae – v. azygos), rektum (v. rectalis superior – media/inferior), göbek çevresi (vv. paraumbilicales – karın duvarı venleri), retroperitoneal venler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Siroz gibi nedenlerle portal hipertansiyon geliştiğinde anastomozlarda özofagus varisleri (ölümcül kanama), hemoroid ve göbek çevresinde genişlemiş venler (caput medusae) oluşur; dalak büyür ve asit gelişir."
+   ],
+   "related": [
+    "hepar",
+    "splen",
+    "pancreas",
+    "a-mesenterica-superior",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Hepatic portal vein",
+    "Splenic vein",
+    "Superior mesenteric vein",
+    "Inferior mesenteric vein"
+   ],
+   "aliases": [
+    "portal ven",
+    "splenik ven",
+    "mezenterik ven"
+   ]
+  },
+  {
+   "id": "v-azygos",
+   "tr": "Azigos ven",
+   "la": "V. azygos",
+   "en": "Azygos vein",
+   "group": "Venler",
+   "region": "thorax",
+   "summary": "Göğüs ve karın arka duvarının kanını toplayan, omurganın sağında yukarı çıkarak v. cava superior'a dökülen vendir. Kavaların arasında önemli bir kollateral yol oluşturur.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Sağ v. lumbalis ascendens ve v. subcostalis'in birleşmesi (L1–L2)"
+    ],
+    [
+     "Seyir",
+     "Hiatus aorticus'tan göğse girer, omur gövdelerinin sağında yükselir, T4 hizasında sağ akciğer kökünün üzerinden kavis yaparak v. cava superior'a dökülür"
+    ],
+    [
+     "Kollar",
+     "Sağ vv. intercostales posteriores, v. hemiazygos ve v. hemiazygos accessoria (sol taraftan), özofageal ve bronşiyal venler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "IVC tıkanmasında azigos sistemi alt vücut kanının kalbe dönmesi için önemli bir kollateral yoldur."
+   ],
+   "related": [
+    "v-cava-superior",
+    "v-cava-inferior",
+    "oesophagus"
+   ],
+   "models": [
+    "Azygos vein",
+    "Hemi-azygos vein",
+    "Accessory hemi-azygos vein"
+   ],
+   "aliases": [
+    "azigos",
+    "hemiazigos"
+   ]
+  },
+  {
+   "id": "v-femoralis",
+   "tr": "Uyluk toplardamarı",
+   "la": "V. femoralis",
+   "en": "Femoral vein",
+   "group": "Venler",
+   "region": "lowerLimb",
+   "summary": "Bacağın derin venöz kanını toplayan, femoral arterle birlikte seyreden büyük derin vendir.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Hiatus adductorius'ta v. poplitea'nın devamı"
+    ],
+    [
+     "Seyir",
+     "Adduktor kanalında arterin arkasında, femoral üçgende arterin iç tarafında yükselir"
+    ],
+    [
+     "Sonlanma",
+     "Lig. inguinale'nin altından geçerek v. iliaca externa olur"
+    ],
+    [
+     "Kollar",
+     "V. profunda femoris, v. saphena magna (safenofemoral bileşke)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Derin ven trombozu (DVT) en sık bacak derin venlerinde gelişir; pıhtı kopup akciğere giderse pulmoner emboli olur.",
+    "Acil durumlarda femoral nabzın hemen içinden femoral vene kateter takılabilir."
+   ],
+   "related": [
+    "a-femoralis",
+    "v-saphena-magna",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Femoral vein",
+    "Deep femoral vein",
+    "Popliteal vein",
+    "Anterior tibial veins",
+    "Posterior tibial veins",
+    "Fibular veins",
+    "External iliac vein",
+    "Internal iliac vein"
+   ],
+   "aliases": [
+    "femoral ven",
+    "popliteal ven",
+    "derin ven"
+   ]
+  },
+  {
+   "id": "v-saphena-magna",
+   "tr": "Büyük safen ven",
+   "la": "V. saphena magna",
+   "en": "Great saphenous vein",
+   "group": "Venler",
+   "region": "lowerLimb",
+   "summary": "Vücudun en uzun venidir; ayak sırtının iç kenarından kasığa kadar bacağın iç yüzünde deri altında yükselir.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Arcus venosus dorsalis pedis'in iç ucu"
+    ],
+    [
+     "Seyir",
+     "İç malleolün önünden (sabit konum), bacağın iç yüzünde n. saphenus ile birlikte, dizin iç-arka yüzünden ve uyluğun iç yüzünden yükselir"
+    ],
+    [
+     "Sonlanma",
+     "Hiatus saphenus'tan geçerek kasıkta v. femoralis'e dökülür (safenofemoral bileşke)"
+    ],
+    [
+     "Kapaklar",
+     "10–20 kapakçık içerir; perforan venlerle derin venlere bağlıdır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kapak yetmezliği varis gelişimine neden olur.",
+    "Koroner bypass ameliyatında greft olarak sık kullanılır (kapakları nedeniyle ters çevrilerek takılır).",
+    "İç malleolün önündeki sabit konumu acil damar yolu (venöz cut-down) için kullanılır."
+   ],
+   "related": [
+    "v-femoralis",
+    "v-saphena-parva",
+    "n-femoralis"
+   ],
+   "models": [
+    "Great saphenous vein"
+   ],
+   "aliases": [
+    "safen ven",
+    "varis"
+   ]
+  },
+  {
+   "id": "v-saphena-parva",
+   "tr": "Küçük safen ven",
+   "la": "V. saphena parva",
+   "en": "Small saphenous vein",
+   "group": "Venler",
+   "region": "lowerLimb",
+   "summary": "Ayağın dış kenarından başlayıp baldırın arkasında yükselen ve diz çukurunda popliteal vene dökülen yüzeyel vendir.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Arcus venosus dorsalis pedis'in dış ucu"
+    ],
+    [
+     "Seyir",
+     "Dış malleolün arkasından, n. suralis ile birlikte baldırın ortasında yükselir"
+    ],
+    [
+     "Sonlanma",
+     "Diz çukurunda v. poplitea"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Baldır arkasındaki varislerin kaynağı olabilir."
+   ],
+   "related": [
+    "v-saphena-magna",
+    "v-femoralis",
+    "n-tibialis"
+   ],
+   "models": [
+    "Small saphenous vein",
+    "Dorsal venous arch of foot"
+   ],
+   "aliases": [
+    "küçük safen"
+   ]
+  },
+  {
+   "id": "sinus-durae-matris",
+   "tr": "Dura sinüsleri",
+   "la": "Sinus durae matris",
+   "en": "Dural venous sinuses",
+   "group": "Venler",
+   "region": "head",
+   "summary": "Dura mater'in iki yaprağı arasında yer alan, beynin venöz kanını ve BOS'u toplayıp v. jugularis interna'ya ileten kapakçıksız venöz kanallardır.",
+   "facts": [
+    [
+     "Başlıca sinüsler",
+     "Sinus sagittalis superior ve inferior, sinus rectus, confluens sinuum, sinus transversus, sinus sigmoideus, sinus occipitalis, sinus cavernosus, sinus petrosus superior ve inferior"
+    ],
+    [
+     "Akım yönü",
+     "S. sagittalis superior → confluens sinuum → s. transversus → s. sigmoideus → v. jugularis interna"
+    ],
+    [
+     "Sinus cavernosus içeriği",
+     "İçinden a. carotis interna ve n. abducens; yan duvarında n. oculomotorius, n. trochlearis, n. ophthalmicus ve n. maxillaris geçer"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Yüzün ‘tehlike üçgenindeki’ enfeksiyonlar v. ophthalmica aracılığıyla sinus cavernosus'a yayılarak kavernöz sinüs trombozuna yol açabilir.",
+    "Dural venöz sinüs trombozu baş ağrısı, nöbet ve kafa içi basınç artışıyla seyreder."
+   ],
+   "related": [
+    "meninges",
+    "v-jugularis-interna",
+    "a-carotis-interna",
+    "n-abducens"
+   ],
+   "models": [
+    "Superior sagittal sinus",
+    "Inferior sagittal sinus",
+    "Straight sinus",
+    "Transverse sinus",
+    "Sigmoid sinus",
+    "Cavernous sinus",
+    "Superior petrosal sinus",
+    "Inferior petrosal sinus",
+    "Occipital sinus"
+   ],
+   "aliases": [
+    "kavernöz sinüs",
+    "sagittal sinüs",
+    "venöz sinüs"
+   ]
+  }
+ ]
+}

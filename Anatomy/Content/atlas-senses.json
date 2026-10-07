@@ -1,0 +1,571 @@
+{
+ "system": "senses",
+ "entries": [
+  {
+   "id": "bulbus-oculi",
+   "tr": "Göz küresi",
+   "la": "Bulbus oculi",
+   "en": "Eyeball",
+   "group": "Görme organı",
+   "region": "head",
+   "summary": "Göz çukuru (orbita) içinde yer alan, yaklaşık 24 mm çapında küresel görme organıdır. Işığı kırarak retinaya odaklar; retina ışığı sinir uyarısına çevirir.",
+   "facts": [
+    [
+     "Dış tabaka (tunica fibrosa)",
+     "Sclera (beyaz, sert) ve cornea (saydam, önde)"
+    ],
+    [
+     "Orta tabaka (tunica vasculosa – uvea)",
+     "Choroidea, corpus ciliare (akomodasyon, aköz hümör yapımı), iris (pupilla çapını ayarlar)"
+    ],
+    [
+     "İç tabaka (tunica interna)",
+     "Retina (fotoreseptörler: çubuklar – gece ve çevresel görme; koniler – renk ve keskin görme)"
+    ],
+    [
+     "İç ortamlar",
+     "Humor aquosus (ön ve arka kamara), lens, corpus vitreum"
+    ],
+    [
+     "Kırıcı ortamlar",
+     "Kornea (en güçlü, ~43 D), aköz, lens (~20 D, ayarlanabilir), vitreus"
+    ],
+    [
+     "Kanlanma",
+     "A. ophthalmica dalları: a. centralis retinae, aa. ciliares"
+    ]
+   ],
+   "sections": [
+    [
+     "Pupilla refleksleri",
+     "Işık refleksinin afferent kolu n. opticus, efferent kolu n. oculomotorius'un parasempatik lifleridir (m. sphincter pupillae). Pupillayı genişleten m. dilatator pupillae sempatik innervasyonludur."
+    ]
+   ],
+   "clinical": [
+    "Miyopide görüntü retinanın önüne, hipermetropide arkasına düşer.",
+    "Glokomda göz içi basıncı artar ve optik sinir hasar görür; aköz drenajı (Schlemm kanalı) bozulur.",
+    "Katarakt, lensin bulanıklaşmasıdır; dünyada körlüğün önde gelen nedenidir.",
+    "Diyabetik retinopati ve yaşa bağlı makula dejenerasyonu görme kaybının sık nedenleridir."
+   ],
+   "related": [
+    "cornea",
+    "lens",
+    "retina",
+    "n-opticus",
+    "mm-bulbi",
+    "apparatus-lacrimalis"
+   ],
+   "models": [
+    "Eye",
+    "Eyeball",
+    "Sclera",
+    "Anterior segment of eyeball",
+    "Posterior segment of eyeball"
+   ],
+   "aliases": [
+    "göz",
+    "sklera",
+    "uvea"
+   ]
+  },
+  {
+   "id": "cornea",
+   "tr": "Kornea (saydam tabaka)",
+   "la": "Cornea",
+   "en": "Cornea",
+   "group": "Görme organı",
+   "region": "head",
+   "summary": "Göz küresinin önündeki saydam, damarsız ve çok duyarlı kubbedir. Gözün kırma gücünün yaklaşık üçte ikisini sağlar.",
+   "facts": [
+    [
+     "Tabakaları",
+     "Epitel, Bowman tabakası, stroma (%90), Descemet zarı, endotel"
+    ],
+    [
+     "Beslenme",
+     "Damarsızdır; aköz hümörden ve gözyaşından beslenir"
+    ],
+    [
+     "İnnervasyon",
+     "N. ophthalmicus (V1) – nn. ciliares longi; vücudun en yoğun innerve dokularından biridir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Korneal refleks (afferent V1, efferent VII) koma ve beyin sapı değerlendirmesinde kullanılır.",
+    "Keratokonus korneanın incelip koni şeklini almasıdır.",
+    "Damarsız olduğu için kornea nakli düşük reddedilme oranıyla yapılabilir."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "lens",
+    "n-trigeminus"
+   ],
+   "models": [
+    "Cornea",
+    "Anterior chamber of eyeball"
+   ],
+   "aliases": [
+    "kornea"
+   ]
+  },
+  {
+   "id": "iris",
+   "tr": "İris ve göz bebeği",
+   "la": "Iris et pupilla",
+   "en": "Iris and pupil",
+   "group": "Görme organı",
+   "region": "head",
+   "summary": "İris, kornea ile lens arasında yer alan, gözün rengini veren ve ortasındaki açıklığın (pupilla) çapını ayarlayarak retinaya ulaşan ışık miktarını düzenleyen pigmentli halkadır.",
+   "facts": [
+    [
+     "Kasları",
+     "M. sphincter pupillae (parasempatik – III; pupillayı küçültür, miyozis) ve m. dilatator pupillae (sempatik; pupillayı büyütür, midriyazis)"
+    ],
+    [
+     "Renk",
+     "Stromadaki melanin miktarına bağlıdır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Anizokori (pupillaların eşit olmaması) III. sinir felci, Horner sendromu veya ilaç etkisi olabilir.",
+    "Afferent pupil defekti (Marcus Gunn) optik sinir hastalığını gösterir."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "n-oculomotorius",
+    "truncus-sympathicus"
+   ],
+   "models": [
+    "Iris"
+   ],
+   "aliases": [
+    "iris",
+    "pupilla",
+    "göz bebeği"
+   ]
+  },
+  {
+   "id": "lens",
+   "tr": "Göz merceği",
+   "la": "Lens",
+   "en": "Lens",
+   "group": "Görme organı",
+   "region": "head",
+   "summary": "İrisin arkasında, zonula lifleriyle siliyer cisme asılı duran, saydam ve esnek bikonveks mercektir. Şeklini değiştirerek yakını ve uzağı netleştirir (akomodasyon).",
+   "facts": [
+    [
+     "Asıcı yapı",
+     "Fibrae zonulares (Zinn zonülü)"
+    ],
+    [
+     "Akomodasyon",
+     "Yakına bakışta m. ciliaris kasılır, zonula gevşer, lens kalınlaşır (parasempatik – III)"
+    ],
+    [
+     "Yapısı",
+     "Kapsül, lens epiteli, lens lifleri; damarsız ve sinirsiz"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Yaşla lens esnekliğini kaybeder ve yakını görme zorlaşır (presbiyopi; 40 yaş sonrası).",
+    "Katarakt cerrahisinde bulanık lens çıkarılıp yerine yapay göz içi lensi takılır.",
+    "Marfan sendromunda lens yerinden oynayabilir (ektopia lentis)."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "cornea",
+    "iris"
+   ],
+   "models": [
+    "Lens",
+    "Zonular fibres",
+    "Suspensory ligament of eyeball"
+   ],
+   "aliases": [
+    "mercek",
+    "katarakt"
+   ]
+  },
+  {
+   "id": "retina",
+   "tr": "Ağ tabaka (retina)",
+   "la": "Retina",
+   "en": "Retina",
+   "group": "Görme organı",
+   "region": "head",
+   "summary": "Göz küresinin iç yüzünü döşeyen, ışığı algılayan sinir tabakasıdır. Fotoreseptörler ışığı elektrik sinyaline çevirir; bu sinyal ganglion hücreleri ve optik sinir ile beyne iletilir.",
+   "facts": [
+    [
+     "Fotoreseptörler",
+     "Çubuklar (~120 milyon; düşük ışık, siyah-beyaz) ve koniler (~6 milyon; renk ve ayrıntı)"
+    ],
+    [
+     "Macula lutea ve fovea centralis",
+     "En keskin görme alanı; yalnızca koniler bulunur"
+    ],
+    [
+     "Discus nervi optici",
+     "Optik sinirin çıktığı yer; fotoreseptör yoktur (kör nokta)"
+    ],
+    [
+     "Kanlanma",
+     "İç tabakalar a. centralis retinae, dış tabakalar koroid damarları"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Retina dekolmanında ışık çakmaları, uçuşan cisimler ve görme alanında perde inmesi görülür; acildir.",
+    "Santral retina arter tıkanmasında fundusta ‘kiraz kırmızısı nokta’ görülür.",
+    "Oftalmoskopi ile retina damarları doğrudan incelenebilir (hipertansif ve diyabetik retinopati)."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "n-opticus",
+    "lobus-occipitalis"
+   ],
+   "models": [
+    "Retina",
+    "Vitreous body"
+   ],
+   "aliases": [
+    "retina",
+    "makula",
+    "fovea"
+   ]
+  },
+  {
+   "id": "apparatus-lacrimalis",
+   "tr": "Gözyaşı aygıtı",
+   "la": "Apparatus lacrimalis",
+   "en": "Lacrimal apparatus",
+   "group": "Görme organı",
+   "region": "head",
+   "summary": "Gözyaşını üreten gözyaşı bezi ile gözyaşını burun boşluğuna boşaltan kanallardan oluşan sistemdir. Gözyaşı korneayı nemlendirir, besler ve korur.",
+   "facts": [
+    [
+     "Gözyaşı bezi",
+     "Orbitanın üst-dış köşesinde (fossa glandulae lacrimalis); parasempatik innervasyon n. facialis'ten (n. petrosus major → ganglion pterygopalatinum)"
+    ],
+    [
+     "Drenaj yolu",
+     "Puncta lacrimalia → canaliculi lacrimales → saccus lacrimalis → ductus nasolacrimalis → meatus nasi inferior"
+    ],
+    [
+     "Gözyaşı film tabakası",
+     "Lipid (Meibom bezleri), sulu (gözyaşı bezi), müsin (konjonktiva goblet hücreleri)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ağlarken burun akması gözyaşının burna drenajını gösterir.",
+    "Yenidoğanlarda ductus nasolacrimalis tıkanıklığı sulanma ve çapaklanmaya yol açar.",
+    "Kuru göz sendromu gözyaşı yapımı veya kalitesinin azalmasıyla oluşur."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "os-lacrimale",
+    "cavitas-nasi",
+    "n-facialis"
+   ],
+   "models": [
+    "Lacrimal apparatus",
+    "Lacrimal gland",
+    "Lacrimal sac",
+    "Nasolacrimal duct",
+    "Lacrimal canaliculus"
+   ],
+   "aliases": [
+    "gözyaşı bezi",
+    "nazolakrimal"
+   ]
+  },
+  {
+   "id": "palpebrae",
+   "tr": "Göz kapakları",
+   "la": "Palpebrae",
+   "en": "Eyelids",
+   "group": "Görme organı",
+   "region": "head",
+   "summary": "Gözün önünü örten, gözü koruyan ve göz kırpma ile gözyaşını kornea üzerine yayan hareketli kıvrımlardır.",
+   "facts": [
+    [
+     "Katmanları",
+     "Deri, m. orbicularis oculi, tarsus (sık bağ dokusu plağı; Meibom bezleri), konjonktiva"
+    ],
+    [
+     "Kaldırıcı kaslar",
+     "M. levator palpebrae superioris (n. oculomotorius) ve m. tarsalis superior (Müller – sempatik)"
+    ],
+    [
+     "Bezler",
+     "Glandulae tarsales (Meibom), Zeis ve Moll bezleri"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pitoz (göz kapağı düşüklüğü) III. sinir felcinde belirgin, Horner sendromunda hafiftir.",
+    "Arpacık (hordeolum) kirpik dibindeki bezlerin enfeksiyonudur; şalazyon Meibom bezinin kronik iltihabıdır."
+   ],
+   "related": [
+    "m-orbicularis-oculi",
+    "mm-bulbi",
+    "bulbus-oculi"
+   ],
+   "models": [
+    "Superior tarsus",
+    "Inferior tarsus",
+    "Accessory visual structures"
+   ],
+   "aliases": [
+    "göz kapağı",
+    "tarsus"
+   ]
+  },
+  {
+   "id": "auris-externa",
+   "tr": "Dış kulak",
+   "la": "Auris externa",
+   "en": "External ear",
+   "group": "İşitme ve denge organı",
+   "region": "head",
+   "summary": "Kulak kepçesi (auricula) ve dış kulak yolundan (meatus acusticus externus) oluşan, ses dalgalarını toplayıp kulak zarına ileten bölümdür.",
+   "facts": [
+    [
+     "Kulak kepçesi",
+     "Elastik kıkırdak iskelet (lobül hariç); helix, antihelix, tragus, antitragus, concha, lobulus"
+    ],
+    [
+     "Dış kulak yolu",
+     "Yaklaşık 2,5 cm; dış 1/3 kıkırdak, iç 2/3 kemik; serüminöz bezler (kulak kiri)"
+    ],
+    [
+     "İnnervasyon",
+     "N. auriculotemporalis (V3), n. auricularis magnus (C2–C3), n. vagus'un aurikular dalı, n. facialis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kulak muayenesinde erişkinde kepçe yukarı-geriye çekilir.",
+    "Vagal dal nedeniyle kulak yolu temizliği öksürük refleksini tetikleyebilir.",
+    "Kulak kepçesi hematomu boşaltılmazsa ‘karnabahar kulak’ deformitesi gelişir."
+   ],
+   "related": [
+    "auris-media",
+    "os-temporale"
+   ],
+   "models": [
+    "External ear",
+    "Auricular region",
+    "Helix",
+    "Antihelix",
+    "Tragus",
+    "Antitragus",
+    "Lobule of auricle",
+    "Concha of auricle",
+    "Scapha"
+   ],
+   "aliases": [
+    "kulak kepçesi",
+    "dış kulak yolu"
+   ]
+  },
+  {
+   "id": "auris-media",
+   "tr": "Orta kulak",
+   "la": "Auris media",
+   "en": "Middle ear",
+   "group": "İşitme ve denge organı",
+   "region": "head",
+   "summary": "Temporal kemik içinde, kulak zarı ile iç kulak arasında yer alan, kulak kemikçiklerini içeren hava dolu boşluktur. Östaki borusuyla yutağa bağlanır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Cavitas tympani (timpanik boşluk), antrum mastoideum ve cellulae mastoideae, tuba auditiva"
+    ],
+    [
+     "Membrana tympanica",
+     "Kulak zarı; yaklaşık 1 cm çaplı, pars tensa ve flaccida; manubrium mallei'ye yapışık"
+    ],
+    [
+     "İçerik",
+     "Malleus, incus, stapes; m. tensor tympani ve m. stapedius; chorda tympani"
+    ],
+    [
+     "Duvarları",
+     "Tavan tegmen tympani (orta kafa çukuru), taban v. jugularis interna, ön duvar a. carotis interna ve tuba auditiva, iç duvar promontorium ve pencereler, arka duvar mastoid antrum"
+    ],
+    [
+     "Tuba auditiva",
+     "Orta kulağı nazofarinkse bağlar; basınç eşitler ve drenaj sağlar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akut otitis media çocuklarda çok sıktır; çocuklarda tuba auditiva kısa, geniş ve yatay olduğundan enfeksiyon kolay yayılır.",
+    "Uçakta inişte kulak ağrısı tuba auditiva'nın basıncı eşitleyememesine bağlıdır.",
+    "Kolesteatom orta kulakta keratin birikimi olup kemikleri aşındırabilir."
+   ],
+   "related": [
+    "ossicula-auditus",
+    "auris-externa",
+    "auris-interna",
+    "pharynx",
+    "n-facialis"
+   ],
+   "models": [
+    "Middle ear",
+    "Tympanic membrane",
+    "Auditory tube"
+   ],
+   "aliases": [
+    "kulak zarı",
+    "östaki",
+    "timpan"
+   ]
+  },
+  {
+   "id": "auris-interna",
+   "tr": "İç kulak",
+   "la": "Auris interna",
+   "en": "Internal ear",
+   "group": "İşitme ve denge organı",
+   "region": "head",
+   "summary": "Temporal kemiğin pars petrosa'sı içinde yer alan, işitme (koklea) ve denge (vestibül ve semisirküler kanallar) organlarını içeren karmaşık kanal sistemidir (labirent).",
+   "facts": [
+    [
+     "Kemik labirent",
+     "Vestibulum, canales semicirculares (ön, arka, yan), cochlea (2,5 tur); içinde perilenf"
+    ],
+    [
+     "Zar labirent",
+     "Utriculus ve sacculus (doğrusal ivme, yerçekimi), ductus semicirculares (dönme hareketi), ductus cochlearis (işitme – Corti organı); içinde endolenf"
+    ],
+    [
+     "Pencereler",
+     "Fenestra vestibuli (oval; stapes tabanı) ve fenestra cochleae (yuvarlak)"
+    ],
+    [
+     "Sinir",
+     "N. vestibulocochlearis (VIII)"
+    ],
+    [
+     "Kanlanma",
+     "A. labyrinthi (çoğunlukla AICA'dan)"
+    ]
+   ],
+   "sections": [
+    [
+     "İşitme",
+     "Ses titreşimi oval pencereden perilenfe geçer, baziler membranı titreştirir; Corti organındaki tüylü hücreler bu hareketi sinir uyarısına çevirir. Yüksek frekanslar kokleanın tabanında, düşük frekanslar tepesinde algılanır."
+    ]
+   ],
+   "clinical": [
+    "Benign paroksismal pozisyonel vertigo (BPPV) otokonyaların semisirküler kanala kaçmasıyla olur; Epley manevrasıyla tedavi edilir.",
+    "Ménière hastalığında endolenf artışı atak tarzında vertigo, kulak çınlaması ve işitme kaybı yapar.",
+    "Gürültüye bağlı işitme kaybı tipik olarak 4 kHz civarında başlar.",
+    "İleri sensörinöral işitme kaybında koklear implant uygulanabilir."
+   ],
+   "related": [
+    "auris-media",
+    "n-vestibulocochlearis",
+    "os-temporale"
+   ],
+   "models": [
+    "Internal ear",
+    "Cochlea",
+    "Vestibule"
+   ],
+   "aliases": [
+    "koklea",
+    "salyangoz",
+    "labirent",
+    "vestibül",
+    "semisirküler kanal"
+   ]
+  },
+  {
+   "id": "organum-olfactus",
+   "tr": "Koku organı",
+   "la": "Organum olfactus",
+   "en": "Olfactory organ",
+   "group": "Koku ve tat",
+   "region": "head",
+   "summary": "Burun boşluğunun tavanındaki yaklaşık 2–5 cm²'lik koku mukozasıdır (regio olfactoria). Koku reseptör hücreleri doğrudan beyinle bağlantılı tek duyu nöronlarıdır ve yenilenebilirler.",
+   "facts": [
+    [
+     "Konum",
+     "Concha nasalis superior ve septum nasi'nin üst kısmı, lamina cribrosa altı"
+    ],
+    [
+     "Hücreler",
+     "Koku reseptör nöronları (bipolar), destek hücreleri, bazal kök hücreler, Bowman bezleri"
+    ],
+    [
+     "Yolak",
+     "Fila olfactoria → bulbus olfactorius → tractus olfactorius → koku korteksi (talamusa uğramadan)"
+    ],
+    [
+     "Reseptör çeşitliliği",
+     "Yaklaşık 400 farklı koku reseptör geni"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Koku kaybı (anosmi) travma, viral enfeksiyon ve nörodejeneratif hastalıklarda görülür.",
+    "Kallmann sendromunda anosmi ve hipogonadotropik hipogonadizm birliktedir."
+   ],
+   "related": [
+    "n-olfactorius",
+    "cavitas-nasi",
+    "os-ethmoidale"
+   ],
+   "models": [],
+   "aliases": [
+    "koku",
+    "olfaksiyon"
+   ]
+  },
+  {
+   "id": "gustus",
+   "tr": "Tat organı",
+   "la": "Organum gustus",
+   "en": "Gustatory organ",
+   "group": "Koku ve tat",
+   "region": "head",
+   "summary": "Tat duyusu, başlıca dildeki papillalarda (özellikle papillae vallatae, fungiformes ve foliatae) bulunan yaklaşık 5.000–10.000 tat tomurcuğu ile algılanır.",
+   "facts": [
+    [
+     "Temel tatlar",
+     "Tatlı, tuzlu, ekşi, acı, umami"
+    ],
+    [
+     "Sinirler",
+     "Dilin ön 2/3'ü: chorda tympani (VII); arka 1/3'ü: n. glossopharyngeus (IX); epiglot ve farinks: n. vagus (X)"
+    ],
+    [
+     "Merkezi yolak",
+     "Nucleus tractus solitarii → talamus (VPM) → insula ve frontal operkulum (tat korteksi)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bell paralizisinde chorda tympani etkilenirse dilin ön 2/3'ünde tat kaybı olur.",
+    "Koku kaybı yaşayan hastalar genellikle tat kaybından yakınır, çünkü aroma algısı büyük ölçüde kokuya bağlıdır."
+   ],
+   "related": [
+    "lingua",
+    "n-facialis",
+    "n-glossopharyngeus",
+    "insula"
+   ],
+   "models": [],
+   "aliases": [
+    "tat",
+    "tat tomurcuğu"
+   ]
+  }
+ ]
+}

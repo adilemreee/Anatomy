@@ -1,0 +1,863 @@
+{
+ "system": "digestive",
+ "entries": [
+  {
+   "id": "cavitas-oris",
+   "tr": "Ağız boşluğu",
+   "la": "Cavitas oris",
+   "en": "Oral cavity",
+   "group": "Ağız ve yutak",
+   "region": "head",
+   "summary": "Sindirim kanalının başlangıcıdır. Dudaklar ile yutak girişi arasında yer alır; dişler, dil ve tükürük bezlerinin kanalları burada bulunur.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Vestibulum oris (dudak/yanak ile dişler arası) ve cavitas oris propria"
+    ],
+    [
+     "Tavan",
+     "Palatum durum (sert damak) ve palatum molle (yumuşak damak – uvula)"
+    ],
+    [
+     "Taban",
+     "M. mylohyoideus ve dil"
+    ],
+    [
+     "Arka sınır",
+     "Isthmus faucium (arcus palatoglossus)"
+    ],
+    [
+     "Yumuşak damak kasları",
+     "M. levator ve tensor veli palatini, m. palatoglossus, m. palatopharyngeus, m. uvulae"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Yarık damak ve dudak en sık doğumsal yüz anomalileridir.",
+    "Ağız kanserlerinin çoğu dil kenarı ve ağız tabanında görülür; tütün ve alkol başlıca risk faktörleridir."
+   ],
+   "related": [
+    "lingua",
+    "dentes",
+    "glandula-parotidea",
+    "pharynx"
+   ],
+   "models": [
+    "Mouth",
+    "Soft palate",
+    "Uvula of palate",
+    "Gingiva"
+   ],
+   "aliases": [
+    "ağız",
+    "damak",
+    "uvula",
+    "dişeti"
+   ]
+  },
+  {
+   "id": "lingua",
+   "tr": "Dil",
+   "la": "Lingua",
+   "en": "Tongue",
+   "group": "Ağız ve yutak",
+   "region": "head",
+   "summary": "Ağız tabanında yer alan, çizgili kaslardan oluşan hareketli organdır. Çiğneme, yutma, konuşma ve tat almada görev alır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Apex, corpus (ön 2/3), radix (arka 1/3); sulcus terminalis ile ayrılır"
+    ],
+    [
+     "Papillalar",
+     "Papillae filiformes (tat tomurcuğu yok), fungiformes, vallatae (sulcus terminalis önünde 8–12 adet), foliatae"
+    ],
+    [
+     "Motor sinir",
+     "N. hypoglossus (XII) – m. palatoglossus hariç"
+    ],
+    [
+     "Duyu sinirleri",
+     "Ön 2/3: genel duyu n. lingualis (V3), tat chorda tympani (VII); arka 1/3: genel duyu ve tat n. glossopharyngeus (IX); epiglot çevresi: n. vagus (X)"
+    ],
+    [
+     "Kanlanma",
+     "A. lingualis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dil altı (sublingual) mukoza ince ve damarlı olduğundan nitrogliserin gibi ilaçlar hızla emilir.",
+    "Ankiloglossi (dil bağı) emzirme ve konuşma güçlüğüne neden olabilir."
+   ],
+   "related": [
+    "mm-linguae",
+    "n-hypoglossus",
+    "cavitas-oris",
+    "gustus"
+   ],
+   "models": [
+    "Tongue",
+    "Muscles of tongue"
+   ],
+   "aliases": [
+    "dil"
+   ]
+  },
+  {
+   "id": "glandula-parotidea",
+   "tr": "Kulak altı tükürük bezi",
+   "la": "Glandula parotidea",
+   "en": "Parotid gland",
+   "group": "Ağız ve yutak",
+   "region": "head",
+   "summary": "En büyük tükürük bezidir; kulağın önünde ve altında, mandibula ramus'unun arkasında yer alır. Seröz (sulu) tükürük salgılar.",
+   "facts": [
+    [
+     "Kanal",
+     "Ductus parotideus (Stensen) – m. masseter üzerinden geçer, m. buccinator'u deler, üst 2. azı dişi hizasında ağza açılır"
+    ],
+    [
+     "İçinden geçenler",
+     "N. facialis ve dalları (en yüzeyel), v. retromandibularis, a. carotis externa (en derin)"
+    ],
+    [
+     "Parasempatik innervasyon",
+     "N. glossopharyngeus → ganglion oticum → n. auriculotemporalis"
+    ],
+    [
+     "Salgı tipi",
+     "Saf seröz"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kabakulak (parotit) bezin ağrılı şişliğine neden olur.",
+    "Parotis tümörlerinin çoğu iyi huyludur (pleomorfik adenom); cerrahide n. facialis korunmalıdır.",
+    "Frey sendromu: parotis cerrahisi sonrası yemek yerken yanakta terleme."
+   ],
+   "related": [
+    "n-facialis",
+    "glandula-submandibularis",
+    "m-masseter",
+    "m-buccinator"
+   ],
+   "models": [
+    "Parotid gland",
+    "Parotid duct",
+    "(Accessory parotid gland)"
+   ],
+   "aliases": [
+    "parotis"
+   ]
+  },
+  {
+   "id": "glandula-submandibularis",
+   "tr": "Çene altı tükürük bezi",
+   "la": "Glandula submandibularis",
+   "en": "Submandibular gland",
+   "group": "Ağız ve yutak",
+   "region": "neck",
+   "summary": "Alt çenenin iç yüzünün altında, submandibular üçgende yer alan karma (seröz ve müköz) tükürük bezidir. Günlük tükürüğün yaklaşık %70'ini üretir.",
+   "facts": [
+    [
+     "Kanal",
+     "Ductus submandibularis (Wharton) – dil frenulumu yanındaki caruncula sublingualis'e açılır"
+    ],
+    [
+     "İnnervasyon",
+     "N. facialis (chorda tympani) → ganglion submandibulare"
+    ],
+    [
+     "Salgı tipi",
+     "Karma, ağırlıklı seröz"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tükürük taşlarının (siyalolitiyazis) yaklaşık %80'i bu bezde görülür; yemek yerken ağrılı şişlik yapar."
+   ],
+   "related": [
+    "glandula-parotidea",
+    "glandula-sublingualis",
+    "mm-suprahyoidei"
+   ],
+   "models": [
+    "Submandibular gland",
+    "Submandibular duct"
+   ],
+   "aliases": [
+    "submandibular"
+   ]
+  },
+  {
+   "id": "glandula-sublingualis",
+   "tr": "Dil altı tükürük bezi",
+   "la": "Glandula sublingualis",
+   "en": "Sublingual gland",
+   "group": "Ağız ve yutak",
+   "region": "head",
+   "summary": "Büyük tükürük bezlerinin en küçüğüdür; dilin altında, ağız tabanının mukozası altında yer alır. Ağırlıklı müköz salgı yapar.",
+   "facts": [
+    [
+     "Kanallar",
+     "8–20 küçük kanal (ductus sublinguales minores) plica sublingualis üzerine; bazen ductus sublingualis major submandibular kanala katılır"
+    ],
+    [
+     "İnnervasyon",
+     "Chorda tympani (VII) → ganglion submandibulare"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kanal tıkanmasıyla ağız tabanında mavimsi kistik şişlik (ranula) oluşabilir."
+   ],
+   "related": [
+    "glandula-submandibularis",
+    "lingua"
+   ],
+   "models": [
+    "Sublingual gland"
+   ],
+   "aliases": [
+    "sublingual"
+   ]
+  },
+  {
+   "id": "pharynx",
+   "tr": "Yutak",
+   "la": "Pharynx",
+   "en": "Pharynx",
+   "group": "Ağız ve yutak",
+   "region": "neck",
+   "summary": "Kafa tabanından C6 hizasına kadar uzanan, solunum ve sindirim yollarının ortak kullandığı kas-zar borudur.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Nazofarinks (burun arkası; tuba auditiva açılır, adenoid bulunur), orofarinks (ağız arkası; palatin tonsiller), laringofarinks (gırtlak arkası; özofagusa devam eder)"
+    ],
+    [
+     "Kasları",
+     "Konstriktör kaslar (superior, medius, inferior) ve uzunlamasına kaslar (m. stylopharyngeus, m. palatopharyngeus, m. salpingopharyngeus)"
+    ],
+    [
+     "İnnervasyon",
+     "Plexus pharyngeus (n. glossopharyngeus ve n. vagus); m. stylopharyngeus: n. glossopharyngeus"
+    ],
+    [
+     "Lenfoid halka",
+     "Waldeyer halkası: adenoid, tuba ve palatin tonsiller, lingual tonsil"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Recessus piriformis'e takılan balık kılçıkları sık görülür.",
+    "Zenker divertikülü konstriktör kasların zayıf noktasından (Killian üçgeni) gelişir.",
+    "Büyük adenoid çocuklarda burun tıkanıklığı ve orta kulak iltihabına yol açar."
+   ],
+   "related": [
+    "cavitas-nasi",
+    "cavitas-oris",
+    "larynx",
+    "oesophagus",
+    "tonsillae"
+   ],
+   "models": [
+    "Pharynx",
+    "Nasopharynx",
+    "Oropharynx",
+    "Laryngopharynx",
+    "Pharyngeal muscles"
+   ],
+   "aliases": [
+    "farinks",
+    "boğaz"
+   ]
+  },
+  {
+   "id": "oesophagus",
+   "tr": "Yemek borusu",
+   "la": "Oesophagus",
+   "en": "Oesophagus",
+   "group": "Sindirim kanalı",
+   "region": "thorax",
+   "summary": "Yutaktan mideye uzanan yaklaşık 25 cm uzunluğunda kaslı borudur. Boyun, göğüs ve karın bölümleri vardır; besinleri peristaltik hareketlerle mideye iletir.",
+   "facts": [
+    [
+     "Başlangıç ve sonlanma",
+     "C6 (cartilago cricoidea) – T11 (cardia)"
+    ],
+    [
+     "Daralmaları",
+     "Başlangıç (krikofaringeal; dişlerden 15 cm), aort kavsi ve sol ana bronş çaprazı (25 cm), diyafram geçişi (40 cm)"
+    ],
+    [
+     "Kas yapısı",
+     "Üst 1/3 çizgili, orta 1/3 karma, alt 1/3 düz kas"
+    ],
+    [
+     "Kanlanma",
+     "A. thyroidea inferior, aorta'nın özofageal dalları, a. gastrica sinistra"
+    ],
+    [
+     "Venöz drenaj",
+     "Alt uçta portal (v. gastrica sinistra) ve sistemik (v. azygos) sistemler arasında anastomoz"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Gastroözofageal reflü hastalığında mide asidi alt özofagusa kaçar; uzun sürerse Barrett özofagusu gelişebilir.",
+    "Portal hipertansiyonda özofagus varisleri ölümcül kanamaya yol açabilir.",
+    "Akalazyada alt özofagus sfinkteri gevşeyemez."
+   ],
+   "related": [
+    "pharynx",
+    "gaster",
+    "diaphragma",
+    "trachea",
+    "v-azygos"
+   ],
+   "models": [
+    "Oesophagus"
+   ],
+   "aliases": [
+    "özofagus"
+   ]
+  },
+  {
+   "id": "gaster",
+   "tr": "Mide",
+   "la": "Gaster (ventriculus)",
+   "en": "Stomach",
+   "group": "Sindirim kanalı",
+   "region": "abdomen",
+   "summary": "Sindirim kanalının en geniş bölümüdür; karnın sol üst kadranında yer alır. Besinleri depolar, asit ve enzimlerle kimyasal sindirimi başlatır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Cardia, fundus, corpus, pars pylorica (antrum ve canalis pyloricus), pylorus"
+    ],
+    [
+     "Kenarları",
+     "Curvatura minor (sağ-üst) ve curvatura major (sol-alt)"
+    ],
+    [
+     "Kas tabakası",
+     "Üç kat: dışta uzunlamasına, ortada dairesel, içte eğik lifler"
+    ],
+    [
+     "Salgı hücreleri",
+     "Parietal hücreler (HCl, intrinsik faktör), esas hücreler (pepsinojen), G hücreleri (gastrin)"
+    ],
+    [
+     "Kanlanma",
+     "Truncus coeliacus dalları: a. gastrica dextra ve sinistra, aa. gastroomentales, aa. gastricae breves"
+    ],
+    [
+     "Kapasite",
+     "Erişkinde yaklaşık 1,5 L"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Peptik ülser en sık Helicobacter pylori enfeksiyonu ve NSAİİ kullanımıyla ilişkilidir.",
+    "Bebeklerde pilor stenozu fışkırır tarzda kusmaya neden olur.",
+    "Mide ağrısı genellikle epigastriumda hissedilir."
+   ],
+   "related": [
+    "oesophagus",
+    "duodenum",
+    "truncus-coeliacus",
+    "peritoneum",
+    "splen"
+   ],
+   "models": [
+    "Stomach",
+    "Mucosa of stomach"
+   ],
+   "aliases": [
+    "mide"
+   ]
+  },
+  {
+   "id": "duodenum",
+   "tr": "Onikiparmak bağırsağı",
+   "la": "Duodenum",
+   "en": "Duodenum",
+   "group": "Sindirim kanalı",
+   "region": "abdomen",
+   "summary": "İnce bağırsağın ilk ve en kısa (yaklaşık 25 cm) bölümüdür. Pankreas başını C harfi şeklinde sarar; safra ve pankreas salgıları buraya dökülür.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Pars superior (bulbus – intraperitoneal), pars descendens, pars horizontalis, pars ascendens; flexura duodenojejunalis (Treitz bağı)"
+    ],
+    [
+     "Papilla duodeni major (Vater)",
+     "Pars descendens'te; ductus choledochus ve ductus pancreaticus açılır (ampulla hepatopancreatica, Oddi sfinkteri)"
+    ],
+    [
+     "Konum",
+     "Bulbus dışında retroperitoneal; L1–L3 hizası"
+    ],
+    [
+     "Kanlanma",
+     "A. gastroduodenalis ve a. pancreaticoduodenalis superior (çölyak) ile a. pancreaticoduodenalis inferior (SMA) – ön ve arka bağırsak sınırı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Duodenal ülserlerin çoğu bulbusta görülür; arka duvar ülseri a. gastroduodenalis'i aşındırabilir.",
+    "Treitz bağı üst ve alt gastrointestinal kanamaları ayıran sınırdır."
+   ],
+   "related": [
+    "gaster",
+    "intestinum-tenue",
+    "pancreas",
+    "vesica-biliaris"
+   ],
+   "models": [
+    "Duodenum"
+   ],
+   "aliases": [
+    "duodenum"
+   ]
+  },
+  {
+   "id": "intestinum-tenue",
+   "tr": "İnce bağırsak (jejunum ve ileum)",
+   "la": "Intestinum tenue (jejunum et ileum)",
+   "en": "Small intestine",
+   "group": "Sindirim kanalı",
+   "region": "abdomen",
+   "summary": "Besinlerin sindiriminin tamamlandığı ve emilimin büyük kısmının gerçekleştiği, yaklaşık 6–7 m uzunluğundaki bağırsak bölümüdür. Jejunum ve ileum mezenter ile arka karın duvarına asılıdır.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Duodenum (25 cm), jejunum (proksimal 2/5), ileum (distal 3/5)"
+    ],
+    [
+     "Jejunum özellikleri",
+     "Daha kalın duvarlı, geniş çaplı, belirgin plicae circulares, az sayıda uzun vasa recta"
+    ],
+    [
+     "İleum özellikleri",
+     "İnce duvarlı, çok sayıda arter kavsi ve kısa vasa recta, Peyer plakları (lenfoid foliküller)"
+    ],
+    [
+     "Emilim yüzeyi",
+     "Plicae circulares, villuslar ve mikrovilluslar ile yaklaşık 200 m²"
+    ],
+    [
+     "Kanlanma",
+     "A. mesenterica superior"
+    ],
+    [
+     "Özel emilim",
+     "Terminal ileum: B12 vitamini ve safra tuzları"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Meckel divertikülü ileumda görülür (‘2'ler kuralı’: %2, ileoçekal valvden 2 ayak, 2 inç).",
+    "Crohn hastalığı en sık terminal ileumu tutar.",
+    "Bağırsak tıkanıklığı (ileus) kusma, karın şişliği ve gaz-gaita çıkaramama ile seyreder."
+   ],
+   "related": [
+    "duodenum",
+    "intestinum-crassum",
+    "a-mesenterica-superior",
+    "peritoneum"
+   ],
+   "models": [
+    "Small intestine",
+    "Jejunum"
+   ],
+   "aliases": [
+    "ince bağırsak",
+    "jejunum",
+    "ileum"
+   ]
+  },
+  {
+   "id": "intestinum-crassum",
+   "tr": "Kalın bağırsak",
+   "la": "Intestinum crassum",
+   "en": "Large intestine",
+   "group": "Sindirim kanalı",
+   "region": "abdomen",
+   "summary": "İleumdan anüse kadar uzanan, yaklaşık 1,5 m uzunluğunda bağırsak bölümüdür. Su ve elektrolitleri emer, dışkıyı oluşturur ve depolar.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Caecum (ve appendix vermiformis), colon ascendens, flexura coli dextra, colon transversum, flexura coli sinistra, colon descendens, colon sigmoideum, rectum, canalis analis"
+    ],
+    [
+     "Ayırt edici özellikler",
+     "Taeniae coli (3 uzunlamasına kas bandı), haustra (keseler), appendices omentales (yağ uzantıları)"
+    ],
+    [
+     "Peritoneal ilişki",
+     "Colon transversum ve sigmoideum intraperitoneal (mezolu); ascendens ve descendens retroperitoneal"
+    ],
+    [
+     "Kanlanma",
+     "Splenik fleksuraya kadar a. mesenterica superior, sonrası a. mesenterica inferior"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kolorektal kanser sık görülen kanserlerdendir; tarama için kolonoskopi önerilir.",
+    "Divertiküler hastalık en sık sigmoid kolonda görülür.",
+    "Volvulus en sık sigmoid kolonda gelişir."
+   ],
+   "related": [
+    "intestinum-tenue",
+    "appendix-vermiformis",
+    "rectum",
+    "a-mesenterica-inferior",
+    "a-mesenterica-superior"
+   ],
+   "models": [
+    "Large intestine",
+    "Colon",
+    "Ascending colon",
+    "Transverse colon",
+    "Descending colon",
+    "Sigmoid colon",
+    "Taeniae coli"
+   ],
+   "aliases": [
+    "kolon",
+    "kalın bağırsak",
+    "sigmoid",
+    "çekum"
+   ]
+  },
+  {
+   "id": "appendix-vermiformis",
+   "tr": "Apandis (körbağırsak eki)",
+   "la": "Appendix vermiformis",
+   "en": "Vermiform appendix",
+   "group": "Sindirim kanalı",
+   "region": "abdomen",
+   "summary": "Çekumun iç-arka yüzünden çıkan, ortalama 8–10 cm uzunluğunda solucan biçimli kör uçlu tüptür. Duvarında bol lenfoid doku bulunur.",
+   "facts": [
+    [
+     "Konum",
+     "En sık retroçekal; pelvik, subçekal, preileal ve postileal yerleşimler de görülür"
+    ],
+    [
+     "Taban izdüşümü",
+     "McBurney noktası: SIAS ile göbeği birleştiren çizginin dış 1/3'ü"
+    ],
+    [
+     "Kanlanma",
+     "A. appendicularis (a. ileocolica dalı) – mesoappendix içinde; uç arter"
+    ],
+    [
+     "Bulma ipucu",
+     "Üç taenia coli apendiks tabanında birleşir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akut apandisit: göbek çevresinde başlayıp sağ alt kadrana yerleşen ağrı, bulantı, ateş; McBurney hassasiyeti, Rovsing, psoas ve obturator bulguları.",
+    "A. appendicularis uç arter olduğundan tromboz kangren ve perforasyona yol açar."
+   ],
+   "related": [
+    "intestinum-crassum",
+    "a-mesenterica-superior"
+   ],
+   "models": [
+    "Vermiform appendix",
+    "Meso-appendix"
+   ],
+   "aliases": [
+    "apandis",
+    "apendiks",
+    "apandisit"
+   ]
+  },
+  {
+   "id": "rectum",
+   "tr": "Rektum ve anal kanal",
+   "la": "Rectum et canalis analis",
+   "en": "Rectum and anal canal",
+   "group": "Sindirim kanalı",
+   "region": "pelvis",
+   "summary": "Sigmoid kolonun devamı olarak S3 hizasında başlayan, dışkının depolandığı ve atıldığı sindirim kanalının son bölümüdür. Anal kanal ile anüste sonlanır.",
+   "facts": [
+    [
+     "Uzunluk",
+     "Rektum yaklaşık 12–15 cm, anal kanal yaklaşık 4 cm"
+    ],
+    [
+     "Özellikler",
+     "Taenia coli ve haustra yoktur; plicae transversae recti (Houston kıvrımları), ampulla recti"
+    ],
+    [
+     "Sfinkterler",
+     "M. sphincter ani internus (düz kas, istemsiz) ve externus (çizgili kas, n. pudendus – istemli)"
+    ],
+    [
+     "Linea pectinata",
+     "Anal kanalda embriyolojik sınır: üstü visseral (ağrısız), altı somatik (ağrılı) innervasyon"
+    ],
+    [
+     "Kanlanma",
+     "A. rectalis superior (IMA), media (a. iliaca interna), inferior (a. pudenda interna)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "İç hemoroidler linea pectinata üstünde ve ağrısızdır; dış hemoroidler altında ve ağrılıdır.",
+    "Rektal tuşe ile prostat, rektum tümörleri ve Douglas boşluğu değerlendirilebilir."
+   ],
+   "related": [
+    "intestinum-crassum",
+    "diaphragma-pelvis",
+    "a-mesenterica-inferior",
+    "n-pudendus"
+   ],
+   "models": [],
+   "aliases": [
+    "rektum",
+    "anüs",
+    "anal kanal",
+    "hemoroid"
+   ]
+  },
+  {
+   "id": "hepar",
+   "tr": "Karaciğer",
+   "la": "Hepar",
+   "en": "Liver",
+   "group": "Karaciğer, safra yolları ve pankreas",
+   "region": "abdomen",
+   "summary": "Vücudun en büyük iç organı ve en büyük bezidir (yaklaşık 1,5 kg). Karnın sağ üst kadranında, diyaframın altında yer alır; metabolizma, detoksifikasyon, protein sentezi ve safra üretiminden sorumludur.",
+   "facts": [
+    [
+     "Loblar (anatomik)",
+     "Lobus dexter, sinister, quadratus, caudatus; lig. falciforme ile sağ ve sola ayrılır"
+    ],
+    [
+     "Fonksiyonel segmentler",
+     "Couinaud sınıflaması: 8 segment (I kaudat lob); her segmentin kendi portal pediküllü kanlanması ve safra drenajı vardır"
+    ],
+    [
+     "Porta hepatis",
+     "V. portae, a. hepatica propria, ductus hepaticus, lenfatikler ve sinirler"
+    ],
+    [
+     "Kanlanma",
+     "%75 v. portae (besinden zengin), %25 a. hepatica propria (oksijenden zengin); drenaj vv. hepaticae → v. cava inferior"
+    ],
+    [
+     "Bağları",
+     "Lig. falciforme, lig. teres hepatis (v. umbilicalis kalıntısı), lig. coronarium, ligg. triangularia, omentum minus"
+    ],
+    [
+     "İşlevler",
+     "Glikojen depolama, glukoneogenez, albümin ve pıhtılaşma faktörü üretimi, ilaç ve toksin metabolizması, safra yapımı, bilirubin işlenmesi"
+    ]
+   ],
+   "sections": [
+    [
+     "Rejenerasyon",
+     "Karaciğer, kitlesinin %70'i çıkarılsa bile birkaç hafta içinde yeniden büyüyebilir; canlı vericili nakil bu özelliğe dayanır."
+    ]
+   ],
+   "clinical": [
+    "Siroz, karaciğer dokusunun fibrozla yer değiştirmesidir; portal hipertansiyon, asit ve karaciğer yetmezliğine yol açar.",
+    "Karaciğer ağrısı ve büyümesi sağ kaburga altında hissedilir; karaciğer biyopsisi sağ orta aksiller hattan yapılır.",
+    "Karaciğer, kolon ve mide kanserlerinin en sık metastaz yaptığı organdır."
+   ],
+   "related": [
+    "vesica-biliaris",
+    "v-portae-hepatis",
+    "truncus-coeliacus",
+    "v-cava-inferior",
+    "diaphragma"
+   ],
+   "models": [
+    "Liver"
+   ],
+   "aliases": [
+    "karaciğer",
+    "hepatik",
+    "Couinaud"
+   ]
+  },
+  {
+   "id": "vesica-biliaris",
+   "tr": "Safra kesesi ve safra yolları",
+   "la": "Vesica biliaris et ductus biliferi",
+   "en": "Gallbladder and bile ducts",
+   "group": "Karaciğer, safra yolları ve pankreas",
+   "region": "abdomen",
+   "summary": "Safra kesesi, karaciğerin alt yüzündeki çukurda yer alan ve karaciğerin ürettiği safrayı depolayıp yoğunlaştıran armut biçimli kesedir. Safra yolları safrayı onikiparmak bağırsağına iletir.",
+   "facts": [
+    [
+     "Safra kesesi bölümleri",
+     "Fundus, corpus, collum (Hartmann poşu), ductus cysticus (spiral Heister kapakçıkları)"
+    ],
+    [
+     "Kapasite",
+     "30–50 mL"
+    ],
+    [
+     "Safra yolu",
+     "Ductus hepaticus dexter + sinister → ductus hepaticus communis + ductus cysticus → ductus choledochus → papilla duodeni major"
+    ],
+    [
+     "Kanlanma",
+     "A. cystica (çoğunlukla a. hepatica dextra'dan) – Calot üçgeni içinde"
+    ],
+    [
+     "Uyaran",
+     "Yağlı yemek sonrası duodenumdan salınan kolesistokinin (CCK) kesenin kasılmasını sağlar"
+    ]
+   ],
+   "sections": [
+    [
+     "Calot üçgeni",
+     "Ductus cysticus, ductus hepaticus communis ve karaciğerin alt yüzü arasında kalan, a. cystica'yı içeren üçgendir; kolesistektomide bu bölgenin net görülmesi gerekir."
+    ]
+   ],
+   "clinical": [
+    "Safra taşları (kolelitiyazis) çok yaygındır; ‘4F’ risk: female, fat, forty, fertile.",
+    "Akut kolesistitte sağ üst kadran ağrısı ve Murphy bulgusu (derin nefeste ağrıyla durma) görülür; ağrı sağ omuza yansıyabilir.",
+    "Koledok taşı tıkanma sarılığına ve kolanjite neden olabilir."
+   ],
+   "related": [
+    "hepar",
+    "duodenum",
+    "pancreas",
+    "truncus-coeliacus"
+   ],
+   "models": [
+    "Gallbladder",
+    "Bile duct",
+    "Extrahepatic bile ducts"
+   ],
+   "aliases": [
+    "safra kesesi",
+    "koledok",
+    "kolesistit",
+    "safra taşı"
+   ]
+  },
+  {
+   "id": "pancreas",
+   "tr": "Pankreas",
+   "la": "Pancreas",
+   "en": "Pancreas",
+   "group": "Karaciğer, safra yolları ve pankreas",
+   "region": "abdomen",
+   "summary": "Midenin arkasında, retroperitoneal yerleşimli, hem sindirim enzimleri salgılayan (ekzokrin) hem de hormon üreten (endokrin) karma bezdir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Caput (duodenum kavsi içinde; processus uncinatus), collum, corpus, cauda (dalak hilumuna uzanır)"
+    ],
+    [
+     "Konum",
+     "L1–L2 hizası, retroperitoneal (kuyruk hariç)"
+    ],
+    [
+     "Kanalları",
+     "Ductus pancreaticus (Wirsung) – koledokla birlikte papilla major'a; ductus pancreaticus accessorius (Santorini) – papilla minor'a"
+    ],
+    [
+     "Ekzokrin salgı",
+     "Tripsinojen, kimotripsinojen, lipaz, amilaz, bikarbonat (günde ~1,5 L)"
+    ],
+    [
+     "Endokrin salgı",
+     "Langerhans adacıkları: β hücreleri insülin, α hücreleri glukagon, δ hücreleri somatostatin"
+    ],
+    [
+     "Kanlanma",
+     "A. splenica dalları, a. pancreaticoduodenalis superior ve inferior"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akut pankreatit en sık safra taşı ve alkole bağlıdır; sırta yayılan şiddetli epigastrik ağrı ve serum lipaz yüksekliğiyle seyreder.",
+    "Pankreas başı kanseri koledoğa bası yaparak ağrısız sarılık ve ele gelen safra kesesine (Courvoisier bulgusu) yol açar.",
+    "Tip 1 diyabette β hücreleri otoimmün olarak yıkılır."
+   ],
+   "related": [
+    "duodenum",
+    "vesica-biliaris",
+    "splen",
+    "truncus-coeliacus",
+    "insulae-pancreaticae"
+   ],
+   "models": [
+    "Pancreas",
+    "Pancreatic duct",
+    "Accessory pancreatic duct"
+   ],
+   "aliases": [
+    "pankreas"
+   ]
+  },
+  {
+   "id": "peritoneum",
+   "tr": "Karın zarı (periton)",
+   "la": "Peritoneum",
+   "en": "Peritoneum",
+   "group": "Periton",
+   "region": "abdomen",
+   "summary": "Karın ve pelvis boşluklarının duvarlarını (parietal periton) ve organlarının çoğunun yüzeyini (visseral periton) örten geniş seröz zardır. Aralarındaki potansiyel boşluk cavitas peritonealis'tir.",
+   "facts": [
+    [
+     "Organlarla ilişki",
+     "İntraperitoneal (mide, jejunum, ileum, transvers ve sigmoid kolon, karaciğer, dalak), retroperitoneal (böbrekler, aort, IVC, duodenumun çoğu, pankreas, çıkan ve inen kolon)"
+    ],
+    [
+     "Kıvrımları",
+     "Omentum majus (mideden sarkan yağlı ‘önlük’), omentum minus (mide-karaciğer arası; lig. hepatoduodenale ve hepatogastricum), mesenterium, mesocolon, ligamentler"
+    ],
+    [
+     "Bölmeleri",
+     "Bursa omentalis (küçük kese – foramen omentale/Winslow ile bağlantılı) ve büyük kese"
+    ],
+    [
+     "İnnervasyon",
+     "Parietal periton somatik (ağrıyı lokalize eder), visseral periton otonom (ağrı yaygın ve belirsiz)"
+    ]
+   ],
+   "sections": [
+    [
+     "Omentum majus",
+     "‘Karnın polisi’ olarak bilinir; iltihabi odakların çevresini sararak enfeksiyonu sınırlamaya çalışır."
+    ]
+   ],
+   "clinical": [
+    "Peritonit karın duvarı sertliği (defans) ve rebound hassasiyetiyle kendini gösterir.",
+    "Asit, periton boşluğunda sıvı birikmesidir; parasentezle boşaltılabilir.",
+    "Periton diyalizi, peritonun geniş yüzeyini yarı geçirgen zar olarak kullanır."
+   ],
+   "related": [
+    "gaster",
+    "intestinum-tenue",
+    "intestinum-crassum",
+    "hepar"
+   ],
+   "models": [
+    "Peritoneal structures",
+    "Greater omentum",
+    "Lesser omentum",
+    "Mesocolon"
+   ],
+   "aliases": [
+    "periton",
+    "omentum",
+    "mezenter"
+   ]
+  }
+ ]
+}
