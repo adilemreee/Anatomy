@@ -28,7 +28,8 @@ struct AnatomyViewport: View {
                 scene.zoom(by: factor)
             })
             .gesture(TapRecognizer { point in
-                onTap(scene.pick(at: point, in: proxy.size))
+                let size = proxy.size
+                Task { onTap(await scene.pick(at: point, in: size)) }
             })
         }
     }

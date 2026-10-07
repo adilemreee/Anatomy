@@ -31,14 +31,14 @@ nonisolated struct ModelLayer: Identifiable, Hashable, Sendable {
     var tint: Color { Color(hex: color) }
 
     static let all: [ModelLayer] = [
-        ModelLayer(id: "skeletal", title: "İskelet", icon: "figure.stand", color: "e9dfca", roughness: 0.62, defaultOn: true),
+        ModelLayer(id: "skeletal", title: "İskelet", icon: "figure.stand", color: "e9dfca", roughness: 0.7, defaultOn: true),
         ModelLayer(id: "joints", title: "Eklemler ve Bağlar", icon: "figure.flexibility", color: "c9d6dc", roughness: 0.5, defaultOn: false),
-        ModelLayer(id: "muscular", title: "Kaslar", icon: "figure.strengthtraining.traditional", color: "b8473f", roughness: 0.42, defaultOn: true),
+        ModelLayer(id: "muscular", title: "Kaslar", icon: "figure.strengthtraining.traditional", color: "b8473f", roughness: 0.55, defaultOn: true),
         ModelLayer(id: "insertions", title: "Kas Yapışma Yerleri", icon: "pin.fill", color: "d0453b", roughness: 0.5, defaultOn: false),
-        ModelLayer(id: "cardiovascular", title: "Kalp ve Damarlar", icon: "heart.fill", color: "c4302b", roughness: 0.35, defaultOn: false),
+        ModelLayer(id: "cardiovascular", title: "Kalp ve Damarlar", icon: "heart.fill", color: "c4302b", roughness: 0.45, defaultOn: false),
         ModelLayer(id: "lymphoid", title: "Lenfoid Organlar", icon: "shield.lefthalf.filled", color: "8fb46a", roughness: 0.45, defaultOn: false),
         ModelLayer(id: "nervous", title: "Sinir Sistemi ve Duyular", icon: "brain.head.profile.fill", color: "e8c34a", roughness: 0.45, defaultOn: false),
-        ModelLayer(id: "visceral", title: "İç Organlar", icon: "lungs.fill", color: "d98b7c", roughness: 0.38, defaultOn: false),
+        ModelLayer(id: "visceral", title: "İç Organlar", icon: "lungs.fill", color: "d98b7c", roughness: 0.48, defaultOn: false),
         ModelLayer(id: "regions", title: "Deri ve Bölgeler", icon: "hand.raised.fill", color: "e8c2a8", roughness: 0.6, defaultOn: false),
     ]
 
@@ -79,12 +79,12 @@ final class AnatomyScene {
     // Orbit camera parameters.
     @ObservationIgnored private(set) var yaw: Float = 0
     @ObservationIgnored private(set) var pitch: Float = 0.05
-    @ObservationIgnored private(set) var distance: Float = 2.6
-    @ObservationIgnored private(set) var target = SIMD3<Float>(0, 0.92, 0)
+    @ObservationIgnored private(set) var distance: Float = 3.3
+    @ObservationIgnored private(set) var target = SIMD3<Float>(0, 0.88, 0)
     @ObservationIgnored let fieldOfView: Float = 38
 
-    static let homeTarget = SIMD3<Float>(0, 0.92, 0)
-    static let homeDistance: Float = 2.6
+    static let homeTarget = SIMD3<Float>(0, 0.88, 0)
+    static let homeDistance: Float = 3.3
 
     private struct LoadedSystem {
         let pack: MeshPack
@@ -274,28 +274,54 @@ final class AnatomyScene {
         return .solid
     }
 
+    /// Builds the draw list for a system. Neighbouring parts that share a
+    /// material are contiguous in the index buffer, so they are merged into a
+    /// single draw call; picking works on the CPU copy and is unaffected.
     private func parts(for system: LoadedSystem) -> [LowLevelMesh.Part] {
         let id = system.pack.system
         let k = system.paletteCount
         var out: [LowLevelMesh.Part] = []
-        out.reserveCapacity(system.pack.parts.count)
+        var runStart = 0
+        var runCount = 0
+        var runMaterial = -1
+        var runBounds = BoundingBox()
+
+        func flush() {
+            guard runCount > 0 else { return }
+            out.append(LowLevelMesh.Part(
+                indexOffset: runStart * MemoryLayout<UInt32>.size,
+                indexCount: runCount,
+                topology: .triangle,
+                materialIndex: runMaterial,
+                bounds: runBounds
+            ))
+            runCount = 0
+            runMaterial = -1
+        }
+
         for (i, range) in system.pack.ranges.enumerated() {
             let material: Int
             switch state(of: PartRef(system: id, index: i)) {
-            case .hidden: continue
+            case .hidden:
+                flush()
+                continue
             case .solid: material = system.colorSlot[i]
             case .ghost: material = k + system.colorSlot[i]
             case .selected: material = 2 * k
             case .highlighted: material = 2 * k + 1
             }
-            out.append(LowLevelMesh.Part(
-                indexOffset: range.indexStart * MemoryLayout<UInt32>.size,
-                indexCount: range.indexCount,
-                topology: .triangle,
-                materialIndex: material,
-                bounds: system.bounds[i]
-            ))
+            if material == runMaterial, range.indexStart == runStart + runCount {
+                runCount += range.indexCount
+                runBounds = runBounds.union(system.bounds[i])
+            } else {
+                flush()
+                runStart = range.indexStart
+                runCount = range.indexCount
+                runMaterial = material
+                runBounds = system.bounds[i]
+            }
         }
+        flush()
         return out
     }
 
@@ -358,11 +384,14 @@ final class AnatomyScene {
 
     /// Every part whose base name, or one of whose ancestor groups, matches one
     /// of `names` (case-insensitive).
-    func refs(matching names: [String]) -> [PartRef] {
+    /// Muscle attachment patches share names with their muscles; they are only
+    /// returned when asked for explicitly.
+    func refs(matching names: [String], includeInsertions: Bool = false) -> [PartRef] {
         var seen = Set<PartRef>()
         var out: [PartRef] = []
         for name in names {
-            for ref in nameIndex[name.lowercased()] ?? [] where seen.insert(ref).inserted {
+            for ref in nameIndex[name.lowercased()] ?? []
+            where (includeInsertions || ref.system != "insertions") && seen.insert(ref).inserted {
                 out.append(ref)
             }
         }
@@ -370,7 +399,7 @@ final class AnatomyScene {
     }
 
     /// Shows `refs` on screen: enables their layers, highlights and frames them.
-    func reveal(_ refs: [PartRef], isolate: Bool = false) async {
+    func reveal(_ refs: [PartRef], isolate: Bool = false, margin: Float = 1.15) async {
         guard !refs.isEmpty else { return }
         for system in Set(refs.map(\.system)) {
             if !enabledLayers.contains(system) { enabledLayers.insert(system) }
@@ -387,7 +416,7 @@ final class AnatomyScene {
             select(nil)
             highlight(Set(refs))
         }
-        frame(refs)
+        frame(refs, margin: margin)
     }
 
     // MARK: Camera
@@ -426,7 +455,7 @@ final class AnatomyScene {
     }
 
     /// Moves the camera so that `refs` fill the view.
-    func frame(_ refs: [PartRef]) {
+    func frame(_ refs: [PartRef], margin: Float = 1.15) {
         var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude)
         var hi = -lo
         for ref in refs {
@@ -438,7 +467,7 @@ final class AnatomyScene {
         guard lo.x <= hi.x else { return }
         let center = (lo + hi) / 2
         let radius = max(simd_length(hi - lo) / 2, 0.03)
-        let fit = radius / sin(fieldOfView * .pi / 360) * 1.05
+        let fit = radius / sin(fieldOfView * .pi / 360) * margin
         // Look at the part from the side it faces most.
         var newYaw = yaw
         if abs(center.x) > 0.12, abs(center.x) > abs(center.z) * 1.5, radius < 0.25 {
@@ -486,7 +515,9 @@ final class AnatomyScene {
     // MARK: Picking
 
     /// Returns the frontmost pickable part under `point` (in view coordinates).
-    func pick(at point: CGPoint, in size: CGSize) -> PartRef? {
+    /// Boxes are tested here; triangles are tested off the main thread, nearest
+    /// box first, stopping as soon as no closer hit is possible.
+    func pick(at point: CGPoint, in size: CGSize) async -> PartRef? {
         guard size.width > 0, size.height > 0 else { return nil }
         let aspect = Float(size.width / size.height)
         let t = tan(fieldOfView * .pi / 360)
@@ -498,26 +529,46 @@ final class AnatomyScene {
         let direction = simd_normalize(SIMD3(dir4.x, dir4.y, dir4.z))
         let origin = SIMD3(m.columns.3.x, m.columns.3.y, m.columns.3.z)
 
-        // Ghosted parts are see-through, so pick them only when nothing solid is hit.
-        var best: (Float, PartRef)?
-        var bestGhost: (Float, PartRef)?
+        struct Candidate: Sendable {
+            let ref: PartRef
+            let entry: Float
+            let ghost: Bool
+        }
+        var candidates: [Candidate] = []
+        var packs: [String: MeshPack] = [:]
         for (id, system) in systems where enabledLayers.contains(id) {
+            packs[id] = system.pack
             for i in system.pack.parts.indices {
                 let ref = PartRef(system: id, index: i)
                 let state = state(of: ref)
                 if state == .hidden { continue }
-                let ghost = state == .ghost
-                let limit = ghost ? (bestGhost?.0 ?? .infinity) : (best?.0 ?? .infinity)
-                guard let entry = Self.rayBox(origin, direction, system.bounds[i]), entry < limit else { continue }
-                if let hit = Self.rayMesh(origin, direction, pack: system.pack, part: i, limit: limit) {
-                    if ghost { bestGhost = (hit, ref) } else { best = (hit, ref) }
+                if let entry = Self.rayBox(origin, direction, system.bounds[i]) {
+                    candidates.append(Candidate(ref: ref, entry: entry, ghost: state == .ghost))
                 }
             }
         }
-        return best?.1 ?? bestGhost?.1
+        guard !candidates.isEmpty else { return nil }
+        candidates.sort { $0.entry < $1.entry }
+
+        return await Task.detached(priority: .userInitiated) {
+            // Ghosted parts are see-through, so they only win when nothing solid is hit.
+            var best: (Float, PartRef)?
+            var bestGhost: (Float, PartRef)?
+            for c in candidates {
+                // Sorted by box entry: nothing after this can be closer than a solid hit.
+                if let solid = best, c.entry >= solid.0 { break }
+                let limit = c.ghost ? (bestGhost?.0 ?? .infinity) : (best?.0 ?? .infinity)
+                if c.entry >= limit { continue }
+                guard let pack = packs[c.ref.system] else { continue }
+                if let hit = Self.rayMesh(origin, direction, pack: pack, part: c.ref.index, limit: limit) {
+                    if c.ghost { bestGhost = (hit, c.ref) } else { best = (hit, c.ref) }
+                }
+            }
+            return best?.1 ?? bestGhost?.1
+        }.value
     }
 
-    private static func rayBox(_ o: SIMD3<Float>, _ d: SIMD3<Float>, _ box: BoundingBox) -> Float? {
+    nonisolated private static func rayBox(_ o: SIMD3<Float>, _ d: SIMD3<Float>, _ box: BoundingBox) -> Float? {
         let inv = SIMD3<Float>(1 / d.x, 1 / d.y, 1 / d.z)
         let t0 = (box.min - o) * inv
         let t1 = (box.max - o) * inv
@@ -527,7 +578,7 @@ final class AnatomyScene {
         return max(tmin, 0)
     }
 
-    private static func rayMesh(_ o: SIMD3<Float>, _ d: SIMD3<Float>, pack: MeshPack, part: Int, limit: Float) -> Float? {
+    nonisolated private static func rayMesh(_ o: SIMD3<Float>, _ d: SIMD3<Float>, pack: MeshPack, part: Int, limit: Float) -> Float? {
         let range = pack.ranges[part]
         var best = limit
         var found = false
@@ -567,8 +618,8 @@ final class AnatomyScene {
         m.baseColor = .init(tint: UIColor(Color(hex: hex)))
         m.roughness = .init(floatLiteral: roughness)
         m.metallic = .init(floatLiteral: 0)
-        m.specular = .init(floatLiteral: 0.35)
-        m.clearcoat = .init(floatLiteral: roughness < 0.45 ? 0.25 : 0.05)
+        m.specular = .init(floatLiteral: 0.22)
+        m.clearcoat = .init(floatLiteral: roughness < 0.5 ? 0.08 : 0)
         m.faceCulling = .none
         return m
     }
@@ -607,12 +658,19 @@ final class AnatomyScene {
     }
 
     private func setupLighting() {
-        guard let image = Self.environmentImage(),
-              let environment = try? EnvironmentResource(equirectangular: image, withName: "studio") else { return }
-        let ibl = Entity()
-        ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: -0.4))
-        root.addChild(ibl)
-        iblEntity = ibl
+        Task { [weak self] in
+            guard let image = Self.environmentImage() else { return }
+            let options = EnvironmentResource.CreateOptions(samplingQuality: .fast, specularCubeDimension: 64)
+            guard let environment = try? await EnvironmentResource(equirectangular: image, options: options),
+                  let self else { return }
+            let ibl = Entity()
+            ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: -0.4))
+            self.root.addChild(ibl)
+            self.iblEntity = ibl
+            for system in self.systems.values {
+                system.entity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
+            }
+        }
     }
 
     /// A soft studio gradient used as image based lighting.

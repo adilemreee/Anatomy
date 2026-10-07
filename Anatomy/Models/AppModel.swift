@@ -15,9 +15,15 @@ final class AppModel {
     }
 
     var tab: Tab = .atlas
-    let store = AtlasStore()
-    let study = StudyStore()
-    let scene = AnatomyScene()
+    let store: AtlasStore
+    let study: StudyStore
+    let scene: AnatomyScene
+
+    init() {
+        store = AtlasStore()
+        study = StudyStore()
+        scene = AnatomyScene()
+    }
 
     /// Switches to the 3D atlas and frames the parts that show `entry`.
     func showInAtlas(_ entry: AtlasEntry, isolate: Bool = false) {

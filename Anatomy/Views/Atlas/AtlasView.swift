@@ -19,11 +19,15 @@ struct AtlasView: View {
     var body: some View {
         ZStack {
             backdrop
-            AnatomyViewport(scene: scene) { ref in
-                withAnimation(.snappy) { scene.select(ref) }
-                tapCount += 1
+            // Only keep the 3D view alive while the tab is on screen so
+            // RealityKit stops rendering in the background.
+            if app.tab == .atlas {
+                AnatomyViewport(scene: scene) { ref in
+                    withAnimation(.snappy) { scene.select(ref) }
+                    tapCount += 1
+                }
+                .ignoresSafeArea()
             }
-            .ignoresSafeArea()
 
             VStack(spacing: 12) {
                 topBar
