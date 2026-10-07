@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct AnatomyApp: App {
+    @State private var app = AppModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environment(app)
         }
     }
 }
