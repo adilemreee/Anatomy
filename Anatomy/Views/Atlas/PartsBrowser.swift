@@ -149,10 +149,11 @@ private struct NodeView: View {
             }
         } label: {
             HStack {
+                let latin = app.store.term(node.name)?.la
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(app.store.term(node.name)?.la ?? node.name)
+                    Text(latin ?? node.name)
                         .font(.subheadline.weight(.semibold))
-                    if app.store.term(node.name)?.la != nil {
+                    if let latin, latin.lowercased() != node.name.lowercased() {
                         Text(node.name)
                             .font(.caption)
                             .foregroundStyle(.secondary)

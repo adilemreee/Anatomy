@@ -15,6 +15,12 @@ struct SystemsView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
+                    if let entry = entryOfTheDay {
+                        NavigationLink(value: entry) {
+                            DailyCard(entry: entry, system: app.store.system(entry.systemID))
+                        }
+                        .buttonStyle(.plain)
+                    }
                     LazyVGrid(columns: columns, spacing: 12) {
                         ForEach(app.store.systems) { system in
                             NavigationLink(value: system) {
@@ -64,6 +70,53 @@ struct SystemsView: View {
             .navigationDestination(for: BodyRegion.self) { RegionDetailView(region: $0) }
             .navigationDestination(for: AtlasEntry.self) { EntryDetailView(entry: $0) }
         }
+    }
+}
+
+extension SystemsView {
+    /// A different structure every day, the same for the whole day.
+    fileprivate var entryOfTheDay: AtlasEntry? {
+        let entries = app.store.entries
+        guard !entries.isEmpty else { return nil }
+        let day = Calendar.current.ordinality(of: .day, in: .era, for: .now) ?? 0
+        return entries[(day &* 7919) % entries.count]
+    }
+}
+
+private struct DailyCard: View {
+    let entry: AtlasEntry
+    let system: BodySystem?
+
+    var body: some View {
+        let tint = system?.tint ?? .accentColor
+        HStack(alignment: .top, spacing: 14) {
+            SystemBadge(icon: system?.icon ?? "sparkles", color: tint, size: 48)
+            VStack(alignment: .leading, spacing: 4) {
+                Text("GÜNÜN YAPISI")
+                    .font(.caption2.weight(.bold))
+                    .tracking(0.8)
+                    .foregroundStyle(tint)
+                Text(entry.tr)
+                    .font(.title3.weight(.bold))
+                    .foregroundStyle(.primary)
+                Text(entry.la)
+                    .font(.subheadline.italic())
+                    .foregroundStyle(.secondary)
+                Text(entry.summary)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(3)
+                    .multilineTextAlignment(.leading)
+                    .padding(.top, 2)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(16)
+        .background(
+            LinearGradient(colors: [tint.opacity(0.22), tint.opacity(0.06)], startPoint: .topLeading, endPoint: .bottomTrailing),
+            in: .rect(cornerRadius: 22)
+        )
+        .background(Color(.secondarySystemGroupedBackground), in: .rect(cornerRadius: 22))
     }
 }
 
