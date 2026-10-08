@@ -53,19 +53,30 @@ final class AnatomyScene {
     private(set) var enabledLayers: Set<String>
     private(set) var ghostedLayers: Set<String> = []
     private(set) var loadingLayers: Set<String> = []
+    /// Layers whose geometry is on screen.
+    private(set) var loadedLayers: Set<String> = []
     private(set) var failedLayers: [String: String] = [:]
+    /// The part that was tapped.
     private(set) var selection: PartRef?
+    /// Everything drawn as selected: the tapped part plus the other parts of
+    /// the same structure on the same side (e.g. both heads of biceps).
+    private(set) var selectedGroup: Set<PartRef> = []
     private(set) var hiddenParts: Set<PartRef> = []
     private(set) var isolation: Set<PartRef>?
     private(set) var highlighted: Set<PartRef> = []
     var showCoverings = false { didSet { refreshAll() } }
+    var xray = false { didSet { refreshAll() } }
+    var colorMode: ColorMode = .realistic { didSet { if colorMode != oldValue { recolorAll() } } }
     /// Bumped whenever the camera comes to rest (after a gesture or animation).
     private(set) var cameraVersion = 0
-    private(set) var isCameraMoving = false
+    var isCameraMoving = false
     /// Bumped whenever the set of drawn parts changes.
     private(set) var visibilityVersion = 0
-    var xray = false { didSet { refreshAll() } }
 
+    /// Resolves the parts that belong to the same structure as a tapped part.
+    @ObservationIgnored var groupResolver: ((PartRef) -> Set<PartRef>)?
+
+    @ObservationIgnored let library = PackLibrary.shared
     /// Manifests for every layer, loaded eagerly so search works before the
     /// geometry is on screen.
     @ObservationIgnored let manifests: [String: [PartInfo]]
@@ -77,29 +88,29 @@ final class AnatomyScene {
     // MARK: RealityKit
 
     @ObservationIgnored let root = Entity()
-    @ObservationIgnored private let camera = Entity()
+    @ObservationIgnored let camera = Entity()
     @ObservationIgnored private let modelRoot = Entity()
     @ObservationIgnored private var iblEntity: Entity?
-    @ObservationIgnored private var systems: [String: LoadedSystem] = [:]
-    @ObservationIgnored private var tween: Task<Void, Never>?
+    @ObservationIgnored private var shadow: Entity?
+    @ObservationIgnored var systems: [String: LoadedSystem] = [:]
+    @ObservationIgnored var tween: Task<Void, Never>?
+    @ObservationIgnored private var materials: [any RealityKit.Material] = []
+    @ObservationIgnored private var materialsIsolated = false
 
     // Orbit camera parameters.
-    @ObservationIgnored private(set) var yaw: Float = 0
-    @ObservationIgnored private(set) var pitch: Float = 0.05
-    @ObservationIgnored private(set) var distance: Float = 3.3
-    @ObservationIgnored private(set) var target = SIMD3<Float>(0, 0.88, 0)
+    @ObservationIgnored var yaw: Float = 0
+    @ObservationIgnored var pitch: Float = 0.05
+    @ObservationIgnored var distance: Float = 3.3
+    @ObservationIgnored var target = SIMD3<Float>(0, 0.88, 0)
     @ObservationIgnored let fieldOfView: Float = 38
 
     static let homeTarget = SIMD3<Float>(0, 0.88, 0)
     static let homeDistance: Float = 3.3
 
-    private struct LoadedSystem {
+    struct LoadedSystem {
         let pack: MeshPack
         let mesh: LowLevelMesh
         let entity: ModelEntity
-        /// Palette slot of every part.
-        let colorSlot: [Int]
-        let paletteCount: Int
         let bounds: [BoundingBox]
     }
 
@@ -107,7 +118,7 @@ final class AnatomyScene {
         enabledLayers = initialLayers ?? Set(ModelLayer.all.filter(\.defaultOn).map(\.id))
         var manifests: [String: [PartInfo]] = [:]
         for layer in ModelLayer.all {
-            manifests[layer.id] = (try? MeshPack.manifest(for: layer.id))?.parts ?? []
+            manifests[layer.id] = PackLibrary.shared.parts(layer.id)
         }
         self.manifests = manifests
         var index: [String: [PartRef]] = [:]
@@ -122,17 +133,15 @@ final class AnatomyScene {
         }
         nameIndex = index
         coverings = manifests.mapValues { $0.map(\.isCovering) }
+        materials = AnatomyMaterials.make()
 
-        let cameraComponent = PerspectiveCameraComponent(near: 0.01, far: 50, fieldOfViewInDegrees: fieldOfView, fieldOfViewOrientation: .vertical)
-        camera.components.set(cameraComponent)
-        let key = DirectionalLight()
-        key.light.intensity = 900
-        key.light.color = .white
-        key.orientation = simd_quatf(angle: -.pi / 9, axis: [1, 0, 0]) * simd_quatf(angle: .pi / 10, axis: [0, 1, 0])
-        camera.addChild(key)
+        camera.components.set(PerspectiveCameraComponent(near: 0.01, far: 50, fieldOfViewInDegrees: fieldOfView, fieldOfViewOrientation: .vertical))
+        for light in AnatomyMaterials.cameraLights() {
+            camera.addChild(light)
+        }
         root.addChild(camera)
         root.addChild(modelRoot)
-        setupLighting()
+        setupEnvironment()
         applyCamera()
     }
 
@@ -141,13 +150,14 @@ final class AnatomyScene {
     func isEnabled(_ layer: String) -> Bool { enabledLayers.contains(layer) }
     func isGhosted(_ layer: String) -> Bool { ghostedLayers.contains(layer) }
     func isLoaded(_ layer: String) -> Bool { systems[layer] != nil }
+    func materialNames(_ layer: String) -> [String] { library.materials(layer) }
 
     func setLayer(_ layer: String, enabled: Bool) {
         if enabled {
             enabledLayers.insert(layer)
         } else {
             enabledLayers.remove(layer)
-            if selection?.system == layer { selection = nil }
+            if selection?.system == layer { select(nil) }
         }
         if enabled, systems[layer] == nil {
             Task { await load(layer) }
@@ -173,15 +183,19 @@ final class AnatomyScene {
     }
 
     private func load(_ layerID: String) async {
-        guard systems[layerID] == nil, !loadingLayers.contains(layerID), let layer = ModelLayer.layer(layerID) else { return }
+        guard systems[layerID] == nil, !loadingLayers.contains(layerID), ModelLayer.layer(layerID) != nil else { return }
         loadingLayers.insert(layerID)
         defer { loadingLayers.remove(layerID) }
         do {
-            let pack = try await Task.detached(priority: .userInitiated) {
-                try MeshPack.load(system: layerID)
+            let pack = try await library.pack(layerID)
+            let mode = colorMode
+            let vertices = await Task.detached(priority: .userInitiated) {
+                VertexBuilder.build(pack: pack, mode: mode)
             }.value
-            let loaded = try build(pack: pack, layer: layer)
+            guard systems[layerID] == nil else { return }
+            let loaded = try build(pack: pack, vertices: vertices)
             systems[layerID] = loaded
+            loadedLayers.insert(layerID)
             modelRoot.addChild(loaded.entity)
             failedLayers[layerID] = nil
             refresh(layerID)
@@ -190,69 +204,18 @@ final class AnatomyScene {
         }
     }
 
-    private func build(pack: MeshPack, layer: ModelLayer) throws -> LoadedSystem {
-        let vertexCount = pack.positions.count
-        let stride = MemoryLayout<Float>.size * 6
-        var descriptor = LowLevelMesh.Descriptor()
-        descriptor.vertexCapacity = vertexCount
-        descriptor.indexCapacity = pack.indices.count
-        descriptor.indexType = .uint32
-        descriptor.vertexAttributes = [
-            .init(semantic: .position, format: .float3, layoutIndex: 0, offset: 0),
-            .init(semantic: .normal, format: .float3, layoutIndex: 0, offset: MemoryLayout<Float>.size * 3),
-        ]
-        descriptor.vertexLayouts = [.init(bufferIndex: 0, bufferStride: stride)]
-        let mesh = try LowLevelMesh(descriptor: descriptor)
-
-        mesh.withUnsafeMutableBytes(bufferIndex: 0) { raw in
-            let out = raw.bindMemory(to: Float.self)
-            for i in 0..<vertexCount {
-                let p = pack.positions[i]
-                let n = pack.normals[i]
-                let o = i * 6
-                out[o] = p.x; out[o + 1] = p.y; out[o + 2] = p.z
-                out[o + 3] = n.x; out[o + 4] = n.y; out[o + 5] = n.z
-            }
-        }
-        mesh.withUnsafeMutableIndices { raw in
-            let out = raw.bindMemory(to: UInt32.self)
-            pack.indices.withUnsafeBufferPointer { src in
-                guard let base = src.baseAddress, let dst = out.baseAddress else { return }
-                dst.update(from: base, count: src.count)
-            }
-        }
-
-        // Palette: one solid + one ghost material per distinct colour, then the
-        // selection and the "highlighted" (search/quiz) materials.
-        var palette: [String] = []
-        var slotOf: [String: Int] = [:]
-        var colorSlot: [Int] = []
-        colorSlot.reserveCapacity(pack.parts.count)
-        for part in pack.parts {
-            let hex = Self.displayColor(for: part, layer: layer)
-            if let slot = slotOf[hex] {
-                colorSlot.append(slot)
-            } else {
-                slotOf[hex] = palette.count
-                colorSlot.append(palette.count)
-                palette.append(hex)
-            }
-        }
-        var materials: [any RealityKit.Material] = palette.map { Self.solidMaterial(hex: $0, roughness: layer.roughness) }
-        materials += palette.map { Self.ghostMaterial(hex: $0) }
-        materials.append(Self.selectionMaterial())
-        materials.append(Self.highlightMaterial())
-
+    private func build(pack: MeshPack, vertices: VertexBuilder.Output) throws -> LoadedSystem {
+        let mesh = try Self.makeMesh(vertexCount: pack.positions.count, indexCount: vertices.indices.count)
+        Self.upload(vertices, into: mesh)
         var bounds: [BoundingBox] = []
         bounds.reserveCapacity(pack.parts.count)
         for part in pack.parts {
             let b = part.bounds
             bounds.append(BoundingBox(min: SIMD3(b[0], b[1], b[2]), max: SIMD3(b[3], b[4], b[5])))
         }
-
         let entity = ModelEntity()
-        entity.name = layer.id
-        let loaded = LoadedSystem(pack: pack, mesh: mesh, entity: entity, colorSlot: colorSlot, paletteCount: palette.count, bounds: bounds)
+        entity.name = pack.system
+        let loaded = LoadedSystem(pack: pack, mesh: mesh, entity: entity, bounds: bounds)
         mesh.parts.replaceAll(parts(for: loaded))
         let resource = try MeshResource(from: mesh)
         entity.components.set(ModelComponent(mesh: resource, materials: materials))
@@ -262,8 +225,74 @@ final class AnatomyScene {
         return loaded
     }
 
-    private static func displayColor(for part: PartInfo, layer: ModelLayer) -> String {
-        PartPalette.color(for: part, layer: layer.id)
+    static func makeMesh(vertexCount: Int, indexCount: Int) throws -> LowLevelMesh {
+        var descriptor = LowLevelMesh.Descriptor()
+        descriptor.vertexCapacity = vertexCount
+        descriptor.indexCapacity = indexCount
+        descriptor.indexType = .uint32
+        descriptor.vertexAttributes = [
+            .init(semantic: .position, format: .float3, layoutIndex: 0, offset: 0),
+            .init(semantic: .normal, format: .float3, layoutIndex: 0, offset: 12),
+            .init(semantic: .tangent, format: .float3, layoutIndex: 0, offset: 24),
+            .init(semantic: .color, format: .uchar4Normalized, layoutIndex: 0, offset: 36),
+            .init(semantic: .uv1, format: .float2, layoutIndex: 0, offset: 40),
+            .init(semantic: .uv2, format: .float4, layoutIndex: 0, offset: 48),
+        ]
+        descriptor.vertexLayouts = [.init(bufferIndex: 0, bufferStride: VertexBuilder.stride)]
+        return try LowLevelMesh(descriptor: descriptor)
+    }
+
+    static func upload(_ vertices: VertexBuilder.Output, into mesh: LowLevelMesh) {
+        mesh.withUnsafeMutableBytes(bufferIndex: 0) { raw in
+            vertices.vertices.withUnsafeBytes { src in
+                guard let base = src.baseAddress, let dst = raw.baseAddress else { return }
+                dst.copyMemory(from: base, byteCount: min(src.count, raw.count))
+            }
+        }
+        mesh.withUnsafeMutableIndices { raw in
+            let out = raw.bindMemory(to: UInt32.self)
+            vertices.indices.withUnsafeBufferPointer { src in
+                guard let base = src.baseAddress, let dst = out.baseAddress else { return }
+                dst.update(from: base, count: min(src.count, out.count))
+            }
+        }
+    }
+
+    /// Rewrites vertex colours after a colour mode change.
+    private func recolorAll() {
+        let mode = colorMode
+        for (id, system) in systems {
+            let pack = system.pack
+            Task {
+                let vertices = await Task.detached(priority: .userInitiated) {
+                    VertexBuilder.build(pack: pack, mode: mode)
+                }.value
+                guard colorMode == mode, let current = systems[id] else { return }
+                current.mesh.withUnsafeMutableBytes(bufferIndex: 0) { raw in
+                    vertices.vertices.withUnsafeBytes { src in
+                        guard let base = src.baseAddress, let dst = raw.baseAddress else { return }
+                        dst.copyMemory(from: base, byteCount: min(src.count, raw.count))
+                    }
+                }
+            }
+        }
+    }
+
+    private func setupEnvironment() {
+        Task { [weak self] in
+            guard let environment = await AnatomyMaterials.environment(), let self else { return }
+            let ibl = Entity()
+            ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: -0.45))
+            self.root.addChild(ibl)
+            self.iblEntity = ibl
+            for system in self.systems.values {
+                system.entity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
+            }
+            if let shadow = await AnatomyMaterials.contactShadow() {
+                self.shadow = shadow
+                self.modelRoot.addChild(shadow)
+            }
+        }
     }
 
     // MARK: Part state
@@ -274,20 +303,20 @@ final class AnatomyScene {
         guard enabledLayers.contains(ref.system) else { return .hidden }
         if hiddenParts.contains(ref) { return .hidden }
         if let isolation, !isolation.contains(ref) { return .hidden }
-        if !showCoverings, coverings[ref.system]?[ref.index] == true, selection != ref, !highlighted.contains(ref) { return .hidden }
-        if selection == ref { return .selected }
+        let selected = selectedGroup.contains(ref)
+        if !showCoverings, coverings[ref.system]?[ref.index] == true, !selected, !highlighted.contains(ref) { return .hidden }
+        if selected { return .selected }
         if highlighted.contains(ref) { return .highlighted }
         if xray { return .ghost }
         if ghostedLayers.contains(ref.system) { return .ghost }
         return .solid
     }
 
-    /// Builds the draw list for a system. Neighbouring parts that share a
-    /// material are contiguous in the index buffer, so they are merged into a
-    /// single draw call; picking works on the CPU copy and is unaffected.
+    /// Builds the draw list for a system. Neighbouring parts in the same state
+    /// are contiguous in the index buffer, so they collapse into one draw call;
+    /// colours live in the vertices and picking works on the CPU copy.
     private func parts(for system: LoadedSystem) -> [LowLevelMesh.Part] {
         let id = system.pack.system
-        let k = system.paletteCount
         var out: [LowLevelMesh.Part] = []
         var runStart = 0
         var runCount = 0
@@ -313,10 +342,10 @@ final class AnatomyScene {
             case .hidden:
                 flush()
                 continue
-            case .solid: material = system.colorSlot[i]
-            case .ghost: material = k + system.colorSlot[i]
-            case .selected: material = 2 * k
-            case .highlighted: material = 2 * k + 1
+            case .solid: material = AnatomyMaterials.Slot.solid.rawValue
+            case .ghost: material = AnatomyMaterials.Slot.ghost.rawValue
+            case .selected: material = AnatomyMaterials.Slot.selected.rawValue
+            case .highlighted: material = AnatomyMaterials.Slot.highlighted.rawValue
             }
             if material == runMaterial, range.indexStart == runStart + runCount {
                 runCount += range.indexCount
@@ -340,23 +369,39 @@ final class AnatomyScene {
         system.entity.isEnabled = enabledLayers.contains(layer)
     }
 
-    private func refreshAll() {
+    func refreshAll() {
+        // Deep structures look too dark with full crease shading when isolated.
+        let isolated = isolation != nil
+        if isolated != materialsIsolated {
+            materialsIsolated = isolated
+            materials = AnatomyMaterials.make(occlusion: isolated ? 0.45 : 1)
+            for system in systems.values {
+                system.entity.model?.materials = materials
+            }
+        }
         for layer in systems.keys { refresh(layer) }
     }
 
     // MARK: Selection & visibility
 
     func select(_ ref: PartRef?) {
-        let old = selection
+        let touched = Set(selectedGroup.map(\.system)).union(ref.map { [$0.system] } ?? [])
         selection = ref
-        if let old { refresh(old.system) }
-        if let ref, ref.system != old?.system { refresh(ref.system) }
+        if let ref {
+            var group = groupResolver?(ref) ?? [ref]
+            group.insert(ref)
+            selectedGroup = group
+        } else {
+            selectedGroup = []
+        }
+        for system in touched { refresh(system) }
     }
 
     func hide(_ ref: PartRef) {
-        hiddenParts.insert(ref)
-        if selection == ref { selection = nil }
-        refresh(ref.system)
+        let group = selectedGroup.contains(ref) ? selectedGroup : [ref]
+        hiddenParts.formUnion(group)
+        if let selection, group.contains(selection) { select(nil) }
+        for system in Set(group.map(\.system)) { refresh(system) }
     }
 
     func unhide(_ ref: PartRef) {
@@ -407,6 +452,11 @@ final class AnatomyScene {
         return out
     }
 
+    func cameraDidSettle() {
+        isCameraMoving = false
+        cameraVersion += 1
+    }
+
     /// Shows `refs` on screen: enables their layers, highlights and frames them.
     func reveal(_ refs: [PartRef], isolate: Bool = false, margin: Float = 1.15) async {
         guard !refs.isEmpty else { return }
@@ -428,399 +478,4 @@ final class AnatomyScene {
         frame(refs, margin: margin)
     }
 
-    // MARK: Camera
-
-    func orbit(by delta: CGSize) {
-        tween?.cancel()
-        yaw -= Float(delta.width) * 0.008
-        pitch = min(max(pitch + Float(delta.height) * 0.006, -1.45), 1.45)
-        applyCamera()
-    }
-
-    func zoom(by factor: CGFloat) {
-        tween?.cancel()
-        distance = min(max(distance / Float(factor), 0.12), 5)
-        applyCamera()
-    }
-
-    func pan(by delta: CGSize, viewHeight: CGFloat) {
-        tween?.cancel()
-        let worldPerPoint = 2 * distance * tan(fieldOfView * .pi / 360) / Float(max(viewHeight, 1))
-        let m = camera.transformMatrix(relativeTo: nil)
-        let right = SIMD3(m.columns.0.x, m.columns.0.y, m.columns.0.z)
-        let up = SIMD3(m.columns.1.x, m.columns.1.y, m.columns.1.z)
-        target -= right * Float(delta.width) * worldPerPoint
-        target += up * Float(delta.height) * worldPerPoint
-        target = simd_clamp(target, SIMD3(-1.2, -0.4, -1.2), SIMD3(1.2, 2.3, 1.2))
-        applyCamera()
-    }
-
-    func setCamera(target newTarget: SIMD3<Float>, distance newDistance: Float, yaw newYaw: Float, pitch newPitch: Float = 0.05) {
-        tween?.cancel()
-        target = newTarget
-        distance = newDistance
-        yaw = newYaw
-        pitch = newPitch
-        applyCamera()
-    }
-
-    func resetCamera() {
-        animateCamera(target: Self.homeTarget, distance: Self.homeDistance, yaw: 0, pitch: 0.05)
-    }
-
-    func rotate(toYaw newYaw: Float) {
-        animateCamera(target: target, distance: distance, yaw: newYaw, pitch: 0.05)
-    }
-
-    /// Moves the camera so that `refs` fill the view.
-    func frame(_ refs: [PartRef], margin: Float = 1.15) {
-        var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude)
-        var hi = -lo
-        for ref in refs {
-            guard let info = info(ref) else { continue }
-            let b = info.bounds
-            lo = simd_min(lo, SIMD3(b[0], b[1], b[2]))
-            hi = simd_max(hi, SIMD3(b[3], b[4], b[5]))
-        }
-        guard lo.x <= hi.x else { return }
-        let center = (lo + hi) / 2
-        let radius = max(simd_length(hi - lo) / 2, 0.03)
-        let fit = radius / sin(fieldOfView * .pi / 360) * margin
-        // Look at the part from the side it faces most.
-        var newYaw = yaw
-        if abs(center.x) > 0.12, abs(center.x) > abs(center.z) * 1.5, radius < 0.25 {
-            newYaw = center.x > 0 ? .pi / 3 : -.pi / 3
-        } else if center.z < -0.06, radius < 0.25 {
-            newYaw = .pi
-        } else if abs(remainder(yaw, 2 * .pi)) > .pi / 2 && center.z > 0.02 {
-            newYaw = 0
-        }
-        animateCamera(target: center, distance: min(max(fit, 0.18), 3.2), yaw: newYaw, pitch: 0.08)
-    }
-
-    private func animateCamera(target newTarget: SIMD3<Float>, distance newDistance: Float, yaw newYaw: Float, pitch newPitch: Float) {
-        tween?.cancel()
-        let start = (target, distance, yaw, pitch)
-        // Take the short way round.
-        var endYaw = newYaw
-        while endYaw - start.2 > .pi { endYaw -= 2 * .pi }
-        while start.2 - endYaw > .pi { endYaw += 2 * .pi }
-        tween = Task { [weak self] in
-            let steps = 36
-            for step in 1...steps {
-                guard let self, !Task.isCancelled else { return }
-                let t = Float(step) / Float(steps)
-                let e = t < 0.5 ? 4 * t * t * t : 1 - pow(-2 * t + 2, 3) / 2
-                self.target = start.0 + (newTarget - start.0) * e
-                self.distance = start.1 + (newDistance - start.1) * e
-                self.yaw = start.2 + (endYaw - start.2) * e
-                self.pitch = start.3 + (newPitch - start.3) * e
-                self.applyCamera()
-                try? await Task.sleep(for: .milliseconds(12))
-            }
-            self?.cameraDidSettle()
-        }
-    }
-
-    func beginCameraInteraction() {
-        tween?.cancel()
-        if !isCameraMoving { isCameraMoving = true }
-    }
-
-    func cameraDidSettle() {
-        isCameraMoving = false
-        cameraVersion += 1
-    }
-
-    private func applyCamera() {
-        let offset = SIMD3<Float>(
-            sin(yaw) * cos(pitch),
-            sin(pitch),
-            cos(yaw) * cos(pitch)
-        ) * distance
-        camera.look(at: target, from: target + offset, relativeTo: nil)
-    }
-
-    // MARK: Labels
-
-    /// A name pinned on screen next to a visible part.
-    nonisolated struct ScreenLabel: Identifiable, Hashable, Sendable {
-        let ref: PartRef
-        /// The pinned surface point.
-        let anchor: CGPoint
-        /// Centre of the text pill, beside the anchor.
-        let center: CGPoint
-        let text: String
-        var id: PartRef { ref }
-    }
-
-    /// Projects a model-space point into view coordinates (nil if behind the camera).
-    func project(_ p: SIMD3<Float>, in size: CGSize) -> CGPoint? {
-        let inverse = camera.transformMatrix(relativeTo: nil).inverse
-        let c = inverse * SIMD4(p, 1)
-        guard c.z < -0.01 else { return nil }
-        let t = tan(fieldOfView * .pi / 360)
-        let aspect = Float(size.width / size.height)
-        let nx = c.x / (-c.z * t * aspect)
-        let ny = c.y / (-c.z * t)
-        return CGPoint(x: CGFloat((nx + 1) / 2) * size.width, y: CGFloat((1 - ny) / 2) * size.height)
-    }
-
-    /// Picks the largest parts on screen that are actually visible at their
-    /// centre and lays out non-overlapping labels for them.
-    func labels(in size: CGSize, name: (PartInfo) -> String, limit: Int = 16) async -> [ScreenLabel] {
-        guard size.width > 0 else { return [] }
-        let t = tan(fieldOfView * .pi / 360)
-        let cameraPosition = camera.position(relativeTo: nil)
-        var candidates: [(ref: PartRef, point: CGPoint, size: CGFloat, info: PartInfo)] = []
-        for (id, system) in systems where enabledLayers.contains(id) {
-            for (i, info) in system.pack.parts.enumerated() {
-                let ref = PartRef(system: id, index: i)
-                let st = state(of: ref)
-                guard st == .solid || st == .selected || st == .highlighted else { continue }
-                let depth = max(simd_distance(info.center, cameraPosition), 0.01)
-                let radius = simd_length(info.extent) / 2
-                let screen = CGFloat(radius / (depth * t)) * size.height / 2
-                guard screen > 18 else { continue }
-                // Anchor on the camera-facing surface rather than the box centre,
-                // which is often buried inside the body.
-                let anchor = Self.surfaceAnchor(pack: system.pack, part: i, camera: cameraPosition) ?? info.center
-                guard let point = project(anchor, in: size),
-                      point.x > 30, point.x < size.width - 30, point.y > 120, point.y < size.height - 150 else { continue }
-                candidates.append((ref, point, screen, info))
-            }
-        }
-        candidates.sort { $0.size > $1.size }
-
-        var out: [ScreenLabel] = []
-        var taken: [CGRect] = []
-        var names = Set<String>()
-        for c in candidates.prefix(140) {
-            guard out.count < limit else { break }
-            let text = name(c.info)
-            guard !names.contains(text) else { continue }
-            // Is the part really what we see at its centre?
-            guard let hit = await pick(at: c.point, in: size), hit == c.ref || manifests[hit.system]?[hit.index].base == c.info.base else { continue }
-            // The pill grows away from the body's midline so the anchor stays visible.
-            let width = CGFloat(text.count) * 6.3 + 22
-            let leftSide = c.point.x < size.width / 2
-            var x = leftSide ? c.point.x - width - 6 : c.point.x + 6
-            x = min(max(x, 8), size.width - width - 8)
-            let rect = CGRect(x: x, y: c.point.y - 12, width: width, height: 24)
-            guard !taken.contains(where: { $0.insetBy(dx: -3, dy: -3).intersects(rect) }) else { continue }
-            taken.append(rect)
-            names.insert(text)
-            out.append(ScreenLabel(ref: c.ref, anchor: c.point, center: CGPoint(x: rect.midX, y: rect.midY), text: text))
-        }
-        return out
-    }
-
-    /// The front-facing vertex closest to the centroid of the part's
-    /// camera-facing surface.
-    nonisolated private static func surfaceAnchor(pack: MeshPack, part: Int, camera: SIMD3<Float>) -> SIMD3<Float>? {
-        let range = pack.ranges[part]
-        let step = max(1, range.vertexCount / 60)
-        var sum = SIMD3<Float>.zero
-        var count: Float = 0
-        var facing: [SIMD3<Float>] = []
-        var v = range.vertexStart
-        let end = range.vertexStart + range.vertexCount
-        while v < end {
-            let p = pack.positions[v]
-            if simd_dot(pack.normals[v], camera - p) > 0 {
-                sum += p
-                count += 1
-                facing.append(p)
-            }
-            v += step
-        }
-        guard count > 0 else { return nil }
-        let centroid = sum / count
-        return facing.min { simd_distance_squared($0, centroid) < simd_distance_squared($1, centroid) }
-    }
-
-    // MARK: Picking
-
-    /// Returns the frontmost pickable part under `point` (in view coordinates).
-    /// Boxes are tested here; triangles are tested off the main thread, nearest
-    /// box first, stopping as soon as no closer hit is possible.
-    func pick(at point: CGPoint, in size: CGSize) async -> PartRef? {
-        guard size.width > 0, size.height > 0 else { return nil }
-        let aspect = Float(size.width / size.height)
-        let t = tan(fieldOfView * .pi / 360)
-        let x = (2 * Float(point.x / size.width) - 1) * t * aspect
-        let y = (1 - 2 * Float(point.y / size.height)) * t
-        let m = camera.transformMatrix(relativeTo: nil)
-        let local = simd_normalize(SIMD3<Float>(x, y, -1))
-        let dir4 = m * SIMD4(local, 0)
-        let direction = simd_normalize(SIMD3(dir4.x, dir4.y, dir4.z))
-        let origin = SIMD3(m.columns.3.x, m.columns.3.y, m.columns.3.z)
-
-        struct Candidate: Sendable {
-            let ref: PartRef
-            let entry: Float
-            let ghost: Bool
-        }
-        var candidates: [Candidate] = []
-        var packs: [String: MeshPack] = [:]
-        for (id, system) in systems where enabledLayers.contains(id) {
-            packs[id] = system.pack
-            for i in system.pack.parts.indices {
-                let ref = PartRef(system: id, index: i)
-                let state = state(of: ref)
-                if state == .hidden { continue }
-                if let entry = Self.rayBox(origin, direction, system.bounds[i]) {
-                    candidates.append(Candidate(ref: ref, entry: entry, ghost: state == .ghost))
-                }
-            }
-        }
-        guard !candidates.isEmpty else { return nil }
-        candidates.sort { $0.entry < $1.entry }
-
-        return await Task.detached(priority: .userInitiated) {
-            // Ghosted parts are see-through, so they only win when nothing solid is hit.
-            var best: (Float, PartRef)?
-            var bestGhost: (Float, PartRef)?
-            for c in candidates {
-                // Sorted by box entry: nothing after this can be closer than a solid hit.
-                if let solid = best, c.entry >= solid.0 { break }
-                let limit = c.ghost ? (bestGhost?.0 ?? .infinity) : (best?.0 ?? .infinity)
-                if c.entry >= limit { continue }
-                guard let pack = packs[c.ref.system] else { continue }
-                if let hit = Self.rayMesh(origin, direction, pack: pack, part: c.ref.index, limit: limit) {
-                    if c.ghost { bestGhost = (hit, c.ref) } else { best = (hit, c.ref) }
-                }
-            }
-            return best?.1 ?? bestGhost?.1
-        }.value
-    }
-
-    nonisolated private static func rayBox(_ o: SIMD3<Float>, _ d: SIMD3<Float>, _ box: BoundingBox) -> Float? {
-        let inv = SIMD3<Float>(1 / d.x, 1 / d.y, 1 / d.z)
-        let t0 = (box.min - o) * inv
-        let t1 = (box.max - o) * inv
-        let tmin = simd_reduce_max(simd_min(t0, t1))
-        let tmax = simd_reduce_min(simd_max(t0, t1))
-        guard tmax >= max(tmin, 0) else { return nil }
-        return max(tmin, 0)
-    }
-
-    nonisolated private static func rayMesh(_ o: SIMD3<Float>, _ d: SIMD3<Float>, pack: MeshPack, part: Int, limit: Float) -> Float? {
-        let range = pack.ranges[part]
-        var best = limit
-        var found = false
-        pack.positions.withUnsafeBufferPointer { pos in
-            pack.indices.withUnsafeBufferPointer { idx in
-                var i = range.indexStart
-                let end = range.indexStart + range.indexCount
-                while i < end {
-                    let a = pos[Int(idx[i])], b = pos[Int(idx[i + 1])], c = pos[Int(idx[i + 2])]
-                    i += 3
-                    let e1 = b - a, e2 = c - a
-                    let p = simd_cross(d, e2)
-                    let det = simd_dot(e1, p)
-                    if abs(det) < 1e-12 { continue }
-                    let invDet = 1 / det
-                    let s = o - a
-                    let u = simd_dot(s, p) * invDet
-                    if u < 0 || u > 1 { continue }
-                    let q = simd_cross(s, e1)
-                    let v = simd_dot(d, q) * invDet
-                    if v < 0 || u + v > 1 { continue }
-                    let t = simd_dot(e2, q) * invDet
-                    if t > 0.0005 && t < best {
-                        best = t
-                        found = true
-                    }
-                }
-            }
-        }
-        return found ? best : nil
-    }
-
-    // MARK: Materials & lighting
-
-    private static func solidMaterial(hex: String, roughness: Float) -> PhysicallyBasedMaterial {
-        var m = PhysicallyBasedMaterial()
-        m.baseColor = .init(tint: UIColor(Color(hex: hex)))
-        m.roughness = .init(floatLiteral: roughness)
-        m.metallic = .init(floatLiteral: 0)
-        m.specular = .init(floatLiteral: 0.22)
-        m.clearcoat = .init(floatLiteral: roughness < 0.5 ? 0.08 : 0)
-        m.faceCulling = .none
-        return m
-    }
-
-    private static func ghostMaterial(hex: String) -> PhysicallyBasedMaterial {
-        var m = PhysicallyBasedMaterial()
-        m.baseColor = .init(tint: UIColor(Color(hex: hex)))
-        m.roughness = .init(floatLiteral: 0.5)
-        m.metallic = .init(floatLiteral: 0)
-        m.blending = .transparent(opacity: .init(floatLiteral: 0.13))
-        m.writesDepth = false
-        m.faceCulling = .back
-        return m
-    }
-
-    private static func selectionMaterial() -> PhysicallyBasedMaterial {
-        var m = PhysicallyBasedMaterial()
-        m.baseColor = .init(tint: UIColor(red: 0.16, green: 0.72, blue: 1, alpha: 1))
-        m.emissiveColor = .init(color: UIColor(red: 0.05, green: 0.42, blue: 0.75, alpha: 1))
-        m.emissiveIntensity = 0.7
-        m.roughness = .init(floatLiteral: 0.35)
-        m.metallic = .init(floatLiteral: 0)
-        m.faceCulling = .none
-        return m
-    }
-
-    private static func highlightMaterial() -> PhysicallyBasedMaterial {
-        var m = PhysicallyBasedMaterial()
-        m.baseColor = .init(tint: UIColor(red: 1, green: 0.78, blue: 0.18, alpha: 1))
-        m.emissiveColor = .init(color: UIColor(red: 0.7, green: 0.45, blue: 0.0, alpha: 1))
-        m.emissiveIntensity = 0.6
-        m.roughness = .init(floatLiteral: 0.4)
-        m.metallic = .init(floatLiteral: 0)
-        m.faceCulling = .none
-        return m
-    }
-
-    private func setupLighting() {
-        Task { [weak self] in
-            guard let image = Self.environmentImage() else { return }
-            let options = EnvironmentResource.CreateOptions(samplingQuality: .fast, specularCubeDimension: 64)
-            guard let environment = try? await EnvironmentResource(equirectangular: image, options: options),
-                  let self else { return }
-            let ibl = Entity()
-            ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: -0.4))
-            self.root.addChild(ibl)
-            self.iblEntity = ibl
-            for system in self.systems.values {
-                system.entity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
-            }
-        }
-    }
-
-    /// A soft studio gradient used as image based lighting.
-    private static func environmentImage() -> CGImage? {
-        let width = 128, height = 64
-        let renderer = UIGraphicsImageRenderer(size: CGSize(width: width, height: height), format: {
-            let f = UIGraphicsImageRendererFormat()
-            f.scale = 1
-            return f
-        }())
-        let image = renderer.image { ctx in
-            let colors = [
-                UIColor(white: 1.0, alpha: 1).cgColor,
-                UIColor(white: 0.86, alpha: 1).cgColor,
-                UIColor(red: 0.55, green: 0.52, blue: 0.5, alpha: 1).cgColor,
-                UIColor(white: 0.22, alpha: 1).cgColor,
-            ]
-            let gradient = CGGradient(colorsSpace: CGColorSpaceCreateDeviceRGB(), colors: colors as CFArray, locations: [0, 0.42, 0.55, 1])!
-            ctx.cgContext.drawLinearGradient(gradient, start: .zero, end: CGPoint(x: 0, y: height), options: [])
-            // A brighter key area in front of the body.
-            ctx.cgContext.setFillColor(UIColor(white: 1, alpha: 0.6).cgColor)
-            ctx.cgContext.fillEllipse(in: CGRect(x: width / 2 - 18, y: 8, width: 36, height: 22))
-        }
-        return image.cgImage
-    }
 }

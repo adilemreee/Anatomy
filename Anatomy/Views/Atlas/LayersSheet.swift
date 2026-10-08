@@ -12,6 +12,7 @@ struct LayersSheet: View {
 
     var body: some View {
         @Bindable var scene = app.scene
+        @Bindable var app = app
         NavigationStack {
             List {
                 Section {
@@ -22,6 +23,24 @@ struct LayersSheet: View {
                     Text("Sistemler")
                 } footer: {
                     Text("Saydam yaptığın katmanın içinden alttaki yapılara dokunabilirsin.")
+                }
+
+                Section {
+                    Picker("Renkler", selection: $app.colorMode) {
+                        ForEach(ColorMode.allCases) { Text($0.title).tag($0) }
+                    }
+                    .pickerStyle(.segmented)
+                    .listRowSeparator(.hidden)
+                    if app.colorMode == .educational {
+                        ColorLegend(title: "Kaslar: hareketine göre", items: MaterialStyles.muscleLegend)
+                        ColorLegend(title: "Beyin: loblar", items: MaterialStyles.brainLegend)
+                    }
+                } header: {
+                    Text("Renkler")
+                } footer: {
+                    Text(app.colorMode == .realistic
+                         ? "Dokular kadavradaki gerçek renklerine yakın gösterilir."
+                         : "Kaslar yaptıkları harekete, kemikler ve beyin lobları tek tek ayırt edilecek şekilde renklendirilir.")
                 }
 
                 Section("Görünüm") {
@@ -124,6 +143,35 @@ private struct LayerRow: View {
                 set: { scene.setLayer(layer.id, enabled: $0) }
             ))
             .labelsHidden()
+        }
+    }
+}
+
+/// Colour key for the teaching colours.
+private struct ColorLegend: View {
+    let title: String
+    let items: [(material: String, title: String)]
+    @State private var expanded = false
+
+    var body: some View {
+        DisclosureGroup(isExpanded: $expanded) {
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 150), alignment: .leading)], alignment: .leading, spacing: 8) {
+                ForEach(items, id: \.material) { item in
+                    HStack(spacing: 8) {
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill(MaterialStyles.legendColor(item.material))
+                            .frame(width: 16, height: 16)
+                            .overlay { RoundedRectangle(cornerRadius: 4).strokeBorder(.black.opacity(0.12)) }
+                        Text(item.title)
+                            .font(.footnote)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.8)
+                    }
+                }
+            }
+            .padding(.vertical, 4)
+        } label: {
+            Text(title).font(.subheadline.weight(.medium))
         }
     }
 }

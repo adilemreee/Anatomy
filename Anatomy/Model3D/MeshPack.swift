@@ -2,7 +2,8 @@
 //  MeshPack.swift
 //  Anatomy
 //
-//  Reads the per-system geometry packs produced by tools/export_zanatomy.py.
+//  Reads the per-system geometry packs produced by tools/export_zanatomy.py
+//  (and tools/bake_ao.swift).
 //
 
 import Foundation
@@ -24,6 +25,8 @@ nonisolated struct PartInfo: Decodable, Hashable, Sendable {
     let kind: String?
     let color: String?
     let fascia: Bool?
+    /// Triangle runs per material: [[materialIndex, triangleCount], ...].
+    let seg: [[Int]]?
 
     var center: SIMD3<Float> {
         SIMD3((bounds[0] + bounds[3]) / 2, (bounds[1] + bounds[4]) / 2, (bounds[2] + bounds[5]) / 2)
@@ -52,10 +55,16 @@ nonisolated struct PartInfo: Decodable, Hashable, Sendable {
         if words.contains(where: { name.contains($0) }) { return true }
         return path.contains { $0 == "Meninges" || $0 == "Peritoneal structures" }
     }
+
+    /// Material index covering most of the part's triangles.
+    var dominantMaterial: Int? {
+        seg?.max { $0[1] < $1[1] }?.first
+    }
 }
 
 nonisolated struct PackManifest: Decodable, Sendable {
     let system: String
+    let materials: [String]?
     let parts: [PartInfo]
 }
 
@@ -70,10 +79,13 @@ nonisolated struct MeshPack: Sendable {
     }
 
     let system: String
+    let materials: [String]
     let parts: [PartInfo]
     let ranges: [Range]
     let positions: [SIMD3<Float>]
     let normals: [SIMD3<Float>]
+    /// Baked ambient occlusion per vertex (255 = open).
+    let occlusion: [UInt8]
     /// Global vertex indices (already offset by each part's `vertexStart`).
     let indices: [UInt32]
 
@@ -89,8 +101,7 @@ nonisolated struct MeshPack: Sendable {
         return try JSONDecoder().decode(PackManifest.self, from: Data(contentsOf: url))
     }
 
-    static func load(system: String) throws -> MeshPack {
-        let manifest = try manifest(for: system)
+    static func load(system: String, manifest: PackManifest) throws -> MeshPack {
         guard let url = Bundle.main.url(forResource: "mesh-\(system)", withExtension: "bin") else {
             throw LoadError.missingResource("mesh-\(system).bin")
         }
@@ -110,9 +121,10 @@ nonisolated struct MeshPack: Sendable {
             return raw.loadUnaligned(fromByteOffset: cursor, as: T.self)
         }
 
-        guard raw.count > 8, raw[0] == 0x41, raw[1] == 0x4E, raw[2] == 0x54, raw[3] == 0x31 else {
+        guard raw.count > 8, raw[0] == 0x41, raw[1] == 0x4E, raw[2] == 0x54, raw[3] == 0x31 || raw[3] == 0x32 else {
             throw LoadError.corrupt("bad magic")
         }
+        let hasOcclusion = raw[3] == 0x32
         cursor = 4
         let partCount = Int(try read(UInt32.self))
         guard partCount == manifest.parts.count else {
@@ -136,10 +148,12 @@ nonisolated struct MeshPack: Sendable {
 
         var positions = [SIMD3<Float>]()
         var normals = [SIMD3<Float>]()
+        var occlusion = [UInt8]()
         var indices = [UInt32]()
         var ranges = [Range]()
         positions.reserveCapacity(totalVertices)
         normals.reserveCapacity(totalVertices)
+        occlusion.reserveCapacity(totalVertices)
         indices.reserveCapacity(totalIndices)
         ranges.reserveCapacity(partCount)
 
@@ -147,7 +161,7 @@ nonisolated struct MeshPack: Sendable {
             let vertexStart = positions.count
             let indexStart = indices.count
             let wide = vertexCount > 65535
-            let needed = vertexCount * 9 + indexCount * (wide ? 4 : 2)
+            let needed = vertexCount * (hasOcclusion ? 10 : 9) + indexCount * (wide ? 4 : 2)
             guard cursor + needed <= raw.count else { throw LoadError.corrupt("truncated part") }
 
             for v in 0..<vertexCount {
@@ -183,15 +197,24 @@ nonisolated struct MeshPack: Sendable {
                 }
                 cursor += indexCount * 2
             }
+
+            if hasOcclusion {
+                occlusion.append(contentsOf: UnsafeRawBufferPointer(rebasing: raw[cursor..<cursor + vertexCount]))
+                cursor += vertexCount
+            } else {
+                occlusion.append(contentsOf: repeatElement(255, count: vertexCount))
+            }
             ranges.append(Range(vertexStart: vertexStart, vertexCount: vertexCount, indexStart: indexStart, indexCount: indexCount))
         }
 
         return MeshPack(
             system: manifest.system,
+            materials: manifest.materials ?? [],
             parts: manifest.parts,
             ranges: ranges,
             positions: positions,
             normals: normals,
+            occlusion: occlusion,
             indices: indices
         )
     }

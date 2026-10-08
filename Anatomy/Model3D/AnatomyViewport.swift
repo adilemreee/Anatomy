@@ -7,10 +7,24 @@ import RealityKit
 import SwiftUI
 import UIKit
 
+/// What the interactive viewport needs from a scene.
+@MainActor
+protocol ViewportScene: AnyObject {
+    var root: Entity { get }
+    func orbit(by delta: CGSize)
+    func zoom(by factor: CGFloat)
+    func pan(by delta: CGSize, viewHeight: CGFloat)
+    func beginCameraInteraction()
+    func cameraDidSettle()
+    func pick(at point: CGPoint, in size: CGSize) async -> PartRef?
+}
+
+extension AnatomyScene: ViewportScene {}
+
 /// The interactive 3D view: one finger orbits, two fingers pan, pinch zooms
 /// and a tap picks the part under the finger.
-struct AnatomyViewport<Overlay: View>: View {
-    let scene: AnatomyScene
+struct AnatomyViewport<Scene: ViewportScene, Overlay: View>: View {
+    let scene: Scene
     var onTap: (PartRef?) -> Void = { _ in }
     var onSizeChange: (CGSize) -> Void = { _ in }
     /// Drawn in the same coordinate space as the 3D view (e.g. labels).
@@ -44,7 +58,7 @@ struct AnatomyViewport<Overlay: View>: View {
 }
 
 extension AnatomyViewport where Overlay == EmptyView {
-    init(scene: AnatomyScene, onTap: @escaping (PartRef?) -> Void = { _ in }) {
+    init(scene: Scene, onTap: @escaping (PartRef?) -> Void = { _ in }) {
         self.init(scene: scene, onTap: onTap, onSizeChange: { _ in }, overlay: { EmptyView() })
     }
 }
@@ -58,7 +72,7 @@ final class SimultaneousGestureDelegate: NSObject, UIGestureRecognizerDelegate {
 
 private struct PanRecognizer: UIGestureRecognizerRepresentable {
     let touches: ClosedRange<Int>
-    let scene: AnatomyScene
+    let scene: any ViewportScene
     let onChange: (CGSize) -> Void
 
     func makeCoordinator(converter: CoordinateSpaceConverter) -> SimultaneousGestureDelegate {
@@ -87,7 +101,7 @@ private struct PanRecognizer: UIGestureRecognizerRepresentable {
 }
 
 private struct PinchRecognizer: UIGestureRecognizerRepresentable {
-    let scene: AnatomyScene
+    let scene: any ViewportScene
     let onChange: (CGFloat) -> Void
 
     func makeCoordinator(converter: CoordinateSpaceConverter) -> SimultaneousGestureDelegate {

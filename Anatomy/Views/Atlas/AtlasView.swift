@@ -19,6 +19,11 @@ struct AtlasView: View {
 
     private var scene: AnatomyScene { app.scene }
 
+    /// Nothing is on screen yet and something is still coming.
+    private var isFirstLoad: Bool {
+        scene.loadedLayers.isEmpty && scene.failedLayers.isEmpty && !scene.enabledLayers.isEmpty
+    }
+
     var body: some View {
         ZStack {
             backdrop
@@ -32,10 +37,22 @@ struct AtlasView: View {
                 }
             }
             .ignoresSafeArea()
+            .opacity(isFirstLoad ? 0 : 1)
+            .animation(.easeOut(duration: 0.6), value: isFirstLoad)
+
+            if isFirstLoad {
+                FirstLoadView()
+                    .transition(.opacity.combined(with: .scale(scale: 0.96)))
+            }
 
             if !app.hidesChrome {
             VStack(spacing: 12) {
                 topBar
+                if !isFirstLoad, let layer = scene.loadingLayers.compactMap(ModelLayer.layer).first {
+                    loadingBadge(layer)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .transition(.move(edge: .top).combined(with: .opacity))
+                }
                 if scene.isIsolating || !scene.hiddenParts.isEmpty || !scene.highlighted.isEmpty {
                     restoreBanner
                         .transition(.move(edge: .top).combined(with: .opacity))
@@ -53,11 +70,8 @@ struct AtlasView: View {
             .padding(.horizontal, 16)
             .padding(.bottom, 8)
             }
-
-            if !scene.loadingLayers.isEmpty {
-                loadingBadge
-            }
         }
+        .animation(.snappy, value: scene.loadingLayers)
         .toolbarVisibility(app.hidesChrome ? .hidden : .automatic, for: .tabBar)
         .sensoryFeedback(.selection, trigger: tapCount)
         .task(id: LabelKey(camera: scene.cameraVersion, visibility: scene.visibilityVersion, enabled: showLabels, size: viewSize)) {
@@ -136,7 +150,7 @@ struct AtlasView: View {
     private var labelLayer: some View {
         ZStack(alignment: .topLeading) {
             ForEach(labels) { label in
-                let color = scene.info(label.ref).map { Color(hex: PartPalette.color(for: $0, layer: label.ref.system)) } ?? .accentColor
+                let color = scene.info(label.ref).map { MaterialStyles.swatch(for: $0, layer: label.ref.system, materials: scene.materialNames(label.ref.system), mode: scene.colorMode) } ?? .accentColor
                 Path { path in
                     path.move(to: label.anchor)
                     path.addLine(to: CGPoint(x: label.center.x < label.anchor.x ? label.center.x + 4 : label.center.x - 4, y: label.center.y))
@@ -236,15 +250,41 @@ struct AtlasView: View {
         .buttonStyle(.plain)
     }
 
-    private var loadingBadge: some View {
+    private func loadingBadge(_ layer: ModelLayer) -> some View {
         HStack(spacing: 8) {
             ProgressView()
-            Text("Model yükleniyor…")
-                .font(.footnote.weight(.medium))
+                .controlSize(.small)
+            Text("\(layer.title) yükleniyor…")
+                .font(.caption.weight(.medium))
         }
-        .padding(.horizontal, 14)
-        .padding(.vertical, 10)
+        .padding(.horizontal, 12)
+        .padding(.vertical, 8)
         .glassEffect(.regular, in: .capsule)
+    }
+}
+
+/// Shown until the first layer of the model is on screen.
+private struct FirstLoadView: View {
+    var body: some View {
+        VStack(spacing: 18) {
+            Image(systemName: "figure.stand")
+                .font(.system(size: 54, weight: .light))
+                .foregroundStyle(.tint)
+                .symbolEffect(.breathe.pulse, options: .repeating)
+                .frame(width: 112, height: 112)
+                .glassEffect(.regular, in: .circle)
+            VStack(spacing: 6) {
+                Text("3B model hazırlanıyor")
+                    .font(.headline)
+                Text("Z-Anatomy modelinin binlerce parçası yükleniyor")
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+            }
+            ProgressView()
+        }
+        .padding(32)
+        .accessibilityElement(children: .combine)
     }
 }
 
@@ -265,11 +305,12 @@ private struct SelectionCard: View {
         let entry = store.entry(for: info)
         let exact = entry.map { store.isExact($0, for: info) } ?? false
         let latin = store.latinName(for: info)
+        let group = app.scene.selectedGroup
 
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .top, spacing: 12) {
                 if let layer {
-                    SystemBadge(icon: layer.icon, color: layer.tint, size: 38)
+                    SystemBadge(icon: layer.icon, color: layer.tint, size: 40)
                 }
                 VStack(alignment: .leading, spacing: 3) {
                     Text(title(entry: exact ? entry : nil, latin: latin))
@@ -277,14 +318,18 @@ private struct SelectionCard: View {
                         .lineLimit(2)
                     if let subtitle = subtitle(entry: exact ? entry : nil, latin: latin) {
                         Text(subtitle)
-                            .font(.subheadline)
+                            .font(.subheadline.italic())
                             .foregroundStyle(.secondary)
-                            .lineLimit(2)
+                            .lineLimit(1)
                     }
                     if let entry, !exact {
                         Text("Bağlı yapı: \(entry.tr)")
-                            .font(.caption)
+                            .font(.caption.weight(.medium))
                             .foregroundStyle(.tint)
+                    } else if group.count > 1 {
+                        Text("\(group.count) bölümüyle birlikte seçildi")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
                     }
                 }
                 Spacer(minLength: 0)
@@ -300,12 +345,29 @@ private struct SelectionCard: View {
                 .accessibilityLabel("Seçimi kaldır")
             }
 
+            if let summary = summary(entry: entry, exact: exact) {
+                Text(summary)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(3)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+
             HStack(spacing: 8) {
-                actionButton("Bilgi", systemImage: "info.circle", prominent: true, action: onInfo)
-                actionButton("Odakla", systemImage: "scope") { app.scene.frame([ref]) }
+                actionButton("İncele", systemImage: "cube.transparent", prominent: true) {
+                    let refs = Array(group.isEmpty ? [ref] : group)
+                    app.specimen = app.specimenRequest(
+                        for: refs,
+                        title: title(entry: exact ? entry : nil, latin: latin),
+                        subtitle: (exact ? entry?.la : nil) ?? latin ?? info.base,
+                        entryID: entry?.id
+                    )
+                }
+                actionButton("Bilgi", systemImage: "info.circle", action: onInfo)
                 actionButton("İzole", systemImage: "viewfinder") {
-                    app.scene.isolate([ref])
-                    app.scene.frame([ref])
+                    let refs = group.isEmpty ? [ref] : group
+                    app.scene.isolate(refs)
+                    app.scene.frame(Array(refs))
                 }
                 actionButton("Gizle", systemImage: "eye.slash") {
                     withAnimation(.snappy) { app.scene.hide(ref) }
@@ -314,6 +376,14 @@ private struct SelectionCard: View {
         }
         .padding(16)
         .glassEffect(.regular, in: .rect(cornerRadius: 26))
+    }
+
+    private func summary(entry: AtlasEntry?, exact: Bool) -> String? {
+        if let entry, exact { return entry.summary }
+        if let def = app.store.term(info.base)?.def {
+            return def.components(separatedBy: "\n\n").first
+        }
+        return entry?.summary
     }
 
     private func title(entry: AtlasEntry?, latin: String?) -> String {
@@ -340,7 +410,7 @@ private struct SelectionCard: View {
             .frame(maxWidth: .infinity)
             .padding(.vertical, 8)
             .foregroundStyle(prominent ? Color.white : Color.primary)
-            .background(prominent ? AnyShapeStyle(Color.accentColor) : AnyShapeStyle(.quaternary), in: .rect(cornerRadius: 14))
+            .background(prominent ? AnyShapeStyle(Color.accentColor.gradient) : AnyShapeStyle(.quaternary), in: .rect(cornerRadius: 14))
         }
         .buttonStyle(.plain)
     }

@@ -28,5 +28,9 @@ struct RootView: View {
             }
         }
         .tabViewStyle(.sidebarAdaptable)
+        .fullScreenCover(item: $app.specimen) { request in
+            SpecimenView(request: request)
+        }
+        .task { await app.store.loadGlossary() }
     }
 }

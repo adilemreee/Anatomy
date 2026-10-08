@@ -188,7 +188,7 @@ private struct PartRow: View {
             } label: {
                 HStack(spacing: 10) {
                     Circle()
-                        .fill(Color(hex: PartPalette.color(for: info, layer: ref.system)))
+                        .fill(MaterialStyles.swatch(for: info, layer: ref.system, materials: app.scene.materialNames(ref.system), mode: app.scene.colorMode))
                         .frame(width: 10, height: 10)
                     VStack(alignment: .leading, spacing: 2) {
                         HStack(spacing: 4) {

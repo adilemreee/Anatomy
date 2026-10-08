@@ -90,6 +90,10 @@ def main():
         for part in json.load(open(p, encoding="utf-8"))["parts"]:
             names.add(part["base"])
             names.update(part["path"])
+    labels = os.path.join(MODELS, "labels.json")
+    if os.path.exists(labels):
+        for label in json.load(open(labels, encoding="utf-8"))["labels"]:
+            names.add(label["name"])
 
     out = {}
     for n in sorted(names):

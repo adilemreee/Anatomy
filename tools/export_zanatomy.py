@@ -5,7 +5,13 @@ Run headless:
 
 For every body system collection it writes
     mesh-<system>.bin   raw-deflate compressed geometry (see format below)
-    mesh-<system>.json  part manifest (names, hierarchy, colours, bounds)
+    mesh-<system>.json  part manifest (names, hierarchy, bounds, material
+                        segments) plus the system's material name table
+
+Each part's triangles are sorted by material so that the manifest can
+describe them as runs ("seg": [[material, triangleCount], ...]); this keeps
+Z-Anatomy's tendon / muscle belly, bone shade and brain lobe distinctions.
+tools/bake_ao.swift later appends per-vertex ambient occlusion ("ANT2").
 
 Binary layout (little endian, after inflating):
     "ANT1"                      magic
@@ -34,15 +40,15 @@ OUT = sys.argv[sys.argv.index("--") + 1]
 
 # collection name -> (system id, triangle budget)
 SYSTEMS = {
-    "1: Skeletal system": ("skeletal", 480000),
-    "2: Muscular insertions": ("insertions", 70000),
-    "3: Joints": ("joints", 130000),
-    "4: Muscular system": ("muscular", 760000),
-    "5: Cardiovascular system": ("cardiovascular", 380000),
-    "6: Lymphoid organs": ("lymphoid", 90000),
-    "7: Nervous system & Sense organs": ("nervous", 480000),
-    "8: Visceral systems": ("visceral", 280000),
-    "9: Regions of human body": ("regions", 90000),
+    "1: Skeletal system": ("skeletal", 900000),
+    "2: Muscular insertions": ("insertions", 120000),
+    "3: Joints": ("joints", 260000),
+    "4: Muscular system": ("muscular", 1500000),
+    "5: Cardiovascular system": ("cardiovascular", 650000),
+    "6: Lymphoid organs": ("lymphoid", 140000),
+    "7: Nervous system & Sense organs": ("nervous", 950000),
+    "8: Visceral systems": ("visceral", 400000),
+    "9: Regions of human body": ("regions", 150000),
 }
 HELPER_SUFFIX = (".g", ".t", ".j", ".i", ".s")
 SIDE_RE = re.compile(r"\.(?:(o|e)(\d*))?([lr])$")
@@ -88,6 +94,17 @@ def hexcolor(obj):
     return "%02x%02x%02x" % tuple(int(max(0, min(1, v)) ** (1 / 2.2) * 255) for v in c[:3])
 
 
+MATERIALS = {}
+
+
+def material_id(sid, name):
+    table = MATERIALS.setdefault(sid, [])
+    name = re.sub(r"\.\d+$", "", name or "Default")
+    if name not in table:
+        table.append(name)
+    return table.index(name)
+
+
 def log(t0, msg):
     print(f"[{time.time()-t0:.0f}s] {msg}", flush=True)
 
@@ -123,9 +140,9 @@ def main():
                             m.levels = min(m.levels, 1)
             else:
                 cu = o.data
-                cu.resolution_u = min(cu.resolution_u, 4)
+                cu.resolution_u = min(cu.resolution_u, 6)
                 if cu.bevel_mode == "ROUND":
-                    cu.bevel_resolution = min(cu.bevel_resolution, 1)
+                    cu.bevel_resolution = min(cu.bevel_resolution, 2)
                 for m in o.modifiers:
                     if m.type == "SUBSURF":
                         m.show_viewport = False
@@ -218,7 +235,24 @@ def main():
             nrm = (nrm @ nm.T) @ conv.T
             idx = np.empty(nt * 3, dtype=np.int64)
             me.loop_triangles.foreach_get("vertices", idx)
+            mat_index = np.empty(nt, dtype=np.int64)
+            me.loop_triangles.foreach_get("material_index", mat_index)
+            slot_names = [m.name if m else "" for m in me.materials]
+            if not slot_names:
+                slot_names = [sl.material.name if sl.material else "" for sl in o.material_slots]
             ev.to_mesh_clear()
+            # global material id per triangle, then sort triangles by it
+            tri_mat = np.array([material_id(sid, slot_names[i] if 0 <= i < len(slot_names) else "")
+                                for i in range(max(len(slot_names), 1))], dtype=np.int64)[np.clip(mat_index, 0, max(len(slot_names), 1) - 1)]
+            order = np.argsort(tri_mat, kind="stable")
+            idx = idx.reshape(-1, 3)[order].reshape(-1)
+            tri_mat = tri_mat[order]
+            segments = []
+            if len(tri_mat):
+                cuts = np.flatnonzero(np.diff(tri_mat)) + 1
+                starts = np.concatenate([[0], cuts])
+                ends = np.concatenate([cuts, [len(tri_mat)]])
+                segments = [[int(tri_mat[a]), int(b - a)] for a, b in zip(starts, ends)]
             if np.linalg.det(mw[:3, :3]) < 0:
                 # mirrored objects: keep triangles counter-clockwise when seen
                 # from outside so two-sided lighting does not flip normals
@@ -235,7 +269,7 @@ def main():
                 "name": name, "base": base, "side": side, "kind": kind,
                 "path": ancestry(o), "color": hexcolor(o),
                 "fascia": bool(FASCIA_RE.search(base)) and sid == "muscular",
-                "co": co, "n": nrm, "idx": idx,
+                "co": co, "n": nrm, "idx": idx, "seg": segments,
             })
         all_parts[sid] = parts
         log(t0, f"{sid}: kept {len(parts)} parts, {sum(len(p['idx'])//3 for p in parts)} tris")
@@ -267,13 +301,14 @@ def main():
             if p["kind"]: entry["kind"] = p["kind"]
             if p["color"]: entry["color"] = p["color"]
             if p["fascia"]: entry["fascia"] = True
+            entry["seg"] = p["seg"]
             manifest.append(entry)
         comp = zlib.compressobj(9, zlib.DEFLATED, -15)
         blob = comp.compress(bytes(out)) + comp.flush()
         with open(f"{OUT}/mesh-{sid}.bin", "wb") as fh:
             fh.write(blob)
         with open(f"{OUT}/mesh-{sid}.json", "w", encoding="utf-8") as fh:
-            json.dump({"system": sid, "parts": manifest}, fh, ensure_ascii=False, separators=(",", ":"))
+            json.dump({"system": sid, "materials": MATERIALS.get(sid, []), "parts": manifest}, fh, ensure_ascii=False, separators=(",", ":"))
         log(t0, f"{sid}: {len(parts)} parts, {len(out)/1e6:.1f} MB raw, {len(blob)/1e6:.1f} MB deflated")
     log(t0, f"done, bounds {gmin} {gmax}")
 

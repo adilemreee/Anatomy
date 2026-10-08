@@ -10,6 +10,13 @@ Etkileşimli, üç boyutlu ve Türkçe bir insan anatomisi atlası (iOS / iPadOS
   - Katmanları saydam yapma, röntgen görünümü, hazır görünümler
   - Model üzerinde yapı etiketleri
   - Model hiyerarşisine göre parça tarayıcısı ve arama
+  - Kendi Metal yüzey gölgelendiricisi: kas lifleri, kemik dokusu, organ yüzeyi, önceden hesaplanmış ortam örtmesi (AO), kenar ışığı ve zemin gölgesi
+  - **Gerçekçi** (kadavra renkleri) ve **Öğretici** (kaslar hareketine, beyin lobları ayrı renklerde) renk modları, renk açıklamasıyla
+  - Bir kasın bir başına dokununca kasın tüm başları birlikte seçilir
+- **İnceleme modu** (seçim kartında *İncele*, madde sayfasında *3D İncele*): yapı tek başına, koyu bir sahnede açılır.
+  - Kemik ve organlarda Z-Anatomy'nin 740 oluşum etiketi Latince ve İngilizce adlarla gösterilir (ör. *Caput ossis femoris*). Etiketler çakışmayacak şekilde yerleşir; dokununca açıklama kartı açılır.
+  - Kaslar bağlandıkları kemiklerle birlikte açılır. Başlangıç yerleri kırmızı, tutunma yerleri mavi işaretlenir; kasın başları da etiketlenir.
+  - Kas önden mi arkadan mı daha iyi görünüyorsa o yönden açılır.
 - **İçerik**: 13 sistemde 358 Türkçe madde. Her madde Türkçe, Latince (TA) ve İngilizce adlarla birlikte gelir. Ayrıca şunları içerir:
   - Temel bilgiler: origo, insersiyo, innervasyon, kanlanma, fonksiyon, dallar, eklemler…
   - Ayrıntılı bölümler ve klinik notlar
@@ -26,11 +33,11 @@ Etkileşimli, üç boyutlu ve Türkçe bir insan anatomisi atlası (iOS / iPadOS
 
 | Klasör | İçerik |
 | --- | --- |
-| `Anatomy/Model3D` | Mesh paketlerini okuma (`MeshPack`), RealityKit sahnesi (`AnatomyScene`), görüntüleyici ve hareketler, renk paleti |
+| `Anatomy/Model3D` | Mesh paketleri (`MeshPack`, `PackLibrary`), atlas sahnesi (`AnatomyScene`), inceleme sahnesi (`SpecimenScene`), Metal gölgelendirici (`AnatomyShaders.metal`), malzemeler ve renk kuralları (`MaterialStyle`) |
 | `Anatomy/Models` | İçerik modeli, `AtlasStore`, `StudyStore`, `QuizEngine`, `AppModel` |
 | `Anatomy/Views` | Atlas, sistemler, madde, arama, çalışma ve kitaplık ekranları |
 | `Anatomy/Content` | `atlas-*.json` içerik dosyaları (`tools/content` ile üretilir) |
-| `Anatomy/Resources` | 3D mesh paketleri (`Models/mesh-*.bin/json`) ve `glossary.json` |
+| `Anatomy/Resources` | 3D mesh paketleri (`Models/mesh-*.bin/json`), oluşum etiketleri (`Models/labels.json`), Z-Anatomy malzeme renkleri ve `glossary.json` |
 | `tools` | Blender dışa aktarma, sözlük ve içerik üretim betikleri |
 
 ### 3D modelleri yeniden üretmek
@@ -39,7 +46,9 @@ Gerekenler: Blender 5.x ve Z-Anatomy `Startup.blend` dosyası ([Z-Anatomy/Models
 
 ```bash
 Blender -b Startup.blend --python tools/export_zanatomy.py -- <çıktı-klasörü>
+Blender -b Startup.blend --python tools/export_labels.py -- Anatomy/Resources/Models/labels.json
 Blender -b Startup.blend --python tools/dump_zanatomy_texts.py -- texts.json
+swiftc -O tools/bake_ao.swift -o bake_ao && ./bake_ao <çıktı-klasörü>/mesh-*.bin
 cp <çıktı-klasörü>/mesh-* Anatomy/Resources/Models/
 python3 tools/build_glossary.py texts.json TA2.csv
 ```
@@ -49,7 +58,14 @@ Dışa aktarma betiği her sistem için şunları yapar:
 - Belirlenen üçgen bütçesine göre modeli sadeleştirir
 - Koordinatları Y-yukarı sisteme çevirir
 - Konumları 16 bit, normalleri 8 bit olarak sıkıştırır
-- `mesh-<sistem>.bin` (raw deflate) ve `mesh-<sistem>.json` (parça listesi) dosyalarını yazar
+- Üçgenleri malzemeye göre sıralar; her parçanın malzeme dilimlerini (`seg`) kaydeder
+- `mesh-<sistem>.bin` (raw deflate, "ANT1") ve `mesh-<sistem>.json` (parça ve malzeme listesi) dosyalarını yazar
+
+`bake_ao` her köşe için ortam örtmesini hesaplar: BVH üzerinde 28 ışın gönderir ve örtü dokularını hesaba katmaz. Sonucu pakete ekleyip dosyayı "ANT2" olarak yeniden yazar.
+
+`export_labels` Z-Anatomy'deki etiketlerin işaret çizgilerini (`.i`/`.j` nesneleri) izler ve her etiketin yüzeydeki noktasını bulur.
+
+Z-Anatomy'de bazı kasların başlangıç ve tutunma yerleri ters işaretlenmiştir (ör. trapezius, serratus anterior, suboksipital kaslar). Bunlar maddelerdeki origo/insersiyo bilgisiyle karşılaştırılmış ve `MaterialStyles.isOrigin` içinde düzeltilmiştir.
 
 ### İçeriği yeniden üretmek
 
@@ -66,6 +82,8 @@ Betik tüm `atlas-*.json` dosyalarını üretir. Ardından her maddenin `models`
 - `-AtlasCamera "x,y,z,mesafe,yaw"`: kamera konumu
 - `-AtlasHideSide muscular:r`: bir katmanın tek tarafını gizler
 - `-AtlasNoChrome YES`: kontrolleri gizler
+- `-AtlasColors educational`: öğretici renklerle açar
+- `-AtlasInspect "Femur"`: açılışta bir yapıyı inceleme modunda gösterir
 - `-atlas.labels YES`: etiketleri açar
 
 ## Lisanslar ve kaynaklar

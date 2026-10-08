@@ -60,16 +60,16 @@ struct EntryContent: View {
             if showsModelButton, app.hasModel(entry) {
                 HStack(spacing: 10) {
                     Button {
-                        app.showInAtlas(entry)
+                        app.inspect(entry)
                     } label: {
-                        Label("3D'de göster", systemImage: "cube.transparent")
+                        Label("3D İncele", systemImage: "cube.transparent")
                             .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(.glassProminent)
                     Button {
-                        app.showInAtlas(entry, isolate: true)
+                        app.showInAtlas(entry)
                     } label: {
-                        Label("İzole et", systemImage: "viewfinder")
+                        Label("Atlasta göster", systemImage: "figure.arms.open")
                             .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(.glass)
