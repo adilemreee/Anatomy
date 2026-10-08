@@ -30,7 +30,10 @@ struct AtlasView: View {
             AnatomyViewport(scene: scene, onTap: { ref in
                 withAnimation(.snappy) { scene.select(ref) }
                 tapCount += 1
-            }, onSizeChange: { viewSize = $0 }) {
+            }, onSizeChange: {
+                viewSize = $0
+                if $0.height > 0 { scene.viewAspect = Float($0.width / $0.height) }
+            }) {
                 if showLabels, !scene.isCameraMoving {
                     labelLayer
                         .transition(.opacity)
@@ -53,7 +56,7 @@ struct AtlasView: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .transition(.move(edge: .top).combined(with: .opacity))
                 }
-                if scene.isIsolating || !scene.hiddenParts.isEmpty || !scene.highlighted.isEmpty {
+                if scene.isIsolating || !scene.hiddenParts.isEmpty || !scene.highlighted.isEmpty || !scene.fadedParts.isEmpty {
                     restoreBanner
                         .transition(.move(edge: .top).combined(with: .opacity))
                 }
@@ -208,7 +211,7 @@ struct AtlasView: View {
         HStack(spacing: 10) {
             Image(systemName: scene.isIsolating ? "viewfinder" : "eye.slash")
                 .foregroundStyle(.tint)
-            Text(scene.isIsolating ? "İzole görünüm" : (scene.highlighted.isEmpty ? "\(scene.hiddenParts.count) parça gizli" : "\(scene.highlighted.count) parça vurgulandı"))
+            Text(restoreTitle)
                 .font(.subheadline.weight(.medium))
             Spacer()
             Button("Tümünü göster") {
@@ -248,6 +251,15 @@ struct AtlasView: View {
                 .contentShape(.capsule)
         }
         .buttonStyle(.plain)
+    }
+
+    private var restoreTitle: String {
+        if scene.isIsolating { return "İzole görünüm" }
+        var parts: [String] = []
+        if !scene.highlighted.isEmpty { parts.append("\(scene.highlighted.count) parça vurgulandı") }
+        if !scene.fadedParts.isEmpty { parts.append("üstündekiler saydam") }
+        if !scene.hiddenParts.isEmpty { parts.append("\(scene.hiddenParts.count) parça gizli") }
+        return parts.isEmpty ? "Değiştirilmiş görünüm" : parts.joined(separator: " · ")
     }
 
     private func loadingBadge(_ layer: ModelLayer) -> some View {

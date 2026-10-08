@@ -151,6 +151,78 @@ extension AnatomyScene {
         }.value
     }
 
+    /// The view (eight directions around the body, level or from above) from
+    /// which most of `refs` can be seen, testing sample points against
+    /// everything drawn, with the fraction that is visible and the parts
+    /// covering the rest. Views where little has to be faded win over views
+    /// where the structure faces away.
+    func viewpoint(for refs: [PartRef], target: SIMD3<Float>, distance: Float)
+        async -> (yaw: Float, pitch: Float, visible: Float, blockers: Set<PartRef>)? {
+        var samples: [(SIMD3<Float>, SIMD3<Float>)] = []
+        for ref in refs.prefix(8) {
+            guard let system = systems[ref.system] else { continue }
+            let r = system.pack.ranges[ref.index]
+            let step = max(r.vertexCount / max(160 / min(refs.count, 8), 1), 1)
+            for v in Swift.stride(from: r.vertexStart, to: r.vertexStart + r.vertexCount, by: step) {
+                samples.append((system.pack.positions[v], system.pack.normals[v]))
+            }
+        }
+        guard !samples.isEmpty else { return nil }
+        var occluders: [(PartRef, BoundingBox)] = []
+        var packs: [String: MeshPack] = [:]
+        for (id, system) in systems where enabledLayers.contains(id) {
+            packs[id] = system.pack
+            for i in system.pack.parts.indices {
+                let ref = PartRef(system: id, index: i)
+                let s = state(of: ref)
+                if s == .hidden || s == .ghost { continue }
+                occluders.append((ref, system.bounds[i]))
+            }
+        }
+        let targets = Set(refs)
+        return await Task.detached(priority: .userInitiated) { () -> (yaw: Float, pitch: Float, visible: Float, blockers: Set<PartRef>) in
+            var best: (score: Float, yaw: Float, pitch: Float, visible: Float, facing: Float, blockers: [PartRef: Int]) = (-.infinity, 0, 0.08, 0, 1, [:])
+            for pitch in [Float(0.08), 0.65] {
+                for k in 0..<8 {
+                    let yaw = Float(k) * .pi / 4
+                    let eye = target + SIMD3(sin(yaw) * cos(pitch), sin(pitch), cos(yaw) * cos(pitch)) * distance
+                    var visible: Float = 0, facing: Float = 0, covered: Float = 0
+                    var blockers: [PartRef: Int] = [:]
+                    for (p, n) in samples {
+                        let toPoint = p - eye
+                        let d = simd_length(toPoint)
+                        let dir = toPoint / d
+                        guard simd_dot(n, -dir) > 0.05 else { continue }
+                        facing += 1
+                        // The nearest part in front of the point, other than the target itself.
+                        var nearest: (Float, PartRef)?
+                        var blockedBySelf = false
+                        for (ref, box) in occluders {
+                            let limit = min(d - 0.004, nearest?.0 ?? .infinity)
+                            guard let entry = Self.rayBox(eye, dir, box), entry < limit,
+                                  let pack = packs[ref.system],
+                                  let hit = Self.rayMesh(eye, dir, pack: pack, part: ref.index, limit: limit) else { continue }
+                            if targets.contains(ref) { blockedBySelf = true } else { nearest = (hit, ref) }
+                        }
+                        if let (_, ref) = nearest {
+                            blockers[ref, default: 0] += 1
+                            covered += 1
+                        } else if !blockedBySelf {
+                            visible += 1
+                        }
+                    }
+                    // Prefer the front, then level views, when views are about as good.
+                    let bias: Float = (k == 0 ? 1.08 : (k == 4 ? 0.97 : 1)) * (pitch > 0.3 ? 0.92 : 1)
+                    let score = (visible + covered * 0.4) * bias - Float(blockers.count) * 0.6
+                    if score > best.score { best = (score, yaw, pitch, visible, max(facing, 1), blockers) }
+                }
+            }
+            let minimum = max(2, Int(best.facing * 0.02))
+            let covering = Set(best.blockers.filter { $0.value >= minimum }.map(\.key))
+            return (best.yaw, best.pitch, best.visible / best.facing, covering)
+        }.value
+    }
+
     nonisolated static func rayBox(_ o: SIMD3<Float>, _ d: SIMD3<Float>, _ box: BoundingBox) -> Float? {
         let inv = SIMD3<Float>(1 / d.x, 1 / d.y, 1 / d.z)
         let t0 = (box.min - o) * inv

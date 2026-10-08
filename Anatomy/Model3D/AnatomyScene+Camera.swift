@@ -50,6 +50,24 @@ extension AnatomyScene {
     }
 
     /// Moves the camera so that `refs` fill the view.
+    /// Centre and camera distance that fit `refs` on screen.
+    func framing(_ refs: [PartRef], margin: Float = 1.15) -> (SIMD3<Float>?, Float) {
+        var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude)
+        var hi = -lo
+        for ref in refs {
+            guard let info = info(ref) else { continue }
+            let b = info.bounds
+            lo = simd_min(lo, SIMD3(b[0], b[1], b[2]))
+            hi = simd_max(hi, SIMD3(b[3], b[4], b[5]))
+        }
+        guard lo.x <= hi.x else { return (nil, distance) }
+        let radius = max(simd_length(hi - lo) / 2, 0.03)
+        let halfV = fieldOfView * .pi / 360
+        let halfH = atan(tan(halfV) * min(viewAspect, 1))
+        let fit = radius / sin(min(halfV, halfH)) * margin
+        return ((lo + hi) / 2, min(max(fit, 0.16), 3.3))
+    }
+
     func frame(_ refs: [PartRef], margin: Float = 1.15) {
         var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude)
         var hi = -lo

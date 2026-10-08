@@ -72,6 +72,11 @@ final class AppModel {
                 }
             }
         }
+        // -AtlasReveal "Popliteus muscle" finds a structure in the atlas.
+        if let name = defaults.string(forKey: "AtlasReveal") {
+            let refs = scene.refs(matching: [name])
+            Task { await scene.reveal(refs) }
+        }
         // -AtlasCamera "x,y,z,distance,yaw"
         if let values = defaults.string(forKey: "AtlasCamera")?.split(separator: ",").compactMap({ Float($0) }), values.count == 5 {
             scene.setCamera(target: SIMD3(values[0], values[1], values[2]), distance: values[3], yaw: values[4])

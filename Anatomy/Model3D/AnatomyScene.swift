@@ -62,6 +62,8 @@ final class AnatomyScene {
     /// the same structure on the same side (e.g. both heads of biceps).
     private(set) var selectedGroup: Set<PartRef> = []
     private(set) var hiddenParts: Set<PartRef> = []
+    /// Drawn see-through because they cover what was looked up.
+    private(set) var fadedParts: Set<PartRef> = []
     private(set) var isolation: Set<PartRef>?
     private(set) var highlighted: Set<PartRef> = []
     var showCoverings = false { didSet { refreshAll() } }
@@ -103,6 +105,8 @@ final class AnatomyScene {
     @ObservationIgnored var distance: Float = 3.3
     @ObservationIgnored var target = SIMD3<Float>(0, 0.88, 0)
     @ObservationIgnored let fieldOfView: Float = 38
+    /// Width / height of the viewport, for framing.
+    @ObservationIgnored var viewAspect: Float = 0.46
 
     static let homeTarget = SIMD3<Float>(0, 0.88, 0)
     static let homeDistance: Float = 3.3
@@ -321,7 +325,7 @@ final class AnatomyScene {
         if !showCoverings, coverings[ref.system]?[ref.index] == true, !selected, !highlighted.contains(ref) { return .hidden }
         if selected { return .selected }
         if highlighted.contains(ref) { return .highlighted }
-        if xray { return .ghost }
+        if xray || fadedParts.contains(ref) { return .ghost }
         if ghostedLayers.contains(ref.system) { return .ghost }
         return .solid
     }
@@ -439,8 +443,17 @@ final class AnatomyScene {
 
     func showAll() {
         hiddenParts.removeAll()
+        fadedParts.removeAll()
         isolation = nil
         refreshAll()
+    }
+
+    /// Makes `refs` see-through (and everything else opaque again).
+    func fade(_ refs: Set<PartRef>) {
+        guard refs != fadedParts else { return }
+        let touched = Set(fadedParts.map(\.system)).union(refs.map(\.system))
+        fadedParts = refs
+        for system in touched { refresh(system) }
     }
 
     func highlight(_ refs: Set<PartRef>) {
@@ -493,7 +506,16 @@ final class AnatomyScene {
             select(nil)
             highlight(Set(refs))
         }
-        frame(refs, margin: margin)
+        // Turn to the side where the structure is actually visible, and make
+        // whatever still covers it see-through (deep muscles, for example).
+        fade([])
+        let (center, fit) = framing(refs, margin: margin)
+        if let center, let view = await viewpoint(for: refs, target: center, distance: fit) {
+            if view.visible < 0.6 { fade(view.blockers) }
+            animateCamera(target: center, distance: fit, yaw: view.yaw, pitch: view.pitch)
+        } else {
+            frame(refs, margin: margin)
+        }
     }
 
 }
