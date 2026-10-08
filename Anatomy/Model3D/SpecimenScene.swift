@@ -172,9 +172,15 @@ final class SpecimenScene: ViewportScene {
                 }
             }
         }
-        guard !allIndices.isEmpty, let mesh = try? AnatomyScene.makeMesh(vertexCount: allPositions.count, indexCount: allIndices.count) else { return }
-        AnatomyScene.upload(VertexBuilder.Output(vertices: vertexData, indices: allIndices, ranges: [], bounds: []), into: mesh)
-        mesh.parts.replaceAll([LowLevelMesh.Part(indexCount: allIndices.count, topology: .triangle, materialIndex: 0,
+        guard !allIndices.isEmpty else { return }
+        // Drawn smoothly subdivided; picking and label tests use the source mesh.
+        let source = (vertexData, allIndices)
+        let (smoothVertices, smoothIndices) = await Task.detached(priority: .userInitiated) {
+            Tessellator.smooth(vertices: source.0, indices: source.1, maxTriangles: 800_000)
+        }.value
+        guard let mesh = try? AnatomyScene.makeMesh(vertexCount: smoothVertices.count / VertexBuilder.stride, indexCount: smoothIndices.count) else { return }
+        AnatomyScene.upload(VertexBuilder.Output(vertices: smoothVertices, indices: smoothIndices, ranges: [], bounds: []), into: mesh)
+        mesh.parts.replaceAll([LowLevelMesh.Part(indexCount: smoothIndices.count, topology: .triangle, materialIndex: 0,
                                                  bounds: BoundingBox(min: lo, max: hi))])
         guard let resource = try? await MeshResource(from: mesh) else { return }
         let entity = ModelEntity(mesh: resource, materials: AnatomyMaterials.make(occlusion: 0.55, rim: 0.7))

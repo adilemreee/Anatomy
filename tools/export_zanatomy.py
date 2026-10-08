@@ -1,7 +1,11 @@
 """Exports the Z-Anatomy Blender scene into compact per-system mesh packs.
 
 Run headless:
-    Blender -b Startup.blend --python tools/export_zanatomy.py -- <out_dir>
+    Blender -b Startup.blend --python tools/export_zanatomy.py -- <out_dir> [--full] [--count]
+
+--full keeps Z-Anatomy's own subdivision levels and curve resolution and
+uses the FULL_BUDGETS below (the shipped packs); without it the older,
+lighter budgets are used. --count only prints the triangle counts.
 
 For every body system collection it writes
     mesh-<system>.bin   raw-deflate compressed geometry (see format below)
@@ -36,7 +40,10 @@ import zlib
 
 import numpy as np
 
-OUT = sys.argv[sys.argv.index("--") + 1]
+ARGS = sys.argv[sys.argv.index("--") + 1:]
+OUT = ARGS[0]
+FULL = "--full" in ARGS
+COUNT_ONLY = "--count" in ARGS
 
 # collection name -> (system id, triangle budget)
 SYSTEMS = {
@@ -49,6 +56,13 @@ SYSTEMS = {
     "7: Nervous system & Sense organs": ("nervous", 950000),
     "8: Visceral systems": ("visceral", 400000),
     "9: Regions of human body": ("regions", 150000),
+}
+# Budgets with --full: everything at source resolution except the curve
+# heavy systems, which are capped so the app stays responsive on a phone.
+FULL_BUDGETS = {
+    "skeletal": 10**9, "insertions": 300000, "joints": 10**9, "muscular": 10**9,
+    "cardiovascular": 1600000, "lymphoid": 10**9, "nervous": 1800000,
+    "visceral": 10**9, "regions": 10**9,
 }
 HELPER_SUFFIX = (".g", ".t", ".j", ".i", ".s")
 SIDE_RE = re.compile(r"\.(?:(o|e)(\d*))?([lr])$")
@@ -134,18 +148,21 @@ def main():
                 base = sum(len(p.vertices) - 2 for p in o.data.polygons)
                 for m in o.modifiers:
                     if m.type == "SUBSURF":
-                        if sid == "insertions" or base >= 2500:
+                        if FULL:
+                            m.levels = min(m.levels, 2)
+                        elif sid == "insertions" or base >= 2500:
                             m.show_viewport = False
                         else:
                             m.levels = min(m.levels, 1)
             else:
                 cu = o.data
-                cu.resolution_u = min(cu.resolution_u, 6)
+                cu.resolution_u = min(cu.resolution_u, 12 if FULL else 6)
                 if cu.bevel_mode == "ROUND":
-                    cu.bevel_resolution = min(cu.bevel_resolution, 2)
+                    cu.bevel_resolution = min(cu.bevel_resolution, 4 if FULL else 2)
                 for m in o.modifiers:
                     if m.type == "SUBSURF":
-                        m.show_viewport = False
+                        m.show_viewport = FULL and m.show_viewport
+                        m.levels = min(m.levels, 1)
             objs.append(o)
         picked[sid] = objs
 
@@ -157,6 +174,8 @@ def main():
     tri_counts = {}
     ratios = {}
     for cname, (sid, budget) in SYSTEMS.items():
+        if FULL:
+            budget = FULL_BUDGETS[sid]
         counts = {}
         for o in picked[sid]:
             ev = o.evaluated_get(dg)
@@ -175,6 +194,8 @@ def main():
         tri_counts[sid] = counts
         ratios[sid] = ratio
         log(t0, f"{sid}: {len(counts)} parts, {total} tris -> ratio {ratio:.3f}")
+    if COUNT_ONLY:
+        return
 
     # Pass 2: append a decimate modifier to the big parts and evaluate once.
     # Curves cannot be decimated directly, so they get a mesh proxy first.
