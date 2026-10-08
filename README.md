@@ -16,7 +16,9 @@ Etkileşimli, üç boyutlu ve Türkçe bir insan anatomisi atlası (iOS / iPadOS
 - **İnceleme modu** (seçim kartında *İncele*, madde sayfasında *3D İncele*): yapı tek başına, koyu bir sahnede açılır.
   - Kemik ve organlarda Z-Anatomy'nin 740 oluşum etiketi Latince ve İngilizce adlarla gösterilir (ör. *Caput ossis femoris*). Etiketler çakışmayacak şekilde yerleşir; dokununca açıklama kartı açılır.
   - Kaslar bağlandıkları kemiklerle birlikte açılır. Başlangıç yerleri kırmızı, tutunma yerleri mavi işaretlenir; kasın başları da etiketlenir.
-  - Kas önden mi arkadan mı daha iyi görünüyorsa o yönden açılır.
+  - Açılış görünümü, yapının en çok görünen yüzünü gösteren açıdan seçilir (ör. atlas omuru üstten, kalça kemiği yandan).
+  - 187 kemik ve 7 organ, BodyParts3D'nin yüksek ayrıntılı (yaklaşık 4 kat) modelleriyle gösterilir; yüzeyler ayrıca PN üçgenleriyle pürüzsüzleştirilir.
+- Aranan ya da sorulan bir yapı atlasta en iyi göründüğü yönden gösterilir; üstünü örten yapılar saydamlaşır (ör. diz arkası kası, supraspinatus).
 - **İçerik**: 13 sistemde 358 Türkçe madde. Her madde Türkçe, Latince (TA) ve İngilizce adlarla birlikte gelir. Ayrıca şunları içerir:
   - Temel bilgiler: origo, insersiyo, innervasyon, kanlanma, fonksiyon, dallar, eklemler…
   - Ayrıntılı bölümler ve klinik notlar
@@ -63,6 +65,19 @@ Dışa aktarma betiği her sistem için şunları yapar:
 
 `bake_ao` her köşe için ortam örtmesini hesaplar: BVH üzerinde 28 ışın gönderir ve örtü dokularını hesaba katmaz. Sonucu pakete ekleyip dosyayı "ANT2" olarak yeniden yazar.
 
+### Yüksek ayrıntılı modeller (İnceleme modu)
+
+Gerekenler: [BodyParts3D 3.0](https://dbarchive.biosciencedbc.jp/data/bodyparts3d/20110915/) `BodyParts3D_3.0_obj_95.zip` ve `parts_list_e.txt` (DBCLS, CC BY-SA 2.1 JP).
+
+```bash
+Blender -b --python tools/build_hd.py -- <obj-klasörü> parts_list_e.txt <çıktı> skeletal visceral
+./bake_ao <çıktı>/hd-skeletal.bin <çıktı>/hd-visceral.bin
+python3 tools/pack_hd.py <çıktı>/hd-skeletal.bin Anatomy/Resources/Models
+python3 tools/pack_hd.py <çıktı>/hd-visceral.bin Anatomy/Resources/Models
+```
+
+`build_hd` parçaları adlarından eşleştirir. Önce tüm vücut için tek bir benzerlik dönüşümü, sonra her parça için rijit ICP uygular. Yalnızca iki yönde de yüzeyleri birkaç milimetre içinde örtüşen ve daha ayrıntılı olan modelleri tutar; Z-Anatomy'nin yeniden modellediği organlar (karaciğer, mide gibi) bu yüzden elenir. Malzeme bölgeleri (eklem kıkırdağı gibi) en yakın Z-Anatomy üçgeninden aktarılır. `pack_hd` her parçayı ayrı sıkıştırır ("ANH1"), böylece uygulama yalnızca açılan yapıyı çözer.
+
 `export_labels` Z-Anatomy'deki etiketlerin işaret çizgilerini (`.i`/`.j` nesneleri) izler ve her etiketin yüzeydeki noktasını bulur.
 
 Z-Anatomy'de bazı kasların başlangıç ve tutunma yerleri ters işaretlenmiştir (ör. trapezius, serratus anterior, suboksipital kaslar). Bunlar maddelerdeki origo/insersiyo bilgisiyle karşılaştırılmış ve `MaterialStyles.isOrigin` içinde düzeltilmiştir.
@@ -84,12 +99,13 @@ Betik tüm `atlas-*.json` dosyalarını üretir. Ardından her maddenin `models`
 - `-AtlasNoChrome YES`: kontrolleri gizler
 - `-AtlasColors educational`: öğretici renklerle açar
 - `-AtlasInspect "Femur"`: açılışta bir yapıyı inceleme modunda gösterir
+- `-AtlasReveal "Popliteus muscle"`: açılışta bir yapıyı atlasta bulur
 - `-atlas.labels YES`: etiketleri açar
 
 ## Lisanslar ve kaynaklar
 
 - **3D modeller**: [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy), CC BY-SA 4.0. Modeller sadeleştirilmiş, yeniden renklendirilmiş ve sistemlere ayrılmıştır. Değiştirilmiş modeller (`Anatomy/Resources/Models`) de CC BY-SA 4.0 lisansıyla sunulur.
-- **BodyParts3D**: Z-Anatomy modelleri bu veritabanından türetilmiştir. BodyParts3D, © The Database Center for Life Science (DBCLS).
+- **BodyParts3D**: Z-Anatomy modelleri bu veritabanından türetilmiştir. İnceleme modundaki yüksek ayrıntılı modeller (`hd-*.bin`) BodyParts3D 3.0 verisinden hazırlanmıştır. BodyParts3D, © The Database Center for Life Science (DBCLS), CC BY-SA 2.1 JP.
 - **İngilizce kaynak metinler** (`glossary.json`): Z-Anatomy / Wikipedia, CC BY-SA.
 - **Latince terimler**: Terminologia Anatomica 2 (FIPAT).
 - **Türkçe içerik**: bu proje için hazırlanmıştır.

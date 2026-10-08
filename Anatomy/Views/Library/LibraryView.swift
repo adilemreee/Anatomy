@@ -127,7 +127,7 @@ struct AboutView: View {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("BodyParts3D")
                         .font(.headline)
-                    Text("Z-Anatomy modelleri BodyParts3D veritabanından türetilmiştir. BodyParts3D, © The Database Center for Life Science (DBCLS).")
+                    Text("Z-Anatomy modelleri BodyParts3D veritabanından türetilmiştir. İnceleme modundaki yüksek ayrıntılı kemik ve organ modelleri BodyParts3D 3.0 (%95 seti) verisinden hazırlanmış, Z-Anatomy modeline hizalanmıştır. BodyParts3D, © The Database Center for Life Science (DBCLS), Creative Commons Atıf-AynıLisanslaPaylaş 2.1 Japonya (CC BY-SA 2.1 JP).")
                         .font(.subheadline)
                     Link("dbarchive.biosciencedbc.jp/en/bodyparts3d", destination: URL(string: "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/")!)
                         .font(.subheadline)

@@ -36,6 +36,8 @@ MODELS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Anatomy
 MAX_TRIS = 80000
 ORDINALS = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"]
 REGIONS = {"C": "cervical", "T": "thoracic", "L": "lumbar"}
+FINGERS = ["thumb", "index finger", "middle finger", "ring finger", "little finger"]
+TOES = ["big toe", "second toe", "third toe", "fourth toe", "little toe"]
 
 
 # --- the shipped (LOD) packs --------------------------------------------------
@@ -110,6 +112,18 @@ def candidates(info):
     m = re.match(r"(atlas|axis) \(c\d\)$", base)
     if m:
         out.insert(0, m.group(1))
+    sided = {"r": "right", "l": "left"}.get(info.get("side"), "")
+    m = re.match(r"(proximal|middle|distal) phalanx of (\w+) finger of (hand|foot)$", base)
+    if m:
+        k = ORDINALS.index(m.group(2))
+        digit = (FINGERS if m.group(3) == "hand" else TOES)[k]
+        out.insert(0, f"{m.group(1)} phalanx of {sided} {digit}")
+    if base == "navicular bone":
+        out.insert(0, f"navicular bone of {sided} foot")
+    if base == "triquetrum bone":
+        out.insert(0, f"{sided} triquetral")
+    if base == "manubrium of sternum":
+        out.insert(0, "manubrium")
     if base.endswith(" bone"):
         out += [side + base[:-5], base[:-5]]
     if base.startswith("os "):

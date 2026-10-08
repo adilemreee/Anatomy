@@ -118,6 +118,9 @@ final class SpecimenScene: ViewportScene {
     @ObservationIgnored private var distance: Float = 0.6
     @ObservationIgnored private var target = SIMD3<Float>(0, 1, 0)
     @ObservationIgnored private var home: (SIMD3<Float>, Float, Float) = (.zero, 0.6, 0)
+    @ObservationIgnored private var homePitch: Float = 0.08
+    /// Triangle ranges of the test mesh per part, with bounds, for culling rays.
+    @ObservationIgnored private var partTriangles: [(range: Range<Int>, lo: SIMD3<Float>, hi: SIMD3<Float>)] = []
     @ObservationIgnored private let fieldOfView: Float = 32
     @ObservationIgnored private var bounds: (SIMD3<Float>, SIMD3<Float>) = (.zero, .zero)
     @ObservationIgnored private var ownerNames: Set<String> = []
@@ -174,7 +177,10 @@ final class SpecimenScene: ViewportScene {
                 let r = pack.ranges[p]
                 let span = allPositions.count..<allPositions.count + r.vertexCount
                 let shift = Int64(span.lowerBound) - Int64(r.vertexStart)
+                let triangleStart = allIndices.count
                 allIndices.append(contentsOf: pack.indices[r.indexStart..<r.indexStart + r.indexCount].map { UInt32(Int64($0) + shift) })
+                let pb = pack.parts[p].bounds
+                partTriangles.append((triangleStart..<allIndices.count, SIMD3(pb[0], pb[1], pb[2]) - 0.001, SIMD3(pb[3], pb[4], pb[5]) + 0.001))
                 allPositions.append(contentsOf: pack.positions[r.vertexStart..<r.vertexStart + r.vertexCount])
                 allNormals.append(contentsOf: pack.normals[r.vertexStart..<r.vertexStart + r.vertexCount])
                 guard focus.contains(PartRef(system: system, index: p)) else { continue }
@@ -211,31 +217,38 @@ final class SpecimenScene: ViewportScene {
         bounds = (lo, hi)
         let center = (lo + hi) / 2
         let fit = fitDistance()
-        // Side structures are best seen turned a little towards their own
-        // side. With bones around it, a muscle opens from whichever of front
-        // and back shows more of it (the gluteus and trapezius from behind).
-        var startYaw: Float = center.x > 0.1 ? 0.6 : (center.x < -0.1 ? -0.6 : 0)
-        if !context.isEmpty {
-            let sides = (startYaw, Float.pi - startYaw)
-            let samples = structures.flatMap { s in stride(from: s.span.lowerBound, to: s.span.upperBound, by: max(s.span.count / 60, 1)) }
-            let pitch = self.pitch
-            let pts = allPositions, nrm = allNormals, idx = allIndices
-            let counts = await Task.detached(priority: .userInitiated) { () -> (Int, Int) in
-                func visible(_ yaw: Float) -> Int {
-                    let eye = center + SIMD3(sin(yaw) * cos(pitch), sin(pitch), cos(yaw) * cos(pitch)) * fit
-                    var count = 0
-                    for i in samples {
-                        let toV = pts[i] - eye, d = simd_length(toV)
-                        guard simd_dot(nrm[i], -toV / d) > 0.1 else { continue }
-                        if let hit = Self.firstHit(eye, toV / d, positions: pts, indices: idx), hit < d - 0.003 { continue }
-                        count += 1
-                    }
-                    return count
-                }
-                return (visible(sides.0), visible(sides.1))
-            }.value
-            if Float(counts.1) > Float(counts.0) * 1.15 { startYaw = sides.1 }
+        // Open on the view that shows most of the structure: candidates around
+        // it, level and from above, scored by the visible surface facing the
+        // camera. Side structures start turned a little towards their own
+        // side; the anatomical front view wins when views are about as good.
+        let sideYaw: Float = center.x > 0.1 ? 0.6 : (center.x < -0.1 ? -0.6 : 0)
+        var candidates: [(yaw: Float, pitch: Float, bias: Float)] = [(sideYaw, 0.08, 1.15), (.pi - sideYaw, 0.08, 1)]
+        for k in 0..<8 {
+            candidates.append((Float(k) * .pi / 4, 0.08, 1))
+            candidates.append((Float(k) * .pi / 4, 0.7, 0.95))
         }
+        candidates.append((sideYaw, 1.3, 0.92))
+        let samples = structures.flatMap { s in stride(from: s.span.lowerBound, to: s.span.upperBound, by: max(s.span.count / max(140 / max(structures.count, 1), 1), 1)) }
+        let pts = allPositions, nrm = allNormals, idx = allIndices, boxes = partTriangles
+        let view = await Task.detached(priority: .userInitiated) { () -> (yaw: Float, pitch: Float) in
+            var best: (score: Float, yaw: Float, pitch: Float) = (-1, sideYaw, 0.08)
+            for c in candidates {
+                let eye = center + SIMD3(sin(c.yaw) * cos(c.pitch), sin(c.pitch), cos(c.yaw) * cos(c.pitch)) * fit
+                var score: Float = 0
+                for i in samples {
+                    let toV = pts[i] - eye, d = simd_length(toV), dir = toV / d
+                    let facing = simd_dot(nrm[i], -dir)
+                    guard facing > 0.05 else { continue }
+                    if Self.blocked(eye, dir, before: d - 0.003, parts: boxes, positions: pts, indices: idx) { continue }
+                    score += facing
+                }
+                score *= c.bias
+                if score > best.score { best = (score, c.yaw, c.pitch) }
+            }
+            return (best.yaw, best.pitch)
+        }.value
+        let startYaw = view.yaw
+        pitch = view.pitch
 
         // Labels for the heads of a muscle and for where it attaches, pinned
         // on the side that faces the opening view.
@@ -258,6 +271,7 @@ final class SpecimenScene: ViewportScene {
         featureCount = collected.count
         hasAttachments = !attachments.isEmpty
         home = (center, fit, startYaw)
+        homePitch = view.pitch
         target = center
         distance = fit
         yaw = startYaw
@@ -298,7 +312,7 @@ final class SpecimenScene: ViewportScene {
         let radius = max(simd_length(bounds.1 - bounds.0) / 2, 0.01)
         let halfV = fieldOfView * .pi / 360
         let halfH = atan(tan(halfV) * aspect)
-        return max(radius / sin(halfV) * 1.2, radius / sin(halfH) * 0.84)
+        return max(radius / sin(halfV) * 1.2, radius / sin(halfH) * 1.0)
     }
 
     func orbit(by delta: CGSize) {
@@ -380,7 +394,7 @@ final class SpecimenScene: ViewportScene {
         guard size.width > 0, bottom - top > 120, !features.isEmpty else { return [] }
         let safe = CGRect(x: 8, y: top, width: size.width - 16, height: bottom - top)
         let eye = camera.position(relativeTo: nil)
-        let positions = self.positions, indices = self.indices
+        let positions = self.positions, indices = self.indices, boxes = partTriangles
         let candidates: [(Int, FeatureLibrary.Feature, CGPoint)] = features.enumerated().compactMap { i, f in
             guard f.kind != .feature || !ownerNames.contains(f.name.lowercased()),
                   let p = project(f.anchor, in: size), safe.insetBy(dx: 12, dy: 0).contains(p) else { return nil }
@@ -390,9 +404,9 @@ final class SpecimenScene: ViewportScene {
             candidates.map { _, f, _ in
                 let toAnchor = f.anchor - eye
                 let d = simd_length(toAnchor)
-                guard let hit = Self.firstHit(eye, toAnchor / d, positions: positions, indices: indices) else { return true }
                 // Attachments often sit just under the edge of their tendon.
-                return hit > d - (f.kind == .origin || f.kind == .insertion ? 0.012 : 0.004)
+                let slack: Float = f.kind == .origin || f.kind == .insertion ? 0.012 : 0.004
+                return !Self.blocked(eye, toAnchor / d, before: d - slack, parts: boxes, positions: positions, indices: indices)
             }
         }.value
         var visible = candidates.enumerated().filter { open[$0.offset] }.map(\.element)
@@ -520,10 +534,27 @@ final class SpecimenScene: ViewportScene {
         return r
     }
 
-    nonisolated private static func firstHit(_ o: SIMD3<Float>, _ d: SIMD3<Float>, positions: [SIMD3<Float>], indices: [UInt32]) -> Float? {
+    /// Whether anything is hit along the ray before `limit`, skipping parts
+    /// whose bounds the ray misses.
+    nonisolated private static func blocked(_ o: SIMD3<Float>, _ d: SIMD3<Float>, before limit: Float,
+                                            parts: [(range: Range<Int>, lo: SIMD3<Float>, hi: SIMD3<Float>)],
+                                            positions: [SIMD3<Float>], indices: [UInt32]) -> Bool {
+        let inv = SIMD3<Float>(1 / d.x, 1 / d.y, 1 / d.z)
+        for part in parts {
+            let t0 = (part.lo - o) * inv, t1 = (part.hi - o) * inv
+            let near = simd_reduce_max(simd_min(t0, t1)), far = simd_reduce_min(simd_max(t0, t1))
+            guard far >= max(near, 0), near < limit else { continue }
+            if let hit = firstHit(o, d, positions: positions, indices: indices, range: part.range), hit < limit { return true }
+        }
+        return false
+    }
+
+    nonisolated private static func firstHit(_ o: SIMD3<Float>, _ d: SIMD3<Float>, positions: [SIMD3<Float>], indices: [UInt32],
+                                             range: Range<Int>? = nil) -> Float? {
         var best = Float.infinity
-        var i = 0
-        while i + 2 < indices.count {
+        var i = range?.lowerBound ?? 0
+        let end = range?.upperBound ?? indices.count
+        while i + 2 < end {
             let a = positions[Int(indices[i])], b = positions[Int(indices[i + 1])], c = positions[Int(indices[i + 2])]
             i += 3
             let e1 = b - a, e2 = c - a
