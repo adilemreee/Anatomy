@@ -125,25 +125,36 @@ private struct SystemCard: View {
     let count: Int
 
     var body: some View {
+        // A render of the system's own 3D model (Assets: card-<id>).
+        let image = UIImage(named: "card-\(system.id)")
         VStack(alignment: .leading, spacing: 10) {
-            SystemBadge(icon: system.icon, color: system.tint, size: 44)
+            SystemBadge(icon: system.icon, color: system.tint, size: 40)
             Spacer(minLength: 0)
             Text(system.tr)
                 .font(.headline)
-                .foregroundStyle(.primary)
+                .foregroundStyle(image == nil ? Color.primary : .white)
                 .lineLimit(2)
                 .multilineTextAlignment(.leading)
             Text("\(count) yapı")
                 .font(.caption)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(image == nil ? Color.secondary : .white.opacity(0.75))
         }
-        .frame(maxWidth: .infinity, minHeight: 112, alignment: .leading)
+        .frame(maxWidth: .infinity, minHeight: 150, alignment: .leading)
         .padding(14)
-        .background(
-            LinearGradient(colors: [system.tint.opacity(0.18), system.tint.opacity(0.05)], startPoint: .topLeading, endPoint: .bottomTrailing),
-            in: .rect(cornerRadius: 20)
-        )
-        .background(Color(.secondarySystemGroupedBackground), in: .rect(cornerRadius: 20))
+        .background {
+            if let image {
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFill()
+                    .overlay {
+                        LinearGradient(colors: [.black.opacity(0.05), .black.opacity(0.35), .black.opacity(0.8)], startPoint: .top, endPoint: .bottom)
+                    }
+            } else {
+                LinearGradient(colors: [system.tint.opacity(0.18), system.tint.opacity(0.05)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                    .background(Color(.secondarySystemGroupedBackground))
+            }
+        }
+        .clipShape(.rect(cornerRadius: 20))
     }
 }
 
