@@ -17,7 +17,7 @@ Etkileşimli, üç boyutlu ve Türkçe bir insan anatomisi atlası (iOS / iPadOS
   - Kemik ve organlarda Z-Anatomy'nin 740 oluşum etiketi Latince ve İngilizce adlarla gösterilir (ör. *Caput ossis femoris*). Etiketler çakışmayacak şekilde yerleşir; dokununca açıklama kartı açılır.
   - Kaslar bağlandıkları kemiklerle birlikte açılır. Başlangıç yerleri kırmızı, tutunma yerleri mavi işaretlenir; kasın başları da etiketlenir.
   - Açılış görünümü, yapının en çok görünen yüzünü gösteren açıdan seçilir (ör. atlas omuru üstten, kalça kemiği yandan).
-  - 187 kemik ve 7 organ, BodyParts3D'nin yüksek ayrıntılı (yaklaşık 4 kat) modelleriyle gösterilir; yüzeyler ayrıca PN üçgenleriyle pürüzsüzleştirilir.
+  - 187 kemik (atlasta da) ve 7 organ, BodyParts3D'nin yüksek ayrıntılı (yaklaşık 4 kat) modelleriyle gösterilir; incelenen yapının yüzeyi ayrıca PN üçgenleriyle pürüzsüzleştirilir.
 - Aranan ya da sorulan bir yapı atlasta en iyi göründüğü yönden gösterilir; üstünü örten yapılar saydamlaşır (ör. diz arkası kası, supraspinatus).
 - **İçerik**: 13 sistemde 358 Türkçe madde. Her madde Türkçe, Latince (TA) ve İngilizce adlarla birlikte gelir. Ayrıca şunları içerir:
   - Temel bilgiler: origo, insersiyo, innervasyon, kanlanma, fonksiyon, dallar, eklemler…
@@ -72,9 +72,12 @@ Gerekenler: [BodyParts3D 3.0](https://dbarchive.biosciencedbc.jp/data/bodyparts3
 ```bash
 Blender -b --python tools/build_hd.py -- <obj-klasörü> parts_list_e.txt <çıktı> skeletal visceral
 ./bake_ao <çıktı>/hd-skeletal.bin <çıktı>/hd-visceral.bin
-python3 tools/pack_hd.py <çıktı>/hd-skeletal.bin Anatomy/Resources/Models
+python3 tools/merge_hd.py Anatomy/Resources/Models/mesh-skeletal.{bin,json} <çıktı>/hd-skeletal.{bin,json} <birleşik>
+./bake_ao <birleşik>/mesh-skeletal.bin && cp <birleşik>/mesh-skeletal.* Anatomy/Resources/Models/
 python3 tools/pack_hd.py <çıktı>/hd-visceral.bin Anatomy/Resources/Models
 ```
+
+İskeletin ayrıntılı kemikleri `merge_hd` ile doğrudan atlas paketine konur; atlasta da kullanılırlar (iskelet 702 bin yerine 1,95 milyon üçgen). Organlar ayrı tutulur ve yalnızca İnceleme modunda açılır.
 
 `build_hd` parçaları adlarından eşleştirir. Önce tüm vücut için tek bir benzerlik dönüşümü, sonra her parça için rijit ICP uygular. Yalnızca iki yönde de yüzeyleri birkaç milimetre içinde örtüşen ve daha ayrıntılı olan modelleri tutar; Z-Anatomy'nin yeniden modellediği organlar (karaciğer, mide gibi) bu yüzden elenir. Malzeme bölgeleri (eklem kıkırdağı gibi) en yakın Z-Anatomy üçgeninden aktarılır. `pack_hd` her parçayı ayrı sıkıştırır ("ANH1"), böylece uygulama yalnızca açılan yapıyı çözer.
 
