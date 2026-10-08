@@ -107,7 +107,12 @@ nonisolated struct MeshPack: Sendable {
         }
         let compressed = try Data(contentsOf: url)
         let data = try (compressed as NSData).decompressed(using: .zlib) as Data
-        return try data.withUnsafeBytes { raw in
+        return try decode(data, manifest: manifest)
+    }
+
+    /// Parses an inflated "ANT1"/"ANT2" pack.
+    static func decode(_ data: Data, manifest: PackManifest) throws -> MeshPack {
+        try data.withUnsafeBytes { raw in
             try parse(raw, manifest: manifest)
         }
     }
@@ -217,5 +222,69 @@ nonisolated struct MeshPack: Sendable {
             occlusion: occlusion,
             indices: indices
         )
+    }
+}
+
+/// High-detail replacements for single parts (tools/build_hd.py), used by the
+/// specimen viewer. Each part is compressed on its own ("ANH1", see
+/// tools/pack_hd.py) so opening a femur inflates only the femur.
+nonisolated final class DetailLibrary: @unchecked Sendable {
+    static let shared = DetailLibrary()
+
+    private struct System {
+        let file: Data
+        let materials: [String]
+        /// LOD part index -> (high-detail part info, offset, length)
+        let parts: [Int: (PartInfo, Int, Int)]
+    }
+
+    private let lock = NSLock()
+    private var systems: [String: System?] = [:]
+
+    /// The high-detail mesh standing in for part `index` of `system`, if any.
+    func pack(system: String, index: Int) -> MeshPack? {
+        guard let sys = load(system), let (info, offset, length) = sys.parts[index] else { return nil }
+        let slice = sys.file.subdata(in: offset..<offset + length)
+        guard let data = try? (slice as NSData).decompressed(using: .zlib) as Data else { return nil }
+        return try? MeshPack.decode(data, manifest: PackManifest(system: system, materials: sys.materials, parts: [info]))
+    }
+
+    func hasDetail(system: String, index: Int) -> Bool {
+        load(system)?.parts[index] != nil
+    }
+
+    private func load(_ system: String) -> System? {
+        lock.lock()
+        defer { lock.unlock() }
+        if let cached = systems[system] { return cached }
+        var result: System?
+        if let bin = Bundle.main.url(forResource: "hd-\(system)", withExtension: "bin"),
+           let json = Bundle.main.url(forResource: "hd-\(system)", withExtension: "json"),
+           let file = try? Data(contentsOf: bin, options: .alwaysMapped),
+           let manifestData = try? Data(contentsOf: json),
+           let manifest = try? JSONDecoder().decode(PackManifest.self, from: manifestData),
+           let links = try? JSONDecoder().decode(Links.self, from: manifestData),
+           file.count > 8, file.prefix(4) == Data("ANH1".utf8) {
+            let count = Int(file.withUnsafeBytes { $0.loadUnaligned(fromByteOffset: 4, as: UInt32.self) })
+            var parts: [Int: (PartInfo, Int, Int)] = [:]
+            if count == manifest.parts.count, count == links.parts.count, file.count >= 8 + count * 8 {
+                file.withUnsafeBytes { raw in
+                    for k in 0..<count {
+                        let offset = Int(raw.loadUnaligned(fromByteOffset: 8 + k * 8, as: UInt32.self))
+                        let length = Int(raw.loadUnaligned(fromByteOffset: 12 + k * 8, as: UInt32.self))
+                        guard offset + length <= file.count else { continue }
+                        parts[links.parts[k].lod] = (manifest.parts[k], offset, length)
+                    }
+                }
+            }
+            result = System(file: file, materials: manifest.materials ?? [], parts: parts)
+        }
+        systems[system] = .some(result)
+        return result
+    }
+
+    private struct Links: Decodable {
+        struct Link: Decodable { let lod: Int }
+        let parts: [Link]
     }
 }

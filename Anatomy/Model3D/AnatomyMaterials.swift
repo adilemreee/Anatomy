@@ -21,6 +21,7 @@ enum AnatomyMaterials {
 
     /// Materials for one entity. `occlusion` lowers the baked crease shading,
     /// which is useful when deep structures are shown on their own.
+    /// RealityKit only allows this on the main thread.
     static func make(occlusion: Float = 1, rim: Float = 0.35) -> [any RealityKit.Material] {
         guard let library else { return fallback() }
         do {
@@ -139,5 +140,22 @@ enum AnatomyMaterials {
         entity.position = [0, -0.004, 0.0]
         entity.name = "contact-shadow"
         return entity
+    }
+}
+
+extension AnatomyMaterials {
+    private static var cache: [SIMD2<Float>: [any RealityKit.Material]] = [:]
+
+    /// Shared material sets. Compiling the surface shader blocks the main
+    /// thread for over a second the first time, so callers await this after
+    /// the first frame instead of building materials while views appear.
+    static func shared(occlusion: Float = 1, rim: Float = 0.35) async -> [any RealityKit.Material] {
+        let key = SIMD2(occlusion, rim)
+        if let cached = cache[key] { return cached }
+        try? await Task.sleep(for: .milliseconds(30))
+        if let cached = cache[key] { return cached }
+        let materials = make(occlusion: occlusion, rim: rim)
+        cache[key] = materials
+        return materials
     }
 }

@@ -133,7 +133,6 @@ final class AnatomyScene {
         }
         nameIndex = index
         coverings = manifests.mapValues { $0.map(\.isCovering) }
-        materials = AnatomyMaterials.make()
 
         camera.components.set(PerspectiveCameraComponent(near: 0.01, far: 50, fieldOfViewInDegrees: fieldOfView, fieldOfViewOrientation: .vertical))
         for light in AnatomyMaterials.cameraLights() {
@@ -173,9 +172,21 @@ final class AnatomyScene {
 
     /// Loads every enabled layer that is not on screen yet.
     func loadEnabledLayers() async {
-        for layer in ModelLayer.all where enabledLayers.contains(layer.id) && systems[layer.id] == nil {
+        let pending = ModelLayer.all.filter { enabledLayers.contains($0.id) && systems[$0.id] == nil }
+        // Decode all packs in the background while the shader compiles on the
+        // main thread; the layers still appear in order.
+        for layer in pending {
+            Task { _ = try? await library.pack(layer.id) }
+        }
+        if materials.isEmpty {
+            materials = await AnatomyMaterials.shared()
+        }
+        for layer in pending {
             await load(layer.id)
         }
+        // Warm up the other sets so isolating and inspecting open smoothly.
+        _ = await AnatomyMaterials.shared(occlusion: 0.45)
+        _ = await AnatomyMaterials.shared(occlusion: 0.55, rim: 0.7)
     }
 
     func ensureLoaded(_ layer: String) async {
@@ -192,6 +203,9 @@ final class AnatomyScene {
             let vertices = await Task.detached(priority: .userInitiated) {
                 VertexBuilder.build(pack: pack, mode: mode)
             }.value
+            if materials.isEmpty {
+                materials = await AnatomyMaterials.shared(occlusion: materialsIsolated ? 0.45 : 1)
+            }
             guard systems[layerID] == nil else { return }
             let loaded = try build(pack: pack, vertices: vertices)
             systems[layerID] = loaded
@@ -374,9 +388,13 @@ final class AnatomyScene {
         let isolated = isolation != nil
         if isolated != materialsIsolated {
             materialsIsolated = isolated
-            materials = AnatomyMaterials.make(occlusion: isolated ? 0.45 : 1)
-            for system in systems.values {
-                system.entity.model?.materials = materials
+            Task {
+                let set = await AnatomyMaterials.shared(occlusion: isolated ? 0.45 : 1)
+                guard materialsIsolated == isolated else { return }
+                materials = set
+                for system in systems.values {
+                    system.entity.model?.materials = set
+                }
             }
         }
         for layer in systems.keys { refresh(layer) }

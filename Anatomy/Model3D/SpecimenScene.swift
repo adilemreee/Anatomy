@@ -135,6 +135,7 @@ final class SpecimenScene: ViewportScene {
         let focus = Set(refs)
         let all = refs + context.filter { !focus.contains($0) }
         var vertexData = Data()
+        var drawIndices: [UInt32] = []
         var allIndices: [UInt32] = []
         var allPositions: [SIMD3<Float>] = []
         var allNormals: [SIMD3<Float>] = []
@@ -146,15 +147,34 @@ final class SpecimenScene: ViewportScene {
         for system in Set(all.map(\.system)).sorted() {
             guard let pack = try? await library.pack(system) else { continue }
             let partIndices = all.filter { $0.system == system }.map(\.index).sorted()
-            let output = await Task.detached(priority: .userInitiated) {
-                VertexBuilder.build(pack: pack, parts: partIndices, mode: mode)
+            // Drawn from the high-detail mesh where there is one (BodyParts3D),
+            // otherwise from the atlas pack.
+            let drawn = await Task.detached(priority: .userInitiated) { () -> (Data, [UInt32]) in
+                var data = Data(), idx: [UInt32] = [], plain: [Int] = []
+                func add(_ output: VertexBuilder.Output) {
+                    let base = UInt32(data.count / VertexBuilder.stride)
+                    data.append(output.vertices)
+                    idx.append(contentsOf: output.indices.map { $0 + base })
+                }
+                for p in partIndices {
+                    if let detail = DetailLibrary.shared.pack(system: system, index: p) {
+                        add(VertexBuilder.build(pack: detail, parts: [0], mode: mode))
+                    } else {
+                        plain.append(p)
+                    }
+                }
+                if !plain.isEmpty { add(VertexBuilder.build(pack: pack, parts: plain, mode: mode)) }
+                return (data, idx)
             }.value
-            let base = UInt32(allPositions.count)
-            vertexData.append(output.vertices)
-            allIndices.append(contentsOf: output.indices.map { $0 + base })
+            let drawBase = UInt32(vertexData.count / VertexBuilder.stride)
+            vertexData.append(drawn.0)
+            drawIndices.append(contentsOf: drawn.1.map { $0 + drawBase })
+            // Picking, label visibility and pins use the lighter atlas mesh.
             for p in partIndices {
                 let r = pack.ranges[p]
                 let span = allPositions.count..<allPositions.count + r.vertexCount
+                let shift = Int64(span.lowerBound) - Int64(r.vertexStart)
+                allIndices.append(contentsOf: pack.indices[r.indexStart..<r.indexStart + r.indexCount].map { UInt32(Int64($0) + shift) })
                 allPositions.append(contentsOf: pack.positions[r.vertexStart..<r.vertexStart + r.vertexCount])
                 allNormals.append(contentsOf: pack.normals[r.vertexStart..<r.vertexStart + r.vertexCount])
                 guard focus.contains(PartRef(system: system, index: p)) else { continue }
@@ -172,9 +192,9 @@ final class SpecimenScene: ViewportScene {
                 }
             }
         }
-        guard !allIndices.isEmpty else { return }
-        // Drawn smoothly subdivided; picking and label tests use the source mesh.
-        let source = (vertexData, allIndices)
+        guard !drawIndices.isEmpty, !allIndices.isEmpty else { return }
+        // Drawn smoothly subdivided.
+        let source = (vertexData, drawIndices)
         let (smoothVertices, smoothIndices) = await Task.detached(priority: .userInitiated) {
             Tessellator.smooth(vertices: source.0, indices: source.1, maxTriangles: 800_000)
         }.value
@@ -183,7 +203,7 @@ final class SpecimenScene: ViewportScene {
         mesh.parts.replaceAll([LowLevelMesh.Part(indexCount: smoothIndices.count, topology: .triangle, materialIndex: 0,
                                                  bounds: BoundingBox(min: lo, max: hi))])
         guard let resource = try? await MeshResource(from: mesh) else { return }
-        let entity = ModelEntity(mesh: resource, materials: AnatomyMaterials.make(occlusion: 0.55, rim: 0.7))
+        let entity = ModelEntity(mesh: resource, materials: await AnatomyMaterials.shared(occlusion: 0.55, rim: 0.7))
         root.addChild(entity)
         positions = allPositions
         indices = allIndices
