@@ -1,0 +1,1510 @@
+{
+ "system": "cardiovascular",
+ "questions": [
+  {
+   "id": "cv-ff8c208f",
+   "group": "Kalp",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kalbin sternokostal (ön) yüzünün büyük kısmını oluşturan boşluk hangisidir?",
+   "options": [
+    "Sol aurikula",
+    "Sol ventrikül",
+    "Sağ atriyum",
+    "Sol atriyum",
+    "Sağ ventrikül"
+   ],
+   "answer": 4,
+   "explanation": "Kalp sola dönmüş olduğundan ön yüzünü çoğunlukla sağ ventrikül yapar; sağ kenarı sağ atriyum, sol kenarı sol ventrikül (ve sol aurikula), apeksi sol ventrikül, tabanı (arka yüz) sol atriyum oluşturur. Sternuma yakın olan sağ ventrikül delici göğüs yaralanmalarında en sık yaralanan boşluktur.",
+   "entries": [
+    "ventriculus-dexter",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-e4391593",
+   "group": "Kalp",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Mitral darlığı olan hastada yutma güçlüğü ve ses kısıklığı gelişiyor. Bu belirtiler en çok hangi boşluğun genişlemesiyle açıklanır?",
+   "options": [
+    "Sağ ventrikül",
+    "Sinus coronarius",
+    "Sol ventrikül",
+    "Sol atriyum",
+    "Sağ atriyum"
+   ],
+   "answer": 3,
+   "explanation": "Sol atriyum kalbin tabanını yapar ve doğrudan özofagusun önündedir. Genişlediğinde özofagusa bası yapar (disfaji) ve sol n. laryngeus recurrens'i gerebilir (Ortner sendromu). Aynı komşuluk nedeniyle transözofageal ekokardiyografi sol atriyumu en iyi gösterir.",
+   "entries": [
+    "atrium-sinistrum",
+    "oesophagus",
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-241ef31a",
+   "group": "Kalp",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sağ atriyumdaki fossa ovalis hangi fetal yapının kalıntısıdır?",
+   "options": [
+    "Sinus venosus",
+    "V. umbilicalis",
+    "Ductus arteriosus",
+    "Ductus venosus",
+    "Foramen ovale"
+   ],
+   "answer": 4,
+   "explanation": "Fetal dönemde kan foramen ovale aracılığıyla sağ atriyumdan sol atriyuma geçer. Doğumda sol atriyum basıncı artınca septum primum septum secundum'a yapışarak deliği kapatır ve fossa ovalis kalır. Kişilerin yaklaşık dörtte birinde prob geçebilen açıklık (PFO) kalır.",
+   "entries": [
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-03099d00",
+   "group": "Kalp",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Atriyoventriküler (AV) düğümün yerini gösteren Koch üçgenini hangi yapılar sınırlar?",
+   "options": [
+    "Trabecula septomarginalis, ön papiller kas ve pulmoner kapak",
+    "Fossa ovalis, limbus ve v. cava inferior ağzı",
+    "Mitral kapağın ön yaprağı, aort kapağı ve septum membranaceum",
+    "Crista terminalis, v. cava superior ağzı ve aurikula",
+    "Todaro tendonu, triküspit kapağın septal yaprağı ve sinus coronarius'un ağzı"
+   ],
+   "answer": 4,
+   "explanation": "Koch üçgeni sağ atriyumun septal duvarındadır. AV düğüm bu üçgenin tepesinde yer alır; kardiyak cerrahi ve ablasyonda iletim sistemini korumak için önemli bir işarettir.",
+   "entries": [
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-29f558d6",
+   "group": "Kalp",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sağ ventrikülde interventriküler septumdan ön papiller kasın tabanına uzanan ve sağ dal demetini taşıyan yapı hangisidir?",
+   "options": [
+    "Crista supraventricularis",
+    "Crista terminalis",
+    "Chordae tendineae",
+    "Musculi pectinati",
+    "Trabecula septomarginalis (moderatör bant)"
+   ],
+   "answer": 4,
+   "explanation": "Moderatör bant sağ dal demetinin bir kısmını ön papiller kasa kısa yoldan ulaştırır; böylece papiller kas, triküspit kapak kapanmadan zamanında kasılır. Ayrıca ventrikülün aşırı genişlemesini sınırlar.",
+   "entries": [
+    "ventriculus-dexter"
+   ]
+  },
+  {
+   "id": "cv-db0c2ed6",
+   "group": "Kalp",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kalp kapaklarının en iyi dinlendiği odaklarla ilgili hangisi doğrudur?",
+   "options": [
+    "Mitral kapak – sol 5. interkostal aralık, midklavikular hat (apeks)",
+    "Aort kapağı – sol 2. interkostal aralık, sternum kenarı",
+    "Mitral kapak – sağ 4. interkostal aralık, sternum kenarı",
+    "Triküspit kapak – sol 5. interkostal aralık, midklavikular hat",
+    "Pulmoner kapak – sağ 2. interkostal aralık, sternum kenarı"
+   ],
+   "answer": 0,
+   "explanation": "Odaklar kapakların anatomik yerinden çok kanın aktığı yöne göredir: aort sağ 2. aralık, pulmoner sol 2. aralık (sternum kenarı), triküspit sternumun sol alt kenarı (4–5. aralık), mitral ise apeks (sol 5. aralık, midklavikular hat).",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-0b0d9052",
+   "group": "Kalp",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Göğüs ağrısıyla gelen hastanın EKG'sinde inferior derivasyonlarda (II, III, aVF) ST yükselmesi ve ikinci derece AV blok var. Tıkanan arter büyük olasılıkla hangisidir?",
+   "options": [
+    "R. interventricularis anterior",
+    "A. coronaria dextra",
+    "R. circumflexus",
+    "R. marginalis sinister",
+    "A. coronaria sinistra'nın ana gövdesi"
+   ],
+   "answer": 1,
+   "explanation": "Kalbin diyafragmatik (inferior) yüzü çoğu kişide sağ koroner arterin r. interventricularis posterior dalıyla beslenir. AV düğüm arteri de olguların yaklaşık %80–90'ında RCA'dan çıktığı için inferior MI'ya sıklıkla bradikardi ve AV blok eşlik eder.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-b34c730f",
+   "group": "Kalp",
+   "level": "tus",
+   "clinical": false,
+   "stem": "İnterventriküler septumun ön üçte ikisini besleyen arter hangisidir?",
+   "options": [
+    "A. nodi sinuatrialis",
+    "R. marginalis dexter",
+    "R. interventricularis anterior (LAD)",
+    "R. circumflexus",
+    "R. interventricularis posterior"
+   ],
+   "answer": 2,
+   "explanation": "LAD'nin septal dalları septumun ön 2/3'ünü (sol dal demetinin büyük kısmı dahil), PDA ise arka 1/3'ünü besler. LAD en sık tıkanan koroner arterdir ve geniş anterior enfarktlara yol açar.",
+   "entries": [
+    "aa-coronariae",
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-f11807d6",
+   "group": "Kalp",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Koroner dolaşımda 'sağ dominansı' neye göre tanımlanır?",
+   "options": [
+    "Konus arterinin sağ aort sinüsünden çıkmasına",
+    "R. interventricularis posterior'un sağ koroner arterden çıkmasına",
+    "Sağ koroner arterin daha kalın olmasına",
+    "Sinoatriyal düğüm arterinin sağ koronerden çıkmasına",
+    "Sağ ventrikülün daha büyük olmasına"
+   ],
+   "answer": 1,
+   "explanation": "Dominans, kalbin arka yüzünü ve septumun arka kısmını besleyen PDA'nın kaynağına göre belirlenir. İnsanların yaklaşık %70'i sağ dominanttır; sol dominansta PDA sirkumfleks arterden çıkar.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-f1cfdd20",
+   "group": "Kalp",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "V. cordis magna hangi arterle birlikte seyreder?",
+   "options": [
+    "R. interventricularis anterior",
+    "R. interventricularis posterior",
+    "A. coronaria dextra",
+    "R. marginalis dexter",
+    "A. nodi atrioventricularis"
+   ],
+   "answer": 0,
+   "explanation": "V. cordis magna ön interventriküler olukta LAD ile yükselir, sol AV oluğa dönerek sinus coronarius'a dökülür. V. cordis media PDA ile, v. cordis parva sağ marjinal arter ile seyreder. Sinus coronarius sağ atriyuma açılır.",
+   "entries": [
+    "venae-cordis",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-0b3efcf0",
+   "group": "Kalp",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kalbin doğal uyarı merkezi (sinoatriyal düğüm) nerede bulunur?",
+   "options": [
+    "Sağ atriyumda, v. cava superior'un açıldığı yerin yakınında, crista terminalis'in üst ucunda",
+    "Sağ ventrikülün çıkış yolunda",
+    "Koch üçgeninin tepesinde",
+    "Sol atriyumda, pulmoner venlerin ağzında",
+    "İnterventriküler septumun membranöz bölümünde"
+   ],
+   "answer": 0,
+   "explanation": "SA düğüm epikardın hemen altında, VCS–sağ atriyum bileşkesinde yer alır ve olguların yaklaşık %60'ında sağ koroner arterden beslenir. Uyarı atriyumlardan AV düğüme, His demeti ve dallar aracılığıyla ventriküllere iletilir.",
+   "entries": [
+    "atrium-dextrum",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-0cef8d2c",
+   "group": "Kalp",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kalp cerrahisinde aort ve truncus pulmonalis'in arkasından parmak geçirilerek kelepçe konabilen boşluk hangisidir?",
+   "options": [
+    "Fossa ovalis",
+    "Sinus transversus pericardii",
+    "Recessus costodiaphragmaticus",
+    "Sinus obliquus pericardii",
+    "Sinus coronarius"
+   ],
+   "answer": 1,
+   "explanation": "Sinus transversus önde aort ve truncus pulmonalis, arkada VCS ve pulmoner venler arasındadır. Bypass ameliyatlarında büyük arterleri birlikte kontrol etmek için kullanılır. Sinus obliquus sol atriyumun arkasındaki kör ceptir.",
+   "entries": [
+    "pericardium",
+    "aorta",
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-f911d80e",
+   "group": "Kalp",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Göğsünden bıçaklanan hastada hipotansiyon, boyun venlerinde dolgunluk ve derinden gelen kalp sesleri var (Beck üçlemesi). Perikardiyosentez için en sık kullanılan giriş yeri hangisidir?",
+   "options": [
+    "Sol 2. interkostal aralık, midklavikular hat",
+    "Processus xiphoideus ile sol kaburga kavsi arasındaki açı (subksifoid yol)",
+    "Sağ 5. interkostal aralık, ön aksiller hat",
+    "Sağ 2. interkostal aralık, sternum kenarı",
+    "Sol 8. interkostal aralık, arka aksiller hat"
+   ],
+   "answer": 1,
+   "explanation": "Kardiyak tamponadda perikard boşluğundaki kan kalbin dolmasını engeller. İğne subksifoid bölgeden sol omuza doğru yönlendirilir; bu yol plevra ve koroner arterlerden uzaktır.",
+   "entries": [
+    "pericardium"
+   ]
+  },
+  {
+   "id": "cv-43207aff",
+   "group": "Kalp",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Perikardit ağrısının omuz ucuna yansımasının nedeni nedir?",
+   "options": [
+    "Perikardın interkostal sinirlerle innerve edilmesi",
+    "Fibröz ve parietal seröz perikardın duyusunun n. phrenicus (C3–C5) ile taşınması",
+    "Kalbin sempatik afferentlerinin T1–T4'e girmesi",
+    "Perikardın plexus brachialis'ten lif alması",
+    "Viseral perikardın n. vagus ile innerve edilmesi"
+   ],
+   "answer": 1,
+   "explanation": "Parietal perikard somatik duyu alır ve bu lifler n. phrenicus ile taşınır; ağrı C4 dermatomu olan omuz ucuna yansır. Miyokard iskemisinin ağrısı ise sempatik afferentlerle T1–T4'e taşınır ve kolun iç yüzüne yansır.",
+   "entries": [
+    "pericardium",
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "cv-b5bdf8d5",
+   "group": "Kalp",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lig. arteriosum hangi iki yapıyı birbirine bağlar?",
+   "options": [
+    "Arcus aortae ile a. subclavia sinistra",
+    "Truncus pulmonalis ile v. cava superior",
+    "Aort kökü ile sağ atriyum",
+    "A. pulmonalis dextra ile v. azygos",
+    "A. pulmonalis sinistra ile arcus aortae"
+   ],
+   "answer": 4,
+   "explanation": "Lig. arteriosum fetal ductus arteriosus'un kalıntısıdır; sol pulmoner arterin başlangıcı ile aort kemerinin alt yüzünü bağlar. Sol n. laryngeus recurrens bu bağın lateralinden aort kemerinin altına dolanır.",
+   "entries": [
+    "truncus-pulmonalis",
+    "aorta",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-5b516d51",
+   "group": "Kalp",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sol ventrikül ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "options": [
+    "Ön ve arka olmak üzere iki papiller kası vardır.",
+    "Kalbin apeksini oluşturur.",
+    "Mitral kapağın iki yaprağı vardır.",
+    "Duvarı sağ ventrikülden yaklaşık üç kat kalındır.",
+    "Çıkış yolunda conus arteriosus (infundibulum) bulunur."
+   ],
+   "answer": 4,
+   "explanation": "Conus arteriosus (infundibulum) sağ ventrikülün düz duvarlı çıkış yoludur. Sol ventrikülün çıkış yolu vestibulum aortae olarak adlandırılır. Sol ventrikül sistemik basınca karşı çalıştığı için duvarı en kalın boşluktur.",
+   "entries": [
+    "ventriculus-sinister",
+    "ventriculus-dexter",
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-258cd59d",
+   "group": "Aorta ve dalları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Arcus aortae'den sağdan sola doğru çıkan dallar hangisinde doğru sıralanmıştır?",
+   "options": [
+    "Truncus brachiocephalicus, a. subclavia sinistra, a. carotis communis sinistra",
+    "A. carotis communis sinistra, truncus brachiocephalicus, a. subclavia sinistra",
+    "Truncus brachiocephalicus, a. carotis communis sinistra, a. subclavia sinistra",
+    "Aa. coronariae, truncus brachiocephalicus, a. subclavia sinistra",
+    "A. subclavia dextra, a. carotis communis dextra, a. carotis communis sinistra"
+   ],
+   "answer": 2,
+   "explanation": "Arcus aortae genellikle üç dal verir. Truncus brachiocephalicus sağ sternoklavikular eklemin arkasında sağ a. subclavia ve sağ a. carotis communis'e ayrılır. Koroner arterler çıkan aortadan çıkar.",
+   "entries": [
+    "aorta",
+    "truncus-brachiocephalicus"
+   ]
+  },
+  {
+   "id": "cv-0bdc88fc",
+   "group": "Aorta ve dalları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "16 yaşında hipertansif hastada kollarda kan basıncı yüksek, bacaklarda nabızlar zayıf ve gecikmeli. Göğüs grafisinde kaburgaların alt kenarlarında çentiklenme görülüyor. Çentiklerin nedeni hangi damarların genişlemesidir?",
+   "options": [
+    "Aa. intercostales posteriores (kollateral dolaşım)",
+    "A. thoracica lateralis",
+    "Aa. bronchiales",
+    "Aa. coronariae",
+    "Vv. intercostales anteriores"
+   ],
+   "answer": 0,
+   "explanation": "Aort koarktasyonunda (genellikle lig. arteriosum düzeyinde) kan; a. subclavia → a. thoracica interna → ön interkostal arterler → arka interkostal arterler yoluyla inen aortaya ulaşır. Genişleyen arka interkostal arterler kaburgaların alt kenarını aşındırır (3–8. kaburgalar).",
+   "entries": [
+    "aorta",
+    "a-subclavia",
+    "costae"
+   ]
+  },
+  {
+   "id": "cv-f7249148",
+   "group": "Aorta ve dalları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Abdominal aorta hangi düzeyde iki a. iliaca communis'e ayrılır?",
+   "options": [
+    "L2",
+    "L4 (yaklaşık göbek düzeyi)",
+    "L1",
+    "T12",
+    "S2"
+   ],
+   "answer": 1,
+   "explanation": "Abdominal aorta hiatus aorticus'tan (T12) sonra omurganın solunda iner ve L4 düzeyinde ikiye ayrılır; bu nokta yaklaşık göbeğin hemen altına ve krista iliaka çizgisine karşılık gelir.",
+   "entries": [
+    "aorta",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-dc7a4413",
+   "group": "Aorta ve dalları",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "70 yaşında sigara içen erkekte karında pulsatil kitle saptanıyor. Abdominal aort anevrizmalarının en sık yerleştiği bölge hangisidir?",
+   "options": [
+    "Renal arterlerin çıkış düzeyinde",
+    "Hiatus aorticus'ta",
+    "Truncus coeliacus'un üstünde",
+    "Renal arterlerin altında (infrarenal), bifurkasyonun üstünde",
+    "A. iliaca externa'da"
+   ],
+   "answer": 3,
+   "explanation": "Abdominal aort anevrizmalarının büyük çoğunluğu infrarenal yerleşimlidir. Bu bölgede vasa vasorum azdır ve elastin içeriği düşüktür. Rüptür riski çap ile birlikte artar.",
+   "entries": [
+    "aorta",
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "cv-7d92b3b7",
+   "group": "Baş ve boyun arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. carotis communis genellikle hangi düzeyde a. carotis interna ve externa'ya ayrılır?",
+   "options": [
+    "Cartilago thyroidea'nın üst kenarı (C4)",
+    "Cartilago cricoidea düzeyi (C6)",
+    "Angulus mandibulae'nin üstü (C2)",
+    "Os hyoideum'un gövdesi (C3)",
+    "Sternoklavikular eklem düzeyi"
+   ],
+   "answer": 0,
+   "explanation": "Karotis bifurkasyonu tiroid kıkırdağın üst kenarı hizasındadır. Bu bölgede ICA'nın başlangıcındaki genişleme (sinus caroticus) baroreseptör, bifurkasyondaki küçük cisim (glomus caroticum) kemoreseptördür; ikisi de n. glossopharyngeus ile innerve edilir.",
+   "entries": [
+    "a-carotis-communis",
+    "a-carotis-interna",
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-64588484",
+   "group": "Baş ve boyun arterleri",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Supraventriküler taşikardisi olan hastada boyunda karotis sinüs masajı yapılıyor. Kalp hızındaki azalmanın afferent ve efferent yolu hangisidir?",
+   "options": [
+    "Afferent: n. vagus – Efferent: n. glossopharyngeus",
+    "Afferent: n. hypoglossus – Efferent: n. vagus",
+    "Afferent: n. glossopharyngeus – Efferent: n. vagus",
+    "Afferent: sempatik zincir – Efferent: n. phrenicus",
+    "Afferent: n. accessorius – Efferent: n. vagus"
+   ],
+   "answer": 2,
+   "explanation": "Sinus caroticus'taki baroreseptörler basınç artışını IX'un karotis sinüs dalıyla beyin sapına bildirir; yanıt olarak vagal çıkış artar ve kalp hızı yavaşlar. Yaşlılarda aşırı duyarlılık senkopa yol açabilir.",
+   "entries": [
+    "a-carotis-interna",
+    "n-glossopharyngeus",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-b380c127",
+   "group": "Baş ve boyun arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Boyunda hiç dal vermeyen arter hangisidir?",
+   "options": [
+    "A. vertebralis",
+    "A. carotis interna",
+    "A. carotis externa",
+    "Truncus thyrocervicalis",
+    "A. subclavia"
+   ],
+   "answer": 1,
+   "explanation": "A. carotis interna boyunda dal vermeden canalis caroticus'a girer; ilk önemli dalı kafa içinde a. ophthalmica'dır. Bu özellik cerrahide ICA'yı ECA'dan ayırt etmeye yarar.",
+   "entries": [
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-d408d339",
+   "group": "Baş ve boyun arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi a. carotis externa'nın dalı değildir?",
+   "options": [
+    "A. maxillaris",
+    "A. facialis",
+    "A. lingualis",
+    "A. thyroidea superior",
+    "A. ophthalmica"
+   ],
+   "answer": 4,
+   "explanation": "ECA'nın dalları: a. thyroidea superior, a. pharyngea ascendens, a. lingualis, a. facialis, a. occipitalis, a. auricularis posterior ve uç dalları a. maxillaris ile a. temporalis superficialis. A. ophthalmica ICA'nın kafa içindeki ilk dalıdır.",
+   "entries": [
+    "a-carotis-externa",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-c6279338",
+   "group": "Baş ve boyun arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. meningea media hangi arterin dalıdır?",
+   "options": [
+    "A. carotis interna",
+    "A. occipitalis",
+    "A. ophthalmica",
+    "A. maxillaris",
+    "A. temporalis superficialis"
+   ],
+   "answer": 3,
+   "explanation": "A. maxillaris fossa infratemporalis'te a. meningea media'yı verir; bu arter foramen spinosum'dan kafa içine girerek duranın büyük kısmını ve kafatası kemiklerini besler.",
+   "entries": [
+    "a-carotis-externa",
+    "meninges"
+   ]
+  },
+  {
+   "id": "cv-7afbacff",
+   "group": "Baş ve boyun arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Yüzde a. facialis'in nabzı en kolay nerede alınır?",
+   "options": [
+    "Angulus mandibulae'nin arkasında",
+    "Foramen infraorbitale'nin üzerinde",
+    "Göz iç köşesinde",
+    "Tragusun önünde",
+    "M. masseter'in ön kenarında, mandibula alt kenarı üzerinde"
+   ],
+   "answer": 4,
+   "explanation": "A. facialis mandibula alt kenarını masseter'in ön kenarında çaprazlar ve burada kemiğe bastırılarak hissedilir. Kıvrımlı bir seyirle ağız köşesinden göz iç köşesine (a. angularis) uzanır.",
+   "entries": [
+    "a-carotis-externa",
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "cv-937ce9d9",
+   "group": "Baş ve boyun arterleri",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "70 yaşında kadında yeni başlayan şakak ağrısı, çiğnerken çenede ağrı ve görme bulanıklığı var; sedimentasyon yüksek. Tanı için biyopsi en sık hangi arterden alınır?",
+   "options": [
+    "A. facialis",
+    "A. carotis interna",
+    "A. maxillaris",
+    "A. temporalis superficialis",
+    "A. occipitalis"
+   ],
+   "answer": 3,
+   "explanation": "Dev hücreli (temporal) arterit orta ve büyük çaplı arterleri, özellikle ECA dallarını tutar. Tragusun önünde kolay ele gelen a. temporalis superficialis biyopsi için uygundur. Tedavi gecikirse a. ophthalmica tutulumu kalıcı körlüğe yol açabilir.",
+   "entries": [
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-43492b44",
+   "group": "Baş ve boyun arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "A. cerebelli inferior posterior (PICA) hangi arterin dalıdır?",
+   "options": [
+    "A. basilaris",
+    "A. vertebralis",
+    "A. carotis interna",
+    "A. cerebri posterior",
+    "A. spinalis anterior"
+   ],
+   "answer": 1,
+   "explanation": "PICA genellikle vertebral arterin kafa içindeki en büyük dalıdır. AICA ve SCA baziler arterden çıkar; baziler arter pons'un üst sınırında iki PCA'ya ayrılır. PICA tıkanması lateral medüller sendroma yol açar.",
+   "entries": [
+    "a-vertebralis",
+    "circulus-arteriosus",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "cv-0adf4674",
+   "group": "Baş ve boyun arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdaki arterlerden hangisi Willis poligonunun (circulus arteriosus cerebri) bir parçası değildir?",
+   "options": [
+    "A. cerebri anterior (A1 bölümü)",
+    "A. communicans posterior",
+    "A. communicans anterior",
+    "A. cerebri posterior (P1 bölümü)",
+    "A. cerebri media"
+   ],
+   "answer": 4,
+   "explanation": "Willis poligonunu ACom, iki ACA'nın A1 bölümleri, iki ICA'nın uçları, iki PCom ve iki PCA'nın P1 bölümleri oluşturur. MCA ICA'nın devamıdır ancak halkaya katılmaz.",
+   "entries": [
+    "circulus-arteriosus",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-11e9072b",
+   "group": "Baş ve boyun arterleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "65 yaşında hastada tek gözde aniden başlayan ağrısız tam görme kaybı var. Fundusta retina soluk, makula 'kiraz kırmızısı' görünümde. Tıkanan arter hangisidir?",
+   "options": [
+    "A. lacrimalis",
+    "A. cerebri posterior",
+    "A. ciliaris posterior longa",
+    "A. supraorbitalis",
+    "A. centralis retinae"
+   ],
+   "answer": 4,
+   "explanation": "A. centralis retinae a. ophthalmica'nın dalıdır ve n. opticus içinden göze girer. Bir uç arter olduğundan tıkanmasında retinanın iç katmanları iskemiye girer; koroidden beslenen fovea kırmızı nokta olarak görünür.",
+   "entries": [
+    "retina",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-6db081fa",
+   "group": "Baş ve boyun arterleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Sol kolunu uzun süre kullandığında baş dönmesi ve görme bulanıklığı yaşayan hastada sol kol tansiyonu sağdan belirgin düşük. Anjiyografide sol a. subclavia'nın başlangıcında darlık var. Belirtilerin mekanizması nedir?",
+   "options": [
+    "A. basilaris'te anevrizma",
+    "Sol a. carotis interna'da ters akım",
+    "A. thoracica interna'nın tıkanması",
+    "Sağ a. vertebralis'in tıkanması",
+    "Sol a. vertebralis'te ters akım (subklavyen çalma sendromu)"
+   ],
+   "answer": 4,
+   "explanation": "Darlık vertebral arterin çıkışından önce olduğunda kol egzersizinde kan beyin sapından sol vertebral arter yoluyla kola doğru 'çalınır'; vertebrobaziler yetmezlik belirtileri ortaya çıkar.",
+   "entries": [
+    "a-subclavia",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "cv-cf804f79",
+   "group": "Baş ve boyun arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Koroner bypass ameliyatlarında greft olarak en sık kullanılan ve uzun dönem açıklığı en iyi olan arter hangisinin dalıdır?",
+   "options": [
+    "A. subclavia (a. thoracica interna)",
+    "Truncus thyrocervicalis",
+    "A. axillaris (a. thoracica lateralis)",
+    "A. carotis communis",
+    "Aorta descendens (a. intercostalis)"
+   ],
+   "answer": 0,
+   "explanation": "A. thoracica interna (mammaria interna) a. subclavia'nın ilk bölümünden çıkar ve sternum kenarına yakın iner. Sol internal torasik arterin LAD'ye bağlanması (LIMA–LAD) en iyi uzun dönem sonuçları verir.",
+   "entries": [
+    "a-subclavia",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-94f2afe5",
+   "group": "Baş ve boyun arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Truncus thyrocervicalis'in dalı olmayan arter hangisidir?",
+   "options": [
+    "A. cervicalis ascendens",
+    "A. suprascapularis",
+    "A. thyroidea inferior",
+    "A. thyroidea superior",
+    "A. transversa colli (a. cervicalis transversa)"
+   ],
+   "answer": 3,
+   "explanation": "Truncus thyrocervicalis a. subclavia'dan çıkar ve a. thyroidea inferior (dalı a. cervicalis ascendens), a. suprascapularis ve a. transversa colli'yi verir. A. thyroidea superior ECA'nın ilk dalıdır.",
+   "entries": [
+    "a-subclavia",
+    "glandula-thyroidea"
+   ]
+  },
+  {
+   "id": "cv-1a1c0e40",
+   "group": "Üst ekstremite arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi a. axillaris'in üçüncü bölümünün dalıdır?",
+   "options": [
+    "A. subscapularis",
+    "A. thoracoacromialis",
+    "A. thoracica lateralis",
+    "A. thoracica interna",
+    "A. thoracica superior"
+   ],
+   "answer": 0,
+   "explanation": "Birinci bölüm (pectoralis minor'un üstü): a. thoracica superior. İkinci bölüm (arkası): a. thoracoacromialis ve a. thoracica lateralis. Üçüncü bölüm (altı): a. subscapularis ile ön ve arka sirkumfleks humeral arterler. A. thoracica interna ise a. subclavia'dan çıkar.",
+   "entries": [
+    "a-axillaris",
+    "m-pectoralis-minor"
+   ]
+  },
+  {
+   "id": "cv-04d706e5",
+   "group": "Üst ekstremite arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "A. axillaris truncus thyrocervicalis ile a. subscapularis arasında bağlanırsa kolun kanlanmasını sürdüren kollateral ağ hangisidir?",
+   "options": [
+    "Skapula çevresi anastomozu (a. suprascapularis, a. dorsalis scapulae, a. circumflexa scapulae)",
+    "Arcus palmaris profundus",
+    "Torakoakromiyal anastomoz",
+    "Aa. intercostales anteriores",
+    "Dirsek çevresi anastomozu"
+   ],
+   "answer": 0,
+   "explanation": "Skapula etrafında a. subclavia dalları (a. suprascapularis, a. dorsalis scapulae) ile a. axillaris'in dalı a. subscapularis (a. circumflexa scapulae) anastomoz yapar. Bu nedenle bağlama, iki dal arasında yapılırsa kol beslenmeye devam eder.",
+   "entries": [
+    "a-axillaris",
+    "a-subclavia",
+    "scapula"
+   ]
+  },
+  {
+   "id": "cv-90c880be",
+   "group": "Üst ekstremite arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "N. radialis ile birlikte sulcus nervi radialis'te seyreden arter hangisidir?",
+   "options": [
+    "A. circumflexa humeri posterior",
+    "A. collateralis ulnaris superior",
+    "A. brachialis",
+    "A. recurrens radialis",
+    "A. profunda brachii"
+   ],
+   "answer": 4,
+   "explanation": "A. profunda brachii kolun en büyük dalıdır ve n. radialis ile humerusun arka yüzündeki olukta seyreder; kolun arka kompartmanını besler ve dirsek çevresi anastomozuna katılır.",
+   "entries": [
+    "a-brachialis",
+    "n-radialis",
+    "humerus"
+   ]
+  },
+  {
+   "id": "cv-2354b9a9",
+   "group": "Üst ekstremite arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El bileğinde radial nabız hangi tendonun hemen lateralinde alınır?",
+   "options": [
+    "M. flexor carpi radialis",
+    "M. flexor carpi ulnaris",
+    "M. palmaris longus",
+    "M. brachioradialis",
+    "M. abductor pollicis longus"
+   ],
+   "answer": 0,
+   "explanation": "A. radialis bilekte radiusun distal ucunun önünde, FCR tendonunun lateralinde yüzeyel seyreder ve kemiğe bastırılarak hissedilir. Daha sonra tabakiyerin tabanından el sırtına geçer.",
+   "entries": [
+    "a-radialis",
+    "m-flexor-carpi-radialis"
+   ]
+  },
+  {
+   "id": "cv-47f821c9",
+   "group": "Üst ekstremite arterleri",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Yoğun bakımda radial arter kanülasyonu öncesinde Allen testi yapılıyor. Bu testin amacı nedir?",
+   "options": [
+    "El kanlanmasının a. ulnaris ve palmar arkuslar yoluyla yeterli olup olmadığını değerlendirmek",
+    "N. medianus'un işlevini test etmek",
+    "A. brachialis'teki darlığı saptamak",
+    "A. radialis'in duvar kalınlığını ölçmek",
+    "Venöz geri dönüşü değerlendirmek"
+   ],
+   "answer": 0,
+   "explanation": "Radial ve ulnar arterlere aynı anda bası yapılıp el soldurulur, sonra ulnar arter serbest bırakılır. Elin hızla pembeleşmesi ulnar arter ve yüzeyel palmar arkusun yeterli olduğunu, radial arter tıkansa bile elin beslenebileceğini gösterir.",
+   "entries": [
+    "a-ulnaris",
+    "a-radialis",
+    "arcus-palmares"
+   ]
+  },
+  {
+   "id": "cv-f33acf1b",
+   "group": "Üst ekstremite arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Arcus palmaris superficialis'i esas olarak hangi arter oluşturur?",
+   "options": [
+    "A. mediana",
+    "A. ulnaris",
+    "A. princeps pollicis",
+    "A. interossea anterior",
+    "A. radialis"
+   ],
+   "answer": 1,
+   "explanation": "Yüzeyel palmar arkus esas olarak a. ulnaris'in devamıdır ve radial arterin yüzeyel palmar dalıyla tamamlanır; derin palmar arkus ise esas olarak a. radialis'ten oluşur ve daha proksimalde yer alır.",
+   "entries": [
+    "arcus-palmares",
+    "a-ulnaris"
+   ]
+  },
+  {
+   "id": "cv-949621d9",
+   "group": "Üst ekstremite arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "A. interossea communis hangi arterin dalıdır?",
+   "options": [
+    "A. brachialis",
+    "A. radialis",
+    "A. ulnaris",
+    "A. recurrens radialis",
+    "A. profunda brachii"
+   ],
+   "answer": 2,
+   "explanation": "A. ulnaris kübital çukurun hemen altında a. interossea communis'i verir; bu arter membrana interossea'nın önünde ve arkasında seyreden ön ve arka interosseöz arterlere ayrılır.",
+   "entries": [
+    "a-ulnaris"
+   ]
+  },
+  {
+   "id": "cv-182b9c31",
+   "group": "Üst ekstremite arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tansiyon ölçümünde stetoskobun yerleştirildiği arter hangisidir?",
+   "options": [
+    "A. axillaris",
+    "A. radialis",
+    "A. brachialis",
+    "A. ulnaris",
+    "A. profunda brachii"
+   ],
+   "answer": 2,
+   "explanation": "Manşet kola sarılır; stetoskop kübital çukurda, biseps tendonunun hemen medialindeki a. brachialis üzerine konur. Korotkoff sesleri burada dinlenir.",
+   "entries": [
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-80e9ff2a",
+   "group": "Karın ve pelvis arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Truncus coeliacus'un üç dalı hangileridir?",
+   "options": [
+    "A. phrenica inferior, a. splenica, a. hepatica communis",
+    "A. gastrica sinistra, a. splenica, a. hepatica communis",
+    "A. gastrica dextra, a. splenica, a. hepatica propria",
+    "A. gastrica sinistra, a. gastroduodenalis, a. renalis",
+    "A. gastroduodenalis, a. splenica, a. mesenterica superior"
+   ],
+   "answer": 1,
+   "explanation": "Truncus coeliacus T12 düzeyinde aortanın önünden çıkar ve ön bağırsak türevlerini (abdominal özofagus, mide, duodenumun üst kısmı, karaciğer, safra kesesi, pankreasın bir kısmı ve dalak) besler.",
+   "entries": [
+    "truncus-coeliacus"
+   ]
+  },
+  {
+   "id": "cv-929f7309",
+   "group": "Karın ve pelvis arterleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Peptik ülser öyküsü olan hasta masif hematemez ile geliyor. Endoskopide duodenumun birinci bölümünün arka duvarında kanayan ülser görülüyor. Kanayan arter büyük olasılıkla hangisidir?",
+   "options": [
+    "A. mesenterica superior",
+    "A. gastrica sinistra",
+    "A. gastroduodenalis",
+    "A. splenica",
+    "A. pancreaticoduodenalis inferior"
+   ],
+   "answer": 2,
+   "explanation": "A. gastroduodenalis a. hepatica communis'ten çıkar ve duodenumun ilk bölümünün hemen arkasından iner. Arka duvar ülserleri bu arteri aşındırarak ciddi kanamaya yol açar. Ön duvar ülserleri ise daha çok perforasyon yapar.",
+   "entries": [
+    "truncus-coeliacus",
+    "duodenum"
+   ]
+  },
+  {
+   "id": "cv-ed78d041",
+   "group": "Karın ve pelvis arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "A. splenica için aşağıdakilerden hangisi yanlıştır?",
+   "options": [
+    "Truncus coeliacus'un en büyük dalıdır.",
+    "Pankreasın üst kenarı boyunca kıvrımlı seyreder.",
+    "Aa. gastricae breves ile mide fundusunu besler.",
+    "Lig. splenorenale içinde dalağa ulaşır.",
+    "A. gastroepiploica dextra'yı verir."
+   ],
+   "answer": 4,
+   "explanation": "A. splenica a. gastroepiploica sinistra'yı ve kısa gastrik arterleri verir. A. gastroepiploica dextra ise a. gastroduodenalis'in dalıdır; iki gastroepiploik arter midenin büyük kurvaturunda anastomoz yapar.",
+   "entries": [
+    "truncus-coeliacus",
+    "splen",
+    "gaster"
+   ]
+  },
+  {
+   "id": "cv-9dcf655b",
+   "group": "Karın ve pelvis arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. mesenterica superior'un beslediği alan hangisidir?",
+   "options": [
+    "Duodenumun inen kısmının ortasından colon transversum'un yaklaşık sol üçte birine kadar olan bağırsak",
+    "Özofagustan duodenumun ortasına kadar",
+    "Colon transversum'un sol 1/3'ünden rektumun üst kısmına kadar",
+    "Mide ve dalak",
+    "Yalnızca jejunum ve ileum"
+   ],
+   "answer": 0,
+   "explanation": "SMA (L1) orta bağırsak türevlerini besler: duodenumun papilla major'dan sonraki kısmı, jejunum, ileum, çekum, apendiks, çıkan kolon ve transvers kolonun proksimal 2/3'ü. Dalları: a. pancreaticoduodenalis inferior, jejunal ve ileal arterler, a. ileocolica, a. colica dextra ve media.",
+   "entries": [
+    "a-mesenterica-superior",
+    "intestinum-tenue"
+   ]
+  },
+  {
+   "id": "cv-70883c8c",
+   "group": "Karın ve pelvis arterleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Hızlı kilo kaybı sonrası yemekten sonra şiddetli kusma ve şişkinlik yaşayan genç kadında, duodenumun aorta ile bir damar arasında sıkıştığı saptanıyor. Bu damar hangisidir ve duodenumun hangi bölümü etkilenmiştir?",
+   "options": [
+    "A. mesenterica superior – duodenumun üçüncü (yatay) bölümü",
+    "A. mesenterica inferior – duodenumun dördüncü bölümü",
+    "Truncus coeliacus – duodenumun birinci bölümü",
+    "A. renalis sinistra – duodenumun ikinci bölümü",
+    "V. portae hepatis – duodenumun birinci bölümü"
+   ],
+   "answer": 0,
+   "explanation": "Duodenumun yatay bölümü L3 düzeyinde aorta ile SMA arasından geçer. Retroperitoneal yağ dokusu azalınca aradaki açı daralır ve duodenum sıkışır (SMA sendromu, Wilkie sendromu).",
+   "entries": [
+    "a-mesenterica-superior",
+    "duodenum",
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-0614100a",
+   "group": "Karın ve pelvis arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kolonun kanlanmasında 'su ayrım bölgesi' olarak bilinen ve iskemiye en duyarlı bölge hangisidir?",
+   "options": [
+    "Rektumun alt kısmı",
+    "Colon ascendens'in ortası",
+    "Çekum",
+    "Flexura coli dextra",
+    "Flexura coli sinistra (SMA ile IMA sulama alanlarının birleşimi)"
+   ],
+   "answer": 4,
+   "explanation": "Sol kolon bükümü (Griffiths noktası) SMA'nın a. colica media'sı ile IMA'nın a. colica sinistra'sının uç bölgelerinin buluştuğu, marjinal arterin (Drummond) zayıf olabildiği bölgedir. Rektosigmoid bileşke (Sudeck noktası) diğer kritik bölgedir.",
+   "entries": [
+    "a-mesenterica-inferior",
+    "a-mesenterica-superior",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "cv-bc394f94",
+   "group": "Karın ve pelvis arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. mesenterica inferior'un uç dalı olarak rektumun üst kısmını besleyen arter hangisidir?",
+   "options": [
+    "A. sigmoidea",
+    "A. rectalis superior",
+    "A. rectalis inferior",
+    "A. sacralis mediana",
+    "A. rectalis media"
+   ],
+   "answer": 1,
+   "explanation": "IMA (L3) a. colica sinistra, aa. sigmoideae ve a. rectalis superior'u verir. A. rectalis media a. iliaca interna'dan, a. rectalis inferior a. pudenda interna'dan çıkar.",
+   "entries": [
+    "a-mesenterica-inferior",
+    "rectum"
+   ]
+  },
+  {
+   "id": "cv-34e1fdec",
+   "group": "Karın ve pelvis arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Renal arterler için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Sağ renal arter v. cava inferior'un arkasından geçer.",
+    "Segmental arterler arasında geniş anastomozlar vardır.",
+    "T10 düzeyinde aortadan çıkarlar.",
+    "Renal venlerin önünde seyrederler.",
+    "Sol renal arter sağdan daha uzundur."
+   ],
+   "answer": 0,
+   "explanation": "Renal arterler L1–L2 düzeyinde çıkar; aorta sola yakın olduğu için sağ renal arter daha uzundur ve VCI'nın arkasından geçer. Hilumda önden arkaya ven, arter, pelvis sıralanır. Segmental arterler uç arterdir.",
+   "entries": [
+    "aa-renales",
+    "ren",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-23038544",
+   "group": "Karın ve pelvis arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "A. iliaca interna'nın posterior trunkusundan çıkan arter hangisidir?",
+   "options": [
+    "A. glutea superior",
+    "A. uterina",
+    "A. glutea inferior",
+    "A. obturatoria",
+    "A. pudenda interna"
+   ],
+   "answer": 0,
+   "explanation": "Arka trunkus a. iliolumbalis, aa. sacrales laterales ve a. glutea superior'u verir. Ön trunkus visseral dalları (a. umbilicalis, a. vesicalis inferior/a. vaginalis, a. uterina, a. rectalis media) ve parietal dalları (a. obturatoria, a. pudenda interna, a. glutea inferior) verir.",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-20f3067b",
+   "group": "Karın ve pelvis arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. epigastrica inferior hangi arterin dalıdır?",
+   "options": [
+    "A. iliaca interna",
+    "A. obturatoria",
+    "A. iliaca externa",
+    "A. femoralis",
+    "A. thoracica interna"
+   ],
+   "answer": 2,
+   "explanation": "A. epigastrica inferior lig. inguinale'nin hemen üstünde a. iliaca externa'dan çıkar, derin inguinal halkanın medialinden yükselir ve rectus kılıfında a. epigastrica superior (a. thoracica interna'nın dalı) ile anastomoz yapar.",
+   "entries": [
+    "a-iliaca-communis",
+    "m-rectus-abdominis"
+   ]
+  },
+  {
+   "id": "cv-f36779f3",
+   "group": "Karın ve pelvis arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "A. iliaca communis bifurkasyonu ile ilgili hangisi doğrudur?",
+   "options": [
+    "Sakroiliak eklemin önünde olur ve üreter genellikle bu bölgede iliak damarları çaprazlar.",
+    "L1 düzeyinde, böbreklerin hilumunda olur.",
+    "A. iliaca interna bu noktadan sonra uyluğa iner.",
+    "Ductus deferens bifurkasyonun arkasından geçer.",
+    "V. cava inferior bu noktanın önünden geçer."
+   ],
+   "answer": 0,
+   "explanation": "Ortak iliak arterler sakroiliak eklemin önünde iç ve dış iliak arterlere ayrılır. Üreter pelvis girişinde bu bifurkasyonun önünden geçer; bu nokta üreterin fizyolojik darlıklarından biridir ve taşların takıldığı yerdir.",
+   "entries": [
+    "a-iliaca-communis",
+    "ureter"
+   ]
+  },
+  {
+   "id": "cv-6134b2af",
+   "group": "Alt ekstremite arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. femoralis'in nabzı en iyi nerede alınır?",
+   "options": [
+    "Adductor hiatus düzeyinde",
+    "Tuberculum pubicum'un hemen üstünde",
+    "Trochanter major'un arkasında",
+    "Uyluğun ortasında, sartorius'un dış kenarında",
+    "Lig. inguinale'nin altında, SIAS ile symphysis pubica arasının orta noktasında (mid-inguinal nokta)"
+   ],
+   "answer": 4,
+   "explanation": "A. femoralis lig. inguinale'nin altından femoral üçgene girer ve mid-inguinal noktada kemiğe (caput femoris, pubis) bastırılarak hissedilir. Kateterizasyon için en sık kullanılan arterdir; ven arterin hemen medialindedir.",
+   "entries": [
+    "a-femoralis",
+    "trigonum-femorale"
+   ]
+  },
+  {
+   "id": "cv-dba30b16",
+   "group": "Alt ekstremite arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. profunda femoris'in dalları hangileridir?",
+   "options": [
+    "A. pudenda externa ve a. epigastrica inferior",
+    "A. circumflexa femoris medialis, a. circumflexa femoris lateralis ve perforan arterler",
+    "A. genus descendens ve a. poplitea",
+    "A. epigastrica superficialis ve a. circumflexa ilium superficialis",
+    "A. obturatoria ve a. glutea inferior"
+   ],
+   "answer": 1,
+   "explanation": "Derin femoral arter uyluğun ana besleyicisidir; iki sirkumfleks arter kalça çevresini, perforan arterler uyluğun arka kompartmanını besler. Medial sirkumfleks arter femur başının ana kaynağıdır.",
+   "entries": [
+    "a-femoralis",
+    "femur"
+   ]
+  },
+  {
+   "id": "cv-d4ddc968",
+   "group": "Alt ekstremite arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Fossa poplitea'da yüzeyelden derine doğru yapıların sıralaması hangisidir?",
+   "options": [
+    "V. poplitea – n. tibialis – a. poplitea",
+    "A. poplitea – n. tibialis – v. poplitea",
+    "A. poplitea – v. poplitea – n. tibialis",
+    "N. tibialis – v. poplitea – a. poplitea",
+    "N. tibialis – a. poplitea – v. poplitea"
+   ],
+   "answer": 3,
+   "explanation": "Popliteal çukurda sinir en yüzeyde, ven ortada, arter en derindedir (femur ve diz kapsülüne yaslanır). Bu nedenle popliteal nabız diz hafif bükülüyken derine bastırılarak alınır ve suprakondiler femur kırıklarında arter yaralanabilir.",
+   "entries": [
+    "a-poplitea",
+    "fossa-poplitea",
+    "n-tibialis"
+   ]
+  },
+  {
+   "id": "cv-eefdaca9",
+   "group": "Alt ekstremite arterleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. dorsalis pedis nabzı en iyi nerede alınır?",
+   "options": [
+    "5. metatarsın tabanında",
+    "Malleolus medialis'in arkasında",
+    "Topuğun iç yanında",
+    "Malleolus lateralis'in önünde",
+    "Ayak sırtında, m. extensor hallucis longus tendonunun lateralinde"
+   ],
+   "answer": 4,
+   "explanation": "A. dorsalis pedis a. tibialis anterior'un devamıdır; ayak sırtında EHL tendonunun hemen lateralinde, 1. ve 2. metatarslar arasında hissedilir. Periferik arter hastalığında ilk kaybolan nabızlardandır.",
+   "entries": [
+    "a-dorsalis-pedis",
+    "a-tibialis-anterior",
+    "m-extensor-hallucis-longus"
+   ]
+  },
+  {
+   "id": "cv-c38d2770",
+   "group": "Alt ekstremite arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "A. fibularis (peronea) hangi arterin dalıdır?",
+   "options": [
+    "A. tibialis posterior",
+    "A. poplitea'nın doğrudan dalı",
+    "A. dorsalis pedis",
+    "A. femoralis",
+    "A. tibialis anterior"
+   ],
+   "answer": 0,
+   "explanation": "A. tibialis posterior bacağın üst kısmında a. fibularis'i verir; bu arter fibulaya yakın seyreder ve lateral kompartman kaslarını perforan dallarla besler. Fibula serbest flebi bu arter üzerinde kaldırılır.",
+   "entries": [
+    "a-tibialis-posterior",
+    "fibula"
+   ]
+  },
+  {
+   "id": "cv-86d9b694",
+   "group": "Alt ekstremite arterleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kalça bölgesindeki çapraz (krusiat) anastomoza katılan arterler hangileridir?",
+   "options": [
+    "A. iliolumbalis ve aa. sacrales laterales",
+    "A. glutea superior, a. obturatoria ve a. pudenda interna",
+    "A. glutea inferior, medial ve lateral sirkumfleks femoral arterler ve 1. perforan arter",
+    "A. epigastrica inferior ve a. obturatoria",
+    "A. poplitea'nın genikular dalları"
+   ],
+   "answer": 2,
+   "explanation": "Krusiat anastomoz trochanter minor düzeyinde, femurun arkasında kurulur ve a. iliaca interna ile a. femoralis sistemleri arasında kollateral yol sağlar. Femoral arterin proksimal tıkanmasında önemlidir.",
+   "entries": [
+    "a-femoralis",
+    "femur"
+   ]
+  },
+  {
+   "id": "cv-d936dd1e",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Şokta olan ve periferik ven bulunamayan hastada acil 'venöz cutdown' için en güvenilir yer olarak kullanılan ven hangisidir?",
+   "options": [
+    "V. jugularis externa – boyunda",
+    "V. saphena magna – malleolus medialis'in önünde",
+    "V. saphena parva – malleolus lateralis'in arkasında",
+    "V. cephalica – sulcus deltopectoralis'te",
+    "V. basilica – dirseğin iç yanında"
+   ],
+   "answer": 1,
+   "explanation": "V. saphena magna medial malleolün hemen önünde sabit ve yüzeyeldir; bu nedenle cutdown için klasik yerdir. Bu bölgede n. saphenus ven ile birlikte seyreder ve işlem sırasında korunmalıdır.",
+   "entries": [
+    "v-saphena-magna"
+   ]
+  },
+  {
+   "id": "cv-0c9c8933",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "V. saphena magna hangi vene dökülür?",
+   "options": [
+    "V. iliaca interna",
+    "V. femoralis (hiatus saphenus'ta)",
+    "V. profunda femoris",
+    "V. iliaca externa",
+    "V. poplitea"
+   ],
+   "answer": 1,
+   "explanation": "V. saphena magna uyluğun iç yüzünden yükselir ve tuberculum pubicum'un yaklaşık 3–4 cm alt-yanındaki hiatus saphenus'tan fascia lata'yı geçerek v. femoralis'e dökülür. Koroner bypassta greft olarak kullanılır.",
+   "entries": [
+    "v-saphena-magna",
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-99cfaed4",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "V. saphena parva için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Derin fasyanın altında, kas içinde seyreder.",
+    "Malleolus medialis'in önünden geçer.",
+    "V. femoralis'e dökülür.",
+    "Malleolus lateralis'in arkasından geçer ve genellikle v. poplitea'ya dökülür.",
+    "N. saphenus ile birlikte seyreder."
+   ],
+   "answer": 3,
+   "explanation": "Küçük safen ven ayak dış kenarından başlar, lateral malleolün arkasından baldırın orta hattına yükselir ve popliteal çukurda v. poplitea'ya açılır. Baldırda n. suralis ile birlikte seyreder.",
+   "entries": [
+    "v-saphena-parva",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "cv-efdf82fd",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "V. cava inferior hangi düzeyde oluşur ve diyaframı hangi düzeyde geçer?",
+   "options": [
+    "L5'te oluşur, T8'de diyaframı geçer.",
+    "L1'de oluşur, T10'da diyaframı geçer.",
+    "S1'de oluşur, T10'da diyaframı geçer.",
+    "L4'te oluşur, T12'de diyaframı geçer.",
+    "L3'te oluşur, T8'de diyaframı geçer."
+   ],
+   "answer": 0,
+   "explanation": "İki v. iliaca communis L5 düzeyinde, aort bifurkasyonunun sağında ve biraz altında birleşerek VCI'yı oluşturur. VCI diyaframın tendinöz merkezindeki foramen venae cavae'den (T8) geçer.",
+   "entries": [
+    "v-cava-inferior",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "cv-147eede0",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "V. cava superior'a sağ arka yüzden açılan ven hangisidir?",
+   "options": [
+    "V. hemiazygos",
+    "V. subclavia dextra",
+    "V. thoracica interna",
+    "V. jugularis externa",
+    "V. azygos"
+   ],
+   "answer": 4,
+   "explanation": "V. azygos T4 düzeyinde sağ akciğer kökünün üzerinden kemer yaparak VCS'ye açılır. Arka interkostal venleri, özofagus ve bronş venlerini toplar; VCI tıkanmasında önemli bir kollateral yoldur.",
+   "entries": [
+    "v-azygos",
+    "v-cava-superior"
+   ]
+  },
+  {
+   "id": "cv-799fea3d",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "V. portae hepatis nerede ve hangi venlerin birleşmesiyle oluşur?",
+   "options": [
+    "Karaciğer hilusunda, v. hepatica dextra ile sinistra'nın birleşmesiyle",
+    "Mide küçük kurvaturunda, v. gastrica dextra ile sinistra'nın birleşmesiyle",
+    "Pankreas boynunun arkasında, v. mesenterica superior ile v. splenica'nın birleşmesiyle",
+    "Duodenumun önünde, v. gastrica sinistra ile v. splenica'nın birleşmesiyle",
+    "Pankreas kuyruğunun arkasında, v. renalis ile v. splenica'nın birleşmesiyle"
+   ],
+   "answer": 2,
+   "explanation": "V. portae L1–L2 düzeyinde pankreas boynunun arkasında oluşur; v. mesenterica inferior çoğunlukla v. splenica'ya açılır. Ven lig. hepatoduodenale içinde, safra kanalı ve hepatik arterin arkasında yükselir.",
+   "entries": [
+    "v-portae-hepatis",
+    "pancreas"
+   ]
+  },
+  {
+   "id": "cv-0cf94980",
+   "group": "Venler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Alkolik siroz tanılı hasta masif kan kusmayla getiriliyor; muayenede karın duvarında göbek çevresinde genişlemiş venler (caput medusae) ve hemoroidler var. Kusmanın kaynağı olan portokaval anastomoz hangisidir?",
+   "options": [
+    "V. colica sinistra ile v. renalis arasındaki anastomoz",
+    "V. rectalis superior ile v. rectalis media arasındaki anastomoz",
+    "Vv. paraumbilicales ile v. epigastrica superficialis arasındaki anastomoz",
+    "V. gastrica sinistra ile vv. oesophageae (v. azygos sistemi) arasındaki anastomoz",
+    "V. splenica ile v. renalis sinistra arasındaki anastomoz"
+   ],
+   "answer": 3,
+   "explanation": "Portal hipertansiyonda kan sistemik venlere kollaterallerle geçer: özofagusun alt ucunda özofagus varisleri (kanaması ölümcül olabilir), anorektal bölgede rektal varisler, göbek çevresinde caput medusae ve retroperitoneal anastomozlar.",
+   "entries": [
+    "v-portae-hepatis",
+    "oesophagus",
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "cv-0f81ede0",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Boyunda v. jugularis interna'nın a. carotis communis'e göre konumu nedir?",
+   "options": [
+    "Karotis kılıfının dışında, SCM'nin yüzeyinde",
+    "Arterin medialinde, trakeaya yakın",
+    "Vagina carotica içinde arterin lateralinde",
+    "Arterin arkasında, prevertebral fasyanın altında",
+    "Arterin önünde, tiroid bezinin içinde"
+   ],
+   "answer": 2,
+   "explanation": "Karotis kılıfında a. carotis communis medialde, v. jugularis interna lateralde, n. vagus ikisinin arkasında yer alır. Santral kateter takılırken ven SCM'nin iki başı arasındaki üçgenden, arterin lateralinden aranır.",
+   "entries": [
+    "v-jugularis-interna",
+    "a-carotis-communis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-90f888e4",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Juguler venöz basınç (JVP) gözlemlenirken boyunda görülen ve SCM'yi yüzeysel olarak çaprazlayan ven hangisidir?",
+   "options": [
+    "V. facialis",
+    "V. vertebralis",
+    "V. thyroidea media",
+    "V. jugularis externa",
+    "V. jugularis interna"
+   ],
+   "answer": 3,
+   "explanation": "V. jugularis externa SCM'nin yüzeyinden çapraz olarak iner ve klavikulanın üstünde v. subclavia'ya açılır. Sağ kalp yetmezliğinde dolgunlaşır. JVP'nin asıl değerlendirildiği ven ise iç juguler vendir.",
+   "entries": [
+    "v-jugularis-externa",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "cv-8f6a9c14",
+   "group": "Venler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Subklavyen ven kateterizasyonunda en sık görülen ciddi komplikasyon hangisidir ve nedeni nedir?",
+   "options": [
+    "Hemoperikard; ven doğrudan perikarda açıldığı için",
+    "Hava embolisi olmaz, çünkü ven kapaklıdır.",
+    "N. phrenicus felci; sinir venin içinden geçtiği için",
+    "Pnömotoraks; plevra kubbesi (cupula pleurae) venin hemen arkasında ve altında olduğu için",
+    "Şilotoraks; sağ tarafta ductus thoracicus bulunduğu için"
+   ],
+   "answer": 3,
+   "explanation": "V. subclavia klavikula ile 1. kaburga arasında, m. scalenus anterior'un önünde seyreder. Plevra ve akciğer apeksi hemen arkasında olduğundan iğne derine ilerlerse pnömotoraks gelişir. Ductus thoracicus sol venöz açıya döküldüğü için sol taraf girişimlerinde şilotoraks riski vardır.",
+   "entries": [
+    "v-subclavia",
+    "pleura"
+   ]
+  },
+  {
+   "id": "cv-f04b527e",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kan almak için en sık kullanılan, dirsek önündeki yüzeyel ven hangisidir?",
+   "options": [
+    "V. axillaris",
+    "V. cephalica",
+    "V. mediana cubiti",
+    "V. brachialis",
+    "V. basilica"
+   ],
+   "answer": 2,
+   "explanation": "V. mediana cubiti v. cephalica'yı v. basilica'ya bağlar ve aponeurosis bicipitalis'in üzerinde yer alır; bu aponevroz alttaki a. brachialis ve n. medianus'u korur.",
+   "entries": [
+    "vv-membri-superioris"
+   ]
+  },
+  {
+   "id": "cv-09c0276c",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "V. cephalica nerede derin vene açılır?",
+   "options": [
+    "Dirsekte v. brachialis'e",
+    "Koltuk altında v. basilica'ya",
+    "Kolun ortasında v. brachialis'e",
+    "Sulcus deltopectoralis'ten geçerek v. axillaris'e",
+    "Boyunda v. jugularis externa'ya"
+   ],
+   "answer": 3,
+   "explanation": "V. cephalica önkol ve kolun dış yanında yükselir, deltoid ile pectoralis major arasındaki oluktan klavipektoral fasyayı delerek v. axillaris'e açılır. V. basilica ise kolun ortasında derin fasyayı delip brakiyal venlerle birleşerek v. axillaris'i oluşturur.",
+   "entries": [
+    "vv-membri-superioris"
+   ]
+  },
+  {
+   "id": "cv-9d3e524c",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kafatası içindeki venöz kanın akış yolu hangisinde doğru verilmiştir?",
+   "options": [
+    "Sinus sagittalis inferior → sinus cavernosus → v. jugularis externa",
+    "Sinus transversus → sinus sagittalis superior → v. vertebralis",
+    "Sinus cavernosus → sinus rectus → v. jugularis externa",
+    "Sinus sigmoideus → sinus transversus → confluens sinuum → v. jugularis interna",
+    "Sinus sagittalis superior → confluens sinuum → sinus transversus → sinus sigmoideus → v. jugularis interna"
+   ],
+   "answer": 4,
+   "explanation": "Dural sinüsler beyin, meninksler ve kafatasından gelen kanı toplar. Sinus sagittalis superior BOS'un emildiği granülasyonları da içerir. Sigmoid sinüs foramen jugulare'de v. jugularis interna'ya devam eder.",
+   "entries": [
+    "sinus-durae-matris",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-b1671c8b",
+   "group": "Venler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sol testiküler venin döküldüğü yer ve bunun klinik önemi hangisidir?",
+   "options": [
+    "V. iliaca interna'ya döküldüğü için hemoroide yol açar.",
+    "V. cava inferior'a döküldüğü için varikosel solda görülmez.",
+    "V. azygos'a döküldüğü için göğüs ağrısı yapar.",
+    "V. portae'ye döküldüğü için portal hipertansiyonda genişler.",
+    "V. renalis sinistra'ya döküldüğü için varikosel daha sık solda görülür."
+   ],
+   "answer": 4,
+   "explanation": "Sağ testiküler ven doğrudan VCI'ya eğik açıyla, sol testiküler ven sol renal vene dik açıyla açılır. Sol renal ven ayrıca aorta ile SMA arasında sıkışabilir (nutcracker). Bu nedenle pampiniform pleksusun genişlemesi (varikosel) çoğunlukla soldadır.",
+   "entries": [
+    "testis",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-51ef5367",
+   "group": "Venler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sol v. renalis için aşağıdakilerden hangisi yanlıştır?",
+   "options": [
+    "A. mesenterica superior ile aorta arasından geçer.",
+    "Aorta ile SMA arasında sıkışması 'nutcracker' sendromuna yol açar.",
+    "Sol gonadal ve sol suprarenal venleri alır.",
+    "Aortanın arkasından geçerek v. cava inferior'a açılır.",
+    "Sağ renal venden daha uzundur."
+   ],
+   "answer": 3,
+   "explanation": "Sol renal ven normalde aortanın önünden, SMA'nın hemen altından geçer. Retroaortik sol renal ven nadir bir varyasyondur. Sol renal venin uzun olması nedeniyle sol böbrek nakil için çoğunlukla tercih edilir.",
+   "entries": [
+    "ren",
+    "aorta",
+    "a-mesenterica-superior"
+   ]
+  },
+  {
+   "id": "cv-25ce6332",
+   "group": "Venler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Yüzün 'tehlikeli üçgeni'ndeki enfeksiyonların sinus cavernosus'a yayılmasında başlıca rol oynayan yol hangisidir?",
+   "options": [
+    "V. temporalis superficialis → sinus sagittalis superior",
+    "Plexus pterygoideus → v. maxillaris → v. jugularis externa",
+    "V. retromandibularis → v. jugularis externa",
+    "V. facialis → v. jugularis interna → sinus sigmoideus",
+    "V. facialis → v. angularis → v. ophthalmica superior"
+   ],
+   "answer": 4,
+   "explanation": "Göz iç köşesinde v. facialis'in başlangıcı olan v. angularis, kapaksız v. ophthalmica superior ile bağlantılıdır. Burun ve üst dudak çevresindeki enfeksiyonlar bu yolla sinus cavernosus'a ulaşarak tromboflebite neden olabilir.",
+   "entries": [
+    "sinus-durae-matris",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-98cd4a4d",
+   "group": "Venler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "V. brachiocephalica sinistra için hangisi doğrudur?",
+   "options": [
+    "Sağdan daha uzundur ve arcus aortae dallarının önünden eğik olarak geçer.",
+    "Sağdan daha kısadır ve dikey iner.",
+    "Doğrudan sağ atriyuma açılır.",
+    "Aortanın arkasından geçer.",
+    "V. azygos'u alır."
+   ],
+   "answer": 0,
+   "explanation": "Her iki tarafta v. jugularis interna ile v. subclavia sternoklavikular eklemin arkasında birleşerek brakiyosefalik venleri yapar. Sol brakiyosefalik ven manubriumun arkasından sağa geçer ve sağ ile birleşerek VCS'yi oluşturur. Ductus thoracicus sol venöz açıya açılır.",
+   "entries": [
+    "v-cava-superior",
+    "v-subclavia",
+    "v-jugularis-interna"
+   ]
+  }
+ ]
+}

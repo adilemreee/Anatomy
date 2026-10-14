@@ -16,7 +16,7 @@ struct EntryDetailView: View {
                 .padding(.horizontal, 16)
                 .padding(.bottom, 32)
         }
-        .atlasBackground()
+        .themedBackground()
         .navigationTitle(entry.tr)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
@@ -38,7 +38,7 @@ struct FavoriteButton: View {
             app.study.toggleFavorite(id)
         } label: {
             Image(systemName: on ? "star.fill" : "star")
-                .foregroundStyle(on ? .yellow : .primary)
+                .foregroundStyle(on ? Theme.gold : Theme.textPrimary)
         }
         .sensoryFeedback(.impact(weight: .light), trigger: on)
         .accessibilityLabel(on ? "Favorilerden çıkar" : "Favorilere ekle")
@@ -53,85 +53,131 @@ struct EntryContent: View {
 
     var body: some View {
         let system = app.store.system(entry.systemID)
-        let tint = system?.tint ?? .accentColor
+        let tint = system?.tint ?? Theme.accent
+        let locked = !app.isFree(entry)
         VStack(alignment: .leading, spacing: 16) {
             header(system: system, tint: tint)
 
-            if showsModelButton, app.hasModel(entry) {
+            if showsModelButton, app.hasModel(entry), !locked {
                 HStack(spacing: 10) {
                     Button {
                         app.inspect(entry)
                     } label: {
                         Label("3D İncele", systemImage: "cube.transparent")
-                            .frame(maxWidth: .infinity)
                     }
-                    .buttonStyle(.glassProminent)
+                    .buttonStyle(PrimaryButtonStyle())
                     Button {
                         app.showInAtlas(entry)
                     } label: {
                         Label("Atlasta göster", systemImage: "figure.arms.open")
-                            .frame(maxWidth: .infinity)
                     }
-                    .buttonStyle(.glass)
+                    .buttonStyle(SecondaryButtonStyle())
                 }
-                .controlSize(.large)
             }
 
-            ContentCard {
+            Card {
                 Text(entry.summary)
                     .font(.body)
+                    .foregroundStyle(Theme.textPrimary)
                     .fixedSize(horizontal: false, vertical: true)
             }
 
-            if !entry.facts.isEmpty {
-                ContentCard(title: "Temel bilgiler", systemImage: "list.bullet.rectangle", tint: tint) {
-                    FactTable(facts: entry.facts, tint: tint)
-                }
-            }
-
-            ForEach(entry.sections, id: \.title) { section in
-                ContentCard(title: section.title, systemImage: "text.alignleft", tint: tint) {
-                    Text(section.body)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
-
-            if !entry.clinical.isEmpty {
-                ContentCard(title: "Klinik bilgi", systemImage: "stethoscope", tint: .pink) {
-                    VStack(alignment: .leading, spacing: 10) {
-                        ForEach(entry.clinical, id: \.self) { note in
-                            HStack(alignment: .firstTextBaseline, spacing: 8) {
-                                Circle().fill(.pink).frame(width: 6, height: 6)
-                                Text(note).fixedSize(horizontal: false, vertical: true)
-                            }
-                        }
-                    }
-                }
-            }
-
-            let related = app.store.related(of: entry)
-            if !related.isEmpty {
-                ContentCard(title: "İlişkili yapılar", systemImage: "point.3.connected.trianglepath.dotted", tint: tint) {
-                    FlowLayout(spacing: 8) {
-                        ForEach(related) { other in
-                            NavigationLink(value: other) {
-                                Text(other.tr)
-                                    .font(.subheadline.weight(.medium))
-                                    .padding(.horizontal, 12)
-                                    .padding(.vertical, 7)
-                                    .background(tint.opacity(0.12), in: .capsule)
-                                    .foregroundStyle(tint)
-                            }
-                            .buttonStyle(.plain)
-                        }
-                    }
-                }
-            }
-
-            if let reference = referenceText {
-                ReferenceTextCard(text: reference)
+            if locked {
+                LockedEntryCard(entry: entry, system: system)
+            } else {
+                details(tint: tint)
             }
         }
+    }
+
+    @ViewBuilder
+    private func details(tint: Color) -> some View {
+        if !entry.facts.isEmpty {
+            InfoCard(title: "Temel bilgiler", icon: "list.bullet.rectangle", tint: tint) {
+                FactTable(facts: entry.facts, tint: tint)
+            }
+        }
+
+        ForEach(entry.sections, id: \.title) { section in
+            InfoCard(title: section.title, icon: "text.alignleft", tint: tint) {
+                Text(section.body)
+                    .font(.subheadline)
+                    .foregroundStyle(Theme.textPrimary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+
+        if !entry.tus.isEmpty {
+            InfoCard(title: "TUS notları", icon: "target", tint: Theme.gold) {
+                BulletList(items: entry.tus, color: Theme.gold)
+            }
+        }
+
+        if !entry.clinical.isEmpty {
+            InfoCard(title: "Klinik bilgi", icon: "stethoscope", tint: Theme.clinical) {
+                BulletList(items: entry.clinical, color: Theme.clinical)
+            }
+        }
+
+        let related = app.store.related(of: entry)
+        if !related.isEmpty {
+            InfoCard(title: "İlişkili yapılar", icon: "point.3.connected.trianglepath.dotted", tint: tint) {
+                FlowLayout(spacing: 8) {
+                    ForEach(related) { other in
+                        NavigationLink(value: other) {
+                            Text(other.tr)
+                                .font(.subheadline.weight(.medium))
+                                .padding(.horizontal, 12)
+                                .padding(.vertical, 7)
+                                .background(tint.opacity(0.14), in: .capsule)
+                                .foregroundStyle(tint)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+            }
+        }
+
+        // Not offered from inside a running test or the specimen viewer.
+        if app.quiz == nil, app.specimen == nil {
+            Button {
+                app.startQuiz(QuizConfig(title: entry.tr, source: .bank, systems: [entry.systemID], count: 8,
+                                         preferNew: false, entries: [entry.id]))
+            } label: {
+                HStack(spacing: 12) {
+                    Image(systemName: "checklist")
+                        .font(.title3)
+                        .foregroundStyle(Theme.accent)
+                        .frame(width: 40, height: 40)
+                        .background(Theme.accent.opacity(0.14), in: .rect(cornerRadius: 12))
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Bu konudan soru çöz")
+                            .font(.headline)
+                            .foregroundStyle(Theme.textPrimary)
+                        Text(questionCountText)
+                            .font(.caption)
+                            .foregroundStyle(Theme.textSecondary)
+                    }
+                    Spacer()
+                    Image(systemName: "chevron.right")
+                        .font(.footnote.weight(.semibold))
+                        .foregroundStyle(Theme.textTertiary)
+                }
+                .padding(14)
+                .background(Theme.card, in: .rect(cornerRadius: 20))
+                .overlay { RoundedRectangle(cornerRadius: 20).strokeBorder(Theme.stroke) }
+            }
+            .buttonStyle(PressableStyle())
+        }
+
+        if let reference = referenceText {
+            ReferenceTextCard(text: reference)
+        }
+    }
+
+    private var questionCountText: String {
+        let written = app.bank.questions.filter { $0.entries.contains(entry.id) }.count
+        return written > 0 ? "\(written) soru bankası sorusu ve atlas soruları" : "Bu yapı ve ilişkili yapılar hakkında sorular"
     }
 
     private var referenceText: String? {
@@ -147,21 +193,111 @@ struct EntryContent: View {
                 if let system {
                     TagView(text: system.tr, color: tint, systemImage: system.icon)
                 }
-                TagView(text: entry.region.title, color: .secondary, systemImage: entry.region.icon)
+                TagView(text: entry.region.title, color: Theme.textSecondary, systemImage: entry.region.icon)
             }
             Text(entry.tr)
-                .font(.largeTitle.weight(.bold))
+                .font(.system(.largeTitle, weight: .bold))
+                .foregroundStyle(Theme.textPrimary)
                 .fixedSize(horizontal: false, vertical: true)
             Text(entry.la)
-                .font(.title3.italic())
+                .font(Theme.latin(.title3))
                 .foregroundStyle(tint)
             if entry.en != entry.la {
                 Text(entry.en)
                     .font(.subheadline)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Theme.textTertiary)
             }
         }
         .padding(.top, 8)
+    }
+}
+
+/// A content card with an icon title.
+struct InfoCard<Content: View>: View {
+    let title: String
+    let icon: String
+    var tint: Color = Theme.accent
+    @ViewBuilder var content: Content
+
+    var body: some View {
+        Card {
+            VStack(alignment: .leading, spacing: 12) {
+                Label {
+                    Text(title).font(.headline).foregroundStyle(Theme.textPrimary)
+                } icon: {
+                    Image(systemName: icon).foregroundStyle(tint)
+                }
+                content
+            }
+        }
+    }
+}
+
+struct BulletList: View {
+    let items: [String]
+    var color: Color = Theme.accent
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            ForEach(items, id: \.self) { item in
+                HStack(alignment: .firstTextBaseline, spacing: 10) {
+                    Circle().fill(color).frame(width: 6, height: 6)
+                    Text(item)
+                        .font(.subheadline)
+                        .foregroundStyle(Theme.textPrimary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+        }
+    }
+}
+
+/// What a free user sees instead of the details.
+private struct LockedEntryCard: View {
+    @Environment(AppModel.self) private var app
+    let entry: AtlasEntry
+    let system: BodySystem?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            VStack(alignment: .leading, spacing: 8) {
+                ForEach(entry.facts.prefix(3), id: \.label) { fact in
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text(fact.label.uppercased(with: Locale(identifier: "tr_TR")))
+                            .font(Theme.eyebrow)
+                            .foregroundStyle(Theme.textTertiary)
+                        Text(fact.value)
+                            .font(.subheadline)
+                            .foregroundStyle(Theme.textPrimary)
+                            .lineLimit(2)
+                    }
+                }
+            }
+            .blur(radius: 6)
+            .allowsHitTesting(false)
+            .accessibilityHidden(true)
+
+            VStack(alignment: .leading, spacing: 6) {
+                HStack(spacing: 8) {
+                    LockBadge()
+                    Text("Bu maddenin tamamı Premium'da")
+                        .font(.headline)
+                        .foregroundStyle(Theme.textPrimary)
+                }
+                Text("\(entry.facts.count) temel bilgi, \(entry.sections.count + entry.clinical.count + entry.tus.count) klinik ve sınav notu, 3D inceleme ve bu konudaki sorular.")
+                    .font(.footnote)
+                    .foregroundStyle(Theme.textSecondary)
+            }
+            Button {
+                app.requirePremium(.system(system?.tr ?? entry.tr))
+            } label: {
+                Label("Premium ile aç", systemImage: "lock.open.fill")
+            }
+            .buttonStyle(PrimaryButtonStyle(gradient: Theme.goldGradient, foreground: Color(hex: "2A1D05")))
+        }
+        .padding(16)
+        .background(Theme.card, in: .rect(cornerRadius: 20))
+        .overlay { RoundedRectangle(cornerRadius: 20).strokeBorder(Theme.gold.opacity(0.35)) }
     }
 }
 
@@ -171,30 +307,33 @@ struct ReferenceTextCard: View {
     @State private var expanded = false
 
     var body: some View {
-        ContentCard {
+        Card {
             DisclosureGroup(isExpanded: $expanded) {
                 VStack(alignment: .leading, spacing: 10) {
                     ForEach(Array(text.components(separatedBy: "\n\n").enumerated()), id: \.offset) { _, paragraph in
                         if paragraph.hasPrefix("## ") {
                             Text(paragraph.dropFirst(3))
                                 .font(.subheadline.weight(.semibold))
+                                .foregroundStyle(Theme.textPrimary)
                                 .padding(.top, 4)
                         } else {
                             Text(paragraph)
                                 .font(.subheadline)
-                                .foregroundStyle(.secondary)
+                                .foregroundStyle(Theme.textSecondary)
                                 .fixedSize(horizontal: false, vertical: true)
                         }
                     }
                     Text("Kaynak: Z-Anatomy (Wikipedia tabanlı), CC BY-SA 4.0")
                         .font(.caption2)
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(Theme.textTertiary)
                 }
                 .padding(.top, 8)
             } label: {
                 Label("İngilizce kaynak metin", systemImage: "book.closed")
                     .font(.headline)
+                    .foregroundStyle(Theme.textPrimary)
             }
+            .tint(Theme.textSecondary)
         }
     }
 }

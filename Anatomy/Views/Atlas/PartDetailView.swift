@@ -53,8 +53,8 @@ struct PartDetailView: View {
                 .padding(.horizontal, 16)
                 .padding(.bottom, 32)
             }
-            .atlasBackground()
-            .navigationTitle(exact ? entry!.tr : (store.latinName(for: info) ?? info.base))
+            .themedBackground()
+            .navigationTitle(store.displayName(for: info))
             .navigationBarTitleDisplayMode(.inline)
             .navigationDestination(for: AtlasEntry.self) { EntryDetailView(entry: $0) }
             .toolbar {
@@ -79,13 +79,26 @@ struct PartDetailView: View {
             if let layer {
                 TagView(text: layer.title, color: layer.tint, systemImage: layer.icon)
             }
-            Text(latin ?? info.base)
-                .font(.largeTitle.weight(.bold))
+            Text(app.store.displayName(for: info) + (info.sideTitle.map { " (\($0))" } ?? ""))
+                .font(.system(.largeTitle, weight: .bold))
+                .foregroundStyle(Theme.textPrimary)
                 .fixedSize(horizontal: false, vertical: true)
-            if let latin, latin.lowercased() != info.base.lowercased() {
-                Text(info.base)
-                    .font(.title3)
-                    .foregroundStyle(.secondary)
+            if let latin {
+                Text(latin)
+                    .font(Theme.latin(.title3))
+                    .foregroundStyle(layer?.tint ?? Theme.accent)
+            }
+            Text(info.base)
+                .font(.subheadline)
+                .foregroundStyle(Theme.textTertiary)
+            if let d = app.store.partDescription(info.base) {
+                Card {
+                    Text(d)
+                        .font(.body)
+                        .foregroundStyle(Theme.textPrimary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                .padding(.top, 6)
             }
             if let kind = info.kind {
                 Text(kind == "origin" ? "Kasın başlangıç (origo) alanı" : "Kasın yapışma (insersiyo) alanı")
@@ -107,7 +120,7 @@ struct PartDetailView: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Hiyerarşi")
                             .font(.subheadline)
-                        Text(info.path.map { app.store.term($0)?.la ?? $0 }.joined(separator: "  ›  "))
+                        Text(info.path.map { app.store.groupName($0) }.joined(separator: "  ›  "))
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }

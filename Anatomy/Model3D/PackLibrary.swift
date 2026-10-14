@@ -50,8 +50,19 @@ final class PackLibrary {
 
 /// Interleaved vertex data in the layout the surface shader expects.
 nonisolated enum VertexBuilder {
-    /// position f3 | normal f3 | tangent f3 | color rgba8 (a = occlusion) | uv1 f2 | uv2 f4 (fibre axis, pattern)
-    static let stride = 64
+    /// 36 bytes per vertex:
+    ///  0 position   float3
+    /// 12 normal     char4 normalised (xyz)
+    /// 16 tangent    char4 normalised (xyz, the fibre direction on the surface)
+    /// 20 color      uchar4 normalised (linear rgb, a = baked occlusion)
+    /// 24 uv1        uchar4 normalised (fibre strength, wetness, tissue / 255, -)
+    /// 28 uv2        char4 normalised (the part's fibre axis xyz, surface pattern / 4)
+    /// 32 uv0        ushort2 normalised (skin texture coordinates, 0 = none)
+    static let stride = 36
+
+    enum Offset {
+        static let position = 0, normal = 12, tangent = 16, color = 20, uv1 = 24, uv2 = 28, uv0 = 32
+    }
 
     struct Output: Sendable {
         var vertices: Data
@@ -62,16 +73,18 @@ nonisolated enum VertexBuilder {
     }
 
     /// Builds vertex data for `parts` (all parts when nil). When a subset is
-    /// requested the vertices are compacted and the indices rebased.
+    /// requested the vertices are compacted and the indices rebased; the full
+    /// build also carries the simplified levels after the full-detail indices.
     static func build(pack: MeshPack, parts subset: [Int]? = nil, mode: ColorMode) -> Output {
         let partIndices = subset ?? Array(pack.parts.indices)
         let compact = subset != nil
         let vertexTotal = compact ? partIndices.reduce(0) { $0 + pack.ranges[$1].vertexCount } : pack.positions.count
         var data = Data(count: vertexTotal * stride)
-        var indices: [UInt32] = compact ? [] : pack.indices
+        var indices: [UInt32] = compact ? [] : pack.indices + pack.lodIndices
         if compact { indices.reserveCapacity(partIndices.reduce(0) { $0 + pack.ranges[$1].indexCount }) }
         var ranges: [(Int, Int)] = []
         var bounds: [(SIMD3<Float>, SIMD3<Float>)] = []
+        let textured = mode == .realistic && pack.uvs.count == pack.positions.count
 
         data.withUnsafeMutableBytes { raw in
             var outVertex = 0
@@ -100,6 +113,8 @@ nonisolated enum VertexBuilder {
                     let normal = pack.normals[src]
                     lo = simd_min(lo, position); hi = simd_max(hi, position)
                     let style = styles.list[Int(styleOf[v])]
+                    // Pattern and tissue share one signed byte: pattern * 16 + tissue.
+                    let surfaceCode = (style.pattern * 16 + style.tissue) / 127
                     var tangent = SIMD3<Float>(1, 0, 0)
                     if let axis {
                         let t = axis - normal * simd_dot(axis, normal)
@@ -116,23 +131,14 @@ nonisolated enum VertexBuilder {
                     raw.storeBytes(of: position.x, toByteOffset: o, as: Float.self)
                     raw.storeBytes(of: position.y, toByteOffset: o + 4, as: Float.self)
                     raw.storeBytes(of: position.z, toByteOffset: o + 8, as: Float.self)
-                    raw.storeBytes(of: normal.x, toByteOffset: o + 12, as: Float.self)
-                    raw.storeBytes(of: normal.y, toByteOffset: o + 16, as: Float.self)
-                    raw.storeBytes(of: normal.z, toByteOffset: o + 20, as: Float.self)
-                    raw.storeBytes(of: tangent.x, toByteOffset: o + 24, as: Float.self)
-                    raw.storeBytes(of: tangent.y, toByteOffset: o + 28, as: Float.self)
-                    raw.storeBytes(of: tangent.z, toByteOffset: o + 32, as: Float.self)
-                    raw.storeBytes(of: UInt8((linear.x * 255).rounded()), toByteOffset: o + 36, as: UInt8.self)
-                    raw.storeBytes(of: UInt8((linear.y * 255).rounded()), toByteOffset: o + 37, as: UInt8.self)
-                    raw.storeBytes(of: UInt8((linear.z * 255).rounded()), toByteOffset: o + 38, as: UInt8.self)
-                    raw.storeBytes(of: pack.occlusion[src], toByteOffset: o + 39, as: UInt8.self)
-                    raw.storeBytes(of: style.fibre, toByteOffset: o + 40, as: Float.self)
-                    raw.storeBytes(of: style.wetness, toByteOffset: o + 44, as: Float.self)
-                    let fibreAxis = axis ?? tangent
-                    raw.storeBytes(of: fibreAxis.x, toByteOffset: o + 48, as: Float.self)
-                    raw.storeBytes(of: fibreAxis.y, toByteOffset: o + 52, as: Float.self)
-                    raw.storeBytes(of: fibreAxis.z, toByteOffset: o + 56, as: Float.self)
-                    raw.storeBytes(of: style.pattern, toByteOffset: o + 60, as: Float.self)
+                    storeSigned(normal, 0, raw, o + Offset.normal)
+                    storeSigned(tangent, 0, raw, o + Offset.tangent)
+                    storeUnsigned(SIMD4(linear, 0), raw, o + Offset.color)
+                    raw.storeBytes(of: pack.occlusion[src], toByteOffset: o + Offset.color + 3, as: UInt8.self)
+                    storeUnsigned(SIMD4(style.fibre, style.wetness, 0, 0), raw, o + Offset.uv1)
+                    storeSigned(axis ?? tangent, surfaceCode, raw, o + Offset.uv2)
+                    // The skin texture is the realistic look; teaching colours keep the regions apart.
+                    raw.storeBytes(of: textured ? pack.uvs[src] : 0, toByteOffset: o + Offset.uv0, as: UInt32.self)
                 }
                 bounds.append((lo, hi))
 
@@ -150,6 +156,50 @@ nonisolated enum VertexBuilder {
             }
         }
         return Output(vertices: data, indices: indices, ranges: ranges, bounds: bounds)
+    }
+
+    // MARK: Packed attributes
+
+    static func storeSigned(_ v: SIMD3<Float>, _ w: Float, _ raw: UnsafeMutableRawBufferPointer, _ offset: Int) {
+        storeSigned(v, w, raw.baseAddress!, offset)
+    }
+
+    static func storeUnsigned(_ v: SIMD4<Float>, _ raw: UnsafeMutableRawBufferPointer, _ offset: Int) {
+        storeUnsigned(v, raw.baseAddress!, offset)
+    }
+
+    /// Four signed normalised bytes (-1…1).
+    static func storeSigned(_ v: SIMD3<Float>, _ w: Float, _ p: UnsafeMutableRawPointer, _ offset: Int) {
+        let q = simd_clamp(SIMD4(v, w) * 127, SIMD4(repeating: -127), SIMD4(repeating: 127)).rounded(.toNearestOrAwayFromZero)
+        p.storeBytes(of: SIMD4<Int8>(Int8(q.x), Int8(q.y), Int8(q.z), Int8(q.w)), toByteOffset: offset, as: SIMD4<Int8>.self)
+    }
+
+    /// Four unsigned normalised bytes (0…1).
+    static func storeUnsigned(_ v: SIMD4<Float>, _ p: UnsafeMutableRawPointer, _ offset: Int) {
+        let q = simd_clamp(v * 255, SIMD4(repeating: 0), SIMD4(repeating: 255)).rounded(.toNearestOrAwayFromZero)
+        p.storeBytes(of: SIMD4<UInt8>(UInt8(q.x), UInt8(q.y), UInt8(q.z), UInt8(q.w)), toByteOffset: offset, as: SIMD4<UInt8>.self)
+    }
+
+    static func loadSigned(_ p: UnsafeRawPointer, _ offset: Int) -> SIMD4<Float> {
+        let b = p.loadUnaligned(fromByteOffset: offset, as: SIMD4<Int8>.self)
+        return SIMD4(Float(b.x), Float(b.y), Float(b.z), Float(b.w)) / 127
+    }
+
+    static func loadUnsigned(_ p: UnsafeRawPointer, _ offset: Int) -> SIMD4<Float> {
+        let b = p.loadUnaligned(fromByteOffset: offset, as: SIMD4<UInt8>.self)
+        return SIMD4(Float(b.x), Float(b.y), Float(b.z), Float(b.w)) / 255
+    }
+
+    static func loadPosition(_ p: UnsafeRawPointer, _ offset: Int) -> SIMD3<Float> {
+        SIMD3(p.loadUnaligned(fromByteOffset: offset, as: Float.self),
+              p.loadUnaligned(fromByteOffset: offset + 4, as: Float.self),
+              p.loadUnaligned(fromByteOffset: offset + 8, as: Float.self))
+    }
+
+    static func storePosition(_ v: SIMD3<Float>, _ p: UnsafeMutableRawPointer, _ offset: Int) {
+        p.storeBytes(of: v.x, toByteOffset: offset, as: Float.self)
+        p.storeBytes(of: v.y, toByteOffset: offset + 4, as: Float.self)
+        p.storeBytes(of: v.z, toByteOffset: offset + 8, as: Float.self)
     }
 
     private struct PartStyles {
@@ -217,4 +267,8 @@ nonisolated enum VertexBuilder {
         for byte in name.utf8 { hash = (hash ^ UInt32(byte)) &* 16777619 }
         return Float(hash % 1000) / 999
     }
+}
+
+extension SIMD4 where Scalar == Float {
+    nonisolated var xyz: SIMD3<Float> { SIMD3(x, y, z) }
 }

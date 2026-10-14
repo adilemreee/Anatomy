@@ -5,78 +5,71 @@
 
 import SwiftUI
 
-/// Browse the written atlas by body system or by region.
+/// Explore the written atlas: the structure of the day, body systems and
+/// body regions.
 struct SystemsView: View {
     @Environment(AppModel.self) private var app
 
-    private let columns = [GridItem(.adaptive(minimum: 160), spacing: 12)]
+    private let columns = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
 
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
+                VStack(alignment: .leading, spacing: 28) {
                     if let entry = entryOfTheDay {
                         NavigationLink(value: entry) {
                             DailyCard(entry: entry, system: app.store.system(entry.systemID))
                         }
-                        .buttonStyle(.plain)
+                        .buttonStyle(PressableStyle())
                     }
-                    LazyVGrid(columns: columns, spacing: 12) {
-                        ForEach(app.store.systems) { system in
-                            NavigationLink(value: system) {
-                                SystemCard(system: system, count: app.store.entries(in: system.id).count)
+
+                    VStack(alignment: .leading, spacing: 14) {
+                        SectionHeader(title: "Sistemler", subtitle: "\(app.store.entries.count) ayrıntılı madde, \(totalParts) üç boyutlu yapı")
+                        LazyVGrid(columns: columns, spacing: 12) {
+                            ForEach(app.store.systems) { system in
+                                NavigationLink(value: system) {
+                                    SystemCard(system: system, count: app.store.entries(in: system.id).count,
+                                               locked: !Access.canOpen(systemID: system.id, premium: app.isPremium))
+                                }
+                                .buttonStyle(PressableStyle())
                             }
-                            .buttonStyle(.plain)
                         }
                     }
 
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("Bölgelere göre")
-                            .font(.title2.weight(.bold))
-                        LazyVGrid(columns: columns, spacing: 12) {
+                    VStack(alignment: .leading, spacing: 14) {
+                        SectionHeader(title: "Bölgelere göre")
+                        LazyVGrid(columns: columns, spacing: 10) {
                             ForEach(BodyRegion.allCases) { region in
                                 let count = app.store.entries.filter { $0.region == region }.count
                                 if count > 0 {
                                     NavigationLink(value: region) {
-                                        HStack(spacing: 12) {
-                                            Image(systemName: region.icon)
-                                                .font(.title3)
-                                                .foregroundStyle(.tint)
-                                                .frame(width: 32)
-                                            VStack(alignment: .leading, spacing: 2) {
-                                                Text(region.title)
-                                                    .font(.subheadline.weight(.semibold))
-                                                    .foregroundStyle(.primary)
-                                                Text("\(count) yapı")
-                                                    .font(.caption)
-                                                    .foregroundStyle(.secondary)
-                                            }
-                                            Spacer(minLength: 0)
-                                        }
-                                        .padding(14)
-                                        .background(Color(.secondarySystemGroupedBackground), in: .rect(cornerRadius: 16))
+                                        RegionTile(region: region, count: count)
                                     }
-                                    .buttonStyle(.plain)
+                                    .buttonStyle(PressableStyle())
                                 }
                             }
                         }
                     }
                 }
-                .padding(16)
+                .padding(.horizontal, 16)
+                .padding(.bottom, 32)
             }
-            .atlasBackground()
-            .navigationTitle("Sistemler")
+            .themedBackground()
+            .navigationTitle("Keşfet")
             .navigationDestination(for: BodySystem.self) { SystemDetailView(system: $0) }
             .navigationDestination(for: BodyRegion.self) { RegionDetailView(region: $0) }
             .navigationDestination(for: AtlasEntry.self) { EntryDetailView(entry: $0) }
         }
     }
-}
 
-extension SystemsView {
-    /// A different structure every day, the same for the whole day.
-    fileprivate var entryOfTheDay: AtlasEntry? {
-        let entries = app.store.entries
+    private var totalParts: Int {
+        app.scene.manifests.values.reduce(0) { $0 + $1.count }
+    }
+
+    /// A different structure every day, the same for the whole day; free
+    /// users get one from the free system.
+    private var entryOfTheDay: AtlasEntry? {
+        let entries = app.isPremium ? app.store.entries : app.store.entries.filter(app.isFree)
         guard !entries.isEmpty else { return nil }
         let day = Calendar.current.ordinality(of: .day, in: .era, for: .now) ?? 0
         return entries[(day &* 7919) % entries.count]
@@ -88,73 +81,145 @@ private struct DailyCard: View {
     let system: BodySystem?
 
     var body: some View {
-        let tint = system?.tint ?? .accentColor
-        HStack(alignment: .top, spacing: 14) {
-            SystemBadge(icon: system?.icon ?? "sparkles", color: tint, size: 48)
-            VStack(alignment: .leading, spacing: 4) {
-                Text("GÜNÜN YAPISI")
-                    .font(.caption2.weight(.bold))
-                    .tracking(0.8)
-                    .foregroundStyle(tint)
+        let tint = system?.tint ?? Theme.accent
+        ZStack(alignment: .bottomLeading) {
+            Color.clear
+                .frame(height: 200)
+                .overlay {
+                    if let id = system?.id, let image = UIImage(named: "card-\(id)") {
+                        Image(uiImage: image).resizable().scaledToFill()
+                    } else {
+                        LinearGradient(colors: [tint.opacity(0.5), tint.opacity(0.1)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                    }
+                }
+                .overlay {
+                    LinearGradient(colors: [.clear, .black.opacity(0.55), .black.opacity(0.92)], startPoint: .top, endPoint: .bottom)
+                }
+                .clipped()
+            VStack(alignment: .leading, spacing: 5) {
+                Eyebrow(text: "Günün yapısı", color: tint)
                 Text(entry.tr)
-                    .font(.title3.weight(.bold))
-                    .foregroundStyle(.primary)
+                    .font(.title2.weight(.bold))
+                    .foregroundStyle(.white)
                 Text(entry.la)
-                    .font(.subheadline.italic())
-                    .foregroundStyle(.secondary)
+                    .font(Theme.latin(.subheadline))
+                    .foregroundStyle(.white.opacity(0.75))
                 Text(entry.summary)
                     .font(.footnote)
-                    .foregroundStyle(.secondary)
-                    .lineLimit(3)
+                    .foregroundStyle(.white.opacity(0.75))
+                    .lineLimit(2)
                     .multilineTextAlignment(.leading)
                     .padding(.top, 2)
             }
-            Spacer(minLength: 0)
+            .padding(18)
         }
-        .padding(16)
-        .background(
-            LinearGradient(colors: [tint.opacity(0.22), tint.opacity(0.06)], startPoint: .topLeading, endPoint: .bottomTrailing),
-            in: .rect(cornerRadius: 22)
-        )
-        .background(Color(.secondarySystemGroupedBackground), in: .rect(cornerRadius: 22))
+        .clipShape(.rect(cornerRadius: 24))
+        .overlay { RoundedRectangle(cornerRadius: 24).strokeBorder(Theme.stroke) }
     }
 }
 
 private struct SystemCard: View {
     let system: BodySystem
     let count: Int
+    let locked: Bool
 
     var body: some View {
         // A render of the system's own 3D model (Assets: card-<id>).
         let image = UIImage(named: "card-\(system.id)")
-        VStack(alignment: .leading, spacing: 10) {
-            SystemBadge(icon: system.icon, color: system.tint, size: 40)
-            Spacer(minLength: 0)
-            Text(system.tr)
-                .font(.headline)
-                .foregroundStyle(image == nil ? Color.primary : .white)
-                .lineLimit(2)
-                .multilineTextAlignment(.leading)
-            Text("\(count) yapı")
-                .font(.caption)
-                .foregroundStyle(image == nil ? Color.secondary : .white.opacity(0.75))
-        }
-        .frame(maxWidth: .infinity, minHeight: 150, alignment: .leading)
-        .padding(14)
-        .background {
-            if let image {
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFill()
-                    .overlay {
-                        LinearGradient(colors: [.black.opacity(0.05), .black.opacity(0.35), .black.opacity(0.8)], startPoint: .top, endPoint: .bottom)
+        ZStack(alignment: .bottomLeading) {
+            Color.clear
+                .frame(height: 168)
+                .overlay {
+                    if let image {
+                        Image(uiImage: image).resizable().scaledToFill()
+                    } else {
+                        LinearGradient(colors: [system.tint.opacity(0.35), system.tint.opacity(0.08)], startPoint: .topLeading, endPoint: .bottomTrailing)
                     }
-            } else {
-                LinearGradient(colors: [system.tint.opacity(0.18), system.tint.opacity(0.05)], startPoint: .topLeading, endPoint: .bottomTrailing)
-                    .background(Color(.secondarySystemGroupedBackground))
+                }
+                .overlay {
+                    LinearGradient(colors: [.clear, .black.opacity(0.4), .black.opacity(0.88)], startPoint: .top, endPoint: .bottom)
+                }
+                .clipped()
+            VStack(alignment: .leading, spacing: 3) {
+                Text(system.tr)
+                    .font(.headline)
+                    .foregroundStyle(.white)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
+                Text("\(count) madde")
+                    .font(.caption)
+                    .foregroundStyle(.white.opacity(0.7))
             }
+            .padding(12)
+        }
+        .overlay(alignment: .topLeading) {
+            SystemBadge(icon: system.icon, color: system.tint, size: 32)
+                .padding(10)
+        }
+        .overlay(alignment: .topTrailing) {
+            if locked { LockBadge().padding(10) }
         }
         .clipShape(.rect(cornerRadius: 20))
+        .overlay { RoundedRectangle(cornerRadius: 20).strokeBorder(Theme.stroke) }
+    }
+}
+
+private struct RegionTile: View {
+    let region: BodyRegion
+    let count: Int
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: region.icon)
+                .font(.title3)
+                .foregroundStyle(Theme.accent)
+                .frame(width: 30)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(region.title)
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.textPrimary)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.85)
+                Text("\(count) yapı")
+                    .font(.caption)
+                    .foregroundStyle(Theme.textSecondary)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(14)
+        .background(Theme.card, in: .rect(cornerRadius: 16))
+        .overlay { RoundedRectangle(cornerRadius: 16).strokeBorder(Theme.stroke) }
+    }
+}
+
+/// Entries grouped under small headings, on cards.
+private struct EntryGroupCard: View {
+    let title: String
+    let tint: Color
+    let entries: [AtlasEntry]
+    let locked: Bool
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Eyebrow(text: title, color: tint)
+                .padding(.horizontal, 4)
+            VStack(spacing: 0) {
+                ForEach(Array(entries.enumerated()), id: \.element.id) { index, entry in
+                    NavigationLink(value: entry) {
+                        EntryRow(entry: entry, tint: tint, locked: locked)
+                            .padding(.horizontal, 14)
+                            .padding(.vertical, 11)
+                            .contentShape(.rect)
+                    }
+                    .buttonStyle(.plain)
+                    if index < entries.count - 1 {
+                        Divider().overlay(Theme.stroke).padding(.leading, 14)
+                    }
+                }
+            }
+            .background(Theme.card, in: .rect(cornerRadius: 18))
+            .overlay { RoundedRectangle(cornerRadius: 18).strokeBorder(Theme.stroke) }
+        }
     }
 }
 
@@ -163,56 +228,63 @@ struct SystemDetailView: View {
     let system: BodySystem
 
     var body: some View {
-        List {
-            Section {
-                VStack(alignment: .leading, spacing: 12) {
-                    HStack(spacing: 14) {
-                        SystemBadge(icon: system.icon, color: system.tint, size: 56)
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(system.tr).font(.title2.weight(.bold))
-                            Text(system.la).font(.subheadline.italic()).foregroundStyle(system.tint)
-                        }
-                    }
-                    Text(system.intro)
-                        .font(.subheadline)
-                        .fixedSize(horizontal: false, vertical: true)
-                    if let layer = system.layer, ModelLayer.layer(layer) != nil {
-                        Button {
-                            showLayer(layer)
-                        } label: {
-                            Label("Sistemi 3D'de göster", systemImage: "cube.transparent")
-                                .frame(maxWidth: .infinity)
-                        }
-                        .buttonStyle(.glassProminent)
-                        .controlSize(.large)
-                    }
-                    let ids = app.store.entries(in: system.id).map(\.id)
-                    let mastery = app.study.mastery(of: ids)
-                    if mastery > 0 {
-                        HStack {
-                            ProgressRing(value: mastery, color: system.tint, lineWidth: 4)
-                                .frame(width: 22, height: 22)
-                            Text("Ustalık %\(Int(mastery * 100))")
-                                .font(.caption.weight(.medium))
-                                .foregroundStyle(.secondary)
-                        }
-                    }
+        let locked = !Access.canOpen(systemID: system.id, premium: app.isPremium)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                header(locked: locked)
+                ForEach(app.store.groups(in: system), id: \.title) { group in
+                    EntryGroupCard(title: group.title, tint: system.tint, entries: group.entries, locked: locked)
                 }
-                .padding(.vertical, 6)
             }
+            .padding(.horizontal, 16)
+            .padding(.bottom, 32)
+        }
+        .themedBackground()
+        .navigationTitle(system.tr)
+        .navigationBarTitleDisplayMode(.inline)
+    }
 
-            ForEach(app.store.groups(in: system), id: \.title) { group in
-                Section(group.title) {
-                    ForEach(group.entries) { entry in
-                        NavigationLink(value: entry) {
-                            EntryRow(entry: entry, tint: system.tint)
-                        }
-                    }
+    private func header(locked: Bool) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            HStack(spacing: 14) {
+                SystemBadge(icon: system.icon, color: system.tint, size: 56)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(system.tr).font(.title2.weight(.bold)).foregroundStyle(Theme.textPrimary)
+                    Text(system.la).font(Theme.latin(.subheadline)).foregroundStyle(system.tint)
+                }
+            }
+            Text(system.intro)
+                .font(.subheadline)
+                .foregroundStyle(Theme.textSecondary)
+                .fixedSize(horizontal: false, vertical: true)
+            if locked {
+                Button {
+                    app.requirePremium(.system(system.tr))
+                } label: {
+                    Label("Bu sistemi Premium ile aç", systemImage: "lock.open.fill")
+                }
+                .buttonStyle(PrimaryButtonStyle(gradient: Theme.goldGradient, foreground: Color(hex: "2A1D05")))
+            } else if let layer = system.layer, ModelLayer.layer(layer) != nil {
+                Button {
+                    showLayer(layer)
+                } label: {
+                    Label("Sistemi 3D'de göster", systemImage: "cube.transparent")
+                }
+                .buttonStyle(PrimaryButtonStyle())
+            }
+            let ids = app.store.entries(in: system.id).map(\.id)
+            let mastery = app.study.mastery(of: ids)
+            if mastery > 0 {
+                HStack {
+                    ProgressRing(value: mastery, color: system.tint, lineWidth: 4)
+                        .frame(width: 22, height: 22)
+                    Text("Ustalık %\(Int(mastery * 100))")
+                        .font(.caption.weight(.medium))
+                        .foregroundStyle(Theme.textSecondary)
                 }
             }
         }
-        .navigationTitle(system.tr)
-        .navigationBarTitleDisplayMode(.inline)
+        .padding(.top, 8)
     }
 
     private func showLayer(_ layer: String) {
@@ -235,20 +307,20 @@ struct RegionDetailView: View {
     let region: BodyRegion
 
     var body: some View {
-        List {
-            ForEach(app.store.systems) { system in
-                let items = app.store.entries(in: system.id).filter { $0.region == region }
-                if !items.isEmpty {
-                    Section(system.tr) {
-                        ForEach(items) { entry in
-                            NavigationLink(value: entry) {
-                                EntryRow(entry: entry, tint: system.tint)
-                            }
-                        }
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                ForEach(app.store.systems) { system in
+                    let items = app.store.entries(in: system.id).filter { $0.region == region }
+                    if !items.isEmpty {
+                        EntryGroupCard(title: system.tr, tint: system.tint, entries: items,
+                                       locked: !Access.canOpen(systemID: system.id, premium: app.isPremium))
                     }
                 }
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
         }
+        .themedBackground()
         .navigationTitle(region.title)
     }
 }
@@ -256,27 +328,42 @@ struct RegionDetailView: View {
 struct EntryRow: View {
     @Environment(AppModel.self) private var app
     let entry: AtlasEntry
-    var tint: Color = .accentColor
+    var tint: Color = Theme.accent
+    var locked = false
+    /// Lists draw their own disclosure indicator.
+    var chevron = true
 
     var body: some View {
         HStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 2) {
                 Text(entry.tr)
                     .font(.body.weight(.medium))
+                    .foregroundStyle(Theme.textPrimary)
                 Text(entry.la)
-                    .font(.subheadline.italic())
-                    .foregroundStyle(.secondary)
+                    .font(Theme.latin(.subheadline))
+                    .foregroundStyle(Theme.textSecondary)
             }
             Spacer()
-            if app.study.isFavorite(entry.id) {
-                Image(systemName: "star.fill")
+            if locked {
+                Image(systemName: "lock.fill")
                     .font(.caption)
-                    .foregroundStyle(.yellow)
+                    .foregroundStyle(Theme.gold)
+            } else {
+                if app.study.isFavorite(entry.id) {
+                    Image(systemName: "star.fill")
+                        .font(.caption)
+                        .foregroundStyle(Theme.gold)
+                }
+                let mastery = app.study.score(entry.id).mastery
+                if mastery > 0 {
+                    ProgressRing(value: mastery, color: tint, lineWidth: 3)
+                        .frame(width: 16, height: 16)
+                }
             }
-            let mastery = app.study.score(entry.id).mastery
-            if mastery > 0 {
-                ProgressRing(value: mastery, color: tint, lineWidth: 3)
-                    .frame(width: 16, height: 16)
+            if chevron {
+                Image(systemName: "chevron.right")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(Theme.textTertiary)
             }
         }
     }

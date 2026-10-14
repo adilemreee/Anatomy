@@ -37,6 +37,10 @@
     "Büyüme hormonu fazlalığı çocukta gigantizme, erişkinde akromegaliye yol açar.",
     "Doğum sonrası ağır kanamada hipofiz nekrozu (Sheehan sendromu) gelişebilir."
    ],
+   "tus": [
+    "Hipofiz sella turcica'da durur; üstünde diaphragma sellae ve optik kiazma, yanlarında sinus cavernosus vardır.",
+    "Hipofiz apopleksisi ani baş ağrısı, görme kaybı ve hipopitüitarizmle seyreden acil durumdur."
+   ],
    "related": [
     "hypothalamus",
     "os-sphenoidale",
@@ -83,6 +87,10 @@
    "sections": [],
    "clinical": [
     "Pineal tümörler aquaeductus'u tıkayarak hidrosefaliye ve tektuma bası yaparak yukarı bakış felcine (Parinaud sendromu) neden olabilir."
+   ],
+   "tus": [
+    "Epifiz melatonin salgılar; yaşla kalsifiye olur ve grafide orta hat göstergesi olarak kullanılabilir.",
+    "Pineal bölge tümörleri Parinaud sendromu ve akuadukt basısıyla hidrosefali yapabilir."
    ],
    "related": [
     "thalamus",
@@ -138,6 +146,10 @@
     "Tiroidektomide n. laryngeus recurrens hasarı ses kısıklığına, paratiroidlerin çıkarılması hipokalsemiye (tetani) yol açabilir.",
     "Yutkunmayla bez yukarı-aşağı hareket eder; boyun kitlelerinin tiroid kaynaklı olup olmadığı bu şekilde anlaşılır."
    ],
+   "tus": [
+    "Tiroid isthmusu 2.–4. trakea halkalarının önündedir; bez pretrakeal fasya ile sarılı olduğundan yutkunmayla hareket eder.",
+    "A. thyroidea superior n. laryngeus externus ile, a. thyroidea inferior n. laryngeus recurrens ile yakın komşuluktadır."
+   ],
    "related": [
     "glandulae-parathyroideae",
     "larynx",
@@ -183,6 +195,10 @@
    "clinical": [
     "Primer hiperparatiroidi (çoğunlukla adenom) böbrek taşı, kemik ağrısı, karın ağrısı ve psikiyatrik belirtilere yol açar (‘taşlar, kemikler, inlemeler, iniltiler’).",
     "Tiroid cerrahisi sonrası hipoparatiroidide ağız çevresinde uyuşma, Chvostek ve Trousseau bulguları görülür."
+   ],
+   "tus": [
+    "Alt paratiroidler 3. faringeal keseden (timusla birlikte), üst paratiroidler 4. keseden gelişir; alt paratiroidlerin yeri daha değişkendir.",
+    "Paratiroidlerin kanlanması çoğunlukla a. thyroidea inferior'dandır."
    ],
    "related": [
     "glandula-thyroidea",
@@ -230,6 +246,10 @@
     "Addison hastalığı (kortizol eksikliği): halsizlik, hipotansiyon, deride koyulaşma.",
     "Feokromositoma (medulla tümörü) atak tarzında yüksek tansiyon, çarpıntı, terleme yapar."
    ],
+   "tus": [
+    "Adrenal korteks katmanları (dıştan içe): zona glomerulosa (aldosteron), fasciculata (kortizol), reticularis (androjenler).",
+    "Adrenal korteks mezodermden, medulla nöral kristadan gelişir."
+   ],
    "related": [
     "ren",
     "systema-autonomicum",
@@ -272,6 +292,10 @@
     "Tip 1 diyabet β hücrelerinin otoimmün yıkımıyla, tip 2 diyabet insülin direnci ve göreli insülin eksikliğiyle gelişir.",
     "İnsülinoma tekrarlayan hipoglisemi ataklarına neden olur."
    ],
+   "tus": [
+    "Langerhans adacıkları pankreas kuyruğunda daha yoğundur.",
+    "İnsülinoma en sık pankreatik nöroendokrin tümördür; Whipple üçlüsüyle (hipoglisemi belirtileri, düşük glukoz, glukozla düzelme) tanınır."
+   ],
    "related": [
     "pancreas",
     "hepar"
@@ -281,6 +305,114 @@
     "Langerhans",
     "insülin",
     "glukagon"
+   ]
+  },
+  {
+   "id": "adenohypophysis",
+   "tr": "Ön hipofiz (adenohipofiz)",
+   "la": "Adenohypophysis",
+   "en": "Anterior pituitary",
+   "group": "Endokrin bezler",
+   "region": "head",
+   "summary": "Hipofiz bezinin ön, salgı yapan bölümüdür; hipotalamusun salgıladığı serbestleştirici ve baskılayıcı hormonlarla hipofizer portal sistem aracılığıyla kontrol edilir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Pars distalis (ana kitle), pars intermedia, pars tuberalis"
+    ],
+    [
+     "Köken",
+     "Ağız boşluğu tavanının ektodermi – Rathke kesesi"
+    ],
+    [
+     "Hormonları",
+     "GH, PRL (asidofiller); ACTH, TSH, FSH, LH (bazofiller) – 'FLAT PiG'"
+    ],
+    [
+     "Kanlanma",
+     "A. hypophysialis superior → eminentia mediana kapilerleri → portal venler → ön hipofiz kapilerleri (doğrudan arteriyel kan çok azdır)"
+    ],
+    [
+     "Kontrol",
+     "Hipotalamik GHRH, TRH, CRH, GnRH (uyarıcı); somatostatin ve dopamin (baskılayıcı)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Prolaktinoma en sık hipofiz adenomudur; galaktore, amenore ve infertiliteye yol açar; dopamin agonistleriyle tedavi edilir.",
+    "Doğum sonrası ağır kanamada büyüyen ön hipofiz iskemiye girebilir (Sheehan sendromu): emzirememe, amenore, hipotiroidi."
+   ],
+   "tus": [
+    "Kraniyofarenjiyom Rathke kesesi kalıntısından gelişir; çocuklarda kalsifiye supraseller kitle olarak görülür.",
+    "Ön hipofizin kanlanması portal sisteme bağımlı olduğundan iskemiye arka hipofizden daha duyarlıdır."
+   ],
+   "related": [
+    "hypophysis",
+    "neurohypophysis",
+    "hypothalamus",
+    "os-sphenoidale"
+   ],
+   "models": [
+    "Adenohypophysis"
+   ],
+   "aliases": [
+    "ön hipofiz",
+    "adenohipofiz",
+    "Rathke"
+   ]
+  },
+  {
+   "id": "neurohypophysis",
+   "tr": "Arka hipofiz (nörohipofiz)",
+   "la": "Neurohypophysis",
+   "en": "Posterior pituitary",
+   "group": "Endokrin bezler",
+   "region": "head",
+   "summary": "Hipofizin arka bölümüdür; hormon üretmez, hipotalamusun supraoptik ve paraventriküler çekirdeklerinde yapılan ADH ve oksitosini depolar ve kana verir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Pars nervosa (lobus posterior), infundibulum, eminentia mediana"
+    ],
+    [
+     "Köken",
+     "Diensefalonun aşağı uzantısı (nöroektoderm)"
+    ],
+    [
+     "Yapı",
+     "Hipotalamo-hipofizer yolun aksonları, Herring cisimleri (hormon depoları) ve pituisitler (glia)"
+    ],
+    [
+     "Hormonlar",
+     "ADH (vazopressin) – suda tutulumu; oksitosin – uterus kasılması ve süt ejeksiyonu"
+    ],
+    [
+     "Kanlanma",
+     "A. hypophysialis inferior (a. carotis interna'dan)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Santral diabetes insipidus arka hipofiz veya hipotalamus hasarında gelişir; çok miktarda seyreltik idrar yapılır.",
+    "Hipofiz sapı kesildiğinde ADH salınımı bozulur; ancak prolaktin dopamin baskısı kalktığı için artar."
+   ],
+   "tus": [
+    "Arka hipofiz hipotalamusun uzantısıdır; hormon sentezlemez, depolar.",
+    "MR'da T1'de arka hipofiz parlaklığı ('bright spot') ADH depolarını gösterir; santral DI'de kaybolur."
+   ],
+   "related": [
+    "hypophysis",
+    "adenohypophysis",
+    "hypothalamus"
+   ],
+   "models": [
+    "Neurohypophysis"
+   ],
+   "aliases": [
+    "arka hipofiz",
+    "nörohipofiz",
+    "ADH",
+    "oksitosin"
    ]
   }
  ]

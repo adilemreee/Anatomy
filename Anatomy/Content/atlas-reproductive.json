@@ -46,6 +46,10 @@
     "Testis torsiyonu ani başlayan şiddetli skrotal ağrıyla seyreden acil bir durumdur; 6 saat içinde müdahale gerekir.",
     "Varikosel en sık solda görülür (sol testiküler venin renal vene dik açıyla dökülmesi)."
    ],
+   "tus": [
+    "Testis arteri aortadan (L2), venleri sağda VCI'ya, solda sol renal vene açılır.",
+    "Testis tümörlerinin çoğu germ hücreli tümörlerdir; lenfatik yayılım paraaortik düğümlere olur."
+   ],
    "related": [
     "epididymis",
     "ductus-deferens",
@@ -81,6 +85,10 @@
    "sections": [],
    "clinical": [
     "Epididimit genellikle cinsel yolla bulaşan veya idrar yolu kaynaklı enfeksiyonla gelişir; skrotum kaldırılınca ağrı azalır (Prehn bulgusu)."
+   ],
+   "tus": [
+    "Spermler epididimde olgunlaşır ve hareket yeteneği kazanır; kuyruk bölümü depo görevi görür.",
+    "Epididimit testis torsiyonuyla karışabilir; Prehn belirtisi (testisi kaldırınca ağrının azalması) epididimiti düşündürür."
    ],
    "related": [
     "testis",
@@ -119,6 +127,10 @@
    "clinical": [
     "Vazektomide skrotum üst kısmında ductus deferens kesilip bağlanarak kalıcı doğum kontrolü sağlanır."
    ],
+   "tus": [
+    "Ductus deferens derin inguinal halkada a. epigastrica inferior'un lateralinden dolanır, pelviste üreterin üzerinden geçer.",
+    "Vazektomide ductus deferens skrotum kökünde ele gelen sert kordon olarak bulunur."
+   ],
    "related": [
     "epididymis",
     "glandula-vesiculosa",
@@ -153,6 +165,9 @@
    ],
    "sections": [],
    "clinical": [],
+   "tus": [
+    "Seminal bez semenin büyük kısmını oluşturan fruktozdan zengin salgıyı yapar; kendisi sperm depolamaz."
+   ],
    "related": [
     "ductus-deferens",
     "prostata",
@@ -195,6 +210,10 @@
    "clinical": [
     "Benign prostat hiperplazisi (BPH) yaşlı erkeklerde idrar yapma güçlüğü, sık idrara çıkma ve gece idrara kalkmaya neden olur.",
     "Prostat kanseri erkeklerde en sık görülen kanserlerdendir; omurgaya metastaz yapabilir (Batson venöz pleksusu)."
+   ],
+   "tus": [
+    "Prostat kanseri en sık periferik zonda gelişir ve rektal tuşede ele gelir; BPH transizyonel zonda gelişir.",
+    "Prostatın venöz pleksusu (Santorini) vertebral venöz pleksusla bağlantılıdır; kanserin omurgaya metastazını açıklar."
    ],
    "related": [
     "vesica-urinaria",
@@ -244,6 +263,10 @@
    "clinical": [
     "Erektil disfonksiyonun en sık nedeni vasküler hastalıklardır.",
     "Hipospadiaste üretra glansın alt yüzünde açılır."
+   ],
+   "tus": [
+    "Ereksiyon parasempatik (pelvik splanknik sinirler, S2–S4), ejakülasyon sempatik (L1–L2) kontrol altındadır ('point and shoot').",
+    "Penisin derin dorsal veni fascia penis profunda (Buck) altında, yüzeyel dorsal veni bu fasyanın üstündedir."
    ],
    "related": [
     "urethra",
@@ -302,12 +325,18 @@
     "Over kanseri genellikle geç tanı alır; ‘sessiz katil’ olarak bilinir.",
     "Over ağrısı fossa ovarica'nın yan duvarındaki n. obturatorius nedeniyle uyluk iç yüzüne yansıyabilir."
    ],
+   "tus": [
+    "Over arteri aortadan çıkar ve lig. suspensorium ovarii içinde seyreder; uterin arterle anastomoz yapar.",
+    "Over torsiyonu ani başlayan şiddetli alt karın ağrısıyla gelir ve acil cerrahi gerektirir."
+   ],
    "related": [
     "tuba-uterina",
     "uterus",
     "aorta"
    ],
-   "models": [],
+   "models": [
+    "Ovary"
+   ],
    "aliases": [
     "over",
     "yumurtalık"
@@ -337,11 +366,21 @@
     "Pelvik inflamatuvar hastalık tüp hasarı ve infertiliteye yol açabilir.",
     "Tüp ligasyonu kalıcı doğum kontrol yöntemidir."
    ],
+   "tus": [
+    "Fertilizasyon en sık ampullada gerçekleşir; ektopik gebeliğin en sık yeri de ampulladır.",
+    "Tubanın bölümleri lateralden mediale: infundibulum (fimbriae), ampulla, isthmus, pars uterina."
+   ],
    "related": [
     "ovarium",
     "uterus"
    ],
-   "models": [],
+   "models": [
+    "Uterine tube",
+    "Ampulla of uterine tube",
+    "Isthmus of uterine tube",
+    "Infundibulum of uterine tube",
+    "Fimbriae of uterine tube"
+   ],
    "aliases": [
     "fallop",
     "tuba",
@@ -389,6 +428,10 @@
     "Rahim ağzı (serviks) kanseri HPV ile ilişkilidir; Pap smear taraması ve HPV aşısı ile önlenebilir.",
     "Endometriozis, endometrium dokusunun uterus dışında bulunmasıdır."
    ],
+   "tus": [
+    "Uterus normalde antevert ve antefleks pozisyondadır.",
+    "A. uterina a. iliaca interna'nın ön trunkusundan çıkar ve servikse yakın üreterin üstünden geçer."
+   ],
    "related": [
     "tuba-uterina",
     "ovarium",
@@ -397,7 +440,10 @@
     "rectum",
     "ureter"
    ],
-   "models": [],
+   "models": [
+    "Uterus",
+    "Cervix of uterus"
+   ],
    "aliases": [
     "rahim",
     "serviks",
@@ -431,12 +477,18 @@
     "Arka forniksten Douglas boşluğuna ulaşılabilir (kuldosentez).",
     "Doğum sırasında perine yırtıklarını önlemek için epizyotomi yapılabilir."
    ],
+   "tus": [
+    "Vajinanın üst 1/3'ü paramezonefrik kanaldan, alt 2/3'ü ürogenital sinüsten gelişir.",
+    "Arka forniks Douglas boşluğuna komşudur; kuldosentez buradan yapılır."
+   ],
    "related": [
     "uterus",
     "vulva",
     "diaphragma-pelvis"
    ],
-   "models": [],
+   "models": [
+    "Vagina"
+   ],
    "aliases": [
     "vajina"
    ]
@@ -466,6 +518,10 @@
    "sections": [],
    "clinical": [
     "Bartholin bezi kanalının tıkanması kist veya apseye yol açabilir."
+   ],
+   "tus": [
+    "Bartholin (büyük vestibüler) bezleri labium minus ile himen arasında saat 4 ve 8 yönünde açılır; apse sık görülür.",
+    "Klitoris, penisin homoloğudur; n. dorsalis clitoridis (n. pudendus) ile innerve edilir."
    ],
    "related": [
     "vagina",
@@ -514,15 +570,400 @@
     "Kanserin Cooper bağlarını tutması deride çekintiye, lenfatik tıkanma ‘portakal kabuğu’ görünümüne (peau d'orange) yol açar.",
     "Erkeklerde meme dokusunun büyümesine jinekomasti denir."
    ],
+   "tus": [
+    "Meme lenfinin ~%75'i aksiller düğümlere, iç yarısının bir kısmı parasternal düğümlere gider.",
+    "Meme dokusunun aksillaya uzanan kısmı Spence kuyruğudur; tümörler en sık üst dış kadranda görülür."
+   ],
    "related": [
     "m-pectoralis-major",
     "a-subclavia",
     "nodi-lymphoidei"
    ],
-   "models": [],
+   "models": [
+    "Mammary gland",
+    "Nipple",
+    "Areola"
+   ],
    "aliases": [
     "meme",
     "göğüs"
+   ]
+  },
+  {
+   "id": "ductus-ejaculatorius",
+   "tr": "Ejakülatör kanal",
+   "la": "Ductus ejaculatorius",
+   "en": "Ejaculatory duct",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Ductus deferens'in ampullası ile seminal bezin kanalının birleşmesiyle oluşan, prostatın içinden geçerek prostatik üretraya açılan yaklaşık 2 cm'lik çift kanaldır.",
+   "facts": [
+    [
+     "Oluşum",
+     "Ampulla ductus deferentis + ductus excretorius glandulae vesiculosae"
+    ],
+    [
+     "Seyir",
+     "Prostatın arka-üst yüzünden girer, bezin içinde öne-aşağı iner"
+    ],
+    [
+     "Açılım",
+     "Colliculus seminalis üzerinde, utriculus prostaticus'un iki yanına"
+    ],
+    [
+     "Duvar",
+     "İnce, kas tabakası zayıf; boşaltımı çevre kasların kasılmasıyla olur"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ejakülatör kanal tıkanıklığı düşük hacimli, fruktozsuz ve azoospermik ejakülata yol açar.",
+    "Transrektal ultrasonda kanal kistleri ve genişlemesi gösterilebilir."
+   ],
+   "tus": [
+    "Utriculus prostaticus paramezonefrik (Müller) kanal kalıntısıdır; uterusun erkekteki homoloğudur.",
+    "Semen hacminin büyük kısmı (~%60–70) seminal bezlerden, ~%20–30'u prostattan gelir."
+   ],
+   "related": [
+    "ductus-deferens",
+    "glandula-vesiculosa",
+    "prostata",
+    "urethra-masculina"
+   ],
+   "models": [
+    "Ejaculatory duct"
+   ],
+   "aliases": [
+    "ejakülatör kanal"
+   ]
+  },
+  {
+   "id": "funiculus-spermaticus",
+   "tr": "Spermatik kord",
+   "la": "Funiculus spermaticus",
+   "en": "Spermatic cord",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Derin inguinal halkadan testisin arka kenarına uzanan, ductus deferens ile testisin damar, sinir ve lenfatiklerini saran kılıflı demettir. Inguinal kanalın içinden geçer.",
+   "facts": [
+    [
+     "İçerik",
+     "Ductus deferens, a. testicularis, a. ductus deferentis, a. cremasterica, plexus pampiniformis, lenfatikler, otonom sinirler, n. genitofemoralis'in r. genitalis'i, processus vaginalis kalıntısı"
+    ],
+    [
+     "Kılıflar",
+     "Fascia spermatica externa (dış oblik aponevrozu), fascia cremasterica ve m. cremaster (iç oblik), fascia spermatica interna (fascia transversalis)"
+    ],
+    [
+     "N. ilioinguinalis",
+     "Kordun içinde değil, üzerinde (yüzeyel halkadan çıkarken) seyreder"
+    ],
+    [
+     "Ele gelme",
+     "Skrotum kökünde ductus deferens sert bir kordon gibi hissedilir (vazektomi yeri)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Testis torsiyonu kordun kendi ekseni etrafında dönmesidir; ani skrotal ağrı ve kremaster refleksinin kaybıyla gelir, 6 saat içinde detorsiyon gerekir.",
+    "Varikosel pampiniform pleksusun genişlemesidir; 'solucan torbası' gibi ele gelir."
+   ],
+   "tus": [
+    "Kordun kılıfları karın duvarı katmanlarının devamıdır: fascia spermatica externa – dış oblik, kremaster – iç oblik, interna – fascia transversalis.",
+    "Transversus abdominis kordun kılıfına katılmaz."
+   ],
+   "related": [
+    "testis",
+    "ductus-deferens",
+    "canalis-inguinalis",
+    "m-obliquus-internus"
+   ],
+   "models": [
+    "Ductus deferens"
+   ],
+   "aliases": [
+    "spermatik kord",
+    "funikulus"
+   ]
+  },
+  {
+   "id": "scrotum",
+   "tr": "Skrotum (torba)",
+   "la": "Scrotum",
+   "en": "Scrotum",
+   "group": "Erkek üreme organları",
+   "region": "pelvis",
+   "summary": "Testisleri, epididimleri ve spermatik kordun alt kısmını içeren, karın duvarının dışarı çıkmış bir kesesi gibi gelişen deri ve kas torbasıdır. Testislerin vücut ısısından 2–3 °C serin kalmasını sağlar.",
+   "facts": [
+    [
+     "Katmanlar",
+     "Deri, tunica dartos (düz kas, deri altı yağ yok), fascia spermatica externa, kremaster, fascia spermatica interna, tunica vaginalis (parietal ve visseral)"
+    ],
+    [
+     "Septum",
+     "Raphe scroti ve septum scroti iki bölmeyi ayırır"
+    ],
+    [
+     "Kanlanma",
+     "A. pudenda externa (a. femoralis) ve a. scrotalis posterior (a. pudenda interna)"
+    ],
+    [
+     "İnnervasyon",
+     "Ön: n. ilioinguinalis ve n. genitofemoralis (L1); arka: n. pudendus (S3) ve n. cutaneus femoris posterior"
+    ],
+    [
+     "Lenf drenajı",
+     "Yüzeyel inguinal lenf düğümleri (testis ise paraaortik düğümlere)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hidrosel tunica vaginalis içinde sıvı birikimidir ve ışık geçirir (transillüminasyon pozitif).",
+    "Skrotum derisi kanserleri inguinal düğümlere, testis tümörleri paraaortik düğümlere metastaz yapar."
+   ],
+   "tus": [
+    "Skrotum ile testisin lenf drenajı farklıdır: skrotum yüzeyel inguinal, testis lomber (paraaortik) düğümlere.",
+    "Tunica dartos soğukta kasılarak skrotumu büzüştürür; sempatik liflerle kontrol edilir."
+   ],
+   "related": [
+    "testis",
+    "epididymis",
+    "funiculus-spermaticus",
+    "perineum"
+   ],
+   "models": [
+    "Scrotum"
+   ],
+   "aliases": [
+    "skrotum",
+    "hidrosel"
+   ]
+  },
+  {
+   "id": "cervix-uteri",
+   "tr": "Rahim ağzı (serviks)",
+   "la": "Cervix uteri",
+   "en": "Cervix of uterus",
+   "group": "Kadın üreme organları",
+   "region": "pelvis",
+   "summary": "Uterusun alt, dar ve silindirik bölümüdür; vajinaya uzanan bölümü portio vaginalis, üstü portio supravaginalis'tir. Ortasındaki canalis cervicis uterus boşluğunu vajinaya bağlar.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Portio supravaginalis ve portio vaginalis; ostium uteri internum ve externum"
+    ],
+    [
+     "Epitel",
+     "Endoserviks tek katlı müsin salgılayan kolumnar; ektoserviks çok katlı yassı; birleşim yeri (transformasyon zonu)"
+    ],
+    [
+     "Destek",
+     "Lig. cardinale (transversum cervicis), lig. uterosacrale ve lig. pubocervicale servikse tutunur"
+    ],
+    [
+     "Komşuluk",
+     "Supravajinal kısmın 2 cm kadar yanında üreter, üzerinden a. uterina çaprazlar"
+    ],
+    [
+     "Lenf drenajı",
+     "İç ve dış iliak, obturator ve sakral düğümler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Serviks kanserinin büyük kısmı transformasyon zonunda HPV ile ilişkili olarak gelişir; Pap smear ve HPV testiyle tarama yapılır.",
+    "Doğum sırasında serviks silinir ve yaklaşık 10 cm açılır."
+   ],
+   "tus": [
+    "Histerektomide üreter, serviksin yanında a. uterina'nın altından geçtiği için bağlanma veya kesilme riski taşır ('köprünün altından akan su').",
+    "Doğurmamış kadında ostium externum yuvarlak, doğurmuş kadında yarık biçimlidir."
+   ],
+   "related": [
+    "uterus",
+    "vagina",
+    "ligamenta-uteri",
+    "ureter"
+   ],
+   "models": [
+    "Cervix of uterus"
+   ],
+   "aliases": [
+    "serviks",
+    "rahim ağzı",
+    "transformasyon zonu"
+   ]
+  },
+  {
+   "id": "ligamenta-uteri",
+   "tr": "Rahim bağları ve destekleri",
+   "la": "Ligamenta uteri",
+   "en": "Ligaments of the uterus",
+   "group": "Kadın üreme organları",
+   "region": "pelvis",
+   "summary": "Uterusu pelvis içinde tutan periton kıvrımları, fibromüsküler bağlar ve pelvis tabanından oluşan destek sistemidir. Asıl destek serviks çevresindeki bağlar ve m. levator ani ile sağlanır.",
+   "facts": [
+    [
+     "Lig. latum uteri",
+     "Uterusun yanlarından pelvis duvarına uzanan çift katlı periton; mesometrium, mesosalpinx ve mesovarium bölümleri; içinde a. uterina, üreter (taban), lig. teres ve lig. ovarii proprium"
+    ],
+    [
+     "Lig. teres uteri (round lig.)",
+     "Uterus köşesinden inguinal kanal yoluyla labium majus'a uzanır; gubernakulum kalıntısı; uterusu anteversiyonda tutmaya yardım eder"
+    ],
+    [
+     "Lig. cardinale (Mackenrodt)",
+     "Serviks ve vajen üst kısmından pelvis yan duvarına; a. uterina'yı taşır; en önemli pasif destek"
+    ],
+    [
+     "Lig. uterosacrale",
+     "Serviksten sakruma; serviksi geride tutar (anteversiyonu sürdürür)"
+    ],
+    [
+     "Lig. ovarii proprium ve lig. suspensorium ovarii",
+     "Overi uterusa bağlayan bağ ve over damarlarını taşıyan infundibulopelvik bağ"
+    ]
+   ],
+   "sections": [
+    [
+     "Normal pozisyon",
+     "Uterus çoğunlukla antevert (serviks vajene göre öne açılı) ve antefleks (gövde servikse göre öne bükük) konumdadır."
+    ]
+   ],
+   "clinical": [
+    "Destek bağlarının ve pelvis tabanının zayıflaması (çoklu doğum, yaşlanma) uterus prolapsusuna yol açar.",
+    "Lig. teres uteri gebelikte gerilerek kasık ağrısına neden olabilir."
+   ],
+   "tus": [
+    "Lig. suspensorium ovarii (infundibulopelvik bağ) a. ve v. ovarica'yı taşır; ooferektomide bağlanırken yakınındaki üreter korunmalıdır.",
+    "Uterusu yerinde tutan en önemli yapılar lig. cardinale, lig. uterosacrale ve m. levator ani'dir; lig. latum ve lig. teres zayıf desteklerdir."
+   ],
+   "related": [
+    "uterus",
+    "cervix-uteri",
+    "ovarium",
+    "tuba-uterina",
+    "diaphragma-pelvis",
+    "canalis-inguinalis"
+   ],
+   "models": [],
+   "aliases": [
+    "lig. latum",
+    "round ligament",
+    "kardinal bağ",
+    "uterosakral bağ"
+   ]
+  },
+  {
+   "id": "excavatio-rectouterina",
+   "tr": "Douglas boşluğu",
+   "la": "Excavatio rectouterina",
+   "en": "Rectouterine pouch",
+   "group": "Kadın üreme organları",
+   "region": "pelvis",
+   "summary": "Kadında periton boşluğunun rektum ile uterus arasında kalan, ayakta duran kişide karın-pelvis boşluğunun en alçak noktasıdır. Erkekte karşılığı excavatio rectovesicalis'tir.",
+   "facts": [
+    [
+     "Sınırları",
+     "Önde uterusun arka yüzü ve vajinanın arka forniksi, arkada rektum; yanlarda plicae rectouterinae"
+    ],
+    [
+     "Komşuluk",
+     "Tabanı vajinanın arka forniksine çok yakındır (yalnızca vajen duvarı ve periton ile ayrılır)"
+    ],
+    [
+     "Öndeki cep",
+     "Excavatio vesicouterina (mesane ile uterus arası, daha sığ)"
+    ],
+    [
+     "İçerik",
+     "Normalde ince bağırsak halkaları ve sigmoid kolon"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pelviste biriken kan, irin veya asit önce burada toplanır; arka forniksten iğneyle girilerek (kuldosentez) örnek alınabilir.",
+    "Endometriozis ve over kanseri implantları sıklıkla Douglas boşluğunda yerleşir; rektal tuşede ele gelebilir."
+   ],
+   "tus": [
+    "Ayakta duran kadında periton boşluğunun en alçak yeri Douglas boşluğu, sırtüstü yatan kişide ise hepatorenal cep (Morison) olur.",
+    "Ektopik gebelik rüptüründe kan Douglas boşluğunda toplanır."
+   ],
+   "related": [
+    "uterus",
+    "rectum",
+    "vagina",
+    "peritoneum"
+   ],
+   "models": [],
+   "aliases": [
+    "Douglas",
+    "rektouterin cep",
+    "kuldosentez"
+   ]
+  },
+  {
+   "id": "perineum",
+   "tr": "Perine",
+   "la": "Perineum",
+   "en": "Perineum",
+   "group": "Perine",
+   "region": "pelvis",
+   "summary": "Pelvis tabanının (pelvik diyafram) altında, iki uyluk arasında kalan elmas biçimli bölgedir. İki tuber ischiadicum'u birleştiren çizgiyle önde ürogenital, arkada anal üçgene ayrılır.",
+   "facts": [
+    [
+     "Sınırları",
+     "Önde symphysis pubica, yanlarda ramus ischiopubicus ve tuber ischiadicum, arkada lig. sacrotuberale ve koksiks"
+    ],
+    [
+     "Ürogenital üçgen",
+     "Perine zarı (membrana perinei) ile yüzeyel ve derin perine boşluklarına ayrılır; dış genital organlar ve üretra"
+    ],
+    [
+     "Anal üçgen",
+     "Anal kanal, dış anal sfinkter ve iki yanda fossa ischioanalis (yağ dolu)"
+    ],
+    [
+     "Corpus perineale",
+     "Ürogenital ve anal üçgenler arasındaki fibromüsküler düğüm; bulbospongiosus, yüzeyel ve derin transvers perine kasları, dış anal sfinkter ve levator ani lifleri tutunur"
+    ],
+    [
+     "Sinir ve damar",
+     "N. pudendus ve a./v. pudenda interna; canalis pudendalis (Alcock) içinde fossa ischioanalis'in yan duvarında seyreder"
+    ]
+   ],
+   "sections": [
+    [
+     "Yüzeyel perine boşluğu",
+     "Colles fasyası ile perine zarı arasındadır; kökler (crura), bulbus, ischiocavernosus ve bulbospongiosus kasları, büyük vestibül bezleri (kadında) bulunur. Colles fasyası karın duvarındaki Scarpa fasyasının devamıdır."
+    ]
+   ],
+   "clinical": [
+    "Doğumda perine gerildiğinde corpus perineale yırtılabilir; epizyotomi bu riski azaltmak için yapılır (çoğunlukla mediolateral).",
+    "Fossa ischioanalis apseleri yağ dokusunda kolayca yayılabilir ve karşı tarafa (at nalı apse) geçebilir."
+   ],
+   "tus": [
+    "Corpus perineale pelvis tabanının merkezî destek noktasıdır; hasarı prolapsusa yatkınlık yaratır.",
+    "Pudendal blok için iğne spina ischiadica'ya yönlendirilir; n. pudendus burada lig. sacrospinale'yi dolanır."
+   ],
+   "related": [
+    "diaphragma-pelvis",
+    "n-pudendus",
+    "canalis-analis",
+    "urethra-masculina",
+    "vulva",
+    "penis"
+   ],
+   "models": [
+    "Regions of perineum",
+    "Perineal muscles",
+    "Urogenital region",
+    "Anal region"
+   ],
+   "aliases": [
+    "perine",
+    "corpus perineale",
+    "Alcock kanalı",
+    "iskioanal fossa"
    ]
   }
  ]

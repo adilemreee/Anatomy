@@ -67,7 +67,8 @@ struct ContentCard<Content: View>: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(16)
-        .background(Color(.secondarySystemGroupedBackground), in: .rect(cornerRadius: 18))
+        .background(Theme.card, in: .rect(cornerRadius: 18))
+        .overlay { RoundedRectangle(cornerRadius: 18).strokeBorder(Theme.stroke) }
     }
 }
 
@@ -86,12 +87,13 @@ struct FactTable: View {
                         .foregroundStyle(tint)
                     Text(fact.value)
                         .font(.subheadline)
+                        .foregroundStyle(Theme.textPrimary)
                         .fixedSize(horizontal: false, vertical: true)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.vertical, 10)
                 if index < facts.count - 1 {
-                    Divider()
+                    Divider().overlay(Theme.stroke)
                 }
             }
         }
@@ -136,6 +138,7 @@ struct ProgressRing: View {
 extension View {
     /// Applies the app-wide grouped background.
     func atlasBackground() -> some View {
-        background(Color(.systemGroupedBackground).ignoresSafeArea())
+        background(Theme.background.ignoresSafeArea())
+            .scrollContentBackground(.hidden)
     }
 }

@@ -1,0 +1,464 @@
+{
+ "system": "integumentary",
+ "questions": [
+  {
+   "id": "in-3d287941",
+   "group": "Deri katmanları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Epidermisin derinden yüzeye doğru katmanlarının doğru sıralaması hangisidir?",
+   "options": [
+    "Stratum basale, lucidum, spinosum, granulosum, corneum",
+    "Stratum basale, spinosum, granulosum, lucidum, corneum",
+    "Stratum corneum, lucidum, granulosum, spinosum, basale",
+    "Stratum spinosum, basale, granulosum, lucidum, corneum",
+    "Stratum basale, granulosum, spinosum, corneum, lucidum"
+   ],
+   "answer": 1,
+   "explanation": "Keratinositler bazal tabakada bölünür ve yüzeye doğru olgunlaşarak keratinize olur. Stratum lucidum yalnızca avuç içi ve ayak tabanı gibi kalın deride belirgindir. Epidermiste kan damarı yoktur; beslenme dermisten difüzyonla olur.",
+   "entries": [
+    "epidermis"
+   ]
+  },
+  {
+   "id": "in-5f134e82",
+   "group": "Deri katmanları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Deri rengini belirleyen melanositler ile ilgili hangisi doğrudur?",
+   "options": [
+    "Nöral krista kökenlidir ve stratum basale'de bulunur.",
+    "Irklar arasında melanosit sayısı çok farklıdır.",
+    "Kemik iliği kökenlidir ve dermiste bulunur.",
+    "Stratum spinosum'da antijen sunar.",
+    "Endoderm kökenlidir ve stratum corneum'da bulunur."
+   ],
+   "answer": 0,
+   "explanation": "Melanosit sayısı insanlar arasında benzerdir; deri rengi farkı melanozomların sayısı, büyüklüğü ve dağılımından kaynaklanır. Albinizmde melanosit sayısı normaldir ancak tirozinaz eksikliği nedeniyle melanin yapılamaz.",
+   "entries": [
+    "epidermis",
+    "cutis"
+   ]
+  },
+  {
+   "id": "in-7c66b7f9",
+   "group": "Deri katmanları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Epidermiste antijen sunan Langerhans hücreleri hangi katmanda yoğundur ve kökeni nedir?",
+   "options": [
+    "Stratum corneum; ektoderm",
+    "Dermis; mezoderm",
+    "Stratum basale; nöral krista",
+    "Stratum spinosum; kemik iliği (monosit–dendritik hücre serisi)",
+    "Stratum granulosum; endoderm"
+   ],
+   "answer": 3,
+   "explanation": "Langerhans hücreleri deriye giren antijenleri yakalayıp bölgesel lenf düğümlerine taşır; kontakt dermatitte rol oynar. Elektron mikroskopisinde tenis raketi biçimli Birbeck granülleri içerir.",
+   "entries": [
+    "epidermis"
+   ]
+  },
+  {
+   "id": "in-7e997e3a",
+   "group": "Deri katmanları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Hafif dokunma duyusundan sorumlu olup dermisin papiller tabakasında, özellikle parmak uçlarında bulunan reseptör hangisidir?",
+   "options": [
+    "Serbest sinir uçları",
+    "Meissner cisimciği",
+    "Ruffini cisimciği",
+    "Pacini cisimciği",
+    "Kas iğciği"
+   ],
+   "answer": 1,
+   "explanation": "Meissner cisimcikleri kılsız derinin papiller dermisinde, ince ayrımlı dokunma için uzmanlaşmıştır. Pacini cisimcikleri derin dermis ve hipodermiste titreşim ve basınca, Ruffini cisimcikleri gerilmeye duyarlıdır.",
+   "entries": [
+    "dermis"
+   ]
+  },
+  {
+   "id": "in-4ac82102",
+   "group": "Deri katmanları",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Mutfakta kızgın yağ ile yanan hastanın kolunda beyaz-deri görünümlü, kuru ve iğne batırıldığında ağrısız bir alan var. Bu yanık hangi derinliktedir ve neden ağrısızdır?",
+   "options": [
+    "Birinci derece yanık; yalnızca epidermis etkilenmiştir.",
+    "Yüzeyel ikinci derece yanık; sinir uçları uyarılmıştır.",
+    "Yüzeyel ikinci derece yanık; bül oluşmuştur.",
+    "Birinci derece yanık; dermis korunmuştur.",
+    "Tam kat (üçüncü derece) yanık; dermisteki sinir uçları da yanmıştır."
+   ],
+   "answer": 4,
+   "explanation": "Birinci derece yanık kızarık ve ağrılıdır; ikinci derece yanıklar bül oluşturur ve yüzeyel olanlar çok ağrılıdır. Tam kat yanıkta epidermis ve dermisin tamamı, deri ekleri ve sinir uçları yok olduğu için yara kuru, sert ve ağrısızdır; kendiliğinden iyileşemez, greft gerekir.",
+   "entries": [
+    "dermis",
+    "cutis"
+   ]
+  },
+  {
+   "id": "in-c079b99b",
+   "group": "Deri katmanları",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Erişkin yanık hastasında tüm sağ kol ile gövdenin ön yüzü yanmış. Dokuzlar kuralına göre yanık yüzey alanı yaklaşık ne kadardır?",
+   "options": [
+    "%18",
+    "%45",
+    "%27",
+    "%9",
+    "%36"
+   ],
+   "answer": 2,
+   "explanation": "Dokuzlar kuralı: baş-boyun %9, her kol %9, gövde ön yüzü %18, gövde arka yüzü %18, her bacak %18, perine %1. Bir kol (%9) + gövde ön yüzü (%18) = %27. Çocuklarda baş oranı daha büyüktür.",
+   "entries": [
+    "cutis"
+   ]
+  },
+  {
+   "id": "in-8ca4975b",
+   "group": "Deri katmanları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Cerrahi kesilerin Langer (gerilim) çizgilerine paralel yapılmasının nedeni nedir?",
+   "options": [
+    "Epidermisin bu yönde daha kalın olması",
+    "Dermisteki kolajen liflerin dizilimine uyduğu için daha ince ve az belirgin skarla iyileşmesi",
+    "Daha az kanaması",
+    "Sinirleri kesmemesi",
+    "Lenfatiklerin bu yönde seyretmemesi"
+   ],
+   "answer": 1,
+   "explanation": "Langer çizgileri dermisteki kolajen liflerin baskın yönünü gösterir. Bu çizgilere dik kesiler yara ağzının açılmasına ve geniş skara yol açar.",
+   "entries": [
+    "cutis",
+    "dermis"
+   ]
+  },
+  {
+   "id": "in-5a8e184b",
+   "group": "Deri katmanları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Hipodermis (tela subcutanea) ile ilgili hangisi doğrudur?",
+   "options": [
+    "Epidermisin en derin katmanıdır.",
+    "Damar içermez.",
+    "Ter bezleri burada üretilmez ve bulunmaz.",
+    "Yalnızca avuç içinde bulunur.",
+    "Gevşek bağ dokusu ve yağdan oluşur; deri altı enjeksiyonlar bu tabakaya yapılır."
+   ],
+   "answer": 4,
+   "explanation": "Hipodermis deriyi alttaki fasyaya bağlar; ısı yalıtımı ve enerji deposu sağlar. İnsülin ve düşük molekül ağırlıklı heparin gibi ilaçlar buraya uygulanır. Pacini cisimcikleri ve ter bezlerinin sekretuvar kısmının bir bölümü de bu tabakaya uzanabilir.",
+   "entries": [
+    "tela-subcutanea"
+   ]
+  },
+  {
+   "id": "in-7e7607d2",
+   "group": "Deri ekleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Apokrin ter bezleri için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Doğumdan itibaren aktiftir.",
+    "Aksilla ve anogenital bölgede bulunur, kanalları kıl foliküllerine açılır ve ergenlikte aktifleşir.",
+    "Holokrin salgı yapar.",
+    "Tüm vücutta yaygındır ve ısı düzenlemesinde asıl rolü oynar.",
+    "Avuç içi ve ayak tabanında en yoğundur."
+   ],
+   "answer": 1,
+   "explanation": "Apokrin bezlerin salgısı kokusuzdur; bakterilerin parçalamasıyla vücut kokusu oluşur. Isı düzenlemesinde asıl görev, tüm vücuda yayılmış ve doğrudan deri yüzeyine açılan ekrin bezlerindir. Hidradenitis süpürativa apokrin bez taşıyan bölgelerde görülür.",
+   "entries": [
+    "glandulae-cutis"
+   ]
+  },
+  {
+   "id": "in-f53d0708",
+   "group": "Deri ekleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Yağ (sebase) bezleri için aşağıdakilerden hangisi yanlıştır?",
+   "options": [
+    "Akne vulgariste rol oynarlar.",
+    "Avuç içi ve ayak tabanında en yoğun olarak bulunurlar.",
+    "Çoğunlukla kıl foliküllerine açılırlar.",
+    "Androjenlerle uyarılırlar.",
+    "Holokrin salgı yaparlar."
+   ],
+   "answer": 1,
+   "explanation": "Yağ bezleri kılsız bölgelerde (avuç içi, ayak tabanı) bulunmaz; yüz, saçlı deri ve göğüs ön yüzünde yoğundur. Salgı hücrelerin tümüyle parçalanmasıyla oluşur (holokrin).",
+   "entries": [
+    "glandulae-cutis",
+    "pili"
+   ]
+  },
+  {
+   "id": "in-828ca172",
+   "group": "Deri ekleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kıl folikülünde epidermis ve kıl rejenerasyonunda görev yapan kök hücrelerin bulunduğu bölge hangisidir?",
+   "options": [
+    "Stratum corneum",
+    "Kıl soğanının papillası",
+    "Yağ bezinin kanalı",
+    "Çıkıntı (bulge) bölgesi – m. arrector pili'nin tutunduğu yer",
+    "İnfundibulum'un ağzı"
+   ],
+   "answer": 3,
+   "explanation": "Bulge bölgesi dış kök kılıfında, arrector pili kasının tutunduğu yerdedir. Yanık ve yara iyileşmesinde kıl folikülleri korunmuşsa epitel bu kök hücrelerden yenilenir; bu nedenle kısmi kalınlıktaki yanıklar kendiliğinden iyileşebilir.",
+   "entries": [
+    "pili"
+   ]
+  },
+  {
+   "id": "in-5a308289",
+   "group": "Deri ekleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tırnak plağını üreten ve hasarı kalıcı tırnak deformitesine yol açan yapı hangisidir?",
+   "options": [
+    "Eponişyum",
+    "Lunula'nın yüzeyi",
+    "Hiponişyum",
+    "Tırnak matriksi",
+    "Tırnak yatağı"
+   ],
+   "answer": 3,
+   "explanation": "Tırnak plağı proksimal tırnak kıvrımının altındaki matriksten üretilir; lunula matriksin görünen distal kısmıdır. Tırnak yatağı plağın üzerinde kaydığı yüzeydir. Matriks yaralanmaları dikkatle onarılmalıdır.",
+   "entries": [
+    "unguis"
+   ]
+  },
+  {
+   "id": "in-036e9ba4",
+   "group": "Deri ekleri",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Tırnakları ince, yassı ve kaşık biçiminde içe çökük olan kadında en olası altta yatan durum hangisidir?",
+   "options": [
+    "Psoriazis",
+    "Kronik akciğer hastalığı",
+    "Böbrek yetmezliği",
+    "Hipertiroidi",
+    "Demir eksikliği anemisi"
+   ],
+   "answer": 4,
+   "explanation": "Koilonişi (kaşık tırnak) demir eksikliğinin klasik bulgusudur. Çomak parmak kronik hipoksiyle (akciğer kanseri, bronşektazi, siyanotik kalp hastalığı), tırnakta çukurlaşma (pitting) psoriazisle ilişkilidir.",
+   "entries": [
+    "unguis"
+   ]
+  },
+  {
+   "id": "in-01df78de",
+   "group": "Vücut bölgeleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Gebe kadında gece uyandıran, başparmak, işaret ve orta parmakta uyuşma var; bileğin ön yüzüne vurulunca parmaklara elektriklenme yayılıyor. Bu tanıda aşağıdaki bulgulardan hangisi beklenmez?",
+   "options": [
+    "Başparmak oppozisyonunda güçsüzlük",
+    "Phalen testinin pozitif olması",
+    "Tenar kaslarda atrofi",
+    "Hipotenar kaslarda atrofi",
+    "Avuç içi derisinde duyunun korunması"
+   ],
+   "answer": 3,
+   "explanation": "Karpal tünel sendromunda n. medianus sıkışır: lateral 3,5 parmakta parestezi, tenar atrofi ve oppozisyon zayıflığı görülür; avuç içi duyusu korunur. Hipotenar kaslar n. ulnaris ile innerve edildiği için etkilenmez.",
+   "entries": [
+    "canalis-carpi",
+    "n-medianus",
+    "mm-thenares"
+   ]
+  },
+  {
+   "id": "in-9743071c",
+   "group": "Vücut bölgeleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Guyon kanalını (canalis ulnaris) sınırlayan kemik yapılar ve içeriği hangisidir?",
+   "options": [
+    "Os scaphoideum ve os trapezium arasında; n. medianus",
+    "Radius stiloidi ve os scaphoideum arasında; a. radialis",
+    "Os pisiforme ve hamulus ossis hamati arasında; n. ve a. ulnaris",
+    "Os lunatum ve os capitatum arasında; fleksör tendonlar",
+    "Ulna başı ve os triquetrum arasında; n. radialis'in yüzeyel dalı"
+   ],
+   "answer": 2,
+   "explanation": "Guyon kanalı karpal tünelin yüzeyelinde ve ulnar tarafındadır. Buradaki sıkışma (bisikletçi felci) n. ulnaris'in elde motor ve duyusal dallarını etkiler; FCU ve FDP'nin ulnar yarısı korunur.",
+   "entries": [
+    "canalis-carpi",
+    "n-ulnaris",
+    "os-hamatum",
+    "os-pisiforme"
+   ]
+  },
+  {
+   "id": "in-2b2acb0c",
+   "group": "Vücut bölgeleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Femoral kanal ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "A. femoralis'i içerir.",
+    "Lig. inguinale'nin üstünde yer alır.",
+    "Femoral herniler erkeklerde kadınlardan daha sıktır.",
+    "Femoral kılıfın en medial bölmesidir; lenfatikleri ve Cloquet lenf düğümünü içerir, femoral herniler buradan çıkar.",
+    "N. femoralis femoral kanalın içinden geçer."
+   ],
+   "answer": 3,
+   "explanation": "Femoral kılıfın lateral bölmesinde arter, orta bölmesinde ven, medial bölmesinde femoral kanal bulunur. Kanalın ağzı (anulus femoralis) dar ve sert sınırlı (lig. lacunare) olduğundan femoral herniler sıklıkla boğulur; kadınlarda daha sıktır.",
+   "entries": [
+    "trigonum-femorale",
+    "lig-inguinale",
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "in-c22bdc03",
+   "group": "Vücut bölgeleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Fossa poplitea'nın sınırları için hangisi doğrudur?",
+   "options": [
+    "Üstte sartorius ve gracilis, altta soleus",
+    "Üstte biceps femoris ile semimembranosus–semitendinosus, altta gastrocnemius'un iki başı",
+    "Üstte quadriceps, altta tibialis anterior",
+    "Üstte gluteus maximus, altta popliteus",
+    "Üstte adductor magnus, altta fibularis longus"
+   ],
+   "answer": 1,
+   "explanation": "Elmas biçimli popliteal çukurun üst-dış sınırı biceps femoris, üst-iç sınırı semimembranosus ve semitendinosus, alt sınırları gastrocnemius'un lateral ve medial başlarıdır. Tabanını femurun popliteal yüzü, diz kapsülü ve popliteus kası yapar.",
+   "entries": [
+    "fossa-poplitea",
+    "m-biceps-femoris",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "in-ca07ba7c",
+   "group": "Vücut bölgeleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Fossa cubitalis'in sınırları hangisinde doğru verilmiştir?",
+   "options": [
+    "Üstte iki epikondili birleştiren çizgi, dışta m. brachioradialis, içte m. pronator teres",
+    "Üstte olecranon, altta radius başı",
+    "Dışta m. pronator teres, içte m. brachioradialis",
+    "Üstte akromiyon, dışta deltoid, içte biceps",
+    "Dışta m. flexor carpi ulnaris, içte m. brachialis"
+   ],
+   "answer": 0,
+   "explanation": "Kübital çukurun tabanında brachialis ve supinator, tavanında fasya ve aponeurosis bicipitalis bulunur. İçinde dıştan içe biseps tendonu, a. brachialis ve n. medianus yer alır.",
+   "entries": [
+    "fossa-cubitalis",
+    "m-brachioradialis",
+    "m-pronator-teres"
+   ]
+  },
+  {
+   "id": "in-7dbb0621",
+   "group": "Vücut bölgeleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Boynun arka üçgeninde yüzeyel seyreden ve lenf nodu biyopsilerinde en sık yaralanan sinir hangisidir?",
+   "options": [
+    "Truncus sympathicus",
+    "N. phrenicus",
+    "N. accessorius",
+    "N. vagus",
+    "N. hypoglossus"
+   ],
+   "answer": 2,
+   "explanation": "Arka üçgen SCM'nin arka kenarı, trapezius'un ön kenarı ve klavikula arasındadır. N. accessorius üçgeni SCM'nin ortasından trapezius'a doğru çapraz geçer ve yalnızca deri ile yüzeyel fasya altındadır. Frenik sinir daha derinde, prevertebral fasyanın altındadır.",
+   "entries": [
+    "trigona-colli",
+    "n-accessorius"
+   ]
+  },
+  {
+   "id": "in-2a3a65e7",
+   "group": "Vücut bölgeleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Transpilorik düzlem (Addison düzlemi, yaklaşık L1) aşağıdakilerden hangisinden geçmez?",
+   "options": [
+    "Pilor",
+    "Göbek",
+    "Pankreas boynu",
+    "SMA'nın aortadan çıkış yeri",
+    "Böbrek hilusları"
+   ],
+   "answer": 1,
+   "explanation": "Transpilorik düzlem juguler çentik ile symphysis'in üst kenarı arasındaki çizginin orta noktasından geçer; pilor, pankreas boynu, duodenojejunal bükümün yakını, böbrek hilusları, SMA'nın çıkışı ve safra kesesi fundusu bu düzeye yakındır. Göbek genellikle L3–L4 düzeyindedir.",
+   "entries": [
+    "regiones-abdominis",
+    "pancreas",
+    "ren"
+   ]
+  },
+  {
+   "id": "in-4f076a97",
+   "group": "Vücut bölgeleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kasık (inguinal) kanalın duvarları ile ilgili hangisi doğrudur?",
+   "options": [
+    "Ön duvar dış oblik aponevrozu, arka duvar fascia transversalis, taban lig. inguinale",
+    "Tavan lig. inguinale, taban conjoint tendon",
+    "Arka duvar m. rectus abdominis, ön duvar m. transversus abdominis",
+    "Ön duvar periton, arka duvar m. psoas",
+    "Ön duvar fascia transversalis, arka duvar dış oblik aponevrozu"
+   ],
+   "answer": 0,
+   "explanation": "Kanalın tavanını iç oblik ve transversus kaslarının kemer yapan lifleri, tabanını lig. inguinale ve lig. lacunare oluşturur. Arka duvarın medial kısmı conjoint tendonla güçlenir; direkt fıtıklar bu duvarın zayıflığından çıkar.",
+   "entries": [
+    "canalis-inguinalis",
+    "lig-inguinale",
+    "m-obliquus-externus"
+   ]
+  },
+  {
+   "id": "in-430a888e",
+   "group": "Vücut bölgeleri",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Uzun süre koşan hastada ayak tabanı ve parmaklarda yanma ve uyuşma var; medial malleolün arkasına vurulunca ayak tabanına elektriklenme yayılıyor. Sıkışan sinir ve yeri hangisidir?",
+   "options": [
+    "N. suralis – lateral malleol arkası",
+    "N. saphenus – addüktör kanal",
+    "N. tibialis – tarsal tünel (retinaculum musculorum flexorum altında)",
+    "N. fibularis profundus – ön tarsal tünel",
+    "N. plantaris lateralis – Guyon kanalı"
+   ],
+   "answer": 2,
+   "explanation": "Tarsal tünel sendromu karpal tünelin ayaktaki karşılığıdır. N. tibialis veya plantar dalları sıkışır; topuk derisi (rr. calcanei) çoğunlukla tünelden önce ayrıldığı için korunabilir.",
+   "entries": [
+    "canalis-tarsi",
+    "n-tibialis"
+   ]
+  },
+  {
+   "id": "in-52da3a3f",
+   "group": "Vücut bölgeleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Deltopektoral üçgende fascia clavipectoralis'i delerek v. axillaris'e açılan yüzeyel ven hangisidir?",
+   "options": [
+    "V. mediana cubiti",
+    "V. cephalica",
+    "V. jugularis externa",
+    "V. thoracoepigastrica",
+    "V. basilica"
+   ],
+   "answer": 1,
+   "explanation": "V. cephalica kolun dış yanında yükselir, deltoid ile pectoralis major arasındaki oluğu izler ve deltopektoral üçgende fasyayı delerek v. axillaris'e açılır. Bu bölgede kalp pili elektrotları için cutdown yapılabilir.",
+   "entries": [
+    "trigonum-deltopectorale",
+    "vv-membri-superioris"
+   ]
+  }
+ ]
+}

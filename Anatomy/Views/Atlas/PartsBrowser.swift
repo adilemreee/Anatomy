@@ -21,6 +21,8 @@ struct PartsBrowser: View {
                     results
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Theme.surface.ignoresSafeArea())
             .navigationTitle("3D Parçalar")
             .navigationBarTitleDisplayMode(.inline)
             .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Parça ara (Latince, İngilizce, Türkçe)")
@@ -41,7 +43,7 @@ struct PartsBrowser: View {
                     }
                 }
             }
-            let root = PartTree.build(parts: app.scene.manifests[layerID] ?? [])
+            let root = PartTree.build(parts: app.scene.manifests[layerID] ?? [], sex: app.sex)
             ForEach(root.children) { node in
                 NodeView(node: node, layerID: layerID, onPick: pick)
             }
@@ -71,8 +73,8 @@ struct PartsBrowser: View {
         let store = app.store
         var out: [PartRef] = []
         for layer in ModelLayer.all {
-            for (i, part) in (app.scene.manifests[layer.id] ?? []).enumerated() {
-                let names = [part.base, store.latinName(for: part) ?? "", store.entry(for: part).map { store.isExact($0, for: part) ? $0.tr : "" } ?? ""]
+            for (i, part) in (app.scene.manifests[layer.id] ?? []).enumerated() where part.shows(for: app.sex) {
+                let names = [part.base, store.latinName(for: part) ?? "", store.displayName(for: part)]
                 if names.contains(where: { SearchText.fold($0).contains(q) }) {
                     out.append(PartRef(system: layer.id, index: i))
                     if out.count >= 200 { return out }
@@ -105,12 +107,13 @@ final class PartTree: Identifiable {
 
     @MainActor private static var cache: [Int: PartTree] = [:]
 
-    @MainActor static func build(parts: [PartInfo]) -> PartTree {
-        let key = parts.count ^ (parts.first?.name.hashValue ?? 0)
+    /// The tree of `parts`, without the other sex's genital organs.
+    @MainActor static func build(parts: [PartInfo], sex: BodySex) -> PartTree {
+        let key = (parts.count ^ (parts.first?.name.hashValue ?? 0)) &* 2 + (sex == .female ? 1 : 0)
         if let tree = cache[key] { return tree }
         let root = PartTree(id: "root", name: "")
         var lookup: [String: PartTree] = ["": root]
-        for (index, part) in parts.enumerated() {
+        for (index, part) in parts.enumerated() where part.shows(for: sex) {
             // The first path element is the system itself; skip it.
             let path = Array(part.path.dropFirst())
             var node = root
@@ -149,13 +152,13 @@ private struct NodeView: View {
             }
         } label: {
             HStack {
-                let latin = app.store.term(node.name)?.la
+                let latin = app.store.latinName(node.name)
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(latin ?? node.name)
+                    Text(app.store.groupName(node.name))
                         .font(.subheadline.weight(.semibold))
-                    if let latin, latin.lowercased() != node.name.lowercased() {
-                        Text(node.name)
-                            .font(.caption)
+                    if let latin {
+                        Text(latin)
+                            .font(.caption.italic())
                             .foregroundStyle(.secondary)
                     }
                 }
@@ -192,14 +195,14 @@ private struct PartRow: View {
                         .frame(width: 10, height: 10)
                     VStack(alignment: .leading, spacing: 2) {
                         HStack(spacing: 4) {
-                            Text(exact ? entry!.tr : (store.latinName(for: info) ?? info.base))
+                            Text(store.displayName(for: info))
                                 .foregroundStyle(.primary)
                             if let side = info.sideTitle {
                                 Text(side).foregroundStyle(.secondary)
                             }
                         }
                         .font(.subheadline)
-                        Text(showsLayer ? "\(ModelLayer.layer(ref.system)?.title ?? "") · \(info.base)" : info.base)
+                        Text(showsLayer ? "\(ModelLayer.layer(ref.system)?.title ?? "") · \(store.latinName(for: info) ?? info.base)" : (store.latinName(for: info) ?? info.base))
                             .font(.caption)
                             .foregroundStyle(.secondary)
                             .lineLimit(1)

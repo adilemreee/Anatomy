@@ -28,6 +28,7 @@ struct SpecimenView: View {
     @State private var showLabels = true
     @State private var focused: Int?
     @State private var showEntry = false
+    @State private var showFeatures = false
     @State private var headerBottom: CGFloat = 170
     @State private var controlsTop: CGFloat = 760
 
@@ -55,12 +56,16 @@ struct SpecimenView: View {
                 header
                     .onGeometryChange(for: CGFloat.self) { $0.frame(in: .global).maxY } action: { headerBottom = $0 }
                 Spacer()
-                if let label = labels.first(where: { $0.id == focused }) {
-                    FeatureCard(label: label, definition: app.store.term(label.name)?.def) {
-                        withAnimation(.snappy) { focused = nil }
-                    }
-                    .transition(.move(edge: .bottom).combined(with: .opacity))
-                    .padding(.bottom, 10)
+                if let focused, scene.allFeatures.indices.contains(focused) {
+                    let feature = scene.allFeatures[focused]
+                    let names = names(for: feature)
+                    FeatureCard(title: names.title, subtitle: names.subtitle, kind: feature.kind,
+                                turkish: app.store.partTerm(feature.name)?.d, definition: app.store.term(feature.name)?.def,
+                                zoom: { scene.focus(feature: focused) },
+                                close: { withAnimation(.snappy) { self.focused = nil } })
+                        .id(focused)
+                        .transition(.move(edge: .bottom).combined(with: .opacity))
+                        .padding(.bottom, 10)
                 }
                 controls
                     .onGeometryChange(for: CGFloat.self) { $0.frame(in: .global).minY } action: { controlsTop = $0 }
@@ -79,12 +84,25 @@ struct SpecimenView: View {
             try? await Task.sleep(for: .milliseconds(120))
             guard !Task.isCancelled else { return }
             let store = app.store
-            let result = await scene.labels(in: size, top: headerBottom + 10, bottom: controlsTop - 12) { store.term($0)?.la }
+            let result = await scene.labels(in: size, top: headerBottom + 10, bottom: controlsTop - 12) { (store.partTerm($0)?.tr, store.latinName($0)) }
             guard !Task.isCancelled else { return }
-            withAnimation(.easeOut(duration: 0.25)) {
-                labels = result
-                if let focused, !result.contains(where: { $0.id == focused }) { self.focused = nil }
+            withAnimation(.easeOut(duration: 0.25)) { labels = result }
+        }
+        // The tapped feature's region glows on the model.
+        .onChange(of: focused) { _, feature in scene.highlight(feature: feature) }
+        // A tap on the model picks the nearest visible feature; empty space clears.
+        .onChange(of: scene.tapVersion) {
+            withAnimation(.snappy) { focused = scene.tappedFeature }
+        }
+        .sheet(isPresented: $showFeatures) {
+            FeatureList(features: scene.allFeatures, names: names(for:), selected: focused) { index in
+                showFeatures = false
+                withAnimation(.snappy) { focused = index }
+                scene.focus(feature: index)
             }
+            .presentationDetents([.medium, .large])
+            .presentationBackground(Theme.surface)
+            .preferredColorScheme(.dark)
         }
         .sheet(isPresented: $showEntry) {
             if let id = request.entryID, let entry = app.store.entry(id) {
@@ -95,7 +113,8 @@ struct SpecimenView: View {
                             ToolbarItem(placement: .confirmationAction) { Button("Kapat") { showEntry = false } }
                         }
                 }
-                .environment(\.colorScheme, .light)
+                .appOverlays(specimen: false)
+                .preferredColorScheme(.dark)
             }
         }
     }
@@ -120,7 +139,7 @@ struct SpecimenView: View {
                     }
                     .padding(.top, 4)
                 } else if scene.featureCount > 0 {
-                    Text("\(scene.featureCount) işaretli oluşum")
+                    Text("\(scene.featureCount) işaretli oluşum · bir etikete dokun")
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.5))
                         .padding(.top, 2)
@@ -139,6 +158,18 @@ struct SpecimenView: View {
             .accessibilityLabel("Kapat")
         }
         .padding(.top, 8)
+    }
+
+    /// Turkish name and Latin subtitle of a feature, as on its label.
+    private func names(for feature: FeatureLibrary.Feature) -> (title: String, subtitle: String?) {
+        let store = app.store
+        let latin = store.latinName(feature.name)
+        let title = store.partTerm(feature.name)?.tr ?? latin ?? feature.name
+        switch feature.kind {
+        case .origin: return (title, "Başlangıç yeri")
+        case .insertion: return (title, "Tutunma yeri")
+        case .feature, .part: return (title, latin.flatMap { $0.caseInsensitiveCompare(title) == .orderedSame ? nil : $0 })
+        }
     }
 
     private func legendDot(_ kind: FeatureLibrary.Feature.Kind, _ title: String) -> some View {
@@ -171,6 +202,9 @@ struct SpecimenView: View {
                 .glassEffect(.regular, in: .capsule)
                 GlassIconButton(systemImage: "tag", isOn: showLabels, label: "Etiketler") {
                     withAnimation(.snappy) { showLabels.toggle() }
+                }
+                if scene.featureCount > 0 {
+                    GlassIconButton(systemImage: "list.bullet", label: "Oluşumlar") { showFeatures = true }
                 }
                 if request.entryID != nil {
                     GlassIconButton(systemImage: "book", label: "Madde") { showEntry = true }
@@ -209,6 +243,8 @@ struct SpecimenView: View {
                     .position(label.anchor)
                 Button {
                     withAnimation(.snappy) { focused = isFocused ? nil : label.id }
+                    // Turn so the coloured region faces the viewer.
+                    if !isFocused { scene.focus(feature: label.id, zoom: false) }
                 } label: {
                     VStack(alignment: .leading, spacing: 1) {
                         Text(label.title)
@@ -266,19 +302,30 @@ struct SpecimenView: View {
     }
 }
 
-/// Details for the focused feature label.
+/// Details for the focused feature: names, description and a button that
+/// turns the camera to it.
 private struct FeatureCard: View {
-    let label: SpecimenScene.Label
+    let title: String
+    let subtitle: String?
+    let kind: FeatureLibrary.Feature.Kind
+    /// Short Turkish description from the dictionary, when there is one.
+    let turkish: String?
     let definition: String?
+    let zoom: () -> Void
     let close: () -> Void
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            HStack(alignment: .firstTextBaseline) {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .top, spacing: 10) {
+                Circle()
+                    .fill(kind == .origin ? Color(hex: "e8564b") : (kind == .insertion ? Color(hex: "4f8ff0") : Color(hex: "1a9eff")))
+                    .frame(width: 10, height: 10)
+                    .padding(.top, 6)
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(label.title)
+                    Text(title)
                         .font(.headline)
-                    if let subtitle = label.subtitle {
+                        .fixedSize(horizontal: false, vertical: true)
+                    if let subtitle {
                         Text(subtitle)
                             .font(.subheadline.italic())
                             .foregroundStyle(.secondary)
@@ -293,16 +340,30 @@ private struct FeatureCard: View {
                 .buttonStyle(.plain)
                 .accessibilityLabel("Kapat")
             }
-            if let text = summary {
+            if let turkish, !turkish.isEmpty {
+                Text(turkish)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            } else if let text = summary {
                 Text(text)
                     .font(.footnote)
                     .foregroundStyle(.secondary)
-                    .lineLimit(5)
+                    .lineLimit(4)
                     .fixedSize(horizontal: false, vertical: true)
                 Text("Kaynak: Z-Anatomy (Wikipedia tabanlı), CC BY-SA 4.0")
                     .font(.caption2)
                     .foregroundStyle(.tertiary)
             }
+            Button(action: zoom) {
+                Label("Yakınlaş", systemImage: "scope")
+                    .font(.subheadline.weight(.semibold))
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 8)
+                    .background(Color(hex: "1a9eff").opacity(0.22), in: .capsule)
+                    .foregroundStyle(Color(hex: "7cc8ff"))
+            }
+            .buttonStyle(.plain)
         }
         .padding(14)
         .frame(maxWidth: 560, alignment: .leading)
@@ -312,5 +373,70 @@ private struct FeatureCard: View {
     /// The first plain paragraph of the reference text.
     private var summary: String? {
         definition?.components(separatedBy: "\n\n").first { !$0.hasPrefix("## ") && $0.count > 20 }
+    }
+}
+
+/// Every labelled feature of the specimen, searchable; picking one turns
+/// the camera to it and colours its region.
+private struct FeatureList: View {
+    let features: [FeatureLibrary.Feature]
+    let names: (FeatureLibrary.Feature) -> (title: String, subtitle: String?)
+    let selected: Int?
+    let pick: (Int) -> Void
+    @State private var query = ""
+
+    var body: some View {
+        NavigationStack {
+            List {
+                ForEach(rows, id: \.index) { row in
+                    Button {
+                        pick(row.index)
+                    } label: {
+                        HStack(spacing: 12) {
+                            Circle()
+                                .fill(SpecimenView.color(for: row.kind) == .white ? Color(hex: "1a9eff") : SpecimenView.color(for: row.kind))
+                                .frame(width: 8, height: 8)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(row.title)
+                                    .font(.subheadline.weight(.medium))
+                                    .foregroundStyle(Theme.textPrimary)
+                                if let subtitle = row.subtitle {
+                                    Text(subtitle)
+                                        .font(Theme.latin(.caption))
+                                        .foregroundStyle(Theme.textSecondary)
+                                }
+                            }
+                            Spacer()
+                            if row.index == selected {
+                                Image(systemName: "checkmark")
+                                    .foregroundStyle(Theme.accent)
+                            }
+                        }
+                        .contentShape(.rect)
+                    }
+                    .buttonStyle(.plain)
+                    .listRowBackground(Theme.card)
+                }
+            }
+            .scrollContentBackground(.hidden)
+            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Oluşum ara")
+            .navigationTitle("Oluşumlar (\(features.count))")
+            .navigationBarTitleDisplayMode(.inline)
+        }
+    }
+
+    private var rows: [(index: Int, title: String, subtitle: String?, kind: FeatureLibrary.Feature.Kind)] {
+        let all = features.enumerated().map { i, f in
+            let n = names(f)
+            return (index: i, title: n.title, subtitle: n.subtitle, kind: f.kind)
+        }
+        // A muscle can attach to one bone at several patches: list it once.
+        var seen = Set<String>()
+        let unique = all.filter { seen.insert("\($0.title)|\($0.subtitle ?? "")").inserted }
+        let q = query.trimmingCharacters(in: .whitespaces)
+        let filtered = q.isEmpty ? unique : unique.filter {
+            $0.title.localizedStandardContains(q) || ($0.subtitle?.localizedStandardContains(q) ?? false)
+        }
+        return filtered.sorted { $0.title.localizedStandardCompare($1.title) == .orderedAscending }
     }
 }

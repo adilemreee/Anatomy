@@ -1,4 +1,5 @@
 from common import E, write
+import viscera_extra
 
 # ================================================================ Solunum
 US = "Üst solunum yolları"
@@ -211,7 +212,7 @@ E("intestinum-tenue", "İnce bağırsak (jejunum ve ileum)", "Intestinum tenue (
          ("Özel emilim", "Terminal ileum: B12 vitamini ve safra tuzları")],
   clinical=["Meckel divertikülü ileumda görülür (‘2'ler kuralı’: %2, ileoçekal valvden 2 ayak, 2 inç).", "Crohn hastalığı en sık terminal ileumu tutar.", "Bağırsak tıkanıklığı (ileus) kusma, karın şişliği ve gaz-gaita çıkaramama ile seyreder."],
   related=["duodenum", "intestinum-crassum", "a-mesenterica-superior", "peritoneum"],
-  models=["Small intestine", "Jejunum"], aliases=["ince bağırsak", "jejunum", "ileum"]),
+  models=["Small intestine", "Jejunum", "Ileum"], aliases=["ince bağırsak", "jejunum", "ileum"]),
 
 E("intestinum-crassum", "Kalın bağırsak", "Intestinum crassum", "Large intestine", SK, "abdomen",
   "İleumdan anüse kadar uzanan, yaklaşık 1,5 m uzunluğunda bağırsak bölümüdür. Su ve elektrolitleri emer, dışkıyı oluşturur ve depolar.",
@@ -242,7 +243,7 @@ E("rectum", "Rektum ve anal kanal", "Rectum et canalis analis", "Rectum and anal
          ("Kanlanma", "A. rectalis superior (IMA), media (a. iliaca interna), inferior (a. pudenda interna)")],
   clinical=["İç hemoroidler linea pectinata üstünde ve ağrısızdır; dış hemoroidler altında ve ağrılıdır.", "Rektal tuşe ile prostat, rektum tümörleri ve Douglas boşluğu değerlendirilebilir."],
   related=["intestinum-crassum", "diaphragma-pelvis", "a-mesenterica-inferior", "n-pudendus"],
-  models=[], aliases=["rektum", "anüs", "anal kanal", "hemoroid"]),
+  models=["Rectum", "Anal canal"], aliases=["rektum", "anüs", "anal kanal", "hemoroid"]),
 
 E("hepar", "Karaciğer", "Hepar", "Liver", KS, "abdomen",
   "Vücudun en büyük iç organı ve en büyük bezidir (yaklaşık 1,5 kg). Karnın sağ üst kadranında, diyaframın altında yer alır; metabolizma, detoksifikasyon, protein sentezi ve safra üretiminden sorumludur.",
@@ -339,7 +340,7 @@ E("urethra", "İdrar yolu (üretra)", "Urethra", "Urethra", IY, "pelvis",
          ("Sfinkterler", "İç sfinkter (erkekte düz kas, istemsiz) ve dış sfinkter (çizgili kas, n. pudendus – istemli)")],
   clinical=["Kadınlarda üretranın kısa olması idrar yolu enfeksiyonlarının daha sık görülmesine neden olur.", "Pelvis kırıklarında erkek üretrasının membranöz bölümü yırtılabilir; meatusta kan görülmesi durumunda sonda takılmamalıdır."],
   related=["vesica-urinaria", "prostata", "penis"],
-  models=["Urethra"], aliases=["üretra"]),
+  models=["Urethra", "Female urethra"], aliases=["üretra"]),
 ]
 
 # ================================================================ Üreme
@@ -415,7 +416,7 @@ E("ovarium", "Yumurtalık", "Ovarium", "Ovary", KD, "pelvis",
          ("Döngü", "Her ay bir folikül olgunlaşır; ovulasyon sonrası corpus luteum progesteron salgılar")],
   clinical=["Over kistleri sıktır; torsiyon akut pelvik ağrıya neden olur.", "Polikistik over sendromu düzensiz adet, hiperandrojenizm ve infertiliteye yol açar.", "Over kanseri genellikle geç tanı alır; ‘sessiz katil’ olarak bilinir.", "Over ağrısı fossa ovarica'nın yan duvarındaki n. obturatorius nedeniyle uyluk iç yüzüne yansıyabilir."],
   related=["tuba-uterina", "uterus", "aorta"],
-  models=[], aliases=["over", "yumurtalık"]),
+  models=["Ovary"], aliases=["over", "yumurtalık"]),
 
 E("tuba-uterina", "Fallop tüpü", "Tuba uterina", "Uterine tube", KD, "pelvis",
   "Yumurtalığı uterusa bağlayan, yaklaşık 10 cm uzunluğundaki kanaldır. Döllenme genellikle bu tüpün ampulla bölümünde gerçekleşir.",
@@ -423,7 +424,7 @@ E("tuba-uterina", "Fallop tüpü", "Tuba uterina", "Uterine tube", KD, "pelvis",
          ("Epitel", "Silyalı ve salgı hücreli; yumurtayı uterusa doğru taşır")],
   clinical=["Dış gebeliklerin (ektopik gebelik) %95'inden fazlası tüplerde, en sık ampullada görülür; yırtılması ölümcül kanamaya neden olabilir.", "Pelvik inflamatuvar hastalık tüp hasarı ve infertiliteye yol açabilir.", "Tüp ligasyonu kalıcı doğum kontrol yöntemidir."],
   related=["ovarium", "uterus"],
-  models=[], aliases=["fallop", "tuba", "ektopik gebelik"]),
+  models=["Uterine tube", "Ampulla of uterine tube", "Isthmus of uterine tube", "Infundibulum of uterine tube", "Fimbriae of uterine tube"], aliases=["fallop", "tuba", "ektopik gebelik"]),
 
 E("uterus", "Rahim", "Uterus", "Uterus", KD, "pelvis",
   "Mesane ile rektum arasında yer alan, gebelikte embriyo ve fetüsü barındıran kalın kas duvarlı, armut biçimli organdır.",
@@ -435,7 +436,7 @@ E("uterus", "Rahim", "Uterus", "Uterus", KD, "pelvis",
   sections=[("Rektouterin çukur", "Uterus ile rektum arasındaki excavatio rectouterina (Douglas boşluğu), kadında periton boşluğunun en alçak noktasıdır; sıvı ve kan burada toplanır.")],
   clinical=["Miyomlar (leiomyom) uterusun en sık iyi huylu tümörleridir.", "Rahim ağzı (serviks) kanseri HPV ile ilişkilidir; Pap smear taraması ve HPV aşısı ile önlenebilir.", "Endometriozis, endometrium dokusunun uterus dışında bulunmasıdır."],
   related=["tuba-uterina", "ovarium", "vagina", "vesica-urinaria", "rectum", "ureter"],
-  models=[], aliases=["rahim", "serviks", "endometrium"]),
+  models=["Uterus", "Cervix of uterus"], aliases=["rahim", "serviks", "endometrium"]),
 
 E("vagina", "Vajina", "Vagina", "Vagina", KD, "pelvis",
   "Rahim boynundan dış genital organlara uzanan, yaklaşık 8–10 cm uzunluğundaki fibromüsküler kanaldır. Doğum kanalının bir parçasıdır.",
@@ -444,7 +445,7 @@ E("vagina", "Vajina", "Vagina", "Vagina", KD, "pelvis",
          ("Kanlanma", "A. vaginalis, a. uterina dalları")],
   clinical=["Arka forniksten Douglas boşluğuna ulaşılabilir (kuldosentez).", "Doğum sırasında perine yırtıklarını önlemek için epizyotomi yapılabilir."],
   related=["uterus", "vulva", "diaphragma-pelvis"],
-  models=[], aliases=["vajina"]),
+  models=["Vagina"], aliases=["vajina"]),
 
 E("vulva", "Dış genital organlar (kadın)", "Pudendum femininum (vulva)", "Vulva", KD, "pelvis",
   "Kadın dış genital organlarının tümüdür: mons pubis, büyük ve küçük dudaklar (labia majora ve minora), klitoris, vestibulum vaginae ve bezleri.",
@@ -464,7 +465,7 @@ E("glandula-mammaria", "Meme bezi", "Glandula mammaria", "Mammary gland", KD, "t
          ("Hormonal kontrol", "Prolaktin süt yapımını, oksitosin süt salınımını sağlar")],
   clinical=["Meme kanseri kadınlarda en sık kanserdir; en sık üst-dış kadranda görülür.", "Kanserin Cooper bağlarını tutması deride çekintiye, lenfatik tıkanma ‘portakal kabuğu’ görünümüne (peau d'orange) yol açar.", "Erkeklerde meme dokusunun büyümesine jinekomasti denir."],
   related=["m-pectoralis-major", "a-subclavia", "nodi-lymphoidei"],
-  models=[], aliases=["meme", "göğüs"]),
+  models=["Mammary gland", "Nipple", "Areola"], aliases=["meme", "göğüs"]),
 ]
 
 # ================================================================ Endokrin
@@ -533,6 +534,12 @@ E("insulae-pancreaticae", "Pankreas adacıkları", "Insulae pancreaticae (Langer
   related=["pancreas", "hepar"],
   models=[], aliases=["Langerhans", "insülin", "glukagon"]),
 ]
+
+respiratory += viscera_extra.respiratory
+digestive += viscera_extra.digestive
+urinary += viscera_extra.urinary
+reproductive += viscera_extra.reproductive
+endocrine += viscera_extra.endocrine
 
 write("respiratory", respiratory)
 write("digestive", digestive)

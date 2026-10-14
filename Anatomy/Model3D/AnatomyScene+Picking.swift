@@ -22,53 +22,144 @@ extension AnatomyScene {
         var id: PartRef { ref }
     }
 
+    /// Everything picking needs, copied off the scene so rays can be cast on
+    /// a background thread while the user keeps interacting.
+    nonisolated struct PickSnapshot: Sendable {
+        nonisolated struct System: Sendable {
+            let id: String
+            let pack: MeshPack
+            let lo: [SIMD3<Float>]
+            let hi: [SIMD3<Float>]
+            /// Per part: 0 hidden, 1 drawn solid, 2 see-through.
+            let state: [UInt8]
+        }
+
+        let systems: [System]
+        let camera: simd_float4x4
+        let fieldOfView: Float
+
+        func ray(at point: CGPoint, in size: CGSize) -> (SIMD3<Float>, SIMD3<Float>) {
+            let aspect = Float(size.width / size.height)
+            let t = tan(fieldOfView * .pi / 360)
+            let x = (2 * Float(point.x / size.width) - 1) * t * aspect
+            let y = (1 - 2 * Float(point.y / size.height)) * t
+            let local = simd_normalize(SIMD3<Float>(x, y, -1))
+            let dir4 = camera * SIMD4(local, 0)
+            return (SIMD3(camera.columns.3.x, camera.columns.3.y, camera.columns.3.z), simd_normalize(SIMD3(dir4.x, dir4.y, dir4.z)))
+        }
+
+        func project(_ p: SIMD3<Float>, in size: CGSize) -> CGPoint? {
+            let c = camera.inverse * SIMD4(p, 1)
+            guard c.z < -0.01 else { return nil }
+            let t = tan(fieldOfView * .pi / 360)
+            let aspect = Float(size.width / size.height)
+            return CGPoint(x: CGFloat((c.x / (-c.z * t * aspect) + 1) / 2) * size.width,
+                           y: CGFloat((1 - c.y / (-c.z * t)) / 2) * size.height)
+        }
+
+        /// The frontmost drawn part along the ray; see-through parts only win
+        /// when nothing solid is hit.
+        func pick(_ origin: SIMD3<Float>, _ direction: SIMD3<Float>) -> PartRef? {
+            var candidates: [(system: Int, part: Int, entry: Float, ghost: Bool)] = []
+            for (s, system) in systems.enumerated() {
+                for i in system.state.indices where system.state[i] != 0 {
+                    if let entry = AnatomyScene.rayBox(origin, direction, lo: system.lo[i], hi: system.hi[i]) {
+                        candidates.append((s, i, entry, system.state[i] == 2))
+                    }
+                }
+            }
+            candidates.sort { $0.entry < $1.entry }
+            var best: (Float, PartRef)?
+            var bestGhost: (Float, PartRef)?
+            for c in candidates {
+                // Sorted by box entry: nothing after this can be closer than a solid hit.
+                if let solid = best, c.entry >= solid.0 { break }
+                let limit = c.ghost ? (bestGhost?.0 ?? .infinity) : (best?.0 ?? .infinity)
+                if c.entry >= limit { continue }
+                let system = systems[c.system]
+                if let hit = AnatomyScene.rayMesh(origin, direction, pack: system.pack, part: c.part, limit: limit) {
+                    let ref = PartRef(system: system.id, index: c.part)
+                    if c.ghost { bestGhost = (hit, ref) } else { best = (hit, ref) }
+                }
+            }
+            return best?.1 ?? bestGhost?.1
+        }
+    }
+
+    /// A copy of what is drawn, for picking off the main thread.
+    func pickSnapshot() -> PickSnapshot {
+        var out: [PickSnapshot.System] = []
+        for layer in ModelLayer.all {
+            guard enabledLayers.contains(layer.id), let system = systems[layer.id] else { continue }
+            var states = [UInt8](repeating: 0, count: system.pack.parts.count)
+            for i in states.indices {
+                switch state(of: PartRef(system: layer.id, index: i)) {
+                case .hidden: states[i] = 0
+                case .ghost: states[i] = 2
+                case .solid, .selected, .highlighted: states[i] = 1
+                }
+            }
+            out.append(.init(id: layer.id, pack: system.pack, lo: system.bounds.map(\.min), hi: system.bounds.map(\.max), state: states))
+        }
+        return PickSnapshot(systems: out, camera: camera.transformMatrix(relativeTo: nil), fieldOfView: fieldOfView)
+    }
+
     /// Picks the largest parts on screen that are actually visible at their
-    /// centre and lays out non-overlapping labels for them.
+    /// centre and lays out non-overlapping labels for them. All the geometry
+    /// work happens off the main thread.
     func labels(in size: CGSize, name: (PartInfo) -> String, limit: Int = 16) async -> [ScreenLabel] {
         guard size.width > 0 else { return [] }
-        let t = tan(fieldOfView * .pi / 360)
-        let cameraPosition = camera.position(relativeTo: nil)
-        var candidates: [(ref: PartRef, point: CGPoint, size: CGFloat, info: PartInfo)] = []
-        for (id, system) in systems where enabledLayers.contains(id) {
-            for (i, info) in system.pack.parts.enumerated() {
-                let ref = PartRef(system: id, index: i)
-                let st = state(of: ref)
-                guard st == .solid || st == .selected || st == .highlighted else { continue }
-                let depth = max(simd_distance(info.center, cameraPosition), 0.01)
-                let radius = simd_length(info.extent) / 2
-                let screen = CGFloat(radius / (depth * t)) * size.height / 2
-                guard screen > 18 else { continue }
-                // Anchor on the camera-facing surface rather than the box centre,
-                // which is often buried inside the body.
-                let anchor = Self.surfaceAnchor(pack: system.pack, part: i, camera: cameraPosition) ?? info.center
-                guard let point = project(anchor, in: size),
-                      point.x > 30, point.x < size.width - 30, point.y > 120, point.y < size.height - 150 else { continue }
-                candidates.append((ref, point, screen, info))
+        let snapshot = pickSnapshot()
+        // Names are resolved up front (the store lives on the main actor).
+        var names: [PartRef: String] = [:]
+        for system in snapshot.systems {
+            for i in system.state.indices where system.state[i] == 1 {
+                names[PartRef(system: system.id, index: i)] = name(system.pack.parts[i])
             }
         }
-        candidates.sort { $0.size > $1.size }
+        let resolved = names
+        return await Task.detached(priority: .userInitiated) { () -> [ScreenLabel] in
+            let t = tan(snapshot.fieldOfView * .pi / 360)
+            let eye = SIMD3(snapshot.camera.columns.3.x, snapshot.camera.columns.3.y, snapshot.camera.columns.3.z)
+            var candidates: [(ref: PartRef, point: CGPoint, size: CGFloat, base: String)] = []
+            for system in snapshot.systems {
+                for (i, info) in system.pack.parts.enumerated() where system.state[i] == 1 {
+                    let depth = max(simd_distance(info.center, eye), 0.01)
+                    let screen = CGFloat(simd_length(info.extent) / 2 / (depth * t)) * size.height / 2
+                    guard screen > 18 else { continue }
+                    // Anchor on the camera-facing surface rather than the box
+                    // centre, which is often buried inside the body.
+                    let anchor = AnatomyScene.surfaceAnchor(pack: system.pack, part: i, camera: eye) ?? info.center
+                    guard let point = snapshot.project(anchor, in: size),
+                          point.x > 30, point.x < size.width - 30, point.y > 120, point.y < size.height - 150 else { continue }
+                    candidates.append((PartRef(system: system.id, index: i), point, screen, info.base))
+                }
+            }
+            candidates.sort { $0.size > $1.size }
+            let bases = Dictionary(uniqueKeysWithValues: snapshot.systems.map { ($0.id, $0.pack.parts.map(\.base)) })
 
-        var out: [ScreenLabel] = []
-        var taken: [CGRect] = []
-        var names = Set<String>()
-        for c in candidates.prefix(140) {
-            guard out.count < limit else { break }
-            let text = name(c.info)
-            guard !names.contains(text) else { continue }
-            // Is the part really what we see at its centre?
-            guard let hit = await pick(at: c.point, in: size), hit == c.ref || manifests[hit.system]?[hit.index].base == c.info.base else { continue }
-            // The pill grows away from the body's midline so the anchor stays visible.
-            let width = CGFloat(text.count) * 6.3 + 22
-            let leftSide = c.point.x < size.width / 2
-            var x = leftSide ? c.point.x - width - 6 : c.point.x + 6
-            x = min(max(x, 8), size.width - width - 8)
-            let rect = CGRect(x: x, y: c.point.y - 12, width: width, height: 24)
-            guard !taken.contains(where: { $0.insetBy(dx: -3, dy: -3).intersects(rect) }) else { continue }
-            taken.append(rect)
-            names.insert(text)
-            out.append(ScreenLabel(ref: c.ref, anchor: c.point, center: CGPoint(x: rect.midX, y: rect.midY), text: text))
-        }
-        return out
+            var out: [ScreenLabel] = []
+            var taken: [CGRect] = []
+            var used = Set<String>()
+            for c in candidates.prefix(140) {
+                guard out.count < limit, !Task.isCancelled else { break }
+                guard let text = resolved[c.ref], !used.contains(text) else { continue }
+                // Is the part really what we see at its centre?
+                let (o, d) = snapshot.ray(at: c.point, in: size)
+                guard let hit = snapshot.pick(o, d), hit == c.ref || bases[hit.system]?[hit.index] == c.base else { continue }
+                // The pill grows away from the body's midline so the anchor stays visible.
+                let width = CGFloat(text.count) * 6.3 + 22
+                let leftSide = c.point.x < size.width / 2
+                var x = leftSide ? c.point.x - width - 6 : c.point.x + 6
+                x = min(max(x, 8), size.width - width - 8)
+                let rect = CGRect(x: x, y: c.point.y - 12, width: width, height: 24)
+                guard !taken.contains(where: { $0.insetBy(dx: -3, dy: -3).intersects(rect) }) else { continue }
+                taken.append(rect)
+                used.insert(text)
+                out.append(ScreenLabel(ref: c.ref, anchor: c.point, center: CGPoint(x: rect.midX, y: rect.midY), text: text))
+            }
+            return out
+        }.value
     }
 
     /// The front-facing vertex closest to the centroid of the part's
@@ -102,52 +193,10 @@ extension AnatomyScene {
     /// box first, stopping as soon as no closer hit is possible.
     func pick(at point: CGPoint, in size: CGSize) async -> PartRef? {
         guard size.width > 0, size.height > 0 else { return nil }
-        let aspect = Float(size.width / size.height)
-        let t = tan(fieldOfView * .pi / 360)
-        let x = (2 * Float(point.x / size.width) - 1) * t * aspect
-        let y = (1 - 2 * Float(point.y / size.height)) * t
-        let m = camera.transformMatrix(relativeTo: nil)
-        let local = simd_normalize(SIMD3<Float>(x, y, -1))
-        let dir4 = m * SIMD4(local, 0)
-        let direction = simd_normalize(SIMD3(dir4.x, dir4.y, dir4.z))
-        let origin = SIMD3(m.columns.3.x, m.columns.3.y, m.columns.3.z)
-
-        struct Candidate: Sendable {
-            let ref: PartRef
-            let entry: Float
-            let ghost: Bool
-        }
-        var candidates: [Candidate] = []
-        var packs: [String: MeshPack] = [:]
-        for (id, system) in systems where enabledLayers.contains(id) {
-            packs[id] = system.pack
-            for i in system.pack.parts.indices {
-                let ref = PartRef(system: id, index: i)
-                let state = state(of: ref)
-                if state == .hidden { continue }
-                if let entry = Self.rayBox(origin, direction, system.bounds[i]) {
-                    candidates.append(Candidate(ref: ref, entry: entry, ghost: state == .ghost))
-                }
-            }
-        }
-        guard !candidates.isEmpty else { return nil }
-        candidates.sort { $0.entry < $1.entry }
-
+        let snapshot = pickSnapshot()
         return await Task.detached(priority: .userInitiated) {
-            // Ghosted parts are see-through, so they only win when nothing solid is hit.
-            var best: (Float, PartRef)?
-            var bestGhost: (Float, PartRef)?
-            for c in candidates {
-                // Sorted by box entry: nothing after this can be closer than a solid hit.
-                if let solid = best, c.entry >= solid.0 { break }
-                let limit = c.ghost ? (bestGhost?.0 ?? .infinity) : (best?.0 ?? .infinity)
-                if c.entry >= limit { continue }
-                guard let pack = packs[c.ref.system] else { continue }
-                if let hit = Self.rayMesh(origin, direction, pack: pack, part: c.ref.index, limit: limit) {
-                    if c.ghost { bestGhost = (hit, c.ref) } else { best = (hit, c.ref) }
-                }
-            }
-            return best?.1 ?? bestGhost?.1
+            let (origin, direction) = snapshot.ray(at: point, in: size)
+            return snapshot.pick(origin, direction)
         }.value
     }
 
@@ -155,9 +204,10 @@ extension AnatomyScene {
     /// which most of `refs` can be seen, testing sample points against
     /// everything drawn, with the fraction that is visible and the parts
     /// covering the rest. Views where little has to be faded win over views
-    /// where the structure faces away.
+    /// where the structure faces away. The camera stays outside the body: for
+    /// deep structures the distance grows past the outermost surface.
     func viewpoint(for refs: [PartRef], target: SIMD3<Float>, distance: Float)
-        async -> (yaw: Float, pitch: Float, visible: Float, blockers: Set<PartRef>)? {
+        async -> (yaw: Float, pitch: Float, distance: Float, visible: Float, blockers: Set<PartRef>)? {
         var samples: [(SIMD3<Float>, SIMD3<Float>)] = []
         for ref in refs.prefix(8) {
             guard let system = systems[ref.system] else { continue }
@@ -180,12 +230,25 @@ extension AnatomyScene {
             }
         }
         let targets = Set(refs)
-        return await Task.detached(priority: .userInitiated) { () -> (yaw: Float, pitch: Float, visible: Float, blockers: Set<PartRef>) in
-            var best: (score: Float, yaw: Float, pitch: Float, visible: Float, facing: Float, blockers: [PartRef: Int]) = (-.infinity, 0, 0.08, 0, 1, [:])
+        return await Task.detached(priority: .userInitiated) { () -> (yaw: Float, pitch: Float, distance: Float, visible: Float, blockers: Set<PartRef>) in
+            var best: (score: Float, yaw: Float, pitch: Float, distance: Float, visible: Float, facing: Float, blockers: [PartRef: Int])
+                = (-.infinity, 0, 0.08, distance, 0, 1, [:])
             for pitch in [Float(0.08), 0.65] {
                 for k in 0..<8 {
                     let yaw = Float(k) * .pi / 4
-                    let eye = target + SIMD3(sin(yaw) * cos(pitch), sin(pitch), cos(yaw) * cos(pitch)) * distance
+                    let direction = SIMD3(sin(yaw) * cos(pitch), sin(pitch), cos(yaw) * cos(pitch))
+                    // The outermost surface along the view, seen from far away.
+                    let far: Float = 2.5
+                    let outside = target + direction * far
+                    var nearestFromOutside = far
+                    for (ref, box) in occluders where !targets.contains(ref) {
+                        guard let entry = Self.rayBox(outside, -direction, box), entry < nearestFromOutside,
+                              let pack = packs[ref.system],
+                              let hit = Self.rayMesh(outside, -direction, pack: pack, part: ref.index, limit: nearestFromOutside) else { continue }
+                        nearestFromOutside = hit
+                    }
+                    let viewDistance = max(distance, far - nearestFromOutside + 0.04)
+                    let eye = target + direction * viewDistance
                     var visible: Float = 0, facing: Float = 0, covered: Float = 0
                     var blockers: [PartRef: Int] = [:]
                     for (p, n) in samples {
@@ -214,19 +277,23 @@ extension AnatomyScene {
                     // Prefer the front, then level views, when views are about as good.
                     let bias: Float = (k == 0 ? 1.08 : (k == 4 ? 0.97 : 1)) * (pitch > 0.3 ? 0.92 : 1)
                     let score = (visible + covered * 0.4) * bias - Float(blockers.count) * 0.6
-                    if score > best.score { best = (score, yaw, pitch, visible, max(facing, 1), blockers) }
+                    if score > best.score { best = (score, yaw, pitch, viewDistance, visible, max(facing, 1), blockers) }
                 }
             }
             let minimum = max(2, Int(best.facing * 0.02))
             let covering = Set(best.blockers.filter { $0.value >= minimum }.map(\.key))
-            return (best.yaw, best.pitch, best.visible / best.facing, covering)
+            return (best.yaw, best.pitch, best.distance, best.visible / best.facing, covering)
         }.value
     }
 
     nonisolated static func rayBox(_ o: SIMD3<Float>, _ d: SIMD3<Float>, _ box: BoundingBox) -> Float? {
+        rayBox(o, d, lo: box.min, hi: box.max)
+    }
+
+    nonisolated static func rayBox(_ o: SIMD3<Float>, _ d: SIMD3<Float>, lo: SIMD3<Float>, hi: SIMD3<Float>) -> Float? {
         let inv = SIMD3<Float>(1 / d.x, 1 / d.y, 1 / d.z)
-        let t0 = (box.min - o) * inv
-        let t1 = (box.max - o) * inv
+        let t0 = (lo - o) * inv
+        let t1 = (hi - o) * inv
         let tmin = simd_reduce_max(simd_min(t0, t1))
         let tmax = simd_reduce_min(simd_max(t0, t1))
         guard tmax >= max(tmin, 0) else { return nil }

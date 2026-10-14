@@ -1,0 +1,403 @@
+{
+ "system": "urinary",
+ "questions": [
+  {
+   "id": "ur-7f0ca294",
+   "group": "Böbrekler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Böbreklerin omurgaya göre konumu ile ilgili hangisi doğrudur?",
+   "options": [
+    "Her iki böbrek de intraperitonealdir.",
+    "T6–T10 arasında yer alırlar.",
+    "Sol böbrek sağdan daha aşağıdadır.",
+    "L4–S1 arasında, pelvis içindedir.",
+    "T12–L3 arasında yer alırlar; sağ böbrek karaciğer nedeniyle soldan biraz aşağıdadır."
+   ],
+   "answer": 4,
+   "explanation": "Böbrekler retroperitoneal organlardır; sol böbrek yaklaşık T11–L2, sağ böbrek T12–L3 düzeyindedir. Derin inspirasyonda diyaframla birlikte 2–3 cm aşağı inerler.",
+   "entries": [
+    "ren"
+   ]
+  },
+  {
+   "id": "ur-07a58f05",
+   "group": "Böbrekler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Böbrek hilusunda önden arkaya yapıların sıralaması hangisidir?",
+   "options": [
+    "V. renalis – a. renalis – pelvis renalis",
+    "A. renalis – pelvis renalis – v. renalis",
+    "Pelvis renalis – a. renalis – v. renalis",
+    "V. renalis – pelvis renalis – a. renalis",
+    "A. renalis – v. renalis – pelvis renalis"
+   ],
+   "answer": 0,
+   "explanation": "Hilusta önde ven, ortada arter, arkada pelvis bulunur ('VAP'). Bu düzen nefrektomide damarların öne, toplayıcı sistemin arkaya yerleşimini hatırlatır.",
+   "entries": [
+    "ren",
+    "pelvis-renalis",
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "ur-c51ad5d7",
+   "group": "Böbrekler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Böbreğin arka yüzüyle komşu olmayan yapı hangisidir?",
+   "options": [
+    "M. psoas major",
+    "Diyafram",
+    "Colon descendens",
+    "M. quadratus lumborum",
+    "N. subcostalis"
+   ],
+   "answer": 2,
+   "explanation": "Böbreklerin arka yüzü diyafram, 12. kaburga, psoas major, quadratus lumborum ve transversus abdominis ile; subkostal, iliohipogastrik ve ilioinguinal sinirlerle komşudur. Kolonlar böbreklerin ön-dış yüzüyle komşudur. Arka cerrahi girişimde 12. kaburga üstüne çıkılırsa plevra yaralanabilir.",
+   "entries": [
+    "ren",
+    "diaphragma",
+    "m-quadratus-lumborum"
+   ]
+  },
+  {
+   "id": "ur-6f6d7a34",
+   "group": "Böbrekler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Renal fasya (Gerota) ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Aşağı uçta tamamen kapalıdır.",
+    "Böbrek ve böbreküstü bezini sarar; ancak böbreküstü bezi ayrı bir bölmededir.",
+    "Böbreğe sıkıca yapışık olan iç kapsüldür.",
+    "Yalnızca böbreği sarar, böbreküstü bezi dışarıda kalır.",
+    "Periton ile aynı yapıdır."
+   ],
+   "answer": 1,
+   "explanation": "Böbreği içten dışa fibröz kapsül, perirenal yağ ve renal fasya sarar. Fasya aşağıda üreter boyunca açık kalır; bu nedenle nefroptozda böbrek aşağı kayabilir ama ayrı bölmedeki böbreküstü bezi yerinde kalır.",
+   "entries": [
+    "fascia-renalis",
+    "glandula-suprarenalis"
+   ]
+  },
+  {
+   "id": "ur-3d0bcc43",
+   "group": "Böbrekler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Bir segmental renal arterin tıkanması neden kama biçimli enfarkta yol açar?",
+   "options": [
+    "Segmental arterler aralarında anastomoz yapmayan uç arterlerdir.",
+    "Segmental arterler birbirleriyle geniş anastomoz yaptığı için.",
+    "Böbreğin lenfatik drenajı olmadığı için.",
+    "Renal korteks yalnızca venöz kanla beslendiği için.",
+    "Segmental arterlerin venleri olmadığı için."
+   ],
+   "answer": 0,
+   "explanation": "A. renalis hilusta genellikle beş segmental artere (apikal, üst, orta, alt, posterior) ayrılır ve bunlar uç arterlerdir. Renal venler ise segmentler arasında serbestçe anastomoz yapar; bu nedenle segmental ven bağlanması enfarkt yapmaz.",
+   "entries": [
+    "nephronum",
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "ur-257a92db",
+   "group": "Böbrekler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Turner sendromlu kız çocuğunda ultrasonda iki böbreğin alt kutuplarının orta hatta birleştiği görülüyor. Bu böbreğin normal yerine yükselmesini engelleyen yapı hangisidir?",
+   "options": [
+    "A. mesenterica superior",
+    "A. mesenterica inferior",
+    "A. iliaca communis",
+    "Lig. inguinale",
+    "Truncus coeliacus"
+   ],
+   "answer": 1,
+   "explanation": "At nalı böbrekte birleşen alt kutuplar yükselirken IMA'nın çıkış yerine takılır ve böbrek normalden aşağıda kalır. Üreterler istmusun önünden geçtiği için drenaj sorunları ve taş oluşumu sıktır.",
+   "entries": [
+    "ren",
+    "a-mesenterica-inferior"
+   ]
+  },
+  {
+   "id": "ur-46ae2cd0",
+   "group": "Böbrekler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Böbreğin toplayıcı sistemi (üreter, pelvis, kaliksler, toplayıcı kanallar) embriyolojik olarak neyden gelişir?",
+   "options": [
+    "Metanefrik blastemden",
+    "Paramezonefrik kanaldan",
+    "Ürogenital sinüsten",
+    "Üreter tomurcuğundan (mezonefrik kanal çıkıntısı)",
+    "Pronefrozdan"
+   ],
+   "answer": 3,
+   "explanation": "Metanefroz iki kaynaktan gelişir: üreter tomurcuğu toplayıcı sistemi, metanefrik blastem ise nefronu (Bowman kapsülünden distal tübüle kadar) oluşturur. İki dokunun karşılıklı indüksiyonu bozulursa renal agenezi veya multikistik displazi gelişebilir.",
+   "entries": [
+    "nephronum",
+    "pelvis-renalis",
+    "ureter"
+   ]
+  },
+  {
+   "id": "ur-04e35163",
+   "group": "Böbrekler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Jukstaglomerüler aparat ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "options": [
+    "Renin afferent arteriyolün duvarındaki jukstaglomerüler hücrelerden salgılanır.",
+    "Ekstraglomerüler mezangiyal hücreler aparatın parçasıdır.",
+    "Macula densa tübül içindeki NaCl yükünü algılar.",
+    "Renin efferent arteriyoldeki macula densa hücrelerinden salgılanır.",
+    "Macula densa distal tübülün glomerüle komşu duvarındadır."
+   ],
+   "answer": 3,
+   "explanation": "Jukstaglomerüler hücreler afferent arteriyolün modifiye düz kas hücreleridir ve renin salgılar. Macula densa distal tübülün özelleşmiş epitelidir ve renin salınımını ile glomerüler filtrasyonu (tübüloglomerüler geri bildirim) düzenler.",
+   "entries": [
+    "nephronum"
+   ]
+  },
+  {
+   "id": "ur-78510da7",
+   "group": "Böbrekler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Canlı vericiden böbrek naklinde genellikle sol böbreğin tercih edilmesinin nedeni nedir?",
+   "options": [
+    "Sol böbreğin intraperitoneal olması",
+    "Sol böbreğin daha büyük olması",
+    "Sol renal venin daha uzun olması",
+    "Sol üreterin daha kısa olması",
+    "Sol renal arterin daha uzun olması"
+   ],
+   "answer": 2,
+   "explanation": "Sol renal ven aortanın önünden geçerek VCI'ya ulaştığı için daha uzundur; bu da alıcıda damar anastomozunu kolaylaştırır. Sağ renal arter ise daha uzundur ve VCI'nın arkasından geçer.",
+   "entries": [
+    "ren",
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "ur-a4eb3a00",
+   "group": "Böbrekler",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Antenatal ultrasonda tek taraflı hidronefroz saptanan bebekte üreter normal çapta, renal pelvis ve kaliksler belirgin genişlemiş. Tıkanıklık en olası nerededir?",
+   "options": [
+    "Mesane boynu",
+    "Posterior üretral valv",
+    "Üreterovezikal bileşke",
+    "Pelvis girişinde iliak damarların çaprazladığı yer",
+    "Üreteropelvik bileşke"
+   ],
+   "answer": 4,
+   "explanation": "Üreter normal, pelvis genişse tıkanıklık pelvis ile üreterin birleşim yerindedir. Üreteropelvik bileşke darlığı çocuklarda hidronefrozun en sık nedenidir; posterior üretral valv ise erkeklerde iki taraflı hidronefroz ve mesane duvarı kalınlaşması yapar.",
+   "entries": [
+    "pelvis-renalis",
+    "ureter"
+   ]
+  },
+  {
+   "id": "ur-656e30d0",
+   "group": "İdrar yolları",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Yan ağrısı kasığa ve skrotuma yayılan, kıvrandıran ağrısı olan hastada hematüri var. Taşın en sık takıldığı ve üreterin en dar olduğu yer neresidir?",
+   "options": [
+    "Pelvis girişinde iliak damarların çaprazlandığı yer",
+    "Üreterovezikal bileşke",
+    "Üreteropelvik bileşke",
+    "Böbrek kaliksleri",
+    "Üretranın prostatik bölümü"
+   ],
+   "answer": 1,
+   "explanation": "Üreterin üç fizyolojik darlığı üreteropelvik bileşke, pelvis girişi ve üreterovezikal bileşkedir; en dar olanı mesane duvarını eğik olarak geçtiği üreterovezikal bileşkedir. Ağrının bele, kasığa ve skrotuma/labiuma yayılması T11–L2 segmentlerinin (genitofemoral ve ilioinguinal alanları) tutulmasıyla açıklanır.",
+   "entries": [
+    "ureter",
+    "vesica-urinaria"
+   ]
+  },
+  {
+   "id": "ur-5d8e9deb",
+   "group": "İdrar yolları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Erkekte pelviste üreteri yukarıdan (önden) çaprazlayan yapı hangisidir?",
+   "options": [
+    "A. uterina",
+    "M. psoas major",
+    "Ductus deferens",
+    "A. iliaca interna",
+    "N. obturatorius"
+   ],
+   "answer": 2,
+   "explanation": "Erkekte ductus deferens mesanenin arka-yan duvarına ilerlerken üreterin üstünden geçer. Kadında karşılık gelen ilişki a. uterina ile üreter arasındadır ('köprünün altından akan su').",
+   "entries": [
+    "ureter",
+    "ductus-deferens"
+   ]
+  },
+  {
+   "id": "ur-e12e677d",
+   "group": "İdrar yolları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Üreterin kanlanması ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Tüm uzunluğu boyunca yalnızca a. renalis'ten beslenir.",
+    "Pelvis kısmı aortadan doğrudan dal alır.",
+    "Kanlanma yalnızca a. mesenterica inferior'dandır.",
+    "Üreterin kendine ait arteri yoktur.",
+    "Karın kısmı damarlarını medialden (aortik dallar), pelvis kısmı lateralden (iliak dallar) alır."
+   ],
+   "answer": 4,
+   "explanation": "Üreter renal, gonadal, aortik, ortak iliak, iç iliak ve vezikal arterlerden segmental dallar alır; bunlar duvar içinde uzunlamasına anastomoz yapar. Cerrahide üreterin karın kısmı içten, pelvis kısmı dıştan diseke edilirse kanlanması korunur.",
+   "entries": [
+    "ureter"
+   ]
+  },
+  {
+   "id": "ur-2cd530df",
+   "group": "İdrar yolları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mesanenin trigonum vesicae bölgesi ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Prostatın içinde yer alır.",
+    "Endodermal ürogenital sinüsten gelişir ve en kıvrımlı bölgedir.",
+    "İki üreter ağzı ve iç üretra ağzı arasındaki düz mukozalı üçgendir.",
+    "Kas tabakası içermez.",
+    "Mesanenin tepesindeki (apex) kıvrımlı bölgedir."
+   ],
+   "answer": 2,
+   "explanation": "Trigonun mukozası, mesanenin geri kalanının aksine mesane dolu veya boşken düz kalır; mezonefrik kanalların mesane duvarına katılmasıyla gelişir. Mesane tümörleri ve enfeksiyonları sıklıkla bu bölgeyi tutar.",
+   "entries": [
+    "vesica-urinaria"
+   ]
+  },
+  {
+   "id": "ur-6099125b",
+   "group": "İdrar yolları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "İşeme (miksiyon) sırasında detrusor kasını kasan lifler hangileridir?",
+   "options": [
+    "N. pudendus'un somatik motor lifleri",
+    "T11–L2 kökenli sempatik lifler",
+    "N. genitofemoralis lifleri",
+    "N. obturatorius lifleri",
+    "Pelvik splanknik sinirlerle gelen parasempatik lifler (S2–S4)"
+   ],
+   "answer": 4,
+   "explanation": "Parasempatik uyarı detrusoru kasar ve iç sfinkteri gevşetir. Sempatik lifler (hipogastrik sinirler) dolum döneminde detrusoru gevşetir ve mesane boynunu kasar; n. pudendus istemli dış sfinkteri kontrol eder.",
+   "entries": [
+    "vesica-urinaria",
+    "systema-autonomicum",
+    "n-pudendus"
+   ]
+  },
+  {
+   "id": "ur-b318e472",
+   "group": "İdrar yolları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Trafik kazasında karnı dolu mesaneyle emniyet kemerine çarpan hastada karın ağrısı, hematüri ve batında yaygın hassasiyet var; sistografide kontrast madde bağırsak halkalarının arasına yayılıyor. Yırtılan bölge neresidir?",
+   "options": [
+    "Membranöz üretra",
+    "Mesane kubbesi (intraperitoneal rüptür)",
+    "Mesane boynu (ekstraperitoneal rüptür)",
+    "Trigonum vesicae",
+    "Prostatik üretra"
+   ],
+   "answer": 1,
+   "explanation": "Dolu mesane karın boşluğuna yükselir ve tepesi peritonla örtülüdür. Künt travmada kubbe yırtılır, idrar periton boşluğuna dolar (cerrahi onarım gerekir). Pelvis kırıklarına eşlik eden yırtıklar ise çoğunlukla ekstraperitoneal olup idrar prevezikal (Retzius) aralığa yayılır.",
+   "entries": [
+    "vesica-urinaria",
+    "peritoneum"
+   ]
+  },
+  {
+   "id": "ur-f04a587e",
+   "group": "İdrar yolları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Göbekten idrar gelmesine yol açabilen ve mesanenin tepesini göbeğe bağlayan fetal yapının erişkindeki kalıntısı hangisidir?",
+   "options": [
+    "Lig. venosum",
+    "Lig. arcuatum medianum",
+    "Lig. umbilicale medianum (urachus)",
+    "Lig. umbilicale mediale (a. umbilicalis)",
+    "Lig. teres hepatis"
+   ],
+   "answer": 2,
+   "explanation": "Urachus, allantois kanalının kalıntısıdır ve mesane tepesinden göbeğe uzanır. Tam açık kalırsa göbekten idrar gelir; kısmi açıklıklar urakal kist veya sinüs oluşturur. Lig. umbilicale mediale ise a. umbilicalis'in tıkanmış kısmıdır.",
+   "entries": [
+    "vesica-urinaria"
+   ]
+  },
+  {
+   "id": "ur-238ad5cb",
+   "group": "İdrar yolları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Erkek üretrasının en dar ve en az genişleyebilen bölümü hangisidir?",
+   "options": [
+    "Pars prostatica",
+    "Pars spongiosa",
+    "Pars membranacea",
+    "Fossa navicularis",
+    "Pars intramuralis"
+   ],
+   "answer": 2,
+   "explanation": "Membranöz üretra perine zarının içinden geçer ve dış üretral sfinkterle sarılıdır. Kateterizasyonda direnç ve yaralanma en sık burada olur. En geniş bölüm prostatik, en uzun bölüm spongiyöz üretradır.",
+   "entries": [
+    "urethra-masculina",
+    "urethra"
+   ]
+  },
+  {
+   "id": "ur-06a16e47",
+   "group": "İdrar yolları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Bisiklet sürerken ata biner şekilde demir çubuğun üzerine düşen erkekte perinede, skrotumda ve penis çevresinde morluk ve şişlik gelişiyor; şişlik karın ön duvarına uzanıyor ancak uyluklara geçmiyor. Yırtılan yapı ve yayılımı sınırlayan fasya hangisidir?",
+   "options": [
+    "Spongiyöz üretra – Scarpa fasyasının inguinal bağa yapışmaması",
+    "Spongiyöz (bulbar) üretra – Colles fasyasının fascia lata'ya yapışması",
+    "Prostatik üretra – Denonvilliers fasyası",
+    "Membranöz üretra – fascia transversalis",
+    "Mesane boynu – fascia endopelvina"
+   ],
+   "answer": 1,
+   "explanation": "Bulbar üretra perine zarının altında, yüzeyel perine boşluğundadır. Yırtıldığında idrar ve kan Colles fasyasının altında skrotum, penis ve Scarpa fasyası altından karın ön duvarına yayılır. Colles/Scarpa fasyası fascia lata'ya yapıştığı için uyluğa geçemez.",
+   "entries": [
+    "urethra-masculina",
+    "perineum"
+   ]
+  },
+  {
+   "id": "ur-b6d27b70",
+   "group": "İdrar yolları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kadınlarda idrar yolu enfeksiyonlarının daha sık görülmesinin anatomik nedeni nedir?",
+   "options": [
+    "Üreterlerin daha uzun olması",
+    "Üretranın kısa (yaklaşık 4 cm) olması ve dış ağzının vajen ve anüse yakın olması",
+    "Trigonun bulunmaması",
+    "Üretranın prostatla çevrili olması",
+    "Mesanenin daha büyük olması"
+   ],
+   "answer": 1,
+   "explanation": "Kadın üretrası kısa ve düzdür; dış ağzı vestibülde klitorisin altında, vajen girişinin önündedir. Perine florası bakterilerinin mesaneye ulaşması kolaylaşır.",
+   "entries": [
+    "urethra"
+   ]
+  }
+ ]
+}

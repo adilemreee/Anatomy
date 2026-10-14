@@ -10,7 +10,7 @@ import SwiftUI
 @MainActor
 @Observable
 final class AppModel {
-    enum Tab: Hashable {
+    enum Tab: String, Hashable {
         case atlas, systems, study, library, search
     }
 
@@ -24,20 +24,144 @@ final class AppModel {
             UserDefaults.standard.set(newValue.rawValue, forKey: "colorMode")
         }
     }
+
+    /// Which genital organs the atlas shows; remembered.
+    var sex: BodySex {
+        get { scene.sex }
+        set {
+            scene.sex = newValue
+            UserDefaults.standard.set(newValue.rawValue, forKey: "bodySex")
+        }
+    }
+
     /// Shown full screen over everything.
     var specimen: SpecimenRequest?
+    /// The Premium offer, with what the user just tried to open.
+    var paywall: PaywallContext?
+    /// The running test or exam, shown full screen.
+    var quiz: QuizSession?
+    var flashcards: FlashcardDeck?
+    /// A short message shown as an alert (e.g. no questions for a filter).
+    var notice: String?
     let store: AtlasStore
     let study: StudyStore
+    let bank = QuestionBank()
     let scene: AnatomyScene
+    let purchases: PurchaseStore
+
+    var isPremium: Bool { purchases.isPremium }
+
+    /// Opens the paywall unless Premium is active; returns whether the
+    /// feature may be used.
+    @discardableResult
+    func requirePremium(_ feature: PremiumFeature) -> Bool {
+        if purchases.isPremium { return true }
+        paywall = PaywallContext(feature: feature)
+        return false
+    }
+
+    /// Whether a 3D part can be studied without Premium (the skeleton).
+    func isFree(_ ref: PartRef) -> Bool {
+        isPremium || ref.system == Access.freeLayer
+    }
+
+    func isFree(_ entry: AtlasEntry) -> Bool {
+        Access.canOpen(systemID: entry.systemID, premium: isPremium)
+    }
+
+    /// Systems the user can study.
+    var openSystems: Set<String> {
+        Set(store.systems.map(\.id).filter { Access.canOpen(systemID: $0, premium: isPremium) })
+    }
+
+    /// Questions a free user can still answer today; nil with Premium.
+    var freeQuestionsLeft: Int? {
+        isPremium ? nil : max(0, Access.freeDailyQuestions - study.answeredToday)
+    }
+
+    /// Starts a test, applying the free tier limits.
+    func startQuiz(_ config: QuizConfig) {
+        var config = config
+        if !isPremium {
+            if config.isExam {
+                requirePremium(.exam)
+                return
+            }
+            let allowed = (config.systems ?? Set(store.systems.map(\.id))).intersection(openSystems)
+            guard !allowed.isEmpty else {
+                let name = config.systems?.first.flatMap(store.system)?.tr ?? "Bu sistem"
+                requirePremium(.system(name))
+                return
+            }
+            guard let left = freeQuestionsLeft, left > 0 else {
+                requirePremium(.questions)
+                return
+            }
+            config.systems = allowed
+            config.count = min(config.count, left)
+        }
+        let questions = QuizEngine.questions(for: config, store: store, bank: bank, study: study, hasModel: hasModel)
+        guard !questions.isEmpty else {
+            notice = switch config.source {
+            case .wrongs: "Yanlış yaptığın soru yok. Harika!"
+            case .bookmarks: "Henüz soru işaretlemedin. Soru ekranındaki yer imi düğmesiyle kaydedebilirsin."
+            default: "Bu seçim için soru bulunamadı."
+            }
+            return
+        }
+        quiz = QuizSession(config: config, questions: questions)
+    }
+
+    /// Restarts with a fixed list of questions (e.g. the wrong ones of a test).
+    func startQuiz(title: String, questions: [QuizQuestion]) {
+        guard !questions.isEmpty else { return }
+        var list = questions
+        if let left = freeQuestionsLeft {
+            guard left > 0 else {
+                // Called from inside a finished test: close it first.
+                quiz = nil
+                Task {
+                    try? await Task.sleep(for: .milliseconds(600))
+                    requirePremium(.questions)
+                }
+                return
+            }
+            list = Array(list.prefix(left))
+        }
+        quiz = QuizSession(config: QuizConfig(title: title, source: .bank, count: list.count), questions: list)
+    }
+
+    /// Opens a flashcard deck; free users get the skeletal system.
+    func startFlashcards(systems: Set<String>?) {
+        var scope = systems ?? Set(store.systems.map(\.id))
+        if !isPremium {
+            scope.formIntersection(openSystems)
+            if scope.isEmpty {
+                requirePremium(.flashcards)
+                return
+            }
+        }
+        let entries = store.entries.filter { scope.contains($0.systemID) }
+        flashcards = FlashcardDeck(entries: entries, study: study)
+    }
 
     init() {
         store = AtlasStore()
         study = StudyStore()
+        purchases = PurchaseStore()
         // Launch arguments for screenshots and testing, e.g.
         // -AtlasLayers skeletal,visceral -AtlasGhost skeletal
         let defaults = UserDefaults.standard
         let layers = defaults.string(forKey: "AtlasLayers").map { Set($0.split(separator: ",").map(String.init)) }
         scene = AnatomyScene(initialLayers: layers)
+        // -AppTab study opens another tab (screenshots).
+        if let tab = defaults.string(forKey: "AppTab").flatMap(Tab.init(rawValue:)) {
+            self.tab = tab
+        }
+        // -AtlasSex female, otherwise the last choice.
+        if let sex = (defaults.string(forKey: "AtlasSex") ?? defaults.string(forKey: "bodySex")).flatMap(BodySex.init(rawValue:)) {
+            scene.sex = sex
+        }
         // -AtlasColors educational, otherwise the last choice.
         if let mode = (defaults.string(forKey: "AtlasColors") ?? defaults.string(forKey: "colorMode")).flatMap(ColorMode.init(rawValue:)) {
             scene.colorMode = mode
@@ -77,9 +201,10 @@ final class AppModel {
             let refs = scene.refs(matching: [name])
             Task { await scene.reveal(refs) }
         }
-        // -AtlasCamera "x,y,z,distance,yaw"
-        if let values = defaults.string(forKey: "AtlasCamera")?.split(separator: ",").compactMap({ Float($0) }), values.count == 5 {
-            scene.setCamera(target: SIMD3(values[0], values[1], values[2]), distance: values[3], yaw: values[4])
+        // -AtlasCamera "x,y,z,distance,yaw[,pitch]"
+        if let values = defaults.string(forKey: "AtlasCamera")?.split(separator: ",").compactMap({ Float($0) }), values.count >= 5 {
+            scene.setCamera(target: SIMD3(values[0], values[1], values[2]), distance: values[3], yaw: values[4],
+                            pitch: values.count > 5 ? values[5] : 0.05)
         }
     }
 
@@ -88,21 +213,26 @@ final class AppModel {
 
     /// Switches to the 3D atlas and frames the parts that show `entry`.
     func showInAtlas(_ entry: AtlasEntry, isolate: Bool = false) {
-        let refs = scene.refs(matching: entry.models)
-        guard !refs.isEmpty else { return }
-        tab = .atlas
-        Task { await scene.reveal(refs, isolate: isolate) }
+        showInAtlas(scene.refs(matching: entry.models), isolate: isolate)
     }
 
     func showInAtlas(_ refs: [PartRef], isolate: Bool = false) {
+        let refs = scene.matchingSex(refs)
         guard !refs.isEmpty else { return }
+        // Female organs need Premium, like the switch in the layers sheet.
+        if refs.allSatisfy({ scene.sex(of: $0) == .female }), sex != .female {
+            guard requirePremium(.femaleAnatomy) else { return }
+            sex = .female
+        } else if refs.allSatisfy({ scene.sex(of: $0) == .male }), sex != .male {
+            sex = .male
+        }
         tab = .atlas
         Task { await scene.reveal(refs, isolate: isolate) }
     }
 
     /// Opens the specimen viewer for an entry's parts (one side only).
     func inspect(_ entry: AtlasEntry) {
-        var refs = scene.refs(matching: entry.models)
+        var refs = scene.matchingSex(scene.refs(matching: entry.models))
         guard !refs.isEmpty else { return }
         // Bilateral structures: keep the right side, like an atlas plate.
         if refs.contains(where: { scene.info($0)?.side == "r" }) {

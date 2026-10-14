@@ -1,0 +1,427 @@
+{
+ "system": "lymphatic",
+ "questions": [
+  {
+   "id": "ly-85b8ccde",
+   "group": "Lenfoid organlar",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Trafik kazasında sol alt kaburgaları kırılan hastada hipotansiyon ve sol omuz ağrısı gelişiyor. Yaralanan organ ve yeri için hangisi doğrudur?",
+   "options": [
+    "Dalak; sol 9–11. kaburgaların arkasında, uzun ekseni 10. kaburga boyunca",
+    "Mide; sol 2–4. kaburgaların arkasında",
+    "Karaciğer; sağ 7–9. kaburgaların arkasında",
+    "Sol böbrek; T6–T8 düzeyinde",
+    "Pankreas başı; sol 12. kaburganın altında"
+   ],
+   "answer": 0,
+   "explanation": "Dalak karın içinde en sık yaralanan organdır. Kan diyafram altını tahriş ederek frenik sinir yoluyla sol omuza yansıyan ağrıya (Kehr belirtisi) yol açar. Normal dalak kaburga kavsinin altında ele gelmez.",
+   "entries": [
+    "splen",
+    "costae"
+   ]
+  },
+  {
+   "id": "ly-dc6915c3",
+   "group": "Lenfoid organlar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dalağın bağlarıyla ilgili hangisi doğrudur?",
+   "options": [
+    "Dalağın hiç bağı yoktur, retroperitonealdir.",
+    "Lig. splenorenale kısa gastrik arterleri içerir.",
+    "Lig. gastrosplenicum a. splenica'nın ana gövdesini içerir.",
+    "Lig. splenorenale splenik damarları ve pankreas kuyruğunu içerir.",
+    "Lig. phrenicocolicum dalağı mideye bağlar."
+   ],
+   "answer": 3,
+   "explanation": "Dalak intraperitonealdir. Lig. gastrosplenicum kısa gastrik damarları ve sol gastroomental damarları, lig. splenorenale splenik arter ve veni ile pankreas kuyruğunu içerir. Lig. phrenicocolicum dalağın alt kutbunu destekler.",
+   "entries": [
+    "splen",
+    "pancreas"
+   ]
+  },
+  {
+   "id": "ly-7ba77ea3",
+   "group": "Lenfoid organlar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Splenektomi sonrası hastaların hangi enfeksiyonlara karşı aşılanması gerekir ve neden?",
+   "options": [
+    "Virüslere; dalak interferon üretir.",
+    "Parazitlere; dalak eozinofil üretir.",
+    "Mantarlara; dalak kandida temizler.",
+    "Hiçbirine; karaciğer görevini tamamen üstlenir.",
+    "Kapsüllü bakterilere (pnömokok, meningokok, H. influenzae); dalak opsonize olmamış kapsüllü bakterileri temizler."
+   ],
+   "answer": 4,
+   "explanation": "Dalak kırmızı pulpası yaşlı eritrositleri ve kapsüllü bakterileri temizler, beyaz pulpası IgM yanıtını başlatır. Splenektomi sonrası ağır sepsis (OPSI) riski nedeniyle aşılama önerilir.",
+   "entries": [
+    "splen"
+   ]
+  },
+  {
+   "id": "ly-c161054e",
+   "group": "Lenfoid organlar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "T lenfositlerin olgunlaştığı primer lenfoid organ hangisidir ve nereden gelişir?",
+   "options": [
+    "Kemik iliği; sklerotom",
+    "Tonsilla palatina; 2. faringeal kese",
+    "Dalak; dorsal mezogastrium",
+    "Lenf düğümleri; ara mezoderm",
+    "Timus; 3. faringeal kese"
+   ],
+   "answer": 4,
+   "explanation": "Timus ön-üst mediastende yer alır; çocuklukta büyüktür, ergenlikten sonra yağ dokusuna dönüşür. Epitel hücreleri 3. faringeal keseden, lenfositleri kemik iliğinden gelir. Primer lenfoid organlar kemik iliği ve timustur.",
+   "entries": [
+    "thymus"
+   ]
+  },
+  {
+   "id": "ly-81e7023b",
+   "group": "Lenfoid organlar",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tonsillektomi sonrası hastada aynı tarafta dilin arka kısmında tat kaybı ve kulağa yayılan ağrı var. Tonsil yatağında yaralanan sinir hangisidir?",
+   "options": [
+    "N. hypoglossus",
+    "N. vagus'un rekürren dalı",
+    "N. facialis",
+    "N. lingualis",
+    "N. glossopharyngeus"
+   ],
+   "answer": 4,
+   "explanation": "Tonsil yatağının tabanını m. constrictor pharyngis superior oluşturur ve bu kasın dışında n. glossopharyngeus seyreder. Hasarında dilin arka 1/3'ünde tat ve duyu kaybı olur; kulak ağrısı IX'un timpanik dalı yoluyla yansır.",
+   "entries": [
+    "tonsillae",
+    "n-glossopharyngeus"
+   ]
+  },
+  {
+   "id": "ly-644dfb33",
+   "group": "Lenfoid organlar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tonsilla palatina nerede bulunur?",
+   "options": [
+    "Nazofarinksin arka duvarında",
+    "Tuba auditiva'nın ağzında",
+    "Dil kökünde",
+    "Arcus palatoglossus ile arcus palatopharyngeus arasındaki fossa tonsillaris'te",
+    "Piriform girintide"
+   ],
+   "answer": 3,
+   "explanation": "Damak bademciği orofarinksin yan duvarında iki damak kemeri arasında yer alır. Nazofarinksteki adenoid (tonsilla pharyngea), dil kökündeki tonsilla lingualis ve tuba ağzındaki tonsilla tubaria ile birlikte Waldeyer halkasını oluşturur.",
+   "entries": [
+    "tonsillae",
+    "pharynx"
+   ]
+  },
+  {
+   "id": "ly-3296daef",
+   "group": "Lenfoid organlar",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Çocukta horlama, ağızdan solunum, 'adenoid yüz' görünümü ve tekrarlayan orta kulak iltihabı var. Bu belirtilerden sorumlu lenfoid doku hangisidir?",
+   "options": [
+    "Tonsilla tubaria",
+    "Tonsilla pharyngea (adenoid)",
+    "Jugulodigastrik lenf düğümü",
+    "Tonsilla palatina",
+    "Tonsilla lingualis"
+   ],
+   "answer": 1,
+   "explanation": "Nazofarinks tavanı ve arka duvarındaki adenoid çocuklukta büyür ve koanaları tıkayarak ağızdan solunuma yol açar. Tuba auditiva ağzına yakın olduğu için seröz otit ve tekrarlayan otitlere zemin hazırlar.",
+   "entries": [
+    "tonsillae",
+    "tuba-auditiva"
+   ]
+  },
+  {
+   "id": "ly-a86cf2de",
+   "group": "Lenfoid organlar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kırmızı kemik iliği erişkinde en çok nerede bulunur?",
+   "options": [
+    "Erişkinde kırmızı kemik iliği bulunmaz",
+    "Yalnızca uzun kemiklerin diyafizlerinde",
+    "Aksiyal iskelette (vertebralar, sternum, kaburgalar, pelvis) ve uzun kemiklerin proksimal uçlarında",
+    "El ve ayak kemiklerinde",
+    "Kafatasının yalnızca yüz kemiklerinde"
+   ],
+   "answer": 2,
+   "explanation": "Doğumda tüm kemiklerde kırmızı ilik bulunur; yaşla uzun kemiklerin diyafizleri sarı (yağlı) iliğe dönüşür. Kemik iliği aspirasyonu ve biyopsisi çoğunlukla arka iliak kristadan yapılır.",
+   "entries": [
+    "medulla-ossium"
+   ]
+  },
+  {
+   "id": "ly-1413e026",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ductus thoracicus nereye açılır?",
+   "options": [
+    "Sol v. jugularis interna ile sol v. subclavia'nın birleşim yerine (sol venöz açı)",
+    "Sağ venöz açıya",
+    "V. cava inferior'a",
+    "V. azygos'a",
+    "Sol atriyuma"
+   ],
+   "answer": 0,
+   "explanation": "Ductus thoracicus vücudun alt yarısının ve sol üst çeyreğinin lenfini toplar ve sol venöz açıya açılır. Sağ üst çeyreğin lenfi sağ lenf kanalıyla sağ venöz açıya boşalır.",
+   "entries": [
+    "ductus-thoracicus",
+    "v-subclavia",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "ly-da64819e",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ductus thoracicus'un seyri ile ilgili hangisi yanlıştır?",
+   "options": [
+    "L1–L2 düzeyinde cisterna chyli'den başlar.",
+    "T4–T5 düzeyinde omurganın önünden sola geçer.",
+    "Diyaframı özofagus hiatusundan geçer.",
+    "Arka mediastende aorta ile v. azygos arasında yükselir.",
+    "Boyunda a. carotis communis'in arkasından dolanır."
+   ],
+   "answer": 2,
+   "explanation": "Ductus thoracicus diyaframı aort hiatusundan (T12) geçer. Toraksta önce sağda yükselir, angulus sterni düzeyinde sola geçer ve boyunda sol venöz açıya açılır. Sol taraf boyun cerrahisinde yaralanması şilöz kaçağa yol açar.",
+   "entries": [
+    "ductus-thoracicus",
+    "mediastinum"
+   ]
+  },
+  {
+   "id": "ly-476cdcd5",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sağ lenf kanalı (ductus lymphaticus dexter) vücudun hangi bölümünün lenfini toplar?",
+   "options": [
+    "Karın ve pelvis organları",
+    "Baş-boynun sağ yarısı, sağ üst ekstremite ve göğsün sağ yarısı",
+    "Yalnızca sağ akciğer",
+    "Sağ alt ekstremite",
+    "Vücudun tüm sağ yarısı"
+   ],
+   "answer": 1,
+   "explanation": "Sağ lenf kanalı sağ juguler, subklavyen ve bronkomediastinal gövdelerin birleşmesiyle oluşur ve sağ venöz açıya açılır. Vücudun geri kalan yaklaşık 3/4'ü ductus thoracicus ile drene olur.",
+   "entries": [
+    "ductus-lymphaticus-dexter",
+    "ductus-thoracicus"
+   ]
+  },
+  {
+   "id": "ly-de37c68b",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Kilo kaybı ve epigastrik ağrısı olan yaşlı hastada sol klavikula üstünde sert, ağrısız lenf düğümü ele geliyor. Bu bulgu en çok hangi kanseri düşündürür ve neden solda olur?",
+   "options": [
+    "Tiroid kanseri; tiroidin sol lobu daha büyüktür.",
+    "Mide kanseri; karın lenfi ductus thoracicus ile sol venöz açıya taşınır.",
+    "Lenfoma; yalnızca sol tarafta görülür.",
+    "Meme kanseri; meme lenfi sol tarafa toplanır.",
+    "Akciğer kanseri; sol akciğer daha büyüktür."
+   ],
+   "answer": 1,
+   "explanation": "Virchow düğümü (Troisier belirtisi) sol supraklaviküler fossadaki düğümdür. Ductus thoracicus'un sonlanma yerine yakın olduğundan karın içi kanserlerin, özellikle mide kanserinin uzak metastazında büyür.",
+   "entries": [
+    "nodi-supraclaviculares",
+    "gaster",
+    "ductus-thoracicus"
+   ]
+  },
+  {
+   "id": "ly-056c5bbe",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Tonsillerin ve dil kökünün asıl bölgesel lenf düğümü hangisidir?",
+   "options": [
+    "Nodus juguloomohyoideus",
+    "Nodi occipitales",
+    "Nodi submentales",
+    "Nodi supraclaviculares",
+    "Nodus jugulodigastricus"
+   ],
+   "answer": 4,
+   "explanation": "Jugulodigastrik düğüm digastrik kasın arka karnının v. jugularis interna'yı çaprazladığı yerdedir. Tonsillitte en sık büyüyen düğümdür; erişkinde kalıcı büyümesi orofarinks kanserini düşündürmelidir.",
+   "entries": [
+    "nodus-jugulodigastricus",
+    "tonsillae"
+   ]
+  },
+  {
+   "id": "ly-b940fb57",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Alt dudağın orta kısmı, ağız tabanının ön kısmı ve dil ucunun lenfi ilk olarak hangi düğümlere gider?",
+   "options": [
+    "Nodi supraclaviculares",
+    "Nodi parotidei",
+    "Nodi mastoidei",
+    "Nodi submentales",
+    "Nodi occipitales"
+   ],
+   "answer": 3,
+   "explanation": "Submental düğümler hyoid üstünde, iki digastrik ön karın arasındaki üçgendedir. Alt dudak kanserlerinde ilk incelenen düğümlerdir; üst dudak ve yanaklar ise submandibular düğümlere drene olur.",
+   "entries": [
+    "nodi-cervicales"
+   ]
+  },
+  {
+   "id": "ly-5b92667a",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aksiller lenf düğümleri cerrahide m. pectoralis minor'a göre üç düzeye ayrılır. Düzey III düğümler nerededir?",
+   "options": [
+    "Sternum kenarında",
+    "Pectoralis minor'un medialinde-üstünde (apikal düğümler)",
+    "Pectoralis minor'un lateralinde-altında",
+    "Pectoralis minor'un hemen arkasında",
+    "Pectoralis major ile minor arasında"
+   ],
+   "answer": 1,
+   "explanation": "Düzey I: pectoralis minor'un lateralinde; düzey II: arkasında (santral düğümler ve interpektoral Rotter düğümleri); düzey III: medialinde (apikal/infraklaviküler). Meme kanseri genellikle düzeyler sırasıyla yayılır.",
+   "entries": [
+    "nodi-axillares",
+    "m-pectoralis-minor",
+    "glandula-mammaria"
+   ]
+  },
+  {
+   "id": "ly-7de4b795",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdaki bölgelerden hangisi yüzeyel inguinal lenf düğümlerine drene olmaz?",
+   "options": [
+    "Göbek altındaki karın ön duvarı derisi",
+    "Anal kanalın pektinat çizgi altındaki kısmı",
+    "Ayak başparmağı derisi",
+    "Testis",
+    "Skrotum derisi"
+   ],
+   "answer": 3,
+   "explanation": "Yüzeyel inguinal düğümler alt ekstremitenin yüzeyel dokularını, göbek altındaki gövde duvarını, perineyi ve dış genital organları drene eder. Testis, gelişimsel kökeni nedeniyle lomber (paraaortik) düğümlere drene olur.",
+   "entries": [
+    "nodi-inguinales",
+    "testis",
+    "nodi-lumbales"
+   ]
+  },
+  {
+   "id": "ly-a22c7090",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Topuğunda enfekte yara olan hastada diz arkasında ağrılı, şiş lenf düğümü saptanıyor. Bu düğüm grubunun drenaj alanı için hangisi doğrudur?",
+   "options": [
+    "V. saphena parva boyunca gelen topuk, ayak dış kenarı ve baldırın yüzeyel lenfini alır.",
+    "Uyluğun ön yüzünün lenfini alır.",
+    "Diz ekleminin iç yapılarını drene etmez.",
+    "Ayak iç kenarının ve v. saphena magna boyunca gelen lenfin tamamını alır.",
+    "Perinenin lenfini alır."
+   ],
+   "answer": 0,
+   "explanation": "Popliteal düğümler popliteal yağ dokusunda, küçük safen venin sonlanma yerinin yakınındadır. Ayak iç kenarı ve bacağın büyük kısmının yüzeyel lenfi ise büyük safen ven boyunca doğrudan yüzeyel inguinal düğümlere gider.",
+   "entries": [
+    "nodi-poplitei",
+    "v-saphena-parva"
+   ]
+  },
+  {
+   "id": "ly-9349ee87",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Mezenterik lenf düğümlerine gelen bağırsak lenfinin süt beyazı görünümde (şilus) olmasının nedeni nedir?",
+   "options": [
+    "Safranın lenfe karışması",
+    "Lenfositlerin çok sayıda olması",
+    "Proteinlerin pıhtılaşması",
+    "Emilen yağların kilomikronlar hâlinde laktealler aracılığıyla lenfe geçmesi",
+    "Bağırsak bakterilerinin lenfe geçmesi"
+   ],
+   "answer": 3,
+   "explanation": "İnce bağırsak villuslarındaki lakteal kapillerler uzun zincirli yağ asitlerinden oluşan kilomikronları alır. Lenf mezenterik düğümlerden geçerek cisterna chyli ve ductus thoracicus ile venöz dolaşıma ulaşır.",
+   "entries": [
+    "nodi-mesenterici",
+    "intestinum-tenue",
+    "ductus-thoracicus"
+   ]
+  },
+  {
+   "id": "ly-f8da0d3f",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Cisterna chyli nerede bulunur ve hangi gövdeler buraya açılır?",
+   "options": [
+    "T4 düzeyinde trakeanın önünde; bronkomediastinal gövdeler",
+    "S1 düzeyinde rektumun arkasında; iliak gövdeler",
+    "C7 düzeyinde sol venöz açıda; juguler gövde",
+    "L1–L2 düzeyinde aortanın sağ-arkasında; lomber gövdeler ve truncus intestinalis",
+    "T10 düzeyinde özofagusun önünde; subklavyen gövdeler"
+   ],
+   "answer": 3,
+   "explanation": "Cisterna chyli ductus thoracicus'un başlangıcındaki keseciktir ve diyaframın sağ krusunun arkasında yer alır. Alt ekstremite, pelvis ve karın organlarının lenfi bu gövdelerle buraya ulaşır.",
+   "entries": [
+    "ductus-lymphaticus-dexter",
+    "ductus-thoracicus",
+    "nodi-lumbales"
+   ]
+  },
+  {
+   "id": "ly-031881bb",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Mide kanseri cerrahisinde çıkarılan perigastrik ve çölyak lenf düğümleri ile ilgili hangisi doğrudur?",
+   "options": [
+    "Midenin küçük kurvaturu sol ve sağ gastrik, büyük kurvaturu gastroomental düğümlere drene olur; hepsi sonunda çölyak düğümlere ulaşır.",
+    "Mide lenfi yalnızca mezenterik düğümlere gider.",
+    "Mide lenfi doğrudan inguinal düğümlere gider.",
+    "Midenin lenfatiği yoktur.",
+    "Büyük kurvatur lenfi doğrudan supraklaviküler düğümlere gider."
+   ],
+   "answer": 0,
+   "explanation": "Mide lenfi arterleri izleyerek perigastrik düğümlere, oradan çölyak düğümlere ve truncus intestinalis aracılığıyla cisterna chyli'ye gider. Cerrahide lenfadenektomi bu istasyonlara göre (D1, D2) tanımlanır.",
+   "entries": [
+    "nodi-coeliaci",
+    "gaster"
+   ]
+  },
+  {
+   "id": "ly-9618a28a",
+   "group": "Lenf düğümleri ve damarları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Serviks kanserinin ilk lenfatik metastaz istasyonu genellikle hangi düğümlerdir?",
+   "options": [
+    "Yüzeyel inguinal lenf düğümleri",
+    "Mezenterik lenf düğümleri",
+    "Obturator ve iç-dış iliak (pelvik) lenf düğümleri",
+    "Paraaortik lenf düğümleri",
+    "Supraklaviküler lenf düğümleri"
+   ],
+   "answer": 2,
+   "explanation": "Serviks lenfatikleri parametrium boyunca lateral pelvis duvarına ilerler; obturator, iç ve dış iliak düğümler ilk istasyonlardır. Ardından ortak iliak ve paraaortik düğümler tutulur.",
+   "entries": [
+    "nodi-iliaci",
+    "cervix-uteri"
+   ]
+  }
+ ]
+}

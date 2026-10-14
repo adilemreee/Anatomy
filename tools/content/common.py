@@ -10,13 +10,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 OUT = os.path.join(ROOT, "Anatomy", "Content")
 
 
-def E(id, tr, la, en, group, region, summary, facts=(), sections=(), clinical=(), related=(), models=(), aliases=()):
+def E(id, tr, la, en, group, region, summary, facts=(), sections=(), clinical=(), related=(), models=(), aliases=(), tus=()):
     return {
         "id": id, "tr": tr, "la": la, "en": en, "group": group, "region": region,
         "summary": summary.strip(),
         "facts": [list(f) for f in facts],
         "sections": [list(s) for s in sections],
         "clinical": list(clinical),
+        "tus": list(tus),
         "related": list(related),
         "models": list(models),
         "aliases": list(aliases),
@@ -24,6 +25,11 @@ def E(id, tr, la, en, group, region, summary, facts=(), sections=(), clinical=()
 
 
 def write(system, entries):
+    from tus_notes import NOTES
+    for e in entries:
+        for note in NOTES.get(e["id"], []):
+            if note not in e["tus"]:
+                e["tus"].append(note)
     ids = [e["id"] for e in entries]
     dup = {i for i in ids if ids.count(i) > 1}
     assert not dup, f"duplicate ids: {dup}"

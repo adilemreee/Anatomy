@@ -27,6 +27,10 @@ nonisolated struct PartInfo: Decodable, Hashable, Sendable {
     let fascia: Bool?
     /// Triangle runs per material: [[materialIndex, triangleCount], ...].
     let seg: [[Int]]?
+    /// "m" / "f" for the genital organs of one sex; nil for everything else.
+    let sex: String?
+    /// Wraps other structures (pericardium, scrotum, breast fat).
+    let covering: Bool?
 
     var center: SIMD3<Float> {
         SIMD3((bounds[0] + bounds[3]) / 2, (bounds[1] + bounds[4]) / 2, (bounds[2] + bounds[5]) / 2)
@@ -49,11 +53,23 @@ nonisolated struct PartInfo: Decodable, Hashable, Sendable {
     /// Sheets that wrap other structures (fasciae, pleura, peritoneal folds,
     /// meninges). They are hidden by default so the organs inside are visible.
     var isCovering: Bool {
-        if isFascia { return true }
+        if isFascia || covering == true { return true }
         let name = base.lowercased()
         let words = ["pleura", "omentum", "mesocolon", "meso-appendix", "dura", "falx", "tentorium", "arachnoid", "pia mater"]
         if words.contains(where: { name.contains($0) }) { return true }
         return path.contains { $0 == "Meninges" || $0 == "Peritoneal structures" }
+    }
+
+    /// Whether the part belongs to a body of `sex` (genital organs belong to one).
+    func shows(for sex: BodySex) -> Bool {
+        self.sex.flatMap(BodySex.init(code:)).map { $0 == sex } ?? true
+    }
+
+    /// Teaching subdivisions that overlap their whole organ (the Couinaud
+    /// segments of the liver, the stomach's inner lining). Drawn only when
+    /// looked up or selected.
+    var isSubdivision: Bool {
+        base.contains("segment of liver") || base == "Mucosa of stomach"
     }
 
     /// Material index covering most of the part's triangles.
@@ -78,6 +94,13 @@ nonisolated struct MeshPack: Sendable {
         let indexCount: Int
     }
 
+    /// Where a part's triangles for one level of detail sit in the uploaded
+    /// index buffer (full detail first, then each simplified level).
+    struct IndexRange: Sendable, Equatable {
+        let start: Int
+        let count: Int
+    }
+
     let system: String
     let materials: [String]
     let parts: [PartInfo]
@@ -88,6 +111,34 @@ nonisolated struct MeshPack: Sendable {
     let occlusion: [UInt8]
     /// Global vertex indices (already offset by each part's `vertexStart`).
     let indices: [UInt32]
+    /// Simplified levels (tools/lod/lodgen.cpp), back to back, global vertex
+    /// indices. Uploaded right after `indices`.
+    let lodIndices: [UInt32]
+    /// `levelRanges[l][part]`: level l + 1 of each part inside the uploaded
+    /// buffer. A level that was not worth building points at the one above.
+    let levelRanges: [[IndexRange]]
+    /// `levelErrors[l][part]`: geometric error of that level in metres.
+    let levelErrors: [[Float]]
+    /// Skin texture coordinates per vertex, u | v << 16 (normalised, v down
+    /// the image); 0 where a vertex keeps its material colour. Empty when the
+    /// system has no textured parts (`mesh-<system>.uv`).
+    var uvs: [UInt32] = []
+
+    var levelCount: Int { levelRanges.count + 1 }
+
+    /// The index range drawn for `part` at `level` (0 = full detail).
+    func range(of part: Int, level: Int) -> IndexRange {
+        if level <= 0 || levelRanges.isEmpty {
+            let r = ranges[part]
+            return IndexRange(start: r.indexStart, count: r.indexCount)
+        }
+        return levelRanges[min(level, levelRanges.count) - 1][part]
+    }
+
+    /// Geometric error of `part` drawn at `level`, in metres.
+    func error(of part: Int, level: Int) -> Float {
+        level <= 0 || levelErrors.isEmpty ? 0 : levelErrors[min(level, levelErrors.count) - 1][part]
+    }
 
     enum LoadError: Error {
         case missingResource(String)
@@ -107,7 +158,38 @@ nonisolated struct MeshPack: Sendable {
         }
         let compressed = try Data(contentsOf: url)
         let data = try (compressed as NSData).decompressed(using: .zlib) as Data
-        return try decode(data, manifest: manifest)
+        var pack = try decode(data, manifest: manifest)
+        if let uvURL = Bundle.main.url(forResource: "mesh-\(system)", withExtension: "uv"),
+           let uvCompressed = try? Data(contentsOf: uvURL),
+           let uvData = try? (uvCompressed as NSData).decompressed(using: .zlib) as Data {
+            pack.uvs = try uvData.withUnsafeBytes { try parseUVs($0, pack: pack) }
+        }
+        return pack
+    }
+
+    /// Parses a "UVS1" side file: u32 parts, then per part u32 count (0 or the
+    /// part's vertex count) and that many u16 (u, v) pairs.
+    private static func parseUVs(_ raw: UnsafeRawBufferPointer, pack: MeshPack) throws -> [UInt32] {
+        guard raw.count >= 8, raw[0] == 0x55, raw[1] == 0x56, raw[2] == 0x53, raw[3] == 0x31 else {
+            throw LoadError.corrupt("bad uv magic")
+        }
+        let count = Int(raw.loadUnaligned(fromByteOffset: 4, as: UInt32.self))
+        guard count == pack.parts.count else { throw LoadError.corrupt("uv part count \(count)") }
+        var out = [UInt32](repeating: 0, count: pack.positions.count)
+        var cursor = 8
+        for p in 0..<count {
+            guard cursor + 4 <= raw.count else { throw LoadError.corrupt("truncated uv") }
+            let n = Int(raw.loadUnaligned(fromByteOffset: cursor, as: UInt32.self))
+            cursor += 4
+            guard n > 0 else { continue }
+            let range = pack.ranges[p]
+            guard n == range.vertexCount, cursor + n * 4 <= raw.count else { throw LoadError.corrupt("uv count of part \(p)") }
+            for v in 0..<n {
+                out[range.vertexStart + v] = raw.loadUnaligned(fromByteOffset: cursor + v * 4, as: UInt32.self)
+            }
+            cursor += n * 4
+        }
+        return out
     }
 
     /// Parses an inflated "ANT1"/"ANT2" pack.
@@ -126,10 +208,11 @@ nonisolated struct MeshPack: Sendable {
             return raw.loadUnaligned(fromByteOffset: cursor, as: T.self)
         }
 
-        guard raw.count > 8, raw[0] == 0x41, raw[1] == 0x4E, raw[2] == 0x54, raw[3] == 0x31 || raw[3] == 0x32 else {
+        guard raw.count > 8, raw[0] == 0x41, raw[1] == 0x4E, raw[2] == 0x54, (0x31...0x33).contains(raw[3]) else {
             throw LoadError.corrupt("bad magic")
         }
-        let hasOcclusion = raw[3] == 0x32
+        let hasOcclusion = raw[3] >= 0x32
+        let hasLevels = raw[3] == 0x33
         cursor = 4
         let partCount = Int(try read(UInt32.self))
         guard partCount == manifest.parts.count else {
@@ -212,6 +295,54 @@ nonisolated struct MeshPack: Sendable {
             ranges.append(Range(vertexStart: vertexStart, vertexCount: vertexCount, indexStart: indexStart, indexCount: indexCount))
         }
 
+        // "LODS" u32 levels; per level and part f32 error + u32 count; then the indices.
+        var lodIndices: [UInt32] = []
+        var levelRanges: [[IndexRange]] = []
+        var levelErrors: [[Float]] = []
+        if hasLevels, cursor + 8 <= raw.count, raw[cursor] == 0x4C, raw[cursor + 1] == 0x4F, raw[cursor + 2] == 0x44, raw[cursor + 3] == 0x53 {
+            cursor += 4
+            let levels = Int(try read(UInt32.self))
+            var counts: [[Int]] = []
+            for _ in 0..<levels {
+                var errors: [Float] = [], levelCounts: [Int] = []
+                errors.reserveCapacity(partCount)
+                levelCounts.reserveCapacity(partCount)
+                for _ in 0..<partCount {
+                    errors.append(try read(Float.self))
+                    levelCounts.append(Int(try read(UInt32.self)))
+                }
+                levelErrors.append(errors)
+                counts.append(levelCounts)
+            }
+            lodIndices.reserveCapacity(counts.reduce(0) { $0 + $1.reduce(0, +) })
+            var previous = ranges.map { IndexRange(start: $0.indexStart, count: $0.indexCount) }
+            for level in 0..<levels {
+                var levelList: [IndexRange] = []
+                levelList.reserveCapacity(partCount)
+                for p in 0..<partCount {
+                    let count = counts[level][p]
+                    guard count > 0 else {
+                        levelList.append(previous[p])
+                        continue
+                    }
+                    let wide = ranges[p].vertexCount > 65535
+                    guard cursor + count * (wide ? 4 : 2) <= raw.count else { throw LoadError.corrupt("truncated level") }
+                    let start = indices.count + lodIndices.count
+                    let base = UInt32(ranges[p].vertexStart)
+                    if wide {
+                        for i in 0..<count { lodIndices.append(base + raw.loadUnaligned(fromByteOffset: cursor + i * 4, as: UInt32.self)) }
+                        cursor += count * 4
+                    } else {
+                        for i in 0..<count { lodIndices.append(base + UInt32(raw.loadUnaligned(fromByteOffset: cursor + i * 2, as: UInt16.self))) }
+                        cursor += count * 2
+                    }
+                    levelList.append(IndexRange(start: start, count: count))
+                }
+                levelRanges.append(levelList)
+                previous = levelList
+            }
+        }
+
         return MeshPack(
             system: manifest.system,
             materials: manifest.materials ?? [],
@@ -220,7 +351,10 @@ nonisolated struct MeshPack: Sendable {
             positions: positions,
             normals: normals,
             occlusion: occlusion,
-            indices: indices
+            indices: indices,
+            lodIndices: lodIndices,
+            levelRanges: levelRanges,
+            levelErrors: levelErrors
         )
     }
 }

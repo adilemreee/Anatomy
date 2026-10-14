@@ -51,6 +51,10 @@
     "Kronik böbrek hastalığının en sık nedenleri diyabet ve hipertansiyondur.",
     "At nalı böbrekte iki böbreğin alt kutupları birleşiktir ve IMA altında takılır."
    ],
+   "tus": [
+    "Böbrekler T12–L3 arasındadır; sağ böbrek karaciğer nedeniyle daha aşağıdadır.",
+    "Böbreğin arka yüzü diyafram, quadratus lumborum, psoas ve transversus abdominis ile, ayrıca subkostal, iliohipogastrik ve ilioinguinal sinirlerle komşudur."
+   ],
    "related": [
     "ureter",
     "aa-renales",
@@ -94,6 +98,10 @@
    "clinical": [
     "Histerektomide a. uterina bağlanırken üreter zedelenebilir.",
     "Üreter taşları kolik ağrının yerini (böğür, kasık, genital bölge) taşın düzeyine göre değiştirir."
+   ],
+   "tus": [
+    "Üreterin üç darlığı: üreteropelvik bileşke, iliak damarları çaprazladığı yer (pelvis girişi), üreterovezikal bileşke (en dar).",
+    "Üreter kadında a. uterina'nın, erkekte ductus deferens'in altından geçer."
    ],
    "related": [
     "ren",
@@ -143,6 +151,10 @@
     "Mesane taşı ve kanseri hematüriye neden olur; sigara mesane kanserinin başlıca risk faktörüdür.",
     "Omurilik yaralanmalarında nörojenik mesane gelişir."
    ],
+   "tus": [
+    "Trigonum vesicae iki üreter ağzı ve iç üretra ağzı arasındadır; mukozası düzdür (mezonefrik kanal kökenli).",
+    "Dolu mesane symphysis pubica'nın üstüne çıkar; suprapubik kateterizasyon periton açılmadan yapılabilir."
+   ],
    "related": [
     "ureter",
     "urethra",
@@ -184,16 +196,236 @@
     "Kadınlarda üretranın kısa olması idrar yolu enfeksiyonlarının daha sık görülmesine neden olur.",
     "Pelvis kırıklarında erkek üretrasının membranöz bölümü yırtılabilir; meatusta kan görülmesi durumunda sonda takılmamalıdır."
    ],
+   "tus": [
+    "Kadın üretrası ~4 cm'dir; kısa olması nedeniyle idrar yolu enfeksiyonları kadınlarda sıktır.",
+    "Erkek üretrası ~20 cm'dir: prostatik, membranöz ve spongiyöz bölümler."
+   ],
    "related": [
     "vesica-urinaria",
     "prostata",
     "penis"
    ],
    "models": [
-    "Urethra"
+    "Urethra",
+    "Female urethra"
    ],
    "aliases": [
     "üretra"
+   ]
+  },
+  {
+   "id": "pelvis-renalis",
+   "tr": "Böbrek havuzu ve kaliksler",
+   "la": "Pelvis renalis et calices renales",
+   "en": "Renal pelvis and calyces",
+   "group": "Böbrekler",
+   "region": "abdomen",
+   "summary": "Böbreğin ürettiği idrarın toplandığı huni biçimli boşluktur. Renal papillalardan gelen idrar küçük kalikslerde, ardından büyük kalikslerde toplanır ve pelvis renalis aracılığıyla üretere geçer.",
+   "facts": [
+    [
+     "Yapı",
+     "7–14 küçük kaliks → 2–3 büyük kaliks → pelvis renalis → üreteropelvik bileşke"
+    ],
+    [
+     "Konum",
+     "Hilumda ven ve arterin arkasında (önden arkaya: ven, arter, pelvis)"
+    ],
+    [
+     "Papillalar",
+     "Renal piramitlerin ucu; toplayıcı kanalların (ductus papillares) açıldığı area cribrosa"
+    ],
+    [
+     "Epitel",
+     "Değişici epitel (ürotelyum)"
+    ],
+    [
+     "Kapasite",
+     "Yaklaşık 5–10 mL"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Üreteropelvik bileşke darlığı çocuklarda hidronefrozun en sık nedenidir.",
+    "Staghorn (geyik boynuzu) taşları pelvis ve kaliksleri doldurur; çoğunlukla üreaz üreten bakterilerle ilişkili struvit taşlarıdır."
+   ],
+   "tus": [
+    "Üreteropelvik bileşke üreterin üç fizyolojik darlığından birincisidir.",
+    "Renal pelvis tümörleri ürotelyal kökenlidir (değişici epitel)."
+   ],
+   "related": [
+    "ren",
+    "ureter",
+    "nephronum"
+   ],
+   "models": [
+    "Renal pelvis"
+   ],
+   "aliases": [
+    "pelvis renalis",
+    "kaliks",
+    "böbrek havuzu"
+   ]
+  },
+  {
+   "id": "fascia-renalis",
+   "tr": "Böbrek kılıfları (Gerota fasyası)",
+   "la": "Capsula fibrosa, capsula adiposa et fascia renalis",
+   "en": "Renal capsule and fascia",
+   "group": "Böbrekler",
+   "region": "abdomen",
+   "summary": "Böbreği içten dışa saran üç tabakadır: kemiğe yakın sıkı fibröz kapsül, perirenal yağ ve böbrek ile böbreküstü bezini birlikte saran renal fasya (Gerota). Fasyanın dışında pararenal yağ bulunur.",
+   "facts": [
+    [
+     "Tabakalar",
+     "Capsula fibrosa → capsula adiposa (perirenal yağ) → fascia renalis (ön: Toldt, arka: Zuckerkandl) → corpus adiposum pararenale"
+    ],
+    [
+     "Fasyanın sınırları",
+     "Üstte ve yanda kapalı; aşağıda üreter boyunca açık; medialde karşı tarafla kısmen devamlı"
+    ],
+    [
+     "İçerik",
+     "Böbrek, böbreküstü bezi (ayrı bir bölmede), perirenal yağ, renal damarlar"
+    ],
+    [
+     "Destek",
+     "Böbreğin yerinde durması büyük ölçüde perirenal yağ ve fasya ile sağlanır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Perirenal yağ azaldığında (hızlı kilo kaybı) böbrek aşağı sarkabilir (nefroptoz) ve üreter kıvrılabilir.",
+    "Perirenal apse ve hematom fasyanın alt ucunun açık olması nedeniyle pelvise doğru yayılabilir."
+   ],
+   "tus": [
+    "Böbreküstü bezi renal fasya içindedir ancak böbrekten ince bir septumla ayrılır; nefroptozda bez yerinde kalır.",
+    "Radikal nefrektomide böbrek Gerota fasyasıyla birlikte çıkarılır."
+   ],
+   "related": [
+    "ren",
+    "glandula-suprarenalis",
+    "pelvis-renalis"
+   ],
+   "models": [],
+   "aliases": [
+    "Gerota",
+    "perirenal yağ",
+    "renal fasya"
+   ]
+  },
+  {
+   "id": "nephronum",
+   "tr": "Nefron ve böbreğin iç yapısı",
+   "la": "Nephronum; cortex et medulla renis",
+   "en": "Nephron and renal structure",
+   "group": "Böbrekler",
+   "region": "abdomen",
+   "summary": "Nefron, böbreğin idrar üreten yapısal ve işlevsel birimidir; her böbrekte yaklaşık bir milyon bulunur. Böbrek kesitinde dışta korteks, içte piramitlerden oluşan medulla görülür.",
+   "facts": [
+    [
+     "Nefronun bölümleri",
+     "Corpusculum renale (glomerulus + Bowman kapsülü) → proksimal tübül → Henle kulpu → distal tübül → toplayıcı kanal"
+    ],
+    [
+     "Korteks",
+     "Glomerüller, kıvrımlı tübüller; piramitler arasına columnae renales (Bertin) olarak uzanır"
+    ],
+    [
+     "Medulla",
+     "8–18 renal piramit; tabanı kortekse, tepesi (papilla) küçük kalikse bakar"
+    ],
+    [
+     "Damarlanma",
+     "A. renalis → segmental → interlober → arkuat → interlobüler (kortikal radiyal) → afferent arteriyol → glomerulus → efferent arteriyol"
+    ],
+    [
+     "Jukstaglomerüler aparat",
+     "Afferent arteriyolün renin salgılayan hücreleri, macula densa ve ekstraglomerüler mezangiyal hücreler"
+    ]
+   ],
+   "sections": [
+    [
+     "Lob ve segment",
+     "Bir piramit ve çevresindeki korteks bir renal lobu oluşturur. Arteriyel segmentler (apikal, üst, orta, alt, posterior) uç arter alanlarıdır; segmental arter tıkanması kama biçimli enfarkta yol açar."
+    ]
+   ],
+   "clinical": [
+    "Glomerülonefritlerde filtrasyon bariyeri hasar görür; proteinüri ve hematüri gelişir.",
+    "Renal papiller nekroz analjezik nefropatisi, diyabet ve orak hücre hastalığında görülebilir."
+   ],
+   "tus": [
+    "Segmental renal arterler uç arterdir; venler ise segmentler arasında serbestçe anastomoz yapar.",
+    "Jukstamedüller nefronların uzun Henle kulpları idrarın konsantre edilmesini sağlar."
+   ],
+   "related": [
+    "ren",
+    "pelvis-renalis",
+    "aa-renales"
+   ],
+   "models": [
+    "Kidney"
+   ],
+   "aliases": [
+    "nefron",
+    "glomerül",
+    "korteks",
+    "medulla",
+    "piramit"
+   ]
+  },
+  {
+   "id": "urethra-masculina",
+   "tr": "Erkek üretrası",
+   "la": "Urethra masculina",
+   "en": "Male urethra",
+   "group": "İdrar yolları",
+   "region": "pelvis",
+   "summary": "Mesane boynundan glans penisteki dış ağza uzanan, hem idrarı hem semeni taşıyan yaklaşık 18–20 cm uzunluğundaki kanaldır.",
+   "facts": [
+    [
+     "Pars intramuralis (preprostatik)",
+     "Mesane boynunda; m. sphincter urethrae internus (düz kas) – ejakülasyonda semenin mesaneye kaçmasını önler"
+    ],
+    [
+     "Pars prostatica",
+     "En geniş ve en genişleyebilir bölüm (~3 cm); crista urethralis, colliculus seminalis (utriculus prostaticus, ejakülatör kanalların ağzı), prostat kanalları"
+    ],
+    [
+     "Pars membranacea",
+     "En dar ve en az genişleyebilen bölüm (~1–2 cm); perine zarı içinde, m. sphincter urethrae externus (n. pudendus) ile sarılı"
+    ],
+    [
+     "Pars spongiosa",
+     "En uzun bölüm (~15 cm); corpus spongiosum içinde; bulbus'ta bulbouretral (Cowper) bezlerinin kanalları açılır; glans içinde fossa navicularis"
+    ],
+    [
+     "Eğrilikler",
+     "Sarkık penste S biçimli; kateterizasyonda penis yukarı kaldırılarak ön eğrilik düzeltilir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ata biner şekilde düşmede bulbar (spongiyöz) üretra perine zarının altında yırtılır; idrar yüzeyel perine boşluğuna, skrotum, penis ve karın ön duvarına yayılır, uyluğa geçmez.",
+    "Pelvis kırıklarında membranöz üretra yırtılabilir; idrar derin perine boşluğuna ve retropubik aralığa yayılır."
+   ],
+   "tus": [
+    "Üretranın en dar ve en az genişleyebilen yeri pars membranacea, en geniş yeri pars prostatica, en uzun bölümü pars spongiosa'dır.",
+    "Spongiyöz üretra yırtığında idrar Colles fasyası fascia lata'ya yapıştığı için uyluğa yayılmaz."
+   ],
+   "related": [
+    "urethra",
+    "prostata",
+    "penis",
+    "vesica-urinaria",
+    "perineum"
+   ],
+   "models": [
+    "Urethra"
+   ],
+   "aliases": [
+    "erkek üretrası",
+    "prostatik üretra",
+    "membranöz üretra"
    ]
   }
  ]

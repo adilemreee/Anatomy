@@ -12,12 +12,22 @@ nonisolated struct GlossaryTerm: Decodable, Sendable {
     let def: String?
 }
 
+/// Turkish name, corrected Latin name and short Turkish description of a 3D
+/// part or model group (terms.json, tools/content/terms).
+nonisolated struct PartTerm: Decodable, Sendable {
+    let tr: String
+    let la: String?
+    let d: String?
+}
+
 /// Read-only access to the written atlas content and the 3D glossary.
 @MainActor
 @Observable
 final class AtlasStore {
     let systems: [BodySystem]
     let entries: [AtlasEntry]
+    /// Turkish dictionary of every part and group, keyed by lowercased English name.
+    let terms: [String: PartTerm]
     private(set) var glossary: [String: GlossaryTerm] = [:]
 
     @ObservationIgnored private let byID: [String: AtlasEntry]
@@ -53,6 +63,14 @@ final class AtlasStore {
             }
         }
         self.entries = entries
+
+        if let url = Bundle.main.url(forResource: "terms", withExtension: "json"),
+           let data = try? Data(contentsOf: url),
+           let map = try? decoder.decode([String: PartTerm].self, from: data) {
+            terms = map
+        } else {
+            terms = [:]
+        }
 
         var byID: [String: AtlasEntry] = [:]
         var byModel: [String: String] = [:]
@@ -124,15 +142,37 @@ final class AtlasStore {
         glossary[englishName.lowercased()]
     }
 
-    func latinName(for part: PartInfo) -> String? {
-        if let entry = entry(for: part), isExact(entry, for: part) { return entry.la }
-        return term(part.base)?.la
+    /// The Turkish dictionary entry for a part or group name.
+    func partTerm(_ englishName: String) -> PartTerm? {
+        terms[englishName.lowercased()]
     }
 
-    /// Best display name for a 3D part (Turkish when we have a written entry).
+    func latinName(for part: PartInfo) -> String? {
+        latinName(part.base) ?? entry(for: part).flatMap { isExact($0, for: part) ? $0.la : nil }
+    }
+
+    /// Latin name of a part or group: the corrected dictionary form first,
+    /// then Terminologia Anatomica via the glossary.
+    func latinName(_ englishName: String) -> String? {
+        partTerm(englishName)?.la ?? term(englishName)?.la
+    }
+
+    /// Best display name for a 3D part: its own Turkish name, then the
+    /// written entry that describes exactly this part, then Latin.
     func displayName(for part: PartInfo) -> String {
+        if let tr = partTerm(part.base)?.tr { return tr }
         if let entry = entry(for: part), isExact(entry, for: part) { return entry.tr }
         return term(part.base)?.la ?? part.base
+    }
+
+    /// Turkish name of a model group (a folder in the parts browser).
+    func groupName(_ englishName: String) -> String {
+        partTerm(englishName)?.tr ?? term(englishName)?.la ?? englishName
+    }
+
+    /// Short Turkish description of a part or group.
+    func partDescription(_ englishName: String) -> String? {
+        partTerm(englishName)?.d
     }
 
     func related(of entry: AtlasEntry) -> [AtlasEntry] {

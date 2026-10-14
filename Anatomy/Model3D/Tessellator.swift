@@ -39,16 +39,10 @@ nonisolated enum Tessellator {
             out.withUnsafeMutableBytes { dst in
                 guard let s = src.baseAddress, let d = dst.baseAddress else { return }
                 d.copyMemory(from: s, byteCount: vertices.count)
+                typealias O = VertexBuilder.Offset
 
-                func vec(_ i: Int, _ offset: Int) -> SIMD3<Float> {
-                    let p = d + i * stride + offset
-                    return SIMD3(p.loadUnaligned(as: Float.self), (p + 4).loadUnaligned(as: Float.self), (p + 8).loadUnaligned(as: Float.self))
-                }
-                func store(_ v: SIMD3<Float>, _ i: Int, _ offset: Int) {
-                    let p = d + i * stride + offset
-                    p.storeBytes(of: v.x, as: Float.self)
-                    (p + 4).storeBytes(of: v.y, as: Float.self)
-                    (p + 8).storeBytes(of: v.z, as: Float.self)
+                func unit(_ v: SIMD3<Float>, _ fallback: SIMD3<Float>) -> SIMD3<Float> {
+                    simd_length_squared(v) > 1e-12 ? simd_normalize(v) : fallback
                 }
 
                 func midpoint(_ a: UInt32, _ b: UInt32) -> UInt32 {
@@ -56,20 +50,29 @@ nonisolated enum Tessellator {
                     if let m = edges[key] { return m }
                     let ia = Int(a), ib = Int(b), m = next
                     next += 1
+                    let pa = ia * stride, pb = ib * stride, pm = m * stride
 
-                    // Every attribute starts as the average of the two ends …
-                    let pa = d + ia * stride, pb = d + ib * stride, pm = d + m * stride
-                    for offset in Swift.stride(from: 24, to: stride, by: 4) where offset != 36 {
-                        let v = ((pa + offset).loadUnaligned(as: Float.self) + (pb + offset).loadUnaligned(as: Float.self)) * 0.5
-                        (pm + offset).storeBytes(of: v, as: Float.self)
+                    // Colour, occlusion, fibre and wetness are averaged; the
+                    // tissue kind, fibre axis and pattern are per part.
+                    let ca = VertexBuilder.loadUnsigned(d, pa + O.color), cb = VertexBuilder.loadUnsigned(d, pb + O.color)
+                    VertexBuilder.storeUnsigned((ca + cb) * 0.5, d, pm + O.color)
+                    let ua = VertexBuilder.loadUnsigned(d, pa + O.uv1), ub = VertexBuilder.loadUnsigned(d, pb + O.uv1)
+                    let um = (ua + ub) * 0.5
+                    VertexBuilder.storeUnsigned(SIMD4(um.x, um.y, ua.z, ua.w), d, pm + O.uv1)
+                    (d + pm + O.uv2).copyMemory(from: d + pa + O.uv2, byteCount: 4)
+                    // Texture coordinates are interpolated where both ends have them.
+                    let ta0 = d.loadUnaligned(fromByteOffset: pa + O.uv0, as: SIMD2<UInt16>.self)
+                    let tb0 = d.loadUnaligned(fromByteOffset: pb + O.uv0, as: SIMD2<UInt16>.self)
+                    var tm0 = SIMD2<UInt16>(0, 0)
+                    if ta0 != .zero, tb0 != .zero {
+                        tm0 = SIMD2(UInt16((UInt32(ta0.x) + UInt32(tb0.x)) / 2), UInt16((UInt32(ta0.y) + UInt32(tb0.y)) / 2))
                     }
-                    for k in 36..<40 {
-                        (pm + k).storeBytes(of: UInt8((UInt16(pa.load(fromByteOffset: k, as: UInt8.self)) + UInt16(pb.load(fromByteOffset: k, as: UInt8.self)) + 1) / 2), as: UInt8.self)
-                    }
+                    d.storeBytes(of: tm0, toByteOffset: pm + O.uv0, as: SIMD2<UInt16>.self)
 
-                    // … then position and normal come from the curved patch.
-                    let p0 = vec(ia, 0), p1 = vec(ib, 0)
-                    let n0 = simd_normalize(vec(ia, 12)), n1 = simd_normalize(vec(ib, 12))
+                    // Position and normal come from the curved patch.
+                    let p0 = VertexBuilder.loadPosition(d, pa), p1 = VertexBuilder.loadPosition(d, pb)
+                    let n0 = unit(VertexBuilder.loadSigned(d, pa + O.normal).xyz, SIMD3(0, 1, 0))
+                    let n1 = unit(VertexBuilder.loadSigned(d, pb + O.normal).xyz, n0)
                     let e = p1 - p0
                     let b210 = (2 * p0 + p1 - simd_dot(e, n0) * n0) / 3
                     let b120 = (2 * p1 + p0 + simd_dot(e, n1) * n1) / 3
@@ -77,14 +80,15 @@ nonisolated enum Tessellator {
                     let len2 = simd_length_squared(e)
                     var n110 = n0 + n1
                     if len2 > 1e-14 { n110 -= 2 * simd_dot(e, n0 + n1) / len2 * e }
-                    var normal = n0 + n1 + (simd_length_squared(n110) > 1e-12 ? simd_normalize(n110) : .zero)
-                    normal = simd_length_squared(normal) > 1e-12 ? simd_normalize(normal) : n0
-                    var tangent = vec(m, 24)
+                    let bend: SIMD3<Float> = unit(n110, .zero)
+                    let normal = unit(n0 + n1 + bend, n0)
+                    let ta = VertexBuilder.loadSigned(d, pa + O.tangent).xyz, tb = VertexBuilder.loadSigned(d, pb + O.tangent).xyz
+                    var tangent = ta + tb
                     tangent -= simd_dot(tangent, normal) * normal
-                    tangent = simd_length_squared(tangent) > 1e-12 ? simd_normalize(tangent) : vec(ia, 24)
-                    store(position, m, 0)
-                    store(normal, m, 12)
-                    store(tangent, m, 24)
+                    tangent = unit(tangent, ta)
+                    VertexBuilder.storePosition(position, d, pm)
+                    VertexBuilder.storeSigned(normal, 0, d, pm + O.normal)
+                    VertexBuilder.storeSigned(tangent, 0, d, pm + O.tangent)
 
                     edges[key] = UInt32(m)
                     return UInt32(m)

@@ -21,6 +21,8 @@ nonisolated struct AtlasEntry: Identifiable, Hashable, Sendable, Decodable {
     let facts: [Fact]
     let sections: [InfoSection]
     let clinical: [String]
+    /// High-yield points that exams ask about.
+    let tus: [String]
     let related: [String]
     let aliases: [String]
     /// Names of the 3D model objects that show this structure.
@@ -39,7 +41,7 @@ nonisolated struct AtlasEntry: Identifiable, Hashable, Sendable, Decodable {
     }
 
     private enum CodingKeys: String, CodingKey {
-        case id, tr, la, en, group, region, summary, facts, sections, clinical, related, aliases, models
+        case id, tr, la, en, group, region, summary, facts, sections, clinical, tus, related, aliases, models
     }
 
     init(from decoder: any Decoder) throws {
@@ -56,6 +58,7 @@ nonisolated struct AtlasEntry: Identifiable, Hashable, Sendable, Decodable {
         let rawSections = try c.decodeIfPresent([[String]].self, forKey: .sections) ?? []
         sections = rawSections.compactMap { $0.count == 2 ? InfoSection(title: $0[0], body: $0[1]) : nil }
         clinical = try c.decodeIfPresent([String].self, forKey: .clinical) ?? []
+        tus = try c.decodeIfPresent([String].self, forKey: .tus) ?? []
         related = try c.decodeIfPresent([String].self, forKey: .related) ?? []
         aliases = try c.decodeIfPresent([String].self, forKey: .aliases) ?? []
         models = try c.decodeIfPresent([String].self, forKey: .models) ?? []

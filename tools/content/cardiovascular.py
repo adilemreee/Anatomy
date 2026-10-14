@@ -118,7 +118,7 @@ E("pericardium", "Kalp zarı", "Pericardium", "Pericardium", KP, "thorax",
          ("İnnervasyon", "N. phrenicus (duyusal)")],
   clinical=["Perikardit öne eğilmekle azalan keskin göğüs ağrısı ve perikardiyal sürtünme sesiyle seyreder.", "Kardiyak tamponadda perikard boşluğunda biriken sıvı kalbin dolmasını engeller (Beck üçlüsü: hipotansiyon, boyun venlerinde dolgunluk, derinden gelen kalp sesleri)."],
   related=["cor", "n-phrenicus"],
-  models=[], aliases=["perikard"]),
+  models=["Pericardium"], aliases=["perikard"]),
 
 E("truncus-pulmonalis", "Akciğer atardamarı gövdesi", "Truncus pulmonalis", "Pulmonary trunk", KP, "thorax",
   "Sağ ventrikülden çıkan ve oksijensiz kanı akciğerlere taşıyan büyük arterdir. Aortanın kavsi altında sağ ve sol pulmoner arterlere ayrılır.",

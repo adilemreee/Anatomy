@@ -62,6 +62,8 @@ func readPack(_ raw: Data) -> (lo: SIMD3<Float>, hi: SIMD3<Float>, parts: [Part]
 
 struct Triangle {
     var a: SIMD3<Float>, e1: SIMD3<Float>, e2: SIMD3<Float>
+    /// 0 for both sexes, 1 male, 2 female (see `sexCodes`).
+    var sex: UInt8 = 0
 }
 
 struct Node {
@@ -120,8 +122,10 @@ final class BVH {
         self.tris = tris
     }
 
-    /// True if the ray hits any triangle closer than `maxT`.
-    func occluded(_ o: SIMD3<Float>, _ d: SIMD3<Float>, _ maxT: Float) -> Bool {
+    /// True if the ray hits any triangle closer than `maxT`. Genital organs
+    /// of the other sex are never shown together with `sex` (0 for packs
+    /// without any), so they let the light through.
+    func occluded(_ o: SIMD3<Float>, _ d: SIMD3<Float>, _ maxT: Float, sex: UInt8) -> Bool {
         let inv = SIMD3<Float>(1 / d.x, 1 / d.y, 1 / d.z)
         return withUnsafeTemporaryAllocation(of: Int32.self, capacity: 64) { stack in
         var sp = 1
@@ -137,6 +141,7 @@ final class BVH {
                     if n.left < 0 {
                         for k in Int(n.start)..<Int(n.start + n.count) {
                             let t = tris[k]
+                            if t.sex != 0, t.sex != sex { continue }
                             let p = simd_cross(d, t.e2)
                             let det = simd_dot(t.e1, p)
                             if abs(det) < 1e-12 { continue }
@@ -167,19 +172,33 @@ final class BVH {
 let rayCount = 28
 let radius: Float = 0.035
 
-/// Sheets that the app hides by default (fasciae, pleura, peritoneum,
-/// meninges) must not darken the organs they wrap.
-func coveringFlags(manifest url: URL) -> [Bool] {
+func manifestParts(_ url: URL) -> [[String: Any]] {
     guard let data = try? Data(contentsOf: url),
-          let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
-          let parts = json["parts"] as? [[String: Any]] else { return [] }
+          let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else { return [] }
+    return json["parts"] as? [[String: Any]] ?? []
+}
+
+/// Sheets that the app hides by default (fasciae, pleura, peritoneum,
+/// meninges, "covering" parts) must not darken the organs they wrap.
+func coveringFlags(manifest url: URL) -> [Bool] {
     let words = ["pleura", "omentum", "mesocolon", "meso-appendix", "dura", "falx", "tentorium", "arachnoid", "pia mater"]
-    return parts.map { part in
-        if part["fascia"] as? Bool == true { return true }
+    return manifestParts(url).map { part in
+        if part["fascia"] as? Bool == true || part["covering"] as? Bool == true { return true }
         let base = (part["base"] as? String ?? "").lowercased()
         if words.contains(where: { base.contains($0) }) { return true }
         let path = part["path"] as? [String] ?? []
         return path.contains("Meninges") || path.contains("Peritoneal structures")
+    }
+}
+
+/// 1 for "sex": "m", 2 for "f", 0 otherwise.
+func sexCodes(manifest url: URL) -> [UInt8] {
+    manifestParts(url).map { part in
+        switch part["sex"] as? String {
+        case "m": 1
+        case "f": 2
+        default: 0
+        }
     }
 }
 
@@ -203,6 +222,8 @@ for path in CommandLine.arguments.dropFirst() {
     let pack = readPack(raw)
     let scale = (pack.hi - pack.lo) / 65535
     let coverings = coveringFlags(manifest: url.deletingPathExtension().appendingPathExtension("json"))
+    let sexes = sexCodes(manifest: url.deletingPathExtension().appendingPathExtension("json"))
+    var vertexSex: [UInt8] = []
 
     var positions: [SIMD3<Float>] = []
     var normals: [SIMD3<Float>] = []
@@ -211,6 +232,8 @@ for path in CommandLine.arguments.dropFirst() {
     for (partIndex, part) in pack.parts.enumerated() {
         let base = positions.count
         let occludes = !(partIndex < coverings.count && coverings[partIndex])
+        let sex = partIndex < sexes.count ? sexes[partIndex] : 0
+        vertexSex.append(contentsOf: repeatElement(sex, count: part.vertexCount))
         bases.append(base)
         part.positionBytes.withUnsafeBytes { b in
             for v in 0..<part.vertexCount {
@@ -233,7 +256,7 @@ for path in CommandLine.arguments.dropFirst() {
                 func idx(_ k: Int) -> Int { wide ? Int(b.loadUnaligned(fromByteOffset: k * 4, as: UInt32.self)) : Int(b.loadUnaligned(fromByteOffset: k * 2, as: UInt16.self)) }
                 if occludes {
                     let a = positions[base + idx(i)], bb = positions[base + idx(i + 1)], c = positions[base + idx(i + 2)]
-                    triangles.append(Triangle(a: a, e1: bb - a, e2: c - a))
+                    triangles.append(Triangle(a: a, e1: bb - a, e2: c - a, sex: sex))
                 }
                 i += 3
             }
@@ -241,6 +264,7 @@ for path in CommandLine.arguments.dropFirst() {
     }
 
     let bvh = BVH(triangles)
+    let mixed = Set(sexes).count > 1
     var ao = [UInt8](repeating: 255, count: positions.count)
     let chunk = 4096
     let chunks = (positions.count + chunk - 1) / chunk
@@ -253,12 +277,17 @@ for path in CommandLine.arguments.dropFirst() {
                 let t = abs(n.x) > 0.9 ? simd_normalize(simd_cross(n, SIMD3(0, 1, 0))) : simd_normalize(simd_cross(n, SIMD3(1, 0, 0)))
                 let b = simd_cross(n, t)
                 let o = positions[v] + n * 0.0006
+                // Parts shared by both sexes: the mean of the male and the
+                // female scene.
+                let scenes: [UInt8] = vertexSex[v] != 0 || !mixed ? [vertexSex[v]] : [1, 2]
                 var hits = 0
-                for h in hemisphere {
-                    let d = t * h.x + b * h.y + n * h.z
-                    if bvh.occluded(o, d, radius) { hits += 1 }
+                for sex in scenes {
+                    for h in hemisphere {
+                        let d = t * h.x + b * h.y + n * h.z
+                        if bvh.occluded(o, d, radius, sex: sex) { hits += 1 }
+                    }
                 }
-                let open = 1 - Float(hits) / Float(rayCount)
+                let open = 1 - Float(hits) / Float(rayCount * scenes.count)
                 outPtr[v] = UInt8(max(0, min(255, (open * 255).rounded())))
             }
         }

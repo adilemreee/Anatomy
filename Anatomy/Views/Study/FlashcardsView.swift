@@ -5,88 +5,145 @@
 
 import SwiftUI
 
-/// A shuffled deck of entries, least known first.
+/// A spaced repetition deck: due cards first, then new ones.
 @MainActor
 @Observable
 final class FlashcardDeck: Identifiable {
     let id = UUID()
-    let cards: [AtlasEntry]
+    private(set) var cards: [AtlasEntry]
     var index = 0
-    var known = 0
+    private(set) var reviewed = 0
+    private(set) var remembered = 0
 
-    init(entries: [AtlasEntry], study: StudyStore, limit: Int = 20) {
-        cards = Array(entries.shuffled().sorted { study.score($0.id).mastery < study.score($1.id).mastery }.prefix(limit))
+    init(entries: [AtlasEntry], study: StudyStore, limit: Int = 25) {
+        let due = entries.filter { study.isDue($0.id) }
+            .sorted { (study.card($0.id)?.due ?? .distantPast) < (study.card($1.id)?.due ?? .distantPast) }
+        let new = entries.filter { study.card($0.id) == nil }.shuffled()
+            .sorted { study.score($0.id).mastery < study.score($1.id).mastery }
+        cards = Array((due + new).prefix(limit))
+        if cards.isEmpty {
+            // Everything is scheduled for later: practise the earliest ones.
+            cards = Array(entries.sorted { (study.card($0.id)?.due ?? .distantPast) < (study.card($1.id)?.due ?? .distantPast) }.prefix(limit))
+        }
     }
 
     var current: AtlasEntry? { cards.indices.contains(index) ? cards[index] : nil }
+
+    func grade(_ grade: StudyStore.CardGrade, study: StudyStore) {
+        guard let entry = current else { return }
+        study.grade(card: entry.id, grade)
+        reviewed += 1
+        if grade != .again { remembered += 1 }
+        // Forgotten cards come back at the end of this session.
+        if grade == .again { cards.append(entry) }
+        index += 1
+    }
 }
 
 struct FlashcardsView: View {
     @Environment(AppModel.self) private var app
     @Environment(\.dismiss) private var dismiss
-    @State var deck: FlashcardDeck
+    let deck: FlashcardDeck
     @State private var flipped = false
 
     var body: some View {
         NavigationStack {
-            VStack(spacing: 20) {
+            VStack(spacing: 18) {
                 if let entry = deck.current {
-                    Text("\(deck.index + 1) / \(deck.cards.count)")
-                        .font(.footnote.weight(.semibold))
-                        .foregroundStyle(.secondary)
+                    ProgressBar(value: Double(deck.index) / Double(max(deck.cards.count, 1)))
+                        .frame(height: 4)
                     card(entry)
-                        .id(entry.id)
-                        .transition(.asymmetric(insertion: .move(edge: .trailing).combined(with: .opacity), removal: .move(edge: .leading).combined(with: .opacity)))
-                    HStack(spacing: 12) {
+                        .id("\(deck.index)-\(entry.id)")
+                        .transition(.asymmetric(insertion: .move(edge: .trailing).combined(with: .opacity),
+                                                removal: .move(edge: .leading).combined(with: .opacity)))
+                    if flipped {
+                        gradeButtons(entry)
+                            .transition(.move(edge: .bottom).combined(with: .opacity))
+                    } else {
                         Button {
-                            answer(entry, known: false)
+                            withAnimation(.spring(duration: 0.45)) { flipped = true }
                         } label: {
-                            Label("Tekrar et", systemImage: "arrow.counterclockwise")
-                                .frame(maxWidth: .infinity)
+                            Label("Cevabı göster", systemImage: "arrow.trianglehead.2.clockwise.rotate.90")
                         }
-                        .buttonStyle(.glass)
-                        .tint(.orange)
-                        Button {
-                            answer(entry, known: true)
-                        } label: {
-                            Label("Biliyorum", systemImage: "checkmark")
-                                .frame(maxWidth: .infinity)
-                        }
-                        .buttonStyle(.glassProminent)
-                        .tint(.green)
+                        .buttonStyle(PrimaryButtonStyle())
                     }
-                    .controlSize(.large)
                 } else {
-                    Spacer()
-                    Image(systemName: "checkmark.seal.fill")
-                        .font(.system(size: 64))
-                        .foregroundStyle(.green)
-                    Text("Deste bitti!")
-                        .font(.title.weight(.bold))
-                    Text("\(deck.cards.count) karttan \(deck.known) tanesini bildin.")
-                        .foregroundStyle(.secondary)
-                    Spacer()
-                    Button("Kapat") { dismiss() }
-                        .buttonStyle(.glassProminent)
-                        .controlSize(.large)
+                    finished
                 }
             }
             .padding(16)
             .animation(.snappy, value: deck.index)
-            .atlasBackground()
-            .navigationTitle("Bilgi kartları")
+            .animation(.snappy, value: flipped)
+            .themedBackground()
+            .navigationTitle(deck.current == nil ? "Bilgi kartları" : "Kart \(min(deck.index + 1, deck.cards.count))/\(deck.cards.count)")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Kapat") { dismiss() }
+                    Button {
+                        dismiss()
+                    } label: {
+                        Image(systemName: "xmark")
+                    }
+                    .accessibilityLabel("Kapat")
                 }
             }
         }
+        .preferredColorScheme(.dark)
+    }
+
+    private var finished: some View {
+        VStack(spacing: 16) {
+            Spacer()
+            Image(systemName: "checkmark.seal.fill")
+                .font(.system(size: 64))
+                .foregroundStyle(Theme.success)
+            Text("Bugünlük bu kadar!")
+                .font(.title.weight(.bold))
+                .foregroundStyle(Theme.textPrimary)
+            Text("\(deck.reviewed) tekrar, \(deck.remembered) hatırlandı. Kartlar unutma eğrine göre yeniden planlandı.")
+                .font(.subheadline)
+                .foregroundStyle(Theme.textSecondary)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 24)
+            Spacer()
+            Button("Kapat") { dismiss() }
+                .buttonStyle(PrimaryButtonStyle())
+        }
+    }
+
+    private func gradeButtons(_ entry: AtlasEntry) -> some View {
+        HStack(spacing: 8) {
+            gradeButton("Tekrar", .again, Theme.danger, entry)
+            gradeButton("Zor", .hard, .orange, entry)
+            gradeButton("İyi", .good, Theme.success, entry)
+            gradeButton("Kolay", .easy, Theme.accent, entry)
+        }
+    }
+
+    private func gradeButton(_ title: String, _ grade: StudyStore.CardGrade, _ color: Color, _ entry: AtlasEntry) -> some View {
+        Button {
+            flipped = false
+            deck.grade(grade, study: app.study)
+        } label: {
+            VStack(spacing: 3) {
+                Text(title)
+                    .font(.subheadline.weight(.bold))
+                Text(app.study.nextInterval(card: entry.id, grade))
+                    .font(.caption2.weight(.medium))
+                    .opacity(0.8)
+            }
+            .foregroundStyle(color)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 11)
+            .background(color.opacity(0.15), in: .rect(cornerRadius: 14))
+            .overlay { RoundedRectangle(cornerRadius: 14).strokeBorder(color.opacity(0.35)) }
+        }
+        .buttonStyle(PressableStyle())
     }
 
     private func card(_ entry: AtlasEntry) -> some View {
         let system = app.store.system(entry.systemID)
-        let tint = system?.tint ?? .accentColor
+        let tint = system?.tint ?? Theme.accent
         return ZStack {
             // Front
             VStack(spacing: 16) {
@@ -95,14 +152,16 @@ struct FlashcardsView: View {
                 }
                 Text(entry.tr)
                     .font(.largeTitle.weight(.bold))
+                    .foregroundStyle(Theme.textPrimary)
                     .multilineTextAlignment(.center)
-                Text(entry.region.title)
+                Text("\(entry.group) · \(entry.region.title)")
                     .font(.subheadline)
-                    .foregroundStyle(.secondary)
-                Spacer().frame(height: 12)
-                Label("Çevirmek için dokun", systemImage: "hand.tap")
+                    .foregroundStyle(Theme.textSecondary)
+                    .multilineTextAlignment(.center)
+                Spacer().frame(height: 8)
+                Text("Latince adı, tanımı ve temel bilgileri hatırla")
                     .font(.footnote)
-                    .foregroundStyle(.tertiary)
+                    .foregroundStyle(Theme.textTertiary)
             }
             .padding(24)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -111,25 +170,40 @@ struct FlashcardsView: View {
             // Back
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
+                    Text(entry.tr)
+                        .font(.headline)
+                        .foregroundStyle(Theme.textSecondary)
                     Text(entry.la)
-                        .font(.title2.weight(.bold).italic())
+                        .font(Theme.latin(.title2).weight(.semibold))
                         .foregroundStyle(tint)
-                    Text(entry.en)
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
                     Text(entry.summary)
-                        .font(.body)
+                        .font(.subheadline)
+                        .foregroundStyle(Theme.textPrimary)
+                        .fixedSize(horizontal: false, vertical: true)
                     if !entry.facts.isEmpty {
-                        FactTable(facts: Array(entry.facts.prefix(4)), tint: tint)
+                        FactTable(facts: Array(entry.facts.prefix(5)), tint: tint)
+                    }
+                    if let point = entry.tus.first {
+                        HStack(alignment: .firstTextBaseline, spacing: 8) {
+                            Image(systemName: "target")
+                                .foregroundStyle(Theme.gold)
+                            Text(point)
+                                .font(.footnote)
+                                .foregroundStyle(Theme.textPrimary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                        .padding(12)
+                        .background(Theme.gold.opacity(0.1), in: .rect(cornerRadius: 12))
                     }
                 }
-                .padding(24)
+                .padding(22)
             }
+            .scrollIndicators(.hidden)
             .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
             .opacity(flipped ? 1 : 0)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(.secondarySystemGroupedBackground), in: .rect(cornerRadius: 28))
+        .background(Theme.card, in: .rect(cornerRadius: 28))
         .overlay {
             RoundedRectangle(cornerRadius: 28).strokeBorder(tint.opacity(0.35), lineWidth: 1.5)
         }
@@ -137,12 +211,5 @@ struct FlashcardsView: View {
         .onTapGesture {
             withAnimation(.spring(duration: 0.45)) { flipped.toggle() }
         }
-    }
-
-    private func answer(_ entry: AtlasEntry, known: Bool) {
-        app.study.record(entry.id, correct: known)
-        if known { deck.known += 1 }
-        flipped = false
-        deck.index += 1
     }
 }

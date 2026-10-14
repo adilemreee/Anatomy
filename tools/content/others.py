@@ -1,4 +1,5 @@
 from common import E, write
+import others_extra
 
 # ================================================================ Lenfatik
 LO = "Lenfoid organlar"
@@ -90,7 +91,7 @@ E("ductus-thoracicus", "Göğüs kanalı", "Ductus thoracicus", "Thoracic duct",
          ("Uzunluk", "38–45 cm")],
   clinical=["Göğüs cerrahisi sonrası hasarı plevrada süt görünümlü sıvı birikmesine (şilotoraks) yol açar."],
   related=["nodi-lymphoidei", "aorta", "v-azygos", "v-subclavia"],
-  models=[], aliases=["torasik kanal", "cisterna chyli"]),
+  models=["Thoracic duct", "Cisterna chyli"], aliases=["torasik kanal", "cisterna chyli"]),
 
 E("medulla-ossium", "Kemik iliği", "Medulla ossium", "Bone marrow", LO, "general",
   "Kemiklerin iç boşluklarını dolduran, kan hücrelerinin (hematopoez) ve B lenfositlerinin üretildiği yumuşak dokudur. Primer lenfoid organdır.",
@@ -342,6 +343,10 @@ E("gustus", "Tat organı", "Organum gustus", "Gustatory organ", KT, "head",
   related=["lingua", "n-facialis", "n-glossopharyngeus", "insula"],
   models=[], aliases=["tat", "tat tomurcuğu"]),
 ]
+
+lymphatic += others_extra.lymphatic
+integumentary += others_extra.regions
+senses += others_extra.senses
 
 write("lymphatic", lymphatic)
 write("integumentary", integumentary)

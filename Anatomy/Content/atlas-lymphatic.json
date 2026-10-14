@@ -37,6 +37,10 @@
     "Splenomegali enfeksiyöz mononükleoz, portal hipertansiyon ve hematolojik hastalıklarda görülür; mononükleozda temas sporlarından kaçınılır.",
     "Splenektomi sonrası kapsüllü bakterilere karşı aşılama gerekir."
    ],
+   "tus": [
+    "Dalak 9–11. kaburgalar arasında, uzun ekseni 10. kaburga boyunca yer alır; normalde ele gelmez.",
+    "Lig. gastrosplenicum kısa gastrik damarları, lig. splenorenale splenik damarları ve pankreas kuyruğunu içerir."
+   ],
    "related": [
     "truncus-coeliacus",
     "v-portae-hepatis",
@@ -81,6 +85,10 @@
     "Miyastenia gravis hastalarının bir kısmında timoma veya timus hiperplazisi bulunur; timektomi faydalı olabilir.",
     "DiGeorge sendromunda timus ve paratiroidler gelişmez (3. ve 4. faringeal cep)."
    ],
+   "tus": [
+    "Timus 3. faringeal kesenin endoderminden gelişir; T lenfositlerin olgunlaştığı primer lenfoid organdır.",
+    "DiGeorge sendromunda (22q11) timus ve paratiroidler gelişmez: T hücre eksikliği ve hipokalsemi."
+   ],
    "related": [
     "nodi-lymphoidei",
     "glandulae-parathyroideae",
@@ -123,6 +131,10 @@
     "Tonsillektomi sonrası kanama önemli bir komplikasyondur (v. palatina externa).",
     "Çocuklarda büyük adenoid ağız solunumu, horlama ve orta kulak iltihabına neden olur."
    ],
+   "tus": [
+    "Tonsilla palatina'nın arteriyel kanlanması büyük ölçüde a. facialis'in tonsiller dalından gelir; tonsillektomi sonrası kanama çoğunlukla v. palatina externa kaynaklıdır.",
+    "Tonsil yatağında n. glossopharyngeus bulunur; tonsillektomi sonrası dilin arka 1/3'ünde tat bozukluğu ve kulak ağrısı olabilir."
+   ],
    "related": [
     "pharynx",
     "nodi-lymphoidei"
@@ -164,6 +176,10 @@
     "Ağrısız, sert, birbirine yapışık lenf düğümleri malignite açısından değerlendirilmelidir.",
     "Sol supraklaviküler düğümün büyümesi (Virchow düğümü – Troisier bulgusu) karın içi kanserlerin metastazını düşündürür.",
     "Meme kanserinde sentinel (bekçi) lenf düğümü biyopsisi evrelemede kullanılır."
+   ],
+   "tus": [
+    "Lenf düğümüne afferent damarlar kapsülden girer, efferent damar hilustan çıkar.",
+    "B hücreleri kortekste foliküllerde, T hücreleri parakortekste bulunur."
    ],
    "related": [
     "nodi-cervicales",
@@ -208,6 +224,10 @@
     "Baş-boyun kanserleri sıklıkla boyun lenf düğümlerine metastaz yapar; boyun diseksiyonu tedavinin parçasıdır.",
     "Çocuklarda boyun lenfadenopatisi en sık viral enfeksiyonlara bağlıdır."
    ],
+   "tus": [
+    "Derin servikal düğümler v. jugularis interna boyunca dizilir; baş-boynun tüm lenfi sonunda bu zincire ulaşır.",
+    "Submental düğümler alt dudak ortası, ağız tabanı ve dil ucunun lenfini alır."
+   ],
    "related": [
     "nodi-lymphoidei",
     "v-jugularis-interna",
@@ -248,6 +268,10 @@
     "Meme kanseri lenf yayılımının en sık hedefidir; aksiller diseksiyon sonrası kolda lenfödem gelişebilir.",
     "Aksiller cerrahide n. thoracicus longus ve n. thoracodorsalis korunmalıdır."
    ],
+   "tus": [
+    "Aksiller düğüm grupları: pektoral (ön), subskapular (arka), lateral (humeral), santral ve apikal.",
+    "Aksiller diseksiyonda n. thoracicus longus ve n. thoracodorsalis korunmalıdır; n. intercostobrachialis yaralanırsa kolun iç yüzünde uyuşukluk olur."
+   ],
    "related": [
     "nodi-lymphoidei",
     "glandula-mammaria",
@@ -287,6 +311,10 @@
    "clinical": [
     "Testis lenfi paraaortik düğümlere gider; skrotum derisi ise kasık düğümlerine. Bu ayrım testis tümörlerinin evrelemesinde önemlidir.",
     "Bacak ve ayak enfeksiyonlarında kasık lenf düğümleri büyüyebilir."
+   ],
+   "tus": [
+    "Yüzeyel inguinal düğümler alt ekstremitenin yüzeyel lenfini, göbek altındaki karın duvarını, perineyi, dış genital organları ve anal kanalın alt kısmını drene eder.",
+    "Testis ve glans penis yüzeyel inguinal düğümlere drene olmaz (testis paraaortik, glans derin inguinal düğümlere)."
    ],
    "related": [
     "nodi-lymphoidei",
@@ -331,6 +359,10 @@
    "clinical": [
     "Akciğer kanseri evrelemesinde mediastinal lenf düğümlerinin tutulumu belirleyicidir.",
     "Lenfoma sıklıkla paraaortik ve mezenterik düğümleri tutar."
+   ],
+   "tus": [
+    "Göğüs duvarı lenfi parasternal, interkostal ve diyafragmatik düğümlere gider.",
+    "Visseral lenf düğümleri organ arterlerini, parietal düğümler gövde duvarı damarlarını izler."
    ],
    "related": [
     "nodi-lymphoidei",
@@ -381,13 +413,20 @@
    "clinical": [
     "Göğüs cerrahisi sonrası hasarı plevrada süt görünümlü sıvı birikmesine (şilotoraks) yol açar."
    ],
+   "tus": [
+    "Ductus thoracicus L1–L2'de cisterna chyli'den başlar, hiatus aorticus'tan geçer, T4–T5'te sola geçer ve sol venöz açıya açılır.",
+    "Ductus thoracicus vücut lenfinin ~3/4'ünü taşır; yaralanması şilotoraksa yol açar."
+   ],
    "related": [
     "nodi-lymphoidei",
     "aorta",
     "v-azygos",
     "v-subclavia"
    ],
-   "models": [],
+   "models": [
+    "Thoracic duct",
+    "Cisterna chyli"
+   ],
    "aliases": [
     "torasik kanal",
     "cisterna chyli"
@@ -420,6 +459,10 @@
     "Kemik iliği aspirasyonu ve biyopsisi genellikle crista iliaca posterior'dan yapılır.",
     "Lösemiler ve aplastik anemi kemik iliği hastalıklarıdır; kemik iliği nakli tedavide kullanılır."
    ],
+   "tus": [
+    "Erişkinde kırmızı kemik iliği aksiyal iskelette (sternum, vertebralar, pelvis, kaburgalar) ve uzun kemiklerin proksimal uçlarında bulunur.",
+    "Kemik iliği aspirasyonu çoğunlukla spina iliaca posterior superior'dan yapılır."
+   ],
    "related": [
     "os-coxae",
     "sternum",
@@ -430,6 +473,503 @@
    "aliases": [
     "ilik",
     "hematopoez"
+   ]
+  },
+  {
+   "id": "nodi-supraclaviculares",
+   "tr": "Supraklaviküler lenf düğümleri (Virchow)",
+   "la": "Nodi lymphoidei supraclaviculares",
+   "en": "Supraclavicular lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "neck",
+   "summary": "Klavikulanın hemen üstünde, derin servikal zincirin en alt bölümündeki lenf düğümleridir. Sol taraftakiler ductus thoracicus'un sonlandığı venöz açıya yakındır.",
+   "facts": [
+    [
+     "Konum",
+     "Fossa supraclavicularis; v. jugularis interna'nın alt ucu ve skalen kasların önü"
+    ],
+    [
+     "Drenaj alanı",
+     "Boyun alt kısmı, göğüs duvarı, meme; solda ductus thoracicus aracılığıyla karın ve pelvis organları"
+    ],
+    [
+     "Virchow düğümü",
+     "Sol supraklaviküler düğüm; karın içi kanserlerin (özellikle mide) metastazında büyür (Troisier belirtisi)"
+    ],
+    [
+     "Sağ taraf",
+     "Akciğer, mediasten ve özofagus kökenli hastalıklar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ele gelen sol supraklaviküler lenf düğümü mide, pankreas ve diğer karın içi kanserlerin uzak metastazını düşündürür.",
+    "Sağ supraklaviküler büyüme akciğer kanseri, lenfoma veya tüberkülozu düşündürür."
+   ],
+   "tus": [
+    "Virchow düğümü sol tarafta olur çünkü ductus thoracicus sol venöz açıya açılır.",
+    "Supraklaviküler lenfadenopati her zaman ciddiye alınmalıdır; malignite olasılığı yüksektir."
+   ],
+   "related": [
+    "nodi-cervicales",
+    "ductus-thoracicus",
+    "gaster",
+    "nodi-lymphoidei"
+   ],
+   "models": [
+    "Supraclavicular nodes"
+   ],
+   "aliases": [
+    "Virchow",
+    "supraklaviküler"
+   ]
+  },
+  {
+   "id": "nodus-jugulodigastricus",
+   "tr": "Jugulodigastrik lenf düğümü (tonsil düğümü)",
+   "la": "Nodus jugulodigastricus",
+   "en": "Jugulodigastric node",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "neck",
+   "summary": "Derin servikal zincirin üst bölümünde, m. digastricus'un arka karnının v. jugularis interna'yı çaprazladığı yerdeki büyük lenf düğümüdür. Tonsillerin ve dil kökünün asıl bölgesel düğümüdür.",
+   "facts": [
+    [
+     "Konum",
+     "Angulus mandibulae'nin arka-alt tarafı, SCM'nin ön kenarı altında"
+    ],
+    [
+     "Drenaj",
+     "Tonsilla palatina, dilin arka kısmı, farinks"
+    ],
+    [
+     "Zincir",
+     "Derin servikal düğümlerin üst grubu (seviye II)"
+    ],
+    [
+     "Ele gelme",
+     "Tonsillitte büyüyerek angulus mandibulae altında hassas olarak ele gelir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tonsillit ve farenjitte en erken büyüyen düğümdür.",
+    "Erişkinde tek taraflı, sert ve kalıcı büyümesi orofarinks (HPV ilişkili) ya da dil kökü kanserini düşündürmelidir."
+   ],
+   "tus": [
+    "Boyun lenf düğümleri cerrahide seviye I–VI olarak sınıflanır; jugulodigastrik düğüm seviye II'dedir.",
+    "Juguloomohyoid düğüm dilin ucunun ve alt kısmının önemli düğümüdür (seviye III)."
+   ],
+   "related": [
+    "nodi-cervicales",
+    "tonsillae",
+    "lingua",
+    "v-jugularis-interna",
+    "mm-suprahyoidei"
+   ],
+   "models": [
+    "Jugulodigastric node"
+   ],
+   "aliases": [
+    "tonsil düğümü",
+    "jugulodigastrik"
+   ]
+  },
+  {
+   "id": "nodi-mediastinales",
+   "tr": "Mediastinal ve trakeobronşiyal lenf düğümleri",
+   "la": "Nodi lymphoidei mediastinales et tracheobronchiales",
+   "en": "Mediastinal and tracheobronchial lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "thorax",
+   "summary": "Akciğerlerden, trakeadan, özofagustan ve kalpten gelen lenfi toplayan, trakeanın ve bronşların çevresindeki ve mediastendeki lenf düğümü gruplarıdır.",
+   "facts": [
+    [
+     "Akış sırası",
+     "İntrapulmoner → bronkopulmoner (hiler) → alt trakeobronşiyal (karina altı) → üst trakeobronşiyal → paratrakeal → bronkomediastinal gövdeler"
+    ],
+    [
+     "Alt trakeobronşiyal (subkarinal)",
+     "Karina altında; her iki akciğerin alt loblarından lenf alır"
+    ],
+    [
+     "Diğer gruplar",
+     "Brakiyosefalik, lig. arteriosum düğümü, v. azygos kemeri düğümü, jukstaözofageal ve perikardiyal düğümler"
+    ],
+    [
+     "Boşalma",
+     "Sağ ve sol bronkomediastinal gövdeler → sağ lenf kanalı / ductus thoracicus veya doğrudan venöz açılar"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akciğer kanserinin evrelemesinde mediastinal düğümlerin tutulumu belirleyicidir; mediastinoskopi ve EBUS ile örneklenir.",
+    "Subkarinal düğüm büyümesi karina açısını genişletebilir."
+   ],
+   "tus": [
+    "Sol alt lobun lenfi sıklıkla karşı (sağ) tarafa da drene olabilir; bu nedenle kontralateral düğüm tutulumu görülebilir.",
+    "Lig. arteriosum düğümünün büyümesi sol n. laryngeus recurrens'e bası yaparak ses kısıklığına yol açabilir."
+   ],
+   "related": [
+    "nodi-trunci",
+    "pulmones",
+    "trachea",
+    "bronchi",
+    "hilum-pulmonis",
+    "mediastinum"
+   ],
+   "models": [
+    "Superior tracheobronchial nodes",
+    "Inferior tracheobronchial nodes",
+    "Paratracheal thoracic nodes",
+    "Brachiocephalic nodes",
+    "Node of ligamentum arteriosum",
+    "Node of arch of azygos vein",
+    "Juxta-oesophageal nodes",
+    "Intrapulmonary nodes"
+   ],
+   "aliases": [
+    "mediastinal lenf düğümü",
+    "hiler",
+    "subkarinal"
+   ]
+  },
+  {
+   "id": "nodi-coeliaci",
+   "tr": "Çölyak ve gastrik lenf düğümleri",
+   "la": "Nodi lymphoidei coeliaci et gastrici",
+   "en": "Coeliac and gastric lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "abdomen",
+   "summary": "Truncus coeliacus çevresindeki ve onun dallarını izleyen (mide, dalak, pankreas, karaciğer) visseral lenf düğümü gruplarıdır. Ön bağırsak türevlerinin lenfi burada toplanır.",
+   "facts": [
+    [
+     "Gruplar",
+     "Sol ve sağ gastrik, sağ ve sol gastroomental, pilorik (supra-, sub-, retropilorik), pankreatik, splenik, hepatik ve sistik düğümler"
+    ],
+    [
+     "Akış",
+     "Organ çevresindeki düğümler → çölyak düğümler → truncus intestinalis → cisterna chyli"
+    ],
+    [
+     "Mide",
+     "Küçük kurvatur sol ve sağ gastrik, büyük kurvatur gastroomental ve pilorik düğümlere drene olur"
+    ],
+    [
+     "Sistik düğüm",
+     "Calot üçgeninde, kolesistektomide yol gösterici olabilir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Mide kanseri cerrahisinde (D2 diseksiyon) perigastrik ve çölyak çevresi düğümler çıkarılır.",
+    "Mide kanserinin lenfatik yayılımı sol supraklaviküler (Virchow) düğüme kadar ulaşabilir."
+   ],
+   "tus": [
+    "Ön bağırsak organlarının lenfi çölyak, orta bağırsağın lenfi süperior mezenterik, arka bağırsağın lenfi inferior mezenterik düğümlerde toplanır.",
+    "Pankreas başının lenfi pankreatikoduodenal düğümlerden hem çölyak hem süperior mezenterik düğümlere gider."
+   ],
+   "related": [
+    "truncus-coeliacus",
+    "gaster",
+    "splen",
+    "pancreas",
+    "nodi-trunci",
+    "ductus-thoracicus"
+   ],
+   "models": [
+    "Coeliac nodes",
+    "Right gastric nodes",
+    "Right gastro-omental nodes",
+    "Splenic nodes",
+    "Superior pancreatic nodes",
+    "Inferior pancreatic nodes",
+    "Superior pancreaticoduodenal nodes",
+    "Cystic node"
+   ],
+   "aliases": [
+    "çölyak düğümleri",
+    "gastrik lenf düğümleri"
+   ]
+  },
+  {
+   "id": "nodi-mesenterici",
+   "tr": "Mezenterik lenf düğümleri",
+   "la": "Nodi lymphoidei mesenterici",
+   "en": "Mesenteric lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "abdomen",
+   "summary": "İnce ve kalın bağırsağın lenfini toplayan, mezenter ve mezokolon içinde damarlar boyunca dizilen yüzlerce lenf düğümüdür. Yağ emiliminde lakteallerden gelen şilöz lenfi süzerler.",
+   "facts": [
+    [
+     "Süperior mezenterik grup",
+     "Jukstaintestinal, merkezî (SMA kökü çevresi), ileokolik, prekal ve retroçekal, apendiküler, sağ ve orta kolik düğümler"
+    ],
+    [
+     "İnferior mezenterik grup",
+     "Sol kolik, sigmoid ve süperior rektal düğümler"
+    ],
+    [
+     "Kolon düğümleri",
+     "Epikolik (duvarda) → parakolik (marjinal arter boyunca) → ara (kolik arterler boyunca) → ana (SMA/IMA kökü)"
+    ],
+    [
+     "Boşalma",
+     "Truncus intestinalis → cisterna chyli"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Çocuklarda mezenterik lenfadenit (çoğunlukla viral) apandisiti taklit edebilir.",
+    "Kolorektal kanser cerrahisinde besleyici arter kökten bağlanarak tüm düğüm istasyonları çıkarılır."
+   ],
+   "tus": [
+    "Kolon kanserinin evrelemesinde en az 12 lenf düğümünün incelenmesi önerilir.",
+    "Yağ emiliminde kilomikronlar kana değil lenfe geçer; lenf süt beyazıdır (şilus)."
+   ],
+   "related": [
+    "mesenterium",
+    "intestinum-tenue",
+    "intestinum-crassum",
+    "a-mesenterica-superior",
+    "a-mesenterica-inferior",
+    "nodi-trunci"
+   ],
+   "models": [
+    "Central superior mesenteric nodes",
+    "Juxta-intestinal mesenteric nodes",
+    "Paracolic superior mesenteric nodes",
+    "Ileocolic nodes",
+    "Precaecal nodes",
+    "Retrocaecal nodes",
+    "Appendicular nodes",
+    "Right colic nodes",
+    "Middle colic nodes",
+    "Left colic nodes",
+    "Sigmoid nodes"
+   ],
+   "aliases": [
+    "mezenterik lenf düğümü",
+    "mezenterik lenfadenit"
+   ]
+  },
+  {
+   "id": "nodi-lumbales",
+   "tr": "Lomber (paraaortik) lenf düğümleri",
+   "la": "Nodi lymphoidei lumbales",
+   "en": "Lumbar (para-aortic) lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "abdomen",
+   "summary": "Abdominal aorta ve v. cava inferior çevresinde dizilen parietal lenf düğümleridir. Böbrekler, böbreküstü bezleri, gonadlar ve alt ekstremite ile pelvisten gelen lenf burada toplanır.",
+   "facts": [
+    [
+     "Gruplar",
+     "Sol lomber (preaortik, lateral aortik, retroaortik), ara lomber, sağ lomber (prekaval, lateral kaval, retrokaval)"
+    ],
+    [
+     "Drenaj alanı",
+     "Böbrekler, böbreküstü bezleri, testis/over ve tuba, uterus fundusu, arka karın duvarı; iliak düğümlerden gelen lenf"
+    ],
+    [
+     "Boşalma",
+     "Sağ ve sol trunci lumbales → cisterna chyli"
+    ],
+    [
+     "Seviye",
+     "Böbrek damarlarının hizasında yoğunlaşır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Testis tümörleri önce paraaortik düğümlere (renal ven düzeyi) metastaz yapar; inguinal düğüm tutulumu skrotal invazyonu düşündürür.",
+    "Retroperitoneal lenf nodu diseksiyonu testis kanseri tedavisinin bir parçası olabilir."
+   ],
+   "tus": [
+    "Gonadların lenfi gelişimsel kökenleri nedeniyle (arka karın duvarından inişleri) lomber düğümlere gider.",
+    "Lomber gövdeler ve truncus intestinalis L1–L2'de cisterna chyli'yi oluşturur."
+   ],
+   "related": [
+    "nodi-trunci",
+    "aorta",
+    "v-cava-inferior",
+    "testis",
+    "ovarium",
+    "ductus-thoracicus"
+   ],
+   "models": [
+    "Pre-aortic nodes",
+    "Lateral aortic nodes",
+    "Retro-aortic nodes",
+    "Intermediate lumbar nodes",
+    "Precaval nodes",
+    "Lateral caval nodes",
+    "Retrocaval nodes"
+   ],
+   "aliases": [
+    "paraaortik",
+    "lomber lenf düğümü",
+    "retroperitoneal lenf düğümü"
+   ]
+  },
+  {
+   "id": "nodi-iliaci",
+   "tr": "İliak ve pelvik lenf düğümleri",
+   "la": "Nodi lymphoidei iliaci",
+   "en": "Iliac and pelvic lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "pelvis",
+   "summary": "Pelvis organlarından, perineden ve alt ekstremiteden gelen lenfi toplayan, iliak damarlar boyunca dizilen düğüm gruplarıdır.",
+   "facts": [
+    [
+     "Dış iliak düğümler",
+     "İnguinal düğümlerden, mesane, prostat/serviks ve vajen üst kısmından lenf alır; obturator düğümler bu gruba dahildir"
+    ],
+    [
+     "İç iliak düğümler",
+     "Pelvis organları, perinenin derin kısmı ve gluteal bölge (superior ve inferior gluteal, lateral sakral düğümler)"
+    ],
+    [
+     "Ortak iliak düğümler",
+     "Dış ve iç iliak gruplardan lenf alır; lomber düğümlere boşalır"
+    ],
+    [
+     "Visseral pelvik düğümler",
+     "Paravezikal, pararektal, parauterin düğümler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Serviks kanserinde obturator ve iç iliak düğümler ilk istasyonlardır; radikal histerektomide pelvik lenfadenektomi yapılır.",
+    "Prostat kanserinde obturator ve iç iliak düğümler örneklenir."
+   ],
+   "tus": [
+    "Mesane ve prostat lenfi çoğunlukla dış ve iç iliak düğümlere, rektum lenfi pararektal → inferior mezenterik ve iç iliak düğümlere gider.",
+    "Uterus fundusu lomber, cismi dış iliak, lig. teres boyunca bir kısmı yüzeyel inguinal düğümlere drene olur."
+   ],
+   "related": [
+    "nodi-inguinales",
+    "nodi-lumbales",
+    "a-iliaca-communis",
+    "vesica-urinaria",
+    "prostata",
+    "uterus"
+   ],
+   "models": [
+    "Medial common iliac nodes",
+    "Lateral common iliac nodes",
+    "Intermediate common iliac nodes",
+    "Subaortic nodes",
+    "Intermediate external iliac nodes",
+    "Medial external iliac nodes",
+    "Obturator nodes",
+    "Lateral sacral nodes",
+    "Superior gluteal nodes",
+    "Inferior gluteal nodes",
+    "Pararectal nodes",
+    "Lateral vesical nodes"
+   ],
+   "aliases": [
+    "iliak lenf düğümleri",
+    "obturator düğümleri",
+    "pelvik lenf düğümleri"
+   ]
+  },
+  {
+   "id": "nodi-poplitei",
+   "tr": "Popliteal lenf düğümleri",
+   "la": "Nodi lymphoidei poplitei",
+   "en": "Popliteal lymph nodes",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "lowerLimb",
+   "summary": "Diz arkasında, popliteal çukurun yağ dokusu içindeki küçük lenf düğümü grubudur. Bacağın arka-dış kısmının ve ayağın dış kenarının lenfini toplar.",
+   "facts": [
+    [
+     "Gruplar",
+     "Yüzeyel (v. saphena parva'nın sonlanma yerinde) ve derin (popliteal damarlar boyunca)"
+    ],
+    [
+     "Drenaj alanı",
+     "V. saphena parva boyunca gelen yüzeyel lenf (topuk, ayak dış kenarı, baldır) ve bacağın derin dokuları"
+    ],
+    [
+     "Boşalma",
+     "Derin inguinal düğümlere"
+    ],
+    [
+     "Bacak ön düğümleri",
+     "Ara istasyon olarak ön ve arka tibial ile fibular düğümler bulunabilir"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Topuk veya ayak dış kenarındaki enfeksiyon ve melanomlarda ilk büyüyen düğüm popliteal olabilir.",
+    "Popliteal kitlelerin ayırıcı tanısında Baker kisti ve popliteal anevrizma da düşünülmelidir."
+   ],
+   "tus": [
+    "Alt ekstremitenin yüzeyel lenfinin büyük kısmı v. saphena magna boyunca doğrudan yüzeyel inguinal düğümlere gider; popliteal düğümleri atlar.",
+    "Ayak dış kenarı ve topuk lenfi önce popliteal düğümlere uğrar."
+   ],
+   "related": [
+    "nodi-inguinales",
+    "fossa-poplitea",
+    "v-saphena-parva"
+   ],
+   "models": [
+    "Superficial popliteal nodes",
+    "Deep popliteal nodes"
+   ],
+   "aliases": [
+    "popliteal lenf düğümü"
+   ]
+  },
+  {
+   "id": "ductus-lymphaticus-dexter",
+   "tr": "Sağ lenf kanalı ve sisterna şili",
+   "la": "Ductus lymphaticus dexter et cisterna chyli",
+   "en": "Right lymphatic duct and cisterna chyli",
+   "group": "Lenf düğümleri ve damarları",
+   "region": "thorax",
+   "summary": "Sağ lenf kanalı vücudun sağ üst çeyreğinin (baş-boynun sağ yarısı, sağ kol, göğsün sağ yarısı) lenfini sağ venöz açıya boşaltan kısa gövdedir. Cisterna chyli ise karın lenf gövdelerinin birleştiği, ductus thoracicus'un başlangıcındaki genişlemedir.",
+   "facts": [
+    [
+     "Sağ lenf kanalı",
+     "Sağ juguler, subklavyen ve bronkomediastinal gövdelerin birleşmesiyle oluşur (~1 cm); sağ v. jugularis interna ile v. subclavia birleşimine açılır"
+    ],
+    [
+     "Cisterna chyli",
+     "L1–L2 düzeyinde, aortanın sağ-arkasında, diyafram sağ krusunun arkasında"
+    ],
+    [
+     "Cisterna'ya gelenler",
+     "Sağ ve sol lomber gövdeler, truncus intestinalis"
+    ],
+    [
+     "Ductus thoracicus ile ilişki",
+     "Cisterna yukarıda ductus thoracicus olarak devam eder; vücudun geri kalan ¾'ünün lenfini taşır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Sağ venöz açıya yakın girişimlerde sağ lenf kanalı yaralanabilir ancak şilotoraks daha çok ductus thoracicus yaralanmasıyla ilişkilidir.",
+    "Cisterna chyli ve ductus thoracicus yaralanmaları (cerrahi, travma) şiloz asit veya şilotoraksa yol açar."
+   ],
+   "tus": [
+    "Sağ lenf kanalı yalnızca vücudun sağ üst çeyreğini drene eder; geri kalan her yer ductus thoracicus ile sol venöz açıya boşalır.",
+    "Cisterna chyli L1–L2 düzeyinde, aortanın sağında ve arkasındadır."
+   ],
+   "related": [
+    "ductus-thoracicus",
+    "v-subclavia",
+    "v-jugularis-interna",
+    "nodi-lumbales"
+   ],
+   "models": [
+    "Right lymphatic duct",
+    "Cisterna chyli"
+   ],
+   "aliases": [
+    "sağ lenf kanalı",
+    "sisterna şili",
+    "cisterna chyli"
    ]
   }
  ]

@@ -40,6 +40,10 @@
    "clinical": [
     "Osteoartrit eklem kıkırdağının dejenerasyonu, romatoid artrit ise sinovyal zarın otoimmün iltihabıdır."
    ],
+   "tus": [
+    "Fibröz eklemler: sutura, syndesmosis, gomphosis; kıkırdak eklemler: synchondrosis (hiyalin), symphysis (fibrokıkırdak); geri kalanlar sinovyaldir.",
+    "Sinovyal eklem tipleri: düz, menteşe, pivot, elipsoid (kondiler), eyer, küresel; bikondiler (diz, TME) ayrıca sayılır."
+   ],
    "related": [
     "art-humeri",
     "art-coxae",
@@ -87,6 +91,10 @@
    "clinical": [
     "Ağız aşırı açıldığında (esneme) caput mandibulae tuberculum articulare'nin önüne çıkabilir; ağız kapanamaz (TME çıkığı).",
     "TME bozuklukları (disk deplasmanı, klik sesi, ağrı) diş gıcırdatma ve stresle ilişkilidir."
+   ],
+   "tus": [
+    "TME menteşe + kayma (ginglimoartrodial) bir eklemdir; eklem yüzleri fibrokıkırdaktır.",
+    "Lig. laterale (temporomandibulare) kapsülün tek gerçek güçlendiricisidir; lig. sphenomandibulare ve stylomandibulare yardımcı bağlardır."
    ],
    "related": [
     "mandibula",
@@ -138,6 +146,10 @@
     "Disk hernisinde nucleus pulposus genellikle arka-yan yönde anulus fibrosus'u yırtarak sinir köküne bası yapar; lomberde L4–L5 diski L5 kökünü, L5–S1 diski S1 kökünü etkiler.",
     "Servikal bölgede C5–C6 diski C6 kökünü sıkıştırır."
    ],
+   "tus": [
+    "Diskler omurga boyunun yaklaşık 1/4'ünü oluşturur; atlas–axis arasında disk yoktur.",
+    "Servikalde disk hernisi aynı numaralı kökü (C5–C6 → C6), lomberde bir alttaki kökü (L4–L5 → L5) sıkıştırır."
+   ],
    "related": [
     "vertebrae-lumbales",
     "vertebrae-cervicales",
@@ -180,6 +192,10 @@
    "clinical": [
     "Lomber ponksiyonda iğne sırasıyla deri, lig. supraspinale, lig. interspinale, lig. flavum, epidural aralık ve dura-araknoidi geçer; lig. flavum geçilirken direnç kaybı hissedilir.",
     "Ankilozan spondilitte bağlar kemikleşerek ‘bambu kamışı’ omurga görüntüsü oluşur."
+   ],
+   "tus": [
+    "Lig. longitudinale anterius aşırı ekstansiyonu, posterius aşırı fleksiyonu sınırlar.",
+    "Lig. nuchae, lig. supraspinale'nin boyundaki üçgen biçimli devamıdır; trapezius ve splenius'a tutunma yeri sağlar."
    ],
    "related": [
     "discus-intervertebralis",
@@ -225,6 +241,10 @@
    ],
    "sections": [],
    "clinical": [],
+   "tus": [
+    "Üst kaburgalar 'pompa kolu' (ön-arka çap artışı), alt kaburgalar 'kova sapı' (yan çap artışı) hareketi yapar.",
+    "11. ve 12. kaburgaların kostotransvers eklemi yoktur."
+   ],
    "related": [
     "costae",
     "sternum",
@@ -267,6 +287,10 @@
    "clinical": [
     "Arkaya çıkığı nadirdir ancak arkadaki büyük damarlara ve trakeaya bası yapabileceği için acildir."
    ],
+   "tus": [
+    "Eklem diski klavikulanın mediale kaymasını önler; en güçlü bağı lig. costoclaviculare'dir.",
+    "Arkaya çıkık nadirdir ancak trakea ve büyük damarlara bası yapabileceği için acildir."
+   ],
    "related": [
     "clavicula",
     "sternum",
@@ -304,6 +328,10 @@
    "sections": [],
    "clinical": [
     "Omuz üzerine düşmede AC eklem ayrılması (omuz çıkığından farklıdır) görülür; korakoklaviküler bağ da yırtılırsa clavicula ucu belirgin şekilde yukarı kalkar (piyano tuşu bulgusu)."
+   ],
+   "tus": [
+    "Düz tipte sinovyal eklemdir; skapulanın klavikula üzerinde dönmesini sağlar.",
+    "Rockwood sınıflamasında tip III ve üzeri yaralanmalarda lig. coracoclaviculare de kopmuştur."
    ],
    "related": [
     "clavicula",
@@ -365,6 +393,10 @@
     "Donuk omuz (adeziv kapsülit) kapsülün kalınlaşıp büzülmesiyle tüm yönlerde hareket kısıtlılığı yapar.",
     "SLAP lezyonu: üst labrumun biceps tendonu tutunma yerinden yırtılması."
    ],
+   "tus": [
+    "Glenohumeral eklemin stabilitesi kemikten çok rotator manşet kaslarına bağlıdır.",
+    "Ön çıkıkta Hill–Sachs lezyonu (humerus başının arka-üst çentiği) ve Bankart lezyonu (ön-alt labrum yırtığı) görülür."
+   ],
    "related": [
     "humerus",
     "scapula",
@@ -419,6 +451,10 @@
     "Lateral epikondilit (tenisçi dirseği) ve medial epikondilit (golfçü dirseği) tendon tutunma yerlerinin aşırı kullanım hasarıdır.",
     "Çocuklarda radius başı lig. anulare'den kayarak ‘dadı dirseği’ oluşur."
    ],
+   "tus": [
+    "Dirsek çıkıkları en sık arka-dış yönde olur; 'üçgen bozulması' (olecranon ve epikondiller) çıkığı kırıktan ayırır.",
+    "Ekstansiyonda olecranon, epikondiller ile düz bir çizgi, fleksiyonda üçgen oluşturur (Hueter üçgeni)."
+   ],
    "related": [
     "humerus",
     "radius",
@@ -464,6 +500,10 @@
    "clinical": [
     "Triangüler fibrokartilaj kompleks (TFCC) yırtıkları el bileği ulnar taraf ağrısının sık nedenidir."
    ],
+   "tus": [
+    "Proksimal radioulnar eklemde radius başı lig. anulare içinde, distalde radius ulna başı etrafında döner.",
+    "Membrana interossea'nın lifleri radiustan ulnaya aşağı-içe uzanır ve elden gelen yükü ulnaya aktarır."
+   ],
    "related": [
     "radius",
     "ulna",
@@ -508,6 +548,10 @@
    "clinical": [
     "Skafolunat bağ yırtığı el bileği instabilitesinin en sık nedenidir (Terry Thomas bulgusu: skafoid ile lunatum arası açıklık).",
     "El bileği gangliyonu eklem kapsülünden kaynaklanan kistik şişliktir."
+   ],
+   "tus": [
+    "Radiokarpal eklem elipsoid tiptedir; fleksiyon-ekstansiyon ve radial-ulnar deviasyon yapılır.",
+    "Ulnar deviasyon radial deviasyondan daha geniştir çünkü radius stiloidi daha aşağıdadır."
    ],
    "related": [
     "radius",
@@ -556,6 +600,10 @@
     "Kayakçı başparmağı: başparmak MCP ekleminin ulnar kollateral bağ yırtığı.",
     "Romatoid artritte MCP eklemlerinde ulnar deviasyon, kuğu boynu ve düğme iliği deformiteleri gelişir."
    ],
+   "tus": [
+    "1. KMK eklemi eyer tipindedir ve oppozisyonu sağlar; 2–5. KMK eklemleri düz tiptedir.",
+    "MKF eklemlerin kollateral bağları fleksiyonda gerilir; el bu nedenle MKF'ler bükülü pozisyonda alçıya alınır."
+   ],
    "related": [
     "ossa-metacarpi",
     "phalanges-manus",
@@ -602,6 +650,10 @@
     "Sakroiliit, ankilozan spondilit gibi seronegatif spondiloartropatilerin erken bulgusudur.",
     "Bel ve kalça ağrısının gözden kaçan nedenlerinden biridir."
    ],
+   "tus": [
+    "Sakroiliak eklemin ön kısmı sinovyal, arka kısmı syndesmosis'tir.",
+    "Sakroileit ankilozan spondilitin erken ve karakteristik bulgusudur."
+   ],
    "related": [
     "os-sacrum",
     "os-coxae",
@@ -640,6 +692,10 @@
    "clinical": [
     "Gebelikte simfiz ayrılması (diastazis) ağrılı yürümeye neden olabilir.",
     "Sporcularda osteitis pubis kasık ağrısı yapar."
+   ],
+   "tus": [
+    "Gebelikte relaksin etkisiyle symphysis birkaç milimetre genişleyebilir.",
+    "Symphysis'in üst kenarı pelvis girişinin ön sınırıdır; mesane dolu değilken bu kenarın arkasındadır."
    ],
    "related": [
     "os-coxae",
@@ -688,6 +744,10 @@
    "sections": [],
    "clinical": [
     "Pudendal sinir bloğu (doğumda) spina ischiadica'nın hemen yanına, lig. sacrospinale çevresine yapılır."
+   ],
+   "tus": [
+    "Lig. sacrospinale ve sacrotuberale sakrumun öne dönmesini (nutasyon) engeller.",
+    "Lig. iliolumbale L5 transvers çıkıntısını krista iliakaya bağlar; L5'in öne kaymasını sınırlar."
    ],
    "related": [
     "os-sacrum",
@@ -742,6 +802,10 @@
     "Gelişimsel kalça displazisi yenidoğanda Ortolani ve Barlow manevralarıyla taranır.",
     "Arka kalça çıkığı (ör. trafik kazasında diz ön panele çarpınca) n. ischiadicus'u zedeleyebilir; bacak kısa, fleksiyon, addüksiyon ve iç rotasyonda durur.",
     "Kalça osteoartriti ileri evrelerde total kalça protezi gerektirir; kalça ağrısı kasık ve dize yansıyabilir."
+   ],
+   "tus": [
+    "Kalça eklemi en stabil pozisyonda ekstansiyon, abdüksiyon ve iç rotasyondadır (bağlar gergin).",
+    "Gelişimsel kalça displazisi Ortolani ve Barlow manevralarıyla yenidoğanda taranır."
    ],
    "related": [
     "femur",
@@ -799,6 +863,10 @@
     "Menisküs yırtıklarında eklem çizgisi hassasiyeti, kilitlenme ve McMurray testi pozitifliği görülür.",
     "Diz arkasında Baker kisti (popliteal kist) sık görülür."
    ],
+   "tus": [
+    "Dizin üç eklem bölümü vardır: medial ve lateral femorotibial, patellofemoral.",
+    "Bursa suprapatellaris eklem boşluğu ile ilişkilidir; dizdeki efüzyon burada ele gelir (patella balotmanı)."
+   ],
    "related": [
     "femur",
     "tibia",
@@ -844,6 +912,10 @@
    "clinical": [
     "Ağırlık verilmiş bükülü dizde ani dönme menisküs yırtığına yol açar; kova sapı yırtığı dizi kilitleyebilir."
    ],
+   "tus": [
+    "Menisküslerin dış 1/3'ü kanlanır (kırmızı bölge) ve tamir edilebilir; iç 2/3 avaskülerdir.",
+    "Kova sapı yırtıkları eklemin kilitlenmesine yol açar."
+   ],
    "related": [
     "art-genus",
     "ligg-cruciata",
@@ -884,6 +956,10 @@
    "clinical": [
     "ÖÇB yırtığı sporcularda ani yön değiştirme ve iniş sırasında olur; ‘pop’ sesi ve hızlı şişlik (hemartroz) tipiktir.",
     "AÇB yırtığı ‘dashboard’ yaralanmasında (bükülü dizin ön panele çarpması) görülür; arka çekmece testi pozitiftir."
+   ],
+   "tus": [
+    "ÖÇB tibianın area intercondylaris anterior'undan femurun lateral kondilinin iç yüzüne, AÇB area intercondylaris posterior'dan medial kondilin dış yüzüne uzanır.",
+    "Çapraz bağlar eklem kapsülünün içinde ancak sinovyal zarın dışındadır (intrakapsüler, ekstrasinovyal)."
    ],
    "related": [
     "art-genus",
@@ -928,6 +1004,10 @@
    "clinical": [
     "Dizin dış yanına alınan darbelerde iç kollateral bağ zorlanır; valgus stres testiyle değerlendirilir."
    ],
+   "tus": [
+    "Medial kollateral bağ geniş ve yassıdır, medial menisküse yapışır; lateral kollateral bağ yuvarlak bir kordondur ve menisküse yapışmaz.",
+    "Kollateral bağlar ekstansiyonda gergin, fleksiyonda gevşektir."
+   ],
    "related": [
     "art-genus",
     "meniscus"
@@ -968,6 +1048,10 @@
    "sections": [],
    "clinical": [
     "Yüksek ayak bileği burkulması sindezmoz bağlarının yırtılmasıdır ve iyileşmesi daha uzun sürer."
+   ],
+   "tus": [
+    "Proksimal tibiofibular eklem sinovyal düz eklem, distal tibiofibular eklem syndesmosis'tir.",
+    "Yüksek ayak bileği burkulmasında (syndesmosis yaralanması) dış rotasyon testi pozitiftir."
    ],
    "related": [
     "tibia",
@@ -1021,6 +1105,10 @@
     "Ottawa kuralları, ayak bileği yaralanmalarında röntgen gerekliliğini belirlemede kullanılır.",
     "Pott kırığı: eversiyon yaralanmasında deltoid bağ yırtığı veya iç malleol kırığı ile fibula kırığının birlikteliği."
    ],
+   "tus": [
+    "Lig. deltoideum dört bölümlüdür (tibionaviküler, tibiokalkaneal, ön ve arka tibiotalar) ve eversiyonu sınırlar.",
+    "Ottawa kuralları ayak bileği travmasında grafi gereksinimini belirler."
+   ],
    "related": [
     "tibia",
     "fibula",
@@ -1070,6 +1158,10 @@
    "clinical": [
     "Lisfranc yaralanmaları gözden kaçabilir ve kronik ağrı/deformiteye yol açar.",
     "Yay bağının yetmezliği düz tabanlığa (pes planus) katkıda bulunur."
+   ],
+   "tus": [
+    "Chopart eklemi (transvers tarsal): talonaviküler + kalkaneokuboid; Lisfranc eklemi: tarsometatarsal eklemler.",
+    "Lig. calcaneonaviculare plantare (yay bağı) talus başını destekler; yetmezliği düztabana yol açar."
    ],
    "related": [
     "talus",

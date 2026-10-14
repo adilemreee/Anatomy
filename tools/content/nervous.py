@@ -378,7 +378,7 @@ N("n-ulnaris", "Dirsek siniri", "N. ulnaris", "Ulnar nerve", "Elin intrinsik kas
 N("n-phrenicus", "Frenik sinir", "N. phrenicus", "Phrenic nerve", "Diyaframın tek motor siniridir. Boyundan göğse inerek diyaframa ulaşır; perikard, mediastinal plevra ve diyafram periton/plevrasından duyu taşır.",
   "Plexus cervicalis – C3, C4, C5 (esas olarak C4)", "M. scalenus anterior'un önünde aşağı iner, a. ve v. subclavia arasından göğse girer, perikardın yan yüzünde akciğer kökünün önünden geçerek diyaframa ulaşır", "Diaphragma", "Perikard, mediastinal ve diyafragmatik plevra, diyafragmatik periton (merkez kısım)",
   clinical=["Diyafram altı irritasyon (safra kesesi, dalak) C3–C5 dermatomlarına, yani omuza yansıyan ağrı yapar.", "Hasarında aynı taraf diyafram yükselir ve paradoks hareket eder."],
-  related=["diaphragma", "mm-scaleni", "cor"], models=[], aliases=["frenik"], group=SS, region="thorax"),
+  related=["diaphragma", "mm-scaleni", "cor"], models=["Phrenic nerve"], aliases=["frenik"], group=SS, region="thorax"),
 
 N("n-intercostales", "Kaburgalar arası sinirler", "Nn. intercostales", "Intercostal nerves", "T1–T11 spinal sinirlerinin ön dallarıdır; göğüs ve karın duvarının kaslarını ve derisini innerve ederler. T12'nin ön dalı n. subcostalis adını alır.",
   "T1–T11 spinal sinirlerinin ön dalları", "Kaburgaların alt kenarındaki sulcus costae'de, interkostal arter ve venin altında (VAN) seyreder; alt 6 sinir karın duvarına geçer", "Mm. intercostales, karın ön duvarı kasları (T7–T12), m. serratus posterior", "Göğüs ve karın duvarı derisi (dermatomlar: T4 meme başı, T10 göbek)",

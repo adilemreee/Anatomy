@@ -45,6 +45,10 @@
     "İnme (serebrovasküler olay) en sık a. cerebri media alanını etkiler: karşı tarafta yüz ve kolda baskın güçsüzlük, dominant yarımkürede afazi.",
     "Glasgow Koma Skalası göz açma, sözel ve motor yanıtlarla bilinç düzeyini değerlendirir."
    ],
+   "tus": [
+    "Beyin yarımküreleri sulcus centralis (Rolando), sulcus lateralis (Sylvius) ve sulcus parietooccipitalis ile loblara ayrılır.",
+    "Hemisferin dış yüzü MCA, medial yüzü ACA, alt-arka yüzü PCA ile beslenir."
+   ],
    "related": [
     "lobus-frontalis",
     "lobus-parietalis",
@@ -97,6 +101,10 @@
     "Prefrontal hasar kişilik değişiklikleri, dürtüsellik ve planlama bozukluğuna (Phineas Gage vakası) yol açar.",
     "Frontal göz alanı lezyonunda gözler lezyon tarafına bakar."
    ],
+   "tus": [
+    "Frontal göz alanı (BA 8) istemli sakkadları kontrol eder; lezyonunda gözler lezyon tarafına bakar.",
+    "Frontal lob sendromunda primitif refleksler (yakalama, emme) yeniden ortaya çıkabilir."
+   ],
    "related": [
     "cerebrum",
     "gyrus-precentralis",
@@ -140,6 +148,10 @@
     "Bu bölgenin hasarı karşı tarafta üst motor nöron tipi felce (spastisite, hiperrefleksi, Babinski pozitifliği) yol açar.",
     "Jacksonian nöbette kasılmalar homunkulus boyunca yayılarak (ör. elden kola, yüze) ilerler."
    ],
+   "tus": [
+    "Primer motor korteks BA 4'tür; Betz hücreleri (dev piramidal hücreler) burada bulunur.",
+    "Motor homunkulusta el ve yüz temsil alanları orantısız büyüktür."
+   ],
    "related": [
     "lobus-frontalis",
     "gyrus-postcentralis",
@@ -175,6 +187,10 @@
    "clinical": [
     "Dominant olmayan (genellikle sağ) parietal lob hasarında karşı tarafın ihmali (hemispatial neglect) görülür.",
     "Dominant gyrus angularis lezyonunda Gerstmann sendromu: agrafi, akalkuli, parmak agnozisi, sağ-sol ayrım bozukluğu."
+   ],
+   "tus": [
+    "Superior parietal lobül stereognozi ve vücut şemasıyla ilgilidir; inferior parietal lobül supramarjinal ve angular girusları içerir.",
+    "Parietal lob lezyonları karşı tarafta alt kadranopsi yapabilir."
    ],
    "related": [
     "cerebrum",
@@ -214,6 +230,9 @@
    "sections": [],
    "clinical": [
     "Hasarında karşı tarafta ince dokunma ve pozisyon duyusu kaybı, astereognozi (cisimleri dokunarak tanıyamama) görülür."
+   ],
+   "tus": [
+    "Talamik VPL ve VPM çekirdeklerinden gelen lifler internal kapsülün arka bacağıyla postsantral girusa ulaşır."
    ],
    "related": [
     "lobus-parietalis",
@@ -256,6 +275,10 @@
     "Temporal lob epilepsisi koku halüsinasyonları, déjà vu ve otomatizmlerle seyredebilir.",
     "Alzheimer hastalığında medial temporal lob (hipokampus) atrofisi erken bulgudur."
    ],
+   "tus": [
+    "Temporal lob epilepsisi koku halüsinasyonları, déjà vu ve otomatizmlerle seyreder.",
+    "Temporal lob herniasyonunda (unkal) n. oculomotorius sıkışır; aynı tarafta pupil genişler."
+   ],
    "related": [
     "cerebrum",
     "hippocampus",
@@ -295,6 +318,10 @@
    "clinical": [
     "Tek taraflı görme korteksi hasarı karşı tarafta homonim hemianopsiye neden olur; a. cerebri posterior tıkanmasında makula genellikle korunur (çift kanlanma).",
     "İki taraflı hasar kortikal körlüğe yol açar; Anton sendromunda hasta körlüğünü inkâr eder."
+   ],
+   "tus": [
+    "Oksipital kutup makulayı temsil eder ve MCA–PCA sınır bölgesindedir.",
+    "Kortikal körlükte (iki taraflı oksipital lezyon) pupil ışık refleksleri korunur (Anton sendromu: körlüğün inkârı)."
    ],
    "related": [
     "cerebrum",
@@ -336,6 +363,9 @@
    "clinical": [
     "A. cerebri media inmelerinde insular korteksin erken etkilenmesi BT'de ‘insular ribbon’ bulgusunun kaybıyla görülür."
    ],
+   "tus": [
+    "İnsula lateral oluğun derininde, MCA'nın M2 dallarının üzerinde yer alır."
+   ],
    "related": [
     "cerebrum",
     "lobus-temporalis",
@@ -369,6 +399,9 @@
    "sections": [],
    "clinical": [
     "Kronik alkol kullanımına bağlı tiamin eksikliğinde corpora mamillaria hasarı Wernicke–Korsakoff sendromuna (hafıza kaybı, konfabulasyon) yol açar."
+   ],
+   "tus": [
+    "Papez devresi: hippocampus → fornix → corpus mamillare → tractus mamillothalamicus → anterior talamus → gyrus cinguli → hippocampus."
    ],
    "related": [
     "hippocampus",
@@ -416,6 +449,10 @@
     "Hipokampus hipoksiye en duyarlı bölgelerden biridir (CA1 bölgesi).",
     "Alzheimer hastalığında ilk etkilenen yapılardandır; mezial temporal skleroz dirençli epilepsi nedenidir."
    ],
+   "tus": [
+    "Hippocampusun CA1 bölgesi (Sommer sektörü) hipoksiye en duyarlı bölgedir.",
+    "H.M. olgusu iki taraflı medial temporal rezeksiyon sonrası anterograd amneziyi göstermiştir."
+   ],
    "related": [
     "systema-limbicum",
     "lobus-temporalis",
@@ -454,6 +491,9 @@
    "sections": [],
    "clinical": [
     "İki taraflı amigdala hasarı Klüver–Bucy sendromuna (korkusuzluk, hiperoralite, hiperseksüalite) yol açar."
+   ],
+   "tus": [
+    "Amigdala temporal lobun önünde, hippocampusun önü-üstünde, uncus'un altındadır."
    ],
    "related": [
     "systema-limbicum",
@@ -494,6 +534,9 @@
    "clinical": [
     "Dirençli epilepside corpus callosum kesilebilir (kallozotomi); ‘split-brain’ hastalarda yarımküreler arası bilgi aktarımı bozulur.",
     "Corpus callosum agenezisi doğumsal bir anomalidir."
+   ],
+   "tus": [
+    "Corpus callosum agenezisi ve kesisinde disconnection sendromları görülür (sol elle yazamama, sol el anomisi)."
    ],
    "related": [
     "cerebrum",
@@ -536,6 +579,10 @@
     "Parkinson hastalığı substantia nigra dopaminerjik nöronlarının kaybıyla oluşur: istirahat tremoru, rijidite, bradikinezi.",
     "Huntington hastalığında nucleus caudatus atrofisi kore (istemsiz dans benzeri hareketler) ve demansa yol açar.",
     "Wilson hastalığında bakır birikimi özellikle putamen'i etkiler."
+   ],
+   "tus": [
+    "Corpus striatum: nucleus caudatus + putamen; nucleus lentiformis: putamen + globus pallidus.",
+    "Wilson hastalığında bakır özellikle putamende birikir."
    ],
    "related": [
     "thalamus",
@@ -582,6 +629,10 @@
    "sections": [],
    "clinical": [
     "Talamik inme karşı tarafta tüm duyu kayıplarına ve sonrasında şiddetli yanıcı ağrıya (Dejerine–Roussy talamik ağrı sendromu) neden olabilir."
+   ],
+   "tus": [
+    "Talamusun en büyük çekirdeği pulvinar'dır; görsel dikkatle ilgilidir.",
+    "Talamus a. cerebri posterior'un talamoperforan ve talamogenikulat dallarıyla beslenir."
    ],
    "related": [
     "hypothalamus",
@@ -638,6 +689,10 @@
     "Supraoptik çekirdek veya hipofiz sapının hasarı santral diabetes insipidus'a (aşırı idrar ve susuzluk) yol açar.",
     "Kraniyofaringiyom hipotalamusa bası yaparak obezite, uyku bozukluğu ve endokrin yetmezliğe neden olabilir."
    ],
+   "tus": [
+    "Lateral hipotalamus lezyonu açlık hissinin kaybına (anoreksi), ventromedial lezyon hiperfajiye ve obeziteye yol açar.",
+    "Anterior hipotalamus ısı kaybını (terleme, vazodilatasyon), posterior hipotalamus ısı korunumunu sağlar."
+   ],
    "related": [
     "hypophysis",
     "thalamus",
@@ -683,6 +738,10 @@
    "clinical": [
     "BOS akımının engellenmesi (ör. aquaeductus stenozu) obstrüktif hidrosefaliye neden olur; tedavide ventriküloperitoneal şant takılabilir.",
     "Lomber ponksiyonla alınan BOS menenjit ve subaraknoid kanama tanısında incelenir."
+   ],
+   "tus": [
+    "Lateral ventrikülün ön boynuzu frontal, alt boynuzu temporal, arka boynuzu oksipital lobdadır.",
+    "Plexus choroideus lateral ventrikülün gövdesi ve alt boynuzu ile 3. ve 4. ventriküllerin tavanında bulunur; ön ve arka boynuzlarda yoktur."
    ],
    "related": [
     "thalamus",
@@ -732,6 +791,10 @@
    "clinical": [
     "Weber sendromu: crus cerebri ve n. oculomotorius lezyonu – aynı tarafta III. sinir felci, karşı tarafta hemipleji.",
     "Parinaud sendromu (pineal tümörlerinde): yukarı bakış felci."
+   ],
+   "tus": [
+    "Orta beyin kesitinde dorsalde colliculi (üst: görme refleksleri, alt: işitme), ortada aqueductus, ventralde pedunculi cerebri bulunur.",
+    "Parinaud sendromu (pineal tümör): yukarı bakış felci, ışık-yakın disosiyasyonu."
    ],
    "related": [
     "pons",
@@ -783,6 +846,10 @@
     "Pons tabanındaki büyük lezyonlar ‘kilitli kalma’ (locked-in) sendromuna yol açar: hasta bilinçlidir ancak yalnızca dikey göz hareketleri ve göz kırpma ile iletişim kurabilir.",
     "Hızlı sodyum düzeltilmesi santral pontin miyelinolize neden olabilir."
    ],
+   "tus": [
+    "Ponsun ventralinde kortikospinal lifler ve pontin çekirdekler, dorsalinde (tegmentum) kranial sinir çekirdekleri bulunur.",
+    "Santral pontin miyelinoliz hiponatreminin hızlı düzeltilmesiyle oluşur."
+   ],
    "related": [
     "mesencephalon",
     "medulla-oblongata",
@@ -825,6 +892,10 @@
    "clinical": [
     "Wallenberg (lateral medüller) sendromu: a. vertebralis/PICA tıkanması – aynı tarafta yüzde, karşı tarafta vücutta ağrı-ısı kaybı, disfaji, ses kısıklığı, Horner sendromu, ataksi.",
     "Kafa içi basınç artışında beyincik tonsillerinin foramen magnum'a fıtıklaşması medulla'yı sıkıştırarak solunum durmasına yol açar."
+   ],
+   "tus": [
+    "Medullada solunum ve kardiyovasküler merkezler bulunur; foramen magnum herniasyonu ölümcüldür.",
+    "Area postrema (kusma merkezi) kan-beyin bariyeri olmayan bir bölgedir."
    ],
    "related": [
     "pons",
@@ -883,6 +954,10 @@
     "Serebellar lezyonlarda ataksi, dismetri (parmak-burun testinde hedefi bulamama), disdiadokokinezi, niyet tremoru, nistagmus ve dizartri (kesik kesik konuşma) görülür.",
     "Alkol öncelikle vermisi etkileyerek geniş tabanlı yürüyüşe (gövde ataksisi) neden olur."
    ],
+   "tus": [
+    "Serebellar lezyonlar aynı taraf bulgu verir (iki kez çaprazlaşma).",
+    "Serebellumun beslenmesi: SCA (üst yüz), AICA (ön-alt yüz), PICA (arka-alt yüz)."
+   ],
    "related": [
     "pons",
     "medulla-oblongata",
@@ -937,6 +1012,10 @@
     "Ön spinal arter sendromunda arka kordon duyuları korunur.",
     "Omurilik yaralanmasının seviyesi tetrapleji (servikal) veya parapleji (torakal ve altı) gelişip gelişmeyeceğini belirler."
    ],
+   "tus": [
+    "Omuriliğin servikal ve lomber genişlemeleri kol ve bacak pleksuslarının çıktığı segmentlere karşılık gelir.",
+    "Omuriliği a. spinalis anterior (ön 2/3) ve iki a. spinalis posterior beslenir; Adamkiewicz arteri alt torakal-lomber bölgenin ana besleyicisidir."
+   ],
    "related": [
     "cauda-equina",
     "meninges",
@@ -974,6 +1053,9 @@
    "clinical": [
     "Kauda equina sendromu (ör. büyük santral disk hernisi): eyer tarzı uyuşukluk, idrar-gaita inkontinansı veya retansiyonu, bacaklarda güçsüzlük – acil cerrahi gerektirir.",
     "Lomber ponksiyonda iğne kökleri iter, omuriliğe zarar vermez; bu yüzden L3–L4 / L4–L5 güvenlidir."
+   ],
+   "tus": [
+    "Conus medullaris sendromu daha ani ve simetrik, cauda equina sendromu daha asimetrik ve ağrılıdır."
    ],
    "related": [
     "medulla-spinalis",
@@ -1025,6 +1107,10 @@
     "Subaraknoid kanama: çoğunlukla anevrizma rüptürü; ‘hayatımın en şiddetli baş ağrısı’.",
     "Menenjitte ense sertliği, Kernig ve Brudzinski bulguları görülür."
    ],
+   "tus": [
+    "Dura mater kafatasında iki katlıdır: dış periosteal ve iç meningeal; venöz sinüsler bu iki kat arasındadır.",
+    "Falx cerebri, tentorium cerebelli, falx cerebelli ve diaphragma sellae duranın iç uzantılarıdır."
+   ],
    "related": [
     "medulla-spinalis",
     "cerebrum",
@@ -1071,6 +1157,10 @@
    "clinical": [
     "Subakut kombine dejenerasyon (B12 eksikliği): dorsal kolonlar ve kortikospinal yollar etkilenir.",
     "Siringomiyelide santral kanal genişleyerek çaprazlaşan spinotalamik lifleri bozar; pelerin tarzı ağrı-ısı kaybı olur."
+   ],
+   "tus": [
+    "Tractus spinocerebellaris posterior aynı taraftan, anterior ise çift çaprazlaşarak yine aynı taraf serebelluma bilgi taşır.",
+    "Rubrospinal, retikulospinal, vestibulospinal ve tektospinal yollar ekstrapiramidal inen yollardır."
    ],
    "related": [
     "medulla-spinalis",
@@ -1124,6 +1214,10 @@
     "Ön kafa tabanı kırıklarında lifler kopabilir ve koku kaybı (anosmi) olur.",
     "Koku kaybı Parkinson ve Alzheimer hastalıklarının erken bulgusu olabilir; COVID-19 enfeksiyonunda da sık görülmüştür."
    ],
+   "tus": [
+    "N. olfactorius sinir hücreleri sürekli yenilenen tek nöron tipidir.",
+    "Foster Kennedy sendromu: olfaktör oluk menenjiyomunda aynı tarafta optik atrofi ve anozmi, karşı tarafta papil ödemi."
+   ],
    "related": [
     "os-ethmoidale",
     "cavitas-nasi",
@@ -1164,6 +1258,10 @@
     "Optik kiazma basısı (hipofiz adenomu) bitemporal hemianopsiye yol açar.",
     "Kafa içi basınç artışında optik disk ödemi (papil ödemi) görülür.",
     "Optik nörit multipl sklerozun ilk bulgusu olabilir."
+   ],
+   "tus": [
+    "N. opticus beyin dokusunun bir uzantısıdır; meninkslerle sarılıdır ve kafa içi basınç artışında papil ödemi görülür.",
+    "Işık refleksinde afferent kol n. opticus, efferent kol n. oculomotorius'tur; Marcus Gunn pupili (RAPD) afferent defekti gösterir."
    ],
    "related": [
     "bulbus-oculi",
@@ -1209,6 +1307,10 @@
     "Tam felçte göz aşağı-dışa bakar, pitoz ve fiks dilate pupil görülür.",
     "Pupil liflerini içeren dış kısım, a. communicans posterior anevrizması basısında erken etkilenir (pupil tutulumlu III. sinir felci acildir); diyabetik iskemide pupil genellikle korunur."
    ],
+   "tus": [
+    "N. oculomotorius m. rectus superior, inferior, medialis, obliquus inferior ve levator palpebrae'yi innerve eder.",
+    "III çekirdeği orta beyinde colliculus superior düzeyindedir; Edinger–Westphal çekirdeği parasempatik liflerin kaynağıdır."
+   ],
    "related": [
     "mm-bulbi",
     "mesencephalon",
@@ -1251,6 +1353,9 @@
    "clinical": [
     "Felcinde aşağı ve içe bakışta çift görme olur; hasta merdiven inerken zorlanır ve başını sağlam tarafa eğer.",
     "Uzun seyri nedeniyle kafa travmalarında kolay zedelenir."
+   ],
+   "tus": [
+    "N. trochlearis çekirdeği colliculus inferior düzeyindedir; lifleri çaprazlaşır."
    ],
    "related": [
     "mm-bulbi",
@@ -1302,6 +1407,10 @@
     "Zona (herpes zoster oftalmikus) V1 alanında döküntü yapar; burun ucu tutulumu (Hutchinson bulgusu) göz tutulumunu düşündürür.",
     "Korneal refleksin afferent kolu V1'dir."
    ],
+   "tus": [
+    "Ganglion trigeminale (Gasser) cavum trigeminale'de (Meckel) yer alır.",
+    "Trigeminal nevralji çoğunlukla V2 ve V3 alanında, sıklıkla bir damarın sinir köküne basısıyla oluşur."
+   ],
    "related": [
     "m-masseter",
     "m-temporalis",
@@ -1349,6 +1458,9 @@
    "clinical": [
     "Kafa içi basınç artışında clivus üzerinde gerilerek ‘yanlış lokalize ettirici’ felç yapabilir.",
     "Felcinde göz içe kayar ve dışa bakışta yatay çift görme olur."
+   ],
+   "tus": [
+    "Kafa içi basınç artışında n. abducens'in uzun kafa içi seyri nedeniyle 'yanlış lokalize edici' felç görülür."
    ],
    "related": [
     "mm-bulbi",
@@ -1400,6 +1512,10 @@
     "Santral (üst motor nöron) lezyonda alın korunur, çünkü alın kaslarının çekirdek bölümü iki yarımküreden lif alır.",
     "Parotis tümörü cerrahisinde sinir dalları korunmalıdır."
    ],
+   "tus": [
+    "N. facialis'in dalları (proksimalden distale): n. petrosus major, n. stapedius, chorda tympani, sonra yüz dalları.",
+    "Ramsay Hunt sendromu ganglion geniculi'nin zona enfeksiyonudur: yüz felci + kulakta veziküller."
+   ],
    "related": [
     "m-occipitofrontalis",
     "m-orbicularis-oculi",
@@ -1443,6 +1559,9 @@
    "clinical": [
     "Vestibüler schwannom (akustik nörinom) cerebellopontin köşede tek taraflı işitme kaybı, kulak çınlaması ve dengesizlikle başlar; büyüdükçe V. ve VII. sinirleri etkiler.",
     "Vestibüler nörit ani başlayan şiddetli baş dönmesine neden olur."
+   ],
+   "tus": [
+    "Sensörinöral işitme kaybında Weber testi sağlam kulağa lateralize olur, Rinne pozitiftir."
    ],
    "related": [
     "auris-interna",
@@ -1490,6 +1609,10 @@
    "clinical": [
     "Öğürme refleksinin afferent kolunu oluşturur (efferent: n. vagus).",
     "Glossofaringeal nevraljide yutkunmayla tetiklenen boğaz ve kulak ağrısı olur."
+   ],
+   "tus": [
+    "IX'un tek motor kası stylopharyngeus'tur; parasempatik lifleri parotise otik ganglion üzerinden gider.",
+    "Glossofarengeal nevralji yutkunmayla tetiklenen dil kökü ve kulak ağrısıdır."
    ],
    "related": [
     "n-vagus",
@@ -1542,6 +1665,10 @@
     "Vagus lezyonunda yumuşak damak sağlam tarafa çekilir ve uvula sağlam tarafa sapar.",
     "Vazovagal senkop, aşırı vagal aktivite sonucu bradikardi ve hipotansiyonla bayılmadır."
    ],
+   "tus": [
+    "Vagusun kalbe gelen lifleri sağda SA düğümü, solda AV düğümü daha çok etkiler.",
+    "N. vagus'un r. auricularis'i (Arnold) dış kulak yolunun bir kısmını innerve eder; kulak temizlerken öksürük refleksine yol açar."
+   ],
    "related": [
     "medulla-oblongata",
     "larynx",
@@ -1584,6 +1711,9 @@
    "clinical": [
     "Arka üçgende yüzeyel seyrettiği için lenf nodu biyopsisinde zedelenebilir; omuz düşer ve omuz silkme zayıflar."
    ],
+   "tus": [
+    "N. accessorius'un spinal kökü C1–C5 ön boynuzundan çıkar, foramen magnum'dan kafa içine girer ve foramen jugulare'den çıkar."
+   ],
    "related": [
     "m-sternocleidomastoideus",
     "m-trapezius"
@@ -1623,6 +1753,9 @@
    "clinical": [
     "Tek taraflı alt motor nöron lezyonunda dil dışarı çıkarılınca felçli tarafa sapar ve o tarafta atrofi-fasikülasyon görülür.",
     "Karotis endarterektomisi sırasında zedelenebilir."
+   ],
+   "tus": [
+    "N. hypoglossus a. carotis externa ve interna'yı dıştan çaprazlar; karotis endarterektomisinde yaralanabilir."
    ],
    "related": [
     "mm-linguae",
@@ -1674,6 +1807,10 @@
     "Erb–Duchenne felci (üst gövde, C5–C6): baş-omuz açılmasıyla (doğum, motosiklet kazası) – kol yanda, iç rotasyonda, önkol pronasyonda (‘garson bahşişi’ pozisyonu).",
     "Klumpke felci (alt gövde, C8–T1): kolun ani yukarı çekilmesiyle – pençe el, Horner sendromu eşlik edebilir.",
     "Plexus brachialis blokları (interskalen, supraklaviküler, aksiller) kol cerrahisinde kullanılır."
+   ],
+   "tus": [
+    "Plexus brachialis'in kökleri (C5–T1) ve gövdeleri boynun arka üçgeninde, kordları aksillada yer alır.",
+    "Kök düzeyindeki avülsiyonda Horner sendromu (T1) ve n. dorsalis scapulae ile n. thoracicus longus tutulumu preganglionik lezyonu gösterir."
    ],
    "related": [
     "n-medianus",
@@ -1728,6 +1865,9 @@
    "clinical": [
     "İzole hasarı nadirdir; dirsek fleksiyonu ve supinasyon zayıflar, biseps refleksi kaybolur."
    ],
+   "tus": [
+    "Musculocutaneus hasarında dirsek fleksiyonu brachioradialis ile kısmen korunur; biseps refleksi kaybolur, önkol dış yüzünde his kaybı olur."
+   ],
    "related": [
     "plexus-brachialis",
     "m-biceps-brachii",
@@ -1770,6 +1910,9 @@
    "sections": [],
    "clinical": [
     "Humerus collum chirurgicum kırığı ve omuz çıkığında zedelenir: kolun abdüksiyonu zayıflar, deltoid atrofisi ve omuz dış yüzünde his kaybı olur."
+   ],
+   "tus": [
+    "N. axillaris'in duyusal dalı n. cutaneus brachii lateralis superior'dur ('polis arması' bölgesi)."
    ],
    "related": [
     "plexus-brachialis",
@@ -1816,6 +1959,10 @@
     "N. interosseus posterior hasarında parmak düşüklüğü olur, his kaybı olmaz.",
     "Koltuk değneğinin yanlış kullanımı koltuk altında sinire bası yapabilir."
    ],
+   "tus": [
+    "N. radialis kolun ve önkolun tüm ekstansörlerini innerve eder; el sırtının dış yarısının duyusunu yüzeyel dalı alır.",
+    "Cumartesi gecesi felci: kolun sandalye kenarına uzun süre bastırılmasıyla sulcus nervi radialis'te bası."
+   ],
    "related": [
     "plexus-brachialis",
     "m-triceps-brachii",
@@ -1861,6 +2008,10 @@
     "Karpal tünel sendromu en sık tuzak nöropatisidir: geceleri artan uyuşma, Tinel ve Phalen testleri pozitif, ileri evrede tenar atrofi.",
     "Dirsek üstü lezyonda ‘vaiz eli’ (işaret ve orta parmak bükülemez) görülür.",
     "Bilekteki kesilerde (intihar girişimi) yüzeyel seyrettiği için zedelenebilir."
+   ],
+   "tus": [
+    "N. medianus 'el ve göz' siniridir: tenar kaslar, 1–2. lumbrikaller ve lateral 3,5 parmağın palmar duyusu.",
+    "Dirsek düzeyi hasarında 'vaaz veren el' (işaret ve orta parmak bükülemez) görülür."
    ],
    "related": [
     "plexus-brachialis",
@@ -1910,6 +2061,10 @@
     "Hasarında pençe el (4.–5. parmaklar), interosseöz atrofi ve Froment bulgusu görülür.",
     "Medial epikondil kırıklarında zedelenebilir."
    ],
+   "tus": [
+    "N. ulnaris elin ince hareketlerinin siniridir: hipotenar kaslar, interosseöz kaslar, 3–4. lumbrikaller, adductor pollicis.",
+    "Medial 1,5 parmağın palmar ve dorsal duyusunu alır."
+   ],
    "related": [
     "plexus-brachialis",
     "m-flexor-carpi-ulnaris",
@@ -1956,12 +2111,18 @@
     "Diyafram altı irritasyon (safra kesesi, dalak) C3–C5 dermatomlarına, yani omuza yansıyan ağrı yapar.",
     "Hasarında aynı taraf diyafram yükselir ve paradoks hareket eder."
    ],
+   "tus": [
+    "Sağ n. phrenicus VCS ve sağ atriyumun yanından, sol n. phrenicus sol ventrikülün perikardı üzerinden iner.",
+    "Aksesuar frenik sinir (çoğunlukla n. subclavius'tan) frenik sinir hasarında diyaframın işlevini kısmen sürdürebilir."
+   ],
    "related": [
     "diaphragma",
     "mm-scaleni",
     "cor"
    ],
-   "models": [],
+   "models": [
+    "Phrenic nerve"
+   ],
    "aliases": [
     "frenik"
    ]
@@ -1996,6 +2157,10 @@
    "clinical": [
     "Zona (herpes zoster) bir interkostal sinir boyunca kuşak tarzı ağrılı döküntü yapar.",
     "Kaburga kırıklarında interkostal sinir blokajı ağrıyı azaltır."
+   ],
+   "tus": [
+    "1. interkostal sinirin büyük kısmı plexus brachialis'e katılır; 2. interkostal sinir n. intercostobrachialis'i verir (kolun iç yüzü).",
+    "7–11. interkostal sinirler karın duvarını innerve eder (torakoabdominal sinirler)."
    ],
    "related": [
     "mm-intercostales",
@@ -2045,6 +2210,9 @@
     "Kasık fıtığı ameliyatında n. ilioinguinalis zedelenirse kasık ve skrotum/labium majus'ta uyuşma olur.",
     "Kremaster refleksi L1–L2 (n. genitofemoralis) segmentlerini test eder."
    ],
+   "tus": [
+    "Lomber pleksus psoas major kasının içinde oluşur; dalları kasın dış kenarından (femoral, lateral femoral kutanöz), iç kenarından (obturator) ve ön yüzünden (genitofemoral) çıkar."
+   ],
    "related": [
     "n-femoralis",
     "n-obturatorius",
@@ -2093,6 +2261,9 @@
     "Hasarında diz ekstansiyonu kaybolur, patellar refleks alınamaz, uyluk önünde his kaybı olur.",
     "Femoral sinir bloğu kalça ve diz cerrahisinde ağrı kontrolü için kullanılır."
    ],
+   "tus": [
+    "N. femoralis lacuna musculorum'dan, damarların dışından uyluğa girer; femoral kılıfın dışındadır."
+   ],
    "related": [
     "plexus-lumbalis",
     "m-quadriceps-femoris",
@@ -2139,6 +2310,9 @@
    "clinical": [
     "Pelvis cerrahisi veya obturator herni sinire bası yaparak uyluk iç yüzünde ağrıya (Howship–Romberg bulgusu) neden olabilir."
    ],
+   "tus": [
+    "Overin pelvis yan duvarındaki fossa ovarica'da n. obturatorius ile komşu olması over patolojisinde uyluk iç yüzüne yansıyan ağrıyı açıklar."
+   ],
    "related": [
     "plexus-lumbalis",
     "mm-adductores",
@@ -2183,6 +2357,9 @@
    ],
    "sections": [],
    "clinical": [],
+   "tus": [
+    "Sakral pleksus m. piriformis'in ön yüzünde oluşur; L4–S4 ventral dallarından (truncus lumbosacralis dahil)."
+   ],
    "related": [
     "n-ischiadicus",
     "n-pudendus",
@@ -2233,6 +2410,10 @@
     "Kalçanın alt-iç kadranına yapılan yanlış enjeksiyonlar sinire zarar verebilir.",
     "Arka kalça çıkığında zedelenebilir."
    ],
+   "tus": [
+    "N. ischiadicus aslında aynı kılıf içinde seyreden iki sinirdir: tibial ve fibular bölümler.",
+    "Siyatik sinir hasarında diz fleksiyonu ve diz altındaki tüm kaslar etkilenir; uyluk iç yüzü (obturator) ve bacak iç yüzü (safen) duyusu korunur."
+   ],
    "related": [
     "plexus-sacralis",
     "n-tibialis",
@@ -2278,6 +2459,9 @@
     "Tarsal tünel sendromunda ayak tabanında yanma ve uyuşma olur.",
     "Hasarında plantar fleksiyon ve parmak fleksiyonu kaybolur, hasta parmak ucunda yükselemez; ayak dorsifleksiyon-everziyon pozisyonunda kalır (pes calcaneovalgus).",
     "Aşil refleksi (S1) bu sinirle taşınır."
+   ],
+   "tus": [
+    "N. tibialis popliteal çukurda yüzeyeldir; uyluk arka yüzündeki sural sinirin medial kökünü verir."
    ],
    "related": [
     "n-ischiadicus",
@@ -2328,6 +2512,10 @@
    "clinical": [
     "Fibula başı kırığı, sıkı alçı, bacak bacak üstüne atma veya uzun süre çömelme düşük ayağa (foot drop) yol açar: ayak dorsifleksiyonu ve everziyonu yapılamaz, steppage yürüyüşü görülür."
    ],
+   "tus": [
+    "N. fibularis communis en sık yaralanan alt ekstremite siniridir (fibula boynu).",
+    "Bacak bacak üstüne atma alışkanlığı ve sıkı alçı peroneal sinir felcinin sık nedenleridir."
+   ],
    "related": [
     "n-ischiadicus",
     "fibula",
@@ -2376,6 +2564,10 @@
     "Doğumda epizyotomi öncesi pudendal blok spina ischiadica yakınına yapılır.",
     "Uzun süre bisiklet sürme pudendal sinir sıkışmasına (pudendal nevralji) neden olabilir."
    ],
+   "tus": [
+    "N. pudendus S2–S4'ten çıkar; n. rectalis inferior, n. perinealis ve n. dorsalis penis/clitoridis dallarını verir.",
+    "Bisikletçilerde Alcock kanalında pudendal sinir sıkışması perine uyuşukluğuna yol açabilir."
+   ],
    "related": [
     "plexus-sacralis",
     "diaphragma-pelvis",
@@ -2423,6 +2615,10 @@
    "clinical": [
     "Horner sendromu (servikal sempatik zincir hasarı – ör. Pancoast tümörü): aynı tarafta pitoz, miyozis, anhidroz.",
     "Stellat ganglion bloğu kol ağrı sendromlarında uygulanabilir."
+   ],
+   "tus": [
+    "Servikal sempatik zincirde üç ganglion vardır: üst (C1–C4 hizası, en büyük), orta (C6) ve alt (stellat ile birleşir).",
+    "Sempatektomi el terlemesi (hiperhidroz) tedavisinde T2–T3 düzeyinde yapılır."
    ],
    "related": [
     "systema-autonomicum",
@@ -2480,6 +2676,10 @@
     "Diyabetik otonom nöropati ortostatik hipotansiyon, gastroparezi ve mesane disfonksiyonuna yol açar.",
     "Hirschsprung hastalığında kolon duvarında enterik ganglion hücreleri yoktur."
    ],
+   "tus": [
+    "Parasempatik ganglionlar hedef organın yakınında veya içinde, sempatik ganglionlar omurgaya yakındır (preganglioner lif kısa).",
+    "Tüm preganglioner lifler asetilkolin salgılar (nikotinik reseptörler)."
+   ],
    "related": [
     "truncus-sympathicus",
     "n-vagus",
@@ -2524,6 +2724,9 @@
    "sections": [],
    "clinical": [
     "Radikülopati, tek bir sinir kökünün basısıyla ilgili dermatomda ağrı ve uyuşma, miyotomda güçsüzlük ve refleks kaybıdır."
+   ],
+   "tus": [
+    "Arka kök ganglionu foramen intervertebrale içinde yer alır; disk hernisi ve foraminal darlıkta etkilenebilir."
    ],
    "related": [
     "medulla-spinalis",

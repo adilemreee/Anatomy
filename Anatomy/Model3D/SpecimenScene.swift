@@ -29,6 +29,8 @@ final class FeatureLibrary {
         let anchor: SIMD3<Float>
         let tip: SIMD3<Float>
         var kind: Kind = .feature
+        /// The part the feature lies on (set by the specimen scene).
+        var part: PartRef?
     }
 
     private let byOwner: [String: [Feature]]
@@ -106,13 +108,15 @@ final class SpecimenScene: ViewportScene {
     private(set) var isCameraMoving = false
     private(set) var featureCount = 0
     private(set) var hasAttachments = false
+    /// The feature whose region is coloured on the model.
+    private(set) var highlightedFeature: Int?
 
     @ObservationIgnored let root = Entity()
     @ObservationIgnored private let camera = Entity()
     @ObservationIgnored private var features: [FeatureLibrary.Feature] = []
     @ObservationIgnored private var positions: [SIMD3<Float>] = []
     @ObservationIgnored private var indices: [UInt32] = []
-    @ObservationIgnored private var tween: Task<Void, Never>?
+    @ObservationIgnored private var tween: CameraTween?
     @ObservationIgnored private var yaw: Float = 0
     @ObservationIgnored private var pitch: Float = 0.08
     @ObservationIgnored private var distance: Float = 0.6
@@ -121,10 +125,20 @@ final class SpecimenScene: ViewportScene {
     @ObservationIgnored private var homePitch: Float = 0.08
     /// Triangle ranges of the test mesh per part, with bounds, for culling rays.
     @ObservationIgnored private var partTriangles: [(range: Range<Int>, lo: SIMD3<Float>, hi: SIMD3<Float>)] = []
+    /// Per entry of `partTriangles`: whether it is a muscle. Attachment pins
+    /// lie under their muscle, so muscles do not hide them.
+    @ObservationIgnored private var partIsMuscle: [Bool] = []
     @ObservationIgnored private let fieldOfView: Float = 32
     @ObservationIgnored private var bounds: (SIMD3<Float>, SIMD3<Float>) = (.zero, .zero)
     @ObservationIgnored private var ownerNames: Set<String> = []
     @ObservationIgnored private var aspect: Float = 0.46
+    /// The drawn mesh, kept on the CPU to cut highlight patches from it.
+    @ObservationIgnored private var displayVertices = Data()
+    @ObservationIgnored private var displayIndices: [UInt32] = []
+    /// Index range of every studied part inside `displayIndices`.
+    @ObservationIgnored private var displayRanges: [PartRef: Range<Int>] = [:]
+    @ObservationIgnored private var spot: ModelEntity?
+    @ObservationIgnored private var spotTask: Task<Void, Never>?
 
     init() {
         camera.components.set(PerspectiveCameraComponent(near: 0.005, far: 20, fieldOfViewInDegrees: fieldOfView, fieldOfViewOrientation: .vertical))
@@ -144,7 +158,7 @@ final class SpecimenScene: ViewportScene {
         var allNormals: [SIMD3<Float>] = []
         var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude), hi = -lo
         var collected: [FeatureLibrary.Feature] = []
-        var structures: [(name: String, span: Range<Int>)] = []
+        var structures: [(name: String, span: Range<Int>, ref: PartRef)] = []
         var attachments: [(bone: String, origin: Bool, span: Range<Int>)] = []
 
         for system in Set(all.map(\.system)).sorted() {
@@ -152,26 +166,40 @@ final class SpecimenScene: ViewportScene {
             let partIndices = all.filter { $0.system == system }.map(\.index).sorted()
             // Drawn from the high-detail mesh where there is one (BodyParts3D),
             // otherwise from the atlas pack.
-            let drawn = await Task.detached(priority: .userInitiated) { () -> (Data, [UInt32]) in
-                var data = Data(), idx: [UInt32] = [], plain: [Int] = []
-                func add(_ output: VertexBuilder.Output) {
+            let drawn = await Task.detached(priority: .userInitiated) { () -> (Data, [UInt32], [Int: Range<Int>]) in
+                var data = Data(), idx: [UInt32] = [], plain: [Int] = [], ranges: [Int: Range<Int>] = [:]
+                func add(_ output: VertexBuilder.Output) -> Int {
                     let base = UInt32(data.count / VertexBuilder.stride)
+                    let start = idx.count
                     data.append(output.vertices)
                     idx.append(contentsOf: output.indices.map { $0 + base })
+                    return start
                 }
                 for p in partIndices {
                     if let detail = DetailLibrary.shared.pack(system: system, index: p) {
-                        add(VertexBuilder.build(pack: detail, parts: [0], mode: mode))
+                        let start = add(VertexBuilder.build(pack: detail, parts: [0], mode: mode))
+                        ranges[p] = start..<idx.count
                     } else {
                         plain.append(p)
                     }
                 }
-                if !plain.isEmpty { add(VertexBuilder.build(pack: pack, parts: plain, mode: mode)) }
-                return (data, idx)
+                if !plain.isEmpty {
+                    let output = VertexBuilder.build(pack: pack, parts: plain, mode: mode)
+                    let start = add(output)
+                    for (k, p) in plain.enumerated() where output.ranges.indices.contains(k) {
+                        let r = output.ranges[k]
+                        ranges[p] = start + r.start..<start + r.start + r.count
+                    }
+                }
+                return (data, idx, ranges)
             }.value
             let drawBase = UInt32(vertexData.count / VertexBuilder.stride)
+            let indexBase = drawIndices.count
             vertexData.append(drawn.0)
             drawIndices.append(contentsOf: drawn.1.map { $0 + drawBase })
+            for (p, r) in drawn.2 where focus.contains(PartRef(system: system, index: p)) {
+                displayRanges[PartRef(system: system, index: p)] = indexBase + r.lowerBound..<indexBase + r.upperBound
+            }
             // Picking, label visibility and pins use the lighter atlas mesh.
             for p in partIndices {
                 let r = pack.ranges[p]
@@ -181,6 +209,7 @@ final class SpecimenScene: ViewportScene {
                 allIndices.append(contentsOf: pack.indices[r.indexStart..<r.indexStart + r.indexCount].map { UInt32(Int64($0) + shift) })
                 let pb = pack.parts[p].bounds
                 partTriangles.append((triangleStart..<allIndices.count, SIMD3(pb[0], pb[1], pb[2]) - 0.001, SIMD3(pb[3], pb[4], pb[5]) + 0.001))
+                partIsMuscle.append(system == "muscular")
                 allPositions.append(contentsOf: pack.positions[r.vertexStart..<r.vertexStart + r.vertexCount])
                 allNormals.append(contentsOf: pack.normals[r.vertexStart..<r.vertexStart + r.vertexCount])
                 guard focus.contains(PartRef(system: system, index: p)) else { continue }
@@ -192,27 +221,28 @@ final class SpecimenScene: ViewportScene {
                     let material = info.dominantMaterial.flatMap { pack.materials.indices.contains($0) ? pack.materials[$0] : nil } ?? ""
                     attachments.append((info.path.last ?? info.base, MaterialStyles.isOrigin(info, material: material), span))
                 } else {
-                    collected += FeatureLibrary.shared.features(for: info)
+                    let ref = PartRef(system: system, index: p)
+                    collected += FeatureLibrary.shared.features(for: info).map { feature in
+                        var feature = feature
+                        feature.part = ref
+                        return feature
+                    }
                     ownerNames.insert(info.base.lowercased())
-                    structures.append((Self.plainName(info.base), span))
+                    structures.append((Self.plainName(info.base), span, ref))
                 }
             }
         }
         guard !drawIndices.isEmpty, !allIndices.isEmpty else { return }
-        // Drawn smoothly subdivided.
-        let source = (vertexData, drawIndices)
-        let (smoothVertices, smoothIndices) = await Task.detached(priority: .userInitiated) {
-            Tessellator.smooth(vertices: source.0, indices: source.1, maxTriangles: 800_000)
-        }.value
-        guard let mesh = try? AnatomyScene.makeMesh(vertexCount: smoothVertices.count / VertexBuilder.stride, indexCount: smoothIndices.count) else { return }
-        AnatomyScene.upload(VertexBuilder.Output(vertices: smoothVertices, indices: smoothIndices, ranges: [], bounds: []), into: mesh)
-        mesh.parts.replaceAll([LowLevelMesh.Part(indexCount: smoothIndices.count, topology: .triangle, materialIndex: 0,
-                                                 bounds: BoundingBox(min: lo, max: hi))])
-        guard let resource = try? await MeshResource(from: mesh) else { return }
-        let entity = ModelEntity(mesh: resource, materials: await AnatomyMaterials.shared(occlusion: 0.55, rim: 0.7))
+        // Shown right away as is; the smoothly subdivided version replaces it
+        // once it has been built in the background.
+        let box = BoundingBox(min: lo, max: hi)
+        guard let resource = try? await Self.meshResource(vertices: vertexData, indices: drawIndices, bounds: box) else { return }
+        let entity = ModelEntity(mesh: resource, materials: await AnatomyMaterials.shared(occlusion: 0.28, rim: 0.7))
         root.addChild(entity)
         positions = allPositions
         indices = allIndices
+        displayVertices = vertexData
+        displayIndices = drawIndices
 
         bounds = (lo, hi)
         let center = (lo + hi) / 2
@@ -251,20 +281,25 @@ final class SpecimenScene: ViewportScene {
         pitch = view.pitch
 
         // Labels for the heads of a muscle and for where it attaches, pinned
-        // on the side that faces the opening view.
+        // on a point that can be seen from the opening view. Every
+        // attachment patch gets a pin; the labels keep one per bone.
         let facing = SIMD3<Float>(sin(startYaw) * cos(pitch), sin(pitch), cos(startYaw) * cos(pitch))
-        func pin(_ span: Range<Int>) -> (SIMD3<Float>, SIMD3<Float>) {
-            Self.surfacePoint(positions: allPositions, normals: allNormals, span: span, facing: facing)
+        let eye = center + facing * fit
+        let muscles = partIsMuscle
+        let heads = (2...10).contains(structures.count) ? structures : []
+        let headSpans = heads.map(\.span), patchSpans = attachments.map(\.span)
+        let pins = await Task.detached(priority: .userInitiated) { () -> (parts: [(SIMD3<Float>, SIMD3<Float>)], attachments: [(SIMD3<Float>, SIMD3<Float>)]) in
+            let bones = boxes.enumerated().filter { !muscles[$0.offset] }.map(\.element)
+            let parts = headSpans.map { Self.visiblePoint(positions: pts, normals: nrm, span: $0, facing: facing, eye: eye,
+                                                           occluders: boxes, indices: idx) }
+            let patches = patchSpans.map { Self.visiblePoint(positions: pts, normals: nrm, span: $0, facing: facing, eye: eye,
+                                                            occluders: bones, indices: idx) }
+            return (parts, patches)
+        }.value
+        for (s, (p, n)) in zip(heads, pins.parts) {
+            collected.append(.init(name: s.name, anchor: p, tip: p + n * 0.03, kind: .part, part: s.ref))
         }
-        if (2...10).contains(structures.count) {
-            for s in structures {
-                let (p, n) = pin(s.span)
-                collected.append(.init(name: s.name, anchor: p, tip: p + n * 0.03, kind: .part))
-            }
-        }
-        var pinned = Set<String>()
-        for a in attachments where pinned.insert("\(a.bone)|\(a.origin)").inserted {
-            let (p, n) = pin(a.span)
+        for (a, (p, n)) in zip(attachments, pins.attachments) {
             collected.append(.init(name: a.bone, anchor: p, tip: p + n * 0.03, kind: a.origin ? .origin : .insertion))
         }
         features = collected
@@ -281,9 +316,189 @@ final class SpecimenScene: ViewportScene {
 
         if let environment = await AnatomyMaterials.environment() {
             let ibl = Entity()
-            ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: -0.6))
+            ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: 0.25))
             root.addChild(ibl)
             entity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
+        }
+
+        // Light meshes get two levels of curved subdivision, dense ones one;
+        // the total stays within what an older phone draws smoothly.
+        let triangles = drawIndices.count / 3
+        let levels = triangles > 90_000 ? 1 : 2
+        let source = (vertexData, drawIndices)
+        let (smoothVertices, smoothIndices) = await Task.detached(priority: .userInitiated) {
+            Tessellator.smooth(vertices: source.0, indices: source.1, maxTriangles: 420_000, levels: levels)
+        }.value
+        guard !Task.isCancelled, smoothIndices.count > drawIndices.count,
+              let smooth = try? await Self.meshResource(vertices: smoothVertices, indices: smoothIndices, bounds: box) else { return }
+        entity.model?.mesh = smooth
+        // Every triangle became `factor` consecutive ones: scale the ranges.
+        let factor = smoothIndices.count / drawIndices.count
+        displayRanges = displayRanges.mapValues { $0.lowerBound * factor..<$0.upperBound * factor }
+        displayVertices = smoothVertices
+        displayIndices = smoothIndices
+        if let feature = highlightedFeature { highlight(feature: feature) }
+    }
+
+    private static func meshResource(vertices: Data, indices: [UInt32], bounds: BoundingBox) async throws -> MeshResource {
+        let mesh = try AnatomyScene.makeMesh(vertexCount: vertices.count / VertexBuilder.stride, indexCount: indices.count)
+        AnatomyScene.upload(VertexBuilder.Output(vertices: vertices, indices: indices, ranges: [], bounds: []), into: mesh)
+        mesh.parts.replaceAll([LowLevelMesh.Part(indexCount: indices.count, topology: .triangle, materialIndex: 0, bounds: bounds)])
+        return try await MeshResource(from: mesh)
+    }
+
+    // MARK: Highlight
+
+    /// Feature names, kinds and owners for the list of features.
+    var allFeatures: [FeatureLibrary.Feature] { features }
+
+    /// Colours the region of a feature on the model: a soft patch around
+    /// the point for features and attachments, the whole part for the parts
+    /// of a structure (a head of a muscle, a liver segment). nil clears it.
+    func highlight(feature index: Int?) {
+        highlightedFeature = index
+        spotTask?.cancel()
+        guard let index, features.indices.contains(index), !displayIndices.isEmpty else {
+            spot?.removeFromParent()
+            spot = nil
+            return
+        }
+        let feature = features[index]
+        let all = Array(displayRanges.values)
+        let own = feature.part.flatMap { displayRanges[$0] }.map { [$0] }
+        let ranges: [Range<Int>]
+        let radius: Float
+        switch feature.kind {
+        case .part:
+            ranges = own ?? all
+            radius = .infinity
+        case .feature:
+            ranges = own ?? all
+            radius = spotRadius(for: index)
+        case .origin, .insertion:
+            // Only the attachment patches, not the muscle lying over them.
+            let patches = displayRanges.filter { $0.key.system == "insertions" }.map(\.value)
+            ranges = patches.isEmpty ? all : patches
+            radius = spotRadius(for: index) * 1.6
+        }
+        let vertices = displayVertices, indices = displayIndices, center = feature.anchor
+        let lift = max(simd_length(bounds.1 - bounds.0) * 0.0012, 0.00004)
+        spotTask = Task { [weak self] in
+            let patch = await Task.detached(priority: .userInitiated) {
+                Self.spotMesh(vertices: vertices, indices: indices, ranges: ranges, center: center, radius: radius, lift: lift)
+            }.value
+            guard let self, !Task.isCancelled, self.highlightedFeature == index, let patch,
+                  let resource = try? await Self.meshResource(vertices: patch.vertices, indices: patch.indices,
+                                                              bounds: BoundingBox(min: patch.lo, max: patch.hi)) else { return }
+            let material = await AnatomyMaterials.spot()
+            guard !Task.isCancelled, self.highlightedFeature == index else { return }
+            let entity = ModelEntity(mesh: resource, materials: [material])
+            self.spot?.removeFromParent()
+            self.root.addChild(entity)
+            self.spot = entity
+        }
+    }
+
+    /// Half the distance to the nearest other feature on the same part,
+    /// within sensible bounds for the size of the structure.
+    private func spotRadius(for index: Int) -> Float {
+        let feature = features[index]
+        let size = max(simd_length(bounds.1 - bounds.0), 0.005)
+        var nearest = Float.infinity
+        for (i, other) in features.enumerated() where i != index && other.part == feature.part && other.kind == .feature {
+            nearest = min(nearest, simd_distance(other.anchor, feature.anchor))
+        }
+        let guess = nearest.isFinite ? nearest * 0.6 : size * 0.08
+        return min(max(guess, size * 0.03), size * 0.14)
+    }
+
+    /// The triangles of `ranges` near `center`, lifted a little off the
+    /// surface, coloured with fading opacity towards the edge.
+    nonisolated private static func spotMesh(vertices: Data, indices: [UInt32], ranges: [Range<Int>], center: SIMD3<Float>,
+                                             radius: Float, lift: Float) -> (vertices: Data, indices: [UInt32], lo: SIMD3<Float>, hi: SIMD3<Float>)? {
+        let stride = VertexBuilder.stride
+        typealias O = VertexBuilder.Offset
+        var remap: [UInt32: UInt32] = [:]
+        var out = Data()
+        var outIndices: [UInt32] = []
+        var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude), hi = -lo
+        vertices.withUnsafeBytes { raw in
+            guard let base = raw.baseAddress else { return }
+            func position(_ v: UInt32) -> SIMD3<Float> { VertexBuilder.loadPosition(base, Int(v) * stride) }
+            for range in ranges {
+                var t = range.lowerBound
+                while t + 2 < range.upperBound, t + 2 < indices.count {
+                    let tri = (indices[t], indices[t + 1], indices[t + 2])
+                    t += 3
+                    if radius.isFinite {
+                        let d = min(simd_distance(position(tri.0), center), simd_distance(position(tri.1), center), simd_distance(position(tri.2), center))
+                        if d > radius { continue }
+                    }
+                    for v in [tri.0, tri.1, tri.2] {
+                        if let m = remap[v] {
+                            outIndices.append(m)
+                            continue
+                        }
+                        let m = UInt32(out.count / stride)
+                        remap[v] = m
+                        var bytes = [UInt8](repeating: 0, count: stride)
+                        bytes.withUnsafeMutableBytes { dst in
+                            guard let d = dst.baseAddress else { return }
+                            d.copyMemory(from: base + Int(v) * stride, byteCount: stride)
+                            let normal = VertexBuilder.loadSigned(d, O.normal)
+                            let p = VertexBuilder.loadPosition(d, 0) + SIMD3(normal.x, normal.y, normal.z) * lift
+                            VertexBuilder.storePosition(p, d, 0)
+                            let distance = simd_distance(p, center)
+                            var strength: Float = 1
+                            if radius.isFinite {
+                                let x = min(max((distance - radius * 0.45) / (radius * 0.55), 0), 1)
+                                strength = 1 - x * x * (3 - 2 * x)
+                            }
+                            VertexBuilder.storeUnsigned(SIMD4(0.08, 0.62, 1, strength), d, O.color)
+                            lo = simd_min(lo, p)
+                            hi = simd_max(hi, p)
+                        }
+                        out.append(contentsOf: bytes)
+                        outIndices.append(m)
+                    }
+                }
+            }
+        }
+        return outIndices.isEmpty ? nil : (out, outIndices, lo, hi)
+    }
+
+    /// Turns the camera towards a feature so its coloured region faces the
+    /// viewer; `zoom` also comes much closer.
+    func focus(feature index: Int, zoom: Bool = true) {
+        guard features.indices.contains(index) else { return }
+        let feature = features[index]
+        let center = (bounds.0 + bounds.1) / 2
+        var outward = feature.tip - feature.anchor
+        if simd_length(outward) < 1e-5 { outward = feature.anchor - center }
+        outward = simd_normalize(simd_normalize(outward) * 0.7 + simd_normalize(feature.anchor - center + 1e-5) * 0.3)
+        let newYaw = atan2(outward.x, outward.z)
+        let newPitch = min(max(asin(min(max(outward.y, -1), 1)), -1.2), 1.2)
+        let newTarget = center + (feature.anchor - center) * (zoom ? 0.75 : 0.35)
+        let newDistance = zoom ? home.1 * (feature.kind == .part ? 0.8 : 0.55) : min(distance, home.1)
+        animate(target: newTarget, distance: newDistance, yaw: newYaw, pitch: newPitch)
+    }
+
+    private func animate(target newTarget: SIMD3<Float>, distance newDistance: Float, yaw newYaw: Float, pitch newPitch: Float) {
+        tween?.cancel()
+        isCameraMoving = true
+        let start = (target, distance, yaw, pitch)
+        var end = newYaw
+        while end - start.2 > .pi { end -= 2 * .pi }
+        while start.2 - end > .pi { end += 2 * .pi }
+        tween = CameraTween(duration: 0.55) { [weak self] e in
+            guard let self else { return }
+            self.target = start.0 + (newTarget - start.0) * e
+            self.distance = start.1 + (newDistance - start.1) * e
+            self.yaw = start.2 + (end - start.2) * e
+            self.pitch = start.3 + (newPitch - start.3) * e
+            self.applyCamera()
+        } completion: { [weak self] in
+            self?.cameraDidSettle()
         }
     }
 
@@ -352,18 +567,14 @@ final class SpecimenScene: ViewportScene {
         var end = newYaw
         while end - start.2 > .pi { end -= 2 * .pi }
         while start.2 - end > .pi { end += 2 * .pi }
-        tween = Task { [weak self] in
-            for step in 1...36 {
-                guard let self, !Task.isCancelled else { return }
-                let t = Float(step) / 36
-                let e = t < 0.5 ? 4 * t * t * t : 1 - pow(-2 * t + 2, 3) / 2
-                self.target = start.0 + (self.home.0 - start.0) * e
-                self.distance = start.1 + (self.home.1 - start.1) * e
-                self.yaw = start.2 + (end - start.2) * e
-                self.pitch = start.3 + (0.08 - start.3) * e
-                self.applyCamera()
-                try? await Task.sleep(for: .milliseconds(11))
-            }
+        tween = CameraTween(duration: 0.5) { [weak self] e in
+            guard let self else { return }
+            self.target = start.0 + (self.home.0 - start.0) * e
+            self.distance = start.1 + (self.home.1 - start.1) * e
+            self.yaw = start.2 + (end - start.2) * e
+            self.pitch = start.3 + (0.08 - start.3) * e
+            self.applyCamera()
+        } completion: { [weak self] in
             self?.cameraDidSettle()
         }
     }
@@ -373,7 +584,32 @@ final class SpecimenScene: ViewportScene {
         camera.look(at: target, from: target + offset, relativeTo: nil)
     }
 
-    func pick(at point: CGPoint, in size: CGSize) async -> PartRef? { nil }
+    /// The feature nearest a tap on the model (nil for empty space), and a
+    /// counter so the view notices repeated taps.
+    private(set) var tappedFeature: Int?
+    private(set) var tapVersion = 0
+
+    /// Taps select the nearest visible feature pin instead of a part.
+    func pick(at point: CGPoint, in size: CGSize) async -> PartRef? {
+        let eye = camera.position(relativeTo: nil)
+        let candidates = features.enumerated().compactMap { i, f -> (Int, CGFloat, SIMD3<Float>)? in
+            guard let p = project(f.anchor, in: size) else { return nil }
+            let d = hypot(p.x - point.x, p.y - point.y)
+            return d < 48 ? (i, d, f.anchor) : nil
+        }.sorted { $0.1 < $1.1 }.prefix(4)
+        let positions = self.positions, indices = self.indices, boxes = partTriangles
+        let hit = await Task.detached(priority: .userInitiated) { () -> Int? in
+            for (i, _, anchor) in candidates {
+                let toAnchor = anchor - eye
+                let d = simd_length(toAnchor)
+                if !Self.blocked(eye, toAnchor / d, before: d - 0.006, parts: boxes, positions: positions, indices: indices) { return i }
+            }
+            return nil
+        }.value
+        tappedFeature = hit
+        tapVersion += 1
+        return nil
+    }
 
     // MARK: Labels
 
@@ -390,11 +626,12 @@ final class SpecimenScene: ViewportScene {
     /// direction of Z-Anatomy's own leader line and is then pushed apart from
     /// the others and from every pinned point.
     /// `top` and `bottom` are the free band between the header and the controls.
-    func labels(in size: CGSize, top: CGFloat, bottom: CGFloat, latin: (String) -> String?) async -> [Label] {
+    func labels(in size: CGSize, top: CGFloat, bottom: CGFloat, names: (String) -> (tr: String?, la: String?)) async -> [Label] {
         guard size.width > 0, bottom - top > 120, !features.isEmpty else { return [] }
         let safe = CGRect(x: 8, y: top, width: size.width - 16, height: bottom - top)
         let eye = camera.position(relativeTo: nil)
         let positions = self.positions, indices = self.indices, boxes = partTriangles
+        let bones = partTriangles.enumerated().filter { !partIsMuscle[$0.offset] }.map(\.element)
         let candidates: [(Int, FeatureLibrary.Feature, CGPoint)] = features.enumerated().compactMap { i, f in
             guard f.kind != .feature || !ownerNames.contains(f.name.lowercased()),
                   let p = project(f.anchor, in: size), safe.insetBy(dx: 12, dy: 0).contains(p) else { return nil }
@@ -404,9 +641,10 @@ final class SpecimenScene: ViewportScene {
             candidates.map { _, f, _ in
                 let toAnchor = f.anchor - eye
                 let d = simd_length(toAnchor)
-                // Attachments often sit just under the edge of their tendon.
-                let slack: Float = f.kind == .origin || f.kind == .insertion ? 0.012 : 0.004
-                return !Self.blocked(eye, toAnchor / d, before: d - slack, parts: boxes, positions: positions, indices: indices)
+                // Attachments lie under their own muscle: only bones hide them.
+                let attachment = f.kind == .origin || f.kind == .insertion
+                return !Self.blocked(eye, toAnchor / d, before: d - (attachment ? 0.006 : 0.004),
+                                     parts: attachment ? bones : boxes, positions: positions, indices: indices)
             }
         }.value
         var visible = candidates.enumerated().filter { open[$0.offset] }.map(\.element)
@@ -431,12 +669,14 @@ final class SpecimenScene: ViewportScene {
         // Size each box for its text and place it along the leader direction.
         var placed: [(id: Int, feature: FeatureLibrary.Feature, title: String, subtitle: String?, anchor: CGPoint, box: CGRect)] = []
         for (i, f, p) in chosen {
-            let title = latin(f.name) ?? f.name
+            // Turkish name first, Latin below it.
+            let name = names(f.name)
+            let title = name.tr ?? name.la ?? f.name
             let subtitle: String?
             switch f.kind {
             case .origin: subtitle = "Başlangıç yeri"
             case .insertion: subtitle = "Tutunma yeri"
-            case .feature, .part: subtitle = title.caseInsensitiveCompare(f.name) == .orderedSame ? nil : f.name
+            case .feature, .part: subtitle = name.la.flatMap { $0.caseInsensitiveCompare(title) == .orderedSame ? nil : $0 }
             }
             let titleWidth = CGFloat(title.count) * 6.5
             let width = min(max(max(titleWidth, CGFloat(subtitle?.count ?? 0) * 5.4) + 18, 78), 170)
@@ -520,6 +760,32 @@ final class SpecimenScene: ViewportScene {
             if score < bestScore { best = i; bestScore = score }
         }
         return (positions[best], normals[best])
+    }
+
+    /// A vertex of `span` that faces the viewer and is not hidden behind any
+    /// of `occluders`, as near the middle of the part as possible; the plain
+    /// surface point when none is visible.
+    nonisolated private static func visiblePoint(positions: [SIMD3<Float>], normals: [SIMD3<Float>], span: Range<Int>,
+                                                 facing: SIMD3<Float>, eye: SIMD3<Float>,
+                                                 occluders: [(range: Range<Int>, lo: SIMD3<Float>, hi: SIMD3<Float>)],
+                                                 indices: [UInt32]) -> (SIMD3<Float>, SIMD3<Float>) {
+        guard !span.isEmpty else { return (.zero, facing) }
+        var sum = SIMD3<Float>.zero
+        for i in span { sum += positions[i] }
+        let middle = sum / Float(span.count)
+        let candidates = span.filter { simd_dot(normals[$0], facing) > 0.2 }
+            .sorted { simd_length_squared(positions[$0] - middle) < simd_length_squared(positions[$1] - middle) }
+        // Test the nearest few, then a spread of the rest.
+        let step = max(candidates.count / 40, 1)
+        let tested = Array(candidates.prefix(12)) + Swift.stride(from: 12, to: candidates.count, by: step).map { candidates[$0] }
+        for i in tested {
+            let toPoint = positions[i] - eye
+            let d = simd_length(toPoint)
+            if !blocked(eye, toPoint / d, before: d - 0.003, parts: occluders, positions: positions, indices: indices) {
+                return (positions[i], normals[i])
+            }
+        }
+        return surfacePoint(positions: positions, normals: normals, span: span, facing: facing)
     }
 
     nonisolated private static func normalized(_ v: CGVector) -> CGVector {

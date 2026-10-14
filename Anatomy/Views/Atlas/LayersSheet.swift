@@ -24,6 +24,22 @@ struct LayersSheet: View {
                 } footer: {
                     Text("Saydam yaptığın katmanın içinden alttaki yapılara dokunabilirsin.")
                 }
+                .listRowBackground(Theme.card)
+
+                Section {
+                    Picker("Üreme organları", selection: Binding(get: { app.sex }, set: { newValue in
+                        if newValue == .female, !app.requirePremium(.femaleAnatomy) { return }
+                        app.sex = newValue
+                    })) {
+                        ForEach(BodySex.allCases) { Text($0.title).tag($0) }
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                    Text("Anatomi")
+                } footer: {
+                    Text("Kadın görünümünde rahim, yumurtalıklar ve fallop tüpleri gösterilir; iskelet ve diğer sistemler aynı kalır.")
+                }
+                .listRowBackground(Theme.card)
 
                 Section {
                     Picker("Renkler", selection: $app.colorMode) {
@@ -42,6 +58,7 @@ struct LayersSheet: View {
                          ? "Dokular kadavradaki gerçek renklerine yakın gösterilir."
                          : "Kaslar yaptıkları harekete, kemikler ve beyin lobları tek tek ayırt edilecek şekilde renklendirilir.")
                 }
+                .listRowBackground(Theme.card)
 
                 Section("Görünüm") {
                     Toggle(isOn: $scene.xray) {
@@ -67,6 +84,7 @@ struct LayersSheet: View {
                     }
                     .disabled(scene.hiddenParts.isEmpty && !scene.isIsolating && scene.highlighted.isEmpty)
                 }
+                .listRowBackground(Theme.card)
 
                 Section("Hazır görünümler") {
                     preset("Sadece iskelet", icon: "figure.stand", layers: ["skeletal"])
@@ -77,7 +95,10 @@ struct LayersSheet: View {
                     preset("Eklemler ve bağlar", icon: "figure.flexibility", layers: ["skeletal", "joints"])
                     preset("Kas yapışma yerleri", icon: "pin.fill", layers: ["skeletal", "insertions"])
                 }
+                .listRowBackground(Theme.card)
             }
+            .scrollContentBackground(.hidden)
+            .background(Theme.surface.ignoresSafeArea())
             .navigationTitle("Katmanlar")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

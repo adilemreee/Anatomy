@@ -1,0 +1,89 @@
+{
+  "identifier" : "6A0C2F51",
+  "nonRenewingSubscriptions" : [ ],
+  "products" : [
+    {
+      "displayPrice" : "1799.99",
+      "familyShareable" : false,
+      "internalID" : "6A0C2F52",
+      "localizations" : [
+        {
+          "description" : "Tüm Premium özellikler, tek seferlik ödeme.",
+          "displayName" : "Premium – Ömür boyu",
+          "locale" : "tr"
+        }
+      ],
+      "productID" : "com.adilemre.anatomi.premium.lifetime",
+      "referenceName" : "Premium Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6A0C2F50",
+    "_developerTeamID" : "GHV7BT96W7",
+    "_locale" : "tr_TR",
+    "_storefront" : "TUR",
+    "_storeKitErrors" : [ ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "6A0C2F53",
+      "localizations" : [ ],
+      "name" : "Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [ ],
+          "codeOffers" : [ ],
+          "displayPrice" : "799.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6A0C2F54",
+          "introductoryOffer" : {
+            "internalID" : "6A0C2F55",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Tüm sistemler, inceleme modu ve soru bankası.",
+              "displayName" : "Premium – Yıllık",
+              "locale" : "tr"
+            }
+          ],
+          "productID" : "com.adilemre.anatomi.premium.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Yearly",
+          "subscriptionGroupID" : "6A0C2F53",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [ ]
+        },
+        {
+          "adHocOffers" : [ ],
+          "codeOffers" : [ ],
+          "displayPrice" : "129.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6A0C2F56",
+          "localizations" : [
+            {
+              "description" : "Tüm sistemler, inceleme modu ve soru bankası.",
+              "displayName" : "Premium – Aylık",
+              "locale" : "tr"
+            }
+          ],
+          "productID" : "com.adilemre.anatomi.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Monthly",
+          "subscriptionGroupID" : "6A0C2F53",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [ ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

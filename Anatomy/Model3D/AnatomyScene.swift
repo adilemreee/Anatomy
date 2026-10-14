@@ -18,6 +18,22 @@ nonisolated struct PartRef: Hashable, Sendable {
     let index: Int
 }
 
+/// Which set of genital organs the atlas shows.
+nonisolated enum BodySex: String, CaseIterable, Identifiable, Sendable {
+    case male, female
+
+    init?(code: String) {
+        switch code {
+        case "m": self = .male
+        case "f": self = .female
+        default: return nil
+        }
+    }
+
+    var id: String { rawValue }
+    var title: String { self == .male ? "Erkek" : "Kadın" }
+}
+
 /// A toggleable 3D layer (one Z-Anatomy system collection).
 nonisolated struct ModelLayer: Identifiable, Hashable, Sendable {
     let id: String
@@ -67,6 +83,8 @@ final class AnatomyScene {
     private(set) var isolation: Set<PartRef>?
     private(set) var highlighted: Set<PartRef> = []
     var showCoverings = false { didSet { refreshAll() } }
+    /// Which genital organs are shown (the body itself is male).
+    var sex: BodySex = .male { didSet { if sex != oldValue { refreshAll() } } }
     var xray = false { didSet { refreshAll() } }
     var colorMode: ColorMode = .realistic { didSet { if colorMode != oldValue { recolorAll() } } }
     /// Bumped whenever the camera comes to rest (after a gesture or animation).
@@ -86,6 +104,10 @@ final class AnatomyScene {
     @ObservationIgnored private let nameIndex: [String: [PartRef]]
     /// Per-part `isCovering`, precomputed because it is checked on every refresh.
     @ObservationIgnored private let coverings: [String: [Bool]]
+    /// Per-part `isSubdivision`, precomputed for the same reason.
+    @ObservationIgnored private let subdivisions: [String: [Bool]]
+    /// Per-part sex ("m", "f" or nil), precomputed for the same reason.
+    @ObservationIgnored private let partSex: [String: [BodySex?]]
 
     // MARK: RealityKit
 
@@ -95,7 +117,12 @@ final class AnatomyScene {
     @ObservationIgnored private var iblEntity: Entity?
     @ObservationIgnored private var shadow: Entity?
     @ObservationIgnored var systems: [String: LoadedSystem] = [:]
-    @ObservationIgnored var tween: Task<Void, Never>?
+    @ObservationIgnored var tween: CameraTween?
+    /// Current level of detail of every part, per system.
+    @ObservationIgnored var partLevels: [String: [UInt8]] = [:]
+    @ObservationIgnored var lastDetailUpdate: CFTimeInterval = 0
+    /// Height of the viewport in pixels, for screen-space level of detail.
+    @ObservationIgnored var viewPixelHeight: Float = 2400
     @ObservationIgnored private var materials: [any RealityKit.Material] = []
     @ObservationIgnored private var materialsIsolated = false
 
@@ -116,6 +143,9 @@ final class AnatomyScene {
         let mesh: LowLevelMesh
         let entity: ModelEntity
         let bounds: [BoundingBox]
+        /// Bounding sphere of every part, for level of detail.
+        let centers: [SIMD3<Float>]
+        let radii: [Float]
     }
 
     init(initialLayers: Set<String>? = nil) {
@@ -137,6 +167,8 @@ final class AnatomyScene {
         }
         nameIndex = index
         coverings = manifests.mapValues { $0.map(\.isCovering) }
+        partSex = manifests.mapValues { $0.map { $0.sex.flatMap(BodySex.init(code:)) } }
+        subdivisions = manifests.mapValues { $0.map(\.isSubdivision) }
 
         camera.components.set(PerspectiveCameraComponent(near: 0.01, far: 50, fieldOfViewInDegrees: fieldOfView, fieldOfViewOrientation: .vertical))
         for light in AnatomyMaterials.cameraLights() {
@@ -190,7 +222,7 @@ final class AnatomyScene {
         }
         // Warm up the other sets so isolating and inspecting open smoothly.
         _ = await AnatomyMaterials.shared(occlusion: 0.45)
-        _ = await AnatomyMaterials.shared(occlusion: 0.55, rim: 0.7)
+        _ = await AnatomyMaterials.shared(occlusion: 0.28, rim: 0.7)
     }
 
     func ensureLoaded(_ layer: String) async {
@@ -217,6 +249,7 @@ final class AnatomyScene {
             modelRoot.addChild(loaded.entity)
             failedLayers[layerID] = nil
             refresh(layerID)
+            updateDetail(force: true)
         } catch {
             failedLayers[layerID] = String(describing: error)
         }
@@ -233,7 +266,10 @@ final class AnatomyScene {
         }
         let entity = ModelEntity()
         entity.name = pack.system
-        let loaded = LoadedSystem(pack: pack, mesh: mesh, entity: entity, bounds: bounds)
+        let loaded = LoadedSystem(pack: pack, mesh: mesh, entity: entity, bounds: bounds,
+                                  centers: bounds.map(\.center), radii: bounds.map { simd_length($0.extents) / 2 })
+        // Start at the coarsest level; updateDetail refines what is close.
+        partLevels[pack.system] = Array(repeating: UInt8(max(pack.levelCount - 1, 0)), count: pack.parts.count)
         mesh.parts.replaceAll(parts(for: loaded))
         let resource = try MeshResource(from: mesh)
         entity.components.set(ModelComponent(mesh: resource, materials: materials))
@@ -248,13 +284,15 @@ final class AnatomyScene {
         descriptor.vertexCapacity = vertexCount
         descriptor.indexCapacity = indexCount
         descriptor.indexType = .uint32
+        typealias O = VertexBuilder.Offset
         descriptor.vertexAttributes = [
-            .init(semantic: .position, format: .float3, layoutIndex: 0, offset: 0),
-            .init(semantic: .normal, format: .float3, layoutIndex: 0, offset: 12),
-            .init(semantic: .tangent, format: .float3, layoutIndex: 0, offset: 24),
-            .init(semantic: .color, format: .uchar4Normalized, layoutIndex: 0, offset: 36),
-            .init(semantic: .uv1, format: .float2, layoutIndex: 0, offset: 40),
-            .init(semantic: .uv2, format: .float4, layoutIndex: 0, offset: 48),
+            .init(semantic: .position, format: .float3, layoutIndex: 0, offset: O.position),
+            .init(semantic: .normal, format: .char4Normalized, layoutIndex: 0, offset: O.normal),
+            .init(semantic: .tangent, format: .char4Normalized, layoutIndex: 0, offset: O.tangent),
+            .init(semantic: .color, format: .uchar4Normalized, layoutIndex: 0, offset: O.color),
+            .init(semantic: .uv1, format: .uchar4Normalized, layoutIndex: 0, offset: O.uv1),
+            .init(semantic: .uv2, format: .char4Normalized, layoutIndex: 0, offset: O.uv2),
+            .init(semantic: .uv0, format: .ushort2Normalized, layoutIndex: 0, offset: O.uv0),
         ]
         descriptor.vertexLayouts = [.init(bufferIndex: 0, bufferStride: VertexBuilder.stride)]
         return try LowLevelMesh(descriptor: descriptor)
@@ -300,7 +338,7 @@ final class AnatomyScene {
         Task { [weak self] in
             guard let environment = await AnatomyMaterials.environment(), let self else { return }
             let ibl = Entity()
-            ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: -0.45))
+            ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: 0.35))
             self.root.addChild(ibl)
             self.iblEntity = ibl
             for system in self.systems.values {
@@ -320,9 +358,11 @@ final class AnatomyScene {
     func state(of ref: PartRef) -> PartState {
         guard enabledLayers.contains(ref.system) else { return .hidden }
         if hiddenParts.contains(ref) { return .hidden }
+        if let partSex = partSex[ref.system]?[ref.index], partSex != sex { return .hidden }
         if let isolation, !isolation.contains(ref) { return .hidden }
         let selected = selectedGroup.contains(ref)
         if !showCoverings, coverings[ref.system]?[ref.index] == true, !selected, !highlighted.contains(ref) { return .hidden }
+        if subdivisions[ref.system]?[ref.index] == true, !selected, !highlighted.contains(ref), isolation?.contains(ref) != true { return .hidden }
         if selected { return .selected }
         if highlighted.contains(ref) { return .highlighted }
         if xray || fadedParts.contains(ref) { return .ghost }
@@ -354,24 +394,33 @@ final class AnatomyScene {
             runMaterial = -1
         }
 
-        for (i, range) in system.pack.ranges.enumerated() {
+        let pack = system.pack
+        let levels = partLevels[id] ?? []
+        let coarsest = pack.levelCount - 1
+        for i in pack.parts.indices {
             let material: Int
+            var level = levels.indices.contains(i) ? Int(levels[i]) : 0
             switch state(of: PartRef(system: id, index: i)) {
             case .hidden:
                 flush()
                 continue
             case .solid: material = AnatomyMaterials.Slot.solid.rawValue
-            case .ghost: material = AnatomyMaterials.Slot.ghost.rawValue
+            case .ghost:
+                material = AnatomyMaterials.Slot.ghost.rawValue
+                // See-through parts never need their full detail.
+                level = coarsest
             case .selected: material = AnatomyMaterials.Slot.selected.rawValue
             case .highlighted: material = AnatomyMaterials.Slot.highlighted.rawValue
             }
-            if material == runMaterial, range.indexStart == runStart + runCount {
-                runCount += range.indexCount
+            let range = pack.range(of: i, level: level)
+            guard range.count > 0 else { continue }
+            if material == runMaterial, range.start == runStart + runCount {
+                runCount += range.count
                 runBounds = runBounds.union(system.bounds[i])
             } else {
                 flush()
-                runStart = range.indexStart
-                runCount = range.indexCount
+                runStart = range.start
+                runCount = range.count
                 runMaterial = material
                 runBounds = system.bounds[i]
             }
@@ -380,8 +429,8 @@ final class AnatomyScene {
         return out
     }
 
-    private func refresh(_ layer: String) {
-        visibilityVersion &+= 1
+    func refresh(_ layer: String, visibilityChanged: Bool = true) {
+        if visibilityChanged { visibilityVersion &+= 1 }
         guard let system = systems[layer] else { return }
         system.mesh.parts.replaceAll(parts(for: system))
         system.entity.isEnabled = enabledLayers.contains(layer)
@@ -456,6 +505,14 @@ final class AnatomyScene {
         for system in touched { refresh(system) }
     }
 
+    /// Makes `refs` see-through, or opaque again when they already are.
+    func toggleFade(_ refs: Set<PartRef>) {
+        let wasFaded = refs.isSubset(of: fadedParts)
+        if wasFaded { fadedParts.subtract(refs) } else { fadedParts.formUnion(refs) }
+        if !wasFaded, let selection, refs.contains(selection) { select(nil) }
+        for system in Set(refs.map(\.system)) { refresh(system) }
+    }
+
     func highlight(_ refs: Set<PartRef>) {
         let systemsTouched = Set(highlighted.map(\.system)).union(refs.map(\.system))
         highlighted = refs
@@ -475,8 +532,12 @@ final class AnatomyScene {
         var seen = Set<PartRef>()
         var out: [PartRef] = []
         for name in names {
-            for ref in nameIndex[name.lowercased()] ?? []
+            let key = name.lowercased()
+            for ref in nameIndex[key] ?? []
             where (includeInsertions || ref.system != "insertions") && seen.insert(ref).inserted {
+                // Subdivisions only when asked for by their own name, not
+                // through their organ ("Liver" is also the segments' group).
+                if subdivisions[ref.system]?[ref.index] == true, manifests[ref.system]?[ref.index].base.lowercased() != key { continue }
                 out.append(ref)
             }
         }
@@ -486,15 +547,48 @@ final class AnatomyScene {
     func cameraDidSettle() {
         isCameraMoving = false
         cameraVersion += 1
+        updateDetail(force: true)
+    }
+
+    /// The viewport's size in points and its display scale.
+    func setViewport(size: CGSize, scale: CGFloat) {
+        guard size.width > 0, size.height > 0 else { return }
+        viewAspect = Float(size.width / size.height)
+        viewPixelHeight = Float(size.height * scale)
+        updateDetail(force: true)
+    }
+
+    /// "m"/"f" organs as `BodySex`, nil for parts both sexes have.
+    func sex(of ref: PartRef) -> BodySex? {
+        partSex[ref.system]?[ref.index]
+    }
+
+    /// `refs` without the other sex's organs (both bladders share a name);
+    /// all of them when they are only the other sex's.
+    func matchingSex(_ refs: [PartRef]) -> [PartRef] {
+        let own = refs.filter { sex(of: $0).map { $0 == sex } ?? true }
+        return own.isEmpty ? refs : own
     }
 
     /// Shows `refs` on screen: enables their layers, highlights and frames them.
+    /// Organs of the other sex only switch the atlas to that sex.
     func reveal(_ refs: [PartRef], isolate: Bool = false, margin: Float = 1.15) async {
+        let refs = matchingSex(refs)
         guard !refs.isEmpty else { return }
+        if let other = refs.first.flatMap(sex(of:)), refs.allSatisfy({ sex(of: $0) == other }), other != sex {
+            sex = other
+        }
         for system in Set(refs.map(\.system)) {
             if !enabledLayers.contains(system) { enabledLayers.insert(system) }
             await ensureLoaded(system)
             refresh(system)
+        }
+        // Everything on show must count when choosing the view (right after
+        // launch the other layers may still be loading).
+        var waited = 0
+        while waited < 100, enabledLayers.contains(where: { systems[$0] == nil && loadingLayers.contains($0) }) {
+            try? await Task.sleep(for: .milliseconds(50))
+            waited += 1
         }
         if isolate {
             self.isolate(Set(refs))
@@ -512,7 +606,7 @@ final class AnatomyScene {
         let (center, fit) = framing(refs, margin: margin)
         if let center, let view = await viewpoint(for: refs, target: center, distance: fit) {
             if view.visible < 0.6 { fade(view.blockers) }
-            animateCamera(target: center, distance: fit, yaw: view.yaw, pitch: view.pitch)
+            animateCamera(target: center, distance: view.distance, yaw: view.yaw, pitch: view.pitch)
         } else {
             frame(refs, margin: margin)
         }

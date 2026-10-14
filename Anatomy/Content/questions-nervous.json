@@ -1,0 +1,1871 @@
+{
+ "system": "nervous",
+ "questions": [
+  {
+   "id": "ne-3da316f2",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Sağ elini kullanan 62 yaşındaki hasta inme sonrası ne söylendiğini anlıyor; ancak konuşması kesik kesik, zorlanarak ve az sözcükle. Yazması da bozuk. Lezyon büyük olasılıkla nerededir?",
+   "options": [
+    "Sol gyrus precentralis'in üst kısmı",
+    "Sol gyrus angularis",
+    "Sol gyrus frontalis inferior (Broca alanı, BA 44–45)",
+    "Sol gyrus temporalis superior'un arka kısmı (Wernicke alanı)",
+    "Sağ gyrus frontalis inferior"
+   ],
+   "answer": 2,
+   "explanation": "Broca afazisi (motor/ekspresif afazi) baskın hemisferin inferior frontal girusunun pars opercularis ve triangularis'inin hasarıyla olur: konuşma akıcı değil, anlama görece korunmuş. Genellikle MCA üst dalının tıkanmasıyla görülür ve karşı tarafta yüz–kol güçsüzlüğü eşlik edebilir.",
+   "notes": [
+    "Bacağın motor alanıdır.",
+    "Gerstmann sendromu yapar.",
+    "",
+    "Akıcı ama anlamsız konuşma ve anlama bozukluğu yapar.",
+    "Baskın olmayan hemisfer; konuşmanın tonlamasını (prozodi) etkiler."
+   ],
+   "entries": [
+    "lobus-frontalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-63b5b117",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "İnme geçiren hasta akıcı ama anlamsız konuşuyor, uydurma sözcükler kullanıyor ve basit komutları anlamıyor; hatasının farkında değil. Lezyon nerededir?",
+   "options": [
+    "Sol gyrus frontalis inferior",
+    "Sol gyrus temporalis superior'un arka kısmı (Wernicke alanı, BA 22)",
+    "Fasciculus arcuatus",
+    "Sağ gyrus temporalis superior",
+    "Sol lobus occipitalis"
+   ],
+   "answer": 1,
+   "explanation": "Wernicke (duyusal/reseptif) afazisinde konuşma akıcıdır ancak içerik bozuktur (parafazi, neolojizm); dili anlama ve tekrarlama bozulur. Lezyon baskın hemisferin süperior temporal girusunun arka bölümündedir.",
+   "entries": [
+    "lobus-temporalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-41911115",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Konuşmanın akıcı, anlamanın iyi olduğu ancak söyleneni tekrarlamanın belirgin bozuk olduğu afazi tipinde hasar nerededir?",
+   "options": [
+    "Hippocampus",
+    "Fasciculus arcuatus",
+    "Corpus callosum",
+    "Gyrus precentralis",
+    "Capsula interna'nın arka bacağı"
+   ],
+   "answer": 1,
+   "explanation": "İletim (kondüksiyon) afazisi Wernicke ile Broca alanlarını bağlayan fasciculus arcuatus'un (çoğunlukla supramarjinal girus düzeyinde) hasarıyla oluşur. Anlama ve akıcılık korunur, tekrarlama bozulur.",
+   "entries": [
+    "cerebrum",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-14b513ee",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Hastada ani başlayan sol bacakta belirgin güçsüzlük ve his kaybı var; kol ve yüz görece korunmuş. Tıkanan arter hangisidir?",
+   "options": [
+    "Sağ a. cerebri anterior",
+    "Sol a. cerebri anterior",
+    "Sağ a. cerebri media",
+    "Sağ a. cerebri posterior",
+    "Baziler arter"
+   ],
+   "answer": 0,
+   "explanation": "Bacak ve ayağın motor-duyusal temsil alanı hemisferin medial yüzündeki parasantral lobüldedir ve a. cerebri anterior tarafından beslenir. ACA tıkanmasında karşı tarafta bacak ağırlıklı tutulum olur. MCA tıkanması ise yüz ve kol ağırlıklıdır.",
+   "entries": [
+    "gyrus-precentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-01618983",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "65 yaşında sağ elini kullanan hastada sağ yüz ve kolda belirgin güçsüzlük ve his kaybı ile konuşma bozukluğu var; bacak daha hafif etkilenmiş. Tıkanan arter hangisidir?",
+   "options": [
+    "Sol a. cerebri anterior",
+    "Sağ a. cerebri media",
+    "Sol a. choroidea anterior",
+    "Sol a. cerebri media",
+    "Sol a. cerebri posterior"
+   ],
+   "answer": 3,
+   "explanation": "MCA hemisferin dış yüzünü, dolayısıyla yüz ve kolun motor-duyusal alanlarını ve baskın hemisferde dil alanlarını besler. Sol MCA tıkanması sağda yüz–kol ağırlıklı hemiparezi, hemihipoestezi ve afazi yapar.",
+   "entries": [
+    "gyrus-precentralis",
+    "gyrus-postcentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-b32e3978",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "A. cerebri posterior tıkanmasında görülen tipik görme alanı defekti hangisidir?",
+   "options": [
+    "Bitemporal hemianopsi",
+    "Aynı tarafta tek gözde körlük",
+    "Karşı tarafta makula korunmalı homonim hemianopsi",
+    "Binazal hemianopsi",
+    "Karşı tarafta üst kadranopsi"
+   ],
+   "answer": 2,
+   "explanation": "PCA oksipital lobu (primer görme korteksini) besler. Tıkanmasında karşı görme alanında homonim hemianopsi olur; makulanın temsil edildiği oksipital kutup MCA'dan da kollateral aldığı için merkezî görme çoğunlukla korunur.",
+   "entries": [
+    "lobus-occipitalis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-950a7863",
+   "group": "Beyin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Primer görme korteksi (Brodmann 17) nerede yer alır?",
+   "options": [
+    "Corpus geniculatum laterale içinde",
+    "Lobus frontalis'in alt yüzünde",
+    "Lobus occipitalis'te sulcus calcarinus'un iki yanında",
+    "Gyrus postcentralis'te",
+    "Gyrus temporalis superior'da"
+   ],
+   "answer": 2,
+   "explanation": "Primer görme korteksi oksipital lobun medial yüzünde, kalkarin oluğun üst (cuneus) ve alt (gyrus lingualis) dudaklarındadır. Üst dudak alt görme alanını, alt dudak üst görme alanını temsil eder.",
+   "entries": [
+    "lobus-occipitalis",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-3b3c0c08",
+   "group": "Beyin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Primer işitme korteksi (Brodmann 41–42) nerededir?",
+   "options": [
+    "Gyri temporales transversi (Heschl girusları)",
+    "Gyrus precentralis'in alt ucu",
+    "Gyrus parahippocampalis",
+    "Gyrus angularis",
+    "Gyrus cinguli"
+   ],
+   "answer": 0,
+   "explanation": "Primer işitme alanı lateral oluğun tabanında, süperior temporal girusun üst yüzündeki transvers temporal (Heschl) giruslardadır. Her kulaktan gelen bilgi iki taraflı temsil edildiğinden tek taraflı kortikal hasar sağırlık yapmaz.",
+   "entries": [
+    "lobus-temporalis",
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-87c1b640",
+   "group": "Beyin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Primer somatosensoriyel korteks hangi Brodmann alanlarına karşılık gelir?",
+   "options": [
+    "22 (gyrus temporalis superior)",
+    "17 (sulcus calcarinus)",
+    "6 (premotor alan)",
+    "4 (gyrus precentralis)",
+    "3, 1, 2 (gyrus postcentralis)"
+   ],
+   "answer": 4,
+   "explanation": "Postsantral girus vücudun karşı yarısından gelen dokunma, ağrı, ısı ve propriosepsiyon bilgisini alır ve somatotopik düzenlidir (duyusal homunkulus). Bilgi talamusun VPL ve VPM çekirdeklerinden gelir.",
+   "entries": [
+    "gyrus-postcentralis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-2daff929",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Agrafi, akalkuli, parmak agnozisi ve sağ–sol ayrımı bozukluğundan oluşan Gerstmann sendromunda lezyon nerededir?",
+   "options": [
+    "Baskın olmayan hemisferin lobus parietalis superior'u",
+    "Baskın hemisferin gyrus frontalis inferior'u",
+    "Baskın hemisferin gyrus angularis'i",
+    "Baskın hemisferin hippocampus'u",
+    "Corpus callosum'un splenium'u"
+   ],
+   "answer": 2,
+   "explanation": "Gerstmann sendromu baskın (genellikle sol) parietal lobun alt kısmında, angular girus lezyonlarında görülür. Baskın olmayan parietal lob hasarı ise karşı tarafı ihmal (hemineglect) ve apraksiler yapar.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-28eb07b3",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Sağ hemisfer inmesi geçiren hasta yemeğinin yalnızca sağ yarısını yiyor, sol tarafındaki kişileri fark etmiyor ve sol kolunun kendisine ait olmadığını söylüyor. Lezyon hangi lobdadır?",
+   "options": [
+    "Sol lobus parietalis",
+    "Sol lobus temporalis",
+    "Sağ lobus frontalis",
+    "Sağ lobus parietalis",
+    "Sağ lobus occipitalis"
+   ],
+   "answer": 3,
+   "explanation": "Karşı tarafın ihmali (hemispatial neglect) ve anozognozi en sık baskın olmayan (sağ) parietal lob lezyonlarında görülür; çünkü sağ hemisfer uzayın her iki yarısına, sol hemisfer ise ağırlıklı olarak sağ yarısına dikkat eder.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-dbe702a4",
+   "group": "Beyin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kişilik değişikliği, uygunsuz davranış, planlama ve yargılama bozukluğu en çok hangi bölgenin hasarında görülür?",
+   "options": [
+    "Cerebellum'un vermis'i",
+    "Prefrontal korteks",
+    "Gyrus postcentralis",
+    "Lobus occipitalis",
+    "Corpus geniculatum mediale"
+   ],
+   "answer": 1,
+   "explanation": "Prefrontal korteks yürütücü işlevlerden, sosyal davranıştan ve kişilikten sorumludur. Frontal lob hasarlı hastalar apati veya dürtüsellik, perseverasyon ve sosyal uygunsuzluk gösterebilir.",
+   "entries": [
+    "lobus-frontalis"
+   ]
+  },
+  {
+   "id": "ne-3de004e8",
+   "group": "Beyin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tat duyusunun kortikal merkezi olarak kabul edilen ve viseral duyularla ilgili lob hangisidir?",
+   "options": [
+    "Lobus occipitalis",
+    "Insula (ve komşu frontal operkulum)",
+    "Cuneus",
+    "Gyrus precentralis",
+    "Gyrus cinguli"
+   ],
+   "answer": 1,
+   "explanation": "Insula lateral oluğun derininde, operkulumların altında saklı kalan loptur. Ön kısmı primer tat korteksini içerir; ayrıca ağrı, iç organ duyuları ve otonom yanıtlarla ilişkilidir. MCA dallarıyla beslenir.",
+   "entries": [
+    "insula"
+   ]
+  },
+  {
+   "id": "ne-f34b6253",
+   "group": "Beyin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Yeni bilgilerin uzun süreli belleğe aktarılmasında kritik rol oynayan ve Alzheimer hastalığında erken atrofiye uğrayan yapı hangisidir?",
+   "options": [
+    "Corpus amygdaloideum",
+    "Nucleus caudatus",
+    "Hippocampus",
+    "Thalamus'un pulvinar'ı",
+    "Cerebellum"
+   ],
+   "answer": 2,
+   "explanation": "Hippocampus temporal lobun medialinde, lateral ventrikülün alt boynuzunun tabanındadır. İki taraflı hasarında anterograd amnezi olur. Papez devresinin parçasıdır: hippocampus → fornix → corpus mamillare → anterior talamus → gyrus cinguli → hippocampus.",
+   "entries": [
+    "hippocampus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-1b940b7b",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "İki taraflı amigdala hasarına bağlı Klüver–Bucy sendromunda aşağıdakilerden hangisi beklenmez?",
+   "options": [
+    "Hiperseksüalite",
+    "Hiperoralite (her şeyi ağzına götürme)",
+    "Görsel agnozi",
+    "Uysallık, korkunun kaybı",
+    "Aşırı korku ve saldırganlık"
+   ],
+   "answer": 4,
+   "explanation": "Amigdala korku ve duygusal öğrenmenin merkezidir. İki taraflı medial temporal hasarda korku ve saldırganlık azalır, hasta uysallaşır; hiperoralite, hiperseksüalite ve görsel agnozi görülür.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afbdd4fd",
+   "group": "Beyin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "İki serebral hemisferi birbirine bağlayan en büyük komissür hangisidir?",
+   "options": [
+    "Capsula interna",
+    "Fornix",
+    "Corpus callosum",
+    "Commissura anterior",
+    "Commissura posterior"
+   ],
+   "answer": 2,
+   "explanation": "Corpus callosum yaklaşık 200 milyon akson içeren beyaz cevher köprüsüdür; rostrum, genu, gövde ve splenium bölümleri vardır. Kesilmesinde ('split-brain') iki hemisfer arasındaki bilgi aktarımı bozulur.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-b72d492f",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Hipertansif hastada ani başlayan, karşı tarafta yüz, kol ve bacağı eşit tutan saf motor hemiparezi var; duyu, görme ve konuşma normal. Lakün enfarktı en olası nerededir?",
+   "options": [
+    "Lobus occipitalis",
+    "Capsula interna'nın arka bacağı",
+    "Cerebellum'un hemisferi",
+    "Gyrus postcentralis",
+    "Corpus callosum'un genu'su"
+   ],
+   "answer": 1,
+   "explanation": "Kortikospinal ve kortikobulber lifler capsula interna'nın arka bacağında birbirine çok yakın seyreder; küçük bir enfarkt bile karşı tarafta yüz–kol–bacağı eşit tutar. Bu bölge MCA'nın lentikülostriat dallarıyla beslenir; bu dallar hipertansiyonda hasara açıktır.",
+   "entries": [
+    "nuclei-basales",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-46d5bedc",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Parkinson hastalığında dejenere olan dopaminerjik nöronlar nerededir?",
+   "options": [
+    "Nucleus caudatus",
+    "Substantia nigra'nın pars compacta'sı (mesencephalon)",
+    "Nucleus ruber",
+    "Nucleus subthalamicus",
+    "Globus pallidus internus"
+   ],
+   "answer": 1,
+   "explanation": "Substantia nigra pars compacta'daki dopaminerjik nöronlar striatuma (nigrostriatal yol) uzanır. Kayıplarında bradikinezi, rijidite ve istirahat tremoru gelişir. Huntington'da nucleus caudatus atrofisi, hemiballismusta nucleus subthalamicus lezyonu görülür.",
+   "entries": [
+    "mesencephalon",
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-2a67af34",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Hipertansif hastada aniden sol kol ve bacağında şiddetli, savurucu, istemsiz hareketler başlıyor. Lezyon nerededir?",
+   "options": [
+    "Sağ nucleus caudatus",
+    "Sağ substantia nigra",
+    "Sol nucleus subthalamicus",
+    "Sağ nucleus subthalamicus",
+    "Sol cerebellum hemisferi"
+   ],
+   "answer": 3,
+   "explanation": "Hemiballismus karşı taraftaki nucleus subthalamicus lezyonunda görülür; bu çekirdek normalde globus pallidus internus'u uyararak hareketi frenler. Bazal ganglion lezyonları karşı tarafta bulgu verir.",
+   "entries": [
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-e0795ee8",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Görme yolunda bulunan talamus çekirdeği hangisidir?",
+   "options": [
+    "Nucleus ventralis lateralis",
+    "Corpus geniculatum mediale",
+    "Corpus geniculatum laterale",
+    "Nucleus ventralis posterolateralis",
+    "Nucleus anterior thalami"
+   ],
+   "answer": 2,
+   "explanation": "Optik trakt lifleri LGN'de sinaps yapar; buradan optik radyasyon oksipital kortekse gider. MGN işitme, VPL vücut duyusu, VPM yüz duyusu ve tat, VL serebellum ve bazal ganglionlardan gelen motor bilgi, anterior çekirdek ise Papez devresi ile ilgilidir.",
+   "entries": [
+    "thalamus",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-e54d7172",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Yüzden gelen duyuları (n. trigeminus) ve tat liflerini kortekse ileten talamus çekirdeği hangisidir?",
+   "options": [
+    "Pulvinar",
+    "Nucleus medialis dorsalis",
+    "Corpus geniculatum mediale",
+    "Nucleus ventralis posterolateralis (VPL)",
+    "Nucleus ventralis posteromedialis (VPM)"
+   ],
+   "answer": 4,
+   "explanation": "Trigeminal lemniskus ve solitar çekirdekten gelen tat lifleri VPM'de, vücuttan gelen medial lemniskus ve spinotalamik lifler VPL'de sonlanır. Talamus lezyonlarında karşı tarafta hemianestezi ve talamik ağrı (Dejerine–Roussy) görülebilir.",
+   "entries": [
+    "thalamus",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-48237eed",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Antidiüretik hormonu (ADH) başlıca sentezleyen hipotalamus çekirdeği hangisidir?",
+   "options": [
+    "Nucleus ventromedialis",
+    "Nucleus arcuatus",
+    "Nucleus suprachiasmaticus",
+    "Corpus mamillare",
+    "Nucleus supraopticus"
+   ],
+   "answer": 4,
+   "explanation": "ADH en çok supraoptik, oksitosin en çok paraventriküler çekirdekte yapılır; ikisi de aksonlarla neurohypophysis'e taşınır. Suprakiazmatik çekirdek sirkadiyen ritmi, ventromedial çekirdek tokluğu, lateral hipotalamus açlığı düzenler.",
+   "entries": [
+    "hypothalamus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-1cff0e6f",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wernicke–Korsakoff sendromunda (tiamin eksikliği) karakteristik olarak hasar gören hipotalamik yapı hangisidir?",
+   "options": [
+    "Nucleus paraventricularis",
+    "Tuber cinereum",
+    "Nucleus suprachiasmaticus",
+    "Corpora mamillaria",
+    "Eminentia mediana"
+   ],
+   "answer": 3,
+   "explanation": "Kronik alkolizm ve tiamin eksikliğinde mamiller cisimler, talamusun medial çekirdekleri ve periakuaduktal gri cevherde hasar olur. Papez devresinin bozulması Korsakoff amnezisini ve konfabülasyonu açıklar.",
+   "entries": [
+    "hypothalamus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afe9b56a",
+   "group": "Beyin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Yenidoğanda baş çevresi hızla büyüyor. MR'da lateral ventriküller ve 3. ventrikül genişlemiş, 4. ventrikül normal boyutta. Tıkanıklık en olası nerededir?",
+   "options": [
+    "Apertura mediana (Magendie)",
+    "Foramen interventriculare (Monro)",
+    "Canalis centralis",
+    "Granulationes arachnoideae",
+    "Aqueductus mesencephali (Sylvius kanalı)"
+   ],
+   "answer": 4,
+   "explanation": "BOS lateral ventriküllerden Monro deliği ile 3. ventriküle, Sylvius kanalı ile 4. ventriküle, oradan Magendie ve Luschka delikleriyle subaraknoid aralığa geçer. 4. ventrikül normalken 3. ventrikül genişse tıkanıklık aqueductus'tadır (konjenital akuadukt stenozu).",
+   "entries": [
+    "ventriculi-cerebri",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-25e1a0ce",
+   "group": "Beyin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Beyin-omurilik sıvısı (BOS) başlıca nerede üretilir ve nerede emilir?",
+   "options": [
+    "Plexus choroideus'ta üretilir, granulationes arachnoideae ile dural venöz sinüslere emilir.",
+    "Ependim hücrelerinde üretilir, lenf damarlarına emilir.",
+    "Granulationes arachnoideae'de üretilir, plexus choroideus'ta emilir.",
+    "Pia mater'de üretilir, canalis centralis'te emilir.",
+    "Plexus choroideus'ta üretilir, 4. ventrikülde emilir."
+   ],
+   "answer": 0,
+   "explanation": "Erişkinde günde yaklaşık 500 ml BOS üretilir; herhangi bir anda yaklaşık 150 ml bulunur. Emilim çoğunlukla sinus sagittalis superior'a uzanan araknoid granülasyonlarla olur. Emilim bozukluğu iletişimli hidrosefaliye yol açar.",
+   "entries": [
+    "ventriculi-cerebri",
+    "meninges",
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "ne-37bdea3f",
+   "group": "Beyin sapı ve beyincik",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Hastada sağ gözde pitozis, midriyazis ve gözün aşağı-dışa kayması ile birlikte sol kol ve bacakta güçsüzlük var. Lezyon en olası nerededir?",
+   "options": [
+    "Sol medulla oblongata'nın medial kısmı",
+    "Sol mesencephalon'un ventral kısmı",
+    "Sağ pons'un ventral kısmı",
+    "Sağ mesencephalon'un ventral kısmı (Weber sendromu)",
+    "Sağ capsula interna"
+   ],
+   "answer": 3,
+   "explanation": "Weber sendromunda orta beynin ventralinde n. oculomotorius lifleri ve pedunculus cerebri birlikte tutulur: aynı tarafta III felci, karşı tarafta hemiparezi. Kortikospinal lifler medullada çaprazlaştığı için beyin sapı lezyonları 'çapraz' bulgu verir.",
+   "entries": [
+    "mesencephalon",
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-3d7055ab",
+   "group": "Beyin sapı ve beyincik",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ani baş dönmesi ve bulantıyla başvuran hastada sol yüzde ve sağ gövde–ekstremitelerde ağrı ve ısı duyusu kaybı, ses kısıklığı, yutma güçlüğü, solda Horner sendromu ve sol tarafta ataksi var. Dil hareketleri normal. Tıkanan arter hangisidir?",
+   "options": [
+    "Baziler arter",
+    "Sol a. spinalis anterior",
+    "Sağ a. cerebri posterior",
+    "Sol a. cerebelli inferior posterior (veya sol a. vertebralis)",
+    "Sol a. cerebelli superior"
+   ],
+   "answer": 3,
+   "explanation": "Lateral medüller (Wallenberg) sendromda spinal trigeminal çekirdek (aynı taraf yüz), spinotalamik yol (karşı taraf gövde), nucleus ambiguus (disfaji, disfoni), inen sempatik lifler (Horner), vestibüler çekirdekler ve alt serebellar pedinkül tutulur. Medial yerleşimli XII çekirdeği korunur.",
+   "entries": [
+    "medulla-oblongata",
+    "a-vertebralis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-81f72625",
+   "group": "Beyin sapı ve beyincik",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Medial medüller sendromda (a. spinalis anterior tıkanması) aşağıdaki bulgulardan hangisi beklenmez?",
+   "options": [
+    "Aynı tarafta yüzde ağrı ve ısı duyusu kaybı",
+    "Aynı tarafta dil kaslarında atrofi",
+    "Karşı tarafta hemiparezi",
+    "Karşı tarafta propriosepsiyon ve vibrasyon kaybı",
+    "Dilin dışarı çıkarılınca lezyon tarafına sapması"
+   ],
+   "answer": 0,
+   "explanation": "Medial medulla piramidi (karşı hemiparezi), medial lemniskusu (karşı derin duyu kaybı) ve n. hypoglossus'u (aynı taraf dil felci) içerir. Spinal trigeminal çekirdek lateral medulladadır ve Wallenberg sendromunda etkilenir.",
+   "entries": [
+    "medulla-oblongata",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-443079d7",
+   "group": "Beyin sapı ve beyincik",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdaki kranial sinirlerden hangisinin motor çekirdeği pons'ta bulunur?",
+   "options": [
+    "N. hypoglossus",
+    "N. trochlearis",
+    "N. glossopharyngeus",
+    "N. oculomotorius",
+    "N. abducens"
+   ],
+   "answer": 4,
+   "explanation": "III ve IV mesensefalonda; V (motor), VI ve VII ponsta; IX, X ve XII medullada çekirdeğe sahiptir. VIII'in çekirdekleri ponto-medüller bileşkededir.",
+   "entries": [
+    "pons",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-8ecd7107",
+   "group": "Beyin sapı ve beyincik",
+   "level": "tus",
+   "clinical": false,
+   "stem": "4. ventrikülün tabanındaki colliculus facialis'i oluşturan yapılar hangileridir?",
+   "options": [
+    "N. abducens çekirdeği ve onu dolanan n. facialis lifleri",
+    "Locus coeruleus ve nucleus solitarius",
+    "N. trochlearis lifleri ve nucleus ruber",
+    "N. hypoglossus çekirdeği ve n. vagus'un dorsal çekirdeği",
+    "Vestibüler çekirdekler ve n. cochlearis lifleri"
+   ],
+   "answer": 0,
+   "explanation": "Fasiyal motor lifler pons içinde abducens çekirdeğinin etrafını dolanarak iç dizi (genu internum) yapar ve 4. ventrikül tabanında kabarıklık oluşturur. Bu bölgedeki lezyon aynı tarafta VI ve VII felcini birlikte yapar.",
+   "entries": [
+    "pons",
+    "n-facialis",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-5da8a287",
+   "group": "Beyin sapı ve beyincik",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Hasta ayakta dururken ve yürürken iki yana savruluyor, ayaklarını açarak yürüyor; ancak oturup kollarını kullanırken belirgin dismetri yok. Lezyon en olası nerededir?",
+   "options": [
+    "Sol serebellar hemisfer",
+    "Sağ serebellar hemisfer",
+    "Vermis cerebelli",
+    "Nucleus dentatus",
+    "Capsula interna"
+   ],
+   "answer": 2,
+   "explanation": "Vermis ve paravermal bölge gövde ve aksiyal kasların koordinasyonunu sağlar; lezyonunda gövde ataksisi ve geniş tabanlı yürüyüş olur (ör. alkol). Hemisfer lezyonları aynı taraf ekstremitede dismetri, intansiyonel tremor ve disdiadokokinezi yapar.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-aa74e926",
+   "group": "Beyin sapı ve beyincik",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Pons çekirdeklerinden serebellum'a giden (pontoserebellar) lifleri taşıyan yapı hangisidir?",
+   "options": [
+    "Pedunculus cerebellaris inferior",
+    "Pedunculus cerebellaris superior",
+    "Velum medullare superius",
+    "Lemniscus medialis",
+    "Pedunculus cerebellaris medius"
+   ],
+   "answer": 4,
+   "explanation": "Orta serebellar pedinkül (brachium pontis) en büyük pedinküldür ve tamamen pontoserebellar (afferent) liflerden oluşur. Üst pedinkül esas olarak serebellumdan çıkan (efferent) lifleri, alt pedinkül ise omurilik ve olivadan gelen lifleri taşır.",
+   "entries": [
+    "cerebellum",
+    "pons"
+   ]
+  },
+  {
+   "id": "ne-d50b404c",
+   "group": "Beyin sapı ve beyincik",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Serebellar korteksin tek çıkış nöronu olan ve inhibitör (GABAerjik) yapıdaki hücre hangisidir?",
+   "options": [
+    "Yosunsu lif",
+    "Granül hücresi",
+    "Golgi hücresi",
+    "Purkinje hücresi",
+    "Sepet hücresi"
+   ],
+   "answer": 3,
+   "explanation": "Purkinje hücrelerinin aksonları derin serebellar çekirdeklere (dentatus, emboliformis, globosus, fastigii) ve vestibüler çekirdeklere giderek onları inhibe eder. Serebellumdan asıl çıkışı derin çekirdekler, en büyüğü nucleus dentatus, sağlar.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-05903053",
+   "group": "Beyin sapı ve beyincik",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kortikospinal liflerin büyük kısmı nerede çaprazlaşır?",
+   "options": [
+    "Capsula interna'da",
+    "Pons'ta",
+    "Mesencephalon'da",
+    "Medulla oblongata'nın alt ucunda (decussatio pyramidum)",
+    "Omuriliğin her segmentinde"
+   ],
+   "answer": 3,
+   "explanation": "Kortikospinal liflerin yaklaşık %85–90'ı piramidlerin alt ucunda çaprazlaşarak lateral kortikospinal yolu oluşturur. Çaprazlaşmayan lifler ön kortikospinal yolda iner ve segmental düzeyde karşıya geçer.",
+   "entries": [
+    "medulla-oblongata",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-6d09f28c",
+   "group": "Beyin sapı ve beyincik",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Baziler arter trombozu sonrası hasta tamamen bilinçli; ancak kollarını, bacaklarını, yüzünü hareket ettiremiyor ve konuşamıyor. Yalnızca gözlerini yukarı-aşağı hareket ettirip kırpabiliyor. Bu tablo hangisidir?",
+   "options": [
+    "Akinetik mutizm – frontal lob lezyonu",
+    "Kilitlenme (locked-in) sendromu – ventral pons lezyonu",
+    "Koma – retiküler aktive edici sistem lezyonu",
+    "Weber sendromu – orta beyin lezyonu",
+    "Wallenberg sendromu – lateral medulla lezyonu"
+   ],
+   "answer": 1,
+   "explanation": "Ventral pons lezyonunda kortikospinal ve kortikobulber yollar kesilir; dorsal ponstaki retiküler formasyon korunduğundan bilinç yerindedir. Dikey göz hareketleri ve göz kırpma orta beyin tarafından kontrol edildiği için korunur.",
+   "entries": [
+    "pons",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "ne-0a8db49c",
+   "group": "Beyin sapı ve beyincik",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mesencephalon'da bulunan ve serebellumdan gelen lifleri alan kırmızı renkli çekirdek hangisidir?",
+   "options": [
+    "Nucleus olivaris inferior",
+    "Substantia nigra",
+    "Nucleus ruber",
+    "Locus coeruleus",
+    "Nucleus dentatus"
+   ],
+   "answer": 2,
+   "explanation": "Nucleus ruber üst serebellar pedinkülden lif alır ve rubrospinal yol ile üst ekstremite fleksörlerini etkiler. Zengin kanlanması ve demir içeriği nedeniyle taze kesitte pembemsi görünür.",
+   "entries": [
+    "mesencephalon",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-8a618879",
+   "group": "Omurilik ve zarlar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Erişkinde omuriliğin alt ucu (conus medullaris) genellikle hangi düzeyde sonlanır?",
+   "options": [
+    "L1–L2",
+    "L5–S1",
+    "T10–T11",
+    "S2",
+    "L3–L4"
+   ],
+   "answer": 0,
+   "explanation": "Gelişim sırasında omurga omurilikten hızlı büyüdüğü için erişkinde conus medullaris L1–L2 düzeyindedir (yenidoğanda yaklaşık L3). Altında cauda equina ve filum terminale bulunur. Dura kesesi S2 düzeyinde sonlanır.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-c6fa7ddb",
+   "group": "Omurilik ve zarlar",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Erişkinde lomber ponksiyon için en uygun ve güvenli aralık hangisidir?",
+   "options": [
+    "T12–L1 aralığı",
+    "S2–S3 aralığı",
+    "L1–L2 aralığı",
+    "L3–L4 veya L4–L5 aralığı",
+    "T10–T11 aralığı"
+   ],
+   "answer": 3,
+   "explanation": "İki crista iliaca'nın en yüksek noktalarını birleştiren çizgi (Tuffier çizgisi) yaklaşık L4 dikensi çıkıntısından geçer. Omurilik L1–L2'de bittiğinden L3–L4 veya L4–L5'ten girilen iğne yalnızca cauda equina köklerini iter.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ne-f7851598",
+   "group": "Omurilik ve zarlar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lomber ponksiyonda iğnenin epidural aralığa girmeden önce geçtiği son bağ hangisidir?",
+   "options": [
+    "Lig. flavum",
+    "Lig. supraspinale",
+    "Lig. interspinale",
+    "Lig. denticulatum",
+    "Lig. longitudinale posterius"
+   ],
+   "answer": 0,
+   "explanation": "İğne sırasıyla deri, deri altı, lig. supraspinale, lig. interspinale ve lig. flavum'u geçerek epidural aralığa, ardından dura ve araknoidi geçerek subaraknoid aralığa ulaşır. Lig. flavum'da direnç kaybı epidural anestezide yol göstericidir.",
+   "entries": [
+    "ligg-columnae",
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-6dcbddb7",
+   "group": "Omurilik ve zarlar",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Sırtından bıçaklanan hastada sağda T10 altında motor felç ve derin duyu (vibrasyon, pozisyon) kaybı, solda ise yaklaşık T12 altından başlayan ağrı ve ısı duyusu kaybı var. Lezyon hangisidir?",
+   "options": [
+    "Omuriliğin sol yarısının kesisi",
+    "Omuriliğin sağ yarısının kesisi (Brown-Séquard sendromu)",
+    "Arka kord sendromu",
+    "Ön spinal arter sendromu",
+    "Santral kord sendromu"
+   ],
+   "answer": 1,
+   "explanation": "Hemiseksiyonda aynı tarafta kortikospinal yol (motor felç) ve dorsal kolon (derin duyu) tutulur. Ağrı ve ısı lifleri girdikleri segmentin 1–2 üstünde karşıya geçtiği için karşı tarafta, lezyonun birkaç segment altından başlayan ağrı-ısı kaybı olur.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-a9f875c2",
+   "group": "Omurilik ve zarlar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Alt ekstremiteden gelen ince dokunma ve propriosepsiyon bilgisini taşıyan yol hangisidir?",
+   "options": [
+    "Fasciculus gracilis",
+    "Fasciculus cuneatus",
+    "Tractus spinothalamicus lateralis",
+    "Tractus corticospinalis lateralis",
+    "Tractus spinocerebellaris anterior"
+   ],
+   "answer": 0,
+   "explanation": "Dorsal kolonlarda medial yerleşimli fasciculus gracilis alt gövde ve bacaktan, lateral yerleşimli fasciculus cuneatus (T6 üzeri) üst gövde ve koldan bilgi taşır. Lifler aynı tarafta yükselir ve medullada (nucleus gracilis/cuneatus) sinaps yapıp çaprazlaşarak medial lemniskusu oluşturur.",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-dda468ea",
+   "group": "Omurilik ve zarlar",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ellerini sıcak sobaya yaktığı hâlde fark etmeyen hastada her iki omuz ve kolda 'pelerin' tarzında ağrı ve ısı duyusu kaybı var; dokunma ve pozisyon duyusu korunmuş. En olası tanı hangisidir?",
+   "options": [
+    "Tabes dorsalis",
+    "Brown-Séquard sendromu",
+    "Ön spinal arter tıkanması",
+    "Servikal siringomiyeli",
+    "B12 eksikliğine bağlı subakut kombine dejenerasyon"
+   ],
+   "answer": 3,
+   "explanation": "Siringomiyelide santral kanal genişler ve ilk olarak commissura alba anterior'da çaprazlaşan spinotalamik lifler etkilenir; bu nedenle ilgili segmentlerde iki taraflı, 'pelerin' biçiminde ağrı-ısı kaybı olur. Dorsal kolonlar korunur (disosiye duyu kaybı).",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-4634c777",
+   "group": "Omurilik ve zarlar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ön spinal arter tıkanmasında aşağıdakilerden hangisi genellikle korunur?",
+   "options": [
+    "Lezyon altında motor güç",
+    "İdrar ve gaita kontrolü",
+    "Lezyon düzeyindeki alt motor nöron işlevleri",
+    "Vibrasyon ve pozisyon duyusu",
+    "Ağrı ve ısı duyusu"
+   ],
+   "answer": 3,
+   "explanation": "A. spinalis anterior omuriliğin ön üçte ikisini besler: ön boynuzlar, kortikospinal ve spinotalamik yollar etkilenir. Dorsal kolonlar arka spinal arterlerden beslendiği için vibrasyon ve propriosepsiyon korunur.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-bcf0f483",
+   "group": "Omurilik ve zarlar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "B12 vitamini eksikliğine bağlı subakut kombine dejenerasyonda tutulan yollar hangileridir?",
+   "options": [
+    "Dorsal kolonlar ve lateral kortikospinal yollar",
+    "Yalnızca ön boynuz motor nöronları",
+    "Commissura alba anterior ve lateral boynuzlar",
+    "Spinoserebellar yollar ve arka kökler",
+    "Spinotalamik yollar ve ön boynuzlar"
+   ],
+   "answer": 0,
+   "explanation": "B12 eksikliğinde miyelin sentezi bozulur ve özellikle dorsal kolonlar (derin duyu kaybı, ataksi) ile lateral kortikospinal yollar (spastisite, Babinski) birlikte etkilenir.",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-f37384b3",
+   "group": "Omurilik ve zarlar",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Başına beyzbol sopasıyla vurulan genç kısa süre bayılıp kendine geliyor, saatler sonra bilinci bozuluyor. BT'de suturaları aşmayan bikonveks (mercek biçimli) kanama görülüyor. Kanama hangi aralıktadır ve kaynağı nedir?",
+   "options": [
+    "Beyin parankimi – lentikülostriat arterler",
+    "Subdural aralık – köprü venler",
+    "Subaraknoid aralık – anevrizma",
+    "Epidural aralık – sinus sagittalis superior",
+    "Epidural aralık – a. meningea media"
+   ],
+   "answer": 4,
+   "explanation": "Epidural hematom kafatası ile dura arasında, genellikle arteriyel kanamayla oluşur; dura suturalara sıkı yapıştığı için kanama suturaları aşmaz ve mercek biçimlidir. Subdural hematom köprü venlerin yırtılmasıyla oluşur, hilal biçimlidir ve suturaları aşar; yaşlılarda ve alkoliklerde sıktır.",
+   "entries": [
+    "meninges",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-56835093",
+   "group": "Omurilik ve zarlar",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Hayatının en şiddetli baş ağrısıyla başvuran hastada BOS kanlı ve ksantokromik. En sık neden hangisidir?",
+   "options": [
+    "A. meningea media'nın yırtılması",
+    "Circulus arteriosus cerebri'deki sakküler (berry) anevrizmanın yırtılması",
+    "Plexus choroideus kanaması",
+    "Sinus cavernosus trombozu",
+    "Köprü venlerin yırtılması"
+   ],
+   "answer": 1,
+   "explanation": "Travmatik olmayan subaraknoid kanamanın en sık nedeni Willis poligonu çevresindeki anevrizmalardır; en sık ön komünikan arter bileşkesinde görülür. Kan subaraknoid aralıkta BOS ile karışır.",
+   "entries": [
+    "meninges",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-c9d1565d",
+   "group": "Omurilik ve zarlar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Omuriliği her iki yanda dura mater'e bağlayan, pia mater'in dişli uzantıları hangisidir?",
+   "options": [
+    "Filum terminale",
+    "Lig. flavum",
+    "Ligg. denticulata",
+    "Lig. coccygeum",
+    "Septum cervicale intermedium"
+   ],
+   "answer": 2,
+   "explanation": "Pia mater her yanda yaklaşık 21 dişli uzantı (lig. denticulatum) yapar; bunlar araknoidi delip duraya tutunur ve omuriliği dura kesesi içinde asılı tutar. Filum terminale ise conus medullaris'ten koksikse uzanır.",
+   "entries": [
+    "meninges",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-86030d28",
+   "group": "Omurilik ve zarlar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Omurga kanalındaki epidural aralık için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "BOS ile doludur.",
+    "Kafatası içindeki epidural aralıkla serbestçe devamlıdır.",
+    "Omurilik ile birlikte L1'de sonlanır.",
+    "Pia mater ile araknoid arasındadır.",
+    "Yağ dokusu ve plexus venosus vertebralis internus içerir."
+   ],
+   "answer": 4,
+   "explanation": "Spinal epidural aralık dura ile omur kanalının periostu arasındadır ve yağ ile kapaksız iç vertebral venöz pleksusu (Batson) içerir. Kafatasında dura periosta yapışık olduğu için normalde epidural aralık yoktur; aralık foramen magnum'da sona erer. Bu venler pelvis ve meme kanserlerinin omurgaya yayılmasına aracılık eder.",
+   "entries": [
+    "meninges",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ne-beeb8a52",
+   "group": "Omurilik ve zarlar",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Masif lomber disk hernisi olan hastada perine ve iç uyluklarda 'eyer' tarzında his kaybı, idrar retansiyonu ve anal sfinkter tonusunda azalma var. Bu acil durum hangisidir?",
+   "options": [
+    "Piriformis sendromu",
+    "Brown-Séquard sendromu",
+    "Conus medullaris'in tek taraflı basısı",
+    "Meralgia paresthetica",
+    "Cauda equina sendromu"
+   ],
+   "answer": 4,
+   "explanation": "L1–L2 altındaki sinir kökleri (cauda equina) sıkışınca sakral köklerin innerve ettiği perine derisi, mesane ve anal sfinkter etkilenir. Acil cerrahi dekompresyon gerektirir.",
+   "entries": [
+    "cauda-equina",
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ne-80f02adb",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Duyusal bilgisini kortekse ulaştırmadan önce talamusta sinaps yapmayan tek duyu hangisidir?",
+   "options": [
+    "Görme",
+    "Koku",
+    "İşitme",
+    "Dokunma",
+    "Tat"
+   ],
+   "answer": 1,
+   "explanation": "Koku lifleri bulbus olfactorius'ta sinaps yapar; tractus olfactorius doğrudan piriform korteks ve amigdala gibi alanlara uzanır. Diğer duyular kortekse ulaşmadan önce talamusta aktarılır.",
+   "entries": [
+    "n-olfactorius",
+    "organum-olfactus"
+   ]
+  },
+  {
+   "id": "ne-f7431de4",
+   "group": "Kranial sinirler",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Baş ağrısı ve görme bozukluğu olan hastada her iki gözün dış (temporal) görme alanlarında kayıp var. Hipofiz adenomu düşünülüyor. Bası yapılan yapı hangisidir?",
+   "options": [
+    "Radiatio optica",
+    "N. opticus",
+    "Corpus geniculatum laterale",
+    "Chiasma opticum",
+    "Tractus opticus"
+   ],
+   "answer": 3,
+   "explanation": "Optik kiazmada her iki retinanın nazal yarısından gelen lifler çaprazlaşır; bu lifler temporal görme alanlarını taşır. Aşağıdan gelen hipofiz tümörü bu lifleri sıkıştırarak bitemporal hemianopsi yapar.",
+   "entries": [
+    "n-opticus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-c94ccfe0",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sağ tractus opticus lezyonunda görülen görme alanı defekti hangisidir?",
+   "options": [
+    "Sağ homonim hemianopsi",
+    "Sağ gözde tam körlük",
+    "Sol homonim hemianopsi",
+    "Bitemporal hemianopsi",
+    "Sol üst kadranopsi"
+   ],
+   "answer": 2,
+   "explanation": "Kiazmanın gerisindeki tüm lezyonlar karşı görme alanında homonim defekt yapar. Sağ optik trakt sağ gözün temporal ve sol gözün nazal retinasından, yani sol görme alanından lif taşır.",
+   "entries": [
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-cbc1f080",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Temporal lobdan geçen optik radyasyon liflerinin (Meyer kulpu) hasarında hangi defekt beklenir?",
+   "options": [
+    "Karşı tarafta üst kadran homonim kadranopsi",
+    "Aynı tarafta üst kadranopsi",
+    "Makula korunmalı tam hemianopsi",
+    "Karşı tarafta alt kadran homonim kadranopsi",
+    "Bitemporal hemianopsi"
+   ],
+   "answer": 0,
+   "explanation": "Optik radyasyonun alt lifleri (retinanın alt yarısından, üst görme alanını taşır) temporal lobda Meyer kulpunu yapar; hasarı karşı tarafta üst kadranopsiye ('gökyüzünde turta') yol açar. Parietal lob lezyonları ise alt kadranı etkiler.",
+   "entries": [
+    "n-opticus",
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-48c33959",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ani başlayan şiddetli baş ağrısıyla gelen hastada sağ gözde pitozis, sabit dilate pupil ve gözün aşağı-dışa kayması var. Bu tabloya en sık yol açan anevrizma hangi arterdedir?",
+   "options": [
+    "A. cerebri media",
+    "A. communicans posterior",
+    "A. ophthalmica",
+    "A. communicans anterior",
+    "A. basilaris'in ucu"
+   ],
+   "answer": 1,
+   "explanation": "N. oculomotorius PCom'un hemen yanından geçer. Parasempatik pupil lifleri sinirin yüzeyinde seyrettiğinden dıştan bası (anevrizma) erken dönemde pupillayı tutar. Diyabetik (iskemik) III felcinde ise sinirin içi etkilendiği için pupil genellikle korunur.",
+   "entries": [
+    "n-oculomotorius",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-0abd7abf",
+   "group": "Kranial sinirler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "N. trigeminus'un üç dalı ve kafatasından çıktıkları açıklıklar hangisinde doğru eşleştirilmiştir?",
+   "options": [
+    "V1 – foramen rotundum, V2 – foramen ovale, V3 – foramen spinosum",
+    "V1 – fissura orbitalis superior, V2 – foramen rotundum, V3 – foramen ovale",
+    "V1 – foramen ovale, V2 – foramen rotundum, V3 – fissura orbitalis superior",
+    "V1 – canalis opticus, V2 – fissura orbitalis inferior, V3 – foramen ovale",
+    "V1 – fissura orbitalis superior, V2 – foramen ovale, V3 – foramen rotundum"
+   ],
+   "answer": 1,
+   "explanation": "N. ophthalmicus fissura orbitalis superior'dan orbitaya, n. maxillaris foramen rotundum'dan fossa pterygopalatina'ya, n. mandibularis foramen ovale'den fossa infratemporalis'e geçer. Yalnızca V3 motor lif içerir.",
+   "entries": [
+    "n-trigeminus",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "ne-3ea7d066",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdaki kaslardan hangisi n. mandibularis (V3) tarafından innerve edilmez?",
+   "options": [
+    "M. digastricus venter anterior",
+    "M. stapedius",
+    "M. tensor tympani",
+    "M. tensor veli palatini",
+    "M. mylohyoideus"
+   ],
+   "answer": 1,
+   "explanation": "V3 birinci faringeal ark kaslarını innerve eder: çiğneme kasları, tensor tympani, tensor veli palatini, mylohyoideus ve digastrik ön karın. M. stapedius ikinci ark kasıdır ve n. facialis ile innerve edilir; felcinde hiperakuzi olur.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "ne-119b3c5e",
+   "group": "Kranial sinirler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kornea refleksinin afferent ve efferent kolları hangi sinirlerdir?",
+   "options": [
+    "Afferent: n. ophthalmicus – Efferent: n. oculomotorius",
+    "Afferent: n. maxillaris (V2) – Efferent: n. oculomotorius",
+    "Afferent: n. opticus (II) – Efferent: n. oculomotorius (III)",
+    "Afferent: n. ophthalmicus (V1) – Efferent: n. facialis (VII)",
+    "Afferent: n. facialis – Efferent: n. trigeminus"
+   ],
+   "answer": 3,
+   "explanation": "Korneaya dokunulması n. nasociliaris (V1) ile algılanır; yanıt olarak her iki gözde m. orbicularis oculi (VII) kasılır. Işık refleksinde ise afferent II, efferent III'tür.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "cornea"
+   ]
+  },
+  {
+   "id": "ne-2746f878",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Kulak arkasında ağrıyla başlayan yüz felci olan hastada aynı tarafta alın kırıştırılamıyor ve göz kapanamıyor; ancak tat duyusu, gözyaşı salgısı ve işitme normal. Lezyon nerededir?",
+   "options": [
+    "Pons'taki fasiyal çekirdekte",
+    "Ganglion geniculi düzeyinde",
+    "Chorda tympani ayrıldıktan hemen önce",
+    "Foramen stylomastoideum düzeyinde veya distalinde",
+    "Meatus acusticus internus'ta"
+   ],
+   "answer": 3,
+   "explanation": "N. facialis fasiyal kanalda sırasıyla n. petrosus major'u (gözyaşı bezi), stapedius sinirini ve chorda tympani'yi (dilin ön 2/3'ü tadı) verir. Yalnızca mimik kaslar tutulmuşsa lezyon bu dalların tümü ayrıldıktan sonradır, yani stilomastoid delik veya parotis düzeyindedir.",
+   "entries": [
+    "n-facialis",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-f733b124",
+   "group": "Kranial sinirler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "N. facialis'in parotis bezi içinde ayrıldığı uç dallar hangisinde doğru verilmiştir?",
+   "options": [
+    "Temporal, infraorbital, bukkal, mental ve servikal dallar",
+    "Oftalmik, maksiller, mandibular, bukkal ve servikal dallar",
+    "Auriküler, temporal, lingual, bukkal ve mental dallar",
+    "Frontal, zigomatik, lingual, mandibular ve servikal dallar",
+    "Temporal, zigomatik, bukkal, marjinal mandibular ve servikal dallar"
+   ],
+   "answer": 4,
+   "explanation": "N. facialis stilomastoid delikten çıktıktan sonra parotisin içinde pes anserinus'u yapar ve beş uç dala ayrılır. Parotis cerrahisinde bu dalları korumak temel önceliktir; sinir bezi innerve etmez.",
+   "entries": [
+    "n-facialis",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-fe75f44a",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tek taraflı ilerleyici işitme kaybı ve kulak çınlaması olan hastada aynı tarafta korneal refleks azalmış. MR'da serebellopontin açıda kitle var. En olası tanı hangisidir?",
+   "options": [
+    "Hipofiz adenomu",
+    "Kraniyofarenjiyom",
+    "Vestibüler schwannom (akustik nörinom)",
+    "Glomus jugulare tümörü",
+    "Menenjiyom (olfaktör oluk)"
+   ],
+   "answer": 2,
+   "explanation": "Vestibüler schwannom n. vestibulocochlearis'in vestibüler bölümünün Schwann hücrelerinden gelişir, meatus acusticus internus'ta büyüyüp serebellopontin açıya taşar. Büyüdükçe n. trigeminus (korneal refleks) ve n. facialis'e bası yapabilir.",
+   "entries": [
+    "n-vestibulocochlearis",
+    "pons",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-f804d1d2",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "N. glossopharyngeus ile ilgili aşağıdakilerden hangisi yanlıştır?",
+   "options": [
+    "Otik ganglion aracılığıyla parotis salgısını uyarır.",
+    "Öğürme refleksinin afferent koludur.",
+    "Dilin ön üçte ikisinin tat duyusunu alır.",
+    "Sinus caroticus'tan baroreseptör bilgisi taşır.",
+    "Dilin arka üçte birinin hem tat hem genel duyusunu alır."
+   ],
+   "answer": 2,
+   "explanation": "IX dilin arka 1/3'ünün tat ve genel duyusunu, farinks mukozasını ve karotis sinüs/cisminden gelen bilgiyi taşır; tek motor kası m. stylopharyngeus'tur. Dilin ön 2/3'ünün tadı chorda tympani (VII), genel duyusu n. lingualis (V3) ile taşınır.",
+   "entries": [
+    "n-glossopharyngeus",
+    "gustus"
+   ]
+  },
+  {
+   "id": "ne-c4430a06",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "'Aaa' demesi istenen hastanın küçük dili (uvula) sağa sapıyor. Lezyon hangi sinirde ve taraftadır?",
+   "options": [
+    "Sol n. vagus",
+    "Sol n. facialis",
+    "Sağ n. hypoglossus",
+    "Sağ n. vagus",
+    "Sol n. glossopharyngeus"
+   ],
+   "answer": 0,
+   "explanation": "Yumuşak damak kasları (levator veli palatini vb.) n. vagus ile innerve edilir. Bir tarafın felcinde sağlam taraf damağı kendine doğru çeker; uvula sağlam tarafa, yani lezyonun karşısına sapar. Dilde ise tersine, dil lezyon tarafına sapar.",
+   "entries": [
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-bc679c52",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sol n. laryngeus recurrens hangi yapının altından dolanarak yukarı döner?",
+   "options": [
+    "V. brachiocephalica sinistra",
+    "Truncus brachiocephalicus",
+    "Arcus aortae (lig. arteriosum'un hemen lateralinden)",
+    "A. subclavia sinistra",
+    "Bronchus principalis sinister"
+   ],
+   "answer": 2,
+   "explanation": "Sol rekürren sinir arcus aortae'nin altından, lig. arteriosum'un yanından dolanır; sağ rekürren sinir sağ a. subclavia'nın altından döner. Uzun seyri nedeniyle sol sinir aort anevrizması, sol atriyum genişlemesi veya akciğer tümörüyle sıkışabilir ve ses kısıklığı yapar.",
+   "entries": [
+    "n-vagus",
+    "aorta",
+    "larynx"
+   ]
+  },
+  {
+   "id": "ne-e83d1843",
+   "group": "Kranial sinirler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Parasempatik lif taşıyan kranial sinirler hangileridir?",
+   "options": [
+    "III, VII, IX ve X",
+    "V, VII, IX ve XI",
+    "II, III, VII ve XII",
+    "VII, IX, X ve XII",
+    "III, IV, V ve VI"
+   ],
+   "answer": 0,
+   "explanation": "Kraniyal parasempatik çıkış dört sinirle olur: III (siliyer ganglion – pupilla ve akomodasyon), VII (pterigopalatin ve submandibular ganglionlar), IX (otik ganglion – parotis) ve X (toraks ve karın organları).",
+   "entries": [
+    "systema-autonomicum",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-a9ee3049",
+   "group": "Kranial sinirler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Beyin sapının dorsal (arka) yüzünden çıkan tek kranial sinir hangisidir?",
+   "options": [
+    "N. accessorius",
+    "N. oculomotorius",
+    "N. trigeminus",
+    "N. abducens",
+    "N. trochlearis"
+   ],
+   "answer": 4,
+   "explanation": "N. trochlearis lifleri orta beyinde çaprazlaşıp inferior kollikulusların altından, dorsal yüzden çıkar. En ince ve intrakraniyal seyri en uzun kranial sinirdir. Karşı taraftaki m. obliquus superior'u innerve eder.",
+   "entries": [
+    "n-trochlearis",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-e3ffe10b",
+   "group": "Kranial sinirler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Yüzündeki çıbanı sıktıktan sonra ateş, göz çevresinde ödem ve proptozis gelişen hastada sinus cavernosus trombozu düşünülüyor. İlk etkilenmesi beklenen kranial sinir hangisidir ve neden?",
+   "options": [
+    "N. maxillaris; sinüsün tabanında olduğu için",
+    "N. oculomotorius; sinüsün dış duvarının en üstünde olduğu için",
+    "N. opticus; sinüsün içinden geçtiği için",
+    "N. trochlearis; sinüsün içinde serbest seyrettiği için",
+    "N. abducens; sinüsün içinde a. carotis interna ile birlikte serbest seyrettiği için"
+   ],
+   "answer": 4,
+   "explanation": "Sinus cavernosus'un dış duvarında yukarıdan aşağı III, IV, V1 ve V2; sinüsün içinde a. carotis interna ve n. abducens bulunur. Bu nedenle abducens felci (yana bakış kısıtlılığı) çoğunlukla ilk bulgudur. Yüzün 'tehlikeli üçgeni' v. ophthalmica aracılığıyla sinüsle bağlantılıdır.",
+   "entries": [
+    "n-abducens",
+    "sinus-durae-matris",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "ne-eed7e04e",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Plexus brachialis'in fasikülleri (kordlar) neye göre adlandırılır?",
+   "options": [
+    "A. axillaris'in ikinci bölümüne göre konumlarına",
+    "M. scalenus anterior'a göre konumlarına",
+    "Klavikulaya göre konumlarına",
+    "Innerve ettikleri kompartmana göre",
+    "Çıktıkları spinal segmentlere göre"
+   ],
+   "answer": 0,
+   "explanation": "Lateral, medial ve posterior kordlar pectoralis minor'un arkasında a. axillaris'in ikinci bölümünü çevreler ve adlarını bu artere göre konumlarından alır. Kökler (C5–T1) skalen aralıkta, gövdeler arka üçgende, bölümler klavikula arkasında yer alır.",
+   "entries": [
+    "plexus-brachialis",
+    "a-axillaris"
+   ]
+  },
+  {
+   "id": "ne-3c25db81",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Zor doğumda omuz takılması (distosi) yaşanan bebeğin kolu yanında addüksiyon ve iç rotasyonda, dirseği ekstansiyonda, önkolu pronasyonda duruyor ('garson bahşişi' pozisyonu). Etkilenen yapı hangisidir?",
+   "options": [
+    "N. musculocutaneus",
+    "Plexus brachialis'in alt gövdesi (C8–T1) – Klumpke felci",
+    "Plexus brachialis'in üst gövdesi (C5–C6) – Erb–Duchenne felci",
+    "N. axillaris",
+    "Fasciculus posterior"
+   ],
+   "answer": 2,
+   "explanation": "Baş ile omuz arasının zorla açılması üst gövdeyi gerer. Deltoid, supraspinatus, infraspinatus (abdüksiyon ve dış rotasyon), biceps ve brachialis (dirsek fleksiyonu) ile supinatörler felç olur; kol tipik pozisyonu alır.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-7352de71",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Düşerken bir dala tutunarak kolu zorla yukarı çekilen hastada elde pençeleşme, intrinsik kas atrofisi, önkol iç yüzünde his kaybı ve aynı tarafta pitozis ile miyozis gelişiyor. Lezyon hangisidir?",
+   "options": [
+    "Plexus brachialis'in alt gövdesi (C8–T1) – Klumpke felci",
+    "Plexus brachialis'in üst gövdesi (C5–C6)",
+    "N. radialis'in aksilla düzeyinde yaralanması",
+    "Fasciculus lateralis",
+    "N. medianus'un bilek düzeyinde yaralanması"
+   ],
+   "answer": 0,
+   "explanation": "Kolun abdüksiyonda zorla çekilmesi alt gövdeyi (C8–T1) gerer: elin intrinsik kasları felç olur ve pençe el gelişir. T1 köküne yakın sempatik liflerin (stellat ganglion) etkilenmesi Horner sendromunu açıklar.",
+   "entries": [
+    "plexus-brachialis",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-abc65d94",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdaki sinirlerden hangisi plexus brachialis'in fasciculus posterior'undan çıkmaz?",
+   "options": [
+    "N. subscapularis superior",
+    "N. thoracodorsalis",
+    "N. musculocutaneus",
+    "N. radialis",
+    "N. axillaris"
+   ],
+   "answer": 2,
+   "explanation": "Arka kord omuz ve kolun arka yüzünü besleyen dalları verir: üst ve alt subskapular, torakodorsal, aksiller ve radial sinirler. N. musculocutaneus lateral korddan çıkar ve kolun ön kompartmanını innerve eder.",
+   "entries": [
+    "plexus-brachialis",
+    "n-musculocutaneus"
+   ]
+  },
+  {
+   "id": "ne-b856c3f9",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "N. medianus plexus brachialis'in hangi kısımlarından oluşur?",
+   "options": [
+    "Fasciculus lateralis ve fasciculus posterior",
+    "Fasciculus lateralis ve fasciculus medialis",
+    "Yalnızca fasciculus lateralis",
+    "Truncus superior ve truncus medius",
+    "Fasciculus posterior ve fasciculus medialis"
+   ],
+   "answer": 1,
+   "explanation": "N. medianus lateral ve medial kordlardan gelen iki kökün a. axillaris'in önünde birleşmesiyle oluşur (C6–T1, C5 lifleri de içerebilir). Kolda dal vermez; önkol fleksörlerinin çoğunu ve tenar kasları innerve eder.",
+   "entries": [
+    "n-medianus",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-cd2e97f1",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kolda (brachium) hiç dal vermeyen sinirler hangileridir?",
+   "options": [
+    "N. ulnaris ve n. radialis",
+    "N. musculocutaneus ve n. medianus",
+    "N. axillaris ve n. radialis",
+    "N. radialis ve n. musculocutaneus",
+    "N. medianus ve n. ulnaris"
+   ],
+   "answer": 4,
+   "explanation": "N. medianus ve n. ulnaris kolda seyretse de motor ya da duyusal dal vermez; dalları önkol ve eldedir. Kolun ön kompartmanını n. musculocutaneus, arka kompartmanını n. radialis innerve eder.",
+   "entries": [
+    "n-medianus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-cfd5de8f",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdaki dermatom eşleştirmelerinden hangisi yanlıştır?",
+   "options": [
+    "T10 – göbek",
+    "S1 – ayağın dış kenarı ve topuk",
+    "L1 – kasık bölgesi",
+    "C8 – başparmak",
+    "T4 – meme başı"
+   ],
+   "answer": 3,
+   "explanation": "Elde C6 başparmak, C7 orta parmak, C8 serçe parmak dermatomudur. Gövdede T4 meme başı, T10 göbek, L1 kasık; bacakta L4 medial malleol, L5 ayak sırtı ve başparmak, S1 ayak dış kenarı ve topuktur.",
+   "entries": [
+    "ganglion-spinale",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "ne-78ef009f",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Obez, sıkı kemer takan hastada uyluğun ön-dış yüzünde yanma, uyuşma ve karıncalanma var; kas gücü ve refleksler normal. Sıkışan sinir hangisidir?",
+   "options": [
+    "N. cutaneus femoris lateralis",
+    "N. femoralis",
+    "N. genitofemoralis",
+    "N. saphenus",
+    "N. obturatorius"
+   ],
+   "answer": 0,
+   "explanation": "Meralgia parestetika: L2–L3 kökenli, saf duyusal n. cutaneus femoris lateralis SIAS'ın hemen medialinde lig. inguinale'nin altından geçerken sıkışır. Motor lif içermediği için güçsüzlük olmaz.",
+   "entries": [
+    "plexus-lumbalis",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "ne-4b8d4357",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "N. femoralis yaralanmasında aşağıdakilerden hangisi beklenmez?",
+   "options": [
+    "Uyluk ön yüzünde his kaybı",
+    "Uyluk addüksiyonunda belirgin güçsüzlük",
+    "Diz ekstansiyonunda güçsüzlük",
+    "Bacağın iç yüzünde his kaybı",
+    "Patella refleksinin kaybı"
+   ],
+   "answer": 1,
+   "explanation": "N. femoralis (L2–L4) quadriceps, sartorius, iliacus ve pectineus'u innerve eder; uyluk ön yüzünün ve n. saphenus aracılığıyla bacak iç yüzünün duyusunu alır. Addüktörler n. obturatorius ile innerve edilir.",
+   "entries": [
+    "n-femoralis",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "ne-1b1b302a",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Uzun süren pelvik cerrahi sonrası hasta bacaklarını birbirine yaklaştırmakta güçlük çekiyor ve uyluğunun iç yüzünde küçük bir alanda uyuşma var. Yaralanan sinir hangisidir?",
+   "options": [
+    "N. obturatorius",
+    "N. femoralis",
+    "N. genitofemoralis",
+    "N. pudendus",
+    "N. gluteus superior"
+   ],
+   "answer": 0,
+   "explanation": "N. obturatorius (L2–L4) pelvisin yan duvarında, ovaryum çukurunun yakınından geçerek canalis obturatorius'a girer. Pelvik cerrahi, tümörler veya zor doğumda yaralanabilir; uyluk addüktörleri güçsüzleşir ve uyluk iç yüzünde his kaybı olur.",
+   "entries": [
+    "n-obturatorius",
+    "mm-adductores"
+   ]
+  },
+  {
+   "id": "ne-96063403",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "N. ischiadicus en sık hangi düzeyde iki uç dalına (n. tibialis ve n. fibularis communis) ayrılır?",
+   "options": [
+    "Foramen ischiadicum majus'tan çıkarken",
+    "Uyluğun en üst kısmında, gluteal kıvrımda",
+    "Fibula boynunda",
+    "Malleolus medialis'in arkasında",
+    "Fossa poplitea'nın üst köşesinde"
+   ],
+   "answer": 4,
+   "explanation": "Vücudun en kalın siniri olan n. ischiadicus (L4–S3) genellikle popliteal çukurun tepesinde ikiye ayrılır. Bazen ayrılma daha yukarıda olur ve fibular bölüm piriformisi deler.",
+   "entries": [
+    "n-ischiadicus",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "ne-7800f94a",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "N. tibialis'in popliteal çukurda yaralanması sonucunda aşağıdakilerden hangisi görülür?",
+   "options": [
+    "Düşük ayak ve ayak sırtında his kaybı",
+    "Bacağın iç yüzünde his kaybı",
+    "Ayak plantar fleksiyonunun ve parmak fleksiyonunun kaybı, ayak tabanında his kaybı",
+    "Diz ekstansiyonunun kaybı",
+    "Ayak eversiyonunun kaybı"
+   ],
+   "answer": 2,
+   "explanation": "N. tibialis arka kompartman kaslarını (triceps surae, tibialis posterior, uzun fleksörler) ve plantar dallarıyla ayak tabanı kaslarını innerve eder. Hasarında ayak dorsifleksiyon ve eversiyonda kalır (kalkaneovalgus), parmak ucunda yürünemez ve taban duyusu kaybolur.",
+   "entries": [
+    "n-tibialis",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "ne-bbd6023c",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. sphincter ani externus'u innerve eden sinir hangisidir?",
+   "options": [
+    "Plexus hypogastricus inferior",
+    "N. obturatorius",
+    "Nn. splanchnici pelvici",
+    "N. genitofemoralis",
+    "N. pudendus (n. rectalis inferior)"
+   ],
+   "answer": 4,
+   "explanation": "İstemli kontrol edilen dış anal sfinkter ve dış üretral sfinkter n. pudendus (S2–S4) ile innerve edilir. İç sfinkterler düz kastır ve otonom sinirlerle kontrol edilir.",
+   "entries": [
+    "n-pudendus",
+    "rectum"
+   ]
+  },
+  {
+   "id": "ne-91182414",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ganglion spinale (arka kök ganglionu) hangi hücrelerin gövdelerini içerir?",
+   "options": [
+    "Ara nöronlar (internöronlar)",
+    "Preganglioner sempatik nöronlar",
+    "Postganglioner parasempatik nöronlar",
+    "Alt motor nöronlar",
+    "Psödounipolar duyusal nöronlar"
+   ],
+   "answer": 4,
+   "explanation": "Arka kök ganglionundaki psödounipolar nöronların periferik uzantısı reseptörlerden bilgi alır, santral uzantısı arka kökle omuriliğe girer. Bu ganglionda sinaps yoktur. Herpes zoster virüsü burada latent kalır.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d3c5354b",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Koltuk değneğini yanlış kullanan hastada n. radialis aksillada sıkışırsa, sulcus nervi radialis düzeyindeki lezyondan farklı olarak hangisi de görülür?",
+   "options": [
+    "M. triceps brachii'de güçsüzlük ve triseps refleksinde azalma",
+    "Düşük el görülmez.",
+    "Elin intrinsik kaslarında atrofi",
+    "M. biceps brachii'de güçsüzlük",
+    "Avuç içinde his kaybı"
+   ],
+   "answer": 0,
+   "explanation": "Tricepsin dalları n. radialis'ten aksilla ve kolun üst kısmında ayrılır. Aksiller (koltuk değneği) lezyonda dirsek ekstansiyonu da etkilenir; humerus cismi düzeyindeki lezyonda triceps çoğunlukla korunur, ikisinde de düşük el vardır.",
+   "entries": [
+    "n-radialis",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "ne-ae42ee32",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "N. phrenicus hangi spinal segmentlerden köken alır?",
+   "options": [
+    "C7–T1",
+    "C1–C3",
+    "C3–C5",
+    "T1–T2",
+    "C5–C7"
+   ],
+   "answer": 2,
+   "explanation": "'C3, C4, C5 diyaframı canlı tutar.' N. phrenicus plexus cervicalis'in en önemli dalıdır; C4 asıl katkıyı verir. C3 üstündeki omurilik yaralanmalarında kendiliğinden solunum durur.",
+   "entries": [
+    "n-phrenicus",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "ne-adea3654",
+   "group": "Otonom sinir sistemi",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sempatik sistemin preganglioner nöron gövdeleri omuriliğin neresindedir?",
+   "options": [
+    "Tüm segmentlerin arka boynuzunda",
+    "T1–L2 segmentlerinin lateral boynuzunda (nucleus intermediolateralis)",
+    "S2–S4 segmentlerinin ön boynuzunda",
+    "Beyin sapındaki parasempatik çekirdeklerde",
+    "C1–C8 segmentlerinin lateral boynuzunda"
+   ],
+   "answer": 1,
+   "explanation": "Sempatik sistem torakolomber çıkışlıdır: preganglioner nöronlar T1–L2'nin lateral boynuzundadır ve ak rami communicantes ile sempatik zincire ulaşır. Parasempatik sistem kraniosakraldir (III, VII, IX, X ve S2–S4).",
+   "entries": [
+    "truncus-sympathicus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-d3fdff6f",
+   "group": "Otonom sinir sistemi",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Gözyaşı bezine giden parasempatik lifler hangi ganglionda sinaps yapar?",
+   "options": [
+    "Ganglion oticum",
+    "Ganglion cervicale superius",
+    "Ganglion submandibulare",
+    "Ganglion pterygopalatinum",
+    "Ganglion ciliare"
+   ],
+   "answer": 3,
+   "explanation": "Lifler n. facialis'ten n. petrosus major ile çıkar, n. canalis pterygoidei ile ganglion pterygopalatinum'a ulaşır; postganglioner lifler n. zygomaticus ve n. lacrimalis ile bezi uyarır. Bu nedenle ganglion geniculi proksimalindeki VII lezyonlarında göz kuruluğu olur.",
+   "entries": [
+    "n-facialis",
+    "apparatus-lacrimalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-41a47503",
+   "group": "Otonom sinir sistemi",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Parotis bezinin salgısını uyaran parasempatik lifler hangi sinirle başlar ve hangi ganglionda sinaps yapar?",
+   "options": [
+    "N. glossopharyngeus – ganglion ciliare",
+    "N. glossopharyngeus – ganglion oticum",
+    "N. facialis – ganglion submandibulare",
+    "N. facialis – ganglion pterygopalatinum",
+    "N. vagus – ganglion oticum"
+   ],
+   "answer": 1,
+   "explanation": "IX'un timpanik dalı n. petrosus minor'u oluşturur; lifler otik ganglionda sinaps yapar ve n. auriculotemporalis (V3) ile parotise ulaşır. Submandibular ve sublingual bezler ise VII'nin chorda tympani lifleriyle uyarılır.",
+   "entries": [
+    "n-glossopharyngeus",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-196a637e",
+   "group": "Otonom sinir sistemi",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Uzun süredir sigara içen hastada sağ omuz ve kolun iç yüzüne yayılan ağrı, sağ gözde hafif pitozis, miyozis ve yüzünün sağ yarısında terleme kaybı var. En olası neden hangisidir?",
+   "options": [
+    "Sağ n. facialis felci",
+    "Myastenia gravis",
+    "Sol hemisfer inmesi",
+    "Sağ n. oculomotorius felci",
+    "Sağ akciğer apeksinde Pancoast tümörünün servikal sempatik zinciri tutması"
+   ],
+   "answer": 4,
+   "explanation": "Horner sendromu (pitozis – m. tarsalis superior, miyozis – m. dilatator pupillae, anhidroz) sempatik yolun herhangi bir yerdeki hasarıyla olur. Akciğer apeksi tümörü stellat ganglion ve alt gövdeyi (C8–T1) tutarak Horner ile kolda ağrıya yol açar.",
+   "entries": [
+    "truncus-sympathicus",
+    "pulmones",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-829e615f",
+   "group": "Otonom sinir sistemi",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Böbrek üstü bezi medullasının sempatik innervasyonu için hangisi doğrudur?",
+   "options": [
+    "Medulla otonom innervasyon almaz.",
+    "Kromaffin hücreler postganglioner nöronlardan uyarı alır.",
+    "Postganglioner lifler çölyak ganglionundan gelir.",
+    "Preganglioner lifler doğrudan medulla hücrelerinde sonlanır; medulla bir ganglion gibi davranır.",
+    "Parasempatik lifler n. vagus ile gelir."
+   ],
+   "answer": 3,
+   "explanation": "Adrenal medullanın kromaffin hücreleri nöral krista kökenlidir ve modifiye postganglioner nöronlar sayılır. Splanknik sinirlerle gelen preganglioner lifler doğrudan bu hücrelerle sinaps yaparak adrenalin ve noradrenalin salınımını uyarır.",
+   "entries": [
+    "glandula-suprarenalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-86aa969a",
+   "group": "Otonom sinir sistemi",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ter bezlerinin sempatik innervasyonunda postganglioner liflerin salgıladığı nörotransmiter hangisidir?",
+   "options": [
+    "Adrenalin",
+    "Serotonin",
+    "Dopamin",
+    "Noradrenalin",
+    "Asetilkolin"
+   ],
+   "answer": 4,
+   "explanation": "Sempatik postganglioner liflerin çoğu noradrenerjiktir; ancak ekrin ter bezlerine gidenler kolinerjiktir (muskarinik reseptörler). Bu nedenle antikolinerjik ilaçlar terlemeyi azaltır.",
+   "entries": [
+    "glandulae-cutis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-bdaebe1a",
+   "group": "Otonom sinir sistemi",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Nn. splanchnici pelvici ile ilgili aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yalnızca duyusal liflerden oluşurlar.",
+    "T5–T9'dan çıkan preganglioner sempatik lifler taşırlar.",
+    "Postganglioner sempatik lifler taşırlar.",
+    "N. vagus'un pelvis dallarıdır.",
+    "S2–S4'ten çıkan preganglioner parasempatik lifler taşırlar."
+   ],
+   "answer": 4,
+   "explanation": "Pelvik splanknik sinirler mesane (detrusor kasılması), rektum, inen ve sigmoid kolon ile ereksiyonu (‘point’) sağlayan parasempatik lifleri taşır. Torakal splanknik sinirler (major T5–T9, minor T10–T11, imus T12) ise sempatiktir.",
+   "entries": [
+    "systema-autonomicum",
+    "vesica-urinaria"
+   ]
+  },
+  {
+   "id": "ne-f843505f",
+   "group": "Otonom sinir sistemi",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Apandisit başlangıcında hasta göbek çevresinde, sınırları belirsiz ağrı tarifliyor; saatler sonra ağrı sağ alt kadrana yerleşiyor. İlk ağrının göbek çevresinde hissedilmesinin nedeni nedir?",
+   "options": [
+    "N. ilioinguinalis apendiksi innerve eder.",
+    "Parietal periton erken dönemde tutulur.",
+    "N. phrenicus tahriş olur.",
+    "Apendiks göbeğin hemen arkasında yer alır.",
+    "Apendiksin viseral afferentleri T10 segmentine girer; ağrı bu dermatoma yansır."
+   ],
+   "answer": 4,
+   "explanation": "Orta bağırsak kökenli organların viseral ağrısı sempatik liflerle T10 segmentine taşınır ve göbek çevresine yansır. İnflamasyon parietal peritona ulaştığında somatik innervasyon sayesinde ağrı McBurney noktasına lokalize olur.",
+   "entries": [
+    "appendix-vermiformis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-6eb71b69",
+   "group": "Otonom sinir sistemi",
+   "level": "tus",
+   "clinical": false,
+   "stem": "N. vagus'un parasempatik innervasyonu bağırsak kanalında yaklaşık nereye kadar uzanır?",
+   "options": [
+    "Colon transversum'un sol üçte birine (flexura coli sinistra yakınına) kadar",
+    "Sigmoid kolonun başına kadar",
+    "Rektumun sonuna kadar",
+    "Duodenumun sonuna kadar",
+    "Ileumun sonuna kadar"
+   ],
+   "answer": 0,
+   "explanation": "Vagus ön ve orta bağırsak türevlerini (transvers kolonun yaklaşık 2/3'üne kadar) innerve eder. Sol kolon bükümünden itibaren arka bağırsak türevleri parasempatik lifleri pelvik splanknik sinirlerden (S2–S4) alır.",
+   "entries": [
+    "n-vagus",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "ne-dd43e180",
+   "group": "Otonom sinir sistemi",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ganglion stellatum hangi ganglionların birleşmesiyle oluşur?",
+   "options": [
+    "Alt servikal ganglion ve birinci torakal ganglion",
+    "Çölyak ve aortikorenal ganglionlar",
+    "Siliyer ve pterigopalatin ganglionlar",
+    "Orta servikal ve ikinci torakal ganglionlar",
+    "Üst ve orta servikal ganglionlar"
+   ],
+   "answer": 0,
+   "explanation": "Stellat (servikotorasik) ganglion çoğu kişide alt servikal ve T1 ganglionlarının kaynaşmasıyla oluşur; 1. kaburga boynunun önünde, a. vertebralis'in başlangıcının arkasındadır. Blokajı üst ekstremitenin sempatik kaynaklı ağrılarında kullanılır ve Horner sendromuna yol açar.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-53acb8d2",
+   "group": "Otonom sinir sistemi",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Rami communicantes albi (ak bağlantı dalları) için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yalnızca T1–L2 spinal sinirlerinde bulunur ve miyelinli preganglioner lifler taşır.",
+    "Tüm spinal sinirlerde bulunur.",
+    "Parasempatik lifleri sempatik zincire taşır.",
+    "Miyelinsiz postganglioner lifler taşır.",
+    "Yalnızca servikal sinirlerde bulunur."
+   ],
+   "answer": 0,
+   "explanation": "Ak dallar preganglioner liflerin miyelinli olması nedeniyle beyaz görünür ve yalnızca sempatik çıkışın olduğu T1–L2 segmentlerinde vardır. Gri dallar (miyelinsiz postganglioner) zincirden tüm spinal sinirlere geri döner; böylece tüm vücut derisindeki damar, ter bezi ve kıl kasları sempatik lif alır.",
+   "entries": [
+    "truncus-sympathicus",
+    "ganglion-spinale"
+   ]
+  }
+ ]
+}

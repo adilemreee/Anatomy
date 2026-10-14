@@ -25,10 +25,11 @@ struct SearchView: View {
                         Section("Atlas maddeleri") {
                             ForEach(entries) { entry in
                                 NavigationLink(value: entry) {
-                                    EntryRow(entry: entry, tint: app.store.system(entry.systemID)?.tint ?? .accentColor)
+                                    EntryRow(entry: entry, tint: app.store.system(entry.systemID)?.tint ?? Theme.accent, locked: !app.isFree(entry), chevron: false)
                                 }
                             }
                         }
+                        .listRowBackground(Theme.card)
                     }
                     if !parts.isEmpty {
                         Section("3D model parçaları") {
@@ -36,9 +37,12 @@ struct SearchView: View {
                                 PartResultRow(ref: ref)
                             }
                         }
+                        .listRowBackground(Theme.card)
                     }
                 }
             }
+            .scrollContentBackground(.hidden)
+            .themedBackground()
             .navigationTitle("Ara")
             .searchable(text: $query, prompt: "Kemik, kas, organ, sinir…")
             .navigationDestination(for: AtlasEntry.self) { EntryDetailView(entry: $0) }
@@ -57,10 +61,11 @@ struct SearchView: View {
             Section("Son bakılanlar") {
                 ForEach(recents.prefix(8)) { entry in
                     NavigationLink(value: entry) {
-                        EntryRow(entry: entry, tint: app.store.system(entry.systemID)?.tint ?? .accentColor)
+                        EntryRow(entry: entry, tint: app.store.system(entry.systemID)?.tint ?? Theme.accent, locked: !app.isFree(entry), chevron: false)
                     }
                 }
             }
+            .listRowBackground(Theme.card)
         }
         Section("Örnek aramalar") {
             ForEach(["Femur", "Kalp", "N. medianus", "Biceps", "Karaciğer", "Willis", "Böbrek", "Koroner"], id: \.self) { sample in
@@ -71,6 +76,7 @@ struct SearchView: View {
                 }
             }
         }
+        .listRowBackground(Theme.card)
     }
 
     private func searchParts(_ text: String) -> [PartRef] {
@@ -82,7 +88,8 @@ struct SearchView: View {
         for layer in ModelLayer.all {
             for (i, part) in (app.scene.manifests[layer.id] ?? []).enumerated() {
                 let latin = store.latinName(for: part) ?? ""
-                guard SearchText.fold(part.base).contains(q) || SearchText.fold(latin).contains(q) else { continue }
+                let turkish = store.displayName(for: part)
+                guard SearchText.fold(part.base).contains(q) || SearchText.fold(latin).contains(q) || SearchText.fold(turkish).contains(q) else { continue }
                 // One row per structure; left/right share a row.
                 guard seen.insert(layer.id + part.base).inserted else { continue }
                 out.append(PartRef(system: layer.id, index: i))
@@ -111,10 +118,10 @@ private struct PartResultRow: View {
                         SystemBadge(icon: layer.icon, color: layer.tint, size: 30)
                     }
                     VStack(alignment: .leading, spacing: 2) {
-                        Text(app.store.latinName(for: info) ?? info.base)
+                        Text(app.store.displayName(for: info))
                             .foregroundStyle(.primary)
-                        Text(info.base)
-                            .font(.caption)
+                        Text(app.store.latinName(for: info) ?? info.base)
+                            .font(.caption.italic())
                             .foregroundStyle(.secondary)
                     }
                     Spacer()

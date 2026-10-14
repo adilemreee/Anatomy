@@ -1,0 +1,388 @@
+{
+ "system": "endocrine",
+ "questions": [
+  {
+   "id": "en-2796db2d",
+   "group": "Endokrin bezler",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Baş ağrısı olan hastada görme alanı muayenesinde bitemporal hemianopsi saptanıyor; MR'da sella turcica'dan yukarı uzanan kitle var. Kitle hangi yapıdan köken alır ve neye bası yapar?",
+   "options": [
+    "Epifiz bezi – colliculus superior",
+    "Sinus sphenoidalis – n. opticus",
+    "Tiroid bezi – trakea",
+    "Hipofiz bezi – chiasma opticum",
+    "Hipotalamus – tractus opticus"
+   ],
+   "answer": 3,
+   "explanation": "Hipofiz sella turcica'da, chiasma opticum'un hemen altındadır. Yukarı büyüyen makroadenomlar kiazmada çaprazlaşan nazal retina liflerine bası yapar. Yana büyüyen adenomlar sinus cavernosus'taki kranial sinirleri etkileyebilir.",
+   "entries": [
+    "hypophysis",
+    "n-opticus",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "en-55489197",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Adenohipofizin embriyolojik kökeni hangisidir?",
+   "options": [
+    "Diensefalonun aşağı uzantısı (infundibulum)",
+    "Üçüncü faringeal kese",
+    "Foramen caecum'dan inen endoderm",
+    "Ağız boşluğu tavanının ektoderminden gelişen Rathke kesesi",
+    "Nöral krista"
+   ],
+   "answer": 3,
+   "explanation": "Ön hipofiz stomodeum tavanından yukarı büyüyen Rathke kesesinden, arka hipofiz ise diensefalonun tabanından aşağı inen infundibulumdan gelişir. Rathke kesesi kalıntılarından kraniyofarenjiyom gelişebilir.",
+   "entries": [
+    "adenohypophysis",
+    "neurohypophysis"
+   ]
+  },
+  {
+   "id": "en-7f9e1b0b",
+   "group": "Endokrin bezler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdaki hormonlardan hangisi arka hipofizden (nörohipofiz) salınır?",
+   "options": [
+    "Oksitosin",
+    "ACTH",
+    "TSH",
+    "Büyüme hormonu",
+    "Prolaktin"
+   ],
+   "answer": 0,
+   "explanation": "Arka hipofiz hormon üretmez; hipotalamusun supraoptik ve paraventriküler çekirdeklerinde yapılan ADH ve oksitosini aksonlarla taşıyıp depolar ve kana verir. Diğer seçenekler ön hipofiz hormonlarıdır.",
+   "entries": [
+    "neurohypophysis",
+    "hypothalamus"
+   ]
+  },
+  {
+   "id": "en-10ab5425",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Doğum sırasında masif kanama geçiren kadın doğum sonrası emziremiyor, adetleri geri gelmiyor ve yorgunluk, soğuk intoleransı gelişiyor. Bu tablonun anatomik açıklaması nedir?",
+   "options": [
+    "Tiroid bezinin doğum travmasıyla hasar görmesi",
+    "Arka hipofizin doğrudan a. carotis interna'dan beslenmesi",
+    "Gebelikte büyüyen ön hipofizin portal sisteme bağımlı kanlanmasının hipotansiyonda bozulması (Sheehan sendromu)",
+    "Hipofiz sapının doğum sırasında kopması",
+    "Böbreküstü bezinin doğum sırasında kanaması"
+   ],
+   "answer": 2,
+   "explanation": "Ön hipofiz kanının büyük kısmını hipofizer portal venlerden alır ve düşük basınçlı bir sistemdir. Gebelikte hipertrofiye uğrayan bez ağır hipotansiyonda iskemik nekroza gider; prolaktin, gonadotropin, TSH ve ACTH eksikliği gelişir.",
+   "entries": [
+    "adenohypophysis",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "en-148b5f61",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Hipofizin yanlarında sinus cavernosus bulunması klinik olarak neden önemlidir?",
+   "options": [
+    "Sinus cavernosus hipofizin ana arteriyel kaynağıdır.",
+    "Sinus cavernosus hipofizi optik kiazmadan ayırır.",
+    "Yana büyüyen adenomlar III, IV, V1, V2 ve VI ile a. carotis interna'yı etkileyebilir.",
+    "Hipofiz cerrahisi sinus cavernosus'tan geçilerek yapılır.",
+    "Hipofiz hormonları sinus cavernosus'a salınmaz."
+   ],
+   "answer": 2,
+   "explanation": "Kavernöz sinüs içinde ICA ve n. abducens, dış duvarında III, IV, V1 ve V2 bulunur. Hipofiz tümörlerinin yana uzanması bu sinirlerin felcine yol açabilir; transsfenoidal cerrahide ICA'nın konumu önemlidir.",
+   "entries": [
+    "hypophysis",
+    "sinus-durae-matris",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "en-68a8e226",
+   "group": "Endokrin bezler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Epifiz bezi (corpus pineale) hangi hormonu salgılar ve nerede yer alır?",
+   "options": [
+    "Melatonin; sella turcica'da",
+    "Serotonin; 4. ventrikülün tabanında",
+    "Oksitosin; hipotalamusun tabanında",
+    "Melatonin; 3. ventrikülün arka duvarında, colliculus superior'ların üstünde",
+    "Kortizol; böbreğin üst kutbunda"
+   ],
+   "answer": 3,
+   "explanation": "Epifiz diensefalonun (epithalamus) parçasıdır. Retinadan suprakiazmatik çekirdeğe gelen ışık bilgisi sempatik yollarla epifize ulaşır; karanlıkta melatonin salınımı artar. Yaşla kalsifiye olan bez grafide orta hat göstergesidir.",
+   "entries": [
+    "glandula-pinealis",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "en-2040c910",
+   "group": "Endokrin bezler",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Boynunun ön orta hattında, hyoidin hemen altında kitlesi olan çocukta kitle dilini dışarı çıkardığında yukarı hareket ediyor. En olası tanı nedir?",
+   "options": [
+    "Tiroid adenomu",
+    "Dermoid kist",
+    "Kistik higroma",
+    "Tiroglossal kanal kisti",
+    "Brankiyal yarık kisti"
+   ],
+   "answer": 3,
+   "explanation": "Tiroid dilin kökündeki foramen caecum'dan başlayarak tiroglossal kanal boyunca aşağı iner. Kanal kalıntısı orta hatta kist oluşturur ve dil ile bağlantılı olduğu için dil çıkarılınca yükselir. Tedavide hyoidin orta kısmı da çıkarılır (Sistrunk).",
+   "entries": [
+    "glandula-thyroidea",
+    "lingua",
+    "os-hyoideum"
+   ]
+  },
+  {
+   "id": "en-d76e9b8d",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Tiroid bezinin yutkunmayla yukarı hareket etmesinin nedeni nedir?",
+   "options": [
+    "Bezin pretrakeal fasya ile sarılı olması ve bu fasyanın larinks ile trakeaya bağlı olması",
+    "Bezin lig. arteriosum ile bağlantılı olması",
+    "Bezin özofagusun içinde yer alması",
+    "Bezin m. sternocleidomastoideus'a yapışık olması",
+    "Bezin hyoide doğrudan tutunması"
+   ],
+   "answer": 0,
+   "explanation": "Tiroid, derin servikal fasyanın pretrakeal yaprağıyla sarılıdır ve bu fasya (Berry bağı) bezi krikoid kıkırdak ve trakeaya bağlar. Bu nedenle tiroid kökenli kitleler yutkunmayla larinksle birlikte yükselir.",
+   "entries": [
+    "glandula-thyroidea",
+    "trachea"
+   ]
+  },
+  {
+   "id": "en-11d43df1",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Tiroidektomide n. laryngeus recurrens'in yaralanma riski en fazla hangi damarın bağlanması sırasındadır?",
+   "options": [
+    "V. jugularis interna",
+    "V. thyroidea superior",
+    "A. carotis communis",
+    "A. thyroidea inferior",
+    "A. thyroidea superior"
+   ],
+   "answer": 3,
+   "explanation": "Rekürren sinir trakeoözofageal olukta yükselirken bezin arka-alt kısmında a. thyroidea inferior'un dallarıyla çaprazlaşır; sinir arterin önünden, arkasından veya dalları arasından geçebilir. Arter bezden uzakta bağlanır, sinir görülerek korunur.",
+   "entries": [
+    "glandula-thyroidea",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "en-a0d87454",
+   "group": "Endokrin bezler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A. thyroidea superior ve a. thyroidea inferior sırasıyla hangi arterlerden çıkar?",
+   "options": [
+    "Arcus aortae ve a. thoracica interna",
+    "Truncus thyrocervicalis ve a. carotis externa",
+    "A. carotis interna ve a. vertebralis",
+    "A. carotis externa ve truncus thyrocervicalis",
+    "A. subclavia ve a. carotis communis"
+   ],
+   "answer": 3,
+   "explanation": "Üst tiroid arteri ECA'nın ilk dalıdır ve bezin üst kutbuna iner; alt tiroid arteri a. subclavia'nın tirocervikal gövdesinden çıkar ve bezin arka yüzüne ulaşır. Bazı kişilerde orta hatta a. thyroidea ima bulunur.",
+   "entries": [
+    "glandula-thyroidea",
+    "a-carotis-externa",
+    "a-subclavia"
+   ]
+  },
+  {
+   "id": "en-dc68eb84",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Total tiroidektomiden 24 saat sonra hastada ağız çevresinde uyuşma, parmaklarda karıncalanma ve tansiyon manşeti şişirildiğinde el bileğinde spazm (Trousseau belirtisi) gelişiyor. En olası neden nedir?",
+   "options": [
+    "N. laryngeus recurrens yaralanması",
+    "Paratiroid bezlerinin çıkarılması veya kanlanmasının bozulmasına bağlı hipokalsemi",
+    "Hipotiroidi",
+    "Boyun hematomu",
+    "Tiroid fırtınası"
+   ],
+   "answer": 1,
+   "explanation": "Paratiroidler tiroidin arka yüzündedir ve çoğunlukla a. thyroidea inferior'dan beslenir. Cerrahide çıkarılmaları veya devaskülarize olmaları PTH eksikliği ve hipokalsemi yapar; Chvostek ve Trousseau belirtileri görülür.",
+   "entries": [
+    "glandulae-parathyroideae",
+    "glandula-thyroidea"
+   ]
+  },
+  {
+   "id": "en-c58bce2d",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Alt paratiroid bezlerinin yerinin üst paratiroidlerden daha değişken olmasının embriyolojik nedeni nedir?",
+   "options": [
+    "Alt paratiroidler 3. faringeal keseden timusla birlikte gelişir ve onunla birlikte aşağı göç eder.",
+    "Üst paratiroidler timusla birlikte göç eder.",
+    "Alt paratiroidler tiroid divertikülünden gelişir.",
+    "Alt paratiroidler 4. faringeal keseden gelişir ve hiç göç etmez.",
+    "Alt paratiroidler nöral kristadan gelişir."
+   ],
+   "answer": 0,
+   "explanation": "3. kese hem alt paratiroidi hem timusu oluşturur; timus mediastene inerken alt paratiroidi de aşağı taşır ve bez bazen mediastende bulunabilir. Üst paratiroidler 4. keseden gelişir ve daha kısa bir göç yaptıkları için daha sabit konumdadır.",
+   "entries": [
+    "glandulae-parathyroideae",
+    "thymus"
+   ]
+  },
+  {
+   "id": "en-7a28db0f",
+   "group": "Endokrin bezler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Böbreküstü bezi korteksinin katmanları ve salgıladıkları hormonlar hangisinde doğru verilmiştir?",
+   "options": [
+    "Zona glomerulosa – androjenler; zona fasciculata – kortizol; zona reticularis – aldosteron",
+    "Zona glomerulosa – aldosteron; zona fasciculata – kortizol; zona reticularis – androjenler",
+    "Tüm katmanlar yalnızca kortizol salgılar.",
+    "Zona glomerulosa – kortizol; zona fasciculata – aldosteron; zona reticularis – adrenalin",
+    "Zona glomerulosa – adrenalin; zona fasciculata – noradrenalin; zona reticularis – kortizol"
+   ],
+   "answer": 1,
+   "explanation": "Dıştan içe 'tuz, şeker, seks' sırası: mineralokortikoid, glukokortikoid, androjen. Medulla nöral krista kökenli kromaffin hücrelerden oluşur ve katekolamin salgılar.",
+   "entries": [
+    "glandula-suprarenalis"
+   ]
+  },
+  {
+   "id": "en-701a2e50",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Böbreküstü bezlerinin venöz drenajı ile ilgili hangisi doğrudur?",
+   "options": [
+    "Sağ suprarenal ven doğrudan VCI'ya, sol suprarenal ven sol renal vene açılır.",
+    "Her iki ven de doğrudan VCI'ya açılır.",
+    "Her iki ven de portal vene açılır.",
+    "Sol ven doğrudan VCI'ya, sağ ven sağ renal vene açılır.",
+    "Böbreküstü bezlerinin veni yoktur, lenfatiklerle drene olur."
+   ],
+   "answer": 0,
+   "explanation": "Böbreküstü bezleri üç arterden beslenir (inferior frenik, aorta ve renal arter dalları) ancak tek bir ana venle drene olur. Sağ ven çok kısadır ve doğrudan VCI'ya açılır; sağ adrenalektomide kanama riski bu nedenle yüksektir.",
+   "entries": [
+    "glandula-suprarenalis",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "en-45209b87",
+   "group": "Endokrin bezler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Böbreküstü bezinin arterleri hangilerinden çıkar?",
+   "options": [
+    "Truncus coeliacus, a. splenica ve a. gastrica sinistra",
+    "Aa. lumbales ve a. iliaca communis",
+    "A. mesenterica superior ve inferior",
+    "A. phrenica inferior, abdominal aorta ve a. renalis",
+    "A. testicularis/ovarica ve a. renalis"
+   ],
+   "answer": 3,
+   "explanation": "Üst suprarenal arterler a. phrenica inferior'dan, orta suprarenal arter doğrudan aortadan, alt suprarenal arter a. renalis'ten çıkar. Bez organın büyüklüğüne göre çok zengin kanlanmaya sahiptir.",
+   "entries": [
+    "glandula-suprarenalis",
+    "aorta",
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "en-e601f124",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Atak tarzında baş ağrısı, terleme, çarpıntı ve yüksek tansiyonu olan genç hastada idrarda metanefrin yüksek. Tümörün en sık köken aldığı hücreler ve bunların embriyolojik kökeni hangisidir?",
+   "options": [
+    "Zona glomerulosa hücreleri – mezoderm",
+    "Tiroidin C hücreleri – endoderm",
+    "Zona fasciculata hücreleri – endoderm",
+    "Pankreasın beta hücreleri – endoderm",
+    "Adrenal medulladaki kromaffin hücreler – nöral krista"
+   ],
+   "answer": 4,
+   "explanation": "Feokromositoma katekolamin salgılayan kromaffin hücre tümörüdür ve çoğunlukla adrenal medullada gelişir. Medulla nöral krista kökenlidir ve modifiye sempatik postganglioner nöronlardan oluşur.",
+   "entries": [
+    "glandula-suprarenalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "en-d6a0be2b",
+   "group": "Endokrin bezler",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Langerhans adacıkları pankreasın en çok hangi bölümünde yoğunlaşır?",
+   "options": [
+    "Kuyruk",
+    "Boyun",
+    "Processus uncinatus",
+    "Baş",
+    "Ana kanal çevresi"
+   ],
+   "answer": 0,
+   "explanation": "Adacıklar pankreasın tamamına dağılmış olsa da en yoğun olarak kuyrukta bulunur. Distal pankreatektomi sonrası diyabet riski bu nedenle önemlidir.",
+   "entries": [
+    "insulae-pancreaticae",
+    "pancreas"
+   ]
+  },
+  {
+   "id": "en-20e113eb",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Tiroidin kalsitonin salgılayan parafoliküler (C) hücreleri embriyolojik olarak nereden gelir?",
+   "options": [
+    "Rathke kesesi",
+    "Mezonefroz",
+    "Ultimobrankiyal cisim (4.–5. faringeal kese) aracılığıyla nöral krista",
+    "3. faringeal kese",
+    "Foramen caecum endodermi"
+   ],
+   "answer": 2,
+   "explanation": "Tiroid foliküler hücreleri tiroglossal kanal endoderminden, C hücreleri ise ultimobrankiyal cisme göç eden nöral krista hücrelerinden gelişir. Medüller tiroid karsinomu C hücrelerinden köken alır ve kalsitonin salgılar.",
+   "entries": [
+    "glandula-thyroidea"
+   ]
+  },
+  {
+   "id": "en-d8e6974a",
+   "group": "Endokrin bezler",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Hipofiz sapının kesilmesi (örneğin travma) sonrasında hangi hormonun kan düzeyi artar?",
+   "options": [
+    "Büyüme hormonu",
+    "LH",
+    "ADH",
+    "ACTH",
+    "Prolaktin"
+   ],
+   "answer": 4,
+   "explanation": "Prolaktin salınımı hipotalamik dopamin ile tonik olarak baskılanır. Sap kesildiğinde dopamin ön hipofize ulaşamaz ve prolaktin artar; diğer ön hipofiz hormonları ise uyarıcı hipotalamik hormonların yokluğunda azalır. ADH salınımı da bozulur (diabetes insipidus).",
+   "entries": [
+    "adenohypophysis",
+    "hypothalamus"
+   ]
+  }
+ ]
+}

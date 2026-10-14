@@ -36,6 +36,10 @@
     "Burun kanamalarının %90'ı septumun ön-alt kısmındaki Kiesselbach (Little) alanından olur.",
     "Septum deviasyonu ve konka hipertrofisi burun tıkanıklığının sık nedenleridir."
    ],
+   "tus": [
+    "Kiesselbach alanında a. sphenopalatina, a. ethmoidalis anterior, a. palatina major ve a. labialis superior'un septal dalları anastomoz yapar.",
+    "Arka burun kanamaları çoğunlukla a. sphenopalatina kaynaklıdır ve yaşlılarda daha ağır seyreder."
+   ],
    "related": [
     "sinus-paranasales",
     "os-ethmoidale",
@@ -78,6 +82,10 @@
    "clinical": [
     "Akut sinüzit çoğunlukla viral üst solunum yolu enfeksiyonunu izler; maksiller sinüs en sık etkilenendir.",
     "Fonksiyonel endoskopik sinüs cerrahisinde ostiomeatal kompleks açılır."
+   ],
+   "tus": [
+    "Sinüslerden en sık maksiller, çocuklarda ise etmoid sinüzit görülür; etmoid sinüzit orbital selülite yol açabilir.",
+    "Frontal sinüzit kafa içine (epidural apse) ve frontal kemiğe (Pott kabarık tümörü) yayılabilir."
    ],
    "related": [
     "cavitas-nasi",
@@ -139,6 +147,10 @@
     "İki taraflı n. laryngeus recurrens felcinde ses telleri orta hatta kalarak solunum sıkıntısı yapabilir.",
     "Epiglottit (özellikle çocuklarda) hava yolunu tıkayabilen acil bir durumdur."
    ],
+   "tus": [
+    "Larinksin duyusu: ses tellerinin üstü n. laryngeus internus (SLN), altı n. laryngeus recurrens.",
+    "Çocuk larinksi daha yüksekte (C3–C4) ve huni biçimlidir; en dar yeri subglottik bölgedir."
+   ],
    "related": [
     "trachea",
     "pharynx",
@@ -199,6 +211,10 @@
     "Trakeostomi genellikle 2.–4. trakea halkaları arasından yapılır; tiroid isthmusu bu hizadadır.",
     "Carina mukozası çok duyarlıdır; dokunulması şiddetli öksürük refleksi oluşturur."
    ],
+   "tus": [
+    "Trakeanın arka duvarında kıkırdak yoktur; trakeoözofageal fistül bu duvarda gelişir.",
+    "Sağ ana bronş trakeanın devamı gibi seyrettiği için entübasyon tüpü fazla ilerletilirse sağ ana bronşa girer."
+   ],
    "related": [
     "larynx",
     "bronchi",
@@ -247,6 +263,10 @@
    "clinical": [
     "Aspire edilen yabancı cisimler çoğunlukla sağ ana bronşa ve sağ alt loba gider.",
     "Astımda bronşiyol düz kaslarının kasılması ve mukus artışı hava yolunu daraltır."
+   ],
+   "tus": [
+    "Sağ ana bronş ~2,5 cm, sol ana bronş ~5 cm uzunluğundadır.",
+    "Karina açısının genişlemesi subkarinal lenfadenopati veya sol atriyum büyümesini düşündürür."
    ],
    "related": [
     "trachea",
@@ -307,6 +327,10 @@
     "Akciğer kanseri dünyada kansere bağlı ölümlerin en sık nedenidir; sigara başlıca risk faktörüdür.",
     "KOAH, amfizem ve kronik bronşit ile karakterize ilerleyici hava akımı kısıtlılığıdır."
    ],
+   "tus": [
+    "Akciğerin alt sınırları: midklavikular hatta 6., midaksiller hatta 8., paravertebral hatta 10. kaburga; plevranın sınırları iki kaburga aşağıdadır (8, 10, 12).",
+    "Bronşiyal arterler akciğer dokusunu besler; pulmoner arterler gaz alışverişi içindir."
+   ],
    "related": [
     "pulmo-dexter",
     "pulmo-sinister",
@@ -353,6 +377,10 @@
    "clinical": [
     "Aspirasyon pnömonisi sırtüstü yatan hastada sıklıkla sağ alt lobun süperior segmentinde gelişir."
    ],
+   "tus": [
+    "Sağ akciğerde oblik ve horizontal fissür vardır; horizontal fissür sağ 4. kaburga kıkırdağı hizasındadır.",
+    "Sağ akciğerin mediastinal yüzünde VCS, v. azygos, özofagus ve sağ atriyumun izleri bulunur."
+   ],
    "related": [
     "pulmones",
     "pulmo-sinister",
@@ -397,6 +425,10 @@
    ],
    "sections": [],
    "clinical": [],
+   "tus": [
+    "Sol akciğerde horizontal fissür yoktur; incisura cardiaca ve lingula bulunur (orta lobun karşılığı).",
+    "Sol akciğerin mediastinal yüzünde arcus aortae, inen aorta ve sol ventrikülün izleri vardır."
+   ],
    "related": [
     "pulmones",
     "pulmo-dexter",
@@ -445,6 +477,10 @@
     "Plevral efüzyon (sıvı birikimi) kalp yetmezliği, enfeksiyon veya kanserde görülür; torasentezle boşaltılır.",
     "Plöritik ağrı solunumla artan keskin göğüs ağrısıdır."
    ],
+   "tus": [
+    "Parietal plevra somatik innervasyon alır (interkostal ve frenik sinirler; ağrıya duyarlı), visseral plevra otonom (ağrısız).",
+    "Pnömotoraksta göğüs tüpü genellikle 5. interkostal aralıktan, ön aksiller hat ile midaksiller hat arasındaki 'güvenli üçgen'den yerleştirilir."
+   ],
    "related": [
     "pulmones",
     "costae",
@@ -457,6 +493,418 @@
    "aliases": [
     "plevra",
     "pnömotoraks"
+   ]
+  },
+  {
+   "id": "epiglottis",
+   "tr": "Gırtlak kapağı (epiglot)",
+   "la": "Epiglottis",
+   "en": "Epiglottis",
+   "group": "Üst solunum yolları",
+   "region": "neck",
+   "summary": "Dil kökünün arkasında yer alan, elastik kıkırdaktan yapılmış yaprak biçimli gırtlak kıkırdağıdır. Yutkunma sırasında gırtlak yukarı-öne kalkarken arkaya yatarak gırtlak girişini örter.",
+   "facts": [
+    [
+     "Kıkırdak tipi",
+     "Elastik kıkırdak (yaşla kemikleşmez)"
+    ],
+    [
+     "Tutunma",
+     "Sapı (petiolus) lig. thyroepiglotticum ile tiroid kıkırdağın iç yüzüne bağlanır"
+    ],
+    [
+     "Komşuluk",
+     "Ön yüzü ile dil kökü arasında valleculae epiglotticae; yanlarda plicae aryepiglotticae gırtlak girişini sınırlar"
+    ],
+    [
+     "İnnervasyon",
+     "Mukozası n. laryngeus superior'un iç dalı (X); vallekula bölgesi kısmen n. glossopharyngeus"
+    ],
+    [
+     "Tat",
+     "Epiglot üzerinde az sayıda tat tomurcuğu bulunur; bu bölgenin tadı n. vagus ile taşınır"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Akut epiglottit (çoğunlukla H. influenzae tip b) salya akıtma, öne eğilerek oturma ve stridorla seyreden, hava yolunu tıkayabilen acil bir durumdur.",
+    "Entübasyonda Macintosh laringoskop bıçağının ucu valleküle yerleştirilerek epiglot dolaylı olarak kaldırılır."
+   ],
+   "tus": [
+    "Epiglot elastik kıkırdaktır; tiroid, krikoid ve aritenoidlerin büyük kısmı hiyalin kıkırdaktır ve yaşla kemikleşebilir.",
+    "Gırtlak girişinin sınırları: önde epiglot, yanlarda plicae aryepiglotticae, arkada aritenoidler arası çentik."
+   ],
+   "related": [
+    "larynx",
+    "lingua",
+    "pharynx",
+    "cartilagines-laryngis"
+   ],
+   "models": [
+    "Epiglottis"
+   ],
+   "aliases": [
+    "epiglot",
+    "gırtlak kapağı"
+   ]
+  },
+  {
+   "id": "cartilagines-laryngis",
+   "tr": "Gırtlak kıkırdakları",
+   "la": "Cartilagines laryngis",
+   "en": "Laryngeal cartilages",
+   "group": "Üst solunum yolları",
+   "region": "neck",
+   "summary": "Gırtlağın iskeletini oluşturan, eklemler, bağlar ve zarlarla birbirine bağlanan üç tek ve üç çift kıkırdaktır. Tiroid ve krikoid kıkırdaklar boynun ön yüzünde kolayca ele gelir.",
+   "facts": [
+    [
+     "Tek kıkırdaklar",
+     "Cartilago thyroidea (en büyük; prominentia laryngea – Adem elması), cartilago cricoidea (tam halka), epiglottis"
+    ],
+    [
+     "Çift kıkırdaklar",
+     "Cartilagines arytenoideae (ses tellerinin arka ucu – processus vocalis; kasların tutunduğu processus muscularis), corniculatae, cuneiformes"
+    ],
+    [
+     "Eklemler",
+     "Art. cricothyroidea (tiroidin krikoid üzerinde öne eğilmesi – ses tellerini gerer), art. cricoarytenoidea (aritenoidlerin dönmesi ve kayması)"
+    ],
+    [
+     "Zarlar ve bağlar",
+     "Membrana thyrohyoidea (a. laryngea superior ve n. laryngeus superior'un iç dalı deler), lig. cricothyroideum medianum (conus elasticus'un ön kalınlaşması)"
+    ],
+    [
+     "Düzeyler",
+     "Tiroid kıkırdak C4–C5; krikoid kıkırdak C6 (farinksin özofagusa, larinksin trakeaya geçtiği düzey)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Acil hava yolunda tiroid ve krikoid kıkırdaklar arasındaki lig. cricothyroideum medianum kesilir (krikotiroidotomi).",
+    "Krikoid kıkırdak tam halka olduğundan entübasyonda Sellick manevrasıyla (krikoid bası) arkadaki özofagus kapatılabilir."
+   ],
+   "tus": [
+    "Krikoid kıkırdak solunum yolundaki tek tam kıkırdak halkadır ve C6 düzeyindedir.",
+    "Ses tellerini geren tek kas m. cricothyroideus'tur (n. laryngeus externus); tiroid kıkırdağı öne eğer."
+   ],
+   "related": [
+    "larynx",
+    "epiglottis",
+    "mm-laryngis",
+    "trachea",
+    "glandula-thyroidea"
+   ],
+   "models": [
+    "Thyroid cartilage",
+    "Cricoid cartilage",
+    "Arytenoid cartilage",
+    "Corniculate cartilage",
+    "Median cricothyroid ligament",
+    "Thyrohyoid membrane"
+   ],
+   "aliases": [
+    "tiroid kıkırdak",
+    "krikoid",
+    "aritenoid",
+    "Adem elması"
+   ]
+  },
+  {
+   "id": "mm-laryngis",
+   "tr": "Gırtlak kasları",
+   "la": "Musculi laryngis",
+   "en": "Laryngeal muscles",
+   "group": "Üst solunum yolları",
+   "region": "neck",
+   "summary": "Ses tellerini açıp kapayan, geren ve gevşeten, gırtlak girişini daraltan küçük iç gırtlak kaslarıdır. Biri hariç tümü n. laryngeus recurrens ile innerve edilir.",
+   "facts": [
+    [
+     "Açan (abduktör)",
+     "M. cricoarytenoideus posterior – ses tellerini açan TEK kas"
+    ],
+    [
+     "Kapayanlar (addüktör)",
+     "M. cricoarytenoideus lateralis, m. arytenoideus transversus ve obliquus, m. thyroarytenoideus (dış kısmı)"
+    ],
+    [
+     "Geren",
+     "M. cricothyroideus (tek dış kas; n. laryngeus superior'un dış dalı)"
+    ],
+    [
+     "Gevşeten ve ince ayar",
+     "M. thyroarytenoideus ve iç kısmı m. vocalis"
+    ],
+    [
+     "İnnervasyon",
+     "M. cricothyroideus: n. laryngeus externus; diğer tüm iç kaslar: n. laryngeus recurrens (X)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tek taraflı rekürren sinir felcinde ses teli paramedyan konumda kalır ve ses kısılır; iki taraflı felçte ses telleri orta hatta yaklaşır, stridor ve solunum sıkıntısı gelişir.",
+    "Tiroid cerrahisinde a. thyroidea superior ile birlikte seyreden n. laryngeus externus yaralanırsa yüksek perdeli sesler çıkarılamaz, ses çabuk yorulur."
+   ],
+   "tus": [
+    "Posterior krikoaritenoid kas 'hayat kurtaran kas'tır: ses yarığını açan tek kastır.",
+    "Rekürren sinir hasarında Semon kuralı: abduktör lifler addüktörlerden önce etkilenir."
+   ],
+   "related": [
+    "larynx",
+    "cartilagines-laryngis",
+    "n-vagus",
+    "plicae-vocales"
+   ],
+   "models": [
+    "Posterior crico-arytenoid muscle",
+    "Lateral crico-arytenoid muscle",
+    "Transverse arytenoid muscle",
+    "Oblique part of cricothyroid muscle",
+    "Straight part of cricothyroid muscle",
+    "External part of thyro-arytenoid muscle"
+   ],
+   "aliases": [
+    "gırtlak kasları",
+    "posterior krikoaritenoid"
+   ]
+  },
+  {
+   "id": "plicae-vocales",
+   "tr": "Ses telleri ve glottis",
+   "la": "Plicae vocales et glottis",
+   "en": "Vocal folds and glottis",
+   "group": "Üst solunum yolları",
+   "region": "neck",
+   "summary": "Gırtlak boşluğunda tiroid kıkırdaktan aritenoidlere uzanan, lig. vocale ve m. vocalis içeren mukoza kıvrımlarıdır. İki ses teli ve aralarındaki rima glottidis ses üreten bölümü (glottis) oluşturur.",
+   "facts": [
+    [
+     "Katlar",
+     "Üstte plicae vestibulares (yalancı ses telleri), altta plicae vocales (gerçek ses telleri); aralarında ventriculus laryngis"
+    ],
+    [
+     "Epitel",
+     "Ses tellerinin serbest kenarı çok katlı yassı epitelle, gırtlağın geri kalanı solunum epiteliyle örtülüdür"
+    ],
+    [
+     "Rima glottidis",
+     "Erişkinde hava yolunun en dar yeri; çocukta en dar yer subglottik bölgedir (krikoid düzeyi)"
+    ],
+    [
+     "Duyu",
+     "Ses tellerinin üstü n. laryngeus internus, altı n. laryngeus recurrens"
+    ],
+    [
+     "Lenf drenajı",
+     "Ses telleri neredeyse hiç lenfatik içermez; supraglottik bölge zengin lenfatiklere sahiptir"
+    ]
+   ],
+   "sections": [
+    [
+     "Gırtlak bölümleri",
+     "Supraglottik bölge (vestibulum), glottis ve subglottik bölge (cavitas infraglottica) olarak ayrılır. Glottik kanserler erken ses kısıklığı yapar ve lenfatik yayılımı az olduğundan prognozu iyidir."
+    ]
+   ],
+   "clinical": [
+    "Ses teli nodülleri (şarkıcı nodülü) aşırı ses kullanımına bağlı olarak ön 1/3 ile arka 2/3 birleşiminde gelişir.",
+    "Reinke ödemi, sigara içenlerde ses telinin yüzeyel lamina propriasında sıvı birikmesidir."
+   ],
+   "tus": [
+    "Ses tellerinin altına kadar olan duyu n. laryngeus internus'tan, altındaki duyu n. laryngeus recurrens'ten gelir; yabancı cisimde öksürük refleksinin afferenti n. laryngeus internus'tur.",
+    "Glottik bölge lenfatikten fakir olduğundan glottik kanserlerde boyun metastazı geç ve seyrektir."
+   ],
+   "related": [
+    "larynx",
+    "mm-laryngis",
+    "cartilagines-laryngis",
+    "n-vagus"
+   ],
+   "models": [
+    "Larynx"
+   ],
+   "aliases": [
+    "ses telleri",
+    "glottis",
+    "vokal kord"
+   ]
+  },
+  {
+   "id": "segmenta-bronchopulmonalia",
+   "tr": "Bronkopulmoner segmentler",
+   "la": "Segmenta bronchopulmonalia",
+   "en": "Bronchopulmonary segments",
+   "group": "Akciğerler ve plevra",
+   "region": "thorax",
+   "summary": "Her biri bir segmental bronş, ona eşlik eden pulmoner arter dalı ve kendi bağ dokusu bölmesiyle sınırlanan, akciğerin cerrahi olarak ayrı çıkarılabilen birimleridir. Venler segmentler arasında seyreder.",
+   "facts": [
+    [
+     "Sağ akciğer (10)",
+     "Üst lob: apikal (BI), posterior (BII), anterior (BIII); orta lob: lateral (BIV), medial (BV); alt lob: superior (BVI), mediobazal (BVII), anterobazal (BVIII), laterobazal (BIX), posterobazal (BX)"
+    ],
+    [
+     "Sol akciğer (8–10)",
+     "Üst lob: apikoposterior (BI+II), anterior (BIII), lingula superior (BIV) ve inferior (BV); alt lob: superior (BVI), anteromediobazal (BVII+VIII), laterobazal (BIX), posterobazal (BX)"
+    ],
+    [
+     "Yapı",
+     "Segmental bronş ve arter segmentin ortasında; pulmoner venler segmentler arası düzlemde"
+    ],
+    [
+     "Ara bronş",
+     "Sağda üst lob bronşundan sonra ana bronş ara bronş (bronchus intermedius) olarak devam eder ve orta ile alt lob bronşlarına ayrılır"
+    ]
+   ],
+   "sections": [
+    [
+     "Aspirasyonun yerleşimi",
+     "Sırtüstü yatan hastada aspirasyon en sık sağ alt lobun superior segmentine (BVI) ve sağ üst lobun posterior segmentine (BII) gider; ayakta duranda ise sağ alt lobun bazal segmentlerine gider."
+    ]
+   ],
+   "clinical": [
+    "Segmentektomi, tüm lobu çıkarmadan yalnızca hastalıklı segmentin çıkarılmasıdır; segmentler arası düzlemi intersegmental venler gösterir.",
+    "Bronşektazi ve apseler sıklıkla belirli segmentlerle sınırlıdır; postüral drenaj pozisyonları segment anatomisine göre seçilir."
+   ],
+   "tus": [
+    "Sağ akciğerde 10 segment vardır; solda apikoposterior ve anteromediobazal segmentler birleşebildiğinden 8–10 segment sayılır.",
+    "Pulmoner arter dalları bronşlara eşlik eder (segment içi), pulmoner venler segmentler arasında seyreder."
+   ],
+   "related": [
+    "bronchi",
+    "pulmo-dexter",
+    "pulmo-sinister",
+    "pulmones"
+   ],
+   "models": [
+    "Apical segmental bronchus of right lung (BI)",
+    "Posterior segmental bronchus of right lung (BII)",
+    "Anterior segmental bronchus of right lung (BIII)",
+    "Lateral segmental bronchus of right lung (BIV)",
+    "Medial segmental bronchus of right lung (BV)",
+    "Superior segmental bronchus of right lung (BVI)",
+    "Medial basal segmental bronchus of right lung (BVII)",
+    "Anterior basal segmental bronchus of right lung (BVIII)",
+    "Lateral basal segmental bronchus of right lung (BIX)",
+    "Posterior basal segmental bronchus of right lung (BX)",
+    "Apicoposterior segmental bronchus of left lung (BI+BII)",
+    "Anterior segmental bronchus of left lung (BIII)",
+    "Superior lingular segmental bronchus of left lung (BIV)",
+    "Inferior lingular segmental bronchus of left lung (BV)",
+    "Superior segmental bronchus of left lung (BVI)",
+    "Lateral basal segmental bronchus of left lung (BIX)",
+    "Posterior basal segmental bronchus of left lung (BX)"
+   ],
+   "aliases": [
+    "segment",
+    "segmental bronş",
+    "lingula"
+   ]
+  },
+  {
+   "id": "hilum-pulmonis",
+   "tr": "Akciğer kökü ve hilus",
+   "la": "Radix et hilum pulmonis",
+   "en": "Root and hilum of the lung",
+   "group": "Akciğerler ve plevra",
+   "region": "thorax",
+   "summary": "Akciğerin mediastinal yüzündeki, bronşların, damarların, sinirlerin ve lenfatiklerin girip çıktığı bölgedir (hilus). Bu yapıların oluşturduğu demete akciğer kökü (radix pulmonis) denir.",
+   "facts": [
+    [
+     "Sağ hilus",
+     "Ana bronş ve üst lob (eparteriyel) bronşu en üstte-arkada; pulmoner arter önünde; pulmoner venler en önde ve en altta"
+    ],
+    [
+     "Sol hilus",
+     "Pulmoner arter en üstte; bronş arkada ve ortada; pulmoner venler önde ve altta"
+    ],
+    [
+     "İçerik",
+     "Ana bronş, a. pulmonalis, iki v. pulmonalis, aa. ve vv. bronchiales, plexus pulmonalis (vagus ve sempatik), bronkopulmoner lenf düğümleri"
+    ],
+    [
+     "Komşuluk",
+     "Sağ kökün üzerinden v. azygos, sol kökün üzerinden arcus aortae kemer yapar; n. phrenicus önden, n. vagus arkadan geçer"
+    ],
+    [
+     "Lig. pulmonale",
+     "Kökü saran plevranın aşağı doğru uzanan çift katlı kıvrımı"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hiler lenfadenopati sarkoidoz, tüberküloz ve akciğer kanserinde görülür.",
+    "Pnömonektomide köke yaklaşırken frenik sinirin önden, vagusun arkadan geçtiği bilinmelidir."
+   ],
+   "tus": [
+    "Sağ ana bronşun üst lob dalı pulmoner arterin üstündedir (eparteriyel bronş); solda arter bronşun üstündedir.",
+    "Bronşiyal arterler sol tarafta doğrudan aortadan (iki adet), sağda çoğunlukla 3. arka interkostal arterden çıkar."
+   ],
+   "related": [
+    "pulmones",
+    "bronchi",
+    "truncus-pulmonalis",
+    "vv-pulmonales",
+    "v-azygos",
+    "n-vagus"
+   ],
+   "models": [
+    "Right main bronchus",
+    "Left main bronchus"
+   ],
+   "aliases": [
+    "hilus",
+    "akciğer kökü"
+   ]
+  },
+  {
+   "id": "mediastinum",
+   "tr": "Mediasten (göğüs ortası)",
+   "la": "Mediastinum",
+   "en": "Mediastinum",
+   "group": "Akciğerler ve plevra",
+   "region": "thorax",
+   "summary": "Göğüs boşluğunda iki plevra boşluğu arasında, sternumdan omurgaya ve göğüs girişinden diyaframa uzanan orta bölmedir. Kalp, büyük damarlar, trakea, özofagus, timus ve sinirleri içerir.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Angulus sterni (T4–T5) düzlemiyle üst ve alt mediastene; alt mediasten ön, orta ve arka mediastene ayrılır"
+    ],
+    [
+     "Üst mediasten",
+     "Timus (kalıntısı), brakiyosefalik venler, VCS, arcus aortae ve dalları, trakea, özofagus, ductus thoracicus, n. vagus ve n. phrenicus, sol n. laryngeus recurrens"
+    ],
+    [
+     "Ön mediasten",
+     "Sternum ile perikard arası: timus kalıntısı, lenf düğümleri, ligg. sternopericardiaca"
+    ],
+    [
+     "Orta mediasten",
+     "Perikard ve kalp, çıkan aorta, truncus pulmonalis, ana bronşlar, n. phrenicus"
+    ],
+    [
+     "Arka mediasten",
+     "İnen aorta, özofagus, ductus thoracicus, v. azygos ve hemiazygos, n. vagus, sempatik gövde ve splanknik sinirler"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ön mediasten kitleleri için '4T': timoma, teratom (germ hücreli), tiroid (retrosternal guatr), 'terrible' lenfoma.",
+    "Arka mediastende nörojenik tümörler en sıktır; aort diseksiyonu ve özofagus perforasyonu mediastinite yol açabilir."
+   ],
+   "tus": [
+    "Timus erişkinde üst ve ön mediastende yağ dokusuna dönüşmüş olarak bulunur.",
+    "Ductus thoracicus arka mediastende aorta ile v. azygos arasında yükselir ve T4–T5'te sola geçer."
+   ],
+   "related": [
+    "cor",
+    "pericardium",
+    "thymus",
+    "oesophagus",
+    "trachea",
+    "aorta",
+    "ductus-thoracicus"
+   ],
+   "models": [],
+   "aliases": [
+    "mediasten",
+    "göğüs ortası"
    ]
   }
  ]

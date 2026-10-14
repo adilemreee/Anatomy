@@ -54,6 +54,10 @@
     "Kalp yetmezliğinde kalp vücudun ihtiyacı kadar kan pompalayamaz; sol yetmezlik akciğer ödemine, sağ yetmezlik bacak ödemi ve karaciğer büyümesine yol açar.",
     "Kalp oskültasyon odakları: aort (sağ 2. aralık), pulmoner (sol 2. aralık), triküspit (sol 4.–5. aralık sternum kenarı), mitral (apeks)."
    ],
+   "tus": [
+    "Kalbin apeksi sol 5. interkostal aralıkta, midklavikular hattın hemen içinde (apeks vuruşu) ele gelir.",
+    "Kalp gelişiminde ilk kalp tüpü 3. haftanın sonunda atmaya başlar; septasyon 4–7. haftalarda olur."
+   ],
    "related": [
     "atrium-dextrum",
     "ventriculus-sinister",
@@ -101,6 +105,10 @@
     "Foramen ovale doğumdan sonra kapanmazsa (patent foramen ovale) paradoks emboli riski oluşur.",
     "Atriyal septal defekt (ASD) sağ kalpte hacim yüküne yol açar."
    ],
+   "tus": [
+    "Sağ atriyumun düz kısmı (sinus venarum) sinus venosus'tan, kaslı kısmı (pektinat kaslar) primitif atriyumdan gelişir; sınırları crista terminalis'tir.",
+    "VCI ağzında valvula venae cavae inferioris (Eustachi), sinus coronarius ağzında valvula sinus coronarii (Thebesius) bulunur."
+   ],
    "related": [
     "cor",
     "ventriculus-dexter",
@@ -145,6 +153,10 @@
    "clinical": [
     "Pulmoner hipertansiyon sağ ventrikül hipertrofisine ve yetmezliğine (kor pulmonale) yol açar.",
     "Fallot tetralojisinde sağ ventrikül hipertrofisi bileşenlerden biridir."
+   ],
+   "tus": [
+    "Sağ ventrikülün içi trabeküllüdür (trabeculae carneae); çıkış yolu (infundibulum) düz duvarlıdır.",
+    "Triküspit kapağın üç yaprağı (ön, arka, septal) ve üç papiller kası vardır."
    ],
    "related": [
     "cor",
@@ -193,6 +205,10 @@
     "Atriyal fibrilasyonda kan sol aurikulada pıhtılaşarak inmeye neden olabilir.",
     "Mitral darlığında genişleyen sol atrium özofagusa bası yaparak yutma güçlüğüne yol açabilir."
    ],
+   "tus": [
+    "Sol atriyuma dört pulmoner ven açılır; sol aurikula trombüslerin en sık oluştuğu yerdir (atriyal fibrilasyon).",
+    "Sol atriyumun duvarı aurikula dışında düzdür; pulmoner venler kökenlidir."
+   ],
    "related": [
     "cor",
     "ventriculus-sinister",
@@ -240,6 +256,10 @@
    "clinical": [
     "Hipertansiyon ve aort darlığı sol ventrikül hipertrofisine yol açar.",
     "Ön duvar enfarktüsünde (LAD tıkanması) sol ventrikülün ön duvarı ve septum etkilenir; papiller kas rüptürü akut mitral yetmezliğine neden olabilir."
+   ],
+   "tus": [
+    "Mitral kapağın ön yaprağı aort kapağıyla fibröz devamlılık gösterir.",
+    "Sol ventrikül duvarı sağdan yaklaşık üç kat kalındır (~10–15 mm)."
    ],
    "related": [
     "cor",
@@ -297,6 +317,10 @@
     "Yaşlılarda aort darlığı (kalsifik) senkop, angina ve kalp yetmezliğine neden olur.",
     "Enfektif endokardit kapak yapraklarında vejetasyonlar oluşturur."
    ],
+   "tus": [
+    "Semilunar kapaklarda kordalar ve papiller kaslar yoktur; aort kapağının arkasındaki sinüslerden koroner arterler çıkar.",
+    "Kalp kapakları fibröz iskelete (anuli fibrosi) tutunur; bu iskelet atriyum ile ventrikülleri elektriksel olarak yalıtır."
+   ],
    "related": [
     "cor",
     "atrium-dextrum",
@@ -350,6 +374,10 @@
     "Sağ koroner tıkanması alt duvar enfarktüsü ve AV blok yapabilir.",
     "Koroner bypass cerrahisinde a. thoracica interna ve v. saphena magna greft olarak kullanılır."
    ],
+   "tus": [
+    "Koroner arterler diyastolde dolar; sol ventrikül subendokardiyumu iskemiye en duyarlı bölgedir.",
+    "Sol ana koroner arter LAD ve sirkumfleks dallarına ayrılır; bazen aradan r. intermedius (ramus medianus) çıkar."
+   ],
    "related": [
     "cor",
     "aorta",
@@ -394,6 +422,10 @@
    "sections": [],
    "clinical": [
     "Kardiyak resenkronizasyon tedavisinde sol ventrikül elektrodu sinus coronarius yoluyla kalp venlerine yerleştirilir."
+   ],
+   "tus": [
+    "Vv. cordis minimae (Thebesius) doğrudan kalp boşluklarına açılır; vv. cordis anteriores sağ atriyuma açılır.",
+    "Sinus coronarius, kalp venlerinin büyük kısmını toplayıp sağ atriyuma açılır; kardiyak resenkronizasyon tedavisinde elektrot buraya yerleştirilir."
    ],
    "related": [
     "aa-coronariae",
@@ -441,11 +473,17 @@
     "Perikardit öne eğilmekle azalan keskin göğüs ağrısı ve perikardiyal sürtünme sesiyle seyreder.",
     "Kardiyak tamponadda perikard boşluğunda biriken sıvı kalbin dolmasını engeller (Beck üçlüsü: hipotansiyon, boyun venlerinde dolgunluk, derinden gelen kalp sesleri)."
    ],
+   "tus": [
+    "Fibröz perikard aşağıda diyaframın centrum tendineum'una, önde ligg. sternopericardiaca ile sternuma tutunur.",
+    "Perikardiyal efüzyonda EKG'de düşük voltaj ve elektriksel alternans görülebilir."
+   ],
    "related": [
     "cor",
     "n-phrenicus"
    ],
-   "models": [],
+   "models": [
+    "Pericardium"
+   ],
    "aliases": [
     "perikard"
    ]
@@ -476,6 +514,10 @@
    "clinical": [
     "Pulmoner emboli genellikle bacak derin venlerinden kopan pıhtının pulmoner arterleri tıkamasıdır.",
     "Patent duktus arteriozus'ta aortadan pulmoner artere sürekli (makine) üfürüm duyulur."
+   ],
+   "tus": [
+    "Truncus pulmonalis aortun önünde başlar, arcus aortae'nin altında sağ ve sol pulmoner arterlere ayrılır.",
+    "Pulmoner emboli truncus bifurkasyonunda 'eyer embolus' olarak takılabilir."
    ],
    "related": [
     "ventriculus-dexter",
@@ -513,6 +555,10 @@
    "sections": [],
    "clinical": [
     "Atriyal fibrilasyon tedavisinde pulmoner ven ağızları kateterle izole edilir (ablasyon)."
+   ],
+   "tus": [
+    "Pulmoner venler oksijenden zengin kan taşıyan tek venlerdir; her akciğerden genellikle iki ven gelir.",
+    "Atriyal fibrilasyonun ektopik odakları sıklıkla pulmoner ven ağızlarındadır; ablasyonda bu bölge izole edilir."
    ],
    "related": [
     "atrium-sinistrum",
@@ -560,6 +606,10 @@
     "Abdominal aort anevrizması genellikle böbrek arterlerinin altında gelişir; rüptürü ölümcüldür.",
     "Aort diseksiyonunda damarın iç tabakası yırtılır; sırta yayılan yırtılır tarzda göğüs ağrısı tipiktir.",
     "Aort koarktasyonunda kollardaki tansiyon bacaklardan yüksektir; kaburgalarda interkostal arter genişlemesine bağlı çentikler görülür."
+   ],
+   "tus": [
+    "Çıkan aortada aort sinüsleri (Valsalva) ve koroner arterlerin çıkışları bulunur.",
+    "Aort diseksiyonu Stanford A (çıkan aort tutulumu – cerrahi) ve B (yalnız inen aort) olarak sınıflanır."
    ],
    "related": [
     "ventriculus-sinister",
@@ -610,6 +660,10 @@
    "clinical": [
     "Trakeostomi sırasında aşağıda yer alırsa yaralanma riski taşır."
    ],
+   "tus": [
+    "Truncus brachiocephalicus trakeanın önünde yükselir; trakeostomi sırasında aşırı aşağıda çalışılırsa yaralanabilir.",
+    "Bazı kişilerde a. thyroidea ima truncus brachiocephalicus'tan çıkar."
+   ],
    "related": [
     "aorta",
     "a-carotis-communis",
@@ -659,6 +713,10 @@
     "Karotis sinüs masajı vagal yanıtla kalp hızını yavaşlatır.",
     "Karotis bifurkasyonundaki aterosklerotik plaklar inmenin önemli nedenidir."
    ],
+   "tus": [
+    "Sağ CCA truncus brachiocephalicus'tan, sol CCA doğrudan arcus aortae'den çıkar.",
+    "Karotis nabzı tiroid kıkırdağın üst kenarı hizasında, SCM'nin ön kenarında alınır."
+   ],
    "related": [
     "a-carotis-interna",
     "a-carotis-externa",
@@ -706,6 +764,10 @@
     "Darlığında geçici iskemik ataklar ve aynı tarafta geçici körlük (amaurosis fugax) görülebilir.",
     "Sinus cavernosus içinde yırtılması karotiko-kavernöz fistüle (pulsatil ekzoftalmi) neden olur."
    ],
+   "tus": [
+    "ICA'nın kafa içi bölümleri: petröz, kavernöz (sinüs içinde), klinoid ve supraklinoid (oftalmik, PCom, ön koroid dalları).",
+    "Karotis darlığında amarozis fugaks (geçici tek göz körlüğü) a. ophthalmica'ya giden embolilerle olur."
+   ],
    "related": [
     "a-carotis-communis",
     "circulus-arteriosus",
@@ -751,6 +813,10 @@
     "A. meningea media (a. maxillaris dalı) pterion kırığında yırtılarak epidural hematoma neden olur.",
     "Burun kanamalarının (epistaksis) çoğu a. sphenopalatina ve a. facialis dallarının oluşturduğu Kiesselbach alanından kaynaklanır.",
     "Yüzeyel temporal arter dev hücreli arteritte (temporal arterit) etkilenir."
+   ],
+   "tus": [
+    "A. lingualis hyoglossus'un derininden geçer; n. hypoglossus ise bu kasın yüzeyinden geçer.",
+    "ECA bağlanması ağır burun ve yüz kanamalarında uygulanabilir; karşı taraf ve ICA dallarıyla geniş anastomoz vardır."
    ],
    "related": [
     "a-carotis-communis",
@@ -804,6 +870,10 @@
     "Boyun manipülasyonu sonrası vertebral arter diseksiyonu genç inmelerinin nedenlerindendir.",
     "Subklaviyan çalma sendromunda vertebral arterde akım tersine döner."
    ],
+   "tus": [
+    "A. vertebralis'in dört bölümü: V1 (preforaminal), V2 (foraminal), V3 (atlas çevresi), V4 (kafa içi).",
+    "Boyun manipülasyonu ve travmada vertebral arter diseksiyonu posterior dolaşım inmesine yol açabilir."
+   ],
    "related": [
     "a-subclavia",
     "circulus-arteriosus",
@@ -850,6 +920,10 @@
    "clinical": [
     "Beyin anevrizmalarının (berry anevrizması) çoğu halkanın ön kısmında, özellikle a. communicans anterior'da gelişir; rüptürü subaraknoid kanamaya yol açar.",
     "Halkanın varyasyonları yaygındır; yalnızca %20–25 kişide ‘klasik’ tam halka bulunur."
+   ],
+   "tus": [
+    "Willis poligonu varyasyonları sıktır; tam bir poligon kişilerin yaklaşık yarısında vardır.",
+    "PCom anevrizması n. oculomotorius felci, ACom anevrizması görme alanı defekti ve SAK ile ortaya çıkabilir."
    ],
    "related": [
     "a-carotis-interna",
@@ -903,6 +977,10 @@
     "Subklaviyan çalma sendromu: a. subclavia'nın vertebral arter çıkışından önce daralması sonucu kol egzersiziyle baş dönmesi.",
     "Santral venöz kateter takılırken arter yanlışlıkla delinebilir."
    ],
+   "tus": [
+    "A. subclavia m. scalenus anterior tarafından üç bölüme ayrılır; vertebral, internal torasik ve tirocervikal gövde 1. bölümden çıkar.",
+    "Sağ a. subclavia'nın arcus aortae'den son dal olarak çıkması (a. lusoria) özofagusa bası yaparak disfajiye yol açabilir (disfaji lusoria)."
+   ],
    "related": [
     "a-axillaris",
     "a-vertebralis",
@@ -951,6 +1029,10 @@
    "clinical": [
     "Omuz çıkığı ve humerus boyun kırıklarında zedelenebilir.",
     "Skapula çevresinde zengin kollateral ağ (skapular anastomoz) a. subclavia tıkanmalarında kolu besler."
+   ],
+   "tus": [
+    "A. axillaris 1. kaburganın dış kenarında başlar, teres major'un alt kenarında a. brachialis adını alır.",
+    "Omuz çıkığı ve humerus boyun kırıklarında a. axillaris yaralanabilir."
    ],
    "related": [
     "a-subclavia",
@@ -1001,6 +1083,10 @@
     "Tansiyon ölçümünde stetoskop kübital fossada a. brachialis üzerine konur.",
     "Çocuklarda suprakondiler humerus kırığında zedelenebilir; önkol iskemisi Volkmann kontraktürüne yol açar."
    ],
+   "tus": [
+    "A. brachialis kolun iç yanında n. medianus ile seyreder; sinir arteri kolun ortasında dıştan içe çaprazlar.",
+    "Kübital çukurda radial ve ulnar arterlere ayrılır (radius boynu hizası)."
+   ],
    "related": [
     "a-axillaris",
     "a-radialis",
@@ -1050,6 +1136,10 @@
     "Kateterizasyondan önce el kanlanmasının ulnar arterle yeterli olduğu Allen testiyle değerlendirilir.",
     "Koroner anjiyografi giderek daha sık radyal arter yoluyla yapılır."
    ],
+   "tus": [
+    "Radial arter tabakiyerin tabanından geçerek 1. dorsal interosseöz kasın iki başı arasından avuca girer ve derin arkusu yapar.",
+    "Radial arter koroner bypassta greft olarak ve kardiyak kateterizasyonda giriş yolu olarak kullanılır."
+   ],
    "related": [
     "a-brachialis",
     "a-ulnaris",
@@ -1093,6 +1183,9 @@
    ],
    "sections": [],
    "clinical": [],
+   "tus": [
+    "A. ulnaris bilekte FCU tendonunun lateralinde, n. ulnaris'in lateralinde seyreder."
+   ],
    "related": [
     "a-brachialis",
     "a-radialis",
@@ -1137,6 +1230,9 @@
    "sections": [],
    "clinical": [
     "Avuç içi kesilerinde yüzeyel kavis kolayca yaralanabilir ve ciddi kanamaya neden olur."
+   ],
+   "tus": [
+    "Yüzeyel palmar arkus avuç içinde daha distalde (başparmak tam açıkken çizilen çizgi düzeyinde), derin arkus daha proksimaldedir."
    ],
    "related": [
     "a-radialis",
@@ -1183,6 +1279,10 @@
    "clinical": [
     "Arka duvarda yerleşen duodenal ülser a. gastroduodenalis'i aşındırarak ciddi kanamaya yol açabilir.",
     "Median arkuat ligament sendromu çölyak gövdenin dışarıdan basısıdır."
+   ],
+   "tus": [
+    "Medyan arkuat ligament sendromunda truncus coeliacus diyafram krusları tarafından sıkıştırılır.",
+    "Pankreatikoduodenal arkuslar çölyak ve SMA sistemleri arasında önemli kollateral yoldur."
    ],
    "related": [
     "aorta",
@@ -1238,6 +1338,10 @@
     "Nutcracker sendromu: v. renalis sinistra'nın aorta ile SMA arasında sıkışması.",
     "SMA sendromunda duodenumun 3. kısmı aort ile arter arasında sıkışır."
    ],
+   "tus": [
+    "SMA embolisi akut mezenter iskeminin en sık nedenidir; 'muayeneyle orantısız şiddetli karın ağrısı' tipiktir.",
+    "SMA'nın önünden pankreas boynu ve v. splenica, arkasından sol renal ven ve duodenumun 3. bölümü geçer."
+   ],
    "related": [
     "aorta",
     "intestinum-tenue",
@@ -1292,6 +1396,10 @@
    "clinical": [
     "Abdominal aort anevrizması cerrahisinde IMA bağlanabilir; kolon iskemisi riski taşır."
    ],
+   "tus": [
+    "IMA aortadan L3 düzeyinde, bifurkasyonun yaklaşık 3–4 cm üstünden çıkar.",
+    "Abdominal aort anevrizması onarımında IMA bağlanabilir; kolon beslenmesi marjinal arterle sürer."
+   ],
    "related": [
     "aorta",
     "intestinum-crassum",
@@ -1339,6 +1447,10 @@
     "Renal arter darlığı (ateroskleroz veya fibromüsküler displazi) ilaçlara dirençli hipertansiyonun ikincil nedenlerindendir.",
     "Segmental arterler uç arterler olduğundan tıkanmaları kama şeklinde enfarkta yol açar."
    ],
+   "tus": [
+    "Aksesuar (polar) renal arterler sıktır (~%25–30); uç arter olduklarından bağlanmaları segmental enfarkta yol açar.",
+    "Renal arter darlığı ateroskleroz (yaşlı erkek, ostial) veya fibromüsküler displazi (genç kadın, orta-distal 'tespih tanesi') ile olur."
+   ],
    "related": [
     "aorta",
     "ren",
@@ -1385,6 +1497,9 @@
    "clinical": [
     "Leriche sendromu: aortoiliak tıkanma sonucu kalçada kladikasyon, impotans ve femoral nabız kaybı.",
     "Üreter, iliak arterlerin çatallanma yerini çaprazlar; böbrek taşları bu darlıkta takılabilir."
+   ],
+   "tus": [
+    "A. iliaca externa lig. inguinale'nin altından geçince a. femoralis adını alır; dalları a. epigastrica inferior ve a. circumflexa ilium profunda'dır."
    ],
    "related": [
     "aorta",
@@ -1439,6 +1554,10 @@
     "Kalp kateterizasyonu ve anjiyografi için sık kullanılan giriş yeridir.",
     "Periferik arter hastalığında yüzeyel femoral arter en sık etkilenen segmenttir (kladikasyo)."
    ],
+   "tus": [
+    "A. femoralis femoral üçgende femoral kılıf içindedir; kılıfın en iç bölmesi femoral kanaldır (lenfatik ve Cloquet düğümü).",
+    "Femoral arter kateterizasyonunda giriş lig. inguinale'nin altından yapılmalıdır; üstünden girilirse retroperitoneal kanama riski olur."
+   ],
    "related": [
     "a-iliaca-communis",
     "a-poplitea",
@@ -1490,6 +1609,10 @@
     "Popliteal arter anevrizması en sık periferik anevrizmadır.",
     "Diz çıkıklarında arter yaralanabilir; mutlaka değerlendirilmelidir."
    ],
+   "tus": [
+    "Popliteal arter tuzak sendromunda arter gastrocnemius'un medial başı tarafından sıkıştırılır.",
+    "Popliteal anevrizma en sık periferik anevrizmadır ve sıklıkla iki taraflıdır."
+   ],
    "related": [
     "a-femoralis",
     "a-tibialis-anterior",
@@ -1536,6 +1659,9 @@
    ],
    "sections": [],
    "clinical": [],
+   "tus": [
+    "A. tibialis anterior membrana interossea'nın üst kenarındaki açıklıktan ön kompartmana geçer ve n. fibularis profundus ile seyreder."
+   ],
    "related": [
     "a-poplitea",
     "a-dorsalis-pedis",
@@ -1578,6 +1704,9 @@
    "sections": [],
    "clinical": [
     "Arka tibial nabız iç malleolün arkasında, malleol ile Aşil tendonu arasında alınır."
+   ],
+   "tus": [
+    "A. tibialis posterior tarsal tünelde medial ve lateral plantar arterlere ayrılır."
    ],
    "related": [
     "a-poplitea",
@@ -1628,6 +1757,9 @@
    "clinical": [
     "Dorsalis pedis nabzı EHL tendonunun hemen dış yanında alınır; periferik arter hastalığı değerlendirmesinde önemlidir (bazı kişilerde doğuştan alınamayabilir)."
    ],
+   "tus": [
+    "Dorsalis pedis nabzı sağlıklı kişilerin bir kısmında doğuştan alınamayabilir."
+   ],
    "related": [
     "a-tibialis-anterior",
     "m-extensor-hallucis-longus"
@@ -1672,6 +1804,10 @@
    "clinical": [
     "Vena kava superior sendromu (çoğunlukla akciğer kanseri veya lenfoma basısı): yüz ve kollarda ödem, boyun ve göğüs venlerinde genişleme.",
     "Santral venöz kateterin ucu ideal olarak bu venin alt kısmında bulunmalıdır."
+   ],
+   "tus": [
+    "VCS sendromu (çoğunlukla akciğer kanseri veya lenfoma) yüz ve boyunda ödem, göğüste genişlemiş venlerle seyreder.",
+    "VCS'nin alt yarısı perikard içindedir; sağ atriyuma 3. kaburga kıkırdağı hizasında açılır."
    ],
    "related": [
     "atrium-dextrum",
@@ -1720,6 +1856,10 @@
    "clinical": [
     "Derin ven trombozu ve tekrarlayan pulmoner embolide IVC filtresi yerleştirilebilir.",
     "Gebelikte sırtüstü yatarken uterusun IVC'ye basısı hipotansiyona neden olabilir (supin hipotansiyon sendromu); sol yana yatırmak düzeltir."
+   ],
+   "tus": [
+    "VCI filtreleri renal venlerin altına yerleştirilir.",
+    "VCI'nın karaciğer arkasındaki bölümü hepatik venleri doğrudan alır (retrohepatik VCI)."
    ],
    "related": [
     "atrium-dextrum",
@@ -1772,6 +1912,10 @@
     "Juguler venöz basınç (JVP) sağ kalp basıncını yansıtır; kalp yetmezliğinde yükselir.",
     "Santral venöz kateter sıklıkla sağ v. jugularis interna'ya ultrason eşliğinde takılır."
    ],
+   "tus": [
+    "V. jugularis interna sigmoid sinüsün devamıdır ve foramen jugulare'den başlar; bulbus superior burada yer alır.",
+    "Sağ IJV santral kateter için tercih edilir: daha düz bir yolla VCS'ye ulaşır ve ductus thoracicus soldadır."
+   ],
    "related": [
     "a-carotis-communis",
     "sinus-durae-matris",
@@ -1811,6 +1955,9 @@
    "sections": [],
    "clinical": [
     "Sağ kalp basıncı arttığında belirginleşir; acil durumlarda damar yolu olarak kullanılabilir."
+   ],
+   "tus": [
+    "EJV, v. retromandibularis'in arka dalı ile v. auricularis posterior'un birleşmesiyle oluşur."
    ],
    "related": [
     "v-jugularis-interna",
@@ -1858,6 +2005,9 @@
     "Klavikula altından santral venöz kateter yerleştirilmesinde kullanılır; pnömotoraks bu işlemin önemli komplikasyonudur.",
     "Paget–Schroetter sendromu: ağır kol egzersizi sonrası subklaviyan ven trombozu."
    ],
+   "tus": [
+    "Paget–Schroetter sendromu, kolun tekrarlayan kullanımına bağlı subklavyen ven efor trombozudur."
+   ],
    "related": [
     "v-jugularis-interna",
     "a-subclavia",
@@ -1904,6 +2054,9 @@
    "clinical": [
     "Kan alma ve damar yolu açma için en sık v. mediana cubiti kullanılır; altında aponeurosis bicipitalis ile korunan a. brachialis ve n. medianus bulunur.",
     "V. cephalica kalp pili elektrotlarının yerleştirilmesinde kullanılabilir."
+   ],
+   "tus": [
+    "Üst ekstremitenin derin venleri arterlere eşlik eden çift venlerdir (venae comitantes)."
    ],
    "related": [
     "v-subclavia",
@@ -1956,6 +2109,10 @@
    "clinical": [
     "Siroz gibi nedenlerle portal hipertansiyon geliştiğinde anastomozlarda özofagus varisleri (ölümcül kanama), hemoroid ve göbek çevresinde genişlemiş venler (caput medusae) oluşur; dalak büyür ve asit gelişir."
    ],
+   "tus": [
+    "Portal ven karaciğere giden kanın ~%75'ini, oksijenin ~%50'sini sağlar.",
+    "Portal ven trombozu prehepatik portal hipertansiyonun en sık nedenidir."
+   ],
    "related": [
     "hepar",
     "splen",
@@ -2000,6 +2157,10 @@
    "sections": [],
    "clinical": [
     "IVC tıkanmasında azigos sistemi alt vücut kanının kalbe dönmesi için önemli bir kollateral yoldur."
+   ],
+   "tus": [
+    "Hemiazygos ven T8–T9 düzeyinde omurganın önünden sağa geçerek v. azygos'a açılır.",
+    "Azygos lobu, v. azygos'un sağ akciğer apeksine gömülmesiyle oluşan anatomik varyasyondur."
    ],
    "related": [
     "v-cava-superior",
@@ -2046,6 +2207,10 @@
    "clinical": [
     "Derin ven trombozu (DVT) en sık bacak derin venlerinde gelişir; pıhtı kopup akciğere giderse pulmoner emboli olur.",
     "Acil durumlarda femoral nabzın hemen içinden femoral vene kateter takılabilir."
+   ],
+   "tus": [
+    "V. femoralis kasık bölgesinde arterin medialindedir; santral venöz kateter için kullanılabilir.",
+    "Derin ven trombozu en sık femoropopliteal segmentte görülür."
    ],
    "related": [
     "a-femoralis",
@@ -2100,6 +2265,10 @@
     "Koroner bypass ameliyatında greft olarak sık kullanılır (kapakları nedeniyle ters çevrilerek takılır).",
     "İç malleolün önündeki sabit konumu acil damar yolu (venöz cut-down) için kullanılır."
    ],
+   "tus": [
+    "V. saphena magna perforan venlerle derin venlere bağlanır; kapak yetmezliği varis oluşturur.",
+    "Safen-femoral bileşkeye v. pudenda externa superficialis, v. epigastrica superficialis ve v. circumflexa ilium superficialis açılır."
+   ],
    "related": [
     "v-femoralis",
     "v-saphena-parva",
@@ -2138,6 +2307,9 @@
    "sections": [],
    "clinical": [
     "Baldır arkasındaki varislerin kaynağı olabilir."
+   ],
+   "tus": [
+    "Küçük safen ven ameliyatlarında n. suralis yaralanabilir; ayak dış kenarında uyuşukluk olur."
    ],
    "related": [
     "v-saphena-magna",
@@ -2178,6 +2350,10 @@
    "clinical": [
     "Yüzün ‘tehlike üçgenindeki’ enfeksiyonlar v. ophthalmica aracılığıyla sinus cavernosus'a yayılarak kavernöz sinüs trombozuna yol açabilir.",
     "Dural venöz sinüs trombozu baş ağrısı, nöbet ve kafa içi basınç artışıyla seyreder."
+   ],
+   "tus": [
+    "Dural sinüslerde kapak yoktur; emissary venler aracılığıyla kafatası dışındaki venlerle bağlantılıdır.",
+    "Dural sinüs trombozu baş ağrısı, papil ödemi ve hemorajik enfarktla seyredebilir; gebelik ve oral kontraseptifler risk faktörüdür."
    ],
    "related": [
     "meninges",
