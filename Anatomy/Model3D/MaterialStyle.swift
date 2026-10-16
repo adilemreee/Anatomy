@@ -231,9 +231,9 @@ nonisolated enum MaterialStyles {
         case "Sclera": return SurfaceStyle(color: rgb("eeeae2"), fibre: 0, wetness: 1).tissue(.hollow)
         case "Eye iris": return SurfaceStyle(color: rgb("6a4a2e"), fibre: 0, wetness: 1).tissue(.hollow)
         case "Pupil": return SurfaceStyle(color: rgb("0d0b0a"), fibre: 0, wetness: 1)
-        case "Mouth": return SurfaceStyle(color: rgb("4a1d1c"), fibre: 0, wetness: 0.9)
+        case "Mouth": return SurfaceStyle(color: rgb("4a1d1c"), fibre: 0, wetness: 0.9).tissue(.skin)   // no blue rim between the lips
         case "Vulva mucosa": return SurfaceStyle(color: rgb("d89d98"), fibre: 0, wetness: 0.95, variation: 0.02).tissue(.skin)
-        case "Glans": return SurfaceStyle(color: rgb("cc7d7c"), fibre: 0, wetness: 0.9).tissue(.hollow)
+        case "Glans": return SurfaceStyle(color: rgb("c08a80"), fibre: 0, wetness: 0.6, variation: 0.02).tissue(.skin)
         case "Labia": return SurfaceStyle(color: rgb("c99883"), fibre: 0, wetness: 0.4, variation: 0.02).tissue(.skin)
         case "Labia minora": return SurfaceStyle(color: rgb("b5786f"), fibre: 0, wetness: 0.8, variation: 0.03).tissue(.skin)
         case "Vaginal orifice": return SurfaceStyle(color: rgb("94474a"), fibre: 0, wetness: 0.9).tissue(.hollow)

@@ -182,17 +182,18 @@ final class AtlasStore {
     // MARK: Search
 
     func search(_ query: String, limit: Int = 60) -> [AtlasEntry] {
-        let q = SearchText.fold(query)
+        let q = SearchQuery(query)
         guard !q.isEmpty else { return [] }
-        let words = q.split(separator: " ").map(String.init)
+        let words = q.forms[0].split(separator: " ")
         var scored: [(Int, AtlasEntry)] = []
-        for (entry, hay) in searchIndex where words.allSatisfy({ hay.contains($0) }) {
-            var score = 0
-            let names = [entry.tr, entry.la, entry.en].map(SearchText.fold)
-            if names.contains(q) { score += 100 }
-            if names.contains(where: { $0.hasPrefix(q) }) { score += 40 }
-            score -= hay.count / 40
-            scored.append((score, entry))
+        for (entry, hay) in searchIndex {
+            var score = q.score([entry.tr, entry.la, entry.en] + entry.aliases)
+            if score == 0 {
+                // Words found anywhere in the entry (its group, its aliases).
+                guard words.allSatisfy({ hay.contains($0) }) || q.score(folded: hay) > 0 else { continue }
+                score = 5
+            }
+            scored.append((score - hay.count / 40, entry))
         }
         return scored.sorted { $0.0 > $1.0 }.prefix(limit).map(\.1)
     }
@@ -207,5 +208,136 @@ enum SearchText {
             .replacingOccurrences(of: "ı", with: "i")
             .lowercased()
             .trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    /// Lowercased with the diacritics kept ("diş", not "dış").
+    nonisolated static func typed(_ text: String) -> String {
+        text.lowercased(with: Locale(identifier: "tr_TR")).trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+}
+
+/// A search query matched the way people type Turkish: diacritics are
+/// optional, word endings are ignored ("bilek" finds "el bileği", "lenf
+/// düğümü" finds "lenf düğümleri") and a few everyday words find the terms
+/// the names use ("atardamar" finds the arteries).
+nonisolated struct SearchQuery: Sendable {
+    /// The folded query, then its everyday-word replacements.
+    let forms: [String]
+    /// Per form, per word: the beginnings a word of the name may have.
+    private let stems: [[Beginning]]
+    /// As typed: "diş" ranks the teeth over "dış karotis".
+    private let typed: String
+    /// Whether the query has Turkish letters, which then count.
+    private let marked: Bool
+
+    /// Everyday words (folded) and the word the names use instead.
+    private static let everyday: [(String, String)] = [
+        ("atardamarlar", "arter"), ("atardamar", "arter"), ("toplardamarlar", "ven"), ("toplardamar", "ven"),
+        ("apandis", "apendiks"), ("legen kemigi", "kalca kemigi"), ("legen", "pelvis"), ("pazi", "biseps"),
+        ("incik", "kaval"), ("nefes borusu", "soluk borusu"), ("koltuk alti", "aksiller"),
+        ("omurilik sogani", "medulla oblongata"), ("dol yatagi", "rahim"), ("goz bebegi", "pupilla"),
+        ("bademcik", "tonsil"), ("husye", "testis"), ("yumurtalik", "over"),
+    ]
+
+    init(_ text: String) {
+        let folded = SearchText.fold(text)
+        var forms = [folded]
+        for (word, term) in Self.everyday where (" " + folded + " ").contains(" " + word + " ") {
+            let form = (" " + folded + " ").replacingOccurrences(of: " " + word + " ", with: " " + term + " ")
+                .trimmingCharacters(in: .whitespaces)
+            if !forms.contains(form) { forms.append(form) }
+        }
+        self.forms = forms
+        stems = forms.map { $0.split(separator: " ").map { Self.beginning(of: String($0)) } }
+        typed = SearchText.typed(text)
+        marked = typed != folded
+    }
+
+    var isEmpty: Bool { forms[0].isEmpty }
+    var count: Int { forms[0].count }
+
+    /// How well `names` (Turkish, Latin, English…) match, 0 when they do not.
+    func score(_ names: [String]) -> Int {
+        score(folded: names.map(SearchText.fold), typed: names.map(SearchText.typed))
+    }
+
+    /// The same for names already folded and lowercased (search indexes).
+    func score(folded: [String], typed names: [String]) -> Int {
+        var best = 0
+        for (name, typedName) in zip(folded, names) where !name.isEmpty {
+            var s = score(folded: name)
+            if s > 0 {
+                if typedName.contains(typed) { s += 15 } else if marked { s /= 2 }
+            }
+            best = max(best, s)
+        }
+        return best
+    }
+
+    /// The score against an already folded name.
+    func score(folded name: String) -> Int {
+        var best = 0
+        for (k, form) in forms.enumerated() {
+            var s = 0
+            if name == form {
+                s = 100
+            } else if let fit = Self.fit(form, in: name), k == 0 || fit > 10 {
+                s = fit
+            } else if Self.wordsBegin(stems[k], in: name) {
+                s = 20
+            }
+            if s > 0 { best = max(best, s - (k == 0 ? 0 : 5)) }
+        }
+        return best
+    }
+
+    /// 60 at the start of the name (70 as whole words), 50 whole words
+    /// elsewhere, 30 at a word start, 10 inside a word.
+    private static func fit(_ form: String, in name: String) -> Int? {
+        var best: Int?
+        var searchRange = name.startIndex..<name.endIndex
+        while let r = name.range(of: form, range: searchRange) {
+            let starts = r.lowerBound == name.startIndex || !name[name.index(before: r.lowerBound)].isLetter
+            let ends = r.upperBound == name.endIndex || !name[r.upperBound].isLetter
+            let s = r.lowerBound == name.startIndex ? (ends ? 70 : 60) : (starts ? (ends ? 50 : 30) : 10)
+            best = max(best ?? 0, s)
+            searchRange = name.index(after: r.lowerBound)..<name.endIndex
+        }
+        return best
+    }
+
+    /// Whether every query word begins some word of the name, endings aside.
+    private static func wordsBegin(_ words: [Beginning], in name: String) -> Bool {
+        guard !words.isEmpty else { return false }
+        let nameWords = name.split { !$0.isLetter && !$0.isNumber }
+        return words.allSatisfy { begin in
+            nameWords.contains { word in
+                // Short words whole: "el" is not "elmacık".
+                begin.stem.count <= 2 ? word == begin.stem : word.hasPrefix(begin.stem)
+                    || begin.softened.map { word.hasPrefix($0) && Self.vowelEndings.contains(String(word.dropFirst($0.count))) } ?? false
+            }
+        }
+    }
+
+    /// A query word without its Turkish ending (plural, possessive, case),
+    /// and with its last consonant softened before a vowel ending (kemik /
+    /// kemiği, kalp / kalbi, not kalbur).
+    private struct Beginning: Sendable {
+        let stem: String
+        let softened: String?
+    }
+
+    private static let vowelEndings: Set<String> = ["", "i", "in", "inin", "ini", "ine", "e", "a", "u", "un", "unun", "unu", "una"]
+
+    private static func beginning(of word: String) -> Beginning {
+        var stem = word
+        for ending in ["lerinin", "larinin", "lerin", "larin", "leri", "lari", "ler", "lar", "nin", "nun", "in", "un", "si", "su", "i", "u"]
+        where stem.hasSuffix(ending) && stem.count - ending.count >= 3 {
+            stem.removeLast(ending.count)
+            break
+        }
+        let soft: [Character: Character] = ["k": "g", "g": "k", "p": "b", "b": "p", "t": "d", "d": "t"]
+        let softened = stem.last.flatMap { soft[$0] }.map { String(stem.dropLast()) + String($0) }
+        return Beginning(stem: stem, softened: softened)
     }
 }

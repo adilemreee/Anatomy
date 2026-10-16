@@ -163,41 +163,95 @@ extension AnatomyScene {
         let tanVM = tanV * 1.15
         let slackH = (1 + tanH * tanH).squareRoot(), slackV = (1 + tanVM * tanVM).squareRoot()
         let pixelsPerMetreAtOne = viewPixelHeight / (2 * tanV)
-        let tolerance: Float = isCameraMoving ? 3.5 : 1.6
+
+        // Pixels per metre of every part on screen (-1 off screen) and whether
+        // it is drawn (0 hidden, 1 solid, 2 see-through at its coarsest level).
+        struct Work { let id: String; let pack: MeshPack; let scales: [Float]; let drawn: [UInt8] }
+        var work: [Work] = []
         for (id, system) in systems where enabledLayers.contains(id) {
             let pack = system.pack
             guard pack.levelCount > 1 else { continue }
-            var levels = partLevels[id] ?? Array(repeating: 0, count: pack.parts.count)
-            var changed = false
-            let coarsest = pack.levelCount - 1
+            var scales = [Float](repeating: -1, count: pack.parts.count)
+            var drawn = [UInt8](repeating: 0, count: pack.parts.count)
             for i in pack.parts.indices {
+                // Hidden parts get their level too (it is ready when they show)
+                // but do not count against the budget.
+                switch state(of: PartRef(system: id, index: i)) {
+                case .hidden: drawn[i] = 0
+                case .ghost: drawn[i] = 2
+                default: drawn[i] = 1
+                }
                 let r = system.radii[i]
-                // Off screen: keep the cheapest level.
                 let c = view * SIMD4(system.centers[i], 1)
                 let depth = -c.z
                 let offScreen = depth < -r || abs(c.x) > depth * tanH + r * slackH || abs(c.y) > depth * tanVM + r * slackV
-                var level = 0
-                if offScreen {
-                    level = coarsest
-                } else {
-                    let scale = pixelsPerMetreAtOne / max(simd_distance(system.centers[i], eye) - r, 0.02)
-                    for l in Swift.stride(from: coarsest, through: 1, by: -1) where pack.error(of: i, level: l) * scale <= tolerance {
-                        level = l
-                        break
-                    }
-                }
-                if levels[i] != UInt8(level) {
-                    levels[i] = UInt8(level)
-                    changed = true
+                if !offScreen {
+                    scales[i] = pixelsPerMetreAtOne / max(simd_distance(system.centers[i], eye) - r, 0.02)
                 }
             }
-            if changed {
-                partLevels[id] = levels
-                refresh(id, visibilityChanged: false)
-            }
+            work.append(Work(id: id, pack: pack, scales: scales, drawn: drawn))
         }
-        if Self.logsDetail { print("LOD", drawnTriangleSummary()) }
+
+        // The finest levels within `tolerance` pixels of error; when that is more
+        // than this device draws smoothly, the tolerance grows until it fits.
+        let budget = isCameraMoving ? Self.triangleBudget * 7 / 10 : Self.triangleBudget
+        var tolerance: Float = isCameraMoving ? 3.5 : 1.6
+        var chosen: [String: [UInt8]] = [:]
+        for attempt in 0..<6 {
+            var total = 0
+            for w in work {
+                let coarsest = w.pack.levelCount - 1
+                var levels = [UInt8](repeating: UInt8(coarsest), count: w.pack.parts.count)
+                for i in w.pack.parts.indices {
+                    var level = coarsest
+                    let scale = w.scales[i]
+                    if scale >= 0, w.drawn[i] != 2 {
+                        level = 0
+                        for l in Swift.stride(from: coarsest, through: 1, by: -1) where w.pack.error(of: i, level: l) * scale <= tolerance {
+                            level = l
+                            break
+                        }
+                    }
+                    levels[i] = UInt8(level)
+                    if w.drawn[i] != 0 { total += w.pack.range(of: i, level: level).count / 3 }
+                }
+                chosen[w.id] = levels
+            }
+            if total <= budget || attempt == 5 { break }
+            tolerance *= 1.5
+        }
+        for w in work where partLevels[w.id] != chosen[w.id] {
+            partLevels[w.id] = chosen[w.id]
+            refresh(w.id, visibilityChanged: false)
+        }
+        if Self.logsDetail { print("LOD", drawnTriangleSummary(), "tolerance", tolerance) }
     }
+
+    /// Triangles this device draws smoothly at full frame rate, by its class
+    /// (memory goes with the GPU generation): 4 GB phones such as the iPhone 12
+    /// mini get about a million, 6 GB ones 1.8 million, newer ones three.
+    /// Phones with 4 GB of memory (iPhone 12 / 13 mini class GPUs) also get the
+    /// lighter surface detail in the shader (fewer texture lookups on skin).
+    static let isLowPowerDevice: Bool = {
+        #if DEBUG
+        if UserDefaults.standard.bool(forKey: "AtlasLowPower") { return true }
+        #endif
+        return Double(ProcessInfo.processInfo.physicalMemory) / 1_073_741_824 < 4.5
+    }()
+
+    static let triangleBudget: Int = {
+        #if DEBUG
+        // -AtlasTriangleBudget 1000000 shows a smaller device's detail in the simulator.
+        let forced = UserDefaults.standard.integer(forKey: "AtlasTriangleBudget")
+        if forced > 0 { return forced }
+        #endif
+        let gigabytes = Double(ProcessInfo.processInfo.physicalMemory) / 1_073_741_824
+        switch gigabytes {
+        case ..<4.5: return 1_000_000
+        case ..<6.5: return 1_800_000
+        default: return 3_000_000
+        }
+    }()
 
     /// -AtlasDebugLOD YES prints the drawn triangle count after every update.
     private static let logsDetail = UserDefaults.standard.bool(forKey: "AtlasDebugLOD")

@@ -38,8 +38,13 @@ final class PurchaseStore {
     private(set) var lastError: String?
 
     @ObservationIgnored private var updates: Task<Void, Never>?
-    /// -PremiumUnlocked YES for screenshots and testing.
+    #if DEBUG
+    /// -PremiumUnlocked YES for screenshots and testing (debug builds only: in
+    /// a release build a defaults key must never unlock Premium).
     @ObservationIgnored private let forcedUnlock = UserDefaults.standard.bool(forKey: "PremiumUnlocked")
+    #else
+    @ObservationIgnored private let forcedUnlock = false
+    #endif
 
     init() {
         isPremium = forcedUnlock

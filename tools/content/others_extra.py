@@ -309,5 +309,5 @@ E("canalis-inguinalis", "Kasık kanalı (inguinal kanal)", "Canalis inguinalis",
   tus=["Derin halka fascia transversalis'te, yüzeyel halka dış oblik aponevrozundadır.",
        "Kanalın arka duvarının medial kısmını conjoint tendon (falx inguinalis) güçlendirir; direkt fıtıklar burada zayıflıkla oluşur."],
   related=["lig-inguinale", "m-obliquus-externus", "m-obliquus-internus", "m-transversus-abdominis", "funiculus-spermaticus", "ligamenta-uteri"],
-  models=[], aliases=["inguinal kanal", "kasık kanalı", "fıtık", "herni"]),
+  models=["Inguinal ligament", "Inguinal region"], aliases=["inguinal kanal", "kasık kanalı", "fıtık", "herni"]),
 ]

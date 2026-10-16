@@ -74,6 +74,9 @@ void anatomySurface(realitykit::surface_parameters params)
     int mode = int(custom.x + 0.5);
     float occlusionStrength = custom.y;
     float rimStrength = custom.z;
+    // Lighter surface detail for smaller GPUs: the skin's relief comes from the
+    // one detail lookup every surface makes instead of three more.
+    bool lite = custom.w > 0.5;
 
     float4 vertexColor = geometry.color();
     float3 base = vertexColor.rgb;
@@ -227,24 +230,25 @@ void anatomySurface(realitykit::surface_parameters params)
                 float3 t = normalize(geometry.tangent());
                 base *= 0.96 + 0.07 * mottle;
                 base = mix(base, base * float3(1.06, 0.93, 0.92), smoothstep(0.55, 0.85, mottle) * 0.35);
+                float3 liteRelief = normalize(float3((grain - 0.5) * 0.12, (mottle - 0.5) * 0.12, 1));
                 if (pattern == 4) {
                     // Shaved scalp: a soft grey shadow of fine stubble; the
                     // density (wetness channel) fades it out at the hairline.
                     // The skin texture already carries a light stubble.
                     float density = saturate(wetness * 3.0) * (textured ? 0.35 : 1.0);
-                    float stubble = float(triplanar(tex, p, normal, 14.0).g);
+                    float stubble = lite ? grain : float(triplanar(tex, p, normal, 14.0).g);
                     float dots = smoothstep(0.62, 0.9, stubble);
                     base = mix(base, base * float3(0.8, 0.76, 0.74), (0.32 + 0.12 * mottle) * density);
                     base = mix(base, float3(0.12, 0.09, 0.075), dots * 0.38 * density);
-                    tangentNormal = reliefNormal(tex, p, normal, t, 14.0, 1, 0.25);
+                    tangentNormal = lite ? liteRelief : reliefNormal(tex, p, normal, t, 14.0, 1, 0.25);
                     roughness = 0.66; specular = 0.26; clearcoat = 0.04;
                 } else if (pattern == 5) {
                     // Scrotal skin: fine rugae.
-                    tangentNormal = reliefNormal(tex, p, normal, t, 4.0, 1, 0.5);
-                    base *= 0.95 + 0.07 * float(triplanar(tex, p, normal, 4.0).g);
+                    tangentNormal = lite ? liteRelief : reliefNormal(tex, p, normal, t, 4.0, 1, 0.5);
+                    base *= 0.95 + 0.07 * (lite ? grain : float(triplanar(tex, p, normal, 4.0).g));
                     roughness = 0.55; specular = 0.3; clearcoat = 0.12; clearcoatRoughness = 0.35;
                 } else {
-                    tangentNormal = reliefNormal(tex, p, normal, t, 3.5, 1, 0.35);
+                    tangentNormal = lite ? liteRelief : reliefNormal(tex, p, normal, t, 3.5, 1, 0.35);
                     roughness = 0.58 - 0.08 * mottle; specular = 0.32;
                     clearcoat = 0.12; clearcoatRoughness = 0.42;
                 }
@@ -294,8 +298,9 @@ void anatomySurface(realitykit::surface_parameters params)
         clearcoat = 0;
     } else {
         // A cool rim light separates the figure from the background.
-        // Skin keeps only a trace of it: a blue sheen reads as bruising there.
-        emissive = float3(0.5, 0.66, 0.95) * fresnel * rimStrength * ao * 0.8 * (textured ? 0.3 : 1.0);
+        // Skin keeps only a trace of it: a blue sheen reads as bruising there
+        // (and outlines the untextured genital skin against the body).
+        emissive = float3(0.5, 0.66, 0.95) * fresnel * rimStrength * ao * 0.8 * (textured || tissue == skin ? 0.3 : 1.0);
     }
 
     surface.set_base_color(half3(base));

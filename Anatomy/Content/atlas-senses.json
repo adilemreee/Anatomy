@@ -389,15 +389,7 @@
     "os-temporale"
    ],
    "models": [
-    "External ear",
-    "Auricular region",
-    "Helix",
-    "Antihelix",
-    "Tragus",
-    "Antitragus",
-    "Lobule of auricle",
-    "Concha of auricle",
-    "Scapha"
+    "External ear"
    ],
    "aliases": [
     "kulak kepçesi",
@@ -566,7 +558,10 @@
     "cavitas-nasi",
     "os-ethmoidale"
    ],
-   "models": [],
+   "models": [
+    "Olfactory nerve (I)",
+    "Mucosa of nasal cavity"
+   ],
    "aliases": [
     "koku",
     "olfaksiyon"
@@ -609,7 +604,9 @@
     "n-glossopharyngeus",
     "insula"
    ],
-   "models": [],
+   "models": [
+    "Tongue"
+   ],
    "aliases": [
     "tat",
     "tat tomurcuğu"

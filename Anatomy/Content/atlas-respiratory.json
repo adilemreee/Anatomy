@@ -901,7 +901,13 @@
     "aorta",
     "ductus-thoracicus"
    ],
-   "models": [],
+   "models": [
+    "Heart",
+    "Thymus",
+    "Trachea",
+    "Oesophagus",
+    "Mediastinal lymph nodes"
+   ],
    "aliases": [
     "mediasten",
     "göğüs ortası"

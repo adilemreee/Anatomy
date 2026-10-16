@@ -67,7 +67,7 @@ struct LibraryView: View {
                     })) {
                         ForEach(BodySex.allCases) { Text($0.title).tag($0) }
                     } label: {
-                        Label("Üreme organları", systemImage: "figure.dress.line.vertical.figure")
+                        Label("Model", systemImage: "figure.dress.line.vertical.figure")
                     }
                     Picker(selection: $level) {
                         Text("Tıp fakültesi").tag("faculty")
@@ -141,6 +141,11 @@ struct LibraryView: View {
                         Task { await app.purchases.restore() }
                     } label: {
                         Label("Satın alımları geri yükle", systemImage: "arrow.clockwise")
+                    }
+                    Button {
+                        openURL(Legal.support)
+                    } label: {
+                        Label("Destek", systemImage: "questionmark.circle")
                     }
                     Button {
                         openURL(Legal.privacy)
@@ -248,6 +253,9 @@ struct AboutView: View {
                 credit("Human Reference Atlas (HuBMAP)",
                        "Rahim, yumurtalıklar, fallop tüpleri, kadın mesanesi ve meme bezi Human Reference Atlas 3D referans organlarından (Visible Human Female, NIH) alınmış ve atlasa hizalanmıştır. Creative Commons Atıf 4.0 (CC BY 4.0).",
                        "humanatlas.io", "https://humanatlas.io/3d-reference-library")
+                credit("MakeHuman",
+                       "Erkek ve kadın derisi, yüz, gözler ve deri dokusu MakeHuman'ın CC0 (kamu malı) taban modeli ve dokularından hazırlanıp atlasın iskeletine oturtulmuştur. Kadın modelinin iskelet, kas ve organları bu deriye göre biçimlendirilir.",
+                       "makehumancommunity.org", "https://www.makehumancommunity.org")
                 credit("meshoptimizer",
                        "Modellerin uzaklığa göre sadeleştirilmiş detay seviyeleri meshoptimizer ile üretilmiştir. © Arseny Kapoulkine, MIT lisansı.",
                        "github.com/zeux/meshoptimizer", "https://github.com/zeux/meshoptimizer")

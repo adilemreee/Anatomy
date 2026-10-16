@@ -41,3 +41,7 @@ fix("Medial compartment of thigh", la="Compartimentum femoris mediale")
 fix("Lateral supracondylar ridge", la="Crista supracondylaris lateralis")
 fix("Medial supracondylar ridge", la="Crista supracondylaris medialis")
 fix("Posterior segment of liver (I)", la="Segmentum posterius hepatis (I), lobus caudatus")
+
+# Latin names for the skin layer's penis and eyeball.
+fix("Penis", tr="Penis", la="Penis")
+fix("Eyeball", tr="Göz küresi", la="Bulbus oculi")

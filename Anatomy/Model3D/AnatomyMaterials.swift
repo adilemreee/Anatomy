@@ -34,18 +34,20 @@ enum AnatomyMaterials {
                 if let skin { m.baseColor = .init(tint: .white, texture: .init(skin)) }
                 return m
             }
-            var solid = try material(SIMD4(0, occlusion, rim, 0))
+            // w: 1 on devices that need the lighter surface detail (AnatomyScene.isLowPowerDevice).
+            let lite: Float = AnatomyScene.isLowPowerDevice ? 1 : 0
+            var solid = try material(SIMD4(0, occlusion, rim, lite))
             solid.faceCulling = .none
 
-            var ghost = try material(SIMD4(1, occlusion * 0.5, 0, 0))
+            var ghost = try material(SIMD4(1, occlusion * 0.5, 0, lite))
             ghost.blending = .transparent(opacity: .init(floatLiteral: 1))
             ghost.writesDepth = false
             ghost.faceCulling = .back
 
-            var selected = try material(SIMD4(2, min(occlusion, 0.5), 0, 0))
+            var selected = try material(SIMD4(2, min(occlusion, 0.5), 0, lite))
             selected.faceCulling = .none
 
-            var highlighted = try material(SIMD4(3, min(occlusion, 0.5), 0, 0))
+            var highlighted = try material(SIMD4(3, min(occlusion, 0.5), 0, lite))
             highlighted.faceCulling = .none
             return [solid, ghost, selected, highlighted]
         } catch {
@@ -99,8 +101,11 @@ enum AnatomyMaterials {
     /// A soft studio environment for image based lighting.
     static func environment() async -> EnvironmentResource? {
         guard let image = environmentImage() else { return nil }
-        let options = EnvironmentResource.CreateOptions(samplingQuality: .normal, specularCubeDimension: 128)
-        return try? await EnvironmentResource(equirectangular: image, options: options)
+        if #available(iOS 27.0, *) {
+            let options = EnvironmentResource.CreateOptions(samplingQuality: .normal, specularCubeDimension: 128)
+            return try? await EnvironmentResource(equirectangular: image, options: options)
+        }
+        return try? await EnvironmentResource(equirectangular: image)
     }
 
     /// A dark photo studio: dim ceiling and walls, one soft key box above the

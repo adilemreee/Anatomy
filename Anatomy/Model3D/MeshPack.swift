@@ -18,7 +18,7 @@ nonisolated struct PartInfo: Decodable, Hashable, Sendable {
     /// Ancestor groups from the outermost to the direct parent.
     let path: [String]
     /// minX, minY, minZ, maxX, maxY, maxZ in model space.
-    let bounds: [Float]
+    var bounds: [Float]
     let tris: Int
     let side: String?
     /// "origin" / "insertion" for muscle attachment patches.
@@ -31,6 +31,9 @@ nonisolated struct PartInfo: Decodable, Hashable, Sendable {
     let sex: String?
     /// Wraps other structures (pericardium, scrotum, breast fat).
     let covering: Bool?
+    /// "female" for parts modelled directly in the female body (her skin, the
+    /// breast): the female warp leaves them where they are.
+    let frame: String?
 
     var center: SIMD3<Float> {
         SIMD3((bounds[0] + bounds[3]) / 2, (bounds[1] + bounds[4]) / 2, (bounds[2] + bounds[5]) / 2)
@@ -103,10 +106,10 @@ nonisolated struct MeshPack: Sendable {
 
     let system: String
     let materials: [String]
-    let parts: [PartInfo]
+    var parts: [PartInfo]
     let ranges: [Range]
-    let positions: [SIMD3<Float>]
-    let normals: [SIMD3<Float>]
+    var positions: [SIMD3<Float>]
+    var normals: [SIMD3<Float>]
     /// Baked ambient occlusion per vertex (255 = open).
     let occlusion: [UInt8]
     /// Global vertex indices (already offset by each part's `vertexStart`).

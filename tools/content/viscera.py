@@ -454,7 +454,7 @@ E("vulva", "Dış genital organlar (kadın)", "Pudendum femininum (vulva)", "Vul
          ("İnnervasyon", "N. pudendus, n. ilioinguinalis, n. genitofemoralis")],
   clinical=["Bartholin bezi kanalının tıkanması kist veya apseye yol açabilir."],
   related=["vagina", "n-pudendus"],
-  models=[], aliases=["vulva", "klitoris", "labia"]),
+  models=["Vulva", "Mons pubis", "Labium majus", "Labium minus", "Glans of clitoris", "Vestibule of vagina"], aliases=["vulva", "klitoris", "labia"]),
 
 E("glandula-mammaria", "Meme bezi", "Glandula mammaria", "Mammary gland", KD, "thorax",
   "Göğüs ön duvarında, m. pectoralis major'un fasyası üzerinde yer alan, süt salgılayan modifiye ter bezidir.",
@@ -532,7 +532,7 @@ E("insulae-pancreaticae", "Pankreas adacıkları", "Insulae pancreaticae (Langer
          ("Glukagon", "Kan şekerini yükseltir; karaciğerde glikojen yıkımını ve glukoneogenezi uyarır")],
   clinical=["Tip 1 diyabet β hücrelerinin otoimmün yıkımıyla, tip 2 diyabet insülin direnci ve göreli insülin eksikliğiyle gelişir.", "İnsülinoma tekrarlayan hipoglisemi ataklarına neden olur."],
   related=["pancreas", "hepar"],
-  models=[], aliases=["Langerhans", "insülin", "glukagon"]),
+  models=["Pancreas"], aliases=["Langerhans", "insülin", "glukagon"]),
 ]
 
 respiratory += viscera_extra.respiratory

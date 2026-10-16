@@ -87,7 +87,6 @@ class Pack:
 
     def add(self, name, path, co, tris, material, base=None, side=None, sex=None, covering=False,
             source=MODELLED, normals=None, runs=None, uvs=None):
-        co = np.clip(co, self.lo, self.hi)
         used = np.unique(tris)
         remap = np.full(len(co), -1)
         remap[used] = np.arange(len(used))
@@ -112,7 +111,13 @@ class Pack:
         return part
 
     def write(self):
-        lo, hi = self.lo, self.hi
+        # the box grows to take every part (her breasts and toes reach
+        # further forward than the male body it was made for)
+        lo, hi = np.array(self.lo, float), np.array(self.hi, float)
+        for p in self.parts:
+            if len(p["co"]):
+                lo = np.minimum(lo, p["co"].min(0) - 0.002)
+                hi = np.maximum(hi, p["co"].max(0) + 0.002)
         blob = bytearray(b"ANT1" + struct.pack("<I", len(self.parts)) + struct.pack("<3f", *lo) + struct.pack("<3f", *hi))
         for p in self.parts:
             blob += struct.pack("<II", len(p["co"]), p["idx"].size)

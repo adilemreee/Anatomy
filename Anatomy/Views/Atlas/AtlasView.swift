@@ -266,6 +266,19 @@ struct AtlasView: View {
                 ToolButton(title: "Röntgen", systemImage: "circle.lefthalf.filled", isOn: scene.xray, compact: compact) {
                     scene.xray.toggle()
                 }
+                Menu {
+                    Picker("Model", selection: Binding(get: { app.sex }, set: { newValue in
+                        if newValue == .female, !app.requirePremium(.femaleAnatomy) { return }
+                        app.sex = newValue
+                    })) {
+                        Label("Erkek modeli", systemImage: "figure.stand").tag(BodySex.male)
+                        Label("Kadın modeli", systemImage: "figure.stand.dress").tag(BodySex.female)
+                    }
+                } label: {
+                    ToolLabel(title: app.sex.title, systemImage: app.sex == .female ? "figure.stand.dress" : "figure.stand", compact: compact)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("Model: \(app.sex.title)")
                 ToolButton(title: "Katmanlar", systemImage: "slider.horizontal.3", compact: compact) {
                     showLayers = true
                 }
@@ -340,6 +353,7 @@ struct AtlasView: View {
             Text(restoreTitle)
                 .font(.subheadline.weight(.medium))
                 .lineLimit(1)
+                .minimumScaleFactor(0.8)
             Spacer()
             Button("Tümünü göster") {
                 withAnimation(.snappy) {
@@ -358,9 +372,10 @@ struct AtlasView: View {
     private var restoreTitle: String {
         if scene.isIsolating { return "Yalnız seçilen yapı" }
         var parts: [String] = []
-        if !scene.highlighted.isEmpty { parts.append("\(scene.highlighted.count) parça vurgulandı") }
-        if !scene.fadedParts.isEmpty { parts.append("saydam yapılar var") }
-        if !scene.hiddenParts.isEmpty { parts.append("\(scene.hiddenParts.count) parça gizli") }
+        // Short enough to fit next to "Tümünü göster" on the smallest phones.
+        if !scene.highlighted.isEmpty { parts.append("\(scene.highlighted.count) yapı vurgulu") }
+        if !scene.fadedParts.isEmpty { parts.append("önü saydam") }
+        if !scene.hiddenParts.isEmpty { parts.append("\(scene.hiddenParts.count) gizli") }
         return parts.isEmpty ? "Değiştirilmiş görünüm" : parts.joined(separator: " · ")
     }
 
@@ -397,7 +412,7 @@ private struct ToolLabel: View {
             }
         }
         .foregroundStyle(isOn ? Theme.accent : Theme.textPrimary)
-        .frame(width: compact ? 50 : 64, height: compact ? 40 : 50)
+        .frame(width: compact ? 46 : 57, height: compact ? 40 : 50)
         .background(isOn ? Theme.accent.opacity(0.16) : .clear, in: .capsule)
         .contentShape(.capsule)
     }
@@ -602,6 +617,10 @@ private struct SelectionCard: View {
         let locked = !app.isFree(ref)
         let side = info.sideTitle.map { " (\($0))" } ?? ""
         let group = app.scene.selectedGroup
+        let levels = self.levels
+        let current = levels.firstIndex { $0.refs == group } ?? 0
+        let level = levels.indices.contains(current) ? levels[current] : nil
+        let wholeGroup = current > 0
 
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .top, spacing: 12) {
@@ -609,16 +628,16 @@ private struct SelectionCard: View {
                     SystemBadge(icon: layer.icon, color: layer.tint, size: 40)
                 }
                 VStack(alignment: .leading, spacing: 3) {
-                    Text(store.displayName(for: info) + side)
+                    Text(wholeGroup ? (level?.title ?? "") : store.displayName(for: info) + side)
                         .font(.headline)
                         .foregroundStyle(Theme.textPrimary)
                         .lineLimit(2)
-                    Text(subtitle)
+                    Text(wholeGroup ? (level?.latin ?? "") : subtitle)
                         .font(Theme.latin(.subheadline))
                         .foregroundStyle(Theme.textSecondary)
                         .lineLimit(1)
                     if group.count > 1 {
-                        Text("\(group.count) bölümüyle birlikte seçildi")
+                        Text(wholeGroup ? "\(group.count) parça birlikte seçili" : "\(group.count) bölümüyle birlikte seçildi")
                             .font(.caption)
                             .foregroundStyle(Theme.textTertiary)
                     }
@@ -634,6 +653,32 @@ private struct SelectionCard: View {
                 .buttonStyle(.plain)
                 .glassEffect(.regular.interactive(), in: .circle)
                 .accessibilityLabel("Seçimi kaldır")
+            }
+
+            if levels.count > 1 {
+                // The tapped part or, wider, the structure it belongs to (the
+                // frontal bone, the bones of the cranium, the cranium…), on as
+                // many lines as needed: every level in sight.
+                HStack(spacing: 0) {
+                    FlowLayout(spacing: 6) {
+                        ForEach(Array(levels.enumerated()), id: \.offset) { index, option in
+                            Button {
+                                withAnimation(.snappy) { app.scene.selectGroup(option.refs, anchor: ref) }
+                            } label: {
+                                Text(index == 0 ? option.title : "\(option.title) · \(option.refs.count)")
+                                    .font(.caption.weight(.semibold))
+                                    .lineLimit(1)
+                                    .padding(.horizontal, 11)
+                                    .padding(.vertical, 6)
+                                    .foregroundStyle(index == current ? Color.white : Theme.textPrimary)
+                                    .background(index == current ? AnyShapeStyle(Theme.accentGradient) : AnyShapeStyle(Theme.elevated), in: .capsule)
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                    Spacer(minLength: 0)
+                }
+                .accessibilityLabel("Seçim düzeyi")
             }
 
             if locked {
@@ -658,6 +703,14 @@ private struct SelectionCard: View {
                     .overlay { RoundedRectangle(cornerRadius: 14).strokeBorder(Theme.gold.opacity(0.35)) }
                 }
                 .buttonStyle(PressableStyle())
+            } else if wholeGroup {
+                if let text = level?.name.flatMap(store.partDescription) {
+                    Text(text)
+                        .font(.footnote)
+                        .foregroundStyle(Theme.textSecondary)
+                        .lineLimit(3)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
             } else if let summary {
                 Text(summary)
                     .font(.footnote)
@@ -670,11 +723,11 @@ private struct SelectionCard: View {
                 actionButton("İncele", systemImage: "cube.transparent", prominent: true) {
                     guard app.isFree(ref) || app.requirePremium(.inspection) else { return }
                     let refs = Array(group.isEmpty ? [ref] : group)
-                    let entry = store.entry(for: info)
+                    let entry = wholeGroup ? nil : store.entry(for: info)
                     app.specimen = app.specimenRequest(
                         for: refs,
-                        title: store.displayName(for: info),
-                        subtitle: store.latinName(for: info) ?? info.base,
+                        title: wholeGroup ? (level?.title ?? "") : store.displayName(for: info),
+                        subtitle: wholeGroup ? (level?.latin ?? "") : (store.latinName(for: info) ?? info.base),
                         entryID: entry?.id
                     )
                 }
@@ -699,6 +752,48 @@ private struct SelectionCard: View {
         .background(Theme.surface.opacity(0.94), in: .rect(cornerRadius: 26))
         .overlay { RoundedRectangle(cornerRadius: 26).strokeBorder(Theme.stroke) }
         .shadow(color: .black.opacity(0.35), radius: 24, y: 10)
+    }
+
+    /// Selection levels: the tapped part (with its own sections), then the
+    /// groups it belongs to, nearest first (same side, this body's sex).
+    private struct Level {
+        let title: String
+        let latin: String
+        var name: String? = nil
+        let refs: Set<PartRef>
+    }
+
+    /// Wider structures that are not one group of the model hierarchy: the
+    /// whole skull is the cranium with the bones outside it (mandible, hyoid).
+    private static let combined: [String: (groups: [String], title: String, latin: String)] = [
+        "Cranium": (["Cranium", "Extracranial bones of head"], "Kafatası ve alt çene", "Ossa capitis"),
+    ]
+
+    private var levels: [Level] {
+        let scene = app.scene
+        let store = app.store
+        var base = scene.groupResolver?(ref) ?? [ref]
+        base.insert(ref)
+        var out = [Level(title: store.displayName(for: info), latin: store.latinName(for: info) ?? info.base, refs: base)]
+        var lastCount = base.count
+        for name in info.path.dropFirst().reversed() {
+            let refs = Set(scene.matchingSex(scene.refs(matching: [name])).filter { other in
+                guard other.system == ref.system, let otherInfo = scene.info(other) else { return false }
+                return info.side == nil || otherInfo.side == nil || otherInfo.side == info.side
+            })
+            guard refs.count > lastCount, refs.count <= 150 else { continue }
+            out.append(Level(title: store.groupName(name), latin: store.latinName(name) ?? name, name: name, refs: refs.union([ref])))
+            lastCount = refs.count
+            if out.count == 3 { break }
+        }
+        for name in info.path {
+            guard let wider = Self.combined[name] else { continue }
+            let refs = Set(scene.matchingSex(scene.refs(matching: wider.groups)).filter { $0.system == ref.system })
+            if refs.count > lastCount {
+                out.append(Level(title: wider.title, latin: wider.latin, refs: refs.union([ref])))
+            }
+        }
+        return out
     }
 
     private var subtitle: String {

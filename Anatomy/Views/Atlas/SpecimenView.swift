@@ -41,7 +41,7 @@ struct SpecimenView: View {
                 size = $0
                 scene.setViewSize($0)
             }) {
-                if showLabels, !scene.isCameraMoving {
+                if showLabels, scene.isReady, !scene.isCameraMoving {
                     labelLayer.transition(.opacity)
                 }
             }

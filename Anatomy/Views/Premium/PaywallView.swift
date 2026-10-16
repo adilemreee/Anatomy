@@ -244,8 +244,10 @@ private struct PlanRow: View {
     }
 }
 
-/// Links required next to subscriptions.
+/// Links required next to subscriptions (the pages are docs/ in this repo,
+/// served at anatomi.adilemree.xyz). The terms include Apple's standard EULA.
 enum Legal {
-    static let terms = URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!
-    static let privacy = URL(string: "https://adilemre.github.io/anatomi-atlasi/gizlilik")!
+    static let terms = URL(string: "https://anatomi.adilemree.xyz/terms")!
+    static let privacy = URL(string: "https://anatomi.adilemree.xyz/privacy")!
+    static let support = URL(string: "https://anatomi.adilemree.xyz/destek")!
 }

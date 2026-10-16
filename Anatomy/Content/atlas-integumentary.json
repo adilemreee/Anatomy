@@ -96,7 +96,9 @@
     "cutis",
     "dermis"
    ],
-   "models": [],
+   "models": [
+    "Regions of human body"
+   ],
    "aliases": [
     "üst deri"
    ]
@@ -133,7 +135,9 @@
     "epidermis",
     "tela-subcutanea"
    ],
-   "models": [],
+   "models": [
+    "Regions of human body"
+   ],
    "aliases": [
     "alt deri",
     "korium"
@@ -169,7 +173,9 @@
     "dermis",
     "cutis"
    ],
-   "models": [],
+   "models": [
+    "Regions of human body"
+   ],
    "aliases": [
     "hipodermis",
     "subkutan"
@@ -215,12 +221,9 @@
     "glandulae-cutis"
    ],
    "models": [
-    "Hairs",
-    "Hairs of head",
-    "Hairs of eyebrow",
-    "Eyelashes",
-    "Pubic hairs",
-    "Eyebrow"
+    "Scalp",
+    "Eyebrow",
+    "Eyelashes"
    ],
    "aliases": [
     "saç",
@@ -312,7 +315,9 @@
     "pili",
     "glandula-mammaria"
    ],
-   "models": [],
+   "models": [
+    "Regions of human body"
+   ],
    "aliases": [
     "ter bezi",
     "yağ bezi",
@@ -795,7 +800,10 @@
     "funiculus-spermaticus",
     "ligamenta-uteri"
    ],
-   "models": [],
+   "models": [
+    "Inguinal ligament",
+    "Inguinal region"
+   ],
    "aliases": [
     "inguinal kanal",
     "kasık kanalı",

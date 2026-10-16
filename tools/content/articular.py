@@ -15,7 +15,8 @@ E("eklem-tipleri", "Eklemlerin sınıflandırılması", "Classificatio articulat
   sections=[("Hareket eksenleri", "Tek eksenli eklemler (menteşe, silindir) bir düzlemde, iki eksenli eklemler (eyer, elipsoid) iki düzlemde, üç eksenli eklemler (küresel) tüm düzlemlerde hareket eder."),
             ("Hilton yasası", "Bir eklemi aşan kasları innerve eden sinirler o eklemi ve üzerini örten deriyi de innerve eder.")],
   clinical=["Osteoartrit eklem kıkırdağının dejenerasyonu, romatoid artrit ise sinovyal zarın otoimmün iltihabıdır."],
-  related=["art-humeri", "art-coxae", "art-genus", "discus-intervertebralis"]),
+  related=["art-humeri", "art-coxae", "art-genus", "discus-intervertebralis"],
+  models=["Hip joint", "Knee joint", "Elbow joint", "Sacro-iliac joint", "Intervertebral disc L4-L5"]),
 
 E("art-temporomandibularis", "Çene eklemi", "Articulatio temporomandibularis", "Temporomandibular joint", KO, "head",
   "Alt çenenin processus condylaris'i ile temporal kemiğin fossa mandibularis'i ve tuberculum articulare'si arasındaki sinovyal eklemdir. İçindeki fibrokıkırdak disk eklemi alt ve üst iki boşluğa ayırır.",

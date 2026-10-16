@@ -27,7 +27,7 @@ struct LayersSheet: View {
                 .listRowBackground(Theme.card)
 
                 Section {
-                    Picker("Üreme organları", selection: Binding(get: { app.sex }, set: { newValue in
+                    Picker("Model", selection: Binding(get: { app.sex }, set: { newValue in
                         if newValue == .female, !app.requirePremium(.femaleAnatomy) { return }
                         app.sex = newValue
                     })) {
@@ -35,9 +35,9 @@ struct LayersSheet: View {
                     }
                     .pickerStyle(.segmented)
                 } header: {
-                    Text("Anatomi")
+                    Text("Model")
                 } footer: {
-                    Text("Kadın görünümünde rahim, yumurtalıklar ve fallop tüpleri gösterilir; iskelet ve diğer sistemler aynı kalır.")
+                    Text("Erkek ve kadın modelleri ayrıdır: deri, beden biçimi, iskelet, kaslar, organlar ve üreme organları seçilen modele göre gösterilir.")
                 }
                 .listRowBackground(Theme.card)
 

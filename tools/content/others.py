@@ -100,7 +100,7 @@ E("medulla-ossium", "Kemik iliği", "Medulla ossium", "Bone marrow", LO, "genera
          ("Üretilen hücreler", "Alyuvarlar, akyuvarlar ve trombositler; günde yüz milyarlarca hücre")],
   clinical=["Kemik iliği aspirasyonu ve biyopsisi genellikle crista iliaca posterior'dan yapılır.", "Lösemiler ve aplastik anemi kemik iliği hastalıklarıdır; kemik iliği nakli tedavide kullanılır."],
   related=["os-coxae", "sternum", "splen", "thymus"],
-  models=[], aliases=["ilik", "hematopoez"]),
+  models=["Hip bone", "Sternum", "Femur", "Vertebral column"], aliases=["ilik", "hematopoez"]),
 ]
 
 # ================================================================ Deri
@@ -128,7 +128,7 @@ E("epidermis", "Epidermis (üst deri)", "Epidermis", "Epidermis", DK, "general",
          ("Kalın deri", "Avuç içi ve ayak tabanı – kıl ve yağ bezi içermez")],
   clinical=["Sedef hastalığında (psoriazis) epidermis yenilenmesi hızlanır ve gümüşi pullu plaklar oluşur.", "Bazal hücreli karsinom en sık deri kanseridir; nadiren metastaz yapar."],
   related=["cutis", "dermis"],
-  models=[], aliases=["üst deri"]),
+  models=["Regions of human body"], aliases=["üst deri"]),
 
 E("dermis", "Dermis (alt deri)", "Dermis (corium)", "Dermis", DK, "general",
   "Epidermisin altındaki, kollajen ve elastik liflerden zengin bağ dokusu tabakasıdır; derinin dayanıklılığını ve esnekliğini sağlar.",
@@ -136,7 +136,7 @@ E("dermis", "Dermis (alt deri)", "Dermis (corium)", "Dermis", DK, "general",
          ("İçerik", "Kan ve lenf damarları, sinirler, kıl kökleri, ter ve yağ bezleri, duyu reseptörleri")],
   clinical=["Dermiste aşırı kollajen birikimi keloid ve hipertrofik skara neden olur.", "Gebelik çatlakları (stria) dermisin aşırı gerilmesiyle oluşur."],
   related=["cutis", "epidermis", "tela-subcutanea"],
-  models=[], aliases=["alt deri", "korium"]),
+  models=["Regions of human body"], aliases=["alt deri", "korium"]),
 
 E("tela-subcutanea", "Deri altı dokusu (hipodermis)", "Tela subcutanea (hypodermis)", "Subcutaneous tissue", DK, "general",
   "Deriyi alttaki fasya ve kaslara bağlayan, ağırlıklı olarak yağ dokusundan oluşan tabakadır. Isı yalıtımı, enerji deposu ve darbe emici olarak görev yapar.",
@@ -144,7 +144,7 @@ E("tela-subcutanea", "Deri altı dokusu (hipodermis)", "Tela subcutanea (hypoder
          ("Dağılım", "Cinsiyete, yaşa ve vücut bölgesine göre farklılık gösterir; göz kapağı ve penis derisinde yoktur")],
   clinical=["İnsülin ve bazı aşılar deri altına (subkutan) uygulanır.", "Selülit deri altı dokusunun bakteriyel enfeksiyonudur."],
   related=["dermis", "cutis"],
-  models=[], aliases=["hipodermis", "subkutan"]),
+  models=["Regions of human body"], aliases=["hipodermis", "subkutan"]),
 
 E("pili", "Kıllar", "Pili", "Hair", DE, "general",
   "Avuç içi, ayak tabanı, dudaklar ve bazı genital bölgeler dışında tüm vücudu örten, keratinden oluşan iplik biçimli deri ekleridir.",
@@ -154,7 +154,7 @@ E("pili", "Kıllar", "Pili", "Hair", DE, "general",
          ("Tipleri", "Lanugo (fetal), vellus (ince), terminal kıllar (saç, kaş, kirpik, sakal, aksiller ve pubik kıllar)")],
   clinical=["Androjenetik alopesi (erkek tipi kellik) androjen duyarlı folikülerin küçülmesiyle olur.", "Alopecia areata otoimmün kökenli yamalı saç dökülmesidir."],
   related=["cutis", "glandulae-cutis"],
-  models=["Hairs", "Hairs of head", "Hairs of eyebrow", "Eyelashes", "Pubic hairs", "Eyebrow"], aliases=["saç", "kıl", "kaş", "kirpik"]),
+  models=["Scalp", "Eyebrow", "Eyelashes"], aliases=["saç", "kıl", "kaş", "kirpik"]),
 
 E("unguis", "Tırnak", "Unguis", "Nail", DE, "general",
   "Parmak uçlarının sırt yüzünde yer alan, sertleşmiş keratin plakadır. Parmak ucunu korur ve ince kavrama hareketlerine yardım eder.",
@@ -172,7 +172,7 @@ E("glandulae-cutis", "Deri bezleri", "Glandulae cutis", "Glands of skin", DE, "g
          ("Özel bezler", "Kulak yolunda serüminöz bezler, göz kapağında Meibom bezleri, meme bezi (modifiye apokrin)")],
   clinical=["Akne, yağ bezlerinin tıkanması ve iltihabıdır.", "Hiperhidroz aşırı terlemedir; ciddi vakalarda sempatektomi uygulanabilir."],
   related=["cutis", "pili", "glandula-mammaria"],
-  models=[], aliases=["ter bezi", "yağ bezi", "sebase"]),
+  models=["Regions of human body"], aliases=["ter bezi", "yağ bezi", "sebase"]),
 
 E("regiones-abdominis", "Karın bölgeleri", "Regiones abdominis", "Regions of abdomen", VB, "abdomen",
   "Karın ön duvarı, klinik muayene ve ağrı lokalizasyonu için iki yatay ve iki dikey çizgiyle dokuz bölgeye ayrılır. Daha basit bir yöntemde göbekten geçen çizgilerle dört kadran tanımlanır.",
@@ -299,7 +299,7 @@ E("auris-externa", "Dış kulak", "Auris externa", "External ear", KU, "head",
          ("İnnervasyon", "N. auriculotemporalis (V3), n. auricularis magnus (C2–C3), n. vagus'un aurikular dalı, n. facialis")],
   clinical=["Kulak muayenesinde erişkinde kepçe yukarı-geriye çekilir.", "Vagal dal nedeniyle kulak yolu temizliği öksürük refleksini tetikleyebilir.", "Kulak kepçesi hematomu boşaltılmazsa ‘karnabahar kulak’ deformitesi gelişir."],
   related=["auris-media", "os-temporale"],
-  models=["External ear", "Auricular region", "Helix", "Antihelix", "Tragus", "Antitragus", "Lobule of auricle", "Concha of auricle", "Scapha"], aliases=["kulak kepçesi", "dış kulak yolu"]),
+  models=["External ear"], aliases=["kulak kepçesi", "dış kulak yolu"]),
 
 E("auris-media", "Orta kulak", "Auris media", "Middle ear", KU, "head",
   "Temporal kemik içinde, kulak zarı ile iç kulak arasında yer alan, kulak kemikçiklerini içeren hava dolu boşluktur. Östaki borusuyla yutağa bağlanır.",
@@ -332,7 +332,7 @@ E("organum-olfactus", "Koku organı", "Organum olfactus", "Olfactory organ", KT,
          ("Reseptör çeşitliliği", "Yaklaşık 400 farklı koku reseptör geni")],
   clinical=["Koku kaybı (anosmi) travma, viral enfeksiyon ve nörodejeneratif hastalıklarda görülür.", "Kallmann sendromunda anosmi ve hipogonadotropik hipogonadizm birliktedir."],
   related=["n-olfactorius", "cavitas-nasi", "os-ethmoidale"],
-  models=[], aliases=["koku", "olfaksiyon"]),
+  models=["Olfactory nerve (I)", "Mucosa of nasal cavity"], aliases=["koku", "olfaksiyon"]),
 
 E("gustus", "Tat organı", "Organum gustus", "Gustatory organ", KT, "head",
   "Tat duyusu, başlıca dildeki papillalarda (özellikle papillae vallatae, fungiformes ve foliatae) bulunan yaklaşık 5.000–10.000 tat tomurcuğu ile algılanır.",
@@ -341,7 +341,7 @@ E("gustus", "Tat organı", "Organum gustus", "Gustatory organ", KT, "head",
          ("Merkezi yolak", "Nucleus tractus solitarii → talamus (VPM) → insula ve frontal operkulum (tat korteksi)")],
   clinical=["Bell paralizisinde chorda tympani etkilenirse dilin ön 2/3'ünde tat kaybı olur.", "Koku kaybı yaşayan hastalar genellikle tat kaybından yakınır, çünkü aroma algısı büyük ölçüde kokuya bağlıdır."],
   related=["lingua", "n-facialis", "n-glossopharyngeus", "insula"],
-  models=[], aliases=["tat", "tat tomurcuğu"]),
+  models=["Tongue"], aliases=["tat", "tat tomurcuğu"]),
 ]
 
 lymphatic += others_extra.lymphatic

@@ -83,8 +83,15 @@ final class AnatomyScene {
     private(set) var isolation: Set<PartRef>?
     private(set) var highlighted: Set<PartRef> = []
     var showCoverings = false { didSet { refreshAll() } }
-    /// Which genital organs are shown (the body itself is male).
-    var sex: BodySex = .male { didSet { if sex != oldValue { refreshAll() } } }
+    /// The body shown: the female body is the atlas moved by the female warp,
+    /// with her own skin and genital organs.
+    var sex: BodySex = .male {
+        didSet {
+            guard sex != oldValue else { return }
+            refreshAll()
+            Task { await reloadGeometry() }
+        }
+    }
     var xray = false { didSet { refreshAll() } }
     var colorMode: ColorMode = .realistic { didSet { if colorMode != oldValue { recolorAll() } } }
     /// Bumped whenever the camera comes to rest (after a gesture or animation).
@@ -225,6 +232,24 @@ final class AnatomyScene {
         _ = await AnatomyMaterials.shared(occlusion: 0.28, rim: 0.7)
     }
 
+    /// Rebuilds every loaded layer for the current body (after a sex change).
+    private func reloadGeometry() async {
+        let bodySex = sex
+        for (id, old) in systems {
+            guard let pack = try? await library.pack(id, sex: bodySex), bodySex == sex else { return }
+            let mode = colorMode
+            let vertices = await Task.detached(priority: .userInitiated) {
+                VertexBuilder.build(pack: pack, mode: mode)
+            }.value
+            guard bodySex == sex, let loaded = try? build(pack: pack, vertices: vertices) else { return }
+            old.entity.removeFromParent()
+            systems[id] = loaded
+            modelRoot.addChild(loaded.entity)
+            refresh(id)
+        }
+        updateDetail(force: true)
+    }
+
     func ensureLoaded(_ layer: String) async {
         if systems[layer] == nil { await load(layer) }
     }
@@ -234,7 +259,9 @@ final class AnatomyScene {
         loadingLayers.insert(layerID)
         defer { loadingLayers.remove(layerID) }
         do {
-            let pack = try await library.pack(layerID)
+            let bodySex = sex
+            let pack = try await library.pack(layerID, sex: bodySex)
+            guard bodySex == sex else { return }
             let mode = colorMode
             let vertices = await Task.detached(priority: .userInitiated) {
                 VertexBuilder.build(pack: pack, mode: mode)
@@ -468,6 +495,21 @@ final class AnatomyScene {
         for system in touched { refresh(system) }
     }
 
+    /// The part of `refs` with the most vertices (the ventricle of the heart,
+    /// not a valve leaflet inside it).
+    func largest(_ refs: [PartRef]) -> PartRef? {
+        refs.max { (systems[$0.system]?.pack.ranges[$0.index].vertexCount ?? 0) < (systems[$1.system]?.pack.ranges[$1.index].vertexCount ?? 0) }
+    }
+
+    /// Selects a whole group (the cranium around the frontal bone that was
+    /// tapped); `anchor` stays the selected part.
+    func selectGroup(_ refs: Set<PartRef>, anchor: PartRef) {
+        let touched = Set(selectedGroup.map(\.system)).union(refs.map(\.system)).union([anchor.system])
+        selection = anchor
+        selectedGroup = refs.union([anchor])
+        for system in touched { refresh(system) }
+    }
+
     func hide(_ ref: PartRef) {
         let group = selectedGroup.contains(ref) ? selectedGroup : [ref]
         hiddenParts.formUnion(group)
@@ -596,6 +638,18 @@ final class AnatomyScene {
         if refs.count == 1 {
             select(refs[0])
             highlight([])
+        } else if Set(refs.map(\.system)).count == 1, let anchor = largest(refs) {
+            // A whole structure (the heart, the carpal bones of one hand):
+            // selected as one, so the card offers it whole and part by part;
+            // the other side's copy stays highlighted.
+            let side = info(anchor)?.side
+            let oneSide = Set(refs.filter { side == nil || info($0)?.side == nil || info($0)?.side == side })
+            highlight(Set(refs).subtracting(oneSide))
+            if oneSide.count == 1 {
+                select(anchor)
+            } else {
+                selectGroup(oneSide, anchor: anchor)
+            }
         } else {
             select(nil)
             highlight(Set(refs))
@@ -606,7 +660,9 @@ final class AnatomyScene {
         let (center, fit) = framing(refs, margin: margin)
         if let center, let view = await viewpoint(for: refs, target: center, distance: fit) {
             if view.visible < 0.6 { fade(view.blockers) }
-            animateCamera(target: center, distance: view.distance, yaw: view.yaw, pitch: view.pitch)
+            // The selection card covers the bottom of the screen: the structure sits higher.
+            let lift = selection == nil ? 0 : view.distance * tan(fieldOfView * .pi / 360) * 0.22
+            animateCamera(target: center - SIMD3(0, lift, 0), distance: view.distance, yaw: view.yaw, pitch: view.pitch)
         } else {
             frame(refs, margin: margin)
         }

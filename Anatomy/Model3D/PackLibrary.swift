@@ -33,6 +33,31 @@ final class PackLibrary {
 
     func cachedPack(_ system: String) -> MeshPack? { packs[system] }
 
+    private var femalePacks: [String: MeshPack] = [:]
+    private var femaleLoading: [String: Task<MeshPack, Error>] = [:]
+    private lazy var femaleWarp: WarpField? = WarpField.loadFemale()
+    private lazy var femaleFix: FemaleFix? = FemaleFix.load()
+
+    /// The pack for a body of `sex`: the female one is the male atlas moved by
+    /// the female warp (WarpField.swift), except the parts already modelled
+    /// for the female body (her skin).
+    func pack(_ system: String, sex: BodySex) async throws -> MeshPack {
+        let male = try await pack(system)
+        guard sex == .female, let warp = femaleWarp else { return male }
+        if let pack = femalePacks[system] { return pack }
+        if let task = femaleLoading[system] { return try await task.value }
+        let fix = femaleFix
+        let task = Task.detached(priority: .userInitiated) { () throws -> MeshPack in
+            male.warped(by: warp) { $0.frame == "female" || ($0.sex == "f" && male.system == "regions") }
+                .fixed(by: fix)
+        }
+        femaleLoading[system] = task
+        defer { femaleLoading[system] = nil }
+        let pack = try await task.value
+        femalePacks[system] = pack
+        return pack
+    }
+
     func pack(_ system: String) async throws -> MeshPack {
         if let pack = packs[system] { return pack }
         if let task = loading[system] { return try await task.value }
@@ -78,84 +103,110 @@ nonisolated enum VertexBuilder {
     static func build(pack: MeshPack, parts subset: [Int]? = nil, mode: ColorMode) -> Output {
         let partIndices = subset ?? Array(pack.parts.indices)
         let compact = subset != nil
-        let vertexTotal = compact ? partIndices.reduce(0) { $0 + pack.ranges[$1].vertexCount } : pack.positions.count
+        // Where each requested part's vertices go in the output.
+        var outStart: [Int] = []
+        outStart.reserveCapacity(partIndices.count)
+        var vertexTotal = 0
+        for p in partIndices {
+            outStart.append(compact ? vertexTotal : pack.ranges[p].vertexStart)
+            vertexTotal += pack.ranges[p].vertexCount
+        }
+        if !compact { vertexTotal = pack.positions.count }
         var data = Data(count: vertexTotal * stride)
         var indices: [UInt32] = compact ? [] : pack.indices + pack.lodIndices
         if compact { indices.reserveCapacity(partIndices.reduce(0) { $0 + pack.ranges[$1].indexCount }) }
         var ranges: [(Int, Int)] = []
-        var bounds: [(SIMD3<Float>, SIMD3<Float>)] = []
+        var bounds = [(SIMD3<Float>, SIMD3<Float>)](repeating: (.zero, .zero), count: partIndices.count)
         let textured = mode == .realistic && pack.uvs.count == pack.positions.count
 
+        // Every part writes its own vertices, so the parts are built in parallel.
         data.withUnsafeMutableBytes { raw in
-            var outVertex = 0
-            for p in partIndices {
-                let part = pack.parts[p]
-                let range = pack.ranges[p]
-                let styles = styles(for: part, pack: pack, mode: mode)
-                // Per-vertex style index, written by every triangle of each run.
-                var styleOf = [UInt8](repeating: UInt8(styles.dominant), count: range.vertexCount)
-                var tri = range.indexStart
-                for (s, run) in styles.runs.enumerated() {
-                    for _ in 0..<run {
-                        for k in 0..<3 {
-                            styleOf[Int(pack.indices[tri + k]) - range.vertexStart] = UInt8(s)
-                        }
-                        tri += 3
-                    }
-                }
-                let axis = styles.needsAxis ? principalAxis(pack: pack, range: range) : nil
-                let variation = partVariation(part.name)
-
-                var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude), hi = -lo
-                for v in 0..<range.vertexCount {
-                    let src = range.vertexStart + v
-                    let position = pack.positions[src]
-                    let normal = pack.normals[src]
-                    lo = simd_min(lo, position); hi = simd_max(hi, position)
-                    let style = styles.list[Int(styleOf[v])]
-                    // Pattern and tissue share one signed byte: pattern * 16 + tissue.
-                    let surfaceCode = (style.pattern * 16 + style.tissue) / 127
-                    var tangent = SIMD3<Float>(1, 0, 0)
-                    if let axis {
-                        let t = axis - normal * simd_dot(axis, normal)
-                        let len = simd_length(t)
-                        tangent = len > 1e-4 ? t / len : perpendicular(normal)
-                    } else {
-                        tangent = perpendicular(normal)
-                    }
-                    var color = style.color * (1 + (variation - 0.5) * 2 * style.variation)
-                    color = simd_clamp(color, .zero, SIMD3(repeating: 1))
-                    let linear = SIMD3<Float>(pow(color.x, 2.2), pow(color.y, 2.2), pow(color.z, 2.2))
-
-                    let o = ((compact ? outVertex : range.vertexStart) + v) * stride
-                    raw.storeBytes(of: position.x, toByteOffset: o, as: Float.self)
-                    raw.storeBytes(of: position.y, toByteOffset: o + 4, as: Float.self)
-                    raw.storeBytes(of: position.z, toByteOffset: o + 8, as: Float.self)
-                    storeSigned(normal, 0, raw, o + Offset.normal)
-                    storeSigned(tangent, 0, raw, o + Offset.tangent)
-                    storeUnsigned(SIMD4(linear, 0), raw, o + Offset.color)
-                    raw.storeBytes(of: pack.occlusion[src], toByteOffset: o + Offset.color + 3, as: UInt8.self)
-                    storeUnsigned(SIMD4(style.fibre, style.wetness, 0, 0), raw, o + Offset.uv1)
-                    storeSigned(axis ?? tangent, surfaceCode, raw, o + Offset.uv2)
-                    // The skin texture is the realistic look; teaching colours keep the regions apart.
-                    raw.storeBytes(of: textured ? pack.uvs[src] : 0, toByteOffset: o + Offset.uv0, as: UInt32.self)
-                }
-                bounds.append((lo, hi))
-
-                if compact {
-                    let start = indices.count
-                    let rebase = Int64(outVertex) - Int64(range.vertexStart)
-                    for i in range.indexStart..<range.indexStart + range.indexCount {
-                        indices.append(UInt32(Int64(pack.indices[i]) + rebase))
-                    }
-                    ranges.append((start, range.indexCount))
-                    outVertex += range.vertexCount
-                } else {
-                    ranges.append((range.indexStart, range.indexCount))
+            bounds.withUnsafeMutableBufferPointer { boundsBuffer in
+                let out = BuildTargets(vertices: raw.baseAddress!, bounds: boundsBuffer.baseAddress!)
+                DispatchQueue.concurrentPerform(iterations: partIndices.count) { k in
+                    out.bounds[k] = buildPart(pack.parts[partIndices[k]], range: pack.ranges[partIndices[k]], pack: pack,
+                                              mode: mode, textured: textured, into: out.vertices + outStart[k] * stride)
                 }
             }
         }
+
+        for (k, p) in partIndices.enumerated() {
+            let range = pack.ranges[p]
+            if compact {
+                let start = indices.count
+                let rebase = Int64(outStart[k]) - Int64(range.vertexStart)
+                for i in range.indexStart..<range.indexStart + range.indexCount {
+                    indices.append(UInt32(Int64(pack.indices[i]) + rebase))
+                }
+                ranges.append((start, range.indexCount))
+            } else {
+                ranges.append((range.indexStart, range.indexCount))
+            }
+        }
         return Output(vertices: data, indices: indices, ranges: ranges, bounds: bounds)
+    }
+
+    /// The output buffers of a build, shared by its parallel parts.
+    private struct BuildTargets: @unchecked Sendable {
+        let vertices: UnsafeMutableRawPointer
+        let bounds: UnsafeMutablePointer<(SIMD3<Float>, SIMD3<Float>)>
+    }
+
+    /// Writes one part's vertices at `base`; returns its bounds.
+    private static func buildPart(_ part: PartInfo, range: MeshPack.Range, pack: MeshPack, mode: ColorMode,
+                                  textured: Bool, into base: UnsafeMutableRawPointer) -> (SIMD3<Float>, SIMD3<Float>) {
+        let styles = styles(for: part, pack: pack, mode: mode)
+        // Per-vertex style index, written by every triangle of each run.
+        var styleOf = [UInt8](repeating: UInt8(styles.dominant), count: range.vertexCount)
+        var tri = range.indexStart
+        for (s, run) in styles.runs.enumerated() {
+            for _ in 0..<run {
+                for k in 0..<3 {
+                    styleOf[Int(pack.indices[tri + k]) - range.vertexStart] = UInt8(s)
+                }
+                tri += 3
+            }
+        }
+        let axis = styles.needsAxis ? principalAxis(pack: pack, range: range) : nil
+        let variation = partVariation(part.name)
+        // The colour of each style, in linear light, once per part.
+        let linearColors = styles.list.map { style -> SIMD3<Float> in
+            var color = style.color * (1 + (variation - 0.5) * 2 * style.variation)
+            color = simd_clamp(color, .zero, SIMD3(repeating: 1))
+            return SIMD3<Float>(pow(color.x, 2.2), pow(color.y, 2.2), pow(color.z, 2.2))
+        }
+
+        var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude), hi = -lo
+        for v in 0..<range.vertexCount {
+            let src = range.vertexStart + v
+            let position = pack.positions[src]
+            let normal = pack.normals[src]
+            lo = simd_min(lo, position); hi = simd_max(hi, position)
+            let s = Int(styleOf[v])
+            let style = styles.list[s]
+            // Pattern and tissue share one signed byte: pattern * 16 + tissue.
+            let surfaceCode = (style.pattern * 16 + style.tissue) / 127
+            var tangent = SIMD3<Float>(1, 0, 0)
+            if let axis {
+                let t = axis - normal * simd_dot(axis, normal)
+                let len = simd_length(t)
+                tangent = len > 1e-4 ? t / len : perpendicular(normal)
+            } else {
+                tangent = perpendicular(normal)
+            }
+
+            let o = v * stride
+            storePosition(position, base, o + Offset.position)
+            storeSigned(normal, 0, base, o + Offset.normal)
+            storeSigned(tangent, 0, base, o + Offset.tangent)
+            storeUnsigned(SIMD4(linearColors[s], 0), base, o + Offset.color)
+            base.storeBytes(of: pack.occlusion[src], toByteOffset: o + Offset.color + 3, as: UInt8.self)
+            storeUnsigned(SIMD4(style.fibre, style.wetness, 0, 0), base, o + Offset.uv1)
+            storeSigned(axis ?? tangent, surfaceCode, base, o + Offset.uv2)
+            // The skin texture is the realistic look; teaching colours keep the regions apart.
+            base.storeBytes(of: textured ? pack.uvs[src] : 0, toByteOffset: o + Offset.uv0, as: UInt32.self)
+        }
+        return (lo, hi)
     }
 
     // MARK: Packed attributes

@@ -116,3 +116,9 @@ G = {
 }
 for en, tr in G.items():
     T(en, tr)
+
+# groups added by tools/regroup.py (Z-Anatomy files the hand bones loose)
+T("Bones of hand", "El kemikleri", "Ossa manus", "Elin 27 kemiği: 8 el bileği (karpal) kemiği, 5 tarak (metakarpal) kemiği ve 14 parmak kemiği (falanks).")
+T("Carpal bones", "El bileği kemikleri (karpal kemikler)", "Ossa carpi", "İki sıra halinde dizilmiş sekiz kısa kemik; önkol kemikleriyle el tarağı arasında el bileğini oluşturur.")
+T("Metacarpal bones", "Tarak kemikleri (metakarpal kemikler)", "Ossa metacarpi", "Avuç içinin iskeletini yapan beş uzun kemik; parmakların proksimal falankslarıyla eklemleşir.")
+T("Phalanges of hand", "El falanksları (parmak kemikleri)", "Phalanges manus", "Parmakların kemikleri: başparmakta iki, diğer parmaklarda üçer olmak üzere 14 falanks.")

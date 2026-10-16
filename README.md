@@ -9,6 +9,7 @@ Etkileşimli, üç boyutlu ve Türkçe bir insan anatomisi atlası (iOS / iPadOS
   - Uzaklığa göre detay seviyesi (LOD, meshoptimizer): tüm vücut 4,3 milyon yerine ~0,8 milyon üçgenle çizilir; ekranda görünmeyen parçalar en kaba seviyede tutulur
   - 32 baytlık sıkıştırılmış köşe biçimi, dokulu yüzey gölgelendiricisi (clearcoat), ekran yenilemesine bağlı kamera animasyonları, ana iş parçacığı dışında seçim ve etiket hesabı
   - İç organlar BodyParts3D 3.0'dan (karaciğer segmentleri, mide, bağırsaklar, akciğer lobları ve segmental bronşlar, böbrekler…); kadın üreme organları, kadın mesanesi ve meme bezi Human Reference Atlas'tan; erkek/kadın görünümü değiştirilebilir, bir cinsiyete özgü bir yapı açıldığında atlas o görünüme geçer
+  - **İki ayrı model (Erkek / Kadın)**: araç çubuğundaki seçiciyle değişir. Deri, yüz ve dokular MakeHuman'dan (CC0); deri atlas derisine oturtuldu (katı olmayan ICP), yüz göz ve ağız noktalarından kafatasına hizalandı. Kadın modelinde iskelet, kaslar, damarlar, sinirler ve organlar kadın derisine göre bir hacim dönüşüm alanıyla (`warp-female.bin`) ve köşe başına düzeltmelerle (`female-fix.bin`) biçimlendirilir; meme ve vulva doğrudan kadın bedeninde modellenmiştir. Deri katmanında kıl yoktur (kaş ve kirpik hariç).
   - Kaynak modellerde olmayan yapılar çevre anatomiye göre modellendi: vajina, kadın üretrası, kadın dış genital bölge derisi, skrotum, perikard, ductus thoracicus, cisterna chyli, sağ lenf kanalı, faringeal (adenoid) ve lingual tonsil; çekum ve anal kanal kolon ve rektumdan ayrıldı
   - **Gerçekçi** ve **Öğretici** renk modları
   - Seçilen yapıya kamera yumuşakça yaklaşır ve onu seçim kartının üstünde ortalar (Profil > Ayarlar'dan kapatılabilir)
@@ -101,6 +102,12 @@ tools/rebuild_organs.sh <orijinal-paketler> <bp3d-obj> <parts_list_e.txt> <hra-k
 
 HRA klasöründe `uterus-female.glb`, `ovary-female-left/right.glb`, `fallopian-tube-female-left/right.glb`, `urinary-bladder-female.glb`, `pelvis-female.glb` ve `mammary-gland-female-left.glb` bulunmalıdır ([3D referans kütüphanesi](https://humanatlas.io/3d-reference-library)).
 
+### Deri ve kadın modeli
+
+`tools/skin/` deri ve kadın modeli araçlarını içerir: `write_warp.py` (dönüşüm alanını uygulamanın biçimine yazar), `warp_eval.py` (alanı Python'da değerlendirir), `fit_inside.py` (yumuşak dokuları erkek derisinin altına alır), `fit_breast.py` (meme dokusunu kadın göğsüne yerleştirir), `fit_bronchi.py` (segment bronşlarını akciğer içinde tutar), `female_fix.py` (kadın modeli için köşe düzeltmeleri; kadın biçiminde modellenen meme dokusunu ve kadının küçük burnundan taşan burun kemiklerini de derinin altına alır), `pushout.py` (deriyi kemiklerin üzerinde kaldırır; erkek burun kökünde geniş ve öne doğru yumuşak bir kabartma), `genitals_male.py` (penis ve skrotum derisi; kesenin üst yarısı kasık derisine kavuşarak asılı durur, penis kökü gövdeye yumuşak girer), `replace_parts.py` (yeniden yerleştirilen meme parçalarını iç paketlere aktarır), `vulva.py` (kadın dış genitali: kasık orta hattı boyunca yükseklik alanı olarak kurulan, deriye dikilen yama; açıklıklar iç organlara hizalı), `packedit.py` (paket okuma/yazma). MakeHuman gövdesinin pozlanması, oturtulması, ayak parmaklarının Z-Anatomy ayağına parmak parmak oturtulması, yüz hizalaması, kadın kasığının açılması ve doku boyama adımları çalışma klasöründeki betiklerle (`mh/`) yapılır.
+
+`tools/regroup.py`, Z-Anatomy'nin hiyerarşide gruplamadığı el kemiklerini "El kemikleri" altında el bileği, tarak ve parmak kemikleri olarak gruplar (`export_zanatomy.py` bunu her dışa aktarımda uygular; tek başına çalıştırıldığında mevcut manifestleri düzeltir).
+
 ### İçeriği yeniden üretmek
 
 ```bash
@@ -138,13 +145,15 @@ Betik maddelerin `models` alanının gerçekten bir 3D parçaya karşılık geld
 - Ürünler (`Anatomy/Products.storekit`, App Store Connect'te aynı kimliklerle oluşturulmalı): `com.adilemre.anatomi.premium.monthly`, `…premium.yearly` (otomatik yenilenen abonelik, aynı grup) ve `…premium.lifetime` (tüketilmeyen). Fiyatlar yer tutucudur.
 - `Anatomy.xcscheme` StoreKit yapılandırmasını kullanır; gerçek satın alma testleri için TestFlight veya sandbox hesabı gerekir.
 - `PrivacyInfo.xcprivacy`: izleme yok, veri toplama yok; yalnızca UserDefaults (CA92.1). `ITSAppUsesNonExemptEncryption = NO`.
-- Gizlilik politikası `docs/gizlilik.html` olarak hazırdır (Türkçe + İngilizce). İletişim e-postasını doldurup GitHub Pages gibi herkese açık bir adreste yayımlayın ve `Legal.privacy` adresini buna göre güncelleyin. Kullanım koşulları için Apple'ın standart lisansı (EULA) kullanılır.
+- Uygulamanın sitesi `docs/` klasöründedir ve https://anatomi.adilemree.xyz adresinde yayındadır: ana sayfa, `/privacy` (gizlilik, Türkçe + İngilizce), `/terms` (kullanım ve abonelik koşulları, Apple'ın standart EULA'sına bağlantı içerir) ve `/destek`. `/gizlilik`, `/kosullar`, `/support` bu sayfalara yönlenir. Uygulamadaki bağlantılar `Legal` (PaywallView.swift) içindedir.
+  Sunucuda dosyalar `/var/www/anatomi`, nginx sitesi `/etc/nginx/sites-available/anatomi` (127.0.0.1:8140), dışarıya Cloudflare tüneli (`/etc/cloudflared/config.yml`) açar. Güncellemek için: `rsync -az --delete docs/ root@SUNUCU:/var/www/anatomi/`.
 - Uygulama verileri (ilerleme, favoriler, sınav geçmişi) yalnızca cihazda tutulur.
 
 ## Lisanslar ve kaynaklar
 
 - **3D modeller**: [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy), CC BY-SA 4.0. Modeller sadeleştirilmiş, yeniden renklendirilmiş ve sistemlere ayrılmıştır. Değiştirilmiş modeller (`Anatomy/Resources/Models`) de CC BY-SA 4.0 lisansıyla sunulur.
 - **BodyParts3D**: Z-Anatomy modelleri bu veritabanından türetilmiştir. İnceleme modundaki yüksek ayrıntılı modeller (`hd-*.bin`) BodyParts3D 3.0 verisinden hazırlanmıştır. BodyParts3D, © The Database Center for Life Science (DBCLS), CC BY-SA 2.1 JP.
+- **Deri, yüz ve deri dokuları**: [MakeHuman](https://www.makehumancommunity.org) taban modeli ve dokuları, CC0 1.0.
 - **Kadın üreme organları, kadın mesanesi ve meme bezi**: [Human Reference Atlas](https://humanatlas.io) (HuBMAP, Visible Human Female), CC BY 4.0.
 - **meshoptimizer**: © Arseny Kapoulkine, MIT (yalnızca araç olarak, uygulamaya gömülü değildir).
 - **İngilizce kaynak metinler** (`glossary.json`): Z-Anatomy / Wikipedia, CC BY-SA.

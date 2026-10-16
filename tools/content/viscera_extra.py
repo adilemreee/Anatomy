@@ -118,7 +118,7 @@ E("mediastinum", "Mediasten (göğüs ortası)", "Mediastinum", "Mediastinum", A
   tus=["Timus erişkinde üst ve ön mediastende yağ dokusuna dönüşmüş olarak bulunur.",
        "Ductus thoracicus arka mediastende aorta ile v. azygos arasında yükselir ve T4–T5'te sola geçer."],
   related=["cor", "pericardium", "thymus", "oesophagus", "trachea", "aorta", "ductus-thoracicus"],
-  models=[], aliases=["mediasten", "göğüs ortası"]),
+  models=["Heart", "Thymus", "Trachea", "Oesophagus", "Mediastinal lymph nodes"], aliases=["mediasten", "göğüs ortası"]),
 ]
 
 digestive = [
@@ -345,7 +345,7 @@ E("bursa-omentalis", "Küçük periton kesesi ve Winslow deliği", "Bursa omenta
   tus=["Winslow deliğinin arka sınırı VCI'dır; ön sınırı portal üçlüyü içeren lig. hepatoduodenale'dir.",
        "Bağırsak halkası Winslow deliğinden fıtıklaşabilir (iç herni)."],
   related=["peritoneum", "omentum-minus", "gaster", "pancreas", "v-cava-inferior"],
-  models=[], aliases=["Winslow", "küçük kese", "foramen epiploicum"]),
+  models=["Lesser omentum", "Greater omentum", "Stomach"], aliases=["Winslow", "küçük kese", "foramen epiploicum"]),
 
 E("mesenterium", "Mezenter ve mezokolon", "Mesenterium et mesocolon", "Mesentery and mesocolon", PR, "abdomen",
   "Bağırsakları arka karın duvarına asan, aralarında damar, sinir, lenf düğümleri ve yağ taşıyan çift yapraklı periton kıvrımlarıdır.",
@@ -391,7 +391,7 @@ E("fascia-renalis", "Böbrek kılıfları (Gerota fasyası)", "Capsula fibrosa, 
   tus=["Böbreküstü bezi renal fasya içindedir ancak böbrekten ince bir septumla ayrılır; nefroptozda bez yerinde kalır.",
        "Radikal nefrektomide böbrek Gerota fasyasıyla birlikte çıkarılır."],
   related=["ren", "glandula-suprarenalis", "pelvis-renalis"],
-  models=[], aliases=["Gerota", "perirenal yağ", "renal fasya"]),
+  models=["Kidney", "Suprarenal gland"], aliases=["Gerota", "perirenal yağ", "renal fasya"]),
 
 E("nephronum", "Nefron ve böbreğin iç yapısı", "Nephronum; cortex et medulla renis", "Nephron and renal structure", BK, "abdomen",
   "Nefron, böbreğin idrar üreten yapısal ve işlevsel birimidir; her böbrekte yaklaşık bir milyon bulunur. Böbrek kesitinde dışta korteks, içte piramitlerden oluşan medulla görülür.",
@@ -495,7 +495,7 @@ E("ligamenta-uteri", "Rahim bağları ve destekleri", "Ligamenta uteri", "Ligame
   tus=["Lig. suspensorium ovarii (infundibulopelvik bağ) a. ve v. ovarica'yı taşır; ooferektomide bağlanırken yakınındaki üreter korunmalıdır.",
        "Uterusu yerinde tutan en önemli yapılar lig. cardinale, lig. uterosacrale ve m. levator ani'dir; lig. latum ve lig. teres zayıf desteklerdir."],
   related=["uterus", "cervix-uteri", "ovarium", "tuba-uterina", "diaphragma-pelvis", "canalis-inguinalis"],
-  models=[], aliases=["lig. latum", "round ligament", "kardinal bağ", "uterosakral bağ"]),
+  models=["Uterus", "Cervix of uterus", "Uterine tube", "Ovary"], aliases=["lig. latum", "round ligament", "kardinal bağ", "uterosakral bağ"]),
 
 E("excavatio-rectouterina", "Douglas boşluğu", "Excavatio rectouterina", "Rectouterine pouch", KD, "pelvis",
   "Kadında periton boşluğunun rektum ile uterus arasında kalan, ayakta duran kişide karın-pelvis boşluğunun en alçak noktasıdır. Erkekte karşılığı excavatio rectovesicalis'tir.",
@@ -508,7 +508,7 @@ E("excavatio-rectouterina", "Douglas boşluğu", "Excavatio rectouterina", "Rect
   tus=["Ayakta duran kadında periton boşluğunun en alçak yeri Douglas boşluğu, sırtüstü yatan kişide ise hepatorenal cep (Morison) olur.",
        "Ektopik gebelik rüptüründe kan Douglas boşluğunda toplanır."],
   related=["uterus", "rectum", "vagina", "peritoneum"],
-  models=[], aliases=["Douglas", "rektouterin cep", "kuldosentez"]),
+  models=["Uterus", "Rectum", "Vagina"], aliases=["Douglas", "rektouterin cep", "kuldosentez"]),
 
 E("perineum", "Perine", "Perineum", "Perineum", PE, "pelvis",
   "Pelvis tabanının (pelvik diyafram) altında, iki uyluk arasında kalan elmas biçimli bölgedir. İki tuber ischiadicum'u birleştiren çizgiyle önde ürogenital, arkada anal üçgene ayrılır.",

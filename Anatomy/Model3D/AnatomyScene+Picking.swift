@@ -209,7 +209,12 @@ extension AnatomyScene {
     func viewpoint(for refs: [PartRef], target: SIMD3<Float>, distance: Float)
         async -> (yaw: Float, pitch: Float, distance: Float, visible: Float, blockers: Set<PartRef>)? {
         var samples: [(SIMD3<Float>, SIMD3<Float>)] = []
-        for ref in refs.prefix(8) {
+        // The biggest parts make the outside of a structure (the chambers of
+        // the heart, not the valves inside them).
+        let sized = refs.sorted {
+            (systems[$0.system]?.pack.ranges[$0.index].vertexCount ?? 0) > (systems[$1.system]?.pack.ranges[$1.index].vertexCount ?? 0)
+        }
+        for ref in sized.prefix(8) {
             guard let system = systems[ref.system] else { continue }
             let r = system.pack.ranges[ref.index]
             let step = max(r.vertexCount / max(160 / min(refs.count, 8), 1), 1)
@@ -231,8 +236,8 @@ extension AnatomyScene {
         }
         let targets = Set(refs)
         return await Task.detached(priority: .userInitiated) { () -> (yaw: Float, pitch: Float, distance: Float, visible: Float, blockers: Set<PartRef>) in
-            var best: (score: Float, yaw: Float, pitch: Float, distance: Float, visible: Float, facing: Float, blockers: [PartRef: Int])
-                = (-.infinity, 0, 0.08, distance, 0, 1, [:])
+            struct View { var k: Int; var yaw, pitch, distance, thickness, visible, facing, score: Float; var eye: SIMD3<Float> }
+            var views: [View] = []
             for pitch in [Float(0.08), 0.65] {
                 for k in 0..<8 {
                     let yaw = Float(k) * .pi / 4
@@ -250,7 +255,7 @@ extension AnatomyScene {
                     let viewDistance = max(distance, far - nearestFromOutside + 0.04)
                     let eye = target + direction * viewDistance
                     var visible: Float = 0, facing: Float = 0, covered: Float = 0
-                    var blockers: [PartRef: Int] = [:]
+                    var blockers: Set<PartRef> = []
                     for (p, n) in samples {
                         let toPoint = p - eye
                         let d = simd_length(toPoint)
@@ -268,7 +273,7 @@ extension AnatomyScene {
                             if targets.contains(ref) { blockedBySelf = true } else { nearest = (hit, ref) }
                         }
                         if let (_, ref) = nearest {
-                            blockers[ref, default: 0] += 1
+                            blockers.insert(ref)
                             covered += 1
                         } else if !blockedBySelf {
                             visible += 1
@@ -277,11 +282,39 @@ extension AnatomyScene {
                     // Prefer the front, then level views, when views are about as good.
                     let bias: Float = (k == 0 ? 1.08 : (k == 4 ? 0.97 : 1)) * (pitch > 0.3 ? 0.92 : 1)
                     let score = (visible + covered * 0.4) * bias - Float(blockers.count) * 0.6
-                    if score > best.score { best = (score, yaw, pitch, viewDistance, visible, max(facing, 1), blockers) }
+                    views.append(View(k: k, yaw: yaw, pitch: pitch, distance: viewDistance, thickness: far - nearestFromOutside,
+                                      visible: visible, facing: max(facing, 1), score: score, eye: eye))
                 }
             }
-            let minimum = max(2, Int(best.facing * 0.02))
-            let covering = Set(best.blockers.filter { $0.value >= minimum }.map(\.key))
+            var best = views.max { $0.score < $1.score }!
+            // Hidden from every side (the heart in the chest): the textbook view,
+            // from the side with the least in front of it and the front when
+            // that is about as thin (never through the arm from the side).
+            if views.allSatisfy({ $0.visible / $0.facing < 0.2 }) {
+                let thinnest = views.map(\.thickness).min() ?? 0
+                func deep(_ v: View) -> Float {
+                    let bias: Float = v.k == 0 ? 1 : (v.k == 1 || v.k == 7 ? 0.5 : (v.k == 4 ? 0.3 : 0))
+                    return bias - (v.pitch > 0.3 ? 0.5 : 0) - (v.thickness - thinnest) / 0.03
+                }
+                best = views.max { deep($0) < deep($1) }!
+            }
+            // Everything between the camera and the structure, not only the
+            // outermost layer: under the pectoral muscle come the ribs and the sternum.
+            var counts: [PartRef: Int] = [:]
+            for (p, n) in samples {
+                let toPoint = p - best.eye
+                let d = simd_length(toPoint)
+                let dir = toPoint / d
+                guard simd_dot(n, -dir) > 0.05 else { continue }
+                for (ref, box) in occluders where !targets.contains(ref) {
+                    guard let entry = Self.rayBox(best.eye, dir, box), entry < d - 0.004,
+                          let pack = packs[ref.system],
+                          Self.rayMesh(best.eye, dir, pack: pack, part: ref.index, limit: d - 0.004) != nil else { continue }
+                    counts[ref, default: 0] += 1
+                }
+            }
+            let minimum = max(1, Int(best.facing * 0.015))
+            let covering = Set(counts.filter { $0.value >= minimum }.map(\.key))
             return (best.yaw, best.pitch, best.distance, best.visible / best.facing, covering)
         }.value
     }

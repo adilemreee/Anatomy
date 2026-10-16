@@ -61,9 +61,9 @@ T("Atlas (C1)", "Atlas (C1 omuru)", "Atlas (vertebra cervicalis I)",
   "Kafatasını taşıyan halka şeklinde ilk boyun omuru; gövdesi ve dikenli çıkıntısı yoktur. Üst eklem yüzleri oksipital kondillerle 'evet' hareketini yapan art. atlantooccipitalis'i oluşturur.")
 T("Axis (C2)", "Aksis (C2 omuru)", "Axis (vertebra cervicalis II)",
   "Gövdesinden yukarı uzanan dens (processus odontoideus) etrafında atlas döner; 'hayır' hareketinin yarısı art. atlantoaxialis'te gerçekleşir. Dens kırıkları ve hangman kırığı tipiktir.")
-T("Sacrum", "Sakrum (kuyruk sokumu kemiği)", "Os sacrum",
+T("Sacrum", "Sakrum (sağrı kemiği)", "Os sacrum",
   "Beş sakral omurun kaynaşmasıyla oluşan üçgen kemik; iki kalça kemiği arasında pelvisin arka duvarını yapar. Ön ve arka sakral deliklerden sakral sinirlerin dalları çıkar.")
-T("Coccyx", "Koksiks (kuyruk kemiği)", "Os coccygis",
+T("Coccyx", "Koksiks (kuyruk sokumu kemiği)", "Os coccygis",
   "Genellikle dört rudimenter omurun kaynaşmasıyla oluşan küçük kemik; pelvik taban kaslarına ve lig. anococcygeum'a tutunma yeri verir.")
 
 # --- Upper limb ------------------------------------------------------------------

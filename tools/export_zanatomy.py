@@ -32,6 +32,7 @@ Z-Anatomy is licensed CC BY-SA 4.0 (models derived from BodyParts3D).
 """
 import bpy
 import json
+import os
 import re
 import struct
 import sys
@@ -39,6 +40,9 @@ import time
 import zlib
 
 import numpy as np
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from regroup import regroup  # noqa: E402
 
 ARGS = sys.argv[sys.argv.index("--") + 1:]
 OUT = ARGS[0]
@@ -288,7 +292,7 @@ def main():
             base, side, kind = split_side(name)
             parts.append({
                 "name": name, "base": base, "side": side, "kind": kind,
-                "path": ancestry(o), "color": hexcolor(o),
+                "path": regroup(base, ancestry(o)), "color": hexcolor(o),
                 "fascia": bool(FASCIA_RE.search(base)) and sid == "muscular",
                 "co": co, "n": nrm, "idx": idx, "seg": segments,
             })
