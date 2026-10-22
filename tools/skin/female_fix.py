@@ -45,6 +45,56 @@ for p in regions:
 SC, ST = np.concatenate(cos), np.concatenate(tris)
 tree = BVHTree.FromPolygons([Vector(v) for v in SC], [tuple(map(int, t)) for t in ST])
 
+
+def check(v, allowed=True):
+    """The move that puts v MARGIN under her skin, or None."""
+    if not allowed or np.min(np.linalg.norm(EYES - v, axis=1)) < 0.017:
+        return None
+    loc, nrm, _, dist = tree.find_nearest(Vector(v))
+    if loc is None or dist > 0.08:
+        return None
+    q, nn = np.array(loc), np.array(nrm)
+    s = float(np.dot(v - q, nn))
+    if s <= -MARGIN:
+        return None
+    # in a deep crease (her gluteal cleft, between the thighs) the nearest
+    # surface can face the point from the wrong side: whether it is really
+    # outside goes by the ray count
+    if (s > 0.002 or dist > 0.04) and sum(crossings(tree, v, d) % 2 for d in DIRS[:3]) >= 2:
+        return None
+    return -nn * (s + MARGIN)
+
+
+def needs(wv, t, allowed, slivers=None):
+    need = np.zeros_like(wv); hit = np.zeros(len(wv), bool)
+    for k, v in enumerate(wv):
+        m = check(v, allowed[k])
+        if m is not None:
+            need[k] = m; hit[k] = True
+    if slivers is not None:
+        # long thin triangles can cross a concave stretch of skin with all
+        # three corners under it: points along them too, the triangle then
+        # moving with all its corners
+        tb = t[(allowed & slivers)[t].any(1)]
+        if len(tb):
+            ln = np.max([np.linalg.norm(wv[tb[:, a]] - wv[tb[:, b]], axis=1) for a, b in ((0, 1), (1, 2), (2, 0))], axis=0)
+            for tri, L in zip(tb, ln):
+                if L < 0.0025:
+                    continue
+                k = int(np.ceil(L / 0.001))
+                for a in range(k + 1):
+                    for b in range(k + 1 - a):
+                        w = np.array([a, b, k - a - b], float) / k
+                        if w.max() == 1:
+                            continue
+                        m = check(w @ wv[tri])
+                        if m is None:
+                            continue
+                        for v in tri:
+                            if np.linalg.norm(m) > np.linalg.norm(need[v]):
+                                need[v] = m; hit[v] = True
+    return need, hit
+
 blob = bytearray(b'FFX1')
 # bones (and the attachment patches on them) stay, the skin is raised over
 # them instead; except the nose: her nose is much smaller than the atlas
@@ -61,15 +111,14 @@ def nose_part(info):
 
 
 def nose_box(c):
-    """The root and bridge of the nose (atlas frame): of the maxilla only its
-    frontal process beside the nasal bones."""
-    return (np.abs(c[:, 0]) < 0.035) & (c[:, 1] > 1.555) & (c[:, 1] < 1.64) & (c[:, 2] > 0.055)
+    """The nose (atlas frame): its bones and cartilages, of the maxilla only
+    its frontal process beside the nasal bones."""
+    return (np.abs(c[:, 0]) < 0.035) & (c[:, 1] > 1.538) & (c[:, 1] < 1.64) & (c[:, 2] > 0.05)
 blob += struct.pack('<I', len(systems))
 for system in systems:
     _, parts, _, _ = load(models, system)
     entries = []
     offset = 0
-    rigid = False
     for p in parts:
         i = p['info']
         c = p['co']; n_ = len(c)
@@ -81,39 +130,26 @@ for system in systems:
         # parts modelled in her shape (the breast) are not warped, but they
         # must stay under her skin too (the nipple and ducts reached through it)
         wv = c if i.get('frame') == 'female' else c + disp(c)
-        need = np.zeros_like(c); hit = np.zeros(n_, bool)
         allowed = nose_box(c) if system in ('skeletal', 'insertions') else np.ones(n_, bool)
-        for k, v in enumerate(wv):
-            if not allowed[k] or np.min(np.linalg.norm(EYES - v, axis=1)) < 0.017:
-                continue
-            loc, nrm, _, dist = tree.find_nearest(Vector(v))
-            if loc is None or dist > 0.08:
-                continue
-            q, nn = np.array(loc), np.array(nrm)
-            s = float(np.dot(v - q, nn))
-            if s > -MARGIN:
-                # in a deep crease (her gluteal cleft, between the thighs) the nearest
-                # surface can face the point from the wrong side: whether it is really
-                # outside goes by the ray count
-                if (s > 0.002 or dist > 0.04) and sum(crossings(tree, v, d) % 2 for d in DIRS[:3]) >= 2:
-                    continue
-                need[k] = -nn * (s + MARGIN); hit[k] = True
-        if not hit.any():
-            continue
-        if rigid:
-            m = np.linalg.norm(need, axis=1)
-            d = np.tile(need[m.argmax()], (n_, 1))
-        else:
-            t = p['idx']
-            e = np.concatenate([t[:, [0, 1]], t[:, [1, 2]], t[:, [2, 0]]]); e = np.concatenate([e, e[:, ::-1]])
-            deg = np.bincount(e[:, 0], minlength=n_).clip(1)
-            d = need.copy()
+        t = p['idx']
+        e = np.concatenate([t[:, [0, 1]], t[:, [1, 2]], t[:, [2, 0]]]); e = np.concatenate([e, e[:, ::-1]])
+        deg = np.bincount(e[:, 0], minlength=n_).clip(1)
+        # the nose's parts: a few rounds (in her nostrils the nearest skin is
+        # a wall of the cavity) and points along long triangles checked too
+        nose = system in ('skeletal', 'insertions') or bool(nose_box(c).any())
+        d = np.zeros_like(c)
+        for _ in range(4 if nose else 1):
+            need, hit = needs(wv + d, t, allowed, slivers=nose_box(c) if nose else None)
+            if not hit.any():
+                break
+            step = need.copy()
             for _ in range(8):
-                acc = np.zeros_like(d); np.add.at(acc, e[:, 0], d[e[:, 1]])
+                acc = np.zeros_like(step); np.add.at(acc, e[:, 0], step[e[:, 1]])
                 spread = acc / deg[:, None] * 0.8
-                take = np.linalg.norm(spread, axis=1) > np.linalg.norm(d, axis=1)
-                d[take] = spread[take]
-                d[hit] = need[hit]
+                take = np.linalg.norm(spread, axis=1) > np.linalg.norm(step, axis=1)
+                step[take] = spread[take]
+                step[hit] = need[hit]
+            d = d + step
         moved = np.where(np.linalg.norm(d, axis=1) > 1e-5)[0]
         entries += [(start + int(k), d[k]) for k in moved]
     name = system.encode()

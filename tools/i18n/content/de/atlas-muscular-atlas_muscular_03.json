@@ -1,0 +1,307 @@
+{
+ "m-supraspinatus": {
+  "tr": "M. supraspinatus",
+  "summary": "Oberes Mitglied der Rotatorenmanschette, das die Grube oberhalb der Spina scapulae ausfüllt. Er leitet die Abduktion ein.",
+  "facts": [
+   "Fossa supraspinata scapulae",
+   "Obere Facette des Tuberculum majus humeri und Gelenkkapsel",
+   "N. suprascapularis (C5–C6)",
+   "A. suprascapularis",
+   "Leitet die Abduktion des Arms ein (erste 15°); hält den Humeruskopf in der Cavitas glenoidalis"
+  ],
+  "sections": [],
+  "clinical": [
+   "Er ist der am häufigsten gerissene und eingeklemmte Muskel der Rotatorenmanschette; seine Sehne wird unter dem Acromion eingeengt (Impingement).",
+   "Der „Empty-Can“-Test prüft den Supraspinatus; typisch ist ein schmerzhafter Bogen zwischen 60° und 120° Abduktion."
+  ],
+  "tus": [
+   "Supraspinatustest: Jobe-Test („Empty Can“); der Drop-Arm-Test zeigt eine komplette Ruptur.",
+   "Die Tendinosis calcarea betrifft am häufigsten die Supraspinatussehne."
+  ],
+  "aliases": [
+   "Rotatorenmanschette"
+  ]
+ },
+ "m-infraspinatus": {
+  "tr": "M. infraspinatus",
+  "summary": "Kräftiger dreieckiger Muskel, der die Grube unterhalb der Spina scapulae ausfüllt; Teil der Rotatorenmanschette.",
+  "facts": [
+   "Fossa infraspinata scapulae",
+   "Mittlere Facette des Tuberculum majus humeri",
+   "N. suprascapularis (C5–C6)",
+   "A. suprascapularis, A. circumflexa scapulae",
+   "Dreht den Arm nach außen (Außenrotation); stabilisiert den Humeruskopf in der Pfanne"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Kompression des N. suprascapularis an der Incisura spinoglenoidalis kann eine isolierte Infraspinatusatrophie verursachen (bei Volleyballern)."
+  ],
+  "tus": [
+   "Der Infraspinatus wird vom N. suprascapularis innerviert; eine Kompression an der Incisura spinoglenoidalis betrifft nur den Infraspinatus."
+  ],
+  "aliases": [
+   "Rotatorenmanschette"
+  ]
+ },
+ "m-teres-minor": {
+  "tr": "M. teres minor",
+  "summary": "Kleiner zylindrischer Muskel vom lateralen Schulterblattrand zum Humerus; Teil der Rotatorenmanschette.",
+  "facts": [
+   "Obere 2/3 des Margo lateralis scapulae",
+   "Untere Facette des Tuberculum majus humeri",
+   "N. axillaris (C5–C6)",
+   "A. circumflexa scapulae, A. circumflexa humeri posterior",
+   "Außenrotation und leichte Adduktion des Arms; stabilisiert den Humeruskopf"
+  ],
+  "sections": [
+   [
+    "Achsellücken",
+    "Zwischen Teres minor, Teres major, langem Trizepskopf und Humerus entstehen die mediale (dreieckige) und laterale (viereckige) Achsellücke; durch die laterale Achsellücke ziehen N. axillaris und A. circumflexa humeri posterior."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "Der Teres minor wird vom N. axillaris innerviert; er bildet die obere Grenze der lateralen Achsellücke."
+  ],
+  "aliases": [
+   "Rotatorenmanschette"
+  ]
+ },
+ "m-subscapularis": {
+  "tr": "M. subscapularis",
+  "summary": "Großer dreieckiger Muskel auf der Vorderfläche (Facies costalis) des Schulterblatts; das kräftigste Mitglied der Rotatorenmanschette.",
+  "facts": [
+   "Fossa subscapularis",
+   "Tuberculum minus humeri",
+   "N. subscapularis superior und inferior (C5–C7)",
+   "A. subscapularis, A. suprascapularis",
+   "Innenrotation und Adduktion des Arms; verhindert das Vorgleiten des Humeruskopfes"
+  ],
+  "sections": [],
+  "clinical": [
+   "Lift-off-Test (Gerber) und Belly-Press-Test prüfen die Integrität des Subscapularis."
+  ],
+  "tus": [
+   "Der Subscapularis ist der größte und stärkste Muskel der Rotatorenmanschette; er ist für die vordere Stabilität wichtig."
+  ],
+  "aliases": [
+   "Rotatorenmanschette"
+  ]
+ },
+ "m-teres-major": {
+  "tr": "M. teres major",
+  "summary": "Kräftiger Muskel vom unteren Schulterblattwinkel zum Humerus; er arbeitet mit dem Latissimus dorsi zusammen („kleiner Helfer des Latissimus“).",
+  "facts": [
+   "Rückfläche des Angulus inferior scapulae",
+   "Crista tuberculi minoris humeri (mediale Lippe des Sulcus intertubercularis)",
+   "N. subscapularis inferior (C5–C7)",
+   "A. circumflexa scapulae, A. thoracodorsalis",
+   "Adduktion, Innenrotation und Extension des Arms"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Am Unterrand des Teres major geht die A. axillaris in die A. brachialis über."
+  ],
+  "aliases": [
+   "großer Rundmuskel"
+  ]
+ },
+ "m-biceps-brachii": {
+  "tr": "M. biceps brachii",
+  "summary": "Markanter zweiköpfiger Muskel an der Vorderseite des Oberarms. Er überspannt Schulter- und Ellenbogengelenk und ist der stärkste Supinator des Unterarms.",
+  "facts": [
+   "Caput longum: Tuberculum supraglenoidale scapulae; Caput breve: Processus coracoideus",
+   "Tuberositas radii und über die Aponeurosis bicipitalis die Unterarmfaszie",
+   "N. musculocutaneus (C5–C6)",
+   "Muskeläste der A. brachialis",
+   "Beugt den Unterarm und supiniert ihn (Korkenzieherbewegung); unterstützt die Armbeugung"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Ruptur der langen Bizepssehne verlagert sich der Muskelbauch nach distal (Popeye-Zeichen).",
+   "Der Bizepssehnenreflex prüft die Segmente C5–C6.",
+   "Unter der Aponeurosis bicipitalis verlaufen A. brachialis und N. medianus; die V. mediana cubiti für die Blutentnahme liegt darüber."
+  ],
+  "tus": [
+   "Der Bizepssehnenreflex prüft C5–C6, v. a. C5.",
+   "Die Aponeurosis bicipitalis (Lacertus fibrosus) bedeckt und schützt A. brachialis und N. medianus."
+  ],
+  "aliases": [
+   "Bizeps"
+  ]
+ },
+ "m-brachialis": {
+  "tr": "M. brachialis",
+  "summary": "Kräftiger Muskel unter dem Bizeps, vor der unteren Hälfte des Humerus. Er ist der Hauptbeuger des Ellenbogens.",
+  "facts": [
+   "Untere Hälfte der Vorderfläche des Humerus",
+   "Processus coronoideus und Tuberositas ulnae",
+   "N. musculocutaneus (C5–C6); der laterale Teil erhält auch Fasern vom N. radialis",
+   "A. brachialis, A. collateralis radialis",
+   "Beugt den Unterarm in jeder Stellung (das „Arbeitspferd“ der Ellenbogenbeugung)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Nach Ellenbogenfrakturen kann sich im Muskel eine ektope Verknöcherung bilden (Myositis ossificans)."
+  ],
+  "tus": [
+   "Eine posttraumatische Verknöcherung des Brachialis (Myositis ossificans) kann nach Ellenbogenfrakturen auftreten."
+  ],
+  "aliases": [
+   "Oberarmmuskel"
+  ]
+ },
+ "m-coracobrachialis": {
+  "tr": "M. coracobrachialis",
+  "summary": "Schlanker Muskel der vorderen Oberarmloge vom Processus coracoideus zur Mitte des Humerus. Der N. musculocutaneus durchbohrt ihn.",
+  "facts": [
+   "Processus coracoideus scapulae",
+   "Mitte der Innenfläche des Humerusschafts",
+   "N. musculocutaneus (C5–C7)",
+   "A. brachialis",
+   "Flexion und Adduktion des Arms; stabilisiert den Humeruskopf"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der Coracobrachialis beugt und adduziert den Arm; dass ihn der N. musculocutaneus durchbohrt, ist ein wichtiger Orientierungspunkt."
+  ],
+  "aliases": [
+   "Rabenschnabel-Oberarmmuskel"
+  ]
+ },
+ "m-triceps-brachii": {
+  "tr": "M. triceps brachii",
+  "summary": "Dreiköpfiger Muskel, der die gesamte hintere Oberarmloge einnimmt. Er ist der Hauptstrecker des Ellenbogens.",
+  "facts": [
+   "Caput longum: Tuberculum infraglenoidale scapulae; Caput laterale: oberhalb des Sulcus nervi radialis; Caput mediale: unterhalb des Sulcus nervi radialis",
+   "Olecranon ulnae",
+   "N. radialis (C6–C8)",
+   "A. profunda brachii, A. circumflexa humeri posterior",
+   "Streckt den Unterarm; das Caput longum unterstützt Extension und Adduktion des Arms"
+  ],
+  "sections": [],
+  "clinical": [
+   "Der Trizepssehnenreflex prüft das Segment C7.",
+   "Wird der N. radialis in Oberarmmitte verletzt, kann ein Teil des medialen Kopfes erhalten bleiben; bei hohen Läsionen in der Achsel ist der Trizeps vollständig gelähmt."
+  ],
+  "tus": [
+   "Das Caput longum des Trizeps entspringt am Tuberculum infraglenoidale und überspannt auch die Schulter.",
+   "Der Trizepssehnenreflex prüft das Segment C7."
+  ],
+  "aliases": [
+   "Trizeps"
+  ]
+ },
+ "m-anconeus": {
+  "tr": "M. anconeus",
+  "summary": "Kleiner dreieckiger Muskel an der hinteren Außenseite des Ellenbogens; er wirkt wie eine Fortsetzung des Trizeps.",
+  "facts": [
+   "Rückfläche des Epicondylus lateralis humeri",
+   "Außenfläche des Olecranons und oberer Teil der Rückfläche der Ulna",
+   "N. radialis (C7–C8)",
+   "A. interossea recurrens",
+   "Unterstützt die Ellenbogenstreckung; spannt die Gelenkkapsel und stabilisiert die Ulna bei der Pronation"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der Anconeus unterstützt die Ellenbogenstreckung und wird vom N. radialis innerviert; er spannt die laterale Kapsel des Ellenbogens."
+  ],
+  "aliases": []
+ },
+ "m-pronator-teres": {
+  "tr": "M. pronator teres",
+  "summary": "Muskel der oberen Unterarmvorderseite, der schräg vom Ellenbogen zur Mitte des Radius zieht. Zwischen seinen beiden Köpfen verläuft der N. medianus.",
+  "facts": [
+   "Caput humerale: Epicondylus medialis humeri (gemeinsame Beugersehne); Caput ulnare: Processus coronoideus ulnae",
+   "Mitte der Außenfläche des Radius (Tuberositas pronatoria)",
+   "N. medianus (C6–C7)",
+   "A. ulnaris, A. radialis",
+   "Proniert den Unterarm; unterstützt die Ellenbogenbeugung"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Einengung des N. medianus zwischen den beiden Köpfen (Pronator-teres-Syndrom) ähnelt dem Karpaltunnelsyndrom, betrifft aber auch die Sensibilität der Hohlhand."
+  ],
+  "tus": [
+   "Zwischen den beiden Köpfen des Pronator teres zieht der N. medianus, unter dem tiefen (ulnaren) Kopf die A. ulnaris.",
+   "Beim Pronator-Syndrom ist auch die Sensibilität der Hohlhand betroffen (Unterschied zum Karpaltunnel)."
+  ],
+  "aliases": [
+   "Pronator",
+   "runder Einwärtsdreher"
+  ]
+ },
+ "m-flexor-carpi-radialis": {
+  "tr": "M. flexor carpi radialis",
+  "summary": "Einer der oberflächlichen Muskeln der Unterarmvorderseite; am Handgelenk tastet man seine Sehne direkt medial vom Radialispuls.",
+  "facts": [
+   "Epicondylus medialis humeri (gemeinsame Beugersehne)",
+   "Basis des 2. und 3. Mittelhandknochens",
+   "N. medianus (C6–C7)",
+   "A. radialis",
+   "Beugt das Handgelenk und abduziert es nach radial (Radialabduktion)"
+  ],
+  "sections": [
+   [
+    "Orientierungswert",
+    "Der Radialispuls wird am Handgelenk direkt lateral seiner Sehne getastet."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "Die FCR-Sehne ist am Handgelenk ein Orientierungspunkt direkt medial der A. radialis."
+  ],
+  "aliases": [
+   "FCR",
+   "radialer Handbeuger"
+  ]
+ },
+ "m-palmaris-longus": {
+  "tr": "M. palmaris longus",
+  "summary": "Unterarmmuskel mit dünner, langer Sehne, der bei etwa 14 % der Menschen fehlt.",
+  "facts": [
+   "Epicondylus medialis humeri (gemeinsame Beugersehne)",
+   "Retinaculum flexorum und Aponeurosis palmaris",
+   "N. medianus (C7–C8)",
+   "A. ulnaris",
+   "Unterstützt die Handgelenksbeugung; spannt die Palmaraponeurose"
+  ],
+  "sections": [],
+  "clinical": [
+   "Seine Sehne wird häufig als Sehnentransplantat verwendet.",
+   "Am Handgelenk verläuft der N. medianus direkt unter und lateral dieser Sehne."
+  ],
+  "tus": [
+   "Das Vorhandensein des Palmaris longus prüft man, indem Daumen- und Kleinfingerspitze zusammengeführt und das Handgelenk gebeugt wird."
+  ],
+  "aliases": [
+   "Palmaris",
+   "langer Hohlhandmuskel"
+  ]
+ },
+ "m-flexor-carpi-ulnaris": {
+  "tr": "M. flexor carpi ulnaris",
+  "summary": "Oberflächlicher Beuger am vorderen Innenrand des Unterarms; einer der zwei vorderen Unterarmmuskeln, die vom N. ulnaris versorgt werden.",
+  "facts": [
+   "Caput humerale: Epicondylus medialis humeri; Caput ulnare: Olecranon und Hinterrand der Ulna",
+   "Os pisiforme, Hamulus ossis hamati und Basis des 5. Mittelhandknochens",
+   "N. ulnaris (C7–T1)",
+   "A. ulnaris",
+   "Beugt das Handgelenk und abduziert es nach ulnar (Ulnarabduktion)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Der N. ulnaris kann im Kubitaltunnel zwischen den beiden Köpfen eingeengt werden (Kubitaltunnelsyndrom)."
+  ],
+  "tus": [
+   "Der N. ulnaris kann im Kubitaltunnel zwischen den beiden Köpfen des FCU eingeengt werden."
+  ],
+  "aliases": [
+   "FCU",
+   "ulnarer Handbeuger"
+  ]
+ }
+}

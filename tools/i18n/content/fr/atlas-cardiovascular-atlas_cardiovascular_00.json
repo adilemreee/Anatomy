@@ -1,0 +1,206 @@
+{
+ "cor": {
+  "tr": "Cœur",
+  "summary": "Organe musculaire situé dans le médiastin moyen, entre les deux poumons, qui propulse le sang dans tout le corps. Il a à peu près la taille d'un poing et comporte quatre cavités : deux atriums et deux ventricules.",
+  "facts": [
+   "Environ 250–350 g chez l'adulte",
+   "Médiastin moyen ; les deux tiers à gauche de la ligne médiane, l'apex (apex cordis) dans le 5e espace intercostal gauche sur la ligne médioclaviculaire",
+   "Endocarde, myocarde (muscle cardiaque), épicarde (péricarde viscéral)",
+   "Atrium droit, ventricule droit, atrium gauche, ventricule gauche",
+   "Tricuspide, pulmonaire, mitrale (bicuspide), aortique",
+   "Artères coronaires droite et gauche",
+   "Plexus cardiaque (sympathique : augmente la fréquence et la contractilité ; parasympathique – nerf vague : ralentit le cœur)"
+  ],
+  "sections": [
+   [
+    "Circulation du sang",
+    "Le sang désoxygéné du corps arrive dans l'atrium droit par les veines caves, passe la valve tricuspide vers le ventricule droit puis la valve pulmonaire vers le tronc pulmonaire et les poumons. Le sang oxygéné revient des poumons par les veines pulmonaires dans l'atrium gauche, passe la valve mitrale vers le ventricule gauche et est éjecté par la valve aortique dans l'aorte."
+   ],
+   [
+    "Système de conduction",
+    "Nœud sinusal (pacemaker ; atrium droit) → nœud atrioventriculaire → faisceau de His → branches droite et gauche → fibres de Purkinje."
+   ]
+  ],
+  "clinical": [
+   "L'infarctus du myocarde est la nécrose du muscle cardiaque due à l'occlusion d'une artère coronaire.",
+   "Dans l'insuffisance cardiaque, le cœur ne peut pomper autant de sang que l'organisme en a besoin ; l'insuffisance gauche donne un œdème pulmonaire, la droite des œdèmes des jambes et une hépatomégalie.",
+   "Foyers d'auscultation : aortique (2e espace droit), pulmonaire (2e espace gauche), tricuspide (4e–5e espace gauche au bord sternal), mitral (apex)."
+  ],
+  "tus": [
+   "L'apex du cœur se palpe dans le 5e espace intercostal gauche, juste en dedans de la ligne médioclaviculaire (choc de pointe).",
+   "Le premier tube cardiaque commence à battre à la fin de la 3e semaine ; le cloisonnement a lieu entre la 4e et la 7e semaine."
+  ],
+  "aliases": [
+   "cœur",
+   "cardiaque"
+  ]
+ },
+ "atrium-dextrum": {
+  "tr": "Atrium droit",
+  "summary": "Cavité cardiaque qui recueille le sang désoxygéné du corps et de la paroi cardiaque elle-même. Il contient le nœud sinusal, le pacemaker naturel du cœur.",
+  "facts": [
+   "Veine cave supérieure, veine cave inférieure, sinus coronaire",
+   "Auricule droite, muscles pectinés, crête terminale, fosse ovale (vestige du foramen ovale), valvule de la veine cave inférieure",
+   "Nœud sinusal (près de l'abouchement de la veine cave supérieure), nœud atrioventriculaire (dans le triangle de Koch)",
+   "Vers le ventricule droit par l'orifice atrioventriculaire droit (valve tricuspide)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Si le foramen ovale ne se ferme pas après la naissance (foramen ovale perméable), il existe un risque d'embolie paradoxale.",
+   "La communication interatriale (CIA) entraîne une surcharge volumique du cœur droit."
+  ],
+  "tus": [
+   "La partie lisse de l'atrium droit (sinus des veines caves) dérive du sinus veineux, la partie musculaire (muscles pectinés) de l'atrium primitif ; la crête terminale marque leur limite.",
+   "La valvule de la veine cave inférieure (d'Eustachi) borde l'orifice de la VCI, la valvule du sinus coronaire (de Thébésius) celui du sinus coronaire."
+  ],
+  "aliases": [
+   "oreillette droite"
+  ]
+ },
+ "ventriculus-dexter": {
+  "tr": "Ventricule droit",
+  "summary": "Cavité cardiaque qui propulse le sang désoxygéné vers les poumons. Il forme la plus grande partie de la face antérieure du cœur ; sa paroi est environ trois fois plus mince que celle du ventricule gauche.",
+  "facts": [
+   "Valve tricuspide",
+   "Cône artériel (infundibulum) et valve pulmonaire vers le tronc pulmonaire",
+   "Trabécules charnues, muscles papillaires (antérieur, postérieur, septal), cordages tendineux, trabécule septo-marginale (bandelette ansiforme – porte la branche droite)",
+   "3–5 mm"
+  ],
+  "sections": [],
+  "clinical": [
+   "L'hypertension pulmonaire entraîne une hypertrophie et une insuffisance ventriculaires droites (cœur pulmonaire).",
+   "L'hypertrophie ventriculaire droite est l'un des éléments de la tétralogie de Fallot."
+  ],
+  "tus": [
+   "L'intérieur du ventricule droit est trabéculé (trabécules charnues) ; sa chambre de chasse (infundibulum) a une paroi lisse.",
+   "La valve tricuspide a trois valvules (antérieure, postérieure, septale) et trois muscles papillaires."
+  ],
+  "aliases": [
+   "ventricule droit"
+  ]
+ },
+ "atrium-sinistrum": {
+  "tr": "Atrium gauche",
+  "summary": "Cavité cardiaque qui recueille le sang oxygéné venant des poumons et forme la plus grande partie de la base du cœur (basis cordis). C'est la cavité la plus postérieure du cœur, au contact de l'œsophage.",
+  "facts": [
+   "Quatre veines pulmonaires",
+   "Vers le ventricule gauche par la valve mitrale",
+   "Paroi en grande partie lisse ; les muscles pectinés se trouvent dans l'auricule gauche",
+   "En arrière, l'œsophage – bien visible en échocardiographie transœsophagienne"
+  ],
+  "sections": [],
+  "clinical": [
+   "En cas de fibrillation atriale, le sang peut coaguler dans l'auricule gauche et provoquer un AVC.",
+   "Dans le rétrécissement mitral, l'atrium gauche dilaté peut comprimer l'œsophage et gêner la déglutition."
+  ],
+  "tus": [
+   "Quatre veines pulmonaires s'abouchent dans l'atrium gauche ; l'auricule gauche est le siège le plus fréquent des thrombus (fibrillation atriale).",
+   "En dehors de l'auricule, la paroi de l'atrium gauche est lisse ; elle dérive des veines pulmonaires."
+  ],
+  "aliases": [
+   "oreillette gauche"
+  ]
+ },
+ "ventriculus-sinister": {
+  "tr": "Ventricule gauche",
+  "summary": "La cavité la plus puissante du cœur, qui propulse le sang oxygéné par l'aorte vers tout l'organisme. Il forme l'apex et le bord gauche du cœur.",
+  "facts": [
+   "Valve mitrale (bicuspide)",
+   "Vestibule aortique et valve aortique",
+   "Trabécules charnues fines et serrées, deux puissants muscles papillaires (antérieur et postérieur), cordages tendineux",
+   "8–12 mm",
+   "Normalement 55–70 %"
+  ],
+  "sections": [],
+  "clinical": [
+   "L'hypertension artérielle et le rétrécissement aortique entraînent une hypertrophie ventriculaire gauche.",
+   "Dans l'infarctus antérieur (occlusion de l'IVA), la paroi antérieure du ventricule gauche et le septum sont atteints ; la rupture d'un muscle papillaire peut provoquer une insuffisance mitrale aiguë."
+  ],
+  "tus": [
+   "La valvule antérieure de la mitrale est en continuité fibreuse avec la valve aortique.",
+   "La paroi ventriculaire gauche est environ trois fois plus épaisse que la droite (~10–15 mm)."
+  ],
+  "aliases": [
+   "ventricule gauche"
+  ]
+ },
+ "valvae-cordis": {
+  "tr": "Valves cardiaques",
+  "summary": "Les quatre valves qui assurent le passage du sang dans un seul sens dans le cœur : deux valves atrioventriculaires (tricuspide et mitrale) et deux valves semi-lunaires (pulmonaire et aortique).",
+  "facts": [
+   "Valve atrioventriculaire droite – trois valvules (antérieure, postérieure, septale)",
+   "Valve atrioventriculaire gauche – deux valvules (antérieure et postérieure)",
+   "Valve du tronc pulmonaire – trois valvules semi-lunaires",
+   "Valve aortique – trois valvules semi-lunaires (coronaire droite, coronaire gauche, non coronaire) ; les artères coronaires naissent de ses sinus",
+   "Les valves atrioventriculaires sont reliées par les cordages tendineux aux muscles papillaires ; le squelette fibreux (anneaux fibreux) porte les valves"
+  ],
+  "sections": [
+   [
+    "Bruits du cœur",
+    "B1 correspond à la fermeture des valves atrioventriculaires, B2 à celle des valves semi-lunaires."
+   ]
+  ],
+  "clinical": [
+   "Le rhumatisme articulaire aigu touche le plus souvent la valve mitrale.",
+   "Chez le sujet âgé, le rétrécissement aortique (calcifié) provoque syncope, angor et insuffisance cardiaque.",
+   "L'endocardite infectieuse forme des végétations sur les valvules."
+  ],
+  "tus": [
+   "Les valves semi-lunaires n'ont ni cordages ni muscles papillaires ; les artères coronaires naissent des sinus situés derrière la valve aortique.",
+   "Les valves cardiaques s'insèrent sur le squelette fibreux (anneaux fibreux), qui isole aussi électriquement les atriums des ventricules."
+  ],
+  "aliases": [
+   "valve",
+   "mitrale",
+   "tricuspide",
+   "valve aortique",
+   "valve pulmonaire"
+  ]
+ },
+ "aa-coronariae": {
+  "tr": "Artères coronaires",
+  "summary": "Les deux artères nées de la racine de l'aorte qui vascularisent le muscle cardiaque. Après un court tronc, la coronaire gauche se divise en interventriculaire antérieure (IVA) et circonflexe.",
+  "facts": [
+   "Du sinus aortique gauche ; tronc commun → rameau interventriculaire antérieur (IVA) et rameau circonflexe",
+   "Du sinus aortique droit ; chemine dans le sillon coronaire ; rameau marginal droit, rameau interventriculaire postérieur (chez la plupart – dominance droite), rameaux du nœud sinusal et du nœud AV",
+   "Paroi antérieure du ventricule gauche, 2/3 antérieurs du septum interventriculaire, apex",
+   "Parois latérale et postérieure du ventricule gauche, atrium gauche",
+   "Atrium et ventricule droits, 1/3 postérieur du septum, nœud sinusal (60 %) et nœud AV (80 %)"
+  ],
+  "sections": [],
+  "clinical": [
+   "L'IVA est surnommée « l'artère de la veuve » ; son occlusion entraîne un infarctus antérieur étendu.",
+   "L'occlusion de la coronaire droite peut provoquer un infarctus inférieur et un bloc AV.",
+   "En chirurgie de pontage, l'artère thoracique interne et la grande veine saphène servent de greffons."
+  ],
+  "tus": [
+   "Les artères coronaires se remplissent pendant la diastole ; le sous-endocarde du ventricule gauche est la zone la plus sensible à l'ischémie.",
+   "Le tronc commun gauche se divise en IVA et circonflexe ; parfois une artère intermédiaire (bissectrice) naît entre elles."
+  ],
+  "aliases": [
+   "coronaire",
+   "IVA",
+   "circonflexe"
+  ]
+ },
+ "venae-cordis": {
+  "tr": "Veines du cœur",
+  "summary": "Les veines qui recueillent le sang désoxygéné de la paroi cardiaque. La plupart se jettent dans le sinus coronaire, situé dans le sillon coronaire à la face postérieure du cœur.",
+  "facts": [
+   "S'ouvre dans l'atrium droit",
+   "Grande veine du cœur (avec l'IVA), veine moyenne du cœur (dans le sillon interventriculaire postérieur), petite veine du cœur, veine postérieure du ventricule gauche",
+   "Veines antérieures du cœur et veines minimes (de Thébésius)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans la resynchronisation cardiaque, la sonde ventriculaire gauche est placée dans une veine du cœur par le sinus coronaire."
+  ],
+  "tus": [
+   "Les veines minimes (de Thébésius) s'ouvrent directement dans les cavités cardiaques ; les veines antérieures du cœur s'ouvrent dans l'atrium droit.",
+   "Le sinus coronaire recueille la plupart des veines du cœur et s'ouvre dans l'atrium droit ; la sonde de resynchronisation y est placée."
+  ],
+  "aliases": [
+   "sinus coronaire"
+  ]
+ }
+}

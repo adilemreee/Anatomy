@@ -1,0 +1,322 @@
+{
+ "m-flexor-digitorum-superficialis": {
+  "tr": "M. flexor digitorum superficialis",
+  "summary": "Breiter Muskel, der die mittlere Schicht der vorderen Unterarmloge bildet. Seine vier Sehnen setzen an den Mittelphalangen an.",
+  "facts": [
+   "Caput humeroulnare: Epicondylus medialis humeri und Processus coronoideus; Caput radiale: oberer Teil der Vorderfläche des Radius",
+   "Seitenränder der Mittelphalangen der Finger 2–5 (die Sehnen spalten sich, um die FDP-Sehne durchzulassen)",
+   "N. medianus (C7–T1)",
+   "A. ulnaris, A. radialis",
+   "Beugt die Finger in den proximalen Interphalangealgelenken (PIP); unterstützt die Beugung in MCP- und Handgelenk"
+  ],
+  "sections": [],
+  "clinical": [
+   "Test: Bei in Streckung gehaltenen übrigen Fingern (FDP ausgeschaltet) wird das PIP-Gelenk des untersuchten Fingers gebeugt."
+  ],
+  "tus": [
+   "Der FDS beugt das proximale Interphalangealgelenk; bei seiner Prüfung werden die anderen Finger gestreckt gehalten.",
+   "Vor dem Ansatz an der Mittelphalanx spalten sich die FDS-Sehnen und lassen die FDP-Sehne durch (Chiasma tendinum)."
+  ],
+  "aliases": [
+   "FDS",
+   "oberflächlicher Fingerbeuger"
+  ]
+ },
+ "m-flexor-digitorum-profundus": {
+  "tr": "M. flexor digitorum profundus",
+  "summary": "Muskel der tiefen Schicht der vorderen Unterarmloge, der die Fingerendglieder beugt. Er ist doppelt innerviert.",
+  "facts": [
+   "Obere 3/4 der Vorder- und Innenfläche der Ulna und Membrana interossea",
+   "Basen der Endphalangen der Finger 2–5",
+   "Radiale Hälfte (Finger 2–3): N. interosseus anterior (N. medianus); ulnare Hälfte (Finger 4–5): N. ulnaris (C8–T1)",
+   "A. ulnaris, A. interossea anterior",
+   "Beugt die Fingerendglieder in den distalen Interphalangealgelenken (DIP); unterstützt die Beugung aller Fingergelenke und des Handgelenks"
+  ],
+  "sections": [],
+  "clinical": [
+   "Rugby-/Jersey-Finger: Die FDP-Sehne des Ringfingers reißt von der Endphalanx ab.",
+   "Bei hoher Ulnarisläsion fällt die DIP-Beugung der Finger 4–5 aus."
+  ],
+  "tus": [
+   "Der FDP ist der einzige Muskel, der das distale Interphalangealgelenk beugt.",
+   "Der Jersey-Finger ist der Ausriss der FDP-Sehne (meist des 4. Fingers) von der Endphalanx."
+  ],
+  "aliases": [
+   "FDP",
+   "tiefer Fingerbeuger"
+  ]
+ },
+ "m-flexor-pollicis-longus": {
+  "tr": "M. flexor pollicis longus",
+  "summary": "Muskel der tiefen vorderen Unterarmschicht vor dem Radius, der das Daumenendglied beugt.",
+  "facts": [
+   "Vorderfläche des Radius und Membrana interossea",
+   "Basis der Daumenendphalanx",
+   "N. interosseus anterior (N. medianus; C7–C8)",
+   "A. interossea anterior",
+   "Beugt das Interphalangeal- und MCP-Gelenk des Daumens"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Schädigung des N. interosseus anterior können Daumen und Zeigefinger kein „O“ bilden (Pinzettengriff gestört)."
+  ],
+  "tus": [
+   "Der FPL ist der einzige Muskel, der das Daumen-IP-Gelenk beugt; er wird vom N. interosseus anterior innerviert."
+  ],
+  "aliases": [
+   "FPL",
+   "langer Daumenbeuger"
+  ]
+ },
+ "m-pronator-quadratus": {
+  "tr": "M. pronator quadratus",
+  "summary": "Viereckiger Muskel, der am unteren Unterarmende quer zwischen Radius und Ulna verläuft; der Hauptmuskel der Pronation.",
+  "facts": [
+   "Unteres Viertel der Vorderfläche der Ulna",
+   "Unteres Viertel der Vorderfläche des Radius",
+   "N. interosseus anterior (N. medianus; C7–C8)",
+   "A. interossea anterior",
+   "Proniert den Unterarm; hält das distale Radioulnargelenk zusammen"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der Pronator quadratus leitet die Pronation hauptsächlich ein; er wird vom N. interosseus anterior innerviert."
+  ],
+  "aliases": [
+   "Pronator",
+   "viereckiger Einwärtsdreher"
+  ]
+ },
+ "m-brachioradialis": {
+  "tr": "M. brachioradialis",
+  "summary": "Oberflächlicher Muskel am Außenrand des Unterarms. Obwohl er zur hinteren Loge gehört (N. radialis), beugt er den Ellenbogen.",
+  "facts": [
+   "Obere 2/3 der Crista supracondylaris lateralis humeri",
+   "Basis des Processus styloideus radii",
+   "N. radialis (C5–C6)",
+   "A. recurrens radialis",
+   "Beugt den Ellenbogen in Halbpronation (wie beim Halten eines Hammers); bringt den Unterarm in Mittelstellung"
+  ],
+  "sections": [],
+  "clinical": [
+   "Der Brachioradialisreflex (Radiusperiostreflex) prüft die Segmente C5–C6."
+  ],
+  "tus": [
+   "Der Brachioradialisreflex prüft das Segment C6.",
+   "Die laterale Begrenzung der Ellenbeuge bildet der Brachioradialis, die mediale der Pronator teres."
+  ],
+  "aliases": [
+   "Oberarmspeichenmuskel"
+  ]
+ },
+ "mm-extensores-carpi-radiales": {
+  "tr": "Mm. extensores carpi radiales longus et brevis",
+  "summary": "Zwei Muskeln an der hinteren Außenseite des Unterarms, die das Handgelenk dorsalextendieren und so den Griff verstärken.",
+  "facts": [
+   "Longus: Crista supracondylaris lateralis humeri; brevis: Epicondylus lateralis humeri (gemeinsame Streckersehne)",
+   "Longus: Basis des 2. Mittelhandknochens; brevis: Basis des 3. Mittelhandknochens",
+   "Longus: N. radialis; brevis: R. profundus des N. radialis (C6–C7)",
+   "A. radialis, A. recurrens radialis",
+   "Strecken das Handgelenk und abduzieren es nach radial; fixieren es beim Faustschluss"
+  ],
+  "sections": [],
+  "clinical": [
+   "Der Tennisellenbogen (Epicondylitis lateralis) ist meist eine Überlastungsschädigung der ECRB-Sehne am Epicondylus lateralis."
+  ],
+  "tus": [
+   "Der ECRL wird vom Hauptstamm des N. radialis, der ECRB vom tiefen Ast innerviert; bei PIN-Lähmung bleibt der ECRL erhalten."
+  ],
+  "aliases": [
+   "ECRL",
+   "ECRB",
+   "radiale Handstrecker"
+  ]
+ },
+ "m-extensor-digitorum": {
+  "tr": "M. extensor digitorum",
+  "summary": "Muskel in der Mitte der Unterarmrückseite, der mit vier Sehnen die Finger streckt.",
+  "facts": [
+   "Epicondylus lateralis humeri (gemeinsame Streckersehne)",
+   "Streckapparat der Finger 2–5 (Basen der Mittel- und Endphalangen)",
+   "N. interosseus posterior (N. radialis; C7–C8)",
+   "A. interossea posterior",
+   "Streckt die Finger 2–5 in MCP-, PIP- und DIP-Gelenken; unterstützt die Handgelenksstreckung"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Am Streckapparat (Dorsalaponeurose) setzen auch die Mm. lumbricales und interossei an.",
+   "Die Knopflochdeformität entsteht durch Riss des Mittelzügels, die Schwanenhalsdeformität durch Lockerung der palmaren Platte und intrinsisches Ungleichgewicht."
+  ],
+  "aliases": [
+   "Extensor indicis",
+   "Extensor digiti minimi",
+   "Fingerstrecker"
+  ]
+ },
+ "m-extensor-carpi-ulnaris": {
+  "tr": "M. extensor carpi ulnaris",
+  "summary": "Oberflächlicher Streckmuskel am hinteren Innenrand des Unterarms.",
+  "facts": [
+   "Epicondylus lateralis humeri und Hinterrand der Ulna",
+   "Basis des 5. Mittelhandknochens",
+   "N. interosseus posterior (N. radialis; C7–C8)",
+   "A. ulnaris, A. interossea posterior",
+   "Streckt das Handgelenk und abduziert es nach ulnar"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der ECU streckt und ulnarabduziert das Handgelenk; bei PIN-Lähmung ist er geschwächt."
+  ],
+  "aliases": [
+   "ECU",
+   "ulnarer Handstrecker"
+  ]
+ },
+ "m-supinator": {
+  "tr": "M. supinator",
+  "summary": "Tiefer Muskel der hinteren Unterarmloge, der den oberen Radius umgreift. Der tiefe Ast des N. radialis durchbohrt ihn, um in die hintere Loge zu gelangen.",
+  "facts": [
+   "Epicondylus lateralis humeri, Lig. collaterale radiale, Lig. anulare radii, Crista musculi supinatoris ulnae",
+   "Außen-, Hinter- und Vorderfläche des oberen Radiusdrittels",
+   "R. profundus des N. radialis (C6–C7)",
+   "A. recurrens radialis, A. interossea recurrens",
+   "Supiniert den Unterarm (v. a. bei gestrecktem Ellenbogen)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Unter dem fibrösen Bogen am Muskeleingang (Frohse-Arkade) kann der N. interosseus posterior eingeengt werden; es entsteht eine Fingerstreckerschwäche ohne Sensibilitätsstörung."
+  ],
+  "tus": [
+   "Der Supinator wird vom tiefen Radialisast durchbohrt; eine Einengung an der Frohse-Arkade verursacht das Supinatorlogensyndrom (PIN-Syndrom)."
+  ],
+  "aliases": [
+   "Auswärtsdreher"
+  ]
+ },
+ "mm-pollicis-longi": {
+  "tr": "Lange Daumenmuskeln",
+  "summary": "Drei Muskeln von der tiefen hinteren Unterarmschicht zum Daumen. Ihre Sehnen begrenzen die Tabatière an der Außenseite des Handgelenks.",
+  "facts": [
+   "Rückflächen von Ulna, Radius und Membrana interossea",
+   "APL: Basis des 1. Mittelhandknochens; EPB: Basis der Daumengrundphalanx; EPL: Basis der Daumenendphalanx",
+   "N. interosseus posterior (N. radialis; C7–C8)",
+   "A. interossea posterior",
+   "APL abduziert den Daumen; EPB und EPL strecken ihn"
+  ],
+  "sections": [
+   [
+    "Tabatière",
+    "Sie wird vorn von den Sehnen von APL und EPB, hinten von der EPL-Sehne begrenzt. Ihren Boden bilden Os scaphoideum und Os trapezium; in ihr verläuft die A. radialis."
+   ]
+  ],
+  "clinical": [
+   "Tendovaginitis de Quervain: Entzündung der Sehnen von APL und EPB im ersten Strecksehnenfach (Finkelstein-Test positiv).",
+   "Nach distalen Radiusfrakturen kann die EPL-Sehne am Tuberculum von Lister reißen."
+  ],
+  "tus": [
+   "Eine EPL-Sehnenruptur kann Wochen nach einer distalen Radiusfraktur am Lister-Höcker auftreten."
+  ],
+  "aliases": [
+   "APL",
+   "EPB",
+   "EPL",
+   "Tabatière"
+  ]
+ },
+ "mm-thenares": {
+  "tr": "Thenarmuskeln",
+  "summary": "Die Muskelgruppe des Daumenballens (Thenar): M. abductor pollicis brevis, M. flexor pollicis brevis, M. opponens pollicis und der tief gelegene M. adductor pollicis.",
+  "facts": [
+   "Retinaculum flexorum, Os scaphoideum und Os trapezium (Adductor pollicis: 2.–3. Mittelhandknochen und Os capitatum)",
+   "1. Mittelhandknochen und Grundphalanx des Daumens",
+   "R. recurrens des N. medianus (APB, oberflächlicher Kopf des FPB, OP); R. profundus des N. ulnaris (Adductor pollicis und tiefer Kopf des FPB) – C8–T1",
+   "R. palmaris superficialis der A. radialis, Arcus palmaris profundus",
+   "Abduktion, Flexion, Opposition und Adduktion des Daumens"
+  ],
+  "sections": [],
+  "clinical": [
+   "Beim Karpaltunnelsyndrom entstehen Thenaratrophie und Oppositionsschwäche.",
+   "Bei Ulnarisschädigung ist der Adductor pollicis schwach; beim Festhalten eines Blattes beugt sich das Daumen-IP-Gelenk (Froment-Zeichen)."
+  ],
+  "tus": [
+   "Die Thenarmuskeln werden vom R. recurrens des N. medianus versorgt, dem „Millionen-Dollar-Nerv“.",
+   "Die Affenhand entsteht bei Medianusschädigung durch Thenaratrophie und Oppositionsverlust."
+  ],
+  "aliases": [
+   "Thenar",
+   "Daumenballen",
+   "Opponens pollicis",
+   "Adductor pollicis"
+  ]
+ },
+ "mm-hypothenares": {
+  "tr": "Hypothenarmuskeln",
+  "summary": "Die Muskelgruppe des Kleinfingerballens: M. abductor digiti minimi, M. flexor digiti minimi brevis und M. opponens digiti minimi.",
+  "facts": [
+   "Os pisiforme, Hamulus ossis hamati und Retinaculum flexorum",
+   "Grundphalanx des 5. Fingers und 5. Mittelhandknochen",
+   "R. profundus des N. ulnaris (C8–T1)",
+   "R. profundus der A. ulnaris",
+   "Abduktion, Flexion und Opposition des Kleinfingers"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Ulnarisschädigung zeigt sich eine Hypothenaratrophie."
+  ],
+  "tus": [
+   "Die Hypothenarmuskeln werden vom tiefen Ulnarisast innerviert, der M. palmaris brevis vom oberflächlichen Ast."
+  ],
+  "aliases": [
+   "Hypothenar",
+   "Kleinfingerballen"
+  ]
+ },
+ "mm-lumbricales-manus": {
+  "tr": "Mm. lumbricales der Hand",
+  "summary": "Vier kleine Muskeln, die von den Sehnen des tiefen Fingerbeugers entspringen; ungewöhnlich ist, dass sie an Sehnen statt an Knochen ansetzen.",
+  "facts": [
+   "Sehnen des M. flexor digitorum profundus",
+   "Radialer Rand des Streckapparats der Finger 2–5",
+   "1.–2. Lumbrikalis: N. medianus; 3.–4. Lumbrikalis: R. profundus des N. ulnaris",
+   "Arcus palmaris superficialis und profundus",
+   "Beugen die MCP-Gelenke und strecken die Interphalangealgelenke („Tablett-Haltung“)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Ulnarisschädigung entsteht an den Fingern 4–5 eine Krallenhand (MCP-Überstreckung, IP-Beugung); Ulnarisparadoxon: bei hoher Läsion ist die Kralle weniger ausgeprägt."
+  ],
+  "tus": [
+   "Die Lumbrikalmuskeln entspringen von den FDP-Sehnen und setzen nicht am Knochen an."
+  ],
+  "aliases": [
+   "Lumbrikalmuskeln",
+   "Spulmuskeln"
+  ]
+ },
+ "mm-interossei-manus": {
+  "tr": "Mm. interossei der Hand",
+  "summary": "Kleine Muskeln zwischen den Mittelhandknochen: vier dorsale und drei palmare Interossei.",
+  "facts": [
+   "Seitenflächen benachbarter Mittelhandknochen",
+   "Basen der Grundphalangen und Streckapparat",
+   "R. profundus des N. ulnaris (C8–T1)",
+   "Aa. metacarpales dorsales und palmares",
+   "Dorsale Interossei spreizen die Finger; palmare Interossei schließen sie; unterstützen MCP-Beugung und IP-Streckung"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die palmaren Interossei werden geprüft, indem ein Blatt Papier zwischen den Fingern festgehalten wird; bei Ulnarisläsion sind sie schwach, und im ersten Zwischenknochenraum zeigt sich eine Atrophie."
+  ],
+  "tus": [
+   "Es gibt 4 dorsale und 3 (oder 4) palmare Interossei.",
+   "Bei Ulnarisschädigung führt die Atrophie des ersten dorsalen Interosseus zu einer deutlichen Mulde am Handrücken."
+  ],
+  "aliases": [
+   "Interossei",
+   "Zwischenknochenmuskeln"
+  ]
+ }
+}

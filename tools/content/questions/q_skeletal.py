@@ -660,4 +660,7 @@ Q("f", AY, "Ayağın medial longitudinal kavsinin en yüksek noktasında ve 'kil
   e=["talus", "artt-pedis"]),
 ]
 
-write("skeletal", questions)
+from q_skeletal2 import questions as more
+from q_skeletal3 import questions as more3
+
+write("skeletal", questions + more + more3)

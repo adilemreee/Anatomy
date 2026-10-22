@@ -86,7 +86,7 @@ struct PartsBrowser: View {
     @ViewBuilder
     private func partSection(_ matches: [PartSearchIndex.Match], titled: Bool) -> some View {
         if !matches.isEmpty {
-            Section(titled ? "Parçalar" : "") {
+            Section(titled ? String(localized: "Parçalar") : "") {
                 ForEach(matches, id: \.ref) { match in
                     PartRow(ref: match.ref, showsLayer: true, onPick: pick)
                 }
@@ -249,7 +249,7 @@ private struct GroupRow: View {
                     Text(group.title)
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(.primary)
-                    Text("\(ModelLayer.layer(group.layer)?.title ?? "") · \(group.refs.count) parça" + (otherSex ? " · \(group.sex?.title ?? "")" : ""))
+                    Text("\(ModelLayer.layer(group.layer)?.title ?? "") · " + String(localized: "\(group.refs.count) parça") + (otherSex ? " · \(group.sex?.title ?? "")" : ""))
                         .font(.caption)
                         .foregroundStyle(.secondary)
                         .lineLimit(1)

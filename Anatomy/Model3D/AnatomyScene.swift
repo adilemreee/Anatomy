@@ -31,7 +31,7 @@ nonisolated enum BodySex: String, CaseIterable, Identifiable, Sendable {
     }
 
     var id: String { rawValue }
-    var title: String { self == .male ? "Erkek" : "Kadın" }
+    var title: String { self == .male ? String(localized: "Erkek") : String(localized: "Kadın") }
 }
 
 /// A toggleable 3D layer (one Z-Anatomy system collection).
@@ -46,16 +46,23 @@ nonisolated struct ModelLayer: Identifiable, Hashable, Sendable {
 
     var tint: Color { Color(hex: color) }
 
-    static let all: [ModelLayer] = [
-        ModelLayer(id: "skeletal", title: "İskelet", icon: "figure.stand", color: "e9dfca", roughness: 0.7, defaultOn: true),
-        ModelLayer(id: "joints", title: "Eklemler ve Bağlar", icon: "figure.flexibility", color: "c9d6dc", roughness: 0.5, defaultOn: false),
-        ModelLayer(id: "muscular", title: "Kaslar", icon: "figure.strengthtraining.traditional", color: "b8473f", roughness: 0.55, defaultOn: true),
-        ModelLayer(id: "insertions", title: "Kas Yapışma Yerleri", icon: "pin.fill", color: "d0453b", roughness: 0.5, defaultOn: false),
-        ModelLayer(id: "cardiovascular", title: "Kalp ve Damarlar", icon: "heart.fill", color: "c4302b", roughness: 0.45, defaultOn: false),
-        ModelLayer(id: "lymphoid", title: "Lenfoid Organlar", icon: "shield.lefthalf.filled", color: "8fb46a", roughness: 0.45, defaultOn: false),
-        ModelLayer(id: "nervous", title: "Sinir Sistemi ve Duyular", icon: "brain.head.profile.fill", color: "e8c34a", roughness: 0.45, defaultOn: false),
-        ModelLayer(id: "visceral", title: "İç Organlar", icon: "lungs.fill", color: "d98b7c", roughness: 0.48, defaultOn: false),
-        ModelLayer(id: "regions", title: "Deri ve Bölgeler", icon: "hand.raised.fill", color: "e8c2a8", roughness: 0.6, defaultOn: false),
+    /// Still being refined (the realistic skin): marked "Beta" in the interface.
+    var isBeta: Bool { id == "regions" }
+
+    /// The layers this edition shows (AppScope); the others stay in `catalog`.
+    static let all: [ModelLayer] = catalog.filter { AppScope.includes(layer: $0.id) }
+
+    /// Every layer the bundle has.
+    static let catalog: [ModelLayer] = [
+        ModelLayer(id: "skeletal", title: String(localized: "İskelet"), icon: "figure.stand", color: "e9dfca", roughness: 0.7, defaultOn: true),
+        ModelLayer(id: "joints", title: String(localized: "Eklemler ve Bağlar"), icon: "figure.flexibility", color: "c9d6dc", roughness: 0.5, defaultOn: false),
+        ModelLayer(id: "muscular", title: String(localized: "Kaslar"), icon: "figure.strengthtraining.traditional", color: "b8473f", roughness: 0.55, defaultOn: true),
+        ModelLayer(id: "insertions", title: String(localized: "Kas Yapışma Yerleri"), icon: "pin.fill", color: "d0453b", roughness: 0.5, defaultOn: false),
+        ModelLayer(id: "cardiovascular", title: String(localized: "Kalp ve Damarlar"), icon: "heart.fill", color: "c4302b", roughness: 0.45, defaultOn: false),
+        ModelLayer(id: "lymphoid", title: String(localized: "Lenfoid Organlar"), icon: "shield.lefthalf.filled", color: "8fb46a", roughness: 0.45, defaultOn: false),
+        ModelLayer(id: "nervous", title: String(localized: "Sinir Sistemi ve Duyular"), icon: "brain.head.profile.fill", color: "e8c34a", roughness: 0.45, defaultOn: false),
+        ModelLayer(id: "visceral", title: String(localized: "İç Organlar"), icon: "lungs.fill", color: "d98b7c", roughness: 0.48, defaultOn: false),
+        ModelLayer(id: "regions", title: String(localized: "Deri ve Bölgeler"), icon: "hand.raised.fill", color: "e8c2a8", roughness: 0.6, defaultOn: false),
     ]
 
     static func layer(_ id: String) -> ModelLayer? { all.first { $0.id == id } }

@@ -1,0 +1,4446 @@
+{
+ "system": "skeletal",
+ "questions": [
+  {
+   "id": "sk-f15e8ff6",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A 24-year-old motorcyclist regains consciousness after a brief loss of consciousness, then becomes drowsy again a few hours later. CT shows a biconvex epidural haematoma in the temporal region. Through which opening does the bleeding artery enter the cranial cavity?",
+   "options": [
+    "Carotid canal",
+    "Foramen spinosum",
+    "Foramen ovale",
+    "Foramen rotundum",
+    "Foramen lacerum"
+   ],
+   "answer": 1,
+   "explanation": "The classic source of an epidural haematoma with a lucid interval is the middle meningeal artery. This branch of the maxillary artery enters the middle cranial fossa through the foramen spinosum; its anterior branch runs on the inner surface of the pterion, so fractures there tear the artery.",
+   "notes": [
+    "The internal carotid artery and its sympathetic plexus pass through it.",
+    "",
+    "The mandibular nerve (V3) and accessory meningeal artery pass through it.",
+    "The maxillary nerve (V2) passes through it.",
+    "In life it is closed by cartilage; the greater petrosal nerve passes over it."
+   ],
+   "entries": [
+    "os-sphenoidale",
+    "os-temporale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-cae1e91e",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structure passes through the foramen rotundum?",
+   "options": [
+    "Middle meningeal artery",
+    "Mandibular nerve",
+    "Maxillary nerve",
+    "Ophthalmic nerve",
+    "Greater petrosal nerve"
+   ],
+   "answer": 2,
+   "explanation": "The foramen rotundum, in the greater wing of the sphenoid, carries the second division of the trigeminal nerve, the maxillary nerve (V2), from the middle cranial fossa to the pterygopalatine fossa.",
+   "notes": [
+    "It enters through the foramen spinosum.",
+    "It passes through the foramen ovale.",
+    "",
+    "It enters the orbit through the superior orbital fissure.",
+    "It passes over the foramen lacerum to the pterygoid canal."
+   ],
+   "entries": [
+    "os-sphenoidale",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-02fc4bcb",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with a skull base fracture has difficulty swallowing, hoarseness and, on the same side, weakness in shrugging the shoulder and turning the head to the opposite side. Where is the lesion most likely?",
+   "options": [
+    "Jugular foramen",
+    "Stylomastoid foramen",
+    "Hypoglossal canal",
+    "Foramen magnum",
+    "Internal acoustic meatus"
+   ],
+   "answer": 0,
+   "explanation": "The glossopharyngeal (IX), vagus (X) and accessory (XI) nerves and the beginning of the internal jugular vein pass through the jugular foramen. IX–X involvement causes dysphagia and hoarseness; XI involvement causes weakness of trapezius and sternocleidomastoid (Vernet syndrome).",
+   "notes": [
+    "",
+    "The facial nerve leaves the skull here; there would be facial palsy.",
+    "Only the hypoglossal nerve passes; the tongue would deviate.",
+    "The medulla oblongata, vertebral arteries and spinal roots of XI pass; this picture is not typical.",
+    "The facial and vestibulocochlear nerves pass through it."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-temporale",
+    "n-vagus",
+    "n-accessorius",
+    "n-glossopharyngeus"
+   ]
+  },
+  {
+   "id": "sk-2f2c71f8",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following does NOT pass through the superior orbital fissure?",
+   "options": [
+    "Abducens nerve",
+    "Superior ophthalmic vein",
+    "Trochlear nerve",
+    "Optic nerve",
+    "Oculomotor nerve"
+   ],
+   "answer": 3,
+   "explanation": "The optic nerve passes through the optic canal together with the ophthalmic artery. Through the superior orbital fissure pass III, IV, VI, the branches of the ophthalmic nerve (lacrimal, frontal and nasociliary nerves) and the superior ophthalmic vein.",
+   "entries": [
+    "os-sphenoidale",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "sk-3882c3d4",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following bones does NOT take part in forming the pterion?",
+   "options": [
+    "Parietal bone",
+    "Sphenoid bone",
+    "Zygomatic bone",
+    "Temporal bone",
+    "Frontal bone"
+   ],
+   "answer": 2,
+   "explanation": "The pterion is the H-shaped area where the frontal bone, parietal bone, squamous part of the temporal bone and greater wing of the sphenoid meet. It is one of the thinnest parts of the skull, and the anterior branch of the middle meningeal artery runs on its inner surface.",
+   "entries": [
+    "os-frontale",
+    "os-parietale",
+    "os-temporale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-200730b2",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "After an anterior skull base fracture, a patient develops clear fluid from the nose (rhinorrhoea) and loss of smell. The fracture most likely involves which part of which bone?",
+   "options": [
+    "Sphenoid – body",
+    "Nasal bone",
+    "Frontal bone – orbital part",
+    "Ethmoid – cribriform plate",
+    "Vomer"
+   ],
+   "answer": 3,
+   "explanation": "The olfactory nerve filaments pass through the holes of the cribriform plate. When it fractures the olfactory fibres are torn (anosmia), and if the dura and arachnoid are torn, cerebrospinal fluid leaks into the nasal cavity.",
+   "entries": [
+    "os-ethmoidale",
+    "n-olfactorius"
+   ]
+  },
+  {
+   "id": "sk-4f08a260",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "On which bone is the sella turcica, which holds the pituitary gland, located?",
+   "options": [
+    "Ethmoid",
+    "Temporal bone",
+    "Frontal bone",
+    "Sphenoid",
+    "Occipital bone"
+   ],
+   "answer": 3,
+   "explanation": "The sella turcica is the saddle-shaped depression on the upper surface of the body of the sphenoid; the pituitary sits in the central hypophysial fossa. The sphenoidal sinus lies beneath it, which is why pituitary surgery can be done by the transsphenoidal route.",
+   "entries": [
+    "os-sphenoidale",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "sk-52093b04",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Before working on the lower molars, a dentist gives an anaesthetic injection. Around which opening should the needle be placed to numb all the lower teeth on that side?",
+   "options": [
+    "Mental foramen",
+    "Incisive canal",
+    "Infraorbital foramen",
+    "Foramen ovale",
+    "Mandibular foramen"
+   ],
+   "answer": 4,
+   "explanation": "The inferior alveolar nerve (V3) enters the mandibular canal through the mandibular foramen on the inner surface of the ramus and supplies all the lower teeth. A block placed just above the lingula numbs the teeth, lower lip and chin skin on that side.",
+   "notes": [
+    "The mental nerve emerging here supplies only the lower lip and chin skin.",
+    "It is for the palatal mucosa of the upper front teeth (nasopalatine nerve).",
+    "Upper jaw: the infraorbital nerve emerges here.",
+    "It is in the skull base; reaching it is not practical.",
+    ""
+   ],
+   "entries": [
+    "mandibula",
+    "n-trigeminus",
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-d97d6576",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The nerve emerging from the mental foramen is a branch of which nerve?",
+   "options": [
+    "Buccal nerve",
+    "Infraorbital nerve",
+    "Inferior alveolar nerve",
+    "Facial nerve (marginal mandibular branch)",
+    "Lingual nerve"
+   ],
+   "answer": 2,
+   "explanation": "The mental foramen usually lies below the second lower premolar. The mental nerve, a terminal branch of the inferior alveolar nerve, emerges here and carries sensation from the lower lip and chin skin.",
+   "entries": [
+    "mandibula",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-db827248",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient punched on the chin has a fracture of the neck of the mandible. The condylar fragment is displaced forwards and medially. Which muscle is responsible for this displacement?",
+   "options": [
+    "Masseter",
+    "Digastric",
+    "Medial pterygoid",
+    "Lateral pterygoid",
+    "Temporalis"
+   ],
+   "answer": 3,
+   "explanation": "The lateral pterygoid attaches to the pterygoid fovea (neck of the condyle) and the articular disc and pulls the condyle forwards and medially. In a fracture the proximal fragment is pulled anteromedially by this muscle.",
+   "notes": [
+    "It attaches to the outer surface of the ramus and angle; it pulls the distal fragment upwards.",
+    "It attaches near the body of the mandible; it pulls the jaw down.",
+    "It attaches to the inner surface of the angle; it does not affect the condylar fragment.",
+    "",
+    "It attaches to the coronoid process."
+   ],
+   "entries": [
+    "mandibula",
+    "mm-pterygoidei",
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "sk-0dce4bb9",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which bone does not articulate with any other bone in the body?",
+   "options": [
+    "Patella",
+    "Vomer",
+    "Lacrimal bone",
+    "Hyoid bone",
+    "Coccyx"
+   ],
+   "answer": 3,
+   "explanation": "The hyoid bone lies at the level of C3, suspended by muscles and ligaments (stylohyoid ligament, thyrohyoid membrane); it articulates with no other bone. It is the attachment of the supra- and infrahyoid muscles.",
+   "entries": [
+    "os-hyoideum",
+    "mm-suprahyoidei",
+    "mm-infrahyoidei"
+   ]
+  },
+  {
+   "id": "sk-c559d452",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following does NOT attach to the styloid process?",
+   "options": [
+    "Posterior belly of digastric",
+    "Stylomandibular ligament",
+    "Stylohyoid",
+    "Styloglossus",
+    "Stylopharyngeus"
+   ],
+   "answer": 0,
+   "explanation": "The posterior belly of digastric arises from the mastoid notch of the temporal bone. From the styloid process arise the three 'stylo-' muscles (styloglossus – XII, stylohyoid – VII, stylopharyngeus – IX) and the stylohyoid and stylomandibular ligaments.",
+   "entries": [
+    "os-temporale",
+    "mm-suprahyoidei"
+   ]
+  },
+  {
+   "id": "sk-e617e04f",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In which part of which bone is the inner ear located?",
+   "options": [
+    "Sphenoid – greater wing",
+    "Occipital bone – basilar part",
+    "Temporal bone – petrous part",
+    "Temporal bone – tympanic part",
+    "Temporal bone – squamous part"
+   ],
+   "answer": 2,
+   "explanation": "The petrous part (pyramid) is the hardest bone in the body; it contains the cochlea, vestibule and semicircular canals. The middle ear cavity also lies between the petrous and tympanic parts.",
+   "entries": [
+    "os-temporale",
+    "auris-interna"
+   ]
+  },
+  {
+   "id": "sk-1864ac93",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which fontanelle closes last in infants, and at about what age?",
+   "options": [
+    "Sphenoidal fontanelle – 5 years",
+    "Anterior fontanelle – 2–3 months",
+    "Anterior fontanelle – 18–24 months",
+    "Posterior fontanelle – 18–24 months",
+    "Mastoid fontanelle – 3 years"
+   ],
+   "answer": 2,
+   "explanation": "The anterior fontanelle (the diamond-shaped opening at the bregma) is the largest and closes last (around 18–24 months). The posterior fontanelle closes at 2–3 months, the sphenoidal at about 6 months, the mastoid at 6–18 months. A sunken anterior fontanelle suggests dehydration, a bulging one raised intracranial pressure.",
+   "entries": [
+    "os-frontale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-2a63ac57",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The bregma is the meeting point of which sutures?",
+   "options": [
+    "Lambdoid and occipitomastoid sutures",
+    "Coronal and sagittal sutures",
+    "Sagittal and lambdoid sutures",
+    "Coronal and squamous sutures",
+    "Frontal (metopic) and coronal sutures"
+   ],
+   "answer": 1,
+   "explanation": "The bregma, the site of the anterior fontanelle, is where the coronal and sagittal sutures meet. The lambda is where the sagittal and lambdoid sutures meet, the site of the posterior fontanelle.",
+   "entries": [
+    "os-frontale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-2fcb0376",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "After being hit in the face by a tennis ball, a patient has double vision on looking up, a sunken eyeball and numbness of the cheek and upper lip on the same side. What is the most likely fracture?",
+   "options": [
+    "Orbital roof (frontal bone)",
+    "Lateral orbital wall (zygomatic bone)",
+    "Orbital floor (maxilla) – blow-out fracture",
+    "Nasal bone",
+    "Optic canal"
+   ],
+   "answer": 2,
+   "explanation": "In blunt orbital trauma the pressure breaks out through one of the weakest walls, the floor (maxilla). Inferior rectus and fat are trapped in the maxillary sinus and upward gaze is restricted. Injury to the infraorbital nerve in the groove/canal of the floor causes sensory loss of the cheek, lower lid and upper lip. The medial wall (orbital plate of the ethmoid) is the thinnest and also fractures often.",
+   "entries": [
+    "maxilla",
+    "os-ethmoidale",
+    "mm-bulbi"
+   ]
+  },
+  {
+   "id": "sk-b4b77595",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structures form the bony part of the nasal septum?",
+   "options": [
+    "Frontal process of the maxilla and nasal bone",
+    "Inferior nasal concha and palatine bone",
+    "Lacrimal bone and ethmoid",
+    "Nasal bone and vomer",
+    "Vomer and perpendicular plate of the ethmoid"
+   ],
+   "answer": 4,
+   "explanation": "The nasal septum is formed posteroinferiorly by the vomer, posterosuperiorly by the perpendicular plate of the ethmoid and anteriorly by the septal cartilage. A deviated septum is usually at the cartilage–bone junction.",
+   "entries": [
+    "vomer",
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ]
+  },
+  {
+   "id": "sk-9a7db56f",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following is a separate bone, not part of the ethmoid?",
+   "options": [
+    "Superior nasal concha",
+    "Crista galli",
+    "Inferior nasal concha",
+    "Cribriform plate",
+    "Middle nasal concha"
+   ],
+   "answer": 2,
+   "explanation": "The superior and middle conchae extend from the labyrinth of the ethmoid. The inferior concha is a facial bone in its own right and articulates with the maxilla, lacrimal, palatine and ethmoid bones.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-e474b6d7",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which bone forms the posterior quarter of the hard palate?",
+   "options": [
+    "Sphenoid – pterygoid process",
+    "Maxilla – palatine process",
+    "Palatine bone – perpendicular plate",
+    "Vomer",
+    "Palatine bone – horizontal plate"
+   ],
+   "answer": 4,
+   "explanation": "The anterior three quarters of the hard palate are formed by the palatine processes of the maxillae, the posterior quarter by the horizontal plates of the palatine bones. Their junction is the transverse palatine suture.",
+   "entries": [
+    "os-palatinum",
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-a81fa9ba",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which bones form the fossa for the lacrimal sac?",
+   "options": [
+    "Ethmoid and sphenoid",
+    "Nasal bone and frontal bone",
+    "Palatine bone and lacrimal bone",
+    "Zygomatic bone and maxilla",
+    "Lacrimal bone and the frontal process of the maxilla"
+   ],
+   "answer": 4,
+   "explanation": "The lacrimal sac sits in the fossa for the lacrimal sac at the front of the medial orbital wall. The fossa is formed in front by the frontal process of the maxilla (anterior lacrimal crest) and behind by the lacrimal bone (posterior lacrimal crest). Below, the sac opens into the inferior meatus through the nasolacrimal duct.",
+   "entries": [
+    "os-lacrimale",
+    "maxilla",
+    "apparatus-lacrimalis"
+   ]
+  },
+  {
+   "id": "sk-8a17fa1f",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The zygomatic arch is formed by the union of which structures?",
+   "options": [
+    "Frontal process of the zygomatic bone and frontal bone",
+    "Greater wing of the sphenoid and temporal bone",
+    "Mastoid process of the temporal bone and zygomatic bone",
+    "Temporal process of the zygomatic bone and zygomatic process of the temporal bone",
+    "Zygomatic process of the maxilla and sphenoid"
+   ],
+   "answer": 3,
+   "explanation": "The zygomatic arch is formed in front by the temporal process of the zygomatic bone and behind by the zygomatic process of the temporal bone. Masseter arises from its lower border; the tendon of temporalis passes beneath the arch to the coronoid process.",
+   "entries": [
+    "os-zygomaticum",
+    "os-temporale",
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "sk-5ff889bf",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The occipital condyles articulate with which bone?",
+   "options": [
+    "Sphenoid",
+    "Atlas",
+    "Dens of the axis",
+    "Temporal bone",
+    "Axis"
+   ],
+   "answer": 1,
+   "explanation": "The occipital condyles form the atlanto-occipital joint with the upper surfaces of the lateral masses of the atlas. The 'yes' nodding movement (flexion–extension) occurs at this joint; the 'no' movement occurs at the atlanto-axial joint.",
+   "entries": [
+    "os-occipitale",
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-d3f9241b",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which nerve passes through the supraorbital foramen, and from which main nerve does it come?",
+   "options": [
+    "Supraorbital nerve – ophthalmic nerve (V1)",
+    "Zygomaticotemporal nerve – mandibular nerve (V3)",
+    "Supratrochlear nerve – maxillary nerve (V2)",
+    "Infraorbital nerve – maxillary nerve (V2)",
+    "Supraorbital nerve – facial nerve"
+   ],
+   "answer": 0,
+   "explanation": "The supraorbital nerve, a branch of the frontal nerve, emerges through the supraorbital foramen (notch) of the frontal bone and supplies the forehead and front of the scalp. This point is examined as the V1 pressure point in trigeminal neuralgia.",
+   "entries": [
+    "os-frontale",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-95627bc6",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "How many permanent teeth and how many deciduous (milk) teeth are there, respectively?",
+   "options": [
+    "32 and 24",
+    "28 and 20",
+    "32 and 16",
+    "30 and 20",
+    "32 and 20"
+   ],
+   "answer": 4,
+   "explanation": "Each half-jaw in the permanent dentition has 2 incisors, 1 canine, 2 premolars and 3 molars (32 in all); the deciduous dentition has 2 incisors, 1 canine and 2 molars (20 in all). There are no premolars among the milk teeth.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-e0da37ac",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where does the base (footplate) of the stapes sit?",
+   "options": [
+    "Aditus to the mastoid antrum",
+    "Tympanic membrane",
+    "Promontory",
+    "Round window (fenestra cochleae)",
+    "Oval window (fenestra vestibuli)"
+   ],
+   "answer": 4,
+   "explanation": "The footplate of the stapes is held in the oval window on the medial wall of the middle ear by the annular ligament and transmits vibration to the perilymph. In otosclerosis new bone here fixes the stapes and causes conductive hearing loss. The round window is closed by the secondary tympanic membrane.",
+   "entries": [
+    "ossicula-auditus",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "sk-11bbc925",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which vertebra has no vertebral body?",
+   "options": [
+    "First thoracic vertebra",
+    "Fifth lumbar vertebra",
+    "Axis (C2)",
+    "Vertebra prominens (C7)",
+    "Atlas (C1)"
+   ],
+   "answer": 4,
+   "explanation": "During development the body of the atlas joins the axis to form the dens. The atlas is a ring made of anterior and posterior arches and two lateral masses; instead of a spinous process it carries a posterior tubercle.",
+   "entries": [
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-a2272b62",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The vertebral artery usually begins its ascent by entering the foramen transversarium of which vertebra?",
+   "options": [
+    "C6",
+    "C4",
+    "C7",
+    "C1",
+    "C5"
+   ],
+   "answer": 0,
+   "explanation": "The vertebral artery, the first branch of the subclavian artery, typically enters the foramen transversarium of C6, ascends through the foramina of C6–C1 and enters the skull through the foramen magnum. Usually only the vertebral vein passes through the foramen transversarium of C7.",
+   "entries": [
+    "vertebrae-cervicales",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-75fe34b4",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which vertebra has the most prominent spinous process palpable at the back of the neck?",
+   "options": [
+    "C7 (vertebra prominens)",
+    "T4",
+    "C2 (axis)",
+    "C1 (atlas)",
+    "C5"
+   ],
+   "answer": 0,
+   "explanation": "The long, non-bifid spinous process of C7 is easily felt at the base of the neck and is used as the starting point for counting vertebrae. The spinous processes of C2–C6 are short and bifid.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2b8ee94c",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which vertebrae have articular facets (costal facets) for the head of a rib on their bodies?",
+   "options": [
+    "Thoracic vertebrae",
+    "Cervical vertebrae",
+    "Lumbar vertebrae",
+    "Coccygeal vertebrae",
+    "Sacral vertebrae"
+   ],
+   "answer": 0,
+   "explanation": "Thoracic vertebrae carry facets for the head of the rib on their bodies and, on their transverse processes (except T11–T12), facets for the rib tubercle. Their bodies are heart-shaped and their spinous processes long and sloping downwards.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-98dc357c",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The mammillary and accessory processes are characteristic of which vertebrae?",
+   "options": [
+    "Cervical vertebrae",
+    "Sacral vertebrae",
+    "Lumbar vertebrae",
+    "Atlas and axis",
+    "Thoracic vertebrae"
+   ],
+   "answer": 2,
+   "explanation": "Lumbar vertebrae have a mammillary process on the posterior border of the superior articular process and an accessory process at the root of the transverse process; deep back muscles attach to them. Their bodies are large and kidney-shaped, with no foramen transversarium or costal facet.",
+   "entries": [
+    "vertebrae-lumbales",
+    "mm-transversospinales"
+   ]
+  },
+  {
+   "id": "sk-d9e58822",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Through which opening is the needle inserted for caudal epidural anaesthesia?",
+   "options": [
+    "Anterior sacral foramina",
+    "Posterior sacral foramina",
+    "Obturator canal",
+    "Sacral hiatus",
+    "Greater sciatic foramen"
+   ],
+   "answer": 3,
+   "explanation": "Because the laminae of S4–S5 do not fuse, the sacral hiatus remains on the back of the sacrum. The sacral cornua on either side guide the way, and the needle is advanced into the epidural space within the sacral canal.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-0bec5b45",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structure forms the posterior boundary of the pelvic inlet?",
+   "options": [
+    "Iliac crest",
+    "Tip of the coccyx",
+    "Ischial spine",
+    "Sacral promontory",
+    "Sacral hiatus"
+   ],
+   "answer": 3,
+   "explanation": "The pelvic inlet is bounded behind by the promontory, at the sides by the arcuate line and pecten pubis, and in front by the upper border of the pubic symphysis. The obstetric conjugate is the shortest distance between the promontory and the back of the symphysis.",
+   "entries": [
+    "os-sacrum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-db733329",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": true,
+   "stem": "After heavy lifting, a 45-year-old man describes pain radiating from the low back to the outer leg, dorsum of the foot and big toe, with weakness of big toe dorsiflexion. What is the most likely diagnosis?",
+   "options": [
+    "S1–S2 disc herniation compressing the S2 root",
+    "L5–S1 disc herniation compressing the S1 root",
+    "L4–L5 disc herniation compressing the L5 root",
+    "L1–L2 disc herniation compressing the conus medullaris",
+    "L3–L4 disc herniation compressing the L4 root"
+   ],
+   "answer": 2,
+   "explanation": "Lumbar disc herniations are usually posterolateral and compress the root below: an L4–L5 herniation affects the L5 root. L5: sensation of the outer leg, dorsum of the foot and big toe, and strength of extensor hallucis longus. S1: lateral border of the foot, ankle reflex; L4: knee reflex and inner leg.",
+   "entries": [
+    "vertebrae-lumbales",
+    "discus-intervertebralis",
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "sk-2249b2c3",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which ligament holds the dens of the axis against the anterior arch of the atlas?",
+   "options": [
+    "Ligamentum flavum",
+    "Alar ligaments",
+    "Anterior longitudinal ligament",
+    "Apical ligament of the dens",
+    "Transverse ligament of the atlas"
+   ],
+   "answer": 4,
+   "explanation": "The transverse ligament of the atlas (the horizontal limb of the cruciform ligament) wraps around the back of the dens and presses it against the anterior arch of the atlas. Its rupture (e.g. rheumatoid arthritis, Down syndrome) can let the dens compress the spinal cord.",
+   "entries": [
+    "axis",
+    "atlas",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "sk-e8c060fb",
+   "group": "Thoracic cage",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "The sternal angle, used as the reference for counting ribs in chest examination, is at the level of which costal cartilage?",
+   "options": [
+    "7th rib",
+    "2nd rib",
+    "4th rib",
+    "1st rib",
+    "3rd rib"
+   ],
+   "answer": 1,
+   "explanation": "The sternal angle (angle of Louis) is the junction of the manubrium and the body of the sternum, and the 2nd costal cartilages articulate on either side of it. It is easily felt on the front; the 2nd rib is found and counting proceeds downwards.",
+   "entries": [
+    "sternum",
+    "costae",
+    "cartilagines-costales"
+   ]
+  },
+  {
+   "id": "sk-5ac9e561",
+   "group": "Thoracic cage",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following about the horizontal plane through the sternal angle (T4–T5) is FALSE?",
+   "options": [
+    "The aortic arch begins and ends at this plane.",
+    "The oesophagus passes through the diaphragm at this level.",
+    "The azygos vein opens into the superior vena cava at this level.",
+    "It separates the superior and inferior mediastinum.",
+    "The trachea bifurcates at this level."
+   ],
+   "answer": 1,
+   "explanation": "The sternal angle plane is an important landmark of the chest: the boundary of the superior/inferior mediastinum, the tracheal bifurcation, the beginning and end of the aortic arch, the opening of the azygos vein into the SVC and the crossing of the thoracic duct to the left all lie at this level. The oesophagus passes through the diaphragm at T10.",
+   "entries": [
+    "sternum",
+    "trachea",
+    "aorta",
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "sk-b9caecf9",
+   "group": "Thoracic cage",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which are the 'floating ribs' (costae fluctuantes)?",
+   "options": [
+    "10th and 11th ribs",
+    "11th and 12th ribs",
+    "8th, 9th and 10th ribs",
+    "6th and 7th ribs",
+    "1st and 2nd ribs"
+   ],
+   "answer": 1,
+   "explanation": "Ribs 1–7 are true ribs attached directly to the sternum. The cartilages of ribs 8–10 join the cartilage above (false ribs). The anterior ends of ribs 11–12 are free (floating ribs).",
+   "entries": [
+    "costae",
+    "cartilagines-costales"
+   ]
+  },
+  {
+   "id": "sk-be399078",
+   "group": "Thoracic cage",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structure runs in the groove behind the scalene tubercle on the first rib?",
+   "options": [
+    "Phrenic nerve",
+    "Thoracic duct",
+    "Subclavian artery",
+    "Subclavian vein",
+    "Internal thoracic artery"
+   ],
+   "answer": 2,
+   "explanation": "Scalenus anterior attaches to the tubercle of the 1st rib. The subclavian vein lies in the groove in front of the tubercle; the subclavian artery and the lower trunk of the brachial plexus lie in the groove behind it (groove for the subclavian artery). The artery and plexus pass through the scalene gap, the vein in front of the muscle.",
+   "entries": [
+    "costae",
+    "a-subclavia",
+    "mm-scaleni"
+   ]
+  },
+  {
+   "id": "sk-1ca5b2b4",
+   "group": "Thoracic cage",
+   "level": "tus",
+   "clinical": true,
+   "stem": "During thoracentesis, where should the needle be passed to protect the intercostal vessels and nerve?",
+   "options": [
+    "Just above the upper border of the rib below",
+    "Exactly midway between two ribs",
+    "Just below the lower border of the rib above",
+    "Through the costal groove medial to the angle of the rib",
+    "Over the costal cartilage"
+   ],
+   "answer": 0,
+   "explanation": "The intercostal vein, artery and nerve (VAN from above down) run in the costal groove on the lower border of the rib. The needle is therefore passed over the upper border of the rib below.",
+   "entries": [
+    "costae",
+    "mm-intercostales",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "sk-b337c3b1",
+   "group": "Thoracic cage",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A young woman has numbness and coldness of the hand when she raises her arm; a neck X-ray shows a cervical rib. Which structure is most often compressed in this condition?",
+   "options": [
+    "Phrenic nerve",
+    "Upper trunk of the brachial plexus (C5–C6)",
+    "Lower trunk of the brachial plexus (C8–T1)",
+    "Internal jugular vein",
+    "Accessory nerve"
+   ],
+   "answer": 2,
+   "explanation": "A cervical rib (from C7) causes thoracic outlet syndrome. The lower trunk (C8–T1) and subclavian artery are compressed as they cross the rib or its fibrous band; there are paraesthesiae along the ulnar border of the hand, weakness of the intrinsic muscles and vascular signs.",
+   "entries": [
+    "costae",
+    "vertebrae-cervicales",
+    "plexus-brachialis",
+    "a-subclavia"
+   ]
+  },
+  {
+   "id": "sk-9947b15d",
+   "group": "Thoracic cage",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The xiphoid process most often corresponds to which vertebral level?",
+   "options": [
+    "T9–T10",
+    "T4–T5",
+    "T12–L1",
+    "T6–T7",
+    "L1–L2"
+   ],
+   "answer": 0,
+   "explanation": "The xiphisternal joint lies at about the level of T9. The xiphoid may remain cartilaginous until late in life; the linea alba and the sternal part of the diaphragm attach to it.",
+   "entries": [
+    "sternum",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "sk-89cf3635",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which bone is the first to begin ossifying in the embryo?",
+   "options": [
+    "Clavicle",
+    "Parietal bone",
+    "Mandible",
+    "Humerus",
+    "Femur"
+   ],
+   "answer": 0,
+   "explanation": "The clavicle begins to ossify in the 5th–6th week; its shaft ossifies in membrane (intramembranous) and its ends in cartilage. In adults it is one of the most frequently fractured bones.",
+   "entries": [
+    "clavicula"
+   ]
+  },
+  {
+   "id": "sk-8791a2dc",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A child who fell off a bicycle has a clavicle fracture at the junction of its middle and lateral thirds. Which muscle pulls the medial fragment upwards?",
+   "options": [
+    "Pectoralis major",
+    "Deltoid",
+    "Trapezius",
+    "Sternocleidomastoid",
+    "Subclavius"
+   ],
+   "answer": 3,
+   "explanation": "In this fracture the medial fragment is pulled upwards by the clavicular head of sternocleidomastoid. The lateral fragment is pulled down by the weight of the arm and medially by pectoralis major and latissimus dorsi; the shoulder looks dropped and displaced forwards.",
+   "notes": [
+    "It pulls the lateral fragment medially.",
+    "It attaches to the lateral fragment.",
+    "It attaches to the lateral third; it tries to hold the lateral fragment up but cannot overcome the weight of the arm.",
+    "",
+    "It protects the subclavian vessels; it does not pull the fragment upwards."
+   ],
+   "entries": [
+    "clavicula",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-82483548",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structure passes beneath the superior transverse scapular ligament that bridges the suprascapular notch?",
+   "options": [
+    "Dorsal scapular nerve",
+    "Suprascapular nerve",
+    "Axillary nerve",
+    "Circumflex scapular artery",
+    "Suprascapular artery"
+   ],
+   "answer": 1,
+   "explanation": "The suprascapular nerve passes beneath the ligament and the suprascapular artery above it. Calcification of the ligament or entrapment in the notch causes weakness and wasting of supraspinatus and infraspinatus.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus",
+    "m-infraspinatus"
+   ]
+  },
+  {
+   "id": "sk-4471bbd9",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following does NOT attach to the coracoid process?",
+   "options": [
+    "Short head of biceps brachii",
+    "Coracobrachialis",
+    "Coracoclavicular ligament",
+    "Long head of biceps brachii",
+    "Pectoralis minor"
+   ],
+   "answer": 3,
+   "explanation": "The long head of biceps arises from the supraglenoid tubercle and runs within the joint capsule. Pectoralis minor, coracobrachialis, the short head of biceps and the coracoclavicular, coraco-acromial and coracohumeral ligaments attach to the coracoid process.",
+   "entries": [
+    "scapula",
+    "m-biceps-brachii",
+    "m-pectoralis-minor",
+    "m-coracobrachialis"
+   ]
+  },
+  {
+   "id": "sk-5072fdb2",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "An elderly woman who fell on her shoulder has a fracture of the surgical neck of the humerus. Flattening of the deltoid region and sensory loss in a small area on the outer shoulder develop. Which nerve is injured?",
+   "options": [
+    "Axillary nerve",
+    "Suprascapular nerve",
+    "Musculocutaneous nerve",
+    "Long thoracic nerve",
+    "Radial nerve"
+   ],
+   "answer": 0,
+   "explanation": "The axillary nerve passes with the posterior circumflex humeral artery through the quadrangular space and wraps around the back of the surgical neck. In a fracture, deltoid and teres minor weaken and sensation is lost over the 'regimental badge' area (superior lateral cutaneous nerve of the arm).",
+   "entries": [
+    "humerus",
+    "n-axillaris",
+    "m-deltoideus"
+   ]
+  },
+  {
+   "id": "sk-70dfeb98",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "After a fracture of the middle of the humeral shaft, a patient cannot lift the wrist and fingers (wrist drop). Which nerve and accompanying artery are injured at the fracture line?",
+   "options": [
+    "Median nerve – brachial artery",
+    "Ulnar nerve – superior ulnar collateral artery",
+    "Radial nerve – profunda brachii artery",
+    "Axillary nerve – posterior circumflex humeral artery",
+    "Musculocutaneous nerve – brachial artery"
+   ],
+   "answer": 2,
+   "explanation": "The radial nerve and profunda brachii artery lie tightly against the bone in the radial groove on the back of the humerus. In shaft fractures the wrist and finger extensors are paralysed. Triceps is usually spared because its branches arise higher up.",
+   "entries": [
+    "humerus",
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "sk-4c20df95",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A 7-year-old is brought in with a supracondylar humerus fracture after a fall. Hours later severe forearm pain, pain on passive finger extension and an absent radial pulse develop. Which vessel is damaged?",
+   "options": [
+    "Brachial artery",
+    "Profunda brachii artery",
+    "Inferior ulnar collateral artery",
+    "Axillary artery",
+    "Origin of the radial artery"
+   ],
+   "answer": 0,
+   "explanation": "In a supracondylar fracture the sharp end of the proximal fragment presses on the brachial artery and median nerve. The flexor compartment of the forearm becomes ischaemic; untreated, Volkmann's ischaemic contracture develops.",
+   "entries": [
+    "humerus",
+    "a-brachialis",
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "sk-7f0d202b",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which nerve runs in the groove behind the medial epicondyle of the humerus?",
+   "options": [
+    "Ulnar nerve",
+    "Musculocutaneous nerve",
+    "Radial nerve",
+    "Medial cutaneous nerve of the forearm",
+    "Median nerve"
+   ],
+   "answer": 0,
+   "explanation": "The ulnar nerve is superficial in the ulnar groove behind the medial epicondyle; the electric tingling into the hand when the elbow is knocked ('funny bone') comes from here. Entrapment in this region is called cubital tunnel syndrome.",
+   "entries": [
+    "humerus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-dd4258d5",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which muscle attaches to the lesser tubercle of the humerus?",
+   "options": [
+    "Infraspinatus",
+    "Teres minor",
+    "Supraspinatus",
+    "Teres major",
+    "Subscapularis"
+   ],
+   "answer": 4,
+   "explanation": "Of the rotator cuff muscles, supraspinatus, infraspinatus and teres minor attach to the greater tubercle; subscapularis alone attaches to the lesser tubercle and rotates the arm inwards.",
+   "entries": [
+    "humerus",
+    "m-subscapularis"
+   ]
+  },
+  {
+   "id": "sk-6cefc4df",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which muscle attaches to the floor of the intertubercular sulcus?",
+   "options": [
+    "Deltoid",
+    "Teres major",
+    "Pectoralis major",
+    "Latissimus dorsi",
+    "Coracobrachialis"
+   ],
+   "answer": 3,
+   "explanation": "Pectoralis major attaches to the lateral lip of the intertubercular sulcus, teres major to the medial lip and latissimus dorsi to the floor ('a lady between two majors'). The groove contains the tendon of the long head of biceps and its synovial sheath.",
+   "entries": [
+    "humerus",
+    "m-latissimus-dorsi",
+    "m-pectoralis-major",
+    "m-teres-major"
+   ]
+  },
+  {
+   "id": "sk-66af7b45",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A 2-year-old will not use the arm and holds the forearm pronated after the mother pulled sharply on the hand. Out of which ligament has the radial head slipped?",
+   "options": [
+    "Ulnar collateral ligament",
+    "Radial collateral ligament",
+    "Anular ligament of the radius",
+    "Quadrate ligament",
+    "Interosseous membrane of the forearm"
+   ],
+   "answer": 2,
+   "explanation": "'Pulled elbow' (radial head subluxation) occurs in young children because the radial head is still small; the head slips out of the anular ligament that holds it against the radial notch of the ulna. It is easily reduced by supination and flexion.",
+   "entries": [
+    "radius",
+    "artt-radioulnares",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-8eef6564",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "An elderly woman who fell on her outstretched hand has a 'dinner fork' deformity of the wrist. X-ray shows a fracture of the distal radius with dorsal displacement of the distal fragment. What is this fracture called?",
+   "options": [
+    "Colles fracture",
+    "Galeazzi fracture",
+    "Monteggia fracture",
+    "Barton fracture",
+    "Smith fracture"
+   ],
+   "answer": 0,
+   "explanation": "In a Colles fracture the distal radial fragment is displaced dorsally and radially, giving a dinner-fork appearance from the side. A Smith fracture is the reverse (distal fragment volar). Monteggia is an ulna fracture with radial head dislocation; Galeazzi is a radius fracture with distal radio-ulnar dislocation.",
+   "entries": [
+    "radius",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "sk-3a4562c9",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscle attaches to the ulnar tuberosity?",
+   "options": [
+    "Triceps brachii",
+    "Anconeus",
+    "Biceps brachii",
+    "Supinator",
+    "Brachialis"
+   ],
+   "answer": 4,
+   "explanation": "Brachialis arises from the lower half of the front of the humerus and attaches to the coronoid process and ulnar tuberosity; it is the main flexor of the elbow. Biceps attaches to the radial tuberosity.",
+   "entries": [
+    "ulna",
+    "m-brachialis"
+   ]
+  },
+  {
+   "id": "sk-5d908eec",
+   "group": "Bones of the hand",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A 22-year-old man who fell on his outstretched hand has tenderness in the anatomical snuffbox; the first X-rays are normal. Two weeks later the fracture line becomes visible. What is the most feared complication of a fracture of this bone?",
+   "options": [
+    "Tearing of the radial artery",
+    "Ulnar nerve palsy",
+    "Avascular necrosis of the proximal fragment",
+    "Avascular necrosis of the distal fragment",
+    "Carpal tunnel syndrome"
+   ],
+   "answer": 2,
+   "explanation": "The scaphoid is the most commonly fractured carpal bone. Its nutrient vessels mostly enter distally, so in waist fractures the blood supply to the proximal fragment is disrupted and avascular necrosis and non-union may follow. The floor of the snuffbox contains the scaphoid and trapezium.",
+   "entries": [
+    "os-scaphoideum",
+    "ossa-carpi",
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "sk-93bbc372",
+   "group": "Bones of the hand",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which carpal bone dislocates most often, and which nerve can it compress when it displaces forwards?",
+   "options": [
+    "Hamate – ulnar nerve",
+    "Scaphoid – radial nerve",
+    "Pisiform – ulnar nerve",
+    "Lunate – median nerve",
+    "Capitate – median nerve"
+   ],
+   "answer": 3,
+   "explanation": "The lunate can dislocate volarly into the carpal tunnel and compress the median nerve. Avascular necrosis of the lunate is known as Kienböck's disease.",
+   "entries": [
+    "os-lunatum",
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "sk-cd43228f",
+   "group": "Bones of the hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The pisiform is a sesamoid bone that develops within the tendon of which muscle?",
+   "options": [
+    "Flexor carpi ulnaris",
+    "Abductor digiti minimi",
+    "Palmaris longus",
+    "Flexor carpi radialis",
+    "Extensor carpi ulnaris"
+   ],
+   "answer": 0,
+   "explanation": "The pisiform lies within the tendon of flexor carpi ulnaris and articulates with the triquetrum. Through the pisohamate and pisometacarpal ligaments it transmits the muscle's pull to the hamate and 5th metacarpal; abductor digiti minimi arises from it.",
+   "entries": [
+    "os-pisiforme",
+    "m-flexor-carpi-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-b5971216",
+   "group": "Bones of the hand",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A golfer whose club struck the ground has pain in the hypothenar region, numbness of the 4th–5th fingers and weakness spreading and closing the fingers. Which bony process is fractured?",
+   "options": [
+    "Hook of the hamate",
+    "Tubercle of the scaphoid",
+    "Ulnar styloid process",
+    "Tubercle of the trapezium",
+    "Pisiform"
+   ],
+   "answer": 0,
+   "explanation": "The hook of the hamate forms the lateral wall of Guyon's canal (ulnar canal). When it fractures, the ulnar nerve and artery in the canal can be affected, with numbness of the palmar surface of the 4th–5th fingers and weakness of the interossei.",
+   "entries": [
+    "os-hamatum",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-a1b84851",
+   "group": "Bones of the hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "With which metacarpal does the trapezium form a saddle joint?",
+   "options": [
+    "3rd metacarpal",
+    "4th metacarpal",
+    "5th metacarpal",
+    "1st metacarpal (thumb)",
+    "2nd metacarpal"
+   ],
+   "answer": 3,
+   "explanation": "The carpometacarpal joint of the thumb (trapezium–1st metacarpal) is a saddle joint; it allows a wide range of movement including opposition and is a common site of osteoarthritis in later life.",
+   "entries": [
+    "os-trapezium",
+    "ossa-metacarpi",
+    "artt-manus"
+   ]
+  },
+  {
+   "id": "sk-341b60e9",
+   "group": "Bones of the hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which is the largest carpal bone and the first to ossify?",
+   "options": [
+    "Scaphoid",
+    "Trapezium",
+    "Capitate",
+    "Lunate",
+    "Hamate"
+   ],
+   "answer": 2,
+   "explanation": "The capitate is the largest carpal bone and usually the first to ossify, in the first year. It articulates with the 3rd metacarpal; the axis of wrist movement mostly passes through its head.",
+   "entries": [
+    "os-capitatum",
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-ac91683a",
+   "group": "Bones of the hand",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A young man who punched a wall has lost the knuckle of his little finger. What is the most likely fracture?",
+   "options": [
+    "Fracture of the hook of the hamate",
+    "Fracture of the neck of the 5th metacarpal (boxer's fracture)",
+    "Fracture of the base of the 1st metacarpal (Bennett fracture)",
+    "Fracture of the distal phalanx of the 5th finger",
+    "Scaphoid fracture"
+   ],
+   "answer": 1,
+   "explanation": "Punching a hard surface with a closed fist most often fractures the neck of the 5th metacarpal; the head tilts palmarly and the knuckle disappears. A Bennett fracture is an intra-articular fracture of the base of the 1st metacarpal.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-31d8147a",
+   "group": "Bones of the hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the order of the proximal row of carpal bones from lateral (radial) to medial (ulnar)?",
+   "options": [
+    "Scaphoid, lunate, triquetrum, pisiform",
+    "Scaphoid, triquetrum, lunate, pisiform",
+    "Trapezium, trapezoid, capitate, hamate",
+    "Lunate, scaphoid, triquetrum, pisiform",
+    "Pisiform, triquetrum, lunate, scaphoid"
+   ],
+   "answer": 0,
+   "explanation": "Proximal row: scaphoid, lunate, triquetrum, pisiform. Distal row: trapezium, trapezoid, capitate, hamate. The radiocarpal joint is formed by the radius and disc with the scaphoid, lunate and triquetrum.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-9d63d002",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where do the three bones that form the hip bone meet?",
+   "options": [
+    "At the greater sciatic notch",
+    "At the acetabulum",
+    "At the pubic symphysis",
+    "At the obturator foramen",
+    "At the iliac crest"
+   ],
+   "answer": 1,
+   "explanation": "The ilium, ischium and pubis fuse at puberty in the Y-shaped cartilage of the acetabulum. About 2/5 of the acetabulum is formed by the ilium, 2/5 by the ischium and 1/5 by the pubis.",
+   "entries": [
+    "os-coxae",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-592e9cb4",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structures pass through the obturator canal?",
+   "options": [
+    "Obturator nerve, artery and vein",
+    "Pudendal nerve and internal pudendal artery",
+    "Sciatic nerve and inferior gluteal artery",
+    "Femoral nerve and femoral artery",
+    "Lateral femoral cutaneous nerve"
+   ],
+   "answer": 0,
+   "explanation": "The obturator foramen is closed by the obturator membrane, leaving only the obturator canal at its top. Through it the obturator nerve, artery and vein pass to the medial compartment of the thigh.",
+   "entries": [
+    "os-coxae",
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "sk-ffa0581d",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which nerve leaves the pelvis through the greater sciatic foramen and enters the perineum through the lesser sciatic foramen?",
+   "options": [
+    "Sciatic nerve",
+    "Superior gluteal nerve",
+    "Pudendal nerve",
+    "Posterior femoral cutaneous nerve",
+    "Obturator nerve"
+   ],
+   "answer": 2,
+   "explanation": "The pudendal nerve, internal pudendal artery and nerve to obturator internus leave through the greater sciatic foramen, wind around the ischial spine/sacrospinous ligament and enter the ischio-anal fossa and Alcock's canal through the lesser sciatic foramen. The ischial spine guides a pudendal block.",
+   "entries": [
+    "os-coxae",
+    "n-pudendus",
+    "ligg-pelvis"
+   ]
+  },
+  {
+   "id": "sk-602b0bd7",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A 78-year-old woman who fell at home has a shortened, externally rotated right leg. X-ray shows a subcapital femoral neck fracture. Damage to which artery is chiefly responsible for avascular necrosis of the femoral head in this fracture?",
+   "options": [
+    "Lateral circumflex femoral artery",
+    "Obturator artery",
+    "Medial circumflex femoral artery",
+    "Artery of the ligament of the head of the femur",
+    "Superior gluteal artery"
+   ],
+   "answer": 2,
+   "explanation": "The femoral head is mainly supplied by the retinacular branches of the medial circumflex femoral artery ascending along the neck. These vessels are torn in the fracture. The artery in the ligament of the head (from the obturator artery) is insufficient in adults.",
+   "entries": [
+    "femur",
+    "art-coxae",
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "sk-b5309bbc",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscle attaches to the lesser trochanter?",
+   "options": [
+    "Iliopsoas",
+    "Gluteus medius",
+    "Obturator externus",
+    "Piriformis",
+    "Quadratus femoris"
+   ],
+   "answer": 0,
+   "explanation": "Psoas major and iliacus attach by a common tendon to the lesser trochanter and form the strongest flexor of the hip. Gluteus medius/minimus and piriformis attach to the greater trochanter, obturator externus to the trochanteric fossa.",
+   "entries": [
+    "femur",
+    "m-iliopsoas"
+   ]
+  },
+  {
+   "id": "sk-c857e576",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A young woman says her kneecap slipped outwards after twisting her knee playing volleyball. What is the most important dynamic restraint against lateral dislocation of the patella?",
+   "options": [
+    "Vastus lateralis",
+    "Iliotibial tract",
+    "Biceps femoris",
+    "Lower (oblique) fibres of vastus medialis",
+    "Rectus femoris"
+   ],
+   "answer": 3,
+   "explanation": "The angle between the line of pull of quadriceps and the patellar ligament (Q angle) tends to pull the patella laterally. The lower horizontal fibres of vastus medialis pull it medially; the prominent lateral femoral condyle also forms a bony barrier.",
+   "entries": [
+    "patella",
+    "m-quadriceps-femoris",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "sk-f1c972ce",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A footballer kicked on the outer side of the leg has a fracture of the neck of the fibula. When walking his toes scuff the ground, and sensation is lost on the dorsum of the foot. Which nerve is injured?",
+   "options": [
+    "Saphenous nerve",
+    "Femoral nerve",
+    "Sural nerve",
+    "Tibial nerve",
+    "Common fibular nerve"
+   ],
+   "answer": 4,
+   "explanation": "The common fibular nerve winds superficially around the outside of the fibular neck. When injured, the muscles of the anterior and lateral compartments are paralysed: foot drop, steppage gait and sensory loss on the dorsum of the foot and outer leg.",
+   "entries": [
+    "fibula",
+    "n-fibularis-communis"
+   ]
+  },
+  {
+   "id": "sk-11d29b23",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A 13-year-old boy who plays football has a painful, palpable swelling below the knee. Which structure is affected in Osgood–Schlatter disease?",
+   "options": [
+    "Lateral femoral epicondyle",
+    "Medial malleolus",
+    "Tibial tuberosity",
+    "Intercondylar tubercle",
+    "Head of the fibula"
+   ],
+   "answer": 2,
+   "explanation": "Osgood–Schlatter disease is an apophysitis caused by repeated traction of the patellar ligament on the tibial tuberosity apophysis during rapid growth. The force of the knee extensors is transmitted to the tibia through this prominence.",
+   "entries": [
+    "tibia",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-31f5e5f7",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is true of the lateral malleolus?",
+   "options": [
+    "It is higher than the medial malleolus.",
+    "It does not articulate with the talus.",
+    "It is the distal end of the tibia.",
+    "The tibialis posterior tendon passes in the groove behind it.",
+    "It is lower and more posterior than the medial malleolus."
+   ],
+   "answer": 4,
+   "explanation": "The lateral malleolus is the lower end of the fibula, about 1 cm lower and further back than the medial malleolus. The fibularis longus and brevis tendons pass in the groove behind it. It articulates with the lateral surface of the talus and forms the outer limb of the ankle mortise.",
+   "entries": [
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-d87191b8",
+   "group": "Bones of the foot",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which tarsal bone has no muscle attachments?",
+   "options": [
+    "Navicular",
+    "Medial cuneiform",
+    "Cuboid",
+    "Calcaneus",
+    "Talus"
+   ],
+   "answer": 4,
+   "explanation": "Most of the surface of the talus is covered with articular cartilage and no muscle attaches to it. Because its blood supply is limited and runs backwards, avascular necrosis of the body is common in neck fractures.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-8922c8d5",
+   "group": "Bones of the foot",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which tendon passes in the groove on the underside of the sustentaculum tali?",
+   "options": [
+    "Tibialis posterior",
+    "Tibialis anterior",
+    "Flexor digitorum longus",
+    "Flexor hallucis longus",
+    "Fibularis longus"
+   ],
+   "answer": 3,
+   "explanation": "The shelf-like projection on the medial side of the calcaneus (sustentaculum tali) supports the talus. The FHL tendon passes in the groove for the flexor hallucis longus tendon on its underside; the FDL tendon runs near the medial edge of the shelf.",
+   "entries": [
+    "calcaneus",
+    "m-flexor-hallucis-longus"
+   ]
+  },
+  {
+   "id": "sk-966623d2",
+   "group": "Bones of the foot",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the main muscle attached to the tuberosity of the navicular?",
+   "options": [
+    "Tibialis posterior",
+    "Flexor digitorum longus",
+    "Fibularis longus",
+    "Extensor hallucis longus",
+    "Tibialis anterior"
+   ],
+   "answer": 0,
+   "explanation": "The main tendon of tibialis posterior attaches to the navicular tuberosity, and its slips to the other tarsal and metatarsal bones. It is the strongest invertor of the foot and supports the medial longitudinal arch; its dysfunction is a common cause of acquired flat foot.",
+   "entries": [
+    "os-naviculare",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "sk-e633c622",
+   "group": "Bones of the foot",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which tendon passes in the groove on the plantar surface of the cuboid?",
+   "options": [
+    "Fibularis longus",
+    "Flexor hallucis longus",
+    "Tibialis posterior",
+    "Abductor digiti minimi",
+    "Fibularis brevis"
+   ],
+   "answer": 0,
+   "explanation": "The fibularis longus tendon crosses the sole in the plantar groove of the cuboid to attach to the medial cuneiform and base of the 1st metatarsal; it supports the transverse arch and everts the foot.",
+   "entries": [
+    "os-cuboideum",
+    "m-fibularis-longus"
+   ]
+  },
+  {
+   "id": "sk-e1c8c1c3",
+   "group": "Bones of the foot",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A basketball player who rolled his ankle inwards has pain on the outer edge of the foot; X-ray shows an avulsion fracture at the base of the 5th metatarsal. Which muscle pulled off the bone fragment?",
+   "options": [
+    "Fibularis tertius",
+    "Tibialis anterior",
+    "Abductor digiti minimi",
+    "Fibularis longus",
+    "Fibularis brevis"
+   ],
+   "answer": 4,
+   "explanation": "Fibularis brevis attaches to the tuberosity of the 5th metatarsal. In sudden inversion its contraction pulls off the tuberosity (avulsion fracture). A more distal fracture at the metaphyseal–diaphyseal junction (Jones fracture) is known for healing problems.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-afe30a76",
+   "group": "Bones of the foot",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which bone lies at the highest point of the medial longitudinal arch of the foot, in the position of the 'keystone'?",
+   "options": [
+    "Calcaneal tuberosity",
+    "Lateral cuneiform",
+    "Head of the talus",
+    "Cuboid",
+    "Base of the 5th metatarsal"
+   ],
+   "answer": 2,
+   "explanation": "The medial longitudinal arch is formed by the calcaneus, talus, navicular, three cuneiforms and medial three metatarsals. The head of the talus is the keystone at the top of the arch, supported below by the plantar calcaneonavicular (spring) ligament. The keystone of the lateral arch is the cuboid.",
+   "entries": [
+    "talus",
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "sk-8bab82f6",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which nerve passes through the foramen ovale?",
+   "options": [
+    "Facial nerve",
+    "Mandibular nerve (V3)",
+    "Hypoglossal nerve",
+    "Maxillary nerve (V2)",
+    "Ophthalmic nerve (V1)"
+   ],
+   "answer": 1,
+   "explanation": "The mandibular nerve, accessory meningeal artery and lesser petrosal nerve pass through the foramen ovale in the greater wing of the sphenoid. Memory aid: 'Standing Room Only' – V1 leaves through the Superior orbital fissure, V2 through the foramen Rotundum, V3 through the foramen Ovale.",
+   "notes": [
+    "It enters through the internal acoustic meatus.",
+    "",
+    "It passes through the hypoglossal canal.",
+    "It passes through the foramen rotundum.",
+    "It passes through the superior orbital fissure."
+   ],
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-5f0b04cc",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structure passes through the foramen spinosum?",
+   "options": [
+    "Middle meningeal artery",
+    "Internal carotid artery",
+    "Internal jugular vein",
+    "Maxillary nerve",
+    "Greater petrosal nerve"
+   ],
+   "answer": 0,
+   "explanation": "The foramen spinosum lies posterolateral to the foramen ovale in the greater wing; the middle meningeal artery and the meningeal branch of the mandibular nerve (nervus spinosus) pass through it. The artery's anterior branch runs on the inner surface of the pterion and causes epidural haematoma in fractures.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-3c70aa92",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following does NOT pass through the jugular foramen?",
+   "options": [
+    "Hypoglossal nerve",
+    "Sigmoid sinus (internal jugular vein)",
+    "Vagus nerve",
+    "Accessory nerve",
+    "Glossopharyngeal nerve"
+   ],
+   "answer": 0,
+   "explanation": "Cranial nerves IX, X and XI, the sigmoid sinus and the inferior petrosal sinus pass through the jugular foramen. The hypoglossal nerve leaves the skull through the hypoglossal canal above the occipital condyle.",
+   "entries": [
+    "os-occipitale",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-cda51554",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structures pass through the optic canal?",
+   "options": [
+    "Oculomotor nerve and ophthalmic artery",
+    "Optic nerve and superior ophthalmic vein",
+    "Central retinal artery and trochlear nerve",
+    "Optic nerve and ophthalmic artery",
+    "Nasociliary nerve and optic nerve"
+   ],
+   "answer": 3,
+   "explanation": "The optic canal lies between the roots of the lesser wing of the sphenoid; the optic nerve passes through it with the ophthalmic artery below. The superior ophthalmic vein, III, IV, the branches of V1 and VI pass through the superior orbital fissure.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-711ff9cd",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which nerve emerges from the stylomastoid foramen?",
+   "options": [
+    "Facial nerve",
+    "Accessory nerve",
+    "Vestibulocochlear nerve",
+    "Chorda tympani",
+    "Glossopharyngeal nerve"
+   ],
+   "answer": 0,
+   "explanation": "The facial nerve enters through the internal acoustic meatus, runs in the facial canal and emerges through the stylomastoid foramen between the styloid and mastoid processes; there it branches to the facial muscles before entering the parotid. In Bell's palsy, swelling in this narrow canal is blamed.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-c89d0b9d",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "To which bone does the cribriform plate belong, and what passes through it?",
+   "options": [
+    "Frontal bone – supraorbital nerve",
+    "Ethmoid – maxillary nerve",
+    "Nasal bone – anterior ethmoidal nerve",
+    "Ethmoid – olfactory nerve filaments",
+    "Sphenoid – optic nerve"
+   ],
+   "answer": 3,
+   "explanation": "The perforated horizontal plate of the ethmoid forms the roof of the nasal cavity; the olfactory nerve fibres from the olfactory epithelium pass through it to the olfactory bulb. Anterior skull base fractures cause anosmia and CSF rhinorrhoea.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-64b9533f",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where does the maxillary sinus open into the nasal cavity?",
+   "options": [
+    "Middle nasal meatus (hiatus semilunaris)",
+    "Sphenoethmoidal recess",
+    "Superior nasal meatus",
+    "Nasopharynx",
+    "Inferior nasal meatus"
+   ],
+   "answer": 0,
+   "explanation": "The frontal, maxillary and anterior ethmoidal sinuses open into the middle meatus (hiatus semilunaris). The nasolacrimal duct opens into the inferior meatus, the posterior ethmoidal cells into the superior meatus and the sphenoidal sinus into the sphenoethmoidal recess. Because the opening of the maxillary sinus is high up, it drains poorly.",
+   "notes": [
+    "",
+    "It is where the sphenoidal sinus opens.",
+    "It is where the posterior ethmoidal cells open.",
+    "It is where the auditory tube opens.",
+    "It is where the nasolacrimal duct opens."
+   ],
+   "entries": [
+    "maxilla",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-114a7cc4",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Where does the nasolacrimal duct open into the nasal cavity?",
+   "options": [
+    "Superior nasal meatus",
+    "Hiatus semilunaris",
+    "Inferior nasal meatus",
+    "Sphenoethmoidal recess",
+    "Middle nasal meatus"
+   ],
+   "answer": 2,
+   "explanation": "The duct descending from the lacrimal sac passes through a bony canal formed by the maxilla, lacrimal bone and inferior nasal concha and opens into the meatus below the inferior concha; this is why the nose runs when we cry.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-lacrimale"
+   ]
+  },
+  {
+   "id": "sk-ba5a5737",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "To which bone does the thin lamina papyracea of the medial orbital wall belong?",
+   "options": [
+    "Zygomatic bone",
+    "Maxilla",
+    "Ethmoid",
+    "Sphenoid",
+    "Lacrimal bone"
+   ],
+   "answer": 2,
+   "explanation": "The paper-thin orbital plate forming the outer surface of the ethmoidal labyrinth makes up most of the medial orbital wall. Ethmoid sinusitis can spread through this thin wall into the orbit and cause orbital cellulitis.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-7b06e8ab",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Between which bones is the lambdoid suture?",
+   "options": [
+    "The occipital bone and the two parietal bones",
+    "The two parietal bones",
+    "The frontal bone and the two parietal bones",
+    "The temporal bone and the parietal bone",
+    "The sphenoid and the frontal bone"
+   ],
+   "answer": 0,
+   "explanation": "The lambdoid suture runs between the occipital and parietal bones in the shape of the Greek letter λ; the point where it meets the sagittal suture is the lambda, where the posterior fontanelle closes. The other options are the coronal, sagittal and squamous sutures.",
+   "notes": [
+    "",
+    "This is the sagittal suture.",
+    "This is the coronal suture.",
+    "This is the squamous suture.",
+    "This is the sphenofrontal suture."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-66a5569f",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which projection in front of the mandibular foramen gives attachment to the sphenomandibular ligament?",
+   "options": [
+    "Mylohyoid line",
+    "Lingula of the mandible",
+    "Coronoid process",
+    "Pterygoid fovea",
+    "Mental spine"
+   ],
+   "answer": 1,
+   "explanation": "The lingula is a tongue-shaped bony projection on the inner surface of the ramus that overlaps the mandibular foramen from in front. In an inferior alveolar block the needle tip is directed just above the lingula; the inferior alveolar nerve enters the canal here.",
+   "entries": [
+    "mandibula"
+   ]
+  },
+  {
+   "id": "sk-e39de62d",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscles attach to the mental spines of the mandible?",
+   "options": [
+    "Genioglossus and geniohyoid",
+    "Mentalis and depressor labii inferioris",
+    "Platysma and depressor anguli oris",
+    "Mylohyoid and the anterior belly of digastric",
+    "Hyoglossus and genioglossus"
+   ],
+   "answer": 0,
+   "explanation": "Genioglossus attaches to the superior mental spine and geniohyoid to the inferior mental spine, in the midline on the inner surface of the mandible. Mylohyoid attaches to the mylohyoid line and the anterior belly of digastric to the digastric fossa.",
+   "entries": [
+    "mandibula",
+    "m-genioglossus",
+    "m-geniohyoideus"
+   ]
+  },
+  {
+   "id": "sk-4fa063c1",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structure forms the posterior wall of the sella turcica?",
+   "options": [
+    "Tuberculum sellae",
+    "Prechiasmatic groove",
+    "Anterior clinoid process",
+    "Carotid groove",
+    "Dorsum sellae"
+   ],
+   "answer": 4,
+   "explanation": "The tuberculum sellae lies in front of the sella turcica and the dorsum sellae behind it; the upper corners of the dorsum form the posterior clinoid processes. The slope descending behind the dorsum is the clivus.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-a994d076",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which bones form the clivus?",
+   "options": [
+    "The greater wings of the sphenoid",
+    "The ethmoid and sphenoid",
+    "The body of the sphenoid and the basilar part of the occipital bone",
+    "The occipital bone alone",
+    "The petrous part of the temporal bone and the occipital bone"
+   ],
+   "answer": 2,
+   "explanation": "The clivus is the sloping surface from the dorsum sellae to the foramen magnum; its upper part is the body of the sphenoid, its lower part the basilar part of the occipital bone. The pons and basilar artery lie on it; the spheno-occipital synchondrosis between them ossifies at puberty.",
+   "entries": [
+    "os-occipitale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-244fa846",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which nerves pass through the internal acoustic meatus?",
+   "options": [
+    "Vestibulocochlear nerve and vagus nerve",
+    "Trigeminal nerve and facial nerve",
+    "Facial nerve and vestibulocochlear nerve",
+    "Facial nerve and glossopharyngeal nerve",
+    "Abducens nerve and facial nerve"
+   ],
+   "answer": 2,
+   "explanation": "The facial nerve (with the nervus intermedius), the vestibulocochlear nerve and the labyrinthine artery pass through the internal acoustic meatus in the petrous part of the temporal bone. An acoustic neuroma here can cause both hearing and facial nerve signs.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-fa671396",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which bone forms the medial wall of the pterygopalatine fossa?",
+   "options": [
+    "Pterygoid process of the sphenoid",
+    "Maxilla",
+    "Palatine bone (perpendicular plate)",
+    "Vomer",
+    "Zygomatic bone"
+   ],
+   "answer": 2,
+   "explanation": "The pterygopalatine fossa has the maxillary tuberosity in front, the pterygoid process behind and the perpendicular plate of the palatine bone medially. The sphenopalatine foramen in the medial wall connects the fossa with the nasal cavity; the fossa contains the pterygopalatine ganglion and the last part of the maxillary artery.",
+   "notes": [
+    "It forms the posterior wall.",
+    "It forms the anterior wall.",
+    "",
+    "It is part of the nasal septum.",
+    "It does not border the fossa."
+   ],
+   "entries": [
+    "os-palatinum",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-11e451f6",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The foramen transversarium is characteristic of which vertebrae?",
+   "options": [
+    "Coccygeal vertebrae",
+    "Lumbar vertebrae",
+    "Sacral vertebrae",
+    "Thoracic vertebrae",
+    "Cervical vertebrae"
+   ],
+   "answer": 4,
+   "explanation": "The vertebral artery and vein pass through the foramina in the transverse processes of the cervical vertebrae; the artery usually enters at C6, and only the vein passes through the foramen of C7. This foramen is the most reliable feature distinguishing cervical vertebrae from the others.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2f1cd430",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which are the distinguishing features of lumbar vertebrae?",
+   "options": [
+    "A tooth-like process projecting upwards",
+    "Heart-shaped body and costal facets",
+    "Large kidney-shaped body, thick rectangular spinous process and articular facets in the sagittal plane",
+    "A ring shape without a body",
+    "Bifid spinous process and foramen transversarium"
+   ],
+   "answer": 2,
+   "explanation": "Lumbar vertebrae have the largest bodies because they bear weight; their articular facets lie in the sagittal plane, allowing flexion–extension and limiting rotation. The other options belong to thoracic vertebrae, cervical vertebrae, the atlas and the axis.",
+   "notes": [
+    "This is a feature of the axis.",
+    "This is a feature of thoracic vertebrae.",
+    "",
+    "This is a feature of the atlas.",
+    "This is a feature of cervical vertebrae."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-66abc394",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At what level does the spinal cord usually end in adults?",
+   "options": [
+    "L1–L2",
+    "S2",
+    "L3–L4",
+    "T10",
+    "L5"
+   ],
+   "answer": 0,
+   "explanation": "In adults the conus medullaris ends at the level of L1–L2; in newborns at L3. The dural sac and subarachnoid space extend to S2, which is why lumbar puncture is performed below the cord, at the level of the cauda equina.",
+   "notes": [
+    "",
+    "This is where the dural sac ends.",
+    "This is the level in newborns.",
+    "The cord extends below this level.",
+    "The cord does not reach this level."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-22554f5b",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is a safe level for lumbar puncture, and which landmark is used to find it?",
+   "options": [
+    "L1–L2 interspace; the tips of the 12th ribs",
+    "S2–S3 interspace; the line joining the PSISs",
+    "T12–L1 interspace; the inferior angles of the scapulae",
+    "T10–T11 interspace; the level of the umbilicus",
+    "L3–L4 or L4–L5 interspace; the line joining the highest points of the two iliac crests (L4)"
+   ],
+   "answer": 4,
+   "explanation": "The supracristal (Tuffier's) line passes through the L4 spinous process or the L4–L5 interspace. This level lies below the conus medullaris, so the needle pushes the cauda equina roots aside as it reaches the subarachnoid space.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-ffeae080",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In spondylolysis, in which part of the vertebra is the bony defect?",
+   "options": [
+    "Pedicle",
+    "Pars interarticularis",
+    "Where the laminae meet in the midline",
+    "Anterior edge of the vertebral body",
+    "Transverse process"
+   ],
+   "answer": 1,
+   "explanation": "Spondylolysis is a stress fracture of the pars interarticularis between the superior and inferior articular processes, most often at L5. On an oblique X-ray it looks like a 'collar on the Scottie dog'; if bilateral, the vertebra may slip forwards (spondylolisthesis). Failure of the laminae to fuse is spina bifida.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-8158d007",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "By what mechanism does a Jefferson fracture, with fractures of the anterior and posterior arches of the atlas, usually occur?",
+   "options": [
+    "Vertical loading on the top of the head (axial compression)",
+    "Avulsion of the C7 spinous process by muscle pull",
+    "Facet joint dislocation by rotation",
+    "Fracture of the pedicles of the axis by hyperextension",
+    "Fracture of the dens by sudden flexion"
+   ],
+   "answer": 0,
+   "explanation": "In axial loading, such as diving head first into shallow water, the occipital condyles drive the lateral masses of the atlas apart and the ring breaks in several places. Because the spinal canal widens, neurological damage often does not occur. The other options describe the hangman's, dens and clay-shoveller's fractures.",
+   "notes": [
+    "",
+    "This describes the clay-shoveller's fracture.",
+    "This describes a facet dislocation.",
+    "This describes the hangman's fracture.",
+    "This describes a dens fracture."
+   ],
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-60976cab",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is a bilateral fracture of the pars interarticularis (pedicles) of the axis called?",
+   "options": [
+    "Type II dens fracture",
+    "Hangman's fracture",
+    "Jefferson fracture",
+    "Clay-shoveller's fracture",
+    "Chance fracture"
+   ],
+   "answer": 1,
+   "explanation": "The pedicles of C2 break in hyperextension and distraction; hanging, or the chin striking the dashboard without a seat belt, is the typical mechanism. A Chance fracture is a seat-belt-related thoracolumbar flexion–distraction fracture.",
+   "entries": [
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-4cebc960",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structures emerge from the anterior sacral foramina?",
+   "options": [
+    "Median sacral artery",
+    "Posterior rami of the sacral spinal nerves",
+    "Anterior rami of the sacral spinal nerves",
+    "Filum terminale",
+    "Sympathetic trunk"
+   ],
+   "answer": 2,
+   "explanation": "The anterior rami of S1–S4 emerge from the four pairs of foramina on the anterior (pelvic) surface of the sacrum to join the sacral plexus; the posterior rami emerge from the posterior sacral foramina. The filum terminale emerges through the sacral hiatus.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-a851a348",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which projections bound the sacral hiatus on either side?",
+   "options": [
+    "Lateral sacral crest",
+    "Ala of the sacrum",
+    "Coccygeal cornua",
+    "Promontory",
+    "Sacral cornua"
+   ],
+   "answer": 4,
+   "explanation": "Because the laminae of S5 do not fuse, the sacral canal opens below as the sacral hiatus; the sacral cornua on either side are palpable and help locate the needle in a caudal epidural block.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-dbfed2d8",
+   "group": "Thoracic cage",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which are the atypical ribs?",
+   "options": [
+    "8th, 9th and 10th ribs",
+    "1st, 2nd, 10th, 11th and 12th ribs",
+    "Only the 1st, 2nd and 12th ribs",
+    "Ribs 1–7",
+    "1st, 11th and 12th ribs"
+   ],
+   "answer": 1,
+   "explanation": "A typical rib has a head (with two facets), neck, tubercle and shaft. The 1st rib is the shortest, broadest and most curved; the 2nd rib has the tuberosity for serratus anterior; the heads of ribs 10–12 have a single facet, and the 11th and 12th have no neck or tubercle.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-f4babc11",
+   "group": "Thoracic cage",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structure runs in the groove in front of the scalene tubercle on the first rib?",
+   "options": [
+    "Subclavian vein",
+    "Subclavian artery",
+    "Thoracic duct",
+    "Lower trunk of the brachial plexus",
+    "Phrenic nerve"
+   ],
+   "answer": 0,
+   "explanation": "Scalenus anterior, attached to the scalene tubercle, separates the subclavian vein (in front) from the subclavian artery and lower trunk of the brachial plexus (behind). This is why in subclavian vein cannulation the needle stays in front of the muscle.",
+   "notes": [
+    "",
+    "It passes in the groove behind the tubercle.",
+    "It drains into the left venous angle; it does not run on the rib.",
+    "It passes behind the tubercle with the artery.",
+    "It descends on the front of scalenus anterior; it does not run in the groove."
+   ],
+   "entries": [
+    "costae",
+    "m-scalenus-anterior"
+   ]
+  },
+  {
+   "id": "sk-f743fb58",
+   "group": "Thoracic cage",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What does the 'pump handle' movement in breathing refer to?",
+   "options": [
+    "Descent of the sternum",
+    "Elevation of the upper ribs and sternum, increasing the anteroposterior diameter of the chest",
+    "Lateral swing of the lower ribs, increasing the transverse diameter",
+    "Descent of the diaphragm, increasing the vertical diameter",
+    "Inward rotation of the ribs around the spine"
+   ],
+   "answer": 1,
+   "explanation": "In inspiration the upper ribs push the sternum forwards and upwards, increasing the anteroposterior diameter (pump handle); the lower ribs swing outwards, increasing the transverse diameter (bucket handle). The vertical diameter is increased by contraction of the diaphragm.",
+   "notes": [
+    "It happens in expiration.",
+    "",
+    "This is the bucket-handle movement.",
+    "This is diaphragmatic contraction.",
+    "There is no such movement."
+   ],
+   "entries": [
+    "costae",
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-b83efed6",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structure passes above the superior transverse scapular ligament?",
+   "options": [
+    "Suprascapular artery",
+    "Deep branch of the transverse cervical artery",
+    "Axillary nerve",
+    "Suprascapular nerve",
+    "Dorsal scapular nerve"
+   ],
+   "answer": 0,
+   "explanation": "The suprascapular nerve passes beneath the ligament bridging the suprascapular notch and the suprascapular artery above it ('the army goes over the bridge, the navy under it'). If the nerve is entrapped in the notch, supraspinatus and infraspinatus weaken.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "sk-df043af5",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the difference between the anatomical neck and the surgical neck of the humerus?",
+   "options": [
+    "The surgical neck is the groove for the radial nerve",
+    "They are the same place with different names",
+    "The anatomical neck is at the lower end of the humerus",
+    "The anatomical neck is the narrowing just below the articular head; the surgical neck is the fracture-prone region below the tubercles",
+    "The surgical neck is just below the articular head; the anatomical neck is below the tubercles"
+   ],
+   "answer": 3,
+   "explanation": "The anatomical neck is the shallow groove between the articular head and the tubercles, where the joint capsule attaches. The surgical neck is the narrowing below the tubercles; it often fractures in older people, and the axillary nerve and posterior circumflex humeral artery are at risk there.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-d05233d9",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structures run in the radial groove of the humerus?",
+   "options": [
+    "Axillary nerve and posterior circumflex humeral artery",
+    "Ulnar nerve and superior ulnar collateral artery",
+    "Radial nerve and profunda brachii artery",
+    "Median nerve and brachial artery",
+    "Musculocutaneous nerve and brachial artery"
+   ],
+   "answer": 2,
+   "explanation": "The radial groove spirals across the back of the humeral shaft between the origins of the lateral and medial heads of triceps. In mid-shaft fractures the radial nerve is injured and wrist drop develops; elbow extension is usually preserved because the branches to triceps arise higher.",
+   "entries": [
+    "humerus",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-338897fa",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscle attaches to the olecranon?",
+   "options": [
+    "Pronator quadratus",
+    "Triceps brachii",
+    "Biceps brachii",
+    "Brachialis",
+    "Flexor carpi radialis"
+   ],
+   "answer": 1,
+   "explanation": "The three heads of triceps attach by a common tendon to the upper posterior surface of the olecranon and extend the elbow. Brachialis attaches to the ulnar tuberosity, biceps to the radial tuberosity.",
+   "entries": [
+    "ulna",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-2525d8eb",
+   "group": "Bones of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which articular surface of the ulna does the radial head articulate with proximally?",
+   "options": [
+    "Trochlear notch",
+    "Articular fovea of the radial head",
+    "Capitulum of the humerus",
+    "Ulnar notch of the radius",
+    "Radial notch of the ulna"
+   ],
+   "answer": 4,
+   "explanation": "The circumference of the radial head forms the proximal radio-ulnar joint with the radial notch of the ulna and the anular ligament. The trochlear notch articulates with the trochlea of the humerus, and the ulnar notch of the radius with the ulnar head distally.",
+   "entries": [
+    "ulna",
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-64db8f92",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which notch at the distal end of the radius articulates with the head of the ulna?",
+   "options": [
+    "Dorsal tubercle (Lister's)",
+    "Radial styloid process",
+    "Carpal articular surface",
+    "Radial notch of the ulna",
+    "Ulnar notch of the radius"
+   ],
+   "answer": 4,
+   "explanation": "At the distal radio-ulnar joint the ulnar head sits in the ulnar notch of the radius; in pronation and supination the radius rotates around this fixed ulnar head. The joint is supported by the triangular fibrocartilage complex (TFCC).",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-814e4ce2",
+   "group": "Bones of the hand",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the order of the distal row of carpal bones from radial to ulnar?",
+   "options": [
+    "Scaphoid, lunate, triquetrum, pisiform",
+    "Trapezium, capitate, trapezoid, hamate",
+    "Trapezium, trapezoid, capitate, hamate",
+    "Trapezoid, trapezium, capitate, hamate",
+    "Hamate, capitate, trapezoid, trapezium"
+   ],
+   "answer": 2,
+   "explanation": "From lateral to medial the distal row is the trapezium (thumb side), trapezoid, capitate (the largest) and hamate. The proximal row is the scaphoid, lunate, triquetrum and pisiform.",
+   "entries": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum",
+    "os-hamatum"
+   ]
+  },
+  {
+   "id": "sk-592c5eaa",
+   "group": "Bones of the hand",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kienböck's disease is avascular necrosis of which bone?",
+   "options": [
+    "Capitate",
+    "Femoral head",
+    "Lunate",
+    "Scaphoid",
+    "Navicular (foot)"
+   ],
+   "answer": 2,
+   "explanation": "Kienböck's disease is avascular necrosis of the lunate; negative ulnar variance (a short ulna) is a risk factor. Idiopathic necrosis of the scaphoid is Preiser's disease, of the femoral head Legg–Calvé–Perthes disease, and of the navicular of the foot Köhler's disease.",
+   "notes": [
+    "It has no eponymous necrosis of its own.",
+    "It is the site of Legg–Calvé–Perthes disease.",
+    "",
+    "It is the site of Preiser's disease.",
+    "It is the site of Köhler's disease."
+   ],
+   "entries": [
+    "os-lunatum"
+   ]
+  },
+  {
+   "id": "sk-dbb3bf24",
+   "group": "Bones of the hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structures attach to the hook of the hamate?",
+   "options": [
+    "Oblique head of adductor pollicis",
+    "Flexor carpi radialis tendon",
+    "Abductor pollicis brevis and opponens pollicis",
+    "The flexor retinaculum and the hypothenar flexor and opponens digiti minimi",
+    "Extensor retinaculum and extensor carpi ulnaris"
+   ],
+   "answer": 3,
+   "explanation": "The hook of the hamate is the inferomedial attachment of the flexor retinaculum; flexor digiti minimi brevis and opponens digiti minimi also arise from it. The hook is the lateral boundary of Guyon's canal; it can break in golf and baseball and affect the deep branch of the ulnar nerve.",
+   "entries": [
+    "os-hamatum",
+    "mm-hypothenares"
+   ]
+  },
+  {
+   "id": "sk-d7b7ddde",
+   "group": "Bones of the hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which is the shortest and most mobile metacarpal?",
+   "options": [
+    "4th metacarpal",
+    "2nd metacarpal",
+    "3rd metacarpal",
+    "5th metacarpal",
+    "1st metacarpal"
+   ],
+   "answer": 4,
+   "explanation": "The thumb metacarpal forms a saddle joint with the trapezium, allowing opposition. The 2nd and 3rd metacarpals are the most fixed (the 'fixed unit' of the hand); the base of the 3rd metacarpal carries a styloid process.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-a9ffa742",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structures attach to the anterior superior iliac spine (ASIS)?",
+   "options": [
+    "Sartorius, tensor fasciae latae and the inguinal ligament",
+    "Straight head of rectus femoris and the iliofemoral ligament",
+    "Internal oblique and the lacunar ligament",
+    "Gracilis and adductor longus",
+    "Iliacus and psoas minor"
+   ],
+   "answer": 0,
+   "explanation": "Sartorius and TFL arise from the ASIS, and the inguinal ligament runs from it to the pubic tubercle. The straight head of rectus femoris and the iliofemoral ligament attach to the AIIS. In adolescent athletes sartorius can avulse the ASIS and rectus femoris the AIIS.",
+   "notes": [
+    "",
+    "These attach to the AIIS.",
+    "The lacunar ligament extends to the pubis.",
+    "They arise from the pubis.",
+    "These belong to the iliac fossa and psoas."
+   ],
+   "entries": [
+    "os-coxae",
+    "m-sartorius",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "sk-c9a721e5",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following does NOT arise from the ischial tuberosity?",
+   "options": [
+    "Semitendinosus",
+    "Long head of biceps femoris",
+    "Hamstring part of adductor magnus",
+    "Semimembranosus",
+    "Short head of biceps femoris"
+   ],
+   "answer": 4,
+   "explanation": "The short head arises from the lateral lip of the linea aspera and crosses only the knee. The ischial tuberosity is the 'sitting bone'; the hamstrings and the vertical fibres of adductor magnus arise from it, and the sacrotuberous ligament attaches to it.",
+   "entries": [
+    "os-coxae",
+    "mm-ischiocrurales",
+    "m-biceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-5fd892d5",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which artery provides the main blood supply to the femoral head in adults?",
+   "options": [
+    "The artery in the ligament of the head of the femur",
+    "Medial circumflex femoral artery",
+    "Lateral circumflex femoral artery",
+    "Superior gluteal artery",
+    "Perforating branches of the profunda femoris"
+   ],
+   "answer": 1,
+   "explanation": "In adults the femoral head is supplied mainly by the retinacular branches of the medial circumflex femoral artery ascending along the neck. In intracapsular (subcapital) fractures these branches are torn and avascular necrosis can develop; the artery of the ligament of the head contributes little in adults.",
+   "entries": [
+    "femur",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-3ce542da",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the approximate neck–shaft angle of the femur in adults?",
+   "options": [
+    "150°",
+    "90°",
+    "105°",
+    "170°",
+    "125°"
+   ],
+   "answer": 4,
+   "explanation": "The neck–shaft angle is about 150° at birth and falls to around 125° in adults. A marked increase is called coxa valga and a decrease coxa vara; it is slightly smaller in women because of the wider pelvis.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-2bd1341c",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following muscles does NOT arise from the linea aspera?",
+   "options": [
+    "Short head of biceps femoris",
+    "Vastus medialis",
+    "Vastus intermedius",
+    "Vastus lateralis",
+    "Adductor magnus"
+   ],
+   "answer": 2,
+   "explanation": "Vastus intermedius arises from the anterior and lateral surfaces of the femoral shaft. Vastus lateralis and the short head of biceps femoris arise from the lateral lip of the linea aspera and vastus medialis from the medial lip; the adductors insert into the linea aspera.",
+   "entries": [
+    "femur",
+    "m-vastus-intermedius"
+   ]
+  },
+  {
+   "id": "sk-438ad979",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structure attaches to Gerdy's tubercle?",
+   "options": [
+    "Iliotibial tract",
+    "Pes anserinus",
+    "Fibular collateral ligament",
+    "Popliteus",
+    "Patellar ligament"
+   ],
+   "answer": 0,
+   "explanation": "Gerdy's tubercle is on the anterolateral surface of the lateral condyle of the tibia; the iliotibial band attaches to it. The patellar ligament attaches to the tibial tuberosity, the pes anserinus to the upper medial tibia and the lateral collateral ligament to the fibular head.",
+   "entries": [
+    "tibia",
+    "tractus-iliotibialis"
+   ]
+  },
+  {
+   "id": "sk-eede538b",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structures attach to the head of the fibula?",
+   "options": [
+    "Patellar ligament",
+    "Popliteus and the lateral meniscus",
+    "Pes anserinus and the tibial collateral ligament",
+    "Iliotibial tract and tensor fasciae latae",
+    "The biceps femoris tendon and the fibular collateral ligament"
+   ],
+   "answer": 4,
+   "explanation": "The biceps femoris tendon and the lateral collateral ligament attach to the fibular head; the common fibular nerve winds around the fibular neck just below and passes forwards. This is why foot drop can develop in fibular neck fractures.",
+   "entries": [
+    "fibula",
+    "m-biceps-femoris",
+    "ligg-collateralia-genus"
+   ]
+  },
+  {
+   "id": "sk-7f55ff47",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the patella is true?",
+   "options": [
+    "It is fully ossified at birth",
+    "It lies outside the knee joint cavity",
+    "It is the largest sesamoid bone in the body and develops within the quadriceps tendon",
+    "On its posterior surface the medial facet is larger than the lateral",
+    "It attaches to the medial condyle of the tibia through the patellar ligament"
+   ],
+   "answer": 2,
+   "explanation": "The patella lengthens the lever arm of quadriceps and increases the power of extension. On its posterior surface the lateral facet is wider; it is connected to the tibial tuberosity by the patellar ligament and its posterior surface faces the joint cavity. It begins to ossify between 3 and 6 years of age.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-048b1450",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What does a Segond fracture indicate?",
+   "options": [
+    "Avulsion at the edge of the lateral tibial plateau; it accompanies an anterior cruciate ligament tear",
+    "Calcification at the femoral attachment of the medial collateral ligament",
+    "A fibular head fracture accompanying a posterior cruciate ligament tear",
+    "An osteochondral fracture in lateral dislocation of the patella",
+    "Separation of the tibial tuberosity due to apophysitis"
+   ],
+   "answer": 0,
+   "explanation": "A Segond fracture is a small bone fragment pulled off the lateral tibial plateau by the anterolateral capsule/ligament in internal rotation and varus stress of the knee; although small on X-ray, it strongly suggests an anterior cruciate ligament tear. Calcification of the medial collateral ligament is Pellegrini–Stieda; apophysitis of the tuberosity is Osgood–Schlatter.",
+   "entries": [
+    "tibia",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "sk-ff3caabb",
+   "group": "Bones of the foot",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which part of the talus takes part in the ankle (talocrural) joint?",
+   "options": [
+    "Trochlea of the talus",
+    "Sulcus tali",
+    "Head of the talus",
+    "Posterior process of the talus",
+    "Anterior calcaneal articular surface"
+   ],
+   "answer": 0,
+   "explanation": "The trochlea of the talus sits in the mortise formed by the lower surface of the tibia and the two malleoli. Because the trochlea is wider in front, the joint is most stable in dorsiflexion. The head of the talus articulates with the navicular.",
+   "entries": [
+    "talus",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-e6838352",
+   "group": "Bones of the foot",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which accessory bone results from the lateral tubercle of the posterior process of the talus remaining separate?",
+   "options": [
+    "Os vesalianum",
+    "Accessory navicular",
+    "Os trigonum",
+    "Os intermetatarseum",
+    "Os peroneum"
+   ],
+   "answer": 2,
+   "explanation": "The os trigonum results from non-fusion of the lateral tubercle of the posterior process of the talus; in ballet dancers and footballers it can cause posterior ankle impingement in forced plantarflexion.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-fad5735d",
+   "group": "Bones of the foot",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The sinus tarsi is the space between which two bones?",
+   "options": [
+    "Navicular and cuneiform",
+    "Talus and calcaneus",
+    "Calcaneus and cuboid",
+    "Tibia and fibula",
+    "Talus and navicular"
+   ],
+   "answer": 1,
+   "explanation": "The sinus tarsi is a laterally opening canal formed by the sulcus tali under the neck of the talus and the sulcus calcanei on top of the calcaneus; it contains the strong interosseous talocalcaneal ligament, and extensor digitorum brevis arises in front of it.",
+   "entries": [
+    "talus",
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-216c2bbd",
+   "group": "Bones of the foot",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which bones form the lateral longitudinal arch of the foot?",
+   "options": [
+    "Calcaneus, navicular and 1st metatarsal",
+    "Calcaneus, talus, navicular, cuneiforms and metatarsals 1–3",
+    "The cuneiforms and the metatarsal bases",
+    "Calcaneus, cuboid and metatarsals 4–5",
+    "Talus, cuboid and 5th metatarsal"
+   ],
+   "answer": 3,
+   "explanation": "The lateral arch is low and close to the ground; it matters for weight bearing, and its keystone is the cuboid. The medial arch is higher and formed by the calcaneus, talus, navicular, three cuneiforms and metatarsals 1–3.",
+   "notes": [
+    "This is a mixed sequence.",
+    "This describes the medial longitudinal arch.",
+    "This describes the transverse arch.",
+    "",
+    "The talus does not take part in the lateral arch."
+   ],
+   "entries": [
+    "os-cuboideum",
+    "calcaneus",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-d2649154",
+   "group": "Bones of the foot",
+   "level": "tus",
+   "clinical": true,
+   "stem": "In the first weeks of military training, a young recruit develops forefoot pain after long marches; X-ray shows a stress fracture of the shaft of the 2nd metatarsal. What is this fracture commonly called?",
+   "options": [
+    "Lisfranc injury",
+    "Pott fracture",
+    "Chopart dislocation",
+    "March fracture",
+    "Jones fracture"
+   ],
+   "answer": 3,
+   "explanation": "Repeated loading causes a stress fracture of the 2nd metatarsal, the thinnest and longest metatarsal; the first X-rays may be normal and callus appears after a few weeks. A Jones fracture is at the metaphyseal–diaphyseal junction of the 5th metatarsal.",
+   "entries": [
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-1c850577",
+   "group": "Bones of the foot",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the Jones fracture is true?",
+   "options": [
+    "It is a fracture of the neck of the talus",
+    "It occurs at the head of the 1st metatarsal",
+    "It is an avulsion of the tuberosity of the 5th metatarsal by fibularis brevis",
+    "It occurs at the metaphyseal–diaphyseal junction of the 5th metatarsal and has a high risk of non-union",
+    "It is a stress fracture of the calcaneus"
+   ],
+   "answer": 3,
+   "explanation": "The Jones fracture lies 1.5–3 cm distal to the tuberosity in a poorly vascularised 'watershed' zone; non-union is common and surgery may be needed. A tuberosity avulsion (pseudo-Jones) results from the pull of fibularis brevis in inversion and usually heals well.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-251ed70f",
+   "group": "Bones of the foot",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which tendon attaches to the calcaneal tuberosity?",
+   "options": [
+    "Calcaneal tendon (Achilles tendon)",
+    "Tibialis anterior tendon",
+    "Flexor hallucis longus tendon",
+    "Fibularis brevis tendon",
+    "Tibialis posterior tendon"
+   ],
+   "answer": 0,
+   "explanation": "The Achilles tendon, the common tendon of gastrocnemius and soleus, attaches to the middle of the posterior surface of the heel; it is the thickest and strongest tendon in the body. The zone 2–6 cm above its insertion has the poorest blood supply and is where rupture is most common.",
+   "entries": [
+    "calcaneus",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "sk-f0c708e7",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "About how many bones are there in the adult human skeleton?",
+   "options": [
+    "186",
+    "256",
+    "226",
+    "206",
+    "300"
+   ],
+   "answer": 3,
+   "explanation": "The adult skeleton has about 206 bones: 80 in the axial skeleton and 126 in the appendicular skeleton. In the newborn the number is around 270–300 because many parts have not yet fused.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-93d7b509",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the longest and strongest bone of the body?",
+   "options": [
+    "Humerus",
+    "Fibula",
+    "Tibia",
+    "Femur",
+    "Hip bone"
+   ],
+   "answer": 3,
+   "explanation": "The femur (thigh bone) is the longest, heaviest and strongest bone of the body; it is about a quarter of a person's height.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-a3b15dfd",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the smallest bone of the body?",
+   "options": [
+    "Lacrimal bone",
+    "Malleus (hammer)",
+    "Pisiform",
+    "Stapes (stirrup)",
+    "Incus (anvil)"
+   ],
+   "answer": 3,
+   "explanation": "Of the three ossicles of the middle ear, the stapes is the smallest bone of the body; its footplate fits into the oval window.",
+   "entries": [
+    "ossicula-auditus"
+   ]
+  },
+  {
+   "id": "sk-59a23a69",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which membrane, rich in vessels and nerves, covers the outer surface of bone?",
+   "options": [
+    "Perichondrium",
+    "Fascia",
+    "Endosteum",
+    "Periosteum",
+    "Synovial membrane"
+   ],
+   "answer": 3,
+   "explanation": "The periosteum covers the outer surface of bone; cells of its inner layer allow the bone to thicken and fractures to heal. Joint surfaces have no periosteum and are covered by hyaline cartilage. The endosteum lines the marrow cavity.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-4df6a75a",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the shaft of a long bone called?",
+   "options": [
+    "Epiphyseal plate",
+    "Diaphysis",
+    "Epiphysis",
+    "Apophysis",
+    "Metaphysis"
+   ],
+   "answer": 1,
+   "explanation": "The shaft of a long bone is the diaphysis, its ends the epiphyses and the growth zone between them the metaphysis. Inside the diaphysis is the medullary cavity containing bone marrow.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-45e4abe2",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which cell breaks down (resorbs) bone?",
+   "options": [
+    "Fibroblast",
+    "Osteocyte",
+    "Osteoclast",
+    "Chondrocyte",
+    "Osteoblast"
+   ],
+   "answer": 2,
+   "explanation": "Osteoclasts are multinucleated cells of monocyte origin that break down bone tissue. Osteoblasts build new bone, and osteocytes are mature cells embedded in bone.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-900539f3",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which tissue are blood cells produced?",
+   "options": [
+    "Periosteum",
+    "Compact bone",
+    "Articular cartilage",
+    "Red bone marrow",
+    "Yellow bone marrow"
+   ],
+   "answer": 3,
+   "explanation": "Blood cells are made in red bone marrow. In adults red marrow lies mainly in the flat bones (sternum, ribs, hip bone, vertebrae); the marrow in the shafts of long bones turns into fatty yellow marrow.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-6f3cbcfe",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Where do long bones grow in length?",
+   "options": [
+    "In the articular cartilage",
+    "In the endosteum",
+    "In the periosteum",
+    "In the middle of the shaft",
+    "In the epiphyseal plate (growth cartilage)"
+   ],
+   "answer": 4,
+   "explanation": "Growth in length takes place in the epiphyseal plate of the metaphysis as cartilage cells multiply and ossify; the plate closes at the end of puberty. Growth in width occurs by the periosteum adding new bone.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-1a21cd83",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which of the following bones belongs to the axial skeleton?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Clavicle",
+    "Hip bone",
+    "Sternum"
+   ],
+   "answer": 4,
+   "explanation": "The axial skeleton consists of the skull, vertebral column and thoracic cage (sternum and ribs). The clavicle and scapula belong to the shoulder girdle, the hip bone to the pelvic girdle and the humerus to the free upper limb.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-2db88c9e",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which of the following is an example of a flat bone?",
+   "options": [
+    "Vertebra",
+    "Parietal bone",
+    "Femur",
+    "Capitate",
+    "Metacarpal"
+   ],
+   "answer": 1,
+   "explanation": "Flat bones are thin and broad (skull vault, sternum, ribs, scapula). The femur and metacarpals are long bones, the capitate a short bone and the vertebrae irregular bones.",
+   "entries": [
+    "iskelet-genel",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-a98a93de",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which of the following is NOT a sesamoid bone?",
+   "options": [
+    "Fabella",
+    "Lunate",
+    "Sesamoid of the big toe",
+    "Patella",
+    "Pisiform"
+   ],
+   "answer": 1,
+   "explanation": "Sesamoid bones develop within tendons: the patella, the pisiform, the sesamoids under the MP joints of the thumb and big toe and, in some people, the fabella. The lunate is a short bone of the proximal carpal row.",
+   "entries": [
+    "ossa-sesamoidea"
+   ]
+  },
+  {
+   "id": "sk-66a08b42",
+   "group": "Skull (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which bone forms the forehead and the roof of the orbits?",
+   "options": [
+    "Frontal bone",
+    "Sphenoid bone",
+    "Zygomatic bone",
+    "Ethmoid bone",
+    "Parietal bone"
+   ],
+   "answer": 0,
+   "explanation": "The frontal bone forms the forehead with its vertical squamous part and the roofs of the orbits and floor of the anterior cranial fossa with its horizontal orbital part.",
+   "entries": [
+    "os-frontale"
+   ]
+  },
+  {
+   "id": "sk-cb93516d",
+   "group": "Skull (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the only bone of the skull that moves at a synovial joint?",
+   "options": [
+    "Nasal bone",
+    "Vomer",
+    "Mandible",
+    "Maxilla",
+    "Zygomatic bone"
+   ],
+   "answer": 2,
+   "explanation": "The bones of the skull are firmly joined by sutures; the only movable joint is the temporomandibular joint between the mandible and the temporal bone.",
+   "entries": [
+    "mandibula",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-4559542c",
+   "group": "Skull (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What are the unossified membranous areas between the skull bones of a newborn called?",
+   "options": [
+    "Fontanelles",
+    "Sutures",
+    "Fissures",
+    "Sinuses",
+    "Foramina"
+   ],
+   "answer": 0,
+   "explanation": "Fontanelles are membranous areas where the sutures meet; they allow the head to mould during birth and the brain to grow. The largest is the anterior fontanelle.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-f341b2fb",
+   "group": "Skull (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Between which bones is the sagittal suture?",
+   "options": [
+    "Parietal and temporal",
+    "Between the two halves of the frontal bone",
+    "Between the two parietal bones",
+    "Frontal and parietal",
+    "Parietal and occipital"
+   ],
+   "answer": 2,
+   "explanation": "The sagittal suture joins the two parietal bones in the midline. The coronal suture lies between frontal and parietal bones, the lambdoid between parietal and occipital, the squamous between parietal and temporal.",
+   "entries": [
+    "suturae-fonticuli",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-bb6020cc",
+   "group": "Skull (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many bones take part in forming the orbit?",
+   "options": [
+    "5",
+    "8",
+    "6",
+    "9",
+    "7"
+   ],
+   "answer": 4,
+   "explanation": "The orbit is formed by seven bones: frontal, zygomatic, maxilla, sphenoid, ethmoid, lacrimal and palatine.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-13d66ee5",
+   "group": "Vertebral column",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many cervical vertebrae are there in the vertebral column?",
+   "options": [
+    "6",
+    "12",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "The vertebral column has 7 cervical, 12 thoracic, 5 lumbar, 5 sacral and 3–5 coccygeal vertebrae.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-894f664c",
+   "group": "Vertebral column",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the special name of the first cervical vertebra (C1)?",
+   "options": [
+    "Vertebra prominens",
+    "Atlas",
+    "Promontory",
+    "Axis",
+    "Dens"
+   ],
+   "answer": 1,
+   "explanation": "C1 is called the atlas, C2 the axis and C7 the vertebra prominens. The atlas has no body and no spinous process.",
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-a8bb291d",
+   "group": "Vertebral column",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many vertebrae fuse to form the sacrum?",
+   "options": [
+    "7",
+    "12",
+    "5",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Five sacral vertebrae fuse to form the triangular sacrum; the 3–5 coccygeal vertebrae below form the coccyx.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-d1d02687",
+   "group": "Vertebral column",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which curvature of the spine develops when a baby begins to hold up its head?",
+   "options": [
+    "Sacral kyphosis",
+    "Thoracic kyphosis",
+    "Cervical lordosis",
+    "Scoliosis",
+    "Lumbar lordosis"
+   ],
+   "answer": 2,
+   "explanation": "In the fetus the spine is a single C-shaped curve (primary kyphosis). When the baby holds up its head the cervical lordosis develops, and with sitting and walking the lumbar lordosis (secondary curvatures).",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-b2c190ac",
+   "group": "Thoracic cage",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many pairs of ribs are there in the thoracic cage?",
+   "options": [
+    "12 pairs",
+    "11 pairs",
+    "13 pairs",
+    "24 pairs",
+    "10 pairs"
+   ],
+   "answer": 0,
+   "explanation": "Humans have 12 pairs (24) of ribs: 7 pairs of true, 3 pairs of false and 2 pairs of floating ribs.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-e3425c63",
+   "group": "Thoracic cage",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which are the 'true ribs', joined directly to the sternum by their own cartilage?",
+   "options": [
+    "Ribs 8–10",
+    "Ribs 11–12",
+    "Ribs 1–10",
+    "Ribs 1–12",
+    "Ribs 1–7"
+   ],
+   "answer": 4,
+   "explanation": "The true ribs are ribs 1–7. Ribs 8–10 join the cartilage above (false ribs), and the front ends of ribs 11–12 are free (floating ribs).",
+   "entries": [
+    "costae",
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-cd7f4cd1",
+   "group": "Thoracic cage",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What are the three parts of the sternum?",
+   "options": [
+    "Manubrium, angle and body",
+    "Manubrium, body and costal cartilage",
+    "Manubrium, body and xiphoid process",
+    "Jugular notch, angle and xiphoid process",
+    "Body, xiphoid process and jugular notch"
+   ],
+   "answer": 2,
+   "explanation": "From top to bottom the sternum consists of the manubrium, the body and the xiphoid process. The junction of manubrium and body is the sternal angle (level of the 2nd rib).",
+   "entries": [
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-0a8d84f1",
+   "group": "Bones of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the only bone of the arm?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Ulna",
+    "Clavicle",
+    "Radius"
+   ],
+   "answer": 1,
+   "explanation": "Only the humerus lies in the arm (brachium); the radius and ulna are in the forearm and the clavicle and scapula in the shoulder girdle.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-b53d9bdb",
+   "group": "Bones of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which bone lies on the thumb side of the forearm?",
+   "options": [
+    "Scaphoid",
+    "Humerus",
+    "Ulna",
+    "Fibula",
+    "Radius"
+   ],
+   "answer": 4,
+   "explanation": "In the anatomical position the radius lies on the lateral (thumb) side of the forearm and the ulna on the medial (little finger) side.",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-02299d72",
+   "group": "Bones of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "With which bone does the medial end of the clavicle articulate?",
+   "options": [
+    "Sternum (manubrium)",
+    "Body of the 1st rib",
+    "C7 vertebra",
+    "Humerus",
+    "Scapula (acromion)"
+   ],
+   "answer": 0,
+   "explanation": "The medial end of the clavicle forms the sternoclavicular joint with the manubrium; the lateral end forms the acromioclavicular joint with the acromion.",
+   "entries": [
+    "clavicula",
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "sk-dc65dbda",
+   "group": "Bones of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "The acromion is part of which bone?",
+   "options": [
+    "1st rib",
+    "Scapula",
+    "Sternum",
+    "Humerus",
+    "Clavicle"
+   ],
+   "answer": 1,
+   "explanation": "The acromion is the lateral end of the spine of the scapula; it forms the highest bony point of the shoulder and articulates with the clavicle.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-135626d7",
+   "group": "Bones of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which hollow of the scapula does the head of the humerus sit at the shoulder joint?",
+   "options": [
+    "Glenoid cavity",
+    "Supraspinous fossa",
+    "Subscapular fossa",
+    "Olecranon fossa",
+    "Acetabulum"
+   ],
+   "answer": 0,
+   "explanation": "The head of the humerus forms the shoulder (glenohumeral) joint with the glenoid cavity of the scapula; the socket is deepened by the glenoid labrum.",
+   "entries": [
+    "scapula",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "sk-1a79acf4",
+   "group": "Bones of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "The olecranon, felt at the back of the elbow, belongs to which bone?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Radius",
+    "Pisiform",
+    "Ulna"
+   ],
+   "answer": 4,
+   "explanation": "The olecranon is the projection at the proximal end of the ulna; with the elbow extended it enters the olecranon fossa of the humerus, and triceps brachii attaches to it.",
+   "entries": [
+    "ulna"
+   ]
+  },
+  {
+   "id": "sk-1924a576",
+   "group": "Bones of the hand",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many carpal bones are there in the wrist?",
+   "options": [
+    "7",
+    "14",
+    "5",
+    "8",
+    "10"
+   ],
+   "answer": 3,
+   "explanation": "The carpal bones are eight short bones in two rows: proximally scaphoid, lunate, triquetrum, pisiform; distally trapezium, trapezoid, capitate, hamate.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-cc283b3f",
+   "group": "Bones of the hand",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many phalanges does the thumb have?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "The thumb has two phalanges (proximal and distal) and the other fingers three each; the hand has 14 phalanges in total.",
+   "entries": [
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "sk-766cdcb8",
+   "group": "Bones of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which three bones form the hip bone?",
+   "options": [
+    "Ischium, femur and pubis",
+    "Ilium, sacrum and pubis",
+    "Ilium, ischium and pubis",
+    "Ilium, ischium and coccyx",
+    "Sacrum, coccyx and pubis"
+   ],
+   "answer": 2,
+   "explanation": "The hip bone forms from the ilium, ischium and pubis fusing at the acetabulum; fusion is completed at puberty as the Y-shaped cartilage ossifies.",
+   "entries": [
+    "os-coxae",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-e8ec8422",
+   "group": "Bones of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which bony prominence carries the body weight when sitting?",
+   "options": [
+    "Anterior superior iliac spine",
+    "Ischial tuberosity",
+    "Greater trochanter",
+    "Iliac crest",
+    "Pubic tubercle"
+   ],
+   "answer": 1,
+   "explanation": "When sitting, weight rests on the ischial tuberosities. The hamstring muscles also arise from them.",
+   "entries": [
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-fce811c8",
+   "group": "Bones of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which thick, weight-bearing bone lies on the inner side of the leg?",
+   "options": [
+    "Femur",
+    "Fibula",
+    "Talus",
+    "Patella",
+    "Tibia"
+   ],
+   "answer": 4,
+   "explanation": "The tibia (shinbone) is the thick bone on the inner side of the leg and carries most of the weight; the thin fibula on the outer side contributes little to weight-bearing.",
+   "entries": [
+    "tibia"
+   ]
+  },
+  {
+   "id": "sk-3d64e2a3",
+   "group": "Bones of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the kneecap bone?",
+   "options": [
+    "Fabella",
+    "Navicular",
+    "Pisiform",
+    "Talus",
+    "Patella"
+   ],
+   "answer": 4,
+   "explanation": "The patella develops within the quadriceps femoris tendon and is the largest sesamoid bone of the body.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-51c47666",
+   "group": "Bones of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "To which bone does the bony bump on the outer side of the ankle (lateral malleolus) belong?",
+   "options": [
+    "Calcaneus",
+    "Tibia (medial malleolus)",
+    "Fibula (lateral malleolus)",
+    "Cuboid",
+    "Talus"
+   ],
+   "answer": 2,
+   "explanation": "The outer ankle bump is the lateral malleolus, the lower end of the fibula; the inner bump is the medial malleolus of the tibia. The lateral malleolus reaches lower than the medial.",
+   "entries": [
+    "fibula"
+   ]
+  },
+  {
+   "id": "sk-5b89ff5c",
+   "group": "Bones of the foot",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which bone forms the heel?",
+   "options": [
+    "Medial cuneiform",
+    "Talus",
+    "Calcaneus",
+    "Cuboid",
+    "Navicular"
+   ],
+   "answer": 2,
+   "explanation": "The calcaneus is the largest tarsal bone and forms the heel; the Achilles tendon attaches to its calcaneal tuberosity behind.",
+   "entries": [
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-617628de",
+   "group": "Bones of the foot",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many bones are there in each foot?",
+   "options": [
+    "26",
+    "28",
+    "33",
+    "24",
+    "20"
+   ],
+   "answer": 0,
+   "explanation": "Each foot has 26 bones: 7 tarsals, 5 metatarsals and 14 phalanges (not counting sesamoids).",
+   "entries": [
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-4ce46011",
+   "group": "Bones of the foot",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which tarsal bone lies in front of the calcaneus on the outer border of the foot?",
+   "options": [
+    "Lateral cuneiform",
+    "Navicular",
+    "5th metatarsal",
+    "Cuboid",
+    "Talus"
+   ],
+   "answer": 3,
+   "explanation": "The cuboid lies in front of the calcaneus on the outer border of the foot and articulates with the 4th–5th metatarsals; the navicular lies in front of the talus on the inner side.",
+   "entries": [
+    "os-cuboideum",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-62a44079",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the basic structural unit of compact bone?",
+   "options": [
+    "Periosteum",
+    "Osteon (Haversian system)",
+    "Lacuna",
+    "Chondron",
+    "Trabecula"
+   ],
+   "answer": 1,
+   "explanation": "Compact bone is built of osteons, lamellae arranged in rings around a central Haversian canal. Spongy bone is made of trabeculae.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-ef479b99",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What are the collagen fibres that bind the periosteum firmly to bone and penetrate it called?",
+   "options": [
+    "Elastic fibres",
+    "Sharpey's fibres",
+    "Volkmann's canals",
+    "Haversian lamellae",
+    "Reticular fibres"
+   ],
+   "answer": 1,
+   "explanation": "Sharpey's (perforating) fibres are thick collagen bundles passing from the periosteum into the bone matrix; they also anchor tendons and ligaments to bone.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-545c3b65",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "By which process do the bones of the skull vault (calvaria) ossify?",
+   "options": [
+    "Heterotopic ossification",
+    "Endochondral ossification",
+    "Intramembranous ossification",
+    "Appositional cartilage growth",
+    "Sesamoid ossification"
+   ],
+   "answer": 2,
+   "explanation": "The skull vault, the facial bones and most of the clavicle develop directly from mesenchyme by intramembranous ossification. The skull base, vertebrae and most limb bones ossify on a cartilage model (endochondral).",
+   "entries": [
+    "os-structura",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-64644656",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "An X-ray of which region is most often used to assess bone age?",
+   "options": [
+    "Left hand and wrist",
+    "Knee",
+    "Pelvis",
+    "Skull",
+    "Foot"
+   ],
+   "answer": 0,
+   "explanation": "Bone age is determined by comparing the appearance of the ossification centres and the state of the growth plates on an X-ray of the left hand and wrist with standard atlases (Greulich–Pyle).",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-7f45caa6",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In adults, where are bone marrow aspiration and biopsy most often performed?",
+   "options": [
+    "Calcaneus",
+    "Clavicle",
+    "Femoral head",
+    "Proximal tibia",
+    "Posterior iliac crest (around the posterior superior iliac spine)"
+   ],
+   "answer": 4,
+   "explanation": "In adults the posterior iliac crest is preferred because it is both safe and rich in red marrow. The proximal tibia is used in small children.",
+   "entries": [
+    "iskelet-genel",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-efcc65cb",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscle attaches to the mastoid process?",
+   "options": [
+    "Temporalis",
+    "Masseter",
+    "Trapezius",
+    "Platysma",
+    "Sternocleidomastoid"
+   ],
+   "answer": 4,
+   "explanation": "The SCM arises from the sternum and clavicle and attaches to the mastoid process and the lateral part of the superior nuchal line. The mastoid process is absent at birth and develops in childhood under the pull of the muscle.",
+   "entries": [
+    "os-temporale",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-299c3612",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structure does NOT pass through the foramen magnum?",
+   "options": [
+    "Internal jugular vein",
+    "Vertebral arteries",
+    "Anterior spinal artery",
+    "Medulla oblongata",
+    "Spinal root of the accessory nerve"
+   ],
+   "answer": 0,
+   "explanation": "The medulla oblongata and its meninges, the vertebral and spinal arteries and the spinal roots of the accessory nerve pass through the foramen magnum. The internal jugular vein begins at the jugular foramen.",
+   "entries": [
+    "os-occipitale",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-94a4fb4f",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where does the sphenoidal sinus open into the nasal cavity?",
+   "options": [
+    "Inferior nasal meatus",
+    "Superior nasal meatus",
+    "Sphenoethmoidal recess",
+    "Middle nasal meatus",
+    "Nasopharynx"
+   ],
+   "answer": 2,
+   "explanation": "The sphenoidal sinus opens into the sphenoethmoidal recess above and behind the superior concha. The posterior ethmoidal cells open into the superior meatus; the frontal, maxillary and anterior ethmoidal sinuses into the middle meatus; the nasolacrimal duct into the inferior meatus.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-f4bad9ce",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscles attach to the lateral plate of the pterygoid process of the sphenoid?",
+   "options": [
+    "Masseter and temporalis",
+    "Digastric and stylohyoid",
+    "Tensor veli palatini and levator veli palatini",
+    "Buccinator and superior pharyngeal constrictor",
+    "Lateral pterygoid and medial pterygoid"
+   ],
+   "answer": 4,
+   "explanation": "The lower head of the lateral pterygoid arises from the outer surface of the lateral plate and the deep head of the medial pterygoid from its inner surface. The tendon of tensor veli palatini turns around the hamulus at the tip of the medial plate.",
+   "entries": [
+    "os-sphenoidale",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "sk-24639fbf",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which is the thickest wall of the orbit?",
+   "options": [
+    "Lateral wall",
+    "Floor",
+    "Medial wall",
+    "Apex of the orbit",
+    "Roof"
+   ],
+   "answer": 0,
+   "explanation": "The lateral wall, formed by the zygomatic bone and greater wing of the sphenoid, is the thickest. The thinnest is the medial wall with the lamina papyracea of the ethmoid; blow-out fractures most often involve the floor.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-fe9c4d6f",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which nerve passes through the inferior orbital fissure?",
+   "options": [
+    "Infraorbital nerve",
+    "Trochlear nerve",
+    "Lacrimal nerve",
+    "Frontal nerve",
+    "Abducens nerve"
+   ],
+   "answer": 0,
+   "explanation": "The maxillary nerve enters the orbit from the pterygopalatine fossa through the inferior orbital fissure and becomes the infraorbital nerve. The frontal, lacrimal, trochlear and abducens nerves pass through the superior orbital fissure.",
+   "entries": [
+    "orbita",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-50fc7e36",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which opening connects the pterygopalatine fossa with the middle cranial fossa?",
+   "options": [
+    "Foramen spinosum",
+    "Optic canal",
+    "Foramen ovale",
+    "Foramen rotundum",
+    "Superior orbital fissure"
+   ],
+   "answer": 3,
+   "explanation": "The maxillary nerve (V2) passes from the middle cranial fossa to the pterygopalatine fossa through the foramen rotundum. The foramen ovale and spinosum open into the infratemporal fossa.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-c03603d8",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Between the two halves of which bone is the metopic suture?",
+   "options": [
+    "Mandible",
+    "Parietal bone",
+    "Sphenoid bone",
+    "Occipital bone",
+    "Frontal bone"
+   ],
+   "answer": 4,
+   "explanation": "At birth the frontal bone is in two halves; the metopic suture between them usually closes at 1–2 years. In some adults it remains open and can be mistaken for a fracture line on X-ray.",
+   "entries": [
+    "os-frontale",
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-af9c3b69",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Between which bones does the posterior fontanelle lie?",
+   "options": [
+    "The two parietal bones and the occipital bone",
+    "Sphenoid and temporal",
+    "Parietal, temporal and occipital",
+    "The two frontal and two parietal bones",
+    "Frontal, parietal, temporal and sphenoid"
+   ],
+   "answer": 0,
+   "explanation": "The triangular posterior fontanelle lies at the lambda, between the two parietal bones and the occipital bone, and closes at 2–3 months. The anterior fontanelle lies at the bregma between the frontal and parietal bones.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-7e5d8299",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At which vertebral level does the hyoid bone usually lie?",
+   "options": [
+    "C1",
+    "C5",
+    "C3",
+    "C6",
+    "T1"
+   ],
+   "answer": 2,
+   "explanation": "The hyoid lies at the level of C3. The upper border of the thyroid cartilage corresponds to C4 and the cricoid cartilage to C6.",
+   "entries": [
+    "os-hyoideum"
+   ]
+  },
+  {
+   "id": "sk-337e8167",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which group of teeth is absent in the primary (deciduous) dentition?",
+   "options": [
+    "Premolars",
+    "Central incisors",
+    "Canines",
+    "Lateral incisors",
+    "Molars"
+   ],
+   "answer": 0,
+   "explanation": "The primary dentition has 20 teeth: in each half-jaw 2 incisors, 1 canine and 2 molars; there are no deciduous premolars. The permanent premolars erupt in place of the deciduous molars.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-acf4fff3",
+   "group": "Skull (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which permanent tooth erupts first?",
+   "options": [
+    "1st molar (about 6 years)",
+    "1st premolar",
+    "Central incisor",
+    "Canine",
+    "3rd molar"
+   ],
+   "answer": 0,
+   "explanation": "The first permanent tooth to erupt, behind the deciduous teeth, is the 1st molar (the 'six-year molar'); the last is the 3rd molar (wisdom tooth).",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-5476a288",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "A heart-shaped body and a small round vertebral foramen are typical of which vertebrae?",
+   "options": [
+    "Cervical vertebrae",
+    "Lumbar vertebrae",
+    "Coccygeal vertebrae",
+    "Sacral vertebrae",
+    "Thoracic vertebrae"
+   ],
+   "answer": 4,
+   "explanation": "Thoracic vertebrae have a heart-shaped body and a small round vertebral foramen; there are facets for the ribs on the body and transverse processes. In cervical vertebrae the foramen is triangular and wide.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-6bfe54be",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which are the primary curvatures of the vertebral column?",
+   "options": [
+    "Thoracic and sacral kyphosis",
+    "Lumbar lordosis and sacral kyphosis",
+    "Cervical and lumbar lordosis",
+    "Cervical lordosis and thoracic kyphosis",
+    "Thoracic kyphosis and lumbar lordosis"
+   ],
+   "answer": 0,
+   "explanation": "The thoracic and sacral kyphoses, remnants of the fetal C-shaped curve, are the primary curvatures; the cervical and lumbar lordoses develop after birth (secondary curvatures).",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-a4798013",
+   "group": "Vertebral column",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Through which intervertebral foramen does the L4 spinal nerve exit?",
+   "options": [
+    "Between T12 and L1",
+    "Between L5 and S1",
+    "Between L4 and L5",
+    "Between L3 and L4",
+    "Between L2 and L3"
+   ],
+   "answer": 2,
+   "explanation": "In the thoracic and lumbar regions the spinal nerves exit below the vertebra of the same number; the L4 nerve is in the L4–L5 foramen. A posterolateral L4–L5 disc herniation, however, usually compresses the next root, L5.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-d8cdddd6",
+   "group": "Thoracic cage",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscle attaches to the rough area (tuberosity) on the outer surface of the 2nd rib?",
+   "options": [
+    "Serratus anterior",
+    "Scalenus anterior",
+    "Pectoralis minor",
+    "Pectoralis major",
+    "Subclavius"
+   ],
+   "answer": 0,
+   "explanation": "The 2nd rib is atypical: it is twice as long as the 1st and has a tuberosity on its outer surface for the first digitation of serratus anterior. Pectoralis minor attaches to ribs 3–5, scalenus anterior and subclavius to the 1st rib.",
+   "entries": [
+    "costae-atypicae",
+    "m-serratus-anterior"
+   ]
+  },
+  {
+   "id": "sk-b9394d0e",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "With the arms hanging at the sides, the inferior angle of the scapula corresponds to which vertebral level?",
+   "options": [
+    "T2",
+    "T10",
+    "T7",
+    "L1",
+    "T4"
+   ],
+   "answer": 2,
+   "explanation": "The superior angle of the scapula lies at T2, the medial end of its spine at T3 and the inferior angle at T7. The inferior angle is used as a surface landmark in chest examination and thoracentesis.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-c935a47a",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "With which part of the ulna does the trochlea of the humerus articulate?",
+   "options": [
+    "Head of ulna",
+    "Radial notch",
+    "Trochlear notch",
+    "Ulnar styloid process",
+    "Ulnar tuberosity"
+   ],
+   "answer": 2,
+   "explanation": "The pulley-shaped trochlea of the humerus fits into the trochlear notch of the ulna between the olecranon and coronoid process, forming the humeroulnar hinge joint. The capitulum articulates with the head of the radius.",
+   "entries": [
+    "humerus",
+    "ulna",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-fffabda4",
+   "group": "Bones of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscle attaches to the radial tuberosity?",
+   "options": [
+    "Brachialis",
+    "Biceps brachii",
+    "Triceps brachii",
+    "Supinator",
+    "Pronator teres"
+   ],
+   "answer": 1,
+   "explanation": "The biceps brachii tendon attaches to the radial tuberosity below the neck of the radius, which makes it a powerful supinator. Brachialis attaches to the ulnar tuberosity, pronator teres to the middle of the lateral surface of the radius.",
+   "entries": [
+    "radius",
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-afaac4c9",
+   "group": "Bones of the hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which are the lateral (radial) attachments of the flexor retinaculum?",
+   "options": [
+    "Tubercle of the scaphoid and tubercle of the trapezium",
+    "Capitate and trapezoid",
+    "Base of 1st metacarpal and lunate",
+    "Pisiform and hook of hamate",
+    "Radial styloid and lunate"
+   ],
+   "answer": 0,
+   "explanation": "The flexor retinaculum attaches laterally to the tubercles of the scaphoid and trapezium and medially to the pisiform and hook of hamate, forming the roof of the carpal tunnel.",
+   "entries": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "os-trapezium"
+   ]
+  },
+  {
+   "id": "sk-63af94e3",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The skin dimples at the lower back (dimples of Venus) mark which bony landmark, at which vertebral level?",
+   "options": [
+    "Highest point of the iliac crest – L4",
+    "Posterior superior iliac spine – S2",
+    "Anterior superior iliac spine – L4",
+    "Ischial spine – S3",
+    "Ischial tuberosity – S4"
+   ],
+   "answer": 1,
+   "explanation": "The dimples over the sacroiliac region mark the PSIS and correspond to S2; this level is also where the dural sac and subarachnoid space end.",
+   "entries": [
+    "os-coxae",
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-736237ad",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscle attaches to the pectineal line of the femur?",
+   "options": [
+    "Vastus medialis",
+    "Gluteus maximus",
+    "Adductor longus",
+    "Iliopsoas",
+    "Pectineus"
+   ],
+   "answer": 4,
+   "explanation": "Pectineus arises from the pecten pubis and attaches to the pectineal line below the lesser trochanter. Iliopsoas attaches to the lesser trochanter, gluteus maximus to the gluteal tuberosity.",
+   "entries": [
+    "femur",
+    "m-pectineus"
+   ]
+  },
+  {
+   "id": "sk-fecd544c",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which muscle attaches to the adductor tubercle of the femur?",
+   "options": [
+    "Adductor magnus (hamstring part)",
+    "Vastus medialis",
+    "Adductor longus",
+    "Gracilis",
+    "Semimembranosus"
+   ],
+   "answer": 0,
+   "explanation": "The vertical (hamstring) part of adductor magnus, which comes from the ischial tuberosity, attaches to the adductor tubercle above the medial epicondyle; this part is supplied by the tibial part of the sciatic nerve.",
+   "entries": [
+    "femur",
+    "m-adductor-magnus"
+   ]
+  },
+  {
+   "id": "sk-d46b7610",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "To which pit on the femoral head does the ligament of the head of the femur attach?",
+   "options": [
+    "Trochanteric fossa",
+    "Acetabular fossa",
+    "Fovea of the head of the femur",
+    "Intertrochanteric line",
+    "Intercondylar fossa"
+   ],
+   "answer": 2,
+   "explanation": "The ligament of the head of the femur runs from the acetabular notch to the fovea capitis in the middle of the femoral head; the acetabular branch of the obturator artery runs within it.",
+   "entries": [
+    "femur",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-3e7d0e42",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which feature distinguishes the female pelvis from the male pelvis?",
+   "options": [
+    "The pelvic inlet is heart-shaped.",
+    "The subpubic angle is wider.",
+    "The ischial spines project further inwards.",
+    "The pelvis is deeper and narrower.",
+    "The sacrum is longer and narrower."
+   ],
+   "answer": 1,
+   "explanation": "The female pelvis is wider and shallower: the inlet is oval, the subpubic angle wider than 90°, the sacrum short and broad and the ischial spines less prominent. The other options are features of the male pelvis.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-54c3cd19",
+   "group": "Bones of the foot",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "With which of the following bones does the talus NOT articulate?",
+   "options": [
+    "Tibia",
+    "Cuboid",
+    "Fibula",
+    "Navicular",
+    "Calcaneus"
+   ],
+   "answer": 1,
+   "explanation": "The talus articulates above with the tibia and fibula (ankle joint), below with the calcaneus (subtalar joint) and in front with the navicular (talonavicular joint). The cuboid lies in front of the calcaneus.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-d6509a0e",
+   "group": "Bones of the foot",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which is the largest of the three cuneiform bones?",
+   "options": [
+    "Medial cuneiform",
+    "Intermediate cuneiform",
+    "Cuboid",
+    "Lateral cuneiform",
+    "All three are the same size"
+   ],
+   "answer": 0,
+   "explanation": "The medial cuneiform is the largest and the intermediate the smallest. The shortness of the intermediate cuneiform allows the base of the 2nd metatarsal to lock between the medial and lateral cuneiforms.",
+   "entries": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale"
+   ]
+  },
+  {
+   "id": "sk-75fb3209",
+   "group": "Bones of the lower limb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A construction worker who fell from a height has a heel fracture. Which associated injury must always be looked for?",
+   "options": [
+    "Thoracolumbar vertebral fracture",
+    "Distal radius fracture",
+    "Skull fracture",
+    "Patella fracture",
+    "Clavicle fracture"
+   ],
+   "answer": 0,
+   "explanation": "In a fall onto the feet the load is transmitted axially to the spine; about 10% of calcaneal fractures are accompanied by a thoracolumbar (especially L1) compression fracture, which must not be missed.",
+   "entries": [
+    "calcaneus",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-32bbaef0",
+   "group": "Thoracic cage",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A 1st rib fracture is found after a road traffic accident. What should this finding suggest first?",
+   "options": [
+    "Osteoporosis",
+    "A simple, trivial fracture",
+    "High-energy trauma and injury to the subclavian artery and brachial plexus beneath it",
+    "Pathological fracture (metastasis)",
+    "Costochondritis"
+   ],
+   "answer": 2,
+   "explanation": "The 1st rib is short, thick and well protected, so it breaks only with high-energy trauma. Since the subclavian artery, subclavian vein and lower trunk of the brachial plexus cross it, vascular and nerve injury must be looked for.",
+   "entries": [
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-26bde07f",
+   "group": "General principles",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which canals connect the Haversian canals with each other and with the periosteum at right angles?",
+   "options": [
+    "Canaliculi",
+    "Sharpey's fibres",
+    "Lacunae",
+    "Volkmann's canals",
+    "Nutrient canal"
+   ],
+   "answer": 3,
+   "explanation": "Volkmann's canals run perpendicular to the long axis of the bone and connect the vessels of the Haversian canals with each other and with periosteal and endosteal vessels. Canaliculi are fine channels containing the processes of osteocytes.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-eddc1dd9",
+   "group": "General principles",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the most common type of growth plate fracture in children (Salter–Harris)?",
+   "options": [
+    "Type II",
+    "Type I",
+    "Type IV",
+    "Type III",
+    "Type V"
+   ],
+   "answer": 0,
+   "explanation": "In a Salter–Harris type II fracture the line passes through the growth plate and exits through the metaphysis (Thurston–Holland fragment); it is the most common type and has a good prognosis. Type V (crush) has the worst prognosis and is often recognised late.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-05b258c2",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which nerve does NOT pass through the common tendinous ring (annulus of Zinn)?",
+   "options": [
+    "Oculomotor nerve",
+    "Abducens nerve",
+    "Nasociliary nerve",
+    "Trochlear nerve",
+    "Optic nerve"
+   ],
+   "answer": 3,
+   "explanation": "Through the annulus of Zinn pass the optic nerve and ophthalmic artery (optic canal), the two branches of the oculomotor nerve, the nasociliary nerve and the abducens nerve. The trochlear, frontal and lacrimal nerves pass above and outside the ring.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-7c5f6944",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which opening connects the pterygopalatine fossa with the nasal cavity?",
+   "options": [
+    "Inferior orbital fissure",
+    "Pterygomaxillary fissure",
+    "Greater palatine canal",
+    "Sphenopalatine foramen",
+    "Pterygoid canal"
+   ],
+   "answer": 3,
+   "explanation": "The sphenopalatine foramen connects the pterygopalatine fossa with the upper back part of the nasal cavity; the sphenopalatine artery and nasal nerves pass through it. The pterygomaxillary fissure opens into the infratemporal fossa.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1960c9a2",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which nerves unite to form the nerve of the pterygoid canal (Vidian nerve)?",
+   "options": [
+    "Chorda tympani and lingual nerve",
+    "Deep petrosal nerve and internal carotid nerve",
+    "Greater and lesser petrosal nerves",
+    "Lesser petrosal nerve and chorda tympani",
+    "Greater petrosal nerve and deep petrosal nerve"
+   ],
+   "answer": 4,
+   "explanation": "The greater petrosal nerve (parasympathetic fibres of VII) and the deep petrosal nerve (sympathetic fibres from the carotid plexus) unite to form the Vidian nerve, which reaches the pterygopalatine ganglion.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1f5f4838",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Premature closure of the sagittal suture (craniosynostosis) leads to which head shape?",
+   "options": [
+    "Trigonocephaly (triangular forehead)",
+    "Brachycephaly (short, wide head)",
+    "Oxycephaly (tower skull)",
+    "Plagiocephaly (asymmetric head)",
+    "Scaphocephaly (long, narrow head)"
+   ],
+   "answer": 4,
+   "explanation": "Growth stops perpendicular to the closed suture and increases parallel to it. In sagittal synostosis the head cannot grow sideways and lengthens front to back (scaphocephaly); it is the most common craniosynostosis. Metopic synostosis causes trigonocephaly.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-3de5d43b",
+   "group": "Skull (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Where does the fracture line run in a Le Fort I fracture?",
+   "options": [
+    "Through the orbits, separating the face completely from the skull.",
+    "Through the neck of the mandible.",
+    "Pyramidally through the nasal root and orbital floor.",
+    "Horizontally across the maxilla just above the floor of the nose.",
+    "Only through the zygomatic arch."
+   ],
+   "answer": 3,
+   "explanation": "Le Fort I separates the lower maxilla carrying the tooth sockets (floating palate). Le Fort II is a pyramidal fracture (nasal root, orbital floor), Le Fort III a craniofacial separation (through the orbits and zygomatic arches).",
+   "entries": [
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-0ba9ff30",
+   "group": "Vertebral column",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Between which vertebrae does the C5 spinal nerve exit?",
+   "options": [
+    "Between C4 and C5",
+    "Between C7 and T1",
+    "Between C6 and C7",
+    "Between C5 and C6",
+    "Between C3 and C4"
+   ],
+   "answer": 0,
+   "explanation": "In the cervical region there are 8 nerves and 7 vertebrae; nerves C1–C7 exit above the vertebra of the same number and C8 exits between C7 and T1. A C5–C6 disc herniation therefore compresses the C6 root.",
+   "entries": [
+    "vertebrae-cervicales",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-0380b366",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "At about what age does the Y-shaped (triradiate) cartilage joining the three bones of the acetabulum ossify?",
+   "options": [
+    "1–2 years",
+    "After 40 years",
+    "15–17 years",
+    "25–30 years",
+    "5–7 years"
+   ],
+   "answer": 2,
+   "explanation": "The ilium, ischium and pubis are separated in the acetabulum by a Y-shaped cartilage; it ossifies at the end of puberty (15–17 years), making the hip bone a single bone.",
+   "entries": [
+    "acetabulum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-57138661",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the narrowest anteroposterior diameter of the birth canal?",
+   "options": [
+    "Diagonal conjugate",
+    "Interspinous diameter",
+    "Obstetric conjugate",
+    "Anatomical (true) conjugate",
+    "Transverse diameter"
+   ],
+   "answer": 2,
+   "explanation": "The obstetric conjugate is the distance between the promontory and the nearest point on the back of the symphysis and is the narrowest anteroposterior diameter of the pelvic inlet. On examination the diagonal conjugate is measured and 1.5–2 cm subtracted.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-082df539",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which muscle attaches to the trochanteric fossa of the femur?",
+   "options": [
+    "Quadratus femoris",
+    "Gluteus medius",
+    "Piriformis",
+    "Iliopsoas",
+    "Obturator externus"
+   ],
+   "answer": 4,
+   "explanation": "The trochanteric fossa, on the inner surface of the greater trochanter, is the attachment of obturator externus. Piriformis attaches to the upper border of the greater trochanter and quadratus femoris to the quadrate tubercle.",
+   "entries": [
+    "femur",
+    "m-obturator-externus"
+   ]
+  },
+  {
+   "id": "sk-2b105744",
+   "group": "Bones of the foot",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the main reason for the high risk of avascular necrosis after fractures of the neck of the talus?",
+   "options": [
+    "The growth plate of the talus stays open in adults",
+    "The talus is supplied only by the fibular artery",
+    "The talus has many muscle attachments",
+    "Blood reaches the body of the talus retrogradely from the neck",
+    "The periosteum of the talus is thick"
+   ],
+   "answer": 3,
+   "explanation": "Most of the talus is covered by articular cartilage and it has no muscle attachments; blood flows to the body mainly through branches of the artery of the tarsal canal, retrogradely from the neck. A neck fracture cuts these vessels and causes necrosis of the body (Hawkins).",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-6d6ca7d5",
+   "group": "Bones of the hand",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In a Bennett fracture, which muscle pulls the main (distal) fragment proximally and laterally?",
+   "options": [
+    "Adductor pollicis",
+    "Flexor pollicis longus",
+    "Abductor pollicis longus",
+    "Opponens pollicis",
+    "Extensor pollicis longus"
+   ],
+   "answer": 2,
+   "explanation": "A Bennett fracture is an intra-articular fracture-dislocation of the base of the 1st metacarpal. The small medial fragment, held by the anterior oblique ligament, stays in place; APL, attached to the base of the 1st metacarpal, pulls the main fragment proximally and laterally.",
+   "entries": [
+    "ossa-metacarpi",
+    "m-abductor-pollicis-longus"
+   ]
+  },
+  {
+   "id": "sk-786f3165",
+   "group": "Bones of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A motorcyclist has a pelvic ring fracture and is haemodynamically unstable. What is the most common source of bleeding in pelvic fractures?",
+   "options": [
+    "Presacral and pelvic venous plexuses and fractured bone surfaces",
+    "Femoral artery",
+    "Abdominal aorta",
+    "Inferior vena cava",
+    "Common iliac artery"
+   ],
+   "answer": 0,
+   "explanation": "About 80–90% of bleeding in pelvic fractures comes from the venous plexuses and fractured cancellous bone; closing the ring with a pelvic binder is therefore the first step. Arterial bleeding is treated by angioembolisation.",
+   "entries": [
+    "pelvis"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "cor": {
+  "tr": "Heart",
+  "summary": "Muscular organ in the middle mediastinum between the two lungs that pumps blood around the body. It is about the size of a fist and has four chambers: two atria and two ventricles.",
+  "facts": [
+   "About 250–350 g in adults",
+   "Middle mediastinum; two thirds lie left of the midline, the apex (apex cordis) in the left 5th intercostal space in the midclavicular line",
+   "Endocardium, myocardium (cardiac muscle), epicardium (visceral pericardium)",
+   "Right atrium, right ventricle, left atrium, left ventricle",
+   "Tricuspid, pulmonary, mitral (bicuspid), aortic",
+   "Right and left coronary arteries",
+   "Cardiac plexus (sympathetic: raises heart rate and contractility; parasympathetic – vagus nerve: slows the heart)"
+  ],
+  "sections": [
+   [
+    "Blood flow",
+    "Deoxygenated blood from the body reaches the right atrium through the venae cavae, passes the tricuspid valve into the right ventricle and the pulmonary valve into the pulmonary trunk and the lungs. Oxygenated blood returns from the lungs through the pulmonary veins to the left atrium, passes the mitral valve into the left ventricle and is pumped through the aortic valve into the aorta."
+   ],
+   [
+    "Conducting system",
+    "Sinoatrial node (pacemaker; right atrium) → atrioventricular node → bundle of His (atrioventricular bundle) → right and left bundle branches → Purkinje fibres."
+   ]
+  ],
+  "clinical": [
+   "Myocardial infarction is death of heart muscle caused by occlusion of a coronary artery.",
+   "In heart failure the heart cannot pump as much blood as the body needs; left-sided failure causes pulmonary oedema, right-sided failure leg oedema and an enlarged liver.",
+   "Auscultation areas: aortic (right 2nd space), pulmonary (left 2nd space), tricuspid (left 4th–5th space at the sternal border), mitral (apex)."
+  ],
+  "tus": [
+   "The apex of the heart is felt in the left 5th intercostal space, just medial to the midclavicular line (apex beat).",
+   "The first heart tube starts beating at the end of the 3rd week; septation takes place in weeks 4–7."
+  ],
+  "aliases": [
+   "heart",
+   "cardiac"
+  ]
+ },
+ "atrium-dextrum": {
+  "tr": "Right atrium",
+  "summary": "Heart chamber that collects deoxygenated blood from the body and from the heart wall itself. It contains the sinus node, the heart's natural pacemaker.",
+  "facts": [
+   "Superior vena cava, inferior vena cava, coronary sinus",
+   "Right auricle, pectinate muscles, crista terminalis, fossa ovalis (remnant of the foramen ovale), valve of the inferior vena cava",
+   "Sinoatrial node (near the opening of the superior vena cava), atrioventricular node (in Koch's triangle)",
+   "Into the right ventricle through the right atrioventricular orifice (tricuspid valve)"
+  ],
+  "sections": [],
+  "clinical": [
+   "If the foramen ovale fails to close after birth (patent foramen ovale), there is a risk of paradoxical embolism.",
+   "An atrial septal defect (ASD) causes volume overload of the right heart."
+  ],
+  "tus": [
+   "The smooth part of the right atrium (sinus venarum) comes from the sinus venosus and the muscular part (pectinate muscles) from the primitive atrium; the crista terminalis marks the boundary.",
+   "The valve of the inferior vena cava (Eustachian valve) guards the IVC opening and the valve of the coronary sinus (Thebesian valve) the coronary sinus opening."
+  ],
+  "aliases": [
+   "right atrium"
+  ]
+ },
+ "ventriculus-dexter": {
+  "tr": "Right ventricle",
+  "summary": "Heart chamber that pumps deoxygenated blood to the lungs. It forms most of the front of the heart; its wall is about three times thinner than that of the left ventricle.",
+  "facts": [
+   "Tricuspid valve",
+   "Conus arteriosus (infundibulum) and pulmonary valve into the pulmonary trunk",
+   "Trabeculae carneae, papillary muscles (anterior, posterior, septal), chordae tendineae, septomarginal trabecula (moderator band – carries the right bundle branch)",
+   "3–5 mm"
+  ],
+  "sections": [],
+  "clinical": [
+   "Pulmonary hypertension leads to right ventricular hypertrophy and failure (cor pulmonale).",
+   "Right ventricular hypertrophy is one of the components of tetralogy of Fallot."
+  ],
+  "tus": [
+   "The inside of the right ventricle is trabeculated (trabeculae carneae); its outflow tract (infundibulum) has a smooth wall.",
+   "The tricuspid valve has three cusps (anterior, posterior, septal) and three papillary muscles."
+  ],
+  "aliases": [
+   "right ventricle"
+  ]
+ },
+ "atrium-sinistrum": {
+  "tr": "Left atrium",
+  "summary": "Heart chamber that collects oxygenated blood from the lungs and forms most of the base of the heart (basis cordis). It is the most posterior chamber of the heart and lies against the oesophagus.",
+  "facts": [
+   "Four pulmonary veins",
+   "Into the left ventricle through the mitral valve",
+   "Its wall is mostly smooth; pectinate muscles are found in the left auricle",
+   "The oesophagus lies behind it – well seen on transoesophageal echocardiography"
+  ],
+  "sections": [],
+  "clinical": [
+   "In atrial fibrillation blood can clot in the left auricle and cause a stroke.",
+   "In mitral stenosis the enlarged left atrium can press on the oesophagus and cause difficulty in swallowing."
+  ],
+  "tus": [
+   "Four pulmonary veins open into the left atrium; the left auricle is the commonest site of thrombus (atrial fibrillation).",
+   "Apart from the auricle the wall of the left atrium is smooth; it derives from the pulmonary veins."
+  ],
+  "aliases": [
+   "left atrium"
+  ]
+ },
+ "ventriculus-sinister": {
+  "tr": "Left ventricle",
+  "summary": "The strongest chamber of the heart, pumping oxygenated blood through the aorta to the whole body. It forms the apex and the left border of the heart.",
+  "facts": [
+   "Mitral (bicuspid) valve",
+   "Aortic vestibule and aortic valve",
+   "Fine, dense trabeculae carneae, two strong papillary muscles (anterior and posterior), chordae tendineae",
+   "8–12 mm",
+   "Normally 55–70%"
+  ],
+  "sections": [],
+  "clinical": [
+   "Hypertension and aortic stenosis cause left ventricular hypertrophy.",
+   "In anterior wall infarction (LAD occlusion) the anterior wall of the left ventricle and the septum are affected; papillary muscle rupture can cause acute mitral regurgitation."
+  ],
+  "tus": [
+   "The anterior cusp of the mitral valve is in fibrous continuity with the aortic valve.",
+   "The left ventricular wall is about three times thicker than the right (~10–15 mm)."
+  ],
+  "aliases": [
+   "left ventricle"
+  ]
+ },
+ "valvae-cordis": {
+  "tr": "Heart valves",
+  "summary": "The four valves that keep blood flowing in one direction through the heart: two atrioventricular (tricuspid and mitral) and two semilunar (pulmonary and aortic) valves.",
+  "facts": [
+   "Right atrioventricular valve – three cusps (anterior, posterior, septal)",
+   "Left atrioventricular valve – two cusps (anterior and posterior)",
+   "Valve of the pulmonary trunk – three semilunar cusps",
+   "Aortic valve – three semilunar cusps (right coronary, left coronary, non-coronary); the coronary arteries arise from its sinuses",
+   "The atrioventricular valves are tied by chordae tendineae to the papillary muscles; the fibrous skeleton (anuli fibrosi) carries the valves"
+  ],
+  "sections": [
+   [
+    "Heart sounds",
+    "S1 is the closure of the atrioventricular valves, S2 the closure of the semilunar valves."
+   ]
+  ],
+  "clinical": [
+   "Rheumatic heart disease most often affects the mitral valve.",
+   "In the elderly, (calcific) aortic stenosis causes syncope, angina and heart failure.",
+   "Infective endocarditis forms vegetations on the valve cusps."
+  ],
+  "tus": [
+   "Semilunar valves have no chordae or papillary muscles; the coronary arteries arise from the sinuses behind the aortic valve.",
+   "The heart valves are attached to the fibrous skeleton (anuli fibrosi), which also insulates the atria electrically from the ventricles."
+  ],
+  "aliases": [
+   "valve",
+   "mitral",
+   "tricuspid",
+   "aortic valve",
+   "pulmonary valve"
+  ]
+ },
+ "aa-coronariae": {
+  "tr": "Coronary arteries",
+  "summary": "The two arteries arising from the aortic root that supply the heart muscle. After a short trunk the left coronary artery divides into the anterior descending (LAD) and circumflex branches.",
+  "facts": [
+   "From the left aortic sinus; left main trunk → anterior interventricular branch (LAD) and circumflex branch",
+   "From the right aortic sinus; runs in the coronary sulcus; right marginal branch, posterior interventricular branch (in most people – right dominance), SA and AV nodal branches",
+   "Anterior wall of the left ventricle, anterior 2/3 of the interventricular septum, apex",
+   "Lateral and posterior walls of the left ventricle, left atrium",
+   "Right atrium and ventricle, posterior 1/3 of the septum, SA node (60%) and AV node (80%)"
+  ],
+  "sections": [],
+  "clinical": [
+   "The LAD is known as the 'widow maker'; its occlusion causes an extensive anterior infarction.",
+   "Occlusion of the right coronary artery can cause an inferior infarction and AV block.",
+   "In coronary bypass surgery the internal thoracic artery and the great saphenous vein are used as grafts."
+  ],
+  "tus": [
+   "The coronary arteries fill during diastole; the subendocardium of the left ventricle is the region most vulnerable to ischaemia.",
+   "The left main coronary artery divides into the LAD and circumflex branches; sometimes a ramus intermedius (median branch) arises between them."
+  ],
+  "aliases": [
+   "coronary",
+   "LAD",
+   "circumflex"
+  ]
+ },
+ "venae-cordis": {
+  "tr": "Cardiac veins",
+  "summary": "The veins that collect deoxygenated blood from the heart wall. Most drain into the coronary sinus in the coronary sulcus on the back of the heart.",
+  "facts": [
+   "Opens into the right atrium",
+   "Great cardiac vein (with the LAD), middle cardiac vein (in the posterior interventricular groove), small cardiac vein, posterior vein of the left ventricle",
+   "Anterior cardiac veins and smallest cardiac veins (Thebesian)"
+  ],
+  "sections": [],
+  "clinical": [
+   "In cardiac resynchronisation therapy the left ventricular lead is placed in a cardiac vein through the coronary sinus."
+  ],
+  "tus": [
+   "The smallest cardiac veins (Thebesian) open directly into the heart chambers; the anterior cardiac veins open into the right atrium.",
+   "The coronary sinus collects most of the cardiac veins and opens into the right atrium; in cardiac resynchronisation therapy the lead is placed here."
+  ],
+  "aliases": [
+   "coronary sinus"
+  ]
+ }
+}

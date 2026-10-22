@@ -1,0 +1,317 @@
+{
+ "m-flexor-digitorum-superficialis": {
+  "tr": "Músculo flexor superficial de los dedos",
+  "summary": "Músculo ancho que forma la capa media del compartimento anterior del antebrazo. Sus cuatro tendones se insertan en las falanges medias.",
+  "facts": [
+   "Cabeza humerocubital: epicóndilo medial del húmero y apófisis coronoides; cabeza radial: parte superior de la cara anterior del radio",
+   "Bordes de las falanges medias de los dedos 2.º–5.º (los tendones se dividen para dejar pasar al FPD)",
+   "Nervio mediano (C7–T1)",
+   "Arterias cubital y radial",
+   "Flexiona los dedos en las interfalángicas proximales (IFP); ayuda a la flexión de las MCF y la muñeca"
+  ],
+  "sections": [],
+  "clinical": [
+   "Prueba: con los demás dedos en extensión (neutralizando el FPD) se flexiona la IFP del dedo explorado."
+  ],
+  "tus": [
+   "El FSD flexiona la interfalángica proximal; en su prueba los demás dedos se mantienen en extensión.",
+   "Antes de insertarse en la falange media, los tendones del FSD se dividen para dejar pasar el del FPD (quiasma tendinoso)."
+  ],
+  "aliases": [
+   "FSD",
+   "flexor común superficial"
+  ]
+ },
+ "m-flexor-digitorum-profundus": {
+  "tr": "Músculo flexor profundo de los dedos",
+  "summary": "Músculo de la capa profunda del compartimento anterior del antebrazo que flexiona las puntas de los dedos. Tiene doble inervación.",
+  "facts": [
+   "3/4 superiores de las caras anterior y medial del cúbito y membrana interósea",
+   "Bases de las falanges distales de los dedos 2.º–5.º",
+   "Mitad lateral (dedos 2.º–3.º): nervio interóseo anterior (rama del mediano); mitad medial (dedos 4.º–5.º): nervio cubital (C8–T1)",
+   "Arteria cubital, arteria interósea anterior",
+   "Flexiona las puntas de los dedos en las interfalángicas distales (IFD); ayuda a flexionar todas las articulaciones de los dedos y la muñeca"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dedo en jersey (de rugby): el tendón del FPD del anular se arranca de la falange distal.",
+   "En la lesión alta del cubital se pierde la flexión de las IFD de los dedos 4.º–5.º."
+  ],
+  "tus": [
+   "El FPD es el único músculo que flexiona la interfalángica distal.",
+   "El dedo en jersey es el arrancamiento del tendón del FPD (sobre todo del 4.º dedo) de la falange distal."
+  ],
+  "aliases": [
+   "FPD",
+   "flexor común profundo"
+  ]
+ },
+ "m-flexor-pollicis-longus": {
+  "tr": "Músculo flexor largo del pulgar",
+  "summary": "Músculo de la capa profunda anterior del antebrazo, delante del radio, que flexiona la punta del pulgar.",
+  "facts": [
+   "Cara anterior del radio y membrana interósea",
+   "Base de la falange distal del pulgar",
+   "Nervio interóseo anterior (nervio mediano; C7–C8)",
+   "Arteria interósea anterior",
+   "Flexiona las articulaciones interfalángica y MCF del pulgar"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la lesión del nervio interóseo anterior el pulgar y el índice no pueden hacer el signo de «OK» (pinza alterada)."
+  ],
+  "tus": [
+   "El FLP es el único músculo que flexiona la IF del pulgar; lo inerva el nervio interóseo anterior."
+  ],
+  "aliases": [
+   "FLP"
+  ]
+ },
+ "m-pronator-quadratus": {
+  "tr": "Músculo pronador cuadrado",
+  "summary": "Músculo cuadrilátero transversal entre el radio y el cúbito en el extremo inferior del antebrazo; es el principal músculo de la pronación.",
+  "facts": [
+   "1/4 inferior de la cara anterior del cúbito",
+   "1/4 inferior de la cara anterior del radio",
+   "Nervio interóseo anterior (nervio mediano; C7–C8)",
+   "Arteria interósea anterior",
+   "Prona el antebrazo; mantiene unida la articulación radiocubital distal"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El pronador cuadrado es el principal iniciador de la pronación; lo inerva el nervio interóseo anterior."
+  ],
+  "aliases": [
+   "pronador"
+  ]
+ },
+ "m-brachioradialis": {
+  "tr": "Músculo braquiorradial",
+  "summary": "Músculo superficial del borde lateral del antebrazo. Aunque pertenece al compartimento posterior (nervio radial), flexiona el codo.",
+  "facts": [
+   "2/3 superiores de la cresta supracondílea lateral del húmero",
+   "Base de la apófisis estiloides del radio",
+   "Nervio radial (C5–C6)",
+   "Arteria recurrente radial",
+   "Flexiona el codo con el antebrazo en semipronación (como al sostener un martillo); lleva el antebrazo a la posición media"
+  ],
+  "sections": [],
+  "clinical": [
+   "El reflejo braquiorradial explora los segmentos C5–C6."
+  ],
+  "tus": [
+   "El reflejo braquiorradial valora el segmento C6.",
+   "El borde lateral de la fosa del codo lo forma el braquiorradial; el medial, el pronador redondo."
+  ],
+  "aliases": [
+   "supinador largo"
+  ]
+ },
+ "mm-extensores-carpi-radiales": {
+  "tr": "Músculos extensores radiales largo y corto del carpo",
+  "summary": "Dos músculos de la cara posterolateral del antebrazo que extienden la muñeca y así refuerzan la prensión.",
+  "facts": [
+   "Largo: cresta supracondílea lateral del húmero; corto: epicóndilo lateral del húmero (tendón común de los extensores)",
+   "Largo: base del 2.º metacarpiano; corto: base del 3.er metacarpiano",
+   "Largo: nervio radial; corto: rama profunda del nervio radial (C6–C7)",
+   "Arteria radial, arteria recurrente radial",
+   "Extienden la muñeca y la desvían hacia radial; fijan la muñeca al cerrar el puño"
+  ],
+  "sections": [],
+  "clinical": [
+   "El codo de tenista (epicondilitis lateral) suele ser una lesión por sobreuso del tendón del ERCC en el epicóndilo lateral."
+  ],
+  "tus": [
+   "El ERLC lo inerva el tronco del radial y el ERCC su rama profunda; el ERLC se respeta en la parálisis del interóseo posterior."
+  ],
+  "aliases": [
+   "primer radial",
+   "segundo radial",
+   "ERLC",
+   "ERCC"
+  ]
+ },
+ "m-extensor-digitorum": {
+  "tr": "Músculo extensor de los dedos",
+  "summary": "Músculo en el centro de la cara posterior del antebrazo que extiende los dedos mediante cuatro tendones.",
+  "facts": [
+   "Epicóndilo lateral del húmero (tendón común de los extensores)",
+   "Aparato extensor de los dedos 2.º–5.º (bases de las falanges medias y distales)",
+   "Nervio interóseo posterior (nervio radial; C7–C8)",
+   "Arteria interósea posterior",
+   "Extiende los dedos 2.º–5.º en las MCF, IFP e IFD; ayuda a la extensión de la muñeca"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "En el aparato extensor (aponeurosis dorsal) se insertan también los lumbricales y los interóseos.",
+   "La deformidad en ojal se debe a la rotura de la cintilla central; la de cuello de cisne, a laxitud de la placa volar y desequilibrio intrínseco."
+  ],
+  "aliases": [
+   "extensor del índice",
+   "extensor del meñique",
+   "extensor común"
+  ]
+ },
+ "m-extensor-carpi-ulnaris": {
+  "tr": "Músculo extensor cubital del carpo",
+  "summary": "Músculo extensor superficial del borde posteromedial del antebrazo.",
+  "facts": [
+   "Epicóndilo lateral del húmero y borde posterior del cúbito",
+   "Base del 5.º metacarpiano",
+   "Nervio interóseo posterior (nervio radial; C7–C8)",
+   "Arteria cubital, arteria interósea posterior",
+   "Extiende la muñeca y la desvía hacia cubital"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El extensor cubital del carpo extiende la muñeca y la desvía a cubital; se debilita en la parálisis del interóseo posterior."
+  ],
+  "aliases": [
+   "cubital posterior",
+   "ECC"
+  ]
+ },
+ "m-supinator": {
+  "tr": "Músculo supinador",
+  "summary": "Músculo profundo del compartimento posterior del antebrazo que envuelve la parte superior del radio. La rama profunda del nervio radial lo perfora para pasar al compartimento posterior.",
+  "facts": [
+   "Epicóndilo lateral del húmero, ligamento colateral radial, ligamento anular del radio, cresta del supinador del cúbito",
+   "Caras lateral, posterior y anterior del 1/3 superior del radio",
+   "Rama profunda del nervio radial (C6–C7)",
+   "Arteria recurrente radial, arteria interósea recurrente",
+   "Supina el antebrazo (sobre todo con el codo extendido)"
+  ],
+  "sections": [],
+  "clinical": [
+   "El nervio interóseo posterior puede comprimirse bajo el arco fibroso de entrada del músculo (arcada de Frohse); aparece caída de los dedos sin pérdida sensitiva."
+  ],
+  "tus": [
+   "El supinador es perforado por la rama profunda del radial; la compresión en la arcada de Frohse produce el síndrome del interóseo posterior."
+  ],
+  "aliases": [
+   "supinador corto"
+  ]
+ },
+ "mm-pollicis-longi": {
+  "tr": "Músculos largos del pulgar",
+  "summary": "Tres músculos que van de la capa profunda posterior del antebrazo al pulgar. Sus tendones limitan la tabaquera anatómica en la cara lateral de la muñeca.",
+  "facts": [
+   "Caras posteriores del cúbito, el radio y la membrana interósea",
+   "ALP: base del 1.er metacarpiano; ECP: base de la falange proximal del pulgar; ELP: base de la falange distal del pulgar",
+   "Nervio interóseo posterior (nervio radial; C7–C8)",
+   "Arteria interósea posterior",
+   "El ALP abduce el pulgar; el ECP y el ELP lo extienden"
+  ],
+  "sections": [
+   [
+    "Tabaquera anatómica",
+    "Está limitada por delante por los tendones del ALP y el ECP, y por detrás por el del ELP. Su suelo lo forman el escafoides y el trapecio, y por ella pasa la arteria radial."
+   ]
+  ],
+  "clinical": [
+   "Tenosinovitis de De Quervain: inflamación de los tendones del ALP y el ECP en el primer compartimento extensor (prueba de Finkelstein positiva).",
+   "Tras las fracturas distales del radio el tendón del ELP puede romperse alrededor del tubérculo de Lister."
+  ],
+  "tus": [
+   "La rotura del tendón del ELP puede aparecer semanas después de una fractura distal del radio, alrededor del tubérculo de Lister."
+  ],
+  "aliases": [
+   "ALP",
+   "ECP",
+   "ELP",
+   "tabaquera"
+  ]
+ },
+ "mm-thenares": {
+  "tr": "Músculos tenares",
+  "summary": "Grupo que forma la eminencia tenar en la base del pulgar: abductor corto del pulgar, flexor corto del pulgar, oponente del pulgar y, en profundidad, aductor del pulgar.",
+  "facts": [
+   "Retináculo flexor, escafoides y trapecio (aductor del pulgar: 2.º–3.er metacarpianos y grande)",
+   "1.er metacarpiano y falange proximal del pulgar",
+   "Rama recurrente del nervio mediano (ACP, cabeza superficial del FCP, oponente); rama profunda del nervio cubital (aductor del pulgar y cabeza profunda del FCP) – C8–T1",
+   "Rama palmar superficial de la arteria radial, arco palmar profundo",
+   "Abducen, flexionan, oponen y aducen el pulgar"
+  ],
+  "sections": [],
+  "clinical": [
+   "En el síndrome del túnel carpiano aparecen atrofia tenar y debilidad de la oposición.",
+   "En la lesión del cubital el aductor del pulgar está débil; al sujetar una hoja de papel se flexiona la IF del pulgar (signo de Froment)."
+  ],
+  "tus": [
+   "Los tenares los inerva la rama recurrente del nervio mediano, conocida como el «nervio del millón de dólares».",
+   "La mano de simio aparece en la lesión del mediano por atrofia tenar y pérdida de la oposición."
+  ],
+  "aliases": [
+   "tenar",
+   "oponente del pulgar",
+   "aductor del pulgar"
+  ]
+ },
+ "mm-hypothenares": {
+  "tr": "Músculos hipotenares",
+  "summary": "Grupo que forma la eminencia en la base del meñique: abductor del meñique, flexor corto del meñique y oponente del meñique.",
+  "facts": [
+   "Pisiforme, gancho del ganchoso y retináculo flexor",
+   "Falange proximal del 5.º dedo y 5.º metacarpiano",
+   "Rama profunda del nervio cubital (C8–T1)",
+   "Rama profunda de la arteria cubital",
+   "Abducen, flexionan y oponen el meñique"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la lesión del nervio cubital se ve atrofia hipotenar."
+  ],
+  "tus": [
+   "Los hipotenares los inerva la rama profunda del cubital; el palmar corto, la rama superficial."
+  ],
+  "aliases": [
+   "hipotenar"
+  ]
+ },
+ "mm-lumbricales-manus": {
+  "tr": "Músculos lumbricales de la mano",
+  "summary": "Cuatro pequeños músculos que nacen de los tendones del flexor profundo de los dedos; son peculiares porque se insertan en tendón y no en hueso.",
+  "facts": [
+   "Tendones del flexor profundo de los dedos",
+   "Borde lateral del aparato extensor de los dedos 2.º–5.º",
+   "1.º–2.º lumbricales: nervio mediano; 3.º–4.º lumbricales: rama profunda del nervio cubital",
+   "Arcos palmares superficial y profundo",
+   "Flexionan las MCF y extienden las interfalángicas (posición de «sostener una bandeja»)"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la lesión del cubital aparece mano en garra en los dedos 4.º–5.º (hiperextensión MCF, flexión IF); paradoja cubital: en la lesión alta la garra es menos marcada."
+  ],
+  "tus": [
+   "Los lumbricales son músculos raros que nacen de los tendones del FPD y no se insertan en hueso."
+  ],
+  "aliases": [
+   "lumbrical"
+  ]
+ },
+ "mm-interossei-manus": {
+  "tr": "Músculos interóseos de la mano",
+  "summary": "Pequeños músculos situados entre los metacarpianos: cuatro interóseos dorsales y tres palmares.",
+  "facts": [
+   "Caras laterales de los metacarpianos vecinos",
+   "Bases de las falanges proximales y aparato extensor",
+   "Rama profunda del nervio cubital (C8–T1)",
+   "Arterias metacarpianas dorsales y palmares",
+   "Los interóseos dorsales separan los dedos (DAB – dorsal abduce); los palmares los juntan (PAD – palmar aduce); ayudan a la flexión MCF y la extensión IF"
+  ],
+  "sections": [],
+  "clinical": [
+   "Los interóseos palmares se exploran sujetando un papel entre los dedos; están débiles en la lesión del cubital y se ve atrofia en el primer espacio dorsal."
+  ],
+  "tus": [
+   "Hay 4 interóseos dorsales y 3 (o 4) palmares.",
+   "En la lesión del cubital, la atrofia del primer interóseo dorsal produce un hundimiento marcado en el dorso de la mano."
+  ],
+  "aliases": [
+   "interóseos"
+  ]
+ }
+}

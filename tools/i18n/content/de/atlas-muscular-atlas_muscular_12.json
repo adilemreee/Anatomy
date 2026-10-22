@@ -1,0 +1,322 @@
+{
+ "m-psoas-major": {
+  "tr": "M. psoas major",
+  "summary": "Langer spindelförmiger Muskel, der neben den Lendenwirbeln entspringt und unter dem Leistenband zum Oberschenkel zieht; mit dem Iliacus bildet er den Iliopsoas.",
+  "facts": [
+   "Wirbelkörper T12–L4 und dazwischenliegende Bandscheiben, Querfortsätze L1–L5",
+   "Trochanter minor (gemeinsame Sehne mit dem Iliacus)",
+   "Rr. anteriores der Spinalnerven L1–L3",
+   "Aa. lumbales, A. iliolumbalis",
+   "Kräftigster Hüftbeuger; bei fixiertem Oberschenkel beugt er den Rumpf und neigt die Lendenwirbelsäule zur Seite"
+  ],
+  "sections": [],
+  "clinical": [
+   "Ein Psoasabszess (z. B. bei Wirbeltuberkulose) senkt sich in der Muskelscheide zur Leiste ab und verursacht eine Schwellung am vorderen oberen Oberschenkel.",
+   "Psoaszeichen bei Appendizitis: Die passive Streckung der rechten Hüfte ist schmerzhaft."
+  ],
+  "tus": [
+   "Der Plexus lumbalis bildet sich im Muskel; der N. femoralis tritt am lateralen Rand, der N. obturatorius am medialen Rand und der N. genitofemoralis an der Vorderfläche aus."
+  ],
+  "aliases": [
+   "Psoas",
+   "Iliopsoas",
+   "großer Lendenmuskel"
+  ]
+ },
+ "m-iliacus": {
+  "tr": "M. iliacus",
+  "summary": "Fächerförmiger Muskel, der die Fossa iliaca ausfüllt; seine Sehne vereinigt sich mit der des Psoas major.",
+  "facts": [
+   "Obere 2/3 der Fossa iliaca, Innenlippe der Crista iliaca, Ala ossis sacri und Umgebung der SIAI",
+   "Trochanter minor (mit der Psoas-major-Sehne)",
+   "N. femoralis (L2–L3)",
+   "R. iliacus der A. iliolumbalis, A. circumflexa ilium profunda",
+   "Beugt die Hüfte; kippt das Becken nach vorn"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "Iliopsoas",
+   "Darmbeinmuskel"
+  ]
+ },
+ "m-piriformis": {
+  "tr": "M. piriformis",
+  "summary": "Muskel, der durch das Foramen ischiadicum majus in die Gesäßregion zieht; der wichtigste Orientierungspunkt dieser Region.",
+  "facts": [
+   "Vorderfläche des Os sacrum (Höhe S2–S4) und Rand der Incisura ischiadica major",
+   "Oberrand des Trochanter major",
+   "N. musculi piriformis (S1–S2)",
+   "A. glutea superior und inferior",
+   "Außenrotation der Hüfte; Abduktion bei gebeugter Hüfte; hält den Femurkopf im Acetabulum"
+  ],
+  "sections": [],
+  "clinical": [
+   "Beim Piriformis-Syndrom wird der N. ischiadicus unter dem Muskel eingeengt; es entstehen Gesäßschmerz und Ischialgie."
+  ],
+  "tus": [
+   "Er teilt das Foramen ischiadicum majus in Foramen suprapiriforme (A., V. und N. gluteus superior) und infrapiriforme (N. ischiadicus, Vasa und N. gluteus inferior, N. pudendus, A. pudenda interna, N. cutaneus femoris posterior)."
+  ],
+  "aliases": [
+   "birnenförmiger Muskel",
+   "Außenrotator"
+  ]
+ },
+ "m-obturator-internus": {
+  "tr": "M. obturatorius internus",
+  "summary": "Muskel von der inneren Seitenwand des Beckens, dessen Sehne durch das Foramen ischiadicum minus nach außen zum Trochanter umgelenkt wird.",
+  "facts": [
+   "Innenfläche der Membrana obturatoria und umgebender Knochen des Foramen obturatum",
+   "Innenfläche des Trochanter major (oberhalb der Fossa trochanterica)",
+   "N. musculi obturatorii interni (L5–S2)",
+   "A. pudenda interna, A. obturatoria",
+   "Außenrotation der Hüfte; Abduktion bei gebeugter Hüfte"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Beim Austritt durch das Foramen ischiadicum minus wird seine Sehne wie über eine Rolle an der Incisura ischiadica minor umgelenkt; seine Faszie bildet die Wand des Canalis pudendalis (Alcock-Kanal)."
+  ],
+  "aliases": [
+   "Außenrotator"
+  ]
+ },
+ "m-gemellus-superior": {
+  "tr": "M. gemellus superior",
+  "summary": "Kleiner Muskel, der den Oberrand der Obturatorius-internus-Sehne begleitet.",
+  "facts": [
+   "Spina ischiadica",
+   "Innenfläche des Trochanter major, gemeinsam mit der Sehne des Obturatorius internus",
+   "N. musculi obturatorii interni (L5–S2)",
+   "A. glutea inferior",
+   "Außenrotation der Hüfte"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "Gemelli"
+  ]
+ },
+ "m-gemellus-inferior": {
+  "tr": "M. gemellus inferior",
+  "summary": "Kleiner Muskel, der den Unterrand der Obturatorius-internus-Sehne begleitet.",
+  "facts": [
+   "Oberer Teil des Tuber ischiadicum",
+   "Innenfläche des Trochanter major, gemeinsam mit der Sehne des Obturatorius internus",
+   "N. musculi quadrati femoris (L4–S1)",
+   "A. glutea inferior, A. circumflexa femoris medialis",
+   "Außenrotation der Hüfte"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Die Gemelli haben verschiedene Nerven: Der obere wird vom Nerv des Obturatorius internus, der untere vom Nerv des Quadratus femoris versorgt."
+  ],
+  "aliases": [
+   "Gemelli"
+  ]
+ },
+ "m-quadratus-femoris": {
+  "tr": "M. quadratus femoris",
+  "summary": "Viereckiger Muskel, der waagerecht zwischen Tuber ischiadicum und Femur verläuft.",
+  "facts": [
+   "Außenrand des Tuber ischiadicum",
+   "Tuberculum quadratum an der Crista intertrochanterica",
+   "N. musculi quadrati femoris (L4–S1)",
+   "A. circumflexa femoris medialis",
+   "Kräftiger Außenrotator der Hüfte"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Die A. circumflexa femoris medialis verläuft in der Tiefe dieses Muskels; als Hauptversorger des Femurkopfes muss sie bei hinteren Zugängen geschont werden."
+  ],
+  "aliases": [
+   "viereckiger Schenkelmuskel"
+  ]
+ },
+ "m-obturator-externus": {
+  "tr": "M. obturatorius externus",
+  "summary": "Muskel von der Außenfläche der Membrana obturatoria, der unter dem Schenkelhals zur Fossa trochanterica zieht.",
+  "facts": [
+   "Außenfläche der Membrana obturatoria und umgebender Knochen des Foramen obturatum",
+   "Fossa trochanterica",
+   "R. posterior des N. obturatorius (L3–L4)",
+   "A. obturatoria, A. circumflexa femoris medialis",
+   "Außenrotation der Hüfte; stabilisiert den Femurkopf"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Er ist der einzige kurze Außenrotator, der vom N. obturatorius innerviert wird; anatomisch wird er den Adduktoren zugerechnet."
+  ],
+  "aliases": [
+   "Außenrotator"
+  ]
+ },
+ "m-rectus-femoris": {
+  "tr": "M. rectus femoris",
+  "summary": "Der mittlere oberflächliche Kopf des Quadrizeps; der einzige Quadrizepskopf, der Hüft- und Kniegelenk überspannt.",
+  "facts": [
+   "Caput rectum: Spina iliaca anterior inferior (SIAI); Caput reflexum: Oberrand des Acetabulums (Sulcus supraacetabularis)",
+   "Über Patella und Lig. patellae zur Tuberositas tibiae",
+   "N. femoralis (L2–L4)",
+   "A. circumflexa femoris lateralis",
+   "Streckt das Knie und beugt die Hüfte"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei jugendlichen Sportlern kann er einen Abrissbruch der SIAI verursachen; die gleichzeitige Kontraktion bei Hüftbeugung und Kniestreckung macht ihn verletzungsanfällig."
+  ],
+  "tus": [],
+  "aliases": [
+   "Quadrizeps",
+   "gerader Schenkelmuskel"
+  ]
+ },
+ "m-vastus-lateralis": {
+  "tr": "M. vastus lateralis",
+  "summary": "Der größte Kopf des Quadrizeps, der die Außenseite des Oberschenkels bedeckt.",
+  "facts": [
+   "Oberer Teil der Linea intertrochanterica, Trochanter major, Tuberositas glutea und Labium laterale der Linea aspera",
+   "Über die Quadrizepssehne zum lateralen Patellarand und über das Lig. patellae zur Tuberositas tibiae",
+   "N. femoralis (L2–L4)",
+   "A. circumflexa femoris lateralis (R. descendens)",
+   "Streckt das Knie"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Bei Kindern ist er der bevorzugte Ort für intramuskuläre Injektionen (Außenseite des mittleren Oberschenkeldrittels)."
+  ],
+  "aliases": [
+   "Quadrizeps",
+   "äußerer Schenkelmuskel"
+  ]
+ },
+ "m-vastus-medialis": {
+  "tr": "M. vastus medialis",
+  "summary": "Tropfenförmiger, am unteren inneren Oberschenkel hervortretender Quadrizepskopf; seine unteren schrägen Fasern (VMO) ziehen die Patella nach medial.",
+  "facts": [
+   "Unterer Teil der Linea intertrochanterica, Labium mediale der Linea aspera und Septum intermusculare mediale",
+   "Medialer Patellarand und Quadrizepssehne; über das Lig. patellae zur Tuberositas tibiae",
+   "N. femoralis (L2–L4)",
+   "A. femoralis, A. profunda femoris",
+   "Streckt das Knie; seine schrägen Fasern verhindern das seitliche Abgleiten der Patella"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine VMO-Schwäche begünstigt patellofemorale Schmerzen und die laterale Patellaluxation; nach Knieoperationen atrophiert er zuerst."
+  ],
+  "tus": [],
+  "aliases": [
+   "VMO",
+   "Quadrizeps",
+   "innerer Schenkelmuskel"
+  ]
+ },
+ "m-vastus-intermedius": {
+  "tr": "M. vastus intermedius",
+  "summary": "Der tiefe Quadrizepskopf unter dem Rectus femoris, angeheftet an Vorder- und Außenfläche des Femurschafts.",
+  "facts": [
+   "Obere 2/3 der Vorder- und Außenfläche des Femurschafts",
+   "Tiefe Schicht der Quadrizepssehne; Patella und Tuberositas tibiae",
+   "N. femoralis (L2–L4)",
+   "A. circumflexa femoris lateralis, A. profunda femoris",
+   "Streckt das Knie"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der darunterliegende M. articularis genus zieht bei der Kniestreckung die Bursa suprapatellaris nach oben und verhindert ihr Einklemmen."
+  ],
+  "aliases": [
+   "Quadrizeps",
+   "mittlerer Schenkelmuskel"
+  ]
+ },
+ "m-adductor-longus": {
+  "tr": "M. adductor longus",
+  "summary": "Der vorderste und oberflächlichste flache Muskel der Adduktorengruppe; er bildet die mediale Grenze des Trigonum femorale.",
+  "facts": [
+   "Corpus ossis pubis (unterhalb der Crista pubica)",
+   "Mittleres Drittel der Linea aspera (Labium mediale)",
+   "R. anterior des N. obturatorius (L2–L4)",
+   "A. profunda femoris, A. obturatoria",
+   "Adduktion der Hüfte; unterstützt Flexion und Innenrotation"
+  ],
+  "sections": [],
+  "clinical": [
+   "Er ist der bei Leistenzerrungen am häufigsten verletzte Adduktor; häufig bei Fußballspielern."
+  ],
+  "tus": [
+   "Trigonum femorale: Leistenband (oben), Sartorius (lateral), Adductor longus (medialer Rand)."
+  ],
+  "aliases": [
+   "Adduktoren",
+   "langer Schenkelanzieher"
+  ]
+ },
+ "m-adductor-brevis": {
+  "tr": "M. adductor brevis",
+  "summary": "Kurzer dreieckiger Muskel unter dem Adductor longus; die Äste des N. obturatorius ziehen vor und hinter ihm.",
+  "facts": [
+   "Corpus und Ramus inferior ossis pubis",
+   "Linea pectinea und oberer Teil der Linea aspera",
+   "N. obturatorius (L2–L4)",
+   "A. profunda femoris, A. obturatoria",
+   "Adduktion der Hüfte; unterstützt die Flexion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der vordere Ast des N. obturatorius zieht vor dem Muskel, der hintere Ast dahinter."
+  ],
+  "aliases": [
+   "Adduktoren",
+   "kurzer Schenkelanzieher"
+  ]
+ },
+ "m-adductor-magnus": {
+  "tr": "M. adductor magnus",
+  "summary": "Der größte Adduktor mit einem Adduktoren- und einem ischiokruralen (ischiokondylären) Anteil, die von zwei verschiedenen Nerven versorgt werden.",
+  "facts": [
+   "Adduktorenteil: Ramus inferior ossis pubis und Ramus ossis ischii; ischiokruraler Teil: Tuber ischiadicum",
+   "Adduktorenteil: Tuberositas glutea und Linea aspera; ischiokruraler Teil: Tuberculum adductorium (Femur)",
+   "Adduktorenteil: N. obturatorius (L2–L4); ischiokruraler Teil: tibialer Anteil des N. ischiadicus (L4)",
+   "A. profunda femoris (Aa. perforantes), A. obturatoria",
+   "Adduktion der Hüfte; der Adduktorenteil beugt, der ischiokrurale Teil streckt"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Durch den Hiatus adductorius zwischen seinen beiden Ansätzen ziehen A. und V. femoralis in die Kniekehle und werden zu A. und V. poplitea."
+  ],
+  "aliases": [
+   "Adduktoren",
+   "großer Schenkelanzieher"
+  ]
+ },
+ "m-semitendinosus": {
+  "tr": "M. semitendinosus",
+  "summary": "Ischiokruraler Muskel an der hinteren Innenseite des Oberschenkels, dessen untere Hälfte in eine lange Sehne übergeht.",
+  "facts": [
+   "Tuber ischiadicum (gemeinsame Sehne mit dem Caput longum des Biceps femoris)",
+   "Obere Innenfläche der Tibia (Pes anserinus)",
+   "Tibialer Anteil des N. ischiadicus (L5–S2)",
+   "Aa. perforantes der A. profunda femoris, A. circumflexa femoris medialis",
+   "Beugt das Knie und streckt die Hüfte; dreht den Unterschenkel bei gebeugtem Knie nach innen"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Den Pes anserinus bilden Sartorius, Gracilis und Semitendinosus; seine Sehne wird bei der VKB-Plastik als Transplantat verwendet."
+  ],
+  "aliases": [
+   "Hamstrings",
+   "Pes anserinus"
+  ]
+ }
+}

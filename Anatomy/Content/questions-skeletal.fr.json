@@ -1,0 +1,4446 @@
+{
+ "system": "skeletal",
+ "questions": [
+  {
+   "id": "sk-f15e8ff6",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un motard de 24 ans reprend connaissance après une brève perte de conscience, puis redevient somnolent quelques heures plus tard. Le scanner montre un hématome extradural biconvexe temporal. Par quel orifice l'artère qui saigne pénètre-t-elle dans la cavité crânienne ?",
+   "options": [
+    "Canal carotidien",
+    "Foramen épineux",
+    "Foramen ovale",
+    "Foramen rond",
+    "Foramen déchiré"
+   ],
+   "answer": 1,
+   "explanation": "La source classique de l'hématome extradural avec intervalle libre est l'artère méningée moyenne. Branche de l'artère maxillaire, elle pénètre dans la fosse crânienne moyenne par le foramen épineux ; sa branche antérieure longe la face interne du ptérion, d'où sa rupture dans les fractures de cette région.",
+   "notes": [
+    "L'artère carotide interne et son plexus sympathique y passent.",
+    "",
+    "Le nerf mandibulaire (V3) et l'artère méningée accessoire y passent.",
+    "Le nerf maxillaire (V2) y passe.",
+    "Chez le vivant il est fermé par du cartilage ; le grand nerf pétreux passe au-dessus."
+   ],
+   "entries": [
+    "os-sphenoidale",
+    "os-temporale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-cae1e91e",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle structure traverse le foramen rond ?",
+   "options": [
+    "Artère méningée moyenne",
+    "Nerf mandibulaire",
+    "Nerf maxillaire",
+    "Nerf ophtalmique",
+    "Grand nerf pétreux"
+   ],
+   "answer": 2,
+   "explanation": "Le foramen rond, situé dans la grande aile du sphénoïde, conduit la deuxième branche du nerf trijumeau, le nerf maxillaire (V2), de la fosse crânienne moyenne à la fosse ptérygo-palatine.",
+   "notes": [
+    "Elle pénètre par le foramen épineux.",
+    "Il passe par le foramen ovale.",
+    "",
+    "Il pénètre dans l'orbite par la fissure orbitaire supérieure.",
+    "Il passe au-dessus du foramen déchiré vers le canal ptérygoïdien."
+   ],
+   "entries": [
+    "os-sphenoidale",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-02fc4bcb",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient atteint d'une fracture de la base du crâne présente une dysphagie, une dysphonie et, du même côté, une faiblesse pour hausser l'épaule et tourner la tête du côté opposé. Où siège probablement la lésion ?",
+   "options": [
+    "Foramen jugulaire",
+    "Foramen stylo-mastoïdien",
+    "Canal du nerf hypoglosse",
+    "Foramen magnum",
+    "Méat acoustique interne"
+   ],
+   "answer": 0,
+   "explanation": "Le foramen jugulaire livre passage aux nerfs glosso-pharyngien (IX), vague (X) et accessoire (XI) et à l'origine de la veine jugulaire interne. L'atteinte de IX–X donne dysphagie et dysphonie ; celle de XI une faiblesse du trapèze et du sterno-cléido-mastoïdien (syndrome de Vernet).",
+   "notes": [
+    "",
+    "Le nerf facial sort du crâne par là ; il y aurait une paralysie faciale.",
+    "Seul le nerf hypoglosse y passe ; la langue dévierait.",
+    "Le bulbe, les artères vertébrales et les racines spinales du XI y passent ; ce tableau n'est pas typique.",
+    "Les nerfs facial et vestibulo-cochléaire y passent."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-temporale",
+    "n-vagus",
+    "n-accessorius",
+    "n-glossopharyngeus"
+   ]
+  },
+  {
+   "id": "sk-2f2c71f8",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle de ces structures NE traverse PAS la fissure orbitaire supérieure ?",
+   "options": [
+    "Nerf abducens",
+    "Veine ophtalmique supérieure",
+    "Nerf trochléaire",
+    "Nerf optique",
+    "Nerf oculomoteur"
+   ],
+   "answer": 3,
+   "explanation": "Le nerf optique passe par le canal optique avec l'artère ophtalmique. Par la fissure orbitaire supérieure passent les nerfs III, IV, VI, les branches du nerf ophtalmique (nerfs lacrymal, frontal et naso-ciliaire) et la veine ophtalmique supérieure.",
+   "entries": [
+    "os-sphenoidale",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "sk-3882c3d4",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lequel de ces os NE participe PAS à la formation du ptérion ?",
+   "options": [
+    "Os pariétal",
+    "Os sphénoïde",
+    "Os zygomatique",
+    "Os temporal",
+    "Os frontal"
+   ],
+   "answer": 2,
+   "explanation": "Le ptérion est la région en H où se rejoignent l'os frontal, l'os pariétal, l'écaille du temporal et la grande aile du sphénoïde. C'est l'une des zones les plus minces du crâne ; la branche antérieure de l'artère méningée moyenne chemine à sa face interne.",
+   "entries": [
+    "os-frontale",
+    "os-parietale",
+    "os-temporale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-200730b2",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Après une fracture de l'étage antérieur de la base du crâne, un patient présente un écoulement nasal clair (rhinorrhée) et une perte de l'odorat. La fracture intéresse probablement quelle partie de quel os ?",
+   "options": [
+    "Sphénoïde – corps",
+    "Os nasal",
+    "Os frontal – partie orbitaire",
+    "Ethmoïde – lame criblée",
+    "Vomer"
+   ],
+   "answer": 3,
+   "explanation": "Les filets olfactifs traversent les orifices de la lame criblée. Sa fracture arrache les fibres olfactives (anosmie) et, si la dure-mère et l'arachnoïde sont déchirées, le liquide cérébrospinal s'écoule dans la cavité nasale.",
+   "entries": [
+    "os-ethmoidale",
+    "n-olfactorius"
+   ]
+  },
+  {
+   "id": "sk-4f08a260",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sur quel os se trouve la selle turcique, qui loge l'hypophyse ?",
+   "options": [
+    "Ethmoïde",
+    "Os temporal",
+    "Os frontal",
+    "Sphénoïde",
+    "Os occipital"
+   ],
+   "answer": 3,
+   "explanation": "La selle turcique est la dépression en forme de selle de la face supérieure du corps du sphénoïde ; l'hypophyse repose dans la fosse hypophysaire centrale. En dessous se trouve le sinus sphénoïdal, d'où la possibilité d'une chirurgie hypophysaire par voie trans-sphénoïdale.",
+   "entries": [
+    "os-sphenoidale",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "sk-52093b04",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Avant d'intervenir sur les molaires inférieures, un dentiste réalise une anesthésie. Autour de quel orifice faut-il injecter pour anesthésier toutes les dents inférieures du même côté ?",
+   "options": [
+    "Foramen mentonnier",
+    "Canal incisif",
+    "Foramen infra-orbitaire",
+    "Foramen ovale",
+    "Foramen mandibulaire"
+   ],
+   "answer": 4,
+   "explanation": "Le nerf alvéolaire inférieur (V3) pénètre dans le canal mandibulaire par le foramen mandibulaire, à la face interne de la branche, et innerve toutes les dents inférieures. Un bloc réalisé juste au-dessus de la lingula anesthésie les dents, la lèvre inférieure et la peau du menton du même côté.",
+   "notes": [
+    "Le nerf mentonnier qui en sort n'innerve que la lèvre inférieure et la peau du menton.",
+    "Il concerne la muqueuse palatine des incisives supérieures (nerf naso-palatin).",
+    "Mâchoire supérieure : le nerf infra-orbitaire en sort.",
+    "Il est situé à la base du crâne ; l'atteindre n'est pas pratique.",
+    ""
+   ],
+   "entries": [
+    "mandibula",
+    "n-trigeminus",
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-d97d6576",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le nerf qui sort du foramen mentonnier est une branche de quel nerf ?",
+   "options": [
+    "Nerf buccal",
+    "Nerf infra-orbitaire",
+    "Nerf alvéolaire inférieur",
+    "Nerf facial (rameau marginal de la mandibule)",
+    "Nerf lingual"
+   ],
+   "answer": 2,
+   "explanation": "Le foramen mentonnier se situe généralement sous la deuxième prémolaire inférieure. Le nerf mentonnier, branche terminale du nerf alvéolaire inférieur, en sort et assure la sensibilité de la lèvre inférieure et de la peau du menton.",
+   "entries": [
+    "mandibula",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-db827248",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient frappé au menton présente une fracture du col de la mandibule. Le fragment condylien est déplacé en avant et en dedans. Quel muscle est responsable de ce déplacement ?",
+   "options": [
+    "Masséter",
+    "Digastrique",
+    "Ptérygoïdien médial",
+    "Ptérygoïdien latéral",
+    "Temporal"
+   ],
+   "answer": 3,
+   "explanation": "Le ptérygoïdien latéral s'insère sur la fossette ptérygoïdienne (col du condyle) et le disque articulaire et attire le condyle en avant et en dedans. Dans la fracture, le fragment proximal est entraîné en antéro-médial par ce muscle.",
+   "notes": [
+    "Il s'insère sur la face externe de la branche et de l'angle ; il élève le fragment distal.",
+    "Il s'insère près du corps de la mandibule ; il abaisse la mâchoire.",
+    "Il s'insère sur la face interne de l'angle ; il n'agit pas sur le fragment condylien.",
+    "",
+    "Il s'insère sur le processus coronoïde."
+   ],
+   "entries": [
+    "mandibula",
+    "mm-pterygoidei",
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "sk-0dce4bb9",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel os ne s'articule avec aucun autre os du corps ?",
+   "options": [
+    "Patella",
+    "Vomer",
+    "Os lacrymal",
+    "Os hyoïde",
+    "Coccyx"
+   ],
+   "answer": 3,
+   "explanation": "L'os hyoïde, situé en regard de C3, est suspendu par des muscles et des ligaments (ligament stylo-hyoïdien, membrane thyro-hyoïdienne) ; il ne s'articule avec aucun os. Il donne insertion aux muscles supra- et infrahyoïdiens.",
+   "entries": [
+    "os-hyoideum",
+    "mm-suprahyoidei",
+    "mm-infrahyoidei"
+   ]
+  },
+  {
+   "id": "sk-c559d452",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle de ces structures NE s'insère PAS sur le processus styloïde ?",
+   "options": [
+    "Ventre postérieur du digastrique",
+    "Ligament stylo-mandibulaire",
+    "Muscle stylo-hyoïdien",
+    "Muscle stylo-glosse",
+    "Muscle stylo-pharyngien"
+   ],
+   "answer": 0,
+   "explanation": "Le ventre postérieur du digastrique naît de l'incisure mastoïdienne de l'os temporal. Du processus styloïde naissent les trois muscles « stylo- » (stylo-glosse – XII, stylo-hyoïdien – VII, stylo-pharyngien – IX) et les ligaments stylo-hyoïdien et stylo-mandibulaire.",
+   "entries": [
+    "os-temporale",
+    "mm-suprahyoidei"
+   ]
+  },
+  {
+   "id": "sk-e617e04f",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans quelle partie de quel os se trouve l'oreille interne ?",
+   "options": [
+    "Sphénoïde – grande aile",
+    "Os occipital – partie basilaire",
+    "Os temporal – partie pétreuse",
+    "Os temporal – partie tympanique",
+    "Os temporal – écaille"
+   ],
+   "answer": 2,
+   "explanation": "La partie pétreuse (rocher) est l'os le plus dur du corps ; elle contient la cochlée, le vestibule et les canaux semi-circulaires. La cavité de l'oreille moyenne se trouve aussi entre les parties pétreuse et tympanique.",
+   "entries": [
+    "os-temporale",
+    "auris-interna"
+   ]
+  },
+  {
+   "id": "sk-1864ac93",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle fontanelle se ferme en dernier chez le nourrisson, et vers quel âge ?",
+   "options": [
+    "Fontanelle sphénoïdale – 5 ans",
+    "Fontanelle antérieure – 2–3 mois",
+    "Fontanelle antérieure – 18–24 mois",
+    "Fontanelle postérieure – 18–24 mois",
+    "Fontanelle mastoïdienne – 3 ans"
+   ],
+   "answer": 2,
+   "explanation": "La fontanelle antérieure (orifice losangique au bregma) est la plus grande et se ferme en dernier (vers 18–24 mois). La postérieure se ferme vers 2–3 mois, la sphénoïdale vers 6 mois, la mastoïdienne entre 6 et 18 mois. Une fontanelle antérieure déprimée évoque une déshydratation, bombée une hypertension intracrânienne.",
+   "entries": [
+    "os-frontale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-2a63ac57",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le bregma est le point de rencontre de quelles sutures ?",
+   "options": [
+    "Sutures lambdoïde et occipito-mastoïdienne",
+    "Sutures coronale et sagittale",
+    "Sutures sagittale et lambdoïde",
+    "Sutures coronale et squameuse",
+    "Sutures frontale (métopique) et coronale"
+   ],
+   "answer": 1,
+   "explanation": "Le bregma, siège de la fontanelle antérieure, est la rencontre des sutures coronale et sagittale. Le lambda est la rencontre des sutures sagittale et lambdoïde, siège de la fontanelle postérieure.",
+   "entries": [
+    "os-frontale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-2fcb0376",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Après avoir reçu une balle de tennis au visage, un patient présente une diplopie dans le regard vers le haut, une énophtalmie et une hypoesthésie de la joue et de la lèvre supérieure du même côté. Quelle est la fracture la plus probable ?",
+   "options": [
+    "Toit de l'orbite (os frontal)",
+    "Paroi latérale de l'orbite (os zygomatique)",
+    "Plancher de l'orbite (maxillaire) – fracture en blow-out",
+    "Os nasal",
+    "Canal optique"
+   ],
+   "answer": 2,
+   "explanation": "Lors d'un traumatisme orbitaire contondant, la pression fait céder l'une des parois les plus faibles, le plancher (maxillaire). Le droit inférieur et la graisse s'incarcèrent dans le sinus maxillaire et le regard vers le haut est limité. L'atteinte du nerf infra-orbitaire dans le sillon/canal du plancher donne une anesthésie de la joue, de la paupière inférieure et de la lèvre supérieure. La paroi médiale (lame orbitaire de l'ethmoïde) est la plus mince et se fracture aussi souvent.",
+   "entries": [
+    "maxilla",
+    "os-ethmoidale",
+    "mm-bulbi"
+   ]
+  },
+  {
+   "id": "sk-b4b77595",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles structures forment la partie osseuse du septum nasal ?",
+   "options": [
+    "Processus frontal du maxillaire et os nasal",
+    "Cornet nasal inférieur et os palatin",
+    "Os lacrymal et ethmoïde",
+    "Os nasal et vomer",
+    "Vomer et lame perpendiculaire de l'ethmoïde"
+   ],
+   "answer": 4,
+   "explanation": "Le septum nasal est formé en arrière et en bas par le vomer, en arrière et en haut par la lame perpendiculaire de l'ethmoïde, et en avant par le cartilage septal. La déviation septale siège le plus souvent à la jonction ostéo-cartilagineuse.",
+   "entries": [
+    "vomer",
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ]
+  },
+  {
+   "id": "sk-9a7db56f",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lequel des éléments suivants est un os indépendant et non une partie de l'ethmoïde ?",
+   "options": [
+    "Cornet nasal supérieur",
+    "Crista galli",
+    "Cornet nasal inférieur",
+    "Lame criblée",
+    "Cornet nasal moyen"
+   ],
+   "answer": 2,
+   "explanation": "Les cornets supérieur et moyen dépendent du labyrinthe ethmoïdal. Le cornet inférieur est un os de la face à part entière ; il s'articule avec le maxillaire, l'os lacrymal, l'os palatin et l'ethmoïde.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-e474b6d7",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel os forme le quart postérieur du palais osseux ?",
+   "options": [
+    "Sphénoïde – processus ptérygoïde",
+    "Maxillaire – processus palatin",
+    "Os palatin – lame perpendiculaire",
+    "Vomer",
+    "Os palatin – lame horizontale"
+   ],
+   "answer": 4,
+   "explanation": "Les trois quarts antérieurs du palais osseux sont formés par les processus palatins des maxillaires, le quart postérieur par les lames horizontales des os palatins. Leur jonction est la suture palatine transverse.",
+   "entries": [
+    "os-palatinum",
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-a81fa9ba",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quels os forment la fosse du sac lacrymal ?",
+   "options": [
+    "Ethmoïde et sphénoïde",
+    "Os nasal et os frontal",
+    "Os palatin et os lacrymal",
+    "Os zygomatique et maxillaire",
+    "Os lacrymal et processus frontal du maxillaire"
+   ],
+   "answer": 4,
+   "explanation": "Le sac lacrymal repose dans la fosse du sac lacrymal, à la partie antérieure de la paroi médiale de l'orbite. Cette fosse est formée en avant par le processus frontal du maxillaire (crête lacrymale antérieure) et en arrière par l'os lacrymal (crête lacrymale postérieure). En bas, le sac s'ouvre dans le méat inférieur par le conduit lacrymo-nasal.",
+   "entries": [
+    "os-lacrimale",
+    "maxilla",
+    "apparatus-lacrimalis"
+   ]
+  },
+  {
+   "id": "sk-8a17fa1f",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "L'arcade zygomatique est formée par l'union de quelles structures ?",
+   "options": [
+    "Processus frontal de l'os zygomatique et os frontal",
+    "Grande aile du sphénoïde et os temporal",
+    "Processus mastoïde du temporal et os zygomatique",
+    "Processus temporal de l'os zygomatique et processus zygomatique du temporal",
+    "Processus zygomatique du maxillaire et sphénoïde"
+   ],
+   "answer": 3,
+   "explanation": "L'arcade zygomatique est formée en avant par le processus temporal de l'os zygomatique et en arrière par le processus zygomatique du temporal. Le masséter naît de son bord inférieur ; le tendon du temporal passe sous l'arcade vers le processus coronoïde.",
+   "entries": [
+    "os-zygomaticum",
+    "os-temporale",
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "sk-5ff889bf",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Les condyles occipitaux s'articulent avec quel os ?",
+   "options": [
+    "Sphénoïde",
+    "Atlas",
+    "Dent de l'axis",
+    "Os temporal",
+    "Axis"
+   ],
+   "answer": 1,
+   "explanation": "Les condyles de l'os occipital forment l'articulation atlanto-occipitale avec la face supérieure des masses latérales de l'atlas. Le hochement de tête du « oui » (flexion–extension) s'y produit ; le « non » se fait dans l'articulation atlanto-axoïdienne.",
+   "entries": [
+    "os-occipitale",
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-d3f9241b",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel nerf traverse le foramen supra-orbitaire, et de quel nerf principal provient-il ?",
+   "options": [
+    "Nerf supra-orbitaire – nerf ophtalmique (V1)",
+    "Nerf zygomatico-temporal – nerf mandibulaire (V3)",
+    "Nerf supratrochléaire – nerf maxillaire (V2)",
+    "Nerf infra-orbitaire – nerf maxillaire (V2)",
+    "Nerf supra-orbitaire – nerf facial"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf supra-orbitaire, branche du nerf frontal, sort par le foramen (l'incisure) supra-orbitaire de l'os frontal et innerve le front et la partie antérieure du cuir chevelu. Ce point est examiné comme point d'appui du V1 dans la névralgie du trijumeau.",
+   "entries": [
+    "os-frontale",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-95627bc6",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Combien y a-t-il de dents définitives et de dents de lait, respectivement ?",
+   "options": [
+    "32 et 24",
+    "28 et 20",
+    "32 et 16",
+    "30 et 20",
+    "32 et 20"
+   ],
+   "answer": 4,
+   "explanation": "Chaque hémi-arcade définitive compte 2 incisives, 1 canine, 2 prémolaires et 3 molaires (32 au total) ; la denture temporaire compte 2 incisives, 1 canine et 2 molaires (20 au total). Il n'y a pas de prémolaires parmi les dents de lait.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-e0da37ac",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où se loge la base (platine) de l'étrier ?",
+   "options": [
+    "Aditus ad antrum",
+    "Membrane tympanique",
+    "Promontoire",
+    "Fenêtre ronde (fenêtre cochléaire)",
+    "Fenêtre ovale (fenêtre vestibulaire)"
+   ],
+   "answer": 4,
+   "explanation": "La platine de l'étrier est fixée dans la fenêtre ovale de la paroi médiale de l'oreille moyenne par le ligament annulaire et transmet les vibrations à la périlymphe. Dans l'otospongiose, une néoformation osseuse fige l'étrier et entraîne une surdité de transmission. La fenêtre ronde est fermée par la membrane tympanique secondaire.",
+   "entries": [
+    "ossicula-auditus",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "sk-11bbc925",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle vertèbre n'a pas de corps vertébral ?",
+   "options": [
+    "Première vertèbre thoracique",
+    "Cinquième vertèbre lombale",
+    "Axis (C2)",
+    "Vertèbre proéminente (C7)",
+    "Atlas (C1)"
+   ],
+   "answer": 4,
+   "explanation": "Au cours du développement, le corps de l'atlas se joint à l'axis pour former la dent. L'atlas est un anneau formé des arcs antérieur et postérieur et de deux masses latérales ; à la place du processus épineux, il porte un tubercule postérieur.",
+   "entries": [
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-a2272b62",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans le foramen transversaire de quelle vertèbre l'artère vertébrale pénètre-t-elle habituellement pour commencer son ascension ?",
+   "options": [
+    "C6",
+    "C4",
+    "C7",
+    "C1",
+    "C5"
+   ],
+   "answer": 0,
+   "explanation": "L'artère vertébrale, première branche de l'artère subclavière, pénètre typiquement dans le foramen transversaire de C6, monte dans les foramens de C6 à C1 et entre dans le crâne par le foramen magnum. Seule la veine vertébrale traverse généralement le foramen transversaire de C7.",
+   "entries": [
+    "vertebrae-cervicales",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-75fe34b4",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle vertèbre possède le processus épineux le plus saillant à la palpation de la nuque ?",
+   "options": [
+    "C7 (vertèbre proéminente)",
+    "T4",
+    "C2 (axis)",
+    "C1 (atlas)",
+    "C5"
+   ],
+   "answer": 0,
+   "explanation": "Le long processus épineux non bifide de C7 se palpe facilement à la base du cou et sert de point de départ pour compter les vertèbres. Les processus épineux de C2 à C6 sont courts et bifides.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2b8ee94c",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles vertèbres portent sur leur corps des surfaces articulaires (fossettes costales) pour la tête des côtes ?",
+   "options": [
+    "Vertèbres thoraciques",
+    "Vertèbres cervicales",
+    "Vertèbres lombales",
+    "Vertèbres coccygiennes",
+    "Vertèbres sacrales"
+   ],
+   "answer": 0,
+   "explanation": "Les vertèbres thoraciques portent sur leur corps des surfaces pour la tête costale et, sur leurs processus transverses (sauf T11–T12), des surfaces pour le tubercule costal. Leur corps est en forme de cœur et leur processus épineux long et oblique en bas.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-98dc357c",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Les processus mamillaire et accessoire sont propres à quelles vertèbres ?",
+   "options": [
+    "Vertèbres cervicales",
+    "Vertèbres sacrales",
+    "Vertèbres lombales",
+    "Atlas et axis",
+    "Vertèbres thoraciques"
+   ],
+   "answer": 2,
+   "explanation": "Les vertèbres lombales portent un processus mamillaire au bord postérieur du processus articulaire supérieur et un processus accessoire à la racine du processus transverse ; les muscles profonds du dos s'y insèrent. Leur corps est volumineux et réniforme, sans foramen transversaire ni surface costale.",
+   "entries": [
+    "vertebrae-lumbales",
+    "mm-transversospinales"
+   ]
+  },
+  {
+   "id": "sk-d9e58822",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Par quel orifice introduit-on l'aiguille lors d'une anesthésie péridurale caudale ?",
+   "options": [
+    "Foramens sacraux antérieurs",
+    "Foramens sacraux postérieurs",
+    "Canal obturateur",
+    "Hiatus sacral",
+    "Grand foramen ischiatique"
+   ],
+   "answer": 3,
+   "explanation": "Les lames de S4–S5 ne fusionnant pas, il persiste un hiatus sacral à la face postérieure du sacrum. Les cornes sacrales de part et d'autre servent de repère ; l'aiguille est poussée dans l'espace épidural du canal sacral.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-0bec5b45",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle structure forme la limite postérieure du détroit supérieur du bassin ?",
+   "options": [
+    "Crête iliaque",
+    "Pointe du coccyx",
+    "Épine ischiatique",
+    "Promontoire du sacrum",
+    "Hiatus sacral"
+   ],
+   "answer": 3,
+   "explanation": "Le détroit supérieur est limité en arrière par le promontoire, latéralement par la ligne arquée et le pecten du pubis, et en avant par le bord supérieur de la symphyse pubienne. Le conjugué obstétrical est la plus courte distance entre le promontoire et la face postérieure de la symphyse.",
+   "entries": [
+    "os-sacrum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-db733329",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Après le port d'une charge lourde, un homme de 45 ans décrit une douleur irradiant des lombes à la face latérale de la jambe, au dos du pied et au gros orteil, avec une faiblesse de l'extension du gros orteil. Quel est le diagnostic le plus probable ?",
+   "options": [
+    "Hernie discale S1–S2 comprimant la racine S2",
+    "Hernie discale L5–S1 comprimant la racine S1",
+    "Hernie discale L4–L5 comprimant la racine L5",
+    "Hernie discale L1–L2 comprimant le cône médullaire",
+    "Hernie discale L3–L4 comprimant la racine L4"
+   ],
+   "answer": 2,
+   "explanation": "Les hernies discales lombales sont le plus souvent postéro-latérales et compriment la racine sous-jacente : une hernie L4–L5 atteint la racine L5. L5 : sensibilité de la face latérale de jambe, du dos du pied et de l'hallux, force du long extenseur de l'hallux. S1 : bord latéral du pied, réflexe achilléen ; L4 : réflexe rotulien et face médiale de jambe.",
+   "entries": [
+    "vertebrae-lumbales",
+    "discus-intervertebralis",
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "sk-2249b2c3",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament maintient la dent de l'axis contre l'arc antérieur de l'atlas ?",
+   "options": [
+    "Ligament jaune",
+    "Ligaments alaires",
+    "Ligament longitudinal antérieur",
+    "Ligament de l'apex de la dent",
+    "Ligament transverse de l'atlas"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament transverse de l'atlas (branche horizontale du ligament cruciforme) entoure la dent par l'arrière et l'applique contre l'arc antérieur de l'atlas. Sa rupture (p. ex. polyarthrite rhumatoïde, trisomie 21) peut entraîner une compression médullaire par la dent.",
+   "entries": [
+    "axis",
+    "atlas",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "sk-e8c060fb",
+   "group": "Cage thoracique",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "L'angle sternal, repère pour compter les côtes à l'examen du thorax, est situé au niveau de l'articulation de quel cartilage costal ?",
+   "options": [
+    "7e côte",
+    "2e côte",
+    "4e côte",
+    "1re côte",
+    "3e côte"
+   ],
+   "answer": 1,
+   "explanation": "L'angle sternal (angle de Louis) est la jonction du manubrium et du corps du sternum ; les 2es cartilages costaux s'y articulent de chaque côté. Il se palpe facilement en avant : on repère la 2e côte puis on compte vers le bas.",
+   "entries": [
+    "sternum",
+    "costae",
+    "cartilagines-costales"
+   ]
+  },
+  {
+   "id": "sk-5ac9e561",
+   "group": "Cage thoracique",
+   "level": "tus",
+   "clinical": false,
+   "stem": "À propos du plan horizontal passant par l'angle sternal (T4–T5), laquelle de ces propositions est FAUSSE ?",
+   "options": [
+    "L'arc aortique commence et se termine dans ce plan.",
+    "L'œsophage traverse le diaphragme à ce niveau.",
+    "La veine azygos se jette dans la veine cave supérieure à ce niveau.",
+    "Il sépare le médiastin supérieur et inférieur.",
+    "La trachée se divise à ce niveau."
+   ],
+   "answer": 1,
+   "explanation": "Le plan de l'angle sternal est un repère thoracique majeur : limite entre médiastin supérieur et inférieur, bifurcation trachéale, début et fin de l'arc aortique, abouchement de l'azygos dans la VCS et passage à gauche du conduit thoracique se situent à ce niveau. L'œsophage traverse le diaphragme en T10.",
+   "entries": [
+    "sternum",
+    "trachea",
+    "aorta",
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "sk-b9caecf9",
+   "group": "Cage thoracique",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles sont les « côtes flottantes » ?",
+   "options": [
+    "10e et 11e côtes",
+    "11e et 12e côtes",
+    "8e, 9e et 10e côtes",
+    "6e et 7e côtes",
+    "1re et 2e côtes"
+   ],
+   "answer": 1,
+   "explanation": "Les côtes 1 à 7 sont des vraies côtes reliées directement au sternum. Les cartilages des côtes 8 à 10 rejoignent le cartilage sus-jacent (fausses côtes). Les extrémités antérieures des côtes 11 et 12 sont libres (côtes flottantes).",
+   "entries": [
+    "costae",
+    "cartilagines-costales"
+   ]
+  },
+  {
+   "id": "sk-be399078",
+   "group": "Cage thoracique",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle structure chemine dans la gouttière située en arrière du tubercule du scalène antérieur sur la première côte ?",
+   "options": [
+    "Nerf phrénique",
+    "Conduit thoracique",
+    "Artère subclavière",
+    "Veine subclavière",
+    "Artère thoracique interne"
+   ],
+   "answer": 2,
+   "explanation": "Le scalène antérieur s'insère sur le tubercule de la 1re côte. La veine subclavière occupe la gouttière en avant du tubercule ; l'artère subclavière et le tronc inférieur du plexus brachial la gouttière en arrière (sillon de l'artère subclavière). L'artère et le plexus passent dans le défilé des scalènes, la veine en avant du muscle.",
+   "entries": [
+    "costae",
+    "a-subclavia",
+    "mm-scaleni"
+   ]
+  },
+  {
+   "id": "sk-1ca5b2b4",
+   "group": "Cage thoracique",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Lors d'une thoracentèse, où faut-il introduire l'aiguille pour épargner les vaisseaux et le nerf intercostaux ?",
+   "options": [
+    "Juste au-dessus du bord supérieur de la côte inférieure",
+    "Exactement à mi-distance entre deux côtes",
+    "Juste sous le bord inférieur de la côte supérieure",
+    "Dans le sillon costal, en dedans de l'angle costal",
+    "Au-dessus du cartilage costal"
+   ],
+   "answer": 0,
+   "explanation": "La veine, l'artère et le nerf intercostaux (VAN de haut en bas) cheminent dans le sillon costal du bord inférieur de la côte. L'aiguille est donc introduite au ras du bord supérieur de la côte inférieure.",
+   "entries": [
+    "costae",
+    "mm-intercostales",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "sk-b337c3b1",
+   "group": "Cage thoracique",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Une jeune femme ressent un engourdissement et un refroidissement de la main quand elle lève le bras ; la radiographie du cou montre une côte cervicale. Quelle structure est le plus souvent comprimée dans ce cas ?",
+   "options": [
+    "Nerf phrénique",
+    "Tronc supérieur du plexus brachial (C5–C6)",
+    "Tronc inférieur du plexus brachial (C8–T1)",
+    "Veine jugulaire interne",
+    "Nerf accessoire"
+   ],
+   "answer": 2,
+   "explanation": "La côte cervicale (issue de C7) provoque un syndrome du défilé thoracique. Le tronc inférieur (C8–T1) et l'artère subclavière sont comprimés en passant sur la côte ou sa bande fibreuse ; il en résulte des paresthésies du bord ulnaire de la main, une faiblesse des muscles intrinsèques et des signes vasculaires.",
+   "entries": [
+    "costae",
+    "vertebrae-cervicales",
+    "plexus-brachialis",
+    "a-subclavia"
+   ]
+  },
+  {
+   "id": "sk-9947b15d",
+   "group": "Cage thoracique",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel niveau vertébral correspond le plus souvent le processus xiphoïde ?",
+   "options": [
+    "T9–T10",
+    "T4–T5",
+    "T12–L1",
+    "T6–T7",
+    "L1–L2"
+   ],
+   "answer": 0,
+   "explanation": "L'articulation xipho-sternale se situe environ en regard de T9. Le xiphoïde peut rester cartilagineux jusqu'à un âge avancé ; la ligne blanche et la partie sternale du diaphragme s'y insèrent.",
+   "entries": [
+    "sternum",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "sk-89cf3635",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel os est le premier à s'ossifier chez l'embryon ?",
+   "options": [
+    "Clavicule",
+    "Os pariétal",
+    "Mandibule",
+    "Humérus",
+    "Fémur"
+   ],
+   "answer": 0,
+   "explanation": "La clavicule commence à s'ossifier dès la 5e–6e semaine ; sa diaphyse s'ossifie sur membrane (ossification membraneuse) et ses extrémités sur cartilage. Chez l'adulte, c'est l'un des os les plus souvent fracturés.",
+   "entries": [
+    "clavicula"
+   ]
+  },
+  {
+   "id": "sk-8791a2dc",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un enfant tombé de vélo présente une fracture de la clavicule à la jonction des tiers moyen et latéral. Quel muscle attire le fragment médial vers le haut ?",
+   "options": [
+    "Grand pectoral",
+    "Deltoïde",
+    "Trapèze",
+    "Sterno-cléido-mastoïdien",
+    "Subclavier"
+   ],
+   "answer": 3,
+   "explanation": "Dans cette fracture, le fragment médial est attiré vers le haut par le chef claviculaire du sterno-cléido-mastoïdien. Le fragment latéral est abaissé par le poids du bras et attiré en dedans par le grand pectoral et le grand dorsal ; l'épaule paraît abaissée et portée en avant.",
+   "notes": [
+    "Il attire le fragment latéral en dedans.",
+    "Il s'insère sur le fragment latéral.",
+    "Il s'insère sur le tiers latéral ; il tente de soutenir le fragment latéral mais ne peut vaincre le poids du bras.",
+    "",
+    "Il protège les vaisseaux subclaviers ; il n'attire pas le fragment vers le haut."
+   ],
+   "entries": [
+    "clavicula",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-82483548",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle structure passe sous le ligament transverse supérieur de la scapula qui ponte l'incisure scapulaire ?",
+   "options": [
+    "Nerf dorsal de la scapula",
+    "Nerf suprascapulaire",
+    "Nerf axillaire",
+    "Artère circonflexe de la scapula",
+    "Artère suprascapulaire"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf suprascapulaire passe sous le ligament et l'artère suprascapulaire au-dessus. La calcification du ligament ou une compression dans l'incisure entraîne faiblesse et amyotrophie du supra- et de l'infra-épineux.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus",
+    "m-infraspinatus"
+   ]
+  },
+  {
+   "id": "sk-4471bbd9",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Laquelle de ces structures NE s'insère PAS sur le processus coracoïde ?",
+   "options": [
+    "Chef court du biceps brachial",
+    "Coraco-brachial",
+    "Ligament coraco-claviculaire",
+    "Chef long du biceps brachial",
+    "Petit pectoral"
+   ],
+   "answer": 3,
+   "explanation": "Le chef long du biceps naît du tubercule supraglénoïdal et traverse la capsule articulaire. Sur le processus coracoïde s'insèrent le petit pectoral, le coraco-brachial, le chef court du biceps et les ligaments coraco-claviculaire, coraco-acromial et coraco-huméral.",
+   "entries": [
+    "scapula",
+    "m-biceps-brachii",
+    "m-pectoralis-minor",
+    "m-coracobrachialis"
+   ]
+  },
+  {
+   "id": "sk-5072fdb2",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Une femme âgée tombée sur l'épaule présente une fracture du col chirurgical de l'humérus. Apparaissent un aplatissement du moignon de l'épaule et une petite zone d'anesthésie à la face latérale de l'épaule. Quel nerf est lésé ?",
+   "options": [
+    "Nerf axillaire",
+    "Nerf suprascapulaire",
+    "Nerf musculo-cutané",
+    "Nerf thoracique long",
+    "Nerf radial"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf axillaire passe avec l'artère circonflexe postérieure de l'humérus dans l'espace quadrangulaire et contourne le col chirurgical par l'arrière. En cas de fracture, le deltoïde et le petit rond s'affaiblissent et la sensibilité est perdue dans la zone du « galon » (nerf cutané latéral supérieur du bras).",
+   "entries": [
+    "humerus",
+    "n-axillaris",
+    "m-deltoideus"
+   ]
+  },
+  {
+   "id": "sk-70dfeb98",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Après une fracture de la partie moyenne de la diaphyse humérale, un patient ne peut plus relever le poignet ni les doigts (main tombante). Quels nerf et artère satellite sont lésés au foyer de fracture ?",
+   "options": [
+    "Nerf médian – artère brachiale",
+    "Nerf ulnaire – artère collatérale ulnaire supérieure",
+    "Nerf radial – artère profonde du bras",
+    "Nerf axillaire – artère circonflexe postérieure de l'humérus",
+    "Nerf musculo-cutané – artère brachiale"
+   ],
+   "answer": 2,
+   "explanation": "Le nerf radial et l'artère profonde du bras sont plaqués contre l'os dans le sillon du nerf radial, à la face postérieure de l'humérus. Dans les fractures diaphysaires, les extenseurs du poignet et des doigts sont paralysés. Le triceps est généralement épargné car ses branches naissent plus haut.",
+   "entries": [
+    "humerus",
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "sk-4c20df95",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un enfant de 7 ans est amené après une chute avec une fracture supracondylienne de l'humérus. Quelques heures plus tard apparaissent une douleur intense de l'avant-bras, majorée par l'extension passive des doigts, et une abolition du pouls radial. Quel vaisseau est lésé ?",
+   "options": [
+    "Artère brachiale",
+    "Artère profonde du bras",
+    "Artère collatérale ulnaire inférieure",
+    "Artère axillaire",
+    "Origine de l'artère radiale"
+   ],
+   "answer": 0,
+   "explanation": "Dans la fracture supracondylienne, l'extrémité acérée du fragment proximal comprime l'artère brachiale et le nerf médian. La loge antérieure de l'avant-bras devient ischémique ; sans traitement s'installe le syndrome de Volkmann (rétraction ischémique).",
+   "entries": [
+    "humerus",
+    "a-brachialis",
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "sk-7f0d202b",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel nerf chemine dans la gouttière située en arrière de l'épicondyle médial de l'humérus ?",
+   "options": [
+    "Nerf ulnaire",
+    "Nerf musculo-cutané",
+    "Nerf radial",
+    "Nerf cutané médial de l'avant-bras",
+    "Nerf médian"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf ulnaire est superficiel dans le sillon du nerf ulnaire, en arrière de l'épicondyle médial ; la décharge électrique dans la main lors d'un choc du coude (« petit juif ») vient de là. La compression à ce niveau est le syndrome du tunnel cubital.",
+   "entries": [
+    "humerus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-dd4258d5",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur le tubercule mineur de l'humérus ?",
+   "options": [
+    "Infra-épineux",
+    "Petit rond",
+    "Supra-épineux",
+    "Grand rond",
+    "Subscapulaire"
+   ],
+   "answer": 4,
+   "explanation": "Parmi les muscles de la coiffe, le supra-épineux, l'infra-épineux et le petit rond s'insèrent sur le tubercule majeur ; seul le subscapulaire s'insère sur le tubercule mineur et assure la rotation médiale du bras.",
+   "entries": [
+    "humerus",
+    "m-subscapularis"
+   ]
+  },
+  {
+   "id": "sk-6cefc4df",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel muscle s'insère au fond du sillon intertuberculaire ?",
+   "options": [
+    "Deltoïde",
+    "Grand rond",
+    "Grand pectoral",
+    "Grand dorsal",
+    "Coraco-brachial"
+   ],
+   "answer": 3,
+   "explanation": "Le grand pectoral s'insère sur la lèvre latérale du sillon intertuberculaire, le grand rond sur la lèvre médiale et le grand dorsal au fond. Le sillon contient le tendon du chef long du biceps et sa gaine synoviale.",
+   "entries": [
+    "humerus",
+    "m-latissimus-dorsi",
+    "m-pectoralis-major",
+    "m-teres-major"
+   ]
+  },
+  {
+   "id": "sk-66af7b45",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un enfant de 2 ans n'utilise plus son bras et garde l'avant-bras en pronation après que sa mère l'a tiré brusquement par la main. De quel ligament la tête radiale s'est-elle échappée ?",
+   "options": [
+    "Ligament collatéral ulnaire",
+    "Ligament collatéral radial",
+    "Ligament annulaire du radius",
+    "Ligament carré",
+    "Membrane interosseuse de l'avant-bras"
+   ],
+   "answer": 2,
+   "explanation": "La pronation douloureuse (subluxation de la tête radiale) survient chez le jeune enfant car la tête radiale est encore petite ; elle glisse hors du ligament annulaire qui la maintient contre l'incisure radiale de l'ulna. La réduction se fait facilement par supination et flexion.",
+   "entries": [
+    "radius",
+    "artt-radioulnares",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-8eef6564",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Une femme âgée tombée sur la main présente une déformation du poignet « en dos de fourchette ». La radiographie montre une fracture de l'extrémité distale du radius avec déplacement dorsal du fragment distal. Comment s'appelle cette fracture ?",
+   "options": [
+    "Fracture de Pouteau-Colles",
+    "Fracture de Galeazzi",
+    "Fracture de Monteggia",
+    "Fracture de Barton",
+    "Fracture de Goyrand-Smith"
+   ],
+   "answer": 0,
+   "explanation": "Dans la fracture de Pouteau-Colles, le fragment radial distal est déplacé en arrière et en dehors, d'où l'aspect en dos de fourchette de profil. La fracture de Goyrand-Smith en est l'inverse (fragment distal palmaire). La fracture de Monteggia associe fracture de l'ulna et luxation de la tête radiale ; celle de Galeazzi, fracture du radius et luxation radio-ulnaire distale.",
+   "entries": [
+    "radius",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "sk-3a4562c9",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur la tubérosité ulnaire ?",
+   "options": [
+    "Triceps brachial",
+    "Anconé",
+    "Biceps brachial",
+    "Supinateur",
+    "Brachial"
+   ],
+   "answer": 4,
+   "explanation": "Le brachial naît de la moitié inférieure de la face antérieure de l'humérus et s'insère sur le processus coronoïde et la tubérosité ulnaire ; c'est le principal fléchisseur du coude. Le biceps s'insère sur la tubérosité radiale.",
+   "entries": [
+    "ulna",
+    "m-brachialis"
+   ]
+  },
+  {
+   "id": "sk-5d908eec",
+   "group": "Os de la main",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un homme de 22 ans tombé sur la main présente une douleur de la tabatière anatomique ; les premières radiographies sont normales. Deux semaines plus tard, le trait de fracture devient visible. Quelle est la complication la plus redoutée de la fracture de cet os ?",
+   "options": [
+    "Déchirure de l'artère radiale",
+    "Paralysie du nerf ulnaire",
+    "Nécrose avasculaire du fragment proximal",
+    "Nécrose avasculaire du fragment distal",
+    "Syndrome du canal carpien"
+   ],
+   "answer": 2,
+   "explanation": "Le scaphoïde est l'os du carpe le plus souvent fracturé. Ses vaisseaux nourriciers pénètrent surtout par sa partie distale ; dans les fractures du col, la vascularisation du fragment proximal est compromise, avec risque de nécrose avasculaire et de pseudarthrose. Le fond de la tabatière contient le scaphoïde et le trapèze.",
+   "entries": [
+    "os-scaphoideum",
+    "ossa-carpi",
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "sk-93bbc372",
+   "group": "Os de la main",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel os du carpe se luxe le plus souvent, et quel nerf peut-il comprimer lorsqu'il se déplace en avant ?",
+   "options": [
+    "Hamatum – nerf ulnaire",
+    "Scaphoïde – nerf radial",
+    "Pisiforme – nerf ulnaire",
+    "Lunatum – nerf médian",
+    "Capitatum – nerf médian"
+   ],
+   "answer": 3,
+   "explanation": "Le lunatum peut se luxer en avant dans le canal carpien et comprimer le nerf médian. La nécrose avasculaire du lunatum est la maladie de Kienböck.",
+   "entries": [
+    "os-lunatum",
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "sk-cd43228f",
+   "group": "Os de la main",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le pisiforme est un os sésamoïde qui se développe dans le tendon de quel muscle ?",
+   "options": [
+    "Fléchisseur ulnaire du carpe",
+    "Abducteur du petit doigt",
+    "Long palmaire",
+    "Fléchisseur radial du carpe",
+    "Extenseur ulnaire du carpe"
+   ],
+   "answer": 0,
+   "explanation": "Le pisiforme est situé dans le tendon du fléchisseur ulnaire du carpe et s'articule avec le triquetrum. Par les ligaments piso-hamatum et piso-métacarpien, il transmet la force du muscle à l'hamatum et au 5e métacarpien ; l'abducteur du petit doigt y prend naissance.",
+   "entries": [
+    "os-pisiforme",
+    "m-flexor-carpi-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-b5971216",
+   "group": "Os de la main",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un golfeur dont le club a heurté le sol présente une douleur hypothénarienne, un engourdissement des 4e–5e doigts et une faiblesse pour écarter et rapprocher les doigts. Quelle saillie osseuse est fracturée ?",
+   "options": [
+    "Hamulus de l'hamatum",
+    "Tubercule du scaphoïde",
+    "Processus styloïde de l'ulna",
+    "Tubercule du trapèze",
+    "Pisiforme"
+   ],
+   "answer": 0,
+   "explanation": "L'hamulus de l'hamatum forme la paroi latérale du canal de Guyon (canal ulnaire). Sa fracture peut léser le nerf et l'artère ulnaires du canal : hypoesthésie de la face palmaire des 4e–5e doigts et faiblesse des interosseux.",
+   "entries": [
+    "os-hamatum",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-a1b84851",
+   "group": "Os de la main",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Avec quel métacarpien le trapèze forme-t-il une articulation en selle ?",
+   "options": [
+    "3e métacarpien",
+    "4e métacarpien",
+    "5e métacarpien",
+    "1er métacarpien (pouce)",
+    "2e métacarpien"
+   ],
+   "answer": 3,
+   "explanation": "L'articulation trapézo-métacarpienne du pouce est une articulation en selle ; elle permet de larges mouvements dont l'opposition et est un siège fréquent d'arthrose (rhizarthrose) avec l'âge.",
+   "entries": [
+    "os-trapezium",
+    "ossa-metacarpi",
+    "artt-manus"
+   ]
+  },
+  {
+   "id": "sk-341b60e9",
+   "group": "Os de la main",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel est l'os du carpe le plus volumineux et le premier à s'ossifier ?",
+   "options": [
+    "Scaphoïde",
+    "Trapèze",
+    "Capitatum",
+    "Lunatum",
+    "Hamatum"
+   ],
+   "answer": 2,
+   "explanation": "Le capitatum est le plus gros os du carpe et généralement le premier à s'ossifier, au cours de la première année. Il s'articule avec le 3e métacarpien ; l'axe des mouvements du poignet passe le plus souvent par sa tête.",
+   "entries": [
+    "os-capitatum",
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-ac91683a",
+   "group": "Os de la main",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un jeune homme qui a donné un coup de poing dans un mur a perdu le relief de la tête du 5e métacarpien. Quelle est la fracture la plus probable ?",
+   "options": [
+    "Fracture de l'hamulus de l'hamatum",
+    "Fracture du col du 5e métacarpien (fracture du boxeur)",
+    "Fracture de la base du 1er métacarpien (fracture de Bennett)",
+    "Fracture de la phalange distale du 5e doigt",
+    "Fracture du scaphoïde"
+   ],
+   "answer": 1,
+   "explanation": "Un coup de poing fermé contre une surface dure fracture le plus souvent le col du 5e métacarpien ; la tête bascule en palmaire et le relief de la « bosse » disparaît. La fracture de Bennett est une fracture articulaire de la base du 1er métacarpien.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-31d8147a",
+   "group": "Os de la main",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel est l'ordre des os de la rangée proximale du carpe, de dehors (radial) en dedans (ulnaire) ?",
+   "options": [
+    "Scaphoïde, lunatum, triquetrum, pisiforme",
+    "Scaphoïde, triquetrum, lunatum, pisiforme",
+    "Trapèze, trapézoïde, capitatum, hamatum",
+    "Lunatum, scaphoïde, triquetrum, pisiforme",
+    "Pisiforme, triquetrum, lunatum, scaphoïde"
+   ],
+   "answer": 0,
+   "explanation": "Rangée proximale : scaphoïde, lunatum, triquetrum, pisiforme. Rangée distale : trapèze, trapézoïde, capitatum, hamatum. L'articulation radio-carpienne unit le radius et le disque au scaphoïde, au lunatum et au triquetrum.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-9d63d002",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où se rejoignent les trois os qui forment l'os coxal ?",
+   "options": [
+    "À la grande incisure ischiatique",
+    "À l'acétabulum",
+    "À la symphyse pubienne",
+    "Au foramen obturé",
+    "À la crête iliaque"
+   ],
+   "answer": 1,
+   "explanation": "L'ilium, l'ischium et le pubis fusionnent à la puberté au niveau du cartilage en Y de l'acétabulum. Environ 2/5 de l'acétabulum sont formés par l'ilium, 2/5 par l'ischium et 1/5 par le pubis.",
+   "entries": [
+    "os-coxae",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-592e9cb4",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles structures traversent le canal obturateur ?",
+   "options": [
+    "Nerf, artère et veine obturateurs",
+    "Nerf pudendal et artère pudendale interne",
+    "Nerf sciatique et artère glutéale inférieure",
+    "Nerf et artère fémoraux",
+    "Nerf cutané latéral de la cuisse"
+   ],
+   "answer": 0,
+   "explanation": "Le foramen obturé est fermé par la membrane obturatrice, qui laisse seulement le canal obturateur à sa partie haute. Le nerf obturateur et les vaisseaux obturateurs le traversent pour gagner la loge médiale de la cuisse.",
+   "entries": [
+    "os-coxae",
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "sk-ffa0581d",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel nerf quitte le bassin par le grand foramen ischiatique et pénètre dans le périnée par le petit foramen ischiatique ?",
+   "options": [
+    "Nerf sciatique",
+    "Nerf glutéal supérieur",
+    "Nerf pudendal",
+    "Nerf cutané postérieur de la cuisse",
+    "Nerf obturateur"
+   ],
+   "answer": 2,
+   "explanation": "Le nerf pudendal, l'artère pudendale interne et le nerf de l'obturateur interne sortent par le grand foramen ischiatique, contournent l'épine ischiatique et le ligament sacro-épineux, puis entrent dans la fosse ischio-anale et le canal d'Alcock par le petit foramen ischiatique. L'épine ischiatique guide le bloc pudendal.",
+   "entries": [
+    "os-coxae",
+    "n-pudendus",
+    "ligg-pelvis"
+   ]
+  },
+  {
+   "id": "sk-602b0bd7",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Une femme de 78 ans tombée à domicile a la jambe droite raccourcie et en rotation latérale. La radiographie montre une fracture sous-capitale du col fémoral. La lésion de quelle artère est surtout responsable de la nécrose avasculaire de la tête fémorale dans cette fracture ?",
+   "options": [
+    "Artère circonflexe latérale de la cuisse",
+    "Artère obturatrice",
+    "Artère circonflexe médiale de la cuisse",
+    "Artère du ligament de la tête fémorale",
+    "Artère glutéale supérieure"
+   ],
+   "answer": 2,
+   "explanation": "La tête fémorale est principalement vascularisée par les branches rétinaculaires de l'artère circonflexe médiale de la cuisse qui remontent le long du col. Elles sont déchirées dans la fracture. L'artère du ligament de la tête (issue de l'obturatrice) est insuffisante chez l'adulte.",
+   "entries": [
+    "femur",
+    "art-coxae",
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "sk-b5309bbc",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur le petit trochanter ?",
+   "options": [
+    "Ilio-psoas",
+    "Moyen fessier",
+    "Obturateur externe",
+    "Piriforme",
+    "Carré fémoral"
+   ],
+   "answer": 0,
+   "explanation": "Le grand psoas et l'iliaque s'insèrent par un tendon commun sur le petit trochanter ; c'est le plus puissant fléchisseur de la hanche. Les moyen et petit fessiers et le piriforme s'insèrent sur le grand trochanter, l'obturateur externe dans la fosse trochantérique.",
+   "entries": [
+    "femur",
+    "m-iliopsoas"
+   ]
+  },
+  {
+   "id": "sk-c857e576",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Une jeune femme raconte que sa rotule s'est déplacée en dehors après une torsion du genou au volley-ball. Quel est le principal frein dynamique à la luxation latérale de la patella ?",
+   "options": [
+    "Vaste latéral",
+    "Tractus ilio-tibial",
+    "Biceps fémoral",
+    "Fibres inférieures (obliques) du vaste médial",
+    "Droit fémoral"
+   ],
+   "answer": 3,
+   "explanation": "L'angle entre la ligne de traction du quadriceps et le ligament patellaire (angle Q) tend à attirer la patella en dehors. Les fibres inférieures horizontales du vaste médial l'attirent en dedans ; la saillie du condyle fémoral latéral constitue aussi un obstacle osseux.",
+   "entries": [
+    "patella",
+    "m-quadriceps-femoris",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "sk-f1c972ce",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un footballeur frappé à la face latérale de la jambe présente une fracture du col de la fibula. À la marche, la pointe du pied accroche le sol et la sensibilité du dos du pied est perdue. Quel nerf est lésé ?",
+   "options": [
+    "Nerf saphène",
+    "Nerf fémoral",
+    "Nerf sural",
+    "Nerf tibial",
+    "Nerf fibulaire commun"
+   ],
+   "answer": 4,
+   "explanation": "Le nerf fibulaire commun contourne superficiellement le col de la fibula par en dehors. Sa lésion paralyse les muscles des loges antérieure et latérale : pied tombant, steppage et anesthésie du dos du pied et de la face latérale de la jambe.",
+   "entries": [
+    "fibula",
+    "n-fibularis-communis"
+   ]
+  },
+  {
+   "id": "sk-11d29b23",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un garçon de 13 ans qui joue au football présente une tuméfaction douloureuse et palpable sous le genou. Quelle structure est atteinte dans la maladie d'Osgood-Schlatter ?",
+   "options": [
+    "Épicondyle latéral du fémur",
+    "Malléole médiale",
+    "Tubérosité tibiale",
+    "Tubercule intercondylaire",
+    "Tête de la fibula"
+   ],
+   "answer": 2,
+   "explanation": "La maladie d'Osgood-Schlatter est une apophysite due à la traction répétée du ligament patellaire sur l'apophyse de la tubérosité tibiale pendant la croissance rapide. La force des extenseurs du genou est transmise au tibia par cette saillie.",
+   "entries": [
+    "tibia",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-31f5e5f7",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle de ces propositions est vraie pour la malléole latérale ?",
+   "options": [
+    "Elle est plus haute que la malléole médiale.",
+    "Elle ne s'articule pas avec le talus.",
+    "C'est l'extrémité distale du tibia.",
+    "Le tendon du tibial postérieur passe dans la gouttière en arrière d'elle.",
+    "Elle est plus basse et plus postérieure que la malléole médiale."
+   ],
+   "answer": 4,
+   "explanation": "La malléole latérale est l'extrémité inférieure de la fibula, environ 1 cm plus bas et plus en arrière que la malléole médiale. Les tendons des long et court fibulaires passent dans la gouttière en arrière d'elle. Elle s'articule avec la face latérale du talus et forme la branche externe de la mortaise.",
+   "entries": [
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-d87191b8",
+   "group": "Os du pied",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel os du tarse ne reçoit l'insertion d'aucun muscle ?",
+   "options": [
+    "Naviculaire",
+    "Cunéiforme médial",
+    "Cuboïde",
+    "Calcanéus",
+    "Talus"
+   ],
+   "answer": 4,
+   "explanation": "La plus grande partie de la surface du talus est recouverte de cartilage articulaire et aucun muscle ne s'y insère. Sa vascularisation étant limitée et rétrograde, la nécrose avasculaire du corps est fréquente dans les fractures du col.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-8922c8d5",
+   "group": "Os du pied",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel tendon passe dans la gouttière de la face inférieure du sustentaculum tali ?",
+   "options": [
+    "Tibial postérieur",
+    "Tibial antérieur",
+    "Long fléchisseur des orteils",
+    "Long fléchisseur de l'hallux",
+    "Long fibulaire"
+   ],
+   "answer": 3,
+   "explanation": "La saillie en console de la face médiale du calcanéus (sustentaculum tali) soutient le talus. Le tendon du long fléchisseur de l'hallux passe dans la gouttière de sa face inférieure ; celui du long fléchisseur des orteils chemine près de son bord médial.",
+   "entries": [
+    "calcaneus",
+    "m-flexor-hallucis-longus"
+   ]
+  },
+  {
+   "id": "sk-966623d2",
+   "group": "Os du pied",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le principal muscle inséré sur la tubérosité du naviculaire ?",
+   "options": [
+    "Tibial postérieur",
+    "Long fléchisseur des orteils",
+    "Long fibulaire",
+    "Long extenseur de l'hallux",
+    "Tibial antérieur"
+   ],
+   "answer": 0,
+   "explanation": "Le tendon principal du tibial postérieur s'insère sur la tubérosité naviculaire et ses expansions sur les autres os du tarse et les métatarsiens. C'est le plus puissant inverseur du pied et il soutient l'arche longitudinale médiale ; sa dysfonction est une cause fréquente de pied plat acquis.",
+   "entries": [
+    "os-naviculare",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "sk-e633c622",
+   "group": "Os du pied",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel tendon passe dans la gouttière de la face plantaire du cuboïde ?",
+   "options": [
+    "Long fibulaire",
+    "Long fléchisseur de l'hallux",
+    "Tibial postérieur",
+    "Abducteur du petit orteil",
+    "Court fibulaire"
+   ],
+   "answer": 0,
+   "explanation": "Le tendon du long fibulaire croise la plante dans la gouttière plantaire du cuboïde pour s'insérer sur le cunéiforme médial et la base du 1er métatarsien ; il soutient l'arche transversale et assure l'éversion.",
+   "entries": [
+    "os-cuboideum",
+    "m-fibularis-longus"
+   ]
+  },
+  {
+   "id": "sk-e1c8c1c3",
+   "group": "Os du pied",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un basketteur qui s'est tordu la cheville en dedans a mal au bord latéral du pied ; la radiographie montre une fracture-avulsion de la base du 5e métatarsien. Quel muscle a arraché le fragment osseux ?",
+   "options": [
+    "Troisième fibulaire",
+    "Tibial antérieur",
+    "Abducteur du petit orteil",
+    "Long fibulaire",
+    "Court fibulaire"
+   ],
+   "answer": 4,
+   "explanation": "Le court fibulaire s'insère sur la tubérosité du 5e métatarsien. Lors d'une inversion brutale, sa contraction arrache la tubérosité (fracture-avulsion). La fracture plus distale de la jonction métaphyso-diaphysaire (fracture de Jones) est connue pour ses retards de consolidation.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-afe30a76",
+   "group": "Os du pied",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel os se trouve au point le plus haut de l'arche longitudinale médiale du pied, en position de « clé de voûte » ?",
+   "options": [
+    "Tubérosité du calcanéus",
+    "Cunéiforme latéral",
+    "Tête du talus",
+    "Cuboïde",
+    "Base du 5e métatarsien"
+   ],
+   "answer": 2,
+   "explanation": "L'arche longitudinale médiale est formée par le calcanéus, le talus, le naviculaire, les trois cunéiformes et les trois métatarsiens médiaux. La tête du talus en est la clé de voûte, soutenue en dessous par le ligament calcanéo-naviculaire plantaire. La clé de voûte de l'arche latérale est le cuboïde.",
+   "entries": [
+    "talus",
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "sk-8bab82f6",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel nerf traverse le foramen ovale ?",
+   "options": [
+    "Nerf facial",
+    "Nerf mandibulaire (V3)",
+    "Nerf hypoglosse",
+    "Nerf maxillaire (V2)",
+    "Nerf ophtalmique (V1)"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf mandibulaire, l'artère méningée accessoire et le petit nerf pétreux traversent le foramen ovale, dans la grande aile du sphénoïde. Moyen mnémotechnique : V1 par la fissure orbitaire supérieure, V2 par le foramen rond, V3 par le foramen ovale.",
+   "notes": [
+    "Il pénètre par le méat acoustique interne.",
+    "",
+    "Il passe par le canal du nerf hypoglosse.",
+    "Il passe par le foramen rond.",
+    "Il passe par la fissure orbitaire supérieure."
+   ],
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-5f0b04cc",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle structure traverse le foramen épineux ?",
+   "options": [
+    "Artère méningée moyenne",
+    "Artère carotide interne",
+    "Veine jugulaire interne",
+    "Nerf maxillaire",
+    "Grand nerf pétreux"
+   ],
+   "answer": 0,
+   "explanation": "Le foramen épineux est situé en arrière et en dehors du foramen ovale, dans la grande aile ; l'artère méningée moyenne et le rameau méningé du nerf mandibulaire (nerf épineux) le traversent. La branche antérieure de l'artère longe la face interne du ptérion et provoque un hématome extradural lors des fractures.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-3c70aa92",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Laquelle de ces structures NE traverse PAS le foramen jugulaire ?",
+   "options": [
+    "Nerf hypoglosse",
+    "Sinus sigmoïde (veine jugulaire interne)",
+    "Nerf vague",
+    "Nerf accessoire",
+    "Nerf glosso-pharyngien"
+   ],
+   "answer": 0,
+   "explanation": "Les nerfs crâniens IX, X et XI, le sinus sigmoïde et le sinus pétreux inférieur traversent le foramen jugulaire. Le nerf hypoglosse quitte le crâne par le canal du nerf hypoglosse, au-dessus du condyle occipital.",
+   "entries": [
+    "os-occipitale",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-cda51554",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles structures traversent le canal optique ?",
+   "options": [
+    "Nerf oculomoteur et artère ophtalmique",
+    "Nerf optique et veine ophtalmique supérieure",
+    "Artère centrale de la rétine et nerf trochléaire",
+    "Nerf optique et artère ophtalmique",
+    "Nerf naso-ciliaire et nerf optique"
+   ],
+   "answer": 3,
+   "explanation": "Le canal optique est situé entre les racines de la petite aile du sphénoïde ; il livre passage au nerf optique et, en dessous, à l'artère ophtalmique. La veine ophtalmique supérieure, les nerfs III, IV, les branches du V1 et le VI passent par la fissure orbitaire supérieure.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-711ff9cd",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel nerf sort par le foramen stylo-mastoïdien ?",
+   "options": [
+    "Nerf facial",
+    "Nerf accessoire",
+    "Nerf vestibulo-cochléaire",
+    "Corde du tympan",
+    "Nerf glosso-pharyngien"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf facial pénètre par le méat acoustique interne, chemine dans le canal facial et sort par le foramen stylo-mastoïdien entre les processus styloïde et mastoïde ; il donne alors des branches aux muscles de la face avant d'entrer dans la parotide. Dans la paralysie de Bell, on incrimine l'œdème dans ce canal étroit.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-c89d0b9d",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "À quel os appartient la lame criblée, et qu'est-ce qui la traverse ?",
+   "options": [
+    "Os frontal – nerf supra-orbitaire",
+    "Ethmoïde – nerf maxillaire",
+    "Os nasal – nerf ethmoïdal antérieur",
+    "Ethmoïde – filets olfactifs",
+    "Sphénoïde – nerf optique"
+   ],
+   "answer": 3,
+   "explanation": "La lame horizontale perforée de l'ethmoïde forme le toit de la cavité nasale ; les fibres du nerf olfactif issues de l'épithélium olfactif la traversent pour gagner le bulbe olfactif. Les fractures de l'étage antérieur entraînent anosmie et rhinorrhée de LCS.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-64b9533f",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où le sinus maxillaire s'ouvre-t-il dans la cavité nasale ?",
+   "options": [
+    "Méat nasal moyen (hiatus semi-lunaire)",
+    "Récessus sphéno-ethmoïdal",
+    "Méat nasal supérieur",
+    "Nasopharynx",
+    "Méat nasal inférieur"
+   ],
+   "answer": 0,
+   "explanation": "Les sinus frontal, maxillaire et ethmoïdaux antérieurs s'ouvrent dans le méat moyen (hiatus semi-lunaire). Le conduit lacrymo-nasal s'ouvre dans le méat inférieur, les cellules ethmoïdales postérieures dans le méat supérieur et le sinus sphénoïdal dans le récessus sphéno-ethmoïdal. L'ostium du sinus maxillaire étant haut situé, son drainage est difficile.",
+   "notes": [
+    "",
+    "C'est là que s'ouvre le sinus sphénoïdal.",
+    "C'est là que s'ouvrent les cellules ethmoïdales postérieures.",
+    "C'est là que s'ouvre la trompe auditive.",
+    "C'est là que s'ouvre le conduit lacrymo-nasal."
+   ],
+   "entries": [
+    "maxilla",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-114a7cc4",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Où le conduit lacrymo-nasal s'ouvre-t-il dans la cavité nasale ?",
+   "options": [
+    "Méat nasal supérieur",
+    "Hiatus semi-lunaire",
+    "Méat nasal inférieur",
+    "Récessus sphéno-ethmoïdal",
+    "Méat nasal moyen"
+   ],
+   "answer": 2,
+   "explanation": "Le conduit qui descend du sac lacrymal traverse un canal osseux formé par le maxillaire, l'os lacrymal et le cornet inférieur et s'ouvre dans le méat situé sous le cornet inférieur ; c'est pourquoi le nez coule quand on pleure.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-lacrimale"
+   ]
+  },
+  {
+   "id": "sk-ba5a5737",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel os appartient la mince lame papyracée de la paroi médiale de l'orbite ?",
+   "options": [
+    "Os zygomatique",
+    "Maxillaire",
+    "Ethmoïde",
+    "Sphénoïde",
+    "Os lacrymal"
+   ],
+   "answer": 2,
+   "explanation": "La lame orbitaire, fine comme du papier, qui forme la face latérale du labyrinthe ethmoïdal constitue l'essentiel de la paroi médiale de l'orbite. Une ethmoïdite peut diffuser à travers cette paroi mince vers l'orbite et provoquer une cellulite orbitaire.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-7b06e8ab",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Entre quels os se trouve la suture lambdoïde ?",
+   "options": [
+    "L'os occipital et les deux pariétaux",
+    "Les deux pariétaux",
+    "L'os frontal et les deux pariétaux",
+    "L'os temporal et le pariétal",
+    "Le sphénoïde et l'os frontal"
+   ],
+   "answer": 0,
+   "explanation": "La suture lambdoïde unit l'occipital aux pariétaux et a la forme de la lettre grecque λ ; sa rencontre avec la suture sagittale est le lambda, où se ferme la fontanelle postérieure. Les autres propositions correspondent aux sutures coronale, sagittale et squameuse.",
+   "notes": [
+    "",
+    "C'est la suture sagittale.",
+    "C'est la suture coronale.",
+    "C'est la suture squameuse.",
+    "C'est la suture sphéno-frontale."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-66a5569f",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle saillie, située en avant du foramen mandibulaire, donne insertion au ligament sphéno-mandibulaire ?",
+   "options": [
+    "Ligne mylo-hyoïdienne",
+    "Lingula de la mandibule",
+    "Processus coronoïde",
+    "Fossette ptérygoïdienne",
+    "Épine mentonnière"
+   ],
+   "answer": 1,
+   "explanation": "La lingula est une saillie osseuse en forme de languette, à la face interne de la branche mandibulaire, qui recouvre en avant le foramen mandibulaire. Lors du bloc alvéolaire inférieur, la pointe de l'aiguille est dirigée juste au-dessus de la lingula ; le nerf alvéolaire inférieur entre là dans le canal.",
+   "entries": [
+    "mandibula"
+   ]
+  },
+  {
+   "id": "sk-e39de62d",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quels muscles s'insèrent sur les épines mentonnières de la mandibule ?",
+   "options": [
+    "Génioglosse et génio-hyoïdien",
+    "Mentonnier et abaisseur de la lèvre inférieure",
+    "Platysma et abaisseur de l'angle de la bouche",
+    "Mylo-hyoïdien et ventre antérieur du digastrique",
+    "Hyoglosse et génioglosse"
+   ],
+   "answer": 0,
+   "explanation": "Sur la ligne médiane de la face interne de la mandibule, le génioglosse s'insère sur l'épine mentonnière supérieure et le génio-hyoïdien sur l'inférieure. Le mylo-hyoïdien s'insère sur la ligne mylo-hyoïdienne, le ventre antérieur du digastrique dans la fosse digastrique.",
+   "entries": [
+    "mandibula",
+    "m-genioglossus",
+    "m-geniohyoideus"
+   ]
+  },
+  {
+   "id": "sk-4fa063c1",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle structure forme la paroi postérieure de la selle turcique ?",
+   "options": [
+    "Tubercule de la selle",
+    "Sillon préchiasmatique",
+    "Processus clinoïde antérieur",
+    "Sillon carotidien",
+    "Dos de la selle"
+   ],
+   "answer": 4,
+   "explanation": "Le tubercule de la selle est en avant de la selle turcique et le dos de la selle en arrière ; les angles supérieurs du dos forment les processus clinoïdes postérieurs. La pente qui descend en arrière du dos est le clivus.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-a994d076",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quels os forment le clivus ?",
+   "options": [
+    "Les grandes ailes du sphénoïde",
+    "L'ethmoïde et le sphénoïde",
+    "Le corps du sphénoïde et la partie basilaire de l'occipital",
+    "L'os occipital seul",
+    "La partie pétreuse du temporal et l'occipital"
+   ],
+   "answer": 2,
+   "explanation": "Le clivus est la surface inclinée allant du dos de la selle au foramen magnum ; sa partie haute est formée par le corps du sphénoïde, sa partie basse par la partie basilaire de l'occipital. Le pont et l'artère basilaire reposent sur lui ; la synchondrose sphéno-occipitale qui les unit s'ossifie à la puberté.",
+   "entries": [
+    "os-occipitale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-244fa846",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quels nerfs traversent le méat acoustique interne ?",
+   "options": [
+    "Nerf vestibulo-cochléaire et nerf vague",
+    "Nerf trijumeau et nerf facial",
+    "Nerf facial et nerf vestibulo-cochléaire",
+    "Nerf facial et nerf glosso-pharyngien",
+    "Nerf abducens et nerf facial"
+   ],
+   "answer": 2,
+   "explanation": "Le nerf facial (avec le nerf intermédiaire), le nerf vestibulo-cochléaire et l'artère labyrinthique traversent le méat acoustique interne, dans la partie pétreuse du temporal. Un neurinome de l'acoustique à ce niveau peut donner des signes auditifs et faciaux.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-fa671396",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel os forme la paroi médiale de la fosse ptérygo-palatine ?",
+   "options": [
+    "Processus ptérygoïde du sphénoïde",
+    "Maxillaire",
+    "Os palatin (lame perpendiculaire)",
+    "Vomer",
+    "Os zygomatique"
+   ],
+   "answer": 2,
+   "explanation": "La fosse ptérygo-palatine est limitée en avant par la tubérosité maxillaire, en arrière par le processus ptérygoïde et en dedans par la lame perpendiculaire de l'os palatin. Le foramen sphéno-palatin de la paroi médiale la fait communiquer avec la cavité nasale ; elle contient le ganglion ptérygo-palatin et la partie terminale de l'artère maxillaire.",
+   "notes": [
+    "Il forme la paroi postérieure.",
+    "Il forme la paroi antérieure.",
+    "",
+    "Il fait partie du septum nasal.",
+    "Il n'est pas en rapport avec la fosse."
+   ],
+   "entries": [
+    "os-palatinum",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-11e451f6",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le foramen transversaire est propre à quelles vertèbres ?",
+   "options": [
+    "Vertèbres coccygiennes",
+    "Vertèbres lombales",
+    "Vertèbres sacrales",
+    "Vertèbres thoraciques",
+    "Vertèbres cervicales"
+   ],
+   "answer": 4,
+   "explanation": "L'artère et la veine vertébrales traversent les foramens des processus transverses des vertèbres cervicales ; l'artère y entre le plus souvent en C6, et seule la veine traverse le foramen de C7. Ce foramen est le critère le plus fiable pour reconnaître une vertèbre cervicale.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2f1cd430",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles sont les caractéristiques distinctives des vertèbres lombales ?",
+   "options": [
+    "Un processus en forme de dent dirigé vers le haut",
+    "Corps en forme de cœur et surfaces costales",
+    "Grand corps réniforme, processus épineux épais et rectangulaire et surfaces articulaires dans le plan sagittal",
+    "Forme d'anneau sans corps",
+    "Processus épineux bifide et foramen transversaire"
+   ],
+   "answer": 2,
+   "explanation": "Les vertèbres lombales ont les corps les plus volumineux car elles portent le poids ; leurs surfaces articulaires sont dans le plan sagittal, ce qui permet la flexion–extension et limite la rotation. Les autres propositions concernent les vertèbres thoraciques, cervicales, l'atlas et l'axis.",
+   "notes": [
+    "C'est une caractéristique de l'axis.",
+    "C'est une caractéristique des vertèbres thoraciques.",
+    "",
+    "C'est une caractéristique de l'atlas.",
+    "C'est une caractéristique des vertèbres cervicales."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-66abc394",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel niveau la moelle spinale se termine-t-elle habituellement chez l'adulte ?",
+   "options": [
+    "L1–L2",
+    "S2",
+    "L3–L4",
+    "T10",
+    "L5"
+   ],
+   "answer": 0,
+   "explanation": "Chez l'adulte, le cône médullaire se termine en L1–L2 ; chez le nouveau-né, en L3. Le sac dural et l'espace subarachnoïdien s'étendent jusqu'en S2 ; c'est pourquoi la ponction lombale se fait sous la moelle, au niveau de la queue de cheval.",
+   "notes": [
+    "",
+    "C'est le niveau où se termine le sac dural.",
+    "C'est le niveau chez le nouveau-né.",
+    "La moelle descend au-dessous de ce niveau.",
+    "La moelle n'atteint pas ce niveau."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-22554f5b",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le niveau sûr pour une ponction lombale, et quel repère permet de le trouver ?",
+   "options": [
+    "Espace L1–L2 ; extrémités des 12es côtes",
+    "Espace S2–S3 ; ligne unissant les EIPS",
+    "Espace T12–L1 ; angles inférieurs des scapulas",
+    "Espace T10–T11 ; niveau de l'ombilic",
+    "Espace L3–L4 ou L4–L5 ; ligne unissant les points les plus hauts des deux crêtes iliaques (L4)"
+   ],
+   "answer": 4,
+   "explanation": "La ligne bi-crête (ligne de Tuffier) passe par le processus épineux de L4 ou l'espace L4–L5. Ce niveau étant sous le cône médullaire, l'aiguille repousse les racines de la queue de cheval pour atteindre l'espace subarachnoïdien.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-ffeae080",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans la spondylolyse, dans quelle partie de la vertèbre siège le défect osseux ?",
+   "options": [
+    "Pédicule",
+    "Isthme (pars interarticularis)",
+    "Jonction médiane des lames",
+    "Bord antérieur du corps vertébral",
+    "Processus transverse"
+   ],
+   "answer": 1,
+   "explanation": "La spondylolyse est une fracture de fatigue de l'isthme situé entre les processus articulaires supérieur et inférieur, le plus souvent en L5. Sur le cliché de trois quarts, elle donne l'aspect d'un « collier sur le chien de Lachapèle » ; bilatérale, elle peut entraîner un glissement antérieur (spondylolisthésis). Le défaut de fusion des lames est le spina bifida.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-8158d007",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Par quel mécanisme survient habituellement la fracture de Jefferson, avec fracture des arcs antérieur et postérieur de l'atlas ?",
+   "options": [
+    "Charge verticale sur le sommet du crâne (compression axiale)",
+    "Arrachement du processus épineux de C7 par traction musculaire",
+    "Luxation articulaire postérieure par rotation",
+    "Fracture des pédicules de l'axis par hyperextension",
+    "Fracture de la dent par flexion brutale"
+   ],
+   "answer": 0,
+   "explanation": "Lors d'une compression axiale (plongeon tête la première en eau peu profonde), les condyles occipitaux écartent les masses latérales de l'atlas et l'anneau se rompt en plusieurs points. Le canal rachidien s'élargissant, il n'y a souvent pas de lésion neurologique. Les autres propositions décrivent les fractures du pendu, de la dent et du « pelleteur ».",
+   "notes": [
+    "",
+    "Cela décrit la fracture du pelleteur (clay-shoveler).",
+    "Cela décrit une luxation articulaire.",
+    "Cela décrit la fracture du pendu.",
+    "Cela décrit une fracture de la dent."
+   ],
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-60976cab",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Comment appelle-t-on la fracture bilatérale de l'isthme (pédicules) de l'axis ?",
+   "options": [
+    "Fracture de la dent type II",
+    "Fracture du pendu",
+    "Fracture de Jefferson",
+    "Fracture du pelleteur",
+    "Fracture de Chance"
+   ],
+   "answer": 1,
+   "explanation": "Les pédicules de C2 se rompent en hyperextension-distraction ; la pendaison ou le choc du menton contre le tableau de bord sans ceinture en sont les mécanismes typiques. La fracture de Chance est une fracture thoraco-lombale en flexion-distraction liée à la ceinture de sécurité.",
+   "entries": [
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-4cebc960",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles structures sortent par les foramens sacraux antérieurs ?",
+   "options": [
+    "Artère sacrale médiane",
+    "Rameaux postérieurs des nerfs spinaux sacraux",
+    "Rameaux antérieurs des nerfs spinaux sacraux",
+    "Filum terminal",
+    "Tronc sympathique"
+   ],
+   "answer": 2,
+   "explanation": "Les rameaux antérieurs de S1 à S4 sortent par les quatre paires de foramens de la face antérieure (pelvienne) du sacrum et rejoignent le plexus sacral ; les rameaux postérieurs sortent par les foramens sacraux postérieurs. Le filum terminal sort par le hiatus sacral.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-a851a348",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles saillies limitent de part et d'autre le hiatus sacral ?",
+   "options": [
+    "Crête sacrale latérale",
+    "Aile du sacrum",
+    "Cornes coccygiennes",
+    "Promontoire",
+    "Cornes sacrales"
+   ],
+   "answer": 4,
+   "explanation": "Les lames de S5 ne fusionnant pas, le canal sacral s'ouvre en bas par le hiatus sacral ; les cornes sacrales, de chaque côté, sont palpables et servent de repère pour l'aiguille dans la péridurale caudale.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-dbfed2d8",
+   "group": "Cage thoracique",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles sont les côtes atypiques ?",
+   "options": [
+    "8e, 9e et 10e côtes",
+    "1re, 2e, 10e, 11e et 12e côtes",
+    "Seulement les 1re, 2e et 12e côtes",
+    "Côtes 1 à 7",
+    "1re, 11e et 12e côtes"
+   ],
+   "answer": 1,
+   "explanation": "Une côte typique comporte une tête (à deux surfaces articulaires), un col, un tubercule et un corps. La 1re côte est la plus courte, la plus large et la plus courbée ; la 2e porte la tubérosité du dentelé antérieur ; la tête des côtes 10 à 12 n'a qu'une surface articulaire, et les 11e et 12e n'ont ni col ni tubercule.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-f4babc11",
+   "group": "Cage thoracique",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle structure chemine dans la gouttière située en avant du tubercule du scalène sur la première côte ?",
+   "options": [
+    "Veine subclavière",
+    "Artère subclavière",
+    "Conduit thoracique",
+    "Tronc inférieur du plexus brachial",
+    "Nerf phrénique"
+   ],
+   "answer": 0,
+   "explanation": "Le scalène antérieur, inséré sur le tubercule, sépare la veine subclavière (en avant) de l'artère subclavière et du tronc inférieur du plexus brachial (en arrière). C'est pourquoi, lors de la ponction de la veine subclavière, l'aiguille reste en avant du muscle.",
+   "notes": [
+    "",
+    "Elle passe dans la gouttière en arrière du tubercule.",
+    "Il se jette dans l'angle veineux gauche ; il ne chemine pas sur la côte.",
+    "Il passe en arrière du tubercule avec l'artère.",
+    "Il descend sur la face antérieure du scalène antérieur ; il ne chemine pas dans la gouttière."
+   ],
+   "entries": [
+    "costae",
+    "m-scalenus-anterior"
+   ]
+  },
+  {
+   "id": "sk-f743fb58",
+   "group": "Cage thoracique",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Que désigne le mouvement en « bras de pompe » au cours de la respiration ?",
+   "options": [
+    "L'abaissement du sternum",
+    "L'élévation des côtes supérieures et du sternum, qui augmente le diamètre antéro-postérieur du thorax",
+    "L'écartement latéral des côtes inférieures, qui augmente le diamètre transversal",
+    "L'abaissement du diaphragme, qui augmente le diamètre vertical",
+    "La rotation des côtes en dedans autour du rachis"
+   ],
+   "answer": 1,
+   "explanation": "À l'inspiration, les côtes supérieures portent le sternum en avant et en haut et augmentent le diamètre antéro-postérieur (bras de pompe) ; les côtes inférieures s'écartent latéralement et augmentent le diamètre transversal (anse de seau). Le diamètre vertical augmente par la contraction du diaphragme.",
+   "notes": [
+    "Il se produit à l'expiration.",
+    "",
+    "C'est le mouvement en anse de seau.",
+    "C'est la contraction du diaphragme.",
+    "Ce mouvement n'existe pas."
+   ],
+   "entries": [
+    "costae",
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-b83efed6",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle structure passe au-dessus du ligament transverse supérieur de la scapula ?",
+   "options": [
+    "Artère suprascapulaire",
+    "Branche profonde de l'artère cervicale transverse",
+    "Nerf axillaire",
+    "Nerf suprascapulaire",
+    "Nerf dorsal de la scapula"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf suprascapulaire passe sous le ligament qui ponte l'incisure scapulaire, et l'artère suprascapulaire au-dessus. Si le nerf est comprimé dans l'incisure, le supra- et l'infra-épineux s'affaiblissent.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "sk-df043af5",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est la différence entre le col anatomique et le col chirurgical de l'humérus ?",
+   "options": [
+    "Le col chirurgical est le sillon du nerf radial",
+    "Ce sont le même endroit sous deux noms",
+    "Le col anatomique est à l'extrémité inférieure de l'humérus",
+    "Le col anatomique est le rétrécissement juste sous la tête articulaire ; le col chirurgical est la zone fragile sous les tubercules",
+    "Le col chirurgical est juste sous la tête articulaire ; le col anatomique est sous les tubercules"
+   ],
+   "answer": 3,
+   "explanation": "Le col anatomique est le sillon peu profond entre la tête articulaire et les tubercules, où s'insère la capsule. Le col chirurgical est le rétrécissement sous les tubercules ; il se fracture souvent chez le sujet âgé, et le nerf axillaire et l'artère circonflexe postérieure de l'humérus y sont menacés.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-d05233d9",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles structures cheminent dans le sillon du nerf radial de l'humérus ?",
+   "options": [
+    "Nerf axillaire et artère circonflexe postérieure de l'humérus",
+    "Nerf ulnaire et artère collatérale ulnaire supérieure",
+    "Nerf radial et artère profonde du bras",
+    "Nerf médian et artère brachiale",
+    "Nerf musculo-cutané et artère brachiale"
+   ],
+   "answer": 2,
+   "explanation": "Le sillon radial décrit une spirale à la face postérieure de la diaphyse humérale, entre les origines des chefs latéral et médial du triceps. Dans les fractures médio-diaphysaires, le nerf radial est lésé et la main devient tombante ; l'extension du coude est généralement conservée car les branches du triceps naissent plus haut.",
+   "entries": [
+    "humerus",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-338897fa",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur l'olécrâne ?",
+   "options": [
+    "Carré pronateur",
+    "Triceps brachial",
+    "Biceps brachial",
+    "Brachial",
+    "Fléchisseur radial du carpe"
+   ],
+   "answer": 1,
+   "explanation": "Les trois chefs du triceps s'insèrent par un tendon commun sur la face postéro-supérieure de l'olécrâne et étendent le coude. Le brachial s'insère sur la tubérosité ulnaire, le biceps sur la tubérosité radiale.",
+   "entries": [
+    "ulna",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-2525d8eb",
+   "group": "Os du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Avec quelle surface articulaire de l'ulna la tête radiale s'articule-t-elle en haut ?",
+   "options": [
+    "Incisure trochléaire",
+    "Fossette articulaire de la tête radiale",
+    "Capitulum de l'humérus",
+    "Incisure ulnaire du radius",
+    "Incisure radiale de l'ulna"
+   ],
+   "answer": 4,
+   "explanation": "La circonférence articulaire de la tête radiale forme l'articulation radio-ulnaire proximale avec l'incisure radiale de l'ulna et le ligament annulaire. L'incisure trochléaire s'articule avec la trochlée humérale, l'incisure ulnaire du radius avec la tête de l'ulna en bas.",
+   "entries": [
+    "ulna",
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-64db8f92",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle incisure de l'extrémité distale du radius s'articule avec la tête de l'ulna ?",
+   "options": [
+    "Tubercule dorsal (de Lister)",
+    "Processus styloïde du radius",
+    "Surface articulaire carpienne",
+    "Incisure radiale de l'ulna",
+    "Incisure ulnaire du radius"
+   ],
+   "answer": 4,
+   "explanation": "Dans l'articulation radio-ulnaire distale, la tête de l'ulna se loge dans l'incisure ulnaire du radius ; lors de la pronosupination, le radius tourne autour de cette tête ulnaire fixe. L'articulation est stabilisée par le complexe fibrocartilagineux triangulaire (TFCC).",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-814e4ce2",
+   "group": "Os de la main",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est l'ordre des os de la rangée distale du carpe, du côté radial au côté ulnaire ?",
+   "options": [
+    "Scaphoïde, lunatum, triquetrum, pisiforme",
+    "Trapèze, capitatum, trapézoïde, hamatum",
+    "Trapèze, trapézoïde, capitatum, hamatum",
+    "Trapézoïde, trapèze, capitatum, hamatum",
+    "Hamatum, capitatum, trapézoïde, trapèze"
+   ],
+   "answer": 2,
+   "explanation": "De dehors en dedans, la rangée distale comprend le trapèze (côté pouce), le trapézoïde, le capitatum (le plus volumineux) et l'hamatum. La rangée proximale comprend le scaphoïde, le lunatum, le triquetrum et le pisiforme.",
+   "entries": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum",
+    "os-hamatum"
+   ]
+  },
+  {
+   "id": "sk-592c5eaa",
+   "group": "Os de la main",
+   "level": "tus",
+   "clinical": false,
+   "stem": "La maladie de Kienböck est la nécrose avasculaire de quel os ?",
+   "options": [
+    "Capitatum",
+    "Tête fémorale",
+    "Lunatum",
+    "Scaphoïde",
+    "Naviculaire (pied)"
+   ],
+   "answer": 2,
+   "explanation": "La maladie de Kienböck est la nécrose avasculaire du lunatum ; un index radio-ulnaire négatif (ulna courte) en est un facteur de risque. La nécrose idiopathique du scaphoïde est la maladie de Preiser, celle de la tête fémorale la maladie de Legg-Calvé-Perthes et celle du naviculaire du pied la maladie de Köhler.",
+   "notes": [
+    "Il n'a pas de nécrose éponyme propre.",
+    "C'est le siège de la maladie de Legg-Calvé-Perthes.",
+    "",
+    "C'est le siège de la maladie de Preiser.",
+    "C'est le siège de la maladie de Köhler."
+   ],
+   "entries": [
+    "os-lunatum"
+   ]
+  },
+  {
+   "id": "sk-dbb3bf24",
+   "group": "Os de la main",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles structures s'insèrent sur l'hamulus de l'hamatum ?",
+   "options": [
+    "Chef oblique de l'adducteur du pouce",
+    "Tendon du fléchisseur radial du carpe",
+    "Court abducteur et opposant du pouce",
+    "Rétinaculum des fléchisseurs et, parmi les hypothénariens, le court fléchisseur et l'opposant du petit doigt",
+    "Rétinaculum des extenseurs et extenseur ulnaire du carpe"
+   ],
+   "answer": 3,
+   "explanation": "L'hamulus de l'hamatum est le point d'insertion inféro-médial du rétinaculum des fléchisseurs ; le court fléchisseur et l'opposant du petit doigt y naissent aussi. L'hamulus forme la limite latérale du canal de Guyon ; il peut se fracturer au golf et au base-ball et léser la branche profonde du nerf ulnaire.",
+   "entries": [
+    "os-hamatum",
+    "mm-hypothenares"
+   ]
+  },
+  {
+   "id": "sk-d7b7ddde",
+   "group": "Os de la main",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel est le métacarpien le plus court et le plus mobile ?",
+   "options": [
+    "4e métacarpien",
+    "2e métacarpien",
+    "3e métacarpien",
+    "5e métacarpien",
+    "1er métacarpien"
+   ],
+   "answer": 4,
+   "explanation": "Le métacarpien du pouce forme avec le trapèze une articulation en selle qui permet l'opposition. Les 2e et 3e métacarpiens sont les plus fixes (« unité fixe » de la main) ; la base du 3e porte un processus styloïde.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-a9ffa742",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles structures s'insèrent sur l'épine iliaque antéro-supérieure (EIAS) ?",
+   "options": [
+    "Sartorius, tenseur du fascia lata et ligament inguinal",
+    "Chef direct du droit fémoral et ligament ilio-fémoral",
+    "Oblique interne et ligament lacunaire",
+    "Gracile et long adducteur",
+    "Iliaque et petit psoas"
+   ],
+   "answer": 0,
+   "explanation": "Le sartorius et le tenseur du fascia lata naissent de l'EIAS, et le ligament inguinal en part vers le tubercule pubien. Le chef direct du droit fémoral et le ligament ilio-fémoral s'insèrent sur l'EIAI. Chez l'adolescent sportif, le sartorius peut arracher l'EIAS et le droit fémoral l'EIAI.",
+   "notes": [
+    "",
+    "Ces structures s'insèrent sur l'EIAI.",
+    "Le ligament lacunaire va au pubis.",
+    "Ils naissent du pubis.",
+    "Ce sont des structures de la fosse iliaque et du psoas."
+   ],
+   "entries": [
+    "os-coxae",
+    "m-sartorius",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "sk-c9a721e5",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lequel de ces muscles NE naît PAS de la tubérosité ischiatique ?",
+   "options": [
+    "Semi-tendineux",
+    "Chef long du biceps fémoral",
+    "Partie ischio-jambière du grand adducteur",
+    "Semi-membraneux",
+    "Chef court du biceps fémoral"
+   ],
+   "answer": 4,
+   "explanation": "Le chef court naît de la lèvre latérale de la ligne âpre et ne croise que le genou. La tubérosité ischiatique est l'os de la position assise ; les ischio-jambiers et les fibres verticales du grand adducteur en naissent, et le ligament sacro-tubéral s'y insère.",
+   "entries": [
+    "os-coxae",
+    "mm-ischiocrurales",
+    "m-biceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-5fd892d5",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle artère assure l'essentiel de la vascularisation de la tête fémorale chez l'adulte ?",
+   "options": [
+    "L'artère du ligament de la tête fémorale",
+    "Artère circonflexe médiale de la cuisse",
+    "Artère circonflexe latérale de la cuisse",
+    "Artère glutéale supérieure",
+    "Branches perforantes de la fémorale profonde"
+   ],
+   "answer": 1,
+   "explanation": "Chez l'adulte, la tête fémorale est vascularisée surtout par les branches rétinaculaires de l'artère circonflexe médiale de la cuisse qui montent le long du col. Dans les fractures intracapsulaires (sous-capitales), elles sont déchirées et une nécrose avasculaire peut survenir ; l'artère du ligament de la tête contribue peu chez l'adulte.",
+   "entries": [
+    "femur",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-3ce542da",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est approximativement la valeur de l'angle cervico-diaphysaire du fémur chez l'adulte ?",
+   "options": [
+    "150°",
+    "90°",
+    "105°",
+    "170°",
+    "125°"
+   ],
+   "answer": 4,
+   "explanation": "L'angle cervico-diaphysaire mesure environ 150° à la naissance et diminue vers 125° chez l'adulte. Son augmentation nette s'appelle coxa valga, sa diminution coxa vara ; il est un peu plus faible chez la femme en raison du bassin plus large.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-2bd1341c",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel de ces muscles NE naît PAS de la ligne âpre ?",
+   "options": [
+    "Chef court du biceps fémoral",
+    "Vaste médial",
+    "Vaste intermédiaire",
+    "Vaste latéral",
+    "Grand adducteur"
+   ],
+   "answer": 2,
+   "explanation": "Le vaste intermédiaire naît des faces antérieure et latérale de la diaphyse fémorale. Le vaste latéral et le chef court du biceps fémoral naissent de la lèvre latérale de la ligne âpre et le vaste médial de sa lèvre médiale ; les adducteurs s'insèrent sur la ligne âpre.",
+   "entries": [
+    "femur",
+    "m-vastus-intermedius"
+   ]
+  },
+  {
+   "id": "sk-438ad979",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle structure s'insère sur le tubercule de Gerdy ?",
+   "options": [
+    "Tractus ilio-tibial",
+    "Patte d'oie",
+    "Ligament collatéral fibulaire",
+    "Poplité",
+    "Ligament patellaire"
+   ],
+   "answer": 0,
+   "explanation": "Le tubercule de Gerdy est situé à la face antéro-latérale du condyle latéral du tibia ; la bandelette ilio-tibiale s'y insère. Le ligament patellaire s'insère sur la tubérosité tibiale, la patte d'oie sur la face supéro-médiale du tibia et le ligament collatéral latéral sur la tête de la fibula.",
+   "entries": [
+    "tibia",
+    "tractus-iliotibialis"
+   ]
+  },
+  {
+   "id": "sk-eede538b",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles structures s'insèrent sur la tête de la fibula ?",
+   "options": [
+    "Ligament patellaire",
+    "Poplité et ménisque latéral",
+    "Patte d'oie et ligament collatéral tibial",
+    "Tractus ilio-tibial et tenseur du fascia lata",
+    "Le tendon du biceps fémoral et le ligament collatéral fibulaire"
+   ],
+   "answer": 4,
+   "explanation": "Le tendon du biceps fémoral et le ligament collatéral latéral s'insèrent sur la tête de la fibula ; le nerf fibulaire commun contourne juste en dessous le col de la fibula et passe en avant. C'est pourquoi un pied tombant peut survenir dans les fractures du col de la fibula.",
+   "entries": [
+    "fibula",
+    "m-biceps-femoris",
+    "ligg-collateralia-genus"
+   ]
+  },
+  {
+   "id": "sk-7f55ff47",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle proposition concernant la patella est exacte ?",
+   "options": [
+    "Elle est entièrement ossifiée à la naissance",
+    "Elle est située hors de la cavité articulaire du genou",
+    "C'est le plus grand os sésamoïde du corps ; elle se développe dans le tendon du quadriceps",
+    "À sa face postérieure, la facette médiale est plus grande que la latérale",
+    "Elle s'insère sur le condyle médial du tibia par le ligament patellaire"
+   ],
+   "answer": 2,
+   "explanation": "La patella allonge le bras de levier du quadriceps et augmente la force d'extension. À sa face postérieure, la facette latérale est la plus large ; elle est reliée à la tubérosité tibiale par le ligament patellaire et sa face postérieure regarde la cavité articulaire. Son ossification débute entre 3 et 6 ans.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-048b1450",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Qu'indique une fracture de Segond ?",
+   "options": [
+    "Un arrachement au bord du plateau tibial latéral ; elle accompagne une rupture du ligament croisé antérieur",
+    "Une calcification à l'insertion fémorale du ligament collatéral médial",
+    "Une fracture de la tête de la fibula associée à une rupture du ligament croisé postérieur",
+    "Une fracture ostéochondrale lors d'une luxation latérale de la patella",
+    "Un décollement de la tubérosité tibiale par apophysite"
+   ],
+   "answer": 0,
+   "explanation": "La fracture de Segond est l'arrachement d'un petit fragment osseux du plateau tibial latéral par la capsule/le ligament antéro-latéral lors d'une rotation interne et d'un varus forcé du genou ; malgré sa petite taille radiologique, elle signe très souvent une rupture du ligament croisé antérieur. La calcification du ligament collatéral médial est le signe de Pellegrini-Stieda ; l'apophysite tubérositaire, la maladie d'Osgood-Schlatter.",
+   "entries": [
+    "tibia",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "sk-ff3caabb",
+   "group": "Os du pied",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle partie du talus participe à l'articulation talo-crurale (cheville) ?",
+   "options": [
+    "Trochlée du talus",
+    "Sillon du talus",
+    "Tête du talus",
+    "Processus postérieur du talus",
+    "Surface articulaire calcanéenne antérieure"
+   ],
+   "answer": 0,
+   "explanation": "La trochlée du talus s'emboîte dans la mortaise formée par la face inférieure du tibia et les deux malléoles. La trochlée étant plus large en avant, l'articulation est la plus stable en flexion dorsale. La tête du talus s'articule avec le naviculaire.",
+   "entries": [
+    "talus",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-e6838352",
+   "group": "Os du pied",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel os accessoire résulte de la non-fusion du tubercule latéral du processus postérieur du talus ?",
+   "options": [
+    "Os vésalien",
+    "Naviculaire accessoire",
+    "Os trigone",
+    "Os intermétatarsien",
+    "Os péronéen"
+   ],
+   "answer": 2,
+   "explanation": "L'os trigone résulte de l'absence de fusion du tubercule latéral du processus postérieur du talus ; chez les danseurs et les footballeurs, il peut provoquer un conflit postérieur de cheville en flexion plantaire forcée.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-fad5735d",
+   "group": "Os du pied",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le sinus du tarse est l'espace compris entre quels deux os ?",
+   "options": [
+    "Naviculaire et cunéiforme",
+    "Talus et calcanéus",
+    "Calcanéus et cuboïde",
+    "Tibia et fibula",
+    "Talus et naviculaire"
+   ],
+   "answer": 1,
+   "explanation": "Le sinus du tarse est un canal ouvert en dehors, formé par le sillon du talus sous le col du talus et le sillon du calcanéus sur sa face supérieure ; il contient le solide ligament talo-calcanéen interosseux, et le court extenseur des orteils naît en avant de lui.",
+   "entries": [
+    "talus",
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-216c2bbd",
+   "group": "Os du pied",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quels os forment l'arche longitudinale latérale du pied ?",
+   "options": [
+    "Calcanéus, naviculaire et 1er métatarsien",
+    "Calcanéus, talus, naviculaire, cunéiformes et métatarsiens 1 à 3",
+    "Les cunéiformes et les bases métatarsiennes",
+    "Calcanéus, cuboïde et 4e–5e métatarsiens",
+    "Talus, cuboïde et 5e métatarsien"
+   ],
+   "answer": 3,
+   "explanation": "L'arche latérale est basse et proche du sol ; elle importe pour l'appui, et sa clé de voûte est le cuboïde. L'arche médiale est plus haute et formée du calcanéus, du talus, du naviculaire, des trois cunéiformes et des métatarsiens 1 à 3.",
+   "notes": [
+    "C'est une séquence mélangée.",
+    "Cela décrit l'arche longitudinale médiale.",
+    "Cela décrit l'arche transversale.",
+    "",
+    "Le talus ne participe pas à l'arche latérale."
+   ],
+   "entries": [
+    "os-cuboideum",
+    "calcaneus",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-d2649154",
+   "group": "Os du pied",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Au cours des premières semaines de service militaire, une jeune recrue ressent une douleur de l'avant-pied après de longues marches ; la radiographie montre une fracture de fatigue de la diaphyse du 2e métatarsien. Comment appelle-t-on couramment cette fracture ?",
+   "options": [
+    "Lésion de Lisfranc",
+    "Fracture de Pott",
+    "Luxation de Chopart",
+    "Fracture de marche (maladie de Deutschländer)",
+    "Fracture de Jones"
+   ],
+   "answer": 3,
+   "explanation": "Les contraintes répétées provoquent une fracture de fatigue du 2e métatarsien, le plus long et le plus mince ; les premières radiographies peuvent être normales et le cal apparaît après quelques semaines. La fracture de Jones siège à la jonction métaphyso-diaphysaire du 5e métatarsien.",
+   "entries": [
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-1c850577",
+   "group": "Os du pied",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle proposition concernant la fracture de Jones est exacte ?",
+   "options": [
+    "C'est une fracture du col du talus",
+    "Elle siège à la tête du 1er métatarsien",
+    "C'est un arrachement de la tubérosité du 5e métatarsien par le court fibulaire",
+    "Elle siège à la jonction métaphyso-diaphysaire du 5e métatarsien et expose fortement à la pseudarthrose",
+    "C'est une fracture de fatigue du calcanéus"
+   ],
+   "answer": 3,
+   "explanation": "La fracture de Jones siège 1,5 à 3 cm en aval de la tubérosité, dans une zone « de partage des eaux » mal vascularisée ; la pseudarthrose est fréquente et une chirurgie peut être nécessaire. L'arrachement de la tubérosité (pseudo-Jones) résulte de la traction du court fibulaire en inversion et guérit généralement bien.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-251ed70f",
+   "group": "Os du pied",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel tendon s'insère sur la tubérosité calcanéenne ?",
+   "options": [
+    "Tendon calcanéen (d'Achille)",
+    "Tendon du tibial antérieur",
+    "Tendon du long fléchisseur de l'hallux",
+    "Tendon du court fibulaire",
+    "Tendon du tibial postérieur"
+   ],
+   "answer": 0,
+   "explanation": "Le tendon d'Achille, tendon commun du gastrocnémien et du soléaire, s'insère sur la partie moyenne de la face postérieure du talon ; c'est le tendon le plus épais et le plus puissant du corps. La zone située 2 à 6 cm au-dessus de l'insertion est la moins vascularisée et le siège le plus fréquent des ruptures.",
+   "entries": [
+    "calcaneus",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "sk-f0c708e7",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien d'os compte environ le squelette humain adulte ?",
+   "options": [
+    "186",
+    "256",
+    "226",
+    "206",
+    "300"
+   ],
+   "answer": 3,
+   "explanation": "Le squelette adulte compte environ 206 os : 80 dans le squelette axial et 126 dans le squelette appendiculaire. Chez le nouveau-né, on en compte 270 à 300 car de nombreuses pièces ne sont pas encore soudées.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-93d7b509",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est l'os le plus long et le plus solide du corps ?",
+   "options": [
+    "Humérus",
+    "Fibula",
+    "Tibia",
+    "Fémur",
+    "Os coxal"
+   ],
+   "answer": 3,
+   "explanation": "Le fémur (os de la cuisse) est l'os le plus long, le plus lourd et le plus solide du corps ; il représente environ un quart de la taille.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-a3b15dfd",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est le plus petit os du corps ?",
+   "options": [
+    "Os lacrymal",
+    "Malléus (marteau)",
+    "Pisiforme",
+    "Stapes (étrier)",
+    "Incus (enclume)"
+   ],
+   "answer": 3,
+   "explanation": "Des trois osselets de l'oreille moyenne, l'étrier est le plus petit os du corps ; sa platine s'enchâsse dans la fenêtre ovale.",
+   "entries": [
+    "ossicula-auditus"
+   ]
+  },
+  {
+   "id": "sk-59a23a69",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle membrane, riche en vaisseaux et en nerfs, recouvre la face externe de l'os ?",
+   "options": [
+    "Périchondre",
+    "Fascia",
+    "Endoste",
+    "Périoste",
+    "Membrane synoviale"
+   ],
+   "answer": 3,
+   "explanation": "Le périoste recouvre la face externe de l'os ; les cellules de sa couche profonde assurent la croissance en épaisseur et la consolidation des fractures. Les surfaces articulaires n'ont pas de périoste mais du cartilage hyalin. L'endoste tapisse la cavité médullaire.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-4df6a75a",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le corps d'un os long ?",
+   "options": [
+    "Cartilage de croissance",
+    "Diaphyse",
+    "Épiphyse",
+    "Apophyse",
+    "Métaphyse"
+   ],
+   "answer": 1,
+   "explanation": "Le corps d'un os long est la diaphyse, ses extrémités les épiphyses et la zone de croissance intermédiaire la métaphyse. La diaphyse contient la cavité médullaire avec la moelle osseuse.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-45e4abe2",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle cellule détruit (résorbe) l'os ?",
+   "options": [
+    "Fibroblaste",
+    "Ostéocyte",
+    "Ostéoclaste",
+    "Chondrocyte",
+    "Ostéoblaste"
+   ],
+   "answer": 2,
+   "explanation": "Les ostéoclastes sont des cellules multinucléées d'origine monocytaire qui résorbent le tissu osseux. Les ostéoblastes fabriquent l'os et les ostéocytes sont des cellules matures emmurées dans l'os.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-900539f3",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quel tissu les cellules sanguines sont-elles produites ?",
+   "options": [
+    "Périoste",
+    "Os compact",
+    "Cartilage articulaire",
+    "Moelle osseuse rouge",
+    "Moelle osseuse jaune"
+   ],
+   "answer": 3,
+   "explanation": "L'hématopoïèse a lieu dans la moelle rouge. Chez l'adulte, elle se trouve surtout dans les os plats (sternum, côtes, os coxal, vertèbres) ; la moelle des diaphyses devient une moelle jaune graisseuse.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-6f3cbcfe",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Où les os longs grandissent-ils en longueur ?",
+   "options": [
+    "Dans le cartilage articulaire",
+    "Dans l'endoste",
+    "Dans le périoste",
+    "Au milieu de la diaphyse",
+    "Dans le cartilage de croissance (plaque épiphysaire)"
+   ],
+   "answer": 4,
+   "explanation": "La croissance en longueur se fait au niveau du cartilage de croissance de la métaphyse, par multiplication et ossification des chondrocytes ; il se ferme à la fin de la puberté. La croissance en largeur se fait par apposition périostée.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-1a21cd83",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Lequel de ces os appartient au squelette axial ?",
+   "options": [
+    "Scapula",
+    "Humérus",
+    "Clavicule",
+    "Os coxal",
+    "Sternum"
+   ],
+   "answer": 4,
+   "explanation": "Le squelette axial comprend le crâne, la colonne vertébrale et la cage thoracique (sternum et côtes). Clavicule et scapula appartiennent à la ceinture scapulaire, l'os coxal à la ceinture pelvienne et l'humérus au membre supérieur libre.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-2db88c9e",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Lequel de ces os est un os plat ?",
+   "options": [
+    "Vertèbre",
+    "Os pariétal",
+    "Fémur",
+    "Capitatum",
+    "Métacarpien"
+   ],
+   "answer": 1,
+   "explanation": "Les os plats sont minces et larges (voûte du crâne, sternum, côtes, scapula). Le fémur et les métacarpiens sont des os longs, le capitatum un os court et les vertèbres des os irréguliers.",
+   "entries": [
+    "iskelet-genel",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-a98a93de",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Lequel de ces os n'est PAS un sésamoïde ?",
+   "options": [
+    "Fabella",
+    "Lunatum",
+    "Sésamoïde de l'hallux",
+    "Patella",
+    "Pisiforme"
+   ],
+   "answer": 1,
+   "explanation": "Les sésamoïdes se développent dans des tendons : patella, pisiforme, sésamoïdes sous les MP du pouce et de l'hallux et, chez certains, la fabella. Le lunatum est un os court de la rangée proximale du carpe.",
+   "entries": [
+    "ossa-sesamoidea"
+   ]
+  },
+  {
+   "id": "sk-66a08b42",
+   "group": "Crâne (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel os forme le front et le toit des orbites ?",
+   "options": [
+    "Frontal",
+    "Sphénoïde",
+    "Zygomatique",
+    "Ethmoïde",
+    "Pariétal"
+   ],
+   "answer": 0,
+   "explanation": "L'os frontal forme le front par son écaille verticale et, par sa partie orbitaire horizontale, le toit des orbites et le plancher de la fosse crânienne antérieure.",
+   "entries": [
+    "os-frontale"
+   ]
+  },
+  {
+   "id": "sk-cb93516d",
+   "group": "Crâne (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est le seul os du crâne mobile grâce à une articulation synoviale ?",
+   "options": [
+    "Os nasal",
+    "Vomer",
+    "Mandibule",
+    "Maxillaire",
+    "Os zygomatique"
+   ],
+   "answer": 2,
+   "explanation": "Les os du crâne sont solidement unis par des sutures ; la seule articulation mobile est l'articulation temporo-mandibulaire entre la mandibule et l'os temporal.",
+   "entries": [
+    "mandibula",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-4559542c",
+   "group": "Crâne (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on les zones membraneuses non ossifiées entre les os du crâne du nouveau-né ?",
+   "options": [
+    "Fontanelles",
+    "Sutures",
+    "Fissures",
+    "Sinus",
+    "Foramens"
+   ],
+   "answer": 0,
+   "explanation": "Les fontanelles sont des zones membraneuses situées à la rencontre des sutures ; elles permettent le modelage de la tête à l'accouchement et la croissance du cerveau. La plus grande est la fontanelle antérieure.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-f341b2fb",
+   "group": "Crâne (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Entre quels os se trouve la suture sagittale ?",
+   "options": [
+    "Pariétal et temporal",
+    "Entre les deux moitiés du frontal",
+    "Entre les deux pariétaux",
+    "Frontal et pariétal",
+    "Pariétal et occipital"
+   ],
+   "answer": 2,
+   "explanation": "La suture sagittale unit les deux pariétaux sur la ligne médiane. La suture coronale est entre frontal et pariétaux, la lambdoïde entre pariétaux et occipital, la squameuse entre pariétal et temporal.",
+   "entries": [
+    "suturae-fonticuli",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-bb6020cc",
+   "group": "Crâne (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien d'os participent à la formation de l'orbite ?",
+   "options": [
+    "5",
+    "8",
+    "6",
+    "9",
+    "7"
+   ],
+   "answer": 4,
+   "explanation": "L'orbite est formée par sept os : frontal, zygomatique, maxillaire, sphénoïde, ethmoïde, lacrymal et palatin.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-13d66ee5",
+   "group": "Colonne vertébrale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien de vertèbres cervicales compte la colonne vertébrale ?",
+   "options": [
+    "6",
+    "12",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "La colonne compte 7 vertèbres cervicales, 12 thoraciques, 5 lombales, 5 sacrales et 3 à 5 coccygiennes.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-894f664c",
+   "group": "Colonne vertébrale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est le nom particulier de la première vertèbre cervicale (C1) ?",
+   "options": [
+    "Vertèbre proéminente",
+    "Atlas",
+    "Promontoire",
+    "Axis",
+    "Dent"
+   ],
+   "answer": 1,
+   "explanation": "C1 s'appelle l'atlas, C2 l'axis et C7 la vertèbre proéminente. L'atlas n'a ni corps ni processus épineux.",
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-a8bb291d",
+   "group": "Colonne vertébrale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien de vertèbres se soudent pour former le sacrum ?",
+   "options": [
+    "7",
+    "12",
+    "5",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Cinq vertèbres sacrales se soudent pour former le sacrum triangulaire ; les 3 à 5 vertèbres coccygiennes sous-jacentes forment le coccyx.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-d1d02687",
+   "group": "Colonne vertébrale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle courbure du rachis apparaît quand le nourrisson commence à tenir sa tête ?",
+   "options": [
+    "Cyphose sacrale",
+    "Cyphose thoracique",
+    "Lordose cervicale",
+    "Scoliose",
+    "Lordose lombale"
+   ],
+   "answer": 2,
+   "explanation": "Chez le fœtus, le rachis forme une seule courbe en C (cyphose primaire). Quand le nourrisson tient sa tête apparaît la lordose cervicale, puis avec la station assise et la marche la lordose lombale (courbures secondaires).",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-b2c190ac",
+   "group": "Cage thoracique",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien de paires de côtes compte la cage thoracique ?",
+   "options": [
+    "12 paires",
+    "11 paires",
+    "13 paires",
+    "24 paires",
+    "10 paires"
+   ],
+   "answer": 0,
+   "explanation": "L'être humain possède 12 paires (24) de côtes : 7 paires de vraies côtes, 3 de fausses côtes et 2 de côtes flottantes.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-e3425c63",
+   "group": "Cage thoracique",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelles sont les « vraies côtes », reliées directement au sternum par leur propre cartilage ?",
+   "options": [
+    "Côtes 8–10",
+    "Côtes 11–12",
+    "Côtes 1–10",
+    "Côtes 1–12",
+    "Côtes 1–7"
+   ],
+   "answer": 4,
+   "explanation": "Les vraies côtes sont les côtes 1 à 7. Les côtes 8 à 10 rejoignent le cartilage sus-jacent (fausses côtes) et les côtes 11 et 12 ont une extrémité antérieure libre (côtes flottantes).",
+   "entries": [
+    "costae",
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-cd7f4cd1",
+   "group": "Cage thoracique",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelles sont les trois parties du sternum ?",
+   "options": [
+    "Manubrium, angle et corps",
+    "Manubrium, corps et cartilage costal",
+    "Manubrium, corps et processus xiphoïde",
+    "Incisure jugulaire, angle et processus xiphoïde",
+    "Corps, processus xiphoïde et incisure jugulaire"
+   ],
+   "answer": 2,
+   "explanation": "De haut en bas, le sternum comprend le manubrium, le corps et le processus xiphoïde. La jonction manubrium–corps est l'angle sternal (niveau de la 2e côte).",
+   "entries": [
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-0a8d84f1",
+   "group": "Os du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est le seul os du bras ?",
+   "options": [
+    "Scapula",
+    "Humérus",
+    "Ulna",
+    "Clavicule",
+    "Radius"
+   ],
+   "answer": 1,
+   "explanation": "Seul l'humérus se trouve dans le bras ; le radius et l'ulna sont dans l'avant-bras, la clavicule et la scapula dans la ceinture scapulaire.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-b53d9bdb",
+   "group": "Os du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel os se trouve du côté du pouce à l'avant-bras ?",
+   "options": [
+    "Scaphoïde",
+    "Humérus",
+    "Ulna",
+    "Fibula",
+    "Radius"
+   ],
+   "answer": 4,
+   "explanation": "En position anatomique, le radius est du côté latéral (pouce) de l'avant-bras et l'ulna du côté médial (auriculaire).",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-02299d72",
+   "group": "Os du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Avec quel os s'articule l'extrémité médiale de la clavicule ?",
+   "options": [
+    "Sternum (manubrium)",
+    "Corps de la 1re côte",
+    "Vertèbre C7",
+    "Humérus",
+    "Scapula (acromion)"
+   ],
+   "answer": 0,
+   "explanation": "L'extrémité médiale de la clavicule forme l'articulation sterno-claviculaire avec le manubrium ; l'extrémité latérale forme l'acromio-claviculaire avec l'acromion.",
+   "entries": [
+    "clavicula",
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "sk-dc65dbda",
+   "group": "Os du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "L'acromion fait partie de quel os ?",
+   "options": [
+    "1re côte",
+    "Scapula",
+    "Sternum",
+    "Humérus",
+    "Clavicule"
+   ],
+   "answer": 1,
+   "explanation": "L'acromion est l'extrémité latérale de l'épine de la scapula ; il forme le point osseux le plus haut de l'épaule et s'articule avec la clavicule.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-135626d7",
+   "group": "Os du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quelle cavité de la scapula se loge la tête humérale dans l'articulation de l'épaule ?",
+   "options": [
+    "Cavité glénoïdale",
+    "Fosse supra-épineuse",
+    "Fosse subscapulaire",
+    "Fosse olécrânienne",
+    "Acétabulum"
+   ],
+   "answer": 0,
+   "explanation": "La tête humérale forme l'articulation gléno-humérale avec la cavité glénoïdale de la scapula, approfondie par le labrum glénoïdal.",
+   "entries": [
+    "scapula",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "sk-1a79acf4",
+   "group": "Os du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "L'olécrâne, palpable à l'arrière du coude, appartient à quel os ?",
+   "options": [
+    "Scapula",
+    "Humérus",
+    "Radius",
+    "Pisiforme",
+    "Ulna"
+   ],
+   "answer": 4,
+   "explanation": "L'olécrâne est la saillie de l'extrémité proximale de l'ulna ; coude tendu, il pénètre dans la fosse olécrânienne de l'humérus, et le triceps brachial s'y insère.",
+   "entries": [
+    "ulna"
+   ]
+  },
+  {
+   "id": "sk-1924a576",
+   "group": "Os de la main",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien d'os du carpe compte le poignet ?",
+   "options": [
+    "7",
+    "14",
+    "5",
+    "8",
+    "10"
+   ],
+   "answer": 3,
+   "explanation": "Le carpe comprend huit os courts en deux rangées : en haut scaphoïde, lunatum, triquétrum, pisiforme ; en bas trapèze, trapézoïde, capitatum, hamatum.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-cc283b3f",
+   "group": "Os de la main",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien de phalanges possède le pouce ?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Le pouce a deux phalanges (proximale et distale), les autres doigts trois chacun ; la main compte 14 phalanges au total.",
+   "entries": [
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "sk-766cdcb8",
+   "group": "Os du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quels sont les trois os qui forment l'os coxal ?",
+   "options": [
+    "Ischium, fémur et pubis",
+    "Ilium, sacrum et pubis",
+    "Ilium, ischium et pubis",
+    "Ilium, ischium et coccyx",
+    "Sacrum, coccyx et pubis"
+   ],
+   "answer": 2,
+   "explanation": "L'os coxal résulte de la soudure de l'ilium, de l'ischium et du pubis dans l'acétabulum ; elle s'achève à la puberté avec l'ossification du cartilage en Y.",
+   "entries": [
+    "os-coxae",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-e8ec8422",
+   "group": "Os du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle saillie osseuse porte le poids du corps en position assise ?",
+   "options": [
+    "Épine iliaque antéro-supérieure",
+    "Tubérosité ischiatique",
+    "Grand trochanter",
+    "Crête iliaque",
+    "Tubercule pubien"
+   ],
+   "answer": 1,
+   "explanation": "En position assise, le poids repose sur les tubérosités ischiatiques, d'où naissent aussi les ischio-jambiers.",
+   "entries": [
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-fce811c8",
+   "group": "Os du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel os épais, porteur du poids, se trouve du côté médial de la jambe ?",
+   "options": [
+    "Fémur",
+    "Fibula",
+    "Talus",
+    "Patella",
+    "Tibia"
+   ],
+   "answer": 4,
+   "explanation": "Le tibia est l'os épais du côté médial de la jambe et porte l'essentiel du poids ; la fibula, mince et latérale, y contribue peu.",
+   "entries": [
+    "tibia"
+   ]
+  },
+  {
+   "id": "sk-3d64e2a3",
+   "group": "Os du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est l'os de la rotule ?",
+   "options": [
+    "Fabella",
+    "Naviculaire",
+    "Pisiforme",
+    "Talus",
+    "Patella"
+   ],
+   "answer": 4,
+   "explanation": "La patella se développe dans le tendon du quadriceps fémoral ; c'est le plus grand sésamoïde du corps.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-51c47666",
+   "group": "Os du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "À quel os appartient la saillie osseuse du bord externe de la cheville ?",
+   "options": [
+    "Calcanéus",
+    "Tibia (malléole médiale)",
+    "Fibula (malléole latérale)",
+    "Cuboïde",
+    "Talus"
+   ],
+   "answer": 2,
+   "explanation": "La saillie externe est la malléole latérale, extrémité inférieure de la fibula ; la saillie interne est la malléole médiale du tibia. La malléole latérale descend plus bas.",
+   "entries": [
+    "fibula"
+   ]
+  },
+  {
+   "id": "sk-5b89ff5c",
+   "group": "Os du pied",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel os forme le talon ?",
+   "options": [
+    "Cunéiforme médial",
+    "Talus",
+    "Calcanéus",
+    "Cuboïde",
+    "Naviculaire"
+   ],
+   "answer": 2,
+   "explanation": "Le calcanéus est le plus grand os du tarse et forme le talon ; le tendon d'Achille s'insère sur sa tubérosité postérieure.",
+   "entries": [
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-617628de",
+   "group": "Os du pied",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien d'os compte chaque pied ?",
+   "options": [
+    "26",
+    "28",
+    "33",
+    "24",
+    "20"
+   ],
+   "answer": 0,
+   "explanation": "Chaque pied compte 26 os : 7 os du tarse, 5 métatarsiens et 14 phalanges (sans les sésamoïdes).",
+   "entries": [
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-4ce46011",
+   "group": "Os du pied",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel os du tarse se trouve en avant du calcanéus, au bord latéral du pied ?",
+   "options": [
+    "Cunéiforme latéral",
+    "Naviculaire",
+    "5e métatarsien",
+    "Cuboïde",
+    "Talus"
+   ],
+   "answer": 3,
+   "explanation": "Le cuboïde est en avant du calcanéus au bord latéral du pied et s'articule avec les 4e et 5e métatarsiens ; le naviculaire est en avant du talus, du côté médial.",
+   "entries": [
+    "os-cuboideum",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-62a44079",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est l'unité structurale de l'os compact ?",
+   "options": [
+    "Périoste",
+    "Ostéon (système de Havers)",
+    "Lacune",
+    "Chondrone",
+    "Travée"
+   ],
+   "answer": 1,
+   "explanation": "L'os compact est formé d'ostéons, lamelles disposées en anneaux autour d'un canal de Havers central. L'os spongieux est formé de travées.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-ef479b99",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Comment appelle-t-on les fibres de collagène qui fixent solidement le périoste à l'os en y pénétrant ?",
+   "options": [
+    "Fibres élastiques",
+    "Fibres de Sharpey",
+    "Canaux de Volkmann",
+    "Lamelles de Havers",
+    "Fibres réticulées"
+   ],
+   "answer": 1,
+   "explanation": "Les fibres de Sharpey (perforantes) sont d'épais faisceaux de collagène qui passent du périoste dans la matrice osseuse ; elles ancrent aussi tendons et ligaments à l'os.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-545c3b65",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Par quel mode s'ossifient les os de la voûte du crâne ?",
+   "options": [
+    "Ossification hétérotopique",
+    "Ossification enchondrale",
+    "Ossification membranaire",
+    "Croissance cartilagineuse appositionnelle",
+    "Ossification sésamoïde"
+   ],
+   "answer": 2,
+   "explanation": "La voûte du crâne, les os de la face et la plus grande partie de la clavicule se forment directement à partir du mésenchyme par ossification membranaire. La base du crâne, les vertèbres et la plupart des os des membres s'ossifient sur un modèle cartilagineux (enchondrale).",
+   "entries": [
+    "os-structura",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-64644656",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle région radiographie-t-on le plus souvent pour déterminer l'âge osseux ?",
+   "options": [
+    "Main et poignet gauches",
+    "Genou",
+    "Bassin",
+    "Crâne",
+    "Pied"
+   ],
+   "answer": 0,
+   "explanation": "L'âge osseux s'apprécie en comparant les noyaux d'ossification et l'état des cartilages de croissance d'une radiographie de la main et du poignet gauches à un atlas de référence (Greulich–Pyle).",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-7f45caa6",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Chez l'adulte, où réalise-t-on le plus souvent la ponction et la biopsie de moelle osseuse ?",
+   "options": [
+    "Calcanéus",
+    "Clavicule",
+    "Tête fémorale",
+    "Tibia proximal",
+    "Crête iliaque postérieure (autour de l'épine iliaque postéro-supérieure)"
+   ],
+   "answer": 4,
+   "explanation": "Chez l'adulte, la crête iliaque postérieure est préférée car elle est sûre et riche en moelle rouge. Le tibia proximal est utilisé chez le petit enfant.",
+   "entries": [
+    "iskelet-genel",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-efcc65cb",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur le processus mastoïde ?",
+   "options": [
+    "Temporal",
+    "Masséter",
+    "Trapèze",
+    "Platysma",
+    "Sterno-cléido-mastoïdien"
+   ],
+   "answer": 4,
+   "explanation": "Le SCM naît du sternum et de la clavicule et s'insère sur le processus mastoïde et la partie latérale de la ligne nucale supérieure. Le processus mastoïde est absent à la naissance et se développe dans l'enfance sous la traction du muscle.",
+   "entries": [
+    "os-temporale",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-299c3612",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle structure ne passe PAS par le foramen magnum ?",
+   "options": [
+    "Veine jugulaire interne",
+    "Artères vertébrales",
+    "Artère spinale antérieure",
+    "Moelle allongée",
+    "Racine spinale du nerf accessoire"
+   ],
+   "answer": 0,
+   "explanation": "Par le foramen magnum passent la moelle allongée et ses méninges, les artères vertébrales et spinales et les racines spinales du nerf accessoire. La veine jugulaire interne naît au foramen jugulaire.",
+   "entries": [
+    "os-occipitale",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-94a4fb4f",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où le sinus sphénoïdal s'ouvre-t-il dans la cavité nasale ?",
+   "options": [
+    "Méat nasal inférieur",
+    "Méat nasal supérieur",
+    "Récessus sphéno-ethmoïdal",
+    "Méat nasal moyen",
+    "Nasopharynx"
+   ],
+   "answer": 2,
+   "explanation": "Le sinus sphénoïdal s'ouvre dans le récessus sphéno-ethmoïdal, au-dessus et en arrière du cornet supérieur. Les cellules ethmoïdales postérieures s'ouvrent dans le méat supérieur ; les sinus frontal, maxillaire et ethmoïdal antérieur dans le méat moyen ; le conduit lacrymo-nasal dans le méat inférieur.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-f4bad9ce",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quels muscles s'insèrent sur la lame latérale du processus ptérygoïde du sphénoïde ?",
+   "options": [
+    "Masséter et temporal",
+    "Digastrique et stylo-hyoïdien",
+    "Tenseur et élévateur du voile du palais",
+    "Buccinateur et constricteur supérieur du pharynx",
+    "Ptérygoïdien latéral et ptérygoïdien médial"
+   ],
+   "answer": 4,
+   "explanation": "Le chef inférieur du ptérygoïdien latéral naît de la face externe de la lame latérale et le chef profond du ptérygoïdien médial de sa face interne. Le tendon du tenseur du voile du palais se réfléchit autour de l'hamulus de la lame médiale.",
+   "entries": [
+    "os-sphenoidale",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "sk-24639fbf",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est la paroi la plus épaisse de l'orbite ?",
+   "options": [
+    "Paroi latérale",
+    "Plancher",
+    "Paroi médiale",
+    "Apex de l'orbite",
+    "Toit"
+   ],
+   "answer": 0,
+   "explanation": "La paroi latérale, formée par le zygomatique et la grande aile du sphénoïde, est la plus épaisse. La plus mince est la paroi médiale (lame papyracée de l'ethmoïde) ; les fractures en blow-out touchent surtout le plancher.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-fe9c4d6f",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel nerf passe par la fissure orbitaire inférieure ?",
+   "options": [
+    "Nerf infra-orbitaire",
+    "Nerf trochléaire",
+    "Nerf lacrymal",
+    "Nerf frontal",
+    "Nerf abducens"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf maxillaire entre dans l'orbite depuis la fosse ptérygo-palatine par la fissure orbitaire inférieure et devient le nerf infra-orbitaire. Les nerfs frontal, lacrymal, trochléaire et abducens passent par la fissure orbitaire supérieure.",
+   "entries": [
+    "orbita",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-50fc7e36",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel orifice relie la fosse ptérygo-palatine à la fosse crânienne moyenne ?",
+   "options": [
+    "Foramen épineux",
+    "Canal optique",
+    "Foramen ovale",
+    "Foramen rond",
+    "Fissure orbitaire supérieure"
+   ],
+   "answer": 3,
+   "explanation": "Le nerf maxillaire (V2) passe de la fosse crânienne moyenne à la fosse ptérygo-palatine par le foramen rond. Les foramens ovale et épineux débouchent dans la fosse infratemporale.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-c03603d8",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Entre les deux moitiés de quel os se trouve la suture métopique ?",
+   "options": [
+    "Mandibule",
+    "Pariétal",
+    "Sphénoïde",
+    "Occipital",
+    "Frontal"
+   ],
+   "answer": 4,
+   "explanation": "À la naissance, le frontal est formé de deux moitiés ; la suture métopique qui les sépare se ferme en général vers 1–2 ans. Elle persiste chez certains adultes et peut être confondue avec un trait de fracture.",
+   "entries": [
+    "os-frontale",
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-af9c3b69",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Entre quels os se situe la fontanelle postérieure ?",
+   "options": [
+    "Les deux pariétaux et l'occipital",
+    "Sphénoïde et temporal",
+    "Pariétal, temporal et occipital",
+    "Les deux frontaux et les deux pariétaux",
+    "Frontal, pariétal, temporal et sphénoïde"
+   ],
+   "answer": 0,
+   "explanation": "La fontanelle postérieure, triangulaire, se trouve au lambda, entre les deux pariétaux et l'occipital, et se ferme vers 2–3 mois. La fontanelle antérieure est au bregma, entre frontal et pariétaux.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-7e5d8299",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel niveau vertébral se trouve habituellement l'os hyoïde ?",
+   "options": [
+    "C1",
+    "C5",
+    "C3",
+    "C6",
+    "T1"
+   ],
+   "answer": 2,
+   "explanation": "L'os hyoïde se situe en regard de C3. Le bord supérieur du cartilage thyroïde correspond à C4 et le cartilage cricoïde à C6.",
+   "entries": [
+    "os-hyoideum"
+   ]
+  },
+  {
+   "id": "sk-337e8167",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel groupe de dents n'existe pas dans la denture temporaire (dents de lait) ?",
+   "options": [
+    "Prémolaires",
+    "Incisives centrales",
+    "Canines",
+    "Incisives latérales",
+    "Molaires"
+   ],
+   "answer": 0,
+   "explanation": "La denture temporaire compte 20 dents : par hémi-arcade 2 incisives, 1 canine et 2 molaires ; il n'y a pas de prémolaires temporaires. Les prémolaires définitives remplacent les molaires temporaires.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-acf4fff3",
+   "group": "Crâne (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle dent définitive fait éruption en premier ?",
+   "options": [
+    "1re molaire (vers 6 ans)",
+    "1re prémolaire",
+    "Incisive centrale",
+    "Canine",
+    "3e molaire"
+   ],
+   "answer": 0,
+   "explanation": "La première dent définitive à apparaître, en arrière des dents temporaires, est la 1re molaire (« dent de 6 ans ») ; la dernière est la 3e molaire (dent de sagesse).",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-5476a288",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Un corps en forme de cœur et un petit foramen vertébral arrondi caractérisent quelles vertèbres ?",
+   "options": [
+    "Cervicales",
+    "Lombales",
+    "Coccygiennes",
+    "Sacrales",
+    "Thoraciques"
+   ],
+   "answer": 4,
+   "explanation": "Les vertèbres thoraciques ont un corps en forme de cœur et un petit foramen vertébral arrondi ; le corps et les processus transverses portent des surfaces costales. Aux vertèbres cervicales le foramen est triangulaire et large.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-6bfe54be",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles sont les courbures primaires de la colonne vertébrale ?",
+   "options": [
+    "Cyphoses thoracique et sacrale",
+    "Lordose lombale et cyphose sacrale",
+    "Lordoses cervicale et lombale",
+    "Lordose cervicale et cyphose thoracique",
+    "Cyphose thoracique et lordose lombale"
+   ],
+   "answer": 0,
+   "explanation": "Les cyphoses thoracique et sacrale, vestiges de la courbure fœtale en C, sont les courbures primaires ; les lordoses cervicale et lombale apparaissent après la naissance (courbures secondaires).",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-a4798013",
+   "group": "Colonne vertébrale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Par quel foramen intervertébral sort le nerf spinal L4 ?",
+   "options": [
+    "Entre T12 et L1",
+    "Entre L5 et S1",
+    "Entre L4 et L5",
+    "Entre L3 et L4",
+    "Entre L2 et L3"
+   ],
+   "answer": 2,
+   "explanation": "Aux étages thoracique et lombal, les nerfs spinaux sortent sous la vertèbre de même numéro ; le nerf L4 passe dans le foramen L4–L5. Une hernie discale postéro-latérale L4–L5 comprime cependant le plus souvent la racine suivante, L5.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-d8cdddd6",
+   "group": "Cage thoracique",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur la zone rugueuse (tubérosité) de la face externe de la 2e côte ?",
+   "options": [
+    "Dentelé antérieur",
+    "Scalène antérieur",
+    "Petit pectoral",
+    "Grand pectoral",
+    "Subclavier"
+   ],
+   "answer": 0,
+   "explanation": "La 2e côte est atypique : deux fois plus longue que la 1re, elle porte sur sa face externe la tubérosité de la première digitation du dentelé antérieur. Le petit pectoral s'insère sur les 3e–5e côtes, le scalène antérieur et le subclavier sur la 1re.",
+   "entries": [
+    "costae-atypicae",
+    "m-serratus-anterior"
+   ]
+  },
+  {
+   "id": "sk-b9394d0e",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Bras le long du corps, l'angle inférieur de la scapula correspond à quel niveau vertébral ?",
+   "options": [
+    "T2",
+    "T10",
+    "T7",
+    "L1",
+    "T4"
+   ],
+   "answer": 2,
+   "explanation": "L'angle supérieur de la scapula est en regard de T2, l'extrémité médiale de l'épine de T3 et l'angle inférieur de T7. L'angle inférieur sert de repère pour l'examen du thorax et la ponction pleurale.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-c935a47a",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Avec quelle partie de l'ulna s'articule la trochlée humérale ?",
+   "options": [
+    "Tête de l'ulna",
+    "Incisure radiale",
+    "Incisure trochléaire",
+    "Processus styloïde de l'ulna",
+    "Tubérosité ulnaire"
+   ],
+   "answer": 2,
+   "explanation": "La trochlée humérale, en forme de poulie, s'emboîte dans l'incisure trochléaire de l'ulna entre l'olécrâne et le processus coronoïde, formant l'articulation huméro-ulnaire en charnière. Le capitulum s'articule avec la tête radiale.",
+   "entries": [
+    "humerus",
+    "ulna",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-fffabda4",
+   "group": "Os du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur la tubérosité radiale ?",
+   "options": [
+    "Brachial",
+    "Biceps brachial",
+    "Triceps brachial",
+    "Supinateur",
+    "Rond pronateur"
+   ],
+   "answer": 1,
+   "explanation": "Le tendon du biceps brachial s'insère sur la tubérosité radiale sous le col du radius, ce qui en fait un puissant supinateur. Le brachial s'insère sur la tubérosité ulnaire, le rond pronateur au milieu de la face latérale du radius.",
+   "entries": [
+    "radius",
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-afaac4c9",
+   "group": "Os de la main",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles sont les insertions latérales (radiales) du rétinaculum des fléchisseurs ?",
+   "options": [
+    "Tubercule du scaphoïde et tubercule du trapèze",
+    "Capitatum et trapézoïde",
+    "Base du 1er métacarpien et lunatum",
+    "Pisiforme et hamulus de l'hamatum",
+    "Styloïde radiale et lunatum"
+   ],
+   "answer": 0,
+   "explanation": "Le rétinaculum des fléchisseurs s'insère en dehors sur les tubercules du scaphoïde et du trapèze, en dedans sur le pisiforme et l'hamulus de l'hamatum ; il forme le toit du canal carpien.",
+   "entries": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "os-trapezium"
+   ]
+  },
+  {
+   "id": "sk-63af94e3",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Les fossettes cutanées du bas du dos (fossettes de Vénus) repèrent quel relief osseux et à quel niveau vertébral ?",
+   "options": [
+    "Point le plus haut de la crête iliaque – L4",
+    "Épine iliaque postéro-supérieure – S2",
+    "Épine iliaque antéro-supérieure – L4",
+    "Épine ischiatique – S3",
+    "Tubérosité ischiatique – S4"
+   ],
+   "answer": 1,
+   "explanation": "Les fossettes de la région sacro-iliaque repèrent les EIPS et correspondent à S2, niveau où se terminent aussi le sac dural et l'espace sous-arachnoïdien.",
+   "entries": [
+    "os-coxae",
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-736237ad",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur la ligne pectinée du fémur ?",
+   "options": [
+    "Vaste médial",
+    "Grand fessier",
+    "Long adducteur",
+    "Ilio-psoas",
+    "Pectiné"
+   ],
+   "answer": 4,
+   "explanation": "Le pectiné naît du pecten du pubis et s'insère sur la ligne pectinée sous le petit trochanter. L'ilio-psoas s'insère sur le petit trochanter, le grand fessier sur la tubérosité glutéale.",
+   "entries": [
+    "femur",
+    "m-pectineus"
+   ]
+  },
+  {
+   "id": "sk-fecd544c",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel muscle s'insère sur le tubercule de l'adducteur du fémur ?",
+   "options": [
+    "Grand adducteur (partie ischio-jambière)",
+    "Vaste médial",
+    "Long adducteur",
+    "Gracile",
+    "Semi-membraneux"
+   ],
+   "answer": 0,
+   "explanation": "La partie verticale (ischio-jambière) du grand adducteur, venue de la tubérosité ischiatique, s'insère sur le tubercule de l'adducteur au-dessus de l'épicondyle médial ; elle est innervée par la partie tibiale du nerf sciatique.",
+   "entries": [
+    "femur",
+    "m-adductor-magnus"
+   ]
+  },
+  {
+   "id": "sk-d46b7610",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans quelle fossette de la tête fémorale s'insère le ligament de la tête fémorale ?",
+   "options": [
+    "Fosse trochantérique",
+    "Fosse acétabulaire",
+    "Fovéa de la tête fémorale",
+    "Ligne intertrochantérique",
+    "Fosse intercondylaire"
+   ],
+   "answer": 2,
+   "explanation": "Le ligament de la tête fémorale va de l'incisure acétabulaire à la fovéa capitis au centre de la tête ; il contient la branche acétabulaire de l'artère obturatrice.",
+   "entries": [
+    "femur",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-3e7d0e42",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle caractéristique distingue le bassin féminin du bassin masculin ?",
+   "options": [
+    "Le détroit supérieur est en forme de cœur.",
+    "L'angle sous-pubien est plus ouvert.",
+    "Les épines ischiatiques sont plus saillantes en dedans.",
+    "Le bassin est plus profond et plus étroit.",
+    "Le sacrum est plus long et plus étroit."
+   ],
+   "answer": 1,
+   "explanation": "Le bassin féminin est plus large et moins profond : détroit supérieur ovale, angle sous-pubien supérieur à 90°, sacrum court et large, épines ischiatiques peu saillantes. Les autres propositions caractérisent le bassin masculin.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-54c3cd19",
+   "group": "Os du pied",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Avec lequel de ces os le talus ne s'articule-t-il PAS ?",
+   "options": [
+    "Tibia",
+    "Cuboïde",
+    "Fibula",
+    "Naviculaire",
+    "Calcanéus"
+   ],
+   "answer": 1,
+   "explanation": "Le talus s'articule en haut avec le tibia et la fibula (talo-crurale), en bas avec le calcanéus (sous-talienne) et en avant avec le naviculaire (talo-naviculaire). Le cuboïde est en avant du calcanéus.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-d6509a0e",
+   "group": "Os du pied",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel est le plus grand des trois cunéiformes ?",
+   "options": [
+    "Cunéiforme médial",
+    "Cunéiforme intermédiaire",
+    "Cuboïde",
+    "Cunéiforme latéral",
+    "Les trois ont la même taille"
+   ],
+   "answer": 0,
+   "explanation": "Le cunéiforme médial est le plus grand, l'intermédiaire le plus petit. La brièveté de l'intermédiaire permet à la base du 2e métatarsien de s'encastrer entre les cunéiformes médial et latéral.",
+   "entries": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale"
+   ]
+  },
+  {
+   "id": "sk-75fb3209",
+   "group": "Os du membre inférieur",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un ouvrier tombé d'une hauteur présente une fracture du talon. Quelle lésion associée faut-il toujours rechercher ?",
+   "options": [
+    "Fracture vertébrale thoraco-lombale",
+    "Fracture du radius distal",
+    "Fracture du crâne",
+    "Fracture de la patella",
+    "Fracture de la clavicule"
+   ],
+   "answer": 0,
+   "explanation": "Lors d'une chute sur les pieds, la charge se transmet axialement au rachis ; environ 10 % des fractures du calcanéus s'accompagnent d'un tassement thoraco-lombal (surtout L1), à ne pas méconnaître.",
+   "entries": [
+    "calcaneus",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-32bbaef0",
+   "group": "Cage thoracique",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Une fracture de la 1re côte est découverte après un accident de la route. Que doit-elle évoquer d'abord ?",
+   "options": [
+    "Une ostéoporose",
+    "Une fracture simple sans gravité",
+    "Un traumatisme violent et une lésion de l'artère subclavière et du plexus brachial sous-jacents",
+    "Une fracture pathologique (métastase)",
+    "Une chondrite costale"
+   ],
+   "answer": 2,
+   "explanation": "La 1re côte, courte, épaisse et protégée, ne se fracture que lors de traumatismes violents. L'artère et la veine subclavières et le tronc inférieur du plexus brachial la croisant, il faut rechercher une lésion vasculo-nerveuse.",
+   "entries": [
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-26bde07f",
+   "group": "Généralités",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quels canaux relient perpendiculairement les canaux de Havers entre eux et au périoste ?",
+   "options": [
+    "Canalicules",
+    "Fibres de Sharpey",
+    "Lacunes",
+    "Canaux de Volkmann",
+    "Canal nourricier"
+   ],
+   "answer": 3,
+   "explanation": "Les canaux de Volkmann, perpendiculaires au grand axe de l'os, relient les vaisseaux des canaux de Havers entre eux et aux vaisseaux périostés et endostés. Les canalicules sont de fins conduits contenant les prolongements des ostéocytes.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-eddc1dd9",
+   "group": "Généralités",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le type le plus fréquent de fracture du cartilage de croissance chez l'enfant (Salter–Harris) ?",
+   "options": [
+    "Type II",
+    "Type I",
+    "Type IV",
+    "Type III",
+    "Type V"
+   ],
+   "answer": 0,
+   "explanation": "Dans le type II de Salter–Harris, le trait traverse le cartilage de croissance et ressort par la métaphyse (fragment de Thurston–Holland) ; c'est le plus fréquent et son pronostic est bon. Le type V (écrasement) est le plus grave et souvent reconnu tardivement.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-05b258c2",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel nerf ne passe PAS dans l'anneau tendineux commun (anneau de Zinn) ?",
+   "options": [
+    "Nerf oculomoteur",
+    "Nerf abducens",
+    "Nerf nasociliaire",
+    "Nerf trochléaire",
+    "Nerf optique"
+   ],
+   "answer": 3,
+   "explanation": "Par l'anneau de Zinn passent le nerf optique et l'artère ophtalmique (canal optique), les deux branches de l'oculomoteur, le nasociliaire et l'abducens. Le trochléaire, le frontal et le lacrymal passent au-dessus, hors de l'anneau.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-7c5f6944",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel orifice relie la fosse ptérygo-palatine à la cavité nasale ?",
+   "options": [
+    "Fissure orbitaire inférieure",
+    "Fissure ptérygo-maxillaire",
+    "Grand canal palatin",
+    "Foramen sphéno-palatin",
+    "Canal ptérygoïdien"
+   ],
+   "answer": 3,
+   "explanation": "Le foramen sphéno-palatin relie la fosse ptérygo-palatine à la partie postéro-supérieure de la cavité nasale ; l'artère sphéno-palatine et les nerfs nasaux le traversent. La fissure ptérygo-maxillaire ouvre sur la fosse infratemporale.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1960c9a2",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quels nerfs s'unissent pour former le nerf du canal ptérygoïdien (nerf vidien) ?",
+   "options": [
+    "Corde du tympan et nerf lingual",
+    "Nerf pétreux profond et nerf carotidien interne",
+    "Grand et petit nerfs pétreux",
+    "Petit nerf pétreux et corde du tympan",
+    "Grand nerf pétreux et nerf pétreux profond"
+   ],
+   "answer": 4,
+   "explanation": "Le grand nerf pétreux (fibres parasympathiques du VII) et le nerf pétreux profond (fibres sympathiques du plexus carotidien) s'unissent pour former le nerf vidien, qui gagne le ganglion ptérygo-palatin.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1f5f4838",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "La fermeture prématurée de la suture sagittale (craniosténose) entraîne quelle forme de crâne ?",
+   "options": [
+    "Trigonocéphalie (front triangulaire)",
+    "Brachycéphalie (crâne court et large)",
+    "Oxycéphalie (crâne en tour)",
+    "Plagiocéphalie (crâne asymétrique)",
+    "Scaphocéphalie (crâne long et étroit)"
+   ],
+   "answer": 4,
+   "explanation": "La croissance s'arrête perpendiculairement à la suture fermée et augmente parallèlement à elle. Dans la synostose sagittale, le crâne ne peut s'élargir et s'allonge d'avant en arrière (scaphocéphalie) ; c'est la craniosténose la plus fréquente. La synostose métopique donne une trigonocéphalie.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-3de5d43b",
+   "group": "Crâne (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Où passe le trait de fracture dans une fracture de Le Fort I ?",
+   "options": [
+    "À travers les orbites, séparant complètement la face du crâne.",
+    "Par le col de la mandibule.",
+    "De façon pyramidale par la racine du nez et le plancher orbitaire.",
+    "Horizontalement à travers le maxillaire, juste au-dessus du plancher des fosses nasales.",
+    "Uniquement par l'arcade zygomatique."
+   ],
+   "answer": 3,
+   "explanation": "Le Fort I détache la partie basse du maxillaire portant les alvéoles dentaires (palais flottant). Le Fort II est pyramidale (racine du nez, plancher orbitaire), Le Fort III une disjonction cranio-faciale (à travers les orbites et les arcades zygomatiques).",
+   "entries": [
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-0ba9ff30",
+   "group": "Colonne vertébrale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Entre quelles vertèbres sort le nerf spinal C5 ?",
+   "options": [
+    "Entre C4 et C5",
+    "Entre C7 et T1",
+    "Entre C6 et C7",
+    "Entre C5 et C6",
+    "Entre C3 et C4"
+   ],
+   "answer": 0,
+   "explanation": "À l'étage cervical, il y a 8 nerfs pour 7 vertèbres ; les nerfs C1 à C7 sortent au-dessus de la vertèbre de même numéro, C8 entre C7 et T1. Une hernie C5–C6 comprime donc la racine C6.",
+   "entries": [
+    "vertebrae-cervicales",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-0380b366",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Vers quel âge s'ossifie le cartilage en Y (triradié) qui unit les trois os de l'acétabulum ?",
+   "options": [
+    "1–2 ans",
+    "Après 40 ans",
+    "15–17 ans",
+    "25–30 ans",
+    "5–7 ans"
+   ],
+   "answer": 2,
+   "explanation": "L'ilium, l'ischium et le pubis sont séparés dans l'acétabulum par un cartilage en Y ; il s'ossifie à la fin de la puberté (15–17 ans), et l'os coxal devient un os unique.",
+   "entries": [
+    "acetabulum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-57138661",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le plus petit diamètre antéro-postérieur de la filière pelvienne ?",
+   "options": [
+    "Conjugué diagonal",
+    "Diamètre bi-épineux",
+    "Conjugué obstétrical",
+    "Conjugué anatomique (vrai)",
+    "Diamètre transverse"
+   ],
+   "answer": 2,
+   "explanation": "Le conjugué obstétrical est la distance entre le promontoire et le point le plus proche de la face postérieure de la symphyse ; c'est le plus petit diamètre antéro-postérieur du détroit supérieur. On mesure le conjugué diagonal et on retranche 1,5–2 cm.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-082df539",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel muscle s'insère dans la fosse trochantérique du fémur ?",
+   "options": [
+    "Carré fémoral",
+    "Moyen fessier",
+    "Piriforme",
+    "Ilio-psoas",
+    "Obturateur externe"
+   ],
+   "answer": 4,
+   "explanation": "La fosse trochantérique, à la face médiale du grand trochanter, reçoit l'obturateur externe. Le piriforme s'insère sur le bord supérieur du grand trochanter et le carré fémoral sur le tubercule carré.",
+   "entries": [
+    "femur",
+    "m-obturator-externus"
+   ]
+  },
+  {
+   "id": "sk-2b105744",
+   "group": "Os du pied",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle est la principale raison du risque élevé de nécrose avasculaire après une fracture du col du talus ?",
+   "options": [
+    "Le cartilage de croissance du talus reste ouvert chez l'adulte",
+    "Le talus n'est vascularisé que par l'artère fibulaire",
+    "Le talus a de nombreuses insertions musculaires",
+    "Le sang arrive au corps du talus de façon rétrograde depuis le col",
+    "Le périoste du talus est épais"
+   ],
+   "answer": 3,
+   "explanation": "Le talus est en grande partie recouvert de cartilage et sans insertion musculaire ; le corps est vascularisé surtout par les branches de l'artère du canal du tarse, de façon rétrograde depuis le col. Une fracture du col interrompt ces vaisseaux et provoque une nécrose du corps (Hawkins).",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-6d6ca7d5",
+   "group": "Os de la main",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans la fracture de Bennett, quel muscle attire le fragment principal (distal) en haut et en dehors ?",
+   "options": [
+    "Adducteur du pouce",
+    "Long fléchisseur du pouce",
+    "Long abducteur du pouce",
+    "Opposant du pouce",
+    "Long extenseur du pouce"
+   ],
+   "answer": 2,
+   "explanation": "La fracture de Bennett est une fracture-luxation articulaire de la base du 1er métacarpien. Le petit fragment médial, retenu par le ligament oblique antérieur, reste en place ; le long abducteur du pouce, inséré sur la base du 1er métacarpien, attire le fragment principal en haut et en dehors.",
+   "entries": [
+    "ossa-metacarpi",
+    "m-abductor-pollicis-longus"
+   ]
+  },
+  {
+   "id": "sk-786f3165",
+   "group": "Os du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un motard présente une fracture de l'anneau pelvien avec instabilité hémodynamique. Quelle est la source la plus fréquente du saignement ?",
+   "options": [
+    "Plexus veineux présacrés et pelviens et surfaces osseuses fracturées",
+    "Artère fémorale",
+    "Aorte abdominale",
+    "Veine cave inférieure",
+    "Artère iliaque commune"
+   ],
+   "answer": 0,
+   "explanation": "Environ 80–90 % des hémorragies des fractures du bassin proviennent des plexus veineux et de l'os spongieux fracturé ; la fermeture de l'anneau par une ceinture pelvienne est donc la première mesure. Le saignement artériel se traite par artério-embolisation.",
+   "entries": [
+    "pelvis"
+   ]
+  }
+ ]
+}

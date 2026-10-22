@@ -43,6 +43,11 @@ final class AppModel {
     var flashcards: FlashcardDeck?
     /// A short message shown as an alert (e.g. no questions for a filter).
     var notice: String?
+    /// The launch animation has finished (the onboarding waits for it).
+    var launchFinished = UserDefaults.standard.bool(forKey: "SkipSplash") || UserDefaults.standard.bool(forKey: "AtlasNoChrome")
+    /// The app's screens are built (behind the launch animation, once its
+    /// figure is on screen: building the 3D atlas holds up the main thread).
+    var interfaceMounted = UserDefaults.standard.bool(forKey: "SkipSplash") || UserDefaults.standard.bool(forKey: "AtlasNoChrome")
     let store: AtlasStore
     let study: StudyStore
     let bank = QuestionBank()
@@ -87,9 +92,14 @@ final class AppModel {
                 requirePremium(.exam)
                 return
             }
+            // Muscle–nerve questions need the muscular system.
+            if config.source == .innervation, !openSystems.contains("muscular") {
+                requirePremium(.system(store.system("muscular")?.tr ?? String(localized: "Kas Sistemi")))
+                return
+            }
             let allowed = (config.systems ?? Set(store.systems.map(\.id))).intersection(openSystems)
             guard !allowed.isEmpty else {
-                let name = config.systems?.first.flatMap(store.system)?.tr ?? "Bu sistem"
+                let name = config.systems?.first.flatMap(store.system)?.tr ?? String(localized: "Bu sistem")
                 requirePremium(.system(name))
                 return
             }
@@ -103,9 +113,9 @@ final class AppModel {
         let questions = QuizEngine.questions(for: config, store: store, bank: bank, study: study, hasModel: hasModel)
         guard !questions.isEmpty else {
             notice = switch config.source {
-            case .wrongs: "Yanlış yaptığın soru yok. Harika!"
-            case .bookmarks: "Henüz soru işaretlemedin. Soru ekranındaki yer imi düğmesiyle kaydedebilirsin."
-            default: "Bu seçim için soru bulunamadı."
+            case .wrongs: String(localized: "Yanlış yaptığın soru yok. Harika!")
+            case .bookmarks: String(localized: "Henüz soru işaretlemedin. Soru ekranındaki yer imi düğmesiyle kaydedebilirsin.")
+            default: String(localized: "Bu seçim için soru bulunamadı.")
             }
             return
         }
@@ -131,8 +141,12 @@ final class AppModel {
         quiz = QuizSession(config: QuizConfig(title: title, source: .bank, count: list.count), questions: list)
     }
 
+    /// Every flashcard the atlas makes (built on first use).
+    @ObservationIgnored private(set) lazy var flashcardLibrary = FlashcardLibrary(store: store)
+
     /// Opens a flashcard deck; free users get the skeletal system.
-    func startFlashcards(systems: Set<String>?) {
+    func startFlashcards(kinds: Set<Flashcard.Kind> = Set(Flashcard.Kind.allCases), systems: Set<String>?,
+                         group: String? = nil, title: String = String(localized: "Bilgi kartları")) {
         var scope = systems ?? Set(store.systems.map(\.id))
         if !isPremium {
             scope.formIntersection(openSystems)
@@ -141,8 +155,19 @@ final class AppModel {
                 return
             }
         }
-        let entries = store.entries.filter { scope.contains($0.systemID) }
-        flashcards = FlashcardDeck(entries: entries, study: study)
+        let cards = flashcardLibrary.cards(kinds: kinds, systems: scope, group: group)
+        guard !cards.isEmpty else {
+            notice = String(localized: "Bu seçim için kart bulunamadı.")
+            return
+        }
+        flashcards = FlashcardDeck(title: title, cards: cards, study: study)
+    }
+
+    /// Cards whose review is due, in the systems the user can study.
+    func dueCards(kinds: Set<Flashcard.Kind> = Set(Flashcard.Kind.allCases), systems: Set<String>? = nil,
+                  group: String? = nil) -> Int {
+        let scope = (systems ?? Set(store.systems.map(\.id))).intersection(openSystems)
+        return flashcardLibrary.cards(kinds: kinds, systems: scope, group: group).count { study.isDue($0.id) }
     }
 
     init() {
@@ -206,6 +231,12 @@ final class AppModel {
             scene.setCamera(target: SIMD3(values[0], values[1], values[2]), distance: values[3], yaw: values[4],
                             pitch: values.count > 5 ? values[5] : 0.05)
         }
+    }
+
+    /// Whether the layers shown at launch have loaded (the launch animation
+    /// waits for them).
+    var atlasReady: Bool {
+        scene.loadingLayers.isEmpty && scene.enabledLayers.allSatisfy(scene.isLoaded)
     }
 
     /// Hides the floating controls (for screenshots).

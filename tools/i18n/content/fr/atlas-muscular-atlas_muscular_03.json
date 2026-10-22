@@ -1,0 +1,305 @@
+{
+ "m-supraspinatus": {
+  "tr": "Muscle supra-épineux",
+  "summary": "Membre supérieur de la coiffe des rotateurs, qui remplit la fosse située au-dessus de l'épine de la scapula. Il initie l'abduction.",
+  "facts": [
+   "Fosse supra-épineuse de la scapula",
+   "Facette supérieure du tubercule majeur de l'humérus et capsule articulaire",
+   "Nerf suprascapulaire (C5–C6)",
+   "Artère suprascapulaire",
+   "Initie l'abduction du bras (15 premiers degrés) ; maintient la tête humérale dans la cavité glénoïdale"
+  ],
+  "sections": [],
+  "clinical": [
+   "C'est le muscle de la coiffe le plus souvent rompu et le plus exposé au conflit sous-acromial ; son tendon est pincé sous l'acromion.",
+   "Le test de la « canette vide » évalue le supra-épineux ; un arc douloureux entre 60° et 120° d'abduction est typique."
+  ],
+  "tus": [
+   "Test du supra-épineux : test de Jobe (« canette vide ») ; le test du bras tombant signe une rupture complète.",
+   "La tendinite calcifiante touche le plus souvent le tendon du supra-épineux."
+  ],
+  "aliases": [
+   "coiffe des rotateurs",
+   "sus-épineux"
+  ]
+ },
+ "m-infraspinatus": {
+  "tr": "Muscle infra-épineux",
+  "summary": "Muscle épais et triangulaire qui remplit la fosse située sous l'épine de la scapula ; il appartient à la coiffe des rotateurs.",
+  "facts": [
+   "Fosse infra-épineuse de la scapula",
+   "Facette moyenne du tubercule majeur de l'humérus",
+   "Nerf suprascapulaire (C5–C6)",
+   "Artère suprascapulaire, artère circonflexe de la scapula",
+   "Rotation latérale du bras ; stabilise la tête humérale dans la glène"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une compression du nerf suprascapulaire à l'incisure spino-glénoïdale peut entraîner une amyotrophie isolée de l'infra-épineux (chez les volleyeurs)."
+  ],
+  "tus": [
+   "L'infra-épineux est innervé par le nerf suprascapulaire ; une compression à l'incisure spino-glénoïdale n'atteint que l'infra-épineux."
+  ],
+  "aliases": [
+   "coiffe des rotateurs",
+   "sous-épineux"
+  ]
+ },
+ "m-teres-minor": {
+  "tr": "Muscle petit rond",
+  "summary": "Petit muscle cylindrique tendu du bord latéral de la scapula à l'humérus ; il appartient à la coiffe des rotateurs.",
+  "facts": [
+   "2/3 supérieurs du bord latéral de la scapula",
+   "Facette inférieure du tubercule majeur de l'humérus",
+   "Nerf axillaire (C5–C6)",
+   "Artère circonflexe de la scapula, artère circonflexe postérieure de l'humérus",
+   "Rotation latérale et légère adduction du bras ; stabilise la tête humérale"
+  ],
+  "sections": [
+   [
+    "Espaces",
+    "Entre le petit rond, le grand rond, le chef long du triceps et l'humérus se forment les espaces triangulaire et quadrangulaire ; le nerf axillaire et l'artère circonflexe postérieure de l'humérus traversent l'espace quadrangulaire."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "Le petit rond est innervé par le nerf axillaire ; il forme la limite supérieure de l'espace quadrangulaire."
+  ],
+  "aliases": [
+   "coiffe des rotateurs"
+  ]
+ },
+ "m-subscapularis": {
+  "tr": "Muscle subscapulaire",
+  "summary": "Grand muscle triangulaire qui tapisse la face antérieure (costale) de la scapula ; c'est le membre le plus puissant de la coiffe des rotateurs.",
+  "facts": [
+   "Fosse subscapulaire",
+   "Tubercule mineur de l'humérus",
+   "Nerfs subscapulaires supérieur et inférieur (C5–C7)",
+   "Artère subscapulaire, artère suprascapulaire",
+   "Rotation médiale et adduction du bras ; s'oppose au glissement antérieur de la tête humérale"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les tests de Gerber (lift-off) et du « belly-press » évaluent l'intégrité du subscapulaire."
+  ],
+  "tus": [
+   "Le subscapulaire est le muscle le plus grand et le plus puissant de la coiffe ; il joue un grand rôle dans la stabilité antérieure."
+  ],
+  "aliases": [
+   "coiffe des rotateurs",
+   "sous-scapulaire"
+  ]
+ },
+ "m-teres-major": {
+  "tr": "Muscle grand rond",
+  "summary": "Muscle épais tendu de l'angle inférieur de la scapula à l'humérus ; il agit avec le grand dorsal (son « petit assistant »).",
+  "facts": [
+   "Face postérieure de l'angle inférieur de la scapula",
+   "Crête du tubercule mineur de l'humérus (lèvre médiale du sillon intertuberculaire)",
+   "Nerf subscapulaire inférieur (C5–C7)",
+   "Artère circonflexe de la scapula, artère thoraco-dorsale",
+   "Adduction, rotation médiale et extension du bras"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le bord inférieur du grand rond marque le point où l'artère axillaire devient artère brachiale."
+  ],
+  "aliases": []
+ },
+ "m-biceps-brachii": {
+  "tr": "Muscle biceps brachial",
+  "summary": "Muscle saillant à deux chefs de la face antérieure du bras. Il croise les articulations de l'épaule et du coude et c'est le plus puissant supinateur de l'avant-bras.",
+  "facts": [
+   "Chef long : tubercule supraglénoïdal de la scapula ; chef court : processus coracoïde",
+   "Tubérosité radiale et, par l'aponévrose bicipitale, fascia antébrachial",
+   "Nerf musculo-cutané (C5–C6)",
+   "Rameaux musculaires de l'artère brachiale",
+   "Fléchit l'avant-bras et le met en supination (geste du tire-bouchon) ; aide la flexion du bras"
+  ],
+  "sections": [],
+  "clinical": [
+   "En cas de rupture du tendon du chef long, le ventre musculaire se rétracte vers le bas (signe de Popeye).",
+   "Le réflexe bicipital explore les segments C5–C6.",
+   "L'artère brachiale et le nerf médian passent sous l'aponévrose bicipitale ; la veine médiane du coude, utilisée pour les prises de sang, se trouve au-dessus."
+  ],
+  "tus": [
+   "Le réflexe bicipital explore C5–C6, surtout C5.",
+   "L'aponévrose bicipitale (lacertus fibrosus) recouvre et protège l'artère brachiale et le nerf médian."
+  ],
+  "aliases": [
+   "biceps"
+  ]
+ },
+ "m-brachialis": {
+  "tr": "Muscle brachial",
+  "summary": "Muscle épais situé sous le biceps, en avant de la moitié inférieure de l'humérus. C'est le principal fléchisseur du coude.",
+  "facts": [
+   "Moitié inférieure de la face antérieure de l'humérus",
+   "Processus coronoïde et tubérosité ulnaire",
+   "Nerf musculo-cutané (C5–C6) ; sa partie latérale reçoit aussi des fibres du nerf radial",
+   "Artère brachiale, artère collatérale radiale",
+   "Fléchit l'avant-bras dans toutes les positions (le « cheval de trait » de la flexion du coude)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Après une fracture du coude, une ossification ectopique peut se développer dans le muscle (myosite ossifiante)."
+  ],
+  "tus": [
+   "Une ossification post-traumatique du brachial (myosite ossifiante) peut suivre les fractures du coude."
+  ],
+  "aliases": [
+   "brachial antérieur"
+  ]
+ },
+ "m-coracobrachialis": {
+  "tr": "Muscle coraco-brachial",
+  "summary": "Muscle grêle de la loge antérieure du bras, tendu du processus coracoïde au milieu de l'humérus. Le nerf musculo-cutané le perfore.",
+  "facts": [
+   "Processus coracoïde de la scapula",
+   "Milieu de la face médiale de la diaphyse humérale",
+   "Nerf musculo-cutané (C5–C7)",
+   "Artère brachiale",
+   "Fléchit et met en adduction le bras ; stabilise la tête humérale"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le coraco-brachial fléchit et met en adduction le bras ; sa perforation par le nerf musculo-cutané est un repère important."
+  ],
+  "aliases": []
+ },
+ "m-triceps-brachii": {
+  "tr": "Muscle triceps brachial",
+  "summary": "Muscle à trois chefs qui occupe toute la loge postérieure du bras. C'est le principal extenseur du coude.",
+  "facts": [
+   "Chef long : tubercule infraglénoïdal de la scapula ; chef latéral : au-dessus du sillon du nerf radial ; chef médial : au-dessous du sillon du nerf radial",
+   "Olécrâne de l'ulna",
+   "Nerf radial (C6–C8)",
+   "Artère profonde du bras, artère circonflexe postérieure de l'humérus",
+   "Étend l'avant-bras ; le chef long aide l'extension et l'adduction du bras"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le réflexe tricipital explore le segment C7.",
+   "Si le nerf radial est lésé au milieu de l'humérus, une partie du chef médial peut être épargnée ; dans les lésions hautes axillaires, le triceps est totalement paralysé."
+  ],
+  "tus": [
+   "Le chef long du triceps naît du tubercule infraglénoïdal et croise aussi l'épaule.",
+   "Le réflexe tricipital explore le segment C7."
+  ],
+  "aliases": [
+   "triceps"
+  ]
+ },
+ "m-anconeus": {
+  "tr": "Muscle anconé",
+  "summary": "Petit muscle triangulaire de la face postéro-latérale du coude ; il agit comme un prolongement du triceps.",
+  "facts": [
+   "Face postérieure de l'épicondyle latéral de l'humérus",
+   "Face latérale de l'olécrâne et partie haute de la face postérieure de l'ulna",
+   "Nerf radial (C7–C8)",
+   "Artère interosseuse récurrente",
+   "Aide l'extension du coude ; tend la capsule et stabilise l'ulna lors de la pronation"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "L'anconé aide l'extension du coude et est innervé par le nerf radial ; il tend la capsule latérale du coude."
+  ],
+  "aliases": []
+ },
+ "m-pronator-teres": {
+  "tr": "Muscle rond pronateur",
+  "summary": "Muscle de la partie haute de la face antérieure de l'avant-bras, tendu obliquement du coude au milieu du radius. Le nerf médian passe entre ses deux chefs.",
+  "facts": [
+   "Chef huméral : épicondyle médial de l'humérus (tendon commun des fléchisseurs) ; chef ulnaire : processus coronoïde de l'ulna",
+   "Milieu de la face latérale du radius (tubérosité pronatrice)",
+   "Nerf médian (C6–C7)",
+   "Artères ulnaire et radiale",
+   "Prone l'avant-bras ; aide la flexion du coude"
+  ],
+  "sections": [],
+  "clinical": [
+   "La compression du nerf médian entre les deux chefs (syndrome du rond pronateur) imite le syndrome du canal carpien mais touche aussi la sensibilité de la paume."
+  ],
+  "tus": [
+   "Le nerf médian passe entre les deux chefs du rond pronateur, l'artère ulnaire sous le chef profond (ulnaire).",
+   "Dans le syndrome du rond pronateur, la sensibilité palmaire est aussi atteinte (différence avec le canal carpien)."
+  ],
+  "aliases": [
+   "pronateur"
+  ]
+ },
+ "m-flexor-carpi-radialis": {
+  "tr": "Muscle fléchisseur radial du carpe",
+  "summary": "L'un des muscles superficiels de la face antérieure de l'avant-bras ; au poignet, son tendon se palpe juste en dedans du pouls radial.",
+  "facts": [
+   "Épicondyle médial de l'humérus (tendon commun des fléchisseurs)",
+   "Bases des 2e et 3e métacarpiens",
+   "Nerf médian (C6–C7)",
+   "Artère radiale",
+   "Fléchit le poignet et l'incline du côté radial (abduction)"
+  ],
+  "sections": [
+   [
+    "Valeur de repère",
+    "Le pouls radial se prend juste en dehors de son tendon au poignet."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "Le tendon du fléchisseur radial du carpe est un repère au poignet, juste en dedans de l'artère radiale."
+  ],
+  "aliases": [
+   "grand palmaire",
+   "FRC"
+  ]
+ },
+ "m-palmaris-longus": {
+  "tr": "Muscle long palmaire",
+  "summary": "Muscle de l'avant-bras à tendon long et grêle, absent chez environ 14 % des personnes.",
+  "facts": [
+   "Épicondyle médial de l'humérus (tendon commun des fléchisseurs)",
+   "Rétinaculum des fléchisseurs et aponévrose palmaire",
+   "Nerf médian (C7–C8)",
+   "Artère ulnaire",
+   "Aide la flexion du poignet ; tend l'aponévrose palmaire"
+  ],
+  "sections": [],
+  "clinical": [
+   "Son tendon est souvent utilisé comme greffon tendineux.",
+   "Au poignet, le nerf médian chemine juste sous ce tendon et en dehors de lui."
+  ],
+  "tus": [
+   "La présence du long palmaire se teste en opposant le pouce et l'auriculaire et en fléchissant le poignet."
+  ],
+  "aliases": [
+   "petit palmaire",
+   "palmaire"
+  ]
+ },
+ "m-flexor-carpi-ulnaris": {
+  "tr": "Muscle fléchisseur ulnaire du carpe",
+  "summary": "Fléchisseur superficiel du bord antéro-médial de l'avant-bras ; l'un des deux muscles antérieurs de l'avant-bras innervés par le nerf ulnaire.",
+  "facts": [
+   "Chef huméral : épicondyle médial de l'humérus ; chef ulnaire : olécrâne et bord postérieur de l'ulna",
+   "Pisiforme, hamulus de l'hamatum et base du 5e métacarpien",
+   "Nerf ulnaire (C7–T1)",
+   "Artère ulnaire",
+   "Fléchit le poignet et l'incline du côté ulnaire (adduction)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le nerf ulnaire peut être comprimé dans le tunnel cubital entre ses deux chefs (syndrome du tunnel cubital)."
+  ],
+  "tus": [
+   "Le nerf ulnaire peut être comprimé dans le tunnel cubital entre les deux chefs du fléchisseur ulnaire du carpe."
+  ],
+  "aliases": [
+   "cubital antérieur",
+   "FUC"
+  ]
+ }
+}

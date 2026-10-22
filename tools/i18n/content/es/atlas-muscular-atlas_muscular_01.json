@@ -1,0 +1,322 @@
+{
+ "m-sternocleidomastoideus": {
+  "tr": "Músculo esternocleidomastoideo",
+  "summary": "Músculo prominente que cruza oblicuamente la cara lateral del cuello y lo divide en triángulos anterior y posterior. Tiene dos cabezas: esternal y clavicular.",
+  "facts": [
+   "Cabeza esternal: cara anterior del manubrio esternal; cabeza clavicular: cara superior del 1/3 medial de la clavícula",
+   "Cara externa de la apófisis mastoides y mitad lateral de la línea nucal superior",
+   "Nervio accesorio (XI) – motor; C2–C3 – propioceptivo",
+   "Arterias occipital, tiroidea superior y supraescapular",
+   "Unilateral: inclina la cabeza hacia el mismo lado y gira la cara al lado opuesto y hacia arriba; bilateral: flexiona la cabeza y, con la cabeza fija, eleva el esternón (músculo respiratorio accesorio)"
+  ],
+  "sections": [],
+  "clinical": [
+   "La lesión o fibrosis del músculo en el parto produce tortícolis congénita.",
+   "La lesión del nervio accesorio debilita el giro de la cabeza hacia el lado opuesto."
+  ],
+  "tus": [
+   "El ECM divide el cuello en triángulos anterior y posterior; el nervio accesorio sale al triángulo posterior por la mitad de su borde posterior (cerca del punto de Erb).",
+   "En la tortícolis muscular congénita la cabeza se inclina hacia el lado lesionado y la cara gira al opuesto."
+  ],
+  "aliases": [
+   "ECM"
+  ]
+ },
+ "mm-scaleni": {
+  "tr": "Músculos escalenos",
+  "summary": "Tres músculos que van de las apófisis transversas de las vértebras cervicales a las dos primeras costillas. El plexo braquial y la arteria subclavia pasan por el hiato entre los escalenos anterior y medio.",
+  "facts": [
+   "Tubérculos de las apófisis transversas de C2–C7",
+   "Anterior y medio: 1.ª costilla (escaleno anterior en el tubérculo del escaleno anterior); posterior: 2.ª costilla",
+   "Ramos anteriores de los nervios cervicales (C3–C8)",
+   "Arteria cervical ascendente (arteria tiroidea inferior), arteria cervical transversa",
+   "Elevan las dos primeras costillas ayudando a la inspiración; inclinan el cuello hacia el mismo lado"
+  ],
+  "sections": [
+   [
+    "Relaciones",
+    "El nervio frénico desciende sobre la cara anterior del escaleno anterior. La vena subclavia pasa por delante de este músculo; la arteria subclavia y el plexo braquial, por detrás (hiato de los escalenos)."
+   ]
+  ],
+  "clinical": [
+   "La compresión en el hiato de los escalenos o una costilla cervical puede causar síndrome del desfiladero torácico (adormecimiento del brazo, pulso débil).",
+   "El bloqueo interescalénico se usa para anestesiar el plexo braquial en la cirugía de hombro."
+  ],
+  "tus": [
+   "El escaleno anterior va de los tubérculos anteriores de las apófisis transversas C3–C6 a la 1.ª costilla; el frénico pasa por delante y la arteria subclavia por detrás.",
+   "Los escalenos elevan la 1.ª y 2.ª costillas en la inspiración forzada."
+  ],
+  "aliases": [
+   "escaleno"
+  ]
+ },
+ "mm-suprahyoidei": {
+  "tr": "Músculos suprahioideos",
+  "summary": "Cuatro músculos situados por encima del hioides que forman el suelo de la boca: digástrico, estilohioideo, milohioideo y genihioideo.",
+  "facts": [
+   "Digástrico: vientre posterior en la escotadura mastoidea, vientre anterior en la fosa digástrica; estilohioideo: apófisis estiloides; milohioideo: línea milohioidea; genihioideo: espina mentoniana inferior",
+   "Hueso hioides (el tendón intermedio del digástrico mediante un asa fibrosa)",
+   "Vientre anterior del digástrico y milohioideo: nervio milohioideo (V3); vientre posterior y estilohioideo: nervio facial (VII); genihioideo: C1 (vía el nervio hipogloso)",
+   "Arteria submentoniana (arteria facial), arteria lingual, arteria occipital",
+   "Elevan el hioides y la laringe al tragar; con el hioides fijo descienden la mandíbula y abren la boca"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Los suprahioideos elevan el hioides y la laringe al tragar y participan en la apertura de la boca.",
+   "El milohioideo forma el suelo de la boca (diafragma oral); la glándula submandibular rodea su borde posterior."
+  ],
+  "aliases": [
+   "digástrico",
+   "milohioideo"
+  ]
+ },
+ "mm-infrahyoidei": {
+  "tr": "Músculos infrahioideos",
+  "summary": "Cuatro músculos acintados situados debajo del hioides: esternohioideo, omohioideo, esternotiroideo y tirohioideo.",
+  "facts": [
+   "Esternohioideo y esternotiroideo: cara posterior del manubrio esternal; omohioideo (vientre inferior): borde superior de la escápula; tirohioideo: línea oblicua del cartílago tiroides",
+   "Hueso hioides (esternotiroideo: cartílago tiroides)",
+   "Asa cervical (C1–C3); tirohioideo: C1 (con el nervio hipogloso)",
+   "Arteria tiroidea superior, arteria lingual",
+   "Descienden y fijan el hioides y la laringe al tragar y hablar"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la cirugía tiroidea estos músculos se separan; se procura conservar el asa cervical."
+  ],
+  "tus": [
+   "El tendón intermedio del omohioideo cruza por delante de la vena yugular interna y se ancla a la clavícula por una cincha fascial.",
+   "En la tiroidectomía los infrahioideos se separan en la línea media para exponer la glándula."
+  ],
+  "aliases": [
+   "esternohioideo",
+   "omohioideo"
+  ]
+ },
+ "mm-prevertebrales": {
+  "tr": "Músculos prevertebrales",
+  "summary": "Músculos flexores profundos del cuello situados en la cara anterior de las vértebras cervicales.",
+  "facts": [
+   "Largo del cuello: cuerpos vertebrales y apófisis transversas de C3–T3; largo de la cabeza: apófisis transversas de C3–C6",
+   "Largo del cuello: tubérculo anterior del atlas y vértebras cervicales altas; largo de la cabeza: porción basilar del occipital",
+   "Ramos anteriores de los nervios cervicales (C1–C6)",
+   "Arteria vertebral, arteria cervical ascendente",
+   "Flexionan el cuello y la cabeza; sostienen la lordosis cervical"
+  ],
+  "sections": [],
+  "clinical": [
+   "Los flexores profundos del cuello se lesionan a menudo en el latigazo cervical."
+  ],
+  "tus": [
+   "El largo del cuello y el largo de la cabeza flexionan el cuello; pueden distenderse en el latigazo cervical.",
+   "El «espacio peligroso» entre la fascia prevertebral y estos músculos es una vía por la que la infección puede extenderse al mediastino."
+  ],
+  "aliases": [
+   "largo del cuello",
+   "largo de la cabeza"
+  ]
+ },
+ "m-trapezius": {
+  "tr": "Músculo trapecio",
+  "summary": "Músculo superficial ancho de la parte alta de la espalda y la nuca que, junto con el del otro lado, forma un rombo (capucha). Tiene porciones superior (descendente), media (transversa) e inferior (ascendente).",
+  "facts": [
+   "Línea nucal superior, protuberancia occipital externa, ligamento nucal, apófisis espinosas de C7–T12",
+   "1/3 lateral de la clavícula, acromion y espina de la escápula",
+   "Nervio accesorio (XI) – motor; C3–C4 – sensitivo",
+   "Arteria cervical transversa (arteria cervical superficial), arteria supraescapular, arteria occipital",
+   "Las fibras superiores elevan la escápula (encoger los hombros) y la rotan hacia arriba; las medias la retraen; las inferiores la descienden y ayudan a la rotación superior"
+  ],
+  "sections": [],
+  "clinical": [
+   "Si se lesiona el nervio accesorio en el triángulo posterior durante una biopsia ganglionar cervical, el hombro cae y el brazo no puede elevarse por encima de 90°.",
+   "La prueba de encoger los hombros explora el nervio accesorio."
+  ],
+  "tus": [
+   "Trapecio: las fibras superiores elevan, las medias retraen y las inferiores descienden la escápula; superiores e inferiores juntas la rotan hacia arriba.",
+   "Sus fibras sensitivas (propioceptivas) proceden de C3–C4; su nervio motor es el accesorio."
+  ],
+  "aliases": [
+   "trapecio"
+  ]
+ },
+ "m-latissimus-dorsi": {
+  "tr": "Músculo dorsal ancho",
+  "summary": "El músculo más ancho del cuerpo, que cubre la parte baja y lateral de la espalda. Forma la pared posterior de la axila.",
+  "facts": [
+   "Apófisis espinosas de T7–L5, fascia toracolumbar, 1/3 posterior de la cresta ilíaca, 3–4 últimas costillas, ángulo inferior de la escápula",
+   "Fondo del surco intertubercular del húmero",
+   "Nervio toracodorsal (C6–C8)",
+   "Arteria toracodorsal (arteria subescapular)",
+   "Lleva el brazo a extensión, aducción y rotación interna (trepar, remar); con el brazo fijo eleva el tronco"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la reconstrucción mamaria el músculo puede usarse como colgajo con su pedículo vascular.",
+   "La lesión del nervio toracodorsal en la mastectomía debilita la aducción y la rotación interna del brazo."
+  ],
+  "tus": [
+   "El dorsal ancho eleva el tronco al caminar con muletas.",
+   "En la reconstrucción mamaria el colgajo de dorsal ancho se levanta sobre los vasos toracodorsales."
+  ],
+  "aliases": [
+   "dorsal ancho"
+  ]
+ },
+ "mm-rhomboidei": {
+  "tr": "Músculos romboides",
+  "summary": "Dos músculos bajo el trapecio que van entre la columna vertebral y el borde medial de la escápula.",
+  "facts": [
+   "Menor: parte inferior del ligamento nucal, apófisis espinosas de C7–T1; mayor: apófisis espinosas de T2–T5",
+   "Borde medial de la escápula (menor a la altura de la espina, mayor entre la espina y el ángulo inferior)",
+   "Nervio dorsal de la escápula (C4–C5)",
+   "Arteria dorsal de la escápula (rama profunda de la cervical transversa)",
+   "Retraen, elevan y rotan hacia abajo la escápula; la mantienen contra la pared torácica"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "En la parálisis de los romboides el borde medial de la escápula se separa ligeramente; se exploran apretando las manos contra las caderas."
+  ],
+  "aliases": [
+   "romboides"
+  ]
+ },
+ "m-levator-scapulae": {
+  "tr": "Músculo elevador de la escápula",
+  "summary": "Músculo de la cara posterolateral del cuello que va de las vértebras cervicales altas al ángulo superomedial de la escápula.",
+  "facts": [
+   "Tubérculos posteriores de las apófisis transversas de C1–C4",
+   "Parte superior del borde medial de la escápula (entre el ángulo superior y la espina)",
+   "Nervio dorsal de la escápula (C5) y nervios espinales C3–C4",
+   "Arteria dorsal de la escápula, arteria cervical transversa",
+   "Eleva la escápula y la rota hacia abajo; inclina el cuello hacia el mismo lado"
+  ],
+  "sections": [],
+  "clinical": [
+   "La tensión de este músculo es una causa frecuente de dolor y rigidez cervical en quienes trabajan sentados."
+  ],
+  "tus": [
+   "El elevador de la escápula es causa frecuente de cervicalgia y tortícolis; lo inervan C3–C4 y el nervio dorsal de la escápula."
+  ],
+  "aliases": [
+   "angular del omóplato"
+  ]
+ },
+ "mm-serrati-posteriores": {
+  "tr": "Músculos serratos posteriores",
+  "summary": "Músculos finos de la capa intermedia de la espalda que se insertan en las costillas; tienen un papel accesorio en la respiración.",
+  "facts": [
+   "Superior: ligamento nucal, apófisis espinosas de C7–T3; inferior: apófisis espinosas de T11–L2",
+   "Superior: bordes superiores de las costillas 2.ª–5.ª; inferior: bordes inferiores de las costillas 9.ª–12.ª",
+   "Superior: nervios intercostales 2.º–5.º; inferior: nervios intercostales 9.º–11.º y nervio subcostal",
+   "Arterias intercostales posteriores",
+   "El superior eleva las costillas y el inferior las desciende (contribuyen a la mecánica respiratoria)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El serrato posterior superior ayuda a la inspiración y el inferior a la espiración al descender las costillas; ambos los inervan nervios intercostales."
+  ],
+  "aliases": []
+ },
+ "m-erector-spinae": {
+  "tr": "Músculo erector de la columna",
+  "summary": "El mayor de los músculos profundos (intrínsecos) de la espalda, a ambos lados de la columna. De lateral a medial lo forman las columnas iliocostal, longísimo y espinoso.",
+  "facts": [
+   "Cara posterior del sacro, parte posterior de la cresta ilíaca, apófisis espinosas lumbares, ligamento sacrotuberoso y un tendón común ancho",
+   "Iliocostal: ángulos costales y apófisis transversas de las cervicales bajas; longísimo: apófisis transversas, costillas y apófisis mastoides; espinoso: apófisis espinosas superiores",
+   "Ramos posteriores de los nervios espinales",
+   "Arterias intercostales posteriores, lumbares y sacras laterales",
+   "Bilateral: extiende la columna y la cabeza (postura erguida); unilateral: flexión lateral al mismo lado; controla excéntricamente la flexión anterior"
+  ],
+  "sections": [],
+  "clinical": [
+   "El lumbago agudo se asocia a menudo con espasmo de este grupo muscular.",
+   "Fortalecer este grupo muscular es la base de la rehabilitación del dolor lumbar crónico."
+  ],
+  "tus": [
+   "El erector de la columna está formado, de lateral a medial, por el iliocostal, el longísimo y el espinoso.",
+   "Controla la flexión anterior del tronco por contracción excéntrica; en el dolor lumbar aparece espasmo."
+  ],
+  "aliases": [
+   "iliocostal",
+   "longísimo",
+   "espinoso",
+   "paravertebrales"
+  ]
+ },
+ "mm-transversospinales": {
+  "tr": "Músculos transversoespinosos",
+  "summary": "Músculos profundos de la espalda que van de las apófisis transversas a las espinosas superiores: semiespinoso, multífidos y rotadores. Con este grupo se estudian también el esplenio y los músculos segmentarios cortos (interespinosos, intertransversos, elevadores de las costillas).",
+  "facts": [
+   "Apófisis transversas de las vértebras y sacro",
+   "Apófisis espinosas de vértebras superiores (semiespinoso de la cabeza en el occipital)",
+   "Ramos posteriores de los nervios espinales",
+   "Arterias intercostales posteriores, lumbares y occipital",
+   "Extienden la columna y la rotan al lado opuesto; dan estabilidad segmentaria entre vértebras (sobre todo el multífido)"
+  ],
+  "sections": [],
+  "clinical": [
+   "La atrofia del multífido lumbar se asocia con dolor lumbar crónico."
+  ],
+  "tus": [
+   "Semiespinoso, multífidos y rotadores forman este grupo; el multífido es un músculo importante de la estabilidad lumbar."
+  ],
+  "aliases": [
+   "multífido",
+   "semiespinoso",
+   "rotadores",
+   "esplenio"
+  ]
+ },
+ "mm-suboccipitales": {
+  "tr": "Músculos suboccipitales",
+  "summary": "Cuatro pequeños músculos entre la base del cráneo y las dos primeras vértebras cervicales: recto posterior mayor y menor de la cabeza, oblicuo superior e inferior de la cabeza.",
+  "facts": [
+   "Recto mayor y oblicuo inferior: apófisis espinosa del axis; recto menor: tubérculo posterior del atlas; oblicuo superior: apófisis transversa del atlas",
+   "Línea nucal inferior del occipital (oblicuo inferior en la apófisis transversa del atlas)",
+   "Nervio suboccipital (ramo posterior de C1)",
+   "Arteria vertebral, arteria occipital",
+   "Extienden la cabeza y la rotan hacia el mismo lado; realizan ajustes posturales finos"
+  ],
+  "sections": [
+   [
+    "Triángulo suboccipital",
+    "En el suelo del triángulo formado por el recto posterior mayor y los oblicuos superior e inferior de la cabeza se encuentran la arteria vertebral y el nervio suboccipital."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "Los suboccipitales los inerva el nervio suboccipital (ramo posterior de C1); C1 no suele tener rama sensitiva.",
+   "El nervio occipital mayor (ramo posterior de C2) sale por el borde inferior del triángulo suboccipital; se afecta en la neuralgia occipital."
+  ],
+  "aliases": [
+   "suboccipital"
+  ]
+ },
+ "m-pectoralis-major": {
+  "tr": "Músculo pectoral mayor",
+  "summary": "Gran músculo en abanico que cubre la parte anterosuperior del tórax; forma la pared anterior de la axila. Tiene porciones clavicular, esternocostal y abdominal.",
+  "facts": [
+   "Porción clavicular: mitad medial de la clavícula; esternocostal: esternón y cartílagos costales 1.º–6.º; abdominal: aponeurosis del oblicuo externo",
+   "Cresta del tubérculo mayor del húmero (labio lateral del surco intertubercular)",
+   "Nervios pectorales medial (C8–T1) y lateral (C5–C7)",
+   "Rama pectoral de la arteria toracoacromial, arteria torácica lateral, arterias intercostales",
+   "Aduce y rota internamente el brazo; la porción clavicular flexiona y la esternocostal extiende el brazo flexionado; con el brazo fijo eleva el tronco (músculo respiratorio accesorio)"
+  ],
+  "sections": [],
+  "clinical": [
+   "En el síndrome de Poland falta de nacimiento la porción esternocostal del músculo.",
+   "Al levantar cargas pesadas (press de banca) su tendón puede arrancarse del húmero."
+  ],
+  "tus": [
+   "El síndrome de Poland es la ausencia congénita de la cabeza esternocostal del pectoral mayor.",
+   "El pliegue axilar anterior lo forma el pectoral mayor; el posterior, el dorsal ancho y el redondo mayor."
+  ],
+  "aliases": [
+   "pectoral",
+   "pecho"
+  ]
+ }
+}

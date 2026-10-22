@@ -11,9 +11,10 @@ struct StudyView: View {
     @Environment(AppModel.self) private var app
     @AppStorage("study.dailyGoal") private var dailyGoal = 20
     @AppStorage("study.scope") private var scopeID = ""
+    @State private var path = NavigationPath()
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             ScrollView {
                 VStack(alignment: .leading, spacing: 28) {
                     todayCard
@@ -36,6 +37,13 @@ struct StudyView: View {
                 switch route {
                 case .statistics: StatsView()
                 case .exams: ExamListView()
+                case .flashcards: FlashcardSetupView()
+                }
+            }
+            .onAppear {
+                // -StudyRoute flashcards opens a study screen on launch (screenshots, testing).
+                if path.isEmpty, UserDefaults.standard.string(forKey: "StudyRoute") == "flashcards" {
+                    path.append(StudyRoute.flashcards)
                 }
             }
         }
@@ -71,13 +79,14 @@ struct StudyView: View {
             .frame(width: 74, height: 74)
 
             VStack(alignment: .leading, spacing: 8) {
-                Text(progress >= 1 ? "Günlük hedef tamam!" : "Bugünkü hedefin")
+                Text(progress >= 1 ? String(localized: "Günlük hedef tamam!") : String(localized: "Bugünkü hedefin"))
                     .font(.headline)
                     .foregroundStyle(Theme.textPrimary)
                 HStack(spacing: 14) {
-                    stat(icon: "flame.fill", color: .orange, value: "\(app.study.streak)", label: "gün seri")
+                    stat(icon: "flame.fill", color: .orange, value: "\(app.study.streak)",
+                         label: app.study.streak == 1 ? String(localized: LocalizedStringResource("streak.oneDay", defaultValue: "gün seri")) : String(localized: "gün seri"))
                     stat(icon: "target", color: Theme.success,
-                         value: app.study.answered == 0 ? "–" : "%\(Int(app.study.accuracy * 100))", label: "doğruluk")
+                         value: app.study.answered == 0 ? "–" : (app.study.accuracy).formatted(.percent.precision(.fractionLength(0))), label: String(localized: "doğruluk"))
                 }
                 if let left = app.freeQuestionsLeft {
                     Button {
@@ -85,7 +94,7 @@ struct StudyView: View {
                     } label: {
                         HStack(spacing: 6) {
                             PremiumBadge(compact: true)
-                            Text(left > 0 ? "Bugün \(left) ücretsiz soru kaldı" : "Ücretsiz sorular bitti")
+                            Text(left > 0 ? String(localized: "Bugün \(left) ücretsiz soru kaldı") : String(localized: "Ücretsiz sorular bitti"))
                                 .font(.caption.weight(.semibold))
                                 .foregroundStyle(Theme.gold)
                         }
@@ -119,12 +128,12 @@ struct StudyView: View {
     private var quickStart: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack {
-                Eyebrow(text: "Hızlı başla", color: .white.opacity(0.75))
+                Eyebrow(text: String(localized: "Hızlı başla"), color: .white.opacity(0.75))
                 Spacer()
                 scopeMenu
             }
             VStack(alignment: .leading, spacing: 6) {
-                Text("Karma test")
+                Text(String(localized: "Karma test"))
                     .font(.title.weight(.bold))
                     .foregroundStyle(.white)
                 Text("Soru bankası, klinik vakalar ve atlas sorularından sana göre seçilmiş 10 soru. Her cevabın açıklaması anında.")
@@ -133,7 +142,7 @@ struct StudyView: View {
                     .fixedSize(horizontal: false, vertical: true)
             }
             Button {
-                app.startQuiz(QuizConfig(title: "Karma test", source: .mixed, systems: scopeSystems, count: 10))
+                app.startQuiz(QuizConfig(title: String(localized: "Karma test"), source: .mixed, systems: scopeSystems, count: 10))
             } label: {
                 Label("Başla", systemImage: "play.fill")
             }
@@ -174,7 +183,7 @@ struct StudyView: View {
             }
         } label: {
             HStack(spacing: 4) {
-                Text(scope?.tr ?? "Tüm sistemler")
+                Text(scope?.tr ?? String(localized: "Tüm sistemler"))
                 Image(systemName: "chevron.down")
                     .font(.caption2.weight(.bold))
             }
@@ -190,8 +199,8 @@ struct StudyView: View {
 
     private var bankSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Soru bankası",
-                          subtitle: app.bank.isLoaded ? "\(app.bank.questions.count) özgün soru · açıklamalı cevaplar" : "Yükleniyor…")
+            SectionHeader(title: String(localized: "Soru bankası"),
+                          subtitle: app.bank.isLoaded ? String(localized: "\(app.bank.questions.count) özgün soru · açıklamalı cevaplar") : String(localized: "Yükleniyor…"))
             VStack(spacing: 0) {
                 ForEach(Array(app.store.systems.enumerated()), id: \.element.id) { i, system in
                     NavigationLink(value: system) {
@@ -212,7 +221,7 @@ struct StudyView: View {
 
     private var examSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Deneme sınavları", subtitle: "Süreli, TUS formatında; sonuçlar sınav sonunda")
+            SectionHeader(title: String(localized: "Deneme sınavları"), subtitle: String(localized: "Süreli, TUS formatında; sonuçlar sınav sonunda"))
             ScrollView(.horizontal) {
                 HStack(spacing: 12) {
                     ForEach(ExamPreset.all) { preset in
@@ -250,9 +259,9 @@ struct StudyView: View {
 
     private var practiceSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Pratik", subtitle: scope.map { "\($0.tr) için" } ?? "Tüm sistemlerden")
+            SectionHeader(title: String(localized: "Pratik"), subtitle: scope.map { String(localized: "\($0.tr) için") } ?? String(localized: "Tüm sistemlerden"))
             LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
-                ForEach([QuizSource.clinical, .terms, .facts, .model, .weak, .bank], id: \.self) { source in
+                ForEach([QuizSource.clinical, .innervation, .landmarks, .facts, .terms, .model, .weak, .bank], id: \.self) { source in
                     ModeTile(source: source) {
                         app.startQuiz(QuizConfig(title: source.title, source: source, systems: scopeSystems, count: 10))
                     }
@@ -266,7 +275,7 @@ struct StudyView: View {
     private var reviewSection: some View {
         let due = dueCards
         return VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Tekrar")
+            SectionHeader(title: String(localized: "Tekrar"))
             VStack(spacing: 0) {
                 ReviewRow(source: .wrongs, count: app.study.wrongs.count) {
                     app.startQuiz(QuizConfig(title: QuizSource.wrongs.title, source: .wrongs, count: 20, preferNew: false))
@@ -276,16 +285,14 @@ struct StudyView: View {
                     app.startQuiz(QuizConfig(title: QuizSource.bookmarks.title, source: .bookmarks, count: 30, preferNew: false))
                 }
                 Divider().overlay(Theme.stroke).padding(.leading, 62)
-                Button {
-                    app.startFlashcards(systems: scopeSystems)
-                } label: {
+                NavigationLink(value: StudyRoute.flashcards) {
                     HStack(spacing: 14) {
                         SystemBadge(icon: "rectangle.on.rectangle.angled.fill", color: Color(hex: "B07CFF"), size: 40)
                         VStack(alignment: .leading, spacing: 2) {
                             Text("Bilgi kartları")
                                 .font(.headline)
                                 .foregroundStyle(Theme.textPrimary)
-                            Text(due > 0 ? "\(due) kartın tekrar zamanı geldi" : "Aralıklı tekrar ile kalıcı öğren")
+                            Text(due > 0 ? String(localized: "\(due) kartın tekrar zamanı geldi") : String(localized: "6 deste · aralıklı tekrar ile kalıcı öğren"))
                                 .font(.subheadline)
                                 .foregroundStyle(Theme.textSecondary)
                         }
@@ -308,8 +315,7 @@ struct StudyView: View {
     }
 
     private var dueCards: Int {
-        let scope = scopeSystems ?? app.openSystems
-        return app.store.entries.filter { scope.contains($0.systemID) && app.study.isDue($0.id) }.count
+        app.dueCards(systems: scopeSystems)
     }
 
     // MARK: Statistics
@@ -342,7 +348,7 @@ struct StudyView: View {
 }
 
 enum StudyRoute: Hashable {
-    case statistics, exams
+    case statistics, exams, flashcards
 }
 
 // MARK: - Exams
@@ -363,13 +369,15 @@ struct ExamPreset: Identifiable {
     }
 
     static let all: [ExamPreset] = [
-        ExamPreset(id: "mini", title: "Mini deneme", subtitle: "Tüm sistemler", count: 20, minutes: 25, level: nil,
+        ExamPreset(id: "mini", title: String(localized: "Mini deneme"), subtitle: String(localized: "Tüm sistemler"), count: 20, minutes: 25, level: nil,
                    colors: [Color(hex: "1F8F7A"), Color(hex: "155E75")]),
-        ExamPreset(id: "tus", title: "TUS anatomi denemesi", subtitle: "Yalnızca TUS düzeyi", count: 40, minutes: 50, level: .tus,
+        ExamPreset(id: "basic", title: String(localized: "Temel tekrar"), subtitle: String(localized: "Temel düzey sorular"), count: 30, minutes: 30, level: .basic,
+                   colors: [Color(hex: "2E8B57"), Color(hex: "1B5E3B")]),
+        ExamPreset(id: "tus", title: String(localized: "TUS anatomi denemesi"), subtitle: String(localized: "Yalnızca TUS düzeyi"), count: 40, minutes: 50, level: .tus,
                    colors: [Color(hex: "B4527A"), Color(hex: "6D2A8C")]),
-        ExamPreset(id: "faculty", title: "Komite denemesi", subtitle: "Fakülte düzeyi", count: 50, minutes: 60, level: .faculty,
+        ExamPreset(id: "faculty", title: String(localized: "Komite denemesi"), subtitle: String(localized: "Fakülte düzeyi"), count: 50, minutes: 60, level: .faculty,
                    colors: [Color(hex: "C27A1E"), Color(hex: "8A3B12")]),
-        ExamPreset(id: "marathon", title: "Maraton", subtitle: "Tüm bankadan karışık", count: 100, minutes: 120, level: nil,
+        ExamPreset(id: "marathon", title: String(localized: "Maraton"), subtitle: String(localized: "Tüm bankadan karışık"), count: 100, minutes: 120, level: nil,
                    colors: [Color(hex: "3A4BC2"), Color(hex: "1D2470")]),
     ]
 }

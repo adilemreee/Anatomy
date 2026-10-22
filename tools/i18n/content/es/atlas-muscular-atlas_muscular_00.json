@@ -1,0 +1,311 @@
+{
+ "m-occipitofrontalis": {
+  "tr": "Músculo occipitofrontal",
+  "summary": "Músculo de la expresión facial que mueve el cuero cabelludo; tiene un vientre frontal delante y uno occipital detrás, unidos por un tendón plano (aponeurosis epicraneal, galea aponeurótica).",
+  "facts": [
+   "Vientre frontal: aponeurosis epicraneal; vientre occipital: línea nucal suprema y apófisis mastoides",
+   "Vientre frontal: piel de las cejas y la frente; vientre occipital: aponeurosis epicraneal",
+   "Nervio facial (VII) – rama temporal (vientre frontal) y nervio auricular posterior (vientre occipital)",
+   "Arterias supraorbitaria, supratroclear, temporal superficial y occipital",
+   "Eleva las cejas y arruga la frente (sorpresa); tira del cuero cabelludo hacia delante y atrás"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la parálisis facial periférica (de Bell) desaparecen las arrugas de la frente del mismo lado; en la lesión central la frente se respeta."
+  ],
+  "tus": [
+   "Se continúa con la galea aponeurótica; si la galea se rompe en heridas del cuero cabelludo, la herida se abre.",
+   "El vientre frontal lo inerva la rama temporal del facial; el occipital, el nervio auricular posterior."
+  ],
+  "aliases": [
+   "frontal",
+   "occipital",
+   "epicraneal"
+  ]
+ },
+ "m-orbicularis-oculi": {
+  "tr": "Músculo orbicular de los ojos",
+  "summary": "Músculo de la expresión facial en forma de anillo alrededor de los párpados y la órbita, que cierra el ojo. Tiene porciones orbitaria, palpebral y lagrimal.",
+  "facts": [
+   "Hueso frontal (porción nasal), maxilar (apófisis frontal), ligamento palpebral medial, hueso lagrimal (cresta lagrimal posterior)",
+   "Piel periocular, rafe palpebral lateral",
+   "Nervio facial (VII) – ramas temporales y cigomáticas",
+   "Ramas de las arterias facial, temporal superficial y oftálmica",
+   "La porción palpebral cierra el ojo suavemente (parpadeo), la orbitaria lo cierra con fuerza; la lagrimal ayuda al flujo de lágrimas"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la parálisis facial el ojo no se cierra; hay que protegerlo de la sequedad y la úlcera corneal.",
+   "Es la vía eferente del reflejo corneal (aferente: nervio oftálmico)."
+  ],
+  "tus": [
+   "La porción palpebral parpadea, la orbitaria cierra el ojo con fuerza; la lagrimal ayuda al drenaje de lágrimas.",
+   "En la parálisis el párpado inferior se evierte (ectropión) y las lágrimas caen por la mejilla (epífora)."
+  ],
+  "aliases": [
+   "orbicular"
+  ]
+ },
+ "m-orbicularis-oris": {
+  "tr": "Músculo orbicular de la boca",
+  "summary": "Músculo de la expresión facial en forma de anillo que rodea los labios y forma la mayor parte de ellos. Muchos músculos faciales vecinos mezclan sus fibras con él.",
+  "facts": [
+   "Maxilar y mandíbula a la altura de los incisivos, modiolo en la comisura",
+   "Piel y mucosa de los labios",
+   "Nervio facial (VII) – ramas bucales y rama marginal de la mandíbula",
+   "Arterias labiales superior e inferior (arteria facial)",
+   "Cierra, frunce y proyecta los labios (silbar, besar); participa en el habla"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Cierra y frunce los labios; lo inervan las ramas bucales y marginal mandibular del facial."
+  ],
+  "aliases": [
+   "orbicular de los labios"
+  ]
+ },
+ "m-buccinator": {
+  "tr": "Músculo buccinador",
+  "summary": "Músculo de la expresión facial fino y cuadrilátero que forma la capa profunda de la mejilla. Al masticar mantiene el alimento entre los dientes.",
+  "facts": [
+   "Apófisis alveolares del maxilar y la mandíbula a la altura de los molares, rafe pterigomandibular",
+   "Comisura bucal (modiolo), orbicular de la boca",
+   "Nervio facial (VII) – ramas bucales",
+   "Arteria bucal (arteria maxilar), arteria facial",
+   "Comprime la mejilla contra los dientes; expulsa el aire al soplar y ayuda a succionar (músculo del trompetista)"
+  ],
+  "sections": [
+   [
+    "Relaciones",
+    "El conducto parotídeo (de Stenon) perfora este músculo y se abre en la boca frente al 2.º molar superior."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "El conducto parotídeo perfora el buccinador frente al 2.º molar superior y se abre en el vestíbulo oral.",
+   "Nace del rafe pterigomandibular, que comparte con el constrictor superior de la faringe."
+  ],
+  "aliases": [
+   "mejilla"
+  ]
+ },
+ "m-zygomaticus-major": {
+  "tr": "Músculo cigomático mayor",
+  "summary": "Principal músculo de la sonrisa, que va del pómulo a la comisura bucal.",
+  "facts": [
+   "Cara externa del hueso cigomático",
+   "Comisura bucal (modiolo)",
+   "Nervio facial (VII) – ramas cigomáticas y bucales",
+   "Arteria facial (arteria labial superior)",
+   "Lleva la comisura hacia arriba y afuera (sonrisa)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "En la sonrisa genuina (de Duchenne) se contrae el orbicular de los ojos junto con el cigomático mayor."
+  ],
+  "aliases": [
+   "cigomático"
+  ]
+ },
+ "m-levator-labii-superioris": {
+  "tr": "Músculo elevador del labio superior",
+  "summary": "Músculo de la expresión facial que va desde debajo de la órbita al labio superior. Al elevar el labio superior profundiza el surco nasolabial.",
+  "facts": [
+   "Margen infraorbitario (maxilar y hueso cigomático)",
+   "Piel y músculo del labio superior",
+   "Nervio facial (VII) – ramas cigomáticas y bucales",
+   "Arterias facial e infraorbitaria",
+   "Eleva y evierte el labio superior (tristeza, desprecio)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Eleva el labio superior y participa en la formación del surco nasolabial."
+  ],
+  "aliases": []
+ },
+ "m-depressor-anguli-oris": {
+  "tr": "Músculo depresor del ángulo de la boca",
+  "summary": "Músculo triangular de la expresión facial que va de la cara lateral de la mandíbula a la comisura bucal.",
+  "facts": [
+   "Línea oblicua de la mandíbula",
+   "Comisura bucal (modiolo)",
+   "Nervio facial (VII) – rama marginal de la mandíbula y ramas bucales",
+   "Arteria labial inferior (arteria facial)",
+   "Lleva la comisura hacia abajo y afuera (tristeza)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Si en la cirugía submandibular se lesiona la rama marginal de la mandíbula, la comisura cae de ese lado."
+  ],
+  "tus": [
+   "En la parálisis de la rama marginal mandibular la comisura no puede descender; esta rama debe protegerse en la cirugía de la glándula submandibular."
+  ],
+  "aliases": [
+   "mentoniano",
+   "risorio",
+   "triangular"
+  ]
+ },
+ "m-nasalis": {
+  "tr": "Músculo nasal",
+  "summary": "Pequeño músculo de la expresión facial que mueve las alas de la nariz, con una porción transversa y otra alar.",
+  "facts": [
+   "Maxilar (por encima del canino y los incisivos)",
+   "Aponeurosis del dorso nasal y alas de la nariz",
+   "Nervio facial (VII) – ramas bucales",
+   "Arterias labial superior y angular",
+   "Estrecha las narinas (porción transversa) y las dilata (porción alar)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Tiene una porción alar que dilata las narinas y una transversa que las estrecha; el aleteo nasal se ve en la dificultad respiratoria."
+  ],
+  "aliases": [
+   "prócer",
+   "corrugador"
+  ]
+ },
+ "m-platysma": {
+  "tr": "Músculo platisma",
+  "summary": "Músculo de la expresión facial ancho y delgado situado bajo la piel de las caras anterior y lateral del cuello.",
+  "facts": [
+   "Fascias pectoral y deltoidea de la parte alta del tórax",
+   "Borde inferior de la mandíbula, piel de la mejilla y comisura bucal",
+   "Nervio facial (VII) – rama cervical",
+   "Arterias submentoniana y supraescapular",
+   "Tensa la piel del cuello, desciende el labio inferior y la comisura; expresión de miedo y esfuerzo"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El platisma está dentro de la fascia cervical superficial; en las incisiones cervicales se sutura junto con la piel."
+  ],
+  "aliases": [
+   "cutáneo del cuello"
+  ]
+ },
+ "m-masseter": {
+  "tr": "Músculo masetero",
+  "summary": "Músculo grueso y cuadrilátero sobre la rama de la mandíbula, que se palpa en la mejilla al apretar los dientes. En proporción a su peso es uno de los más fuertes del cuerpo.",
+  "facts": [
+   "Porción superficial: 2/3 anteriores del arco cigomático; porción profunda: 1/3 posterior y cara interna del arco cigomático",
+   "Cara externa de la rama mandibular, ángulo de la mandíbula y apófisis coronoides",
+   "Nervio maseterino (nervio mandibular – V3)",
+   "Arteria maseterina (arteria maxilar), arteria facial, arteria transversa de la cara",
+   "Eleva la mandíbula (cierra la boca, aprieta los dientes); las fibras superficiales ayudan a la protrusión"
+  ],
+  "sections": [],
+  "clinical": [
+   "El bruxismo (rechinar los dientes) puede causar hipertrofia del músculo.",
+   "En el tétanos, el espasmo de los músculos masticadores impide abrir la boca (trismo)."
+  ],
+  "tus": [
+   "La hipertrofia del masetero se ve en el bruxismo; el conducto parotídeo rodea su borde anterior.",
+   "El masetero lo inerva el nervio maseterino (V3), que pasa por la escotadura mandibular."
+  ],
+  "aliases": [
+   "masetero"
+  ]
+ },
+ "m-temporalis": {
+  "tr": "Músculo temporal",
+  "summary": "Músculo masticador en abanico que ocupa la fosa temporal.",
+  "facts": [
+   "Suelo de la fosa temporal y fascia temporal",
+   "Apófisis coronoides y borde anterior de la rama mandibular",
+   "Nervios temporales profundos (nervio mandibular – V3)",
+   "Arterias temporales profundas (arteria maxilar), arteria temporal media",
+   "Eleva la mandíbula (fibras anteriores); las posteriores la retraen"
+  ],
+  "sections": [],
+  "clinical": [
+   "En los trastornos de la articulación temporomandibular y la cefalea tensional puede haber dolor a la palpación del músculo."
+  ],
+  "tus": [
+   "El temporal se inserta en la apófisis coronoides; su contracción es palpable y sirve para explorar la función motora del V3."
+  ],
+  "aliases": [
+   "temporal"
+  ]
+ },
+ "mm-pterygoidei": {
+  "tr": "Músculos pterigoideos",
+  "summary": "Dos músculos masticadores en la cara interna de la mandíbula, en la fosa infratemporal. El pterigoideo lateral es el único masticador que abre la boca.",
+  "facts": [
+   "Lateral: cabeza superior en la cara infratemporal del ala mayor, cabeza inferior en la cara externa de la lámina lateral de la apófisis pterigoides; medial: cara interna de la lámina lateral, hueso palatino y tuberosidad del maxilar",
+   "Lateral: fosita pterigoidea del cuello mandibular, disco y cápsula articulares; medial: cara interna de la rama y el ángulo mandibulares",
+   "Nervio mandibular (V3) – nervios pterigoideos lateral y medial",
+   "Ramas pterigoideas de la arteria maxilar",
+   "Lateral: protruye la mandíbula y abre la boca, la mueve lateralmente al triturar; medial: eleva, protruye y mueve lateralmente la mandíbula"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El pterigoideo medial y el masetero rodean el ángulo mandibular como una cincha (cincha pterigomaseterina).",
+   "Entre las dos cabezas del pterigoideo lateral puede pasar la arteria maxilar o el nervio bucal."
+  ],
+  "aliases": [
+   "pterigoideo"
+  ]
+ },
+ "mm-bulbi": {
+  "tr": "Músculos extraoculares",
+  "summary": "Grupo formado por cuatro músculos rectos y dos oblicuos que mueven el globo ocular, junto con el elevador del párpado superior.",
+  "facts": [
+   "Cuatro rectos y oblicuo superior: anillo tendinoso común y alrededores; oblicuo inferior: parte anteromedial del suelo de la órbita (maxilar)",
+   "Esclera; el oblicuo superior se refleja en la tróclea hacia el cuadrante posterosuperolateral del globo",
+   "Nervio oculomotor (III): rectos superior, inferior y medial, oblicuo inferior, elevador del párpado; nervio troclear (IV): oblicuo superior; nervio abducens (VI): recto lateral",
+   "Ramas musculares de la arteria oftálmica",
+   "Recto medial: aducción; lateral: abducción; superior: elevación (e intorsión); inferior: depresión (y extorsión); oblicuo superior: depresión, abducción, intorsión; oblicuo inferior: elevación, abducción, extorsión"
+  ],
+  "sections": [
+   [
+    "Regla mnemotécnica",
+    "RL6 OS4, el resto 3: el recto lateral lo inerva el VI par, el oblicuo superior el IV y todos los demás el III."
+   ]
+  ],
+  "clinical": [
+   "En la parálisis del abducens el ojo se desvía hacia dentro (esotropía) con diplopía en la mirada lateral.",
+   "En la parálisis del oculomotor el ojo mira hacia abajo y afuera, con ptosis y midriasis.",
+   "En la parálisis del troclear hay diplopía al mirar hacia abajo (bajar escaleras); el paciente inclina la cabeza hacia el lado sano."
+  ],
+  "tus": [
+   "Los rectos nacen del anillo tendinoso común (anillo de Zinn); el oblicuo inferior es el único que nace del suelo de la órbita.",
+   "Exploración clínica: los rectos superior e inferior se prueban en abducción y los oblicuos en aducción (prueba en H)."
+  ],
+  "aliases": [
+   "músculos del ojo",
+   "recto",
+   "oblicuo"
+  ]
+ },
+ "mm-linguae": {
+  "tr": "Músculos de la lengua",
+  "summary": "Grupo formado por músculos intrínsecos que cambian la forma de la lengua y extrínsecos que la mueven: geniogloso, hiogloso, estilogloso y palatogloso.",
+  "facts": [
+   "Geniogloso: espina mentoniana superior; hiogloso: hueso hioides (cuerpo y asta mayor); estilogloso: apófisis estiloides",
+   "Cara inferior, bordes laterales y raíz de la lengua",
+   "Nervio hipogloso (XII) – todos los músculos linguales; excepción el palatogloso (nervio vago – plexo faríngeo)",
+   "Arteria lingual",
+   "El geniogloso saca la lengua; el hiogloso la desciende; el estilogloso la lleva arriba y atrás; los intrínsecos cambian su forma"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la lesión del hipogloso, la lengua protruida se desvía hacia el lado paralizado.",
+   "En la pérdida de conciencia, si el geniogloso se relaja la lengua puede caer hacia atrás y obstruir la vía aérea."
+  ],
+  "tus": [
+   "Los músculos linguales derivan de miotomos occipitales y los inerva el hipogloso (salvo el palatogloso).",
+   "La parálisis del geniogloso (p. ej. en la anestesia) hace caer la lengua hacia atrás y obstruye la vía aérea."
+  ],
+  "aliases": [
+   "geniogloso",
+   "hiogloso",
+   "lengua"
+  ]
+ }
+}

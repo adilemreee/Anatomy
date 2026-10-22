@@ -1,0 +1,4061 @@
+{
+ "system": "skeletal",
+ "entries": [
+  {
+   "id": "cranium",
+   "tr": "Skull (as a whole)",
+   "la": "Cranium",
+   "en": "Skull",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "The bony structure made of the neurocranium, which protects the brain, and the viscerocranium, the skeleton of the face; apart from the mandible its bones are firmly joined by sutures. Including the hyoid and the ear ossicles it has 29 bones.",
+   "facts": [
+    [
+     "Beyin kafası (neurocranium)",
+     "8 bones: frontal, two parietal, occipital, two temporal, sphenoid, ethmoid",
+     "Neurocranium"
+    ],
+    [
+     "Yüz kafası (viscerocranium)",
+     "14 bones: two maxillae, two zygomatic, two nasal, two lacrimal, two palatine, two inferior nasal conchae, vomer, mandible",
+     "Viscerocranium (facial skeleton)"
+    ],
+    [
+     "Bölümleri",
+     "Skull vault (calvaria) and cranial base (basis cranii)",
+     "Parts"
+    ],
+    [
+     "Hareketli eklem",
+     "The only synovial joint of the skull is the temporomandibular joint; the other bones are joined by sutures",
+     "Movable joint"
+    ],
+    [
+     "Önemli noktalar",
+     "Bregma (meeting of sagittal and coronal sutures), lambda (sagittal and lambdoid), pterion (frontal, parietal, temporal, sphenoid), asterion (parietal, occipital, temporal), nasion, inion",
+     "Landmarks"
+    ]
+   ],
+   "sections": [
+    [
+     "Views",
+     "From the front (norma frontalis) the orbits, the nasal opening (piriform aperture) and the jaws are seen. From the side (norma lateralis) the temporal fossa, zygomatic arch and pterion; from below (norma basalis) the foramen magnum, condyles and foramina of the skull base. Inside the cranial cavity the anterior, middle and posterior cranial fossae are arranged like steps."
+    ]
+   ],
+   "clinical": [
+    "The pterion is the thinnest part of the skull; because the anterior branch of the middle meningeal artery runs beneath it, fractures here can cause an epidural haematoma.",
+    "Premature closure of the skull sutures (craniosynostosis) leads to an abnormal head shape."
+   ],
+   "tus": [
+    "The neurocranium has 8 bones, the viscerocranium 14 (not counting the hyoid and ear ossicles).",
+    "Pterion, asterion and bregma are important surface landmarks for surgical approaches; the pterion lies about 4 cm above the midpoint of the zygomatic arch."
+   ],
+   "related": [
+    "suturae-fonticuli",
+    "basis-cranii",
+    "orbita",
+    "os-frontale",
+    "os-sphenoidale",
+    "mandibula"
+   ],
+   "models": [
+    "Cranium"
+   ],
+   "aliases": [
+    "skull",
+    "head",
+    "cranium"
+   ]
+  },
+  {
+   "id": "suturae-fonticuli",
+   "tr": "Sutures and fontanelles of the skull",
+   "la": "Suturae et fonticuli cranii",
+   "en": "Sutures and fontanelles",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "The bones of the skull are joined by fibrous joints called sutures. In the newborn, unossified membranous areas – the fontanelles – lie where these sutures meet; they allow the head to mould during birth and the brain to grow.",
+   "facts": [
+    [
+     "Başlıca dikişler",
+     "Coronal (frontal–parietal), sagittal (between the two parietals), lambdoid (parietal–occipital), squamous (parietal–temporal), metopic (between the two halves of the frontal)",
+     "Main sutures"
+    ],
+    [
+     "Ön bıngıldak (fonticulus anterior)",
+     "Diamond-shaped, the largest; between the frontal and parietal bones; closes at 18–24 months",
+     "Anterior fontanelle"
+    ],
+    [
+     "Arka bıngıldak (fonticulus posterior)",
+     "Triangular; between the parietal and occipital bones; closes at 2–3 months",
+     "Posterior fontanelle"
+    ],
+    [
+     "Yan bıngıldaklar",
+     "Sphenoidal fontanelle (anterolateral, at the pterion) and mastoid fontanelle (posterolateral, at the asterion); close within the first year",
+     "Lateral fontanelles"
+    ],
+    [
+     "Eklem tipi",
+     "Synarthrosis – fibrous joint (sutures); may ossify with age (synostosis)",
+     "Joint type"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "A sunken anterior fontanelle suggests dehydration; a tense, bulging one suggests raised intracranial pressure (meningitis, hydrocephalus).",
+    "Premature closure of the sagittal suture gives a long, narrow head (scaphocephaly); premature closure of one coronal suture gives an asymmetric head (plagiocephaly).",
+    "Late closure of the anterior fontanelle may be seen in rickets, hypothyroidism and hydrocephalus."
+   ],
+   "tus": [
+    "The anterior fontanelle closes at 18–24 months and the posterior at 2–3 months; in the newborn the superior sagittal sinus can be reached through the anterior fontanelle.",
+    "The most common craniosynostosis is sagittal synostosis (scaphocephaly)."
+   ],
+   "related": [
+    "cranium",
+    "os-parietale",
+    "os-frontale",
+    "os-occipitale"
+   ],
+   "models": [
+    "Parietal bone",
+    "Frontal bone",
+    "Occipital bone",
+    "Cranial fibrous joints"
+   ],
+   "aliases": [
+    "suture",
+    "fontanelle",
+    "soft spot"
+   ]
+  },
+  {
+   "id": "basis-cranii",
+   "tr": "Cranial base and foramina",
+   "la": "Basis cranii interna",
+   "en": "Cranial base and foramina",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "The floor of the cranial cavity is divided, from front to back, into three step-like fossae: the anterior, middle and posterior cranial fossae. Cranial nerves and the vessels entering and leaving the brain pass through their foramina and canals.",
+   "facts": [
+    [
+     "Ön kafa çukuru (fossa cranii anterior)",
+     "Orbital part of the frontal bone, cribriform plate (ethmoid) and lesser wings of the sphenoid; carries the frontal lobes. Openings: cribriform foramina (olfactory nerve fibres), foramen caecum",
+     "Anterior cranial fossa"
+    ],
+    [
+     "Orta kafa çukuru (fossa cranii media)",
+     "Body and greater wings of the sphenoid, squamous and petrous parts of the temporal bone; carries the temporal lobes and the pituitary (sella turcica). Openings: optic canal (II, ophthalmic artery), superior orbital fissure (III, IV, V1, VI, superior ophthalmic vein), foramen rotundum (V2), foramen ovale (V3, lesser petrosal nerve), foramen spinosum (middle meningeal artery), foramen lacerum (filled with cartilage; the ICA passes over it)",
+     "Middle cranial fossa"
+    ],
+    [
+     "Arka kafa çukuru (fossa cranii posterior)",
+     "Occipital bone and posterior surface of the petrous temporal; carries the cerebellum, pons and medulla oblongata. Openings: internal acoustic meatus (VII, VIII, labyrinthine artery), jugular foramen (IX, X, XI, internal jugular vein, inferior petrosal sinus), hypoglossal canal (XII), foramen magnum (medulla oblongata, vertebral arteries, spinal roots of XI)",
+     "Posterior cranial fossa"
+    ],
+    [
+     "Dış kafa tabanındaki delikler",
+     "Carotid canal (internal carotid artery, sympathetic plexus), stylomastoid foramen (VII), condylar canal (emissary vein), palatine foramina, incisive fossa",
+     "Openings of the external cranial base"
+    ]
+   ],
+   "sections": [
+    [
+     "Clinical importance",
+     "Fractures of the cranial base are most common in the middle cranial fossa. An anterior skull base fracture may cause bruising around the eyes (raccoon eyes), CSF rhinorrhoea and loss of smell; a fracture of the middle base (petrous part) may cause bruising behind the ear (Battle's sign), haemotympanum, CSF otorrhoea and facial palsy."
+    ]
+   ],
+   "clinical": [
+    "A tumour or fracture at the jugular foramen affects cranial nerves IX, X and XI together (Vernet syndrome): difficulty swallowing, hoarseness, weakness of trapezius and SCM.",
+    "With raised intracranial pressure, herniation of the cerebellar tonsils into the foramen magnum can cause respiratory arrest."
+   ],
+   "tus": [
+    "III, IV, V1 and VI pass through the superior orbital fissure; II and the ophthalmic artery through the optic canal.",
+    "The foramen rotundum transmits V2, the foramen ovale V3 and the foramen spinosum the middle meningeal artery (from front to back: 'Rotundum–Ovale–Spinosum').",
+    "IX, X, XI and the internal jugular vein pass through the jugular foramen; XII through the hypoglossal canal."
+   ],
+   "related": [
+    "cranium",
+    "os-sphenoidale",
+    "os-occipitale",
+    "os-temporale",
+    "os-ethmoidale"
+   ],
+   "models": [
+    "Occipital bone",
+    "Sphenoid bone",
+    "Temporal bone",
+    "Ethmoid bone"
+   ],
+   "aliases": [
+    "skull base",
+    "foramen",
+    "cranial fossa"
+   ]
+  },
+  {
+   "id": "orbita",
+   "tr": "Orbit",
+   "la": "Orbita",
+   "en": "Orbit",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "Bony cavity shaped like a four-sided pyramid, with its base in front and apex behind, that contains the eyeball, the eye muscles, nerves and vessels. Seven bones take part in forming it.",
+   "facts": [
+    [
+     "Kemikleri",
+     "Frontal, zygomatic, maxilla, sphenoid, ethmoid, lacrimal, palatine",
+     "Bones"
+    ],
+    [
+     "Duvarları",
+     "Roof: orbital part of the frontal bone and lesser wing of the sphenoid; floor: maxilla, zygomatic, palatine; medial wall: orbital plate of the ethmoid, lacrimal bone, maxilla, sphenoid; lateral wall: zygomatic and greater wing of the sphenoid (the thickest wall)",
+     "Walls"
+    ],
+    [
+     "Açıklıkları",
+     "Optic canal (II, ophthalmic artery), superior orbital fissure (III, IV, V1, VI, superior ophthalmic vein), inferior orbital fissure (infraorbital nerve, inferior ophthalmic vein), nasolacrimal canal, ethmoidal foramina",
+     "Openings"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Eyeball, extraocular muscles, optic nerve, lacrimal gland, orbital fat, ophthalmic artery and its branches",
+     "Contents"
+    ]
+   ],
+   "sections": [
+    [
+     "Weakest walls",
+     "The orbital plate (lamina papyracea) of the medial wall is the thinnest wall; ethmoid sinus infections can spread through it into the orbit. The floor is also thin, with the maxillary sinus beneath it; blunt trauma to the eye can fracture the floor and cause a 'blow-out' fracture."
+    ]
+   ],
+   "clinical": [
+    "In a blow-out fracture the orbital floor breaks; the inferior rectus can be trapped in the fracture line, causing double vision on looking up, and injury to the infraorbital nerve causes numbness of the cheek and upper lip.",
+    "Orbital cellulitis usually spreads from ethmoid sinusitis; untreated, it can progress to cavernous sinus thrombosis."
+   ],
+   "tus": [
+    "The thinnest wall of the orbit is the medial wall (lamina papyracea) and the thickest the lateral wall; blow-out fractures most often involve the floor.",
+    "The common tendinous ring (annulus of Zinn) is the origin of the four rectus muscles; II, III, VI and the nasociliary nerve pass through it, while IV, the frontal and lacrimal nerves pass outside it."
+   ],
+   "related": [
+    "os-frontale",
+    "os-zygomaticum",
+    "maxilla",
+    "os-sphenoidale",
+    "os-ethmoidale",
+    "os-lacrimale"
+   ],
+   "models": [
+    "Frontal bone",
+    "Zygomatic bone",
+    "Maxilla",
+    "Sphenoid bone",
+    "Ethmoid bone",
+    "Lacrimal bone",
+    "Palatine bone"
+   ],
+   "aliases": [
+    "orbit",
+    "eye socket"
+   ]
+  },
+  {
+   "id": "fossa-pterygopalatina",
+   "tr": "Pterygopalatine fossa",
+   "la": "Fossa pterygopalatina",
+   "en": "Pterygopalatine fossa",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "Small, inverted pyramid-shaped space behind the maxilla and in front of the pterygoid process of the sphenoid. It contains the maxillary nerve, the last part of the maxillary artery and the pterygopalatine ganglion, and is an important crossroads between the nose, palate, orbit and cranial cavity.",
+   "facts": [
+    [
+     "Sınırları",
+     "In front the maxilla (maxillary tuberosity), behind the pterygoid process and greater wing of the sphenoid, medially the perpendicular plate of the palatine bone, laterally the pterygomaxillary fissure leading to the infratemporal fossa",
+     "Boundaries"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Maxillary nerve (V2), pterygopalatine ganglion, the 3rd (pterygopalatine) part of the maxillary artery and its branches",
+     "Contents"
+    ],
+    [
+     "Bağlantıları",
+     "Foramen rotundum (middle cranial fossa), pterygoid canal (region of the foramen lacerum), inferior orbital fissure (orbit), sphenopalatine foramen (nasal cavity), greater palatine canal (palate), pterygomaxillary fissure (infratemporal fossa)",
+     "Communications"
+    ]
+   ],
+   "sections": [
+    [
+     "Pterygopalatine ganglion",
+     "A parasympathetic ganglion; its preganglionic fibres come from the facial nerve via the greater petrosal nerve (nerve of the pterygoid canal). Postganglionic fibres go to the lacrimal gland and the mucous glands of the nose, palate and pharynx; it is therefore sometimes called the 'hay fever ganglion'."
+    ]
+   ],
+   "clinical": [
+    "The sphenopalatine artery is the source of posterior nosebleeds; in uncontrollable bleeding it can be ligated in the pterygopalatine fossa or at the sphenopalatine foramen.",
+    "Juvenile nasopharyngeal angiofibroma tends to spread into this fossa."
+   ],
+   "tus": [
+    "The greater petrosal nerve (VII, parasympathetic) and the deep petrosal nerve (sympathetic) unite to form the nerve of the pterygoid canal (Vidian nerve), which reaches the pterygopalatine ganglion.",
+    "Parasympathetic pathway of the lacrimal gland: facial nerve → greater petrosal nerve → pterygopalatine ganglion → zygomatic nerve → lacrimal nerve."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-palatinum",
+    "maxilla",
+    "orbita"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Palatine bone",
+    "Maxilla"
+   ],
+   "aliases": [
+    "pterygopalatine fossa",
+    "sphenopalatine"
+   ]
+  },
+  {
+   "id": "os-frontale",
+   "tr": "Frontal bone",
+   "la": "Os frontale",
+   "en": "Frontal bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "The single, symmetrical skull bone that forms the forehead and the roofs of the orbits. It has three parts: the vertical squamous part, the horizontal orbital part and the small nasal part.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Flat bone (pneumatised – contains the frontal sinus)",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Parietal bone (coronal suture), sphenoid, ethmoid, nasal bones, maxillae, lacrimal bones, zygomatic bones",
+     "Articulating bones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Frontal eminence, superciliary arch, glabella, supraorbital margin, supraorbital notch/foramen, zygomatic process, frontal sinus, frontal crest",
+     "Main features"
+    ],
+    [
+     "Kemikleşme",
+     "Intramembranous; in two halves at birth, the metopic suture usually closes in the 2nd year",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "The squamous part forms the forehead; its inner surface bears the impressions of the cerebral gyri and, in the midline, the groove for the superior sagittal sinus. The orbital part is a thin plate that forms the floor of the anterior cranial fossa; the cribriform plate of the ethmoid sits in the ethmoidal notch between the two orbital parts. The frontal sinus is an air space behind the eyebrows that opens into the middle nasal meatus."
+    ]
+   ],
+   "clinical": [
+    "The supraorbital nerve, which passes through the supraorbital foramen/notch, is blocked for local anaesthesia of the forehead.",
+    "Infection of the frontal sinus (frontal sinusitis) causes forehead pain; fractures of the anterior skull base can cause cerebrospinal fluid leaking from the nose (rhinorrhoea)."
+   ],
+   "tus": [
+    "The frontal sinus opens into the middle nasal meatus (semilunar hiatus).",
+    "The supraorbital nerve and artery (V1) pass through the supraorbital foramen/notch, a pressure point in trigeminal neuralgia."
+   ],
+   "related": [
+    "os-parietale",
+    "os-ethmoidale",
+    "os-sphenoidale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Frontal bone",
+    "Sinus of frontal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-parietale",
+   "tr": "Parietal bone",
+   "la": "Os parietale",
+   "en": "Parietal bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A paired, four-sided flat bone that forms the sides and upper part of the skull vault (calvaria). The two parietal bones meet in the midline at the sagittal suture.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Flat bone",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Opposite parietal bone (sagittal suture), frontal bone (coronal suture), occipital bone (lambdoid suture), temporal bone (squamous suture), sphenoid (greater wing)",
+     "Articulating bones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Parietal eminence, superior and inferior temporal lines, parietal foramen, grooves for the middle meningeal artery on the inner surface (arterial grooves)",
+     "Main features"
+    ],
+    [
+     "Kemikleşme",
+     "Intramembranous ossification",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Fontanelles",
+     "In the newborn the corners of the parietal bones border the fontanelles: the anterior fontanelle, between the frontal and parietal bones, closes at 18–24 months; the posterior fontanelle, between the parietal and occipital bones, closes at 2–3 months."
+    ]
+   ],
+   "clinical": [
+    "The pterion (the H-shaped area where the frontal, parietal, temporal and sphenoid bones meet) is thin and breaks easily after a blow; if the middle meningeal artery beneath it tears, an epidural haematoma develops.",
+    "A sunken anterior fontanelle suggests dehydration, a bulging one raised intracranial pressure."
+   ],
+   "tus": [
+    "The anterior branch of the middle meningeal artery runs on the inner surface of the pterion; a fracture here causes an epidural haematoma.",
+    "The parietal bone ossifies in membrane; at birth it forms the margins of the anterior and posterior fontanelles."
+   ],
+   "related": [
+    "os-frontale",
+    "os-occipitale",
+    "os-temporale"
+   ],
+   "models": [
+    "Parietal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-occipitale",
+   "tr": "Occipital bone",
+   "la": "Os occipitale",
+   "en": "Occipital bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "The single bone forming the back and lower part of the skull. Through the foramen magnum it connects the cranial cavity with the vertebral canal, and its occipital condyles articulate with the atlas.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Flat bone",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Squamous part, two lateral (condylar) parts and the basilar part",
+     "Parts"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Parietal bones, temporal bones, sphenoid, atlas (atlanto-occipital joint)",
+     "Articulating bones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Foramen magnum, occipital condyles, hypoglossal canal, external occipital protuberance (inion), nuchal lines, clivus, internal occipital protuberance, groove for the transverse sinus",
+     "Main features"
+    ],
+    [
+     "Foramen magnum'dan geçenler",
+     "Medulla oblongata and its meninges, vertebral arteries, anterior and posterior spinal arteries, spinal roots of the accessory nerve",
+     "Through the foramen magnum"
+    ]
+   ],
+   "sections": [
+    [
+     "Clinically important areas",
+     "The clivus lies in front of the brainstem. The trapezius and sternocleidomastoid attach to the superior nuchal line. Cranial nerve XII passes through the hypoglossal canal; emissary veins pass through the condylar canal behind the condyles."
+    ]
+   ],
+   "clinical": [
+    "In the Arnold–Chiari malformation the cerebellar tonsils extend through the foramen magnum into the vertebral canal.",
+    "With raised intracranial pressure, herniation of the cerebellar tonsils into the foramen magnum (tonsillar herniation) can compress the respiratory centre and be fatal."
+   ],
+   "tus": [
+    "The medulla oblongata, vertebral arteries, anterior spinal artery and spinal roots of the accessory nerve pass through the foramen magnum.",
+    "The hypoglossal canal lies above the condyles and transmits nerve XII."
+   ],
+   "related": [
+    "atlas",
+    "os-parietale",
+    "os-sphenoidale",
+    "medulla-oblongata"
+   ],
+   "models": [
+    "Occipital bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-temporale",
+   "tr": "Temporal bone",
+   "la": "Os temporale",
+   "en": "Temporal bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A paired bone of complex shape in the side wall and base of the skull that houses the organs of hearing and balance. It forms the temporomandibular joint with the mandible.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular bone (pneumatised – mastoid air cells)",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Squamous part, tympanic part, petrous part (pyramid) and styloid process",
+     "Parts"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Parietal bone, occipital bone, sphenoid, zygomatic bone (zygomatic arch), mandible (temporomandibular joint)",
+     "Articulating bones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "External and internal acoustic meatus, mastoid process, zygomatic process, mandibular fossa, articular tubercle, stylomastoid foramen, carotid canal, jugular fossa",
+     "Main features"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Middle ear (tympanic cavity and ossicles), inner ear (labyrinth), facial canal",
+     "Contents"
+    ]
+   ],
+   "sections": [
+    [
+     "Petrous part",
+     "One of the hardest parts of the skeleton, it separates the middle and posterior cranial fossae and contains the cochlea and semicircular canals. The facial nerve runs in the facial canal and leaves through the stylomastoid foramen; the internal carotid artery enters the skull through the carotid canal."
+    ]
+   ],
+   "clinical": [
+    "Temporal bone fractures can cause conductive hearing loss, CSF leaking from the ear (otorrhoea), facial palsy and bruising over the mastoid (Battle's sign).",
+    "Middle ear infections can spread to the mastoid air cells and cause mastoiditis."
+   ],
+   "tus": [
+    "The facial nerve leaves through the stylomastoid foramen; VII, VIII and the labyrinthine artery pass through the internal acoustic meatus.",
+    "Fractures of the petrous part (Battle's sign – mastoid bruising, haemotympanum) suggest a skull base fracture."
+   ],
+   "related": [
+    "os-parietale",
+    "mandibula",
+    "auris-media",
+    "auris-interna",
+    "art-temporomandibularis"
+   ],
+   "models": [
+    "Temporal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-sphenoidale",
+   "tr": "Sphenoid bone",
+   "la": "Os sphenoidale",
+   "en": "Sphenoid bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A single bone in the middle of the skull base, shaped like a bat in flight. It touches every other bone of the cranium and carries the sella turcica, which houses the pituitary gland.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular, pneumatised bone (sphenoidal sinus)",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Body, lesser wings, greater wings, pterygoid processes",
+     "Parts"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sella turcica (hypophysial fossa), optic canal, superior orbital fissure, foramen rotundum, foramen ovale, foramen spinosum, clinoid processes",
+     "Main features"
+    ],
+    [
+     "Geçen yapılar",
+     "Optic canal: optic nerve and ophthalmic artery; superior orbital fissure: nerves III, IV, V1, VI and the superior ophthalmic vein; foramen rotundum: V2; foramen ovale: V3; foramen spinosum: middle meningeal artery",
+     "Structures passing through"
+    ]
+   ],
+   "sections": [
+    [
+     "Position",
+     "It lies where the anterior, middle and posterior cranial fossae meet. The sphenoidal sinus in its body opens into the upper back part of the nasal cavity (sphenoethmoidal recess). The pterygoid processes give attachment to the pterygoid muscles of mastication."
+    ]
+   ],
+   "clinical": [
+    "Pituitary tumours are often reached through the nose via the sphenoidal sinus (transsphenoidal surgery).",
+    "A pituitary adenoma can enlarge the sella turcica and press on the optic chiasm above it, causing bitemporal hemianopia."
+   ],
+   "tus": [
+    "The lesser wing carries the optic canal; the greater wing has the foramen rotundum (V2), ovale (V3) and spinosum (middle meningeal artery).",
+    "The superior orbital fissure lies between the greater and lesser wings (III, IV, V1, VI, superior ophthalmic vein)."
+   ],
+   "related": [
+    "hypophysis",
+    "os-ethmoidale",
+    "os-frontale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Sinus of sphenoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-ethmoidale",
+   "tr": "Ethmoid bone",
+   "la": "Os ethmoidale",
+   "en": "Ethmoid bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A light, spongy single bone between the orbits at the top of the nasal cavity. It forms the roof and side walls of the nasal cavity and the upper part of the nasal septum.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular, pneumatised bone",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Cribriform plate, perpendicular plate, two ethmoidal labyrinths (ethmoidal cells)",
+     "Parts"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crista galli, foramina of the cribriform plate, superior and middle nasal conchae, orbital plate (lamina papyracea), ethmoidal bulla, uncinate process",
+     "Main features"
+    ],
+    [
+     "Geçen yapılar",
+     "Olfactory nerve fibres (fila olfactoria) through the foramina of the cribriform plate",
+     "Structures passing through"
+    ]
+   ],
+   "sections": [
+    [
+     "Ethmoidal cells",
+     "The anterior, middle and posterior ethmoidal cells are small air spaces; the anterior and middle cells open into the middle nasal meatus, the posterior cells into the superior meatus. The orbital plate facing the orbit is as thin as paper."
+    ]
+   ],
+   "clinical": [
+    "Fractures of the cribriform plate can cause loss of smell (anosmia) and CSF rhinorrhoea.",
+    "Because the lamina papyracea is so thin, ethmoid sinusitis can spread into the orbit and cause orbital cellulitis."
+   ],
+   "tus": [
+    "A fracture of the cribriform plate causes anosmia and CSF rhinorrhoea; 'raccoon eyes' are a sign of an anterior skull base fracture.",
+    "The orbital plate (lamina papyracea) is the thinnest wall of the orbit; ethmoid sinusitis spreads easily into the orbit (orbital cellulitis)."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-frontale",
+    "cavitas-nasi",
+    "sinus-paranasales",
+    "n-olfactorius"
+   ],
+   "models": [
+    "Ethmoid bone",
+    "Anterior cells of ethmoid bone",
+    "Middle cells of ethmoid bone",
+    "Posterior cells of ethmoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "maxilla",
+   "tr": "Maxilla",
+   "la": "Maxilla",
+   "en": "Maxilla",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A paired bone at the centre of the facial skeleton. It carries the upper teeth and forms most of the roof of the mouth (hard palate), the side wall of the nasal cavity and the floor of the orbit.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular, pneumatised bone (maxillary sinus)",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Body and four processes: frontal, zygomatic, alveolar and palatine",
+     "Parts"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal bone, ethmoid, nasal bone, lacrimal bone, zygomatic bone, palatine bone, vomer, inferior nasal concha, opposite maxilla",
+     "Articulating bones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Maxillary sinus, infraorbital foramen, alveolar arch, incisive foramen, anterior nasal spine",
+     "Main features"
+    ]
+   ],
+   "sections": [
+    [
+     "Maxillary sinus",
+     "The largest of the paranasal sinuses; its floor lies very close to the roots of the upper molars. It opens into the middle nasal meatus through the semilunar hiatus; because its opening lies near the roof, it drains poorly."
+    ]
+   ],
+   "clinical": [
+    "Extraction of an upper molar can create an opening between the sinus and the mouth (oroantral fistula).",
+    "Facial fractures are classified as Le Fort I, II and III.",
+    "A cleft palate results from failure of the two palatine processes to fuse."
+   ],
+   "tus": [
+    "The maxillary sinus is the largest paranasal sinus and drains poorly because its ostium lies high; the roots of the upper molars border its floor.",
+    "The infraorbital nerve (V2) emerges from the infraorbital foramen; Le Fort fractures are the classic classification of maxillary fractures."
+   ],
+   "related": [
+    "mandibula",
+    "os-zygomaticum",
+    "os-palatinum",
+    "dentes",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Maxilla"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mandibula",
+   "tr": "Mandible",
+   "la": "Mandibula",
+   "en": "Mandible",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "The largest and strongest bone of the face and the only movable bone of the skull. It carries the lower teeth and forms the temporomandibular joint with the temporal bone.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular bone",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Body and two rami; they meet at the angle of the mandible",
+     "Parts"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Condylar process (head and neck), coronoid process, mandibular notch, mandibular foramen, lingula, mental foramen, mental protuberance, mylohyoid line, digastric fossa",
+     "Main features"
+    ],
+    [
+     "Kas tutunmaları",
+     "Masseter, temporalis, medial and lateral pterygoids, digastric, mylohyoid, geniohyoid, genioglossus, platysma",
+     "Muscle attachments"
+    ],
+    [
+     "Kemikleşme",
+     "Mostly intramembranous; in two halves at birth, fusing at the mental symphysis in the first year",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Nerves and vessels",
+     "The inferior alveolar nerve enters the mandibular canal through the mandibular foramen, supplies the lower teeth and leaves through the mental foramen as the mental nerve, which supplies the lower lip and chin."
+    ]
+   ],
+   "clinical": [
+    "Mandibular fractures usually occur in two places at once (for example the neck on one side and the body on the other).",
+    "For lower dental work the inferior alveolar nerve is blocked near the lingula."
+   ],
+   "tus": [
+    "The mandible breaks most often at the condylar neck, the angle and the body (usually in two places).",
+    "The sphenomandibular ligament attaches to the lingula in front of the mandibular foramen; the inferior alveolar nerve block is given here."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "art-temporomandibularis",
+    "m-masseter",
+    "dentes"
+   ],
+   "models": [
+    "Mandible"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-zygomaticum",
+   "tr": "Zygomatic bone",
+   "la": "Os zygomaticum",
+   "en": "Zygomatic bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A paired bone that forms the prominence of the cheek and contributes to the lateral wall and floor of the orbit. Its temporal process joins the zygomatic process of the temporal bone to form the zygomatic arch.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular bone",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal bone, temporal bone, sphenoid, maxilla",
+     "Articulating bones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Frontal process, temporal process, zygomaticofacial foramen, zygomaticotemporal foramen",
+     "Main features"
+    ],
+    [
+     "Kas tutunmaları",
+     "Masseter (zygomatic arch), zygomaticus major and minor",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "The bone forming the prominence of the cheek. Its temporal process joins the zygomatic process of the temporal bone to form the zygomatic arch; its frontal process forms the lateral margin of the orbit. Branches of the zygomatic nerve enter through the zygomatico-orbital foramen on its orbital surface and emerge to the skin of the cheek and temple."
+    ]
+   ],
+   "clinical": [
+    "Zygomatic fractures (tripod fracture) can cause facial asymmetry, restricted eye movements and numbness of the cheek (infraorbital nerve injury).",
+    "In fractures of the zygomatic arch, temporalis and the coronoid process beneath can be trapped, restricting mouth opening."
+   ],
+   "tus": [
+    "A zygomatic complex (tripod) fracture causes flattening of the cheek, infraorbital numbness and limited mouth opening.",
+    "A fracture of the zygomatic arch can trap the coronoid process and prevent the mouth from opening."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "m-masseter"
+   ],
+   "models": [
+    "Zygomatic bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-nasale",
+   "tr": "Nasal bone",
+   "la": "Os nasale",
+   "en": "Nasal bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A small, rectangular paired bone that forms the upper part of the bridge of the nose. The nasal cartilages attach to its lower border.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Flat bone",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal bone, opposite nasal bone, maxilla (frontal process), ethmoid (perpendicular plate)",
+     "Articulating bones"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "The opposite nasal bone, frontal bone, maxilla (frontal process), ethmoid (perpendicular plate)",
+     "Articulating bones"
+    ],
+    [
+     "Kemikleşme",
+     "Intramembranous ossification",
+     "Ossification"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "The most frequently fractured bone of the face; if a septal haematoma forms after the fracture, it must be drained to prevent cartilage necrosis."
+   ],
+   "tus": [
+    "The most frequently fractured facial bone; an undrained septal haematoma leads to cartilage necrosis and a saddle nose.",
+    "In nasal bone fractures a septal haematoma must be looked for; if not drained the septal cartilage undergoes necrosis."
+   ],
+   "related": [
+    "maxilla",
+    "os-frontale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Nasal bone",
+    "Nasal septal cartilage",
+    "Major alar cartilage",
+    "Lateral process of nasal septal cartilage"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-lacrimale",
+   "tr": "Lacrimal bone",
+   "la": "Os lacrimale",
+   "en": "Lacrimal bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "One of the smallest and thinnest bones of the skull, at the front of the medial wall of the orbit. It helps form the fossa that holds the lacrimal sac.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Flat bone",
+     "Bone type"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Posterior lacrimal crest, lacrimal groove (back of the fossa for the lacrimal sac), lacrimal hamulus",
+     "Main features"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal bone, ethmoid, maxilla, inferior nasal concha",
+     "Articulating bones"
+    ]
+   ],
+   "sections": [
+    [
+     "Function",
+     "Together with the maxilla it forms the fossa for the lacrimal sac and the nasolacrimal canal, which opens into the nasal cavity."
+    ]
+   ],
+   "clinical": [
+    "When the nasolacrimal duct is blocked, dacryocystorhinostomy opens this thin bone to connect the lacrimal sac to the nasal cavity.",
+    "Dacryocystorhinostomy (an operation opening the lacrimal sac into the nose) is performed through the lacrimal bone and the frontal process of the maxilla."
+   ],
+   "tus": [
+    "The smallest and thinnest bone of the facial skeleton; it forms the back of the fossa for the lacrimal sac."
+   ],
+   "related": [
+    "apparatus-lacrimalis",
+    "os-ethmoidale",
+    "maxilla"
+   ],
+   "models": [
+    "Lacrimal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-palatinum",
+   "tr": "Palatine bone",
+   "la": "Os palatinum",
+   "en": "Palatine bone",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A paired, L-shaped bone that forms the back of the hard palate, the back of the lateral wall of the nasal cavity and a small part of the orbital floor.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular bone",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Horizontal plate, perpendicular plate; pyramidal, orbital and sphenoidal processes",
+     "Parts"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Greater and lesser palatine foramina, posterior nasal spine",
+     "Main features"
+    ]
+   ],
+   "sections": [
+    [
+     "Structures passing through",
+     "The greater palatine nerve and artery pass through the greater palatine foramen, the lesser palatine nerves through the lesser palatine foramina."
+    ]
+   ],
+   "clinical": [
+    "In cleft palate the palatine processes of the maxillae and the horizontal plates of the palatine bones fail to unite in the midline; it disturbs feeding and speech."
+   ],
+   "tus": [
+    "The nerves and vessels of the same name reach the palate through the greater and lesser palatine foramina (V2, branches of the descending palatine artery)."
+   ],
+   "related": [
+    "maxilla",
+    "vomer",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Palatine bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "vomer",
+   "tr": "Vomer",
+   "la": "Vomer",
+   "en": "Vomer",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A single thin bone, shaped like a ploughshare, that forms the lower back part of the nasal septum.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Flat bone",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Sphenoid, ethmoid, maxillae, palatine bones, septal cartilage",
+     "Articulating bones"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Sphenoid, ethmoid (perpendicular plate), maxillae, palatine bones; its anterior border joins the septal cartilage",
+     "Articulating bones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Deviation of the nasal septum often involves the junction of the vomer and the septal cartilage and can block the nose.",
+    "A deviated septum is mostly due to a bend at the junction of the vomer and the septal cartilage."
+   ],
+   "tus": [
+    "It forms the lower back part of the septum; its free posterior border divides the choanae."
+   ],
+   "related": [
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Vomer"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "concha-nasalis-inferior",
+   "tr": "Inferior nasal concha",
+   "la": "Concha nasalis inferior",
+   "en": "Inferior nasal concha",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A paired, curled, independent bone on the lateral wall of the nasal cavity. Its mucosa warms and humidifies the inhaled air.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular bone",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Maxilla, lacrimal bone, ethmoid, palatine bone",
+     "Articulating bones"
+    ],
+    [
+     "İlişki",
+     "The nasolacrimal duct opens into the inferior nasal meatus beneath it",
+     "Relations"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hypertrophy of the inferior concha is a common cause of nasal obstruction; if medication fails the concha is reduced surgically."
+   ],
+   "tus": [
+    "The nasolacrimal duct opens into the inferior meatus beneath it; no paranasal sinus opens here."
+   ],
+   "related": [
+    "cavitas-nasi",
+    "os-lacrimale",
+    "maxilla"
+   ],
+   "models": [
+    "Inferior nasal concha bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-hyoideum",
+   "tr": "Hyoid bone",
+   "la": "Os hyoideum",
+   "en": "Hyoid bone",
+   "group": "Skull (Cranium)",
+   "region": "neck",
+   "summary": "A U-shaped bone at the front of the upper neck, between the mandible and the larynx. It articulates with no other bone and is suspended by muscles and ligaments.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular bone",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Body, two greater horns, two lesser horns",
+     "Parts"
+    ],
+    [
+     "Seviye",
+     "Level of the C3 vertebra",
+     "Level"
+    ],
+    [
+     "Kas tutunmaları",
+     "Suprahyoid muscles (digastric, stylohyoid, mylohyoid, geniohyoid), infrahyoid muscles (sternohyoid, omohyoid, thyrohyoid), hyoglossus, middle pharyngeal constrictor",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Function",
+     "It forms a movable base for the root of the tongue and mediates the raising and lowering of the larynx during swallowing and speech."
+    ]
+   ],
+   "clinical": [
+    "In forensic medicine a fractured hyoid supports suspicion of manual strangulation."
+   ],
+   "tus": [
+    "A hyoid fracture is an important forensic sign of strangulation.",
+    "The hyoid lies at C3; a thyroglossal duct cyst is related to its body, and the middle of the hyoid is removed at surgery (Sistrunk)."
+   ],
+   "related": [
+    "larynx",
+    "lingua",
+    "mandibula"
+   ],
+   "models": [
+    "Hyoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossicula-auditus",
+   "tr": "Auditory ossicles",
+   "la": "Ossicula auditus",
+   "en": "Auditory ossicles",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "A chain of three small bones in the middle ear that carries sound from the eardrum to the inner ear: the malleus, incus and stapes. The stapes is the smallest bone in the body.",
+   "facts": [
+    [
+     "Kemikler",
+     "Malleus (hammer), incus (anvil), stapes (stirrup)",
+     "Bones"
+    ],
+    [
+     "Eklemler",
+     "Incudomallear and incudostapedial joints (synovial)",
+     "Joints"
+    ],
+    [
+     "İlişkili kaslar",
+     "Tensor tympani (to the malleus; trigeminal nerve/V3) and stapedius (to the stapes; facial nerve)",
+     "Related muscles"
+    ],
+    [
+     "İşlevi",
+     "Transmits sound vibrations from the eardrum to the oval window and amplifies them about 20-fold",
+     "Function"
+    ]
+   ],
+   "sections": [
+    [
+     "Course",
+     "The handle of the malleus is attached to the eardrum; its head articulates with the body of the incus. The long limb of the incus joins the head of the stapes, whose base closes the oval window of the inner ear."
+    ]
+   ],
+   "clinical": [
+    "Otosclerosis is the bony fixation of the stapes base to the oval window and causes conductive hearing loss; it is treated by stapedectomy.",
+    "In facial nerve palsy the stapedius does not work, so loud sounds are uncomfortably loud (hyperacusis)."
+   ],
+   "tus": [
+    "The malleus and incus develop from the 1st pharyngeal arch (Meckel), the stapes from the 2nd (Reichert).",
+    "The tensor tympani (V3) attaches to the malleus, the stapedius (VII) to the stapes; stapedius palsy causes hyperacusis."
+   ],
+   "related": [
+    "auris-media",
+    "os-temporale",
+    "n-facialis"
+   ],
+   "models": [
+    "Malleus",
+    "Incus",
+    "Stapes"
+   ],
+   "aliases": [
+    "hammer",
+    "anvil",
+    "stirrup",
+    "ear bones"
+   ]
+  },
+  {
+   "id": "dentes",
+   "tr": "Teeth",
+   "la": "Dentes",
+   "en": "Teeth",
+   "group": "Skull (Cranium)",
+   "region": "head",
+   "summary": "Hard structures that cut, tear and grind food. Adults have 32 permanent teeth (in each half-jaw 2 incisors, 1 canine, 2 premolars and 3 molars); there are 20 deciduous teeth.",
+   "facts": [
+    [
+     "Diş formülü (kalıcı)",
+     "2-1-2-3 (per quadrant); 32 in total",
+     "Dental formula (permanent)"
+    ],
+    [
+     "Yapısı",
+     "Enamel, dentine, cementum, dental pulp",
+     "Structure"
+    ],
+    [
+     "Bölümleri",
+     "Crown, neck, root",
+     "Parts"
+    ],
+    [
+     "İnnervasyon",
+     "Upper teeth: superior alveolar nerves (V2); lower teeth: inferior alveolar nerve (V3)",
+     "Innervation"
+    ],
+    [
+     "Sürme",
+     "Deciduous teeth at 6–24 months; permanent teeth at 6–12 years, wisdom teeth at 17–25 years",
+     "Eruption"
+    ]
+   ],
+   "sections": [
+    [
+     "Types of teeth",
+     "Incisors bite and cut, canines tear, premolars and molars grind. Enamel is the hardest tissue in the body."
+    ]
+   ],
+   "clinical": [
+    "Caries reaching the pulp (pulpitis) causes severe pain and may need root canal treatment.",
+    "Impacted wisdom teeth can cause pericoronitis and damage the neighbouring tooth."
+   ],
+   "tus": [
+    "The first permanent tooth to erupt is the first molar (~6 years); the last is the third molar (wisdom tooth).",
+    "Upper teeth are supplied by the superior alveolar nerves (V2), lower teeth by the inferior alveolar nerve (V3)."
+   ],
+   "related": [
+    "mandibula",
+    "maxilla",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Teeth"
+   ],
+   "aliases": [
+    "tooth",
+    "molar",
+    "incisor",
+    "canine"
+   ]
+  },
+  {
+   "id": "columna-vertebralis",
+   "tr": "Vertebral column (structure and curvatures)",
+   "la": "Columna vertebralis",
+   "en": "Vertebral column",
+   "group": "Vertebral column",
+   "region": "back",
+   "summary": "Flexible axis of 33 vertebrae running from the skull to the coccyx. It carries the weight of the trunk, protects the spinal cord and allows movement. Seen from the side it has four physiological curvatures.",
+   "facts": [
+    [
+     "Sayı",
+     "33 vertebrae: 7 cervical, 12 thoracic, 5 lumbar, 5 sacral (fused into the sacrum) and 3–5 coccygeal (fused into the coccyx)",
+     "Number"
+    ],
+    [
+     "Tipik omurun bölümleri",
+     "Body (corpus), vertebral arch (pedicles and laminae), spinous process, two transverse processes, four articular processes; the vertebral foramen lies between body and arch",
+     "Parts of a typical vertebra"
+    ],
+    [
+     "Eğrilik",
+     "Cervical and lumbar lordosis (convex forwards – secondary curvatures), thoracic and sacral kyphosis (convex backwards – primary curvatures)",
+     "Curvature"
+    ],
+    [
+     "Delikler",
+     "The vertebral foramina stack up to form the vertebral canal; the notches of adjacent vertebrae form the intervertebral foramina (where the spinal nerves exit)",
+     "Foramina"
+    ],
+    [
+     "Bölgesel ayırt edici özellikler",
+     "Cervical: transverse foramen, bifid spine; thoracic: facets for the ribs, long spine sloping downwards; lumbar: large kidney-shaped body, thick short spine",
+     "Regional features"
+    ]
+   ],
+   "sections": [
+    [
+     "Development of the curvatures",
+     "In the fetus the spine is a single C-shaped curve concave forwards (primary kyphosis). When the baby begins to hold up its head the cervical lordosis develops, and when it sits and walks the lumbar lordosis. These secondary curvatures let the spine carry weight with a spring-like action."
+    ]
+   ],
+   "clinical": [
+    "Scoliosis is a lateral curvature with rotation of the spine; it is most often adolescent idiopathic and is best seen on the forward bending test.",
+    "Hyperkyphosis (hunchback) occurs with osteoporotic compression fractures and Scheuermann disease; hyperlordosis with pregnancy and obesity.",
+    "Spondylolisthesis is forward slipping of one vertebra on the one below; it is most common at L5–S1."
+   ],
+   "tus": [
+    "The primary curvatures are the thoracic and sacral kyphoses, the secondary ones the cervical and lumbar lordoses.",
+    "In the cervical region the spinal nerves exit above the vertebra of the same number (except C8); in the thoracic and lumbar regions they exit below it."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "vertebrae-thoracicae",
+    "vertebrae-lumbales",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "ligg-columnae"
+   ],
+   "models": [
+    "Vertebral column"
+   ],
+   "aliases": [
+    "spine",
+    "backbone"
+   ]
+  },
+  {
+   "id": "vertebrae-cervicales",
+   "tr": "Cervical vertebrae",
+   "la": "Vertebrae cervicales (C1–C7)",
+   "en": "Cervical vertebrae",
+   "group": "Vertebral column",
+   "region": "neck",
+   "summary": "The seven vertebrae of the neck. Their small bodies, the foramina in their transverse processes (foramen transversarium) and their bifid spinous processes set them apart from other vertebrae.",
+   "facts": [
+    [
+     "Sayı",
+     "7 (C1–C7)",
+     "Number"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Foramen transversarium (vertebral artery and vein pass; usually only the vein at C7), bifid spinous process (C2–C6), large triangular vertebral foramen",
+     "Distinguishing feature"
+    ],
+    [
+     "Özel omurlar",
+     "C1 atlas, C2 axis, C7 vertebra prominens (most prominent spinous process)",
+     "Special vertebrae"
+    ],
+    [
+     "Eğrilik",
+     "Convex forwards (cervical lordosis)",
+     "Curvature"
+    ]
+   ],
+   "sections": [
+    [
+     "Movement",
+     "The neck is the most mobile part of the spine: flexion, extension, lateral flexion and rotation are possible. About half of head rotation takes place at the atlantoaxial joint. Uncinate processes on the lateral edges of the C3–C6 bodies form the uncovertebral (Luschka) joints."
+    ]
+   ],
+   "clinical": [
+    "Sudden acceleration–deceleration injuries (whiplash) strain the soft tissues of the neck.",
+    "C5–C6 and C6–C7 are the commonest levels of cervical disc herniation and spondylosis."
+   ],
+   "tus": [
+    "The distinguishing feature of cervical vertebrae is the foramen transversarium; C3–C7 have uncinate processes (Luschka joints).",
+    "The anterior tubercle of the C6 transverse process (Chassaignac's tubercle) is where the common carotid artery can be compressed."
+   ],
+   "related": [
+    "atlas",
+    "axis",
+    "vertebrae-thoracicae",
+    "medulla-spinalis",
+    "a-vertebralis"
+   ],
+   "models": [
+    "Cervical vertebrae",
+    "Vertebra C3",
+    "Vertebra C4",
+    "Vertebra C5",
+    "Vertebra C6",
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "neck vertebrae",
+    "neck bones"
+   ]
+  },
+  {
+   "id": "atlas",
+   "tr": "Atlas (C1)",
+   "la": "Atlas (C1)",
+   "en": "Atlas (C1)",
+   "group": "Vertebral column",
+   "region": "neck",
+   "summary": "The first cervical vertebra, which carries the skull. It has no body and no spinous process; it is a ring of anterior and posterior arches and two lateral masses.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Anterior arch, posterior arch, lateral masses, transverse processes",
+     "Parts"
+    ],
+    [
+     "Eklemleri",
+     "Atlanto-occipital joint (with the occipital condyles; 'yes' movement – flexion/extension), atlantoaxial joint (with the axis; 'no' movement – rotation)",
+     "Articulations"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Facet for the dens, anterior and posterior tubercles, groove for the vertebral artery",
+     "Main features"
+    ],
+    [
+     "Bağlar",
+     "The transverse ligament of the atlas holds the dens against the facet for the dens",
+     "Ligaments"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "The atlas has no body and no spinous process; it is a ring made of an anterior and a posterior arch and two lateral masses. The dens of the axis fits into the facet on the back of the anterior arch and is held from behind by the transverse ligament of the atlas. The vertebral artery and the suboccipital nerve (C1) run in the groove on the upper surface of the posterior arch."
+    ]
+   ],
+   "clinical": [
+    "When both arches of the atlas break after a fall on the head, it is called a Jefferson fracture.",
+    "In rheumatoid arthritis or Down syndrome a lax transverse ligament can cause atlantoaxial instability and cord compression."
+   ],
+   "tus": [
+    "A Jefferson fracture is a break of the atlas ring in several places from axial loading (diving).",
+    "The vertebral artery runs in the groove on the upper surface of the posterior arch of the atlas."
+   ],
+   "related": [
+    "axis",
+    "os-occipitale",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Atlas (C1)"
+   ],
+   "aliases": [
+    "C1",
+    "first cervical vertebra"
+   ]
+  },
+  {
+   "id": "axis",
+   "tr": "Axis (C2)",
+   "la": "Axis (C2)",
+   "en": "Axis (C2)",
+   "group": "Vertebral column",
+   "region": "neck",
+   "summary": "The second cervical vertebra; the tooth-like process rising from its body (the dens) is the pivot around which the atlas turns.",
+   "facts": [
+    [
+     "Ayırt edici özellik",
+     "Dens (odontoid process) – embryologically the body of the atlas",
+     "Distinguishing feature"
+    ],
+    [
+     "Eklemleri",
+     "Median atlantoaxial joint (dens–atlas) and lateral atlantoaxial joints, intervertebral joint with C3",
+     "Articulations"
+    ],
+    [
+     "Bağlar",
+     "Alar ligaments, apical ligament of the dens, tectorial membrane, cruciate ligament of the atlas",
+     "Ligaments"
+    ],
+    [
+     "Bağlar",
+     "Transverse ligament of atlas (holds the dens from behind), alar ligaments (from the dens to the occipital condyles), apical ligament of dens, tectorial membrane",
+     "Ligaments"
+    ]
+   ],
+   "sections": [
+    [
+     "Dens of axis",
+     "Embryologically it corresponds to the body of the atlas, fused to the axis. About half of the side-to-side turning of the head at the atlanto-axial joint takes place around this process."
+    ]
+   ],
+   "clinical": [
+    "Fractures of the dens are common in elderly people after falls.",
+    "In judicial hanging (hangman's fracture) the pedicles of the axis break."
+   ],
+   "tus": [
+    "A hangman's fracture is a bilateral fracture of the pars interarticularis of the axis.",
+    "Dens fractures occur most often at its base (type II) and carry a high risk of non-union."
+   ],
+   "related": [
+    "atlas",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Axis (C2)"
+   ],
+   "aliases": [
+    "C2",
+    "dens",
+    "odontoid"
+   ]
+  },
+  {
+   "id": "vertebra-prominens",
+   "tr": "Seventh cervical vertebra (vertebra prominens)",
+   "la": "Vertebra prominens (C7)",
+   "en": "Seventh cervical vertebra",
+   "group": "Vertebral column",
+   "region": "neck",
+   "summary": "The lowest cervical vertebra. Its long, non-bifid spinous process is easily felt under the skin at the lower back of the neck and is used as the starting point for counting the vertebrae.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Irregular bone – atypical cervical vertebra",
+     "Bone type"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Long, non-bifid spinous process with a tubercle at its tip; small transverse foramen (usually only the vertebral vein passes through)",
+     "Distinguishing feature"
+    ],
+    [
+     "Eklemleri",
+     "C6 and T1 vertebrae (discs and facet joints)",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Lower end of the ligamentum nuchae, trapezius, rhomboid minor, serratus posterior superior, splenius capitis",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "The most prominent spine felt at the back of the neck is usually C7; in some people the spine of T1 is more prominent.",
+    "A long transverse process of C7 or an extra cervical rib can compress the lower trunk of the brachial plexus and cause thoracic outlet syndrome."
+   ],
+   "tus": [
+    "The vertebral artery usually enters the transverse foramen of C6; only the vertebral vein usually passes through the foramen of C7.",
+    "A cervical rib most often arises from C7 and is one of the causes of thoracic outlet syndrome."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ],
+   "models": [
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "C7",
+    "vertebra prominens"
+   ]
+  },
+  {
+   "id": "vertebrae-thoracicae",
+   "tr": "Thoracic vertebrae",
+   "la": "Vertebrae thoracicae (T1–T12)",
+   "en": "Thoracic vertebrae",
+   "group": "Vertebral column",
+   "region": "back",
+   "summary": "The twelve vertebrae that articulate with the ribs. They have articular facets for the ribs on the sides of their bodies and on their transverse processes (costal facets).",
+   "facts": [
+    [
+     "Sayı",
+     "12 (T1–T12)",
+     "Number"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Superior and inferior costal facets on the body and a costal facet on the transverse process; long, downward-sloping spinous processes; round vertebral foramen",
+     "Distinguishing feature"
+    ],
+    [
+     "Eklemleri",
+     "With the ribs: joints of the head of the rib and costotransverse joints",
+     "Articulations"
+    ],
+    [
+     "Eğrilik",
+     "Convex backwards (thoracic kyphosis)",
+     "Curvature"
+    ]
+   ],
+   "sections": [
+    [
+     "Movement",
+     "Flexion and extension are limited by the rib cage; the articular facets lie in the frontal plane and allow rotation. The spinous processes overlap like roof tiles."
+    ]
+   ],
+   "clinical": [
+    "In elderly people with osteoporosis, compression fractures of the thoracic vertebrae increase the kyphosis (hunchback).",
+    "Scoliosis, a sideways curvature, is most common in the thoracic region."
+   ],
+   "tus": [
+    "T1–T9 bodies carry two half facets, T10–T12 a single whole facet.",
+    "In the thoracic spine the facet joints lie in the frontal plane; rotation is possible, flexion is limited by the ribs."
+   ],
+   "related": [
+    "costae",
+    "vertebrae-cervicales",
+    "vertebrae-lumbales",
+    "sternum"
+   ],
+   "models": [
+    "Thoracic vertebrae"
+   ],
+   "aliases": [
+    "dorsal vertebrae"
+   ]
+  },
+  {
+   "id": "vertebrae-lumbales",
+   "tr": "Lumbar vertebrae",
+   "la": "Vertebrae lumbales (L1–L5)",
+   "en": "Lumbar vertebrae",
+   "group": "Vertebral column",
+   "region": "back",
+   "summary": "The largest and strongest vertebrae of the spine. Because they carry most of the body weight, their bodies are large and kidney-shaped.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (L1–L5)",
+     "Number"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Large body, thick horizontal rectangular spinous processes, mammillary and accessory processes; no foramen transversarium and no costal facets",
+     "Distinguishing feature"
+    ],
+    [
+     "Omurilik ilişkisi",
+     "In adults the spinal cord ends at L1–L2 as the conus medullaris; the cauda equina lies below",
+     "Relation to the spinal cord"
+    ],
+    [
+     "Eğrilik",
+     "Convex forwards (lumbar lordosis)",
+     "Curvature"
+    ]
+   ],
+   "sections": [
+    [
+     "Movement",
+     "Because the articular facets lie close to the sagittal plane, flexion and extension are free and rotation is limited."
+    ]
+   ],
+   "clinical": [
+    "Lumbar disc herniation is commonest at L4–L5 and L5–S1 and causes pain radiating along the sciatic nerve.",
+    "Lumbar puncture is usually done at the L3–L4 or L4–L5 interspace to avoid the spinal cord.",
+    "Spondylolisthesis is the forward slip of a vertebra over the one below; it is commonest at L5."
+   ],
+   "tus": [
+    "Spondylolysis is a defect of the pars interarticularis (the 'Scottie dog's collar' on oblique X-rays); it is commonest at L5.",
+    "Lumbar facet joints lie in the sagittal plane; they allow flexion–extension and limit rotation."
+   ],
+   "related": [
+    "vertebrae-thoracicae",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "plexus-lumbalis"
+   ],
+   "models": [
+    "Lumbar vertebrae"
+   ],
+   "aliases": [
+    "lumbar spine",
+    "low back"
+   ]
+  },
+  {
+   "id": "os-sacrum",
+   "tr": "Sacrum",
+   "la": "Os sacrum",
+   "en": "Sacrum",
+   "group": "Vertebral column",
+   "region": "pelvis",
+   "summary": "A triangular bone formed by the fusion of the five sacral vertebrae. It forms the back wall of the pelvis and makes the sacroiliac joints with the hip bones.",
+   "facts": [
+    [
+     "Oluşum",
+     "Fusion of the 5 sacral vertebrae (S1–S5), complete at about 25 years",
+     "Formation"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Promontory, anterior and posterior sacral foramina, median sacral crest, sacral hiatus, auricular surface, sacral canal, ala of the sacrum",
+     "Main features"
+    ],
+    [
+     "Eklemleri",
+     "L5 (lumbosacral joint), hip bones (sacroiliac joints), coccyx",
+     "Articulations"
+    ],
+    [
+     "Cinsiyet farkı",
+     "Wider, shorter and less curved in women",
+     "Sex differences"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "A triangular bone formed by the fusion of five sacral vertebrae. Its anterior (pelvic) surface is concave; the anterior rami of the sacral spinal nerves leave through four pairs of anterior sacral foramina. On its posterior surface lie the median sacral crest (remnant of the spines) and, at its lower end, the sacral hiatus and sacral cornua. The front projection of its upper border is the promontory."
+    ]
+   ],
+   "clinical": [
+    "Caudal anaesthesia into the epidural space through the sacral hiatus is used in obstetrics and paediatric surgery.",
+    "The promontory is an important landmark in obstetric pelvic measurements (true conjugate).",
+    "Caudal epidural anaesthesia is given through the sacral hiatus; the sacral cornua are the palpable landmarks for the needle."
+   ],
+   "tus": [
+    "The sacrum forms from five fused sacral vertebrae; the anterior rami of the sacral nerves leave through the anterior sacral foramina.",
+    "Weight passes to the pelvis through the sacroiliac joints; the promontory is the reference point for obstetric measurements."
+   ],
+   "related": [
+    "os-coccygis",
+    "os-coxae",
+    "vertebrae-lumbales",
+    "art-sacroiliaca"
+   ],
+   "models": [
+    "Sacrum"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-coccygis",
+   "tr": "Coccyx",
+   "la": "Os coccygis",
+   "en": "Coccyx",
+   "group": "Vertebral column",
+   "region": "pelvis",
+   "summary": "A small triangular bone at the lowest end of the spine, formed by the fusion of 3–5 small rudimentary vertebrae.",
+   "facts": [
+    [
+     "Oluşum",
+     "Fusion of 3–5 coccygeal vertebrae",
+     "Formation"
+    ],
+    [
+     "Tutunanlar",
+     "Gluteus maximus, coccygeus, levator ani (anococcygeal ligament), sacrotuberous ligament",
+     "Attachments"
+    ],
+    [
+     "Eklem",
+     "Sacrococcygeal joint with the sacrum",
+     "Joint"
+    ],
+    [
+     "Kas tutunmaları",
+     "Gluteus maximus (posterior surface), coccygeus and the iliococcygeus part of levator ani (via the anococcygeal ligament)",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Falling onto the buttocks can fracture the coccyx or cause coccyx pain (coccydynia)."
+   ],
+   "tus": [
+    "Coccydynia (tailbone pain) usually follows a fall or childbirth.",
+    "The gluteus maximus, sacrotuberous ligament and part of the levator ani (anococcygeal ligament) attach to the coccyx."
+   ],
+   "related": [
+    "os-sacrum",
+    "diaphragma-pelvis"
+   ],
+   "models": [
+    "Coccyx"
+   ],
+   "aliases": [
+    "tailbone"
+   ]
+  },
+  {
+   "id": "sternum",
+   "tr": "Sternum",
+   "la": "Sternum",
+   "en": "Sternum",
+   "group": "Thoracic cage",
+   "region": "thorax",
+   "summary": "The flat, sword-shaped bone in the front midline of the thoracic cage. It articulates with the clavicles and the first seven pairs of costal cartilages.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Flat bone (contains red marrow)",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Manubrium, body, xiphoid process",
+     "Parts"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Jugular notch, clavicular notches, sternal angle (angle of Louis – level of the 2nd rib), costal notches",
+     "Main features"
+    ],
+    [
+     "Eklemleri",
+     "Clavicle (sternoclavicular joint), 1st–7th costal cartilages (sternocostal joints)",
+     "Articulations"
+    ]
+   ],
+   "sections": [
+    [
+     "Sternal angle",
+     "The junction of the manubrium and the body can be felt through the skin and marks the level of the 2nd costal cartilage. At this level (T4–T5) the aortic arch begins and ends and the trachea divides (tracheal bifurcation)."
+    ]
+   ],
+   "clinical": [
+    "Bone marrow can be sampled from the sternum.",
+    "In open-heart surgery the sternum is split down the middle (median sternotomy).",
+    "Chest compressions (CPR) are given on the lower half of the sternum; pressure on the xiphoid process can injure the liver."
+   ],
+   "tus": [
+    "The body of the sternum is used for sternal puncture; take care, as the great vessels and heart lie behind it.",
+    "The jugular notch of the manubrium lies at the lower border of T2, the xiphisternal joint at T9."
+   ],
+   "related": [
+    "costae",
+    "clavicula",
+    "cartilagines-costales"
+   ],
+   "models": [
+    "Sternum",
+    "Manubrium of sternum",
+    "Body of sternum",
+    "Xiphoid process"
+   ],
+   "aliases": [
+    "breastbone"
+   ]
+  },
+  {
+   "id": "costae",
+   "tr": "Ribs",
+   "la": "Costae",
+   "en": "Ribs",
+   "group": "Thoracic cage",
+   "region": "thorax",
+   "summary": "Twelve pairs of curved flat bones forming the side walls of the thoracic cage. They join the thoracic vertebrae at the back and the sternum at the front through their cartilages.",
+   "facts": [
+    [
+     "Sayı ve tipleri",
+     "12 pairs: 1–7 true ribs, 8–10 false ribs, 11–12 floating ribs",
+     "Number and types"
+    ],
+    [
+     "Bölümleri",
+     "Head, neck, tubercle, body (shaft), angle",
+     "Parts"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Costal groove (on the lower border – intercostal vein, artery and nerve run here in VAN order), crest of the head",
+     "Main features"
+    ],
+    [
+     "Atipik kaburgalar",
+     "Ribs 1, 2, 10, 11 and 12; the 1st rib is the shortest, flattest and most curved (grooves for the subclavian artery and vein, scalene tubercle)",
+     "Atypical ribs"
+    ]
+   ],
+   "sections": [
+    [
+     "Role in breathing",
+     "In inspiration the upper ribs lift the sternum forwards and increase the anteroposterior diameter (pump-handle movement); the lower ribs swing outwards and increase the transverse diameter (bucket-handle movement)."
+    ]
+   ],
+   "clinical": [
+    "Chest drains and thoracentesis go over the upper border of a rib to protect the intercostal vessels and nerve.",
+    "Several ribs broken in two places produce a flail chest with paradoxical breathing.",
+    "A cervical rib can compress the brachial plexus or subclavian artery and cause thoracic outlet syndrome."
+   ],
+   "tus": [
+    "A typical rib has a head, neck, tubercle, angle and costal groove; ribs 1, 2, 10, 11 and 12 are atypical.",
+    "Rib fractures occur most often just in front of the angle; a flail chest is two fractures in each of several ribs."
+   ],
+   "related": [
+    "sternum",
+    "vertebrae-thoracicae",
+    "cartilagines-costales",
+    "mm-intercostales",
+    "diaphragma"
+   ],
+   "models": [
+    "Ribs"
+   ],
+   "aliases": [
+    "rib"
+   ]
+  },
+  {
+   "id": "costae-atypicae",
+   "tr": "Atypical ribs",
+   "la": "Costae atypicae (I, II, X–XII)",
+   "en": "Atypical ribs",
+   "group": "Thoracic cage",
+   "region": "thorax",
+   "summary": "Ribs that differ from the general pattern of a typical rib: the 1st and 2nd ribs are short and broad; the heads of the 10th, 11th and 12th ribs have a single facet, and the 11th and 12th are floating ribs whose front ends are free.",
+   "facts": [
+    [
+     "1. kaburga",
+     "The shortest, broadest and most curved rib; on its upper surface the tubercle for scalenus anterior, in front of it the groove for the subclavian vein and behind it the groove for the subclavian artery and the lower trunk of the brachial plexus; single facet on its head (T1)",
+     "1st rib"
+    ],
+    [
+     "2. kaburga",
+     "Twice as long as the 1st and thinner; on its outer surface the tuberosity for serratus anterior",
+     "2nd rib"
+    ],
+    [
+     "10. kaburga",
+     "Its head has a single facet (articulates only with T10)",
+     "10th rib"
+    ],
+    [
+     "11. ve 12. kaburgalar",
+     "Floating ribs: short, without neck or tubercle; their front ends lie free among the abdominal muscles; they do not articulate with the transverse processes",
+     "11th and 12th ribs"
+    ],
+    [
+     "Kaburga sınıflaması",
+     "True ribs (1–7: each with its own cartilage to the sternum), false ribs (8–10: to the cartilage above), floating ribs (11–12)",
+     "Classification of ribs"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "A fracture of the 1st rib indicates high-energy trauma and should raise suspicion of injury to the subclavian artery and brachial plexus beneath it.",
+    "The 12th rib lies against the back of the kidney; in kidney surgery and 12th rib fractures injury to the pleura and kidney must be kept in mind."
+   ],
+   "tus": [
+    "On the upper surface of the 1st rib the subclavian vein passes in front of the scalene tubercle, and the subclavian artery and lower trunk of the brachial plexus behind it.",
+    "Posteriorly the lower limit of the pleura may reach below the 12th rib; kidney procedures in this region carry a risk of pneumothorax."
+   ],
+   "related": [
+    "costae",
+    "cartilagines-costales",
+    "vertebrae-thoracicae",
+    "sternum"
+   ],
+   "models": [
+    "First rib",
+    "Second rib",
+    "Tenth rib",
+    "Eleventh rib",
+    "Twelfth rib"
+   ],
+   "aliases": [
+    "first rib",
+    "floating rib",
+    "atypical rib"
+   ]
+  },
+  {
+   "id": "cartilagines-costales",
+   "tr": "Costal cartilages",
+   "la": "Cartilagines costales",
+   "en": "Costal cartilages",
+   "group": "Thoracic cage",
+   "region": "thorax",
+   "summary": "Bars of hyaline cartilage that connect the front ends of the ribs to the sternum or to the cartilage above. They make the thoracic cage flexible.",
+   "facts": [
+    [
+     "Doku",
+     "Hyaline cartilage",
+     "Tissue"
+    ],
+    [
+     "Bağlantılar",
+     "1–7: directly to the sternum; 8–10: to the cartilage above (costal margin); 11–12: free ends",
+     "Connections"
+    ],
+    [
+     "Yaşla değişim",
+     "May calcify in old age",
+     "Changes with age"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure and function",
+     "These extensions of hyaline cartilage join the ribs to the sternum and make the thoracic cage elastic. The 1st costal cartilage joins the sternum by a synarthrosis (synchondrosis), the 2nd–7th by synovial joints; the 8th–10th attach to the cartilage above and form the costal margin."
+    ]
+   ],
+   "clinical": [
+    "Inflammation of the costochondral junctions (costochondritis, Tietze syndrome) can cause chest pain that mimics cardiac pain.",
+    "In Tietze syndrome there is painful swelling of the upper costal cartilages; costochondritis is chest wall pain without swelling and can be confused with cardiac pain."
+   ],
+   "tus": [
+    "The 1st costal cartilage forms a synchondrosis with the manubrium; cartilages 2–7 form synovial joints with the sternum.",
+    "Inflammation of a costochondral junction (Tietze syndrome) causes painful swelling and can mimic cardiac pain."
+   ],
+   "related": [
+    "costae",
+    "sternum"
+   ],
+   "models": [
+    "Costal cartilages"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "clavicula",
+   "tr": "Clavicle",
+   "la": "Clavicula",
+   "en": "Clavicle",
+   "group": "Bones of the upper limb",
+   "region": "upperLimb",
+   "summary": "An S-shaped long bone lying horizontally between the sternum and the scapula. It is the only bony strut connecting the arm to the trunk.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Long bone (no marrow cavity)",
+     "Bone type"
+    ],
+    [
+     "Uçları",
+     "Sternal end (sternoclavicular joint) and acromial end (acromioclavicular joint)",
+     "Ends"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Conoid tubercle, trapezoid line, impression for the costoclavicular ligament, groove for the subclavius",
+     "Main features"
+    ],
+    [
+     "Kas tutunmaları",
+     "Deltoid, trapezius, pectoralis major, sternocleidomastoid, sternohyoid, subclavius",
+     "Muscle attachments"
+    ],
+    [
+     "Kemikleşme",
+     "The first bone in the body to begin ossifying (weeks 5–6) and the last to finish",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "A horizontal, S-shaped long bone: its medial 2/3 is convex forwards and its lateral 1/3 concave forwards. The medial end articulates with the sternum, the lateral end with the acromion. On the inferior surface are the conoid tubercle and trapezoid line for the coracoclavicular ligament, the area for the costoclavicular ligament and the groove for subclavius. It has no medullary cavity."
+    ]
+   ],
+   "clinical": [
+    "One of the most frequently fractured bones; the fracture is usually at the junction of the middle and lateral thirds. The medial fragment is pulled up by the sternocleidomastoid, the lateral fragment down by the weight of the arm.",
+    "In clavicle fractures the brachial plexus and subclavian vessels passing beneath it can be injured."
+   ],
+   "tus": [
+    "Clavicle fractures are commonest in the middle third; the subclavian vessels and brachial plexus behind it are at risk.",
+    "The conoid tubercle and trapezoid line give attachment to the two parts of the coracoclavicular ligament."
+   ],
+   "related": [
+    "scapula",
+    "sternum",
+    "art-humeri",
+    "m-deltoideus"
+   ],
+   "models": [
+    "Clavicle"
+   ],
+   "aliases": [
+    "collarbone"
+   ]
+  },
+  {
+   "id": "scapula",
+   "tr": "Scapula",
+   "la": "Scapula",
+   "en": "Scapula",
+   "group": "Bones of the upper limb",
+   "region": "back",
+   "summary": "A triangular flat bone on the upper back of the thoracic cage, level with ribs 2–7. It forms the shoulder joint with the humerus and gives attachment to 17 muscles.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Flat bone",
+     "Bone type"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Spine of the scapula, acromion, coracoid process, glenoid cavity, supraglenoid and infraglenoid tubercles, supraspinous fossa, infraspinous fossa, subscapular fossa, suprascapular notch",
+     "Main features"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (glenohumeral joint), clavicle (acromioclavicular joint); functional scapulothoracic joint with the chest wall",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Rotator cuff muscles, deltoid, trapezius, biceps brachii, triceps brachii, serratus anterior, rhomboids, levator scapulae, teres major, pectoralis minor, coracobrachialis, omohyoid",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Movements",
+     "Elevation, depression, protraction, retraction and upward/downward rotation. When the arm is raised overhead, about 1 degree in every 3 comes from rotation of the scapula (scapulohumeral rhythm)."
+    ]
+   ],
+   "clinical": [
+    "If the long thoracic nerve is injured, the serratus anterior is paralysed and the medial border of the scapula lifts like a wing (winged scapula).",
+    "Entrapment of the suprascapular nerve at the suprascapular notch causes shoulder pain and weakness of supraspinatus and infraspinatus."
+   ],
+   "tus": [
+    "Scapular landmarks: superior angle at T2, spine at T3, inferior angle at T7.",
+    "17 muscles attach to the scapula; a winged scapula indicates injury to the long thoracic nerve (serratus anterior)."
+   ],
+   "related": [
+    "clavicula",
+    "humerus",
+    "art-humeri",
+    "m-supraspinatus",
+    "m-infraspinatus",
+    "m-subscapularis"
+   ],
+   "models": [
+    "Scapula"
+   ],
+   "aliases": [
+    "shoulder blade"
+   ]
+  },
+  {
+   "id": "humerus",
+   "tr": "Humerus",
+   "la": "Humerus",
+   "en": "Humerus",
+   "group": "Bones of the upper limb",
+   "region": "upperLimb",
+   "summary": "The single and longest bone of the upper arm. Above it forms the shoulder joint with the scapula, below the elbow joint with the radius and ulna.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Long bone",
+     "Bone type"
+    ],
+    [
+     "Üst uç",
+     "Head, anatomical neck, surgical neck, greater and lesser tubercles, intertubercular sulcus",
+     "Upper end"
+    ],
+    [
+     "Gövde",
+     "Deltoid tuberosity, radial groove",
+     "Shaft"
+    ],
+    [
+     "Alt uç",
+     "Capitulum, trochlea, medial and lateral epicondyles, olecranon fossa, coronoid fossa, radial fossa, groove for the ulnar nerve",
+     "Lower end"
+    ],
+    [
+     "Kemikleşme",
+     "Primary centre in the shaft at week 8; 8 secondary centres",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Nerve relations",
+     "The humerus touches three important nerves directly: the axillary nerve at the surgical neck, the radial nerve in the radial groove of the shaft and the ulnar nerve behind the medial epicondyle. Its fractures are therefore prone to nerve injury."
+    ]
+   ],
+   "clinical": [
+    "Fracture of the surgical neck: injury to the axillary nerve and posterior circumflex humeral artery (deltoid paralysis).",
+    "Midshaft fracture: radial nerve injury – wrist drop.",
+    "Supracondylar fracture (common in children): injury to the brachial artery and median nerve, risk of Volkmann's ischaemic contracture.",
+    "Fracture of the medial epicondyle: ulnar nerve injury – claw hand."
+   ],
+   "tus": [
+    "Three nerves contact the humerus: surgical neck – axillary nerve, shaft (groove) – radial nerve, medial epicondyle – ulnar nerve.",
+    "In supracondylar fractures the brachial artery and median nerve (especially the anterior interosseous nerve) can be injured."
+   ],
+   "related": [
+    "scapula",
+    "radius",
+    "ulna",
+    "art-humeri",
+    "art-cubiti",
+    "n-radialis",
+    "n-axillaris"
+   ],
+   "models": [
+    "Humerus"
+   ],
+   "aliases": [
+    "arm bone"
+   ]
+  },
+  {
+   "id": "radius",
+   "tr": "Radius",
+   "la": "Radius",
+   "en": "Radius",
+   "group": "Bones of the upper limb",
+   "region": "upperLimb",
+   "summary": "The long bone on the lateral (thumb) side of the forearm. It turns around the ulna during pronation and supination and makes the main joint with the wrist.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Long bone",
+     "Bone type"
+    ],
+    [
+     "Üst uç",
+     "Head, neck, radial tuberosity (biceps brachii attaches)",
+     "Upper end"
+    ],
+    [
+     "Alt uç",
+     "Radial styloid process, ulnar notch, carpal articular surface, dorsal tubercle (Lister's tubercle)",
+     "Lower end"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (humeroradial joint), ulna (proximal and distal radioulnar joints), scaphoid and lunate (radiocarpal joint)",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Biceps brachii, supinator, pronator teres, brachioradialis, pronator quadratus, flexor pollicis longus, abductor pollicis longus",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Ends",
+     "Proximally the disc-shaped head of the radius articulates with the capitulum of the humerus and the radial notch of the ulna and is encircled by the annular ligament; below it lie the neck and the radial tuberosity, where biceps brachii attaches. The distal end is broad, with the radial styloid process laterally, the ulnar notch medially for the ulna and Lister's tubercle (dorsal tubercle) behind."
+    ]
+   ],
+   "clinical": [
+    "A fracture of the distal radius after a fall on the outstretched hand (Colles' fracture) is among the commonest fractures; the distal fragment shifts backwards, giving a 'dinner-fork' deformity.",
+    "In children a sudden pull on the arm can slip the radial head out of the annular ligament (pulled elbow)."
+   ],
+   "tus": [
+    "Radial head subluxation (pulled elbow) is common between 1 and 4 years.",
+    "Galeazzi fracture: radial shaft fracture + dislocation of the distal radioulnar joint; Monteggia: ulnar fracture + dislocation of the radial head."
+   ],
+   "related": [
+    "ulna",
+    "humerus",
+    "art-cubiti",
+    "art-radiocarpalis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radius"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ulna",
+   "tr": "Ulna",
+   "la": "Ulna",
+   "en": "Ulna",
+   "group": "Bones of the upper limb",
+   "region": "upperLimb",
+   "summary": "The long bone on the medial (little finger) side of the forearm. Its upper end forms the main hinge of the elbow with the humerus; the olecranon forms the point of the elbow.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Long bone",
+     "Bone type"
+    ],
+    [
+     "Üst uç",
+     "Olecranon, coronoid process, trochlear notch, radial notch, ulnar tuberosity",
+     "Upper end"
+    ],
+    [
+     "Alt uç",
+     "Head of ulna, ulnar styloid process",
+     "Lower end"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (humeroulnar joint), radius (radioulnar joints)",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Triceps brachii (olecranon), brachialis (ulnar tuberosity), flexor digitorum profundus, pronator quadratus, supinator, anconeus, flexor carpi ulnaris, extensor carpi ulnaris",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Ends",
+     "At the proximal end are the olecranon and the coronoid process, with the trochlear notch for the humerus between them and the radial notch laterally for the head of the radius. At the distal end the small head of the ulna and the ulnar styloid process are separated from the wrist joint by the triangular fibrocartilage disc."
+    ]
+   ],
+   "clinical": [
+    "Monteggia fracture: fracture of the upper third of the ulna with dislocation of the radial head.",
+    "In olecranon fractures the triceps pulls the proximal fragment up; surgical fixation is usually needed."
+   ],
+   "tus": [
+    "In an olecranon fracture the triceps pulls the fragments apart; surgical fixation is needed.",
+    "A nightstick fracture (isolated ulnar shaft fracture) occurs when someone raises the forearm to shield the face."
+   ],
+   "related": [
+    "radius",
+    "humerus",
+    "art-cubiti"
+   ],
+   "models": [
+    "Ulna"
+   ],
+   "aliases": [
+    "elbow bone"
+   ]
+  },
+  {
+   "id": "ossa-carpi",
+   "tr": "Carpal bones",
+   "la": "Ossa carpi",
+   "en": "Carpal bones",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "Eight short bones in two rows that form the wrist. The groove on their front (carpal sulcus) is roofed by the flexor retinaculum to form the carpal tunnel.",
+   "facts": [
+    [
+     "Üst sıra (lateralden mediale)",
+     "Scaphoid, lunate, triquetrum, pisiform",
+     "Proximal row (lateral to medial)"
+    ],
+    [
+     "Alt sıra (lateralden mediale)",
+     "Trapezium, trapezoid, capitate, hamate",
+     "Distal row (lateral to medial)"
+    ],
+    [
+     "Akılda tutma",
+     "‘Some Lovers Try Positions That They Can't Handle’ (scaphoid, lunate, triquetrum, pisiform, trapezium, trapezoid, capitate, hamate)",
+     "Mnemonic"
+    ],
+    [
+     "Karpal tünelden geçenler",
+     "Median nerve and 9 tendons (4 FDS, 4 FDP, 1 FPL)",
+     "Through the carpal tunnel"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Carpal tunnel syndrome: compression of the median nerve causes numbness of the thumb, index, middle and half of the ring finger and thenar muscle wasting.",
+    "Because the ossification centres appear in order with age, a wrist X-ray is used to estimate bone age."
+   ],
+   "tus": [
+    "Of the carpal bones the capitate ossifies first and the pisiform last (used to estimate bone age).",
+    "Proximal row: Scaphoid, Lunate, Triquetrum, Pisiform; distal row: Trapezium, Trapezoid, Capitate, Hamate."
+   ],
+   "related": [
+    "os-scaphoideum",
+    "os-lunatum",
+    "os-triquetrum",
+    "os-pisiforme",
+    "os-trapezium",
+    "os-trapezoideum",
+    "os-capitatum",
+    "os-hamatum",
+    "art-radiocarpalis",
+    "n-medianus"
+   ],
+   "models": [
+    "Scaphoid bone",
+    "Lunate bone",
+    "Triquetrum bone",
+    "Pisiform bone",
+    "Trapezium bone",
+    "Trapezoid bone",
+    "Capitate bone",
+    "Hamate bone"
+   ],
+   "aliases": [
+    "wrist bones",
+    "carpus"
+   ]
+  },
+  {
+   "id": "os-scaphoideum",
+   "tr": "Scaphoid bone",
+   "la": "Os scaphoideum",
+   "en": "Scaphoid bone",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "A boat-shaped bone at the lateral end of the proximal carpal row. It is one of the main bones articulating with the radius and the most frequently fractured carpal bone.",
+   "facts": [
+    [
+     "Konum",
+     "Proximal row, most lateral; in the floor of the anatomical snuffbox",
+     "Location"
+    ],
+    [
+     "Eklemleri",
+     "Radius, lunate, capitate, trapezium, trapezoid",
+     "Articulations"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Scaphoid tubercle (the flexor retinaculum attaches)",
+     "Main features"
+    ],
+    [
+     "Kanlanma",
+     "Branches of the radial artery; blood flows from distal to proximal",
+     "Blood supply"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "It breaks in a fall on the outstretched hand; tenderness in the anatomical snuffbox is typical.",
+    "Because the blood supply comes from distal, fractures of the waist can lead to avascular necrosis of the proximal fragment; the first X-rays may be normal, so a cast is applied when in doubt."
+   ],
+   "tus": [
+    "The most frequently fractured carpal bone; with snuffbox tenderness a cast is applied even if the X-ray is normal.",
+    "Since blood flows from distal to proximal, waist fractures carry a high risk of AVN of the proximal fragment."
+   ],
+   "related": [
+    "ossa-carpi",
+    "radius",
+    "os-lunatum",
+    "a-radialis"
+   ],
+   "models": [
+    "Scaphoid bone"
+   ],
+   "aliases": [
+    "navicular (hand)"
+   ]
+  },
+  {
+   "id": "os-lunatum",
+   "tr": "Lunate bone",
+   "la": "Os lunatum",
+   "en": "Lunate bone",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "A crescent-shaped bone in the proximal carpal row between the scaphoid and the triquetrum. It articulates with the radius.",
+   "facts": [
+    [
+     "Konum",
+     "Proximal row, between the scaphoid and triquetrum",
+     "Location"
+    ],
+    [
+     "Eklemleri",
+     "Radius, articular disc, scaphoid, triquetrum, capitate, hamate",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Radius, scaphoid, triquetrum, capitate, hamate (sometimes)",
+     "Articulating bones"
+    ],
+    [
+     "Kanlanma",
+     "Vessels entering on its palmar and dorsal surfaces; in some people from a single source",
+     "Blood supply"
+    ]
+   ],
+   "sections": [
+    [
+     "Position",
+     "A crescent-shaped bone lying in the lunate fossa of the radius in the middle of the proximal carpal row. It is the most frequently dislocated carpal bone."
+    ]
+   ],
+   "clinical": [
+    "The most frequently dislocated carpal bone; anterior dislocation can compress the median nerve in the carpal tunnel.",
+    "Kienböck disease: avascular necrosis of the lunate."
+   ],
+   "tus": [
+    "Kienböck disease is avascular necrosis of the lunate; negative ulnar variance is a risk factor.",
+    "Perilunate and lunate dislocations result from hyperextension of the wrist."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "radius"
+   ],
+   "models": [
+    "Lunate bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-triquetrum",
+   "tr": "Triquetrum",
+   "la": "Os triquetrum",
+   "en": "Triquetrum",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "A pyramid-shaped bone in the proximal carpal row, medial to the lunate. It articulates with the pisiform on its front.",
+   "facts": [
+    [
+     "Konum",
+     "Proximal row, between the lunate and pisiform",
+     "Location"
+    ],
+    [
+     "Eklemleri",
+     "Lunate, pisiform, hamate, articular disc",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Lunate, pisiform, hamate; adjacent to the ulna through the triangular fibrocartilage disc",
+     "Articulating bones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "A dorsal avulsion fracture of the triquetrum is the second most common carpal fracture after the scaphoid; it occurs in falls on the back of the hand."
+   ],
+   "tus": [
+    "A dorsal avulsion fracture of the triquetrum is the commonest carpal fracture after the scaphoid.",
+    "The ulnocarpal complex (TFCC) lies between the triquetrum and the ulna."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "os-hamatum"
+   ],
+   "models": [
+    "Triquetrum bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-pisiforme",
+   "tr": "Pisiform bone",
+   "la": "Os pisiforme",
+   "en": "Pisiform bone",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "A small pea-shaped bone at the medial end of the proximal carpal row, sitting on the front of the triquetrum. It is a sesamoid bone that develops in the tendon of flexor carpi ulnaris.",
+   "facts": [
+    [
+     "Konum",
+     "Proximal row, most medial; palpable on the hypothenar side of the palm",
+     "Location"
+    ],
+    [
+     "Tutunanlar",
+     "Flexor carpi ulnaris, abductor digiti minimi, pisohamate ligament, pisometacarpal ligament, flexor retinaculum",
+     "Attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Guyon's canal",
+     "The ulnar nerve and ulnar artery pass through Guyon's canal between the pisiform and the hook of the hamate."
+    ]
+   ],
+   "clinical": [
+    "Compression of the ulnar nerve in Guyon's canal (cyclist's palsy) weakens the small muscles of the hand.",
+    "A pisiform fracture usually results from a direct fall on the hypothenar region and can affect the nearby ulnar nerve."
+   ],
+   "tus": [
+    "It forms the medial wall of Guyon's canal; the ulnar nerve and artery pass just radial to the pisiform."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-triquetrum",
+    "os-hamatum",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Pisiform bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-trapezium",
+   "tr": "Trapezium",
+   "la": "Os trapezium",
+   "en": "Trapezium",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "The most lateral bone of the distal carpal row. With the first metacarpal it forms the saddle joint of the thumb.",
+   "facts": [
+    [
+     "Konum",
+     "Distal row, most lateral",
+     "Location"
+    ],
+    [
+     "Eklemleri",
+     "Scaphoid, trapezoid, 1st and 2nd metacarpals",
+     "Articulations"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tubercle of the trapezium, groove for the flexor carpi radialis tendon",
+     "Main features"
+    ]
+   ],
+   "sections": [
+    [
+     "Thumb joint",
+     "The carpometacarpal joint of the thumb is a saddle joint; it makes opposition of the thumb possible."
+    ]
+   ],
+   "clinical": [
+    "Osteoarthritis at the base of the thumb (trapeziometacarpal joint) is common, especially in middle-aged women."
+   ],
+   "tus": [
+    "The FCR tendon runs in the groove on the front of the trapezium; arthritis of the 1st CMC joint (rhizarthrosis) is common in older women."
+   ],
+   "related": [
+    "ossa-carpi",
+    "ossa-metacarpi",
+    "os-trapezoideum"
+   ],
+   "models": [
+    "Trapezium bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-trapezoideum",
+   "tr": "Trapezoid bone",
+   "la": "Os trapezoideum",
+   "en": "Trapezoid bone",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "One of the smallest bones of the distal carpal row, between the trapezium and the capitate. It articulates with the second metacarpal.",
+   "facts": [
+    [
+     "Konum",
+     "Distal row, between trapezium and capitate",
+     "Location"
+    ],
+    [
+     "Eklemleri",
+     "Scaphoid, trapezium, capitate, 2nd metacarpal",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Scaphoid, trapezium, capitate, 2nd metacarpal",
+     "Articulating bones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "It is the least frequently fractured carpal bone, protected by its firm union with the base of the 2nd metacarpal."
+   ],
+   "tus": [
+    "The least frequently fractured carpal bone; it articulates with the base of the 2nd metacarpal."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum"
+   ],
+   "models": [
+    "Trapezoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-capitatum",
+   "tr": "Capitate bone",
+   "la": "Os capitatum",
+   "en": "Capitate bone",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "The largest carpal bone, in the middle of the distal row; its round head sits in the hollow formed by the scaphoid and lunate of the proximal row.",
+   "facts": [
+    [
+     "Konum",
+     "Distal row, centre",
+     "Location"
+    ],
+    [
+     "Eklemleri",
+     "Scaphoid, lunate, trapezoid, hamate, 2nd–4th metacarpals",
+     "Articulations"
+    ],
+    [
+     "Kemikleşme",
+     "The first carpal bone to ossify (1st–3rd month)",
+     "Ossification"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Fractures of the capitate are rare, but because the vessels to its head are retrograde, avascular necrosis can develop.",
+    "In lunate dislocation the capitate stays in line with the radius while the lunate tips forwards (distinguished from perilunate dislocation)."
+   ],
+   "tus": [
+    "The largest and first-ossifying carpal bone; it articulates with the 3rd metacarpal."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-lunatum",
+    "os-hamatum"
+   ],
+   "models": [
+    "Capitate bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-hamatum",
+   "tr": "Hamate bone",
+   "la": "Os hamatum",
+   "en": "Hamate bone",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "The most medial bone of the distal carpal row, with a hook (hook of the hamate) on its front.",
+   "facts": [
+    [
+     "Konum",
+     "Distal row, most medial",
+     "Location"
+    ],
+    [
+     "Eklemleri",
+     "Lunate, triquetrum, capitate, 4th and 5th metacarpals",
+     "Articulations"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Hook of the hamate – the flexor retinaculum and pisohamate ligament attach; lateral wall of Guyon's canal",
+     "Main features"
+    ]
+   ],
+   "sections": [
+    [
+     "Hook of hamate",
+     "A hook-shaped projection towards the palm; it is the medial attachment of the flexor retinaculum and the lateral wall of Guyon's canal. Flexor digiti minimi brevis and opponens digiti minimi attach to it."
+    ]
+   ],
+   "clinical": [
+    "Fractures of the hook occur in golfers and baseball players; the deep branch of the ulnar nerve may be affected."
+   ],
+   "tus": [
+    "Fracture of the hook of the hamate occurs in golf and baseball; the deep branch of the ulnar nerve curves around the hook."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Hamate bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossa-metacarpi",
+   "tr": "Metacarpal bones",
+   "la": "Ossa metacarpi (I–V)",
+   "en": "Metacarpal bones",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "The five long bones forming the skeleton of the palm. They articulate with the carpal bones proximally and with the proximal phalanges distally.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V from thumb to little finger)",
+     "Number"
+    ],
+    [
+     "Bölümleri",
+     "Base, shaft, head (seen as the 'knuckles' when making a fist)",
+     "Parts"
+    ],
+    [
+     "Eklemleri",
+     "Carpometacarpal, intermetacarpal and metacarpophalangeal joints",
+     "Articulations"
+    ],
+    [
+     "Özellik",
+     "The 1st metacarpal is the shortest, thickest and most mobile",
+     "Feature"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Each metacarpal has a base proximally, a body (shaft) in the middle and a head distally. The heads form the 'knuckles' when the fist is clenched. The first metacarpal is the shortest and thickest; its saddle joint with the trapezium allows opposition of the thumb."
+    ]
+   ],
+   "clinical": [
+    "A fracture of the neck of the 5th metacarpal from a punch is known as a boxer's fracture.",
+    "An intra-articular fracture of the base of the 1st metacarpal is called a Bennett fracture."
+   ],
+   "tus": [
+    "A Bennett fracture is an intra-articular fracture-dislocation of the base of the 1st metacarpal; abductor pollicis longus pulls the fragment proximally.",
+    "A Bennett fracture is an intra-articular fracture-dislocation of the base of the 1st metacarpal; abductor pollicis longus pulls the distal fragment proximally."
+   ],
+   "related": [
+    "ossa-carpi",
+    "phalanges-manus",
+    "os-trapezium"
+   ],
+   "models": [
+    "First metacarpal bone",
+    "Second metacarpal bone",
+    "Third metacarpal bone",
+    "Fourth metacarpal bone",
+    "Fifth metacarpal bone"
+   ],
+   "aliases": [
+    "metacarpal"
+   ]
+  },
+  {
+   "id": "phalanges-manus",
+   "tr": "Phalanges of the hand",
+   "la": "Phalanges manus",
+   "en": "Phalanges of hand",
+   "group": "Bones of the hand",
+   "region": "upperLimb",
+   "summary": "The 14 short long bones of the fingers. The thumb has two phalanges, the other fingers three each.",
+   "facts": [
+    [
+     "Sayı",
+     "14 (thumb 2, the others 3 each)",
+     "Number"
+    ],
+    [
+     "Adları",
+     "Proximal, middle and distal phalanx",
+     "Names"
+    ],
+    [
+     "Eklemleri",
+     "Metacarpophalangeal, proximal interphalangeal (PIP) and distal interphalangeal (DIP) joints",
+     "Articulations"
+    ],
+    [
+     "Distal falanks",
+     "Its tip carries the tuberosity of the distal phalanx, which supports the nail bed",
+     "Distal phalanx"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Each phalanx has a base, a shaft and a head. The bases of the proximal phalanges articulate with the metacarpal heads, the others with the head of the phalanx before. At the tip of each distal phalanx is the ungual tuberosity, which supports the nail bed."
+    ]
+   ],
+   "clinical": [
+    "Rupture of the extensor tendon at the base of the distal phalanx makes the fingertip drop (mallet finger).",
+    "In osteoarthritis, Heberden nodes form at the DIP joints and Bouchard nodes at the PIP joints."
+   ],
+   "tus": [
+    "Mallet finger results from rupture of the extensor tendon attached to the distal phalanx."
+   ],
+   "related": [
+    "ossa-metacarpi",
+    "m-flexor-digitorum-profundus",
+    "m-extensor-digitorum"
+   ],
+   "models": [
+    "Distal phalanx of first finger of hand",
+    "Distal phalanx of second finger of hand",
+    "Distal phalanx of third finger of hand",
+    "Distal phalanx of fourth finger of hand",
+    "Distal phalanx of fifth finger of hand",
+    "Middle phalanx of second finger of hand",
+    "Middle phalanx of third finger of hand",
+    "Middle phalanx of fourth finger of hand",
+    "Middle phalanx of fifth finger of hand",
+    "Proximal phalanx of first finger of hand",
+    "Proximal phalanx of second finger of hand",
+    "Proximal phalanx of third finger of hand",
+    "Proximal phalanx of fourth finger of hand",
+    "Proximal phalanx of fifth finger of hand"
+   ],
+   "aliases": [
+    "finger bones",
+    "phalanx"
+   ]
+  },
+  {
+   "id": "os-coxae",
+   "tr": "Hip bone",
+   "la": "Os coxae",
+   "en": "Hip bone",
+   "group": "Bones of the lower limb",
+   "region": "pelvis",
+   "summary": "A large, irregular paired bone forming the side and front walls of the pelvis. It forms by the fusion of three bones (ilium, ischium, pubis) at the acetabulum.",
+   "facts": [
+    [
+     "Oluşum",
+     "Ilium, ischium and pubis; they fuse at the Y-shaped (triradiate) cartilage of the acetabulum at 15–17 years",
+     "Formation"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Iliac crest, anterior superior and inferior iliac spines (ASIS, AIIS), posterior superior iliac spine, acetabulum, obturator foramen, ischial tuberosity, ischial spine, greater and lesser sciatic notches, pubic ramus, pubic tubercle, symphyseal surface",
+     "Main features"
+    ],
+    [
+     "Eklemleri",
+     "Femur (hip joint), sacrum (sacroiliac joint), opposite hip bone (pubic symphysis)",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Gluteal muscles, iliacus, abdominal muscles, hamstrings (ischial tuberosity), adductors, sartorius (ASIS), rectus femoris (AIIS)",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Sex differences of the pelvis",
+     "The female pelvis is wider and shallower, with an oval inlet and a wide subpubic angle (about 80–90°). The male pelvis is narrower and deeper, with a heart-shaped inlet and a narrow subpubic angle (about 50–60°)."
+    ],
+    [
+     "Foramina",
+     "Piriformis, the sciatic nerve, vessels and the pudendal nerve pass through the greater sciatic foramen; the obturator internus tendon and pudendal nerve through the lesser sciatic foramen; the obturator nerve and vessels through the obturator foramen (obturator canal)."
+    ]
+   ],
+   "clinical": [
+    "The iliac crest is used for bone marrow aspiration and harvesting bone grafts.",
+    "The pubic rami often break in elderly people; high-energy pelvic fractures can cause severe internal bleeding.",
+    "Compression of the lateral cutaneous nerve of the thigh near the ASIS causes burning and numbness on the outer thigh (meralgia paraesthetica)."
+   ],
+   "tus": [
+    "The Y-shaped cartilage of the acetabulum fuses at 15–17 years.",
+    "Sartorius and TFL attach to the ASIS, the straight head of rectus femoris to the AIIS and the hamstrings to the ischial tuberosity (avulsion fractures in athletes)."
+   ],
+   "related": [
+    "femur",
+    "os-sacrum",
+    "art-coxae",
+    "art-sacroiliaca",
+    "m-gluteus-maximus"
+   ],
+   "models": [
+    "Hip bone"
+   ],
+   "aliases": [
+    "ilium",
+    "ischium",
+    "pubis",
+    "pelvic bone",
+    "innominate bone"
+   ]
+  },
+  {
+   "id": "pelvis",
+   "tr": "Bony pelvis (pelvic ring)",
+   "la": "Pelvis ossea",
+   "en": "Bony pelvis",
+   "group": "Bones of the lower limb",
+   "region": "pelvis",
+   "summary": "The bony ring formed by the two hip bones, the sacrum and the coccyx. It transmits the weight of the trunk to the legs, protects the pelvic organs and, in women, forms the birth canal. The linea terminalis separates the greater from the lesser pelvis.",
+   "facts": [
+    [
+     "Kemikleri",
+     "Two hip bones (ilium, ischium, pubis), sacrum, coccyx",
+     "Bones"
+    ],
+    [
+     "Bölümleri",
+     "Greater pelvis (above the linea terminalis, part of the abdominal cavity) and lesser pelvis (the birth canal)",
+     "Parts"
+    ],
+    [
+     "Eklemleri",
+     "Sacroiliac joints, pubic symphysis, sacrococcygeal joint, lumbosacral joint",
+     "Articulations"
+    ],
+    [
+     "Pelvis girişi (apertura pelvis superior)",
+     "Bounded by the promontory, ala of the sacrum, arcuate line, pecten pubis and upper border of the symphysis",
+     "Pelvic inlet"
+    ],
+    [
+     "Pelvis çıkışı (apertura pelvis inferior)",
+     "Bounded by the coccyx, sacrotuberous ligaments, ischial tuberosities, ischiopubic rami and lower border of the symphysis",
+     "Pelvic outlet"
+    ]
+   ],
+   "sections": [
+    [
+     "Sex differences",
+     "The female pelvis is wider and shallower; the inlet is oval (gynaecoid), the subpubic angle wide (more than 90°), the obturator foramen nearly triangular, the sacrum shorter and wider and the ischial spines project less. The male pelvis is narrower and deeper; the inlet is heart-shaped (android) and the subpubic angle narrow (about 60–70°)."
+    ],
+    [
+     "Obstetric diameters",
+     "The true conjugate (promontory – upper border of the symphysis) is about 11 cm; the obstetric conjugate (promontory – nearest point on the back of the symphysis) is the narrowest anteroposterior diameter of the birth canal; the diagonal conjugate is measured on examination and is about 1.5–2 cm longer than the obstetric conjugate. The narrowest diameter of the outlet is the interspinous diameter (about 10 cm)."
+    ]
+   ],
+   "clinical": [
+    "Fractures of the pelvic ring usually occur in two places and can cause severe internal bleeding (especially from the venous plexuses).",
+    "In cephalopelvic disproportion the baby's head cannot pass through the pelvis; caesarean section may be needed."
+   ],
+   "tus": [
+    "The obstetric conjugate is the narrowest anteroposterior diameter of the birth canal; it is estimated by subtracting 1.5–2 cm from the diagonal conjugate.",
+    "In the female pelvis the subpubic angle is wider than 90° (roughly 80–85° to 90–100°), in the male about 60–70°."
+   ],
+   "related": [
+    "os-coxae",
+    "os-sacrum",
+    "os-coccygis",
+    "art-sacroiliaca",
+    "symphysis-pubica",
+    "ligg-pelvis"
+   ],
+   "models": [
+    "Hip bone",
+    "Sacrum",
+    "Coccyx"
+   ],
+   "aliases": [
+    "pelvis",
+    "pelvic girdle"
+   ]
+  },
+  {
+   "id": "acetabulum",
+   "tr": "Acetabulum",
+   "la": "Acetabulum",
+   "en": "Acetabulum",
+   "group": "Bones of the lower limb",
+   "region": "pelvis",
+   "summary": "Deep, hemispherical socket on the outer surface of the hip bone that receives the femoral head. The ilium, ischium and pubis meet in this socket at a Y-shaped cartilage.",
+   "facts": [
+    [
+     "Oluşum",
+     "Ilium (about 2/5), ischium (2/5) and pubis (1/5); the three bones fuse at puberty as the Y-shaped (triradiate) cartilage ossifies",
+     "Formation"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Lunate surface (horseshoe-shaped articular surface), acetabular fossa (non-articular centre containing a fat pad), acetabular notch (below), acetabular margin",
+     "Main features"
+    ],
+    [
+     "Bağlantılar",
+     "The acetabular labrum deepens the rim; the transverse acetabular ligament bridges the notch; the ligament of the head of the femur runs from the notch to the femoral head",
+     "Connections"
+    ],
+    [
+     "Yönü",
+     "Faces laterally, forwards and downwards (anteversion)",
+     "Orientation"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "In developmental dysplasia of the hip the acetabulum is shallow and the femoral head does not sit fully; newborns are screened with the Ortolani and Barlow tests.",
+    "In high-energy trauma the femoral head can fracture the acetabulum; when the knee strikes the dashboard, posterior wall fracture and posterior hip dislocation are common."
+   ],
+   "tus": [
+    "The triradiate cartilage ossifies at 15–17 years, fusing the three bones.",
+    "The acetabular branch of the obturator artery (artery of the head of the femur) runs in the ligament of the head of the femur; in adults its contribution to the femoral head is small."
+   ],
+   "related": [
+    "os-coxae",
+    "femur",
+    "art-coxae",
+    "pelvis"
+   ],
+   "models": [
+    "Hip bone",
+    "Triradiate cartilage",
+    "Acetabular labrum"
+   ],
+   "aliases": [
+    "acetabulum",
+    "hip socket"
+   ]
+  },
+  {
+   "id": "femur",
+   "tr": "Femur",
+   "la": "Femur",
+   "en": "Femur",
+   "group": "Bones of the lower limb",
+   "region": "lowerLimb",
+   "summary": "The longest, heaviest and strongest bone of the body. Above it forms the hip joint with the hip bone, below the knee joint with the tibia and patella.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Long bone (about 1/4 of body height)",
+     "Bone type"
+    ],
+    [
+     "Üst uç",
+     "Head (fovea of the head), neck, greater and lesser trochanters, intertrochanteric line and crest",
+     "Upper end"
+    ],
+    [
+     "Gövde",
+     "Linea aspera (medial and lateral lips), gluteal tuberosity, pectineal line",
+     "Shaft"
+    ],
+    [
+     "Alt uç",
+     "Medial and lateral condyles, epicondyles, adductor tubercle, intercondylar fossa, patellar surface, popliteal surface",
+     "Lower end"
+    ],
+    [
+     "Boyun-gövde açısı",
+     "About 125° in adults (angle of inclination); anteversion about 10–15°",
+     "Neck–shaft angle"
+    ],
+    [
+     "Kas tutunmaları",
+     "Gluteal muscles, iliopsoas (lesser trochanter), adductors (linea aspera), vasti, heads of gastrocnemius",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Blood supply",
+     "Most of the vessels supplying the head of the femur are retinacular branches of the medial circumflex femoral artery; the artery in the ligament of the head contributes little in adults."
+    ]
+   ],
+   "clinical": [
+    "Femoral neck fractures are common in the elderly (especially women with osteoporosis); the leg is shortened and externally rotated. In intracapsular fractures the retinacular vessels tear and the head may become necrotic.",
+    "Femoral shaft fractures can cause heavy blood loss (1–1.5 L) and fat embolism.",
+    "In children, slipped capital femoral epiphysis (SCFE) and Perthes disease cause a limp."
+   ],
+   "tus": [
+    "The neck–shaft angle is ~125° in adults; less is coxa vara, more is coxa valga.",
+    "Femoral shaft fractures can cause heavy blood loss (1–1.5 L) and fat embolism."
+   ],
+   "related": [
+    "os-coxae",
+    "tibia",
+    "patella",
+    "art-coxae",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Femur"
+   ],
+   "aliases": [
+    "thigh bone"
+   ]
+  },
+  {
+   "id": "patella",
+   "tr": "Patella",
+   "la": "Patella",
+   "en": "Patella",
+   "group": "Bones of the lower limb",
+   "region": "lowerLimb",
+   "summary": "The largest sesamoid bone in the body. It develops in the tendon of quadriceps femoris and lies in front of the knee joint.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Sesamoid bone",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Base (top), apex (bottom), articular surface (back; the lateral facet is larger)",
+     "Parts"
+    ],
+    [
+     "Bağlantılar",
+     "Quadriceps tendon above, patellar ligament below (to the tibial tuberosity)",
+     "Connections"
+    ],
+    [
+     "İşlevi",
+     "Lengthens the lever arm of quadriceps and so increases extension force; protects the femoral condyles",
+     "Function"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "A triangular sesamoid bone with its base above and apex below. Its front surface is covered by fibres of the quadriceps tendon; its back surface has thick cartilage and is divided by a vertical ridge into medial and lateral facets that sit in the groove between the femoral condyles (patellar surface). The lateral facet is the larger."
+    ]
+   ],
+   "clinical": [
+    "As the Q angle increases (usually in women) the patella tends to dislocate laterally; the lower fibres of vastus medialis resist this.",
+    "Patellar fractures result from direct blows; the integrity of the extensor mechanism must be checked.",
+    "The patellar (knee-jerk) reflex tests segments L2–L4 (especially L4)."
+   ],
+   "tus": [
+    "The largest sesamoid bone in the body; it develops in the quadriceps tendon.",
+    "A bipartite patella is usually at the upper outer corner and must not be mistaken for a fracture."
+   ],
+   "related": [
+    "femur",
+    "tibia",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Patella"
+   ],
+   "aliases": [
+    "kneecap"
+   ]
+  },
+  {
+   "id": "tibia",
+   "tr": "Tibia",
+   "la": "Tibia",
+   "en": "Tibia",
+   "group": "Bones of the lower limb",
+   "region": "lowerLimb",
+   "summary": "The large, weight-bearing bone on the medial side of the leg. Its anterior border can be felt under the skin along its whole length.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Long bone",
+     "Bone type"
+    ],
+    [
+     "Üst uç",
+     "Medial and lateral condyles, intercondylar eminence, tibial tuberosity, fibular articular facet",
+     "Upper end"
+    ],
+    [
+     "Gövde",
+     "Anterior border (shin), medial surface (subcutaneous), soleal line",
+     "Shaft"
+    ],
+    [
+     "Alt uç",
+     "Medial malleolus, fibular notch, inferior articular surface",
+     "Lower end"
+    ],
+    [
+     "Eklemleri",
+     "Femur (knee), fibula (proximal and distal tibiofibular joints), talus (ankle)",
+     "Articulations"
+    ]
+   ],
+   "sections": [
+    [
+     "Ends",
+     "The proximal end is broad: medial and lateral condyles, with the intercondylar area and eminence between them, where the cruciate ligaments and menisci attach. In front is the tibial tuberosity for the patellar ligament. At the distal end are the medial malleolus and the fibular notch."
+    ]
+   ],
+   "clinical": [
+    "The tibial shaft is the long bone most often fractured open; its anteromedial surface is covered only by skin and its poor blood supply slows healing.",
+    "Shin splints are common in runners.",
+    "In adolescents a painful swelling at the tibial tuberosity is Osgood–Schlatter disease."
+   ],
+   "tus": [
+    "The front of the tibia lies under the skin; open fractures are commonest in this bone.",
+    "Compartment syndrome is an important complication of tibial fractures."
+   ],
+   "related": [
+    "femur",
+    "fibula",
+    "patella",
+    "talus",
+    "art-genus",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Tibia"
+   ],
+   "aliases": [
+    "shinbone"
+   ]
+  },
+  {
+   "id": "fibula",
+   "tr": "Fibula",
+   "la": "Fibula",
+   "en": "Fibula",
+   "group": "Bones of the lower limb",
+   "region": "lowerLimb",
+   "summary": "The slender long bone on the lateral side of the leg. It carries no body weight; it gives attachment to muscles and joins the ankle by forming the lateral malleolus.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Long bone",
+     "Bone type"
+    ],
+    [
+     "Bölümleri",
+     "Head (apex), neck, shaft, lateral malleolus",
+     "Parts"
+    ],
+    [
+     "Eklemleri",
+     "Tibia (tibiofibular joint, tibiofibular syndesmosis), talus",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Biceps femoris, fibular muscles, extensor digitorum longus, extensor hallucis longus, soleus, tibialis posterior, flexor hallucis longus",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Function",
+     "It contributes little to weight-bearing (about 10–15%); its main roles are to give attachment to muscles and, distally, to form the lateral wall of the ankle joint with the lateral malleolus. The middle part of its shaft can be taken as a graft."
+    ]
+   ],
+   "clinical": [
+    "The common fibular nerve wrapping around the fibular neck can be damaged by a blow or a tight cast; foot drop results.",
+    "The middle of the fibular shaft can be harvested as a vascularised bone graft.",
+    "Fractures of the lateral malleolus are common in ankle sprains."
+   ],
+   "tus": [
+    "The fibula carries no body weight; the free fibula flap is used to reconstruct the mandible.",
+    "Maisonneuve fracture: deltoid ligament tear + syndesmosis injury + proximal fibular fracture."
+   ],
+   "related": [
+    "tibia",
+    "art-talocruralis",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Fibula"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossa-tarsi",
+   "tr": "Tarsal bones",
+   "la": "Ossa tarsi",
+   "en": "Tarsal bones",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "The seven short bones forming the back half of the foot: talus and calcaneus in the posterior group, navicular in the middle, cuboid and three cuneiforms in front. They transmit body weight from the leg to the foot and form the arches of the foot.",
+   "facts": [
+    [
+     "Sayı",
+     "7: talus, calcaneus, navicular, cuboid, medial, intermediate and lateral cuneiform",
+     "Number"
+    ],
+    [
+     "Kemik tipi",
+     "Short bones",
+     "Bone type"
+    ],
+    [
+     "Dizilimi",
+     "Posterior (proximal) row: talus and calcaneus; middle: navicular (on the medial side); anterior (distal) row: three cuneiforms (medially) and cuboid (laterally)",
+     "Arrangement"
+    ],
+    [
+     "Eklemleri",
+     "Ankle joint (talus with tibia and fibula), subtalar joint, transverse tarsal (Chopart) joint, tarsometatarsal (Lisfranc) joints",
+     "Articulations"
+    ],
+    [
+     "Akılda tutma",
+     "The talus links the leg to the foot; the calcaneus forms the heel; the navicular lies in front of the talus; the cuboid in front of the calcaneus; the cuneiforms in front of the navicular articulate with the 1st–3rd metatarsals",
+     "Mnemonic"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "The calcaneus is the tarsal bone most often fractured (fall from a height); an associated vertebral fracture must always be sought.",
+    "Tarsal coalition (congenital fusion of two tarsal bones) causes painful rigid flatfoot in adolescents."
+   ],
+   "tus": [
+    "The talus is the only tarsal bone with no muscle attachments; because its blood supply is retrograde, fractures of its neck carry a high risk of avascular necrosis.",
+    "The foot has 26 bones: 7 tarsals, 5 metatarsals and 14 phalanges."
+   ],
+   "related": [
+    "talus",
+    "calcaneus",
+    "os-naviculare",
+    "os-cuboideum",
+    "ossa-cuneiformia",
+    "artt-pedis"
+   ],
+   "models": [
+    "Tarsal bones"
+   ],
+   "aliases": [
+    "tarsal bones",
+    "tarsus"
+   ]
+  },
+  {
+   "id": "talus",
+   "tr": "Talus",
+   "la": "Talus",
+   "en": "Talus",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "The bone that transfers weight between the leg bones and the foot and forms the lower part of the ankle joint. No muscle attaches to it.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Head, neck, body, trochlea, lateral and posterior processes",
+     "Parts"
+    ],
+    [
+     "Eklemleri",
+     "Tibia and fibula (ankle joint), calcaneus (subtalar joint), navicular (talocalcaneonavicular joint)",
+     "Articulations"
+    ],
+    [
+     "Özellik",
+     "Most of its surface is covered by articular cartilage; no muscle attaches",
+     "Feature"
+    ],
+    [
+     "Kanlanma",
+     "Mainly the artery of the tarsal canal (from the posterior tibial) and the artery of the tarsal sinus (from the dorsalis pedis); blood flows retrogradely from the neck to the body",
+     "Blood supply"
+    ]
+   ],
+   "sections": [
+    [
+     "Parts",
+     "It consists of the head (articulating with the navicular), neck and body. The trochlea on the upper surface of the body is wider in front than behind, so the ankle is more stable in dorsiflexion. The flexor hallucis longus tendon runs in the groove between the medial and lateral tubercles of the posterior process."
+    ]
+   ],
+   "clinical": [
+    "Fractures of the talar neck (aviator's fracture) can lead to avascular necrosis because the blood supply is disrupted."
+   ],
+   "tus": [
+    "The risk of AVN after talar neck fractures is graded with the Hawkins classification.",
+    "The upper surface of the talus (trochlea) is wider in front; the ankle is most stable in dorsiflexion."
+   ],
+   "related": [
+    "tibia",
+    "fibula",
+    "calcaneus",
+    "os-naviculare",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Talus"
+   ],
+   "aliases": [
+    "astragalus",
+    "ankle bone"
+   ]
+  },
+  {
+   "id": "calcaneus",
+   "tr": "Calcaneus",
+   "la": "Calcaneus",
+   "en": "Calcaneus",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "The largest bone of the foot. It forms the heel and transmits weight to the ground when standing.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Calcaneal tuberosity, sustentaculum tali, groove for the flexor hallucis longus tendon, fibular trochlea",
+     "Main features"
+    ],
+    [
+     "Eklemleri",
+     "Talus (subtalar joint), cuboid (calcaneocuboid joint)",
+     "Articulations"
+    ],
+    [
+     "Tutunanlar",
+     "Calcaneal (Achilles) tendon, plantar aponeurosis, flexor digitorum brevis, abductor hallucis, abductor digiti minimi, quadratus plantae, extensor digitorum brevis",
+     "Attachments"
+    ],
+    [
+     "Kas tutunmaları",
+     "Calcaneal (Achilles) tendon, plantaris, flexor digitorum brevis, abductor hallucis, abductor digiti minimi, quadratus plantae, extensor digitorum brevis",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Main features",
+     "Behind is the calcaneal tuberosity (heel), medially the sustentaculum tali carrying the talus (the FHL tendon passes beneath it), laterally the fibular trochlea separating the tendons of the fibular muscles. The upper surface has three facets for the talus with the calcaneal groove between them; together with the groove of the talus it forms the sinus tarsi."
+    ]
+   ],
+   "clinical": [
+    "The calcaneus breaks in a fall from a height onto the feet; the spine must also be checked because a vertebral compression fracture may accompany it.",
+    "A heel spur (calcaneal spur) and plantar fasciitis are common causes of heel pain."
+   ],
+   "tus": [
+    "The most frequently fractured tarsal bone; a lumbar compression fracture may accompany a fall from a height.",
+    "The Achilles tendon attaches to the calcaneal tuberosity; a reduced Böhler angle indicates a fracture."
+   ],
+   "related": [
+    "talus",
+    "os-cuboideum",
+    "m-triceps-surae"
+   ],
+   "models": [
+    "Calcaneus"
+   ],
+   "aliases": [
+    "heel bone",
+    "os calcis"
+   ]
+  },
+  {
+   "id": "os-naviculare",
+   "tr": "Navicular bone",
+   "la": "Os naviculare",
+   "en": "Navicular bone",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "A boat-shaped bone on the medial side of the foot between the talus and the cuneiforms. It is the keystone of the medial arch.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Navicular tuberosity (main attachment of tibialis posterior)",
+     "Main features"
+    ],
+    [
+     "Eklemleri",
+     "Talus, the three cuneiforms, sometimes the cuboid",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Talus (head of talus), three cuneiforms, sometimes the cuboid",
+     "Articulating bones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tibialis posterior (navicular tuberosity)",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [
+    [
+     "Clinical relevance",
+     "It lies near the top of the medial arch. Its tuberosity is felt in front of and below the medial malleolus. Some people have an accessory navicular, which can cause pain through traction of the tibialis posterior tendon."
+    ]
+   ],
+   "clinical": [
+    "An accessory navicular bone can form a painful bump on the medial border of the foot.",
+    "Köhler disease is avascular necrosis of the navicular in children."
+   ],
+   "tus": [
+    "An accessory navicular can cause pain in the tibialis posterior tendon.",
+    "Köhler disease is osteonecrosis of the navicular in children."
+   ],
+   "related": [
+    "talus",
+    "ossa-cuneiformia",
+    "m-tibialis-posterior"
+   ],
+   "models": [
+    "Navicular bone"
+   ],
+   "aliases": [
+    "scaphoid of the foot"
+   ]
+  },
+  {
+   "id": "os-cuboideum",
+   "tr": "Cuboid bone",
+   "la": "Os cuboideum",
+   "en": "Cuboid bone",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "A cube-shaped bone on the lateral side of the foot between the calcaneus and the 4th and 5th metatarsals.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Cuboid tuberosity, groove for the fibularis longus tendon",
+     "Main features"
+    ],
+    [
+     "Eklemleri",
+     "Calcaneus, lateral cuneiform, navicular, 4th and 5th metatarsals",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Calcaneus, lateral cuneiform, navicular (sometimes), 4th and 5th metatarsals",
+     "Articulating bones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "On the inferior surface the groove for the fibularis longus tendon and the cuboid tuberosity in front of it",
+     "Main features"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Cuboid syndrome, a slight displacement of the cuboid causing pain along the lateral border of the foot, is seen especially in dancers."
+   ],
+   "tus": [
+    "The cuboid is the keystone of the lateral longitudinal arch; the fibularis longus tendon passes beneath it."
+   ],
+   "related": [
+    "calcaneus",
+    "ossa-metatarsi",
+    "m-fibularis-longus"
+   ],
+   "models": [
+    "Cuboid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossa-cuneiformia",
+   "tr": "Cuneiform bones",
+   "la": "Ossa cuneiformia",
+   "en": "Cuneiform bones",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "Three wedge-shaped bones between the navicular and the first three metatarsals: medial, intermediate and lateral.",
+   "facts": [
+    [
+     "Kemikler",
+     "Medial cuneiform (largest), intermediate (smallest), lateral",
+     "Bones"
+    ],
+    [
+     "Eklemleri",
+     "Navicular, 1st–3rd metatarsals, cuboid (lateral cuneiform)",
+     "Articulations"
+    ],
+    [
+     "İşlev",
+     "Their wedge shapes help form the transverse arch of the foot",
+     "Function"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Cuneiform fractures are rare; they usually accompany a Lisfranc injury."
+   ],
+   "tus": [
+    "Tibialis anterior and fibularis longus both attach to the medial cuneiform and base of the 1st metatarsal (the 'stirrup').",
+    "The medial cuneiform is the largest and the intermediate the smallest; the shortness of the intermediate cuneiform locks the base of the 2nd metatarsal."
+   ],
+   "related": [
+    "os-naviculare",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone",
+    "Intermediate cuneiform bone",
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "cuneiform"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-mediale",
+   "tr": "Medial cuneiform bone",
+   "la": "Os cuneiforme mediale",
+   "en": "Medial cuneiform bone",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "The largest of the three cuneiform bones; it lies on the medial border of the foot between the navicular and the 1st metatarsal. Unlike the other two, its wedge has its base downwards.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Short bone",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Navicular, intermediate cuneiform, 1st and 2nd metatarsals",
+     "Articulating bones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tibialis anterior and fibularis longus (inferomedial surface), a slip of tibialis posterior",
+     "Muscle attachments"
+    ],
+    [
+     "Bağlar",
+     "Lisfranc ligament: strong interosseous ligament from the medial cuneiform to the base of the 2nd metatarsal",
+     "Ligaments"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "In a Lisfranc injury rupture of this ligament opens a gap between the bases of the 1st and 2nd metatarsals; as it can be missed on X-ray it must be assessed carefully."
+   ],
+   "tus": [
+    "The tendons of tibialis anterior and fibularis longus form a 'stirrup' at the medial cuneiform and base of the 1st metatarsal that supports the arches of the foot."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-naviculare",
+    "ossa-metatarsi",
+    "ossa-tarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone"
+   ],
+   "aliases": [
+    "medial cuneiform"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-intermedium",
+   "tr": "Intermediate cuneiform bone",
+   "la": "Os cuneiforme intermedium",
+   "en": "Intermediate cuneiform bone",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "The smallest cuneiform bone, lying between the other two. Because it is shorter, a recess (mortise) is formed in front of it into which the base of the 2nd metatarsal fits.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Short bone",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Navicular, medial and lateral cuneiforms, 2nd metatarsal",
+     "Articulating bones"
+    ],
+    [
+     "Ayırt edici özellik",
+     "The shortest cuneiform; the base of the 2nd metatarsal is locked between the medial and lateral cuneiforms",
+     "Distinguishing feature"
+    ],
+    [
+     "Kas tutunmaları",
+     "Slips of tibialis posterior",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "The locking of the base of the 2nd metatarsal into this recess is the keystone of the tarsometatarsal joint; it is disrupted in Lisfranc fracture-dislocations."
+   ],
+   "tus": [
+    "Because the base of the 2nd metatarsal is recessed between the cuneiforms, it is the most stable, keystone point of the Lisfranc joint."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale",
+    "os-cuneiforme-laterale",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Intermediate cuneiform bone"
+   ],
+   "aliases": [
+    "intermediate cuneiform"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-laterale",
+   "tr": "Lateral cuneiform bone",
+   "la": "Os cuneiforme laterale",
+   "en": "Lateral cuneiform bone",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "The medium-sized cuneiform; it lies between the intermediate cuneiform and the cuboid and articulates in front with the 3rd metatarsal.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Short bone",
+     "Bone type"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Navicular, intermediate cuneiform, cuboid, 2nd, 3rd and 4th metatarsals",
+     "Articulating bones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Slips of tibialis posterior, part of flexor hallucis brevis",
+     "Muscle attachments"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "The cuneiforms are rarely involved in stress fractures of the midfoot; pain here can be confused with tarsometatarsal ligament injuries."
+   ],
+   "tus": [
+    "The lateral cuneiform contacts the 2nd, 3rd and 4th metatarsals; it lies near the top of the transverse arch."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-intermedium",
+    "os-cuboideum",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "lateral cuneiform"
+   ]
+  },
+  {
+   "id": "ossa-metatarsi",
+   "tr": "Metatarsal bones",
+   "la": "Ossa metatarsi (I–V)",
+   "en": "Metatarsal bones",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "The five long bones forming the skeleton of the forefoot. The first is the shortest and thickest; their heads carry much of the weight when standing.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V)",
+     "Number"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberosity of the 5th metatarsal at its base (fibularis brevis attaches); two sesamoid bones under the head of the 1st metatarsal",
+     "Main features"
+    ],
+    [
+     "Eklemleri",
+     "Tarsometatarsal joints (Lisfranc joint), metatarsophalangeal joints",
+     "Articulations"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Fracture of the base of the 5th metatarsal (Jones fracture) is common in ankle sprains.",
+    "Stress fractures of the 2nd–3rd metatarsals (march fracture) can follow long marches.",
+    "In hallux valgus the 1st metatarsal deviates medially and the big toe laterally."
+   ],
+   "tus": [
+    "A march fracture is most often a stress fracture of the shaft of the 2nd metatarsal.",
+    "A Lisfranc injury involves the tarsometatarsal joint complex; the base of the 2nd metatarsal is the keystone."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuboideum",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "First metatarsal bone",
+    "Second metatarsal bone",
+    "Third metatarsal bone",
+    "Fourth metatarsal bone",
+    "Fifth metatarsal bone"
+   ],
+   "aliases": [
+    "metatarsal"
+   ]
+  },
+  {
+   "id": "phalanges-pedis",
+   "tr": "Phalanges of the foot",
+   "la": "Phalanges pedis",
+   "en": "Phalanges of foot",
+   "group": "Bones of the foot",
+   "region": "lowerLimb",
+   "summary": "The 14 bones of the toes. The big toe (hallux) has two phalanges, the other toes three each; they are shorter than those of the hand.",
+   "facts": [
+    [
+     "Sayı",
+     "14",
+     "Number"
+    ],
+    [
+     "Eklemleri",
+     "Metatarsophalangeal and interphalangeal joints of the foot",
+     "Articulations"
+    ],
+    [
+     "Sesamoid kemikler",
+     "Two sesamoid bones lie under the metatarsophalangeal joint of the hallux",
+     "Sesamoid bones"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "The phalanges of the foot are much shorter than those of the hand; the middle and distal phalanges of the 2nd–5th toes are especially small and in the 5th toe often fused. The phalanges of the big toe (hallux) are thick and strong; they are the last point through which weight passes in the push-off phase of walking."
+    ]
+   ],
+   "clinical": [
+    "Hammer toe deformity and gouty arthritis (especially of the 1st MTP joint – podagra) are common problems."
+   ],
+   "tus": [
+    "Hallux valgus is lateral deviation of the big toe; a bunion develops over the head of the 1st metatarsal."
+   ],
+   "related": [
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Phalanges of foot",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "toe bones",
+    "phalanx"
+   ]
+  },
+  {
+   "id": "iskelet-genel",
+   "tr": "Divisions of the skeleton",
+   "la": "Skeleton",
+   "en": "Human skeleton",
+   "group": "General principles",
+   "region": "general",
+   "summary": "The adult human skeleton consists of about 206 bones and has two main divisions: the axial skeleton, forming the central axis of the body (skull, vertebral column, thoracic cage), and the appendicular skeleton, which carries the arms and legs (girdles and the bones of the free limbs).",
+   "facts": [
+    [
+     "Sayı",
+     "About 206 bones in the adult; around 270–300 in the newborn, counting the parts not yet fused",
+     "Number"
+    ],
+    [
+     "Eksen iskeleti (skeleton axiale)",
+     "80 bones: skull and ear ossicles (29, including the hyoid), vertebral column (26), thoracic cage (25: sternum and 24 ribs)",
+     "Axial skeleton"
+    ],
+    [
+     "Ekstremite iskeleti (skeleton appendiculare)",
+     "126 bones: shoulder girdle (4), upper limbs (60), pelvic girdle (2), lower limbs (60)",
+     "Appendicular skeleton"
+    ],
+    [
+     "Kemik şekilleri",
+     "Long (femur, humerus), short (carpal bones), flat (sternum, skull vault), irregular (vertebrae), pneumatic (maxilla, ethmoid) and sesamoid (patella) bones",
+     "Shapes of bones"
+    ],
+    [
+     "İşlevi",
+     "Support and shape, protection of organs, levers for movement, blood formation (red bone marrow), store of calcium and phosphate",
+     "Function"
+    ]
+   ],
+   "sections": [
+    [
+     "Girdles",
+     "The shoulder girdle consists of the clavicle and scapula; it is attached to the trunk only by the sternoclavicular joint and allows a wide range of movement. The pelvic girdle consists of the two hip bones; joined firmly to the sacrum behind and to each other in front, it transmits the body weight to the legs."
+    ]
+   ],
+   "clinical": [
+    "In adults, bone marrow biopsy and aspiration are usually taken from the posterior iliac crest (around the posterior superior iliac spine).",
+    "Bone age is assessed from the ossification centres on an X-ray of the left hand and wrist."
+   ],
+   "tus": [
+    "The axial skeleton has 80 bones, the appendicular skeleton 126.",
+    "In adults red bone marrow is found mainly in the flat bones (sternum, ribs, hip bone, vertebrae) and the proximal ends of long bones."
+   ],
+   "related": [
+    "os-structura",
+    "cranium",
+    "columna-vertebralis",
+    "pelvis"
+   ],
+   "models": [
+    "Skeletal system"
+   ],
+   "aliases": [
+    "skeleton",
+    "bones"
+   ]
+  },
+  {
+   "id": "os-structura",
+   "tr": "Structure and development of bone",
+   "la": "Structura ossis",
+   "en": "Structure of bone",
+   "group": "General principles",
+   "region": "general",
+   "summary": "Bone is a hard connective tissue made of calcium phosphate crystals and collagen. Dense compact bone lies outside and spongy bone inside; the surface is covered by periosteum. Bones develop by intramembranous or endochondral ossification.",
+   "facts": [
+    [
+     "Doku",
+     "Compact (cortical) bone – made of osteons (Haversian systems); spongy (trabecular) bone – bone marrow lies between the trabeculae",
+     "Tissue"
+    ],
+    [
+     "Hücreler",
+     "Osteoblast (builds bone), osteocyte (mature cell embedded in bone), osteoclast (resorbs bone; multinucleated cell of monocyte origin)",
+     "Cells"
+    ],
+    [
+     "Uzun kemiğin bölümleri",
+     "Epiphysis (end), metaphysis (transition zone where growth takes place), diaphysis (shaft, containing the medullary cavity), epiphyseal plate (growth cartilage)",
+     "Parts of a long bone"
+    ],
+    [
+     "Kemikleşme",
+     "Intramembranous: skull vault, facial bones, most of the clavicle. Endochondral: skull base, vertebrae, most limb bones",
+     "Ossification"
+    ],
+    [
+     "Kanlanma",
+     "The diaphysis is supplied by the nutrient artery (entering at the nutrient foramen), the ends by metaphyseal and epiphyseal arteries, the outer cortex by periosteal arteries",
+     "Blood supply"
+    ]
+   ],
+   "sections": [
+    [
+     "Periosteum and endosteum",
+     "The periosteum is a membrane rich in nerves and vessels covering the outer surface of bone; cells of its inner layer allow the bone to thicken and fractures to heal. There is no periosteum on joint surfaces, which are covered by hyaline cartilage. The endosteum lines the marrow cavity."
+    ],
+    [
+     "Growth",
+     "Long bones grow in length as cartilage cells in the epiphyseal plate multiply and ossify; the plate closes at the end of puberty (leaving the epiphyseal line). Growth in width occurs as the periosteum adds new bone."
+    ]
+   ],
+   "clinical": [
+    "In children, fractures involving the epiphyseal plate (Salter–Harris) can disturb growth and cause a difference in limb length.",
+    "In osteoporosis bone mass and trabecular structure are reduced; fractures are most common in the vertebral bodies, the femoral neck and the distal radius.",
+    "Fracture healing passes through haematoma → soft callus (fibrocartilage) → hard callus (woven bone) → remodelling (lamellar bone)."
+   ],
+   "tus": [
+    "The clavicle is the first bone in the body to begin ossifying (weeks 5–6) and is mostly formed by intramembranous ossification.",
+    "Volkmann's canals run at right angles and connect the Haversian canals with each other and with the periosteum."
+   ],
+   "related": [
+    "iskelet-genel",
+    "femur",
+    "humerus",
+    "clavicula"
+   ],
+   "models": [
+    "Femur",
+    "Humerus",
+    "Tibia"
+   ],
+   "aliases": [
+    "bone tissue",
+    "osteon",
+    "periosteum",
+    "ossification"
+   ]
+  },
+  {
+   "id": "ossa-sesamoidea",
+   "tr": "Sesamoid bones",
+   "la": "Ossa sesamoidea",
+   "en": "Sesamoid bones",
+   "group": "General principles",
+   "region": "general",
+   "summary": "Small bones that develop within a tendon; they let the tendon glide over a bony prominence, reduce friction and increase the muscle's lever arm. The largest is the patella.",
+   "facts": [
+    [
+     "Örnekler",
+     "Patella (quadriceps femoris tendon), pisiform (flexor carpi ulnaris tendon), the sesamoids under the MP joints of the thumb and the big toe",
+     "Examples"
+    ],
+    [
+     "İşlevi",
+     "Protects the tendon, changes its direction and lengthens the lever arm, increasing the muscle's force",
+     "Function"
+    ],
+    [
+     "Değişken olanlar",
+     "The fabella (in the lateral head of gastrocnemius) and the os peroneum (in the fibularis longus tendon) are present in some people",
+     "Inconstant ones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Inflammation of the sesamoids of the big toe (sesamoiditis) causes forefoot pain in dancers and runners.",
+    "The fabella and os peroneum can be mistaken for fracture fragments on X-ray."
+   ],
+   "tus": [
+    "The patella is the largest sesamoid bone of the body; the pisiform is also regarded as a sesamoid developed in the tendon of flexor carpi ulnaris."
+   ],
+   "related": [
+    "patella",
+    "os-pisiforme",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "Patella",
+    "Pisiform bone",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "sesamoid"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4059 @@
+{
+ "system": "skeletal",
+ "entries": [
+  {
+   "id": "cranium",
+   "tr": "Cráneo (en conjunto)",
+   "la": "Cranium",
+   "en": "Skull",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Estructura ósea formada por el neurocráneo, que protege el encéfalo, y el viscerocráneo, esqueleto de la cara; salvo la mandíbula, sus huesos están unidos firmemente por suturas. Con el hioides y los huesecillos del oído tiene 29 huesos.",
+   "facts": [
+    [
+     "Beyin kafası (neurocranium)",
+     "8 huesos: frontal, dos parietales, occipital, dos temporales, esfenoides, etmoides",
+     "Neurocráneo"
+    ],
+    [
+     "Yüz kafası (viscerocranium)",
+     "14 huesos: dos maxilares, dos cigomáticos, dos nasales, dos lagrimales, dos palatinos, dos cornetes nasales inferiores, vómer, mandíbula",
+     "Viscerocráneo (esqueleto facial)"
+    ],
+    [
+     "Bölümleri",
+     "Bóveda (calvaria) y base del cráneo (basis cranii)",
+     "Partes"
+    ],
+    [
+     "Hareketli eklem",
+     "La única articulación sinovial del cráneo es la temporomandibular; los demás huesos se unen por suturas",
+     "Articulación móvil"
+    ],
+    [
+     "Önemli noktalar",
+     "Bregma (encuentro de las suturas sagital y coronal), lambda (sagital y lambdoidea), pterion (frontal, parietal, temporal, esfenoides), asterion (parietal, occipital, temporal), nasion, inion",
+     "Puntos de referencia"
+    ]
+   ],
+   "sections": [
+    [
+     "Vistas",
+     "De frente (norma frontalis) se ven las órbitas, la abertura piriforme y los maxilares. De lado (norma lateralis), la fosa temporal, el arco cigomático y el pterion; desde abajo (norma basalis), el agujero magno, los cóndilos y los orificios de la base. Dentro de la cavidad craneal, las fosas craneales anterior, media y posterior se disponen como escalones."
+    ]
+   ],
+   "clinical": [
+    "El pterion es la zona más delgada del cráneo; como por debajo pasa la rama anterior de la arteria meníngea media, las fracturas aquí pueden producir un hematoma epidural.",
+    "El cierre prematuro de las suturas (craneosinostosis) produce una forma anormal de la cabeza."
+   ],
+   "tus": [
+    "El neurocráneo tiene 8 huesos y el viscerocráneo 14 (sin contar el hioides ni los huesecillos).",
+    "Pterion, asterion y bregma son referencias de superficie importantes para los abordajes quirúrgicos; el pterion está unos 4 cm por encima del punto medio del arco cigomático."
+   ],
+   "related": [
+    "suturae-fonticuli",
+    "basis-cranii",
+    "orbita",
+    "os-frontale",
+    "os-sphenoidale",
+    "mandibula"
+   ],
+   "models": [
+    "Cranium"
+   ],
+   "aliases": [
+    "cráneo",
+    "cabeza"
+   ]
+  },
+  {
+   "id": "suturae-fonticuli",
+   "tr": "Suturas y fontanelas del cráneo",
+   "la": "Suturae et fonticuli cranii",
+   "en": "Sutures and fontanelles",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Los huesos del cráneo se unen mediante articulaciones fibrosas llamadas suturas. En el recién nacido, donde se encuentran las suturas hay zonas membranosas no osificadas – las fontanelas –, que permiten el moldeamiento de la cabeza en el parto y el crecimiento del cerebro.",
+   "facts": [
+    [
+     "Başlıca dikişler",
+     "Coronal (frontal–parietal), sagital (entre los dos parietales), lambdoidea (parietal–occipital), escamosa (parietal–temporal), metópica (entre las dos mitades del frontal)",
+     "Suturas principales"
+    ],
+    [
+     "Ön bıngıldak (fonticulus anterior)",
+     "Romboidal, la mayor; entre el frontal y los parietales; se cierra a los 18–24 meses",
+     "Fontanela anterior"
+    ],
+    [
+     "Arka bıngıldak (fonticulus posterior)",
+     "Triangular; entre los parietales y el occipital; se cierra a los 2–3 meses",
+     "Fontanela posterior"
+    ],
+    [
+     "Yan bıngıldaklar",
+     "Fontanela esfenoidal (anterolateral, en el pterion) y mastoidea (posterolateral, en el asterion); se cierran en el primer año",
+     "Fontanelas laterales"
+    ],
+    [
+     "Eklem tipi",
+     "Sinartrosis – articulación fibrosa (suturas); puede osificarse con la edad (sinostosis)",
+     "Tipo de articulación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Una fontanela anterior hundida sugiere deshidratación; tensa y abombada, hipertensión intracraneal (meningitis, hidrocefalia).",
+    "El cierre prematuro de la sutura sagital da una cabeza larga y estrecha (escafocefalia); el de una sutura coronal, una cabeza asimétrica (plagiocefalia).",
+    "El cierre tardío de la fontanela anterior se ve en el raquitismo, el hipotiroidismo y la hidrocefalia."
+   ],
+   "tus": [
+    "La fontanela anterior se cierra a los 18–24 meses y la posterior a los 2–3 meses; en el recién nacido se puede acceder al seno sagital superior a través de la fontanela anterior.",
+    "La craneosinostosis más frecuente es la sinostosis sagital (escafocefalia)."
+   ],
+   "related": [
+    "cranium",
+    "os-parietale",
+    "os-frontale",
+    "os-occipitale"
+   ],
+   "models": [
+    "Parietal bone",
+    "Frontal bone",
+    "Occipital bone",
+    "Cranial fibrous joints"
+   ],
+   "aliases": [
+    "sutura",
+    "fontanela",
+    "mollera"
+   ]
+  },
+  {
+   "id": "basis-cranii",
+   "tr": "Base del cráneo y sus orificios",
+   "la": "Basis cranii interna",
+   "en": "Cranial base and foramina",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "El suelo de la cavidad craneal se divide, de delante atrás, en tres fosas escalonadas: fosas craneales anterior, media y posterior. Por sus agujeros y conductos pasan los nervios craneales y los vasos que entran y salen del encéfalo.",
+   "facts": [
+    [
+     "Ön kafa çukuru (fossa cranii anterior)",
+     "Porción orbitaria del frontal, lámina cribosa (etmoides) y alas menores del esfenoides; aloja los lóbulos frontales. Orificios: agujeros de la lámina cribosa (filetes del nervio olfatorio), agujero ciego",
+     "Fosa craneal anterior"
+    ],
+    [
+     "Orta kafa çukuru (fossa cranii media)",
+     "Cuerpo y alas mayores del esfenoides, porciones escamosa y petrosa del temporal; aloja los lóbulos temporales y la hipófisis (silla turca). Orificios: conducto óptico (II, arteria oftálmica), fisura orbitaria superior (III, IV, V1, VI, vena oftálmica superior), agujero redondo (V2), agujero oval (V3, nervio petroso menor), agujero espinoso (arteria meníngea media), agujero rasgado (ocupado por cartílago; por encima pasa la ACI)",
+     "Fosa craneal media"
+    ],
+    [
+     "Arka kafa çukuru (fossa cranii posterior)",
+     "Occipital y cara posterior de la porción petrosa; aloja el cerebelo, la protuberancia y el bulbo. Orificios: conducto auditivo interno (VII, VIII, arteria laberíntica), agujero yugular (IX, X, XI, vena yugular interna, seno petroso inferior), conducto del hipogloso (XII), agujero magno (bulbo raquídeo, arterias vertebrales, raíces espinales del XI)",
+     "Fosa craneal posterior"
+    ],
+    [
+     "Dış kafa tabanındaki delikler",
+     "Conducto carotídeo (arteria carótida interna, plexo simpático), agujero estilomastoideo (VII), conducto condíleo (vena emisaria), agujeros palatinos, fosa incisiva",
+     "Orificios de la base externa del cráneo"
+    ]
+   ],
+   "sections": [
+    [
+     "Importancia clínica",
+     "Las fracturas de la base del cráneo son más frecuentes en la fosa craneal media. Una fractura de la base anterior puede causar equimosis periorbitaria (ojos de mapache), rinorrea de LCR y pérdida del olfato; una fractura de la base media (porción petrosa), equimosis retroauricular (signo de Battle), hemotímpano, otorrea de LCR y parálisis facial."
+    ]
+   ],
+   "clinical": [
+    "Un tumor o una fractura en el agujero yugular afecta a la vez a los pares IX, X y XI (síndrome de Vernet): disfagia, ronquera, debilidad del trapecio y el ECM.",
+    "Con hipertensión intracraneal, la herniación de las amígdalas cerebelosas por el agujero magno puede causar parada respiratoria."
+   ],
+   "tus": [
+    "Por la fisura orbitaria superior pasan III, IV, V1 y VI; por el conducto óptico, II y la arteria oftálmica.",
+    "El agujero redondo da paso a V2, el oval a V3 y el espinoso a la arteria meníngea media (de delante atrás: «redondo–oval–espinoso»).",
+    "Por el agujero yugular pasan IX, X, XI y la vena yugular interna; por el conducto del hipogloso, XII."
+   ],
+   "related": [
+    "cranium",
+    "os-sphenoidale",
+    "os-occipitale",
+    "os-temporale",
+    "os-ethmoidale"
+   ],
+   "models": [
+    "Occipital bone",
+    "Sphenoid bone",
+    "Temporal bone",
+    "Ethmoid bone"
+   ],
+   "aliases": [
+    "base del cráneo",
+    "agujero",
+    "fosa craneal"
+   ]
+  },
+  {
+   "id": "orbita",
+   "tr": "Órbita",
+   "la": "Orbita",
+   "en": "Orbit",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Cavidad ósea en forma de pirámide cuadrangular, con la base delante y el vértice detrás, que contiene el globo ocular, los músculos oculares, nervios y vasos. En su formación participan siete huesos.",
+   "facts": [
+    [
+     "Kemikleri",
+     "Frontal, cigomático, maxilar, esfenoides, etmoides, lagrimal, palatino",
+     "Huesos"
+    ],
+    [
+     "Duvarları",
+     "Techo: porción orbitaria del frontal y ala menor del esfenoides; suelo: maxilar, cigomático, palatino; pared medial: lámina orbitaria del etmoides, lagrimal, maxilar, esfenoides; pared lateral: cigomático y ala mayor del esfenoides (la pared más gruesa)",
+     "Paredes"
+    ],
+    [
+     "Açıklıkları",
+     "Conducto óptico (II, arteria oftálmica), fisura orbitaria superior (III, IV, V1, VI, vena oftálmica superior), fisura orbitaria inferior (nervio infraorbitario, vena oftálmica inferior), conducto nasolagrimal, agujeros etmoidales",
+     "Aberturas"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Globo ocular, músculos extraoculares, nervio óptico, glándula lagrimal, grasa orbitaria, arteria oftálmica y sus ramas",
+     "Contenido"
+    ]
+   ],
+   "sections": [
+    [
+     "Paredes más débiles",
+     "La lámina orbitaria (papirácea) de la pared medial es la más delgada; las infecciones del seno etmoidal pueden atravesarla y llegar a la órbita. El suelo también es delgado y debajo está el seno maxilar; un traumatismo contuso del ojo puede romperlo (fractura en «blow-out»)."
+    ]
+   ],
+   "clinical": [
+    "En la fractura en blow-out se rompe el suelo orbitario; el recto inferior puede quedar atrapado en el trazo de fractura (diplopía al mirar hacia arriba) y la lesión del nervio infraorbitario causa anestesia de la mejilla y el labio superior.",
+    "La celulitis orbitaria suele proceder de una sinusitis etmoidal; sin tratamiento puede evolucionar a trombosis del seno cavernoso."
+   ],
+   "tus": [
+    "La pared más delgada de la órbita es la medial (lámina papirácea) y la más gruesa la lateral; las fracturas en blow-out afectan sobre todo al suelo.",
+    "El anillo tendinoso común (de Zinn) es el origen de los cuatro músculos rectos; por él pasan II, III, VI y el nervio nasociliar, mientras que IV y los nervios frontal y lagrimal pasan por fuera."
+   ],
+   "related": [
+    "os-frontale",
+    "os-zygomaticum",
+    "maxilla",
+    "os-sphenoidale",
+    "os-ethmoidale",
+    "os-lacrimale"
+   ],
+   "models": [
+    "Frontal bone",
+    "Zygomatic bone",
+    "Maxilla",
+    "Sphenoid bone",
+    "Ethmoid bone",
+    "Lacrimal bone",
+    "Palatine bone"
+   ],
+   "aliases": [
+    "órbita",
+    "cavidad orbitaria"
+   ]
+  },
+  {
+   "id": "fossa-pterygopalatina",
+   "tr": "Fosa pterigopalatina",
+   "la": "Fossa pterygopalatina",
+   "en": "Pterygopalatine fossa",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Espacio pequeño en forma de pirámide invertida situado detrás del maxilar y delante de la apófisis pterigoides del esfenoides. Contiene el nervio maxilar, la última porción de la arteria maxilar y el ganglio pterigopalatino, y es una encrucijada importante entre la nariz, el paladar, la órbita y la cavidad craneal.",
+   "facts": [
+    [
+     "Sınırları",
+     "Delante el maxilar (tuberosidad del maxilar), detrás la apófisis pterigoides y el ala mayor del esfenoides, medialmente la lámina perpendicular del palatino, lateralmente la fisura pterigomaxilar que da a la fosa infratemporal",
+     "Límites"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Nervio maxilar (V2), ganglio pterigopalatino, 3.ª porción (pterigopalatina) de la arteria maxilar y sus ramas",
+     "Contenido"
+    ],
+    [
+     "Bağlantıları",
+     "Agujero redondo (fosa craneal media), conducto pterigoideo (región del agujero rasgado), fisura orbitaria inferior (órbita), agujero esfenopalatino (cavidad nasal), conducto palatino mayor (paladar), fisura pterigomaxilar (fosa infratemporal)",
+     "Comunicaciones"
+    ]
+   ],
+   "sections": [
+    [
+     "Ganglio pterigopalatino",
+     "Ganglio parasimpático; sus fibras preganglionares proceden del nervio facial por el nervio petroso mayor (nervio del conducto pterigoideo). Las fibras posganglionares van a la glándula lagrimal y a las glándulas mucosas de la nariz, el paladar y la faringe; por eso a veces se le llama «ganglio de la fiebre del heno»."
+    ]
+   ],
+   "clinical": [
+    "La arteria esfenopalatina es el origen de las epistaxis posteriores; en hemorragias incontrolables puede ligarse en la fosa pterigopalatina o en el agujero esfenopalatino.",
+    "El angiofibroma nasofaríngeo juvenil tiende a extenderse a esta fosa."
+   ],
+   "tus": [
+    "El nervio petroso mayor (VII, parasimpático) y el petroso profundo (simpático) se unen para formar el nervio del conducto pterigoideo (nervio vidiano), que llega al ganglio pterigopalatino.",
+    "Vía parasimpática de la glándula lagrimal: nervio facial → nervio petroso mayor → ganglio pterigopalatino → nervio cigomático → nervio lagrimal."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-palatinum",
+    "maxilla",
+    "orbita"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Palatine bone",
+    "Maxilla"
+   ],
+   "aliases": [
+    "fosa pterigopalatina",
+    "esfenopalatino"
+   ]
+  },
+  {
+   "id": "os-frontale",
+   "tr": "Hueso frontal",
+   "la": "Os frontale",
+   "en": "Frontal bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso impar y simétrico del cráneo que forma la frente y el techo de las órbitas. Tiene tres partes: la escama vertical, la porción orbitaria horizontal y la pequeña porción nasal.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso plano (neumatizado – contiene el seno frontal)",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Hueso parietal (sutura coronal), esfenoides, etmoides, huesos nasales, maxilares, huesos lagrimales, cigomáticos",
+     "Huesos que se articulan"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Eminencia frontal, arco superciliar, glabela, borde supraorbitario, escotadura/agujero supraorbitario, apófisis cigomática, seno frontal, cresta frontal",
+     "Accidentes principales"
+    ],
+    [
+     "Kemikleşme",
+     "Intramembranosa; al nacer está en dos mitades y la sutura metópica suele cerrarse hacia los 2 años",
+     "Osificación"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "La escama forma la frente; su cara interna lleva las impresiones de las circunvoluciones cerebrales y, en la línea media, el surco del seno sagital superior. La porción orbitaria es una lámina delgada que forma el suelo de la fosa craneal anterior; la lámina cribosa del etmoides se aloja en la escotadura etmoidal entre ambas porciones orbitarias. El seno frontal es una cavidad aérea situada tras las cejas que desemboca en el meato nasal medio."
+    ]
+   ],
+   "clinical": [
+    "El nervio supraorbitario, que pasa por el agujero/escotadura supraorbitaria, se bloquea para la anestesia local de la frente.",
+    "La infección del seno frontal (sinusitis frontal) produce dolor en la frente; las fracturas de la base craneal anterior pueden causar salida de líquido cefalorraquídeo por la nariz (rinorrea)."
+   ],
+   "tus": [
+    "El seno frontal desemboca en el meato nasal medio (hiato semilunar).",
+    "Por el agujero/escotadura supraorbitaria pasan el nervio y la arteria supraorbitarios (V1); punto doloroso a la presión en la neuralgia del trigémino."
+   ],
+   "related": [
+    "os-parietale",
+    "os-ethmoidale",
+    "os-sphenoidale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Frontal bone",
+    "Sinus of frontal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-parietale",
+   "tr": "Hueso parietal",
+   "la": "Os parietale",
+   "en": "Parietal bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso plano par y cuadrilátero que forma los lados y la parte superior de la bóveda craneal (calvaria). Los dos parietales se unen en la línea media por la sutura sagital.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso plano",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Parietal opuesto (sutura sagital), frontal (sutura coronal), occipital (sutura lambdoidea), temporal (sutura escamosa), esfenoides (ala mayor)",
+     "Huesos que se articulan"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Eminencia parietal, líneas temporales superior e inferior, agujero parietal, surcos de la arteria meníngea media en la cara interna (surcos arteriales)",
+     "Accidentes principales"
+    ],
+    [
+     "Kemikleşme",
+     "Osificación intramembranosa",
+     "Osificación"
+    ]
+   ],
+   "sections": [
+    [
+     "Fontanelas",
+     "En el recién nacido, los ángulos de los parietales limitan las fontanelas: la anterior, entre frontal y parietales, se cierra hacia los 18–24 meses; la posterior, entre parietales y occipital, hacia los 2–3 meses."
+    ]
+   ],
+   "clinical": [
+    "El pterion (zona en forma de H donde se unen frontal, parietal, temporal y esfenoides) es delgado y se fractura con facilidad; si se rompe la arteria meníngea media subyacente, aparece un hematoma epidural.",
+    "Una fontanela anterior hundida sugiere deshidratación; abombada, hipertensión intracraneal."
+   ],
+   "tus": [
+    "Por la cara interna del pterion discurre la rama anterior de la arteria meníngea media; su fractura produce un hematoma epidural.",
+    "El parietal se osifica en membrana; al nacer forma los bordes de las fontanelas anterior y posterior."
+   ],
+   "related": [
+    "os-frontale",
+    "os-occipitale",
+    "os-temporale"
+   ],
+   "models": [
+    "Parietal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-occipitale",
+   "tr": "Hueso occipital",
+   "la": "Os occipitale",
+   "en": "Occipital bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso impar que forma la parte posterior e inferior del cráneo. A través del agujero magno comunica la cavidad craneal con el conducto vertebral, y sus cóndilos occipitales se articulan con el atlas.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso plano",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Escama, dos porciones laterales (condíleas) y porción basilar",
+     "Partes"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Parietales, temporales, esfenoides, atlas (articulación atlantooccipital)",
+     "Huesos que se articulan"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Agujero magno, cóndilos occipitales, conducto del nervio hipogloso, protuberancia occipital externa (inion), líneas nucales, clivus, protuberancia occipital interna, surco del seno transverso",
+     "Accidentes principales"
+    ],
+    [
+     "Foramen magnum'dan geçenler",
+     "Bulbo raquídeo y sus meninges, arterias vertebrales, arterias espinales anterior y posteriores, raíces espinales del nervio accesorio",
+     "Pasan por el foramen magno"
+    ]
+   ],
+   "sections": [
+    [
+     "Zonas de interés clínico",
+     "El clivus está delante del tronco del encéfalo. En la línea nucal superior se insertan el trapecio y el esternocleidomastoideo. Por el conducto del hipogloso pasa el XII par; por el conducto condíleo, detrás de los cóndilos, pasan venas emisarias."
+    ]
+   ],
+   "clinical": [
+    "En la malformación de Arnold-Chiari las amígdalas cerebelosas descienden por el agujero magno hacia el conducto vertebral.",
+    "Con la presión intracraneal elevada, la herniación de las amígdalas cerebelosas en el agujero magno (herniación amigdalar) puede comprimir el centro respiratorio y ser mortal."
+   ],
+   "tus": [
+    "Por el agujero magno pasan el bulbo raquídeo, las arterias vertebrales, la arteria espinal anterior y las raíces espinales del nervio accesorio.",
+    "El conducto del hipogloso está por encima de los cóndilos y da paso al XII par."
+   ],
+   "related": [
+    "atlas",
+    "os-parietale",
+    "os-sphenoidale",
+    "medulla-oblongata"
+   ],
+   "models": [
+    "Occipital bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-temporale",
+   "tr": "Hueso temporal",
+   "la": "Os temporale",
+   "en": "Temporal bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso par de forma compleja situado en la pared lateral y la base del cráneo, que aloja los órganos de la audición y el equilibrio. Forma con la mandíbula la articulación temporomandibular.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular (neumatizado – celdillas mastoideas)",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Porción escamosa, porción timpánica, porción petrosa (peñasco) y apófisis estiloides",
+     "Partes"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Parietal, occipital, esfenoides, cigomático (arco cigomático), mandíbula (articulación temporomandibular)",
+     "Huesos que se articulan"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Conductos auditivos externo e interno, apófisis mastoides, apófisis cigomática, fosa mandibular, tubérculo articular, agujero estilomastoideo, conducto carotídeo, fosa yugular",
+     "Accidentes principales"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Oído medio (caja timpánica y huesecillos), oído interno (laberinto), conducto facial",
+     "Contenido"
+    ]
+   ],
+   "sections": [
+    [
+     "Porción petrosa",
+     "Una de las partes más duras del esqueleto; separa las fosas craneales media y posterior y contiene la cóclea y los conductos semicirculares. El nervio facial recorre el conducto facial y sale por el agujero estilomastoideo; la arteria carótida interna entra en el cráneo por el conducto carotídeo."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas del temporal pueden causar hipoacusia de transmisión, salida de líquido cefalorraquídeo por el oído (otorrea), parálisis facial y equimosis mastoidea (signo de Battle).",
+    "Las otitis medias pueden extenderse a las celdillas mastoideas y producir mastoiditis."
+   ],
+   "tus": [
+    "El nervio facial sale por el agujero estilomastoideo; por el conducto auditivo interno pasan VII, VIII y la arteria laberíntica.",
+    "Las fracturas del peñasco (signo de Battle – equimosis mastoidea, hemotímpano) sugieren fractura de la base del cráneo."
+   ],
+   "related": [
+    "os-parietale",
+    "mandibula",
+    "auris-media",
+    "auris-interna",
+    "art-temporomandibularis"
+   ],
+   "models": [
+    "Temporal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-sphenoidale",
+   "tr": "Hueso esfenoides",
+   "la": "Os sphenoidale",
+   "en": "Sphenoid bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso impar situado en el centro de la base del cráneo, con forma de murciélago con las alas abiertas. Contacta con todos los huesos del cráneo y lleva la silla turca, que aloja la hipófisis.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular neumatizado (seno esfenoidal)",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Cuerpo, alas menores, alas mayores, apófisis pterigoides",
+     "Partes"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Silla turca (fosa hipofisaria), conducto óptico, fisura orbitaria superior, agujero redondo, agujero oval, agujero espinoso, apófisis clinoides",
+     "Accidentes principales"
+    ],
+    [
+     "Geçen yapılar",
+     "Conducto óptico: nervio óptico y arteria oftálmica; fisura orbitaria superior: pares III, IV, V1, VI y vena oftálmica superior; agujero redondo: V2; agujero oval: V3; agujero espinoso: arteria meníngea media",
+     "Estructuras que lo atraviesan"
+    ]
+   ],
+   "sections": [
+    [
+     "Situación",
+     "Se encuentra donde confluyen las fosas craneales anterior, media y posterior. El seno esfenoidal de su cuerpo desemboca en la parte posterosuperior de las fosas nasales (receso esfenoetmoidal). Las apófisis pterigoides dan inserción a los músculos pterigoideos."
+    ]
+   ],
+   "clinical": [
+    "Los tumores hipofisarios se abordan a menudo por la nariz a través del seno esfenoidal (cirugía transesfenoidal).",
+    "Un adenoma hipofisario puede ensanchar la silla turca y comprimir el quiasma óptico situado encima, causando hemianopsia bitemporal."
+   ],
+   "tus": [
+    "El ala menor tiene el conducto óptico; el ala mayor, los agujeros redondo (V2), oval (V3) y espinoso (arteria meníngea media).",
+    "La fisura orbitaria superior está entre las alas mayor y menor (III, IV, V1, VI, vena oftálmica superior)."
+   ],
+   "related": [
+    "hypophysis",
+    "os-ethmoidale",
+    "os-frontale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Sinus of sphenoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-ethmoidale",
+   "tr": "Hueso etmoides",
+   "la": "Os ethmoidale",
+   "en": "Ethmoid bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso impar, ligero y esponjoso, situado entre las órbitas en la parte alta de las fosas nasales. Forma el techo y las paredes laterales de las fosas nasales y la parte superior del tabique nasal.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular neumatizado",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Lámina cribosa, lámina perpendicular, dos laberintos etmoidales (celdillas etmoidales)",
+     "Partes"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Apófisis crista galli, orificios de la lámina cribosa, cornetes nasales superior y medio, lámina orbitaria (lámina papirácea), bulla etmoidal, apófisis unciforme",
+     "Accidentes principales"
+    ],
+    [
+     "Geçen yapılar",
+     "Filetes del nervio olfatorio (fila olfactoria) por los orificios de la lámina cribosa",
+     "Estructuras que lo atraviesan"
+    ]
+   ],
+   "sections": [
+    [
+     "Celdillas etmoidales",
+     "Las celdillas etmoidales anteriores, medias y posteriores son pequeñas cavidades aéreas; las anteriores y medias desembocan en el meato medio, las posteriores en el meato superior. La lámina orbitaria orientada hacia la órbita es delgada como el papel."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas de la lámina cribosa pueden causar pérdida del olfato (anosmia) y rinorrea de líquido cefalorraquídeo.",
+    "Por la delgadez de la lámina papirácea, una sinusitis etmoidal puede extenderse a la órbita y causar celulitis orbitaria."
+   ],
+   "tus": [
+    "La fractura de la lámina cribosa produce anosmia y rinorrea de LCR; los «ojos de mapache» son signo de fractura de la base craneal anterior.",
+    "La lámina orbitaria (papirácea) es la pared más delgada de la órbita; la sinusitis etmoidal se extiende fácilmente a ella (celulitis orbitaria)."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-frontale",
+    "cavitas-nasi",
+    "sinus-paranasales",
+    "n-olfactorius"
+   ],
+   "models": [
+    "Ethmoid bone",
+    "Anterior cells of ethmoid bone",
+    "Middle cells of ethmoid bone",
+    "Posterior cells of ethmoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "maxilla",
+   "tr": "Maxilar",
+   "la": "Maxilla",
+   "en": "Maxilla",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso par en el centro del esqueleto facial. Lleva los dientes superiores y forma la mayor parte del paladar duro, la pared lateral de las fosas nasales y el suelo de la órbita.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular neumatizado (seno maxilar)",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Cuerpo y cuatro apófisis: frontal, cigomática, alveolar y palatina",
+     "Partes"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal, etmoides, hueso nasal, lagrimal, cigomático, palatino, vómer, cornete nasal inferior, maxilar opuesto",
+     "Huesos que se articulan"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Seno maxilar, agujero infraorbitario, arco alveolar, agujero incisivo, espina nasal anterior",
+     "Accidentes principales"
+    ]
+   ],
+   "sections": [
+    [
+     "Seno maxilar",
+     "Es el mayor de los senos paranasales; su suelo está muy cerca de las raíces de los molares superiores. Desemboca en el meato medio por el hiato semilunar; como su orificio está cerca del techo, drena con dificultad."
+    ]
+   ],
+   "clinical": [
+    "La extracción de un molar superior puede crear una comunicación entre el seno y la boca (fístula oroantral).",
+    "Las fracturas faciales se clasifican en Le Fort I, II y III.",
+    "El paladar hendido se debe a la falta de fusión de las dos apófisis palatinas."
+   ],
+   "tus": [
+    "El seno maxilar es el mayor seno paranasal y drena mal porque su ostium está alto; las raíces de los molares superiores lindan con su suelo.",
+    "Por el agujero infraorbitario sale el nervio infraorbitario (V2); las fracturas de Le Fort son la clasificación clásica de las fracturas maxilares."
+   ],
+   "related": [
+    "mandibula",
+    "os-zygomaticum",
+    "os-palatinum",
+    "dentes",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Maxilla"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mandibula",
+   "tr": "Mandíbula",
+   "la": "Mandibula",
+   "en": "Mandible",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "El hueso más grande y fuerte de la cara y el único hueso móvil del cráneo. Lleva los dientes inferiores y forma con el temporal la articulación temporomandibular.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Cuerpo y dos ramas; se unen en el ángulo mandibular",
+     "Partes"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Apófisis condilar (cabeza y cuello), apófisis coronoides, escotadura mandibular, agujero mandibular, língula, agujero mentoniano, protuberancia mentoniana, línea milohioidea, fosa digástrica",
+     "Accidentes principales"
+    ],
+    [
+     "Kas tutunmaları",
+     "Masetero, temporal, pterigoideos medial y lateral, digástrico, milohioideo, genihioideo, geniogloso, platisma",
+     "Inserciones musculares"
+    ],
+    [
+     "Kemikleşme",
+     "Sobre todo intramembranosa; al nacer está en dos mitades que se unen en la sínfisis mentoniana durante el primer año",
+     "Osificación"
+    ]
+   ],
+   "sections": [
+    [
+     "Nervios y vasos",
+     "El nervio alveolar inferior entra en el conducto mandibular por el agujero mandibular, inerva los dientes inferiores y sale por el agujero mentoniano como nervio mentoniano, que inerva el labio inferior y el mentón."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas mandibulares suelen producirse en dos puntos a la vez (por ejemplo, el cuello de un lado y el cuerpo del otro).",
+    "Para tratar los dientes inferiores se bloquea el nervio alveolar inferior cerca de la língula."
+   ],
+   "tus": [
+    "La mandíbula se fractura con más frecuencia en el cuello del cóndilo, el ángulo y el cuerpo (normalmente en dos puntos).",
+    "En la língula, delante del agujero mandibular, se inserta el ligamento esfenomandibular; aquí se realiza el bloqueo del nervio alveolar inferior."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "art-temporomandibularis",
+    "m-masseter",
+    "dentes"
+   ],
+   "models": [
+    "Mandible"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-zygomaticum",
+   "tr": "Hueso cigomático",
+   "la": "Os zygomaticum",
+   "en": "Zygomatic bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso par que forma el relieve del pómulo y participa en la pared lateral y el suelo de la órbita. Su apófisis temporal se une a la apófisis cigomática del temporal para formar el arco cigomático.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal, temporal, esfenoides, maxilar",
+     "Huesos que se articulan"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Apófisis frontal, apófisis temporal, agujero cigomaticofacial, agujero cigomaticotemporal",
+     "Accidentes principales"
+    ],
+    [
+     "Kas tutunmaları",
+     "Masetero (arco cigomático), músculos cigomáticos mayor y menor",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "Hueso que forma el relieve de la mejilla. Su apófisis temporal se une a la apófisis cigomática del temporal para formar el arco cigomático; su apófisis frontal forma el borde lateral de la órbita. Ramas del nervio cigomático entran por el agujero cigomático-orbitario de su cara orbitaria y salen a la piel de la mejilla y la sien."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas del cigomático (fractura en trípode) pueden causar asimetría facial, limitación de los movimientos oculares y adormecimiento de la mejilla (lesión del nervio infraorbitario).",
+    "En las fracturas del arco cigomático pueden quedar atrapados el músculo temporal y la apófisis coronoides, limitando la apertura de la boca."
+   ],
+   "tus": [
+    "En la fractura del complejo cigomático (trípode) hay aplanamiento del pómulo, hipoestesia infraorbitaria y limitación de la apertura bucal.",
+    "Una fractura del arco cigomático puede atrapar la apófisis coronoides e impedir abrir la boca."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "m-masseter"
+   ],
+   "models": [
+    "Zygomatic bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-nasale",
+   "tr": "Hueso nasal",
+   "la": "Os nasale",
+   "en": "Nasal bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso par, pequeño y rectangular, que forma la parte alta del dorso de la nariz. En su borde inferior se insertan los cartílagos nasales.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso plano",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal, hueso nasal opuesto, maxilar (apófisis frontal), etmoides (lámina perpendicular)",
+     "Huesos que se articulan"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "El nasal opuesto, el frontal, el maxilar (apófisis frontal), el etmoides (lámina perpendicular)",
+     "Huesos que se articulan"
+    ],
+    [
+     "Kemikleşme",
+     "Osificación intramembranosa",
+     "Osificación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Es el hueso de la cara que más se fractura; si tras la fractura aparece un hematoma septal, debe drenarse para evitar la necrosis del cartílago."
+   ],
+   "tus": [
+    "Es el hueso facial que más se fractura; un hematoma septal no drenado produce necrosis del cartílago y nariz en silla de montar.",
+    "En las fracturas nasales hay que buscar un hematoma septal; si no se drena, se necrosa el cartílago del tabique."
+   ],
+   "related": [
+    "maxilla",
+    "os-frontale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Nasal bone",
+    "Nasal septal cartilage",
+    "Major alar cartilage",
+    "Lateral process of nasal septal cartilage"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-lacrimale",
+   "tr": "Hueso lagrimal",
+   "la": "Os lacrimale",
+   "en": "Lacrimal bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Uno de los huesos más pequeños y delgados del cráneo, en la parte anterior de la pared medial de la órbita. Participa en la fosa que aloja el saco lagrimal.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso plano",
+     "Tipo de hueso"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Cresta lagrimal posterior, surco lagrimal (parte posterior de la fosa del saco lagrimal), gancho lagrimal",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal, etmoides, maxilar, cornete nasal inferior",
+     "Huesos que se articulan"
+    ]
+   ],
+   "sections": [
+    [
+     "Función",
+     "Junto con el maxilar forma la fosa del saco lagrimal y el conducto nasolagrimal, que desemboca en las fosas nasales."
+    ]
+   ],
+   "clinical": [
+    "Cuando el conducto nasolagrimal está obstruido, la dacriocistorrinostomía abre este hueso delgado para comunicar el saco lagrimal con la cavidad nasal.",
+    "La dacriocistorrinostomía (operación que abre el saco lagrimal a la nariz) se realiza a través del lagrimal y la apófisis frontal del maxilar."
+   ],
+   "tus": [
+    "Es el hueso más pequeño y delgado del esqueleto facial; forma la parte posterior de la fosa del saco lagrimal."
+   ],
+   "related": [
+    "apparatus-lacrimalis",
+    "os-ethmoidale",
+    "maxilla"
+   ],
+   "models": [
+    "Lacrimal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-palatinum",
+   "tr": "Hueso palatino",
+   "la": "Os palatinum",
+   "en": "Palatine bone",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso par en forma de L que forma la parte posterior del paladar duro, la parte posterior de la pared lateral de las fosas nasales y una pequeña parte del suelo de la órbita.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Lámina horizontal, lámina perpendicular; apófisis piramidal, orbitaria y esfenoidal",
+     "Partes"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Agujeros palatinos mayor y menores, espina nasal posterior",
+     "Accidentes principales"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructuras que lo atraviesan",
+     "Por el agujero palatino mayor pasan el nervio y la arteria palatinos mayores; por los agujeros palatinos menores, los nervios palatinos menores."
+    ]
+   ],
+   "clinical": [
+    "En el paladar hendido las apófisis palatinas de los maxilares y las láminas horizontales de los palatinos no se unen en la línea media; altera la alimentación y el habla."
+   ],
+   "tus": [
+    "Por los agujeros palatinos mayor y menores llegan al paladar los nervios y vasos homónimos (V2, ramas de la arteria palatina descendente)."
+   ],
+   "related": [
+    "maxilla",
+    "vomer",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Palatine bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "vomer",
+   "tr": "Vómer",
+   "la": "Vomer",
+   "en": "Vomer",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso impar y delgado, con forma de reja de arado, que forma la parte posteroinferior del tabique nasal.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso plano",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Esfenoides, etmoides, maxilares, palatinos, cartílago septal",
+     "Huesos que se articulan"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Esfenoides, etmoides (lámina perpendicular), maxilares, palatinos; su borde anterior se une al cartílago del tabique",
+     "Huesos que se articulan"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La desviación del tabique nasal suele afectar a la unión entre el vómer y el cartílago septal y puede obstruir la nariz.",
+    "La desviación del tabique se debe sobre todo a una angulación en la unión del vómer con el cartílago septal."
+   ],
+   "tus": [
+    "Forma la parte posteroinferior del tabique; su borde posterior libre separa las coanas."
+   ],
+   "related": [
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Vomer"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "concha-nasalis-inferior",
+   "tr": "Cornete nasal inferior",
+   "la": "Concha nasalis inferior",
+   "en": "Inferior nasal concha",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Hueso par, enrollado e independiente, situado en la pared lateral de las fosas nasales. Su mucosa calienta y humedece el aire inspirado.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Maxilar, lagrimal, etmoides, palatino",
+     "Huesos que se articulan"
+    ],
+    [
+     "İlişki",
+     "En el meato inferior, situado debajo, desemboca el conducto nasolagrimal",
+     "Relaciones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La hipertrofia del cornete inferior es una causa frecuente de obstrucción nasal; si el tratamiento médico fracasa, se reduce quirúrgicamente."
+   ],
+   "tus": [
+    "En el meato inferior desemboca el conducto nasolagrimal; ningún seno paranasal se abre ahí."
+   ],
+   "related": [
+    "cavitas-nasi",
+    "os-lacrimale",
+    "maxilla"
+   ],
+   "models": [
+    "Inferior nasal concha bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-hyoideum",
+   "tr": "Hueso hioides",
+   "la": "Os hyoideum",
+   "en": "Hyoid bone",
+   "group": "Cráneo (Cranium)",
+   "region": "neck",
+   "summary": "Hueso en forma de U situado en la parte anterosuperior del cuello, entre la mandíbula y la laringe. No se articula con ningún otro hueso y está suspendido por músculos y ligamentos.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Cuerpo, dos astas mayores, dos astas menores",
+     "Partes"
+    ],
+    [
+     "Seviye",
+     "A la altura de la vértebra C3",
+     "Nivel"
+    ],
+    [
+     "Kas tutunmaları",
+     "Músculos suprahioideos (digástrico, estilohioideo, milohioideo, genihioideo), infrahioideos (esternohioideo, omohioideo, tirohioideo), hiogloso, constrictor medio de la faringe",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Función",
+     "Forma una base móvil para la raíz de la lengua y permite subir y bajar la laringe al tragar y al hablar."
+    ]
+   ],
+   "clinical": [
+    "En medicina legal, la fractura del hioides apoya la sospecha de estrangulación manual."
+   ],
+   "tus": [
+    "La fractura del hioides es un signo médico-legal importante de estrangulación.",
+    "El hioides está a la altura de C3; el quiste del conducto tirogloso se relaciona con su cuerpo, cuya parte media se extirpa en la cirugía (Sistrunk)."
+   ],
+   "related": [
+    "larynx",
+    "lingua",
+    "mandibula"
+   ],
+   "models": [
+    "Hyoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossicula-auditus",
+   "tr": "Huesecillos del oído",
+   "la": "Ossicula auditus",
+   "en": "Auditory ossicles",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Cadena de tres pequeños huesos del oído medio que transmite el sonido del tímpano al oído interno: martillo (malleus), yunque (incus) y estribo (stapes). El estribo es el hueso más pequeño del cuerpo.",
+   "facts": [
+    [
+     "Kemikler",
+     "Martillo (malleus), yunque (incus), estribo (stapes)",
+     "Huesos"
+    ],
+    [
+     "Eklemler",
+     "Articulaciones incudomaleolar e incudoestapedial (sinoviales)",
+     "Articulaciones"
+    ],
+    [
+     "İlişkili kaslar",
+     "Tensor del tímpano (en el martillo; nervio trigémino/V3) y estapedio (en el estribo; nervio facial)",
+     "Músculos relacionados"
+    ],
+    [
+     "İşlevi",
+     "Transmiten las vibraciones sonoras del tímpano a la ventana oval y las amplifican unas 20 veces",
+     "Función"
+    ]
+   ],
+   "sections": [
+    [
+     "Trayecto",
+     "El mango del martillo está unido al tímpano; su cabeza se articula con el cuerpo del yunque. La rama larga del yunque se une a la cabeza del estribo, cuya base cierra la ventana oval del oído interno."
+    ]
+   ],
+   "clinical": [
+    "La otosclerosis es la fijación ósea de la base del estribo a la ventana oval; produce hipoacusia de transmisión y se trata con estapedectomía.",
+    "En la parálisis facial el estapedio no funciona y los sonidos fuertes resultan molestos (hiperacusia)."
+   ],
+   "tus": [
+    "El martillo y el yunque derivan del 1.er arco faríngeo (Meckel), el estribo del 2.º (Reichert).",
+    "El tensor del tímpano (V3) se inserta en el martillo y el estapedio (VII) en el estribo; la parálisis del estapedio produce hiperacusia."
+   ],
+   "related": [
+    "auris-media",
+    "os-temporale",
+    "n-facialis"
+   ],
+   "models": [
+    "Malleus",
+    "Incus",
+    "Stapes"
+   ],
+   "aliases": [
+    "martillo",
+    "yunque",
+    "estribo"
+   ]
+  },
+  {
+   "id": "dentes",
+   "tr": "Dientes",
+   "la": "Dentes",
+   "en": "Teeth",
+   "group": "Cráneo (Cranium)",
+   "region": "head",
+   "summary": "Estructuras duras que cortan, desgarran y trituran los alimentos. El adulto tiene 32 dientes permanentes (en cada hemiarcada 2 incisivos, 1 canino, 2 premolares y 3 molares); los dientes de leche son 20.",
+   "facts": [
+    [
+     "Diş formülü (kalıcı)",
+     "2-1-2-3 (por cuadrante); 32 en total",
+     "Fórmula dental (permanente)"
+    ],
+    [
+     "Yapısı",
+     "Esmalte, dentina, cemento, pulpa dental",
+     "Estructura"
+    ],
+    [
+     "Bölümleri",
+     "Corona, cuello, raíz",
+     "Partes"
+    ],
+    [
+     "İnnervasyon",
+     "Dientes superiores: nervios alveolares superiores (V2); dientes inferiores: nervio alveolar inferior (V3)",
+     "Inervación"
+    ],
+    [
+     "Sürme",
+     "Dientes de leche entre los 6 y 24 meses; permanentes entre los 6 y 12 años, muelas del juicio entre los 17 y 25 años",
+     "Erupción"
+    ]
+   ],
+   "sections": [
+    [
+     "Tipos de dientes",
+     "Los incisivos cortan, los caninos desgarran y los premolares y molares trituran. El esmalte es el tejido más duro del cuerpo."
+    ]
+   ],
+   "clinical": [
+    "La caries que alcanza la pulpa (pulpitis) causa dolor intenso y puede requerir endodoncia.",
+    "Las muelas del juicio incluidas pueden causar pericoronaritis y dañar el diente vecino."
+   ],
+   "tus": [
+    "El primer diente permanente en erupcionar es el primer molar (~6 años); el último, el tercer molar (muela del juicio).",
+    "Los dientes superiores los inervan los nervios alveolares superiores (V2); los inferiores, el nervio alveolar inferior (V3)."
+   ],
+   "related": [
+    "mandibula",
+    "maxilla",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Teeth"
+   ],
+   "aliases": [
+    "diente",
+    "muela",
+    "incisivo",
+    "canino"
+   ]
+  },
+  {
+   "id": "columna-vertebralis",
+   "tr": "Columna vertebral (estructura y curvaturas)",
+   "la": "Columna vertebralis",
+   "en": "Vertebral column",
+   "group": "Columna vertebral",
+   "region": "back",
+   "summary": "Eje flexible de 33 vértebras que va del cráneo al cóccix. Soporta el peso del tronco, protege la médula espinal y permite el movimiento. Vista de lado presenta cuatro curvaturas fisiológicas.",
+   "facts": [
+    [
+     "Sayı",
+     "33 vértebras: 7 cervicales, 12 torácicas, 5 lumbares, 5 sacras (fusionadas en el sacro) y 3–5 coccígeas (fusionadas en el cóccix)",
+     "Número"
+    ],
+    [
+     "Tipik omurun bölümleri",
+     "Cuerpo, arco vertebral (pedículos y láminas), apófisis espinosa, dos apófisis transversas, cuatro apófisis articulares; entre cuerpo y arco está el agujero vertebral",
+     "Partes de una vértebra típica"
+    ],
+    [
+     "Eğrilik",
+     "Lordosis cervical y lumbar (convexas hacia delante – curvaturas secundarias), cifosis torácica y sacra (convexas hacia atrás – curvaturas primarias)",
+     "Curvatura"
+    ],
+    [
+     "Delikler",
+     "Los agujeros vertebrales superpuestos forman el conducto vertebral; las escotaduras de las vértebras vecinas forman los agujeros intervertebrales (salida de los nervios espinales)",
+     "Agujeros"
+    ],
+    [
+     "Bölgesel ayırt edici özellikler",
+     "Cervical: agujero transverso, espinosa bífida; torácica: carillas para las costillas, espinosa larga e inclinada hacia abajo; lumbar: cuerpo grande arriñonado, espinosa corta y gruesa",
+     "Rasgos regionales"
+    ]
+   ],
+   "sections": [
+    [
+     "Desarrollo de las curvaturas",
+     "En el feto la columna forma una sola curva en C cóncava hacia delante (cifosis primaria). Cuando el bebé sostiene la cabeza aparece la lordosis cervical, y al sentarse y caminar la lordosis lumbar. Estas curvaturas secundarias permiten soportar el peso como un muelle."
+    ]
+   ],
+   "clinical": [
+    "La escoliosis es una curvatura lateral con rotación de la columna; la forma más frecuente es la idiopática del adolescente y se aprecia mejor en la prueba de flexión anterior.",
+    "La hipercifosis aparece en los aplastamientos vertebrales osteoporóticos y la enfermedad de Scheuermann; la hiperlordosis en el embarazo y la obesidad.",
+    "La espondilolistesis es el deslizamiento hacia delante de una vértebra sobre la inferior; es más frecuente en L5–S1."
+   ],
+   "tus": [
+    "Las curvaturas primarias son las cifosis torácica y sacra, y las secundarias las lordosis cervical y lumbar.",
+    "En la región cervical los nervios espinales salen por encima de la vértebra del mismo número (salvo C8); en las regiones torácica y lumbar, por debajo."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "vertebrae-thoracicae",
+    "vertebrae-lumbales",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "ligg-columnae"
+   ],
+   "models": [
+    "Vertebral column"
+   ],
+   "aliases": [
+    "columna",
+    "raquis"
+   ]
+  },
+  {
+   "id": "vertebrae-cervicales",
+   "tr": "Vértebras cervicales",
+   "la": "Vertebrae cervicales (C1–C7)",
+   "en": "Cervical vertebrae",
+   "group": "Columna vertebral",
+   "region": "neck",
+   "summary": "Las siete vértebras del cuello. Su cuerpo pequeño, el agujero de sus apófisis transversas (agujero transverso) y su apófisis espinosa bífida las distinguen de las demás.",
+   "facts": [
+    [
+     "Sayı",
+     "7 (C1–C7)",
+     "Número"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Agujero transverso (paso de la arteria y la vena vertebrales; en C7 suele pasar solo la vena), apófisis espinosa bífida (C2–C6), agujero vertebral grande y triangular",
+     "Rasgo distintivo"
+    ],
+    [
+     "Özel omurlar",
+     "C1 atlas, C2 axis, C7 vértebra prominente (apófisis espinosa más saliente)",
+     "Vértebras especiales"
+    ],
+    [
+     "Eğrilik",
+     "Convexa hacia delante (lordosis cervical)",
+     "Curvatura"
+    ]
+   ],
+   "sections": [
+    [
+     "Movimiento",
+     "El cuello es el segmento más móvil de la columna: flexión, extensión, inclinación lateral y rotación. Cerca de la mitad de la rotación de la cabeza ocurre en la articulación atlantoaxial. Las apófisis unciformes de los bordes laterales de los cuerpos de C3–C6 forman las articulaciones uncovertebrales (de Luschka)."
+    ]
+   ],
+   "clinical": [
+    "Las lesiones por aceleración–desaceleración brusca (latigazo cervical) sobrecargan las partes blandas del cuello.",
+    "C5–C6 y C6–C7 son los niveles más frecuentes de hernia discal y espondilosis cervicales."
+   ],
+   "tus": [
+    "El rasgo distintivo de las vértebras cervicales es el agujero transverso; C3–C7 tienen apófisis unciformes (articulaciones de Luschka).",
+    "El tubérculo anterior de la apófisis transversa de C6 (tubérculo de Chassaignac) es donde puede comprimirse la arteria carótida común."
+   ],
+   "related": [
+    "atlas",
+    "axis",
+    "vertebrae-thoracicae",
+    "medulla-spinalis",
+    "a-vertebralis"
+   ],
+   "models": [
+    "Cervical vertebrae",
+    "Vertebra C3",
+    "Vertebra C4",
+    "Vertebra C5",
+    "Vertebra C6",
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "vértebras del cuello"
+   ]
+  },
+  {
+   "id": "atlas",
+   "tr": "Atlas (C1)",
+   "la": "Atlas (C1)",
+   "en": "Atlas (C1)",
+   "group": "Columna vertebral",
+   "region": "neck",
+   "summary": "La primera vértebra cervical, que sostiene el cráneo. No tiene cuerpo ni apófisis espinosa; es un anillo formado por los arcos anterior y posterior y dos masas laterales.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Arco anterior, arco posterior, masas laterales, apófisis transversas",
+     "Partes"
+    ],
+    [
+     "Eklemleri",
+     "Articulación atlantooccipital (con los cóndilos occipitales; movimiento de «sí» – flexión/extensión), articulación atlantoaxial (con el axis; movimiento de «no» – rotación)",
+     "Articulaciones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Fosita del diente, tubérculos anterior y posterior, surco de la arteria vertebral",
+     "Accidentes principales"
+    ],
+    [
+     "Bağlar",
+     "El ligamento transverso del atlas sujeta el diente contra su fosita",
+     "Ligamentos"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "El atlas no tiene cuerpo ni apófisis espinosa; es un anillo formado por un arco anterior, un arco posterior y dos masas laterales. La apófisis odontoides del axis se apoya en la carilla de la cara posterior del arco anterior y la sujeta por detrás el ligamento transverso del atlas. La arteria vertebral y el nervio suboccipital (C1) pasan por el surco de la cara superior del arco posterior."
+    ]
+   ],
+   "clinical": [
+    "La fractura de ambos arcos del atlas tras una caída sobre la cabeza se llama fractura de Jefferson.",
+    "En la artritis reumatoide o el síndrome de Down, la laxitud del ligamento transverso puede causar inestabilidad atlantoaxial y compresión medular."
+   ],
+   "tus": [
+    "La fractura de Jefferson es la rotura del anillo del atlas en varios puntos por carga axial (zambullida).",
+    "La arteria vertebral discurre por el surco de la cara superior del arco posterior del atlas."
+   ],
+   "related": [
+    "axis",
+    "os-occipitale",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Atlas (C1)"
+   ],
+   "aliases": [
+    "C1",
+    "primera vértebra cervical"
+   ]
+  },
+  {
+   "id": "axis",
+   "tr": "Axis (C2)",
+   "la": "Axis (C2)",
+   "en": "Axis (C2)",
+   "group": "Columna vertebral",
+   "region": "neck",
+   "summary": "La segunda vértebra cervical; la apófisis en forma de diente que se eleva de su cuerpo (diente del axis) es el eje alrededor del cual gira el atlas.",
+   "facts": [
+    [
+     "Ayırt edici özellik",
+     "Diente del axis (apófisis odontoides) – embriológicamente, el cuerpo del atlas",
+     "Rasgo distintivo"
+    ],
+    [
+     "Eklemleri",
+     "Articulación atlantoaxial media (diente–atlas) y laterales, articulación intervertebral con C3",
+     "Articulaciones"
+    ],
+    [
+     "Bağlar",
+     "Ligamentos alares, ligamento del vértice del diente, membrana tectoria, ligamento cruciforme del atlas",
+     "Ligamentos"
+    ],
+    [
+     "Bağlar",
+     "Ligamento transverso del atlas (sujeta la odontoides por detrás), ligamentos alares (de la odontoides a los cóndilos occipitales), ligamento del vértice de la odontoides, membrana tectoria",
+     "Ligamentos"
+    ]
+   ],
+   "sections": [
+    [
+     "Apófisis odontoides",
+     "Embriológicamente corresponde al cuerpo del atlas fusionado con el axis. Alrededor de la mitad de la rotación de la cabeza en la articulación atlantoaxial se produce en torno a esta apófisis."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas del diente del axis son frecuentes en ancianos tras caídas.",
+    "En el ahorcamiento (fractura del ahorcado) se rompen los pedículos del axis."
+   ],
+   "tus": [
+    "La fractura del ahorcado es una fractura bilateral de la porción interarticular del axis.",
+    "Las fracturas del diente se producen sobre todo en su base (tipo II) y tienen alto riesgo de seudoartrosis."
+   ],
+   "related": [
+    "atlas",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Axis (C2)"
+   ],
+   "aliases": [
+    "C2",
+    "odontoides"
+   ]
+  },
+  {
+   "id": "vertebra-prominens",
+   "tr": "Séptima vértebra cervical (vértebra prominente)",
+   "la": "Vertebra prominens (C7)",
+   "en": "Seventh cervical vertebra",
+   "group": "Columna vertebral",
+   "region": "neck",
+   "summary": "La más baja de las vértebras cervicales. Su apófisis espinosa larga y no bífida se palpa con facilidad bajo la piel en la parte baja de la nuca y sirve como punto de partida para contar las vértebras.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso irregular – vértebra cervical atípica",
+     "Tipo de hueso"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Apófisis espinosa larga, no bífida, con un tubérculo en la punta; agujero transverso pequeño (generalmente solo pasa la vena vertebral)",
+     "Rasgo distintivo"
+    ],
+    [
+     "Eklemleri",
+     "Vértebras C6 y T1 (discos y articulaciones facetarias)",
+     "Articulaciones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Extremo inferior del ligamento nucal, trapecio, romboides menor, serrato posterior superior, esplenio de la cabeza",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La espinosa más prominente que se palpa en la nuca suele ser C7; en algunas personas la de T1 sobresale más.",
+    "Una apófisis transversa larga de C7 o una costilla cervical puede comprimir el tronco inferior del plexo braquial y causar el síndrome del desfiladero torácico."
+   ],
+   "tus": [
+    "La arteria vertebral suele entrar en el agujero transverso de C6; por el de C7 normalmente solo pasa la vena vertebral.",
+    "La costilla cervical nace con más frecuencia de C7 y es una de las causas del síndrome del desfiladero torácico."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ],
+   "models": [
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "C7",
+    "vértebra prominente"
+   ]
+  },
+  {
+   "id": "vertebrae-thoracicae",
+   "tr": "Vértebras torácicas",
+   "la": "Vertebrae thoracicae (T1–T12)",
+   "en": "Thoracic vertebrae",
+   "group": "Columna vertebral",
+   "region": "back",
+   "summary": "Las doce vértebras que se articulan con las costillas. Tienen carillas articulares costales a los lados del cuerpo y en las apófisis transversas.",
+   "facts": [
+    [
+     "Sayı",
+     "12 (T1–T12)",
+     "Número"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Carillas costales superior e inferior en el cuerpo y carilla costal en la apófisis transversa; apófisis espinosas largas e inclinadas hacia abajo; agujero vertebral redondeado",
+     "Rasgo distintivo"
+    ],
+    [
+     "Eklemleri",
+     "Con las costillas: articulaciones de la cabeza costal y costotransversas",
+     "Articulaciones"
+    ],
+    [
+     "Eğrilik",
+     "Convexa hacia atrás (cifosis torácica)",
+     "Curvatura"
+    ]
+   ],
+   "sections": [
+    [
+     "Movimiento",
+     "La caja torácica limita la flexión y la extensión; las carillas articulares, en el plano frontal, permiten la rotación. Las apófisis espinosas se solapan como tejas."
+    ]
+   ],
+   "clinical": [
+    "En ancianos con osteoporosis, las fracturas por compresión de las vértebras torácicas aumentan la cifosis (joroba).",
+    "La escoliosis, curvatura lateral, es más frecuente en la región torácica."
+   ],
+   "tus": [
+    "Los cuerpos de T1–T9 tienen dos semicarillas; los de T10–T12, una sola carilla completa.",
+    "En la columna torácica las articulaciones interapofisarias están en el plano frontal; la rotación es posible y la flexión queda limitada por las costillas."
+   ],
+   "related": [
+    "costae",
+    "vertebrae-cervicales",
+    "vertebrae-lumbales",
+    "sternum"
+   ],
+   "models": [
+    "Thoracic vertebrae"
+   ],
+   "aliases": [
+    "vértebras dorsales"
+   ]
+  },
+  {
+   "id": "vertebrae-lumbales",
+   "tr": "Vértebras lumbares",
+   "la": "Vertebrae lumbales (L1–L5)",
+   "en": "Lumbar vertebrae",
+   "group": "Columna vertebral",
+   "region": "back",
+   "summary": "Las vértebras más grandes y fuertes de la columna. Como soportan la mayor parte del peso corporal, tienen un cuerpo grande y arriñonado.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (L1–L5)",
+     "Número"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Cuerpo grande, apófisis espinosas gruesas, horizontales y rectangulares, apófisis mamilares y accesorias; sin agujero transverso ni carillas costales",
+     "Rasgo distintivo"
+    ],
+    [
+     "Omurilik ilişkisi",
+     "En el adulto la médula termina a la altura de L1–L2 como cono medular; por debajo está la cola de caballo",
+     "Relación con la médula espinal"
+    ],
+    [
+     "Eğrilik",
+     "Convexa hacia delante (lordosis lumbar)",
+     "Curvatura"
+    ]
+   ],
+   "sections": [
+    [
+     "Movimiento",
+     "Como las carillas articulares están casi en el plano sagital, la flexión y la extensión son libres y la rotación está limitada."
+    ]
+   ],
+   "clinical": [
+    "La hernia discal lumbar es más frecuente en L4–L5 y L5–S1 y causa dolor irradiado a lo largo del nervio ciático.",
+    "La punción lumbar se hace habitualmente en el espacio L3–L4 o L4–L5 para no lesionar la médula.",
+    "La espondilolistesis es el deslizamiento hacia delante de una vértebra sobre la inferior; es más frecuente en L5."
+   ],
+   "tus": [
+    "La espondilólisis es un defecto de la porción interarticular («collar del perro escocés» en las radiografías oblicuas); es más frecuente en L5.",
+    "Las articulaciones interapofisarias lumbares están en el plano sagital; permiten la flexoextensión y limitan la rotación."
+   ],
+   "related": [
+    "vertebrae-thoracicae",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "plexus-lumbalis"
+   ],
+   "models": [
+    "Lumbar vertebrae"
+   ],
+   "aliases": [
+    "columna lumbar"
+   ]
+  },
+  {
+   "id": "os-sacrum",
+   "tr": "Sacro",
+   "la": "Os sacrum",
+   "en": "Sacrum",
+   "group": "Columna vertebral",
+   "region": "pelvis",
+   "summary": "Hueso triangular formado por la fusión de las cinco vértebras sacras. Forma la pared posterior de la pelvis y se articula con los coxales en las articulaciones sacroilíacas.",
+   "facts": [
+    [
+     "Oluşum",
+     "Fusión de las 5 vértebras sacras (S1–S5), completa hacia los 25 años",
+     "Formación"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Promontorio, agujeros sacros anteriores y posteriores, cresta sacra media, hiato sacro, carilla auricular, conducto sacro, ala del sacro",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleri",
+     "L5 (articulación lumbosacra), coxales (articulaciones sacroilíacas), cóccix",
+     "Articulaciones"
+    ],
+    [
+     "Cinsiyet farkı",
+     "Más ancho, corto y menos curvado en la mujer",
+     "Diferencias por sexo"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "Hueso triangular formado por la fusión de cinco vértebras sacras. Su cara anterior (pélvica) es cóncava; los ramos anteriores de los nervios sacros salen por cuatro pares de agujeros sacros anteriores. En la cara posterior están la cresta sacra media (resto de las espinosas) y, abajo, el hiato sacro y las astas sacras. La saliente anterior de su borde superior es el promontorio."
+    ]
+   ],
+   "clinical": [
+    "La anestesia caudal en el espacio epidural a través del hiato sacro se usa en obstetricia y cirugía pediátrica.",
+    "El promontorio es una referencia importante en las mediciones obstétricas de la pelvis (conjugado verdadero).",
+    "La anestesia epidural caudal se realiza por el hiato sacro; las astas sacras son las referencias palpables para la aguja."
+   ],
+   "tus": [
+    "El sacro se forma por la fusión de cinco vértebras sacras; por los agujeros sacros anteriores salen los ramos anteriores de los nervios sacros.",
+    "El peso se transmite a la pelvis por las articulaciones sacroilíacas; el promontorio es la referencia de las mediciones obstétricas."
+   ],
+   "related": [
+    "os-coccygis",
+    "os-coxae",
+    "vertebrae-lumbales",
+    "art-sacroiliaca"
+   ],
+   "models": [
+    "Sacrum"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-coccygis",
+   "tr": "Cóccix",
+   "la": "Os coccygis",
+   "en": "Coccyx",
+   "group": "Columna vertebral",
+   "region": "pelvis",
+   "summary": "Pequeño hueso triangular en el extremo inferior de la columna, formado por la fusión de 3 a 5 vértebras rudimentarias.",
+   "facts": [
+    [
+     "Oluşum",
+     "Fusión de 3 a 5 vértebras coccígeas",
+     "Formación"
+    ],
+    [
+     "Tutunanlar",
+     "Glúteo mayor, músculo coccígeo, elevador del ano (ligamento anococcígeo), ligamento sacrotuberoso",
+     "Inserciones"
+    ],
+    [
+     "Eklem",
+     "Articulación sacrococcígea con el sacro",
+     "Articulación"
+    ],
+    [
+     "Kas tutunmaları",
+     "Glúteo mayor (cara posterior), coccígeo y porción iliococcígea del elevador del ano (a través del ligamento anococcígeo)",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Una caída sentado puede fracturar el cóccix o causar coccigodinia."
+   ],
+   "tus": [
+    "La coccigodinia suele aparecer tras una caída o un parto.",
+    "En el cóccix se insertan el glúteo mayor, el ligamento sacrotuberoso y parte del elevador del ano (ligamento anococcígeo)."
+   ],
+   "related": [
+    "os-sacrum",
+    "diaphragma-pelvis"
+   ],
+   "models": [
+    "Coccyx"
+   ],
+   "aliases": [
+    "rabadilla"
+   ]
+  },
+  {
+   "id": "sternum",
+   "tr": "Esternón",
+   "la": "Sternum",
+   "en": "Sternum",
+   "group": "Caja torácica",
+   "region": "thorax",
+   "summary": "Hueso plano en forma de espada situado en la línea media anterior del tórax. Se articula con las clavículas y los siete primeros pares de cartílagos costales.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso plano (contiene médula roja)",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Manubrio, cuerpo, apófisis xifoides",
+     "Partes"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Escotadura yugular, escotaduras claviculares, ángulo esternal (de Louis – a la altura de la 2.ª costilla), escotaduras costales",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleri",
+     "Clavícula (articulación esternoclavicular), cartílagos costales 1.º–7.º (articulaciones esternocostales)",
+     "Articulaciones"
+    ]
+   ],
+   "sections": [
+    [
+     "Ángulo esternal",
+     "La unión del manubrio con el cuerpo se palpa bajo la piel y marca la altura del 2.º cartílago costal. A este nivel (T4–T5) empieza y termina el cayado aórtico y se divide la tráquea (bifurcación traqueal)."
+    ]
+   ],
+   "clinical": [
+    "Puede obtenerse médula ósea del esternón.",
+    "En la cirugía cardiaca abierta el esternón se abre por la mitad (esternotomía media).",
+    "Las compresiones torácicas (RCP) se hacen sobre la mitad inferior del esternón; presionar la apófisis xifoides puede lesionar el hígado."
+   ],
+   "tus": [
+    "Para la punción esternal se usa el cuerpo del esternón; cuidado, detrás están el corazón y los grandes vasos.",
+    "La escotadura yugular del manubrio está a la altura del borde inferior de T2 y la articulación xifoesternal, a la de T9."
+   ],
+   "related": [
+    "costae",
+    "clavicula",
+    "cartilagines-costales"
+   ],
+   "models": [
+    "Sternum",
+    "Manubrium of sternum",
+    "Body of sternum",
+    "Xiphoid process"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "costae",
+   "tr": "Costillas",
+   "la": "Costae",
+   "en": "Ribs",
+   "group": "Caja torácica",
+   "region": "thorax",
+   "summary": "Doce pares de huesos planos y curvos que forman las paredes laterales de la caja torácica. Se unen por detrás a las vértebras torácicas y por delante al esternón mediante sus cartílagos.",
+   "facts": [
+    [
+     "Sayı ve tipleri",
+     "12 pares: 1–7 verdaderas, 8–10 falsas, 11–12 flotantes",
+     "Número y tipos"
+    ],
+    [
+     "Bölümleri",
+     "Cabeza, cuello, tubérculo, cuerpo, ángulo",
+     "Partes"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Surco costal (en el borde inferior – vena, arteria y nervio intercostales en orden VAN), cresta de la cabeza",
+     "Accidentes principales"
+    ],
+    [
+     "Atipik kaburgalar",
+     "Costillas 1, 2, 10, 11 y 12; la 1.ª es la más corta, plana y curvada (surcos de la arteria y vena subclavias, tubérculo del escaleno)",
+     "Costillas atípicas"
+    ]
+   ],
+   "sections": [
+    [
+     "Papel en la respiración",
+     "En la inspiración las costillas superiores elevan el esternón hacia delante y aumentan el diámetro anteroposterior (movimiento en «brazo de bomba»); las inferiores se separan y aumentan el diámetro transversal (movimiento en «asa de cubo»)."
+    ]
+   ],
+   "clinical": [
+    "Los drenajes torácicos y la toracocentesis se hacen por el borde superior de la costilla para proteger los vasos y el nervio intercostales.",
+    "Varias costillas fracturadas en dos puntos producen un tórax inestable (volet costal) con respiración paradójica.",
+    "Una costilla cervical puede comprimir el plexo braquial o la arteria subclavia (síndrome del desfiladero torácico)."
+   ],
+   "tus": [
+    "Una costilla típica tiene cabeza, cuello, tubérculo, ángulo y surco costal; las costillas 1, 2, 10, 11 y 12 son atípicas.",
+    "Las fracturas costales son más frecuentes justo delante del ángulo; el tórax inestable es la fractura doble de varias costillas."
+   ],
+   "related": [
+    "sternum",
+    "vertebrae-thoracicae",
+    "cartilagines-costales",
+    "mm-intercostales",
+    "diaphragma"
+   ],
+   "models": [
+    "Ribs"
+   ],
+   "aliases": [
+    "costilla"
+   ]
+  },
+  {
+   "id": "costae-atypicae",
+   "tr": "Costillas atípicas",
+   "la": "Costae atypicae (I, II, X–XII)",
+   "en": "Atypical ribs",
+   "group": "Caja torácica",
+   "region": "thorax",
+   "summary": "Costillas que se apartan del patrón de una costilla típica: la 1.ª y la 2.ª son cortas y anchas; la cabeza de la 10.ª, 11.ª y 12.ª tiene una sola carilla, y la 11.ª y la 12.ª son costillas flotantes con el extremo anterior libre.",
+   "facts": [
+    [
+     "1. kaburga",
+     "La más corta, ancha y curva; en su cara superior el tubérculo del escaleno anterior, delante el surco de la vena subclavia y detrás el de la arteria subclavia y el tronco inferior del plexo braquial; una sola carilla en la cabeza (T1)",
+     "1.ª costilla"
+    ],
+    [
+     "2. kaburga",
+     "El doble de larga que la 1.ª y más delgada; en su cara externa la tuberosidad del serrato anterior",
+     "2.ª costilla"
+    ],
+    [
+     "10. kaburga",
+     "Su cabeza tiene una sola carilla (solo se articula con T10)",
+     "10.ª costilla"
+    ],
+    [
+     "11. ve 12. kaburgalar",
+     "Costillas flotantes: cortas, sin cuello ni tubérculo; su extremo anterior queda libre entre los músculos abdominales; no se articulan con las apófisis transversas",
+     "11.ª y 12.ª costillas"
+    ],
+    [
+     "Kaburga sınıflaması",
+     "Costillas verdaderas (1–7: cada una con su cartílago al esternón), falsas (8–10: al cartílago superior), flotantes (11–12)",
+     "Clasificación de las costillas"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La fractura de la 1.ª costilla indica un traumatismo de alta energía y obliga a sospechar lesión de la arteria subclavia y del plexo braquial subyacentes.",
+    "La 12.ª costilla está en contacto con la cara posterior del riñón; en la cirugía renal y en sus fracturas hay que pensar en lesiones pleurales y renales."
+   ],
+   "tus": [
+    "En la cara superior de la 1.ª costilla, la vena subclavia pasa por delante del tubérculo del escaleno y la arteria subclavia y el tronco inferior del plexo braquial por detrás.",
+    "Por detrás, el límite inferior de la pleura puede descender por debajo de la 12.ª costilla; los procedimientos renales en esta zona conllevan riesgo de neumotórax."
+   ],
+   "related": [
+    "costae",
+    "cartilagines-costales",
+    "vertebrae-thoracicae",
+    "sternum"
+   ],
+   "models": [
+    "First rib",
+    "Second rib",
+    "Tenth rib",
+    "Eleventh rib",
+    "Twelfth rib"
+   ],
+   "aliases": [
+    "primera costilla",
+    "costilla flotante",
+    "costilla atípica"
+   ]
+  },
+  {
+   "id": "cartilagines-costales",
+   "tr": "Cartílagos costales",
+   "la": "Cartilagines costales",
+   "en": "Costal cartilages",
+   "group": "Caja torácica",
+   "region": "thorax",
+   "summary": "Barras de cartílago hialino que unen el extremo anterior de las costillas al esternón o al cartílago superior. Dan flexibilidad a la caja torácica.",
+   "facts": [
+    [
+     "Doku",
+     "Cartílago hialino",
+     "Tejido"
+    ],
+    [
+     "Bağlantılar",
+     "1–7: directamente al esternón; 8–10: al cartílago superior (reborde costal); 11–12: extremos libres",
+     "Conexiones"
+    ],
+    [
+     "Yaşla değişim",
+     "Pueden calcificarse con la edad",
+     "Cambios con la edad"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura y función",
+     "Estas prolongaciones de cartílago hialino unen las costillas al esternón y dan elasticidad a la caja torácica. El 1.er cartílago se une al esternón por una sinartrosis (sincondrosis), del 2.º al 7.º por articulaciones sinoviales; del 8.º al 10.º se unen al cartílago superior y forman el reborde costal."
+    ]
+   ],
+   "clinical": [
+    "La inflamación de las uniones costocondrales (costocondritis, síndrome de Tietze) puede dar un dolor torácico que imita el cardiaco.",
+    "En el síndrome de Tietze hay tumefacción dolorosa de los cartílagos costales superiores; la costocondritis es dolor de la pared torácica sin tumefacción y puede confundirse con dolor cardíaco."
+   ],
+   "tus": [
+    "El 1.er cartílago costal forma una sincondrosis con el manubrio; los cartílagos 2.º–7.º forman articulaciones sinoviales con el esternón.",
+    "La inflamación de una unión costocondral (síndrome de Tietze) produce una tumefacción dolorosa que puede simular dolor cardiaco."
+   ],
+   "related": [
+    "costae",
+    "sternum"
+   ],
+   "models": [
+    "Costal cartilages"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "clavicula",
+   "tr": "Clavícula",
+   "la": "Clavicula",
+   "en": "Clavicle",
+   "group": "Huesos del miembro superior",
+   "region": "upperLimb",
+   "summary": "Hueso largo en forma de S, horizontal, entre el esternón y la escápula. Es el único puntal óseo que une el brazo al tronco.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso largo (sin cavidad medular)",
+     "Tipo de hueso"
+    ],
+    [
+     "Uçları",
+     "Extremo esternal (articulación esternoclavicular) y extremo acromial (articulación acromioclavicular)",
+     "Extremos"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tubérculo conoideo, línea trapezoidea, impresión del ligamento costoclavicular, surco del músculo subclavio",
+     "Accidentes principales"
+    ],
+    [
+     "Kas tutunmaları",
+     "Deltoides, trapecio, pectoral mayor, esternocleidomastoideo, esternohioideo, subclavio",
+     "Inserciones musculares"
+    ],
+    [
+     "Kemikleşme",
+     "Es el primer hueso del cuerpo en empezar a osificarse (semanas 5–6) y el último en terminar",
+     "Osificación"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "Hueso largo horizontal en forma de S: sus 2/3 mediales son convexos hacia delante y su 1/3 lateral cóncavo hacia delante. El extremo medial se articula con el esternón y el lateral con el acromion. En la cara inferior están el tubérculo conoideo y la línea trapezoidea (ligamento coracoclavicular), la impresión del ligamento costoclavicular y el surco del subclavio. No tiene cavidad medular."
+    ]
+   ],
+   "clinical": [
+    "Es uno de los huesos que más se fracturan, normalmente en la unión de los tercios medio y lateral. El fragmento medial es elevado por el esternocleidomastoideo y el lateral desciende por el peso del brazo.",
+    "En las fracturas de clavícula pueden lesionarse el plexo braquial y los vasos subclavios que pasan por debajo."
+   ],
+   "tus": [
+    "Las fracturas de clavícula son más frecuentes en el tercio medio; los vasos subclavios y el plexo braquial que hay detrás están en riesgo.",
+    "El tubérculo conoideo y la línea trapezoidea dan inserción a las dos partes del ligamento coracoclavicular."
+   ],
+   "related": [
+    "scapula",
+    "sternum",
+    "art-humeri",
+    "m-deltoideus"
+   ],
+   "models": [
+    "Clavicle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "scapula",
+   "tr": "Escápula",
+   "la": "Scapula",
+   "en": "Scapula",
+   "group": "Huesos del miembro superior",
+   "region": "back",
+   "summary": "Hueso plano triangular en la parte posterosuperior del tórax, a la altura de las costillas 2–7. Forma con el húmero la articulación del hombro y da inserción a 17 músculos.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso plano",
+     "Tipo de hueso"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Espina de la escápula, acromion, apófisis coracoides, cavidad glenoidea, tubérculos supraglenoideo e infraglenoideo, fosas supraespinosa, infraespinosa y subescapular, escotadura escapular",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleri",
+     "Húmero (articulación glenohumeral), clavícula (articulación acromioclavicular); articulación funcional escapulotorácica con la pared",
+     "Articulaciones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Músculos del manguito rotador, deltoides, trapecio, bíceps braquial, tríceps braquial, serrato anterior, romboides, elevador de la escápula, redondo mayor, pectoral menor, coracobraquial, omohioideo",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Movimientos",
+     "Elevación, descenso, protracción, retracción y rotación superior/inferior. Al elevar el brazo por encima de la cabeza, cerca de 1 de cada 3 grados procede de la rotación de la escápula (ritmo escapulohumeral)."
+    ]
+   ],
+   "clinical": [
+    "Si se lesiona el nervio torácico largo, el serrato anterior queda paralizado y el borde medial de la escápula se despega como un ala (escápula alada).",
+    "El atrapamiento del nervio supraescapular en la escotadura escapular causa dolor de hombro y debilidad del supraespinoso y el infraespinoso."
+   ],
+   "tus": [
+    "Referencias: ángulo superior a la altura de T2, espina en T3, ángulo inferior en T7.",
+    "En la escápula se insertan 17 músculos; la escápula alada indica lesión del nervio torácico largo (serrato anterior)."
+   ],
+   "related": [
+    "clavicula",
+    "humerus",
+    "art-humeri",
+    "m-supraspinatus",
+    "m-infraspinatus",
+    "m-subscapularis"
+   ],
+   "models": [
+    "Scapula"
+   ],
+   "aliases": [
+    "omóplato"
+   ]
+  },
+  {
+   "id": "humerus",
+   "tr": "Húmero",
+   "la": "Humerus",
+   "en": "Humerus",
+   "group": "Huesos del miembro superior",
+   "region": "upperLimb",
+   "summary": "Hueso único y más largo del brazo. Arriba forma con la escápula la articulación del hombro y abajo, con el radio y el cúbito, la del codo.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso largo",
+     "Tipo de hueso"
+    ],
+    [
+     "Üst uç",
+     "Cabeza, cuello anatómico, cuello quirúrgico, tubérculos mayor y menor, surco intertubercular",
+     "Extremo superior"
+    ],
+    [
+     "Gövde",
+     "Tuberosidad deltoidea, surco del nervio radial",
+     "Cuerpo"
+    ],
+    [
+     "Alt uç",
+     "Cóndilo (capitulum), tróclea, epicóndilos medial y lateral, fosa olecraniana, fosa coronoidea, fosa radial, surco del nervio cubital",
+     "Extremo inferior"
+    ],
+    [
+     "Kemikleşme",
+     "Centro primario en la diáfisis en la 8.ª semana; 8 centros secundarios",
+     "Osificación"
+    ]
+   ],
+   "sections": [
+    [
+     "Relaciones nerviosas",
+     "El húmero contacta directamente con tres nervios importantes: el axilar en el cuello quirúrgico, el radial en su surco de la diáfisis y el cubital detrás del epicóndilo medial. Por eso sus fracturas tienden a lesionar nervios."
+    ]
+   ],
+   "clinical": [
+    "Fractura del cuello quirúrgico: lesión del nervio axilar y de la arteria circunfleja humeral posterior (parálisis del deltoides).",
+    "Fractura diafisaria: lesión del nervio radial – mano caída.",
+    "Fractura supracondílea (frecuente en niños): lesión de la arteria braquial y del nervio mediano, riesgo de contractura isquémica de Volkmann.",
+    "Fractura del epicóndilo medial: lesión del nervio cubital – mano en garra."
+   ],
+   "tus": [
+    "Tres nervios en contacto con el húmero: cuello quirúrgico – axilar, diáfisis (surco) – radial, epicóndilo medial – cubital.",
+    "En las fracturas supracondíleas pueden lesionarse la arteria braquial y el nervio mediano (sobre todo el interóseo anterior)."
+   ],
+   "related": [
+    "scapula",
+    "radius",
+    "ulna",
+    "art-humeri",
+    "art-cubiti",
+    "n-radialis",
+    "n-axillaris"
+   ],
+   "models": [
+    "Humerus"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "radius",
+   "tr": "Radio",
+   "la": "Radius",
+   "en": "Radius",
+   "group": "Huesos del miembro superior",
+   "region": "upperLimb",
+   "summary": "Hueso largo del lado lateral (del pulgar) del antebrazo. Gira alrededor del cúbito en la pronación y la supinación y forma la articulación principal de la muñeca.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso largo",
+     "Tipo de hueso"
+    ],
+    [
+     "Üst uç",
+     "Cabeza, cuello, tuberosidad radial (inserción del bíceps braquial)",
+     "Extremo superior"
+    ],
+    [
+     "Alt uç",
+     "Apófisis estiloides del radio, escotadura cubital, carilla articular carpiana, tubérculo dorsal (de Lister)",
+     "Extremo inferior"
+    ],
+    [
+     "Eklemleri",
+     "Húmero (articulación humerorradial), cúbito (articulaciones radiocubitales proximal y distal), escafoides y semilunar (articulación radiocarpiana)",
+     "Articulaciones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Bíceps braquial, supinador, pronador redondo, braquiorradial, pronador cuadrado, flexor largo del pulgar, abductor largo del pulgar",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Extremos",
+     "Proximalmente la cabeza del radio, en forma de disco, se articula con el cóndilo humeral y la escotadura radial del cúbito y la rodea el ligamento anular; debajo están el cuello y la tuberosidad radial, donde se inserta el bíceps braquial. El extremo distal es ancho, con la apófisis estiloides radial por fuera, la escotadura cubital por dentro para el cúbito y el tubérculo de Lister (tubérculo dorsal) por detrás."
+    ]
+   ],
+   "clinical": [
+    "La fractura del extremo distal del radio tras caer sobre la mano extendida (fractura de Colles) es de las más frecuentes; el fragmento distal se desplaza hacia atrás y da la deformidad «en dorso de tenedor».",
+    "En los niños, un tirón brusco del brazo puede sacar la cabeza del radio del ligamento anular (codo de niñera)."
+   ],
+   "tus": [
+    "La subluxación de la cabeza del radio (codo de niñera) es frecuente entre 1 y 4 años.",
+    "Fractura de Galeazzi: fractura diafisaria del radio + luxación radiocubital distal; Monteggia: fractura del cúbito + luxación de la cabeza del radio."
+   ],
+   "related": [
+    "ulna",
+    "humerus",
+    "art-cubiti",
+    "art-radiocarpalis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radius"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ulna",
+   "tr": "Cúbito",
+   "la": "Ulna",
+   "en": "Ulna",
+   "group": "Huesos del miembro superior",
+   "region": "upperLimb",
+   "summary": "Hueso largo del lado medial (del meñique) del antebrazo. Su extremo superior forma con el húmero la bisagra principal del codo; el olécranon forma la punta del codo.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso largo",
+     "Tipo de hueso"
+    ],
+    [
+     "Üst uç",
+     "Olécranon, apófisis coronoides, escotadura troclear, escotadura radial, tuberosidad cubital",
+     "Extremo superior"
+    ],
+    [
+     "Alt uç",
+     "Cabeza del cúbito, apófisis estiloides del cúbito",
+     "Extremo inferior"
+    ],
+    [
+     "Eklemleri",
+     "Húmero (articulación humerocubital), radio (articulaciones radiocubitales)",
+     "Articulaciones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tríceps braquial (olécranon), braquial (tuberosidad cubital), flexor profundo de los dedos, pronador cuadrado, supinador, ancóneo, flexor cubital del carpo, extensor cubital del carpo",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Extremos",
+     "En el extremo proximal están el olécranon y la apófisis coronoides, con la escotadura troclear para el húmero entre ambos y, por fuera, la escotadura radial para la cabeza del radio. En el extremo distal, la pequeña cabeza del cúbito y la apófisis estiloides cubital están separadas de la muñeca por el disco fibrocartilaginoso triangular."
+    ]
+   ],
+   "clinical": [
+    "Fractura de Monteggia: fractura del tercio superior del cúbito con luxación de la cabeza del radio.",
+    "En las fracturas del olécranon, el tríceps tracciona del fragmento proximal hacia arriba; suele requerir fijación quirúrgica."
+   ],
+   "tus": [
+    "En la fractura del olécranon el tríceps separa los fragmentos; requiere fijación quirúrgica.",
+    "La fractura de «porra» (fractura aislada de la diáfisis cubital) aparece al levantar el antebrazo para protegerse la cara."
+   ],
+   "related": [
+    "radius",
+    "humerus",
+    "art-cubiti"
+   ],
+   "models": [
+    "Ulna"
+   ],
+   "aliases": [
+    "ulna"
+   ]
+  },
+  {
+   "id": "ossa-carpi",
+   "tr": "Huesos del carpo",
+   "la": "Ossa carpi",
+   "en": "Carpal bones",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "Ocho huesos cortos dispuestos en dos filas que forman la muñeca. El surco de su cara anterior (surco carpiano), cerrado por el retináculo flexor, forma el túnel carpiano.",
+   "facts": [
+    [
+     "Üst sıra (lateralden mediale)",
+     "Escafoides, semilunar, piramidal, pisiforme",
+     "Fila proximal (de lateral a medial)"
+    ],
+    [
+     "Alt sıra (lateralden mediale)",
+     "Trapecio, trapezoide, grande, ganchoso",
+     "Fila distal (de lateral a medial)"
+    ],
+    [
+     "Akılda tutma",
+     "«Esa Señora Pide Pan, Trae Tu Gran Ganchito» (escafoides, semilunar, piramidal, pisiforme, trapecio, trapezoide, grande, ganchoso)",
+     "Regla mnemotécnica"
+    ],
+    [
+     "Karpal tünelden geçenler",
+     "Nervio mediano y 9 tendones (4 FSD, 4 FPD, 1 FLP)",
+     "Pasan por el túnel carpiano"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Síndrome del túnel carpiano: la compresión del nervio mediano causa entumecimiento del pulgar, índice, medio y mitad del anular y atrofia de la musculatura tenar.",
+    "Como los centros de osificación aparecen en un orden fijo con la edad, la radiografía de muñeca se usa para estimar la edad ósea."
+   ],
+   "tus": [
+    "De los huesos del carpo, el grande se osifica el primero y el pisiforme el último (estimación de la edad ósea).",
+    "Fila proximal: escafoides, semilunar, piramidal, pisiforme; fila distal: trapecio, trapezoide, grande, ganchoso."
+   ],
+   "related": [
+    "os-scaphoideum",
+    "os-lunatum",
+    "os-triquetrum",
+    "os-pisiforme",
+    "os-trapezium",
+    "os-trapezoideum",
+    "os-capitatum",
+    "os-hamatum",
+    "art-radiocarpalis",
+    "n-medianus"
+   ],
+   "models": [
+    "Scaphoid bone",
+    "Lunate bone",
+    "Triquetrum bone",
+    "Pisiform bone",
+    "Trapezium bone",
+    "Trapezoid bone",
+    "Capitate bone",
+    "Hamate bone"
+   ],
+   "aliases": [
+    "carpo",
+    "huesos de la muñeca"
+   ]
+  },
+  {
+   "id": "os-scaphoideum",
+   "tr": "Escafoides",
+   "la": "Os scaphoideum",
+   "en": "Scaphoid bone",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "Hueso en forma de barca en el extremo lateral de la fila proximal del carpo. Es uno de los principales huesos que se articulan con el radio y el hueso del carpo que más se fractura.",
+   "facts": [
+    [
+     "Konum",
+     "Fila proximal, el más lateral; en el suelo de la tabaquera anatómica",
+     "Localización"
+    ],
+    [
+     "Eklemleri",
+     "Radio, semilunar, grande, trapecio, trapezoide",
+     "Articulaciones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tubérculo del escafoides (se inserta el retináculo flexor)",
+     "Accidentes principales"
+    ],
+    [
+     "Kanlanma",
+     "Ramas de la arteria radial; el flujo va de distal a proximal",
+     "Irrigación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Se fractura al caer sobre la mano extendida; el dolor en la tabaquera anatómica es típico.",
+    "Como la irrigación llega desde distal, las fracturas de la cintura pueden causar necrosis avascular del fragmento proximal; las primeras radiografías pueden ser normales, por lo que ante la duda se inmoviliza."
+   ],
+   "tus": [
+    "Es el hueso del carpo que más se fractura; si duele la tabaquera se inmoviliza aunque la radiografía sea normal.",
+    "Como el flujo va de distal a proximal, las fracturas de la cintura tienen alto riesgo de necrosis del fragmento proximal."
+   ],
+   "related": [
+    "ossa-carpi",
+    "radius",
+    "os-lunatum",
+    "a-radialis"
+   ],
+   "models": [
+    "Scaphoid bone"
+   ],
+   "aliases": [
+    "navicular de la mano"
+   ]
+  },
+  {
+   "id": "os-lunatum",
+   "tr": "Semilunar",
+   "la": "Os lunatum",
+   "en": "Lunate bone",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "Hueso en forma de media luna de la fila proximal del carpo, entre el escafoides y el piramidal. Se articula con el radio.",
+   "facts": [
+    [
+     "Konum",
+     "Fila proximal, entre escafoides y piramidal",
+     "Localización"
+    ],
+    [
+     "Eklemleri",
+     "Radio, disco articular, escafoides, piramidal, grande, ganchoso",
+     "Articulaciones"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Radio, escafoides, piramidal, grande, ganchoso (a veces)",
+     "Huesos que se articulan"
+    ],
+    [
+     "Kanlanma",
+     "Vasos que entran por sus caras palmar y dorsal; en algunas personas de una sola fuente",
+     "Irrigación"
+    ]
+   ],
+   "sections": [
+    [
+     "Situación",
+     "Hueso en forma de media luna situado en la fosa semilunar del radio, en el centro de la fila proximal del carpo. Es el hueso del carpo que más se luxa."
+    ]
+   ],
+   "clinical": [
+    "Es el hueso del carpo que más se luxa; su luxación anterior puede comprimir el nervio mediano en el túnel carpiano.",
+    "Enfermedad de Kienböck: necrosis avascular del semilunar."
+   ],
+   "tus": [
+    "La enfermedad de Kienböck es la necrosis avascular del semilunar; la varianza cubital negativa es un factor de riesgo.",
+    "Las luxaciones perilunares y del semilunar se producen por hiperextensión de la muñeca."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "radius"
+   ],
+   "models": [
+    "Lunate bone"
+   ],
+   "aliases": [
+    "lunatum"
+   ]
+  },
+  {
+   "id": "os-triquetrum",
+   "tr": "Piramidal",
+   "la": "Os triquetrum",
+   "en": "Triquetrum",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "Hueso en forma de pirámide de la fila proximal del carpo, medial al semilunar. Por delante se articula con el pisiforme.",
+   "facts": [
+    [
+     "Konum",
+     "Fila proximal, entre semilunar y pisiforme",
+     "Localización"
+    ],
+    [
+     "Eklemleri",
+     "Semilunar, pisiforme, ganchoso, disco articular",
+     "Articulaciones"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Semilunar, pisiforme, ganchoso; vecino del cúbito a través del disco fibrocartilaginoso triangular",
+     "Huesos que se articulan"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La fractura por arrancamiento dorsal del piramidal es la fractura del carpo más frecuente después de la del escafoides; se produce en caídas sobre el dorso de la mano."
+   ],
+   "tus": [
+    "La fractura-avulsión dorsal del piramidal es la fractura del carpo más frecuente después de la del escafoides.",
+    "El complejo cubitocarpiano (FCT) está entre el piramidal y el cúbito."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "os-hamatum"
+   ],
+   "models": [
+    "Triquetrum bone"
+   ],
+   "aliases": [
+    "triquetrum"
+   ]
+  },
+  {
+   "id": "os-pisiforme",
+   "tr": "Pisiforme",
+   "la": "Os pisiforme",
+   "en": "Pisiform bone",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "Pequeño hueso en forma de guisante en el extremo medial de la fila proximal, apoyado en la cara anterior del piramidal. Es un sesamoideo que se desarrolla en el tendón del flexor cubital del carpo.",
+   "facts": [
+    [
+     "Konum",
+     "Fila proximal, el más medial; palpable en el lado hipotenar de la palma",
+     "Localización"
+    ],
+    [
+     "Tutunanlar",
+     "Flexor cubital del carpo, abductor del meñique, ligamentos pisoganchoso y pisometacarpiano, retináculo flexor",
+     "Inserciones"
+    ]
+   ],
+   "sections": [
+    [
+     "Canal de Guyon",
+     "El nervio y la arteria cubitales pasan por el canal de Guyon, entre el pisiforme y el gancho del ganchoso."
+    ]
+   ],
+   "clinical": [
+    "La compresión del nervio cubital en el canal de Guyon (parálisis del ciclista) debilita los pequeños músculos de la mano.",
+    "La fractura del pisiforme suele deberse a una caída directa sobre la eminencia hipotenar y puede afectar al nervio cubital vecino."
+   ],
+   "tus": [
+    "Forma la pared medial del canal de Guyon; el nervio y la arteria cubitales pasan justo radiales al pisiforme."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-triquetrum",
+    "os-hamatum",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Pisiform bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-trapezium",
+   "tr": "Trapecio",
+   "la": "Os trapezium",
+   "en": "Trapezium",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "El hueso más lateral de la fila distal del carpo. Con el primer metacarpiano forma la articulación en silla de montar del pulgar.",
+   "facts": [
+    [
+     "Konum",
+     "Fila distal, el más lateral",
+     "Localización"
+    ],
+    [
+     "Eklemleri",
+     "Escafoides, trapezoide, 1.º y 2.º metacarpianos",
+     "Articulaciones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tubérculo del trapecio, surco del tendón del flexor radial del carpo",
+     "Accidentes principales"
+    ]
+   ],
+   "sections": [
+    [
+     "Articulación del pulgar",
+     "La articulación carpometacarpiana del pulgar es en silla de montar; permite la oposición del pulgar."
+    ]
+   ],
+   "clinical": [
+    "La artrosis de la base del pulgar (articulación trapeciometacarpiana) es frecuente, sobre todo en mujeres de mediana edad."
+   ],
+   "tus": [
+    "Por el surco anterior del trapecio pasa el tendón del FRC; la rizartrosis (artrosis de la 1.ª CMC) es frecuente en mujeres mayores."
+   ],
+   "related": [
+    "ossa-carpi",
+    "ossa-metacarpi",
+    "os-trapezoideum"
+   ],
+   "models": [
+    "Trapezium bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-trapezoideum",
+   "tr": "Trapezoide",
+   "la": "Os trapezoideum",
+   "en": "Trapezoid bone",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "Uno de los huesos más pequeños de la fila distal, entre el trapecio y el grande. Se articula con el segundo metacarpiano.",
+   "facts": [
+    [
+     "Konum",
+     "Fila distal, entre trapecio y grande",
+     "Localización"
+    ],
+    [
+     "Eklemleri",
+     "Escafoides, trapecio, grande, 2.º metacarpiano",
+     "Articulaciones"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Escafoides, trapecio, grande, 2.º metacarpiano",
+     "Huesos que se articulan"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Es el hueso del carpo que menos se fractura, protegido por su firme unión con la base del 2.º metacarpiano."
+   ],
+   "tus": [
+    "Es el hueso del carpo que menos se fractura; se articula con la base del 2.º metacarpiano."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum"
+   ],
+   "models": [
+    "Trapezoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-capitatum",
+   "tr": "Hueso grande",
+   "la": "Os capitatum",
+   "en": "Capitate bone",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "El mayor hueso del carpo, en el centro de la fila distal; su cabeza redondeada encaja en la cavidad formada por el escafoides y el semilunar.",
+   "facts": [
+    [
+     "Konum",
+     "Fila distal, centro",
+     "Localización"
+    ],
+    [
+     "Eklemleri",
+     "Escafoides, semilunar, trapezoide, ganchoso, metacarpianos 2.º–4.º",
+     "Articulaciones"
+    ],
+    [
+     "Kemikleşme",
+     "Primer hueso del carpo en osificarse (meses 1–3)",
+     "Osificación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Las fracturas del grande son raras, pero como los vasos de su cabeza son retrógrados puede producirse necrosis avascular.",
+    "En la luxación del semilunar el grande permanece alineado con el radio mientras el semilunar bascula hacia delante (se distingue de la luxación perisemilunar)."
+   ],
+   "tus": [
+    "Es el hueso del carpo más grande y el primero en osificarse; se articula con el 3.er metacarpiano."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-lunatum",
+    "os-hamatum"
+   ],
+   "models": [
+    "Capitate bone"
+   ],
+   "aliases": [
+    "capitatum",
+    "grande"
+   ]
+  },
+  {
+   "id": "os-hamatum",
+   "tr": "Ganchoso",
+   "la": "Os hamatum",
+   "en": "Hamate bone",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "El hueso más medial de la fila distal, con un gancho (gancho del ganchoso) en su cara anterior.",
+   "facts": [
+    [
+     "Konum",
+     "Fila distal, el más medial",
+     "Localización"
+    ],
+    [
+     "Eklemleri",
+     "Semilunar, piramidal, grande, 4.º y 5.º metacarpianos",
+     "Articulaciones"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Gancho del ganchoso – se insertan el retináculo flexor y el ligamento pisoganchoso; pared lateral del canal de Guyon",
+     "Accidentes principales"
+    ]
+   ],
+   "sections": [
+    [
+     "Gancho del ganchoso",
+     "Saliente en forma de gancho dirigido hacia la palma; es la inserción medial del retináculo flexor y la pared lateral del canal de Guyon. En él se insertan el flexor corto y el oponente del meñique."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas del gancho se ven en golfistas y jugadores de béisbol; puede afectarse la rama profunda del nervio cubital."
+   ],
+   "tus": [
+    "La fractura del gancho del ganchoso aparece en golf y béisbol; la rama profunda del nervio cubital rodea el gancho."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Hamate bone"
+   ],
+   "aliases": [
+    "hamatum"
+   ]
+  },
+  {
+   "id": "ossa-metacarpi",
+   "tr": "Metacarpianos",
+   "la": "Ossa metacarpi (I–V)",
+   "en": "Metacarpal bones",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "Los cinco huesos largos que forman el esqueleto de la palma. Por arriba se articulan con el carpo y por abajo con las falanges proximales.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V del pulgar al meñique)",
+     "Número"
+    ],
+    [
+     "Bölümleri",
+     "Base, cuerpo, cabeza (se ven como los «nudillos» al cerrar el puño)",
+     "Partes"
+    ],
+    [
+     "Eklemleri",
+     "Articulaciones carpometacarpianas, intermetacarpianas y metacarpofalángicas",
+     "Articulaciones"
+    ],
+    [
+     "Özellik",
+     "El 1.er metacarpiano es el más corto, grueso y móvil",
+     "Característica"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "Cada metacarpiano tiene base proximal, cuerpo en el centro y cabeza distal. Las cabezas forman los «nudillos» al cerrar el puño. El primer metacarpiano es el más corto y grueso; su articulación en silla con el trapecio permite la oposición del pulgar."
+    ]
+   ],
+   "clinical": [
+    "La fractura del cuello del 5.º metacarpiano por un puñetazo se llama fractura del boxeador.",
+    "La fractura intraarticular de la base del 1.er metacarpiano se llama fractura de Bennett."
+   ],
+   "tus": [
+    "La fractura de Bennett es una fractura-luxación intraarticular de la base del 1.er metacarpiano; el abductor largo del pulgar tracciona del fragmento hacia proximal.",
+    "La fractura de Bennett es una fractura-luxación intraarticular de la base del 1.er metacarpiano; el abductor largo del pulgar tracciona del fragmento distal hacia proximal."
+   ],
+   "related": [
+    "ossa-carpi",
+    "phalanges-manus",
+    "os-trapezium"
+   ],
+   "models": [
+    "First metacarpal bone",
+    "Second metacarpal bone",
+    "Third metacarpal bone",
+    "Fourth metacarpal bone",
+    "Fifth metacarpal bone"
+   ],
+   "aliases": [
+    "metacarpo"
+   ]
+  },
+  {
+   "id": "phalanges-manus",
+   "tr": "Falanges de la mano",
+   "la": "Phalanges manus",
+   "en": "Phalanges of hand",
+   "group": "Huesos de la mano",
+   "region": "upperLimb",
+   "summary": "Los 14 huesos largos cortos de los dedos. El pulgar tiene dos falanges y los demás dedos tres cada uno.",
+   "facts": [
+    [
+     "Sayı",
+     "14 (pulgar 2, los demás 3 cada uno)",
+     "Número"
+    ],
+    [
+     "Adları",
+     "Falanges proximal, media y distal",
+     "Nombres"
+    ],
+    [
+     "Eklemleri",
+     "Articulaciones metacarpofalángicas, interfalángicas proximales (IFP) y distales (IFD)",
+     "Articulaciones"
+    ],
+    [
+     "Distal falanks",
+     "En su extremo tiene la tuberosidad de la falange distal, que sostiene el lecho ungueal",
+     "Falange distal"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "Cada falange tiene base, cuerpo y cabeza. La base de las falanges proximales se articula con la cabeza del metacarpiano y la de las demás con la cabeza de la falange anterior. En la punta de la falange distal está la tuberosidad ungueal, que sostiene el lecho de la uña."
+    ]
+   ],
+   "clinical": [
+    "La rotura del tendón extensor en la base de la falange distal hace caer la punta del dedo (dedo en martillo).",
+    "En la artrosis aparecen nódulos de Heberden en las IFD y de Bouchard en las IFP."
+   ],
+   "tus": [
+    "El dedo en martillo se debe a la rotura del tendón extensor que se inserta en la falange distal."
+   ],
+   "related": [
+    "ossa-metacarpi",
+    "m-flexor-digitorum-profundus",
+    "m-extensor-digitorum"
+   ],
+   "models": [
+    "Distal phalanx of first finger of hand",
+    "Distal phalanx of second finger of hand",
+    "Distal phalanx of third finger of hand",
+    "Distal phalanx of fourth finger of hand",
+    "Distal phalanx of fifth finger of hand",
+    "Middle phalanx of second finger of hand",
+    "Middle phalanx of third finger of hand",
+    "Middle phalanx of fourth finger of hand",
+    "Middle phalanx of fifth finger of hand",
+    "Proximal phalanx of first finger of hand",
+    "Proximal phalanx of second finger of hand",
+    "Proximal phalanx of third finger of hand",
+    "Proximal phalanx of fourth finger of hand",
+    "Proximal phalanx of fifth finger of hand"
+   ],
+   "aliases": [
+    "falange"
+   ]
+  },
+  {
+   "id": "os-coxae",
+   "tr": "Coxal",
+   "la": "Os coxae",
+   "en": "Hip bone",
+   "group": "Huesos del miembro inferior",
+   "region": "pelvis",
+   "summary": "Hueso par, grande e irregular, que forma las paredes lateral y anterior de la pelvis. Se forma por la fusión de tres huesos (ilion, isquion y pubis) en el acetábulo.",
+   "facts": [
+    [
+     "Oluşum",
+     "Ilion, isquion y pubis; se fusionan en el cartílago en Y (trirradiado) del acetábulo hacia los 15–17 años",
+     "Formación"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Cresta ilíaca, espinas ilíacas anterosuperior e anteroinferior (EIAS, EIAI), espina ilíaca posterosuperior, acetábulo, agujero obturador, tuberosidad isquiática, espina isquiática, escotaduras isquiáticas mayor y menor, rama del pubis, tubérculo púbico, carilla sinfisaria",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleri",
+     "Fémur (articulación de la cadera), sacro (articulación sacroilíaca), coxal opuesto (sínfisis del pubis)",
+     "Articulaciones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Glúteos, ilíaco, músculos abdominales, isquiotibiales (tuberosidad isquiática), aductores, sartorio (EIAS), recto femoral (EIAI)",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Diferencias sexuales de la pelvis",
+     "La pelvis femenina es más ancha y menos profunda, con estrecho superior oval y ángulo subpubiano amplio (unos 80–90°). La masculina es más estrecha y profunda, con estrecho en forma de corazón y ángulo subpubiano cerrado (unos 50–60°)."
+    ],
+    [
+     "Agujeros",
+     "Por el agujero isquiático mayor pasan el piriforme, el nervio ciático, vasos y el nervio pudendo; por el menor, el tendón del obturador interno y el nervio pudendo; por el agujero obturador (conducto obturador), el nervio y los vasos obturadores."
+    ]
+   ],
+   "clinical": [
+    "La cresta ilíaca se usa para aspirar médula ósea y obtener injertos óseos.",
+    "Las ramas del pubis se fracturan a menudo en ancianos; las fracturas pélvicas de alta energía pueden sangrar mucho.",
+    "La compresión del nervio cutáneo femoral lateral cerca de la EIAS produce ardor y entumecimiento en la cara lateral del muslo (meralgia parestésica)."
+   ],
+   "tus": [
+    "El cartílago en Y del acetábulo se fusiona hacia los 15–17 años.",
+    "En la EIAS se insertan el sartorio y el TFL, en la EIAI la cabeza recta del recto femoral y en la tuberosidad isquiática los isquiotibiales (fracturas por avulsión en deportistas)."
+   ],
+   "related": [
+    "femur",
+    "os-sacrum",
+    "art-coxae",
+    "art-sacroiliaca",
+    "m-gluteus-maximus"
+   ],
+   "models": [
+    "Hip bone"
+   ],
+   "aliases": [
+    "ilion",
+    "isquion",
+    "pubis",
+    "hueso ilíaco"
+   ]
+  },
+  {
+   "id": "pelvis",
+   "tr": "Pelvis ósea (anillo pélvico)",
+   "la": "Pelvis ossea",
+   "en": "Bony pelvis",
+   "group": "Huesos del miembro inferior",
+   "region": "pelvis",
+   "summary": "Anillo óseo formado por los dos coxales, el sacro y el cóccix. Transmite el peso del tronco a las piernas, protege los órganos pélvicos y, en la mujer, forma el canal del parto. La línea terminal separa la pelvis mayor de la menor.",
+   "facts": [
+    [
+     "Kemikleri",
+     "Dos coxales (ilion, isquion, pubis), sacro, cóccix",
+     "Huesos"
+    ],
+    [
+     "Bölümleri",
+     "Pelvis mayor (por encima de la línea terminal, parte de la cavidad abdominal) y pelvis menor (canal del parto)",
+     "Partes"
+    ],
+    [
+     "Eklemleri",
+     "Articulaciones sacroilíacas, sínfisis del pubis, articulación sacrococcígea, articulación lumbosacra",
+     "Articulaciones"
+    ],
+    [
+     "Pelvis girişi (apertura pelvis superior)",
+     "Limitado por el promontorio, el ala del sacro, la línea arqueada, la cresta pectínea y el borde superior de la sínfisis",
+     "Estrecho superior de la pelvis"
+    ],
+    [
+     "Pelvis çıkışı (apertura pelvis inferior)",
+     "Limitado por el cóccix, los ligamentos sacrotuberosos, las tuberosidades isquiáticas, las ramas isquiopubianas y el borde inferior de la sínfisis",
+     "Estrecho inferior de la pelvis"
+    ]
+   ],
+   "sections": [
+    [
+     "Diferencias sexuales",
+     "La pelvis femenina es más ancha y menos profunda; el estrecho superior es oval (ginecoide), el ángulo subpubiano amplio (más de 90°), el agujero obturador casi triangular, el sacro más corto y ancho y las espinas isquiáticas sobresalen menos. La pelvis masculina es más estrecha y profunda; el estrecho superior tiene forma de corazón (androide) y el ángulo subpubiano es estrecho (unos 60–70°)."
+    ],
+    [
+     "Diámetros obstétricos",
+     "El conjugado verdadero (promontorio – borde superior de la sínfisis) mide unos 11 cm; el conjugado obstétrico (promontorio – punto más cercano de la cara posterior de la sínfisis) es el diámetro anteroposterior más estrecho del canal del parto; el conjugado diagonal se mide en la exploración y es 1,5–2 cm más largo que el obstétrico. El diámetro más estrecho del estrecho inferior es el biespinoso (unos 10 cm)."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas del anillo pélvico suelen producirse en dos lugares y pueden causar hemorragias internas graves (sobre todo de los plexos venosos).",
+    "En la desproporción cefalopélvica la cabeza fetal no puede atravesar la pelvis; puede ser necesaria una cesárea."
+   ],
+   "tus": [
+    "El conjugado obstétrico es el diámetro anteroposterior más estrecho del canal del parto; se estima restando 1,5–2 cm al conjugado diagonal.",
+    "En la pelvis femenina el ángulo subpubiano supera los 90° (aproximadamente 80–85° a 90–100°); en la masculina mide unos 60–70°."
+   ],
+   "related": [
+    "os-coxae",
+    "os-sacrum",
+    "os-coccygis",
+    "art-sacroiliaca",
+    "symphysis-pubica",
+    "ligg-pelvis"
+   ],
+   "models": [
+    "Hip bone",
+    "Sacrum",
+    "Coccyx"
+   ],
+   "aliases": [
+    "pelvis",
+    "cintura pélvica"
+   ]
+  },
+  {
+   "id": "acetabulum",
+   "tr": "Acetábulo",
+   "la": "Acetabulum",
+   "en": "Acetabulum",
+   "group": "Huesos del miembro inferior",
+   "region": "pelvis",
+   "summary": "Cavidad profunda y hemisférica de la cara externa del coxal que recibe la cabeza del fémur. El ilion, el isquion y el pubis se unen en ella mediante un cartílago en Y.",
+   "facts": [
+    [
+     "Oluşum",
+     "Ilion (aproximadamente 2/5), isquion (2/5) y pubis (1/5); los tres huesos se fusionan en la pubertad al osificarse el cartílago en Y (trirradiado)",
+     "Formación"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Superficie semilunar (superficie articular en herradura), fosa acetabular (centro no articular con un cojinete adiposo), escotadura acetabular (abajo), reborde acetabular",
+     "Accidentes principales"
+    ],
+    [
+     "Bağlantılar",
+     "El rodete acetabular profundiza el borde; el ligamento transverso del acetábulo cierra la escotadura; el ligamento de la cabeza del fémur va de la escotadura a la cabeza femoral",
+     "Conexiones"
+    ],
+    [
+     "Yönü",
+     "Mira hacia fuera, adelante y abajo (anteversión)",
+     "Orientación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En la displasia del desarrollo de la cadera el acetábulo es poco profundo y la cabeza femoral no encaja del todo; en el recién nacido se explora con las maniobras de Ortolani y Barlow.",
+    "En traumatismos de alta energía la cabeza femoral puede fracturar el acetábulo; cuando la rodilla choca con el salpicadero son frecuentes la fractura de la pared posterior y la luxación posterior de cadera."
+   ],
+   "tus": [
+    "El cartílago trirradiado se osifica a los 15–17 años y fusiona los tres huesos.",
+    "Por el ligamento de la cabeza del fémur discurre la rama acetabular de la arteria obturatriz; en el adulto su aporte a la cabeza femoral es escaso."
+   ],
+   "related": [
+    "os-coxae",
+    "femur",
+    "art-coxae",
+    "pelvis"
+   ],
+   "models": [
+    "Hip bone",
+    "Triradiate cartilage",
+    "Acetabular labrum"
+   ],
+   "aliases": [
+    "acetábulo",
+    "cótilo"
+   ]
+  },
+  {
+   "id": "femur",
+   "tr": "Fémur",
+   "la": "Femur",
+   "en": "Femur",
+   "group": "Huesos del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "El hueso más largo, pesado y fuerte del cuerpo. Arriba forma con el coxal la articulación de la cadera y abajo, con la tibia y la rótula, la de la rodilla.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso largo (cerca de 1/4 de la estatura)",
+     "Tipo de hueso"
+    ],
+    [
+     "Üst uç",
+     "Cabeza (fosita de la cabeza), cuello, trocánteres mayor y menor, línea y cresta intertrocantéreas",
+     "Extremo superior"
+    ],
+    [
+     "Gövde",
+     "Línea áspera (labios medial y lateral), tuberosidad glútea, línea pectínea",
+     "Cuerpo"
+    ],
+    [
+     "Alt uç",
+     "Cóndilos medial y lateral, epicóndilos, tubérculo del aductor, fosa intercondílea, carilla rotuliana, cara poplítea",
+     "Extremo inferior"
+    ],
+    [
+     "Boyun-gövde açısı",
+     "Unos 125° en el adulto (ángulo de inclinación); anteversión de unos 10–15°",
+     "Ángulo cervicodiafisario"
+    ],
+    [
+     "Kas tutunmaları",
+     "Glúteos, iliopsoas (trocánter menor), aductores (línea áspera), vastos, cabezas del gastrocnemio",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Irrigación",
+     "La mayoría de los vasos de la cabeza femoral son ramas retinaculares de la arteria circunfleja femoral medial; la arteria del ligamento de la cabeza aporta poco en el adulto."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas del cuello femoral son frecuentes en ancianos (sobre todo mujeres con osteoporosis); la pierna queda acortada y en rotación externa. En las intracapsulares se rompen los vasos retinaculares y la cabeza puede necrosarse.",
+    "Las fracturas diafisarias pueden causar gran pérdida de sangre (1–1,5 L) y embolia grasa.",
+    "En niños, la epifisiólisis femoral proximal y la enfermedad de Perthes causan cojera."
+   ],
+   "tus": [
+    "El ángulo cervicodiafisario es de ~125° en el adulto; menor: coxa vara; mayor: coxa valga.",
+    "Las fracturas diafisarias pueden causar gran pérdida de sangre (1–1,5 L) y embolia grasa."
+   ],
+   "related": [
+    "os-coxae",
+    "tibia",
+    "patella",
+    "art-coxae",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Femur"
+   ],
+   "aliases": [
+    "muslo"
+   ]
+  },
+  {
+   "id": "patella",
+   "tr": "Rótula",
+   "la": "Patella",
+   "en": "Patella",
+   "group": "Huesos del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "El mayor hueso sesamoideo del cuerpo. Se desarrolla en el tendón del cuádriceps femoral y se sitúa delante de la articulación de la rodilla.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso sesamoideo",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Base (arriba), vértice (abajo), carilla articular (detrás; la faceta lateral es mayor)",
+     "Partes"
+    ],
+    [
+     "Bağlantılar",
+     "Tendón del cuádriceps arriba, ligamento rotuliano abajo (hasta la tuberosidad tibial)",
+     "Conexiones"
+    ],
+    [
+     "İşlevi",
+     "Alarga el brazo de palanca del cuádriceps y aumenta así la fuerza de extensión; protege los cóndilos femorales",
+     "Función"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "Hueso sesamoideo triangular con la base arriba y el vértice abajo. Su cara anterior está cubierta por fibras del tendón del cuádriceps; la posterior, con cartílago grueso, se divide por una cresta vertical en carillas medial y lateral que encajan en el surco entre los cóndilos femorales (superficie rotuliana). La carilla lateral es la más ancha."
+    ]
+   ],
+   "clinical": [
+    "Cuanto mayor es el ángulo Q (en general en mujeres), más tiende la rótula a luxarse hacia fuera; las fibras inferiores del vasto medial se oponen a ello.",
+    "Las fracturas de rótula se producen por golpes directos; hay que valorar la integridad del aparato extensor.",
+    "El reflejo rotuliano explora los segmentos L2–L4 (sobre todo L4)."
+   ],
+   "tus": [
+    "Es el mayor hueso sesamoideo del cuerpo; se desarrolla en el tendón del cuádriceps.",
+    "La rótula bipartita suele estar en el ángulo superolateral y no debe confundirse con una fractura."
+   ],
+   "related": [
+    "femur",
+    "tibia",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Patella"
+   ],
+   "aliases": [
+    "patela"
+   ]
+  },
+  {
+   "id": "tibia",
+   "tr": "Tibia",
+   "la": "Tibia",
+   "en": "Tibia",
+   "group": "Huesos del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "El hueso grande y de carga del lado medial de la pierna. Su borde anterior se palpa bajo la piel en toda su longitud.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso largo",
+     "Tipo de hueso"
+    ],
+    [
+     "Üst uç",
+     "Cóndilos medial y lateral, eminencia intercondílea, tuberosidad tibial, carilla articular peronea",
+     "Extremo superior"
+    ],
+    [
+     "Gövde",
+     "Borde anterior (espinilla), cara medial (subcutánea), línea del sóleo",
+     "Cuerpo"
+    ],
+    [
+     "Alt uç",
+     "Maléolo medial, escotadura peronea, carilla articular inferior",
+     "Extremo inferior"
+    ],
+    [
+     "Eklemleri",
+     "Fémur (rodilla), peroné (articulaciones tibioperoneas proximal y distal), astrágalo (tobillo)",
+     "Articulaciones"
+    ]
+   ],
+   "sections": [
+    [
+     "Extremos",
+     "El extremo proximal es ancho: cóndilos medial y lateral, con el área y la eminencia intercondíleas entre ellos, donde se insertan los ligamentos cruzados y los meniscos. Delante está la tuberosidad tibial para el ligamento rotuliano. En el extremo distal están el maléolo medial y la escotadura peronea."
+    ]
+   ],
+   "clinical": [
+    "La diáfisis tibial es el hueso largo que más se fractura de forma abierta; su cara anteromedial solo está cubierta por piel y su escasa irrigación retrasa la consolidación.",
+    "La periostitis tibial es frecuente en corredores.",
+    "En adolescentes, una tumefacción dolorosa en la tuberosidad tibial es la enfermedad de Osgood-Schlatter."
+   ],
+   "tus": [
+    "La cara anterior de la tibia es subcutánea; las fracturas abiertas son más frecuentes en este hueso.",
+    "El síndrome compartimental es una complicación importante de las fracturas de tibia."
+   ],
+   "related": [
+    "femur",
+    "fibula",
+    "patella",
+    "talus",
+    "art-genus",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Tibia"
+   ],
+   "aliases": [
+    "espinilla"
+   ]
+  },
+  {
+   "id": "fibula",
+   "tr": "Peroné",
+   "la": "Fibula",
+   "en": "Fibula",
+   "group": "Huesos del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "Hueso largo y fino del lado lateral de la pierna. No soporta el peso corporal; da inserción a músculos y forma el maléolo lateral del tobillo.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso largo",
+     "Tipo de hueso"
+    ],
+    [
+     "Bölümleri",
+     "Cabeza (vértice), cuello, cuerpo, maléolo lateral",
+     "Partes"
+    ],
+    [
+     "Eklemleri",
+     "Tibia (articulación tibioperonea, sindesmosis tibioperonea), astrágalo",
+     "Articulaciones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Bíceps femoral, músculos peroneos, extensor largo de los dedos, extensor largo del dedo gordo, sóleo, tibial posterior, flexor largo del dedo gordo",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Función",
+     "Participa poco en la carga (alrededor del 10–15 %); su función principal es dar inserción a los músculos y formar, abajo, la pared lateral del tobillo con el maléolo lateral. La parte media de su diáfisis puede tomarse como injerto."
+    ]
+   ],
+   "clinical": [
+    "El nervio peroneo común, que rodea el cuello del peroné, puede lesionarse por un golpe o un yeso apretado; aparece el pie caído.",
+    "La parte media de la diáfisis peronea puede usarse como injerto óseo vascularizado.",
+    "Las fracturas del maléolo lateral son frecuentes en los esguinces de tobillo."
+   ],
+   "tus": [
+    "El peroné no soporta el peso corporal; el colgajo libre de peroné se usa para reconstruir la mandíbula.",
+    "Fractura de Maisonneuve: rotura del ligamento deltoideo + lesión de la sindesmosis + fractura proximal del peroné."
+   ],
+   "related": [
+    "tibia",
+    "art-talocruralis",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Fibula"
+   ],
+   "aliases": [
+    "fíbula"
+   ]
+  },
+  {
+   "id": "ossa-tarsi",
+   "tr": "Huesos del tarso",
+   "la": "Ossa tarsi",
+   "en": "Tarsal bones",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "Los siete huesos cortos que forman la mitad posterior del pie: astrágalo y calcáneo detrás, navicular en medio, cuboides y tres cuneiformes delante. Transmiten el peso del cuerpo de la pierna al pie y forman los arcos del pie.",
+   "facts": [
+    [
+     "Sayı",
+     "7: astrágalo, calcáneo, navicular, cuboides, cuneiformes medial, intermedio y lateral",
+     "Número"
+    ],
+    [
+     "Kemik tipi",
+     "Huesos cortos",
+     "Tipo de hueso"
+    ],
+    [
+     "Dizilimi",
+     "Fila posterior (proximal): astrágalo y calcáneo; centro: navicular (en el lado medial); fila anterior (distal): tres cuneiformes (medialmente) y cuboides (lateralmente)",
+     "Disposición"
+    ],
+    [
+     "Eklemleri",
+     "Articulación del tobillo (astrágalo con tibia y peroné), subastragalina, transversa del tarso (Chopart), tarsometatarsianas (Lisfranc)",
+     "Articulaciones"
+    ],
+    [
+     "Akılda tutma",
+     "El astrágalo une la pierna con el pie; el calcáneo forma el talón; el navicular está delante del astrágalo; el cuboides delante del calcáneo; los cuneiformes, delante del navicular, se articulan con los metatarsianos 1.º–3.º",
+     "Regla mnemotécnica"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El calcáneo es el hueso del tarso que más se fractura (caída desde altura); siempre hay que buscar una fractura vertebral asociada.",
+    "La coalición tarsiana (fusión congénita de dos huesos del tarso) produce en adolescentes un pie plano rígido y doloroso."
+   ],
+   "tus": [
+    "El astrágalo es el único hueso del tarso sin inserciones musculares; como su irrigación es retrógrada, las fracturas del cuello tienen alto riesgo de necrosis avascular.",
+    "El pie tiene 26 huesos: 7 del tarso, 5 metatarsianos y 14 falanges."
+   ],
+   "related": [
+    "talus",
+    "calcaneus",
+    "os-naviculare",
+    "os-cuboideum",
+    "ossa-cuneiformia",
+    "artt-pedis"
+   ],
+   "models": [
+    "Tarsal bones"
+   ],
+   "aliases": [
+    "tarso",
+    "huesos del tarso"
+   ]
+  },
+  {
+   "id": "talus",
+   "tr": "Astrágalo",
+   "la": "Talus",
+   "en": "Talus",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "El hueso que transmite el peso entre los huesos de la pierna y el pie y forma la parte inferior de la articulación del tobillo. No se inserta en él ningún músculo.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Cabeza, cuello, cuerpo, tróclea, apófisis lateral y posterior",
+     "Partes"
+    ],
+    [
+     "Eklemleri",
+     "Tibia y peroné (articulación talocrural), calcáneo (articulación subastragalina), navicular (articulación astragalocalcaneonavicular)",
+     "Articulaciones"
+    ],
+    [
+     "Özellik",
+     "La mayor parte de su superficie está cubierta de cartílago articular; no se inserta ningún músculo",
+     "Característica"
+    ],
+    [
+     "Kanlanma",
+     "Sobre todo la arteria del conducto tarsiano (de la tibial posterior) y la arteria del seno del tarso (de la dorsal del pie); la sangre fluye de forma retrógrada del cuello al cuerpo",
+     "Irrigación"
+    ]
+   ],
+   "sections": [
+    [
+     "Partes",
+     "Consta de cabeza (se articula con el navicular), cuello y cuerpo. La tróclea de la cara superior del cuerpo es más ancha por delante que por detrás, por lo que el tobillo es más estable en flexión dorsal. El tendón del flexor largo del dedo gordo pasa por el surco entre los tubérculos medial y lateral de la apófisis posterior."
+    ]
+   ],
+   "clinical": [
+    "Las fracturas del cuello del astrágalo (fractura del aviador) pueden causar necrosis avascular al interrumpirse la irrigación."
+   ],
+   "tus": [
+    "El riesgo de necrosis tras fractura del cuello del astrágalo se valora con la clasificación de Hawkins.",
+    "La tróclea astragalina es más ancha por delante; el tobillo es más estable en flexión dorsal."
+   ],
+   "related": [
+    "tibia",
+    "fibula",
+    "calcaneus",
+    "os-naviculare",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Talus"
+   ],
+   "aliases": [
+    "talus"
+   ]
+  },
+  {
+   "id": "calcaneus",
+   "tr": "Calcáneo",
+   "la": "Calcaneus",
+   "en": "Calcaneus",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "El hueso más grande del pie. Forma el talón y transmite el peso al suelo de pie.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuberosidad del calcáneo, sustentáculo del astrágalo, surco del tendón del flexor largo del dedo gordo, tróclea peronea",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleri",
+     "Astrágalo (articulación subastragalina), cuboides (articulación calcaneocuboidea)",
+     "Articulaciones"
+    ],
+    [
+     "Tutunanlar",
+     "Tendón calcáneo (de Aquiles), aponeurosis plantar, flexor corto de los dedos, abductor del dedo gordo, abductor del quinto dedo, cuadrado plantar, extensor corto de los dedos",
+     "Inserciones"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tendón calcáneo (de Aquiles), plantar delgado, flexor corto de los dedos, abductor del dedo gordo, abductor del quinto dedo, cuadrado plantar, extensor corto de los dedos",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Accidentes principales",
+     "Detrás, la tuberosidad del calcáneo (talón); por dentro, el sustentáculo del astrágalo, que sostiene el astrágalo (por debajo pasa el tendón del FHL); por fuera, la tróclea peronea, que separa los tendones de los peroneos. La cara superior tiene tres carillas para el astrágalo y entre ellas el surco calcáneo, que con el del astrágalo forma el seno del tarso."
+    ]
+   ],
+   "clinical": [
+    "El calcáneo se fractura en las caídas desde altura sobre los pies; hay que valorar también la columna, pues puede asociarse una fractura vertebral por compresión.",
+    "El espolón calcáneo y la fascitis plantar son causas frecuentes de dolor de talón."
+   ],
+   "tus": [
+    "Es el hueso del tarso que más se fractura; en caídas desde altura puede asociarse una fractura lumbar por compresión.",
+    "En la tuberosidad del calcáneo se inserta el tendón de Aquiles; la disminución del ángulo de Böhler indica fractura."
+   ],
+   "related": [
+    "talus",
+    "os-cuboideum",
+    "m-triceps-surae"
+   ],
+   "models": [
+    "Calcaneus"
+   ],
+   "aliases": [
+    "talón"
+   ]
+  },
+  {
+   "id": "os-naviculare",
+   "tr": "Navicular",
+   "la": "Os naviculare",
+   "en": "Navicular bone",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "Hueso en forma de barca del lado medial del pie, entre el astrágalo y las cuñas. Es la clave del arco medial.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuberosidad del navicular (inserción principal del tibial posterior)",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleri",
+     "Astrágalo, las tres cuñas, a veces el cuboides",
+     "Articulaciones"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Astrágalo (cabeza del astrágalo), tres cuneiformes, a veces el cuboides",
+     "Huesos que se articulan"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tibial posterior (tuberosidad del navicular)",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [
+    [
+     "Importancia clínica",
+     "Se sitúa cerca del vértice del arco medial. Su tuberosidad se palpa por delante y por debajo del maléolo medial. Algunas personas tienen un navicular accesorio, que puede doler por la tracción del tendón del tibial posterior."
+    ]
+   ],
+   "clinical": [
+    "Un navicular accesorio puede formar un relieve doloroso en el borde medial del pie.",
+    "La enfermedad de Köhler es la necrosis avascular del navicular en niños."
+   ],
+   "tus": [
+    "Un navicular accesorio puede causar dolor en el tendón del tibial posterior.",
+    "La enfermedad de Köhler es la osteonecrosis del navicular en la infancia."
+   ],
+   "related": [
+    "talus",
+    "ossa-cuneiformia",
+    "m-tibialis-posterior"
+   ],
+   "models": [
+    "Navicular bone"
+   ],
+   "aliases": [
+    "escafoides del pie"
+   ]
+  },
+  {
+   "id": "os-cuboideum",
+   "tr": "Cuboides",
+   "la": "Os cuboideum",
+   "en": "Cuboid bone",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "Hueso en forma de cubo del lado lateral del pie, entre el calcáneo y los metatarsianos 4.º y 5.º.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuberosidad del cuboides, surco del tendón del peroneo largo",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleri",
+     "Calcáneo, cuña lateral, navicular, metatarsianos 4.º y 5.º",
+     "Articulaciones"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Calcáneo, cuneiforme lateral, navicular (a veces), 4.º y 5.º metatarsianos",
+     "Huesos que se articulan"
+    ],
+    [
+     "Önemli oluşumlar",
+     "En la cara inferior, el surco del tendón del peroneo largo y, delante, la tuberosidad del cuboides",
+     "Accidentes principales"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El síndrome del cuboides, un leve desplazamiento de este hueso que causa dolor en el borde lateral del pie, se observa sobre todo en bailarines."
+   ],
+   "tus": [
+    "El cuboides es la clave del arco longitudinal lateral; por debajo pasa el tendón del peroneo largo."
+   ],
+   "related": [
+    "calcaneus",
+    "ossa-metatarsi",
+    "m-fibularis-longus"
+   ],
+   "models": [
+    "Cuboid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossa-cuneiformia",
+   "tr": "Cuñas",
+   "la": "Ossa cuneiformia",
+   "en": "Cuneiform bones",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "Tres huesos en forma de cuña entre el navicular y los tres primeros metatarsianos: medial, intermedia y lateral.",
+   "facts": [
+    [
+     "Kemikler",
+     "Cuña medial (la mayor), intermedia (la menor), lateral",
+     "Huesos"
+    ],
+    [
+     "Eklemleri",
+     "Navicular, metatarsianos 1.º–3.º, cuboides (cuña lateral)",
+     "Articulaciones"
+    ],
+    [
+     "İşlev",
+     "Su forma de cuña contribuye al arco transverso del pie",
+     "Función"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Las fracturas de los cuneiformes son raras; suelen acompañar a una lesión de Lisfranc."
+   ],
+   "tus": [
+    "El tibial anterior y el peroneo largo se insertan juntos en la cuña medial y la base del 1.er metatarsiano (el «estribo»).",
+    "El cuneiforme medial es el mayor y el intermedio el menor; la cortedad del intermedio bloquea la base del 2.º metatarsiano."
+   ],
+   "related": [
+    "os-naviculare",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone",
+    "Intermediate cuneiform bone",
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "cuneiformes"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-mediale",
+   "tr": "Cuneiforme medial",
+   "la": "Os cuneiforme mediale",
+   "en": "Medial cuneiform bone",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "El mayor de los tres cuneiformes; se sitúa en el borde medial del pie, entre el navicular y el 1.er metatarsiano. A diferencia de los otros dos, la base de su cuña mira hacia abajo.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso corto",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Navicular, cuneiforme intermedio, 1.º y 2.º metatarsianos",
+     "Huesos que se articulan"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tibial anterior y peroneo largo (cara inferomedial), una expansión del tibial posterior",
+     "Inserciones musculares"
+    ],
+    [
+     "Bağlar",
+     "Ligamento de Lisfranc: potente ligamento interóseo del cuneiforme medial a la base del 2.º metatarsiano",
+     "Ligamentos"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En la lesión de Lisfranc la rotura de este ligamento abre un espacio entre las bases del 1.º y 2.º metatarsianos; como puede pasar desapercibida en la radiografía, debe valorarse con cuidado."
+   ],
+   "tus": [
+    "Los tendones del tibial anterior y del peroneo largo forman un «estribo» en el cuneiforme medial y la base del 1.er metatarsiano que sostiene los arcos del pie."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-naviculare",
+    "ossa-metatarsi",
+    "ossa-tarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone"
+   ],
+   "aliases": [
+    "cuneiforme medial",
+    "primer cuneiforme"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-intermedium",
+   "tr": "Cuneiforme intermedio",
+   "la": "Os cuneiforme intermedium",
+   "en": "Intermediate cuneiform bone",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "El cuneiforme más pequeño, situado entre los otros dos. Al ser más corto, deja delante un entrante (mortaja) donde encaja la base del 2.º metatarsiano.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso corto",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Navicular, cuneiformes medial y lateral, 2.º metatarsiano",
+     "Huesos que se articulan"
+    ],
+    [
+     "Ayırt edici özellik",
+     "El cuneiforme más corto; la base del 2.º metatarsiano queda encajada entre los cuneiformes medial y lateral",
+     "Rasgo distintivo"
+    ],
+    [
+     "Kas tutunmaları",
+     "Expansiones del tibial posterior",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El encaje de la base del 2.º metatarsiano en esta mortaja es la clave de la articulación tarsometatarsiana; se rompe en las fracturas-luxaciones de Lisfranc."
+   ],
+   "tus": [
+    "Como la base del 2.º metatarsiano está encajada entre los cuneiformes, es el punto más estable, la piedra clave de la articulación de Lisfranc."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale",
+    "os-cuneiforme-laterale",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Intermediate cuneiform bone"
+   ],
+   "aliases": [
+    "cuneiforme intermedio",
+    "segundo cuneiforme"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-laterale",
+   "tr": "Cuneiforme lateral",
+   "la": "Os cuneiforme laterale",
+   "en": "Lateral cuneiform bone",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "El cuneiforme de tamaño medio; está entre el cuneiforme intermedio y el cuboides y se articula por delante con el 3.er metatarsiano.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Hueso corto",
+     "Tipo de hueso"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Navicular, cuneiforme intermedio, cuboides, 2.º, 3.º y 4.º metatarsianos",
+     "Huesos que se articulan"
+    ],
+    [
+     "Kas tutunmaları",
+     "Expansiones del tibial posterior, parte del flexor corto del dedo gordo",
+     "Inserciones musculares"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Los cuneiformes rara vez se afectan en las fracturas por estrés del mediopié; el dolor en esta zona puede confundirse con lesiones de los ligamentos tarsometatarsianos."
+   ],
+   "tus": [
+    "El cuneiforme lateral contacta con el 2.º, 3.º y 4.º metatarsianos; está cerca del vértice del arco transverso."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-intermedium",
+    "os-cuboideum",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "cuneiforme lateral",
+    "tercer cuneiforme"
+   ]
+  },
+  {
+   "id": "ossa-metatarsi",
+   "tr": "Metatarsianos",
+   "la": "Ossa metatarsi (I–V)",
+   "en": "Metatarsal bones",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "Los cinco huesos largos que forman el esqueleto del antepié. El primero es el más corto y grueso; sus cabezas soportan gran parte del peso de pie.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V)",
+     "Número"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberosidad del 5.º metatarsiano en su base (inserción del peroneo corto); dos sesamoideos bajo la cabeza del 1.er metatarsiano",
+     "Accidentes principales"
+    ],
+    [
+     "Eklemleri",
+     "Articulaciones tarsometatarsianas (de Lisfranc), metatarsofalángicas",
+     "Articulaciones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La fractura de la base del 5.º metatarsiano (fractura de Jones) es frecuente en los esguinces de tobillo.",
+    "Tras largas marchas pueden aparecer fracturas por estrés de los metatarsianos 2.º–3.º (fractura del recluta).",
+    "En el hallux valgus el 1.er metatarsiano se desvía hacia dentro y el dedo gordo hacia fuera."
+   ],
+   "tus": [
+    "La fractura del recluta (de marcha) es casi siempre una fractura por estrés de la diáfisis del 2.º metatarsiano.",
+    "La lesión de Lisfranc afecta al complejo articular tarsometatarsiano; la base del 2.º metatarsiano es la clave."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuboideum",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "First metatarsal bone",
+    "Second metatarsal bone",
+    "Third metatarsal bone",
+    "Fourth metatarsal bone",
+    "Fifth metatarsal bone"
+   ],
+   "aliases": [
+    "metatarso"
+   ]
+  },
+  {
+   "id": "phalanges-pedis",
+   "tr": "Falanges del pie",
+   "la": "Phalanges pedis",
+   "en": "Phalanges of foot",
+   "group": "Huesos del pie",
+   "region": "lowerLimb",
+   "summary": "Los 14 huesos de los dedos del pie. El dedo gordo (hallux) tiene dos falanges y los demás tres cada uno; son más cortas que las de la mano.",
+   "facts": [
+    [
+     "Sayı",
+     "14",
+     "Número"
+    ],
+    [
+     "Eklemleri",
+     "Articulaciones metatarsofalángicas e interfalángicas del pie",
+     "Articulaciones"
+    ],
+    [
+     "Sesamoid kemikler",
+     "Bajo la articulación metatarsofalángica del dedo gordo hay dos huesos sesamoideos",
+     "Huesos sesamoideos"
+    ]
+   ],
+   "sections": [
+    [
+     "Estructura",
+     "Las falanges del pie son mucho más cortas que las de la mano; las falanges medias y distales de los dedos 2.º–5.º son especialmente pequeñas y en el 5.º suelen estar fusionadas. Las falanges del dedo gordo son gruesas y fuertes; por ellas pasa el peso en último lugar en la fase de impulso de la marcha."
+    ]
+   ],
+   "clinical": [
+    "Los dedos en martillo y la artritis gotosa (sobre todo de la 1.ª MTF – podagra) son problemas frecuentes."
+   ],
+   "tus": [
+    "El hallux valgus es la desviación lateral del dedo gordo; sobre la cabeza del 1.er metatarsiano se forma un juanete."
+   ],
+   "related": [
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Phalanges of foot",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "dedos del pie"
+   ]
+  },
+  {
+   "id": "iskelet-genel",
+   "tr": "Divisiones del esqueleto",
+   "la": "Skeleton",
+   "en": "Human skeleton",
+   "group": "Generalidades",
+   "region": "general",
+   "summary": "El esqueleto humano adulto tiene unos 206 huesos y se divide en dos partes principales: el esqueleto axial, que forma el eje central del cuerpo (cráneo, columna vertebral, caja torácica), y el esqueleto apendicular, que sostiene los brazos y las piernas (cinturas y huesos de los miembros libres).",
+   "facts": [
+    [
+     "Sayı",
+     "Unos 206 huesos en el adulto; alrededor de 270–300 en el recién nacido si se cuentan las piezas aún no fusionadas",
+     "Número"
+    ],
+    [
+     "Eksen iskeleti (skeleton axiale)",
+     "80 huesos: cráneo y huesecillos del oído (29, incluido el hioides), columna vertebral (26), caja torácica (25: esternón y 24 costillas)",
+     "Esqueleto axial"
+    ],
+    [
+     "Ekstremite iskeleti (skeleton appendiculare)",
+     "126 huesos: cintura escapular (4), miembros superiores (60), cintura pélvica (2), miembros inferiores (60)",
+     "Esqueleto apendicular"
+    ],
+    [
+     "Kemik şekilleri",
+     "Largos (fémur, húmero), cortos (huesos del carpo), planos (esternón, bóveda craneal), irregulares (vértebras), neumáticos (maxilar, etmoides) y sesamoideos (rótula)",
+     "Formas de los huesos"
+    ],
+    [
+     "İşlevi",
+     "Sostén y forma, protección de órganos, palancas del movimiento, formación de sangre (médula roja), reserva de calcio y fósforo",
+     "Función"
+    ]
+   ],
+   "sections": [
+    [
+     "Cinturas",
+     "La cintura escapular está formada por la clavícula y la escápula; solo se une al tronco por la articulación esternoclavicular y permite una gran amplitud de movimiento. La cintura pélvica está formada por los dos coxales; unidos firmemente al sacro por detrás y entre sí por delante, transmiten el peso del cuerpo a las piernas."
+    ]
+   ],
+   "clinical": [
+    "En el adulto, la biopsia y el aspirado de médula ósea suelen hacerse en la cresta ilíaca posterior (alrededor de la espina ilíaca posterosuperior).",
+    "La edad ósea se valora por los centros de osificación en una radiografía de la mano y la muñeca izquierdas."
+   ],
+   "tus": [
+    "El esqueleto axial tiene 80 huesos y el apendicular 126.",
+    "En el adulto la médula roja está sobre todo en los huesos planos (esternón, costillas, coxal, vértebras) y en los extremos proximales de los huesos largos."
+   ],
+   "related": [
+    "os-structura",
+    "cranium",
+    "columna-vertebralis",
+    "pelvis"
+   ],
+   "models": [
+    "Skeletal system"
+   ],
+   "aliases": [
+    "esqueleto",
+    "huesos"
+   ]
+  },
+  {
+   "id": "os-structura",
+   "tr": "Estructura y desarrollo del hueso",
+   "la": "Structura ossis",
+   "en": "Structure of bone",
+   "group": "Generalidades",
+   "region": "general",
+   "summary": "El hueso es un tejido conjuntivo duro formado por cristales de fosfato cálcico y colágeno. Por fuera está el hueso compacto, denso, y por dentro el esponjoso; la superficie la cubre el periostio. Los huesos se forman por osificación intramembranosa o endocondral.",
+   "facts": [
+    [
+     "Doku",
+     "Hueso compacto (cortical) – formado por osteonas (sistemas de Havers); hueso esponjoso (trabecular) – la médula ósea ocupa los espacios entre las trabéculas",
+     "Tejido"
+    ],
+    [
+     "Hücreler",
+     "Osteoblasto (forma hueso), osteocito (célula madura incluida en el hueso), osteoclasto (reabsorbe hueso; célula multinucleada de origen monocítico)",
+     "Células"
+    ],
+    [
+     "Uzun kemiğin bölümleri",
+     "Epífisis (extremo), metáfisis (zona de transición donde se produce el crecimiento), diáfisis (cuerpo, con la cavidad medular), placa epifisaria (cartílago de crecimiento)",
+     "Partes de un hueso largo"
+    ],
+    [
+     "Kemikleşme",
+     "Intramembranosa: bóveda craneal, huesos de la cara, la mayor parte de la clavícula. Endocondral: base del cráneo, vértebras, la mayoría de los huesos de los miembros",
+     "Osificación"
+    ],
+    [
+     "Kanlanma",
+     "La diáfisis la irriga la arteria nutricia (entra por el agujero nutricio), los extremos las arterias metafisarias y epifisarias, y la cortical externa las arterias periósticas",
+     "Irrigación"
+    ]
+   ],
+   "sections": [
+    [
+     "Periostio y endostio",
+     "El periostio es una membrana rica en nervios y vasos que cubre la superficie externa del hueso; las células de su capa interna permiten el crecimiento en grosor y la consolidación de las fracturas. Las superficies articulares no tienen periostio, sino cartílago hialino. El endostio tapiza la cavidad medular."
+    ],
+    [
+     "Crecimiento",
+     "Los huesos largos crecen en longitud por la multiplicación y osificación de los condrocitos de la placa epifisaria; la placa se cierra al final de la pubertad (queda la línea epifisaria). El crecimiento en anchura se produce por aposición de hueso nuevo desde el periostio."
+    ]
+   ],
+   "clinical": [
+    "En los niños, las fracturas que afectan a la placa epifisaria (Salter–Harris) pueden alterar el crecimiento y causar dismetría de los miembros.",
+    "En la osteoporosis disminuyen la masa ósea y la trama trabecular; las fracturas son más frecuentes en los cuerpos vertebrales, el cuello del fémur y el radio distal.",
+    "La consolidación de una fractura pasa por hematoma → callo blando (fibrocartílago) → callo duro (hueso reticular) → remodelación (hueso laminar)."
+   ],
+   "tus": [
+    "La clavícula es el primer hueso del cuerpo en empezar a osificarse (semanas 5–6) y se osifica sobre todo por vía intramembranosa.",
+    "Los conductos de Volkmann discurren en ángulo recto y unen los conductos de Havers entre sí y con el periostio."
+   ],
+   "related": [
+    "iskelet-genel",
+    "femur",
+    "humerus",
+    "clavicula"
+   ],
+   "models": [
+    "Femur",
+    "Humerus",
+    "Tibia"
+   ],
+   "aliases": [
+    "tejido óseo",
+    "osteona",
+    "periostio",
+    "osificación"
+   ]
+  },
+  {
+   "id": "ossa-sesamoidea",
+   "tr": "Huesos sesamoideos",
+   "la": "Ossa sesamoidea",
+   "en": "Sesamoid bones",
+   "group": "Generalidades",
+   "region": "general",
+   "summary": "Huesos pequeños que se desarrollan dentro de un tendón; permiten que el tendón se deslice sobre una prominencia ósea, reducen el rozamiento y aumentan el brazo de palanca del músculo. El mayor es la rótula.",
+   "facts": [
+    [
+     "Örnekler",
+     "Rótula (tendón del cuádriceps femoral), pisiforme (tendón del flexor cubital del carpo), sesamoideos bajo las articulaciones MF del pulgar y del dedo gordo",
+     "Ejemplos"
+    ],
+    [
+     "İşlevi",
+     "Protege el tendón, cambia su dirección y alarga el brazo de palanca, aumentando la fuerza del músculo",
+     "Función"
+    ],
+    [
+     "Değişken olanlar",
+     "La fabela (en la cabeza lateral del gastrocnemio) y el os peroneum (en el tendón del peroneo largo) existen en algunas personas",
+     "Inconstantes"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La inflamación de los sesamoideos del dedo gordo (sesamoiditis) causa dolor en el antepié en bailarines y corredores.",
+    "La fabela y el os peroneum pueden confundirse con fragmentos de fractura en la radiografía."
+   ],
+   "tus": [
+    "La rótula es el mayor sesamoideo del cuerpo; el pisiforme también se considera un sesamoideo desarrollado en el tendón del flexor cubital del carpo."
+   ],
+   "related": [
+    "patella",
+    "os-pisiforme",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "Patella",
+    "Pisiform bone",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "sesamoideo"
+   ]
+  }
+ ]
+}

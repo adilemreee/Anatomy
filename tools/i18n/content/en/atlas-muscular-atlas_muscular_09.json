@@ -1,0 +1,283 @@
+{
+ "m-serratus-posterior-inferior": {
+  "tr": "Serratus posterior inferior",
+  "summary": "A thin serrated muscle beneath latissimus dorsi running to the lower ribs.",
+  "facts": [
+   "Spinous processes of T11–L2 (via the thoracolumbar fascia)",
+   "Lower borders of ribs 9–12",
+   "Intercostal nerves 9–11 and subcostal nerve",
+   "Posterior intercostal arteries, subcostal artery",
+   "Pulls the lower ribs down and back"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": []
+ },
+ "m-iliocostalis": {
+  "tr": "Iliocostalis",
+  "summary": "The lateral column of the erector spinae, with lumbar, thoracic and cervical parts.",
+  "facts": [
+   "Iliac crest, back of the sacrum, lumbar spinous processes (common tendon) and angles of the lower ribs",
+   "Angles of the ribs and transverse processes of C4–C6",
+   "Posterior rami of the spinal nerves",
+   "Dorsal branches of the posterior intercostal and lumbar arteries",
+   "Both sides: extend the spine; one side: bends it to the same side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The erector spinae columns from lateral to medial: iliocostalis, longissimus, spinalis ('I Love Spine')."
+  ],
+  "aliases": [
+   "erector spinae"
+  ]
+ },
+ "m-longissimus": {
+  "tr": "Longissimus",
+  "summary": "The longest and thickest, middle column of the erector spinae, running from the sacrum to the skull.",
+  "facts": [
+   "Common tendon (sacrum, lumbar spinous processes), thoracic and lower cervical transverse processes",
+   "Thoracic and cervical transverse processes, lower ribs and mastoid process (longissimus capitis)",
+   "Posterior rami of the spinal nerves",
+   "Posterior intercostal and lumbar arteries; in the neck the occipital and deep cervical arteries",
+   "Extends the spine and head; acting on one side it bends to the same side, and longissimus capitis turns the head to the same side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "erector spinae"
+  ]
+ },
+ "m-spinalis": {
+  "tr": "Spinalis",
+  "summary": "The most medial and thinnest column of the erector spinae; it links the spinous processes together.",
+  "facts": [
+   "Spinous processes of the upper lumbar and lower thoracic vertebrae",
+   "Spinous processes of the upper thoracic and cervical vertebrae (spinalis capitis: occipital bone)",
+   "Posterior rami of the spinal nerves",
+   "Posterior intercostal arteries",
+   "Extends the spine"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "erector spinae"
+  ]
+ },
+ "m-splenius": {
+  "tr": "Splenius",
+  "summary": "A muscle with head (capitis) and neck (colli) parts that wraps the deep back muscles like a bandage.",
+  "facts": [
+   "Lower half of the nuchal ligament, spinous processes of C7–T6",
+   "Splenius capitis: mastoid process and lateral 1/3 of the superior nuchal line; splenius colli: transverse processes of C1–C3",
+   "Posterior rami of the middle cervical spinal nerves",
+   "Occipital artery, transverse cervical artery",
+   "Both sides: extend the head and neck; one side: turns and tilts the head to the same side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "SCM turns the head to the opposite side, splenius capitis to the same side; the two act as synergists in rotation."
+  ],
+  "aliases": [
+   "splenius capitis",
+   "splenius cervicis"
+  ]
+ },
+ "m-semispinalis": {
+  "tr": "Semispinalis",
+  "summary": "The most superficial layer of the transversospinal group, spanning 4–6 segments; its head part is the strongest extensor of the back of the neck.",
+  "facts": [
+   "Transverse processes of C7–T12 (semispinalis capitis: C4–T6)",
+   "Spinous processes of higher cervical and thoracic vertebrae; semispinalis capitis: occipital bone (between superior and inferior nuchal lines)",
+   "Posterior rami of the spinal nerves",
+   "Posterior intercostal, occipital and deep cervical arteries",
+   "Extends the head and spine; acting on one side it rotates to the opposite side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The greater occipital nerve pierces semispinalis capitis to reach the skin of the back of the head."
+  ],
+  "aliases": [
+   "semispinalis capitis"
+  ]
+ },
+ "m-multifidus": {
+  "tr": "Multifidus",
+  "summary": "The middle layer of the transversospinal group, made of bundles spanning 2–4 segments; it is thickest in the lumbar region.",
+  "facts": [
+   "Sacrum, PSIS, lumbar mammillary processes, thoracic transverse processes, articular processes of C4–C7",
+   "Spinous processes of vertebrae 2–4 segments higher",
+   "Posterior rami of the spinal nerves",
+   "Posterior intercostal and lumbar arteries",
+   "Stabilises the spine segment by segment; extension and rotation to the opposite side"
+  ],
+  "sections": [],
+  "clinical": [
+   "Lumbar multifidus atrophies in chronic low back pain; it is the target muscle of stabilisation exercises."
+  ],
+  "tus": [],
+  "aliases": []
+ },
+ "m-rotatores": {
+  "tr": "Rotatores",
+  "summary": "The deepest layer of the transversospinal group: short muscles running from a transverse process to the lamina of the vertebra one or two levels above.",
+  "facts": [
+   "Transverse processes of the vertebrae",
+   "Lamina and root of the spinous process of the vertebra 1–2 segments above",
+   "Posterior rami of the spinal nerves",
+   "Posterior intercostal arteries",
+   "Rotation and stabilisation of the spine; proprioception of spinal position"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "They are best developed in the thoracic region; because of their dense muscle spindles they act mainly as sensory (proprioceptive) organs."
+  ],
+  "aliases": [
+   "rotator muscles"
+  ]
+ },
+ "mm-levatores-costarum": {
+  "tr": "Levatores costarum",
+  "summary": "Small triangular muscles descending from the thoracic transverse processes to the rib below; they have short and long bundles.",
+  "facts": [
+   "Transverse processes of C7–T11",
+   "Between the tubercle and angle of the rib one below (short) or two below (long)",
+   "Posterior rami of spinal nerves C8–T11",
+   "Posterior intercostal arteries",
+   "Raise the ribs (assist inspiration); lateral flexion and rotation of the spine"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": []
+ },
+ "m-rectus-capitis-posterior-major": {
+  "tr": "Rectus capitis posterior major",
+  "summary": "A muscle running from the spine of the axis to the skull; it forms the superomedial border of the suboccipital triangle.",
+  "facts": [
+   "Spinous process of the axis",
+   "Lateral part of the inferior nuchal line",
+   "Suboccipital nerve (posterior ramus of C1)",
+   "Vertebral artery, occipital artery",
+   "Extends the head and rotates it to the same side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "suboccipital"
+  ]
+ },
+ "m-rectus-capitis-posterior-minor": {
+  "tr": "Rectus capitis posterior minor",
+  "summary": "A small muscle from the posterior tubercle of the atlas to the occipital bone; it has a connective tissue bridge to the dura mater.",
+  "facts": [
+   "Posterior tubercle of the atlas",
+   "Medial part of the inferior nuchal line",
+   "Suboccipital nerve (posterior ramus of C1)",
+   "Vertebral artery, occipital artery",
+   "Extends the head"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The role of the myodural bridge between it and the dura mater in cervicogenic headache is debated."
+  ],
+  "aliases": [
+   "suboccipital"
+  ]
+ },
+ "m-obliquus-capitis-superior": {
+  "tr": "Obliquus capitis superior",
+  "summary": "A muscle from the transverse process of the atlas to the occipital bone; it forms the superolateral border of the suboccipital triangle.",
+  "facts": [
+   "Transverse process of the atlas",
+   "Occipital bone between the superior and inferior nuchal lines (lateral part)",
+   "Suboccipital nerve (posterior ramus of C1)",
+   "Vertebral artery, occipital artery",
+   "Extends the head and bends it to the same side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "suboccipital"
+  ]
+ },
+ "m-obliquus-capitis-inferior": {
+  "tr": "Obliquus capitis inferior",
+  "summary": "A muscle from the spine of the axis to the transverse process of the atlas; despite its name it is the only suboccipital muscle that does not attach to the skull.",
+  "facts": [
+   "Spinous process of the axis",
+   "Transverse process of the atlas",
+   "Suboccipital nerve (posterior ramus of C1)",
+   "Vertebral artery, occipital artery",
+   "Rotates the atlas (and head) to the same side (atlanto-axial rotation)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The suboccipital triangle is bounded by rectus capitis posterior major and obliquus capitis superior and inferior; it contains the vertebral artery and suboccipital nerve. The greater occipital nerve emerges below the lower border of this muscle."
+  ],
+  "aliases": [
+   "suboccipital"
+  ]
+ },
+ "m-subclavius": {
+  "tr": "Subclavius",
+  "summary": "A small cylindrical muscle beneath the clavicle running to the 1st rib; it protects the vessels and nerves beneath it.",
+  "facts": [
+   "Junction of the 1st rib and its cartilage",
+   "Middle 1/3 of the inferior surface of the clavicle (subclavian groove)",
+   "Nerve to subclavius (C5–C6)",
+   "Thoraco-acromial artery (clavicular branch), suprascapular artery",
+   "Steadies the clavicle and draws it down and medially"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "In a clavicle fracture it protects the subclavian artery and vein and the brachial plexus beneath it from sharp bone fragments."
+  ],
+  "aliases": []
+ },
+ "mm-intercostales-externi": {
+  "tr": "External intercostals",
+  "summary": "The most superficial muscle layer of the intercostal spaces; their fibres run downwards and forwards (like hands in pockets).",
+  "facts": [
+   "Lower border of the rib above",
+   "Upper border of the rib below; in front, between the costal cartilages, they continue as the external intercostal membrane",
+   "Intercostal nerves (T1–T11)",
+   "Posterior and anterior intercostal arteries",
+   "Raise the ribs (inspiration)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "intercostal"
+  ]
+ },
+ "mm-intercostales-interni": {
+  "tr": "Internal intercostals",
+  "summary": "The middle layer beneath the external intercostals, with fibres running downwards and backwards (at right angles to the external ones).",
+  "facts": [
+   "Lower border of the rib above (outside the costal groove)",
+   "Upper border of the rib below; behind, they continue as the internal intercostal membrane",
+   "Intercostal nerves (T1–T11)",
+   "Posterior and anterior intercostal arteries, internal thoracic artery",
+   "Lower the ribs in forced expiration; the interchondral part assists inspiration"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "intercostal"
+  ]
+ }
+}

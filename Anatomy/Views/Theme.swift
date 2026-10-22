@@ -75,7 +75,7 @@ struct Eyebrow: View {
     var color: Color = Theme.textTertiary
 
     var body: some View {
-        Text(text.uppercased(with: Locale(identifier: "tr_TR")))
+        Text(text.uppercased(with: .current))
             .font(Theme.eyebrow)
             .tracking(1.1)
             .foregroundStyle(color)

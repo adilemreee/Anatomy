@@ -266,4 +266,6 @@ E("artt-pedis", "Ayak eklemleri", "Articulationes pedis", "Joints of foot", AE, 
   models=["Joints of foot", "Intertarsal joints", "Tarsometatarsal joints", "Intermetatarsal joints", "Metatarsophalangeal joints", "Interphalangeal joints of foot", "Long plantar ligament", "Plantar calcaneonavicular ligament"], aliases=["subtalar", "Lisfranc", "Chopart"]),
 ]
 
-write("articular", entries)
+from articular_more import merge, EXTRA
+
+write("articular", merge(entries), EXTRA)

@@ -84,7 +84,9 @@ struct SpecimenView: View {
             try? await Task.sleep(for: .milliseconds(120))
             guard !Task.isCancelled else { return }
             let store = app.store
-            let result = await scene.labels(in: size, top: headerBottom + 10, bottom: controlsTop - 12) { (store.partTerm($0)?.tr, store.latinName($0)) }
+            let result = await scene.labels(in: size, top: headerBottom + 10, bottom: controlsTop - 12,
+                                            names: { (store.partTerm($0)?.tr, store.latinName($0)) },
+                                            priority: { store.landmark($0)?.rank ?? 0 })
             guard !Task.isCancelled else { return }
             withAnimation(.easeOut(duration: 0.25)) { labels = result }
         }
@@ -134,8 +136,8 @@ struct SpecimenView: View {
                     .foregroundStyle(.white.opacity(0.7))
                 if scene.hasAttachments {
                     HStack(spacing: 12) {
-                        legendDot(.origin, "Başlangıç yeri")
-                        legendDot(.insertion, "Tutunma yeri")
+                        legendDot(.origin, String(localized: "Başlangıç yeri"))
+                        legendDot(.insertion, String(localized: "Tutunma yeri"))
                     }
                     .padding(.top, 4)
                 } else if scene.featureCount > 0 {
@@ -166,9 +168,10 @@ struct SpecimenView: View {
         let latin = store.latinName(feature.name)
         let title = store.partTerm(feature.name)?.tr ?? latin ?? feature.name
         switch feature.kind {
-        case .origin: return (title, "Başlangıç yeri")
-        case .insertion: return (title, "Tutunma yeri")
-        case .feature, .part: return (title, latin.flatMap { $0.caseInsensitiveCompare(title) == .orderedSame ? nil : $0 })
+        case .origin, .insertion:
+            let role = feature.kind == .origin ? String(localized: "Başlangıç yeri") : String(localized: "Tutunma yeri")
+            return (title, feature.bone.map { "\(role) · \(store.partTerm($0)?.tr ?? $0)" } ?? role)
+        case .feature, .part: return (title, LabelLayout.subtitle(latin, under: title))
         }
     }
 
@@ -191,35 +194,58 @@ struct SpecimenView: View {
 
     private var controls: some View {
         GlassEffectContainer(spacing: 10) {
-            HStack(spacing: 10) {
-                HStack(spacing: 2) {
-                    turnButton("Ön", 0)
-                    turnButton("Sol", .pi / 2)
-                    turnButton("Arka", .pi)
-                    turnButton("Sağ", -.pi / 2)
+            // Four views and three buttons share the row; longer view names
+            // (German, French) take a smaller font or a row of their own.
+            ViewThatFits(in: .horizontal) {
+                HStack(spacing: 10) {
+                    turnButtons(.subheadline, padding: 11)
+                    iconButtons
                 }
-                .padding(4)
-                .glassEffect(.regular, in: .capsule)
-                GlassIconButton(systemImage: "tag", isOn: showLabels, label: "Etiketler") {
-                    withAnimation(.snappy) { showLabels.toggle() }
+                HStack(spacing: 10) {
+                    turnButtons(.footnote, padding: 7)
+                    iconButtons
                 }
-                if scene.featureCount > 0 {
-                    GlassIconButton(systemImage: "list.bullet", label: "Oluşumlar") { showFeatures = true }
-                }
-                if request.entryID != nil {
-                    GlassIconButton(systemImage: "book", label: "Madde") { showEntry = true }
+                VStack(spacing: 10) {
+                    turnButtons(.subheadline, padding: 11)
+                    HStack(spacing: 10) { iconButtons }
                 }
             }
         }
     }
 
-    private func turnButton(_ title: String, _ yaw: Float) -> some View {
+    @ViewBuilder private var iconButtons: some View {
+        GlassIconButton(systemImage: "tag", isOn: showLabels, label: String(localized: "Etiketler")) {
+            withAnimation(.snappy) { showLabels.toggle() }
+        }
+        if scene.featureCount > 0 {
+            GlassIconButton(systemImage: "list.bullet", label: String(localized: "Oluşumlar")) { showFeatures = true }
+        }
+        if request.entryID != nil {
+            GlassIconButton(systemImage: "book", label: String(localized: "Madde")) { showEntry = true }
+        }
+    }
+
+    private func turnButtons(_ font: Font, padding: CGFloat) -> some View {
+        HStack(spacing: 2) {
+            // Views, not sides: "Sağ"/"Sol" alone name a body side.
+            turnButton(LocalizedStringResource("view.front", defaultValue: "Ön"), 0, font, padding)
+            turnButton(LocalizedStringResource("view.left", defaultValue: "Sol"), .pi / 2, font, padding)
+            turnButton(LocalizedStringResource("view.back", defaultValue: "Arka"), .pi, font, padding)
+            turnButton(LocalizedStringResource("view.right", defaultValue: "Sağ"), -.pi / 2, font, padding)
+        }
+        .padding(4)
+        .glassEffect(.regular, in: .capsule)
+    }
+
+    private func turnButton(_ title: LocalizedStringResource, _ yaw: Float, _ font: Font, _ padding: CGFloat) -> some View {
         Button {
             scene.turn(to: yaw)
         } label: {
             Text(title)
-                .font(.subheadline.weight(.semibold))
-                .padding(.horizontal, 11)
+                .font(font.weight(.semibold))
+                .lineLimit(1)
+                .fixedSize()
+                .padding(.horizontal, padding)
                 .padding(.vertical, 9)
                 .contentShape(.capsule)
         }
@@ -232,7 +258,12 @@ struct SpecimenView: View {
                 let isFocused = focused == label.id
                 let dimmed = focused != nil && !isFocused
                 Path { path in
-                    path.move(to: label.attach)
+                    // A short level stub out of the box, then on to the point.
+                    let attach = label.attach
+                    path.move(to: attach)
+                    if attach.x == label.box.minX || attach.x == label.box.maxX {
+                        path.addLine(to: CGPoint(x: attach.x + (attach.x == label.box.minX ? -8 : 8), y: attach.y))
+                    }
                     path.addLine(to: label.anchor)
                 }
                 .stroke(Color.white.opacity(isFocused ? 0.95 : (dimmed ? 0.25 : 0.6)), lineWidth: isFocused ? 1.4 : 0.8)
@@ -250,8 +281,8 @@ struct SpecimenView: View {
                         Text(label.title)
                             .font(.caption.weight(.semibold))
                             .foregroundStyle(.white)
-                            .lineLimit(2)
-                            .minimumScaleFactor(0.75)
+                            .lineLimit(3)
+                            .minimumScaleFactor(0.85)
                         if let subtitle = label.subtitle {
                             Text(subtitle)
                                 .font(.caption2.italic())

@@ -1,0 +1,281 @@
+{
+ "eklem-tipleri": {
+  "tr": "Classification des articulations",
+  "summary": "Selon le tissu qui unit les os, on distingue les articulations fibreuses, cartilagineuses et synoviales. Les articulations synoviales sont les plus mobiles et se subdivisent selon la forme de leurs surfaces articulaires.",
+  "facts": [
+   "Sutures (crâne), syndesmoses (p. ex. syndesmose tibio-fibulaire), gomphoses (dent–alvéole)",
+   "Synchondroses (cartilage hyalin ; p. ex. cartilage de croissance, 1re côte–sternum) et symphyses (fibrocartilage ; p. ex. symphyse pubienne, disques intervertébraux)",
+   "Comportent une cavité articulaire, un cartilage articulaire, une capsule, une membrane synoviale et du liquide synovial",
+   "Planes, trochléennes (ginglyme – coude), trochoïdes (radio-ulnaire proximale), en selle (CMC du pouce), ellipsoïdes (poignet), sphéroïdes (épaule, hanche), bicondylaires (genou)"
+  ],
+  "sections": [
+   [
+    "Axes de mouvement",
+    "Les articulations uniaxiales (trochléennes, trochoïdes) bougent dans un plan, les biaxiales (en selle, ellipsoïdes) dans deux, les multiaxiales (sphéroïdes) dans tous les plans."
+   ],
+   [
+    "Loi de Hilton",
+    "Les nerfs qui innervent les muscles croisant une articulation innervent aussi cette articulation et la peau qui la recouvre."
+   ]
+  ],
+  "clinical": [
+   "L'arthrose est une dégénérescence du cartilage articulaire ; la polyarthrite rhumatoïde est une inflammation auto-immune de la synoviale."
+  ],
+  "tus": [
+   "Articulations fibreuses : suture, syndesmose, gomphose ; cartilagineuses : synchondrose (hyalin), symphyse (fibrocartilage) ; les autres sont synoviales.",
+   "Types d'articulations synoviales : planes, trochléennes, trochoïdes, ellipsoïdes (condyliennes), en selle, sphéroïdes ; les bicondylaires (genou, ATM) sont à part."
+  ],
+  "aliases": []
+ },
+ "art-temporomandibularis": {
+  "tr": "Articulation temporo-mandibulaire",
+  "summary": "Articulation synoviale entre le processus condylaire de la mandibule et la fosse mandibulaire et le tubercule articulaire du temporal. Un disque fibrocartilagineux la divise en compartiments supérieur et inférieur.",
+  "facts": [
+   "Synoviale ; articulation trochléenne modifiée (gingly-arthrodie)",
+   "Tête de la mandibule – fosse mandibulaire et tubercule articulaire (temporal)",
+   "Fibrocartilage ; glissement (translation) dans le compartiment supérieur, charnière (rotation) dans l'inférieur",
+   "Ligament latéral (temporo-mandibulaire), ligament sphéno-mandibulaire, ligament stylo-mandibulaire",
+   "Nerfs auriculo-temporal et massétérique (V3)",
+   "Ouverture et fermeture, propulsion et rétropulsion, diduction (mastication)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Lors d'une ouverture excessive (bâillement), la tête mandibulaire peut passer en avant du tubercule articulaire et la bouche ne peut plus se fermer (luxation de l'ATM).",
+   "Les troubles de l'ATM (déplacement discal, claquement, douleur) sont associés au bruxisme et au stress."
+  ],
+  "tus": [
+   "L'ATM est une articulation charnière et de glissement (gingly-arthrodie) ; ses surfaces sont fibrocartilagineuses.",
+   "Le ligament latéral (temporo-mandibulaire) est le seul vrai renfort de la capsule ; les ligaments sphéno- et stylo-mandibulaires sont accessoires."
+  ],
+  "aliases": [
+   "ATM"
+  ]
+ },
+ "discus-intervertebralis": {
+  "tr": "Disque intervertébral",
+  "summary": "Coussinets fibrocartilagineux entre les corps vertébraux adjacents, avec à la périphérie l'anneau fibreux et au centre le noyau pulpeux gélatineux. Ils représentent environ un quart de la hauteur du rachis.",
+  "facts": [
+   "Symphyse (articulation cartilagineuse secondaire)",
+   "Anneau fibreux (lamelles de collagène concentriques), noyau pulpeux (reliquat de la notochorde, 80 % d'eau)",
+   "23 disques ; aucun entre C1 et C2 ni dans le sacrum et le coccyx",
+   "Pratiquement avasculaire chez l'adulte ; nourri par diffusion à partir des plateaux"
+  ],
+  "sections": [
+   [
+    "Évolution avec l'âge",
+    "Avec l'âge, le noyau pulpeux perd de l'eau et les disques s'affaissent ; c'est la base de la perte de taille et de la discopathie dégénérative."
+   ]
+  ],
+  "clinical": [
+   "Dans la hernie discale, le noyau pulpeux rompt en général l'anneau en postéro-latéral et comprime une racine ; au rachis lombaire, le disque L4–L5 atteint la racine L5 et L5–S1 la racine S1.",
+   "Au rachis cervical, le disque C5–C6 comprime la racine C6."
+  ],
+  "tus": [
+   "Les disques représentent environ 1/4 de la hauteur du rachis ; il n'y a pas de disque entre atlas et axis.",
+   "Une hernie cervicale comprime la racine de même numéro (C5–C6 → C6), une hernie lombaire la racine sous-jacente (L4–L5 → L5)."
+  ],
+  "aliases": [
+   "disque",
+   "hernie discale"
+  ]
+ },
+ "ligg-columnae": {
+  "tr": "Ligaments de la colonne vertébrale",
+  "summary": "Ligaments qui unissent les vertèbres et stabilisent le rachis. Les ligaments longs parcourent toute la colonne, les courts unissent les vertèbres voisines.",
+  "facts": [
+   "Ligament longitudinal antérieur (face antérieure des corps – limite l'hyperextension), ligament longitudinal postérieur (face postérieure des corps, dans le canal vertébral – limite l'hyperflexion), ligament supra-épineux, ligament nucal (au cou)",
+   "Ligaments jaunes (entre les lames, ligaments élastiques), ligaments interépineux, ligaments intertransversaires",
+   "Ligament triangulaire de C7 à la protubérance occipitale externe ; insertion du trapèze et du splénius"
+  ],
+  "sections": [],
+  "clinical": [
+   "Lors d'une ponction lombaire, l'aiguille traverse la peau, le ligament supra-épineux, le ligament interépineux, le ligament jaune, l'espace épidural et la dure-mère–arachnoïde ; on perçoit une perte de résistance après le ligament jaune.",
+   "Dans la spondylarthrite ankylosante, les ligaments s'ossifient et donnent un aspect de « colonne bambou »."
+  ],
+  "tus": [
+   "Le ligament longitudinal antérieur limite l'hyperextension, le postérieur l'hyperflexion.",
+   "Le ligament nucal est la continuation triangulaire du ligament supra-épineux au cou ; il donne insertion au trapèze et au splénius."
+  ],
+  "aliases": [
+   "ligament jaune"
+  ]
+ },
+ "artt-thoracis": {
+  "tr": "Articulations du thorax",
+  "summary": "Articulations des côtes avec les vertèbres (costo-vertébrales) et avec le sternum (sterno-costales). Elles permettent l'expansion de la cage thoracique lors de la respiration.",
+  "facts": [
+   "Articulation de la tête costale (tête – deux corps vertébraux voisins) et articulation costo-transversaire (tubercule costal – processus transverse)",
+   "1re côte : synchondrose ; côtes 2 à 7 : articulations synoviales planes",
+   "Articulations interchondrales (entre les cartilages 6 à 9), chondro-costales (côte–cartilage ; union cartilagineuse hyaline)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Les côtes supérieures se déplacent en « bras de pompe » (diamètre antéro-postérieur), les inférieures en « anse de seau » (diamètre transversal).",
+   "Les côtes 11 et 12 n'ont pas d'articulation costo-transversaire."
+  ],
+  "aliases": []
+ },
+ "art-sternoclavicularis": {
+  "tr": "Articulation sterno-claviculaire",
+  "summary": "Articulation entre l'extrémité médiale de la clavicule et le manubrium et le 1er cartilage costal. C'est la seule véritable articulation entre le membre supérieur et le tronc.",
+  "facts": [
+   "Articulation synoviale en selle (fonctionnellement sphéroïde) ; contient un disque articulaire",
+   "Ligaments sterno-claviculaires antérieur et postérieur, ligament interclaviculaire, ligament costo-claviculaire (le plus solide)",
+   "Élévation–abaissement, antépulsion–rétropulsion et rotation de la clavicule"
+  ],
+  "sections": [],
+  "clinical": [
+   "La luxation postérieure est rare mais urgente, car elle peut comprimer les gros vaisseaux et la trachée situés en arrière."
+  ],
+  "tus": [
+   "Le disque articulaire empêche la clavicule de glisser en dedans ; son ligament le plus solide est le ligament costo-claviculaire.",
+   "La luxation postérieure, rare, est une urgence car elle peut comprimer la trachée et les gros vaisseaux."
+  ],
+  "aliases": []
+ },
+ "art-acromioclavicularis": {
+  "tr": "Articulation acromio-claviculaire",
+  "summary": "Petite articulation plane entre l'extrémité latérale de la clavicule et l'acromion de la scapula. Sa stabilité dépend surtout du ligament coraco-claviculaire, à distance de l'articulation.",
+  "facts": [
+   "Articulation synoviale plane",
+   "Ligament acromio-claviculaire ; ligament coraco-claviculaire (ligaments trapézoïde et conoïde) – stabilisateur principal",
+   "Glissements et rotation de la scapula sur la clavicule"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une chute sur le moignon de l'épaule peut disjoindre l'articulation (différent d'une luxation de l'épaule) ; si le ligament coraco-claviculaire se rompt aussi, l'extrémité de la clavicule saille nettement (signe de la touche de piano)."
+  ],
+  "tus": [
+   "Articulation synoviale plane ; elle permet la rotation de la scapula sur la clavicule.",
+   "Dans les lésions de Rockwood de type III et plus, le ligament coraco-claviculaire est aussi rompu."
+  ],
+  "aliases": [
+   "AC"
+  ]
+ },
+ "art-humeri": {
+  "tr": "Articulation gléno-humérale (épaule)",
+  "summary": "Articulation sphéroïde entre la tête humérale et la cavité glénoïdale de la scapula. C'est l'articulation la plus mobile et la plus souvent luxée du corps ; sa stabilité dépend surtout des muscles de la coiffe des rotateurs.",
+  "facts": [
+   "Synoviale sphéroïde – trois axes",
+   "Tête humérale – cavité glénoïdale (approfondie par le labrum glénoïdal) ; seul 1/3 de la tête est en contact avec la glène",
+   "Ligaments gléno-huméraux (supérieur, moyen, inférieur), ligament coraco-huméral, ligament huméral transverse, ligament coraco-acromial (toit de l'articulation)",
+   "Coiffe des rotateurs (supra-épineux, infra-épineux, petit rond, subscapulaire), tendon du long chef du biceps, labrum",
+   "Flexion–extension, abduction–adduction, rotations médiale et latérale, circumduction",
+   "Nerf axillaire, nerf suprascapulaire, nerf pectoral latéral"
+  ],
+  "sections": [
+   [
+    "Capsule",
+    "La capsule est lâche et plus faible en bas (récessus axillaire) ; le tendon du long chef du biceps chemine dans la capsule."
+   ]
+  ],
+  "clinical": [
+   "95 % des luxations de l'épaule sont antéro-inférieures ; le nerf axillaire peut être lésé. Les luxations récidivantes entraînent une désinsertion du labrum antéro-inférieur (lésion de Bankart) et une encoche de la tête humérale postéro-latérale (lésion de Hill-Sachs).",
+   "Dans la capsulite rétractile, la capsule s'épaissit et se rétracte, limitant les mouvements dans toutes les directions.",
+   "Lésion SLAP : désinsertion du labrum supérieur à l'insertion du tendon bicipital."
+  ],
+  "tus": [
+   "La stabilité de l'articulation gléno-humérale dépend davantage de la coiffe des rotateurs que des surfaces osseuses.",
+   "La luxation antérieure entraîne une lésion de Hill-Sachs (encoche postéro-supérieure de la tête) et une lésion de Bankart (désinsertion du labrum antéro-inférieur)."
+  ],
+  "aliases": [
+   "épaule"
+  ]
+ },
+ "art-cubiti": {
+  "tr": "Articulation du coude",
+  "summary": "Articulation composée entre l'humérus, l'ulna et le radius dans une capsule unique, formée des articulations huméro-ulnaire, huméro-radiale et radio-ulnaire proximale.",
+  "facts": [
+   "Articulation synoviale composée : huméro-ulnaire (trochléenne), huméro-radiale (sphéroïde), radio-ulnaire proximale (trochoïde)",
+   "Ligament collatéral ulnaire (médial), ligament collatéral radial (latéral), ligament annulaire (anneau autour de la tête radiale)",
+   "Flexion–extension (0–145°) ; pronation–supination dans la radio-ulnaire proximale",
+   "Angle de 10–15° ouvert en dehors entre bras et avant-bras en extension (plus marqué chez la femme)"
+  ],
+  "sections": [
+   [
+    "Fosse cubitale",
+    "Dans le creux triangulaire en avant du coude se trouvent, de dehors en dedans, le tendon du biceps, l'artère brachiale et le nerf médian. En superficie, la veine médiane du coude sert aux prélèvements sanguins."
+   ]
+  ],
+  "clinical": [
+   "La luxation du coude est le plus souvent postérieure.",
+   "L'épicondylite latérale (tennis-elbow) et l'épicondylite médiale (golf-elbow) sont des lésions de surmenage des insertions tendineuses.",
+   "Chez l'enfant, la tête radiale peut glisser hors du ligament annulaire (pronation douloureuse)."
+  ],
+  "tus": [
+   "Les luxations du coude sont le plus souvent postéro-latérales ; la rupture du triangle (olécrâne et épicondyles) distingue la luxation de la fracture.",
+   "En extension, l'olécrâne et les épicondyles sont alignés ; en flexion, ils forment un triangle (triangle de Nélaton/Hueter)."
+  ],
+  "aliases": [
+   "coude"
+  ]
+ },
+ "artt-radioulnares": {
+  "tr": "Articulations radio-ulnaires",
+  "summary": "Les deux articulations synoviales entre les extrémités supérieures et inférieures du radius et de l'ulna, avec la membrane interosseuse entre leurs diaphyses. Ensemble, elles assurent la pronation et la supination.",
+  "facts": [
+   "Articulation trochoïde ; la tête radiale tourne dans l'incisure radiale de l'ulna, à l'intérieur du ligament annulaire",
+   "Articulation trochoïde ; tête de l'ulna – incisure ulnaire du radius ; renforcée par le disque articulaire (partie du TFCC)",
+   "Ses fibres descendent obliquement du radius vers l'ulna ; elles transmettent à l'ulna les forces venant de la main et du radius",
+   "Pronation (rond pronateur, carré pronateur) et supination (supinateur, biceps brachial) ; environ 150° au total"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les lésions du complexe fibrocartilagineux triangulaire (TFCC) sont une cause fréquente de douleur du bord ulnaire du poignet."
+  ],
+  "tus": [
+   "À la radio-ulnaire proximale, la tête radiale tourne dans le ligament annulaire ; en distal, le radius tourne autour de la tête ulnaire.",
+   "Les fibres de la membrane interosseuse descendent du radius vers l'ulna et transmettent à l'ulna les charges venant de la main."
+  ],
+  "aliases": []
+ },
+ "art-radiocarpalis": {
+  "tr": "Articulation radio-carpienne (poignet)",
+  "summary": "Articulation ellipsoïde entre l'extrémité inférieure du radius et le disque articulaire, et la rangée proximale du carpe (scaphoïde, lunatum, triquétrum). L'ulna n'y participe pas directement.",
+  "facts": [
+   "Articulation synoviale ellipsoïde (deux axes)",
+   "Surface articulaire carpienne du radius et disque articulaire – scaphoïde, lunatum, triquétrum",
+   "Ligaments radio-carpiens palmaire et dorsal, ligament ulno-carpien palmaire, ligaments collatéraux radial et ulnaire du carpe",
+   "Flexion–extension, inclinaisons radiale et ulnaire, circumduction ; l'articulation médio-carpienne y contribue beaucoup"
+  ],
+  "sections": [],
+  "clinical": [
+   "La rupture du ligament scapho-lunaire est la cause la plus fréquente d'instabilité du poignet (signe de Terry Thomas : diastasis scapho-lunaire).",
+   "Le kyste synovial du poignet est une tuméfaction kystique issue de la capsule."
+  ],
+  "tus": [
+   "L'articulation radio-carpienne est ellipsoïde : flexion–extension et inclinaisons radiale et ulnaire.",
+   "L'inclinaison ulnaire est plus ample que la radiale car la styloïde radiale descend plus bas."
+  ],
+  "aliases": [
+   "poignet"
+  ]
+ },
+ "artt-manus": {
+  "tr": "Articulations de la main",
+  "summary": "Articulations entre le carpe et les métacarpiens (carpo-métacarpiennes), les métacarpiens et les doigts (métacarpo-phalangiennes) et entre les phalanges (interphalangiennes).",
+  "facts": [
+   "Articulation en selle au pouce (opposition) ; CMC 2–3 presque immobiles, 4–5 peu mobiles",
+   "Articulations condyliennes ; flexion–extension et abduction–adduction ; plaque palmaire et ligaments collatéraux",
+   "Articulations trochléennes ; flexion–extension seule",
+   "Ligaments collatéraux, ligaments palmaires (plaque palmaire), ligaments métacarpiens transverses profonds"
+  ],
+  "sections": [],
+  "clinical": [
+   "Pouce du skieur : rupture du ligament collatéral ulnaire de la MCP du pouce.",
+   "Dans la polyarthrite rhumatoïde apparaissent un coup de vent ulnaire des MCP, des doigts en col de cygne et en boutonnière."
+  ],
+  "tus": [
+   "La 1re CMC est une articulation en selle et permet l'opposition ; les CMC 2 à 5 sont planes.",
+   "Les ligaments collatéraux des MCP sont tendus en flexion : on immobilise donc la main MCP fléchies."
+  ],
+  "aliases": [
+   "doigts",
+   "MCP",
+   "IPP",
+   "IPD"
+  ]
+ }
+}

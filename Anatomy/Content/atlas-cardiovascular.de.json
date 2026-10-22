@@ -1,0 +1,2586 @@
+{
+ "system": "cardiovascular",
+ "entries": [
+  {
+   "id": "cor",
+   "tr": "Herz",
+   "la": "Cor",
+   "en": "Heart",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Muskulöses Organ im mittleren Mediastinum zwischen beiden Lungen, das das Blut durch den Körper pumpt. Es ist etwa faustgroß und hat vier Höhlen: zwei Vorhöfe und zwei Kammern.",
+   "facts": [
+    [
+     "Ağırlık",
+     "Beim Erwachsenen etwa 250–350 g",
+     "Gewicht"
+    ],
+    [
+     "Konum",
+     "Mittleres Mediastinum; zwei Drittel links der Mittellinie, die Herzspitze (Apex cordis) im linken 5. Interkostalraum in der Medioklavikularlinie",
+     "Lage"
+    ],
+    [
+     "Duvar katmanları",
+     "Endokard, Myokard (Herzmuskel), Epikard (viszerales Perikard)",
+     "Wandschichten"
+    ],
+    [
+     "Boşlukları",
+     "Rechter Vorhof, rechte Kammer, linker Vorhof, linke Kammer",
+     "Höhlen"
+    ],
+    [
+     "Kapakları",
+     "Trikuspidal-, Pulmonal-, Mitral- (Bikuspidal-) und Aortenklappe",
+     "Klappen"
+    ],
+    [
+     "Kanlanma",
+     "Rechte und linke Koronararterie",
+     "Blutversorgung"
+    ],
+    [
+     "İnnervasyon",
+     "Plexus cardiacus (Sympathikus: steigert Frequenz und Kontraktionskraft; Parasympathikus – N. vagus: senkt die Herzfrequenz)",
+     "Innervation"
+    ]
+   ],
+   "sections": [
+    [
+     "Blutfluss",
+     "Sauerstoffarmes Blut aus dem Körper gelangt über die Hohlvenen in den rechten Vorhof, durch die Trikuspidalklappe in die rechte Kammer und durch die Pulmonalklappe in den Truncus pulmonalis und die Lunge. Sauerstoffreiches Blut kehrt über die Lungenvenen in den linken Vorhof zurück, fließt durch die Mitralklappe in die linke Kammer und wird durch die Aortenklappe in die Aorta gepumpt."
+    ],
+    [
+     "Erregungsleitungssystem",
+     "Sinusknoten (Schrittmacher; rechter Vorhof) → AV-Knoten → His-Bündel → rechter und linker Tawara-Schenkel → Purkinje-Fasern."
+    ]
+   ],
+   "clinical": [
+    "Der Myokardinfarkt ist der Untergang von Herzmuskel durch den Verschluss einer Koronararterie.",
+    "Bei Herzinsuffizienz kann das Herz nicht so viel Blut pumpen, wie der Körper braucht; Linksherzinsuffizienz führt zum Lungenödem, Rechtsherzinsuffizienz zu Beinödemen und Lebervergrößerung.",
+    "Auskultationsstellen: Aorta (2. ICR rechts), Pulmonalis (2. ICR links), Trikuspidalis (4.–5. ICR links parasternal), Mitralis (Herzspitze)."
+   ],
+   "tus": [
+    "Die Herzspitze ist im linken 5. Interkostalraum knapp medial der Medioklavikularlinie tastbar (Herzspitzenstoß).",
+    "Der erste Herzschlauch beginnt Ende der 3. Woche zu schlagen; die Septierung erfolgt in der 4.–7. Woche."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "ventriculus-sinister",
+    "valvae-cordis",
+    "aa-coronariae",
+    "aorta",
+    "pericardium"
+   ],
+   "models": [
+    "Heart"
+   ],
+   "aliases": [
+    "Herz",
+    "kardial"
+   ]
+  },
+  {
+   "id": "atrium-dextrum",
+   "tr": "Rechter Vorhof",
+   "la": "Atrium dextrum",
+   "en": "Right atrium",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Herzhöhle, die sauerstoffarmes Blut aus dem Körper und aus der Herzwand selbst sammelt. Sie enthält den Sinusknoten, den natürlichen Schrittmacher des Herzens.",
+   "facts": [
+    [
+     "Açılan damarlar",
+     "V. cava superior, V. cava inferior, Sinus coronarius",
+     "Einmündende Gefäße"
+    ],
+    [
+     "İç yapılar",
+     "Herzohr (Auricula dextra), Mm. pectinati, Crista terminalis, Fossa ovalis (Rest des Foramen ovale), Valvula venae cavae inferioris",
+     "Innere Strukturen"
+    ],
+    [
+     "İleti sistemi",
+     "Sinusknoten (nahe der Mündung der V. cava superior), AV-Knoten (im Koch-Dreieck)",
+     "Erregungsleitungssystem"
+    ],
+    [
+     "Çıkış",
+     "In die rechte Kammer durch das Ostium atrioventriculare dextrum (Trikuspidalklappe)",
+     "Abfluss"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Schließt sich das Foramen ovale nach der Geburt nicht (offenes Foramen ovale), besteht die Gefahr einer paradoxen Embolie.",
+    "Ein Vorhofseptumdefekt (ASD) führt zur Volumenbelastung des rechten Herzens."
+   ],
+   "tus": [
+    "Der glatte Teil des rechten Vorhofs (Sinus venarum cavarum) stammt vom Sinus venosus, der muskulöse Teil (Mm. pectinati) vom primitiven Vorhof; die Crista terminalis bildet die Grenze.",
+    "An der Mündung der V. cava inferior liegt die Valvula venae cavae inferioris (Eustachi), an der Mündung des Sinus coronarius die Valvula sinus coronarii (Thebesius)."
+   ],
+   "related": [
+    "cor",
+    "ventriculus-dexter",
+    "v-cava-superior",
+    "v-cava-inferior",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Right atrium"
+   ],
+   "aliases": [
+    "rechter Vorhof",
+    "rechtes Atrium"
+   ]
+  },
+  {
+   "id": "ventriculus-dexter",
+   "tr": "Rechte Kammer",
+   "la": "Ventriculus dexter",
+   "en": "Right ventricle",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Herzhöhle, die sauerstoffarmes Blut in die Lunge pumpt. Sie bildet den größten Teil der Herzvorderfläche; ihre Wand ist etwa dreimal dünner als die der linken Kammer.",
+   "facts": [
+    [
+     "Giriş",
+     "Trikuspidalklappe",
+     "Zufluss"
+    ],
+    [
+     "Çıkış",
+     "Conus arteriosus (Infundibulum) und Pulmonalklappe in den Truncus pulmonalis",
+     "Abfluss"
+    ],
+    [
+     "İç yapılar",
+     "Trabeculae carneae, Papillarmuskeln (anterior, posterior, septalis), Chordae tendineae, Trabecula septomarginalis (Moderatorband – führt den rechten Tawara-Schenkel)",
+     "Innere Strukturen"
+    ],
+    [
+     "Duvar kalınlığı",
+     "3–5 mm",
+     "Wanddicke"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Pulmonale Hypertonie führt zu rechtsventrikulärer Hypertrophie und Insuffizienz (Cor pulmonale).",
+    "Die rechtsventrikuläre Hypertrophie ist ein Bestandteil der Fallot-Tetralogie."
+   ],
+   "tus": [
+    "Das Innere der rechten Kammer ist trabekuliert (Trabeculae carneae); ihr Ausflusstrakt (Infundibulum) ist glattwandig.",
+    "Die Trikuspidalklappe hat drei Segel (anterior, posterior, septal) und drei Papillarmuskeln."
+   ],
+   "related": [
+    "cor",
+    "atrium-dextrum",
+    "truncus-pulmonalis",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Right ventricle",
+    "Anterior papillary muscle of right ventricle",
+    "Inferior papillary muscle of right ventricle",
+    "Septal papillary muscle of right ventricle"
+   ],
+   "aliases": [
+    "rechter Ventrikel",
+    "rechte Herzkammer"
+   ]
+  },
+  {
+   "id": "atrium-sinistrum",
+   "tr": "Linker Vorhof",
+   "la": "Atrium sinistrum",
+   "en": "Left atrium",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Herzhöhle, die sauerstoffreiches Blut aus der Lunge sammelt und den größten Teil der Herzbasis (Basis cordis) bildet. Sie ist die am weitesten hinten gelegene Herzhöhle und grenzt an die Speiseröhre.",
+   "facts": [
+    [
+     "Açılan damarlar",
+     "Vier Lungenvenen",
+     "Einmündende Gefäße"
+    ],
+    [
+     "Çıkış",
+     "In die linke Kammer durch die Mitralklappe",
+     "Abfluss"
+    ],
+    [
+     "İç yapılar",
+     "Wand größtenteils glatt; Mm. pectinati finden sich im linken Herzohr",
+     "Innere Strukturen"
+    ],
+    [
+     "Komşuluk",
+     "Dahinter liegt der Ösophagus – gut darstellbar in der transösophagealen Echokardiographie",
+     "Lagebeziehungen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei Vorhofflimmern kann das Blut im linken Herzohr gerinnen und einen Schlaganfall verursachen.",
+    "Bei Mitralstenose kann der vergrößerte linke Vorhof auf die Speiseröhre drücken und Schluckbeschwerden verursachen."
+   ],
+   "tus": [
+    "In den linken Vorhof münden vier Lungenvenen; das linke Herzohr ist der häufigste Ort von Thromben (Vorhofflimmern).",
+    "Außer im Herzohr ist die Wand des linken Vorhofs glatt; sie stammt von den Lungenvenen."
+   ],
+   "related": [
+    "cor",
+    "ventriculus-sinister",
+    "vv-pulmonales",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Left atrium"
+   ],
+   "aliases": [
+    "linker Vorhof",
+    "linkes Atrium"
+   ]
+  },
+  {
+   "id": "ventriculus-sinister",
+   "tr": "Linke Kammer",
+   "la": "Ventriculus sinister",
+   "en": "Left ventricle",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Die kräftigste Herzhöhle; sie pumpt sauerstoffreiches Blut über die Aorta in den ganzen Körper. Sie bildet die Herzspitze und den linken Herzrand.",
+   "facts": [
+    [
+     "Giriş",
+     "Mitral- (Bikuspidal-)klappe",
+     "Zufluss"
+    ],
+    [
+     "Çıkış",
+     "Vestibulum aortae und Aortenklappe",
+     "Abfluss"
+    ],
+    [
+     "İç yapılar",
+     "Feine, dichte Trabeculae carneae, zwei kräftige Papillarmuskeln (anterior und posterior), Chordae tendineae",
+     "Innere Strukturen"
+    ],
+    [
+     "Duvar kalınlığı",
+     "8–12 mm",
+     "Wanddicke"
+    ],
+    [
+     "Ejeksiyon fraksiyonu",
+     "Normal 55–70 %",
+     "Ejektionsfraktion"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bluthochdruck und Aortenstenose führen zur linksventrikulären Hypertrophie.",
+    "Beim Vorderwandinfarkt (Verschluss des RIVA) sind die Vorderwand der linken Kammer und das Septum betroffen; ein Papillarmuskelabriss kann eine akute Mitralinsuffizienz verursachen."
+   ],
+   "tus": [
+    "Das vordere Mitralsegel steht in fibröser Kontinuität mit der Aortenklappe.",
+    "Die linksventrikuläre Wand ist etwa dreimal dicker als die rechte (~10–15 mm)."
+   ],
+   "related": [
+    "cor",
+    "atrium-sinistrum",
+    "aorta",
+    "valvae-cordis",
+    "aa-coronariae"
+   ],
+   "models": [
+    "Left ventricle",
+    "Inferior papillary muscle of left ventricle"
+   ],
+   "aliases": [
+    "linker Ventrikel",
+    "linke Herzkammer"
+   ]
+  },
+  {
+   "id": "valvae-cordis",
+   "tr": "Herzklappen",
+   "la": "Valvae cordis",
+   "en": "Heart valves",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Die vier Klappen, die dafür sorgen, dass das Blut im Herzen nur in eine Richtung fließt: zwei Segelklappen (Trikuspidal- und Mitralklappe) und zwei Taschenklappen (Pulmonal- und Aortenklappe).",
+   "facts": [
+    [
+     "Triküspit kapak",
+     "Valva atrioventricularis dextra – drei Segel (anterior, posterior, septal)",
+     "Trikuspidalklappe"
+    ],
+    [
+     "Mitral kapak",
+     "Valva atrioventricularis sinistra – zwei Segel (anterior und posterior)",
+     "Mitralklappe"
+    ],
+    [
+     "Pulmoner kapak",
+     "Valva trunci pulmonalis – drei Taschen",
+     "Pulmonalklappe"
+    ],
+    [
+     "Aort kapağı",
+     "Valva aortae – drei Taschen (rechts-koronar, links-koronar, akoronar); aus ihren Sinus entspringen die Koronararterien",
+     "Aortenklappe"
+    ],
+    [
+     "Destek yapıları",
+     "Die Segelklappen sind über Chordae tendineae an den Papillarmuskeln befestigt; das Herzskelett (Anuli fibrosi) trägt die Klappen",
+     "Haltestrukturen"
+    ]
+   ],
+   "sections": [
+    [
+     "Herztöne",
+     "Der 1. Herzton entsteht beim Schluss der Segelklappen, der 2. Herzton beim Schluss der Taschenklappen."
+    ]
+   ],
+   "clinical": [
+    "Das rheumatische Fieber befällt am häufigsten die Mitralklappe.",
+    "Bei älteren Menschen verursacht die (kalzifizierende) Aortenstenose Synkopen, Angina pectoris und Herzinsuffizienz.",
+    "Die infektiöse Endokarditis bildet Vegetationen an den Klappensegeln."
+   ],
+   "tus": [
+    "Taschenklappen haben weder Chordae noch Papillarmuskeln; die Koronararterien entspringen aus den Sinus hinter der Aortenklappe.",
+    "Die Herzklappen sind am Herzskelett (Anuli fibrosi) befestigt, das Vorhöfe und Kammern auch elektrisch voneinander isoliert."
+   ],
+   "related": [
+    "cor",
+    "atrium-dextrum",
+    "ventriculus-sinister",
+    "aorta"
+   ],
+   "models": [
+    "Valvular complex of heart"
+   ],
+   "aliases": [
+    "Klappe",
+    "Mitralklappe",
+    "Trikuspidalklappe",
+    "Aortenklappe",
+    "Pulmonalklappe"
+   ]
+  },
+  {
+   "id": "aa-coronariae",
+   "tr": "Koronararterien",
+   "la": "Arteriae coronariae",
+   "en": "Coronary arteries",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Die beiden Arterien aus der Aortenwurzel, die den Herzmuskel versorgen. Die linke Koronararterie teilt sich nach kurzem Stamm in den R. interventricularis anterior (RIVA) und den R. circumflexus.",
+   "facts": [
+    [
+     "A. coronaria sinistra",
+     "Aus dem linken Aortensinus; Hauptstamm → R. interventricularis anterior (RIVA) und R. circumflexus",
+     "A. coronaria sinistra"
+    ],
+    [
+     "A. coronaria dextra",
+     "Aus dem rechten Aortensinus; verläuft im Sulcus coronarius; R. marginalis dexter, R. interventricularis posterior (bei den meisten – Rechtsversorgungstyp), Sinus- und AV-Knoten-Äste",
+     "A. coronaria dextra"
+    ],
+    [
+     "LAD beslediği alan",
+     "Vorderwand der linken Kammer, vordere 2/3 des Kammerseptums, Herzspitze",
+     "Versorgungsgebiet des RIVA"
+    ],
+    [
+     "Sirkumfleks beslediği alan",
+     "Seiten- und Hinterwand der linken Kammer, linker Vorhof",
+     "Versorgungsgebiet des R. circumflexus"
+    ],
+    [
+     "Sağ koroner beslediği alan",
+     "Rechter Vorhof und rechte Kammer, hinteres 1/3 des Septums, Sinusknoten (60 %) und AV-Knoten (80 %)",
+     "Versorgungsgebiet der rechten Koronararterie"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der RIVA gilt als „Witwenmacher“; sein Verschluss verursacht einen ausgedehnten Vorderwandinfarkt.",
+    "Ein Verschluss der rechten Koronararterie kann einen Hinterwandinfarkt und einen AV-Block verursachen.",
+    "In der Bypasschirurgie dienen die A. thoracica interna und die V. saphena magna als Transplantate."
+   ],
+   "tus": [
+    "Die Koronararterien füllen sich in der Diastole; das Subendokard der linken Kammer ist am empfindlichsten für Ischämie.",
+    "Der linke Hauptstamm teilt sich in RIVA und R. circumflexus; manchmal entspringt dazwischen ein R. intermedius."
+   ],
+   "related": [
+    "cor",
+    "aorta",
+    "venae-cordis",
+    "ventriculus-sinister"
+   ],
+   "models": [
+    "Arteries of heart",
+    "Left coronary artery",
+    "Right coronary artery",
+    "Anterior interventricular artery",
+    "Circumflex artery of heart"
+   ],
+   "aliases": [
+    "Koronararterie",
+    "RIVA",
+    "LAD",
+    "Circumflexus"
+   ]
+  },
+  {
+   "id": "venae-cordis",
+   "tr": "Herzvenen",
+   "la": "Venae cordis",
+   "en": "Cardiac veins",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Die Venen, die sauerstoffarmes Blut aus der Herzwand sammeln. Die meisten münden in den Sinus coronarius im Sulcus coronarius an der Herzhinterwand.",
+   "facts": [
+    [
+     "Sinus coronarius",
+     "Mündet in den rechten Vorhof",
+     "Sinus coronarius"
+    ],
+    [
+     "Ana venler",
+     "V. cordis magna (mit dem RIVA), V. cordis media (in der hinteren Interventrikularfurche), V. cordis parva, V. ventriculi sinistri posterior",
+     "Hauptvenen"
+    ],
+    [
+     "Doğrudan açılanlar",
+     "Vv. cordis anteriores und Vv. cordis minimae (Thebesius)",
+     "Direkt einmündend"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei der kardialen Resynchronisationstherapie wird die linksventrikuläre Sonde über den Sinus coronarius in eine Herzvene gelegt."
+   ],
+   "tus": [
+    "Die Vv. cordis minimae (Thebesius) münden direkt in die Herzhöhlen; die Vv. cordis anteriores münden in den rechten Vorhof.",
+    "Der Sinus coronarius sammelt die meisten Herzvenen und mündet in den rechten Vorhof; bei der Resynchronisationstherapie wird hier die Sonde platziert."
+   ],
+   "related": [
+    "aa-coronariae",
+    "atrium-dextrum",
+    "cor"
+   ],
+   "models": [
+    "Cardiac veins",
+    "Coronary sinus",
+    "Great cardiac vein",
+    "Middle cardiac vein"
+   ],
+   "aliases": [
+    "Sinus coronarius",
+    "Koronarsinus"
+   ]
+  },
+  {
+   "id": "pericardium",
+   "tr": "Herzbeutel",
+   "la": "Pericardium",
+   "en": "Pericardium",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Zweischichtiger Sack, der das Herz und die Wurzeln der großen Gefäße umhüllt. Außen liegt das derbe Pericardium fibrosum, innen das Pericardium serosum (parietales und viszerales Blatt).",
+   "facts": [
+    [
+     "Katmanlar",
+     "Pericardium fibrosum und Pericardium serosum (Lamina parietalis und visceralis – Epikard)",
+     "Schichten"
+    ],
+    [
+     "Boşluk",
+     "Cavitas pericardiaca; enthält 15–50 mL Gleitflüssigkeit",
+     "Höhle"
+    ],
+    [
+     "Sinüsler",
+     "Sinus transversus pericardii (hinter Aorta und Truncus pulmonalis), Sinus obliquus pericardii (hinter dem linken Vorhof)",
+     "Sinus"
+    ],
+    [
+     "İnnervasyon",
+     "N. phrenicus (sensibel)",
+     "Innervation"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Perikarditis verursacht stechende Brustschmerzen, die sich beim Vorbeugen bessern, und ein Perikardreiben.",
+    "Bei der Herzbeuteltamponade verhindert die Flüssigkeit im Perikardraum die Füllung des Herzens (Beck-Trias: Hypotonie, gestaute Halsvenen, leise Herztöne)."
+   ],
+   "tus": [
+    "Unten ist das Pericardium fibrosum mit dem Centrum tendineum des Zwerchfells verwachsen, vorn über die Ligg. sternopericardiaca am Sternum befestigt.",
+    "Ein Perikarderguss kann im EKG Niedervoltage und elektrischen Alternans zeigen."
+   ],
+   "related": [
+    "cor",
+    "n-phrenicus"
+   ],
+   "models": [
+    "Pericardium"
+   ],
+   "aliases": [
+    "Perikard"
+   ]
+  },
+  {
+   "id": "truncus-pulmonalis",
+   "tr": "Lungenarterienstamm",
+   "la": "Truncus pulmonalis",
+   "en": "Pulmonary trunk",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Große Arterie aus der rechten Kammer, die sauerstoffarmes Blut zur Lunge führt. Unter dem Aortenbogen teilt sie sich in die rechte und linke Lungenarterie.",
+   "facts": [
+    [
+     "Köken",
+     "Conus arteriosus der rechten Kammer (Pulmonalklappe)",
+     "Ursprung"
+    ],
+    [
+     "Dalları",
+     "A. pulmonalis dextra und sinistra; sie verzweigen sich zu den Lungenlappen und -segmenten",
+     "Äste"
+    ],
+    [
+     "İlişki",
+     "Das Lig. arteriosum (Rest des fetalen Ductus arteriosus) verbindet die Bifurkation mit dem Aortenbogen",
+     "Lagebeziehungen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Lungenembolie ist meist ein Gerinnsel aus den tiefen Beinvenen, das die Lungenarterien verschließt.",
+    "Beim offenen Ductus arteriosus hört man ein kontinuierliches (Maschinen-)Geräusch von der Aorta zur Lungenarterie."
+   ],
+   "tus": [
+    "Der Truncus pulmonalis beginnt vor der Aorta und teilt sich unter dem Aortenbogen in rechte und linke Lungenarterie.",
+    "Ein Embolus kann an der Bifurkation des Truncus als „reitender Embolus“ hängen bleiben."
+   ],
+   "related": [
+    "ventriculus-dexter",
+    "pulmones",
+    "aorta"
+   ],
+   "models": [
+    "Pulmonary arteries",
+    "Pulmonary trunk",
+    "Left pulmonary artery",
+    "Right pulmonary artery"
+   ],
+   "aliases": [
+    "Truncus pulmonalis",
+    "Lungenarterie",
+    "Pulmonalarterie"
+   ]
+  },
+  {
+   "id": "vv-pulmonales",
+   "tr": "Lungenvenen",
+   "la": "Venae pulmonales",
+   "en": "Pulmonary veins",
+   "group": "Herz",
+   "region": "thorax",
+   "summary": "Meist vier Venen (zwei rechte, zwei linke), die sauerstoffreiches Blut aus der Lunge zum linken Vorhof bringen. Sie sind die einzigen Venen, die sauerstoffreiches Blut führen.",
+   "facts": [
+    [
+     "Sayı",
+     "Meist 4: V. pulmonalis dextra superior und inferior, sinistra superior und inferior",
+     "Anzahl"
+    ],
+    [
+     "Döküldüğü yer",
+     "Linker Vorhof",
+     "Mündet in"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei der Behandlung von Vorhofflimmern werden die Mündungen der Lungenvenen per Katheter isoliert (Ablation)."
+   ],
+   "tus": [
+    "Die Lungenvenen sind die einzigen Venen mit sauerstoffreichem Blut; aus jeder Lunge kommen meist zwei.",
+    "Ektope Herde des Vorhofflimmerns liegen oft an den Lungenvenenmündungen; die Ablation isoliert diesen Bereich."
+   ],
+   "related": [
+    "atrium-sinistrum",
+    "pulmones"
+   ],
+   "models": [
+    "Pulmonary veins",
+    "Left superior pulmonary vein",
+    "Left inferior pulmonary vein",
+    "Right superior pulmonary vein",
+    "Right inferior pulmonary vein"
+   ],
+   "aliases": [
+    "Vv. pulmonales",
+    "Pulmonalvenen"
+   ]
+  },
+  {
+   "id": "aorta",
+   "tr": "Aorta",
+   "la": "Aorta",
+   "en": "Aorta",
+   "group": "Aorta und ihre Äste",
+   "region": "thorax",
+   "summary": "Die größte Arterie des Körpers; sie entspringt der linken Kammer und verteilt sauerstoffreiches Blut im ganzen Körper. Sie besteht aus Aorta ascendens, Aortenbogen, absteigender Brustaorta und Bauchaorta.",
+   "facts": [
+    [
+     "Köken",
+     "Linke Kammer (Aortenklappe)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Die Pars ascendens steigt auf, der Arcus aortae zieht über den linken Hauptbronchus nach hinten (Höhe T4), die Pars thoracica steigt links der Wirbelsäule ab, tritt durch den Hiatus aorticus (T12) in den Bauch und teilt sich in Höhe L4 in die Aa. iliacae communes",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "Aorta ascendens: Aa. coronariae; Bogen: Truncus brachiocephalicus, A. carotis communis sinistra, A. subclavia sinistra; Brustaorta: Aa. intercostales posteriores, Rr. bronchiales und oesophageales; Bauchaorta: Truncus coeliacus, A. mesenterica superior und inferior, Aa. renales, Aa. suprarenales, Aa. testiculares/ovaricae, Aa. lumbales, A. sacralis mediana",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Der ganze Körper (Körperkreislauf)",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Das Bauchaortenaneurysma entsteht meist unterhalb der Nierenarterien; seine Ruptur ist tödlich.",
+    "Bei der Aortendissektion reißt die innere Wandschicht ein; typisch ist ein reißender, in den Rücken ausstrahlender Brustschmerz.",
+    "Bei der Aortenisthmusstenose ist der Blutdruck an den Armen höher als an den Beinen; Rippenusuren durch erweiterte Interkostalarterien sind sichtbar."
+   ],
+   "tus": [
+    "In der Aorta ascendens liegen die Aortensinus (Valsalva) und die Abgänge der Koronararterien.",
+    "Die Aortendissektion wird nach Stanford in A (Aorta ascendens betroffen – Operation) und B (nur absteigende Aorta) eingeteilt."
+   ],
+   "related": [
+    "ventriculus-sinister",
+    "truncus-brachiocephalicus",
+    "truncus-coeliacus",
+    "aa-renales",
+    "a-iliaca-communis"
+   ],
+   "models": [
+    "Aorta",
+    "Ascending aorta",
+    "Aortic arch",
+    "Thoracic aorta",
+    "Abdominal aorta"
+   ],
+   "aliases": [
+    "Hauptschlagader"
+   ]
+  },
+  {
+   "id": "truncus-brachiocephalicus",
+   "tr": "Truncus brachiocephalicus",
+   "la": "Truncus brachiocephalicus",
+   "en": "Brachiocephalic trunk",
+   "group": "Aorta und ihre Äste",
+   "region": "thorax",
+   "summary": "Der erste und größte Ast des Aortenbogens; er kommt nur rechts vor.",
+   "facts": [
+    [
+     "Köken",
+     "Aortenbogen",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Steigt vor der Trachea nach rechts oben; teilt sich hinter dem rechten Sternoklavikulargelenk",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. carotis communis dextra, A. subclavia dextra",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Rechte Kopf- und Halshälfte, rechte obere Extremität",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei zu tief angelegter Tracheotomie kann er verletzt werden."
+   ],
+   "tus": [
+    "Der Truncus brachiocephalicus steigt vor der Trachea auf; bei zu tiefer Tracheotomie kann er verletzt werden.",
+    "Bei manchen Menschen entspringt die A. thyroidea ima aus dem Truncus brachiocephalicus."
+   ],
+   "related": [
+    "aorta",
+    "a-carotis-communis",
+    "a-subclavia"
+   ],
+   "models": [
+    "Brachiocephalic trunk"
+   ],
+   "aliases": [
+    "Arm-Kopf-Schlagader",
+    "A. anonyma"
+   ]
+  },
+  {
+   "id": "a-carotis-communis",
+   "tr": "Gemeinsame Halsschlagader",
+   "la": "A. carotis communis",
+   "en": "Common carotid artery",
+   "group": "Arterien von Kopf und Hals",
+   "region": "neck",
+   "summary": "Die Hauptarterie von Kopf und Hals, die auf jeder Halsseite aufsteigt. In Höhe des Oberrands des Schildknorpels teilt sie sich in die A. carotis interna und externa.",
+   "facts": [
+    [
+     "Köken",
+     "Rechts aus dem Truncus brachiocephalicus, links direkt aus dem Aortenbogen",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Steigt in der Karotisscheide mit der V. jugularis interna (lateral) und dem N. vagus (dorsal) auf; teilt sich in Höhe C4 (Oberrand des Schildknorpels)",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. carotis interna, A. carotis externa (der Stamm selbst gibt keine Äste ab)",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Kopf und Hals",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [
+    [
+     "Glomus und Sinus caroticus",
+     "An der Gabelung misst der Sinus caroticus den Blutdruck (Barorezeptor), das Glomus caroticum den O2/CO2-Gehalt des Blutes (Chemorezeptor); beide werden vom N. glossopharyngeus innerviert."
+    ]
+   ],
+   "clinical": [
+    "Der Karotispuls wird am Vorderrand des M. sternocleidomastoideus in Höhe des Schildknorpels getastet.",
+    "Karotissinusmassage senkt die Herzfrequenz über eine Vagusreaktion.",
+    "Arteriosklerotische Plaques an der Karotisgabel sind eine wichtige Schlaganfallursache."
+   ],
+   "tus": [
+    "Die rechte A. carotis communis entspringt aus dem Truncus brachiocephalicus, die linke direkt aus dem Aortenbogen.",
+    "Der Karotispuls wird in Höhe des Schildknorpel-Oberrands am Vorderrand des SCM getastet."
+   ],
+   "related": [
+    "a-carotis-interna",
+    "a-carotis-externa",
+    "truncus-brachiocephalicus",
+    "v-jugularis-interna",
+    "n-vagus"
+   ],
+   "models": [
+    "Left common carotid artery",
+    "Right common carotid artery"
+   ],
+   "aliases": [
+    "A. carotis communis",
+    "Karotis",
+    "Halsschlagader"
+   ]
+  },
+  {
+   "id": "a-carotis-interna",
+   "tr": "Innere Halsschlagader",
+   "la": "A. carotis interna",
+   "en": "Internal carotid artery",
+   "group": "Arterien von Kopf und Hals",
+   "region": "head",
+   "summary": "Arterie für die vorderen und mittleren Hirnabschnitte und das Auge. Am Hals gibt sie keine Äste ab.",
+   "facts": [
+    [
+     "Köken",
+     "A. carotis communis (Höhe C4)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Steigt am Hals ohne Äste auf, tritt durch den Canalis caroticus in die Schädelbasis, zieht durch den Sinus cavernosus (Karotissiphon) und teilt sich in A. cerebri anterior und media",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. ophthalmica, A. communicans posterior, A. choroidea anterior, A. cerebri anterior, A. cerebri media",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Der größte Teil der Großhirnhemisphären, Auge und Orbita, Stirnhaut",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Stenose kann transitorische ischämische Attacken und eine flüchtige Erblindung des gleichseitigen Auges (Amaurosis fugax) verursachen.",
+    "Ein Einriss im Sinus cavernosus führt zur Karotis-Sinus-cavernosus-Fistel (pulsierender Exophthalmus)."
+   ],
+   "tus": [
+    "Intrakranielle Abschnitte der ACI: petrös, kavernös (im Sinus), klinoidal und supraklinoidal (Äste A. ophthalmica, A. communicans posterior, A. choroidea anterior).",
+    "Bei Karotisstenose entsteht die Amaurosis fugax (flüchtige einseitige Erblindung) durch Emboli in die A. ophthalmica."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "circulus-arteriosus",
+    "cerebrum",
+    "sinus-durae-matris"
+   ],
+   "models": [
+    "Internal carotid artery",
+    "Ophthalmic artery"
+   ],
+   "aliases": [
+    "A. carotis interna",
+    "ACI"
+   ]
+  },
+  {
+   "id": "a-carotis-externa",
+   "tr": "Äußere Halsschlagader",
+   "la": "A. carotis externa",
+   "en": "External carotid artery",
+   "group": "Arterien von Kopf und Hals",
+   "region": "neck",
+   "summary": "Arterie für die Strukturen von Hals und Gesicht, die Kopfhaut und die Dura mater.",
+   "facts": [
+    [
+     "Köken",
+     "A. carotis communis (Höhe C4)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Steigt am Hals auf und teilt sich in der Glandula parotidea in Höhe des Unterkieferhalses in A. temporalis superficialis und A. maxillaris",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. thyroidea superior, A. lingualis, A. facialis, A. pharyngea ascendens, A. occipitalis, A. auricularis posterior, A. maxillaris, A. temporalis superficialis",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Schilddrüse, Kehlkopf, Zunge, Gesicht, Rachen, Kopfhaut, Kiefer, Zähne, Nasenhöhle, Dura mater (A. meningea media)",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die A. meningea media (Ast der A. maxillaris) reißt bei Frakturen im Bereich des Pterion und verursacht ein epidurales Hämatom.",
+    "Die meisten Fälle von Nasenbluten (Epistaxis) stammen aus dem Locus Kiesselbachi, gebildet aus Ästen der A. sphenopalatina und A. facialis.",
+    "Die A. temporalis superficialis ist bei der Riesenzellarteriitis (Arteriitis temporalis) betroffen."
+   ],
+   "tus": [
+    "Die A. lingualis zieht in die Tiefe des M. hyoglossus, der N. hypoglossus dagegen auf seiner Oberfläche.",
+    "Die ACE kann bei schweren Nasen- und Gesichtsblutungen ligiert werden; sie hat breite Anastomosen zur Gegenseite und zu Ästen der ACI."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "glandula-thyroidea",
+    "meninges"
+   ],
+   "models": [
+    "External carotid artery",
+    "Facial artery",
+    "Superficial temporal artery",
+    "Maxillary artery",
+    "Occipital artery",
+    "Middle meningeal artery",
+    "Ascending pharyngeal artery"
+   ],
+   "aliases": [
+    "A. carotis externa",
+    "ACE",
+    "A. facialis",
+    "A. meningea media"
+   ]
+  },
+  {
+   "id": "a-vertebralis",
+   "tr": "Wirbelarterie",
+   "la": "A. vertebralis",
+   "en": "Vertebral artery",
+   "group": "Arterien von Kopf und Hals",
+   "region": "neck",
+   "summary": "Arterie, die durch die Löcher der Halswirbel in den Schädel aufsteigt und Hirnstamm, Kleinhirn und hinteren Hirnabschnitt versorgt. Beide Wirbelarterien vereinigen sich zur A. basilaris.",
+   "facts": [
+    [
+     "Köken",
+     "Erster Ast der A. subclavia",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Steigt durch die Foramina transversaria von C6–C1 auf, windet sich über den hinteren Atlasbogen, tritt durch das Foramen magnum in den Schädel und vereinigt sich am pontomedullären Übergang mit der Gegenseite zur A. basilaris",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. spinalis anterior und posterior, A. inferior posterior cerebelli (PICA); aus der A. basilaris: AICA, Rr. ad pontem, A. superior cerebelli, A. cerebri posterior",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Oberes Rückenmark, Hirnstamm, Kleinhirn, Innenohr, Okzipitallappen",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die vertebrobasiläre Insuffizienz verursacht Schwindel, Doppelbilder, Sturzattacken (drop attacks) und Dysarthrie.",
+    "Eine Dissektion der A. vertebralis nach Manipulation der Halswirbelsäule gehört zu den Ursachen von Schlaganfällen bei jungen Menschen.",
+    "Beim Subclavian-Steal-Syndrom kehrt sich der Fluss in der A. vertebralis um."
+   ],
+   "tus": [
+    "Die vier Abschnitte der A. vertebralis: V1 (präforaminal), V2 (foraminal), V3 (Atlasschlinge), V4 (intrakraniell).",
+    "Manipulation und Trauma der HWS können eine Vertebralisdissektion und einen Infarkt im hinteren Stromgebiet verursachen."
+   ],
+   "related": [
+    "a-subclavia",
+    "circulus-arteriosus",
+    "cerebellum",
+    "medulla-oblongata",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Vertebral artery",
+    "Basilar artery"
+   ],
+   "aliases": [
+    "A. vertebralis",
+    "A. basilaris"
+   ]
+  },
+  {
+   "id": "circulus-arteriosus",
+   "tr": "Circulus arteriosus Willisii",
+   "la": "Circulus arteriosus cerebri (Willisi)",
+   "en": "Circle of Willis",
+   "group": "Arterien von Kopf und Hals",
+   "region": "head",
+   "summary": "Arterienring an der Hirnbasis um Hypophysenstiel und Chiasma opticum, der das Karotis- und das vertebrobasiläre System verbindet.",
+   "facts": [
+    [
+     "Köken",
+     "Aa. carotides internae und A. basilaris",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Bildet einen Ring um die Fossa interpeduncularis",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. cerebri anterior (beidseits), A. communicans anterior, A. carotis interna (Endabschnitt), A. communicans posterior (beidseits), A. cerebri posterior (beidseits)",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "A. cerebri anterior: Innenfläche der Hemisphären (motorisches und sensibles Beinareal); A. cerebri media: Außenfläche (Gesicht und Arm, Sprachareale); A. cerebri posterior: Okzipitallappen und Unterfläche des Temporallappens, Thalamus",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die meisten Hirnaneurysmen (Beerenaneurysmen) entstehen im vorderen Ringabschnitt, besonders an der A. communicans anterior; ihre Ruptur verursacht eine Subarachnoidalblutung.",
+    "Varianten des Rings sind häufig; nur 20–25 % der Menschen haben einen „klassischen“ vollständigen Ring."
+   ],
+   "tus": [
+    "Varianten des Circulus Willisii sind häufig; ein vollständiger Ring findet sich nur bei etwa der Hälfte der Menschen.",
+    "Ein Aneurysma der A. communicans posterior kann sich mit einer Okulomotoriusparese, eines der A. communicans anterior mit Gesichtsfeldausfall und SAB zeigen."
+   ],
+   "related": [
+    "a-carotis-interna",
+    "a-vertebralis",
+    "cerebrum",
+    "hypothalamus"
+   ],
+   "models": [
+    "Cerebral arterial circle",
+    "Anterior communicating artery",
+    "Posterior communicating artery",
+    "Anterior cerebral artery",
+    "Middle cerebral artery (M1-segment)",
+    "Posterior cerebral artery"
+   ],
+   "aliases": [
+    "Willis",
+    "A. cerebri media",
+    "Hirnarterie",
+    "MCA"
+   ]
+  },
+  {
+   "id": "a-subclavia",
+   "tr": "Schlüsselbeinarterie",
+   "la": "A. subclavia",
+   "en": "Subclavian artery",
+   "group": "Arterien von Kopf und Hals",
+   "region": "neck",
+   "summary": "Die Hauptarterie der oberen Extremität, die auch wichtige Äste zu Hals und Brustwand abgibt. Am Außenrand der ersten Rippe wird sie zur A. axillaris.",
+   "facts": [
+    [
+     "Köken",
+     "Rechts aus dem Truncus brachiocephalicus, links aus dem Aortenbogen",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht vor der Pleurakuppel, hinter dem M. scalenus anterior (Skalenuslücke) und über die 1. Rippe zum Arm",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. vertebralis, A. thoracica interna, Truncus thyrocervicalis, Truncus costocervicalis, A. dorsalis scapulae",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Obere Extremität, Gehirn (A. vertebralis), Hals, vordere Brustwand und Brustdrüse (A. thoracica interna)",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Subclavian-Steal-Syndrom: eine Stenose der A. subclavia vor dem Abgang der A. vertebralis verursacht Schwindel bei Armarbeit.",
+    "Beim Legen eines zentralen Venenkatheters kann die Arterie versehentlich punktiert werden."
+   ],
+   "tus": [
+    "Die A. subclavia wird durch den M. scalenus anterior in drei Abschnitte geteilt; A. vertebralis, A. thoracica interna und Truncus thyrocervicalis entspringen aus dem 1. Abschnitt.",
+    "Entspringt die rechte A. subclavia als letzter Ast des Aortenbogens (A. lusoria), kann sie die Speiseröhre komprimieren und Schluckbeschwerden verursachen (Dysphagia lusoria)."
+   ],
+   "related": [
+    "a-axillaris",
+    "a-vertebralis",
+    "mm-scaleni",
+    "truncus-brachiocephalicus"
+   ],
+   "models": [
+    "Left subclavian artery",
+    "Right subclavian artery",
+    "Thyrocervical trunk",
+    "Costocervical trunk",
+    "Internal thoracic artery"
+   ],
+   "aliases": [
+    "A. subclavia",
+    "A. thoracica interna"
+   ]
+  },
+  {
+   "id": "a-axillaris",
+   "tr": "Achselarterie",
+   "la": "A. axillaris",
+   "en": "Axillary artery",
+   "group": "Arterien der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Fortsetzung der A. subclavia vom Außenrand der ersten Rippe bis zum Unterrand des M. teres major. Der M. pectoralis minor teilt sie in drei Abschnitte.",
+   "facts": [
+    [
+     "Köken",
+     "Fortsetzung der A. subclavia (Außenrand der 1. Rippe)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht von den Faszikeln des Plexus brachialis umgeben durch die Achselhöhle; am Unterrand des M. teres major wird sie zur A. brachialis",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "1. Abschnitt: A. thoracica superior; 2. Abschnitt: A. thoracoacromialis, A. thoracica lateralis; 3. Abschnitt: A. subscapularis, A. circumflexa humeri anterior und posterior",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Schulter, Brustwand, Brustdrüse, Achselhöhle",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei Schulterluxationen und Frakturen des Humerushalses kann sie verletzt werden.",
+    "Ein reiches Kollateralnetz um das Schulterblatt (Skapulaanastomose) versorgt den Arm bei Verschluss der A. subclavia."
+   ],
+   "tus": [
+    "Die A. axillaris beginnt am Außenrand der 1. Rippe und heißt am Unterrand des M. teres major A. brachialis.",
+    "Bei Schulterluxation und Frakturen des Humerushalses kann die A. axillaris verletzt werden."
+   ],
+   "related": [
+    "a-subclavia",
+    "a-brachialis",
+    "plexus-brachialis",
+    "m-pectoralis-minor"
+   ],
+   "models": [
+    "Axillary artery",
+    "Subscapular artery",
+    "Thoraco-acromial artery",
+    "Lateral thoracic artery",
+    "Posterior circumflex humeral artery",
+    "Anterior circumflex humeral artery"
+   ],
+   "aliases": [
+    "A. axillaris"
+   ]
+  },
+  {
+   "id": "a-brachialis",
+   "tr": "Oberarmarterie",
+   "la": "A. brachialis",
+   "en": "Brachial artery",
+   "group": "Arterien der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Die Hauptarterie des Oberarms; sie zieht an der Innenseite des Arms entlang dem medialen Bizepsrand nach unten und teilt sich in der Ellenbeuge in A. radialis und A. ulnaris.",
+   "facts": [
+    [
+     "Köken",
+     "Fortsetzung der A. axillaris (Unterrand des M. teres major)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht an der Innenseite des Oberarms mit dem N. medianus nach distal; in der Fossa cubitalis teilt sie sich unter der Aponeurosis bicipitalis in Höhe des Radiushalses",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. profunda brachii (mit dem N. radialis), Aa. collaterales ulnares superior und inferior, Muskeläste; Endäste A. radialis und A. ulnaris",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Oberarmmuskeln, Humerus, Umgebung des Ellenbogengelenks",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei der Blutdruckmessung wird das Stethoskop in der Ellenbeuge über der A. brachialis aufgesetzt.",
+    "Bei suprakondylären Humerusfrakturen im Kindesalter kann sie verletzt werden; die Unterarmischämie führt zur Volkmann-Kontraktur."
+   ],
+   "tus": [
+    "Die A. brachialis verläuft an der Innenseite des Oberarms mit dem N. medianus; der Nerv überkreuzt die Arterie in Oberarmmitte von lateral nach medial.",
+    "In der Ellenbeuge teilt sie sich in A. radialis und A. ulnaris (Höhe des Radiushalses)."
+   ],
+   "related": [
+    "a-axillaris",
+    "a-radialis",
+    "a-ulnaris",
+    "n-medianus",
+    "humerus"
+   ],
+   "models": [
+    "Brachial artery",
+    "Deep brachial artery",
+    "Superior ulnar collateral artery",
+    "Inferior ulnar collateral artery"
+   ],
+   "aliases": [
+    "A. brachialis"
+   ]
+  },
+  {
+   "id": "a-radialis",
+   "tr": "Speichenarterie",
+   "la": "A. radialis",
+   "en": "Radial artery",
+   "group": "Arterien der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Arterie an der Außenseite (Daumenseite) des Unterarms; an ihr wird der Puls am häufigsten gefühlt.",
+   "facts": [
+    [
+     "Köken",
+     "A. brachialis (Fossa cubitalis)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht unter dem M. brachioradialis an der lateralen Unterarmseite nach distal; am Handgelenk liegt sie oberflächlich lateral der FCR-Sehne, zieht dann durch die Tabatière auf den Handrücken und tritt durch den 1. Zwischenknochenraum in die Hohlhand, wo sie den Arcus palmaris profundus bildet",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. recurrens radialis, R. palmaris superficialis, Rr. carpales palmaris und dorsalis, A. princeps pollicis, A. radialis indicis",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Lateraler Unterarm, Handgelenk, Daumen und Zeigefinger, tiefe Strukturen der Hand",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der Radialispuls wird am Handgelenk getastet; sie ist die häufigste Arterie für die arterielle Blutgasanalyse.",
+    "Vor einer Kanülierung prüft der Allen-Test, ob die A. ulnaris allein die Hand ausreichend versorgt.",
+    "Koronarangiographien werden zunehmend über die A. radialis durchgeführt."
+   ],
+   "tus": [
+    "Die A. radialis zieht über den Boden der Tabatière und tritt zwischen den beiden Köpfen des 1. M. interosseus dorsalis in die Hohlhand, um den tiefen Bogen zu bilden.",
+    "Die A. radialis dient als Bypassgefäß und als Zugangsweg für die Herzkatheteruntersuchung."
+   ],
+   "related": [
+    "a-brachialis",
+    "a-ulnaris",
+    "arcus-palmares",
+    "m-flexor-carpi-radialis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radial artery"
+   ],
+   "aliases": [
+    "A. radialis",
+    "Puls"
+   ]
+  },
+  {
+   "id": "a-ulnaris",
+   "tr": "Ellenarterie",
+   "la": "A. ulnaris",
+   "en": "Ulnar artery",
+   "group": "Arterien der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Der größere der beiden Endäste der A. brachialis; sie verläuft an der Innenseite (Kleinfingerseite) des Unterarms.",
+   "facts": [
+    [
+     "Köken",
+     "A. brachialis (Fossa cubitalis)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht auf den tiefen Unterarmbeugern unter dem FCU nach distal; am Handgelenk zieht sie mit dem N. ulnaris durch die Loge de Guyon und bildet den Arcus palmaris superficialis",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "Aa. recurrentes ulnares, A. interossea communis (A. interossea anterior und posterior), Rr. carpales palmaris und dorsalis, R. palmaris profundus",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Medialer und tiefer Unterarm (über die Aa. interosseae), der größte Teil der Hand",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "tus": [
+    "Am Handgelenk liegt die A. ulnaris lateral der FCU-Sehne und lateral des N. ulnaris."
+   ],
+   "related": [
+    "a-brachialis",
+    "a-radialis",
+    "arcus-palmares",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Ulnar artery",
+    "Common interosseous artery",
+    "Posterior interosseous artery"
+   ],
+   "aliases": [
+    "A. ulnaris"
+   ]
+  },
+  {
+   "id": "arcus-palmares",
+   "tr": "Hohlhandbögen",
+   "la": "Arcus palmaris superficialis et profundus",
+   "en": "Palmar arches",
+   "group": "Arterien der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Zwei anastomosierende Arterienbögen in der Hohlhand, gebildet von A. radialis und A. ulnaris; aus ihnen entspringen die Fingerarterien.",
+   "facts": [
+    [
+     "Köken",
+     "Oberflächlicher Bogen: vor allem A. ulnaris; tiefer Bogen: vor allem A. radialis",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Oberflächlicher Bogen unter der Palmaraponeurose, tiefer Bogen unter den Beugesehnen in Höhe der Mittelhandknochenbasen",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "Aa. digitales palmares communes und propriae (oberflächlich); Aa. metacarpales palmares (tief)",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Hohlhand und Finger",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der oberflächliche Bogen wird bei Schnittverletzungen der Hohlhand leicht verletzt und blutet stark."
+   ],
+   "tus": [
+    "Der oberflächliche Hohlhandbogen liegt weiter distal (in Höhe einer Linie vom maximal abgespreizten Daumen), der tiefe Bogen weiter proximal."
+   ],
+   "related": [
+    "a-radialis",
+    "a-ulnaris",
+    "ossa-metacarpi"
+   ],
+   "models": [
+    "Superficial palmar arch",
+    "Deep palmar arch",
+    "Common palmar digital arteries",
+    "Proper palmar digital arteries"
+   ],
+   "aliases": [
+    "Arcus palmaris",
+    "Hohlhandbogen"
+   ]
+  },
+  {
+   "id": "truncus-coeliacus",
+   "tr": "Truncus coeliacus",
+   "la": "Truncus coeliacus",
+   "en": "Coeliac trunk",
+   "group": "Arterien von Bauch und Becken",
+   "region": "abdomen",
+   "summary": "Der erste vordere Ast der Bauchaorta; er versorgt die Abkömmlinge des Vorderdarms – Magen, Leber, Gallenblase, Milz, einen Teil des Pankreas und die obere Hälfte des Duodenums.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominalis (T12, direkt unterhalb des Hiatus aorticus)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht als kurzer Stamm nach vorn und teilt sich sofort in drei Äste",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. gastrica sinistra, A. hepatica communis (A. hepatica propria, A. gastroduodenalis, A. gastrica dextra), A. splenica (lienalis)",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Bauchteil des Ösophagus, Magen, oberes Duodenum, Leber, Gallenblase, Pankreas, Milz",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ein Ulcus duodeni der Hinterwand kann die A. gastroduodenalis arrodieren und eine schwere Blutung verursachen.",
+    "Das Lig.-arcuatum-medianum-Syndrom ist eine Kompression des Truncus coeliacus von außen."
+   ],
+   "tus": [
+    "Beim Lig.-arcuatum-medianum-Syndrom wird der Truncus coeliacus von den Zwerchfellschenkeln komprimiert.",
+    "Die pankreatikoduodenalen Arkaden sind ein wichtiger Kollateralweg zwischen Truncus coeliacus und A. mesenterica superior."
+   ],
+   "related": [
+    "aorta",
+    "gaster",
+    "hepar",
+    "splen",
+    "pancreas"
+   ],
+   "models": [
+    "Coeliac trunk",
+    "Common hepatic artery",
+    "Proper hepatic artery",
+    "Splenic artery",
+    "Left gastric artery",
+    "Gastroduodenal artery"
+   ],
+   "aliases": [
+    "Zöliakalarterie",
+    "Truncus coeliacus",
+    "A. hepatica",
+    "A. splenica"
+   ]
+  },
+  {
+   "id": "a-mesenterica-superior",
+   "tr": "Obere Eingeweidearterie",
+   "la": "A. mesenterica superior",
+   "en": "Superior mesenteric artery",
+   "group": "Arterien von Bauch und Becken",
+   "region": "abdomen",
+   "summary": "Arterie für die Abkömmlinge des Mitteldarms – von der unteren Hälfte des Duodenums bis zu zwei Dritteln des Colon transversum.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominalis (L1, 1 cm unterhalb des Truncus coeliacus)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Tritt hinter dem Pankreashals hervor, zieht vor der linken Nierenvene und dem 3. Duodenalabschnitt und tritt ins Mesenterium",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. pancreaticoduodenalis inferior, Aa. jejunales und ileales, A. ileocolica (A. appendicularis), A. colica dextra, A. colica media",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Untere Hälfte des Duodenums, Jejunum, Ileum, Zäkum, Appendix, Colon ascendens, proximale 2/3 des Colon transversum, Pankreaskopf",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die akute Mesenterialischämie (meist embolisch) zeigt sich mit „heftigen Bauchschmerzen, die in keinem Verhältnis zum Untersuchungsbefund stehen“.",
+    "Nussknacker-Syndrom: Kompression der linken Nierenvene zwischen Aorta und AMS.",
+    "Beim AMS-Syndrom wird der 3. Duodenalabschnitt zwischen Aorta und Arterie eingeklemmt."
+   ],
+   "tus": [
+    "Die AMS-Embolie ist die häufigste Ursache der akuten Mesenterialischämie; typisch sind heftige Bauchschmerzen ohne entsprechenden Untersuchungsbefund.",
+    "Vor der AMS ziehen Pankreashals und V. splenica, hinter ihr die linke Nierenvene und der 3. Duodenalabschnitt."
+   ],
+   "related": [
+    "aorta",
+    "intestinum-tenue",
+    "intestinum-crassum",
+    "pancreas",
+    "v-portae-hepatis"
+   ],
+   "models": [
+    "Superior mesenteric artery",
+    "Ileocolic artery",
+    "Middle colic artery",
+    "Right colic artery",
+    "Appendicular artery"
+   ],
+   "aliases": [
+    "A. mesenterica superior",
+    "AMS",
+    "SMA"
+   ]
+  },
+  {
+   "id": "a-mesenterica-inferior",
+   "tr": "Untere Eingeweidearterie",
+   "la": "A. mesenterica inferior",
+   "en": "Inferior mesenteric artery",
+   "group": "Arterien von Bauch und Becken",
+   "region": "abdomen",
+   "summary": "Arterie für die Abkömmlinge des Enddarms – vom letzten Drittel des Colon transversum bis zum oberen Rektum.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominalis (L3)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht retroperitoneal nach links unten",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. colica sinistra, Aa. sigmoideae, A. rectalis (anorectalis) superior",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Distales 1/3 des Colon transversum, Colon descendens, Colon sigmoideum, oberes Rektum",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [
+    [
+     "Anastomosen",
+     "Die A. marginalis (Drummond) verbindet entlang des Kolonrands die Äste von AMS und AMI. Die linke Kolonflexur (Griffiths-Punkt) liegt im Grenzgebiet beider Systeme und ist daher am ischämieanfälligsten."
+    ]
+   ],
+   "clinical": [
+    "Bei der Operation eines Bauchaortenaneurysmas kann die AMI ligiert werden; es besteht das Risiko einer Kolonischämie."
+   ],
+   "tus": [
+    "Die AMI entspringt aus der Aorta in Höhe L3, etwa 3–4 cm oberhalb der Bifurkation.",
+    "Bei der Versorgung eines Bauchaortenaneurysmas kann die AMI ligiert werden; das Kolon wird dann über die A. marginalis versorgt."
+   ],
+   "related": [
+    "aorta",
+    "intestinum-crassum",
+    "rectum"
+   ],
+   "models": [
+    "Inferior mesenteric artery",
+    "Left colic artery",
+    "Sigmoid arteries",
+    "Superior anorectal artery",
+    "Marginal artery"
+   ],
+   "aliases": [
+    "A. mesenterica inferior",
+    "AMI",
+    "IMA"
+   ]
+  },
+  {
+   "id": "aa-renales",
+   "tr": "Nierenarterien",
+   "la": "Aa. renales",
+   "en": "Renal arteries",
+   "group": "Arterien von Bauch und Becken",
+   "region": "abdomen",
+   "summary": "Große Arterien, die beidseits aus der Bauchaorta entspringen und die Nieren versorgen. Etwa 20–25 % des Herzzeitvolumens fließen zu den Nieren.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominalis (L1–L2, direkt unterhalb der AMS)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Die rechte Nierenarterie ist länger und zieht hinter der V. cava inferior; am Nierenhilus teilt sie sich in einen vorderen und einen hinteren Ast",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. suprarenalis inferior, R. uretericus; in der Niere Segment- → Interlobar- → Arkuat- → Interlobulararterien",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Nieren, Teil der Nebennieren, oberer Harnleiter",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Nierenarterienstenose (Arteriosklerose oder fibromuskuläre Dysplasie) ist eine sekundäre Ursache therapieresistenter Hypertonie.",
+    "Segmentarterien sind Endarterien; ihr Verschluss verursacht einen keilförmigen Infarkt."
+   ],
+   "tus": [
+    "Akzessorische (Pol-)Arterien sind häufig (~25–30 %); als Endarterien führt ihre Ligatur zu einem Segmentinfarkt.",
+    "Die Nierenarterienstenose entsteht durch Arteriosklerose (ältere Männer, ostial) oder fibromuskuläre Dysplasie (junge Frauen, mittig-distal „perlschnurartig“)."
+   ],
+   "related": [
+    "aorta",
+    "ren",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Left renal artery",
+    "Right renal artery",
+    "Intrarenal arteries of left kidney",
+    "Intrarenal arteries of right kidney"
+   ],
+   "aliases": [
+    "A. renalis",
+    "Nierenarterie"
+   ]
+  },
+  {
+   "id": "a-iliaca-communis",
+   "tr": "Gemeinsame Beckenarterie",
+   "la": "A. iliaca communis",
+   "en": "Common iliac artery",
+   "group": "Arterien von Bauch und Becken",
+   "region": "pelvis",
+   "summary": "Gefäße, die durch die Teilung der Bauchaorta in Höhe L4 entstehen und die Arterien von Becken und Beinen speisen.",
+   "facts": [
+    [
+     "Köken",
+     "Aortenbifurkation (L4, Nabelhöhe)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht am medialen Rand des M. psoas nach lateral unten; vor dem Iliosakralgelenk teilt sie sich in A. iliaca interna und externa",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. iliaca interna (Beckenorgane, Gesäß, Damm) und A. iliaca externa (wird unter dem Leistenband zur A. femoralis; gibt A. epigastrica inferior und A. circumflexa ilium profunda ab)",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Beckenwand und -organe, Gesäßregion, untere Extremität",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Leriche-Syndrom: aortoiliakaler Verschluss mit Gesäßclaudicatio, Impotenz und fehlenden Leistenpulsen.",
+    "Der Harnleiter überkreuzt die Iliakalgabel; Nierensteine können an dieser Engstelle hängen bleiben."
+   ],
+   "tus": [
+    "Die A. iliaca externa heißt nach dem Durchtritt unter dem Leistenband A. femoralis; ihre Äste sind A. epigastrica inferior und A. circumflexa ilium profunda."
+   ],
+   "related": [
+    "aorta",
+    "a-femoralis",
+    "ureter"
+   ],
+   "models": [
+    "Common iliac artery",
+    "External iliac artery",
+    "Internal iliac artery",
+    "Inferior epigastric artery",
+    "Superior gluteal artery",
+    "Inferior gluteal artery",
+    "Internal pudendal artery",
+    "Obturator artery"
+   ],
+   "aliases": [
+    "A. iliaca communis",
+    "A. iliaca externa",
+    "A. iliaca interna",
+    "Beckenarterie"
+   ]
+  },
+  {
+   "id": "a-femoralis",
+   "tr": "Oberschenkelarterie",
+   "la": "A. femoralis",
+   "en": "Femoral artery",
+   "group": "Arterien der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Die Hauptarterie der unteren Extremität; sie zieht in der Leiste unter dem Leistenband an die Vorderseite des Oberschenkels.",
+   "facts": [
+    [
+     "Köken",
+     "Fortsetzung der A. iliaca externa (unterhalb des Leistenbands)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Liegt im Trigonum femorale oberflächlich (N. femoralis lateral, V. femoralis medial), zieht dann im Adduktorenkanal (Hunter) nach distal und tritt durch den Hiatus adductorius in die Kniekehle, wo sie zur A. poplitea wird",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. epigastrica superficialis, A. circumflexa ilium superficialis, Aa. pudendae externae, A. profunda femoris (A. circumflexa femoris medialis und lateralis, Aa. perforantes), A. descendens genus",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Oberschenkel, Hüfte (teilweise), Femurkopf (A. circumflexa femoris medialis), Knieregion",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der Femoralispuls wird in der Leiste knapp unterhalb der Mitte zwischen SIAS und Symphyse getastet.",
+    "Sie ist ein häufiger Zugang für Herzkatheter und Angiographie.",
+    "Bei der pAVK ist die A. femoralis superficialis der am häufigsten betroffene Abschnitt (Claudicatio)."
+   ],
+   "tus": [
+    "Im Trigonum femorale liegt die A. femoralis in der Femoralisscheide; das mediale Fach der Scheide ist der Canalis femoralis (Lymphgefäße und Rosenmüller-/Cloquet-Lymphknoten).",
+    "Bei der femoralen Punktion muss unterhalb des Leistenbands punktiert werden; oberhalb droht eine retroperitoneale Blutung."
+   ],
+   "related": [
+    "a-iliaca-communis",
+    "a-poplitea",
+    "n-femoralis",
+    "lig-inguinale",
+    "v-femoralis"
+   ],
+   "models": [
+    "Femoral artery",
+    "Deep femoral artery",
+    "Medial circumflex femoral artery",
+    "Lateral circumflex femoral artery",
+    "Perforating femoral arteries"
+   ],
+   "aliases": [
+    "A. femoralis",
+    "A. profunda femoris",
+    "Femoralis"
+   ]
+  },
+  {
+   "id": "a-poplitea",
+   "tr": "Kniekehlenarterie",
+   "la": "A. poplitea",
+   "en": "Popliteal artery",
+   "group": "Arterien der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Fortsetzung der A. femoralis in der Kniekehle (Fossa poplitea); sie ist die am tiefsten gelegene Struktur der Kniekehle.",
+   "facts": [
+    [
+     "Köken",
+     "Fortsetzung der A. femoralis (Hiatus adductorius)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht in der Kniekehle unmittelbar hinter Femur und Kniegelenkkapsel nach distal; am Unterrand des M. popliteus teilt sie sich in A. tibialis anterior und posterior",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "Aa. superiores genus (medialis, lateralis), A. media genus, Aa. inferiores genus, Aa. surales",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Kniegelenk (Rete articulare genus), Wadenmuskeln",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der Popliteapuls wird bei gebeugtem Knie durch tiefe Palpation getastet.",
+    "Das Popliteaaneurysma ist das häufigste periphere Aneurysma.",
+    "Bei Knieluxationen kann die Arterie verletzt werden und muss immer überprüft werden."
+   ],
+   "tus": [
+    "Beim Entrapment-Syndrom der A. poplitea wird die Arterie vom medialen Gastrocnemiuskopf komprimiert.",
+    "Das Popliteaaneurysma ist das häufigste periphere Aneurysma und oft beidseitig."
+   ],
+   "related": [
+    "a-femoralis",
+    "a-tibialis-anterior",
+    "a-tibialis-posterior",
+    "art-genus"
+   ],
+   "models": [
+    "Popliteal artery",
+    "Superior medial genicular artery",
+    "Superior lateral genicular artery",
+    "Inferior medial genicular artery",
+    "Inferior lateral genicular artery",
+    "Middle genicular artery"
+   ],
+   "aliases": [
+    "A. poplitea"
+   ]
+  },
+  {
+   "id": "a-tibialis-anterior",
+   "tr": "Vordere Schienbeinarterie",
+   "la": "A. tibialis anterior",
+   "en": "Anterior tibial artery",
+   "group": "Arterien der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Arterie für die vordere Muskelloge des Unterschenkels; am Sprunggelenk wird sie zur A. dorsalis pedis.",
+   "facts": [
+    [
+     "Köken",
+     "A. poplitea (Unterrand des M. popliteus)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Tritt durch die Öffnung am Oberrand der Membrana interossea an die Vorderseite des Unterschenkels und zieht mit dem N. fibularis profundus vor der Membran nach distal",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. recurrens tibialis anterior, Aa. malleolares anteriores; Fortsetzung als A. dorsalis pedis",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Muskeln der vorderen Unterschenkelloge, Vorderseite des Sprunggelenks",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "tus": [
+    "Die A. tibialis anterior gelangt durch die Öffnung am Oberrand der Membrana interossea in die vordere Loge und verläuft mit dem N. fibularis profundus."
+   ],
+   "related": [
+    "a-poplitea",
+    "a-dorsalis-pedis",
+    "m-tibialis-anterior",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Anterior tibial artery"
+   ],
+   "aliases": [
+    "A. tibialis anterior"
+   ]
+  },
+  {
+   "id": "a-tibialis-posterior",
+   "tr": "Hintere Schienbeinarterie",
+   "la": "A. tibialis posterior",
+   "en": "Posterior tibial artery",
+   "group": "Arterien der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Arterie für die hintere Muskelloge des Unterschenkels und die Fußsohle.",
+   "facts": [
+    [
+     "Köken",
+     "A. poplitea",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht unter dem M. soleus mit dem N. tibialis nach distal; hinter dem Innenknöchel (Tarsaltunnel) teilt sie sich in A. plantaris medialis und lateralis",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. fibularis (peronea – lateraler und hinterer Unterschenkel), Rr. calcanei, A. plantaris medialis, A. plantaris lateralis (Arcus plantaris)",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Hintere und laterale Unterschenkelloge, Ferse, Fußsohle",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der Tibialis-posterior-Puls wird hinter dem Innenknöchel zwischen Knöchel und Achillessehne getastet."
+   ],
+   "tus": [
+    "Im Tarsaltunnel teilt sich die A. tibialis posterior in A. plantaris medialis und lateralis."
+   ],
+   "related": [
+    "a-poplitea",
+    "n-tibialis",
+    "m-tibialis-posterior",
+    "mm-plantares"
+   ],
+   "models": [
+    "Posterior tibial artery",
+    "Fibular artery",
+    "Medial plantar artery",
+    "Lateral plantar artery",
+    "Plantar arch"
+   ],
+   "aliases": [
+    "A. tibialis posterior",
+    "A. fibularis",
+    "A. plantaris"
+   ]
+  },
+  {
+   "id": "a-dorsalis-pedis",
+   "tr": "Fußrückenarterie",
+   "la": "A. dorsalis pedis",
+   "en": "Dorsalis pedis artery",
+   "group": "Arterien der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Fortsetzung der A. tibialis anterior jenseits des Sprunggelenks; sie versorgt den Fußrücken.",
+   "facts": [
+    [
+     "Köken",
+     "Fortsetzung der A. tibialis anterior (vor dem Sprunggelenk)",
+     "Ursprung"
+    ],
+    [
+     "Seyir",
+     "Zieht auf dem Fußrücken lateral der EHL-Sehne nach vorn; im 1. Intermetatarsalraum schließt sie sich über ihren tiefen Plantarast dem Arcus plantaris an",
+     "Verlauf"
+    ],
+    [
+     "Dalları",
+     "A. tarsalis lateralis und Aa. tarsales mediales, A. arcuata (Aa. metatarsales dorsales), A. plantaris profunda",
+     "Äste"
+    ],
+    [
+     "Beslediği alan",
+     "Fußrücken und Streckseite der Zehen",
+     "Versorgungsgebiet"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der Dorsalis-pedis-Puls wird direkt lateral der EHL-Sehne getastet; er ist wichtig für die Beurteilung der pAVK (bei manchen Menschen fehlt er angeboren)."
+   ],
+   "tus": [
+    "Der Dorsalis-pedis-Puls kann bei einem Teil gesunder Menschen angeboren fehlen."
+   ],
+   "related": [
+    "a-tibialis-anterior",
+    "m-extensor-hallucis-longus"
+   ],
+   "models": [
+    "Dorsalis pedis artery",
+    "Arcuate artery",
+    "Lateral tarsal artery",
+    "Dorsal metatarsal arteries"
+   ],
+   "aliases": [
+    "A. dorsalis pedis",
+    "Fußpuls"
+   ]
+  },
+  {
+   "id": "v-cava-superior",
+   "tr": "Obere Hohlvene",
+   "la": "V. cava superior",
+   "en": "Superior vena cava",
+   "group": "Venen",
+   "region": "thorax",
+   "summary": "Große Vene, die sauerstoffarmes Blut aus Kopf, Hals, Armen und oberem Brustkorb zum rechten Vorhof führt. Sie hat keine Klappen.",
+   "facts": [
+    [
+     "Oluşum",
+     "Durch Vereinigung der V. brachiocephalica dextra und sinistra hinter dem rechten 1. Rippenknorpel",
+     "Bildung"
+    ],
+    [
+     "Döküldüğü yer",
+     "Rechter Vorhof (Höhe des 3. Rippenknorpels)",
+     "Mündet in"
+    ],
+    [
+     "Kollar",
+     "V. azygos (von hinten), Vv. brachiocephalicae (V. jugularis interna + V. subclavia)",
+     "Zuflüsse"
+    ],
+    [
+     "Uzunluk",
+     "Etwa 7 cm",
+     "Länge"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Vena-cava-superior-Syndrom (meist Kompression durch Lungenkrebs oder Lymphom): Ödeme von Gesicht und Armen, erweiterte Hals- und Brustvenen.",
+    "Die Spitze eines zentralen Venenkatheters sollte idealerweise im unteren Abschnitt dieser Vene liegen."
+   ],
+   "tus": [
+    "Das VCS-Syndrom (meist Lungenkrebs oder Lymphom) zeigt sich mit Ödemen von Gesicht und Hals und erweiterten Venen an der Brust.",
+    "Die untere Hälfte der VCS liegt intraperikardial; sie mündet in Höhe des 3. Rippenknorpels in den rechten Vorhof."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "v-jugularis-interna",
+    "v-subclavia",
+    "v-azygos"
+   ],
+   "models": [
+    "Superior vena cava",
+    "Left brachiocephalic vein",
+    "Right brachiocephalic vein"
+   ],
+   "aliases": [
+    "V. cava superior",
+    "VCS",
+    "V. brachiocephalica"
+   ]
+  },
+  {
+   "id": "v-cava-inferior",
+   "tr": "Untere Hohlvene",
+   "la": "V. cava inferior",
+   "en": "Inferior vena cava",
+   "group": "Venen",
+   "region": "abdomen",
+   "summary": "Die größte Vene des Körpers; sie führt sauerstoffarmes Blut aus allen Körperteilen unterhalb des Zwerchfells zum rechten Vorhof.",
+   "facts": [
+    [
+     "Oluşum",
+     "Durch Vereinigung der Vv. iliacae communes in Höhe L5 (rechts der Aorta)",
+     "Bildung"
+    ],
+    [
+     "Seyir",
+     "Steigt rechts der Wirbelsäule auf, verläuft in einer Rinne an der Leberhinterfläche und tritt durch das Foramen venae cavae des Zwerchfells (T8)",
+     "Verlauf"
+    ],
+    [
+     "Kollar",
+     "Vv. lumbales, V. testicularis/ovarica dextra, Vv. renales, V. suprarenalis dextra, Vv. hepaticae, Vv. phrenicae inferiores",
+     "Zuflüsse"
+    ],
+    [
+     "Not",
+     "Die linke Gonaden- und die linke Nebennierenvene münden zuerst in die linke Nierenvene",
+     "Hinweis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei tiefer Venenthrombose und rezidivierender Lungenembolie kann ein Cava-Filter eingesetzt werden.",
+    "In der Schwangerschaft kann die Kompression der VCI durch den Uterus in Rückenlage eine Hypotonie verursachen (Vena-cava-Kompressionssyndrom); Linksseitenlage behebt sie."
+   ],
+   "tus": [
+    "Cava-Filter werden unterhalb der Nierenvenen platziert.",
+    "Der retrohepatische Abschnitt der VCI nimmt die Lebervenen direkt auf."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "hepar",
+    "ren",
+    "aa-renales"
+   ],
+   "models": [
+    "Inferior vena cava (abdominal part)",
+    "Inferior vena cava (thoracic part)",
+    "Left renal vein",
+    "Right renal vein",
+    "Hepatic veins",
+    "Common iliac vein"
+   ],
+   "aliases": [
+    "V. cava inferior",
+    "VCI",
+    "Nierenvene"
+   ]
+  },
+  {
+   "id": "v-jugularis-interna",
+   "tr": "Innere Drosselvene",
+   "la": "V. jugularis interna",
+   "en": "Internal jugular vein",
+   "group": "Venen",
+   "region": "neck",
+   "summary": "Große Vene in der Karotisscheide, die den größten Teil des Blutes aus Gehirn, Gesicht und Hals sammelt.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Am Foramen jugulare als Fortsetzung des Sinus sigmoideus (Bulbus superior)",
+     "Beginn"
+    ],
+    [
+     "Seyir",
+     "Zieht in der Karotisscheide lateral der A. carotis nach unten; liegt unter dem M. sternocleidomastoideus",
+     "Verlauf"
+    ],
+    [
+     "Sonlanma",
+     "Hinter dem medialen Klavikulaende vereinigt sie sich mit der V. subclavia zur V. brachiocephalica (Venenwinkel – links mündet hier der Ductus thoracicus)",
+     "Ende"
+    ],
+    [
+     "Kollar",
+     "Sinus petrosus inferior, V. facialis, V. lingualis, Vv. thyroideae superiores und mediae",
+     "Zuflüsse"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der Jugularvenendruck spiegelt den Druck im rechten Herzen wider; er steigt bei Herzinsuffizienz.",
+    "Zentrale Venenkatheter werden häufig ultraschallgesteuert in die rechte V. jugularis interna gelegt."
+   ],
+   "tus": [
+    "Die V. jugularis interna setzt den Sinus sigmoideus fort und beginnt am Foramen jugulare, wo der Bulbus superior liegt.",
+    "Die rechte V. jugularis interna wird für ZVK bevorzugt: geraderer Weg zur VCS, und der Ductus thoracicus liegt links."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "sinus-durae-matris",
+    "v-subclavia",
+    "v-cava-superior"
+   ],
+   "models": [
+    "Internal jugular vein"
+   ],
+   "aliases": [
+    "V. jugularis interna",
+    "Jugularvene",
+    "Drosselvene"
+   ]
+  },
+  {
+   "id": "v-jugularis-externa",
+   "tr": "Äußere Drosselvene",
+   "la": "V. jugularis externa",
+   "en": "External jugular vein",
+   "group": "Venen",
+   "region": "neck",
+   "summary": "Vene, die das oberflächliche Blut von Kopfhaut und Gesicht sammelt und an der Halsseite unter der Haut sichtbar ist.",
+   "facts": [
+    [
+     "Oluşum",
+     "Hinter dem Kieferwinkel durch Vereinigung des hinteren Asts der V. retromandibularis mit der V. auricularis posterior",
+     "Bildung"
+    ],
+    [
+     "Seyir",
+     "Zieht schräg über den M. sternocleidomastoideus nach unten",
+     "Verlauf"
+    ],
+    [
+     "Sonlanma",
+     "V. subclavia",
+     "Ende"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Sie tritt hervor, wenn der Druck im rechten Herzen steigt; im Notfall kann sie als Venenzugang dienen."
+   ],
+   "tus": [
+    "Die V. jugularis externa entsteht aus dem hinteren Ast der V. retromandibularis und der V. auricularis posterior."
+   ],
+   "related": [
+    "v-jugularis-interna",
+    "v-subclavia",
+    "m-sternocleidomastoideus"
+   ],
+   "models": [
+    "External jugular vein",
+    "Retromandibular vein",
+    "Facial vein",
+    "Anterior jugular vein"
+   ],
+   "aliases": [
+    "V. jugularis externa"
+   ]
+  },
+  {
+   "id": "v-subclavia",
+   "tr": "Schlüsselbeinvene",
+   "la": "V. subclavia",
+   "en": "Subclavian vein",
+   "group": "Venen",
+   "region": "neck",
+   "summary": "Fortsetzung der V. axillaris; sie sammelt das Blut aus den tiefen und oberflächlichen Armvenen.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Fortsetzung der V. axillaris am Außenrand der 1. Rippe",
+     "Beginn"
+    ],
+    [
+     "Seyir",
+     "Zieht vor dem M. scalenus anterior (anders als die Arterie) hinter der Klavikula",
+     "Verlauf"
+    ],
+    [
+     "Sonlanma",
+     "Vereinigt sich mit der V. jugularis interna zur V. brachiocephalica",
+     "Ende"
+    ],
+    [
+     "Kollar",
+     "V. jugularis externa",
+     "Zuflüsse"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Sie wird für die infraklavikuläre Anlage zentraler Venenkatheter genutzt; der Pneumothorax ist eine wichtige Komplikation.",
+    "Paget-von-Schroetter-Syndrom: Thrombose der V. subclavia nach starker Armbelastung."
+   ],
+   "tus": [
+    "Das Paget-von-Schroetter-Syndrom ist eine Effort-Thrombose der V. subclavia durch wiederholte Armbelastung."
+   ],
+   "related": [
+    "v-jugularis-interna",
+    "a-subclavia",
+    "v-cava-superior",
+    "vv-membri-superioris"
+   ],
+   "models": [
+    "Left subclavian vein",
+    "Right subclavian vein",
+    "Axillary vein"
+   ],
+   "aliases": [
+    "V. subclavia",
+    "V. axillaris"
+   ]
+  },
+  {
+   "id": "vv-membri-superioris",
+   "tr": "Oberflächliche Armvenen",
+   "la": "Vv. superficiales membri superioris",
+   "en": "Superficial veins of upper limb",
+   "group": "Venen",
+   "region": "upperLimb",
+   "summary": "Oberflächliche Venen, die im Venennetz des Handrückens beginnen und unter der Haut des Arms aufsteigen: V. cephalica (lateral), V. basilica (medial) und die sie in der Ellenbeuge verbindende V. mediana cubiti.",
+   "facts": [
+    [
+     "V. cephalica",
+     "Beginnt an der lateralen Seite des Handrückens, steigt an der Außenseite des Arms auf und mündet durch die Mohrenheim-Grube (Sulcus deltoideopectoralis) in die V. axillaris",
+     "V. cephalica"
+    ],
+    [
+     "V. basilica",
+     "Beginnt an der medialen Seite des Handrückens, tritt in Oberarmmitte in die Tiefe und bildet mit den Vv. brachiales die V. axillaris",
+     "V. basilica"
+    ],
+    [
+     "V. mediana cubiti",
+     "Zieht in der Ellenbeuge schräg von der V. cephalica zur V. basilica",
+     "V. mediana cubiti"
+    ],
+    [
+     "Derin venler",
+     "Paarige Begleitvenen der Arterien (Vv. comitantes): Vv. radiales, ulnares, brachiales",
+     "Tiefe Venen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Für Blutentnahme und Venenzugang wird meist die V. mediana cubiti genutzt; darunter liegen, durch die Aponeurosis bicipitalis geschützt, A. brachialis und N. medianus.",
+    "Über die V. cephalica können Schrittmachersonden eingeführt werden."
+   ],
+   "tus": [
+    "Die tiefen Venen der oberen Extremität sind paarige Begleitvenen der Arterien (Vv. comitantes)."
+   ],
+   "related": [
+    "v-subclavia",
+    "a-brachialis",
+    "art-cubiti"
+   ],
+   "models": [
+    "Cephalic vein",
+    "Basilic vein",
+    "Median cubital vein",
+    "Median antebrachial vein",
+    "Dorsal venous network of hand",
+    "Brachial veins",
+    "Radial veins",
+    "Ulnar veins"
+   ],
+   "aliases": [
+    "V. cephalica",
+    "V. basilica",
+    "Blutentnahme"
+   ]
+  },
+  {
+   "id": "v-portae-hepatis",
+   "tr": "Pfortader",
+   "la": "V. portae hepatis",
+   "en": "Hepatic portal vein",
+   "group": "Venen",
+   "region": "abdomen",
+   "summary": "Vene, die nährstoffreiches Blut aus Verdauungstrakt, Milz, Pankreas und Gallenblase zur Leber führt. Sie liefert etwa 75 % des Blutes, das die Leber erreicht.",
+   "facts": [
+    [
+     "Oluşum",
+     "Hinter dem Pankreashals durch Vereinigung der V. mesenterica superior mit der V. splenica (die V. mesenterica inferior mündet meist in die V. splenica)",
+     "Bildung"
+    ],
+    [
+     "Seyir",
+     "Zieht im Lig. hepatoduodenale hinter dem Gallengang (vorn rechts) und der A. hepatica propria (vorn links) zur Leberpforte",
+     "Verlauf"
+    ],
+    [
+     "Dallanma",
+     "R. dexter und R. sinister; endet in den Lebersinusoiden",
+     "Aufzweigung"
+    ],
+    [
+     "Portokaval anastomozlar",
+     "Unterer Ösophagus (Vv. gastricae – V. azygos), Rektum (V. rectalis superior – media/inferior), Nabelregion (Vv. paraumbilicales – Bauchwandvenen), retroperitoneale Venen",
+     "Portokavale Anastomosen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei portaler Hypertension, etwa durch Leberzirrhose, entstehen an den Anastomosen Ösophagusvarizen (tödliche Blutung), Hämorrhoiden und erweiterte Venen um den Nabel (Caput medusae); die Milz vergrößert sich und es bildet sich Aszites."
+   ],
+   "tus": [
+    "Die Pfortader liefert ~75 % des Blutes und ~50 % des Sauerstoffs der Leber.",
+    "Die Pfortaderthrombose ist die häufigste Ursache der prähepatischen portalen Hypertension."
+   ],
+   "related": [
+    "hepar",
+    "splen",
+    "pancreas",
+    "a-mesenterica-superior",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Hepatic portal vein",
+    "Splenic vein",
+    "Superior mesenteric vein",
+    "Inferior mesenteric vein"
+   ],
+   "aliases": [
+    "V. portae",
+    "Pfortader",
+    "V. splenica",
+    "V. mesenterica"
+   ]
+  },
+  {
+   "id": "v-azygos",
+   "tr": "V. azygos",
+   "la": "V. azygos",
+   "en": "Azygos vein",
+   "group": "Venen",
+   "region": "thorax",
+   "summary": "Vene, die Blut aus der Hinterwand von Brust und Bauch sammelt und rechts der Wirbelsäule aufsteigend in die V. cava superior mündet. Sie bildet einen wichtigen Kollateralweg zwischen den Hohlvenen.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Vereinigung der rechten V. lumbalis ascendens und V. subcostalis (L1–L2)",
+     "Beginn"
+    ],
+    [
+     "Seyir",
+     "Tritt durch den Hiatus aorticus in den Thorax, steigt rechts der Wirbelkörper auf und zieht in Höhe T4 im Bogen über die rechte Lungenwurzel zur V. cava superior",
+     "Verlauf"
+    ],
+    [
+     "Kollar",
+     "Rechte Vv. intercostales posteriores, V. hemiazygos und V. hemiazygos accessoria (von links), Ösophagus- und Bronchialvenen",
+     "Zuflüsse"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei Verschluss der VCI ist das Azygossystem ein wichtiger Kollateralweg für den Rückstrom aus der unteren Körperhälfte."
+   ],
+   "tus": [
+    "Die V. hemiazygos kreuzt in Höhe T8–T9 vor der Wirbelsäule nach rechts und mündet in die V. azygos.",
+    "Der Lobus venae azygos ist eine anatomische Variante, bei der die V. azygos in die rechte Lungenspitze eingebettet ist."
+   ],
+   "related": [
+    "v-cava-superior",
+    "v-cava-inferior",
+    "oesophagus"
+   ],
+   "models": [
+    "Azygos vein",
+    "Hemi-azygos vein",
+    "Accessory hemi-azygos vein"
+   ],
+   "aliases": [
+    "Azygos",
+    "V. hemiazygos"
+   ]
+  },
+  {
+   "id": "v-femoralis",
+   "tr": "Oberschenkelvene",
+   "la": "V. femoralis",
+   "en": "Femoral vein",
+   "group": "Venen",
+   "region": "lowerLimb",
+   "summary": "Große tiefe Vene, die das tiefe Venenblut des Beins sammelt und mit der A. femoralis verläuft.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Fortsetzung der V. poplitea am Hiatus adductorius",
+     "Beginn"
+    ],
+    [
+     "Seyir",
+     "Steigt im Adduktorenkanal hinter der Arterie und im Trigonum femorale medial von ihr auf",
+     "Verlauf"
+    ],
+    [
+     "Sonlanma",
+     "Wird nach Durchtritt unter dem Leistenband zur V. iliaca externa",
+     "Ende"
+    ],
+    [
+     "Kollar",
+     "V. profunda femoris, V. saphena magna (Krosse, saphenofemorale Mündung)",
+     "Zuflüsse"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die tiefe Venenthrombose (TVT) entsteht am häufigsten in den tiefen Beinvenen; löst sich das Gerinnsel und gelangt in die Lunge, kommt es zur Lungenembolie.",
+    "Im Notfall kann direkt medial des Femoralispulses ein Katheter in die V. femoralis gelegt werden."
+   ],
+   "tus": [
+    "In der Leiste liegt die V. femoralis medial der Arterie; sie kann für einen zentralen Venenkatheter genutzt werden.",
+    "Die tiefe Venenthrombose betrifft am häufigsten die femoropopliteale Etage."
+   ],
+   "related": [
+    "a-femoralis",
+    "v-saphena-magna",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Femoral vein",
+    "Deep femoral vein",
+    "Popliteal vein",
+    "Anterior tibial veins",
+    "Posterior tibial veins",
+    "Fibular veins",
+    "External iliac vein",
+    "Internal iliac vein"
+   ],
+   "aliases": [
+    "V. femoralis",
+    "V. poplitea",
+    "tiefe Vene"
+   ]
+  },
+  {
+   "id": "v-saphena-magna",
+   "tr": "Große Rosenvene",
+   "la": "V. saphena magna",
+   "en": "Great saphenous vein",
+   "group": "Venen",
+   "region": "lowerLimb",
+   "summary": "Die längste Vene des Körpers; sie steigt unter der Haut an der Innenseite des Beins vom medialen Rand des Fußrückens bis zur Leiste auf.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Mediales Ende des Arcus venosus dorsalis pedis",
+     "Beginn"
+    ],
+    [
+     "Seyir",
+     "Zieht vor dem Innenknöchel (konstante Lage), an der Innenseite des Unterschenkels mit dem N. saphenus, hinter der medialen Knieseite und an der Innenseite des Oberschenkels nach oben",
+     "Verlauf"
+    ],
+    [
+     "Sonlanma",
+     "Mündet durch den Hiatus saphenus in der Leiste in die V. femoralis (Krosse, saphenofemorale Mündung)",
+     "Ende"
+    ],
+    [
+     "Kapaklar",
+     "Enthält 10–20 Klappen; über Perforansvenen mit den tiefen Venen verbunden",
+     "Klappen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Klappeninsuffizienz führt zu Krampfadern (Varizen).",
+    "Sie wird häufig als Bypassgefäß in der Koronarchirurgie verwendet (wegen der Klappen umgekehrt eingesetzt).",
+    "Ihre konstante Lage vor dem Innenknöchel wird für den Notfall-Venenzugang (Venae sectio) genutzt."
+   ],
+   "tus": [
+    "Die V. saphena magna ist über Perforansvenen mit den tiefen Venen verbunden; Klappeninsuffizienz verursacht Varizen.",
+    "In die Krosse münden V. pudenda externa superficialis, V. epigastrica superficialis und V. circumflexa ilium superficialis."
+   ],
+   "related": [
+    "v-femoralis",
+    "v-saphena-parva",
+    "n-femoralis"
+   ],
+   "models": [
+    "Great saphenous vein"
+   ],
+   "aliases": [
+    "V. saphena magna",
+    "Varizen",
+    "Krampfadern"
+   ]
+  },
+  {
+   "id": "v-saphena-parva",
+   "tr": "Kleine Rosenvene",
+   "la": "V. saphena parva",
+   "en": "Small saphenous vein",
+   "group": "Venen",
+   "region": "lowerLimb",
+   "summary": "Oberflächliche Vene, die am lateralen Fußrand beginnt, an der Wadenrückseite aufsteigt und in der Kniekehle in die V. poplitea mündet.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Laterales Ende des Arcus venosus dorsalis pedis",
+     "Beginn"
+    ],
+    [
+     "Seyir",
+     "Zieht hinter dem Außenknöchel und steigt mit dem N. suralis in der Wadenmitte auf",
+     "Verlauf"
+    ],
+    [
+     "Sonlanma",
+     "V. poplitea in der Kniekehle",
+     "Ende"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Sie kann Ursache von Varizen an der Wadenrückseite sein."
+   ],
+   "tus": [
+    "Bei Operationen an der V. saphena parva kann der N. suralis verletzt werden; es kommt zu Taubheit am lateralen Fußrand."
+   ],
+   "related": [
+    "v-saphena-magna",
+    "v-femoralis",
+    "n-tibialis"
+   ],
+   "models": [
+    "Small saphenous vein",
+    "Dorsal venous arch of foot"
+   ],
+   "aliases": [
+    "V. saphena parva"
+   ]
+  },
+  {
+   "id": "sinus-durae-matris",
+   "tr": "Durasinus",
+   "la": "Sinus durae matris",
+   "en": "Dural venous sinuses",
+   "group": "Venen",
+   "region": "head",
+   "summary": "Klappenlose venöse Blutleiter zwischen den beiden Blättern der Dura mater, die das venöse Blut des Gehirns und den Liquor sammeln und zur V. jugularis interna leiten.",
+   "facts": [
+    [
+     "Başlıca sinüsler",
+     "Sinus sagittalis superior und inferior, Sinus rectus, Confluens sinuum, Sinus transversus, Sinus sigmoideus, Sinus occipitalis, Sinus cavernosus, Sinus petrosus superior und inferior",
+     "Wichtigste Sinus"
+    ],
+    [
+     "Akım yönü",
+     "S. sagittalis superior → Confluens sinuum → S. transversus → S. sigmoideus → V. jugularis interna",
+     "Flussrichtung"
+    ],
+    [
+     "Sinus cavernosus içeriği",
+     "A. carotis interna und N. abducens ziehen hindurch; in der Seitenwand verlaufen N. oculomotorius, N. trochlearis, N. ophthalmicus und N. maxillaris",
+     "Inhalt des Sinus cavernosus"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Infektionen im „Gefahrendreieck“ des Gesichts können sich über die V. ophthalmica in den Sinus cavernosus ausbreiten und eine Sinus-cavernosus-Thrombose verursachen.",
+    "Die Sinusvenenthrombose zeigt sich mit Kopfschmerzen, Krampfanfällen und erhöhtem Hirndruck."
+   ],
+   "tus": [
+    "Die Durasinus haben keine Klappen; über Vv. emissariae stehen sie mit extrakraniellen Venen in Verbindung.",
+    "Die Sinusthrombose kann mit Kopfschmerz, Stauungspapille und hämorrhagischem Infarkt einhergehen; Schwangerschaft und orale Kontrazeptiva sind Risikofaktoren."
+   ],
+   "related": [
+    "meninges",
+    "v-jugularis-interna",
+    "a-carotis-interna",
+    "n-abducens"
+   ],
+   "models": [
+    "Superior sagittal sinus",
+    "Inferior sagittal sinus",
+    "Straight sinus",
+    "Transverse sinus",
+    "Sigmoid sinus",
+    "Cavernous sinus",
+    "Superior petrosal sinus",
+    "Inferior petrosal sinus",
+    "Occipital sinus"
+   ],
+   "aliases": [
+    "Sinus cavernosus",
+    "Sinus sagittalis",
+    "Hirnsinus"
+   ]
+  }
+ ]
+}

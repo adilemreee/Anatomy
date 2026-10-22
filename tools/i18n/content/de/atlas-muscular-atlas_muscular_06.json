@@ -1,0 +1,321 @@
+{
+ "m-tibialis-anterior": {
+  "tr": "M. tibialis anterior",
+  "summary": "Muskel der vorderen Unterschenkelloge neben dem Schienbein. Er hebt den Fuß und dreht ihn nach innen.",
+  "facts": [
+   "Condylus lateralis und obere 2/3 der Außenfläche der Tibia, Membrana interossea",
+   "Innen- und Unterfläche des Os cuneiforme mediale und Basis des 1. Mittelfußknochens",
+   "N. fibularis profundus (L4–L5)",
+   "A. tibialis anterior",
+   "Dorsalextension (Heben) und Supination des Fußes; stützt das Längsgewölbe"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Schädigung des N. fibularis hängt der Fuß; der Patient hebt das Knie hoch, um den Fuß nicht nachzuziehen (Steppergang).",
+   "Beim Tibialis-anterior-Logensyndrom bestehen starke Schmerzen vorn am Unterschenkel und eine Schwäche der Dorsalextension."
+  ],
+  "tus": [
+   "Eine Lähmung des Tibialis anterior verursacht einen Fallfuß; die Fußspitze schleift, der Patient hebt das Knie hoch (Steppergang)."
+  ],
+  "aliases": [
+   "vorderer Schienbeinmuskel"
+  ]
+ },
+ "m-extensor-digitorum-longus": {
+  "tr": "M. extensor digitorum longus",
+  "summary": "Muskel der vorderen Unterschenkelloge lateral des Tibialis anterior, der die Zehen 2–5 hebt. Von seinem unteren Teil zweigt der M. fibularis tertius zum 5. Mittelfußknochen ab.",
+  "facts": [
+   "Condylus lateralis tibiae, obere 3/4 der Vorderfläche der Fibula, Membrana interossea",
+   "Mittel- und Endphalangen der Zehen 2–5 (Dorsalaponeurose); Fibularis tertius: Basis des 5. Mittelfußknochens",
+   "N. fibularis profundus (L5–S1)",
+   "A. tibialis anterior",
+   "Streckt die Zehen 2–5 und dorsalextendiert den Fuß; der Fibularis tertius unterstützt die Pronation"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "EDL und Fibularis tertius liegen in der vorderen Loge; der Fibularis tertius dorsalextendiert und proniert den Fuß."
+  ],
+  "aliases": [
+   "Fibularis tertius",
+   "langer Zehenstrecker"
+  ]
+ },
+ "m-extensor-hallucis-longus": {
+  "tr": "M. extensor hallucis longus",
+  "summary": "Tief gelegener Muskel zwischen Tibialis anterior und Extensor digitorum longus, der die Großzehe hebt.",
+  "facts": [
+   "Mittlerer Teil der Vorderfläche der Fibula und Membrana interossea",
+   "Basis der Endphalanx der Großzehe",
+   "N. fibularis profundus (L5)",
+   "A. tibialis anterior",
+   "Streckt die Großzehe und dorsalextendiert den Fuß"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Kraft der Großzehenhebung dient der Prüfung der Nervenwurzel L5."
+  ],
+  "tus": [
+   "Die EHL-Kraft ist der beste motorische Test der Wurzel L5."
+  ],
+  "aliases": [
+   "EHL",
+   "langer Großzehenstrecker"
+  ]
+ },
+ "m-fibularis-longus": {
+  "tr": "M. fibularis longus",
+  "summary": "Oberflächlicher Muskel der seitlichen Unterschenkelloge. Seine Sehne zieht hinter dem Außenknöchel und unter dem Würfelbein quer durch die Fußsohle.",
+  "facts": [
+   "Caput fibulae und obere 2/3 der Außenfläche der Fibula",
+   "Unterfläche des Os cuneiforme mediale und Basis des 1. Mittelfußknochens",
+   "N. fibularis superficialis (L5–S1)",
+   "A. fibularis, A. tibialis anterior",
+   "Pronation (Eversion) und Plantarflexion des Fußes; stützt das Quergewölbe"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Supinationstraumen des Sprunggelenks werden die Fibularismuskeln und ihre Sehnen überlastet."
+  ],
+  "tus": [
+   "Fibularis longus und Tibialis anterior stützen gemeinsam das Quergewölbe wie ein „Steigbügel“."
+  ],
+  "aliases": [
+   "Peroneus longus",
+   "langer Wadenbeinmuskel"
+  ]
+ },
+ "m-fibularis-brevis": {
+  "tr": "M. fibularis brevis",
+  "summary": "Muskel unter dem Fibularis longus, dessen Sehne hinter dem Außenknöchel zum 5. Mittelfußknochen zieht.",
+  "facts": [
+   "Untere 2/3 der Außenfläche der Fibula",
+   "Tuberositas ossis metatarsi quinti",
+   "N. fibularis superficialis (L5–S1)",
+   "A. fibularis",
+   "Pronation (Eversion) und Plantarflexion des Fußes"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei einem Supinationstrauma kann seine Sehne ein Knochenstück von der Basis des 5. Mittelfußknochens abreißen (Avulsionsfraktur)."
+  ],
+  "tus": [
+   "Die Sehne des Fibularis brevis verläuft hinter dem Außenknöchel vor (knochennäher als) der Longussehne."
+  ],
+  "aliases": [
+   "Peroneus brevis",
+   "kurzer Wadenbeinmuskel"
+  ]
+ },
+ "m-triceps-surae": {
+  "tr": "M. triceps surae",
+  "summary": "Kräftiger Muskelkomplex, der die Wade formt, bestehend aus dem zweiköpfigen M. gastrocnemius und dem darunterliegenden M. soleus. Ihre gemeinsame Sehne ist die Achillessehne (Tendo calcaneus), die dickste Sehne des Körpers.",
+  "facts": [
+   "Gastrocnemius: medialer Kopf hinter dem Condylus medialis femoris, lateraler Kopf am Condylus lateralis femoris; Soleus: Caput fibulae, Rückfläche der Fibula und Linea musculi solei der Tibia",
+   "Über die Achillessehne (Tendo calcaneus) zum Tuber calcanei",
+   "N. tibialis (S1–S2)",
+   "Aa. surales (A. poplitea), A. tibialis posterior, A. fibularis",
+   "Plantarflexion des Fußes (Zehenstand, Abstoßen beim Gehen); der Gastrocnemius unterstützt die Kniebeugung; der Soleus verhindert im Stehen das Vornüberfallen"
+  ],
+  "sections": [
+   [
+    "Muskelpumpe",
+    "Die großen Venensinus im Soleus werden bei der Kontraktion ausgepresst und pumpen das Blut zum Herzen („peripheres Herz“). Bewegungsmangel schaltet diese Pumpe aus und erhöht das Thromboserisiko."
+   ]
+  ],
+  "clinical": [
+   "Der Achillessehnenreflex prüft das Segment S1.",
+   "Bei Achillessehnenruptur ist der Thompson-Test positiv (Wadenkompression bewegt den Fuß nicht).",
+   "Tennis Leg: plötzlicher Riss des medialen Gastrocnemiuskopfes."
+  ],
+  "tus": [
+   "Da der Gastrocnemius auch das Knie überspannt, sinkt die Plantarflexionskraft bei gebeugtem Knie; dann überwiegt der Soleus.",
+   "Die Linea musculi solei an der Tibiarückfläche ist der Ursprung des Soleus."
+  ],
+  "aliases": [
+   "Gastrocnemius",
+   "Soleus",
+   "Achillessehne",
+   "Wade"
+  ]
+ },
+ "m-plantaris": {
+  "tr": "M. plantaris",
+  "summary": "Kleiner Muskel mit kurzem Bauch und einer der längsten Sehnen des Körpers; er fehlt bei etwa 10 % der Menschen.",
+  "facts": [
+   "Linea supracondylaris lateralis oberhalb des Condylus lateralis femoris",
+   "Medialer Rand der Achillessehne oder Tuber calcanei",
+   "N. tibialis (S1–S2)",
+   "Surale Äste der A. poplitea",
+   "Schwacher Helfer des Gastrocnemius bei Plantarflexion und Kniebeugung"
+  ],
+  "sections": [],
+  "clinical": [
+   "Seine Sehne kann in der rekonstruktiven Chirurgie als Transplantat dienen."
+  ],
+  "tus": [
+   "Ein Plantarisriss kann als „Tennis Leg“ plötzliche Wadenschmerzen verursachen."
+  ],
+  "aliases": [
+   "Fußsohlenspanner"
+  ]
+ },
+ "m-popliteus": {
+  "tr": "M. popliteus",
+  "summary": "Dünner dreieckiger Muskel hinter dem Kniegelenk im Boden der Kniekehle. Er gilt als „Schlüssel“, der das verriegelte Knie entriegelt.",
+  "facts": [
+   "Außenfläche des Condylus lateralis femoris und Außenmeniskus",
+   "Oberer Teil der Tibiarückfläche (oberhalb der Linea musculi solei)",
+   "N. tibialis (L4–S1)",
+   "A. inferior medialis und lateralis genus",
+   "Entriegelt das voll gestreckte Knie (Außenrotation des Femurs auf der Tibia); unterstützt die Kniebeugung"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Die Popliteussehne verläuft zwischen Außenmeniskus und Kollateralband; sie gibt Fasern an das Hinterhorn des Meniskus ab."
+  ],
+  "aliases": [
+   "Kniekehlenmuskel"
+  ]
+ },
+ "m-tibialis-posterior": {
+  "tr": "M. tibialis posterior",
+  "summary": "Der tiefste Muskel der hinteren Unterschenkelloge. Seine Sehne zieht hinter dem Innenknöchel zur Fußsohle und ist die wichtigste Stütze des Längsgewölbes.",
+  "facts": [
+   "Membrana interossea und angrenzende Rückflächen von Tibia und Fibula",
+   "Tuberositas ossis navicularis, Ossa cuneiformia, Os cuboideum und Basen der Mittelfußknochen 2–4",
+   "N. tibialis (L4–L5)",
+   "A. tibialis posterior, A. fibularis",
+   "Supination (Inversion) und Plantarflexion des Fußes; stützt das Längsgewölbe"
+  ],
+  "sections": [
+   [
+    "Tarsaltunnel",
+    "Hinter dem Innenknöchel ziehen von vorn nach hinten: Sehne des Tibialis posterior, Sehne des Flexor digitorum longus, A. und V. tibialis posterior, N. tibialis und Sehne des Flexor hallucis longus („Tom, Dick And Very Nervous Harry“)."
+   ]
+  ],
+  "clinical": [
+   "Die Funktionsstörung der Tibialis-posterior-Sehne ist die häufigste Ursache des erworbenen Plattfußes beim Erwachsenen."
+  ],
+  "tus": [
+   "Die Tibialis-posterior-Insuffizienz ist die häufigste Ursache des erworbenen Plattfußes beim Erwachsenen („Too-many-toes“-Zeichen)."
+  ],
+  "aliases": [
+   "hinterer Schienbeinmuskel"
+  ]
+ },
+ "m-flexor-digitorum-longus": {
+  "tr": "M. flexor digitorum longus",
+  "summary": "Muskel der tiefen Schicht der hinteren Unterschenkelloge hinter der Tibia, der die Zehen 2–5 beugt.",
+  "facts": [
+   "Mittlerer Teil der Tibiarückfläche",
+   "Endphalangen der Zehen 2–5",
+   "N. tibialis (S2–S3)",
+   "A. tibialis posterior",
+   "Beugt die Zehen 2–5; unterstützt Plantarflexion und Supination; stützt die Fußgewölbe"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "In der Fußsohle setzt am FDL-Sehnenstrang der Quadratus plantae an, und die Lumbrikalmuskeln entspringen dort."
+  ],
+  "aliases": [
+   "FDL",
+   "langer Zehenbeuger"
+  ]
+ },
+ "m-flexor-hallucis-longus": {
+  "tr": "M. flexor hallucis longus",
+  "summary": "Kräftiger Muskel der tiefen Schicht der hinteren Unterschenkelloge hinter der Fibula, der die Großzehe beugt.",
+  "facts": [
+   "Untere 2/3 der Rückfläche der Fibula und Membrana interossea",
+   "Basis der Endphalanx der Großzehe",
+   "N. tibialis (S2–S3)",
+   "A. fibularis",
+   "Beugt die Großzehe (letzter Abstoß beim Gehen); unterstützt die Plantarflexion; stützt das Längsgewölbe"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Balletttänzern kann seine Sehne hinter dem Talus eingeengt werden (Tänzertendinitis)."
+  ],
+  "tus": [
+   "Die FHL-Sehne läuft in Rinnen am Processus posterior tali und unter dem Sustentaculum tali; bei Balletttänzern tritt eine Tendovaginitis auf."
+  ],
+  "aliases": [
+   "FHL",
+   "langer Großzehenbeuger"
+  ]
+ },
+ "mm-dorsi-pedis": {
+  "tr": "Fußrückenmuskeln",
+  "summary": "Die einzige Muskelgruppe des Fußrückens; sie unterstützt die langen Strecker bei der Zehenstreckung.",
+  "facts": [
+   "Obere Außenfläche des Calcaneus",
+   "EDB: lange Strecksehnen der Zehen 2–4; EHB: Grundphalanx der Großzehe",
+   "N. fibularis profundus (L5–S1)",
+   "A. dorsalis pedis, A. tarsalis lateralis",
+   "Strecken die Zehen"
+  ],
+  "sections": [],
+  "clinical": [
+   "Der als leichte Vorwölbung am Fußrücken sichtbare Muskelbauch kann bei L5–S1-Radikulopathie atrophieren."
+  ],
+  "tus": [
+   "Der Extensor digitorum brevis ist die weiche Masse am seitlichen Fußrücken vor dem Außenknöchel."
+  ],
+  "aliases": [
+   "EDB",
+   "EHB",
+   "kurzer Zehenstrecker"
+  ]
+ },
+ "mm-plantares": {
+  "tr": "Fußsohlenmuskeln",
+  "summary": "Die Muskeln der Fußsohle in vier Schichten: 1. Schicht Abductor hallucis, Flexor digitorum brevis, Abductor digiti minimi; 2. Schicht Quadratus plantae und Lumbricales; 3. Schicht Flexor hallucis brevis, Adductor hallucis, Flexor digiti minimi brevis; 4. Schicht Interossei.",
+  "facts": [
+   "Calcaneus, Aponeurosis plantaris, Fußwurzel- und Mittelfußknochen",
+   "Phalangen der Zehen und lange Beugesehnen",
+   "N. plantaris medialis (Abductor hallucis, FDB, FHB, 1. Lumbricalis) und N. plantaris lateralis (übrige) – Äste des N. tibialis (S1–S3)",
+   "A. plantaris medialis und lateralis, Arcus plantaris",
+   "Beugen, spreizen und schließen die Zehen; stützen die Fußgewölbe aktiv und sichern das Gleichgewicht beim Gehen"
+  ],
+  "sections": [],
+  "clinical": [
+   "Schwäche der Fußsohlenmuskeln und Spannung der Plantaraponeurose tragen zur Plantarfasziitis bei."
+  ],
+  "tus": [
+   "Die Fußsohlenmuskeln werden in vier Schichten betrachtet; die Plantaraponeurose liegt am oberflächlichsten.",
+   "Die Plantarfasziitis verursacht typischerweise Fersenschmerzen bei den ersten Schritten am Morgen."
+  ],
+  "aliases": [
+   "Abductor hallucis",
+   "Flexor digitorum brevis",
+   "Quadratus plantae",
+   "Adductor hallucis"
+  ]
+ },
+ "m-pterygoideus-lateralis": {
+  "tr": "M. pterygoideus lateralis",
+  "summary": "Zweiköpfiger Kaumuskel, der horizontal in der Fossa infratemporalis verläuft; der einzige Kaumuskel, der den Mund öffnet.",
+  "facts": [
+   "Oberer Kopf: Facies und Crista infratemporalis der Ala major ossis sphenoidalis; unterer Kopf: Außenfläche der Lamina lateralis processus pterygoidei",
+   "Fovea pterygoidea (Collum mandibulae), Discus articularis und Kapsel des Kiefergelenks",
+   "N. pterygoideus lateralis (N. mandibularis, V3)",
+   "Rr. pterygoidei der A. maxillaris",
+   "Beidseitig: schiebt den Unterkiefer vor und leitet die Mundöffnung ein; einseitig: verschiebt den Kiefer zur Gegenseite (Mahlbewegung)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei einseitiger V3-Läsion weicht der Unterkiefer beim Öffnen zur gelähmten Seite ab (der gesunde Muskel schiebt seinen Kondylus nach vorn)."
+  ],
+  "tus": [
+   "Er ist der einzige Mundöffner unter den Kaumuskeln; die übrigen drei (Masseter, Temporalis, Pterygoideus medialis) schließen den Mund.",
+   "Da er am Discus articularis ansetzt, spielt er bei der anterioren Diskusverlagerung im Kiefergelenk eine Rolle."
+  ],
+  "aliases": [
+   "Pterygoideus lateralis",
+   "äußerer Flügelmuskel"
+  ]
+ }
+}

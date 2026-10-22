@@ -1,0 +1,2800 @@
+{
+ "system": "articular",
+ "questions": [
+  {
+   "id": "ar-71f95389",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Laquelle de ces articulations est une syndesmose ?",
+   "options": [
+    "Suture sagittale",
+    "Fixation des dents dans les alvéoles",
+    "Symphyse pubienne",
+    "Première articulation sterno-costale",
+    "Articulation tibio-fibulaire distale"
+   ],
+   "answer": 4,
+   "explanation": "La syndesmose est une articulation fibreuse où les os sont unis par un ligament ou une membrane : l'articulation tibio-fibulaire distale et les membranes interosseuses de l'avant-bras et de la jambe en sont des exemples. La symphyse pubienne est fibrocartilagineuse, la 1re sterno-costale une synchondrose, l'union dent–alvéole une gomphose, et les sutures sont des articulations fibreuses propres au crâne.",
+   "notes": [
+    "Suture.",
+    "Gomphose.",
+    "Fibrocartilage (symphyse).",
+    "Cartilage hyalin (synchondrose).",
+    ""
+   ],
+   "entries": [
+    "eklem-tipleri",
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-296e0313",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Laquelle de ces articulations est une articulation synoviale en selle ?",
+   "options": [
+    "Articulation radio-carpienne",
+    "Articulation radio-ulnaire proximale",
+    "Articulation carpo-métacarpienne du pouce",
+    "Articulation acromio-claviculaire",
+    "Articulation huméro-ulnaire"
+   ],
+   "answer": 2,
+   "explanation": "Dans les articulations en selle, chaque surface est concave dans un sens et convexe dans l'autre ; elles permettent des mouvements selon deux axes, dont l'opposition. Exemples : la 1re carpo-métacarpienne et la sterno-claviculaire. La radio-carpienne est ellipsoïde, l'huméro-ulnaire une trochléenne, la radio-ulnaire proximale une trochoïde et l'acromio-claviculaire une arthrodie.",
+   "entries": [
+    "eklem-tipleri",
+    "artt-manus"
+   ]
+  },
+  {
+   "id": "ar-ca13fe9c",
+   "group": "Généralités",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle de ces associations est FAUSSE ?",
+   "options": [
+    "Articulation du genou – articulation bicondylaire",
+    "Articulation atlanto-occipitale – trochoïde (pivot)",
+    "Articulation atlanto-axoïdienne médiane – trochoïde",
+    "Articulation zygapophysaire – arthrodie (plane)",
+    "Articulation de la hanche – sphéroïde"
+   ],
+   "answer": 1,
+   "explanation": "L'articulation atlanto-occipitale est ellipsoïde (condylaire) et permet le « oui ». Les trochoïdes sont l'atlanto-axoïdienne médiane (« non ») et les radio-ulnaires proximale et distale.",
+   "entries": [
+    "eklem-tipleri",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-244f637a",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le cartilage de croissance (plaque épiphysaire) est un exemple de quel type d'articulation ?",
+   "options": [
+    "Diarthrose",
+    "Synchondrose (articulation cartilagineuse primaire)",
+    "Symphyse (articulation cartilagineuse secondaire)",
+    "Syndesmose",
+    "Gomphose"
+   ],
+   "answer": 1,
+   "explanation": "Dans les articulations cartilagineuses primaires (synchondroses), les os sont unis par du cartilage hyalin et la plupart s'ossifient avec le temps : plaque épiphysaire, articulation 1re côte–manubrium, synchondrose sphéno-occipitale. Les articulations cartilagineuses secondaires (symphyses) contiennent du fibrocartilage et sont médianes.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-230a765a",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "À propos de l'articulation temporo-mandibulaire, laquelle de ces propositions est FAUSSE ?",
+   "options": [
+    "Une partie du ptérygoïdien latéral s'insère sur le disque.",
+    "À l'ouverture de la bouche, le condyle et le disque glissent en avant vers le tubercule articulaire.",
+    "Le disque articulaire divise l'articulation en deux cavités, supérieure et inférieure.",
+    "Les surfaces articulaires sont recouvertes de cartilage hyalin.",
+    "Le mouvement de charnière (rotation) se fait dans la cavité inférieure."
+   ],
+   "answer": 3,
+   "explanation": "Les surfaces articulaires de l'ATM sont recouvertes de fibrocartilage et non de cartilage hyalin (en rapport avec l'origine membraneuse des os). Le disque divise l'articulation en deux : la rotation a lieu dans la cavité inférieure, la translation antérieure dans la cavité supérieure. Le ptérygoïdien latéral attire le condyle et le disque en avant.",
+   "entries": [
+    "art-temporomandibularis",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "ar-30f33bcd",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient qui a bâillé ne peut plus fermer la bouche. Le condyle mandibulaire est passé en avant du tubercule articulaire. Dans quel sens pousse-t-on la mâchoire pour la réduire ?",
+   "options": [
+    "D'abord latéralement, puis vers le haut",
+    "Directement en arrière",
+    "D'abord vers le bas, puis en arrière",
+    "Directement vers le haut",
+    "D'abord vers le haut, puis en avant"
+   ],
+   "answer": 2,
+   "explanation": "La luxation de l'ATM est presque toujours antérieure ; le condyle se bloque en avant de l'éminence et le spasme des muscles (masséter, temporal, ptérygoïdien médial) l'y maintient. Pouces sur les molaires inférieures, on abaisse d'abord la mâchoire (pour passer sous l'éminence) puis on la repousse en arrière.",
+   "entries": [
+    "art-temporomandibularis",
+    "mandibula"
+   ]
+  },
+  {
+   "id": "ar-56a27913",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "La partie gélatineuse centrale du disque intervertébral (nucleus pulposus) est, sur le plan embryologique, le reliquat de quoi ?",
+   "options": [
+    "Notochorde",
+    "Sclérotome",
+    "Crête neurale",
+    "Dermomyotome",
+    "Mésoderme intermédiaire"
+   ],
+   "answer": 0,
+   "explanation": "Le nucleus pulposus est un reliquat de la notochorde ; l'annulus fibrosus qui l'entoure est formé d'anneaux fibrocartilagineux d'origine sclérotomale. Avec l'âge, sa teneur en eau diminue et la hauteur du disque baisse.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-b272030c",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Pourquoi les hernies discales lombales sont-elles le plus souvent postéro-latérales ?",
+   "options": [
+    "Le ligament longitudinal antérieur soutient la partie postérieure.",
+    "L'annulus fibrosus est plus épais en arrière.",
+    "Le ligament longitudinal postérieur est épais sur la ligne médiane et mince sur les côtés.",
+    "Le nucleus pulposus est proche de la partie antérieure du disque.",
+    "Le ligament jaune pousse le disque latéralement."
+   ],
+   "answer": 2,
+   "explanation": "Le ligament longitudinal postérieur est une bande étroite en arrière des corps vertébraux et ne soutient le disque que sur la ligne médiane. De plus, l'annulus fibrosus est plus mince en arrière. Le nucleus pulposus hernie donc le plus souvent en postéro-latéral et comprime la racine nerveuse.",
+   "entries": [
+    "discus-intervertebralis",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-a0beeda5",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament jaune, riche en fibres élastiques, est tendu entre les lames des arcs vertébraux ?",
+   "options": [
+    "Ligament supra-épineux",
+    "Ligament longitudinal postérieur",
+    "Ligament jaune",
+    "Ligament nucal",
+    "Ligament interépineux"
+   ],
+   "answer": 2,
+   "explanation": "Les ligaments jaunes unissent les lames voisines ; grâce à leurs fibres élastiques, ils aident au redressement du rachis après la flexion. Lors de la ponction lombale, l'aiguille traverse la peau, les ligaments supra- et interépineux puis le ligament jaune (sensation de « ressaut ») pour atteindre l'espace épidural.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-0918e232",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans quelle articulation se produit l'essentiel du mouvement de « non » (rotation) de la tête ?",
+   "options": [
+    "Articulation atlanto-occipitale",
+    "Articulation temporo-mandibulaire",
+    "Articulation atlanto-axoïdienne",
+    "Disque C7–T1",
+    "Articulations zygapophysaires C2–C3"
+   ],
+   "answer": 2,
+   "explanation": "Dans les articulations atlanto-axoïdiennes (une trochoïde médiane et deux arthrodies latérales), l'atlas tourne autour de la dent ; environ la moitié de la rotation cervicale se fait là. Le « oui » se fait dans l'articulation atlanto-occipitale. Les ligaments alaires limitent la rotation excessive.",
+   "entries": [
+    "atlas",
+    "axis",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-24e0cc41",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle articulation la tête d'une côte forme-t-elle avec les corps de deux vertèbres thoraciques voisines ?",
+   "options": [
+    "Articulation sterno-costale",
+    "Articulation chondro-costale",
+    "Articulation costo-transversaire",
+    "Articulation interchondrale",
+    "Articulation de la tête costale"
+   ],
+   "answer": 4,
+   "explanation": "La tête d'une côte typique forme l'articulation de la tête costale avec les hémi-facettes des corps de deux vertèbres voisines et le disque intercalé ; son tubercule forme l'articulation costo-transversaire avec le processus transverse de la vertèbre inférieure. Ces deux articulations permettent les mouvements en « anse de seau » et en « bras de pompe » de la côte lors de la respiration.",
+   "entries": [
+    "artt-thoracis",
+    "costae",
+    "vertebrae-thoracicae"
+   ]
+  },
+  {
+   "id": "ar-e90c051e",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est la seule véritable articulation (synoviale) reliant le membre supérieur au squelette axial ?",
+   "options": [
+    "Articulation de l'épaule",
+    "Articulation costo-claviculaire",
+    "Liaison scapulo-thoracique",
+    "Articulation acromio-claviculaire",
+    "Articulation sterno-claviculaire"
+   ],
+   "answer": 4,
+   "explanation": "La seule liaison articulaire du membre supérieur avec le squelette axial est l'articulation sterno-claviculaire. En selle, elle contient un disque et est très solidement renforcée par le ligament costo-claviculaire ; sa luxation est donc rare et la fracture de la clavicule plus fréquente. La « jonction » scapulo-thoracique n'est pas une vraie articulation.",
+   "entries": [
+    "art-sternoclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-55314209",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un rugbyman tombé sur l'épaule présente une marche d'escalier entre l'acromion et la clavicule, dont l'extrémité latérale saille en haut. Quel ligament doit aussi être rompu pour cette disjonction (type III) ?",
+   "options": [
+    "Ligament coraco-acromial",
+    "Ligament coraco-claviculaire",
+    "Ligament transverse supérieur de la scapula",
+    "Ligament coraco-huméral",
+    "Ligament gléno-huméral inférieur"
+   ],
+   "answer": 1,
+   "explanation": "Dans la disjonction acromio-claviculaire, si seul le ligament acromio-claviculaire est rompu, la marche est discrète. Si le ligament coraco-claviculaire (faisceaux conoïde et trapézoïde) est aussi rompu, la scapula et le bras s'abaissent et l'extrémité de la clavicule reste nettement surélevée (touche de piano).",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula",
+    "scapula"
+   ]
+  },
+  {
+   "id": "ar-94215574",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Une volleyeuse tombe le bras en abduction et rotation latérale. On constate une luxation de l'épaule et, après réduction, une anesthésie de la face latérale de l'épaule. Quel est le sens de la luxation et quel nerf est lésé ?",
+   "options": [
+    "Luxation supérieure – nerf musculo-cutané",
+    "Luxation postérieure – nerf axillaire",
+    "Luxation antéro-inférieure – nerf axillaire",
+    "Luxation postérieure – nerf suprascapulaire",
+    "Luxation antéro-inférieure – nerf radial"
+   ],
+   "answer": 2,
+   "explanation": "L'articulation gléno-humérale est la grosse articulation qui se luxe le plus souvent ; plus de 95 % des luxations sont antéro-inférieures car la partie inférieure de la capsule est la plus faible. En descendant, la tête humérale étire le nerf axillaire situé juste sous le col chirurgical.",
+   "entries": [
+    "art-humeri",
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ar-75098002",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel anneau fibrocartilagineux approfondit l'articulation gléno-humérale ?",
+   "options": [
+    "Labrum glénoïdal (bourrelet)",
+    "Disque articulaire",
+    "Ménisque",
+    "Bourse subacromiale",
+    "Ligament coraco-huméral"
+   ],
+   "answer": 0,
+   "explanation": "La cavité glénoïdale est peu profonde ; le labrum qui la borde l'approfondit. Le chef long du biceps s'insère à sa partie supérieure ; une lésion à ce niveau est une lésion SLAP, et une lésion de sa partie antéro-inférieure une lésion de Bankart.",
+   "entries": [
+    "art-humeri",
+    "scapula"
+   ]
+  },
+  {
+   "id": "ar-d0f60251",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un peintre de 50 ans a mal entre 60° et 120° lorsqu'il lève le bras latéralement (arc douloureux). Quel tendon de la coiffe des rotateurs est comprimé sous l'acromion et le plus souvent rompu ?",
+   "options": [
+    "Infra-épineux",
+    "Supra-épineux",
+    "Grand rond",
+    "Petit rond",
+    "Subscapulaire"
+   ],
+   "answer": 1,
+   "explanation": "Le tendon du supra-épineux passe dans l'espace étroit compris entre l'acromion, le ligament coraco-acromial et la tête humérale. Il est comprimé aux amplitudes moyennes d'abduction (conflit sous-acromial) ; dégénérescence et rupture touchent le plus souvent ce tendon, dans sa zone mal vascularisée.",
+   "entries": [
+    "art-humeri",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "ar-873e5e75",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Pourquoi existe-t-il un « angle de portage » (valgus physiologique) au coude ?",
+   "options": [
+    "La tête radiale est plus longue que l'ulna",
+    "Le bord médial de la trochlée descend plus bas que le bord latéral",
+    "Le ligament collatéral radial est court",
+    "Le capitulum de l'humérus est volumineux",
+    "L'olécrâne est incliné en dehors"
+   ],
+   "answer": 1,
+   "explanation": "En extension, l'avant-bras s'écarte en dehors par rapport au bras (~10° chez l'homme, ~15° chez la femme), car la lèvre médiale de la trochlée descend plus bas. Le cubitus valgus et le cubitus varus correspondent à l'augmentation et à la diminution de cet angle.",
+   "entries": [
+    "art-cubiti",
+    "humerus"
+   ]
+  },
+  {
+   "id": "ar-49c6e4a8",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "À propos de l'articulation du coude, laquelle de ces propositions est FAUSSE ?",
+   "options": [
+    "Le ligament collatéral ulnaire protège contre le valgus forcé.",
+    "L'articulation huméro-ulnaire est une trochléenne (charnière).",
+    "Le ligament annulaire entoure la tête radiale.",
+    "Flexion et rotation se font dans l'articulation huméro-radiale.",
+    "L'articulation radio-ulnaire proximale possède sa propre capsule."
+   ],
+   "answer": 4,
+   "explanation": "Le coude est une articulation composée des articulations huméro-ulnaire, huméro-radiale et radio-ulnaire proximale, toutes trois dans une même capsule. Le ligament collatéral médial (ulnaire) protège contre le valgus, le latéral (radial) contre le varus.",
+   "entries": [
+    "art-cubiti",
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-4fb954c8",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans quelles articulations se font la pronation et la supination ?",
+   "options": [
+    "Articulations huméro-radiale et carpo-métacarpiennes",
+    "Articulations huméro-ulnaire et radio-carpienne",
+    "Articulation médio-carpienne",
+    "Articulations radio-ulnaires proximale et distale",
+    "Articulation radio-carpienne seule"
+   ],
+   "answer": 3,
+   "explanation": "Lors de la pronosupination, le radius tourne en haut dans l'incisure radiale de l'ulna et en bas autour de la tête de l'ulna. Les deux trochoïdes agissent de concert avec la membrane interosseuse.",
+   "entries": [
+    "artt-radioulnares",
+    "radius",
+    "ulna"
+   ]
+  },
+  {
+   "id": "ar-ffc10707",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel de ces éléments NE participe PAS directement à l'articulation radio-carpienne ?",
+   "options": [
+    "Lunatum",
+    "Extrémité distale de l'ulna",
+    "Surface articulaire distale du radius",
+    "Disque articulaire (TFCC)",
+    "Scaphoïde"
+   ],
+   "answer": 1,
+   "explanation": "L'articulation radio-carpienne est formée en haut par le radius et le disque fibrocartilagineux triangulaire (TFCC), en bas par le scaphoïde, le lunatum et le triquetrum. L'ulna, séparée des os du carpe par le disque, n'y participe pas directement.",
+   "entries": [
+    "art-radiocarpalis",
+    "ulna",
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "ar-51873285",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "De quel type sont les articulations métacarpo-phalangiennes ?",
+   "options": [
+    "Trochléenne (ginglyme)",
+    "Plane",
+    "Trochoïde",
+    "En selle",
+    "Ellipsoïde (condylaire)"
+   ],
+   "answer": 4,
+   "explanation": "Les MCP sont des articulations ellipsoïdes : flexion–extension et abduction–adduction, sans rotation active. Les interphalangiennes sont de pures trochléennes.",
+   "entries": [
+    "artt-manus",
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "ar-2a268400",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament, réputé le plus solide du corps, empêche l'hyperextension de la hanche ?",
+   "options": [
+    "Ligament ilio-fémoral",
+    "Ligament ischio-fémoral",
+    "Ligament de la tête fémorale",
+    "Ligament inguinal",
+    "Ligament pubo-fémoral"
+   ],
+   "answer": 0,
+   "explanation": "Le ligament ilio-fémoral en Y inversé (ligament de Bertin) va de l'EIAI à la ligne intertrochantérique. En station debout, il empêche passivement le tronc de basculer en arrière et permet la station érigée sans dépense musculaire.",
+   "entries": [
+    "art-coxae",
+    "os-coxae",
+    "femur"
+   ]
+  },
+  {
+   "id": "ar-4674d825",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Lors d'un accident de la route, le genou d'un conducteur a heurté le tableau de bord ; le membre est raccourci, en flexion, adduction et rotation médiale. On constate une luxation de hanche. Quel nerf est le plus souvent lésé dans cette luxation ?",
+   "options": [
+    "Nerf fémoral",
+    "Nerf obturateur",
+    "Nerf sciatique",
+    "Nerf glutéal inférieur",
+    "Nerf cutané latéral de la cuisse"
+   ],
+   "answer": 2,
+   "explanation": "Dans le traumatisme « du tableau de bord », genou fléchi, la tête fémorale se luxe en arrière (la plupart des luxations de hanche). En arrière, elle comprime ou étire le nerf sciatique ; le contingent fibulaire est le plus souvent touché.",
+   "entries": [
+    "art-coxae",
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ar-561bb137",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "L'artère qui chemine dans le ligament de la tête fémorale est habituellement une branche de quelle artère ?",
+   "options": [
+    "Artère glutéale supérieure",
+    "Artère circonflexe médiale de la cuisse",
+    "Artère obturatrice",
+    "Artère fémorale profonde",
+    "Artère circonflexe latérale de la cuisse"
+   ],
+   "answer": 2,
+   "explanation": "L'artère du ligament de la tête (artère acétabulaire) est une branche de l'artère obturatrice ; importante chez l'enfant pour la tête fémorale, sa contribution est faible chez l'adulte. Chez l'adulte, la tête est vascularisée surtout par l'artère circonflexe médiale de la cuisse.",
+   "entries": [
+    "art-coxae",
+    "femur"
+   ]
+  },
+  {
+   "id": "ar-74361042",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un footballeur entend un « pop » dans son genou lors d'un changement de direction brusque, et le genou gonfle rapidement. À l'examen, genou fléchi à 90°, le tibia glisse exagérément en avant. Quelle structure est lésée ?",
+   "options": [
+    "Ligament patellaire",
+    "Ligament croisé antérieur",
+    "Ligament croisé postérieur",
+    "Ligament collatéral tibial",
+    "Ménisque latéral"
+   ],
+   "answer": 1,
+   "explanation": "Le ligament croisé antérieur empêche le tibia de glisser en avant sous le fémur ; les tests du tiroir antérieur et de Lachman sont positifs. Le croisé postérieur l'empêche de glisser en arrière (tiroir postérieur).",
+   "entries": [
+    "ligg-cruciata",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-9a262b50",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle est la principale raison pour laquelle le ménisque médial se rompt plus souvent que le latéral ?",
+   "options": [
+    "Il adhère fermement au ligament collatéral tibial et est donc peu mobile",
+    "Il est attaché au tendon du poplité",
+    "Il n'est pas du tout vascularisé",
+    "Il est fusionné au ligament croisé postérieur",
+    "Il est plus petit et plus circulaire"
+   ],
+   "answer": 0,
+   "explanation": "Le ménisque médial est en C et son bord périphérique adhère au ligament collatéral médial ; incapable de se déplacer lors des mouvements, il se rompt. Le ménisque latéral est plus circulaire et mobile ; le tendon du poplité le sépare du ligament collatéral. Triade malheureuse : LCM + LCA + ménisque médial.",
+   "entries": [
+    "meniscus",
+    "ligg-collateralia-genus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-c86f32a6",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel muscle déverrouille le genou bloqué en extension complète pour permettre le début de la flexion ?",
+   "options": [
+    "Semi-membraneux",
+    "Poplité",
+    "Gastrocnémien",
+    "Sartorius",
+    "Biceps fémoral"
+   ],
+   "answer": 1,
+   "explanation": "Dans les derniers degrés d'extension, le fémur tourne en dedans sur le tibia et le genou se verrouille. Au début de la flexion, le poplité le déverrouille en tournant le fémur en dehors (ou, hors appui, le tibia en dedans).",
+   "entries": [
+    "m-popliteus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-dd74f351",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lors d'un valgus forcé par un choc sur la face latérale du genou, quel ligament est lésé en premier ?",
+   "options": [
+    "Ligament collatéral tibial (médial)",
+    "Ligament poplité oblique",
+    "Ligament croisé postérieur",
+    "Ligament patellaire",
+    "Ligament collatéral fibulaire (latéral)"
+   ],
+   "answer": 0,
+   "explanation": "Une force venant de dehors met en tension le côté médial du genou (valgus) : le ligament collatéral médial se rompt, et dans les traumatismes graves le LCA et le ménisque médial sont associés. Le ligament collatéral latéral est lésé en varus forcé.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-b47c2724",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Une jeune femme qui s'est tordu la cheville en dedans sur un terrain irrégulier présente une tuméfaction et une douleur en avant de la malléole latérale. Quel ligament est le plus souvent lésé ?",
+   "options": [
+    "Ligament tibio-fibulaire antérieur",
+    "Ligament calcanéo-fibulaire",
+    "Ligament talo-fibulaire postérieur",
+    "Ligament deltoïdien",
+    "Ligament talo-fibulaire antérieur"
+   ],
+   "answer": 4,
+   "explanation": "La plupart des entorses de cheville surviennent en flexion plantaire et inversion ; le ligament talo-fibulaire antérieur, le plus faible des ligaments latéraux, se rompt en premier, puis le calcanéo-fibulaire. Le ligament deltoïdien médial est très solide et se lèse généralement avec une fracture malléolaire.",
+   "entries": [
+    "art-talocruralis",
+    "fibula"
+   ]
+  },
+  {
+   "id": "ar-1f239c4c",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans quelles articulations se font principalement l'inversion et l'éversion du pied ?",
+   "options": [
+    "Articulations métatarso-phalangiennes",
+    "Articulations subtalaire et talo-calcanéo-naviculaire",
+    "Articulation tibio-fibulaire distale",
+    "Articulation talo-crurale",
+    "Articulations tarso-métatarsiennes"
+   ],
+   "answer": 1,
+   "explanation": "L'articulation talo-crurale est une trochléenne qui permet flexion dorsale et plantaire. L'inversion–éversion se fait sous le talus, dans les articulations subtalaire (talo-calcanéenne) et talo-calcanéo-naviculaire, et pour une faible part dans l'articulation transverse du tarse (Chopart).",
+   "entries": [
+    "artt-pedis",
+    "art-talocruralis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-e770222c",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans quelle position l'articulation talo-crurale est-elle la plus stable, et pourquoi ?",
+   "options": [
+    "En inversion, car les ligaments latéraux sont tendus.",
+    "En flexion dorsale, car la trochlée du talus, plus large en avant, se verrouille entre les malléoles.",
+    "En flexion plantaire, car le ligament deltoïdien est le plus tendu.",
+    "En flexion plantaire, car les malléoles enserrent complètement le talus.",
+    "En position neutre, car la capsule est la plus lâche."
+   ],
+   "answer": 1,
+   "explanation": "La trochlée du talus est large en avant et étroite en arrière. En flexion dorsale, sa partie antérieure large s'encastre entre les malléoles et l'articulation est stable. En flexion plantaire, la partie étroite est dans la mortaise et l'articulation se relâche ; c'est pourquoi les entorses surviennent surtout en flexion plantaire.",
+   "entries": [
+    "art-talocruralis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-fe165037",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle proposition concernant l'articulation sacro-iliaque est exacte ?",
+   "options": [
+    "C'est une sphéroïde aux mouvements amples.",
+    "C'est une articulation mixte : synoviale en avant, unie en arrière par de puissants ligaments interosseux.",
+    "Elle n'est pas atteinte dans la spondylarthrite ankylosante.",
+    "Elle unit le coccyx et l'ilium.",
+    "C'est une articulation entièrement fibreuse."
+   ],
+   "answer": 1,
+   "explanation": "La partie de l'articulation sacro-iliaque située entre les surfaces auriculaires est synoviale ; en arrière se trouvent les ligaments sacro-iliaques interosseux, parmi les plus solides du corps. Très peu mobile, elle transmet le poids du tronc au bassin. La spondylarthrite ankylosante commence généralement à ce niveau (sacro-iliite).",
+   "entries": [
+    "art-sacroiliaca",
+    "os-sacrum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-1c090eed",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "De quel type est la symphyse pubienne ?",
+   "options": [
+    "Articulation cartilagineuse primaire (synchondrose)",
+    "Suture",
+    "Syndesmose",
+    "Articulation synoviale plane",
+    "Articulation cartilagineuse secondaire (symphyse fibrocartilagineuse)"
+   ],
+   "answer": 4,
+   "explanation": "Les deux pubis s'unissent par des surfaces recouvertes de cartilage hyalin, par l'intermédiaire d'un disque fibrocartilagineux (disque interpubien). Pendant la grossesse, les ligaments se relâchent sous l'effet hormonal et l'articulation s'élargit un peu.",
+   "entries": [
+    "symphysis-pubica",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-fb65a359",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle proposition concernant les orifices formés par les ligaments sacro-épineux et sacro-tubéral est exacte ?",
+   "options": [
+    "Ils ferment le foramen obturé.",
+    "Ils séparent les lacunes musculaire et vasculaire.",
+    "Ils transforment les grande et petite incisures ischiatiques en grand et petit foramens ischiatiques.",
+    "Ils forment le plancher du canal inguinal.",
+    "Ils forment la paroi du canal pudendal."
+   ],
+   "answer": 2,
+   "explanation": "Ces deux ligaments unissent le sacrum à l'ischium et empêchent sa bascule antérieure. Ils transforment la grande incisure ischiatique en grand foramen ischiatique et la petite en petit foramen ischiatique. Le piriforme divise le grand foramen en canaux supra- et infrapiriformes.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae",
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "ar-081572fb",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lequel de ces éléments N'EST PAS une caractéristique d'une articulation synoviale ?",
+   "options": [
+    "Capsule articulaire",
+    "Cavité articulaire",
+    "Cartilage articulaire hyalin",
+    "Extrémités osseuses soudées par du tissu fibreux",
+    "Liquide synovial"
+   ],
+   "answer": 3,
+   "explanation": "Dans les articulations synoviales, les extrémités osseuses sont recouvertes de cartilage hyalin et séparées par une cavité articulaire entourée de la membrane synoviale et de la capsule fibreuse ; le liquide synovial nourrit et lubrifie. L'union par du tissu fibreux caractérise les articulations fibreuses (sutures, syndesmoses).",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-faa2b7bc",
+   "group": "Généralités",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Qu'énonce la loi de Hilton ?",
+   "options": [
+    "Chaque articulation est innervée par un seul nerf",
+    "Les nerfs des muscles qui mobilisent une articulation innervent aussi cette articulation et la peau qui la recouvre",
+    "Le cartilage articulaire est riche en nerfs",
+    "Les ligaments d'une articulation agissent à l'inverse de ses muscles",
+    "La vascularisation d'une articulation vient uniquement des artères capsulaires"
+   ],
+   "answer": 1,
+   "explanation": "La loi de Hilton explique pourquoi une douleur articulaire peut être projetée à distance : par exemple, le nerf obturateur innervant aussi la hanche, une coxopathie peut donner une douleur à la face médiale du genou. Le cartilage articulaire ne contient ni nerfs ni vaisseaux.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-35071863",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel type d'articulation unit les dents aux alvéoles ?",
+   "options": [
+    "Syndesmose",
+    "Gomphose",
+    "Symphyse",
+    "Synchondrose",
+    "Suture"
+   ],
+   "answer": 1,
+   "explanation": "La gomphose est une articulation fibreuse : la racine dentaire est fixée comme une cheville dans son alvéole par le ligament parodontal. Les sutures unissent les os du crâne, la syndesmose le tibia et la fibula en bas ; la plaque épiphysaire est une synchondrose, la symphyse pubienne et les disques intervertébraux des symphyses.",
+   "entries": [
+    "eklem-tipleri",
+    "dentes"
+   ]
+  },
+  {
+   "id": "ar-471daa9c",
+   "group": "Généralités",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel des éléments suivants N'EST PAS une synchondrose ?",
+   "options": [
+    "Jonction sphéno-occipitale",
+    "Articulation entre la 1re côte et le manubrium",
+    "Plaque épiphysaire",
+    "Cartilage en Y de l'os coxal",
+    "Symphyse pubienne"
+   ],
+   "answer": 4,
+   "explanation": "Les synchondroses sont des articulations cartilagineuses primaires formées de cartilage hyalin, et la plupart s'ossifient avec le temps. La symphyse pubienne est une articulation cartilagineuse secondaire (symphyse) contenant un disque fibrocartilagineux ; les disques intervertébraux et l'articulation manubrio-sternale appartiennent aussi à ce groupe.",
+   "entries": [
+    "eklem-tipleri",
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-78703f7e",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel mouvement se produit principalement dans l'articulation atlanto-occipitale ?",
+   "options": [
+    "Aucun mouvement",
+    "Inclinaison latérale seulement",
+    "Rotation de la tête à droite et à gauche (le « non »)",
+    "Rotation seulement",
+    "Flexion–extension de la tête (le « oui »)"
+   ],
+   "answer": 4,
+   "explanation": "Les condyles occipitaux reposent sur les surfaces articulaires supérieures de l'atlas ; cette articulation ellipsoïde permet surtout la flexion–extension et un peu d'inclinaison latérale. L'essentiel de la rotation se fait dans les articulations atlanto-axoïdiennes.",
+   "entries": [
+    "ligg-columnae",
+    "atlas"
+   ]
+  },
+  {
+   "id": "ar-044f5001",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le ligament nucal est le prolongement cervical de quel ligament ?",
+   "options": [
+    "Ligament jaune",
+    "Ligament de l'apex de la dent",
+    "Ligament longitudinal antérieur",
+    "Membrane tectoriale",
+    "Ligament supra-épineux"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament supra-épineux, qui unit les sommets des processus épineux, s'élargit au-dessus de C7 en un ligament nucal triangulaire tendu jusqu'à la protubérance occipitale externe ; il donne insertion au trapèze et au splénius.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-06ded398",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "La membrane tectoriale est le prolongement supérieur de quel ligament ?",
+   "options": [
+    "Ligament supra-épineux",
+    "Ligament longitudinal antérieur",
+    "Ligament jaune",
+    "Ligament transverse de l'atlas",
+    "Ligament longitudinal postérieur"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament longitudinal postérieur s'élargit vers le haut à partir du corps de l'axis pour former la membrane tectoriale, qui s'insère sur le clivus ; elle recouvre en arrière la dent et le ligament cruciforme et protège la moelle.",
+   "entries": [
+    "ligg-columnae",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-c597d8fc",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles sont les composantes du ligament cruciforme de l'atlas ?",
+   "options": [
+    "Membrane tectoriale et ligament jaune",
+    "Ligament transverse de l'atlas et faisceaux longitudinaux",
+    "Ligaments alaires et ligament de l'apex de la dent",
+    "Ligament nucal et ligament supra-épineux",
+    "Ligaments longitudinaux antérieur et postérieur"
+   ],
+   "answer": 1,
+   "explanation": "La branche horizontale du ligament cruciforme est le ligament transverse de l'atlas, qui maintient la dent contre l'arc antérieur ; ses branches verticales sont des faisceaux longitudinaux tendus du corps de l'axis au foramen magnum. Les ligaments alaires vont des côtés de la dent aux condyles occipitaux et limitent la rotation.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-ed470bcc",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Avant une intubation, un patient atteint de polyarthrite rhumatoïde ancienne passe des radiographies cervicales en flexion–extension ; en flexion, la distance atlas–dent augmente nettement. L'affaiblissement de quel ligament est surtout responsable de cette instabilité ?",
+   "options": [
+    "Ligament longitudinal antérieur",
+    "Ligament interépineux",
+    "Ligament jaune",
+    "Ligament nucal",
+    "Ligament transverse de l'atlas"
+   ],
+   "answer": 4,
+   "explanation": "La synovite rhumatoïde érode les ligaments autour de la dent ; quand le ligament transverse se relâche, l'atlas glisse en avant en flexion et la dent peut comprimer la moelle. C'est pourquoi on évite la flexion du cou lors de l'intubation chez ces patients.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-f49987bc",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle proposition concernant le disque intervertébral est exacte ?",
+   "options": [
+    "Il existe aussi un disque entre l'atlas et l'axis",
+    "Il représente la moitié de la longueur du rachis",
+    "Sa partie périphérique est l'annulus fibrosus fibrocartilagineux, sa partie centrale le nucleus pulposus gélatineux",
+    "C'est une articulation synoviale",
+    "Chez l'adulte, tout le disque est bien vascularisé"
+   ],
+   "answer": 2,
+   "explanation": "Les disques sont des articulations cartilagineuses de type symphyse et représentent environ un quart de la longueur du rachis. Il n'y a pas de disque entre C1 et C2. Chez l'adulte, le disque est presque avasculaire et se nourrit par diffusion à partir des plateaux vertébraux.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-19cb43e5",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "De quel type sont les articulations zygapophysaires (facettaires) entre les vertèbres ?",
+   "options": [
+    "Articulation synoviale plane",
+    "Articulation synoviale trochoïde",
+    "Syndesmose",
+    "Articulation synoviale sphéroïde",
+    "Symphyse"
+   ],
+   "answer": 0,
+   "explanation": "Les articulations entre processus articulaires supérieurs et inférieurs sont des arthrodies permettant le glissement ; l'orientation de leurs surfaces détermine la mobilité de chaque région (oblique au cou, frontale au thorax, sagittale aux lombes). Leur dégénérescence est une cause fréquente de lombalgie.",
+   "entries": [
+    "ligg-columnae",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ar-7888f307",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans quel ordre se produisent les mouvements de l'articulation temporo-mandibulaire lors de l'ouverture de la bouche ?",
+   "options": [
+    "Il ne se produit qu'un mouvement de charnière",
+    "Le condyle reste fixe en arrière du tubercule articulaire",
+    "Le disque glisse en arrière indépendamment du condyle",
+    "D'abord un glissement dans le compartiment supérieur, puis une rotation dans le compartiment inférieur",
+    "D'abord une rotation du condyle en charnière dans le compartiment inférieur, puis un glissement antérieur du condyle et du disque dans le compartiment supérieur"
+   ],
+   "answer": 4,
+   "explanation": "Le disque articulaire divise l'ATM en compartiments supérieur (disque–fosse/tubercule) et inférieur (disque–condyle). Au début de l'ouverture se produit une rotation dans le compartiment inférieur ; lors de l'ouverture large, le complexe condyle–disque glisse en avant vers le tubercule articulaire dans le compartiment supérieur (translation), sous l'action du ptérygoïdien latéral.",
+   "entries": [
+    "art-temporomandibularis",
+    "m-pterygoideus-lateralis"
+   ]
+  },
+  {
+   "id": "ar-9f52e25c",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "De quel tissu sont recouvertes les surfaces articulaires de l'articulation temporo-mandibulaire ?",
+   "options": [
+    "Os à nu",
+    "Périoste",
+    "Cartilage élastique",
+    "Fibrocartilage",
+    "Cartilage hyalin"
+   ],
+   "answer": 3,
+   "explanation": "L'ATM est une articulation synoviale atypique dont les surfaces sont recouvertes de fibrocartilage et non de cartilage hyalin, en rapport avec l'origine membraneuse de la mandibule. Les articulations des deux extrémités de la clavicule présentent la même particularité.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-fd55eb81",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle est la zone la plus faible de l'articulation gléno-humérale, et pourquoi ?",
+   "options": [
+    "La partie inférieure ; il n'y a là ni muscle de la coiffe ni ligament puissant",
+    "Aucune zone n'est faible",
+    "La partie antérieure ; le subscapulaire n'y est pas",
+    "La partie supérieure ; il n'y a pas d'appui acromial",
+    "La partie postérieure ; la capsule y est la plus mince"
+   ],
+   "answer": 0,
+   "explanation": "La coiffe des rotateurs entoure la capsule en haut, en avant et en arrière ; la partie inférieure n'est protégée que par la capsule lâche et le ligament gléno-huméral inférieur. En abduction, la tête humérale s'échappe en bas et en avant par cette zone, menaçant le nerf axillaire.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-0145e5e7",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles sont les deux parties du ligament coraco-claviculaire ?",
+   "options": [
+    "Ligaments gléno-huméraux supérieur et moyen",
+    "Ligaments coraco-acromial et coraco-huméral",
+    "Ligaments acromio-claviculaires supérieur et inférieur",
+    "Ligaments costo-claviculaire et interclaviculaire",
+    "Ligaments conoïde et trapézoïde"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament coraco-claviculaire est le plus solide des ligaments suspendant la clavicule à la scapula : il comporte une partie médiale conoïde (vers le tubercule conoïde) et une partie latérale trapézoïde (vers la ligne trapézoïde). S'il se rompt aussi dans une luxation acromio-claviculaire, la clavicule s'élève nettement.",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-2ce80442",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle proposition concernant l'articulation sterno-claviculaire est exacte ?",
+   "options": [
+    "C'est une sphéroïde sans disque",
+    "C'est une trochléenne à un seul axe",
+    "C'est une articulation cartilagineuse",
+    "C'est une articulation fibreuse",
+    "C'est une articulation synoviale en selle contenant un disque articulaire"
+   ],
+   "answer": 4,
+   "explanation": "L'articulation sterno-claviculaire est la seule véritable articulation reliant le membre supérieur au tronc ; son disque la divise en deux et forme un coussinet solide qui empêche la clavicule de glisser en dedans. Le ligament costo-claviculaire en est le principal stabilisateur.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-b6f1b5ff",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Où se trouve le complexe fibrocartilagineux triangulaire (TFCC) ?",
+   "options": [
+    "Dans l'articulation radio-ulnaire proximale",
+    "Dans l'articulation trapézo-métacarpienne",
+    "Dans l'articulation médio-carpienne",
+    "Entre le radius et le scaphoïde",
+    "Entre l'extrémité distale de l'ulna et le lunatum et le triquetrum"
+   ],
+   "answer": 4,
+   "explanation": "Le TFCC sépare la tête de l'ulna des os du carpe, est le principal stabilisateur de l'articulation radio-ulnaire distale et transmet une partie des charges du poignet. Il peut se rompre lors d'une chute sur la main ou en inclinaison ulnaire forcée, avec une douleur du bord ulnaire du poignet.",
+   "entries": [
+    "artt-radioulnares",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "ar-9c0521bf",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Pourquoi l'inclinaison radiale (abduction) du poignet est-elle plus limitée que l'inclinaison ulnaire ?",
+   "options": [
+    "L'ulna est plus longue que le radius",
+    "Le processus styloïde du radius descend plus bas",
+    "Le TFCC est du côté radial",
+    "Le ligament collatéral ulnaire du carpe est faible",
+    "Le pisiforme bloque le mouvement"
+   ],
+   "answer": 1,
+   "explanation": "Le processus styloïde radial se termine environ 1 cm plus bas que celui de l'ulna et limite l'inclinaison radiale en butant sur le scaphoïde. L'ulna ne s'articulant pas directement avec le carpe, l'inclinaison ulnaire est plus ample.",
+   "entries": [
+    "art-radiocarpalis",
+    "radius"
+   ]
+  },
+  {
+   "id": "ar-24504957",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "De quel type sont les articulations radio-ulnaires proximale et distale ?",
+   "options": [
+    "Syndesmose",
+    "Trochléenne (charnière)",
+    "Arthrodie (plane)",
+    "En selle",
+    "Articulation synoviale trochoïde (pivot)"
+   ],
+   "answer": 4,
+   "explanation": "En haut, la tête radiale tourne dans le ligament annulaire ; en bas, le radius tourne autour de la tête de l'ulna ; ensemble, ces deux articulations assurent la pronosupination. La membrane interosseuse qui les relie est une syndesmose.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-7abbb713",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "À quoi sert l'orientation des fibres de la membrane interosseuse de l'avant-bras ?",
+   "options": [
+    "Elle empêche totalement la pronation",
+    "Elle transmet à l'ulna les charges venant de la main par le radius",
+    "Elle transmet à la main les charges venant de l'ulna",
+    "Elle remplace les ligaments collatéraux du coude",
+    "Elle sert uniquement d'origine aux muscles"
+   ],
+   "answer": 1,
+   "explanation": "Au poignet, la plus grande partie des charges passe par le radius ; au coude, par l'ulna (articulation huméro-ulnaire). Les fibres de la membrane se dirigeant du radius vers le bas et en dedans jusqu'à l'ulna, elles transmettent les charges du radius à l'ulna et offrent une large surface d'origine aux muscles.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-801c39ac",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "De quel type est l'articulation du genou ?",
+   "options": [
+    "En selle",
+    "Plane",
+    "Trochoïde",
+    "Sphéroïde",
+    "Articulation synoviale bicondylaire (trochléenne modifiée)"
+   ],
+   "answer": 4,
+   "explanation": "Le genou est une articulation bicondylaire entre les deux condyles fémoraux et les plateaux tibiaux qui, en plus de la flexion–extension, permet une certaine rotation en flexion ; l'articulation fémoro-patellaire est dans la même capsule.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-8ffbb6ae",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel mouvement le ligament croisé antérieur (LCA) empêche-t-il principalement ?",
+   "options": [
+    "Le glissement antérieur du tibia sous le fémur",
+    "Le glissement latéral de la patella",
+    "Le varus forcé du genou",
+    "Le glissement postérieur du tibia sous le fémur",
+    "Le valgus forcé du genou"
+   ],
+   "answer": 0,
+   "explanation": "Le LCA va de l'aire intercondylaire antérieure du tibia à la face interne du condyle fémoral latéral ; il limite le glissement antérieur du tibia et la rotation interne excessive. On l'évalue par le tiroir antérieur et le test de Lachman. Le glissement postérieur est limité par le LCP, le valgus par le ligament collatéral médial et le varus par le latéral.",
+   "notes": [
+    "",
+    "C'est le rôle du ligament fémoro-patellaire médial et du vaste médial oblique.",
+    "C'est le rôle du ligament collatéral latéral.",
+    "C'est le rôle du ligament croisé postérieur.",
+    "C'est le rôle du ligament collatéral médial."
+   ],
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-1653af8f",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Lors d'un accident de moto, un patient reçoit un choc sur la face antérieure du tibia proximal, genou fléchi ; genou à 90°, le tibia peut être repoussé en arrière par rapport au fémur. Quel ligament est lésé ?",
+   "options": [
+    "Ligament patellaire",
+    "Ligament collatéral latéral",
+    "Ligament collatéral médial",
+    "Ligament croisé antérieur",
+    "Ligament croisé postérieur"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament croisé postérieur empêche le glissement postérieur du tibia ; le « syndrome du tableau de bord » en est le mécanisme typique. Le tiroir postérieur et l'avalement de la tubérosité tibiale (sag sign) sont positifs. Le LCP est plus épais et plus solide que le LCA.",
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-35c5b540",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles sont les composantes de la classique « triade malheureuse » (O'Donoghue) du genou ?",
+   "options": [
+    "Ligament croisé postérieur, ligament collatéral latéral et ménisque latéral",
+    "Ligament croisé antérieur, ligament croisé postérieur et ligament patellaire",
+    "Ligament croisé antérieur, ligament collatéral médial et ménisque médial",
+    "Ligament collatéral latéral, tendon du poplité et ménisque latéral",
+    "Ligament collatéral médial, patte d'oie et ménisque médial"
+   ],
+   "answer": 2,
+   "explanation": "Un choc sur la face latérale du genou, pied bloqué au sol, rompt par valgus et rotation externe le ligament collatéral médial, puis le ménisque médial qui lui adhère et le ligament croisé antérieur. Des travaux récents montrent que le ménisque latéral est aussi souvent atteint.",
+   "entries": [
+    "ligg-cruciata",
+    "ligg-collateralia-genus",
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-d15651f8",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Que se passe-t-il lors du verrouillage du genou en extension complète (screw-home), pied au sol ?",
+   "options": [
+    "Le fémur tourne en dehors sur le tibia",
+    "Le tibia tourne en dedans sous le fémur",
+    "Les ménisques reculent",
+    "Le fémur tourne en dedans sur le tibia",
+    "La patella remonte et se verrouille"
+   ],
+   "answer": 3,
+   "explanation": "Le condyle fémoral médial étant plus long, dans les derniers degrés d'extension en chaîne fermée le fémur tourne en dedans et verrouille l'articulation ; en chaîne ouverte, le même mouvement correspond à une rotation externe du tibia. Le poplité déverrouille en tournant le fémur en dehors.",
+   "entries": [
+    "art-genus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-dec32412",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle proposition concernant la bourse suprapatellaire est exacte ?",
+   "options": [
+    "Elle est toujours séparée de la cavité articulaire",
+    "Elle est située entre la patella et la peau",
+    "Elle est située entre le ligament patellaire et le tibia",
+    "Elle communique le plus souvent avec la cavité du genou et gonfle lors d'un épanchement",
+    "Elle est située sous la patte d'oie"
+   ],
+   "answer": 3,
+   "explanation": "La bourse suprapatellaire est située sous le tendon quadricipital, en avant du fémur, et forme comme un prolongement supérieur de la cavité articulaire ; lors d'un épanchement, elle gonfle au-dessus de la patella. La bourse prépatellaire est en avant de la patella, la bourse infrapatellaire profonde en arrière du ligament patellaire.",
+   "notes": [
+    "Faux ; elle communique le plus souvent.",
+    "Cela décrit la bourse prépatellaire.",
+    "Cela décrit la bourse infrapatellaire profonde.",
+    "",
+    "Cela décrit la bourse de la patte d'oie."
+   ],
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-bbea335b",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle partie des ménisques n'est pas vascularisée, de sorte que ses lésions cicatrisent mal ?",
+   "options": [
+    "Les extrémités des cornes postérieures fixées au tibia",
+    "Les bords adhérents à la capsule",
+    "Les extrémités des cornes antérieures fixées au tibia",
+    "Les 2/3 internes tournés vers l'articulation (zone blanche)",
+    "Le 1/3 externe proche de la capsule (zone rouge)"
+   ],
+   "answer": 3,
+   "explanation": "Les ménisques sont vascularisés en périphérie par le réseau capillaire périméniscal ; le tiers externe (zone rouge) est bien vascularisé et réparable, tandis que les parties internes sont nourries par diffusion à partir du liquide synovial et leurs lésions sont généralement réséquées.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-635bed39",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un footballeur ressent une douleur brutale en pivotant genou fléchi, pied bloqué au sol. Le lendemain, il décrit une douleur de l'interligne médial et des accrochages et blocages intermittents ; le test de McMurray est positif. Quelle est la lésion la plus probable ?",
+   "options": [
+    "Maladie d'Osgood-Schlatter",
+    "Lésion du ménisque médial",
+    "Luxation de la patella",
+    "Rupture du ligament croisé antérieur",
+    "Syndrome de friction de la bandelette ilio-tibiale"
+   ],
+   "answer": 1,
+   "explanation": "Le genou en charge, fléchi et en rotation, coince le ménisque entre fémur et tibia ; la douleur de l'interligne, les blocages et le test de McMurray évoquent une lésion méniscale. Le ménisque médial, adhérent à la capsule et au ligament collatéral médial, est moins mobile et se rompt plus souvent.",
+   "entries": [
+    "meniscus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-a84a64ee",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle est la position la plus stable (close-packed) de l'articulation de la hanche ?",
+   "options": [
+    "Légère flexion et rotation latérale",
+    "Extension, abduction et rotation médiale",
+    "Position neutre",
+    "Flexion, abduction et rotation latérale",
+    "Flexion, adduction et rotation médiale"
+   ],
+   "answer": 1,
+   "explanation": "En extension et rotation médiale, les ligaments ilio-, pubo- et ischio-fémoraux se tendent en spirale et plaquent fermement la tête fémorale dans l'acétabulum. La flexion–adduction–rotation médiale est la position la plus exposée à la luxation postérieure (syndrome du tableau de bord).",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-21f160b4",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel anneau fibrocartilagineux approfondit l'acétabulum ?",
+   "options": [
+    "Ménisque",
+    "Ligament de la tête fémorale",
+    "Labrum acétabulaire",
+    "Labrum glénoïdal",
+    "Disque articulaire"
+   ],
+   "answer": 2,
+   "explanation": "Le labrum acétabulaire s'insère sur le rebord de l'acétabulum, son incisure inférieure étant complétée par le ligament transverse de l'acétabulum ; il approfondit l'articulation et retient la tête fémorale comme une ventouse. Il peut se rompre dans le conflit fémoro-acétabulaire.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-2025bf01",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle proposition concernant le ligament collatéral médial (deltoïdien) de la cheville est exacte ?",
+   "options": [
+    "Il est formé de trois faisceaux distincts et c'est le ligament le plus souvent rompu",
+    "Il s'étale en éventail de la malléole médiale au talus, au calcanéus et au naviculaire ; il limite l'éversion",
+    "Il est tendu entre le tibia et la fibula",
+    "Il limite l'inversion",
+    "Il naît de la malléole latérale"
+   ],
+   "answer": 1,
+   "explanation": "Le ligament deltoïdien est très solide ; en éversion forcée, il arrache souvent la malléole médiale plutôt que de se rompre. Le complexe ligamentaire latéral (LTFA, LCF, LTFP) est la structure la plus souvent lésée dans les entorses en inversion.",
+   "entries": [
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-029aa2f6",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle est l'articulation de Lisfranc ?",
+   "options": [
+    "Articulation subtalaire",
+    "Articulations intermétatarsiennes",
+    "Articulations métatarso-phalangiennes",
+    "Articulations talo-naviculaire et calcanéo-cuboïdienne",
+    "Articulations tarso-métatarsiennes"
+   ],
+   "answer": 4,
+   "explanation": "L'interligne de Lisfranc est situé entre les cunéiformes et le cuboïde d'une part et les bases métatarsiennes d'autre part ; la base du 2e métatarsien s'encastre dans le cunéiforme intermédiaire et en constitue la clé de voûte. Les articulations talo-naviculaire et calcanéo-cuboïdienne forment ensemble l'interligne de Chopart (transverse du tarse).",
+   "entries": [
+    "artt-pedis",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "ar-cbb80467",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Qu'est-ce que le mécanisme du « treuil » (windlass) de l'aponévrose plantaire ?",
+   "options": [
+    "L'extension (flexion dorsale) du gros orteil tend l'aponévrose plantaire et élève l'arche médiale",
+    "L'aponévrose ne se relâche qu'en station debout",
+    "L'aponévrose se rompt et se réinsère à l'attaque du talon",
+    "La flexion plantaire du gros orteil élève l'arche",
+    "La flexion plantaire de la cheville relâche l'aponévrose et aplatit l'arche"
+   ],
+   "answer": 0,
+   "explanation": "L'aponévrose plantaire va du calcanéus à la base des orteils ; lors de la propulsion, quand l'hallux passe en flexion dorsale, elle s'enroule comme un câble autour de la MTP, rapproche le talon des têtes métatarsiennes et élève l'arche. La douleur des premiers pas du matin dans la fasciite plantaire est liée à cette tension.",
+   "entries": [
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "ar-9cae36b7",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Que soutient le ligament calcanéo-naviculaire plantaire (ligament « glénoïdien », spring ligament) ?",
+   "options": [
+    "L'extrémité inférieure de la fibula",
+    "La tête du talus et l'arche longitudinale médiale",
+    "Le cuboïde",
+    "La tubérosité calcanéenne",
+    "Le 5e métatarsien"
+   ],
+   "answer": 1,
+   "explanation": "Le ligament calcanéo-naviculaire plantaire va du sustentaculum tali au naviculaire et forme le plancher de la cavité où repose la tête du talus ; avec le tendon du tibial postérieur qui passe sous lui, c'est le soutien clé de l'arche médiale. Son relâchement laisse s'affaisser la tête du talus et entraîne un pied plat.",
+   "entries": [
+    "artt-pedis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-9dffdcc7",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "De quel type est l'articulation tibio-fibulaire distale ?",
+   "options": [
+    "Articulation synoviale plane",
+    "Syndesmose",
+    "Symphyse",
+    "Trochoïde",
+    "Gomphose"
+   ],
+   "answer": 1,
+   "explanation": "L'articulation tibio-fibulaire distale est une articulation fibreuse maintenue par de solides ligaments (tibio-fibulaires antérieur et postérieur, ligament interosseux) ; elle assure l'intégrité de la mortaise. L'articulation tibio-fibulaire proximale est une articulation synoviale plane.",
+   "entries": [
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-2170c9e2",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient victime d'une entorse de cheville présente une douleur et une tuméfaction de la malléole médiale ; la radiographie de cheville ne montre pas de fracture, mais il signale aussi une douleur de l'extrémité supérieure de la fibula, juste sous le genou. La radiographie montre une fracture de la fibula proximale et un diastasis tibio-fibulaire. Comment s'appelle ce tableau ?",
+   "options": [
+    "Lésion de Lisfranc",
+    "Fracture de Segond",
+    "Fracture de Pouteau-Colles",
+    "Fracture de Maisonneuve",
+    "Fracture de Jones"
+   ],
+   "answer": 3,
+   "explanation": "Une force en rotation externe rompt le ligament deltoïdien (ou la malléole médiale), remonte le long de la syndesmose tibio-fibulaire et de la membrane interosseuse et fracture la fibula proximale. C'est pourquoi il ne faut jamais omettre l'examen de la tête de la fibula dans les traumatismes de cheville.",
+   "entries": [
+    "artt-tibiofibulares",
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-59f5af67",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament maintient le plus solidement l'articulation sacro-iliaque ?",
+   "options": [
+    "Ligament sacro-tubéral",
+    "Ligament ilio-lombal",
+    "Ligament sacro-iliaque antérieur",
+    "Ligament sacro-épineux",
+    "Ligaments sacro-iliaques interosseux"
+   ],
+   "answer": 4,
+   "explanation": "Les ligaments sacro-iliaques interosseux sont des fibres courtes et très solides situées en arrière de l'articulation, comblant l'espace entre le sacrum et la tubérosité iliaque ; ils transmettent le poids du corps du sacrum à l'ilium. Le ligament antérieur est mince ; les ligaments sacro-tubéral et sacro-épineux sont des ligaments accessoires qui empêchent la bascule antérieure du sacrum.",
+   "entries": [
+    "art-sacroiliaca"
+   ]
+  },
+  {
+   "id": "ar-0814aea8",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel de ces éléments NE participe PAS aux limites du détroit inférieur du bassin ?",
+   "options": [
+    "Promontoire",
+    "Pointe du coccyx",
+    "Arcade pubienne",
+    "Tubérosité ischiatique",
+    "Ligament sacro-tubéral"
+   ],
+   "answer": 0,
+   "explanation": "Le détroit inférieur est limité en avant par l'arcade pubienne et le bord inférieur de la symphyse, latéralement par les tubérosités ischiatiques et les ligaments sacro-tubéraux, en arrière par la pointe du coccyx. Le promontoire est la limite postérieure du détroit supérieur.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-158c435d",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "De façon générale, que relient les ligaments ?",
+   "options": [
+    "Les nerfs à l'os",
+    "La peau à l'os",
+    "Le muscle à l'os",
+    "L'os à l'os",
+    "Le muscle au muscle"
+   ],
+   "answer": 3,
+   "explanation": "Les ligaments sont des bandes de tissu conjonctif dense qui unissent les os et stabilisent passivement l'articulation. La structure qui relie le muscle à l'os est le tendon.",
+   "entries": [
+    "eklem-tipleri",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3d9b7532",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on la structure qui relie le muscle à l'os ?",
+   "options": [
+    "Tendon",
+    "Labrum",
+    "Ligament",
+    "Bourse",
+    "Ménisque"
+   ],
+   "answer": 0,
+   "explanation": "Les tendons transmettent la force du muscle à l'os. Les bourses facilitent le glissement des tendons sur l'os ; ménisques et labrums sont des structures fibrocartilagineuses intra-articulaires.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3fe924fa",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel type de cartilage recouvre habituellement les surfaces des articulations synoviales ?",
+   "options": [
+    "Tissu osseux",
+    "Cartilage hyalin",
+    "Cartilage élastique",
+    "Fibrocartilage",
+    "Tissu conjonctif dense"
+   ],
+   "answer": 1,
+   "explanation": "Dans la plupart des articulations synoviales, les surfaces sont recouvertes de cartilage hyalin lisse. Dans quelques-unes, comme la temporo-mandibulaire et la sterno-claviculaire, c'est du fibrocartilage.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-5deb5335",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle structure produit le liquide synovial ?",
+   "options": [
+    "Ligaments articulaires",
+    "Périoste",
+    "Membrane synoviale",
+    "Capsule fibreuse",
+    "Cartilage articulaire"
+   ],
+   "answer": 2,
+   "explanation": "La membrane synoviale qui tapisse l'intérieur de la capsule produit un liquide glissant riche en acide hyaluronique, qui nourrit le cartilage et réduit les frottements.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-968e75e8",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le mouvement qui diminue l'angle entre deux os (plier) ?",
+   "options": [
+    "Abduction",
+    "Extension",
+    "Flexion",
+    "Rotation",
+    "Adduction"
+   ],
+   "answer": 2,
+   "explanation": "La flexion plie, l'extension déplie (augmente l'angle). L'abduction éloigne de la ligne médiane, l'adduction en rapproche et la rotation fait tourner un segment autour de son axe.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-59af87db",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le mouvement qui écarte le bras du tronc sur le côté ?",
+   "options": [
+    "Flexion",
+    "Circumduction",
+    "Adduction",
+    "Extension",
+    "Abduction"
+   ],
+   "answer": 4,
+   "explanation": "L'abduction écarte un membre de la ligne médiane ; à l'épaule elle est réalisée surtout par le supra-épineux et le deltoïde.",
+   "entries": [
+    "eklem-tipleri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-4d1f8034",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le mouvement de l'avant-bras qui tourne la paume vers le haut (vers l'avant) ?",
+   "options": [
+    "Éversion",
+    "Pronation",
+    "Supination",
+    "Opposition",
+    "Inversion"
+   ],
+   "answer": 2,
+   "explanation": "En supination la paume regarde en haut/en avant, en pronation en bas/en arrière ; ces mouvements se font dans les articulations radio-ulnaires. Inversion et éversion concernent le pied.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-d52f46c3",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le mouvement qui tourne la plante du pied vers l'intérieur ?",
+   "options": [
+    "Éversion",
+    "Inversion",
+    "Pronation",
+    "Flexion dorsale",
+    "Flexion plantaire"
+   ],
+   "answer": 1,
+   "explanation": "En inversion la plante regarde en dedans, en éversion en dehors. Ces mouvements se font surtout dans la sous-talienne et la transverse du tarse ; la plupart des entorses de cheville surviennent en inversion.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-3eb5fefe",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle est l'articulation la plus mobile du corps ?",
+   "options": [
+    "Hanche",
+    "Épaule (gléno-humérale)",
+    "Genou",
+    "Coude",
+    "Poignet"
+   ],
+   "answer": 1,
+   "explanation": "L'épaule sacrifie la stabilité à l'amplitude : la tête humérale n'est en contact que partiel avec la glène peu profonde. C'est donc la grosse articulation qui se luxe le plus souvent.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-f3f16261",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle est la plus grande articulation du corps ?",
+   "options": [
+    "Genou",
+    "Hanche",
+    "Sacro-iliaque",
+    "Épaule",
+    "Cheville"
+   ],
+   "answer": 0,
+   "explanation": "Le genou, formé par le fémur, le tibia et la patella, est l'articulation synoviale la plus grande et la plus complexe du corps.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-809c1821",
+   "group": "Articulations du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quels os participent à l'articulation du genou ?",
+   "options": [
+    "Fémur, patella et calcanéus",
+    "Fémur, fibula et patella",
+    "Tibia, fibula et talus",
+    "Fémur, tibia et fibula",
+    "Fémur, tibia et patella"
+   ],
+   "answer": 4,
+   "explanation": "Le genou comprend les articulations fémoro-tibiale et fémoro-patellaire. La fibula ne participe pas au genou ; la tibio-fibulaire supérieure est une articulation distincte.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-e4a2fa9a",
+   "group": "Articulations du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Entre quels os se trouve l'articulation de l'épaule ?",
+   "options": [
+    "Clavicule et scapula",
+    "Scapula et sternum",
+    "Humérus et sternum",
+    "Humérus et clavicule",
+    "Humérus et scapula"
+   ],
+   "answer": 4,
+   "explanation": "L'articulation gléno-humérale unit la tête humérale à la cavité glénoïdale de la scapula. La clavicule et la scapula forment l'acromio-claviculaire.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-aec5db37",
+   "group": "Articulations du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "De quel type est l'articulation de la hanche ?",
+   "options": [
+    "En selle",
+    "Charnière",
+    "Sphéroïde (énarthrose)",
+    "Trochoïde (pivot)",
+    "Plane"
+   ],
+   "answer": 2,
+   "explanation": "La hanche est une articulation sphéroïde entre la tête fémorale et l'acétabulum ; elle se meut selon trois axes et, grâce à sa cavité profonde, est plus stable que l'épaule.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-55d60eb1",
+   "group": "Articulations du crâne et du rachis",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Entre quels os se trouve l'articulation de la mâchoire (temporo-mandibulaire) ?",
+   "options": [
+    "Mandibule et sphénoïde",
+    "Mandibule et os zygomatique",
+    "Mandibule et maxillaire",
+    "Mandibule et os temporal",
+    "Maxillaire et os temporal"
+   ],
+   "answer": 3,
+   "explanation": "L'ATM unit le condyle de la mandibule à la fosse mandibulaire et au tubercule articulaire du temporal ; elle contient un disque fibrocartilagineux.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-1c1cd56a",
+   "group": "Articulations du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Entre quels os se trouve la symphyse pubienne ?",
+   "options": [
+    "Sacrum et coccyx",
+    "Sacrum et ilium",
+    "Fémur et pubis",
+    "Pubis droit et gauche",
+    "Ischium et pubis"
+   ],
+   "answer": 3,
+   "explanation": "La symphyse pubienne est l'articulation fibrocartilagineuse qui unit en avant, sur la ligne médiane, les deux pubis ; le disque interpubien les sépare.",
+   "entries": [
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-c9695c99",
+   "group": "Articulations du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quelle articulation trouve-t-on les ménisques ?",
+   "options": [
+    "Épaule",
+    "Genou",
+    "Cheville",
+    "Hanche",
+    "Coude"
+   ],
+   "answer": 1,
+   "explanation": "Les ménisques médial et latéral se trouvent entre les condyles fémoraux et tibiaux ; ils améliorent la congruence et répartissent les charges.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-df324558",
+   "group": "Généralités",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Qu'est-ce qu'une bourse séreuse ?",
+   "options": [
+    "Un petit sac rempli de liquide, tapissé de synoviale, entre des structures qui frottent",
+    "Un disque fibrocartilagineux intra-articulaire",
+    "La couche externe du cartilage articulaire",
+    "La membrane qui recouvre l'os",
+    "Une bande reliant le muscle à l'os"
+   ],
+   "answer": 0,
+   "explanation": "Les bourses réduisent les frottements entre structures qui glissent l'une sur l'autre, comme tendon et os ou peau et os. Leur inflammation par pression ou frottement répétés est une bursite.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-0716071b",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Comment le cartilage articulaire est-il nourri ?",
+   "options": [
+    "Par les vaisseaux du périchondre",
+    "Par ses propres vaisseaux",
+    "Par les vaisseaux du périoste",
+    "Par des capillaires venus de la moelle",
+    "Par diffusion à partir du liquide synovial"
+   ],
+   "answer": 4,
+   "explanation": "Le cartilage articulaire n'a ni vaisseaux, ni nerfs, ni périchondre ; il est nourri par diffusion à partir du liquide synovial. C'est pourquoi ses lésions ne cicatrisent pas spontanément.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-7804f95c",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans la polyarthrite rhumatoïde, comment appelle-t-on le tissu inflammatoire qui érode le cartilage et l'os ?",
+   "options": [
+    "Cal",
+    "Tophus",
+    "Kyste synovial",
+    "Ostéophyte",
+    "Pannus"
+   ],
+   "answer": 4,
+   "explanation": "La polyarthrite rhumatoïde est une inflammation chronique de la synoviale ; la synoviale épaissie, appelée pannus, érode cartilage et os. Les ostéophytes signent l'arthrose, les tophus la goutte.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-a742a27f",
+   "group": "Généralités",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Chez les personnes qui travaillent à genoux, le gonflement devant la rotule est une bursite de quelle bourse ?",
+   "options": [
+    "Bourse du semi-membraneux",
+    "Bourse infrapatellaire profonde",
+    "Bourse suprapatellaire",
+    "Bourse prépatellaire",
+    "Bourse ansérine"
+   ],
+   "answer": 3,
+   "explanation": "L'hygroma prérotulien est l'inflammation de la bourse située entre la patella et la peau, due à des pressions répétées. La bursite infrapatellaire se situe en avant de la tubérosité tibiale.",
+   "entries": [
+    "art-genus",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-4202eeca",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est la fonction principale des ligaments alaires ?",
+   "options": [
+    "Empêcher la flexion excessive de la tête",
+    "Plaquer la dent contre l'arc antérieur de l'atlas",
+    "Limiter la rotation excessive de la tête",
+    "Unir l'arc postérieur de l'atlas à l'occipital",
+    "Former la paroi antérieure du canal vertébral"
+   ],
+   "answer": 2,
+   "explanation": "Les ligaments alaires vont des côtés de la dent aux condyles occipitaux et empêchent la rotation excessive de la tête dans l'atlanto-axiale. Le ligament qui plaque la dent contre l'arc antérieur est le ligament transverse de l'atlas.",
+   "entries": [
+    "artt-craniovertebrales"
+   ]
+  },
+  {
+   "id": "ar-4ecc76c5",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Pourquoi la rotation du rachis est-elle limitée à l'étage lombal ?",
+   "options": [
+    "À cause des côtes",
+    "Parce que les surfaces des articulations zygapophysaires sont sagittales",
+    "Parce que les disques sont très minces",
+    "Parce que les épineuses sont courtes",
+    "Parce qu'il n'y a pas de ligament jaune"
+   ],
+   "answer": 1,
+   "explanation": "L'orientation des articulations zygapophysaires détermine le mouvement de chaque étage : les facettes lombales sont sagittales et permettent la flexion-extension mais limitent la rotation ; les thoraciques sont frontales et la rotation y est libre.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-0ab30723",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans quelles vertèbres trouve-t-on les articulations unco-vertébrales (de Luschka) ?",
+   "options": [
+    "Vertèbres cervicales C3–C7",
+    "Vertèbres thoraciques T1–T12",
+    "Entre atlas et axis",
+    "Vertèbres lombales L1–L5",
+    "Entre les vertèbres sacrales"
+   ],
+   "answer": 0,
+   "explanation": "Les unco-vertébrales sont des fentes articulaires entre les processus unciformes du bord latéral supérieur des corps de C3 à C7 et la vertèbre sus-jacente ; leurs ostéophytes peuvent rétrécir le foramen intervertébral.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-ff6c7a3d",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament empêche le recul du condyle dans l'articulation temporo-mandibulaire ?",
+   "options": [
+    "Ligament latéral (temporo-mandibulaire)",
+    "Ligament ptérygo-épineux",
+    "Ligament stylo-mandibulaire",
+    "Ligament sphéno-mandibulaire",
+    "Ligament stylo-hyoïdien"
+   ],
+   "answer": 0,
+   "explanation": "Le ligament latéral est un épaississement de la face externe de la capsule ; il va de l'arcade zygomatique au col de la mandibule et empêche le condyle de reculer et de descendre. Les ligaments sphéno- et stylo-mandibulaires sont des ligaments accessoires à distance.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-c413ead3",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le mouvement respiratoire des côtes inférieures qui augmente le diamètre transversal du thorax ?",
+   "options": [
+    "Mouvement en charnière",
+    "Mouvement en bras de pompe",
+    "Mouvement en compas",
+    "Mouvement en anse de seau",
+    "Mouvement de glissement"
+   ],
+   "answer": 3,
+   "explanation": "Les côtes inférieures s'élèvent en dehors par leur partie moyenne comme une anse de seau et augmentent le diamètre transversal. Le mouvement en bras de pompe des côtes supérieures augmente le diamètre antéro-postérieur.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-185a3978",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Laquelle de ces côtes ne s'articule PAS avec un processus transverse (articulation costo-transversaire) ?",
+   "options": [
+    "12e côte",
+    "7e côte",
+    "5e côte",
+    "1re côte",
+    "10e côte"
+   ],
+   "answer": 0,
+   "explanation": "L'articulation costo-transversaire unit le tubercule costal au processus transverse. Les 11e et 12e côtes n'ont pas de tubercule et ne forment pas cette articulation.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-25e330cf",
+   "group": "Articulations du crâne et du rachis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel mouvement augmente le diamètre antéro-postérieur du détroit inférieur lors de l'accouchement ?",
+   "options": [
+    "Soudure de la symphyse pubienne",
+    "Rotation interne de l'ilium",
+    "Élargissement de l'acétabulum",
+    "Bascule antérieure du sacrum",
+    "Recul du coccyx (rétropulsion)"
+   ],
+   "answer": 4,
+   "explanation": "L'articulation sacro-coccygienne permet au coccyx de reculer pendant l'accouchement, augmentant de quelques centimètres le diamètre antéro-postérieur du détroit inférieur.",
+   "entries": [
+    "art-sacrococcygea"
+   ]
+  },
+  {
+   "id": "ar-632188f8",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament assure principalement la stabilité de l'articulation sterno-claviculaire ?",
+   "options": [
+    "Ligament interclaviculaire",
+    "Ligament costo-claviculaire",
+    "Ligament acromio-claviculaire",
+    "Ligament coraco-claviculaire",
+    "Ligament sterno-claviculaire antérieur"
+   ],
+   "answer": 1,
+   "explanation": "Le ligament costo-claviculaire, qui unit l'extrémité médiale de la clavicule au 1er cartilage costal, est le stabilisateur le plus puissant de l'articulation et limite l'élévation de la clavicule.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-d9375ce7",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles structures forment la voûte coraco-acromiale ?",
+   "options": [
+    "Acromion, clavicule et épine de la scapula",
+    "Tubercule majeur, tubercule mineur et ligament huméral transverse",
+    "Processus coracoïde, clavicule et 1re côte",
+    "Cavité glénoïdale, labrum et acromion",
+    "Acromion, ligament coraco-acromial et processus coracoïde"
+   ],
+   "answer": 4,
+   "explanation": "La voûte coraco-acromiale forme un toit protecteur au-dessus de la tête humérale ; le tendon du supra-épineux et la bourse subacromiale passent dessous. Le conflit sous-acromial se produit sous cette voûte.",
+   "entries": [
+    "ligg-scapulae"
+   ]
+  },
+  {
+   "id": "ar-9da426c2",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament maintient le tendon du long chef du biceps dans le sillon intertuberculaire ?",
+   "options": [
+    "Ligament coraco-acromial",
+    "Ligament coraco-huméral",
+    "Ligament huméral transverse",
+    "Ligament transverse supérieur de la scapula",
+    "Ligament gléno-huméral supérieur"
+   ],
+   "answer": 2,
+   "explanation": "Le ligament huméral transverse tendu entre les tubercules majeur et mineur transforme le sillon en canal. S'il se rompt, le tendon peut sortir du sillon avec un ressaut douloureux.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-d525aa5a",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Comment appelle-t-on la désinsertion du labrum antéro-inférieur, principale cause des luxations antérieures récidivantes de l'épaule ?",
+   "options": [
+    "Lésion SLAP",
+    "Lésion de Stener",
+    "Lésion de Bankart",
+    "Encoche de Hill-Sachs",
+    "Lésion de Bennett"
+   ],
+   "answer": 2,
+   "explanation": "La lésion de Bankart est la désinsertion du labrum antéro-inférieur et du ligament gléno-huméral inférieur de la glène. Hill-Sachs est une fracture-impaction postéro-latérale de la tête humérale ; SLAP est une lésion du labrum supérieur.",
+   "entries": [
+    "ligg-art-humeri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-ecd485e2",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle partie du labrum une lésion SLAP touche-t-elle ?",
+   "options": [
+    "Le labrum supérieur (insertion du long chef du biceps)",
+    "Le labrum postéro-inférieur",
+    "Le labrum acétabulaire",
+    "Tout le labrum",
+    "Le labrum antéro-inférieur"
+   ],
+   "answer": 0,
+   "explanation": "La lésion SLAP (Superior Labrum Anterior to Posterior) est une déchirure d'avant en arrière du labrum supérieur, là où s'insère le long chef du biceps ; elle est fréquente dans les sports de lancer.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-cfe7c2cc",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est la structure la plus importante pour la stabilité en valgus du coude ?",
+   "options": [
+    "Ligament carré",
+    "Faisceau antérieur du ligament collatéral ulnaire",
+    "Ligament annulaire du radius",
+    "Corde oblique",
+    "Ligament collatéral radial"
+   ],
+   "answer": 1,
+   "explanation": "Le faisceau antérieur du ligament collatéral médial (ulnaire) protège le coude contre les contraintes en valgus. Chez les lanceurs, sa rupture est reconstruite par greffe tendineuse (opération de « Tommy John »).",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-9da28623",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle rupture ligamentaire cause le plus souvent une instabilité du poignet, et quel est son signe radiographique ?",
+   "options": [
+    "Ligament piso-hamatum – fracture de l'hamulus",
+    "Ligament collatéral ulnaire – luxation de la tête ulnaire",
+    "Ligament collatéral radial – fracture de la styloïde radiale",
+    "Ligament luno-triquétral – rotation dorsale du lunatum",
+    "Ligament scapho-lunaire – diastasis de plus de 3 mm entre scaphoïde et lunatum"
+   ],
+   "answer": 4,
+   "explanation": "Dans la rupture scapho-lunaire, la radiographie de face montre un diastasis entre les deux os (signe de Terry Thomas) et un signe de l'anneau du scaphoïde ; non traitée, elle évolue vers une déformation DISI et une arthrose SLAC.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-3707eab2",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Comment appelle-t-on l'arthrose de l'articulation carpo-métacarpienne du pouce ?",
+   "options": [
+    "Rhizarthrose",
+    "Maladie de Kienböck",
+    "Ténosynovite de De Quervain",
+    "Nodosité d'Heberden",
+    "Maladie de Dupuytren"
+   ],
+   "answer": 0,
+   "explanation": "La rhizarthrose est l'arthrose de l'articulation en selle entre le trapèze et le 1er métacarpien ; elle provoque des douleurs à la prise et en tournant une clé, surtout chez la femme ménopausée.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-a495b9af",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Si la main doit être immobilisée longtemps, pourquoi place-t-on les MCP en flexion ?",
+   "options": [
+    "Les tendons sont mieux nourris en flexion.",
+    "Les nerfs sont libérés de toute compression en flexion.",
+    "Les os ne consolident pas en extension.",
+    "Les ligaments collatéraux sont tendus en flexion et ne se rétractent donc pas.",
+    "La plaque palmaire se relâche et cicatrise en flexion."
+   ],
+   "answer": 3,
+   "explanation": "En raison de la forme en came de la tête métacarpienne, les ligaments collatéraux des MCP sont tendus en flexion. Si l'articulation reste longtemps en extension, les ligaments détendus se rétractent et une raideur en extension s'installe.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-9d4ca42d",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le pouce du skieur (pouce du garde-chasse) est une lésion de quel ligament ?",
+   "options": [
+    "Plaque palmaire de l'IP du pouce",
+    "Ligament collatéral ulnaire de la MCP du pouce",
+    "Ligament scapho-lunaire",
+    "Ligament collatéral radial de la MCP du pouce",
+    "Ligament oblique antérieur de la TM du pouce"
+   ],
+   "answer": 1,
+   "explanation": "L'abduction forcée du pouce lors d'une chute sur le bâton de ski rompt le ligament collatéral ulnaire de la MCP ; la force de prise et de pince diminue.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-d07b4763",
+   "group": "Articulations du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle structure empêche l'hyperextension des IPP des doigts ?",
+   "options": [
+    "Appareil extenseur",
+    "Ligaments collatéraux",
+    "Ligament métacarpien transverse profond",
+    "Plaque palmaire",
+    "Muscles lombricaux"
+   ],
+   "answer": 3,
+   "explanation": "La plaque palmaire est une lame fibrocartilagineuse épaisse à la face palmaire de l'articulation qui limite l'hyperextension. Son arrachement lors d'un traumatisme en hyperextension peut donner une déformation en col de cygne.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-b68b4630",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament empêche l'abduction excessive de la hanche ?",
+   "options": [
+    "Ligament de la tête fémorale",
+    "Ligament ischio-fémoral",
+    "Ligament transverse de l'acétabulum",
+    "Ligament ilio-fémoral",
+    "Ligament pubo-fémoral"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament pubo-fémoral va de la branche supérieure du pubis à la partie antéro-inférieure de la capsule et limite l'abduction excessive. L'ilio-fémoral empêche l'hyperextension, l'ischio-fémoral la rotation médiale excessive.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-7cb7465b",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le ligament poplité oblique est une expansion du tendon de quel muscle ?",
+   "options": [
+    "Biceps fémoral",
+    "Gastrocnémien",
+    "Poplité",
+    "Semi-tendineux",
+    "Semi-membraneux"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament poplité oblique part du tendon du semi-membraneux en haut et en dehors et renforce la face postérieure de la capsule du genou ; il est juste en avant de l'artère poplitée.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-02199c01",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel tendon passe entre le ligament collatéral fibulaire et le ménisque latéral du genou ?",
+   "options": [
+    "Tendon du poplité",
+    "Tendon du chef latéral du gastrocnémien",
+    "Tendon du plantaire",
+    "Bandelette ilio-tibiale",
+    "Tendon du biceps fémoral"
+   ],
+   "answer": 0,
+   "explanation": "Le ligament collatéral fibulaire est séparé de la capsule et du ménisque latéral ; le tendon du poplité passe entre eux. Le ménisque latéral est donc plus mobile et se rompt moins souvent que le médial.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "meniscus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-2725a1ee",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament latéral de la cheville est le plus solide et se rompt le moins souvent ?",
+   "options": [
+    "Ligament bifurqué",
+    "Ligament talo-fibulaire postérieur",
+    "Ligament talo-fibulaire antérieur",
+    "Ligament calcanéo-fibulaire",
+    "Ligament tibio-fibulaire antérieur"
+   ],
+   "answer": 1,
+   "explanation": "Les ligaments latéraux se rompent d'avant en arrière : d'abord le talo-fibulaire antérieur, puis le calcanéo-fibulaire. Le talo-fibulaire postérieur est le plus solide et ne cède que dans les traumatismes graves.",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-b878c17d",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel ligament le test du tiroir antérieur de la cheville évalue-t-il principalement ?",
+   "options": [
+    "Ligament calcanéo-fibulaire",
+    "Ligament deltoïde",
+    "Ligament talo-fibulaire postérieur",
+    "Ligaments de la syndesmose",
+    "Ligament talo-fibulaire antérieur"
+   ],
+   "answer": 4,
+   "explanation": "Dans le tiroir antérieur, on fixe le tibia et on tire le talon vers l'avant ; la translation antérieure du talus indique une rupture du talo-fibulaire antérieur. Le calcanéo-fibulaire s'évalue par le test du bâillement talien (varus forcé).",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-47535364",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles structures sont lésées dans l'entorse haute de la cheville ?",
+   "options": [
+    "Ligaments de la syndesmose tibio-fibulaire distale",
+    "Tendon calcanéen (d'Achille)",
+    "Ligament de Lisfranc",
+    "Ligament deltoïde",
+    "Ligaments collatéraux latéraux de la cheville"
+   ],
+   "answer": 0,
+   "explanation": "L'entorse haute survient le plus souvent en rotation externe et rompt les ligaments de la syndesmose unissant tibia et fibula ; sa guérison est bien plus longue que celle d'une entorse latérale.",
+   "entries": [
+    "ligg-tibiofibularia-distalia"
+   ]
+  },
+  {
+   "id": "ar-f12bf4cd",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle structure, située dans le sinus du tarse, est le ligament le plus solide de l'articulation sous-talienne ?",
+   "options": [
+    "Ligament plantaire long",
+    "Ligament talo-calcanéen latéral",
+    "Ligament bifurqué",
+    "Ligament calcanéo-fibulaire",
+    "Ligament talo-calcanéen interosseux"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament talo-calcanéen interosseux occupe le sinus du tarse entre talus et calcanéus ; c'est le ligament principal de la sous-talienne.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-d75092b5",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles articulations composent l'interligne de Chopart (transverse du tarse) ?",
+   "options": [
+    "Cunéo-naviculaire et intercunéennes",
+    "Calcanéo-cuboïdienne et cuboïdo-naviculaire",
+    "Tarso-métatarsiennes et intermétatarsiennes",
+    "Talo-crurale et sous-talienne",
+    "Talo-naviculaire et calcanéo-cuboïdienne"
+   ],
+   "answer": 4,
+   "explanation": "L'interligne de Chopart est la ligne articulaire en S entre arrière-pied et médio-pied ; c'est un niveau d'amputation. L'interligne de Lisfranc correspond aux tarso-métatarsiennes.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-a378349f",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où s'étend le ligament de Lisfranc ?",
+   "options": [
+    "Du naviculaire au cunéiforme médial",
+    "Du calcanéus au cuboïde",
+    "Du cunéiforme intermédiaire à la base du 2e métatarsien",
+    "Du cuboïde à la base du 5e métatarsien",
+    "Du cunéiforme médial à la base du 2e métatarsien"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament de Lisfranc est un puissant ligament interosseux entre le cunéiforme médial et la base du 2e métatarsien ; comme il n'existe pas de ligament entre les bases des 1er et 2e métatarsiens, il est la clé de l'interligne tarso-métatarsien.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-e5efb4d3",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel os est la clé de voûte de l'arche longitudinale latérale du pied ?",
+   "options": [
+    "Cuboïde",
+    "Cunéiforme médial",
+    "Tête du 5e métatarsien",
+    "Tête du talus",
+    "Naviculaire"
+   ],
+   "answer": 0,
+   "explanation": "La clé de voûte de l'arche longitudinale médiale est la tête du talus, celle de l'arche latérale le cuboïde. L'arche latérale est basse et proche du sol.",
+   "entries": [
+    "arcus-pedis",
+    "os-cuboideum"
+   ]
+  },
+  {
+   "id": "ar-ca751a1b",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est la cause la plus fréquente de pied plat acquis de l'adulte ?",
+   "options": [
+    "Paralysie du tibial antérieur",
+    "Rupture du long fibulaire",
+    "Rupture du tendon calcanéen",
+    "Rétraction de l'aponévrose plantaire",
+    "Insuffisance du tendon du tibial postérieur"
+   ],
+   "answer": 4,
+   "explanation": "Le tibial postérieur est le principal soutien dynamique de l'arche médiale ; la dégénérescence et l'insuffisance de son tendon entraînent l'effondrement de l'arche et le valgus de l'arrière-pied.",
+   "entries": [
+    "arcus-pedis",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "ar-a91411e8",
+   "group": "Articulations du membre inférieur",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un patient tombé sur un pied en flexion plantaire présente un gonflement du médio-pied et une ecchymose plantaire ; la radiographie montre un écart entre les bases des 1er et 2e métatarsiens. Quel est le diagnostic le plus probable ?",
+   "options": [
+    "Luxation de Chopart",
+    "Fracture du calcanéus",
+    "Entorse du ligament latéral de la cheville",
+    "Fracture de Jones",
+    "Lésion de Lisfranc (tarso-métatarsienne)"
+   ],
+   "answer": 4,
+   "explanation": "L'ecchymose plantaire et l'écart entre les bases des 1er et 2e métatarsiens sont typiques d'une lésion du ligament de Lisfranc ; environ une sur cinq passe inaperçue au premier examen, d'où la nécessité d'une évaluation attentive.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-fe1c13ee",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel type de fracture de la dent de l'axis a le plus haut risque de pseudarthrose ?",
+   "options": [
+    "Type I (pointe de la dent)",
+    "Type II (base de la dent)",
+    "Fracture du pendu",
+    "Type III (s'étendant au corps de l'axis)",
+    "Fracture de Jefferson"
+   ],
+   "answer": 1,
+   "explanation": "Dans la classification d'Anderson et D'Alonzo, le type II traverse la base de la dent ; la pseudarthrose y est fréquente car la région est mal vascularisée. Le type III s'étend au corps de l'axis et consolide habituellement.",
+   "entries": [
+    "artt-craniovertebrales",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-55929b2d",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "D'où vient l'innervation sensitive des articulations zygapophysaires ?",
+   "options": [
+    "Rameaux antérieurs des nerfs spinaux",
+    "Nerf sinu-vertébral (méningé récurrent)",
+    "Tronc sympathique",
+    "Rameaux médiaux des rameaux postérieurs des nerfs spinaux",
+    "Rameaux latéraux des rameaux postérieurs"
+   ],
+   "answer": 3,
+   "explanation": "Chaque articulation zygapophysaire est innervée par les rameaux médiaux des rameaux postérieurs de deux étages voisins. Dans la douleur facettaire, on réalise sur eux des blocs ou une thermocoagulation par radiofréquence.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-dd990884",
+   "group": "Articulations du crâne et du rachis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Le ligament sphéno-mandibulaire est un vestige de quelle structure des arcs pharyngiens ?",
+   "options": [
+    "Cartilage du 1er arc pharyngien (cartilage de Meckel)",
+    "Notochorde",
+    "3e arc pharyngien",
+    "4e arc pharyngien",
+    "Cartilage du 2e arc pharyngien (Reichert)"
+   ],
+   "answer": 0,
+   "explanation": "Le cartilage de Meckel donne le marteau, l'enclume et le ligament sphéno-mandibulaire. Le cartilage de Reichert (2e arc) forme l'étrier, le processus styloïde et le ligament stylo-hyoïdien.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-bead98f0",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel ligament de l'avant-bras a des fibres orientées en sens inverse de celles de la membrane interosseuse ?",
+   "options": [
+    "Ligament collatéral radial",
+    "Ligament annulaire du radius",
+    "Corde oblique",
+    "Ligament carré",
+    "Ligament radio-ulnaire dorsal"
+   ],
+   "answer": 2,
+   "explanation": "Les fibres de la membrane interosseuse descendent en dedans du radius vers l'ulna, tandis que la corde oblique descend en dehors de la tubérosité ulnaire vers le radius. Elle renforce l'articulation radio-ulnaire proximale.",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-5ba07cbd",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Comment appelle-t-on la zone pauvre en ligaments, à la face palmaire du capitatum, par où se produisent les luxations périlunaires ?",
+   "options": [
+    "Tabatière anatomique",
+    "Espace de Parona",
+    "Canal carpien",
+    "Canal de Guyon",
+    "Espace de Poirier"
+   ],
+   "answer": 4,
+   "explanation": "L'espace de Poirier est la zone de faiblesse entre les ligaments radio-scapho-capital et radio-lunaire ; dans la luxation périlunaire, le capitatum s'y sépare du lunatum.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-31d4bdc3",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Les déchirures de quelle partie du TFCC ne cicatrisent pas, car avasculaire, et nécessitent un débridement ?",
+   "options": [
+    "Ligament radio-ulnaire dorsal",
+    "Périphérique (bord ulnaire)",
+    "Centrale (partie moyenne du disque)",
+    "Ligament radio-ulnaire palmaire",
+    "Gaine du tendon de l'ECU"
+   ],
+   "answer": 2,
+   "explanation": "Seul le bord périphérique du TFCC est bien vascularisé. Les déchirures centrales ne cicatrisent pas et sont traitées par débridement arthroscopique, les périphériques par suture.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-c3fb2f81",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle affection, observée lorsque l'ulna est plus longue que le radius (variance ulnaire positive), use le TFCC et le lunatum ?",
+   "options": [
+    "Déformation de Madelung",
+    "Maladie de Kienböck",
+    "Syndrome du canal carpien",
+    "Syndrome d'impaction ulno-carpienne",
+    "Ténosynovite de De Quervain"
+   ],
+   "answer": 3,
+   "explanation": "En variance ulnaire positive, la tête ulnaire comprime le TFCC et le lunatum, d'où douleur du bord ulnaire et lésions cartilagineuses du lunatum. La maladie de Kienböck est plutôt associée à une variance ulnaire négative.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-e6d0e58d",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le ligament stabilisateur le plus important de l'articulation trapézo-métacarpienne ?",
+   "options": [
+    "Ligament oblique antérieur (« ligament bec »)",
+    "Ligament collatéral radial",
+    "Plaque palmaire",
+    "Ligament dorso-radial",
+    "Ligament intermétacarpien"
+   ],
+   "answer": 0,
+   "explanation": "Le ligament oblique antérieur va du tubercule du trapèze à la partie antéro-médiale de la base du 1er métacarpien ; c'est aussi lui qui maintient en place le petit fragment médial dans la fracture de Bennett.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-17c5390c",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans la lésion de Stener, quelle structure s'interpose entre le ligament collatéral ulnaire rompu et son insertion ?",
+   "options": [
+    "Plaque palmaire",
+    "Aponévrose de l'adducteur du pouce",
+    "Tendon du court abducteur du pouce",
+    "Tendon du long extenseur du pouce",
+    "Os sésamoïde"
+   ],
+   "answer": 1,
+   "explanation": "Lorsque le ligament collatéral ulnaire de la MCP du pouce se rompt, son extrémité peut se retrouver au-dessus de l'aponévrose de l'adducteur ; cette interposition empêche la cicatrisation et impose la chirurgie.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-dbeaf9b7",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle structure se luxe dans la fracture de Monteggia ?",
+   "options": [
+    "Tête humérale",
+    "Lunatum",
+    "Articulation radio-ulnaire distale",
+    "Tête ulnaire",
+    "Tête radiale (radio-ulnaire proximale)"
+   ],
+   "answer": 4,
+   "explanation": "Dans la fracture de Monteggia, une fracture du tiers proximal de l'ulna s'associe à une luxation de la tête radiale. Dans la fracture de Galeazzi, une fracture diaphysaire du radius s'associe à une luxation radio-ulnaire distale.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-9db62430",
+   "group": "Articulations du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Pourquoi la luxation postérieure de l'articulation sterno-claviculaire est-elle une urgence ?",
+   "options": [
+    "Elle lèse le nerf axillaire.",
+    "L'extrémité médiale de la clavicule peut comprimer les gros vaisseaux et la trachée en arrière.",
+    "Le ligament costo-claviculaire ne se rompt jamais.",
+    "Elle luxe aussi l'épaule.",
+    "Elle bloque l'articulation acromio-claviculaire."
+   ],
+   "answer": 1,
+   "explanation": "Dans la luxation postérieure, l'extrémité médiale de la clavicule peut comprimer les vaisseaux brachio-céphaliques, la trachée et l'œsophage ; contrairement à la luxation antérieure, une réduction urgente peut être nécessaire.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-684028b7",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle part de la face postérieure du col fémoral la capsule de la hanche englobe-t-elle ?",
+   "options": [
+    "Ses 2/3 médiaux",
+    "La totalité jusqu'au grand trochanter",
+    "Son 1/3 médial",
+    "La totalité",
+    "Seulement la tête fémorale"
+   ],
+   "answer": 0,
+   "explanation": "En avant, la capsule s'étend jusqu'à la ligne intertrochantérique et englobe tout le col ; en arrière, elle n'en couvre que les 2/3 médiaux. Les fractures du col sont donc en grande partie intracapsulaires.",
+   "entries": [
+    "art-coxae",
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-afbcdf8f",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel ligament limite la rotation médiale excessive de la hanche ?",
+   "options": [
+    "Ligament transverse de l'acétabulum",
+    "Ligament pubo-fémoral",
+    "Zone orbiculaire",
+    "Ligament de la tête fémorale",
+    "Ligament ischio-fémoral"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament ischio-fémoral s'enroule en spirale de l'ischium à la face postérieure de la capsule ; il se tend en rotation médiale et en extension.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-eb063057",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le stabilisateur statique le plus important du point d'angle postéro-latéral du genou ?",
+   "options": [
+    "Ligament poplité-fibulaire",
+    "Bandelette ilio-tibiale",
+    "Ligament ménisco-fémoral",
+    "Ligament collatéral tibial",
+    "Ligament poplité oblique"
+   ],
+   "answer": 0,
+   "explanation": "Le point d'angle postéro-latéral comprend le ligament collatéral fibulaire, le tendon du poplité, le ligament poplité-fibulaire et la capsule ; le poplité-fibulaire est le principal frein statique de la rotation latérale.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-8f7a2217",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Au dial test, une rotation latérale augmentée à 30° et à 90° de flexion du genou évoque quoi ?",
+   "options": [
+    "Une rupture isolée du ligament collatéral médial",
+    "Une luxation de la patella",
+    "Une lésion du ménisque médial",
+    "Une lésion combinée du point d'angle postéro-latéral et du ligament croisé postérieur",
+    "Une rupture isolée du ligament croisé antérieur"
+   ],
+   "answer": 3,
+   "explanation": "Une rotation latérale augmentée seulement à 30° évoque une lésion isolée du point d'angle postéro-latéral ; à 30° et à 90°, une lésion combinée du point d'angle postéro-latéral et du LCP.",
+   "entries": [
+    "ligg-genus-posteriora",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-cf2d6b19",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel ligament latéral de la cheville participe à la fois à la talo-crurale et à la sous-talienne ?",
+   "options": [
+    "Ligament talo-fibulaire postérieur",
+    "Ligament talo-fibulaire antérieur",
+    "Ligament talo-calcanéen interosseux",
+    "Ligament tibio-fibulaire antérieur",
+    "Ligament calcanéo-fibulaire"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament calcanéo-fibulaire va de la malléole latérale au calcanéus et croise donc les deux articulations ; il s'évalue par le test du bâillement talien.",
+   "entries": [
+    "ligg-talocruralia-lateralia",
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-f8a72f31",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle est la structure la plus importante empêchant la translation latérale du talus dans la mortaise ?",
+   "options": [
+    "Ligament calcanéo-fibulaire",
+    "Partie profonde (tibio-talienne) du ligament deltoïde",
+    "Ligament plantaire long",
+    "Partie tibio-naviculaire du ligament deltoïde",
+    "Ligament talo-fibulaire antérieur"
+   ],
+   "answer": 1,
+   "explanation": "Les fibres tibio-taliennes profondes du ligament deltoïde fixent le talus à la malléole médiale ; si elles se rompent, le talus se décale en dehors, la surface de contact diminue et l'arthrose s'installe.",
+   "entries": [
+    "lig-deltoideum"
+   ]
+  },
+  {
+   "id": "ar-90e61aae",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Depuis le calcanéus, vers quels os se dirigent les deux faisceaux du ligament bifurqué ?",
+   "options": [
+    "Naviculaire et cuboïde",
+    "Talus et cuboïde",
+    "Cuboïde et 5e métatarsien",
+    "Naviculaire et cunéiforme médial",
+    "Talus et naviculaire"
+   ],
+   "answer": 0,
+   "explanation": "Les faisceaux calcanéo-naviculaire et calcanéo-cuboïdien du ligament bifurqué en Y sont situés à la face dorsale de l'interligne de Chopart ; son entorse donne une douleur en avant du sinus du tarse.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-c4078aba",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le signe typique de la synostose talo-calcanéenne sur la radiographie de profil de la cheville ?",
+   "options": [
+    "Signe de Terry Thomas",
+    "Signe du nez de fourmilier",
+    "Signe du double contour",
+    "Signe du C",
+    "Signe de l'anneau"
+   ],
+   "answer": 3,
+   "explanation": "Dans la synostose talo-calcanéenne, un contour continu en forme de C relie le dôme du talus au sustentaculum tali. Dans la synostose calcanéo-naviculaire, le cliché oblique montre le « nez de fourmilier ».",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-358bf10c",
+   "group": "Articulations du membre inférieur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un skieur dont le genou est parti en rotation latérale décrit une douleur brutale et une instabilité ; après reconstruction du LCA, l'instabilité en rotation latérale persiste. Quelle lésion a pu passer inaperçue ?",
+   "options": [
+    "Bursite de la patte d'oie",
+    "Lésion du point d'angle postéro-latéral du genou",
+    "Rupture du tendon patellaire",
+    "Bursite prépatellaire",
+    "Lésion du ménisque médial"
+   ],
+   "answer": 1,
+   "explanation": "Les lésions du point d'angle postéro-latéral accompagnent souvent celles des ligaments croisés ; non reconnues et non réparées, elles surchargent la greffe du croisé et font échouer la reconstruction.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  }
+ ]
+}

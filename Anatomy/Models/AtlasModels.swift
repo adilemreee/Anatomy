@@ -27,12 +27,24 @@ nonisolated struct AtlasEntry: Identifiable, Hashable, Sendable, Decodable {
     let aliases: [String]
     /// Names of the 3D model objects that show this structure.
     let models: [String]
+    /// The group entry this structure is part of (a muscle of a muscle group).
+    let parent: String?
     /// Filled in by the store from the file the entry came from.
     var systemID: String = ""
 
     nonisolated struct Fact: Hashable, Sendable {
+        /// The Turkish label, the same in every language: question logic
+        /// keys on it ("İnnervasyon").
         let label: String
         let value: String
+        /// The label shown, in the app's language.
+        var title: String
+
+        init(label: String, value: String, title: String? = nil) {
+            self.label = label
+            self.value = value
+            self.title = title ?? label
+        }
     }
 
     nonisolated struct InfoSection: Hashable, Sendable {
@@ -41,7 +53,7 @@ nonisolated struct AtlasEntry: Identifiable, Hashable, Sendable, Decodable {
     }
 
     private enum CodingKeys: String, CodingKey {
-        case id, tr, la, en, group, region, summary, facts, sections, clinical, tus, related, aliases, models
+        case id, tr, la, en, group, region, summary, facts, sections, clinical, tus, related, aliases, models, parent
     }
 
     init(from decoder: any Decoder) throws {
@@ -54,7 +66,8 @@ nonisolated struct AtlasEntry: Identifiable, Hashable, Sendable, Decodable {
         region = try c.decodeIfPresent(BodyRegion.self, forKey: .region) ?? .general
         summary = try c.decode(String.self, forKey: .summary)
         let rawFacts = try c.decodeIfPresent([[String]].self, forKey: .facts) ?? []
-        facts = rawFacts.compactMap { $0.count == 2 ? Fact(label: $0[0], value: $0[1]) : nil }
+        // [label, value] in Turkish; translations add the shown label: [label, value, title].
+        facts = rawFacts.compactMap { $0.count >= 2 ? Fact(label: $0[0], value: $0[1], title: $0.count > 2 ? $0[2] : nil) : nil }
         let rawSections = try c.decodeIfPresent([[String]].self, forKey: .sections) ?? []
         sections = rawSections.compactMap { $0.count == 2 ? InfoSection(title: $0[0], body: $0[1]) : nil }
         clinical = try c.decodeIfPresent([String].self, forKey: .clinical) ?? []
@@ -62,6 +75,7 @@ nonisolated struct AtlasEntry: Identifiable, Hashable, Sendable, Decodable {
         related = try c.decodeIfPresent([String].self, forKey: .related) ?? []
         aliases = try c.decodeIfPresent([String].self, forKey: .aliases) ?? []
         models = try c.decodeIfPresent([String].self, forKey: .models) ?? []
+        parent = try c.decodeIfPresent(String.self, forKey: .parent)
     }
 
     /// The value of the first fact whose label matches one of `labels`.
@@ -94,15 +108,15 @@ nonisolated enum BodyRegion: String, CaseIterable, Identifiable, Hashable, Senda
 
     var title: String {
         switch self {
-        case .head: "Baş"
-        case .neck: "Boyun"
-        case .thorax: "Göğüs (Toraks)"
-        case .abdomen: "Karın (Abdomen)"
-        case .pelvis: "Pelvis ve Perine"
-        case .back: "Sırt"
-        case .upperLimb: "Üst Ekstremite"
-        case .lowerLimb: "Alt Ekstremite"
-        case .general: "Genel / Tüm Vücut"
+        case .head: String(localized: "Baş")
+        case .neck: String(localized: "Boyun")
+        case .thorax: String(localized: "Göğüs (Toraks)")
+        case .abdomen: String(localized: "Karın (Abdomen)")
+        case .pelvis: String(localized: "Pelvis ve Perine")
+        case .back: String(localized: "Sırt")
+        case .upperLimb: String(localized: "Üst Ekstremite")
+        case .lowerLimb: String(localized: "Alt Ekstremite")
+        case .general: String(localized: "Genel / Tüm Vücut")
         }
     }
 

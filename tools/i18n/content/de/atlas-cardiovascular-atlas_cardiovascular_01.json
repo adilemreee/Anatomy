@@ -1,0 +1,215 @@
+{
+ "pericardium": {
+  "tr": "Herzbeutel",
+  "summary": "Zweischichtiger Sack, der das Herz und die Wurzeln der großen Gefäße umhüllt. Außen liegt das derbe Pericardium fibrosum, innen das Pericardium serosum (parietales und viszerales Blatt).",
+  "facts": [
+   "Pericardium fibrosum und Pericardium serosum (Lamina parietalis und visceralis – Epikard)",
+   "Cavitas pericardiaca; enthält 15–50 mL Gleitflüssigkeit",
+   "Sinus transversus pericardii (hinter Aorta und Truncus pulmonalis), Sinus obliquus pericardii (hinter dem linken Vorhof)",
+   "N. phrenicus (sensibel)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Perikarditis verursacht stechende Brustschmerzen, die sich beim Vorbeugen bessern, und ein Perikardreiben.",
+   "Bei der Herzbeuteltamponade verhindert die Flüssigkeit im Perikardraum die Füllung des Herzens (Beck-Trias: Hypotonie, gestaute Halsvenen, leise Herztöne)."
+  ],
+  "tus": [
+   "Unten ist das Pericardium fibrosum mit dem Centrum tendineum des Zwerchfells verwachsen, vorn über die Ligg. sternopericardiaca am Sternum befestigt.",
+   "Ein Perikarderguss kann im EKG Niedervoltage und elektrischen Alternans zeigen."
+  ],
+  "aliases": [
+   "Perikard"
+  ]
+ },
+ "truncus-pulmonalis": {
+  "tr": "Lungenarterienstamm",
+  "summary": "Große Arterie aus der rechten Kammer, die sauerstoffarmes Blut zur Lunge führt. Unter dem Aortenbogen teilt sie sich in die rechte und linke Lungenarterie.",
+  "facts": [
+   "Conus arteriosus der rechten Kammer (Pulmonalklappe)",
+   "A. pulmonalis dextra und sinistra; sie verzweigen sich zu den Lungenlappen und -segmenten",
+   "Das Lig. arteriosum (Rest des fetalen Ductus arteriosus) verbindet die Bifurkation mit dem Aortenbogen"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Lungenembolie ist meist ein Gerinnsel aus den tiefen Beinvenen, das die Lungenarterien verschließt.",
+   "Beim offenen Ductus arteriosus hört man ein kontinuierliches (Maschinen-)Geräusch von der Aorta zur Lungenarterie."
+  ],
+  "tus": [
+   "Der Truncus pulmonalis beginnt vor der Aorta und teilt sich unter dem Aortenbogen in rechte und linke Lungenarterie.",
+   "Ein Embolus kann an der Bifurkation des Truncus als „reitender Embolus“ hängen bleiben."
+  ],
+  "aliases": [
+   "Truncus pulmonalis",
+   "Lungenarterie",
+   "Pulmonalarterie"
+  ]
+ },
+ "vv-pulmonales": {
+  "tr": "Lungenvenen",
+  "summary": "Meist vier Venen (zwei rechte, zwei linke), die sauerstoffreiches Blut aus der Lunge zum linken Vorhof bringen. Sie sind die einzigen Venen, die sauerstoffreiches Blut führen.",
+  "facts": [
+   "Meist 4: V. pulmonalis dextra superior und inferior, sinistra superior und inferior",
+   "Linker Vorhof"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei der Behandlung von Vorhofflimmern werden die Mündungen der Lungenvenen per Katheter isoliert (Ablation)."
+  ],
+  "tus": [
+   "Die Lungenvenen sind die einzigen Venen mit sauerstoffreichem Blut; aus jeder Lunge kommen meist zwei.",
+   "Ektope Herde des Vorhofflimmerns liegen oft an den Lungenvenenmündungen; die Ablation isoliert diesen Bereich."
+  ],
+  "aliases": [
+   "Vv. pulmonales",
+   "Pulmonalvenen"
+  ]
+ },
+ "aorta": {
+  "tr": "Aorta",
+  "summary": "Die größte Arterie des Körpers; sie entspringt der linken Kammer und verteilt sauerstoffreiches Blut im ganzen Körper. Sie besteht aus Aorta ascendens, Aortenbogen, absteigender Brustaorta und Bauchaorta.",
+  "facts": [
+   "Linke Kammer (Aortenklappe)",
+   "Die Pars ascendens steigt auf, der Arcus aortae zieht über den linken Hauptbronchus nach hinten (Höhe T4), die Pars thoracica steigt links der Wirbelsäule ab, tritt durch den Hiatus aorticus (T12) in den Bauch und teilt sich in Höhe L4 in die Aa. iliacae communes",
+   "Aorta ascendens: Aa. coronariae; Bogen: Truncus brachiocephalicus, A. carotis communis sinistra, A. subclavia sinistra; Brustaorta: Aa. intercostales posteriores, Rr. bronchiales und oesophageales; Bauchaorta: Truncus coeliacus, A. mesenterica superior und inferior, Aa. renales, Aa. suprarenales, Aa. testiculares/ovaricae, Aa. lumbales, A. sacralis mediana",
+   "Der ganze Körper (Körperkreislauf)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Das Bauchaortenaneurysma entsteht meist unterhalb der Nierenarterien; seine Ruptur ist tödlich.",
+   "Bei der Aortendissektion reißt die innere Wandschicht ein; typisch ist ein reißender, in den Rücken ausstrahlender Brustschmerz.",
+   "Bei der Aortenisthmusstenose ist der Blutdruck an den Armen höher als an den Beinen; Rippenusuren durch erweiterte Interkostalarterien sind sichtbar."
+  ],
+  "tus": [
+   "In der Aorta ascendens liegen die Aortensinus (Valsalva) und die Abgänge der Koronararterien.",
+   "Die Aortendissektion wird nach Stanford in A (Aorta ascendens betroffen – Operation) und B (nur absteigende Aorta) eingeteilt."
+  ],
+  "aliases": [
+   "Hauptschlagader"
+  ]
+ },
+ "truncus-brachiocephalicus": {
+  "tr": "Truncus brachiocephalicus",
+  "summary": "Der erste und größte Ast des Aortenbogens; er kommt nur rechts vor.",
+  "facts": [
+   "Aortenbogen",
+   "Steigt vor der Trachea nach rechts oben; teilt sich hinter dem rechten Sternoklavikulargelenk",
+   "A. carotis communis dextra, A. subclavia dextra",
+   "Rechte Kopf- und Halshälfte, rechte obere Extremität"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei zu tief angelegter Tracheotomie kann er verletzt werden."
+  ],
+  "tus": [
+   "Der Truncus brachiocephalicus steigt vor der Trachea auf; bei zu tiefer Tracheotomie kann er verletzt werden.",
+   "Bei manchen Menschen entspringt die A. thyroidea ima aus dem Truncus brachiocephalicus."
+  ],
+  "aliases": [
+   "Arm-Kopf-Schlagader",
+   "A. anonyma"
+  ]
+ },
+ "a-carotis-communis": {
+  "tr": "Gemeinsame Halsschlagader",
+  "summary": "Die Hauptarterie von Kopf und Hals, die auf jeder Halsseite aufsteigt. In Höhe des Oberrands des Schildknorpels teilt sie sich in die A. carotis interna und externa.",
+  "facts": [
+   "Rechts aus dem Truncus brachiocephalicus, links direkt aus dem Aortenbogen",
+   "Steigt in der Karotisscheide mit der V. jugularis interna (lateral) und dem N. vagus (dorsal) auf; teilt sich in Höhe C4 (Oberrand des Schildknorpels)",
+   "A. carotis interna, A. carotis externa (der Stamm selbst gibt keine Äste ab)",
+   "Kopf und Hals"
+  ],
+  "sections": [
+   [
+    "Glomus und Sinus caroticus",
+    "An der Gabelung misst der Sinus caroticus den Blutdruck (Barorezeptor), das Glomus caroticum den O2/CO2-Gehalt des Blutes (Chemorezeptor); beide werden vom N. glossopharyngeus innerviert."
+   ]
+  ],
+  "clinical": [
+   "Der Karotispuls wird am Vorderrand des M. sternocleidomastoideus in Höhe des Schildknorpels getastet.",
+   "Karotissinusmassage senkt die Herzfrequenz über eine Vagusreaktion.",
+   "Arteriosklerotische Plaques an der Karotisgabel sind eine wichtige Schlaganfallursache."
+  ],
+  "tus": [
+   "Die rechte A. carotis communis entspringt aus dem Truncus brachiocephalicus, die linke direkt aus dem Aortenbogen.",
+   "Der Karotispuls wird in Höhe des Schildknorpel-Oberrands am Vorderrand des SCM getastet."
+  ],
+  "aliases": [
+   "A. carotis communis",
+   "Karotis",
+   "Halsschlagader"
+  ]
+ },
+ "a-carotis-interna": {
+  "tr": "Innere Halsschlagader",
+  "summary": "Arterie für die vorderen und mittleren Hirnabschnitte und das Auge. Am Hals gibt sie keine Äste ab.",
+  "facts": [
+   "A. carotis communis (Höhe C4)",
+   "Steigt am Hals ohne Äste auf, tritt durch den Canalis caroticus in die Schädelbasis, zieht durch den Sinus cavernosus (Karotissiphon) und teilt sich in A. cerebri anterior und media",
+   "A. ophthalmica, A. communicans posterior, A. choroidea anterior, A. cerebri anterior, A. cerebri media",
+   "Der größte Teil der Großhirnhemisphären, Auge und Orbita, Stirnhaut"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Stenose kann transitorische ischämische Attacken und eine flüchtige Erblindung des gleichseitigen Auges (Amaurosis fugax) verursachen.",
+   "Ein Einriss im Sinus cavernosus führt zur Karotis-Sinus-cavernosus-Fistel (pulsierender Exophthalmus)."
+  ],
+  "tus": [
+   "Intrakranielle Abschnitte der ACI: petrös, kavernös (im Sinus), klinoidal und supraklinoidal (Äste A. ophthalmica, A. communicans posterior, A. choroidea anterior).",
+   "Bei Karotisstenose entsteht die Amaurosis fugax (flüchtige einseitige Erblindung) durch Emboli in die A. ophthalmica."
+  ],
+  "aliases": [
+   "A. carotis interna",
+   "ACI"
+  ]
+ },
+ "a-carotis-externa": {
+  "tr": "Äußere Halsschlagader",
+  "summary": "Arterie für die Strukturen von Hals und Gesicht, die Kopfhaut und die Dura mater.",
+  "facts": [
+   "A. carotis communis (Höhe C4)",
+   "Steigt am Hals auf und teilt sich in der Glandula parotidea in Höhe des Unterkieferhalses in A. temporalis superficialis und A. maxillaris",
+   "A. thyroidea superior, A. lingualis, A. facialis, A. pharyngea ascendens, A. occipitalis, A. auricularis posterior, A. maxillaris, A. temporalis superficialis",
+   "Schilddrüse, Kehlkopf, Zunge, Gesicht, Rachen, Kopfhaut, Kiefer, Zähne, Nasenhöhle, Dura mater (A. meningea media)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die A. meningea media (Ast der A. maxillaris) reißt bei Frakturen im Bereich des Pterion und verursacht ein epidurales Hämatom.",
+   "Die meisten Fälle von Nasenbluten (Epistaxis) stammen aus dem Locus Kiesselbachi, gebildet aus Ästen der A. sphenopalatina und A. facialis.",
+   "Die A. temporalis superficialis ist bei der Riesenzellarteriitis (Arteriitis temporalis) betroffen."
+  ],
+  "tus": [
+   "Die A. lingualis zieht in die Tiefe des M. hyoglossus, der N. hypoglossus dagegen auf seiner Oberfläche.",
+   "Die ACE kann bei schweren Nasen- und Gesichtsblutungen ligiert werden; sie hat breite Anastomosen zur Gegenseite und zu Ästen der ACI."
+  ],
+  "aliases": [
+   "A. carotis externa",
+   "ACE",
+   "A. facialis",
+   "A. meningea media"
+  ]
+ },
+ "a-vertebralis": {
+  "tr": "Wirbelarterie",
+  "summary": "Arterie, die durch die Löcher der Halswirbel in den Schädel aufsteigt und Hirnstamm, Kleinhirn und hinteren Hirnabschnitt versorgt. Beide Wirbelarterien vereinigen sich zur A. basilaris.",
+  "facts": [
+   "Erster Ast der A. subclavia",
+   "Steigt durch die Foramina transversaria von C6–C1 auf, windet sich über den hinteren Atlasbogen, tritt durch das Foramen magnum in den Schädel und vereinigt sich am pontomedullären Übergang mit der Gegenseite zur A. basilaris",
+   "A. spinalis anterior und posterior, A. inferior posterior cerebelli (PICA); aus der A. basilaris: AICA, Rr. ad pontem, A. superior cerebelli, A. cerebri posterior",
+   "Oberes Rückenmark, Hirnstamm, Kleinhirn, Innenohr, Okzipitallappen"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die vertebrobasiläre Insuffizienz verursacht Schwindel, Doppelbilder, Sturzattacken (drop attacks) und Dysarthrie.",
+   "Eine Dissektion der A. vertebralis nach Manipulation der Halswirbelsäule gehört zu den Ursachen von Schlaganfällen bei jungen Menschen.",
+   "Beim Subclavian-Steal-Syndrom kehrt sich der Fluss in der A. vertebralis um."
+  ],
+  "tus": [
+   "Die vier Abschnitte der A. vertebralis: V1 (präforaminal), V2 (foraminal), V3 (Atlasschlinge), V4 (intrakraniell).",
+   "Manipulation und Trauma der HWS können eine Vertebralisdissektion und einen Infarkt im hinteren Stromgebiet verursachen."
+  ],
+  "aliases": [
+   "A. vertebralis",
+   "A. basilaris"
+  ]
+ }
+}

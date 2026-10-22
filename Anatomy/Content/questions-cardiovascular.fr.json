@@ -1,0 +1,2764 @@
+{
+ "system": "cardiovascular",
+ "questions": [
+  {
+   "id": "cv-ff8c208f",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle cavité forme la plus grande partie de la face sterno-costale (antérieure) du cœur ?",
+   "options": [
+    "Auricule gauche",
+    "Ventricule gauche",
+    "Atrium droit",
+    "Atrium gauche",
+    "Ventricule droit"
+   ],
+   "answer": 4,
+   "explanation": "Le cœur étant tourné vers la gauche, sa face antérieure est formée surtout par le ventricule droit ; le bord droit par l'atrium droit, le bord gauche par le ventricule gauche (et l'auricule gauche), l'apex par le ventricule gauche et la base (face postérieure) par l'atrium gauche. Proche du sternum, le ventricule droit est la cavité la plus souvent blessée dans les plaies pénétrantes du thorax.",
+   "entries": [
+    "ventriculus-dexter",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-e4391593",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient atteint de rétrécissement mitral présente une dysphagie et une dysphonie. La dilatation de quelle cavité explique le mieux ces symptômes ?",
+   "options": [
+    "Ventricule droit",
+    "Sinus coronaire",
+    "Ventricule gauche",
+    "Atrium gauche",
+    "Atrium droit"
+   ],
+   "answer": 3,
+   "explanation": "L'atrium gauche forme la base du cœur et se trouve directement en avant de l'œsophage. Dilaté, il comprime l'œsophage (dysphagie) et peut étirer le nerf laryngé récurrent gauche (syndrome d'Ortner). Pour la même raison, l'échocardiographie transœsophagienne montre le mieux l'atrium gauche.",
+   "entries": [
+    "atrium-sinistrum",
+    "oesophagus",
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-241ef31a",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "La fosse ovale de l'atrium droit est le vestige de quelle structure fœtale ?",
+   "options": [
+    "Sinus veineux",
+    "Veine ombilicale",
+    "Canal artériel",
+    "Canal veineux",
+    "Foramen ovale"
+   ],
+   "answer": 4,
+   "explanation": "Chez le fœtus, le sang passe de l'atrium droit à l'atrium gauche par le foramen ovale. À la naissance, la pression atriale gauche augmente, le septum primum s'applique contre le septum secundum et ferme l'orifice, laissant la fosse ovale. Chez environ un quart des sujets persiste une ouverture perméable (FOP).",
+   "entries": [
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-03099d00",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles structures limitent le triangle de Koch, qui indique la position du nœud atrioventriculaire (AV) ?",
+   "options": [
+    "Trabécule septo-marginale, muscle papillaire antérieur et valve pulmonaire",
+    "Fosse ovale, limbe et ostium de la veine cave inférieure",
+    "Valvule antérieure de la mitrale, valve aortique et septum membraneux",
+    "Crête terminale, ostium de la veine cave supérieure et auricule",
+    "Tendon de Todaro, valvule septale de la tricuspide et ostium du sinus coronaire"
+   ],
+   "answer": 4,
+   "explanation": "Le triangle de Koch se trouve sur la paroi septale de l'atrium droit. Le nœud AV est à son sommet ; c'est un repère important pour protéger le tissu de conduction en chirurgie cardiaque et en ablation.",
+   "entries": [
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-29f558d6",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans le ventricule droit, quelle structure va du septum interventriculaire à la base du muscle papillaire antérieur et porte la branche droite du faisceau de His ?",
+   "options": [
+    "Crête supraventriculaire",
+    "Crête terminale",
+    "Cordages tendineux",
+    "Muscles pectinés",
+    "Trabécule septo-marginale (bandelette ansiforme)"
+   ],
+   "answer": 4,
+   "explanation": "La bandelette ansiforme conduit une partie de la branche droite par un trajet court jusqu'au muscle papillaire antérieur, qui se contracte ainsi à temps, avant la fermeture de la tricuspide. Elle limite aussi la distension excessive du ventricule.",
+   "entries": [
+    "ventriculus-dexter"
+   ]
+  },
+  {
+   "id": "cv-db0c2ed6",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle affirmation sur les foyers d'auscultation des valves cardiaques est exacte ?",
+   "options": [
+    "Valve mitrale – 5e espace intercostal gauche, ligne médioclaviculaire (apex)",
+    "Valve aortique – 2e espace intercostal gauche, bord sternal",
+    "Valve mitrale – 4e espace intercostal droit, bord sternal",
+    "Valve tricuspide – 5e espace intercostal gauche, ligne médioclaviculaire",
+    "Valve pulmonaire – 2e espace intercostal droit, bord sternal"
+   ],
+   "answer": 0,
+   "explanation": "Les foyers suivent la direction du flux sanguin plutôt que la position anatomique des valves : aortique au 2e espace droit, pulmonaire au 2e espace gauche (bord sternal), tricuspide au bord sternal gauche inférieur (4e–5e espace) et mitral à l'apex (5e espace gauche, ligne médioclaviculaire).",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-0b0d9052",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient avec douleur thoracique présente un sus-décalage du segment ST dans les dérivations inférieures (II, III, aVF) et un bloc AV du 2e degré. Quelle artère est le plus probablement occluse ?",
+   "options": [
+    "Rameau interventriculaire antérieur",
+    "Artère coronaire droite",
+    "Rameau circonflexe",
+    "Rameau marginal gauche",
+    "Tronc commun de la coronaire gauche"
+   ],
+   "answer": 1,
+   "explanation": "Chez la plupart des sujets, la face diaphragmatique (inférieure) du cœur est vascularisée par le rameau interventriculaire postérieur de la coronaire droite. L'artère du nœud AV naissant aussi de la coronaire droite dans environ 80–90 % des cas, l'infarctus inférieur s'accompagne souvent de bradycardie et de bloc AV.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-b34c730f",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle artère vascularise les deux tiers antérieurs du septum interventriculaire ?",
+   "options": [
+    "Artère du nœud sinusal",
+    "Rameau marginal droit",
+    "Rameau interventriculaire antérieur (IVA)",
+    "Rameau circonflexe",
+    "Rameau interventriculaire postérieur"
+   ],
+   "answer": 2,
+   "explanation": "Les rameaux septaux de l'IVA vascularisent les 2/3 antérieurs du septum (dont la plus grande partie de la branche gauche) et l'interventriculaire postérieure le 1/3 postérieur. L'IVA est l'artère coronaire la plus souvent occluse et donne des infarctus antérieurs étendus.",
+   "entries": [
+    "aa-coronariae",
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-f11807d6",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Comment définit-on la « dominance droite » de la circulation coronaire ?",
+   "options": [
+    "Par l'origine de l'artère du cône dans le sinus aortique droit",
+    "Par l'origine du rameau interventriculaire postérieur dans la coronaire droite",
+    "Par le plus gros calibre de la coronaire droite",
+    "Par l'origine de l'artère du nœud sinusal dans la coronaire droite",
+    "Par la plus grande taille du ventricule droit"
+   ],
+   "answer": 1,
+   "explanation": "La dominance est définie par l'origine de l'interventriculaire postérieure, qui vascularise la face postérieure du cœur et la partie postérieure du septum. Environ 70 % des sujets ont une dominance droite ; en cas de dominance gauche, l'interventriculaire postérieure naît de la circonflexe.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-f1cfdd20",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle artère la grande veine du cœur accompagne-t-elle ?",
+   "options": [
+    "Rameau interventriculaire antérieur",
+    "Rameau interventriculaire postérieur",
+    "Artère coronaire droite",
+    "Rameau marginal droit",
+    "Artère du nœud atrioventriculaire"
+   ],
+   "answer": 0,
+   "explanation": "La grande veine du cœur monte avec l'IVA dans le sillon interventriculaire antérieur, se coude dans le sillon AV gauche et se jette dans le sinus coronaire. La veine moyenne du cœur suit l'interventriculaire postérieure et la petite veine du cœur l'artère marginale droite. Le sinus coronaire s'ouvre dans l'atrium droit.",
+   "entries": [
+    "venae-cordis",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-0b3efcf0",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où se trouve le pacemaker naturel du cœur (nœud sinusal) ?",
+   "options": [
+    "Dans l'atrium droit, près de l'abouchement de la veine cave supérieure, à l'extrémité supérieure de la crête terminale",
+    "Dans la chambre de chasse du ventricule droit",
+    "Au sommet du triangle de Koch",
+    "Dans l'atrium gauche, aux ostiums des veines pulmonaires",
+    "Dans la partie membraneuse du septum interventriculaire"
+   ],
+   "answer": 0,
+   "explanation": "Le nœud sinusal est situé juste sous l'épicarde à la jonction VCS–atrium droit et, dans environ 60 % des cas, il est vascularisé par la coronaire droite. L'influx gagne le nœud AV par les atriums puis les ventricules par le faisceau de His et ses branches.",
+   "entries": [
+    "atrium-dextrum",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-0cef8d2c",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En chirurgie cardiaque, quel espace permet de passer un doigt derrière l'aorte et le tronc pulmonaire pour placer un clamp ?",
+   "options": [
+    "Fosse ovale",
+    "Sinus transverse du péricarde",
+    "Récessus costo-diaphragmatique",
+    "Sinus oblique du péricarde",
+    "Sinus coronaire"
+   ],
+   "answer": 1,
+   "explanation": "Le sinus transverse se situe entre l'aorte et le tronc pulmonaire en avant, la VCS et les veines pulmonaires en arrière. Il sert, lors des circulations extracorporelles, à contrôler ensemble les gros troncs artériels. Le sinus oblique est le cul-de-sac situé derrière l'atrium gauche.",
+   "entries": [
+    "pericardium",
+    "aorta",
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-f911d80e",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un patient poignardé au thorax présente hypotension, turgescence jugulaire et bruits du cœur assourdis (triade de Beck). Quelle voie est la plus utilisée pour la péricardiocentèse ?",
+   "options": [
+    "2e espace intercostal gauche, ligne médioclaviculaire",
+    "L'angle entre le processus xiphoïde et le rebord costal gauche (voie sous-xiphoïdienne)",
+    "5e espace intercostal droit, ligne axillaire antérieure",
+    "2e espace intercostal droit, bord sternal",
+    "8e espace intercostal gauche, ligne axillaire postérieure"
+   ],
+   "answer": 1,
+   "explanation": "Dans la tamponnade, le sang dans la cavité péricardique empêche le remplissage du cœur. L'aiguille est dirigée de la région sous-xiphoïdienne vers l'épaule gauche ; cette voie reste à distance de la plèvre et des artères coronaires.",
+   "entries": [
+    "pericardium"
+   ]
+  },
+  {
+   "id": "cv-43207aff",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Pourquoi la douleur de la péricardite irradie-t-elle au moignon de l'épaule ?",
+   "options": [
+    "Parce que le péricarde est innervé par les nerfs intercostaux",
+    "Parce que la sensibilité du péricarde fibreux et du péricarde séreux pariétal est conduite par le nerf phrénique (C3–C5)",
+    "Parce que les afférences sympathiques du cœur entrent en T1–T4",
+    "Parce que le péricarde reçoit des fibres du plexus brachial",
+    "Parce que le péricarde viscéral est innervé par le nerf vague"
+   ],
+   "answer": 1,
+   "explanation": "Le péricarde pariétal a une sensibilité somatique conduite par le nerf phrénique ; la douleur est projetée au moignon de l'épaule, dermatome C4. La douleur de l'ischémie myocardique, elle, suit les afférences sympathiques vers T1–T4 et irradie à la face interne du bras.",
+   "entries": [
+    "pericardium",
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "cv-b5bdf8d5",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles structures le ligament artériel relie-t-il ?",
+   "options": [
+    "Crosse de l'aorte et artère subclavière gauche",
+    "Tronc pulmonaire et veine cave supérieure",
+    "Racine de l'aorte et atrium droit",
+    "Artère pulmonaire droite et veine azygos",
+    "Artère pulmonaire gauche et crosse de l'aorte"
+   ],
+   "answer": 4,
+   "explanation": "Le ligament artériel est le vestige du canal artériel fœtal ; il relie l'origine de l'artère pulmonaire gauche à la face inférieure de la crosse aortique. Le nerf laryngé récurrent gauche passe sous la crosse en dehors de ce ligament.",
+   "entries": [
+    "truncus-pulmonalis",
+    "aorta",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-5b516d51",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle affirmation sur le ventricule gauche est fausse ?",
+   "options": [
+    "Il possède deux muscles papillaires, antérieur et postérieur.",
+    "Il forme l'apex du cœur.",
+    "La valve mitrale a deux valvules.",
+    "Sa paroi est environ trois fois plus épaisse que celle du ventricule droit.",
+    "Sa chambre de chasse contient le cône artériel (infundibulum)."
+   ],
+   "answer": 4,
+   "explanation": "Le cône artériel (infundibulum) est la chambre de chasse à paroi lisse du ventricule droit. Celle du ventricule gauche s'appelle le vestibule aortique. Travaillant contre la pression systémique, le ventricule gauche a la paroi la plus épaisse de toutes les cavités.",
+   "entries": [
+    "ventriculus-sinister",
+    "ventriculus-dexter",
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-258cd59d",
+   "group": "Aorte et ses branches",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle proposition énumère correctement, de droite à gauche, les branches de la crosse de l'aorte ?",
+   "options": [
+    "Tronc brachiocéphalique, artère subclavière gauche, artère carotide commune gauche",
+    "Artère carotide commune gauche, tronc brachiocéphalique, artère subclavière gauche",
+    "Tronc brachiocéphalique, artère carotide commune gauche, artère subclavière gauche",
+    "Artères coronaires, tronc brachiocéphalique, artère subclavière gauche",
+    "Artère subclavière droite, artère carotide commune droite, artère carotide commune gauche"
+   ],
+   "answer": 2,
+   "explanation": "La crosse de l'aorte donne habituellement trois branches. Le tronc brachiocéphalique se divise derrière l'articulation sterno-claviculaire droite en artères subclavière droite et carotide commune droite. Les artères coronaires naissent de l'aorte ascendante.",
+   "entries": [
+    "aorta",
+    "truncus-brachiocephalicus"
+   ]
+  },
+  {
+   "id": "cv-0bdc88fc",
+   "group": "Aorte et ses branches",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient hypertendu de 16 ans a une pression artérielle élevée aux bras et des pouls faibles et retardés aux jambes. La radiographie thoracique montre des encoches au bord inférieur des côtes. La dilatation de quels vaisseaux en est la cause ?",
+   "options": [
+    "Artères intercostales postérieures (circulation collatérale)",
+    "Artère thoracique latérale",
+    "Artères bronchiques",
+    "Artères coronaires",
+    "Veines intercostales antérieures"
+   ],
+   "answer": 0,
+   "explanation": "Dans la coarctation de l'aorte (le plus souvent au niveau du ligament artériel), le sang gagne l'aorte descendante par la voie artère subclavière → artère thoracique interne → artères intercostales antérieures → artères intercostales postérieures. Les intercostales postérieures dilatées érodent le bord inférieur des côtes (3e à 8e côtes).",
+   "entries": [
+    "aorta",
+    "a-subclavia",
+    "costae"
+   ]
+  },
+  {
+   "id": "cv-f7249148",
+   "group": "Aorte et ses branches",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel niveau l'aorte abdominale se divise-t-elle en deux artères iliaques communes ?",
+   "options": [
+    "L2",
+    "L4 (environ à hauteur de l'ombilic)",
+    "L1",
+    "T12",
+    "S2"
+   ],
+   "answer": 1,
+   "explanation": "Après le hiatus aortique (T12), l'aorte abdominale descend à gauche du rachis et se divise en L4 ; ce point correspond à peu près à la région juste sous l'ombilic et à la ligne des crêtes iliaques.",
+   "entries": [
+    "aorta",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-dc7a4413",
+   "group": "Aorte et ses branches",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Une masse abdominale battante est découverte chez un fumeur de 70 ans. Où siègent le plus souvent les anévrismes de l'aorte abdominale ?",
+   "options": [
+    "Au niveau de l'origine des artères rénales",
+    "Au hiatus aortique",
+    "Au-dessus du tronc cœliaque",
+    "Sous les artères rénales (sous-rénal), au-dessus de la bifurcation",
+    "Dans l'artère iliaque externe"
+   ],
+   "answer": 3,
+   "explanation": "La grande majorité des anévrismes de l'aorte abdominale sont sous-rénaux. Dans cette région, les vasa vasorum sont rares et la teneur en élastine est faible. Le risque de rupture augmente avec le diamètre.",
+   "entries": [
+    "aorta",
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "cv-7d92b3b7",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel niveau l'artère carotide commune se divise-t-elle habituellement en carotides interne et externe ?",
+   "options": [
+    "Bord supérieur du cartilage thyroïde (C4)",
+    "Niveau du cartilage cricoïde (C6)",
+    "Au-dessus de l'angle de la mandibule (C2)",
+    "Corps de l'os hyoïde (C3)",
+    "Niveau de l'articulation sterno-claviculaire"
+   ],
+   "answer": 0,
+   "explanation": "La bifurcation carotidienne se situe à hauteur du bord supérieur du cartilage thyroïde. La dilatation à l'origine de la carotide interne (sinus carotidien) est un barorécepteur et le petit corps de la bifurcation (glomus carotidien) un chémorécepteur ; tous deux sont innervés par le nerf glossopharyngien.",
+   "entries": [
+    "a-carotis-communis",
+    "a-carotis-interna",
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-64588484",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un massage du sinus carotidien est réalisé chez un patient en tachycardie supraventriculaire. Quelles sont les voies afférente et efférente du ralentissement cardiaque ?",
+   "options": [
+    "Afférente : nerf vague – Efférente : nerf glossopharyngien",
+    "Afférente : nerf hypoglosse – Efférente : nerf vague",
+    "Afférente : nerf glossopharyngien – Efférente : nerf vague",
+    "Afférente : chaîne sympathique – Efférente : nerf phrénique",
+    "Afférente : nerf accessoire – Efférente : nerf vague"
+   ],
+   "answer": 2,
+   "explanation": "Les barorécepteurs du sinus carotidien signalent la hausse de pression au tronc cérébral par le rameau du sinus carotidien du IX ; en réponse, le tonus vagal augmente et le cœur ralentit. Chez le sujet âgé, une hypersensibilité peut provoquer une syncope.",
+   "entries": [
+    "a-carotis-interna",
+    "n-glossopharyngeus",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-b380c127",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle artère ne donne aucune branche au cou ?",
+   "options": [
+    "Artère vertébrale",
+    "Artère carotide interne",
+    "Artère carotide externe",
+    "Tronc thyro-cervical",
+    "Artère subclavière"
+   ],
+   "answer": 1,
+   "explanation": "L'artère carotide interne pénètre dans le canal carotidien sans se ramifier au cou ; sa première branche importante est l'artère ophtalmique, dans le crâne. Cette particularité permet au chirurgien de distinguer la carotide interne de l'externe.",
+   "entries": [
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-d408d339",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle de ces artères n'est PAS une branche de la carotide externe ?",
+   "options": [
+    "Artère maxillaire",
+    "Artère faciale",
+    "Artère linguale",
+    "Artère thyroïdienne supérieure",
+    "Artère ophtalmique"
+   ],
+   "answer": 4,
+   "explanation": "Branches de la carotide externe : artères thyroïdienne supérieure, pharyngienne ascendante, linguale, faciale, occipitale, auriculaire postérieure et les branches terminales maxillaire et temporale superficielle. L'artère ophtalmique est la première branche intracrânienne de la carotide interne.",
+   "entries": [
+    "a-carotis-externa",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-c6279338",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "L'artère méningée moyenne est une branche de quelle artère ?",
+   "options": [
+    "Artère carotide interne",
+    "Artère occipitale",
+    "Artère ophtalmique",
+    "Artère maxillaire",
+    "Artère temporale superficielle"
+   ],
+   "answer": 3,
+   "explanation": "L'artère maxillaire donne l'artère méningée moyenne dans la fosse infratemporale ; celle-ci entre dans le crâne par le foramen épineux et vascularise la plus grande partie de la dure-mère et des os du crâne.",
+   "entries": [
+    "a-carotis-externa",
+    "meninges"
+   ]
+  },
+  {
+   "id": "cv-7afbacff",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où le pouls de l'artère faciale se prend-il le plus facilement sur le visage ?",
+   "options": [
+    "Derrière l'angle de la mandibule",
+    "Sur le foramen infra-orbitaire",
+    "À l'angle médial de l'œil",
+    "Devant le tragus",
+    "Au bord antérieur du masséter, sur le bord inférieur de la mandibule"
+   ],
+   "answer": 4,
+   "explanation": "L'artère faciale croise le bord inférieur de la mandibule au bord antérieur du masséter, où on la sent en la comprimant contre l'os. Elle suit un trajet sinueux de la commissure des lèvres à l'angle médial de l'œil (artère angulaire).",
+   "entries": [
+    "a-carotis-externa",
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "cv-937ce9d9",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Une femme de 70 ans présente des céphalées temporales récentes, une claudication de la mâchoire et une vision floue ; la VS est élevée. Sur quelle artère fait-on le plus souvent la biopsie diagnostique ?",
+   "options": [
+    "Artère faciale",
+    "Artère carotide interne",
+    "Artère maxillaire",
+    "Artère temporale superficielle",
+    "Artère occipitale"
+   ],
+   "answer": 3,
+   "explanation": "L'artérite à cellules géantes (maladie de Horton) touche les artères de moyen et gros calibre, surtout les branches de la carotide externe. L'artère temporale superficielle, facilement palpable devant le tragus, se prête à la biopsie. Si le traitement tarde, l'atteinte de l'artère ophtalmique peut causer une cécité définitive.",
+   "entries": [
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-43492b44",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": false,
+   "stem": "L'artère cérébelleuse postéro-inférieure (PICA) est une branche de quelle artère ?",
+   "options": [
+    "Artère basilaire",
+    "Artère vertébrale",
+    "Artère carotide interne",
+    "Artère cérébrale postérieure",
+    "Artère spinale antérieure"
+   ],
+   "answer": 1,
+   "explanation": "La PICA est en général la plus grosse branche intracrânienne de l'artère vertébrale. L'AICA et l'artère cérébelleuse supérieure naissent de la basilaire, qui se divise au bord supérieur du pont en deux cérébrales postérieures. L'occlusion de la PICA provoque le syndrome de Wallenberg (syndrome latéral du bulbe).",
+   "entries": [
+    "a-vertebralis",
+    "circulus-arteriosus",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "cv-0adf4674",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle de ces artères ne fait PAS partie du polygone de Willis (cercle artériel du cerveau) ?",
+   "options": [
+    "Artère cérébrale antérieure (segment A1)",
+    "Artère communicante postérieure",
+    "Artère communicante antérieure",
+    "Artère cérébrale postérieure (segment P1)",
+    "Artère cérébrale moyenne"
+   ],
+   "answer": 4,
+   "explanation": "Le polygone de Willis est formé par la communicante antérieure, les segments A1 des deux cérébrales antérieures, la terminaison des deux carotides internes, les deux communicantes postérieures et les segments P1 des deux cérébrales postérieures. La cérébrale moyenne prolonge la carotide interne mais ne fait pas partie de l'anneau.",
+   "entries": [
+    "circulus-arteriosus",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-11e9072b",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient de 65 ans présente une perte brutale, indolore et complète de la vision d'un œil. Au fond d'œil, la rétine est pâle et la macula « rouge cerise ». Quelle artère est occluse ?",
+   "options": [
+    "Artère lacrymale",
+    "Artère cérébrale postérieure",
+    "Artère ciliaire postérieure longue",
+    "Artère supra-orbitaire",
+    "Artère centrale de la rétine"
+   ],
+   "answer": 4,
+   "explanation": "L'artère centrale de la rétine est une branche de l'ophtalmique et pénètre dans l'œil à l'intérieur du nerf optique. Artère terminale, son occlusion rend ischémiques les couches internes de la rétine ; la fovéa, nourrie par la choroïde, apparaît comme une tache rouge.",
+   "entries": [
+    "retina",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-6db081fa",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient a des vertiges et une vision floue après avoir longtemps utilisé son bras gauche ; la pression artérielle au bras gauche est nettement plus basse qu'à droite. L'angiographie montre une sténose à l'origine de la subclavière gauche. Quel est le mécanisme des symptômes ?",
+   "options": [
+    "Anévrisme de l'artère basilaire",
+    "Flux inversé dans la carotide interne gauche",
+    "Occlusion de l'artère thoracique interne",
+    "Occlusion de l'artère vertébrale droite",
+    "Flux inversé dans l'artère vertébrale gauche (syndrome de vol sous-clavier)"
+   ],
+   "answer": 4,
+   "explanation": "Lorsque la sténose siège en amont de l'origine de la vertébrale, l'effort du bras « vole » du sang au tronc cérébral par la vertébrale gauche vers le bras ; des signes d'insuffisance vertébro-basilaire apparaissent.",
+   "entries": [
+    "a-subclavia",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "cv-cf804f79",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": false,
+   "stem": "L'artère la plus utilisée comme greffon en pontage coronaire, avec la meilleure perméabilité à long terme, est une branche de quelle artère ?",
+   "options": [
+    "Artère subclavière (artère thoracique interne)",
+    "Tronc thyro-cervical",
+    "Artère axillaire (artère thoracique latérale)",
+    "Artère carotide commune",
+    "Aorte descendante (artère intercostale)"
+   ],
+   "answer": 0,
+   "explanation": "L'artère thoracique interne (mammaire interne) naît de la 1re partie de la subclavière et descend près du bord du sternum. L'anastomose de la thoracique interne gauche sur l'IVA (AMIG–IVA) donne les meilleurs résultats à long terme.",
+   "entries": [
+    "a-subclavia",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-94f2afe5",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle artère n'est PAS une branche du tronc thyro-cervical ?",
+   "options": [
+    "Artère cervicale ascendante",
+    "Artère suprascapulaire",
+    "Artère thyroïdienne inférieure",
+    "Artère thyroïdienne supérieure",
+    "Artère cervicale transverse"
+   ],
+   "answer": 3,
+   "explanation": "Le tronc thyro-cervical naît de la subclavière et donne l'artère thyroïdienne inférieure (dont une branche est la cervicale ascendante), l'artère suprascapulaire et l'artère cervicale transverse. L'artère thyroïdienne supérieure est la première branche de la carotide externe.",
+   "entries": [
+    "a-subclavia",
+    "glandula-thyroidea"
+   ]
+  },
+  {
+   "id": "cv-1a1c0e40",
+   "group": "Artères du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle de ces artères est une branche de la troisième partie de l'artère axillaire ?",
+   "options": [
+    "Artère subscapulaire",
+    "Artère thoraco-acromiale",
+    "Artère thoracique latérale",
+    "Artère thoracique interne",
+    "Artère thoracique supérieure"
+   ],
+   "answer": 0,
+   "explanation": "1re partie (au-dessus du petit pectoral) : artère thoracique supérieure. 2e partie (derrière lui) : artères thoraco-acromiale et thoracique latérale. 3e partie (au-dessous) : artère subscapulaire et artères circonflexes humérales antérieure et postérieure. L'artère thoracique interne naît de la subclavière.",
+   "entries": [
+    "a-axillaris",
+    "m-pectoralis-minor"
+   ]
+  },
+  {
+   "id": "cv-04d706e5",
+   "group": "Artères du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Si l'artère axillaire est ligaturée entre le tronc thyro-cervical et l'artère subscapulaire, quel réseau collatéral maintient la vascularisation du bras ?",
+   "options": [
+    "Anastomose péri-scapulaire (artères suprascapulaire, dorsale de la scapula et circonflexe de la scapula)",
+    "Arcade palmaire profonde",
+    "Anastomose thoraco-acromiale",
+    "Artères intercostales antérieures",
+    "Anastomose péri-articulaire du coude"
+   ],
+   "answer": 0,
+   "explanation": "Autour de la scapula, les branches de la subclavière (artères suprascapulaire et dorsale de la scapula) s'anastomosent avec la branche subscapulaire de l'axillaire (artère circonflexe de la scapula). Si la ligature se situe entre ces branches, le bras reste vascularisé.",
+   "entries": [
+    "a-axillaris",
+    "a-subclavia",
+    "scapula"
+   ]
+  },
+  {
+   "id": "cv-90c880be",
+   "group": "Artères du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle artère chemine avec le nerf radial dans le sillon du nerf radial ?",
+   "options": [
+    "Artère circonflexe humérale postérieure",
+    "Artère collatérale ulnaire supérieure",
+    "Artère brachiale",
+    "Artère récurrente radiale",
+    "Artère profonde du bras"
+   ],
+   "answer": 4,
+   "explanation": "L'artère profonde du bras est la plus grosse branche du bras ; elle chemine avec le nerf radial dans le sillon de la face postérieure de l'humérus, vascularise la loge postérieure du bras et participe à l'anastomose du coude.",
+   "entries": [
+    "a-brachialis",
+    "n-radialis",
+    "humerus"
+   ]
+  },
+  {
+   "id": "cv-2354b9a9",
+   "group": "Artères du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Au poignet, le pouls radial se prend juste en dehors de quel tendon ?",
+   "options": [
+    "Fléchisseur radial du carpe",
+    "Fléchisseur ulnaire du carpe",
+    "Long palmaire",
+    "Brachio-radial",
+    "Long abducteur du pouce"
+   ],
+   "answer": 0,
+   "explanation": "Au poignet, l'artère radiale est superficielle devant l'extrémité distale du radius, en dehors du tendon du FCR, et se sent en la comprimant contre l'os. Elle passe ensuite par le plancher de la tabatière vers le dos de la main.",
+   "entries": [
+    "a-radialis",
+    "m-flexor-carpi-radialis"
+   ]
+  },
+  {
+   "id": "cv-47f821c9",
+   "group": "Artères du membre supérieur",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Avant la canulation de l'artère radiale en réanimation, on réalise le test d'Allen. Quel en est le but ?",
+   "options": [
+    "Vérifier que la main est suffisamment vascularisée par l'artère ulnaire et les arcades palmaires",
+    "Tester la fonction du nerf médian",
+    "Dépister une sténose de l'artère brachiale",
+    "Mesurer l'épaisseur de la paroi de l'artère radiale",
+    "Évaluer le retour veineux"
+   ],
+   "answer": 0,
+   "explanation": "On comprime en même temps les artères radiale et ulnaire jusqu'à ce que la main blanchisse, puis on relâche l'ulnaire. Une recoloration rapide montre que l'artère ulnaire et l'arcade palmaire superficielle suffisent et que la main restera vascularisée même si la radiale s'occlut.",
+   "entries": [
+    "a-ulnaris",
+    "a-radialis",
+    "arcus-palmares"
+   ]
+  },
+  {
+   "id": "cv-f33acf1b",
+   "group": "Artères du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle artère forme principalement l'arcade palmaire superficielle ?",
+   "options": [
+    "Artère médiane",
+    "Artère ulnaire",
+    "Artère principale du pouce",
+    "Artère interosseuse antérieure",
+    "Artère radiale"
+   ],
+   "answer": 1,
+   "explanation": "L'arcade palmaire superficielle est surtout la terminaison de l'artère ulnaire, complétée par le rameau palmaire superficiel de la radiale ; l'arcade profonde est formée surtout par l'artère radiale et se situe plus proximalement.",
+   "entries": [
+    "arcus-palmares",
+    "a-ulnaris"
+   ]
+  },
+  {
+   "id": "cv-949621d9",
+   "group": "Artères du membre supérieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "L'artère interosseuse commune est une branche de quelle artère ?",
+   "options": [
+    "Artère brachiale",
+    "Artère radiale",
+    "Artère ulnaire",
+    "Artère récurrente radiale",
+    "Artère profonde du bras"
+   ],
+   "answer": 2,
+   "explanation": "Juste sous la fosse cubitale, l'artère ulnaire donne l'artère interosseuse commune, qui se divise en artères interosseuses antérieure et postérieure cheminant en avant et en arrière de la membrane interosseuse.",
+   "entries": [
+    "a-ulnaris"
+   ]
+  },
+  {
+   "id": "cv-182b9c31",
+   "group": "Artères du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sur quelle artère place-t-on le stéthoscope pour mesurer la pression artérielle ?",
+   "options": [
+    "Artère axillaire",
+    "Artère radiale",
+    "Artère brachiale",
+    "Artère ulnaire",
+    "Artère profonde du bras"
+   ],
+   "answer": 2,
+   "explanation": "Le brassard entoure le bras ; le stéthoscope est placé au pli du coude sur l'artère brachiale, juste en dedans du tendon du biceps. C'est là qu'on entend les bruits de Korotkoff.",
+   "entries": [
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-80e9ff2a",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles sont les trois branches du tronc cœliaque ?",
+   "options": [
+    "Artère phrénique inférieure, artère splénique, artère hépatique commune",
+    "Artère gastrique gauche, artère splénique, artère hépatique commune",
+    "Artère gastrique droite, artère splénique, artère hépatique propre",
+    "Artère gastrique gauche, artère gastroduodénale, artère rénale",
+    "Artère gastroduodénale, artère splénique, artère mésentérique supérieure"
+   ],
+   "answer": 1,
+   "explanation": "Le tronc cœliaque naît de la face antérieure de l'aorte en T12 et vascularise les dérivés de l'intestin antérieur (œsophage abdominal, estomac, partie haute du duodénum, foie, vésicule biliaire, une partie du pancréas et la rate).",
+   "entries": [
+    "truncus-coeliacus"
+   ]
+  },
+  {
+   "id": "cv-929f7309",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient aux antécédents d'ulcère gastroduodénal présente une hématémèse massive. L'endoscopie montre un ulcère hémorragique de la face postérieure du bulbe duodénal. Quelle artère saigne le plus probablement ?",
+   "options": [
+    "Artère mésentérique supérieure",
+    "Artère gastrique gauche",
+    "Artère gastroduodénale",
+    "Artère splénique",
+    "Artère pancréatico-duodénale inférieure"
+   ],
+   "answer": 2,
+   "explanation": "L'artère gastroduodénale naît de l'hépatique commune et descend juste en arrière de la 1re partie du duodénum. Les ulcères de la face postérieure l'érodent et provoquent une hémorragie grave ; ceux de la face antérieure perforent plutôt.",
+   "entries": [
+    "truncus-coeliacus",
+    "duodenum"
+   ]
+  },
+  {
+   "id": "cv-ed78d041",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle affirmation sur l'artère splénique est fausse ?",
+   "options": [
+    "C'est la plus grosse branche du tronc cœliaque.",
+    "Elle suit un trajet sinueux le long du bord supérieur du pancréas.",
+    "Elle vascularise le fundus gastrique par les artères gastriques courtes.",
+    "Elle atteint la rate dans le ligament spléno-rénal.",
+    "Elle donne l'artère gastro-omentale (gastro-épiploïque) droite."
+   ],
+   "answer": 4,
+   "explanation": "L'artère splénique donne l'artère gastro-omentale gauche et les artères gastriques courtes. L'artère gastro-omentale droite est une branche de la gastroduodénale ; les deux gastro-omentales s'anastomosent le long de la grande courbure de l'estomac.",
+   "entries": [
+    "truncus-coeliacus",
+    "splen",
+    "gaster"
+   ]
+  },
+  {
+   "id": "cv-9dcf655b",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel territoire l'artère mésentérique supérieure vascularise-t-elle ?",
+   "options": [
+    "L'intestin du milieu de la partie descendante du duodénum jusqu'au tiers gauche environ du côlon transverse",
+    "De l'œsophage au milieu du duodénum",
+    "Du tiers gauche du côlon transverse à la partie haute du rectum",
+    "L'estomac et la rate",
+    "Seulement le jéjunum et l'iléon"
+   ],
+   "answer": 0,
+   "explanation": "L'AMS (L1) vascularise les dérivés de l'intestin moyen : le duodénum au-delà de la grande papille, le jéjunum, l'iléon, le cæcum, l'appendice, le côlon ascendant et les 2/3 proximaux du côlon transverse. Branches : pancréatico-duodénale inférieure, artères jéjunales et iléales, iléo-colique, colique droite et colique moyenne.",
+   "entries": [
+    "a-mesenterica-superior",
+    "intestinum-tenue"
+   ]
+  },
+  {
+   "id": "cv-70883c8c",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Après un amaigrissement rapide, une jeune femme présente des vomissements sévères et des ballonnements après les repas ; le duodénum est comprimé entre l'aorte et un vaisseau. Quel est ce vaisseau et quelle partie du duodénum est atteinte ?",
+   "options": [
+    "Artère mésentérique supérieure – 3e partie (horizontale) du duodénum",
+    "Artère mésentérique inférieure – 4e partie du duodénum",
+    "Tronc cœliaque – 1re partie du duodénum",
+    "Artère rénale gauche – 2e partie du duodénum",
+    "Veine porte hépatique – 1re partie du duodénum"
+   ],
+   "answer": 0,
+   "explanation": "La partie horizontale du duodénum passe entre l'aorte et l'AMS en L3. Quand la graisse rétropéritonéale fond, l'angle entre les deux se ferme et le duodénum est comprimé (pince aorto-mésentérique, syndrome de Wilkie).",
+   "entries": [
+    "a-mesenterica-superior",
+    "duodenum",
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-0614100a",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle zone de la vascularisation colique, appelée « zone de partage des eaux », est la plus sensible à l'ischémie ?",
+   "options": [
+    "Partie basse du rectum",
+    "Milieu du côlon ascendant",
+    "Cæcum",
+    "Angle colique droit",
+    "Angle colique gauche (jonction des territoires de l'AMS et de l'AMI)"
+   ],
+   "answer": 4,
+   "explanation": "L'angle colique gauche (point de Griffiths) est le lieu où se rejoignent les territoires terminaux de la colique moyenne (AMS) et de la colique gauche (AMI), et où l'artère marginale (de Drummond) peut être grêle. La jonction recto-sigmoïdienne (point de Sudeck) est l'autre zone critique.",
+   "entries": [
+    "a-mesenterica-inferior",
+    "a-mesenterica-superior",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "cv-bc394f94",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle artère, branche terminale de l'artère mésentérique inférieure, vascularise la partie haute du rectum ?",
+   "options": [
+    "Artère sigmoïdienne",
+    "Artère rectale supérieure",
+    "Artère rectale inférieure",
+    "Artère sacrale médiane",
+    "Artère rectale moyenne"
+   ],
+   "answer": 1,
+   "explanation": "L'AMI (L3) donne l'artère colique gauche, les artères sigmoïdiennes et l'artère rectale supérieure. L'artère rectale moyenne naît de l'iliaque interne et l'artère rectale inférieure de la pudendale interne.",
+   "entries": [
+    "a-mesenterica-inferior",
+    "rectum"
+   ]
+  },
+  {
+   "id": "cv-34e1fdec",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle affirmation sur les artères rénales est exacte ?",
+   "options": [
+    "L'artère rénale droite passe derrière la veine cave inférieure.",
+    "Il existe de larges anastomoses entre les artères segmentaires.",
+    "Elles naissent de l'aorte en T10.",
+    "Elles cheminent en avant des veines rénales.",
+    "L'artère rénale gauche est plus longue que la droite."
+   ],
+   "answer": 0,
+   "explanation": "Les artères rénales naissent en L1–L2 ; l'aorte étant à gauche, l'artère rénale droite est plus longue et passe derrière la VCI. Au hile, d'avant en arrière : veine, artère, bassinet. Les artères segmentaires sont terminales.",
+   "entries": [
+    "aa-renales",
+    "ren",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-23038544",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle artère naît du tronc postérieur de l'artère iliaque interne ?",
+   "options": [
+    "Artère glutéale supérieure",
+    "Artère utérine",
+    "Artère glutéale inférieure",
+    "Artère obturatrice",
+    "Artère pudendale interne"
+   ],
+   "answer": 0,
+   "explanation": "Le tronc postérieur donne l'artère ilio-lombale, les artères sacrales latérales et l'artère glutéale supérieure. Le tronc antérieur donne les branches viscérales (ombilicale, vésicale inférieure/vaginale, utérine, rectale moyenne) et pariétales (obturatrice, pudendale interne, glutéale inférieure).",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-20f3067b",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "L'artère épigastrique inférieure est une branche de quelle artère ?",
+   "options": [
+    "Artère iliaque interne",
+    "Artère obturatrice",
+    "Artère iliaque externe",
+    "Artère fémorale",
+    "Artère thoracique interne"
+   ],
+   "answer": 2,
+   "explanation": "L'artère épigastrique inférieure naît de l'iliaque externe juste au-dessus du ligament inguinal, monte en dedans de l'anneau inguinal profond et s'anastomose dans la gaine des droits avec l'artère épigastrique supérieure (branche de la thoracique interne).",
+   "entries": [
+    "a-iliaca-communis",
+    "m-rectus-abdominis"
+   ]
+  },
+  {
+   "id": "cv-f36779f3",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle affirmation sur la bifurcation de l'artère iliaque commune est exacte ?",
+   "options": [
+    "Elle se fait devant l'articulation sacro-iliaque, et l'uretère croise généralement les vaisseaux iliaques à cet endroit.",
+    "Elle se fait en L1, au hile des reins.",
+    "Au-delà, l'artère iliaque interne descend dans la cuisse.",
+    "Le conduit déférent passe derrière la bifurcation.",
+    "La veine cave inférieure passe devant ce point."
+   ],
+   "answer": 0,
+   "explanation": "Les artères iliaques communes se divisent en iliaques interne et externe devant l'articulation sacro-iliaque. À l'entrée du bassin, l'uretère passe devant cette bifurcation ; c'est un des rétrécissements physiologiques de l'uretère, où les calculs se bloquent.",
+   "entries": [
+    "a-iliaca-communis",
+    "ureter"
+   ]
+  },
+  {
+   "id": "cv-6134b2af",
+   "group": "Artères du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où le pouls fémoral se prend-il le mieux ?",
+   "options": [
+    "Au niveau du hiatus des adducteurs",
+    "Juste au-dessus du tubercule pubien",
+    "Derrière le grand trochanter",
+    "Au milieu de la cuisse, au bord latéral du sartorius",
+    "Sous le ligament inguinal, à mi-distance entre l'EIAS et la symphyse pubienne (point mi-inguinal)"
+   ],
+   "answer": 4,
+   "explanation": "L'artère fémorale entre dans le trigone fémoral sous le ligament inguinal et se perçoit au point mi-inguinal en la comprimant contre l'os (tête fémorale, pubis). C'est l'artère la plus utilisée pour le cathétérisme ; la veine est juste en dedans.",
+   "entries": [
+    "a-femoralis",
+    "trigonum-femorale"
+   ]
+  },
+  {
+   "id": "cv-dba30b16",
+   "group": "Artères du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles sont les branches de l'artère profonde de la cuisse ?",
+   "options": [
+    "Artères pudendale externe et épigastrique inférieure",
+    "Artères circonflexes fémorales médiale et latérale et artères perforantes",
+    "Artère descendante du genou et artère poplitée",
+    "Artères épigastrique superficielle et circonflexe iliaque superficielle",
+    "Artères obturatrice et glutéale inférieure"
+   ],
+   "answer": 1,
+   "explanation": "L'artère fémorale profonde est la principale artère nourricière de la cuisse ; les deux circonflexes vascularisent la région de la hanche et les perforantes la loge postérieure de la cuisse. La circonflexe médiale est la principale source de la tête fémorale.",
+   "entries": [
+    "a-femoralis",
+    "femur"
+   ]
+  },
+  {
+   "id": "cv-d4ddc968",
+   "group": "Artères du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est l'ordre des éléments de la fosse poplitée, de la superficie vers la profondeur ?",
+   "options": [
+    "Veine poplitée – nerf tibial – artère poplitée",
+    "Artère poplitée – nerf tibial – veine poplitée",
+    "Artère poplitée – veine poplitée – nerf tibial",
+    "Nerf tibial – veine poplitée – artère poplitée",
+    "Nerf tibial – artère poplitée – veine poplitée"
+   ],
+   "answer": 3,
+   "explanation": "Dans la fosse poplitée, le nerf est le plus superficiel, la veine au milieu et l'artère la plus profonde (contre le fémur et la capsule du genou). Le pouls poplité se prend donc par pression profonde, genou légèrement fléchi, et l'artère peut être lésée dans les fractures supracondyliennes du fémur.",
+   "entries": [
+    "a-poplitea",
+    "fossa-poplitea",
+    "n-tibialis"
+   ]
+  },
+  {
+   "id": "cv-eefdaca9",
+   "group": "Artères du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où le pouls pédieux se prend-il le mieux ?",
+   "options": [
+    "À la base du 5e métatarsien",
+    "Derrière la malléole médiale",
+    "Sur la face médiale du talon",
+    "Devant la malléole latérale",
+    "Sur le dos du pied, en dehors du tendon du long extenseur de l'hallux"
+   ],
+   "answer": 4,
+   "explanation": "L'artère dorsale du pied prolonge la tibiale antérieure ; sur le dos du pied elle se sent juste en dehors du tendon de l'EHL, entre le 1er et le 2e métatarsien. C'est un des premiers pouls à disparaître dans l'artériopathie.",
+   "entries": [
+    "a-dorsalis-pedis",
+    "a-tibialis-anterior",
+    "m-extensor-hallucis-longus"
+   ]
+  },
+  {
+   "id": "cv-c38d2770",
+   "group": "Artères du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "L'artère fibulaire (péronière) est une branche de quelle artère ?",
+   "options": [
+    "Artère tibiale postérieure",
+    "Une branche directe de l'artère poplitée",
+    "Artère dorsale du pied",
+    "Artère fémorale",
+    "Artère tibiale antérieure"
+   ],
+   "answer": 0,
+   "explanation": "L'artère tibiale postérieure donne l'artère fibulaire à la partie haute de la jambe ; celle-ci chemine près de la fibula et vascularise les muscles de la loge latérale par des rameaux perforants. Le lambeau libre de fibula est prélevé sur cette artère.",
+   "entries": [
+    "a-tibialis-posterior",
+    "fibula"
+   ]
+  },
+  {
+   "id": "cv-86d9b694",
+   "group": "Artères du membre inférieur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles artères participent à l'anastomose cruciforme de la région de la hanche ?",
+   "options": [
+    "Artères ilio-lombale et sacrales latérales",
+    "Artères glutéale supérieure, obturatrice et pudendale interne",
+    "Artère glutéale inférieure, artères circonflexes fémorales médiale et latérale et 1re perforante",
+    "Artères épigastrique inférieure et obturatrice",
+    "Rameaux géniculaires de l'artère poplitée"
+   ],
+   "answer": 2,
+   "explanation": "L'anastomose cruciforme se situe derrière le fémur à hauteur du petit trochanter et forme une voie collatérale entre les systèmes iliaque interne et fémoral. Elle est importante en cas d'occlusion proximale de l'artère fémorale.",
+   "entries": [
+    "a-femoralis",
+    "femur"
+   ]
+  },
+  {
+   "id": "cv-d936dd1e",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Chez un patient en choc sans veine périphérique accessible, quelle veine est le site le plus fiable pour une dénudation veineuse d'urgence ?",
+   "options": [
+    "Veine jugulaire externe – au cou",
+    "Grande veine saphène – devant la malléole médiale",
+    "Petite veine saphène – derrière la malléole latérale",
+    "Veine céphalique – dans le sillon delto-pectoral",
+    "Veine basilique – à la face médiale du coude"
+   ],
+   "answer": 1,
+   "explanation": "La grande veine saphène est constante et superficielle juste devant la malléole médiale, d'où son usage classique pour la dénudation. Le nerf saphène l'accompagne à cet endroit et doit être préservé.",
+   "entries": [
+    "v-saphena-magna"
+   ]
+  },
+  {
+   "id": "cv-0c9c8933",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans quelle veine se jette la grande veine saphène ?",
+   "options": [
+    "Veine iliaque interne",
+    "Veine fémorale (au hiatus saphène)",
+    "Veine fémorale profonde",
+    "Veine iliaque externe",
+    "Veine poplitée"
+   ],
+   "answer": 1,
+   "explanation": "La grande veine saphène monte à la face médiale de la cuisse et traverse le fascia lata au hiatus saphène, environ 3–4 cm sous le tubercule pubien et en dehors de lui, pour se jeter dans la veine fémorale. Elle sert de greffon dans les pontages coronaires.",
+   "entries": [
+    "v-saphena-magna",
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-99cfaed4",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle affirmation sur la petite veine saphène est exacte ?",
+   "options": [
+    "Elle chemine sous le fascia profond, dans le muscle.",
+    "Elle passe devant la malléole médiale.",
+    "Elle se jette dans la veine fémorale.",
+    "Elle passe derrière la malléole latérale et se jette en général dans la veine poplitée.",
+    "Elle chemine avec le nerf saphène."
+   ],
+   "answer": 3,
+   "explanation": "La petite veine saphène naît du bord latéral du pied, monte derrière la malléole latérale jusqu'à la ligne médiane du mollet et s'ouvre dans la veine poplitée au creux poplité. Au mollet, elle chemine avec le nerf sural.",
+   "entries": [
+    "v-saphena-parva",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "cv-efdf82fd",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel niveau se forme la veine cave inférieure, et à quel niveau traverse-t-elle le diaphragme ?",
+   "options": [
+    "Elle se forme en L5 et traverse le diaphragme en T8.",
+    "Elle se forme en L1 et traverse le diaphragme en T10.",
+    "Elle se forme en S1 et traverse le diaphragme en T10.",
+    "Elle se forme en L4 et traverse le diaphragme en T12.",
+    "Elle se forme en L3 et traverse le diaphragme en T8."
+   ],
+   "answer": 0,
+   "explanation": "Les deux veines iliaques communes s'unissent en L5, à droite et un peu au-dessous de la bifurcation aortique, pour former la VCI. Celle-ci traverse l'orifice de la veine cave dans le centre tendineux du diaphragme (T8).",
+   "entries": [
+    "v-cava-inferior",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "cv-147eede0",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle veine s'ouvre dans la veine cave supérieure par sa face postérieure droite ?",
+   "options": [
+    "Veine hémi-azygos",
+    "Veine subclavière droite",
+    "Veine thoracique interne",
+    "Veine jugulaire externe",
+    "Veine azygos"
+   ],
+   "answer": 4,
+   "explanation": "La veine azygos décrit une crosse au-dessus du pédicule pulmonaire droit en T4 pour s'ouvrir dans la VCS. Elle recueille les veines intercostales postérieures, œsophagiennes et bronchiques ; c'est une voie collatérale importante en cas d'occlusion de la VCI.",
+   "entries": [
+    "v-azygos",
+    "v-cava-superior"
+   ]
+  },
+  {
+   "id": "cv-799fea3d",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où et par l'union de quelles veines se forme la veine porte hépatique ?",
+   "options": [
+    "Au hile du foie, par l'union des veines hépatiques droite et gauche",
+    "À la petite courbure de l'estomac, par l'union des veines gastriques droite et gauche",
+    "Derrière le col du pancréas, par l'union de la veine mésentérique supérieure et de la veine splénique",
+    "Devant le duodénum, par l'union de la veine gastrique gauche et de la veine splénique",
+    "Derrière la queue du pancréas, par l'union de la veine rénale et de la veine splénique"
+   ],
+   "answer": 2,
+   "explanation": "La veine porte se forme en L1–L2 derrière le col du pancréas ; la veine mésentérique inférieure s'ouvre le plus souvent dans la splénique. La veine monte dans le ligament hépato-duodénal, en arrière de la voie biliaire et de l'artère hépatique.",
+   "entries": [
+    "v-portae-hepatis",
+    "pancreas"
+   ]
+  },
+  {
+   "id": "cv-0cf94980",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient atteint de cirrhose alcoolique arrive avec une hématémèse massive ; on note une circulation veineuse péri-ombilicale (tête de méduse) et des hémorroïdes. Quelle anastomose porto-cave est à l'origine de l'hémorragie ?",
+   "options": [
+    "Anastomose entre la veine colique gauche et la veine rénale",
+    "Anastomose entre les veines rectales supérieure et moyenne",
+    "Anastomose entre les veines para-ombilicales et la veine épigastrique superficielle",
+    "Anastomose entre la veine gastrique gauche et les veines œsophagiennes (système azygos)",
+    "Anastomose entre la veine splénique et la veine rénale gauche"
+   ],
+   "answer": 3,
+   "explanation": "Dans l'hypertension portale, le sang gagne les veines systémiques par des collatérales : varices œsophagiennes au bas œsophage (hémorragie parfois mortelle), varices rectales dans la région anorectale, tête de méduse autour de l'ombilic et anastomoses rétropéritonéales.",
+   "entries": [
+    "v-portae-hepatis",
+    "oesophagus",
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "cv-0f81ede0",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Au cou, quelle est la position de la veine jugulaire interne par rapport à l'artère carotide commune ?",
+   "options": [
+    "Hors de la gaine carotidienne, à la surface du SCM",
+    "En dedans de l'artère, près de la trachée",
+    "Dans la gaine carotidienne, en dehors de l'artère",
+    "En arrière de l'artère, sous le fascia prévertébral",
+    "En avant de l'artère, dans la glande thyroïde"
+   ],
+   "answer": 2,
+   "explanation": "Dans la gaine carotidienne, l'artère carotide commune est en dedans, la veine jugulaire interne en dehors et le nerf vague en arrière des deux. Pour poser une voie centrale, on cherche la veine dans le triangle entre les deux chefs du SCM, en dehors de l'artère.",
+   "entries": [
+    "v-jugularis-interna",
+    "a-carotis-communis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-90f888e4",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lors de l'observation de la pression veineuse jugulaire, quelle veine visible au cou croise superficiellement le SCM ?",
+   "options": [
+    "Veine faciale",
+    "Veine vertébrale",
+    "Veine thyroïdienne moyenne",
+    "Veine jugulaire externe",
+    "Veine jugulaire interne"
+   ],
+   "answer": 3,
+   "explanation": "La veine jugulaire externe descend obliquement à la surface du SCM et s'ouvre dans la subclavière au-dessus de la clavicule. Elle se dilate dans l'insuffisance cardiaque droite. La pression veineuse jugulaire s'évalue toutefois proprement sur la jugulaire interne.",
+   "entries": [
+    "v-jugularis-externa",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "cv-8f6a9c14",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle est la complication grave la plus fréquente du cathétérisme de la veine subclavière, et pourquoi ?",
+   "options": [
+    "L'hémopéricarde, car la veine s'ouvre directement dans le péricarde",
+    "Il n'y a pas d'embolie gazeuse, car la veine a des valvules.",
+    "La paralysie phrénique, car le nerf traverse la veine",
+    "Le pneumothorax, car le dôme pleural se trouve juste derrière et sous la veine",
+    "Le chylothorax, car le conduit thoracique est à droite"
+   ],
+   "answer": 3,
+   "explanation": "La veine subclavière chemine entre la clavicule et la 1re côte, en avant du scalène antérieur. La plèvre et l'apex pulmonaire sont juste derrière ; une aiguille trop profonde provoque un pneumothorax. Le conduit thoracique se jetant dans le confluent veineux gauche, les ponctions à gauche exposent au chylothorax.",
+   "entries": [
+    "v-subclavia",
+    "pleura"
+   ]
+  },
+  {
+   "id": "cv-f04b527e",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle veine superficielle du pli du coude est la plus utilisée pour les prises de sang ?",
+   "options": [
+    "Veine axillaire",
+    "Veine céphalique",
+    "Veine médiane du coude",
+    "Veine brachiale",
+    "Veine basilique"
+   ],
+   "answer": 2,
+   "explanation": "La veine médiane du coude relie la céphalique à la basilique et repose sur l'aponévrose bicipitale, qui protège l'artère brachiale et le nerf médian situés en dessous.",
+   "entries": [
+    "vv-membri-superioris"
+   ]
+  },
+  {
+   "id": "cv-09c0276c",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où la veine céphalique se jette-t-elle dans une veine profonde ?",
+   "options": [
+    "Dans la veine brachiale au coude",
+    "Dans la veine basilique dans le creux axillaire",
+    "Dans la veine brachiale au milieu du bras",
+    "Dans la veine axillaire, après avoir traversé le sillon delto-pectoral",
+    "Dans la veine jugulaire externe au cou"
+   ],
+   "answer": 3,
+   "explanation": "La veine céphalique monte sur le bord latéral de l'avant-bras et du bras et, par le sillon entre deltoïde et grand pectoral, perfore le fascia clavi-pectoral pour s'ouvrir dans la veine axillaire. La basilique, elle, perfore le fascia profond au milieu du bras et forme la veine axillaire avec les veines brachiales.",
+   "entries": [
+    "vv-membri-superioris"
+   ]
+  },
+  {
+   "id": "cv-9d3e524c",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle proposition décrit correctement le trajet du sang veineux dans le crâne ?",
+   "options": [
+    "Sinus sagittal inférieur → sinus caverneux → veine jugulaire externe",
+    "Sinus transverse → sinus sagittal supérieur → veine vertébrale",
+    "Sinus caverneux → sinus droit → veine jugulaire externe",
+    "Sinus sigmoïde → sinus transverse → confluent des sinus → veine jugulaire interne",
+    "Sinus sagittal supérieur → confluent des sinus → sinus transverse → sinus sigmoïde → veine jugulaire interne"
+   ],
+   "answer": 4,
+   "explanation": "Les sinus de la dure-mère recueillent le sang du cerveau, des méninges et du crâne. Le sinus sagittal supérieur contient aussi les granulations où le LCS est résorbé. Le sinus sigmoïde se continue par la veine jugulaire interne au foramen jugulaire.",
+   "entries": [
+    "sinus-durae-matris",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-b1671c8b",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Où se jette la veine testiculaire gauche, et quelle en est l'importance clinique ?",
+   "options": [
+    "Dans la veine iliaque interne, ce qui provoque des hémorroïdes.",
+    "Dans la veine cave inférieure, si bien que la varicocèle ne s'observe pas à gauche.",
+    "Dans la veine azygos, ce qui provoque des douleurs thoraciques.",
+    "Dans la veine porte, ce qui la dilate en cas d'hypertension portale.",
+    "Dans la veine rénale gauche, si bien que la varicocèle est plus fréquente à gauche."
+   ],
+   "answer": 4,
+   "explanation": "La veine testiculaire droite s'ouvre obliquement dans la VCI, la gauche dans la veine rénale gauche à angle droit. La veine rénale gauche peut en outre être comprimée entre l'aorte et l'AMS (casse-noisette). C'est pourquoi la dilatation du plexus pampiniforme (varicocèle) est surtout gauche.",
+   "entries": [
+    "testis",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-51ef5367",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle affirmation sur la veine rénale gauche est fausse ?",
+   "options": [
+    "Elle passe entre l'artère mésentérique supérieure et l'aorte.",
+    "Sa compression entre l'aorte et l'AMS provoque le syndrome du « casse-noisette ».",
+    "Elle reçoit les veines gonadique et surrénale gauches.",
+    "Elle passe derrière l'aorte pour s'ouvrir dans la veine cave inférieure.",
+    "Elle est plus longue que la veine rénale droite."
+   ],
+   "answer": 3,
+   "explanation": "La veine rénale gauche passe normalement devant l'aorte, juste sous l'AMS. Une veine rénale gauche rétro-aortique est une variante rare. Du fait de la longueur de sa veine, le rein gauche est en général préféré pour la transplantation.",
+   "entries": [
+    "ren",
+    "aorta",
+    "a-mesenterica-superior"
+   ]
+  },
+  {
+   "id": "cv-25ce6332",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle voie joue le rôle principal dans la propagation des infections du « triangle dangereux » de la face vers le sinus caverneux ?",
+   "options": [
+    "Veine temporale superficielle → sinus sagittal supérieur",
+    "Plexus ptérygoïdien → veine maxillaire → veine jugulaire externe",
+    "Veine rétromandibulaire → veine jugulaire externe",
+    "Veine faciale → veine jugulaire interne → sinus sigmoïde",
+    "Veine faciale → veine angulaire → veine ophtalmique supérieure"
+   ],
+   "answer": 4,
+   "explanation": "À l'angle médial de l'œil, la veine angulaire, origine de la veine faciale, communique avec la veine ophtalmique supérieure, dépourvue de valvules. Les infections autour du nez et de la lèvre supérieure peuvent atteindre le sinus caverneux par cette voie et provoquer une thrombophlébite.",
+   "entries": [
+    "sinus-durae-matris",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-98cd4a4d",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle affirmation sur la veine brachiocéphalique gauche est exacte ?",
+   "options": [
+    "Elle est plus longue que la droite et passe obliquement devant les branches de la crosse de l'aorte.",
+    "Elle est plus courte que la droite et descend verticalement.",
+    "Elle s'ouvre directement dans l'atrium droit.",
+    "Elle passe derrière l'aorte.",
+    "Elle reçoit la veine azygos."
+   ],
+   "answer": 0,
+   "explanation": "De chaque côté, les veines jugulaire interne et subclavière s'unissent derrière l'articulation sterno-claviculaire pour former les veines brachiocéphaliques. La veine brachiocéphalique gauche croise vers la droite derrière le manubrium et s'unit à la droite pour former la VCS. Le conduit thoracique s'ouvre dans le confluent veineux gauche.",
+   "entries": [
+    "v-cava-superior",
+    "v-subclavia",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-a877168d",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien de cavités le cœur possède-t-il ?",
+   "options": [
+    "3",
+    "6",
+    "5",
+    "4 (deux atriums, deux ventricules)",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "Le cœur comprend deux atriums (oreillettes) et deux ventricules. Le cœur droit envoie le sang désoxygéné aux poumons, le cœur gauche le sang oxygéné à l'organisme.",
+   "entries": [
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-94d9d190",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le sac à double feuillet qui entoure le cœur ?",
+   "options": [
+    "Plèvre",
+    "Péritoine",
+    "Péricarde",
+    "Endocarde",
+    "Myocarde"
+   ],
+   "answer": 2,
+   "explanation": "Le péricarde est un sac formé d'un feuillet fibreux externe et d'un feuillet séreux interne (pariétal et viscéral). L'endocarde tapisse l'intérieur du cœur, le myocarde est le muscle cardiaque.",
+   "entries": [
+    "pericardium"
+   ]
+  },
+  {
+   "id": "cv-3db2d7ed",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle valve se trouve entre l'atrium droit et le ventricule droit ?",
+   "options": [
+    "Valve aortique",
+    "Valve mitrale",
+    "Valve pulmonaire",
+    "Valvule d'Eustachi",
+    "Valve tricuspide"
+   ],
+   "answer": 4,
+   "explanation": "La valve atrio-ventriculaire droite a trois cuspides (tricuspide). Entre l'atrium et le ventricule gauches se trouve la valve mitrale à deux cuspides.",
+   "entries": [
+    "valvae-cordis",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-d1d99274",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle valve se trouve entre l'atrium gauche et le ventricule gauche ?",
+   "options": [
+    "Valve aortique",
+    "Valve tricuspide",
+    "Valve pulmonaire",
+    "Valvule de Thebesius",
+    "Valve mitrale (bicuspide)"
+   ],
+   "answer": 4,
+   "explanation": "La valve mitrale a deux cuspides, antérieure et postérieure ; elles sont reliées par les cordages tendineux aux muscles papillaires du ventricule gauche.",
+   "entries": [
+    "valvae-cordis",
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-26a232bf",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle cavité cardiaque a la paroi la plus épaisse ?",
+   "options": [
+    "Les quatre cavités ont la même paroi",
+    "Atrium droit",
+    "Ventricule droit",
+    "Ventricule gauche",
+    "Atrium gauche"
+   ],
+   "answer": 3,
+   "explanation": "Le ventricule gauche a la paroi la plus épaisse car il propulse le sang à haute pression dans tout l'organisme ; elle est environ trois fois plus épaisse que celle du ventricule droit.",
+   "entries": [
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-d6a24725",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle cavité forme la pointe (apex) du cœur ?",
+   "options": [
+    "Ventricule gauche",
+    "Ventricule droit",
+    "Atrium gauche",
+    "Atrium droit",
+    "Auricule gauche"
+   ],
+   "answer": 0,
+   "explanation": "L'apex du cœur est formé par le ventricule gauche et se palpe dans le 5e espace intercostal gauche, juste en dedans de la ligne médio-claviculaire (choc de pointe).",
+   "entries": [
+    "ventriculus-sinister",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-412b75c1",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on les artères qui irriguent le muscle cardiaque ?",
+   "options": [
+    "Artères bronchiques",
+    "Artères intercostales",
+    "Artères pulmonaires",
+    "Artères coronaires",
+    "Artères péricardo-phréniques"
+   ],
+   "answer": 3,
+   "explanation": "Les artères coronaires droite et gauche naissent des sinus aortiques à la racine de l'aorte ascendante et irriguent la paroi cardiaque ; leur occlusion provoque l'infarctus du myocarde.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-7d873071",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le stimulateur (pacemaker) naturel du cœur ?",
+   "options": [
+    "Faisceau de His",
+    "Nœud sinusal (sino-atrial)",
+    "Bandelette modératrice",
+    "Fibres de Purkinje",
+    "Nœud atrio-ventriculaire"
+   ],
+   "answer": 1,
+   "explanation": "Le nœud sinusal se trouve dans l'atrium droit près de l'abouchement de la veine cave supérieure et déclenche les battements. L'influx gagne ensuite le nœud atrio-ventriculaire, le faisceau de His, ses branches et les fibres de Purkinje.",
+   "entries": [
+    "cor",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-05cc936f",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "De quelle cavité cardiaque part la circulation pulmonaire ?",
+   "options": [
+    "Sinus coronaire",
+    "Ventricule droit",
+    "Ventricule gauche",
+    "Atrium droit",
+    "Atrium gauche"
+   ],
+   "answer": 1,
+   "explanation": "La circulation pulmonaire part du ventricule droit par le tronc pulmonaire et se termine dans l'atrium gauche par les veines pulmonaires. La circulation systémique part du ventricule gauche par l'aorte.",
+   "entries": [
+    "ventriculus-dexter",
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-ec83a847",
+   "group": "Aorte et ses branches",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle est la plus grande artère qui distribue le sang oxygéné à tout l'organisme ?",
+   "options": [
+    "Artère carotide commune",
+    "Veine cave inférieure",
+    "Tronc pulmonaire",
+    "Artère subclavière",
+    "Aorte"
+   ],
+   "answer": 4,
+   "explanation": "L'aorte naît du ventricule gauche ; par ses segments ascendant, crosse, thoracique et abdominal, elle irrigue toute la circulation systémique.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-7e929d6e",
+   "group": "Cœur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel vaisseau transporte le sang désoxygéné du cœur vers les poumons ?",
+   "options": [
+    "Aorte",
+    "Tronc pulmonaire (artère pulmonaire)",
+    "Veine cave supérieure",
+    "Artères bronchiques",
+    "Veines pulmonaires"
+   ],
+   "answer": 1,
+   "explanation": "Les artères pulmonaires sont les seules artères à transporter du sang désoxygéné ; elles partent du ventricule droit vers les poumons.",
+   "entries": [
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-98ef52a0",
+   "group": "Veines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelles veines transportent du sang oxygéné ?",
+   "options": [
+    "Veines jugulaires",
+    "Veines pulmonaires",
+    "Veine porte",
+    "Veines caves supérieure et inférieure",
+    "Veines coronaires"
+   ],
+   "answer": 1,
+   "explanation": "Les veines pulmonaires ramènent le sang oxygéné des poumons à l'atrium gauche ; ce sont les seules veines qui transportent du sang oxygéné.",
+   "entries": [
+    "vv-pulmonales"
+   ]
+  },
+  {
+   "id": "cv-37cfee07",
+   "group": "Aorte et ses branches",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on la partie de l'aorte qui s'incurve vers la gauche et en arrière après sa sortie du cœur ?",
+   "options": [
+    "Aorte ascendante",
+    "Aorte descendante",
+    "Bulbe aortique",
+    "Crosse (arc) de l'aorte",
+    "Bifurcation aortique"
+   ],
+   "answer": 3,
+   "explanation": "Après son trajet ascendant, l'aorte s'incurve en arrière au-dessus de la bronche principale gauche en T4 pour former la crosse ; trois grosses branches destinées à la tête, au cou et aux membres supérieurs en naissent.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-94dfc545",
+   "group": "Artères de la tête et du cou",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle artère utilise-t-on pour prendre le pouls au cou ?",
+   "options": [
+    "Artère subclavière",
+    "Artère carotide commune",
+    "Artère vertébrale",
+    "Veine jugulaire interne",
+    "Artère thyroïdienne supérieure"
+   ],
+   "answer": 1,
+   "explanation": "Le pouls carotidien se prend à hauteur du cartilage thyroïde, le long du bord antérieur du sterno-cléido-mastoïdien ; en urgence, c'est le pouls central le plus fiable.",
+   "entries": [
+    "a-carotis-communis"
+   ]
+  },
+  {
+   "id": "cv-f01b4115",
+   "group": "Artères de la tête et du cou",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle artère du cou irrigue les parties antérieure et moyenne du cerveau et l'œil ?",
+   "options": [
+    "Artère carotide externe",
+    "Artère subclavière",
+    "Artère vertébrale",
+    "Artère carotide interne",
+    "Artère faciale"
+   ],
+   "answer": 3,
+   "explanation": "La carotide interne pénètre dans le crâne sans donner de branche cervicale ; elle irrigue l'œil par l'artère ophtalmique et la majeure partie des hémisphères par les artères cérébrales antérieure et moyenne.",
+   "entries": [
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-8d543b43",
+   "group": "Artères de la tête et du cou",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on l'anneau artériel de la base du cerveau qui relie les systèmes carotidien et vertébro-basilaire ?",
+   "options": [
+    "Arcade palmaire",
+    "Polygone de Willis (cercle artériel du cerveau)",
+    "Arcade veineuse",
+    "Sinus caverneux",
+    "Crosse de l'aorte"
+   ],
+   "answer": 1,
+   "explanation": "Le polygone de Willis relie les circulations antérieure et postérieure et peut assurer une suppléance quand une artère s'occlut ; la plupart des anévrismes cérébraux se développent sur cet anneau.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-40ea677c",
+   "group": "Artères de la tête et du cou",
+   "level": "basic",
+   "clinical": false,
+   "stem": "L'artère basilaire est formée par la réunion de quelles artères ?",
+   "options": [
+    "Carotide interne et artère vertébrale",
+    "Les deux artères vertébrales",
+    "Les deux carotides internes",
+    "Les deux artères subclavières",
+    "Les deux artères cérébrales postérieures"
+   ],
+   "answer": 1,
+   "explanation": "Les artères vertébrales droite et gauche s'unissent à la jonction bulbo-pontique pour former l'artère basilaire, qui irrigue le tronc cérébral, le cervelet et le lobe occipital.",
+   "entries": [
+    "a-vertebralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-02933170",
+   "group": "Artères du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "En quelles deux branches l'artère brachiale se divise-t-elle au pli du coude ?",
+   "options": [
+    "Artères radiale et ulnaire",
+    "Artère profonde du bras et artère radiale",
+    "Artères axillaire et subclavière",
+    "Arcades palmaires superficielle et profonde",
+    "Artères interosseuses antérieure et postérieure"
+   ],
+   "answer": 0,
+   "explanation": "L'artère brachiale se divise dans la fosse cubitale, à hauteur du col du radius, en artères radiale et ulnaire.",
+   "entries": [
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-0111f3a8",
+   "group": "Artères du membre supérieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle artère utilise-t-on le plus souvent pour prendre le pouls au poignet ?",
+   "options": [
+    "Artère interosseuse antérieure",
+    "Artère ulnaire",
+    "Arcade palmaire superficielle",
+    "Artère radiale",
+    "Artère brachiale"
+   ],
+   "answer": 3,
+   "explanation": "Le pouls radial se palpe facilement du côté du pouce, sur l'extrémité inférieure du radius.",
+   "entries": [
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "cv-b50a69cf",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "En quelles artères l'aorte abdominale se divise-t-elle à son extrémité inférieure ?",
+   "options": [
+    "Artères fémorales",
+    "Artères iliaques communes",
+    "Artères mésentériques supérieure et inférieure",
+    "Artères iliaques internes",
+    "Artères rénales"
+   ],
+   "answer": 1,
+   "explanation": "L'aorte abdominale se divise en L4 en artères iliaques communes droite et gauche, qui se divisent à leur tour en iliaques internes et externes.",
+   "entries": [
+    "aorta",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-a0f7e29b",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelles artères irriguent les reins ?",
+   "options": [
+    "Artères lombales",
+    "Artères surrénales",
+    "Artères rénales",
+    "Artères testiculaires",
+    "Artère mésentérique supérieure"
+   ],
+   "answer": 2,
+   "explanation": "Les artères rénales naissent des deux côtés de l'aorte abdominale en L1–L2 ; environ un cinquième du débit cardiaque va aux reins.",
+   "entries": [
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "cv-b6985d99",
+   "group": "Artères du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle est l'artère principale de la cuisse ?",
+   "options": [
+    "Artère iliaque interne",
+    "Artère obturatrice",
+    "Artère tibiale antérieure",
+    "Artère fémorale",
+    "Artère poplitée"
+   ],
+   "answer": 3,
+   "explanation": "L'artère iliaque externe devient l'artère fémorale après son passage sous le ligament inguinal ; elle parcourt toute la cuisse et devient l'artère poplitée derrière le genou.",
+   "entries": [
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "cv-82eb6ab5",
+   "group": "Artères du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelles sont les branches terminales de l'artère poplitée ?",
+   "options": [
+    "Artères tibiales antérieure et postérieure",
+    "Artères dorsale du pied et fibulaire",
+    "Artères fémorale et profonde de la cuisse",
+    "Artères supérieures du genou",
+    "Artères plantaires médiale et latérale"
+   ],
+   "answer": 0,
+   "explanation": "L'artère poplitée se divise au bord inférieur du muscle poplité en artères tibiales antérieure et postérieure ; l'artère fibulaire naît de la tibiale postérieure.",
+   "entries": [
+    "a-poplitea"
+   ]
+  },
+  {
+   "id": "cv-2167b2de",
+   "group": "Artères du membre inférieur",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Où prend-on le pouls tibial postérieur ?",
+   "options": [
+    "Derrière le genou",
+    "En avant de la malléole latérale",
+    "En arrière de la malléole médiale",
+    "Au pli de l'aine",
+    "Sur le dos du pied"
+   ],
+   "answer": 2,
+   "explanation": "L'artère tibiale postérieure est superficielle entre la malléole médiale et le tendon calcanéen ; c'est là qu'on prend son pouls.",
+   "entries": [
+    "a-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "cv-d0b5e87d",
+   "group": "Veines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle est la plus grosse veine du corps ?",
+   "options": [
+    "Veine jugulaire interne",
+    "Veine cave inférieure",
+    "Veine porte hépatique",
+    "Veine cave supérieure",
+    "Veine fémorale"
+   ],
+   "answer": 1,
+   "explanation": "La veine cave inférieure ramène à l'atrium droit le sang de toutes les régions situées sous le diaphragme ; c'est la plus grosse veine du corps.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-ad43d739",
+   "group": "Veines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle grande veine ramène au cœur le sang de la tête, du cou et des membres supérieurs ?",
+   "options": [
+    "Sinus coronaire",
+    "Veine azygos",
+    "Veine porte hépatique",
+    "Veine cave supérieure",
+    "Veine cave inférieure"
+   ],
+   "answer": 3,
+   "explanation": "La veine cave supérieure naît de la réunion des deux veines brachio-céphaliques et ramène à l'atrium droit le sang des régions situées au-dessus du diaphragme.",
+   "entries": [
+    "v-cava-superior"
+   ]
+  },
+  {
+   "id": "cv-7aff291e",
+   "group": "Veines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle est la plus longue veine du corps ?",
+   "options": [
+    "Petite veine saphène",
+    "Veine cave inférieure",
+    "Veine céphalique",
+    "Veine fémorale",
+    "Grande veine saphène"
+   ],
+   "answer": 4,
+   "explanation": "La grande veine saphène est la veine superficielle qui monte à la face médiale du membre inférieur, du dos du pied jusqu'à l'aine ; c'est la plus longue veine du corps.",
+   "entries": [
+    "v-saphena-magna"
+   ]
+  },
+  {
+   "id": "cv-a4e595f7",
+   "group": "Veines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle veine transporte vers le foie le sang riche en nutriments venant du tube digestif ?",
+   "options": [
+    "Veine rénale",
+    "Veines hépatiques",
+    "Veine cave inférieure",
+    "Veine porte hépatique",
+    "Veine azygos"
+   ],
+   "answer": 3,
+   "explanation": "La veine porte conduit au foie le sang de l'estomac, de l'intestin, de la rate et du pancréas ; le sang filtré par le foie rejoint la VCI par les veines hépatiques.",
+   "entries": [
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-eec7bdee",
+   "group": "Veines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle structure empêche le reflux du sang dans les veines ?",
+   "options": [
+    "Valvules veineuses",
+    "Membrane élastique",
+    "Épaisse couche musculaire de la média",
+    "Sphincters précapillaires",
+    "Muscles papillaires"
+   ],
+   "answer": 0,
+   "explanation": "Les valvules, surtout dans les veines des membres inférieurs, imposent un écoulement unidirectionnel vers le cœur. Leur insuffisance entraîne des varices.",
+   "entries": [
+    "v-saphena-magna",
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-a92d99f7",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Pendant quelle phase du cycle cardiaque les artères coronaires se remplissent-elles le plus ?",
+   "options": [
+    "Éjection",
+    "Systole atriale",
+    "Systole",
+    "Diastole",
+    "Contraction isovolumique"
+   ],
+   "answer": 3,
+   "explanation": "En systole, le myocarde contracté comprime les vaisseaux coronaires ; le débit coronaire du ventricule gauche est surtout diastolique. C'est pourquoi la perfusion coronaire baisse en cas de tachycardie, quand la diastole raccourcit.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-6061f2af",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En quelles deux branches le tronc commun de la coronaire gauche se divise-t-il ?",
+   "options": [
+    "Rameau interventriculaire antérieur (IVA) et rameau circonflexe",
+    "Rameau marginal droit et rameau circonflexe",
+    "Rameaux interventriculaires antérieur et postérieur",
+    "Rameau circonflexe et rameau interventriculaire postérieur",
+    "Artère du nœud sinusal et artère du nœud atrio-ventriculaire"
+   ],
+   "answer": 0,
+   "explanation": "Le tronc commun gauche est court ; il se divise en IVA, qui descend dans le sillon interventriculaire antérieur, et en circonflexe, qui contourne le cœur dans le sillon atrio-ventriculaire gauche.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-4e8377fa",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où s'abouche le sinus coronaire ?",
+   "options": [
+    "Dans l'atrium droit",
+    "Dans le ventricule droit",
+    "Dans la veine cave supérieure",
+    "Dans l'atrium gauche",
+    "Dans la veine azygos"
+   ],
+   "answer": 0,
+   "explanation": "Le sinus coronaire se trouve dans le sillon atrio-ventriculaire à la face postérieure du cœur ; il recueille la plupart des veines cardiaques et s'abouche dans l'atrium droit entre l'orifice de la VCI et la valve tricuspide.",
+   "entries": [
+    "venae-cordis",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-428cedc8",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En quoi les valves sigmoïdes (aortique et pulmonaire) diffèrent-elles des valves atrio-ventriculaires ?",
+   "options": [
+    "Elles ont quatre valvules.",
+    "Elles n'ont ni cordages tendineux ni muscles papillaires.",
+    "Elles se ferment en systole.",
+    "Elles ne s'attachent pas au squelette fibreux.",
+    "Elles se trouvent dans le ventricule."
+   ],
+   "answer": 1,
+   "explanation": "Les valves sigmoïdes comportent trois valvules en nid de pigeon qui se ferment lorsque leurs poches se remplissent au début du reflux ; elles n'ont ni cordages ni muscles papillaires.",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-77a5a53e",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le premier bruit du cœur (B1) est produit par la fermeture de quoi ?",
+   "options": [
+    "Du canal artériel",
+    "De la seule valve aortique",
+    "Des valves mitrale et tricuspide (atrio-ventriculaires)",
+    "Du foramen ovale",
+    "Des valves aortique et pulmonaire"
+   ],
+   "answer": 2,
+   "explanation": "B1 est dû à la fermeture des valves atrio-ventriculaires au début de la systole ventriculaire, B2 à celle des valves sigmoïdes à la fin de la systole.",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-dacff9e8",
+   "group": "Cœur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "De quel sinus aortique naît la coronaire droite et dans quel sillon chemine-t-elle ?",
+   "options": [
+    "Sinus aortique droit – sillon interventriculaire antérieur",
+    "Sinus non coronaire – sillon interventriculaire postérieur",
+    "Sinus aortique gauche – sillon interventriculaire antérieur",
+    "Sinus aortique gauche – sillon atrio-ventriculaire gauche",
+    "Sinus aortique droit – sillon atrio-ventriculaire (coronaire) droit"
+   ],
+   "answer": 4,
+   "explanation": "La coronaire droite naît du sinus aortique droit, passe entre l'auricule droit et le tronc pulmonaire, gagne le sillon atrio-ventriculaire droit et contourne le cœur jusqu'à sa face postérieure.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-fcb9d64c",
+   "group": "Aorte et ses branches",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel niveau la crosse de l'aorte commence-t-elle et se termine-t-elle ?",
+   "options": [
+    "En C7",
+    "En T12",
+    "En L1",
+    "Au processus xiphoïde (T9)",
+    "À l'angle sternal (T4–T5)"
+   ],
+   "answer": 4,
+   "explanation": "La crosse de l'aorte commence et se termine dans le plan passant par l'angle sternal ; ce plan correspond aussi à la bifurcation trachéale et à l'abouchement de la veine azygos dans la VCS.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-d81fb0e2",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quels niveaux vertébraux naissent respectivement le tronc cœliaque, l'artère mésentérique supérieure et l'artère mésentérique inférieure ?",
+   "options": [
+    "T11, L1, L2",
+    "T10, L1, L4",
+    "T12, L1, L3",
+    "L1, L2, L3",
+    "T12, L2, L4"
+   ],
+   "answer": 2,
+   "explanation": "Le tronc cœliaque naît de la face antérieure de l'aorte en T12, l'AMS en L1 et l'AMI en L3 ; les artères rénales naissent en L1–L2 et la bifurcation se fait en L4.",
+   "entries": [
+    "truncus-coeliacus",
+    "a-mesenterica-superior",
+    "a-mesenterica-inferior"
+   ]
+  },
+  {
+   "id": "cv-1938d272",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "D'où naissent les artères gonadiques (testiculaires/ovariques) ?",
+   "options": [
+    "De l'artère iliaque interne",
+    "De l'aorte abdominale, sous les artères rénales (L2)",
+    "De l'artère rénale",
+    "De l'artère mésentérique inférieure",
+    "De l'artère iliaque externe"
+   ],
+   "answer": 1,
+   "explanation": "Les gonades se développant près des reins, leurs artères naissent haut sur l'aorte abdominale et s'allongent lors de leur descente. La veine gonadique gauche se jette dans la veine rénale gauche.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-aeedc854",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Par quel orifice l'artère vertébrale pénètre-t-elle dans le crâne ?",
+   "options": [
+    "Canal carotidien",
+    "Foramen magnum",
+    "Foramen déchiré",
+    "Foramen jugulaire",
+    "Foramen ovale"
+   ],
+   "answer": 1,
+   "explanation": "L'artère vertébrale monte dans les foramens transversaires de C6 à C1, contourne l'arc postérieur de l'atlas et entre dans le crâne par le foramen magnum.",
+   "entries": [
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "cv-ae5c2252",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel est le territoire principal de l'artère cérébrale moyenne ?",
+   "options": [
+    "Lobe occipital et cortex visuel",
+    "Face latérale de l'hémisphère (aires motrices et sensitives de la face et du membre supérieur, centres du langage)",
+    "Tronc cérébral et cervelet",
+    "Face médiale de l'hémisphère (aire du membre inférieur)",
+    "Thalamus et hippocampe"
+   ],
+   "answer": 1,
+   "explanation": "Dans l'occlusion de l'ACM, on observe un déficit moteur et sensitif marqué de la face et du membre supérieur controlatéraux, avec aphasie si l'hémisphère est dominant ; le membre inférieur est moins touché.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-81f7e82f",
+   "group": "Artères de la tête et du cou",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans l'occlusion de l'artère cérébrale antérieure, où la paralysie est-elle la plus marquée ?",
+   "options": [
+    "Aux deux yeux",
+    "Au membre inférieur homolatéral",
+    "Au membre inférieur controlatéral",
+    "À la face homolatérale",
+    "À la face et au membre supérieur controlatéraux"
+   ],
+   "answer": 2,
+   "explanation": "L'ACA irrigue la face médiale de l'hémisphère, dont l'aire motrice du membre inférieur ; son occlusion entraîne un déficit moteur et sensitif marqué du membre inférieur controlatéral.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-9199711f",
+   "group": "Artères du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Au bord inférieur de quel muscle l'artère axillaire devient-elle l'artère brachiale ?",
+   "options": [
+    "Bord supérieur du grand dorsal",
+    "Coraco-brachial",
+    "Petit pectoral",
+    "Deltoïde",
+    "Grand rond"
+   ],
+   "answer": 4,
+   "explanation": "L'artère axillaire s'étend du bord latéral de la 1re côte au bord inférieur du grand rond, où elle devient l'artère brachiale.",
+   "entries": [
+    "a-axillaris",
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-ac2759c4",
+   "group": "Artères du membre supérieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle artère forme principalement l'arcade palmaire profonde ?",
+   "options": [
+    "Artère ulnaire",
+    "Artère médiane",
+    "Artère interosseuse antérieure",
+    "Artère radiale",
+    "Artère brachiale"
+   ],
+   "answer": 3,
+   "explanation": "L'artère radiale pénètre dans la paume par le 1er espace interosseux pour former l'arcade profonde, complétée par la branche profonde de l'ulnaire. L'arcade superficielle est surtout formée par l'ulnaire.",
+   "entries": [
+    "arcus-palmares",
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "cv-069cff78",
+   "group": "Artères du membre inférieur",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est la plus grosse branche de l'artère fémorale à la cuisse ?",
+   "options": [
+    "Artère circonflexe iliaque superficielle",
+    "Artère épigastrique superficielle",
+    "Artère descendante du genou",
+    "Artère profonde de la cuisse",
+    "Artère pudendale externe"
+   ],
+   "answer": 3,
+   "explanation": "L'artère profonde de la cuisse naît environ 4 cm sous le ligament inguinal ; c'est l'artère principale des muscles de la cuisse, qui donne les circonflexes et les perforantes.",
+   "entries": [
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "cv-bbed1d1f",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où s'abouchent les veines hépatiques ?",
+   "options": [
+    "Dans la veine rénale droite",
+    "Dans la veine porte",
+    "Dans la veine cave supérieure",
+    "Dans la veine azygos",
+    "Directement dans la veine cave inférieure"
+   ],
+   "answer": 4,
+   "explanation": "Les trois grosses veines hépatiques s'abouchent directement dans la VCI à la face postérieure du foie. La veine porte, elle, apporte le sang au foie.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-2673b4e2",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelles structures drainent le liquide cérébro-spinal (LCS) dans le sinus sagittal supérieur ?",
+   "options": [
+    "Plexus choroïdes",
+    "Veines émissaires",
+    "Cellules épendymaires",
+    "Veines ponts",
+    "Granulations arachnoïdiennes (de Pacchioni)"
+   ],
+   "answer": 4,
+   "explanation": "Le LCS est sécrété par les plexus choroïdes et résorbé par les granulations arachnoïdiennes dans les sinus veineux de la dure-mère, surtout le sinus sagittal supérieur.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-05c8ce40",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où se jette le conduit thoracique ?",
+   "options": [
+    "Dans la veine cave inférieure",
+    "Dans la veine azygos",
+    "Dans l'angle veineux droit",
+    "Dans l'angle veineux gauche (confluent jugulaire interne–subclavière gauche)",
+    "Dans l'atrium gauche"
+   ],
+   "answer": 3,
+   "explanation": "Le conduit thoracique, qui collecte la majeure partie de la lymphe, se jette au confluent des veines jugulaire interne et subclavière gauches ; la lymphe de la moitié supérieure droite rejoint l'angle veineux droit par le conduit lymphatique droit.",
+   "entries": [
+    "v-subclavia",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-9c435315",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans la circulation fœtale, quel vaisseau apporte le sang oxygéné du placenta au fœtus ?",
+   "options": [
+    "Veine ombilicale",
+    "Veine cave inférieure",
+    "Canal artériel",
+    "Artères ombilicales",
+    "Artère iliaque interne"
+   ],
+   "answer": 0,
+   "explanation": "L'unique veine ombilicale apporte le sang oxygéné du placenta ; les deux artères ombilicales ramènent le sang désoxygéné au placenta. Une partie du sang court-circuite le foie par le canal veineux vers la VCI.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-35606634",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel nerf traverse le sinus caverneux lui-même (et non sa paroi) ?",
+   "options": [
+    "Nerf trochléaire (IV)",
+    "Nerf ophtalmique (V1)",
+    "Nerf oculomoteur (III)",
+    "Nerf abducens (VI)",
+    "Nerf maxillaire (V2)"
+   ],
+   "answer": 3,
+   "explanation": "La carotide interne et le nerf abducens traversent le sinus ; III, IV, V1 et V2 cheminent dans sa paroi latérale. C'est pourquoi l'abducens est généralement le premier atteint dans la thrombose du sinus caverneux et l'anévrisme carotidien.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-91f6535e",
+   "group": "Aorte et ses branches",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un patient hypertendu présente une douleur thoracique brutale, déchirante, irradiant dans le dos, avec une nette différence de pression artérielle entre les deux bras. Quel est le diagnostic le plus probable ?",
+   "options": [
+    "Infarctus du myocarde aigu",
+    "Dissection aortique",
+    "Embolie pulmonaire",
+    "Péricardite",
+    "Pneumothorax"
+   ],
+   "answer": 1,
+   "explanation": "Dans la dissection aortique, l'intima se déchire et le sang s'insinue entre les couches de la paroi ; l'atteinte de l'origine des branches explique l'asymétrie des pouls et de la pression entre les bras. L'atteinte de l'aorte ascendante (Stanford A) est une urgence chirurgicale.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-5e60843b",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un patient âgé en fibrillation atriale présente une douleur abdominale brutale, disproportionnée par rapport à l'examen. Quelle est la cause la plus probable ?",
+   "options": [
+    "Embolie de l'artère mésentérique supérieure",
+    "Rupture d'un anévrisme de l'aorte abdominale",
+    "Embolie de l'artère rénale",
+    "Thrombose de l'artère mésentérique inférieure",
+    "Sténose du tronc cœliaque"
+   ],
+   "answer": 0,
+   "explanation": "L'AMS naissant de l'aorte selon un angle aigu, les emboles d'origine cardiaque s'y logent souvent ; au début, l'ischémie mésentérique aiguë donne très peu de signes d'examen au regard de l'intensité de la douleur.",
+   "entries": [
+    "a-mesenterica-superior"
+   ]
+  },
+  {
+   "id": "cv-21fae810",
+   "group": "Veines",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un patient qui présente un gonflement et une douleur de jambe après un long vol a une thrombose veineuse profonde. Quelle est la complication la plus grave ?",
+   "options": [
+    "Cellulite",
+    "Syndrome des loges",
+    "Embolie pulmonaire",
+    "Lymphœdème",
+    "Varices"
+   ],
+   "answer": 2,
+   "explanation": "Un caillot des veines profondes de la jambe peut se détacher et gagner, par la VCI et le cœur droit, l'artère pulmonaire ; une embolie pulmonaire massive peut entraîner la mort subite.",
+   "entries": [
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-ac08c79d",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel des éléments suivants ne fait PAS partie de la tétralogie de Fallot ?",
+   "options": [
+    "Sténose pulmonaire (obstacle à l'éjection du ventricule droit)",
+    "Communication interatriale",
+    "Hypertrophie ventriculaire droite",
+    "Aorte à cheval sur le septum",
+    "Communication interventriculaire"
+   ],
+   "answer": 1,
+   "explanation": "La tétralogie de Fallot associe CIV, sténose pulmonaire, aorte à cheval et hypertrophie ventriculaire droite ; elle résulte d'un déplacement antérieur du septum conal et c'est la cardiopathie congénitale cyanogène la plus fréquente.",
+   "entries": [
+    "ventriculus-dexter",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-5dd9592d",
+   "group": "Cœur",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Comment appelle-t-on la valvule qui garde l'orifice du sinus coronaire ?",
+   "options": [
+    "Tendon de Todaro",
+    "Crête terminale",
+    "Valvule d'Eustachi",
+    "Réseau de Chiari",
+    "Valvule de Thebesius (valvule du sinus coronaire)"
+   ],
+   "answer": 4,
+   "explanation": "La valvule de Thebesius se trouve à l'abouchement du sinus coronaire dans l'atrium droit, la valvule d'Eustachi à l'orifice de la VCI. Le tendon de Todaro prolonge la valvule d'Eustachi et limite le triangle de Koch.",
+   "entries": [
+    "atrium-dextrum",
+    "venae-cordis"
+   ]
+  },
+  {
+   "id": "cv-9c344753",
+   "group": "Aorte et ses branches",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle anomalie vasculaire provoque la dysphagie lusoria (trouble de la déglutition) ?",
+   "options": [
+    "Coarctation de l'aorte",
+    "Veine cave supérieure gauche",
+    "Artère subclavière droite naissant en dernière branche de la crosse et passant derrière l'œsophage",
+    "Double crosse aortique",
+    "Persistance du canal artériel"
+   ],
+   "answer": 2,
+   "explanation": "L'artère subclavière droite aberrante (arteria lusoria) est la dernière branche de la crosse et passe à droite derrière l'œsophage, qu'elle peut comprimer ; c'est l'anomalie de la crosse la plus fréquente. Le nerf laryngé inférieur droit est alors non récurrent.",
+   "entries": [
+    "a-subclavia",
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-4fc98b11",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles artères sont la source la plus fréquente des hémorragies intracérébrales hypertensives ?",
+   "options": [
+    "Artère méningée moyenne",
+    "Artère basilaire",
+    "Branches corticales de l'artère cérébrale antérieure",
+    "Artères lenticulo-striées (perforantes de l'artère cérébrale moyenne)",
+    "Artère communicante antérieure"
+   ],
+   "answer": 3,
+   "explanation": "Les artères lenticulo-striées sont de fines artères terminales naissant à angle droit de l'ACM ; dans l'hypertension chronique se forment des micro-anévrismes de Charcot-Bouchard, à l'origine d'hémorragies des noyaux gris centraux (putamen).",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-79341972",
+   "group": "Artères de la tête et du cou",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle artère ne participe PAS à la tache vasculaire de Kiesselbach, source de la plupart des épistaxis ?",
+   "options": [
+    "Artère sphéno-palatine",
+    "Artère pharyngienne ascendante",
+    "Artère ethmoïdale antérieure",
+    "Artère grande palatine",
+    "Artère labiale supérieure"
+   ],
+   "answer": 1,
+   "explanation": "La tache vasculaire de Kiesselbach, à la partie antéro-inférieure du septum, est formée par l'anastomose de branches des artères sphéno-palatine, ethmoïdale antérieure, grande palatine et labiale supérieure (faciale).",
+   "entries": [
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-c5892b74",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Qu'est-ce que la « corona mortis », dangereuse en chirurgie herniaire ?",
+   "options": [
+    "Le tronc postérieur de l'artère iliaque interne",
+    "Une anastomose entre l'artère épigastrique inférieure (système iliaque externe) et l'artère obturatrice passant sur le pubis",
+    "Une communication entre les deux artères iliaques communes",
+    "La branche profonde de l'artère fémorale",
+    "Une anastomose entre les artères rectales supérieure et moyenne"
+   ],
+   "answer": 1,
+   "explanation": "Chez certains sujets, l'artère (ou la veine) obturatrice naît du système iliaque externe/épigastrique inférieur ou s'y anastomose largement et croise la branche supérieure du pubis. Sa blessure lors d'une cure de hernie fémorale ou d'une chirurgie pelvienne provoque une hémorragie grave.",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-edca0ec0",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le vestige adulte du canal veineux (d'Arantius) ?",
+   "options": [
+    "Fosse ovale",
+    "Ligament artériel",
+    "Ligament veineux",
+    "Ligament rond du foie",
+    "Ligament ombilical médial"
+   ],
+   "answer": 2,
+   "explanation": "Chez le fœtus, le canal veineux conduit le sang de la veine ombilicale vers la VCI en court-circuitant le foie ; après la naissance, il se ferme et devient le ligament veineux. La veine ombilicale devient le ligament rond du foie.",
+   "entries": [
+    "v-cava-inferior",
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-47659c1d",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le vestige adulte de la veine ombilicale ?",
+   "options": [
+    "Ligament veineux",
+    "Ligament rond du foie (dans le bord libre du ligament falciforme)",
+    "Ligament artériel",
+    "Ligament ombilical médial",
+    "Ligament ombilical médian"
+   ],
+   "answer": 1,
+   "explanation": "Après la naissance, la veine ombilicale devient le ligament rond du foie. Dans l'hypertension portale, les veines para-ombilicales qui l'accompagnent se dilatent et participent à la tête de méduse.",
+   "entries": [
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-96f935f6",
+   "group": "Artères de l'abdomen et du bassin",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le vestige adulte de la partie distale de l'artère ombilicale ?",
+   "options": [
+    "Ligament ombilical médial",
+    "Ligament rond du foie",
+    "Ligament artériel",
+    "Ligament veineux",
+    "Ligament ombilical médian"
+   ],
+   "answer": 0,
+   "explanation": "La partie proximale des artères ombilicales reste perméable sous forme d'artère vésicale supérieure, la partie distale devient le ligament ombilical médial. Le ligament ombilical médian est le vestige de l'ouraque.",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-d6da7df0",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quels vaisseaux sont habituellement à l'origine d'un hématome sous-dural ?",
+   "options": [
+    "Artères lenticulo-striées",
+    "Artère communicante antérieure",
+    "Sinus caverneux",
+    "Artère méningée moyenne",
+    "Veines ponts allant du cortex aux sinus de la dure-mère"
+   ],
+   "answer": 4,
+   "explanation": "L'hématome sous-dural se forme entre dure-mère et arachnoïde par rupture des veines ponts, étirées par l'atrophie cérébrale chez le sujet âgé et l'alcoolique ; il se constitue lentement et a une forme en croissant. L'hématome extradural vient le plus souvent de l'artère méningée moyenne.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-2151bfd7",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel réseau veineux dépourvu de valvules intervient dans la dissémination du cancer de la prostate au rachis ?",
+   "options": [
+    "Plexus veineux vertébral (de Batson)",
+    "Plexus pampiniforme",
+    "Plexus veineux rectal",
+    "Système porte",
+    "Plexus ptérygoïdien"
+   ],
+   "answer": 0,
+   "explanation": "Le plexus de Batson est un réseau veineux sans valvules autour du rachis, relié aux veines pelviennes ; lors d'une hausse de pression abdominale, le sang peut refluer vers le rachis, ce qui explique les métastases vertébrales des cancers de la prostate ou du sein.",
+   "entries": [
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "cv-88c74a4e",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans le syndrome de May-Thurner, quelle compression prédispose à la thrombose veineuse profonde de la jambe gauche ?",
+   "options": [
+    "Compression de la veine fémorale gauche sous le ligament inguinal",
+    "Compression de la veine cave inférieure par le foie",
+    "Compression de la veine iliaque commune gauche contre le rachis par l'artère iliaque commune droite",
+    "Compression de la veine iliaque externe droite par le côlon sigmoïde",
+    "Compression de la veine rénale gauche entre l'aorte et l'AMS"
+   ],
+   "answer": 2,
+   "explanation": "L'artère iliaque commune droite croise en avant la veine iliaque commune gauche et l'écrase contre L5 ; avec le temps, un éperon fibreux se forme dans la paroi veineuse et une TVP de la jambe gauche survient.",
+   "entries": [
+    "v-cava-inferior",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-ccd14bde",
+   "group": "Veines",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient qui a pressé un furoncle de l'aile du nez présente fièvre, œdème palpébral, exophtalmie et diplopie dans le regard latéral. Quel nerf est atteint en premier et pourquoi ?",
+   "options": [
+    "Nerf facial – car il chemine avec la veine faciale",
+    "Nerf optique – car il est dans la paroi du sinus",
+    "Nerf oculomoteur – car il traverse le sinus",
+    "Nerf trochléaire – car il est dans le plancher du sinus",
+    "Nerf abducens – car il traverse librement le sinus caverneux"
+   ],
+   "answer": 4,
+   "explanation": "L'infection du triangle dangereux de la face gagne le sinus caverneux par la veine angulaire et la veine ophtalmique supérieure. Le nerf abducens, libre dans le sinus à côté de la carotide interne, est généralement le premier touché ; le regard latéral est limité.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  }
+ ]
+}

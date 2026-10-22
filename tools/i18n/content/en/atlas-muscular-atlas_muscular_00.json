@@ -1,0 +1,309 @@
+{
+ "m-occipitofrontalis": {
+  "tr": "Occipitofrontalis",
+  "summary": "A muscle of facial expression that moves the scalp. It has a frontal belly in front and an occipital belly behind, joined by a flat tendon (epicranial aponeurosis, galea aponeurotica).",
+  "facts": [
+   "Frontal belly: epicranial aponeurosis; occipital belly: highest nuchal line and mastoid process",
+   "Frontal belly: skin of the eyebrows and forehead; occipital belly: epicranial aponeurosis",
+   "Facial nerve (VII) – temporal branch (frontal belly) and posterior auricular nerve (occipital belly)",
+   "Supraorbital, supratrochlear, superficial temporal and occipital arteries",
+   "Raises the eyebrows and wrinkles the forehead (surprise); pulls the scalp forwards and backwards"
+  ],
+  "sections": [],
+  "clinical": [
+   "In peripheral facial palsy (Bell's palsy) the forehead wrinkles disappear on the same side; in a central (upper motor neuron) lesion the forehead is spared."
+  ],
+  "tus": [
+   "It is continuous with the galea aponeurotica; when the galea is torn in scalp wounds, the wound gapes.",
+   "The frontal belly is supplied by the temporal branch of the facial nerve, the occipital belly by the posterior auricular nerve."
+  ],
+  "aliases": [
+   "frontalis",
+   "occipitalis",
+   "epicranius"
+  ]
+ },
+ "m-orbicularis-oculi": {
+  "tr": "Orbicularis oculi",
+  "summary": "A ring-shaped muscle of facial expression around the eyelids and orbit that closes the eye. It has orbital, palpebral and lacrimal parts.",
+  "facts": [
+   "Frontal bone (nasal part), maxilla (frontal process), medial palpebral ligament, lacrimal bone (posterior lacrimal crest)",
+   "Skin around the eye, lateral palpebral raphe",
+   "Facial nerve (VII) – temporal and zygomatic branches",
+   "Branches of the facial, superficial temporal and ophthalmic arteries",
+   "Palpebral part closes the eye gently (blinking), orbital part closes it tightly; lacrimal part helps tear flow"
+  ],
+  "sections": [],
+  "clinical": [
+   "In facial nerve palsy the eye cannot close; it must be protected against corneal drying and ulcers.",
+   "It is the efferent limb of the corneal reflex (afferent: ophthalmic nerve)."
+  ],
+  "tus": [
+   "The palpebral part blinks, the orbital part screws the eye shut; the lacrimal part aids tear drainage.",
+   "When paralysed, the lower lid turns out (ectropion) and tears run down the cheek (epiphora)."
+  ],
+  "aliases": [
+   "orbicularis"
+  ]
+ },
+ "m-orbicularis-oris": {
+  "tr": "Orbicularis oris",
+  "summary": "A ring-shaped muscle of facial expression encircling the lips and forming most of their bulk. Many surrounding facial muscles blend their fibres into it.",
+  "facts": [
+   "Maxilla and mandible at the level of the incisors, the modiolus at the corner of the mouth",
+   "Skin and mucosa of the lips",
+   "Facial nerve (VII) – buccal branches and marginal mandibular branch",
+   "Superior and inferior labial arteries (facial artery)",
+   "Closes, purses and protrudes the lips (whistling, kissing); takes part in speech"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It closes and purses the lips; it is supplied by the buccal and marginal mandibular branches of the facial nerve."
+  ],
+  "aliases": [
+   "orbicularis"
+  ]
+ },
+ "m-buccinator": {
+  "tr": "Buccinator",
+  "summary": "A thin, quadrilateral muscle of facial expression forming the deep layer of the cheek. During chewing it keeps food between the teeth.",
+  "facts": [
+   "Alveolar processes of the maxilla and mandible opposite the molars, pterygomandibular raphe",
+   "Corner of the mouth (modiolus), orbicularis oris",
+   "Facial nerve (VII) – buccal branches",
+   "Buccal artery (maxillary artery), facial artery",
+   "Presses the cheek against the teeth; expels air when blowing and helps sucking (trumpeter's muscle)"
+  ],
+  "sections": [
+   [
+    "Relations",
+    "The parotid duct (Stensen's duct) pierces this muscle and opens into the mouth opposite the upper second molar."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "The parotid duct pierces buccinator opposite the upper second molar and opens into the oral vestibule.",
+   "It arises from the pterygomandibular raphe, which it shares with the superior pharyngeal constrictor."
+  ],
+  "aliases": [
+   "cheek muscle"
+  ]
+ },
+ "m-zygomaticus-major": {
+  "tr": "Zygomaticus major",
+  "summary": "The main muscle of facial expression for smiling, running from the cheekbone to the corner of the mouth.",
+  "facts": [
+   "Outer surface of the zygomatic bone",
+   "Corner of the mouth (modiolus)",
+   "Facial nerve (VII) – zygomatic and buccal branches",
+   "Facial artery (superior labial artery)",
+   "Draws the corner of the mouth upwards and outwards (smiling)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "In a genuine (Duchenne) smile, orbicularis oculi contracts together with zygomaticus major."
+  ],
+  "aliases": [
+   "zygomaticus"
+  ]
+ },
+ "m-levator-labii-superioris": {
+  "tr": "Levator labii superioris",
+  "summary": "A muscle of facial expression running from below the orbit to the upper lip. By raising the upper lip it deepens the nasolabial fold.",
+  "facts": [
+   "Infraorbital margin (maxilla and zygomatic bone)",
+   "Skin and muscle of the upper lip",
+   "Facial nerve (VII) – zygomatic and buccal branches",
+   "Facial and infraorbital arteries",
+   "Raises and everts the upper lip (sadness, contempt)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It raises the upper lip and helps form the nasolabial fold."
+  ],
+  "aliases": []
+ },
+ "m-depressor-anguli-oris": {
+  "tr": "Depressor anguli oris",
+  "summary": "A triangular muscle of facial expression running from the side of the lower jaw to the corner of the mouth.",
+  "facts": [
+   "Oblique line of the mandible",
+   "Corner of the mouth (modiolus)",
+   "Facial nerve (VII) – marginal mandibular and buccal branches",
+   "Inferior labial artery (facial artery)",
+   "Draws the corner of the mouth downwards and outwards (sadness)"
+  ],
+  "sections": [],
+  "clinical": [
+   "If the marginal mandibular branch is injured in submandibular surgery, the corner of the mouth droops on that side."
+  ],
+  "tus": [
+   "In marginal mandibular branch palsy the corner of the mouth cannot be pulled down; this branch must be protected in submandibular gland surgery."
+  ],
+  "aliases": [
+   "mentalis",
+   "risorius"
+  ]
+ },
+ "m-nasalis": {
+  "tr": "Nasalis",
+  "summary": "A small muscle of facial expression that moves the nostrils, with a transverse part and an alar part.",
+  "facts": [
+   "Maxilla (above the canine and incisor teeth)",
+   "Aponeurosis over the bridge of the nose and the alae of the nose",
+   "Facial nerve (VII) – buccal branches",
+   "Superior labial and angular arteries",
+   "Narrows the nostrils (transverse part) and widens them (alar part)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It has an alar part that flares the nostrils and a transverse part that narrows them; nasal flaring is seen in respiratory distress."
+  ],
+  "aliases": [
+   "procerus",
+   "corrugator"
+  ]
+ },
+ "m-platysma": {
+  "tr": "Platysma",
+  "summary": "A broad, thin muscle of facial expression lying just under the skin on the front and side of the neck.",
+  "facts": [
+   "Pectoral and deltoid fascia over the upper chest",
+   "Lower border of the mandible, skin of the cheek and corner of the mouth",
+   "Facial nerve (VII) – cervical branch",
+   "Submental and suprascapular arteries",
+   "Tenses the skin of the neck, pulls the lower lip and corner of the mouth down; expression of fear and strain"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The platysma lies within the superficial cervical fascia; in neck incisions it is sutured together with the skin."
+  ],
+  "aliases": []
+ },
+ "m-masseter": {
+  "tr": "Masseter",
+  "summary": "A thick quadrilateral muscle on the ramus of the mandible that can be felt in the cheek when the teeth are clenched. Relative to its weight it is one of the strongest muscles in the body.",
+  "facts": [
+   "Superficial part: anterior 2/3 of the zygomatic arch; deep part: posterior 1/3 and inner surface of the zygomatic arch",
+   "Outer surface of the ramus of the mandible, angle of the mandible and coronoid process",
+   "Masseteric nerve (mandibular nerve – V3)",
+   "Masseteric artery (maxillary artery), facial artery, transverse facial artery",
+   "Elevates the mandible (closes the mouth, clenches the teeth); superficial fibres assist protrusion"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bruxism (teeth grinding) can cause hypertrophy of the muscle.",
+   "In tetanus, spasm of the muscles of mastication prevents opening of the mouth (trismus)."
+  ],
+  "tus": [
+   "Masseter hypertrophy is seen in bruxism; the parotid duct curves around the anterior border of masseter.",
+   "Masseter is supplied by the masseteric nerve (V3), which passes through the mandibular notch."
+  ],
+  "aliases": [
+   "masseter",
+   "jaw muscle"
+  ]
+ },
+ "m-temporalis": {
+  "tr": "Temporalis",
+  "summary": "A fan-shaped muscle of mastication filling the temporal fossa.",
+  "facts": [
+   "Floor of the temporal fossa and temporal fascia",
+   "Coronoid process and anterior border of the ramus of the mandible",
+   "Deep temporal nerves (mandibular nerve – V3)",
+   "Deep temporal arteries (maxillary artery), middle temporal artery",
+   "Elevates the mandible (anterior fibres); posterior fibres retract the mandible"
+  ],
+  "sections": [],
+  "clinical": [
+   "Tenderness of the muscle may be found in temporomandibular joint disorders and tension-type headache."
+  ],
+  "tus": [
+   "Temporalis attaches to the coronoid process; its contraction can be felt and is used in testing V3 motor function."
+  ],
+  "aliases": [
+   "temporal muscle"
+  ]
+ },
+ "mm-pterygoidei": {
+  "tr": "Pterygoid muscles",
+  "summary": "Two muscles of mastication on the inner side of the mandible, in the infratemporal fossa. The lateral pterygoid is the only muscle of mastication that opens the mouth.",
+  "facts": [
+   "Lateral: upper head from the infratemporal surface of the greater wing, lower head from the outer surface of the lateral pterygoid plate; medial: inner surface of the lateral pterygoid plate, palatine bone and maxillary tuberosity",
+   "Lateral: pterygoid fovea on the neck of the mandible, articular disc and capsule; medial: inner surface of the ramus and angle of the mandible",
+   "Mandibular nerve (V3) – nerves to lateral and medial pterygoid",
+   "Pterygoid branches of the maxillary artery",
+   "Lateral: protrudes the mandible and opens the mouth, moves it sideways in grinding; medial: elevates, protrudes and moves the mandible sideways"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The medial pterygoid and masseter wrap the angle of the mandible like a sling (pterygomasseteric sling).",
+   "The maxillary artery or buccal nerve may pass between the two heads of the lateral pterygoid."
+  ],
+  "aliases": [
+   "pterygoid"
+  ]
+ },
+ "mm-bulbi": {
+  "tr": "Extra-ocular muscles",
+  "summary": "The group made up of four straight (rectus) and two oblique muscles that move the eyeball, together with levator palpebrae superioris, which raises the upper eyelid.",
+  "facts": [
+   "Four recti and superior oblique: common tendinous ring and its surroundings; inferior oblique: anteromedial floor of the orbit (maxilla)",
+   "Sclera; the superior oblique turns through the trochlea to the posterior superolateral quadrant of the eyeball",
+   "Oculomotor nerve (III): superior, inferior and medial rectus, inferior oblique, levator palpebrae; trochlear nerve (IV): superior oblique; abducens nerve (VI): lateral rectus",
+   "Muscular branches of the ophthalmic artery",
+   "Medial rectus: adduction; lateral: abduction; superior: elevation (and intorsion); inferior: depression (and extorsion); superior oblique: depression, abduction, intorsion; inferior oblique: elevation, abduction, extorsion"
+  ],
+  "sections": [
+   [
+    "Memory aid",
+    "LR6SO4, the rest 3: lateral rectus is supplied by cranial nerve VI, superior oblique by IV, all the others by III."
+   ]
+  ],
+  "clinical": [
+   "In abducens palsy the eye turns in (esotropia) and there is double vision on looking outwards.",
+   "In oculomotor palsy the eye looks down and out, with ptosis and mydriasis.",
+   "In trochlear palsy there is double vision on looking down (going downstairs); the patient tilts the head to the healthy side."
+  ],
+  "tus": [
+   "The recti arise from the common tendinous ring (annulus of Zinn); the inferior oblique is the only one arising from the floor of the orbit.",
+   "Clinical testing: superior/inferior recti are tested in abduction, the obliques in adduction (H test)."
+  ],
+  "aliases": [
+   "eye muscles",
+   "rectus",
+   "oblique"
+  ]
+ },
+ "mm-linguae": {
+  "tr": "Muscles of the tongue",
+  "summary": "The group of intrinsic muscles that change the shape of the tongue and extrinsic muscles that move it. The extrinsic muscles are genioglossus, hyoglossus, styloglossus and palatoglossus.",
+  "facts": [
+   "Genioglossus: superior mental spine; hyoglossus: hyoid bone (body and greater horn); styloglossus: styloid process",
+   "Underside, lateral borders and root of the tongue",
+   "Hypoglossal nerve (XII) – all tongue muscles; exception palatoglossus (vagus nerve – pharyngeal plexus)",
+   "Lingual artery",
+   "Genioglossus protrudes the tongue; hyoglossus depresses it; styloglossus draws it up and back; intrinsic muscles change its shape"
+  ],
+  "sections": [],
+  "clinical": [
+   "In a hypoglossal nerve lesion the protruded tongue deviates towards the paralysed side.",
+   "In loss of consciousness, if genioglossus relaxes the tongue can fall back and block the airway."
+  ],
+  "tus": [
+   "The tongue muscles develop from occipital myotomes and are supplied by the hypoglossal nerve (except palatoglossus).",
+   "Genioglossus paralysis (e.g. under anaesthesia) lets the tongue fall back and obstruct the airway."
+  ],
+  "aliases": [
+   "genioglossus",
+   "hyoglossus",
+   "tongue"
+  ]
+ }
+}

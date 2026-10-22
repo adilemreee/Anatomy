@@ -81,7 +81,7 @@ struct FactTable: View {
         VStack(alignment: .leading, spacing: 0) {
             ForEach(Array(facts.enumerated()), id: \.offset) { index, fact in
                 VStack(alignment: .leading, spacing: 3) {
-                    Text(fact.label.uppercased(with: Locale(identifier: "tr_TR")))
+                    Text(fact.title.uppercased(with: .current))
                         .font(.caption2.weight(.bold))
                         .tracking(0.6)
                         .foregroundStyle(tint)

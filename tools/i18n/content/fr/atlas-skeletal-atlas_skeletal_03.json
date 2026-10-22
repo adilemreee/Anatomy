@@ -1,0 +1,237 @@
+{
+ "os-lunatum": {
+  "tr": "Lunatum",
+  "summary": "Os en croissant de la rangée proximale du carpe, entre le scaphoïde et le triquétrum. Il s'articule avec le radius.",
+  "facts": [
+   "Rangée proximale, entre scaphoïde et triquétrum",
+   "Radius, disque articulaire, scaphoïde, triquétrum, capitatum, hamatum"
+  ],
+  "sections": [],
+  "clinical": [
+   "C'est l'os du carpe le plus souvent luxé ; sa luxation antérieure peut comprimer le nerf médian dans le canal carpien.",
+   "Maladie de Kienböck : nécrose avasculaire du lunatum."
+  ],
+  "tus": [
+   "La maladie de Kienböck est la nécrose avasculaire du lunatum ; la variance ulnaire négative est un facteur de risque.",
+   "Les luxations périlunaires et du lunatum résultent d'une hyperextension du poignet."
+  ],
+  "aliases": [
+   "semi-lunaire"
+  ]
+ },
+ "os-triquetrum": {
+  "tr": "Triquétrum",
+  "summary": "Os pyramidal de la rangée proximale du carpe, médial au lunatum. Il s'articule en avant avec le pisiforme.",
+  "facts": [
+   "Rangée proximale, entre lunatum et pisiforme",
+   "Lunatum, pisiforme, hamatum, disque articulaire"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "La fracture-avulsion dorsale du triquétrum est la fracture carpienne la plus fréquente après celle du scaphoïde.",
+   "Le complexe ulno-carpien (TFCC) est situé entre le triquétrum et l'ulna."
+  ],
+  "aliases": [
+   "pyramidal"
+  ]
+ },
+ "os-pisiforme": {
+  "tr": "Pisiforme",
+  "summary": "Petit os en forme de pois à l'extrémité médiale de la rangée proximale, posé sur la face antérieure du triquétrum. C'est un os sésamoïde développé dans le tendon du fléchisseur ulnaire du carpe.",
+  "facts": [
+   "Rangée proximale, le plus médial ; palpable du côté hypothénarien de la paume",
+   "Fléchisseur ulnaire du carpe, abducteur du petit doigt, ligaments piso-hamatum et piso-métacarpien, rétinaculum des fléchisseurs"
+  ],
+  "sections": [
+   [
+    "Canal de Guyon",
+    "Le nerf et l'artère ulnaires passent dans le canal de Guyon, entre le pisiforme et l'hamulus de l'hamatum."
+   ]
+  ],
+  "clinical": [
+   "La compression du nerf ulnaire dans le canal de Guyon (paralysie du cycliste) affaiblit les petits muscles de la main."
+  ],
+  "tus": [
+   "Il forme la paroi médiale du canal de Guyon ; le nerf et l'artère ulnaires passent juste en dehors du pisiforme."
+  ],
+  "aliases": []
+ },
+ "os-trapezium": {
+  "tr": "Trapèze",
+  "summary": "Os le plus latéral de la rangée distale du carpe. Avec le premier métacarpien, il forme l'articulation en selle du pouce.",
+  "facts": [
+   "Rangée distale, le plus latéral",
+   "Scaphoïde, trapézoïde, 1er et 2e métacarpiens",
+   "Tubercule du trapèze, sillon du tendon du fléchisseur radial du carpe"
+  ],
+  "sections": [
+   [
+    "Articulation du pouce",
+    "L'articulation carpo-métacarpienne du pouce est une articulation en selle ; elle permet l'opposition du pouce."
+   ]
+  ],
+  "clinical": [
+   "L'arthrose de la base du pouce (articulation trapézo-métacarpienne) est fréquente, surtout chez la femme d'âge moyen."
+  ],
+  "tus": [
+   "Le tendon du FRC chemine dans le sillon antérieur du trapèze ; la rhizarthrose (arthrose de la 1re CMC) est fréquente chez la femme âgée."
+  ],
+  "aliases": []
+ },
+ "os-trapezoideum": {
+  "tr": "Trapézoïde",
+  "summary": "L'un des plus petits os de la rangée distale, entre le trapèze et le capitatum. Il s'articule avec le deuxième métacarpien.",
+  "facts": [
+   "Rangée distale, entre trapèze et capitatum",
+   "Scaphoïde, trapèze, capitatum, 2e métacarpien"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "C'est l'os du carpe le moins souvent fracturé ; il s'articule avec la base du 2e métacarpien."
+  ],
+  "aliases": []
+ },
+ "os-capitatum": {
+  "tr": "Capitatum",
+  "summary": "Le plus grand os du carpe, au centre de la rangée distale ; sa tête arrondie se loge dans la cavité formée par le scaphoïde et le lunatum.",
+  "facts": [
+   "Rangée distale, au centre",
+   "Scaphoïde, lunatum, trapézoïde, hamatum, 2e–4e métacarpiens",
+   "Premier os du carpe à s'ossifier (1er–3e mois)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le plus grand os du carpe et le premier à s'ossifier ; il s'articule avec le 3e métacarpien."
+  ],
+  "aliases": [
+   "grand os"
+  ]
+ },
+ "os-hamatum": {
+  "tr": "Hamatum",
+  "summary": "Os le plus médial de la rangée distale, portant à sa face antérieure un crochet (hamulus de l'hamatum).",
+  "facts": [
+   "Rangée distale, le plus médial",
+   "Lunatum, triquétrum, capitatum, 4e et 5e métacarpiens",
+   "Hamulus de l'hamatum – insertion du rétinaculum des fléchisseurs et du ligament piso-hamatum ; paroi latérale du canal de Guyon"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les fractures de l'hamulus surviennent chez les golfeurs et les joueurs de baseball ; la branche profonde du nerf ulnaire peut être atteinte."
+  ],
+  "tus": [
+   "La fracture de l'hamulus de l'hamatum s'observe au golf et au baseball ; la branche profonde du nerf ulnaire contourne l'hamulus."
+  ],
+  "aliases": [
+   "os crochu"
+  ]
+ },
+ "ossa-metacarpi": {
+  "tr": "Métacarpiens",
+  "summary": "Les cinq os longs qui forment le squelette de la paume. Ils s'articulent en haut avec les os du carpe et en bas avec les phalanges proximales.",
+  "facts": [
+   "5 (I–V du pouce à l'auriculaire)",
+   "Base, corps, tête (visibles comme les « jointures » quand on serre le poing)",
+   "Articulations carpo-métacarpiennes, intermétacarpiennes et métacarpo-phalangiennes",
+   "Le 1er métacarpien est le plus court, le plus épais et le plus mobile"
+  ],
+  "sections": [],
+  "clinical": [
+   "La fracture du col du 5e métacarpien lors d'un coup de poing est appelée fracture du boxeur.",
+   "La fracture articulaire de la base du 1er métacarpien est appelée fracture de Bennett."
+  ],
+  "tus": [
+   "La fracture de Bennett est une fracture-luxation articulaire de la base du 1er métacarpien ; le long abducteur du pouce attire le fragment en proximal."
+  ],
+  "aliases": [
+   "métacarpe"
+  ]
+ },
+ "phalanges-manus": {
+  "tr": "Phalanges de la main",
+  "summary": "Les 14 os longs courts des doigts. Le pouce a deux phalanges, les autres doigts trois chacun.",
+  "facts": [
+   "14 (pouce 2, les autres 3 chacun)",
+   "Phalanges proximale, moyenne et distale",
+   "Articulations métacarpo-phalangiennes, interphalangiennes proximales (IPP) et distales (IPD)",
+   "Son extrémité porte la tubérosité de la phalange distale, qui soutient le lit unguéal"
+  ],
+  "sections": [],
+  "clinical": [
+   "La rupture du tendon extenseur à la base de la phalange distale fait tomber l'extrémité du doigt (doigt en maillet).",
+   "Dans l'arthrose, on observe des nodosités d'Heberden aux IPD et de Bouchard aux IPP."
+  ],
+  "tus": [
+   "Le doigt en maillet résulte de la rupture du tendon extenseur inséré sur la phalange distale."
+  ],
+  "aliases": [
+   "phalange"
+  ]
+ },
+ "os-coxae": {
+  "tr": "Os coxal",
+  "summary": "Grand os pair irrégulier qui forme les parois latérale et antérieure du bassin. Il résulte de la soudure de trois os (ilium, ischium, pubis) au niveau de l'acétabulum.",
+  "facts": [
+   "Ilium, ischium et pubis ; ils fusionnent au cartilage en Y (triradié) de l'acétabulum vers 15–17 ans",
+   "Crête iliaque, épines iliaques antéro-supérieure et antéro-inférieure (EIAS, EIAI), épine iliaque postéro-supérieure, acétabulum, foramen obturé, tubérosité ischiatique, épine ischiatique, grande et petite incisures ischiatiques, branche du pubis, tubercule pubien, surface symphysaire",
+   "Fémur (articulation coxo-fémorale), sacrum (articulation sacro-iliaque), os coxal opposé (symphyse pubienne)",
+   "Muscles fessiers, iliaque, muscles de l'abdomen, ischio-jambiers (tubérosité ischiatique), adducteurs, sartorius (EIAS), droit fémoral (EIAI)"
+  ],
+  "sections": [
+   [
+    "Différences sexuelles du bassin",
+    "Le bassin féminin est plus large et moins profond, avec un détroit supérieur ovale et un angle sous-pubien ouvert (environ 80–90°). Le bassin masculin est plus étroit et profond, avec un détroit en forme de cœur et un angle sous-pubien fermé (environ 50–60°)."
+   ],
+   [
+    "Foramens",
+    "Par le grand foramen ischiatique passent le piriforme, le nerf sciatique, des vaisseaux et le nerf pudendal ; par le petit foramen ischiatique, le tendon de l'obturateur interne et le nerf pudendal ; par le foramen obturé (canal obturateur), le nerf et les vaisseaux obturateurs."
+   ]
+  ],
+  "clinical": [
+   "La crête iliaque sert aux ponctions de moelle osseuse et aux prélèvements de greffons osseux.",
+   "Les branches pubiennes se fracturent souvent chez le sujet âgé ; les fractures du bassin à haute énergie peuvent saigner abondamment.",
+   "La compression du nerf cutané latéral de la cuisse près de l'EIAS provoque brûlures et engourdissement de la face latérale de la cuisse (méralgie paresthésique)."
+  ],
+  "tus": [
+   "Le cartilage en Y de l'acétabulum fusionne vers 15–17 ans.",
+   "Sartorius et TFL s'insèrent sur l'EIAS, le chef direct du droit fémoral sur l'EIAI et les ischio-jambiers sur la tubérosité ischiatique (fractures-arrachements chez le sportif)."
+  ],
+  "aliases": [
+   "ilium",
+   "ischium",
+   "pubis",
+   "os iliaque"
+  ]
+ },
+ "femur": {
+  "tr": "Fémur",
+  "summary": "L'os le plus long, le plus lourd et le plus solide du corps. En haut il forme avec l'os coxal l'articulation de la hanche, en bas avec le tibia et la patella celle du genou.",
+  "facts": [
+   "Os long (environ 1/4 de la taille)",
+   "Tête (fovéa de la tête), col, grand et petit trochanters, ligne et crête intertrochantériques",
+   "Ligne âpre (lèvres médiale et latérale), tubérosité glutéale, ligne pectinée",
+   "Condyles médial et latéral, épicondyles, tubercule de l'adducteur, fosse intercondylaire, surface patellaire, surface poplitée",
+   "Environ 125° chez l'adulte (angle d'inclinaison) ; antéversion d'environ 10–15°",
+   "Muscles fessiers, ilio-psoas (petit trochanter), adducteurs (ligne âpre), vastes, chefs du gastrocnémien"
+  ],
+  "sections": [
+   [
+    "Vascularisation",
+    "La plupart des vaisseaux de la tête fémorale sont des branches rétinaculaires de l'artère circonflexe médiale de la cuisse ; l'artère du ligament de la tête contribue peu chez l'adulte."
+   ]
+  ],
+  "clinical": [
+   "Les fractures du col fémoral sont fréquentes chez le sujet âgé (surtout la femme ostéoporotique) ; le membre est raccourci et en rotation externe. Dans les fractures intracapsulaires, les vaisseaux rétinaculaires se rompent et la tête peut se nécroser.",
+   "Les fractures diaphysaires peuvent entraîner une perte sanguine importante (1–1,5 L) et une embolie graisseuse.",
+   "Chez l'enfant, l'épiphysiolyse fémorale supérieure et la maladie de Legg-Perthes-Calvé causent une boiterie."
+  ],
+  "tus": [
+   "L'angle cervico-diaphysaire est d'environ 125° chez l'adulte ; diminué : coxa vara, augmenté : coxa valga.",
+   "Les fractures diaphysaires peuvent entraîner une perte sanguine importante (1–1,5 L) et une embolie graisseuse."
+  ],
+  "aliases": []
+ }
+}

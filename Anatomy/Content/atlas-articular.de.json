@@ -1,0 +1,2704 @@
+{
+ "system": "articular",
+ "entries": [
+  {
+   "id": "eklem-tipleri",
+   "tr": "Einteilung der Gelenke",
+   "la": "Classificatio articulationum",
+   "en": "Classification of joints",
+   "group": "Allgemeines",
+   "region": "general",
+   "summary": "Nach dem verbindenden Gewebe unterscheidet man faserige, knorpelige und Synovialgelenke. Synovialgelenke sind am beweglichsten und werden nach der Form ihrer Gelenkflächen unterteilt.",
+   "facts": [
+    [
+     "Fibröz eklemler (articulationes fibrosae)",
+     "Suturen (Schädelnähte), Syndesmosen (z. B. Syndesmosis tibiofibularis), Gomphosen (Zahn–Alveole)",
+     "Faserige Gelenke (Articulationes fibrosae)"
+    ],
+    [
+     "Kıkırdak eklemler (articulationes cartilagineae)",
+     "Synchondrosen (hyaliner Knorpel; z. B. Wachstumsfuge, 1. Rippe–Sternum) und Symphysen (Faserknorpel; z. B. Schambeinfuge, Bandscheiben)",
+     "Knorpelige Gelenke (Articulationes cartilagineae)"
+    ],
+    [
+     "Sinovyal eklemler (articulationes synoviales)",
+     "Besitzen Gelenkhöhle, Gelenkknorpel, Kapsel, Synovialmembran und Synovialflüssigkeit",
+     "Synovialgelenke (Articulationes synoviales)"
+    ],
+    [
+     "Sinovyal eklem tipleri",
+     "Plangelenk, Scharniergelenk (Ellenbogen), Radgelenk (proximales Radioulnargelenk), Sattelgelenk (Daumen-CMC), Eigelenk (Handgelenk), Kugelgelenk (Schulter, Hüfte), bikondyläres Gelenk (Knie)",
+     "Typen der Synovialgelenke"
+    ]
+   ],
+   "sections": [
+    [
+     "Bewegungsachsen",
+     "Einachsige Gelenke (Scharnier-, Radgelenk) bewegen sich in einer Ebene, zweiachsige (Sattel-, Eigelenk) in zwei und dreiachsige (Kugelgelenk) in allen Ebenen."
+    ],
+    [
+     "Hilton-Regel",
+     "Die Nerven, die die ein Gelenk überquerenden Muskeln versorgen, versorgen auch das Gelenk und die darüberliegende Haut."
+    ]
+   ],
+   "clinical": [
+    "Arthrose ist eine Degeneration des Gelenkknorpels, rheumatoide Arthritis eine Autoimmunentzündung der Synovialmembran."
+   ],
+   "tus": [
+    "Faserige Gelenke: Sutur, Syndesmose, Gomphose; knorpelige: Synchondrose (hyalin), Symphyse (Faserknorpel); alle übrigen sind Synovialgelenke.",
+    "Synovialgelenktypen: Plan-, Scharnier-, Rad-, Ei- (Kondylen-), Sattel- und Kugelgelenk; bikondyläre Gelenke (Knie, Kiefergelenk) werden gesondert gezählt."
+   ],
+   "related": [
+    "art-humeri",
+    "art-coxae",
+    "art-genus",
+    "discus-intervertebralis"
+   ],
+   "models": [
+    "Hip joint",
+    "Knee joint",
+    "Elbow joint",
+    "Sacro-iliac joint",
+    "Intervertebral disc L4-L5"
+   ],
+   "aliases": [
+    "Gelenktypen"
+   ]
+  },
+  {
+   "id": "art-synovialis",
+   "tr": "Aufbau eines echten Gelenks",
+   "la": "Structura articulationis synovialis",
+   "en": "Structure of a synovial joint",
+   "group": "Allgemeines",
+   "region": "general",
+   "summary": "Frei bewegliche Gelenke mit einem flüssigkeitsgefüllten Gelenkspalt zwischen den Knochenenden. Die Gelenkflächen sind mit hyalinem Knorpel überzogen; eine fibröse Kapsel umschließt das Gelenk, eine Synovialmembran kleidet es aus.",
+   "facts": [
+    [
+     "Temel yapılar",
+     "Gelenkknorpel (meist hyalin), Gelenkhöhle, Gelenkkapsel (außen Membrana fibrosa, innen Membrana synovialis), Gelenkflüssigkeit",
+     "Grundbestandteile"
+    ],
+    [
+     "Yardımcı yapılar",
+     "Bänder (extra- und intrakapsulär), Disci und Menisken, Labra, Fettkörper, Schleimbeutel",
+     "Hilfseinrichtungen"
+    ],
+    [
+     "Sinovyal sıvı",
+     "Hyaluronsäurereiche Gleitflüssigkeit der Synovialmembran; ernährt den Knorpel und vermindert die Reibung",
+     "Gelenkflüssigkeit"
+    ],
+    [
+     "Kanlanma ve sinirler",
+     "Versorgung über die Arteriennetze um das Gelenk; nach dem Hilton-Gesetz innervieren die Nerven der gelenküberschreitenden Muskeln auch das Gelenk",
+     "Gefäß- und Nervenversorgung"
+    ],
+    [
+     "Kıkırdağın beslenmesi",
+     "Gelenkknorpel hat weder Gefäße noch Nerven; er wird durch Diffusion aus der Gelenkflüssigkeit ernährt",
+     "Ernährung des Knorpels"
+    ]
+   ],
+   "sections": [
+    [
+     "Schleimbeutel und Sehnenscheiden",
+     "Ein Schleimbeutel ist ein kleiner, mit Synovialis ausgekleideter Sack zwischen Strukturen, die aneinander reiben, etwa Sehne und Knochen oder Haut und Knochen. Manche stehen mit der Gelenkhöhle in Verbindung (z. B. Bursa suprapatellaris). Sehnenscheiden umhüllen lange Sehnen in osteofibrösen Kanälen; sie sind an Hand- und Sprunggelenk ausgeprägt."
+    ],
+    [
+     "Gelenkstabilität",
+     "Die Stabilität eines Gelenks hängt von drei Faktoren ab: Form und Kongruenz der Gelenkflächen (Hüfte), Festigkeit der Bänder (Knie) und Tonus der umgebenden Muskeln (Schulter). Sehr bewegliche Gelenke sind meist weniger stabil."
+    ]
+   ],
+   "clinical": [
+    "Die Arthrose ist ein Verschleiß des Gelenkknorpels; typisch sind Gelenkspaltverschmälerung, Osteophyten und subchondrale Sklerose.",
+    "Die rheumatoide Arthritis ist eine chronische Entzündung der Synovialmembran; der Pannus zerstört Knorpel und Knochen.",
+    "Eine Bursitis (z. B. Bursitis praepatellaris – „Fliesenlegerknie“, Bursitis olecrani) entsteht durch wiederholten Druck oder Reibung."
+   ],
+   "tus": [
+    "Hilton-Gesetz: Die Nerven der Muskeln, die ein Gelenk überqueren, innervieren auch dieses Gelenk und die darüberliegende Haut.",
+    "Gelenkknorpel ist gefäßlos und hat kein Perichondrium; Schäden heilen daher nicht."
+   ],
+   "related": [
+    "eklem-tipleri",
+    "art-genus",
+    "art-coxae"
+   ],
+   "models": [
+    "Articular capsule of knee joint",
+    "Articular capsule of hip joint",
+    "Articular capsule of glenohumeral joint"
+   ],
+   "aliases": [
+    "Gelenk",
+    "Gelenkkapsel",
+    "Schleimbeutel",
+    "Synovialis"
+   ]
+  },
+  {
+   "id": "art-temporomandibularis",
+   "tr": "Kiefergelenk",
+   "la": "Articulatio temporomandibularis",
+   "en": "Temporomandibular joint",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "head",
+   "summary": "Synovialgelenk zwischen dem Processus condylaris des Unterkiefers und Fossa mandibularis sowie Tuberculum articulare des Schläfenbeins. Ein Faserknorpeldiskus teilt es in eine obere und eine untere Kammer.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Synovial; modifiziertes Scharniergelenk (Dreh-Gleit-Gelenk)",
+     "Gelenktyp"
+    ],
+    [
+     "Eklem yüzleri",
+     "Caput mandibulae – Fossa mandibularis und Tuberculum articulare (Os temporale)",
+     "Gelenkflächen"
+    ],
+    [
+     "Discus articularis",
+     "Faserknorpel; Gleitbewegung (Translation) in der oberen, Scharnierbewegung (Rotation) in der unteren Kammer",
+     "Discus articularis"
+    ],
+    [
+     "Bağlar",
+     "Lig. laterale (temporomandibulare), Lig. sphenomandibulare, Lig. stylomandibulare",
+     "Bänder"
+    ],
+    [
+     "İnnervasyon",
+     "N. auriculotemporalis und N. massetericus (V3)",
+     "Innervation"
+    ],
+    [
+     "Hareketler",
+     "Öffnen und Schließen, Vor- und Rückschub, Mahlbewegungen",
+     "Bewegungen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei übermäßiger Mundöffnung (Gähnen) kann der Unterkieferkopf vor das Tuberculum articulare rutschen, der Mund lässt sich nicht mehr schließen (Kiefergelenkluxation).",
+    "Kiefergelenkstörungen (Diskusverlagerung, Knacken, Schmerz) hängen mit Zähneknirschen und Stress zusammen."
+   ],
+   "tus": [
+    "Das Kiefergelenk ist ein Dreh-Gleit-Gelenk; seine Gelenkflächen bestehen aus Faserknorpel.",
+    "Das Lig. laterale (temporomandibulare) ist die einzige echte Kapselverstärkung; Lig. sphenomandibulare und stylomandibulare sind Hilfsbänder."
+   ],
+   "related": [
+    "mandibula",
+    "os-temporale",
+    "m-masseter",
+    "mm-pterygoidei"
+   ],
+   "models": [
+    "Temporomandibular joint"
+   ],
+   "aliases": [
+    "Articulatio temporomandibularis",
+    "CMD"
+   ]
+  },
+  {
+   "id": "ligg-art-temporomandibularis",
+   "tr": "Diskus und Bänder des Kiefergelenks",
+   "la": "Discus et ligamenta articulationis temporomandibularis",
+   "en": "Disc and ligaments of the TMJ",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "head",
+   "summary": "Der faserknorpelige Diskus im Kiefergelenk teilt die Gelenkhöhle in eine obere und eine untere Kammer. Das Gelenk wird seitlich vom Lig. laterale und in größerem Abstand von Lig. sphenomandibulare und Lig. stylomandibulare gesichert.",
+   "facts": [
+    [
+     "Discus articularis",
+     "Bikonkaver Faserknorpeldiskus; vorn am oberen Kopf des M. pterygoideus lateralis, hinten an der bilaminären Zone (retrodiskales Gewebe) befestigt",
+     "Discus articularis"
+    ],
+    [
+     "Eklem bölmeleri",
+     "Obere Kammer: Gleitbewegung (Translation); untere Kammer: Scharnierbewegung (Rotation)",
+     "Gelenkkammern"
+    ],
+    [
+     "Lig. laterale (temporomandibulare)",
+     "Vom Jochbogen zum Collum mandibulae; Verstärkung der Kapsel, die ein Zurückweichen des Kondylus verhindert",
+     "Lig. laterale (temporomandibulare)"
+    ],
+    [
+     "Uzak bağlar",
+     "Lig. sphenomandibulare (Spina ossis sphenoidalis – Lingula mandibulae), Lig. stylomandibulare (Processus styloideus – Kieferwinkel), Lig. pterygospinale",
+     "Akzessorische Bänder"
+    ]
+   ],
+   "sections": [
+    [
+     "Mechanik der Mundöffnung",
+     "Zu Beginn der Öffnung dreht sich der Kondylus in der unteren Kammer um seine eigene Achse; bei weiter Öffnung gleiten Kondylus und Diskus gemeinsam in der oberen Kammer nach vorn auf das Tuberculum articulare. Dieses Vorgleiten bewirkt vor allem der M. pterygoideus lateralis."
+    ]
+   ],
+   "clinical": [
+    "Bei kraniomandibulärer Dysfunktion kann der Diskus nach vorn verlagert sein; beim Öffnen treten Knacken und Schmerzen auf, im Spätstadium blockiert die Öffnung.",
+    "Bei der Kieferluxation springt der Kondylus vor das Tuberculum articulare und der Mund kann nicht geschlossen werden; die Reposition erfolgt durch Druck nach unten und hinten."
+   ],
+   "tus": [
+    "Der Muskel, der den Diskus nach vorn zieht, ist der M. pterygoideus lateralis; die Kiefergelenkluxation erfolgt stets nach vorn.",
+    "Das Lig. sphenomandibulare ist ein Rest des 1. Schlundbogens (Meckel-Knorpel)."
+   ],
+   "related": [
+    "art-temporomandibularis",
+    "mandibula",
+    "os-temporale"
+   ],
+   "models": [
+    "Articular disc of temporomandibular joint",
+    "Lateral temporomandibular ligament",
+    "Sphenomandibular ligament",
+    "Stylomandibular ligament",
+    "Articular capsule of temporomandibular joint"
+   ],
+   "aliases": [
+    "Diskus",
+    "Kiefergelenkdiskus"
+   ]
+  },
+  {
+   "id": "artt-craniovertebrales",
+   "tr": "Kopfgelenke",
+   "la": "Articulationes craniovertebrales",
+   "en": "Craniovertebral joints",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "neck",
+   "summary": "Die Gelenke zwischen Schädel und den ersten beiden Halswirbeln: das obere Kopfgelenk (Atlantookzipitalgelenk) zwischen Hinterhauptskondylen und Atlas und die unteren Kopfgelenke (Atlantoaxialgelenke) zwischen Atlas und Axis. Sie ermöglichen das Nicken („Ja“) und das Drehen („Nein“) des Kopfes.",
+   "facts": [
+    [
+     "Atlanto-oksipital eklem",
+     "Condyli occipitales – obere Gelenkflächen des Atlas; Ellipsoidgelenk; Beugung-Streckung des Kopfes („Ja“) und geringe Seitneigung",
+     "Atlantookzipitalgelenk"
+    ],
+    [
+     "Atlanto-aksiyal eklemler",
+     "Mittleres Atlantoaxialgelenk (Dens – vorderer Atlasbogen und Lig. transversum; Zapfengelenk) und zwei seitliche (planare) Atlantoaxialgelenke; Drehung des Kopfes („Nein“)",
+     "Atlantoaxialgelenke"
+    ],
+    [
+     "Bağlar",
+     "Lig. cruciforme atlantis (Lig. transversum und Längszüge), Ligg. alaria (vom Dens zu den Hinterhauptskondylen; begrenzen übermäßige Drehung), Lig. apicis dentis, Membrana tectoria (Fortsetzung des Lig. longitudinale posterius), Membrana atlantooccipitalis anterior und posterior",
+     "Bänder"
+    ],
+    [
+     "Hareket",
+     "Etwa die Hälfte der Halsdrehung erfolgt im unteren, ein großer Teil der Beugung-Streckung im oberen Kopfgelenk",
+     "Bewegung"
+    ]
+   ],
+   "sections": [
+    [
+     "Lig. transversum atlantis",
+     "Das wichtigste Band: es drückt den Dens an den vorderen Atlasbogen und verhindert, dass er nach hinten ins Rückenmark gleitet. Reißt es, kann der Dens Rückenmark und Medulla oblongata komprimieren."
+    ]
+   ],
+   "clinical": [
+    "Bei rheumatoider Arthritis und Down-Syndrom kann eine Lockerheit des Lig. transversum zu atlantoaxialer Instabilität und Rückenmarkkompression führen.",
+    "Densfrakturen (vor allem Typ II – Densbasis) sind bei Stürzen älterer Menschen häufig und neigen zur Pseudarthrose.",
+    "Die Berstungsfraktur des Atlas (Jefferson-Fraktur) entsteht durch axiale Stauchung auf den Scheitel."
+   ],
+   "tus": [
+    "Das obere Kopfgelenk ermöglicht das „Ja“, das untere das „Nein“.",
+    "Die Ligg. alaria begrenzen eine übermäßige Kopfdrehung; die Membrana tectoria ist die Fortsetzung des Lig. longitudinale posterius bis zur Schädelbasis."
+   ],
+   "related": [
+    "atlas",
+    "axis",
+    "os-occipitale",
+    "ligg-columnae"
+   ],
+   "models": [
+    "Atlas (C1)",
+    "Axis (C2)",
+    "Occipital bone"
+   ],
+   "aliases": [
+    "Kopfgelenk",
+    "Atlantookzipitalgelenk",
+    "Atlantoaxialgelenk"
+   ]
+  },
+  {
+   "id": "discus-intervertebralis",
+   "tr": "Bandscheibe",
+   "la": "Discus intervertebralis",
+   "en": "Intervertebral disc",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "back",
+   "summary": "Faserknorpelige Polster zwischen benachbarten Wirbelkörpern mit ringförmigem Anulus fibrosus außen und gallertigem Nucleus pulposus innen. Sie machen etwa ein Viertel der Länge der Wirbelsäule aus.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Symphyse (sekundär knorpeliges Gelenk)",
+     "Gelenktyp"
+    ],
+    [
+     "Bölümleri",
+     "Anulus fibrosus (konzentrische Kollagenlamellen), Nucleus pulposus (Chordarest, 80 % Wasser)",
+     "Teile"
+    ],
+    [
+     "Sayı",
+     "23 Bandscheiben; keine zwischen C1 und C2 sowie in Kreuz- und Steißbein",
+     "Anzahl"
+    ],
+    [
+     "Beslenme",
+     "Beim Erwachsenen weitgehend gefäßlos; Ernährung durch Diffusion über die Endplatten",
+     "Ernährung"
+    ]
+   ],
+   "sections": [
+    [
+     "Altersveränderungen",
+     "Mit dem Alter verliert der Nucleus pulposus Wasser und die Bandscheiben an Höhe – Grundlage des Größenverlusts und der degenerativen Bandscheibenerkrankung."
+    ]
+   ],
+   "clinical": [
+    "Beim Bandscheibenvorfall reißt der Nucleus pulposus meist posterolateral durch den Anulus und drückt auf eine Nervenwurzel; lumbal betrifft die Bandscheibe L4/L5 die Wurzel L5, L5/S1 die Wurzel S1.",
+    "An der Halswirbelsäule komprimiert die Bandscheibe C5/C6 die Wurzel C6."
+   ],
+   "tus": [
+    "Bandscheiben machen etwa 1/4 der Wirbelsäulenlänge aus; zwischen Atlas und Axis gibt es keine.",
+    "Zervikal komprimiert ein Vorfall die gleichnamige Wurzel (C5/C6 → C6), lumbal die nächsttiefere (L4/L5 → L5)."
+   ],
+   "related": [
+    "vertebrae-lumbales",
+    "vertebrae-cervicales",
+    "ligg-columnae",
+    "medulla-spinalis"
+   ],
+   "models": [
+    "Cartilaginous joints of vertebral column"
+   ],
+   "aliases": [
+    "Discus intervertebralis",
+    "Bandscheibenvorfall"
+   ]
+  },
+  {
+   "id": "ligg-columnae",
+   "tr": "Bänder der Wirbelsäule",
+   "la": "Ligamenta columnae vertebralis",
+   "en": "Ligaments of vertebral column",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "back",
+   "summary": "Bänder, die die Wirbel verbinden und die Wirbelsäule stabilisieren. Lange Bänder ziehen über die ganze Wirbelsäule, kurze zwischen benachbarten Wirbeln.",
+   "facts": [
+    [
+     "Uzun bağlar",
+     "Lig. longitudinale anterius (Vorderseite der Wirbelkörper – begrenzt Hyperextension), Lig. longitudinale posterius (Rückseite der Körper im Wirbelkanal – begrenzt Hyperflexion), Lig. supraspinale, Lig. nuchae (am Hals)",
+     "Lange Bänder"
+    ],
+    [
+     "Kısa bağlar",
+     "Ligg. flava (zwischen den Bögen, gelbes elastisches Band), Ligg. interspinalia, Ligg. intertransversaria",
+     "Kurze Bänder"
+    ],
+    [
+     "Lig. nuchae",
+     "Dreieckiges Band von C7 zur Protuberantia occipitalis externa; Ursprung für M. trapezius und M. splenius",
+     "Lig. nuchae"
+    ]
+   ],
+   "sections": [
+    [
+     "Verlauf der Bänder",
+     "Das Lig. longitudinale anterius zieht an der Vorderfläche der Wirbelkörper von der Schädelbasis bis zum Kreuzbein und verhindert die Überstreckung. Das Lig. longitudinale posterius liegt in der Vorderwand des Wirbelkanals an der Rückseite der Wirbelkörper; da es lumbal schmaler wird, sind Bandscheibenvorfälle oft posterolateral. Die Ligg. flava bestehen aus gelben elastischen Fasern, verbinden die Bögen und helfen beim Aufrichten nach der Beugung."
+    ]
+   ],
+   "clinical": [
+    "Bei der Lumbalpunktion durchdringt die Nadel Haut, Lig. supraspinale, Lig. interspinale, Lig. flavum, Epiduralraum und Dura-Arachnoidea; nach dem Lig. flavum spürt man einen Widerstandsverlust.",
+    "Bei Morbus Bechterew verknöchern die Bänder zur „Bambusstab“-Wirbelsäule."
+   ],
+   "tus": [
+    "Das Lig. longitudinale anterius begrenzt die Hyperextension, das posterius die Hyperflexion.",
+    "Das Lig. nuchae ist die dreieckige Fortsetzung des Lig. supraspinale am Hals; Ursprung für M. trapezius und M. splenius."
+   ],
+   "related": [
+    "discus-intervertebralis",
+    "vertebrae-cervicales",
+    "vertebrae-lumbales"
+   ],
+   "models": [
+    "Anterior longitudinal ligament",
+    "Posterior longitudinal ligament",
+    "Ligamenta flava",
+    "Supraspinous ligament",
+    "Interspinous ligaments",
+    "Nuchal ligament",
+    "Intertransverse ligaments",
+    "Fibrous joints of vertebral column"
+   ],
+   "aliases": [
+    "Ligamentum flavum",
+    "Längsband"
+   ]
+  },
+  {
+   "id": "artt-zygapophysiales",
+   "tr": "Facetten- und Unkovertebralgelenke",
+   "la": "Articulationes zygapophysiales et uncovertebrales",
+   "en": "Facet and uncovertebral joints",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "back",
+   "summary": "Kleine echte Gelenke zwischen den Gelenkfortsätzen benachbarter Wirbel (Wirbelbogengelenke, Facettengelenke). Die Halswirbel haben zusätzlich Unkovertebralgelenke (Luschka) an den Seitenrändern der Wirbelkörper. Die Ausrichtung dieser Gelenke bestimmt die Bewegungsart in jedem Abschnitt.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Facettengelenke: echte, plane Gelenke; Unkovertebralgelenke: spaltförmige Gelenke am Seitenrand der Bandscheibe",
+     "Gelenktyp"
+    ],
+    [
+     "Eklem yüzlerinin yönü",
+     "Halsbereich nahezu horizontal (von vorn nach hinten geneigt) – Bewegung in alle Richtungen; Brustbereich in der Frontalebene – Rotation; Lendenbereich in der Sagittalebene – Beugung-Streckung, Rotation eingeschränkt",
+     "Ausrichtung der Gelenkflächen"
+    ],
+    [
+     "İnnervasyon",
+     "Rr. mediales der Rr. posteriores der Spinalnerven; jedes Facettengelenk erhält Fasern aus zwei benachbarten Segmenten",
+     "Innervation"
+    ],
+    [
+     "Unkovertebral eklemler",
+     "Zwischen den Processus uncinati am oberen Seitenrand der Wirbelkörper C3–C7 und dem darüberliegenden Wirbel",
+     "Unkovertebralgelenke"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Facettengelenkarthrose ist eine häufige Ursache von Rücken- und Nackenschmerzen; sie kann mit Facettenblockade oder Radiofrequenzdenervation behandelt werden.",
+    "Osteophyten der Unkovertebralgelenke können das Foramen intervertebrale einengen und eine zervikale Radikulopathie verursachen.",
+    "Bei der Spondylolyse ist die Interartikularportion unterbrochen (meist L5); auf der Schrägaufnahme zeigt sich das „Halsband des Hündchens“."
+   ],
+   "tus": [
+    "Die lumbalen Facetten stehen sagittal, daher ist die Rotation in der Lendenwirbelsäule eingeschränkt; in der Brustwirbelsäule ist die Rotation frei.",
+    "Die Pars interarticularis ist die Knochenbrücke zwischen oberem und unterem Gelenkfortsatz; ihre Ermüdungsfraktur ist die Spondylolyse."
+   ],
+   "related": [
+    "columna-vertebralis",
+    "vertebrae-cervicales",
+    "vertebrae-lumbales",
+    "discus-intervertebralis"
+   ],
+   "models": [
+    "Vertebra C5",
+    "Vertebra C6",
+    "Vertebra L4",
+    "Vertebra L5"
+   ],
+   "aliases": [
+    "Facettengelenk",
+    "Wirbelbogengelenk",
+    "Luschka",
+    "Unkovertebralgelenk"
+   ]
+  },
+  {
+   "id": "artt-thoracis",
+   "tr": "Gelenke des Brustkorbs",
+   "la": "Articulationes thoracis",
+   "en": "Joints of thorax",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "thorax",
+   "summary": "Die Gelenke der Rippen mit den Wirbeln (kostovertebral) und dem Brustbein (sternokostal). Sie erlauben die Erweiterung des Brustkorbs bei der Atmung.",
+   "facts": [
+    [
+     "Kostovertebral eklemler",
+     "Art. capitis costae (Rippenkopf – zwei benachbarte Wirbelkörper) und Art. costotransversaria (Tuberculum costae – Querfortsatz)",
+     "Kostovertebralgelenke"
+    ],
+    [
+     "Sternokostal eklemler",
+     "1. Rippe: Synchondrose; Rippen 2–7: synoviale Plangelenke",
+     "Sternokostalgelenke"
+    ],
+    [
+     "Diğer",
+     "Artt. interchondrales (zwischen den Knorpeln 6–9), Artt. costochondrales (Rippe–Knorpel; hyalinknorpelige Verbindung)",
+     "Weitere"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Rippen-Knorpel-Lösung kann bei Thoraxtraumen auftreten und schmerzt wie eine Rippenfraktur; im Röntgen ist sie oft nicht sichtbar."
+   ],
+   "tus": [
+    "Die oberen Rippen bewegen sich wie ein Pumpenschwengel (sagittaler Durchmesser), die unteren wie ein Eimerhenkel (querer Durchmesser).",
+    "Die 11. und 12. Rippe haben kein Kostotransversalgelenk."
+   ],
+   "related": [
+    "costae",
+    "sternum",
+    "vertebrae-thoracicae",
+    "cartilagines-costales"
+   ],
+   "models": [
+    "Thoracic joints",
+    "Costovertebral joints",
+    "Costotransverse joint",
+    "Joint of head of rib",
+    "Synovial joints of thorax",
+    "Fibrous joints of thorax"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "artt-costovertebrales",
+   "tr": "Rippen-Wirbel-Gelenke",
+   "la": "Articulationes costovertebrales",
+   "en": "Costovertebral joints",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "thorax",
+   "summary": "Jede Rippe bildet hinten zwei Gelenke mit der Wirbelsäule: das Rippenkopfgelenk mit den Wirbelkörpern und das Rippenhöckergelenk zwischen Tuberculum costae und Querfortsatz. Sie ermöglichen die Atembewegungen der Rippen.",
+   "facts": [
+    [
+     "Art. capitis costae",
+     "Bei typischen Rippen artikuliert der Kopf mit zwei benachbarten Wirbelkörpern und der Bandscheibe dazwischen; verstärkt durch Lig. capitis costae radiatum und Lig. capitis costae intraarticulare",
+     "Art. capitis costae"
+    ],
+    [
+     "Art. costotransversaria",
+     "Rippenhöcker – Querfortsatz des gleichnamigen Wirbels; verstärkt durch Lig. costotransversarium, superius und laterale (fehlt an der 11. und 12. Rippe)",
+     "Art. costotransversaria"
+    ],
+    [
+     "Hareketler",
+     "„Pumpenschwengel“-Bewegung der oberen Rippen (vergrößert den Sagittaldurchmesser), „Eimerhenkel“-Bewegung der unteren Rippen (vergrößert den Querdurchmesser)",
+     "Bewegungen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei Morbus Bechterew vermindert die Beteiligung der Rippen-Wirbel-Gelenke die Atembreite des Brustkorbs und die Atemkapazität."
+   ],
+   "tus": [
+    "Die Köpfe der 1., 10., 11. und 12. Rippe artikulieren nur mit dem gleichnamigen Wirbel (eine Gelenkfläche).",
+    "Die Pumpenschwengelbewegung vergrößert an den oberen Rippen den Sagittaldurchmesser, die Eimerhenkelbewegung an den unteren Rippen den Querdurchmesser des Brustkorbs."
+   ],
+   "related": [
+    "artt-thoracis",
+    "costae",
+    "vertebrae-thoracicae",
+    "costae-atypicae"
+   ],
+   "models": [
+    "Radiate ligament of head of rib",
+    "Intra-articular ligament of head of rib",
+    "Costotransverse ligament",
+    "Costovertebral joints"
+   ],
+   "aliases": [
+    "Rippenkopfgelenk",
+    "Kostotransversalgelenk"
+   ]
+  },
+  {
+   "id": "art-sacrococcygea",
+   "tr": "Kreuzbein-Steißbein-Gelenk",
+   "la": "Articulatio sacrococcygea",
+   "en": "Sacrococcygeal joint",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "region": "pelvis",
+   "summary": "Kleine knorpelige Verbindung zwischen Kreuzbeinspitze und Steißbeinbasis; durch eine dünne Bandscheibe und Bänder verstärkt.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Symphyse (sekundäre Knorpelverbindung); kann im Alter verknöchern",
+     "Gelenktyp"
+    ],
+    [
+     "Bağlar",
+     "Lig. sacrococcygeum anterius, posterius superficiale und profundum sowie laterale; Ligg. intercornualia zwischen Cornua sacralia und coccygea",
+     "Bänder"
+    ],
+    [
+     "Hareket",
+     "Bei der Geburt bewegt sich das Steißbein etwas nach hinten und erweitert den Beckenausgang",
+     "Bewegung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Kokzygodynie (Steißbeinschmerz) entsteht meist nach einem Sturz aufs Gesäß oder nach der Geburt durch Überlastung dieses Gelenks."
+   ],
+   "tus": [
+    "Bei der Geburt weicht das Steißbein nach hinten aus und vergrößert den geraden Durchmesser des Beckenausgangs."
+   ],
+   "related": [
+    "os-sacrum",
+    "os-coccygis",
+    "pelvis"
+   ],
+   "models": [
+    "Sacrococcygeal symphysis",
+    "Intercornual ligament"
+   ],
+   "aliases": [
+    "Sakrokokzygealgelenk",
+    "Steißbein"
+   ]
+  },
+  {
+   "id": "art-sternoclavicularis",
+   "tr": "Sternoklavikulargelenk",
+   "la": "Articulatio sternoclavicularis",
+   "en": "Sternoclavicular joint",
+   "group": "Gelenke der oberen Extremität",
+   "region": "thorax",
+   "summary": "Gelenk zwischen dem medialen Schlüsselbeinende und Manubrium sowie 1. Rippenknorpel. Es ist das einzige echte Gelenk zwischen oberer Extremität und Rumpf.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Synoviales Sattelgelenk (funktionell Kugelgelenk); enthält einen Discus articularis",
+     "Gelenktyp"
+    ],
+    [
+     "Bağlar",
+     "Lig. sternoclaviculare anterius und posterius, Lig. interclaviculare, Lig. costoclaviculare (das stärkste)",
+     "Bänder"
+    ],
+    [
+     "Hareketler",
+     "Heben–Senken, Vor- und Rückführen sowie Rotation des Schlüsselbeins",
+     "Bewegungen"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau und Stabilität",
+     "Das mediale Klavikulaende artikuliert mit der Incisura clavicularis des Manubriums und dem 1. Rippenknorpel. Die Gelenkflächen sind inkongruent; der Discus articularis teilt die Höhle in zwei Kammern und verhindert das Abgleiten der Klavikula nach medial. Es ist die einzige knöcherne Verbindung der oberen Extremität mit dem Rumpf; seine Stabilität beruht vor allem auf dem Lig. costoclaviculare."
+    ]
+   ],
+   "clinical": [
+    "Die Luxation nach dorsal ist selten, aber ein Notfall, weil sie die dahinterliegenden großen Gefäße und die Trachea komprimieren kann."
+   ],
+   "tus": [
+    "Der Diskus verhindert ein Abgleiten der Klavikula nach medial; das stärkste Band ist das Lig. costoclaviculare.",
+    "Die dorsale Luxation ist selten, aber ein Notfall, da sie Trachea und große Gefäße komprimieren kann.",
+    "Die hintere Sternoklavikularluxation ist selten, aber wegen der dahinterliegenden großen Gefäße und der Trachea ein Notfall."
+   ],
+   "related": [
+    "clavicula",
+    "sternum",
+    "art-acromioclavicularis"
+   ],
+   "models": [
+    "Sternoclavicular joint",
+    "Costoclavicular ligament",
+    "Interclavicular ligament"
+   ],
+   "aliases": [
+    "SC-Gelenk"
+   ]
+  },
+  {
+   "id": "art-acromioclavicularis",
+   "tr": "Akromioklavikulargelenk",
+   "la": "Articulatio acromioclavicularis",
+   "en": "Acromioclavicular joint",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Kleines Plangelenk zwischen dem lateralen Schlüsselbeinende und dem Acromion. Seine Stabilität beruht vor allem auf dem außerhalb gelegenen Lig. coracoclaviculare.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Synoviales Plangelenk",
+     "Gelenktyp"
+    ],
+    [
+     "Bağlar",
+     "Lig. acromioclaviculare; Lig. coracoclaviculare (Lig. trapezoideum und conoideum) – Hauptstabilisator",
+     "Bänder"
+    ],
+    [
+     "Hareket",
+     "Gleit- und Drehbewegungen des Schulterblatts auf der Klavikula",
+     "Bewegung"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Planes Gelenk zwischen lateralem Klavikulaende und medialem Akromionrand; ein unvollständiger Diskus kann vorhanden sein. Das Lig. acromioclaviculare sichert horizontal, die korakoklavikulären Bänder (Lig. conoideum und trapezoideum) vertikal."
+    ]
+   ],
+   "clinical": [
+    "Beim Sturz auf die Schulter kann das AC-Gelenk gesprengt werden (anders als eine Schulterluxation); reißt auch das Lig. coracoclaviculare, steht das Schlüsselbeinende deutlich hoch (Klaviertastenphänomen)."
+   ],
+   "tus": [
+    "Ein synoviales Plangelenk; es erlaubt die Drehung des Schulterblatts auf dem Schlüsselbein.",
+    "Ab Rockwood-Typ III ist auch das Lig. coracoclaviculare gerissen."
+   ],
+   "related": [
+    "clavicula",
+    "scapula",
+    "art-humeri"
+   ],
+   "models": [
+    "Acromioclavicular joint",
+    "Conoid ligament",
+    "Trapezoid ligament",
+    "Coraco-acromial ligament"
+   ],
+   "aliases": [
+    "AC-Gelenk",
+    "Schultereckgelenk"
+   ]
+  },
+  {
+   "id": "ligg-scapulae",
+   "tr": "Bänder des Schulterblatts und Schulterdach",
+   "la": "Ligamenta scapulae",
+   "en": "Ligaments of scapula",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Bänder, die zwischen Teilen des Schulterblatts selbst ausgespannt sind. Das Lig. coracoacromiale bildet mit Akromion und Processus coracoideus ein schützendes Dach über dem Schultergelenk; die Ligg. transversa scapulae ergänzen die Öffnungen für N. und Vasa suprascapularia.",
+   "facts": [
+    [
+     "Korakoakromiyal ark",
+     "Akromion, Lig. coracoacromiale und Processus coracoideus; verhindert das Höhertreten des Humeruskopfs; darunter liegen Supraspinatussehne und Bursa subacromialis",
+     "Schulterdach (Fornix humeri)"
+    ],
+    [
+     "Lig. transversum scapulae superius",
+     "Macht die Incisura scapulae zum Loch: der N. suprascapularis zieht darunter, A. und V. suprascapularis darüber",
+     "Lig. transversum scapulae superius"
+    ],
+    [
+     "Lig. transversum scapulae inferius",
+     "Zwischen dem lateralen Rand der Spina scapulae und der Cavitas glenoidalis; N. und A. suprascapularis ziehen darunter in die Fossa infraspinata",
+     "Lig. transversum scapulae inferius"
+    ],
+    [
+     "Korakoklaviküler bağ",
+     "Lig. conoideum (medial, kegelförmig) und Lig. trapezoideum (lateral); hängen das Schlüsselbein am Schulterblatt auf und sichern das AC-Gelenk vertikal",
+     "Lig. coracoclaviculare"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Beim Impingement-Syndrom werden Supraspinatussehne und Bursa subacromialis beim seitlichen Armheben unter dem Schulterdach eingeklemmt; der schmerzhafte Bogen liegt zwischen 60 und 120°.",
+    "Eine Einengung des N. suprascapularis an der Incisura scapulae führt zur Atrophie von Supra- und Infraspinatus; an der spinoglenoidalen Kerbe (unteres Band) ist nur der Infraspinatus betroffen."
+   ],
+   "tus": [
+    "An der Incisura scapulae zieht der Nerv unter dem Band, die Arterie darüber (englische Eselsbrücke „Army over Navy“).",
+    "AC-Gelenk-Luxationen werden (nach Rockwood) danach eingeteilt, ob die korakoklavikulären Bänder gerissen sind."
+   ],
+   "related": [
+    "scapula",
+    "art-acromioclavicularis",
+    "art-humeri",
+    "m-supraspinatus"
+   ],
+   "models": [
+    "Coraco-acromial ligament",
+    "Superior transverse scapular ligament",
+    "Inferior transverse scapular ligament",
+    "Conoid ligament",
+    "Trapezoid ligament",
+    "Acromioclavicular ligament"
+   ],
+   "aliases": [
+    "Schulterdach",
+    "Lig. transversum scapulae",
+    "subakromial"
+   ]
+  },
+  {
+   "id": "art-humeri",
+   "tr": "Schultergelenk",
+   "la": "Articulatio humeri (glenohumeralis)",
+   "en": "Glenohumeral (shoulder) joint",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Kugelgelenk zwischen Oberarmkopf und Cavitas glenoidalis des Schulterblatts. Es ist das beweglichste und am häufigsten luxierte Gelenk des Körpers; seine Stabilität hängt vor allem von der Rotatorenmanschette ab.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Synoviales Kugelgelenk – dreiachsig",
+     "Gelenktyp"
+    ],
+    [
+     "Eklem yüzleri",
+     "Caput humeri – Cavitas glenoidalis (durch das Labrum glenoidale vertieft); nur 1/3 des Kopfes hat Pfannenkontakt",
+     "Gelenkflächen"
+    ],
+    [
+     "Bağlar",
+     "Ligg. glenohumeralia (superius, medium, inferius), Lig. coracohumerale, Lig. transversum humeri, Lig. coracoacromiale (Schulterdach)",
+     "Bänder"
+    ],
+    [
+     "Stabilizatörler",
+     "Rotatorenmanschette (Supraspinatus, Infraspinatus, Teres minor, Subscapularis), lange Bizepssehne, Labrum",
+     "Stabilisatoren"
+    ],
+    [
+     "Hareketler",
+     "Flexion–Extension, Abduktion–Adduktion, Innen- und Außenrotation, Zirkumduktion",
+     "Bewegungen"
+    ],
+    [
+     "İnnervasyon",
+     "N. axillaris, N. suprascapularis, N. pectoralis lateralis",
+     "Innervation"
+    ]
+   ],
+   "sections": [
+    [
+     "Kapsel",
+     "Die Kapsel ist weit und unten (Recessus axillaris) am schwächsten; die lange Bizepssehne verläuft durch die Kapsel."
+    ]
+   ],
+   "clinical": [
+    "95 % der Schulterluxationen erfolgen nach vorn unten; der N. axillaris kann geschädigt werden. Rezidivierende Luxationen führen zum Abriss des vorderen unteren Labrums (Bankart-Läsion) und zur Impression am hinteren lateralen Humeruskopf (Hill-Sachs-Läsion).",
+    "Bei der Frozen Shoulder (adhäsive Kapsulitis) verdickt und schrumpft die Kapsel, alle Bewegungen sind eingeschränkt.",
+    "SLAP-Läsion: Abriss des oberen Labrums am Ursprung der Bizepssehne."
+   ],
+   "tus": [
+    "Die Stabilität des Schultergelenks beruht mehr auf der Rotatorenmanschette als auf dem Knochen.",
+    "Bei vorderer Luxation entstehen Hill-Sachs-Läsion (Delle hinten oben am Kopf) und Bankart-Läsion (Abriss des vorderen unteren Labrums)."
+   ],
+   "related": [
+    "humerus",
+    "scapula",
+    "m-supraspinatus",
+    "m-infraspinatus",
+    "m-subscapularis",
+    "m-teres-minor",
+    "m-deltoideus"
+   ],
+   "models": [
+    "Glenohumeral joint"
+   ],
+   "aliases": [
+    "Schulter",
+    "Glenohumeralgelenk"
+   ]
+  },
+  {
+   "id": "ligg-art-humeri",
+   "tr": "Bänder und Labrum des Schultergelenks",
+   "la": "Ligamenta et labrum articulationis humeri",
+   "en": "Ligaments and labrum of shoulder",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Die drei glenohumeralen Bänder an der Vorderseite der Schulterkapsel, das Lig. coracohumerale oben und das faserknorpelige Labrum, das den Rand der Gelenkpfanne vertieft, sind die passiven Stabilisatoren des Gelenks.",
+   "facts": [
+    [
+     "Labrum glenoidale",
+     "Faserknorpelring am Rand der Cavitas glenoidalis; vertieft die Pfanne um etwa 50 %; aus seinem oberen Teil entspringt der lange Bizepskopf",
+     "Labrum glenoidale"
+    ],
+    [
+     "Ligg. glenohumeralia",
+     "Superius, medium und inferius an der Kapselvorderseite; das inferius ist das wichtigste und schützt bei Abduktion und Außenrotation vor der vorderen Luxation",
+     "Ligg. glenohumeralia"
+    ],
+    [
+     "Lig. coracohumerale",
+     "Vom Processus coracoideus zum Tuberculum majus und minus; verstärkt das Rotatorenintervall und verhindert das Abgleiten des Arms nach unten",
+     "Lig. coracohumerale"
+    ],
+    [
+     "Lig. transversum humeri",
+     "Überbrückt den Sulcus intertubercularis zwischen Tuberculum majus und minus und hält die Sehne des langen Bizepskopfes in ihrer Rinne",
+     "Lig. transversum humeri"
+    ],
+    [
+     "Zayıf bölgeler",
+     "Der untere Kapselteil (Recessus axillaris) und das Rotatorenintervall zwischen Subscapularis und Supraspinatus",
+     "Schwachstellen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Bankart-Läsion ist ein Abriss des vorderen unteren Labrums und des unteren glenohumeralen Bandes; sie ist die Hauptursache rezidivierender vorderer Luxationen.",
+    "Reißt das Lig. transversum humeri, kann die lange Bizepssehne aus ihrer Rinne springen (Subluxation) und ein schmerzhaftes Schnappen verursachen.",
+    "Die SLAP-Läsion ist ein Abriss des oberen Labrums von vorn nach hinten; sie tritt bei Wurfsportarten auf."
+   ],
+   "tus": [
+    "Das untere glenohumerale Band ist der wichtigste statische Stabilisator gegen die vordere Luxation in Abduktion und Außenrotation.",
+    "Der lange Bizepskopf entspringt am Tuberculum supraglenoidale und am oberen Labrum; er verläuft in einer Sehnenscheide innerhalb der Kapsel."
+   ],
+   "related": [
+    "art-humeri",
+    "scapula",
+    "humerus",
+    "m-biceps-brachii"
+   ],
+   "models": [
+    "Glenoid labrum",
+    "Coracohumeral ligament",
+    "Superior glenohumeral ligament",
+    "Middle glenohumeral ligament",
+    "Inferior glenohumeral ligament",
+    "Transverse humeral ligament",
+    "Articular capsule of glenohumeral joint"
+   ],
+   "aliases": [
+    "Labrum",
+    "glenohumerales Band",
+    "Lig. coracohumerale"
+   ]
+  },
+  {
+   "id": "art-cubiti",
+   "tr": "Ellenbogengelenk",
+   "la": "Articulatio cubiti",
+   "en": "Elbow joint",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Zusammengesetztes Gelenk zwischen Humerus, Ulna und Radius in einer gemeinsamen Kapsel, bestehend aus Humeroulnar-, Humeroradial- und proximalem Radioulnargelenk.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Zusammengesetztes Synovialgelenk: Art. humeroulnaris (Scharnier), Art. humeroradialis (Kugel), Art. radioulnaris proximalis (Rad)",
+     "Gelenktyp"
+    ],
+    [
+     "Bağlar",
+     "Lig. collaterale ulnare (medial), Lig. collaterale radiale (lateral), Lig. anulare radii (Ring um das Radiusköpfchen)",
+     "Bänder"
+    ],
+    [
+     "Hareketler",
+     "Flexion–Extension (0–145°); Pronation–Supination im proximalen Radioulnargelenk",
+     "Bewegungen"
+    ],
+    [
+     "Taşıma açısı",
+     "In Streckung ein nach außen offener Winkel von 10–15° zwischen Ober- und Unterarm (bei Frauen größer)",
+     "Tragewinkel"
+    ]
+   ],
+   "sections": [
+    [
+     "Ellenbeuge",
+     "In der dreieckigen Grube vor dem Ellenbogen liegen von lateral nach medial Bizepssehne, A. brachialis und N. medianus. Oberflächlich wird die V. mediana cubiti zur Blutentnahme genutzt."
+    ]
+   ],
+   "clinical": [
+    "Ellenbogenluxationen erfolgen meist nach hinten.",
+    "Tennisellenbogen (Epicondylitis lateralis) und Golferellenbogen (Epicondylitis medialis) sind Überlastungsschäden der Sehnenursprünge.",
+    "Bei Kindern kann das Radiusköpfchen aus dem Lig. anulare gleiten (Chassaignac-Lähmung)."
+   ],
+   "tus": [
+    "Ellenbogenluxationen erfolgen meist nach dorsolateral; die Störung des Dreiecks (Olecranon und Epikondylen) unterscheidet Luxation und Fraktur.",
+    "In Streckung liegen Olecranon und Epikondylen auf einer Linie, in Beugung bilden sie ein Dreieck (Hueter-Dreieck)."
+   ],
+   "related": [
+    "humerus",
+    "radius",
+    "ulna",
+    "m-biceps-brachii",
+    "m-triceps-brachii",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Elbow joint"
+   ],
+   "aliases": [
+    "Ellenbogen"
+   ]
+  },
+  {
+   "id": "ligg-cubiti",
+   "tr": "Bänder des Ellenbogengelenks",
+   "la": "Ligamenta articulationis cubiti",
+   "en": "Ligaments of elbow",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Das Ellenbogengelenk wird beidseits von Kollateralbändern, das Radiusköpfchen vom ringförmigen Lig. anulare gesichert. Das proximale Radioulnargelenk wird zusätzlich durch Lig. quadratum und Chorda obliqua verstärkt.",
+   "facts": [
+    [
+     "Lig. collaterale ulnare",
+     "Vom Epicondylus medialis zu Processus coronoideus und Olecranon; dreieckig, mit vorderem, hinterem und queren (schrägen) Zug; wirkt Valguskräften entgegen – wichtigster Teil ist der vordere Zug",
+     "Lig. collaterale ulnare"
+    ],
+    [
+     "Lig. collaterale radiale",
+     "Vom Epicondylus lateralis, strahlt in das Lig. anulare ein; wirkt Varuskräften entgegen",
+     "Lig. collaterale radiale"
+    ],
+    [
+     "Lig. anulare radii",
+     "Am vorderen und hinteren Rand der Incisura radialis ulnae befestigt; umfasst 4/5 des Umfangs des Radiusköpfchens",
+     "Lig. anulare radii"
+    ],
+    [
+     "Lig. quadratum",
+     "Zwischen Radiushals und Unterrand der Incisura radialis; begrenzt übermäßige Supination und Pronation",
+     "Lig. quadratum"
+    ],
+    [
+     "Chorda obliqua",
+     "Dünnes Band von der Tuberositas ulnae schräg nach unten-lateral zum Radius; seine Fasern verlaufen entgegengesetzt zur Membrana interossea",
+     "Chorda obliqua"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei Baseballwerfern und Speerwerfern reißt wiederholter Valgusstress den vorderen Zug des ulnaren Kollateralbands; seine Rekonstruktion mit Sehnentransplantat heißt „Tommy-John-Operation“.",
+    "Bei der Radiusköpfchen-Subluxation (Chassaignac) gleitet das Köpfchen unter das Lig. anulare; die Reposition erfolgt durch Supination und Beugung."
+   ],
+   "tus": [
+    "Der vordere Zug des ulnaren Kollateralbands ist die wichtigste Struktur für die Valgusstabilität des Ellenbogens; der N. ulnaris verläuft direkt dahinter.",
+    "Die Innenfläche des Lig. anulare ist mit Knorpel überzogen und wirkt mit dem Radiusköpfchen wie eine Gelenkfläche."
+   ],
+   "related": [
+    "art-cubiti",
+    "artt-radioulnares",
+    "radius",
+    "ulna"
+   ],
+   "models": [
+    "Ulnar collateral ligament",
+    "Radial collateral ligament",
+    "Annular ligament of radius",
+    "Quadrate ligament",
+    "Oblique cord",
+    "Articular capsule of elbow joint"
+   ],
+   "aliases": [
+    "Ellenbogenbänder",
+    "ulnares Kollateralband",
+    "Tommy John"
+   ]
+  },
+  {
+   "id": "artt-radioulnares",
+   "tr": "Radioulnargelenke",
+   "la": "Articulationes radioulnares",
+   "en": "Radio-ulnar joints",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Die beiden Synovialgelenke zwischen oberem und unterem Ende von Radius und Ulna samt der Membrana interossea zwischen den Schäften. Gemeinsam ermöglichen sie Pronation und Supination.",
+   "facts": [
+    [
+     "Proksimal eklem",
+     "Radgelenk; das Radiusköpfchen dreht sich im Lig. anulare in der Incisura radialis ulnae",
+     "Proximales Gelenk"
+    ],
+    [
+     "Distal eklem",
+     "Radgelenk; Caput ulnae – Incisura ulnaris radii; verstärkt durch den Discus articularis (Teil des TFCC)",
+     "Distales Gelenk"
+    ],
+    [
+     "Membrana interossea",
+     "Ihre Fasern ziehen vom Radius schräg nach unten zur Ulna; sie leiten Kräfte von Hand und Radius auf die Ulna",
+     "Membrana interossea"
+    ],
+    [
+     "Hareket",
+     "Pronation (M. pronator teres, M. pronator quadratus) und Supination (M. supinator, M. biceps brachii); insgesamt etwa 150°",
+     "Bewegung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Verletzungen des triangulären fibrokartilaginären Komplexes (TFCC) sind eine häufige Ursache ulnarseitiger Handgelenkschmerzen."
+   ],
+   "tus": [
+    "Proximal dreht sich das Radiusköpfchen im Lig. anulare, distal dreht sich der Radius um den Ulnakopf.",
+    "Die Fasern der Membrana interossea ziehen vom Radius schräg nach unten zur Ulna und leiten Lasten von der Hand auf die Ulna.",
+    "Hauptstabilisator des distalen Radioulnargelenks ist der TFCC; bei der Galeazzi-Fraktur (Radiusschaft) luxiert dieses Gelenk, bei der Monteggia-Fraktur (Ulna) das Radiusköpfchen."
+   ],
+   "related": [
+    "radius",
+    "ulna",
+    "m-pronator-quadratus",
+    "m-supinator"
+   ],
+   "models": [
+    "Distal radio-ulnar joint",
+    "Radio-ulnar syndesmoses",
+    "Annular ligament of radius",
+    "Interosseous membrane of forearm"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "tfcc",
+   "tr": "Triangulärer fibrokartilaginärer Komplex (TFCC)",
+   "la": "Complexus fibrocartilagineus triangularis",
+   "en": "Triangular fibrocartilage complex",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Struktur zwischen distaler Ulna und Handwurzel aus einem Discus articularis und den umgebenden Bändern. Sie stabilisiert das distale Radioulnargelenk und trägt die Last an der ulnaren Handgelenkseite.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Discus articularis (dreieckiger Faserknorpel), dorsales und palmares radioulnares Band, Lig. ulnolunatum und ulnotriquetrum, Lig. collaterale carpi ulnare, Sehnenscheide des M. extensor carpi ulnaris, Meniskushomolog",
+     "Bestandteile"
+    ],
+    [
+     "Tutunma",
+     "Die Basis des Diskus setzt am Unterrand der Incisura ulnaris radii an, die Spitze an der Basis des Processus styloideus ulnae (Fovea)",
+     "Ansätze"
+    ],
+    [
+     "İşlevi",
+     "Hauptstabilisator des distalen Radioulnargelenks; trägt etwa 20 % der Last durch das Handgelenk; trennt die Ulna vom Radiokarpalgelenk",
+     "Funktion"
+    ],
+    [
+     "Kanlanma",
+     "Nur der Rand (Peripherie) ist gut durchblutet; das Zentrum ist gefäßlos",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "TFCC-Läsionen entstehen bei Sturz auf die ausgestreckte Hand oder durch wiederholte Rotation; sie verursachen ulnarseitige Handgelenkschmerzen, Schnappen und Griffschwäche.",
+    "Bei Ulna-Plus-Variante (Ulna länger als Radius) verschleißen TFCC und Mondbein (ulnokarpales Impaktionssyndrom)."
+   ],
+   "tus": [
+    "Die Ulna nimmt nicht direkt am Radiokarpalgelenk teil; der dazwischenliegende Discus articularis (TFCC) trennt sie von den Handwurzelknochen.",
+    "Da das Zentrum des TFCC gefäßlos ist, heilen zentrale Läsionen nicht und werden débridiert; periphere Läsionen können genäht werden."
+   ],
+   "related": [
+    "artt-radioulnares",
+    "art-radiocarpalis",
+    "ulna",
+    "ligg-carpi"
+   ],
+   "models": [
+    "Articular disc of distal radio-ulnar joint",
+    "Dorsal radio-ulnar ligament",
+    "Palmar radio-ulnar ligament",
+    "Ulnolunate ligament",
+    "Ulnotriquetral ligament",
+    "Ulnar collateral ligament of wrist joint"
+   ],
+   "aliases": [
+    "TFCC",
+    "Discus ulnocarpalis",
+    "Discus articularis"
+   ]
+  },
+  {
+   "id": "art-radiocarpalis",
+   "tr": "Handgelenk (Radiokarpalgelenk)",
+   "la": "Articulatio radiocarpalis",
+   "en": "Wrist (radiocarpal) joint",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Eigelenk zwischen dem unteren Radiusende samt Discus articularis und der proximalen Handwurzelreihe (Kahn-, Mond-, Dreiecksbein). Die Ulna ist nicht direkt beteiligt.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Synoviales Eigelenk (zweiachsig)",
+     "Gelenktyp"
+    ],
+    [
+     "Eklem yüzleri",
+     "Facies articularis carpalis radii und Discus articularis – Os scaphoideum, Os lunatum, Os triquetrum",
+     "Gelenkflächen"
+    ],
+    [
+     "Bağlar",
+     "Lig. radiocarpale palmare und dorsale, Lig. ulnocarpale palmare, Lig. collaterale carpi radiale und ulnare",
+     "Bänder"
+    ],
+    [
+     "Hareketler",
+     "Flexion–Extension, Radial- und Ulnarabduktion, Zirkumduktion; das Mediokarpalgelenk trägt viel zur Bewegung bei",
+     "Bewegungen"
+    ]
+   ],
+   "sections": [
+    [
+     "Mediokarpalgelenk",
+     "Das S-förmige Gelenk zwischen proximaler und distaler Handwurzelreihe. Die Beugung im Handgelenk erfolgt überwiegend im Radiokarpalgelenk, ein großer Teil von Streckung und Radialabduktion im Mediokarpalgelenk. Die „Dartwurfbewegung“ (von radialer Streckung zu ulnarer Beugung) erfolgt hauptsächlich im Mediokarpalgelenk."
+    ]
+   ],
+   "clinical": [
+    "Die Ruptur des skapholunären Bandes ist die häufigste Ursache der Handgelenkinstabilität (Terry-Thomas-Zeichen: Spalt zwischen Kahn- und Mondbein).",
+    "Ein Handgelenkganglion ist eine zystische Schwellung, die von der Gelenkkapsel ausgeht."
+   ],
+   "tus": [
+    "Das Radiokarpalgelenk ist ein Eigelenk: Flexion–Extension und Radial-/Ulnarabduktion.",
+    "Die Ulnarabduktion ist größer als die Radialabduktion, weil der Processus styloideus radii weiter nach distal reicht."
+   ],
+   "related": [
+    "radius",
+    "ossa-carpi",
+    "os-scaphoideum",
+    "os-lunatum"
+   ],
+   "models": [
+    "Radiocarpal joint",
+    "Intercarpal joints",
+    "Dorsal intercarpal ligaments",
+    "Radiate carpal ligament"
+   ],
+   "aliases": [
+    "Handgelenk"
+   ]
+  },
+  {
+   "id": "ligg-carpi",
+   "tr": "Bänder des Handgelenks",
+   "la": "Ligamenta carpi",
+   "en": "Ligaments of wrist",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Die Handgelenkbänder sind Kapselverstärkungen: extrinsische Bänder verbinden Radius und Ulna mit den Handwurzelknochen, intrinsische Bänder die Handwurzelknochen untereinander. Die wichtigsten intrinsischen Bänder sind das skapholunäre und das lunotriquetrale Band.",
+   "facts": [
+    [
+     "Palmar ekstrinsik bağlar",
+     "Lig. radioscaphocapitatum, radiolunatum (longum und breve), ulnolunatum, ulnotriquetrum und ulnocapitatum; die palmaren Bänder sind kräftiger als die dorsalen",
+     "Palmare extrinsische Bänder"
+    ],
+    [
+     "Dorsal bağlar",
+     "Lig. radiocarpale dorsale (radiotriquetrum) und Lig. intercarpale dorsale; zusammen bilden sie ein liegendes „V“",
+     "Dorsale Bänder"
+    ],
+    [
+     "İntrinsik bağlar",
+     "Lig. scapholunatum interosseum (dorsaler Teil am kräftigsten), Lig. lunotriquetrum interosseum, skaphotrapeziotrapezoidales Band",
+     "Intrinsische Bänder"
+    ],
+    [
+     "Kollateral bağlar",
+     "Lig. collaterale carpi radiale (Processus styloideus radii – Kahnbein), Lig. collaterale carpi ulnare (Processus styloideus ulnae – Dreiecksbein, Erbsenbein)",
+     "Kollateralbänder"
+    ],
+    [
+     "Pisiform bağları",
+     "Lig. pisohamatum und pisometacarpale: Fortsetzungen der Sehne des M. flexor carpi ulnaris",
+     "Bänder des Erbsenbeins"
+    ]
+   ],
+   "sections": [
+    [
+     "Karpale Instabilität",
+     "Reißt das skapholunäre Band, kippt das Kahnbein in Flexion und das Mondbein in Extension (DISI – dorsale interkalierte Segmentinstabilität). Reißt das lunotriquetrale Band, kippt das Mondbein in Flexion (VISI). Unbehandelt entwickelt sich eine fortschreitende „SLAC“-Arthrose."
+    ]
+   ],
+   "clinical": [
+    "Bei skapholunärer Ruptur zeigt die a.-p.-Aufnahme einen Spalt über 3 mm zwischen Kahn- und Mondbein (Terry-Thomas-Zeichen) und das „Ringzeichen“ des Kahnbeins.",
+    "Bei der perilunären Luxation reißen palmare extrinsische und intrinsische Bänder nacheinander (Mayfield-Stadien)."
+   ],
+   "tus": [
+    "Der Poirier-Raum ist eine bandarme Zone um die palmare Seite des Kopfbeins; perilunäre Luxationen erfolgen durch ihn.",
+    "Lig. pisohamatum und pisometacarpale übertragen den Zug des M. flexor carpi ulnaris auf Hakenbein und 5. Mittelhandknochen."
+   ],
+   "related": [
+    "art-radiocarpalis",
+    "ossa-carpi",
+    "os-scaphoideum",
+    "os-lunatum",
+    "tfcc"
+   ],
+   "models": [
+    "Dorsal radiocarpal ligament",
+    "Radioscaphocapitate ligament",
+    "Radiocapitate ligament",
+    "Ulnolunate ligament",
+    "Ulnotriquetral ligament",
+    "Ulnocapitate ligament",
+    "Scapholunate interosseous ligament",
+    "Lunotriquetral interosseous ligament",
+    "Radial collateral ligament of wrist joint",
+    "Ulnar collateral ligament of wrist joint",
+    "Pisohamate ligament",
+    "Pisometacarpal ligament"
+   ],
+   "aliases": [
+    "skapholunäres Band",
+    "Handgelenkband",
+    "Karpalband"
+   ]
+  },
+  {
+   "id": "artt-manus",
+   "tr": "Gelenke der Hand",
+   "la": "Articulationes manus",
+   "en": "Joints of hand",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Die Gelenke zwischen Handwurzel und Mittelhand (Karpometakarpalgelenke), Mittelhand und Fingern (Metakarpophalangealgelenke) sowie zwischen den Phalangen (Interphalangealgelenke).",
+   "facts": [
+    [
+     "Karpometakarpal (CMC)",
+     "Sattelgelenk am Daumen (Opposition); CMC 2–3 nahezu unbeweglich, CMC 4–5 wenig beweglich",
+     "Karpometakarpal (CMC)"
+    ],
+    [
+     "Metakarpofalangeal (MCP)",
+     "Kondylengelenke; Flexion–Extension und Abduktion–Adduktion; palmare Platte und Kollateralbänder",
+     "Metakarpophalangeal (MCP)"
+    ],
+    [
+     "İnterfalangeal (PIP, DIP)",
+     "Scharniergelenke; nur Flexion–Extension",
+     "Interphalangeal (PIP, DIP)"
+    ],
+    [
+     "Bağlar",
+     "Ligg. collateralia, Ligg. palmaria (palmare Platte), Ligg. metacarpalia transversa profunda",
+     "Bänder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Skidaumen: Riss des ulnaren Seitenbands am Daumengrundgelenk.",
+    "Bei rheumatoider Arthritis entstehen Ulnardeviation in den MCP-Gelenken, Schwanenhals- und Knopflochdeformitäten."
+   ],
+   "tus": [
+    "Das 1. CMC-Gelenk ist ein Sattelgelenk und ermöglicht die Opposition; CMC 2–5 sind Plangelenke.",
+    "Die Kollateralbänder der MCP-Gelenke sind in Beugung gespannt; deshalb wird die Hand in MCP-Beugung ruhiggestellt (Intrinsic-plus)."
+   ],
+   "related": [
+    "ossa-metacarpi",
+    "phalanges-manus",
+    "ossa-carpi"
+   ],
+   "models": [
+    "Joints of hand",
+    "Carpometacarpal joints",
+    "Intermetacarpal joints",
+    "Metacarpophalangeal joints",
+    "Interphalangeal joints of hand"
+   ],
+   "aliases": [
+    "Fingergelenke",
+    "MCP",
+    "PIP",
+    "DIP"
+   ]
+  },
+  {
+   "id": "art-carpometacarpalis-pollicis",
+   "tr": "Daumensattelgelenk",
+   "la": "Articulatio carpometacarpalis pollicis",
+   "en": "Carpometacarpal joint of thumb",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Sattelförmiges Gelenk zwischen großem Vieleckbein und Basis des 1. Mittelhandknochens. Es ermöglicht die Opposition des Daumens und ist die Grundlage der Greiffunktion der Hand.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Echtes Sattelgelenk – zweiachsig, mit Rotationskomponente",
+     "Gelenktyp"
+    ],
+    [
+     "Hareketler",
+     "Beugung-Streckung, Abduktion-Adduktion, Opposition-Reposition, Zirkumduktion",
+     "Bewegungen"
+    ],
+    [
+     "Bağlar",
+     "Vorderes schräges Band („Schnabelband“ – Hauptstabilisator), dorsoradiales Band, intermetakarpales Band; schlaffe Kapsel",
+     "Bänder"
+    ],
+    [
+     "İlişkili kaslar",
+     "Thenarmuskeln (M. opponens pollicis, M. abductor pollicis brevis, M. flexor pollicis brevis), M. abductor pollicis longus",
+     "Zugehörige Muskeln"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Arthrose des Daumensattelgelenks (Rhizarthrose) ist häufig, besonders bei Frauen nach der Menopause; Greifen und Schlüsseldrehen schmerzen.",
+    "Bei der Bennett-Fraktur bleibt das mediale Fragment der Basis des 1. Mittelhandknochens, vom vorderen schrägen Band gehalten, an Ort und Stelle, während das Hauptfragment vom M. abductor pollicis longus nach lateral und proximal gezogen wird."
+   ],
+   "tus": [
+    "Das Daumensattelgelenk ist das klassische Beispiel eines Sattelgelenks (das andere ist das Sternoklavikulargelenk).",
+    "Die Opposition erfolgt vor allem durch den M. opponens pollicis (N. medianus)."
+   ],
+   "related": [
+    "artt-manus",
+    "os-trapezium",
+    "ossa-metacarpi"
+   ],
+   "models": [
+    "Trapezium bone",
+    "First metacarpal bone",
+    "Palmar carpometacarpal ligaments",
+    "Dorsal carpometacarpal ligaments"
+   ],
+   "aliases": [
+    "Daumensattelgelenk",
+    "Rhizarthrose",
+    "Sattelgelenk"
+   ]
+  },
+  {
+   "id": "artt-digitorum-manus",
+   "tr": "Fingergelenke und palmare Platte",
+   "la": "Articulationes metacarpophalangeae et interphalangeae manus",
+   "en": "Finger joints and volar plate",
+   "group": "Gelenke der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Die Fingergrundgelenke (MCP) und Interphalangealgelenke (PIP, DIP) werden durch Kollateralbänder und palmar durch die dicke faserknorpelige Platte (Palmarplatte) gesichert. Die Ligg. metacarpalia transversa profunda verbinden die Mittelhandköpfe.",
+   "facts": [
+    [
+     "MCP eklemleri",
+     "Ellipsoid-(Kondylen-)Gelenk: Beugung-Streckung, Abduktion-Adduktion; die Kollateralbänder spannen sich in Beugung (Nockeneffekt)",
+     "MCP-Gelenke"
+    ],
+    [
+     "İnterfalangeal eklemler",
+     "Scharniergelenke: nur Beugung-Streckung; die Kollateralbänder sind in jeder Stellung teilweise gespannt",
+     "Interphalangealgelenke"
+    ],
+    [
+     "Volar plak",
+     "Dicke Faserknorpelplatte an der palmaren Gelenkseite; verhindert die Überstreckung",
+     "Palmarplatte"
+    ],
+    [
+     "Derin transvers metakarpal bağ",
+     "Verbindet die Palmarplatten der Köpfe des 2.–5. Mittelhandknochens; fehlt am Daumen",
+     "Lig. metacarpale transversum profundum"
+    ]
+   ],
+   "sections": [
+    [
+     "Sichere Ruhigstellungsposition",
+     "Muss die Hand länger ruhiggestellt werden, stellt man die Grundgelenke in Beugung und die Interphalangealgelenke in Streckung. In dieser Stellung bleiben die Kollateralbänder gespannt, schrumpfen nicht und verursachen keine bleibende Steife."
+    ]
+   ],
+   "clinical": [
+    "Der Skidaumen ist ein Riss des ulnaren Kollateralbands am Daumengrundgelenk; liegt das Bandende über der Adduktoraponeurose (Stener-Läsion), ist eine Operation nötig.",
+    "Bei Überstreckungsverletzungen des PIP-Gelenks reißt die Palmarplatte aus; unbehandelt kann eine Schwanenhalsdeformität entstehen."
+   ],
+   "tus": [
+    "„Intrinsic-plus“-Stellung zur Ruhigstellung: Handgelenk leicht gestreckt, Grundgelenke 70–90° gebeugt, Interphalangealgelenke gestreckt.",
+    "Bei der Stener-Läsion schiebt sich die Aponeurose des M. adductor pollicis zwischen das gerissene ulnare Kollateralband und seinen Ansatz."
+   ],
+   "related": [
+    "artt-manus",
+    "phalanges-manus",
+    "ossa-metacarpi"
+   ],
+   "models": [
+    "Collateral metacarpophalangeal ligaments",
+    "Deep transverse metacarpal ligament",
+    "Palmar interphalangeal ligaments",
+    "Collateral interphalangeal ligaments of hand",
+    "Articular capsules of metacarpophalangeal joints",
+    "Articular capsules of proximal interphalangeal joints"
+   ],
+   "aliases": [
+    "MCP",
+    "PIP",
+    "DIP",
+    "Palmarplatte",
+    "Skidaumen"
+   ]
+  },
+  {
+   "id": "art-sacroiliaca",
+   "tr": "Iliosakralgelenk",
+   "la": "Articulatio sacroiliaca",
+   "en": "Sacro-iliac joint",
+   "group": "Gelenke der unteren Extremität",
+   "region": "pelvis",
+   "summary": "Gelenk zwischen den ohrförmigen Flächen (Facies auriculares) von Kreuzbein und Hüftbein, gesichert durch sehr kräftige Bänder. Es überträgt das Rumpfgewicht auf die Beine.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Vorn synovial, hinten Syndesmose (Mischgelenk); kaum beweglich",
+     "Gelenktyp"
+    ],
+    [
+     "Bağlar",
+     "Lig. sacroiliacum anterius, interosseum (das stärkste) und posterius; Hilfsbänder: Lig. sacrotuberale, sacrospinale, iliolumbale",
+     "Bänder"
+    ],
+    [
+     "Hareket",
+     "Sehr geringe Gleit- und Drehbewegung (Nutation–Kontranutation); lockert sich in der Schwangerschaft hormonell",
+     "Bewegung"
+    ],
+    [
+     "Bağlar",
+     "Lig. sacroiliacum anterius (dünn), interosseum (das kräftigste – zwischen beiden Knochen), posterius; dazu Lig. iliolumbale, sacrotuberale und sacrospinale",
+     "Bänder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Sakroiliitis ist ein Frühzeichen seronegativer Spondyloarthritiden wie des Morbus Bechterew.",
+    "Sie ist eine oft übersehene Ursache von Kreuz- und Hüftschmerzen."
+   ],
+   "tus": [
+    "Der vordere Teil des Iliosakralgelenks ist synovial, der hintere eine Syndesmose.",
+    "Die Sakroiliitis ist ein frühes, typisches Zeichen des Morbus Bechterew.",
+    "Der obere Teil des Iliosakralgelenks ist bindegewebig (Syndesmose), der untere vordere Teil ein echtes Gelenk; im Alter kann es fibrosieren."
+   ],
+   "related": [
+    "os-sacrum",
+    "os-coxae",
+    "ligg-pelvis"
+   ],
+   "models": [
+    "Sacro-iliac joint"
+   ],
+   "aliases": [
+    "ISG",
+    "Iliosakral"
+   ]
+  },
+  {
+   "id": "symphysis-pubica",
+   "tr": "Schambeinfuge",
+   "la": "Symphysis pubica",
+   "en": "Pubic symphysis",
+   "group": "Gelenke der unteren Extremität",
+   "region": "pelvis",
+   "summary": "Die Verbindung der beiden Schambeine in der Mittellinie über eine Faserknorpelscheibe (Discus interpubicus).",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Symphyse (sekundär knorpeliges Gelenk)",
+     "Gelenktyp"
+    ],
+    [
+     "Bağlar",
+     "Lig. pubicum superius, Lig. pubicum inferius (arcuatum)",
+     "Bänder"
+    ],
+    [
+     "Hareket",
+     "Sehr gering; weitet sich bei der Geburt etwas",
+     "Bewegung"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Zwischen den mit hyalinem Knorpel überzogenen Flächen der beiden Schambeine liegt der faserknorpelige Discus interpubicus. Lig. pubicum superius oben und Lig. pubicum inferius (arcuatum) unten verstärken die Verbindung. In der Schwangerschaft lockert sie sich unter dem Einfluss von Relaxin."
+    ]
+   ],
+   "clinical": [
+    "Eine Symphysenlockerung (Diastase) in der Schwangerschaft kann das Gehen schmerzhaft machen.",
+    "Die Osteitis pubis verursacht bei Sportlern Leistenschmerzen."
+   ],
+   "tus": [
+    "In der Schwangerschaft kann sich die Symphyse unter Relaxin um einige Millimeter erweitern.",
+    "Der Oberrand der Symphyse ist die vordere Grenze des Beckeneingangs; die leere Blase liegt dahinter."
+   ],
+   "related": [
+    "os-coxae",
+    "art-sacroiliaca"
+   ],
+   "models": [
+    "Pubic symphysis",
+    "Interpubic disc",
+    "Superior pubic ligament",
+    "Inferior pubic ligament"
+   ],
+   "aliases": [
+    "Symphyse",
+    "Symphysis pubica"
+   ]
+  },
+  {
+   "id": "ligg-pelvis",
+   "tr": "Bänder des Beckens",
+   "la": "Ligamenta pelvis",
+   "en": "Ligaments of pelvis",
+   "group": "Gelenke der unteren Extremität",
+   "region": "pelvis",
+   "summary": "Kräftige Bänder zwischen Kreuzbein und Hüftbein, die die Incisurae ischiadicae zu Foramina schließen, sowie die Membran, die das Foramen obturatum verschließt.",
+   "facts": [
+    [
+     "Lig. sacrotuberale",
+     "Vom Rand von Kreuz- und Steißbein zum Tuber ischiadicum",
+     "Lig. sacrotuberale"
+    ],
+    [
+     "Lig. sacrospinale",
+     "Vom Rand von Kreuz- und Steißbein zur Spina ischiadica",
+     "Lig. sacrospinale"
+    ],
+    [
+     "Oluşan delikler",
+     "Foramen ischiadicum majus (M. piriformis, Glutealgefäße und -nerven, N. ischiadicus) und minus (Sehne des M. obturatorius internus, N. pudendus)",
+     "Gebildete Foramina"
+    ],
+    [
+     "Membrana obturatoria",
+     "Verschließt das Foramen obturatum und lässt oben den Canalis obturatorius frei",
+     "Membrana obturatoria"
+    ],
+    [
+     "Lig. iliolumbale",
+     "Vom Querfortsatz L5 zum Beckenkamm",
+     "Lig. iliolumbale"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Pudendusblockade (unter der Geburt) erfolgt direkt neben der Spina ischiadica im Bereich des Lig. sacrospinale."
+   ],
+   "tus": [
+    "Lig. sacrospinale und sacrotuberale verhindern das Vorkippen des Kreuzbeins (Nutation).",
+    "Das Lig. iliolumbale verbindet den Querfortsatz L5 mit dem Beckenkamm und begrenzt das Vorgleiten von L5."
+   ],
+   "related": [
+    "os-sacrum",
+    "os-coxae",
+    "art-sacroiliaca",
+    "n-ischiadicus"
+   ],
+   "models": [
+    "Sacrotuberous ligament",
+    "Sacrospinous ligament",
+    "Obturator membrane",
+    "Iliolumbar ligament"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "art-coxae",
+   "tr": "Hüftgelenk",
+   "la": "Articulatio coxae",
+   "en": "Hip joint",
+   "group": "Gelenke der unteren Extremität",
+   "region": "pelvis",
+   "summary": "Kugelgelenk zwischen Femurkopf und Hüftpfanne (Acetabulum). Dank der tiefen Pfanne und der kräftigen Bänder ist es weit stabiler als das Schultergelenk.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Synoviales Kugelgelenk (Nussgelenk, Enarthrose)",
+     "Gelenktyp"
+    ],
+    [
+     "Eklem yüzleri",
+     "Caput femoris – Facies lunata acetabuli; Labrum acetabuli und Lig. transversum acetabuli vertiefen die Pfanne",
+     "Gelenkflächen"
+    ],
+    [
+     "Bağlar",
+     "Lig. iliofemorale (Y-Band – stärkstes Band des Körpers, verhindert Überstreckung), Lig. pubofemorale, Lig. ischiofemorale, Lig. capitis femoris, Zona orbicularis",
+     "Bänder"
+    ],
+    [
+     "Hareketler",
+     "Flexion (~120°), Extension (~20°), Abduktion, Adduktion, Innen- und Außenrotation",
+     "Bewegungen"
+    ],
+    [
+     "Kanlanma",
+     "A. circumflexa femoris medialis (hauptsächlich) und lateralis, A. obturatoria (Arterie des Lig. capitis femoris)",
+     "Blutversorgung"
+    ],
+    [
+     "İnnervasyon",
+     "Äste von N. femoralis, N. obturatorius und N. ischiadicus – Hüftschmerz kann ins Knie ausstrahlen",
+     "Innervation"
+    ]
+   ],
+   "sections": [
+    [
+     "Kapsel und Schenkelhals",
+     "Vorn reicht die Kapsel bis zur Linea intertrochanterica und umschließt den ganzen Schenkelhals, hinten nur dessen mediale 2/3. Schenkelhalsfrakturen liegen daher vorn vollständig intrakapsulär. Die Retinakulumarterien zum Femurkopf verlaufen unter den auf den Hals umgeschlagenen Kapselfasern."
+    ]
+   ],
+   "clinical": [
+    "Die Hüftdysplasie wird beim Neugeborenen mit den Ortolani- und Barlow-Manövern gesucht.",
+    "Die hintere Hüftluxation (z. B. Knie gegen das Armaturenbrett) kann den N. ischiadicus schädigen; das Bein ist verkürzt, gebeugt, adduziert und innenrotiert.",
+    "Fortgeschrittene Koxarthrose erfordert eine Hüfttotalendoprothese; der Schmerz kann in Leiste und Knie empfunden werden."
+   ],
+   "tus": [
+    "Das Hüftgelenk ist in Extension, Abduktion und Innenrotation am stabilsten (Bänder gespannt).",
+    "Die Hüftdysplasie wird beim Neugeborenen mit Ortolani- und Barlow-Test gesucht."
+   ],
+   "related": [
+    "femur",
+    "os-coxae",
+    "m-iliopsoas",
+    "m-gluteus-maximus",
+    "m-gluteus-medius"
+   ],
+   "models": [
+    "Hip joint"
+   ],
+   "aliases": [
+    "Hüfte"
+   ]
+  },
+  {
+   "id": "ligg-art-coxae",
+   "tr": "Bänder und Labrum des Hüftgelenks",
+   "la": "Ligamenta et labrum articulationis coxae",
+   "en": "Ligaments and labrum of hip",
+   "group": "Gelenke der unteren Extremität",
+   "region": "pelvis",
+   "summary": "Drei kräftige Bänder (Lig. iliofemorale, pubofemorale, ischiofemorale) umschlingen die Hüftkapsel spiralig; im Stand „schrauben“ sie sich fest und pressen den Femurkopf in die Pfanne. Innen liegen Labrum, Lig. transversum acetabuli und Lig. capitis femoris.",
+   "facts": [
+    [
+     "Lig. iliofemorale",
+     "Von Spina iliaca anterior inferior und Pfannenrand zur Linea intertrochanterica; umgekehrt Y-förmig (Bigelow-Band); das stärkste Band des Körpers – verhindert die Überstreckung und das Zurückkippen des Beckens im Stand",
+     "Lig. iliofemorale"
+    ],
+    [
+     "Lig. pubofemorale",
+     "Vom oberen Schambeinast zum unteren vorderen Kapselteil; verhindert übermäßige Abduktion",
+     "Lig. pubofemorale"
+    ],
+    [
+     "Lig. ischiofemorale",
+     "Vom Sitzbein spiralig zur Kapselrückseite; begrenzt übermäßige Innenrotation und Streckung",
+     "Lig. ischiofemorale"
+    ],
+    [
+     "Zona orbicularis",
+     "Tiefe, ringförmige Kapselfasern um den Schenkelhals; erschweren die Luxation des Femurkopfs",
+     "Zona orbicularis"
+    ],
+    [
+     "İç yapılar",
+     "Labrum acetabuli (vertieft die Pfanne), Lig. transversum acetabuli (überbrückt die Incisura), Lig. capitis femoris (zur Fovea capitis)",
+     "Innere Strukturen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Das femoroazetabuläre Impingement (FAI) und Labrumrisse sind wichtige Ursachen von Leistenschmerzen bei jungen Erwachsenen.",
+    "Das Lig. iliofemorale dient bei der Reposition einer Hüftluxation als Drehpunkt; da es intakt bleibt, liegt das Bein bei der Luxation in typischer Stellung."
+   ],
+   "tus": [
+    "Das Lig. iliofemorale (Bigelow-Y-Band) ist das stärkste Band des Körpers und verhindert die Überstreckung der Hüfte.",
+    "Die Hüftbänder spannen sich in Streckung und bringen das Gelenk in seine stabilste (verriegelte) Stellung; in Beugung erschlaffen sie."
+   ],
+   "related": [
+    "art-coxae",
+    "acetabulum",
+    "femur",
+    "os-coxae"
+   ],
+   "models": [
+    "Transverse part of iliofemoral ligament",
+    "Descending part of iliofemoral ligament",
+    "Pubofemoral ligament",
+    "Ischiofemoral ligament",
+    "Zona orbicularis",
+    "Ligament of head of femur",
+    "Acetabular labrum",
+    "Transverse acetabular ligament",
+    "Articular capsule of hip joint"
+   ],
+   "aliases": [
+    "Lig. iliofemorale",
+    "Y-Band",
+    "Bigelow",
+    "Labrum acetabuli"
+   ]
+  },
+  {
+   "id": "art-genus",
+   "tr": "Kniegelenk",
+   "la": "Articulatio genus",
+   "en": "Knee joint",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Das größte und komplexeste Gelenk des Körpers. Es besteht aus dem Gelenk zwischen Femur- und Tibiakondylen (femorotibial) und dem zwischen Patella und Femur (femoropatellar); seine Stabilität beruht vor allem auf Bändern und Muskeln.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Synoviales bikondyläres Gelenk (Dreh-Scharnier-Gelenk)",
+     "Gelenktyp"
+    ],
+    [
+     "İç yapılar",
+     "Innenmeniskus (C-förmig, mit dem Innenband verwachsen) und Außenmeniskus (O-förmig, beweglicher); vorderes und hinteres Kreuzband; Corpus adiposum infrapatellare (Hoffa-Fettkörper)",
+     "Innere Strukturen"
+    ],
+    [
+     "Dış bağlar",
+     "Lig. collaterale tibiale (Innenband), Lig. collaterale fibulare (Außenband), Lig. patellae, Lig. popliteum obliquum und arcuatum",
+     "Äußere Bänder"
+    ],
+    [
+     "Hareketler",
+     "Flexion (~140°), Extension; bei gebeugtem Knie begrenzte Rotation; Schlussrotation in voller Streckung durch Innenrotation des Femurs (Screw-home)",
+     "Bewegungen"
+    ],
+    [
+     "Bursalar",
+     "Bursa suprapatellaris (mit der Gelenkhöhle verbunden), Bursa praepatellaris, infrapatellaris, anserina",
+     "Schleimbeutel"
+    ]
+   ],
+   "sections": [
+    [
+     "Kreuzbänder",
+     "Das vordere Kreuzband (VKB) verhindert das Vorgleiten der Tibia gegenüber dem Femur, das hintere (HKB) das Zurückgleiten. Benannt sind sie nach ihrem tibialen Ansatz."
+    ]
+   ],
+   "clinical": [
+    "„Unhappy Triad“ (O'Donoghue): kombinierte Verletzung von Innenband, VKB und Innenmeniskus durch einen Stoß gegen die Knieaußenseite.",
+    "Beim VKB-Riss sind vordere Schublade und Lachman-Test positiv.",
+    "Meniskusrisse verursachen Gelenkspaltschmerz, Einklemmungen und einen positiven McMurray-Test.",
+    "Eine Baker-Zyste (Poplitealzyste) in der Kniekehle ist häufig."
+   ],
+   "tus": [
+    "Das Knie hat drei Kompartimente: mediales und laterales femorotibiales sowie femoropatellares.",
+    "Die Bursa suprapatellaris steht mit der Gelenkhöhle in Verbindung; dort tastet man den Erguss (tanzende Patella)."
+   ],
+   "related": [
+    "femur",
+    "tibia",
+    "patella",
+    "meniscus",
+    "ligg-cruciata",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Knee joint"
+   ],
+   "aliases": [
+    "Knie"
+   ]
+  },
+  {
+   "id": "meniscus",
+   "tr": "Menisken",
+   "la": "Menisci articulationis genus",
+   "en": "Menisci of knee",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Zwei im Querschnitt dreieckige Faserknorpelringe zwischen Femur- und Tibiakondylen. Sie verbessern die Passung der Gelenkflächen und verteilen die Last.",
+   "facts": [
+    [
+     "Medial menisküs",
+     "C-förmig und breit; mit dem Innenband verwachsen, daher weniger beweglich und häufiger gerissen",
+     "Innenmeniskus"
+    ],
+    [
+     "Lateral menisküs",
+     "Annähernd O-förmig, kleiner und beweglicher; mit dem M. popliteus verbunden",
+     "Außenmeniskus"
+    ],
+    [
+     "Bağlantılar",
+     "Ligg. meniscotibialia, Lig. transversum genus, Ligg. meniscofemoralia",
+     "Verbindungen"
+    ],
+    [
+     "Kanlanma",
+     "Nur das äußere Drittel (rote Zone) ist durchblutet; der innere Teil heilt schlecht",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Funktion",
+     "Die Menisken tragen etwa die Hälfte der Last im Knie, machen die Gelenkflächen kongruent, dämpfen Stöße und verteilen die Gelenkflüssigkeit. Die Entfernung eines Meniskus (Meniskektomie) führt zu früher Arthrose, daher wird wann immer möglich genäht."
+    ]
+   ],
+   "clinical": [
+    "Eine plötzliche Drehung des gebeugten, belasteten Knies reißt einen Meniskus; ein Korbhenkelriss kann das Knie blockieren."
+   ],
+   "tus": [
+    "Das äußere Drittel der Menisken ist durchblutet (rote Zone) und nahtfähig; die inneren zwei Drittel sind gefäßlos.",
+    "Korbhenkelrisse führen zur Gelenkblockade."
+   ],
+   "related": [
+    "art-genus",
+    "ligg-cruciata",
+    "tibia"
+   ],
+   "models": [
+    "Medial meniscus",
+    "Lateral meniscus",
+    "Transverse ligament of knee"
+   ],
+   "aliases": [
+    "Meniskus"
+   ]
+  },
+  {
+   "id": "ligg-cruciata",
+   "tr": "Kreuzbänder",
+   "la": "Ligamenta cruciata genus",
+   "en": "Cruciate ligaments",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Zwei kräftige Bänder, die sich im Kniegelenk (aber außerhalb der Synovialmembran) kreuzen: das vordere Kreuzband (VKB) und das hintere Kreuzband (HKB).",
+   "facts": [
+    [
+     "Ön çapraz bağ",
+     "Von der Area intercondylaris anterior der Tibia zur Innenfläche des lateralen Femurkondylus; verhindert das Vorgleiten der Tibia und die Überstreckung",
+     "Vorderes Kreuzband"
+    ],
+    [
+     "Arka çapraz bağ",
+     "Von der Area intercondylaris posterior der Tibia zur Außenfläche des medialen Femurkondylus; verhindert das Zurückgleiten der Tibia; das stärkere der beiden",
+     "Hinteres Kreuzband"
+    ],
+    [
+     "Kanlanma",
+     "A. media genus (A. poplitea)",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Lage",
+     "Die Kreuzbänder liegen innerhalb der Gelenkkapsel, aber außerhalb der Synovialmembran (intrakapsulär, extrasynovial). Das vordere Kreuzband zieht von vorn-medial nach hinten-lateral, das hintere von vorn-lateral nach hinten-medial; sie überkreuzen sich X-förmig."
+    ]
+   ],
+   "clinical": [
+    "VKB-Risse entstehen bei Sportlern durch plötzliche Richtungswechsel und Landungen; typisch sind ein „Plopp“ und rasche Schwellung (Hämarthros).",
+    "HKB-Risse entstehen bei Armaturenbrettverletzungen (gebeugtes Knie prallt aufs Armaturenbrett); die hintere Schublade ist positiv."
+   ],
+   "tus": [
+    "Das VKB zieht von der Area intercondylaris anterior der Tibia zur Innenfläche des lateralen Kondylus, das HKB von der Area intercondylaris posterior zur Außenfläche des medialen Kondylus.",
+    "Die Kreuzbänder liegen intrakapsulär, aber extrasynovial."
+   ],
+   "related": [
+    "art-genus",
+    "meniscus",
+    "femur",
+    "tibia"
+   ],
+   "models": [
+    "Anterior cruciate ligament",
+    "Posterior cruciate ligament"
+   ],
+   "aliases": [
+    "VKB",
+    "HKB",
+    "Kreuzband"
+   ]
+  },
+  {
+   "id": "ligg-collateralia-genus",
+   "tr": "Seitenbänder des Knies",
+   "la": "Ligamenta collateralia genus",
+   "en": "Collateral ligaments of knee",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Bänder, die Innen- und Außenseite des Knies sichern; sie verhindern das seitliche Aufklappen (Valgus/Varus).",
+   "facts": [
+    [
+     "İç (tibial) kollateral bağ",
+     "Epicondylus medialis femoris – Innenfläche der Tibia; breit und flach, mit dem Innenmeniskus verwachsen; hemmt Valgusstress",
+     "Innenband (Lig. collaterale tibiale)"
+    ],
+    [
+     "Dış (fibular) kollateral bağ",
+     "Epicondylus lateralis femoris – Caput fibulae; runder Strang, vom Meniskus getrennt; hemmt Varusstress",
+     "Außenband (Lig. collaterale fibulare)"
+    ],
+    [
+     "Gerginlik",
+     "Beide sind in voller Streckung gespannt",
+     "Spannung"
+    ]
+   ],
+   "sections": [
+    [
+     "Unterschiede",
+     "Das mediale Kollateralband ist mit Kapsel und Innenmeniskus verwachsen, daher kann der Innenmeniskus bei seinen Verletzungen mitbetroffen sein. Das laterale Kollateralband ist von Kapsel und Außenmeniskus getrennt; zwischen ihnen zieht die Popliteussehne."
+    ]
+   ],
+   "clinical": [
+    "Stöße gegen die Knieaußenseite belasten das Innenband; geprüft wird es mit dem Valgusstresstest."
+   ],
+   "tus": [
+    "Das Innenband ist breit und flach und mit dem Innenmeniskus verwachsen; das Außenband ist ein runder Strang ohne Meniskusverbindung.",
+    "Die Seitenbänder sind in Streckung gespannt und in Beugung locker."
+   ],
+   "related": [
+    "art-genus",
+    "meniscus"
+   ],
+   "models": [
+    "Superficial part of tibial collateral ligament",
+    "Deep part of tibial collateral ligament",
+    "Fibular collateral ligament"
+   ],
+   "aliases": [
+    "Innenband",
+    "Außenband",
+    "Kollateralband"
+   ]
+  },
+  {
+   "id": "ligg-genus-posteriora",
+   "tr": "Hintere und posterolaterale Bänder des Knies",
+   "la": "Ligamenta posteriora et posterolateralia genus",
+   "en": "Posterior and posterolateral ligaments of knee",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Die Rückseite der Kniekapsel wird durch das Lig. popliteum obliquum und arcuatum verstärkt. Zusammen mit dem lateralen Kollateralband, dem Lig. popliteofibulare und der Popliteussehne bilden sie die „posterolaterale Ecke“, die Varus- und Außenrotationsstabilität des Knies sichert.",
+   "facts": [
+    [
+     "Lig. popliteum obliquum",
+     "Ausläufer der Sehne des M. semimembranosus; zieht nach lateral oben; verstärkt die Kapselrückseite und begrenzt die Überstreckung",
+     "Lig. popliteum obliquum"
+    ],
+    [
+     "Lig. popliteum arcuatum",
+     "Entspringt am Fibulaköpfchen und zieht bogenförmig über die Popliteussehne in die Kapsel",
+     "Lig. popliteum arcuatum"
+    ],
+    [
+     "Lig. popliteofibulare",
+     "Von der Popliteussehne zum Fibulaköpfchen; wichtigster statischer Stabilisator der posterolateralen Ecke",
+     "Lig. popliteofibulare"
+    ],
+    [
+     "Arka-dış köşe bileşenleri",
+     "Laterales Kollateralband, Popliteussehne, Lig. popliteofibulare, Lig. popliteum arcuatum, Kapsel",
+     "Posterolaterale Ecke"
+    ],
+    [
+     "Meniskotibial bağlar",
+     "Befestigen Vorder- und Hinterhörner der Menisken an der Tibia (Ligg. coronaria)",
+     "Meniskotibiale Bänder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Verletzungen der posterolateralen Ecke begleiten meist Kreuzbandverletzungen; übersehen, scheitern Bandrekonstruktionen. Im Dial-Test ist die Außenrotation vermehrt.",
+    "Bei Verletzungen der posterolateralen Ecke kann auch der um das Fibulaköpfchen ziehende N. fibularis communis geschädigt werden."
+   ],
+   "tus": [
+    "Das Lig. popliteum obliquum ist ein Ausläufer der Semimembranosussehne.",
+    "Im Dial-Test spricht eine vermehrte Außenrotation nur bei 30° für eine isolierte posterolaterale Verletzung, bei 30° und 90° für eine kombinierte Verletzung von posterolateraler Ecke und hinterem Kreuzband."
+   ],
+   "related": [
+    "art-genus",
+    "ligg-collateralia-genus",
+    "ligg-cruciata",
+    "meniscus"
+   ],
+   "models": [
+    "Oblique popliteal ligament",
+    "Arcuate popliteal ligament",
+    "Popliteofibular ligament",
+    "Fibular collateral ligament",
+    "Posterior meniscotibial ligament (Lateral meniscus)",
+    "Posterior meniscotibial ligament (Medial meniscus)"
+   ],
+   "aliases": [
+    "posterolaterale Ecke",
+    "Lig. popliteum"
+   ]
+  },
+  {
+   "id": "artt-tibiofibulares",
+   "tr": "Tibiofibulargelenke",
+   "la": "Articulationes tibiofibulares",
+   "en": "Tibiofibular joints",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Das obere Synovialgelenk zwischen Tibia und Fibula, die untere Syndesmose und die Membrana interossea cruris zwischen den Schäften.",
+   "facts": [
+    [
+     "Üst eklem",
+     "Art. tibiofibularis: synoviales Plangelenk (Caput fibulae – Condylus lateralis tibiae)",
+     "Oberes Gelenk"
+    ],
+    [
+     "Alt eklem",
+     "Syndesmosis tibiofibularis: Lig. tibiofibulare anterius und posterius; stabilisiert die Malleolengabel",
+     "Unteres Gelenk"
+    ],
+    [
+     "Membrana interossea cruris",
+     "Ursprungsfläche der Unterschenkelmuskeln; trennt vordere und hintere Loge",
+     "Membrana interossea cruris"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die hohe Sprunggelenkverletzung ist ein Riss der Syndesmosenbänder und heilt langsamer."
+   ],
+   "tus": [
+    "Das proximale Tibiofibulargelenk ist ein synoviales Plangelenk, das distale eine Syndesmose.",
+    "Bei der Syndesmosenverletzung ist der Außenrotationstest positiv.",
+    "Die Kapsel des oberen Tibiofibulargelenks steht manchmal mit der Kniegelenkhöhle in Verbindung."
+   ],
+   "related": [
+    "tibia",
+    "fibula",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Superior tibiofibular joint",
+    "Tibiofibular syndesmosis",
+    "Interosseous membrane of leg"
+   ],
+   "aliases": [
+    "Syndesmose"
+   ]
+  },
+  {
+   "id": "ligg-tibiofibularia-distalia",
+   "tr": "Distale tibiofibulare Syndesmose",
+   "la": "Syndesmosis tibiofibularis",
+   "en": "Distal tibiofibular syndesmosis",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Bandhafte Verbindung der unteren Enden von Tibia und Fibula. Sie hält die Breite der Sprunggelenkgabel aufrecht; in Dorsalextension spreizt der Talus die Gabel leicht.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Syndesmose (fibröse Verbindung)",
+     "Gelenktyp"
+    ],
+    [
+     "Bağlar",
+     "Lig. tibiofibulare anterius, Lig. tibiofibulare posterius, Lig. tibiofibulare transversum (tiefer Teil des hinteren Bandes), interossäres Band (untere Fortsetzung der Membrana interossea)",
+     "Bänder"
+    ],
+    [
+     "İşlevi",
+     "Umgreift die Gabel fest; da der Talus vorn breiter ist, bewegt sich die Fibula in Dorsalextension etwas nach außen und oben",
+     "Funktion"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die hohe Sprunggelenksverletzung entsteht durch Außenrotation; die Syndesmosenbänder reißen und die Heilung dauert viel länger als bei einem Außenbandriss. Der Squeeze-Test ist positiv.",
+    "Bei der Maisonneuve-Fraktur reißen Syndesmose und Membrana interossea, und die Fibula bricht weit oben; bei Sprunggelenkverletzungen ist daher auch die Region unterhalb des Knies zu untersuchen."
+   ],
+   "tus": [
+    "Maisonneuve-Fraktur: Innenknöchelfraktur oder Deltabandruptur + Syndesmosenruptur + hohe Fibulafraktur.",
+    "Eine Erweiterung durch Syndesmosenverletzung wird im Röntgen am tibiofibularen Klarraum (clear space) beurteilt."
+   ],
+   "related": [
+    "artt-tibiofibulares",
+    "art-talocruralis",
+    "tibia",
+    "fibula"
+   ],
+   "models": [
+    "Anterior tibiofibular ligament",
+    "Posterior tibiofibular ligament",
+    "Transverse tibiofibular ligament",
+    "Tibiofibular syndesmosis"
+   ],
+   "aliases": [
+    "Syndesmose",
+    "hohe Sprunggelenksverletzung"
+   ]
+  },
+  {
+   "id": "art-talocruralis",
+   "tr": "Oberes Sprunggelenk",
+   "la": "Articulatio talocruralis",
+   "en": "Ankle joint",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Scharniergelenk zwischen der von Tibia und Fibula gebildeten Malleolengabel und der Trochlea tali.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Synoviales Scharniergelenk (Ginglymus)",
+     "Gelenktyp"
+    ],
+    [
+     "Eklem yüzleri",
+     "Untere Tibiafläche und Malleolus medialis, Malleolus lateralis – Trochlea tali",
+     "Gelenkflächen"
+    ],
+    [
+     "İç bağ",
+     "Lig. collaterale mediale (Lig. deltoideum): Pars tibionavicularis, tibiocalcanea, tibiotalaris anterior und posterior – sehr kräftig",
+     "Innenband"
+    ],
+    [
+     "Dış bağlar",
+     "Lig. talofibulare anterius (am häufigsten gerissen), Lig. calcaneofibulare, Lig. talofibulare posterius",
+     "Äußere Bänder"
+    ],
+    [
+     "Hareketler",
+     "Dorsalextension (~20°) und Plantarflexion (~50°); Inversion–Eversion erfolgen im unteren Sprunggelenk",
+     "Bewegungen"
+    ],
+    [
+     "Stabilite",
+     "In Dorsalextension am stabilsten, da die Talusrolle vorn breiter ist; in Plantarflexion anfällig für Umknicken",
+     "Stabilität"
+    ]
+   ],
+   "sections": [
+    [
+     "Knöchelgabel",
+     "Die Unterfläche der Tibia und die beiden Knöchel bilden eine Gabel, die den Talus von drei Seiten umfasst. Der Außenknöchel reicht tiefer und liegt weiter hinten als der Innenknöchel; deshalb ist die Eversion stärker eingeschränkt als die Inversion. Bi- und trimalleoläre Frakturen zerstören die Gabel."
+    ]
+   ],
+   "clinical": [
+    "Die meisten Umknicktraumen erfolgen in Plantarflexion + Inversion, zuerst reißt das Lig. talofibulare anterius.",
+    "Die Ottawa-Regeln entscheiden, ob nach einer Sprunggelenkverletzung geröntgt werden muss.",
+    "Pott-Fraktur: bei Eversionsverletzung Riss des Lig. deltoideum oder Innenknöchelfraktur zusammen mit einer Fibulafraktur."
+   ],
+   "tus": [
+    "Das Lig. deltoideum hat vier Teile (tibionavikulär, tibiokalkaneal, vorderer und hinterer tibiotalar) und begrenzt die Eversion.",
+    "Die Ottawa-Regeln bestimmen die Röntgenindikation nach Sprunggelenktrauma."
+   ],
+   "related": [
+    "tibia",
+    "fibula",
+    "talus",
+    "artt-pedis"
+   ],
+   "models": [
+    "Ankle joint",
+    "Lateral collateral ligament of ankle",
+    "Medial collateral ligament of ankle"
+   ],
+   "aliases": [
+    "Sprunggelenk",
+    "OSG"
+   ]
+  },
+  {
+   "id": "ligg-talocruralia-lateralia",
+   "tr": "Außenbänder des Sprunggelenks",
+   "la": "Ligamentum collaterale laterale articulationis talocruralis",
+   "en": "Lateral ligaments of ankle",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Drei getrennte Bänder vom Außenknöchel zu Talus und Calcaneus. Da sie viel schwächer sind als das Deltaband auf der Innenseite, sind sie beim Umknicken die am häufigsten verletzten Strukturen.",
+   "facts": [
+    [
+     "Lig. talofibulare anterius",
+     "Vorderrand des Außenknöchels – Talushals; flach und das schwächste Band; in Plantarflexion gespannt",
+     "Lig. talofibulare anterius"
+    ],
+    [
+     "Lig. calcaneofibulare",
+     "Spitze des Außenknöchels – Außenfläche des Calcaneus; strangförmig; zieht unter den Fibularissehnen; sichert oberes und unteres Sprunggelenk",
+     "Lig. calcaneofibulare"
+    ],
+    [
+     "Lig. talofibulare posterius",
+     "Fossa malleoli lateralis – Processus posterior tali; das kräftigste Außenband, reißt am seltensten",
+     "Lig. talofibulare posterius"
+    ],
+    [
+     "Yaralanma sırası",
+     "Zuerst reißt das Lig. talofibulare anterius, dann das Lig. calcaneofibulare, zuletzt das Lig. talofibulare posterius",
+     "Verletzungsreihenfolge"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die vordere Schublade prüft das Lig. talofibulare anterius, der Talusvorschub in Inversion (Taluskippung) das Lig. calcaneofibulare.",
+    "Wiederholte Distorsionen können zu chronischer Außenbandinstabilität führen; eine operative Rekonstruktion (Broström) ist möglich."
+   ],
+   "tus": [
+    "85 % der Sprunggelenksdistorsionen sind Inversionstraumen, zuerst reißt das Lig. talofibulare anterius.",
+    "Das Lig. calcaneofibulare ist das einzige Außenband, das sowohl das obere als auch das untere Sprunggelenk sichert."
+   ],
+   "related": [
+    "art-talocruralis",
+    "fibula",
+    "talus",
+    "calcaneus",
+    "lig-deltoideum"
+   ],
+   "models": [
+    "Anterior talofibular ligament",
+    "Calcaneofibular ligament",
+    "Posterior talofibular ligament"
+   ],
+   "aliases": [
+    "Außenband",
+    "LFTA",
+    "Supinationstrauma"
+   ]
+  },
+  {
+   "id": "lig-deltoideum",
+   "tr": "Deltaband (Innenband des Sprunggelenks)",
+   "la": "Ligamentum collaterale mediale (deltoideum)",
+   "en": "Deltoid ligament",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Ein sehr kräftiges, dreieckiges Band, das vom Innenknöchel fächerförmig zu Kahnbein, Fersenbein und Sprungbein zieht. Es verhindert das Aufklappen des Sprunggelenks bei Eversion und Außenrotation.",
+   "facts": [
+    [
+     "Yüzeyel kısımlar",
+     "Pars tibionavicularis (zur Tuberositas ossis navicularis und zum Pfannenband), Pars tibiocalcanea (zum Sustentaculum tali)",
+     "Oberflächliche Anteile"
+    ],
+    [
+     "Derin kısımlar",
+     "Pars tibiotalaris anterior und posterior (zur Innenfläche des Talus); der tiefe Teil ist der Hauptstabilisator gegen das seitliche Abgleiten des Talus",
+     "Tiefe Anteile"
+    ],
+    [
+     "İşlevi",
+     "Begrenzt die Eversion, stützt die Innenseite des Sprunggelenks und das mediale Längsgewölbe",
+     "Funktion"
+    ],
+    [
+     "Güç",
+     "So kräftig, dass bei erzwungener Eversion eher der Innenknöchel ausreißt (Abrissfraktur), als dass das Band reißt",
+     "Festigkeit"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Reißt das Deltaband bei einem Eversions-Außenrotations-Trauma, gleitet der Talus in der Gabel nach lateral; unbehandelt entsteht eine Sprunggelenksarthrose.",
+    "Beim erworbenen Plattfuß des Erwachsenen geht die Insuffizienz des M. tibialis posterior mit einer Lockerung von Delta- und Pfannenband einher."
+   ],
+   "tus": [
+    "Der tiefe tibiotalare Teil des Deltabands ist die wichtigste Struktur gegen das laterale Abgleiten des Talus.",
+    "Bei Eversionsverletzungen kann statt eines Deltabandrisses der Innenknöchel brechen (Mechanismus der Pott-Fraktur)."
+   ],
+   "related": [
+    "art-talocruralis",
+    "tibia",
+    "talus",
+    "os-naviculare",
+    "ligg-talocruralia-lateralia"
+   ],
+   "models": [
+    "Tibionavicular ligament",
+    "Tibiocalcaneal ligament",
+    "Posterior tibiotalar ligament",
+    "Medial collateral ligament of ankle"
+   ],
+   "aliases": [
+    "Deltaband",
+    "Lig. collaterale mediale",
+    "Innenband"
+   ]
+  },
+  {
+   "id": "artt-pedis",
+   "tr": "Gelenke des Fußes",
+   "la": "Articulationes pedis",
+   "en": "Joints of foot",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Die Gelenke zwischen den Fußwurzelknochen (unteres Sprunggelenk, Art. talocalcaneonavicularis, calcaneocuboidea), die Tarsometatarsal-, Metatarsophalangeal- und Interphalangealgelenke sowie die Bänder der Fußgewölbe.",
+   "facts": [
+    [
+     "Subtalar eklem",
+     "Talus – Calcaneus; hier erfolgt der Großteil von Inversion und Eversion",
+     "Unteres Sprunggelenk"
+    ],
+    [
+     "Transvers tarsal eklem (Chopart)",
+     "Talokalkaneonavikular- + Kalkaneokuboidgelenk",
+     "Chopart-Gelenk"
+    ],
+    [
+     "Tarsometatarsal eklem (Lisfranc)",
+     "Fußwurzelknochen und Mittelfußbasen; die Basis des 2. Mittelfußknochens ist der Schlussstein",
+     "Lisfranc-Gelenk"
+    ],
+    [
+     "Kemer bağları",
+     "Lig. calcaneonaviculare plantare (Pfannenband – stützt den Taluskopf), Lig. plantare longum, Lig. calcaneocuboideum plantare, Aponeurosis plantaris",
+     "Gewölbebänder"
+    ],
+    [
+     "Ayak kemerleri",
+     "Inneres und äußeres Längsgewölbe, Quergewölbe",
+     "Fußgewölbe"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Lisfranc-Verletzungen werden leicht übersehen und führen zu chronischen Schmerzen und Fehlstellungen.",
+    "Eine Insuffizienz des Pfannenbands trägt zum Plattfuß (Pes planus) bei.",
+    "Der Hallux rigidus ist eine Arthrose des Großzehengrundgelenks; die eingeschränkte Dorsalextension schmerzt in der Abstoßphase."
+   ],
+   "tus": [
+    "Chopart-Gelenk (Art. tarsi transversa): talonavikular + kalkaneokuboidal; Lisfranc-Gelenk: Tarsometatarsalgelenke.",
+    "Das Pfannenband stützt den Taluskopf; seine Insuffizienz führt zum Plattfuß."
+   ],
+   "related": [
+    "talus",
+    "calcaneus",
+    "os-naviculare",
+    "ossa-metatarsi",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Joints of foot",
+    "Intertarsal joints",
+    "Tarsometatarsal joints",
+    "Intermetatarsal joints",
+    "Metatarsophalangeal joints",
+    "Interphalangeal joints of foot",
+    "Long plantar ligament",
+    "Plantar calcaneonavicular ligament"
+   ],
+   "aliases": [
+    "USG",
+    "Lisfranc",
+    "Chopart"
+   ]
+  },
+  {
+   "id": "art-subtalaris",
+   "tr": "Unteres Sprunggelenk (Subtalargelenk)",
+   "la": "Articulatio subtalaris",
+   "en": "Subtalar joint",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Das Gelenk zwischen der Unterfläche des Talus und der Oberfläche des Calcaneus. Hier erfolgen die meisten Bewegungen, die den inneren und äußeren Fußrand anheben (Inversion und Eversion); es ermöglicht das Gehen auf unebenem Boden.",
+   "facts": [
+    [
+     "Eklem yüzleri",
+     "Anatomisches unteres Sprunggelenk: hintere Kalkanealfläche des Talus – hintere Talusfläche des Calcaneus. Das klinische (funktionelle) untere Sprunggelenk umfasst zusätzlich das Talokalkaneonavikulargelenk mit vorderer und mittlerer Facette",
+     "Gelenkflächen"
+    ],
+    [
+     "Eklem tipi",
+     "Echtes planes Gelenk (funktionell einachsig mit schräger Achse)",
+     "Gelenktyp"
+    ],
+    [
+     "Bağlar",
+     "Lig. talocalcaneum interosseum (im Sinus tarsi, das kräftigste), Lig. talocalcaneum laterale, mediale, anterius und posterius; auch das Lig. calcaneofibulare sichert es",
+     "Bänder"
+    ],
+    [
+     "Hareketler",
+     "Inversion-Eversion (Teilbewegungen der Supination-Pronation)",
+     "Bewegungen"
+    ],
+    [
+     "Sinus tarsi",
+     "Nach lateral offener Kanal zwischen Talus und Calcaneus; enthält das interossäre Band und Fett",
+     "Sinus tarsi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kalkaneusfrakturen betreffen meist die subtalare Gelenkfläche und können zu bleibender Arthrose des unteren Sprunggelenks führen.",
+    "Das Sinus-tarsi-Syndrom verursacht nach Distorsionen anhaltende Schmerzen am äußeren Fußrand."
+   ],
+   "tus": [
+    "Inversion und Eversion erfolgen vor allem im unteren Sprunggelenk und in der Chopart-Gelenklinie, nicht im oberen Sprunggelenk.",
+    "Die talokalkaneare Koalition ist die häufigste Koalition des Talokalkaneonavikulargelenks und zeigt das „C-Zeichen“."
+   ],
+   "related": [
+    "talus",
+    "calcaneus",
+    "art-talocruralis",
+    "artt-pedis",
+    "art-tarsi-transversa"
+   ],
+   "models": [
+    "Talocalcaneal interosseous ligament",
+    "Anterior talocalcaneal ligament",
+    "Lateral talocalcaneal ligament",
+    "Medial talocalcaneal ligament",
+    "Posterior talocalcaneal ligament"
+   ],
+   "aliases": [
+    "unteres Sprunggelenk",
+    "Subtalargelenk",
+    "Sinus tarsi"
+   ]
+  },
+  {
+   "id": "art-tarsi-transversa",
+   "tr": "Chopart-Gelenklinie (Articulatio tarsi transversa)",
+   "la": "Articulatio tarsi transversa",
+   "en": "Transverse tarsal (Chopart) joint",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "S-förmige Gelenklinie aus Talonavikular- und Kalkaneokuboidgelenk zwischen Rück- und Mittelfuß. Zusammen mit dem unteren Sprunggelenk beteiligt sie sich an Inversion und Eversion.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Talokalkaneonavikulargelenk (Taluskopf – Kahnbein und Pfannenband) und Kalkaneokuboidgelenk",
+     "Bestandteile"
+    ],
+    [
+     "Bağlar",
+     "Lig. bifurcatum (Y-Band: Pars calcaneonavicularis und calcaneocuboidea), Lig. talonaviculare, Lig. calcaneonaviculare plantare (Pfannenband), Lig. calcaneocuboideum plantare (kurzes Sohlenband), Lig. plantare longum",
+     "Bänder"
+    ],
+    [
+     "Hareketler",
+     "Inversion-Eversion, Abduktion-Adduktion des Vorfußes",
+     "Bewegungen"
+    ],
+    [
+     "Cerrahi önemi",
+     "Eine der Amputationslinien des Fußes (Chopart-Amputation)",
+     "Chirurgische Bedeutung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Chopart-Verletzungen können als Sprunggelenksdistorsion verkannt werden; eine Zerrung des Lig. bifurcatum verursacht Schmerzen am äußeren Fußrand vor dem Sinus tarsi.",
+    "Nach Chopart-Amputation kann der Stumpf durch den unausgeglichenen Zug der Achillessehne in Spitzfußstellung (Plantarflexion) kippen."
+   ],
+   "tus": [
+    "Das Lig. calcaneonaviculare plantare (Pfannenband) stützt den Taluskopf von unten und ist das Schlüsselband des medialen Längsgewölbes.",
+    "Die beiden Schenkel des Lig. bifurcatum ziehen vom Calcaneus zum Kahnbein und zum Würfelbein."
+   ],
+   "related": [
+    "artt-pedis",
+    "talus",
+    "calcaneus",
+    "os-naviculare",
+    "os-cuboideum",
+    "art-subtalaris"
+   ],
+   "models": [
+    "Talonavicular ligament",
+    "Calcaneocuboid ligament",
+    "Calcaneonavicular ligament",
+    "Dorsal calcaneocuboid ligament",
+    "Plantar calcaneocuboid ligament",
+    "Plantar calcaneonavicular ligament"
+   ],
+   "aliases": [
+    "Chopart",
+    "Talonavikulargelenk",
+    "Kalkaneokuboidgelenk"
+   ]
+  },
+  {
+   "id": "artt-tarsometatarsales",
+   "tr": "Lisfranc-Gelenklinie (Tarsometatarsalgelenke)",
+   "la": "Articulationes tarsometatarsales",
+   "en": "Tarsometatarsal (Lisfranc) joints",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Die Gelenke zwischen den drei Keilbeinen und dem Würfelbein einerseits und den Basen der fünf Mittelfußknochen andererseits. Die Verankerung der Basis des 2. Mittelfußknochens zwischen den Keilbeinen und das Lisfranc-Band sichern ihre Stabilität.",
+   "facts": [
+    [
+     "Eklem tipi",
+     "Echte plane Gelenke; drei getrennte Gelenkhöhlen (mediale, mittlere, laterale Säule)",
+     "Gelenktyp"
+    ],
+    [
+     "Eklem yüzleri",
+     "Mediales Keilbein – 1. Mittelfußknochen; mittleres und laterales Keilbein – 2. und 3. Mittelfußknochen; Würfelbein – 4. und 5. Mittelfußknochen",
+     "Gelenkflächen"
+    ],
+    [
+     "Lisfranc bağı",
+     "Kräftiges interossäres Band vom medialen Keilbein zur Basis des 2. Mittelfußknochens; zwischen den Basen des 1. und 2. Mittelfußknochens gibt es kein Band",
+     "Lisfranc-Band"
+    ],
+    [
+     "Diğer bağlar",
+     "Dorsale und plantare tarsometatarsale Bänder (die plantaren sind kräftiger), kuneometatarsale interossäre Bänder",
+     "Weitere Bänder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Lisfranc-Verletzung (tarsometatarsale Luxationsfraktur) entsteht bei Sturz auf den plantarflektierten Fuß oder Quetschung von hinten; typisch ist ein plantares Hämatom, und etwa 20 % werden bei der Erstvorstellung übersehen.",
+    "Die Lisfranc-Linie ist eine der Amputationshöhen am Fuß."
+   ],
+   "tus": [
+    "Ein Hämatom der Fußsohle (plantare Ekchymose) sollte an eine Lisfranc-Verletzung denken lassen.",
+    "Im Röntgenbild muss der mediale Rand des 2. Mittelfußknochens mit dem medialen Rand des mittleren Keilbeins fluchten; eine Stufe spricht für eine Lisfranc-Verletzung."
+   ],
+   "related": [
+    "artt-pedis",
+    "ossa-metatarsi",
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale",
+    "os-cuboideum"
+   ],
+   "models": [
+    "Dorsal tarsometatarsal ligaments",
+    "Plantar tarsometatarsal ligaments",
+    "Cuneometatarsal interosseous ligaments",
+    "Tarsometatarsal joints"
+   ],
+   "aliases": [
+    "Lisfranc",
+    "Tarsometatarsalgelenk"
+   ]
+  },
+  {
+   "id": "arcus-pedis",
+   "tr": "Fußgewölbe",
+   "la": "Arcus pedis",
+   "en": "Arches of foot",
+   "group": "Gelenke der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Die Fußknochen bilden keine flache Platte, sondern zwei Längs- und ein Quergewölbe. Die Gewölbe verteilen die Last zwischen Ferse und Mittelfußköpfchen und wirken beim Gehen als Stoßdämpfer und Hebel; sie werden durch die Knochenform, Bänder und Muskeln erhalten.",
+   "facts": [
+    [
+     "İç boyuna kemer",
+     "Calcaneus, Talus, Kahnbein, drei Keilbeine und 1.–3. Mittelfußknochen; hoch und elastisch; Schlussstein ist der Taluskopf",
+     "Mediales Längsgewölbe"
+    ],
+    [
+     "Dış boyuna kemer",
+     "Calcaneus, Würfelbein, 4.–5. Mittelfußknochen; flach, bodennah; Schlussstein ist das Würfelbein",
+     "Laterales Längsgewölbe"
+    ],
+    [
+     "Enine kemer",
+     "Keilbeine, Würfelbein und Mittelfußbasen; im Vorfuß am deutlichsten",
+     "Quergewölbe"
+    ],
+    [
+     "Pasif destekler",
+     "Plantaraponeurose (am wichtigsten – „Windenmechanismus“), Lig. plantare longum, Lig. calcaneocuboideum plantare, Lig. calcaneonaviculare plantare (Pfannenband)",
+     "Passive Stützen"
+    ],
+    [
+     "Aktif destekler",
+     "M. tibialis posterior, M. fibularis longus, M. tibialis anterior, M. flexor hallucis longus, kurze Fußsohlenmuskeln",
+     "Aktive Stützen"
+    ]
+   ],
+   "sections": [
+    [
+     "Windenmechanismus (Windlass)",
+     "In der Abstoßphase, wenn die Großzehe dorsalextendiert, wickelt sich die Plantaraponeurose um die Mittelfußköpfchen und spannt sich; sie zieht die Ferse nach vorn, hebt das mediale Längsgewölbe und macht den Fuß zu einem starren Hebel."
+    ]
+   ],
+   "clinical": [
+    "Der Plattfuß (Pes planus) ist ein Absinken des medialen Längsgewölbes; beim Erwachsenen ist die häufigste Ursache die Insuffizienz der Tibialis-posterior-Sehne.",
+    "Ein Hohlfuß (Pes cavus) kommt bei neuromuskulären Erkrankungen wie Charcot-Marie-Tooth vor.",
+    "Die Plantarfasziitis ist eine Degeneration der Plantaraponeurose an ihrem Kalkaneusansatz; typisch ist Fersenschmerz bei den ersten Schritten am Morgen."
+   ],
+   "tus": [
+    "Schlussstein des medialen Längsgewölbes ist der Taluskopf, des lateralen das Würfelbein; das Pfannenband (Lig. calcaneonaviculare plantare) stützt den Taluskopf von unten.",
+    "Die Sehnen von M. fibularis longus und M. tibialis anterior bilden unter dem Fuß einen „Steigbügel“, der Quer- und mediales Längsgewölbe stützt."
+   ],
+   "related": [
+    "artt-pedis",
+    "ossa-tarsi",
+    "talus",
+    "calcaneus",
+    "os-cuboideum",
+    "art-tarsi-transversa"
+   ],
+   "models": [
+    "Long plantar ligament",
+    "Plantar calcaneonavicular ligament",
+    "Plantar calcaneocuboid ligament",
+    "Talus",
+    "Calcaneus",
+    "Navicular bone"
+   ],
+   "aliases": [
+    "Fußgewölbe",
+    "Plattfuß",
+    "Plantaraponeurose"
+   ]
+  }
+ ]
+}

@@ -44,7 +44,7 @@ struct SearchView: View {
             .scrollContentBackground(.hidden)
             .themedBackground()
             .navigationTitle("Ara")
-            .searchable(text: $query, prompt: "Kemik, kas, organ, sinir…")
+            .searchable(text: $query, prompt: "Kemik, kas, eklem, bağ…")
             .navigationDestination(for: AtlasEntry.self) { EntryDetailView(entry: $0) }
             .task(id: query) {
                 try? await Task.sleep(for: .milliseconds(180))
@@ -68,7 +68,7 @@ struct SearchView: View {
             .listRowBackground(Theme.card)
         }
         Section("Örnek aramalar") {
-            ForEach(["Femur", "Kalp", "N. medianus", "Biceps", "Karaciğer", "Willis", "Böbrek", "Koroner"], id: \.self) { sample in
+            ForEach(["Femur", "Deltoid", "Biceps", String(localized: "Diz eklemi"), "Scapula", String(localized: "Menisküs"), "Psoas", "Atlas"], id: \.self) { sample in
                 Button {
                     query = sample
                 } label: {

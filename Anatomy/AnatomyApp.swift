@@ -13,8 +13,19 @@ struct AnatomyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView()
-                .environment(app)
+            ZStack {
+                if app.interfaceMounted {
+                    RootView()
+                }
+                if !app.launchFinished {
+                    SplashView(isReady: { app.interfaceMounted && app.atlasReady },
+                               onFigureShown: { app.interfaceMounted = true },
+                               onFinish: { app.launchFinished = true })
+                        .zIndex(1)
+                }
+            }
+            .environment(app)
+            .preferredColorScheme(.dark)
         }
     }
 }

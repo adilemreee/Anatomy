@@ -20,6 +20,33 @@ nonisolated struct PartTerm: Decodable, Sendable {
     let d: String?
 }
 
+/// A named feature of a bone (a process, surface, foramen…), from
+/// landmarks.json (tools/content/landmarks.py).
+nonisolated struct Landmark: Identifiable, Hashable, Sendable, Decodable {
+    /// English name, as on the specimen viewer's labels.
+    let name: String
+    let tr: String
+    let la: String
+    /// Short Turkish description.
+    let d: String
+    /// The atlas entry of the bone it lies on.
+    let entry: String
+    /// The 3D part the label sits on.
+    let part: String
+    /// How often the atlas and the question bank mention it.
+    let rank: Int
+    /// Several bones share it (a groove running over the skull bones).
+    let shared: Bool
+
+    var id: String { name }
+
+    /// "Büyük trokanter (Trochanter major)"; names that already carry the
+    /// Latin in brackets stay as they are.
+    var title: String {
+        la.isEmpty || tr.contains("(") || tr.localizedCaseInsensitiveCompare(la) == .orderedSame ? tr : "\(tr) (\(la))"
+    }
+}
+
 /// Read-only access to the written atlas content and the 3D glossary.
 @MainActor
 @Observable
@@ -28,16 +55,20 @@ final class AtlasStore {
     let entries: [AtlasEntry]
     /// Turkish dictionary of every part and group, keyed by lowercased English name.
     let terms: [String: PartTerm]
+    /// Bone landmarks of the entries in scope.
+    let landmarks: [Landmark]
     private(set) var glossary: [String: GlossaryTerm] = [:]
 
     @ObservationIgnored private let byID: [String: AtlasEntry]
     @ObservationIgnored private let byModel: [String: String]
+    @ObservationIgnored private let landmarksByEntry: [String: [Landmark]]
+    @ObservationIgnored private let landmarkByName: [String: Landmark]
     @ObservationIgnored private let searchIndex: [(entry: AtlasEntry, haystack: String)]
 
     init() {
         let decoder = JSONDecoder()
         var systems: [BodySystem] = []
-        if let url = Bundle.main.url(forResource: "atlas-systems", withExtension: "json"),
+        if let url = AppLanguage.url(for: "atlas-systems"),
            let data = try? Data(contentsOf: url) {
             do {
                 systems = try decoder.decode([BodySystem].self, from: data)
@@ -45,11 +76,13 @@ final class AtlasStore {
                 assertionFailure("atlas-systems.json: \(error)")
             }
         }
+        // The systems this edition covers (AppScope); the others stay in the bundle.
+        systems = systems.filter { AppScope.includes(system: $0.id) }
         self.systems = systems
 
         var entries: [AtlasEntry] = []
         for system in systems {
-            guard let url = Bundle.main.url(forResource: "atlas-\(system.id)", withExtension: "json"),
+            guard let url = AppLanguage.url(for: "atlas-\(system.id)"),
                   let data = try? Data(contentsOf: url) else { continue }
             do {
                 let file = try decoder.decode(EntryFile.self, from: data)
@@ -64,7 +97,7 @@ final class AtlasStore {
         }
         self.entries = entries
 
-        if let url = Bundle.main.url(forResource: "terms", withExtension: "json"),
+        if let url = AppLanguage.url(for: "terms"),
            let data = try? Data(contentsOf: url),
            let map = try? decoder.decode([String: PartTerm].self, from: data) {
             terms = map
@@ -76,12 +109,31 @@ final class AtlasStore {
         var byModel: [String: String] = [:]
         for entry in entries {
             byID[entry.id] = entry
-            for model in entry.models where byModel[model.lowercased()] == nil {
-                byModel[model.lowercased()] = entry.id
+        }
+        // A part belongs to the most specific entry that lists it: the psoas
+        // to "M. psoas major", not to the group entry "M. iliopsoas".
+        for entry in entries {
+            for model in entry.models {
+                let key = model.lowercased()
+                if let owner = byModel[key].flatMap({ byID[$0] }), owner.models.count <= entry.models.count { continue }
+                byModel[key] = entry.id
             }
         }
         self.byID = byID
         self.byModel = byModel
+
+        var landmarks: [Landmark] = []
+        if let url = AppLanguage.url(for: "landmarks"),
+           let data = try? Data(contentsOf: url) {
+            do {
+                landmarks = try decoder.decode([Landmark].self, from: data).filter { byID[$0.entry] != nil }
+            } catch {
+                assertionFailure("landmarks.json: \(error)")
+            }
+        }
+        self.landmarks = landmarks
+        landmarksByEntry = Dictionary(grouping: landmarks, by: \.entry)
+        landmarkByName = Dictionary(landmarks.map { ($0.name, $0) }, uniquingKeysWith: { first, _ in first })
         searchIndex = entries.map { entry in
             let text = ([entry.tr, entry.la, entry.en, entry.group] + entry.aliases).joined(separator: " ")
             return (entry, SearchText.fold(text))
@@ -107,6 +159,31 @@ final class AtlasStore {
     func entry(_ id: String) -> AtlasEntry? { byID[id] }
 
     func system(_ id: String) -> BodySystem? { systems.first { $0.id == id } }
+
+    /// A fact of an entry as written in the Turkish original, whatever the
+    /// app's language: question logic matches nerve names in it.
+    func canonicalFact(_ label: String, of entry: AtlasEntry) -> String? {
+        if AppLanguage.isTurkish { return entry.facts.first { $0.label == label }?.value }
+        return originalFacts(of: entry.systemID)[entry.id]?.first { $0.label == label }?.value
+    }
+
+    @ObservationIgnored private var originalFactsCache: [String: [String: [AtlasEntry.Fact]]] = [:]
+
+    private func originalFacts(of systemID: String) -> [String: [AtlasEntry.Fact]] {
+        if let cached = originalFactsCache[systemID] { return cached }
+        var map: [String: [AtlasEntry.Fact]] = [:]
+        if let url = Bundle.main.url(forResource: "atlas-\(systemID)", withExtension: "json"),
+           let data = try? Data(contentsOf: url),
+           let file = try? JSONDecoder().decode(EntryFile.self, from: data) {
+            for entry in file.entries { map[entry.id] = entry.facts }
+        }
+        originalFactsCache[systemID] = map
+        return map
+    }
+
+    func landmarks(of entryID: String) -> [Landmark] { landmarksByEntry[entryID] ?? [] }
+
+    func landmark(_ name: String) -> Landmark? { landmarkByName[name] }
 
     func entries(in systemID: String) -> [AtlasEntry] {
         entries.filter { $0.systemID == systemID }
@@ -212,7 +289,7 @@ enum SearchText {
 
     /// Lowercased with the diacritics kept ("diş", not "dış").
     nonisolated static func typed(_ text: String) -> String {
-        text.lowercased(with: Locale(identifier: "tr_TR")).trimmingCharacters(in: .whitespacesAndNewlines)
+        text.lowercased(with: AppLanguage.locale).trimmingCharacters(in: .whitespacesAndNewlines)
     }
 }
 
@@ -242,7 +319,7 @@ nonisolated struct SearchQuery: Sendable {
     init(_ text: String) {
         let folded = SearchText.fold(text)
         var forms = [folded]
-        for (word, term) in Self.everyday where (" " + folded + " ").contains(" " + word + " ") {
+        for (word, term) in Self.everyday where AppLanguage.isTurkish && (" " + folded + " ").contains(" " + word + " ") {
             let form = (" " + folded + " ").replacingOccurrences(of: " " + word + " ", with: " " + term + " ")
                 .trimmingCharacters(in: .whitespaces)
             if !forms.contains(form) { forms.append(form) }
@@ -330,6 +407,10 @@ nonisolated struct SearchQuery: Sendable {
     private static let vowelEndings: Set<String> = ["", "i", "in", "inin", "ini", "ine", "e", "a", "u", "un", "unun", "unu", "una"]
 
     private static func beginning(of word: String) -> Beginning {
+        // Other languages: only a plural "s" comes off ("muscles" finds "muscle").
+        guard AppLanguage.isTurkish else {
+            return Beginning(stem: word.count >= 5 && word.hasSuffix("s") ? String(word.dropLast()) : word, softened: nil)
+        }
         var stem = word
         for ending in ["lerinin", "larinin", "lerin", "larin", "leri", "lari", "ler", "lar", "nin", "nun", "in", "un", "si", "su", "i", "u"]
         where stem.hasSuffix(ending) && stem.count - ending.count >= 3 {

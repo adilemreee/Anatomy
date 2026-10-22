@@ -61,7 +61,7 @@ struct QuizSessionView: View {
             .confirmationDialog("Sınavı bitirmek istiyor musun?", isPresented: $confirmFinish, titleVisibility: .visible) {
                 Button("Bitir ve sonucu gör") { finish() }
             } message: {
-                Text(session.blankCount > 0 ? "\(session.blankCount) soru boş." : "Tüm soruları cevapladın.")
+                Text(session.blankCount > 0 ? String(localized: "\(session.blankCount) soru boş.") : String(localized: "Tüm soruları cevapladın."))
             }
             .confirmationDialog("Sınavdan çıkılsın mı?", isPresented: $confirmClose, titleVisibility: .visible) {
                 Button("Bitir ve sonucu gör") { finish() }
@@ -120,7 +120,7 @@ struct QuizSessionView: View {
                     Image(systemName: saved ? "bookmark.fill" : "bookmark")
                         .foregroundStyle(saved ? Theme.gold : Theme.textPrimary)
                 }
-                .accessibilityLabel(saved ? "İşareti kaldır" : "Soruyu işaretle")
+                .accessibilityLabel(saved ? String(localized: "İşareti kaldır") : String(localized: "Soruyu işaretle"))
                 if session.isExam {
                     Button("Bitir") { confirmFinish = true }
                         .fontWeight(.semibold)
@@ -166,7 +166,7 @@ struct QuizSessionView: View {
                 Button {
                     showNavigator = true
                 } label: {
-                    Label(session.isFlagged(session.index) ? "İşaretli" : "Sorular", systemImage: session.isFlagged(session.index) ? "flag.fill" : "square.grid.3x3")
+                    Label(session.isFlagged(session.index) ? String(localized: "İşaretli") : String(localized: "Sorular"), systemImage: session.isFlagged(session.index) ? "flag.fill" : "square.grid.3x3")
                 }
                 .buttonStyle(SecondaryButtonStyle())
 
@@ -203,7 +203,7 @@ struct QuizSessionView: View {
                     finish()
                 }
             } label: {
-                Text(session.index + 1 < session.questions.count ? "Sonraki soru" : "Sonucu gör")
+                Text(session.index + 1 < session.questions.count ? String(localized: "Sonraki soru") : String(localized: "Sonucu gör"))
             }
             .buttonStyle(PrimaryButtonStyle())
             .padding(.horizontal, 16)
@@ -281,13 +281,14 @@ struct QuestionContent: View {
                 }
                 TagView(text: question.kindTitle, color: question.clinical ? Theme.clinical : Theme.textSecondary,
                         systemImage: question.clinical ? "stethoscope" : nil)
-                if question.level == .tus {
-                    Text("TUS")
+                if question.level == .tus || (question.level == .basic && !question.isGenerated) {
+                    let color = question.level == .tus ? Theme.gold : Theme.accent
+                    Text(question.level.title)
                         .font(.caption2.weight(.heavy))
-                        .foregroundStyle(Theme.gold)
+                        .foregroundStyle(color)
                         .padding(.horizontal, 7)
                         .padding(.vertical, 4)
-                        .background(Theme.gold.opacity(0.15), in: .capsule)
+                        .background(color.opacity(0.15), in: .capsule)
                 }
             }
 
@@ -354,7 +355,7 @@ struct QuestionContent: View {
         return VStack(alignment: .leading, spacing: 14) {
             HStack(spacing: 8) {
                 Image(systemName: chosen == nil ? "minus.circle.fill" : (correct ? "checkmark.circle.fill" : "xmark.circle.fill"))
-                Text(chosen == nil ? "Boş bırakıldı" : (correct ? "Doğru cevap" : "Yanlış cevap"))
+                Text(chosen == nil ? String(localized: "Boş bırakıldı") : (correct ? String(localized: "Doğru cevap") : String(localized: "Yanlış cevap")))
                 Spacer()
                 Text("Cevap: \(Self.letter(question.answer))")
                     .font(.subheadline.weight(.bold))
@@ -376,7 +377,7 @@ struct QuestionContent: View {
 
             if !notes.isEmpty {
                 VStack(alignment: .leading, spacing: 10) {
-                    Eyebrow(text: "Seçenekler")
+                    Eyebrow(text: String(localized: "Seçenekler"))
                     ForEach(notes, id: \.offset) { i, note in
                         HStack(alignment: .firstTextBaseline, spacing: 10) {
                             Text(Self.letter(i))
@@ -395,7 +396,7 @@ struct QuestionContent: View {
 
             if !entries.isEmpty {
                 VStack(alignment: .leading, spacing: 8) {
-                    Eyebrow(text: "Konuyu çalış")
+                    Eyebrow(text: String(localized: "Konuyu çalış"))
                     FlowLayout(spacing: 8) {
                         ForEach(entries) { entry in
                             Button {
@@ -545,9 +546,9 @@ private struct QuestionNavigator: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 16) {
                     HStack(spacing: 16) {
-                        legend(Theme.accent, "Cevaplandı (\(session.answeredCount))")
-                        legend(Theme.elevated, "Boş (\(session.blankCount))")
-                        legend(.orange, "İşaretli (\(session.flagged.count))")
+                        legend(Theme.accent, String(localized: "Cevaplandı (\(session.answeredCount))"))
+                        legend(Theme.elevated, String(localized: "Boş (\(session.blankCount))"))
+                        legend(.orange, String(localized: "İşaretli (\(session.flagged.count))"))
                     }
                     .font(.caption)
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 10), count: 6), spacing: 10) {

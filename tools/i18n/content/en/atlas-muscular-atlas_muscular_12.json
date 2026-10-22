@@ -1,0 +1,311 @@
+{
+ "m-psoas-major": {
+  "tr": "Psoas major",
+  "summary": "A long spindle-shaped muscle arising beside the lumbar vertebrae and passing under the inguinal ligament into the thigh; with iliacus it forms iliopsoas.",
+  "facts": [
+   "Bodies of T12–L4 and the intervening discs, transverse processes of L1–L5",
+   "Lesser trochanter (common tendon with iliacus)",
+   "Anterior rami of spinal nerves L1–L3",
+   "Lumbar arteries, iliolumbar artery",
+   "The strongest flexor of the hip; with the thigh fixed it flexes the trunk and bends the lumbar spine laterally"
+  ],
+  "sections": [],
+  "clinical": [
+   "A psoas abscess (e.g. spinal tuberculosis) tracks down the muscle sheath to the groin and causes a swelling in the upper front of the thigh.",
+   "Psoas sign in appendicitis: passive extension of the right hip is painful."
+  ],
+  "tus": [
+   "The lumbar plexus forms within the muscle; the femoral nerve emerges from its lateral border, the obturator nerve from its medial border, the genitofemoral nerve from its anterior surface."
+  ],
+  "aliases": [
+   "psoas",
+   "iliopsoas"
+  ]
+ },
+ "m-iliacus": {
+  "tr": "Iliacus",
+  "summary": "A fan-shaped muscle filling the iliac fossa; its tendon joins that of psoas major.",
+  "facts": [
+   "Upper 2/3 of the iliac fossa, inner lip of the iliac crest, ala of the sacrum and area around the AIIS",
+   "Lesser trochanter (with the psoas major tendon)",
+   "Femoral nerve (L2–L3)",
+   "Iliac branch of the iliolumbar artery, deep circumflex iliac artery",
+   "Flexes the hip; tilts the pelvis forwards"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "iliopsoas"
+  ]
+ },
+ "m-piriformis": {
+  "tr": "Piriformis",
+  "summary": "A muscle that passes through the greater sciatic foramen into the gluteal region; the key landmark of that region.",
+  "facts": [
+   "Anterior surface of the sacrum (level of S2–S4) and margin of the greater sciatic notch",
+   "Upper border of the greater trochanter",
+   "Nerve to piriformis (S1–S2)",
+   "Superior and inferior gluteal arteries",
+   "Rotates the hip outwards; abducts the flexed hip; holds the head of the femur in the acetabulum"
+  ],
+  "sections": [],
+  "clinical": [
+   "In piriformis syndrome the sciatic nerve is compressed under the muscle, causing buttock pain and sciatica."
+  ],
+  "tus": [
+   "It divides the greater sciatic foramen into suprapiriform (superior gluteal artery, vein and nerve) and infrapiriform (sciatic nerve, inferior gluteal vessels and nerve, pudendal nerve, internal pudendal artery, posterior femoral cutaneous nerve) openings."
+  ],
+  "aliases": [
+   "lateral rotator"
+  ]
+ },
+ "m-obturator-internus": {
+  "tr": "Obturator internus",
+  "summary": "A muscle arising on the inner side wall of the pelvis whose tendon turns out through the lesser sciatic foramen to reach the trochanter.",
+  "facts": [
+   "Inner surface of the obturator membrane and the surrounding bone of the obturator foramen",
+   "Medial surface of the greater trochanter (above the trochanteric fossa)",
+   "Nerve to obturator internus (L5–S2)",
+   "Internal pudendal artery, obturator artery",
+   "Rotates the hip outwards; abducts the flexed hip"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "As its tendon leaves through the lesser sciatic foramen it turns like a pulley over the lesser sciatic notch; its fascia forms the wall of the pudendal (Alcock's) canal."
+  ],
+  "aliases": [
+   "lateral rotator"
+  ]
+ },
+ "m-gemellus-superior": {
+  "tr": "Superior gemellus",
+  "summary": "A small muscle accompanying the upper border of the obturator internus tendon.",
+  "facts": [
+   "Ischial spine",
+   "Medial surface of the greater trochanter, with the obturator internus tendon",
+   "Nerve to obturator internus (L5–S2)",
+   "Inferior gluteal artery",
+   "Rotates the hip outwards"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "gemelli"
+  ]
+ },
+ "m-gemellus-inferior": {
+  "tr": "Inferior gemellus",
+  "summary": "A small muscle accompanying the lower border of the obturator internus tendon.",
+  "facts": [
+   "Upper part of the ischial tuberosity",
+   "Medial surface of the greater trochanter, with the obturator internus tendon",
+   "Nerve to quadratus femoris (L4–S1)",
+   "Inferior gluteal artery, medial circumflex femoral artery",
+   "Rotates the hip outwards"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The gemelli have different nerves: the superior gemellus is supplied by the nerve to obturator internus, the inferior by the nerve to quadratus femoris."
+  ],
+  "aliases": [
+   "gemelli"
+  ]
+ },
+ "m-quadratus-femoris": {
+  "tr": "Quadratus femoris",
+  "summary": "A quadrilateral muscle running horizontally between the ischial tuberosity and the femur.",
+  "facts": [
+   "Lateral border of the ischial tuberosity",
+   "Quadrate tubercle on the intertrochanteric crest",
+   "Nerve to quadratus femoris (L4–S1)",
+   "Medial circumflex femoral artery",
+   "A strong lateral rotator of the hip"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The medial circumflex femoral artery runs deep to this muscle; as the main supply of the femoral head it must be protected in posterior surgical approaches."
+  ],
+  "aliases": [
+   "lateral rotator"
+  ]
+ },
+ "m-obturator-externus": {
+  "tr": "Obturator externus",
+  "summary": "A muscle arising from the outer surface of the obturator membrane and passing under the femoral neck to the trochanteric fossa.",
+  "facts": [
+   "Outer surface of the obturator membrane and the surrounding bone of the obturator foramen",
+   "Trochanteric fossa",
+   "Posterior branch of the obturator nerve (L3–L4)",
+   "Obturator artery, medial circumflex femoral artery",
+   "Rotates the hip outwards; steadies the head of the femur"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It is the only short lateral rotator supplied by the obturator nerve; anatomically it is counted among the adductors."
+  ],
+  "aliases": [
+   "lateral rotator"
+  ]
+ },
+ "m-rectus-femoris": {
+  "tr": "Rectus femoris",
+  "summary": "The central superficial head of quadriceps; the only quadriceps head that crosses both the hip and the knee.",
+  "facts": [
+   "Straight head: anterior inferior iliac spine (AIIS); reflected head: upper rim of the acetabulum (supra-acetabular groove)",
+   "Tibial tuberosity via the patella and patellar ligament",
+   "Femoral nerve (L2–L4)",
+   "Lateral circumflex femoral artery",
+   "Extends the knee and flexes the hip"
+  ],
+  "sections": [],
+  "clinical": [
+   "In adolescent athletes it can cause an AIIS avulsion fracture; contracting during hip flexion and knee extension at once makes it prone to strains."
+  ],
+  "tus": [],
+  "aliases": [
+   "quadriceps"
+  ]
+ },
+ "m-vastus-lateralis": {
+  "tr": "Vastus lateralis",
+  "summary": "The largest head of quadriceps, covering the lateral surface of the thigh.",
+  "facts": [
+   "Upper intertrochanteric line, greater trochanter, gluteal tuberosity and lateral lip of the linea aspera",
+   "Lateral border of the patella via the quadriceps tendon, and the tibial tuberosity via the patellar ligament",
+   "Femoral nerve (L2–L4)",
+   "Lateral circumflex femoral artery (descending branch)",
+   "Extends the knee"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It is the preferred site for intramuscular injection in children (lateral surface of the middle third of the thigh)."
+  ],
+  "aliases": [
+   "quadriceps"
+  ]
+ },
+ "m-vastus-medialis": {
+  "tr": "Vastus medialis",
+  "summary": "The teardrop-shaped head of quadriceps prominent on the lower inner thigh; its lower oblique fibres (VMO) pull the patella medially.",
+  "facts": [
+   "Lower intertrochanteric line, medial lip of the linea aspera and medial intermuscular septum",
+   "Medial border of the patella and quadriceps tendon; tibial tuberosity via the patellar ligament",
+   "Femoral nerve (L2–L4)",
+   "Femoral artery, profunda femoris artery",
+   "Extends the knee; its oblique fibres stop the patella sliding laterally"
+  ],
+  "sections": [],
+  "clinical": [
+   "VMO weakness predisposes to patellofemoral pain and lateral dislocation of the patella; it is the first to waste after knee surgery."
+  ],
+  "tus": [],
+  "aliases": [
+   "VMO",
+   "quadriceps"
+  ]
+ },
+ "m-vastus-intermedius": {
+  "tr": "Vastus intermedius",
+  "summary": "The deep head of quadriceps beneath rectus femoris, attached to the anterior and lateral surfaces of the femoral shaft.",
+  "facts": [
+   "Upper 2/3 of the anterior and lateral surfaces of the femoral shaft",
+   "Deep layer of the quadriceps tendon; patella and tibial tuberosity",
+   "Femoral nerve (L2–L4)",
+   "Lateral circumflex femoral artery, profunda femoris artery",
+   "Extends the knee"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The articularis genus beneath it pulls the suprapatellar bursa upwards during knee extension so it is not pinched."
+  ],
+  "aliases": [
+   "quadriceps"
+  ]
+ },
+ "m-adductor-longus": {
+  "tr": "Adductor longus",
+  "summary": "The most anterior and superficial flat muscle of the adductor group; it forms the medial border of the femoral triangle.",
+  "facts": [
+   "Body of the pubis (below the pubic crest)",
+   "Middle 1/3 of the linea aspera (medial lip)",
+   "Anterior branch of the obturator nerve (L2–L4)",
+   "Profunda femoris artery, obturator artery",
+   "Adducts the hip; assists flexion and internal rotation"
+  ],
+  "sections": [],
+  "clinical": [
+   "It is the adductor most often injured in groin strains; common in footballers."
+  ],
+  "tus": [
+   "Femoral triangle: inguinal ligament (above), sartorius (lateral), adductor longus (medial border)."
+  ],
+  "aliases": [
+   "adductors"
+  ]
+ },
+ "m-adductor-brevis": {
+  "tr": "Adductor brevis",
+  "summary": "A short triangular muscle deep to adductor longus; the branches of the obturator nerve pass in front of and behind it.",
+  "facts": [
+   "Body and inferior ramus of the pubis",
+   "Pectineal line and upper linea aspera",
+   "Obturator nerve (L2–L4)",
+   "Profunda femoris artery, obturator artery",
+   "Adducts the hip; assists flexion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The anterior branch of the obturator nerve passes in front of the muscle, the posterior branch behind it."
+  ],
+  "aliases": [
+   "adductors"
+  ]
+ },
+ "m-adductor-magnus": {
+  "tr": "Adductor magnus",
+  "summary": "The largest of the adductors, with an adductor part and a hamstring (ischiocondylar) part supplied by two different nerves.",
+  "facts": [
+   "Adductor part: inferior pubic ramus and ischial ramus; hamstring part: ischial tuberosity",
+   "Adductor part: gluteal tuberosity and linea aspera; hamstring part: adductor tubercle (femur)",
+   "Adductor part: obturator nerve (L2–L4); hamstring part: tibial part of the sciatic nerve (L4)",
+   "Profunda femoris artery (perforating arteries), obturator artery",
+   "Adducts the hip; the adductor part flexes, the hamstring part extends"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Through the adductor hiatus between its two insertions the femoral artery and vein pass into the popliteal fossa and become the popliteal artery and vein."
+  ],
+  "aliases": [
+   "adductors"
+  ]
+ },
+ "m-semitendinosus": {
+  "tr": "Semitendinosus",
+  "summary": "A hamstring muscle on the posteromedial thigh whose lower half becomes a long tendon.",
+  "facts": [
+   "Ischial tuberosity (common tendon with the long head of biceps femoris)",
+   "Upper medial surface of the tibia (pes anserinus)",
+   "Tibial part of the sciatic nerve (L5–S2)",
+   "Perforating arteries of the profunda femoris, medial circumflex femoral artery",
+   "Flexes the knee and extends the hip; rotates the leg inwards when the knee is bent"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The pes anserinus is formed by sartorius, gracilis and semitendinosus ('SGT'); its tendon is used as a graft in anterior cruciate ligament reconstruction."
+  ],
+  "aliases": [
+   "hamstrings"
+  ]
+ }
+}

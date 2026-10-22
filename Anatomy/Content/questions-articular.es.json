@@ -1,0 +1,2800 @@
+{
+ "system": "articular",
+ "questions": [
+  {
+   "id": "ar-71f95389",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes articulaciones es una sindesmosis?",
+   "options": [
+    "Sutura sagital",
+    "Fijación de los dientes en los alvéolos",
+    "Sínfisis del pubis",
+    "Primera articulación esternocostal",
+    "Articulación tibioperonea distal"
+   ],
+   "answer": 4,
+   "explanation": "La sindesmosis es una articulación fibrosa en la que los huesos se unen por un ligamento o una membrana: la tibioperonea distal y las membranas interóseas del antebrazo y la pierna son ejemplos. La sínfisis del pubis es fibrocartilaginosa, la 1.ª esternocostal una sincondrosis, la unión diente–alvéolo una gonfosis y las suturas son articulaciones fibrosas propias del cráneo.",
+   "notes": [
+    "Sutura.",
+    "Gonfosis.",
+    "Fibrocartílago (sínfisis).",
+    "Cartílago hialino (sincondrosis).",
+    ""
+   ],
+   "entries": [
+    "eklem-tipleri",
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-296e0313",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes es una articulación sinovial en silla de montar?",
+   "options": [
+    "Articulación radiocarpiana",
+    "Articulación radiocubital proximal",
+    "Articulación carpometacarpiana del pulgar",
+    "Articulación acromioclavicular",
+    "Articulación humerocubital"
+   ],
+   "answer": 2,
+   "explanation": "En las articulaciones en silla ambas superficies son cóncavas en un sentido y convexas en el otro; permiten movimiento en dos ejes, incluida la oposición. Ejemplos: la 1.ª carpometacarpiana y la esternoclavicular. La radiocarpiana es elipsoidea, la humerocubital en bisagra, la radiocubital proximal en pivote y la acromioclavicular plana.",
+   "entries": [
+    "eklem-tipleri",
+    "artt-manus"
+   ]
+  },
+  {
+   "id": "ar-ca13fe9c",
+   "group": "Generalidades",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes asociaciones es INCORRECTA?",
+   "options": [
+    "Rodilla – articulación bicondílea",
+    "Articulación atlantooccipital – articulación en pivote (trocoide)",
+    "Articulación atlantoaxial media – trocoide",
+    "Articulación cigapofisaria – articulación plana",
+    "Cadera – articulación esferoidea"
+   ],
+   "answer": 1,
+   "explanation": "La articulación atlantooccipital es elipsoidea (condílea) y permite el movimiento del «sí». Las trocoides son la atlantoaxial media (movimiento del «no») y las radiocubitales proximal y distal.",
+   "entries": [
+    "eklem-tipleri",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-244f637a",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El cartílago de crecimiento (placa epifisaria) es un ejemplo de ¿qué tipo de articulación?",
+   "options": [
+    "Diartrosis",
+    "Sincondrosis (articulación cartilaginosa primaria)",
+    "Sínfisis (articulación cartilaginosa secundaria)",
+    "Sindesmosis",
+    "Gonfosis"
+   ],
+   "answer": 1,
+   "explanation": "En las articulaciones cartilaginosas primarias (sincondrosis) los huesos se unen por cartílago hialino y la mayoría se osifican con el tiempo: placa epifisaria, unión 1.ª costilla–manubrio, sincondrosis esfenooccipital. Las cartilaginosas secundarias (sínfisis) contienen fibrocartílago y están en la línea media.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-230a765a",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sobre la articulación temporomandibular, ¿cuál de las siguientes afirmaciones es FALSA?",
+   "options": [
+    "Parte del pterigoideo lateral se inserta en el disco.",
+    "Al abrir la boca, el cóndilo y el disco se deslizan hacia delante hacia el tubérculo articular.",
+    "El disco articular divide la articulación en una cavidad superior y otra inferior.",
+    "Las superficies articulares están cubiertas de cartílago hialino.",
+    "En la cavidad inferior se produce el movimiento de bisagra (rotación)."
+   ],
+   "answer": 3,
+   "explanation": "Las superficies articulares de la ATM están cubiertas de fibrocartílago, no de cartílago hialino (por el origen membranoso de los huesos). El disco divide la articulación en dos: en la cavidad inferior hay rotación y en la superior deslizamiento anterior (traslación). El pterigoideo lateral lleva el cóndilo y el disco hacia delante.",
+   "entries": [
+    "art-temporomandibularis",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "ar-30f33bcd",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente que bostezó no puede cerrar la boca. El cóndilo mandibular ha pasado por delante del tubérculo articular. ¿En qué dirección se empuja la mandíbula para reducirla?",
+   "options": [
+    "Primero hacia un lado y luego hacia arriba",
+    "Directamente hacia atrás",
+    "Primero hacia abajo y luego hacia atrás",
+    "Directamente hacia arriba",
+    "Primero hacia arriba y luego hacia delante"
+   ],
+   "answer": 2,
+   "explanation": "La luxación de la ATM es casi siempre anterior; el cóndilo queda trabado delante de la eminencia y el espasmo muscular (masetero, temporal, pterigoideo medial) lo mantiene ahí. Con los pulgares sobre los molares inferiores se empuja la mandíbula primero hacia abajo (para pasar bajo la eminencia) y luego hacia atrás.",
+   "entries": [
+    "art-temporomandibularis",
+    "mandibula"
+   ]
+  },
+  {
+   "id": "ar-56a27913",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "La parte gelatinosa central del disco intervertebral (núcleo pulposo) es, embriológicamente, un resto de ¿qué?",
+   "options": [
+    "Notocorda",
+    "Esclerotomo",
+    "Cresta neural",
+    "Dermomiotomo",
+    "Mesodermo intermedio"
+   ],
+   "answer": 0,
+   "explanation": "El núcleo pulposo es un resto de la notocorda; el anillo fibroso que lo rodea está formado por anillos fibrocartilaginosos de origen esclerotómico. Con la edad disminuye su contenido de agua y la altura del disco.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-b272030c",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Por qué las hernias discales lumbares son más a menudo posterolaterales?",
+   "options": [
+    "El ligamento longitudinal anterior sostiene la parte posterior.",
+    "El anillo fibroso es más grueso por detrás.",
+    "El ligamento longitudinal posterior es grueso en la línea media y fino a los lados.",
+    "El núcleo pulposo está cerca de la parte anterior del disco.",
+    "El ligamento amarillo empuja el disco desde los lados."
+   ],
+   "answer": 2,
+   "explanation": "El ligamento longitudinal posterior es una banda estrecha detrás de los cuerpos vertebrales y solo sostiene el disco en la línea media. Además, el anillo fibroso es más fino por detrás. Por eso el núcleo pulposo se hernia con más frecuencia en dirección posterolateral y comprime la raíz nerviosa.",
+   "entries": [
+    "discus-intervertebralis",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-a0beeda5",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento amarillo, rico en fibras elásticas, se extiende entre las láminas de los arcos vertebrales?",
+   "options": [
+    "Ligamento supraespinoso",
+    "Ligamento longitudinal posterior",
+    "Ligamento amarillo",
+    "Ligamento nucal",
+    "Ligamento interespinoso"
+   ],
+   "answer": 2,
+   "explanation": "Los ligamentos amarillos unen las láminas vecinas; gracias a sus fibras elásticas ayudan a enderezar la columna tras la flexión. En la punción lumbar la aguja atraviesa la piel, los ligamentos supraespinoso e interespinoso y luego el ligamento amarillo (sensación de «pop») para llegar al espacio epidural.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-0918e232",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿En qué articulación se produce la mayor parte del movimiento del «no» (rotación) de la cabeza?",
+   "options": [
+    "Articulación atlantooccipital",
+    "Articulación temporomandibular",
+    "Articulación atlantoaxial",
+    "Disco C7–T1",
+    "Articulaciones cigapofisarias C2–C3"
+   ],
+   "answer": 2,
+   "explanation": "En las articulaciones atlantoaxiales (una media en pivote y dos laterales planas) el atlas gira alrededor del diente; aquí se produce alrededor de la mitad de la rotación cervical. El movimiento del «sí» ocurre en la articulación atlantooccipital. Los ligamentos alares limitan la rotación excesiva.",
+   "entries": [
+    "atlas",
+    "axis",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-24e0cc41",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué articulación forma la cabeza de una costilla con los cuerpos de dos vértebras torácicas vecinas?",
+   "options": [
+    "Articulación esternocostal",
+    "Articulación costocondral",
+    "Articulación costotransversa",
+    "Articulación intercondral",
+    "Articulación de la cabeza de la costilla"
+   ],
+   "answer": 4,
+   "explanation": "La cabeza de una costilla típica forma la articulación de la cabeza costal con las hemicarillas de los cuerpos de dos vértebras vecinas y el disco intermedio; su tubérculo forma la articulación costotransversa con la apófisis transversa de la vértebra inferior. Ambas permiten los movimientos en «asa de cubo» y «brazo de bomba» de la costilla al respirar.",
+   "entries": [
+    "artt-thoracis",
+    "costae",
+    "vertebrae-thoracicae"
+   ]
+  },
+  {
+   "id": "ar-e90c051e",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es la única articulación verdadera (sinovial) que une el miembro superior al esqueleto axial?",
+   "options": [
+    "Articulación del hombro",
+    "Articulación costoclavicular",
+    "Unión escapulotorácica",
+    "Articulación acromioclavicular",
+    "Articulación esternoclavicular"
+   ],
+   "answer": 4,
+   "explanation": "La única conexión articular del miembro superior con el esqueleto axial es la esternoclavicular. Es en silla de montar, tiene un disco articular y está muy reforzada por el ligamento costoclavicular; por eso su luxación es rara y la fractura de clavícula más frecuente. La «articulación» escapulotorácica no es una articulación verdadera.",
+   "entries": [
+    "art-sternoclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-55314209",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un jugador de rugby que cayó sobre el hombro tiene un escalón entre el acromion y la clavícula, con el extremo lateral de la clavícula prominente. ¿Qué ligamento debe estar roto también para esta separación (tipo III)?",
+   "options": [
+    "Ligamento coracoacromial",
+    "Ligamento coracoclavicular",
+    "Ligamento transverso superior de la escápula",
+    "Ligamento coracohumeral",
+    "Ligamento glenohumeral inferior"
+   ],
+   "answer": 1,
+   "explanation": "En la separación acromioclavicular, si solo se rompe el ligamento acromioclavicular el escalón es leve. Si también se rompe el coracoclavicular (porciones conoidea y trapezoidea), la escápula y el brazo descienden y el extremo de la clavícula queda claramente elevado (signo de la tecla).",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula",
+    "scapula"
+   ]
+  },
+  {
+   "id": "ar-94215574",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Una jugadora de voleibol cae con el brazo en abducción y rotación externa. Se diagnostica una luxación de hombro y, tras la reducción, hay pérdida sensitiva en la cara lateral del hombro. ¿Cuál es la dirección de la luxación y qué nervio está lesionado?",
+   "options": [
+    "Luxación superior – nervio musculocutáneo",
+    "Luxación posterior – nervio axilar",
+    "Luxación anteroinferior – nervio axilar",
+    "Luxación posterior – nervio supraescapular",
+    "Luxación anteroinferior – nervio radial"
+   ],
+   "answer": 2,
+   "explanation": "La glenohumeral es la gran articulación que más se luxa; más del 95 % de las luxaciones son anteroinferiores porque la parte inferior de la cápsula es la más débil. Al descender la cabeza humeral se estira el nervio axilar, situado justo bajo el cuello quirúrgico.",
+   "entries": [
+    "art-humeri",
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ar-75098002",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué anillo fibrocartilaginoso aumenta la profundidad de la articulación glenohumeral?",
+   "options": [
+    "Labrum glenoideo (rodete)",
+    "Disco articular",
+    "Menisco",
+    "Bolsa subacromial",
+    "Ligamento coracohumeral"
+   ],
+   "answer": 0,
+   "explanation": "La cavidad glenoidea es poco profunda; el labrum que la rodea la profundiza. En su parte superior se inserta la cabeza larga del bíceps; una rotura ahí es una lesión SLAP, y una de su parte anteroinferior, una lesión de Bankart.",
+   "entries": [
+    "art-humeri",
+    "scapula"
+   ]
+  },
+  {
+   "id": "ar-d0f60251",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un pintor de 50 años tiene dolor entre 60° y 120° al elevar el brazo lateralmente (arco doloroso). ¿Qué tendón del manguito rotador se pinza bajo el acromion y se rompe con más frecuencia?",
+   "options": [
+    "Infraespinoso",
+    "Supraespinoso",
+    "Redondo mayor",
+    "Redondo menor",
+    "Subescapular"
+   ],
+   "answer": 1,
+   "explanation": "El tendón del supraespinoso pasa por el estrecho espacio entre el acromion, el ligamento coracoacromial y la cabeza humeral. Se pinza en los grados medios de abducción (pinzamiento subacromial); la degeneración y la rotura son más frecuentes en este tendón, en su zona mal irrigada.",
+   "entries": [
+    "art-humeri",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "ar-873e5e75",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Por qué existe el «ángulo de carga» del codo?",
+   "options": [
+    "La cabeza del radio es más larga que el cúbito",
+    "El borde medial de la tróclea humeral está más bajo que el lateral",
+    "El ligamento colateral radial es corto",
+    "El capitulum del húmero es grande",
+    "El olécranon está inclinado lateralmente"
+   ],
+   "answer": 1,
+   "explanation": "En extensión el antebrazo se desvía hacia fuera respecto al brazo (~10° en el hombre, ~15° en la mujer), porque el labio medial de la tróclea desciende más. El cúbito valgo y el varo son el aumento y la disminución de este ángulo.",
+   "entries": [
+    "art-cubiti",
+    "humerus"
+   ]
+  },
+  {
+   "id": "ar-49c6e4a8",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sobre la articulación del codo, ¿cuál de las siguientes afirmaciones es FALSA?",
+   "options": [
+    "El ligamento colateral cubital protege frente al estrés en valgo.",
+    "La articulación humerocubital es en bisagra.",
+    "El ligamento anular rodea la cabeza del radio.",
+    "En la articulación humerorradial hay flexión y rotación.",
+    "La articulación radiocubital proximal tiene una cápsula propia."
+   ],
+   "answer": 4,
+   "explanation": "El codo es una articulación compuesta por las articulaciones humerocubital, humerorradial y radiocubital proximal, las tres dentro de una sola cápsula. El ligamento colateral medial (cubital) protege frente al valgo y el lateral (radial) frente al varo.",
+   "entries": [
+    "art-cubiti",
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-4fb954c8",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué articulaciones se producen la pronación y la supinación?",
+   "options": [
+    "Humerorradial y carpometacarpianas",
+    "Humerocubital y radiocarpiana",
+    "Mediocarpiana",
+    "Radiocubitales proximal y distal",
+    "Solo la radiocarpiana"
+   ],
+   "answer": 3,
+   "explanation": "En la pronosupinación el radio gira proximalmente dentro de la escotadura radial del cúbito y distalmente alrededor de la cabeza del cúbito. Las dos articulaciones en pivote trabajan junto con la membrana interósea.",
+   "entries": [
+    "artt-radioulnares",
+    "radius",
+    "ulna"
+   ]
+  },
+  {
+   "id": "ar-ffc10707",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO participa directamente en la articulación radiocarpiana?",
+   "options": [
+    "Semilunar",
+    "Extremo distal del cúbito",
+    "Carilla articular distal del radio",
+    "Disco articular (CFCT)",
+    "Escafoides"
+   ],
+   "answer": 1,
+   "explanation": "La articulación radiocarpiana la forman proximalmente el radio y el disco fibrocartilaginoso triangular (CFCT) y distalmente el escafoides, el semilunar y el piramidal. El cúbito está separado de los huesos del carpo por el disco, por lo que no participa directamente.",
+   "entries": [
+    "art-radiocarpalis",
+    "ulna",
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "ar-51873285",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué tipo son las articulaciones metacarpofalángicas?",
+   "options": [
+    "En bisagra (gínglimo)",
+    "Plana",
+    "En pivote",
+    "En silla de montar",
+    "Elipsoidea (condílea)"
+   ],
+   "answer": 4,
+   "explanation": "Las MCF son elipsoideas: permiten flexión–extensión y abducción–aducción, sin rotación activa. Las interfalángicas son articulaciones en bisagra puras.",
+   "entries": [
+    "artt-manus",
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "ar-2a268400",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento, considerado el más fuerte del cuerpo, impide la hiperextensión de la cadera?",
+   "options": [
+    "Ligamento iliofemoral",
+    "Ligamento isquiofemoral",
+    "Ligamento de la cabeza del fémur",
+    "Ligamento inguinal",
+    "Ligamento pubofemoral"
+   ],
+   "answer": 0,
+   "explanation": "El ligamento iliofemoral en Y invertida (de Bigelow) va de la EIAI a la línea intertrocantérea. De pie impide pasivamente que el tronco caiga hacia atrás y permite la postura erguida sin gasto muscular.",
+   "entries": [
+    "art-coxae",
+    "os-coxae",
+    "femur"
+   ]
+  },
+  {
+   "id": "ar-4674d825",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "En un accidente de tráfico la rodilla de un conductor chocó contra el salpicadero; la pierna está acortada, en flexión, aducción y rotación interna. Hay una luxación de cadera. ¿Qué nervio se lesiona con más frecuencia en esta luxación?",
+   "options": [
+    "Nervio femoral",
+    "Nervio obturador",
+    "Nervio ciático",
+    "Nervio glúteo inferior",
+    "Nervio cutáneo femoral lateral"
+   ],
+   "answer": 2,
+   "explanation": "En la lesión «de salpicadero», con la rodilla flexionada, la cabeza femoral se luxa hacia atrás (la mayoría de las luxaciones de cadera). Por detrás comprime o estira el nervio ciático; su porción peronea es la que más se afecta.",
+   "entries": [
+    "art-coxae",
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ar-561bb137",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "La arteria que discurre por el ligamento de la cabeza del fémur suele ser rama de ¿qué arteria?",
+   "options": [
+    "Arteria glútea superior",
+    "Arteria circunfleja femoral medial",
+    "Arteria obturatriz",
+    "Arteria femoral profunda",
+    "Arteria circunfleja femoral lateral"
+   ],
+   "answer": 2,
+   "explanation": "La arteria del ligamento de la cabeza (arteria acetabular) es rama de la obturatriz; en la infancia aporta mucho a la cabeza femoral y en el adulto poco. En el adulto la cabeza se irriga principalmente por la arteria circunfleja femoral medial.",
+   "entries": [
+    "art-coxae",
+    "femur"
+   ]
+  },
+  {
+   "id": "ar-74361042",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un futbolista oye un «pop» en la rodilla al cambiar bruscamente de dirección y la rodilla se hincha rápidamente. En la exploración, con la rodilla a 90° de flexión, la tibia se desplaza en exceso hacia delante. ¿Qué estructura está lesionada?",
+   "options": [
+    "Ligamento rotuliano",
+    "Ligamento cruzado anterior",
+    "Ligamento cruzado posterior",
+    "Ligamento colateral tibial",
+    "Menisco lateral"
+   ],
+   "answer": 1,
+   "explanation": "El ligamento cruzado anterior impide que la tibia se deslice hacia delante respecto al fémur; el cajón anterior y el test de Lachman son positivos. El cruzado posterior impide el deslizamiento posterior (cajón posterior).",
+   "entries": [
+    "ligg-cruciata",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-9a262b50",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es la razón principal de que el menisco medial se rompa con más frecuencia que el lateral?",
+   "options": [
+    "Está firmemente unido al ligamento colateral tibial y por eso es poco móvil",
+    "Está unido al tendón del poplíteo",
+    "No tiene irrigación en absoluto",
+    "Está fusionado con el ligamento cruzado posterior",
+    "Es más pequeño y circular"
+   ],
+   "answer": 0,
+   "explanation": "El menisco medial tiene forma de C y su borde externo está unido al ligamento colateral medial; como no puede desplazarse durante el movimiento, se rompe. El lateral es más circular y móvil; el tendón del poplíteo lo separa del ligamento colateral. «Tríada desgraciada»: LCM + LCA + menisco medial.",
+   "entries": [
+    "meniscus",
+    "ligg-collateralia-genus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-c86f32a6",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué músculo desbloquea la rodilla bloqueada en extensión completa para que pueda iniciarse la flexión?",
+   "options": [
+    "Semimembranoso",
+    "Poplíteo",
+    "Gastrocnemio",
+    "Sartorio",
+    "Bíceps femoral"
+   ],
+   "answer": 1,
+   "explanation": "En los últimos grados de extensión el fémur rota hacia dentro sobre la tibia y la rodilla se bloquea. Al inicio de la flexión el poplíteo la desbloquea rotando el fémur hacia fuera (o, sin carga, la tibia hacia dentro).",
+   "entries": [
+    "m-popliteus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-dd74f351",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En un estrés en valgo por un golpe en la cara lateral de la rodilla, ¿qué ligamento se lesiona primero?",
+   "options": [
+    "Ligamento colateral tibial (medial)",
+    "Ligamento poplíteo oblicuo",
+    "Ligamento cruzado posterior",
+    "Ligamento rotuliano",
+    "Ligamento colateral peroneo (lateral)"
+   ],
+   "answer": 0,
+   "explanation": "Una fuerza desde fuera tensa el lado medial de la rodilla (valgo): se rompe el ligamento colateral medial y, en lesiones graves, también el LCA y el menisco medial. El colateral lateral se lesiona en el estrés en varo.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-b47c2724",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Una mujer joven que se torció el tobillo hacia dentro en un terreno irregular tiene tumefacción y dolor delante del maléolo lateral. ¿Qué ligamento se lesiona con más frecuencia?",
+   "options": [
+    "Ligamento tibioperoneo anterior",
+    "Ligamento peroneocalcáneo",
+    "Ligamento peroneoastragalino posterior",
+    "Ligamento deltoideo",
+    "Ligamento peroneoastragalino anterior"
+   ],
+   "answer": 4,
+   "explanation": "La mayoría de los esguinces de tobillo se producen en flexión plantar e inversión; el ligamento peroneoastragalino anterior, el más débil de los laterales, se rompe primero, seguido del peroneocalcáneo. El deltoideo medial es muy fuerte y suele lesionarse junto con una fractura maleolar.",
+   "entries": [
+    "art-talocruralis",
+    "fibula"
+   ]
+  },
+  {
+   "id": "ar-1f239c4c",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿En qué articulaciones se producen principalmente la inversión y la eversión del pie?",
+   "options": [
+    "Metatarsofalángicas",
+    "Subastragalina y astragalocalcaneonavicular",
+    "Tibioperonea distal",
+    "Talocrural",
+    "Tarsometatarsianas"
+   ],
+   "answer": 1,
+   "explanation": "La talocrural es una articulación en bisagra que permite la flexión dorsal y plantar. La inversión–eversión se produce bajo el astrágalo, en las articulaciones subastragalina (astragalocalcánea) y astragalocalcaneonavicular, y en pequeña parte en la transversa del tarso (Chopart).",
+   "entries": [
+    "artt-pedis",
+    "art-talocruralis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-e770222c",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿En qué posición es más estable la articulación del tobillo (talocrural) y por qué?",
+   "options": [
+    "En inversión, porque los ligamentos laterales están tensos.",
+    "En flexión dorsal, porque la tróclea del astrágalo es más ancha por delante y queda encajada entre los maléolos.",
+    "En flexión plantar, porque el ligamento deltoideo está más tenso.",
+    "En flexión plantar, porque los maléolos abrazan por completo el astrágalo.",
+    "En posición neutra, porque la cápsula está más laxa."
+   ],
+   "answer": 1,
+   "explanation": "La tróclea del astrágalo es ancha por delante y estrecha por detrás. En flexión dorsal la parte anterior ancha se encaja entre los maléolos y la articulación es estable. En flexión plantar queda en la mortaja la parte estrecha y la articulación se afloja; por eso los esguinces suelen ocurrir en flexión plantar.",
+   "entries": [
+    "art-talocruralis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-fe165037",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la articulación sacroilíaca es verdadera?",
+   "options": [
+    "Es una esferoidea con gran amplitud de movimiento.",
+    "Es una articulación mixta: sinovial por delante y unida por detrás por potentes ligamentos interóseos.",
+    "No se afecta en la espondilitis anquilosante.",
+    "Está entre el cóccix y el ilion.",
+    "Es una articulación totalmente fibrosa."
+   ],
+   "answer": 1,
+   "explanation": "La parte de la sacroilíaca entre las carillas auriculares es sinovial; por detrás están los ligamentos sacroilíacos interóseos, de los más fuertes del cuerpo. Se mueve muy poco y transmite el peso del tronco a la pelvis. La espondilitis anquilosante suele empezar en esta articulación (sacroileítis).",
+   "entries": [
+    "art-sacroiliaca",
+    "os-sacrum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-1c090eed",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué tipo es la sínfisis del pubis?",
+   "options": [
+    "Articulación cartilaginosa primaria (sincondrosis)",
+    "Sutura",
+    "Sindesmosis",
+    "Articulación sinovial plana",
+    "Articulación cartilaginosa secundaria (sínfisis fibrocartilaginosa)"
+   ],
+   "answer": 4,
+   "explanation": "Los dos pubis se unen por superficies cubiertas de cartílago hialino mediante un disco fibrocartilaginoso intermedio (disco interpúbico). En el embarazo los ligamentos se relajan por efecto hormonal y la articulación se ensancha ligeramente.",
+   "entries": [
+    "symphysis-pubica",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-fb65a359",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sobre los orificios formados por los ligamentos sacroespinoso y sacrotuberoso, ¿qué afirmación es verdadera?",
+   "options": [
+    "Cierran el agujero obturador.",
+    "Separan las lagunas muscular y vascular.",
+    "Convierten las escotaduras isquiáticas mayor y menor en los agujeros isquiáticos mayor y menor.",
+    "Forman el suelo del conducto inguinal.",
+    "Forman la pared del conducto pudendo."
+   ],
+   "answer": 2,
+   "explanation": "Estos dos ligamentos unen el sacro al isquion e impiden la inclinación anterior del sacro. Convierten la escotadura isquiática mayor en el agujero isquiático mayor y la menor en el agujero isquiático menor. El piriforme divide el agujero mayor en porciones suprapiriforme e infrapiriforme.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae",
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "ar-081572fb",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO es una característica de una articulación sinovial?",
+   "options": [
+    "Cápsula articular",
+    "Cavidad articular",
+    "Cartílago articular hialino",
+    "Extremos óseos fusionados por tejido fibroso",
+    "Líquido sinovial"
+   ],
+   "answer": 3,
+   "explanation": "En las articulaciones sinoviales los extremos óseos están cubiertos de cartílago hialino y separados por una cavidad articular rodeada por la membrana sinovial y la cápsula fibrosa; el líquido sinovial nutre y lubrica. La fusión por tejido fibroso es propia de las articulaciones fibrosas (suturas, sindesmosis).",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-faa2b7bc",
+   "group": "Generalidades",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué enuncia la ley de Hilton?",
+   "options": [
+    "Cada articulación está inervada por un solo nervio",
+    "Los nervios que inervan los músculos que mueven una articulación inervan también esa articulación y la piel que la cubre",
+    "El cartílago articular es rico en nervios",
+    "Los ligamentos de una articulación actúan al contrario que sus músculos",
+    "La irrigación de una articulación procede solo de las arterias capsulares"
+   ],
+   "answer": 1,
+   "explanation": "La ley de Hilton explica por qué el dolor articular puede referirse a zonas lejanas: por ejemplo, como el nervio obturador también inerva la cadera, la patología de cadera puede doler en la cara medial de la rodilla. El cartílago articular no tiene nervios ni vasos.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-35071863",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué tipo de articulación une los dientes a sus alvéolos?",
+   "options": [
+    "Sindesmosis",
+    "Gonfosis",
+    "Sínfisis",
+    "Sincondrosis",
+    "Sutura"
+   ],
+   "answer": 1,
+   "explanation": "La gonfosis es una articulación fibrosa: la raíz del diente se fija como un clavo en su alvéolo mediante el ligamento periodontal. Las suturas unen los huesos del cráneo y una sindesmosis la tibia y el peroné distales; la placa epifisaria es una sincondrosis, y la sínfisis del pubis y los discos intervertebrales son sínfisis.",
+   "entries": [
+    "eklem-tipleri",
+    "dentes"
+   ]
+  },
+  {
+   "id": "ar-471daa9c",
+   "group": "Generalidades",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes NO es una sincondrosis?",
+   "options": [
+    "Unión esfenooccipital",
+    "Articulación entre la 1.ª costilla y el manubrio",
+    "Placa epifisaria",
+    "Cartílago en Y del coxal",
+    "Sínfisis del pubis"
+   ],
+   "answer": 4,
+   "explanation": "Las sincondrosis son articulaciones cartilaginosas primarias formadas por cartílago hialino, y la mayoría se osifican con el tiempo. La sínfisis del pubis es una articulación cartilaginosa secundaria (sínfisis) con un disco de fibrocartílago; los discos intervertebrales y la articulación manubrioesternal también pertenecen a este grupo.",
+   "entries": [
+    "eklem-tipleri",
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-78703f7e",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué movimiento se produce principalmente en la articulación atlantooccipital?",
+   "options": [
+    "Ningún movimiento",
+    "Solo flexión lateral",
+    "Girar la cabeza a derecha e izquierda (movimiento del «no»)",
+    "Solo rotación",
+    "Inclinar la cabeza adelante y atrás (movimiento del «sí»)"
+   ],
+   "answer": 4,
+   "explanation": "Los cóndilos occipitales descansan sobre las carillas articulares superiores del atlas; esta articulación elipsoidea permite sobre todo flexión–extensión y algo de inclinación lateral. La mayor parte de la rotación ocurre en las articulaciones atlantoaxiales.",
+   "entries": [
+    "ligg-columnae",
+    "atlas"
+   ]
+  },
+  {
+   "id": "ar-044f5001",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El ligamento nucal es la continuación en el cuello de ¿qué ligamento?",
+   "options": [
+    "Ligamento amarillo",
+    "Ligamento del vértice del diente",
+    "Ligamento longitudinal anterior",
+    "Membrana tectoria",
+    "Ligamento supraespinoso"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento supraespinoso, que une los vértices de las apófisis espinosas, se ensancha por encima de C7 en el ligamento nucal triangular, que llega hasta la protuberancia occipital externa; en él se insertan el trapecio y el esplenio.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-06ded398",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "La membrana tectoria es la continuación superior de ¿qué ligamento?",
+   "options": [
+    "Ligamento supraespinoso",
+    "Ligamento longitudinal anterior",
+    "Ligamento amarillo",
+    "Ligamento transverso del atlas",
+    "Ligamento longitudinal posterior"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento longitudinal posterior se ensancha hacia arriba desde el cuerpo del axis como membrana tectoria y se inserta en el clivus; cubre por detrás el diente y el ligamento cruciforme y protege la médula espinal.",
+   "entries": [
+    "ligg-columnae",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-c597d8fc",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuáles son los componentes del ligamento cruciforme del atlas?",
+   "options": [
+    "Membrana tectoria y ligamento amarillo",
+    "Ligamento transverso del atlas y fascículos longitudinales",
+    "Ligamentos alares y ligamento del vértice del diente",
+    "Ligamento nucal y ligamento supraespinoso",
+    "Ligamentos longitudinales anterior y posterior"
+   ],
+   "answer": 1,
+   "explanation": "La rama horizontal del ligamento cruciforme es el ligamento transverso del atlas, que sujeta el diente contra el arco anterior; sus ramas verticales son fascículos longitudinales que van del cuerpo del axis al agujero magno. Los ligamentos alares van de los lados del diente a los cóndilos occipitales y limitan la rotación.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-ed470bcc",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Antes de intubar a un paciente con artritis reumatoide de larga evolución se hacen radiografías de cuello en flexión–extensión; en flexión aumenta claramente la distancia entre el atlas y el diente. ¿El debilitamiento de qué ligamento es el principal responsable de esta inestabilidad?",
+   "options": [
+    "Ligamento longitudinal anterior",
+    "Ligamento interespinoso",
+    "Ligamento amarillo",
+    "Ligamento nucal",
+    "Ligamento transverso del atlas"
+   ],
+   "answer": 4,
+   "explanation": "La sinovitis reumatoide erosiona los ligamentos que rodean el diente; cuando el transverso se afloja, el atlas se desliza hacia delante en flexión y el diente puede comprimir la médula. Por eso en estos pacientes se evita flexionar el cuello durante la intubación.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-f49987bc",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre el disco intervertebral es verdadera?",
+   "options": [
+    "También hay disco entre el atlas y el axis",
+    "Constituye la mitad de la longitud de la columna",
+    "Su parte externa es el anillo fibroso fibrocartilaginoso y la interna el núcleo pulposo gelatinoso",
+    "Es una articulación sinovial",
+    "En el adulto todo el disco está bien vascularizado"
+   ],
+   "answer": 2,
+   "explanation": "Los discos son articulaciones cartilaginosas de tipo sínfisis y forman alrededor de un cuarto de la longitud de la columna. No hay disco entre C1 y C2. En el adulto el disco es casi avascular y se nutre por difusión desde las placas terminales.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-19cb43e5",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿De qué tipo son las articulaciones cigapofisarias (facetarias) entre las vértebras?",
+   "options": [
+    "Articulación sinovial plana",
+    "Articulación sinovial en pivote",
+    "Sindesmosis",
+    "Articulación sinovial esferoidea",
+    "Sínfisis"
+   ],
+   "answer": 0,
+   "explanation": "Las articulaciones entre las apófisis articulares superiores e inferiores son planas y permiten deslizamiento; la orientación de sus carillas determina la movilidad de cada región (oblicua en el cuello, coronal en el tórax, sagital en la zona lumbar). Su degeneración es una causa frecuente de dolor lumbar.",
+   "entries": [
+    "ligg-columnae",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ar-7888f307",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿En qué orden se producen los movimientos de la articulación temporomandibular al abrir la boca?",
+   "options": [
+    "Solo se produce un movimiento de bisagra",
+    "El cóndilo permanece fijo detrás del tubérculo articular",
+    "El disco se desliza hacia atrás independientemente del cóndilo",
+    "Primero deslizamiento en el compartimento superior y luego rotación en el inferior",
+    "Primero el cóndilo gira como una bisagra en el compartimento inferior y luego cóndilo y disco se deslizan juntos hacia delante en el superior"
+   ],
+   "answer": 4,
+   "explanation": "El disco articular divide la ATM en un compartimento superior (disco–fosa/tubérculo) y otro inferior (disco–cóndilo). Al inicio de la apertura hay rotación en el compartimento inferior; en la apertura amplia el complejo cóndilo–disco se desliza hacia delante hacia el tubérculo articular en el superior (traslación), impulsado por el pterigoideo lateral.",
+   "entries": [
+    "art-temporomandibularis",
+    "m-pterygoideus-lateralis"
+   ]
+  },
+  {
+   "id": "ar-9f52e25c",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué tejido están cubiertas las superficies articulares de la articulación temporomandibular?",
+   "options": [
+    "Hueso desnudo",
+    "Periostio",
+    "Cartílago elástico",
+    "Fibrocartílago",
+    "Cartílago hialino"
+   ],
+   "answer": 3,
+   "explanation": "La ATM es una articulación sinovial atípica cuyas superficies están cubiertas de fibrocartílago y no de cartílago hialino, en relación con el origen membranoso de la mandíbula. Las articulaciones de ambos extremos de la clavícula comparten esta característica.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-fd55eb81",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es la zona más débil de la articulación glenohumeral y por qué?",
+   "options": [
+    "La parte inferior; allí no hay músculo del manguito ni un ligamento potente",
+    "Ninguna zona es débil",
+    "La parte anterior; allí no está el subescapular",
+    "La parte superior; no hay apoyo del acromion",
+    "La parte posterior; ahí la cápsula es más fina"
+   ],
+   "answer": 0,
+   "explanation": "El manguito rotador rodea la cápsula por arriba, delante y detrás; la parte inferior solo la protegen la cápsula laxa y el ligamento glenohumeral inferior. En abducción la cabeza humeral sale por esta zona hacia abajo y adelante, poniendo en riesgo el nervio axilar.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-0145e5e7",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuáles son las dos porciones del ligamento coracoclavicular?",
+   "options": [
+    "Ligamentos glenohumerales superior y medio",
+    "Ligamentos coracoacromial y coracohumeral",
+    "Ligamentos acromioclaviculares superior e inferior",
+    "Ligamentos costoclavicular e interclavicular",
+    "Ligamentos conoideo y trapezoideo"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento coracoclavicular es el más fuerte de los que suspenden la clavícula de la escápula: tiene una porción medial conoidea (al tubérculo conoideo) y otra lateral trapezoidea (a la línea trapezoidea). Si también se rompe en una luxación acromioclavicular, la clavícula se eleva claramente.",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-2ce80442",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la articulación esternoclavicular es verdadera?",
+   "options": [
+    "Es una esferoidea sin disco",
+    "Es una bisagra de un solo eje",
+    "Es una articulación cartilaginosa",
+    "Es una articulación fibrosa",
+    "Es una articulación sinovial en silla de montar que contiene un disco articular"
+   ],
+   "answer": 4,
+   "explanation": "La esternoclavicular es la única articulación verdadera entre el miembro superior y el tronco; su disco la divide en dos y actúa como un fuerte cojín que impide que la clavícula se deslice hacia dentro. El ligamento costoclavicular es su principal estabilizador.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-b6f1b5ff",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Dónde se encuentra el complejo fibrocartilaginoso triangular (CFCT)?",
+   "options": [
+    "En la articulación radiocubital proximal",
+    "En la articulación carpometacarpiana del pulgar",
+    "En la articulación mediocarpiana",
+    "Entre el radio y el escafoides",
+    "Entre el extremo distal del cúbito y el semilunar y el piramidal"
+   ],
+   "answer": 4,
+   "explanation": "El CFCT separa la cabeza del cúbito de los huesos del carpo, es el principal estabilizador de la radiocubital distal y soporta parte de la carga de la muñeca. Puede romperse al caer sobre la mano o forzar la desviación cubital, causando dolor en el lado cubital de la muñeca.",
+   "entries": [
+    "artt-radioulnares",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "ar-9c0521bf",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Por qué la desviación radial (abducción) de la muñeca está más limitada que la cubital?",
+   "options": [
+    "El cúbito es más largo que el radio",
+    "La apófisis estiloides del radio desciende más",
+    "El CFCT está en el lado radial",
+    "El ligamento colateral cubital del carpo es débil",
+    "El pisiforme bloquea el movimiento"
+   ],
+   "answer": 1,
+   "explanation": "La apófisis estiloides del radio termina alrededor de 1 cm más abajo que la del cúbito y limita la desviación radial al chocar con el escafoides. Como el cúbito no se articula directamente con el carpo, la desviación cubital es más amplia.",
+   "entries": [
+    "art-radiocarpalis",
+    "radius"
+   ]
+  },
+  {
+   "id": "ar-24504957",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué tipo son las articulaciones radiocubitales proximal y distal?",
+   "options": [
+    "Sindesmosis",
+    "En bisagra",
+    "Plana",
+    "En silla de montar",
+    "Sinovial en pivote (trocoide)"
+   ],
+   "answer": 4,
+   "explanation": "Proximalmente la cabeza del radio gira dentro del ligamento anular y distalmente el radio gira alrededor de la cabeza del cúbito; juntas producen la pronación y la supinación. La membrana interósea entre ellas es una sindesmosis.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-7abbb713",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué función cumple la dirección de las fibras de la membrana interósea del antebrazo?",
+   "options": [
+    "Impide totalmente la pronación",
+    "Transmite al cúbito la carga que llega de la mano al radio",
+    "Transmite a la mano la carga que llega del cúbito",
+    "Sustituye a los ligamentos colaterales del codo",
+    "Solo sirve de origen muscular"
+   ],
+   "answer": 1,
+   "explanation": "En la muñeca la mayor parte de la carga pasa al radio y en el codo al cúbito (articulación humerocubital). Como las fibras de la membrana van del radio hacia abajo y adentro hasta el cúbito, transmiten la carga del radio al cúbito y ofrecen una amplia superficie de origen muscular.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-801c39ac",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué tipo es la articulación de la rodilla?",
+   "options": [
+    "En silla de montar",
+    "Plana",
+    "En pivote",
+    "Esferoidea",
+    "Sinovial bicondílea (bisagra modificada)"
+   ],
+   "answer": 4,
+   "explanation": "La rodilla es una articulación bicondílea entre los dos cóndilos femorales y las mesetas tibiales que, además de la bisagra, permite algo de rotación en flexión; la femororrotuliana está dentro de la misma cápsula.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-8ffbb6ae",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué movimiento impide principalmente el ligamento cruzado anterior (LCA)?",
+   "options": [
+    "El deslizamiento anterior de la tibia respecto al fémur",
+    "El desplazamiento lateral de la rótula",
+    "El estrés en varo de la rodilla",
+    "El deslizamiento posterior de la tibia respecto al fémur",
+    "El estrés en valgo de la rodilla"
+   ],
+   "answer": 0,
+   "explanation": "El LCA va del área intercondílea anterior de la tibia a la cara interna del cóndilo femoral lateral; limita el deslizamiento anterior de la tibia y la rotación interna excesiva. Se explora con el cajón anterior y el test de Lachman. El deslizamiento posterior lo limita el LCP, el valgo el colateral medial y el varo el lateral.",
+   "notes": [
+    "",
+    "Es función del ligamento femororrotuliano medial y del VMO.",
+    "Es función del ligamento colateral lateral.",
+    "Es función del ligamento cruzado posterior.",
+    "Es función del ligamento colateral medial."
+   ],
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-1653af8f",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "En un accidente de moto un paciente recibe un golpe en la cara anterior de la tibia proximal con la rodilla flexionada; con la rodilla a 90° la tibia puede empujarse hacia atrás respecto al fémur. ¿Qué ligamento está lesionado?",
+   "options": [
+    "Ligamento rotuliano",
+    "Ligamento colateral lateral",
+    "Ligamento colateral medial",
+    "Ligamento cruzado anterior",
+    "Ligamento cruzado posterior"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento cruzado posterior impide que la tibia se deslice hacia atrás; la «lesión del salpicadero» es el mecanismo típico. El cajón posterior y el hundimiento posterior de la tibia (signo de sag) son positivos. El LCP es más grueso y fuerte que el LCA.",
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-35c5b540",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuáles son los componentes de la clásica «tríada desgraciada» (O'Donoghue) de la rodilla?",
+   "options": [
+    "Ligamento cruzado posterior, colateral lateral y menisco lateral",
+    "Ligamento cruzado anterior, cruzado posterior y ligamento rotuliano",
+    "Ligamento cruzado anterior, colateral medial y menisco medial",
+    "Ligamento colateral lateral, tendón del poplíteo y menisco lateral",
+    "Ligamento colateral medial, pata de ganso y menisco medial"
+   ],
+   "answer": 2,
+   "explanation": "Un golpe en la cara lateral de la rodilla con el pie fijo en el suelo rompe, por valgo y rotación externa, el ligamento colateral medial, luego el menisco medial unido a él y el ligamento cruzado anterior. Estudios recientes muestran que el menisco lateral también se afecta a menudo.",
+   "entries": [
+    "ligg-cruciata",
+    "ligg-collateralia-genus",
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-d15651f8",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué ocurre durante el bloqueo de la rodilla en extensión completa (atornillamiento) con el pie apoyado?",
+   "options": [
+    "El fémur rota hacia fuera sobre la tibia",
+    "La tibia rota hacia dentro bajo el fémur",
+    "Los meniscos se deslizan hacia atrás",
+    "El fémur rota hacia dentro sobre la tibia",
+    "La rótula se desliza hacia arriba y se bloquea"
+   ],
+   "answer": 3,
+   "explanation": "Como el cóndilo femoral medial es más largo, en los últimos grados de extensión en cadena cerrada el fémur rota hacia dentro y bloquea la articulación; en cadena abierta el mismo movimiento se ve como rotación externa de la tibia. El poplíteo la desbloquea rotando el fémur hacia fuera.",
+   "entries": [
+    "art-genus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-dec32412",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la bolsa suprarrotuliana es verdadera?",
+   "options": [
+    "Siempre está separada de la cavidad articular",
+    "Está entre la rótula y la piel",
+    "Está entre el ligamento rotuliano y la tibia",
+    "Suele comunicar con la cavidad de la rodilla y se hincha con el derrame",
+    "Está bajo la pata de ganso"
+   ],
+   "answer": 3,
+   "explanation": "La bolsa suprarrotuliana está bajo el tendón del cuádriceps, delante del fémur, y es como una prolongación superior de la cavidad articular; en el derrame se hincha por encima de la rótula. La bolsa prerrotuliana está delante de la rótula y la infrarrotuliana profunda detrás del ligamento rotuliano.",
+   "notes": [
+    "Falso; suele comunicar.",
+    "Describe la bolsa prerrotuliana.",
+    "Describe la bolsa infrarrotuliana profunda.",
+    "",
+    "Describe la bolsa de la pata de ganso."
+   ],
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-bbea335b",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué parte de los meniscos no está irrigada, de modo que sus roturas curan mal?",
+   "options": [
+    "Los extremos de los cuernos posteriores fijados a la tibia",
+    "Los bordes unidos a la cápsula",
+    "Los extremos de los cuernos anteriores fijados a la tibia",
+    "Los 2/3 internos que miran a la articulación (zona blanca)",
+    "El 1/3 externo cercano a la cápsula (zona roja)"
+   ],
+   "answer": 3,
+   "explanation": "Los meniscos se irrigan periféricamente por el plexo capilar perimeniscal; el tercio externo (zona roja) está bien vascularizado y puede repararse, mientras que las partes internas se nutren por difusión del líquido sinovial y sus roturas suelen resecarse.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-635bed39",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un futbolista nota un dolor brusco al girar con la rodilla flexionada y el pie fijo. Al día siguiente refiere dolor en la interlínea medial y enganches y bloqueos ocasionales; la prueba de McMurray es positiva. ¿Cuál es la lesión más probable?",
+   "options": [
+    "Enfermedad de Osgood-Schlatter",
+    "Rotura del menisco medial",
+    "Luxación de rótula",
+    "Rotura del ligamento cruzado anterior",
+    "Síndrome de fricción de la cintilla iliotibial"
+   ],
+   "answer": 1,
+   "explanation": "Una rodilla en carga, flexión y rotación atrapa el menisco entre fémur y tibia; el dolor en la interlínea, los bloqueos y la prueba de McMurray sugieren una rotura meniscal. El menisco medial, unido a la cápsula y al colateral medial, es menos móvil y se rompe más.",
+   "entries": [
+    "meniscus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-a84a64ee",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es la posición más estable (close-packed) de la articulación de la cadera?",
+   "options": [
+    "Ligera flexión y rotación externa",
+    "Extensión, abducción y rotación interna",
+    "Posición neutra",
+    "Flexión, abducción y rotación externa",
+    "Flexión, aducción y rotación interna"
+   ],
+   "answer": 1,
+   "explanation": "En extensión y rotación interna los ligamentos iliofemoral, pubofemoral e isquiofemoral se tensan en espiral y aprietan la cabeza femoral contra el acetábulo. La flexión–aducción–rotación interna es la posición más propensa a la luxación posterior (lesión del salpicadero).",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-21f160b4",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué anillo fibrocartilaginoso aumenta la profundidad del acetábulo?",
+   "options": [
+    "Menisco",
+    "Ligamento de la cabeza del fémur",
+    "Labrum acetabular",
+    "Labrum glenoideo",
+    "Disco articular"
+   ],
+   "answer": 2,
+   "explanation": "El labrum acetabular se fija en el reborde del acetábulo, con su escotadura inferior completada por el ligamento transverso del acetábulo; profundiza la articulación y sujeta la cabeza femoral como una ventosa. Puede romperse en el choque femoroacetabular.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-2025bf01",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre el ligamento medial (deltoideo) del tobillo es verdadera?",
+   "options": [
+    "Está formado por tres bandas separadas y es el que más se rompe",
+    "Se extiende en abanico del maléolo medial al astrágalo, el calcáneo y el navicular; limita la eversión",
+    "Va entre la tibia y el peroné",
+    "Limita la inversión",
+    "Nace del maléolo lateral"
+   ],
+   "answer": 1,
+   "explanation": "El ligamento deltoideo es muy fuerte; en la eversión forzada con frecuencia arranca el maléolo medial en lugar de romperse. El complejo ligamentoso lateral (LPAA, LPC, LPAP) es la estructura que más se lesiona en los esguinces por inversión.",
+   "entries": [
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-029aa2f6",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es la articulación de Lisfranc?",
+   "options": [
+    "Articulación subastragalina",
+    "Articulaciones intermetatarsianas",
+    "Articulaciones metatarsofalángicas",
+    "Articulaciones astragalonavicular y calcaneocuboidea",
+    "Articulaciones tarsometatarsianas"
+   ],
+   "answer": 4,
+   "explanation": "La articulación de Lisfranc está entre las cuñas y el cuboides y las bases de los metatarsianos; la base del 2.º metatarsiano se encaja en la cuña intermedia y es la clave de la articulación. Las articulaciones astragalonavicular y calcaneocuboidea forman juntas la articulación de Chopart (transversa del tarso).",
+   "entries": [
+    "artt-pedis",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "ar-cbb80467",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué es el mecanismo de «molinete» (windlass) de la fascia plantar?",
+   "options": [
+    "La flexión dorsal del dedo gordo tensa la fascia plantar y eleva el arco medial",
+    "La fascia solo se relaja de pie",
+    "La fascia se rompe y se vuelve a fijar en el choque del talón",
+    "La flexión plantar del dedo gordo eleva el arco",
+    "La flexión plantar del tobillo relaja la fascia y aplana el arco"
+   ],
+   "answer": 0,
+   "explanation": "La fascia plantar va del calcáneo a la base de los dedos; en el despegue, cuando el dedo gordo se flexiona dorsalmente, la fascia se enrolla como una cuerda alrededor de la MTF, acerca el talón a las cabezas metatarsianas y eleva el arco. El dolor de los primeros pasos de la mañana en la fascitis plantar se relaciona con esta tensión.",
+   "entries": [
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "ar-9cae36b7",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué sostiene el ligamento calcaneonavicular plantar (ligamento «en resorte»)?",
+   "options": [
+    "El extremo inferior del peroné",
+    "La cabeza del astrágalo y el arco longitudinal medial",
+    "El cuboides",
+    "La tuberosidad del calcáneo",
+    "El 5.º metatarsiano"
+   ],
+   "answer": 1,
+   "explanation": "El ligamento en resorte va del sustentáculo del astrágalo al navicular y forma el suelo de la cavidad donde se apoya la cabeza del astrágalo; con el tendón del tibial posterior que pasa por debajo, es el soporte clave del arco medial. Su laxitud deja descender la cabeza del astrágalo y produce pie plano.",
+   "entries": [
+    "artt-pedis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-9dffdcc7",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿De qué tipo es la articulación tibioperonea distal?",
+   "options": [
+    "Articulación sinovial plana",
+    "Sindesmosis",
+    "Sínfisis",
+    "En pivote",
+    "Gonfosis"
+   ],
+   "answer": 1,
+   "explanation": "La tibioperonea distal es una articulación fibrosa sujeta por fuertes ligamentos (tibioperoneos anterior y posterior, ligamento interóseo) que mantiene la integridad de la mortaja del tobillo. La tibioperonea proximal es una articulación sinovial plana.",
+   "entries": [
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-2170c9e2",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con un esguince de tobillo tiene dolor y tumefacción sobre el maléolo medial; la radiografía de tobillo no muestra fractura, pero refiere también dolor en el extremo superior del peroné, justo bajo la rodilla. La radiografía muestra una fractura proximal del peroné y ensanchamiento del espacio tibioperoneo. ¿Cómo se llama este cuadro?",
+   "options": [
+    "Lesión de Lisfranc",
+    "Fractura de Segond",
+    "Fractura de Colles",
+    "Fractura de Maisonneuve",
+    "Fractura de Jones"
+   ],
+   "answer": 3,
+   "explanation": "Una fuerza en rotación externa rompe el ligamento deltoideo (o el maléolo medial), asciende por la sindesmosis tibioperonea y la membrana interósea y fractura el peroné proximal. Por eso nunca debe omitirse la exploración de la cabeza del peroné en las lesiones de tobillo.",
+   "entries": [
+    "artt-tibiofibulares",
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-59f5af67",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento mantiene unida con más fuerza la articulación sacroilíaca?",
+   "options": [
+    "Ligamento sacrotuberoso",
+    "Ligamento iliolumbar",
+    "Ligamento sacroilíaco anterior",
+    "Ligamento sacroespinoso",
+    "Ligamentos sacroilíacos interóseos"
+   ],
+   "answer": 4,
+   "explanation": "Los ligamentos sacroilíacos interóseos son fibras cortas y muy fuertes situadas detrás de la articulación que llenan el espacio entre el sacro y la tuberosidad ilíaca; transmiten el peso corporal del sacro al ilion. El ligamento anterior es fino; el sacrotuberoso y el sacroespinoso son accesorios que impiden la inclinación anterior del sacro.",
+   "entries": [
+    "art-sacroiliaca"
+   ]
+  },
+  {
+   "id": "ar-0814aea8",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO forma parte de los límites del estrecho inferior de la pelvis?",
+   "options": [
+    "Promontorio",
+    "Punta del cóccix",
+    "Arco del pubis",
+    "Tuberosidad isquiática",
+    "Ligamento sacrotuberoso"
+   ],
+   "answer": 0,
+   "explanation": "El estrecho inferior está limitado por delante por el arco del pubis y el borde inferior de la sínfisis, a los lados por las tuberosidades isquiáticas y los ligamentos sacrotuberosos, y por detrás por la punta del cóccix. El promontorio es el límite posterior del estrecho superior.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-158c435d",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "En general, ¿qué unen los ligamentos?",
+   "options": [
+    "Nervios con hueso",
+    "Piel con hueso",
+    "Músculo con hueso",
+    "Hueso con hueso",
+    "Músculo con músculo"
+   ],
+   "answer": 3,
+   "explanation": "Los ligamentos son bandas de tejido conjuntivo denso que unen los huesos entre sí y estabilizan pasivamente la articulación. La estructura que une el músculo al hueso es el tendón.",
+   "entries": [
+    "eklem-tipleri",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3d9b7532",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama la estructura que une el músculo al hueso?",
+   "options": [
+    "Tendón",
+    "Rodete",
+    "Ligamento",
+    "Bolsa",
+    "Menisco"
+   ],
+   "answer": 0,
+   "explanation": "Los tendones transmiten la fuerza del músculo al hueso. Las bolsas facilitan el deslizamiento de los tendones sobre el hueso; meniscos y rodetes son estructuras fibrocartilaginosas intraarticulares.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3fe924fa",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué tipo de cartílago cubre habitualmente las superficies de las articulaciones sinoviales?",
+   "options": [
+    "Tejido óseo",
+    "Cartílago hialino",
+    "Cartílago elástico",
+    "Fibrocartílago",
+    "Tejido conjuntivo denso"
+   ],
+   "answer": 1,
+   "explanation": "En la mayoría de las articulaciones sinoviales las superficies están cubiertas de cartílago hialino liso. En unas pocas, como la temporomandibular y la esternoclavicular, es fibrocartílago.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-5deb5335",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué estructura produce el líquido sinovial?",
+   "options": [
+    "Ligamentos articulares",
+    "Periostio",
+    "Membrana sinovial",
+    "Cápsula fibrosa",
+    "Cartílago articular"
+   ],
+   "answer": 2,
+   "explanation": "La membrana sinovial que tapiza el interior de la cápsula produce un líquido resbaladizo rico en ácido hialurónico que nutre el cartílago y reduce el rozamiento.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-968e75e8",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el movimiento que reduce el ángulo entre dos huesos (doblar)?",
+   "options": [
+    "Abducción",
+    "Extensión",
+    "Flexión",
+    "Rotación",
+    "Aducción"
+   ],
+   "answer": 2,
+   "explanation": "La flexión dobla y la extensión endereza (aumenta el ángulo). La abducción aleja de la línea media, la aducción acerca a ella y la rotación gira un segmento sobre su eje.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-59af87db",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el movimiento de separar el brazo del tronco hacia un lado?",
+   "options": [
+    "Flexión",
+    "Circunducción",
+    "Aducción",
+    "Extensión",
+    "Abducción"
+   ],
+   "answer": 4,
+   "explanation": "La abducción aleja un miembro de la línea media del cuerpo; en el hombro la realizan sobre todo el supraespinoso y el deltoides.",
+   "entries": [
+    "eklem-tipleri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-4d1f8034",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el movimiento del antebrazo que gira la palma hacia arriba (hacia delante)?",
+   "options": [
+    "Eversión",
+    "Pronación",
+    "Supinación",
+    "Oposición",
+    "Inversión"
+   ],
+   "answer": 2,
+   "explanation": "En la supinación la palma mira arriba/adelante y en la pronación abajo/atrás; estos movimientos ocurren en las articulaciones radiocubitales. La inversión y la eversión son movimientos del pie.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-d52f46c3",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el movimiento que gira la planta del pie hacia dentro?",
+   "options": [
+    "Eversión",
+    "Inversión",
+    "Pronación",
+    "Flexión dorsal",
+    "Flexión plantar"
+   ],
+   "answer": 1,
+   "explanation": "En la inversión la planta mira hacia dentro y en la eversión hacia fuera. Estos movimientos ocurren sobre todo en la subastragalina y la transversa del tarso; la mayoría de los esguinces se producen en inversión.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-3eb5fefe",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es la articulación más móvil del cuerpo?",
+   "options": [
+    "Cadera",
+    "Hombro (glenohumeral)",
+    "Rodilla",
+    "Codo",
+    "Muñeca"
+   ],
+   "answer": 1,
+   "explanation": "El hombro sacrifica estabilidad a cambio de amplitud: la cabeza humeral solo contacta parcialmente con la glena poco profunda. Por eso es la gran articulación que más se luxa.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-f3f16261",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es la articulación más grande del cuerpo?",
+   "options": [
+    "Rodilla",
+    "Cadera",
+    "Sacroilíaca",
+    "Hombro",
+    "Tobillo"
+   ],
+   "answer": 0,
+   "explanation": "La rodilla, formada por el fémur, la tibia y la rótula, es la articulación sinovial más grande y compleja del cuerpo.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-809c1821",
+   "group": "Articulaciones del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué huesos participan en la articulación de la rodilla?",
+   "options": [
+    "Fémur, rótula y calcáneo",
+    "Fémur, peroné y rótula",
+    "Tibia, peroné y astrágalo",
+    "Fémur, tibia y peroné",
+    "Fémur, tibia y rótula"
+   ],
+   "answer": 4,
+   "explanation": "La rodilla consta de las articulaciones femorotibial y femoropatelar. El peroné no participa en la rodilla; la tibioperonea superior es una articulación aparte.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-e4a2fa9a",
+   "group": "Articulaciones del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Entre qué huesos está la articulación del hombro?",
+   "options": [
+    "Clavícula y escápula",
+    "Escápula y esternón",
+    "Húmero y esternón",
+    "Húmero y clavícula",
+    "Húmero y escápula"
+   ],
+   "answer": 4,
+   "explanation": "La articulación glenohumeral está entre la cabeza del húmero y la cavidad glenoidea de la escápula. La clavícula y la escápula forman la acromioclavicular.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-aec5db37",
+   "group": "Articulaciones del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿De qué tipo es la articulación de la cadera?",
+   "options": [
+    "En silla de montar",
+    "En bisagra",
+    "Esferoidea (enartrosis)",
+    "Trocoide (pivote)",
+    "Plana"
+   ],
+   "answer": 2,
+   "explanation": "La cadera es una articulación esferoidea entre la cabeza femoral y el acetábulo; se mueve en tres ejes y, gracias a su cavidad profunda, es más estable que el hombro.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-55d60eb1",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Entre qué huesos está la articulación de la mandíbula (temporomandibular)?",
+   "options": [
+    "Mandíbula y esfenoides",
+    "Mandíbula y cigomático",
+    "Mandíbula y maxilar",
+    "Mandíbula y temporal",
+    "Maxilar y temporal"
+   ],
+   "answer": 3,
+   "explanation": "La ATM está entre el cóndilo mandibular y la fosa mandibular y el tubérculo articular del temporal; contiene un disco fibrocartilaginoso.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-1c1cd56a",
+   "group": "Articulaciones del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Entre qué huesos está la sínfisis del pubis?",
+   "options": [
+    "Sacro y cóccix",
+    "Sacro e ilion",
+    "Fémur y pubis",
+    "Pubis derecho e izquierdo",
+    "Isquion y pubis"
+   ],
+   "answer": 3,
+   "explanation": "La sínfisis del pubis es la articulación fibrocartilaginosa que une por delante, en la línea media, los dos pubis; entre ellos está el disco interpúbico.",
+   "entries": [
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-c9695c99",
+   "group": "Articulaciones del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué articulación se encuentran los meniscos?",
+   "options": [
+    "Hombro",
+    "Rodilla",
+    "Tobillo",
+    "Cadera",
+    "Codo"
+   ],
+   "answer": 1,
+   "explanation": "Los meniscos medial y lateral están entre los cóndilos femorales y tibiales de la rodilla; aumentan la congruencia y reparten la carga.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-df324558",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué es una bolsa sinovial?",
+   "options": [
+    "Un pequeño saco lleno de líquido, tapizado de sinovial, entre estructuras que rozan",
+    "Un disco fibrocartilaginoso intraarticular",
+    "La capa externa del cartílago articular",
+    "La membrana que cubre el hueso",
+    "Una banda que une el músculo al hueso"
+   ],
+   "answer": 0,
+   "explanation": "Las bolsas reducen el rozamiento entre estructuras que se deslizan entre sí, como tendón y hueso o piel y hueso. Su inflamación por presión o roce repetidos se llama bursitis.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-0716071b",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cómo se nutre el cartílago articular?",
+   "options": [
+    "Por los vasos del pericondrio",
+    "Por sus propios vasos",
+    "Por los vasos del periostio",
+    "Por capilares de la médula ósea",
+    "Por difusión desde el líquido sinovial"
+   ],
+   "answer": 4,
+   "explanation": "El cartílago articular no tiene vasos, nervios ni pericondrio; se nutre por difusión desde el líquido sinovial. Por eso sus lesiones no cicatrizan por sí solas.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-7804f95c",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En la artritis reumatoide, ¿cómo se llama el tejido inflamatorio que erosiona el cartílago y el hueso?",
+   "options": [
+    "Callo",
+    "Tofo",
+    "Ganglión",
+    "Osteofito",
+    "Pannus"
+   ],
+   "answer": 4,
+   "explanation": "La artritis reumatoide es una inflamación crónica de la sinovial; la sinovial engrosada, llamada pannus, erosiona el cartílago y el hueso. Los osteofitos son signo de artrosis y los tofos de gota.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-a742a27f",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En personas que trabajan de rodillas, la hinchazón delante de la rótula es una bursitis de ¿qué bolsa?",
+   "options": [
+    "Bolsa del semimembranoso",
+    "Bolsa infrarrotuliana profunda",
+    "Bolsa suprarrotuliana",
+    "Bolsa prerrotuliana",
+    "Bolsa anserina"
+   ],
+   "answer": 3,
+   "explanation": "La bursitis prerrotuliana («rodilla de beata») es la inflamación de la bolsa entre la rótula y la piel por presión repetida. La infrarrotuliana está delante de la tuberosidad tibial.",
+   "entries": [
+    "art-genus",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-4202eeca",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es la función principal de los ligamentos alares?",
+   "options": [
+    "Impedir la flexión excesiva de la cabeza",
+    "Apretar la odontoides contra el arco anterior del atlas",
+    "Limitar la rotación excesiva de la cabeza",
+    "Unir el arco posterior del atlas al occipital",
+    "Formar la pared anterior del conducto vertebral"
+   ],
+   "answer": 2,
+   "explanation": "Los ligamentos alares van de los lados de la odontoides a los cóndilos occipitales e impiden la rotación excesiva de la cabeza en la atlantoaxial. El que aprieta la odontoides contra el arco anterior es el ligamento transverso del atlas.",
+   "entries": [
+    "artt-craniovertebrales"
+   ]
+  },
+  {
+   "id": "ar-4ecc76c5",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Por qué está limitada la rotación de la columna en la región lumbar?",
+   "options": [
+    "Por las costillas",
+    "Porque las carillas facetarias están en el plano sagital",
+    "Porque los discos son muy delgados",
+    "Porque las espinosas son cortas",
+    "Porque no hay ligamento amarillo"
+   ],
+   "answer": 1,
+   "explanation": "La orientación de las facetas determina el tipo de movimiento: las lumbares son sagitales y permiten la flexoextensión pero limitan la rotación; las torácicas están en el plano frontal y la rotación es libre.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-0ab30723",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué vértebras se encuentran las articulaciones uncovertebrales (de Luschka)?",
+   "options": [
+    "Vértebras cervicales C3–C7",
+    "Vértebras torácicas T1–T12",
+    "Entre atlas y axis",
+    "Vértebras lumbares L1–L5",
+    "Entre las vértebras sacras"
+   ],
+   "answer": 0,
+   "explanation": "Las uncovertebrales son hendiduras articulares entre las apófisis unciformes del borde lateral superior de los cuerpos de C3–C7 y la vértebra superior; sus osteofitos pueden estrechar el agujero intervertebral.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-ff6c7a3d",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento impide el desplazamiento posterior del cóndilo en la ATM?",
+   "options": [
+    "Ligamento lateral (temporomandibular)",
+    "Ligamento pterigoespinoso",
+    "Ligamento estilomandibular",
+    "Ligamento esfenomandibular",
+    "Ligamento estilohioideo"
+   ],
+   "answer": 0,
+   "explanation": "El ligamento lateral es un engrosamiento de la cara externa de la cápsula; va del arco cigomático al cuello de la mandíbula e impide que el cóndilo se desplace atrás y abajo. Los esfeno- y estilomandibulares son ligamentos accesorios alejados de la cápsula.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-c413ead3",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cómo se llama el movimiento respiratorio de las costillas inferiores que aumenta el diámetro transversal del tórax?",
+   "options": [
+    "Movimiento en bisagra",
+    "Movimiento en brazo de bomba",
+    "Movimiento en compás",
+    "Movimiento en asa de cubo",
+    "Movimiento de deslizamiento"
+   ],
+   "answer": 3,
+   "explanation": "Las costillas inferiores se elevan hacia arriba y afuera por su parte media como el asa de un cubo y aumentan el diámetro transversal. El movimiento en brazo de bomba de las superiores aumenta el diámetro anteroposterior.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-185a3978",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de estas costillas NO se articula con una apófisis transversa (articulación costotransversa)?",
+   "options": [
+    "12.ª costilla",
+    "7.ª costilla",
+    "5.ª costilla",
+    "1.ª costilla",
+    "10.ª costilla"
+   ],
+   "answer": 0,
+   "explanation": "La articulación costotransversa está entre el tubérculo costal y la apófisis transversa. Las costillas 11.ª y 12.ª no tienen tubérculo y no forman esta articulación.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-25e330cf",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué movimiento aumenta el diámetro anteroposterior del estrecho inferior durante el parto?",
+   "options": [
+    "Fusión de la sínfisis del pubis",
+    "Rotación interna del ilion",
+    "Ensanchamiento del acetábulo",
+    "Inclinación anterior del sacro",
+    "Desplazamiento posterior del cóccix"
+   ],
+   "answer": 4,
+   "explanation": "La articulación sacrococcígea permite que el cóccix se desplace hacia atrás durante el parto, aumentando unos centímetros el diámetro anteroposterior del estrecho inferior.",
+   "entries": [
+    "art-sacrococcygea"
+   ]
+  },
+  {
+   "id": "ar-632188f8",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento proporciona principalmente la estabilidad de la articulación esternoclavicular?",
+   "options": [
+    "Ligamento interclavicular",
+    "Ligamento costoclavicular",
+    "Ligamento acromioclavicular",
+    "Ligamento coracoclavicular",
+    "Ligamento esternoclavicular anterior"
+   ],
+   "answer": 1,
+   "explanation": "El ligamento costoclavicular, que une el extremo medial de la clavícula al primer cartílago costal, es el estabilizador más potente de la articulación y limita la elevación de la clavícula.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-d9375ce7",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructuras forman el arco coracoacromial?",
+   "options": [
+    "Acromion, clavícula y espina de la escápula",
+    "Tubérculo mayor, tubérculo menor y ligamento humeral transverso",
+    "Apófisis coracoides, clavícula y 1.ª costilla",
+    "Cavidad glenoidea, rodete y acromion",
+    "Acromion, ligamento coracoacromial y apófisis coracoides"
+   ],
+   "answer": 4,
+   "explanation": "El arco coracoacromial forma un techo protector sobre la cabeza humeral; bajo él pasan el tendón del supraespinoso y la bolsa subacromial. El síndrome de pinzamiento se produce bajo este arco.",
+   "entries": [
+    "ligg-scapulae"
+   ]
+  },
+  {
+   "id": "ar-9da426c2",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento mantiene el tendón de la porción larga del bíceps en la corredera bicipital?",
+   "options": [
+    "Ligamento coracoacromial",
+    "Ligamento coracohumeral",
+    "Ligamento humeral transverso",
+    "Ligamento transverso superior de la escápula",
+    "Ligamento glenohumeral superior"
+   ],
+   "answer": 2,
+   "explanation": "El ligamento humeral transverso se extiende entre los tubérculos mayor y menor y convierte la corredera en un canal. Si se rompe, el tendón puede salirse de la corredera con un chasquido doloroso.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-d525aa5a",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cómo se llama la desinserción del rodete anteroinferior, principal causa de la luxación anterior recidivante del hombro?",
+   "options": [
+    "Lesión SLAP",
+    "Lesión de Stener",
+    "Lesión de Bankart",
+    "Lesión de Hill-Sachs",
+    "Lesión de Bennett"
+   ],
+   "answer": 2,
+   "explanation": "La lesión de Bankart es la desinserción del rodete anteroinferior y del ligamento glenohumeral inferior de la glena. Hill-Sachs es una fractura por impactación posterolateral de la cabeza humeral; SLAP es una rotura del rodete superior.",
+   "entries": [
+    "ligg-art-humeri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-ecd485e2",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué parte del rodete afecta una lesión SLAP?",
+   "options": [
+    "El rodete superior (inserción de la porción larga del bíceps)",
+    "El rodete posteroinferior",
+    "El rodete acetabular",
+    "Todo el rodete",
+    "El rodete anteroinferior"
+   ],
+   "answer": 0,
+   "explanation": "La lesión SLAP (Superior Labrum Anterior to Posterior) es una rotura de delante atrás del rodete superior, donde se inserta la porción larga del bíceps; es frecuente en deportes de lanzamiento.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-cfe7c2cc",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es la estructura más importante para la estabilidad en valgo del codo?",
+   "options": [
+    "Ligamento cuadrado",
+    "Fascículo anterior del ligamento colateral cubital",
+    "Ligamento anular del radio",
+    "Cuerda oblicua",
+    "Ligamento colateral radial"
+   ],
+   "answer": 1,
+   "explanation": "El fascículo anterior del ligamento colateral medial (cubital) protege el codo frente a fuerzas en valgo. En lanzadores su rotura se reconstruye con injerto tendinoso (cirugía de «Tommy John»).",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-9da28623",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué rotura ligamentosa causa con más frecuencia inestabilidad de la muñeca, y cuál es su signo radiológico?",
+   "options": [
+    "Ligamento pisoganchoso – fractura del gancho del ganchoso",
+    "Ligamento colateral cubital – luxación de la cabeza del cúbito",
+    "Ligamento colateral radial – fractura de la estiloides radial",
+    "Ligamento lunopiramidal – rotación dorsal del semilunar",
+    "Ligamento escafolunar – separación mayor de 3 mm entre escafoides y semilunar"
+   ],
+   "answer": 4,
+   "explanation": "En la rotura escafolunar la radiografía AP muestra una separación entre ambos huesos (signo de Terry Thomas) y el signo del anillo del escafoides; sin tratamiento evoluciona a deformidad DISI y artrosis SLAC.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-3707eab2",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cómo se llama la artrosis de la articulación carpometacarpiana del pulgar?",
+   "options": [
+    "Rizartrosis",
+    "Enfermedad de Kienböck",
+    "Tenosinovitis de De Quervain",
+    "Nódulo de Heberden",
+    "Contractura de Dupuytren"
+   ],
+   "answer": 0,
+   "explanation": "La rizartrosis es la artrosis de la articulación en silla de montar entre el trapecio y el 1.er metacarpiano; produce dolor al agarrar y al girar una llave, sobre todo en mujeres posmenopáusicas.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-a495b9af",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Si la mano debe inmovilizarse mucho tiempo, ¿por qué se mantienen las MCF en flexión?",
+   "options": [
+    "En flexión los tendones se nutren mejor.",
+    "En flexión los nervios quedan libres de compresión.",
+    "En extensión los huesos no consolidan.",
+    "Los ligamentos colaterales están tensos en flexión y así no se retraen.",
+    "En flexión la placa volar se relaja y cicatriza."
+   ],
+   "answer": 3,
+   "explanation": "Por la forma de leva de la cabeza del metacarpiano, los colaterales de las MCF están tensos en flexión. Si la articulación se mantiene mucho tiempo en extensión, los ligamentos laxos se retraen y aparece una rigidez en extensión permanente.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-9d4ca42d",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El pulgar del esquiador (pulgar del guardabosques) es una lesión de ¿qué ligamento?",
+   "options": [
+    "Placa volar de la IF del pulgar",
+    "Ligamento colateral cubital de la MCF del pulgar",
+    "Ligamento escafolunar",
+    "Ligamento colateral radial de la MCF del pulgar",
+    "Ligamento oblicuo anterior de la CMC del pulgar"
+   ],
+   "answer": 1,
+   "explanation": "La abducción forzada del pulgar al caer sobre el bastón de esquí rompe el ligamento colateral cubital de la MCF; disminuye la fuerza de agarre y de pinza.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-d07b4763",
+   "group": "Articulaciones del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructura impide la hiperextensión de las IFP de los dedos?",
+   "options": [
+    "Aparato extensor",
+    "Ligamentos colaterales",
+    "Ligamento metacarpiano transverso profundo",
+    "Placa volar",
+    "Músculos lumbricales"
+   ],
+   "answer": 3,
+   "explanation": "La placa volar es una lámina fibrocartilaginosa gruesa en la cara palmar de la articulación que limita la hiperextensión. Su avulsión en una lesión por hiperextensión puede producir una deformidad en cuello de cisne.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-b68b4630",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento impide la abducción excesiva de la cadera?",
+   "options": [
+    "Ligamento de la cabeza del fémur",
+    "Ligamento isquiofemoral",
+    "Ligamento transverso del acetábulo",
+    "Ligamento iliofemoral",
+    "Ligamento pubofemoral"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento pubofemoral va de la rama superior del pubis a la parte anteroinferior de la cápsula y limita la abducción excesiva. El iliofemoral impide la hiperextensión y el isquiofemoral la rotación interna excesiva.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-7cb7465b",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El ligamento poplíteo oblicuo es una expansión del tendón de ¿qué músculo?",
+   "options": [
+    "Bíceps femoral",
+    "Gastrocnemio",
+    "Poplíteo",
+    "Semitendinoso",
+    "Semimembranoso"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento poplíteo oblicuo sale del tendón del semimembranoso hacia arriba y afuera y refuerza la cara posterior de la cápsula de la rodilla; está justo delante de la arteria poplítea.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-02199c01",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué tendón pasa entre el ligamento colateral peroneo y el menisco lateral de la rodilla?",
+   "options": [
+    "Tendón del poplíteo",
+    "Tendón de la cabeza lateral del gastrocnemio",
+    "Tendón del plantar",
+    "Cintilla iliotibial",
+    "Tendón del bíceps femoral"
+   ],
+   "answer": 0,
+   "explanation": "El colateral peroneo está separado de la cápsula y del menisco lateral, y entre ellos pasa el tendón del poplíteo. Por eso el menisco lateral es más móvil y se rompe menos que el medial.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "meniscus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-2725a1ee",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento lateral del tobillo es el más fuerte y se rompe con menos frecuencia?",
+   "options": [
+    "Ligamento bifurcado",
+    "Ligamento peroneoastragalino posterior",
+    "Ligamento peroneoastragalino anterior",
+    "Ligamento peroneocalcáneo",
+    "Ligamento tibioperoneo anterior"
+   ],
+   "answer": 1,
+   "explanation": "Los ligamentos laterales se rompen de delante atrás: primero el peroneoastragalino anterior y luego el peroneocalcáneo. El peroneoastragalino posterior es el más fuerte y solo se rompe en lesiones graves.",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-b878c17d",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento valora principalmente la prueba del cajón anterior del tobillo?",
+   "options": [
+    "Ligamento peroneocalcáneo",
+    "Ligamento deltoideo",
+    "Ligamento peroneoastragalino posterior",
+    "Ligamentos de la sindesmosis",
+    "Ligamento peroneoastragalino anterior"
+   ],
+   "answer": 4,
+   "explanation": "En el cajón anterior se fija la tibia y se tracciona el talón hacia delante; el desplazamiento anterior del astrágalo indica rotura del peroneoastragalino anterior. El peroneocalcáneo se valora con la prueba de inclinación astragalina (estrés en inversión).",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-47535364",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructuras se lesionan en el esguince alto de tobillo?",
+   "options": [
+    "Ligamentos de la sindesmosis tibioperonea distal",
+    "Tendón de Aquiles",
+    "Ligamento de Lisfranc",
+    "Ligamento deltoideo",
+    "Ligamentos colaterales laterales del tobillo"
+   ],
+   "answer": 0,
+   "explanation": "El esguince alto suele producirse con rotación externa y rompe los ligamentos de la sindesmosis que unen tibia y peroné; tarda mucho más en curar que un esguince del ligamento lateral.",
+   "entries": [
+    "ligg-tibiofibularia-distalia"
+   ]
+  },
+  {
+   "id": "ar-f12bf4cd",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructura, situada en el seno del tarso, es el ligamento más fuerte de la articulación subastragalina?",
+   "options": [
+    "Ligamento plantar largo",
+    "Ligamento astragalocalcáneo lateral",
+    "Ligamento bifurcado",
+    "Ligamento peroneocalcáneo",
+    "Ligamento astragalocalcáneo interóseo"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento astragalocalcáneo interóseo ocupa el seno del tarso entre astrágalo y calcáneo y es el ligamento principal de la subastragalina.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-d75092b5",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué articulaciones forman la articulación de Chopart (transversa del tarso)?",
+   "options": [
+    "Cuneonavicular e intercuneiformes",
+    "Calcaneocuboidea y cuboideonavicular",
+    "Tarsometatarsianas e intermetatarsianas",
+    "Talocrural y subastragalina",
+    "Astragaloescafoidea y calcaneocuboidea"
+   ],
+   "answer": 4,
+   "explanation": "La articulación de Chopart es la línea articular en S entre retropié y mediopié y es un nivel de amputación. La de Lisfranc corresponde a las tarsometatarsianas.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-a378349f",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Por dónde se extiende el ligamento de Lisfranc?",
+   "options": [
+    "Del navicular a la cuña medial",
+    "Del calcáneo al cuboides",
+    "De la cuña intermedia a la base del 2.º metatarsiano",
+    "Del cuboides a la base del 5.º metatarsiano",
+    "De la cuña medial a la base del 2.º metatarsiano"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento de Lisfranc es un potente ligamento interóseo entre la cuña medial y la base del 2.º metatarsiano; como no hay ligamento entre las bases del 1.º y 2.º metatarsianos, es la clave de la articulación tarsometatarsiana.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-e5efb4d3",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué hueso es la clave del arco longitudinal lateral del pie?",
+   "options": [
+    "Cuboides",
+    "Cuña medial",
+    "Cabeza del 5.º metatarsiano",
+    "Cabeza del astrágalo",
+    "Navicular"
+   ],
+   "answer": 0,
+   "explanation": "La clave del arco longitudinal medial es la cabeza del astrágalo y la del lateral el cuboides. El arco lateral es bajo y está cerca del suelo.",
+   "entries": [
+    "arcus-pedis",
+    "os-cuboideum"
+   ]
+  },
+  {
+   "id": "ar-ca751a1b",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es la causa más frecuente de pie plano adquirido del adulto?",
+   "options": [
+    "Parálisis del tibial anterior",
+    "Rotura del peroneo largo",
+    "Rotura del tendón de Aquiles",
+    "Acortamiento de la fascia plantar",
+    "Insuficiencia del tendón del tibial posterior"
+   ],
+   "answer": 4,
+   "explanation": "El tibial posterior es el principal soporte dinámico del arco medial; la degeneración e insuficiencia de su tendón provocan el hundimiento del arco y el valgo del talón.",
+   "entries": [
+    "arcus-pedis",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "ar-a91411e8",
+   "group": "Articulaciones del miembro inferior",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un paciente que cayó sobre el pie en flexión plantar presenta tumefacción del mediopié y equimosis plantar; la radiografía muestra separación entre las bases del 1.º y 2.º metatarsianos. ¿Cuál es el diagnóstico más probable?",
+   "options": [
+    "Luxación de Chopart",
+    "Fractura de calcáneo",
+    "Esguince del ligamento lateral del tobillo",
+    "Fractura de Jones",
+    "Lesión de Lisfranc (tarsometatarsiana)"
+   ],
+   "answer": 4,
+   "explanation": "La equimosis plantar y la separación entre las bases del 1.º y 2.º metatarsianos son típicas de la lesión del ligamento de Lisfranc; aproximadamente una de cada cinco pasa desapercibida en la primera consulta, por lo que exige una valoración cuidadosa.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-fe1c13ee",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué tipo de fractura de la odontoides tiene mayor riesgo de seudoartrosis?",
+   "options": [
+    "Tipo I (punta de la odontoides)",
+    "Tipo II (base de la odontoides)",
+    "Fractura del ahorcado",
+    "Tipo III (se extiende al cuerpo del axis)",
+    "Fractura de Jefferson"
+   ],
+   "answer": 1,
+   "explanation": "En la clasificación de Anderson y D'Alonzo el tipo II atraviesa la base de la odontoides; en esta zona poco vascularizada la seudoartrosis es frecuente. El tipo III llega al cuerpo del axis y suele consolidar.",
+   "entries": [
+    "artt-craniovertebrales",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-55929b2d",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿De dónde procede la inervación sensitiva de las articulaciones facetarias (cigapofisarias)?",
+   "options": [
+    "Ramos anteriores de los nervios espinales",
+    "Nervio sinuvertebral (meníngeo recurrente)",
+    "Tronco simpático",
+    "Ramos mediales de los ramos posteriores de los nervios espinales",
+    "Ramos laterales de los ramos posteriores"
+   ],
+   "answer": 3,
+   "explanation": "Cada articulación facetaria recibe los ramos mediales de los ramos posteriores de dos niveles vecinos. En el dolor facetario se bloquean o se tratan con radiofrecuencia.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-dd990884",
+   "group": "Articulaciones del cráneo y la columna",
+   "level": "tus",
+   "clinical": false,
+   "stem": "El ligamento esfenomandibular es un resto de ¿qué estructura de los arcos faríngeos?",
+   "options": [
+    "Cartílago del 1.er arco faríngeo (cartílago de Meckel)",
+    "Notocorda",
+    "3.er arco faríngeo",
+    "4.º arco faríngeo",
+    "Cartílago del 2.º arco faríngeo (Reichert)"
+   ],
+   "answer": 0,
+   "explanation": "Del cartílago de Meckel derivan el martillo, el yunque y el ligamento esfenomandibular. El cartílago de Reichert (2.º arco) forma el estribo, la apófisis estiloides y el ligamento estilohioideo.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-bead98f0",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué ligamento del antebrazo tiene fibras orientadas en sentido opuesto a las de la membrana interósea?",
+   "options": [
+    "Ligamento colateral radial",
+    "Ligamento anular del radio",
+    "Cuerda oblicua",
+    "Ligamento cuadrado",
+    "Ligamento radiocubital dorsal"
+   ],
+   "answer": 2,
+   "explanation": "Las fibras de la membrana interósea descienden en sentido medial del radio al cúbito, mientras que la cuerda oblicua desciende en sentido lateral de la tuberosidad cubital al radio. Refuerza la articulación radiocubital proximal.",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-5ba07cbd",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cómo se llama la zona pobre en ligamentos de la cara palmar del hueso grande por donde se producen las luxaciones perisemilunares?",
+   "options": [
+    "Tabaquera anatómica",
+    "Espacio de Parona",
+    "Túnel carpiano",
+    "Canal de Guyon",
+    "Espacio de Poirier"
+   ],
+   "answer": 4,
+   "explanation": "El espacio de Poirier es la zona débil entre los ligamentos radioescafogrande y radiosemilunar; en la luxación perisemilunar el hueso grande se separa aquí del semilunar.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-31d4bdc3",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Las roturas de ¿qué parte del CFCT no cicatrizan por ser avasculares y requieren desbridamiento?",
+   "options": [
+    "Ligamento radiocubital dorsal",
+    "Periférica (borde cubital)",
+    "Central (parte media del disco)",
+    "Ligamento radiocubital palmar",
+    "Vaina del tendón del ECU"
+   ],
+   "answer": 2,
+   "explanation": "Solo el borde periférico del CFCT está bien vascularizado. Las roturas centrales no cicatrizan y se tratan con desbridamiento artroscópico; las periféricas se reparan.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-c3fb2f81",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué cuadro, propio de personas con el cúbito más largo que el radio (varianza cubital positiva), desgasta el CFCT y el semilunar?",
+   "options": [
+    "Deformidad de Madelung",
+    "Enfermedad de Kienböck",
+    "Síndrome del túnel carpiano",
+    "Síndrome de impactación cubitocarpiana",
+    "Tenosinovitis de De Quervain"
+   ],
+   "answer": 3,
+   "explanation": "En la varianza cubital positiva la cabeza del cúbito comprime el CFCT y el semilunar, con dolor del lado cubital y daño del cartílago del semilunar. La enfermedad de Kienböck se asocia más bien a varianza cubital negativa.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-e6d0e58d",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el ligamento estabilizador más importante de la articulación trapeciometacarpiana?",
+   "options": [
+    "Ligamento oblicuo anterior («ligamento pico»)",
+    "Ligamento colateral radial",
+    "Placa volar",
+    "Ligamento dorsorradial",
+    "Ligamento intermetacarpiano"
+   ],
+   "answer": 0,
+   "explanation": "El ligamento oblicuo anterior va del tubérculo del trapecio a la parte anteromedial de la base del 1.er metacarpiano; también es el que mantiene en su sitio el pequeño fragmento medial en la fractura de Bennett.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-17c5390c",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En la lesión de Stener, ¿qué estructura se interpone entre el ligamento colateral cubital roto y su inserción?",
+   "options": [
+    "Placa volar",
+    "Aponeurosis del aductor del pulgar",
+    "Tendón del abductor corto del pulgar",
+    "Tendón del extensor largo del pulgar",
+    "Hueso sesamoideo"
+   ],
+   "answer": 1,
+   "explanation": "Cuando se rompe el colateral cubital de la MCF del pulgar, su extremo puede quedar sobre la aponeurosis del aductor; la aponeurosis interpuesta impide la cicatrización, por lo que se necesita cirugía.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-dbeaf9b7",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructura se luxa en la fractura de Monteggia?",
+   "options": [
+    "Cabeza del húmero",
+    "Semilunar",
+    "Articulación radiocubital distal",
+    "Cabeza del cúbito",
+    "Cabeza del radio (radiocubital proximal)"
+   ],
+   "answer": 4,
+   "explanation": "En la fractura de Monteggia una fractura del tercio proximal del cúbito se acompaña de luxación de la cabeza del radio. En la de Galeazzi una fractura diafisaria del radio se acompaña de luxación radiocubital distal.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-9db62430",
+   "group": "Articulaciones del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Por qué la luxación posterior de la articulación esternoclavicular es una urgencia?",
+   "options": [
+    "Lesiona el nervio axilar.",
+    "El extremo medial de la clavícula puede comprimir los grandes vasos y la tráquea situados detrás.",
+    "El ligamento costoclavicular nunca se rompe.",
+    "También luxa el hombro.",
+    "Bloquea la articulación acromioclavicular."
+   ],
+   "answer": 1,
+   "explanation": "En la luxación posterior el extremo medial de la clavícula puede comprimir los vasos braquiocefálicos, la tráquea y el esófago; a diferencia de la anterior, puede requerir reducción urgente.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-684028b7",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué parte de la cara posterior del cuello femoral engloba la cápsula de la cadera?",
+   "options": [
+    "Sus 2/3 mediales",
+    "Toda hasta el trocánter mayor",
+    "Su 1/3 medial",
+    "Todo el cuello",
+    "Solo la cabeza femoral"
+   ],
+   "answer": 0,
+   "explanation": "Por delante la cápsula llega a la línea intertrocantérea y engloba todo el cuello; por detrás solo cubre sus 2/3 mediales. Por eso las fracturas del cuello son en gran parte intracapsulares.",
+   "entries": [
+    "art-coxae",
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-afbcdf8f",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué ligamento limita la rotación interna excesiva de la cadera?",
+   "options": [
+    "Ligamento transverso del acetábulo",
+    "Ligamento pubofemoral",
+    "Zona orbicular",
+    "Ligamento de la cabeza del fémur",
+    "Ligamento isquiofemoral"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento isquiofemoral se enrolla en espiral del isquion a la cara posterior de la cápsula; se tensa en rotación interna y extensión.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-eb063057",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el estabilizador estático más importante de la esquina posterolateral de la rodilla?",
+   "options": [
+    "Ligamento popliteoperoneo",
+    "Cintilla iliotibial",
+    "Ligamento meniscofemoral",
+    "Ligamento colateral tibial",
+    "Ligamento poplíteo oblicuo"
+   ],
+   "answer": 0,
+   "explanation": "La esquina posterolateral está formada por el colateral peroneo, el tendón del poplíteo, el ligamento popliteoperoneo y la cápsula; el popliteoperoneo es el principal freno estático de la rotación externa.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-8f7a2217",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En la prueba del dial, ¿qué sugiere un aumento de la rotación externa a 30° y a 90° de flexión de rodilla?",
+   "options": [
+    "Rotura aislada del ligamento colateral medial",
+    "Luxación de rótula",
+    "Rotura del menisco medial",
+    "Lesión combinada de la esquina posterolateral y del ligamento cruzado posterior",
+    "Rotura aislada del ligamento cruzado anterior"
+   ],
+   "answer": 3,
+   "explanation": "Un aumento de rotación externa solo a 30° sugiere lesión aislada de la esquina posterolateral; a 30° y 90°, lesión combinada de la esquina posterolateral y del LCP.",
+   "entries": [
+    "ligg-genus-posteriora",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-cf2d6b19",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué ligamento lateral del tobillo actúa tanto sobre la talocrural como sobre la subastragalina?",
+   "options": [
+    "Ligamento peroneoastragalino posterior",
+    "Ligamento peroneoastragalino anterior",
+    "Ligamento astragalocalcáneo interóseo",
+    "Ligamento tibioperoneo anterior",
+    "Ligamento peroneocalcáneo"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento peroneocalcáneo va del maléolo lateral al calcáneo y cruza así ambas articulaciones; se valora con la prueba de inclinación astragalina.",
+   "entries": [
+    "ligg-talocruralia-lateralia",
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-f8a72f31",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es la estructura más importante que impide el desplazamiento lateral del astrágalo en la mortaja?",
+   "options": [
+    "Ligamento peroneocalcáneo",
+    "Porción profunda (tibioastragalina) del ligamento deltoideo",
+    "Ligamento plantar largo",
+    "Porción tibionavicular del ligamento deltoideo",
+    "Ligamento peroneoastragalino anterior"
+   ],
+   "answer": 1,
+   "explanation": "Las fibras tibioastragalinas profundas del deltoideo fijan el astrágalo al maléolo medial; si se rompen, el astrágalo se desplaza lateralmente, disminuye la superficie de contacto y aparece artrosis.",
+   "entries": [
+    "lig-deltoideum"
+   ]
+  },
+  {
+   "id": "ar-90e61aae",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Desde el calcáneo, ¿hacia qué huesos se dirigen los dos fascículos del ligamento bifurcado?",
+   "options": [
+    "Navicular y cuboides",
+    "Astrágalo y cuboides",
+    "Cuboides y 5.º metatarsiano",
+    "Navicular y cuña medial",
+    "Astrágalo y navicular"
+   ],
+   "answer": 0,
+   "explanation": "Los fascículos calcaneonavicular y calcaneocuboideo del ligamento bifurcado en Y están en el dorso de la articulación de Chopart; su esguince produce dolor delante del seno del tarso.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-c4078aba",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el signo típico de la coalición astragalocalcánea en la radiografía lateral del tobillo?",
+   "options": [
+    "Signo de Terry Thomas",
+    "Signo del hocico de oso hormiguero",
+    "Signo del doble contorno",
+    "Signo de la C",
+    "Signo del anillo"
+   ],
+   "answer": 3,
+   "explanation": "En la coalición astragalocalcánea se forma un contorno continuo en forma de C entre la cúpula del astrágalo y el sustentaculum tali. En la coalición calcaneonavicular la proyección oblicua muestra el «hocico de oso hormiguero».",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-358bf10c",
+   "group": "Articulaciones del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un esquiador que giró la rodilla en rotación externa refiere dolor súbito e inestabilidad; tras la reconstrucción del LCA persiste la inestabilidad en rotación externa. ¿Qué lesión pudo pasar desapercibida?",
+   "options": [
+    "Bursitis de la pata de ganso",
+    "Lesión de la esquina posterolateral de la rodilla",
+    "Rotura del tendón rotuliano",
+    "Bursitis prerrotuliana",
+    "Rotura del menisco medial"
+   ],
+   "answer": 1,
+   "explanation": "Las lesiones de la esquina posterolateral acompañan a menudo a las de los ligamentos cruzados; si no se reconocen y reparan, el injerto del cruzado se sobrecarga y la reconstrucción fracasa.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4446 @@
+{
+ "system": "skeletal",
+ "questions": [
+  {
+   "id": "sk-f15e8ff6",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un motorista de 24 años recupera la consciencia tras una breve pérdida de conocimiento y unas horas después vuelve a estar somnoliento. La TC muestra un hematoma epidural biconvexo temporal. ¿Por qué orificio entra en la cavidad craneal la arteria que sangra?",
+   "options": [
+    "Conducto carotídeo",
+    "Agujero espinoso",
+    "Agujero oval",
+    "Agujero redondo",
+    "Agujero rasgado"
+   ],
+   "answer": 1,
+   "explanation": "La fuente clásica del hematoma epidural con intervalo lúcido es la arteria meníngea media. Esta rama de la arteria maxilar entra en la fosa craneal media por el agujero espinoso; su rama anterior discurre por la cara interna del pterion, por eso se rompe en las fracturas de esa zona.",
+   "notes": [
+    "Por él pasan la arteria carótida interna y su plexo simpático.",
+    "",
+    "Por él pasan el nervio mandibular (V3) y la arteria meníngea accesoria.",
+    "Por él pasa el nervio maxilar (V2).",
+    "En vida está cerrado por cartílago; el nervio petroso mayor pasa por encima."
+   ],
+   "entries": [
+    "os-sphenoidale",
+    "os-temporale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-cae1e91e",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructura pasa por el agujero redondo?",
+   "options": [
+    "Arteria meníngea media",
+    "Nervio mandibular",
+    "Nervio maxilar",
+    "Nervio oftálmico",
+    "Nervio petroso mayor"
+   ],
+   "answer": 2,
+   "explanation": "El agujero redondo, en el ala mayor del esfenoides, conduce la segunda rama del trigémino, el nervio maxilar (V2), desde la fosa craneal media hasta la fosa pterigopalatina.",
+   "notes": [
+    "Entra por el agujero espinoso.",
+    "Pasa por el agujero oval.",
+    "",
+    "Entra en la órbita por la fisura orbitaria superior.",
+    "Pasa por encima del agujero rasgado hacia el conducto pterigoideo."
+   ],
+   "entries": [
+    "os-sphenoidale",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-02fc4bcb",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con fractura de la base del cráneo presenta disfagia, ronquera y, del mismo lado, debilidad para encoger el hombro y girar la cabeza al lado opuesto. ¿Dónde está probablemente la lesión?",
+   "options": [
+    "Agujero yugular",
+    "Agujero estilomastoideo",
+    "Conducto del hipogloso",
+    "Agujero magno",
+    "Meato acústico interno"
+   ],
+   "answer": 0,
+   "explanation": "Por el agujero yugular pasan los nervios glosofaríngeo (IX), vago (X) y accesorio (XI) y el inicio de la vena yugular interna. La afectación de IX–X produce disfagia y ronquera; la de XI, debilidad del trapecio y el esternocleidomastoideo (síndrome de Vernet).",
+   "notes": [
+    "",
+    "Por aquí sale del cráneo el nervio facial; habría parálisis facial.",
+    "Solo pasa el hipogloso; la lengua se desviaría.",
+    "Pasan el bulbo raquídeo, las arterias vertebrales y las raíces espinales del XI; este cuadro no es típico.",
+    "Pasan los nervios facial y vestibulococlear."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-temporale",
+    "n-vagus",
+    "n-accessorius",
+    "n-glossopharyngeus"
+   ]
+  },
+  {
+   "id": "sk-2f2c71f8",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes estructuras NO pasa por la fisura orbitaria superior?",
+   "options": [
+    "Nervio abducens",
+    "Vena oftálmica superior",
+    "Nervio troclear",
+    "Nervio óptico",
+    "Nervio oculomotor"
+   ],
+   "answer": 3,
+   "explanation": "El nervio óptico pasa por el conducto óptico junto con la arteria oftálmica. Por la fisura orbitaria superior pasan los pares III, IV y VI, las ramas del nervio oftálmico (nervios lagrimal, frontal y nasociliar) y la vena oftálmica superior.",
+   "entries": [
+    "os-sphenoidale",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "sk-3882c3d4",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes huesos NO participa en la formación del pterion?",
+   "options": [
+    "Parietal",
+    "Esfenoides",
+    "Cigomático",
+    "Temporal",
+    "Frontal"
+   ],
+   "answer": 2,
+   "explanation": "El pterion es la zona en forma de H donde se unen el frontal, el parietal, la escama del temporal y el ala mayor del esfenoides. Es una de las zonas más finas del cráneo y por su cara interna discurre la rama anterior de la arteria meníngea media.",
+   "entries": [
+    "os-frontale",
+    "os-parietale",
+    "os-temporale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-200730b2",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Tras una fractura de la base anterior del cráneo, un paciente presenta salida de líquido claro por la nariz (rinorrea) y pérdida del olfato. ¿Qué parte de qué hueso está probablemente fracturada?",
+   "options": [
+    "Esfenoides – cuerpo",
+    "Hueso nasal",
+    "Frontal – porción orbitaria",
+    "Etmoides – lámina cribosa",
+    "Vómer"
+   ],
+   "answer": 3,
+   "explanation": "Por los orificios de la lámina cribosa pasan los filetes olfatorios. Al fracturarse se arrancan las fibras olfatorias (anosmia) y, si se rompen la duramadre y la aracnoides, el líquido cefalorraquídeo sale a la cavidad nasal.",
+   "entries": [
+    "os-ethmoidale",
+    "n-olfactorius"
+   ]
+  },
+  {
+   "id": "sk-4f08a260",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Sobre qué hueso se encuentra la silla turca, que aloja la hipófisis?",
+   "options": [
+    "Etmoides",
+    "Temporal",
+    "Frontal",
+    "Esfenoides",
+    "Occipital"
+   ],
+   "answer": 3,
+   "explanation": "La silla turca es la depresión en forma de silla de montar de la cara superior del cuerpo del esfenoides; la hipófisis se aloja en la fosa hipofisaria central. Debajo está el seno esfenoidal, por lo que la cirugía hipofisaria puede hacerse por vía transesfenoidal.",
+   "entries": [
+    "os-sphenoidale",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "sk-52093b04",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Antes de trabajar en los molares inferiores, un dentista aplica anestesia. ¿Alrededor de qué orificio debe inyectar para dormir todos los dientes inferiores de ese lado?",
+   "options": [
+    "Agujero mentoniano",
+    "Conducto incisivo",
+    "Agujero infraorbitario",
+    "Agujero oval",
+    "Agujero mandibular"
+   ],
+   "answer": 4,
+   "explanation": "El nervio alveolar inferior (V3) entra en el conducto mandibular por el agujero mandibular de la cara interna de la rama e inerva todos los dientes inferiores. Un bloqueo justo por encima de la língula anestesia los dientes, el labio inferior y la piel del mentón de ese lado.",
+   "notes": [
+    "El nervio mentoniano que sale por aquí solo inerva el labio inferior y la piel del mentón.",
+    "Corresponde a la mucosa palatina de los incisivos superiores (nervio nasopalatino).",
+    "Maxilar superior: por aquí sale el nervio infraorbitario.",
+    "Está en la base del cráneo; llegar a él no es práctico.",
+    ""
+   ],
+   "entries": [
+    "mandibula",
+    "n-trigeminus",
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-d97d6576",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El nervio que sale por el agujero mentoniano es rama de ¿qué nervio?",
+   "options": [
+    "Nervio bucal",
+    "Nervio infraorbitario",
+    "Nervio alveolar inferior",
+    "Nervio facial (rama marginal de la mandíbula)",
+    "Nervio lingual"
+   ],
+   "answer": 2,
+   "explanation": "El agujero mentoniano suele estar bajo el segundo premolar inferior. El nervio mentoniano, rama terminal del alveolar inferior, sale por aquí y recoge la sensibilidad del labio inferior y la piel del mentón.",
+   "entries": [
+    "mandibula",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-db827248",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente golpeado en el mentón presenta una fractura del cuello de la mandíbula. El fragmento condíleo está desplazado hacia delante y hacia dentro. ¿Qué músculo es responsable de este desplazamiento?",
+   "options": [
+    "Masetero",
+    "Digástrico",
+    "Pterigoideo medial",
+    "Pterigoideo lateral",
+    "Temporal"
+   ],
+   "answer": 3,
+   "explanation": "El pterigoideo lateral se inserta en la fosita pterigoidea (cuello del cóndilo) y en el disco articular, y tira del cóndilo hacia delante y adentro. En la fractura, el fragmento proximal es desplazado en dirección anteromedial por este músculo.",
+   "notes": [
+    "Se inserta en la cara externa de la rama y el ángulo; eleva el fragmento distal.",
+    "Se inserta cerca del cuerpo mandibular; desciende la mandíbula.",
+    "Se inserta en la cara interna del ángulo; no actúa sobre el fragmento condíleo.",
+    "",
+    "Se inserta en la apófisis coronoides."
+   ],
+   "entries": [
+    "mandibula",
+    "mm-pterygoidei",
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "sk-0dce4bb9",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué hueso no se articula con ningún otro hueso del cuerpo?",
+   "options": [
+    "Rótula",
+    "Vómer",
+    "Lagrimal",
+    "Hioides",
+    "Cóccix"
+   ],
+   "answer": 3,
+   "explanation": "El hioides, a la altura de C3, está suspendido por músculos y ligamentos (ligamento estilohioideo, membrana tirohioidea); no se articula con ningún hueso. En él se insertan los músculos supra e infrahioideos.",
+   "entries": [
+    "os-hyoideum",
+    "mm-suprahyoidei",
+    "mm-infrahyoidei"
+   ]
+  },
+  {
+   "id": "sk-c559d452",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes estructuras NO se fija en la apófisis estiloides?",
+   "options": [
+    "Vientre posterior del digástrico",
+    "Ligamento estilomandibular",
+    "Estilohioideo",
+    "Estilogloso",
+    "Estilofaríngeo"
+   ],
+   "answer": 0,
+   "explanation": "El vientre posterior del digástrico nace de la escotadura mastoidea del temporal. De la apófisis estiloides nacen los tres músculos «estilo-» (estilogloso – XII, estilohioideo – VII, estilofaríngeo – IX) y los ligamentos estilohioideo y estilomandibular.",
+   "entries": [
+    "os-temporale",
+    "mm-suprahyoidei"
+   ]
+  },
+  {
+   "id": "sk-e617e04f",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué parte de qué hueso se encuentra el oído interno?",
+   "options": [
+    "Esfenoides – ala mayor",
+    "Occipital – porción basilar",
+    "Temporal – porción petrosa",
+    "Temporal – porción timpánica",
+    "Temporal – porción escamosa"
+   ],
+   "answer": 2,
+   "explanation": "La porción petrosa (peñasco) es el hueso más duro del cuerpo; contiene la cóclea, el vestíbulo y los conductos semicirculares. La cavidad del oído medio también se sitúa entre las porciones petrosa y timpánica.",
+   "entries": [
+    "os-temporale",
+    "auris-interna"
+   ]
+  },
+  {
+   "id": "sk-1864ac93",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué fontanela se cierra en último lugar en el lactante y hacia qué edad?",
+   "options": [
+    "Fontanela esfenoidal – 5 años",
+    "Fontanela anterior – 2–3 meses",
+    "Fontanela anterior – 18–24 meses",
+    "Fontanela posterior – 18–24 meses",
+    "Fontanela mastoidea – 3 años"
+   ],
+   "answer": 2,
+   "explanation": "La fontanela anterior (el orificio romboidal del bregma) es la mayor y la que se cierra más tarde (hacia los 18–24 meses). La posterior se cierra a los 2–3 meses, la esfenoidal hacia los 6 meses y la mastoidea entre los 6 y 18 meses. Una fontanela anterior hundida sugiere deshidratación; abombada, hipertensión intracraneal.",
+   "entries": [
+    "os-frontale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-2a63ac57",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El bregma es el punto de unión de ¿qué suturas?",
+   "options": [
+    "Suturas lambdoidea y occipitomastoidea",
+    "Suturas coronal y sagital",
+    "Suturas sagital y lambdoidea",
+    "Suturas coronal y escamosa",
+    "Suturas frontal (metópica) y coronal"
+   ],
+   "answer": 1,
+   "explanation": "El bregma, lugar de la fontanela anterior, es la unión de las suturas coronal y sagital. El lambda es la unión de las suturas sagital y lambdoidea, donde se sitúa la fontanela posterior.",
+   "entries": [
+    "os-frontale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-2fcb0376",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tras recibir un pelotazo de tenis en la cara, un paciente tiene diplopía al mirar hacia arriba, hundimiento del globo ocular y adormecimiento de la mejilla y el labio superior del mismo lado. ¿Cuál es la fractura más probable?",
+   "options": [
+    "Techo de la órbita (frontal)",
+    "Pared lateral de la órbita (cigomático)",
+    "Suelo de la órbita (maxilar) – fractura por estallido (blow-out)",
+    "Hueso nasal",
+    "Conducto óptico"
+   ],
+   "answer": 2,
+   "explanation": "En el traumatismo orbitario cerrado la presión rompe hacia fuera una de las paredes más débiles, el suelo (maxilar). El recto inferior y la grasa quedan atrapados en el seno maxilar y se limita la mirada hacia arriba. La lesión del nervio infraorbitario en el surco/conducto del suelo produce pérdida sensitiva en la mejilla, el párpado inferior y el labio superior. La pared medial (lámina orbitaria del etmoides) es la más fina y también se fractura con frecuencia.",
+   "entries": [
+    "maxilla",
+    "os-ethmoidale",
+    "mm-bulbi"
+   ]
+  },
+  {
+   "id": "sk-b4b77595",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructuras forman la parte ósea del tabique nasal?",
+   "options": [
+    "Apófisis frontal del maxilar y hueso nasal",
+    "Cornete nasal inferior y palatino",
+    "Lagrimal y etmoides",
+    "Hueso nasal y vómer",
+    "Vómer y lámina perpendicular del etmoides"
+   ],
+   "answer": 4,
+   "explanation": "El tabique nasal lo forman por detrás y abajo el vómer, por detrás y arriba la lámina perpendicular del etmoides, y por delante el cartílago septal. La desviación septal suele estar en la unión cartílago-hueso.",
+   "entries": [
+    "vomer",
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ]
+  },
+  {
+   "id": "sk-9a7db56f",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes es un hueso independiente y no parte del etmoides?",
+   "options": [
+    "Cornete nasal superior",
+    "Crista galli",
+    "Cornete nasal inferior",
+    "Lámina cribosa",
+    "Cornete nasal medio"
+   ],
+   "answer": 2,
+   "explanation": "Los cornetes superior y medio parten del laberinto etmoidal. El cornete inferior es un hueso facial propio que se articula con el maxilar, el lagrimal, el palatino y el etmoides.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-e474b6d7",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué hueso forma el cuarto posterior del paladar duro?",
+   "options": [
+    "Esfenoides – apófisis pterigoides",
+    "Maxilar – apófisis palatina",
+    "Palatino – lámina perpendicular",
+    "Vómer",
+    "Palatino – lámina horizontal"
+   ],
+   "answer": 4,
+   "explanation": "Los tres cuartos anteriores del paladar duro los forman las apófisis palatinas de los maxilares, y el cuarto posterior las láminas horizontales de los palatinos. Su unión es la sutura palatina transversa.",
+   "entries": [
+    "os-palatinum",
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-a81fa9ba",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué huesos forman la fosa del saco lagrimal?",
+   "options": [
+    "Etmoides y esfenoides",
+    "Hueso nasal y frontal",
+    "Palatino y lagrimal",
+    "Cigomático y maxilar",
+    "Lagrimal y apófisis frontal del maxilar"
+   ],
+   "answer": 4,
+   "explanation": "El saco lagrimal se aloja en la fosa del saco lagrimal, en la parte anterior de la pared medial de la órbita. La forman por delante la apófisis frontal del maxilar (cresta lagrimal anterior) y por detrás el hueso lagrimal (cresta lagrimal posterior). Por abajo, el saco se abre al meato inferior mediante el conducto nasolagrimal.",
+   "entries": [
+    "os-lacrimale",
+    "maxilla",
+    "apparatus-lacrimalis"
+   ]
+  },
+  {
+   "id": "sk-8a17fa1f",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El arco cigomático está formado por la unión de ¿qué estructuras?",
+   "options": [
+    "Apófisis frontal del cigomático y frontal",
+    "Ala mayor del esfenoides y temporal",
+    "Apófisis mastoides del temporal y cigomático",
+    "Apófisis temporal del cigomático y apófisis cigomática del temporal",
+    "Apófisis cigomática del maxilar y esfenoides"
+   ],
+   "answer": 3,
+   "explanation": "El arco cigomático lo forman por delante la apófisis temporal del cigomático y por detrás la apófisis cigomática del temporal. De su borde inferior nace el masetero; bajo el arco pasa el tendón del temporal hacia la apófisis coronoides.",
+   "entries": [
+    "os-zygomaticum",
+    "os-temporale",
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "sk-5ff889bf",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Con qué hueso se articulan los cóndilos occipitales?",
+   "options": [
+    "Esfenoides",
+    "Atlas",
+    "Diente del axis",
+    "Temporal",
+    "Axis"
+   ],
+   "answer": 1,
+   "explanation": "Los cóndilos del occipital forman la articulación atlantooccipital con las caras superiores de las masas laterales del atlas. Allí se produce el movimiento de asentir, el «sí» (flexión–extensión); el «no» ocurre en la articulación atlantoaxial.",
+   "entries": [
+    "os-occipitale",
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-d3f9241b",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué nervio pasa por el agujero supraorbitario y de qué nervio principal procede?",
+   "options": [
+    "Nervio supraorbitario – nervio oftálmico (V1)",
+    "Nervio cigomaticotemporal – nervio mandibular (V3)",
+    "Nervio supratroclear – nervio maxilar (V2)",
+    "Nervio infraorbitario – nervio maxilar (V2)",
+    "Nervio supraorbitario – nervio facial"
+   ],
+   "answer": 0,
+   "explanation": "El nervio supraorbitario, rama del nervio frontal, sale por el agujero (escotadura) supraorbitario del frontal e inerva la frente y la parte anterior del cuero cabelludo. Este punto se explora como punto de presión del V1 en la neuralgia del trigémino.",
+   "entries": [
+    "os-frontale",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-95627bc6",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuántos dientes permanentes y cuántos dientes de leche hay, respectivamente?",
+   "options": [
+    "32 y 24",
+    "28 y 20",
+    "32 y 16",
+    "30 y 20",
+    "32 y 20"
+   ],
+   "answer": 4,
+   "explanation": "Cada hemiarcada permanente tiene 2 incisivos, 1 canino, 2 premolares y 3 molares (32 en total); la dentición temporal tiene 2 incisivos, 1 canino y 2 molares (20 en total). Entre los dientes de leche no hay premolares.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-e0da37ac",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se asienta la base (platina) del estribo?",
+   "options": [
+    "Aditus del antro mastoideo",
+    "Membrana timpánica",
+    "Promontorio",
+    "Ventana redonda (ventana coclear)",
+    "Ventana oval (ventana vestibular)"
+   ],
+   "answer": 4,
+   "explanation": "La platina del estribo se fija en la ventana oval de la pared medial del oído medio mediante el ligamento anular y transmite la vibración a la perilinfa. En la otosclerosis, el hueso neoformado fija el estribo y produce hipoacusia de transmisión. La ventana redonda está cerrada por la membrana timpánica secundaria.",
+   "entries": [
+    "ossicula-auditus",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "sk-11bbc925",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué vértebra no tiene cuerpo vertebral?",
+   "options": [
+    "Primera vértebra torácica",
+    "Quinta vértebra lumbar",
+    "Axis (C2)",
+    "Vértebra prominente (C7)",
+    "Atlas (C1)"
+   ],
+   "answer": 4,
+   "explanation": "Durante el desarrollo, el cuerpo del atlas se une al axis para formar el diente. El atlas es un anillo formado por los arcos anterior y posterior y dos masas laterales; en lugar de apófisis espinosa tiene un tubérculo posterior.",
+   "entries": [
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-a2272b62",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿En el agujero transverso de qué vértebra suele entrar la arteria vertebral para iniciar su ascenso?",
+   "options": [
+    "C6",
+    "C4",
+    "C7",
+    "C1",
+    "C5"
+   ],
+   "answer": 0,
+   "explanation": "La arteria vertebral, primera rama de la subclavia, entra típicamente en el agujero transverso de C6, asciende por los de C6–C1 y penetra en el cráneo por el agujero magno. Por el agujero transverso de C7 suele pasar solo la vena vertebral.",
+   "entries": [
+    "vertebrae-cervicales",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-75fe34b4",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué vértebra pertenece la apófisis espinosa más prominente que se palpa en la nuca?",
+   "options": [
+    "C7 (vértebra prominente)",
+    "T4",
+    "C2 (axis)",
+    "C1 (atlas)",
+    "C5"
+   ],
+   "answer": 0,
+   "explanation": "La larga apófisis espinosa no bífida de C7 se palpa fácilmente en la base del cuello y sirve como punto de partida para contar las vértebras. Las apófisis espinosas de C2–C6 son cortas y bífidas.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2b8ee94c",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué vértebras tienen en su cuerpo carillas articulares (fositas costales) para la cabeza de las costillas?",
+   "options": [
+    "Vértebras torácicas",
+    "Vértebras cervicales",
+    "Vértebras lumbares",
+    "Vértebras coccígeas",
+    "Vértebras sacras"
+   ],
+   "answer": 0,
+   "explanation": "Las vértebras torácicas tienen en el cuerpo carillas para la cabeza de la costilla y, en las apófisis transversas (salvo T11–T12), para el tubérculo costal. Sus cuerpos tienen forma de corazón y sus apófisis espinosas son largas e inclinadas hacia abajo.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-98dc357c",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Las apófisis mamilar y accesoria son propias de ¿qué vértebras?",
+   "options": [
+    "Vértebras cervicales",
+    "Vértebras sacras",
+    "Vértebras lumbares",
+    "Atlas y axis",
+    "Vértebras torácicas"
+   ],
+   "answer": 2,
+   "explanation": "Las vértebras lumbares tienen una apófisis mamilar en el borde posterior de la apófisis articular superior y una apófisis accesoria en la raíz de la transversa; en ellas se insertan los músculos profundos de la espalda. Sus cuerpos son grandes y reniformes, sin agujero transverso ni carilla costal.",
+   "entries": [
+    "vertebrae-lumbales",
+    "mm-transversospinales"
+   ]
+  },
+  {
+   "id": "sk-d9e58822",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": true,
+   "stem": "¿Por qué orificio se introduce la aguja en la anestesia epidural caudal?",
+   "options": [
+    "Agujeros sacros anteriores",
+    "Agujeros sacros posteriores",
+    "Conducto obturador",
+    "Hiato sacro",
+    "Agujero isquiático mayor"
+   ],
+   "answer": 3,
+   "explanation": "Como las láminas de S4–S5 no se fusionan, queda el hiato sacro en la cara posterior del sacro. Las astas sacras de cada lado sirven de guía y la aguja se avanza hasta el espacio epidural del conducto sacro.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-0bec5b45",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructura forma el límite posterior del estrecho superior de la pelvis?",
+   "options": [
+    "Cresta ilíaca",
+    "Punta del cóccix",
+    "Espina isquiática",
+    "Promontorio del sacro",
+    "Hiato sacro"
+   ],
+   "answer": 3,
+   "explanation": "El estrecho superior está limitado por detrás por el promontorio, a los lados por la línea arqueada y la cresta pectínea, y por delante por el borde superior de la sínfisis del pubis. El conjugado obstétrico es la distancia más corta entre el promontorio y la cara posterior de la sínfisis.",
+   "entries": [
+    "os-sacrum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-db733329",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tras levantar peso, un hombre de 45 años refiere dolor que irradia de la zona lumbar a la cara lateral de la pierna, el dorso del pie y el dedo gordo, con debilidad para la flexión dorsal del dedo gordo. ¿Cuál es el diagnóstico más probable?",
+   "options": [
+    "Hernia discal S1–S2 que comprime la raíz S2",
+    "Hernia discal L5–S1 que comprime la raíz S1",
+    "Hernia discal L4–L5 que comprime la raíz L5",
+    "Hernia discal L1–L2 que comprime el cono medular",
+    "Hernia discal L3–L4 que comprime la raíz L4"
+   ],
+   "answer": 2,
+   "explanation": "Las hernias discales lumbares suelen ser posterolaterales y comprimen la raíz inferior: una hernia L4–L5 afecta a la raíz L5. L5: sensibilidad de la cara lateral de la pierna, dorso del pie y dedo gordo, y fuerza del extensor largo del dedo gordo. S1: borde lateral del pie, reflejo aquíleo; L4: reflejo rotuliano y cara medial de la pierna.",
+   "entries": [
+    "vertebrae-lumbales",
+    "discus-intervertebralis",
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "sk-2249b2c3",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué ligamento mantiene el diente del axis contra el arco anterior del atlas?",
+   "options": [
+    "Ligamento amarillo",
+    "Ligamentos alares",
+    "Ligamento longitudinal anterior",
+    "Ligamento del vértice del diente",
+    "Ligamento transverso del atlas"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento transverso del atlas (rama horizontal del ligamento cruciforme) rodea el diente por detrás y lo aprieta contra el arco anterior del atlas. Su rotura (p. ej. artritis reumatoide, síndrome de Down) puede hacer que el diente comprima la médula espinal.",
+   "entries": [
+    "axis",
+    "atlas",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "sk-e8c060fb",
+   "group": "Caja torácica",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "El ángulo esternal, referencia para contar las costillas en la exploración del tórax, está a la altura de ¿qué cartílago costal?",
+   "options": [
+    "7.ª costilla",
+    "2.ª costilla",
+    "4.ª costilla",
+    "1.ª costilla",
+    "3.ª costilla"
+   ],
+   "answer": 1,
+   "explanation": "El ángulo esternal (de Louis) es la unión del manubrio con el cuerpo del esternón, y a cada lado se articulan los 2.os cartílagos costales. Se palpa fácilmente por delante: se localiza la 2.ª costilla y se cuenta hacia abajo.",
+   "entries": [
+    "sternum",
+    "costae",
+    "cartilagines-costales"
+   ]
+  },
+  {
+   "id": "sk-5ac9e561",
+   "group": "Caja torácica",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sobre el plano horizontal que pasa por el ángulo esternal (T4–T5), ¿cuál de las siguientes afirmaciones es FALSA?",
+   "options": [
+    "El arco aórtico comienza y termina en este plano.",
+    "El esófago atraviesa el diafragma a este nivel.",
+    "La vena ácigos desemboca en la vena cava superior a este nivel.",
+    "Separa el mediastino superior del inferior.",
+    "La tráquea se bifurca a este nivel."
+   ],
+   "answer": 1,
+   "explanation": "El plano del ángulo esternal es una referencia torácica importante: límite entre mediastino superior e inferior, bifurcación traqueal, inicio y final del arco aórtico, desembocadura de la ácigos en la VCS y paso del conducto torácico a la izquierda están a este nivel. El esófago atraviesa el diafragma a la altura de T10.",
+   "entries": [
+    "sternum",
+    "trachea",
+    "aorta",
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "sk-b9caecf9",
+   "group": "Caja torácica",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuáles son las «costillas flotantes»?",
+   "options": [
+    "10.ª y 11.ª",
+    "11.ª y 12.ª",
+    "8.ª, 9.ª y 10.ª",
+    "6.ª y 7.ª",
+    "1.ª y 2.ª"
+   ],
+   "answer": 1,
+   "explanation": "Las costillas 1.ª–7.ª son costillas verdaderas unidas directamente al esternón. Los cartílagos de las costillas 8.ª–10.ª se unen al cartílago superior (falsas costillas). Los extremos anteriores de las costillas 11.ª–12.ª son libres (costillas flotantes).",
+   "entries": [
+    "costae",
+    "cartilagines-costales"
+   ]
+  },
+  {
+   "id": "sk-be399078",
+   "group": "Caja torácica",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructura discurre por el surco situado detrás del tubérculo del escaleno anterior en la primera costilla?",
+   "options": [
+    "Nervio frénico",
+    "Conducto torácico",
+    "Arteria subclavia",
+    "Vena subclavia",
+    "Arteria torácica interna"
+   ],
+   "answer": 2,
+   "explanation": "El escaleno anterior se inserta en el tubérculo de la 1.ª costilla. En el surco por delante del tubérculo está la vena subclavia; en el de detrás (surco de la arteria subclavia), la arteria subclavia y el tronco inferior del plexo braquial. La arteria y el plexo pasan por el hiato de los escalenos y la vena por delante del músculo.",
+   "entries": [
+    "costae",
+    "a-subclavia",
+    "mm-scaleni"
+   ]
+  },
+  {
+   "id": "sk-1ca5b2b4",
+   "group": "Caja torácica",
+   "level": "tus",
+   "clinical": true,
+   "stem": "En la toracocentesis, ¿por dónde debe introducirse la aguja para proteger los vasos y el nervio intercostales?",
+   "options": [
+    "Justo por encima del borde superior de la costilla inferior",
+    "Justo en la mitad entre dos costillas",
+    "Justo por debajo del borde inferior de la costilla superior",
+    "Por el surco costal, medial al ángulo de la costilla",
+    "Sobre el cartílago costal"
+   ],
+   "answer": 0,
+   "explanation": "La vena, la arteria y el nervio intercostales (VAN de arriba abajo) discurren por el surco costal del borde inferior de la costilla. Por eso la aguja se pasa por el borde superior de la costilla inferior.",
+   "entries": [
+    "costae",
+    "mm-intercostales",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "sk-b337c3b1",
+   "group": "Caja torácica",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Una mujer joven nota adormecimiento y frialdad de la mano al levantar el brazo; la radiografía de cuello muestra una costilla cervical. ¿Qué estructura se comprime con más frecuencia en este caso?",
+   "options": [
+    "Nervio frénico",
+    "Tronco superior del plexo braquial (C5–C6)",
+    "Tronco inferior del plexo braquial (C8–T1)",
+    "Vena yugular interna",
+    "Nervio accesorio"
+   ],
+   "answer": 2,
+   "explanation": "La costilla cervical (de C7) produce un síndrome del desfiladero torácico. El tronco inferior (C8–T1) y la arteria subclavia se comprimen al cruzar la costilla o su banda fibrosa; aparecen parestesias en el borde cubital de la mano, debilidad de los músculos intrínsecos y signos vasculares.",
+   "entries": [
+    "costae",
+    "vertebrae-cervicales",
+    "plexus-brachialis",
+    "a-subclavia"
+   ]
+  },
+  {
+   "id": "sk-9947b15d",
+   "group": "Caja torácica",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué nivel vertebral corresponde con más frecuencia la apófisis xifoides?",
+   "options": [
+    "T9–T10",
+    "T4–T5",
+    "T12–L1",
+    "T6–T7",
+    "L1–L2"
+   ],
+   "answer": 0,
+   "explanation": "La articulación xifoesternal está aproximadamente a la altura de T9. La xifoides puede seguir siendo cartilaginosa hasta edades avanzadas; en ella se insertan la línea alba y la porción esternal del diafragma.",
+   "entries": [
+    "sternum",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "sk-89cf3635",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué hueso es el primero en empezar a osificarse en el embrión?",
+   "options": [
+    "Clavícula",
+    "Parietal",
+    "Mandíbula",
+    "Húmero",
+    "Fémur"
+   ],
+   "answer": 0,
+   "explanation": "La clavícula empieza a osificarse en la 5.ª–6.ª semana; su diáfisis por osificación membranosa y sus extremos por osificación endocondral. En el adulto es uno de los huesos que más se fracturan.",
+   "entries": [
+    "clavicula"
+   ]
+  },
+  {
+   "id": "sk-8791a2dc",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un niño que se cayó de la bicicleta tiene una fractura de clavícula en la unión de sus tercios medio y lateral. ¿Qué músculo tira del fragmento medial hacia arriba?",
+   "options": [
+    "Pectoral mayor",
+    "Deltoides",
+    "Trapecio",
+    "Esternocleidomastoideo",
+    "Subclavio"
+   ],
+   "answer": 3,
+   "explanation": "En esta fractura el fragmento medial es elevado por la cabeza clavicular del esternocleidomastoideo. El fragmento lateral desciende por el peso del brazo y es llevado hacia dentro por el pectoral mayor y el dorsal ancho; el hombro aparece descendido y adelantado.",
+   "notes": [
+    "Tira del fragmento lateral hacia dentro.",
+    "Se inserta en el fragmento lateral.",
+    "Se inserta en el tercio lateral; intenta sostener el fragmento lateral pero no vence el peso del brazo.",
+    "",
+    "Protege los vasos subclavios; no eleva el fragmento."
+   ],
+   "entries": [
+    "clavicula",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-82483548",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructura pasa por debajo del ligamento transverso superior de la escápula, que cierra la escotadura escapular?",
+   "options": [
+    "Nervio dorsal de la escápula",
+    "Nervio supraescapular",
+    "Nervio axilar",
+    "Arteria circunfleja de la escápula",
+    "Arteria supraescapular"
+   ],
+   "answer": 1,
+   "explanation": "El nervio supraescapular pasa bajo el ligamento y la arteria supraescapular por encima. La calcificación del ligamento o el atrapamiento en la escotadura producen debilidad y atrofia del supraespinoso y el infraespinoso.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus",
+    "m-infraspinatus"
+   ]
+  },
+  {
+   "id": "sk-4471bbd9",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes estructuras NO se fija en la apófisis coracoides?",
+   "options": [
+    "Cabeza corta del bíceps braquial",
+    "Coracobraquial",
+    "Ligamento coracoclavicular",
+    "Cabeza larga del bíceps braquial",
+    "Pectoral menor"
+   ],
+   "answer": 3,
+   "explanation": "La cabeza larga del bíceps nace del tubérculo supraglenoideo y pasa por dentro de la cápsula articular. En la coracoides se insertan el pectoral menor, el coracobraquial, la cabeza corta del bíceps y los ligamentos coracoclavicular, coracoacromial y coracohumeral.",
+   "entries": [
+    "scapula",
+    "m-biceps-brachii",
+    "m-pectoralis-minor",
+    "m-coracobrachialis"
+   ]
+  },
+  {
+   "id": "sk-5072fdb2",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Una mujer mayor que cayó sobre el hombro tiene una fractura del cuello quirúrgico del húmero. Aparecen aplanamiento de la región deltoidea y pérdida sensitiva en una pequeña zona de la cara lateral del hombro. ¿Qué nervio está lesionado?",
+   "options": [
+    "Nervio axilar",
+    "Nervio supraescapular",
+    "Nervio musculocutáneo",
+    "Nervio torácico largo",
+    "Nervio radial"
+   ],
+   "answer": 0,
+   "explanation": "El nervio axilar pasa con la arteria circunfleja humeral posterior por el espacio cuadrangular y rodea por detrás el cuello quirúrgico. En la fractura se debilitan el deltoides y el redondo menor y se pierde la sensibilidad en la zona de la «charretera» (nervio cutáneo lateral superior del brazo).",
+   "entries": [
+    "humerus",
+    "n-axillaris",
+    "m-deltoideus"
+   ]
+  },
+  {
+   "id": "sk-70dfeb98",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tras una fractura de la parte media de la diáfisis humeral, un paciente no puede elevar la muñeca ni los dedos (mano caída). ¿Qué nervio y arteria acompañante se lesionan en el foco de fractura?",
+   "options": [
+    "Nervio mediano – arteria braquial",
+    "Nervio cubital – arteria colateral cubital superior",
+    "Nervio radial – arteria braquial profunda",
+    "Nervio axilar – arteria circunfleja humeral posterior",
+    "Nervio musculocutáneo – arteria braquial"
+   ],
+   "answer": 2,
+   "explanation": "El nervio radial y la arteria braquial profunda están pegados al hueso en el surco del nervio radial de la cara posterior del húmero. En las fracturas diafisarias se paralizan los extensores de la muñeca y los dedos. El tríceps suele respetarse porque sus ramas nacen más arriba.",
+   "entries": [
+    "humerus",
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "sk-4c20df95",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un niño de 7 años llega tras una caída con una fractura supracondílea de húmero. Horas después presenta dolor intenso en el antebrazo, que aumenta con la extensión pasiva de los dedos, y ausencia de pulso radial. ¿Qué vaso está dañado?",
+   "options": [
+    "Arteria braquial",
+    "Arteria braquial profunda",
+    "Arteria colateral cubital inferior",
+    "Arteria axilar",
+    "Origen de la arteria radial"
+   ],
+   "answer": 0,
+   "explanation": "En la fractura supracondílea el extremo afilado del fragmento proximal comprime la arteria braquial y el nervio mediano. El compartimento flexor del antebrazo se vuelve isquémico; sin tratamiento aparece la contractura isquémica de Volkmann.",
+   "entries": [
+    "humerus",
+    "a-brachialis",
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "sk-7f0d202b",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervio discurre por el surco situado detrás del epicóndilo medial del húmero?",
+   "options": [
+    "Nervio cubital",
+    "Nervio musculocutáneo",
+    "Nervio radial",
+    "Nervio cutáneo medial del antebrazo",
+    "Nervio mediano"
+   ],
+   "answer": 0,
+   "explanation": "El nervio cubital es superficial en el surco del nervio cubital, detrás del epicóndilo medial; la sensación de calambre hacia la mano al golpearse el codo («hueso de la risa») procede de aquí. Su compresión en esta zona se llama síndrome del túnel cubital.",
+   "entries": [
+    "humerus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-dd4258d5",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en el tubérculo menor del húmero?",
+   "options": [
+    "Infraespinoso",
+    "Redondo menor",
+    "Supraespinoso",
+    "Redondo mayor",
+    "Subescapular"
+   ],
+   "answer": 4,
+   "explanation": "De los músculos del manguito rotador, el supraespinoso, el infraespinoso y el redondo menor se insertan en el tubérculo mayor; solo el subescapular se inserta en el tubérculo menor y rota el brazo hacia dentro.",
+   "entries": [
+    "humerus",
+    "m-subscapularis"
+   ]
+  },
+  {
+   "id": "sk-6cefc4df",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en el fondo del surco intertubercular?",
+   "options": [
+    "Deltoides",
+    "Redondo mayor",
+    "Pectoral mayor",
+    "Dorsal ancho",
+    "Coracobraquial"
+   ],
+   "answer": 3,
+   "explanation": "En el labio lateral del surco intertubercular se inserta el pectoral mayor, en el labio medial el redondo mayor y en el fondo el dorsal ancho. El surco contiene el tendón de la cabeza larga del bíceps y su vaina sinovial.",
+   "entries": [
+    "humerus",
+    "m-latissimus-dorsi",
+    "m-pectoralis-major",
+    "m-teres-major"
+   ]
+  },
+  {
+   "id": "sk-66af7b45",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un niño de 2 años no usa el brazo y mantiene el antebrazo en pronación después de que su madre le tirara bruscamente de la mano. ¿De qué ligamento se ha deslizado la cabeza del radio?",
+   "options": [
+    "Ligamento colateral cubital",
+    "Ligamento colateral radial",
+    "Ligamento anular del radio",
+    "Ligamento cuadrado",
+    "Membrana interósea del antebrazo"
+   ],
+   "answer": 2,
+   "explanation": "El «codo de niñera» (subluxación de la cabeza del radio) aparece en niños pequeños porque la cabeza radial aún es pequeña; se desliza fuera del ligamento anular que la sujeta contra la escotadura radial del cúbito. Se reduce fácilmente con supinación y flexión.",
+   "entries": [
+    "radius",
+    "artt-radioulnares",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-8eef6564",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Una mujer mayor que cayó sobre la mano extendida presenta una deformidad de la muñeca «en dorso de tenedor». La radiografía muestra una fractura distal del radio con desplazamiento dorsal del fragmento distal. ¿Cómo se llama esta fractura?",
+   "options": [
+    "Fractura de Colles",
+    "Fractura de Galeazzi",
+    "Fractura de Monteggia",
+    "Fractura de Barton",
+    "Fractura de Smith"
+   ],
+   "answer": 0,
+   "explanation": "En la fractura de Colles el fragmento distal del radio se desplaza hacia dorsal y radial, con aspecto en dorso de tenedor visto de lado. La de Smith es la inversa (fragmento distal volar). La de Monteggia es una fractura de cúbito con luxación de la cabeza radial; la de Galeazzi, una fractura de radio con luxación radiocubital distal.",
+   "entries": [
+    "radius",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "sk-3a4562c9",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en la tuberosidad del cúbito?",
+   "options": [
+    "Tríceps braquial",
+    "Ancóneo",
+    "Bíceps braquial",
+    "Supinador",
+    "Braquial"
+   ],
+   "answer": 4,
+   "explanation": "El braquial nace de la mitad inferior de la cara anterior del húmero y se inserta en la apófisis coronoides y la tuberosidad del cúbito; es el flexor principal del codo. El bíceps se inserta en la tuberosidad del radio.",
+   "entries": [
+    "ulna",
+    "m-brachialis"
+   ]
+  },
+  {
+   "id": "sk-5d908eec",
+   "group": "Huesos de la mano",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un hombre de 22 años que cayó sobre la mano extendida tiene dolor a la presión en la tabaquera anatómica; las primeras radiografías son normales. Dos semanas después se hace visible el trazo de fractura. ¿Cuál es la complicación más temida de la fractura de este hueso?",
+   "options": [
+    "Rotura de la arteria radial",
+    "Parálisis del nervio cubital",
+    "Necrosis avascular del fragmento proximal",
+    "Necrosis avascular del fragmento distal",
+    "Síndrome del túnel carpiano"
+   ],
+   "answer": 2,
+   "explanation": "El escafoides es el hueso del carpo que más se fractura. Sus vasos nutricios entran sobre todo por distal; en las fracturas de la cintura se compromete la irrigación del fragmento proximal y pueden aparecer necrosis avascular y seudoartrosis. En el fondo de la tabaquera están el escafoides y el trapecio.",
+   "entries": [
+    "os-scaphoideum",
+    "ossa-carpi",
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "sk-93bbc372",
+   "group": "Huesos de la mano",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué hueso del carpo se luxa con más frecuencia y qué nervio puede comprimir cuando se desplaza hacia delante?",
+   "options": [
+    "Ganchoso – nervio cubital",
+    "Escafoides – nervio radial",
+    "Pisiforme – nervio cubital",
+    "Semilunar – nervio mediano",
+    "Grande – nervio mediano"
+   ],
+   "answer": 3,
+   "explanation": "El semilunar puede luxarse hacia volar dentro del túnel carpiano y comprimir el nervio mediano. La necrosis avascular del semilunar se conoce como enfermedad de Kienböck.",
+   "entries": [
+    "os-lunatum",
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "sk-cd43228f",
+   "group": "Huesos de la mano",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El pisiforme es un hueso sesamoideo que se desarrolla dentro del tendón de ¿qué músculo?",
+   "options": [
+    "Flexor cubital del carpo",
+    "Abductor del meñique",
+    "Palmar largo",
+    "Flexor radial del carpo",
+    "Extensor cubital del carpo"
+   ],
+   "answer": 0,
+   "explanation": "El pisiforme está dentro del tendón del flexor cubital del carpo y se articula con el piramidal. Mediante los ligamentos pisoganchoso y pisometacarpiano transmite la fuerza del músculo al ganchoso y al 5.º metacarpiano; de él nace el abductor del meñique.",
+   "entries": [
+    "os-pisiforme",
+    "m-flexor-carpi-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-b5971216",
+   "group": "Huesos de la mano",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un golfista cuyo palo golpeó el suelo tiene dolor en la región hipotenar, adormecimiento de los dedos 4.º–5.º y debilidad para separar y juntar los dedos. ¿Qué saliente óseo está fracturado?",
+   "options": [
+    "Gancho del ganchoso",
+    "Tubérculo del escafoides",
+    "Apófisis estiloides del cúbito",
+    "Tubérculo del trapecio",
+    "Pisiforme"
+   ],
+   "answer": 0,
+   "explanation": "El gancho del ganchoso forma la pared lateral del canal de Guyon (canal cubital). En su fractura pueden afectarse el nervio y la arteria cubitales del canal, con adormecimiento de la cara palmar de los dedos 4.º–5.º y debilidad de los interóseos.",
+   "entries": [
+    "os-hamatum",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-a1b84851",
+   "group": "Huesos de la mano",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Con qué metacarpiano forma el trapecio una articulación en silla de montar?",
+   "options": [
+    "3.er metacarpiano",
+    "4.º metacarpiano",
+    "5.º metacarpiano",
+    "1.er metacarpiano (pulgar)",
+    "2.º metacarpiano"
+   ],
+   "answer": 3,
+   "explanation": "La articulación carpometacarpiana del pulgar (trapecio–1.er metacarpiano) es en silla de montar; permite una gran amplitud de movimiento, incluida la oposición, y es un lugar frecuente de artrosis (rizartrosis) con la edad.",
+   "entries": [
+    "os-trapezium",
+    "ossa-metacarpi",
+    "artt-manus"
+   ]
+  },
+  {
+   "id": "sk-341b60e9",
+   "group": "Huesos de la mano",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es el hueso del carpo más grande y el primero en osificarse?",
+   "options": [
+    "Escafoides",
+    "Trapecio",
+    "Grande",
+    "Semilunar",
+    "Ganchoso"
+   ],
+   "answer": 2,
+   "explanation": "El hueso grande es el mayor del carpo y suele ser el primero en osificarse, durante el primer año. Se articula con el 3.er metacarpiano; el eje de movimiento de la muñeca pasa sobre todo por su cabeza.",
+   "entries": [
+    "os-capitatum",
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-ac91683a",
+   "group": "Huesos de la mano",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un joven que dio un puñetazo a una pared ha perdido el relieve del nudillo del meñique. ¿Cuál es la fractura más probable?",
+   "options": [
+    "Fractura del gancho del ganchoso",
+    "Fractura del cuello del 5.º metacarpiano (fractura del boxeador)",
+    "Fractura de la base del 1.er metacarpiano (fractura de Bennett)",
+    "Fractura de la falange distal del 5.º dedo",
+    "Fractura del escafoides"
+   ],
+   "answer": 1,
+   "explanation": "Al golpear una superficie dura con el puño cerrado se fractura con más frecuencia el cuello del 5.º metacarpiano; la cabeza se inclina hacia palmar y desaparece el nudillo. La fractura de Bennett es una fractura intraarticular de la base del 1.er metacarpiano.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-31d8147a",
+   "group": "Huesos de la mano",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es el orden de la fila proximal del carpo de lateral (radial) a medial (cubital)?",
+   "options": [
+    "Escafoides, semilunar, piramidal, pisiforme",
+    "Escafoides, piramidal, semilunar, pisiforme",
+    "Trapecio, trapezoide, grande, ganchoso",
+    "Semilunar, escafoides, piramidal, pisiforme",
+    "Pisiforme, piramidal, semilunar, escafoides"
+   ],
+   "answer": 0,
+   "explanation": "Fila proximal: escafoides, semilunar, piramidal, pisiforme. Fila distal: trapecio, trapezoide, grande, ganchoso. La articulación radiocarpiana la forman el radio y el disco con el escafoides, el semilunar y el piramidal.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-9d63d002",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se unen los tres huesos que forman el coxal?",
+   "options": [
+    "En la escotadura isquiática mayor",
+    "En el acetábulo",
+    "En la sínfisis del pubis",
+    "En el agujero obturador",
+    "En la cresta ilíaca"
+   ],
+   "answer": 1,
+   "explanation": "El ilion, el isquion y el pubis se fusionan en la pubertad en el cartílago en Y del acetábulo. Alrededor de 2/5 del acetábulo los forma el ilion, 2/5 el isquion y 1/5 el pubis.",
+   "entries": [
+    "os-coxae",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-592e9cb4",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructuras pasan por el conducto obturador?",
+   "options": [
+    "Nervio, arteria y vena obturadores",
+    "Nervio pudendo y arteria pudenda interna",
+    "Nervio ciático y arteria glútea inferior",
+    "Nervio y arteria femorales",
+    "Nervio cutáneo femoral lateral"
+   ],
+   "answer": 0,
+   "explanation": "El agujero obturador está cerrado por la membrana obturatriz, que solo deja libre el conducto obturador en su parte alta. Por él pasan el nervio obturador y los vasos obturadores hacia el compartimento medial del muslo.",
+   "entries": [
+    "os-coxae",
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "sk-ffa0581d",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué nervio sale de la pelvis por el agujero isquiático mayor y entra en el periné por el agujero isquiático menor?",
+   "options": [
+    "Nervio ciático",
+    "Nervio glúteo superior",
+    "Nervio pudendo",
+    "Nervio cutáneo femoral posterior",
+    "Nervio obturador"
+   ],
+   "answer": 2,
+   "explanation": "El nervio pudendo, la arteria pudenda interna y el nervio del obturador interno salen por el agujero isquiático mayor, rodean la espina isquiática/ligamento sacroespinoso y entran por el agujero isquiático menor en la fosa isquioanal y el conducto de Alcock. La espina isquiática sirve de guía en el bloqueo pudendo.",
+   "entries": [
+    "os-coxae",
+    "n-pudendus",
+    "ligg-pelvis"
+   ]
+  },
+  {
+   "id": "sk-602b0bd7",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Una mujer de 78 años que se cayó en casa tiene la pierna derecha acortada y en rotación externa. La radiografía muestra una fractura subcapital del cuello femoral. ¿La lesión de qué arteria es la principal responsable de la necrosis avascular de la cabeza femoral en esta fractura?",
+   "options": [
+    "Arteria circunfleja femoral lateral",
+    "Arteria obturatriz",
+    "Arteria circunfleja femoral medial",
+    "Arteria del ligamento de la cabeza del fémur",
+    "Arteria glútea superior"
+   ],
+   "answer": 2,
+   "explanation": "La cabeza femoral se irriga sobre todo por las ramas retinaculares de la arteria circunfleja femoral medial que ascienden a lo largo del cuello. En la fractura se rompen. La arteria del ligamento de la cabeza (de la obturatriz) es insuficiente en el adulto.",
+   "entries": [
+    "femur",
+    "art-coxae",
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "sk-b5309bbc",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en el trocánter menor?",
+   "options": [
+    "Iliopsoas",
+    "Glúteo medio",
+    "Obturador externo",
+    "Piriforme",
+    "Cuadrado femoral"
+   ],
+   "answer": 0,
+   "explanation": "El psoas mayor y el ilíaco se insertan con un tendón común en el trocánter menor y son el flexor más potente de la cadera. Los glúteos medio y menor y el piriforme se insertan en el trocánter mayor, y el obturador externo en la fosa trocantérea.",
+   "entries": [
+    "femur",
+    "m-iliopsoas"
+   ]
+  },
+  {
+   "id": "sk-c857e576",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Una mujer joven cuenta que la rótula se le salió hacia fuera tras girar la rodilla jugando al voleibol. ¿Cuál es la principal restricción dinámica frente a la luxación lateral de la rótula?",
+   "options": [
+    "Vasto lateral",
+    "Tracto iliotibial",
+    "Bíceps femoral",
+    "Fibras inferiores (oblicuas) del vasto medial",
+    "Recto femoral"
+   ],
+   "answer": 3,
+   "explanation": "El ángulo entre la línea de tracción del cuádriceps y el ligamento rotuliano (ángulo Q) tiende a llevar la rótula hacia fuera. Las fibras inferiores horizontales del vasto medial la llevan hacia dentro; el cóndilo femoral lateral prominente forma además una barrera ósea.",
+   "entries": [
+    "patella",
+    "m-quadriceps-femoris",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "sk-f1c972ce",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un futbolista golpeado en la cara lateral de la pierna tiene una fractura del cuello del peroné. Al caminar, la punta del pie roza el suelo y ha perdido la sensibilidad en el dorso del pie. ¿Qué nervio está lesionado?",
+   "options": [
+    "Nervio safeno",
+    "Nervio femoral",
+    "Nervio sural",
+    "Nervio tibial",
+    "Nervio peroneo común"
+   ],
+   "answer": 4,
+   "explanation": "El nervio peroneo común rodea superficialmente el cuello del peroné por fuera. Su lesión paraliza los músculos de los compartimentos anterior y lateral: pie caído, marcha en steppage y pérdida sensitiva en el dorso del pie y la cara lateral de la pierna.",
+   "entries": [
+    "fibula",
+    "n-fibularis-communis"
+   ]
+  },
+  {
+   "id": "sk-11d29b23",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un chico de 13 años que juega al fútbol tiene una tumefacción dolorosa y palpable bajo la rodilla. ¿Qué estructura afecta la enfermedad de Osgood-Schlatter?",
+   "options": [
+    "Epicóndilo lateral del fémur",
+    "Maléolo medial",
+    "Tuberosidad tibial",
+    "Tubérculo intercondíleo",
+    "Cabeza del peroné"
+   ],
+   "answer": 2,
+   "explanation": "La enfermedad de Osgood-Schlatter es una apofisitis por tracción repetida del ligamento rotuliano sobre la apófisis de la tuberosidad tibial durante el crecimiento rápido. La fuerza de los extensores de la rodilla se transmite a la tibia a través de esta prominencia.",
+   "entries": [
+    "tibia",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-31f5e5f7",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes afirmaciones sobre el maléolo lateral es verdadera?",
+   "options": [
+    "Está más alto que el maléolo medial.",
+    "No se articula con el astrágalo.",
+    "Es el extremo distal de la tibia.",
+    "Por el surco que tiene detrás pasa el tendón del tibial posterior.",
+    "Está más bajo y más posterior que el maléolo medial."
+   ],
+   "answer": 4,
+   "explanation": "El maléolo lateral es el extremo inferior del peroné, alrededor de 1 cm más bajo y más posterior que el maléolo medial. Por el surco situado detrás pasan los tendones de los peroneos largo y corto. Se articula con la cara lateral del astrágalo y forma la rama externa de la mortaja del tobillo.",
+   "entries": [
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-d87191b8",
+   "group": "Huesos del pie",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué hueso del tarso no recibe la inserción de ningún músculo?",
+   "options": [
+    "Navicular",
+    "Cuña medial",
+    "Cuboides",
+    "Calcáneo",
+    "Astrágalo"
+   ],
+   "answer": 4,
+   "explanation": "La mayor parte de la superficie del astrágalo está cubierta de cartílago articular y no se inserta en él ningún músculo. Como su irrigación es limitada y retrógrada, la necrosis avascular del cuerpo es frecuente en las fracturas del cuello.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-8922c8d5",
+   "group": "Huesos del pie",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué tendón pasa por el surco de la cara inferior del sustentáculo del astrágalo?",
+   "options": [
+    "Tibial posterior",
+    "Tibial anterior",
+    "Flexor largo de los dedos",
+    "Flexor largo del dedo gordo",
+    "Peroneo largo"
+   ],
+   "answer": 3,
+   "explanation": "La repisa de la cara medial del calcáneo (sustentáculo del astrágalo) sostiene el astrágalo. Por el surco de su cara inferior pasa el tendón del flexor largo del dedo gordo; el del flexor largo de los dedos discurre cerca de su borde medial.",
+   "entries": [
+    "calcaneus",
+    "m-flexor-hallucis-longus"
+   ]
+  },
+  {
+   "id": "sk-966623d2",
+   "group": "Huesos del pie",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el principal músculo que se inserta en la tuberosidad del navicular?",
+   "options": [
+    "Tibial posterior",
+    "Flexor largo de los dedos",
+    "Peroneo largo",
+    "Extensor largo del dedo gordo",
+    "Tibial anterior"
+   ],
+   "answer": 0,
+   "explanation": "El tendón principal del tibial posterior se inserta en la tuberosidad del navicular y sus expansiones en otros huesos del tarso y metatarsianos. Es el inversor más potente del pie y sostiene el arco longitudinal medial; su disfunción es causa frecuente de pie plano adquirido.",
+   "entries": [
+    "os-naviculare",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "sk-e633c622",
+   "group": "Huesos del pie",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué tendón pasa por el surco de la cara plantar del cuboides?",
+   "options": [
+    "Peroneo largo",
+    "Flexor largo del dedo gordo",
+    "Tibial posterior",
+    "Abductor del quinto dedo",
+    "Peroneo corto"
+   ],
+   "answer": 0,
+   "explanation": "El tendón del peroneo largo cruza la planta por el surco plantar del cuboides para insertarse en la cuña medial y la base del 1.er metatarsiano; sostiene el arco transverso y evierte el pie.",
+   "entries": [
+    "os-cuboideum",
+    "m-fibularis-longus"
+   ]
+  },
+  {
+   "id": "sk-e1c8c1c3",
+   "group": "Huesos del pie",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un jugador de baloncesto que se torció el tobillo hacia dentro tiene dolor en el borde lateral del pie; la radiografía muestra una fractura por avulsión de la base del 5.º metatarsiano. ¿Qué músculo arrancó el fragmento óseo?",
+   "options": [
+    "Peroneo tercero",
+    "Tibial anterior",
+    "Abductor del quinto dedo",
+    "Peroneo largo",
+    "Peroneo corto"
+   ],
+   "answer": 4,
+   "explanation": "El peroneo corto se inserta en la tuberosidad del 5.º metatarsiano. En una inversión brusca su contracción arranca la tuberosidad (fractura por avulsión). La fractura más distal de la unión metafisodiafisaria (fractura de Jones) es conocida por sus problemas de consolidación.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-afe30a76",
+   "group": "Huesos del pie",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué hueso está en el punto más alto del arco longitudinal medial del pie, en posición de «clave»?",
+   "options": [
+    "Tuberosidad del calcáneo",
+    "Cuña lateral",
+    "Cabeza del astrágalo",
+    "Cuboides",
+    "Base del 5.º metatarsiano"
+   ],
+   "answer": 2,
+   "explanation": "El arco longitudinal medial lo forman el calcáneo, el astrágalo, el navicular, las tres cuñas y los tres metatarsianos mediales. La cabeza del astrágalo es la clave del arco, sostenida por debajo por el ligamento calcaneonavicular plantar (en resorte). La clave del arco lateral es el cuboides.",
+   "entries": [
+    "talus",
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "sk-8bab82f6",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervio pasa por el agujero oval?",
+   "options": [
+    "Nervio facial",
+    "Nervio mandibular (V3)",
+    "Nervio hipogloso",
+    "Nervio maxilar (V2)",
+    "Nervio oftálmico (V1)"
+   ],
+   "answer": 1,
+   "explanation": "Por el agujero oval, en el ala mayor del esfenoides, pasan el nervio mandibular, la arteria meníngea accesoria y el nervio petroso menor. Regla: V1 sale por la fisura orbitaria superior, V2 por el agujero redondo y V3 por el agujero oval.",
+   "notes": [
+    "Entra por el meato acústico interno.",
+    "",
+    "Pasa por el conducto del hipogloso.",
+    "Pasa por el agujero redondo.",
+    "Pasa por la fisura orbitaria superior."
+   ],
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-5f0b04cc",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructura pasa por el agujero espinoso?",
+   "options": [
+    "Arteria meníngea media",
+    "Arteria carótida interna",
+    "Vena yugular interna",
+    "Nervio maxilar",
+    "Nervio petroso mayor"
+   ],
+   "answer": 0,
+   "explanation": "El agujero espinoso está posterolateral al agujero oval, en el ala mayor; por él pasan la arteria meníngea media y la rama meníngea del nervio mandibular (nervio espinoso). La rama anterior de la arteria discurre por la cara interna del pterion y produce hematoma epidural en las fracturas.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-3c70aa92",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes estructuras NO pasa por el agujero yugular?",
+   "options": [
+    "Nervio hipogloso",
+    "Seno sigmoideo (vena yugular interna)",
+    "Nervio vago",
+    "Nervio accesorio",
+    "Nervio glosofaríngeo"
+   ],
+   "answer": 0,
+   "explanation": "Por el agujero yugular pasan los pares craneales IX, X y XI, el seno sigmoideo y el seno petroso inferior. El hipogloso sale del cráneo por el conducto del hipogloso, por encima del cóndilo occipital.",
+   "entries": [
+    "os-occipitale",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-cda51554",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructuras pasan por el conducto óptico?",
+   "options": [
+    "Nervio oculomotor y arteria oftálmica",
+    "Nervio óptico y vena oftálmica superior",
+    "Arteria central de la retina y nervio troclear",
+    "Nervio óptico y arteria oftálmica",
+    "Nervio nasociliar y nervio óptico"
+   ],
+   "answer": 3,
+   "explanation": "El conducto óptico está entre las raíces del ala menor del esfenoides; por él pasan el nervio óptico y, por debajo, la arteria oftálmica. La vena oftálmica superior, los pares III, IV, las ramas del V1 y el VI pasan por la fisura orbitaria superior.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-711ff9cd",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervio sale por el agujero estilomastoideo?",
+   "options": [
+    "Nervio facial",
+    "Nervio accesorio",
+    "Nervio vestibulococlear",
+    "Cuerda del tímpano",
+    "Nervio glosofaríngeo"
+   ],
+   "answer": 0,
+   "explanation": "El nervio facial entra por el meato acústico interno, discurre por el conducto facial y sale por el agujero estilomastoideo, entre las apófisis estiloides y mastoides; allí se ramifica hacia los músculos faciales antes de entrar en la parótida. En la parálisis de Bell se culpa al edema en este estrecho conducto.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-c89d0b9d",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿A qué hueso pertenece la lámina cribosa y qué pasa por ella?",
+   "options": [
+    "Frontal – nervio supraorbitario",
+    "Etmoides – nervio maxilar",
+    "Hueso nasal – nervio etmoidal anterior",
+    "Etmoides – filetes olfatorios",
+    "Esfenoides – nervio óptico"
+   ],
+   "answer": 3,
+   "explanation": "La lámina horizontal perforada del etmoides forma el techo de la cavidad nasal; por ella pasan las fibras del nervio olfatorio desde el epitelio olfatorio hasta el bulbo olfatorio. En las fracturas de la base anterior aparecen anosmia y rinorrea de LCR.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-64b9533f",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde desemboca el seno maxilar en la cavidad nasal?",
+   "options": [
+    "Meato nasal medio (hiato semilunar)",
+    "Receso esfenoetmoidal",
+    "Meato nasal superior",
+    "Nasofaringe",
+    "Meato nasal inferior"
+   ],
+   "answer": 0,
+   "explanation": "Los senos frontal, maxilar y etmoidales anteriores se abren al meato medio (hiato semilunar). El conducto nasolagrimal desemboca en el meato inferior, las celdillas etmoidales posteriores en el superior y el seno esfenoidal en el receso esfenoetmoidal. Como el orificio del seno maxilar está alto, su drenaje es difícil.",
+   "notes": [
+    "",
+    "Es donde se abre el seno esfenoidal.",
+    "Es donde se abren las celdillas etmoidales posteriores.",
+    "Es donde se abre la trompa auditiva.",
+    "Es donde se abre el conducto nasolagrimal."
+   ],
+   "entries": [
+    "maxilla",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-114a7cc4",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Dónde desemboca el conducto nasolagrimal en la cavidad nasal?",
+   "options": [
+    "Meato nasal superior",
+    "Hiato semilunar",
+    "Meato nasal inferior",
+    "Receso esfenoetmoidal",
+    "Meato nasal medio"
+   ],
+   "answer": 2,
+   "explanation": "El conducto que desciende del saco lagrimal pasa por un canal óseo formado por el maxilar, el lagrimal y el cornete inferior y se abre en el meato situado bajo el cornete inferior; por eso moquea la nariz al llorar.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-lacrimale"
+   ]
+  },
+  {
+   "id": "sk-ba5a5737",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué hueso pertenece la fina lámina papirácea de la pared medial de la órbita?",
+   "options": [
+    "Cigomático",
+    "Maxilar",
+    "Etmoides",
+    "Esfenoides",
+    "Lagrimal"
+   ],
+   "answer": 2,
+   "explanation": "La lámina orbitaria, fina como el papel, que forma la cara externa del laberinto etmoidal constituye la mayor parte de la pared medial de la órbita. La sinusitis etmoidal puede extenderse por esta pared fina a la órbita y causar celulitis orbitaria.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-7b06e8ab",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Entre qué huesos está la sutura lambdoidea?",
+   "options": [
+    "El occipital y los dos parietales",
+    "Los dos parietales",
+    "El frontal y los dos parietales",
+    "El temporal y el parietal",
+    "El esfenoides y el frontal"
+   ],
+   "answer": 0,
+   "explanation": "La sutura lambdoidea está entre el occipital y los parietales, con forma de la letra griega λ; su encuentro con la sutura sagital es el lambda, donde se cierra la fontanela posterior. Las demás opciones son las suturas coronal, sagital y escamosa.",
+   "notes": [
+    "",
+    "Es la sutura sagital.",
+    "Es la sutura coronal.",
+    "Es la sutura escamosa.",
+    "Es la sutura esfenofrontal."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-66a5569f",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué saliente situado delante del agujero mandibular da inserción al ligamento esfenomandibular?",
+   "options": [
+    "Línea milohioidea",
+    "Língula de la mandíbula",
+    "Apófisis coronoides",
+    "Fosita pterigoidea",
+    "Espina mentoniana"
+   ],
+   "answer": 1,
+   "explanation": "La língula es un saliente óseo en forma de lengüeta en la cara interna de la rama que cubre por delante el agujero mandibular. En el bloqueo alveolar inferior la punta de la aguja se dirige justo por encima de la língula; el nervio alveolar inferior entra aquí en el conducto.",
+   "entries": [
+    "mandibula"
+   ]
+  },
+  {
+   "id": "sk-e39de62d",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculos se insertan en las espinas mentonianas de la mandíbula?",
+   "options": [
+    "Geniogloso y genihioideo",
+    "Mentoniano y depresor del labio inferior",
+    "Platisma y depresor del ángulo de la boca",
+    "Milohioideo y vientre anterior del digástrico",
+    "Hiogloso y geniogloso"
+   ],
+   "answer": 0,
+   "explanation": "En la línea media de la cara interna de la mandíbula, el geniogloso se inserta en la espina mentoniana superior y el genihioideo en la inferior. El milohioideo se inserta en la línea milohioidea y el vientre anterior del digástrico en la fosa digástrica.",
+   "entries": [
+    "mandibula",
+    "m-genioglossus",
+    "m-geniohyoideus"
+   ]
+  },
+  {
+   "id": "sk-4fa063c1",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructura forma la pared posterior de la silla turca?",
+   "options": [
+    "Tubérculo de la silla",
+    "Surco prequiasmático",
+    "Apófisis clinoides anterior",
+    "Surco carotídeo",
+    "Dorso de la silla"
+   ],
+   "answer": 4,
+   "explanation": "Delante de la silla turca está el tubérculo de la silla y detrás el dorso de la silla; los ángulos superiores del dorso forman las apófisis clinoides posteriores. La pendiente que desciende detrás del dorso es el clivus.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-a994d076",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué huesos forman el clivus?",
+   "options": [
+    "Las alas mayores del esfenoides",
+    "El etmoides y el esfenoides",
+    "El cuerpo del esfenoides y la porción basilar del occipital",
+    "Solo el occipital",
+    "La porción petrosa del temporal y el occipital"
+   ],
+   "answer": 2,
+   "explanation": "El clivus es la superficie inclinada que va del dorso de la silla al agujero magno; su parte superior es el cuerpo del esfenoides y la inferior la porción basilar del occipital. Sobre él descansan el puente y la arteria basilar; la sincondrosis esfenooccipital entre ambos se osifica en la pubertad.",
+   "entries": [
+    "os-occipitale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-244fa846",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervios pasan por el meato acústico interno?",
+   "options": [
+    "Nervio vestibulococlear y nervio vago",
+    "Nervio trigémino y nervio facial",
+    "Nervio facial y nervio vestibulococlear",
+    "Nervio facial y nervio glosofaríngeo",
+    "Nervio abducens y nervio facial"
+   ],
+   "answer": 2,
+   "explanation": "Por el conducto auditivo interno de la porción petrosa del temporal pasan el nervio facial (con el nervio intermedio), el nervio vestibulococlear y la arteria laberíntica. Un neurinoma del acústico aquí puede producir signos auditivos y faciales.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-fa671396",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué hueso forma la pared medial de la fosa pterigopalatina?",
+   "options": [
+    "Apófisis pterigoides del esfenoides",
+    "Maxilar",
+    "Palatino (lámina perpendicular)",
+    "Vómer",
+    "Cigomático"
+   ],
+   "answer": 2,
+   "explanation": "La fosa pterigopalatina tiene por delante la tuberosidad del maxilar, por detrás la apófisis pterigoides y medialmente la lámina perpendicular del palatino. El agujero esfenopalatino de la pared medial la comunica con la cavidad nasal; contiene el ganglio pterigopalatino y la porción final de la arteria maxilar.",
+   "notes": [
+    "Forma la pared posterior.",
+    "Forma la pared anterior.",
+    "",
+    "Forma parte del tabique nasal.",
+    "No limita con la fosa."
+   ],
+   "entries": [
+    "os-palatinum",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-11e451f6",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El agujero transverso es característico de ¿qué vértebras?",
+   "options": [
+    "Vértebras coccígeas",
+    "Vértebras lumbares",
+    "Vértebras sacras",
+    "Vértebras torácicas",
+    "Vértebras cervicales"
+   ],
+   "answer": 4,
+   "explanation": "Por los agujeros de las apófisis transversas de las vértebras cervicales pasan la arteria y la vena vertebrales; la arteria suele entrar en C6 y por el agujero de C7 pasa solo la vena. Este agujero es el criterio más fiable para distinguir las vértebras cervicales.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2f1cd430",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuáles son las características distintivas de las vértebras lumbares?",
+   "options": [
+    "Una apófisis en forma de diente que se proyecta hacia arriba",
+    "Cuerpo en forma de corazón y carillas costales",
+    "Cuerpo grande y reniforme, apófisis espinosa gruesa y rectangular y carillas articulares en el plano sagital",
+    "Forma de anillo sin cuerpo",
+    "Apófisis espinosa bífida y agujero transverso"
+   ],
+   "answer": 2,
+   "explanation": "Las vértebras lumbares tienen los cuerpos más grandes porque soportan peso; sus carillas articulares están en el plano sagital, lo que permite la flexión–extensión y limita la rotación. Las demás opciones corresponden a las vértebras torácicas, cervicales, el atlas y el axis.",
+   "notes": [
+    "Es una característica del axis.",
+    "Es una característica de las vértebras torácicas.",
+    "",
+    "Es una característica del atlas.",
+    "Es una característica de las vértebras cervicales."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-66abc394",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué nivel termina habitualmente la médula espinal en el adulto?",
+   "options": [
+    "L1–L2",
+    "S2",
+    "L3–L4",
+    "T10",
+    "L5"
+   ],
+   "answer": 0,
+   "explanation": "En el adulto el cono medular termina a la altura de L1–L2; en el recién nacido, en L3. El saco dural y el espacio subaracnoideo llegan hasta S2, por lo que la punción lumbar se hace por debajo de la médula, a nivel de la cola de caballo.",
+   "notes": [
+    "",
+    "Es donde termina el saco dural.",
+    "Es el nivel en el recién nacido.",
+    "La médula llega por debajo de este nivel.",
+    "La médula no llega a este nivel."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-22554f5b",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es un nivel seguro para la punción lumbar y qué referencia se usa para encontrarlo?",
+   "options": [
+    "Espacio L1–L2; puntas de las 12.as costillas",
+    "Espacio S2–S3; línea que une las EIPS",
+    "Espacio T12–L1; ángulos inferiores de las escápulas",
+    "Espacio T10–T11; altura del ombligo",
+    "Espacio L3–L4 o L4–L5; línea que une los puntos más altos de las dos crestas ilíacas (L4)"
+   ],
+   "answer": 4,
+   "explanation": "La línea supracrestal (de Tuffier) pasa por la apófisis espinosa de L4 o el espacio L4–L5. Este nivel está por debajo del cono medular, de modo que la aguja aparta las raíces de la cola de caballo al llegar al espacio subaracnoideo.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-ffeae080",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En la espondilólisis, ¿en qué parte de la vértebra está el defecto óseo?",
+   "options": [
+    "Pedículo",
+    "Porción interarticular (pars interarticularis)",
+    "Unión de las láminas en la línea media",
+    "Borde anterior del cuerpo vertebral",
+    "Apófisis transversa"
+   ],
+   "answer": 1,
+   "explanation": "La espondilólisis es una fractura por sobrecarga de la porción interarticular entre las apófisis articulares superior e inferior, sobre todo en L5. En la radiografía oblicua da el aspecto de «collar del perrito escocés»; si es bilateral, la vértebra puede deslizarse hacia delante (espondilolistesis). La falta de fusión de las láminas es la espina bífida.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-8158d007",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Por qué mecanismo se produce habitualmente la fractura de Jefferson, con fractura de los arcos anterior y posterior del atlas?",
+   "options": [
+    "Carga vertical sobre el vértice de la cabeza (compresión axial)",
+    "Arrancamiento de la apófisis espinosa de C7 por tracción muscular",
+    "Luxación facetaria por rotación",
+    "Fractura de los pedículos del axis por hiperextensión",
+    "Fractura del diente por flexión brusca"
+   ],
+   "answer": 0,
+   "explanation": "En una carga axial, como al tirarse de cabeza en agua poco profunda, los cóndilos occipitales separan las masas laterales del atlas y el anillo se rompe en varios puntos. Como el conducto vertebral se ensancha, a menudo no hay daño neurológico. Las otras opciones describen las fracturas del ahorcado, del diente y del palero.",
+   "notes": [
+    "",
+    "Describe la fractura del palero (clay-shoveler).",
+    "Describe una luxación facetaria.",
+    "Describe la fractura del ahorcado.",
+    "Describe una fractura del diente."
+   ],
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-60976cab",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cómo se llama la fractura bilateral de la porción interarticular (pedículos) del axis?",
+   "options": [
+    "Fractura del diente tipo II",
+    "Fractura del ahorcado",
+    "Fractura de Jefferson",
+    "Fractura del palero",
+    "Fractura de Chance"
+   ],
+   "answer": 1,
+   "explanation": "Los pedículos de C2 se rompen en hiperextensión y distracción; el ahorcamiento o el golpe del mentón contra el salpicadero sin cinturón son mecanismos típicos. La fractura de Chance es una fractura toracolumbar por flexión-distracción relacionada con el cinturón de seguridad.",
+   "entries": [
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-4cebc960",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructuras salen por los agujeros sacros anteriores?",
+   "options": [
+    "Arteria sacra media",
+    "Ramos posteriores de los nervios espinales sacros",
+    "Ramos anteriores de los nervios espinales sacros",
+    "Filum terminal",
+    "Tronco simpático"
+   ],
+   "answer": 2,
+   "explanation": "Por los cuatro pares de agujeros de la cara anterior (pélvica) del sacro salen los ramos anteriores de S1–S4, que forman el plexo sacro; los ramos posteriores salen por los agujeros sacros posteriores. El filum terminal sale por el hiato sacro.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-a851a348",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué salientes limitan a ambos lados el hiato sacro?",
+   "options": [
+    "Cresta sacra lateral",
+    "Ala del sacro",
+    "Astas coccígeas",
+    "Promontorio",
+    "Astas sacras"
+   ],
+   "answer": 4,
+   "explanation": "Como las láminas de S5 no se fusionan, el conducto sacro se abre por abajo en el hiato sacro; las astas sacras de cada lado se palpan y ayudan a localizar la aguja en el bloqueo epidural caudal.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-dbfed2d8",
+   "group": "Caja torácica",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuáles son las costillas atípicas?",
+   "options": [
+    "8.ª, 9.ª y 10.ª",
+    "1.ª, 2.ª, 10.ª, 11.ª y 12.ª",
+    "Solo la 1.ª, la 2.ª y la 12.ª",
+    "1.ª–7.ª",
+    "1.ª, 11.ª y 12.ª"
+   ],
+   "answer": 1,
+   "explanation": "Una costilla típica tiene cabeza (con dos carillas), cuello, tubérculo y cuerpo. La 1.ª es la más corta, ancha y curvada; la 2.ª tiene la tuberosidad del serrato anterior; la cabeza de las costillas 10.ª–12.ª tiene una sola carilla, y la 11.ª y la 12.ª carecen de cuello y tubérculo.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-f4babc11",
+   "group": "Caja torácica",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructura discurre por el surco situado delante del tubérculo del escaleno en la primera costilla?",
+   "options": [
+    "Vena subclavia",
+    "Arteria subclavia",
+    "Conducto torácico",
+    "Tronco inferior del plexo braquial",
+    "Nervio frénico"
+   ],
+   "answer": 0,
+   "explanation": "El escaleno anterior, insertado en el tubérculo, separa la vena subclavia (delante) de la arteria subclavia y el tronco inferior del plexo braquial (detrás). Por eso, en la canalización de la vena subclavia, la aguja queda delante del músculo.",
+   "notes": [
+    "",
+    "Pasa por el surco de detrás del tubérculo.",
+    "Desemboca en el ángulo venoso izquierdo; no discurre por la costilla.",
+    "Pasa detrás del tubérculo con la arteria.",
+    "Desciende por la cara anterior del escaleno anterior; no por el surco."
+   ],
+   "entries": [
+    "costae",
+    "m-scalenus-anterior"
+   ]
+  },
+  {
+   "id": "sk-f743fb58",
+   "group": "Caja torácica",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿A qué se refiere el movimiento en «brazo de bomba» en la respiración?",
+   "options": [
+    "Al descenso del esternón",
+    "A la elevación de las costillas superiores y el esternón, que aumenta el diámetro anteroposterior del tórax",
+    "A la apertura lateral de las costillas inferiores, que aumenta el diámetro transverso",
+    "Al descenso del diafragma, que aumenta el diámetro vertical",
+    "A la rotación interna de las costillas alrededor de la columna"
+   ],
+   "answer": 1,
+   "explanation": "En la inspiración las costillas superiores empujan el esternón hacia delante y arriba y aumentan el diámetro anteroposterior (brazo de bomba); las inferiores se abren lateralmente y aumentan el diámetro transverso (asa de cubo). El diámetro vertical lo aumenta la contracción del diafragma.",
+   "notes": [
+    "Ocurre en la espiración.",
+    "",
+    "Es el movimiento en asa de cubo.",
+    "Es la contracción del diafragma.",
+    "No existe tal movimiento."
+   ],
+   "entries": [
+    "costae",
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-b83efed6",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructura pasa por encima del ligamento transverso superior de la escápula?",
+   "options": [
+    "Arteria supraescapular",
+    "Rama profunda de la arteria cervical transversa",
+    "Nervio axilar",
+    "Nervio supraescapular",
+    "Nervio dorsal de la escápula"
+   ],
+   "answer": 0,
+   "explanation": "Bajo el ligamento que cierra la escotadura escapular pasa el nervio supraescapular y por encima la arteria supraescapular («el ejército pasa por encima del puente, la marina por debajo»). Si el nervio queda atrapado en la escotadura, se debilitan el supraespinoso y el infraespinoso.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "sk-df043af5",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué diferencia hay entre el cuello anatómico y el cuello quirúrgico del húmero?",
+   "options": [
+    "El cuello quirúrgico es el surco del nervio radial",
+    "Son el mismo lugar con distinto nombre",
+    "El cuello anatómico está en el extremo inferior del húmero",
+    "El cuello anatómico es el estrechamiento justo bajo la cabeza articular; el quirúrgico, la zona propensa a fracturas bajo los tubérculos",
+    "El cuello quirúrgico está justo bajo la cabeza articular; el anatómico, bajo los tubérculos"
+   ],
+   "answer": 3,
+   "explanation": "El cuello anatómico es el surco poco profundo entre la cabeza articular y los tubérculos, donde se inserta la cápsula. El cuello quirúrgico es el estrechamiento bajo los tubérculos; se fractura con frecuencia en personas mayores y allí corren riesgo el nervio axilar y la arteria circunfleja humeral posterior.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-d05233d9",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructuras discurren por el surco del nervio radial del húmero?",
+   "options": [
+    "Nervio axilar y arteria circunfleja humeral posterior",
+    "Nervio cubital y arteria colateral cubital superior",
+    "Nervio radial y arteria braquial profunda",
+    "Nervio mediano y arteria braquial",
+    "Nervio musculocutáneo y arteria braquial"
+   ],
+   "answer": 2,
+   "explanation": "El surco radial recorre en espiral la cara posterior de la diáfisis humeral entre los orígenes de las cabezas lateral y medial del tríceps. En las fracturas de la diáfisis media se lesiona el nervio radial y aparece mano caída; la extensión del codo suele conservarse porque las ramas del tríceps salen más arriba.",
+   "entries": [
+    "humerus",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-338897fa",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en el olécranon?",
+   "options": [
+    "Pronador cuadrado",
+    "Tríceps braquial",
+    "Bíceps braquial",
+    "Braquial",
+    "Flexor radial del carpo"
+   ],
+   "answer": 1,
+   "explanation": "Las tres cabezas del tríceps se insertan con un tendón común en la cara posterosuperior del olécranon y extienden el codo. El braquial se inserta en la tuberosidad del cúbito y el bíceps en la del radio.",
+   "entries": [
+    "ulna",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-2525d8eb",
+   "group": "Huesos del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Con qué carilla articular del cúbito se articula proximalmente la cabeza del radio?",
+   "options": [
+    "Escotadura troclear",
+    "Fosita articular de la cabeza del radio",
+    "Cóndilo (capitulum) del húmero",
+    "Escotadura cubital del radio",
+    "Escotadura radial del cúbito"
+   ],
+   "answer": 4,
+   "explanation": "La circunferencia articular de la cabeza del radio forma la articulación radiocubital proximal con la escotadura radial del cúbito y el ligamento anular. La escotadura troclear se articula con la tróclea humeral y la escotadura cubital del radio con la cabeza del cúbito en el extremo distal.",
+   "entries": [
+    "ulna",
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-64db8f92",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué escotadura del extremo distal del radio se articula con la cabeza del cúbito?",
+   "options": [
+    "Tubérculo dorsal (de Lister)",
+    "Apófisis estiloides del radio",
+    "Carilla articular carpiana",
+    "Escotadura radial del cúbito",
+    "Escotadura cubital del radio"
+   ],
+   "answer": 4,
+   "explanation": "En la articulación radiocubital distal la cabeza del cúbito se aloja en la escotadura cubital del radio; en la pronosupinación el radio gira alrededor de esta cabeza cubital fija. La articulación está reforzada por el complejo fibrocartilaginoso triangular (CFCT).",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-814e4ce2",
+   "group": "Huesos de la mano",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el orden de la fila distal del carpo de radial a cubital?",
+   "options": [
+    "Escafoides, semilunar, piramidal, pisiforme",
+    "Trapecio, grande, trapezoide, ganchoso",
+    "Trapecio, trapezoide, grande, ganchoso",
+    "Trapezoide, trapecio, grande, ganchoso",
+    "Ganchoso, grande, trapezoide, trapecio"
+   ],
+   "answer": 2,
+   "explanation": "De lateral a medial la fila distal es trapecio (lado del pulgar), trapezoide, grande (el mayor) y ganchoso. La fila proximal es escafoides, semilunar, piramidal y pisiforme.",
+   "entries": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum",
+    "os-hamatum"
+   ]
+  },
+  {
+   "id": "sk-592c5eaa",
+   "group": "Huesos de la mano",
+   "level": "tus",
+   "clinical": false,
+   "stem": "La enfermedad de Kienböck es la necrosis avascular de ¿qué hueso?",
+   "options": [
+    "Grande",
+    "Cabeza femoral",
+    "Semilunar",
+    "Escafoides",
+    "Navicular (pie)"
+   ],
+   "answer": 2,
+   "explanation": "La enfermedad de Kienböck es la necrosis avascular del semilunar; la varianza cubital negativa (cúbito corto) es un factor de riesgo. La necrosis idiopática del escafoides es la enfermedad de Preiser, la de la cabeza femoral la de Legg-Calvé-Perthes y la del navicular del pie la de Köhler.",
+   "notes": [
+    "No tiene una necrosis epónima propia.",
+    "Es el lugar de la enfermedad de Legg-Calvé-Perthes.",
+    "",
+    "Es el lugar de la enfermedad de Preiser.",
+    "Es el lugar de la enfermedad de Köhler."
+   ],
+   "entries": [
+    "os-lunatum"
+   ]
+  },
+  {
+   "id": "sk-dbb3bf24",
+   "group": "Huesos de la mano",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructuras se insertan en el gancho del ganchoso?",
+   "options": [
+    "Cabeza oblicua del aductor del pulgar",
+    "Tendón del flexor radial del carpo",
+    "Abductor corto y oponente del pulgar",
+    "El retináculo flexor y, de los hipotenares, el flexor y el oponente del meñique",
+    "Retináculo extensor y extensor cubital del carpo"
+   ],
+   "answer": 3,
+   "explanation": "El gancho del ganchoso es el punto de inserción inferomedial del retináculo flexor; de él nacen también el flexor corto y el oponente del meñique. El gancho es el límite lateral del canal de Guyon; puede romperse en el golf y el béisbol y afectar a la rama profunda del nervio cubital.",
+   "entries": [
+    "os-hamatum",
+    "mm-hypothenares"
+   ]
+  },
+  {
+   "id": "sk-d7b7ddde",
+   "group": "Huesos de la mano",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es el metacarpiano más corto y móvil?",
+   "options": [
+    "4.º metacarpiano",
+    "2.º metacarpiano",
+    "3.er metacarpiano",
+    "5.º metacarpiano",
+    "1.er metacarpiano"
+   ],
+   "answer": 4,
+   "explanation": "El metacarpiano del pulgar forma con el trapecio una articulación en silla de montar que permite la oposición. El 2.º y el 3.º son los más fijos (la «unidad fija» de la mano); la base del 3.º tiene una apófisis estiloides.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-a9ffa742",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructuras se fijan en la espina ilíaca anterosuperior (EIAS)?",
+   "options": [
+    "Sartorio, tensor de la fascia lata y ligamento inguinal",
+    "Cabeza directa del recto femoral y ligamento iliofemoral",
+    "Oblicuo interno y ligamento lacunar",
+    "Grácil y aductor largo",
+    "Ilíaco y psoas menor"
+   ],
+   "answer": 0,
+   "explanation": "De la EIAS nacen el sartorio y el TFL, y el ligamento inguinal va desde ella al tubérculo del pubis. En la EIAI se insertan la cabeza directa del recto femoral y el ligamento iliofemoral. En deportistas adolescentes el sartorio puede arrancar la EIAS y el recto femoral la EIAI.",
+   "notes": [
+    "",
+    "Se insertan en la EIAI.",
+    "El ligamento lacunar va al pubis.",
+    "Nacen del pubis.",
+    "Son estructuras de la fosa ilíaca y del psoas."
+   ],
+   "entries": [
+    "os-coxae",
+    "m-sartorius",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "sk-c9a721e5",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO nace de la tuberosidad isquiática?",
+   "options": [
+    "Semitendinoso",
+    "Cabeza larga del bíceps femoral",
+    "Porción isquiotibial del aductor mayor",
+    "Semimembranoso",
+    "Cabeza corta del bíceps femoral"
+   ],
+   "answer": 4,
+   "explanation": "La cabeza corta nace del labio lateral de la línea áspera y solo cruza la rodilla. La tuberosidad isquiática es el hueso en el que nos sentamos; de ella nacen los isquiotibiales y las fibras verticales del aductor mayor, y en ella se inserta el ligamento sacrotuberoso.",
+   "entries": [
+    "os-coxae",
+    "mm-ischiocrurales",
+    "m-biceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-5fd892d5",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué arteria proporciona la irrigación principal de la cabeza femoral en el adulto?",
+   "options": [
+    "La arteria del ligamento de la cabeza del fémur",
+    "Arteria circunfleja femoral medial",
+    "Arteria circunfleja femoral lateral",
+    "Arteria glútea superior",
+    "Ramas perforantes de la femoral profunda"
+   ],
+   "answer": 1,
+   "explanation": "En el adulto, la cabeza femoral se irriga sobre todo por las ramas retinaculares de la arteria circunfleja femoral medial que ascienden por el cuello. En las fracturas intracapsulares (subcapitales) se rompen y puede aparecer necrosis avascular; la arteria del ligamento de la cabeza aporta poco en el adulto.",
+   "entries": [
+    "femur",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-3ce542da",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuánto mide aproximadamente el ángulo cervicodiafisario del fémur en el adulto?",
+   "options": [
+    "150°",
+    "90°",
+    "105°",
+    "170°",
+    "125°"
+   ],
+   "answer": 4,
+   "explanation": "El ángulo cervicodiafisario es de unos 150° al nacer y desciende a alrededor de 125° en el adulto. Su aumento marcado se denomina coxa valga y su disminución coxa vara; es algo menor en las mujeres por la pelvis más ancha.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-2bd1341c",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes músculos NO nace de la línea áspera?",
+   "options": [
+    "Cabeza corta del bíceps femoral",
+    "Vasto medial",
+    "Vasto intermedio",
+    "Vasto lateral",
+    "Aductor mayor"
+   ],
+   "answer": 2,
+   "explanation": "El vasto intermedio nace de las caras anterior y lateral de la diáfisis femoral. Del labio lateral de la línea áspera nacen el vasto lateral y la cabeza corta del bíceps femoral, y del labio medial el vasto medial; los aductores se insertan en la línea áspera.",
+   "entries": [
+    "femur",
+    "m-vastus-intermedius"
+   ]
+  },
+  {
+   "id": "sk-438ad979",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructura se inserta en el tubérculo de Gerdy?",
+   "options": [
+    "Tracto iliotibial",
+    "Pata de ganso",
+    "Ligamento colateral peroneo",
+    "Poplíteo",
+    "Ligamento rotuliano"
+   ],
+   "answer": 0,
+   "explanation": "El tubérculo de Gerdy está en la cara anterolateral del cóndilo lateral de la tibia; en él se inserta la cintilla iliotibial. El ligamento rotuliano se inserta en la tuberosidad tibial, la pata de ganso en la cara superomedial de la tibia y el ligamento colateral lateral en la cabeza del peroné.",
+   "entries": [
+    "tibia",
+    "tractus-iliotibialis"
+   ]
+  },
+  {
+   "id": "sk-eede538b",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructuras se insertan en la cabeza del peroné?",
+   "options": [
+    "Ligamento rotuliano",
+    "Poplíteo y menisco lateral",
+    "Pata de ganso y ligamento colateral tibial",
+    "Tracto iliotibial y tensor de la fascia lata",
+    "El tendón del bíceps femoral y el ligamento colateral peroneo"
+   ],
+   "answer": 4,
+   "explanation": "En la cabeza del peroné se insertan el tendón del bíceps femoral y el ligamento colateral lateral; el nervio peroneo común rodea justo debajo el cuello del peroné y pasa hacia delante. Por eso puede aparecer pie caído en las fracturas del cuello del peroné.",
+   "entries": [
+    "fibula",
+    "m-biceps-femoris",
+    "ligg-collateralia-genus"
+   ]
+  },
+  {
+   "id": "sk-7f55ff47",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la rótula es verdadera?",
+   "options": [
+    "Está completamente osificada al nacer",
+    "Está fuera de la cavidad articular de la rodilla",
+    "Es el mayor hueso sesamoideo del cuerpo y se desarrolla dentro del tendón del cuádriceps",
+    "En su cara posterior la carilla medial es mayor que la lateral",
+    "Se inserta en el cóndilo medial de la tibia mediante el ligamento rotuliano"
+   ],
+   "answer": 2,
+   "explanation": "La rótula alarga el brazo de palanca del cuádriceps y aumenta la fuerza de extensión. En su cara posterior la carilla lateral es más ancha; se une a la tuberosidad tibial mediante el ligamento rotuliano y su cara posterior mira a la cavidad articular. Empieza a osificarse entre los 3 y 6 años.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-048b1450",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué indica una fractura de Segond?",
+   "options": [
+    "Avulsión en el borde de la meseta tibial lateral; acompaña a una rotura del ligamento cruzado anterior",
+    "Calcificación en la inserción femoral del ligamento colateral medial",
+    "Fractura de la cabeza del peroné asociada a rotura del ligamento cruzado posterior",
+    "Fractura osteocondral en la luxación lateral de la rótula",
+    "Separación de la tuberosidad tibial por apofisitis"
+   ],
+   "answer": 0,
+   "explanation": "La fractura de Segond es un pequeño fragmento óseo arrancado de la meseta tibial lateral por la cápsula/ligamento anterolateral con la rodilla en rotación interna y varo forzado; aunque pequeño en la radiografía, indica con gran probabilidad una rotura del ligamento cruzado anterior. La calcificación del ligamento colateral medial es el signo de Pellegrini-Stieda; la apofisitis de la tuberosidad, la enfermedad de Osgood-Schlatter.",
+   "entries": [
+    "tibia",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "sk-ff3caabb",
+   "group": "Huesos del pie",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué parte del astrágalo participa en la articulación del tobillo (talocrural)?",
+   "options": [
+    "Tróclea del astrágalo",
+    "Surco del astrágalo",
+    "Cabeza del astrágalo",
+    "Apófisis posterior del astrágalo",
+    "Carilla articular calcánea anterior"
+   ],
+   "answer": 0,
+   "explanation": "La tróclea del astrágalo encaja en la mortaja formada por la cara inferior de la tibia y los dos maléolos. Como la tróclea es más ancha por delante, la articulación es más estable en flexión dorsal. La cabeza del astrágalo se articula con el navicular.",
+   "entries": [
+    "talus",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-e6838352",
+   "group": "Huesos del pie",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué hueso accesorio se forma cuando el tubérculo lateral de la apófisis posterior del astrágalo queda separado?",
+   "options": [
+    "Hueso de Vesalio",
+    "Navicular accesorio",
+    "Os trigonum",
+    "Hueso intermetatarsiano",
+    "Hueso peroneo"
+   ],
+   "answer": 2,
+   "explanation": "El os trigonum se debe a la falta de fusión del tubérculo lateral de la apófisis posterior del astrágalo; en bailarines y futbolistas puede producir un pinzamiento posterior del tobillo en flexión plantar forzada.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-fad5735d",
+   "group": "Huesos del pie",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El seno del tarso es el espacio entre ¿qué dos huesos?",
+   "options": [
+    "Navicular y cuña",
+    "Astrágalo y calcáneo",
+    "Calcáneo y cuboides",
+    "Tibia y peroné",
+    "Astrágalo y navicular"
+   ],
+   "answer": 1,
+   "explanation": "El seno del tarso es un canal abierto hacia fuera formado por el surco del astrágalo bajo su cuello y el surco del calcáneo en su cara superior; contiene el fuerte ligamento astragalocalcáneo interóseo, y delante de él nace el extensor corto de los dedos.",
+   "entries": [
+    "talus",
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-216c2bbd",
+   "group": "Huesos del pie",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué huesos forman el arco longitudinal lateral del pie?",
+   "options": [
+    "Calcáneo, navicular y 1.er metatarsiano",
+    "Calcáneo, astrágalo, navicular, cuñas y metatarsianos 1.º–3.º",
+    "Las cuñas y las bases de los metatarsianos",
+    "Calcáneo, cuboides y metatarsianos 4.º–5.º",
+    "Astrágalo, cuboides y 5.º metatarsiano"
+   ],
+   "answer": 3,
+   "explanation": "El arco lateral es bajo y cercano al suelo; es importante para el apoyo, y su clave es el cuboides. El arco medial es más alto y lo forman el calcáneo, el astrágalo, el navicular, las tres cuñas y los metatarsianos 1.º–3.º.",
+   "notes": [
+    "Es una secuencia mezclada.",
+    "Describe el arco longitudinal medial.",
+    "Describe el arco transverso.",
+    "",
+    "El astrágalo no participa en el arco lateral."
+   ],
+   "entries": [
+    "os-cuboideum",
+    "calcaneus",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-d2649154",
+   "group": "Huesos del pie",
+   "level": "tus",
+   "clinical": true,
+   "stem": "En las primeras semanas de la instrucción militar, un joven recluta presenta dolor en el antepié tras largas marchas; la radiografía muestra una fractura por sobrecarga de la diáfisis del 2.º metatarsiano. ¿Cómo se llama habitualmente esta fractura?",
+   "options": [
+    "Lesión de Lisfranc",
+    "Fractura de Pott",
+    "Luxación de Chopart",
+    "Fractura de marcha",
+    "Fractura de Jones"
+   ],
+   "answer": 3,
+   "explanation": "La carga repetida produce una fractura por sobrecarga del 2.º metatarsiano, el más fino y largo; las primeras radiografías pueden ser normales y el callo aparece a las pocas semanas. La fractura de Jones se localiza en la unión metafisodiafisaria del 5.º metatarsiano.",
+   "entries": [
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-1c850577",
+   "group": "Huesos del pie",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la fractura de Jones es verdadera?",
+   "options": [
+    "Es una fractura del cuello del astrágalo",
+    "Se produce en la cabeza del 1.er metatarsiano",
+    "Es una avulsión de la tuberosidad del 5.º metatarsiano por el peroneo corto",
+    "Se produce en la unión metafisodiafisaria del 5.º metatarsiano y tiene alto riesgo de seudoartrosis",
+    "Es una fractura por sobrecarga del calcáneo"
+   ],
+   "answer": 3,
+   "explanation": "La fractura de Jones está 1,5–3 cm distal a la tuberosidad, en una zona «divisoria» mal vascularizada; la seudoartrosis es frecuente y puede requerir cirugía. La avulsión de la tuberosidad (seudo-Jones) se debe a la tracción del peroneo corto en inversión y suele curar bien.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-251ed70f",
+   "group": "Huesos del pie",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué tendón se inserta en la tuberosidad del calcáneo?",
+   "options": [
+    "Tendón calcáneo (de Aquiles)",
+    "Tendón del tibial anterior",
+    "Tendón del flexor largo del dedo gordo",
+    "Tendón del peroneo corto",
+    "Tendón del tibial posterior"
+   ],
+   "answer": 0,
+   "explanation": "El tendón de Aquiles, tendón común del gastrocnemio y el sóleo, se inserta en la parte media de la cara posterior del talón; es el tendón más grueso y fuerte del cuerpo. La zona situada 2–6 cm por encima de la inserción es la peor irrigada y donde más se rompe.",
+   "entries": [
+    "calcaneus",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "sk-f0c708e7",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Aproximadamente cuántos huesos tiene el esqueleto humano adulto?",
+   "options": [
+    "186",
+    "256",
+    "226",
+    "206",
+    "300"
+   ],
+   "answer": 3,
+   "explanation": "El esqueleto adulto tiene unos 206 huesos: 80 en el esqueleto axial y 126 en el apendicular. En el recién nacido hay unos 270–300 porque muchas piezas aún no se han fusionado.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-93d7b509",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el hueso más largo y fuerte del cuerpo?",
+   "options": [
+    "Húmero",
+    "Peroné",
+    "Tibia",
+    "Fémur",
+    "Coxal"
+   ],
+   "answer": 3,
+   "explanation": "El fémur (hueso del muslo) es el hueso más largo, pesado y fuerte del cuerpo; mide alrededor de un cuarto de la estatura.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-a3b15dfd",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el hueso más pequeño del cuerpo?",
+   "options": [
+    "Lagrimal",
+    "Martillo",
+    "Pisiforme",
+    "Estribo",
+    "Yunque"
+   ],
+   "answer": 3,
+   "explanation": "De los tres huesecillos del oído medio, el estribo es el hueso más pequeño del cuerpo; su platina encaja en la ventana oval.",
+   "entries": [
+    "ossicula-auditus"
+   ]
+  },
+  {
+   "id": "sk-59a23a69",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué membrana, rica en vasos y nervios, cubre la superficie externa del hueso?",
+   "options": [
+    "Pericondrio",
+    "Fascia",
+    "Endostio",
+    "Periostio",
+    "Membrana sinovial"
+   ],
+   "answer": 3,
+   "explanation": "El periostio cubre la superficie externa del hueso; las células de su capa interna permiten el crecimiento en grosor y la consolidación de las fracturas. Las superficies articulares no tienen periostio, sino cartílago hialino. El endostio tapiza la cavidad medular.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-4df6a75a",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el cuerpo de un hueso largo?",
+   "options": [
+    "Placa epifisaria",
+    "Diáfisis",
+    "Epífisis",
+    "Apófisis",
+    "Metáfisis"
+   ],
+   "answer": 1,
+   "explanation": "El cuerpo de un hueso largo es la diáfisis, sus extremos las epífisis y la zona de crecimiento entre ambos la metáfisis. Dentro de la diáfisis está la cavidad medular con la médula ósea.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-45e4abe2",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué célula destruye (reabsorbe) el hueso?",
+   "options": [
+    "Fibroblasto",
+    "Osteocito",
+    "Osteoclasto",
+    "Condrocito",
+    "Osteoblasto"
+   ],
+   "answer": 2,
+   "explanation": "Los osteoclastos son células multinucleadas de origen monocítico que reabsorben el tejido óseo. Los osteoblastos forman hueso nuevo y los osteocitos son células maduras incluidas en el hueso.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-900539f3",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué tejido se producen las células sanguíneas?",
+   "options": [
+    "Periostio",
+    "Hueso compacto",
+    "Cartílago articular",
+    "Médula ósea roja",
+    "Médula ósea amarilla"
+   ],
+   "answer": 3,
+   "explanation": "La hematopoyesis ocurre en la médula ósea roja. En el adulto está sobre todo en los huesos planos (esternón, costillas, coxal, vértebras); la médula de las diáfisis se convierte en médula amarilla grasa.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-6f3cbcfe",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Dónde crecen en longitud los huesos largos?",
+   "options": [
+    "En el cartílago articular",
+    "En el endostio",
+    "En el periostio",
+    "En el centro de la diáfisis",
+    "En la placa epifisaria (cartílago de crecimiento)"
+   ],
+   "answer": 4,
+   "explanation": "El crecimiento en longitud se produce en la placa epifisaria de la metáfisis, por multiplicación y osificación de los condrocitos; la placa se cierra al final de la pubertad. El crecimiento en anchura se produce por aposición desde el periostio.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-1a21cd83",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes huesos pertenece al esqueleto axial?",
+   "options": [
+    "Escápula",
+    "Húmero",
+    "Clavícula",
+    "Coxal",
+    "Esternón"
+   ],
+   "answer": 4,
+   "explanation": "El esqueleto axial está formado por el cráneo, la columna vertebral y la caja torácica (esternón y costillas). Clavícula y escápula pertenecen a la cintura escapular, el coxal a la pélvica y el húmero al miembro superior libre.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-2db88c9e",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes es un hueso plano?",
+   "options": [
+    "Vértebra",
+    "Parietal",
+    "Fémur",
+    "Grande",
+    "Metacarpiano"
+   ],
+   "answer": 1,
+   "explanation": "Los huesos planos son delgados y anchos (bóveda craneal, esternón, costillas, escápula). El fémur y los metacarpianos son huesos largos, el grande un hueso corto y las vértebras huesos irregulares.",
+   "entries": [
+    "iskelet-genel",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-a98a93de",
+   "group": "Generalidades",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO es un hueso sesamoideo?",
+   "options": [
+    "Fabela",
+    "Semilunar",
+    "Sesamoideo del dedo gordo",
+    "Rótula",
+    "Pisiforme"
+   ],
+   "answer": 1,
+   "explanation": "Los sesamoideos se desarrollan dentro de tendones: rótula, pisiforme, sesamoideos bajo las MF del pulgar y del dedo gordo y, en algunas personas, la fabela. El semilunar es un hueso corto de la fila proximal del carpo.",
+   "entries": [
+    "ossa-sesamoidea"
+   ]
+  },
+  {
+   "id": "sk-66a08b42",
+   "group": "Cráneo (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué hueso forma la frente y el techo de las órbitas?",
+   "options": [
+    "Frontal",
+    "Esfenoides",
+    "Cigomático",
+    "Etmoides",
+    "Parietal"
+   ],
+   "answer": 0,
+   "explanation": "El frontal forma la frente con su escama vertical y, con su porción orbitaria horizontal, el techo de las órbitas y el suelo de la fosa craneal anterior.",
+   "entries": [
+    "os-frontale"
+   ]
+  },
+  {
+   "id": "sk-cb93516d",
+   "group": "Cráneo (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el único hueso del cráneo que se mueve en una articulación sinovial?",
+   "options": [
+    "Nasal",
+    "Vómer",
+    "Mandíbula",
+    "Maxilar",
+    "Cigomático"
+   ],
+   "answer": 2,
+   "explanation": "Los huesos del cráneo se unen firmemente por suturas; la única articulación móvil es la temporomandibular, entre la mandíbula y el temporal.",
+   "entries": [
+    "mandibula",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-4559542c",
+   "group": "Cráneo (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llaman las zonas membranosas no osificadas entre los huesos del cráneo del recién nacido?",
+   "options": [
+    "Fontanelas",
+    "Suturas",
+    "Fisuras",
+    "Senos",
+    "Agujeros"
+   ],
+   "answer": 0,
+   "explanation": "Las fontanelas son zonas membranosas donde se encuentran las suturas; permiten el moldeamiento de la cabeza en el parto y el crecimiento del cerebro. La mayor es la fontanela anterior.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-f341b2fb",
+   "group": "Cráneo (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Entre qué huesos está la sutura sagital?",
+   "options": [
+    "Parietal y temporal",
+    "Entre las dos mitades del frontal",
+    "Entre los dos parietales",
+    "Frontal y parietal",
+    "Parietal y occipital"
+   ],
+   "answer": 2,
+   "explanation": "La sutura sagital une los dos parietales en la línea media. La coronal está entre frontal y parietales, la lambdoidea entre parietales y occipital, y la escamosa entre parietal y temporal.",
+   "entries": [
+    "suturae-fonticuli",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-bb6020cc",
+   "group": "Cráneo (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántos huesos participan en la formación de la órbita?",
+   "options": [
+    "5",
+    "8",
+    "6",
+    "9",
+    "7"
+   ],
+   "answer": 4,
+   "explanation": "La órbita está formada por siete huesos: frontal, cigomático, maxilar, esfenoides, etmoides, lagrimal y palatino.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-13d66ee5",
+   "group": "Columna vertebral",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántas vértebras cervicales tiene la columna vertebral?",
+   "options": [
+    "6",
+    "12",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "La columna tiene 7 vértebras cervicales, 12 torácicas, 5 lumbares, 5 sacras y 3–5 coccígeas.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-894f664c",
+   "group": "Columna vertebral",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nombre especial recibe la primera vértebra cervical (C1)?",
+   "options": [
+    "Vértebra prominente",
+    "Atlas",
+    "Promontorio",
+    "Axis",
+    "Odontoides"
+   ],
+   "answer": 1,
+   "explanation": "C1 se llama atlas, C2 axis y C7 vértebra prominente. El atlas no tiene cuerpo ni apófisis espinosa.",
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-a8bb291d",
+   "group": "Columna vertebral",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántas vértebras se fusionan para formar el sacro?",
+   "options": [
+    "7",
+    "12",
+    "5",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Cinco vértebras sacras se fusionan para formar el sacro triangular; las 3–5 vértebras coccígeas inferiores forman el cóccix.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-d1d02687",
+   "group": "Columna vertebral",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué curvatura de la columna aparece cuando el bebé empieza a sostener la cabeza?",
+   "options": [
+    "Cifosis sacra",
+    "Cifosis torácica",
+    "Lordosis cervical",
+    "Escoliosis",
+    "Lordosis lumbar"
+   ],
+   "answer": 2,
+   "explanation": "En el feto la columna forma una sola curva en C (cifosis primaria). Al sostener la cabeza aparece la lordosis cervical, y al sentarse y caminar la lordosis lumbar (curvaturas secundarias).",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-b2c190ac",
+   "group": "Caja torácica",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántos pares de costillas tiene la caja torácica?",
+   "options": [
+    "12 pares",
+    "11 pares",
+    "13 pares",
+    "24 pares",
+    "10 pares"
+   ],
+   "answer": 0,
+   "explanation": "El ser humano tiene 12 pares (24) de costillas: 7 pares verdaderas, 3 falsas y 2 flotantes.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-e3425c63",
+   "group": "Caja torácica",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuáles son las «costillas verdaderas», unidas directamente al esternón por su propio cartílago?",
+   "options": [
+    "Costillas 8.ª–10.ª",
+    "Costillas 11.ª–12.ª",
+    "Costillas 1.ª–10.ª",
+    "Costillas 1.ª–12.ª",
+    "Costillas 1.ª–7.ª"
+   ],
+   "answer": 4,
+   "explanation": "Las costillas verdaderas son de la 1.ª a la 7.ª. Las 8.ª–10.ª se unen al cartílago superior (falsas) y las 11.ª–12.ª tienen el extremo anterior libre (flotantes).",
+   "entries": [
+    "costae",
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-cd7f4cd1",
+   "group": "Caja torácica",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuáles son las tres partes del esternón?",
+   "options": [
+    "Manubrio, ángulo y cuerpo",
+    "Manubrio, cuerpo y cartílago costal",
+    "Manubrio, cuerpo y apófisis xifoides",
+    "Escotadura yugular, ángulo y apófisis xifoides",
+    "Cuerpo, apófisis xifoides y escotadura yugular"
+   ],
+   "answer": 2,
+   "explanation": "De arriba abajo, el esternón consta de manubrio, cuerpo y apófisis xifoides. La unión de manubrio y cuerpo es el ángulo esternal (nivel de la 2.ª costilla).",
+   "entries": [
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-0a8d84f1",
+   "group": "Huesos del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el único hueso del brazo?",
+   "options": [
+    "Escápula",
+    "Húmero",
+    "Cúbito",
+    "Clavícula",
+    "Radio"
+   ],
+   "answer": 1,
+   "explanation": "En el brazo solo está el húmero; el radio y el cúbito están en el antebrazo, y la clavícula y la escápula en la cintura escapular.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-b53d9bdb",
+   "group": "Huesos del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué hueso está en el lado del pulgar del antebrazo?",
+   "options": [
+    "Escafoides",
+    "Húmero",
+    "Cúbito",
+    "Peroné",
+    "Radio"
+   ],
+   "answer": 4,
+   "explanation": "En posición anatómica el radio está en el lado lateral (del pulgar) del antebrazo y el cúbito en el medial (del meñique).",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-02299d72",
+   "group": "Huesos del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Con qué hueso se articula el extremo medial de la clavícula?",
+   "options": [
+    "Esternón (manubrio)",
+    "Cuerpo de la 1.ª costilla",
+    "Vértebra C7",
+    "Húmero",
+    "Escápula (acromion)"
+   ],
+   "answer": 0,
+   "explanation": "El extremo medial de la clavícula forma la articulación esternoclavicular con el manubrio; el lateral forma la acromioclavicular con el acromion.",
+   "entries": [
+    "clavicula",
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "sk-dc65dbda",
+   "group": "Huesos del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿De qué hueso forma parte el acromion?",
+   "options": [
+    "1.ª costilla",
+    "Escápula",
+    "Esternón",
+    "Húmero",
+    "Clavícula"
+   ],
+   "answer": 1,
+   "explanation": "El acromion es el extremo lateral de la espina de la escápula; forma el punto óseo más alto del hombro y se articula con la clavícula.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-135626d7",
+   "group": "Huesos del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué cavidad de la escápula se aloja la cabeza del húmero en la articulación del hombro?",
+   "options": [
+    "Cavidad glenoidea",
+    "Fosa supraespinosa",
+    "Fosa subescapular",
+    "Fosa olecraniana",
+    "Acetábulo"
+   ],
+   "answer": 0,
+   "explanation": "La cabeza del húmero forma la articulación glenohumeral con la cavidad glenoidea de la escápula, profundizada por el rodete glenoideo.",
+   "entries": [
+    "scapula",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "sk-1a79acf4",
+   "group": "Huesos del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿A qué hueso pertenece el olécranon, palpable en la parte posterior del codo?",
+   "options": [
+    "Escápula",
+    "Húmero",
+    "Radio",
+    "Pisiforme",
+    "Cúbito"
+   ],
+   "answer": 4,
+   "explanation": "El olécranon es la prominencia del extremo proximal del cúbito; con el codo extendido entra en la fosa olecraniana del húmero, y en él se inserta el tríceps braquial.",
+   "entries": [
+    "ulna"
+   ]
+  },
+  {
+   "id": "sk-1924a576",
+   "group": "Huesos de la mano",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántos huesos del carpo hay en la muñeca?",
+   "options": [
+    "7",
+    "14",
+    "5",
+    "8",
+    "10"
+   ],
+   "answer": 3,
+   "explanation": "El carpo tiene ocho huesos cortos en dos filas: proximal escafoides, semilunar, piramidal, pisiforme; distal trapecio, trapezoide, grande y ganchoso.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-cc283b3f",
+   "group": "Huesos de la mano",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántas falanges tiene el pulgar?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "El pulgar tiene dos falanges (proximal y distal) y los demás dedos tres cada uno; la mano tiene 14 falanges en total.",
+   "entries": [
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "sk-766cdcb8",
+   "group": "Huesos del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué tres huesos forman el coxal?",
+   "options": [
+    "Isquion, fémur y pubis",
+    "Ilion, sacro y pubis",
+    "Ilion, isquion y pubis",
+    "Ilion, isquion y cóccix",
+    "Sacro, cóccix y pubis"
+   ],
+   "answer": 2,
+   "explanation": "El coxal se forma por la fusión del ilion, el isquion y el pubis en el acetábulo; la fusión termina en la pubertad al osificarse el cartílago en Y.",
+   "entries": [
+    "os-coxae",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-e8ec8422",
+   "group": "Huesos del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué prominencia ósea soporta el peso del cuerpo al sentarse?",
+   "options": [
+    "Espina ilíaca anterosuperior",
+    "Tuberosidad isquiática",
+    "Trocánter mayor",
+    "Cresta ilíaca",
+    "Tubérculo del pubis"
+   ],
+   "answer": 1,
+   "explanation": "Al sentarse, el peso descansa sobre las tuberosidades isquiáticas, de donde también nacen los isquiotibiales.",
+   "entries": [
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-fce811c8",
+   "group": "Huesos del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué hueso grueso, que soporta el peso, está en el lado interno de la pierna?",
+   "options": [
+    "Fémur",
+    "Peroné",
+    "Astrágalo",
+    "Rótula",
+    "Tibia"
+   ],
+   "answer": 4,
+   "explanation": "La tibia es el hueso grueso del lado interno de la pierna y soporta la mayor parte del peso; el peroné, delgado y lateral, contribuye poco.",
+   "entries": [
+    "tibia"
+   ]
+  },
+  {
+   "id": "sk-3d64e2a3",
+   "group": "Huesos del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el hueso de la rodilla llamado rótula?",
+   "options": [
+    "Fabela",
+    "Navicular",
+    "Pisiforme",
+    "Astrágalo",
+    "Rótula (patela)"
+   ],
+   "answer": 4,
+   "explanation": "La rótula se desarrolla dentro del tendón del cuádriceps femoral y es el mayor hueso sesamoideo del cuerpo.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-51c47666",
+   "group": "Huesos del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿A qué hueso pertenece la prominencia ósea del lado externo del tobillo?",
+   "options": [
+    "Calcáneo",
+    "Tibia (maléolo medial)",
+    "Peroné (maléolo lateral)",
+    "Cuboides",
+    "Astrágalo"
+   ],
+   "answer": 2,
+   "explanation": "La prominencia externa es el maléolo lateral, extremo inferior del peroné; la interna es el maléolo medial de la tibia. El maléolo lateral desciende más.",
+   "entries": [
+    "fibula"
+   ]
+  },
+  {
+   "id": "sk-5b89ff5c",
+   "group": "Huesos del pie",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué hueso forma el talón?",
+   "options": [
+    "Cuneiforme medial",
+    "Astrágalo",
+    "Calcáneo",
+    "Cuboides",
+    "Navicular"
+   ],
+   "answer": 2,
+   "explanation": "El calcáneo es el mayor hueso del tarso y forma el talón; el tendón de Aquiles se inserta en su tuberosidad posterior.",
+   "entries": [
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-617628de",
+   "group": "Huesos del pie",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántos huesos tiene cada pie?",
+   "options": [
+    "26",
+    "28",
+    "33",
+    "24",
+    "20"
+   ],
+   "answer": 0,
+   "explanation": "Cada pie tiene 26 huesos: 7 del tarso, 5 metatarsianos y 14 falanges (sin contar los sesamoideos).",
+   "entries": [
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-4ce46011",
+   "group": "Huesos del pie",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué hueso del tarso está delante del calcáneo, en el borde externo del pie?",
+   "options": [
+    "Cuneiforme lateral",
+    "Navicular",
+    "5.º metatarsiano",
+    "Cuboides",
+    "Astrágalo"
+   ],
+   "answer": 3,
+   "explanation": "El cuboides está delante del calcáneo en el borde externo del pie y se articula con los metatarsianos 4.º y 5.º; el navicular está delante del astrágalo, en el lado interno.",
+   "entries": [
+    "os-cuboideum",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-62a44079",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es la unidad estructural del hueso compacto?",
+   "options": [
+    "Periostio",
+    "Osteona (sistema de Havers)",
+    "Laguna",
+    "Condrona",
+    "Trabécula"
+   ],
+   "answer": 1,
+   "explanation": "El hueso compacto está formado por osteonas, láminas dispuestas en anillos alrededor de un conducto de Havers central. El hueso esponjoso está formado por trabéculas.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-ef479b99",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cómo se llaman las fibras de colágeno que fijan firmemente el periostio al hueso penetrando en él?",
+   "options": [
+    "Fibras elásticas",
+    "Fibras de Sharpey",
+    "Conductos de Volkmann",
+    "Laminillas de Havers",
+    "Fibras reticulares"
+   ],
+   "answer": 1,
+   "explanation": "Las fibras de Sharpey (perforantes) son haces gruesos de colágeno que pasan del periostio a la matriz ósea; también anclan tendones y ligamentos al hueso.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-545c3b65",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cómo se osifican los huesos de la bóveda craneal (calvaria)?",
+   "options": [
+    "Osificación heterotópica",
+    "Osificación endocondral",
+    "Osificación intramembranosa",
+    "Crecimiento cartilaginoso por aposición",
+    "Osificación sesamoidea"
+   ],
+   "answer": 2,
+   "explanation": "La bóveda craneal, los huesos de la cara y la mayor parte de la clavícula se forman directamente del mesénquima por osificación intramembranosa. La base del cráneo, las vértebras y la mayoría de los huesos de los miembros se osifican sobre un modelo cartilaginoso (endocondral).",
+   "entries": [
+    "os-structura",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-64644656",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿La radiografía de qué región se usa con más frecuencia para valorar la edad ósea?",
+   "options": [
+    "Mano y muñeca izquierdas",
+    "Rodilla",
+    "Pelvis",
+    "Cráneo",
+    "Pie"
+   ],
+   "answer": 0,
+   "explanation": "La edad ósea se determina comparando los núcleos de osificación y el estado de las placas de crecimiento en una radiografía de la mano y la muñeca izquierdas con atlas de referencia (Greulich–Pyle).",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-7f45caa6",
+   "group": "Generalidades",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En el adulto, ¿dónde se realizan con más frecuencia el aspirado y la biopsia de médula ósea?",
+   "options": [
+    "Calcáneo",
+    "Clavícula",
+    "Cabeza femoral",
+    "Tibia proximal",
+    "Cresta ilíaca posterior (alrededor de la espina ilíaca posterosuperior)"
+   ],
+   "answer": 4,
+   "explanation": "En el adulto se prefiere la cresta ilíaca posterior porque es segura y rica en médula roja. La tibia proximal se usa en niños pequeños.",
+   "entries": [
+    "iskelet-genel",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-efcc65cb",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en la apófisis mastoides?",
+   "options": [
+    "Temporal",
+    "Masetero",
+    "Trapecio",
+    "Platisma",
+    "Esternocleidomastoideo"
+   ],
+   "answer": 4,
+   "explanation": "El ECM nace del esternón y la clavícula y se inserta en la apófisis mastoides y la parte lateral de la línea nucal superior. La mastoides no existe al nacer y se desarrolla en la infancia por la tracción del músculo.",
+   "entries": [
+    "os-temporale",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-299c3612",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructura NO pasa por el agujero magno?",
+   "options": [
+    "Vena yugular interna",
+    "Arterias vertebrales",
+    "Arteria espinal anterior",
+    "Bulbo raquídeo",
+    "Raíz espinal del nervio accesorio"
+   ],
+   "answer": 0,
+   "explanation": "Por el agujero magno pasan el bulbo y sus meninges, las arterias vertebrales y espinales y las raíces espinales del nervio accesorio. La vena yugular interna empieza en el agujero yugular.",
+   "entries": [
+    "os-occipitale",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-94a4fb4f",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se abre el seno esfenoidal en la cavidad nasal?",
+   "options": [
+    "Meato nasal inferior",
+    "Meato nasal superior",
+    "Receso esfenoetmoidal",
+    "Meato nasal medio",
+    "Nasofaringe"
+   ],
+   "answer": 2,
+   "explanation": "El seno esfenoidal se abre en el receso esfenoetmoidal, por encima y detrás del cornete superior. Las celdillas etmoidales posteriores se abren en el meato superior; los senos frontal, maxilar y etmoidal anterior en el medio; el conducto nasolagrimal en el inferior.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-f4bad9ce",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculos se insertan en la lámina lateral de la apófisis pterigoides del esfenoides?",
+   "options": [
+    "Masetero y temporal",
+    "Digástrico y estilohioideo",
+    "Tensor y elevador del velo del paladar",
+    "Buccinador y constrictor superior de la faringe",
+    "Pterigoideo lateral y pterigoideo medial"
+   ],
+   "answer": 4,
+   "explanation": "La cabeza inferior del pterigoideo lateral nace de la cara externa de la lámina lateral y la cabeza profunda del pterigoideo medial de su cara interna. El tendón del tensor del velo del paladar rodea el gancho de la lámina medial.",
+   "entries": [
+    "os-sphenoidale",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "sk-24639fbf",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es la pared más gruesa de la órbita?",
+   "options": [
+    "Pared lateral",
+    "Suelo",
+    "Pared medial",
+    "Vértice orbitario",
+    "Techo"
+   ],
+   "answer": 0,
+   "explanation": "La pared lateral, formada por el cigomático y el ala mayor del esfenoides, es la más gruesa. La más delgada es la medial (lámina papirácea del etmoides); las fracturas en blow-out afectan sobre todo al suelo.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-fe9c4d6f",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervio pasa por la fisura orbitaria inferior?",
+   "options": [
+    "Nervio infraorbitario",
+    "Nervio troclear",
+    "Nervio lagrimal",
+    "Nervio frontal",
+    "Nervio abducens"
+   ],
+   "answer": 0,
+   "explanation": "El nervio maxilar entra en la órbita desde la fosa pterigopalatina por la fisura orbitaria inferior y pasa a llamarse infraorbitario. Los nervios frontal, lagrimal, troclear y abducens pasan por la fisura orbitaria superior.",
+   "entries": [
+    "orbita",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-50fc7e36",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué orificio comunica la fosa pterigopalatina con la fosa craneal media?",
+   "options": [
+    "Agujero espinoso",
+    "Conducto óptico",
+    "Agujero oval",
+    "Agujero redondo",
+    "Fisura orbitaria superior"
+   ],
+   "answer": 3,
+   "explanation": "El nervio maxilar (V2) pasa de la fosa craneal media a la pterigopalatina por el agujero redondo. Los agujeros oval y espinoso se abren a la fosa infratemporal.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-c03603d8",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Entre las dos mitades de qué hueso está la sutura metópica?",
+   "options": [
+    "Mandíbula",
+    "Parietal",
+    "Esfenoides",
+    "Occipital",
+    "Frontal"
+   ],
+   "answer": 4,
+   "explanation": "Al nacer el frontal tiene dos mitades; la sutura metópica entre ellas suele cerrarse a los 1–2 años. En algunos adultos persiste y puede confundirse con una fractura en la radiografía.",
+   "entries": [
+    "os-frontale",
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-af9c3b69",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Entre qué huesos se sitúa la fontanela posterior?",
+   "options": [
+    "Los dos parietales y el occipital",
+    "Esfenoides y temporal",
+    "Parietal, temporal y occipital",
+    "Los dos frontales y los dos parietales",
+    "Frontal, parietal, temporal y esfenoides"
+   ],
+   "answer": 0,
+   "explanation": "La fontanela posterior, triangular, está en el lambda, entre los dos parietales y el occipital, y se cierra a los 2–3 meses. La anterior está en el bregma, entre frontal y parietales.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-7e5d8299",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué nivel vertebral suele estar el hueso hioides?",
+   "options": [
+    "C1",
+    "C5",
+    "C3",
+    "C6",
+    "T1"
+   ],
+   "answer": 2,
+   "explanation": "El hioides está a la altura de C3. El borde superior del cartílago tiroides corresponde a C4 y el cricoides a C6.",
+   "entries": [
+    "os-hyoideum"
+   ]
+  },
+  {
+   "id": "sk-337e8167",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué grupo de dientes falta en la dentición temporal (de leche)?",
+   "options": [
+    "Premolares",
+    "Incisivos centrales",
+    "Caninos",
+    "Incisivos laterales",
+    "Molares"
+   ],
+   "answer": 0,
+   "explanation": "La dentición temporal tiene 20 dientes: en cada hemiarcada 2 incisivos, 1 canino y 2 molares; no hay premolares temporales. Los premolares permanentes erupcionan en lugar de los molares temporales.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-acf4fff3",
+   "group": "Cráneo (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué diente permanente erupciona primero?",
+   "options": [
+    "1.er molar (hacia los 6 años)",
+    "1.er premolar",
+    "Incisivo central",
+    "Canino",
+    "3.er molar"
+   ],
+   "answer": 0,
+   "explanation": "El primer diente permanente en erupcionar, detrás de los temporales, es el 1.er molar («molar de los 6 años»); el último es el 3.er molar (muela del juicio).",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-5476a288",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Un cuerpo en forma de corazón y un agujero vertebral pequeño y redondo son típicos de qué vértebras?",
+   "options": [
+    "Cervicales",
+    "Lumbares",
+    "Coccígeas",
+    "Sacras",
+    "Torácicas"
+   ],
+   "answer": 4,
+   "explanation": "Las vértebras torácicas tienen cuerpo en forma de corazón y agujero vertebral pequeño y redondo; el cuerpo y las apófisis transversas tienen carillas costales. En las cervicales el agujero es triangular y amplio.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-6bfe54be",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuáles son las curvaturas primarias de la columna vertebral?",
+   "options": [
+    "Cifosis torácica y sacra",
+    "Lordosis lumbar y cifosis sacra",
+    "Lordosis cervical y lumbar",
+    "Lordosis cervical y cifosis torácica",
+    "Cifosis torácica y lordosis lumbar"
+   ],
+   "answer": 0,
+   "explanation": "Las cifosis torácica y sacra, restos de la curva fetal en C, son las curvaturas primarias; las lordosis cervical y lumbar aparecen tras el nacimiento (secundarias).",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-a4798013",
+   "group": "Columna vertebral",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Por qué agujero intervertebral sale el nervio espinal L4?",
+   "options": [
+    "Entre T12 y L1",
+    "Entre L5 y S1",
+    "Entre L4 y L5",
+    "Entre L3 y L4",
+    "Entre L2 y L3"
+   ],
+   "answer": 2,
+   "explanation": "En las regiones torácica y lumbar los nervios espinales salen por debajo de la vértebra del mismo número; L4 pasa por el agujero L4–L5. Sin embargo, una hernia discal posterolateral L4–L5 suele comprimir la raíz siguiente, L5.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-d8cdddd6",
+   "group": "Caja torácica",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en la zona rugosa (tuberosidad) de la cara externa de la 2.ª costilla?",
+   "options": [
+    "Serrato anterior",
+    "Escaleno anterior",
+    "Pectoral menor",
+    "Pectoral mayor",
+    "Subclavio"
+   ],
+   "answer": 0,
+   "explanation": "La 2.ª costilla es atípica: es el doble de larga que la 1.ª y en su cara externa tiene la tuberosidad de la primera digitación del serrato anterior. El pectoral menor se inserta en las costillas 3.ª–5.ª y el escaleno anterior y el subclavio en la 1.ª.",
+   "entries": [
+    "costae-atypicae",
+    "m-serratus-anterior"
+   ]
+  },
+  {
+   "id": "sk-b9394d0e",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Con los brazos colgando, ¿a qué nivel vertebral corresponde el ángulo inferior de la escápula?",
+   "options": [
+    "T2",
+    "T10",
+    "T7",
+    "L1",
+    "T4"
+   ],
+   "answer": 2,
+   "explanation": "El ángulo superior de la escápula está a nivel de T2, el extremo medial de la espina de T3 y el ángulo inferior de T7. El ángulo inferior se usa como referencia en la exploración del tórax y la toracocentesis.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-c935a47a",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Con qué parte del cúbito se articula la tróclea humeral?",
+   "options": [
+    "Cabeza del cúbito",
+    "Escotadura radial",
+    "Escotadura troclear",
+    "Apófisis estiloides cubital",
+    "Tuberosidad cubital"
+   ],
+   "answer": 2,
+   "explanation": "La tróclea humeral, en forma de polea, encaja en la escotadura troclear del cúbito entre el olécranon y la coronoides, formando la articulación humerocubital en bisagra. El cóndilo humeral se articula con la cabeza del radio.",
+   "entries": [
+    "humerus",
+    "ulna",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-fffabda4",
+   "group": "Huesos del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en la tuberosidad del radio?",
+   "options": [
+    "Braquial",
+    "Bíceps braquial",
+    "Tríceps braquial",
+    "Supinador",
+    "Pronador redondo"
+   ],
+   "answer": 1,
+   "explanation": "El tendón del bíceps braquial se inserta en la tuberosidad del radio, bajo el cuello, lo que lo convierte en un potente supinador. El braquial se inserta en la tuberosidad cubital y el pronador redondo en la mitad de la cara lateral del radio.",
+   "entries": [
+    "radius",
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-afaac4c9",
+   "group": "Huesos de la mano",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuáles son las inserciones laterales (radiales) del retináculo flexor?",
+   "options": [
+    "Tubérculo del escafoides y tubérculo del trapecio",
+    "Grande y trapezoide",
+    "Base del 1.er metacarpiano y semilunar",
+    "Pisiforme y gancho del ganchoso",
+    "Estiloides radial y semilunar"
+   ],
+   "answer": 0,
+   "explanation": "El retináculo flexor se inserta lateralmente en los tubérculos del escafoides y del trapecio y medialmente en el pisiforme y el gancho del ganchoso, formando el techo del túnel carpiano.",
+   "entries": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "os-trapezium"
+   ]
+  },
+  {
+   "id": "sk-63af94e3",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué referencia ósea marcan los hoyuelos de la parte baja de la espalda (hoyuelos de Venus) y a qué nivel vertebral?",
+   "options": [
+    "Punto más alto de la cresta ilíaca – L4",
+    "Espina ilíaca posterosuperior – S2",
+    "Espina ilíaca anterosuperior – L4",
+    "Espina isquiática – S3",
+    "Tuberosidad isquiática – S4"
+   ],
+   "answer": 1,
+   "explanation": "Los hoyuelos de la región sacroilíaca marcan las EIPS y corresponden a S2, nivel en el que también terminan el saco dural y el espacio subaracnoideo.",
+   "entries": [
+    "os-coxae",
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-736237ad",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en la línea pectínea del fémur?",
+   "options": [
+    "Vasto medial",
+    "Glúteo mayor",
+    "Aductor largo",
+    "Iliopsoas",
+    "Pectíneo"
+   ],
+   "answer": 4,
+   "explanation": "El pectíneo nace de la cresta pectínea del pubis y se inserta en la línea pectínea, bajo el trocánter menor. El iliopsoas se inserta en el trocánter menor y el glúteo mayor en la tuberosidad glútea.",
+   "entries": [
+    "femur",
+    "m-pectineus"
+   ]
+  },
+  {
+   "id": "sk-fecd544c",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en el tubérculo del aductor del fémur?",
+   "options": [
+    "Aductor mayor (porción isquiotibial)",
+    "Vasto medial",
+    "Aductor largo",
+    "Grácil",
+    "Semimembranoso"
+   ],
+   "answer": 0,
+   "explanation": "La porción vertical (isquiotibial) del aductor mayor, procedente de la tuberosidad isquiática, se inserta en el tubérculo del aductor por encima del epicóndilo medial; la inerva la porción tibial del ciático.",
+   "entries": [
+    "femur",
+    "m-adductor-magnus"
+   ]
+  },
+  {
+   "id": "sk-d46b7610",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué fosita de la cabeza femoral se inserta el ligamento de la cabeza del fémur?",
+   "options": [
+    "Fosa trocantérea",
+    "Fosa acetabular",
+    "Fóvea de la cabeza del fémur",
+    "Línea intertrocantérea",
+    "Fosa intercondílea"
+   ],
+   "answer": 2,
+   "explanation": "El ligamento de la cabeza del fémur va de la escotadura acetabular a la fóvea en el centro de la cabeza femoral; por él discurre la rama acetabular de la arteria obturatriz.",
+   "entries": [
+    "femur",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-3e7d0e42",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué rasgo distingue la pelvis femenina de la masculina?",
+   "options": [
+    "El estrecho superior tiene forma de corazón.",
+    "El ángulo subpubiano es más amplio.",
+    "Las espinas isquiáticas sobresalen más hacia dentro.",
+    "La pelvis es más profunda y estrecha.",
+    "El sacro es más largo y estrecho."
+   ],
+   "answer": 1,
+   "explanation": "La pelvis femenina es más ancha y menos profunda: estrecho superior oval, ángulo subpubiano mayor de 90°, sacro corto y ancho y espinas isquiáticas poco prominentes. Las demás opciones son rasgos masculinos.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-54c3cd19",
+   "group": "Huesos del pie",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Con cuál de los siguientes huesos NO se articula el astrágalo?",
+   "options": [
+    "Tibia",
+    "Cuboides",
+    "Peroné",
+    "Navicular",
+    "Calcáneo"
+   ],
+   "answer": 1,
+   "explanation": "El astrágalo se articula arriba con la tibia y el peroné (tobillo), abajo con el calcáneo (subastragalina) y delante con el navicular. El cuboides está delante del calcáneo.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-d6509a0e",
+   "group": "Huesos del pie",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es el mayor de los tres cuneiformes?",
+   "options": [
+    "Cuneiforme medial",
+    "Cuneiforme intermedio",
+    "Cuboides",
+    "Cuneiforme lateral",
+    "Los tres tienen el mismo tamaño"
+   ],
+   "answer": 0,
+   "explanation": "El cuneiforme medial es el mayor y el intermedio el menor. La cortedad del intermedio permite que la base del 2.º metatarsiano quede encajada entre los cuneiformes medial y lateral.",
+   "entries": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale"
+   ]
+  },
+  {
+   "id": "sk-75fb3209",
+   "group": "Huesos del miembro inferior",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un albañil que cayó desde altura tiene una fractura de talón. ¿Qué lesión asociada debe buscarse siempre?",
+   "options": [
+    "Fractura vertebral toracolumbar",
+    "Fractura del radio distal",
+    "Fractura de cráneo",
+    "Fractura de rótula",
+    "Fractura de clavícula"
+   ],
+   "answer": 0,
+   "explanation": "En una caída sobre los pies la carga se transmite axialmente a la columna; alrededor del 10 % de las fracturas de calcáneo se acompañan de un aplastamiento toracolumbar (sobre todo L1), que no debe pasarse por alto.",
+   "entries": [
+    "calcaneus",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-32bbaef0",
+   "group": "Caja torácica",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Tras un accidente de tráfico se detecta una fractura de la 1.ª costilla. ¿Qué debe sugerir primero?",
+   "options": [
+    "Osteoporosis",
+    "Una fractura simple sin importancia",
+    "Traumatismo de alta energía y lesión de la arteria subclavia y el plexo braquial subyacentes",
+    "Fractura patológica (metástasis)",
+    "Costocondritis"
+   ],
+   "answer": 2,
+   "explanation": "La 1.ª costilla es corta, gruesa y protegida, y solo se fractura con traumatismos de alta energía. Como la cruzan la arteria y la vena subclavias y el tronco inferior del plexo braquial, hay que buscar lesiones vasculares y nerviosas.",
+   "entries": [
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-26bde07f",
+   "group": "Generalidades",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué conductos unen perpendicularmente los conductos de Havers entre sí y con el periostio?",
+   "options": [
+    "Canalículos",
+    "Fibras de Sharpey",
+    "Lagunas",
+    "Conductos de Volkmann",
+    "Conducto nutricio"
+   ],
+   "answer": 3,
+   "explanation": "Los conductos de Volkmann son perpendiculares al eje del hueso y unen los vasos de los conductos de Havers entre sí y con los vasos periósticos y endósticos. Los canalículos son conductillos que alojan las prolongaciones de los osteocitos.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-eddc1dd9",
+   "group": "Generalidades",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el tipo más frecuente de fractura de la placa de crecimiento en niños (Salter–Harris)?",
+   "options": [
+    "Tipo II",
+    "Tipo I",
+    "Tipo IV",
+    "Tipo III",
+    "Tipo V"
+   ],
+   "answer": 0,
+   "explanation": "En el tipo II de Salter–Harris el trazo atraviesa la placa y sale por la metáfisis (fragmento de Thurston–Holland); es el más frecuente y de buen pronóstico. El tipo V (compresión) es el de peor pronóstico y suele diagnosticarse tarde.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-05b258c2",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué nervio NO pasa por el anillo tendinoso común (anillo de Zinn)?",
+   "options": [
+    "Nervio oculomotor",
+    "Nervio abducens",
+    "Nervio nasociliar",
+    "Nervio troclear",
+    "Nervio óptico"
+   ],
+   "answer": 3,
+   "explanation": "Por el anillo de Zinn pasan el nervio óptico y la arteria oftálmica (conducto óptico), las dos ramas del oculomotor, el nasociliar y el abducens. El troclear, el frontal y el lagrimal pasan por encima, fuera del anillo.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-7c5f6944",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué orificio comunica la fosa pterigopalatina con la cavidad nasal?",
+   "options": [
+    "Fisura orbitaria inferior",
+    "Fisura pterigomaxilar",
+    "Conducto palatino mayor",
+    "Agujero esfenopalatino",
+    "Conducto pterigoideo"
+   ],
+   "answer": 3,
+   "explanation": "El agujero esfenopalatino comunica la fosa pterigopalatina con la parte posterosuperior de la cavidad nasal; por él pasan la arteria esfenopalatina y los nervios nasales. La fisura pterigomaxilar se abre a la fosa infratemporal.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1960c9a2",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué nervios se unen para formar el nervio del conducto pterigoideo (nervio vidiano)?",
+   "options": [
+    "Cuerda del tímpano y nervio lingual",
+    "Nervio petroso profundo y nervio carotídeo interno",
+    "Nervios petrosos mayor y menor",
+    "Nervio petroso menor y cuerda del tímpano",
+    "Nervio petroso mayor y nervio petroso profundo"
+   ],
+   "answer": 4,
+   "explanation": "El nervio petroso mayor (fibras parasimpáticas del VII) y el petroso profundo (fibras simpáticas del plexo carotídeo) se unen para formar el nervio vidiano, que llega al ganglio pterigopalatino.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1f5f4838",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué forma de cabeza produce el cierre prematuro de la sutura sagital (craneosinostosis)?",
+   "options": [
+    "Trigonocefalia (frente triangular)",
+    "Braquicefalia (cabeza corta y ancha)",
+    "Oxicefalia (cráneo en torre)",
+    "Plagiocefalia (cabeza asimétrica)",
+    "Escafocefalia (cabeza larga y estrecha)"
+   ],
+   "answer": 4,
+   "explanation": "El crecimiento se detiene en perpendicular a la sutura cerrada y aumenta en paralelo a ella. En la sinostosis sagital la cabeza no puede ensancharse y se alarga (escafocefalia); es la craneosinostosis más frecuente. La sinostosis metópica produce trigonocefalia.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-3de5d43b",
+   "group": "Cráneo (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Por dónde pasa el trazo de fractura en una fractura de Le Fort I?",
+   "options": [
+    "Por las órbitas, separando por completo la cara del cráneo.",
+    "Por el cuello de la mandíbula.",
+    "De forma piramidal por la raíz nasal y el suelo orbitario.",
+    "Horizontalmente a través del maxilar, justo por encima del suelo nasal.",
+    "Solo por el arco cigomático."
+   ],
+   "answer": 3,
+   "explanation": "Le Fort I separa la parte inferior del maxilar con los alvéolos dentarios (paladar flotante). Le Fort II es piramidal (raíz nasal, suelo orbitario) y Le Fort III una disyunción craneofacial (a través de las órbitas y los arcos cigomáticos).",
+   "entries": [
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-0ba9ff30",
+   "group": "Columna vertebral",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Entre qué vértebras sale el nervio espinal C5?",
+   "options": [
+    "Entre C4 y C5",
+    "Entre C7 y T1",
+    "Entre C6 y C7",
+    "Entre C5 y C6",
+    "Entre C3 y C4"
+   ],
+   "answer": 0,
+   "explanation": "En la región cervical hay 8 nervios y 7 vértebras; los nervios C1–C7 salen por encima de la vértebra del mismo número y C8 entre C7 y T1. Por eso una hernia C5–C6 comprime la raíz C6.",
+   "entries": [
+    "vertebrae-cervicales",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-0380b366",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Aproximadamente a qué edad se osifica el cartílago en Y (trirradiado) que une los tres huesos del acetábulo?",
+   "options": [
+    "1–2 años",
+    "Después de los 40",
+    "15–17 años",
+    "25–30 años",
+    "5–7 años"
+   ],
+   "answer": 2,
+   "explanation": "El ilion, el isquion y el pubis están separados en el acetábulo por un cartílago en Y; se osifica al final de la pubertad (15–17 años) y el coxal se convierte en un solo hueso.",
+   "entries": [
+    "acetabulum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-57138661",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el diámetro anteroposterior más estrecho del canal del parto?",
+   "options": [
+    "Conjugado diagonal",
+    "Diámetro biespinoso",
+    "Conjugado obstétrico",
+    "Conjugado anatómico (verdadero)",
+    "Diámetro transverso"
+   ],
+   "answer": 2,
+   "explanation": "El conjugado obstétrico es la distancia entre el promontorio y el punto más cercano de la cara posterior de la sínfisis y es el diámetro anteroposterior más estrecho del estrecho superior. En la exploración se mide el conjugado diagonal y se restan 1,5–2 cm.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-082df539",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué músculo se inserta en la fosa trocantérea del fémur?",
+   "options": [
+    "Cuadrado femoral",
+    "Glúteo medio",
+    "Piriforme",
+    "Iliopsoas",
+    "Obturador externo"
+   ],
+   "answer": 4,
+   "explanation": "La fosa trocantérea, en la cara interna del trocánter mayor, es la inserción del obturador externo. El piriforme se inserta en el borde superior del trocánter mayor y el cuadrado femoral en el tubérculo cuadrado.",
+   "entries": [
+    "femur",
+    "m-obturator-externus"
+   ]
+  },
+  {
+   "id": "sk-2b105744",
+   "group": "Huesos del pie",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es la razón principal del alto riesgo de necrosis avascular tras las fracturas del cuello del astrágalo?",
+   "options": [
+    "La placa de crecimiento del astrágalo permanece abierta en el adulto",
+    "El astrágalo solo lo irriga la arteria peronea",
+    "El astrágalo tiene muchas inserciones musculares",
+    "La sangre llega al cuerpo del astrágalo de forma retrógrada desde el cuello",
+    "El periostio del astrágalo es grueso"
+   ],
+   "answer": 3,
+   "explanation": "El astrágalo está cubierto en gran parte por cartílago y carece de inserciones musculares; el cuerpo recibe sangre sobre todo por ramas de la arteria del conducto tarsiano, de forma retrógrada desde el cuello. Una fractura del cuello interrumpe estos vasos y causa necrosis del cuerpo (Hawkins).",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-6d6ca7d5",
+   "group": "Huesos de la mano",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En la fractura de Bennett, ¿qué músculo tracciona del fragmento principal (distal) hacia proximal y lateral?",
+   "options": [
+    "Aductor del pulgar",
+    "Flexor largo del pulgar",
+    "Abductor largo del pulgar",
+    "Oponente del pulgar",
+    "Extensor largo del pulgar"
+   ],
+   "answer": 2,
+   "explanation": "La fractura de Bennett es una fractura-luxación intraarticular de la base del 1.er metacarpiano. El pequeño fragmento medial, sujeto por el ligamento oblicuo anterior, queda en su sitio; el abductor largo del pulgar, insertado en la base, tracciona del fragmento principal hacia proximal y lateral.",
+   "entries": [
+    "ossa-metacarpi",
+    "m-abductor-pollicis-longus"
+   ]
+  },
+  {
+   "id": "sk-786f3165",
+   "group": "Huesos del miembro inferior",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un motorista presenta una fractura del anillo pélvico con inestabilidad hemodinámica. ¿Cuál es la fuente de sangrado más frecuente en las fracturas pélvicas?",
+   "options": [
+    "Plexos venosos presacros y pélvicos y superficies óseas fracturadas",
+    "Arteria femoral",
+    "Aorta abdominal",
+    "Vena cava inferior",
+    "Arteria ilíaca común"
+   ],
+   "answer": 0,
+   "explanation": "Alrededor del 80–90 % de las hemorragias de las fracturas pélvicas proceden de los plexos venosos y del hueso esponjoso fracturado; por eso cerrar el anillo con un cinturón pélvico es la primera medida. El sangrado arterial se trata con angioembolización.",
+   "entries": [
+    "pelvis"
+   ]
+  }
+ ]
+}

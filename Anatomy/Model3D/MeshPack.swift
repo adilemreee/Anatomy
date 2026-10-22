@@ -45,8 +45,8 @@ nonisolated struct PartInfo: Decodable, Hashable, Sendable {
 
     var sideTitle: String? {
         switch side {
-        case "l": "Sol"
-        case "r": "Sağ"
+        case "l": String(localized: "Sol")
+        case "r": String(localized: "Sağ")
         default: nil
         }
     }

@@ -1,0 +1,289 @@
+{
+ "eklem-tipleri": {
+  "tr": "Einteilung der Gelenke",
+  "summary": "Nach dem verbindenden Gewebe unterscheidet man faserige, knorpelige und Synovialgelenke. Synovialgelenke sind am beweglichsten und werden nach der Form ihrer Gelenkflächen unterteilt.",
+  "facts": [
+   "Suturen (Schädelnähte), Syndesmosen (z. B. Syndesmosis tibiofibularis), Gomphosen (Zahn–Alveole)",
+   "Synchondrosen (hyaliner Knorpel; z. B. Wachstumsfuge, 1. Rippe–Sternum) und Symphysen (Faserknorpel; z. B. Schambeinfuge, Bandscheiben)",
+   "Besitzen Gelenkhöhle, Gelenkknorpel, Kapsel, Synovialmembran und Synovialflüssigkeit",
+   "Plangelenk, Scharniergelenk (Ellenbogen), Radgelenk (proximales Radioulnargelenk), Sattelgelenk (Daumen-CMC), Eigelenk (Handgelenk), Kugelgelenk (Schulter, Hüfte), bikondyläres Gelenk (Knie)"
+  ],
+  "sections": [
+   [
+    "Bewegungsachsen",
+    "Einachsige Gelenke (Scharnier-, Radgelenk) bewegen sich in einer Ebene, zweiachsige (Sattel-, Eigelenk) in zwei und dreiachsige (Kugelgelenk) in allen Ebenen."
+   ],
+   [
+    "Hilton-Regel",
+    "Die Nerven, die die ein Gelenk überquerenden Muskeln versorgen, versorgen auch das Gelenk und die darüberliegende Haut."
+   ]
+  ],
+  "clinical": [
+   "Arthrose ist eine Degeneration des Gelenkknorpels, rheumatoide Arthritis eine Autoimmunentzündung der Synovialmembran."
+  ],
+  "tus": [
+   "Faserige Gelenke: Sutur, Syndesmose, Gomphose; knorpelige: Synchondrose (hyalin), Symphyse (Faserknorpel); alle übrigen sind Synovialgelenke.",
+   "Synovialgelenktypen: Plan-, Scharnier-, Rad-, Ei- (Kondylen-), Sattel- und Kugelgelenk; bikondyläre Gelenke (Knie, Kiefergelenk) werden gesondert gezählt."
+  ],
+  "aliases": [
+   "Gelenktypen"
+  ]
+ },
+ "art-temporomandibularis": {
+  "tr": "Kiefergelenk",
+  "summary": "Synovialgelenk zwischen dem Processus condylaris des Unterkiefers und Fossa mandibularis sowie Tuberculum articulare des Schläfenbeins. Ein Faserknorpeldiskus teilt es in eine obere und eine untere Kammer.",
+  "facts": [
+   "Synovial; modifiziertes Scharniergelenk (Dreh-Gleit-Gelenk)",
+   "Caput mandibulae – Fossa mandibularis und Tuberculum articulare (Os temporale)",
+   "Faserknorpel; Gleitbewegung (Translation) in der oberen, Scharnierbewegung (Rotation) in der unteren Kammer",
+   "Lig. laterale (temporomandibulare), Lig. sphenomandibulare, Lig. stylomandibulare",
+   "N. auriculotemporalis und N. massetericus (V3)",
+   "Öffnen und Schließen, Vor- und Rückschub, Mahlbewegungen"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei übermäßiger Mundöffnung (Gähnen) kann der Unterkieferkopf vor das Tuberculum articulare rutschen, der Mund lässt sich nicht mehr schließen (Kiefergelenkluxation).",
+   "Kiefergelenkstörungen (Diskusverlagerung, Knacken, Schmerz) hängen mit Zähneknirschen und Stress zusammen."
+  ],
+  "tus": [
+   "Das Kiefergelenk ist ein Dreh-Gleit-Gelenk; seine Gelenkflächen bestehen aus Faserknorpel.",
+   "Das Lig. laterale (temporomandibulare) ist die einzige echte Kapselverstärkung; Lig. sphenomandibulare und stylomandibulare sind Hilfsbänder."
+  ],
+  "aliases": [
+   "Articulatio temporomandibularis",
+   "CMD"
+  ]
+ },
+ "discus-intervertebralis": {
+  "tr": "Bandscheibe",
+  "summary": "Faserknorpelige Polster zwischen benachbarten Wirbelkörpern mit ringförmigem Anulus fibrosus außen und gallertigem Nucleus pulposus innen. Sie machen etwa ein Viertel der Länge der Wirbelsäule aus.",
+  "facts": [
+   "Symphyse (sekundär knorpeliges Gelenk)",
+   "Anulus fibrosus (konzentrische Kollagenlamellen), Nucleus pulposus (Chordarest, 80 % Wasser)",
+   "23 Bandscheiben; keine zwischen C1 und C2 sowie in Kreuz- und Steißbein",
+   "Beim Erwachsenen weitgehend gefäßlos; Ernährung durch Diffusion über die Endplatten"
+  ],
+  "sections": [
+   [
+    "Altersveränderungen",
+    "Mit dem Alter verliert der Nucleus pulposus Wasser und die Bandscheiben an Höhe – Grundlage des Größenverlusts und der degenerativen Bandscheibenerkrankung."
+   ]
+  ],
+  "clinical": [
+   "Beim Bandscheibenvorfall reißt der Nucleus pulposus meist posterolateral durch den Anulus und drückt auf eine Nervenwurzel; lumbal betrifft die Bandscheibe L4/L5 die Wurzel L5, L5/S1 die Wurzel S1.",
+   "An der Halswirbelsäule komprimiert die Bandscheibe C5/C6 die Wurzel C6."
+  ],
+  "tus": [
+   "Bandscheiben machen etwa 1/4 der Wirbelsäulenlänge aus; zwischen Atlas und Axis gibt es keine.",
+   "Zervikal komprimiert ein Vorfall die gleichnamige Wurzel (C5/C6 → C6), lumbal die nächsttiefere (L4/L5 → L5)."
+  ],
+  "aliases": [
+   "Discus intervertebralis",
+   "Bandscheibenvorfall"
+  ]
+ },
+ "ligg-columnae": {
+  "tr": "Bänder der Wirbelsäule",
+  "summary": "Bänder, die die Wirbel verbinden und die Wirbelsäule stabilisieren. Lange Bänder ziehen über die ganze Wirbelsäule, kurze zwischen benachbarten Wirbeln.",
+  "facts": [
+   "Lig. longitudinale anterius (Vorderseite der Wirbelkörper – begrenzt Hyperextension), Lig. longitudinale posterius (Rückseite der Körper im Wirbelkanal – begrenzt Hyperflexion), Lig. supraspinale, Lig. nuchae (am Hals)",
+   "Ligg. flava (zwischen den Bögen, gelbes elastisches Band), Ligg. interspinalia, Ligg. intertransversaria",
+   "Dreieckiges Band von C7 zur Protuberantia occipitalis externa; Ursprung für M. trapezius und M. splenius"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei der Lumbalpunktion durchdringt die Nadel Haut, Lig. supraspinale, Lig. interspinale, Lig. flavum, Epiduralraum und Dura-Arachnoidea; nach dem Lig. flavum spürt man einen Widerstandsverlust.",
+   "Bei Morbus Bechterew verknöchern die Bänder zur „Bambusstab“-Wirbelsäule."
+  ],
+  "tus": [
+   "Das Lig. longitudinale anterius begrenzt die Hyperextension, das posterius die Hyperflexion.",
+   "Das Lig. nuchae ist die dreieckige Fortsetzung des Lig. supraspinale am Hals; Ursprung für M. trapezius und M. splenius."
+  ],
+  "aliases": [
+   "Ligamentum flavum",
+   "Längsband"
+  ]
+ },
+ "artt-thoracis": {
+  "tr": "Gelenke des Brustkorbs",
+  "summary": "Die Gelenke der Rippen mit den Wirbeln (kostovertebral) und dem Brustbein (sternokostal). Sie erlauben die Erweiterung des Brustkorbs bei der Atmung.",
+  "facts": [
+   "Art. capitis costae (Rippenkopf – zwei benachbarte Wirbelkörper) und Art. costotransversaria (Tuberculum costae – Querfortsatz)",
+   "1. Rippe: Synchondrose; Rippen 2–7: synoviale Plangelenke",
+   "Artt. interchondrales (zwischen den Knorpeln 6–9), Artt. costochondrales (Rippe–Knorpel; hyalinknorpelige Verbindung)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Die oberen Rippen bewegen sich wie ein Pumpenschwengel (sagittaler Durchmesser), die unteren wie ein Eimerhenkel (querer Durchmesser).",
+   "Die 11. und 12. Rippe haben kein Kostotransversalgelenk."
+  ],
+  "aliases": []
+ },
+ "art-sternoclavicularis": {
+  "tr": "Sternoklavikulargelenk",
+  "summary": "Gelenk zwischen dem medialen Schlüsselbeinende und Manubrium sowie 1. Rippenknorpel. Es ist das einzige echte Gelenk zwischen oberer Extremität und Rumpf.",
+  "facts": [
+   "Synoviales Sattelgelenk (funktionell Kugelgelenk); enthält einen Discus articularis",
+   "Lig. sternoclaviculare anterius und posterius, Lig. interclaviculare, Lig. costoclaviculare (das stärkste)",
+   "Heben–Senken, Vor- und Rückführen sowie Rotation des Schlüsselbeins"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Luxation nach dorsal ist selten, aber ein Notfall, weil sie die dahinterliegenden großen Gefäße und die Trachea komprimieren kann."
+  ],
+  "tus": [
+   "Der Diskus verhindert ein Abgleiten der Klavikula nach medial; das stärkste Band ist das Lig. costoclaviculare.",
+   "Die dorsale Luxation ist selten, aber ein Notfall, da sie Trachea und große Gefäße komprimieren kann."
+  ],
+  "aliases": [
+   "SC-Gelenk"
+  ]
+ },
+ "art-acromioclavicularis": {
+  "tr": "Akromioklavikulargelenk",
+  "summary": "Kleines Plangelenk zwischen dem lateralen Schlüsselbeinende und dem Acromion. Seine Stabilität beruht vor allem auf dem außerhalb gelegenen Lig. coracoclaviculare.",
+  "facts": [
+   "Synoviales Plangelenk",
+   "Lig. acromioclaviculare; Lig. coracoclaviculare (Lig. trapezoideum und conoideum) – Hauptstabilisator",
+   "Gleit- und Drehbewegungen des Schulterblatts auf der Klavikula"
+  ],
+  "sections": [],
+  "clinical": [
+   "Beim Sturz auf die Schulter kann das AC-Gelenk gesprengt werden (anders als eine Schulterluxation); reißt auch das Lig. coracoclaviculare, steht das Schlüsselbeinende deutlich hoch (Klaviertastenphänomen)."
+  ],
+  "tus": [
+   "Ein synoviales Plangelenk; es erlaubt die Drehung des Schulterblatts auf dem Schlüsselbein.",
+   "Ab Rockwood-Typ III ist auch das Lig. coracoclaviculare gerissen."
+  ],
+  "aliases": [
+   "AC-Gelenk",
+   "Schultereckgelenk"
+  ]
+ },
+ "art-humeri": {
+  "tr": "Schultergelenk",
+  "summary": "Kugelgelenk zwischen Oberarmkopf und Cavitas glenoidalis des Schulterblatts. Es ist das beweglichste und am häufigsten luxierte Gelenk des Körpers; seine Stabilität hängt vor allem von der Rotatorenmanschette ab.",
+  "facts": [
+   "Synoviales Kugelgelenk – dreiachsig",
+   "Caput humeri – Cavitas glenoidalis (durch das Labrum glenoidale vertieft); nur 1/3 des Kopfes hat Pfannenkontakt",
+   "Ligg. glenohumeralia (superius, medium, inferius), Lig. coracohumerale, Lig. transversum humeri, Lig. coracoacromiale (Schulterdach)",
+   "Rotatorenmanschette (Supraspinatus, Infraspinatus, Teres minor, Subscapularis), lange Bizepssehne, Labrum",
+   "Flexion–Extension, Abduktion–Adduktion, Innen- und Außenrotation, Zirkumduktion",
+   "N. axillaris, N. suprascapularis, N. pectoralis lateralis"
+  ],
+  "sections": [
+   [
+    "Kapsel",
+    "Die Kapsel ist weit und unten (Recessus axillaris) am schwächsten; die lange Bizepssehne verläuft durch die Kapsel."
+   ]
+  ],
+  "clinical": [
+   "95 % der Schulterluxationen erfolgen nach vorn unten; der N. axillaris kann geschädigt werden. Rezidivierende Luxationen führen zum Abriss des vorderen unteren Labrums (Bankart-Läsion) und zur Impression am hinteren lateralen Humeruskopf (Hill-Sachs-Läsion).",
+   "Bei der Frozen Shoulder (adhäsive Kapsulitis) verdickt und schrumpft die Kapsel, alle Bewegungen sind eingeschränkt.",
+   "SLAP-Läsion: Abriss des oberen Labrums am Ursprung der Bizepssehne."
+  ],
+  "tus": [
+   "Die Stabilität des Schultergelenks beruht mehr auf der Rotatorenmanschette als auf dem Knochen.",
+   "Bei vorderer Luxation entstehen Hill-Sachs-Läsion (Delle hinten oben am Kopf) und Bankart-Läsion (Abriss des vorderen unteren Labrums)."
+  ],
+  "aliases": [
+   "Schulter",
+   "Glenohumeralgelenk"
+  ]
+ },
+ "art-cubiti": {
+  "tr": "Ellenbogengelenk",
+  "summary": "Zusammengesetztes Gelenk zwischen Humerus, Ulna und Radius in einer gemeinsamen Kapsel, bestehend aus Humeroulnar-, Humeroradial- und proximalem Radioulnargelenk.",
+  "facts": [
+   "Zusammengesetztes Synovialgelenk: Art. humeroulnaris (Scharnier), Art. humeroradialis (Kugel), Art. radioulnaris proximalis (Rad)",
+   "Lig. collaterale ulnare (medial), Lig. collaterale radiale (lateral), Lig. anulare radii (Ring um das Radiusköpfchen)",
+   "Flexion–Extension (0–145°); Pronation–Supination im proximalen Radioulnargelenk",
+   "In Streckung ein nach außen offener Winkel von 10–15° zwischen Ober- und Unterarm (bei Frauen größer)"
+  ],
+  "sections": [
+   [
+    "Ellenbeuge",
+    "In der dreieckigen Grube vor dem Ellenbogen liegen von lateral nach medial Bizepssehne, A. brachialis und N. medianus. Oberflächlich wird die V. mediana cubiti zur Blutentnahme genutzt."
+   ]
+  ],
+  "clinical": [
+   "Ellenbogenluxationen erfolgen meist nach hinten.",
+   "Tennisellenbogen (Epicondylitis lateralis) und Golferellenbogen (Epicondylitis medialis) sind Überlastungsschäden der Sehnenursprünge.",
+   "Bei Kindern kann das Radiusköpfchen aus dem Lig. anulare gleiten (Chassaignac-Lähmung)."
+  ],
+  "tus": [
+   "Ellenbogenluxationen erfolgen meist nach dorsolateral; die Störung des Dreiecks (Olecranon und Epikondylen) unterscheidet Luxation und Fraktur.",
+   "In Streckung liegen Olecranon und Epikondylen auf einer Linie, in Beugung bilden sie ein Dreieck (Hueter-Dreieck)."
+  ],
+  "aliases": [
+   "Ellenbogen"
+  ]
+ },
+ "artt-radioulnares": {
+  "tr": "Radioulnargelenke",
+  "summary": "Die beiden Synovialgelenke zwischen oberem und unterem Ende von Radius und Ulna samt der Membrana interossea zwischen den Schäften. Gemeinsam ermöglichen sie Pronation und Supination.",
+  "facts": [
+   "Radgelenk; das Radiusköpfchen dreht sich im Lig. anulare in der Incisura radialis ulnae",
+   "Radgelenk; Caput ulnae – Incisura ulnaris radii; verstärkt durch den Discus articularis (Teil des TFCC)",
+   "Ihre Fasern ziehen vom Radius schräg nach unten zur Ulna; sie leiten Kräfte von Hand und Radius auf die Ulna",
+   "Pronation (M. pronator teres, M. pronator quadratus) und Supination (M. supinator, M. biceps brachii); insgesamt etwa 150°"
+  ],
+  "sections": [],
+  "clinical": [
+   "Verletzungen des triangulären fibrokartilaginären Komplexes (TFCC) sind eine häufige Ursache ulnarseitiger Handgelenkschmerzen."
+  ],
+  "tus": [
+   "Proximal dreht sich das Radiusköpfchen im Lig. anulare, distal dreht sich der Radius um den Ulnakopf.",
+   "Die Fasern der Membrana interossea ziehen vom Radius schräg nach unten zur Ulna und leiten Lasten von der Hand auf die Ulna."
+  ],
+  "aliases": []
+ },
+ "art-radiocarpalis": {
+  "tr": "Handgelenk (Radiokarpalgelenk)",
+  "summary": "Eigelenk zwischen dem unteren Radiusende samt Discus articularis und der proximalen Handwurzelreihe (Kahn-, Mond-, Dreiecksbein). Die Ulna ist nicht direkt beteiligt.",
+  "facts": [
+   "Synoviales Eigelenk (zweiachsig)",
+   "Facies articularis carpalis radii und Discus articularis – Os scaphoideum, Os lunatum, Os triquetrum",
+   "Lig. radiocarpale palmare und dorsale, Lig. ulnocarpale palmare, Lig. collaterale carpi radiale und ulnare",
+   "Flexion–Extension, Radial- und Ulnarabduktion, Zirkumduktion; das Mediokarpalgelenk trägt viel zur Bewegung bei"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Ruptur des skapholunären Bandes ist die häufigste Ursache der Handgelenkinstabilität (Terry-Thomas-Zeichen: Spalt zwischen Kahn- und Mondbein).",
+   "Ein Handgelenkganglion ist eine zystische Schwellung, die von der Gelenkkapsel ausgeht."
+  ],
+  "tus": [
+   "Das Radiokarpalgelenk ist ein Eigelenk: Flexion–Extension und Radial-/Ulnarabduktion.",
+   "Die Ulnarabduktion ist größer als die Radialabduktion, weil der Processus styloideus radii weiter nach distal reicht."
+  ],
+  "aliases": [
+   "Handgelenk"
+  ]
+ },
+ "artt-manus": {
+  "tr": "Gelenke der Hand",
+  "summary": "Die Gelenke zwischen Handwurzel und Mittelhand (Karpometakarpalgelenke), Mittelhand und Fingern (Metakarpophalangealgelenke) sowie zwischen den Phalangen (Interphalangealgelenke).",
+  "facts": [
+   "Sattelgelenk am Daumen (Opposition); CMC 2–3 nahezu unbeweglich, CMC 4–5 wenig beweglich",
+   "Kondylengelenke; Flexion–Extension und Abduktion–Adduktion; palmare Platte und Kollateralbänder",
+   "Scharniergelenke; nur Flexion–Extension",
+   "Ligg. collateralia, Ligg. palmaria (palmare Platte), Ligg. metacarpalia transversa profunda"
+  ],
+  "sections": [],
+  "clinical": [
+   "Skidaumen: Riss des ulnaren Seitenbands am Daumengrundgelenk.",
+   "Bei rheumatoider Arthritis entstehen Ulnardeviation in den MCP-Gelenken, Schwanenhals- und Knopflochdeformitäten."
+  ],
+  "tus": [
+   "Das 1. CMC-Gelenk ist ein Sattelgelenk und ermöglicht die Opposition; CMC 2–5 sind Plangelenke.",
+   "Die Kollateralbänder der MCP-Gelenke sind in Beugung gespannt; deshalb wird die Hand in MCP-Beugung ruhiggestellt (Intrinsic-plus)."
+  ],
+  "aliases": [
+   "Fingergelenke",
+   "MCP",
+   "PIP",
+   "DIP"
+  ]
+ }
+}

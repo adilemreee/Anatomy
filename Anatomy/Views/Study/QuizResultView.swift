@@ -18,10 +18,10 @@ struct QuizResultView: View {
         var id: String { rawValue }
         var title: String {
             switch self {
-            case .all: "Tümü"
-            case .wrong: "Yanlış"
-            case .blank: "Boş"
-            case .correct: "Doğru"
+            case .all: String(localized: "Tümü")
+            case .wrong: String(localized: "Yanlış")
+            case .blank: String(localized: "Boş")
+            case .correct: String(localized: "Doğru")
             }
         }
     }
@@ -36,7 +36,7 @@ struct QuizResultView: View {
                         ProgressRing(value: ratio, color: color(for: ratio), lineWidth: 12)
                             .frame(width: 150, height: 150)
                         VStack(spacing: 0) {
-                            Text("%\(Int((ratio * 100).rounded()))")
+                            Text(ratio.formatted(.percent.precision(.fractionLength(0))))
                                 .font(.system(size: 40, weight: .bold, design: .rounded))
                                 .foregroundStyle(Theme.textPrimary)
                             Text("başarı")
@@ -47,17 +47,17 @@ struct QuizResultView: View {
                     Text(headline(ratio))
                         .font(.title2.weight(.bold))
                         .foregroundStyle(Theme.textPrimary)
-                    Text("\(total) soru · \(session.isExam ? "deneme sınavı" : "pratik")")
+                    Text("\(total) soru · \(session.isExam ? String(localized: "deneme sınavı") : String(localized: "pratik"))")
                         .font(.subheadline)
                         .foregroundStyle(Theme.textSecondary)
                 }
                 .padding(.top, 8)
 
                 HStack(spacing: 10) {
-                    tile("\(session.correctCount)", "Doğru", Theme.success)
-                    tile("\(session.wrongCount)", "Yanlış", Theme.danger)
-                    tile("\(session.blankCount)", "Boş", Theme.textSecondary)
-                    tile(String(format: "%.2f", session.net), "Net", Theme.accent)
+                    tile("\(session.correctCount)", String(localized: "Doğru"), Theme.success)
+                    tile("\(session.wrongCount)", String(localized: "Yanlış"), Theme.danger)
+                    tile("\(session.blankCount)", String(localized: "Boş"), Theme.textSecondary)
+                    tile(String(format: "%.2f", session.net), String(localized: "Net"), Theme.accent)
                 }
 
                 HStack {
@@ -72,7 +72,7 @@ struct QuizResultView: View {
                 if session.bySystem.count > 1 {
                     Card {
                         VStack(alignment: .leading, spacing: 12) {
-                            Eyebrow(text: "Sistemlere göre")
+                            Eyebrow(text: String(localized: "Sistemlere göre"))
                             ForEach(session.bySystem, id: \.system) { row in
                                 let system = app.store.system(row.system)
                                 HStack(spacing: 10) {
@@ -95,7 +95,7 @@ struct QuizResultView: View {
                 }
 
                 VStack(alignment: .leading, spacing: 12) {
-                    SectionHeader(title: "Soruları incele")
+                    SectionHeader(title: String(localized: "Soruları incele"))
                     Picker("Filtre", selection: $filter) {
                         ForEach(Filter.allCases) { Text($0.title).tag($0) }
                     }
@@ -127,7 +127,7 @@ struct QuizResultView: View {
                 let wrong = session.questions.indices.filter { session.isCorrect($0) != true }
                 if !wrong.isEmpty {
                     Button {
-                        app.startQuiz(title: "Yanlış ve boşlar", questions: wrong.map { session.questions[$0] })
+                        app.startQuiz(title: String(localized: "Yanlış ve boşlar"), questions: wrong.map { session.questions[$0] })
                     } label: {
                         Label("Yanlış ve boşları tekrar çöz (\(wrong.count))", systemImage: "arrow.counterclockwise")
                     }
@@ -204,10 +204,10 @@ struct QuizResultView: View {
 
     private func headline(_ ratio: Double) -> String {
         switch ratio {
-        case 0.9...: "Mükemmel!"
-        case 0.7..<0.9: "Çok iyi"
-        case 0.5..<0.7: "İyi gidiyorsun"
-        default: "Tekrar zamanı"
+        case 0.9...: String(localized: "Mükemmel!")
+        case 0.7..<0.9: String(localized: "Çok iyi")
+        case 0.5..<0.7: String(localized: "İyi gidiyorsun")
+        default: String(localized: "Tekrar zamanı")
         }
     }
 }

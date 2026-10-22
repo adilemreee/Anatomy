@@ -24,9 +24,9 @@ final class PurchaseStore {
 
         var title: String {
             switch self {
-            case .yearly: "Yıllık"
-            case .monthly: "Aylık"
-            case .lifetime: "Ömür boyu"
+            case .yearly: String(localized: "Yıllık")
+            case .monthly: String(localized: "Aylık")
+            case .lifetime: String(localized: "Ömür boyu")
             }
         }
     }
@@ -74,7 +74,7 @@ final class PurchaseStore {
             }
             products = map
         } catch {
-            lastError = "Ürünler yüklenemedi. İnternet bağlantını kontrol et."
+            lastError = String(localized: "Ürünler yüklenemedi. İnternet bağlantını kontrol et.")
         }
     }
 
@@ -95,7 +95,7 @@ final class PurchaseStore {
     @discardableResult
     func purchase(_ plan: Plan) async -> Bool {
         guard let product = products[plan] else {
-            lastError = "Bu plan şu anda kullanılamıyor."
+            lastError = String(localized: "Bu plan şu anda kullanılamıyor.")
             return false
         }
         lastError = nil
@@ -107,14 +107,14 @@ final class PurchaseStore {
                 }
                 await refreshEntitlements()
             case .pending:
-                lastError = "Satın alma onay bekliyor."
+                lastError = String(localized: "Satın alma onay bekliyor.")
             case .userCancelled:
                 break
             @unknown default:
                 break
             }
         } catch {
-            lastError = "Satın alma tamamlanamadı."
+            lastError = String(localized: "Satın alma tamamlanamadı.")
         }
         return isPremium
     }
@@ -124,9 +124,9 @@ final class PurchaseStore {
         do {
             try await AppStore.sync()
             await refreshEntitlements()
-            if !isPremium { lastError = "Geri yüklenecek bir satın alma bulunamadı." }
+            if !isPremium { lastError = String(localized: "Geri yüklenecek bir satın alma bulunamadı.") }
         } catch {
-            lastError = "Satın almalar geri yüklenemedi."
+            lastError = String(localized: "Satın almalar geri yüklenemedi.")
         }
     }
 
@@ -153,16 +153,13 @@ final class PurchaseStore {
 
     func trialText(_ plan: Plan) -> String? {
         guard let offer = products[plan]?.subscription?.introductoryOffer, offer.paymentMode == .freeTrial else { return nil }
-        let period = offer.period
-        let unit: String
-        switch period.unit {
-        case .day: unit = "gün"
-        case .week: unit = "hafta"
-        case .month: unit = "ay"
-        case .year: unit = "yıl"
-        @unknown default: unit = "gün"
+        let count = offer.period.value
+        switch offer.period.unit {
+        case .week: return String(localized: "\(count) hafta ücretsiz")
+        case .month: return String(localized: "\(count) ay ücretsiz")
+        case .year: return String(localized: "\(count) yıl ücretsiz")
+        default: return String(localized: "\(count) gün ücretsiz")
         }
-        return "\(period.value) \(unit) ücretsiz"
     }
 }
 

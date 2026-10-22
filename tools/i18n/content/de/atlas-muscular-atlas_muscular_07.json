@@ -1,0 +1,278 @@
+{
+ "m-pterygoideus-medialis": {
+  "tr": "M. pterygoideus medialis",
+  "summary": "Viereckiger Kaumuskel an der Innenfläche des Ramus mandibulae, das Gegenstück zum Masseter; zusammen bilden sie eine Muskelschlinge um den Kieferwinkel.",
+  "facts": [
+   "Tiefer Kopf: Innenfläche der Lamina lateralis processus pterygoidei (Fossa pterygoidea) und Processus pyramidalis ossis palatini; oberflächlicher Kopf: Tuber maxillae",
+   "Innenfläche des Angulus mandibulae (Tuberositas pterygoidea)",
+   "N. pterygoideus medialis (N. mandibularis, V3)",
+   "Rr. pterygoidei der A. maxillaris",
+   "Hebt den Unterkiefer (Mundschluss) und unterstützt die Protrusion; einseitig verschiebt er den Kiefer zur Gegenseite"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Mit dem Masseter bildet er die „pterygomasseterische Schlinge“, die bei Kieferwinkelfrakturen die Fragmentverschiebung bestimmt.",
+   "Sein Nerv versorgt auch den M. tensor tympani und den M. tensor veli palatini."
+  ],
+  "aliases": [
+   "innerer Flügelmuskel"
+  ]
+ },
+ "m-rectus-superior": {
+  "tr": "M. rectus superior",
+  "summary": "Gerader Augenmuskel an der Oberseite des Augapfels, der das Auge hebt.",
+  "facts": [
+   "Anulus tendineus communis (oberer Teil)",
+   "Sklera, etwa 7,5 mm oberhalb und hinter der Hornhaut",
+   "N. oculomotorius (III), oberer Ast",
+   "Muskeläste der A. ophthalmica",
+   "Hebung (am wirksamsten bei abduziertem Auge), Adduktion und Innenrollung"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Zur Prüfung der reinen Hebung wird das Auge zuerst nach außen (Abduktion) gewendet und dann nach oben geblickt."
+  ],
+  "aliases": [
+   "oberer gerader Augenmuskel"
+  ]
+ },
+ "m-rectus-inferior": {
+  "tr": "M. rectus inferior",
+  "summary": "Gerader Augenmuskel an der Unterseite des Augapfels, der das Auge senkt.",
+  "facts": [
+   "Anulus tendineus communis (unterer Teil)",
+   "Sklera, etwa 6,5 mm unterhalb und hinter der Hornhaut",
+   "N. oculomotorius (III), unterer Ast",
+   "Muskeläste der A. ophthalmica, A. infraorbitalis",
+   "Senkung (am wirksamsten in Abduktion), Adduktion und Außenrollung"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei einer Orbitabodenfraktur (Blow-out) kann der Muskel zur Kieferhöhle hin eingeklemmt werden; es entstehen Doppelbilder und eine Hebungseinschränkung."
+  ],
+  "tus": [],
+  "aliases": [
+   "unterer gerader Augenmuskel"
+  ]
+ },
+ "m-rectus-medialis": {
+  "tr": "M. rectus medialis",
+  "summary": "Der kräftigste äußere Augenmuskel an der Innenseite des Augapfels; er dreht das Auge zur Nase.",
+  "facts": [
+   "Anulus tendineus communis (medialer Teil)",
+   "Sklera, etwa 5,5 mm medial und hinter der Hornhaut",
+   "N. oculomotorius (III), unterer Ast",
+   "Muskeläste der A. ophthalmica",
+   "Adduktion"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Okulomotoriusparese blickt das Auge „nach unten außen“ (Rectus lateralis und Obliquus superior ohne Gegenspieler), begleitet von Ptosis und Mydriasis.",
+   "Bei internukleärer Ophthalmoplegie (MLF-Läsion) ist beim Seitblick die Adduktion des gleichseitigen Auges gestört."
+  ],
+  "tus": [],
+  "aliases": [
+   "innerer gerader Augenmuskel"
+  ]
+ },
+ "m-rectus-lateralis": {
+  "tr": "M. rectus lateralis",
+  "summary": "Muskel an der Außenseite des Augapfels, der das Auge nach außen dreht; der einzige vom N. abducens innervierte Muskel.",
+  "facts": [
+   "Anulus tendineus communis (lateraler Teil, zweiköpfig)",
+   "Sklera, etwa 7 mm lateral und hinter der Hornhaut",
+   "N. abducens (VI)",
+   "Muskeläste der A. ophthalmica, A. lacrimalis",
+   "Abduktion"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Abduzensparese weicht das Auge nach innen ab (Esotropie) mit horizontalen Doppelbildern; wegen seines langen intrakraniellen Verlaufs gehört er zu den ersten Hirnnerven, die bei erhöhtem Hirndruck ausfallen."
+  ],
+  "tus": [
+   "Merkhilfe: LR6 SO4, Rest 3 (Rectus lateralis VI, Obliquus superior IV, übrige III)."
+  ],
+  "aliases": [
+   "äußerer gerader Augenmuskel"
+  ]
+ },
+ "m-obliquus-superior": {
+  "tr": "M. obliquus superior",
+  "summary": "Muskel, dessen Sehne über eine Rolle (Trochlea) am oberen inneren Orbitawinkel umgelenkt wird und am hinteren oberen äußeren Quadranten des Augapfels ansetzt.",
+  "facts": [
+   "Corpus ossis sphenoidalis (oberhalb-medial des Anulus tendineus communis)",
+   "Hinterer oberer äußerer Quadrant der Sklera nach Umlenkung an der Trochlea",
+   "N. trochlearis (IV)",
+   "Muskeläste der A. ophthalmica",
+   "Innenrollung; Senkung (am wirksamsten bei adduziertem Auge) und Abduktion"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Trochlearisparese entstehen beim Treppabgehen und Lesen vertikale Doppelbilder; der Patient kompensiert durch Kopfneigung zur gesunden Seite."
+  ],
+  "tus": [
+   "Er ermöglicht den Blick nach unten innen; der IV. Hirnnerv ist der einzige, der dorsal aus dem Hirnstamm austritt und vollständig kreuzt."
+  ],
+  "aliases": [
+   "oberer schräger Augenmuskel"
+  ]
+ },
+ "m-obliquus-inferior": {
+  "tr": "M. obliquus inferior",
+  "summary": "Muskel, der vom vorderen Orbitaboden entspringt, unter dem Augapfel hindurchzieht und am hinteren äußeren Quadranten ansetzt; der einzige äußere Augenmuskel, der nicht vom Anulus tendineus entspringt.",
+  "facts": [
+   "Vorderer medialer Orbitaboden (Maxilla, lateral der Fossa sacci lacrimalis)",
+   "Hinterer unterer äußerer Quadrant der Sklera",
+   "N. oculomotorius (III), unterer Ast",
+   "Muskeläste der A. ophthalmica, A. infraorbitalis",
+   "Außenrollung; Hebung (am wirksamsten bei adduziertem Auge) und Abduktion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Er ermöglicht den Blick nach oben innen; er ist der einzige äußere Augenmuskel, der vom Orbitaboden und nicht von der Orbitaspitze entspringt."
+  ],
+  "aliases": [
+   "unterer schräger Augenmuskel"
+  ]
+ },
+ "m-levator-palpebrae": {
+  "tr": "M. levator palpebrae superioris",
+  "summary": "Muskel, der das Oberlid hebt; die glatten Muskelfasern an seiner Unterseite (M. tarsalis superior, Müller-Muskel) sind sympathisch innerviert.",
+  "facts": [
+   "Ala minor ossis sphenoidalis (oberhalb des Canalis opticus)",
+   "Haut des Oberlids und Tarsus superior",
+   "N. oculomotorius (III), oberer Ast; glatter Muskelanteil sympathische Fasern",
+   "Muskeläste der A. ophthalmica",
+   "Hebt das Oberlid"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Okulomotoriusparese besteht eine vollständige Ptosis; beim Horner-Syndrom ist nur der Müller-Muskel betroffen, daher ist die Ptosis gering."
+  ],
+  "tus": [],
+  "aliases": [
+   "Lidheber",
+   "Augenlid"
+  ]
+ },
+ "m-genioglossus": {
+  "tr": "M. genioglossus",
+  "summary": "Fächerförmiger äußerer Zungenmuskel, der den Großteil der Zungenmasse bildet; er streckt die Zunge heraus.",
+  "facts": [
+   "Spina mentalis superior (Innenfläche der Mandibula)",
+   "Gesamte Länge des Zungenrückens und Corpus ossis hyoidei",
+   "N. hypoglossus (XII)",
+   "A. lingualis (A. profunda linguae, A. sublingualis)",
+   "Streckt die Zunge heraus; beidseitig vertieft er die Zungenmitte"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Hypoglossusläsion weicht die herausgestreckte Zunge zur Läsionsseite ab (der gesunde Genioglossus schiebt sie dorthin).",
+   "Seine Erschlaffung in Narkose lässt die Zunge zurückfallen und die Atemwege verlegen; der Esmarch-Handgriff öffnet sie."
+  ],
+  "tus": [
+   "Der „lebensrettende Muskel“: Er verhindert das Zurückfallen der Zunge."
+  ],
+  "aliases": []
+ },
+ "m-hyoglossus": {
+  "tr": "M. hyoglossus",
+  "summary": "Viereckiger äußerer Zungenmuskel vom Zungenbein zum Zungenrand; ein wichtiger Orientierungspunkt der Submandibularregion.",
+  "facts": [
+   "Corpus und Cornu majus ossis hyoidei",
+   "Seitenrand und Unterfläche der Zunge",
+   "N. hypoglossus (XII)",
+   "A. lingualis",
+   "Zieht die Zunge nach unten hinten"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Die A. lingualis zieht in der Tiefe dieses Muskels, N. hypoglossus, N. lingualis und Ductus submandibularis dagegen auf seiner Oberfläche."
+  ],
+  "aliases": []
+ },
+ "m-scalenus-anterior": {
+  "tr": "M. scalenus anterior",
+  "summary": "Muskel an der Halsseite von den Halswirbeln zur 1. Rippe; eine wichtige Grenze zwischen Arterie und Vene.",
+  "facts": [
+   "Tubercula anteriora der Querfortsätze C3–C6",
+   "Tuberculum musculi scaleni anterioris der 1. Rippe (Lisfranc-Höcker)",
+   "Rr. anteriores der Spinalnerven C4–C6",
+   "A. cervicalis ascendens, A. transversa colli",
+   "Hebt die 1. Rippe (forcierte Einatmung); beugt den Hals nach vorn und zur Seite und dreht ihn zur Gegenseite"
+  ],
+  "sections": [],
+  "clinical": [
+   "Beim Thoracic-outlet-Syndrom können A. subclavia und Plexus brachialis zwischen vorderem und mittlerem Skalenus (Skalenuslücke) eingeengt werden."
+  ],
+  "tus": [
+   "Der N. phrenicus zieht auf seiner Vorderfläche abwärts; die V. subclavia verläuft vor dem Muskel, A. subclavia und Plexus brachialis dahinter."
+  ],
+  "aliases": [
+   "vorderer Treppenmuskel",
+   "Skalenus"
+  ]
+ },
+ "m-scalenus-medius": {
+  "tr": "M. scalenus medius",
+  "summary": "Der größte und längste Skalenusmuskel, von den Halswirbeln zur Oberfläche der 1. Rippe.",
+  "facts": [
+   "Tubercula posteriora der Querfortsätze C2–C7",
+   "Oberfläche der 1. Rippe (hinter dem Sulcus arteriae subclaviae)",
+   "Rr. anteriores der Spinalnerven C3–C8",
+   "A. cervicalis ascendens, A. transversa colli",
+   "Hebt die 1. Rippe; neigt den Hals zur gleichen Seite"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Die Wurzeln des N. dorsalis scapulae und des N. thoracicus longus durchbohren diesen Muskel."
+  ],
+  "aliases": [
+   "mittlerer Treppenmuskel",
+   "Skalenus"
+  ]
+ },
+ "m-scalenus-posterior": {
+  "tr": "M. scalenus posterior",
+  "summary": "Der kleinste und tiefste Skalenusmuskel; der einzige, der an der 2. Rippe ansetzt.",
+  "facts": [
+   "Tubercula posteriora der Querfortsätze C4–C6",
+   "Außenfläche der 2. Rippe",
+   "Rr. anteriores der Spinalnerven C6–C8",
+   "A. cervicalis ascendens, A. cervicalis superficialis",
+   "Hebt die 2. Rippe; neigt den Hals zur gleichen Seite"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "hinterer Treppenmuskel",
+   "Skalenus"
+  ]
+ },
+ "m-digastricus": {
+  "tr": "M. digastricus",
+  "summary": "Muskel aus vorderem und hinterem Bauch, verbunden durch eine Zwischensehne; er hebt das Zungenbein und unterstützt die Mundöffnung. Seine beiden Bäuche entstammen verschiedenen Schlundbögen.",
+  "facts": [
+   "Venter posterior: Incisura mastoidea (Os temporale); Venter anterior: Fossa digastrica (Mandibula)",
+   "Zwischensehne, über eine Bindegewebsschlinge an Corpus und Cornu majus ossis hyoidei befestigt",
+   "Venter posterior: N. facialis (VII); Venter anterior: N. mylohyoideus (N. mandibularis, V3)",
+   "Venter anterior: A. submentalis; Venter posterior: A. occipitalis, A. auricularis posterior",
+   "Hebt und fixiert das Zungenbein; bei fixiertem Zungenbein senkt er den Unterkiefer (Mundöffnung)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der vordere Bauch stammt aus dem 1. Schlundbogen (V3), der hintere aus dem 2. (VII); er begrenzt das Trigonum submandibulare und submentale."
+  ],
+  "aliases": [
+   "Digastricus",
+   "zweibäuchiger Muskel"
+  ]
+ }
+}

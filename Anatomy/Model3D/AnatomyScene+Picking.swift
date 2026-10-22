@@ -16,10 +16,13 @@ extension AnatomyScene {
         let ref: PartRef
         /// The pinned surface point.
         let anchor: CGPoint
-        /// Centre of the text pill, beside the anchor.
-        let center: CGPoint
+        /// The text pill, in a column beside the body.
+        let box: CGRect
         let text: String
         var id: PartRef { ref }
+        var center: CGPoint { CGPoint(x: box.midX, y: box.midY) }
+        /// Where the leader line meets the pill: the side facing the anchor.
+        var attach: CGPoint { CGPoint(x: anchor.x < box.midX ? box.minX : box.maxX, y: box.midY) }
     }
 
     /// Everything picking needs, copied off the scene so rays can be cast on
@@ -105,9 +108,13 @@ extension AnatomyScene {
     }
 
     /// Picks the largest parts on screen that are actually visible at their
-    /// centre and lays out non-overlapping labels for them. All the geometry
-    /// work happens off the main thread.
-    func labels(in size: CGSize, name: (PartInfo) -> String, limit: Int = 16) async -> [ScreenLabel] {
+    /// pin and lays out their names: in two columns beside the body when
+    /// there is room next to it, otherwise right beside each pin (see
+    /// LabelLayout). Labels stay between `top` and `bottom` and off the
+    /// `avoiding` rectangles (buttons over the view). All the geometry work
+    /// happens off the main thread.
+    func labels(in size: CGSize, top: CGFloat = 120, bottom: CGFloat? = nil, avoiding: [CGRect] = [],
+                name: (PartInfo) -> String, limit: Int = 16) async -> [ScreenLabel] {
         guard size.width > 0 else { return [] }
         let snapshot = pickSnapshot()
         // Names are resolved up front (the store lives on the main actor).
@@ -118,9 +125,35 @@ extension AnatomyScene {
             }
         }
         let resolved = names
+        let font = UIFont.systemFont(ofSize: UIFont.preferredFont(forTextStyle: .caption2).pointSize, weight: .semibold)
+        let safe = CGRect(x: 8, y: top, width: size.width - 16, height: max((bottom ?? size.height - 150) - top, 0))
         return await Task.detached(priority: .userInitiated) { () -> [ScreenLabel] in
             let t = tan(snapshot.fieldOfView * .pi / 360)
             let eye = SIMD3(snapshot.camera.columns.3.x, snapshot.camera.columns.3.y, snapshot.camera.columns.3.z)
+
+            // The body's outline on screen, from a sample of what is drawn.
+            var drawn: [(MeshPack, Int)] = []
+            var total = 0
+            for system in snapshot.systems {
+                for i in system.state.indices where system.state[i] != 0 {
+                    drawn.append((system.pack, i))
+                    total += system.pack.ranges[i].vertexCount
+                }
+            }
+            let step = max(total / 40_000, 1)
+            var points: [CGPoint] = []
+            points.reserveCapacity(total / step + drawn.count)
+            for (pack, i) in drawn {
+                let r = pack.ranges[i]
+                var v = r.vertexStart
+                while v < r.vertexStart + r.vertexCount {
+                    if let p = snapshot.project(pack.positions[v], in: size) { points.append(p) }
+                    v += step
+                }
+            }
+            let silhouette = LabelLayout.Silhouette(points: points, in: CGRect(origin: .zero, size: size))
+            let middle = silhouette.extent.map { ($0.min + $0.max) / 2 } ?? size.width / 2
+
             var candidates: [(ref: PartRef, point: CGPoint, size: CGFloat, base: String)] = []
             for system in snapshot.systems {
                 for (i, info) in system.pack.parts.enumerated() where system.state[i] == 1 {
@@ -130,33 +163,56 @@ extension AnatomyScene {
                     // Anchor on the camera-facing surface rather than the box
                     // centre, which is often buried inside the body.
                     let anchor = AnatomyScene.surfaceAnchor(pack: system.pack, part: i, camera: eye) ?? info.center
-                    guard let point = snapshot.project(anchor, in: size),
-                          point.x > 30, point.x < size.width - 30, point.y > 120, point.y < size.height - 150 else { continue }
+                    guard let point = snapshot.project(anchor, in: size), safe.insetBy(dx: 22, dy: 0).contains(point),
+                          !avoiding.contains(where: { $0.insetBy(dx: -6, dy: -6).contains(point) }) else { continue }
                     candidates.append((PartRef(system: system.id, index: i), point, screen, info.base))
                 }
             }
             candidates.sort { $0.size > $1.size }
             let bases = Dictionary(uniqueKeysWithValues: snapshot.systems.map { ($0.id, $0.pack.parts.map(\.base)) })
 
+            // The biggest parts that are really what we see at their pin,
+            // pins kept a little apart. A name shared by the left and right
+            // part goes on the side with fewer labels so far.
+            var byName: [String: [Int]] = [:]
+            var order: [String] = []
+            for (k, c) in candidates.prefix(160).enumerated() {
+                guard let text = resolved[c.ref] else { continue }
+                if byName[text] == nil { order.append(text) }
+                byName[text, default: []].append(k)
+            }
+            var chosen: [(ref: PartRef, point: CGPoint, text: String)] = []
+            var perSide = [0, 0]
+            let spread = min(size.width, size.height) * 0.04
+            for text in order {
+                guard chosen.count < limit + limit / 2, !Task.isCancelled else { break }
+                let instances = (byName[text] ?? []).map { candidates[$0] }.sorted {
+                    perSide[$0.point.x < middle ? 0 : 1] < perSide[$1.point.x < middle ? 0 : 1]
+                }
+                for c in instances {
+                    guard chosen.allSatisfy({ hypot($0.point.x - c.point.x, $0.point.y - c.point.y) >= spread }) else { continue }
+                    let (o, d) = snapshot.ray(at: c.point, in: size)
+                    guard let hit = snapshot.pick(o, d), hit == c.ref || bases[hit.system]?[hit.index] == c.base else { continue }
+                    chosen.append((c.ref, c.point, text))
+                    perSide[c.point.x < middle ? 0 : 1] += 1
+                    break
+                }
+            }
+
+            let items = chosen.map { c in
+                LabelLayout.Item(anchor: c.point,
+                                 size: CGSize(width: ceil((c.text as NSString).size(withAttributes: [.font: font]).width) + 16, height: 22))
+            }
+            // Columns when the pills fit beside the body, else next to the pins.
+            let room = LabelLayout.room(silhouette, in: safe, gap: 10)
+            let typical = items.map(\.size.width).sorted().dropFirst(items.count / 2).first ?? 0
+            let boxes = min(room.left, room.right) >= typical
+                ? LabelLayout.place(items, silhouette: silhouette, in: safe, avoiding: avoiding, gap: 10, spacing: 5)
+                : LabelLayout.placeNear(items, middle: middle, in: safe, avoiding: avoiding)
             var out: [ScreenLabel] = []
-            var taken: [CGRect] = []
-            var used = Set<String>()
-            for c in candidates.prefix(140) {
-                guard out.count < limit, !Task.isCancelled else { break }
-                guard let text = resolved[c.ref], !used.contains(text) else { continue }
-                // Is the part really what we see at its centre?
-                let (o, d) = snapshot.ray(at: c.point, in: size)
-                guard let hit = snapshot.pick(o, d), hit == c.ref || bases[hit.system]?[hit.index] == c.base else { continue }
-                // The pill grows away from the body's midline so the anchor stays visible.
-                let width = CGFloat(text.count) * 6.3 + 22
-                let leftSide = c.point.x < size.width / 2
-                var x = leftSide ? c.point.x - width - 6 : c.point.x + 6
-                x = min(max(x, 8), size.width - width - 8)
-                let rect = CGRect(x: x, y: c.point.y - 12, width: width, height: 24)
-                guard !taken.contains(where: { $0.insetBy(dx: -3, dy: -3).intersects(rect) }) else { continue }
-                taken.append(rect)
-                used.insert(text)
-                out.append(ScreenLabel(ref: c.ref, anchor: c.point, center: CGPoint(x: rect.midX, y: rect.midY), text: text))
+            for (c, box) in zip(chosen, boxes) {
+                guard let box, out.count < limit else { continue }
+                out.append(ScreenLabel(ref: c.ref, anchor: c.point, box: box, text: c.text))
             }
             return out
         }.value

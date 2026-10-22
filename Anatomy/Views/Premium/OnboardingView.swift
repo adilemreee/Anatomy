@@ -14,12 +14,12 @@ struct OnboardingView: View {
     @AppStorage("profile.level") private var level = ""
 
     private let pages: [(image: String, icon: String, title: String, text: String)] = [
-        ("card-muscular", "figure.arms.open", "Türkçe 3D anatomi atlası",
-         "Kemikten sinire, kalpten beyne kadar binlerce yapıyı döndür, yakınlaştır, katman katman aç."),
-        ("card-skeletal", "cube.transparent", "Her yapıyı tek başına incele",
-         "İnceleme modunda Latince oluşumları, kasların başlangıç ve tutunma yerlerini işaretli gör."),
-        ("card-nervous", "checkmark.seal.fill", "Sınava hazırlan",
-         "TUS ve komite düzeyinde özgün sorular, açıklamalı cevaplar, deneme sınavları ve aralıklı tekrar."),
+        ("card-muscular", "figure.arms.open", String(localized: "Türkçe 3D kas-iskelet atlası"),
+         String(localized: "Kemikleri, eklemleri ve kasları döndür, yakınlaştır, katman katman aç.")),
+        ("card-skeletal", "cube.transparent", String(localized: "Her yapıyı tek başına incele"),
+         String(localized: "İnceleme modunda Latince oluşumları, kasların başlangıç ve tutunma yerlerini işaretli gör.")),
+        ("card-articular", "checkmark.seal.fill", String(localized: "Sınava hazırlan"),
+         String(localized: "TUS ve komite düzeyinde özgün sorular, açıklamalı cevaplar, deneme sınavları ve aralıklı tekrar.")),
     ]
 
     var body: some View {
@@ -44,7 +44,7 @@ struct OnboardingView: View {
                             .frame(width: i == page ? 22 : 7, height: 7)
                     }
                 }
-                Button(page < pages.count ? "Devam" : "Başla") {
+                Button(page < pages.count ? String(localized: "Devam") : String(localized: "Başla")) {
                     if page < pages.count {
                         page += 1
                     } else {
@@ -119,10 +119,10 @@ struct OnboardingView: View {
                 .font(.body)
                 .foregroundStyle(Theme.textSecondary)
             VStack(spacing: 10) {
-                option("faculty", "Tıp fakültesi (Dönem 1–3)", "Komite ve final sınavları", "building.columns.fill")
-                option("tus", "TUS hazırlığı", "Klinik vakalar ve zor sorular ağırlıkta", "target")
-                option("dentistry", "Diş hekimliği", "Baş-boyun ağırlıklı", "mouth.fill")
-                option("health", "Diğer sağlık bölümleri", "Fizyoterapi, hemşirelik, ebelik…", "cross.case.fill")
+                option("faculty", String(localized: "Tıp fakültesi (Dönem 1–3)"), String(localized: "Komite ve final sınavları"), "building.columns.fill")
+                option("tus", String(localized: "TUS hazırlığı"), String(localized: "Klinik vakalar ve zor sorular ağırlıkta"), "target")
+                option("dentistry", String(localized: "Diş hekimliği"), String(localized: "Baş-boyun ağırlıklı"), "mouth.fill")
+                option("health", String(localized: "Diğer sağlık bölümleri"), String(localized: "Fizyoterapi, hemşirelik, ebelik…"), "cross.case.fill")
             }
             Spacer()
         }

@@ -1,0 +1,4056 @@
+{
+ "system": "skeletal",
+ "entries": [
+  {
+   "id": "cranium",
+   "tr": "Crâne (dans son ensemble)",
+   "la": "Cranium",
+   "en": "Skull",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Structure osseuse formée du neurocrâne, qui protège l'encéphale, et du viscérocrâne, squelette de la face ; à l'exception de la mandibule, ses os sont solidement unis par des sutures. Avec l'os hyoïde et les osselets de l'ouïe, il compte 29 os.",
+   "facts": [
+    [
+     "Beyin kafası (neurocranium)",
+     "8 os : frontal, deux pariétaux, occipital, deux temporaux, sphénoïde, ethmoïde",
+     "Neurocrâne"
+    ],
+    [
+     "Yüz kafası (viscerocranium)",
+     "14 os : deux maxillaires, deux zygomatiques, deux nasaux, deux lacrymaux, deux palatins, deux cornets nasaux inférieurs, vomer, mandibule",
+     "Viscérocrâne (squelette facial)"
+    ],
+    [
+     "Bölümleri",
+     "Voûte (calvaria) et base du crâne (basis cranii)",
+     "Parties"
+    ],
+    [
+     "Hareketli eklem",
+     "La seule articulation synoviale du crâne est l'articulation temporo-mandibulaire ; les autres os sont unis par des sutures",
+     "Articulation mobile"
+    ],
+    [
+     "Önemli noktalar",
+     "Bregma (rencontre des sutures sagittale et coronale), lambda (sagittale et lambdoïde), ptérion (frontal, pariétal, temporal, sphénoïde), astérion (pariétal, occipital, temporal), nasion, inion",
+     "Points de repère"
+    ]
+   ],
+   "sections": [
+    [
+     "Vues",
+     "De face (norma frontalis), on voit les orbites, l'ouverture piriforme et les mâchoires. De profil (norma lateralis), la fosse temporale, l'arcade zygomatique et le ptérion ; par en dessous (norma basalis), le foramen magnum, les condyles et les orifices de la base. Dans la cavité crânienne, les fosses crâniennes antérieure, moyenne et postérieure s'étagent comme des marches."
+    ]
+   ],
+   "clinical": [
+    "Le ptérion est la zone la plus mince du crâne ; la branche antérieure de l'artère méningée moyenne passant en dessous, les fractures à ce niveau peuvent causer un hématome extradural.",
+    "La fermeture prématurée des sutures (craniosténose) entraîne une déformation de la tête."
+   ],
+   "tus": [
+    "Le neurocrâne compte 8 os, le viscérocrâne 14 (sans l'os hyoïde ni les osselets).",
+    "Ptérion, astérion et bregma sont des repères de surface importants pour les voies d'abord chirurgicales ; le ptérion se trouve à environ 4 cm au-dessus du milieu de l'arcade zygomatique."
+   ],
+   "related": [
+    "suturae-fonticuli",
+    "basis-cranii",
+    "orbita",
+    "os-frontale",
+    "os-sphenoidale",
+    "mandibula"
+   ],
+   "models": [
+    "Cranium"
+   ],
+   "aliases": [
+    "crâne",
+    "tête"
+   ]
+  },
+  {
+   "id": "suturae-fonticuli",
+   "tr": "Sutures et fontanelles du crâne",
+   "la": "Suturae et fonticuli cranii",
+   "en": "Sutures and fontanelles",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Les os du crâne sont unis par des articulations fibreuses, les sutures. Chez le nouveau-né, des zones membraneuses non ossifiées – les fontanelles – se trouvent aux points de rencontre des sutures ; elles permettent le modelage de la tête à l'accouchement et la croissance du cerveau.",
+   "facts": [
+    [
+     "Başlıca dikişler",
+     "Coronale (frontal–pariétal), sagittale (entre les deux pariétaux), lambdoïde (pariétal–occipital), squameuse (pariétal–temporal), métopique (entre les deux moitiés du frontal)",
+     "Principales sutures"
+    ],
+    [
+     "Ön bıngıldak (fonticulus anterior)",
+     "En losange, la plus grande ; entre frontal et pariétaux ; se ferme vers 18–24 mois",
+     "Fontanelle antérieure"
+    ],
+    [
+     "Arka bıngıldak (fonticulus posterior)",
+     "Triangulaire ; entre pariétaux et occipital ; se ferme vers 2–3 mois",
+     "Fontanelle postérieure"
+    ],
+    [
+     "Yan bıngıldaklar",
+     "Fontanelle sphénoïdale (antéro-latérale, au ptérion) et mastoïdienne (postéro-latérale, à l'astérion) ; se ferment au cours de la première année",
+     "Fontanelles latérales"
+    ],
+    [
+     "Eklem tipi",
+     "Synarthrose – articulation fibreuse (sutures) ; peut s'ossifier avec l'âge (synostose)",
+     "Type d'articulation"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Une fontanelle antérieure déprimée évoque une déshydratation ; tendue et bombante, une hypertension intracrânienne (méningite, hydrocéphalie).",
+    "La fermeture prématurée de la suture sagittale donne une tête longue et étroite (scaphocéphalie), celle d'une suture coronale une tête asymétrique (plagiocéphalie).",
+    "Une fermeture tardive de la fontanelle antérieure s'observe dans le rachitisme, l'hypothyroïdie et l'hydrocéphalie."
+   ],
+   "tus": [
+    "La fontanelle antérieure se ferme vers 18–24 mois, la postérieure vers 2–3 mois ; chez le nouveau-né, le sinus sagittal supérieur est accessible par la fontanelle antérieure.",
+    "La craniosténose la plus fréquente est la synostose sagittale (scaphocéphalie)."
+   ],
+   "related": [
+    "cranium",
+    "os-parietale",
+    "os-frontale",
+    "os-occipitale"
+   ],
+   "models": [
+    "Parietal bone",
+    "Frontal bone",
+    "Occipital bone",
+    "Cranial fibrous joints"
+   ],
+   "aliases": [
+    "suture",
+    "fontanelle"
+   ]
+  },
+  {
+   "id": "basis-cranii",
+   "tr": "Base du crâne et orifices",
+   "la": "Basis cranii interna",
+   "en": "Cranial base and foramina",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Le plancher de la cavité crânienne se divise, d'avant en arrière, en trois fosses étagées : fosses crâniennes antérieure, moyenne et postérieure. Les nerfs crâniens et les vaisseaux qui entrent dans l'encéphale ou en sortent traversent leurs foramens et canaux.",
+   "facts": [
+    [
+     "Ön kafa çukuru (fossa cranii anterior)",
+     "Partie orbitaire du frontal, lame criblée (ethmoïde) et petites ailes du sphénoïde ; porte les lobes frontaux. Orifices : trous de la lame criblée (filets du nerf olfactif), foramen cæcum",
+     "Fosse crânienne antérieure"
+    ],
+    [
+     "Orta kafa çukuru (fossa cranii media)",
+     "Corps et grandes ailes du sphénoïde, partie squameuse et partie pétreuse du temporal ; porte les lobes temporaux et l'hypophyse (selle turcique). Orifices : canal optique (II, artère ophtalmique), fissure orbitaire supérieure (III, IV, V1, VI, veine ophtalmique supérieure), foramen rond (V2), foramen ovale (V3, petit nerf pétreux), foramen épineux (artère méningée moyenne), foramen déchiré (comblé de cartilage ; la carotide interne passe au-dessus)",
+     "Fosse crânienne moyenne"
+    ],
+    [
+     "Arka kafa çukuru (fossa cranii posterior)",
+     "Occipital et face postérieure du rocher ; porte le cervelet, le pont et la moelle allongée. Orifices : méat acoustique interne (VII, VIII, artère labyrinthique), foramen jugulaire (IX, X, XI, veine jugulaire interne, sinus pétreux inférieur), canal du nerf hypoglosse (XII), foramen magnum (moelle allongée, artères vertébrales, racines spinales du XI)",
+     "Fosse crânienne postérieure"
+    ],
+    [
+     "Dış kafa tabanındaki delikler",
+     "Canal carotidien (artère carotide interne, plexus sympathique), foramen stylo-mastoïdien (VII), canal condylaire (veine émissaire), foramens palatins, fosse incisive",
+     "Orifices de l'exobase"
+    ]
+   ],
+   "sections": [
+    [
+     "Intérêt clinique",
+     "Les fractures de la base du crâne siègent le plus souvent dans la fosse crânienne moyenne. Une fracture de l'étage antérieur peut donner des ecchymoses péri-orbitaires (yeux de raton laveur), une rhinorrhée de LCS et une anosmie ; une fracture de l'étage moyen (rocher), une ecchymose rétro-auriculaire (signe de Battle), un hémotympan, une otorrhée de LCS et une paralysie faciale."
+    ]
+   ],
+   "clinical": [
+    "Une tumeur ou une fracture du foramen jugulaire touche ensemble les nerfs IX, X et XI (syndrome de Vernet) : troubles de la déglutition, dysphonie, faiblesse du trapèze et du SCM.",
+    "En cas d'hypertension intracrânienne, l'engagement des amygdales cérébelleuses dans le foramen magnum peut provoquer un arrêt respiratoire."
+   ],
+   "tus": [
+    "III, IV, V1 et VI traversent la fissure orbitaire supérieure ; II et l'artère ophtalmique le canal optique.",
+    "Le foramen rond livre passage à V2, le foramen ovale à V3, le foramen épineux à l'artère méningée moyenne (d'avant en arrière : « rond–ovale–épineux »).",
+    "IX, X, XI et la veine jugulaire interne passent par le foramen jugulaire ; XII par le canal du nerf hypoglosse."
+   ],
+   "related": [
+    "cranium",
+    "os-sphenoidale",
+    "os-occipitale",
+    "os-temporale",
+    "os-ethmoidale"
+   ],
+   "models": [
+    "Occipital bone",
+    "Sphenoid bone",
+    "Temporal bone",
+    "Ethmoid bone"
+   ],
+   "aliases": [
+    "base du crâne",
+    "foramen",
+    "fosse crânienne"
+   ]
+  },
+  {
+   "id": "orbita",
+   "tr": "Orbite",
+   "la": "Orbita",
+   "en": "Orbit",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Cavité osseuse en forme de pyramide quadrangulaire, à base antérieure et sommet postérieur, qui contient le globe oculaire, les muscles oculomoteurs, des nerfs et des vaisseaux. Sept os participent à sa formation.",
+   "facts": [
+    [
+     "Kemikleri",
+     "Frontal, zygomatique, maxillaire, sphénoïde, ethmoïde, lacrymal, palatin",
+     "Os"
+    ],
+    [
+     "Duvarları",
+     "Toit : partie orbitaire du frontal et petite aile du sphénoïde ; plancher : maxillaire, zygomatique, palatin ; paroi médiale : lame orbitaire de l'ethmoïde, os lacrymal, maxillaire, sphénoïde ; paroi latérale : zygomatique et grande aile du sphénoïde (paroi la plus épaisse)",
+     "Parois"
+    ],
+    [
+     "Açıklıkları",
+     "Canal optique (II, artère ophtalmique), fissure orbitaire supérieure (III, IV, V1, VI, veine ophtalmique supérieure), fissure orbitaire inférieure (nerf infra-orbitaire, veine ophtalmique inférieure), canal lacrymo-nasal, foramens ethmoïdaux",
+     "Orifices"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Globe oculaire, muscles extrinsèques de l'œil, nerf optique, glande lacrymale, graisse orbitaire, artère ophtalmique et ses branches",
+     "Contenu"
+    ]
+   ],
+   "sections": [
+    [
+     "Parois les plus fragiles",
+     "La lame orbitaire (papyracée) de la paroi médiale est la plus mince ; les infections du sinus ethmoïdal peuvent la traverser et gagner l'orbite. Le plancher est aussi mince, avec le sinus maxillaire en dessous ; un traumatisme contondant de l'œil peut le fracturer (fracture en « blow-out »)."
+    ]
+   ],
+   "clinical": [
+    "Dans la fracture en blow-out, le plancher orbitaire se rompt ; le droit inférieur peut s'incarcérer dans le trait de fracture (diplopie dans le regard vers le haut) et l'atteinte du nerf infra-orbitaire donne une anesthésie de la joue et de la lèvre supérieure.",
+    "La cellulite orbitaire provient généralement d'une ethmoïdite ; non traitée, elle peut évoluer vers une thrombose du sinus caverneux."
+   ],
+   "tus": [
+    "La paroi la plus mince de l'orbite est la paroi médiale (lame papyracée), la plus épaisse la paroi latérale ; les fractures en blow-out touchent surtout le plancher.",
+    "L'anneau tendineux commun (de Zinn) donne origine aux quatre muscles droits ; II, III, VI et le nerf nasociliaire le traversent, tandis que IV, les nerfs frontal et lacrymal passent en dehors."
+   ],
+   "related": [
+    "os-frontale",
+    "os-zygomaticum",
+    "maxilla",
+    "os-sphenoidale",
+    "os-ethmoidale",
+    "os-lacrimale"
+   ],
+   "models": [
+    "Frontal bone",
+    "Zygomatic bone",
+    "Maxilla",
+    "Sphenoid bone",
+    "Ethmoid bone",
+    "Lacrimal bone",
+    "Palatine bone"
+   ],
+   "aliases": [
+    "orbite",
+    "cavité orbitaire"
+   ]
+  },
+  {
+   "id": "fossa-pterygopalatina",
+   "tr": "Fosse ptérygo-palatine",
+   "la": "Fossa pterygopalatina",
+   "en": "Pterygopalatine fossa",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Petit espace en forme de pyramide inversée situé en arrière du maxillaire et en avant du processus ptérygoïde du sphénoïde. Elle contient le nerf maxillaire, la dernière partie de l'artère maxillaire et le ganglion ptérygo-palatin ; c'est un carrefour important entre la cavité nasale, le palais, l'orbite et la cavité crânienne.",
+   "facts": [
+    [
+     "Sınırları",
+     "En avant le maxillaire (tubérosité maxillaire), en arrière le processus ptérygoïde et la grande aile du sphénoïde, en dedans la lame perpendiculaire du palatin, en dehors la fissure ptérygo-maxillaire qui ouvre sur la fosse infratemporale",
+     "Limites"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Nerf maxillaire (V2), ganglion ptérygo-palatin, 3e partie (ptérygo-palatine) de l'artère maxillaire et ses branches",
+     "Contenu"
+    ],
+    [
+     "Bağlantıları",
+     "Foramen rond (fosse crânienne moyenne), canal ptérygoïdien (région du foramen déchiré), fissure orbitaire inférieure (orbite), foramen sphéno-palatin (cavité nasale), grand canal palatin (palais), fissure ptérygo-maxillaire (fosse infratemporale)",
+     "Communications"
+    ]
+   ],
+   "sections": [
+    [
+     "Ganglion ptérygo-palatin",
+     "Ganglion parasympathique ; ses fibres préganglionnaires viennent du nerf facial par le grand nerf pétreux (nerf du canal ptérygoïdien). Les fibres postganglionnaires vont à la glande lacrymale et aux glandes muqueuses du nez, du palais et du pharynx ; on l'appelle parfois « ganglion du rhume des foins »."
+    ]
+   ],
+   "clinical": [
+    "L'artère sphéno-palatine est la source des épistaxis postérieures ; en cas d'hémorragie incontrôlable, elle peut être ligaturée dans la fosse ptérygo-palatine ou au foramen sphéno-palatin.",
+    "Le fibrome nasopharyngien juvénile tend à s'étendre dans cette fosse."
+   ],
+   "tus": [
+    "Le grand nerf pétreux (VII, parasympathique) et le nerf pétreux profond (sympathique) s'unissent pour former le nerf du canal ptérygoïdien (nerf vidien), qui gagne le ganglion ptérygo-palatin.",
+    "Voie parasympathique de la glande lacrymale : nerf facial → grand nerf pétreux → ganglion ptérygo-palatin → nerf zygomatique → nerf lacrymal."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-palatinum",
+    "maxilla",
+    "orbita"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Palatine bone",
+    "Maxilla"
+   ],
+   "aliases": [
+    "fosse ptérygo-palatine",
+    "sphéno-palatin"
+   ]
+  },
+  {
+   "id": "os-frontale",
+   "tr": "Os frontal",
+   "la": "Os frontale",
+   "en": "Frontal bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os impair et symétrique du crâne qui forme le front et le toit des orbites. Il comprend trois parties : l'écaille verticale, la partie orbitaire horizontale et la petite partie nasale.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os plat (pneumatisé – contient le sinus frontal)",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os pariétal (suture coronale), sphénoïde, ethmoïde, os nasaux, maxillaires, os lacrymaux, os zygomatiques",
+     "Os articulés"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Bosse frontale, arcade sourcilière, glabelle, bord supra-orbitaire, incisure/foramen supra-orbitaire, processus zygomatique, sinus frontal, crête frontale",
+     "Principaux repères"
+    ],
+    [
+     "Kemikleşme",
+     "Membranaire ; en deux moitiés à la naissance, la suture métopique se ferme en général vers 2 ans",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "L'écaille forme le front ; sa face interne porte les empreintes des circonvolutions cérébrales et, sur la ligne médiane, le sillon du sinus sagittal supérieur. La partie orbitaire est une lame mince qui forme le plancher de la fosse crânienne antérieure ; la lame criblée de l'ethmoïde se loge dans l'incisure ethmoïdale entre les deux parties orbitaires. Le sinus frontal est une cavité aérienne située derrière les sourcils, qui s'ouvre dans le méat nasal moyen."
+    ]
+   ],
+   "clinical": [
+    "Le nerf supra-orbitaire, qui passe par le foramen/l'incisure supra-orbitaire, est bloqué pour l'anesthésie locale du front.",
+    "L'infection du sinus frontal (sinusite frontale) provoque des douleurs frontales ; les fractures de l'étage antérieur de la base du crâne peuvent entraîner un écoulement nasal de liquide cérébrospinal (rhinorrhée)."
+   ],
+   "tus": [
+    "Le sinus frontal s'ouvre dans le méat nasal moyen (hiatus semi-lunaire).",
+    "Le nerf et l'artère supra-orbitaires (V1) passent par le foramen/l'incisure supra-orbitaire, point douloureux à la pression dans la névralgie du trijumeau."
+   ],
+   "related": [
+    "os-parietale",
+    "os-ethmoidale",
+    "os-sphenoidale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Frontal bone",
+    "Sinus of frontal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-parietale",
+   "tr": "Os pariétal",
+   "la": "Os parietale",
+   "en": "Parietal bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os plat pair, quadrilatère, qui forme les côtés et la partie haute de la voûte du crâne (calvaria). Les deux pariétaux s'unissent sur la ligne médiane par la suture sagittale.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os plat",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Pariétal opposé (suture sagittale), frontal (suture coronale), occipital (suture lambdoïde), temporal (suture squameuse), sphénoïde (grande aile)",
+     "Os articulés"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Bosse pariétale, lignes temporales supérieure et inférieure, foramen pariétal, sillons de l'artère méningée moyenne sur la face interne (sillons artériels)",
+     "Principaux repères"
+    ],
+    [
+     "Kemikleşme",
+     "Ossification membranaire",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Fontanelles",
+     "Chez le nouveau-né, les angles des pariétaux bordent les fontanelles : la fontanelle antérieure, entre frontal et pariétaux, se ferme vers 18–24 mois ; la fontanelle postérieure, entre pariétaux et occipital, vers 2–3 mois."
+    ]
+   ],
+   "clinical": [
+    "Le ptérion (zone en H où se rejoignent frontal, pariétal, temporal et sphénoïde) est mince et se fracture facilement ; si l'artère méningée moyenne sous-jacente se rompt, un hématome extradural se constitue.",
+    "Une fontanelle antérieure déprimée évoque une déshydratation, bombante une hypertension intracrânienne."
+   ],
+   "tus": [
+    "La branche antérieure de l'artère méningée moyenne chemine à la face interne du ptérion ; sa fracture donne un hématome extradural.",
+    "Le pariétal s'ossifie sur membrane ; à la naissance il borde les fontanelles antérieure et postérieure."
+   ],
+   "related": [
+    "os-frontale",
+    "os-occipitale",
+    "os-temporale"
+   ],
+   "models": [
+    "Parietal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-occipitale",
+   "tr": "Os occipital",
+   "la": "Os occipitale",
+   "en": "Occipital bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os impair qui forme la partie postérieure et inférieure du crâne. Par le foramen magnum, il fait communiquer la cavité crânienne avec le canal vertébral, et ses condyles occipitaux s'articulent avec l'atlas.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os plat",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Écaille, deux parties latérales (condyliennes) et partie basilaire",
+     "Parties"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Pariétaux, temporaux, sphénoïde, atlas (articulation atlanto-occipitale)",
+     "Os articulés"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Foramen magnum, condyles occipitaux, canal du nerf hypoglosse, protubérance occipitale externe (inion), lignes nucales, clivus, protubérance occipitale interne, sillon du sinus transverse",
+     "Principaux repères"
+    ],
+    [
+     "Foramen magnum'dan geçenler",
+     "Moelle allongée et ses méninges, artères vertébrales, artères spinales antérieure et postérieures, racines spinales du nerf accessoire",
+     "Traversent le foramen magnum"
+    ]
+   ],
+   "sections": [
+    [
+     "Zones d'intérêt clinique",
+     "Le clivus est situé en avant du tronc cérébral. Le trapèze et le sterno-cléido-mastoïdien s'insèrent sur la ligne nucale supérieure. Le XII traverse le canal du nerf hypoglosse ; des veines émissaires passent par le canal condylaire, en arrière des condyles."
+    ]
+   ],
+   "clinical": [
+    "Dans la malformation d'Arnold-Chiari, les tonsilles cérébelleuses descendent par le foramen magnum dans le canal vertébral.",
+    "En cas d'hypertension intracrânienne, l'engagement des tonsilles cérébelleuses dans le foramen magnum (engagement amygdalien) peut comprimer le centre respiratoire et être mortel."
+   ],
+   "tus": [
+    "Par le foramen magnum passent la moelle allongée, les artères vertébrales, l'artère spinale antérieure et les racines spinales du nerf accessoire.",
+    "Le canal du nerf hypoglosse est situé au-dessus des condyles et livre passage au XII."
+   ],
+   "related": [
+    "atlas",
+    "os-parietale",
+    "os-sphenoidale",
+    "medulla-oblongata"
+   ],
+   "models": [
+    "Occipital bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-temporale",
+   "tr": "Os temporal",
+   "la": "Os temporale",
+   "en": "Temporal bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os pair de forme complexe situé dans la paroi latérale et la base du crâne, qui abrite les organes de l'audition et de l'équilibre. Il forme avec la mandibule l'articulation temporo-mandibulaire.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier (pneumatisé – cellules mastoïdiennes)",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Partie squameuse, partie tympanique, partie pétreuse (rocher) et processus styloïde",
+     "Parties"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Pariétal, occipital, sphénoïde, os zygomatique (arcade zygomatique), mandibule (articulation temporo-mandibulaire)",
+     "Os articulés"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Méats acoustiques externe et interne, processus mastoïde, processus zygomatique, fosse mandibulaire, tubercule articulaire, foramen stylo-mastoïdien, canal carotidien, fosse jugulaire",
+     "Principaux repères"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Oreille moyenne (cavité tympanique et osselets), oreille interne (labyrinthe), canal facial",
+     "Contenu"
+    ]
+   ],
+   "sections": [
+    [
+     "Partie pétreuse",
+     "L'une des parties les plus dures du squelette, elle sépare les fosses crâniennes moyenne et postérieure et contient la cochlée et les canaux semi-circulaires. Le nerf facial chemine dans le canal facial et sort par le foramen stylo-mastoïdien ; l'artère carotide interne pénètre dans le crâne par le canal carotidien."
+    ]
+   ],
+   "clinical": [
+    "Les fractures du temporal peuvent entraîner une surdité de transmission, une otorrhée de liquide cérébrospinal, une paralysie faciale et une ecchymose mastoïdienne (signe de Battle).",
+    "Les otites moyennes peuvent s'étendre aux cellules mastoïdiennes et provoquer une mastoïdite."
+   ],
+   "tus": [
+    "Le nerf facial sort par le foramen stylo-mastoïdien ; le VII, le VIII et l'artère labyrinthique passent par le méat acoustique interne.",
+    "Les fractures du rocher (signe de Battle – ecchymose mastoïdienne, hémotympan) font évoquer une fracture de la base du crâne."
+   ],
+   "related": [
+    "os-parietale",
+    "mandibula",
+    "auris-media",
+    "auris-interna",
+    "art-temporomandibularis"
+   ],
+   "models": [
+    "Temporal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-sphenoidale",
+   "tr": "Os sphénoïde",
+   "la": "Os sphenoidale",
+   "en": "Sphenoid bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os impair situé au milieu de la base du crâne, en forme de chauve-souris aux ailes déployées. Il est en contact avec tous les os du crâne et porte la selle turcique, qui loge l'hypophyse.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier pneumatisé (sinus sphénoïdal)",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Corps, petites ailes, grandes ailes, processus ptérygoïdes",
+     "Parties"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Selle turcique (fosse hypophysaire), canal optique, fissure orbitaire supérieure, foramen rond, foramen ovale, foramen épineux, processus clinoïdes",
+     "Principaux repères"
+    ],
+    [
+     "Geçen yapılar",
+     "Canal optique : nerf optique et artère ophtalmique ; fissure orbitaire supérieure : nerfs III, IV, V1, VI et veine ophtalmique supérieure ; foramen rond : V2 ; foramen ovale : V3 ; foramen épineux : artère méningée moyenne",
+     "Éléments qui le traversent"
+    ]
+   ],
+   "sections": [
+    [
+     "Situation",
+     "Il se trouve au carrefour des fosses crâniennes antérieure, moyenne et postérieure. Le sinus sphénoïdal, creusé dans le corps, s'ouvre dans la partie postéro-supérieure des fosses nasales (récessus sphéno-ethmoïdal). Les processus ptérygoïdes donnent insertion aux muscles ptérygoïdiens."
+    ]
+   ],
+   "clinical": [
+    "Les tumeurs hypophysaires sont souvent abordées par voie nasale à travers le sinus sphénoïdal (chirurgie transsphénoïdale).",
+    "Un adénome hypophysaire peut élargir la selle turcique et comprimer le chiasma optique situé au-dessus, entraînant une hémianopsie bitemporale."
+   ],
+   "tus": [
+    "La petite aile porte le canal optique ; la grande aile, les foramens rond (V2), ovale (V3) et épineux (artère méningée moyenne).",
+    "La fissure orbitaire supérieure est située entre grande et petite ailes (III, IV, V1, VI, veine ophtalmique supérieure)."
+   ],
+   "related": [
+    "hypophysis",
+    "os-ethmoidale",
+    "os-frontale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Sinus of sphenoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-ethmoidale",
+   "tr": "Os ethmoïde",
+   "la": "Os ethmoidale",
+   "en": "Ethmoid bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os impair, léger et spongieux, situé entre les orbites à la partie haute des fosses nasales. Il forme le toit et les parois latérales des fosses nasales ainsi que la partie haute du septum nasal.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier pneumatisé",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Lame criblée, lame perpendiculaire, deux labyrinthes ethmoïdaux (cellules ethmoïdales)",
+     "Parties"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crista galli, orifices de la lame criblée, cornets nasaux supérieur et moyen, lame orbitaire (lame papyracée), bulle ethmoïdale, processus unciforme",
+     "Principaux repères"
+    ],
+    [
+     "Geçen yapılar",
+     "Filets du nerf olfactif (fila olfactoria) par les orifices de la lame criblée",
+     "Éléments qui le traversent"
+    ]
+   ],
+   "sections": [
+    [
+     "Cellules ethmoïdales",
+     "Les cellules ethmoïdales antérieures, moyennes et postérieures sont de petites cavités aériennes ; les antérieures et moyennes s'ouvrent dans le méat moyen, les postérieures dans le méat supérieur. La lame orbitaire tournée vers l'orbite est mince comme du papier."
+    ]
+   ],
+   "clinical": [
+    "Les fractures de la lame criblée peuvent entraîner une perte de l'odorat (anosmie) et une rhinorrhée de liquide cérébrospinal.",
+    "La finesse de la lame papyracée explique qu'une ethmoïdite puisse s'étendre à l'orbite et provoquer une cellulite orbitaire."
+   ],
+   "tus": [
+    "Une fracture de la lame criblée entraîne anosmie et rhinorrhée cérébrospinale ; les « yeux de raton laveur » signent une fracture de l'étage antérieur.",
+    "La lame orbitaire (papyracée) est la paroi la plus mince de l'orbite ; l'ethmoïdite s'étend facilement à l'orbite (cellulite orbitaire)."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-frontale",
+    "cavitas-nasi",
+    "sinus-paranasales",
+    "n-olfactorius"
+   ],
+   "models": [
+    "Ethmoid bone",
+    "Anterior cells of ethmoid bone",
+    "Middle cells of ethmoid bone",
+    "Posterior cells of ethmoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "maxilla",
+   "tr": "Maxillaire",
+   "la": "Maxilla",
+   "en": "Maxilla",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os pair au centre du squelette facial. Il porte les dents supérieures et forme la plus grande partie du palais osseux, la paroi latérale des fosses nasales et le plancher de l'orbite.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier pneumatisé (sinus maxillaire)",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Corps et quatre processus : frontal, zygomatique, alvéolaire et palatin",
+     "Parties"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal, ethmoïde, os nasal, os lacrymal, os zygomatique, os palatin, vomer, cornet nasal inférieur, maxillaire opposé",
+     "Os articulés"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sinus maxillaire, foramen infra-orbitaire, arcade alvéolaire, foramen incisif, épine nasale antérieure",
+     "Principaux repères"
+    ]
+   ],
+   "sections": [
+    [
+     "Sinus maxillaire",
+     "Le plus grand des sinus paranasaux ; son plancher est très proche des racines des molaires supérieures. Il s'ouvre dans le méat moyen par le hiatus semi-lunaire ; son ostium étant situé près du toit, son drainage est difficile."
+    ]
+   ],
+   "clinical": [
+    "L'extraction d'une molaire supérieure peut créer une communication bucco-sinusienne (fistule oro-antrale).",
+    "Les fractures de la face sont classées en Le Fort I, II et III.",
+    "La fente palatine résulte de l'absence de fusion des deux processus palatins."
+   ],
+   "tus": [
+    "Le sinus maxillaire est le plus grand sinus paranasal et se draine mal car son ostium est haut situé ; les racines des molaires supérieures bordent son plancher.",
+    "Le nerf infra-orbitaire (V2) émerge par le foramen infra-orbitaire ; les fractures de Le Fort sont la classification classique des fractures du maxillaire."
+   ],
+   "related": [
+    "mandibula",
+    "os-zygomaticum",
+    "os-palatinum",
+    "dentes",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Maxilla"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mandibula",
+   "tr": "Mandibule",
+   "la": "Mandibula",
+   "en": "Mandible",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Le plus grand et le plus solide des os de la face, seul os mobile du crâne. Elle porte les dents inférieures et forme avec le temporal l'articulation temporo-mandibulaire.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Corps et deux branches ; ils se rejoignent à l'angle de la mandibule",
+     "Parties"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Processus condylaire (tête et col), processus coronoïde, incisure mandibulaire, foramen mandibulaire, lingula, foramen mentonnier, protubérance mentonnière, ligne mylo-hyoïdienne, fosse digastrique",
+     "Principaux repères"
+    ],
+    [
+     "Kas tutunmaları",
+     "Masséter, temporal, ptérygoïdiens médial et latéral, digastrique, mylo-hyoïdien, génio-hyoïdien, génio-glosse, platysma",
+     "Insertions musculaires"
+    ],
+    [
+     "Kemikleşme",
+     "Surtout membranaire ; en deux moitiés à la naissance, soudées à la symphyse mentonnière la première année",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Nerfs et vaisseaux",
+     "Le nerf alvéolaire inférieur pénètre dans le canal mandibulaire par le foramen mandibulaire, innerve les dents inférieures et sort par le foramen mentonnier sous le nom de nerf mentonnier, qui innerve la lèvre inférieure et le menton."
+    ]
+   ],
+   "clinical": [
+    "Les fractures de la mandibule siègent le plus souvent à deux endroits à la fois (par exemple le col d'un côté et le corps de l'autre).",
+    "Pour les soins des dents inférieures, le nerf alvéolaire inférieur est bloqué près de la lingula."
+   ],
+   "tus": [
+    "La mandibule se fracture le plus souvent au col du condyle, à l'angle et au corps (généralement en deux endroits).",
+    "Le ligament sphéno-mandibulaire s'insère sur la lingula, en avant du foramen mandibulaire ; c'est là qu'on pratique le bloc du nerf alvéolaire inférieur."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "art-temporomandibularis",
+    "m-masseter",
+    "dentes"
+   ],
+   "models": [
+    "Mandible"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-zygomaticum",
+   "tr": "Os zygomatique",
+   "la": "Os zygomaticum",
+   "en": "Zygomatic bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os pair qui forme la saillie de la pommette et participe à la paroi latérale et au plancher de l'orbite. Son processus temporal s'unit au processus zygomatique du temporal pour former l'arcade zygomatique.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal, temporal, sphénoïde, maxillaire",
+     "Os articulés"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Processus frontal, processus temporal, foramen zygomatico-facial, foramen zygomatico-temporal",
+     "Principaux repères"
+    ],
+    [
+     "Kas tutunmaları",
+     "Masséter (arcade zygomatique), muscles grand et petit zygomatiques",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Os qui forme la saillie de la pommette. Son processus temporal s'unit au processus zygomatique du temporal pour former l'arcade zygomatique ; son processus frontal forme le bord latéral de l'orbite. Des branches du nerf zygomatique entrent par le foramen zygomatico-orbitaire de sa face orbitaire et gagnent la peau de la joue et de la tempe."
+    ]
+   ],
+   "clinical": [
+    "Les fractures du zygomatique (fracture en trépied) peuvent entraîner une asymétrie faciale, une limitation des mouvements oculaires et une anesthésie de la joue (atteinte du nerf infra-orbitaire).",
+    "Dans les fractures de l'arcade zygomatique, le muscle temporal et le processus coronoïde sous-jacents peuvent être bloqués, limitant l'ouverture buccale."
+   ],
+   "tus": [
+    "Une fracture du complexe zygomatique (trépied) donne un enfoncement de la pommette, une hypoesthésie infra-orbitaire et une limitation de l'ouverture buccale.",
+    "Une fracture de l'arcade zygomatique peut bloquer le processus coronoïde et empêcher l'ouverture de la bouche."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "m-masseter"
+   ],
+   "models": [
+    "Zygomatic bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-nasale",
+   "tr": "Os nasal",
+   "la": "Os nasale",
+   "en": "Nasal bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Petit os pair rectangulaire qui forme la partie haute du dos du nez. Les cartilages du nez s'attachent à son bord inférieur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os plat",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal, os nasal opposé, maxillaire (processus frontal), ethmoïde (lame perpendiculaire)",
+     "Os articulés"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "L'os nasal opposé, le frontal, le maxillaire (processus frontal), l'ethmoïde (lame perpendiculaire)",
+     "Os articulés"
+    ],
+    [
+     "Kemikleşme",
+     "Ossification membranaire",
+     "Ossification"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "C'est l'os de la face le plus souvent fracturé ; si un hématome de la cloison apparaît après la fracture, il faut le drainer pour éviter la nécrose du cartilage."
+   ],
+   "tus": [
+    "Os de la face le plus souvent fracturé ; un hématome septal non drainé entraîne une nécrose cartilagineuse et un nez en selle.",
+    "Dans les fractures des os nasaux, il faut rechercher un hématome de la cloison ; non drainé, il entraîne une nécrose du cartilage septal."
+   ],
+   "related": [
+    "maxilla",
+    "os-frontale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Nasal bone",
+    "Nasal septal cartilage",
+    "Major alar cartilage",
+    "Lateral process of nasal septal cartilage"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-lacrimale",
+   "tr": "Os lacrymal",
+   "la": "Os lacrimale",
+   "en": "Lacrimal bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "L'un des os les plus petits et les plus minces du crâne, à l'avant de la paroi médiale de l'orbite. Il participe à la fosse qui loge le sac lacrymal.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os plat",
+     "Type d'os"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crête lacrymale postérieure, sillon lacrymal (partie postérieure de la fosse du sac lacrymal), hamulus lacrymal",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Frontal, ethmoïde, maxillaire, cornet nasal inférieur",
+     "Os articulés"
+    ]
+   ],
+   "sections": [
+    [
+     "Fonction",
+     "Avec le maxillaire, il forme la fosse du sac lacrymal et le canal lacrymo-nasal, qui s'ouvre dans les fosses nasales."
+    ]
+   ],
+   "clinical": [
+    "En cas d'obstruction du canal lacrymo-nasal, la dacryocystorhinostomie ouvre cet os mince pour relier le sac lacrymal aux fosses nasales.",
+    "La dacryocystorhinostomie (ouverture du sac lacrymal dans le nez) se fait à travers l'os lacrymal et le processus frontal du maxillaire."
+   ],
+   "tus": [
+    "Le plus petit et le plus mince des os de la face ; il forme la partie postérieure de la fosse du sac lacrymal."
+   ],
+   "related": [
+    "apparatus-lacrimalis",
+    "os-ethmoidale",
+    "maxilla"
+   ],
+   "models": [
+    "Lacrimal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-palatinum",
+   "tr": "Os palatin",
+   "la": "Os palatinum",
+   "en": "Palatine bone",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os pair en forme de L qui forme la partie postérieure du palais osseux, l'arrière de la paroi latérale des fosses nasales et une petite partie du plancher de l'orbite.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Lame horizontale, lame perpendiculaire ; processus pyramidal, orbitaire et sphénoïdal",
+     "Parties"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Foramens grand et petits palatins, épine nasale postérieure",
+     "Principaux repères"
+    ]
+   ],
+   "sections": [
+    [
+     "Éléments qui le traversent",
+     "Le nerf et l'artère grands palatins passent par le foramen grand palatin, les nerfs petits palatins par les foramens petits palatins."
+    ]
+   ],
+   "clinical": [
+    "Dans la fente palatine, les processus palatins des maxillaires et les lames horizontales des palatins ne s'unissent pas sur la ligne médiane ; elle perturbe l'alimentation et la parole."
+   ],
+   "tus": [
+    "Les nerfs et vaisseaux homonymes gagnent le palais par les foramens grand et petits palatins (V2, branches de l'artère palatine descendante)."
+   ],
+   "related": [
+    "maxilla",
+    "vomer",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Palatine bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "vomer",
+   "tr": "Vomer",
+   "la": "Vomer",
+   "en": "Vomer",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os impair et mince, en forme de soc de charrue, qui forme la partie postéro-inférieure du septum nasal.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os plat",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Sphénoïde, ethmoïde, maxillaires, palatins, cartilage septal",
+     "Os articulés"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Sphénoïde, ethmoïde (lame perpendiculaire), maxillaires, palatins ; son bord antérieur s'unit au cartilage septal",
+     "Os articulés"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La déviation de la cloison nasale touche souvent la jonction entre vomer et cartilage septal et peut obstruer le nez.",
+    "La déviation de la cloison est surtout due à une angulation à la jonction du vomer et du cartilage septal."
+   ],
+   "tus": [
+    "Il forme la partie postéro-inférieure de la cloison ; son bord postérieur libre sépare les choanes."
+   ],
+   "related": [
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Vomer"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "concha-nasalis-inferior",
+   "tr": "Cornet nasal inférieur",
+   "la": "Concha nasalis inferior",
+   "en": "Inferior nasal concha",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Os pair, enroulé et indépendant, situé sur la paroi latérale des fosses nasales. Sa muqueuse réchauffe et humidifie l'air inspiré.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Maxillaire, os lacrymal, ethmoïde, os palatin",
+     "Os articulés"
+    ],
+    [
+     "İlişki",
+     "Le canal lacrymo-nasal s'ouvre dans le méat inférieur situé en dessous",
+     "Rapports"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'hypertrophie du cornet inférieur est une cause fréquente d'obstruction nasale ; en cas d'échec du traitement médical, on réalise une turbinoréduction."
+   ],
+   "tus": [
+    "Le canal lacrymo-nasal s'ouvre dans le méat inférieur sous-jacent ; aucun sinus paranasal ne s'y ouvre."
+   ],
+   "related": [
+    "cavitas-nasi",
+    "os-lacrimale",
+    "maxilla"
+   ],
+   "models": [
+    "Inferior nasal concha bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-hyoideum",
+   "tr": "Os hyoïde",
+   "la": "Os hyoideum",
+   "en": "Hyoid bone",
+   "group": "Crâne (Cranium)",
+   "region": "neck",
+   "summary": "Os en forme de U situé à la partie antérieure et haute du cou, entre la mandibule et le larynx. Il ne s'articule avec aucun autre os et est suspendu par des muscles et des ligaments.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Corps, deux grandes cornes, deux petites cornes",
+     "Parties"
+    ],
+    [
+     "Seviye",
+     "Niveau de la vertèbre C3",
+     "Niveau"
+    ],
+    [
+     "Kas tutunmaları",
+     "Muscles sus-hyoïdiens (digastrique, stylo-hyoïdien, mylo-hyoïdien, génio-hyoïdien), muscles sous-hyoïdiens (sterno-hyoïdien, omo-hyoïdien, thyro-hyoïdien), hyo-glosse, constricteur moyen du pharynx",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Fonction",
+     "Il forme une base mobile pour la racine de la langue et permet l'élévation et l'abaissement du larynx lors de la déglutition et de la parole."
+    ]
+   ],
+   "clinical": [
+    "En médecine légale, une fracture de l'hyoïde fait suspecter une strangulation manuelle."
+   ],
+   "tus": [
+    "La fracture de l'hyoïde est un signe médico-légal important de strangulation.",
+    "L'hyoïde est en regard de C3 ; le kyste du tractus thyréoglosse est en rapport avec son corps, dont la partie médiane est réséquée lors de l'intervention (Sistrunk)."
+   ],
+   "related": [
+    "larynx",
+    "lingua",
+    "mandibula"
+   ],
+   "models": [
+    "Hyoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossicula-auditus",
+   "tr": "Osselets de l'ouïe",
+   "la": "Ossicula auditus",
+   "en": "Auditory ossicles",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Chaîne de trois petits os de l'oreille moyenne qui transmet le son du tympan à l'oreille interne : le malléus (marteau), l'incus (enclume) et le stapes (étrier). L'étrier est le plus petit os du corps.",
+   "facts": [
+    [
+     "Kemikler",
+     "Malléus (marteau), incus (enclume), stapes (étrier)",
+     "Os"
+    ],
+    [
+     "Eklemler",
+     "Articulations incudo-malléaire et incudo-stapédienne (synoviales)",
+     "Articulations"
+    ],
+    [
+     "İlişkili kaslar",
+     "Muscle tenseur du tympan (sur le marteau ; nerf trijumeau/V3) et muscle stapédien (sur l'étrier ; nerf facial)",
+     "Muscles associés"
+    ],
+    [
+     "İşlevi",
+     "Transmettent les vibrations sonores du tympan à la fenêtre ovale et les amplifient environ 20 fois",
+     "Fonction"
+    ]
+   ],
+   "sections": [
+    [
+     "Trajet",
+     "Le manche du marteau est fixé au tympan ; sa tête s'articule avec le corps de l'enclume. La longue branche de l'enclume rejoint la tête de l'étrier, dont la base obture la fenêtre ovale de l'oreille interne."
+    ]
+   ],
+   "clinical": [
+    "L'otospongiose est la fixation osseuse de la base de l'étrier à la fenêtre ovale ; elle entraîne une surdité de transmission et se traite par stapédectomie.",
+    "Dans la paralysie faciale, le muscle stapédien ne fonctionne plus : les sons forts deviennent pénibles (hyperacousie)."
+   ],
+   "tus": [
+    "Le marteau et l'enclume dérivent du 1er arc pharyngien (Meckel), l'étrier du 2e (Reichert).",
+    "Le tenseur du tympan (V3) s'insère sur le marteau, le stapédien (VII) sur l'étrier ; la paralysie du stapédien donne une hyperacousie."
+   ],
+   "related": [
+    "auris-media",
+    "os-temporale",
+    "n-facialis"
+   ],
+   "models": [
+    "Malleus",
+    "Incus",
+    "Stapes"
+   ],
+   "aliases": [
+    "marteau",
+    "enclume",
+    "étrier",
+    "osselets"
+   ]
+  },
+  {
+   "id": "dentes",
+   "tr": "Dents",
+   "la": "Dentes",
+   "en": "Teeth",
+   "group": "Crâne (Cranium)",
+   "region": "head",
+   "summary": "Structures dures qui coupent, déchirent et broient les aliments. L'adulte possède 32 dents définitives (par hémi-arcade 2 incisives, 1 canine, 2 prémolaires et 3 molaires) ; les dents de lait sont au nombre de 20.",
+   "facts": [
+    [
+     "Diş formülü (kalıcı)",
+     "2-1-2-3 (par quadrant) ; 32 au total",
+     "Formule dentaire (définitive)"
+    ],
+    [
+     "Yapısı",
+     "Émail, dentine, cément, pulpe dentaire",
+     "Structure"
+    ],
+    [
+     "Bölümleri",
+     "Couronne, collet, racine",
+     "Parties"
+    ],
+    [
+     "İnnervasyon",
+     "Dents supérieures : nerfs alvéolaires supérieurs (V2) ; dents inférieures : nerf alvéolaire inférieur (V3)",
+     "Innervation"
+    ],
+    [
+     "Sürme",
+     "Dents de lait entre 6 et 24 mois ; dents définitives entre 6 et 12 ans, dents de sagesse entre 17 et 25 ans",
+     "Éruption"
+    ]
+   ],
+   "sections": [
+    [
+     "Types de dents",
+     "Les incisives coupent, les canines déchirent, les prémolaires et molaires broient. L'émail est le tissu le plus dur du corps."
+    ]
+   ],
+   "clinical": [
+    "Une carie atteignant la pulpe (pulpite) provoque une douleur intense et peut nécessiter un traitement de canal.",
+    "Les dents de sagesse incluses peuvent provoquer une péricoronarite et endommager la dent voisine."
+   ],
+   "tus": [
+    "La première dent définitive à faire éruption est la première molaire (~6 ans) ; la dernière est la troisième molaire (dent de sagesse).",
+    "Les dents supérieures sont innervées par les nerfs alvéolaires supérieurs (V2), les inférieures par le nerf alvéolaire inférieur (V3)."
+   ],
+   "related": [
+    "mandibula",
+    "maxilla",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Teeth"
+   ],
+   "aliases": [
+    "dent",
+    "molaire",
+    "incisive",
+    "canine"
+   ]
+  },
+  {
+   "id": "columna-vertebralis",
+   "tr": "Colonne vertébrale (structure et courbures)",
+   "la": "Columna vertebralis",
+   "en": "Vertebral column",
+   "group": "Colonne vertébrale",
+   "region": "back",
+   "summary": "Axe flexible de 33 vertèbres allant du crâne au coccyx. Elle porte le poids du tronc, protège la moelle spinale et permet le mouvement. Vue de profil, elle présente quatre courbures physiologiques.",
+   "facts": [
+    [
+     "Sayı",
+     "33 vertèbres : 7 cervicales, 12 thoraciques, 5 lombales, 5 sacrales (soudées en sacrum) et 3–5 coccygiennes (soudées en coccyx)",
+     "Nombre"
+    ],
+    [
+     "Tipik omurun bölümleri",
+     "Corps, arc vertébral (pédicules et lames), processus épineux, deux processus transverses, quatre processus articulaires ; le foramen vertébral se trouve entre corps et arc",
+     "Parties d'une vertèbre type"
+    ],
+    [
+     "Eğrilik",
+     "Lordoses cervicale et lombale (convexes en avant – courbures secondaires), cyphoses thoracique et sacrale (convexes en arrière – courbures primaires)",
+     "Courbure"
+    ],
+    [
+     "Delikler",
+     "Les foramens vertébraux superposés forment le canal vertébral ; les incisures des vertèbres voisines forment les foramens intervertébraux (sortie des nerfs spinaux)",
+     "Foramens"
+    ],
+    [
+     "Bölgesel ayırt edici özellikler",
+     "Cervicale : foramen transversaire, épineuse bifide ; thoracique : surfaces articulaires costales, longue épineuse oblique en bas ; lombale : gros corps réniforme, épineuse courte et épaisse",
+     "Caractères régionaux"
+    ]
+   ],
+   "sections": [
+    [
+     "Développement des courbures",
+     "Chez le fœtus, le rachis forme une seule courbe en C concave en avant (cyphose primaire). Quand le nourrisson tient sa tête apparaît la lordose cervicale, quand il s'assoit et marche la lordose lombale. Ces courbures secondaires permettent de porter le poids avec un effet de ressort."
+    ]
+   ],
+   "clinical": [
+    "La scoliose est une courbure latérale avec rotation du rachis ; la forme la plus fréquente est idiopathique de l'adolescent et se voit le mieux au test de flexion antérieure.",
+    "L'hypercyphose s'observe dans les tassements vertébraux ostéoporotiques et la maladie de Scheuermann, l'hyperlordose dans la grossesse et l'obésité.",
+    "Le spondylolisthésis est le glissement d'une vertèbre vers l'avant sur la sous-jacente ; il est le plus fréquent en L5–S1."
+   ],
+   "tus": [
+    "Les courbures primaires sont les cyphoses thoracique et sacrale, les secondaires les lordoses cervicale et lombale.",
+    "À l'étage cervical, les nerfs spinaux sortent au-dessus de la vertèbre de même numéro (sauf C8) ; aux étages thoracique et lombal, au-dessous."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "vertebrae-thoracicae",
+    "vertebrae-lumbales",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "ligg-columnae"
+   ],
+   "models": [
+    "Vertebral column"
+   ],
+   "aliases": [
+    "rachis",
+    "colonne"
+   ]
+  },
+  {
+   "id": "vertebrae-cervicales",
+   "tr": "Vertèbres cervicales",
+   "la": "Vertebrae cervicales (C1–C7)",
+   "en": "Cervical vertebrae",
+   "group": "Colonne vertébrale",
+   "region": "neck",
+   "summary": "Les sept vertèbres du cou. Leur petit corps, le foramen de leurs processus transverses (foramen transversaire) et leur processus épineux bifide les distinguent des autres vertèbres.",
+   "facts": [
+    [
+     "Sayı",
+     "7 (C1–C7)",
+     "Nombre"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Foramen transversaire (passage de l'artère et de la veine vertébrales ; en général seulement la veine en C7), processus épineux bifide (C2–C6), grand foramen vertébral triangulaire",
+     "Caractère distinctif"
+    ],
+    [
+     "Özel omurlar",
+     "C1 atlas, C2 axis, C7 vertèbre proéminente (processus épineux le plus saillant)",
+     "Vertèbres particulières"
+    ],
+    [
+     "Eğrilik",
+     "Convexe vers l'avant (lordose cervicale)",
+     "Courbure"
+    ]
+   ],
+   "sections": [
+    [
+     "Mouvements",
+     "Le rachis cervical est le segment le plus mobile : flexion, extension, inclinaison latérale et rotation. Environ la moitié de la rotation de la tête se fait dans l'articulation atlanto-axoïdienne. Les processus unciformes des bords latéraux des corps de C3–C6 forment les articulations unco-vertébrales (de Luschka)."
+    ]
+   ],
+   "clinical": [
+    "Les traumatismes en accélération–décélération brutale (coup du lapin) sollicitent les parties molles du cou.",
+    "C5–C6 et C6–C7 sont les niveaux les plus fréquents des hernies discales et de l'arthrose cervicales."
+   ],
+   "tus": [
+    "Le caractère distinctif des vertèbres cervicales est le foramen transversaire ; C3–C7 portent des processus unciformes (articulations de Luschka).",
+    "Le tubercule antérieur du processus transverse de C6 (tubercule de Chassaignac) est le point de compression de l'artère carotide commune."
+   ],
+   "related": [
+    "atlas",
+    "axis",
+    "vertebrae-thoracicae",
+    "medulla-spinalis",
+    "a-vertebralis"
+   ],
+   "models": [
+    "Cervical vertebrae",
+    "Vertebra C3",
+    "Vertebra C4",
+    "Vertebra C5",
+    "Vertebra C6",
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "vertèbres du cou"
+   ]
+  },
+  {
+   "id": "atlas",
+   "tr": "Atlas (C1)",
+   "la": "Atlas (C1)",
+   "en": "Atlas (C1)",
+   "group": "Colonne vertébrale",
+   "region": "neck",
+   "summary": "Première vertèbre cervicale, qui porte le crâne. Elle n'a ni corps ni processus épineux ; c'est un anneau formé d'arcs antérieur et postérieur et de deux masses latérales.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Arc antérieur, arc postérieur, masses latérales, processus transverses",
+     "Parties"
+    ],
+    [
+     "Eklemleri",
+     "Articulation atlanto-occipitale (avec les condyles occipitaux ; mouvement du « oui » – flexion/extension), articulation atlanto-axoïdienne (avec l'axis ; mouvement du « non » – rotation)",
+     "Articulations"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Fovéa de la dent, tubercules antérieur et postérieur, sillon de l'artère vertébrale",
+     "Principaux repères"
+    ],
+    [
+     "Bağlar",
+     "Le ligament transverse de l'atlas maintient la dent contre sa fovéa",
+     "Ligaments"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "L'atlas n'a ni corps ni processus épineux ; c'est un anneau formé d'un arc antérieur, d'un arc postérieur et de deux masses latérales. La dent de l'axis s'appuie sur la fossette de la face postérieure de l'arc antérieur et est maintenue en arrière par le ligament transverse de l'atlas. L'artère vertébrale et le nerf sous-occipital (C1) passent dans la gouttière de la face supérieure de l'arc postérieur."
+    ]
+   ],
+   "clinical": [
+    "La fracture des deux arcs de l'atlas après une chute sur la tête est appelée fracture de Jefferson.",
+    "Dans la polyarthrite rhumatoïde ou la trisomie 21, la laxité du ligament transverse peut entraîner une instabilité atlanto-axoïdienne et une compression médullaire."
+   ],
+   "tus": [
+    "La fracture de Jefferson est une rupture de l'anneau de l'atlas en plusieurs points par compression axiale (plongeon).",
+    "L'artère vertébrale chemine dans le sillon de la face supérieure de l'arc postérieur de l'atlas."
+   ],
+   "related": [
+    "axis",
+    "os-occipitale",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Atlas (C1)"
+   ],
+   "aliases": [
+    "C1",
+    "première vertèbre cervicale"
+   ]
+  },
+  {
+   "id": "axis",
+   "tr": "Axis (C2)",
+   "la": "Axis (C2)",
+   "en": "Axis (C2)",
+   "group": "Colonne vertébrale",
+   "region": "neck",
+   "summary": "Deuxième vertèbre cervicale ; le processus en forme de dent qui s'élève de son corps (la dent de l'axis) est le pivot autour duquel tourne l'atlas.",
+   "facts": [
+    [
+     "Ayırt edici özellik",
+     "Dent de l'axis (processus odontoïde) – embryologiquement le corps de l'atlas",
+     "Caractère distinctif"
+    ],
+    [
+     "Eklemleri",
+     "Articulation atlanto-axoïdienne médiane (dent–atlas) et latérales, articulation intervertébrale avec C3",
+     "Articulations"
+    ],
+    [
+     "Bağlar",
+     "Ligaments alaires, ligament de l'apex de la dent, membrane tectoriale, ligament cruciforme de l'atlas",
+     "Ligaments"
+    ],
+    [
+     "Bağlar",
+     "Ligament transverse de l'atlas (maintient la dent en arrière), ligaments alaires (de la dent aux condyles occipitaux), ligament de l'apex de la dent, membrane tectoriale",
+     "Ligaments"
+    ]
+   ],
+   "sections": [
+    [
+     "Dent de l'axis",
+     "Sur le plan embryologique, elle correspond au corps de l'atlas soudé à l'axis. Environ la moitié de la rotation de la tête se fait autour de ce processus, dans l'articulation atlanto-axiale."
+    ]
+   ],
+   "clinical": [
+    "Les fractures de la dent sont fréquentes chez le sujet âgé après une chute.",
+    "Dans la pendaison (fracture du pendu), les pédicules de l'axis se rompent."
+   ],
+   "tus": [
+    "La fracture du pendu est une fracture bilatérale de l'isthme (pars interarticularis) de l'axis.",
+    "Les fractures de la dent siègent le plus souvent à sa base (type II), avec un risque élevé de pseudarthrose."
+   ],
+   "related": [
+    "atlas",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Axis (C2)"
+   ],
+   "aliases": [
+    "C2",
+    "dent de l'axis",
+    "odontoïde"
+   ]
+  },
+  {
+   "id": "vertebra-prominens",
+   "tr": "Septième vertèbre cervicale (vertèbre proéminente)",
+   "la": "Vertebra prominens (C7)",
+   "en": "Seventh cervical vertebra",
+   "group": "Colonne vertébrale",
+   "region": "neck",
+   "summary": "La plus basse des vertèbres cervicales. Son long processus épineux non bifide se palpe facilement sous la peau à la partie basse de la nuque et sert de point de départ pour compter les vertèbres.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os irrégulier – vertèbre cervicale atypique",
+     "Type d'os"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Long processus épineux non bifide, terminé par un tubercule ; petit foramen transversaire (en général seule la veine vertébrale y passe)",
+     "Caractère distinctif"
+    ],
+    [
+     "Eklemleri",
+     "Vertèbres C6 et T1 (disques et articulations zygapophysaires)",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Extrémité inférieure du ligament nucal, trapèze, petit rhomboïde, dentelé postéro-supérieur, splénius de la tête",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'épineuse la plus saillante palpée à la nuque est en général C7 ; chez certains, celle de T1 est plus proéminente.",
+    "Un long processus transverse de C7 ou une côte cervicale peut comprimer le tronc inférieur du plexus brachial et provoquer un syndrome du défilé thoraco-brachial."
+   ],
+   "tus": [
+    "L'artère vertébrale entre le plus souvent dans le foramen transversaire de C6 ; seule la veine vertébrale traverse habituellement celui de C7.",
+    "La côte cervicale naît le plus souvent de C7 et fait partie des causes du syndrome du défilé thoraco-brachial."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ],
+   "models": [
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "C7",
+    "vertèbre proéminente"
+   ]
+  },
+  {
+   "id": "vertebrae-thoracicae",
+   "tr": "Vertèbres thoraciques",
+   "la": "Vertebrae thoracicae (T1–T12)",
+   "en": "Thoracic vertebrae",
+   "group": "Colonne vertébrale",
+   "region": "back",
+   "summary": "Les douze vertèbres qui s'articulent avec les côtes. Elles portent des surfaces articulaires costales sur les côtés de leur corps et sur leurs processus transverses (fossettes costales).",
+   "facts": [
+    [
+     "Sayı",
+     "12 (T1–T12)",
+     "Nombre"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Fossettes costales supérieure et inférieure sur le corps et fossette costale sur le processus transverse ; processus épineux longs et inclinés vers le bas ; foramen vertébral arrondi",
+     "Caractère distinctif"
+    ],
+    [
+     "Eklemleri",
+     "Avec les côtes : articulations de la tête costale et costo-transversaires",
+     "Articulations"
+    ],
+    [
+     "Eğrilik",
+     "Convexe vers l'arrière (cyphose thoracique)",
+     "Courbure"
+    ]
+   ],
+   "sections": [
+    [
+     "Mouvements",
+     "La cage thoracique limite flexion et extension ; les surfaces articulaires, orientées dans le plan frontal, autorisent la rotation. Les processus épineux se recouvrent comme des tuiles."
+    ]
+   ],
+   "clinical": [
+    "Chez le sujet âgé ostéoporotique, les fractures-tassements des vertèbres thoraciques accentuent la cyphose (dos voûté).",
+    "La scoliose, courbure latérale, est la plus fréquente en région thoracique."
+   ],
+   "tus": [
+    "Les corps de T1–T9 portent deux demi-fossettes, ceux de T10–T12 une seule fossette entière.",
+    "Au rachis thoracique, les articulations zygapophysaires sont dans le plan frontal ; la rotation est possible, la flexion limitée par les côtes."
+   ],
+   "related": [
+    "costae",
+    "vertebrae-cervicales",
+    "vertebrae-lumbales",
+    "sternum"
+   ],
+   "models": [
+    "Thoracic vertebrae"
+   ],
+   "aliases": [
+    "vertèbres dorsales"
+   ]
+  },
+  {
+   "id": "vertebrae-lumbales",
+   "tr": "Vertèbres lombaires",
+   "la": "Vertebrae lumbales (L1–L5)",
+   "en": "Lumbar vertebrae",
+   "group": "Colonne vertébrale",
+   "region": "back",
+   "summary": "Les vertèbres les plus grandes et les plus solides du rachis. Comme elles portent l'essentiel du poids du corps, leur corps est volumineux et réniforme.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (L1–L5)",
+     "Nombre"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Corps volumineux, processus épineux épais, horizontaux et rectangulaires, processus mamillaires et accessoires ; pas de foramen transversaire ni de fossette costale",
+     "Caractère distinctif"
+    ],
+    [
+     "Omurilik ilişkisi",
+     "Chez l'adulte, la moelle se termine en L1–L2 par le cône médullaire ; en dessous se trouve la queue de cheval",
+     "Rapport avec la moelle spinale"
+    ],
+    [
+     "Eğrilik",
+     "Convexe vers l'avant (lordose lombaire)",
+     "Courbure"
+    ]
+   ],
+   "sections": [
+    [
+     "Mouvements",
+     "Les surfaces articulaires étant proches du plan sagittal, flexion et extension sont libres et la rotation est limitée."
+    ]
+   ],
+   "clinical": [
+    "La hernie discale lombaire est la plus fréquente en L4–L5 et L5–S1 et provoque une douleur irradiant le long du nerf sciatique.",
+    "La ponction lombaire se fait généralement en L3–L4 ou L4–L5 pour éviter la moelle.",
+    "Le spondylolisthésis est le glissement en avant d'une vertèbre sur la sous-jacente ; il est le plus fréquent en L5."
+   ],
+   "tus": [
+    "La spondylolyse est un défect de l'isthme (« collier du chien écossais » sur les clichés obliques) ; elle siège surtout en L5.",
+    "Les articulations zygapophysaires lombaires sont sagittales : elles permettent la flexion-extension et limitent la rotation."
+   ],
+   "related": [
+    "vertebrae-thoracicae",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "plexus-lumbalis"
+   ],
+   "models": [
+    "Lumbar vertebrae"
+   ],
+   "aliases": [
+    "rachis lombaire"
+   ]
+  },
+  {
+   "id": "os-sacrum",
+   "tr": "Sacrum",
+   "la": "Os sacrum",
+   "en": "Sacrum",
+   "group": "Colonne vertébrale",
+   "region": "pelvis",
+   "summary": "Os triangulaire formé par la soudure des cinq vertèbres sacrales. Il forme la paroi postérieure du bassin et s'articule avec les os coxaux par les articulations sacro-iliaques.",
+   "facts": [
+    [
+     "Oluşum",
+     "Soudure des 5 vertèbres sacrales (S1–S5), achevée vers 25 ans",
+     "Formation"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Promontoire, foramens sacraux antérieurs et postérieurs, crête sacrale médiane, hiatus sacral, surface auriculaire, canal sacral, aile du sacrum",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleri",
+     "L5 (articulation lombo-sacrale), os coxaux (articulations sacro-iliaques), coccyx",
+     "Articulations"
+    ],
+    [
+     "Cinsiyet farkı",
+     "Plus large, plus court et moins incurvé chez la femme",
+     "Différences selon le sexe"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Os triangulaire formé par la soudure de cinq vertèbres sacrales. Sa face antérieure (pelvienne) est concave ; les rameaux antérieurs des nerfs sacraux sortent par quatre paires de foramens sacraux antérieurs. Sur sa face postérieure se trouvent la crête sacrale médiane (vestige des épineuses) et, en bas, le hiatus sacral et les cornes sacrales. La saillie antérieure de son bord supérieur est le promontoire."
+    ]
+   ],
+   "clinical": [
+    "L'anesthésie caudale dans l'espace épidural par le hiatus sacral est utilisée en obstétrique et en chirurgie pédiatrique.",
+    "Le promontoire est un repère important des mensurations obstétricales du bassin (diamètre promonto-rétropubien).",
+    "L'anesthésie péridurale caudale se fait par le hiatus sacral ; les cornes sacrales sont les repères palpables pour l'aiguille."
+   ],
+   "tus": [
+    "Le sacrum résulte de la soudure de cinq vertèbres sacrales ; les rameaux antérieurs des nerfs sacraux sortent par les foramens sacraux antérieurs.",
+    "Le poids est transmis au bassin par les articulations sacro-iliaques ; le promontoire sert de repère aux mesures obstétricales."
+   ],
+   "related": [
+    "os-coccygis",
+    "os-coxae",
+    "vertebrae-lumbales",
+    "art-sacroiliaca"
+   ],
+   "models": [
+    "Sacrum"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-coccygis",
+   "tr": "Coccyx",
+   "la": "Os coccygis",
+   "en": "Coccyx",
+   "group": "Colonne vertébrale",
+   "region": "pelvis",
+   "summary": "Petit os triangulaire à l'extrémité inférieure de la colonne, formé par la soudure de 3 à 5 vertèbres rudimentaires.",
+   "facts": [
+    [
+     "Oluşum",
+     "Soudure de 3 à 5 vertèbres coccygiennes",
+     "Formation"
+    ],
+    [
+     "Tutunanlar",
+     "Grand fessier, muscle coccygien, élévateur de l'anus (ligament ano-coccygien), ligament sacro-tubéral",
+     "Insertions"
+    ],
+    [
+     "Eklem",
+     "Articulation sacro-coccygienne avec le sacrum",
+     "Articulation"
+    ],
+    [
+     "Kas tutunmaları",
+     "Grand fessier (face postérieure), coccygien et partie ilio-coccygienne de l'élévateur de l'anus (par le ligament ano-coccygien)",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Une chute sur les fesses peut fracturer le coccyx ou provoquer une coccygodynie."
+   ],
+   "tus": [
+    "La coccygodynie survient généralement après une chute ou un accouchement.",
+    "Le grand fessier, le ligament sacro-tubéral et une partie de l'élévateur de l'anus (ligament ano-coccygien) s'insèrent sur le coccyx."
+   ],
+   "related": [
+    "os-sacrum",
+    "diaphragma-pelvis"
+   ],
+   "models": [
+    "Coccyx"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "sternum",
+   "tr": "Sternum",
+   "la": "Sternum",
+   "en": "Sternum",
+   "group": "Cage thoracique",
+   "region": "thorax",
+   "summary": "Os plat en forme d'épée, situé sur la ligne médiane antérieure du thorax. Il s'articule avec les clavicules et les sept premières paires de cartilages costaux.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os plat (contient de la moelle rouge)",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Manubrium, corps, processus xiphoïde",
+     "Parties"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Incisure jugulaire, incisures claviculaires, angle sternal (angle de Louis – niveau de la 2e côte), incisures costales",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleri",
+     "Clavicule (articulation sterno-claviculaire), 1er–7e cartilages costaux (articulations sterno-costales)",
+     "Articulations"
+    ]
+   ],
+   "sections": [
+    [
+     "Angle sternal",
+     "La jonction manubrium–corps se palpe sous la peau et repère la 2e côte. À ce niveau (T4–T5), la crosse de l'aorte commence et se termine, et la trachée se divise (bifurcation trachéale)."
+    ]
+   ],
+   "clinical": [
+    "Une ponction de moelle osseuse peut être faite au sternum.",
+    "En chirurgie cardiaque, le sternum est ouvert sur la ligne médiane (sternotomie médiane).",
+    "Le massage cardiaque se fait sur la moitié inférieure du sternum ; une pression sur le processus xiphoïde peut léser le foie."
+   ],
+   "tus": [
+    "Le corps du sternum sert à la ponction sternale ; prudence, le cœur et les gros vaisseaux sont juste derrière.",
+    "L'incisure jugulaire du manubrium est en regard du bord inférieur de T2, l'articulation xipho-sternale de T9."
+   ],
+   "related": [
+    "costae",
+    "clavicula",
+    "cartilagines-costales"
+   ],
+   "models": [
+    "Sternum",
+    "Manubrium of sternum",
+    "Body of sternum",
+    "Xiphoid process"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "costae",
+   "tr": "Côtes",
+   "la": "Costae",
+   "en": "Ribs",
+   "group": "Cage thoracique",
+   "region": "thorax",
+   "summary": "Douze paires d'os plats incurvés qui forment les parois latérales de la cage thoracique. Elles s'unissent en arrière aux vertèbres thoraciques et en avant au sternum par leurs cartilages.",
+   "facts": [
+    [
+     "Sayı ve tipleri",
+     "12 paires : 1–7 vraies côtes, 8–10 fausses côtes, 11–12 côtes flottantes",
+     "Nombre et types"
+    ],
+    [
+     "Bölümleri",
+     "Tête, col, tubercule, corps, angle",
+     "Parties"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sillon costal (au bord inférieur – veine, artère et nerf intercostaux, dans l'ordre VAN), crête de la tête",
+     "Principaux repères"
+    ],
+    [
+     "Atipik kaburgalar",
+     "Côtes 1, 2, 10, 11 et 12 ; la 1re est la plus courte, la plus plate et la plus incurvée (sillons de l'artère et de la veine subclavières, tubercule du scalène)",
+     "Côtes atypiques"
+    ]
+   ],
+   "sections": [
+    [
+     "Rôle dans la respiration",
+     "À l'inspiration, les côtes supérieures soulèvent le sternum vers l'avant et augmentent le diamètre antéro-postérieur (mouvement en « bras de pompe ») ; les côtes inférieures s'écartent et augmentent le diamètre transversal (mouvement en « anse de seau »)."
+    ]
+   ],
+   "clinical": [
+    "Drains thoraciques et ponctions pleurales passent au bord supérieur de la côte pour épargner le pédicule intercostal.",
+    "Plusieurs côtes fracturées en deux endroits donnent un volet costal avec respiration paradoxale.",
+    "Une côte cervicale peut comprimer le plexus brachial ou l'artère subclavière (syndrome du défilé thoraco-brachial)."
+   ],
+   "tus": [
+    "Une côte typique a une tête, un col, un tubercule, un angle et un sillon costal ; les côtes 1, 2, 10, 11 et 12 sont atypiques.",
+    "Les fractures siègent le plus souvent juste en avant de l'angle ; le volet costal associe deux fractures sur plusieurs côtes."
+   ],
+   "related": [
+    "sternum",
+    "vertebrae-thoracicae",
+    "cartilagines-costales",
+    "mm-intercostales",
+    "diaphragma"
+   ],
+   "models": [
+    "Ribs"
+   ],
+   "aliases": [
+    "côte"
+   ]
+  },
+  {
+   "id": "costae-atypicae",
+   "tr": "Côtes atypiques",
+   "la": "Costae atypicae (I, II, X–XII)",
+   "en": "Atypical ribs",
+   "group": "Cage thoracique",
+   "region": "thorax",
+   "summary": "Côtes qui s'écartent de la structure d'une côte type : les 1re et 2e côtes sont courtes et larges ; la tête des 10e, 11e et 12e côtes n'a qu'une surface articulaire, et les 11e et 12e sont des côtes flottantes à extrémité antérieure libre.",
+   "facts": [
+    [
+     "1. kaburga",
+     "La plus courte, la plus large et la plus courbe ; sur sa face supérieure le tubercule du scalène antérieur, en avant la gouttière de la veine subclavière et en arrière celle de l'artère subclavière et du tronc inférieur du plexus brachial ; une seule surface articulaire sur la tête (T1)",
+     "1re côte"
+    ],
+    [
+     "2. kaburga",
+     "Deux fois plus longue que la 1re et plus fine ; sur sa face externe la tubérosité du dentelé antérieur",
+     "2e côte"
+    ],
+    [
+     "10. kaburga",
+     "Sa tête n'a qu'une surface articulaire (elle ne s'articule qu'avec T10)",
+     "10e côte"
+    ],
+    [
+     "11. ve 12. kaburgalar",
+     "Côtes flottantes : courtes, sans col ni tubercule ; leur extrémité antérieure est libre dans les muscles de l'abdomen ; elles ne s'articulent pas avec les processus transverses",
+     "11e et 12e côtes"
+    ],
+    [
+     "Kaburga sınıflaması",
+     "Vraies côtes (1–7 : chacune avec son cartilage au sternum), fausses côtes (8–10 : au cartilage sus-jacent), côtes flottantes (11–12)",
+     "Classification des côtes"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Une fracture de la 1re côte témoigne d'un traumatisme violent et doit faire rechercher une lésion de l'artère subclavière et du plexus brachial sous-jacents.",
+    "La 12e côte est au contact de la face postérieure du rein ; en chirurgie rénale et dans les fractures de la 12e côte, il faut penser aux lésions pleurales et rénales."
+   ],
+   "tus": [
+    "Sur la face supérieure de la 1re côte, la veine subclavière passe en avant du tubercule du scalène, l'artère subclavière et le tronc inférieur du plexus brachial en arrière.",
+    "En arrière, la limite inférieure de la plèvre peut descendre sous la 12e côte ; les interventions rénales dans cette région exposent au pneumothorax."
+   ],
+   "related": [
+    "costae",
+    "cartilagines-costales",
+    "vertebrae-thoracicae",
+    "sternum"
+   ],
+   "models": [
+    "First rib",
+    "Second rib",
+    "Tenth rib",
+    "Eleventh rib",
+    "Twelfth rib"
+   ],
+   "aliases": [
+    "première côte",
+    "côte flottante",
+    "côte atypique"
+   ]
+  },
+  {
+   "id": "cartilagines-costales",
+   "tr": "Cartilages costaux",
+   "la": "Cartilagines costales",
+   "en": "Costal cartilages",
+   "group": "Cage thoracique",
+   "region": "thorax",
+   "summary": "Barres de cartilage hyalin qui relient l'extrémité antérieure des côtes au sternum ou au cartilage sus-jacent. Ils donnent sa souplesse à la cage thoracique.",
+   "facts": [
+    [
+     "Doku",
+     "Cartilage hyalin",
+     "Tissu"
+    ],
+    [
+     "Bağlantılar",
+     "1–7 : directement au sternum ; 8–10 : au cartilage sus-jacent (rebord costal) ; 11–12 : extrémités libres",
+     "Connexions"
+    ],
+    [
+     "Yaşla değişim",
+     "Peuvent se calcifier avec l'âge",
+     "Évolution avec l'âge"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure et rôle",
+     "Ces prolongements de cartilage hyalin unissent les côtes au sternum et donnent à la cage thoracique son élasticité. Le 1er cartilage s'unit au sternum par une synarthrose (synchondrose), les 2e–7e par des articulations synoviales ; les 8e–10e se fixent au cartilage sus-jacent et forment le rebord costal."
+    ]
+   ],
+   "clinical": [
+    "L'inflammation des jonctions chondro-costales (chondrite costale, syndrome de Tietze) peut donner une douleur thoracique simulant une douleur cardiaque.",
+    "Dans le syndrome de Tietze, les cartilages costaux supérieurs sont tuméfiés et douloureux ; la chondrite costale est une douleur pariétale sans tuméfaction, qui peut être confondue avec une douleur cardiaque."
+   ],
+   "tus": [
+    "Le 1er cartilage costal forme une synchondrose avec le manubrium ; les cartilages 2 à 7 forment des articulations synoviales avec le sternum.",
+    "L'inflammation d'une jonction chondro-costale (syndrome de Tietze) donne une tuméfaction douloureuse pouvant simuler une douleur cardiaque."
+   ],
+   "related": [
+    "costae",
+    "sternum"
+   ],
+   "models": [
+    "Costal cartilages"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "clavicula",
+   "tr": "Clavicule",
+   "la": "Clavicula",
+   "en": "Clavicle",
+   "group": "Os du membre supérieur",
+   "region": "upperLimb",
+   "summary": "Os long en forme de S, horizontal, entre le sternum et la scapula. C'est le seul étai osseux reliant le bras au tronc.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os long (sans cavité médullaire)",
+     "Type d'os"
+    ],
+    [
+     "Uçları",
+     "Extrémité sternale (articulation sterno-claviculaire) et extrémité acromiale (articulation acromio-claviculaire)",
+     "Extrémités"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tubercule conoïde, ligne trapézoïde, empreinte du ligament costo-claviculaire, sillon du muscle subclavier",
+     "Principaux repères"
+    ],
+    [
+     "Kas tutunmaları",
+     "Deltoïde, trapèze, grand pectoral, sterno-cléido-mastoïdien, sterno-hyoïdien, subclavier",
+     "Insertions musculaires"
+    ],
+    [
+     "Kemikleşme",
+     "Premier os du corps à s'ossifier (5e–6e semaine) et dernier à achever son ossification",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Os long horizontal en S : ses 2/3 médiaux sont convexes en avant, son 1/3 latéral concave en avant. L'extrémité médiale s'articule avec le sternum, l'extrémité latérale avec l'acromion. La face inférieure porte le tubercule conoïde et la ligne trapézoïde (ligament coraco-claviculaire), l'empreinte du ligament costo-claviculaire et le sillon du subclavier. Elle n'a pas de cavité médullaire."
+    ]
+   ],
+   "clinical": [
+    "C'est l'un des os les plus souvent fracturés, généralement à l'union des tiers moyen et latéral. Le fragment médial est attiré vers le haut par le sterno-cléido-mastoïdien, le fragment latéral vers le bas par le poids du bras.",
+    "Lors d'une fracture de la clavicule, le plexus brachial et les vaisseaux subclaviers sous-jacents peuvent être lésés."
+   ],
+   "tus": [
+    "Les fractures de la clavicule siègent surtout au tiers moyen ; les vaisseaux subclaviers et le plexus brachial en arrière sont menacés.",
+    "Le tubercule conoïde et la ligne trapézoïde donnent insertion aux deux faisceaux du ligament coraco-claviculaire."
+   ],
+   "related": [
+    "scapula",
+    "sternum",
+    "art-humeri",
+    "m-deltoideus"
+   ],
+   "models": [
+    "Clavicle"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "scapula",
+   "tr": "Scapula",
+   "la": "Scapula",
+   "en": "Scapula",
+   "group": "Os du membre supérieur",
+   "region": "back",
+   "summary": "Os plat triangulaire situé à la partie postéro-supérieure du thorax, en regard des côtes 2 à 7. Il forme l'articulation de l'épaule avec l'humérus et donne insertion à 17 muscles.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os plat",
+     "Type d'os"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Épine de la scapula, acromion, processus coracoïde, cavité glénoïdale, tubercules supra- et infra-glénoïdaux, fosses supra-épineuse, infra-épineuse et subscapulaire, incisure scapulaire",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleri",
+     "Humérus (articulation gléno-humérale), clavicule (articulation acromio-claviculaire) ; articulation fonctionnelle scapulo-thoracique avec la paroi",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Muscles de la coiffe des rotateurs, deltoïde, trapèze, biceps brachial, triceps brachial, dentelé antérieur, rhomboïdes, élévateur de la scapula, grand rond, petit pectoral, coraco-brachial, omo-hyoïdien",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Mouvements",
+     "Élévation, abaissement, antépulsion, rétropulsion et sonnette latérale/médiale. Quand le bras s'élève au-dessus de la tête, environ 1 degré sur 3 provient de la rotation de la scapula (rythme scapulo-huméral)."
+    ]
+   ],
+   "clinical": [
+    "En cas de lésion du nerf thoracique long, le dentelé antérieur est paralysé et le bord médial de la scapula se décolle comme une aile (scapula alata).",
+    "La compression du nerf suprascapulaire dans l'incisure scapulaire donne des douleurs de l'épaule et une faiblesse du supra- et de l'infra-épineux."
+   ],
+   "tus": [
+    "Repères : angle supérieur en T2, épine en T3, angle inférieur en T7.",
+    "17 muscles s'insèrent sur la scapula ; la scapula alata traduit une lésion du nerf thoracique long (dentelé antérieur)."
+   ],
+   "related": [
+    "clavicula",
+    "humerus",
+    "art-humeri",
+    "m-supraspinatus",
+    "m-infraspinatus",
+    "m-subscapularis"
+   ],
+   "models": [
+    "Scapula"
+   ],
+   "aliases": [
+    "omoplate"
+   ]
+  },
+  {
+   "id": "humerus",
+   "tr": "Humérus",
+   "la": "Humerus",
+   "en": "Humerus",
+   "group": "Os du membre supérieur",
+   "region": "upperLimb",
+   "summary": "Os unique et le plus long du bras. En haut il forme l'articulation de l'épaule avec la scapula, en bas l'articulation du coude avec le radius et l'ulna.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os long",
+     "Type d'os"
+    ],
+    [
+     "Üst uç",
+     "Tête, col anatomique, col chirurgical, tubercules majeur et mineur, sillon intertuberculaire",
+     "Extrémité supérieure"
+    ],
+    [
+     "Gövde",
+     "Tubérosité deltoïdienne, sillon du nerf radial",
+     "Corps"
+    ],
+    [
+     "Alt uç",
+     "Capitulum, trochlée, épicondyles médial et latéral, fosse olécrânienne, fosse coronoïdienne, fosse radiale, sillon du nerf ulnaire",
+     "Extrémité inférieure"
+    ],
+    [
+     "Kemikleşme",
+     "Point primaire diaphysaire à la 8e semaine ; 8 points secondaires",
+     "Ossification"
+    ]
+   ],
+   "sections": [
+    [
+     "Rapports nerveux",
+     "L'humérus est au contact direct de trois nerfs importants : le nerf axillaire au col chirurgical, le nerf radial dans son sillon diaphysaire et le nerf ulnaire en arrière de l'épicondyle médial. Ses fractures exposent donc aux lésions nerveuses."
+    ]
+   ],
+   "clinical": [
+    "Fracture du col chirurgical : lésion du nerf axillaire et de l'artère circonflexe postérieure (paralysie du deltoïde).",
+    "Fracture diaphysaire : lésion du nerf radial – main tombante.",
+    "Fracture supracondylienne (fréquente chez l'enfant) : lésion de l'artère brachiale et du nerf médian, risque de syndrome de Volkmann.",
+    "Fracture de l'épicondyle médial : lésion du nerf ulnaire – griffe ulnaire."
+   ],
+   "tus": [
+    "Trois nerfs au contact de l'humérus : col chirurgical – nerf axillaire, diaphyse (sillon) – nerf radial, épicondyle médial – nerf ulnaire.",
+    "Dans les fractures supracondyliennes, l'artère brachiale et le nerf médian (surtout le nerf interosseux antérieur) peuvent être lésés."
+   ],
+   "related": [
+    "scapula",
+    "radius",
+    "ulna",
+    "art-humeri",
+    "art-cubiti",
+    "n-radialis",
+    "n-axillaris"
+   ],
+   "models": [
+    "Humerus"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "radius",
+   "tr": "Radius",
+   "la": "Radius",
+   "en": "Radius",
+   "group": "Os du membre supérieur",
+   "region": "upperLimb",
+   "summary": "Os long du côté latéral (du pouce) de l'avant-bras. Il tourne autour de l'ulna lors de la pronation et de la supination et forme l'essentiel de l'articulation du poignet.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os long",
+     "Type d'os"
+    ],
+    [
+     "Üst uç",
+     "Tête, col, tubérosité radiale (insertion du biceps brachial)",
+     "Extrémité supérieure"
+    ],
+    [
+     "Alt uç",
+     "Processus styloïde du radius, incisure ulnaire, surface articulaire carpienne, tubercule dorsal (tubercule de Lister)",
+     "Extrémité inférieure"
+    ],
+    [
+     "Eklemleri",
+     "Humérus (articulation huméro-radiale), ulna (articulations radio-ulnaires proximale et distale), scaphoïde et lunatum (articulation radio-carpienne)",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Biceps brachial, supinateur, rond pronateur, brachio-radial, carré pronateur, long fléchisseur du pouce, long abducteur du pouce",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Extrémités",
+     "En haut, la tête radiale discoïde s'articule avec le capitulum de l'humérus et l'incisure radiale de l'ulna et est entourée par le ligament annulaire ; au-dessous se trouvent le col et la tubérosité radiale, où se fixe le biceps brachial. L'extrémité distale est large, avec en dehors le processus styloïde radial, en dedans l'incisure ulnaire pour l'ulna et en arrière le tubercule de Lister (tubercule dorsal)."
+    ]
+   ],
+   "clinical": [
+    "La fracture de l'extrémité distale du radius après une chute sur la main tendue (fracture de Pouteau-Colles) est l'une des plus fréquentes ; le fragment distal bascule en arrière, d'où la déformation « en dos de fourchette ».",
+    "Chez l'enfant, une traction brutale sur le bras peut faire glisser la tête radiale hors du ligament annulaire (pronation douloureuse)."
+   ],
+   "tus": [
+    "La subluxation de la tête radiale (pronation douloureuse) est fréquente entre 1 et 4 ans.",
+    "Fracture de Galeazzi : fracture diaphysaire du radius + luxation radio-ulnaire distale ; Monteggia : fracture de l'ulna + luxation de la tête radiale."
+   ],
+   "related": [
+    "ulna",
+    "humerus",
+    "art-cubiti",
+    "art-radiocarpalis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radius"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ulna",
+   "tr": "Ulna",
+   "la": "Ulna",
+   "en": "Ulna",
+   "group": "Os du membre supérieur",
+   "region": "upperLimb",
+   "summary": "Os long du côté médial (de l'auriculaire) de l'avant-bras. Son extrémité supérieure forme avec l'humérus la charnière principale du coude ; l'olécrâne forme la pointe du coude.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os long",
+     "Type d'os"
+    ],
+    [
+     "Üst uç",
+     "Olécrâne, processus coronoïde, incisure trochléaire, incisure radiale, tubérosité ulnaire",
+     "Extrémité supérieure"
+    ],
+    [
+     "Alt uç",
+     "Tête de l'ulna, processus styloïde de l'ulna",
+     "Extrémité inférieure"
+    ],
+    [
+     "Eklemleri",
+     "Humérus (articulation huméro-ulnaire), radius (articulations radio-ulnaires)",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Triceps brachial (olécrâne), brachial (tubérosité ulnaire), fléchisseur profond des doigts, carré pronateur, supinateur, anconé, fléchisseur ulnaire du carpe, extenseur ulnaire du carpe",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Extrémités",
+     "L'extrémité proximale porte l'olécrâne et le processus coronoïde, avec entre eux l'incisure trochléaire pour l'humérus et, en dehors, l'incisure radiale pour la tête du radius. À l'extrémité distale, la petite tête ulnaire et le processus styloïde ulnaire sont séparés du poignet par le disque fibrocartilagineux triangulaire."
+    ]
+   ],
+   "clinical": [
+    "Fracture de Monteggia : fracture du tiers supérieur de l'ulna associée à une luxation de la tête radiale.",
+    "Dans les fractures de l'olécrâne, le triceps attire le fragment proximal vers le haut ; une ostéosynthèse est en général nécessaire."
+   ],
+   "tus": [
+    "Dans la fracture de l'olécrâne, le triceps écarte les fragments ; une fixation chirurgicale est nécessaire.",
+    "La fracture « parade » (fracture isolée de la diaphyse ulnaire) survient quand on lève l'avant-bras pour protéger le visage."
+   ],
+   "related": [
+    "radius",
+    "humerus",
+    "art-cubiti"
+   ],
+   "models": [
+    "Ulna"
+   ],
+   "aliases": [
+    "cubitus"
+   ]
+  },
+  {
+   "id": "ossa-carpi",
+   "tr": "Os du carpe",
+   "la": "Ossa carpi",
+   "en": "Carpal bones",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Huit os courts disposés en deux rangées qui forment le poignet. La gouttière de leur face antérieure (sillon du carpe), fermée par le rétinaculum des fléchisseurs, forme le canal carpien.",
+   "facts": [
+    [
+     "Üst sıra (lateralden mediale)",
+     "Scaphoïde, lunatum, triquétrum, pisiforme",
+     "Rangée proximale (de latéral à médial)"
+    ],
+    [
+     "Alt sıra (lateralden mediale)",
+     "Trapèze, trapézoïde, capitatum, hamatum",
+     "Rangée distale (de latéral à médial)"
+    ],
+    [
+     "Akılda tutma",
+     "« Sous Le Toit Pointu, Trois Tuiles Chantent Haut » (scaphoïde, lunatum, triquétrum, pisiforme, trapèze, trapézoïde, capitatum, hamatum)",
+     "Moyen mnémotechnique"
+    ],
+    [
+     "Karpal tünelden geçenler",
+     "Nerf médian et 9 tendons (4 FSD, 4 FPD, 1 LFP)",
+     "Traversent le canal carpien"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Syndrome du canal carpien : la compression du nerf médian donne des paresthésies du pouce, de l'index, du médius et de la moitié de l'annulaire et une amyotrophie thénarienne.",
+    "Les points d'ossification apparaissant dans un ordre fixe avec l'âge, la radiographie du poignet sert à estimer l'âge osseux."
+   ],
+   "tus": [
+    "Parmi les os du carpe, le capitatum s'ossifie le premier et le pisiforme le dernier (estimation de l'âge osseux).",
+    "Rangée proximale : scaphoïde, lunatum, triquétrum, pisiforme ; rangée distale : trapèze, trapézoïde, capitatum, hamatum."
+   ],
+   "related": [
+    "os-scaphoideum",
+    "os-lunatum",
+    "os-triquetrum",
+    "os-pisiforme",
+    "os-trapezium",
+    "os-trapezoideum",
+    "os-capitatum",
+    "os-hamatum",
+    "art-radiocarpalis",
+    "n-medianus"
+   ],
+   "models": [
+    "Scaphoid bone",
+    "Lunate bone",
+    "Triquetrum bone",
+    "Pisiform bone",
+    "Trapezium bone",
+    "Trapezoid bone",
+    "Capitate bone",
+    "Hamate bone"
+   ],
+   "aliases": [
+    "carpe",
+    "os du poignet"
+   ]
+  },
+  {
+   "id": "os-scaphoideum",
+   "tr": "Scaphoïde",
+   "la": "Os scaphoideum",
+   "en": "Scaphoid bone",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Os en forme de barque à l'extrémité latérale de la rangée proximale du carpe. C'est l'un des principaux os articulés avec le radius et l'os du carpe le plus souvent fracturé.",
+   "facts": [
+    [
+     "Konum",
+     "Rangée proximale, le plus latéral ; au fond de la tabatière anatomique",
+     "Situation"
+    ],
+    [
+     "Eklemleri",
+     "Radius, lunatum, capitatum, trapèze, trapézoïde",
+     "Articulations"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tubercule du scaphoïde (insertion du rétinaculum des fléchisseurs)",
+     "Principaux repères"
+    ],
+    [
+     "Kanlanma",
+     "Branches de l'artère radiale ; vascularisation de distal en proximal",
+     "Vascularisation"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Il se fracture lors d'une chute sur la main tendue ; la douleur à la palpation de la tabatière anatomique est typique.",
+    "La vascularisation venant de distal, les fractures du col (taille) exposent à la nécrose avasculaire du fragment proximal ; les premiers clichés pouvant être normaux, on immobilise en cas de doute."
+   ],
+   "tus": [
+    "Os du carpe le plus souvent fracturé ; en cas de douleur de la tabatière, on immobilise même si la radio est normale.",
+    "La vascularisation allant de distal en proximal, les fractures de la taille exposent fortement à la nécrose du fragment proximal."
+   ],
+   "related": [
+    "ossa-carpi",
+    "radius",
+    "os-lunatum",
+    "a-radialis"
+   ],
+   "models": [
+    "Scaphoid bone"
+   ],
+   "aliases": [
+    "os naviculaire (main)"
+   ]
+  },
+  {
+   "id": "os-lunatum",
+   "tr": "Lunatum",
+   "la": "Os lunatum",
+   "en": "Lunate bone",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Os en croissant de la rangée proximale du carpe, entre le scaphoïde et le triquétrum. Il s'articule avec le radius.",
+   "facts": [
+    [
+     "Konum",
+     "Rangée proximale, entre scaphoïde et triquétrum",
+     "Situation"
+    ],
+    [
+     "Eklemleri",
+     "Radius, disque articulaire, scaphoïde, triquétrum, capitatum, hamatum",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Radius, scaphoïde, triquétrum, capitatum, hamatum (parfois)",
+     "Os articulés"
+    ],
+    [
+     "Kanlanma",
+     "Vaisseaux pénétrant par ses faces palmaire et dorsale ; chez certains, d'une seule source",
+     "Vascularisation"
+    ]
+   ],
+   "sections": [
+    [
+     "Situation",
+     "Os en croissant situé dans la fossette lunaire du radius, au milieu de la rangée proximale du carpe. C'est l'os du carpe le plus souvent luxé."
+    ]
+   ],
+   "clinical": [
+    "C'est l'os du carpe le plus souvent luxé ; sa luxation antérieure peut comprimer le nerf médian dans le canal carpien.",
+    "Maladie de Kienböck : nécrose avasculaire du lunatum."
+   ],
+   "tus": [
+    "La maladie de Kienböck est la nécrose avasculaire du lunatum ; la variance ulnaire négative est un facteur de risque.",
+    "Les luxations périlunaires et du lunatum résultent d'une hyperextension du poignet."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "radius"
+   ],
+   "models": [
+    "Lunate bone"
+   ],
+   "aliases": [
+    "semi-lunaire"
+   ]
+  },
+  {
+   "id": "os-triquetrum",
+   "tr": "Triquétrum",
+   "la": "Os triquetrum",
+   "en": "Triquetrum",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Os pyramidal de la rangée proximale du carpe, médial au lunatum. Il s'articule en avant avec le pisiforme.",
+   "facts": [
+    [
+     "Konum",
+     "Rangée proximale, entre lunatum et pisiforme",
+     "Situation"
+    ],
+    [
+     "Eklemleri",
+     "Lunatum, pisiforme, hamatum, disque articulaire",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Lunatum, pisiforme, hamatum ; voisin de l'ulna par l'intermédiaire du disque fibrocartilagineux triangulaire",
+     "Os articulés"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'arrachement dorsal du triquétrum est la fracture du carpe la plus fréquente après celle du scaphoïde ; il survient lors des chutes sur le dos de la main."
+   ],
+   "tus": [
+    "La fracture-avulsion dorsale du triquétrum est la fracture carpienne la plus fréquente après celle du scaphoïde.",
+    "Le complexe ulno-carpien (TFCC) est situé entre le triquétrum et l'ulna."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "os-hamatum"
+   ],
+   "models": [
+    "Triquetrum bone"
+   ],
+   "aliases": [
+    "pyramidal"
+   ]
+  },
+  {
+   "id": "os-pisiforme",
+   "tr": "Pisiforme",
+   "la": "Os pisiforme",
+   "en": "Pisiform bone",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Petit os en forme de pois à l'extrémité médiale de la rangée proximale, posé sur la face antérieure du triquétrum. C'est un os sésamoïde développé dans le tendon du fléchisseur ulnaire du carpe.",
+   "facts": [
+    [
+     "Konum",
+     "Rangée proximale, le plus médial ; palpable du côté hypothénarien de la paume",
+     "Situation"
+    ],
+    [
+     "Tutunanlar",
+     "Fléchisseur ulnaire du carpe, abducteur du petit doigt, ligaments piso-hamatum et piso-métacarpien, rétinaculum des fléchisseurs",
+     "Insertions"
+    ]
+   ],
+   "sections": [
+    [
+     "Canal de Guyon",
+     "Le nerf et l'artère ulnaires passent dans le canal de Guyon, entre le pisiforme et l'hamulus de l'hamatum."
+    ]
+   ],
+   "clinical": [
+    "La compression du nerf ulnaire dans le canal de Guyon (paralysie du cycliste) affaiblit les petits muscles de la main.",
+    "La fracture du pisiforme résulte en général d'une chute directe sur l'éminence hypothénar et peut léser le nerf ulnaire voisin."
+   ],
+   "tus": [
+    "Il forme la paroi médiale du canal de Guyon ; le nerf et l'artère ulnaires passent juste en dehors du pisiforme."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-triquetrum",
+    "os-hamatum",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Pisiform bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-trapezium",
+   "tr": "Trapèze",
+   "la": "Os trapezium",
+   "en": "Trapezium",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Os le plus latéral de la rangée distale du carpe. Avec le premier métacarpien, il forme l'articulation en selle du pouce.",
+   "facts": [
+    [
+     "Konum",
+     "Rangée distale, le plus latéral",
+     "Situation"
+    ],
+    [
+     "Eklemleri",
+     "Scaphoïde, trapézoïde, 1er et 2e métacarpiens",
+     "Articulations"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tubercule du trapèze, sillon du tendon du fléchisseur radial du carpe",
+     "Principaux repères"
+    ]
+   ],
+   "sections": [
+    [
+     "Articulation du pouce",
+     "L'articulation carpo-métacarpienne du pouce est une articulation en selle ; elle permet l'opposition du pouce."
+    ]
+   ],
+   "clinical": [
+    "L'arthrose de la base du pouce (articulation trapézo-métacarpienne) est fréquente, surtout chez la femme d'âge moyen."
+   ],
+   "tus": [
+    "Le tendon du FRC chemine dans le sillon antérieur du trapèze ; la rhizarthrose (arthrose de la 1re CMC) est fréquente chez la femme âgée."
+   ],
+   "related": [
+    "ossa-carpi",
+    "ossa-metacarpi",
+    "os-trapezoideum"
+   ],
+   "models": [
+    "Trapezium bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-trapezoideum",
+   "tr": "Trapézoïde",
+   "la": "Os trapezoideum",
+   "en": "Trapezoid bone",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "L'un des plus petits os de la rangée distale, entre le trapèze et le capitatum. Il s'articule avec le deuxième métacarpien.",
+   "facts": [
+    [
+     "Konum",
+     "Rangée distale, entre trapèze et capitatum",
+     "Situation"
+    ],
+    [
+     "Eklemleri",
+     "Scaphoïde, trapèze, capitatum, 2e métacarpien",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Scaphoïde, trapèze, capitatum, 2e métacarpien",
+     "Os articulés"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "C'est l'os du carpe le moins souvent fracturé, protégé par sa solide union avec la base du 2e métacarpien."
+   ],
+   "tus": [
+    "C'est l'os du carpe le moins souvent fracturé ; il s'articule avec la base du 2e métacarpien."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum"
+   ],
+   "models": [
+    "Trapezoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-capitatum",
+   "tr": "Capitatum",
+   "la": "Os capitatum",
+   "en": "Capitate bone",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Le plus grand os du carpe, au centre de la rangée distale ; sa tête arrondie se loge dans la cavité formée par le scaphoïde et le lunatum.",
+   "facts": [
+    [
+     "Konum",
+     "Rangée distale, au centre",
+     "Situation"
+    ],
+    [
+     "Eklemleri",
+     "Scaphoïde, lunatum, trapézoïde, hamatum, 2e–4e métacarpiens",
+     "Articulations"
+    ],
+    [
+     "Kemikleşme",
+     "Premier os du carpe à s'ossifier (1er–3e mois)",
+     "Ossification"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Les fractures du capitatum sont rares, mais la vascularisation de sa tête étant rétrograde, une nécrose avasculaire peut survenir.",
+    "Dans la luxation du lunatum, le capitatum reste aligné avec le radius tandis que le lunatum bascule en avant (à distinguer de la luxation périlunaire)."
+   ],
+   "tus": [
+    "Le plus grand os du carpe et le premier à s'ossifier ; il s'articule avec le 3e métacarpien."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-lunatum",
+    "os-hamatum"
+   ],
+   "models": [
+    "Capitate bone"
+   ],
+   "aliases": [
+    "grand os"
+   ]
+  },
+  {
+   "id": "os-hamatum",
+   "tr": "Hamatum",
+   "la": "Os hamatum",
+   "en": "Hamate bone",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Os le plus médial de la rangée distale, portant à sa face antérieure un crochet (hamulus de l'hamatum).",
+   "facts": [
+    [
+     "Konum",
+     "Rangée distale, le plus médial",
+     "Situation"
+    ],
+    [
+     "Eklemleri",
+     "Lunatum, triquétrum, capitatum, 4e et 5e métacarpiens",
+     "Articulations"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Hamulus de l'hamatum – insertion du rétinaculum des fléchisseurs et du ligament piso-hamatum ; paroi latérale du canal de Guyon",
+     "Principaux repères"
+    ]
+   ],
+   "sections": [
+    [
+     "Hamulus de l'hamatum",
+     "Saillie en crochet tournée vers la paume ; elle donne insertion à l'extrémité médiale du rétinaculum des fléchisseurs et forme la paroi latérale du canal de Guyon. Le court fléchisseur et l'opposant du petit doigt s'y insèrent."
+    ]
+   ],
+   "clinical": [
+    "Les fractures de l'hamulus surviennent chez les golfeurs et les joueurs de baseball ; la branche profonde du nerf ulnaire peut être atteinte."
+   ],
+   "tus": [
+    "La fracture de l'hamulus de l'hamatum s'observe au golf et au baseball ; la branche profonde du nerf ulnaire contourne l'hamulus."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Hamate bone"
+   ],
+   "aliases": [
+    "os crochu"
+   ]
+  },
+  {
+   "id": "ossa-metacarpi",
+   "tr": "Métacarpiens",
+   "la": "Ossa metacarpi (I–V)",
+   "en": "Metacarpal bones",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Les cinq os longs qui forment le squelette de la paume. Ils s'articulent en haut avec les os du carpe et en bas avec les phalanges proximales.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V du pouce à l'auriculaire)",
+     "Nombre"
+    ],
+    [
+     "Bölümleri",
+     "Base, corps, tête (visibles comme les « jointures » quand on serre le poing)",
+     "Parties"
+    ],
+    [
+     "Eklemleri",
+     "Articulations carpo-métacarpiennes, intermétacarpiennes et métacarpo-phalangiennes",
+     "Articulations"
+    ],
+    [
+     "Özellik",
+     "Le 1er métacarpien est le plus court, le plus épais et le plus mobile",
+     "Particularité"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Chaque métacarpien possède une base en haut, un corps au milieu et une tête en bas. Les têtes forment les « jointures » du poing fermé. Le premier métacarpien est le plus court et le plus épais ; son articulation en selle avec le trapèze permet l'opposition du pouce."
+    ]
+   ],
+   "clinical": [
+    "La fracture du col du 5e métacarpien lors d'un coup de poing est appelée fracture du boxeur.",
+    "La fracture articulaire de la base du 1er métacarpien est appelée fracture de Bennett."
+   ],
+   "tus": [
+    "La fracture de Bennett est une fracture-luxation articulaire de la base du 1er métacarpien ; le long abducteur du pouce attire le fragment en proximal.",
+    "La fracture de Bennett est une fracture-luxation articulaire de la base du 1er métacarpien ; le long abducteur du pouce attire le fragment distal vers le haut."
+   ],
+   "related": [
+    "ossa-carpi",
+    "phalanges-manus",
+    "os-trapezium"
+   ],
+   "models": [
+    "First metacarpal bone",
+    "Second metacarpal bone",
+    "Third metacarpal bone",
+    "Fourth metacarpal bone",
+    "Fifth metacarpal bone"
+   ],
+   "aliases": [
+    "métacarpe"
+   ]
+  },
+  {
+   "id": "phalanges-manus",
+   "tr": "Phalanges de la main",
+   "la": "Phalanges manus",
+   "en": "Phalanges of hand",
+   "group": "Os de la main",
+   "region": "upperLimb",
+   "summary": "Les 14 os longs courts des doigts. Le pouce a deux phalanges, les autres doigts trois chacun.",
+   "facts": [
+    [
+     "Sayı",
+     "14 (pouce 2, les autres 3 chacun)",
+     "Nombre"
+    ],
+    [
+     "Adları",
+     "Phalanges proximale, moyenne et distale",
+     "Noms"
+    ],
+    [
+     "Eklemleri",
+     "Articulations métacarpo-phalangiennes, interphalangiennes proximales (IPP) et distales (IPD)",
+     "Articulations"
+    ],
+    [
+     "Distal falanks",
+     "Son extrémité porte la tubérosité de la phalange distale, qui soutient le lit unguéal",
+     "Phalange distale"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Chaque phalange possède une base, un corps et une tête. La base des phalanges proximales s'articule avec la tête du métacarpien, celle des autres avec la tête de la phalange précédente. À l'extrémité de la phalange distale se trouve la tubérosité unguéale, qui porte le lit de l'ongle."
+    ]
+   ],
+   "clinical": [
+    "La rupture du tendon extenseur à la base de la phalange distale fait tomber l'extrémité du doigt (doigt en maillet).",
+    "Dans l'arthrose, on observe des nodosités d'Heberden aux IPD et de Bouchard aux IPP."
+   ],
+   "tus": [
+    "Le doigt en maillet résulte de la rupture du tendon extenseur inséré sur la phalange distale."
+   ],
+   "related": [
+    "ossa-metacarpi",
+    "m-flexor-digitorum-profundus",
+    "m-extensor-digitorum"
+   ],
+   "models": [
+    "Distal phalanx of first finger of hand",
+    "Distal phalanx of second finger of hand",
+    "Distal phalanx of third finger of hand",
+    "Distal phalanx of fourth finger of hand",
+    "Distal phalanx of fifth finger of hand",
+    "Middle phalanx of second finger of hand",
+    "Middle phalanx of third finger of hand",
+    "Middle phalanx of fourth finger of hand",
+    "Middle phalanx of fifth finger of hand",
+    "Proximal phalanx of first finger of hand",
+    "Proximal phalanx of second finger of hand",
+    "Proximal phalanx of third finger of hand",
+    "Proximal phalanx of fourth finger of hand",
+    "Proximal phalanx of fifth finger of hand"
+   ],
+   "aliases": [
+    "phalange"
+   ]
+  },
+  {
+   "id": "os-coxae",
+   "tr": "Os coxal",
+   "la": "Os coxae",
+   "en": "Hip bone",
+   "group": "Os du membre inférieur",
+   "region": "pelvis",
+   "summary": "Grand os pair irrégulier qui forme les parois latérale et antérieure du bassin. Il résulte de la soudure de trois os (ilium, ischium, pubis) au niveau de l'acétabulum.",
+   "facts": [
+    [
+     "Oluşum",
+     "Ilium, ischium et pubis ; ils fusionnent au cartilage en Y (triradié) de l'acétabulum vers 15–17 ans",
+     "Formation"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crête iliaque, épines iliaques antéro-supérieure et antéro-inférieure (EIAS, EIAI), épine iliaque postéro-supérieure, acétabulum, foramen obturé, tubérosité ischiatique, épine ischiatique, grande et petite incisures ischiatiques, branche du pubis, tubercule pubien, surface symphysaire",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleri",
+     "Fémur (articulation coxo-fémorale), sacrum (articulation sacro-iliaque), os coxal opposé (symphyse pubienne)",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Muscles fessiers, iliaque, muscles de l'abdomen, ischio-jambiers (tubérosité ischiatique), adducteurs, sartorius (EIAS), droit fémoral (EIAI)",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Différences sexuelles du bassin",
+     "Le bassin féminin est plus large et moins profond, avec un détroit supérieur ovale et un angle sous-pubien ouvert (environ 80–90°). Le bassin masculin est plus étroit et profond, avec un détroit en forme de cœur et un angle sous-pubien fermé (environ 50–60°)."
+    ],
+    [
+     "Foramens",
+     "Par le grand foramen ischiatique passent le piriforme, le nerf sciatique, des vaisseaux et le nerf pudendal ; par le petit foramen ischiatique, le tendon de l'obturateur interne et le nerf pudendal ; par le foramen obturé (canal obturateur), le nerf et les vaisseaux obturateurs."
+    ]
+   ],
+   "clinical": [
+    "La crête iliaque sert aux ponctions de moelle osseuse et aux prélèvements de greffons osseux.",
+    "Les branches pubiennes se fracturent souvent chez le sujet âgé ; les fractures du bassin à haute énergie peuvent saigner abondamment.",
+    "La compression du nerf cutané latéral de la cuisse près de l'EIAS provoque brûlures et engourdissement de la face latérale de la cuisse (méralgie paresthésique)."
+   ],
+   "tus": [
+    "Le cartilage en Y de l'acétabulum fusionne vers 15–17 ans.",
+    "Sartorius et TFL s'insèrent sur l'EIAS, le chef direct du droit fémoral sur l'EIAI et les ischio-jambiers sur la tubérosité ischiatique (fractures-arrachements chez le sportif)."
+   ],
+   "related": [
+    "femur",
+    "os-sacrum",
+    "art-coxae",
+    "art-sacroiliaca",
+    "m-gluteus-maximus"
+   ],
+   "models": [
+    "Hip bone"
+   ],
+   "aliases": [
+    "ilium",
+    "ischium",
+    "pubis",
+    "os iliaque"
+   ]
+  },
+  {
+   "id": "pelvis",
+   "tr": "Bassin osseux (anneau pelvien)",
+   "la": "Pelvis ossea",
+   "en": "Bony pelvis",
+   "group": "Os du membre inférieur",
+   "region": "pelvis",
+   "summary": "Anneau osseux formé par les deux os coxaux, le sacrum et le coccyx. Il transmet le poids du tronc aux membres inférieurs, protège les organes pelviens et constitue, chez la femme, la filière de l'accouchement. La ligne terminale sépare le grand bassin du petit bassin.",
+   "facts": [
+    [
+     "Kemikleri",
+     "Deux os coxaux (ilium, ischium, pubis), sacrum, coccyx",
+     "Os"
+    ],
+    [
+     "Bölümleri",
+     "Grand bassin (au-dessus de la ligne terminale, partie de la cavité abdominale) et petit bassin (filière obstétricale)",
+     "Parties"
+    ],
+    [
+     "Eklemleri",
+     "Articulations sacro-iliaques, symphyse pubienne, articulation sacro-coccygienne, articulation lombo-sacrale",
+     "Articulations"
+    ],
+    [
+     "Pelvis girişi (apertura pelvis superior)",
+     "Limité par le promontoire, l'aileron sacré, la ligne arquée, le pecten du pubis et le bord supérieur de la symphyse",
+     "Détroit supérieur"
+    ],
+    [
+     "Pelvis çıkışı (apertura pelvis inferior)",
+     "Limité par le coccyx, les ligaments sacro-tubéraux, les tubérosités ischiatiques, les branches ischio-pubiennes et le bord inférieur de la symphyse",
+     "Détroit inférieur"
+    ]
+   ],
+   "sections": [
+    [
+     "Différences selon le sexe",
+     "Le bassin féminin est plus large et moins profond ; le détroit supérieur est ovale (gynécoïde), l'angle sous-pubien large (plus de 90°), le foramen obturé presque triangulaire, le sacrum plus court et plus large et les épines ischiatiques moins saillantes. Le bassin masculin est plus étroit et plus profond ; le détroit supérieur est en forme de cœur (androïde) et l'angle sous-pubien étroit (environ 60–70°)."
+    ],
+    [
+     "Diamètres obstétricaux",
+     "Le conjugué vrai (promontoire – bord supérieur de la symphyse) mesure environ 11 cm ; le conjugué obstétrical (promontoire – point le plus proche de la face postérieure de la symphyse) est le plus petit diamètre antéro-postérieur de la filière ; le conjugué diagonal se mesure à l'examen et dépasse le conjugué obstétrical d'environ 1,5–2 cm. Le diamètre le plus étroit du détroit inférieur est le diamètre bi-épineux (environ 10 cm)."
+    ]
+   ],
+   "clinical": [
+    "Les fractures de l'anneau pelvien se font généralement en deux endroits et peuvent provoquer une hémorragie interne grave (surtout des plexus veineux).",
+    "En cas de disproportion fœto-pelvienne, la tête fœtale ne peut franchir le bassin ; une césarienne peut être nécessaire."
+   ],
+   "tus": [
+    "Le conjugué obstétrical est le plus petit diamètre antéro-postérieur de la filière ; on l'estime en retranchant 1,5–2 cm au conjugué diagonal.",
+    "L'angle sous-pubien est supérieur à 90° chez la femme (environ 80–85° à 90–100°) et d'environ 60–70° chez l'homme."
+   ],
+   "related": [
+    "os-coxae",
+    "os-sacrum",
+    "os-coccygis",
+    "art-sacroiliaca",
+    "symphysis-pubica",
+    "ligg-pelvis"
+   ],
+   "models": [
+    "Hip bone",
+    "Sacrum",
+    "Coccyx"
+   ],
+   "aliases": [
+    "bassin",
+    "pelvis",
+    "ceinture pelvienne"
+   ]
+  },
+  {
+   "id": "acetabulum",
+   "tr": "Acétabulum",
+   "la": "Acetabulum",
+   "en": "Acetabulum",
+   "group": "Os du membre inférieur",
+   "region": "pelvis",
+   "summary": "Cavité profonde et hémisphérique de la face externe de l'os coxal qui reçoit la tête fémorale. L'ilium, l'ischium et le pubis s'y rejoignent par un cartilage en Y.",
+   "facts": [
+    [
+     "Oluşum",
+     "Ilium (environ 2/5), ischium (2/5) et pubis (1/5) ; les trois os se soudent à la puberté lors de l'ossification du cartilage en Y (triradié)",
+     "Formation"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Surface semi-lunaire (surface articulaire en fer à cheval), fosse acétabulaire (centre non articulaire contenant un coussinet adipeux), incisure acétabulaire (en bas), limbus acétabulaire",
+     "Principaux repères"
+    ],
+    [
+     "Bağlantılar",
+     "Le labrum acétabulaire approfondit le rebord ; le ligament transverse de l'acétabulum ponte l'incisure ; le ligament de la tête fémorale va de l'incisure à la tête du fémur",
+     "Connexions"
+    ],
+    [
+     "Yönü",
+     "Regarde en dehors, en avant et en bas (antéversion)",
+     "Orientation"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dans la dysplasie de hanche, l'acétabulum est peu profond et la tête fémorale mal centrée ; le dépistage néonatal se fait par les manœuvres d'Ortolani et de Barlow.",
+    "Lors d'un traumatisme violent, la tête fémorale peut fracturer l'acétabulum ; quand le genou heurte le tableau de bord, fracture de la paroi postérieure et luxation postérieure de hanche sont fréquentes."
+   ],
+   "tus": [
+    "Le cartilage triradié s'ossifie vers 15–17 ans et soude les trois os.",
+    "La branche acétabulaire de l'artère obturatrice (artère du ligament de la tête fémorale) chemine dans ce ligament ; chez l'adulte, sa contribution à la tête fémorale est faible."
+   ],
+   "related": [
+    "os-coxae",
+    "femur",
+    "art-coxae",
+    "pelvis"
+   ],
+   "models": [
+    "Hip bone",
+    "Triradiate cartilage",
+    "Acetabular labrum"
+   ],
+   "aliases": [
+    "acétabulum",
+    "cotyle"
+   ]
+  },
+  {
+   "id": "femur",
+   "tr": "Fémur",
+   "la": "Femur",
+   "en": "Femur",
+   "group": "Os du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "L'os le plus long, le plus lourd et le plus solide du corps. En haut il forme avec l'os coxal l'articulation de la hanche, en bas avec le tibia et la patella celle du genou.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os long (environ 1/4 de la taille)",
+     "Type d'os"
+    ],
+    [
+     "Üst uç",
+     "Tête (fovéa de la tête), col, grand et petit trochanters, ligne et crête intertrochantériques",
+     "Extrémité supérieure"
+    ],
+    [
+     "Gövde",
+     "Ligne âpre (lèvres médiale et latérale), tubérosité glutéale, ligne pectinée",
+     "Corps"
+    ],
+    [
+     "Alt uç",
+     "Condyles médial et latéral, épicondyles, tubercule de l'adducteur, fosse intercondylaire, surface patellaire, surface poplitée",
+     "Extrémité inférieure"
+    ],
+    [
+     "Boyun-gövde açısı",
+     "Environ 125° chez l'adulte (angle d'inclinaison) ; antéversion d'environ 10–15°",
+     "Angle cervico-diaphysaire"
+    ],
+    [
+     "Kas tutunmaları",
+     "Muscles fessiers, ilio-psoas (petit trochanter), adducteurs (ligne âpre), vastes, chefs du gastrocnémien",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Vascularisation",
+     "La plupart des vaisseaux de la tête fémorale sont des branches rétinaculaires de l'artère circonflexe médiale de la cuisse ; l'artère du ligament de la tête contribue peu chez l'adulte."
+    ]
+   ],
+   "clinical": [
+    "Les fractures du col fémoral sont fréquentes chez le sujet âgé (surtout la femme ostéoporotique) ; le membre est raccourci et en rotation externe. Dans les fractures intracapsulaires, les vaisseaux rétinaculaires se rompent et la tête peut se nécroser.",
+    "Les fractures diaphysaires peuvent entraîner une perte sanguine importante (1–1,5 L) et une embolie graisseuse.",
+    "Chez l'enfant, l'épiphysiolyse fémorale supérieure et la maladie de Legg-Perthes-Calvé causent une boiterie."
+   ],
+   "tus": [
+    "L'angle cervico-diaphysaire est d'environ 125° chez l'adulte ; diminué : coxa vara, augmenté : coxa valga.",
+    "Les fractures diaphysaires peuvent entraîner une perte sanguine importante (1–1,5 L) et une embolie graisseuse."
+   ],
+   "related": [
+    "os-coxae",
+    "tibia",
+    "patella",
+    "art-coxae",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Femur"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "patella",
+   "tr": "Patella",
+   "la": "Patella",
+   "en": "Patella",
+   "group": "Os du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "Le plus grand os sésamoïde du corps. Elle se développe dans le tendon du quadriceps fémoral et se trouve en avant de l'articulation du genou.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os sésamoïde",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Base (en haut), apex (en bas), surface articulaire (en arrière ; la facette latérale est la plus large)",
+     "Parties"
+    ],
+    [
+     "Bağlantılar",
+     "Tendon quadricipital en haut, ligament patellaire en bas (vers la tubérosité tibiale)",
+     "Connexions"
+    ],
+    [
+     "İşlevi",
+     "Allonge le bras de levier du quadriceps et augmente ainsi la force d'extension ; protège les condyles fémoraux",
+     "Fonction"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Os sésamoïde triangulaire, base en haut et apex en bas. Sa face antérieure est recouverte par les fibres du tendon quadricipital ; sa face postérieure, couverte d'un épais cartilage, est divisée par une crête verticale en facettes médiale et latérale qui s'emboîtent dans la gorge entre les condyles fémoraux (surface patellaire). La facette latérale est la plus large."
+    ]
+   ],
+   "clinical": [
+    "Plus l'angle Q est grand (en général chez la femme), plus la patella tend à se luxer en dehors ; les fibres inférieures du vaste médial s'y opposent.",
+    "Les fractures de la patella résultent de chocs directs ; il faut vérifier l'intégrité de l'appareil extenseur.",
+    "Le réflexe rotulien teste les segments L2–L4 (surtout L4)."
+   ],
+   "tus": [
+    "Le plus grand os sésamoïde du corps ; elle se développe dans le tendon du quadriceps.",
+    "La patella bipartita siège en général à l'angle supéro-latéral et ne doit pas être confondue avec une fracture."
+   ],
+   "related": [
+    "femur",
+    "tibia",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Patella"
+   ],
+   "aliases": [
+    "rotule"
+   ]
+  },
+  {
+   "id": "tibia",
+   "tr": "Tibia",
+   "la": "Tibia",
+   "en": "Tibia",
+   "group": "Os du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "Grand os porteur du côté médial de la jambe. Son bord antérieur est palpable sous la peau sur toute sa longueur.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os long",
+     "Type d'os"
+    ],
+    [
+     "Üst uç",
+     "Condyles médial et latéral, éminence intercondylaire, tubérosité tibiale, surface articulaire fibulaire",
+     "Extrémité supérieure"
+    ],
+    [
+     "Gövde",
+     "Bord antérieur (crête tibiale), face médiale (sous-cutanée), ligne du muscle soléaire",
+     "Corps"
+    ],
+    [
+     "Alt uç",
+     "Malléole médiale, incisure fibulaire, surface articulaire inférieure",
+     "Extrémité inférieure"
+    ],
+    [
+     "Eklemleri",
+     "Fémur (genou), fibula (articulations tibio-fibulaires proximale et distale), talus (cheville)",
+     "Articulations"
+    ]
+   ],
+   "sections": [
+    [
+     "Extrémités",
+     "L'extrémité proximale est large : condyles médial et latéral, avec entre eux l'aire et l'éminence intercondylaires où s'insèrent les ligaments croisés et les ménisques. En avant se trouve la tubérosité tibiale (ligament patellaire). L'extrémité distale porte la malléole médiale et l'incisure fibulaire."
+    ]
+   ],
+   "clinical": [
+    "La diaphyse tibiale est l'os long le plus souvent fracturé de façon ouverte ; sa face antéro-médiale n'est couverte que de peau et sa vascularisation pauvre ralentit la consolidation.",
+    "Les périostites tibiales sont fréquentes chez les coureurs.",
+    "Chez l'adolescent, une tuméfaction douloureuse de la tubérosité tibiale correspond à la maladie d'Osgood-Schlatter."
+   ],
+   "tus": [
+    "La face antérieure du tibia est sous-cutanée ; les fractures ouvertes y sont les plus fréquentes.",
+    "Le syndrome des loges est une complication importante des fractures du tibia."
+   ],
+   "related": [
+    "femur",
+    "fibula",
+    "patella",
+    "talus",
+    "art-genus",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Tibia"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "fibula",
+   "tr": "Fibula",
+   "la": "Fibula",
+   "en": "Fibula",
+   "group": "Os du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "Os long et grêle du côté latéral de la jambe. Il ne porte pas le poids du corps ; il donne insertion à des muscles et participe à la cheville en formant la malléole latérale.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os long",
+     "Type d'os"
+    ],
+    [
+     "Bölümleri",
+     "Tête (apex), col, corps, malléole latérale",
+     "Parties"
+    ],
+    [
+     "Eklemleri",
+     "Tibia (articulation tibio-fibulaire, syndesmose tibio-fibulaire), talus",
+     "Articulations"
+    ],
+    [
+     "Kas tutunmaları",
+     "Biceps fémoral, muscles fibulaires, long extenseur des orteils, long extenseur de l'hallux, soléaire, tibial postérieur, long fléchisseur de l'hallux",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Rôle",
+     "Elle participe peu à la transmission du poids (environ 10–15 %) ; son rôle principal est de donner insertion aux muscles et de former, en bas, la paroi latérale de la cheville par la malléole latérale. La partie moyenne de sa diaphyse peut être prélevée comme greffon."
+    ]
+   ],
+   "clinical": [
+    "Le nerf fibulaire commun, qui contourne le col de la fibula, peut être lésé par un choc ou un plâtre trop serré ; il en résulte un pied tombant.",
+    "La partie moyenne de la diaphyse fibulaire peut être prélevée comme greffon osseux vascularisé.",
+    "Les fractures de la malléole latérale sont fréquentes lors des entorses de cheville."
+   ],
+   "tus": [
+    "La fibula ne porte pas le poids du corps ; le lambeau libre de fibula sert à reconstruire la mandibule.",
+    "Fracture de Maisonneuve : rupture du ligament deltoïdien + lésion de la syndesmose + fracture de la fibula proximale."
+   ],
+   "related": [
+    "tibia",
+    "art-talocruralis",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Fibula"
+   ],
+   "aliases": [
+    "péroné"
+   ]
+  },
+  {
+   "id": "ossa-tarsi",
+   "tr": "Os du tarse",
+   "la": "Ossa tarsi",
+   "en": "Tarsal bones",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Les sept os courts qui forment la moitié postérieure du pied : talus et calcanéus en arrière, naviculaire au milieu, cuboïde et trois cunéiformes en avant. Ils transmettent le poids du corps de la jambe au pied et forment les arches du pied.",
+   "facts": [
+    [
+     "Sayı",
+     "7 : talus, calcanéus, naviculaire, cuboïde, cunéiformes médial, intermédiaire et latéral",
+     "Nombre"
+    ],
+    [
+     "Kemik tipi",
+     "Os courts",
+     "Type d'os"
+    ],
+    [
+     "Dizilimi",
+     "Rangée postérieure (proximale) : talus et calcanéus ; milieu : naviculaire (côté médial) ; rangée antérieure (distale) : trois cunéiformes (en dedans) et cuboïde (en dehors)",
+     "Disposition"
+    ],
+    [
+     "Eklemleri",
+     "Articulation talo-crurale (talus avec tibia et fibula), sous-talienne, transverse du tarse (Chopart), tarso-métatarsiennes (Lisfranc)",
+     "Articulations"
+    ],
+    [
+     "Akılda tutma",
+     "Le talus relie la jambe au pied ; le calcanéus forme le talon ; le naviculaire est en avant du talus ; le cuboïde en avant du calcanéus ; les cunéiformes, en avant du naviculaire, s'articulent avec les 1er–3e métatarsiens",
+     "Moyen mnémotechnique"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Le calcanéus est l'os du tarse le plus souvent fracturé (chute d'une hauteur) ; une fracture vertébrale associée doit toujours être recherchée.",
+    "La synostose (coalition) tarsienne, fusion congénitale de deux os du tarse, donne chez l'adolescent un pied plat rigide et douloureux."
+   ],
+   "tus": [
+    "Le talus est le seul os du tarse sans insertion musculaire ; sa vascularisation étant rétrograde, les fractures du col exposent fortement à la nécrose avasculaire.",
+    "Le pied compte 26 os : 7 tarsiens, 5 métatarsiens et 14 phalanges."
+   ],
+   "related": [
+    "talus",
+    "calcaneus",
+    "os-naviculare",
+    "os-cuboideum",
+    "ossa-cuneiformia",
+    "artt-pedis"
+   ],
+   "models": [
+    "Tarsal bones"
+   ],
+   "aliases": [
+    "tarse",
+    "os du tarse"
+   ]
+  },
+  {
+   "id": "talus",
+   "tr": "Talus",
+   "la": "Talus",
+   "en": "Talus",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Os qui transmet le poids entre les os de la jambe et le pied et forme la partie inférieure de l'articulation de la cheville. Aucun muscle ne s'y insère.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Tête, col, corps, trochlée, processus latéral et postérieur",
+     "Parties"
+    ],
+    [
+     "Eklemleri",
+     "Tibia et fibula (articulation talo-crurale), calcanéus (articulation subtalaire), naviculaire (articulation talo-calcanéo-naviculaire)",
+     "Articulations"
+    ],
+    [
+     "Özellik",
+     "La plus grande partie de sa surface est recouverte de cartilage articulaire ; aucun muscle ne s'y insère",
+     "Particularité"
+    ],
+    [
+     "Kanlanma",
+     "Surtout l'artère du canal du tarse (de la tibiale postérieure) et l'artère du sinus du tarse (de la dorsale du pied) ; le sang circule de façon rétrograde du col vers le corps",
+     "Vascularisation"
+    ]
+   ],
+   "sections": [
+    [
+     "Parties",
+     "Il comprend la tête (articulée avec le naviculaire), le col et le corps. La trochlée de la face supérieure du corps est plus large en avant qu'en arrière ; la cheville est donc plus stable en flexion dorsale. Le tendon du long fléchisseur de l'hallux passe dans la gouttière entre les tubercules médial et latéral du processus postérieur."
+    ]
+   ],
+   "clinical": [
+    "Les fractures du col du talus (fracture de l'aviateur) peuvent évoluer vers la nécrose avasculaire du fait de l'interruption de la vascularisation."
+   ],
+   "tus": [
+    "Le risque de nécrose après fracture du col du talus est évalué par la classification de Hawkins.",
+    "La trochlée du talus est plus large en avant ; la cheville est la plus stable en flexion dorsale."
+   ],
+   "related": [
+    "tibia",
+    "fibula",
+    "calcaneus",
+    "os-naviculare",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Talus"
+   ],
+   "aliases": [
+    "astragale"
+   ]
+  },
+  {
+   "id": "calcaneus",
+   "tr": "Calcanéus",
+   "la": "Calcaneus",
+   "en": "Calcaneus",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Le plus grand os du pied. Il forme le talon et transmet le poids au sol en position debout.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tubérosité calcanéenne, sustentaculum tali, sillon du tendon du long fléchisseur de l'hallux, trochlée fibulaire",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleri",
+     "Talus (articulation subtalaire), cuboïde (articulation calcanéo-cuboïdienne)",
+     "Articulations"
+    ],
+    [
+     "Tutunanlar",
+     "Tendon calcanéen (d'Achille), aponévrose plantaire, court fléchisseur des orteils, abducteur de l'hallux, abducteur du petit orteil, carré plantaire, court extenseur des orteils",
+     "Insertions"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tendon calcanéen (d'Achille), plantaire, court fléchisseur des orteils, abducteur de l'hallux, abducteur du petit orteil, carré plantaire, court extenseur des orteils",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Principaux repères",
+     "En arrière, la tubérosité calcanéenne (talon) ; en dedans, le sustentaculum tali qui porte le talus (le tendon du long fléchisseur de l'hallux passe dessous) ; en dehors, la trochlée fibulaire qui sépare les tendons des fibulaires. La face supérieure porte trois surfaces pour le talus et, entre elles, le sillon calcanéen, qui forme avec celui du talus le sinus du tarse."
+    ]
+   ],
+   "clinical": [
+    "Le calcanéus se fracture lors d'une chute d'un lieu élevé sur les pieds ; il faut aussi examiner le rachis, car une fracture-tassement vertébrale peut s'y associer.",
+    "L'épine calcanéenne et l'aponévrosite plantaire sont des causes fréquentes de talalgie."
+   ],
+   "tus": [
+    "L'os du tarse le plus souvent fracturé ; une fracture-tassement lombaire peut accompagner la chute d'un lieu élevé.",
+    "Le tendon d'Achille s'insère sur la tubérosité calcanéenne ; la diminution de l'angle de Böhler signe la fracture."
+   ],
+   "related": [
+    "talus",
+    "os-cuboideum",
+    "m-triceps-surae"
+   ],
+   "models": [
+    "Calcaneus"
+   ],
+   "aliases": [
+    "calcanéum",
+    "os du talon"
+   ]
+  },
+  {
+   "id": "os-naviculare",
+   "tr": "Os naviculaire",
+   "la": "Os naviculare",
+   "en": "Navicular bone",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Os en forme de barque du côté médial du pied, entre le talus et les cunéiformes. C'est la clé de voûte de l'arche médiale.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tubérosité de l'os naviculaire (insertion principale du tibial postérieur)",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleri",
+     "Talus, les trois cunéiformes, parfois le cuboïde",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Talus (tête du talus), trois cunéiformes, parfois le cuboïde",
+     "Os articulés"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tibial postérieur (tubérosité du naviculaire)",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [
+    [
+     "Intérêt clinique",
+     "Il se situe près du sommet de l'arche médiale. Sa tubérosité se palpe en avant et au-dessous de la malléole médiale. Certains sujets ont un os naviculaire accessoire, qui peut devenir douloureux par la traction du tendon du tibial postérieur."
+    ]
+   ],
+   "clinical": [
+    "Un os naviculaire accessoire peut former une saillie douloureuse au bord médial du pied.",
+    "La maladie de Köhler est une nécrose avasculaire du naviculaire chez l'enfant."
+   ],
+   "tus": [
+    "Un naviculaire accessoire peut entraîner des douleurs du tendon tibial postérieur.",
+    "La maladie de Köhler est l'ostéonécrose du naviculaire de l'enfant."
+   ],
+   "related": [
+    "talus",
+    "ossa-cuneiformia",
+    "m-tibialis-posterior"
+   ],
+   "models": [
+    "Navicular bone"
+   ],
+   "aliases": [
+    "scaphoïde tarsien"
+   ]
+  },
+  {
+   "id": "os-cuboideum",
+   "tr": "Cuboïde",
+   "la": "Os cuboideum",
+   "en": "Cuboid bone",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Os en forme de cube du côté latéral du pied, entre le calcanéus et les 4e et 5e métatarsiens.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tubérosité du cuboïde, sillon du tendon du long fibulaire",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleri",
+     "Calcanéus, cunéiforme latéral, naviculaire, 4e et 5e métatarsiens",
+     "Articulations"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Calcanéus, cunéiforme latéral, naviculaire (parfois), 4e et 5e métatarsiens",
+     "Os articulés"
+    ],
+    [
+     "Önemli oluşumlar",
+     "À la face inférieure, le sillon du tendon du long fibulaire et, en avant, la tubérosité du cuboïde",
+     "Principaux repères"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Le syndrome du cuboïde, léger déplacement de cet os responsable de douleurs du bord latéral du pied, s'observe surtout chez les danseurs."
+   ],
+   "tus": [
+    "Le cuboïde est la clé de voûte de l'arche longitudinale latérale ; le tendon du long fibulaire passe sous lui."
+   ],
+   "related": [
+    "calcaneus",
+    "ossa-metatarsi",
+    "m-fibularis-longus"
+   ],
+   "models": [
+    "Cuboid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossa-cuneiformia",
+   "tr": "Os cunéiformes",
+   "la": "Ossa cuneiformia",
+   "en": "Cuneiform bones",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Trois os en forme de coin entre le naviculaire et les trois premiers métatarsiens : médial, intermédiaire et latéral.",
+   "facts": [
+    [
+     "Kemikler",
+     "Cunéiforme médial (le plus grand), intermédiaire (le plus petit), latéral",
+     "Os"
+    ],
+    [
+     "Eklemleri",
+     "Naviculaire, 1er–3e métatarsiens, cuboïde (cunéiforme latéral)",
+     "Articulations"
+    ],
+    [
+     "İşlev",
+     "Leur forme en coin participe à l'arche transversale du pied",
+     "Fonction"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Les fractures des cunéiformes sont rares ; elles accompagnent le plus souvent une lésion de Lisfranc."
+   ],
+   "tus": [
+    "Le tibial antérieur et le long fibulaire s'insèrent ensemble sur le cunéiforme médial et la base du 1er métatarsien (l'« étrier »).",
+    "Le cunéiforme médial est le plus grand, l'intermédiaire le plus petit ; la brièveté de l'intermédiaire verrouille la base du 2e métatarsien."
+   ],
+   "related": [
+    "os-naviculare",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone",
+    "Intermediate cuneiform bone",
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "cunéiforme"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-mediale",
+   "tr": "Cunéiforme médial",
+   "la": "Os cuneiforme mediale",
+   "en": "Medial cuneiform bone",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Le plus grand des trois cunéiformes ; il se situe au bord médial du pied, entre le naviculaire et le 1er métatarsien. Contrairement aux deux autres, la base de son coin est tournée vers le bas.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os court",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Naviculaire, cunéiforme intermédiaire, 1er et 2e métatarsiens",
+     "Os articulés"
+    ],
+    [
+     "Kas tutunmaları",
+     "Tibial antérieur et long fibulaire (face inféro-médiale), une expansion du tibial postérieur",
+     "Insertions musculaires"
+    ],
+    [
+     "Bağlar",
+     "Ligament de Lisfranc : solide ligament interosseux allant du cunéiforme médial à la base du 2e métatarsien",
+     "Ligaments"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dans l'entorse de Lisfranc, la rupture de ce ligament ouvre un espace entre les bases des 1er et 2e métatarsiens ; pouvant passer inaperçue à la radiographie, elle doit être recherchée avec soin."
+   ],
+   "tus": [
+    "Les tendons du tibial antérieur et du long fibulaire forment un « étrier » au niveau du cunéiforme médial et de la base du 1er métatarsien, qui soutient les arches du pied."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-naviculare",
+    "ossa-metatarsi",
+    "ossa-tarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone"
+   ],
+   "aliases": [
+    "cunéiforme médial",
+    "premier cunéiforme"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-intermedium",
+   "tr": "Cunéiforme intermédiaire",
+   "la": "Os cuneiforme intermedium",
+   "en": "Intermediate cuneiform bone",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Le plus petit des cunéiformes, situé entre les deux autres. Comme il est plus court, il forme en avant une encoche (mortaise) où s'emboîte la base du 2e métatarsien.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os court",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Naviculaire, cunéiformes médial et latéral, 2e métatarsien",
+     "Os articulés"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Le plus court des cunéiformes ; la base du 2e métatarsien est verrouillée entre les cunéiformes médial et latéral",
+     "Caractère distinctif"
+    ],
+    [
+     "Kas tutunmaları",
+     "Expansions du tibial postérieur",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'emboîtement de la base du 2e métatarsien dans cette mortaise est la clé de voûte de l'interligne tarso-métatarsien ; il est rompu dans les fractures-luxations de Lisfranc."
+   ],
+   "tus": [
+    "La base du 2e métatarsien, encastrée entre les cunéiformes, est le point le plus stable, la clé de voûte de l'articulation de Lisfranc."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale",
+    "os-cuneiforme-laterale",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Intermediate cuneiform bone"
+   ],
+   "aliases": [
+    "cunéiforme intermédiaire",
+    "deuxième cunéiforme"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-laterale",
+   "tr": "Cunéiforme latéral",
+   "la": "Os cuneiforme laterale",
+   "en": "Lateral cuneiform bone",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Le cunéiforme de taille moyenne ; il se situe entre le cunéiforme intermédiaire et le cuboïde et s'articule en avant avec le 3e métatarsien.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Os court",
+     "Type d'os"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Naviculaire, cunéiforme intermédiaire, cuboïde, 2e, 3e et 4e métatarsiens",
+     "Os articulés"
+    ],
+    [
+     "Kas tutunmaları",
+     "Expansions du tibial postérieur, une partie du court fléchisseur de l'hallux",
+     "Insertions musculaires"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Les cunéiformes sont rarement touchés par les fractures de fatigue du médio-pied ; une douleur à ce niveau peut être confondue avec une entorse tarso-métatarsienne."
+   ],
+   "tus": [
+    "Le cunéiforme latéral est en contact avec les 2e, 3e et 4e métatarsiens ; il est proche du sommet de l'arche transversale."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-intermedium",
+    "os-cuboideum",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "cunéiforme latéral",
+    "troisième cunéiforme"
+   ]
+  },
+  {
+   "id": "ossa-metatarsi",
+   "tr": "Métatarsiens",
+   "la": "Ossa metatarsi (I–V)",
+   "en": "Metatarsal bones",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Les cinq os longs qui forment le squelette de l'avant-pied. Le premier est le plus court et le plus épais ; leurs têtes supportent une grande partie du poids en station debout.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V)",
+     "Nombre"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tubérosité du 5e métatarsien à sa base (insertion du court fibulaire) ; deux sésamoïdes sous la tête du 1er métatarsien",
+     "Principaux repères"
+    ],
+    [
+     "Eklemleri",
+     "Articulations tarso-métatarsiennes (interligne de Lisfranc), métatarso-phalangiennes",
+     "Articulations"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La fracture de la base du 5e métatarsien (fracture de Jones) est fréquente lors des entorses de cheville.",
+    "Des fractures de fatigue des 2e–3e métatarsiens (fracture de marche) peuvent suivre de longues marches.",
+    "Dans l'hallux valgus, le 1er métatarsien dévie en dedans et le gros orteil en dehors."
+   ],
+   "tus": [
+    "La fracture de marche est le plus souvent une fracture de fatigue de la diaphyse du 2e métatarsien.",
+    "La lésion de Lisfranc touche l'articulation tarso-métatarsienne ; la base du 2e métatarsien en est la clé."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuboideum",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "First metatarsal bone",
+    "Second metatarsal bone",
+    "Third metatarsal bone",
+    "Fourth metatarsal bone",
+    "Fifth metatarsal bone"
+   ],
+   "aliases": [
+    "métatarse"
+   ]
+  },
+  {
+   "id": "phalanges-pedis",
+   "tr": "Phalanges du pied",
+   "la": "Phalanges pedis",
+   "en": "Phalanges of foot",
+   "group": "Os du pied",
+   "region": "lowerLimb",
+   "summary": "Les 14 os des orteils. Le gros orteil (hallux) a deux phalanges, les autres trois chacun ; elles sont plus courtes que celles de la main.",
+   "facts": [
+    [
+     "Sayı",
+     "14",
+     "Nombre"
+    ],
+    [
+     "Eklemleri",
+     "Articulations métatarso-phalangiennes et interphalangiennes du pied",
+     "Articulations"
+    ],
+    [
+     "Sesamoid kemikler",
+     "Deux os sésamoïdes se trouvent sous l'articulation métatarso-phalangienne de l'hallux",
+     "Os sésamoïdes"
+    ]
+   ],
+   "sections": [
+    [
+     "Structure",
+     "Les phalanges du pied sont beaucoup plus courtes que celles de la main ; les phalanges moyennes et distales des 2e–5e orteils sont particulièrement petites et souvent soudées au 5e orteil. Les phalanges de l'hallux sont épaisses et robustes ; c'est par elles que passe en dernier le poids lors de la phase de propulsion de la marche."
+    ]
+   ],
+   "clinical": [
+    "Les orteils en marteau et la goutte (surtout de la 1re MTP – podagre) sont des problèmes fréquents."
+   ],
+   "tus": [
+    "L'hallux valgus est la déviation latérale du gros orteil ; un oignon (bunion) se forme sur la tête du 1er métatarsien."
+   ],
+   "related": [
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Phalanges of foot",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "orteil",
+    "phalange"
+   ]
+  },
+  {
+   "id": "iskelet-genel",
+   "tr": "Divisions du squelette",
+   "la": "Skeleton",
+   "en": "Human skeleton",
+   "group": "Généralités",
+   "region": "general",
+   "summary": "Le squelette humain adulte compte environ 206 os et se divise en deux grandes parties : le squelette axial, qui forme l'axe du corps (crâne, colonne vertébrale, cage thoracique), et le squelette appendiculaire, qui porte les membres (ceintures et os des membres libres).",
+   "facts": [
+    [
+     "Sayı",
+     "Environ 206 os chez l'adulte ; 270 à 300 chez le nouveau-né en comptant les pièces non encore soudées",
+     "Nombre"
+    ],
+    [
+     "Eksen iskeleti (skeleton axiale)",
+     "80 os : crâne et osselets de l'ouïe (29, os hyoïde compris), colonne vertébrale (26), cage thoracique (25 : sternum et 24 côtes)",
+     "Squelette axial"
+    ],
+    [
+     "Ekstremite iskeleti (skeleton appendiculare)",
+     "126 os : ceinture scapulaire (4), membres supérieurs (60), ceinture pelvienne (2), membres inférieurs (60)",
+     "Squelette appendiculaire"
+    ],
+    [
+     "Kemik şekilleri",
+     "Os longs (fémur, humérus), courts (os du carpe), plats (sternum, voûte du crâne), irréguliers (vertèbres), pneumatiques (maxillaire, ethmoïde) et sésamoïdes (patella)",
+     "Formes des os"
+    ],
+    [
+     "İşlevi",
+     "Soutien et forme, protection des organes, leviers du mouvement, hématopoïèse (moelle rouge), réserve de calcium et de phosphate",
+     "Fonction"
+    ]
+   ],
+   "sections": [
+    [
+     "Ceintures",
+     "La ceinture scapulaire comprend la clavicule et la scapula ; elle n'est reliée au tronc que par l'articulation sterno-claviculaire et permet une grande amplitude de mouvement. La ceinture pelvienne comprend les deux os coxaux ; solidement unis au sacrum en arrière et entre eux en avant, ils transmettent le poids du corps aux membres inférieurs."
+    ]
+   ],
+   "clinical": [
+    "Chez l'adulte, la biopsie et le myélogramme se font en général sur la crête iliaque postérieure (autour de l'épine iliaque postéro-supérieure).",
+    "L'âge osseux s'évalue sur les centres d'ossification d'une radiographie de la main et du poignet gauches."
+   ],
+   "tus": [
+    "Le squelette axial compte 80 os, le squelette appendiculaire 126.",
+    "Chez l'adulte, la moelle rouge se trouve surtout dans les os plats (sternum, côtes, os coxal, vertèbres) et les extrémités proximales des os longs."
+   ],
+   "related": [
+    "os-structura",
+    "cranium",
+    "columna-vertebralis",
+    "pelvis"
+   ],
+   "models": [
+    "Skeletal system"
+   ],
+   "aliases": [
+    "squelette",
+    "os"
+   ]
+  },
+  {
+   "id": "os-structura",
+   "tr": "Structure et développement de l'os",
+   "la": "Structura ossis",
+   "en": "Structure of bone",
+   "group": "Généralités",
+   "region": "general",
+   "summary": "L'os est un tissu conjonctif dur formé de cristaux de phosphate de calcium et de collagène. L'os compact, dense, se trouve à l'extérieur et l'os spongieux à l'intérieur ; la surface est recouverte par le périoste. Les os se forment par ossification membranaire ou enchondrale.",
+   "facts": [
+    [
+     "Doku",
+     "Os compact (cortical) – formé d'ostéons (systèmes de Havers) ; os spongieux (trabéculaire) – la moelle osseuse occupe les espaces entre les travées",
+     "Tissu"
+    ],
+    [
+     "Hücreler",
+     "Ostéoblaste (fabrique l'os), ostéocyte (cellule mature emmurée dans l'os), ostéoclaste (résorbe l'os ; cellule multinucléée d'origine monocytaire)",
+     "Cellules"
+    ],
+    [
+     "Uzun kemiğin bölümleri",
+     "Épiphyse (extrémité), métaphyse (zone de transition où se fait la croissance), diaphyse (corps, avec la cavité médullaire), cartilage de croissance (plaque épiphysaire)",
+     "Parties d'un os long"
+    ],
+    [
+     "Kemikleşme",
+     "Membranaire : voûte du crâne, os de la face, la plus grande partie de la clavicule. Enchondrale : base du crâne, vertèbres, la plupart des os des membres",
+     "Ossification"
+    ],
+    [
+     "Kanlanma",
+     "La diaphyse est vascularisée par l'artère nourricière (qui entre par le foramen nourricier), les extrémités par les artères métaphysaires et épiphysaires, la corticale externe par les artères périostées",
+     "Vascularisation"
+    ]
+   ],
+   "sections": [
+    [
+     "Périoste et endoste",
+     "Le périoste est une membrane riche en nerfs et en vaisseaux qui recouvre la surface externe de l'os ; les cellules de sa couche profonde permettent la croissance en épaisseur et la consolidation des fractures. Il n'y a pas de périoste sur les surfaces articulaires, recouvertes de cartilage hyalin. L'endoste tapisse la cavité médullaire."
+    ],
+    [
+     "Croissance",
+     "Les os longs grandissent en longueur par la multiplication et l'ossification des chondrocytes du cartilage de croissance ; celui-ci se ferme à la fin de la puberté (il reste la ligne épiphysaire). La croissance en largeur se fait par apposition d'os nouveau par le périoste."
+    ]
+   ],
+   "clinical": [
+    "Chez l'enfant, les fractures touchant le cartilage de croissance (Salter–Harris) peuvent perturber la croissance et créer une inégalité de longueur des membres.",
+    "Dans l'ostéoporose, la masse osseuse et la trame trabéculaire diminuent ; les fractures touchent surtout les corps vertébraux, le col du fémur et le radius distal.",
+    "La consolidation d'une fracture passe par les stades hématome → cal mou (fibrocartilage) → cal dur (os réticulaire) → remodelage (os lamellaire)."
+   ],
+   "tus": [
+    "La clavicule est le premier os du corps à commencer son ossification (5e–6e semaine) et s'ossifie surtout sur un mode membranaire.",
+    "Les canaux de Volkmann, perpendiculaires, relient les canaux de Havers entre eux et au périoste."
+   ],
+   "related": [
+    "iskelet-genel",
+    "femur",
+    "humerus",
+    "clavicula"
+   ],
+   "models": [
+    "Femur",
+    "Humerus",
+    "Tibia"
+   ],
+   "aliases": [
+    "tissu osseux",
+    "ostéon",
+    "périoste",
+    "ossification"
+   ]
+  },
+  {
+   "id": "ossa-sesamoidea",
+   "tr": "Os sésamoïdes",
+   "la": "Ossa sesamoidea",
+   "en": "Sesamoid bones",
+   "group": "Généralités",
+   "region": "general",
+   "summary": "Petits os qui se développent dans un tendon ; ils permettent au tendon de glisser sur une saillie osseuse, réduisent les frottements et augmentent le bras de levier du muscle. Le plus grand est la patella.",
+   "facts": [
+    [
+     "Örnekler",
+     "Patella (tendon du quadriceps fémoral), pisiforme (tendon du fléchisseur ulnaire du carpe), sésamoïdes sous les articulations MP du pouce et de l'hallux",
+     "Exemples"
+    ],
+    [
+     "İşlevi",
+     "Protège le tendon, change sa direction et allonge le bras de levier, ce qui augmente la force du muscle",
+     "Fonction"
+    ],
+    [
+     "Değişken olanlar",
+     "La fabella (dans le chef latéral du gastrocnémien) et l'os péronier (dans le tendon du long fibulaire) existent chez certains sujets",
+     "Inconstants"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'inflammation des sésamoïdes de l'hallux (sésamoïdite) provoque des douleurs de l'avant-pied chez les danseurs et les coureurs.",
+    "La fabella et l'os péronier peuvent être confondus avec des fragments de fracture à la radiographie."
+   ],
+   "tus": [
+    "La patella est le plus grand sésamoïde du corps ; le pisiforme est aussi considéré comme un sésamoïde développé dans le tendon du fléchisseur ulnaire du carpe."
+   ],
+   "related": [
+    "patella",
+    "os-pisiforme",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "Patella",
+    "Pisiform bone",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "sésamoïde"
+   ]
+  }
+ ]
+}

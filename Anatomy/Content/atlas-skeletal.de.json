@@ -1,0 +1,4085 @@
+{
+ "system": "skeletal",
+ "entries": [
+  {
+   "id": "cranium",
+   "tr": "Schädel (als Ganzes)",
+   "la": "Cranium",
+   "en": "Skull",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Knöcherne Struktur aus dem Hirnschädel (Neurocranium), der das Gehirn schützt, und dem Gesichtsschädel (Viscerocranium); bis auf den Unterkiefer sind die Knochen fest durch Nähte verbunden. Mit Zungenbein und Gehörknöchelchen umfasst er 29 Knochen.",
+   "facts": [
+    [
+     "Beyin kafası (neurocranium)",
+     "8 Knochen: Stirnbein, zwei Scheitelbeine, Hinterhauptsbein, zwei Schläfenbeine, Keilbein, Siebbein",
+     "Hirnschädel (Neurocranium)"
+    ],
+    [
+     "Yüz kafası (viscerocranium)",
+     "14 Knochen: zwei Oberkiefer, zwei Jochbeine, zwei Nasenbeine, zwei Tränenbeine, zwei Gaumenbeine, zwei untere Nasenmuscheln, Pflugscharbein, Unterkiefer",
+     "Gesichtsschädel (Viscerocranium)"
+    ],
+    [
+     "Bölümleri",
+     "Schädeldach (Calvaria) und Schädelbasis (Basis cranii)",
+     "Teile"
+    ],
+    [
+     "Hareketli eklem",
+     "Das einzige echte Gelenk des Schädels ist das Kiefergelenk; die übrigen Knochen sind durch Nähte verbunden",
+     "Bewegliches Gelenk"
+    ],
+    [
+     "Önemli noktalar",
+     "Bregma (Treffpunkt von Sagittal- und Kranznaht), Lambda (Sagittal- und Lambdanaht), Pterion (Stirn-, Scheitel-, Schläfen-, Keilbein), Asterion (Scheitel-, Hinterhaupts-, Schläfenbein), Nasion, Inion",
+     "Messpunkte"
+    ]
+   ],
+   "sections": [
+    [
+     "Ansichten",
+     "Von vorn (Norma frontalis) sieht man die Augenhöhlen, die Apertura piriformis und die Kiefer. Von der Seite (Norma lateralis) Fossa temporalis, Jochbogen und Pterion; von unten (Norma basalis) Foramen magnum, Kondylen und die Öffnungen der Schädelbasis. In der Schädelhöhle liegen vordere, mittlere und hintere Schädelgrube stufenförmig hintereinander."
+    ]
+   ],
+   "clinical": [
+    "Das Pterion ist die dünnste Stelle des Schädels; da darunter der vordere Ast der A. meningea media verläuft, können Frakturen hier ein epidurales Hämatom verursachen.",
+    "Ein vorzeitiger Verschluss der Schädelnähte (Kraniosynostose) führt zu einer abnormen Kopfform."
+   ],
+   "tus": [
+    "Der Hirnschädel hat 8, der Gesichtsschädel 14 Knochen (ohne Zungenbein und Gehörknöchelchen).",
+    "Pterion, Asterion und Bregma sind wichtige Oberflächenpunkte für operative Zugänge; das Pterion liegt etwa 4 cm über der Mitte des Jochbogens."
+   ],
+   "related": [
+    "suturae-fonticuli",
+    "basis-cranii",
+    "orbita",
+    "os-frontale",
+    "os-sphenoidale",
+    "mandibula"
+   ],
+   "models": [
+    "Cranium"
+   ],
+   "aliases": [
+    "Schädel",
+    "Kopf",
+    "Cranium"
+   ]
+  },
+  {
+   "id": "suturae-fonticuli",
+   "tr": "Schädelnähte und Fontanellen",
+   "la": "Suturae et fonticuli cranii",
+   "en": "Sutures and fontanelles",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Die Schädelknochen sind durch faserige Gelenke, die Nähte, verbunden. Beim Neugeborenen liegen an den Treffpunkten der Nähte noch nicht verknöcherte, häutige Bereiche – die Fontanellen; sie ermöglichen die Verformung des Kopfes bei der Geburt und das Wachstum des Gehirns.",
+   "facts": [
+    [
+     "Başlıca dikişler",
+     "Kranznaht (Stirn–Scheitelbein), Pfeilnaht (zwischen den Scheitelbeinen), Lambdanaht (Scheitel–Hinterhauptsbein), Schuppennaht (Scheitel–Schläfenbein), Stirnnaht (zwischen den Stirnbeinhälften)",
+     "Wichtigste Nähte"
+    ],
+    [
+     "Ön bıngıldak (fonticulus anterior)",
+     "Rautenförmig, die größte; zwischen Stirn- und Scheitelbeinen; schließt sich mit 18–24 Monaten",
+     "Vordere Fontanelle"
+    ],
+    [
+     "Arka bıngıldak (fonticulus posterior)",
+     "Dreieckig; zwischen Scheitel- und Hinterhauptsbein; schließt sich mit 2–3 Monaten",
+     "Hintere Fontanelle"
+    ],
+    [
+     "Yan bıngıldaklar",
+     "Keilbeinfontanelle (vorn seitlich, am Pterion) und Warzenfontanelle (hinten seitlich, am Asterion); schließen sich im ersten Lebensjahr",
+     "Seitenfontanellen"
+    ],
+    [
+     "Eklem tipi",
+     "Synarthrose – faserige Verbindung (Suturen); kann im Alter verknöchern (Synostose)",
+     "Gelenktyp"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine eingesunkene große Fontanelle spricht für Austrocknung, eine gespannte, vorgewölbte für erhöhten Hirndruck (Meningitis, Hydrozephalus).",
+    "Vorzeitiger Verschluss der Pfeilnaht ergibt einen langen, schmalen Kopf (Skaphozephalie), einseitiger Verschluss der Kranznaht einen asymmetrischen Kopf (Plagiozephalie).",
+    "Ein verspäteter Verschluss der großen Fontanelle kommt bei Rachitis, Hypothyreose und Hydrozephalus vor."
+   ],
+   "tus": [
+    "Die große Fontanelle schließt sich mit 18–24 Monaten, die kleine mit 2–3 Monaten; beim Neugeborenen ist der Sinus sagittalis superior über die große Fontanelle erreichbar.",
+    "Die häufigste Kraniosynostose ist die Sagittalnahtsynostose (Skaphozephalie)."
+   ],
+   "related": [
+    "cranium",
+    "os-parietale",
+    "os-frontale",
+    "os-occipitale"
+   ],
+   "models": [
+    "Parietal bone",
+    "Frontal bone",
+    "Occipital bone",
+    "Cranial fibrous joints"
+   ],
+   "aliases": [
+    "Naht",
+    "Fontanelle"
+   ]
+  },
+  {
+   "id": "basis-cranii",
+   "tr": "Schädelbasis und ihre Öffnungen",
+   "la": "Basis cranii interna",
+   "en": "Cranial base and foramina",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Der Boden der Schädelhöhle gliedert sich von vorn nach hinten in drei stufenförmige Gruben: vordere, mittlere und hintere Schädelgrube. Durch ihre Löcher und Kanäle ziehen die Hirnnerven und die Gefäße von und zum Gehirn.",
+   "facts": [
+    [
+     "Ön kafa çukuru (fossa cranii anterior)",
+     "Pars orbitalis des Stirnbeins, Lamina cribrosa (Siebbein) und kleine Keilbeinflügel; trägt die Frontallappen. Öffnungen: Löcher der Lamina cribrosa (Fila olfactoria), Foramen caecum",
+     "Vordere Schädelgrube"
+    ],
+    [
+     "Orta kafa çukuru (fossa cranii media)",
+     "Keilbeinkörper und große Keilbeinflügel, Schuppe und Felsenbein des Schläfenbeins; trägt die Temporallappen und die Hypophyse (Sella turcica). Öffnungen: Canalis opticus (II, A. ophthalmica), Fissura orbitalis superior (III, IV, V1, VI, V. ophthalmica superior), Foramen rotundum (V2), Foramen ovale (V3, N. petrosus minor), Foramen spinosum (A. meningea media), Foramen lacerum (knorpelig verschlossen; darüber zieht die ACI)",
+     "Mittlere Schädelgrube"
+    ],
+    [
+     "Arka kafa çukuru (fossa cranii posterior)",
+     "Hinterhauptsbein und Hinterfläche der Felsenbeinpyramide; trägt Kleinhirn, Brücke und Medulla oblongata. Öffnungen: Meatus acusticus internus (VII, VIII, A. labyrinthi), Foramen jugulare (IX, X, XI, V. jugularis interna, Sinus petrosus inferior), Canalis nervi hypoglossi (XII), Foramen magnum (Medulla oblongata, Aa. vertebrales, spinale Wurzeln des XI)",
+     "Hintere Schädelgrube"
+    ],
+    [
+     "Dış kafa tabanındaki delikler",
+     "Canalis caroticus (A. carotis interna, sympathischer Plexus), Foramen stylomastoideum (VII), Canalis condylaris (Emissarvene), Foramina palatina, Fossa incisiva",
+     "Öffnungen der äußeren Schädelbasis"
+    ]
+   ],
+   "sections": [
+    [
+     "Klinische Bedeutung",
+     "Schädelbasisfrakturen betreffen am häufigsten die mittlere Schädelgrube. Eine vordere Schädelbasisfraktur kann Brillenhämatom, Liquorrhinorrhö und Riechverlust verursachen; eine Fraktur der mittleren Basis (Felsenbein) ein Hämatom hinter dem Ohr (Battle-Zeichen), Hämatotympanon, Liquorotorrhö und Fazialisparese."
+    ]
+   ],
+   "clinical": [
+    "Ein Tumor oder eine Fraktur am Foramen jugulare schädigt die Hirnnerven IX, X und XI gemeinsam (Vernet-Syndrom): Schluckstörung, Heiserkeit, Schwäche von Trapezius und SCM.",
+    "Bei erhöhtem Hirndruck kann die Einklemmung der Kleinhirntonsillen im Foramen magnum zum Atemstillstand führen."
+   ],
+   "tus": [
+    "Durch die Fissura orbitalis superior ziehen III, IV, V1 und VI; durch den Canalis opticus II und die A. ophthalmica.",
+    "Das Foramen rotundum führt V2, das Foramen ovale V3 und das Foramen spinosum die A. meningea media (von vorn nach hinten: „Rotundum–Ovale–Spinosum“).",
+    "Durch das Foramen jugulare ziehen IX, X, XI und die V. jugularis interna; durch den Canalis nervi hypoglossi XII."
+   ],
+   "related": [
+    "cranium",
+    "os-sphenoidale",
+    "os-occipitale",
+    "os-temporale",
+    "os-ethmoidale"
+   ],
+   "models": [
+    "Occipital bone",
+    "Sphenoid bone",
+    "Temporal bone",
+    "Ethmoid bone"
+   ],
+   "aliases": [
+    "Schädelbasis",
+    "Foramen",
+    "Schädelgrube"
+   ]
+  },
+  {
+   "id": "orbita",
+   "tr": "Augenhöhle (Orbita)",
+   "la": "Orbita",
+   "en": "Orbit",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Knöcherne Höhle in Form einer vierseitigen Pyramide mit der Basis vorn und der Spitze hinten, die Augapfel, Augenmuskeln, Nerven und Gefäße enthält. Sieben Knochen sind an ihrem Aufbau beteiligt.",
+   "facts": [
+    [
+     "Kemikleri",
+     "Stirnbein, Jochbein, Oberkiefer, Keilbein, Siebbein, Tränenbein, Gaumenbein",
+     "Knochen"
+    ],
+    [
+     "Duvarları",
+     "Dach: Pars orbitalis des Stirnbeins und kleiner Keilbeinflügel; Boden: Oberkiefer, Jochbein, Gaumenbein; mediale Wand: Lamina orbitalis des Siebbeins, Tränenbein, Oberkiefer, Keilbein; laterale Wand: Jochbein und großer Keilbeinflügel (dickste Wand)",
+     "Wände"
+    ],
+    [
+     "Açıklıkları",
+     "Canalis opticus (II, A. ophthalmica), Fissura orbitalis superior (III, IV, V1, VI, V. ophthalmica superior), Fissura orbitalis inferior (N. infraorbitalis, V. ophthalmica inferior), Canalis nasolacrimalis, Foramina ethmoidalia",
+     "Öffnungen"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Augapfel, äußere Augenmuskeln, N. opticus, Tränendrüse, Orbitafett, A. ophthalmica und ihre Äste",
+     "Inhalt"
+    ]
+   ],
+   "sections": [
+    [
+     "Schwächste Wände",
+     "Die Lamina orbitalis (papyracea) der medialen Wand ist die dünnste Wand; Siebbeinentzündungen können durch sie in die Orbita übergreifen. Auch der Boden ist dünn, darunter liegt die Kieferhöhle; ein stumpfes Trauma auf das Auge kann ihn brechen (Blow-out-Fraktur)."
+    ]
+   ],
+   "clinical": [
+    "Bei der Blow-out-Fraktur bricht der Orbitaboden; der M. rectus inferior kann im Frakturspalt eingeklemmt werden (Doppelbilder beim Blick nach oben), eine Schädigung des N. infraorbitalis verursacht Taubheit von Wange und Oberlippe.",
+    "Die Orbitaphlegmone entsteht meist aus einer Siebbeinentzündung; unbehandelt kann sie zur Sinus-cavernosus-Thrombose fortschreiten."
+   ],
+   "tus": [
+    "Die dünnste Orbitawand ist die mediale (Lamina papyracea), die dickste die laterale; Blow-out-Frakturen betreffen meist den Boden.",
+    "Der Anulus tendineus communis (Zinn-Ring) ist Ursprung der vier geraden Augenmuskeln; II, III, VI und der N. nasociliaris ziehen hindurch, IV, N. frontalis und N. lacrimalis außerhalb."
+   ],
+   "related": [
+    "os-frontale",
+    "os-zygomaticum",
+    "maxilla",
+    "os-sphenoidale",
+    "os-ethmoidale",
+    "os-lacrimale"
+   ],
+   "models": [
+    "Frontal bone",
+    "Zygomatic bone",
+    "Maxilla",
+    "Sphenoid bone",
+    "Ethmoid bone",
+    "Lacrimal bone",
+    "Palatine bone"
+   ],
+   "aliases": [
+    "Orbita",
+    "Augenhöhle"
+   ]
+  },
+  {
+   "id": "fossa-pterygopalatina",
+   "tr": "Flügelgaumengrube",
+   "la": "Fossa pterygopalatina",
+   "en": "Pterygopalatine fossa",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Kleiner, umgekehrt pyramidenförmiger Raum hinter dem Oberkiefer und vor dem Processus pterygoideus des Keilbeins. Er enthält den N. maxillaris, den letzten Abschnitt der A. maxillaris und das Ganglion pterygopalatinum und ist ein wichtiger Knotenpunkt zwischen Nase, Gaumen, Orbita und Schädelhöhle.",
+   "facts": [
+    [
+     "Sınırları",
+     "Vorn der Oberkiefer (Tuber maxillae), hinten Processus pterygoideus und großer Keilbeinflügel, medial die Lamina perpendicularis des Gaumenbeins, lateral die Fissura pterygomaxillaris zur Fossa infratemporalis",
+     "Begrenzungen"
+    ],
+    [
+     "İçerdiği yapılar",
+     "N. maxillaris (V2), Ganglion pterygopalatinum, 3. (pterygopalatinaler) Abschnitt der A. maxillaris und ihre Äste",
+     "Inhalt"
+    ],
+    [
+     "Bağlantıları",
+     "Foramen rotundum (mittlere Schädelgrube), Canalis pterygoideus (Bereich des Foramen lacerum), Fissura orbitalis inferior (Orbita), Foramen sphenopalatinum (Nasenhöhle), Canalis palatinus major (Gaumen), Fissura pterygomaxillaris (Fossa infratemporalis)",
+     "Verbindungen"
+    ]
+   ],
+   "sections": [
+    [
+     "Ganglion pterygopalatinum",
+     "Ein parasympathisches Ganglion; seine präganglionären Fasern kommen vom N. facialis über den N. petrosus major (N. canalis pterygoidei). Die postganglionären Fasern ziehen zur Tränendrüse und zu den Schleimdrüsen von Nase, Gaumen und Rachen; es wird daher manchmal „Heuschnupfenganglion“ genannt."
+    ]
+   ],
+   "clinical": [
+    "Die A. sphenopalatina ist die Quelle des hinteren Nasenblutens; bei nicht stillbarer Blutung kann sie in der Flügelgaumengrube oder am Foramen sphenopalatinum ligiert werden.",
+    "Das juvenile Nasenrachenfibrom breitet sich bevorzugt in diese Grube aus."
+   ],
+   "tus": [
+    "N. petrosus major (VII, parasympathisch) und N. petrosus profundus (sympathisch) vereinigen sich zum N. canalis pterygoidei (Vidianus), der zum Ganglion pterygopalatinum zieht.",
+    "Parasympathischer Weg der Tränendrüse: N. facialis → N. petrosus major → Ganglion pterygopalatinum → N. zygomaticus → N. lacrimalis."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-palatinum",
+    "maxilla",
+    "orbita"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Palatine bone",
+    "Maxilla"
+   ],
+   "aliases": [
+    "Fossa pterygopalatina",
+    "sphenopalatin"
+   ]
+  },
+  {
+   "id": "os-frontale",
+   "tr": "Stirnbein",
+   "la": "Os frontale",
+   "en": "Frontal bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Unpaarer, symmetrischer Schädelknochen, der die Stirn und die Dächer der Augenhöhlen bildet. Er besteht aus drei Teilen: der senkrechten Squama, der waagerechten Pars orbitalis und der kleinen Pars nasalis.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Platter Knochen (pneumatisiert – enthält den Sinus frontalis)",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os parietale (Sutura coronalis), Os sphenoidale, Os ethmoidale, Ossa nasalia, Maxillae, Ossa lacrimalia, Ossa zygomatica",
+     "Gelenkpartner"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuber frontale, Arcus superciliaris, Glabella, Margo supraorbitalis, Incisura/Foramen supraorbitale, Processus zygomaticus, Sinus frontalis, Crista frontalis",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Kemikleşme",
+     "Desmal; bei Geburt zweigeteilt, die Sutura metopica schließt sich meist im 2. Lebensjahr",
+     "Verknöcherung"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Die Squama bildet die Stirn; ihre Innenfläche zeigt Abdrücke der Hirnwindungen und in der Mitte die Rinne des Sinus sagittalis superior. Die Pars orbitalis ist eine dünne Knochenplatte und bildet den Boden der vorderen Schädelgrube; in der Incisura ethmoidalis zwischen beiden Orbitalteilen liegt die Lamina cribrosa des Siebbeins. Der Sinus frontalis ist ein lufthaltiger Raum hinter den Augenbrauen, der in den mittleren Nasengang mündet."
+    ]
+   ],
+   "clinical": [
+    "Der N. supraorbitalis, der durch das Foramen bzw. die Incisura supraorbitalis zieht, wird für die Lokalanästhesie der Stirn blockiert.",
+    "Eine Entzündung des Sinus frontalis (Sinusitis frontalis) verursacht Stirnschmerzen; Frakturen der vorderen Schädelbasis können zu Liquorfluss aus der Nase (Rhinoliquorrhö) führen."
+   ],
+   "tus": [
+    "Der Sinus frontalis mündet in den mittleren Nasengang (Hiatus semilunaris).",
+    "Durch das Foramen/die Incisura supraorbitalis ziehen N. und A. supraorbitalis (V1); Druckpunkt bei Trigeminusneuralgie."
+   ],
+   "related": [
+    "os-parietale",
+    "os-ethmoidale",
+    "os-sphenoidale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Frontal bone",
+    "Sinus of frontal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-parietale",
+   "tr": "Scheitelbein",
+   "la": "Os parietale",
+   "en": "Parietal bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Paariger, viereckiger platter Knochen, der die Seiten und den oberen Teil des Schädeldachs (Calvaria) bildet. Beide Scheitelbeine treffen sich in der Mittellinie an der Sutura sagittalis.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Platter Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Gegenseitiges Os parietale (Sutura sagittalis), Os frontale (Sutura coronalis), Os occipitale (Sutura lambdoidea), Os temporale (Sutura squamosa), Os sphenoidale (Ala major)",
+     "Gelenkpartner"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuber parietale, Linea temporalis superior und inferior, Foramen parietale, Rinnen der A. meningea media an der Innenfläche (Sulci arteriosi)",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Kemikleşme",
+     "Desmale Ossifikation",
+     "Verknöcherung"
+    ]
+   ],
+   "sections": [
+    [
+     "Fontanellen",
+     "Beim Neugeborenen begrenzen die Ecken der Scheitelbeine die Fontanellen: Die große (vordere) Fontanelle zwischen Stirn- und Scheitelbeinen schließt sich mit 18–24 Monaten, die kleine (hintere) zwischen Scheitel- und Hinterhauptsbein mit 2–3 Monaten."
+    ]
+   ],
+   "clinical": [
+    "Das Pterion (H-förmige Stelle, an der Stirn-, Scheitel-, Schläfen- und Keilbein zusammentreffen) ist dünn und bricht leicht; reißt die darunterliegende A. meningea media, entsteht ein epidurales Hämatom.",
+    "Eine eingesunkene große Fontanelle spricht für Exsikkose, eine vorgewölbte für erhöhten Hirndruck."
+   ],
+   "tus": [
+    "An der Innenseite des Pterions verläuft der vordere Ast der A. meningea media; eine Fraktur hier führt zum epiduralen Hämatom.",
+    "Das Scheitelbein verknöchert desmal; bei Geburt begrenzt es die große und die kleine Fontanelle."
+   ],
+   "related": [
+    "os-frontale",
+    "os-occipitale",
+    "os-temporale"
+   ],
+   "models": [
+    "Parietal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-occipitale",
+   "tr": "Hinterhauptsbein",
+   "la": "Os occipitale",
+   "en": "Occipital bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Unpaarer Knochen, der den hinteren und unteren Teil des Schädels bildet. Über das Foramen magnum verbindet er die Schädelhöhle mit dem Wirbelkanal, mit seinen Condyli occipitales artikuliert er mit dem Atlas.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Platter Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Squama, zwei Partes laterales (condylares) und Pars basilaris",
+     "Teile"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Ossa parietalia, Ossa temporalia, Os sphenoidale, Atlas (Art. atlantooccipitalis)",
+     "Gelenkpartner"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Foramen magnum, Condyli occipitales, Canalis nervi hypoglossi, Protuberantia occipitalis externa (Inion), Lineae nuchae, Clivus, Protuberantia occipitalis interna, Sulcus sinus transversi",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Foramen magnum'dan geçenler",
+     "Medulla oblongata mit Hirnhäuten, Aa. vertebrales, A. spinalis anterior und Aa. spinales posteriores, spinale Wurzeln des N. accessorius",
+     "Durch das Foramen magnum"
+    ]
+   ],
+   "sections": [
+    [
+     "Klinisch wichtige Bereiche",
+     "Der Clivus liegt vor dem Hirnstamm. An der Linea nuchae superior setzen M. trapezius und M. sternocleidomastoideus an. Durch den Canalis nervi hypoglossi zieht der XII. Hirnnerv; durch den Canalis condylaris hinter den Kondylen ziehen Emissarvenen."
+    ]
+   ],
+   "clinical": [
+    "Bei der Arnold-Chiari-Malformation reichen die Kleinhirntonsillen durch das Foramen magnum in den Wirbelkanal.",
+    "Bei erhöhtem Hirndruck kann die Einklemmung der Kleinhirntonsillen im Foramen magnum (untere Einklemmung) das Atemzentrum komprimieren und tödlich sein."
+   ],
+   "tus": [
+    "Durch das Foramen magnum ziehen Medulla oblongata, Aa. vertebrales, A. spinalis anterior und die spinalen Wurzeln des N. accessorius.",
+    "Der Canalis nervi hypoglossi liegt oberhalb der Kondylen und führt den XII. Hirnnerv."
+   ],
+   "related": [
+    "atlas",
+    "os-parietale",
+    "os-sphenoidale",
+    "medulla-oblongata"
+   ],
+   "models": [
+    "Occipital bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-temporale",
+   "tr": "Schläfenbein",
+   "la": "Os temporale",
+   "en": "Temporal bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Paariger, komplex gebauter Knochen in Seitenwand und Basis des Schädels, der Hör- und Gleichgewichtsorgan beherbergt. Mit dem Unterkiefer bildet er das Kiefergelenk.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger Knochen (pneumatisiert – Cellulae mastoideae)",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Pars squamosa, Pars tympanica, Pars petrosa (Felsenbein) und Processus styloideus",
+     "Teile"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os parietale, Os occipitale, Os sphenoidale, Os zygomaticum (Arcus zygomaticus), Mandibula (Kiefergelenk)",
+     "Gelenkpartner"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Meatus acusticus externus und internus, Processus mastoideus, Processus zygomaticus, Fossa mandibularis, Tuberculum articulare, Foramen stylomastoideum, Canalis caroticus, Fossa jugularis",
+     "Wichtige Strukturen"
+    ],
+    [
+     "İçerdiği yapılar",
+     "Mittelohr (Paukenhöhle und Gehörknöchelchen), Innenohr (Labyrinth), Canalis facialis",
+     "Inhalt"
+    ]
+   ],
+   "sections": [
+    [
+     "Felsenbein",
+     "Einer der härtesten Teile des Skeletts; es trennt mittlere und hintere Schädelgrube und enthält Cochlea und Bogengänge. Der N. facialis verläuft im Canalis facialis und tritt durch das Foramen stylomastoideum aus; die A. carotis interna gelangt durch den Canalis caroticus in den Schädel."
+    ]
+   ],
+   "clinical": [
+    "Felsenbeinfrakturen können Schallleitungsschwerhörigkeit, Liquorfluss aus dem Ohr (Otoliquorrhö), Fazialisparese und ein Hämatom über dem Mastoid (Battle-Zeichen) verursachen.",
+    "Mittelohrentzündungen können auf die Warzenfortsatzzellen übergreifen und eine Mastoiditis auslösen."
+   ],
+   "tus": [
+    "Der N. facialis tritt durch das Foramen stylomastoideum aus; durch den Meatus acusticus internus ziehen VII, VIII und A. labyrinthi.",
+    "Felsenbeinfrakturen (Battle-Zeichen – Mastoidhämatom, Hämatotympanon) sprechen für eine Schädelbasisfraktur."
+   ],
+   "related": [
+    "os-parietale",
+    "mandibula",
+    "auris-media",
+    "auris-interna",
+    "art-temporomandibularis"
+   ],
+   "models": [
+    "Temporal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-sphenoidale",
+   "tr": "Keilbein",
+   "la": "Os sphenoidale",
+   "en": "Sphenoid bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Unpaarer Knochen in der Mitte der Schädelbasis, der einer fliegenden Fledermaus ähnelt. Er berührt alle Knochen des Hirnschädels und trägt die Sella turcica, in der die Hypophyse liegt.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger, pneumatisierter Knochen (Sinus sphenoidalis)",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Corpus, Alae minores, Alae majores, Processus pterygoidei",
+     "Teile"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sella turcica (Fossa hypophysialis), Canalis opticus, Fissura orbitalis superior, Foramen rotundum, Foramen ovale, Foramen spinosum, Processus clinoidei",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Geçen yapılar",
+     "Canalis opticus: N. opticus und A. ophthalmica; Fissura orbitalis superior: Hirnnerven III, IV, V1, VI und V. ophthalmica superior; Foramen rotundum: V2; Foramen ovale: V3; Foramen spinosum: A. meningea media",
+     "Durchtretende Strukturen"
+    ]
+   ],
+   "sections": [
+    [
+     "Lage",
+     "Es liegt dort, wo vordere, mittlere und hintere Schädelgrube zusammentreffen. Der Sinus sphenoidalis im Keilbeinkörper mündet in den hinteren oberen Teil der Nasenhöhle (Recessus sphenoethmoidalis). Die Processus pterygoidei dienen den Mm. pterygoidei als Ursprung."
+    ]
+   ],
+   "clinical": [
+    "Hypophysentumoren werden häufig durch die Nase über die Keilbeinhöhle erreicht (transsphenoidale Operation).",
+    "Ein Hypophysenadenom kann die Sella aufweiten und auf das darüberliegende Chiasma opticum drücken – Folge ist eine bitemporale Hemianopsie."
+   ],
+   "tus": [
+    "Im kleinen Keilbeinflügel liegt der Canalis opticus; im großen das Foramen rotundum (V2), ovale (V3) und spinosum (A. meningea media).",
+    "Die Fissura orbitalis superior liegt zwischen großem und kleinem Flügel (III, IV, V1, VI, V. ophthalmica superior)."
+   ],
+   "related": [
+    "hypophysis",
+    "os-ethmoidale",
+    "os-frontale",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Sphenoid bone",
+    "Sinus of sphenoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-ethmoidale",
+   "tr": "Siebbein",
+   "la": "Os ethmoidale",
+   "en": "Ethmoid bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Leichter, schwammartiger unpaarer Knochen zwischen den Augenhöhlen am Dach der Nasenhöhle. Er bildet Dach und Seitenwände der Nasenhöhle sowie den oberen Teil der Nasenscheidewand.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger, pneumatisierter Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Lamina cribrosa, Lamina perpendicularis, zwei Labyrinthi ethmoidales (Cellulae ethmoidales)",
+     "Teile"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crista galli, Löcher der Lamina cribrosa, obere und mittlere Nasenmuschel, Lamina orbitalis (Lamina papyracea), Bulla ethmoidalis, Processus uncinatus",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Geçen yapılar",
+     "Fasern des Riechnervs (Fila olfactoria) durch die Löcher der Lamina cribrosa",
+     "Durchtretende Strukturen"
+    ]
+   ],
+   "sections": [
+    [
+     "Siebbeinzellen",
+     "Vordere, mittlere und hintere Siebbeinzellen sind kleine lufthaltige Räume; vordere und mittlere münden in den mittleren, hintere in den oberen Nasengang. Die zur Orbita gewandte Lamina orbitalis ist papierdünn."
+    ]
+   ],
+   "clinical": [
+    "Frakturen der Lamina cribrosa können Riechverlust (Anosmie) und Rhinoliquorrhö verursachen.",
+    "Wegen der dünnen Lamina papyracea kann eine Siebbeinentzündung in die Orbita übergreifen und eine Orbitaphlegmone auslösen."
+   ],
+   "tus": [
+    "Eine Fraktur der Lamina cribrosa führt zu Anosmie und Rhinoliquorrhö; „Brillenhämatome“ sind ein Zeichen der vorderen Schädelbasisfraktur.",
+    "Die Lamina orbitalis (papyracea) ist die dünnste Wand der Orbita; eine Siebbeinentzündung greift leicht auf die Orbita über (Orbitaphlegmone)."
+   ],
+   "related": [
+    "os-sphenoidale",
+    "os-frontale",
+    "cavitas-nasi",
+    "sinus-paranasales",
+    "n-olfactorius"
+   ],
+   "models": [
+    "Ethmoid bone",
+    "Anterior cells of ethmoid bone",
+    "Middle cells of ethmoid bone",
+    "Posterior cells of ethmoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "maxilla",
+   "tr": "Oberkiefer",
+   "la": "Maxilla",
+   "en": "Maxilla",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Paariger Knochen im Zentrum des Gesichtsschädels. Er trägt die oberen Zähne und bildet den größten Teil des harten Gaumens, die Seitenwand der Nasenhöhle und den Boden der Augenhöhle.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger, pneumatisierter Knochen (Sinus maxillaris)",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Corpus und vier Fortsätze: Processus frontalis, zygomaticus, alveolaris und palatinus",
+     "Teile"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os frontale, Os ethmoidale, Os nasale, Os lacrimale, Os zygomaticum, Os palatinum, Vomer, Concha nasalis inferior, gegenseitige Maxilla",
+     "Gelenkpartner"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sinus maxillaris, Foramen infraorbitale, Arcus alveolaris, Foramen incisivum, Spina nasalis anterior",
+     "Wichtige Strukturen"
+    ]
+   ],
+   "sections": [
+    [
+     "Kieferhöhle",
+     "Die größte Nasennebenhöhle; ihr Boden liegt sehr nahe an den Wurzeln der oberen Molaren. Sie mündet über den Hiatus semilunaris in den mittleren Nasengang; da die Öffnung hoch liegt, ist der Abfluss erschwert."
+    ]
+   ],
+   "clinical": [
+    "Beim Ziehen eines oberen Molaren kann eine Mund-Antrum-Verbindung (oroantrale Fistel) entstehen.",
+    "Mittelgesichtsfrakturen werden nach Le Fort I, II und III eingeteilt.",
+    "Eine Gaumenspalte entsteht, wenn die beiden Gaumenfortsätze nicht verschmelzen."
+   ],
+   "tus": [
+    "Die Kieferhöhle ist die größte Nasennebenhöhle und drainiert schlecht, weil ihr Ostium hoch liegt; die Wurzeln der oberen Molaren grenzen an ihren Boden.",
+    "Aus dem Foramen infraorbitale tritt der N. infraorbitalis (V2); die Le-Fort-Einteilung ist die klassische Klassifikation der Oberkieferfrakturen."
+   ],
+   "related": [
+    "mandibula",
+    "os-zygomaticum",
+    "os-palatinum",
+    "dentes",
+    "sinus-paranasales"
+   ],
+   "models": [
+    "Maxilla"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "mandibula",
+   "tr": "Unterkiefer",
+   "la": "Mandibula",
+   "en": "Mandible",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Größter und kräftigster Gesichtsknochen und einziger beweglicher Knochen des Schädels. Er trägt die unteren Zähne und bildet mit dem Schläfenbein das Kiefergelenk.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Corpus mandibulae und zwei Rami mandibulae; sie treffen sich am Angulus mandibulae",
+     "Teile"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Processus condylaris (Caput und Collum), Processus coronoideus, Incisura mandibulae, Foramen mandibulae, Lingula, Foramen mentale, Protuberantia mentalis, Linea mylohyoidea, Fossa digastrica",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. masseter, M. temporalis, Mm. pterygoidei medialis et lateralis, M. digastricus, M. mylohyoideus, M. geniohyoideus, M. genioglossus, Platysma",
+     "Muskelansätze"
+    ],
+    [
+     "Kemikleşme",
+     "Überwiegend desmal; bei Geburt zweigeteilt, Verschmelzung an der Symphysis mentalis im 1. Lebensjahr",
+     "Verknöcherung"
+    ]
+   ],
+   "sections": [
+    [
+     "Nerven und Gefäße",
+     "Der N. alveolaris inferior tritt durch das Foramen mandibulae in den Canalis mandibulae ein, versorgt die unteren Zähne und verlässt den Kanal durch das Foramen mentale als N. mentalis, der Unterlippe und Kinn versorgt."
+    ]
+   ],
+   "clinical": [
+    "Unterkieferfrakturen treten meist an zwei Stellen gleichzeitig auf (z. B. Kollum auf der einen, Korpus auf der anderen Seite).",
+    "Für Behandlungen an den unteren Zähnen wird der N. alveolaris inferior nahe der Lingula blockiert."
+   ],
+   "tus": [
+    "Der Unterkiefer bricht am häufigsten am Kollum, am Kieferwinkel und am Korpus (meist an zwei Stellen).",
+    "An der Lingula vor dem Foramen mandibulae setzt das Lig. sphenomandibulare an; hier erfolgt die Leitungsanästhesie des N. alveolaris inferior."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "art-temporomandibularis",
+    "m-masseter",
+    "dentes"
+   ],
+   "models": [
+    "Mandible"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-zygomaticum",
+   "tr": "Jochbein",
+   "la": "Os zygomaticum",
+   "en": "Zygomatic bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Paariger Knochen, der den Wangenvorsprung bildet und an der Seitenwand und am Boden der Augenhöhle beteiligt ist. Sein Processus temporalis bildet mit dem Processus zygomaticus des Schläfenbeins den Jochbogen.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os frontale, Os temporale, Os sphenoidale, Maxilla",
+     "Gelenkpartner"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Processus frontalis, Processus temporalis, Foramen zygomaticofaciale, Foramen zygomaticotemporale",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. masseter (Arcus zygomaticus), M. zygomaticus major und minor",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Der Knochen bildet den Wangenvorsprung. Sein Processus temporalis vereinigt sich mit dem Processus zygomaticus des Schläfenbeins zum Jochbogen; sein Processus frontalis bildet den seitlichen Orbitarand. Äste des N. zygomaticus treten durch das Foramen zygomaticoorbitale an der Orbitafläche ein und ziehen zur Haut von Wange und Schläfe."
+    ]
+   ],
+   "clinical": [
+    "Jochbeinfrakturen (Tripod-Fraktur) können Gesichtsasymmetrie, eingeschränkte Augenbewegungen und Taubheit der Wange (Schädigung des N. infraorbitalis) verursachen.",
+    "Bei Jochbogenfrakturen können der darunterliegende M. temporalis und der Processus coronoideus eingeklemmt werden und die Mundöffnung einschränken."
+   ],
+   "tus": [
+    "Bei der Jochbeinkomplexfraktur (Tripod) finden sich abgeflachte Wange, infraorbitale Taubheit und eingeschränkte Mundöffnung.",
+    "Eine Jochbogenfraktur kann den Processus coronoideus einklemmen und die Mundöffnung verhindern."
+   ],
+   "related": [
+    "maxilla",
+    "os-temporale",
+    "m-masseter"
+   ],
+   "models": [
+    "Zygomatic bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-nasale",
+   "tr": "Nasenbein",
+   "la": "Os nasale",
+   "en": "Nasal bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Kleiner, rechteckiger paariger Knochen, der den oberen Teil des Nasenrückens bildet. An seinem unteren Rand setzen die Nasenknorpel an.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Platter Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os frontale, gegenseitiges Os nasale, Maxilla (Processus frontalis), Os ethmoidale (Lamina perpendicularis)",
+     "Gelenkpartner"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Gegenseitiges Nasenbein, Stirnbein, Oberkiefer (Processus frontalis), Siebbein (Lamina perpendicularis)",
+     "Gelenkpartner"
+    ],
+    [
+     "Kemikleşme",
+     "Desmale Ossifikation",
+     "Verknöcherung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der am häufigsten gebrochene Gesichtsknochen; entsteht nach der Fraktur ein Septumhämatom, muss es entlastet werden, um eine Knorpelnekrose zu verhindern."
+   ],
+   "tus": [
+    "Häufigster gebrochener Gesichtsknochen; ein nicht entlastetes Septumhämatom führt zu Knorpelnekrose und Sattelnase.",
+    "Bei Nasenbeinfrakturen ist nach einem Septumhämatom zu suchen; wird es nicht entlastet, nekrotisiert der Septumknorpel."
+   ],
+   "related": [
+    "maxilla",
+    "os-frontale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Nasal bone",
+    "Nasal septal cartilage",
+    "Major alar cartilage",
+    "Lateral process of nasal septal cartilage"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-lacrimale",
+   "tr": "Tränenbein",
+   "la": "Os lacrimale",
+   "en": "Lacrimal bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Einer der kleinsten und dünnsten Schädelknochen, vorn an der medialen Orbitawand. Er bildet die Grube für den Tränensack mit.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Platter Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crista lacrimalis posterior, Sulcus lacrimalis (hinterer Teil der Fossa sacci lacrimalis), Hamulus lacrimalis",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os frontale, Os ethmoidale, Maxilla, Concha nasalis inferior",
+     "Gelenkpartner"
+    ]
+   ],
+   "sections": [
+    [
+     "Funktion",
+     "Zusammen mit der Maxilla bildet es die Fossa sacci lacrimalis und den Canalis nasolacrimalis, der in die Nasenhöhle mündet."
+    ]
+   ],
+   "clinical": [
+    "Bei Verschluss des Tränennasengangs wird bei der Dakryozystorhinostomie dieser dünne Knochen eröffnet und der Tränensack mit der Nasenhöhle verbunden.",
+    "Die Dakryozystorhinostomie (Eröffnung des Tränensacks zur Nase) erfolgt durch das Tränenbein und den Processus frontalis des Oberkiefers."
+   ],
+   "tus": [
+    "Kleinster und dünnster Knochen des Gesichtsschädels; er bildet den hinteren Teil der Fossa sacci lacrimalis."
+   ],
+   "related": [
+    "apparatus-lacrimalis",
+    "os-ethmoidale",
+    "maxilla"
+   ],
+   "models": [
+    "Lacrimal bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-palatinum",
+   "tr": "Gaumenbein",
+   "la": "Os palatinum",
+   "en": "Palatine bone",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Paariger, L-förmiger Knochen, der den hinteren Teil des harten Gaumens, den hinteren Abschnitt der seitlichen Nasenwand und einen kleinen Teil des Orbitabodens bildet.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Lamina horizontalis, Lamina perpendicularis; Processus pyramidalis, orbitalis und sphenoidalis",
+     "Teile"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Foramen palatinum majus und minus, Spina nasalis posterior",
+     "Wichtige Strukturen"
+    ]
+   ],
+   "sections": [
+    [
+     "Durchtretende Strukturen",
+     "Durch das Foramen palatinum majus ziehen N. und A. palatina major, durch die Foramina palatina minora die Nn. palatini minores."
+    ]
+   ],
+   "clinical": [
+    "Bei der Gaumenspalte vereinigen sich die Gaumenfortsätze der Oberkiefer und die horizontalen Platten der Gaumenbeine nicht in der Mittellinie; Ernährung und Sprache sind gestört."
+   ],
+   "tus": [
+    "Durch Foramen palatinum majus und minus ziehen die gleichnamigen Nerven und Gefäße zum Gaumen (V2, Äste der A. palatina descendens)."
+   ],
+   "related": [
+    "maxilla",
+    "vomer",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Palatine bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "vomer",
+   "tr": "Pflugscharbein",
+   "la": "Vomer",
+   "en": "Vomer",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Unpaarer, dünner Knochen in Form einer Pflugschar, der den hinteren unteren Teil der Nasenscheidewand bildet.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Platter Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os sphenoidale, Os ethmoidale, Maxillae, Ossa palatina, Septumknorpel",
+     "Gelenkpartner"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Keilbein, Siebbein (Lamina perpendicularis), Oberkiefer, Gaumenbeine; der Vorderrand verbindet sich mit dem Septumknorpel",
+     "Gelenkpartner"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Septumdeviation betrifft häufig die Verbindung von Vomer und Septumknorpel und kann die Nasenatmung behindern.",
+    "Eine Septumdeviation entsteht meist durch eine Abknickung an der Verbindung von Vomer und Septumknorpel."
+   ],
+   "tus": [
+    "Er bildet den hinteren unteren Teil des Septums; sein freier Hinterrand trennt die Choanen."
+   ],
+   "related": [
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ],
+   "models": [
+    "Vomer"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "concha-nasalis-inferior",
+   "tr": "Untere Nasenmuschel",
+   "la": "Concha nasalis inferior",
+   "en": "Inferior nasal concha",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Paariger, eingerollter, eigenständiger Knochen an der Seitenwand der Nasenhöhle. Seine Schleimhaut wärmt und befeuchtet die Atemluft.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Maxilla, Os lacrimale, Os ethmoidale, Os palatinum",
+     "Gelenkpartner"
+    ],
+    [
+     "İlişki",
+     "In den darunterliegenden unteren Nasengang mündet der Ductus nasolacrimalis",
+     "Lagebeziehungen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Hyperplasie der unteren Nasenmuschel ist eine häufige Ursache behinderter Nasenatmung; hilft die medikamentöse Therapie nicht, wird sie operativ verkleinert."
+   ],
+   "tus": [
+    "In den unteren Nasengang darunter mündet der Ductus nasolacrimalis; keine Nasennebenhöhle mündet hier."
+   ],
+   "related": [
+    "cavitas-nasi",
+    "os-lacrimale",
+    "maxilla"
+   ],
+   "models": [
+    "Inferior nasal concha bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "os-hyoideum",
+   "tr": "Zungenbein",
+   "la": "Os hyoideum",
+   "en": "Hyoid bone",
+   "group": "Schädel (Cranium)",
+   "region": "neck",
+   "summary": "U-förmiger Knochen vorn im oberen Halsbereich zwischen Unterkiefer und Kehlkopf. Er artikuliert mit keinem anderen Knochen und ist an Muskeln und Bändern aufgehängt.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Corpus, zwei Cornua majora, zwei Cornua minora",
+     "Teile"
+    ],
+    [
+     "Seviye",
+     "Höhe des 3. Halswirbels (C3)",
+     "Höhe"
+    ],
+    [
+     "Kas tutunmaları",
+     "Suprahyoidale Muskeln (M. digastricus, M. stylohyoideus, M. mylohyoideus, M. geniohyoideus), infrahyoidale Muskeln (M. sternohyoideus, M. omohyoideus, M. thyrohyoideus), M. hyoglossus, M. constrictor pharyngis medius",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Funktion",
+     "Es bildet eine bewegliche Basis für den Zungengrund und vermittelt das Heben und Senken des Kehlkopfs beim Schlucken und Sprechen."
+    ]
+   ],
+   "clinical": [
+    "In der Rechtsmedizin stützt eine Zungenbeinfraktur den Verdacht auf Erwürgen."
+   ],
+   "tus": [
+    "Eine Zungenbeinfraktur ist ein wichtiges rechtsmedizinisches Zeichen für Strangulation.",
+    "Das Zungenbein liegt in Höhe C3; die mediane Halszyste steht mit seinem Körper in Beziehung, dessen Mitte bei der Operation mitentfernt wird (Sistrunk)."
+   ],
+   "related": [
+    "larynx",
+    "lingua",
+    "mandibula"
+   ],
+   "models": [
+    "Hyoid bone"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "ossicula-auditus",
+   "tr": "Gehörknöchelchen",
+   "la": "Ossicula auditus",
+   "en": "Auditory ossicles",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Kette aus drei kleinen Knochen im Mittelohr, die den Schall vom Trommelfell zum Innenohr leitet: Hammer (Malleus), Amboss (Incus) und Steigbügel (Stapes). Der Steigbügel ist der kleinste Knochen des Körpers.",
+   "facts": [
+    [
+     "Kemikler",
+     "Malleus (Hammer), Incus (Amboss), Stapes (Steigbügel)",
+     "Knochen"
+    ],
+    [
+     "Eklemler",
+     "Art. incudomallearis und Art. incudostapedialis (Synovialgelenke)",
+     "Gelenke"
+    ],
+    [
+     "İlişkili kaslar",
+     "M. tensor tympani (am Hammer; N. trigeminus/V3) und M. stapedius (am Steigbügel; N. facialis)",
+     "Zugehörige Muskeln"
+    ],
+    [
+     "İşlevi",
+     "Leiten Schallschwingungen vom Trommelfell zum ovalen Fenster und verstärken sie etwa 20-fach",
+     "Funktion"
+    ]
+   ],
+   "sections": [
+    [
+     "Verlauf",
+     "Der Hammergriff ist mit dem Trommelfell verwachsen; der Hammerkopf artikuliert mit dem Ambosskörper. Der lange Ambossschenkel verbindet sich mit dem Steigbügelkopf, dessen Fußplatte das ovale Fenster des Innenohrs verschließt."
+    ]
+   ],
+   "clinical": [
+    "Bei der Otosklerose verknöchert die Steigbügelfußplatte im ovalen Fenster; es entsteht eine Schallleitungsschwerhörigkeit, behandelt durch Stapesplastik.",
+    "Bei Fazialisparese fällt der M. stapedius aus, laute Geräusche werden als unangenehm laut empfunden (Hyperakusis)."
+   ],
+   "tus": [
+    "Hammer und Amboss entstehen aus dem 1. Schlundbogen (Meckel), der Steigbügel aus dem 2. (Reichert).",
+    "Der M. tensor tympani (V3) setzt am Hammer, der M. stapedius (VII) am Steigbügel an; Stapediusparese führt zu Hyperakusis."
+   ],
+   "related": [
+    "auris-media",
+    "os-temporale",
+    "n-facialis"
+   ],
+   "models": [
+    "Malleus",
+    "Incus",
+    "Stapes"
+   ],
+   "aliases": [
+    "Hammer",
+    "Amboss",
+    "Steigbügel"
+   ]
+  },
+  {
+   "id": "dentes",
+   "tr": "Zähne",
+   "la": "Dentes",
+   "en": "Teeth",
+   "group": "Schädel (Cranium)",
+   "region": "head",
+   "summary": "Harte Gebilde, die Nahrung abbeißen, zerreißen und zermahlen. Erwachsene haben 32 bleibende Zähne (je Kieferhälfte 2 Schneidezähne, 1 Eckzahn, 2 Prämolaren und 3 Molaren); Milchzähne gibt es 20.",
+   "facts": [
+    [
+     "Diş formülü (kalıcı)",
+     "2-1-2-3 (je Quadrant); insgesamt 32",
+     "Zahnformel (bleibend)"
+    ],
+    [
+     "Yapısı",
+     "Zahnschmelz, Dentin, Zement, Zahnpulpa",
+     "Aufbau"
+    ],
+    [
+     "Bölümleri",
+     "Krone, Hals, Wurzel",
+     "Teile"
+    ],
+    [
+     "İnnervasyon",
+     "Obere Zähne: Nn. alveolares superiores (V2); untere Zähne: N. alveolaris inferior (V3)",
+     "Innervation"
+    ],
+    [
+     "Sürme",
+     "Milchzähne im 6.–24. Monat; bleibende Zähne mit 6–12 Jahren, Weisheitszähne mit 17–25 Jahren",
+     "Durchbruch"
+    ]
+   ],
+   "sections": [
+    [
+     "Zahntypen",
+     "Schneidezähne beißen ab, Eckzähne reißen, Prämolaren und Molaren zermahlen. Zahnschmelz ist das härteste Gewebe des Körpers."
+    ]
+   ],
+   "clinical": [
+    "Karies, die die Pulpa erreicht (Pulpitis), verursacht starke Schmerzen und kann eine Wurzelbehandlung erfordern.",
+    "Retinierte Weisheitszähne können eine Perikoronitis und Schäden am Nachbarzahn verursachen."
+   ],
+   "tus": [
+    "Der erste bleibende Zahn ist der erste Molar (~6 Jahre); der letzte ist der dritte Molar (Weisheitszahn).",
+    "Obere Zähne werden von den Nn. alveolares superiores (V2), untere vom N. alveolaris inferior (V3) versorgt."
+   ],
+   "related": [
+    "mandibula",
+    "maxilla",
+    "cavitas-oris"
+   ],
+   "models": [
+    "Teeth"
+   ],
+   "aliases": [
+    "Zahn",
+    "Backenzahn",
+    "Schneidezahn",
+    "Eckzahn"
+   ]
+  },
+  {
+   "id": "columna-vertebralis",
+   "tr": "Wirbelsäule (Aufbau und Krümmungen)",
+   "la": "Columna vertebralis",
+   "en": "Vertebral column",
+   "group": "Wirbelsäule",
+   "region": "back",
+   "summary": "Biegsame Achse aus 33 Wirbeln vom Schädel bis zum Steißbein. Sie trägt das Rumpfgewicht, schützt das Rückenmark und ermöglicht Bewegung. Von der Seite betrachtet hat sie vier physiologische Krümmungen.",
+   "facts": [
+    [
+     "Sayı",
+     "33 Wirbel: 7 Hals-, 12 Brust-, 5 Lenden-, 5 Kreuzbeinwirbel (zum Kreuzbein verschmolzen) und 3–5 Steißwirbel (zum Steißbein verschmolzen)",
+     "Anzahl"
+    ],
+    [
+     "Tipik omurun bölümleri",
+     "Wirbelkörper, Wirbelbogen (Pediculi und Laminae), Dornfortsatz, zwei Querfortsätze, vier Gelenkfortsätze; zwischen Körper und Bogen liegt das Foramen vertebrale",
+     "Teile eines typischen Wirbels"
+    ],
+    [
+     "Eğrilik",
+     "Hals- und Lendenlordose (nach vorn konvex – sekundäre Krümmungen), Brust- und Sakralkyphose (nach hinten konvex – primäre Krümmungen)",
+     "Krümmung"
+    ],
+    [
+     "Delikler",
+     "Die Wirbellöcher bilden übereinander den Wirbelkanal; die Einschnitte benachbarter Wirbel bilden die Foramina intervertebralia (Austritt der Spinalnerven)",
+     "Öffnungen"
+    ],
+    [
+     "Bölgesel ayırt edici özellikler",
+     "Hals: Foramen transversarium, gespaltener Dornfortsatz; Brust: Rippengelenkflächen, langer, abwärts geneigter Dornfortsatz; Lende: großer nierenförmiger Körper, kurzer, kräftiger Dornfortsatz",
+     "Regionale Merkmale"
+    ]
+   ],
+   "sections": [
+    [
+     "Entwicklung der Krümmungen",
+     "Beim Fetus bildet die Wirbelsäule eine einzige, nach vorn konkave C-Krümmung (primäre Kyphose). Wenn der Säugling den Kopf zu halten beginnt, entsteht die Halslordose, beim Sitzen und Laufen die Lendenlordose. Diese sekundären Krümmungen lassen die Wirbelsäule das Gewicht federnd tragen."
+    ]
+   ],
+   "clinical": [
+    "Die Skoliose ist eine seitliche Verkrümmung mit Rotation der Wirbelsäule; am häufigsten ist die idiopathische Adoleszentenskoliose, am besten im Vorbeugetest zu erkennen.",
+    "Eine Hyperkyphose (Rundrücken) tritt bei osteoporotischen Wirbelfrakturen und Morbus Scheuermann auf, eine Hyperlordose in der Schwangerschaft und bei Adipositas.",
+    "Die Spondylolisthesis ist das Vorwärtsgleiten eines Wirbels über den darunterliegenden; am häufigsten bei L5–S1."
+   ],
+   "tus": [
+    "Primäre Krümmungen sind Brust- und Sakralkyphose, sekundäre Hals- und Lendenlordose.",
+    "Im Halsbereich treten die Spinalnerven oberhalb des gleichnamigen Wirbels aus (außer C8), im Brust- und Lendenbereich unterhalb."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "vertebrae-thoracicae",
+    "vertebrae-lumbales",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "ligg-columnae"
+   ],
+   "models": [
+    "Vertebral column"
+   ],
+   "aliases": [
+    "Wirbelsäule",
+    "Rückgrat"
+   ]
+  },
+  {
+   "id": "vertebrae-cervicales",
+   "tr": "Halswirbel",
+   "la": "Vertebrae cervicales (C1–C7)",
+   "en": "Cervical vertebrae",
+   "group": "Wirbelsäule",
+   "region": "neck",
+   "summary": "Die sieben Wirbel des Halses. Ihr kleiner Körper, das Loch in den Querfortsätzen (Foramen transversarium) und der gespaltene Dornfortsatz unterscheiden sie von anderen Wirbeln.",
+   "facts": [
+    [
+     "Sayı",
+     "7 (C1–C7)",
+     "Anzahl"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Foramen transversarium (für A. und V. vertebralis; bei C7 meist nur die Vene), gespaltener Dornfortsatz (C2–C6), großes dreieckiges Foramen vertebrale",
+     "Unterscheidungsmerkmal"
+    ],
+    [
+     "Özel omurlar",
+     "C1 Atlas, C2 Axis, C7 Vertebra prominens (am stärksten vorspringender Dornfortsatz)",
+     "Besondere Wirbel"
+    ],
+    [
+     "Eğrilik",
+     "Nach vorn konvex (Halslordose)",
+     "Krümmung"
+    ]
+   ],
+   "sections": [
+    [
+     "Beweglichkeit",
+     "Die Halswirbelsäule ist der beweglichste Abschnitt: Flexion, Extension, Seitneigung und Rotation sind möglich. Etwa die Hälfte der Kopfdrehung erfolgt im Atlantoaxialgelenk. Die Processus uncinati an den Seitenrändern der Wirbelkörper C3–C6 bilden die Unkovertebralgelenke (Luschka)."
+    ]
+   ],
+   "clinical": [
+    "Plötzliche Beschleunigungs-Abbrems-Verletzungen (Schleudertrauma) belasten die Weichteile des Halses.",
+    "C5/C6 und C6/C7 sind die häufigsten Etagen für zervikale Bandscheibenvorfälle und Spondylose."
+   ],
+   "tus": [
+    "Kennzeichen der Halswirbel ist das Foramen transversarium; C3–C7 besitzen Processus uncinati (Luschka-Gelenke).",
+    "Am Tuberculum anterius des Querfortsatzes von C6 (Tuberculum caroticum, Chassaignac) lässt sich die A. carotis communis abdrücken."
+   ],
+   "related": [
+    "atlas",
+    "axis",
+    "vertebrae-thoracicae",
+    "medulla-spinalis",
+    "a-vertebralis"
+   ],
+   "models": [
+    "Cervical vertebrae",
+    "Vertebra C3",
+    "Vertebra C4",
+    "Vertebra C5",
+    "Vertebra C6",
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "HWS",
+    "Halswirbelsäule"
+   ]
+  },
+  {
+   "id": "atlas",
+   "tr": "Atlas (C1)",
+   "la": "Atlas (C1)",
+   "en": "Atlas (C1)",
+   "group": "Wirbelsäule",
+   "region": "neck",
+   "summary": "Der erste Halswirbel, der den Schädel trägt. Er hat weder Körper noch Dornfortsatz; er ist ein Ring aus vorderem und hinterem Bogen und zwei Seitenmassen.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Arcus anterior, Arcus posterior, Massae laterales, Processus transversi",
+     "Teile"
+    ],
+    [
+     "Eklemleri",
+     "Art. atlantooccipitalis (mit den Hinterhauptskondylen; „Ja“-Bewegung – Flexion/Extension), Art. atlantoaxialis (mit dem Axis; „Nein“-Bewegung – Rotation)",
+     "Gelenke"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Fovea dentis, Tuberculum anterius und posterius, Sulcus arteriae vertebralis",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Bağlar",
+     "Das Lig. transversum atlantis hält den Dens an der Fovea dentis",
+     "Bänder"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Der Atlas hat weder Körper noch Dornfortsatz; er ist ein Ring aus vorderem und hinterem Bogen und zwei Massae laterales. Der Dens axis liegt der Fovea dentis an der Rückseite des vorderen Bogens an und wird von hinten durch das Lig. transversum atlantis gehalten. In der Rinne auf der Oberseite des hinteren Bogens verlaufen A. vertebralis und N. suboccipitalis (C1)."
+    ]
+   ],
+   "clinical": [
+    "Brechen nach einem Sturz auf den Kopf beide Atlasbögen, spricht man von einer Jefferson-Fraktur.",
+    "Bei rheumatoider Arthritis oder Down-Syndrom kann ein schlaffes Lig. transversum zu atlantoaxialer Instabilität und Rückenmarkskompression führen."
+   ],
+   "tus": [
+    "Die Jefferson-Fraktur ist ein mehrfacher Bruch des Atlasrings durch axiale Stauchung (Kopfsprung).",
+    "Die A. vertebralis verläuft im Sulcus an der Oberseite des hinteren Atlasbogens."
+   ],
+   "related": [
+    "axis",
+    "os-occipitale",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Atlas (C1)"
+   ],
+   "aliases": [
+    "C1",
+    "erster Halswirbel"
+   ]
+  },
+  {
+   "id": "axis",
+   "tr": "Axis (C2)",
+   "la": "Axis (C2)",
+   "en": "Axis (C2)",
+   "group": "Wirbelsäule",
+   "region": "neck",
+   "summary": "Der zweite Halswirbel; der zahnartige Fortsatz, der aus seinem Körper aufragt (Dens axis), ist die Achse, um die sich der Atlas dreht.",
+   "facts": [
+    [
+     "Ayırt edici özellik",
+     "Dens axis (Processus odontoideus) – entwicklungsgeschichtlich der Körper des Atlas",
+     "Unterscheidungsmerkmal"
+    ],
+    [
+     "Eklemleri",
+     "Art. atlantoaxialis mediana (Dens–Atlas) und laterales, Zwischenwirbelgelenk mit C3",
+     "Gelenke"
+    ],
+    [
+     "Bağlar",
+     "Ligg. alaria, Lig. apicis dentis, Membrana tectoria, Lig. cruciforme atlantis",
+     "Bänder"
+    ],
+    [
+     "Bağlar",
+     "Lig. transversum atlantis (hält den Dens von hinten), Ligg. alaria (vom Dens zu den Hinterhauptskondylen), Lig. apicis dentis, Membrana tectoria",
+     "Bänder"
+    ]
+   ],
+   "sections": [
+    [
+     "Dens axis",
+     "Entwicklungsgeschichtlich entspricht er dem Körper des Atlas, der mit dem Axis verschmolzen ist. Etwa die Hälfte der Kopfdrehung im Atlantoaxialgelenk erfolgt um diesen Zahn."
+    ]
+   ],
+   "clinical": [
+    "Densfrakturen sind bei älteren Menschen nach Stürzen häufig.",
+    "Beim Erhängen (Hangman-Fraktur) brechen die Bogenwurzeln des Axis."
+   ],
+   "tus": [
+    "Die Hangman-Fraktur ist ein beidseitiger Bruch der Pars interarticularis des Axis.",
+    "Densfrakturen liegen meist an der Basis (Typ II) und neigen stark zur Pseudarthrose."
+   ],
+   "related": [
+    "atlas",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Axis (C2)"
+   ],
+   "aliases": [
+    "C2",
+    "Dens"
+   ]
+  },
+  {
+   "id": "vertebra-prominens",
+   "tr": "Siebter Halswirbel (Vertebra prominens)",
+   "la": "Vertebra prominens (C7)",
+   "en": "Seventh cervical vertebra",
+   "group": "Wirbelsäule",
+   "region": "neck",
+   "summary": "Der unterste Halswirbel. Sein langer, nicht gespaltener Dornfortsatz ist im unteren Nacken leicht unter der Haut tastbar und dient als Ausgangspunkt zum Abzählen der Wirbel.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Unregelmäßiger Knochen – atypischer Halswirbel",
+     "Knochentyp"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Langer, nicht gespaltener Dornfortsatz mit Höcker an der Spitze; kleines Foramen transversarium (meist zieht nur die V. vertebralis hindurch)",
+     "Unterscheidungsmerkmal"
+    ],
+    [
+     "Eklemleri",
+     "Wirbel C6 und T1 (Bandscheiben und Facettengelenke)",
+     "Gelenke"
+    ],
+    [
+     "Kas tutunmaları",
+     "Unteres Ende des Lig. nuchae, M. trapezius, M. rhomboideus minor, M. serratus posterior superior, M. splenius capitis",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der am Nacken am deutlichsten tastbare Dornfortsatz ist meist C7; bei manchen Menschen ragt der von T1 stärker hervor.",
+    "Ein langer Querfortsatz von C7 oder eine Halsrippe kann den unteren Primärstrang des Plexus brachialis komprimieren und ein Thoracic-outlet-Syndrom verursachen."
+   ],
+   "tus": [
+    "Die A. vertebralis tritt meist in das Foramen transversarium von C6 ein; durch das von C7 zieht in der Regel nur die V. vertebralis.",
+    "Eine Halsrippe geht meist von C7 aus und gehört zu den Ursachen des Thoracic-outlet-Syndroms."
+   ],
+   "related": [
+    "vertebrae-cervicales",
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ],
+   "models": [
+    "Vertebra C7"
+   ],
+   "aliases": [
+    "C7",
+    "Vertebra prominens"
+   ]
+  },
+  {
+   "id": "vertebrae-thoracicae",
+   "tr": "Brustwirbel",
+   "la": "Vertebrae thoracicae (T1–T12)",
+   "en": "Thoracic vertebrae",
+   "group": "Wirbelsäule",
+   "region": "back",
+   "summary": "Die zwölf Wirbel, die mit den Rippen artikulieren. Sie tragen Gelenkflächen für die Rippen seitlich am Wirbelkörper und an den Querfortsätzen (Foveae costales).",
+   "facts": [
+    [
+     "Sayı",
+     "12 (T1–T12, Th1–Th12)",
+     "Anzahl"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Fovea costalis superior und inferior am Wirbelkörper, Fovea costalis processus transversi; lange, nach unten geneigte Dornfortsätze; rundes Foramen vertebrale",
+     "Unterscheidungsmerkmal"
+    ],
+    [
+     "Eklemleri",
+     "Mit den Rippen: Art. capitis costae und Art. costotransversaria",
+     "Gelenke"
+    ],
+    [
+     "Eğrilik",
+     "Nach hinten konvex (Brustkyphose)",
+     "Krümmung"
+    ]
+   ],
+   "sections": [
+    [
+     "Beweglichkeit",
+     "Der Brustkorb schränkt Flexion und Extension ein; die frontal stehenden Gelenkflächen erlauben Rotation. Die Dornfortsätze überlappen dachziegelartig."
+    ]
+   ],
+   "clinical": [
+    "Bei älteren Menschen mit Osteoporose verstärken Kompressionsfrakturen der Brustwirbel die Kyphose (Rundrücken).",
+    "Die Skoliose, eine seitliche Verkrümmung, ist im Brustbereich am häufigsten."
+   ],
+   "tus": [
+    "Th1–Th9 tragen zwei halbe Rippengelenkflächen, Th10–Th12 eine ganze.",
+    "In der Brustwirbelsäule stehen die Facettengelenke frontal; Rotation ist möglich, Flexion wird durch die Rippen begrenzt."
+   ],
+   "related": [
+    "costae",
+    "vertebrae-cervicales",
+    "vertebrae-lumbales",
+    "sternum"
+   ],
+   "models": [
+    "Thoracic vertebrae"
+   ],
+   "aliases": [
+    "BWS",
+    "Brustwirbelsäule"
+   ]
+  },
+  {
+   "id": "vertebrae-lumbales",
+   "tr": "Lendenwirbel",
+   "la": "Vertebrae lumbales (L1–L5)",
+   "en": "Lumbar vertebrae",
+   "group": "Wirbelsäule",
+   "region": "back",
+   "summary": "Die größten und kräftigsten Wirbel der Wirbelsäule. Da sie den größten Teil des Körpergewichts tragen, sind ihre Körper groß und nierenförmig.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (L1–L5)",
+     "Anzahl"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Großer Körper, kräftige, waagerechte, rechteckige Dornfortsätze, Processus mammillaris und accessorius; kein Foramen transversarium, keine Rippengelenkflächen",
+     "Unterscheidungsmerkmal"
+    ],
+    [
+     "Omurilik ilişkisi",
+     "Beim Erwachsenen endet das Rückenmark in Höhe L1/L2 mit dem Conus medullaris; darunter liegt die Cauda equina",
+     "Beziehung zum Rückenmark"
+    ],
+    [
+     "Eğrilik",
+     "Nach vorn konvex (Lendenlordose)",
+     "Krümmung"
+    ]
+   ],
+   "sections": [
+    [
+     "Beweglichkeit",
+     "Da die Gelenkflächen nahezu sagittal stehen, sind Flexion und Extension frei, die Rotation ist eingeschränkt."
+    ]
+   ],
+   "clinical": [
+    "Lumbale Bandscheibenvorfälle sind bei L4/L5 und L5/S1 am häufigsten und verursachen Schmerzen entlang des N. ischiadicus.",
+    "Die Lumbalpunktion erfolgt meist zwischen L3/L4 oder L4/L5, um das Rückenmark nicht zu verletzen.",
+    "Die Spondylolisthesis ist das Vorgleiten eines Wirbels über den darunterliegenden; am häufigsten bei L5."
+   ],
+   "tus": [
+    "Die Spondylolyse ist ein Defekt der Pars interarticularis („Halsband des Scotchterriers“ im Schrägbild); am häufigsten bei L5.",
+    "Die lumbalen Facettengelenke stehen sagittal; sie erlauben Flexion–Extension und begrenzen die Rotation."
+   ],
+   "related": [
+    "vertebrae-thoracicae",
+    "os-sacrum",
+    "discus-intervertebralis",
+    "plexus-lumbalis"
+   ],
+   "models": [
+    "Lumbar vertebrae"
+   ],
+   "aliases": [
+    "LWS",
+    "Lendenwirbelsäule"
+   ]
+  },
+  {
+   "id": "os-sacrum",
+   "tr": "Kreuzbein",
+   "la": "Os sacrum",
+   "en": "Sacrum",
+   "group": "Wirbelsäule",
+   "region": "pelvis",
+   "summary": "Dreieckiger Knochen aus fünf verschmolzenen Sakralwirbeln. Er bildet die Rückwand des Beckens und mit den Hüftbeinen die Iliosakralgelenke.",
+   "facts": [
+    [
+     "Oluşum",
+     "Verschmelzung der 5 Sakralwirbel (S1–S5), abgeschlossen um das 25. Lebensjahr",
+     "Bildung"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Promontorium, Foramina sacralia anteriora und posteriora, Crista sacralis mediana, Hiatus sacralis, Facies auricularis, Canalis sacralis, Ala ossis sacri",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleri",
+     "L5 (Lumbosakralgelenk), Ossa coxae (Iliosakralgelenke), Steißbein",
+     "Gelenke"
+    ],
+    [
+     "Cinsiyet farkı",
+     "Bei Frauen breiter, kürzer und weniger gekrümmt",
+     "Geschlechtsunterschiede"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Ein dreieckiger Knochen aus fünf verschmolzenen Kreuzbeinwirbeln. Seine Vorderfläche (Facies pelvica) ist konkav; die vorderen Äste der Sakralnerven treten durch vier Paare Foramina sacralia anteriora aus. Auf der Rückseite liegen die Crista sacralis mediana (Rest der Dornfortsätze) und unten Hiatus sacralis und Cornua sacralia. Der vordere Vorsprung des Oberrands ist das Promontorium."
+    ]
+   ],
+   "clinical": [
+    "Die Kaudalanästhesie über den Hiatus sacralis in den Epiduralraum wird in Geburtshilfe und Kinderchirurgie eingesetzt.",
+    "Das Promontorium ist ein wichtiger Bezugspunkt der geburtshilflichen Beckenmaße (Conjugata vera).",
+    "Die Kaudalanästhesie erfolgt durch den Hiatus sacralis; die Cornua sacralia sind die tastbaren Orientierungspunkte für die Nadel."
+   ],
+   "tus": [
+    "Das Kreuzbein entsteht aus fünf verschmolzenen Sakralwirbeln; durch die Foramina sacralia anteriora treten die Rami anteriores der Sakralnerven aus.",
+    "Das Gewicht wird über die Iliosakralgelenke auf das Becken übertragen; das Promontorium ist Bezugspunkt geburtshilflicher Maße."
+   ],
+   "related": [
+    "os-coccygis",
+    "os-coxae",
+    "vertebrae-lumbales",
+    "art-sacroiliaca"
+   ],
+   "models": [
+    "Sacrum"
+   ],
+   "aliases": [
+    "Sakrum"
+   ]
+  },
+  {
+   "id": "os-coccygis",
+   "tr": "Steißbein",
+   "la": "Os coccygis",
+   "en": "Coccyx",
+   "group": "Wirbelsäule",
+   "region": "pelvis",
+   "summary": "Kleiner dreieckiger Knochen am unteren Ende der Wirbelsäule aus 3–5 verschmolzenen rudimentären Wirbeln.",
+   "facts": [
+    [
+     "Oluşum",
+     "Verschmelzung von 3–5 Steißwirbeln",
+     "Bildung"
+    ],
+    [
+     "Tutunanlar",
+     "M. gluteus maximus, M. coccygeus, M. levator ani (Lig. anococcygeum), Lig. sacrotuberale",
+     "Ansätze"
+    ],
+    [
+     "Eklem",
+     "Art. sacrococcygea mit dem Kreuzbein",
+     "Gelenk"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. gluteus maximus (Hinterfläche), M. coccygeus und Pars iliococcygea des M. levator ani (über das Lig. anococcygeum)",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ein Sturz aufs Gesäß kann das Steißbein brechen oder Steißbeinschmerzen (Kokzygodynie) auslösen."
+   ],
+   "tus": [
+    "Die Kokzygodynie entsteht meist nach Sturz oder Geburt.",
+    "Am Steißbein setzen M. gluteus maximus, Lig. sacrotuberale und ein Teil des M. levator ani (Lig. anococcygeum) an."
+   ],
+   "related": [
+    "os-sacrum",
+    "diaphragma-pelvis"
+   ],
+   "models": [
+    "Coccyx"
+   ],
+   "aliases": [
+    "Os coccygis"
+   ]
+  },
+  {
+   "id": "sternum",
+   "tr": "Brustbein",
+   "la": "Sternum",
+   "en": "Sternum",
+   "group": "Brustkorb",
+   "region": "thorax",
+   "summary": "Flacher, schwertförmiger Knochen in der vorderen Mittellinie des Brustkorbs. Er artikuliert mit den Schlüsselbeinen und den ersten sieben Rippenknorpelpaaren.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Platter Knochen (enthält rotes Knochenmark)",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Manubrium sterni, Corpus sterni, Processus xiphoideus",
+     "Teile"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Incisura jugularis, Incisurae claviculares, Angulus sterni (Louis-Winkel – Höhe der 2. Rippe), Incisurae costales",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleri",
+     "Clavicula (Art. sternoclavicularis), 1.–7. Rippenknorpel (Artt. sternocostales)",
+     "Gelenke"
+    ]
+   ],
+   "sections": [
+    [
+     "Angulus sterni",
+     "Die Verbindung von Manubrium und Corpus ist tastbar und markiert die Höhe des 2. Rippenknorpels. In dieser Höhe (Th4/Th5) beginnt und endet der Aortenbogen, und die Trachea teilt sich (Bifurcatio tracheae)."
+    ]
+   ],
+   "clinical": [
+    "Am Brustbein kann Knochenmark entnommen werden (Sternalpunktion).",
+    "Bei Herzoperationen wird das Brustbein in der Mitte durchtrennt (mediane Sternotomie).",
+    "Die Herzdruckmassage erfolgt auf der unteren Brustbeinhälfte; Druck auf den Processus xiphoideus kann die Leber verletzen."
+   ],
+   "tus": [
+    "Für die Sternalpunktion wird das Corpus sterni genutzt; Vorsicht, dahinter liegen Herz und große Gefäße.",
+    "Die Incisura jugularis liegt in Höhe der Unterkante von Th2, das Xiphosternalgelenk in Höhe Th9."
+   ],
+   "related": [
+    "costae",
+    "clavicula",
+    "cartilagines-costales"
+   ],
+   "models": [
+    "Sternum",
+    "Manubrium of sternum",
+    "Body of sternum",
+    "Xiphoid process"
+   ],
+   "aliases": [
+    "Sternum"
+   ]
+  },
+  {
+   "id": "costae",
+   "tr": "Rippen",
+   "la": "Costae",
+   "en": "Ribs",
+   "group": "Brustkorb",
+   "region": "thorax",
+   "summary": "Zwölf Paar gebogene flache Knochen, die die Seitenwände des Brustkorbs bilden. Hinten verbinden sie sich mit den Brustwirbeln, vorn über ihre Knorpel mit dem Brustbein.",
+   "facts": [
+    [
+     "Sayı ve tipleri",
+     "12 Paare: 1–7 echte Rippen, 8–10 falsche Rippen, 11–12 freie Rippen",
+     "Anzahl und Typen"
+    ],
+    [
+     "Bölümleri",
+     "Caput, Collum, Tuberculum, Corpus, Angulus costae",
+     "Teile"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Sulcus costae (am Unterrand – V., A. und N. intercostalis in der Reihenfolge VAN), Crista capitis costae",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Atipik kaburgalar",
+     "1., 2., 10., 11. und 12. Rippe; die 1. Rippe ist die kürzeste, flachste und am stärksten gekrümmte (Rinnen für A. und V. subclavia, Tuberculum m. scaleni anterioris)",
+     "Atypische Rippen"
+    ]
+   ],
+   "sections": [
+    [
+     "Rolle bei der Atmung",
+     "Bei der Einatmung heben die oberen Rippen das Brustbein nach vorn und vergrößern den sagittalen Durchmesser (Pumpenschwengel-Bewegung); die unteren Rippen schwingen seitlich aus und vergrößern den queren Durchmesser (Eimerhenkel-Bewegung)."
+    ]
+   ],
+   "clinical": [
+    "Thoraxdrainage und Pleurapunktion erfolgen am Oberrand einer Rippe, um die Interkostalgefäße und den Nerv zu schonen.",
+    "Sind mehrere Rippen jeweils zweifach gebrochen, entsteht ein instabiler Thorax mit paradoxer Atmung.",
+    "Eine Halsrippe kann Plexus brachialis oder A. subclavia komprimieren (Thoracic-outlet-Syndrom)."
+   ],
+   "tus": [
+    "Eine typische Rippe hat Caput, Collum, Tuberculum, Angulus und Sulcus costae; die 1., 2., 10., 11. und 12. Rippe sind atypisch.",
+    "Rippenfrakturen liegen meist kurz vor dem Angulus; ein instabiler Thorax entsteht durch Doppelbrüche mehrerer Rippen."
+   ],
+   "related": [
+    "sternum",
+    "vertebrae-thoracicae",
+    "cartilagines-costales",
+    "mm-intercostales",
+    "diaphragma"
+   ],
+   "models": [
+    "Ribs"
+   ],
+   "aliases": [
+    "Rippe"
+   ]
+  },
+  {
+   "id": "costae-atypicae",
+   "tr": "Atypische Rippen",
+   "la": "Costae atypicae (I, II, X–XII)",
+   "en": "Atypical ribs",
+   "group": "Brustkorb",
+   "region": "thorax",
+   "summary": "Rippen, die vom Bau einer typischen Rippe abweichen: 1. und 2. Rippe sind kurz und breit; die Köpfchen der 10., 11. und 12. Rippe haben nur eine Gelenkfläche, und 11. und 12. Rippe sind freie Rippen mit freiem Vorderende.",
+   "facts": [
+    [
+     "1. kaburga",
+     "Die kürzeste, breiteste und am stärksten gekrümmte Rippe; auf der Oberseite das Tuberculum m. scaleni anterioris, davor die Rinne der V. subclavia, dahinter die Rinne der A. subclavia und des unteren Primärstrangs des Plexus brachialis; eine Gelenkfläche am Köpfchen (T1)",
+     "1. Rippe"
+    ],
+    [
+     "2. kaburga",
+     "Doppelt so lang wie die 1. und dünner; auf der Außenfläche die Tuberositas für den M. serratus anterior",
+     "2. Rippe"
+    ],
+    [
+     "10. kaburga",
+     "Ihr Köpfchen hat nur eine Gelenkfläche (artikuliert nur mit T10)",
+     "10. Rippe"
+    ],
+    [
+     "11. ve 12. kaburgalar",
+     "Freie Rippen: kurz, ohne Hals und Höckerchen; ihr Vorderende liegt frei zwischen den Bauchmuskeln; sie artikulieren nicht mit den Querfortsätzen",
+     "11. und 12. Rippe"
+    ],
+    [
+     "Kaburga sınıflaması",
+     "Echte Rippen (1–7: jede mit eigenem Knorpel zum Sternum), falsche Rippen (8–10: zum darüberliegenden Knorpel), freie Rippen (11–12)",
+     "Einteilung der Rippen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Fraktur der 1. Rippe spricht für ein Hochrasanztrauma und sollte an eine Verletzung der darunterliegenden A. subclavia und des Plexus brachialis denken lassen.",
+    "Die 12. Rippe liegt der Hinterfläche der Niere an; bei Nierenoperationen und Frakturen der 12. Rippe ist an Pleura- und Nierenverletzungen zu denken."
+   ],
+   "tus": [
+    "Auf der Oberseite der 1. Rippe zieht die V. subclavia vor dem Skalenushöcker, die A. subclavia und der untere Primärstrang des Plexus brachialis dahinter.",
+    "Dorsal kann die untere Pleuragrenze unterhalb der 12. Rippe liegen; Eingriffe an der Niere bergen hier ein Pneumothoraxrisiko."
+   ],
+   "related": [
+    "costae",
+    "cartilagines-costales",
+    "vertebrae-thoracicae",
+    "sternum"
+   ],
+   "models": [
+    "First rib",
+    "Second rib",
+    "Tenth rib",
+    "Eleventh rib",
+    "Twelfth rib"
+   ],
+   "aliases": [
+    "erste Rippe",
+    "freie Rippe",
+    "atypische Rippe"
+   ]
+  },
+  {
+   "id": "cartilagines-costales",
+   "tr": "Rippenknorpel",
+   "la": "Cartilagines costales",
+   "en": "Costal cartilages",
+   "group": "Brustkorb",
+   "region": "thorax",
+   "summary": "Stäbe aus hyalinem Knorpel, die die vorderen Rippenenden mit dem Brustbein oder dem darüberliegenden Knorpel verbinden. Sie machen den Brustkorb elastisch.",
+   "facts": [
+    [
+     "Doku",
+     "Hyaliner Knorpel",
+     "Gewebe"
+    ],
+    [
+     "Bağlantılar",
+     "1–7: direkt zum Brustbein; 8–10: zum darüberliegenden Knorpel (Rippenbogen); 11–12: freie Enden",
+     "Verbindungen"
+    ],
+    [
+     "Yaşla değişim",
+     "Können im Alter verkalken",
+     "Altersveränderungen"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau und Funktion",
+     "Diese Fortsätze aus hyalinem Knorpel verbinden die Rippen mit dem Brustbein und machen den Brustkorb elastisch. Der 1. Rippenknorpel ist mit dem Sternum durch eine Synarthrose (Synchondrose), der 2.–7. durch echte Gelenke verbunden; der 8.–10. setzen am jeweils darüberliegenden Knorpel an und bilden den Rippenbogen."
+    ]
+   ],
+   "clinical": [
+    "Eine Entzündung der Knorpel-Knochen-Grenzen (Kostochondritis, Tietze-Syndrom) kann herzähnliche Brustschmerzen verursachen.",
+    "Beim Tietze-Syndrom schwellen die oberen Rippenknorpel schmerzhaft an; die Kostochondritis ist ein Brustwandschmerz ohne Schwellung und kann mit Herzschmerzen verwechselt werden."
+   ],
+   "tus": [
+    "Der 1. Rippenknorpel bildet mit dem Manubrium eine Synchondrose, die Knorpel 2–7 bilden Synovialgelenke mit dem Brustbein.",
+    "Die Entzündung einer Knorpel-Knochen-Grenze (Tietze-Syndrom) verursacht eine schmerzhafte Schwellung und kann Herzschmerz vortäuschen."
+   ],
+   "related": [
+    "costae",
+    "sternum"
+   ],
+   "models": [
+    "Costal cartilages"
+   ],
+   "aliases": []
+  },
+  {
+   "id": "clavicula",
+   "tr": "Schlüsselbein",
+   "la": "Clavicula",
+   "en": "Clavicle",
+   "group": "Knochen der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "S-förmiger Röhrenknochen, der waagerecht zwischen Brustbein und Schulterblatt liegt. Er ist die einzige knöcherne Verbindung zwischen Arm und Rumpf.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Röhrenknochen (ohne Markhöhle)",
+     "Knochentyp"
+    ],
+    [
+     "Uçları",
+     "Extremitas sternalis (Art. sternoclavicularis) und Extremitas acromialis (Art. acromioclavicularis)",
+     "Enden"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberculum conoideum, Linea trapezoidea, Impressio ligamenti costoclavicularis, Sulcus m. subclavii",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. deltoideus, M. trapezius, M. pectoralis major, M. sternocleidomastoideus, M. sternohyoideus, M. subclavius",
+     "Muskelansätze"
+    ],
+    [
+     "Kemikleşme",
+     "Erster Knochen des Körpers, der zu verknöchern beginnt (5.–6. Woche), und letzter, der damit fertig wird",
+     "Verknöcherung"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Ein waagerechter, S-förmiger Röhrenknochen: die medialen 2/3 sind nach vorn konvex, das laterale 1/3 nach vorn konkav. Das mediale Ende artikuliert mit dem Sternum, das laterale mit dem Akromion. An der Unterseite liegen Tuberculum conoideum und Linea trapezoidea (Lig. coracoclaviculare), die Ansatzfläche des Lig. costoclaviculare und die Rinne des M. subclavius. Eine Markhöhle fehlt."
+    ]
+   ],
+   "clinical": [
+    "Einer der am häufigsten gebrochenen Knochen, meist am Übergang vom mittleren zum lateralen Drittel. Das mediale Fragment wird vom M. sternocleidomastoideus nach oben, das laterale durch das Armgewicht nach unten gezogen.",
+    "Bei Schlüsselbeinbrüchen können der darunterliegende Plexus brachialis und die Vasa subclavia verletzt werden."
+   ],
+   "tus": [
+    "Schlüsselbeinbrüche liegen meist im mittleren Drittel; dahinterliegende Subklaviagefäße und Plexus brachialis sind gefährdet.",
+    "Tuberculum conoideum und Linea trapezoidea sind Ansatzstellen der beiden Teile des Lig. coracoclaviculare."
+   ],
+   "related": [
+    "scapula",
+    "sternum",
+    "art-humeri",
+    "m-deltoideus"
+   ],
+   "models": [
+    "Clavicle"
+   ],
+   "aliases": [
+    "Klavikula"
+   ]
+  },
+  {
+   "id": "scapula",
+   "tr": "Schulterblatt",
+   "la": "Scapula",
+   "en": "Scapula",
+   "group": "Knochen der oberen Extremität",
+   "region": "back",
+   "summary": "Dreieckiger platter Knochen hinten oben am Brustkorb in Höhe der 2.–7. Rippe. Er bildet mit dem Oberarmknochen das Schultergelenk und dient 17 Muskeln als Ansatz.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Platter Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Spina scapulae, Acromion, Processus coracoideus, Cavitas glenoidalis, Tuberculum supra- und infraglenoidale, Fossa supraspinata, Fossa infraspinata, Fossa subscapularis, Incisura scapulae",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (Art. glenohumeralis), Clavicula (Art. acromioclavicularis); funktionelles Skapulothorakalgelenk mit der Brustwand",
+     "Gelenke"
+    ],
+    [
+     "Kas tutunmaları",
+     "Rotatorenmanschette, M. deltoideus, M. trapezius, M. biceps brachii, M. triceps brachii, M. serratus anterior, Mm. rhomboidei, M. levator scapulae, M. teres major, M. pectoralis minor, M. coracobrachialis, M. omohyoideus",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Bewegungen",
+     "Heben, Senken, Vor- und Rückführen sowie Außen-/Innenrotation. Beim Heben des Arms über den Kopf stammt etwa 1 von 3 Grad aus der Drehung des Schulterblatts (skapulohumeraler Rhythmus)."
+    ]
+   ],
+   "clinical": [
+    "Bei Schädigung des N. thoracicus longus fällt der M. serratus anterior aus, und der mediale Schulterblattrand steht flügelartig ab (Scapula alata).",
+    "Eine Einengung des N. suprascapularis an der Incisura scapulae verursacht Schulterschmerzen und Schwäche von Supra- und Infraspinatus."
+   ],
+   "tus": [
+    "Orientierung: Angulus superior in Höhe Th2, Spina Th3, Angulus inferior Th7.",
+    "Am Schulterblatt setzen 17 Muskeln an; eine Scapula alata weist auf eine Schädigung des N. thoracicus longus (M. serratus anterior) hin."
+   ],
+   "related": [
+    "clavicula",
+    "humerus",
+    "art-humeri",
+    "m-supraspinatus",
+    "m-infraspinatus",
+    "m-subscapularis"
+   ],
+   "models": [
+    "Scapula"
+   ],
+   "aliases": [
+    "Skapula"
+   ]
+  },
+  {
+   "id": "humerus",
+   "tr": "Oberarmknochen",
+   "la": "Humerus",
+   "en": "Humerus",
+   "group": "Knochen der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Einziger und längster Knochen des Oberarms. Oben bildet er mit dem Schulterblatt das Schultergelenk, unten mit Radius und Ulna das Ellenbogengelenk.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Röhrenknochen",
+     "Knochentyp"
+    ],
+    [
+     "Üst uç",
+     "Caput humeri, Collum anatomicum, Collum chirurgicum, Tuberculum majus und minus, Sulcus intertubercularis",
+     "Oberes Ende"
+    ],
+    [
+     "Gövde",
+     "Tuberositas deltoidea, Sulcus nervi radialis",
+     "Schaft"
+    ],
+    [
+     "Alt uç",
+     "Capitulum humeri, Trochlea humeri, Epicondylus medialis und lateralis, Fossa olecrani, Fossa coronoidea, Fossa radialis, Sulcus nervi ulnaris",
+     "Unteres Ende"
+    ],
+    [
+     "Kemikleşme",
+     "Primäres Zentrum im Schaft in der 8. Woche; 8 sekundäre Zentren",
+     "Verknöcherung"
+    ]
+   ],
+   "sections": [
+    [
+     "Nervenbeziehungen",
+     "Der Humerus hat direkten Kontakt zu drei wichtigen Nerven: N. axillaris am Collum chirurgicum, N. radialis im Sulcus nervi radialis des Schafts und N. ulnaris hinter dem Epicondylus medialis. Frakturen gehen daher häufig mit Nervenschäden einher."
+    ]
+   ],
+   "clinical": [
+    "Fraktur des Collum chirurgicum: Schädigung von N. axillaris und A. circumflexa humeri posterior (Deltoideusparese).",
+    "Schaftfraktur: Schädigung des N. radialis – Fallhand.",
+    "Suprakondyläre Fraktur (bei Kindern häufig): Schädigung von A. brachialis und N. medianus, Gefahr der Volkmann-Kontraktur.",
+    "Fraktur des Epicondylus medialis: Schädigung des N. ulnaris – Krallenhand."
+   ],
+   "tus": [
+    "Drei Nerven am Humerus: Collum chirurgicum – N. axillaris, Schaft (Sulcus) – N. radialis, Epicondylus medialis – N. ulnaris.",
+    "Bei suprakondylären Frakturen können A. brachialis und N. medianus (besonders der N. interosseus anterior) verletzt werden."
+   ],
+   "related": [
+    "scapula",
+    "radius",
+    "ulna",
+    "art-humeri",
+    "art-cubiti",
+    "n-radialis",
+    "n-axillaris"
+   ],
+   "models": [
+    "Humerus"
+   ],
+   "aliases": [
+    "Humerus"
+   ]
+  },
+  {
+   "id": "radius",
+   "tr": "Speiche",
+   "la": "Radius",
+   "en": "Radius",
+   "group": "Knochen der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Röhrenknochen auf der lateralen (Daumen-)Seite des Unterarms. Er dreht sich bei Pro- und Supination um die Ulna und bildet den Hauptanteil des Handgelenks.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Röhrenknochen",
+     "Knochentyp"
+    ],
+    [
+     "Üst uç",
+     "Caput radii, Collum radii, Tuberositas radii (Ansatz des M. biceps brachii)",
+     "Oberes Ende"
+    ],
+    [
+     "Alt uç",
+     "Processus styloideus radii, Incisura ulnaris, Facies articularis carpalis, Tuberculum dorsale (Lister-Höcker)",
+     "Unteres Ende"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (Art. humeroradialis), Ulna (Art. radioulnaris proximalis und distalis), Os scaphoideum und Os lunatum (Art. radiocarpalis)",
+     "Gelenke"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. biceps brachii, M. supinator, M. pronator teres, M. brachioradialis, M. pronator quadratus, M. flexor pollicis longus, M. abductor pollicis longus",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Enden",
+     "Proximal artikuliert das scheibenförmige Radiusköpfchen mit dem Capitulum humeri und der Incisura radialis der Ulna und wird vom Lig. anulare umfasst; darunter liegen Hals und Tuberositas radii, an der der M. biceps brachii ansetzt. Das distale Ende ist breit, mit Processus styloideus radii lateral, Incisura ulnaris medial für die Ulna und dem Lister-Höcker (Tuberculum dorsale) dorsal."
+    ]
+   ],
+   "clinical": [
+    "Die distale Radiusfraktur nach Sturz auf die ausgestreckte Hand (Colles-Fraktur) ist eine der häufigsten Frakturen; das distale Fragment kippt nach dorsal (Fourchette-Stellung).",
+    "Bei Kindern kann ruckartiger Zug am Arm das Radiusköpfchen aus dem Lig. anulare rutschen lassen (Chassaignac-Lähmung)."
+   ],
+   "tus": [
+    "Die Radiusköpfchensubluxation (Chassaignac) ist zwischen 1 und 4 Jahren häufig.",
+    "Galeazzi-Fraktur: Radiusschaftfraktur + Luxation im distalen Radioulnargelenk; Monteggia: Ulnafraktur + Radiusköpfchenluxation."
+   ],
+   "related": [
+    "ulna",
+    "humerus",
+    "art-cubiti",
+    "art-radiocarpalis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radius"
+   ],
+   "aliases": [
+    "Radius"
+   ]
+  },
+  {
+   "id": "ulna",
+   "tr": "Elle",
+   "la": "Ulna",
+   "en": "Ulna",
+   "group": "Knochen der oberen Extremität",
+   "region": "upperLimb",
+   "summary": "Röhrenknochen auf der medialen (Kleinfinger-)Seite des Unterarms. Ihr oberes Ende bildet mit dem Humerus das Hauptscharnier des Ellenbogens; das Olecranon bildet die Ellenbogenspitze.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Röhrenknochen",
+     "Knochentyp"
+    ],
+    [
+     "Üst uç",
+     "Olecranon, Processus coronoideus, Incisura trochlearis, Incisura radialis, Tuberositas ulnae",
+     "Oberes Ende"
+    ],
+    [
+     "Alt uç",
+     "Caput ulnae, Processus styloideus ulnae",
+     "Unteres Ende"
+    ],
+    [
+     "Eklemleri",
+     "Humerus (Art. humeroulnaris), Radius (Artt. radioulnares)",
+     "Gelenke"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. triceps brachii (Olecranon), M. brachialis (Tuberositas ulnae), M. flexor digitorum profundus, M. pronator quadratus, M. supinator, M. anconeus, M. flexor carpi ulnaris, M. extensor carpi ulnaris",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Enden",
+     "Am proximalen Ende liegen Olecranon und Processus coronoideus, dazwischen die Incisura trochlearis für den Humerus und lateral die Incisura radialis für das Radiusköpfchen. Am distalen Ende sind das kleine Caput ulnae und der Processus styloideus ulnae durch den dreieckigen Faserknorpeldiskus vom Handgelenk getrennt."
+    ]
+   ],
+   "clinical": [
+    "Monteggia-Fraktur: Fraktur des proximalen Ulnadrittels mit Luxation des Radiusköpfchens.",
+    "Bei Olekranonfrakturen zieht der Trizeps das proximale Fragment nach oben; meist ist eine operative Versorgung nötig."
+   ],
+   "tus": [
+    "Bei der Olekranonfraktur zieht der Trizeps die Fragmente auseinander; eine operative Fixation ist nötig.",
+    "Die Parierfraktur (isolierte Ulnaschaftfraktur) entsteht, wenn der Unterarm zum Schutz des Gesichts erhoben wird."
+   ],
+   "related": [
+    "radius",
+    "humerus",
+    "art-cubiti"
+   ],
+   "models": [
+    "Ulna"
+   ],
+   "aliases": [
+    "Ulna"
+   ]
+  },
+  {
+   "id": "ossa-carpi",
+   "tr": "Handwurzelknochen",
+   "la": "Ossa carpi",
+   "en": "Carpal bones",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Acht kurze Knochen in zwei Reihen, die die Handwurzel bilden. Die Rinne an ihrer Vorderseite (Sulcus carpi) wird vom Retinaculum flexorum überbrückt und bildet so den Karpaltunnel.",
+   "facts": [
+    [
+     "Üst sıra (lateralden mediale)",
+     "Os scaphoideum, Os lunatum, Os triquetrum, Os pisiforme",
+     "Proximale Reihe (lateral nach medial)"
+    ],
+    [
+     "Alt sıra (lateralden mediale)",
+     "Os trapezium, Os trapezoideum, Os capitatum, Os hamatum",
+     "Distale Reihe (lateral nach medial)"
+    ],
+    [
+     "Akılda tutma",
+     "„Ein Kahn, der fuhr im Mondenschein im Dreieck um das Erbsenbein; Vieleck groß, Vieleck klein, der Kopf, der muss beim Haken sein.“",
+     "Merkhilfe"
+    ],
+    [
+     "Karpal tünelden geçenler",
+     "N. medianus und 9 Sehnen (4 FDS, 4 FDP, 1 FPL)",
+     "Durch den Karpaltunnel"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Karpaltunnelsyndrom: Die Kompression des N. medianus verursacht Taubheit an Daumen, Zeige-, Mittel- und halbem Ringfinger sowie eine Atrophie der Thenarmuskeln.",
+    "Da die Knochenkerne in fester Reihenfolge auftreten, dient das Handröntgen zur Bestimmung des Knochenalters."
+   ],
+   "tus": [
+    "Unter den Handwurzelknochen verknöchert das Os capitatum zuerst und das Os pisiforme zuletzt (Knochenalterbestimmung).",
+    "Proximale Reihe: Kahn-, Mond-, Dreiecks-, Erbsenbein; distale Reihe: großes und kleines Vieleckbein, Kopfbein, Hakenbein."
+   ],
+   "related": [
+    "os-scaphoideum",
+    "os-lunatum",
+    "os-triquetrum",
+    "os-pisiforme",
+    "os-trapezium",
+    "os-trapezoideum",
+    "os-capitatum",
+    "os-hamatum",
+    "art-radiocarpalis",
+    "n-medianus"
+   ],
+   "models": [
+    "Scaphoid bone",
+    "Lunate bone",
+    "Triquetrum bone",
+    "Pisiform bone",
+    "Trapezium bone",
+    "Trapezoid bone",
+    "Capitate bone",
+    "Hamate bone"
+   ],
+   "aliases": [
+    "Karpus",
+    "Handwurzel"
+   ]
+  },
+  {
+   "id": "os-scaphoideum",
+   "tr": "Kahnbein",
+   "la": "Os scaphoideum",
+   "en": "Scaphoid bone",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Kahnförmiger Knochen am lateralen Ende der proximalen Handwurzelreihe. Er ist einer der Hauptgelenkpartner des Radius und der am häufigsten gebrochene Handwurzelknochen.",
+   "facts": [
+    [
+     "Konum",
+     "Proximale Reihe, ganz lateral; im Boden der Tabatière",
+     "Lage"
+    ],
+    [
+     "Eklemleri",
+     "Radius, Os lunatum, Os capitatum, Os trapezium, Os trapezoideum",
+     "Gelenke"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberculum ossis scaphoidei (Ansatz des Retinaculum flexorum)",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Kanlanma",
+     "Äste der A. radialis; Blutfluss von distal nach proximal",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Es bricht beim Sturz auf die ausgestreckte Hand; typisch ist ein Druckschmerz in der Tabatière.",
+    "Da die Blutversorgung von distal kommt, kann bei Taillenfrakturen das proximale Fragment avaskulär nekrotisieren; die ersten Röntgenbilder können unauffällig sein, im Zweifel wird ruhiggestellt."
+   ],
+   "tus": [
+    "Häufigster gebrochener Handwurzelknochen; bei Tabatière-Druckschmerz wird auch bei normalem Röntgen ruhiggestellt.",
+    "Da das Blut von distal nach proximal fließt, ist bei Taillenfrakturen das Nekroserisiko des proximalen Fragments hoch."
+   ],
+   "related": [
+    "ossa-carpi",
+    "radius",
+    "os-lunatum",
+    "a-radialis"
+   ],
+   "models": [
+    "Scaphoid bone"
+   ],
+   "aliases": [
+    "Os scaphoideum",
+    "Skaphoid"
+   ]
+  },
+  {
+   "id": "os-lunatum",
+   "tr": "Mondbein",
+   "la": "Os lunatum",
+   "en": "Lunate bone",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Halbmondförmiger Knochen der proximalen Handwurzelreihe zwischen Kahnbein und Dreiecksbein. Er artikuliert mit dem Radius.",
+   "facts": [
+    [
+     "Konum",
+     "Proximale Reihe, zwischen Os scaphoideum und Os triquetrum",
+     "Lage"
+    ],
+    [
+     "Eklemleri",
+     "Radius, Discus articularis, Os scaphoideum, Os triquetrum, Os capitatum, Os hamatum",
+     "Gelenke"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Radius, Kahnbein, Dreiecksbein, Kopfbein, Hakenbein (manchmal)",
+     "Gelenkpartner"
+    ],
+    [
+     "Kanlanma",
+     "Gefäße treten an der palmaren und dorsalen Fläche ein; bei manchen Menschen aus nur einer Quelle",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Lage",
+     "Halbmondförmiger Knochen in der Fossa lunata des Radius in der Mitte der proximalen Handwurzelreihe. Er ist der am häufigsten luxierte Handwurzelknochen."
+    ]
+   ],
+   "clinical": [
+    "Der am häufigsten luxierte Handwurzelknochen; eine Luxation nach palmar kann den N. medianus im Karpaltunnel komprimieren.",
+    "Lunatummalazie (Morbus Kienböck): avaskuläre Nekrose des Mondbeins."
+   ],
+   "tus": [
+    "Der Morbus Kienböck ist die avaskuläre Nekrose des Mondbeins; eine Ulna-Minusvariante ist Risikofaktor.",
+    "Perilunäre und Lunatumluxationen entstehen durch Hyperextension des Handgelenks."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "radius"
+   ],
+   "models": [
+    "Lunate bone"
+   ],
+   "aliases": [
+    "Os lunatum"
+   ]
+  },
+  {
+   "id": "os-triquetrum",
+   "tr": "Dreiecksbein",
+   "la": "Os triquetrum",
+   "en": "Triquetrum",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Pyramidenförmiger Knochen der proximalen Handwurzelreihe medial des Mondbeins. Vorn artikuliert er mit dem Erbsenbein.",
+   "facts": [
+    [
+     "Konum",
+     "Proximale Reihe, zwischen Os lunatum und Os pisiforme",
+     "Lage"
+    ],
+    [
+     "Eklemleri",
+     "Os lunatum, Os pisiforme, Os hamatum, Discus articularis",
+     "Gelenke"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Mondbein, Erbsenbein, Hakenbein; über den dreieckigen Faserknorpeldiskus der Ulna benachbart",
+     "Gelenkpartner"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die dorsale Abrissfraktur des Dreiecksbeins ist nach der Kahnbeinfraktur die zweithäufigste Handwurzelfraktur; sie entsteht bei Sturz auf den Handrücken."
+   ],
+   "tus": [
+    "Die dorsale Abrissfraktur des Dreiecksbeins ist nach der Kahnbeinfraktur die häufigste Handwurzelfraktur.",
+    "Der ulnokarpale Komplex (TFCC) liegt zwischen Dreiecksbein und Ulna."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "os-hamatum"
+   ],
+   "models": [
+    "Triquetrum bone"
+   ],
+   "aliases": [
+    "Os triquetrum"
+   ]
+  },
+  {
+   "id": "os-pisiforme",
+   "tr": "Erbsenbein",
+   "la": "Os pisiforme",
+   "en": "Pisiform bone",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Kleiner, erbsenförmiger Knochen am medialen Ende der proximalen Reihe, der auf der Vorderseite des Dreiecksbeins sitzt. Es ist ein Sesambein in der Sehne des M. flexor carpi ulnaris.",
+   "facts": [
+    [
+     "Konum",
+     "Proximale Reihe, ganz medial; am Kleinfingerballen tastbar",
+     "Lage"
+    ],
+    [
+     "Tutunanlar",
+     "M. flexor carpi ulnaris, M. abductor digiti minimi, Lig. pisohamatum, Lig. pisometacarpale, Retinaculum flexorum",
+     "Ansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Loge de Guyon",
+     "Zwischen Erbsenbein und Hamulus ossis hamati ziehen N. und A. ulnaris durch die Loge de Guyon."
+    ]
+   ],
+   "clinical": [
+    "Eine Kompression des N. ulnaris in der Loge de Guyon (Radfahrerlähmung) schwächt die kleinen Handmuskeln.",
+    "Eine Erbsenbeinfraktur entsteht meist durch direkten Sturz auf den Kleinfingerballen und kann den benachbarten N. ulnaris schädigen."
+   ],
+   "tus": [
+    "Es bildet die mediale Wand der Loge de Guyon; N. und A. ulnaris ziehen direkt radial am Erbsenbein vorbei."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-triquetrum",
+    "os-hamatum",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Pisiform bone"
+   ],
+   "aliases": [
+    "Os pisiforme"
+   ]
+  },
+  {
+   "id": "os-trapezium",
+   "tr": "Großes Vieleckbein",
+   "la": "Os trapezium",
+   "en": "Trapezium",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Der am weitesten lateral gelegene Knochen der distalen Handwurzelreihe. Mit dem 1. Mittelhandknochen bildet es das Sattelgelenk des Daumens.",
+   "facts": [
+    [
+     "Konum",
+     "Distale Reihe, ganz lateral",
+     "Lage"
+    ],
+    [
+     "Eklemleri",
+     "Os scaphoideum, Os trapezoideum, 1. und 2. Mittelhandknochen",
+     "Gelenke"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberculum ossis trapezii, Rinne für die Sehne des M. flexor carpi radialis",
+     "Wichtige Strukturen"
+    ]
+   ],
+   "sections": [
+    [
+     "Daumengelenk",
+     "Das Daumensattelgelenk (Art. carpometacarpalis pollicis) ermöglicht die Opposition des Daumens."
+    ]
+   ],
+   "clinical": [
+    "Die Arthrose des Daumensattelgelenks (Rhizarthrose) ist besonders bei Frauen mittleren Alters häufig."
+   ],
+   "tus": [
+    "Durch die Rinne vorn am Os trapezium zieht die FCR-Sehne; die Rhizarthrose ist bei älteren Frauen häufig."
+   ],
+   "related": [
+    "ossa-carpi",
+    "ossa-metacarpi",
+    "os-trapezoideum"
+   ],
+   "models": [
+    "Trapezium bone"
+   ],
+   "aliases": [
+    "Os trapezium"
+   ]
+  },
+  {
+   "id": "os-trapezoideum",
+   "tr": "Kleines Vieleckbein",
+   "la": "Os trapezoideum",
+   "en": "Trapezoid bone",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Einer der kleinsten Knochen der distalen Reihe zwischen großem Vieleckbein und Kopfbein. Es artikuliert mit dem 2. Mittelhandknochen.",
+   "facts": [
+    [
+     "Konum",
+     "Distale Reihe, zwischen Os trapezium und Os capitatum",
+     "Lage"
+    ],
+    [
+     "Eklemleri",
+     "Os scaphoideum, Os trapezium, Os capitatum, 2. Mittelhandknochen",
+     "Gelenke"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Kahnbein, großes Vieleckbein, Kopfbein, 2. Mittelhandknochen",
+     "Gelenkpartner"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Er ist der am seltensten gebrochene Handwurzelknochen, geschützt durch seine feste Verbindung mit der Basis des 2. Mittelhandknochens."
+   ],
+   "tus": [
+    "Der am seltensten gebrochene Handwurzelknochen; er artikuliert mit der Basis des 2. Mittelhandknochens."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum"
+   ],
+   "models": [
+    "Trapezoid bone"
+   ],
+   "aliases": [
+    "Os trapezoideum"
+   ]
+  },
+  {
+   "id": "os-capitatum",
+   "tr": "Kopfbein",
+   "la": "Os capitatum",
+   "en": "Capitate bone",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Der größte Handwurzelknochen in der Mitte der distalen Reihe; sein runder Kopf sitzt in der Mulde aus Kahn- und Mondbein.",
+   "facts": [
+    [
+     "Konum",
+     "Distale Reihe, Mitte",
+     "Lage"
+    ],
+    [
+     "Eklemleri",
+     "Os scaphoideum, Os lunatum, Os trapezoideum, Os hamatum, 2.–4. Mittelhandknochen",
+     "Gelenke"
+    ],
+    [
+     "Kemikleşme",
+     "Verknöchert als erster Handwurzelknochen (1.–3. Monat)",
+     "Verknöcherung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kopfbeinfrakturen sind selten, doch da die Gefäße zu seinem Kopf retrograd verlaufen, kann eine avaskuläre Nekrose entstehen.",
+    "Bei der Lunatumluxation bleibt das Kopfbein in Linie mit dem Radius, während das Mondbein nach palmar kippt (Abgrenzung zur perilunären Luxation)."
+   ],
+   "tus": [
+    "Größter und zuerst verknöchernder Handwurzelknochen; er artikuliert mit dem 3. Mittelhandknochen."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-lunatum",
+    "os-hamatum"
+   ],
+   "models": [
+    "Capitate bone"
+   ],
+   "aliases": [
+    "Os capitatum"
+   ]
+  },
+  {
+   "id": "os-hamatum",
+   "tr": "Hakenbein",
+   "la": "Os hamatum",
+   "en": "Hamate bone",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Der am weitesten medial gelegene Knochen der distalen Reihe mit einem Haken (Hamulus ossis hamati) an der Vorderseite.",
+   "facts": [
+    [
+     "Konum",
+     "Distale Reihe, ganz medial",
+     "Lage"
+    ],
+    [
+     "Eklemleri",
+     "Os lunatum, Os triquetrum, Os capitatum, 4. und 5. Mittelhandknochen",
+     "Gelenke"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Hamulus ossis hamati – Ansatz von Retinaculum flexorum und Lig. pisohamatum; laterale Wand der Loge de Guyon",
+     "Wichtige Strukturen"
+    ]
+   ],
+   "sections": [
+    [
+     "Hamulus ossis hamati",
+     "Hakenförmiger Vorsprung zur Hohlhand; mediale Ansatzstelle des Retinaculum flexorum und laterale Wand der Loge de Guyon. M. flexor digiti minimi brevis und M. opponens digiti minimi setzen hier an."
+    ]
+   ],
+   "clinical": [
+    "Hamulusfrakturen kommen bei Golf- und Baseballspielern vor; der tiefe Ast des N. ulnaris kann betroffen sein."
+   ],
+   "tus": [
+    "Die Hamulusfraktur tritt bei Golf und Baseball auf; der tiefe Ast des N. ulnaris zieht um den Haken."
+   ],
+   "related": [
+    "ossa-carpi",
+    "os-pisiforme",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Hamate bone"
+   ],
+   "aliases": [
+    "Os hamatum"
+   ]
+  },
+  {
+   "id": "ossa-metacarpi",
+   "tr": "Mittelhandknochen",
+   "la": "Ossa metacarpi (I–V)",
+   "en": "Metacarpal bones",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Die fünf Röhrenknochen, die das Skelett der Mittelhand bilden. Proximal artikulieren sie mit der Handwurzel, distal mit den Grundphalangen.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V vom Daumen zum Kleinfinger)",
+     "Anzahl"
+    ],
+    [
+     "Bölümleri",
+     "Basis, Schaft, Kopf (bei der Faust als „Knöchel“ sichtbar)",
+     "Teile"
+    ],
+    [
+     "Eklemleri",
+     "Karpometakarpal-, Intermetakarpal- und Metakarpophalangealgelenke",
+     "Gelenke"
+    ],
+    [
+     "Özellik",
+     "Der 1. Mittelhandknochen ist der kürzeste, dickste und beweglichste",
+     "Besonderheit"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Jeder Mittelhandknochen hat proximal eine Basis, in der Mitte einen Schaft und distal einen Kopf. Die Köpfe bilden bei geballter Faust die „Knöchel“. Der erste Mittelhandknochen ist der kürzeste und dickste; sein Sattelgelenk mit dem großen Vieleckbein ermöglicht die Opposition des Daumens."
+    ]
+   ],
+   "clinical": [
+    "Die Fraktur des 5. Mittelhandknochenhalses durch einen Faustschlag heißt Boxerfraktur.",
+    "Die intraartikuläre Fraktur der Basis des 1. Mittelhandknochens heißt Bennett-Fraktur."
+   ],
+   "tus": [
+    "Die Bennett-Fraktur ist eine intraartikuläre Luxationsfraktur der Basis des 1. Mittelhandknochens; der M. abductor pollicis longus zieht das Fragment nach proximal.",
+    "Die Bennett-Fraktur ist eine intraartikuläre Luxationsfraktur der Basis des 1. Mittelhandknochens; der M. abductor pollicis longus zieht das distale Fragment nach proximal."
+   ],
+   "related": [
+    "ossa-carpi",
+    "phalanges-manus",
+    "os-trapezium"
+   ],
+   "models": [
+    "First metacarpal bone",
+    "Second metacarpal bone",
+    "Third metacarpal bone",
+    "Fourth metacarpal bone",
+    "Fifth metacarpal bone"
+   ],
+   "aliases": [
+    "Metakarpale",
+    "Ossa metacarpi"
+   ]
+  },
+  {
+   "id": "phalanges-manus",
+   "tr": "Fingerknochen",
+   "la": "Phalanges manus",
+   "en": "Phalanges of hand",
+   "group": "Knochen der Hand",
+   "region": "upperLimb",
+   "summary": "Die 14 kurzen Röhrenknochen der Finger. Der Daumen hat zwei, die übrigen Finger je drei Phalangen.",
+   "facts": [
+    [
+     "Sayı",
+     "14 (Daumen 2, die übrigen je 3)",
+     "Anzahl"
+    ],
+    [
+     "Adları",
+     "Grund-, Mittel- und Endphalanx",
+     "Namen"
+    ],
+    [
+     "Eklemleri",
+     "Metakarpophalangealgelenke, proximale (PIP) und distale (DIP) Interphalangealgelenke",
+     "Gelenke"
+    ],
+    [
+     "Distal falanks",
+     "An der Spitze trägt sie die Tuberositas phalangis distalis, die das Nagelbett stützt",
+     "Endphalanx"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Jedes Fingerglied hat Basis, Schaft und Kopf. Die Basen der Grundglieder artikulieren mit den Mittelhandköpfen, die übrigen mit dem Kopf des vorangehenden Gliedes. An der Spitze der Endglieder liegt die Tuberositas phalangis distalis, die das Nagelbett trägt."
+    ]
+   ],
+   "clinical": [
+    "Reißt die Strecksehne an der Basis der Endphalanx, hängt die Fingerspitze herab (Hammerfinger).",
+    "Bei Arthrose bilden sich an den DIP-Gelenken Heberden-, an den PIP-Gelenken Bouchard-Knoten."
+   ],
+   "tus": [
+    "Der Hammerfinger entsteht durch Riss der an der Endphalanx ansetzenden Strecksehne."
+   ],
+   "related": [
+    "ossa-metacarpi",
+    "m-flexor-digitorum-profundus",
+    "m-extensor-digitorum"
+   ],
+   "models": [
+    "Distal phalanx of first finger of hand",
+    "Distal phalanx of second finger of hand",
+    "Distal phalanx of third finger of hand",
+    "Distal phalanx of fourth finger of hand",
+    "Distal phalanx of fifth finger of hand",
+    "Middle phalanx of second finger of hand",
+    "Middle phalanx of third finger of hand",
+    "Middle phalanx of fourth finger of hand",
+    "Middle phalanx of fifth finger of hand",
+    "Proximal phalanx of first finger of hand",
+    "Proximal phalanx of second finger of hand",
+    "Proximal phalanx of third finger of hand",
+    "Proximal phalanx of fourth finger of hand",
+    "Proximal phalanx of fifth finger of hand"
+   ],
+   "aliases": [
+    "Phalangen"
+   ]
+  },
+  {
+   "id": "os-coxae",
+   "tr": "Hüftbein",
+   "la": "Os coxae",
+   "en": "Hip bone",
+   "group": "Knochen der unteren Extremität",
+   "region": "pelvis",
+   "summary": "Großer, unregelmäßiger paariger Knochen, der Seiten- und Vorderwand des Beckens bildet. Er entsteht aus drei Knochen (Darm-, Sitz- und Schambein), die in der Hüftpfanne verschmelzen.",
+   "facts": [
+    [
+     "Oluşum",
+     "Os ilium, Os ischii und Os pubis; sie verschmelzen in der Y-Fuge (Cartilago triradiata) der Hüftpfanne mit 15–17 Jahren",
+     "Bildung"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Crista iliaca, Spina iliaca anterior superior und inferior, Spina iliaca posterior superior, Acetabulum, Foramen obturatum, Tuber ischiadicum, Spina ischiadica, Incisura ischiadica major und minor, Ramus ossis pubis, Tuberculum pubicum, Facies symphysialis",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleri",
+     "Femur (Hüftgelenk), Kreuzbein (Iliosakralgelenk), gegenseitiges Hüftbein (Symphyse)",
+     "Gelenke"
+    ],
+    [
+     "Kas tutunmaları",
+     "Glutealmuskeln, M. iliacus, Bauchmuskeln, ischiokrurale Muskeln (Tuber ischiadicum), Adduktoren, M. sartorius (SIAS), M. rectus femoris (SIAI)",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Geschlechtsunterschiede des Beckens",
+     "Das weibliche Becken ist breiter und flacher, mit querovalem Beckeneingang und weitem Schambogenwinkel (etwa 80–90°). Das männliche Becken ist enger und tiefer, mit herzförmigem Eingang und engem Winkel (etwa 50–60°)."
+    ],
+    [
+     "Öffnungen",
+     "Durch das Foramen ischiadicum majus ziehen M. piriformis, N. ischiadicus, Gefäße und N. pudendus; durch das Foramen ischiadicum minus die Sehne des M. obturatorius internus und der N. pudendus; durch das Foramen obturatum (Canalis obturatorius) N. und Vasa obturatoria."
+    ]
+   ],
+   "clinical": [
+    "Der Beckenkamm dient zur Knochenmarkpunktion und Entnahme von Knochentransplantaten.",
+    "Schambeinäste brechen bei älteren Menschen häufig; Hochrasanz-Beckenfrakturen können stark innerlich bluten.",
+    "Eine Einengung des N. cutaneus femoris lateralis nahe der SIAS verursacht Brennen und Taubheit an der Oberschenkelaußenseite (Meralgia paraesthetica)."
+   ],
+   "tus": [
+    "Die Y-Fuge der Hüftpfanne verschmilzt mit 15–17 Jahren.",
+    "An der SIAS entspringen M. sartorius und TFL, an der SIAI der gerade Kopf des M. rectus femoris, am Tuber ischiadicum die ischiokruralen Muskeln (Abrissfrakturen bei Sportlern)."
+   ],
+   "related": [
+    "femur",
+    "os-sacrum",
+    "art-coxae",
+    "art-sacroiliaca",
+    "m-gluteus-maximus"
+   ],
+   "models": [
+    "Hip bone"
+   ],
+   "aliases": [
+    "Darmbein",
+    "Sitzbein",
+    "Schambein",
+    "Os coxae"
+   ]
+  },
+  {
+   "id": "pelvis",
+   "tr": "Knöchernes Becken (Beckenring)",
+   "la": "Pelvis ossea",
+   "en": "Bony pelvis",
+   "group": "Knochen der unteren Extremität",
+   "region": "pelvis",
+   "summary": "Der Knochenring aus den beiden Hüftbeinen, Kreuzbein und Steißbein. Er überträgt das Rumpfgewicht auf die Beine, schützt die Beckenorgane und bildet bei der Frau den Geburtskanal. Die Linea terminalis trennt großes und kleines Becken.",
+   "facts": [
+    [
+     "Kemikleri",
+     "Zwei Hüftbeine (Darmbein, Sitzbein, Schambein), Kreuzbein, Steißbein",
+     "Knochen"
+    ],
+    [
+     "Bölümleri",
+     "Großes Becken (oberhalb der Linea terminalis, Teil der Bauchhöhle) und kleines Becken (Geburtskanal)",
+     "Teile"
+    ],
+    [
+     "Eklemleri",
+     "Iliosakralgelenke, Schambeinfuge, Sakrokokzygealgelenk, Lumbosakralgelenk",
+     "Gelenke"
+    ],
+    [
+     "Pelvis girişi (apertura pelvis superior)",
+     "Begrenzt von Promontorium, Ala sacri, Linea arcuata, Pecten ossis pubis und Oberrand der Symphyse",
+     "Beckeneingang"
+    ],
+    [
+     "Pelvis çıkışı (apertura pelvis inferior)",
+     "Begrenzt von Steißbein, Ligg. sacrotuberalia, Sitzbeinhöckern, Rami ischiopubici und Unterrand der Symphyse",
+     "Beckenausgang"
+    ]
+   ],
+   "sections": [
+    [
+     "Geschlechtsunterschiede",
+     "Das weibliche Becken ist breiter und flacher; der Beckeneingang ist oval (gynäkoid), der Schambogenwinkel weit (über 90°), das Foramen obturatum fast dreieckig, das Kreuzbein kürzer und breiter und die Sitzbeinstacheln ragen weniger vor. Das männliche Becken ist schmaler und tiefer; der Eingang ist herzförmig (android), der Schambeinwinkel eng (etwa 60–70°)."
+    ],
+    [
+     "Geburtshilfliche Durchmesser",
+     "Die Conjugata vera (Promontorium – Oberrand der Symphyse) misst etwa 11 cm; die Conjugata obstetrica (Promontorium – nächster Punkt der Symphysenhinterfläche) ist der engste gerade Durchmesser des Geburtskanals; die Conjugata diagonalis wird bei der Untersuchung gemessen und ist etwa 1,5–2 cm länger als die Conjugata obstetrica. Der engste Durchmesser des Beckenausgangs ist die Interspinallinie (etwa 10 cm)."
+    ]
+   ],
+   "clinical": [
+    "Frakturen des Beckenrings betreffen meist zwei Stellen und können schwere innere Blutungen (vor allem aus den Venengeflechten) verursachen.",
+    "Bei einem Missverhältnis zwischen Kopf und Becken kann der kindliche Kopf das Becken nicht passieren; ein Kaiserschnitt kann nötig werden."
+   ],
+   "tus": [
+    "Die Conjugata obstetrica ist der engste gerade Durchmesser des Geburtskanals; sie wird geschätzt, indem man von der Conjugata diagonalis 1,5–2 cm abzieht.",
+    "Im weiblichen Becken ist der Schambogenwinkel größer als 90° (etwa 80–85° bis 90–100°), im männlichen etwa 60–70°."
+   ],
+   "related": [
+    "os-coxae",
+    "os-sacrum",
+    "os-coccygis",
+    "art-sacroiliaca",
+    "symphysis-pubica",
+    "ligg-pelvis"
+   ],
+   "models": [
+    "Hip bone",
+    "Sacrum",
+    "Coccyx"
+   ],
+   "aliases": [
+    "Becken",
+    "Beckengürtel"
+   ]
+  },
+  {
+   "id": "acetabulum",
+   "tr": "Hüftpfanne (Acetabulum)",
+   "la": "Acetabulum",
+   "en": "Acetabulum",
+   "group": "Knochen der unteren Extremität",
+   "region": "pelvis",
+   "summary": "Tiefe, halbkugelige Pfanne an der Außenfläche des Hüftbeins, die den Femurkopf aufnimmt. Darmbein, Sitzbein und Schambein treffen sich hier an einem Y-förmigen Knorpel.",
+   "facts": [
+    [
+     "Oluşum",
+     "Darmbein (etwa 2/5), Sitzbein (2/5) und Schambein (1/5); die drei Knochen verschmelzen in der Pubertät mit der Verknöcherung der Y-Fuge",
+     "Bildung"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Facies lunata (hufeisenförmige Gelenkfläche), Fossa acetabuli (gelenkflächenfreies Zentrum mit Fettpolster), Incisura acetabuli (unten), Limbus acetabuli",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Bağlantılar",
+     "Das Labrum acetabuli vertieft den Rand; das Lig. transversum acetabuli überbrückt die Incisura; das Lig. capitis femoris zieht von der Incisura zum Femurkopf",
+     "Verbindungen"
+    ],
+    [
+     "Yönü",
+     "Nach lateral, vorn und unten gerichtet (Anteversion)",
+     "Ausrichtung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei der Hüftdysplasie ist die Pfanne flach und der Femurkopf sitzt nicht vollständig darin; Neugeborene werden mit den Tests nach Ortolani und Barlow untersucht.",
+    "Bei Hochrasanztraumen kann der Femurkopf die Pfanne brechen; prallt das Knie gegen das Armaturenbrett, sind Hinterwandfraktur und hintere Hüftluxation häufig."
+   ],
+   "tus": [
+    "Die Y-Fuge verknöchert mit 15–17 Jahren und verschmilzt die drei Knochen.",
+    "Im Lig. capitis femoris verläuft der R. acetabularis der A. obturatoria (A. capitis femoris); beim Erwachsenen trägt er wenig zur Versorgung des Femurkopfs bei."
+   ],
+   "related": [
+    "os-coxae",
+    "femur",
+    "art-coxae",
+    "pelvis"
+   ],
+   "models": [
+    "Hip bone",
+    "Triradiate cartilage",
+    "Acetabular labrum"
+   ],
+   "aliases": [
+    "Acetabulum",
+    "Hüftpfanne"
+   ]
+  },
+  {
+   "id": "femur",
+   "tr": "Oberschenkelknochen",
+   "la": "Femur",
+   "en": "Femur",
+   "group": "Knochen der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Der längste, schwerste und stärkste Knochen des Körpers. Oben bildet er mit dem Hüftbein das Hüftgelenk, unten mit Tibia und Patella das Kniegelenk.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Röhrenknochen (etwa 1/4 der Körpergröße)",
+     "Knochentyp"
+    ],
+    [
+     "Üst uç",
+     "Caput femoris (Fovea capitis), Collum femoris, Trochanter major und minor, Linea und Crista intertrochanterica",
+     "Oberes Ende"
+    ],
+    [
+     "Gövde",
+     "Linea aspera (Labium mediale und laterale), Tuberositas glutea, Linea pectinea",
+     "Schaft"
+    ],
+    [
+     "Alt uç",
+     "Condylus medialis und lateralis, Epikondylen, Tuberculum adductorium, Fossa intercondylaris, Facies patellaris, Facies poplitea",
+     "Unteres Ende"
+    ],
+    [
+     "Boyun-gövde açısı",
+     "Beim Erwachsenen etwa 125° (CCD-Winkel); Antetorsion etwa 10–15°",
+     "Schenkelhals-Schaft-Winkel"
+    ],
+    [
+     "Kas tutunmaları",
+     "Glutealmuskeln, M. iliopsoas (Trochanter minor), Adduktoren (Linea aspera), Vasti, Köpfe des M. gastrocnemius",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Blutversorgung",
+     "Der Hüftkopf wird überwiegend von Retinakulumästen der A. circumflexa femoris medialis versorgt; die Arterie im Lig. capitis femoris trägt beim Erwachsenen wenig bei."
+    ]
+   ],
+   "clinical": [
+    "Schenkelhalsfrakturen sind bei älteren Menschen (besonders Frauen mit Osteoporose) häufig; das Bein ist verkürzt und außenrotiert. Bei intrakapsulären Frakturen reißen die Retinakulumgefäße, und der Hüftkopf kann nekrotisch werden.",
+    "Femurschaftfrakturen können zu großem Blutverlust (1–1,5 l) und Fettembolie führen.",
+    "Bei Kindern verursachen Epiphyseolysis capitis femoris und Morbus Perthes ein Hinken."
+   ],
+   "tus": [
+    "Der CCD-Winkel beträgt beim Erwachsenen ~125°; kleiner: Coxa vara, größer: Coxa valga.",
+    "Femurschaftfrakturen können zu großem Blutverlust (1–1,5 l) und Fettembolie führen."
+   ],
+   "related": [
+    "os-coxae",
+    "tibia",
+    "patella",
+    "art-coxae",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Femur"
+   ],
+   "aliases": [
+    "Femur",
+    "Oberschenkel"
+   ]
+  },
+  {
+   "id": "patella",
+   "tr": "Kniescheibe",
+   "la": "Patella",
+   "en": "Patella",
+   "group": "Knochen der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Das größte Sesambein des Körpers. Sie entwickelt sich in der Sehne des M. quadriceps femoris und liegt vor dem Kniegelenk.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Sesambein",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Basis patellae (oben), Apex patellae (unten), Facies articularis (hinten; die laterale Facette ist größer)",
+     "Teile"
+    ],
+    [
+     "Bağlantılar",
+     "Oben Quadrizepssehne, unten Lig. patellae (zur Tuberositas tibiae)",
+     "Verbindungen"
+    ],
+    [
+     "İşlevi",
+     "Verlängert den Hebelarm des Quadrizeps und erhöht so die Streckkraft; schützt die Femurkondylen",
+     "Funktion"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Dreieckiges Sesambein mit der Basis oben und der Spitze unten. Die Vorderfläche ist von Fasern der Quadrizepssehne bedeckt; die Rückfläche trägt dicken Knorpel und ist durch einen senkrechten First in eine mediale und eine laterale Facette geteilt, die in der Rinne zwischen den Femurkondylen (Facies patellaris) gleiten. Die laterale Facette ist größer."
+    ]
+   ],
+   "clinical": [
+    "Mit größerem Q-Winkel (meist bei Frauen) neigt die Patella zur Luxation nach lateral; die unteren Fasern des M. vastus medialis wirken dem entgegen.",
+    "Patellafrakturen entstehen durch direkte Gewalt; die Unversehrtheit des Streckapparats muss geprüft werden.",
+    "Der Patellarsehnenreflex prüft die Segmente L2–L4 (vor allem L4)."
+   ],
+   "tus": [
+    "Größtes Sesambein des Körpers; sie entsteht in der Quadrizepssehne.",
+    "Eine Patella bipartita liegt meist oben lateral und darf nicht mit einer Fraktur verwechselt werden."
+   ],
+   "related": [
+    "femur",
+    "tibia",
+    "art-genus",
+    "m-quadriceps-femoris"
+   ],
+   "models": [
+    "Patella"
+   ],
+   "aliases": [
+    "Patella"
+   ]
+  },
+  {
+   "id": "tibia",
+   "tr": "Schienbein",
+   "la": "Tibia",
+   "en": "Tibia",
+   "group": "Knochen der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Großer, lasttragender Knochen an der Innenseite des Unterschenkels. Seine Vorderkante ist auf ganzer Länge unter der Haut tastbar.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Röhrenknochen",
+     "Knochentyp"
+    ],
+    [
+     "Üst uç",
+     "Condylus medialis und lateralis, Eminentia intercondylaris, Tuberositas tibiae, Facies articularis fibularis",
+     "Oberes Ende"
+    ],
+    [
+     "Gövde",
+     "Margo anterior (Schienbeinkante), Facies medialis (subkutan), Linea musculi solei",
+     "Schaft"
+    ],
+    [
+     "Alt uç",
+     "Malleolus medialis, Incisura fibularis, Facies articularis inferior",
+     "Unteres Ende"
+    ],
+    [
+     "Eklemleri",
+     "Femur (Knie), Fibula (proximales und distales Tibiofibulargelenk), Talus (oberes Sprunggelenk)",
+     "Gelenke"
+    ]
+   ],
+   "sections": [
+    [
+     "Enden",
+     "Das proximale Ende ist breit: medialer und lateraler Kondylus, dazwischen Area und Eminentia intercondylaris, an denen Kreuzbänder und Menisken ansetzen. Vorn liegt die Tuberositas tibiae für das Lig. patellae. Am distalen Ende liegen der Innenknöchel und die Incisura fibularis."
+    ]
+   ],
+   "clinical": [
+    "Der Tibiaschaft ist der am häufigsten offen gebrochene Röhrenknochen; seine Vorderinnenfläche ist nur von Haut bedeckt, und die schwache Durchblutung verzögert die Heilung.",
+    "Das Schienbeinkantensyndrom (Shin Splints) ist bei Läufern häufig.",
+    "Bei Jugendlichen ist eine schmerzhafte Schwellung an der Tuberositas tibiae der Morbus Osgood-Schlatter."
+   ],
+   "tus": [
+    "Die Vorderfläche der Tibia liegt subkutan; offene Frakturen sind an diesem Knochen am häufigsten.",
+    "Das Kompartmentsyndrom ist eine wichtige Komplikation von Tibiafrakturen."
+   ],
+   "related": [
+    "femur",
+    "fibula",
+    "patella",
+    "talus",
+    "art-genus",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Tibia"
+   ],
+   "aliases": [
+    "Tibia"
+   ]
+  },
+  {
+   "id": "fibula",
+   "tr": "Wadenbein",
+   "la": "Fibula",
+   "en": "Fibula",
+   "group": "Knochen der unteren Extremität",
+   "region": "lowerLimb",
+   "summary": "Schlanker Röhrenknochen an der Außenseite des Unterschenkels. Es trägt kein Körpergewicht; es dient Muskeln als Ansatz und bildet mit dem Außenknöchel einen Teil des Sprunggelenks.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Röhrenknochen",
+     "Knochentyp"
+    ],
+    [
+     "Bölümleri",
+     "Caput fibulae (Apex), Collum fibulae, Corpus, Malleolus lateralis",
+     "Teile"
+    ],
+    [
+     "Eklemleri",
+     "Tibia (Art. tibiofibularis, Syndesmosis tibiofibularis), Talus",
+     "Gelenke"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. biceps femoris, Mm. fibulares, M. extensor digitorum longus, M. extensor hallucis longus, M. soleus, M. tibialis posterior, M. flexor hallucis longus",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Funktion",
+     "Sie trägt nur wenig Gewicht (etwa 10–15 %); ihre Hauptaufgaben sind Muskelansätze und distal mit dem Außenknöchel die seitliche Wand des Sprunggelenks. Das Mittelstück ihres Schafts kann als Transplantat entnommen werden."
+    ]
+   ],
+   "clinical": [
+    "Der um den Fibulahals ziehende N. fibularis communis kann durch Stoß oder einen zu engen Gips geschädigt werden; es entsteht ein Fallfuß.",
+    "Der mittlere Fibulaschaft kann als gefäßgestieltes Knochentransplantat entnommen werden.",
+    "Außenknöchelfrakturen sind bei Umknicktraumen häufig."
+   ],
+   "tus": [
+    "Die Fibula trägt kein Körpergewicht; der freie Fibulalappen dient zur Rekonstruktion des Unterkiefers.",
+    "Maisonneuve-Fraktur: Riss des Lig. deltoideum + Syndesmosenverletzung + hohe Fibulafraktur."
+   ],
+   "related": [
+    "tibia",
+    "art-talocruralis",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Fibula"
+   ],
+   "aliases": [
+    "Fibula"
+   ]
+  },
+  {
+   "id": "ossa-tarsi",
+   "tr": "Fußwurzelknochen",
+   "la": "Ossa tarsi",
+   "en": "Tarsal bones",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Die sieben kurzen Knochen der hinteren Fußhälfte: Sprungbein und Fersenbein hinten, Kahnbein in der Mitte, Würfelbein und drei Keilbeine vorn. Sie übertragen das Körpergewicht vom Unterschenkel auf den Fuß und bilden die Fußgewölbe.",
+   "facts": [
+    [
+     "Sayı",
+     "7: Talus, Calcaneus, Os naviculare, Os cuboideum, Os cuneiforme mediale, intermedium und laterale",
+     "Anzahl"
+    ],
+    [
+     "Kemik tipi",
+     "Kurze Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Dizilimi",
+     "Hintere (proximale) Reihe: Talus und Calcaneus; Mitte: Os naviculare (medial); vordere (distale) Reihe: drei Keilbeine (medial) und Würfelbein (lateral)",
+     "Anordnung"
+    ],
+    [
+     "Eklemleri",
+     "Oberes Sprunggelenk (Talus mit Tibia und Fibula), unteres Sprunggelenk, Chopart-Gelenklinie, Lisfranc-Gelenklinie",
+     "Gelenke"
+    ],
+    [
+     "Akılda tutma",
+     "Der Talus verbindet Unterschenkel und Fuß; der Calcaneus bildet die Ferse; das Kahnbein liegt vor dem Talus, das Würfelbein vor dem Calcaneus; die Keilbeine vor dem Kahnbein artikulieren mit dem 1.–3. Mittelfußknochen",
+     "Merkhilfe"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Der Calcaneus ist der am häufigsten gebrochene Fußwurzelknochen (Sturz aus der Höhe); nach einer begleitenden Wirbelfraktur ist stets zu suchen.",
+    "Eine tarsale Koalition (angeborene Verschmelzung zweier Fußwurzelknochen) verursacht bei Jugendlichen einen schmerzhaften, rigiden Plattfuß."
+   ],
+   "tus": [
+    "Der Talus ist der einzige Fußwurzelknochen ohne Muskelansätze; wegen seiner retrograden Blutversorgung haben Talushalsfrakturen ein hohes Nekroserisiko.",
+    "Der Fuß hat 26 Knochen: 7 Fußwurzel-, 5 Mittelfußknochen und 14 Zehenglieder."
+   ],
+   "related": [
+    "talus",
+    "calcaneus",
+    "os-naviculare",
+    "os-cuboideum",
+    "ossa-cuneiformia",
+    "artt-pedis"
+   ],
+   "models": [
+    "Tarsal bones"
+   ],
+   "aliases": [
+    "Fußwurzel",
+    "Tarsus"
+   ]
+  },
+  {
+   "id": "talus",
+   "tr": "Sprungbein",
+   "la": "Talus",
+   "en": "Talus",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Der Knochen, der das Gewicht zwischen Unterschenkel und Fuß überträgt und den unteren Teil des oberen Sprunggelenks bildet. An ihm setzt kein Muskel an.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Caput, Collum, Corpus, Trochlea tali, Processus lateralis und posterior",
+     "Teile"
+    ],
+    [
+     "Eklemleri",
+     "Tibia und Fibula (oberes Sprunggelenk), Calcaneus (unteres Sprunggelenk), Os naviculare (Art. talocalcaneonavicularis)",
+     "Gelenke"
+    ],
+    [
+     "Özellik",
+     "Der größte Teil der Oberfläche ist von Gelenkknorpel bedeckt; kein Muskelansatz",
+     "Besonderheit"
+    ],
+    [
+     "Kanlanma",
+     "Vor allem A. canalis tarsi (aus der A. tibialis posterior) und A. sinus tarsi (aus der A. dorsalis pedis); das Blut fließt retrograd vom Hals zum Körper",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Teile",
+     "Er besteht aus Kopf (artikuliert mit dem Kahnbein), Hals und Körper. Die Trochlea auf der Oberseite des Körpers ist vorn breiter als hinten, daher ist das Sprunggelenk in Dorsalextension stabiler. In der Rinne zwischen medialem und lateralem Höcker des Processus posterior verläuft die Sehne des M. flexor hallucis longus."
+    ]
+   ],
+   "clinical": [
+    "Talushalsfrakturen (Fliegerfraktur) können wegen der gestörten Blutversorgung zur avaskulären Nekrose führen."
+   ],
+   "tus": [
+    "Das Nekroserisiko nach Talushalsfrakturen wird nach Hawkins eingeteilt.",
+    "Die Talusrolle ist vorn breiter; in Dorsalextension ist das obere Sprunggelenk am stabilsten."
+   ],
+   "related": [
+    "tibia",
+    "fibula",
+    "calcaneus",
+    "os-naviculare",
+    "art-talocruralis"
+   ],
+   "models": [
+    "Talus"
+   ],
+   "aliases": [
+    "Talus"
+   ]
+  },
+  {
+   "id": "calcaneus",
+   "tr": "Fersenbein",
+   "la": "Calcaneus",
+   "en": "Calcaneus",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Der größte Knochen des Fußes. Es bildet die Ferse und überträgt im Stand das Gewicht auf den Boden.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuber calcanei, Sustentaculum tali, Sulcus tendinis m. flexoris hallucis longi, Trochlea fibularis",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleri",
+     "Talus (unteres Sprunggelenk), Os cuboideum (Art. calcaneocuboidea)",
+     "Gelenke"
+    ],
+    [
+     "Tutunanlar",
+     "Achillessehne, Aponeurosis plantaris, M. flexor digitorum brevis, M. abductor hallucis, M. abductor digiti minimi, M. quadratus plantae, M. extensor digitorum brevis",
+     "Ansätze"
+    ],
+    [
+     "Kas tutunmaları",
+     "Achillessehne, M. plantaris, M. flexor digitorum brevis, M. abductor hallucis, M. abductor digiti minimi, M. quadratus plantae, M. extensor digitorum brevis",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Wichtige Strukturen",
+     "Hinten das Tuber calcanei (Ferse), medial das Sustentaculum tali, das den Talus trägt (darunter zieht die FHL-Sehne), lateral die Trochlea fibularis, die die Sehnen der Fibularismuskeln trennt. Die Oberseite trägt drei Gelenkflächen für den Talus und dazwischen den Sulcus calcanei, der mit der Talusrinne den Sinus tarsi bildet."
+    ]
+   ],
+   "clinical": [
+    "Beim Sturz aus der Höhe auf die Füße bricht das Fersenbein; auch die Wirbelsäule muss untersucht werden, da eine Wirbelkompressionsfraktur begleiten kann.",
+    "Fersensporn und Plantarfasziitis sind häufige Ursachen von Fersenschmerz."
+   ],
+   "tus": [
+    "Häufigster gebrochener Fußwurzelknochen; beim Sturz aus der Höhe kann eine LWS-Kompressionsfraktur begleiten.",
+    "Am Tuber calcanei setzt die Achillessehne an; ein verkleinerter Böhler-Winkel zeigt eine Fraktur an."
+   ],
+   "related": [
+    "talus",
+    "os-cuboideum",
+    "m-triceps-surae"
+   ],
+   "models": [
+    "Calcaneus"
+   ],
+   "aliases": [
+    "Calcaneus",
+    "Ferse"
+   ]
+  },
+  {
+   "id": "os-naviculare",
+   "tr": "Kahnbein des Fußes",
+   "la": "Os naviculare",
+   "en": "Navicular bone",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Kahnförmiger Knochen an der Innenseite des Fußes zwischen Sprungbein und Keilbeinen. Er ist der Schlussstein des inneren Längsgewölbes.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuberositas ossis navicularis (Hauptansatz des M. tibialis posterior)",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleri",
+     "Talus, die drei Keilbeine, manchmal Os cuboideum",
+     "Gelenke"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Talus (Taluskopf), drei Keilbeine, manchmal Würfelbein",
+     "Gelenkpartner"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. tibialis posterior (Tuberositas ossis navicularis)",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [
+    [
+     "Klinische Bedeutung",
+     "Es liegt nahe dem Scheitel des medialen Längsgewölbes. Seine Tuberositas ist vor und unter dem Innenknöchel tastbar. Manche Menschen haben ein Os naviculare accessorium, das durch den Zug der Tibialis-posterior-Sehne schmerzen kann."
+    ]
+   ],
+   "clinical": [
+    "Ein akzessorisches Os naviculare kann am Fußinnenrand einen schmerzhaften Vorsprung bilden.",
+    "Der Morbus Köhler I ist eine avaskuläre Nekrose des Os naviculare bei Kindern."
+   ],
+   "tus": [
+    "Ein akzessorisches Os naviculare kann Schmerzen an der Tibialis-posterior-Sehne verursachen.",
+    "Morbus Köhler I ist die Osteonekrose des Os naviculare im Kindesalter."
+   ],
+   "related": [
+    "talus",
+    "ossa-cuneiformia",
+    "m-tibialis-posterior"
+   ],
+   "models": [
+    "Navicular bone"
+   ],
+   "aliases": [
+    "Os naviculare"
+   ]
+  },
+  {
+   "id": "os-cuboideum",
+   "tr": "Würfelbein",
+   "la": "Os cuboideum",
+   "en": "Cuboid bone",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Würfelförmiger Knochen an der Außenseite des Fußes zwischen Fersenbein und 4. und 5. Mittelfußknochen.",
+   "facts": [
+    [
+     "Önemli oluşumlar",
+     "Tuberositas ossis cuboidei, Sulcus tendinis m. fibularis longi",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleri",
+     "Calcaneus, Os cuneiforme laterale, Os naviculare, 4. und 5. Mittelfußknochen",
+     "Gelenke"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Fersenbein, laterales Keilbein, Kahnbein (manchmal), 4. und 5. Mittelfußknochen",
+     "Gelenkpartner"
+    ],
+    [
+     "Önemli oluşumlar",
+     "An der Unterseite die Rinne für die Sehne des M. fibularis longus und davor die Tuberositas ossis cuboidei",
+     "Wichtige Strukturen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Das Kuboid-Syndrom, eine leichte Verschiebung des Würfelbeins mit Schmerzen am äußeren Fußrand, kommt vor allem bei Tänzern vor."
+   ],
+   "tus": [
+    "Das Würfelbein ist der Schlussstein des äußeren Längsgewölbes; unter ihm zieht die Sehne des M. fibularis longus."
+   ],
+   "related": [
+    "calcaneus",
+    "ossa-metatarsi",
+    "m-fibularis-longus"
+   ],
+   "models": [
+    "Cuboid bone"
+   ],
+   "aliases": [
+    "Os cuboideum"
+   ]
+  },
+  {
+   "id": "ossa-cuneiformia",
+   "tr": "Keilbeine",
+   "la": "Ossa cuneiformia",
+   "en": "Cuneiform bones",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Drei keilförmige Knochen zwischen Kahnbein und den ersten drei Mittelfußknochen: mediales, intermediäres und laterales Keilbein.",
+   "facts": [
+    [
+     "Kemikler",
+     "Os cuneiforme mediale (größtes), intermedium (kleinstes), laterale",
+     "Knochen"
+    ],
+    [
+     "Eklemleri",
+     "Os naviculare, 1.–3. Mittelfußknochen, Os cuboideum (laterales Keilbein)",
+     "Gelenke"
+    ],
+    [
+     "İşlev",
+     "Ihre Keilform trägt zum Quergewölbe des Fußes bei",
+     "Funktion"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Keilbeinfrakturen sind selten; sie begleiten meist eine Lisfranc-Verletzung."
+   ],
+   "tus": [
+    "M. tibialis anterior und M. fibularis longus setzen gemeinsam am medialen Keilbein und an der Basis des 1. Mittelfußknochens an („Steigbügel“).",
+    "Das mediale Keilbein ist das größte, das mittlere das kleinste; die Kürze des mittleren Keilbeins verankert die Basis des 2. Mittelfußknochens."
+   ],
+   "related": [
+    "os-naviculare",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone",
+    "Intermediate cuneiform bone",
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "Ossa cuneiformia"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-mediale",
+   "tr": "Inneres Keilbein",
+   "la": "Os cuneiforme mediale",
+   "en": "Medial cuneiform bone",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Das größte der drei Keilbeine; es liegt am inneren Fußrand zwischen Kahnbein und 1. Mittelfußknochen. Anders als bei den beiden anderen zeigt die Basis seines Keils nach unten.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Kurzer Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os naviculare, Os cuneiforme intermedium, 1. und 2. Mittelfußknochen",
+     "Gelenkpartner"
+    ],
+    [
+     "Kas tutunmaları",
+     "M. tibialis anterior und M. fibularis longus (unten-medial), ein Ausläufer des M. tibialis posterior",
+     "Muskelansätze"
+    ],
+    [
+     "Bağlar",
+     "Lisfranc-Band: kräftiges interossäres Band vom medialen Keilbein zur Basis des 2. Mittelfußknochens",
+     "Bänder"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei einer Lisfranc-Verletzung reißt dieses Band und zwischen den Basen des 1. und 2. Mittelfußknochens entsteht ein Spalt; da dies im Röntgen übersehen werden kann, ist eine sorgfältige Beurteilung nötig."
+   ],
+   "tus": [
+    "Die Sehnen von M. tibialis anterior und M. fibularis longus bilden am medialen Keilbein und an der Basis des 1. Mittelfußknochens einen „Steigbügel“, der die Fußgewölbe stützt."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-naviculare",
+    "ossa-metatarsi",
+    "ossa-tarsi"
+   ],
+   "models": [
+    "Medial cuneiform bone"
+   ],
+   "aliases": [
+    "Os cuneiforme mediale",
+    "inneres Keilbein"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-intermedium",
+   "tr": "Mittleres Keilbein",
+   "la": "Os cuneiforme intermedium",
+   "en": "Intermediate cuneiform bone",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Das kleinste Keilbein, zwischen den beiden anderen gelegen. Da es kürzer ist, entsteht vor ihm eine Nische (Zapfenlager), in die die Basis des 2. Mittelfußknochens greift.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Kurzer Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os naviculare, mediales und laterales Keilbein, 2. Mittelfußknochen",
+     "Gelenkpartner"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Das kürzeste Keilbein; die Basis des 2. Mittelfußknochens ist zwischen medialem und lateralem Keilbein verankert",
+     "Unterscheidungsmerkmal"
+    ],
+    [
+     "Kas tutunmaları",
+     "Ausläufer des M. tibialis posterior",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Verankerung der Basis des 2. Mittelfußknochens in dieser Nische ist der Schlussstein der Lisfranc-Gelenklinie; bei Lisfranc-Luxationsfrakturen wird sie gesprengt."
+   ],
+   "tus": [
+    "Da die Basis des 2. Mittelfußknochens zwischen den Keilbeinen eingelassen ist, bildet sie den stabilsten Schlusssteinpunkt des Lisfranc-Gelenks."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale",
+    "os-cuneiforme-laterale",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Intermediate cuneiform bone"
+   ],
+   "aliases": [
+    "Os cuneiforme intermedium",
+    "mittleres Keilbein"
+   ]
+  },
+  {
+   "id": "os-cuneiforme-laterale",
+   "tr": "Äußeres Keilbein",
+   "la": "Os cuneiforme laterale",
+   "en": "Lateral cuneiform bone",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Das mittelgroße Keilbein; es liegt zwischen mittlerem Keilbein und Würfelbein und artikuliert vorn mit dem 3. Mittelfußknochen.",
+   "facts": [
+    [
+     "Kemik tipi",
+     "Kurzer Knochen",
+     "Knochentyp"
+    ],
+    [
+     "Eklemleştiği kemikler",
+     "Os naviculare, Os cuneiforme intermedium, Os cuboideum, 2., 3. und 4. Mittelfußknochen",
+     "Gelenkpartner"
+    ],
+    [
+     "Kas tutunmaları",
+     "Ausläufer des M. tibialis posterior, Teil des M. flexor hallucis brevis",
+     "Muskelansätze"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Keilbeine sind bei Stressfrakturen des Mittelfußes selten betroffen; Schmerzen hier können mit Verletzungen der tarsometatarsalen Bänder verwechselt werden."
+   ],
+   "tus": [
+    "Das laterale Keilbein berührt den 2., 3. und 4. Mittelfußknochen; es liegt nahe dem Scheitel des Quergewölbes."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-intermedium",
+    "os-cuboideum",
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Lateral cuneiform bone"
+   ],
+   "aliases": [
+    "Os cuneiforme laterale",
+    "äußeres Keilbein"
+   ]
+  },
+  {
+   "id": "ossa-metatarsi",
+   "tr": "Mittelfußknochen",
+   "la": "Ossa metatarsi (I–V)",
+   "en": "Metatarsal bones",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Die fünf Röhrenknochen, die das Skelett des Vorfußes bilden. Der erste ist der kürzeste und dickste; ihre Köpfe tragen im Stand einen großen Teil des Gewichts.",
+   "facts": [
+    [
+     "Sayı",
+     "5 (I–V)",
+     "Anzahl"
+    ],
+    [
+     "Önemli oluşumlar",
+     "Tuberositas ossis metatarsi quinti an der Basis (Ansatz des M. fibularis brevis); zwei Sesambeine unter dem 1. Mittelfußkopf",
+     "Wichtige Strukturen"
+    ],
+    [
+     "Eklemleri",
+     "Tarsometatarsalgelenke (Lisfranc-Gelenk), Metatarsophalangealgelenke",
+     "Gelenke"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Fraktur der Basis des 5. Mittelfußknochens (Jones-Fraktur) ist bei Umknicktraumen häufig.",
+    "Nach langen Märschen können Ermüdungsbrüche des 2.–3. Mittelfußknochens auftreten (Marschfraktur).",
+    "Beim Hallux valgus weicht der 1. Mittelfußknochen nach medial, die Großzehe nach lateral ab."
+   ],
+   "tus": [
+    "Die Marschfraktur ist meist ein Ermüdungsbruch des Schafts des 2. Mittelfußknochens.",
+    "Die Lisfranc-Verletzung betrifft den Tarsometatarsalkomplex; die Basis des 2. Mittelfußknochens ist der Schlussstein."
+   ],
+   "related": [
+    "ossa-cuneiformia",
+    "os-cuboideum",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "First metatarsal bone",
+    "Second metatarsal bone",
+    "Third metatarsal bone",
+    "Fourth metatarsal bone",
+    "Fifth metatarsal bone"
+   ],
+   "aliases": [
+    "Metatarsale",
+    "Ossa metatarsi"
+   ]
+  },
+  {
+   "id": "phalanges-pedis",
+   "tr": "Zehenknochen",
+   "la": "Phalanges pedis",
+   "en": "Phalanges of foot",
+   "group": "Knochen des Fußes",
+   "region": "lowerLimb",
+   "summary": "Die 14 Knochen der Zehen. Die Großzehe (Hallux) hat zwei, die übrigen Zehen je drei Phalangen; sie sind kürzer als die der Hand.",
+   "facts": [
+    [
+     "Sayı",
+     "14",
+     "Anzahl"
+    ],
+    [
+     "Eklemleri",
+     "Metatarsophalangeal- und Interphalangealgelenke des Fußes",
+     "Gelenke"
+    ],
+    [
+     "Sesamoid kemikler",
+     "Unter dem Großzehengrundgelenk liegen zwei Sesambeine",
+     "Sesambeine"
+    ]
+   ],
+   "sections": [
+    [
+     "Aufbau",
+     "Die Zehenglieder sind viel kürzer als die Fingerglieder; Mittel- und Endglieder der 2.–5. Zehe sind besonders klein und an der 5. Zehe oft verschmolzen. Die Glieder der Großzehe sind dick und kräftig; über sie läuft in der Abstoßphase des Gehens zuletzt das Körpergewicht."
+    ]
+   ],
+   "clinical": [
+    "Hammerzehen und Gichtarthritis (besonders am Großzehengrundgelenk – Podagra) sind häufige Probleme."
+   ],
+   "tus": [
+    "Der Hallux valgus ist die Abweichung der Großzehe nach lateral; über dem 1. Mittelfußkopf entsteht ein Ballen."
+   ],
+   "related": [
+    "ossa-metatarsi"
+   ],
+   "models": [
+    "Phalanges of foot",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "Zehen",
+    "Phalangen"
+   ]
+  },
+  {
+   "id": "iskelet-genel",
+   "tr": "Gliederung des Skeletts",
+   "la": "Skeleton",
+   "en": "Human skeleton",
+   "group": "Allgemeines",
+   "region": "general",
+   "summary": "Das Skelett des Erwachsenen besteht aus etwa 206 Knochen und gliedert sich in zwei Hauptteile: das Achsenskelett, das die Körperachse bildet (Schädel, Wirbelsäule, Brustkorb), und das Extremitätenskelett, das Arme und Beine trägt (Gürtel und Knochen der freien Gliedmaßen).",
+   "facts": [
+    [
+     "Sayı",
+     "Beim Erwachsenen etwa 206 Knochen; beim Neugeborenen etwa 270–300, wenn man die noch nicht verschmolzenen Teile zählt",
+     "Anzahl"
+    ],
+    [
+     "Eksen iskeleti (skeleton axiale)",
+     "80 Knochen: Schädel und Gehörknöchelchen (29, einschließlich Zungenbein), Wirbelsäule (26), Brustkorb (25: Brustbein und 24 Rippen)",
+     "Achsenskelett"
+    ],
+    [
+     "Ekstremite iskeleti (skeleton appendiculare)",
+     "126 Knochen: Schultergürtel (4), obere Extremitäten (60), Beckengürtel (2), untere Extremitäten (60)",
+     "Extremitätenskelett"
+    ],
+    [
+     "Kemik şekilleri",
+     "Lange (Femur, Humerus), kurze (Handwurzelknochen), platte (Sternum, Schädeldach), unregelmäßige (Wirbel), lufthaltige (Maxilla, Siebbein) und Sesambeine (Patella)",
+     "Knochenformen"
+    ],
+    [
+     "İşlevi",
+     "Stütze und Form, Schutz der Organe, Hebel für die Bewegung, Blutbildung (rotes Knochenmark), Speicher für Calcium und Phosphat",
+     "Funktion"
+    ]
+   ],
+   "sections": [
+    [
+     "Gürtel",
+     "Der Schultergürtel besteht aus Schlüsselbein und Schulterblatt; er ist nur über das Sternoklavikulargelenk mit dem Rumpf verbunden und erlaubt einen großen Bewegungsumfang. Der Beckengürtel besteht aus den beiden Hüftbeinen; fest mit dem Kreuzbein hinten und miteinander vorn verbunden, übertragen sie das Körpergewicht auf die Beine."
+    ]
+   ],
+   "clinical": [
+    "Beim Erwachsenen werden Knochenmarkbiopsie und -aspiration meist am hinteren Beckenkamm (um die Spina iliaca posterior superior) entnommen.",
+    "Das Knochenalter wird anhand der Ossifikationszentren auf einer Röntgenaufnahme der linken Hand bestimmt."
+   ],
+   "tus": [
+    "Das Achsenskelett hat 80, das Extremitätenskelett 126 Knochen.",
+    "Rotes Knochenmark findet sich beim Erwachsenen vor allem in den platten Knochen (Sternum, Rippen, Hüftbein, Wirbel) und in den proximalen Enden der Röhrenknochen."
+   ],
+   "related": [
+    "os-structura",
+    "cranium",
+    "columna-vertebralis",
+    "pelvis"
+   ],
+   "models": [
+    "Skeletal system"
+   ],
+   "aliases": [
+    "Skelett",
+    "Knochen"
+   ]
+  },
+  {
+   "id": "os-structura",
+   "tr": "Bau und Entwicklung des Knochens",
+   "la": "Structura ossis",
+   "en": "Structure of bone",
+   "group": "Allgemeines",
+   "region": "general",
+   "summary": "Knochen ist ein hartes Bindegewebe aus Calciumphosphatkristallen und Kollagen. Außen liegt dichter kompakter, innen spongiöser Knochen; die Oberfläche ist von Periost bedeckt. Knochen entstehen durch desmale oder chondrale Ossifikation.",
+   "facts": [
+    [
+     "Doku",
+     "Kompakta (Kortikalis) – aus Osteonen (Havers-Systemen); Spongiosa (Trabekelknochen) – zwischen den Trabekeln liegt das Knochenmark",
+     "Gewebe"
+    ],
+    [
+     "Hücreler",
+     "Osteoblast (baut Knochen auf), Osteozyt (reife, eingemauerte Knochenzelle), Osteoklast (baut Knochen ab; mehrkernige Zelle monozytären Ursprungs)",
+     "Zellen"
+    ],
+    [
+     "Uzun kemiğin bölümleri",
+     "Epiphyse (Ende), Metaphyse (Übergangszone, in der das Wachstum stattfindet), Diaphyse (Schaft mit Markhöhle), Epiphysenfuge (Wachstumsknorpel)",
+     "Teile eines Röhrenknochens"
+    ],
+    [
+     "Kemikleşme",
+     "Desmal: Schädeldach, Gesichtsknochen, größter Teil der Klavikula. Chondral: Schädelbasis, Wirbel, die meisten Extremitätenknochen",
+     "Verknöcherung"
+    ],
+    [
+     "Kanlanma",
+     "Die Diaphyse wird von der A. nutricia (Eintritt am Foramen nutricium), die Enden von metaphysären und epiphysären Arterien, die äußere Kortikalis von Periostarterien versorgt",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Periost und Endost",
+     "Das Periost ist eine nerven- und gefäßreiche Haut auf der Außenfläche des Knochens; die Zellen seiner inneren Schicht ermöglichen Dickenwachstum und Frakturheilung. Gelenkflächen haben kein Periost, sie sind mit hyalinem Knorpel überzogen. Das Endost kleidet die Markhöhle aus."
+    ],
+    [
+     "Wachstum",
+     "Röhrenknochen wachsen in die Länge, indem sich die Knorpelzellen der Epiphysenfuge vermehren und verknöchern; die Fuge schließt sich am Ende der Pubertät (es bleibt die Epiphysenlinie). Das Dickenwachstum erfolgt durch Anlagerung neuen Knochens vom Periost aus."
+    ]
+   ],
+   "clinical": [
+    "Bei Kindern können Frakturen mit Beteiligung der Epiphysenfuge (Salter–Harris) das Wachstum stören und eine Beinlängendifferenz verursachen.",
+    "Bei Osteoporose sind Knochenmasse und Trabekelstruktur vermindert; Frakturen betreffen vor allem Wirbelkörper, Schenkelhals und distalen Radius.",
+    "Die Frakturheilung verläuft über Hämatom → weichen Kallus (Faserknorpel) → harten Kallus (Geflechtknochen) → Umbau (Lamellenknochen)."
+   ],
+   "tus": [
+    "Die Klavikula beginnt als erster Knochen des Körpers zu verknöchern (5.–6. Woche) und verknöchert überwiegend desmal.",
+    "Volkmann-Kanäle verlaufen quer und verbinden die Havers-Kanäle untereinander und mit dem Periost."
+   ],
+   "related": [
+    "iskelet-genel",
+    "femur",
+    "humerus",
+    "clavicula"
+   ],
+   "models": [
+    "Femur",
+    "Humerus",
+    "Tibia"
+   ],
+   "aliases": [
+    "Knochengewebe",
+    "Osteon",
+    "Periost",
+    "Ossifikation"
+   ]
+  },
+  {
+   "id": "ossa-sesamoidea",
+   "tr": "Sesambeine",
+   "la": "Ossa sesamoidea",
+   "en": "Sesamoid bones",
+   "group": "Allgemeines",
+   "region": "general",
+   "summary": "Kleine Knochen, die sich in einer Sehne entwickeln; sie lassen die Sehne über einen Knochenvorsprung gleiten, verringern die Reibung und vergrößern den Hebelarm des Muskels. Das größte ist die Patella.",
+   "facts": [
+    [
+     "Örnekler",
+     "Patella (Sehne des M. quadriceps femoris), Os pisiforme (Sehne des M. flexor carpi ulnaris), Sesambeine unter den Grundgelenken von Daumen und Großzehe",
+     "Beispiele"
+    ],
+    [
+     "İşlevi",
+     "Schützt die Sehne, ändert ihre Richtung und verlängert den Hebelarm, wodurch die Muskelkraft steigt",
+     "Funktion"
+    ],
+    [
+     "Değişken olanlar",
+     "Die Fabella (im lateralen Gastrocnemiuskopf) und das Os peroneum (in der Sehne des M. fibularis longus) kommen bei manchen Menschen vor",
+     "Inkonstante"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Entzündung der Großzehen-Sesambeine (Sesamoiditis) verursacht bei Tänzern und Läufern Vorfußschmerzen.",
+    "Fabella und Os peroneum können im Röntgenbild mit Frakturfragmenten verwechselt werden."
+   ],
+   "tus": [
+    "Die Patella ist das größte Sesambein des Körpers; auch das Os pisiforme gilt als Sesambein in der Sehne des M. flexor carpi ulnaris."
+   ],
+   "related": [
+    "patella",
+    "os-pisiforme",
+    "phalanges-pedis"
+   ],
+   "models": [
+    "Patella",
+    "Pisiform bone",
+    "Sesamoid bones of foot"
+   ],
+   "aliases": [
+    "Sesambein"
+   ]
+  }
+ ]
+}

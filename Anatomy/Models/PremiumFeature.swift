@@ -19,15 +19,15 @@ enum PremiumFeature: Hashable {
 
     var title: String {
         switch self {
-        case .system(let name): "\(name) Premium'da"
-        case .structure(let name): "\(name) Premium'da"
-        case .inspection: "İnceleme modu Premium'da"
-        case .questions: "Günlük ücretsiz sorularını bitirdin"
-        case .exam: "Deneme sınavları Premium'da"
-        case .statistics: "Ayrıntılı istatistikler Premium'da"
-        case .flashcards: "Tüm bilgi kartları Premium'da"
-        case .femaleAnatomy: "Kadın anatomisi Premium'da"
-        case .general: "Anatomi Atlası Premium"
+        case .system(let name): String(localized: "\(name) Premium'da")
+        case .structure(let name): String(localized: "\(name) Premium'da")
+        case .inspection: String(localized: "İnceleme modu Premium'da")
+        case .questions: String(localized: "Günlük ücretsiz sorularını bitirdin")
+        case .exam: String(localized: "Deneme sınavları Premium'da")
+        case .statistics: String(localized: "Ayrıntılı istatistikler Premium'da")
+        case .flashcards: String(localized: "Tüm bilgi kartları Premium'da")
+        case .femaleAnatomy: String(localized: "Kadın anatomisi Premium'da")
+        case .general: String(localized: "Anatomi Atlası Premium")
         }
     }
 }

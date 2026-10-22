@@ -1893,6 +1893,3456 @@
     "mm-plantares",
     "n-tibialis"
    ]
+  },
+  {
+   "id": "mu-6e025948",
+   "group": "Baş kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Göz küresini aşağı ve dışa çeviren ve n. trochlearis ile innerve edilen kas hangisidir?",
+   "options": [
+    "M. rectus superior",
+    "M. rectus inferior",
+    "M. rectus lateralis",
+    "M. obliquus inferior",
+    "M. obliquus superior"
+   ],
+   "answer": 4,
+   "explanation": "M. obliquus superior tendonu trochlea'dan geçip yön değiştirir ve göz küresinin arka-üst-dış kadranına tutunur; gözü içe döndürür (intorsiyon), aşağı ve dışa çevirir. N. trochlearis (IV) yalnızca bu kası innerve eder. Klinik testte göz addüksiyondayken aşağı bakış bu kası değerlendirir.",
+   "notes": [
+    "Gözü yukarı-içe çevirir; n. oculomotorius ile innerve edilir.",
+    "Gözü aşağı-içe çevirir; n. oculomotorius ile innerve edilir.",
+    "Yalnızca abdüksiyon yaptırır; n. abducens ile innerve edilir.",
+    "Gözü yukarı-dışa çevirir; n. oculomotorius ile innerve edilir.",
+    ""
+   ],
+   "entries": [
+    "m-obliquus-superior",
+    "mm-bulbi"
+   ]
+  },
+  {
+   "id": "mu-6c8964ef",
+   "group": "Baş kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Göz içe (addüksiyon) bakarken yukarı bakışı sağlayan kas hangisidir?",
+   "options": [
+    "M. obliquus inferior",
+    "M. rectus superior",
+    "M. levator palpebrae superioris",
+    "M. obliquus superior",
+    "M. rectus medialis"
+   ],
+   "answer": 0,
+   "explanation": "Klinik muayenede oblik kaslar göz addüksiyondayken, rektuslar abdüksiyondayken test edilir: içe bakarken yukarı bakış m. obliquus inferior'u, dışa bakarken yukarı bakış m. rectus superior'u gösterir. Obliquus inferior, n. oculomotorius'un alt dalıyla innerve edilir.",
+   "notes": [
+    "",
+    "Dışa bakarken yukarı bakışın kasıdır.",
+    "Göz kapağını kaldırır; göz küresini hareket ettirmez.",
+    "İçe bakarken aşağı bakışın kasıdır.",
+    "Yalnızca addüksiyon yaptırır."
+   ],
+   "entries": [
+    "m-obliquus-inferior",
+    "mm-bulbi"
+   ]
+  },
+  {
+   "id": "mu-27152caf",
+   "group": "Baş kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Anevrizma nedeniyle başvuran hastada sağ göz kapağı tamamen düşük; kapak kaldırılınca sağ gözün aşağı ve dışa baktığı, pupilin geniş ve ışığa yanıtsız olduğu görülüyor. Etkilenen sinir hangisidir?",
+   "options": [
+    "N. oculomotorius (III)",
+    "Servikal sempatik zincir",
+    "N. abducens (VI)",
+    "N. facialis (VII)",
+    "N. trochlearis (IV)"
+   ],
+   "answer": 0,
+   "explanation": "N. oculomotorius felcinde m. levator palpebrae (tam pitoz), rectus superior, inferior, medialis ve obliquus inferior felç olur; göz, sağlam kalan rectus lateralis (VI) ve obliquus superior (IV) etkisiyle aşağı-dışa döner. Sinirin yüzeyindeki parasempatik lifler bası altında erken etkilenir; pupil genişler. A. communicans posterior anevrizması klasik nedendir.",
+   "notes": [
+    "",
+    "Horner sendromunda pitoz hafiftir ve pupil küçülür.",
+    "Felcinde göz içe kayar; pitoz olmaz.",
+    "Göz kapanmasını sağlar; kapak kaldırmaz.",
+    "Felcinde göz addüksiyonda aşağı bakamaz; pitoz olmaz."
+   ],
+   "entries": [
+    "mm-bulbi",
+    "m-levator-palpebrae"
+   ]
+  },
+  {
+   "id": "mu-b7191b04",
+   "group": "Baş kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdaki göz dışı kaslarından hangisi anulus tendineus communis'ten başlamaz?",
+   "options": [
+    "M. rectus superior",
+    "M. obliquus inferior",
+    "M. rectus lateralis",
+    "M. rectus medialis",
+    "M. rectus inferior"
+   ],
+   "answer": 1,
+   "explanation": "Dört rektus kası optik kanalı ve fissura orbitalis superior'un iç kısmını çevreleyen ortak tendon halkasından başlar. M. obliquus inferior ise orbita tabanının ön-iç kısmından (maxilla'nın orbital yüzü) başlayan, orbitanın arkasından köken almayan tek göz dışı kastır.",
+   "entries": [
+    "m-obliquus-inferior",
+    "mm-bulbi"
+   ]
+  },
+  {
+   "id": "mu-91348b5a",
+   "group": "Baş kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Üst göz kapağını kaldıran ve sempatik liflerle innerve edilen düz kas hangisidir?",
+   "options": [
+    "M. tarsalis superior (Müller kası)",
+    "M. levator palpebrae superioris",
+    "M. corrugator supercilii",
+    "M. occipitofrontalis",
+    "M. orbicularis oculi'nin palpebral bölümü"
+   ],
+   "answer": 0,
+   "explanation": "M. levator palpebrae superioris'in alt yüzünden ayrılan düz kas lifleri tarsal plağa tutunur ve sempatik sistemle innerve edilir. Horner sendromunda bu kasın felci nedeniyle 1–2 mm'lik hafif pitoz görülür; tam pitoz ise n. oculomotorius felcini düşündürür.",
+   "notes": [
+    "",
+    "Çizgili kastır; n. oculomotorius ile innerve edilir.",
+    "Kaşları içe çeker; n. facialis ile innerve edilir.",
+    "Alnı kırıştırır; n. facialis ile innerve edilir.",
+    "Göz kapağını kapatır; n. facialis ile innerve edilir."
+   ],
+   "entries": [
+    "m-levator-palpebrae"
+   ]
+  },
+  {
+   "id": "mu-53b19428",
+   "group": "Baş kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "M. pterygoideus lateralis'in üst başı nereye tutunur?",
+   "options": [
+    "Angulus mandibulae'nin iç yüzündeki tuberositas pterygoidea'ya",
+    "Processus coronoideus mandibulae'ye",
+    "Linea mylohyoidea'ya",
+    "Temporomandibular eklemin discus articularis'i ve kapsülüne",
+    "Ramus mandibulae'nin dış yüzüne"
+   ],
+   "answer": 3,
+   "explanation": "Lateral pterygoid kasın üst başı eklem diski ve kapsülüne, alt başı collum mandibulae'deki fovea pterygoidea'ya tutunur. Ağız açılırken kondili ve diski birlikte tuberculum articulare'ye doğru öne çeker. Processus coronoideus'a temporalis, angulusun iç yüzüne medial pterygoid, dış yüzüne masseter tutunur.",
+   "notes": [
+    "M. pterygoideus medialis'in insersiyosudur.",
+    "M. temporalis'in insersiyosudur.",
+    "M. mylohyoideus'un origosudur.",
+    "",
+    "M. masseter'in insersiyosudur."
+   ],
+   "entries": [
+    "m-pterygoideus-lateralis",
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "mu-1b6635d3",
+   "group": "Baş kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mandibula angulusunun iç yüzüne tutunan çiğneme kası hangisidir?",
+   "options": [
+    "M. temporalis",
+    "M. pterygoideus lateralis",
+    "M. buccinator",
+    "M. pterygoideus medialis",
+    "M. masseter"
+   ],
+   "answer": 3,
+   "explanation": "M. pterygoideus medialis, lamina lateralis processus pterygoidei'nin iç yüzünden başlar ve angulus mandibulae'nin iç yüzüne (tuberositas pterygoidea) tutunur. Masseter ile birlikte mandibulayı içten ve dıştan saran bir 'askı' oluşturarak çeneyi kapatır.",
+   "entries": [
+    "m-pterygoideus-medialis"
+   ]
+  },
+  {
+   "id": "mu-617e6f31",
+   "group": "Baş kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. temporalis'in insersiyosu hangisidir?",
+   "options": [
+    "Processus coronoideus mandibulae ve ramusun ön kenarı",
+    "Fovea pterygoidea",
+    "Spina mentalis",
+    "Tuberositas masseterica",
+    "Tuberculum articulare"
+   ],
+   "answer": 0,
+   "explanation": "Fossa temporalis'in tamamından yelpaze gibi başlayan temporalis, arcus zygomaticus'un altından geçip processus coronoideus'a tutunur. Ön lifleri çeneyi kapatır, arka yatay lifleri mandibulayı geriye çeker; n. mandibularis'in nn. temporales profundi dallarıyla innerve edilir.",
+   "entries": [
+    "m-temporalis"
+   ]
+  },
+  {
+   "id": "mu-e4dd7835",
+   "group": "Baş kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dili dışarı çıkaran (protrüzyon) başlıca kas hangisidir?",
+   "options": [
+    "M. styloglossus",
+    "M. palatoglossus",
+    "M. genioglossus",
+    "M. mylohyoideus",
+    "M. hyoglossus"
+   ],
+   "answer": 2,
+   "explanation": "M. genioglossus spina mentalis superior'dan başlar; arka lifleri dil kökünü öne çekerek dili dışarı çıkarır. Tek taraflı n. hypoglossus felcinde sağlam taraftaki genioglossus dili karşıya iter ve dil lezyon tarafına sapar. Hyoglossus dili aşağı, styloglossus geri ve yukarı çeker.",
+   "notes": [
+    "Dili yukarı ve geri çeker.",
+    "Dil kökünü yükseltir; n. vagus ile innerve edilir.",
+    "",
+    "Ağız tabanını oluşturur, dil kası değildir.",
+    "Dili aşağı ve geri çeker."
+   ],
+   "entries": [
+    "m-genioglossus",
+    "mm-linguae"
+   ]
+  },
+  {
+   "id": "mu-9037320a",
+   "group": "Baş kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdaki yapılardan hangisi m. hyoglossus'un yüzeyinden (dışından) geçmez?",
+   "options": [
+    "A. lingualis",
+    "N. lingualis",
+    "V. comitans nervi hypoglossi",
+    "N. hypoglossus",
+    "Ductus submandibularis"
+   ],
+   "answer": 0,
+   "explanation": "M. hyoglossus submandibular bölgenin önemli bir dönüm noktasıdır: n. hypoglossus, ona eşlik eden ven, n. lingualis ve ductus submandibularis kasın yüzeyinden ilerler; a. lingualis ise kasın derininden (medialinden) geçer. Bu nedenle cerrahide a. lingualis kasın arka kenarında aranır.",
+   "entries": [
+    "m-hyoglossus",
+    "mm-linguae"
+   ]
+  },
+  {
+   "id": "mu-a4f34d20",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. digastricus'un iki karnını bağlayan ara tendon nereye tutunur?",
+   "options": [
+    "Tiroid kıkırdağın linea obliqua'sına",
+    "Mandibulanın fossa digastrica'sına",
+    "Processus styloideus'a",
+    "Processus mastoideus'un incisura mastoidea'sına",
+    "Fibröz bir halka ile os hyoideum'un gövdesi ve büyük boynuzuna"
+   ],
+   "answer": 4,
+   "explanation": "Ön karın fossa digastrica'dan, arka karın incisura mastoidea'dan başlar; ara tendon fibröz bir askıyla hyoid kemiğe bağlanır ve m. stylohyoideus'un ikiye ayrılan tendonunun arasından geçer. Ön karın n. mylohyoideus (V3), arka karın n. facialis ile innerve edilir.",
+   "notes": [
+    "M. sternothyroideus ve thyrohyoideus'un tutunma yeridir.",
+    "Ön karnın origosudur.",
+    "M. stylohyoideus ve styloglossus'un origosudur.",
+    "Arka karnın origosudur.",
+    ""
+   ],
+   "entries": [
+    "m-digastricus",
+    "mm-suprahyoidei"
+   ]
+  },
+  {
+   "id": "mu-3b03b92e",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ağız tabanını (diaphragma oris) oluşturan kas hangisidir?",
+   "options": [
+    "M. genioglossus",
+    "M. hyoglossus",
+    "M. geniohyoideus",
+    "M. mylohyoideus",
+    "M. digastricus'un ön karnı"
+   ],
+   "answer": 3,
+   "explanation": "İki taraftaki m. mylohyoideus mandibulanın linea mylohyoidea'sından başlayıp orta hattaki rafede ve hyoid gövdesinde birleşerek ağız tabanını oluşturur. Submandibular bezin yüzeyel ve derin bölümleri bu kasın arka kenarı etrafında kıvrılır.",
+   "entries": [
+    "m-mylohyoideus",
+    "mm-suprahyoidei"
+   ]
+  },
+  {
+   "id": "mu-2c22e054",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. omohyoideus'un ara tendonunu yerinde tutan yapı hangisidir?",
+   "options": [
+    "Os hyoideum'un büyük boynuzu",
+    "Tiroid kıkırdağın linea obliqua'sı",
+    "Manubrium sterni'nin arka yüzü",
+    "Klavikula ve 1. kaburgaya bağlanan fasyal bir askı",
+    "Processus coracoideus"
+   ],
+   "answer": 3,
+   "explanation": "M. omohyoideus'un alt karnı skapulanın üst kenarından (incisura scapulae yakınından), üst karnı hyoid gövdesinden başlar. İki karın v. jugularis interna'nın önünde ara tendonla birleşir; bu tendon derin servikal fasyanın oluşturduğu askıyla klavikula ve 1. kaburgaya tutturulur.",
+   "entries": [
+    "m-omohyoideus",
+    "mm-infrahyoidei"
+   ]
+  },
+  {
+   "id": "mu-84400e81",
+   "group": "Boyun kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "M. omohyoideus'un alt karnı boynun arka üçgenini hangi iki alt üçgene ayırır?",
+   "options": [
+    "Trigonum occipitale ve trigonum omoclaviculare",
+    "Trigonum caroticum ve trigonum musculare",
+    "Trigonum submandibulare ve trigonum submentale",
+    "Trigonum caroticum ve trigonum occipitale",
+    "Trigonum musculare ve trigonum omoclaviculare"
+   ],
+   "answer": 0,
+   "explanation": "Arka üçgen (SCM, trapezius ve klavikula arasında) omohyoid alt karnı ile üstte oksipital, altta omoklaviküler (supraklaviküler) üçgene ayrılır. N. accessorius oksipital üçgeni çaprazlar; a. subclavia'nın üçüncü bölümü ve plexus brachialis gövdeleri omoklaviküler üçgendedir.",
+   "entries": [
+    "m-omohyoideus",
+    "m-sternocleidomastoideus",
+    "m-trapezius"
+   ]
+  },
+  {
+   "id": "mu-8462ad75",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Trigonum caroticum'u sınırlayan kaslar hangileridir?",
+   "options": [
+    "M. digastricus'un iki karnı ve mandibula",
+    "M. digastricus'un ön karnı, os hyoideum ve boynun orta hattı",
+    "M. sternocleidomastoideus, m. trapezius ve klavikula",
+    "M. sternocleidomastoideus, m. omohyoideus'un üst karnı ve boynun orta hattı",
+    "M. sternocleidomastoideus, m. omohyoideus'un üst karnı ve m. digastricus'un arka karnı"
+   ],
+   "answer": 4,
+   "explanation": "Karotis üçgeninde a. carotis communis'in çatallanması, v. jugularis interna, n. vagus ve n. hypoglossus bulunur. Diğer seçenekler sırasıyla arka üçgen, submandibular üçgen, kas (muskuler) üçgen ve submental üçgenin sınırlarıdır.",
+   "entries": [
+    "m-sternocleidomastoideus",
+    "m-omohyoideus",
+    "m-digastricus"
+   ]
+  },
+  {
+   "id": "mu-4c566931",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. sternocleidomastoideus'un iki başı nereden başlar?",
+   "options": [
+    "Manubrium sterni ve 1. kaburga kıkırdağı",
+    "Manubrium sterni'nin ön yüzü ve klavikulanın iç 1/3'ü",
+    "Klavikulanın dış 1/3'ü ve akromiyon",
+    "Processus mastoideus ve linea nuchalis superior",
+    "Corpus sterni ve processus xiphoideus"
+   ],
+   "answer": 1,
+   "explanation": "Sternal baş manubriumun ön yüzünden, klaviküler baş klavikulanın iç üçte birinden başlar; kas processus mastoideus ve linea nuchalis superior'un dış yarısına tutunur. İki başın arasındaki küçük üçgen çukurluk (fossa supraclavicularis minor) v. jugularis interna'nın üzerindedir.",
+   "entries": [
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "mu-0ce01850",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. scalenus anterior'un insersiyosu hangisidir?",
+   "options": [
+    "Klavikulanın alt yüzü",
+    "C7'nin processus transversus'u",
+    "1. kaburgada a. subclavia oluğunun arkası",
+    "2. kaburganın dış yüzü",
+    "1. kaburganın tuberculum musculi scaleni anterioris'i"
+   ],
+   "answer": 4,
+   "explanation": "M. scalenus anterior C3–C6 transvers çıkıntıların ön tüberküllerinden başlayıp 1. kaburgadaki skalen tüberküle tutunur. Bu tüberkülün önünden v. subclavia, arkasındaki oluktan a. subclavia geçer. Scalenus medius 1. kaburgada oluğun arkasına, scalenus posterior 2. kaburgaya tutunur.",
+   "notes": [
+    "M. subclavius'un insersiyosudur.",
+    "M. scalenus anterior hiçbir zaman C7'ye tutunmaz.",
+    "M. scalenus medius'un insersiyosudur.",
+    "M. scalenus posterior'un insersiyosudur.",
+    ""
+   ],
+   "entries": [
+    "m-scalenus-anterior",
+    "mm-scaleni"
+   ]
+  },
+  {
+   "id": "mu-8af04076",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ses tellerini geren ve n. laryngeus superior'un dış dalıyla innerve edilen larinks kası hangisidir?",
+   "options": [
+    "M. cricothyroideus",
+    "M. arytenoideus",
+    "M. cricoarytenoideus lateralis",
+    "M. thyroarytenoideus",
+    "M. cricoarytenoideus posterior"
+   ],
+   "answer": 0,
+   "explanation": "M. cricothyroideus tiroid kıkırdağı öne-aşağı eğerek ses tellerini uzatır ve gerer; tiz seslerde önemlidir. Larinksin dış yüzündeki tek iç kas olup n. laryngeus superior'un ramus externus'uyla innerve edilir; diğer tüm iç larinks kasları n. laryngeus recurrens iledir.",
+   "entries": [
+    "m-cricothyroideus"
+   ]
+  },
+  {
+   "id": "mu-b889ed68",
+   "group": "Boyun kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Rima glottidis'i açan (ses tellerini uzaklaştıran) tek larinks kası hangisidir?",
+   "options": [
+    "M. cricothyroideus",
+    "M. thyroarytenoideus",
+    "M. cricoarytenoideus posterior",
+    "M. cricoarytenoideus lateralis",
+    "M. arytenoideus"
+   ],
+   "answer": 2,
+   "explanation": "M. cricoarytenoideus posterior aritenoidlerin kas çıkıntısını geriye çekip ses çıkıntılarını yana döndürür ve glottisi açar. İki taraflı n. laryngeus recurrens hasarında bu kasların felci ses tellerini orta hatta bırakır; stridor ve solunum sıkıntısı gelişir.",
+   "notes": [
+    "Ses tellerini gerer; açmaz.",
+    "Ses tellerini gevşetir.",
+    "",
+    "Ses tellerini yaklaştırır.",
+    "Aritenoidleri birbirine yaklaştırarak glottisin arka kısmını kapatır."
+   ],
+   "entries": [
+    "m-cricoarytenoideus-posterior"
+   ]
+  },
+  {
+   "id": "mu-19279b2e",
+   "group": "Boyun kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Total tiroidektomiden sonra hastada ses kısıklığı gelişiyor. Laringoskopide sol ses telinin paramedyan konumda hareketsiz olduğu görülüyor. Hangi sinir hasar görmüştür?",
+   "options": [
+    "Sol n. laryngeus superior'un iç dalı",
+    "Sol n. laryngeus recurrens",
+    "Ansa cervicalis'in üst kökü",
+    "Sol n. hypoglossus",
+    "Sol n. laryngeus superior'un dış dalı"
+   ],
+   "answer": 1,
+   "explanation": "N. laryngeus recurrens, m. cricothyroideus dışındaki tüm iç larinks kaslarını innerve eder ve a. thyroidea inferior ile yakın komşuluk gösterir. Tek taraflı hasarda ses teli paramedyan konumda kalır, ses kısılır. Dış dal hasarında ses yorgunluğu ve tiz seslerde güçlük olur; iç dal ise duyusaldır.",
+   "notes": [
+    "Glottis üstü mukozanın duyusunu taşır; motor değildir.",
+    "",
+    "İnfrahiyoid kasları innerve eder.",
+    "Dil kaslarını innerve eder.",
+    "Yalnızca m. cricothyroideus'u innerve eder."
+   ],
+   "entries": [
+    "m-cricoarytenoideus-posterior",
+    "m-thyroarytenoideus"
+   ]
+  },
+  {
+   "id": "mu-0d2b8196",
+   "group": "Boyun kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Farinks kaslarından n. glossopharyngeus ile innerve edilen tek kas hangisidir?",
+   "options": [
+    "M. stylopharyngeus",
+    "M. constrictor pharyngis superior",
+    "M. palatopharyngeus",
+    "M. salpingopharyngeus",
+    "M. constrictor pharyngis inferior"
+   ],
+   "answer": 0,
+   "explanation": "Farinks kaslarının hepsi n. vagus'un plexus pharyngeus aracılığıyla innerve edilir; tek istisna processus styloideus'tan başlayan m. stylopharyngeus'tur (n. glossopharyngeus). Kas, üst ve orta konstriktörler arasından farinkse girer ve yutkunmada farinksi yükseltir.",
+   "entries": [
+    "m-stylopharyngeus"
+   ]
+  },
+  {
+   "id": "mu-d0f50799",
+   "group": "Boyun kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Zenker divertikülünün çıktığı Killian üçgeni nerede bulunur?",
+   "options": [
+    "Orta ve alt konstriktör kaslar arasında",
+    "Krikofaringeal lifler ile özofagusun boyuna kas tabakası arasında",
+    "M. constrictor pharyngis inferior'un tirofaringeal ve krikofaringeal lifleri arasında",
+    "Üst ve orta konstriktör kaslar arasında",
+    "M. stylopharyngeus ile üst konstriktör arasında"
+   ],
+   "answer": 2,
+   "explanation": "Alt konstriktörün eğik tirofaringeal lifleri ile yatay krikofaringeal lifleri (üst özofagus sfinkteri) arasındaki arka zayıf alan Killian üçgenidir. Krikofaringeal lifler gevşemediğinde mukoza buradan arkaya fıtıklaşır. Krikofaringeus ile özofagus kasları arasındaki alan ise Laimer üçgenidir.",
+   "entries": [
+    "m-constrictor-pharyngis-inferior"
+   ]
+  },
+  {
+   "id": "mu-4997b610",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Başı aynı tarafa döndüren ve ense bölgesinde trapeziusun derininde bulunan kas hangisidir?",
+   "options": [
+    "M. trapezius'un üst lifleri",
+    "M. splenius capitis",
+    "M. scalenus anterior",
+    "M. levator scapulae",
+    "M. sternocleidomastoideus"
+   ],
+   "answer": 1,
+   "explanation": "M. splenius capitis lig. nuchae ve üst torakal dikensi çıkıntılardan başlayıp processus mastoideus ve linea nuchalis superior'a tutunur; tek taraflı kasılmada başı aynı tarafa döndürür. SCM ise yüzü karşı tarafa çevirir; iki kas başın dönmesinde birlikte çalışır.",
+   "notes": [
+    "Başı aynı tarafa eğer ve yüzü karşı tarafa çevirir.",
+    "",
+    "Boynu aynı tarafa eğer; başı döndürmez.",
+    "Skapulayı yükseltir.",
+    "Yüzü karşı tarafa çevirir."
+   ],
+   "entries": [
+    "m-splenius"
+   ]
+  },
+  {
+   "id": "mu-48308dfb",
+   "group": "Sırt kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Suboksipital üçgeni sınırlayan kaslar hangileridir?",
+   "options": [
+    "M. longissimus capitis, m. rectus capitis posterior major ve m. obliquus capitis inferior",
+    "M. rectus capitis posterior minor, m. obliquus capitis superior ve inferior",
+    "M. rectus capitis posterior minor, major ve m. obliquus capitis inferior",
+    "M. semispinalis capitis, m. splenius capitis ve m. obliquus capitis superior",
+    "M. rectus capitis posterior major, m. obliquus capitis superior ve m. obliquus capitis inferior"
+   ],
+   "answer": 4,
+   "explanation": "Üçgenin iç-üst sınırı rectus capitis posterior major, dış-üst sınırı obliquus capitis superior, alt sınırı obliquus capitis inferior'dur. Tabanında atlasın arka kemeri ve membrana atlantooccipitalis posterior, içinde a. vertebralis ve n. suboccipitalis bulunur; tavanını semispinalis capitis örter.",
+   "entries": [
+    "mm-suboccipitales",
+    "m-rectus-capitis-posterior-major",
+    "m-obliquus-capitis-superior",
+    "m-obliquus-capitis-inferior"
+   ]
+  },
+  {
+   "id": "mu-6c14a49e",
+   "group": "Sırt kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Suboksipital kasları innerve eden sinir hangisidir?",
+   "options": [
+    "N. occipitalis minor (C2'nin ön dalı)",
+    "N. occipitalis major (C2'nin arka dalı)",
+    "N. accessorius",
+    "N. occipitalis tertius (C3'ün arka dalı)",
+    "N. suboccipitalis (C1'in arka dalı)"
+   ],
+   "answer": 4,
+   "explanation": "N. suboccipitalis, C1'in arka dalıdır ve a. vertebralis ile atlasın arka kemeri arasından çıkarak suboksipital üçgendeki kasların hepsini innerve eder; genellikle deri dalı yoktur. N. occipitalis major obliquus capitis inferior'un altından çıkıp ense ve kafa derisini innerve eder.",
+   "notes": [
+    "Kulak arkası derinin duyusunu alır.",
+    "Ense ve kafa derisinin duyusunu alır; suboksipital kasları innerve etmez.",
+    "Trapezius ve SCM'yi innerve eder.",
+    "Ensenin alt kısmının derisini innerve eder.",
+    ""
+   ],
+   "entries": [
+    "mm-suboccipitales",
+    "m-rectus-capitis-posterior-major"
+   ]
+  },
+  {
+   "id": "mu-141ea87a",
+   "group": "Sırt kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Başı aynı tarafa döndüren ve suboksipital üçgenin alt sınırını yapan kas hangisidir?",
+   "options": [
+    "M. rectus capitis posterior minor",
+    "M. longus capitis",
+    "M. obliquus capitis inferior",
+    "M. rectus capitis lateralis",
+    "M. obliquus capitis superior"
+   ],
+   "answer": 2,
+   "explanation": "Axis'in dikensi çıkıntısından atlasın transvers çıkıntısına uzanan obliquus capitis inferior, kafaya tutunmayan tek suboksipital kastır; atlası ve başı axis üzerinde aynı tarafa döndürür.",
+   "entries": [
+    "m-obliquus-capitis-inferior",
+    "mm-suboccipitales"
+   ]
+  },
+  {
+   "id": "mu-ff99c4dc",
+   "group": "Sırt kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Auskültasyon üçgenini (trigonum auscultationis) sınırlayan yapılar hangileridir?",
+   "options": [
+    "M. trapezius, m. latissimus dorsi ve skapulanın iç kenarı",
+    "M. trapezius, m. sternocleidomastoideus ve klavikula",
+    "M. latissimus dorsi, m. obliquus externus abdominis ve crista iliaca",
+    "M. quadratus lumborum, 12. kaburga ve m. obliquus internus abdominis",
+    "M. teres major, m. teres minor ve m. triceps brachii'nin uzun başı"
+   ],
+   "answer": 0,
+   "explanation": "Auskültasyon üçgeninde kas tabakası incedir; hasta öne eğilip kollarını kavuşturunca skapula yana kayar ve üçgen genişler, akciğer sesleri daha iyi duyulur. Diğer seçenekler alt lomber (Petit), üst lomber (Grynfeltt), arka boyun üçgeni ve skapular aralıklardır.",
+   "entries": [
+    "m-trapezius",
+    "m-latissimus-dorsi",
+    "m-rhomboideus-major"
+   ]
+  },
+  {
+   "id": "mu-d850fa84",
+   "group": "Sırt kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. erector spinae'nin en dışta (lateralde) yer alan kolonu hangisidir?",
+   "options": [
+    "M. longissimus",
+    "M. multifidus",
+    "M. semispinalis",
+    "M. iliocostalis",
+    "M. spinalis"
+   ],
+   "answer": 3,
+   "explanation": "Erector spinae dıştan içe iliocostalis, longissimus ve spinalis kolonlarından oluşur (‘I Love Spaghetti’). Multifidus ve semispinalis daha derindeki transversospinal gruba aittir. Hepsi spinal sinirlerin arka dallarıyla innerve edilir.",
+   "entries": [
+    "m-iliocostalis",
+    "m-erector-spinae"
+   ]
+  },
+  {
+   "id": "mu-f74bf272",
+   "group": "Sırt kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lomber bölgede en kalın transversospinal kas olup segmental stabilizasyonda önemli rol oynayan kas hangisidir?",
+   "options": [
+    "M. multifidus",
+    "Mm. rotatores",
+    "M. spinalis",
+    "M. iliocostalis",
+    "M. semispinalis"
+   ],
+   "answer": 0,
+   "explanation": "M. multifidus sakrumdan C2'ye kadar uzanır ve en kalın olduğu yer lomber bölgedir; her omuru alttaki 2–4 omura bağlayarak segmentleri sabitler. Kronik bel ağrısında atrofisi ve yağlanması sık görülür. Semispinalis torakal-servikal bölgede, rotatores torakal bölgede belirgindir.",
+   "entries": [
+    "m-multifidus",
+    "mm-transversospinales"
+   ]
+  },
+  {
+   "id": "mu-9657aa4e",
+   "group": "Sırt kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. rhomboideus major nereye tutunur?",
+   "options": [
+    "Skapulanın iç kenarına, spina scapulae'nin kökünden angulus inferior'a kadar",
+    "Processus coracoideus'a",
+    "Skapulanın iç kenarının spina hizasındaki küçük bölümüne",
+    "Angulus superior scapulae'ye",
+    "Skapulanın ön yüzünün iç kenarı boyunca"
+   ],
+   "answer": 0,
+   "explanation": "Rhomboideus major T2–T5 dikensi çıkıntılarından başlar ve skapulanın iç kenarının spina altındaki bölümüne tutunur; minor C7–T1'den spina kökü hizasına uzanır. İkisi n. dorsalis scapulae ile innerve edilir ve skapulayı geriye-yukarı çeker.",
+   "notes": [
+    "",
+    "M. pectoralis minor'un insersiyosudur.",
+    "M. rhomboideus minor'un insersiyosudur.",
+    "M. levator scapulae'nin insersiyosudur.",
+    "M. serratus anterior'un insersiyosudur."
+   ],
+   "entries": [
+    "m-rhomboideus-major",
+    "mm-rhomboidei"
+   ]
+  },
+  {
+   "id": "mu-7e7967a0",
+   "group": "Sırt kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. levator scapulae nereden başlar?",
+   "options": [
+    "C1–C4 omurlarının transvers çıkıntılarının arka tüberküllerinden",
+    "C3–C6 transvers çıkıntılarının ön tüberküllerinden",
+    "Linea nuchalis superior ve lig. nuchae'dan",
+    "C7–T5 dikensi çıkıntılarından",
+    "1. kaburganın üst yüzünden"
+   ],
+   "answer": 0,
+   "explanation": "Levator scapulae üst servikal omurlardan başlayıp skapulanın angulus superior'una ve iç kenarın üst kısmına tutunur. Skapulayı yükseltir ve aşağı döndürür; n. dorsalis scapulae ve C3–C4 dallarıyla innerve edilir.",
+   "entries": [
+    "m-levator-scapulae"
+   ]
+  },
+  {
+   "id": "mu-5b14c6af",
+   "group": "Sırt kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi m. latissimus dorsi'nin hareketlerinden biri değildir?",
+   "options": [
+    "Kolun dış rotasyonu",
+    "Kolun addüksiyonu",
+    "Kollar sabitken gövdeyi yukarı çekme",
+    "Kolun ekstansiyonu",
+    "Kolun iç rotasyonu"
+   ],
+   "answer": 0,
+   "explanation": "Latissimus dorsi sulcus intertubercularis'in tabanına tutunur; kolu ekstansiyon, addüksiyon ve iç rotasyona getirir (‘yüzücü kası’). Kollar sabitken (barfiks) gövdeyi yukarı çeker. Dış rotasyon infraspinatus ve teres minor'un işidir.",
+   "entries": [
+    "m-latissimus-dorsi"
+   ]
+  },
+  {
+   "id": "mu-0c9254f5",
+   "group": "Göğüs kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. serratus anterior nereye tutunur?",
+   "options": [
+    "Spina scapulae'nin üst kenarına",
+    "Skapulanın iç kenarının ön (kostal) yüzüne",
+    "Processus coracoideus'a",
+    "Skapulanın iç kenarının arka yüzüne",
+    "Skapulanın dış kenarına"
+   ],
+   "answer": 1,
+   "explanation": "Serratus anterior üst 8–9 kaburgadan dişler halinde başlar ve skapulanın iç kenarının ön yüzüne, en kalın lifleriyle angulus inferior'a tutunur. Skapulayı göğüs duvarına bastırır ve öne çeker; alt lifleri skapulayı yukarı döndürerek kolun 90°'nin üzerine kalkmasına yardım eder.",
+   "entries": [
+    "m-serratus-anterior"
+   ]
+  },
+  {
+   "id": "mu-4e87fa71",
+   "group": "Göğüs kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "M. pectoralis minor nereden başlar ve nereye tutunur?",
+   "options": [
+    "Klavikula ve sternumdan başlar, crista tuberculi majoris'e tutunur",
+    "1. kaburga ve kıkırdağından başlar, klavikulanın alt yüzüne tutunur",
+    "2.–5. kaburgalardan başlar, akromiyona tutunur",
+    "1.–8. kaburgalardan başlar, skapulanın iç kenarına tutunur",
+    "3.–5. kaburgalardan başlar, processus coracoideus'a tutunur"
+   ],
+   "answer": 4,
+   "explanation": "Pectoralis minor, a. axillaris'i üç bölüme ayıran dönüm noktasıdır. Diğer seçenekler sırasıyla m. subclavius, m. serratus anterior ve m. pectoralis major'u tanımlar; akromiyona göğüs kası tutunmaz.",
+   "notes": [
+    "M. pectoralis major'u tanımlar.",
+    "M. subclavius'u tanımlar.",
+    "Akromiyona göğüs kası tutunmaz.",
+    "M. serratus anterior'u tanımlar.",
+    ""
+   ],
+   "entries": [
+    "m-pectoralis-minor"
+   ]
+  },
+  {
+   "id": "mu-b1ae9f59",
+   "group": "Göğüs kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi zorlu inspirasyonda yardımcı solunum kası olarak görev yapmaz?",
+   "options": [
+    "Mm. scaleni",
+    "M. pectoralis minor",
+    "M. serratus posterior superior",
+    "M. sternocleidomastoideus",
+    "M. rectus abdominis"
+   ],
+   "answer": 4,
+   "explanation": "Zorlu inspirasyonda göğüs kafesini yükselten kaslar yardıma gelir: SCM, skalenler, pectoralis minor (kol sabitken) ve serratus posterior superior. Karın ön duvarı kasları ise karın içi basıncı artırarak zorlu ekspirasyonda ve öksürmede çalışır.",
+   "entries": [
+    "m-rectus-abdominis",
+    "mm-scaleni",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "mu-006eef76",
+   "group": "Göğüs kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Diyaframdaki kaval, özofageal ve aortik açıklıkların omur düzeyleri sırasıyla hangisidir?",
+   "options": [
+    "T10, T8, T12",
+    "T8, T10, T12",
+    "T8, T12, T10",
+    "T12, T10, T8",
+    "T6, T8, T10"
+   ],
+   "answer": 1,
+   "explanation": "V. cava inferior T8'de centrum tendineum'dan, özofagus ve trunci vagales T10'da sağ krusun kas liflerinden, aorta ise T12'de diyaframın arkasından (lig. arcuatum medianum altından) geçer. Akılda tutma: ‘I ate ten eggs at twelve’ (IVC 8, esophagus 10, aorta 12).",
+   "entries": [
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "mu-e1e57606",
+   "group": "Göğüs kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Hiatus oesophageus'tan geçen yapılar hangileridir?",
+   "options": [
+    "Özofagus, trunci vagales ve a./v. gastrica sinistra'nın özofageal dalları",
+    "V. cava inferior ve n. phrenicus dexter'in dalları",
+    "Truncus sympathicus ve nn. splanchnici",
+    "Aorta, ductus thoracicus ve v. azygos",
+    "A. epigastrica superior"
+   ],
+   "answer": 0,
+   "explanation": "Özofageal açıklık T10 düzeyinde sağ krusun kas lifleri arasındadır; özofagus ile birlikte ön ve arka vagal gövdeler ve sol gastrik damarların özofageal dalları geçer. Kas liflerinin oluşturduğu bu halka fizyolojik bir sfinkter gibi davranır ve hiatal herni burada gelişir.",
+   "notes": [
+    "",
+    "Foramen venae cavae'dan geçer.",
+    "Krusların arkasından veya içinden geçer.",
+    "Hiatus aorticus'tan geçer.",
+    "Sternokostal üçgenden (Larrey) geçer."
+   ],
+   "entries": [
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "mu-61d192f5",
+   "group": "Göğüs kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Mm. intercostales externi için hangisi doğrudur?",
+   "options": [
+    "Lifleri dikey uzanır; yalnızca öksürmede çalışır",
+    "Lifleri aşağı ve öne uzanır; inspirasyonda kaburgaları yükseltir",
+    "Önde sternuma kadar kas olarak uzanır",
+    "Lifleri aşağı ve arkaya uzanır; ekspirasyonda kaburgaları alçaltır",
+    "İnterkostal damar-sinir paketi bu kasın hemen derininde seyreder"
+   ],
+   "answer": 1,
+   "explanation": "Dış interkostal kaslar ‘ellerini cebe sokan’ yönde aşağı-öne uzanır ve inspirasyonda kaburgaları kaldırır; önde kıkırdaklar arasında membrana intercostalis externa'ya dönüşür. İç interkostaller aşağı- arkaya uzanır. Damar-sinir paketi iç ve en iç interkostal kaslar arasındadır.",
+   "notes": [
+    "Böyle bir kas yoktur.",
+    "",
+    "Önde membrana intercostalis externa'ya dönüşür.",
+    "İç interkostal kasları tanımlar.",
+    "Paket iç ve en iç interkostaller arasındadır."
+   ],
+   "entries": [
+    "mm-intercostales-externi",
+    "mm-intercostales"
+   ]
+  },
+  {
+   "id": "mu-720029f9",
+   "group": "Göğüs kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. transversus thoracis nerede bulunur?",
+   "options": [
+    "Omurların transvers çıkıntılarından alttaki kaburgalara uzanır",
+    "Karın ön duvarının en derin kas tabakasını oluşturur",
+    "Kaburga açılarına yakın, bir-iki interkostal aralığı atlayarak uzanır",
+    "Boyun tabanında 1. kaburganın üstünde yer alır",
+    "Sternumun arka yüzünden 2.–6. kaburga kıkırdaklarının iç yüzüne uzanır"
+   ],
+   "answer": 4,
+   "explanation": "Transversus thoracis göğüs ön duvarının iç yüzünde, a. ve v. thoracica interna'nın arkasında yer alan ince kastır; karın duvarındaki transversus abdominis'in göğüsteki devamı sayılır. İkinci seçenek mm. subcostales'i, üçüncüsü levatores costarum'u tanımlar.",
+   "entries": [
+    "m-transversus-thoracis"
+   ]
+  },
+  {
+   "id": "mu-1742f5c6",
+   "group": "Karın kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Linea semilunaris neyi gösterir?",
+   "options": [
+    "M. rectus abdominis kılıfının dış kenarını",
+    "Lig. inguinale'nin iç ucunu",
+    "İki rectus kasını ayıran orta hattı",
+    "Rectus kasının tendinöz kesişimlerini",
+    "Rectus kılıfı arka yaprağının alt sınırını"
+   ],
+   "answer": 0,
+   "explanation": "Linea semilunaris, rectus kılıfının dış kenarı boyunca yassı kas aponevrozlarının birleştiği kavisli çizgidir; dokuzuncu kaburga kıkırdağının ucunda safra kesesi bu çizgi üzerine izdüşer. Arka yaprağın alt sınırı linea arcuata, orta hat ise linea alba'dır.",
+   "entries": [
+    "m-rectus-abdominis",
+    "linea-alba"
+   ]
+  },
+  {
+   "id": "mu-9d61e293",
+   "group": "Karın kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Spiegel fıtığı en sık nerede görülür?",
+   "options": [
+    "Göbek halkasında",
+    "Linea semilunaris boyunca, linea arcuata hizasında",
+    "Hesselbach üçgeninde",
+    "Göbeğin üstünde linea alba'da",
+    "Petit (alt lomber) üçgeninde"
+   ],
+   "answer": 1,
+   "explanation": "Spiegel fıtığı, transversus abdominis aponevrozunun rectus kenarındaki (Spiegel fasyası) zayıf noktasından, çoğunlukla arka rectus kılıfının bittiği linea arcuata düzeyinde gelişir. Obliquus externus aponevrozunun altında kaldığı için ele gelmesi zor olabilir.",
+   "notes": [
+    "Umbilikal fıtığın yeridir.",
+    "",
+    "Direkt kasık fıtığının yeridir.",
+    "Epigastrik fıtığın yeridir.",
+    "Lomber fıtığın yeridir."
+   ],
+   "entries": [
+    "m-transversus-abdominis",
+    "m-rectus-abdominis"
+   ]
+  },
+  {
+   "id": "mu-8303ae76",
+   "group": "Karın kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Karın ön-yan duvarındaki üç yassı kasın en derinde olanı hangisidir?",
+   "options": [
+    "M. obliquus internus abdominis",
+    "M. quadratus lumborum",
+    "M. rectus abdominis",
+    "M. obliquus externus abdominis",
+    "M. transversus abdominis"
+   ],
+   "answer": 4,
+   "explanation": "Yüzeyelden derine: obliquus externus (aşağı-öne), obliquus internus (yukarı-öne) ve transversus abdominis (yatay). Transversus abdominis'in altında fascia transversalis ve periton bulunur; kasın derin lifleri karın içi basıncını artıran ‘korse’ işlevini görür.",
+   "entries": [
+    "m-transversus-abdominis"
+   ]
+  },
+  {
+   "id": "mu-e07158a3",
+   "group": "Karın kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Linea arcuata'nın üstünde rectus kılıfının arka yaprağını oluşturan yapılar hangileridir?",
+   "options": [
+    "Yalnızca fascia transversalis",
+    "Yalnızca transversus abdominis aponevrozu",
+    "Üç yassı kasın aponevrozlarının tamamı",
+    "Obliquus internus aponevrozunun arka yaprağı ve transversus abdominis aponevrozu",
+    "Obliquus externus ve internus aponevrozları"
+   ],
+   "answer": 3,
+   "explanation": "Linea arcuata'nın üstünde obliquus internus aponevrozu ikiye ayrılır: ön yaprak externus ile ön kılıfa, arka yaprak transversus ile arka kılıfa katılır. Linea arcuata'nın altında ise üç aponevroz da öne geçer; rectus'un arkasında yalnızca fascia transversalis kalır.",
+   "entries": [
+    "m-rectus-abdominis",
+    "m-obliquus-internus",
+    "m-transversus-abdominis"
+   ]
+  },
+  {
+   "id": "mu-9b9c017a",
+   "group": "Karın kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. pyramidalis'in işlevi hangisidir?",
+   "options": [
+    "Kremaster refleksini sağlar",
+    "Linea alba'yı gerer",
+    "Mesane boynunu kapatır",
+    "Gövdeyi fleksiyona getiren asıl kastır",
+    "Pelvisi öne eğer"
+   ],
+   "answer": 1,
+   "explanation": "M. pyramidalis, pubisten başlayıp linea alba'ya tutunan küçük üçgen kastır; rectus kılıfının içinde, rectus abdominis'in önünde yer alır ve kişilerin bir kısmında bulunmaz. N. subcostalis (T12) ile innerve edilir.",
+   "entries": [
+    "m-pyramidalis",
+    "linea-alba"
+   ]
+  },
+  {
+   "id": "mu-db78fc48",
+   "group": "Karın kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. quadratus lumborum nereye tutunur?",
+   "options": [
+    "Crista iliaca'nın arka kısmına",
+    "12. kaburganın alt kenarı ve L1–L4 transvers çıkıntılarına",
+    "Trochanter minor'a",
+    "L5 transvers çıkıntısı ve lig. iliolumbale'ye",
+    "T12–L4 omur cisimlerine"
+   ],
+   "answer": 1,
+   "explanation": "Quadratus lumborum crista iliaca'nın arka kısmı ve lig. iliolumbale'den başlar; 12. kaburgaya ve üst lomber transvers çıkıntılara tutunur. İnspirasyonda 12. kaburgayı sabitler, tek taraflı kasılmada gövdeyi yana büker. Omur cisimlerinden psoas major başlar ve trochanter minor'a tutunur.",
+   "notes": [
+    "Kasın origosudur.",
+    "",
+    "M. iliopsoas'ın insersiyosudur.",
+    "Kasın origosunun bir parçasıdır.",
+    "M. psoas major'un origosudur."
+   ],
+   "entries": [
+    "m-quadratus-lumborum"
+   ]
+  },
+  {
+   "id": "mu-d71ee117",
+   "group": "Karın kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Diaphragma pelvis'i oluşturan kaslar hangileridir?",
+   "options": [
+    "M. coccygeus ve m. piriformis",
+    "M. sphincter ani externus ve m. transversus perinei profundus",
+    "M. levator ani ve m. coccygeus",
+    "M. levator ani ve m. obturatorius internus",
+    "M. bulbospongiosus ve m. ischiocavernosus"
+   ],
+   "answer": 2,
+   "explanation": "Pelvis tabanı (diaphragma pelvis) huni biçimli levator ani (puborectalis, pubococcygeus, iliococcygeus) ve arkadaki coccygeus'tan oluşur. Obturatorius internus ve piriformis pelvisin yan ve arka duvarındadır; bulbospongiosus ve ischiocavernosus perinenin yüzeyel kaslarıdır.",
+   "entries": [
+    "diaphragma-pelvis",
+    "m-levator-ani",
+    "m-coccygeus"
+   ]
+  },
+  {
+   "id": "mu-8605eb53",
+   "group": "Karın kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "M. levator ani'nin başladığı arcus tendineus hangi kasın fasyasının kalınlaşmasıdır?",
+   "options": [
+    "M. coccygeus",
+    "M. iliacus",
+    "M. psoas major",
+    "M. piriformis",
+    "M. obturatorius internus"
+   ],
+   "answer": 4,
+   "explanation": "Levator ani önde pubisin arka yüzünden, arkada spina ischiadica'dan, aradaki bölümde ise obturator internus fasyasının kalınlaşmasıyla oluşan arcus tendineus musculi levatoris ani'den başlar. Bu nedenle obturator internus'un üst kısmı pelvis içinde, alt kısmı perinede (fossa ischioanalis'in yan duvarı) kalır.",
+   "entries": [
+    "m-levator-ani",
+    "m-obturator-internus"
+   ]
+  },
+  {
+   "id": "mu-37f691b4",
+   "group": "Karın kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Zor vajinal doğumdan sonra gaz ve gaita kaçırma şikâyeti olan hastada anal sfinkter kompleksinde yırtık saptanıyor. İstemli kontrol edilen dış anal sfinkteri innerve eden sinir hangisidir?",
+   "options": [
+    "N. genitofemoralis",
+    "N. obturatorius",
+    "Nn. splanchnici pelvici (S2–S4)",
+    "N. rectalis inferior (n. pudendus)",
+    "N. hypogastricus"
+   ],
+   "answer": 3,
+   "explanation": "Dış anal sfinkter çizgili kastır ve n. pudendus'un n. rectalis inferior dalıyla innerve edilir; zor doğum hem kas yırtığına hem de pudendal sinir gerilme hasarına yol açabilir. İç sfinkter düz kastır ve otonom sinirlerle (sempatik: kasılma) kontrol edilir.",
+   "notes": [
+    "Kremaster kasını ve uyluk ön-üst derisini innerve eder.",
+    "Uyluğun addüktör kaslarını innerve eder.",
+    "Parasempatiktir; iç sfinkteri gevşetir.",
+    "",
+    "Sempatiktir; iç sfinkteri kasar."
+   ],
+   "entries": [
+    "m-sphincter-ani-externus",
+    "diaphragma-pelvis"
+   ]
+  },
+  {
+   "id": "mu-d7d1a44a",
+   "group": "Omuz kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Rotator manşet kaslarından n. suprascapularis ile innerve edilenler hangileridir?",
+   "options": [
+    "M. subscapularis ve m. teres major",
+    "M. supraspinatus ve m. teres minor",
+    "M. supraspinatus ve m. subscapularis",
+    "M. infraspinatus ve m. teres minor",
+    "M. supraspinatus ve m. infraspinatus"
+   ],
+   "answer": 4,
+   "explanation": "N. suprascapularis incisura scapulae'den geçip supraspinatus'u, ardından spinoglenoid çentikten dolaşıp infraspinatus'u innerve eder. Teres minor n. axillaris, subscapularis nn. subscapulares ile innerve edilir; teres major rotator manşete dahil değildir.",
+   "entries": [
+    "m-supraspinatus",
+    "m-infraspinatus"
+   ]
+  },
+  {
+   "id": "mu-88287625",
+   "group": "Omuz kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Omuz ağrısı olan 62 yaşındaki hastanın kolu pasif olarak 90° abdüksiyona getirilip bırakılınca hasta kolunu yavaşça indiremiyor ve kol aniden düşüyor. En olası yırtık hangisidir?",
+   "options": [
+    "M. subscapularis tendonu",
+    "M. deltoideus'un akromiyal lifleri",
+    "M. teres minor tendonu",
+    "M. supraspinatus tendonu",
+    "M. biceps brachii'nin uzun başı"
+   ],
+   "answer": 3,
+   "explanation": "Kol düşme testi supraspinatus yırtığını gösterir; tendon akromiyon altındaki dar aralıkta sıkışmaya ve dejenerasyona en açık rotator manşet tendonudur. Subscapularis yırtığında ‘lift-off’ ve ‘belly press’ testleri, teres minor yırtığında dış rotasyon gücü bozulur.",
+   "entries": [
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "mu-d031ad64",
+   "group": "Omuz kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Üçgen boşluktan (spatium triangulare: teres minor, teres major ve triseps uzun başı arasında) geçen yapı hangisidir?",
+   "options": [
+    "A. thoracodorsalis",
+    "N. axillaris ve a. circumflexa humeri posterior",
+    "N. suprascapularis",
+    "N. radialis ve a. profunda brachii",
+    "A. circumflexa scapulae"
+   ],
+   "answer": 4,
+   "explanation": "Üçgen boşluk yalnızca a. circumflexa scapulae'yi içerir; arter skapulanın arkasındaki anastomoz ağına katılır. Dört köşeli boşluktan n. axillaris ve a. circumflexa humeri posterior, triseps ile teres major arasındaki üçgen aralıktan ise n. radialis ve a. profunda brachii geçer.",
+   "notes": [
+    "Latissimus dorsi'ye eşlik eder; bu boşluktan geçmez.",
+    "Dört köşeli boşluktan geçer.",
+    "İncisura scapulae'den geçer.",
+    "Teres major'un altındaki üçgen aralıktan geçer.",
+    ""
+   ],
+   "entries": [
+    "m-teres-minor",
+    "m-teres-major",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "mu-ef88590d",
+   "group": "Omuz kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Teres major'un alt kenarı ile triseps'in uzun ve lateral başları arasındaki üçgen aralıktan geçen yapılar hangileridir?",
+   "options": [
+    "N. ulnaris ve a. collateralis ulnaris superior",
+    "A. circumflexa scapulae",
+    "N. musculocutaneus ve a. brachialis",
+    "N. axillaris ve a. circumflexa humeri posterior",
+    "N. radialis ve a. profunda brachii"
+   ],
+   "answer": 4,
+   "explanation": "N. radialis aksilladan kolun arkasına bu aralıktan geçer ve a. profunda brachii ile birlikte humerustaki sulcus nervi radialis'e ulaşır; humerus cisim kırıklarında burada yaralanır.",
+   "entries": [
+    "m-triceps-brachii",
+    "m-teres-major"
+   ]
+  },
+  {
+   "id": "mu-61cd53db",
+   "group": "Omuz kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. deltoideus nereye tutunur?",
+   "options": [
+    "Tuberculum majus",
+    "Collum chirurgicum humeri",
+    "Tuberositas deltoidea humeri",
+    "Epicondylus lateralis humeri",
+    "Sulcus intertubercularis'in dış dudağı"
+   ],
+   "answer": 2,
+   "explanation": "Deltoid klavikulanın dış üçte biri, akromiyon ve spina scapulae'den başlayıp humerus cisminin dış yüzündeki tuberositas deltoidea'ya tutunur. Kolun 15–90° arası abdüksiyonunun asıl kasıdır; n. axillaris ile innerve edilir.",
+   "entries": [
+    "m-deltoideus"
+   ]
+  },
+  {
+   "id": "mu-b9e6a413",
+   "group": "Kol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. biceps brachii'nin kısa başı nereden başlar?",
+   "options": [
+    "Processus coracoideus'un ucundan",
+    "Tuberculum infraglenoidale'den",
+    "Akromiyondan",
+    "Tuberculum supraglenoidale'den",
+    "Tuberculum minus'tan"
+   ],
+   "answer": 0,
+   "explanation": "Kısa baş coracobrachialis ile ortak tendonla processus coracoideus'tan, uzun baş tuberculum supraglenoidale ve labrum glenoidale'den başlar; uzun baş tendonu eklem kapsülünün içinden geçerek sulcus intertubercularis'e iner.",
+   "notes": [
+    "",
+    "Triseps uzun başının origosudur.",
+    "Deltoidin origosudur.",
+    "Uzun başın origosudur.",
+    "Subscapularis'in insersiyosudur."
+   ],
+   "entries": [
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "mu-c4396e46",
+   "group": "Kol kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aponeurosis bicipitalis (lacertus fibrosus) için hangisi doğrudur?",
+   "options": [
+    "N. radialis'i örter",
+    "Fossa cubitalis'te a. brachialis ve n. medianus'u örter",
+    "M. brachialis'in tendonudur",
+    "Fossa cubitalis'in tabanını oluşturur",
+    "Tuberositas radii'ye tutunur"
+   ],
+   "answer": 1,
+   "explanation": "Biseps tendonundan içe doğru ayrılan aponevroz, önkolun derin fasyasına karışır; brakial arter ve median siniri örterken v. mediana cubiti'nin altında kalır. Bu nedenle venöz girişimlerde altındaki yapıları korur.",
+   "notes": [
+    "N. radialis fossa cubitalis'in dış yanında, brachioradialis ile brachialis arasındadır.",
+    "",
+    "M. biceps brachii'den ayrılır.",
+    "Taban m. brachialis ve m. supinator'dur.",
+    "Tuberositas radii'ye biseps tendonu tutunur."
+   ],
+   "entries": [
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "mu-a9fce112",
+   "group": "Kol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. brachioradialis nereye tutunur?",
+   "options": [
+    "Os scaphoideum'a",
+    "Processus styloideus ulnae'ye",
+    "Tuberositas radii'ye",
+    "Radius cisminin dış yüzünün ortasına",
+    "Processus styloideus radii'nin tabanına"
+   ],
+   "answer": 4,
+   "explanation": "Brachioradialis crista supracondylaris lateralis'ten başlar ve radiusun alt ucuna tutunur. Önkol yarı pronasyondayken dirseği büker; n. radialis ile innerve edilen bir dirsek fleksörüdür. Radius cisminin ortasına pronator teres tutunur.",
+   "entries": [
+    "m-brachioradialis"
+   ]
+  },
+  {
+   "id": "mu-11f202e1",
+   "group": "Önkol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Önkolun yüzeyel fleksör kasları ortak tendonla nereden başlar?",
+   "options": [
+    "Epicondylus lateralis humeri",
+    "Epicondylus medialis humeri",
+    "Crista supracondylaris lateralis",
+    "Processus coronoideus ulnae",
+    "Olecranon"
+   ],
+   "answer": 1,
+   "explanation": "Pronator teres, flexor carpi radialis, palmaris longus, flexor digitorum superficialis ve flexor carpi ulnaris ortak fleksör tendonla medial epikondilden başlar. Bu tendonun aşırı yüklenmesi medial epikondilit (golfçü dirseği) yapar; ekstansörler ise lateral epikondilden başlar.",
+   "entries": [
+    "m-flexor-carpi-radialis",
+    "m-palmaris-longus",
+    "m-flexor-carpi-ulnaris"
+   ]
+  },
+  {
+   "id": "mu-501c4de2",
+   "group": "Önkol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Önkol ön bölmesinin en derin tabakasında, distalde bulunan dörtgen biçimli kas hangisidir?",
+   "options": [
+    "M. supinator",
+    "M. pronator quadratus",
+    "M. flexor pollicis longus",
+    "M. brachioradialis",
+    "M. pronator teres"
+   ],
+   "answer": 1,
+   "explanation": "Pronator quadratus ulna ve radiusun distal dörtte birlik ön yüzleri arasında uzanır; pronasyonu başlatan asıl kastır ve distal radioulnar eklemi bir arada tutar. N. interosseus anterior ile innerve edilir.",
+   "entries": [
+    "m-pronator-quadratus"
+   ]
+  },
+  {
+   "id": "mu-6ac03b3c",
+   "group": "Önkol kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Supinator kanalında (Frohse arkadı) sıkışan sinir ve tipik bulgusu hangisidir?",
+   "options": [
+    "N. medianus – tenar atrofi ve maymun eli",
+    "N. interosseus anterior – ‘OK’ işareti yapamama",
+    "N. ulnaris – pençe el",
+    "N. interosseus posterior – parmak ekstansiyonu kaybı, duyu korunur",
+    "N. radialis'in yüzeyel dalı – yalnızca el sırtında duyu kaybı"
+   ],
+   "answer": 3,
+   "explanation": "N. radialis'in derin dalı m. supinator'un iki başı arasından geçerken (Frohse arkadı) sıkışabilir. Motor bir dal olduğu için parmaklar MKF eklemlerden uzatılamaz, ancak duyu kaybı olmaz. ECRL ve brachioradialis dalları daha yukarıda ayrıldığından el bileği ekstansiyonu korunur ve radiale sapar.",
+   "entries": [
+    "m-supinator",
+    "m-extensor-digitorum"
+   ]
+  },
+  {
+   "id": "mu-e76c286d",
+   "group": "Önkol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. palmaris longus tendonu el bileğinde nereden geçer?",
+   "options": [
+    "Birinci ekstansör bölmeden",
+    "Karpal tünelin içinden",
+    "Retinaculum flexorum'un önünden (karpal tünelin dışından)",
+    "Guyon kanalından",
+    "Os pisiforme'nin arkasından"
+   ],
+   "answer": 2,
+   "explanation": "Palmaris longus tendonu retinakulumun önünden geçip aponeurosis palmaris'e devam eder; kişilerin %10–15'inde bulunmaz ve tendon greftlerinde sık kullanılır. Bileğin ortasında, n. medianus'un hemen önünde ele gelir.",
+   "entries": [
+    "m-palmaris-longus"
+   ]
+  },
+  {
+   "id": "mu-cab81e1d",
+   "group": "Önkol kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "El bileğinin dorsal yüzündeki 1. ekstansör bölmede bulunan tendonlar hangileridir?",
+   "options": [
+    "M. extensor digitorum ve m. extensor indicis",
+    "M. extensor carpi radialis longus ve brevis",
+    "M. abductor pollicis longus ve m. extensor pollicis brevis",
+    "M. extensor pollicis longus",
+    "M. extensor carpi ulnaris"
+   ],
+   "answer": 2,
+   "explanation": "Ekstansör retinakulum altındaki bölmeler radialden ulnara: 1) APL–EPB, 2) ECRL–ECRB, 3) EPL, 4) ED–EI, 5) EDM, 6) ECU. Birinci bölmenin tenosinoviti de Quervain hastalığıdır.",
+   "notes": [
+    "4. bölmededir.",
+    "2. bölmededir.",
+    "",
+    "3. bölmededir.",
+    "6. bölmededir."
+   ],
+   "entries": [
+    "m-abductor-pollicis-longus",
+    "m-extensor-pollicis-brevis"
+   ]
+  },
+  {
+   "id": "mu-e1a14656",
+   "group": "Önkol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tuberculum dorsale radii (Lister tüberkülü) çevresinde yön değiştiren tendon hangisidir?",
+   "options": [
+    "M. extensor carpi radialis brevis",
+    "M. extensor pollicis brevis",
+    "M. extensor pollicis longus",
+    "M. extensor digitorum",
+    "M. abductor pollicis longus"
+   ],
+   "answer": 2,
+   "explanation": "EPL tendonu 3. bölmede Lister tüberkülünü bir makara gibi kullanarak başparmağa yönelir. Distal radius kırıklarından sonra bu noktada sürtünme ve kanlanma bozukluğu nedeniyle geç rüptür görülebilir.",
+   "entries": [
+    "m-extensor-pollicis-longus"
+   ]
+  },
+  {
+   "id": "mu-e87f10a7",
+   "group": "El kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mm. lumbricales manus nereden başlar?",
+   "options": [
+    "Metakarpların yan yüzlerinden",
+    "M. flexor digitorum profundus tendonlarından",
+    "Retinaculum flexorum'dan",
+    "M. flexor digitorum superficialis tendonlarından",
+    "Aponeurosis palmaris'ten"
+   ],
+   "answer": 1,
+   "explanation": "Lumbrikaller derin fleksör tendonlarından başlar ve ekstansör aponevrozun radial kenarına tutunur; MKF eklemleri büküp IF eklemleri uzatırlar. 1.–2. lumbrikaller n. medianus, 3.–4. n. ulnaris ile innerve edilir. Metakarplardan interosseöz kaslar başlar.",
+   "entries": [
+    "mm-lumbricales-manus"
+   ]
+  },
+  {
+   "id": "mu-e0d255b7",
+   "group": "El kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Guyon kanalını (canalis ulnaris) sınırlayan kemik yapılar hangileridir?",
+   "options": [
+    "Os triquetrum ve os lunatum",
+    "Processus styloideus ulnae ve os triquetrum",
+    "Os lunatum ve os capitatum",
+    "Os pisiforme ve hamulus ossis hamati",
+    "Os scaphoideum ve os trapezium"
+   ],
+   "answer": 3,
+   "explanation": "Guyon kanalı pisiform (iç) ile hamatın çengeli (dış) arasında, lig. carpi palmare ile retinaculum flexorum arasında kalır; içinden n. ulnaris ve a. ulnaris geçer. Bisiklet sürücülerinde bası sık görülür; dorsal kutanöz dal kanala girmediğinden el sırtı duyusu korunur.",
+   "entries": [
+    "os-pisiforme",
+    "os-hamatum",
+    "mm-hypothenares"
+   ]
+  },
+  {
+   "id": "mu-7a6bfa60",
+   "group": "El kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Başparmağın opozisyonunu sağlayan asıl kas hangisidir?",
+   "options": [
+    "M. flexor pollicis longus",
+    "M. abductor pollicis longus",
+    "M. extensor pollicis brevis",
+    "M. adductor pollicis",
+    "M. opponens pollicis"
+   ],
+   "answer": 4,
+   "explanation": "Opponens pollicis 1. metakarpı öne, içe çekip iç rotasyona getirerek başparmak pulpasını diğer parmaklarla karşılaştırır. N. medianus'un r. recurrens'i ile innerve edilir; bu dalın yaralanmasında opozisyon kaybolur.",
+   "entries": [
+    "m-opponens-pollicis",
+    "mm-thenares"
+   ]
+  },
+  {
+   "id": "mu-d90339d8",
+   "group": "El kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Elinin iç kenarına cam batan hastada n. ulnaris'in yalnızca derin dalı kesilmiştir. Aşağıdaki bulgulardan hangisi beklenmez?",
+   "options": [
+    "Hipotenar bölgede ve serçe parmakta duyu kaybı",
+    "Başparmak addüksiyonunda güçsüzlük",
+    "1. dorsal interosseöz kasta atrofi",
+    "Pozitif Froment işareti",
+    "Parmaklar arasında kâğıt tutmada güçsüzlük"
+   ],
+   "answer": 0,
+   "explanation": "N. ulnaris'in derin dalı yalnızca motordur: hipotenar kasları, interosseöz kasları, 3.–4. lumbrikalleri, adductor pollicis'i ve FPB'nin derin başını innerve eder. Hipotenar deri ve 5. parmak duyusu yüzeyel dal ile taşındığından korunur.",
+   "entries": [
+    "mm-interossei-manus",
+    "m-adductor-pollicis",
+    "mm-hypothenares"
+   ]
+  },
+  {
+   "id": "mu-2246f952",
+   "group": "Kalça kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. gluteus maximus nereye tutunur?",
+   "options": [
+    "Trochanter major'un ön yüzü",
+    "Tractus iliotibialis ve tuberositas glutea",
+    "Trochanter major'un dış yüzü",
+    "Linea aspera'nın iç dudağı",
+    "Trochanter minor"
+   ],
+   "answer": 1,
+   "explanation": "Gluteus maximus'un yüzeyel lifleri tractus iliotibialis'e, derin alt lifleri femurdaki tuberositas glutea'ya tutunur. Kalçanın güçlü ekstansörü ve dış rotatorudur; n. gluteus inferior ile innerve edilir.",
+   "notes": [
+    "M. gluteus minimus'un tutunma yeridir.",
+    "",
+    "M. gluteus medius'un tutunma yeridir.",
+    "Addüktörlerin tutunma yeridir.",
+    "M. iliopsoas'ın tutunma yeridir."
+   ],
+   "entries": [
+    "m-gluteus-maximus",
+    "tractus-iliotibialis"
+   ]
+  },
+  {
+   "id": "mu-b75f7ed9",
+   "group": "Kalça kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Trochanter major'un ön yüzüne tutunan kas hangisidir?",
+   "options": [
+    "M. obturatorius externus",
+    "M. gluteus medius",
+    "M. gluteus minimus",
+    "M. quadratus femoris",
+    "M. piriformis"
+   ],
+   "answer": 2,
+   "explanation": "Gluteus minimus trochanter major'un ön yüzüne, medius dış yüzüne, piriformis üst kenarına tutunur. Obturator externus fossa trochanterica'ya, quadratus femoris crista intertrochanterica'daki tuberculum quadratum'a yapışır.",
+   "entries": [
+    "m-gluteus-minimus"
+   ]
+  },
+  {
+   "id": "mu-7a258ce2",
+   "group": "Kalça kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Tendonu foramen ischiadicum minus'tan geçen kalça dış rotatoru hangisidir?",
+   "options": [
+    "M. gemellus inferior",
+    "M. quadratus femoris",
+    "M. obturatorius internus",
+    "M. obturatorius externus",
+    "M. piriformis"
+   ],
+   "answer": 2,
+   "explanation": "Obturator internus pelvisin içinden başlar; tendonu küçük siyatik delikten çıkarken incisura ischiadica minor üzerinde dik açıyla döner ve gemelli kaslar arasında trochanter major'a uzanır. Piriformis büyük siyatik delikten geçer; diğerleri pelvis dışındadır.",
+   "entries": [
+    "m-obturator-internus"
+   ]
+  },
+  {
+   "id": "mu-86c6ad90",
+   "group": "Kalça kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Uzun süre sert zeminde oturan hastada kalçadan bacağın arkasına yayılan ağrı var; kalça fleksiyon, addüksiyon ve iç rotasyondayken ağrı artıyor, bel MR'ı normal. En olası tanı hangisidir?",
+   "options": [
+    "Piriformis sendromu",
+    "Meraljia parestetika",
+    "Lomber disk hernisi",
+    "Tarsal tünel sendromu",
+    "Trokanterik bursit"
+   ],
+   "answer": 0,
+   "explanation": "N. ischiadicus çoğunlukla piriformis'in altından (bazen içinden) geçer; kasın gerilmesi veya hipertrofisi siniri sıkıştırarak bel kaynaklı olmayan siyatalji yapar. FAIR pozisyonu (fleksiyon, addüksiyon, iç rotasyon) kası gerdiği için ağrıyı artırır.",
+   "entries": [
+    "m-piriformis"
+   ]
+  },
+  {
+   "id": "mu-6dbae2eb",
+   "group": "Uyluk kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Canalis adductorius'un tavanını (ön-iç duvarını) örten kas hangisidir?",
+   "options": [
+    "M. adductor magnus",
+    "M. gracilis",
+    "M. vastus medialis",
+    "M. adductor longus",
+    "M. sartorius"
+   ],
+   "answer": 4,
+   "explanation": "Hunter kanalının dış duvarı vastus medialis, arka duvarı adductor longus ve magnus'tur; tavanı vastoaddüktör membran ve onun üzerindeki sartorius oluşturur. Kanaldan a. ve v. femoralis, n. saphenus ve vastus medialis'in siniri geçer.",
+   "notes": [
+    "Kanalın arka duvarıdır.",
+    "Kanalla ilişkisi yoktur.",
+    "Kanalın dış duvarıdır.",
+    "Kanalın arka duvarıdır.",
+    ""
+   ],
+   "entries": [
+    "m-sartorius",
+    "mm-adductores"
+   ]
+  },
+  {
+   "id": "mu-83bc2675",
+   "group": "Uyluk kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. gracilis nereye tutunur?",
+   "options": [
+    "Condylus medialis femoris'e",
+    "Linea aspera'ya",
+    "Tuberculum adductorium'a",
+    "Caput fibulae'ye",
+    "Tibianın üst iç yüzüne (pes anserinus)"
+   ],
+   "answer": 4,
+   "explanation": "Gracilis pubisin alt kolundan başlayan, uyluğun iç yüzündeki uzun ince kastır; sartorius ve semitendinosus ile birlikte pes anserinus'u oluşturur. Hem kalçayı addüksiyona hem dizi fleksiyona getirir; n. obturatorius ile innerve edilir.",
+   "entries": [
+    "m-gracilis"
+   ]
+  },
+  {
+   "id": "mu-77614070",
+   "group": "Uyluk kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Vastus medialis'in alt eğik liflerinin (VMO) temel işlevi hangisidir?",
+   "options": [
+    "Kalçayı fleksiyona getirmek",
+    "Bursa suprapatellaris'i yukarı çekmek",
+    "Dizin fleksiyonunu başlatmak",
+    "Patellanın dışa kaymasını önlemek",
+    "Tibiayı iç rotasyona getirmek"
+   ],
+   "answer": 3,
+   "explanation": "VMO lifleri patellaya içten ve yataya yakın bir açıyla tutunur; kuadrisepsin dışa çeken bileşenini dengeleyerek patellayı trokleada tutar. Zayıflığı patellofemoral ağrı ve lateral patella çıkığına zemin hazırlar. Bursayı yukarı çeken kas m. articularis genus'tur.",
+   "entries": [
+    "m-vastus-medialis",
+    "patella"
+   ]
+  },
+  {
+   "id": "mu-de9e803e",
+   "group": "Uyluk kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Fossa poplitea'nın üst-iç sınırını oluşturan kaslar hangileridir?",
+   "options": [
+    "M. plantaris ve gastrocnemius'un lateral başı",
+    "M. gastrocnemius'un iki başı",
+    "M. semitendinosus ve m. semimembranosus",
+    "M. biceps femoris",
+    "M. sartorius ve m. gracilis"
+   ],
+   "answer": 2,
+   "explanation": "Popliteal çukurun üst-iç sınırı semimembranosus ve semitendinosus, üst-dış sınırı biceps femoris, alt sınırları gastrocnemius'un medial ve lateral başlarıdır (lateral başa plantaris eşlik eder).",
+   "notes": [
+    "Alt-dış sınırdadır.",
+    "Alt sınırlardır.",
+    "",
+    "Üst-dış sınırdır.",
+    "Fossanın sınırına katılmazlar."
+   ],
+   "entries": [
+    "m-semitendinosus",
+    "m-semimembranosus"
+   ]
+  },
+  {
+   "id": "mu-4a014f0f",
+   "group": "Uyluk kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Hamstring kaslarının ortak özelliği hangisidir?",
+   "options": [
+    "Tuber ischiadicum'dan başlarlar ve hem kalça hem diz eklemini geçerler",
+    "Hepsi n. femoralis ile innerve edilir",
+    "Biceps femoris'in kısa başı da bu ölçütleri tam karşılar",
+    "Hepsi caput fibulae'ye tutunur",
+    "Kalçayı fleksiyona getirirler"
+   ],
+   "answer": 0,
+   "explanation": "Gerçek hamstringler (semitendinosus, semimembranosus, biceps femoris uzun başı ve adductor magnus'un hamstring bölümü) iskial tüberozden başlar, kalçayı ekstansiyona ve dizi fleksiyona getirir ve n. ischiadicus'un tibial bölümüyle innerve edilir. Biceps femoris kısa başı linea aspera'dan başlar, yalnızca dizi geçer ve fibular bölümle innerve edilir.",
+   "entries": [
+    "mm-ischiocrurales",
+    "m-semitendinosus",
+    "m-biceps-femoris"
+   ]
+  },
+  {
+   "id": "mu-7f1b30cb",
+   "group": "Uyluk kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Trigonum femorale içinde yapıların dıştan içe sıralaması hangisidir?",
+   "options": [
+    "N. femoralis, a. femoralis, v. femoralis, canalis femoralis",
+    "N. femoralis, v. femoralis, a. femoralis, canalis femoralis",
+    "Canalis femoralis, v. femoralis, a. femoralis, n. femoralis",
+    "V. femoralis, a. femoralis, n. femoralis, canalis femoralis",
+    "A. femoralis, n. femoralis, v. femoralis, canalis femoralis"
+   ],
+   "answer": 0,
+   "explanation": "Dıştan içe ‘NAVEL’: sinir, arter, ven, boşluk (canalis femoralis) ve lenfatikler. Femoral kılıf arter, ven ve kanalı sarar; sinir kılıfın dışında kalır. Femoral fıtık, canalis femoralis'ten geçer ve venin iç yanında yer alır.",
+   "entries": [
+    "m-sartorius",
+    "m-adductor-longus"
+   ]
+  },
+  {
+   "id": "mu-16cc84f5",
+   "group": "Uyluk kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Pelvik cerrahi sonrası hastanın uyluğunun iç yüzünün ortasında duyu kaybı var; bacak bacak üstüne atmakta güçlük çekiyor ve yürürken bacağı dışa savruluyor. Hangi sinir hasar görmüştür?",
+   "options": [
+    "N. obturatorius",
+    "N. gluteus superior",
+    "N. ischiadicus",
+    "N. cutaneus femoris lateralis",
+    "N. femoralis"
+   ],
+   "answer": 0,
+   "explanation": "N. obturatorius pelvisin yan duvarında, ovaryum ve pelvik lenf düğümlerine komşu seyreder; canalis obturatorius'tan çıkıp addüktör kasları ve uyluğun iç yüzünün bir bölümünün derisini innerve eder. Hasarında addüksiyon zayıflar ve yürüyüşte bacak dışa savrulur.",
+   "notes": [
+    "",
+    "Gluteus medius ve minimus'u innerve eder; Trendelenburg yapar.",
+    "Hamstringleri ve diz altını innerve eder.",
+    "Yalnızca uyluğun dış yüzünün duyusunu alır.",
+    "Kuadrisepsi ve uyluğun ön yüzünü innerve eder."
+   ],
+   "entries": [
+    "mm-adductores",
+    "m-adductor-longus",
+    "m-gracilis"
+   ]
+  },
+  {
+   "id": "mu-bbd5f796",
+   "group": "Uyluk kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tractus iliotibialis'e tutunan kaslar hangileridir?",
+   "options": [
+    "M. sartorius ve m. rectus femoris",
+    "M. tensor fasciae latae ve m. gluteus maximus",
+    "M. biceps femoris ve m. vastus lateralis",
+    "M. piriformis ve m. obturatorius internus",
+    "M. gluteus medius ve m. gluteus minimus"
+   ],
+   "answer": 1,
+   "explanation": "İliotibial bant fascia lata'nın dış yüzdeki kalınlaşmasıdır; üstte TFL ve gluteus maximus'un yüzeyel lifleri ona katılır, altta tibianın Gerdy tüberkülüne tutunur. Ayakta dururken dizin dış yanını ve kalçayı dengeler.",
+   "entries": [
+    "tractus-iliotibialis",
+    "m-tensor-fasciae-latae",
+    "m-gluteus-maximus"
+   ]
+  },
+  {
+   "id": "mu-f83e1e4c",
+   "group": "Uyluk kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "İliotibial bant sürtünme sendromunda ağrı en sık nerede hissedilir?",
+   "options": [
+    "Tuberositas tibiae üzerinde",
+    "Femurun lateral epikondili üzerinde, dizin dış yanında",
+    "Pes anserinus üzerinde",
+    "Patellanın alt ucunda",
+    "Trochanter major üzerinde"
+   ],
+   "answer": 1,
+   "explanation": "Koşucularda diz 20–30° fleksiyondayken bant lateral epikondilin üzerinden öne-arkaya kayar ve tekrarlayan sürtünme dizin dış yanında ağrıya yol açar. Pes anserinus bursiti iç yanda, Osgood–Schlatter tüberositas tibiae'de, jumper's knee patellanın alt ucunda ağrı yapar.",
+   "entries": [
+    "tractus-iliotibialis"
+   ]
+  },
+  {
+   "id": "mu-f2a216f9",
+   "group": "Bacak kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Fossa poplitea'da yüzeyelden derine yapıların sıralaması hangisidir?",
+   "options": [
+    "V. poplitea – n. tibialis – a. poplitea",
+    "A. poplitea – n. tibialis – v. poplitea",
+    "N. tibialis – v. poplitea – a. poplitea",
+    "N. tibialis – a. poplitea – v. poplitea",
+    "A. poplitea – v. poplitea – n. tibialis"
+   ],
+   "answer": 2,
+   "explanation": "Popliteal çukurda en yüzeyelde n. tibialis, onun derininde v. poplitea, en derinde ve femura en yakın a. poplitea bulunur. Bu nedenle suprakondiler femur kırıklarında arter en çok risk altındadır.",
+   "entries": [
+    "m-gastrocnemius",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "mu-0ef3df79",
+   "group": "Bacak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. popliteus nereden başlar?",
+   "options": [
+    "Condylus medialis femoris'ten",
+    "Caput fibulae'den",
+    "Tibiadaki linea musculi solei'den",
+    "Condylus lateralis femoris'in dış yüzünden (ve lateral menisküsten)",
+    "Patellanın alt ucundan"
+   ],
+   "answer": 3,
+   "explanation": "Popliteus tendonu eklem kapsülünün içinden geçerek femurun lateral kondiline tutunur; kas tibianın arka yüzüne, linea musculi solei'nin üstüne yapışır. Tam ekstansiyonda kilitlenen dizi, femuru dışa döndürerek açar; lateral menisküsü geriye çekerek sıkışmasını önler.",
+   "entries": [
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "mu-7f7c1bd3",
+   "group": "Bacak kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ayağın en güçlü invertörü olan ve medial longitudinal kavsi dinamik olarak destekleyen kas hangisidir?",
+   "options": [
+    "M. extensor hallucis longus",
+    "M. flexor hallucis longus",
+    "M. tibialis posterior",
+    "M. fibularis longus",
+    "M. tibialis anterior"
+   ],
+   "answer": 2,
+   "explanation": "Tibialis posterior tendonu iç malleolün arkasından geçip tuberositas ossis navicularis ve diğer tarsal kemiklerin plantar yüzüne yayılır. Tendon disfonksiyonu erişkinlerde edinsel düztabanlığın en sık nedenidir; hasta tek ayak üstünde parmak ucuna kalkamaz.",
+   "entries": [
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "mu-f3d7394c",
+   "group": "Bacak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. fibularis longus tendonu ayak tabanında nereye tutunur?",
+   "options": [
+    "Tuberositas ossis navicularis'e",
+    "Os cuneiforme mediale ve 1. metatarsın tabanına",
+    "5. metatarsın tuberositasına",
+    "2. metatarsın tabanına",
+    "Os cuboideum'un dış yüzüne"
+   ],
+   "answer": 1,
+   "explanation": "Fibularis longus tendonu lateral malleolün arkasından, sonra kuboidin plantar oluğundan ayak tabanını çaprazlayarak iç tarafa ulaşır; ayağı plantar fleksiyon ve eversiyona getirir, transvers kavsi destekler. 5. metatars tuberositasına fibularis brevis tutunur.",
+   "notes": [
+    "M. tibialis posterior'un ana tutunma yeridir.",
+    "",
+    "M. fibularis brevis'in tutunma yeridir.",
+    "Bu kasın tutunma yeri değildir.",
+    "Tendon kuboidin altındaki oluktan geçer; tutunmaz."
+   ],
+   "entries": [
+    "m-fibularis-longus"
+   ]
+  },
+  {
+   "id": "mu-5b4e4f42",
+   "group": "Bacak kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ayağı aşağıdan ‘üzengi’ gibi destekleyen tendon çifti hangisidir?",
+   "options": [
+    "M. tibialis anterior ve m. fibularis longus",
+    "M. tibialis posterior ve m. flexor hallucis longus",
+    "M. gastrocnemius ve m. soleus",
+    "M. extensor digitorum longus ve m. extensor hallucis longus",
+    "M. fibularis brevis ve m. fibularis tertius"
+   ],
+   "answer": 0,
+   "explanation": "Tibialis anterior iç taraftan, fibularis longus dış taraftan os cuneiforme mediale ve 1. metatars tabanına tutunur; iki tendon birlikte ayağın altından bir üzengi oluşturarak transvers ve medial kavsi askıya alır, inversiyon ve eversiyonu dengeler.",
+   "entries": [
+    "m-tibialis-anterior",
+    "m-fibularis-longus"
+   ]
+  },
+  {
+   "id": "mu-04827f56",
+   "group": "Bacak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. soleus için hangisi doğrudur?",
+   "options": [
+    "Ayağı dorsifleksiyona getirir",
+    "Diz ve ayak bileği eklemlerini birlikte geçer",
+    "Femur kondillerinden başlar",
+    "Diz bükülüyken ayak bileğinin başlıca plantar fleksörüdür",
+    "N. fibularis profundus ile innerve edilir"
+   ],
+   "answer": 3,
+   "explanation": "Soleus tibia ve fibuladan başlar, yalnızca ayak bileğini geçer. Diz fleksiyondayken gastrocnemius gevşediğinden plantar fleksiyonu büyük ölçüde soleus sağlar; postüral bir kas olarak ayakta dururken sürekli çalışır ve n. tibialis ile innerve edilir.",
+   "entries": [
+    "m-soleus",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "mu-72bf97af",
+   "group": "Bacak kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Uzun koşulardan sonra topuğun iç yanında ve ayak tabanında yanma-uyuşma tarif eden hastada iç malleolün arka-alt kısmına perküsyonla parestezi oluşuyor. Sıkışan sinir hangisidir?",
+   "options": [
+    "N. suralis",
+    "N. tibialis",
+    "N. fibularis superficialis",
+    "N. fibularis profundus",
+    "N. saphenus"
+   ],
+   "answer": 1,
+   "explanation": "Tarsal tünel sendromunda n. tibialis veya plantar dalları, iç malleol ile calcaneus arasında retinaculum musculorum flexorum altında sıkışır; ayak tabanında duyu bozukluğu ve intrinsik kas zayıflığı olur. Ön tarsal tünelde n. fibularis profundus sıkışır.",
+   "entries": [
+    "m-tibialis-posterior",
+    "m-abductor-hallucis"
+   ]
+  },
+  {
+   "id": "mu-0d6d2f9b",
+   "group": "Ayak kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ayak tabanı kaslarının ikinci tabakasında hangileri bulunur?",
+   "options": [
+    "M. abductor hallucis, m. flexor digitorum brevis ve m. abductor digiti minimi",
+    "M. quadratus plantae, mm. lumbricales ve FDL ile FHL tendonları",
+    "M. quadratus plantae ve m. abductor hallucis",
+    "M. flexor hallucis brevis, m. adductor hallucis ve m. flexor digiti minimi brevis",
+    "Mm. interossei ile fibularis longus ve tibialis posterior tendonları"
+   ],
+   "answer": 1,
+   "explanation": "Ayak tabanının dört tabakası: 1) abductor hallucis, FDB, abductor digiti minimi; 2) quadratus plantae, lumbrikaller, FDL ve FHL tendonları; 3) FHB, adductor hallucis, FDMB; 4) interosseöz kaslar ile fibularis longus ve tibialis posterior tendonları.",
+   "notes": [
+    "1. tabakadır.",
+    "",
+    "Farklı tabakalardan iki kastır.",
+    "3. tabakadır.",
+    "4. tabakadır."
+   ],
+   "entries": [
+    "m-quadratus-plantae",
+    "mm-lumbricales-pedis",
+    "mm-plantares"
+   ]
+  },
+  {
+   "id": "mu-717fb0f4",
+   "group": "Ayak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ayakta parmakların abdüksiyon–addüksiyon ekseni hangi parmaktan geçer?",
+   "options": [
+    "1. parmaktan",
+    "3. parmaktan",
+    "2. parmaktan",
+    "5. parmaktan",
+    "4. parmaktan"
+   ],
+   "answer": 2,
+   "explanation": "Ayakta dorsal interosseöz kaslar parmakları 2. parmak ekseninden uzaklaştırır, plantar interosseöz kaslar yaklaştırır. Elde bu eksen 3. parmaktır.",
+   "entries": [
+    "mm-interossei-dorsales-pedis",
+    "mm-interossei-plantares"
+   ]
+  },
+  {
+   "id": "mu-b3574b8e",
+   "group": "Ayak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ayak sırtındaki kısa ekstansör kaslar nereden başlar?",
+   "options": [
+    "Fibulanın alt ucundan",
+    "Metatarsların tabanlarından",
+    "Talusun boynundan",
+    "Os naviculare'den",
+    "Calcaneus'un üst-dış yüzünden (sinus tarsi'nin önü)"
+   ],
+   "answer": 4,
+   "explanation": "M. extensor digitorum brevis ve m. extensor hallucis brevis calcaneus'un üst-dış yüzünden başlar; ayak sırtının dış yanında yumuşak bir kitle olarak ele gelir ve ödem ya da kitle ile karışabilir. İkisi de n. fibularis profundus ile innerve edilir.",
+   "entries": [
+    "m-extensor-digitorum-brevis",
+    "m-extensor-hallucis-brevis"
+   ]
+  },
+  {
+   "id": "mu-dc79ab25",
+   "group": "Baş kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Mimik (yüz ifadesi) kaslarını innerve eden sinir hangisidir?",
+   "options": [
+    "N. trigeminus (V)",
+    "N. oculomotorius (III)",
+    "N. accessorius (XI)",
+    "N. hypoglossus (XII)",
+    "N. facialis (VII)"
+   ],
+   "answer": 4,
+   "explanation": "Bütün mimik kasları 2. faringeal arktan gelişir ve n. facialis ile innerve edilir. Çiğneme kasları ise 1. ark kökenlidir ve n. mandibularis (V3) ile innerve edilir.",
+   "entries": [
+    "m-orbicularis-oculi",
+    "m-zygomaticus-major"
+   ]
+  },
+  {
+   "id": "mu-bfc1e2e0",
+   "group": "Baş kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Çiğneme kaslarını innerve eden sinir hangisidir?",
+   "options": [
+    "N. glossopharyngeus",
+    "N. facialis",
+    "N. maxillaris (V2)",
+    "N. hypoglossus",
+    "N. mandibularis (V3)"
+   ],
+   "answer": 4,
+   "explanation": "Masseter, temporalis, pterygoideus medialis ve lateralis 1. faringeal arktan gelişir ve trigeminus'un mandibular dalıyla innerve edilir.",
+   "entries": [
+    "m-masseter",
+    "m-temporalis",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "mu-5756c484",
+   "group": "Baş kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dişleri sıkınca yanakta sertleşerek ele gelen çiğneme kası hangisidir?",
+   "options": [
+    "M. pterygoideus medialis",
+    "M. masseter",
+    "M. zygomaticus major",
+    "M. buccinator",
+    "M. temporalis"
+   ],
+   "answer": 1,
+   "explanation": "Masseter zigomatik arktan mandibula ramusunun dış yüzüne uzanır; çeneyi kapatan en güçlü kaslardandır ve dişler sıkıldığında yanakta kolayca hissedilir.",
+   "entries": [
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "mu-77190f39",
+   "group": "Baş kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Şakak bölgesinde yelpaze şeklinde yer alan çiğneme kası hangisidir?",
+   "options": [
+    "M. auricularis superior",
+    "M. occipitofrontalis",
+    "M. temporalis",
+    "M. pterygoideus lateralis",
+    "M. masseter"
+   ],
+   "answer": 2,
+   "explanation": "Temporalis fossa temporalis'i dolduran yelpaze şeklindeki kastır; lifleri processus coronoideus'a toplanır ve çeneyi kapatır, arka lifleri geri çeker.",
+   "entries": [
+    "m-temporalis"
+   ]
+  },
+  {
+   "id": "mu-9fd66965",
+   "group": "Baş kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dudakları büzen (ıslık çalma, öpücük verme) kas hangisidir?",
+   "options": [
+    "M. zygomaticus major",
+    "M. mentalis",
+    "M. orbicularis oris",
+    "M. buccinator",
+    "M. depressor anguli oris"
+   ],
+   "answer": 2,
+   "explanation": "Orbicularis oris ağzı halka şeklinde çevreleyen sfinkter kastır; dudakları kapatır ve büzer. Buccinator yanağı dişlere bastırır.",
+   "entries": [
+    "m-orbicularis-oris"
+   ]
+  },
+  {
+   "id": "mu-a136b758",
+   "group": "Baş kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Göz küresini hareket ettiren dış göz kası sayısı kaçtır?",
+   "options": [
+    "6 (4 rektus, 2 oblik)",
+    "4",
+    "7",
+    "8",
+    "5"
+   ],
+   "answer": 0,
+   "explanation": "Göz küresini dört rektus (superior, inferior, medialis, lateralis) ve iki oblik (superior, inferior) kas hareket ettirir. M. levator palpebrae superioris göz kapağını kaldırır, göz küresini hareket ettirmez.",
+   "entries": [
+    "mm-bulbi"
+   ]
+  },
+  {
+   "id": "mu-93236a42",
+   "group": "Boyun kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Boynun yanında kulak arkasından sternum ve klavikulaya uzanan belirgin kas hangisidir?",
+   "options": [
+    "M. trapezius",
+    "M. scalenus anterior",
+    "M. omohyoideus",
+    "M. sternocleidomastoideus",
+    "Platysma"
+   ],
+   "answer": 3,
+   "explanation": "SCM processus mastoideus'tan manubrium ve klavikulanın iç kısmına uzanır; boynu ön ve arka üçgenlere ayıran önemli bir yüzey işaretidir.",
+   "entries": [
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "mu-17cc2434",
+   "group": "Boyun kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Boynun ön yüzünü deri altında örten ince, geniş mimik kası hangisidir?",
+   "options": [
+    "Platysma",
+    "M. mylohyoideus",
+    "M. sternohyoideus",
+    "M. sternocleidomastoideus",
+    "M. omohyoideus"
+   ],
+   "answer": 0,
+   "explanation": "Platysma göğsün üst kısmından mandibula ve ağız köşesine uzanan yüzeyel bir mimik kasıdır; n. facialis'in servikal dalıyla innerve edilir.",
+   "entries": [
+    "m-platysma"
+   ]
+  },
+  {
+   "id": "mu-2e1f0cc1",
+   "group": "Sırt kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Omuzları silken (yukarı kaldıran) sırtın üst kısmındaki yüzeyel kas hangisidir?",
+   "options": [
+    "M. serratus anterior",
+    "M. latissimus dorsi",
+    "M. erector spinae",
+    "M. trapezius",
+    "M. rhomboideus major"
+   ],
+   "answer": 3,
+   "explanation": "Trapeziusun üst lifleri skapulayı kaldırır (omuz silkme); orta lifler geri çeker, alt lifler aşağı çeker. Levator scapulae da elevasyona yardım eder.",
+   "entries": [
+    "m-trapezius"
+   ]
+  },
+  {
+   "id": "mu-85f6c024",
+   "group": "Sırt kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Sırtın en geniş kası hangisidir?",
+   "options": [
+    "M. erector spinae",
+    "M. serratus posterior inferior",
+    "M. trapezius",
+    "M. quadratus lumborum",
+    "M. latissimus dorsi"
+   ],
+   "answer": 4,
+   "explanation": "Latissimus dorsi bel ve sırtın alt kısmını örten geniş, üçgen bir kastır; kolu ekstansiyon, addüksiyon ve iç rotasyona getirir (tırmanma ve yüzme kası).",
+   "entries": [
+    "m-latissimus-dorsi"
+   ]
+  },
+  {
+   "id": "mu-c0a357d6",
+   "group": "Sırt kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Omurganın iki yanında uzanan ve gövdeyi dik tutan kas grubu hangisidir?",
+   "options": [
+    "M. latissimus dorsi",
+    "M. serratus anterior",
+    "M. trapezius",
+    "Mm. rhomboidei",
+    "M. erector spinae"
+   ],
+   "answer": 4,
+   "explanation": "Erector spinae dıştan içe iliocostalis, longissimus ve spinalis kolonlarından oluşur; omurganın ekstansiyonunu ve dik duruşu sağlar.",
+   "entries": [
+    "m-erector-spinae"
+   ]
+  },
+  {
+   "id": "mu-e2ce0107",
+   "group": "Göğüs kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Solunumun en önemli (ana) kası hangisidir?",
+   "options": [
+    "M. sternocleidomastoideus",
+    "Mm. intercostales externi",
+    "Diyafram",
+    "M. rectus abdominis",
+    "M. pectoralis major"
+   ],
+   "answer": 2,
+   "explanation": "Sakin solunumda inspirasyonun büyük kısmını diyafram yapar; kasılınca kubbesi aşağı iner ve göğüs boşluğunun dikey çapı artar.",
+   "entries": [
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "mu-37ce2eca",
+   "group": "Göğüs kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Göğsün ön yüzündeki en büyük kas hangisidir?",
+   "options": [
+    "M. pectoralis major",
+    "M. subclavius",
+    "M. deltoideus",
+    "M. serratus anterior",
+    "M. pectoralis minor"
+   ],
+   "answer": 0,
+   "explanation": "Pectoralis major göğsün ön yüzünü örten yelpaze şeklindeki kastır; kolu addüksiyon, iç rotasyon ve fleksiyona getirir.",
+   "entries": [
+    "m-pectoralis-major"
+   ]
+  },
+  {
+   "id": "mu-9f5f0fd6",
+   "group": "Karın kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Karın ön duvarında 'altılı kas' görünümünü veren kas hangisidir?",
+   "options": [
+    "M. obliquus externus abdominis",
+    "M. quadratus lumborum",
+    "M. pyramidalis",
+    "M. transversus abdominis",
+    "M. rectus abdominis"
+   ],
+   "answer": 4,
+   "explanation": "Rectus abdominis'in üzerindeki tendinöz kesişimler (intersectiones tendineae) kası bölmelere ayırarak karakteristik görünümü oluşturur.",
+   "entries": [
+    "m-rectus-abdominis"
+   ]
+  },
+  {
+   "id": "mu-8818bd60",
+   "group": "Karın kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Karın ön-yan duvarındaki üç yassı kastan en yüzeyel olanı hangisidir?",
+   "options": [
+    "M. latissimus dorsi",
+    "M. obliquus internus abdominis",
+    "M. transversus abdominis",
+    "M. obliquus externus abdominis",
+    "M. rectus abdominis"
+   ],
+   "answer": 3,
+   "explanation": "Yüzeyelden derine sıralama: obliquus externus, obliquus internus, transversus abdominis. Dış oblik liflerin yönü 'eller cepte' şeklindedir (aşağı ve öne).",
+   "entries": [
+    "m-obliquus-externus"
+   ]
+  },
+  {
+   "id": "mu-20d486f6",
+   "group": "Karın kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kasık bağı (lig. inguinale) hangi iki nokta arasında uzanır?",
+   "options": [
+    "Processus xiphoideus ile tuberculum pubicum",
+    "Trochanter major ile tuberculum pubicum",
+    "Spina iliaca anterior superior ile tuberculum pubicum",
+    "Spina iliaca anterior inferior ile tuber ischiadicum",
+    "Crista iliaca ile symphysis pubica"
+   ],
+   "answer": 2,
+   "explanation": "Lig. inguinale dış oblik kasın aponevrozunun kıvrılmış alt kenarıdır; SIAS'tan tuberculum pubicum'a uzanır ve kasık bölgesinin önemli işaretidir.",
+   "entries": [
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "mu-ecbf1e9c",
+   "group": "Karın kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Linea alba nerede uzanır?",
+   "options": [
+    "Rectus kasının dış kenarı boyunca",
+    "Kaburga kavsi boyunca",
+    "SIAS ile tuberculum pubicum arasında",
+    "Göbekten kaburga kavsine",
+    "Processus xiphoideus ile symphysis pubica arasında"
+   ],
+   "answer": 4,
+   "explanation": "Linea alba iki rectus kasının arasında, karın kaslarının aponevrozlarının orta hatta birleşmesiyle oluşan fibröz şerittir; göbek bu hattın üzerindedir.",
+   "entries": [
+    "linea-alba"
+   ]
+  },
+  {
+   "id": "mu-6e45f64a",
+   "group": "Omuz kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Omzun yuvarlak görünümünü veren üçgen şeklindeki kas hangisidir?",
+   "options": [
+    "M. deltoideus",
+    "M. supraspinatus",
+    "M. pectoralis major",
+    "M. teres major",
+    "M. trapezius"
+   ],
+   "answer": 0,
+   "explanation": "Deltoid klavikula, akromiyon ve spina scapulae'den başlayıp tuberositas deltoidea'ya tutunur; omzun yuvarlak konturunu verir ve kolu abdüksiyona getirir.",
+   "entries": [
+    "m-deltoideus"
+   ]
+  },
+  {
+   "id": "mu-b57e5057",
+   "group": "Omuz kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Rotator manşeti oluşturan kaslar hangileridir?",
+   "options": [
+    "Deltoideus, supraspinatus, infraspinatus ve teres minor",
+    "Supraspinatus, infraspinatus, teres minor ve subscapularis",
+    "Supraspinatus, teres major, teres minor ve latissimus dorsi",
+    "Supraspinatus, infraspinatus, teres major ve subscapularis",
+    "Subscapularis, pectoralis minor, teres minor ve deltoideus"
+   ],
+   "answer": 1,
+   "explanation": "Rotator manşet (SITS) humerus başını glenoid çukurda tutan dinamik stabilizatördür. Teres major rotator manşete dahil değildir.",
+   "entries": [
+    "m-supraspinatus",
+    "m-infraspinatus",
+    "m-teres-minor",
+    "m-subscapularis"
+   ]
+  },
+  {
+   "id": "mu-19bfd68a",
+   "group": "Kol kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kolun önündeki 'pazı' kası hangisidir?",
+   "options": [
+    "M. coracobrachialis",
+    "M. brachialis",
+    "M. brachioradialis",
+    "M. biceps brachii",
+    "M. triceps brachii"
+   ],
+   "answer": 3,
+   "explanation": "Biceps brachii kolun önündeki iki başlı kastır; dirseği büker ve önkolu güçlü biçimde supinasyona getirir.",
+   "entries": [
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "mu-e4aeb253",
+   "group": "Kol kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dirseği uzatan (ekstansiyon) ana kas hangisidir?",
+   "options": [
+    "M. brachialis",
+    "M. pronator teres",
+    "M. biceps brachii",
+    "M. triceps brachii",
+    "M. brachioradialis"
+   ],
+   "answer": 3,
+   "explanation": "Triceps brachii kolun arkasındaki üç başlı kastır ve olecranon'a tutunarak dirseği uzatır; anconeus ona yardım eder.",
+   "entries": [
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "mu-b6e8a730",
+   "group": "Önkol kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Önkolun ön (fleksör) bölmesindeki kaslar genel olarak hangi hareketi yapar?",
+   "options": [
+    "Parmakları yalnızca açar",
+    "Dirseği uzatır",
+    "El bileğini ve parmakları büker",
+    "Önkolu yalnızca supinasyona getirir",
+    "El bileğini ve parmakları uzatır"
+   ],
+   "answer": 2,
+   "explanation": "Önkol ön bölmesi el bileği ve parmak fleksörlerinden ve pronatörlerden oluşur; çoğu epicondylus medialis'ten başlar ve n. medianus ile innerve edilir. Arka bölme ekstansörleri içerir.",
+   "entries": [
+    "m-flexor-digitorum-superficialis",
+    "m-flexor-carpi-radialis"
+   ]
+  },
+  {
+   "id": "mu-6af834e1",
+   "group": "El kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Başparmak tabanındaki kas kabartısına ne ad verilir?",
+   "options": [
+    "Avuç içi çukuru",
+    "İnterosseöz aralık",
+    "Tabakiyer anatomik",
+    "Tenar kabartı (eminentia thenaris)",
+    "Hipotenar kabartı"
+   ],
+   "answer": 3,
+   "explanation": "Tenar kabartıyı abductor pollicis brevis, flexor pollicis brevis ve opponens pollicis oluşturur; serçe parmak tabanındaki kabartı hipotenar kabartıdır.",
+   "entries": [
+    "mm-thenares"
+   ]
+  },
+  {
+   "id": "mu-ecb2c9e2",
+   "group": "El kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Elin küçük (intrinsik) kaslarının çoğunu innerve eden sinir hangisidir?",
+   "options": [
+    "N. axillaris",
+    "N. musculocutaneus",
+    "N. ulnaris",
+    "N. radialis",
+    "N. medianus"
+   ],
+   "answer": 2,
+   "explanation": "N. ulnaris hipotenar kasları, interosseöz kasları, 3.–4. lumbrikalleri, adductor pollicis'i ve FPB'nin derin başını innerve eder. N. medianus ise tenar kaslar ile 1.–2. lumbrikalleri innerve eder.",
+   "entries": [
+    "mm-interossei-manus",
+    "mm-hypothenares"
+   ]
+  },
+  {
+   "id": "mu-0e70d6e5",
+   "group": "Kalça kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kalça bölgesinin en büyük ve en yüzeyel kası hangisidir?",
+   "options": [
+    "M. tensor fasciae latae",
+    "M. gluteus maximus",
+    "M. gluteus minimus",
+    "M. piriformis",
+    "M. gluteus medius"
+   ],
+   "answer": 1,
+   "explanation": "Gluteus maximus kalçanın en yüzeyel ve en büyük kasıdır; kalçanın en güçlü ekstansörüdür ve oturur pozisyondan kalkma, merdiven çıkma gibi hareketlerde kullanılır.",
+   "entries": [
+    "m-gluteus-maximus"
+   ]
+  },
+  {
+   "id": "mu-cfe6d009",
+   "group": "Kalça kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kalçayı büken (fleksiyon) en güçlü kas hangisidir?",
+   "options": [
+    "M. gracilis",
+    "M. pectineus",
+    "M. sartorius",
+    "M. iliopsoas",
+    "M. gluteus maximus"
+   ],
+   "answer": 3,
+   "explanation": "İliopsoas (psoas major ve iliacus) trochanter minor'a tutunur ve kalçanın en güçlü fleksörüdür.",
+   "entries": [
+    "m-iliopsoas"
+   ]
+  },
+  {
+   "id": "mu-c868aa3f",
+   "group": "Kalça kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Yürürken tek ayak üzerinde dururken pelvisi dengede tutan kalça abdüktörü hangisidir?",
+   "options": [
+    "M. gluteus medius",
+    "M. iliopsoas",
+    "M. gluteus maximus",
+    "M. piriformis",
+    "M. adductor longus"
+   ],
+   "answer": 0,
+   "explanation": "Gluteus medius (ve minimus) basılan taraftaki kalçayı abdüksiyona getirerek karşı taraf pelvisin düşmesini önler. Felcinde Trendelenburg bulgusu ortaya çıkar.",
+   "entries": [
+    "m-gluteus-medius"
+   ]
+  },
+  {
+   "id": "mu-43cd6d79",
+   "group": "Uyluk kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Uyluğun önünde dizi uzatan dört başlı kas hangisidir?",
+   "options": [
+    "M. gracilis",
+    "M. quadriceps femoris",
+    "M. adductor magnus",
+    "M. sartorius",
+    "M. biceps femoris"
+   ],
+   "answer": 1,
+   "explanation": "Quadriceps femoris rectus femoris ve üç vastus kasından oluşur; ortak tendonu patellayı sarar ve lig. patellae ile tuberositas tibiae'ye tutunarak dizi uzatır.",
+   "entries": [
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "mu-91b50ba3",
+   "group": "Uyluk kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Uyluğun arkasındaki hamstring kasları dizde hangi hareketi yapar?",
+   "options": [
+    "Hiçbir hareket yapmaz",
+    "Addüksiyon",
+    "Abdüksiyon",
+    "Fleksiyon (bükme)",
+    "Ekstansiyon (uzatma)"
+   ],
+   "answer": 3,
+   "explanation": "Hamstringler (biceps femoris, semitendinosus, semimembranosus) kalçayı uzatır ve dizi büker.",
+   "entries": [
+    "mm-ischiocrurales"
+   ]
+  },
+  {
+   "id": "mu-9430014d",
+   "group": "Uyluk kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Uyluğun iç (medial) bölmesindeki kasların ortak işlevi nedir?",
+   "options": [
+    "Kalçayı dış rotasyona getirmek",
+    "Ayağı dorsifleksiyona getirmek",
+    "Uyluğu uzaklaştırmak (abdüksiyon)",
+    "Dizi uzatmak",
+    "Uyluğu orta hatta yaklaştırmak (addüksiyon)"
+   ],
+   "answer": 4,
+   "explanation": "Medial bölmedeki adductor longus, brevis, magnus, gracilis ve pectineus uyluğu addüksiyona getirir; çoğu n. obturatorius ile innerve edilir.",
+   "entries": [
+    "mm-adductores"
+   ]
+  },
+  {
+   "id": "mu-f30b91ef",
+   "group": "Bacak kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Baldırı oluşturan ve Aşil tendonuyla topuğa tutunan kas grubu hangisidir?",
+   "options": [
+    "M. triceps surae (gastrocnemius ve soleus)",
+    "M. fibularis longus ve brevis",
+    "M. tibialis anterior ve EHL",
+    "M. popliteus ve plantaris",
+    "M. tibialis posterior ve FDL"
+   ],
+   "answer": 0,
+   "explanation": "Gastrocnemius'un iki başı ve soleus ortak Aşil tendonuyla tuber calcanei'ye tutunur; ayak bileğinin en güçlü plantar fleksörüdür (parmak ucunda yükselme).",
+   "entries": [
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "mu-4b00481c",
+   "group": "Bacak kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Bacağın dış (lateral) bölmesinde hangi kaslar bulunur?",
+   "options": [
+    "M. tibialis posterior ve m. flexor digitorum longus",
+    "M. gastrocnemius ve m. soleus",
+    "M. popliteus ve m. plantaris",
+    "M. fibularis longus ve m. fibularis brevis",
+    "M. tibialis anterior ve m. extensor hallucis longus"
+   ],
+   "answer": 3,
+   "explanation": "Lateral bölme fibularis longus ve brevis'i içerir; ayağı everziyona getirirler ve n. fibularis superficialis ile innerve edilirler.",
+   "entries": [
+    "m-fibularis-longus",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "mu-26fd811e",
+   "group": "Göğüs kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "İskelet kasları hangi tür kas dokusundan oluşur?",
+   "options": [
+    "Çizgisiz kalp kası",
+    "Çizgili, istemli kas",
+    "Kalp kası",
+    "Düz, istemli kas",
+    "Düz, istemsiz kas"
+   ],
+   "answer": 1,
+   "explanation": "İskelet kasları enine çizgili ve istem dışı değil, istemli kaslardır; somatik motor sinirlerle innerve edilir. Düz kaslar iç organ duvarlarında, kalp kası kalpte bulunur."
+  },
+  {
+   "id": "mu-f3107df4",
+   "group": "Baş kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Vücudun en küçük iskelet kası hangisidir?",
+   "options": [
+    "M. arytenoideus",
+    "M. procerus",
+    "M. levator palpebrae superioris",
+    "M. stapedius",
+    "M. tensor tympani"
+   ],
+   "answer": 3,
+   "explanation": "Stapedius orta kulakta stapese tutunan, yaklaşık 1 mm'lik kastır; yüksek seste stapesin hareketini azaltarak iç kulağı korur ve n. facialis ile innerve edilir."
+  },
+  {
+   "id": "mu-87a9939b",
+   "group": "Omuz kasları",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kasın hareket sırasında sabit kalan kemik tutunma yerine ne ad verilir?",
+   "options": [
+    "Aponevroz",
+    "İnsersiyo (sonlanma)",
+    "Origo (başlangıç)",
+    "Tendon kılıfı",
+    "Kas karnı (venter)"
+   ],
+   "answer": 2,
+   "explanation": "Origo genellikle proksimaldeki sabit tutunma yeridir; insersiyo ise hareket eden kemiğe tutunma yeridir. Kas kasıldığında insersiyo origoya yaklaşır."
+  },
+  {
+   "id": "mu-68e69843",
+   "group": "Baş kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. temporalis nereden başlar?",
+   "options": [
+    "Processus pterygoideus'tan",
+    "Processus mastoideus'tan",
+    "Linea nuchae superior'dan",
+    "Arcus zygomaticus'tan",
+    "Fossa temporalis ve fascia temporalis'ten"
+   ],
+   "answer": 4,
+   "explanation": "Temporalis fossa temporalis'in tabanından ve onu örten fasyadan başlar; arcus zygomaticus'un altından geçerek processus coronoideus'a tutunur.",
+   "entries": [
+    "m-temporalis"
+   ]
+  },
+  {
+   "id": "mu-a88fccee",
+   "group": "Baş kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. buccinator'un başlıca işlevi nedir?",
+   "options": [
+    "Yanağı dişlere bastırarak çiğnemede besini dişler arasında tutmak ve üflemek",
+    "Ağzı açmak",
+    "Dili dışarı çıkarmak",
+    "Ağız köşesini yukarı kaldırmak",
+    "Çeneyi kapatmak"
+   ],
+   "answer": 0,
+   "explanation": "Buccinator yanağın kas tabakasıdır; besinin yanakla dişler arasına kaçmasını önler ve üflemede (trompet çalma) yanağı sıkar. N. facialis ile innerve edilir; içinden ductus parotideus geçer.",
+   "entries": [
+    "m-buccinator"
+   ]
+  },
+  {
+   "id": "mu-20439cf3",
+   "group": "Baş kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ağız köşesini aşağı çeken (üzgün ifade veren) kas hangisidir?",
+   "options": [
+    "M. levator anguli oris",
+    "M. levator labii superioris",
+    "M. depressor anguli oris",
+    "M. zygomaticus major",
+    "M. risorius"
+   ],
+   "answer": 2,
+   "explanation": "Depressor anguli oris mandibulanın alt kenarından ağız köşesine uzanır ve köşeyi aşağı çeker. Zygomaticus major köşeyi yukarı-dışa çeker (gülümseme).",
+   "entries": [
+    "m-depressor-anguli-oris"
+   ]
+  },
+  {
+   "id": "mu-c19c6bea",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Boynu ön ve arka üçgenlere ayıran kas hangisidir?",
+   "options": [
+    "M. scalenus anterior",
+    "M. trapezius",
+    "M. sternocleidomastoideus",
+    "M. digastricus",
+    "M. omohyoideus"
+   ],
+   "answer": 2,
+   "explanation": "SCM'nin önünde ön üçgen, SCM ile trapezius arasında arka üçgen bulunur. Omohyoideus ve digastricus bu üçgenleri daha küçük üçgenlere böler.",
+   "entries": [
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "mu-ca04a98c",
+   "group": "Boyun kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. scalenus anterior nereden başlar?",
+   "options": [
+    "Os occipitale'den",
+    "C1–C4 transvers çıkıntılarının arka tüberküllerinden",
+    "T1–T4 dikenlerinden",
+    "C3–C6 transvers çıkıntılarının ön tüberküllerinden",
+    "1. kaburgadan"
+   ],
+   "answer": 3,
+   "explanation": "Scalenus anterior C3–C6 transvers çıkıntılarının ön tüberküllerinden başlar ve 1. kaburganın skalen tüberkülüne tutunur; önünden n. phrenicus iner.",
+   "entries": [
+    "m-scalenus-anterior"
+   ]
+  },
+  {
+   "id": "mu-df74918e",
+   "group": "Sırt kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. trapezius'un hangi lifleri skapulayı geriye (omurgaya doğru) çeker?",
+   "options": [
+    "Hiçbiri; trapezius skapulayı geri çekmez",
+    "Üst (inen) lifleri",
+    "Alt (çıkan) lifleri",
+    "Orta (transvers) lifleri",
+    "Yalnızca klaviküler lifleri"
+   ],
+   "answer": 3,
+   "explanation": "Trapeziusun orta lifleri skapulayı retraksiyona getirir. Üst lifler skapulayı kaldırır, alt lifler aşağı çeker; üst ve alt lifler birlikte skapulayı yukarı döndürür.",
+   "entries": [
+    "m-trapezius"
+   ]
+  },
+  {
+   "id": "mu-0d5e6a60",
+   "group": "Göğüs kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Diyafram kasıldığında göğüs boşluğunda ne olur?",
+   "options": [
+    "Göğsün ön-arka çapı azalır.",
+    "Kaburgalar aşağı çekilir ve ekspirasyon olur.",
+    "Kubbe yukarı kalkar ve göğüs hacmi azalır.",
+    "Karın içi basınç düşer.",
+    "Kubbe aşağı iner ve göğsün dikey çapı artar."
+   ],
+   "answer": 4,
+   "explanation": "Diyaframın kasılmasıyla kubbesi düzleşir ve aşağı iner; göğüs boşluğunun dikey çapı artarak hava içeri girer. Bu sırada karın içi basınç artar.",
+   "entries": [
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "mu-2efd9cbe",
+   "group": "Göğüs kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. serratus anterior'un başlıca hareketi hangisidir?",
+   "options": [
+    "Skapulayı öne çekmek (protraksiyon) ve yukarı döndürmek",
+    "Kolu iç rotasyona getirmek",
+    "Kaburgaları aşağı çekmek",
+    "Skapulayı aşağı çekmek ve geri itmek",
+    "Skapulayı geri çekmek"
+   ],
+   "answer": 0,
+   "explanation": "Serratus anterior skapulayı göğüs duvarına bastırır, öne çeker (yumruk atma kası) ve trapeziusla birlikte yukarı döndürerek kolun 90°'nin üzerine kalkmasını sağlar.",
+   "entries": [
+    "m-serratus-anterior"
+   ]
+  },
+  {
+   "id": "mu-ae88dbac",
+   "group": "Göğüs kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. subclavius'u innerve eden sinir hangisidir?",
+   "options": [
+    "N. pectoralis lateralis",
+    "N. phrenicus",
+    "N. dorsalis scapulae",
+    "N. thoracicus longus",
+    "N. subclavius (C5–C6)"
+   ],
+   "answer": 4,
+   "explanation": "N. subclavius plexus brachialis'in üst gövdesinden çıkan küçük bir daldır; bazen n. phrenicus'a katılan aksesuar frenik sinir verir.",
+   "entries": [
+    "m-subclavius"
+   ]
+  },
+  {
+   "id": "mu-366192ec",
+   "group": "Karın kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. transversus abdominis'in başlıca işlevi nedir?",
+   "options": [
+    "Gövdeyi öne bükmek",
+    "Gövdeyi yana döndürmek",
+    "Karın duvarını sıkıştırarak karın içi basıncı artırmak",
+    "Pelvisi öne eğmek",
+    "Kaburgaları yukarı kaldırmak"
+   ],
+   "answer": 2,
+   "explanation": "Transversus abdominis yatay lifleriyle bir kemer gibi karın duvarını sıkar; öksürme, ıkınma, doğum ve zorlu ekspirasyonda karın içi basıncı artırır ve gövdeyi stabilize eder.",
+   "entries": [
+    "m-transversus-abdominis"
+   ]
+  },
+  {
+   "id": "mu-05477470",
+   "group": "Karın kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Canalis inguinalis'in ön duvarını oluşturan başlıca yapı hangisidir?",
+   "options": [
+    "Fascia transversalis",
+    "Lig. inguinale",
+    "M. obliquus externus abdominis aponevrozu",
+    "Falx inguinalis (conjoint tendon)",
+    "M. rectus abdominis"
+   ],
+   "answer": 2,
+   "explanation": "İnguinal kanalın ön duvarını dış oblik aponevrozu (dışta iç oblik lifleri destekler), arka duvarını fascia transversalis (içte conjoint tendon), tabanını lig. inguinale oluşturur.",
+   "entries": [
+    "m-obliquus-externus",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "mu-adf21325",
+   "group": "Karın kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi m. levator ani'nin bölümlerinden biri değildir?",
+   "options": [
+    "M. puborectalis",
+    "M. pubococcygeus",
+    "M. coccygeus",
+    "M. puboprostaticus/pubovaginalis",
+    "M. iliococcygeus"
+   ],
+   "answer": 2,
+   "explanation": "Levator ani puborectalis, pubococcygeus (pubovaginalis/puboprostaticus lifleriyle) ve iliococcygeus'tan oluşur. Coccygeus pelvis diyafragmasının ayrı bir kasıdır.",
+   "entries": [
+    "m-levator-ani",
+    "diaphragma-pelvis"
+   ]
+  },
+  {
+   "id": "mu-730ee30b",
+   "group": "Omuz kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. teres minor'u innerve eden sinir hangisidir?",
+   "options": [
+    "N. subscapularis inferior",
+    "N. axillaris",
+    "N. thoracodorsalis",
+    "N. radialis",
+    "N. suprascapularis"
+   ],
+   "answer": 1,
+   "explanation": "N. axillaris deltoid ve teres minor'u innerve eder. Supraspinatus ve infraspinatus n. suprascapularis, subscapularis ve teres major subskapular sinirler ile innerve edilir.",
+   "entries": [
+    "m-teres-minor"
+   ]
+  },
+  {
+   "id": "mu-69780f6b",
+   "group": "Kol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. brachialis'in innervasyonu hangisidir?",
+   "options": [
+    "N. medianus",
+    "N. axillaris",
+    "Yalnızca n. radialis",
+    "N. ulnaris",
+    "Esas olarak n. musculocutaneus (dış kısmı n. radialis'ten de lif alır)"
+   ],
+   "answer": 4,
+   "explanation": "Kolun ön bölmesindeki üç kas (biceps, brachialis, coracobrachialis) n. musculocutaneus ile innerve edilir; brachialis'in dış kısmı ek olarak n. radialis'ten lif alır.",
+   "entries": [
+    "m-brachialis"
+   ]
+  },
+  {
+   "id": "mu-e17dab33",
+   "group": "Kol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. anconeus'un işlevi ve innervasyonu hangisidir?",
+   "options": [
+    "Dirseği büker – n. radialis",
+    "Dirsek ekstansiyonuna yardım eder – n. radialis",
+    "El bileğini uzatır – n. ulnaris",
+    "Dirseği büker – n. musculocutaneus",
+    "Önkolu supinasyona getirir – n. medianus"
+   ],
+   "answer": 1,
+   "explanation": "Anconeus lateral epikondilden olecranon'un dış yüzüne uzanan küçük kastır; triceps'e yardım eder ve dirsek eklem kapsülünü germe görevi görür.",
+   "entries": [
+    "m-anconeus"
+   ]
+  },
+  {
+   "id": "mu-36c5af6d",
+   "group": "Önkol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Önkol yüzeyel fleksörlerinin dıştan (radial) içe (ulnar) doğru sırası hangisidir?",
+   "options": [
+    "Flexor carpi radialis, pronator teres, flexor carpi ulnaris, palmaris longus",
+    "Pronator teres, palmaris longus, flexor carpi radialis, flexor carpi ulnaris",
+    "Pronator teres, flexor carpi radialis, palmaris longus, flexor carpi ulnaris",
+    "Palmaris longus, flexor carpi radialis, pronator teres, flexor carpi ulnaris",
+    "Flexor carpi ulnaris, palmaris longus, flexor carpi radialis, pronator teres"
+   ],
+   "answer": 2,
+   "explanation": "Sağ eli göğse koyup başparmağı dışta tutarak dört kası sayabilirsiniz: PT, FCR, PL, FCU. Hepsi medial epikondildeki ortak fleksör başlangıçtan çıkar; FDS bunların derininde yer alır.",
+   "entries": [
+    "m-pronator-teres",
+    "m-flexor-carpi-radialis",
+    "m-palmaris-longus",
+    "m-flexor-carpi-ulnaris"
+   ]
+  },
+  {
+   "id": "mu-6e2f450b",
+   "group": "Önkol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "FDS ve FDP tendonları parmaklarda nereye tutunur?",
+   "options": [
+    "İkisi de proksimal falanksa",
+    "FDS orta falanksa, FDP distal falanksa",
+    "İkisi de distal falanksa",
+    "FDS distal falanksa, FDP orta falanksa",
+    "FDS metakarp başına, FDP orta falanksa"
+   ],
+   "answer": 1,
+   "explanation": "FDS tendonu proksimal falanks düzeyinde ikiye ayrılır (kamper kiazması), FDP tendonu bu ayrıktan geçerek distal falanksa ulaşır. Bu nedenle DIP fleksiyonu yalnızca FDP ile yapılır.",
+   "entries": [
+    "m-flexor-digitorum-superficialis",
+    "m-flexor-digitorum-profundus"
+   ]
+  },
+  {
+   "id": "mu-c1a77b62",
+   "group": "Önkol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Diğer parmaklardan bağımsız olarak işaret parmağını uzatmayı sağlayan kas hangisidir?",
+   "options": [
+    "M. abductor pollicis longus",
+    "M. extensor digitorum",
+    "M. extensor digiti minimi",
+    "M. extensor pollicis longus",
+    "M. extensor indicis"
+   ],
+   "answer": 4,
+   "explanation": "Extensor indicis önkolun derin ekstansörlerindendir ve işaret parmağının bağımsız ekstansiyonunu sağlar (işaret etme). Tendonu tendon transferlerinde sık kullanılır.",
+   "entries": [
+    "m-extensor-indicis"
+   ]
+  },
+  {
+   "id": "mu-b5a54a42",
+   "group": "Önkol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mallet (çekiç) parmak hangi yapının yaralanmasıdır?",
+   "options": [
+    "MCP ekleminin kollateral bağı",
+    "PIP ekleminin volar plağı",
+    "Ekstansör tendonun distal falanksa tutunan terminal bölümü",
+    "Ekstansör tendonun merkezi şeridi",
+    "FDP tendonunun distal falanksa tutunması"
+   ],
+   "answer": 2,
+   "explanation": "Parmak ucuna gelen darbeyle ekstansör tendonun distal falanksa tutunan ucu kopar ve hasta DIP eklemini aktif olarak uzatamaz. Merkezi şerit yaralanması ise butonyer deformitesi yapar.",
+   "entries": [
+    "m-extensor-digitorum"
+   ]
+  },
+  {
+   "id": "mu-73d28bd6",
+   "group": "Kalça kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. piriformis'in başlıca hareketi hangisidir?",
+   "options": [
+    "Kalçanın addüksiyonu",
+    "Dizin fleksiyonu",
+    "Kalçanın fleksiyonu",
+    "Kalçanın dış rotasyonu",
+    "Kalçanın iç rotasyonu"
+   ],
+   "answer": 3,
+   "explanation": "Piriformis sakrumun ön yüzünden başlayıp foramen ischiadicum majus'tan geçerek trochanter major'a tutunur; kalçayı dış rotasyona, fleksiyondayken abdüksiyona getirir.",
+   "entries": [
+    "m-piriformis"
+   ]
+  },
+  {
+   "id": "mu-c21bde83",
+   "group": "Kalça kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kalçanın derin dış rotatörlerinin yukarıdan aşağı sırası hangisidir?",
+   "options": [
+    "Obturatorius internus, piriformis, quadratus femoris, gemellus superior, gemellus inferior",
+    "Piriformis, obturatorius internus, gemellus superior, gemellus inferior, quadratus femoris",
+    "Quadratus femoris, gemellus inferior, obturatorius internus, gemellus superior, piriformis",
+    "Gemellus superior, piriformis, gemellus inferior, obturatorius internus, quadratus femoris",
+    "Piriformis, gemellus superior, obturatorius internus, gemellus inferior, quadratus femoris"
+   ],
+   "answer": 4,
+   "explanation": "Gluteus maximus kaldırıldığında yukarıdan aşağı piriformis, gemellus superior, obturatorius internus tendonu, gemellus inferior ve quadratus femoris görülür; obturatorius externus daha derindedir.",
+   "entries": [
+    "mm-rotatores-coxae"
+   ]
+  },
+  {
+   "id": "mu-3710da53",
+   "group": "Uyluk kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. sartorius'un hareketleri hangileridir?",
+   "options": [
+    "Yalnızca dizi uzatır",
+    "Kalçayı addüksiyon ve iç rotasyona getirir",
+    "Yalnızca kalçayı büker",
+    "Kalçayı büker, abdüksiyon ve dış rotasyona getirir; dizi büker",
+    "Kalçayı uzatır ve dizi uzatır"
+   ],
+   "answer": 3,
+   "explanation": "Sartorius bağdaş kurma pozisyonunu sağlayan hareketlerin hepsini yapar: kalça fleksiyonu, abdüksiyonu, dış rotasyonu ve diz fleksiyonu. N. femoralis ile innerve edilir.",
+   "entries": [
+    "m-sartorius"
+   ]
+  },
+  {
+   "id": "mu-488b8c00",
+   "group": "Uyluk kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Femoral üçgenin iç (medial) sınırını oluşturan kas hangisidir?",
+   "options": [
+    "M. iliopsoas",
+    "M. adductor longus",
+    "M. pectineus",
+    "M. gracilis",
+    "M. sartorius"
+   ],
+   "answer": 1,
+   "explanation": "Femoral üçgen yukarıda lig. inguinale, dışta sartorius, içte adductor longus'un iç kenarıyla sınırlanır. Tabanını iliopsoas, pectineus ve adductor longus yapar.",
+   "entries": [
+    "m-adductor-longus"
+   ]
+  },
+  {
+   "id": "mu-0aeb820d",
+   "group": "Uyluk kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Patellar (diz) refleksi hangi spinal segmenti en çok değerlendirir?",
+   "options": [
+    "S1",
+    "L5",
+    "L2",
+    "S2",
+    "L4"
+   ],
+   "answer": 4,
+   "explanation": "Patellar refleks n. femoralis ile L2–L4 segmentlerinden, özellikle L4'ten geçer. Aşil refleksi S1, biseps refleksi C5, triseps refleksi C7 segmentini değerlendirir.",
+   "entries": [
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "mu-4133a9b8",
+   "group": "Kol kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Biseps tendon refleksi hangi spinal segmenti en çok değerlendirir?",
+   "options": [
+    "C8",
+    "C7",
+    "C5",
+    "C3",
+    "T1"
+   ],
+   "answer": 2,
+   "explanation": "Biseps refleksi n. musculocutaneus ile C5–C6, özellikle C5 segmentini değerlendirir. Brakiyoradyal refleks C6, triseps refleksi C7 içindir.",
+   "entries": [
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "mu-ef6cce8c",
+   "group": "Bacak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdaki kaslardan hangisi bacağın ön bölmesinde yer almaz?",
+   "options": [
+    "M. fibularis brevis",
+    "M. extensor digitorum longus",
+    "M. tibialis anterior",
+    "M. fibularis tertius",
+    "M. extensor hallucis longus"
+   ],
+   "answer": 0,
+   "explanation": "Ön bölmede tibialis anterior, EHL, EDL ve fibularis tertius bulunur ve n. fibularis profundus ile innerve edilir. Fibularis brevis lateral bölmededir (n. fibularis superficialis).",
+   "entries": [
+    "m-tibialis-anterior",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "mu-7996df31",
+   "group": "Bacak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. gastrocnemius'un iki başı nereden başlar?",
+   "options": [
+    "Tibia ve fibulanın arka yüzünden",
+    "Femurun medial ve lateral kondillerinin arka yüzünden",
+    "Patella ve lig. patellae'den",
+    "Tuber ischiadicum'dan",
+    "Linea musculi solei'den"
+   ],
+   "answer": 1,
+   "explanation": "Gastrocnemius femur kondillerinden başladığı için diz eklemini de geçer ve dizi bükmeye yardım eder. Soleus tibia ve fibuladan başlar ve dizi geçmez.",
+   "entries": [
+    "m-gastrocnemius"
+   ]
+  },
+  {
+   "id": "mu-d1e6dcde",
+   "group": "Bacak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "M. popliteus'u innerve eden sinir hangisidir?",
+   "options": [
+    "N. femoralis",
+    "N. tibialis",
+    "N. fibularis communis",
+    "N. saphenus",
+    "N. obturatorius"
+   ],
+   "answer": 1,
+   "explanation": "Popliteus diz çukurunun tabanındaki kastır; tam ekstansiyonda kilitlenen dizi açar ve n. tibialis ile innerve edilir.",
+   "entries": [
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "mu-3811c4d1",
+   "group": "Ayak kasları",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ayak tabanı kaslarının birinci (en yüzeyel) tabakasında hangileri bulunur?",
+   "options": [
+    "M. extensor digitorum brevis ve m. extensor hallucis brevis",
+    "Mm. interossei plantares ve dorsales",
+    "M. quadratus plantae ve mm. lumbricales",
+    "M. abductor hallucis, m. flexor digitorum brevis ve m. abductor digiti minimi",
+    "M. flexor hallucis brevis ve m. adductor hallucis"
+   ],
+   "answer": 3,
+   "explanation": "Ayak tabanı kasları dört tabakadır: 1. abductor hallucis, FDB, abductor digiti minimi; 2. quadratus plantae, lumbrikaller; 3. FHB, adductor hallucis, FDMB; 4. interosseöz kaslar.",
+   "entries": [
+    "mm-plantares"
+   ]
+  },
+  {
+   "id": "mu-cb57c01f",
+   "group": "Uyluk kasları",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Basketbolda sıçradıktan sonra yere inen oyuncu diz önünde ağrı tarifliyor ve dizini aktif olarak uzatamıyor; patella normalden yukarıda görülüyor. En olası tanı hangisidir?",
+   "options": [
+    "Ön çapraz bağ yırtığı",
+    "Patellar tendon (lig. patellae) yırtığı",
+    "Medial menisküs yırtığı",
+    "Quadriceps tendon yırtığı",
+    "Patella çıkığı"
+   ],
+   "answer": 1,
+   "explanation": "Lig. patellae yırtıldığında quadriceps patellayı yukarı çeker (patella alta) ve ekstansör mekanizma bozulduğu için diz aktif olarak uzatılamaz. Quadriceps tendon yırtığında ise patella aşağıda kalır (patella baja).",
+   "entries": [
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "mu-e59cf28c",
+   "group": "Baş kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Damak kaslarından n. mandibularis (V3) ile innerve edilen tek kas hangisidir?",
+   "options": [
+    "M. palatoglossus",
+    "M. levator veli palatini",
+    "M. palatopharyngeus",
+    "M. uvulae",
+    "M. tensor veli palatini"
+   ],
+   "answer": 4,
+   "explanation": "Damak kaslarının hepsi plexus pharyngeus aracılığıyla n. vagus ile innerve edilir; tek istisna 1. ark kökenli tensor veli palatini'dir (V3). Tensor tympani de aynı şekilde V3 ile innerve edilir."
+  },
+  {
+   "id": "mu-6fb5ef1a",
+   "group": "Baş kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Orta kulak kaslarının innervasyonu hangisinde doğru verilmiştir?",
+   "options": [
+    "İkisi de n. glossopharyngeus",
+    "İkisi de n. facialis",
+    "M. tensor tympani – n. vagus; m. stapedius – n. facialis",
+    "M. tensor tympani – n. facialis; m. stapedius – n. mandibularis",
+    "M. tensor tympani – n. mandibularis (V3); m. stapedius – n. facialis (VII)"
+   ],
+   "answer": 4,
+   "explanation": "Tensor tympani 1. ark kökenlidir (V3), stapedius 2. ark kökenlidir (VII). Fasiyal sinirin stapedius dalından önceki lezyonlarında hiperakuzi görülür."
+  },
+  {
+   "id": "mu-568138c7",
+   "group": "Göğüs kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Diyaframın sağ krusu hangi omurlardan başlar?",
+   "options": [
+    "L1–L3 omur gövdeleri",
+    "L1–L2 omur gövdeleri",
+    "L3–L5 omur gövdeleri",
+    "T12–L1 omur gövdeleri",
+    "T10–T12 omur gövdeleri"
+   ],
+   "answer": 0,
+   "explanation": "Sağ krus L1–L3, daha kısa sol krus L1–L2 omur gövdelerinden başlar. Sağ krusun lifleri özofagusu halka gibi çevreleyerek hiatus oesophageus'u oluşturur.",
+   "entries": [
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "mu-2b4b7a06",
+   "group": "Göğüs kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Konjenital diyafram hernisinin en sık tipi ve yeri hangisidir?",
+   "options": [
+    "Morgagni hernisi – anteromedial, çoğunlukla sağda",
+    "Bochdalek hernisi – anteromedial, çoğunlukla sağda",
+    "Hiatal herni – özofageal açıklık",
+    "Bochdalek hernisi – posterolateral, çoğunlukla solda",
+    "Morgagni hernisi – posterolateral, solda"
+   ],
+   "answer": 3,
+   "explanation": "Bochdalek hernisi plöroperitoneal zarın kapanmamasıyla posterolateral bölgede (en sık solda) oluşur ve yenidoğanda akciğer hipoplazisine yol açar. Morgagni hernisi daha nadir ve anteromedialdir.",
+   "entries": [
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "mu-64e5a84c",
+   "group": "Omuz kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Erb–Duchenne paralizisinde (üst gövde, C5–C6) kolun tipik pozisyonu hangisidir?",
+   "options": [
+    "Kol normal, yalnızca başparmak opozisyonu kayıp",
+    "Kol addüksiyon ve iç rotasyonda, önkol ekstansiyon ve pronasyonda ('garson bahşiş eli')",
+    "Kol abdüksiyon ve dış rotasyonda, önkol fleksiyonda",
+    "Düşük el (el bileği fleksiyonda)",
+    "El parmakları pençe şeklinde, kol normal"
+   ],
+   "answer": 1,
+   "explanation": "C5–C6 hasarında deltoid, supraspinatus, infraspinatus, biceps ve brachialis felç olur; kol yanda addüksiyon ve iç rotasyonda, önkol ekstansiyon ve pronasyonda kalır. Doğum travması ve omuz-boyun açılmasıyla olur.",
+   "entries": [
+    "m-deltoideus",
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "mu-0fe418f7",
+   "group": "El kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Klumpke paralizisinde (alt gövde, C8–T1) en çok etkilenen kaslar hangileridir?",
+   "options": [
+    "Rotator manşet kasları",
+    "Triceps ve anconeus",
+    "Önkol supinatörleri",
+    "Deltoid ve biceps",
+    "Elin intrinsik kasları"
+   ],
+   "answer": 4,
+   "explanation": "C8–T1 köklerinin zedelenmesi (kolun aşırı abdüksiyonla çekilmesi) elin tüm intrinsik kaslarını etkiler ve pençe el oluşur; T1 sempatik lifleri tutulursa Horner sendromu eşlik edebilir.",
+   "entries": [
+    "mm-interossei-manus"
+   ]
+  },
+  {
+   "id": "mu-4c3ad44c",
+   "group": "Kol kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Humerus orta 1/3 kırığında n. radialis yaralandığında m. triceps brachii neden genellikle korunur?",
+   "options": [
+    "Triseps dalları sinir spiral oluğa girmeden önce ayrılır.",
+    "Triceps n. axillaris ile innerve edilir.",
+    "Triceps n. ulnaris ile innerve edilir.",
+    "Triceps çift innervasyon alır.",
+    "Sinir spiral olukta tricepsin içinden geçmez."
+   ],
+   "answer": 0,
+   "explanation": "N. radialis kolun üst kısmında, sulcus nervi radialis'e girmeden önce tricepsin uzun ve medial başlarına dallarını verir. Bu nedenle orta 1/3 kırığında dirsek ekstansiyonu çoğunlukla korunur, düşük el gelişir.",
+   "entries": [
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "mu-06305979",
+   "group": "Önkol kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Rugby'de rakibin formasını tutarken parmağı zorla uzatılan oyuncuda DIP eklemi aktif olarak bükülemiyor (jersey parmak). Hangi tendon kopmuştur?",
+   "options": [
+    "M. lumbricalis",
+    "M. flexor digitorum superficialis",
+    "M. flexor digitorum profundus",
+    "Ekstansör tendonun terminal bölümü",
+    "M. interosseus palmaris"
+   ],
+   "answer": 2,
+   "explanation": "Jersey parmakta FDP tendonu distal falanks tabanından avülse olur; en sık yüzük parmağı etkilenir. DIP fleksiyonunu yalnızca FDP yaptığı için bu hareket kaybolur.",
+   "entries": [
+    "m-flexor-digitorum-profundus"
+   ]
+  },
+  {
+   "id": "mu-fd7114cd",
+   "group": "Kalça kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "M. quadratus femoris'i innerve eden sinir hangisidir?",
+   "options": [
+    "N. gluteus inferior",
+    "N. musculi quadrati femoris (L4–S1)",
+    "N. musculi obturatorii interni",
+    "N. obturatorius",
+    "N. ischiadicus'un tibial bölümü"
+   ],
+   "answer": 1,
+   "explanation": "Quadratus femoris ve gemellus inferior'u sakral pleksustan gelen n. quadratus femoris innerve eder. Obturatorius internus ve gemellus superior ise n. obturatorius internus ile innerve edilir.",
+   "entries": [
+    "m-quadratus-femoris"
+   ]
+  },
+  {
+   "id": "mu-5f7018d9",
+   "group": "Uyluk kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Femoral üçgenin tabanını (zeminini) oluşturan kaslar hangileridir?",
+   "options": [
+    "İliopsoas, pectineus ve adductor longus",
+    "Adductor magnus ve semimembranosus",
+    "Vastus medialis ve vastus intermedius",
+    "Sartorius ve gracilis",
+    "Gluteus medius ve minimus"
+   ],
+   "answer": 0,
+   "explanation": "Femoral üçgenin tabanı dıştan içe iliopsoas, pectineus ve adductor longus tarafından oluşturulur; tavanını fascia lata ve fascia cribrosa örter.",
+   "entries": [
+    "m-iliopsoas",
+    "m-pectineus",
+    "m-adductor-longus"
+   ]
+  },
+  {
+   "id": "mu-617924a3",
+   "group": "Uyluk kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sprint koşucularında en sık yırtılan hamstring kası hangisidir?",
+   "options": [
+    "M. biceps femoris'in kısa başı",
+    "M. adductor magnus'un hamstring bölümü",
+    "M. semitendinosus",
+    "M. biceps femoris'in uzun başı",
+    "M. semimembranosus"
+   ],
+   "answer": 3,
+   "explanation": "Biceps femoris uzun başı, koşunun salınım fazının sonunda eksantrik olarak aşırı gerildiğinden en sık yaralanan hamstring kasıdır.",
+   "entries": [
+    "m-biceps-femoris"
+   ]
+  },
+  {
+   "id": "mu-ea64d105",
+   "group": "Ayak kasları",
+   "level": "tus",
+   "clinical": false,
+   "stem": "M. quadratus plantae'nin işlevi nedir?",
+   "options": [
+    "Ayak başparmağını abdüksiyona getirmek",
+    "Ayağı everziyona getirmek",
+    "Ayak parmaklarını uzatmak",
+    "İç kemeri yükseltmek",
+    "FDL tendonunun eğik çekişini düzelterek parmak fleksiyonunu doğrultmak"
+   ],
+   "answer": 4,
+   "explanation": "Quadratus plantae kalkaneustan FDL tendonunun dış kenarına tutunur; FDL'nin malleolus medialis arkasından gelen eğik çekişini düzelterek parmakların düz bükülmesini sağlar. N. plantaris lateralis ile innerve edilir.",
+   "entries": [
+    "m-quadratus-plantae"
+   ]
+  },
+  {
+   "id": "mu-e51f982b",
+   "group": "Kalça kasları",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Total kalça protezi ameliyatından sonra hastada ayak bileğini kaldıramama (düşük ayak) ve bacağın dış yanında uyuşukluk gelişiyor. En olası hasar hangisidir?",
+   "options": [
+    "N. femoralis zedelenmesi",
+    "N. tibialis zedelenmesi",
+    "N. obturatorius zedelenmesi",
+    "N. ischiadicus'un fibular bölümünün zedelenmesi",
+    "N. gluteus superior zedelenmesi"
+   ],
+   "answer": 3,
+   "explanation": "Kalça cerrahisinde siyatik sinirin yüzeyel ve daha az bağ dokusuyla korunan fibular bölümü daha sık zedelenir; dorsifleksiyon ve everziyon kaybı ile bacak dış yüzünde duyu kaybı gelişir.",
+   "entries": [
+    "mm-rotatores-coxae"
+   ]
   }
  ]
 }

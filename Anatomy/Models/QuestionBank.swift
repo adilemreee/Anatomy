@@ -3,8 +3,8 @@
 //  Anatomy
 //
 //  The written question bank (questions-<system>.json, authored in
-//  tools/content/questions): original faculty and TUS level questions with
-//  five options and explained answers.
+//  tools/content/questions): original basic, faculty and TUS level questions
+//  with five options and explained answers.
 //
 
 import Foundation
@@ -12,6 +12,8 @@ import Observation
 
 /// How hard a question is meant to be.
 nonisolated enum QuestionLevel: String, Codable, CaseIterable, Identifiable, Sendable {
+    /// Basic: names, positions and the main facts every student should know.
+    case basic
     /// Committee / faculty exam level.
     case faculty
     /// TUS level: details, clinical reasoning, exceptions.
@@ -21,8 +23,9 @@ nonisolated enum QuestionLevel: String, Codable, CaseIterable, Identifiable, Sen
 
     var title: String {
         switch self {
-        case .faculty: "Fakülte"
-        case .tus: "TUS"
+        case .basic: String(localized: "Temel")
+        case .faculty: String(localized: "Fakülte")
+        case .tus: String(localized: "TUS")
         }
     }
 }
@@ -88,7 +91,7 @@ final class QuestionBank {
             var out: [BankQuestion] = []
             let decoder = JSONDecoder()
             for system in systems {
-                guard let url = Bundle.main.url(forResource: "questions-\(system)", withExtension: "json"),
+                guard let url = AppLanguage.url(for: "questions-\(system)"),
                       let data = try? Data(contentsOf: url) else { continue }
                 do {
                     let file = try decoder.decode(QuestionFile.self, from: data)

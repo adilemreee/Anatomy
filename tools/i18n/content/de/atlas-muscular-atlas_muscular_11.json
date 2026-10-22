@@ -1,0 +1,311 @@
+{
+ "m-extensor-carpi-radialis-longus": {
+  "tr": "M. extensor carpi radialis longus",
+  "summary": "Muskel am hinteren Außenrand (radial) des Unterarms direkt hinter dem Brachioradialis; er fixiert das Handgelenk beim Faustschluss.",
+  "facts": [
+   "Unteres Drittel der Crista supracondylaris lateralis humeri und Septum intermusculare laterale",
+   "Dorsalfläche der Basis des 2. Mittelhandknochens",
+   "N. radialis (C6–C7)",
+   "A. recurrens radialis, A. radialis",
+   "Extension und Radialabduktion des Handgelenks"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Er erhält einen Ast direkt aus dem Hauptstamm des N. radialis vor Abgang des tiefen Astes; daher bleibt er bei Läsionen im Supinatorkanal (N. interosseus posterior) erhalten und das Handgelenk weicht nach radial ab."
+  ],
+  "aliases": [
+   "ECRL"
+  ]
+ },
+ "m-extensor-carpi-radialis-brevis": {
+  "tr": "M. extensor carpi radialis brevis",
+  "summary": "Muskel unter dem langen radialen Strecker, der von der gemeinsamen Streckersehne entspringt; häufigste Ursache der Epicondylitis lateralis.",
+  "facts": [
+   "Epicondylus lateralis humeri (gemeinsame Streckersehne) und Lig. collaterale radiale",
+   "Dorsalfläche der Basis des 3. Mittelhandknochens",
+   "R. profundus des N. radialis (C7–C8)",
+   "A. recurrens radialis, A. radialis",
+   "Extension und Radialabduktion des Handgelenks"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Epicondylitis lateralis (Tennisellenbogen) ist meist eine Ursprungstendinopathie dieses Muskels; Handgelenk- und Mittelfingerstreckung gegen Widerstand sind schmerzhaft."
+  ],
+  "tus": [],
+  "aliases": [
+   "ECRB"
+  ]
+ },
+ "m-extensor-digiti-minimi": {
+  "tr": "M. extensor digiti minimi",
+  "summary": "Schlanker Muskel, der sich vom ulnaren Rand des Extensor digitorum abspaltet; seine Sehne zieht durch das 5. Strecksehnenfach.",
+  "facts": [
+   "Epicondylus lateralis humeri (gemeinsame Streckersehne)",
+   "Dorsalaponeurose des 5. Fingers",
+   "N. interosseus posterior (tiefer Ast des N. radialis, C7–C8)",
+   "A. interossea posterior",
+   "Streckt den Kleinfinger"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "Kleinfingerstrecker"
+  ]
+ },
+ "m-extensor-indicis": {
+  "tr": "M. extensor indicis",
+  "summary": "Muskel der tiefen hinteren Unterarmschicht, der die unabhängige Streckung des Zeigefingers ermöglicht.",
+  "facts": [
+   "Unterer Teil der Ulnarückfläche und Membrana interossea",
+   "Dorsalaponeurose des Zeigefingers (ulnar der Extensor-digitorum-Sehne)",
+   "N. interosseus posterior (C7–C8)",
+   "A. interossea posterior",
+   "Streckt den Zeigefinger unabhängig"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Er ist ein häufig genutzter Spendermuskel für Sehnentransfers (z. B. bei EPL-Ruptur)."
+  ],
+  "aliases": [
+   "Zeigefingerstrecker",
+   "EIP"
+  ]
+ },
+ "m-abductor-pollicis-longus": {
+  "tr": "M. abductor pollicis longus",
+  "summary": "Muskel aus der tiefen hinteren Unterarmschicht zum Daumen; seine Sehne verläuft mit der EPB-Sehne im 1. Strecksehnenfach.",
+  "facts": [
+   "Rückflächen von Ulna und Radius sowie Membrana interossea",
+   "Außenfläche der Basis des 1. Mittelhandknochens",
+   "N. interosseus posterior (C7–C8)",
+   "A. interossea posterior",
+   "Abduktion und Extension des Daumens im Karpometakarpalgelenk; unterstützt die Radialabduktion des Handgelenks"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei der Tendovaginitis de Quervain sind APL- und EPB-Sehne im 1. Strecksehnenfach entzündet; der Finkelstein-Test ist positiv."
+  ],
+  "tus": [
+   "Mit dem EPB bildet er die radiale Begrenzung der Tabatière."
+  ],
+  "aliases": [
+   "APL",
+   "langer Daumenabspreizer"
+  ]
+ },
+ "m-extensor-pollicis-brevis": {
+  "tr": "M. extensor pollicis brevis",
+  "summary": "Kurzer Muskel direkt unter dem APL, den er begleitet.",
+  "facts": [
+   "Rückfläche des Radius und Membrana interossea",
+   "Dorsalfläche der Basis der Daumengrundphalanx",
+   "N. interosseus posterior (C7–C8)",
+   "A. interossea posterior",
+   "Streckt den Daumen im Metakarpophalangealgelenk"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "EPB",
+   "kurzer Daumenstrecker"
+  ]
+ },
+ "m-extensor-pollicis-longus": {
+  "tr": "M. extensor pollicis longus",
+  "summary": "Muskel, dessen Sehne um den Tuberculum dorsale radii (Lister-Höcker) zur Daumenendphalanx umgelenkt wird.",
+  "facts": [
+   "Mittleres Drittel der Ulnarückfläche und Membrana interossea",
+   "Dorsalfläche der Basis der Daumenendphalanx",
+   "N. interosseus posterior (C7–C8)",
+   "A. interossea posterior",
+   "Streckt den Daumen im Interphalangeal- und MCP-Gelenk"
+  ],
+  "sections": [],
+  "clinical": [
+   "Nach distaler Radiusfraktur (v. a. durch Reibung am Lister-Höcker) kann die Sehne reißen („Trommlerlähmung“); die Daumenspitze lässt sich nicht mehr anheben."
+  ],
+  "tus": [
+   "Er bildet die ulnare Begrenzung der Tabatière; in ihrem Boden liegen Os scaphoideum und A. radialis."
+  ],
+  "aliases": [
+   "EPL",
+   "langer Daumenstrecker"
+  ]
+ },
+ "m-abductor-pollicis-brevis": {
+  "tr": "M. abductor pollicis brevis",
+  "summary": "Der oberflächlichste und am weitesten lateral gelegene Muskel des Daumenballens.",
+  "facts": [
+   "Retinaculum flexorum, Tuberculum ossis scaphoidei und Tuberculum ossis trapezii",
+   "Radiale Seite der Basis der Daumengrundphalanx",
+   "R. recurrens des N. medianus (C8–T1)",
+   "R. palmaris superficialis der A. radialis",
+   "Abduziert den Daumen senkrecht zur Handflächenebene"
+  ],
+  "sections": [],
+  "clinical": [
+   "Er gehört beim Karpaltunnelsyndrom zu den ersten atrophierenden Muskeln; die palmare Abduktionskraft nimmt ab."
+  ],
+  "tus": [],
+  "aliases": [
+   "APB",
+   "Thenar"
+  ]
+ },
+ "m-flexor-pollicis-brevis": {
+  "tr": "M. flexor pollicis brevis",
+  "summary": "Thenarmuskel mit oberflächlichem und tiefem Kopf, die von verschiedenen Nerven innerviert werden.",
+  "facts": [
+   "Caput superficiale: Retinaculum flexorum und Os trapezium; Caput profundum: Os trapezoideum und Os capitatum",
+   "Radiale Seite der Basis der Daumengrundphalanx (radiales Sesambein)",
+   "Caput superficiale: N. medianus (R. recurrens); Caput profundum: R. profundus des N. ulnaris",
+   "R. palmaris superficialis der A. radialis",
+   "Beugt den Daumen im MCP-Gelenk"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Er ist der doppelt innervierte Thenarmuskel und kann daher bei Medianusläsionen teilweise erhalten bleiben."
+  ],
+  "aliases": [
+   "FPB",
+   "kurzer Daumenbeuger"
+  ]
+ },
+ "m-opponens-pollicis": {
+  "tr": "M. opponens pollicis",
+  "summary": "Thenarmuskel in der Tiefe des kurzen Abduktors, der an der gesamten Länge des 1. Mittelhandknochens ansetzt.",
+  "facts": [
+   "Retinaculum flexorum und Tuberculum ossis trapezii",
+   "Gesamter radialer Rand des 1. Mittelhandknochens",
+   "R. recurrens des N. medianus (C8–T1)",
+   "R. palmaris superficialis der A. radialis",
+   "Stellt den Daumen den anderen Fingern gegenüber (Opposition: Flexion, Abduktion und Innenrotation)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Oberflächliche Schnittverletzungen des R. recurrens des N. medianus („Millionen-Dollar-Nerv“) heben die Opposition auf; es entsteht das Bild der Affenhand."
+  ],
+  "tus": [],
+  "aliases": [
+   "Daumengegensteller",
+   "Thenar"
+  ]
+ },
+ "m-adductor-pollicis": {
+  "tr": "M. adductor pollicis",
+  "summary": "Dreieckiger Muskel tief in der Hohlhand mit schrägem und querem Kopf; der vom N. ulnaris versorgte Muskel der Daumenregion.",
+  "facts": [
+   "Caput obliquum: Os capitatum und Basen der 2.–3. Mittelhandknochen; Caput transversum: Palmarfläche des 3. Mittelhandknochens",
+   "Ulnare Seite der Basis der Daumengrundphalanx (ulnares Sesambein)",
+   "R. profundus des N. ulnaris (C8–T1)",
+   "Arcus palmaris profundus",
+   "Adduziert den Daumen; trägt zur Griffkraft bei"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Ulnarisparese beugt der Patient beim Festhalten eines Papiers zwischen Daumen und Zeigefinger den Daumen mit dem FPL (Froment-Zeichen)."
+  ],
+  "tus": [],
+  "aliases": [
+   "Daumenanzieher"
+  ]
+ },
+ "m-abductor-digiti-minimi-manus": {
+  "tr": "M. abductor digiti minimi (Hand)",
+  "summary": "Der oberflächlichste und am weitesten medial gelegene Muskel des Kleinfingerballens.",
+  "facts": [
+   "Os pisiforme und Sehne des M. flexor carpi ulnaris",
+   "Ulnare Seite der Basis der Grundphalanx des 5. Fingers",
+   "R. profundus des N. ulnaris (C8–T1)",
+   "R. palmaris profundus der A. ulnaris",
+   "Abduziert den Kleinfinger"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "Hypothenar"
+  ]
+ },
+ "m-flexor-digiti-minimi-manus": {
+  "tr": "M. flexor digiti minimi brevis (Hand)",
+  "summary": "Hypothenarmuskel lateral des Abduktors.",
+  "facts": [
+   "Hamulus ossis hamati und Retinaculum flexorum",
+   "Basis der Grundphalanx des 5. Fingers",
+   "R. profundus des N. ulnaris",
+   "R. palmaris profundus der A. ulnaris",
+   "Beugt den Kleinfinger im MCP-Gelenk"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "Hypothenar"
+  ]
+ },
+ "m-opponens-digiti-minimi-manus": {
+  "tr": "M. opponens digiti minimi (Hand)",
+  "summary": "Der tiefste Hypothenarmuskel; er setzt am ulnaren Rand des 5. Mittelhandknochens an.",
+  "facts": [
+   "Hamulus ossis hamati und Retinaculum flexorum",
+   "Ulnarer Rand des 5. Mittelhandknochens",
+   "R. profundus des N. ulnaris",
+   "R. palmaris profundus der A. ulnaris",
+   "Zieht den 5. Mittelhandknochen nach vorn außen und stellt ihn dem Daumen gegenüber (Hohlhandbildung)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der tiefe Ulnarisast windet sich um den Hamulus ossis hamati, zieht zwischen Abduktor und kurzem Beuger hindurch und durchbohrt diesen Muskel."
+  ],
+  "aliases": [
+   "Hypothenar"
+  ]
+ },
+ "mm-interossei-dorsales-manus": {
+  "tr": "Mm. interossei dorsales der Hand",
+  "summary": "Vier zweiköpfige Muskeln zwischen den Mittelhandknochen; sie spreizen die Finger von der Achse des Mittelfingers weg.",
+  "facts": [
+   "Einander zugewandte Flächen zweier benachbarter Mittelhandknochen (zweiköpfig)",
+   "Basen der Grundphalangen und Dorsalaponeurose: radiale Seite des 2., beide Seiten des 3., ulnare Seite des 4. Fingers",
+   "R. profundus des N. ulnaris (C8–T1)",
+   "Arcus palmaris profundus, Aa. metacarpales dorsales",
+   "Abduzieren die Finger; beugen im MCP- und strecken in den Interphalangealgelenken"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Dorsal abduzieren, palmar adduzieren; der 1. dorsale Interosseus atrophiert bei Ulnarisparese als erster (Einsinken des ersten Zwischenfingerraums)."
+  ],
+  "aliases": [
+   "Interossei",
+   "DAB"
+  ]
+ },
+ "mm-interossei-palmares": {
+  "tr": "Mm. interossei palmares",
+  "summary": "Drei (nach manchen Quellen vier) einköpfige Muskeln an der Palmarfläche der Mittelhandknochen; sie führen die Finger zum Mittelfinger.",
+  "facts": [
+   "Dem Mittelfinger zugewandte Palmarflächen des 2., 4. und 5. Mittelhandknochens (einköpfig)",
+   "Basis der Grundphalanx und Dorsalaponeurose desselben Fingers",
+   "R. profundus des N. ulnaris (C8–T1)",
+   "Arcus palmaris profundus, Aa. metacarpales palmares",
+   "Adduzieren die Finger; MCP-Beugung und IP-Streckung"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Ulnarisparese ist der Kartentest (Papier zwischen den Fingern halten) schwach; der Ausfall der Interossei trägt zur Krallenhand bei."
+  ],
+  "tus": [],
+  "aliases": [
+   "Interossei",
+   "PAD"
+  ]
+ }
+}

@@ -1,0 +1,317 @@
+{
+ "m-flexor-digitorum-superficialis": {
+  "tr": "Muscle fléchisseur superficiel des doigts",
+  "summary": "Large muscle formant la couche moyenne de la loge antérieure de l'avant-bras. Ses quatre tendons s'insèrent sur les phalanges moyennes.",
+  "facts": [
+   "Chef huméro-ulnaire : épicondyle médial de l'humérus et processus coronoïde ; chef radial : partie haute de la face antérieure du radius",
+   "Bords des phalanges moyennes des doigts 2 à 5 (les tendons se divisent pour laisser passer le FPD)",
+   "Nerf médian (C7–T1)",
+   "Artères ulnaire et radiale",
+   "Fléchit les doigts au niveau des interphalangiennes proximales (IPP) ; aide la flexion des MCP et du poignet"
+  ],
+  "sections": [],
+  "clinical": [
+   "Test : les autres doigts maintenus en extension (neutralisant le FPD), on fait fléchir l'IPP du doigt examiné."
+  ],
+  "tus": [
+   "Le FSD fléchit l'interphalangienne proximale ; lors de son test, les autres doigts sont maintenus en extension.",
+   "Avant de s'insérer sur la phalange moyenne, les tendons du FSD se divisent pour laisser passer le tendon du FPD (chiasma tendineux)."
+  ],
+  "aliases": [
+   "FSD",
+   "fléchisseur commun superficiel"
+  ]
+ },
+ "m-flexor-digitorum-profundus": {
+  "tr": "Muscle fléchisseur profond des doigts",
+  "summary": "Muscle de la couche profonde de la loge antérieure de l'avant-bras qui fléchit l'extrémité des doigts. Il a une double innervation.",
+  "facts": [
+   "3/4 supérieurs des faces antérieure et médiale de l'ulna et membrane interosseuse",
+   "Bases des phalanges distales des doigts 2 à 5",
+   "Moitié latérale (doigts 2–3) : nerf interosseux antérieur (branche du médian) ; moitié médiale (doigts 4–5) : nerf ulnaire (C8–T1)",
+   "Artère ulnaire, artère interosseuse antérieure",
+   "Fléchit l'extrémité des doigts au niveau des interphalangiennes distales (IPD) ; aide la flexion de toutes les articulations des doigts et du poignet"
+  ],
+  "sections": [],
+  "clinical": [
+   "Doigt du rugbyman (jersey finger) : arrachement du tendon du FPD de l'annulaire de la phalange distale.",
+   "Dans une lésion haute du nerf ulnaire, la flexion des IPD des doigts 4–5 est perdue."
+  ],
+  "tus": [
+   "Le FPD est le seul muscle qui fléchit l'interphalangienne distale.",
+   "Le jersey finger est l'arrachement du tendon du FPD (le plus souvent du 4e doigt) de la phalange distale."
+  ],
+  "aliases": [
+   "FPD",
+   "fléchisseur commun profond"
+  ]
+ },
+ "m-flexor-pollicis-longus": {
+  "tr": "Muscle long fléchisseur du pouce",
+  "summary": "Muscle de la couche profonde antérieure de l'avant-bras, en avant du radius, qui fléchit l'extrémité du pouce.",
+  "facts": [
+   "Face antérieure du radius et membrane interosseuse",
+   "Base de la phalange distale du pouce",
+   "Nerf interosseux antérieur (nerf médian ; C7–C8)",
+   "Artère interosseuse antérieure",
+   "Fléchit l'interphalangienne et la MCP du pouce"
+  ],
+  "sections": [],
+  "clinical": [
+   "En cas de lésion du nerf interosseux antérieur, le pouce et l'index ne peuvent faire le signe « OK » (pince altérée)."
+  ],
+  "tus": [
+   "Le long fléchisseur du pouce est le seul muscle qui fléchit l'IP du pouce ; il est innervé par le nerf interosseux antérieur."
+  ],
+  "aliases": [
+   "LFP"
+  ]
+ },
+ "m-pronator-quadratus": {
+  "tr": "Muscle carré pronateur",
+  "summary": "Muscle quadrilatère transversal tendu entre le radius et l'ulna à l'extrémité inférieure de l'avant-bras ; principal muscle de la pronation.",
+  "facts": [
+   "1/4 inférieur de la face antérieure de l'ulna",
+   "1/4 inférieur de la face antérieure du radius",
+   "Nerf interosseux antérieur (nerf médian ; C7–C8)",
+   "Artère interosseuse antérieure",
+   "Prone l'avant-bras ; maintient la cohésion de l'articulation radio-ulnaire distale"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le carré pronateur est le principal initiateur de la pronation ; il est innervé par le nerf interosseux antérieur."
+  ],
+  "aliases": [
+   "pronateur"
+  ]
+ },
+ "m-brachioradialis": {
+  "tr": "Muscle brachio-radial",
+  "summary": "Muscle superficiel du bord latéral de l'avant-bras. Bien qu'appartenant à la loge postérieure (nerf radial), il fléchit le coude.",
+  "facts": [
+   "2/3 supérieurs de la crête supracondylaire latérale de l'humérus",
+   "Base du processus styloïde du radius",
+   "Nerf radial (C5–C6)",
+   "Artère récurrente radiale",
+   "Fléchit le coude avant-bras en demi-pronation (comme pour tenir un marteau) ; ramène l'avant-bras en position intermédiaire"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le réflexe stylo-radial explore les segments C5–C6."
+  ],
+  "tus": [
+   "Le réflexe stylo-radial explore le segment C6.",
+   "Le bord latéral de la fosse cubitale est formé par le brachio-radial, le bord médial par le rond pronateur."
+  ],
+  "aliases": [
+   "long supinateur"
+  ]
+ },
+ "mm-extensores-carpi-radiales": {
+  "tr": "Muscles long et court extenseurs radiaux du carpe",
+  "summary": "Deux muscles de la face postéro-latérale de l'avant-bras qui étendent le poignet et renforcent ainsi la préhension.",
+  "facts": [
+   "Long : crête supracondylaire latérale de l'humérus ; court : épicondyle latéral de l'humérus (tendon commun des extenseurs)",
+   "Long : base du 2e métacarpien ; court : base du 3e métacarpien",
+   "Long : nerf radial ; court : branche profonde du nerf radial (C6–C7)",
+   "Artère radiale, artère récurrente radiale",
+   "Étendent le poignet et l'inclinent du côté radial ; stabilisent le poignet lors du serrage du poing"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le tennis-elbow (épicondylite latérale) est le plus souvent une lésion de surmenage du tendon du court extenseur radial du carpe à l'épicondyle latéral."
+  ],
+  "tus": [
+   "Le long extenseur radial est innervé par le tronc du nerf radial, le court par sa branche profonde ; le long est épargné dans la paralysie du nerf interosseux postérieur."
+  ],
+  "aliases": [
+   "premier radial",
+   "deuxième radial",
+   "ECRL",
+   "ECRB"
+  ]
+ },
+ "m-extensor-digitorum": {
+  "tr": "Muscle extenseur des doigts",
+  "summary": "Muscle situé au milieu de la face postérieure de l'avant-bras qui étend les doigts par quatre tendons.",
+  "facts": [
+   "Épicondyle latéral de l'humérus (tendon commun des extenseurs)",
+   "Appareil extenseur des doigts 2 à 5 (bases des phalanges moyennes et distales)",
+   "Nerf interosseux postérieur (nerf radial ; C7–C8)",
+   "Artère interosseuse postérieure",
+   "Étend les doigts 2 à 5 au niveau des MCP, IPP et IPD ; aide l'extension du poignet"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "L'appareil extenseur (aponévrose dorsale) reçoit aussi les muscles lombricaux et interosseux.",
+   "La déformation en boutonnière résulte de la rupture de la bandelette médiane ; le col de cygne, d'une laxité de la plaque palmaire et d'un déséquilibre intrinsèque."
+  ],
+  "aliases": [
+   "extenseur de l'index",
+   "extenseur du petit doigt",
+   "extenseur commun"
+  ]
+ },
+ "m-extensor-carpi-ulnaris": {
+  "tr": "Muscle extenseur ulnaire du carpe",
+  "summary": "Muscle extenseur superficiel du bord postéro-médial de l'avant-bras.",
+  "facts": [
+   "Épicondyle latéral de l'humérus et bord postérieur de l'ulna",
+   "Base du 5e métacarpien",
+   "Nerf interosseux postérieur (nerf radial ; C7–C8)",
+   "Artère ulnaire, artère interosseuse postérieure",
+   "Étend le poignet et l'incline du côté ulnaire"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "L'extenseur ulnaire du carpe étend le poignet et l'incline en ulnaire ; il est affaibli dans la paralysie du nerf interosseux postérieur."
+  ],
+  "aliases": [
+   "cubital postérieur",
+   "EUC"
+  ]
+ },
+ "m-supinator": {
+  "tr": "Muscle supinateur",
+  "summary": "Muscle profond de la loge postérieure de l'avant-bras qui enveloppe la partie haute du radius. La branche profonde du nerf radial le traverse pour gagner la loge postérieure.",
+  "facts": [
+   "Épicondyle latéral de l'humérus, ligament collatéral radial, ligament annulaire du radius, crête du muscle supinateur de l'ulna",
+   "Faces latérale, postérieure et antérieure du 1/3 supérieur du radius",
+   "Branche profonde du nerf radial (C6–C7)",
+   "Artère récurrente radiale, artère interosseuse récurrente",
+   "Met l'avant-bras en supination (surtout coude en extension)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le nerf interosseux postérieur peut être comprimé sous l'arcade fibreuse d'entrée du muscle (arcade de Fröhse) ; il apparaît une chute des doigts sans trouble sensitif."
+  ],
+  "tus": [
+   "Le supinateur est traversé par la branche profonde du nerf radial ; une compression à l'arcade de Fröhse provoque le syndrome du nerf interosseux postérieur."
+  ],
+  "aliases": [
+   "court supinateur"
+  ]
+ },
+ "mm-pollicis-longi": {
+  "tr": "Muscles longs du pouce",
+  "summary": "Trois muscles allant de la couche profonde postérieure de l'avant-bras au pouce. Leurs tendons limitent la tabatière anatomique à la face latérale du poignet.",
+  "facts": [
+   "Faces postérieures de l'ulna, du radius et de la membrane interosseuse",
+   "LAP : base du 1er métacarpien ; CEP : base de la phalange proximale du pouce ; LEP : base de la phalange distale du pouce",
+   "Nerf interosseux postérieur (nerf radial ; C7–C8)",
+   "Artère interosseuse postérieure",
+   "Le LAP met le pouce en abduction ; le CEP et le LEP l'étendent"
+  ],
+  "sections": [
+   [
+    "Tabatière anatomique",
+    "Elle est limitée en avant par les tendons du LAP et du CEP et en arrière par celui du LEP. Son plancher est formé par le scaphoïde et le trapèze ; l'artère radiale la traverse."
+   ]
+  ],
+  "clinical": [
+   "Ténosynovite de De Quervain : inflammation des tendons du LAP et du CEP dans le premier compartiment des extenseurs (test de Finkelstein positif).",
+   "Après une fracture distale du radius, le tendon du LEP peut se rompre autour du tubercule de Lister."
+  ],
+  "tus": [
+   "La rupture du tendon du LEP peut survenir autour du tubercule de Lister des semaines après une fracture distale du radius."
+  ],
+  "aliases": [
+   "LAP",
+   "CEP",
+   "LEP",
+   "tabatière"
+  ]
+ },
+ "mm-thenares": {
+  "tr": "Muscles thénariens",
+  "summary": "Groupe formant l'éminence thénar à la base du pouce : court abducteur du pouce, court fléchisseur du pouce, opposant du pouce et, en profondeur, adducteur du pouce.",
+  "facts": [
+   "Rétinaculum des fléchisseurs, scaphoïde et trapèze (adducteur : 2e–3e métacarpiens et capitatum)",
+   "1er métacarpien et phalange proximale du pouce",
+   "Rameau récurrent du nerf médian (court abducteur, chef superficiel du court fléchisseur, opposant) ; branche profonde du nerf ulnaire (adducteur et chef profond du court fléchisseur) – C8–T1",
+   "Rameau palmaire superficiel de l'artère radiale, arcade palmaire profonde",
+   "Abduction, flexion, opposition et adduction du pouce"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans le syndrome du canal carpien apparaissent une amyotrophie thénarienne et un déficit d'opposition.",
+   "Dans une lésion du nerf ulnaire, l'adducteur du pouce est faible ; en serrant une feuille de papier, l'IP du pouce se fléchit (signe de Froment)."
+  ],
+  "tus": [
+   "Les muscles thénariens sont innervés par le rameau récurrent du nerf médian, surnommé le « nerf à un million de dollars ».",
+   "La main de singe résulte de l'amyotrophie thénarienne et de la perte de l'opposition dans les lésions du médian."
+  ],
+  "aliases": [
+   "thénar",
+   "opposant du pouce",
+   "adducteur du pouce"
+  ]
+ },
+ "mm-hypothenares": {
+  "tr": "Muscles hypothénariens",
+  "summary": "Groupe formant l'éminence à la base de l'auriculaire : abducteur du petit doigt, court fléchisseur du petit doigt et opposant du petit doigt.",
+  "facts": [
+   "Pisiforme, hamulus de l'hamatum et rétinaculum des fléchisseurs",
+   "Phalange proximale du 5e doigt et 5e métacarpien",
+   "Branche profonde du nerf ulnaire (C8–T1)",
+   "Branche profonde de l'artère ulnaire",
+   "Abduction, flexion et opposition de l'auriculaire"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une amyotrophie hypothénarienne s'observe dans les lésions du nerf ulnaire."
+  ],
+  "tus": [
+   "Les hypothénariens sont innervés par la branche profonde du nerf ulnaire, le court palmaire par la branche superficielle."
+  ],
+  "aliases": [
+   "hypothénar"
+  ]
+ },
+ "mm-lumbricales-manus": {
+  "tr": "Muscles lombricaux de la main",
+  "summary": "Quatre petits muscles naissant des tendons du fléchisseur profond des doigts ; ils ont la particularité de s'insérer sur un tendon et non sur un os.",
+  "facts": [
+   "Tendons du fléchisseur profond des doigts",
+   "Bord latéral de l'appareil extenseur des doigts 2 à 5",
+   "1er–2e lombricaux : nerf médian ; 3e–4e lombricaux : branche profonde du nerf ulnaire",
+   "Arcades palmaires superficielle et profonde",
+   "Fléchissent les MCP et étendent les interphalangiennes (position du « porteur de plateau »)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans une lésion du nerf ulnaire apparaît une griffe des doigts 4–5 (hyperextension MCP, flexion IP) ; paradoxe ulnaire : dans une lésion haute, la griffe est moins marquée."
+  ],
+  "tus": [
+   "Les lombricaux sont des muscles rares qui naissent des tendons du FPD et ne s'insèrent pas sur un os."
+  ],
+  "aliases": [
+   "lombrical"
+  ]
+ },
+ "mm-interossei-manus": {
+  "tr": "Muscles interosseux de la main",
+  "summary": "Petits muscles situés entre les métacarpiens : quatre interosseux dorsaux et trois interosseux palmaires.",
+  "facts": [
+   "Faces latérales des métacarpiens voisins",
+   "Bases des phalanges proximales et appareil extenseur",
+   "Branche profonde du nerf ulnaire (C8–T1)",
+   "Artères métacarpiennes dorsales et palmaires",
+   "Les interosseux dorsaux écartent les doigts ; les palmaires les rapprochent ; ils aident la flexion des MCP et l'extension des IP"
+  ],
+  "sections": [],
+  "clinical": [
+   "On teste les interosseux palmaires en faisant serrer une feuille de papier entre les doigts ; ils sont faibles dans les lésions du nerf ulnaire, avec une amyotrophie du premier espace dorsal."
+  ],
+  "tus": [
+   "Il y a 4 interosseux dorsaux et 3 (ou 4) palmaires.",
+   "Dans une lésion du nerf ulnaire, l'amyotrophie du premier interosseux dorsal creuse nettement le dos de la main."
+  ],
+  "aliases": [
+   "interosseux"
+  ]
+ }
+}

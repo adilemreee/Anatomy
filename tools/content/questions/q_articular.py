@@ -294,4 +294,7 @@ Q("t", AE, "Lig. sacrospinale ve lig. sacrotuberale'nin oluşturduğu açıklık
   e=["ligg-pelvis", "os-coxae", "os-sacrum"]),
 ]
 
-write("articular", questions)
+from q_articular2 import questions as more
+from q_articular3 import questions as more3
+
+write("articular", questions + more + more3)

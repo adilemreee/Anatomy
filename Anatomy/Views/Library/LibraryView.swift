@@ -188,7 +188,7 @@ struct LibraryView: View {
                     .background(Theme.gold.opacity(0.14), in: .circle)
                 VStack(alignment: .leading, spacing: 2) {
                     Text("Premium aktif").font(.headline).foregroundStyle(Theme.textPrimary)
-                    Text(app.purchases.activePlan.map { "\($0.title) plan" } ?? "Tüm içerik açık")
+                    Text(app.purchases.activePlan.map { String(localized: "\($0.title) plan") } ?? String(localized: "Tüm içerik açık"))
                         .font(.caption)
                         .foregroundStyle(Theme.textSecondary)
                 }
@@ -208,12 +208,12 @@ struct LibraryView: View {
             } label: {
                 VStack(alignment: .leading, spacing: 10) {
                     PremiumBadge()
-                    Text("Tüm sistemleri, inceleme modunu ve soru bankasını aç")
+                    Text("Eklemleri, kasları, inceleme modunu ve soru bankasını aç")
                         .font(.title3.weight(.bold))
                         .foregroundStyle(Color(hex: "2A1D05"))
                         .multilineTextAlignment(.leading)
                     HStack {
-                        Text(app.purchases.trialText(.yearly).map { "\($0) dene" } ?? "Premium'a geç")
+                        Text(app.purchases.trialText(.yearly).map { String(localized: "\($0) dene") } ?? String(localized: "Premium'a geç"))
                             .font(.subheadline.weight(.semibold))
                         Image(systemName: "arrow.right")
                     }
@@ -237,7 +237,7 @@ struct AboutView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Anatomi Atlası")
                         .font(.title2.weight(.bold))
-                    Text("Etkileşimli 3D insan anatomisi atlası: \(app.store.entries.count) Türkçe madde, \(partCount) üç boyutlu yapı.")
+                    Text("Etkileşimli 3D kas-iskelet atlası: \(app.store.entries.count) ayrıntılı madde, \(partCount) üç boyutlu yapı.")
                         .foregroundStyle(Theme.textSecondary)
                 }
                 .padding(.vertical, 4)
@@ -245,19 +245,19 @@ struct AboutView: View {
 
             Section("3D modeller") {
                 credit("Z-Anatomy",
-                       "3D modeller ve İngilizce kaynak metinler Z-Anatomy projesinden alınmıştır (Creative Commons Atıf-AynıLisanslaPaylaş 4.0, CC BY-SA 4.0). Modeller bu uygulama için sadeleştirilmiş, yeniden renklendirilmiş ve sistemlere ayrılmıştır; değiştirilmiş modeller de aynı lisansla sunulur.",
+                       String(localized: "3D modeller ve İngilizce kaynak metinler Z-Anatomy projesinden alınmıştır (Creative Commons Atıf-AynıLisanslaPaylaş 4.0, CC BY-SA 4.0). Modeller bu uygulama için sadeleştirilmiş, yeniden renklendirilmiş ve sistemlere ayrılmıştır; değiştirilmiş modeller de aynı lisansla sunulur."),
                        "github.com/Z-Anatomy", "https://github.com/Z-Anatomy/Models-of-human-anatomy")
                 credit("BodyParts3D",
-                       "Z-Anatomy modelleri BodyParts3D veritabanından türetilmiştir. Karaciğer, mide, bağırsaklar, akciğer lobları, böbrekler ve diğer organlar ile inceleme modundaki yüksek ayrıntılı modeller BodyParts3D 3.0 verisinden hazırlanıp atlasa hizalanmıştır. BodyParts3D, © The Database Center for Life Science (DBCLS), Creative Commons Atıf-AynıLisanslaPaylaş 2.1 Japonya (CC BY-SA 2.1 JP).",
+                       String(localized: "Z-Anatomy modelleri BodyParts3D veritabanından türetilmiştir. Deri, karaciğer, mide, bağırsaklar, akciğer lobları, böbrekler ve diğer organlar ile yüksek ayrıntılı kemikler BodyParts3D 3.0 verisinden hazırlanıp atlasa hizalanmıştır. BodyParts3D, © The Database Center for Life Science (DBCLS), Creative Commons Atıf-AynıLisanslaPaylaş 2.1 Japonya (CC BY-SA 2.1 JP)."),
                        "dbarchive.biosciencedbc.jp/en/bodyparts3d", "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/")
                 credit("Human Reference Atlas (HuBMAP)",
-                       "Rahim, yumurtalıklar, fallop tüpleri, kadın mesanesi ve meme bezi Human Reference Atlas 3D referans organlarından (Visible Human Female, NIH) alınmış ve atlasa hizalanmıştır. Creative Commons Atıf 4.0 (CC BY 4.0).",
+                       String(localized: "Rahim, yumurtalıklar, fallop tüpleri, kadın mesanesi ve meme bezi Human Reference Atlas 3D referans organlarından (Visible Human Female, NIH) alınmış ve atlasa hizalanmıştır. Creative Commons Atıf 4.0 (CC BY 4.0)."),
                        "humanatlas.io", "https://humanatlas.io/3d-reference-library")
                 credit("MakeHuman",
-                       "Erkek ve kadın derisi, yüz, gözler ve deri dokusu MakeHuman'ın CC0 (kamu malı) taban modeli ve dokularından hazırlanıp atlasın iskeletine oturtulmuştur. Kadın modelinin iskelet, kas ve organları bu deriye göre biçimlendirilir.",
+                       String(localized: "Kadın modelinin beden biçimi (göğüs ve kasık dahil) MakeHuman'ın CC0 (kamu malı) taban modelinden alınmıştır; iskelet, kas, organlar ve deri bu biçime göre şekillendirilir."),
                        "makehumancommunity.org", "https://www.makehumancommunity.org")
                 credit("meshoptimizer",
-                       "Modellerin uzaklığa göre sadeleştirilmiş detay seviyeleri meshoptimizer ile üretilmiştir. © Arseny Kapoulkine, MIT lisansı.",
+                       String(localized: "Modellerin uzaklığa göre sadeleştirilmiş detay seviyeleri meshoptimizer ile üretilmiştir. © Arseny Kapoulkine, MIT lisansı."),
                        "github.com/zeux/meshoptimizer", "https://github.com/zeux/meshoptimizer")
             }
             .listRowBackground(Theme.card)

@@ -1610,6 +1610,2837 @@
     "talus",
     "artt-pedis"
    ]
+  },
+  {
+   "id": "sk-8bab82f6",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Foramen ovale'den geçen sinir hangisidir?",
+   "options": [
+    "N. facialis",
+    "N. mandibularis (V3)",
+    "N. hypoglossus",
+    "N. maxillaris (V2)",
+    "N. ophthalmicus (V1)"
+   ],
+   "answer": 1,
+   "explanation": "Os sphenoidale'nin büyük kanadındaki foramen ovale'den n. mandibularis, a. meningea accessoria ve n. petrosus minor geçer. Akılda tutma: ‘Superior Rotundum Ovale’ – V1 fissura orbitalis superior'dan, V2 foramen rotundum'dan, V3 foramen ovale'den çıkar.",
+   "notes": [
+    "Meatus acusticus internus'tan girer.",
+    "",
+    "Canalis hypoglossi'den geçer.",
+    "Foramen rotundum'dan geçer.",
+    "Fissura orbitalis superior'dan geçer."
+   ],
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-5f0b04cc",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Foramen spinosum'dan geçen yapı hangisidir?",
+   "options": [
+    "A. meningea media",
+    "A. carotis interna",
+    "V. jugularis interna",
+    "N. maxillaris",
+    "N. petrosus major"
+   ],
+   "answer": 0,
+   "explanation": "Foramen spinosum foramen ovale'nin arka-dışında, büyük kanattadır; a. meningea media ve n. mandibularis'in meningeal dalı (n. spinosus) geçer. Arterin ön dalı pterionun iç yüzünde seyreder ve kırıklarda epidural hematoma yol açar.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-3c70aa92",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi foramen jugulare'den geçmez?",
+   "options": [
+    "N. hypoglossus",
+    "Sinus sigmoideus (v. jugularis interna)",
+    "N. vagus",
+    "N. accessorius",
+    "N. glossopharyngeus"
+   ],
+   "answer": 0,
+   "explanation": "Foramen jugulare'den IX, X ve XI. kafa sinirleri ile sinus sigmoideus ve sinus petrosus inferior geçer. N. hypoglossus kafatasını oksipital kondilin üstündeki canalis nervi hypoglossi'den terk eder.",
+   "entries": [
+    "os-occipitale",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-cda51554",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Canalis opticus'tan geçen yapılar hangileridir?",
+   "options": [
+    "N. oculomotorius ve a. ophthalmica",
+    "N. opticus ve v. ophthalmica superior",
+    "A. centralis retinae ve n. trochlearis",
+    "N. opticus ve a. ophthalmica",
+    "N. nasociliaris ve n. opticus"
+   ],
+   "answer": 3,
+   "explanation": "Optik kanal sfenoidin küçük kanadının kökleri arasındadır; n. opticus ve altında a. ophthalmica geçer. V. ophthalmica superior, III, IV, V1 dalları ve VI ise fissura orbitalis superior'dan geçer.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-711ff9cd",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Foramen stylomastoideum'dan çıkan sinir hangisidir?",
+   "options": [
+    "N. facialis",
+    "N. accessorius",
+    "N. vestibulocochlearis",
+    "Chorda tympani",
+    "N. glossopharyngeus"
+   ],
+   "answer": 0,
+   "explanation": "N. facialis meatus acusticus internus'tan girip canalis facialis'te seyreder ve processus styloideus ile mastoideus arasındaki foramen stylomastoideum'dan çıkar; burada parotise girmeden önce yüz kaslarına dallanır. Bell paralizisinde bu dar kanaldaki ödem suçlanır.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-c89d0b9d",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lamina cribrosa hangi kemiğe aittir ve içinden ne geçer?",
+   "options": [
+    "Os frontale – n. supraorbitalis",
+    "Os ethmoidale – n. maxillaris",
+    "Os nasale – n. ethmoidalis anterior",
+    "Os ethmoidale – fila olfactoria (koku lifleri)",
+    "Os sphenoidale – n. opticus"
+   ],
+   "answer": 3,
+   "explanation": "Etmoid kemiğin delikli yatay plağı burun boşluğunun tavanını yapar; koku epitelinden gelen n. olfactorius lifleri buradan bulbus olfactorius'a geçer. Ön kafa tabanı kırıklarında anosmi ve BOS rinoresi görülür.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-64b9533f",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sinus maxillaris burun boşluğunda nereye açılır?",
+   "options": [
+    "Meatus nasi medius (hiatus semilunaris)",
+    "Recessus sphenoethmoidalis",
+    "Meatus nasi superior",
+    "Nazofarenks",
+    "Meatus nasi inferior"
+   ],
+   "answer": 0,
+   "explanation": "Frontal, maksiller ve ön etmoid sinüsler orta meatusa (hiatus semilunaris) açılır. Ductus nasolacrimalis alt meatusa, arka etmoid hücreler üst meatusa, sfenoid sinüs recessus sphenoethmoidalis'e açılır. Maksiller sinüsün ağzı yüksekte olduğundan drenajı zordur.",
+   "notes": [
+    "",
+    "Sfenoid sinüsün açıldığı yerdir.",
+    "Arka etmoid hücrelerin açıldığı yerdir.",
+    "Tuba auditiva'nın açıldığı yerdir.",
+    "Ductus nasolacrimalis'in açıldığı yerdir."
+   ],
+   "entries": [
+    "maxilla",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-114a7cc4",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ductus nasolacrimalis burun boşluğunda nereye açılır?",
+   "options": [
+    "Meatus nasi superior",
+    "Hiatus semilunaris",
+    "Meatus nasi inferior",
+    "Recessus sphenoethmoidalis",
+    "Meatus nasi medius"
+   ],
+   "answer": 2,
+   "explanation": "Gözyaşı kesesinden inen kanal maxilla, os lacrimale ve concha nasalis inferior'un oluşturduğu kemik kanaldan geçerek alt konkanın altındaki meatusa açılır; ağlarken burun akması bu yüzdendir.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-lacrimale"
+   ]
+  },
+  {
+   "id": "sk-ba5a5737",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Orbitanın iç duvarındaki ince lamina papyracea hangi kemiğe aittir?",
+   "options": [
+    "Os zygomaticum",
+    "Maxilla",
+    "Os ethmoidale",
+    "Os sphenoidale",
+    "Os lacrimale"
+   ],
+   "answer": 2,
+   "explanation": "Etmoid labirentin dış yüzünü oluşturan kâğıt inceliğindeki lamina orbitalis, orbitanın iç duvarının büyük bölümünü yapar. Etmoid sinüzit bu ince duvardan orbitaya yayılarak orbital selülite yol açabilir.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-7b06e8ab",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sutura lambdoidea hangi kemikler arasındadır?",
+   "options": [
+    "Os occipitale ile iki os parietale",
+    "İki os parietale",
+    "Os frontale ile iki os parietale",
+    "Os temporale ile os parietale",
+    "Os sphenoidale ile os frontale"
+   ],
+   "answer": 0,
+   "explanation": "Lambdoid sutur oksipital kemik ile parietaller arasında Yunan λ harfi biçimindedir; sagittal sutur ile kesiştiği nokta lambda'dır ve arka fontanel burada kapanır. Diğer seçenekler koronal, sagittal ve skuamöz suturlardır.",
+   "notes": [
+    "",
+    "Sutura sagittalis'tir.",
+    "Sutura coronalis'tir.",
+    "Sutura squamosa'dır.",
+    "Sutura sphenofrontalis'tir."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-66a5569f",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Foramen mandibulae'nin önünde bulunan ve lig. sphenomandibulare'nin tutunduğu çıkıntı hangisidir?",
+   "options": [
+    "Linea mylohyoidea",
+    "Lingula mandibulae",
+    "Processus coronoideus",
+    "Fovea pterygoidea",
+    "Spina mentalis"
+   ],
+   "answer": 1,
+   "explanation": "Lingula, ramus mandibulae'nin iç yüzünde foramen mandibulae'yi önden örten dil biçimli kemik çıkıntısıdır. İnferior alveoler blokta iğne ucu lingulanın hemen üstüne yönlendirilir; n. alveolaris inferior buradan kanala girer.",
+   "entries": [
+    "mandibula"
+   ]
+  },
+  {
+   "id": "sk-e39de62d",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mandibuladaki spina mentalis'e tutunan kaslar hangileridir?",
+   "options": [
+    "M. genioglossus ve m. geniohyoideus",
+    "M. mentalis ve m. depressor labii inferioris",
+    "Platysma ve m. depressor anguli oris",
+    "M. mylohyoideus ve m. digastricus'un ön karnı",
+    "M. hyoglossus ve m. genioglossus"
+   ],
+   "answer": 0,
+   "explanation": "Mandibulanın iç yüzünde orta hatta bulunan spina mentalis superior'a genioglossus, inferior'a geniohyoideus tutunur. Mylohyoideus linea mylohyoidea'ya, digastricus ön karnı fossa digastrica'ya yapışır.",
+   "entries": [
+    "mandibula",
+    "m-genioglossus",
+    "m-geniohyoideus"
+   ]
+  },
+  {
+   "id": "sk-4fa063c1",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sella turcica'nın arka duvarını oluşturan yapı hangisidir?",
+   "options": [
+    "Tuberculum sellae",
+    "Sulcus prechiasmaticus",
+    "Processus clinoideus anterior",
+    "Sulcus caroticus",
+    "Dorsum sellae"
+   ],
+   "answer": 4,
+   "explanation": "Sella turcica'nın önünde tuberculum sellae, arkasında dorsum sellae bulunur; dorsum sellae'nin üst köşeleri processus clinoidei posteriores'i oluşturur. Dorsumun arkasından aşağı inen eğim clivus'tur.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-a994d076",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Clivus'u oluşturan kemikler hangileridir?",
+   "options": [
+    "Os sphenoidale'nin büyük kanatları",
+    "Os ethmoidale ve os sphenoidale",
+    "Os sphenoidale'nin gövdesi ve os occipitale'nin pars basilaris'i",
+    "Yalnızca os occipitale",
+    "Os temporale'nin pars petrosa'sı ve os occipitale"
+   ],
+   "answer": 2,
+   "explanation": "Clivus dorsum sellae'den foramen magnum'a uzanan eğimli yüzeydir; üst kısmı sfenoid gövdesi, alt kısmı oksipital kemiğin baziler kısmıdır. Üzerinde pons ve a. basilaris yatar; ikisi arasındaki sfeno-oksipital sinkondroz ergenlikte kemikleşir.",
+   "entries": [
+    "os-occipitale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-244fa846",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Meatus acusticus internus'tan geçen sinirler hangileridir?",
+   "options": [
+    "N. vestibulocochlearis ve n. vagus",
+    "N. trigeminus ve n. facialis",
+    "N. facialis ve n. vestibulocochlearis",
+    "N. facialis ve n. glossopharyngeus",
+    "N. abducens ve n. facialis"
+   ],
+   "answer": 2,
+   "explanation": "Temporal kemiğin petröz kısmındaki iç kulak yolundan n. facialis (ve n. intermedius), n. vestibulocochlearis ile a. labyrinthi geçer. Akustik nörinom burada hem işitme hem yüz siniri bulgularına yol açabilir.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-fa671396",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Fossa pterygopalatina'nın iç duvarını oluşturan kemik hangisidir?",
+   "options": [
+    "Os sphenoidale'nin processus pterygoideus'u",
+    "Maxilla",
+    "Os palatinum (lamina perpendicularis)",
+    "Vomer",
+    "Os zygomaticum"
+   ],
+   "answer": 2,
+   "explanation": "Pterygopalatin çukurun önünde maxilla tuber'i, arkasında processus pterygoideus, içinde os palatinum'un dikey plağı bulunur. İç duvardaki foramen sphenopalatinum çukuru burun boşluğuna bağlar; çukurda ganglion pterygopalatinum ve a. maxillaris'in son bölümü yer alır.",
+   "notes": [
+    "Arka duvarı oluşturur.",
+    "Ön duvarı oluşturur.",
+    "",
+    "Burun septumunun parçasıdır.",
+    "Fossaya komşu değildir."
+   ],
+   "entries": [
+    "os-palatinum",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-11e451f6",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Foramen transversarium hangi omurlara özgüdür?",
+   "options": [
+    "Koksigeal omurlar",
+    "Bel omurları",
+    "Sakral omurlar",
+    "Göğüs omurları",
+    "Boyun omurları"
+   ],
+   "answer": 4,
+   "explanation": "Boyun omurlarının transvers çıkıntılarındaki delikten a. ve v. vertebralis geçer; arter çoğunlukla C6'dan girer, C7'nin deliğinden yalnızca ven geçer. Bu delik boyun omurlarını diğerlerinden ayırmanın en güvenilir ölçütüdür.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2f1cd430",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Bel omurlarının ayırt edici özellikleri hangisidir?",
+   "options": [
+    "Yukarı uzanan diş biçimli çıkıntı",
+    "Kalp biçimli gövde ve kostal eklem yüzleri",
+    "Büyük böbrek biçimli gövde, kalın dikdörtgen dikensi çıkıntı ve sagittal düzlemde eklem yüzleri",
+    "Gövdesi olmayan halka biçimi",
+    "Çatallı dikensi çıkıntı ve foramen transversarium"
+   ],
+   "answer": 2,
+   "explanation": "Lomber omurlar ağırlık taşıdıkları için en büyük gövdelere sahiptir; eklem yüzleri sagittal düzlemde olduğundan fleksiyon–ekstansiyona izin verir, rotasyonu kısıtlar. Diğer seçenekler göğüs omuru, boyun omuru, atlas ve axis'e aittir.",
+   "notes": [
+    "Axis'in özelliğidir.",
+    "Göğüs omurlarının özelliğidir.",
+    "",
+    "Atlasın özelliğidir.",
+    "Boyun omurlarının özelliğidir."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-66abc394",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Erişkinde medulla spinalis genellikle hangi düzeyde sonlanır?",
+   "options": [
+    "L1–L2",
+    "S2",
+    "L3–L4",
+    "T10",
+    "L5"
+   ],
+   "answer": 0,
+   "explanation": "Erişkinde conus medullaris L1–L2 düzeyinde sonlanır; yenidoğanda L3 düzeyindedir. Dural kese ve subaraknoid boşluk ise S2'ye kadar uzanır; bu nedenle lomber ponksiyon omuriliğin altında, cauda equina düzeyinde yapılır.",
+   "notes": [
+    "",
+    "Dural kesenin sonlandığı düzeydir.",
+    "Yenidoğandaki düzeydir.",
+    "Omurilik bu düzeyin altına uzanır.",
+    "Omurilik bu düzeye uzanmaz."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-22554f5b",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lomber ponksiyon için güvenli düzey ve bu düzeyi bulmada kullanılan nokta hangisidir?",
+   "options": [
+    "L1–L2 aralığı; 12. kaburgaların uçları",
+    "S2–S3 aralığı; SIPS'leri birleştiren çizgi",
+    "T12–L1 aralığı; skapulaların alt açıları",
+    "T10–T11 aralığı; göbek hizası",
+    "L3–L4 veya L4–L5 aralığı; iki crista iliaca'nın en yüksek noktalarını birleştiren çizgi (L4)"
+   ],
+   "answer": 4,
+   "explanation": "Supracristal (Tuffier) çizgi L4 dikensi çıkıntısından veya L4–L5 aralığından geçer. Bu düzey conus medullaris'in altında kaldığından iğne cauda equina köklerini iterek subaraknoid boşluğa ulaşır.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-ffeae080",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Spondilolizde kemik defekti omurun hangi bölümündedir?",
+   "options": [
+    "Pedikül",
+    "Pars interarticularis",
+    "Laminaların orta hatta birleşme yeri",
+    "Omur gövdesinin ön kenarı",
+    "Processus transversus"
+   ],
+   "answer": 1,
+   "explanation": "Spondilolizis, üst ve alt eklem çıkıntıları arasındaki pars interarticularis'in stres kırığıdır; en sık L5'te görülür. Eğik grafide ‘İskoç köpeğinin boynundaki tasma’ görünümü verir; iki taraflı olursa omur öne kayabilir (spondilolistezis). Laminaların birleşmeme kusuru spina bifida'dır.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-8158d007",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Atlasın ön ve arka kemerlerinin kırıldığı Jefferson kırığı genellikle hangi mekanizmayla oluşur?",
+   "options": [
+    "Başın tepesine dikey yüklenme (aksiyel kompresyon)",
+    "C7 dikensi çıkıntısının kas çekmesiyle kopması",
+    "Rotasyonla faset eklem çıkığı",
+    "Hiperekstansiyonla axis pediküllerinin kırılması",
+    "Ani fleksiyonla dens kırılması"
+   ],
+   "answer": 0,
+   "explanation": "Sığ suya baş üstü dalma gibi aksiyel yüklenmede oksipital kondiller atlasın massa lateralis'lerini yana iter ve halka birkaç yerden kırılır. Spinal kanal genişlediği için nörolojik hasar çoğu zaman olmaz. Diğer seçenekler Hangman, dens ve clay-shoveler kırıklarını tanımlar.",
+   "notes": [
+    "",
+    "Clay-shoveler kırığını tanımlar.",
+    "Faset çıkığını tanımlar.",
+    "Hangman (cellat) kırığını tanımlar.",
+    "Dens kırığını tanımlar."
+   ],
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-60976cab",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Axis'in iki taraflı pars interarticularis (pedikül) kırığı hangi adla bilinir?",
+   "options": [
+    "Tip II dens kırığı",
+    "Hangman (cellat) kırığı",
+    "Jefferson kırığı",
+    "Clay-shoveler kırığı",
+    "Chance kırığı"
+   ],
+   "answer": 1,
+   "explanation": "Hiperekstansiyon ve distraksiyonla C2'nin pedikülleri kırılır; asılma, emniyet kemeri olmadan çene ile ön panele çarpma tipik mekanizmadır. Chance kırığı emniyet kemeriyle ilişkili torakolomber fleksiyon-distraksiyon kırığıdır.",
+   "entries": [
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-4cebc960",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Foramina sacralia anteriora'dan çıkan yapılar hangileridir?",
+   "options": [
+    "A. sacralis mediana",
+    "Sakral spinal sinirlerin arka dalları",
+    "Sakral spinal sinirlerin ön dalları",
+    "Filum terminale",
+    "Truncus sympathicus"
+   ],
+   "answer": 2,
+   "explanation": "Sakrumun ön (pelvik) yüzündeki dört çift delikten S1–S4 sinirlerinin ön dalları çıkarak plexus sacralis'e katılır; arka dallar foramina sacralia posteriora'dan çıkar. Filum terminale hiatus sacralis'ten çıkar.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-a851a348",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Hiatus sacralis'i iki yandan sınırlayan çıkıntılar hangileridir?",
+   "options": [
+    "Crista sacralis lateralis",
+    "Ala ossis sacri",
+    "Cornua coccygea",
+    "Promontorium",
+    "Cornua sacralia"
+   ],
+   "answer": 4,
+   "explanation": "S5'in laminaları birleşmediği için sakral kanal altta hiatus sacralis ile açılır; iki yanındaki cornua sacralia ele gelir ve kaudal epidural blokta iğnenin yerini bulmaya yarar.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-dbfed2d8",
+   "group": "Göğüs kafesi (Thorax)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Atipik kaburgalar hangileridir?",
+   "options": [
+    "8., 9. ve 10. kaburgalar",
+    "1., 2., 10., 11. ve 12. kaburgalar",
+    "Yalnızca 1., 2. ve 12. kaburgalar",
+    "1.–7. kaburgalar",
+    "1., 11. ve 12. kaburgalar"
+   ],
+   "answer": 1,
+   "explanation": "Tipik kaburgada baş (iki eklem yüzlü), boyun, tüberkül ve gövde bulunur. 1. kaburga en kısa, en geniş ve en kıvrık olanıdır; 2. kaburgada serratus anterior tüberozitesi vardır; 10.–12. kaburgaların başında tek eklem yüzü bulunur, 11. ve 12.'nin boynu ve tüberkülü yoktur.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-f4babc11",
+   "group": "Göğüs kafesi (Thorax)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Birinci kaburgada skalen tüberkülün önündeki olukta seyreden yapı hangisidir?",
+   "options": [
+    "V. subclavia",
+    "A. subclavia",
+    "Ductus thoracicus",
+    "Plexus brachialis'in alt gövdesi",
+    "N. phrenicus"
+   ],
+   "answer": 0,
+   "explanation": "Skalen tüberküle tutunan m. scalenus anterior, v. subclavia'yı (önde) a. subclavia ve plexus brachialis'in alt gövdesinden (arkada) ayırır. Bu nedenle subklavyen ven kanülasyonunda iğne kasın önünde kalır.",
+   "notes": [
+    "",
+    "Tüberkülün arkasındaki oluktan geçer.",
+    "Sol venöz açıya boşalır; kaburgada seyretmez.",
+    "Arteriyle birlikte tüberkülün arkasından geçer.",
+    "M. scalenus anterior'un ön yüzünde iner; olukta seyretmez."
+   ],
+   "entries": [
+    "costae",
+    "m-scalenus-anterior"
+   ]
+  },
+  {
+   "id": "sk-f743fb58",
+   "group": "Göğüs kafesi (Thorax)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Solunumda ‘pompa kolu’ (pump handle) hareketi neyi ifade eder?",
+   "options": [
+    "Sternumun aşağı inmesi",
+    "Üst kaburgaların ve sternumun yükselerek göğsün ön-arka çapını artırması",
+    "Alt kaburgaların yana açılarak enine çapı artırması",
+    "Diyaframın inerek dikey çapı artırması",
+    "Kaburgaların omurga etrafında içe dönmesi"
+   ],
+   "answer": 1,
+   "explanation": "Üst kaburgalar inspirasyonda sternumu öne-yukarı iterek ön-arka çapı artırır (pompa kolu); alt kaburgalar ise yana açılarak enine çapı artırır (kova sapı). Dikey çapı diyaframın kasılması artırır.",
+   "notes": [
+    "Ekspirasyonda olur.",
+    "",
+    "Kova sapı (bucket handle) hareketidir.",
+    "Diyafram kasılmasıdır.",
+    "Böyle bir hareket yoktur."
+   ],
+   "entries": [
+    "costae",
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-b83efed6",
+   "group": "Üst ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lig. transversum scapulae superius'un üstünden geçen yapı hangisidir?",
+   "options": [
+    "A. suprascapularis",
+    "A. transversa colli'nin derin dalı",
+    "N. axillaris",
+    "N. suprascapularis",
+    "N. dorsalis scapulae"
+   ],
+   "answer": 0,
+   "explanation": "Incisura scapulae'yi köprüleyen bağın altından n. suprascapularis, üstünden a. suprascapularis geçer (‘ordu köprünün üstünden, donanma altından geçer’). Sinir bu çentikte sıkışırsa supraspinatus ve infraspinatus zayıflar.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "sk-df043af5",
+   "group": "Üst ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Humerusta collum anatomicum ile collum chirurgicum arasındaki fark hangisidir?",
+   "options": [
+    "Cerrahi boyun n. radialis'in oluğudur",
+    "İkisi aynı yerdir, yalnızca adları farklıdır",
+    "Anatomik boyun humerusun alt ucundadır",
+    "Anatomik boyun eklem başının hemen altındaki daralma, cerrahi boyun tüberküllerin altındaki kırığa yatkın bölgedir",
+    "Cerrahi boyun eklem başının hemen altındadır, anatomik boyun tüberküllerin altındadır"
+   ],
+   "answer": 3,
+   "explanation": "Collum anatomicum eklem başı ile tüberküller arasındaki sığ oluktur ve eklem kapsülü buraya tutunur. Collum chirurgicum tüberküllerin altındaki daralmadır; yaşlılarda sık kırılır ve n. axillaris ile a. circumflexa humeri posterior burada risk altındadır.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-d05233d9",
+   "group": "Üst ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Humerustaki sulcus nervi radialis'te seyreden yapılar hangileridir?",
+   "options": [
+    "N. axillaris ve a. circumflexa humeri posterior",
+    "N. ulnaris ve a. collateralis ulnaris superior",
+    "N. radialis ve a. profunda brachii",
+    "N. medianus ve a. brachialis",
+    "N. musculocutaneus ve a. brachialis"
+   ],
+   "answer": 2,
+   "explanation": "Radial oluk humerus cisminin arka yüzünde, triseps'in lateral ve medial başlarının origoları arasında spiral seyreder. Cisim ortası kırıklarında n. radialis yaralanır ve düşük el gelişir; triseps dalları daha yukarıda ayrıldığı için dirsek ekstansiyonu çoğunlukla korunur.",
+   "entries": [
+    "humerus",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-338897fa",
+   "group": "Üst ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Olecranon'a tutunan kas hangisidir?",
+   "options": [
+    "M. pronator quadratus",
+    "M. triceps brachii",
+    "M. biceps brachii",
+    "M. brachialis",
+    "M. flexor carpi radialis"
+   ],
+   "answer": 1,
+   "explanation": "Triseps'in üç başı ortak tendonla olecranon'un üst-arka yüzüne tutunur ve dirseği ekstansiyona getirir. Brachialis tuberositas ulnae'ye, biceps tuberositas radii'ye tutunur.",
+   "entries": [
+    "ulna",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-2525d8eb",
+   "group": "Üst ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Proksimalde radius başının eklem yaptığı ulnadaki eklem yüzü hangisidir?",
+   "options": [
+    "Incisura trochlearis",
+    "Fovea articularis capitis radii",
+    "Capitulum humeri",
+    "Incisura ulnaris radii",
+    "Incisura radialis ulnae"
+   ],
+   "answer": 4,
+   "explanation": "Radius başının çevresi (circumferentia articularis) ulnanın incisura radialis'i ve lig. anulare radii ile proksimal radioulnar eklemi yapar. Incisura trochlearis trochlea humeri ile, incisura ulnaris radii distalde ulna başı ile eklemleşir.",
+   "entries": [
+    "ulna",
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-64db8f92",
+   "group": "Üst ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Radiusun distal ucunda ulna başıyla eklem yapan çentik hangisidir?",
+   "options": [
+    "Tuberculum dorsale (Lister)",
+    "Processus styloideus radii",
+    "Facies articularis carpalis",
+    "Incisura radialis ulnae",
+    "Incisura ulnaris radii"
+   ],
+   "answer": 4,
+   "explanation": "Distal radioulnar eklemde ulna başı radiusun incisura ulnaris'ine oturur; pronasyon-supinasyonda radius bu sabit ulna başı etrafında döner. Eklem, üçgen fibrokartilaj kompleksi (TFCC) ile desteklenir.",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-814e4ce2",
+   "group": "El kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Distal sıra karpal kemiklerin radialden ulnara sırası hangisidir?",
+   "options": [
+    "Scaphoideum, lunatum, triquetrum, pisiforme",
+    "Trapezium, capitatum, trapezoideum, hamatum",
+    "Trapezium, trapezoideum, capitatum, hamatum",
+    "Trapezoideum, trapezium, capitatum, hamatum",
+    "Hamatum, capitatum, trapezoideum, trapezium"
+   ],
+   "answer": 2,
+   "explanation": "Distal sıra dıştan içe trapezium (başparmak tarafı), trapezoideum, capitatum (en büyük) ve hamatum'dur. Proksimal sıra scaphoideum, lunatum, triquetrum ve pisiforme'dir.",
+   "entries": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum",
+    "os-hamatum"
+   ]
+  },
+  {
+   "id": "sk-592c5eaa",
+   "group": "El kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kienböck hastalığı hangi kemiğin avasküler nekrozudur?",
+   "options": [
+    "Os capitatum",
+    "Caput femoris",
+    "Os lunatum",
+    "Os scaphoideum",
+    "Os naviculare (ayak)"
+   ],
+   "answer": 2,
+   "explanation": "Kienböck hastalığı lunatumun avasküler nekrozudur; negatif ulnar varyans (kısa ulna) risk etkenidir. Skafoidin idiyopatik nekrozu Preiser, femur başınınki Legg–Calvé–Perthes, ayak naviküleri Köhler hastalığı olarak bilinir.",
+   "notes": [
+    "Kendine özgü adlandırılmış bir nekrozu yoktur.",
+    "Legg–Calvé–Perthes hastalığının yeridir.",
+    "",
+    "Preiser hastalığının yeridir.",
+    "Köhler hastalığının yeridir."
+   ],
+   "entries": [
+    "os-lunatum"
+   ]
+  },
+  {
+   "id": "sk-dbb3bf24",
+   "group": "El kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Hamulus ossis hamati'ye tutunan yapılar hangileridir?",
+   "options": [
+    "M. adductor pollicis'in oblik başı",
+    "M. flexor carpi radialis tendonu",
+    "M. abductor pollicis brevis ve m. opponens pollicis",
+    "Retinaculum flexorum ile hipotenar kaslardan flexor ve opponens digiti minimi",
+    "Retinaculum extensorum ve m. extensor carpi ulnaris"
+   ],
+   "answer": 3,
+   "explanation": "Hamatın çengeli retinaculum flexorum'un iç-alt tutunma noktasıdır; flexor digiti minimi brevis ve opponens digiti minimi de buradan başlar. Çengel Guyon kanalının dış sınırıdır; golf ve beyzbolda kırılabilir ve n. ulnaris'in derin dalını etkileyebilir.",
+   "entries": [
+    "os-hamatum",
+    "mm-hypothenares"
+   ]
+  },
+  {
+   "id": "sk-d7b7ddde",
+   "group": "El kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En kısa ve en hareketli metakarp kemiği hangisidir?",
+   "options": [
+    "4. metakarp",
+    "2. metakarp",
+    "3. metakarp",
+    "5. metakarp",
+    "1. metakarp"
+   ],
+   "answer": 4,
+   "explanation": "Başparmağın metakarpı trapezium ile eyer eklem yaparak opozisyona izin verir. 2. ve 3. metakarplar en sabit olanlardır (el iskeletinin ‘sabit ünitesi’); 3. metakarpın tabanında stiloid çıkıntı bulunur.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-a9ffa742",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Spina iliaca anterior superior'a (SIAS) tutunan yapılar hangileridir?",
+   "options": [
+    "M. sartorius, m. tensor fasciae latae ve lig. inguinale",
+    "M. rectus femoris'in düz başı ve lig. iliofemorale",
+    "M. obliquus internus ve lig. lacunare",
+    "M. gracilis ve m. adductor longus",
+    "M. iliacus ve m. psoas minor"
+   ],
+   "answer": 0,
+   "explanation": "SIAS'tan sartorius ve TFL başlar, lig. inguinale buradan tuberculum pubicum'a uzanır. SIAI'ye rectus femoris'in düz başı ve iliofemoral bağ tutunur. Ergen sporcularda sartorius SIAS'ı, rectus femoris SIAI'yi avülsiyonla koparabilir.",
+   "notes": [
+    "",
+    "SIAI'ye tutunan yapılardır.",
+    "Lig. lacunare pubise uzanır.",
+    "Pubisten başlarlar.",
+    "Fossa iliaca ve psoas'ın yapılarıdır."
+   ],
+   "entries": [
+    "os-coxae",
+    "m-sartorius",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "sk-c9a721e5",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi tuber ischiadicum'dan başlamaz?",
+   "options": [
+    "M. semitendinosus",
+    "M. biceps femoris'in uzun başı",
+    "M. adductor magnus'un hamstring bölümü",
+    "M. semimembranosus",
+    "M. biceps femoris'in kısa başı"
+   ],
+   "answer": 4,
+   "explanation": "Kısa baş linea aspera'nın dış dudağından başlar ve yalnızca diz eklemini geçer. İskial tüberoz oturma kemiğidir; hamstringler ve adductor magnus'un dikey lifleri buradan başlar, lig. sacrotuberale buraya tutunur.",
+   "entries": [
+    "os-coxae",
+    "mm-ischiocrurales",
+    "m-biceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-5fd892d5",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Erişkinde femur başının ana kanlanmasını sağlayan arter hangisidir?",
+   "options": [
+    "Lig. capitis femoris içindeki arter",
+    "A. circumflexa femoris medialis",
+    "A. circumflexa femoris lateralis",
+    "A. glutea superior",
+    "A. profunda femoris'in perforan dalları"
+   ],
+   "answer": 1,
+   "explanation": "Femur başını erişkinde büyük ölçüde a. circumflexa femoris medialis'in boyun boyunca yukarı çıkan retinaküler dalları besler. İntrakapsüler (subkapital) kırıklarda bu dallar yırtılır ve avasküler nekroz gelişebilir; lig. capitis femoris arteri erişkinde katkı sağlamaz.",
+   "entries": [
+    "femur",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-3ce542da",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Erişkinde femurun boyun–cisim açısı yaklaşık kaç derecedir?",
+   "options": [
+    "150°",
+    "90°",
+    "105°",
+    "170°",
+    "125°"
+   ],
+   "answer": 4,
+   "explanation": "Kolodiafizer açı doğumda yaklaşık 150° iken erişkinde 125° civarına iner. Açının belirgin artışı coxa valga, azalışı coxa vara olarak adlandırılır; kadınlarda geniş pelvis nedeniyle biraz daha küçüktür.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-2bd1341c",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdaki kaslardan hangisi linea aspera'dan başlamaz?",
+   "options": [
+    "M. biceps femoris'in kısa başı",
+    "M. vastus medialis",
+    "M. vastus intermedius",
+    "M. vastus lateralis",
+    "M. adductor magnus"
+   ],
+   "answer": 2,
+   "explanation": "Vastus intermedius femur cisminin ön ve dış yüzlerinden başlar. Linea aspera'nın dış dudağından vastus lateralis ve biceps femoris kısa başı, iç dudağından vastus medialis başlar; addüktörler ise linea aspera'ya tutunur.",
+   "entries": [
+    "femur",
+    "m-vastus-intermedius"
+   ]
+  },
+  {
+   "id": "sk-438ad979",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Gerdy tüberkülüne tutunan yapı hangisidir?",
+   "options": [
+    "Tractus iliotibialis",
+    "Pes anserinus",
+    "Lig. collaterale fibulare",
+    "M. popliteus",
+    "Lig. patellae"
+   ],
+   "answer": 0,
+   "explanation": "Gerdy tüberkülü tibianın lateral kondilinin ön-dış yüzündedir; iliotibial bant buraya tutunur. Lig. patellae tuberositas tibiae'ye, pes anserinus tibianın üst iç yüzüne, lateral kollateral bağ fibula başına yapışır.",
+   "entries": [
+    "tibia",
+    "tractus-iliotibialis"
+   ]
+  },
+  {
+   "id": "sk-eede538b",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Caput fibulae'ye tutunan yapılar hangileridir?",
+   "options": [
+    "Lig. patellae",
+    "M. popliteus ve lateral menisküs",
+    "Pes anserinus ve lig. collaterale tibiale",
+    "Tractus iliotibialis ve m. tensor fasciae latae",
+    "M. biceps femoris tendonu ve lig. collaterale fibulare"
+   ],
+   "answer": 4,
+   "explanation": "Fibula başına biceps femoris tendonu ve dış yan bağ tutunur; n. fibularis communis hemen altında fibula boynunu sararak öne geçer. Bu nedenle fibula boynu kırıklarında düşük ayak gelişebilir.",
+   "entries": [
+    "fibula",
+    "m-biceps-femoris",
+    "ligg-collateralia-genus"
+   ]
+  },
+  {
+   "id": "sk-7f55ff47",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Patella için hangisi doğrudur?",
+   "options": [
+    "Doğumda tamamen kemikleşmiştir",
+    "Diz eklem boşluğunun dışında kalır",
+    "Vücudun en büyük sesamoid kemiğidir ve kuadriseps tendonu içinde gelişir",
+    "Arka yüzünde iç faset dış fasetten daha büyüktür",
+    "Lig. patellae ile tibianın iç kondiline tutunur"
+   ],
+   "answer": 2,
+   "explanation": "Patella kuadrisepsin kaldıraç kolunu uzatarak ekstansiyon gücünü artırır. Arka yüzünde dış faset daha geniştir; lig. patellae ile tuberositas tibiae'ye bağlanır ve arka yüzü eklem boşluğuna bakar. Kemikleşmesi 3–6 yaş arasında başlar.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-048b1450",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Segond kırığı neyin göstergesidir?",
+   "options": [
+    "Tibia lateral platosu kenarında avülsiyon; ön çapraz bağ yırtığına eşlik eder",
+    "İç kollateral bağın femur tutunma yerindeki kalsifikasyon",
+    "Arka çapraz bağ yırtığına eşlik eden fibula başı kırığı",
+    "Patellanın lateral çıkığında oluşan osteokondral kırık",
+    "Tuberositas tibiae'nin apofizit kaynaklı ayrılması"
+   ],
+   "answer": 0,
+   "explanation": "Segond kırığı, dizin iç rotasyon ve varus zorlanmasında anterolateral kapsül/bağın tibia lateral platosundan küçük bir kemik parçası koparmasıdır; grafide küçük görünse de yüksek oranda ön çapraz bağ yırtığına işaret eder. İç kollateral bağ kalsifikasyonu Pellegrini–Stieda, tüberozite apofiziti Osgood–Schlatter'dır.",
+   "entries": [
+    "tibia",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "sk-ff3caabb",
+   "group": "Ayak kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Talusun hangi bölümü ayak bileği (talokrural) eklemine katılır?",
+   "options": [
+    "Trochlea tali",
+    "Sulcus tali",
+    "Caput tali",
+    "Processus posterior tali",
+    "Facies articularis calcanea anterior"
+   ],
+   "answer": 0,
+   "explanation": "Trochlea tali tibianın alt yüzü ve iki malleol arasındaki ‘zıvana’ya oturur. Trochlea önde daha geniş olduğundan dorsifleksiyonda eklem en kararlı hale gelir. Caput tali naviküler ile eklem yapar.",
+   "entries": [
+    "talus",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-e6838352",
+   "group": "Ayak kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Talusun arka çıkıntısının dış tüberkülünün ayrı kalmasıyla oluşan aksesuar kemik hangisidir?",
+   "options": [
+    "Os vesalianum",
+    "Os naviculare accessorium",
+    "Os trigonum",
+    "Os intermetatarseum",
+    "Os peroneum"
+   ],
+   "answer": 2,
+   "explanation": "Os trigonum, processus posterior tali'nin dış tüberkülünün kaynamamasıyla oluşur; balerinler ve futbolcularda zorlu plantar fleksiyonda arka ayak bileğinde sıkışma (posterior impingement) yapabilir.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-fad5735d",
+   "group": "Ayak kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sinus tarsi hangi iki kemik arasındaki boşluktur?",
+   "options": [
+    "Os naviculare ve os cuneiforme",
+    "Talus ve calcaneus",
+    "Calcaneus ve os cuboideum",
+    "Tibia ve fibula",
+    "Talus ve os naviculare"
+   ],
+   "answer": 1,
+   "explanation": "Sinus tarsi, talus boynunun altındaki sulcus tali ile calcaneus'un üstündeki sulcus calcanei'nin oluşturduğu dış tarafa açılan kanaldır; içinde güçlü lig. talocalcaneum interosseum bulunur ve önünden extensor digitorum brevis başlar.",
+   "entries": [
+    "talus",
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-216c2bbd",
+   "group": "Ayak kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ayağın lateral longitudinal kavsine katılan kemikler hangileridir?",
+   "options": [
+    "Calcaneus, os naviculare ve 1. metatars",
+    "Calcaneus, talus, naviculare, cuneiformia ve 1.–3. metatarslar",
+    "Cuneiformia ve metatars tabanları",
+    "Calcaneus, os cuboideum ve 4.–5. metatarslar",
+    "Talus, os cuboideum ve 5. metatars"
+   ],
+   "answer": 3,
+   "explanation": "Lateral kavis alçaktır ve yere yakındır; ağırlık taşımada önemlidir, kilit taşı kuboiddir. Medial kavis daha yüksektir ve calcaneus, talus, naviculare, üç cuneiforme ve 1.–3. metatarslardan oluşur.",
+   "notes": [
+    "Karışık bir dizidir.",
+    "Medial longitudinal kavisi tanımlar.",
+    "Transvers kavisi tanımlar.",
+    "",
+    "Talus lateral kavse katılmaz."
+   ],
+   "entries": [
+    "os-cuboideum",
+    "calcaneus",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-d2649154",
+   "group": "Ayak kemikleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Askerlik eğitiminin ilk haftalarında uzun yürüyüşlerden sonra ayağının ön kısmında ağrı başlayan gencin grafisinde 2. metatars cisminde stres kırığı saptanıyor. Bu kırığın yaygın adı hangisidir?",
+   "options": [
+    "Lisfranc yaralanması",
+    "Pott kırığı",
+    "Chopart çıkığı",
+    "Marş (yürüyüş) kırığı",
+    "Jones kırığı"
+   ],
+   "answer": 3,
+   "explanation": "Tekrarlayan yüklenme en ince ve en uzun metatars olan 2. metatarsta stres kırığına yol açar; ilk grafiler normal olabilir, kallus birkaç hafta sonra görünür. Jones kırığı 5. metatarsın metafiz–diafiz bileşkesindedir.",
+   "entries": [
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-1c850577",
+   "group": "Ayak kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Jones kırığı için hangisi doğrudur?",
+   "options": [
+    "Talus boynu kırığıdır",
+    "1. metatars başında olur",
+    "5. metatars tuberositasının fibularis brevis ile avülsiyonudur",
+    "5. metatarsın metafiz–diafiz bileşkesinde olur ve kaynamama riski yüksektir",
+    "Calcaneus'un stres kırığıdır"
+   ],
+   "answer": 3,
+   "explanation": "Jones kırığı tuberositasın 1,5–3 cm distalindeki, kanlanmanın zayıf olduğu ‘su ayrımı’ bölgesindedir; kaynamama sık olduğundan cerrahi gerekebilir. Tuberositas avülsiyonu (psödo-Jones) ise inversiyonla fibularis brevis çekmesi sonucu olur ve genellikle iyi iyileşir.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-251ed70f",
+   "group": "Ayak kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tuber calcanei'ye tutunan tendon hangisidir?",
+   "options": [
+    "Tendo calcaneus (Aşil tendonu)",
+    "M. tibialis anterior tendonu",
+    "M. flexor hallucis longus tendonu",
+    "M. fibularis brevis tendonu",
+    "M. tibialis posterior tendonu"
+   ],
+   "answer": 0,
+   "explanation": "Gastrocnemius ve soleus'un ortak tendonu olan Aşil tendonu topuk yumrusunun arka yüzünün orta kısmına tutunur; vücudun en kalın ve en güçlü tendonudur. Tutunma yerinin 2–6 cm yukarısı kanlanmanın en zayıf olduğu ve yırtığın en sık görüldüğü bölgedir.",
+   "entries": [
+    "calcaneus",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "sk-f0c708e7",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Erişkin insan iskeletinde yaklaşık kaç kemik bulunur?",
+   "options": [
+    "186",
+    "256",
+    "226",
+    "206",
+    "300"
+   ],
+   "answer": 3,
+   "explanation": "Erişkin iskeleti yaklaşık 206 kemikten oluşur: 80'i eksen iskeletinde, 126'sı ekstremite iskeletindedir. Yenidoğanda henüz kaynaşmamış parçalar nedeniyle sayı 270–300 civarındadır.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-93d7b509",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Vücudun en uzun ve en güçlü kemiği hangisidir?",
+   "options": [
+    "Humerus",
+    "Fibula",
+    "Tibia",
+    "Femur",
+    "Os coxae"
+   ],
+   "answer": 3,
+   "explanation": "Femur (uyluk kemiği) vücudun en uzun, en ağır ve en güçlü kemiğidir; boyun yaklaşık dörtte biri kadardır.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-a3b15dfd",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Vücudun en küçük kemiği hangisidir?",
+   "options": [
+    "Os lacrimale",
+    "Malleus (çekiç)",
+    "Os pisiforme",
+    "Stapes (üzengi kemiği)",
+    "Incus (örs)"
+   ],
+   "answer": 3,
+   "explanation": "Orta kulaktaki üç kemikçikten stapes vücudun en küçük kemiğidir; tabanı oval pencereye oturur.",
+   "entries": [
+    "ossicula-auditus"
+   ]
+  },
+  {
+   "id": "sk-59a23a69",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kemiğin dış yüzünü örten, damar ve sinirden zengin zar hangisidir?",
+   "options": [
+    "Perikondriyum",
+    "Fasya",
+    "Endost",
+    "Periost",
+    "Sinovyal zar"
+   ],
+   "answer": 3,
+   "explanation": "Periost kemiğin dış yüzünü örter; iç katmanındaki hücreler kemiğin kalınlaşmasını ve kırık iyileşmesini sağlar. Eklem yüzlerinde periost yoktur, buraları hiyalin kıkırdak örter. Endost kemik iliği boşluğunu döşer.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-4df6a75a",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Uzun bir kemiğin gövde kısmına ne ad verilir?",
+   "options": [
+    "Epifiz plağı",
+    "Diafiz",
+    "Epifiz",
+    "Apofiz",
+    "Metafiz"
+   ],
+   "answer": 1,
+   "explanation": "Uzun kemiğin gövdesi diafiz, uçları epifiz, ikisi arasındaki büyüme bölgesi metafizdir. Diafizin içinde kemik iliğini barındıran cavitas medullaris bulunur.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-45e4abe2",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kemiği yıkan (rezorbe eden) hücre hangisidir?",
+   "options": [
+    "Fibroblast",
+    "Osteosit",
+    "Osteoklast",
+    "Kondrosit",
+    "Osteoblast"
+   ],
+   "answer": 2,
+   "explanation": "Osteoklastlar monosit kökenli, çok çekirdekli hücrelerdir ve kemik dokusunu yıkar. Osteoblastlar yeni kemik yapar, osteositler ise kemik içine gömülmüş olgun hücrelerdir.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-900539f3",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kan hücrelerinin yapıldığı doku hangisidir?",
+   "options": [
+    "Periost",
+    "Kompakt kemik",
+    "Eklem kıkırdağı",
+    "Kırmızı kemik iliği",
+    "Sarı kemik iliği"
+   ],
+   "answer": 3,
+   "explanation": "Kan yapımı kırmızı kemik iliğinde olur. Erişkinde kırmızı ilik başlıca yassı kemiklerde (sternum, kaburgalar, kalça kemiği, omurlar) bulunur; uzun kemiklerin gövdesindeki ilik yağdan zengin sarı iliğe dönüşür.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-6f3cbcfe",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Uzun kemikler boyca nerede uzar?",
+   "options": [
+    "Eklem kıkırdağında",
+    "Endostta",
+    "Periostta",
+    "Diafizin ortasında",
+    "Epifiz plağında (büyüme kıkırdağı)"
+   ],
+   "answer": 4,
+   "explanation": "Boyca uzama metafizdeki epifiz plağında kıkırdak hücrelerinin çoğalıp kemikleşmesiyle olur; plak ergenlik sonunda kapanır. Enine büyüme ise periosttan yeni kemik eklenmesiyle gerçekleşir.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-1a21cd83",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi eksen iskeletine (skeleton axiale) ait bir kemiktir?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Clavicula",
+    "Os coxae",
+    "Sternum"
+   ],
+   "answer": 4,
+   "explanation": "Eksen iskeleti kafatası, omurga ve göğüs kafesinden (sternum ve kaburgalar) oluşur. Klavikula ve skapula omuz kuşağının, os coxae pelvis kuşağının, humerus serbest üst ekstremitenin kemiğidir.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-2db88c9e",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi yassı kemik örneğidir?",
+   "options": [
+    "Vertebra",
+    "Os parietale",
+    "Femur",
+    "Os capitatum",
+    "Os metacarpale"
+   ],
+   "answer": 1,
+   "explanation": "Yassı kemikler ince ve geniştir (kafatası tavanı, sternum, kaburgalar, skapula). Femur ve metakarplar uzun, kapitatum kısa, omurlar düzensiz kemiklerdir.",
+   "entries": [
+    "iskelet-genel",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-a98a93de",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi sesamoid bir kemik değildir?",
+   "options": [
+    "Fabella",
+    "Os lunatum",
+    "Ayak başparmağı sesamoidi",
+    "Patella",
+    "Os pisiforme"
+   ],
+   "answer": 1,
+   "explanation": "Sesamoid kemikler tendon içinde gelişir: patella, pisiform, başparmak ve ayak başparmağı MP eklemlerinin altındaki sesamoidler ile bazı kişilerde fabella. Lunatum ise proksimal karpal sıradaki kısa kemiktir.",
+   "entries": [
+    "ossa-sesamoidea"
+   ]
+  },
+  {
+   "id": "sk-66a08b42",
+   "group": "Kafatası (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Alnı ve göz çukurlarının tavanını oluşturan kemik hangisidir?",
+   "options": [
+    "Os frontale",
+    "Os sphenoidale",
+    "Os zygomaticum",
+    "Os ethmoidale",
+    "Os parietale"
+   ],
+   "answer": 0,
+   "explanation": "Os frontale dikey pars squamosa ile alnı, yatay pars orbitalis ile orbitaların tavanını ve ön kafa çukurunun tabanını oluşturur.",
+   "entries": [
+    "os-frontale"
+   ]
+  },
+  {
+   "id": "sk-cb93516d",
+   "group": "Kafatası (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kafatası kemiklerinden sinovyal eklemle hareket eden tek kemik hangisidir?",
+   "options": [
+    "Os nasale",
+    "Vomer",
+    "Mandibula",
+    "Maxilla",
+    "Os zygomaticum"
+   ],
+   "answer": 2,
+   "explanation": "Kafatası kemikleri dikişlerle sıkıca birleşir; tek hareketli eklem mandibula ile temporal kemik arasındaki çene eklemidir (art. temporomandibularis).",
+   "entries": [
+    "mandibula",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-4559542c",
+   "group": "Kafatası (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Yenidoğanda kafatası kemikleri arasında kalan, kemikleşmemiş zar alanlarına ne ad verilir?",
+   "options": [
+    "Fontanel (bıngıldak)",
+    "Sutura (dikiş)",
+    "Fissür",
+    "Sinüs",
+    "Foramen"
+   ],
+   "answer": 0,
+   "explanation": "Fontaneller dikişlerin kesiştiği yerlerdeki zarlı alanlardır; doğumda başın kalıplanmasını ve beynin büyümesini sağlar. En büyüğü ön fontaneldir.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-f341b2fb",
+   "group": "Kafatası (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Sutura sagittalis hangi kemikler arasındadır?",
+   "options": [
+    "Os parietale ile os temporale",
+    "İki os frontale yarımı arasında",
+    "İki os parietale arasında",
+    "Os frontale ile os parietale",
+    "Os parietale ile os occipitale"
+   ],
+   "answer": 2,
+   "explanation": "Sutura sagittalis iki parietal kemiği orta hatta birleştirir. Koronal dikiş frontal–parietal, lambdoid dikiş parietal–oksipital, skuamöz dikiş parietal–temporal kemikler arasındadır.",
+   "entries": [
+    "suturae-fonticuli",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-bb6020cc",
+   "group": "Kafatası (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Göz çukurunun (orbita) oluşumuna kaç kemik katılır?",
+   "options": [
+    "5",
+    "8",
+    "6",
+    "9",
+    "7"
+   ],
+   "answer": 4,
+   "explanation": "Orbitayı frontal, zygomatik, maksilla, sfenoid, etmoid, lakrimal ve palatin kemikler olmak üzere yedi kemik oluşturur.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-13d66ee5",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Omurgada kaç boyun (servikal) omuru bulunur?",
+   "options": [
+    "6",
+    "12",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Omurga 7 servikal, 12 torakal, 5 lomber, 5 sakral ve 3–5 koksigeal omurdan oluşur.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-894f664c",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Birinci boyun omurunun (C1) özel adı nedir?",
+   "options": [
+    "Vertebra prominens",
+    "Atlas",
+    "Promontorium",
+    "Axis",
+    "Dens"
+   ],
+   "answer": 1,
+   "explanation": "C1 atlas, C2 axis, C7 vertebra prominens olarak adlandırılır. Atlas'ın gövdesi ve diken çıkıntısı yoktur.",
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-a8bb291d",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Sakrum kaç omurun kaynaşmasıyla oluşur?",
+   "options": [
+    "7",
+    "12",
+    "5",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Beş sakral omur kaynaşarak üçgen biçimli sakrumu oluşturur; altındaki 3–5 koksigeal omur da koksiksi yapar.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-d1d02687",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Bebek başını dik tutmaya başladığında omurgada hangi eğrilik gelişir?",
+   "options": [
+    "Sakral kifoz",
+    "Torakal kifoz",
+    "Servikal lordoz",
+    "Skolyoz",
+    "Lomber lordoz"
+   ],
+   "answer": 2,
+   "explanation": "Fetüste omurga tek bir C şeklindedir (birincil kifoz). Baş tutulmaya başlayınca servikal lordoz, oturma ve yürümeyle lomber lordoz (ikincil eğrilikler) gelişir.",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-b2c190ac",
+   "group": "Göğüs kafesi (Thorax)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Göğüs kafesinde kaç çift kaburga bulunur?",
+   "options": [
+    "12 çift",
+    "11 çift",
+    "13 çift",
+    "24 çift",
+    "10 çift"
+   ],
+   "answer": 0,
+   "explanation": "İnsanda 12 çift (24) kaburga vardır: 7 çift gerçek, 3 çift yalancı ve 2 çift yüzen kaburga.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-e3425c63",
+   "group": "Göğüs kafesi (Thorax)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kendi kıkırdağıyla doğrudan sternuma bağlanan 'gerçek kaburgalar' hangileridir?",
+   "options": [
+    "8.–10. kaburgalar",
+    "11.–12. kaburgalar",
+    "1.–10. kaburgalar",
+    "1.–12. kaburgalar",
+    "1.–7. kaburgalar"
+   ],
+   "answer": 4,
+   "explanation": "Gerçek kaburgalar (costae verae) 1.–7. kaburgalardır. 8.–10. kaburgalar kıkırdaklarıyla üstteki kıkırdağa bağlanır (yalancı kaburgalar), 11.–12. kaburgaların ön ucu serbesttir (yüzen kaburgalar).",
+   "entries": [
+    "costae",
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-cd7f4cd1",
+   "group": "Göğüs kafesi (Thorax)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Sternumun üç bölümü hangileridir?",
+   "options": [
+    "Manubrium, angulus ve corpus",
+    "Manubrium, corpus ve cartilago costalis",
+    "Manubrium, corpus ve processus xiphoideus",
+    "Incisura jugularis, angulus ve processus xiphoideus",
+    "Corpus, processus xiphoideus ve incisura jugularis"
+   ],
+   "answer": 2,
+   "explanation": "Sternum yukarıdan aşağıya manubrium, corpus ve processus xiphoideus'tan oluşur. Manubrium ile corpus arasındaki birleşme yeri angulus sterni'dir (2. kaburga hizası).",
+   "entries": [
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-0a8d84f1",
+   "group": "Üst ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kolun (arm) tek kemiği hangisidir?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Ulna",
+    "Clavicula",
+    "Radius"
+   ],
+   "answer": 1,
+   "explanation": "Kol (brachium) bölgesinde yalnızca humerus bulunur; önkolda radius ve ulna, omuz kuşağında klavikula ve skapula yer alır.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-b53d9bdb",
+   "group": "Üst ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Önkolda başparmak tarafında bulunan kemik hangisidir?",
+   "options": [
+    "Os scaphoideum",
+    "Humerus",
+    "Ulna",
+    "Fibula",
+    "Radius"
+   ],
+   "answer": 4,
+   "explanation": "Anatomik pozisyonda radius önkolun dış (başparmak), ulna iç (serçe parmak) tarafındadır.",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-02299d72",
+   "group": "Üst ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Klavikulanın iç (medial) ucu hangi kemikle eklem yapar?",
+   "options": [
+    "Sternum (manubrium)",
+    "1. kaburga gövdesi",
+    "C7 omuru",
+    "Humerus",
+    "Scapula (akromiyon)"
+   ],
+   "answer": 0,
+   "explanation": "Klavikulanın iç ucu manubrium sterni ile sternoklaviküler eklemi, dış ucu akromiyon ile akromiyoklaviküler eklemi yapar.",
+   "entries": [
+    "clavicula",
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "sk-dc65dbda",
+   "group": "Üst ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Akromiyon (acromion) hangi kemiğin parçasıdır?",
+   "options": [
+    "1. kaburga",
+    "Scapula",
+    "Sternum",
+    "Humerus",
+    "Clavicula"
+   ],
+   "answer": 1,
+   "explanation": "Akromiyon skapula dikeninin (spina scapulae) dış ucudur; omzun en yüksek kemik noktasını oluşturur ve klavikulayla eklem yapar.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-135626d7",
+   "group": "Üst ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Omuz ekleminde humerus başının oturduğu skapuladaki çukur hangisidir?",
+   "options": [
+    "Cavitas glenoidalis",
+    "Fossa supraspinata",
+    "Fossa subscapularis",
+    "Fossa olecrani",
+    "Acetabulum"
+   ],
+   "answer": 0,
+   "explanation": "Humerus başı skapulanın cavitas glenoidalis'iyle omuz (glenohumeral) eklemini yapar; çukur labrum glenoidale ile derinleşir.",
+   "entries": [
+    "scapula",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "sk-1a79acf4",
+   "group": "Üst ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dirseğin arkasında ele gelen olecranon hangi kemiğe aittir?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Radius",
+    "Os pisiforme",
+    "Ulna"
+   ],
+   "answer": 4,
+   "explanation": "Olecranon ulnanın proksimal ucundaki çıkıntıdır; dirsek ekstansiyonda iken humerusun fossa olecrani'sine girer ve m. triceps brachii buraya tutunur.",
+   "entries": [
+    "ulna"
+   ]
+  },
+  {
+   "id": "sk-1924a576",
+   "group": "El kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "El bileğinde kaç karpal kemik bulunur?",
+   "options": [
+    "7",
+    "14",
+    "5",
+    "8",
+    "10"
+   ],
+   "answer": 3,
+   "explanation": "Karpal kemikler iki sıra hâlinde dizilmiş sekiz kısa kemiktir: proksimalde scaphoideum, lunatum, triquetrum, pisiforme; distalde trapezium, trapezoideum, capitatum, hamatum.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-cc283b3f",
+   "group": "El kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Elin başparmağında kaç falanks bulunur?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Başparmakta proksimal ve distal olmak üzere iki falanks, diğer parmaklarda üçer falanks bulunur; elde toplam 14 falanks vardır.",
+   "entries": [
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "sk-766cdcb8",
+   "group": "Alt ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kalça kemiğini (os coxae) oluşturan üç kemik hangileridir?",
+   "options": [
+    "Ischium, femur ve pubis",
+    "Ilium, sacrum ve pubis",
+    "Ilium, ischium ve pubis",
+    "Ilium, ischium ve coccyx",
+    "Sacrum, coccyx ve pubis"
+   ],
+   "answer": 2,
+   "explanation": "Os coxae ilium, ischium ve pubisin asetabulumda kaynaşmasıyla oluşur; kaynaşma ergenlikte Y şeklindeki kıkırdağın kemikleşmesiyle tamamlanır.",
+   "entries": [
+    "os-coxae",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-e8ec8422",
+   "group": "Alt ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Otururken vücut ağırlığını taşıyan kemik çıkıntısı hangisidir?",
+   "options": [
+    "Spina iliaca anterior superior",
+    "Tuber ischiadicum",
+    "Trochanter major",
+    "Crista iliaca",
+    "Tuberculum pubicum"
+   ],
+   "answer": 1,
+   "explanation": "Otururken ağırlık iskium yumruları (tuber ischiadicum) üzerine biner. Hamstring kasları da buradan başlar.",
+   "entries": [
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-fce811c8",
+   "group": "Alt ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Bacağın iç tarafında bulunan, ağırlığı taşıyan kalın kemik hangisidir?",
+   "options": [
+    "Femur",
+    "Fibula",
+    "Talus",
+    "Patella",
+    "Tibia"
+   ],
+   "answer": 4,
+   "explanation": "Tibia (kaval kemiği) bacağın iç tarafındaki kalın kemiktir ve ağırlığın büyük kısmını taşır; dış taraftaki ince fibulanın ağırlık taşımaya katkısı azdır.",
+   "entries": [
+    "tibia"
+   ]
+  },
+  {
+   "id": "sk-3d64e2a3",
+   "group": "Alt ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Diz kapağı kemiği hangisidir?",
+   "options": [
+    "Fabella",
+    "Os naviculare",
+    "Os pisiforme",
+    "Talus",
+    "Patella"
+   ],
+   "answer": 4,
+   "explanation": "Patella m. quadriceps femoris tendonu içinde gelişen, vücudun en büyük sesamoid kemiğidir.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-51c47666",
+   "group": "Alt ekstremite kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Ayak bileğinin dış yanındaki kemik çıkıntı (dış topuk) hangi kemiğe aittir?",
+   "options": [
+    "Calcaneus",
+    "Tibia (malleolus medialis)",
+    "Fibula (malleolus lateralis)",
+    "Os cuboideum",
+    "Talus"
+   ],
+   "answer": 2,
+   "explanation": "Dış topuk fibulanın alt ucu olan malleolus lateralis'tir; iç topuk ise tibianın malleolus medialis'idir. Dış malleol iç malleolden daha aşağıya iner.",
+   "entries": [
+    "fibula"
+   ]
+  },
+  {
+   "id": "sk-5b89ff5c",
+   "group": "Ayak kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Topuğu oluşturan kemik hangisidir?",
+   "options": [
+    "Os cuneiforme mediale",
+    "Talus",
+    "Calcaneus",
+    "Os cuboideum",
+    "Os naviculare"
+   ],
+   "answer": 2,
+   "explanation": "Kalkaneus en büyük tarsal kemiktir ve topuğu oluşturur; arkasındaki tuber calcanei'ye Aşil tendonu tutunur.",
+   "entries": [
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-617628de",
+   "group": "Ayak kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Ayakta toplam kaç kemik bulunur?",
+   "options": [
+    "26",
+    "28",
+    "33",
+    "24",
+    "20"
+   ],
+   "answer": 0,
+   "explanation": "Her ayakta 7 tarsal, 5 metatarsal ve 14 falanks olmak üzere 26 kemik bulunur (sesamoidler sayılmaz).",
+   "entries": [
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-4ce46011",
+   "group": "Ayak kemikleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kalkaneusun önünde, ayağın dış kenarında bulunan tarsal kemik hangisidir?",
+   "options": [
+    "Os cuneiforme laterale",
+    "Os naviculare",
+    "5. metatars",
+    "Os cuboideum",
+    "Talus"
+   ],
+   "answer": 3,
+   "explanation": "Kuboid kemik kalkaneusun önünde ayağın dış kenarındadır ve 4.–5. metatarslarla eklem yapar; naviküler ise talusun önünde iç taraftadır.",
+   "entries": [
+    "os-cuboideum",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-62a44079",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kompakt kemiğin temel yapısal birimi hangisidir?",
+   "options": [
+    "Periost",
+    "Osteon (Havers sistemi)",
+    "Lakün",
+    "Kondron",
+    "Trabekül"
+   ],
+   "answer": 1,
+   "explanation": "Kompakt kemik, merkezindeki Havers kanalı etrafında halkalar hâlinde dizilmiş lamellerden oluşan osteonlardan yapılmıştır. Süngersi kemik ise trabeküllerden oluşur.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-ef479b99",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Periostu kemiğe sıkıca bağlayan ve kemik içine giren kollajen liflere ne ad verilir?",
+   "options": [
+    "Elastik lifler",
+    "Sharpey lifleri",
+    "Volkmann kanalları",
+    "Havers lamelleri",
+    "Retiküler lifler"
+   ],
+   "answer": 1,
+   "explanation": "Sharpey (perforan) lifleri periosttan kemik matriksine giren kalın kollajen demetleridir; tendon ve bağların kemiğe tutunmasını da sağlar.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-545c3b65",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kafatası tavanı (calvaria) kemikleri hangi yolla kemikleşir?",
+   "options": [
+    "Heterotopik kemikleşme",
+    "Kıkırdak içi (endokondral) kemikleşme",
+    "Zar içi (intramembranöz) kemikleşme",
+    "Apozisyonel kıkırdak büyümesi",
+    "Sesamoid kemikleşme"
+   ],
+   "answer": 2,
+   "explanation": "Kafatası tavanı, yüz kemikleri ve klavikulanın büyük kısmı doğrudan mezenkimden zar içi kemikleşmeyle gelişir. Kafa tabanı, omurlar ve ekstremite kemiklerinin çoğu ise kıkırdak taslak üzerinden (endokondral) kemikleşir.",
+   "entries": [
+    "os-structura",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-64644656",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kemik yaşı tayininde en sık hangi bölgenin grafisi kullanılır?",
+   "options": [
+    "Sol el ve el bileği",
+    "Diz",
+    "Pelvis",
+    "Kafatası",
+    "Ayak"
+   ],
+   "answer": 0,
+   "explanation": "Kemik yaşı, sol el ve el bileği grafisindeki kemikleşme merkezlerinin görünümü ve epifiz plaklarının durumu standart atlaslarla (Greulich–Pyle) karşılaştırılarak belirlenir.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-7f45caa6",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Erişkinde kemik iliği aspirasyonu ve biyopsisi en sık nereden yapılır?",
+   "options": [
+    "Kalkaneus",
+    "Klavikula",
+    "Femur başı",
+    "Proksimal tibia",
+    "Arka krista iliaka (spina iliaca posterior superior çevresi)"
+   ],
+   "answer": 4,
+   "explanation": "Erişkinde arka iliak krista hem güvenli hem de kırmızı ilikten zengin olduğu için tercih edilir. Proksimal tibia küçük çocuklarda kullanılır.",
+   "entries": [
+    "iskelet-genel",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-efcc65cb",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Processus mastoideus'a tutunan kas hangisidir?",
+   "options": [
+    "M. temporalis",
+    "M. masseter",
+    "M. trapezius",
+    "Platysma",
+    "M. sternocleidomastoideus"
+   ],
+   "answer": 4,
+   "explanation": "SCM sternum ve klavikuladan başlayıp processus mastoideus ile linea nuchae superior'un dış kısmına tutunur. Mastoid çıkıntı doğumda yoktur; kasın çekişiyle çocuklukta gelişir.",
+   "entries": [
+    "os-temporale",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-299c3612",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Foramen magnum'dan geçmeyen yapı hangisidir?",
+   "options": [
+    "V. jugularis interna",
+    "Aa. vertebrales",
+    "A. spinalis anterior",
+    "Medulla oblongata",
+    "N. accessorius'un spinal kökü"
+   ],
+   "answer": 0,
+   "explanation": "Foramen magnum'dan medulla oblongata ve zarları, vertebral arterler, spinal arterler ve n. accessorius'un spinal kökleri geçer. V. jugularis interna foramen jugulare'den başlar.",
+   "entries": [
+    "os-occipitale",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-94a4fb4f",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sinus sphenoidalis burun boşluğunda nereye açılır?",
+   "options": [
+    "Meatus nasi inferior",
+    "Meatus nasi superior",
+    "Recessus sphenoethmoidalis",
+    "Meatus nasi medius",
+    "Nazofarinks"
+   ],
+   "answer": 2,
+   "explanation": "Sfenoid sinüs üst konkanın arka-üstündeki recessus sphenoethmoidalis'e açılır. Arka etmoid hücreler üst meatusa, frontal, maksiller ve ön etmoid sinüsler orta meatusa, ductus nasolacrimalis alt meatusa açılır.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-f4bad9ce",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Os sphenoidale'nin processus pterygoideus'unun dış levhasına (lamina lateralis) tutunan kaslar hangileridir?",
+   "options": [
+    "M. masseter ve m. temporalis",
+    "M. digastricus ve m. stylohyoideus",
+    "M. tensor veli palatini ve m. levator veli palatini",
+    "M. buccinator ve m. constrictor pharyngis superior",
+    "M. pterygoideus lateralis ve m. pterygoideus medialis"
+   ],
+   "answer": 4,
+   "explanation": "Lamina lateralis'in dış yüzünden m. pterygoideus lateralis'in alt başı, iç yüzünden m. pterygoideus medialis'in derin başı başlar. İç levhanın ucundaki hamulus etrafında m. tensor veli palatini tendonu döner.",
+   "entries": [
+    "os-sphenoidale",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "sk-24639fbf",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Orbitanın en kalın duvarı hangisidir?",
+   "options": [
+    "Dış (lateral) duvar",
+    "Taban",
+    "İç (medial) duvar",
+    "Orbita tepesi",
+    "Tavan"
+   ],
+   "answer": 0,
+   "explanation": "Dış duvarı os zygomaticum ve sfenoidin büyük kanadı oluşturur ve en kalın duvardır. En ince duvar etmoidin lamina papyracea'sıyla iç duvardır; blow-out kırıkları en sık tabanda olur.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-fe9c4d6f",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Fissura orbitalis inferior'dan geçen sinir hangisidir?",
+   "options": [
+    "N. infraorbitalis",
+    "N. trochlearis",
+    "N. lacrimalis",
+    "N. frontalis",
+    "N. abducens"
+   ],
+   "answer": 0,
+   "explanation": "N. maxillaris pterigopalatin çukurdan fissura orbitalis inferior aracılığıyla orbitaya girerek n. infraorbitalis adını alır. N. frontalis, n. lacrimalis, n. trochlearis ve n. abducens fissura orbitalis superior'dan geçer.",
+   "entries": [
+    "orbita",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-50fc7e36",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Fossa pterygopalatina'yı orta kafa çukuruna bağlayan açıklık hangisidir?",
+   "options": [
+    "Foramen spinosum",
+    "Canalis opticus",
+    "Foramen ovale",
+    "Foramen rotundum",
+    "Fissura orbitalis superior"
+   ],
+   "answer": 3,
+   "explanation": "N. maxillaris (V2) orta kafa çukurundan foramen rotundum ile pterigopalatin çukura geçer. Foramen ovale ve spinosum fossa infratemporalis'e açılır.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-c03603d8",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sutura metopica hangi kemiğin iki yarısı arasında bulunur?",
+   "options": [
+    "Mandibula",
+    "Os parietale",
+    "Os sphenoidale",
+    "Os occipitale",
+    "Os frontale"
+   ],
+   "answer": 4,
+   "explanation": "Os frontale doğumda iki yarım hâlindedir; aralarındaki sutura metopica genellikle 1–2 yaşta kapanır. Bazı erişkinlerde açık kalabilir ve grafide kırık hattıyla karıştırılabilir.",
+   "entries": [
+    "os-frontale",
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-af9c3b69",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Arka fontanel (fonticulus posterior) hangi kemikler arasında yer alır?",
+   "options": [
+    "İki os parietale ve os occipitale",
+    "Os sphenoidale ve os temporale",
+    "Os parietale, os temporale ve os occipitale",
+    "İki os frontale ve iki os parietale",
+    "Os frontale, os parietale, os temporale ve os sphenoidale"
+   ],
+   "answer": 0,
+   "explanation": "Üçgen biçimli arka fontanel lambda noktasında, iki parietal ile oksipital kemik arasındadır ve 2–3. ayda kapanır. Ön fontanel bregmada, frontal ve parietal kemikler arasındadır.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-7e5d8299",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Os hyoideum genellikle hangi omur düzeyinde bulunur?",
+   "options": [
+    "C1",
+    "C5",
+    "C3",
+    "C6",
+    "T1"
+   ],
+   "answer": 2,
+   "explanation": "Hyoid kemiği boyunda C3 düzeyindedir. Tiroid kıkırdağın üst kenarı C4, krikoid kıkırdak C6 düzeyine karşılık gelir.",
+   "entries": [
+    "os-hyoideum"
+   ]
+  },
+  {
+   "id": "sk-337e8167",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Süt dişlerinde aşağıdaki diş gruplarından hangisi bulunmaz?",
+   "options": [
+    "Küçük azı dişleri (premolarlar)",
+    "Orta kesici dişler",
+    "Köpek dişleri",
+    "Yan kesici dişler",
+    "Büyük azı dişleri (molarlar)"
+   ],
+   "answer": 0,
+   "explanation": "Süt dişleri her yarım çenede 2 kesici, 1 köpek ve 2 büyük azı olmak üzere toplam 20 dişten oluşur; premolar süt dişi yoktur. Kalıcı premolarlar süt molarlarının yerine çıkar.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-acf4fff3",
+   "group": "Kafatası (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kalıcı dişlerden ilk süren diş hangisidir?",
+   "options": [
+    "1. büyük azı dişi (yaklaşık 6 yaş)",
+    "1. küçük azı dişi",
+    "Orta kesici diş",
+    "Köpek dişi",
+    "3. büyük azı dişi"
+   ],
+   "answer": 0,
+   "explanation": "Kalıcı dişlerden ilk çıkan, süt dişlerinin arkasından süren 1. büyük azıdır (6 yaş dişi); son çıkan 3. büyük azıdır (yirmi yaş dişi).",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-5476a288",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kalp şeklinde gövde ve küçük yuvarlak foramen vertebrale hangi omurlara özgüdür?",
+   "options": [
+    "Servikal omurlar",
+    "Lomber omurlar",
+    "Koksigeal omurlar",
+    "Sakral omurlar",
+    "Torakal omurlar"
+   ],
+   "answer": 4,
+   "explanation": "Torakal omurların gövdesi kalp şeklindedir, foramen vertebrale küçük ve yuvarlaktır; gövde ve transvers çıkıntılarda kaburga eklem yüzleri bulunur. Servikal omurlarda foramen üçgen ve geniştir.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-6bfe54be",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Omurganın birincil (primer) eğrilikleri hangileridir?",
+   "options": [
+    "Torakal ve sakral kifoz",
+    "Lomber lordoz ve sakral kifoz",
+    "Servikal ve lomber lordoz",
+    "Servikal lordoz ve torakal kifoz",
+    "Torakal kifoz ve lomber lordoz"
+   ],
+   "answer": 0,
+   "explanation": "Fetüsteki C şeklindeki eğriliğin kalıntısı olan torakal ve sakral kifoz birincil eğriliklerdir; servikal ve lomber lordoz doğumdan sonra gelişen ikincil eğriliklerdir.",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-a4798013",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "L4 spinal siniri hangi omurlar arasındaki foramen intervertebrale'den çıkar?",
+   "options": [
+    "T12 ile L1 arasından",
+    "L5 ile S1 arasından",
+    "L4 ile L5 arasından",
+    "L3 ile L4 arasından",
+    "L2 ile L3 arasından"
+   ],
+   "answer": 2,
+   "explanation": "Torakal ve lomber bölgede spinal sinirler aynı numaralı omurun altındaki foramenden çıkar; L4 siniri L4–L5 foramenindedir. Posterolateral L4–L5 disk hernisi ise genellikle bir alt kök olan L5'e bası yapar.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-d8cdddd6",
+   "group": "Göğüs kafesi (Thorax)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "2. kaburganın dış yüzündeki pürüzlü alana (tuberositas) tutunan kas hangisidir?",
+   "options": [
+    "M. serratus anterior",
+    "M. scalenus anterior",
+    "M. pectoralis minor",
+    "M. pectoralis major",
+    "M. subclavius"
+   ],
+   "answer": 0,
+   "explanation": "2. kaburga atipiktir: 1. kaburgadan iki kat uzundur ve dış yüzünde m. serratus anterior'un ilk dişinin tutunduğu tuberositas bulunur. Pectoralis minor 3.–5., scalenus anterior ve subclavius 1. kaburgaya tutunur.",
+   "entries": [
+    "costae-atypicae",
+    "m-serratus-anterior"
+   ]
+  },
+  {
+   "id": "sk-b9394d0e",
+   "group": "Üst ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kollar yanda serbestken skapulanın alt açısı (angulus inferior) hangi omur düzeyine karşılık gelir?",
+   "options": [
+    "T2",
+    "T10",
+    "T7",
+    "L1",
+    "T4"
+   ],
+   "answer": 2,
+   "explanation": "Skapulanın üst açısı T2, spina scapulae'nin iç ucu T3, alt açısı T7 düzeyindedir. Alt açı göğüs muayenesinde ve torasentezde yüzey işareti olarak kullanılır.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-c935a47a",
+   "group": "Üst ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Trochlea humeri ulnanın hangi bölümüyle eklem yapar?",
+   "options": [
+    "Caput ulnae",
+    "Incisura radialis",
+    "Incisura trochlearis",
+    "Processus styloideus ulnae",
+    "Tuberositas ulnae"
+   ],
+   "answer": 2,
+   "explanation": "Humerusun makara biçimli trochlea'sı ulnanın olecranon ile processus coronoideus arasındaki incisura trochlearis'e oturarak humeroulnar menteşe eklemini yapar. Capitulum humeri ise radius başıyla eklemleşir.",
+   "entries": [
+    "humerus",
+    "ulna",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-fffabda4",
+   "group": "Üst ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tuberositas radii'ye tutunan kas hangisidir?",
+   "options": [
+    "M. brachialis",
+    "M. biceps brachii",
+    "M. triceps brachii",
+    "M. supinator",
+    "M. pronator teres"
+   ],
+   "answer": 1,
+   "explanation": "Biceps brachii tendonu radius boynunun altındaki tuberositas radii'ye tutunur; bu nedenle güçlü bir supinatördür. Brachialis tuberositas ulnae'ye, pronator teres radiusun dış yüzünün ortasına tutunur.",
+   "entries": [
+    "radius",
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-afaac4c9",
+   "group": "El kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Retinaculum flexorum'un dış (radial) tutunma noktaları hangileridir?",
+   "options": [
+    "Tuberculum ossis scaphoidei ve tuberculum ossis trapezii",
+    "Os capitatum ve os trapezoideum",
+    "1. metakarp tabanı ve os lunatum",
+    "Os pisiforme ve hamulus ossis hamati",
+    "Processus styloideus radii ve os lunatum"
+   ],
+   "answer": 0,
+   "explanation": "Retinaculum flexorum dışta skafoid ve trapezium tüberküllerine, içte pisiform ve hamulus ossis hamati'ye tutunarak karpal tünelin tavanını oluşturur.",
+   "entries": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "os-trapezium"
+   ]
+  },
+  {
+   "id": "sk-63af94e3",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sırtın alt kısmındaki deri çukurcukları (Venüs gamzeleri) hangi kemik çıkıntısını gösterir ve hangi omur düzeyindedir?",
+   "options": [
+    "Crista iliaca'nın en yüksek noktası – L4",
+    "Spina iliaca posterior superior – S2",
+    "Spina iliaca anterior superior – L4",
+    "Spina ischiadica – S3",
+    "Tuber ischiadicum – S4"
+   ],
+   "answer": 1,
+   "explanation": "Sakroiliak bölgedeki gamzeler SIPS'in yerini gösterir ve S2 düzeyine karşılık gelir; bu düzey aynı zamanda dural kesenin ve subaraknoid aralığın sonlandığı yerdir.",
+   "entries": [
+    "os-coxae",
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-736237ad",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Femurdaki linea pectinea'ya tutunan kas hangisidir?",
+   "options": [
+    "M. vastus medialis",
+    "M. gluteus maximus",
+    "M. adductor longus",
+    "M. iliopsoas",
+    "M. pectineus"
+   ],
+   "answer": 4,
+   "explanation": "M. pectineus pecten ossis pubis'ten başlayıp trochanter minor'un altındaki linea pectinea'ya tutunur. İliopsoas trochanter minor'a, gluteus maximus tuberositas glutea'ya tutunur.",
+   "entries": [
+    "femur",
+    "m-pectineus"
+   ]
+  },
+  {
+   "id": "sk-fecd544c",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Femurdaki tuberculum adductorium'a tutunan kas hangisidir?",
+   "options": [
+    "M. adductor magnus (hamstring bölümü)",
+    "M. vastus medialis",
+    "M. adductor longus",
+    "M. gracilis",
+    "M. semimembranosus"
+   ],
+   "answer": 0,
+   "explanation": "Adductor magnus'un tuber ischiadicum'dan gelen dikey (hamstring) bölümü medial epikondilin üstündeki tuberculum adductorium'a tutunur; bu bölüm n. ischiadicus'un tibial kısmıyla innerve edilir.",
+   "entries": [
+    "femur",
+    "m-adductor-magnus"
+   ]
+  },
+  {
+   "id": "sk-d46b7610",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lig. capitis femoris femur başında hangi çukura tutunur?",
+   "options": [
+    "Fossa trochanterica",
+    "Fossa acetabuli",
+    "Fovea capitis femoris",
+    "Linea intertrochanterica",
+    "Fossa intercondylaris"
+   ],
+   "answer": 2,
+   "explanation": "Lig. capitis femoris asetabular çentikten femur başının ortasındaki fovea capitis'e uzanır; içinden a. obturatoria'nın asetabular dalı geçer.",
+   "entries": [
+    "femur",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-3e7d0e42",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kadın pelvisini erkek pelvisinden ayıran özellik hangisidir?",
+   "options": [
+    "Pelvis girişi kalp şeklindedir.",
+    "Angulus subpubicus daha geniştir.",
+    "Spina ischiadica daha içe çıkıntılıdır.",
+    "Pelvis daha derin ve dardır.",
+    "Sakrum daha uzun ve dardır."
+   ],
+   "answer": 1,
+   "explanation": "Kadın pelvisi daha geniş ve sığdır; giriş oval, angulus subpubicus 90°'den geniş, sakrum kısa ve geniştir, ischial dikenler daha az çıkıntılıdır. Diğer seçenekler erkek pelvisinin özellikleridir.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-54c3cd19",
+   "group": "Ayak kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Talus aşağıdaki kemiklerden hangisiyle eklem yapmaz?",
+   "options": [
+    "Tibia",
+    "Os cuboideum",
+    "Fibula",
+    "Os naviculare",
+    "Calcaneus"
+   ],
+   "answer": 1,
+   "explanation": "Talus üstte tibia ve fibula (talokrural eklem), altta kalkaneus (subtalar eklem), önde naviküler (talonaviküler eklem) ile eklem yapar. Kuboid kalkaneusun önündedir.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-d6509a0e",
+   "group": "Ayak kemikleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Üç kuneiform kemikten en büyüğü hangisidir?",
+   "options": [
+    "İç (medial) kuneiform",
+    "Orta (intermediate) kuneiform",
+    "Os cuboideum",
+    "Dış (lateral) kuneiform",
+    "Üçü eşit büyüklüktedir"
+   ],
+   "answer": 0,
+   "explanation": "İç kuneiform en büyük, orta kuneiform en küçüktür. Orta kuneiformun kısa olması 2. metatars tabanının iç ve dış kuneiformlar arasına kilitlenmesini sağlar.",
+   "entries": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale"
+   ]
+  },
+  {
+   "id": "sk-75fb3209",
+   "group": "Alt ekstremite kemikleri",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Yüksekten düşen inşaat işçisinde topuk kırığı saptanıyor. Bu hastada mutlaka araştırılması gereken eşlik eden yaralanma hangisidir?",
+   "options": [
+    "Torakolomber omur kırığı",
+    "Distal radius kırığı",
+    "Kafatası kırığı",
+    "Patella kırığı",
+    "Klavikula kırığı"
+   ],
+   "answer": 0,
+   "explanation": "Ayakları üzerine düşmede yük aksiyel olarak omurgaya iletilir; kalkaneus kırıklarının yaklaşık %10'unda torakolomber (özellikle L1) kompresyon kırığı eşlik eder ve gözden kaçmamalıdır.",
+   "entries": [
+    "calcaneus",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-32bbaef0",
+   "group": "Göğüs kafesi (Thorax)",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Trafik kazası geçiren hastada 1. kaburga kırığı saptanıyor. Bu bulgu öncelikle neyi düşündürmelidir?",
+   "options": [
+    "Osteoporoz",
+    "Basit ve önemsiz bir kırık",
+    "Yüksek enerjili travma ve altındaki a. subclavia ile plexus brachialis yaralanması",
+    "Patolojik kırık (metastaz)",
+    "Kostokondrit"
+   ],
+   "answer": 2,
+   "explanation": "1. kaburga kısa, kalın ve iyi korunmuş olduğundan ancak ciddi enerjili travmayla kırılır. Üzerinden a. subclavia, v. subclavia ve plexus brachialis'in alt gövdesi geçtiği için damar-sinir yaralanması araştırılmalıdır.",
+   "entries": [
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-26bde07f",
+   "group": "Genel yapılar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Havers kanallarını birbirine ve periosta dik olarak bağlayan kanallar hangileridir?",
+   "options": [
+    "Canaliculi",
+    "Sharpey lifleri",
+    "Lakünler",
+    "Volkmann kanalları",
+    "Canalis nutricius"
+   ],
+   "answer": 3,
+   "explanation": "Volkmann kanalları kemiğin uzun eksenine dik seyreder ve Havers kanallarındaki damarları birbirine, periost ve endost damarlarına bağlar. Canaliculi osteositlerin uzantılarını barındıran ince kanalcıklardır.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-eddc1dd9",
+   "group": "Genel yapılar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Çocuklarda en sık görülen epifiz plağı kırığı tipi (Salter–Harris) hangisidir?",
+   "options": [
+    "Tip II",
+    "Tip I",
+    "Tip IV",
+    "Tip III",
+    "Tip V"
+   ],
+   "answer": 0,
+   "explanation": "Salter–Harris tip II kırıkta hat büyüme plağından geçip metafizden çıkar (Thurston–Holland parçası); en sık görülen tiptir ve prognozu iyidir. Tip V (ezilme) en kötü prognozludur ve sıklıkla geç fark edilir.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-05b258c2",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Anulus tendineus communis'in (Zinn halkası) içinden geçmeyen sinir hangisidir?",
+   "options": [
+    "N. oculomotorius",
+    "N. abducens",
+    "N. nasociliaris",
+    "N. trochlearis",
+    "N. opticus"
+   ],
+   "answer": 3,
+   "explanation": "Zinn halkasının içinden n. opticus ve a. ophthalmica (canalis opticus), n. oculomotorius'un iki dalı, n. nasociliaris ve n. abducens geçer. N. trochlearis, n. frontalis ve n. lacrimalis halkanın üstünden, dışından geçer.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-7c5f6944",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Fossa pterygopalatina'yı burun boşluğuna bağlayan açıklık hangisidir?",
+   "options": [
+    "Fissura orbitalis inferior",
+    "Fissura pterygomaxillaris",
+    "Canalis palatinus major",
+    "Foramen sphenopalatinum",
+    "Canalis pterygoideus"
+   ],
+   "answer": 3,
+   "explanation": "Foramen sphenopalatinum pterigopalatin çukuru burun boşluğunun arka-üst kısmına bağlar; a. sphenopalatina ve nazal sinirler buradan geçer. Fissura pterygomaxillaris fossa infratemporalis'e açılır.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1960c9a2",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "N. canalis pterygoidei (Vidian siniri) hangi sinirlerin birleşmesiyle oluşur?",
+   "options": [
+    "Chorda tympani ve n. lingualis",
+    "N. petrosus profundus ve n. caroticus internus",
+    "N. petrosus major ve n. petrosus minor",
+    "N. petrosus minor ve chorda tympani",
+    "N. petrosus major ve n. petrosus profundus"
+   ],
+   "answer": 4,
+   "explanation": "N. petrosus major (VII'nin parasempatik lifleri) ile n. petrosus profundus (karotis pleksusundan sempatik lifler) birleşerek Vidian sinirini yapar ve ganglion pterygopalatinum'a ulaşır.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1f5f4838",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sagittal dikişin erken kapanması (kraniyosinostoz) hangi kafa şekline yol açar?",
+   "options": [
+    "Trigonosefali (üçgen alın)",
+    "Brakisefali (kısa ve geniş kafa)",
+    "Oksisefali (kule kafa)",
+    "Plagiosefali (asimetrik kafa)",
+    "Skafosefali (uzun ve dar kafa)"
+   ],
+   "answer": 4,
+   "explanation": "Kapanan dikişe dik yönde büyüme durur, paralel yönde artar. Sagittal sinostozda kafa enine büyüyemez ve öne-arkaya uzar (skafosefali); en sık kraniyosinostoz tipidir. Metopik sinostoz trigonosefali yapar.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-3de5d43b",
+   "group": "Kafatası (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Le Fort I kırığında kırık hattı nereden geçer?",
+   "options": [
+    "Orbitaların içinden geçerek yüzü kafatasından tamamen ayırır.",
+    "Mandibula boynundan geçer.",
+    "Burun kökü ve orbita tabanından piramidal olarak geçer.",
+    "Maksillayı burun tabanının hemen üstünden yatay olarak keser.",
+    "Yalnızca arcus zygomaticus'u tutar."
+   ],
+   "answer": 3,
+   "explanation": "Le Fort I diş yuvalarını taşıyan alt maksillayı ayırır (yüzen damak). Le Fort II piramidal kırıktır (burun kökü, orbita tabanı), Le Fort III kraniyofasiyal ayrılmadır (orbitalar ve zigomatik ark boyunca).",
+   "entries": [
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-0ba9ff30",
+   "group": "Omurga (Columna vertebralis)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "C5 spinal siniri hangi omurlar arasından çıkar?",
+   "options": [
+    "C4 ile C5 arasından",
+    "C7 ile T1 arasından",
+    "C6 ile C7 arasından",
+    "C5 ile C6 arasından",
+    "C3 ile C4 arasından"
+   ],
+   "answer": 0,
+   "explanation": "Servikal bölgede 8 sinir, 7 omur vardır; C1–C7 sinirleri aynı numaralı omurun üstünden çıkar, C8 ise C7 ile T1 arasından çıkar. Bu nedenle C5–C6 disk hernisi C6 köküne bası yapar.",
+   "entries": [
+    "vertebrae-cervicales",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-0380b366",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Asetabulumu oluşturan üç kemiği birleştiren Y (triradiat) kıkırdak yaklaşık hangi yaşlarda kemikleşir?",
+   "options": [
+    "1–2 yaş",
+    "40 yaş sonrası",
+    "15–17 yaş",
+    "25–30 yaş",
+    "5–7 yaş"
+   ],
+   "answer": 2,
+   "explanation": "İlium, iskium ve pubis asetabulumda Y şeklindeki kıkırdakla ayrılır; bu kıkırdak ergenlik sonunda (15–17 yaş) kemikleşerek os coxae'yı tek kemik hâline getirir.",
+   "entries": [
+    "acetabulum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-57138661",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Doğum kanalının en dar ön-arka çapı hangisidir?",
+   "options": [
+    "Diagonal konjugat",
+    "İnterspinöz çap",
+    "Obstetrik konjugat",
+    "Anatomik (gerçek) konjugat",
+    "Transvers çap"
+   ],
+   "answer": 2,
+   "explanation": "Obstetrik konjugat promontorium ile symphysis'in arka yüzündeki en yakın nokta arasındaki mesafedir ve pelvis girişinin en dar ön-arka çapıdır. Muayenede diagonal konjugat ölçülür ve 1,5–2 cm çıkarılarak tahmin edilir.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-082df539",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Femurdaki fossa trochanterica'ya tutunan kas hangisidir?",
+   "options": [
+    "M. quadratus femoris",
+    "M. gluteus medius",
+    "M. piriformis",
+    "M. iliopsoas",
+    "M. obturatorius externus"
+   ],
+   "answer": 4,
+   "explanation": "Fossa trochanterica trochanter major'un iç yüzündeki çukurdur ve m. obturatorius externus'un tutunma yeridir. Piriformis trochanter major'un üst kenarına, quadratus femoris tuberculum quadratum'a tutunur.",
+   "entries": [
+    "femur",
+    "m-obturator-externus"
+   ]
+  },
+  {
+   "id": "sk-2b105744",
+   "group": "Ayak kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Talus boyun kırıklarında avasküler nekroz riskinin yüksek olmasının temel nedeni nedir?",
+   "options": [
+    "Talusun epifiz plağının erişkinde açık kalması",
+    "Talusun yalnızca a. fibularis'ten beslenmesi",
+    "Talusun kas tutunmalarının çok olması",
+    "Talus gövdesinin kanının boyundan geriye doğru (retrograd) gelmesi",
+    "Talusun periostunun kalın olması"
+   ],
+   "answer": 3,
+   "explanation": "Talusun büyük kısmı eklem kıkırdağıyla örtülüdür ve kas tutunması yoktur; gövdenin kanı başlıca a. canalis tarsi dallarıyla boyundan gövdeye retrograd akar. Boyun kırığı bu damarları keserek gövdede nekroza yol açar (Hawkins).",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-6d6ca7d5",
+   "group": "El kemikleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Bennett kırığında asıl (distal) parçayı proksimale ve dışa çeken kas hangisidir?",
+   "options": [
+    "M. adductor pollicis",
+    "M. flexor pollicis longus",
+    "M. abductor pollicis longus",
+    "M. opponens pollicis",
+    "M. extensor pollicis longus"
+   ],
+   "answer": 2,
+   "explanation": "Bennett kırığı 1. metakarp tabanının eklem içi kırık-çıkığıdır. Ön oblik bağa bağlı küçük iç parça yerinde kalır; 1. metakarp tabanına tutunan APL asıl parçayı proksimale ve dışa çeker.",
+   "entries": [
+    "ossa-metacarpi",
+    "m-abductor-pollicis-longus"
+   ]
+  },
+  {
+   "id": "sk-786f3165",
+   "group": "Alt ekstremite kemikleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Motosiklet kazası geçiren hastada pelvis halkası kırığı ve hemodinamik instabilite var. Pelvis kırıklarında kanamanın en sık kaynağı hangisidir?",
+   "options": [
+    "Presakral ve pelvik venöz pleksuslar ile kırık kemik yüzeyleri",
+    "A. femoralis",
+    "Aorta abdominalis",
+    "V. cava inferior",
+    "A. iliaca communis"
+   ],
+   "answer": 0,
+   "explanation": "Pelvis kırığı kanamalarının yaklaşık %80–90'ı venöz pleksuslar ve kırık süngersi kemikten kaynaklanır; bu nedenle pelvis kuşağı (binder) ile halkanın kapatılması ilk müdahaledir. Arteriyel kanamada anjiyoembolizasyon yapılır.",
+   "entries": [
+    "pelvis"
+   ]
   }
  ]
 }

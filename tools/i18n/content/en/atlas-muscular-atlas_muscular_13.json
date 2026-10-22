@@ -1,0 +1,308 @@
+{
+ "m-semimembranosus": {
+  "tr": "Semimembranosus",
+  "summary": "A hamstring muscle deep to semitendinosus whose upper part is flat like a membrane.",
+  "facts": [
+   "Upper lateral part of the ischial tuberosity",
+   "Posterior surface of the medial condyle of the tibia; its expansions form the oblique popliteal ligament",
+   "Tibial part of the sciatic nerve (L5–S2)",
+   "Perforating arteries of the profunda femoris, branches of the popliteal artery",
+   "Flexes the knee and extends the hip; rotates the leg inwards when the knee is bent"
+  ],
+  "sections": [],
+  "clinical": [
+   "Enlargement of the bursa between the medial head of gastrocnemius and semimembranosus is a Baker's (popliteal) cyst."
+  ],
+  "tus": [],
+  "aliases": [
+   "hamstrings"
+  ]
+ },
+ "m-fibularis-tertius": {
+  "tr": "Fibularis tertius",
+  "summary": "A muscle separated from the lower lateral part of extensor digitorum longus, running to the 5th metatarsal; it is absent in some people.",
+  "facts": [
+   "Lower 1/3 of the anterior surface of the fibula and interosseous membrane",
+   "Dorsal surface of the base of the 5th metatarsal",
+   "Deep fibular nerve (L5–S1)",
+   "Anterior tibial artery",
+   "Dorsiflexes and everts the foot"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It is the only evertor in the anterior compartment; the other evertors (fibularis longus and brevis) are in the lateral compartment."
+  ],
+  "aliases": [
+   "peroneus tertius"
+  ]
+ },
+ "m-gastrocnemius": {
+  "tr": "Gastrocnemius",
+  "summary": "The superficial two-headed muscle of the calf; it crosses both the knee and the ankle.",
+  "facts": [
+   "Medial head: upper posterior part of the medial femoral condyle; lateral head: lateral surface of the lateral femoral condyle",
+   "Calcaneal tuberosity via the calcaneal (Achilles) tendon",
+   "Tibial nerve (S1–S2)",
+   "Sural arteries (popliteal artery)",
+   "Plantarflexes the foot (running, jumping); flexes the knee"
+  ],
+  "sections": [],
+  "clinical": [
+   "Tennis leg: tear at the musculotendinous junction of the medial head, causing sudden calf pain.",
+   "The ankle (Achilles) reflex tests the S1 root."
+  ],
+  "tus": [
+   "Its two heads form the lower boundaries of the popliteal fossa."
+  ],
+  "aliases": [
+   "calf",
+   "triceps surae"
+  ]
+ },
+ "m-soleus": {
+  "tr": "Soleus",
+  "summary": "A flat, broad calf muscle deep to gastrocnemius; it works continuously in standing posture.",
+  "facts": [
+   "Head and upper posterior surface of the fibula, soleal line of the tibia and tendinous arch of soleus",
+   "Calcaneal tuberosity via the calcaneal tendon",
+   "Tibial nerve (S1–S2)",
+   "Sural, posterior tibial and fibular arteries",
+   "Plantarflexes the foot (dominant with the knee bent); prevents falling forwards when standing"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It is the main muscle of the calf muscle pump (the 'peripheral heart') that pumps blood in the deep veins back to the heart; its venous sinuses are prone to deep vein thrombosis."
+  ],
+  "aliases": [
+   "calf",
+   "triceps surae"
+  ]
+ },
+ "m-extensor-digitorum-brevis": {
+  "tr": "Extensor digitorum brevis",
+  "summary": "A flat muscle on the dorsum of the foot, palpable in front of the sinus tarsi.",
+  "facts": [
+   "Upper lateral surface of the calcaneus (in front of the sinus tarsi) and inferior extensor retinaculum",
+   "Lateral sides of the long extensor tendons to toes 2–4",
+   "Deep fibular nerve (S1–S2)",
+   "Dorsalis pedis artery (lateral tarsal artery)",
+   "Extends toes 2–4"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It is one of the two muscles on the dorsum of the foot, both supplied by the deep fibular nerve. It may waste in L5 radiculopathy."
+  ],
+  "aliases": [
+   "EDB"
+  ]
+ },
+ "m-extensor-hallucis-brevis": {
+  "tr": "Extensor hallucis brevis",
+  "summary": "The most medial part of extensor digitorum brevis; a short muscle going to the big toe.",
+  "facts": [
+   "Upper lateral surface of the calcaneus",
+   "Dorsal surface of the base of the proximal phalanx of the big toe",
+   "Deep fibular nerve (S1–S2)",
+   "Dorsalis pedis artery",
+   "Extends the big toe at the metatarsophalangeal joint"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The dorsalis pedis pulse is felt lateral to the EHL tendon; the EHB tendon crosses the artery."
+  ],
+  "aliases": [
+   "EHB"
+  ]
+ },
+ "m-abductor-hallucis": {
+  "tr": "Abductor hallucis",
+  "summary": "The most medial muscle of the 1st layer, running along the medial border of the sole; it supports the medial longitudinal arch.",
+  "facts": [
+   "Medial process of the calcaneal tuberosity, flexor retinaculum and plantar aponeurosis",
+   "Medial side of the base of the proximal phalanx of the big toe",
+   "Medial plantar nerve (S1–S2)",
+   "Medial plantar artery",
+   "Abducts and flexes the big toe; supports the medial arch"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The medial and lateral plantar nerves leaving the tarsal tunnel pass deep to this muscle; it can compress the nerves in tarsal tunnel syndrome."
+  ],
+  "aliases": [
+   "plantar muscles"
+  ]
+ },
+ "m-flexor-digitorum-brevis": {
+  "tr": "Flexor digitorum brevis",
+  "summary": "A muscle in the middle of the 1st layer just beneath the plantar aponeurosis; its tendons split to let the long flexor tendons through.",
+  "facts": [
+   "Medial process of the calcaneal tuberosity and plantar aponeurosis",
+   "Both sides of the bases of the middle phalanges of toes 2–5",
+   "Medial plantar nerve (S1–S2)",
+   "Medial and lateral plantar arteries",
+   "Flexes toes 2–5 at the proximal interphalangeal joint"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It is the foot's counterpart of the superficial finger flexor of the hand (perforatus)."
+  ],
+  "aliases": [
+   "FDB",
+   "plantar muscles"
+  ]
+ },
+ "m-abductor-digiti-minimi-pedis": {
+  "tr": "Abductor digiti minimi (foot)",
+  "summary": "The most lateral muscle of the 1st layer, running along the lateral border of the sole.",
+  "facts": [
+   "Medial and lateral processes of the calcaneal tuberosity, plantar aponeurosis",
+   "Lateral side of the base of the proximal phalanx of the 5th toe",
+   "Lateral plantar nerve (S2–S3)",
+   "Lateral plantar artery",
+   "Abducts and flexes the little toe; supports the lateral arch"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Baxter's nerve (first branch of the lateral plantar nerve), implicated in heel pain, supplies this muscle."
+  ],
+  "aliases": [
+   "plantar muscles"
+  ]
+ },
+ "m-quadratus-plantae": {
+  "tr": "Quadratus plantae",
+  "summary": "A two-headed muscle in the 2nd layer of the sole that attaches to the tendon of flexor digitorum longus.",
+  "facts": [
+   "Medial and lateral borders of the inferior surface of the calcaneus (two heads)",
+   "Lateral border of the flexor digitorum longus tendon",
+   "Lateral plantar nerve (S2–S3)",
+   "Lateral plantar artery",
+   "Corrects the oblique pull of the long flexor and so assists toe flexion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "flexor accessorius",
+   "plantar muscles"
+  ]
+ },
+ "mm-lumbricales-pedis": {
+  "tr": "Lumbricals of the foot",
+  "summary": "Four small muscles in the 2nd layer of the sole arising from the tendons of flexor digitorum longus.",
+  "facts": [
+   "Tendons of flexor digitorum longus (1st: single head; 2nd–4th: two heads from adjacent tendons)",
+   "Medial borders of the dorsal aponeuroses of toes 2–5",
+   "1st lumbrical: medial plantar nerve; 2nd–4th lumbricals: lateral plantar nerve",
+   "Lateral plantar artery, deep plantar arch",
+   "Flex the metatarsophalangeal joints and extend the interphalangeal joints"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The nerve pattern resembles the hand: the first lumbrical from the medial plantar nerve (median in the hand), the others from the lateral plantar nerve (ulnar in the hand)."
+  ],
+  "aliases": [
+   "lumbrical"
+  ]
+ },
+ "m-flexor-hallucis-brevis": {
+  "tr": "Flexor hallucis brevis",
+  "summary": "A muscle of the 3rd layer of the sole whose two heads attach to the sesamoid bones of the big toe.",
+  "facts": [
+   "Plantar surfaces of the cuboid and lateral cuneiform",
+   "Both sides of the base of the proximal phalanx of the big toe (via the two sesamoid bones)",
+   "Medial plantar nerve (S1–S2)",
+   "Medial plantar artery",
+   "Flexes the big toe at the metatarsophalangeal joint"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The tendon of the long flexor of the big toe passes between its two heads, in the groove between the sesamoids."
+  ],
+  "aliases": [
+   "FHB",
+   "plantar muscles"
+  ]
+ },
+ "m-adductor-hallucis": {
+  "tr": "Adductor hallucis",
+  "summary": "A muscle of the 3rd layer of the sole with oblique and transverse heads.",
+  "facts": [
+   "Oblique head: bases of metatarsals 2–4; transverse head: ligaments of the 3rd–5th metatarsophalangeal joints",
+   "Lateral side of the base of the proximal phalanx of the big toe (lateral sesamoid)",
+   "Deep branch of the lateral plantar nerve (S2–S3)",
+   "Lateral plantar artery, deep plantar arch",
+   "Adducts the big toe; supports the transverse arch"
+  ],
+  "sections": [],
+  "clinical": [
+   "In the development of hallux valgus, the pull of adductor hallucis increases the outward deviation of the big toe."
+  ],
+  "tus": [],
+  "aliases": [
+   "plantar muscles"
+  ]
+ },
+ "m-flexor-digiti-minimi-pedis": {
+  "tr": "Flexor digiti minimi brevis (foot)",
+  "summary": "A small muscle of the 3rd layer of the sole running beneath the 5th metatarsal.",
+  "facts": [
+   "Base of the 5th metatarsal and sheath of the fibularis longus tendon",
+   "Base of the proximal phalanx of the 5th toe",
+   "Superficial branch of the lateral plantar nerve (S2–S3)",
+   "Lateral plantar artery",
+   "Flexes the little toe at the metatarsophalangeal joint"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "plantar muscles"
+  ]
+ },
+ "mm-interossei-dorsales-pedis": {
+  "tr": "Dorsal interossei of the foot",
+  "summary": "Four two-headed muscles between the metatarsals; in the foot the axis is the 2nd toe.",
+  "facts": [
+   "Facing surfaces of two adjacent metatarsals (two heads)",
+   "Bases of the proximal phalanges: both sides of the 2nd toe, lateral sides of the 3rd and 4th toes",
+   "Lateral plantar nerve (S2–S3)",
+   "Deep plantar arch, dorsal metatarsal arteries",
+   "Abduct the toes from the axis of the 2nd toe (DAB); MTP flexion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "In the hand the axis of abduction is the 3rd finger, in the foot the 2nd toe."
+  ],
+  "aliases": [
+   "interossei"
+  ]
+ },
+ "mm-interossei-plantares": {
+  "tr": "Plantar interossei",
+  "summary": "Three single-headed muscles beneath metatarsals 3–5, in the deepest (4th) layer of the sole.",
+  "facts": [
+   "Medial surfaces of metatarsals 3–5 (single heads)",
+   "Medial side of the base of the proximal phalanx of the same toe",
+   "Lateral plantar nerve (S2–S3)",
+   "Deep plantar arch, plantar metatarsal arteries",
+   "Adduct toes 3–5 (PAD); MTP flexion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "interossei"
+  ]
+ }
+}

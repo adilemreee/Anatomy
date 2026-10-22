@@ -7,9 +7,9 @@ GOG = "Göğüs kasları"
 KAR = "Karın kasları"
 
 
-def M(id, tr, la, en, group, region, summary, origin, insertion, nerve, blood, action, clinical=(), related=(), models=(), sections=(), aliases=()):
+def M(id, tr, la, en, group, region, summary, origin, insertion, nerve, blood, action, clinical=(), related=(), models=(), sections=(), aliases=(), tus=()):
     facts = [("Origo", origin), ("İnsersiyo", insertion), ("İnnervasyon", nerve), ("Kanlanma", blood), ("Fonksiyon", action)]
-    return E(id, tr, la, en, group, region, summary, facts=facts, sections=sections, clinical=clinical, related=related, models=models, aliases=aliases)
+    return E(id, tr, la, en, group, region, summary, facts=facts, sections=sections, clinical=clinical, related=related, models=models, aliases=aliases, tus=tus)
 
 
 entries = [

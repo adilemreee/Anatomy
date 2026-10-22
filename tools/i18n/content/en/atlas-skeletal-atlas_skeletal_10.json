@@ -1,0 +1,228 @@
+{
+ "iskelet-genel": {
+  "tr": "Divisions of the skeleton",
+  "summary": "The adult human skeleton consists of about 206 bones and has two main divisions: the axial skeleton, forming the central axis of the body (skull, vertebral column, thoracic cage), and the appendicular skeleton, which carries the arms and legs (girdles and the bones of the free limbs).",
+  "facts": [
+   "About 206 bones in the adult; around 270–300 in the newborn, counting the parts not yet fused",
+   "80 bones: skull and ear ossicles (29, including the hyoid), vertebral column (26), thoracic cage (25: sternum and 24 ribs)",
+   "126 bones: shoulder girdle (4), upper limbs (60), pelvic girdle (2), lower limbs (60)",
+   "Long (femur, humerus), short (carpal bones), flat (sternum, skull vault), irregular (vertebrae), pneumatic (maxilla, ethmoid) and sesamoid (patella) bones",
+   "Support and shape, protection of organs, levers for movement, blood formation (red bone marrow), store of calcium and phosphate"
+  ],
+  "sections": [
+   [
+    "Girdles",
+    "The shoulder girdle consists of the clavicle and scapula; it is attached to the trunk only by the sternoclavicular joint and allows a wide range of movement. The pelvic girdle consists of the two hip bones; joined firmly to the sacrum behind and to each other in front, it transmits the body weight to the legs."
+   ]
+  ],
+  "clinical": [
+   "In adults, bone marrow biopsy and aspiration are usually taken from the posterior iliac crest (around the posterior superior iliac spine).",
+   "Bone age is assessed from the ossification centres on an X-ray of the left hand and wrist."
+  ],
+  "tus": [
+   "The axial skeleton has 80 bones, the appendicular skeleton 126.",
+   "In adults red bone marrow is found mainly in the flat bones (sternum, ribs, hip bone, vertebrae) and the proximal ends of long bones."
+  ],
+  "aliases": [
+   "skeleton",
+   "bones"
+  ]
+ },
+ "os-structura": {
+  "tr": "Structure and development of bone",
+  "summary": "Bone is a hard connective tissue made of calcium phosphate crystals and collagen. Dense compact bone lies outside and spongy bone inside; the surface is covered by periosteum. Bones develop by intramembranous or endochondral ossification.",
+  "facts": [
+   "Compact (cortical) bone – made of osteons (Haversian systems); spongy (trabecular) bone – bone marrow lies between the trabeculae",
+   "Osteoblast (builds bone), osteocyte (mature cell embedded in bone), osteoclast (resorbs bone; multinucleated cell of monocyte origin)",
+   "Epiphysis (end), metaphysis (transition zone where growth takes place), diaphysis (shaft, containing the medullary cavity), epiphyseal plate (growth cartilage)",
+   "Intramembranous: skull vault, facial bones, most of the clavicle. Endochondral: skull base, vertebrae, most limb bones",
+   "The diaphysis is supplied by the nutrient artery (entering at the nutrient foramen), the ends by metaphyseal and epiphyseal arteries, the outer cortex by periosteal arteries"
+  ],
+  "sections": [
+   [
+    "Periosteum and endosteum",
+    "The periosteum is a membrane rich in nerves and vessels covering the outer surface of bone; cells of its inner layer allow the bone to thicken and fractures to heal. There is no periosteum on joint surfaces, which are covered by hyaline cartilage. The endosteum lines the marrow cavity."
+   ],
+   [
+    "Growth",
+    "Long bones grow in length as cartilage cells in the epiphyseal plate multiply and ossify; the plate closes at the end of puberty (leaving the epiphyseal line). Growth in width occurs as the periosteum adds new bone."
+   ]
+  ],
+  "clinical": [
+   "In children, fractures involving the epiphyseal plate (Salter–Harris) can disturb growth and cause a difference in limb length.",
+   "In osteoporosis bone mass and trabecular structure are reduced; fractures are most common in the vertebral bodies, the femoral neck and the distal radius.",
+   "Fracture healing passes through haematoma → soft callus (fibrocartilage) → hard callus (woven bone) → remodelling (lamellar bone)."
+  ],
+  "tus": [
+   "The clavicle is the first bone in the body to begin ossifying (weeks 5–6) and is mostly formed by intramembranous ossification.",
+   "Volkmann's canals run at right angles and connect the Haversian canals with each other and with the periosteum."
+  ],
+  "aliases": [
+   "bone tissue",
+   "osteon",
+   "periosteum",
+   "ossification"
+  ]
+ },
+ "ossa-sesamoidea": {
+  "tr": "Sesamoid bones",
+  "summary": "Small bones that develop within a tendon; they let the tendon glide over a bony prominence, reduce friction and increase the muscle's lever arm. The largest is the patella.",
+  "facts": [
+   "Patella (quadriceps femoris tendon), pisiform (flexor carpi ulnaris tendon), the sesamoids under the MP joints of the thumb and the big toe",
+   "Protects the tendon, changes its direction and lengthens the lever arm, increasing the muscle's force",
+   "The fabella (in the lateral head of gastrocnemius) and the os peroneum (in the fibularis longus tendon) are present in some people"
+  ],
+  "sections": [],
+  "clinical": [
+   "Inflammation of the sesamoids of the big toe (sesamoiditis) causes forefoot pain in dancers and runners.",
+   "The fabella and os peroneum can be mistaken for fracture fragments on X-ray."
+  ],
+  "tus": [
+   "The patella is the largest sesamoid bone of the body; the pisiform is also regarded as a sesamoid developed in the tendon of flexor carpi ulnaris."
+  ],
+  "aliases": [
+   "sesamoid"
+  ]
+ },
+ "cranium": {
+  "tr": "Skull (as a whole)",
+  "summary": "The bony structure made of the neurocranium, which protects the brain, and the viscerocranium, the skeleton of the face; apart from the mandible its bones are firmly joined by sutures. Including the hyoid and the ear ossicles it has 29 bones.",
+  "facts": [
+   "8 bones: frontal, two parietal, occipital, two temporal, sphenoid, ethmoid",
+   "14 bones: two maxillae, two zygomatic, two nasal, two lacrimal, two palatine, two inferior nasal conchae, vomer, mandible",
+   "Skull vault (calvaria) and cranial base (basis cranii)",
+   "The only synovial joint of the skull is the temporomandibular joint; the other bones are joined by sutures",
+   "Bregma (meeting of sagittal and coronal sutures), lambda (sagittal and lambdoid), pterion (frontal, parietal, temporal, sphenoid), asterion (parietal, occipital, temporal), nasion, inion"
+  ],
+  "sections": [
+   [
+    "Views",
+    "From the front (norma frontalis) the orbits, the nasal opening (piriform aperture) and the jaws are seen. From the side (norma lateralis) the temporal fossa, zygomatic arch and pterion; from below (norma basalis) the foramen magnum, condyles and foramina of the skull base. Inside the cranial cavity the anterior, middle and posterior cranial fossae are arranged like steps."
+   ]
+  ],
+  "clinical": [
+   "The pterion is the thinnest part of the skull; because the anterior branch of the middle meningeal artery runs beneath it, fractures here can cause an epidural haematoma.",
+   "Premature closure of the skull sutures (craniosynostosis) leads to an abnormal head shape."
+  ],
+  "tus": [
+   "The neurocranium has 8 bones, the viscerocranium 14 (not counting the hyoid and ear ossicles).",
+   "Pterion, asterion and bregma are important surface landmarks for surgical approaches; the pterion lies about 4 cm above the midpoint of the zygomatic arch."
+  ],
+  "aliases": [
+   "skull",
+   "head",
+   "cranium"
+  ]
+ },
+ "suturae-fonticuli": {
+  "tr": "Sutures and fontanelles of the skull",
+  "summary": "The bones of the skull are joined by fibrous joints called sutures. In the newborn, unossified membranous areas – the fontanelles – lie where these sutures meet; they allow the head to mould during birth and the brain to grow.",
+  "facts": [
+   "Coronal (frontal–parietal), sagittal (between the two parietals), lambdoid (parietal–occipital), squamous (parietal–temporal), metopic (between the two halves of the frontal)",
+   "Diamond-shaped, the largest; between the frontal and parietal bones; closes at 18–24 months",
+   "Triangular; between the parietal and occipital bones; closes at 2–3 months",
+   "Sphenoidal fontanelle (anterolateral, at the pterion) and mastoid fontanelle (posterolateral, at the asterion); close within the first year",
+   "Synarthrosis – fibrous joint (sutures); may ossify with age (synostosis)"
+  ],
+  "sections": [],
+  "clinical": [
+   "A sunken anterior fontanelle suggests dehydration; a tense, bulging one suggests raised intracranial pressure (meningitis, hydrocephalus).",
+   "Premature closure of the sagittal suture gives a long, narrow head (scaphocephaly); premature closure of one coronal suture gives an asymmetric head (plagiocephaly).",
+   "Late closure of the anterior fontanelle may be seen in rickets, hypothyroidism and hydrocephalus."
+  ],
+  "tus": [
+   "The anterior fontanelle closes at 18–24 months and the posterior at 2–3 months; in the newborn the superior sagittal sinus can be reached through the anterior fontanelle.",
+   "The most common craniosynostosis is sagittal synostosis (scaphocephaly)."
+  ],
+  "aliases": [
+   "suture",
+   "fontanelle",
+   "soft spot"
+  ]
+ },
+ "basis-cranii": {
+  "tr": "Cranial base and foramina",
+  "summary": "The floor of the cranial cavity is divided, from front to back, into three step-like fossae: the anterior, middle and posterior cranial fossae. Cranial nerves and the vessels entering and leaving the brain pass through their foramina and canals.",
+  "facts": [
+   "Orbital part of the frontal bone, cribriform plate (ethmoid) and lesser wings of the sphenoid; carries the frontal lobes. Openings: cribriform foramina (olfactory nerve fibres), foramen caecum",
+   "Body and greater wings of the sphenoid, squamous and petrous parts of the temporal bone; carries the temporal lobes and the pituitary (sella turcica). Openings: optic canal (II, ophthalmic artery), superior orbital fissure (III, IV, V1, VI, superior ophthalmic vein), foramen rotundum (V2), foramen ovale (V3, lesser petrosal nerve), foramen spinosum (middle meningeal artery), foramen lacerum (filled with cartilage; the ICA passes over it)",
+   "Occipital bone and posterior surface of the petrous temporal; carries the cerebellum, pons and medulla oblongata. Openings: internal acoustic meatus (VII, VIII, labyrinthine artery), jugular foramen (IX, X, XI, internal jugular vein, inferior petrosal sinus), hypoglossal canal (XII), foramen magnum (medulla oblongata, vertebral arteries, spinal roots of XI)",
+   "Carotid canal (internal carotid artery, sympathetic plexus), stylomastoid foramen (VII), condylar canal (emissary vein), palatine foramina, incisive fossa"
+  ],
+  "sections": [
+   [
+    "Clinical importance",
+    "Fractures of the cranial base are most common in the middle cranial fossa. An anterior skull base fracture may cause bruising around the eyes (raccoon eyes), CSF rhinorrhoea and loss of smell; a fracture of the middle base (petrous part) may cause bruising behind the ear (Battle's sign), haemotympanum, CSF otorrhoea and facial palsy."
+   ]
+  ],
+  "clinical": [
+   "A tumour or fracture at the jugular foramen affects cranial nerves IX, X and XI together (Vernet syndrome): difficulty swallowing, hoarseness, weakness of trapezius and SCM.",
+   "With raised intracranial pressure, herniation of the cerebellar tonsils into the foramen magnum can cause respiratory arrest."
+  ],
+  "tus": [
+   "III, IV, V1 and VI pass through the superior orbital fissure; II and the ophthalmic artery through the optic canal.",
+   "The foramen rotundum transmits V2, the foramen ovale V3 and the foramen spinosum the middle meningeal artery (from front to back: 'Rotundum–Ovale–Spinosum').",
+   "IX, X, XI and the internal jugular vein pass through the jugular foramen; XII through the hypoglossal canal."
+  ],
+  "aliases": [
+   "skull base",
+   "foramen",
+   "cranial fossa"
+  ]
+ },
+ "orbita": {
+  "tr": "Orbit",
+  "summary": "Bony cavity shaped like a four-sided pyramid, with its base in front and apex behind, that contains the eyeball, the eye muscles, nerves and vessels. Seven bones take part in forming it.",
+  "facts": [
+   "Frontal, zygomatic, maxilla, sphenoid, ethmoid, lacrimal, palatine",
+   "Roof: orbital part of the frontal bone and lesser wing of the sphenoid; floor: maxilla, zygomatic, palatine; medial wall: orbital plate of the ethmoid, lacrimal bone, maxilla, sphenoid; lateral wall: zygomatic and greater wing of the sphenoid (the thickest wall)",
+   "Optic canal (II, ophthalmic artery), superior orbital fissure (III, IV, V1, VI, superior ophthalmic vein), inferior orbital fissure (infraorbital nerve, inferior ophthalmic vein), nasolacrimal canal, ethmoidal foramina",
+   "Eyeball, extraocular muscles, optic nerve, lacrimal gland, orbital fat, ophthalmic artery and its branches"
+  ],
+  "sections": [
+   [
+    "Weakest walls",
+    "The orbital plate (lamina papyracea) of the medial wall is the thinnest wall; ethmoid sinus infections can spread through it into the orbit. The floor is also thin, with the maxillary sinus beneath it; blunt trauma to the eye can fracture the floor and cause a 'blow-out' fracture."
+   ]
+  ],
+  "clinical": [
+   "In a blow-out fracture the orbital floor breaks; the inferior rectus can be trapped in the fracture line, causing double vision on looking up, and injury to the infraorbital nerve causes numbness of the cheek and upper lip.",
+   "Orbital cellulitis usually spreads from ethmoid sinusitis; untreated, it can progress to cavernous sinus thrombosis."
+  ],
+  "tus": [
+   "The thinnest wall of the orbit is the medial wall (lamina papyracea) and the thickest the lateral wall; blow-out fractures most often involve the floor.",
+   "The common tendinous ring (annulus of Zinn) is the origin of the four rectus muscles; II, III, VI and the nasociliary nerve pass through it, while IV, the frontal and lacrimal nerves pass outside it."
+  ],
+  "aliases": [
+   "orbit",
+   "eye socket"
+  ]
+ },
+ "fossa-pterygopalatina": {
+  "tr": "Pterygopalatine fossa",
+  "summary": "Small, inverted pyramid-shaped space behind the maxilla and in front of the pterygoid process of the sphenoid. It contains the maxillary nerve, the last part of the maxillary artery and the pterygopalatine ganglion, and is an important crossroads between the nose, palate, orbit and cranial cavity.",
+  "facts": [
+   "In front the maxilla (maxillary tuberosity), behind the pterygoid process and greater wing of the sphenoid, medially the perpendicular plate of the palatine bone, laterally the pterygomaxillary fissure leading to the infratemporal fossa",
+   "Maxillary nerve (V2), pterygopalatine ganglion, the 3rd (pterygopalatine) part of the maxillary artery and its branches",
+   "Foramen rotundum (middle cranial fossa), pterygoid canal (region of the foramen lacerum), inferior orbital fissure (orbit), sphenopalatine foramen (nasal cavity), greater palatine canal (palate), pterygomaxillary fissure (infratemporal fossa)"
+  ],
+  "sections": [
+   [
+    "Pterygopalatine ganglion",
+    "A parasympathetic ganglion; its preganglionic fibres come from the facial nerve via the greater petrosal nerve (nerve of the pterygoid canal). Postganglionic fibres go to the lacrimal gland and the mucous glands of the nose, palate and pharynx; it is therefore sometimes called the 'hay fever ganglion'."
+   ]
+  ],
+  "clinical": [
+   "The sphenopalatine artery is the source of posterior nosebleeds; in uncontrollable bleeding it can be ligated in the pterygopalatine fossa or at the sphenopalatine foramen.",
+   "Juvenile nasopharyngeal angiofibroma tends to spread into this fossa."
+  ],
+  "tus": [
+   "The greater petrosal nerve (VII, parasympathetic) and the deep petrosal nerve (sympathetic) unite to form the nerve of the pterygoid canal (Vidian nerve), which reaches the pterygopalatine ganglion.",
+   "Parasympathetic pathway of the lacrimal gland: facial nerve → greater petrosal nerve → pterygopalatine ganglion → zygomatic nerve → lacrimal nerve."
+  ],
+  "aliases": [
+   "pterygopalatine fossa",
+   "sphenopalatine"
+  ]
+ }
+}

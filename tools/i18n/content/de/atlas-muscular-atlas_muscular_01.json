@@ -1,0 +1,332 @@
+{
+ "m-sternocleidomastoideus": {
+  "tr": "M. sternocleidomastoideus",
+  "summary": "Markanter Muskel, der schräg über die Halsseite zieht und den Hals in ein vorderes und ein seitliches Dreieck teilt. Er hat zwei Köpfe: Caput sternale und Caput claviculare.",
+  "facts": [
+   "Caput sternale: Vorderfläche des Manubrium sterni; Caput claviculare: Oberfläche des medialen Drittels der Clavicula",
+   "Außenfläche des Processus mastoideus und laterale Hälfte der Linea nuchae superior",
+   "N. accessorius (XI) – motorisch; C2–C3 – propriozeptiv",
+   "A. occipitalis, A. thyroidea superior, A. suprascapularis",
+   "Einseitig: neigt den Kopf zur gleichen Seite und dreht das Gesicht zur Gegenseite und nach oben; beidseitig: beugt den Kopf nach vorn und hebt bei fixiertem Kopf das Sternum (Atemhilfsmuskel)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Verletzung oder Fibrose des Muskels bei der Geburt führt zum angeborenen Schiefhals (Tortikollis).",
+   "Eine Schädigung des N. accessorius schwächt die Kopfdrehung zur Gegenseite."
+  ],
+  "tus": [
+   "Der SCM teilt den Hals in vorderes und hinteres Dreieck; der N. accessorius tritt in der Mitte seines Hinterrands ins seitliche Halsdreieck (nahe dem Erb-Punkt).",
+   "Beim angeborenen muskulären Schiefhals ist der Kopf zur kranken Seite geneigt und das Gesicht zur Gegenseite gedreht."
+  ],
+  "aliases": [
+   "SCM",
+   "Kopfnicker"
+  ]
+ },
+ "mm-scaleni": {
+  "tr": "Mm. scaleni",
+  "summary": "Drei Muskeln von den Querfortsätzen der Halswirbel zu den ersten beiden Rippen. Durch die Lücke zwischen vorderem und mittlerem Skalenus ziehen Plexus brachialis und A. subclavia.",
+  "facts": [
+   "Tubercula der Querfortsätze C2–C7",
+   "Anterior und medius: 1. Rippe (Scalenus anterior am Tuberculum musculi scaleni anterioris); posterior: 2. Rippe",
+   "Rr. anteriores der Zervikalnerven (C3–C8)",
+   "A. cervicalis ascendens (A. thyroidea inferior), A. transversa colli",
+   "Heben die ersten beiden Rippen und unterstützen die Einatmung; neigen den Hals zur gleichen Seite"
+  ],
+  "sections": [
+   [
+    "Lagebeziehungen",
+    "Der N. phrenicus zieht auf der Vorderfläche des M. scalenus anterior abwärts. Die V. subclavia verläuft vor diesem Muskel, A. subclavia und Plexus brachialis dahinter (durch die Skalenuslücke)."
+   ]
+  ],
+  "clinical": [
+   "Eine Einengung der Skalenuslücke oder eine Halsrippe kann ein Thoracic-outlet-Syndrom verursachen (Taubheit des Arms, schwacher Puls).",
+   "Die interskalenäre Blockade dient der Anästhesie des Plexus brachialis bei Schulteroperationen."
+  ],
+  "tus": [
+   "Der M. scalenus anterior zieht von den vorderen Höckern der Querfortsätze C3–C6 zur 1. Rippe; vor ihm verläuft der N. phrenicus, hinter ihm die A. subclavia.",
+   "Die Skalenusmuskeln heben bei forcierter Einatmung die 1. und 2. Rippe."
+  ],
+  "aliases": [
+   "Skalenus",
+   "Treppenmuskeln"
+  ]
+ },
+ "mm-suprahyoidei": {
+  "tr": "Obere Zungenbeinmuskeln",
+  "summary": "Vier Muskeln oberhalb des Zungenbeins, die den Mundboden bilden: M. digastricus, M. stylohyoideus, M. mylohyoideus und M. geniohyoideus.",
+  "facts": [
+   "Digastricus: hinterer Bauch an der Incisura mastoidea, vorderer Bauch an der Fossa digastrica; Stylohyoideus: Processus styloideus; Mylohyoideus: Linea mylohyoidea; Geniohyoideus: Spina mentalis inferior",
+   "Os hyoideum (Zwischensehne des Digastricus über eine Bindegewebsschlinge)",
+   "Venter anterior des Digastricus und Mylohyoideus: N. mylohyoideus (V3); Venter posterior und Stylohyoideus: N. facialis (VII); Geniohyoideus: C1 (mit dem N. hypoglossus)",
+   "A. submentalis (A. facialis), A. lingualis, A. occipitalis",
+   "Heben beim Schlucken Zungenbein und Kehlkopf; bei fixiertem Zungenbein senken sie den Unterkiefer und öffnen den Mund"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Die suprahyoidalen Muskeln ziehen beim Schlucken Zungenbein und Kehlkopf nach oben und helfen bei der Mundöffnung.",
+   "Der M. mylohyoideus bildet den Mundboden (Diaphragma oris); die Glandula submandibularis umgreift seinen Hinterrand."
+  ],
+  "aliases": [
+   "Digastricus",
+   "Mylohyoideus",
+   "suprahyoidal"
+  ]
+ },
+ "mm-infrahyoidei": {
+  "tr": "Untere Zungenbeinmuskeln",
+  "summary": "Vier bandförmige Muskeln unterhalb des Zungenbeins: M. sternohyoideus, M. omohyoideus, M. sternothyroideus und M. thyrohyoideus.",
+  "facts": [
+   "Sternohyoideus und Sternothyroideus: Rückfläche des Manubrium sterni; Omohyoideus (Venter inferior): Margo superior scapulae; Thyrohyoideus: Linea obliqua der Cartilago thyroidea",
+   "Os hyoideum (Sternothyroideus: Cartilago thyroidea)",
+   "Ansa cervicalis (C1–C3); Thyrohyoideus: C1 (mit dem N. hypoglossus)",
+   "A. thyroidea superior, A. lingualis",
+   "Ziehen Zungenbein und Kehlkopf beim Schlucken und Sprechen nach unten und fixieren sie"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Schilddrüsenoperationen werden diese Muskeln zur Seite gehalten; die Ansa cervicalis wird möglichst geschont."
+  ],
+  "tus": [
+   "Die Zwischensehne des Omohyoideus kreuzt vor der V. jugularis interna und ist über eine Faszienschlinge an der Clavicula verankert.",
+   "Bei der Thyreoidektomie werden die infrahyoidalen Muskeln in der Mittellinie getrennt, um die Drüse freizulegen."
+  ],
+  "aliases": [
+   "Sternohyoideus",
+   "Omohyoideus",
+   "infrahyoidal"
+  ]
+ },
+ "mm-prevertebrales": {
+  "tr": "Prävertebrale Muskeln",
+  "summary": "Tiefe Beugemuskeln des Halses auf der Vorderfläche der Halswirbel.",
+  "facts": [
+   "Longus colli: Wirbelkörper und Querfortsätze C3–T3; Longus capitis: Querfortsätze C3–C6",
+   "Longus colli: Tuberculum anterius atlantis und obere Halswirbel; Longus capitis: Pars basilaris des Os occipitale",
+   "Rr. anteriores der Zervikalnerven (C1–C6)",
+   "A. vertebralis, A. cervicalis ascendens",
+   "Beugen Hals und Kopf; stützen die Halslordose"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Schleudertraumen werden die tiefen Halsbeuger häufig überlastet."
+  ],
+  "tus": [
+   "Longus colli und capitis beugen den Hals; beim Schleudertrauma können sie gezerrt werden.",
+   "Der „Danger Space“ zwischen Prävertebralfaszie und diesen Muskeln ist ein Weg, auf dem sich Infektionen ins Mediastinum ausbreiten können."
+  ],
+  "aliases": [
+   "Longus colli",
+   "Longus capitis"
+  ]
+ },
+ "m-trapezius": {
+  "tr": "M. trapezius",
+  "summary": "Breiter oberflächlicher Muskel an oberem Rücken und Nacken, der mit dem der Gegenseite eine Rautenform (Kapuze) bildet. Er hat eine Pars descendens, transversa und ascendens.",
+  "facts": [
+   "Linea nuchae superior, Protuberantia occipitalis externa, Lig. nuchae, Dornfortsätze C7–T12",
+   "Laterales Drittel der Clavicula, Acromion und Spina scapulae",
+   "N. accessorius (XI) – motorisch; C3–C4 – sensibel",
+   "A. transversa colli (A. cervicalis superficialis), A. suprascapularis, A. occipitalis",
+   "Obere Fasern heben das Schulterblatt (Achselzucken) und drehen es nach oben; mittlere ziehen es zurück; untere senken es und unterstützen die Aufwärtsrotation"
+  ],
+  "sections": [],
+  "clinical": [
+   "Wird der N. accessorius bei einer Halslymphknotenbiopsie im seitlichen Halsdreieck verletzt, hängt die Schulter und der Arm kann nicht über 90° gehoben werden.",
+   "Der Schulterhebetest prüft den N. accessorius."
+  ],
+  "tus": [
+   "Trapezius: obere Fasern heben, mittlere ziehen zurück, untere senken die Scapula; obere und untere Fasern rotieren sie gemeinsam nach oben.",
+   "Seine sensiblen (propriozeptiven) Fasern stammen aus C3–C4; motorisch wird er vom N. accessorius versorgt."
+  ],
+  "aliases": [
+   "Trapez",
+   "Kapuzenmuskel"
+  ]
+ },
+ "m-latissimus-dorsi": {
+  "tr": "M. latissimus dorsi",
+  "summary": "Der flächengrößte Muskel des Körpers, der den unteren und seitlichen Rücken bedeckt. Er bildet die hintere Achselfalte.",
+  "facts": [
+   "Dornfortsätze T7–L5, Fascia thoracolumbalis, hinteres Drittel der Crista iliaca, untere 3–4 Rippen, Angulus inferior scapulae",
+   "Boden des Sulcus intertubercularis humeri (Crista tuberculi minoris)",
+   "N. thoracodorsalis (C6–C8)",
+   "A. thoracodorsalis (A. subscapularis)",
+   "Extension, Adduktion und Innenrotation des Arms (Klettern, Rudern); bei fixiertem Arm zieht er den Rumpf hoch"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei der Brustrekonstruktion kann der Muskel samt Gefäßstiel als Lappen verwendet werden.",
+   "Eine Schädigung des N. thoracodorsalis bei der Mastektomie schwächt Adduktion und Innenrotation des Arms."
+  ],
+  "tus": [
+   "Der Latissimus dorsi hebt beim Gehen an Krücken den Rumpf an.",
+   "Bei der Brustrekonstruktion wird der Latissimus-dorsi-Lappen an den thorakodorsalen Gefäßen gehoben."
+  ],
+  "aliases": [
+   "Latissimus",
+   "breiter Rückenmuskel"
+  ]
+ },
+ "mm-rhomboidei": {
+  "tr": "Mm. rhomboidei",
+  "summary": "Zwei Muskeln unter dem Trapezius zwischen Wirbelsäule und medialem Schulterblattrand.",
+  "facts": [
+   "Minor: unterer Teil des Lig. nuchae, Dornfortsätze C7–T1; major: Dornfortsätze T2–T5",
+   "Margo medialis scapulae (minor auf Höhe der Spina, major zwischen Spina und Angulus inferior)",
+   "N. dorsalis scapulae (C4–C5)",
+   "A. dorsalis scapulae (tiefer Ast der A. transversa colli)",
+   "Ziehen das Schulterblatt zurück, heben es und drehen es nach unten; halten es am Brustkorb"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Bei Rhomboideuslähmung weicht der mediale Schulterblattrand etwas nach außen ab; geprüft wird durch Druck der Hände gegen die Hüften."
+  ],
+  "aliases": [
+   "Rhomboideus",
+   "Rautenmuskeln"
+  ]
+ },
+ "m-levator-scapulae": {
+  "tr": "M. levator scapulae",
+  "summary": "Muskel am hinteren seitlichen Hals von den oberen Halswirbeln zum oberen inneren Schulterblattwinkel.",
+  "facts": [
+   "Tubercula posteriora der Querfortsätze C1–C4",
+   "Oberer Teil des Margo medialis scapulae (zwischen Angulus superior und Spina)",
+   "N. dorsalis scapulae (C5) und Spinalnerven C3–C4",
+   "A. dorsalis scapulae, A. transversa colli",
+   "Hebt das Schulterblatt und dreht es nach unten; neigt den Hals zur gleichen Seite"
+  ],
+  "sections": [],
+  "clinical": [
+   "Verspannungen dieses Muskels sind bei Büroarbeit eine häufige Ursache von Nackenschmerzen und -steife."
+  ],
+  "tus": [
+   "Der Levator scapulae ist eine häufige Ursache von Nackenschmerz und Schiefhals; innerviert von C3–C4 und N. dorsalis scapulae."
+  ],
+  "aliases": [
+   "Schulterblattheber"
+  ]
+ },
+ "mm-serrati-posteriores": {
+  "tr": "Mm. serrati posteriores",
+  "summary": "Dünne Muskeln der mittleren Rückenschicht, die an den Rippen ansetzen; sie unterstützen die Atmung.",
+  "facts": [
+   "Superior: Lig. nuchae, Dornfortsätze C7–T3; inferior: Dornfortsätze T11–L2",
+   "Superior: Oberränder der 2.–5. Rippe; inferior: Unterränder der 9.–12. Rippe",
+   "Superior: Nn. intercostales 2–5; inferior: Nn. intercostales 9–11 und N. subcostalis",
+   "Aa. intercostales posteriores",
+   "Superior hebt die Rippen, inferior zieht sie nach unten (Beitrag zur Atemmechanik)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Der Serratus posterior superior unterstützt die Ein-, der inferior die Ausatmung durch Senken der Rippen; beide werden von Interkostalnerven innerviert."
+  ],
+  "aliases": [
+   "Serratus posterior"
+  ]
+ },
+ "m-erector-spinae": {
+  "tr": "M. erector spinae",
+  "summary": "Der größte der tiefen (autochthonen) Rückenmuskeln beiderseits der Wirbelsäule. Von lateral nach medial besteht er aus den Säulen M. iliocostalis, M. longissimus und M. spinalis.",
+  "facts": [
+   "Rückfläche des Kreuzbeins, hinterer Teil der Crista iliaca, lumbale Dornfortsätze, Lig. sacrotuberale und eine gemeinsame breite Sehne",
+   "Iliocostalis: Rippenwinkel und Querfortsätze der unteren Halswirbel; Longissimus: Querfortsätze, Rippen und Processus mastoideus; Spinalis: obere Dornfortsätze",
+   "Rr. posteriores der Spinalnerven",
+   "Aa. intercostales posteriores, Aa. lumbales, Aa. sacrales laterales",
+   "Beidseitig: Streckung von Wirbelsäule und Kopf (aufrechte Haltung); einseitig: Seitneigung zur gleichen Seite; kontrolliert das Vorbeugen exzentrisch"
+  ],
+  "sections": [],
+  "clinical": [
+   "Der Hexenschuss (Lumbago) hängt häufig mit einem Krampf dieser Muskelgruppe zusammen.",
+   "Die Kräftigung dieser Muskelgruppe ist die Grundlage der Rehabilitation bei chronischen Rückenschmerzen."
+  ],
+  "tus": [
+   "Der Erector spinae besteht von lateral nach medial aus Iliocostalis, Longissimus und Spinalis.",
+   "Er kontrolliert das Vorbeugen des Rumpfes exzentrisch; bei Rückenschmerz tritt ein Hartspann auf."
+  ],
+  "aliases": [
+   "Iliocostalis",
+   "Longissimus",
+   "Spinalis",
+   "Rückenstrecker"
+  ]
+ },
+ "mm-transversospinales": {
+  "tr": "Mm. transversospinales",
+  "summary": "Tiefe Rückenmuskeln von den Querfortsätzen zu höher gelegenen Dornfortsätzen: M. semispinalis, Mm. multifidi und Mm. rotatores. Mit dieser Gruppe werden auch M. splenius und die kurzen Segmentmuskeln (Mm. interspinales, intertransversarii, levatores costarum) besprochen.",
+  "facts": [
+   "Querfortsätze der Wirbel und Kreuzbein",
+   "Dornfortsätze höherer Wirbel (Semispinalis capitis am Os occipitale)",
+   "Rr. posteriores der Spinalnerven",
+   "Aa. intercostales posteriores, Aa. lumbales, A. occipitalis",
+   "Strecken die Wirbelsäule und drehen sie zur Gegenseite; sorgen für segmentale Stabilität (v. a. Multifidus)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Atrophie des lumbalen Multifidus ist mit chronischen Rückenschmerzen verbunden."
+  ],
+  "tus": [
+   "Semispinalis, Multifidus und Rotatores gehören zu dieser Gruppe; der Multifidus ist ein wichtiger Muskel der lumbalen Stabilität."
+  ],
+  "aliases": [
+   "Multifidus",
+   "Semispinalis",
+   "Rotatores",
+   "Splenius"
+  ]
+ },
+ "mm-suboccipitales": {
+  "tr": "Subokzipitale Muskeln",
+  "summary": "Vier kleine Muskeln zwischen Schädelbasis und den ersten beiden Halswirbeln: M. rectus capitis posterior major und minor, M. obliquus capitis superior und inferior.",
+  "facts": [
+   "Rectus major und Obliquus inferior: Dornfortsatz des Axis; Rectus minor: Tuberculum posterius atlantis; Obliquus superior: Querfortsatz des Atlas",
+   "Linea nuchae inferior des Os occipitale (Obliquus inferior am Querfortsatz des Atlas)",
+   "N. suboccipitalis (R. posterior von C1)",
+   "A. vertebralis, A. occipitalis",
+   "Strecken den Kopf und drehen ihn zur gleichen Seite; feine Haltungsanpassung"
+  ],
+  "sections": [
+   [
+    "Trigonum suboccipitale",
+    "Im Boden des Dreiecks zwischen Rectus capitis posterior major, Obliquus capitis superior und inferior liegen A. vertebralis und N. suboccipitalis."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "Die subokzipitalen Muskeln werden vom N. suboccipitalis (R. posterior C1) innerviert; C1 hat meist keinen sensiblen Ast.",
+   "Der N. occipitalis major (R. posterior C2) tritt am Unterrand des Trigonum suboccipitale hervor; er ist bei der Okzipitalneuralgie betroffen."
+  ],
+  "aliases": [
+   "subokzipital",
+   "Nackenmuskeln"
+  ]
+ },
+ "m-pectoralis-major": {
+  "tr": "M. pectoralis major",
+  "summary": "Großer fächerförmiger Muskel an der oberen Vorderseite der Brust; er bildet die vordere Achselfalte. Er hat eine Pars clavicularis, sternocostalis und abdominalis.",
+  "facts": [
+   "Pars clavicularis: mediale Hälfte der Clavicula; Pars sternocostalis: Sternum und Rippenknorpel 1–6; Pars abdominalis: Aponeurose des M. obliquus externus",
+   "Crista tuberculi majoris humeri (laterale Lippe des Sulcus intertubercularis)",
+   "N. pectoralis medialis (C8–T1) und lateralis (C5–C7)",
+   "R. pectoralis der A. thoracoacromialis, A. thoracica lateralis, Aa. intercostales",
+   "Adduktion und Innenrotation des Arms; Pars clavicularis beugt, Pars sternocostalis streckt den gebeugten Arm; bei fixiertem Arm zieht er den Rumpf hoch (Atemhilfsmuskel)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Beim Poland-Syndrom fehlt die Pars sternocostalis angeboren.",
+   "Bei schwerem Heben (Bankdrücken) kann die Sehne vom Humerus abreißen."
+  ],
+  "tus": [
+   "Das Poland-Syndrom ist das angeborene Fehlen des sternokostalen Kopfes des Pectoralis major.",
+   "Die vordere Achselfalte bildet der Pectoralis major, die hintere Latissimus dorsi und Teres major."
+  ],
+  "aliases": [
+   "Brustmuskel",
+   "Pectoralis"
+  ]
+ }
+}

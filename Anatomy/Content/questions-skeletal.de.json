@@ -1,0 +1,4446 @@
+{
+ "system": "skeletal",
+ "questions": [
+  {
+   "id": "sk-f15e8ff6",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein 24-jähriger Motorradfahrer erwacht nach kurzer Bewusstlosigkeit und trübt einige Stunden später erneut ein. Das CT zeigt ein bikonvexes Epiduralhämatom temporal. Durch welche Öffnung tritt die blutende Arterie in die Schädelhöhle ein?",
+   "options": [
+    "Canalis caroticus",
+    "Foramen spinosum",
+    "Foramen ovale",
+    "Foramen rotundum",
+    "Foramen lacerum"
+   ],
+   "answer": 1,
+   "explanation": "Klassische Quelle des Epiduralhämatoms mit freiem Intervall ist die A. meningea media. Dieser Ast der A. maxillaris gelangt durch das Foramen spinosum in die mittlere Schädelgrube; ihr vorderer Ast verläuft an der Innenseite des Pterions, daher reißt sie bei Frakturen in diesem Bereich.",
+   "notes": [
+    "Hier ziehen die A. carotis interna und ihr sympathischer Plexus hindurch.",
+    "",
+    "Hier ziehen N. mandibularis (V3) und A. meningea accessoria hindurch.",
+    "Hier zieht der N. maxillaris (V2) hindurch.",
+    "Beim Lebenden ist es knorpelig verschlossen; der N. petrosus major zieht darüber hinweg."
+   ],
+   "entries": [
+    "os-sphenoidale",
+    "os-temporale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-cae1e91e",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Struktur zieht durch das Foramen rotundum?",
+   "options": [
+    "A. meningea media",
+    "N. mandibularis",
+    "N. maxillaris",
+    "N. ophthalmicus",
+    "N. petrosus major"
+   ],
+   "answer": 2,
+   "explanation": "Das Foramen rotundum in der Ala major des Os sphenoidale leitet den zweiten Trigeminusast, den N. maxillaris (V2), von der mittleren Schädelgrube in die Fossa pterygopalatina.",
+   "notes": [
+    "Sie tritt durch das Foramen spinosum ein.",
+    "Er zieht durch das Foramen ovale.",
+    "",
+    "Er gelangt durch die Fissura orbitalis superior in die Orbita.",
+    "Er zieht über das Foramen lacerum zum Canalis pterygoideus."
+   ],
+   "entries": [
+    "os-sphenoidale",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-02fc4bcb",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient mit Schädelbasisfraktur hat Schluckstörungen, Heiserkeit und auf derselben Seite eine Schwäche beim Schulterheben und Drehen des Kopfes zur Gegenseite. Wo liegt die Läsion am wahrscheinlichsten?",
+   "options": [
+    "Foramen jugulare",
+    "Foramen stylomastoideum",
+    "Canalis nervi hypoglossi",
+    "Foramen magnum",
+    "Meatus acusticus internus"
+   ],
+   "answer": 0,
+   "explanation": "Durch das Foramen jugulare ziehen N. glossopharyngeus (IX), N. vagus (X) und N. accessorius (XI) sowie der Beginn der V. jugularis interna. Ein Ausfall von IX–X verursacht Dysphagie und Heiserkeit, von XI eine Schwäche von Trapezius und Sternocleidomastoideus (Vernet-Syndrom).",
+   "notes": [
+    "",
+    "Hier verlässt der N. facialis den Schädel; es käme zur Fazialisparese.",
+    "Hier zieht nur der N. hypoglossus; die Zunge würde abweichen.",
+    "Medulla oblongata, Aa. vertebrales und spinale Wurzeln des XI ziehen hindurch; dieses Bild ist nicht typisch.",
+    "N. facialis und N. vestibulocochlearis ziehen hindurch."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-temporale",
+    "n-vagus",
+    "n-accessorius",
+    "n-glossopharyngeus"
+   ]
+  },
+  {
+   "id": "sk-2f2c71f8",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche der folgenden Strukturen zieht NICHT durch die Fissura orbitalis superior?",
+   "options": [
+    "N. abducens",
+    "V. ophthalmica superior",
+    "N. trochlearis",
+    "N. opticus",
+    "N. oculomotorius"
+   ],
+   "answer": 3,
+   "explanation": "Der N. opticus zieht mit der A. ophthalmica durch den Canalis opticus. Durch die Fissura orbitalis superior ziehen III, IV, VI, die Äste des N. ophthalmicus (N. lacrimalis, N. frontalis, N. nasociliaris) und die V. ophthalmica superior.",
+   "entries": [
+    "os-sphenoidale",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "sk-3882c3d4",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher der folgenden Knochen ist NICHT an der Bildung des Pterions beteiligt?",
+   "options": [
+    "Os parietale",
+    "Os sphenoidale",
+    "Os zygomaticum",
+    "Os temporale",
+    "Os frontale"
+   ],
+   "answer": 2,
+   "explanation": "Das Pterion ist die H-förmige Region, in der Os frontale, Os parietale, die Squama des Os temporale und die Ala major des Os sphenoidale zusammentreffen. Es ist eine der dünnsten Stellen des Schädels; an seiner Innenseite verläuft der vordere Ast der A. meningea media.",
+   "entries": [
+    "os-frontale",
+    "os-parietale",
+    "os-temporale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-200730b2",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Nach einer vorderen Schädelbasisfraktur entwickelt ein Patient klaren Ausfluss aus der Nase (Rhinoliquorrhö) und Riechverlust. Welcher Teil welches Knochens ist am wahrscheinlichsten gebrochen?",
+   "options": [
+    "Os sphenoidale – Corpus",
+    "Os nasale",
+    "Os frontale – Pars orbitalis",
+    "Os ethmoidale – Lamina cribrosa",
+    "Vomer"
+   ],
+   "answer": 3,
+   "explanation": "Durch die Löcher der Lamina cribrosa ziehen die Fila olfactoria. Bei einer Fraktur reißen die Riechfäden ab (Anosmie), und bei Verletzung von Dura und Arachnoidea fließt Liquor in die Nasenhöhle.",
+   "entries": [
+    "os-ethmoidale",
+    "n-olfactorius"
+   ]
+  },
+  {
+   "id": "sk-4f08a260",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Auf welchem Knochen liegt die Sella turcica, in der die Hypophyse sitzt?",
+   "options": [
+    "Os ethmoidale",
+    "Os temporale",
+    "Os frontale",
+    "Os sphenoidale",
+    "Os occipitale"
+   ],
+   "answer": 3,
+   "explanation": "Die Sella turcica ist die sattelförmige Grube auf der Oberseite des Corpus ossis sphenoidalis; in der mittleren Fossa hypophysialis liegt die Hypophyse. Darunter befindet sich der Sinus sphenoidalis, weshalb Hypophysenoperationen transsphenoidal erfolgen können.",
+   "entries": [
+    "os-sphenoidale",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "sk-52093b04",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Vor einer Behandlung der unteren Molaren setzt ein Zahnarzt eine Lokalanästhesie. An welcher Öffnung muss injiziert werden, damit alle Unterkieferzähne dieser Seite betäubt sind?",
+   "options": [
+    "Foramen mentale",
+    "Canalis incisivus",
+    "Foramen infraorbitale",
+    "Foramen ovale",
+    "Foramen mandibulae"
+   ],
+   "answer": 4,
+   "explanation": "Der N. alveolaris inferior (V3) tritt durch das Foramen mandibulae an der Innenseite des Ramus in den Canalis mandibulae und versorgt alle Unterkieferzähne. Eine Leitungsanästhesie direkt oberhalb der Lingula betäubt die Zähne, die Unterlippe und die Kinnhaut dieser Seite.",
+   "notes": [
+    "Der hier austretende N. mentalis versorgt nur Unterlippe und Kinnhaut.",
+    "Er betrifft die Gaumenschleimhaut der oberen Frontzähne (N. nasopalatinus).",
+    "Oberkiefer: Hier tritt der N. infraorbitalis aus.",
+    "Es liegt an der Schädelbasis; es dort zu erreichen ist nicht praktikabel.",
+    ""
+   ],
+   "entries": [
+    "mandibula",
+    "n-trigeminus",
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-d97d6576",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Der aus dem Foramen mentale austretende Nerv ist ein Ast welches Nervs?",
+   "options": [
+    "N. buccalis",
+    "N. infraorbitalis",
+    "N. alveolaris inferior",
+    "N. facialis (R. marginalis mandibulae)",
+    "N. lingualis"
+   ],
+   "answer": 2,
+   "explanation": "Das Foramen mentale liegt meist unter dem zweiten unteren Prämolaren. Der N. mentalis, ein Endast des N. alveolaris inferior, tritt hier aus und versorgt sensibel Unterlippe und Kinnhaut.",
+   "entries": [
+    "mandibula",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-db827248",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient mit Faustschlag gegen das Kinn hat eine Fraktur des Collum mandibulae. Das Kondylenfragment ist nach vorn und medial verlagert. Welcher Muskel ist für diese Verlagerung verantwortlich?",
+   "options": [
+    "M. masseter",
+    "M. digastricus",
+    "M. pterygoideus medialis",
+    "M. pterygoideus lateralis",
+    "M. temporalis"
+   ],
+   "answer": 3,
+   "explanation": "Der M. pterygoideus lateralis setzt an der Fovea pterygoidea (Kondylenhals) und am Discus articularis an und zieht den Kondylus nach vorn medial. Bei einer Fraktur wird das proximale Fragment durch seinen Zug nach anteromedial verlagert.",
+   "notes": [
+    "Er setzt an der Außenfläche von Ramus und Angulus an und zieht das distale Fragment nach oben.",
+    "Er setzt nahe dem Corpus mandibulae an und zieht den Kiefer nach unten.",
+    "Er setzt an der Innenfläche des Angulus an und beeinflusst das Kondylenfragment nicht.",
+    "",
+    "Er setzt am Processus coronoideus an."
+   ],
+   "entries": [
+    "mandibula",
+    "mm-pterygoidei",
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "sk-0dce4bb9",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Knochen bildet mit keinem anderen Knochen des Körpers ein Gelenk?",
+   "options": [
+    "Patella",
+    "Vomer",
+    "Os lacrimale",
+    "Os hyoideum",
+    "Os coccygis"
+   ],
+   "answer": 3,
+   "explanation": "Das Zungenbein liegt in Höhe C3 und ist an Muskeln und Bändern (Lig. stylohyoideum, Membrana thyrohyoidea) aufgehängt; es artikuliert mit keinem Knochen. Es dient den supra- und infrahyoidalen Muskeln als Ansatz.",
+   "entries": [
+    "os-hyoideum",
+    "mm-suprahyoidei",
+    "mm-infrahyoidei"
+   ]
+  },
+  {
+   "id": "sk-c559d452",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche der folgenden Strukturen setzt NICHT am Processus styloideus an?",
+   "options": [
+    "M. digastricus, Venter posterior",
+    "Lig. stylomandibulare",
+    "M. stylohyoideus",
+    "M. styloglossus",
+    "M. stylopharyngeus"
+   ],
+   "answer": 0,
+   "explanation": "Der hintere Bauch des M. digastricus entspringt an der Incisura mastoidea des Os temporale. Vom Processus styloideus entspringen die drei „Stylo-“Muskeln (Styloglossus – XII, Stylohyoideus – VII, Stylopharyngeus – IX) sowie Lig. stylohyoideum und Lig. stylomandibulare.",
+   "entries": [
+    "os-temporale",
+    "mm-suprahyoidei"
+   ]
+  },
+  {
+   "id": "sk-e617e04f",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In welchem Teil welches Knochens liegt das Innenohr?",
+   "options": [
+    "Os sphenoidale – Ala major",
+    "Os occipitale – Pars basilaris",
+    "Os temporale – Pars petrosa",
+    "Os temporale – Pars tympanica",
+    "Os temporale – Pars squamosa"
+   ],
+   "answer": 2,
+   "explanation": "Die Pars petrosa (Felsenbein, Pyramide) ist der härteste Knochen des Körpers; sie enthält Cochlea, Vestibulum und Bogengänge. Auch die Paukenhöhle liegt zwischen Pars petrosa und Pars tympanica.",
+   "entries": [
+    "os-temporale",
+    "auris-interna"
+   ]
+  },
+  {
+   "id": "sk-1864ac93",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Fontanelle schließt sich beim Säugling zuletzt, und etwa wann?",
+   "options": [
+    "Fonticulus sphenoidalis – 5 Jahre",
+    "Fonticulus anterior – 2–3 Monate",
+    "Fonticulus anterior – 18–24 Monate",
+    "Fonticulus posterior – 18–24 Monate",
+    "Fonticulus mastoideus – 3 Jahre"
+   ],
+   "answer": 2,
+   "explanation": "Die große (vordere) Fontanelle, die rautenförmige Lücke am Bregma, ist die größte und schließt sich zuletzt (etwa mit 18–24 Monaten). Die hintere schließt sich mit 2–3 Monaten, die Keilbeinfontanelle mit etwa 6 Monaten, die Warzenfontanelle mit 6–18 Monaten. Eine eingesunkene vordere Fontanelle spricht für Dehydratation, eine vorgewölbte für erhöhten Hirndruck.",
+   "entries": [
+    "os-frontale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-2a63ac57",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Das Bregma ist der Treffpunkt welcher Nähte?",
+   "options": [
+    "Sutura lambdoidea und Sutura occipitomastoidea",
+    "Sutura coronalis und Sutura sagittalis",
+    "Sutura sagittalis und Sutura lambdoidea",
+    "Sutura coronalis und Sutura squamosa",
+    "Sutura frontalis und Sutura coronalis"
+   ],
+   "answer": 1,
+   "explanation": "Das Bregma, der Ort der großen Fontanelle, ist der Schnittpunkt von Kranz- und Pfeilnaht. Das Lambda ist der Treffpunkt von Pfeil- und Lambdanaht, wo die kleine Fontanelle liegt.",
+   "entries": [
+    "os-frontale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-2fcb0376",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Nach einem Tennisballtreffer ins Gesicht hat ein Patient Doppelbilder beim Blick nach oben, einen eingesunkenen Augapfel und Taubheit an Wange und Oberlippe derselben Seite. Welche Fraktur ist am wahrscheinlichsten?",
+   "options": [
+    "Orbitadach (Os frontale)",
+    "Laterale Orbitawand (Os zygomaticum)",
+    "Orbitaboden (Maxilla) – Blow-out-Fraktur",
+    "Os nasale",
+    "Canalis opticus"
+   ],
+   "answer": 2,
+   "explanation": "Beim stumpfen Orbitatrauma bricht der Druck durch eine der schwächsten Wände, den Boden (Maxilla), nach außen. M. rectus inferior und Fettgewebe werden in die Kieferhöhle eingeklemmt, die Hebung ist eingeschränkt. Eine Verletzung des N. infraorbitalis im Sulcus/Canalis infraorbitalis des Bodens verursacht Gefühlsverlust an Wange, Unterlid und Oberlippe. Die mediale Wand (Lamina orbitalis ossis ethmoidalis) ist die dünnste und bricht ebenfalls häufig.",
+   "entries": [
+    "maxilla",
+    "os-ethmoidale",
+    "mm-bulbi"
+   ]
+  },
+  {
+   "id": "sk-b4b77595",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Strukturen bilden den knöchernen Teil der Nasenscheidewand?",
+   "options": [
+    "Processus frontalis der Maxilla und Os nasale",
+    "Concha nasalis inferior und Os palatinum",
+    "Os lacrimale und Os ethmoidale",
+    "Os nasale und Vomer",
+    "Vomer und Lamina perpendicularis des Os ethmoidale"
+   ],
+   "answer": 4,
+   "explanation": "Das Nasenseptum besteht hinten unten aus dem Vomer, hinten oben aus der Lamina perpendicularis ossis ethmoidalis und vorn aus der Cartilago septi nasi. Septumdeviationen liegen meist an der Knorpel-Knochen-Grenze.",
+   "entries": [
+    "vomer",
+    "os-ethmoidale",
+    "cavitas-nasi"
+   ]
+  },
+  {
+   "id": "sk-9a7db56f",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche der folgenden Strukturen ist ein eigener Knochen und kein Teil des Os ethmoidale?",
+   "options": [
+    "Concha nasalis superior",
+    "Crista galli",
+    "Concha nasalis inferior",
+    "Lamina cribrosa",
+    "Concha nasalis media"
+   ],
+   "answer": 2,
+   "explanation": "Obere und mittlere Muschel gehen vom Labyrinth des Siebbeins aus. Die untere Nasenmuschel ist ein eigener Gesichtsknochen und artikuliert mit Maxilla, Os lacrimale, Os palatinum und Os ethmoidale.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-e474b6d7",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Knochen bildet das hintere Viertel des harten Gaumens?",
+   "options": [
+    "Os sphenoidale – Processus pterygoideus",
+    "Maxilla – Processus palatinus",
+    "Os palatinum – Lamina perpendicularis",
+    "Vomer",
+    "Os palatinum – Lamina horizontalis"
+   ],
+   "answer": 4,
+   "explanation": "Die vorderen drei Viertel des harten Gaumens bildet der Processus palatinus der Maxilla, das hintere Viertel die Lamina horizontalis des Os palatinum. Ihre Verbindung ist die Sutura palatina transversa.",
+   "entries": [
+    "os-palatinum",
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-a81fa9ba",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Knochen bilden die Fossa sacci lacrimalis?",
+   "options": [
+    "Os ethmoidale und Os sphenoidale",
+    "Os nasale und Os frontale",
+    "Os palatinum und Os lacrimale",
+    "Os zygomaticum und Maxilla",
+    "Os lacrimale und Processus frontalis der Maxilla"
+   ],
+   "answer": 4,
+   "explanation": "Der Tränensack liegt in der Fossa sacci lacrimalis am vorderen Teil der medialen Orbitawand. Vorn wird sie vom Processus frontalis der Maxilla (Crista lacrimalis anterior), hinten vom Os lacrimale (Crista lacrimalis posterior) gebildet. Unten mündet der Sack über den Ductus nasolacrimalis in den unteren Nasengang.",
+   "entries": [
+    "os-lacrimale",
+    "maxilla",
+    "apparatus-lacrimalis"
+   ]
+  },
+  {
+   "id": "sk-8a17fa1f",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Der Arcus zygomaticus entsteht aus der Vereinigung welcher Strukturen?",
+   "options": [
+    "Processus frontalis des Os zygomaticum und Os frontale",
+    "Ala major des Os sphenoidale und Os temporale",
+    "Processus mastoideus des Os temporale und Os zygomaticum",
+    "Processus temporalis des Os zygomaticum und Processus zygomaticus des Os temporale",
+    "Processus zygomaticus der Maxilla und Os sphenoidale"
+   ],
+   "answer": 3,
+   "explanation": "Den Jochbogen bilden vorn der Processus temporalis des Os zygomaticum und hinten der Processus zygomaticus des Os temporale. Von seinem Unterrand entspringt der M. masseter; unter dem Bogen zieht die Temporalissehne zum Processus coronoideus.",
+   "entries": [
+    "os-zygomaticum",
+    "os-temporale",
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "sk-5ff889bf",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mit welchem Knochen artikulieren die Condyli occipitales?",
+   "options": [
+    "Os sphenoidale",
+    "Atlas",
+    "Dens axis",
+    "Os temporale",
+    "Axis"
+   ],
+   "answer": 1,
+   "explanation": "Die Kondylen des Os occipitale bilden mit den Oberflächen der Massae laterales des Atlas das Atlantookzipitalgelenk. Hier erfolgt das „Ja“-Nicken (Flexion–Extension); die „Nein“-Bewegung erfolgt im Atlantoaxialgelenk.",
+   "entries": [
+    "os-occipitale",
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-d3f9241b",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Nerv zieht durch das Foramen supraorbitale, und aus welchem Hauptnerv stammt er?",
+   "options": [
+    "N. supraorbitalis – N. ophthalmicus (V1)",
+    "N. zygomaticotemporalis – N. mandibularis (V3)",
+    "N. supratrochlearis – N. maxillaris (V2)",
+    "N. infraorbitalis – N. maxillaris (V2)",
+    "N. supraorbitalis – N. facialis"
+   ],
+   "answer": 0,
+   "explanation": "Der N. supraorbitalis, ein Ast des N. frontalis, tritt durch das Foramen (die Incisura) supraorbitale des Os frontale aus und versorgt Stirn und vordere Kopfhaut. Bei der Trigeminusneuralgie wird hier der V1-Druckpunkt geprüft.",
+   "entries": [
+    "os-frontale",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "sk-95627bc6",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie viele bleibende Zähne und wie viele Milchzähne gibt es jeweils?",
+   "options": [
+    "32 und 24",
+    "28 und 20",
+    "32 und 16",
+    "30 und 20",
+    "32 und 20"
+   ],
+   "answer": 4,
+   "explanation": "Jeder Kieferquadrant hat im bleibenden Gebiss 2 Schneidezähne, 1 Eckzahn, 2 Prämolaren und 3 Molaren (insgesamt 32); das Milchgebiss hat 2 Schneidezähne, 1 Eckzahn und 2 Milchmolaren (insgesamt 20). Im Milchgebiss gibt es keine Prämolaren.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-e0da37ac",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo sitzt die Steigbügelfußplatte (Basis stapedis)?",
+   "options": [
+    "Aditus ad antrum mastoideum",
+    "Membrana tympanica",
+    "Promontorium",
+    "Rundes Fenster (Fenestra cochleae)",
+    "Ovales Fenster (Fenestra vestibuli)"
+   ],
+   "answer": 4,
+   "explanation": "Die Stapesfußplatte ist mit dem Lig. anulare im ovalen Fenster der medialen Paukenhöhlenwand befestigt und überträgt die Schwingungen auf die Perilymphe. Bei der Otosklerose fixiert Knochenneubildung hier den Stapes und verursacht eine Schallleitungsschwerhörigkeit. Das runde Fenster ist durch die Membrana tympanica secundaria verschlossen.",
+   "entries": [
+    "ossicula-auditus",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "sk-11bbc925",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Wirbel hat keinen Wirbelkörper?",
+   "options": [
+    "Erster Brustwirbel",
+    "Fünfter Lendenwirbel",
+    "Axis (C2)",
+    "Vertebra prominens (C7)",
+    "Atlas (C1)"
+   ],
+   "answer": 4,
+   "explanation": "Der Körper des Atlas verschmilzt in der Entwicklung mit dem Axis zum Dens. Der Atlas ist ein Ring aus vorderem und hinterem Bogen und zwei Massae laterales; statt eines Dornfortsatzes trägt er ein Tuberculum posterius.",
+   "entries": [
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-a2272b62",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In das Foramen transversarium welches Wirbels tritt die A. vertebralis meist ein, um aufzusteigen?",
+   "options": [
+    "C6",
+    "C4",
+    "C7",
+    "C1",
+    "C5"
+   ],
+   "answer": 0,
+   "explanation": "Die A. vertebralis, der erste Ast der A. subclavia, tritt typischerweise in das Foramen transversarium von C6 ein, steigt durch die Löcher C6–C1 auf und gelangt durch das Foramen magnum in den Schädel. Durch das Foramen transversarium von C7 zieht meist nur die V. vertebralis.",
+   "entries": [
+    "vertebrae-cervicales",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-75fe34b4",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Zu welchem Wirbel gehört der am deutlichsten tastbare Dornfortsatz im Nacken?",
+   "options": [
+    "C7 (Vertebra prominens)",
+    "T4",
+    "C2 (Axis)",
+    "C1 (Atlas)",
+    "C5"
+   ],
+   "answer": 0,
+   "explanation": "Der lange, ungespaltene Dornfortsatz von C7 ist am Halsansatz leicht tastbar und dient als Ausgangspunkt beim Abzählen der Wirbel. Die Dornfortsätze von C2–C6 sind kurz und gegabelt.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2b8ee94c",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Wirbel haben an ihrem Körper Gelenkflächen (Foveae costales) für den Rippenkopf?",
+   "options": [
+    "Brustwirbel",
+    "Halswirbel",
+    "Lendenwirbel",
+    "Steißwirbel",
+    "Kreuzwirbel"
+   ],
+   "answer": 0,
+   "explanation": "Brustwirbel tragen am Körper Gelenkflächen für den Rippenkopf und an den Querfortsätzen (außer T11–T12) für das Rippenhöckerchen. Ihre Körper sind herzförmig, die Dornfortsätze lang und nach unten geneigt.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-98dc357c",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Processus mamillaris und Processus accessorius sind typisch für welche Wirbel?",
+   "options": [
+    "Halswirbel",
+    "Kreuzwirbel",
+    "Lendenwirbel",
+    "Atlas und Axis",
+    "Brustwirbel"
+   ],
+   "answer": 2,
+   "explanation": "Lendenwirbel tragen am Hinterrand des oberen Gelenkfortsatzes einen Processus mamillaris und an der Wurzel des Querfortsatzes einen Processus accessorius; dort setzen tiefe Rückenmuskeln an. Ihre Körper sind groß und nierenförmig, ohne Foramen transversarium und Rippengelenkfläche.",
+   "entries": [
+    "vertebrae-lumbales",
+    "mm-transversospinales"
+   ]
+  },
+  {
+   "id": "sk-d9e58822",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Durch welche Öffnung wird die Nadel bei der kaudalen Epiduralanästhesie eingeführt?",
+   "options": [
+    "Foramina sacralia anteriora",
+    "Foramina sacralia posteriora",
+    "Canalis obturatorius",
+    "Hiatus sacralis",
+    "Foramen ischiadicum majus"
+   ],
+   "answer": 3,
+   "explanation": "Da die Laminae von S4–S5 nicht verschmelzen, bleibt an der Rückseite des Kreuzbeins der Hiatus sacralis. Die beidseitigen Cornua sacralia dienen als Leitstruktur; die Nadel wird in den Epiduralraum des Canalis sacralis vorgeschoben.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-0bec5b45",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Struktur bildet die hintere Begrenzung des Beckeneingangs?",
+   "options": [
+    "Crista iliaca",
+    "Steißbeinspitze",
+    "Spina ischiadica",
+    "Promontorium ossis sacri",
+    "Hiatus sacralis"
+   ],
+   "answer": 3,
+   "explanation": "Der Beckeneingang wird hinten vom Promontorium, seitlich von Linea arcuata und Pecten ossis pubis und vorn vom Oberrand der Symphyse begrenzt. Die Conjugata vera obstetrica ist der kürzeste Abstand zwischen Promontorium und Symphysenrückfläche.",
+   "entries": [
+    "os-sacrum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-db733329",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein 45-jähriger Mann beschreibt nach schwerem Heben Schmerzen vom Kreuz in die Beinaußenseite, den Fußrücken und die Großzehe sowie eine Schwäche der Großzehenhebung. Was ist die wahrscheinlichste Diagnose?",
+   "options": [
+    "Bandscheibenvorfall S1–S2 mit Kompression der Wurzel S2",
+    "Bandscheibenvorfall L5–S1 mit Kompression der Wurzel S1",
+    "Bandscheibenvorfall L4–L5 mit Kompression der Wurzel L5",
+    "Bandscheibenvorfall L1–L2 mit Kompression des Conus medullaris",
+    "Bandscheibenvorfall L3–L4 mit Kompression der Wurzel L4"
+   ],
+   "answer": 2,
+   "explanation": "Lumbale Bandscheibenvorfälle sind meist posterolateral und komprimieren die nächsttiefere Wurzel: Ein Vorfall L4–L5 betrifft die Wurzel L5. L5: Sensibilität von Unterschenkelaußenseite, Fußrücken und Großzehe, Kraft des M. extensor hallucis longus. S1: Fußaußenrand, Achillessehnenreflex; L4: Patellarsehnenreflex und Unterschenkelinnenseite.",
+   "entries": [
+    "vertebrae-lumbales",
+    "discus-intervertebralis",
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "sk-2249b2c3",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band hält den Dens axis am vorderen Atlasbogen?",
+   "options": [
+    "Lig. flavum",
+    "Ligg. alaria",
+    "Lig. longitudinale anterius",
+    "Lig. apicis dentis",
+    "Lig. transversum atlantis"
+   ],
+   "answer": 4,
+   "explanation": "Das Lig. transversum atlantis (der quere Schenkel des Lig. cruciforme atlantis) umgreift den Dens von hinten und drückt ihn gegen den vorderen Atlasbogen. Sein Riss (z. B. rheumatoide Arthritis, Down-Syndrom) kann zur Kompression des Rückenmarks durch den Dens führen.",
+   "entries": [
+    "axis",
+    "atlas",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "sk-e8c060fb",
+   "group": "Brustkorb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Der Angulus sterni, Bezugspunkt zum Abzählen der Rippen bei der Thoraxuntersuchung, liegt auf Höhe welches Rippenknorpels?",
+   "options": [
+    "7. Rippe",
+    "2. Rippe",
+    "4. Rippe",
+    "1. Rippe",
+    "3. Rippe"
+   ],
+   "answer": 1,
+   "explanation": "Der Angulus sterni (Louis-Winkel) ist die Verbindung von Manubrium und Corpus sterni; beidseits artikulieren hier die 2. Rippenknorpel. Er ist vorn leicht tastbar; man sucht die 2. Rippe und zählt nach unten.",
+   "entries": [
+    "sternum",
+    "costae",
+    "cartilagines-costales"
+   ]
+  },
+  {
+   "id": "sk-5ac9e561",
+   "group": "Brustkorb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage zur Horizontalebene durch den Angulus sterni (T4–T5) ist FALSCH?",
+   "options": [
+    "Der Aortenbogen beginnt und endet in dieser Ebene.",
+    "Die Speiseröhre tritt in dieser Höhe durch das Zwerchfell.",
+    "Die V. azygos mündet in dieser Höhe in die V. cava superior.",
+    "Sie trennt oberes und unteres Mediastinum.",
+    "Die Trachea teilt sich in dieser Höhe."
+   ],
+   "answer": 1,
+   "explanation": "Die Ebene des Angulus sterni ist ein wichtiger Thoraxorientierungspunkt: Grenze zwischen oberem und unterem Mediastinum, Trachealbifurkation, Beginn und Ende des Aortenbogens, Mündung der V. azygos in die VCS und Übertritt des Ductus thoracicus nach links liegen auf dieser Höhe. Die Speiseröhre passiert das Zwerchfell in Höhe T10.",
+   "entries": [
+    "sternum",
+    "trachea",
+    "aorta",
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "sk-b9caecf9",
+   "group": "Brustkorb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Rippen sind die „Costae fluctuantes“ (freien Rippen)?",
+   "options": [
+    "10. und 11. Rippe",
+    "11. und 12. Rippe",
+    "8., 9. und 10. Rippe",
+    "6. und 7. Rippe",
+    "1. und 2. Rippe"
+   ],
+   "answer": 1,
+   "explanation": "Die Rippen 1–7 sind echte Rippen mit direkter Verbindung zum Sternum. Die Knorpel der Rippen 8–10 schließen sich dem darüberliegenden Knorpel an (falsche Rippen). Die vorderen Enden der Rippen 11–12 sind frei (freie Rippen).",
+   "entries": [
+    "costae",
+    "cartilagines-costales"
+   ]
+  },
+  {
+   "id": "sk-be399078",
+   "group": "Brustkorb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur verläuft an der ersten Rippe in der Rinne hinter dem Tuberculum musculi scaleni anterioris?",
+   "options": [
+    "N. phrenicus",
+    "Ductus thoracicus",
+    "A. subclavia",
+    "V. subclavia",
+    "A. thoracica interna"
+   ],
+   "answer": 2,
+   "explanation": "Der M. scalenus anterior setzt am Höcker der 1. Rippe an. In der Rinne davor liegt die V. subclavia, in der Rinne dahinter (Sulcus arteriae subclaviae) die A. subclavia und der untere Primärstrang des Plexus brachialis. Arterie und Plexus ziehen durch die Skalenuslücke, die Vene vor dem Muskel.",
+   "entries": [
+    "costae",
+    "a-subclavia",
+    "mm-scaleni"
+   ]
+  },
+  {
+   "id": "sk-1ca5b2b4",
+   "group": "Brustkorb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Wo muss die Nadel bei einer Thorakozentese eingeführt werden, um Interkostalgefäße und -nerv zu schonen?",
+   "options": [
+    "Direkt über dem Oberrand der unteren Rippe",
+    "Genau in der Mitte zwischen zwei Rippen",
+    "Direkt unter dem Unterrand der oberen Rippe",
+    "Im Sulcus costae medial des Rippenwinkels",
+    "Über dem Rippenknorpel"
+   ],
+   "answer": 0,
+   "explanation": "V., A. und N. intercostalis (von oben nach unten VAN) verlaufen im Sulcus costae am Unterrand der Rippe. Die Nadel wird daher am Oberrand der unteren Rippe eingestochen.",
+   "entries": [
+    "costae",
+    "mm-intercostales",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "sk-b337c3b1",
+   "group": "Brustkorb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Eine junge Frau hat beim Heben des Arms Taubheit und Kälte in der Hand; die Halsaufnahme zeigt eine Halsrippe. Welche Struktur wird dabei am häufigsten eingeengt?",
+   "options": [
+    "N. phrenicus",
+    "Oberer Primärstrang des Plexus brachialis (C5–C6)",
+    "Unterer Primärstrang des Plexus brachialis (C8–T1)",
+    "V. jugularis interna",
+    "N. accessorius"
+   ],
+   "answer": 2,
+   "explanation": "Eine Halsrippe (von C7) verursacht ein Thoracic-outlet-Syndrom. Der untere Primärstrang (C8–T1) und die A. subclavia werden beim Überqueren der Rippe oder ihres fibrösen Bandes eingeengt; es kommt zu Parästhesien am ulnaren Handrand, Schwäche der Handbinnenmuskeln und vaskulären Zeichen.",
+   "entries": [
+    "costae",
+    "vertebrae-cervicales",
+    "plexus-brachialis",
+    "a-subclavia"
+   ]
+  },
+  {
+   "id": "sk-9947b15d",
+   "group": "Brustkorb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Wirbelhöhe entspricht der Processus xiphoideus am häufigsten?",
+   "options": [
+    "T9–T10",
+    "T4–T5",
+    "T12–L1",
+    "T6–T7",
+    "L1–L2"
+   ],
+   "answer": 0,
+   "explanation": "Die Verbindung zwischen Corpus sterni und Schwertfortsatz liegt etwa in Höhe T9. Der Processus xiphoideus kann bis ins höhere Alter knorpelig bleiben; Linea alba und Pars sternalis des Zwerchfells setzen hier an.",
+   "entries": [
+    "sternum",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "sk-89cf3635",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Knochen beginnt in der Embryonalzeit als erster zu verknöchern?",
+   "options": [
+    "Clavicula",
+    "Os parietale",
+    "Mandibula",
+    "Humerus",
+    "Femur"
+   ],
+   "answer": 0,
+   "explanation": "Die Clavicula beginnt in der 5.–6. Woche zu verknöchern; ihr Schaft desmal, ihre Enden chondral. Beim Erwachsenen gehört sie zu den am häufigsten gebrochenen Knochen.",
+   "entries": [
+    "clavicula"
+   ]
+  },
+  {
+   "id": "sk-8791a2dc",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Kind ist vom Fahrrad gestürzt und hat eine Klavikulafraktur am Übergang vom mittleren zum lateralen Drittel. Welcher Muskel zieht das mediale Fragment nach oben?",
+   "options": [
+    "M. pectoralis major",
+    "M. deltoideus",
+    "M. trapezius",
+    "M. sternocleidomastoideus",
+    "M. subclavius"
+   ],
+   "answer": 3,
+   "explanation": "Bei dieser Fraktur wird das mediale Fragment vom klavikulären Kopf des M. sternocleidomastoideus nach oben gezogen. Das laterale Fragment sinkt durch das Armgewicht ab und wird von Pectoralis major und Latissimus dorsi nach medial gezogen; die Schulter steht tief und nach vorn verlagert.",
+   "notes": [
+    "Er zieht das laterale Fragment nach medial.",
+    "Er setzt am lateralen Fragment an.",
+    "Er setzt am lateralen Drittel an; er versucht, das laterale Fragment zu halten, kann das Armgewicht aber nicht ausgleichen.",
+    "",
+    "Er schützt die Subklaviagefäße; er zieht das Fragment nicht nach oben."
+   ],
+   "entries": [
+    "clavicula",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-82483548",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur zieht unter dem Lig. transversum scapulae superius hindurch, das die Incisura scapulae überbrückt?",
+   "options": [
+    "N. dorsalis scapulae",
+    "N. suprascapularis",
+    "N. axillaris",
+    "A. circumflexa scapulae",
+    "A. suprascapularis"
+   ],
+   "answer": 1,
+   "explanation": "Der N. suprascapularis zieht unter dem Band, die A. suprascapularis darüber. Eine Verkalkung des Bandes oder eine Einengung in der Incisura führt zu Schwäche und Atrophie von Supra- und Infraspinatus.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus",
+    "m-infraspinatus"
+   ]
+  },
+  {
+   "id": "sk-4471bbd9",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche der folgenden Strukturen setzt NICHT am Processus coracoideus an?",
+   "options": [
+    "Caput breve des M. biceps brachii",
+    "M. coracobrachialis",
+    "Lig. coracoclaviculare",
+    "Caput longum des M. biceps brachii",
+    "M. pectoralis minor"
+   ],
+   "answer": 3,
+   "explanation": "Das Caput longum des Bizeps entspringt am Tuberculum supraglenoidale und verläuft durch die Gelenkkapsel. Am Processus coracoideus setzen Pectoralis minor, Coracobrachialis, das Caput breve des Bizeps sowie die Ligg. coracoclaviculare, coracoacromiale und coracohumerale an.",
+   "entries": [
+    "scapula",
+    "m-biceps-brachii",
+    "m-pectoralis-minor",
+    "m-coracobrachialis"
+   ]
+  },
+  {
+   "id": "sk-5072fdb2",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Eine ältere Frau ist auf die Schulter gestürzt und hat eine Fraktur des Collum chirurgicum humeri. Es entstehen eine Abflachung der Deltaregion und ein kleiner Gefühlsausfall an der Schulteraußenseite. Welcher Nerv ist verletzt?",
+   "options": [
+    "N. axillaris",
+    "N. suprascapularis",
+    "N. musculocutaneus",
+    "N. thoracicus longus",
+    "N. radialis"
+   ],
+   "answer": 0,
+   "explanation": "Der N. axillaris zieht mit der A. circumflexa humeri posterior durch die laterale Achsellücke und umschlingt das Collum chirurgicum von hinten. Bei einer Fraktur werden Deltoideus und Teres minor schwach, und im „Regimentsabzeichen“-Areal (N. cutaneus brachii lateralis superior) fällt die Sensibilität aus.",
+   "entries": [
+    "humerus",
+    "n-axillaris",
+    "m-deltoideus"
+   ]
+  },
+  {
+   "id": "sk-70dfeb98",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Nach einer Fraktur in der Mitte des Humerusschafts kann der Patient Handgelenk und Finger nicht heben (Fallhand). Welcher Nerv und welche Begleitarterie sind an der Frakturlinie verletzt?",
+   "options": [
+    "N. medianus – A. brachialis",
+    "N. ulnaris – A. collateralis ulnaris superior",
+    "N. radialis – A. profunda brachii",
+    "N. axillaris – A. circumflexa humeri posterior",
+    "N. musculocutaneus – A. brachialis"
+   ],
+   "answer": 2,
+   "explanation": "N. radialis und A. profunda brachii liegen im Sulcus nervi radialis an der Humerusrückseite dem Knochen eng an. Bei Schaftfrakturen sind die Hand- und Fingerstrecker gelähmt. Der Trizeps bleibt meist verschont, da seine Äste weiter oben abgehen.",
+   "entries": [
+    "humerus",
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "sk-4c20df95",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein 7-Jähriger wird nach einem Sturz mit suprakondylärer Humerusfraktur gebracht. Stunden später treten starke Unterarmschmerzen, Schmerzzunahme bei passiver Fingerstreckung und fehlender Radialispuls auf. Welches Gefäß ist geschädigt?",
+   "options": [
+    "A. brachialis",
+    "A. profunda brachii",
+    "A. collateralis ulnaris inferior",
+    "A. axillaris",
+    "Ursprung der A. radialis"
+   ],
+   "answer": 0,
+   "explanation": "Bei der suprakondylären Fraktur drückt das scharfe Ende des proximalen Fragments auf A. brachialis und N. medianus. Die Beugerloge des Unterarms wird ischämisch; unbehandelt entsteht die ischämische Volkmann-Kontraktur.",
+   "entries": [
+    "humerus",
+    "a-brachialis",
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "sk-7f0d202b",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Nerv verläuft in der Rinne hinter dem Epicondylus medialis humeri?",
+   "options": [
+    "N. ulnaris",
+    "N. musculocutaneus",
+    "N. radialis",
+    "N. cutaneus antebrachii medialis",
+    "N. medianus"
+   ],
+   "answer": 0,
+   "explanation": "Der N. ulnaris liegt im Sulcus nervi ulnaris hinter dem Epicondylus medialis oberflächlich; das elektrisierende Gefühl bis in die Hand beim Anstoßen des Ellenbogens („Musikantenknochen“) entsteht hier. Eine Einengung in diesem Bereich heißt Kubitaltunnelsyndrom.",
+   "entries": [
+    "humerus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-dd4258d5",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt am Tuberculum minus humeri an?",
+   "options": [
+    "M. infraspinatus",
+    "M. teres minor",
+    "M. supraspinatus",
+    "M. teres major",
+    "M. subscapularis"
+   ],
+   "answer": 4,
+   "explanation": "Von den Muskeln der Rotatorenmanschette setzen Supraspinatus, Infraspinatus und Teres minor am Tuberculum majus an; nur der Subscapularis setzt am Tuberculum minus an und rotiert den Arm nach innen.",
+   "entries": [
+    "humerus",
+    "m-subscapularis"
+   ]
+  },
+  {
+   "id": "sk-6cefc4df",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt am Boden des Sulcus intertubercularis an?",
+   "options": [
+    "M. deltoideus",
+    "M. teres major",
+    "M. pectoralis major",
+    "M. latissimus dorsi",
+    "M. coracobrachialis"
+   ],
+   "answer": 3,
+   "explanation": "An der lateralen Lippe des Sulcus intertubercularis setzt der Pectoralis major an, an der medialen Lippe der Teres major und am Boden der Latissimus dorsi. In der Rinne liegt die Sehne des langen Bizepskopfes mit ihrer Sehnenscheide.",
+   "entries": [
+    "humerus",
+    "m-latissimus-dorsi",
+    "m-pectoralis-major",
+    "m-teres-major"
+   ]
+  },
+  {
+   "id": "sk-66af7b45",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein 2-jähriges Kind benutzt seinen Arm nicht mehr und hält den Unterarm in Pronation, nachdem die Mutter ruckartig an der Hand gezogen hat. Aus welchem Band ist das Radiusköpfchen geglitten?",
+   "options": [
+    "Lig. collaterale ulnare",
+    "Lig. collaterale radiale",
+    "Lig. anulare radii",
+    "Lig. quadratum",
+    "Membrana interossea antebrachii"
+   ],
+   "answer": 2,
+   "explanation": "Die Chassaignac-Lähmung (Subluxation des Radiusköpfchens) tritt bei Kleinkindern auf, weil das Radiusköpfchen noch klein ist; es gleitet aus dem Lig. anulare, das es an der Incisura radialis ulnae hält. Die Reposition gelingt leicht durch Supination und Beugung.",
+   "entries": [
+    "radius",
+    "artt-radioulnares",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-8eef6564",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Eine ältere Frau ist auf die Hand gestürzt und zeigt eine „Bajonett-/Fourchette“-Fehlstellung des Handgelenks. Das Röntgen zeigt eine distale Radiusfraktur mit dorsaler Verschiebung des distalen Fragments. Wie heißt diese Fraktur?",
+   "options": [
+    "Colles-Fraktur",
+    "Galeazzi-Fraktur",
+    "Monteggia-Fraktur",
+    "Barton-Fraktur",
+    "Smith-Fraktur"
+   ],
+   "answer": 0,
+   "explanation": "Bei der Colles-Fraktur ist das distale Radiusfragment nach dorsal und radial verschoben; seitlich entsteht die Fourchette-Stellung. Die Smith-Fraktur ist das Gegenstück (distales Fragment palmar). Die Monteggia-Fraktur ist eine Ulnafraktur mit Radiusköpfchenluxation, die Galeazzi-Fraktur eine Radiusfraktur mit distaler radioulnarer Luxation.",
+   "entries": [
+    "radius",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "sk-3a4562c9",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt an der Tuberositas ulnae an?",
+   "options": [
+    "M. triceps brachii",
+    "M. anconeus",
+    "M. biceps brachii",
+    "M. supinator",
+    "M. brachialis"
+   ],
+   "answer": 4,
+   "explanation": "Der M. brachialis entspringt an der unteren Hälfte der Humerusvorderfläche und setzt an Processus coronoideus und Tuberositas ulnae an; er ist der Hauptbeuger des Ellenbogens. Der Bizeps setzt an der Tuberositas radii an.",
+   "entries": [
+    "ulna",
+    "m-brachialis"
+   ]
+  },
+  {
+   "id": "sk-5d908eec",
+   "group": "Knochen der Hand",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein 22-jähriger Mann ist auf die Hand gestürzt und hat einen Druckschmerz in der Tabatière; die ersten Röntgenbilder sind unauffällig. Zwei Wochen später wird die Frakturlinie sichtbar. Was ist die gefürchtetste Komplikation einer Fraktur dieses Knochens?",
+   "options": [
+    "Riss der A. radialis",
+    "Ulnarislähmung",
+    "Avaskuläre Nekrose des proximalen Fragments",
+    "Avaskuläre Nekrose des distalen Fragments",
+    "Karpaltunnelsyndrom"
+   ],
+   "answer": 2,
+   "explanation": "Das Os scaphoideum ist der am häufigsten gebrochene Handwurzelknochen. Seine ernährenden Gefäße treten überwiegend distal ein; bei Taillenfrakturen wird das proximale Fragment minderdurchblutet, und es können avaskuläre Nekrose und Pseudarthrose entstehen. Im Boden der Tabatière liegen Scaphoid und Trapezium.",
+   "entries": [
+    "os-scaphoideum",
+    "ossa-carpi",
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "sk-93bbc372",
+   "group": "Knochen der Hand",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Handwurzelknochen luxiert am häufigsten, und welchen Nerv kann er bei Verlagerung nach palmar komprimieren?",
+   "options": [
+    "Os hamatum – N. ulnaris",
+    "Os scaphoideum – N. radialis",
+    "Os pisiforme – N. ulnaris",
+    "Os lunatum – N. medianus",
+    "Os capitatum – N. medianus"
+   ],
+   "answer": 3,
+   "explanation": "Das Os lunatum kann nach palmar in den Karpaltunnel luxieren und den N. medianus komprimieren. Die avaskuläre Nekrose des Lunatum ist die Lunatummalazie (Morbus Kienböck).",
+   "entries": [
+    "os-lunatum",
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "sk-cd43228f",
+   "group": "Knochen der Hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Das Os pisiforme ist ein Sesambein, das sich in der Sehne welches Muskels entwickelt?",
+   "options": [
+    "M. flexor carpi ulnaris",
+    "M. abductor digiti minimi",
+    "M. palmaris longus",
+    "M. flexor carpi radialis",
+    "M. extensor carpi ulnaris"
+   ],
+   "answer": 0,
+   "explanation": "Das Os pisiforme liegt in der Sehne des M. flexor carpi ulnaris und artikuliert mit dem Os triquetrum. Über Lig. pisohamatum und Lig. pisometacarpale überträgt es die Muskelkraft auf Hamatum und 5. Mittelhandknochen; der M. abductor digiti minimi entspringt hier.",
+   "entries": [
+    "os-pisiforme",
+    "m-flexor-carpi-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-b5971216",
+   "group": "Knochen der Hand",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Golfspieler, dessen Schläger in den Boden schlug, hat Schmerzen im Hypothenar, Taubheit der Finger 4–5 und Schwäche beim Spreizen und Schließen der Finger. Welcher Knochenvorsprung ist gebrochen?",
+   "options": [
+    "Hamulus ossis hamati",
+    "Tuberculum ossis scaphoidei",
+    "Processus styloideus ulnae",
+    "Tuberculum ossis trapezii",
+    "Os pisiforme"
+   ],
+   "answer": 0,
+   "explanation": "Der Hamulus ossis hamati bildet die laterale Wand der Loge de Guyon (Canalis ulnaris). Bei seiner Fraktur können N. und A. ulnaris im Kanal betroffen sein; es kommt zu Taubheit an der Palmarseite der Finger 4–5 und Schwäche der Interossei.",
+   "entries": [
+    "os-hamatum",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "sk-a1b84851",
+   "group": "Knochen der Hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mit welchem Mittelhandknochen bildet das Os trapezium ein Sattelgelenk?",
+   "options": [
+    "3. Mittelhandknochen",
+    "4. Mittelhandknochen",
+    "5. Mittelhandknochen",
+    "1. Mittelhandknochen (Daumen)",
+    "2. Mittelhandknochen"
+   ],
+   "answer": 3,
+   "explanation": "Das Daumensattelgelenk (Trapezium–1. Mittelhandknochen) erlaubt einen großen Bewegungsumfang einschließlich Opposition und ist im Alter häufig von Arthrose betroffen (Rhizarthrose).",
+   "entries": [
+    "os-trapezium",
+    "ossa-metacarpi",
+    "artt-manus"
+   ]
+  },
+  {
+   "id": "sk-341b60e9",
+   "group": "Knochen der Hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher ist der größte und zuerst verknöchernde Handwurzelknochen?",
+   "options": [
+    "Os scaphoideum",
+    "Os trapezium",
+    "Os capitatum",
+    "Os lunatum",
+    "Os hamatum"
+   ],
+   "answer": 2,
+   "explanation": "Das Os capitatum ist der größte Handwurzelknochen und verknöchert meist als erster im ersten Lebensjahr. Es artikuliert mit dem 3. Mittelhandknochen; die Bewegungsachse des Handgelenks verläuft meist durch seinen Kopf.",
+   "entries": [
+    "os-capitatum",
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-ac91683a",
+   "group": "Knochen der Hand",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein junger Mann hat gegen eine Wand geschlagen; der Knöchel seines Kleinfingers ist eingesunken. Welche Fraktur ist am wahrscheinlichsten?",
+   "options": [
+    "Fraktur des Hamulus ossis hamati",
+    "Fraktur des Halses des 5. Mittelhandknochens (Boxerfraktur)",
+    "Fraktur der Basis des 1. Mittelhandknochens (Bennett-Fraktur)",
+    "Fraktur der Endphalanx des 5. Fingers",
+    "Skaphoidfraktur"
+   ],
+   "answer": 1,
+   "explanation": "Beim Schlag mit geschlossener Faust gegen eine harte Fläche bricht meist der Hals des 5. Mittelhandknochens; der Kopf kippt nach palmar und der Knöchel verschwindet. Die Bennett-Fraktur ist eine intraartikuläre Fraktur der Basis des 1. Mittelhandknochens.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-31d8147a",
+   "group": "Knochen der Hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie lautet die Reihenfolge der proximalen Handwurzelreihe von radial nach ulnar?",
+   "options": [
+    "Scaphoideum, Lunatum, Triquetrum, Pisiforme",
+    "Scaphoideum, Triquetrum, Lunatum, Pisiforme",
+    "Trapezium, Trapezoideum, Capitatum, Hamatum",
+    "Lunatum, Scaphoideum, Triquetrum, Pisiforme",
+    "Pisiforme, Triquetrum, Lunatum, Scaphoideum"
+   ],
+   "answer": 0,
+   "explanation": "Proximale Reihe: Scaphoideum, Lunatum, Triquetrum, Pisiforme. Distale Reihe: Trapezium, Trapezoideum, Capitatum, Hamatum. Das Radiokarpalgelenk bilden Radius und Discus mit Scaphoideum, Lunatum und Triquetrum.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-9d63d002",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo vereinigen sich die drei Knochen, die das Os coxae bilden?",
+   "options": [
+    "An der Incisura ischiadica major",
+    "Im Acetabulum",
+    "An der Symphysis pubica",
+    "Am Foramen obturatum",
+    "An der Crista iliaca"
+   ],
+   "answer": 1,
+   "explanation": "Os ilium, Os ischii und Os pubis verschmelzen in der Pubertät in der Y-Fuge des Acetabulums. Etwa 2/5 des Acetabulums bildet das Ilium, 2/5 das Ischium und 1/5 das Pubis.",
+   "entries": [
+    "os-coxae",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-592e9cb4",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Strukturen ziehen durch den Canalis obturatorius?",
+   "options": [
+    "N., A. und V. obturatoria",
+    "N. pudendus und A. pudenda interna",
+    "N. ischiadicus und A. glutea inferior",
+    "N. und A. femoralis",
+    "N. cutaneus femoris lateralis"
+   ],
+   "answer": 0,
+   "explanation": "Das Foramen obturatum ist durch die Membrana obturatoria verschlossen; nur oben bleibt der Canalis obturatorius frei. Durch ihn ziehen N. obturatorius sowie A. und V. obturatoria in die mediale Oberschenkelloge.",
+   "entries": [
+    "os-coxae",
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "sk-ffa0581d",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Nerv verlässt das Becken durch das Foramen ischiadicum majus und tritt durch das Foramen ischiadicum minus in den Damm ein?",
+   "options": [
+    "N. ischiadicus",
+    "N. gluteus superior",
+    "N. pudendus",
+    "N. cutaneus femoris posterior",
+    "N. obturatorius"
+   ],
+   "answer": 2,
+   "explanation": "N. pudendus, A. pudenda interna und der Nerv des M. obturatorius internus treten durch das Foramen ischiadicum majus aus, umgehen Spina ischiadica/Lig. sacrospinale und gelangen durch das Foramen ischiadicum minus in die Fossa ischioanalis und den Alcock-Kanal. Bei der Pudendusblockade dient die Spina ischiadica als Leitstruktur.",
+   "entries": [
+    "os-coxae",
+    "n-pudendus",
+    "ligg-pelvis"
+   ]
+  },
+  {
+   "id": "sk-602b0bd7",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Eine 78-jährige Frau ist zu Hause gestürzt; ihr rechtes Bein ist verkürzt und außenrotiert. Das Röntgen zeigt eine subkapitale Schenkelhalsfraktur. Die Schädigung welcher Arterie ist vor allem für die Hüftkopfnekrose bei dieser Fraktur verantwortlich?",
+   "options": [
+    "A. circumflexa femoris lateralis",
+    "A. obturatoria",
+    "A. circumflexa femoris medialis",
+    "A. ligamenti capitis femoris",
+    "A. glutea superior"
+   ],
+   "answer": 2,
+   "explanation": "Der Hüftkopf wird hauptsächlich über die retinakulären Äste der A. circumflexa femoris medialis versorgt, die entlang des Halses aufsteigen. Bei der Fraktur reißen diese Gefäße. Die Arterie im Lig. capitis femoris (aus der A. obturatoria) reicht beim Erwachsenen nicht aus.",
+   "entries": [
+    "femur",
+    "art-coxae",
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "sk-b5309bbc",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt am Trochanter minor an?",
+   "options": [
+    "M. iliopsoas",
+    "M. gluteus medius",
+    "M. obturatorius externus",
+    "M. piriformis",
+    "M. quadratus femoris"
+   ],
+   "answer": 0,
+   "explanation": "Psoas major und Iliacus setzen mit gemeinsamer Sehne am Trochanter minor an und bilden den kräftigsten Hüftbeuger. Gluteus medius/minimus und Piriformis setzen am Trochanter major an, der Obturatorius externus in der Fossa trochanterica.",
+   "entries": [
+    "femur",
+    "m-iliopsoas"
+   ]
+  },
+  {
+   "id": "sk-c857e576",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Eine junge Frau berichtet, dass ihre Kniescheibe nach einer Drehung beim Volleyball nach außen gesprungen sei. Was ist die wichtigste dynamische Sicherung gegen die laterale Patellaluxation?",
+   "options": [
+    "M. vastus lateralis",
+    "Tractus iliotibialis",
+    "M. biceps femoris",
+    "Untere (schräge) Fasern des M. vastus medialis",
+    "M. rectus femoris"
+   ],
+   "answer": 3,
+   "explanation": "Der Winkel zwischen der Zuglinie des Quadrizeps und dem Lig. patellae (Q-Winkel) zieht die Patella tendenziell nach lateral. Die unteren, quer verlaufenden Fasern des Vastus medialis ziehen sie nach medial; der vorspringende laterale Femurkondylus bildet zusätzlich eine knöcherne Barriere.",
+   "entries": [
+    "patella",
+    "m-quadriceps-femoris",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "sk-f1c972ce",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Fußballer hat nach einem Tritt gegen die Außenseite des Unterschenkels eine Fibulahalsfraktur. Beim Gehen schleift die Fußspitze über den Boden, und am Fußrücken fehlt die Sensibilität. Welcher Nerv ist verletzt?",
+   "options": [
+    "N. saphenus",
+    "N. femoralis",
+    "N. suralis",
+    "N. tibialis",
+    "N. fibularis communis"
+   ],
+   "answer": 4,
+   "explanation": "Der N. fibularis communis umschlingt den Fibulahals oberflächlich von außen. Bei seiner Verletzung sind die Muskeln der vorderen und seitlichen Loge gelähmt: Fallfuß, Steppergang und Sensibilitätsverlust an Fußrücken und Unterschenkelaußenseite.",
+   "entries": [
+    "fibula",
+    "n-fibularis-communis"
+   ]
+  },
+  {
+   "id": "sk-11d29b23",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein 13-jähriger Fußballspieler hat eine schmerzhafte, tastbare Schwellung unterhalb des Knies. Welche Struktur ist beim Morbus Osgood-Schlatter betroffen?",
+   "options": [
+    "Epicondylus lateralis femoris",
+    "Malleolus medialis",
+    "Tuberositas tibiae",
+    "Tuberculum intercondylare",
+    "Caput fibulae"
+   ],
+   "answer": 2,
+   "explanation": "Der Morbus Osgood-Schlatter ist eine Apophysitis durch wiederholten Zug des Lig. patellae an der Apophyse der Tuberositas tibiae in der Phase schnellen Wachstums. Über diesen Vorsprung wird die Kraft der Kniestrecker auf die Tibia übertragen.",
+   "entries": [
+    "tibia",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-31f5e5f7",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage trifft auf den Malleolus lateralis zu?",
+   "options": [
+    "Er liegt höher als der Malleolus medialis.",
+    "Er artikuliert nicht mit dem Talus.",
+    "Er ist das distale Ende der Tibia.",
+    "In der Rinne hinter ihm verläuft die Sehne des M. tibialis posterior.",
+    "Er liegt tiefer und weiter hinten als der Malleolus medialis."
+   ],
+   "answer": 4,
+   "explanation": "Der Malleolus lateralis ist das untere Ende der Fibula und liegt etwa 1 cm tiefer und weiter hinten als der Innenknöchel. In der Rinne hinter ihm verlaufen die Sehnen der Mm. fibulares longus und brevis. Er artikuliert mit der Außenfläche des Talus und bildet den äußeren Schenkel der Malleolengabel.",
+   "entries": [
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-d87191b8",
+   "group": "Knochen des Fußes",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Fußwurzelknochen hat keine Muskelansätze?",
+   "options": [
+    "Os naviculare",
+    "Os cuneiforme mediale",
+    "Os cuboideum",
+    "Calcaneus",
+    "Talus"
+   ],
+   "answer": 4,
+   "explanation": "Die Oberfläche des Talus ist größtenteils mit Gelenkknorpel bedeckt, und kein Muskel setzt an ihm an. Da seine Blutversorgung begrenzt ist und von distal nach proximal verläuft, ist bei Halsfrakturen eine avaskuläre Nekrose des Körpers häufig.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-8922c8d5",
+   "group": "Knochen des Fußes",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Sehne verläuft in der Rinne an der Unterseite des Sustentaculum tali?",
+   "options": [
+    "M. tibialis posterior",
+    "M. tibialis anterior",
+    "M. flexor digitorum longus",
+    "M. flexor hallucis longus",
+    "M. fibularis longus"
+   ],
+   "answer": 3,
+   "explanation": "Der regalartige Vorsprung an der Innenseite des Calcaneus (Sustentaculum tali) stützt den Talus. An seiner Unterseite verläuft im Sulcus tendinis musculi flexoris hallucis longi die FHL-Sehne; die FDL-Sehne zieht nahe dem Innenrand des Vorsprungs.",
+   "entries": [
+    "calcaneus",
+    "m-flexor-hallucis-longus"
+   ]
+  },
+  {
+   "id": "sk-966623d2",
+   "group": "Knochen des Fußes",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt hauptsächlich an der Tuberositas ossis navicularis an?",
+   "options": [
+    "M. tibialis posterior",
+    "M. flexor digitorum longus",
+    "M. fibularis longus",
+    "M. extensor hallucis longus",
+    "M. tibialis anterior"
+   ],
+   "answer": 0,
+   "explanation": "Die Hauptsehne des M. tibialis posterior setzt an der Tuberositas ossis navicularis an, Ausläufer an weiteren Fußwurzel- und Mittelfußknochen. Er ist der kräftigste Supinator des Fußes und stützt das mediale Längsgewölbe; seine Insuffizienz ist eine häufige Ursache des erworbenen Plattfußes.",
+   "entries": [
+    "os-naviculare",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "sk-e633c622",
+   "group": "Knochen des Fußes",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Sehne verläuft in der Rinne an der Plantarfläche des Os cuboideum?",
+   "options": [
+    "M. fibularis longus",
+    "M. flexor hallucis longus",
+    "M. tibialis posterior",
+    "M. abductor digiti minimi",
+    "M. fibularis brevis"
+   ],
+   "answer": 0,
+   "explanation": "Die Sehne des M. fibularis longus kreuzt in der plantaren Rinne des Würfelbeins die Fußsohle und setzt am Os cuneiforme mediale und an der Basis des 1. Mittelfußknochens an; sie stützt das Quergewölbe und proniert den Fuß.",
+   "entries": [
+    "os-cuboideum",
+    "m-fibularis-longus"
+   ]
+  },
+  {
+   "id": "sk-e1c8c1c3",
+   "group": "Knochen des Fußes",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein Basketballspieler ist nach innen umgeknickt und hat Schmerzen am äußeren Fußrand; das Röntgen zeigt einen Abrissbruch an der Basis des 5. Mittelfußknochens. Welcher Muskel hat das Knochenstück abgerissen?",
+   "options": [
+    "M. fibularis tertius",
+    "M. tibialis anterior",
+    "M. abductor digiti minimi",
+    "M. fibularis longus",
+    "M. fibularis brevis"
+   ],
+   "answer": 4,
+   "explanation": "Der M. fibularis brevis setzt an der Tuberositas ossis metatarsi quinti an. Bei plötzlicher Supination reißt seine Kontraktion die Tuberositas ab (Avulsionsfraktur). Die weiter distal gelegene Fraktur am metaphysär-diaphysären Übergang (Jones-Fraktur) ist für Heilungsstörungen bekannt.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-afe30a76",
+   "group": "Knochen des Fußes",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Knochen liegt am höchsten Punkt des medialen Längsgewölbes und bildet dessen „Schlussstein“?",
+   "options": [
+    "Tuber calcanei",
+    "Os cuneiforme laterale",
+    "Taluskopf",
+    "Os cuboideum",
+    "Basis des 5. Mittelfußknochens"
+   ],
+   "answer": 2,
+   "explanation": "Das mediale Längsgewölbe bilden Calcaneus, Talus, Naviculare, die drei Keilbeine und die drei medialen Mittelfußknochen. Der Taluskopf sitzt als Schlussstein an der Spitze und wird unten vom Lig. calcaneonaviculare plantare (Pfannenband) gestützt. Schlussstein des lateralen Gewölbes ist das Würfelbein.",
+   "entries": [
+    "talus",
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "sk-8bab82f6",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Nerv zieht durch das Foramen ovale?",
+   "options": [
+    "N. facialis",
+    "N. mandibularis (V3)",
+    "N. hypoglossus",
+    "N. maxillaris (V2)",
+    "N. ophthalmicus (V1)"
+   ],
+   "answer": 1,
+   "explanation": "Durch das Foramen ovale in der Ala major des Os sphenoidale ziehen N. mandibularis, A. meningea accessoria und N. petrosus minor. Merkhilfe: V1 durch die Fissura orbitalis superior, V2 durch das Foramen rotundum, V3 durch das Foramen ovale.",
+   "notes": [
+    "Er tritt durch den Meatus acusticus internus ein.",
+    "",
+    "Er zieht durch den Canalis nervi hypoglossi.",
+    "Er zieht durch das Foramen rotundum.",
+    "Er zieht durch die Fissura orbitalis superior."
+   ],
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-5f0b04cc",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur zieht durch das Foramen spinosum?",
+   "options": [
+    "A. meningea media",
+    "A. carotis interna",
+    "V. jugularis interna",
+    "N. maxillaris",
+    "N. petrosus major"
+   ],
+   "answer": 0,
+   "explanation": "Das Foramen spinosum liegt hinter-seitlich des Foramen ovale in der Ala major; durch es ziehen die A. meningea media und der R. meningeus des N. mandibularis (N. spinosus). Der vordere Ast der Arterie verläuft an der Innenseite des Pterions und verursacht bei Frakturen ein Epiduralhämatom.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-3c70aa92",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche der folgenden Strukturen zieht NICHT durch das Foramen jugulare?",
+   "options": [
+    "N. hypoglossus",
+    "Sinus sigmoideus (V. jugularis interna)",
+    "N. vagus",
+    "N. accessorius",
+    "N. glossopharyngeus"
+   ],
+   "answer": 0,
+   "explanation": "Durch das Foramen jugulare ziehen die Hirnnerven IX, X und XI sowie Sinus sigmoideus und Sinus petrosus inferior. Der N. hypoglossus verlässt den Schädel durch den Canalis nervi hypoglossi oberhalb des Condylus occipitalis.",
+   "entries": [
+    "os-occipitale",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-cda51554",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Strukturen ziehen durch den Canalis opticus?",
+   "options": [
+    "N. oculomotorius und A. ophthalmica",
+    "N. opticus und V. ophthalmica superior",
+    "A. centralis retinae und N. trochlearis",
+    "N. opticus und A. ophthalmica",
+    "N. nasociliaris und N. opticus"
+   ],
+   "answer": 3,
+   "explanation": "Der Canalis opticus liegt zwischen den Wurzeln der Ala minor ossis sphenoidalis; durch ihn ziehen der N. opticus und darunter die A. ophthalmica. V. ophthalmica superior, III, IV, die V1-Äste und VI ziehen durch die Fissura orbitalis superior.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-711ff9cd",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Nerv tritt aus dem Foramen stylomastoideum aus?",
+   "options": [
+    "N. facialis",
+    "N. accessorius",
+    "N. vestibulocochlearis",
+    "Chorda tympani",
+    "N. glossopharyngeus"
+   ],
+   "answer": 0,
+   "explanation": "Der N. facialis tritt durch den Meatus acusticus internus ein, verläuft im Canalis facialis und verlässt den Schädel durch das Foramen stylomastoideum zwischen Processus styloideus und mastoideus; vor dem Eintritt in die Parotis verzweigt er sich zur mimischen Muskulatur. Bei der Bell-Lähmung wird ein Ödem in diesem engen Kanal angeschuldigt.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-c89d0b9d",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Zu welchem Knochen gehört die Lamina cribrosa, und was zieht durch sie?",
+   "options": [
+    "Os frontale – N. supraorbitalis",
+    "Os ethmoidale – N. maxillaris",
+    "Os nasale – N. ethmoidalis anterior",
+    "Os ethmoidale – Fila olfactoria (Riechfäden)",
+    "Os sphenoidale – N. opticus"
+   ],
+   "answer": 3,
+   "explanation": "Die siebartig durchlöcherte horizontale Platte des Siebbeins bildet das Dach der Nasenhöhle; durch sie ziehen die Fasern des N. olfactorius vom Riechepithel zum Bulbus olfactorius. Bei vorderen Schädelbasisfrakturen kommt es zu Anosmie und Liquorrhö.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-64b9533f",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo mündet der Sinus maxillaris in die Nasenhöhle?",
+   "options": [
+    "Meatus nasi medius (Hiatus semilunaris)",
+    "Recessus sphenoethmoidalis",
+    "Meatus nasi superior",
+    "Nasopharynx",
+    "Meatus nasi inferior"
+   ],
+   "answer": 0,
+   "explanation": "Stirn-, Kiefer- und vordere Siebbeinhöhlen münden in den mittleren Nasengang (Hiatus semilunaris). Der Ductus nasolacrimalis mündet in den unteren, die hinteren Siebbeinzellen in den oberen Nasengang und die Keilbeinhöhle in den Recessus sphenoethmoidalis. Da die Öffnung der Kieferhöhle hoch liegt, ist ihr Abfluss erschwert.",
+   "notes": [
+    "",
+    "Hier mündet die Keilbeinhöhle.",
+    "Hier münden die hinteren Siebbeinzellen.",
+    "Hier mündet die Tuba auditiva.",
+    "Hier mündet der Ductus nasolacrimalis."
+   ],
+   "entries": [
+    "maxilla",
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-114a7cc4",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wo mündet der Ductus nasolacrimalis in die Nasenhöhle?",
+   "options": [
+    "Meatus nasi superior",
+    "Hiatus semilunaris",
+    "Meatus nasi inferior",
+    "Recessus sphenoethmoidalis",
+    "Meatus nasi medius"
+   ],
+   "answer": 2,
+   "explanation": "Der vom Tränensack absteigende Gang verläuft in einem Knochenkanal aus Maxilla, Os lacrimale und Concha nasalis inferior und mündet unter der unteren Muschel; deshalb läuft beim Weinen die Nase.",
+   "entries": [
+    "concha-nasalis-inferior",
+    "os-lacrimale"
+   ]
+  },
+  {
+   "id": "sk-ba5a5737",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Zu welchem Knochen gehört die dünne Lamina papyracea der medialen Orbitawand?",
+   "options": [
+    "Os zygomaticum",
+    "Maxilla",
+    "Os ethmoidale",
+    "Os sphenoidale",
+    "Os lacrimale"
+   ],
+   "answer": 2,
+   "explanation": "Die papierdünne Lamina orbitalis an der Außenfläche des Siebbeinlabyrinths bildet den Großteil der medialen Orbitawand. Eine Ethmoiditis kann sich durch diese dünne Wand in die Orbita ausbreiten und eine Orbitaphlegmone verursachen.",
+   "entries": [
+    "os-ethmoidale"
+   ]
+  },
+  {
+   "id": "sk-7b06e8ab",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Zwischen welchen Knochen liegt die Sutura lambdoidea?",
+   "options": [
+    "Os occipitale und beide Ossa parietalia",
+    "Beide Ossa parietalia",
+    "Os frontale und beide Ossa parietalia",
+    "Os temporale und Os parietale",
+    "Os sphenoidale und Os frontale"
+   ],
+   "answer": 0,
+   "explanation": "Die Lambdanaht verläuft in Form des griechischen Buchstabens λ zwischen Hinterhauptsbein und Scheitelbeinen; ihr Treffpunkt mit der Pfeilnaht ist das Lambda, wo sich die kleine Fontanelle schließt. Die anderen Optionen sind Kranz-, Pfeil- und Schuppennaht.",
+   "notes": [
+    "",
+    "Das ist die Sutura sagittalis.",
+    "Das ist die Sutura coronalis.",
+    "Das ist die Sutura squamosa.",
+    "Das ist die Sutura sphenofrontalis."
+   ],
+   "entries": [
+    "os-occipitale",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-66a5569f",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Vorsprung vor dem Foramen mandibulae dient dem Lig. sphenomandibulare als Ansatz?",
+   "options": [
+    "Linea mylohyoidea",
+    "Lingula mandibulae",
+    "Processus coronoideus",
+    "Fovea pterygoidea",
+    "Spina mentalis"
+   ],
+   "answer": 1,
+   "explanation": "Die Lingula ist ein zungenförmiger Knochenvorsprung an der Innenfläche des Ramus, der das Foramen mandibulae von vorn überdeckt. Bei der Leitungsanästhesie des N. alveolaris inferior wird die Nadelspitze direkt oberhalb der Lingula platziert; der Nerv tritt hier in den Kanal ein.",
+   "entries": [
+    "mandibula"
+   ]
+  },
+  {
+   "id": "sk-e39de62d",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Muskeln setzen an der Spina mentalis der Mandibula an?",
+   "options": [
+    "M. genioglossus und M. geniohyoideus",
+    "M. mentalis und M. depressor labii inferioris",
+    "Platysma und M. depressor anguli oris",
+    "M. mylohyoideus und Venter anterior des M. digastricus",
+    "M. hyoglossus und M. genioglossus"
+   ],
+   "answer": 0,
+   "explanation": "An der Spina mentalis superior in der Mittellinie der Mandibulainnenfläche setzt der Genioglossus an, an der Spina mentalis inferior der Geniohyoideus. Der Mylohyoideus setzt an der Linea mylohyoidea, der vordere Digastricusbauch in der Fossa digastrica an.",
+   "entries": [
+    "mandibula",
+    "m-genioglossus",
+    "m-geniohyoideus"
+   ]
+  },
+  {
+   "id": "sk-4fa063c1",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Struktur bildet die Hinterwand der Sella turcica?",
+   "options": [
+    "Tuberculum sellae",
+    "Sulcus prechiasmaticus",
+    "Processus clinoideus anterior",
+    "Sulcus caroticus",
+    "Dorsum sellae"
+   ],
+   "answer": 4,
+   "explanation": "Vor der Sella turcica liegt das Tuberculum sellae, dahinter das Dorsum sellae; dessen obere Ecken bilden die Processus clinoidei posteriores. Der hinter dem Dorsum abfallende Hang ist der Clivus.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-a994d076",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Knochen bilden den Clivus?",
+   "options": [
+    "Die Alae majores des Os sphenoidale",
+    "Os ethmoidale und Os sphenoidale",
+    "Corpus ossis sphenoidalis und Pars basilaris ossis occipitalis",
+    "Nur das Os occipitale",
+    "Pars petrosa des Os temporale und Os occipitale"
+   ],
+   "answer": 2,
+   "explanation": "Der Clivus ist die schräge Fläche vom Dorsum sellae zum Foramen magnum; oben bildet ihn der Keilbeinkörper, unten die Pars basilaris des Hinterhauptsbeins. Auf ihm liegen Pons und A. basilaris; die Synchondrosis sphenooccipitalis dazwischen verknöchert in der Pubertät.",
+   "entries": [
+    "os-occipitale",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-244fa846",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Nerven ziehen durch den Meatus acusticus internus?",
+   "options": [
+    "N. vestibulocochlearis und N. vagus",
+    "N. trigeminus und N. facialis",
+    "N. facialis und N. vestibulocochlearis",
+    "N. facialis und N. glossopharyngeus",
+    "N. abducens und N. facialis"
+   ],
+   "answer": 2,
+   "explanation": "Durch den inneren Gehörgang in der Pars petrosa ziehen N. facialis (mit N. intermedius), N. vestibulocochlearis und A. labyrinthi. Ein Akustikusneurinom an dieser Stelle kann sowohl Hör- als auch Fazialissymptome verursachen.",
+   "entries": [
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "sk-fa671396",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Knochen bildet die mediale Wand der Fossa pterygopalatina?",
+   "options": [
+    "Processus pterygoideus des Os sphenoidale",
+    "Maxilla",
+    "Os palatinum (Lamina perpendicularis)",
+    "Vomer",
+    "Os zygomaticum"
+   ],
+   "answer": 2,
+   "explanation": "Die Flügelgaumengrube wird vorn vom Tuber maxillae, hinten vom Processus pterygoideus und medial von der Lamina perpendicularis des Os palatinum begrenzt. Das Foramen sphenopalatinum in der medialen Wand verbindet sie mit der Nasenhöhle; in ihr liegen das Ganglion pterygopalatinum und der Endabschnitt der A. maxillaris.",
+   "notes": [
+    "Er bildet die Hinterwand.",
+    "Sie bildet die Vorderwand.",
+    "",
+    "Er ist Teil des Nasenseptums.",
+    "Er grenzt nicht an die Grube."
+   ],
+   "entries": [
+    "os-palatinum",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-11e451f6",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Das Foramen transversarium ist typisch für welche Wirbel?",
+   "options": [
+    "Steißwirbel",
+    "Lendenwirbel",
+    "Kreuzwirbel",
+    "Brustwirbel",
+    "Halswirbel"
+   ],
+   "answer": 4,
+   "explanation": "Durch die Löcher in den Querfortsätzen der Halswirbel ziehen A. und V. vertebralis; die Arterie tritt meist bei C6 ein, durch das Loch von C7 zieht nur die Vene. Dieses Loch ist das zuverlässigste Merkmal, um Halswirbel von anderen zu unterscheiden.",
+   "entries": [
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-2f1cd430",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Merkmale unterscheiden die Lendenwirbel?",
+   "options": [
+    "Ein nach oben ragender zahnartiger Fortsatz",
+    "Herzförmiger Körper und Rippengelenkflächen",
+    "Großer nierenförmiger Körper, kräftiger rechteckiger Dornfortsatz und sagittal stehende Gelenkflächen",
+    "Ringform ohne Körper",
+    "Gegabelter Dornfortsatz und Foramen transversarium"
+   ],
+   "answer": 2,
+   "explanation": "Lendenwirbel haben als Lastträger die größten Körper; ihre Gelenkflächen stehen sagittal, erlauben Flexion–Extension und begrenzen die Rotation. Die anderen Optionen gehören zu Brustwirbeln, Halswirbeln, Atlas und Axis.",
+   "notes": [
+    "Das ist ein Merkmal des Axis.",
+    "Das ist ein Merkmal der Brustwirbel.",
+    "",
+    "Das ist ein Merkmal des Atlas.",
+    "Das ist ein Merkmal der Halswirbel."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-66abc394",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In welcher Höhe endet das Rückenmark beim Erwachsenen gewöhnlich?",
+   "options": [
+    "L1–L2",
+    "S2",
+    "L3–L4",
+    "T10",
+    "L5"
+   ],
+   "answer": 0,
+   "explanation": "Beim Erwachsenen endet der Conus medullaris in Höhe L1–L2, beim Neugeborenen in Höhe L3. Durasack und Subarachnoidalraum reichen bis S2; deshalb wird die Lumbalpunktion unterhalb des Rückenmarks auf Höhe der Cauda equina durchgeführt.",
+   "notes": [
+    "",
+    "Hier endet der Durasack.",
+    "Das ist die Höhe beim Neugeborenen.",
+    "Das Rückenmark reicht tiefer als diese Höhe.",
+    "Das Rückenmark reicht nicht bis hierher."
+   ],
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-22554f5b",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Höhe ist für die Lumbalpunktion sicher, und an welchem Orientierungspunkt findet man sie?",
+   "options": [
+    "Zwischenraum L1–L2; Spitzen der 12. Rippen",
+    "Zwischenraum S2–S3; Verbindungslinie der SIPS",
+    "Zwischenraum T12–L1; untere Schulterblattwinkel",
+    "Zwischenraum T10–T11; Nabelhöhe",
+    "Zwischenraum L3–L4 oder L4–L5; Verbindungslinie der höchsten Punkte beider Darmbeinkämme (L4)"
+   ],
+   "answer": 4,
+   "explanation": "Die Suprakristallinie (Tuffier-Linie) verläuft durch den Dornfortsatz von L4 bzw. den Zwischenraum L4–L5. Diese Höhe liegt unterhalb des Conus medullaris, sodass die Nadel die Wurzeln der Cauda equina beiseiteschiebt, wenn sie den Subarachnoidalraum erreicht.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-ffeae080",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wo liegt bei der Spondylolyse der knöcherne Defekt des Wirbels?",
+   "options": [
+    "Pedikel",
+    "Pars interarticularis",
+    "Vereinigungsstelle der Laminae in der Mittellinie",
+    "Vorderkante des Wirbelkörpers",
+    "Processus transversus"
+   ],
+   "answer": 1,
+   "explanation": "Die Spondylolyse ist eine Ermüdungsfraktur der Pars interarticularis zwischen oberem und unterem Gelenkfortsatz, am häufigsten bei L5. In der Schrägaufnahme zeigt sich das „Halsband des Hündchens“ (Scotty dog); beidseitig kann der Wirbel nach vorn gleiten (Spondylolisthesis). Die fehlende Vereinigung der Laminae ist die Spina bifida.",
+   "entries": [
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-8158d007",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Durch welchen Mechanismus entsteht die Jefferson-Fraktur mit Bruch des vorderen und hinteren Atlasbogens meist?",
+   "options": [
+    "Senkrechte Belastung auf den Scheitel (axiale Kompression)",
+    "Abriss des Dornfortsatzes C7 durch Muskelzug",
+    "Facettenluxation durch Rotation",
+    "Fraktur der Axispedikel durch Hyperextension",
+    "Densfraktur durch plötzliche Beugung"
+   ],
+   "answer": 0,
+   "explanation": "Bei axialer Stauchung, etwa beim Kopfsprung in flaches Wasser, treiben die Hinterhauptskondylen die Massae laterales des Atlas auseinander, und der Ring bricht an mehreren Stellen. Da sich der Spinalkanal erweitert, fehlen neurologische Schäden oft. Die anderen Optionen beschreiben Hangman-, Dens- und Schipperfraktur.",
+   "notes": [
+    "",
+    "Das beschreibt die Schipperfraktur (Clay-shoveler).",
+    "Das beschreibt eine Facettenluxation.",
+    "Das beschreibt die Hangman-Fraktur.",
+    "Das beschreibt eine Densfraktur."
+   ],
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-60976cab",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wie heißt die beidseitige Fraktur der Pars interarticularis (Pedikel) des Axis?",
+   "options": [
+    "Densfraktur Typ II",
+    "Hangman-Fraktur",
+    "Jefferson-Fraktur",
+    "Schipperfraktur",
+    "Chance-Fraktur"
+   ],
+   "answer": 1,
+   "explanation": "Bei Hyperextension und Distraktion brechen die Pedikel von C2; Erhängen oder Aufprall des Kinns aufs Armaturenbrett ohne Gurt sind typische Mechanismen. Die Chance-Fraktur ist eine gurtbedingte thorakolumbale Flexions-Distraktions-Fraktur.",
+   "entries": [
+    "axis"
+   ]
+  },
+  {
+   "id": "sk-4cebc960",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Strukturen treten aus den Foramina sacralia anteriora aus?",
+   "options": [
+    "A. sacralis mediana",
+    "Rr. posteriores der Sakralnerven",
+    "Rr. anteriores der Sakralnerven",
+    "Filum terminale",
+    "Truncus sympathicus"
+   ],
+   "answer": 2,
+   "explanation": "Aus den vier Lochpaaren an der vorderen (pelvinen) Kreuzbeinfläche treten die Rr. anteriores von S1–S4 aus und bilden den Plexus sacralis; die Rr. posteriores treten durch die Foramina sacralia posteriora aus. Das Filum terminale tritt durch den Hiatus sacralis aus.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-a851a348",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Vorsprünge begrenzen den Hiatus sacralis beidseits?",
+   "options": [
+    "Crista sacralis lateralis",
+    "Ala ossis sacri",
+    "Cornua coccygea",
+    "Promontorium",
+    "Cornua sacralia"
+   ],
+   "answer": 4,
+   "explanation": "Da die Laminae von S5 nicht verschmelzen, öffnet sich der Kreuzbeinkanal unten als Hiatus sacralis; die beidseitigen Cornua sacralia sind tastbar und helfen bei der kaudalen Epiduralanästhesie, die Nadelposition zu finden.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-dbfed2d8",
+   "group": "Brustkorb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Rippen sind atypisch?",
+   "options": [
+    "8., 9. und 10. Rippe",
+    "1., 2., 10., 11. und 12. Rippe",
+    "Nur die 1., 2. und 12. Rippe",
+    "1.–7. Rippe",
+    "1., 11. und 12. Rippe"
+   ],
+   "answer": 1,
+   "explanation": "Eine typische Rippe hat Kopf (mit zwei Gelenkflächen), Hals, Höcker und Körper. Die 1. Rippe ist die kürzeste, breiteste und am stärksten gekrümmte; die 2. hat die Tuberositas musculi serrati anterioris; die Köpfe der 10.–12. Rippe haben nur eine Gelenkfläche, und die 11. und 12. haben weder Hals noch Höcker.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-f4babc11",
+   "group": "Brustkorb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur verläuft an der ersten Rippe in der Rinne vor dem Skalenushöcker?",
+   "options": [
+    "V. subclavia",
+    "A. subclavia",
+    "Ductus thoracicus",
+    "Unterer Primärstrang des Plexus brachialis",
+    "N. phrenicus"
+   ],
+   "answer": 0,
+   "explanation": "Der am Skalenushöcker ansetzende M. scalenus anterior trennt die V. subclavia (vorn) von A. subclavia und unterem Primärstrang des Plexus brachialis (hinten). Deshalb bleibt die Nadel bei der Subklaviapunktion vor dem Muskel.",
+   "notes": [
+    "",
+    "Sie verläuft in der Rinne hinter dem Höcker.",
+    "Er mündet in den linken Venenwinkel; er verläuft nicht auf der Rippe.",
+    "Er zieht mit der Arterie hinter dem Höcker.",
+    "Er zieht auf der Vorderfläche des Scalenus anterior abwärts; nicht in der Rinne."
+   ],
+   "entries": [
+    "costae",
+    "m-scalenus-anterior"
+   ]
+  },
+  {
+   "id": "sk-f743fb58",
+   "group": "Brustkorb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was bezeichnet die „Pumpenschwengel“-Bewegung bei der Atmung?",
+   "options": [
+    "Das Senken des Sternums",
+    "Das Heben der oberen Rippen und des Sternums mit Zunahme des sagittalen Thoraxdurchmessers",
+    "Das seitliche Ausschwenken der unteren Rippen mit Zunahme des queren Durchmessers",
+    "Das Senken des Zwerchfells mit Zunahme des vertikalen Durchmessers",
+    "Die Einwärtsdrehung der Rippen um die Wirbelsäule"
+   ],
+   "answer": 1,
+   "explanation": "Bei der Einatmung schieben die oberen Rippen das Sternum nach vorn oben und vergrößern den sagittalen Durchmesser (Pumpenschwengel); die unteren Rippen schwenken seitlich aus und vergrößern den queren Durchmesser (Eimerhenkel). Den vertikalen Durchmesser vergrößert die Zwerchfellkontraktion.",
+   "notes": [
+    "Das geschieht bei der Ausatmung.",
+    "",
+    "Das ist die Eimerhenkelbewegung.",
+    "Das ist die Zwerchfellkontraktion.",
+    "Eine solche Bewegung gibt es nicht."
+   ],
+   "entries": [
+    "costae",
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-b83efed6",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur zieht über das Lig. transversum scapulae superius hinweg?",
+   "options": [
+    "A. suprascapularis",
+    "Tiefer Ast der A. transversa colli",
+    "N. axillaris",
+    "N. suprascapularis",
+    "N. dorsalis scapulae"
+   ],
+   "answer": 0,
+   "explanation": "Unter dem Band über der Incisura scapulae zieht der N. suprascapularis, darüber die A. suprascapularis („die Armee geht über die Brücke, die Marine darunter“). Wird der Nerv in der Incisura eingeengt, werden Supra- und Infraspinatus schwach.",
+   "entries": [
+    "scapula",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "sk-df043af5",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Worin unterscheiden sich Collum anatomicum und Collum chirurgicum des Humerus?",
+   "options": [
+    "Das Collum chirurgicum ist die Radialisrinne",
+    "Beide sind derselbe Ort mit verschiedenen Namen",
+    "Das Collum anatomicum liegt am unteren Humerusende",
+    "Das Collum anatomicum ist die Einschnürung direkt unter dem Gelenkkopf, das Collum chirurgicum die frakturgefährdete Zone unter den Tubercula",
+    "Das Collum chirurgicum liegt direkt unter dem Gelenkkopf, das Collum anatomicum unter den Tubercula"
+   ],
+   "answer": 3,
+   "explanation": "Das Collum anatomicum ist die flache Rinne zwischen Gelenkkopf und Tubercula, an der die Gelenkkapsel ansetzt. Das Collum chirurgicum ist die Einschnürung unterhalb der Tubercula; es bricht bei Älteren häufig, und N. axillaris sowie A. circumflexa humeri posterior sind dort gefährdet.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-d05233d9",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Strukturen verlaufen im Sulcus nervi radialis des Humerus?",
+   "options": [
+    "N. axillaris und A. circumflexa humeri posterior",
+    "N. ulnaris und A. collateralis ulnaris superior",
+    "N. radialis und A. profunda brachii",
+    "N. medianus und A. brachialis",
+    "N. musculocutaneus und A. brachialis"
+   ],
+   "answer": 2,
+   "explanation": "Die Radialisrinne verläuft spiralförmig über die Rückseite des Humerusschafts zwischen den Ursprüngen von lateralem und medialem Trizepskopf. Bei Schaftmittenfrakturen wird der N. radialis verletzt und es entsteht eine Fallhand; die Ellenbogenstreckung bleibt meist erhalten, weil die Trizepsäste weiter oben abgehen.",
+   "entries": [
+    "humerus",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-338897fa",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt am Olecranon an?",
+   "options": [
+    "M. pronator quadratus",
+    "M. triceps brachii",
+    "M. biceps brachii",
+    "M. brachialis",
+    "M. flexor carpi radialis"
+   ],
+   "answer": 1,
+   "explanation": "Die drei Trizepsköpfe setzen mit gemeinsamer Sehne an der oberen Rückfläche des Olecranons an und strecken den Ellenbogen. Der Brachialis setzt an der Tuberositas ulnae, der Bizeps an der Tuberositas radii an.",
+   "entries": [
+    "ulna",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-2525d8eb",
+   "group": "Knochen der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Mit welcher Gelenkfläche der Ulna artikuliert das Radiusköpfchen proximal?",
+   "options": [
+    "Incisura trochlearis",
+    "Fovea articularis capitis radii",
+    "Capitulum humeri",
+    "Incisura ulnaris radii",
+    "Incisura radialis ulnae"
+   ],
+   "answer": 4,
+   "explanation": "Die Circumferentia articularis des Radiusköpfchens bildet mit der Incisura radialis ulnae und dem Lig. anulare das proximale Radioulnargelenk. Die Incisura trochlearis artikuliert mit der Trochlea humeri, die Incisura ulnaris radii distal mit dem Ulnakopf.",
+   "entries": [
+    "ulna",
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-64db8f92",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Einkerbung am distalen Radiusende artikuliert mit dem Ulnakopf?",
+   "options": [
+    "Tuberculum dorsale (Lister)",
+    "Processus styloideus radii",
+    "Facies articularis carpalis",
+    "Incisura radialis ulnae",
+    "Incisura ulnaris radii"
+   ],
+   "answer": 4,
+   "explanation": "Im distalen Radioulnargelenk sitzt der Ulnakopf in der Incisura ulnaris radii; bei Pronation und Supination dreht sich der Radius um diesen feststehenden Ulnakopf. Das Gelenk wird vom triangulären fibrokartilaginären Komplex (TFCC) stabilisiert.",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-814e4ce2",
+   "group": "Knochen der Hand",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wie lautet die Reihenfolge der distalen Handwurzelreihe von radial nach ulnar?",
+   "options": [
+    "Scaphoideum, Lunatum, Triquetrum, Pisiforme",
+    "Trapezium, Capitatum, Trapezoideum, Hamatum",
+    "Trapezium, Trapezoideum, Capitatum, Hamatum",
+    "Trapezoideum, Trapezium, Capitatum, Hamatum",
+    "Hamatum, Capitatum, Trapezoideum, Trapezium"
+   ],
+   "answer": 2,
+   "explanation": "Die distale Reihe besteht von lateral nach medial aus Trapezium (Daumenseite), Trapezoideum, Capitatum (dem größten) und Hamatum. Die proximale Reihe aus Scaphoideum, Lunatum, Triquetrum und Pisiforme.",
+   "entries": [
+    "ossa-carpi",
+    "os-trapezium",
+    "os-capitatum",
+    "os-hamatum"
+   ]
+  },
+  {
+   "id": "sk-592c5eaa",
+   "group": "Knochen der Hand",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Der Morbus Kienböck ist eine avaskuläre Nekrose welches Knochens?",
+   "options": [
+    "Os capitatum",
+    "Femurkopf",
+    "Os lunatum",
+    "Os scaphoideum",
+    "Os naviculare (Fuß)"
+   ],
+   "answer": 2,
+   "explanation": "Der Morbus Kienböck ist die avaskuläre Nekrose des Lunatum; eine Ulna-Minus-Variante (kurze Ulna) ist ein Risikofaktor. Die idiopathische Nekrose des Scaphoids ist der Morbus Preiser, die des Femurkopfes der Morbus Perthes und die des Os naviculare pedis der Morbus Köhler I.",
+   "notes": [
+    "Er hat keine eigene, nach jemandem benannte Nekrose.",
+    "Hier tritt der Morbus Perthes auf.",
+    "",
+    "Hier tritt der Morbus Preiser auf.",
+    "Hier tritt der Morbus Köhler auf."
+   ],
+   "entries": [
+    "os-lunatum"
+   ]
+  },
+  {
+   "id": "sk-dbb3bf24",
+   "group": "Knochen der Hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Strukturen setzen am Hamulus ossis hamati an?",
+   "options": [
+    "Caput obliquum des M. adductor pollicis",
+    "Sehne des M. flexor carpi radialis",
+    "M. abductor pollicis brevis und M. opponens pollicis",
+    "Retinaculum flexorum sowie von den Hypothenarmuskeln Flexor und Opponens digiti minimi",
+    "Retinaculum extensorum und M. extensor carpi ulnaris"
+   ],
+   "answer": 3,
+   "explanation": "Der Haken des Hakenbeins ist der untere mediale Ansatzpunkt des Retinaculum flexorum; auch Flexor digiti minimi brevis und Opponens digiti minimi entspringen hier. Der Hamulus begrenzt die Loge de Guyon lateral; er kann beim Golf und Baseball brechen und den tiefen Ulnarisast schädigen.",
+   "entries": [
+    "os-hamatum",
+    "mm-hypothenares"
+   ]
+  },
+  {
+   "id": "sk-d7b7ddde",
+   "group": "Knochen der Hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Mittelhandknochen ist der kürzeste und beweglichste?",
+   "options": [
+    "4. Mittelhandknochen",
+    "2. Mittelhandknochen",
+    "3. Mittelhandknochen",
+    "5. Mittelhandknochen",
+    "1. Mittelhandknochen"
+   ],
+   "answer": 4,
+   "explanation": "Der Daumenmittelhandknochen bildet mit dem Trapezium ein Sattelgelenk und ermöglicht die Opposition. Der 2. und 3. Mittelhandknochen sind am wenigsten beweglich („feste Einheit“ der Hand); die Basis des 3. trägt einen Processus styloideus.",
+   "entries": [
+    "ossa-metacarpi"
+   ]
+  },
+  {
+   "id": "sk-a9ffa742",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Strukturen setzen an der Spina iliaca anterior superior (SIAS) an?",
+   "options": [
+    "M. sartorius, M. tensor fasciae latae und Leistenband",
+    "Caput rectum des M. rectus femoris und Lig. iliofemorale",
+    "M. obliquus internus und Lig. lacunare",
+    "M. gracilis und M. adductor longus",
+    "M. iliacus und M. psoas minor"
+   ],
+   "answer": 0,
+   "explanation": "Von der SIAS entspringen Sartorius und TFL, und das Leistenband zieht von hier zum Tuberculum pubicum. An der SIAI setzen das Caput rectum des Rectus femoris und das Lig. iliofemorale an. Bei jugendlichen Sportlern kann der Sartorius die SIAS, der Rectus femoris die SIAI ausreißen.",
+   "notes": [
+    "",
+    "Diese setzen an der SIAI an.",
+    "Das Lig. lacunare zieht zum Schambein.",
+    "Sie entspringen am Schambein.",
+    "Das sind Strukturen der Fossa iliaca und des Psoas."
+   ],
+   "entries": [
+    "os-coxae",
+    "m-sartorius",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "sk-c9a721e5",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher der folgenden Muskeln entspringt NICHT am Tuber ischiadicum?",
+   "options": [
+    "M. semitendinosus",
+    "Caput longum des M. biceps femoris",
+    "Ischiokruraler Teil des M. adductor magnus",
+    "M. semimembranosus",
+    "Caput breve des M. biceps femoris"
+   ],
+   "answer": 4,
+   "explanation": "Das Caput breve entspringt am Labium laterale der Linea aspera und überspannt nur das Knie. Der Sitzbeinhöcker ist der „Sitzknochen“; von ihm entspringen die ischiokruralen Muskeln und die senkrechten Fasern des Adductor magnus, und das Lig. sacrotuberale setzt hier an.",
+   "entries": [
+    "os-coxae",
+    "mm-ischiocrurales",
+    "m-biceps-femoris"
+   ]
+  },
+  {
+   "id": "sk-5fd892d5",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Arterie ist beim Erwachsenen die Hauptversorgung des Femurkopfes?",
+   "options": [
+    "Die Arterie im Lig. capitis femoris",
+    "A. circumflexa femoris medialis",
+    "A. circumflexa femoris lateralis",
+    "A. glutea superior",
+    "Rr. perforantes der A. profunda femoris"
+   ],
+   "answer": 1,
+   "explanation": "Beim Erwachsenen wird der Hüftkopf überwiegend durch die retinakulären Äste der A. circumflexa femoris medialis versorgt, die am Schenkelhals aufsteigen. Bei intrakapsulären (subkapitalen) Frakturen reißen diese Äste, und es kann eine avaskuläre Nekrose entstehen; die Arterie des Lig. capitis femoris trägt beim Erwachsenen kaum bei.",
+   "entries": [
+    "femur",
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "sk-3ce542da",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie groß ist der Schenkelhals-Schaft-Winkel (CCD-Winkel) des Femurs beim Erwachsenen ungefähr?",
+   "options": [
+    "150°",
+    "90°",
+    "105°",
+    "170°",
+    "125°"
+   ],
+   "answer": 4,
+   "explanation": "Der CCD-Winkel beträgt bei der Geburt etwa 150° und nimmt beim Erwachsenen auf rund 125° ab. Eine deutliche Vergrößerung heißt Coxa valga, eine Verkleinerung Coxa vara; bei Frauen ist er wegen des breiteren Beckens etwas kleiner.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-2bd1341c",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher der folgenden Muskeln entspringt NICHT an der Linea aspera?",
+   "options": [
+    "Caput breve des M. biceps femoris",
+    "M. vastus medialis",
+    "M. vastus intermedius",
+    "M. vastus lateralis",
+    "M. adductor magnus"
+   ],
+   "answer": 2,
+   "explanation": "Der Vastus intermedius entspringt an Vorder- und Außenfläche des Femurschafts. Vom Labium laterale der Linea aspera entspringen Vastus lateralis und Caput breve des Biceps femoris, vom Labium mediale der Vastus medialis; die Adduktoren setzen an der Linea aspera an.",
+   "entries": [
+    "femur",
+    "m-vastus-intermedius"
+   ]
+  },
+  {
+   "id": "sk-438ad979",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Struktur setzt am Gerdy-Höcker an?",
+   "options": [
+    "Tractus iliotibialis",
+    "Pes anserinus",
+    "Lig. collaterale fibulare",
+    "M. popliteus",
+    "Lig. patellae"
+   ],
+   "answer": 0,
+   "explanation": "Der Gerdy-Höcker liegt an der vorderen Außenfläche des lateralen Tibiakondylus; hier setzt der Tractus iliotibialis an. Das Lig. patellae setzt an der Tuberositas tibiae, der Pes anserinus an der oberen Innenfläche der Tibia und das Außenband am Fibulakopf an.",
+   "entries": [
+    "tibia",
+    "tractus-iliotibialis"
+   ]
+  },
+  {
+   "id": "sk-eede538b",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Strukturen setzen am Caput fibulae an?",
+   "options": [
+    "Lig. patellae",
+    "M. popliteus und Außenmeniskus",
+    "Pes anserinus und Lig. collaterale tibiale",
+    "Tractus iliotibialis und M. tensor fasciae latae",
+    "Die Sehne des M. biceps femoris und das Lig. collaterale fibulare"
+   ],
+   "answer": 4,
+   "explanation": "Am Fibulakopf setzen die Bizeps-femoris-Sehne und das Außenband an; der N. fibularis communis umschlingt direkt darunter den Fibulahals und zieht nach vorn. Deshalb kann bei Fibulahalsfrakturen ein Fallfuß entstehen.",
+   "entries": [
+    "fibula",
+    "m-biceps-femoris",
+    "ligg-collateralia-genus"
+   ]
+  },
+  {
+   "id": "sk-7f55ff47",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage über die Patella ist richtig?",
+   "options": [
+    "Sie ist bei der Geburt vollständig verknöchert",
+    "Sie liegt außerhalb der Kniegelenkhöhle",
+    "Sie ist das größte Sesambein des Körpers und entsteht in der Quadrizepssehne",
+    "An ihrer Rückfläche ist die mediale Facette größer als die laterale",
+    "Sie setzt über das Lig. patellae am medialen Tibiakondylus an"
+   ],
+   "answer": 2,
+   "explanation": "Die Patella verlängert den Hebelarm des Quadrizeps und erhöht die Streckkraft. An ihrer Rückfläche ist die laterale Facette breiter; über das Lig. patellae ist sie mit der Tuberositas tibiae verbunden, und ihre Rückfläche zeigt in die Gelenkhöhle. Sie beginnt zwischen dem 3. und 6. Lebensjahr zu verknöchern.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-048b1450",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Worauf weist eine Segond-Fraktur hin?",
+   "options": [
+    "Ausriss am Rand des lateralen Tibiaplateaus; sie begleitet einen Riss des vorderen Kreuzbands",
+    "Verkalkung am femoralen Ansatz des Innenbands",
+    "Fibulakopffraktur bei Riss des hinteren Kreuzbands",
+    "Osteochondrale Fraktur bei lateraler Patellaluxation",
+    "Ablösung der Tuberositas tibiae durch Apophysitis"
+   ],
+   "answer": 0,
+   "explanation": "Die Segond-Fraktur ist ein kleines Knochenstück, das bei Innenrotation und Varusstress des Knies von der anterolateralen Kapsel bzw. dem anterolateralen Band aus dem lateralen Tibiaplateau gerissen wird; trotz geringer Größe im Röntgenbild weist sie mit hoher Wahrscheinlichkeit auf einen VKB-Riss hin. Die Innenbandverkalkung ist der Stieda-Pellegrini-Schatten, die Apophysitis der Tuberositas der Morbus Osgood-Schlatter.",
+   "entries": [
+    "tibia",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "sk-ff3caabb",
+   "group": "Knochen des Fußes",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Teil des Talus ist am oberen Sprunggelenk beteiligt?",
+   "options": [
+    "Trochlea tali",
+    "Sulcus tali",
+    "Caput tali",
+    "Processus posterior tali",
+    "Facies articularis calcanea anterior"
+   ],
+   "answer": 0,
+   "explanation": "Die Trochlea tali sitzt in der Malleolengabel aus Tibiaunterfläche und beiden Knöcheln. Da die Talusrolle vorn breiter ist, ist das Gelenk in Dorsalextension am stabilsten. Der Taluskopf artikuliert mit dem Os naviculare.",
+   "entries": [
+    "talus",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "sk-e6838352",
+   "group": "Knochen des Fußes",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches akzessorische Knöchelchen entsteht, wenn der laterale Höcker des Processus posterior tali getrennt bleibt?",
+   "options": [
+    "Os vesalianum",
+    "Os naviculare accessorium",
+    "Os trigonum",
+    "Os intermetatarseum",
+    "Os peroneum"
+   ],
+   "answer": 2,
+   "explanation": "Das Os trigonum entsteht durch ausbleibende Verschmelzung des lateralen Höckers des Processus posterior tali; bei Balletttänzern und Fußballern kann es bei forcierter Plantarflexion ein hinteres Impingement des Sprunggelenks verursachen.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-fad5735d",
+   "group": "Knochen des Fußes",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Der Sinus tarsi ist der Raum zwischen welchen zwei Knochen?",
+   "options": [
+    "Os naviculare und Os cuneiforme",
+    "Talus und Calcaneus",
+    "Calcaneus und Os cuboideum",
+    "Tibia und Fibula",
+    "Talus und Os naviculare"
+   ],
+   "answer": 1,
+   "explanation": "Der Sinus tarsi ist ein nach lateral offener Kanal aus dem Sulcus tali unter dem Talushals und dem Sulcus calcanei auf der Oberseite des Fersenbeins; in ihm liegt das kräftige Lig. talocalcaneum interosseum, und vor ihm entspringt der M. extensor digitorum brevis.",
+   "entries": [
+    "talus",
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-216c2bbd",
+   "group": "Knochen des Fußes",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Knochen bilden das laterale Längsgewölbe des Fußes?",
+   "options": [
+    "Calcaneus, Os naviculare und 1. Mittelfußknochen",
+    "Calcaneus, Talus, Naviculare, Keilbeine und 1.–3. Mittelfußknochen",
+    "Die Keilbeine und die Mittelfußbasen",
+    "Calcaneus, Os cuboideum und 4.–5. Mittelfußknochen",
+    "Talus, Os cuboideum und 5. Mittelfußknochen"
+   ],
+   "answer": 3,
+   "explanation": "Das laterale Gewölbe ist flach und bodennah; es ist für die Lastaufnahme wichtig, sein Schlussstein ist das Würfelbein. Das mediale Gewölbe ist höher und besteht aus Calcaneus, Talus, Naviculare, den drei Keilbeinen und den Mittelfußknochen 1–3.",
+   "notes": [
+    "Das ist eine gemischte Reihe.",
+    "Das beschreibt das mediale Längsgewölbe.",
+    "Das beschreibt das Quergewölbe.",
+    "",
+    "Der Talus gehört nicht zum lateralen Gewölbe."
+   ],
+   "entries": [
+    "os-cuboideum",
+    "calcaneus",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-d2649154",
+   "group": "Knochen des Fußes",
+   "level": "tus",
+   "clinical": true,
+   "stem": "In den ersten Wochen der Grundausbildung entwickelt ein junger Rekrut nach langen Märschen Vorfußschmerzen; das Röntgen zeigt eine Ermüdungsfraktur des Schafts des 2. Mittelfußknochens. Wie wird diese Fraktur üblicherweise genannt?",
+   "options": [
+    "Lisfranc-Verletzung",
+    "Pott-Fraktur",
+    "Chopart-Luxation",
+    "Marschfraktur",
+    "Jones-Fraktur"
+   ],
+   "answer": 3,
+   "explanation": "Wiederholte Belastung verursacht eine Ermüdungsfraktur des 2. Mittelfußknochens, des dünnsten und längsten; die ersten Röntgenbilder können unauffällig sein, Kallus wird nach einigen Wochen sichtbar. Die Jones-Fraktur liegt am metaphysär-diaphysären Übergang des 5. Mittelfußknochens.",
+   "entries": [
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "sk-1c850577",
+   "group": "Knochen des Fußes",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage zur Jones-Fraktur ist richtig?",
+   "options": [
+    "Sie ist eine Talushalsfraktur",
+    "Sie tritt am Kopf des 1. Mittelfußknochens auf",
+    "Sie ist ein Ausriss der Tuberositas des 5. Mittelfußknochens durch den Fibularis brevis",
+    "Sie liegt am metaphysär-diaphysären Übergang des 5. Mittelfußknochens und hat ein hohes Pseudarthroserisiko",
+    "Sie ist eine Ermüdungsfraktur des Calcaneus"
+   ],
+   "answer": 3,
+   "explanation": "Die Jones-Fraktur liegt 1,5–3 cm distal der Tuberositas in einer schlecht durchbluteten „Wasserscheiden“-Zone; Pseudarthrosen sind häufig, eine Operation kann nötig sein. Der Ausriss der Tuberositas (Pseudo-Jones) entsteht durch den Zug des Fibularis brevis bei Supination und heilt meist gut.",
+   "entries": [
+    "ossa-metatarsi",
+    "m-fibularis-brevis"
+   ]
+  },
+  {
+   "id": "sk-251ed70f",
+   "group": "Knochen des Fußes",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Sehne setzt am Tuber calcanei an?",
+   "options": [
+    "Tendo calcaneus (Achillessehne)",
+    "Sehne des M. tibialis anterior",
+    "Sehne des M. flexor hallucis longus",
+    "Sehne des M. fibularis brevis",
+    "Sehne des M. tibialis posterior"
+   ],
+   "answer": 0,
+   "explanation": "Die Achillessehne, die gemeinsame Sehne von Gastrocnemius und Soleus, setzt am mittleren Teil der Fersenrückfläche an; sie ist die dickste und stärkste Sehne des Körpers. Die Zone 2–6 cm oberhalb des Ansatzes ist am schlechtesten durchblutet und Ort der häufigsten Rupturen.",
+   "entries": [
+    "calcaneus",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "sk-f0c708e7",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Aus wie vielen Knochen besteht das Skelett des Erwachsenen ungefähr?",
+   "options": [
+    "186",
+    "256",
+    "226",
+    "206",
+    "300"
+   ],
+   "answer": 3,
+   "explanation": "Das Skelett des Erwachsenen hat etwa 206 Knochen: 80 im Achsenskelett und 126 im Extremitätenskelett. Beim Neugeborenen sind es etwa 270–300, weil viele Teile noch nicht verschmolzen sind.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-93d7b509",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher ist der längste und stärkste Knochen des Körpers?",
+   "options": [
+    "Humerus",
+    "Fibula",
+    "Tibia",
+    "Femur",
+    "Hüftbein"
+   ],
+   "answer": 3,
+   "explanation": "Der Femur (Oberschenkelknochen) ist der längste, schwerste und stärkste Knochen des Körpers; er macht etwa ein Viertel der Körpergröße aus.",
+   "entries": [
+    "femur"
+   ]
+  },
+  {
+   "id": "sk-a3b15dfd",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher ist der kleinste Knochen des Körpers?",
+   "options": [
+    "Tränenbein",
+    "Malleus (Hammer)",
+    "Erbsenbein",
+    "Stapes (Steigbügel)",
+    "Incus (Amboss)"
+   ],
+   "answer": 3,
+   "explanation": "Von den drei Gehörknöchelchen des Mittelohrs ist der Steigbügel der kleinste Knochen des Körpers; seine Fußplatte sitzt im ovalen Fenster.",
+   "entries": [
+    "ossicula-auditus"
+   ]
+  },
+  {
+   "id": "sk-59a23a69",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche gefäß- und nervenreiche Haut überzieht die Außenfläche des Knochens?",
+   "options": [
+    "Perichondrium",
+    "Faszie",
+    "Endost",
+    "Periost",
+    "Synovialmembran"
+   ],
+   "answer": 3,
+   "explanation": "Das Periost überzieht die Knochenoberfläche; die Zellen seiner inneren Schicht ermöglichen Dickenwachstum und Frakturheilung. Gelenkflächen haben kein Periost, sondern hyalinen Knorpel. Das Endost kleidet die Markhöhle aus.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-4df6a75a",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie heißt der Schaft eines Röhrenknochens?",
+   "options": [
+    "Epiphysenfuge",
+    "Diaphyse",
+    "Epiphyse",
+    "Apophyse",
+    "Metaphyse"
+   ],
+   "answer": 1,
+   "explanation": "Der Schaft eines Röhrenknochens ist die Diaphyse, die Enden sind die Epiphysen und die Wachstumszone dazwischen die Metaphyse. Im Schaft liegt die Markhöhle mit dem Knochenmark.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-45e4abe2",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Zelle baut Knochen ab (resorbiert ihn)?",
+   "options": [
+    "Fibroblast",
+    "Osteozyt",
+    "Osteoklast",
+    "Chondrozyt",
+    "Osteoblast"
+   ],
+   "answer": 2,
+   "explanation": "Osteoklasten sind mehrkernige Zellen monozytären Ursprungs, die Knochengewebe abbauen. Osteoblasten bilden neuen Knochen, Osteozyten sind reife, eingemauerte Knochenzellen.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-900539f3",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchem Gewebe werden Blutzellen gebildet?",
+   "options": [
+    "Periost",
+    "Kompakta",
+    "Gelenkknorpel",
+    "Rotes Knochenmark",
+    "Gelbes Knochenmark"
+   ],
+   "answer": 3,
+   "explanation": "Die Blutbildung erfolgt im roten Knochenmark. Beim Erwachsenen liegt es vor allem in den platten Knochen (Sternum, Rippen, Hüftbein, Wirbel); das Mark der Röhrenknochenschäfte wird zu fettreichem gelbem Mark.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-6f3cbcfe",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wo wachsen Röhrenknochen in die Länge?",
+   "options": [
+    "Im Gelenkknorpel",
+    "Im Endost",
+    "Im Periost",
+    "In der Schaftmitte",
+    "In der Epiphysenfuge (Wachstumsfuge)"
+   ],
+   "answer": 4,
+   "explanation": "Das Längenwachstum erfolgt in der Epiphysenfuge der Metaphyse durch Vermehrung und Verknöcherung der Knorpelzellen; die Fuge schließt sich am Ende der Pubertät. Das Dickenwachstum erfolgt durch Anlagerung vom Periost aus.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-1a21cd83",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher der folgenden Knochen gehört zum Achsenskelett?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Klavikula",
+    "Hüftbein",
+    "Sternum"
+   ],
+   "answer": 4,
+   "explanation": "Das Achsenskelett besteht aus Schädel, Wirbelsäule und Brustkorb (Sternum und Rippen). Klavikula und Scapula gehören zum Schultergürtel, das Hüftbein zum Beckengürtel und der Humerus zur freien oberen Extremität.",
+   "entries": [
+    "iskelet-genel"
+   ]
+  },
+  {
+   "id": "sk-2db88c9e",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher der folgenden ist ein platter Knochen?",
+   "options": [
+    "Wirbel",
+    "Scheitelbein",
+    "Femur",
+    "Kopfbein",
+    "Mittelhandknochen"
+   ],
+   "answer": 1,
+   "explanation": "Platte Knochen sind dünn und breit (Schädeldach, Sternum, Rippen, Scapula). Femur und Mittelhandknochen sind Röhrenknochen, das Kopfbein ein kurzer und die Wirbel unregelmäßige Knochen.",
+   "entries": [
+    "iskelet-genel",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-a98a93de",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher der folgenden ist KEIN Sesambein?",
+   "options": [
+    "Fabella",
+    "Mondbein",
+    "Sesambein der Großzehe",
+    "Patella",
+    "Erbsenbein"
+   ],
+   "answer": 1,
+   "explanation": "Sesambeine entstehen in Sehnen: Patella, Erbsenbein, die Sesambeine unter den Grundgelenken von Daumen und Großzehe und bei manchen Menschen die Fabella. Das Mondbein ist ein kurzer Knochen der proximalen Handwurzelreihe.",
+   "entries": [
+    "ossa-sesamoidea"
+   ]
+  },
+  {
+   "id": "sk-66a08b42",
+   "group": "Schädel (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Knochen bildet die Stirn und das Dach der Augenhöhlen?",
+   "options": [
+    "Stirnbein",
+    "Keilbein",
+    "Jochbein",
+    "Siebbein",
+    "Scheitelbein"
+   ],
+   "answer": 0,
+   "explanation": "Das Stirnbein bildet mit seiner senkrechten Schuppe die Stirn und mit seiner waagerechten Pars orbitalis das Orbitadach und den Boden der vorderen Schädelgrube.",
+   "entries": [
+    "os-frontale"
+   ]
+  },
+  {
+   "id": "sk-cb93516d",
+   "group": "Schädel (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher ist der einzige Schädelknochen, der sich in einem echten Gelenk bewegt?",
+   "options": [
+    "Nasenbein",
+    "Vomer",
+    "Unterkiefer",
+    "Oberkiefer",
+    "Jochbein"
+   ],
+   "answer": 2,
+   "explanation": "Die Schädelknochen sind durch Nähte fest verbunden; das einzige bewegliche Gelenk ist das Kiefergelenk zwischen Unterkiefer und Schläfenbein.",
+   "entries": [
+    "mandibula",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-4559542c",
+   "group": "Schädel (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie nennt man die nicht verknöcherten, häutigen Bereiche zwischen den Schädelknochen des Neugeborenen?",
+   "options": [
+    "Fontanellen",
+    "Nähte",
+    "Fissuren",
+    "Sinus",
+    "Foramina"
+   ],
+   "answer": 0,
+   "explanation": "Fontanellen sind häutige Bereiche an den Treffpunkten der Nähte; sie ermöglichen die Verformung des Kopfes bei der Geburt und das Wachstum des Gehirns. Die größte ist die große (vordere) Fontanelle.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-f341b2fb",
+   "group": "Schädel (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Zwischen welchen Knochen liegt die Pfeilnaht (Sutura sagittalis)?",
+   "options": [
+    "Scheitelbein und Schläfenbein",
+    "Zwischen den beiden Stirnbeinhälften",
+    "Zwischen den beiden Scheitelbeinen",
+    "Stirnbein und Scheitelbein",
+    "Scheitelbein und Hinterhauptsbein"
+   ],
+   "answer": 2,
+   "explanation": "Die Pfeilnaht verbindet die beiden Scheitelbeine in der Mittellinie. Die Kranznaht liegt zwischen Stirn- und Scheitelbeinen, die Lambdanaht zwischen Scheitel- und Hinterhauptsbein, die Schuppennaht zwischen Scheitel- und Schläfenbein.",
+   "entries": [
+    "suturae-fonticuli",
+    "os-parietale"
+   ]
+  },
+  {
+   "id": "sk-bb6020cc",
+   "group": "Schädel (Cranium)",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie viele Knochen sind am Aufbau der Orbita beteiligt?",
+   "options": [
+    "5",
+    "8",
+    "6",
+    "9",
+    "7"
+   ],
+   "answer": 4,
+   "explanation": "Die Orbita wird von sieben Knochen gebildet: Stirnbein, Jochbein, Oberkiefer, Keilbein, Siebbein, Tränenbein und Gaumenbein.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-13d66ee5",
+   "group": "Wirbelsäule",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie viele Halswirbel hat die Wirbelsäule?",
+   "options": [
+    "6",
+    "12",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Die Wirbelsäule hat 7 Hals-, 12 Brust-, 5 Lenden-, 5 Kreuzbein- und 3–5 Steißwirbel.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-cervicales"
+   ]
+  },
+  {
+   "id": "sk-894f664c",
+   "group": "Wirbelsäule",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welchen besonderen Namen trägt der erste Halswirbel (C1)?",
+   "options": [
+    "Vertebra prominens",
+    "Atlas",
+    "Promontorium",
+    "Axis",
+    "Dens"
+   ],
+   "answer": 1,
+   "explanation": "C1 heißt Atlas, C2 Axis und C7 Vertebra prominens. Der Atlas hat weder Körper noch Dornfortsatz.",
+   "entries": [
+    "atlas"
+   ]
+  },
+  {
+   "id": "sk-a8bb291d",
+   "group": "Wirbelsäule",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Aus wie vielen verschmolzenen Wirbeln besteht das Kreuzbein?",
+   "options": [
+    "7",
+    "12",
+    "5",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Fünf Kreuzbeinwirbel verschmelzen zum dreieckigen Kreuzbein; die 3–5 Steißwirbel darunter bilden das Steißbein.",
+   "entries": [
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "sk-d1d02687",
+   "group": "Wirbelsäule",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Wirbelsäulenkrümmung entsteht, wenn der Säugling beginnt, den Kopf zu halten?",
+   "options": [
+    "Sakralkyphose",
+    "Brustkyphose",
+    "Halslordose",
+    "Skoliose",
+    "Lendenlordose"
+   ],
+   "answer": 2,
+   "explanation": "Beim Fetus bildet die Wirbelsäule eine einzige C-Krümmung (primäre Kyphose). Mit dem Kopfhalten entsteht die Halslordose, mit Sitzen und Laufen die Lendenlordose (sekundäre Krümmungen).",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-b2c190ac",
+   "group": "Brustkorb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie viele Rippenpaare hat der Brustkorb?",
+   "options": [
+    "12 Paare",
+    "11 Paare",
+    "13 Paare",
+    "24 Paare",
+    "10 Paare"
+   ],
+   "answer": 0,
+   "explanation": "Der Mensch hat 12 Rippenpaare (24 Rippen): 7 Paar echte, 3 Paar falsche und 2 Paar freie Rippen.",
+   "entries": [
+    "costae"
+   ]
+  },
+  {
+   "id": "sk-e3425c63",
+   "group": "Brustkorb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche sind die „echten Rippen“, die mit eigenem Knorpel direkt am Sternum ansetzen?",
+   "options": [
+    "8.–10. Rippe",
+    "11.–12. Rippe",
+    "1.–10. Rippe",
+    "1.–12. Rippe",
+    "1.–7. Rippe"
+   ],
+   "answer": 4,
+   "explanation": "Echte Rippen sind die 1.–7. Rippe. Die 8.–10. Rippe setzen am darüberliegenden Knorpel an (falsche Rippen), die Vorderenden der 11.–12. Rippe sind frei (freie Rippen).",
+   "entries": [
+    "costae",
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-cd7f4cd1",
+   "group": "Brustkorb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche drei Teile hat das Brustbein?",
+   "options": [
+    "Manubrium, Angulus und Corpus",
+    "Manubrium, Corpus und Rippenknorpel",
+    "Manubrium, Corpus und Processus xiphoideus",
+    "Incisura jugularis, Angulus und Processus xiphoideus",
+    "Corpus, Processus xiphoideus und Incisura jugularis"
+   ],
+   "answer": 2,
+   "explanation": "Von oben nach unten besteht das Sternum aus Manubrium, Corpus und Processus xiphoideus. Die Verbindung von Manubrium und Corpus ist der Angulus sterni (Höhe der 2. Rippe).",
+   "entries": [
+    "sternum"
+   ]
+  },
+  {
+   "id": "sk-0a8d84f1",
+   "group": "Knochen der oberen Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher ist der einzige Knochen des Oberarms?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Ulna",
+    "Klavikula",
+    "Radius"
+   ],
+   "answer": 1,
+   "explanation": "Im Oberarm liegt nur der Humerus; Radius und Ulna liegen im Unterarm, Klavikula und Scapula im Schultergürtel.",
+   "entries": [
+    "humerus"
+   ]
+  },
+  {
+   "id": "sk-b53d9bdb",
+   "group": "Knochen der oberen Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Knochen liegt an der Daumenseite des Unterarms?",
+   "options": [
+    "Kahnbein",
+    "Humerus",
+    "Ulna",
+    "Fibula",
+    "Radius"
+   ],
+   "answer": 4,
+   "explanation": "In anatomischer Stellung liegt der Radius an der lateralen (Daumen-)Seite des Unterarms, die Ulna an der medialen (Kleinfinger-)Seite.",
+   "entries": [
+    "radius"
+   ]
+  },
+  {
+   "id": "sk-02299d72",
+   "group": "Knochen der oberen Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Mit welchem Knochen artikuliert das mediale Ende des Schlüsselbeins?",
+   "options": [
+    "Sternum (Manubrium)",
+    "Körper der 1. Rippe",
+    "Wirbel C7",
+    "Humerus",
+    "Scapula (Akromion)"
+   ],
+   "answer": 0,
+   "explanation": "Das mediale Klavikulaende bildet mit dem Manubrium das Sternoklavikulargelenk, das laterale mit dem Akromion das Akromioklavikulargelenk.",
+   "entries": [
+    "clavicula",
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "sk-dc65dbda",
+   "group": "Knochen der oberen Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Das Akromion ist Teil welches Knochens?",
+   "options": [
+    "1. Rippe",
+    "Scapula",
+    "Sternum",
+    "Humerus",
+    "Klavikula"
+   ],
+   "answer": 1,
+   "explanation": "Das Akromion ist das laterale Ende der Spina scapulae; es bildet den höchsten Knochenpunkt der Schulter und artikuliert mit der Klavikula.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-135626d7",
+   "group": "Knochen der oberen Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welcher Vertiefung des Schulterblatts sitzt der Humeruskopf im Schultergelenk?",
+   "options": [
+    "Cavitas glenoidalis",
+    "Fossa supraspinata",
+    "Fossa subscapularis",
+    "Fossa olecrani",
+    "Acetabulum"
+   ],
+   "answer": 0,
+   "explanation": "Der Humeruskopf bildet mit der Cavitas glenoidalis der Scapula das Schultergelenk; die Pfanne wird durch das Labrum glenoidale vertieft.",
+   "entries": [
+    "scapula",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "sk-1a79acf4",
+   "group": "Knochen der oberen Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Zu welchem Knochen gehört das am Ellenbogen hinten tastbare Olecranon?",
+   "options": [
+    "Scapula",
+    "Humerus",
+    "Radius",
+    "Erbsenbein",
+    "Ulna"
+   ],
+   "answer": 4,
+   "explanation": "Das Olecranon ist der Vorsprung am proximalen Ende der Ulna; bei gestrecktem Ellenbogen greift es in die Fossa olecrani des Humerus, der M. triceps brachii setzt hier an.",
+   "entries": [
+    "ulna"
+   ]
+  },
+  {
+   "id": "sk-1924a576",
+   "group": "Knochen der Hand",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie viele Handwurzelknochen gibt es?",
+   "options": [
+    "7",
+    "14",
+    "5",
+    "8",
+    "10"
+   ],
+   "answer": 3,
+   "explanation": "Die Handwurzel besteht aus acht kurzen Knochen in zwei Reihen: proximal Kahnbein, Mondbein, Dreiecksbein, Erbsenbein; distal großes und kleines Vieleckbein, Kopfbein, Hakenbein.",
+   "entries": [
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "sk-cc283b3f",
+   "group": "Knochen der Hand",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie viele Fingerglieder hat der Daumen?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Der Daumen hat zwei Glieder (Grund- und Endglied), die übrigen Finger je drei; die Hand hat insgesamt 14 Fingerglieder.",
+   "entries": [
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "sk-766cdcb8",
+   "group": "Knochen der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche drei Knochen bilden das Hüftbein?",
+   "options": [
+    "Sitzbein, Femur und Schambein",
+    "Darmbein, Kreuzbein und Schambein",
+    "Darmbein, Sitzbein und Schambein",
+    "Darmbein, Sitzbein und Steißbein",
+    "Kreuzbein, Steißbein und Schambein"
+   ],
+   "answer": 2,
+   "explanation": "Das Hüftbein entsteht durch Verschmelzung von Darm-, Sitz- und Schambein in der Hüftpfanne; sie ist mit der Verknöcherung der Y-Fuge in der Pubertät abgeschlossen.",
+   "entries": [
+    "os-coxae",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-e8ec8422",
+   "group": "Knochen der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Knochenvorsprung trägt im Sitzen das Körpergewicht?",
+   "options": [
+    "Spina iliaca anterior superior",
+    "Sitzbeinhöcker",
+    "Trochanter major",
+    "Beckenkamm",
+    "Tuberculum pubicum"
+   ],
+   "answer": 1,
+   "explanation": "Im Sitzen ruht das Gewicht auf den Sitzbeinhöckern; dort entspringen auch die ischiokruralen Muskeln.",
+   "entries": [
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-fce811c8",
+   "group": "Knochen der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher kräftige, gewichttragende Knochen liegt an der Innenseite des Unterschenkels?",
+   "options": [
+    "Femur",
+    "Fibula",
+    "Talus",
+    "Patella",
+    "Tibia"
+   ],
+   "answer": 4,
+   "explanation": "Die Tibia (Schienbein) ist der kräftige Knochen an der Innenseite des Unterschenkels und trägt den größten Teil des Gewichts; die dünne Fibula außen trägt wenig.",
+   "entries": [
+    "tibia"
+   ]
+  },
+  {
+   "id": "sk-3d64e2a3",
+   "group": "Knochen der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Knochen ist die Kniescheibe?",
+   "options": [
+    "Fabella",
+    "Kahnbein",
+    "Erbsenbein",
+    "Talus",
+    "Patella"
+   ],
+   "answer": 4,
+   "explanation": "Die Patella entsteht in der Sehne des M. quadriceps femoris und ist das größte Sesambein des Körpers.",
+   "entries": [
+    "patella"
+   ]
+  },
+  {
+   "id": "sk-51c47666",
+   "group": "Knochen der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Zu welchem Knochen gehört der Knochenvorsprung an der Außenseite des Sprunggelenks (Außenknöchel)?",
+   "options": [
+    "Calcaneus",
+    "Tibia (Innenknöchel)",
+    "Fibula (Außenknöchel)",
+    "Würfelbein",
+    "Talus"
+   ],
+   "answer": 2,
+   "explanation": "Der Außenknöchel ist das untere Ende der Fibula, der Innenknöchel gehört zur Tibia. Der Außenknöchel reicht tiefer hinab als der Innenknöchel.",
+   "entries": [
+    "fibula"
+   ]
+  },
+  {
+   "id": "sk-5b89ff5c",
+   "group": "Knochen des Fußes",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Knochen bildet die Ferse?",
+   "options": [
+    "Mediales Keilbein",
+    "Talus",
+    "Calcaneus",
+    "Würfelbein",
+    "Kahnbein"
+   ],
+   "answer": 2,
+   "explanation": "Der Calcaneus ist der größte Fußwurzelknochen und bildet die Ferse; die Achillessehne setzt hinten am Tuber calcanei an.",
+   "entries": [
+    "calcaneus"
+   ]
+  },
+  {
+   "id": "sk-617628de",
+   "group": "Knochen des Fußes",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie viele Knochen hat ein Fuß?",
+   "options": [
+    "26",
+    "28",
+    "33",
+    "24",
+    "20"
+   ],
+   "answer": 0,
+   "explanation": "Jeder Fuß hat 26 Knochen: 7 Fußwurzel-, 5 Mittelfußknochen und 14 Zehenglieder (ohne Sesambeine).",
+   "entries": [
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-4ce46011",
+   "group": "Knochen des Fußes",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Fußwurzelknochen liegt vor dem Calcaneus am äußeren Fußrand?",
+   "options": [
+    "Laterales Keilbein",
+    "Kahnbein",
+    "5. Mittelfußknochen",
+    "Würfelbein",
+    "Talus"
+   ],
+   "answer": 3,
+   "explanation": "Das Würfelbein liegt vor dem Calcaneus am äußeren Fußrand und artikuliert mit dem 4. und 5. Mittelfußknochen; das Kahnbein liegt vor dem Talus innen.",
+   "entries": [
+    "os-cuboideum",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-62a44079",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Was ist die Baueinheit der Kompakta?",
+   "options": [
+    "Periost",
+    "Osteon (Havers-System)",
+    "Lakune",
+    "Chondron",
+    "Trabekel"
+   ],
+   "answer": 1,
+   "explanation": "Die Kompakta besteht aus Osteonen – ringförmig um einen zentralen Havers-Kanal angeordneten Lamellen. Die Spongiosa besteht aus Trabekeln.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-ef479b99",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie heißen die Kollagenfasern, die das Periost fest im Knochen verankern?",
+   "options": [
+    "Elastische Fasern",
+    "Sharpey-Fasern",
+    "Volkmann-Kanäle",
+    "Havers-Lamellen",
+    "Retikuläre Fasern"
+   ],
+   "answer": 1,
+   "explanation": "Sharpey-Fasern (perforierende Fasern) sind dicke Kollagenbündel, die vom Periost in die Knochenmatrix ziehen; sie verankern auch Sehnen und Bänder am Knochen.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-545c3b65",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie verknöchern die Knochen des Schädeldachs (Calvaria)?",
+   "options": [
+    "Heterotope Ossifikation",
+    "Chondrale Ossifikation",
+    "Desmale Ossifikation",
+    "Appositionelles Knorpelwachstum",
+    "Sesamoide Ossifikation"
+   ],
+   "answer": 2,
+   "explanation": "Schädeldach, Gesichtsknochen und der größte Teil der Klavikula entstehen direkt aus Mesenchym durch desmale Ossifikation. Schädelbasis, Wirbel und die meisten Extremitätenknochen verknöchern über ein Knorpelmodell (chondral).",
+   "entries": [
+    "os-structura",
+    "cranium"
+   ]
+  },
+  {
+   "id": "sk-64644656",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Eine Röntgenaufnahme welcher Region wird am häufigsten zur Bestimmung des Knochenalters verwendet?",
+   "options": [
+    "Linke Hand und Handgelenk",
+    "Knie",
+    "Becken",
+    "Schädel",
+    "Fuß"
+   ],
+   "answer": 0,
+   "explanation": "Das Knochenalter wird bestimmt, indem man Ossifikationszentren und Wachstumsfugen auf einer Röntgenaufnahme der linken Hand mit Standardatlanten (Greulich–Pyle) vergleicht.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-7f45caa6",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo werden Knochenmarkpunktion und -biopsie beim Erwachsenen am häufigsten durchgeführt?",
+   "options": [
+    "Calcaneus",
+    "Klavikula",
+    "Femurkopf",
+    "Proximale Tibia",
+    "Hinterer Beckenkamm (um die Spina iliaca posterior superior)"
+   ],
+   "answer": 4,
+   "explanation": "Beim Erwachsenen wird der hintere Beckenkamm bevorzugt, da er sicher und reich an rotem Mark ist. Die proximale Tibia wird bei kleinen Kindern verwendet.",
+   "entries": [
+    "iskelet-genel",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-efcc65cb",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt am Warzenfortsatz an?",
+   "options": [
+    "M. temporalis",
+    "M. masseter",
+    "M. trapezius",
+    "Platysma",
+    "M. sternocleidomastoideus"
+   ],
+   "answer": 4,
+   "explanation": "Der SCM entspringt an Sternum und Klavikula und setzt am Processus mastoideus und am lateralen Teil der Linea nuchae superior an. Der Warzenfortsatz fehlt bei Geburt und entwickelt sich in der Kindheit durch den Muskelzug.",
+   "entries": [
+    "os-temporale",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "sk-299c3612",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Struktur zieht NICHT durch das Foramen magnum?",
+   "options": [
+    "V. jugularis interna",
+    "Aa. vertebrales",
+    "A. spinalis anterior",
+    "Medulla oblongata",
+    "Spinale Wurzel des N. accessorius"
+   ],
+   "answer": 0,
+   "explanation": "Durch das Foramen magnum ziehen Medulla oblongata mit Hirnhäuten, Aa. vertebrales und spinales sowie die spinalen Wurzeln des N. accessorius. Die V. jugularis interna beginnt am Foramen jugulare.",
+   "entries": [
+    "os-occipitale",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-94a4fb4f",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo mündet die Keilbeinhöhle in die Nasenhöhle?",
+   "options": [
+    "Unterer Nasengang",
+    "Oberer Nasengang",
+    "Recessus sphenoethmoidalis",
+    "Mittlerer Nasengang",
+    "Nasopharynx"
+   ],
+   "answer": 2,
+   "explanation": "Die Keilbeinhöhle mündet in den Recessus sphenoethmoidalis oberhalb und hinter der oberen Muschel. Die hinteren Siebbeinzellen münden in den oberen, Stirn-, Kiefer- und vordere Siebbeinhöhlen in den mittleren, der Tränennasengang in den unteren Nasengang.",
+   "entries": [
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "sk-f4bad9ce",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Muskeln entspringen an der Lamina lateralis des Processus pterygoideus?",
+   "options": [
+    "M. masseter und M. temporalis",
+    "M. digastricus und M. stylohyoideus",
+    "M. tensor und M. levator veli palatini",
+    "M. buccinator und M. constrictor pharyngis superior",
+    "M. pterygoideus lateralis und M. pterygoideus medialis"
+   ],
+   "answer": 4,
+   "explanation": "Der untere Kopf des M. pterygoideus lateralis entspringt an der Außenfläche der Lamina lateralis, der tiefe Kopf des M. pterygoideus medialis an ihrer Innenfläche. Um den Hamulus der Lamina medialis zieht die Sehne des M. tensor veli palatini.",
+   "entries": [
+    "os-sphenoidale",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "sk-24639fbf",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche ist die dickste Wand der Orbita?",
+   "options": [
+    "Laterale Wand",
+    "Boden",
+    "Mediale Wand",
+    "Orbitaspitze",
+    "Dach"
+   ],
+   "answer": 0,
+   "explanation": "Die laterale Wand aus Jochbein und großem Keilbeinflügel ist die dickste. Die dünnste ist die mediale Wand mit der Lamina papyracea des Siebbeins; Blow-out-Frakturen betreffen meist den Boden.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-fe9c4d6f",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Nerv zieht durch die Fissura orbitalis inferior?",
+   "options": [
+    "N. infraorbitalis",
+    "N. trochlearis",
+    "N. lacrimalis",
+    "N. frontalis",
+    "N. abducens"
+   ],
+   "answer": 0,
+   "explanation": "Der N. maxillaris gelangt aus der Flügelgaumengrube durch die Fissura orbitalis inferior in die Orbita und heißt dann N. infraorbitalis. N. frontalis, lacrimalis, trochlearis und abducens ziehen durch die Fissura orbitalis superior.",
+   "entries": [
+    "orbita",
+    "basis-cranii"
+   ]
+  },
+  {
+   "id": "sk-50fc7e36",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Öffnung verbindet die Flügelgaumengrube mit der mittleren Schädelgrube?",
+   "options": [
+    "Foramen spinosum",
+    "Canalis opticus",
+    "Foramen ovale",
+    "Foramen rotundum",
+    "Fissura orbitalis superior"
+   ],
+   "answer": 3,
+   "explanation": "Der N. maxillaris (V2) zieht durch das Foramen rotundum von der mittleren Schädelgrube in die Flügelgaumengrube. Foramen ovale und spinosum öffnen sich zur Fossa infratemporalis.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-c03603d8",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Zwischen den beiden Hälften welches Knochens liegt die Stirnnaht (Sutura metopica)?",
+   "options": [
+    "Unterkiefer",
+    "Scheitelbein",
+    "Keilbein",
+    "Hinterhauptsbein",
+    "Stirnbein"
+   ],
+   "answer": 4,
+   "explanation": "Das Stirnbein besteht bei Geburt aus zwei Hälften; die Stirnnaht dazwischen schließt sich meist mit 1–2 Jahren. Bei manchen Erwachsenen bleibt sie offen und kann im Röntgen mit einer Frakturlinie verwechselt werden.",
+   "entries": [
+    "os-frontale",
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-af9c3b69",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Zwischen welchen Knochen liegt die kleine (hintere) Fontanelle?",
+   "options": [
+    "Den beiden Scheitelbeinen und dem Hinterhauptsbein",
+    "Keilbein und Schläfenbein",
+    "Scheitel-, Schläfen- und Hinterhauptsbein",
+    "Den beiden Stirn- und Scheitelbeinen",
+    "Stirn-, Scheitel-, Schläfen- und Keilbein"
+   ],
+   "answer": 0,
+   "explanation": "Die dreieckige kleine Fontanelle liegt am Lambda zwischen beiden Scheitelbeinen und dem Hinterhauptsbein und schließt sich mit 2–3 Monaten. Die große Fontanelle liegt am Bregma zwischen Stirn- und Scheitelbeinen.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-7e5d8299",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In welcher Wirbelhöhe liegt das Zungenbein gewöhnlich?",
+   "options": [
+    "C1",
+    "C5",
+    "C3",
+    "C6",
+    "T1"
+   ],
+   "answer": 2,
+   "explanation": "Das Zungenbein liegt in Höhe C3. Der Oberrand des Schildknorpels entspricht C4, der Ringknorpel C6.",
+   "entries": [
+    "os-hyoideum"
+   ]
+  },
+  {
+   "id": "sk-337e8167",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Zahngruppe fehlt im Milchgebiss?",
+   "options": [
+    "Prämolaren",
+    "Mittlere Schneidezähne",
+    "Eckzähne",
+    "Seitliche Schneidezähne",
+    "Molaren"
+   ],
+   "answer": 0,
+   "explanation": "Das Milchgebiss hat 20 Zähne: je Kieferhälfte 2 Schneidezähne, 1 Eckzahn und 2 Molaren; Milchprämolaren gibt es nicht. Die bleibenden Prämolaren brechen an der Stelle der Milchmolaren durch.",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-acf4fff3",
+   "group": "Schädel (Cranium)",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher bleibende Zahn bricht zuerst durch?",
+   "options": [
+    "1. Molar (etwa mit 6 Jahren)",
+    "1. Prämolar",
+    "Mittlerer Schneidezahn",
+    "Eckzahn",
+    "3. Molar"
+   ],
+   "answer": 0,
+   "explanation": "Der erste bleibende Zahn, der hinter den Milchzähnen durchbricht, ist der 1. Molar („Sechsjahrmolar“); der letzte ist der 3. Molar (Weisheitszahn).",
+   "entries": [
+    "dentes"
+   ]
+  },
+  {
+   "id": "sk-5476a288",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ein herzförmiger Körper und ein kleines rundes Wirbelloch sind typisch für welche Wirbel?",
+   "options": [
+    "Halswirbel",
+    "Lendenwirbel",
+    "Steißwirbel",
+    "Kreuzbeinwirbel",
+    "Brustwirbel"
+   ],
+   "answer": 4,
+   "explanation": "Brustwirbel haben einen herzförmigen Körper und ein kleines rundes Wirbelloch; Körper und Querfortsätze tragen Rippengelenkflächen. Bei Halswirbeln ist das Loch dreieckig und weit.",
+   "entries": [
+    "vertebrae-thoracicae",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-6bfe54be",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche sind die primären Krümmungen der Wirbelsäule?",
+   "options": [
+    "Brust- und Sakralkyphose",
+    "Lendenlordose und Sakralkyphose",
+    "Hals- und Lendenlordose",
+    "Halslordose und Brustkyphose",
+    "Brustkyphose und Lendenlordose"
+   ],
+   "answer": 0,
+   "explanation": "Brust- und Sakralkyphose, Reste der fetalen C-Krümmung, sind die primären Krümmungen; Hals- und Lendenlordose entstehen nach der Geburt (sekundäre Krümmungen).",
+   "entries": [
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-a4798013",
+   "group": "Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Durch welches Foramen intervertebrale tritt der Spinalnerv L4 aus?",
+   "options": [
+    "Zwischen T12 und L1",
+    "Zwischen L5 und S1",
+    "Zwischen L4 und L5",
+    "Zwischen L3 und L4",
+    "Zwischen L2 und L3"
+   ],
+   "answer": 2,
+   "explanation": "Im Brust- und Lendenbereich treten die Spinalnerven unterhalb des gleichnamigen Wirbels aus; L4 liegt im Foramen L4–L5. Ein posterolateraler Bandscheibenvorfall L4–L5 komprimiert jedoch meist die nächste Wurzel, L5.",
+   "entries": [
+    "columna-vertebralis",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "sk-d8cdddd6",
+   "group": "Brustkorb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt an der rauen Fläche (Tuberositas) der Außenseite der 2. Rippe an?",
+   "options": [
+    "M. serratus anterior",
+    "M. scalenus anterior",
+    "M. pectoralis minor",
+    "M. pectoralis major",
+    "M. subclavius"
+   ],
+   "answer": 0,
+   "explanation": "Die 2. Rippe ist atypisch: doppelt so lang wie die 1. und mit einer Tuberositas für die erste Zacke des M. serratus anterior an der Außenfläche. Pectoralis minor setzt an der 3.–5. Rippe an, Scalenus anterior und Subclavius an der 1.",
+   "entries": [
+    "costae-atypicae",
+    "m-serratus-anterior"
+   ]
+  },
+  {
+   "id": "sk-b9394d0e",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Wirbelhöhe entspricht der untere Schulterblattwinkel bei hängenden Armen?",
+   "options": [
+    "T2",
+    "T10",
+    "T7",
+    "L1",
+    "T4"
+   ],
+   "answer": 2,
+   "explanation": "Der obere Schulterblattwinkel liegt in Höhe T2, das mediale Ende der Spina in Höhe T3 und der untere Winkel in Höhe T7. Der untere Winkel dient als Orientierungspunkt bei Thoraxuntersuchung und Pleurapunktion.",
+   "entries": [
+    "scapula"
+   ]
+  },
+  {
+   "id": "sk-c935a47a",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mit welchem Teil der Ulna artikuliert die Trochlea humeri?",
+   "options": [
+    "Caput ulnae",
+    "Incisura radialis",
+    "Incisura trochlearis",
+    "Processus styloideus ulnae",
+    "Tuberositas ulnae"
+   ],
+   "answer": 2,
+   "explanation": "Die rollenförmige Trochlea humeri greift in die Incisura trochlearis der Ulna zwischen Olecranon und Processus coronoideus und bildet das Humeroulnargelenk (Scharniergelenk). Das Capitulum artikuliert mit dem Radiusköpfchen.",
+   "entries": [
+    "humerus",
+    "ulna",
+    "art-cubiti"
+   ]
+  },
+  {
+   "id": "sk-fffabda4",
+   "group": "Knochen der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt an der Tuberositas radii an?",
+   "options": [
+    "M. brachialis",
+    "M. biceps brachii",
+    "M. triceps brachii",
+    "M. supinator",
+    "M. pronator teres"
+   ],
+   "answer": 1,
+   "explanation": "Die Bizepssehne setzt an der Tuberositas radii unterhalb des Radiushalses an; daher ist der Bizeps ein kräftiger Supinator. Der M. brachialis setzt an der Tuberositas ulnae, der M. pronator teres an der Mitte der Radiusaußenfläche an.",
+   "entries": [
+    "radius",
+    "m-biceps-brachii"
+   ]
+  },
+  {
+   "id": "sk-afaac4c9",
+   "group": "Knochen der Hand",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches sind die lateralen (radialen) Ansätze des Retinaculum flexorum?",
+   "options": [
+    "Tuberculum ossis scaphoidei und Tuberculum ossis trapezii",
+    "Kopfbein und kleines Vieleckbein",
+    "Basis des 1. Mittelhandknochens und Mondbein",
+    "Erbsenbein und Hamulus ossis hamati",
+    "Processus styloideus radii und Mondbein"
+   ],
+   "answer": 0,
+   "explanation": "Das Retinaculum flexorum setzt lateral an den Höckern von Kahnbein und großem Vieleckbein, medial an Erbsenbein und Hamulus ossis hamati an und bildet das Dach des Karpaltunnels.",
+   "entries": [
+    "ossa-carpi",
+    "os-scaphoideum",
+    "os-trapezium"
+   ]
+  },
+  {
+   "id": "sk-63af94e3",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welchen Knochenpunkt markieren die Hautgrübchen am unteren Rücken (Venusgrübchen), und in welcher Höhe?",
+   "options": [
+    "Höchster Punkt des Beckenkamms – L4",
+    "Spina iliaca posterior superior – S2",
+    "Spina iliaca anterior superior – L4",
+    "Spina ischiadica – S3",
+    "Tuber ischiadicum – S4"
+   ],
+   "answer": 1,
+   "explanation": "Die Grübchen über der Iliosakralregion markieren die SIPS in Höhe S2; in dieser Höhe enden auch Duralsack und Subarachnoidalraum.",
+   "entries": [
+    "os-coxae",
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-736237ad",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt an der Linea pectinea des Femurs an?",
+   "options": [
+    "M. vastus medialis",
+    "M. gluteus maximus",
+    "M. adductor longus",
+    "M. iliopsoas",
+    "M. pectineus"
+   ],
+   "answer": 4,
+   "explanation": "Der M. pectineus entspringt am Pecten ossis pubis und setzt an der Linea pectinea unterhalb des Trochanter minor an. Der M. iliopsoas setzt am Trochanter minor, der M. gluteus maximus an der Tuberositas glutea an.",
+   "entries": [
+    "femur",
+    "m-pectineus"
+   ]
+  },
+  {
+   "id": "sk-fecd544c",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt am Tuberculum adductorium des Femurs an?",
+   "options": [
+    "M. adductor magnus (ischiokruraler Teil)",
+    "M. vastus medialis",
+    "M. adductor longus",
+    "M. gracilis",
+    "M. semimembranosus"
+   ],
+   "answer": 0,
+   "explanation": "Der senkrechte (ischiokrurale) Teil des M. adductor magnus vom Sitzbeinhöcker setzt am Tuberculum adductorium oberhalb des Epicondylus medialis an; er wird vom tibialen Anteil des N. ischiadicus innerviert.",
+   "entries": [
+    "femur",
+    "m-adductor-magnus"
+   ]
+  },
+  {
+   "id": "sk-d46b7610",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In welcher Grube des Femurkopfs setzt das Lig. capitis femoris an?",
+   "options": [
+    "Fossa trochanterica",
+    "Fossa acetabuli",
+    "Fovea capitis femoris",
+    "Linea intertrochanterica",
+    "Fossa intercondylaris"
+   ],
+   "answer": 2,
+   "explanation": "Das Lig. capitis femoris zieht von der Incisura acetabuli zur Fovea capitis in der Mitte des Femurkopfs; in ihm verläuft der R. acetabularis der A. obturatoria.",
+   "entries": [
+    "femur",
+    "acetabulum"
+   ]
+  },
+  {
+   "id": "sk-3e7d0e42",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Merkmal unterscheidet das weibliche vom männlichen Becken?",
+   "options": [
+    "Der Beckeneingang ist herzförmig.",
+    "Der Schambogenwinkel ist weiter.",
+    "Die Sitzbeinstacheln ragen stärker nach innen.",
+    "Das Becken ist tiefer und enger.",
+    "Das Kreuzbein ist länger und schmaler."
+   ],
+   "answer": 1,
+   "explanation": "Das weibliche Becken ist breiter und flacher: Eingang oval, Schambogenwinkel über 90°, Kreuzbein kurz und breit, Sitzbeinstacheln wenig vorspringend. Die anderen Antworten beschreiben das männliche Becken.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-54c3cd19",
+   "group": "Knochen des Fußes",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Mit welchem der folgenden Knochen artikuliert der Talus NICHT?",
+   "options": [
+    "Tibia",
+    "Würfelbein",
+    "Fibula",
+    "Kahnbein",
+    "Calcaneus"
+   ],
+   "answer": 1,
+   "explanation": "Der Talus artikuliert oben mit Tibia und Fibula (oberes Sprunggelenk), unten mit dem Calcaneus (unteres Sprunggelenk) und vorn mit dem Kahnbein. Das Würfelbein liegt vor dem Calcaneus.",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-d6509a0e",
+   "group": "Knochen des Fußes",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches der drei Keilbeine ist das größte?",
+   "options": [
+    "Mediales Keilbein",
+    "Mittleres Keilbein",
+    "Würfelbein",
+    "Laterales Keilbein",
+    "Alle drei sind gleich groß"
+   ],
+   "answer": 0,
+   "explanation": "Das mediale Keilbein ist das größte, das mittlere das kleinste. Durch die Kürze des mittleren Keilbeins kann sich die Basis des 2. Mittelfußknochens zwischen medialem und lateralem Keilbein verankern.",
+   "entries": [
+    "ossa-cuneiformia",
+    "os-cuneiforme-mediale"
+   ]
+  },
+  {
+   "id": "sk-75fb3209",
+   "group": "Knochen der unteren Extremität",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein Bauarbeiter hat nach einem Sturz aus der Höhe eine Fersenbeinfraktur. Nach welcher Begleitverletzung muss stets gesucht werden?",
+   "options": [
+    "Thorakolumbale Wirbelfraktur",
+    "Distale Radiusfraktur",
+    "Schädelfraktur",
+    "Patellafraktur",
+    "Klavikulafraktur"
+   ],
+   "answer": 0,
+   "explanation": "Beim Sturz auf die Füße wird die Last axial auf die Wirbelsäule übertragen; etwa 10 % der Kalkaneusfrakturen gehen mit einer thorakolumbalen (besonders L1) Kompressionsfraktur einher, die nicht übersehen werden darf.",
+   "entries": [
+    "calcaneus",
+    "ossa-tarsi"
+   ]
+  },
+  {
+   "id": "sk-32bbaef0",
+   "group": "Brustkorb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Nach einem Verkehrsunfall wird eine Fraktur der 1. Rippe festgestellt. Woran sollte man zuerst denken?",
+   "options": [
+    "Osteoporose",
+    "Eine einfache, harmlose Fraktur",
+    "Hochrasanztrauma und Verletzung von A. subclavia und Plexus brachialis darunter",
+    "Pathologische Fraktur (Metastase)",
+    "Kostochondritis"
+   ],
+   "answer": 2,
+   "explanation": "Die 1. Rippe ist kurz, kräftig und gut geschützt und bricht nur bei Hochrasanztraumen. Da A. und V. subclavia sowie der untere Primärstrang des Plexus brachialis über sie ziehen, muss nach Gefäß- und Nervenverletzungen gesucht werden.",
+   "entries": [
+    "costae-atypicae"
+   ]
+  },
+  {
+   "id": "sk-26bde07f",
+   "group": "Allgemeines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Kanäle verbinden die Havers-Kanäle rechtwinklig miteinander und mit dem Periost?",
+   "options": [
+    "Canaliculi",
+    "Sharpey-Fasern",
+    "Lakunen",
+    "Volkmann-Kanäle",
+    "Canalis nutricius"
+   ],
+   "answer": 3,
+   "explanation": "Volkmann-Kanäle verlaufen quer zur Längsachse und verbinden die Gefäße der Havers-Kanäle untereinander sowie mit Periost- und Endostgefäßen. Canaliculi sind feine Kanälchen für die Fortsätze der Osteozyten.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-eddc1dd9",
+   "group": "Allgemeines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Epiphysenfugenfraktur (Salter–Harris) ist bei Kindern am häufigsten?",
+   "options": [
+    "Typ II",
+    "Typ I",
+    "Typ IV",
+    "Typ III",
+    "Typ V"
+   ],
+   "answer": 0,
+   "explanation": "Bei Salter–Harris Typ II verläuft die Frakturlinie durch die Fuge und tritt durch die Metaphyse aus (Thurston-Holland-Fragment); sie ist am häufigsten und prognostisch günstig. Typ V (Stauchung) hat die schlechteste Prognose und wird oft spät erkannt.",
+   "entries": [
+    "os-structura"
+   ]
+  },
+  {
+   "id": "sk-05b258c2",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Nerv zieht NICHT durch den Anulus tendineus communis (Zinn-Ring)?",
+   "options": [
+    "N. oculomotorius",
+    "N. abducens",
+    "N. nasociliaris",
+    "N. trochlearis",
+    "N. opticus"
+   ],
+   "answer": 3,
+   "explanation": "Durch den Zinn-Ring ziehen N. opticus und A. ophthalmica (Canalis opticus), die beiden Äste des N. oculomotorius, der N. nasociliaris und der N. abducens. N. trochlearis, frontalis und lacrimalis verlaufen oberhalb, außerhalb des Rings.",
+   "entries": [
+    "orbita"
+   ]
+  },
+  {
+   "id": "sk-7c5f6944",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Öffnung verbindet die Flügelgaumengrube mit der Nasenhöhle?",
+   "options": [
+    "Fissura orbitalis inferior",
+    "Fissura pterygomaxillaris",
+    "Canalis palatinus major",
+    "Foramen sphenopalatinum",
+    "Canalis pterygoideus"
+   ],
+   "answer": 3,
+   "explanation": "Das Foramen sphenopalatinum verbindet die Flügelgaumengrube mit dem hinteren oberen Teil der Nasenhöhle; A. sphenopalatina und Nasennerven ziehen hindurch. Die Fissura pterygomaxillaris öffnet sich zur Fossa infratemporalis.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1960c9a2",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Nerven vereinigen sich zum N. canalis pterygoidei (N. Vidianus)?",
+   "options": [
+    "Chorda tympani und N. lingualis",
+    "N. petrosus profundus und N. caroticus internus",
+    "N. petrosus major und N. petrosus minor",
+    "N. petrosus minor und Chorda tympani",
+    "N. petrosus major und N. petrosus profundus"
+   ],
+   "answer": 4,
+   "explanation": "Der N. petrosus major (parasympathische Fasern des VII) und der N. petrosus profundus (sympathische Fasern aus dem Karotisplexus) vereinigen sich zum N. Vidianus, der zum Ganglion pterygopalatinum zieht.",
+   "entries": [
+    "fossa-pterygopalatina"
+   ]
+  },
+  {
+   "id": "sk-1f5f4838",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Kopfform entsteht durch einen vorzeitigen Verschluss der Pfeilnaht (Kraniosynostose)?",
+   "options": [
+    "Trigonozephalie (dreieckige Stirn)",
+    "Brachyzephalie (kurzer, breiter Kopf)",
+    "Oxyzephalie (Turmschädel)",
+    "Plagiozephalie (asymmetrischer Kopf)",
+    "Skaphozephalie (langer, schmaler Kopf)"
+   ],
+   "answer": 4,
+   "explanation": "Senkrecht zur verschlossenen Naht hört das Wachstum auf, parallel dazu nimmt es zu. Bei Sagittalnahtsynostose kann der Kopf nicht in die Breite wachsen und wird lang (Skaphozephalie); sie ist die häufigste Kraniosynostose. Die Stirnnahtsynostose verursacht eine Trigonozephalie.",
+   "entries": [
+    "suturae-fonticuli"
+   ]
+  },
+  {
+   "id": "sk-3de5d43b",
+   "group": "Schädel (Cranium)",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wo verläuft die Frakturlinie bei einer Le-Fort-I-Fraktur?",
+   "options": [
+    "Durch die Augenhöhlen; das Gesicht wird vollständig vom Schädel getrennt.",
+    "Durch den Unterkieferhals.",
+    "Pyramidenförmig durch Nasenwurzel und Orbitaboden.",
+    "Waagerecht durch den Oberkiefer knapp oberhalb des Nasenbodens.",
+    "Nur durch den Jochbogen."
+   ],
+   "answer": 3,
+   "explanation": "Le Fort I trennt den unteren Oberkiefer mit den Zahnfächern ab (schwimmender Gaumen). Le Fort II ist pyramidenförmig (Nasenwurzel, Orbitaboden), Le Fort III eine kraniofaziale Absprengung (durch Augenhöhlen und Jochbögen).",
+   "entries": [
+    "maxilla"
+   ]
+  },
+  {
+   "id": "sk-0ba9ff30",
+   "group": "Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Zwischen welchen Wirbeln tritt der Spinalnerv C5 aus?",
+   "options": [
+    "Zwischen C4 und C5",
+    "Zwischen C7 und T1",
+    "Zwischen C6 und C7",
+    "Zwischen C5 und C6",
+    "Zwischen C3 und C4"
+   ],
+   "answer": 0,
+   "explanation": "Im Halsbereich gibt es 8 Nerven und 7 Wirbel; C1–C7 treten oberhalb des gleichnamigen Wirbels aus, C8 zwischen C7 und T1. Ein Bandscheibenvorfall C5–C6 komprimiert daher die Wurzel C6.",
+   "entries": [
+    "vertebrae-cervicales",
+    "columna-vertebralis"
+   ]
+  },
+  {
+   "id": "sk-0380b366",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In welchem Alter verknöchert die Y-Fuge, die die drei Knochen der Hüftpfanne verbindet?",
+   "options": [
+    "1–2 Jahre",
+    "Nach dem 40. Lebensjahr",
+    "15–17 Jahre",
+    "25–30 Jahre",
+    "5–7 Jahre"
+   ],
+   "answer": 2,
+   "explanation": "Darmbein, Sitzbein und Schambein werden in der Hüftpfanne durch die Y-Fuge getrennt; sie verknöchert am Ende der Pubertät (15–17 Jahre), und das Hüftbein wird zu einem einzigen Knochen.",
+   "entries": [
+    "acetabulum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "sk-57138661",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher ist der engste gerade (anteroposteriore) Durchmesser des Geburtskanals?",
+   "options": [
+    "Conjugata diagonalis",
+    "Interspinaldurchmesser",
+    "Conjugata obstetrica",
+    "Conjugata anatomica (vera)",
+    "Querdurchmesser"
+   ],
+   "answer": 2,
+   "explanation": "Die Conjugata obstetrica ist der Abstand zwischen Promontorium und nächstem Punkt der Symphysenhinterfläche und der engste gerade Durchmesser des Beckeneingangs. Gemessen wird die Conjugata diagonalis, von der 1,5–2 cm abgezogen werden.",
+   "entries": [
+    "pelvis"
+   ]
+  },
+  {
+   "id": "sk-082df539",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Muskel setzt in der Fossa trochanterica des Femurs an?",
+   "options": [
+    "M. quadratus femoris",
+    "M. gluteus medius",
+    "M. piriformis",
+    "M. iliopsoas",
+    "M. obturatorius externus"
+   ],
+   "answer": 4,
+   "explanation": "Die Fossa trochanterica an der Innenseite des Trochanter major ist der Ansatz des M. obturatorius externus. Der M. piriformis setzt am Oberrand des Trochanter major, der M. quadratus femoris am Tuberculum quadratum an.",
+   "entries": [
+    "femur",
+    "m-obturator-externus"
+   ]
+  },
+  {
+   "id": "sk-2b105744",
+   "group": "Knochen des Fußes",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was ist der Hauptgrund für das hohe Nekroserisiko nach Talushalsfrakturen?",
+   "options": [
+    "Die Wachstumsfuge des Talus bleibt beim Erwachsenen offen",
+    "Der Talus wird nur von der A. fibularis versorgt",
+    "Am Talus setzen viele Muskeln an",
+    "Das Blut erreicht den Taluskörper retrograd vom Hals her",
+    "Das Periost des Talus ist dick"
+   ],
+   "answer": 3,
+   "explanation": "Der Talus ist größtenteils von Gelenkknorpel überzogen und hat keine Muskelansätze; der Körper wird vor allem über Äste der A. canalis tarsi retrograd vom Hals her versorgt. Eine Halsfraktur unterbricht diese Gefäße und führt zur Nekrose des Körpers (Hawkins).",
+   "entries": [
+    "talus"
+   ]
+  },
+  {
+   "id": "sk-6d6ca7d5",
+   "group": "Knochen der Hand",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Muskel zieht bei der Bennett-Fraktur das Hauptfragment (distal) nach proximal und lateral?",
+   "options": [
+    "M. adductor pollicis",
+    "M. flexor pollicis longus",
+    "M. abductor pollicis longus",
+    "M. opponens pollicis",
+    "M. extensor pollicis longus"
+   ],
+   "answer": 2,
+   "explanation": "Die Bennett-Fraktur ist eine intraartikuläre Luxationsfraktur der Basis des 1. Mittelhandknochens. Das kleine mediale Fragment bleibt, vom vorderen schrägen Band gehalten, an Ort; der an der Basis ansetzende M. abductor pollicis longus zieht das Hauptfragment nach proximal und lateral.",
+   "entries": [
+    "ossa-metacarpi",
+    "m-abductor-pollicis-longus"
+   ]
+  },
+  {
+   "id": "sk-786f3165",
+   "group": "Knochen der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Motorradfahrer hat eine Beckenringfraktur und ist kreislaufinstabil. Was ist die häufigste Blutungsquelle bei Beckenfrakturen?",
+   "options": [
+    "Präsakrale und pelvine Venengeflechte sowie Frakturflächen",
+    "A. femoralis",
+    "Aorta abdominalis",
+    "V. cava inferior",
+    "A. iliaca communis"
+   ],
+   "answer": 0,
+   "explanation": "Etwa 80–90 % der Blutungen bei Beckenfrakturen stammen aus den Venenplexus und der frakturierten Spongiosa; der Verschluss des Rings mit einer Beckenschlinge ist daher die erste Maßnahme. Arterielle Blutungen werden angioembolisiert.",
+   "entries": [
+    "pelvis"
+   ]
+  }
+ ]
+}

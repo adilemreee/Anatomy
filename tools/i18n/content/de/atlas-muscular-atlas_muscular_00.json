@@ -1,0 +1,317 @@
+{
+ "m-occipitofrontalis": {
+  "tr": "M. occipitofrontalis",
+  "summary": "Mimischer Muskel, der die Kopfhaut bewegt; er besteht aus einem vorderen Stirnbauch (Venter frontalis) und einem hinteren Hinterhauptsbauch (Venter occipitalis), verbunden durch eine flache Sehnenplatte (Galea aponeurotica).",
+  "facts": [
+   "Venter frontalis: Galea aponeurotica; Venter occipitalis: Linea nuchae suprema und Processus mastoideus",
+   "Venter frontalis: Haut von Augenbrauen und Stirn; Venter occipitalis: Galea aponeurotica",
+   "N. facialis (VII) – R. temporalis (frontal) und N. auricularis posterior (okzipital)",
+   "A. supraorbitalis, A. supratrochlearis, A. temporalis superficialis, A. occipitalis",
+   "Hebt die Augenbrauen und runzelt die Stirn (Erstaunen); zieht die Kopfhaut nach vorn und hinten"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei peripherer Fazialisparese (Bell-Lähmung) verschwinden die Stirnfalten auf derselben Seite; bei zentraler Läsion bleibt die Stirn verschont."
+  ],
+  "tus": [
+   "Er geht in die Galea aponeurotica über; reißt die Galea bei Kopfschwartenverletzungen ein, klafft die Wunde.",
+   "Der Stirnbauch wird vom R. temporalis des N. facialis, der Hinterhauptsbauch vom N. auricularis posterior innerviert."
+  ],
+  "aliases": [
+   "Frontalis",
+   "Occipitalis",
+   "Epicranius",
+   "Stirnmuskel"
+  ]
+ },
+ "m-orbicularis-oculi": {
+  "tr": "M. orbicularis oculi",
+  "summary": "Ringförmiger mimischer Muskel um Augenlider und Augenhöhle, der das Auge schließt. Er hat eine Pars orbitalis, palpebralis und lacrimalis.",
+  "facts": [
+   "Os frontale (Pars nasalis), Maxilla (Processus frontalis), Lig. palpebrale mediale, Os lacrimale (Crista lacrimalis posterior)",
+   "Haut um das Auge, Raphe palpebralis lateralis",
+   "N. facialis (VII) – Rr. temporales und zygomatici",
+   "Äste der A. facialis, A. temporalis superficialis und A. ophthalmica",
+   "Pars palpebralis schließt das Auge leicht (Lidschlag), Pars orbitalis kneift es fest zu; Pars lacrimalis unterstützt den Tränenabfluss"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Fazialisparese kann das Auge nicht geschlossen werden; es muss vor Austrocknung und Hornhautulkus geschützt werden.",
+   "Er ist der efferente Schenkel des Kornealreflexes (afferent: N. ophthalmicus)."
+  ],
+  "tus": [
+   "Die Pars palpebralis sorgt für den Lidschlag, die Pars orbitalis für den festen Lidschluss; die Pars lacrimalis hilft beim Tränenabfluss.",
+   "Bei Lähmung kippt das Unterlid nach außen (Ektropium) und Tränen laufen über die Wange (Epiphora)."
+  ],
+  "aliases": [
+   "Augenringmuskel"
+  ]
+ },
+ "m-orbicularis-oris": {
+  "tr": "M. orbicularis oris",
+  "summary": "Ringförmiger mimischer Muskel, der die Lippen umgibt und ihren Großteil bildet. Viele benachbarte mimische Muskeln strahlen in ihn ein.",
+  "facts": [
+   "Maxilla und Mandibula auf Höhe der Schneidezähne, Modiolus am Mundwinkel",
+   "Haut und Schleimhaut der Lippen",
+   "N. facialis (VII) – Rr. buccales und R. marginalis mandibulae",
+   "A. labialis superior und inferior (A. facialis)",
+   "Schließt, spitzt und stülpt die Lippen vor (Pfeifen, Küssen); beteiligt am Sprechen"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Er schließt und spitzt die Lippen; innerviert von den Rr. buccales und dem R. marginalis mandibulae des N. facialis."
+  ],
+  "aliases": [
+   "Mundringmuskel"
+  ]
+ },
+ "m-buccinator": {
+  "tr": "M. buccinator",
+  "summary": "Dünner, viereckiger mimischer Muskel, der die tiefe Schicht der Wange bildet. Beim Kauen hält er die Nahrung zwischen den Zähnen.",
+  "facts": [
+   "Processus alveolares von Maxilla und Mandibula auf Höhe der Molaren, Raphe pterygomandibularis",
+   "Mundwinkel (Modiolus), M. orbicularis oris",
+   "N. facialis (VII) – Rr. buccales",
+   "A. buccalis (A. maxillaris), A. facialis",
+   "Drückt die Wange gegen die Zähne; presst beim Blasen Luft heraus und hilft beim Saugen (Trompetermuskel)"
+  ],
+  "sections": [
+   [
+    "Lagebeziehung",
+    "Der Ductus parotideus (Stensen-Gang) durchbohrt diesen Muskel und mündet gegenüber dem oberen 2. Molaren in die Mundhöhle."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "Der Ductus parotideus durchbohrt den Buccinator gegenüber dem oberen 2. Molaren und mündet ins Vestibulum oris.",
+   "Er entspringt an der Raphe pterygomandibularis, die er mit dem M. constrictor pharyngis superior teilt."
+  ],
+  "aliases": [
+   "Wangenmuskel",
+   "Trompetermuskel"
+  ]
+ },
+ "m-zygomaticus-major": {
+  "tr": "M. zygomaticus major",
+  "summary": "Wichtigster mimischer Muskel des Lächelns, vom Jochbein zum Mundwinkel.",
+  "facts": [
+   "Außenfläche des Os zygomaticum",
+   "Mundwinkel (Modiolus)",
+   "N. facialis (VII) – Rr. zygomatici und buccales",
+   "A. facialis (A. labialis superior)",
+   "Zieht den Mundwinkel nach oben außen (Lächeln)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Beim echten (Duchenne-)Lächeln kontrahiert neben dem Zygomaticus major auch der M. orbicularis oculi."
+  ],
+  "aliases": [
+   "Zygomaticus",
+   "Jochbeinmuskel"
+  ]
+ },
+ "m-levator-labii-superioris": {
+  "tr": "M. levator labii superioris",
+  "summary": "Mimischer Muskel vom Unterrand der Orbita zur Oberlippe. Er hebt die Oberlippe und vertieft die Nasolabialfalte.",
+  "facts": [
+   "Margo infraorbitalis (Maxilla und Os zygomaticum)",
+   "Haut und Muskulatur der Oberlippe",
+   "N. facialis (VII) – Rr. zygomatici und buccales",
+   "A. facialis, A. infraorbitalis",
+   "Hebt die Oberlippe und stülpt sie aus (Trauer, Verachtung)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Er hebt die Oberlippe und ist an der Bildung der Nasolabialfalte beteiligt."
+  ],
+  "aliases": [
+   "Oberlippenheber"
+  ]
+ },
+ "m-depressor-anguli-oris": {
+  "tr": "M. depressor anguli oris",
+  "summary": "Dreieckiger mimischer Muskel von der Seitenfläche des Unterkiefers zum Mundwinkel.",
+  "facts": [
+   "Linea obliqua mandibulae",
+   "Mundwinkel (Modiolus)",
+   "N. facialis (VII) – R. marginalis mandibulae und Rr. buccales",
+   "A. labialis inferior (A. facialis)",
+   "Zieht den Mundwinkel nach unten außen (Trauer)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Wird bei Eingriffen in der Submandibularregion der R. marginalis mandibulae verletzt, hängt der Mundwinkel derselben Seite."
+  ],
+  "tus": [
+   "Bei Lähmung des R. marginalis mandibulae kann der Mundwinkel nicht gesenkt werden; der Ast ist bei Operationen an der Glandula submandibularis zu schonen."
+  ],
+  "aliases": [
+   "Mentalis",
+   "Risorius"
+  ]
+ },
+ "m-nasalis": {
+  "tr": "M. nasalis",
+  "summary": "Kleiner mimischer Muskel, der die Nasenflügel bewegt, mit einer Pars transversa und einer Pars alaris.",
+  "facts": [
+   "Maxilla (über Eck- und Schneidezähnen)",
+   "Aponeurose des Nasenrückens und Nasenflügel",
+   "N. facialis (VII) – Rr. buccales",
+   "A. labialis superior, A. angularis",
+   "Verengt die Nasenlöcher (Pars transversa) und erweitert sie (Pars alaris)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Er hat eine Pars alaris, die die Nasenlöcher erweitert, und eine Pars transversa, die sie verengt; Nasenflügelatmung zeigt Atemnot an."
+  ],
+  "aliases": [
+   "Procerus",
+   "Corrugator",
+   "Nasenmuskel"
+  ]
+ },
+ "m-platysma": {
+  "tr": "Platysma",
+  "summary": "Breiter, dünner mimischer Muskel direkt unter der Haut an Vorder- und Seitenfläche des Halses.",
+  "facts": [
+   "Fascia pectoralis und Fascia deltoidea der oberen Brust",
+   "Unterrand der Mandibula, Wangenhaut und Mundwinkel",
+   "N. facialis (VII) – R. colli",
+   "A. submentalis, A. suprascapularis",
+   "Spannt die Halshaut, zieht Unterlippe und Mundwinkel nach unten; Ausdruck von Angst und Anstrengung"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Das Platysma liegt in der oberflächlichen Halsfaszie; bei Halsschnitten wird es zusammen mit der Haut genäht."
+  ],
+  "aliases": [
+   "Halshautmuskel"
+  ]
+ },
+ "m-masseter": {
+  "tr": "M. masseter",
+  "summary": "Kräftiger viereckiger Muskel auf dem Unterkieferast, der beim Zusammenbeißen in der Wange tastbar ist. Bezogen auf sein Gewicht ist er einer der stärksten Muskeln des Körpers.",
+  "facts": [
+   "Pars superficialis: vordere 2/3 des Arcus zygomaticus; Pars profunda: hinteres 1/3 und Innenfläche des Arcus zygomaticus",
+   "Außenfläche des Ramus mandibulae, Angulus mandibulae und Processus coronoideus",
+   "N. massetericus (N. mandibularis – V3)",
+   "A. masseterica (A. maxillaris), A. facialis, A. transversa faciei",
+   "Hebt den Unterkiefer (Mundschluss, Zähnepressen); oberflächliche Fasern unterstützen die Protrusion"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bruxismus (Zähneknirschen) kann zu einer Hypertrophie des Muskels führen.",
+   "Beim Tetanus verhindert ein Krampf der Kaumuskeln die Mundöffnung (Trismus)."
+  ],
+  "tus": [
+   "Masseterhypertrophie findet sich bei Bruxismus; der Ductus parotideus zieht um den Vorderrand des Masseter.",
+   "Der Masseter wird vom N. massetericus (V3) innerviert, der durch die Incisura mandibulae zieht."
+  ],
+  "aliases": [
+   "Kaumuskel"
+  ]
+ },
+ "m-temporalis": {
+  "tr": "M. temporalis",
+  "summary": "Fächerförmiger Kaumuskel, der die Schläfengrube ausfüllt.",
+  "facts": [
+   "Boden der Fossa temporalis und Fascia temporalis",
+   "Processus coronoideus und Vorderrand des Ramus mandibulae",
+   "Nn. temporales profundi (N. mandibularis – V3)",
+   "Aa. temporales profundae (A. maxillaris), A. temporalis media",
+   "Hebt den Unterkiefer (vordere Fasern); hintere Fasern ziehen ihn zurück (Retrusion)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Kiefergelenkstörungen und Spannungskopfschmerz kann der Muskel druckempfindlich sein."
+  ],
+  "tus": [
+   "Der Temporalis setzt am Processus coronoideus an; seine Kontraktion ist tastbar und dient der motorischen Prüfung von V3."
+  ],
+  "aliases": [
+   "Schläfenmuskel"
+  ]
+ },
+ "mm-pterygoidei": {
+  "tr": "Mm. pterygoidei",
+  "summary": "Zwei Kaumuskeln an der Innenseite des Unterkiefers in der Fossa infratemporalis. Der M. pterygoideus lateralis ist der einzige Kaumuskel, der den Mund öffnet.",
+  "facts": [
+   "Lateralis: oberer Kopf von der Facies infratemporalis der Ala major, unterer Kopf von der Außenfläche der Lamina lateralis processus pterygoidei; medialis: Innenfläche der Lamina lateralis, Os palatinum und Tuber maxillae",
+   "Lateralis: Fovea pterygoidea am Collum mandibulae, Discus und Kapsel des Kiefergelenks; medialis: Innenfläche von Ramus und Angulus mandibulae",
+   "N. mandibularis (V3) – N. pterygoideus lateralis und medialis",
+   "Rr. pterygoidei der A. maxillaris",
+   "Lateralis: schiebt den Unterkiefer vor und öffnet den Mund, Seitwärtsbewegung beim Mahlen; medialis: hebt, schiebt vor und bewegt den Unterkiefer seitwärts"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "M. pterygoideus medialis und Masseter umgreifen den Kieferwinkel wie eine Schlinge (pterygomasseterische Schlinge).",
+   "Zwischen den beiden Köpfen des Pterygoideus lateralis kann die A. maxillaris oder der N. buccalis ziehen."
+  ],
+  "aliases": [
+   "Pterygoideus",
+   "Flügelmuskel"
+  ]
+ },
+ "mm-bulbi": {
+  "tr": "Äußere Augenmuskeln",
+  "summary": "Muskelgruppe aus vier geraden (Mm. recti) und zwei schrägen Muskeln (Mm. obliqui), die den Augapfel bewegen, sowie dem M. levator palpebrae superioris, der das Oberlid hebt.",
+  "facts": [
+   "Vier Recti und M. obliquus superior: Anulus tendineus communis und Umgebung; M. obliquus inferior: vorderer medialer Orbitaboden (Maxilla)",
+   "Sklera; der M. obliquus superior zieht über die Trochlea zum hinteren oberen äußeren Quadranten des Bulbus",
+   "N. oculomotorius (III): M. rectus superior, inferior, medialis, M. obliquus inferior, M. levator palpebrae; N. trochlearis (IV): M. obliquus superior; N. abducens (VI): M. rectus lateralis",
+   "Muskeläste der A. ophthalmica",
+   "Rectus medialis: Adduktion; lateralis: Abduktion; superior: Hebung (und Innenrollung); inferior: Senkung (und Außenrollung); obliquus superior: Senkung, Abduktion, Innenrollung; obliquus inferior: Hebung, Abduktion, Außenrollung"
+  ],
+  "sections": [
+   [
+    "Merkhilfe",
+    "LR6SO4, Rest 3: M. rectus lateralis wird vom VI., M. obliquus superior vom IV., alle anderen vom III. Hirnnerv innerviert."
+   ]
+  ],
+  "clinical": [
+   "Bei Abduzensparese weicht das Auge nach innen ab (Esotropie) mit Doppelbildern beim Blick nach außen.",
+   "Bei Okulomotoriusparese blickt das Auge nach unten außen, mit Ptosis und Mydriasis.",
+   "Bei Trochlearisparese treten Doppelbilder beim Blick nach unten (Treppensteigen) auf; der Patient neigt den Kopf zur gesunden Seite."
+  ],
+  "tus": [
+   "Die Recti entspringen am Anulus tendineus communis (Zinn-Ring); der M. obliquus inferior entspringt als einziger am Orbitaboden.",
+   "Klinische Prüfung: Rectus superior/inferior in Abduktion, die Obliqui in Adduktion (H-Test)."
+  ],
+  "aliases": [
+   "Augenmuskeln",
+   "Rectus",
+   "Obliquus"
+  ]
+ },
+ "mm-linguae": {
+  "tr": "Zungenmuskeln",
+  "summary": "Gruppe aus inneren Muskeln, die die Zungenform verändern, und äußeren Muskeln, die die Zunge bewegen: M. genioglossus, M. hyoglossus, M. styloglossus und M. palatoglossus.",
+  "facts": [
+   "Genioglossus: Spina mentalis superior; Hyoglossus: Os hyoideum (Corpus und Cornu majus); Styloglossus: Processus styloideus",
+   "Unterfläche, Seitenränder und Wurzel der Zunge",
+   "N. hypoglossus (XII) – alle Zungenmuskeln; Ausnahme M. palatoglossus (N. vagus – Plexus pharyngeus)",
+   "A. lingualis",
+   "Genioglossus streckt die Zunge heraus; Hyoglossus zieht sie nach unten; Styloglossus zieht sie nach oben hinten; innere Muskeln verändern ihre Form"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei einer Hypoglossusläsion weicht die herausgestreckte Zunge zur gelähmten Seite ab.",
+   "Bei Bewusstlosigkeit kann die Zunge bei erschlafftem Genioglossus zurückfallen und die Atemwege verlegen."
+  ],
+  "tus": [
+   "Die Zungenmuskeln entstehen aus okzipitalen Myotomen und werden vom N. hypoglossus innerviert (außer Palatoglossus).",
+   "Eine Genioglossuslähmung (z. B. in Narkose) lässt die Zunge zurückfallen und die Atemwege verlegen."
+  ],
+  "aliases": [
+   "Genioglossus",
+   "Hyoglossus",
+   "Zunge"
+  ]
+ }
+}

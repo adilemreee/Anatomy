@@ -1,0 +1,252 @@
+{
+ "art-sacroiliaca": {
+  "tr": "Articulation sacro-iliaque",
+  "summary": "Articulation entre les surfaces auriculaires du sacrum et de l'os coxal, maintenue par des ligaments très puissants. Elle transmet le poids du tronc aux membres inférieurs.",
+  "facts": [
+   "Synoviale en avant, syndesmose en arrière (articulation mixte) ; très peu mobile",
+   "Ligaments sacro-iliaques antérieur, interosseux (le plus solide) et postérieur ; ligaments accessoires : sacro-tubéral, sacro-épineux, ilio-lombaire",
+   "Glissements et rotations très limités (nutation–contre-nutation) ; se relâche sous l'effet hormonal pendant la grossesse"
+  ],
+  "sections": [],
+  "clinical": [
+   "La sacro-iliite est un signe précoce des spondylarthropathies séronégatives comme la spondylarthrite ankylosante.",
+   "C'est une cause souvent méconnue de lombalgie et de douleur de hanche."
+  ],
+  "tus": [
+   "La partie antérieure de l'articulation sacro-iliaque est synoviale, la partie postérieure une syndesmose.",
+   "La sacro-iliite est un signe précoce et caractéristique de la spondylarthrite ankylosante."
+  ],
+  "aliases": [
+   "SI"
+  ]
+ },
+ "symphysis-pubica": {
+  "tr": "Symphyse pubienne",
+  "summary": "Articulation par laquelle les deux os pubis s'unissent sur la ligne médiane, par l'intermédiaire d'un disque fibrocartilagineux (disque interpubien).",
+  "facts": [
+   "Symphyse (articulation cartilagineuse secondaire)",
+   "Ligament pubien supérieur, ligament pubien inférieur (arqué)",
+   "Très limité ; s'écarte légèrement lors de l'accouchement"
+  ],
+  "sections": [],
+  "clinical": [
+   "La disjonction de la symphyse pendant la grossesse peut rendre la marche douloureuse.",
+   "L'ostéite pubienne provoque des douleurs inguinales chez le sportif."
+  ],
+  "tus": [
+   "Pendant la grossesse, la symphyse peut s'écarter de quelques millimètres sous l'effet de la relaxine.",
+   "Le bord supérieur de la symphyse est la limite antérieure du détroit supérieur ; la vessie vide se trouve en arrière."
+  ],
+  "aliases": []
+ },
+ "ligg-pelvis": {
+  "tr": "Ligaments du bassin",
+  "summary": "Ligaments puissants tendus entre le sacrum et l'os coxal, qui transforment les incisures ischiatiques en foramens, et membrane qui ferme le foramen obturé.",
+  "facts": [
+   "Du bord du sacrum et du coccyx à la tubérosité ischiatique",
+   "Du bord du sacrum et du coccyx à l'épine ischiatique",
+   "Grand foramen ischiatique (piriforme, vaisseaux et nerfs glutéaux, nerf sciatique) et petit foramen ischiatique (tendon de l'obturateur interne, nerf pudendal)",
+   "Ferme le foramen obturé en laissant en haut le canal obturateur",
+   "Du processus transverse de L5 à la crête iliaque"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le bloc du nerf pudendal (lors de l'accouchement) se fait juste à côté de l'épine ischiatique, autour du ligament sacro-épineux."
+  ],
+  "tus": [
+   "Les ligaments sacro-épineux et sacro-tubéral empêchent la bascule antérieure du sacrum (nutation).",
+   "Le ligament ilio-lombaire unit le processus transverse de L5 à la crête iliaque et limite le glissement antérieur de L5."
+  ],
+  "aliases": []
+ },
+ "art-coxae": {
+  "tr": "Articulation de la hanche",
+  "summary": "Articulation sphéroïde entre la tête fémorale et l'acétabulum de l'os coxal. Grâce à son cotyle profond et à ses ligaments puissants, elle est bien plus stable que l'épaule.",
+  "facts": [
+   "Articulation synoviale sphéroïde (énarthrose)",
+   "Tête fémorale – surface semi-lunaire de l'acétabulum ; le labrum acétabulaire et le ligament transverse de l'acétabulum approfondissent le cotyle",
+   "Ligament ilio-fémoral (ligament en Y – le plus puissant du corps, empêche l'hyperextension), ligament pubo-fémoral, ligament ischio-fémoral, ligament de la tête fémorale, zone orbiculaire",
+   "Flexion (~120°), extension (~20°), abduction, adduction, rotations médiale et latérale",
+   "Artères circonflexes médiale (principale) et latérale de la cuisse, artère obturatrice (artère du ligament de la tête)",
+   "Branches des nerfs fémoral, obturateur et sciatique – la douleur de hanche peut irradier au genou"
+  ],
+  "sections": [],
+  "clinical": [
+   "La dysplasie développementale de la hanche est dépistée chez le nouveau-né par les manœuvres d'Ortolani et de Barlow.",
+   "La luxation postérieure de hanche (p. ex. genou heurtant le tableau de bord) peut léser le nerf sciatique ; le membre est raccourci, en flexion, adduction et rotation médiale.",
+   "La coxarthrose évoluée nécessite une prothèse totale de hanche ; la douleur peut être ressentie dans l'aine et le genou."
+  ],
+  "tus": [
+   "La hanche est la plus stable en extension, abduction et rotation médiale (ligaments tendus).",
+   "La dysplasie de hanche est dépistée chez le nouveau-né par les manœuvres d'Ortolani et de Barlow."
+  ],
+  "aliases": [
+   "hanche",
+   "coxo-fémorale"
+  ]
+ },
+ "art-genus": {
+  "tr": "Articulation du genou",
+  "summary": "La plus grande et la plus complexe des articulations du corps. Elle comprend les articulations entre condyles fémoraux et tibiaux (fémoro-tibiale) et entre patella et fémur (fémoro-patellaire) ; sa stabilité repose surtout sur les ligaments et les muscles.",
+  "facts": [
+   "Articulation synoviale bicondylaire (trochléenne modifiée)",
+   "Ménisque médial (en C, adhérent au ligament collatéral tibial) et ménisque latéral (en O, plus mobile) ; ligaments croisés antérieur et postérieur ; corps adipeux infrapatellaire (de Hoffa)",
+   "Ligament collatéral tibial (médial), ligament collatéral fibulaire (latéral), ligament patellaire, ligaments poplités oblique et arqué",
+   "Flexion (~140°), extension ; rotation limitée genou fléchi ; verrouillage en extension complète par rotation médiale du fémur (screw-home)",
+   "Bourse suprapatellaire (communiquant avec la cavité articulaire), bourses prépatellaire, infrapatellaire, ansérine"
+  ],
+  "sections": [
+   [
+    "Ligaments croisés",
+    "Le ligament croisé antérieur (LCA) empêche le tibia de glisser en avant sous le fémur, le ligament croisé postérieur (LCP) l'empêche de glisser en arrière. Ils sont nommés d'après leur insertion tibiale."
+   ]
+  ],
+  "clinical": [
+   "Triade malheureuse (O'Donoghue) : lésion associée du ligament collatéral médial, du LCA et du ménisque médial après un choc sur la face latérale du genou.",
+   "En cas de rupture du LCA, les tests du tiroir antérieur et de Lachman sont positifs.",
+   "Les lésions méniscales donnent une douleur de l'interligne, des blocages et un test de McMurray positif.",
+   "Le kyste poplité (de Baker) est fréquent à la face postérieure du genou."
+  ],
+  "tus": [
+   "Le genou comporte trois compartiments : fémoro-tibiaux médial et latéral, fémoro-patellaire.",
+   "La bourse suprapatellaire communique avec la cavité articulaire ; c'est là que l'on perçoit l'épanchement (choc patellaire)."
+  ],
+  "aliases": [
+   "genou"
+  ]
+ },
+ "meniscus": {
+  "tr": "Ménisques du genou",
+  "summary": "Deux anneaux fibrocartilagineux, triangulaires en coupe, situés entre les condyles fémoraux et tibiaux. Ils améliorent la congruence des surfaces articulaires et répartissent les charges.",
+  "facts": [
+   "En C, large ; adhérent au ligament collatéral tibial, donc moins mobile et plus souvent lésé",
+   "Presque en O, plus petit et plus mobile ; relié au muscle poplité",
+   "Ligaments ménisco-tibiaux, ligament transverse du genou, ligaments ménisco-fémoraux",
+   "Seul le tiers périphérique (zone rouge) est vascularisé ; la partie interne cicatrise mal"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une torsion brutale du genou fléchi en charge déchire un ménisque ; une lésion en anse de seau peut bloquer le genou."
+  ],
+  "tus": [
+   "Le tiers périphérique des ménisques est vascularisé (zone rouge) et suturable ; les deux tiers internes sont avasculaires.",
+   "Les lésions en anse de seau entraînent un blocage articulaire."
+  ],
+  "aliases": [
+   "ménisque"
+  ]
+ },
+ "ligg-cruciata": {
+  "tr": "Ligaments croisés",
+  "summary": "Deux ligaments puissants qui se croisent dans l'articulation du genou (mais hors de la synoviale) : le ligament croisé antérieur (LCA) et le ligament croisé postérieur (LCP).",
+  "facts": [
+   "De l'aire intercondylaire antérieure du tibia à la face interne du condyle fémoral latéral ; empêche le glissement antérieur du tibia et l'hyperextension",
+   "De l'aire intercondylaire postérieure du tibia à la face externe du condyle fémoral médial ; empêche le glissement postérieur du tibia ; le plus puissant",
+   "Artère moyenne du genou (artère poplitée)"
+  ],
+  "sections": [],
+  "clinical": [
+   "La rupture du LCA survient chez le sportif lors des changements de direction et des réceptions ; un « pop » et un gonflement rapide (hémarthrose) sont typiques.",
+   "La rupture du LCP survient dans le syndrome du tableau de bord (genou fléchi heurtant le tableau de bord) ; le tiroir postérieur est positif."
+  ],
+  "tus": [
+   "Le LCA va de l'aire intercondylaire antérieure du tibia à la face interne du condyle latéral, le LCP de l'aire intercondylaire postérieure à la face externe du condyle médial.",
+   "Les ligaments croisés sont intracapsulaires mais extrasynoviaux."
+  ],
+  "aliases": [
+   "LCA",
+   "LCP"
+  ]
+ },
+ "ligg-collateralia-genus": {
+  "tr": "Ligaments collatéraux du genou",
+  "summary": "Ligaments qui renforcent les faces médiale et latérale du genou ; ils empêchent son ouverture latérale (valgus/varus).",
+  "facts": [
+   "Épicondyle médial du fémur – face médiale du tibia ; large et plat, adhérent au ménisque médial ; s'oppose au valgus",
+   "Épicondyle latéral du fémur – tête de la fibula ; cordon arrondi, indépendant du ménisque ; s'oppose au varus",
+   "Tous deux sont tendus en extension complète"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les chocs sur la face latérale du genou sollicitent le ligament collatéral médial ; on l'évalue par le test en valgus forcé."
+  ],
+  "tus": [
+   "Le ligament collatéral médial est large et plat et adhère au ménisque médial ; le latéral est un cordon arrondi qui n'adhère pas au ménisque.",
+   "Les ligaments collatéraux sont tendus en extension et détendus en flexion."
+  ],
+  "aliases": [
+   "LLI",
+   "LLE",
+   "ligament latéral"
+  ]
+ },
+ "artt-tibiofibulares": {
+  "tr": "Articulations tibio-fibulaires",
+  "summary": "L'articulation synoviale supérieure entre tibia et fibula, la syndesmose inférieure et la membrane interosseuse de la jambe entre leurs diaphyses.",
+  "facts": [
+   "Articulation tibio-fibulaire : synoviale plane (tête de la fibula – condyle latéral du tibia)",
+   "Syndesmose tibio-fibulaire : ligaments tibio-fibulaires antérieur et postérieur ; stabilise la mortaise talo-crurale",
+   "Donne insertion aux muscles de la jambe et sépare les loges antérieure et postérieure"
+  ],
+  "sections": [],
+  "clinical": [
+   "L'entorse haute de cheville est une rupture des ligaments de la syndesmose et guérit plus lentement."
+  ],
+  "tus": [
+   "L'articulation tibio-fibulaire proximale est une synoviale plane, la distale une syndesmose.",
+   "Dans l'entorse haute (lésion de la syndesmose), le test en rotation externe est positif."
+  ],
+  "aliases": []
+ },
+ "art-talocruralis": {
+  "tr": "Articulation de la cheville",
+  "summary": "Articulation trochléenne entre la mortaise formée par les extrémités inférieures du tibia et de la fibula et la trochlée du talus.",
+  "facts": [
+   "Articulation synoviale trochléenne (ginglyme)",
+   "Surface inférieure du tibia et malléole médiale, malléole latérale – trochlée du talus",
+   "Ligament collatéral médial (deltoïdien) : faisceaux tibio-naviculaire, tibio-calcanéen, tibio-talaires antérieur et postérieur – très solide",
+   "Ligament talo-fibulaire antérieur (le plus souvent rompu), ligament calcanéo-fibulaire, ligament talo-fibulaire postérieur",
+   "Flexion dorsale (~20°) et flexion plantaire (~50°) ; l'inversion–éversion se fait dans la subtalaire",
+   "Plus stable en flexion dorsale car la trochlée est plus large en avant ; exposée aux entorses en flexion plantaire"
+  ],
+  "sections": [],
+  "clinical": [
+   "La plupart des entorses de cheville surviennent en flexion plantaire + inversion, et le ligament talo-fibulaire antérieur se rompt en premier.",
+   "Les règles d'Ottawa déterminent la nécessité d'une radiographie après un traumatisme de cheville.",
+   "Fracture de Pott : lors d'un traumatisme en éversion, rupture du ligament deltoïdien ou fracture de la malléole médiale associée à une fracture de la fibula."
+  ],
+  "tus": [
+   "Le ligament deltoïdien comporte quatre faisceaux (tibio-naviculaire, tibio-calcanéen, tibio-talaires antérieur et postérieur) et limite l'éversion.",
+   "Les règles d'Ottawa déterminent l'indication des radiographies après un traumatisme de cheville."
+  ],
+  "aliases": [
+   "cheville",
+   "talo-crurale"
+  ]
+ },
+ "artt-pedis": {
+  "tr": "Articulations du pied",
+  "summary": "Articulations entre les os du tarse (subtalaire, talo-calcanéo-naviculaire, calcanéo-cuboïdienne), tarso-métatarsiennes, métatarso-phalangiennes et interphalangiennes, et ligaments qui soutiennent les arches du pied.",
+  "facts": [
+   "Talus – calcanéus ; l'essentiel de l'inversion et de l'éversion s'y fait",
+   "Articulations talo-calcanéo-naviculaire + calcanéo-cuboïdienne",
+   "Os du tarse et bases métatarsiennes ; la base du 2e métatarsien en est la clé",
+   "Ligament calcanéo-naviculaire plantaire (ligament glénoïdien – soutient la tête du talus), long ligament plantaire, ligament calcanéo-cuboïdien plantaire, aponévrose plantaire",
+   "Arches longitudinales médiale et latérale, arche transversale"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les lésions de Lisfranc peuvent passer inaperçues et laisser douleurs et déformations chroniques.",
+   "L'insuffisance du ligament calcanéo-naviculaire plantaire contribue au pied plat."
+  ],
+  "tus": [
+   "Interligne de Chopart (transverse du tarse) : talo-naviculaire + calcanéo-cuboïdienne ; interligne de Lisfranc : articulations tarso-métatarsiennes.",
+   "Le ligament calcanéo-naviculaire plantaire soutient la tête du talus ; son insuffisance mène au pied plat."
+  ],
+  "aliases": [
+   "subtalaire",
+   "Lisfranc",
+   "Chopart"
+  ]
+ }
+}

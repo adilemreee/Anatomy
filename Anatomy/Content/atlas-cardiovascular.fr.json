@@ -1,0 +1,2569 @@
+{
+ "system": "cardiovascular",
+ "entries": [
+  {
+   "id": "cor",
+   "tr": "Cœur",
+   "la": "Cor",
+   "en": "Heart",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Organe musculaire situé dans le médiastin moyen, entre les deux poumons, qui propulse le sang dans tout le corps. Il a à peu près la taille d'un poing et comporte quatre cavités : deux atriums et deux ventricules.",
+   "facts": [
+    [
+     "Ağırlık",
+     "Environ 250–350 g chez l'adulte",
+     "Poids"
+    ],
+    [
+     "Konum",
+     "Médiastin moyen ; les deux tiers à gauche de la ligne médiane, l'apex (apex cordis) dans le 5e espace intercostal gauche sur la ligne médioclaviculaire",
+     "Situation"
+    ],
+    [
+     "Duvar katmanları",
+     "Endocarde, myocarde (muscle cardiaque), épicarde (péricarde viscéral)",
+     "Couches de la paroi"
+    ],
+    [
+     "Boşlukları",
+     "Atrium droit, ventricule droit, atrium gauche, ventricule gauche",
+     "Cavités"
+    ],
+    [
+     "Kapakları",
+     "Tricuspide, pulmonaire, mitrale (bicuspide), aortique",
+     "Valves"
+    ],
+    [
+     "Kanlanma",
+     "Artères coronaires droite et gauche",
+     "Vascularisation"
+    ],
+    [
+     "İnnervasyon",
+     "Plexus cardiaque (sympathique : augmente la fréquence et la contractilité ; parasympathique – nerf vague : ralentit le cœur)",
+     "Innervation"
+    ]
+   ],
+   "sections": [
+    [
+     "Circulation du sang",
+     "Le sang désoxygéné du corps arrive dans l'atrium droit par les veines caves, passe la valve tricuspide vers le ventricule droit puis la valve pulmonaire vers le tronc pulmonaire et les poumons. Le sang oxygéné revient des poumons par les veines pulmonaires dans l'atrium gauche, passe la valve mitrale vers le ventricule gauche et est éjecté par la valve aortique dans l'aorte."
+    ],
+    [
+     "Système de conduction",
+     "Nœud sinusal (pacemaker ; atrium droit) → nœud atrioventriculaire → faisceau de His → branches droite et gauche → fibres de Purkinje."
+    ]
+   ],
+   "clinical": [
+    "L'infarctus du myocarde est la nécrose du muscle cardiaque due à l'occlusion d'une artère coronaire.",
+    "Dans l'insuffisance cardiaque, le cœur ne peut pomper autant de sang que l'organisme en a besoin ; l'insuffisance gauche donne un œdème pulmonaire, la droite des œdèmes des jambes et une hépatomégalie.",
+    "Foyers d'auscultation : aortique (2e espace droit), pulmonaire (2e espace gauche), tricuspide (4e–5e espace gauche au bord sternal), mitral (apex)."
+   ],
+   "tus": [
+    "L'apex du cœur se palpe dans le 5e espace intercostal gauche, juste en dedans de la ligne médioclaviculaire (choc de pointe).",
+    "Le premier tube cardiaque commence à battre à la fin de la 3e semaine ; le cloisonnement a lieu entre la 4e et la 7e semaine."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "ventriculus-sinister",
+    "valvae-cordis",
+    "aa-coronariae",
+    "aorta",
+    "pericardium"
+   ],
+   "models": [
+    "Heart"
+   ],
+   "aliases": [
+    "cœur",
+    "cardiaque"
+   ]
+  },
+  {
+   "id": "atrium-dextrum",
+   "tr": "Atrium droit",
+   "la": "Atrium dextrum",
+   "en": "Right atrium",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Cavité cardiaque qui recueille le sang désoxygéné du corps et de la paroi cardiaque elle-même. Il contient le nœud sinusal, le pacemaker naturel du cœur.",
+   "facts": [
+    [
+     "Açılan damarlar",
+     "Veine cave supérieure, veine cave inférieure, sinus coronaire",
+     "Vaisseaux qui s'y abouchent"
+    ],
+    [
+     "İç yapılar",
+     "Auricule droite, muscles pectinés, crête terminale, fosse ovale (vestige du foramen ovale), valvule de la veine cave inférieure",
+     "Structures internes"
+    ],
+    [
+     "İleti sistemi",
+     "Nœud sinusal (près de l'abouchement de la veine cave supérieure), nœud atrioventriculaire (dans le triangle de Koch)",
+     "Système de conduction"
+    ],
+    [
+     "Çıkış",
+     "Vers le ventricule droit par l'orifice atrioventriculaire droit (valve tricuspide)",
+     "Sortie"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Si le foramen ovale ne se ferme pas après la naissance (foramen ovale perméable), il existe un risque d'embolie paradoxale.",
+    "La communication interatriale (CIA) entraîne une surcharge volumique du cœur droit."
+   ],
+   "tus": [
+    "La partie lisse de l'atrium droit (sinus des veines caves) dérive du sinus veineux, la partie musculaire (muscles pectinés) de l'atrium primitif ; la crête terminale marque leur limite.",
+    "La valvule de la veine cave inférieure (d'Eustachi) borde l'orifice de la VCI, la valvule du sinus coronaire (de Thébésius) celui du sinus coronaire."
+   ],
+   "related": [
+    "cor",
+    "ventriculus-dexter",
+    "v-cava-superior",
+    "v-cava-inferior",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Right atrium"
+   ],
+   "aliases": [
+    "oreillette droite"
+   ]
+  },
+  {
+   "id": "ventriculus-dexter",
+   "tr": "Ventricule droit",
+   "la": "Ventriculus dexter",
+   "en": "Right ventricle",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Cavité cardiaque qui propulse le sang désoxygéné vers les poumons. Il forme la plus grande partie de la face antérieure du cœur ; sa paroi est environ trois fois plus mince que celle du ventricule gauche.",
+   "facts": [
+    [
+     "Giriş",
+     "Valve tricuspide",
+     "Entrée"
+    ],
+    [
+     "Çıkış",
+     "Cône artériel (infundibulum) et valve pulmonaire vers le tronc pulmonaire",
+     "Sortie"
+    ],
+    [
+     "İç yapılar",
+     "Trabécules charnues, muscles papillaires (antérieur, postérieur, septal), cordages tendineux, trabécule septo-marginale (bandelette ansiforme – porte la branche droite)",
+     "Structures internes"
+    ],
+    [
+     "Duvar kalınlığı",
+     "3–5 mm",
+     "Épaisseur de la paroi"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'hypertension pulmonaire entraîne une hypertrophie et une insuffisance ventriculaires droites (cœur pulmonaire).",
+    "L'hypertrophie ventriculaire droite est l'un des éléments de la tétralogie de Fallot."
+   ],
+   "tus": [
+    "L'intérieur du ventricule droit est trabéculé (trabécules charnues) ; sa chambre de chasse (infundibulum) a une paroi lisse.",
+    "La valve tricuspide a trois valvules (antérieure, postérieure, septale) et trois muscles papillaires."
+   ],
+   "related": [
+    "cor",
+    "atrium-dextrum",
+    "truncus-pulmonalis",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Right ventricle",
+    "Anterior papillary muscle of right ventricle",
+    "Inferior papillary muscle of right ventricle",
+    "Septal papillary muscle of right ventricle"
+   ],
+   "aliases": [
+    "ventricule droit"
+   ]
+  },
+  {
+   "id": "atrium-sinistrum",
+   "tr": "Atrium gauche",
+   "la": "Atrium sinistrum",
+   "en": "Left atrium",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Cavité cardiaque qui recueille le sang oxygéné venant des poumons et forme la plus grande partie de la base du cœur (basis cordis). C'est la cavité la plus postérieure du cœur, au contact de l'œsophage.",
+   "facts": [
+    [
+     "Açılan damarlar",
+     "Quatre veines pulmonaires",
+     "Vaisseaux qui s'y abouchent"
+    ],
+    [
+     "Çıkış",
+     "Vers le ventricule gauche par la valve mitrale",
+     "Sortie"
+    ],
+    [
+     "İç yapılar",
+     "Paroi en grande partie lisse ; les muscles pectinés se trouvent dans l'auricule gauche",
+     "Structures internes"
+    ],
+    [
+     "Komşuluk",
+     "En arrière, l'œsophage – bien visible en échocardiographie transœsophagienne",
+     "Rapports"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En cas de fibrillation atriale, le sang peut coaguler dans l'auricule gauche et provoquer un AVC.",
+    "Dans le rétrécissement mitral, l'atrium gauche dilaté peut comprimer l'œsophage et gêner la déglutition."
+   ],
+   "tus": [
+    "Quatre veines pulmonaires s'abouchent dans l'atrium gauche ; l'auricule gauche est le siège le plus fréquent des thrombus (fibrillation atriale).",
+    "En dehors de l'auricule, la paroi de l'atrium gauche est lisse ; elle dérive des veines pulmonaires."
+   ],
+   "related": [
+    "cor",
+    "ventriculus-sinister",
+    "vv-pulmonales",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Left atrium"
+   ],
+   "aliases": [
+    "oreillette gauche"
+   ]
+  },
+  {
+   "id": "ventriculus-sinister",
+   "tr": "Ventricule gauche",
+   "la": "Ventriculus sinister",
+   "en": "Left ventricle",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "La cavité la plus puissante du cœur, qui propulse le sang oxygéné par l'aorte vers tout l'organisme. Il forme l'apex et le bord gauche du cœur.",
+   "facts": [
+    [
+     "Giriş",
+     "Valve mitrale (bicuspide)",
+     "Entrée"
+    ],
+    [
+     "Çıkış",
+     "Vestibule aortique et valve aortique",
+     "Sortie"
+    ],
+    [
+     "İç yapılar",
+     "Trabécules charnues fines et serrées, deux puissants muscles papillaires (antérieur et postérieur), cordages tendineux",
+     "Structures internes"
+    ],
+    [
+     "Duvar kalınlığı",
+     "8–12 mm",
+     "Épaisseur de la paroi"
+    ],
+    [
+     "Ejeksiyon fraksiyonu",
+     "Normalement 55–70 %",
+     "Fraction d'éjection"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'hypertension artérielle et le rétrécissement aortique entraînent une hypertrophie ventriculaire gauche.",
+    "Dans l'infarctus antérieur (occlusion de l'IVA), la paroi antérieure du ventricule gauche et le septum sont atteints ; la rupture d'un muscle papillaire peut provoquer une insuffisance mitrale aiguë."
+   ],
+   "tus": [
+    "La valvule antérieure de la mitrale est en continuité fibreuse avec la valve aortique.",
+    "La paroi ventriculaire gauche est environ trois fois plus épaisse que la droite (~10–15 mm)."
+   ],
+   "related": [
+    "cor",
+    "atrium-sinistrum",
+    "aorta",
+    "valvae-cordis",
+    "aa-coronariae"
+   ],
+   "models": [
+    "Left ventricle",
+    "Inferior papillary muscle of left ventricle"
+   ],
+   "aliases": [
+    "ventricule gauche"
+   ]
+  },
+  {
+   "id": "valvae-cordis",
+   "tr": "Valves cardiaques",
+   "la": "Valvae cordis",
+   "en": "Heart valves",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Les quatre valves qui assurent le passage du sang dans un seul sens dans le cœur : deux valves atrioventriculaires (tricuspide et mitrale) et deux valves semi-lunaires (pulmonaire et aortique).",
+   "facts": [
+    [
+     "Triküspit kapak",
+     "Valve atrioventriculaire droite – trois valvules (antérieure, postérieure, septale)",
+     "Valve tricuspide"
+    ],
+    [
+     "Mitral kapak",
+     "Valve atrioventriculaire gauche – deux valvules (antérieure et postérieure)",
+     "Valve mitrale"
+    ],
+    [
+     "Pulmoner kapak",
+     "Valve du tronc pulmonaire – trois valvules semi-lunaires",
+     "Valve pulmonaire"
+    ],
+    [
+     "Aort kapağı",
+     "Valve aortique – trois valvules semi-lunaires (coronaire droite, coronaire gauche, non coronaire) ; les artères coronaires naissent de ses sinus",
+     "Valve aortique"
+    ],
+    [
+     "Destek yapıları",
+     "Les valves atrioventriculaires sont reliées par les cordages tendineux aux muscles papillaires ; le squelette fibreux (anneaux fibreux) porte les valves",
+     "Structures de soutien"
+    ]
+   ],
+   "sections": [
+    [
+     "Bruits du cœur",
+     "B1 correspond à la fermeture des valves atrioventriculaires, B2 à celle des valves semi-lunaires."
+    ]
+   ],
+   "clinical": [
+    "Le rhumatisme articulaire aigu touche le plus souvent la valve mitrale.",
+    "Chez le sujet âgé, le rétrécissement aortique (calcifié) provoque syncope, angor et insuffisance cardiaque.",
+    "L'endocardite infectieuse forme des végétations sur les valvules."
+   ],
+   "tus": [
+    "Les valves semi-lunaires n'ont ni cordages ni muscles papillaires ; les artères coronaires naissent des sinus situés derrière la valve aortique.",
+    "Les valves cardiaques s'insèrent sur le squelette fibreux (anneaux fibreux), qui isole aussi électriquement les atriums des ventricules."
+   ],
+   "related": [
+    "cor",
+    "atrium-dextrum",
+    "ventriculus-sinister",
+    "aorta"
+   ],
+   "models": [
+    "Valvular complex of heart"
+   ],
+   "aliases": [
+    "valve",
+    "mitrale",
+    "tricuspide",
+    "valve aortique",
+    "valve pulmonaire"
+   ]
+  },
+  {
+   "id": "aa-coronariae",
+   "tr": "Artères coronaires",
+   "la": "Arteriae coronariae",
+   "en": "Coronary arteries",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Les deux artères nées de la racine de l'aorte qui vascularisent le muscle cardiaque. Après un court tronc, la coronaire gauche se divise en interventriculaire antérieure (IVA) et circonflexe.",
+   "facts": [
+    [
+     "A. coronaria sinistra",
+     "Du sinus aortique gauche ; tronc commun → rameau interventriculaire antérieur (IVA) et rameau circonflexe",
+     "A. coronaria sinistra"
+    ],
+    [
+     "A. coronaria dextra",
+     "Du sinus aortique droit ; chemine dans le sillon coronaire ; rameau marginal droit, rameau interventriculaire postérieur (chez la plupart – dominance droite), rameaux du nœud sinusal et du nœud AV",
+     "A. coronaria dextra"
+    ],
+    [
+     "LAD beslediği alan",
+     "Paroi antérieure du ventricule gauche, 2/3 antérieurs du septum interventriculaire, apex",
+     "Territoire de l'IVA"
+    ],
+    [
+     "Sirkumfleks beslediği alan",
+     "Parois latérale et postérieure du ventricule gauche, atrium gauche",
+     "Territoire de la circonflexe"
+    ],
+    [
+     "Sağ koroner beslediği alan",
+     "Atrium et ventricule droits, 1/3 postérieur du septum, nœud sinusal (60 %) et nœud AV (80 %)",
+     "Territoire de la coronaire droite"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'IVA est surnommée « l'artère de la veuve » ; son occlusion entraîne un infarctus antérieur étendu.",
+    "L'occlusion de la coronaire droite peut provoquer un infarctus inférieur et un bloc AV.",
+    "En chirurgie de pontage, l'artère thoracique interne et la grande veine saphène servent de greffons."
+   ],
+   "tus": [
+    "Les artères coronaires se remplissent pendant la diastole ; le sous-endocarde du ventricule gauche est la zone la plus sensible à l'ischémie.",
+    "Le tronc commun gauche se divise en IVA et circonflexe ; parfois une artère intermédiaire (bissectrice) naît entre elles."
+   ],
+   "related": [
+    "cor",
+    "aorta",
+    "venae-cordis",
+    "ventriculus-sinister"
+   ],
+   "models": [
+    "Arteries of heart",
+    "Left coronary artery",
+    "Right coronary artery",
+    "Anterior interventricular artery",
+    "Circumflex artery of heart"
+   ],
+   "aliases": [
+    "coronaire",
+    "IVA",
+    "circonflexe"
+   ]
+  },
+  {
+   "id": "venae-cordis",
+   "tr": "Veines du cœur",
+   "la": "Venae cordis",
+   "en": "Cardiac veins",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Les veines qui recueillent le sang désoxygéné de la paroi cardiaque. La plupart se jettent dans le sinus coronaire, situé dans le sillon coronaire à la face postérieure du cœur.",
+   "facts": [
+    [
+     "Sinus coronarius",
+     "S'ouvre dans l'atrium droit",
+     "Sinus coronaire"
+    ],
+    [
+     "Ana venler",
+     "Grande veine du cœur (avec l'IVA), veine moyenne du cœur (dans le sillon interventriculaire postérieur), petite veine du cœur, veine postérieure du ventricule gauche",
+     "Veines principales"
+    ],
+    [
+     "Doğrudan açılanlar",
+     "Veines antérieures du cœur et veines minimes (de Thébésius)",
+     "S'abouchant directement"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dans la resynchronisation cardiaque, la sonde ventriculaire gauche est placée dans une veine du cœur par le sinus coronaire."
+   ],
+   "tus": [
+    "Les veines minimes (de Thébésius) s'ouvrent directement dans les cavités cardiaques ; les veines antérieures du cœur s'ouvrent dans l'atrium droit.",
+    "Le sinus coronaire recueille la plupart des veines du cœur et s'ouvre dans l'atrium droit ; la sonde de resynchronisation y est placée."
+   ],
+   "related": [
+    "aa-coronariae",
+    "atrium-dextrum",
+    "cor"
+   ],
+   "models": [
+    "Cardiac veins",
+    "Coronary sinus",
+    "Great cardiac vein",
+    "Middle cardiac vein"
+   ],
+   "aliases": [
+    "sinus coronaire"
+   ]
+  },
+  {
+   "id": "pericardium",
+   "tr": "Péricarde",
+   "la": "Pericardium",
+   "en": "Pericardium",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Sac à double feuillet qui enveloppe le cœur et l'origine des gros vaisseaux. À l'extérieur le péricarde fibreux, résistant, à l'intérieur le péricarde séreux (feuillets pariétal et viscéral).",
+   "facts": [
+    [
+     "Katmanlar",
+     "Péricarde fibreux et péricarde séreux (lame pariétale et lame viscérale – épicarde)",
+     "Couches"
+    ],
+    [
+     "Boşluk",
+     "Cavité péricardique ; contient 15–50 mL de liquide lubrifiant",
+     "Cavité"
+    ],
+    [
+     "Sinüsler",
+     "Sinus transverse du péricarde (derrière l'aorte et le tronc pulmonaire), sinus oblique du péricarde (derrière l'atrium gauche)",
+     "Sinus"
+    ],
+    [
+     "İnnervasyon",
+     "Nerf phrénique (sensitif)",
+     "Innervation"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La péricardite donne une douleur thoracique vive, soulagée par la position penchée en avant, et un frottement péricardique.",
+    "Dans la tamponnade, le liquide accumulé dans la cavité péricardique empêche le remplissage du cœur (triade de Beck : hypotension, turgescence jugulaire, bruits du cœur assourdis)."
+   ],
+   "tus": [
+    "En bas, le péricarde fibreux adhère au centre tendineux du diaphragme ; en avant, il est fixé au sternum par les ligaments sterno-péricardiques.",
+    "Un épanchement péricardique peut donner un microvoltage et une alternance électrique à l'ECG."
+   ],
+   "related": [
+    "cor",
+    "n-phrenicus"
+   ],
+   "models": [
+    "Pericardium"
+   ],
+   "aliases": [
+    "sac péricardique"
+   ]
+  },
+  {
+   "id": "truncus-pulmonalis",
+   "tr": "Tronc pulmonaire",
+   "la": "Truncus pulmonalis",
+   "en": "Pulmonary trunk",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Grosse artère issue du ventricule droit qui conduit le sang désoxygéné aux poumons. Sous la crosse de l'aorte, il se divise en artères pulmonaires droite et gauche.",
+   "facts": [
+    [
+     "Köken",
+     "Cône artériel du ventricule droit (valve pulmonaire)",
+     "Origine"
+    ],
+    [
+     "Dalları",
+     "Artères pulmonaires droite et gauche, qui se ramifient vers les lobes et les segments pulmonaires",
+     "Branches"
+    ],
+    [
+     "İlişki",
+     "Le ligament artériel (vestige du canal artériel fœtal) relie la bifurcation à la crosse de l'aorte",
+     "Rapports"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'embolie pulmonaire est le plus souvent un caillot venu des veines profondes de la jambe qui obstrue les artères pulmonaires.",
+    "Dans la persistance du canal artériel, on entend un souffle continu (« tunnel ») de l'aorte vers l'artère pulmonaire."
+   ],
+   "tus": [
+    "Le tronc pulmonaire naît en avant de l'aorte et se divise sous la crosse aortique en artères pulmonaires droite et gauche.",
+    "Une embolie pulmonaire peut se bloquer à la bifurcation du tronc (« embolie en selle »)."
+   ],
+   "related": [
+    "ventriculus-dexter",
+    "pulmones",
+    "aorta"
+   ],
+   "models": [
+    "Pulmonary arteries",
+    "Pulmonary trunk",
+    "Left pulmonary artery",
+    "Right pulmonary artery"
+   ],
+   "aliases": [
+    "artère pulmonaire"
+   ]
+  },
+  {
+   "id": "vv-pulmonales",
+   "tr": "Veines pulmonaires",
+   "la": "Venae pulmonales",
+   "en": "Pulmonary veins",
+   "group": "Cœur",
+   "region": "thorax",
+   "summary": "Veines, en général au nombre de quatre (deux droites, deux gauches), qui ramènent le sang oxygéné des poumons à l'atrium gauche. Ce sont les seules veines qui transportent du sang oxygéné.",
+   "facts": [
+    [
+     "Sayı",
+     "En général 4 : veines pulmonaires droites supérieure et inférieure, gauches supérieure et inférieure",
+     "Nombre"
+    ],
+    [
+     "Döküldüğü yer",
+     "Atrium gauche",
+     "Se jette dans"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Dans le traitement de la fibrillation atriale, les ostiums des veines pulmonaires sont isolés par cathéter (ablation)."
+   ],
+   "tus": [
+    "Les veines pulmonaires sont les seules veines qui transportent du sang riche en oxygène ; chaque poumon en donne généralement deux.",
+    "Les foyers ectopiques de la fibrillation atriale siègent souvent aux ostiums des veines pulmonaires ; l'ablation isole cette zone."
+   ],
+   "related": [
+    "atrium-sinistrum",
+    "pulmones"
+   ],
+   "models": [
+    "Pulmonary veins",
+    "Left superior pulmonary vein",
+    "Left inferior pulmonary vein",
+    "Right superior pulmonary vein",
+    "Right inferior pulmonary vein"
+   ],
+   "aliases": [
+    "veine pulmonaire"
+   ]
+  },
+  {
+   "id": "aorta",
+   "tr": "Aorte",
+   "la": "Aorta",
+   "en": "Aorta",
+   "group": "Aorte et ses branches",
+   "region": "thorax",
+   "summary": "La plus grosse artère du corps ; issue du ventricule gauche, elle distribue le sang oxygéné à tout l'organisme. Elle comprend l'aorte ascendante, la crosse de l'aorte, l'aorte thoracique descendante et l'aorte abdominale.",
+   "facts": [
+    [
+     "Köken",
+     "Ventricule gauche (valve aortique)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "La partie ascendante monte, la crosse passe en arrière au-dessus de la bronche principale gauche (niveau T4), la partie thoracique descend à gauche du rachis, traverse le hiatus aortique (T12) vers l'abdomen et se divise en L4 en artères iliaques communes",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Aorte ascendante : artères coronaires ; crosse : tronc brachiocéphalique, artère carotide commune gauche, artère subclavière gauche ; aorte thoracique : artères intercostales postérieures, rameaux bronchiques et œsophagiens ; aorte abdominale : tronc cœliaque, artères mésentériques supérieure et inférieure, artères rénales, artères surrénales, artères testiculaires/ovariques, artères lombales, artère sacrale médiane",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Tout l'organisme (circulation systémique)",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'anévrisme de l'aorte abdominale se développe en général sous les artères rénales ; sa rupture est mortelle.",
+    "Dans la dissection aortique, la couche interne de la paroi se déchire ; une douleur thoracique déchirante irradiant dans le dos est typique.",
+    "Dans la coarctation de l'aorte, la pression artérielle est plus élevée aux bras qu'aux jambes ; on voit des encoches costales dues aux artères intercostales dilatées."
+   ],
+   "tus": [
+    "L'aorte ascendante porte les sinus aortiques (de Valsalva) et l'origine des artères coronaires.",
+    "La dissection aortique est classée Stanford A (aorte ascendante atteinte – chirurgie) et B (aorte descendante seule)."
+   ],
+   "related": [
+    "ventriculus-sinister",
+    "truncus-brachiocephalicus",
+    "truncus-coeliacus",
+    "aa-renales",
+    "a-iliaca-communis"
+   ],
+   "models": [
+    "Aorta",
+    "Ascending aorta",
+    "Aortic arch",
+    "Thoracic aorta",
+    "Abdominal aorta"
+   ],
+   "aliases": [
+    "aortique"
+   ]
+  },
+  {
+   "id": "truncus-brachiocephalicus",
+   "tr": "Tronc brachiocéphalique",
+   "la": "Truncus brachiocephalicus",
+   "en": "Brachiocephalic trunk",
+   "group": "Aorte et ses branches",
+   "region": "thorax",
+   "summary": "La première et la plus grosse branche de la crosse de l'aorte ; il n'existe qu'à droite.",
+   "facts": [
+    [
+     "Köken",
+     "Crosse de l'aorte",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Monte à droite en avant de la trachée ; se divise en arrière de l'articulation sterno-claviculaire droite",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère carotide commune droite, artère subclavière droite",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Moitié droite de la tête et du cou, membre supérieur droit",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Il peut être blessé lors d'une trachéotomie pratiquée trop bas."
+   ],
+   "tus": [
+    "Le tronc brachiocéphalique monte en avant de la trachée ; il peut être lésé si la trachéotomie est faite trop bas.",
+    "Chez certains sujets, l'artère thyroïdienne ima naît du tronc brachiocéphalique."
+   ],
+   "related": [
+    "aorta",
+    "a-carotis-communis",
+    "a-subclavia"
+   ],
+   "models": [
+    "Brachiocephalic trunk"
+   ],
+   "aliases": [
+    "artère innominée"
+   ]
+  },
+  {
+   "id": "a-carotis-communis",
+   "tr": "Artère carotide commune",
+   "la": "A. carotis communis",
+   "en": "Common carotid artery",
+   "group": "Artères de la tête et du cou",
+   "region": "neck",
+   "summary": "La principale artère de la tête et du cou, qui monte de chaque côté du cou. À hauteur du bord supérieur du cartilage thyroïde, elle se divise en carotides interne et externe.",
+   "facts": [
+    [
+     "Köken",
+     "À droite le tronc brachiocéphalique, à gauche directement la crosse de l'aorte",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Monte dans la gaine carotidienne avec la veine jugulaire interne (en dehors) et le nerf vague (en arrière) ; se divise en C4 (bord supérieur du cartilage thyroïde)",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère carotide interne, artère carotide externe (le tronc ne donne aucune collatérale)",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Tête et cou",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [
+    [
+     "Glomus et sinus carotidiens",
+     "À la bifurcation, le sinus carotidien perçoit la pression artérielle (barorécepteur) et le glomus carotidien le taux d'O2/CO2 du sang (chémorécepteur) ; tous deux sont innervés par le nerf glossopharyngien."
+    ]
+   ],
+   "clinical": [
+    "Le pouls carotidien se prend au bord antérieur du sterno-cléido-mastoïdien, à hauteur du cartilage thyroïde.",
+    "Le massage du sinus carotidien ralentit le cœur par une réponse vagale.",
+    "Les plaques d'athérome de la bifurcation carotidienne sont une cause importante d'AVC."
+   ],
+   "tus": [
+    "La CCA droite naît du tronc brachiocéphalique, la CCA gauche directement de la crosse de l'aorte.",
+    "Le pouls carotidien se prend à hauteur du bord supérieur du cartilage thyroïde, au bord antérieur du SCM."
+   ],
+   "related": [
+    "a-carotis-interna",
+    "a-carotis-externa",
+    "truncus-brachiocephalicus",
+    "v-jugularis-interna",
+    "n-vagus"
+   ],
+   "models": [
+    "Left common carotid artery",
+    "Right common carotid artery"
+   ],
+   "aliases": [
+    "carotide",
+    "carotide primitive"
+   ]
+  },
+  {
+   "id": "a-carotis-interna",
+   "tr": "Artère carotide interne",
+   "la": "A. carotis interna",
+   "en": "Internal carotid artery",
+   "group": "Artères de la tête et du cou",
+   "region": "head",
+   "summary": "Artère qui vascularise les parties antérieure et moyenne du cerveau et l'œil. Elle ne donne aucune branche au cou.",
+   "facts": [
+    [
+     "Köken",
+     "Artère carotide commune (niveau C4)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Monte au cou sans se ramifier, pénètre dans la base du crâne par le canal carotidien, traverse le sinus caverneux (siphon carotidien) et se divise en artères cérébrales antérieure et moyenne",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère ophtalmique, artère communicante postérieure, artère choroïdienne antérieure, artère cérébrale antérieure, artère cérébrale moyenne",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "La plus grande partie des hémisphères cérébraux, l'œil et l'orbite, la peau du front",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Sa sténose peut provoquer des accidents ischémiques transitoires et une cécité transitoire de l'œil du même côté (amaurose fugace).",
+    "Sa rupture dans le sinus caverneux provoque une fistule carotido-caverneuse (exophtalmie pulsatile)."
+   ],
+   "tus": [
+    "Segments intracrâniens de l'ACI : pétreux, caverneux (dans le sinus), clinoïdien et supraclinoïdien (branches ophtalmique, communicante postérieure et choroïdienne antérieure).",
+    "Dans la sténose carotidienne, l'amaurose fugace (cécité monoculaire transitoire) est due à des emboles vers l'artère ophtalmique."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "circulus-arteriosus",
+    "cerebrum",
+    "sinus-durae-matris"
+   ],
+   "models": [
+    "Internal carotid artery",
+    "Ophthalmic artery"
+   ],
+   "aliases": [
+    "ACI",
+    "carotide interne"
+   ]
+  },
+  {
+   "id": "a-carotis-externa",
+   "tr": "Artère carotide externe",
+   "la": "A. carotis externa",
+   "en": "External carotid artery",
+   "group": "Artères de la tête et du cou",
+   "region": "neck",
+   "summary": "Artère qui vascularise les structures du cou et de la face, le cuir chevelu et la dure-mère.",
+   "facts": [
+    [
+     "Köken",
+     "Artère carotide commune (niveau C4)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Monte au cou et se divise dans la glande parotide, à hauteur du col de la mandibule, en artères temporale superficielle et maxillaire",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artères thyroïdienne supérieure, linguale, faciale, pharyngienne ascendante, occipitale, auriculaire postérieure, maxillaire et temporale superficielle",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Glande thyroïde, larynx, langue, face, pharynx, cuir chevelu, mâchoires, dents, cavité nasale, dure-mère (artère méningée moyenne)",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'artère méningée moyenne (branche de la maxillaire) se rompt dans les fractures du ptérion et provoque un hématome extradural.",
+    "La plupart des épistaxis viennent de la tache vasculaire de Kiesselbach, formée par des branches des artères sphéno-palatine et faciale.",
+    "L'artère temporale superficielle est atteinte dans l'artérite à cellules géantes (maladie de Horton)."
+   ],
+   "tus": [
+    "L'artère linguale passe en profondeur du muscle hyoglosse, alors que le nerf hypoglosse passe à sa surface.",
+    "La carotide externe peut être ligaturée dans les hémorragies nasales et faciales graves ; elle a de larges anastomoses avec le côté opposé et les branches de la carotide interne."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "glandula-thyroidea",
+    "meninges"
+   ],
+   "models": [
+    "External carotid artery",
+    "Facial artery",
+    "Superficial temporal artery",
+    "Maxillary artery",
+    "Occipital artery",
+    "Middle meningeal artery",
+    "Ascending pharyngeal artery"
+   ],
+   "aliases": [
+    "ACE",
+    "carotide externe",
+    "artère faciale",
+    "méningée moyenne"
+   ]
+  },
+  {
+   "id": "a-vertebralis",
+   "tr": "Artère vertébrale",
+   "la": "A. vertebralis",
+   "en": "Vertebral artery",
+   "group": "Artères de la tête et du cou",
+   "region": "neck",
+   "summary": "Artère qui monte dans les foramens des vertèbres cervicales jusque dans le crâne et vascularise le tronc cérébral, le cervelet et la partie postérieure du cerveau. Les deux vertébrales s'unissent pour former l'artère basilaire.",
+   "facts": [
+    [
+     "Köken",
+     "Première branche de l'artère subclavière",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Monte dans les foramens transversaires de C6 à C1, contourne l'arc postérieur de l'atlas, entre dans le crâne par le foramen magnum et s'unit à son homologue à la jonction bulbo-pontique pour former l'artère basilaire",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artères spinales antérieure et postérieure, artère cérébelleuse postéro-inférieure (PICA) ; de la basilaire : AICA, rameaux pontiques, artère cérébelleuse supérieure, artère cérébrale postérieure",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Partie haute de la moelle, tronc cérébral, cervelet, oreille interne, lobe occipital",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'insuffisance vertébro-basilaire provoque vertiges, diplopie, chutes brutales (drop attacks) et dysarthrie.",
+    "La dissection de l'artère vertébrale après manipulation cervicale est une des causes d'AVC du sujet jeune.",
+    "Dans le syndrome de vol sous-clavier, le flux de l'artère vertébrale s'inverse."
+   ],
+   "tus": [
+    "Les quatre segments de l'artère vertébrale : V1 (préforaminal), V2 (foraminal), V3 (autour de l'atlas), V4 (intracrânien).",
+    "Les manipulations et traumatismes cervicaux peuvent causer une dissection vertébrale et un AVC de la circulation postérieure."
+   ],
+   "related": [
+    "a-subclavia",
+    "circulus-arteriosus",
+    "cerebellum",
+    "medulla-oblongata",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Vertebral artery",
+    "Basilar artery"
+   ],
+   "aliases": [
+    "vertébrale",
+    "tronc basilaire",
+    "artère basilaire"
+   ]
+  },
+  {
+   "id": "circulus-arteriosus",
+   "tr": "Polygone de Willis",
+   "la": "Circulus arteriosus cerebri (Willisi)",
+   "en": "Circle of Willis",
+   "group": "Artères de la tête et du cou",
+   "region": "head",
+   "summary": "Anneau artériel situé à la base du cerveau, autour de la tige pituitaire et du chiasma optique, qui relie les systèmes carotidien et vertébro-basilaire.",
+   "facts": [
+    [
+     "Köken",
+     "Artères carotides internes et artère basilaire",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Forme un anneau autour de la fosse interpédonculaire",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère cérébrale antérieure (des deux côtés), artère communicante antérieure, artère carotide interne (partie terminale), artère communicante postérieure (des deux côtés), artère cérébrale postérieure (des deux côtés)",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Artère cérébrale antérieure : face médiale des hémisphères (aire motrice et sensitive du membre inférieur) ; artère cérébrale moyenne : face latérale (face et membre supérieur, aires du langage) ; artère cérébrale postérieure : lobe occipital et face inférieure du lobe temporal, thalamus",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La plupart des anévrismes cérébraux (anévrismes sacciformes) se forment dans la partie antérieure du polygone, surtout sur la communicante antérieure ; leur rupture provoque une hémorragie méningée.",
+    "Les variantes du polygone sont fréquentes ; seuls 20–25 % des sujets ont un anneau complet « classique »."
+   ],
+   "tus": [
+    "Les variantes du polygone de Willis sont fréquentes ; un polygone complet n'existe que chez environ la moitié des sujets.",
+    "Un anévrisme de la communicante postérieure peut se révéler par une paralysie du nerf oculomoteur, un anévrisme de la communicante antérieure par un déficit du champ visuel et une hémorragie méningée."
+   ],
+   "related": [
+    "a-carotis-interna",
+    "a-vertebralis",
+    "cerebrum",
+    "hypothalamus"
+   ],
+   "models": [
+    "Cerebral arterial circle",
+    "Anterior communicating artery",
+    "Posterior communicating artery",
+    "Anterior cerebral artery",
+    "Middle cerebral artery (M1-segment)",
+    "Posterior cerebral artery"
+   ],
+   "aliases": [
+    "Willis",
+    "artère cérébrale moyenne",
+    "artère cérébrale",
+    "ACM"
+   ]
+  },
+  {
+   "id": "a-subclavia",
+   "tr": "Artère subclavière",
+   "la": "A. subclavia",
+   "en": "Subclavian artery",
+   "group": "Artères de la tête et du cou",
+   "region": "neck",
+   "summary": "La principale artère du membre supérieur, qui donne aussi d'importantes branches au cou et à la paroi thoracique. Au bord externe de la première côte, elle devient l'artère axillaire.",
+   "facts": [
+    [
+     "Köken",
+     "À droite le tronc brachiocéphalique, à gauche la crosse de l'aorte",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Passe devant le dôme pleural, derrière le scalène antérieur (défilé des scalènes) et sur la 1re côte vers le bras",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère vertébrale, artère thoracique interne, tronc thyro-cervical, tronc costo-cervical, artère dorsale de la scapula",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Membre supérieur, cerveau (artère vertébrale), cou, paroi thoracique antérieure et sein (artère thoracique interne)",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Syndrome de vol sous-clavier : une sténose de la subclavière en amont de la vertébrale provoque des vertiges lors de l'effort du bras.",
+    "L'artère peut être ponctionnée par erreur lors de la pose d'un cathéter veineux central."
+   ],
+   "tus": [
+    "L'artère subclavière est divisée en trois parties par le scalène antérieur ; la vertébrale, la thoracique interne et le tronc thyro-cervical naissent de la 1re partie.",
+    "Une subclavière droite naissant comme dernière branche de la crosse (artère lusoria) peut comprimer l'œsophage et gêner la déglutition (dysphagia lusoria)."
+   ],
+   "related": [
+    "a-axillaris",
+    "a-vertebralis",
+    "mm-scaleni",
+    "truncus-brachiocephalicus"
+   ],
+   "models": [
+    "Left subclavian artery",
+    "Right subclavian artery",
+    "Thyrocervical trunk",
+    "Costocervical trunk",
+    "Internal thoracic artery"
+   ],
+   "aliases": [
+    "sous-clavière",
+    "artère thoracique interne",
+    "mammaire interne"
+   ]
+  },
+  {
+   "id": "a-axillaris",
+   "tr": "Artère axillaire",
+   "la": "A. axillaris",
+   "en": "Axillary artery",
+   "group": "Artères du membre supérieur",
+   "region": "upperLimb",
+   "summary": "Prolongement de l'artère subclavière depuis le bord externe de la première côte jusqu'au bord inférieur du grand rond. Le petit pectoral la divise en trois parties.",
+   "facts": [
+    [
+     "Köken",
+     "Prolongement de l'artère subclavière (bord externe de la 1re côte)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend dans le creux axillaire entourée des faisceaux du plexus brachial ; au bord inférieur du grand rond, elle devient l'artère brachiale",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "1re partie : artère thoracique supérieure ; 2e partie : artère thoraco-acromiale, artère thoracique latérale ; 3e partie : artère subscapulaire, artères circonflexes humérales antérieure et postérieure",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Épaule, paroi thoracique, glande mammaire, creux axillaire",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Elle peut être lésée dans les luxations de l'épaule et les fractures du col de l'humérus.",
+    "Un riche réseau collatéral autour de la scapula (anastomose scapulaire) vascularise le bras en cas d'occlusion de la subclavière."
+   ],
+   "tus": [
+    "L'artère axillaire commence au bord externe de la 1re côte et devient l'artère brachiale au bord inférieur du grand rond.",
+    "L'artère axillaire peut être blessée dans les luxations de l'épaule et les fractures du col de l'humérus."
+   ],
+   "related": [
+    "a-subclavia",
+    "a-brachialis",
+    "plexus-brachialis",
+    "m-pectoralis-minor"
+   ],
+   "models": [
+    "Axillary artery",
+    "Subscapular artery",
+    "Thoraco-acromial artery",
+    "Lateral thoracic artery",
+    "Posterior circumflex humeral artery",
+    "Anterior circumflex humeral artery"
+   ],
+   "aliases": [
+    "axillaire"
+   ]
+  },
+  {
+   "id": "a-brachialis",
+   "tr": "Artère brachiale",
+   "la": "A. brachialis",
+   "en": "Brachial artery",
+   "group": "Artères du membre supérieur",
+   "region": "upperLimb",
+   "summary": "La principale artère du bras ; elle descend à la face médiale du bras le long du bord médial du biceps et se divise au coude en artères radiale et ulnaire.",
+   "facts": [
+    [
+     "Köken",
+     "Prolongement de l'artère axillaire (bord inférieur du grand rond)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend à la face médiale du bras avec le nerf médian ; dans la fosse cubitale, sous l'aponévrose bicipitale, elle se divise à hauteur du col du radius",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère profonde du bras (avec le nerf radial), artères collatérales ulnaires supérieure et inférieure, rameaux musculaires ; branches terminales les artères radiale et ulnaire",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Muscles du bras, humérus, région du coude",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Lors de la mesure de la pression artérielle, le stéthoscope est placé sur l'artère brachiale au pli du coude.",
+    "Elle peut être lésée dans les fractures supracondyliennes de l'humérus chez l'enfant ; l'ischémie de l'avant-bras aboutit au syndrome de Volkmann."
+   ],
+   "tus": [
+    "L'artère brachiale chemine à la face médiale du bras avec le nerf médian ; le nerf croise l'artère de dehors en dedans au milieu du bras.",
+    "Elle se divise en artères radiale et ulnaire dans la fosse cubitale (à hauteur du col du radius)."
+   ],
+   "related": [
+    "a-axillaris",
+    "a-radialis",
+    "a-ulnaris",
+    "n-medianus",
+    "humerus"
+   ],
+   "models": [
+    "Brachial artery",
+    "Deep brachial artery",
+    "Superior ulnar collateral artery",
+    "Inferior ulnar collateral artery"
+   ],
+   "aliases": [
+    "humérale",
+    "brachiale"
+   ]
+  },
+  {
+   "id": "a-radialis",
+   "tr": "Artère radiale",
+   "la": "A. radialis",
+   "en": "Radial artery",
+   "group": "Artères du membre supérieur",
+   "region": "upperLimb",
+   "summary": "Artère qui chemine sur le côté externe (du pouce) de l'avant-bras ; c'est l'artère où l'on prend le plus souvent le pouls.",
+   "facts": [
+    [
+     "Köken",
+     "Artère brachiale (fosse cubitale)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend à la face latérale de l'avant-bras sous le brachio-radial ; au poignet elle est superficielle, en dehors du tendon du FCR, puis passe dans la tabatière anatomique vers le dos de la main et entre dans la paume par le 1er espace interosseux pour former l'arcade palmaire profonde",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère récurrente radiale, rameau palmaire superficiel, rameaux carpiens palmaire et dorsal, artère principale du pouce, artère radiale de l'index",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Partie latérale de l'avant-bras, poignet, pouce et index, structures profondes de la main",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Le pouls radial se prend au poignet ; c'est l'artère la plus utilisée pour les gaz du sang artériel.",
+    "Avant une ponction ou un cathétérisme, le test d'Allen vérifie que l'artère ulnaire suffit à vasculariser la main.",
+    "La coronarographie se fait de plus en plus souvent par voie radiale."
+   ],
+   "tus": [
+    "L'artère radiale croise le plancher de la tabatière et entre dans la paume entre les deux chefs du 1er interosseux dorsal pour former l'arcade profonde.",
+    "L'artère radiale sert de greffon en pontage coronaire et de voie d'abord pour le cathétérisme cardiaque."
+   ],
+   "related": [
+    "a-brachialis",
+    "a-ulnaris",
+    "arcus-palmares",
+    "m-flexor-carpi-radialis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radial artery"
+   ],
+   "aliases": [
+    "radiale",
+    "pouls"
+   ]
+  },
+  {
+   "id": "a-ulnaris",
+   "tr": "Artère ulnaire",
+   "la": "A. ulnaris",
+   "en": "Ulnar artery",
+   "group": "Artères du membre supérieur",
+   "region": "upperLimb",
+   "summary": "La plus grosse des deux branches terminales de l'artère brachiale ; elle chemine sur le côté interne (de l'auriculaire) de l'avant-bras.",
+   "facts": [
+    [
+     "Köken",
+     "Artère brachiale (fosse cubitale)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend sur les fléchisseurs profonds de l'avant-bras sous le FCU ; au poignet elle passe dans le canal de Guyon avec le nerf ulnaire et forme l'arcade palmaire superficielle",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artères récurrentes ulnaires, artère interosseuse commune (artères interosseuses antérieure et postérieure), rameaux carpiens palmaire et dorsal, rameau palmaire profond",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Parties médiale et profonde de l'avant-bras (par les interosseuses), la plus grande partie de la main",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "tus": [
+    "Au poignet, l'artère ulnaire se trouve en dehors du tendon du FCU et en dehors du nerf ulnaire."
+   ],
+   "related": [
+    "a-brachialis",
+    "a-radialis",
+    "arcus-palmares",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Ulnar artery",
+    "Common interosseous artery",
+    "Posterior interosseous artery"
+   ],
+   "aliases": [
+    "cubitale",
+    "ulnaire"
+   ]
+  },
+  {
+   "id": "arcus-palmares",
+   "tr": "Arcades palmaires",
+   "la": "Arcus palmaris superficialis et profundus",
+   "en": "Palmar arches",
+   "group": "Artères du membre supérieur",
+   "region": "upperLimb",
+   "summary": "Deux arcades artérielles anastomotiques de la paume formées par les artères radiale et ulnaire ; les branches destinées aux doigts en naissent.",
+   "facts": [
+    [
+     "Köken",
+     "Arcade superficielle : surtout l'artère ulnaire ; arcade profonde : surtout l'artère radiale",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Arcade superficielle sous l'aponévrose palmaire, arcade profonde sous les tendons fléchisseurs à hauteur des bases des métacarpiens",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artères digitales palmaires communes et propres (superficielle) ; artères métacarpiennes palmaires (profonde)",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Paume et doigts",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'arcade superficielle est facilement lésée dans les plaies de la paume et provoque un saignement important."
+   ],
+   "tus": [
+    "L'arcade palmaire superficielle est plus distale dans la paume (au niveau de la ligne tracée depuis le pouce en abduction complète), l'arcade profonde plus proximale."
+   ],
+   "related": [
+    "a-radialis",
+    "a-ulnaris",
+    "ossa-metacarpi"
+   ],
+   "models": [
+    "Superficial palmar arch",
+    "Deep palmar arch",
+    "Common palmar digital arteries",
+    "Proper palmar digital arteries"
+   ],
+   "aliases": [
+    "arcade palmaire"
+   ]
+  },
+  {
+   "id": "truncus-coeliacus",
+   "tr": "Tronc cœliaque",
+   "la": "Truncus coeliacus",
+   "en": "Coeliac trunk",
+   "group": "Artères de l'abdomen et du bassin",
+   "region": "abdomen",
+   "summary": "Première branche antérieure de l'aorte abdominale ; il vascularise les dérivés de l'intestin antérieur – estomac, foie, vésicule biliaire, rate, une partie du pancréas et la moitié supérieure du duodénum.",
+   "facts": [
+    [
+     "Köken",
+     "Aorte abdominale (T12, juste sous le hiatus aortique)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Se porte en avant en un tronc court et se divise aussitôt en trois branches",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère gastrique gauche, artère hépatique commune (artère hépatique propre, artère gastroduodénale, artère gastrique droite), artère splénique",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Œsophage abdominal, estomac, partie haute du duodénum, foie, vésicule biliaire, pancréas, rate",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Un ulcère duodénal de la face postérieure peut éroder l'artère gastroduodénale et provoquer une hémorragie grave.",
+    "Le syndrome du ligament arqué médian est une compression extrinsèque du tronc cœliaque."
+   ],
+   "tus": [
+    "Dans le syndrome du ligament arqué médian, le tronc cœliaque est comprimé par les piliers du diaphragme.",
+    "Les arcades pancréatico-duodénales forment une importante voie collatérale entre les systèmes cœliaque et mésentérique supérieur."
+   ],
+   "related": [
+    "aorta",
+    "gaster",
+    "hepar",
+    "splen",
+    "pancreas"
+   ],
+   "models": [
+    "Coeliac trunk",
+    "Common hepatic artery",
+    "Proper hepatic artery",
+    "Splenic artery",
+    "Left gastric artery",
+    "Gastroduodenal artery"
+   ],
+   "aliases": [
+    "cœliaque",
+    "artère hépatique",
+    "artère splénique"
+   ]
+  },
+  {
+   "id": "a-mesenterica-superior",
+   "tr": "Artère mésentérique supérieure",
+   "la": "A. mesenterica superior",
+   "en": "Superior mesenteric artery",
+   "group": "Artères de l'abdomen et du bassin",
+   "region": "abdomen",
+   "summary": "Artère qui vascularise les dérivés de l'intestin moyen, de la moitié inférieure du duodénum aux deux tiers du côlon transverse.",
+   "facts": [
+    [
+     "Köken",
+     "Aorte abdominale (L1, 1 cm sous le tronc cœliaque)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Émerge derrière le col du pancréas, passe devant la veine rénale gauche et la 3e partie du duodénum et entre dans le mésentère",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère pancréatico-duodénale inférieure, artères jéjunales et iléales, artère iléo-colique (artère appendiculaire), artère colique droite, artère colique moyenne",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Moitié inférieure du duodénum, jéjunum, iléon, cæcum, appendice, côlon ascendant, 2/3 proximaux du côlon transverse, tête du pancréas",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'ischémie mésentérique aiguë (surtout embolique) donne une « douleur abdominale intense, disproportionnée par rapport à l'examen ».",
+    "Syndrome du casse-noisette : compression de la veine rénale gauche entre l'aorte et l'AMS.",
+    "Dans la pince aorto-mésentérique, la 3e partie du duodénum est comprimée entre l'aorte et l'artère."
+   ],
+   "tus": [
+    "L'embolie de l'AMS est la cause la plus fréquente d'ischémie mésentérique aiguë ; une douleur abdominale intense disproportionnée par rapport à l'examen est typique.",
+    "Le col du pancréas et la veine splénique passent devant l'AMS ; la veine rénale gauche et la 3e partie du duodénum passent derrière."
+   ],
+   "related": [
+    "aorta",
+    "intestinum-tenue",
+    "intestinum-crassum",
+    "pancreas",
+    "v-portae-hepatis"
+   ],
+   "models": [
+    "Superior mesenteric artery",
+    "Ileocolic artery",
+    "Middle colic artery",
+    "Right colic artery",
+    "Appendicular artery"
+   ],
+   "aliases": [
+    "AMS",
+    "artère mésentérique"
+   ]
+  },
+  {
+   "id": "a-mesenterica-inferior",
+   "tr": "Artère mésentérique inférieure",
+   "la": "A. mesenterica inferior",
+   "en": "Inferior mesenteric artery",
+   "group": "Artères de l'abdomen et du bassin",
+   "region": "abdomen",
+   "summary": "Artère qui vascularise les dérivés de l'intestin postérieur, du dernier tiers du côlon transverse à la partie haute du rectum.",
+   "facts": [
+    [
+     "Köken",
+     "Aorte abdominale (L3)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend en arrière du péritoine vers la gauche",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère colique gauche, artères sigmoïdiennes, artère rectale (ano-rectale) supérieure",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "1/3 distal du côlon transverse, côlon descendant, côlon sigmoïde, partie haute du rectum",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [
+    [
+     "Anastomoses",
+     "L'artère marginale (de Drummond) relie le long du côlon les branches de l'AMS et de l'AMI. L'angle colique gauche (point de Griffiths) est la zone frontière entre les deux systèmes, donc la plus sensible à l'ischémie."
+    ]
+   ],
+   "clinical": [
+    "L'AMI peut être ligaturée lors de la chirurgie d'un anévrisme de l'aorte abdominale, avec un risque d'ischémie colique."
+   ],
+   "tus": [
+    "L'AMI naît de l'aorte en L3, environ 3–4 cm au-dessus de la bifurcation.",
+    "L'AMI peut être ligaturée lors de la cure d'un anévrisme de l'aorte abdominale ; le côlon reste vascularisé par l'artère marginale."
+   ],
+   "related": [
+    "aorta",
+    "intestinum-crassum",
+    "rectum"
+   ],
+   "models": [
+    "Inferior mesenteric artery",
+    "Left colic artery",
+    "Sigmoid arteries",
+    "Superior anorectal artery",
+    "Marginal artery"
+   ],
+   "aliases": [
+    "AMI"
+   ]
+  },
+  {
+   "id": "aa-renales",
+   "tr": "Artères rénales",
+   "la": "Aa. renales",
+   "en": "Renal arteries",
+   "group": "Artères de l'abdomen et du bassin",
+   "region": "abdomen",
+   "summary": "Grosses artères nées de chaque côté de l'aorte abdominale qui vascularisent les reins. Environ 20–25 % du débit cardiaque va aux reins.",
+   "facts": [
+    [
+     "Köken",
+     "Aorte abdominale (L1–L2, juste sous l'AMS)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "L'artère rénale droite est plus longue et passe derrière la veine cave inférieure ; au hile rénal elle se divise en branches antérieure et postérieure",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère surrénale inférieure, artère urétérique ; dans le rein, artères segmentaires → interlobaires → arquées → interlobulaires",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Reins, une partie des glandes surrénales, partie haute de l'uretère",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La sténose de l'artère rénale (athérosclérose ou dysplasie fibromusculaire) est une cause secondaire d'hypertension résistante aux traitements.",
+    "Les artères segmentaires sont terminales ; leur occlusion provoque un infarctus en coin."
+   ],
+   "tus": [
+    "Les artères rénales accessoires (polaires) sont fréquentes (~25–30 %) ; terminales, leur ligature entraîne un infarctus segmentaire.",
+    "La sténose de l'artère rénale est due à l'athérosclérose (homme âgé, ostiale) ou à la dysplasie fibromusculaire (femme jeune, moyenne-distale « en collier de perles »)."
+   ],
+   "related": [
+    "aorta",
+    "ren",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Left renal artery",
+    "Right renal artery",
+    "Intrarenal arteries of left kidney",
+    "Intrarenal arteries of right kidney"
+   ],
+   "aliases": [
+    "artère rénale"
+   ]
+  },
+  {
+   "id": "a-iliaca-communis",
+   "tr": "Artère iliaque commune",
+   "la": "A. iliaca communis",
+   "en": "Common iliac artery",
+   "group": "Artères de l'abdomen et du bassin",
+   "region": "pelvis",
+   "summary": "Vaisseaux nés de la division de l'aorte abdominale en L4, à l'origine des artères du bassin et des membres inférieurs.",
+   "facts": [
+    [
+     "Köken",
+     "Bifurcation aortique (L4, hauteur de l'ombilic)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend en bas et en dehors le long du bord médial du psoas ; devant l'articulation sacro-iliaque elle se divise en artères iliaques interne et externe",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère iliaque interne (organes pelviens, fesse, périnée) et artère iliaque externe (devient l'artère fémorale sous le ligament inguinal ; donne les artères épigastrique inférieure et circonflexe iliaque profonde)",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Paroi et organes pelviens, région fessière, membre inférieur",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Syndrome de Leriche : occlusion aorto-iliaque avec claudication fessière, impuissance et abolition des pouls fémoraux.",
+    "L'uretère croise la bifurcation iliaque ; les calculs rénaux peuvent s'y bloquer."
+   ],
+   "tus": [
+    "L'artère iliaque externe devient l'artère fémorale après son passage sous le ligament inguinal ; ses branches sont les artères épigastrique inférieure et circonflexe iliaque profonde."
+   ],
+   "related": [
+    "aorta",
+    "a-femoralis",
+    "ureter"
+   ],
+   "models": [
+    "Common iliac artery",
+    "External iliac artery",
+    "Internal iliac artery",
+    "Inferior epigastric artery",
+    "Superior gluteal artery",
+    "Inferior gluteal artery",
+    "Internal pudendal artery",
+    "Obturator artery"
+   ],
+   "aliases": [
+    "artère iliaque",
+    "iliaque externe",
+    "iliaque interne"
+   ]
+  },
+  {
+   "id": "a-femoralis",
+   "tr": "Artère fémorale",
+   "la": "A. femoralis",
+   "en": "Femoral artery",
+   "group": "Artères du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "La principale artère du membre inférieur ; elle passe sous le ligament inguinal à l'aine pour gagner la face antérieure de la cuisse.",
+   "facts": [
+    [
+     "Köken",
+     "Prolongement de l'artère iliaque externe (sous le ligament inguinal)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Superficielle dans le trigone fémoral (nerf fémoral en dehors, veine fémorale en dedans), puis descend dans le canal des adducteurs (de Hunter) et traverse le hiatus des adducteurs vers l'arrière du genou où elle devient l'artère poplitée",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère épigastrique superficielle, artère circonflexe iliaque superficielle, artères pudendales externes, artère profonde de la cuisse (artères circonflexes fémorales médiale et latérale, artères perforantes), artère descendante du genou",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Cuisse, hanche (en partie), tête fémorale (artère circonflexe fémorale médiale), région du genou",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Le pouls fémoral se prend au pli de l'aine, juste sous le milieu de la ligne EIAS–symphyse pubienne.",
+    "C'est une voie d'abord fréquente pour le cathétérisme cardiaque et l'angiographie.",
+    "Dans l'artériopathie des membres inférieurs, l'artère fémorale superficielle est le segment le plus souvent atteint (claudication)."
+   ],
+   "tus": [
+    "Dans le trigone fémoral, l'artère est dans la gaine fémorale ; le compartiment le plus médial de la gaine est le canal fémoral (lymphatiques et ganglion de Cloquet).",
+    "Pour le cathétérisme fémoral, la ponction doit se faire sous le ligament inguinal ; au-dessus, il existe un risque d'hémorragie rétropéritonéale."
+   ],
+   "related": [
+    "a-iliaca-communis",
+    "a-poplitea",
+    "n-femoralis",
+    "lig-inguinale",
+    "v-femoralis"
+   ],
+   "models": [
+    "Femoral artery",
+    "Deep femoral artery",
+    "Medial circumflex femoral artery",
+    "Lateral circumflex femoral artery",
+    "Perforating femoral arteries"
+   ],
+   "aliases": [
+    "fémorale",
+    "fémorale profonde"
+   ]
+  },
+  {
+   "id": "a-poplitea",
+   "tr": "Artère poplitée",
+   "la": "A. poplitea",
+   "en": "Popliteal artery",
+   "group": "Artères du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "Prolongement de l'artère fémorale dans la fosse poplitée ; c'est l'élément le plus profond de la fosse.",
+   "facts": [
+    [
+     "Köken",
+     "Prolongement de l'artère fémorale (hiatus des adducteurs)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend dans la fosse poplitée juste en arrière du fémur et de la capsule du genou ; au bord inférieur du poplité elle se divise en artères tibiales antérieure et postérieure",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artères supérieures du genou (médiale, latérale), artère moyenne du genou, artères inférieures du genou, artères surales",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Articulation du genou (anastomose géniculaire), muscles du mollet",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Le pouls poplité se prend par palpation profonde, genou fléchi.",
+    "L'anévrisme poplité est l'anévrisme périphérique le plus fréquent.",
+    "L'artère peut être lésée dans les luxations du genou ; elle doit toujours être évaluée."
+   ],
+   "tus": [
+    "Dans le syndrome de l'artère poplitée piégée, l'artère est comprimée par le chef médial du gastrocnémien.",
+    "L'anévrisme poplité est l'anévrisme périphérique le plus fréquent et souvent bilatéral."
+   ],
+   "related": [
+    "a-femoralis",
+    "a-tibialis-anterior",
+    "a-tibialis-posterior",
+    "art-genus"
+   ],
+   "models": [
+    "Popliteal artery",
+    "Superior medial genicular artery",
+    "Superior lateral genicular artery",
+    "Inferior medial genicular artery",
+    "Inferior lateral genicular artery",
+    "Middle genicular artery"
+   ],
+   "aliases": [
+    "poplitée"
+   ]
+  },
+  {
+   "id": "a-tibialis-anterior",
+   "tr": "Artère tibiale antérieure",
+   "la": "A. tibialis anterior",
+   "en": "Anterior tibial artery",
+   "group": "Artères du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "Artère qui vascularise la loge antérieure de la jambe ; à la cheville, elle devient l'artère dorsale du pied.",
+   "facts": [
+    [
+     "Köken",
+     "Artère poplitée (bord inférieur du muscle poplité)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Passe à l'avant de la jambe par l'orifice du bord supérieur de la membrane interosseuse et descend devant la membrane avec le nerf fibulaire profond",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère récurrente tibiale antérieure, artères malléolaires antérieures ; se poursuit par l'artère dorsale du pied",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Muscles de la loge antérieure de la jambe, face antérieure de la cheville",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "tus": [
+    "L'artère tibiale antérieure gagne la loge antérieure par l'orifice du bord supérieur de la membrane interosseuse et chemine avec le nerf fibulaire profond."
+   ],
+   "related": [
+    "a-poplitea",
+    "a-dorsalis-pedis",
+    "m-tibialis-anterior",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Anterior tibial artery"
+   ],
+   "aliases": [
+    "tibiale antérieure"
+   ]
+  },
+  {
+   "id": "a-tibialis-posterior",
+   "tr": "Artère tibiale postérieure",
+   "la": "A. tibialis posterior",
+   "en": "Posterior tibial artery",
+   "group": "Artères du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "Artère qui vascularise la loge postérieure de la jambe et la plante du pied.",
+   "facts": [
+    [
+     "Köken",
+     "Artère poplitée",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend sous le soléaire avec le nerf tibial ; derrière la malléole médiale (tunnel tarsien) elle se divise en artères plantaires médiale et latérale",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artère fibulaire (péronière – parties latérale et postérieure de la jambe), rameaux calcanéens, artère plantaire médiale, artère plantaire latérale (arcade plantaire)",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Loges postérieure et latérale de la jambe, talon, plante du pied",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Le pouls tibial postérieur se prend derrière la malléole médiale, entre la malléole et le tendon d'Achille."
+   ],
+   "tus": [
+    "Dans le tunnel tarsien, l'artère tibiale postérieure se divise en artères plantaires médiale et latérale."
+   ],
+   "related": [
+    "a-poplitea",
+    "n-tibialis",
+    "m-tibialis-posterior",
+    "mm-plantares"
+   ],
+   "models": [
+    "Posterior tibial artery",
+    "Fibular artery",
+    "Medial plantar artery",
+    "Lateral plantar artery",
+    "Plantar arch"
+   ],
+   "aliases": [
+    "tibiale postérieure",
+    "artère fibulaire",
+    "artère plantaire"
+   ]
+  },
+  {
+   "id": "a-dorsalis-pedis",
+   "tr": "Artère dorsale du pied",
+   "la": "A. dorsalis pedis",
+   "en": "Dorsalis pedis artery",
+   "group": "Artères du membre inférieur",
+   "region": "lowerLimb",
+   "summary": "Prolongement de l'artère tibiale antérieure au-delà de la cheville, qui vascularise le dos du pied.",
+   "facts": [
+    [
+     "Köken",
+     "Prolongement de l'artère tibiale antérieure (devant la cheville)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Chemine vers l'avant sur le dos du pied en dehors du tendon de l'EHL ; dans le 1er espace intermétatarsien, elle rejoint l'arcade plantaire par son rameau plantaire profond",
+     "Trajet"
+    ],
+    [
+     "Dalları",
+     "Artères tarsiennes latérale et médiales, artère arquée (artères métatarsiennes dorsales), artère plantaire profonde",
+     "Branches"
+    ],
+    [
+     "Beslediği alan",
+     "Dos du pied et face dorsale des orteils",
+     "Territoire vascularisé"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Le pouls pédieux se prend juste en dehors du tendon de l'EHL ; il est important pour évaluer l'artériopathie (chez certains sujets il est absent de façon congénitale)."
+   ],
+   "tus": [
+    "Le pouls pédieux peut être absent de naissance chez certains sujets sains."
+   ],
+   "related": [
+    "a-tibialis-anterior",
+    "m-extensor-hallucis-longus"
+   ],
+   "models": [
+    "Dorsalis pedis artery",
+    "Arcuate artery",
+    "Lateral tarsal artery",
+    "Dorsal metatarsal arteries"
+   ],
+   "aliases": [
+    "pédieuse",
+    "artère pédieuse"
+   ]
+  },
+  {
+   "id": "v-cava-superior",
+   "tr": "Veine cave supérieure",
+   "la": "V. cava superior",
+   "en": "Superior vena cava",
+   "group": "Veines",
+   "region": "thorax",
+   "summary": "Grosse veine qui ramène à l'atrium droit le sang désoxygéné de la tête, du cou, des membres supérieurs et de la partie haute du thorax. Elle n'a pas de valvules.",
+   "facts": [
+    [
+     "Oluşum",
+     "Par l'union des veines brachiocéphaliques droite et gauche derrière le 1er cartilage costal droit",
+     "Formation"
+    ],
+    [
+     "Döküldüğü yer",
+     "Atrium droit (hauteur du 3e cartilage costal)",
+     "Se jette dans"
+    ],
+    [
+     "Kollar",
+     "Veine azygos (en arrière), veines brachiocéphaliques (veine jugulaire interne + veine subclavière)",
+     "Affluents"
+    ],
+    [
+     "Uzunluk",
+     "Environ 7 cm",
+     "Longueur"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Syndrome cave supérieur (le plus souvent compression par un cancer du poumon ou un lymphome) : œdème de la face et des bras, dilatation des veines du cou et du thorax.",
+    "L'extrémité d'un cathéter veineux central doit idéalement se trouver dans la partie basse de cette veine."
+   ],
+   "tus": [
+    "Le syndrome cave supérieur (surtout cancer du poumon ou lymphome) associe œdème de la face et du cou et circulation veineuse collatérale thoracique.",
+    "La moitié inférieure de la VCS est intrapéricardique ; elle s'abouche dans l'atrium droit à hauteur du 3e cartilage costal."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "v-jugularis-interna",
+    "v-subclavia",
+    "v-azygos"
+   ],
+   "models": [
+    "Superior vena cava",
+    "Left brachiocephalic vein",
+    "Right brachiocephalic vein"
+   ],
+   "aliases": [
+    "VCS",
+    "veine brachiocéphalique"
+   ]
+  },
+  {
+   "id": "v-cava-inferior",
+   "tr": "Veine cave inférieure",
+   "la": "V. cava inferior",
+   "en": "Inferior vena cava",
+   "group": "Veines",
+   "region": "abdomen",
+   "summary": "La plus grosse veine du corps, qui ramène à l'atrium droit le sang désoxygéné de toutes les parties du corps situées sous le diaphragme.",
+   "facts": [
+    [
+     "Oluşum",
+     "Par l'union des veines iliaques communes en L5 (à droite de l'aorte)",
+     "Formation"
+    ],
+    [
+     "Seyir",
+     "Monte à droite du rachis, chemine dans une gouttière de la face postérieure du foie et traverse l'orifice de la veine cave du diaphragme (T8)",
+     "Trajet"
+    ],
+    [
+     "Kollar",
+     "Veines lombales, veine testiculaire/ovarique droite, veines rénales, veine surrénale droite, veines hépatiques, veines phréniques inférieures",
+     "Affluents"
+    ],
+    [
+     "Not",
+     "Les veines gonadique gauche et surrénale gauche se jettent d'abord dans la veine rénale gauche",
+     "Remarque"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En cas de thrombose veineuse profonde et d'embolies pulmonaires récidivantes, un filtre cave peut être posé.",
+    "Pendant la grossesse, la compression de la VCI par l'utérus en décubitus dorsal peut provoquer une hypotension (syndrome de compression cave) ; le décubitus latéral gauche la corrige."
+   ],
+   "tus": [
+    "Les filtres caves sont placés sous les veines rénales.",
+    "La portion rétro-hépatique de la VCI reçoit directement les veines hépatiques."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "hepar",
+    "ren",
+    "aa-renales"
+   ],
+   "models": [
+    "Inferior vena cava (abdominal part)",
+    "Inferior vena cava (thoracic part)",
+    "Left renal vein",
+    "Right renal vein",
+    "Hepatic veins",
+    "Common iliac vein"
+   ],
+   "aliases": [
+    "VCI",
+    "veine rénale"
+   ]
+  },
+  {
+   "id": "v-jugularis-interna",
+   "tr": "Veine jugulaire interne",
+   "la": "V. jugularis interna",
+   "en": "Internal jugular vein",
+   "group": "Veines",
+   "region": "neck",
+   "summary": "Grosse veine de la gaine carotidienne qui recueille la plus grande partie du sang du cerveau, de la face et du cou.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Au foramen jugulaire, dans le prolongement du sinus sigmoïde (bulbe supérieur)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Descend dans la gaine carotidienne en dehors de l'artère carotide ; elle est recouverte par le sterno-cléido-mastoïdien",
+     "Trajet"
+    ],
+    [
+     "Sonlanma",
+     "Derrière l'extrémité médiale de la clavicule, elle s'unit à la veine subclavière pour former la veine brachiocéphalique (confluent veineux – à gauche le conduit thoracique s'y jette)",
+     "Terminaison"
+    ],
+    [
+     "Kollar",
+     "Sinus pétreux inférieur, veine faciale, veine linguale, veines thyroïdiennes supérieures et moyennes",
+     "Affluents"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La pression veineuse jugulaire reflète la pression du cœur droit ; elle augmente dans l'insuffisance cardiaque.",
+    "Les cathéters veineux centraux sont souvent posés dans la jugulaire interne droite sous échographie."
+   ],
+   "tus": [
+    "La veine jugulaire interne prolonge le sinus sigmoïde et naît au foramen jugulaire, où se trouve le bulbe supérieur.",
+    "La jugulaire interne droite est préférée pour les voies centrales : trajet plus rectiligne vers la VCS et conduit thoracique situé à gauche."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "sinus-durae-matris",
+    "v-subclavia",
+    "v-cava-superior"
+   ],
+   "models": [
+    "Internal jugular vein"
+   ],
+   "aliases": [
+    "jugulaire",
+    "VJI"
+   ]
+  },
+  {
+   "id": "v-jugularis-externa",
+   "tr": "Veine jugulaire externe",
+   "la": "V. jugularis externa",
+   "en": "External jugular vein",
+   "group": "Veines",
+   "region": "neck",
+   "summary": "Veine qui recueille le sang superficiel du cuir chevelu et de la face, visible sous la peau sur le côté du cou.",
+   "facts": [
+    [
+     "Oluşum",
+     "En arrière de l'angle de la mandibule, par l'union de la branche postérieure de la veine rétromandibulaire et de la veine auriculaire postérieure",
+     "Formation"
+    ],
+    [
+     "Seyir",
+     "Descend obliquement sur le sterno-cléido-mastoïdien",
+     "Trajet"
+    ],
+    [
+     "Sonlanma",
+     "Veine subclavière",
+     "Terminaison"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Elle devient saillante lorsque la pression du cœur droit augmente ; en urgence, elle peut servir de voie veineuse."
+   ],
+   "tus": [
+    "La VJE naît de l'union de la branche postérieure de la veine rétromandibulaire et de la veine auriculaire postérieure."
+   ],
+   "related": [
+    "v-jugularis-interna",
+    "v-subclavia",
+    "m-sternocleidomastoideus"
+   ],
+   "models": [
+    "External jugular vein",
+    "Retromandibular vein",
+    "Facial vein",
+    "Anterior jugular vein"
+   ],
+   "aliases": [
+    "jugulaire externe",
+    "VJE"
+   ]
+  },
+  {
+   "id": "v-subclavia",
+   "tr": "Veine subclavière",
+   "la": "V. subclavia",
+   "en": "Subclavian vein",
+   "group": "Veines",
+   "region": "neck",
+   "summary": "Prolongement de la veine axillaire, qui recueille le sang des veines profondes et superficielles du membre supérieur.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Prolongement de la veine axillaire au bord externe de la 1re côte",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Passe en avant du scalène antérieur (contrairement à l'artère) et derrière la clavicule",
+     "Trajet"
+    ],
+    [
+     "Sonlanma",
+     "S'unit à la veine jugulaire interne pour former la veine brachiocéphalique",
+     "Terminaison"
+    ],
+    [
+     "Kollar",
+     "Veine jugulaire externe",
+     "Affluents"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Elle sert à la pose de cathéters veineux centraux par voie sous-claviculaire ; le pneumothorax en est une complication importante.",
+    "Syndrome de Paget–Schroetter : thrombose de la veine subclavière après un effort intense du bras."
+   ],
+   "tus": [
+    "Le syndrome de Paget–Schroetter est une thrombose d'effort de la veine subclavière liée à l'utilisation répétée du bras."
+   ],
+   "related": [
+    "v-jugularis-interna",
+    "a-subclavia",
+    "v-cava-superior",
+    "vv-membri-superioris"
+   ],
+   "models": [
+    "Left subclavian vein",
+    "Right subclavian vein",
+    "Axillary vein"
+   ],
+   "aliases": [
+    "sous-clavière",
+    "veine axillaire"
+   ]
+  },
+  {
+   "id": "vv-membri-superioris",
+   "tr": "Veines superficielles du membre supérieur",
+   "la": "Vv. superficiales membri superioris",
+   "en": "Superficial veins of upper limb",
+   "group": "Veines",
+   "region": "upperLimb",
+   "summary": "Veines superficielles nées du réseau veineux dorsal de la main qui montent sous la peau du bras : la veine céphalique (latérale), la veine basilique (médiale) et, au coude, la veine médiane du coude qui les relie.",
+   "facts": [
+    [
+     "V. cephalica",
+     "Naît du côté latéral du dos de la main, monte sur le bord latéral du bras et passe dans le sillon delto-pectoral pour se jeter dans la veine axillaire",
+     "V. céphalique"
+    ],
+    [
+     "V. basilica",
+     "Naît du côté médial du dos de la main, devient profonde au milieu du bras et forme la veine axillaire avec les veines brachiales",
+     "V. basilique"
+    ],
+    [
+     "V. mediana cubiti",
+     "Va obliquement de la veine céphalique à la veine basilique dans la fosse cubitale",
+     "V. médiane du coude"
+    ],
+    [
+     "Derin venler",
+     "Veines doubles satellites des artères (veines comitantes) : veines radiales, ulnaires, brachiales",
+     "Veines profondes"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La veine médiane du coude est la plus utilisée pour les prises de sang et les perfusions ; en dessous, protégés par l'aponévrose bicipitale, se trouvent l'artère brachiale et le nerf médian.",
+    "La veine céphalique peut servir à introduire les sondes de stimulateur cardiaque."
+   ],
+   "tus": [
+    "Les veines profondes du membre supérieur sont des veines doubles satellites des artères (veines comitantes)."
+   ],
+   "related": [
+    "v-subclavia",
+    "a-brachialis",
+    "art-cubiti"
+   ],
+   "models": [
+    "Cephalic vein",
+    "Basilic vein",
+    "Median cubital vein",
+    "Median antebrachial vein",
+    "Dorsal venous network of hand",
+    "Brachial veins",
+    "Radial veins",
+    "Ulnar veins"
+   ],
+   "aliases": [
+    "veine céphalique",
+    "veine basilique",
+    "prise de sang"
+   ]
+  },
+  {
+   "id": "v-portae-hepatis",
+   "tr": "Veine porte hépatique",
+   "la": "V. portae hepatis",
+   "en": "Hepatic portal vein",
+   "group": "Veines",
+   "region": "abdomen",
+   "summary": "Veine qui conduit au foie le sang riche en nutriments venant du tube digestif, de la rate, du pancréas et de la vésicule biliaire. Elle fournit environ 75 % du sang qui arrive au foie.",
+   "facts": [
+    [
+     "Oluşum",
+     "Derrière le col du pancréas, par l'union de la veine mésentérique supérieure et de la veine splénique (la veine mésentérique inférieure se jette en général dans la splénique)",
+     "Formation"
+    ],
+    [
+     "Seyir",
+     "Chemine dans le ligament hépato-duodénal, derrière la voie biliaire (en avant à droite) et l'artère hépatique propre (en avant à gauche), jusqu'au hile du foie",
+     "Trajet"
+    ],
+    [
+     "Dallanma",
+     "Branches droite et gauche ; se termine dans les sinusoïdes hépatiques",
+     "Division"
+    ],
+    [
+     "Portokaval anastomozlar",
+     "Bas œsophage (veines gastriques – veine azygos), rectum (veine rectale supérieure – moyennes/inférieures), autour de l'ombilic (veines para-ombilicales – veines de la paroi abdominale), veines rétropéritonéales",
+     "Anastomoses porto-caves"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En cas d'hypertension portale, par exemple dans la cirrhose, les anastomoses forment des varices œsophagiennes (hémorragie mortelle), des hémorroïdes et des veines dilatées autour de l'ombilic (tête de méduse) ; la rate grossit et une ascite apparaît."
+   ],
+   "tus": [
+    "La veine porte fournit ~75 % du sang et ~50 % de l'oxygène qui arrivent au foie.",
+    "La thrombose porte est la cause la plus fréquente d'hypertension portale préhépatique."
+   ],
+   "related": [
+    "hepar",
+    "splen",
+    "pancreas",
+    "a-mesenterica-superior",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Hepatic portal vein",
+    "Splenic vein",
+    "Superior mesenteric vein",
+    "Inferior mesenteric vein"
+   ],
+   "aliases": [
+    "veine porte",
+    "veine splénique",
+    "veine mésentérique"
+   ]
+  },
+  {
+   "id": "v-azygos",
+   "tr": "Veine azygos",
+   "la": "V. azygos",
+   "en": "Azygos vein",
+   "group": "Veines",
+   "region": "thorax",
+   "summary": "Veine qui recueille le sang des parois postérieures du thorax et de l'abdomen et monte à droite du rachis pour se jeter dans la veine cave supérieure. Elle forme une importante voie collatérale entre les veines caves.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Union des veines lombale ascendante et subcostale droites (L1–L2)",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Entre dans le thorax par le hiatus aortique, monte à droite des corps vertébraux et décrit en T4 une crosse au-dessus du pédicule pulmonaire droit pour se jeter dans la veine cave supérieure",
+     "Trajet"
+    ],
+    [
+     "Kollar",
+     "Veines intercostales postérieures droites, veines hémi-azygos et hémi-azygos accessoire (du côté gauche), veines œsophagiennes et bronchiques",
+     "Affluents"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En cas d'occlusion de la VCI, le système azygos est une voie collatérale importante pour le retour au cœur du sang de la partie inférieure du corps."
+   ],
+   "tus": [
+    "La veine hémi-azygos croise en avant du rachis vers la droite en T8–T9 et s'ouvre dans la veine azygos.",
+    "Le lobe azygos est une variante anatomique où la veine azygos s'enfonce dans l'apex du poumon droit."
+   ],
+   "related": [
+    "v-cava-superior",
+    "v-cava-inferior",
+    "oesophagus"
+   ],
+   "models": [
+    "Azygos vein",
+    "Hemi-azygos vein",
+    "Accessory hemi-azygos vein"
+   ],
+   "aliases": [
+    "azygos",
+    "hémi-azygos"
+   ]
+  },
+  {
+   "id": "v-femoralis",
+   "tr": "Veine fémorale",
+   "la": "V. femoralis",
+   "en": "Femoral vein",
+   "group": "Veines",
+   "region": "lowerLimb",
+   "summary": "Grosse veine profonde qui recueille le sang veineux profond de la jambe et chemine avec l'artère fémorale.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Prolongement de la veine poplitée au hiatus des adducteurs",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Monte en arrière de l'artère dans le canal des adducteurs et en dedans d'elle dans le trigone fémoral",
+     "Trajet"
+    ],
+    [
+     "Sonlanma",
+     "Passe sous le ligament inguinal et devient la veine iliaque externe",
+     "Terminaison"
+    ],
+    [
+     "Kollar",
+     "Veine fémorale profonde, grande veine saphène (jonction saphéno-fémorale)",
+     "Affluents"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La thrombose veineuse profonde (TVP) se forme le plus souvent dans les veines profondes de la jambe ; si le caillot se détache et gagne le poumon, il cause une embolie pulmonaire.",
+    "En urgence, un cathéter peut être posé dans la veine fémorale juste en dedans du pouls fémoral."
+   ],
+   "tus": [
+    "À l'aine, la veine fémorale est en dedans de l'artère ; elle peut servir de voie veineuse centrale.",
+    "La thrombose veineuse profonde siège le plus souvent dans le segment fémoro-poplité."
+   ],
+   "related": [
+    "a-femoralis",
+    "v-saphena-magna",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Femoral vein",
+    "Deep femoral vein",
+    "Popliteal vein",
+    "Anterior tibial veins",
+    "Posterior tibial veins",
+    "Fibular veins",
+    "External iliac vein",
+    "Internal iliac vein"
+   ],
+   "aliases": [
+    "veine fémorale",
+    "veine poplitée",
+    "veine profonde"
+   ]
+  },
+  {
+   "id": "v-saphena-magna",
+   "tr": "Grande veine saphène",
+   "la": "V. saphena magna",
+   "en": "Great saphenous vein",
+   "group": "Veines",
+   "region": "lowerLimb",
+   "summary": "La plus longue veine du corps ; elle monte sous la peau, à la face médiale du membre inférieur, du bord médial du dos du pied jusqu'à l'aine.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Extrémité médiale de l'arcade veineuse dorsale du pied",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Passe devant la malléole médiale (position constante), monte à la face médiale de la jambe avec le nerf saphène, en arrière du bord médial du genou et à la face médiale de la cuisse",
+     "Trajet"
+    ],
+    [
+     "Sonlanma",
+     "Traverse le hiatus saphène pour se jeter dans la veine fémorale à l'aine (crosse, jonction saphéno-fémorale)",
+     "Terminaison"
+    ],
+    [
+     "Kapaklar",
+     "Contient 10–20 valvules ; reliée aux veines profondes par les veines perforantes",
+     "Valves"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "L'incontinence valvulaire provoque des varices.",
+    "Elle est souvent utilisée comme greffon dans les pontages coronaires (inversée à cause de ses valvules).",
+    "Sa position constante devant la malléole médiale est utilisée pour un abord veineux d'urgence (dénudation)."
+   ],
+   "tus": [
+    "La grande veine saphène est reliée aux veines profondes par des perforantes ; l'incontinence valvulaire donne des varices.",
+    "À la crosse s'abouchent les veines pudendale externe superficielle, épigastrique superficielle et circonflexe iliaque superficielle."
+   ],
+   "related": [
+    "v-femoralis",
+    "v-saphena-parva",
+    "n-femoralis"
+   ],
+   "models": [
+    "Great saphenous vein"
+   ],
+   "aliases": [
+    "saphène",
+    "varices",
+    "veine saphène interne"
+   ]
+  },
+  {
+   "id": "v-saphena-parva",
+   "tr": "Petite veine saphène",
+   "la": "V. saphena parva",
+   "en": "Small saphenous vein",
+   "group": "Veines",
+   "region": "lowerLimb",
+   "summary": "Veine superficielle qui naît du bord latéral du pied, monte à la face postérieure du mollet et se jette dans la veine poplitée au creux poplité.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Extrémité latérale de l'arcade veineuse dorsale du pied",
+     "Origine"
+    ],
+    [
+     "Seyir",
+     "Passe derrière la malléole latérale et monte au milieu du mollet avec le nerf sural",
+     "Trajet"
+    ],
+    [
+     "Sonlanma",
+     "Veine poplitée dans la fosse poplitée",
+     "Terminaison"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Elle peut être à l'origine de varices à la face postérieure du mollet."
+   ],
+   "tus": [
+    "Le nerf sural peut être lésé lors de la chirurgie de la petite saphène, avec une hypoesthésie du bord latéral du pied."
+   ],
+   "related": [
+    "v-saphena-magna",
+    "v-femoralis",
+    "n-tibialis"
+   ],
+   "models": [
+    "Small saphenous vein",
+    "Dorsal venous arch of foot"
+   ],
+   "aliases": [
+    "petite saphène",
+    "saphène externe"
+   ]
+  },
+  {
+   "id": "sinus-durae-matris",
+   "tr": "Sinus de la dure-mère",
+   "la": "Sinus durae matris",
+   "en": "Dural venous sinuses",
+   "group": "Veines",
+   "region": "head",
+   "summary": "Canaux veineux sans valvules situés entre les deux feuillets de la dure-mère, qui recueillent le sang veineux du cerveau et le LCS et les conduisent à la veine jugulaire interne.",
+   "facts": [
+    [
+     "Başlıca sinüsler",
+     "Sinus sagittaux supérieur et inférieur, sinus droit, confluent des sinus, sinus transverse, sinus sigmoïde, sinus occipital, sinus caverneux, sinus pétreux supérieur et inférieur",
+     "Principaux sinus"
+    ],
+    [
+     "Akım yönü",
+     "Sinus sagittal supérieur → confluent des sinus → sinus transverse → sinus sigmoïde → veine jugulaire interne",
+     "Sens du courant"
+    ],
+    [
+     "Sinus cavernosus içeriği",
+     "L'artère carotide interne et le nerf abducens le traversent ; les nerfs oculomoteur, trochléaire, ophtalmique et maxillaire cheminent dans sa paroi latérale",
+     "Contenu du sinus caverneux"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Les infections du « triangle dangereux » de la face peuvent gagner le sinus caverneux par la veine ophtalmique et provoquer une thrombose du sinus caverneux.",
+    "La thrombose veineuse cérébrale se manifeste par céphalées, crises convulsives et hypertension intracrânienne."
+   ],
+   "tus": [
+    "Les sinus de la dure-mère n'ont pas de valvules ; par les veines émissaires ils communiquent avec les veines extracrâniennes.",
+    "La thrombose des sinus peut associer céphalées, œdème papillaire et infarctus hémorragique ; la grossesse et la contraception orale sont des facteurs de risque."
+   ],
+   "related": [
+    "meninges",
+    "v-jugularis-interna",
+    "a-carotis-interna",
+    "n-abducens"
+   ],
+   "models": [
+    "Superior sagittal sinus",
+    "Inferior sagittal sinus",
+    "Straight sinus",
+    "Transverse sinus",
+    "Sigmoid sinus",
+    "Cavernous sinus",
+    "Superior petrosal sinus",
+    "Inferior petrosal sinus",
+    "Occipital sinus"
+   ],
+   "aliases": [
+    "sinus caverneux",
+    "sinus sagittal",
+    "sinus veineux"
+   ]
+  }
+ ]
+}

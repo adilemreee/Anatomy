@@ -24,20 +24,20 @@ struct SystemsView: View {
                     }
 
                     VStack(alignment: .leading, spacing: 14) {
-                        SectionHeader(title: "Sistemler", subtitle: "\(app.store.entries.count) ayrıntılı madde, \(totalParts) üç boyutlu yapı")
+                        SectionHeader(title: String(localized: "Sistemler"), subtitle: String(localized: "\(app.store.entries.count) ayrıntılı madde, \(totalParts) üç boyutlu yapı"))
+                        // Two per row; an odd one out spans the whole row.
+                        let systems = app.store.systems
+                        let single = systems.count.isMultiple(of: 2) ? nil : systems.last
                         LazyVGrid(columns: columns, spacing: 12) {
-                            ForEach(app.store.systems) { system in
-                                NavigationLink(value: system) {
-                                    SystemCard(system: system, count: app.store.entries(in: system.id).count,
-                                               locked: !Access.canOpen(systemID: system.id, premium: app.isPremium))
-                                }
-                                .buttonStyle(PressableStyle())
-                            }
+                            ForEach(systems.filter { $0.id != single?.id }) { systemLink($0) }
+                        }
+                        if let single {
+                            systemLink(single)
                         }
                     }
 
                     VStack(alignment: .leading, spacing: 14) {
-                        SectionHeader(title: "Bölgelere göre")
+                        SectionHeader(title: String(localized: "Bölgelere göre"))
                         LazyVGrid(columns: columns, spacing: 10) {
                             ForEach(BodyRegion.allCases) { region in
                                 let count = app.store.entries.filter { $0.region == region }.count
@@ -60,6 +60,14 @@ struct SystemsView: View {
             .navigationDestination(for: BodyRegion.self) { RegionDetailView(region: $0) }
             .navigationDestination(for: AtlasEntry.self) { EntryDetailView(entry: $0) }
         }
+    }
+
+    private func systemLink(_ system: BodySystem) -> some View {
+        NavigationLink(value: system) {
+            SystemCard(system: system, count: app.store.entries(in: system.id).count,
+                       locked: !Access.canOpen(systemID: system.id, premium: app.isPremium))
+        }
+        .buttonStyle(PressableStyle())
     }
 
     private var totalParts: Int {
@@ -97,7 +105,7 @@ private struct DailyCard: View {
                 }
                 .clipped()
             VStack(alignment: .leading, spacing: 5) {
-                Eyebrow(text: "Günün yapısı", color: tint)
+                Eyebrow(text: String(localized: "Günün yapısı"), color: tint)
                 Text(entry.tr)
                     .font(.title2.weight(.bold))
                     .foregroundStyle(.white)
@@ -278,7 +286,7 @@ struct SystemDetailView: View {
                 HStack {
                     ProgressRing(value: mastery, color: system.tint, lineWidth: 4)
                         .frame(width: 22, height: 22)
-                    Text("Ustalık %\(Int(mastery * 100))")
+                    Text("Ustalık \(mastery.formatted(.percent.precision(.fractionLength(0))))")
                         .font(.caption.weight(.medium))
                         .foregroundStyle(Theme.textSecondary)
                 }

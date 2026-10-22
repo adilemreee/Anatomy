@@ -45,7 +45,7 @@ final class StudyStore {
         var net: Double { Double(correct) - Double(wrong) / 4 }
     }
 
-    /// Spaced repetition state of one flashcard (an atlas entry).
+    /// Spaced repetition state of one flashcard.
     nonisolated struct Card: Codable, Hashable, Sendable {
         /// Leitner box, 0 = new or forgotten.
         var box = 0
@@ -287,7 +287,9 @@ final class StudyStore {
         return card.due <= .now
     }
 
-    func grade(card id: String, _ grade: CardGrade) {
+    /// Grades a flashcard; the structure it is about (`entry`) gains or
+    /// loses mastery with it.
+    func grade(card id: String, entry: String? = nil, _ grade: CardGrade) {
         var card = cards[id] ?? Card()
         switch grade {
         case .again: card.box = 0
@@ -301,11 +303,12 @@ final class StudyStore {
         card.due = grade == .again ? Date.now.addingTimeInterval(600) : Calendar.current.date(byAdding: .hour, value: Int(days * 24), to: .now) ?? .now
         cards[id] = card
 
-        var s = scores[id] ?? Score()
+        let scoreID = entry ?? id
+        var s = scores[scoreID] ?? Score()
         s.seen += 1
         if grade != .again { s.correct += 1 }
         s.lastSeen = .now
-        scores[id] = s
+        scores[scoreID] = s
         studyDays.insert(Self.dayKey(.now))
         save()
     }
@@ -314,7 +317,7 @@ final class StudyStore {
     func nextInterval(card id: String, _ grade: CardGrade) -> String {
         let box = cards[id]?.box ?? 0
         switch grade {
-        case .again: return "10 dk"
+        case .again: return String(localized: "10 dk")
         case .hard: return Self.format(days: max(1, Self.intervals[max(1, box)] / 2))
         case .good: return Self.format(days: Self.intervals[min(box + 1, Self.intervals.count - 1)])
         case .easy: return Self.format(days: Self.intervals[min(box + 2, Self.intervals.count - 1)])
@@ -322,7 +325,7 @@ final class StudyStore {
     }
 
     private static func format(days: Double) -> String {
-        days < 30 ? "\(Int(days)) g" : "\(Int((days / 30).rounded())) ay"
+        days < 30 ? String(localized: "\(Int(days)) g") : String(localized: "\(Int((days / 30).rounded())) ay")
     }
 
     func resetProgress() {

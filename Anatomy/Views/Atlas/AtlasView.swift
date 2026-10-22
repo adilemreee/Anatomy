@@ -22,6 +22,11 @@ struct AtlasView: View {
     @AppStorage("atlas.focusOnTap") private var focusOnTap = true
     @State private var labels: [AnatomyScene.ScreenLabel] = []
     @State private var viewSize: CGSize = .zero
+    /// Free band for labels between the top controls and the toolbar, and
+    /// the system rail on the left that labels keep clear of.
+    @State private var chromeTop: CGFloat = 120
+    @State private var chromeBottom: CGFloat = 0
+    @State private var railFrame: CGRect = .zero
     @State private var toast: String?
 
     private var scene: AnatomyScene { app.scene }
@@ -74,7 +79,8 @@ struct AtlasView: View {
         .animation(.snappy, value: scene.isIsolating)
         .toolbarVisibility(app.hidesChrome ? .hidden : .automatic, for: .tabBar)
         .sensoryFeedback(.selection, trigger: tapCount)
-        .task(id: LabelKey(camera: scene.cameraVersion, visibility: scene.visibilityVersion, enabled: showLabels, size: viewSize)) {
+        .task(id: LabelKey(camera: scene.cameraVersion, visibility: scene.visibilityVersion, enabled: showLabels, size: viewSize,
+                           frame: [chromeTop, chromeBottom, railFrame.minX, railFrame.minY, railFrame.maxX, railFrame.maxY].map { $0.rounded() })) {
             guard showLabels else {
                 labels = []
                 return
@@ -83,7 +89,11 @@ struct AtlasView: View {
             guard !Task.isCancelled else { return }
             let store = app.store
             let premium = app.isPremium
-            let result = await scene.labels(in: viewSize) { store.displayName(for: $0) }
+            let bottom = chromeBottom > chromeTop + 200 ? chromeBottom - 8 : viewSize.height - 150
+            let result = await scene.labels(in: viewSize, top: chromeTop + 8, bottom: bottom,
+                                            avoiding: railFrame.isEmpty ? [] : [railFrame.insetBy(dx: -4, dy: -4)]) {
+                store.displayName(for: $0)
+            }
                 .filter { premium || $0.ref.system == Access.freeLayer }
             guard !Task.isCancelled else { return }
             withAnimation(.easeOut(duration: 0.2)) { labels = result }
@@ -116,6 +126,7 @@ struct AtlasView: View {
     private var chrome: some View {
         VStack(spacing: 10) {
             topBar
+                .onGeometryChange(for: CGFloat.self) { $0.frame(in: .global).maxY } action: { chromeTop = $0 }
             if !isFirstLoad, let layer = scene.loadingLayers.compactMap(ModelLayer.layer).first {
                 loadingBadge(layer)
                     .transition(.move(edge: .top).combined(with: .opacity))
@@ -132,6 +143,7 @@ struct AtlasView: View {
                 .transition(.move(edge: .bottom).combined(with: .opacity))
             } else {
                 toolBar
+                    .onGeometryChange(for: CGFloat.self) { $0.frame(in: .global).minY } action: { chromeBottom = $0 }
                     .transition(.move(edge: .bottom).combined(with: .opacity))
             }
         }
@@ -148,6 +160,8 @@ struct AtlasView: View {
                     }
                 }
                 .padding(.leading, 12)
+                .onGeometryChange(for: CGRect.self) { $0.frame(in: .global) } action: { railFrame = $0 }
+                .onDisappear { railFrame = .zero }
                 .transition(.move(edge: .leading).combined(with: .opacity))
             }
         }
@@ -206,7 +220,7 @@ struct AtlasView: View {
                         Image(systemName: "magnifyingglass")
                             .font(.body.weight(.semibold))
                             .foregroundStyle(Theme.textSecondary)
-                        Text("Yapı ara: femur, kalp, n. medianus…")
+                        Text("Yapı ara: femur, deltoid, diz eklemi…")
                             .font(.subheadline)
                             .foregroundStyle(Theme.textSecondary)
                             .lineLimit(1)
@@ -243,7 +257,7 @@ struct AtlasView: View {
     private var toolBar: some View {
         GlassEffectContainer(spacing: 8) {
             HStack(spacing: compact ? 0 : 2) {
-                ToolButton(title: "Sıfırla", systemImage: "arrow.counterclockwise", compact: compact) {
+                ToolButton(title: String(localized: "Sıfırla"), systemImage: "arrow.counterclockwise", compact: compact) {
                     withAnimation(.snappy) {
                         scene.showAll()
                         scene.highlight([])
@@ -257,13 +271,13 @@ struct AtlasView: View {
                     Button("Soldan", systemImage: "arrow.left") { scene.rotate(toYaw: .pi / 2) }
                     Button("Sağdan", systemImage: "arrow.right") { scene.rotate(toYaw: -.pi / 2) }
                 } label: {
-                    ToolLabel(title: "Bakış", systemImage: "rotate.3d", compact: compact)
+                    ToolLabel(title: String(localized: "Bakış"), systemImage: "rotate.3d", compact: compact)
                 }
                 .buttonStyle(.plain)
-                ToolButton(title: "Etiketler", systemImage: "tag", isOn: showLabels, compact: compact) {
+                ToolButton(title: String(localized: "Etiketler"), systemImage: "tag", isOn: showLabels, compact: compact) {
                     withAnimation(.snappy) { showLabels.toggle() }
                 }
-                ToolButton(title: "Röntgen", systemImage: "circle.lefthalf.filled", isOn: scene.xray, compact: compact) {
+                ToolButton(title: String(localized: "Röntgen"), systemImage: "circle.lefthalf.filled", isOn: scene.xray, compact: compact) {
                     scene.xray.toggle()
                 }
                 Menu {
@@ -279,7 +293,7 @@ struct AtlasView: View {
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel("Model: \(app.sex.title)")
-                ToolButton(title: "Katmanlar", systemImage: "slider.horizontal.3", compact: compact) {
+                ToolButton(title: String(localized: "Katmanlar"), systemImage: "slider.horizontal.3", compact: compact) {
                     showLayers = true
                 }
             }
@@ -295,8 +309,11 @@ struct AtlasView: View {
             ForEach(labels) { label in
                 let color = scene.info(label.ref).map { MaterialStyles.swatch(for: $0, layer: label.ref.system, materials: scene.materialNames(label.ref.system), mode: scene.colorMode) } ?? .accentColor
                 Path { path in
-                    path.move(to: label.anchor)
-                    path.addLine(to: CGPoint(x: label.center.x < label.anchor.x ? label.center.x + 4 : label.center.x - 4, y: label.center.y))
+                    // A short level stub out of the pill, then on to the pin.
+                    let attach = label.attach
+                    path.move(to: attach)
+                    path.addLine(to: CGPoint(x: attach.x + (attach.x == label.box.minX ? -7 : 7), y: attach.y))
+                    path.addLine(to: label.anchor)
                 }
                 .stroke(.white.opacity(0.75), lineWidth: 1)
                 Circle()
@@ -312,9 +329,8 @@ struct AtlasView: View {
                         .font(.caption2.weight(.semibold))
                         .foregroundStyle(.white)
                         .lineLimit(1)
-                        .fixedSize()
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 4)
+                        .minimumScaleFactor(0.8)
+                        .frame(width: label.box.width, height: label.box.height)
                         .background(Color.black.opacity(0.55), in: .capsule)
                         .overlay { Capsule().strokeBorder(Color.white.opacity(0.14)) }
                 }
@@ -331,8 +347,10 @@ struct AtlasView: View {
         let enabled: Bool
         let size: CGSize
 
+        let frame: [CGFloat]
+
         static func == (a: LabelKey, b: LabelKey) -> Bool {
-            a.camera == b.camera && a.visibility == b.visibility && a.enabled == b.enabled && a.size == b.size
+            a.camera == b.camera && a.visibility == b.visibility && a.enabled == b.enabled && a.size == b.size && a.frame == b.frame
         }
 
         func hash(into hasher: inout Hasher) {
@@ -341,6 +359,7 @@ struct AtlasView: View {
             hasher.combine(enabled)
             hasher.combine(size.width)
             hasher.combine(size.height)
+            hasher.combine(frame)
         }
     }
 
@@ -370,13 +389,13 @@ struct AtlasView: View {
     }
 
     private var restoreTitle: String {
-        if scene.isIsolating { return "Yalnız seçilen yapı" }
+        if scene.isIsolating { return String(localized: "Yalnız seçilen yapı") }
         var parts: [String] = []
         // Short enough to fit next to "Tümünü göster" on the smallest phones.
-        if !scene.highlighted.isEmpty { parts.append("\(scene.highlighted.count) yapı vurgulu") }
-        if !scene.fadedParts.isEmpty { parts.append("önü saydam") }
-        if !scene.hiddenParts.isEmpty { parts.append("\(scene.hiddenParts.count) gizli") }
-        return parts.isEmpty ? "Değiştirilmiş görünüm" : parts.joined(separator: " · ")
+        if !scene.highlighted.isEmpty { parts.append(String(localized: "\(scene.highlighted.count) yapı vurgulu")) }
+        if !scene.fadedParts.isEmpty { parts.append(String(localized: "önü saydam")) }
+        if !scene.hiddenParts.isEmpty { parts.append(String(localized: "\(scene.hiddenParts.count) gizli")) }
+        return parts.isEmpty ? String(localized: "Değiştirilmiş görünüm") : parts.joined(separator: " · ")
     }
 
     private func loadingBadge(_ layer: ModelLayer) -> some View {
@@ -409,6 +428,8 @@ private struct ToolLabel: View {
             if !compact {
                 Text(title)
                     .font(.system(size: 10, weight: .semibold))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
             }
         }
         .foregroundStyle(isOn ? Theme.accent : Theme.textPrimary)
@@ -454,7 +475,7 @@ private struct SystemRail: View {
                 Button {
                     let enable = !on
                     scene.setLayer(layer.id, enabled: enable)
-                    announce(enable ? "\(layer.title) açıldı" : "\(layer.title) kapandı")
+                    announce(enable ? String(localized: "\(layer.title) açıldı") : String(localized: "\(layer.title) kapandı"))
                 } label: {
                     ZStack(alignment: .topTrailing) {
                         Image(systemName: layer.icon)
@@ -475,15 +496,20 @@ private struct SystemRail: View {
                             ProgressView().controlSize(.mini).tint(.white).offset(x: 2, y: -2)
                         }
                     }
+                    .overlay(alignment: .bottom) {
+                        if layer.isBeta {
+                            BetaBadge(compact: true).offset(y: 4)
+                        }
+                    }
                 }
                 .buttonStyle(.plain)
                 .simultaneousGesture(LongPressGesture(minimumDuration: 0.45).onEnded { _ in
                     guard on else { return }
                     scene.setLayer(layer.id, ghosted: !ghost)
-                    announce(ghost ? "\(layer.title) opak" : "\(layer.title) saydam")
+                    announce(ghost ? String(localized: "\(layer.title) opak") : String(localized: "\(layer.title) saydam"))
                 })
-                .accessibilityLabel(layer.title)
-                .accessibilityValue(on ? (ghost ? "Saydam" : "Açık") : "Kapalı")
+                .accessibilityLabel(layer.isBeta ? "\(layer.title), beta" : layer.title)
+                .accessibilityValue(on ? (ghost ? String(localized: "Saydam") : String(localized: "Açık")) : String(localized: "Kapalı"))
                 .accessibilityHint("Uzun basarak saydam yapabilirsin")
             }
             Button(action: collapse) {
@@ -566,11 +592,11 @@ private struct GestureHint: View {
             Text("Modeli keşfet")
                 .font(.title3.weight(.bold))
             VStack(alignment: .leading, spacing: 14) {
-                hint("hand.draw", "Tek parmakla kaydır", "Modeli döndür")
-                hint("hand.pinch", "İki parmakla sıkıştır", "Yakınlaştır, uzaklaştır")
-                hint("arrow.up.and.down.and.arrow.left.and.right", "İki parmakla sürükle", "Görüntüyü kaydır")
-                hint("hand.tap", "Bir yapıya dokun", "Adını ve bilgisini gör")
-                hint("square.3.layers.3d", "Soldaki düğmeler", "Sistemleri aç, kapa; uzun bas: saydam")
+                hint("hand.draw", String(localized: "Tek parmakla kaydır"), String(localized: "Modeli döndür"))
+                hint("hand.pinch", String(localized: "İki parmakla sıkıştır"), String(localized: "Yakınlaştır, uzaklaştır"))
+                hint("arrow.up.and.down.and.arrow.left.and.right", String(localized: "İki parmakla sürükle"), String(localized: "Görüntüyü kaydır"))
+                hint("hand.tap", String(localized: "Bir yapıya dokun"), String(localized: "Adını ve bilgisini gör"))
+                hint("square.3.layers.3d", String(localized: "Soldaki düğmeler"), String(localized: "Sistemleri aç, kapa; uzun bas: saydam"))
             }
             Button("Başla", action: dismiss)
                 .buttonStyle(PrimaryButtonStyle())
@@ -637,7 +663,7 @@ private struct SelectionCard: View {
                         .foregroundStyle(Theme.textSecondary)
                         .lineLimit(1)
                     if group.count > 1 {
-                        Text(wholeGroup ? "\(group.count) parça birlikte seçili" : "\(group.count) bölümüyle birlikte seçildi")
+                        Text(wholeGroup ? String(localized: "\(group.count) parça birlikte seçili") : String(localized: "\(group.count) bölümüyle birlikte seçildi"))
                             .font(.caption)
                             .foregroundStyle(Theme.textTertiary)
                     }
@@ -766,7 +792,7 @@ private struct SelectionCard: View {
     /// Wider structures that are not one group of the model hierarchy: the
     /// whole skull is the cranium with the bones outside it (mandible, hyoid).
     private static let combined: [String: (groups: [String], title: String, latin: String)] = [
-        "Cranium": (["Cranium", "Extracranial bones of head"], "Kafatası ve alt çene", "Ossa capitis"),
+        "Cranium": (["Cranium", "Extracranial bones of head"], String(localized: "Kafatası ve alt çene"), "Ossa capitis"),
     ]
 
     private var levels: [Level] {
@@ -797,7 +823,7 @@ private struct SelectionCard: View {
     }
 
     private var subtitle: String {
-        if let kind = info.kind { return kind == "origin" ? "Kasın başlangıç yeri (origo)" : "Kasın tutunma yeri (insersiyo)" }
+        if let kind = info.kind { return kind == "origin" ? String(localized: "Kasın başlangıç yeri (origo)") : String(localized: "Kasın tutunma yeri (insersiyo)") }
         return app.store.latinName(for: info) ?? info.base
     }
 
@@ -807,15 +833,19 @@ private struct SelectionCard: View {
         return app.store.partDescription(info.path.last ?? "")
     }
 
-    private func actionButton(_ title: String, systemImage: String, prominent: Bool = false, action: @escaping () -> Void) -> some View {
+    private func actionButton(_ title: LocalizedStringKey, systemImage: String, prominent: Bool = false, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             VStack(spacing: 4) {
                 Image(systemName: systemImage)
                     .font(.system(size: 16, weight: .semibold))
                 Text(title)
                     .font(.caption2.weight(.semibold))
+                    // German labels ("Ausblenden") are wider than the button.
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
             }
             .frame(maxWidth: .infinity)
+            .padding(.horizontal, 2)
             .padding(.vertical, 9)
             .foregroundStyle(prominent ? Color.white : Theme.textPrimary)
             .background(prominent ? AnyShapeStyle(Theme.accentGradient) : AnyShapeStyle(Theme.elevated), in: .rect(cornerRadius: 14))

@@ -31,6 +31,8 @@ final class FeatureLibrary {
         var kind: Kind = .feature
         /// The part the feature lies on (set by the specimen scene).
         var part: PartRef?
+        /// For an attachment named after a landmark: the bone it lies on.
+        var bone: String?
     }
 
     private let byOwner: [String: [Feature]]
@@ -160,6 +162,8 @@ final class SpecimenScene: ViewportScene {
         var collected: [FeatureLibrary.Feature] = []
         var structures: [(name: String, span: Range<Int>, ref: PartRef)] = []
         var attachments: [(bone: String, origin: Bool, span: Range<Int>)] = []
+        /// Landmarks of every bone on the stage, to name attachments by.
+        var boneFeatures: [(owner: String, feature: FeatureLibrary.Feature)] = []
 
         for system in Set(all.map(\.system)).sorted() {
             guard let pack = try? await library.pack(system) else { continue }
@@ -212,6 +216,10 @@ final class SpecimenScene: ViewportScene {
                 partIsMuscle.append(system == "muscular")
                 allPositions.append(contentsOf: pack.positions[r.vertexStart..<r.vertexStart + r.vertexCount])
                 allNormals.append(contentsOf: pack.normals[r.vertexStart..<r.vertexStart + r.vertexCount])
+                if system == "skeletal" {
+                    let info = pack.parts[p]
+                    boneFeatures += FeatureLibrary.shared.features(for: info).map { (info.base, $0) }
+                }
                 guard focus.contains(PartRef(system: system, index: p)) else { continue }
                 let info = pack.parts[p]
                 let b = info.bounds
@@ -299,8 +307,12 @@ final class SpecimenScene: ViewportScene {
         for (s, (p, n)) in zip(heads, pins.parts) {
             collected.append(.init(name: s.name, anchor: p, tip: p + n * 0.03, kind: .part, part: s.ref))
         }
+        // An attachment takes the name of the landmark it sits on ("Processus
+        // coracoideus"), the bone's name when none is close.
         for (a, (p, n)) in zip(attachments, pins.attachments) {
-            collected.append(.init(name: a.bone, anchor: p, tip: p + n * 0.03, kind: a.origin ? .origin : .insertion))
+            let landmark = Self.nearestLandmark(to: p, bone: a.bone, in: boneFeatures)
+            collected.append(.init(name: landmark ?? a.bone, anchor: p, tip: p + n * 0.03,
+                                   kind: a.origin ? .origin : .insertion, bone: landmark == nil ? nil : a.bone))
         }
         features = collected
         featureCount = collected.count
@@ -521,13 +533,16 @@ final class SpecimenScene: ViewportScene {
         }
     }
 
-    /// Distance at which the bounding sphere fits the view, leaving room for
-    /// the header and controls vertically and the labels horizontally.
+    /// Distance at which the structure fits the view from any side, leaving
+    /// room for the header and controls vertically (about a third of the
+    /// screen) and for the label columns on each side horizontally.
     private func fitDistance() -> Float {
-        let radius = max(simd_length(bounds.1 - bounds.0) / 2, 0.01)
-        let halfV = fieldOfView * .pi / 360
-        let halfH = atan(tan(halfV) * aspect)
-        return max(radius / sin(halfV) * 1.2, radius / sin(halfH) * 1.0)
+        let size = bounds.1 - bounds.0
+        // Widest from any side, and tall enough for views from above.
+        let across = max((size.x * size.x + size.z * size.z).squareRoot(), 0.01) / 2
+        let tall = max(size.y, across * 1.5) / 2
+        let tanV = tan(fieldOfView * .pi / 360), tanH = tanV * aspect
+        return max(tall / tanV * 1.9, across / tanH * 1.8)
     }
 
     func orbit(by delta: CGSize) {
@@ -622,11 +637,13 @@ final class SpecimenScene: ViewportScene {
         return CGPoint(x: CGFloat((nx + 1) / 2) * size.width, y: CGFloat((1 - ny) / 2) * size.height)
     }
 
-    /// Visible features as floating labels. Each label starts out in the
-    /// direction of Z-Anatomy's own leader line and is then pushed apart from
-    /// the others and from every pinned point.
+    /// Visible features as callout labels in two columns beside the model
+    /// (see LabelLayout).
     /// `top` and `bottom` are the free band between the header and the controls.
-    func labels(in size: CGSize, top: CGFloat, bottom: CGFloat, names: (String) -> (tr: String?, la: String?)) async -> [Label] {
+    /// `priority` tells how important a feature is (how often the atlas
+    /// mentions it): the important ones are labelled first.
+    func labels(in size: CGSize, top: CGFloat, bottom: CGFloat, names: (String) -> (tr: String?, la: String?),
+                priority: (String) -> Int) async -> [Label] {
         guard size.width > 0, bottom - top > 120, !features.isEmpty else { return [] }
         let safe = CGRect(x: 8, y: top, width: size.width - 16, height: bottom - top)
         let eye = camera.position(relativeTo: nil)
@@ -649,15 +666,23 @@ final class SpecimenScene: ViewportScene {
         }.value
         var visible = candidates.enumerated().filter { open[$0.offset] }.map(\.element)
 
-        // Prefer features near the middle, but keep the pins spread out.
+        // Parts and attachments first, then the landmarks the atlas mentions
+        // most; near the middle first within each tier, pins kept spread out.
         let center = project((bounds.0 + bounds.1) / 2, in: size) ?? CGPoint(x: size.width / 2, y: size.height / 2)
-        func rank(_ f: FeatureLibrary.Feature) -> Int { f.kind == .feature ? 1 : 0 }
-        visible.sort {
-            rank($0.1) != rank($1.1) ? rank($0.1) < rank($1.1)
-                : hypot($0.2.x - center.x, $0.2.y - center.y) < hypot($1.2.x - center.x, $1.2.y - center.y)
+        var tiers: [Int: Int] = [:]
+        for (i, f, _) in visible where f.kind == .feature {
+            let mentions = priority(f.name)
+            tiers[i] = mentions >= 8 ? 1 : (mentions >= 3 ? 2 : (mentions >= 1 ? 3 : 4))
         }
-        let limit = min(max(Int(size.width * size.height / 34_000), 6), 14)
-        let spacing = min(size.width, size.height) * 0.07
+        func rank(_ f: FeatureLibrary.Feature) -> Int { f.kind == .feature ? 1 : 0 }
+        func tier(_ i: Int) -> Int { tiers[i] ?? 0 }
+        visible.sort {
+            if rank($0.1) != rank($1.1) { return rank($0.1) < rank($1.1) }
+            if tier($0.0) != tier($1.0) { return tier($0.0) < tier($1.0) }
+            return hypot($0.2.x - center.x, $0.2.y - center.y) < hypot($1.2.x - center.x, $1.2.y - center.y)
+        }
+        let limit = min(max(Int(size.width * size.height / 28_000), 6), 16)
+        let spacing = min(size.width, size.height) * 0.05
         var seen = Set<String>()
         var chosen: [(Int, FeatureLibrary.Feature, CGPoint)] = []
         for c in visible where chosen.count < limit {
@@ -666,79 +691,74 @@ final class SpecimenScene: ViewportScene {
             chosen.append(c)
         }
 
-        // Size each box for its text and place it along the leader direction.
-        var placed: [(id: Int, feature: FeatureLibrary.Feature, title: String, subtitle: String?, anchor: CGPoint, box: CGRect)] = []
+        // The model's outline on screen, from a sample of its vertices.
+        let view = camera.transformMatrix(relativeTo: nil).inverse
+        let t = tan(fieldOfView * .pi / 360)
+        let screen = await Task.detached(priority: .userInitiated) { () -> [CGPoint] in
+            let step = max(positions.count / 30_000, 1)
+            return Swift.stride(from: 0, to: positions.count, by: step).compactMap {
+                Self.project(positions[$0], view: view, tangent: t, size: size)
+            }
+        }.value
+        let silhouette = LabelLayout.Silhouette(points: screen, in: CGRect(origin: .zero, size: size))
+        let room = LabelLayout.room(silhouette, in: safe, gap: 12)
+        let middle = silhouette.extent.map { ($0.min + $0.max) / 2 } ?? size.width / 2
+
+        // Size each box for its text: the name first, then the Latin name
+        // (unless it only repeats the name) or where a muscle attaches.
+        let titleFont = UIFont.systemFont(ofSize: UIFont.preferredFont(forTextStyle: .caption1).pointSize, weight: .semibold)
+        let subtitleFont = UIFont.italicSystemFont(ofSize: UIFont.preferredFont(forTextStyle: .caption2).pointSize)
+        var prepared: [(id: Int, feature: FeatureLibrary.Feature, title: String, subtitle: String?, anchor: CGPoint, size: CGSize)] = []
         for (i, f, p) in chosen {
-            // Turkish name first, Latin below it.
             let name = names(f.name)
             let title = name.tr ?? name.la ?? f.name
             let subtitle: String?
             switch f.kind {
-            case .origin: subtitle = "Başlangıç yeri"
-            case .insertion: subtitle = "Tutunma yeri"
-            case .feature, .part: subtitle = name.la.flatMap { $0.caseInsensitiveCompare(title) == .orderedSame ? nil : $0 }
+            case .origin, .insertion:
+                let role = f.kind == .origin ? String(localized: "Başlangıç yeri") : String(localized: "Tutunma yeri")
+                subtitle = f.bone.map { "\(role) · \(names($0).tr ?? $0)" } ?? role
+            case .feature, .part: subtitle = LabelLayout.subtitle(name.la, under: title)
             }
-            let titleWidth = CGFloat(title.count) * 6.5
-            let width = min(max(max(titleWidth, CGFloat(subtitle?.count ?? 0) * 5.4) + 18, 78), 170)
-            let lines: CGFloat = titleWidth > width - 18 ? 2 : 1
-            let height = lines * 15 + (subtitle == nil ? 0 : 13) + 12
-            var outward = CGVector(dx: p.x - center.x, dy: p.y - center.y)
-            if hypot(outward.dx, outward.dy) < 1 { outward = CGVector(dx: p.x < size.width / 2 ? -1 : 1, dy: 0) }
-            outward = Self.normalized(outward)
-            var dir = outward
-            if let q = project(f.tip, in: size), hypot(q.x - p.x, q.y - p.y) > 3 {
-                let leader = Self.normalized(CGVector(dx: q.x - p.x, dy: q.y - p.y))
-                dir = Self.normalized(CGVector(dx: leader.dx * 0.55 + outward.dx * 0.45, dy: leader.dy * 0.55 + outward.dy * 0.45))
-            }
-            let reach = 30 + abs(dir.dx) * width / 2 + abs(dir.dy) * height / 2
-            let mid = CGPoint(x: p.x + dir.dx * reach, y: p.y + dir.dy * reach)
-            let box = Self.clamp(CGRect(x: mid.x - width / 2, y: mid.y - height / 2, width: width, height: height), to: safe)
-            placed.append((i, f, title, subtitle, p, box))
+            // As wide as the free side allows, within reason.
+            let side = p.x < middle ? room.left : room.right
+            let maxWidth = min(max(side, 96), 180)
+            let box = LabelLayout.size(title: title, subtitle: subtitle, maxWidth: maxWidth, titleLines: 3, titleFont: titleFont,
+                                       subtitleFont: subtitleFont, padding: CGSize(width: 9, height: 6))
+            prepared.append((i, f, title, subtitle, p, box))
         }
 
-        // Relax: separate overlapping boxes and keep boxes off the pins.
-        let anchors = placed.map(\.anchor)
-        for _ in 0..<120 {
-            var moved = false
-            for a in placed.indices {
-                for b in placed.indices where b > a {
-                    let ra = placed[a].box.insetBy(dx: -4, dy: -3), rb = placed[b].box.insetBy(dx: -4, dy: -3)
-                    let overlap = ra.intersection(rb)
-                    guard !overlap.isNull, overlap.width > 0.5, overlap.height > 0.5 else { continue }
-                    moved = true
-                    if overlap.width < overlap.height * 1.6 {
-                        let sign: CGFloat = ra.midX < rb.midX ? -1 : 1
-                        placed[a].box.origin.x += sign * overlap.width / 2
-                        placed[b].box.origin.x -= sign * overlap.width / 2
-                    } else {
-                        let sign: CGFloat = ra.midY <= rb.midY ? -1 : 1
-                        placed[a].box.origin.y += sign * overlap.height / 2
-                        placed[b].box.origin.y -= sign * overlap.height / 2
-                    }
-                }
-                for anchor in anchors {
-                    let r = placed[a].box.insetBy(dx: -7, dy: -7)
-                    guard r.contains(anchor) else { continue }
-                    moved = true
-                    let dx = anchor.x < r.midX ? r.maxX - anchor.x : r.minX - anchor.x
-                    let dy = anchor.y < r.midY ? r.maxY - anchor.y : r.minY - anchor.y
-                    if abs(dy) < abs(dx) { placed[a].box.origin.y -= dy * 0.5 } else { placed[a].box.origin.x -= dx * 0.5 }
-                }
-                placed[a].box = Self.clamp(placed[a].box, to: safe)
-            }
-            if !moved { break }
-        }
-
-        // Drop whatever still collides; earlier labels have priority.
+        // Two columns beside the model, level with their points.
+        let placed = LabelLayout.place(prepared.map { LabelLayout.Item(anchor: $0.anchor, size: $0.size) },
+                                      silhouette: silhouette, in: safe)
         var out: [Label] = []
-        for item in placed {
-            let r = item.box.insetBy(dx: -2, dy: -2)
-            guard !out.contains(where: { $0.box.intersects(r) }),
-                  !anchors.contains(where: { $0 != item.anchor && item.box.insetBy(dx: -3, dy: -3).contains($0) }) else { continue }
+        for (item, box) in zip(prepared, placed) {
+            guard let box else { continue }
             out.append(Label(id: item.id, name: item.feature.name, title: item.title, subtitle: item.subtitle,
-                             anchor: item.anchor, box: item.box, kind: item.feature.kind))
+                             anchor: item.anchor, box: box, kind: item.feature.kind))
         }
         return out
+    }
+
+    /// A world point on screen, for a camera's inverse transform.
+    nonisolated private static func project(_ p: SIMD3<Float>, view: simd_float4x4, tangent t: Float, size: CGSize) -> CGPoint? {
+        let c = view * SIMD4(p, 1)
+        guard c.z < -0.001 else { return nil }
+        let nx = c.x / (-c.z * t * Float(size.width / size.height))
+        let ny = c.y / (-c.z * t)
+        return CGPoint(x: CGFloat((nx + 1) / 2) * size.width, y: CGFloat((1 - ny) / 2) * size.height)
+    }
+
+    /// The landmark of `bone` nearest to an attachment point, within a few
+    /// centimetres; any bone's landmark, closer still, when the bone has none.
+    nonisolated private static func nearestLandmark(to point: SIMD3<Float>, bone: String,
+                                                    in features: [(owner: String, feature: FeatureLibrary.Feature)]) -> String? {
+        let named = features.filter { $0.feature.name.caseInsensitiveCompare($0.owner) != .orderedSame }
+        let own = named.filter { $0.owner.caseInsensitiveCompare(bone) == .orderedSame }
+        let pool = own.isEmpty ? named : own
+        let limit: Float = own.isEmpty ? 0.02 : 0.035
+        guard let best = pool.min(by: { simd_distance($0.feature.anchor, point) < simd_distance($1.feature.anchor, point) }),
+              simd_distance(best.feature.anchor, point) < limit else { return nil }
+        return best.feature.name
     }
 
     /// "(Abdominal part of pectoralis major muscle)" → without the brackets.
@@ -786,18 +806,6 @@ final class SpecimenScene: ViewportScene {
             }
         }
         return surfacePoint(positions: positions, normals: normals, span: span, facing: facing)
-    }
-
-    nonisolated private static func normalized(_ v: CGVector) -> CGVector {
-        let l = max(hypot(v.dx, v.dy), 0.0001)
-        return CGVector(dx: v.dx / l, dy: v.dy / l)
-    }
-
-    nonisolated private static func clamp(_ r: CGRect, to safe: CGRect) -> CGRect {
-        var r = r
-        r.origin.x = min(max(r.minX, safe.minX), safe.maxX - r.width)
-        r.origin.y = min(max(r.minY, safe.minY), safe.maxY - r.height)
-        return r
     }
 
     /// Whether anything is hit along the ray before `limit`, skipping parts

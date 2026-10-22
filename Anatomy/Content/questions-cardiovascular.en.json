@@ -1,0 +1,2764 @@
+{
+ "system": "cardiovascular",
+ "questions": [
+  {
+   "id": "cv-ff8c208f",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which chamber forms most of the sternocostal (anterior) surface of the heart?",
+   "options": [
+    "Left auricle",
+    "Left ventricle",
+    "Right atrium",
+    "Left atrium",
+    "Right ventricle"
+   ],
+   "answer": 4,
+   "explanation": "Because the heart is rotated to the left, its anterior surface is formed mostly by the right ventricle; the right border by the right atrium, the left border by the left ventricle (and left auricle), the apex by the left ventricle and the base (posterior surface) by the left atrium. Lying close to the sternum, the right ventricle is the chamber most often injured in penetrating chest wounds.",
+   "entries": [
+    "ventriculus-dexter",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-e4391593",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with mitral stenosis develops difficulty swallowing and hoarseness. Enlargement of which chamber best explains these symptoms?",
+   "options": [
+    "Right ventricle",
+    "Coronary sinus",
+    "Left ventricle",
+    "Left atrium",
+    "Right atrium"
+   ],
+   "answer": 3,
+   "explanation": "The left atrium forms the base of the heart and lies directly in front of the oesophagus. When it enlarges it compresses the oesophagus (dysphagia) and can stretch the left recurrent laryngeal nerve (Ortner syndrome). Because of the same relationship, transoesophageal echocardiography shows the left atrium best.",
+   "entries": [
+    "atrium-sinistrum",
+    "oesophagus",
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-241ef31a",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The fossa ovalis in the right atrium is the remnant of which fetal structure?",
+   "options": [
+    "Sinus venosus",
+    "Umbilical vein",
+    "Ductus arteriosus",
+    "Ductus venosus",
+    "Foramen ovale"
+   ],
+   "answer": 4,
+   "explanation": "In the fetus blood passes from the right to the left atrium through the foramen ovale. At birth the left atrial pressure rises, the septum primum is pressed against the septum secundum and closes the opening, leaving the fossa ovalis. In about a quarter of people a probe-patent opening (PFO) remains.",
+   "entries": [
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-03099d00",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structures bound Koch's triangle, which marks the position of the atrioventricular (AV) node?",
+   "options": [
+    "Septomarginal trabecula, anterior papillary muscle and pulmonary valve",
+    "Fossa ovalis, limbus and opening of the inferior vena cava",
+    "Anterior cusp of the mitral valve, aortic valve and membranous septum",
+    "Crista terminalis, opening of the superior vena cava and auricle",
+    "Tendon of Todaro, septal cusp of the tricuspid valve and opening of the coronary sinus"
+   ],
+   "answer": 4,
+   "explanation": "Koch's triangle lies on the septal wall of the right atrium. The AV node sits at its apex; it is an important landmark for protecting the conducting system in cardiac surgery and ablation.",
+   "entries": [
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-29f558d6",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In the right ventricle, which structure runs from the interventricular septum to the base of the anterior papillary muscle and carries the right bundle branch?",
+   "options": [
+    "Supraventricular crest",
+    "Crista terminalis",
+    "Chordae tendineae",
+    "Pectinate muscles",
+    "Septomarginal trabecula (moderator band)"
+   ],
+   "answer": 4,
+   "explanation": "The moderator band carries part of the right bundle branch by a short route to the anterior papillary muscle, so that the papillary muscle contracts in time before the tricuspid valve closes. It also limits overdistension of the ventricle.",
+   "entries": [
+    "ventriculus-dexter"
+   ]
+  },
+  {
+   "id": "cv-db0c2ed6",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which statement about the areas where the heart valves are best heard is correct?",
+   "options": [
+    "Mitral valve – left 5th intercostal space, midclavicular line (apex)",
+    "Aortic valve – left 2nd intercostal space, sternal border",
+    "Mitral valve – right 4th intercostal space, sternal border",
+    "Tricuspid valve – left 5th intercostal space, midclavicular line",
+    "Pulmonary valve – right 2nd intercostal space, sternal border"
+   ],
+   "answer": 0,
+   "explanation": "The areas follow the direction of blood flow rather than the anatomical position of the valves: aortic in the right 2nd space, pulmonary in the left 2nd space (sternal border), tricuspid at the lower left sternal border (4th–5th space) and mitral at the apex (left 5th space, midclavicular line).",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-0b0d9052",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with chest pain has ST elevation in the inferior leads (II, III, aVF) and second-degree AV block on the ECG. Which artery is most likely occluded?",
+   "options": [
+    "Anterior interventricular branch",
+    "Right coronary artery",
+    "Circumflex branch",
+    "Left marginal branch",
+    "Left main coronary artery"
+   ],
+   "answer": 1,
+   "explanation": "In most people the diaphragmatic (inferior) surface of the heart is supplied by the posterior interventricular branch of the right coronary artery. Because the AV nodal artery also arises from the RCA in about 80–90% of cases, inferior MI is often accompanied by bradycardia and AV block.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-b34c730f",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which artery supplies the anterior two thirds of the interventricular septum?",
+   "options": [
+    "Sinoatrial nodal artery",
+    "Right marginal branch",
+    "Anterior interventricular branch (LAD)",
+    "Circumflex branch",
+    "Posterior interventricular branch"
+   ],
+   "answer": 2,
+   "explanation": "The septal branches of the LAD supply the anterior 2/3 of the septum (including most of the left bundle branch) and the PDA the posterior 1/3. The LAD is the most frequently occluded coronary artery and causes extensive anterior infarcts.",
+   "entries": [
+    "aa-coronariae",
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-f11807d6",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": false,
+   "stem": "How is 'right dominance' of the coronary circulation defined?",
+   "options": [
+    "By the conus artery arising from the right aortic sinus",
+    "By the posterior interventricular branch arising from the right coronary artery",
+    "By the right coronary artery being larger",
+    "By the sinoatrial nodal artery arising from the right coronary artery",
+    "By the right ventricle being larger"
+   ],
+   "answer": 1,
+   "explanation": "Dominance is defined by the source of the PDA, which supplies the posterior surface of the heart and the posterior part of the septum. About 70% of people are right-dominant; in left dominance the PDA arises from the circumflex artery.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-f1cfdd20",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which artery does the great cardiac vein accompany?",
+   "options": [
+    "Anterior interventricular branch",
+    "Posterior interventricular branch",
+    "Right coronary artery",
+    "Right marginal branch",
+    "Atrioventricular nodal artery"
+   ],
+   "answer": 0,
+   "explanation": "The great cardiac vein rises with the LAD in the anterior interventricular groove, turns into the left AV groove and drains into the coronary sinus. The middle cardiac vein runs with the PDA and the small cardiac vein with the right marginal artery. The coronary sinus opens into the right atrium.",
+   "entries": [
+    "venae-cordis",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-0b3efcf0",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where is the natural pacemaker of the heart (sinoatrial node) located?",
+   "options": [
+    "In the right atrium near the opening of the superior vena cava, at the upper end of the crista terminalis",
+    "In the outflow tract of the right ventricle",
+    "At the apex of Koch's triangle",
+    "In the left atrium at the openings of the pulmonary veins",
+    "In the membranous part of the interventricular septum"
+   ],
+   "answer": 0,
+   "explanation": "The SA node lies just under the epicardium at the junction of the SVC and the right atrium and in about 60% of cases is supplied by the right coronary artery. The impulse travels from the atria to the AV node and through the bundle of His and its branches to the ventricles.",
+   "entries": [
+    "atrium-dextrum",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-0cef8d2c",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In cardiac surgery, which space allows a finger to be passed behind the aorta and pulmonary trunk so that a clamp can be placed?",
+   "options": [
+    "Fossa ovalis",
+    "Transverse pericardial sinus",
+    "Costodiaphragmatic recess",
+    "Oblique pericardial sinus",
+    "Coronary sinus"
+   ],
+   "answer": 1,
+   "explanation": "The transverse sinus lies between the aorta and pulmonary trunk in front and the SVC and pulmonary veins behind. It is used in bypass operations to control the great arteries together. The oblique sinus is the blind pocket behind the left atrium.",
+   "entries": [
+    "pericardium",
+    "aorta",
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-f911d80e",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A patient stabbed in the chest has hypotension, distended neck veins and muffled heart sounds (Beck's triad). Which approach is most often used for pericardiocentesis?",
+   "options": [
+    "Left 2nd intercostal space, midclavicular line",
+    "The angle between the xiphoid process and the left costal margin (subxiphoid approach)",
+    "Right 5th intercostal space, anterior axillary line",
+    "Right 2nd intercostal space, sternal border",
+    "Left 8th intercostal space, posterior axillary line"
+   ],
+   "answer": 1,
+   "explanation": "In cardiac tamponade blood in the pericardial cavity prevents the heart from filling. The needle is directed from the subxiphoid region towards the left shoulder; this route stays away from the pleura and the coronary arteries.",
+   "entries": [
+    "pericardium"
+   ]
+  },
+  {
+   "id": "cv-43207aff",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Why is the pain of pericarditis referred to the tip of the shoulder?",
+   "options": [
+    "Because the pericardium is supplied by intercostal nerves",
+    "Because sensation from the fibrous and parietal serous pericardium is carried by the phrenic nerve (C3–C5)",
+    "Because the sympathetic afferents of the heart enter T1–T4",
+    "Because the pericardium receives fibres from the brachial plexus",
+    "Because the visceral pericardium is supplied by the vagus nerve"
+   ],
+   "answer": 1,
+   "explanation": "The parietal pericardium has somatic sensation carried by the phrenic nerve; the pain is referred to the tip of the shoulder, the C4 dermatome. The pain of myocardial ischaemia, by contrast, travels with sympathetic afferents to T1–T4 and is referred to the inner side of the arm.",
+   "entries": [
+    "pericardium",
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "cv-b5bdf8d5",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which two structures does the ligamentum arteriosum connect?",
+   "options": [
+    "Aortic arch and left subclavian artery",
+    "Pulmonary trunk and superior vena cava",
+    "Aortic root and right atrium",
+    "Right pulmonary artery and azygos vein",
+    "Left pulmonary artery and aortic arch"
+   ],
+   "answer": 4,
+   "explanation": "The ligamentum arteriosum is the remnant of the fetal ductus arteriosus; it joins the origin of the left pulmonary artery to the underside of the aortic arch. The left recurrent laryngeal nerve hooks under the aortic arch lateral to this ligament.",
+   "entries": [
+    "truncus-pulmonalis",
+    "aorta",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-5b516d51",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which statement about the left ventricle is false?",
+   "options": [
+    "It has two papillary muscles, anterior and posterior.",
+    "It forms the apex of the heart.",
+    "The mitral valve has two cusps.",
+    "Its wall is about three times thicker than that of the right ventricle.",
+    "Its outflow tract contains the conus arteriosus (infundibulum)."
+   ],
+   "answer": 4,
+   "explanation": "The conus arteriosus (infundibulum) is the smooth-walled outflow tract of the right ventricle. The outflow tract of the left ventricle is called the aortic vestibule. Because the left ventricle works against systemic pressure, its wall is the thickest of all the chambers.",
+   "entries": [
+    "ventriculus-sinister",
+    "ventriculus-dexter",
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-258cd59d",
+   "group": "Aorta and its branches",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which option lists the branches of the aortic arch correctly from right to left?",
+   "options": [
+    "Brachiocephalic trunk, left subclavian artery, left common carotid artery",
+    "Left common carotid artery, brachiocephalic trunk, left subclavian artery",
+    "Brachiocephalic trunk, left common carotid artery, left subclavian artery",
+    "Coronary arteries, brachiocephalic trunk, left subclavian artery",
+    "Right subclavian artery, right common carotid artery, left common carotid artery"
+   ],
+   "answer": 2,
+   "explanation": "The aortic arch usually gives three branches. The brachiocephalic trunk divides behind the right sternoclavicular joint into the right subclavian and right common carotid arteries. The coronary arteries arise from the ascending aorta.",
+   "entries": [
+    "aorta",
+    "truncus-brachiocephalicus"
+   ]
+  },
+  {
+   "id": "cv-0bdc88fc",
+   "group": "Aorta and its branches",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A 16-year-old hypertensive patient has high blood pressure in the arms and weak, delayed pulses in the legs. The chest X-ray shows notching of the lower borders of the ribs. Enlargement of which vessels causes the notching?",
+   "options": [
+    "Posterior intercostal arteries (collateral circulation)",
+    "Lateral thoracic artery",
+    "Bronchial arteries",
+    "Coronary arteries",
+    "Anterior intercostal veins"
+   ],
+   "answer": 0,
+   "explanation": "In coarctation of the aorta (usually at the level of the ligamentum arteriosum) blood reaches the descending aorta via subclavian artery → internal thoracic artery → anterior intercostal arteries → posterior intercostal arteries. The enlarged posterior intercostal arteries erode the lower borders of the ribs (ribs 3–8).",
+   "entries": [
+    "aorta",
+    "a-subclavia",
+    "costae"
+   ]
+  },
+  {
+   "id": "cv-f7249148",
+   "group": "Aorta and its branches",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At which level does the abdominal aorta divide into the two common iliac arteries?",
+   "options": [
+    "L2",
+    "L4 (about the level of the umbilicus)",
+    "L1",
+    "T12",
+    "S2"
+   ],
+   "answer": 1,
+   "explanation": "After the aortic hiatus (T12) the abdominal aorta descends to the left of the spine and divides at L4; this point corresponds roughly to just below the umbilicus and to the line of the iliac crests.",
+   "entries": [
+    "aorta",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-dc7a4413",
+   "group": "Aorta and its branches",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A pulsatile abdominal mass is found in a 70-year-old male smoker. Where are abdominal aortic aneurysms most commonly located?",
+   "options": [
+    "At the level of the origins of the renal arteries",
+    "At the aortic hiatus",
+    "Above the coeliac trunk",
+    "Below the renal arteries (infrarenal), above the bifurcation",
+    "In the external iliac artery"
+   ],
+   "answer": 3,
+   "explanation": "Most abdominal aortic aneurysms are infrarenal. In this region there are few vasa vasorum and the elastin content is low. The risk of rupture increases with diameter.",
+   "entries": [
+    "aorta",
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "cv-7d92b3b7",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At which level does the common carotid artery usually divide into the internal and external carotid arteries?",
+   "options": [
+    "Upper border of the thyroid cartilage (C4)",
+    "Level of the cricoid cartilage (C6)",
+    "Above the angle of the mandible (C2)",
+    "Body of the hyoid bone (C3)",
+    "Level of the sternoclavicular joint"
+   ],
+   "answer": 0,
+   "explanation": "The carotid bifurcation lies at the level of the upper border of the thyroid cartilage. Here the dilatation at the start of the ICA (carotid sinus) is a baroreceptor and the small body at the bifurcation (carotid body) a chemoreceptor; both are supplied by the glossopharyngeal nerve.",
+   "entries": [
+    "a-carotis-communis",
+    "a-carotis-interna",
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-64588484",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Carotid sinus massage is performed on a patient with supraventricular tachycardia. What are the afferent and efferent pathways of the fall in heart rate?",
+   "options": [
+    "Afferent: vagus nerve – Efferent: glossopharyngeal nerve",
+    "Afferent: hypoglossal nerve – Efferent: vagus nerve",
+    "Afferent: glossopharyngeal nerve – Efferent: vagus nerve",
+    "Afferent: sympathetic chain – Efferent: phrenic nerve",
+    "Afferent: accessory nerve – Efferent: vagus nerve"
+   ],
+   "answer": 2,
+   "explanation": "The baroreceptors of the carotid sinus report the rise in pressure to the brainstem through the carotid sinus branch of CN IX; in response vagal output increases and the heart slows. In the elderly hypersensitivity can cause syncope.",
+   "entries": [
+    "a-carotis-interna",
+    "n-glossopharyngeus",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-b380c127",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which artery gives no branches at all in the neck?",
+   "options": [
+    "Vertebral artery",
+    "Internal carotid artery",
+    "External carotid artery",
+    "Thyrocervical trunk",
+    "Subclavian artery"
+   ],
+   "answer": 1,
+   "explanation": "The internal carotid artery enters the carotid canal without branching in the neck; its first important branch is the ophthalmic artery inside the skull. This helps surgeons tell the ICA from the ECA.",
+   "entries": [
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-d408d339",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is NOT a branch of the external carotid artery?",
+   "options": [
+    "Maxillary artery",
+    "Facial artery",
+    "Lingual artery",
+    "Superior thyroid artery",
+    "Ophthalmic artery"
+   ],
+   "answer": 4,
+   "explanation": "Branches of the ECA: superior thyroid, ascending pharyngeal, lingual, facial, occipital and posterior auricular arteries, and the terminal maxillary and superficial temporal arteries. The ophthalmic artery is the first intracranial branch of the ICA.",
+   "entries": [
+    "a-carotis-externa",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-c6279338",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The middle meningeal artery is a branch of which artery?",
+   "options": [
+    "Internal carotid artery",
+    "Occipital artery",
+    "Ophthalmic artery",
+    "Maxillary artery",
+    "Superficial temporal artery"
+   ],
+   "answer": 3,
+   "explanation": "The maxillary artery gives off the middle meningeal artery in the infratemporal fossa; it enters the skull through the foramen spinosum and supplies most of the dura and the skull bones.",
+   "entries": [
+    "a-carotis-externa",
+    "meninges"
+   ]
+  },
+  {
+   "id": "cv-7afbacff",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where on the face is the pulse of the facial artery most easily felt?",
+   "options": [
+    "Behind the angle of the mandible",
+    "Over the infraorbital foramen",
+    "At the medial angle of the eye",
+    "In front of the tragus",
+    "At the anterior border of masseter, on the lower border of the mandible"
+   ],
+   "answer": 4,
+   "explanation": "The facial artery crosses the lower border of the mandible at the anterior border of masseter, where it can be felt against the bone. It runs a tortuous course from the corner of the mouth to the medial angle of the eye (angular artery).",
+   "entries": [
+    "a-carotis-externa",
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "cv-937ce9d9",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A 70-year-old woman has new temple pain, jaw pain on chewing and blurred vision; the ESR is raised. From which artery is a biopsy most often taken for diagnosis?",
+   "options": [
+    "Facial artery",
+    "Internal carotid artery",
+    "Maxillary artery",
+    "Superficial temporal artery",
+    "Occipital artery"
+   ],
+   "answer": 3,
+   "explanation": "Giant cell (temporal) arteritis involves medium and large arteries, especially branches of the ECA. The superficial temporal artery, easily felt in front of the tragus, is suitable for biopsy. If treatment is delayed, involvement of the ophthalmic artery can cause permanent blindness.",
+   "entries": [
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-43492b44",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The posterior inferior cerebellar artery (PICA) is a branch of which artery?",
+   "options": [
+    "Basilar artery",
+    "Vertebral artery",
+    "Internal carotid artery",
+    "Posterior cerebral artery",
+    "Anterior spinal artery"
+   ],
+   "answer": 1,
+   "explanation": "PICA is usually the largest intracranial branch of the vertebral artery. AICA and SCA arise from the basilar artery, which divides at the upper border of the pons into the two PCAs. Occlusion of PICA causes lateral medullary syndrome.",
+   "entries": [
+    "a-vertebralis",
+    "circulus-arteriosus",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "cv-0adf4674",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following arteries is NOT part of the circle of Willis (circulus arteriosus cerebri)?",
+   "options": [
+    "Anterior cerebral artery (A1 segment)",
+    "Posterior communicating artery",
+    "Anterior communicating artery",
+    "Posterior cerebral artery (P1 segment)",
+    "Middle cerebral artery"
+   ],
+   "answer": 4,
+   "explanation": "The circle of Willis is formed by the ACom, the A1 segments of both ACAs, the terminal parts of both ICAs, both PComs and the P1 segments of both PCAs. The MCA continues the ICA but is not part of the ring.",
+   "entries": [
+    "circulus-arteriosus",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-11e9072b",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A 65-year-old patient has sudden painless complete loss of vision in one eye. On fundoscopy the retina is pale and the macula has a 'cherry-red spot'. Which artery is occluded?",
+   "options": [
+    "Lacrimal artery",
+    "Posterior cerebral artery",
+    "Long posterior ciliary artery",
+    "Supraorbital artery",
+    "Central retinal artery"
+   ],
+   "answer": 4,
+   "explanation": "The central retinal artery is a branch of the ophthalmic artery and enters the eye within the optic nerve. Being an end artery, its occlusion makes the inner layers of the retina ischaemic; the fovea, supplied by the choroid, appears as a red spot.",
+   "entries": [
+    "retina",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-6db081fa",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient gets dizzy with blurred vision after using the left arm for a long time; the blood pressure in the left arm is clearly lower than in the right. Angiography shows a stenosis at the origin of the left subclavian artery. What is the mechanism of the symptoms?",
+   "options": [
+    "Aneurysm of the basilar artery",
+    "Reversed flow in the left internal carotid artery",
+    "Occlusion of the internal thoracic artery",
+    "Occlusion of the right vertebral artery",
+    "Reversed flow in the left vertebral artery (subclavian steal syndrome)"
+   ],
+   "answer": 4,
+   "explanation": "When the stenosis lies before the origin of the vertebral artery, exercise of the arm 'steals' blood from the brainstem through the left vertebral artery towards the arm; symptoms of vertebrobasilar insufficiency appear.",
+   "entries": [
+    "a-subclavia",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "cv-cf804f79",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The artery most often used as a graft in coronary bypass surgery, with the best long-term patency, is a branch of which artery?",
+   "options": [
+    "Subclavian artery (internal thoracic artery)",
+    "Thyrocervical trunk",
+    "Axillary artery (lateral thoracic artery)",
+    "Common carotid artery",
+    "Descending aorta (intercostal artery)"
+   ],
+   "answer": 0,
+   "explanation": "The internal thoracic (internal mammary) artery arises from the first part of the subclavian artery and descends close to the sternal border. Anastomosing the left internal thoracic artery to the LAD (LIMA–LAD) gives the best long-term results.",
+   "entries": [
+    "a-subclavia",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-94f2afe5",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which artery is NOT a branch of the thyrocervical trunk?",
+   "options": [
+    "Ascending cervical artery",
+    "Suprascapular artery",
+    "Inferior thyroid artery",
+    "Superior thyroid artery",
+    "Transverse cervical artery"
+   ],
+   "answer": 3,
+   "explanation": "The thyrocervical trunk arises from the subclavian artery and gives the inferior thyroid artery (whose branch is the ascending cervical artery), the suprascapular artery and the transverse cervical artery. The superior thyroid artery is the first branch of the ECA.",
+   "entries": [
+    "a-subclavia",
+    "glandula-thyroidea"
+   ]
+  },
+  {
+   "id": "cv-1a1c0e40",
+   "group": "Arteries of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is a branch of the third part of the axillary artery?",
+   "options": [
+    "Subscapular artery",
+    "Thoraco-acromial artery",
+    "Lateral thoracic artery",
+    "Internal thoracic artery",
+    "Superior thoracic artery"
+   ],
+   "answer": 0,
+   "explanation": "First part (above pectoralis minor): superior thoracic artery. Second part (behind it): thoraco-acromial and lateral thoracic arteries. Third part (below it): subscapular artery and the anterior and posterior circumflex humeral arteries. The internal thoracic artery arises from the subclavian artery.",
+   "entries": [
+    "a-axillaris",
+    "m-pectoralis-minor"
+   ]
+  },
+  {
+   "id": "cv-04d706e5",
+   "group": "Arteries of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "If the axillary artery is ligated between the thyrocervical trunk and the subscapular artery, which collateral network keeps the arm supplied?",
+   "options": [
+    "Scapular anastomosis (suprascapular, dorsal scapular and circumflex scapular arteries)",
+    "Deep palmar arch",
+    "Thoraco-acromial anastomosis",
+    "Anterior intercostal arteries",
+    "Anastomosis around the elbow"
+   ],
+   "answer": 0,
+   "explanation": "Around the scapula, branches of the subclavian artery (suprascapular and dorsal scapular arteries) anastomose with the subscapular branch of the axillary artery (circumflex scapular artery). So if the ligature lies between these branches, the arm remains supplied.",
+   "entries": [
+    "a-axillaris",
+    "a-subclavia",
+    "scapula"
+   ]
+  },
+  {
+   "id": "cv-90c880be",
+   "group": "Arteries of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which artery runs with the radial nerve in the radial groove?",
+   "options": [
+    "Posterior circumflex humeral artery",
+    "Superior ulnar collateral artery",
+    "Brachial artery",
+    "Radial recurrent artery",
+    "Profunda brachii artery"
+   ],
+   "answer": 4,
+   "explanation": "The profunda brachii is the largest branch in the arm and runs with the radial nerve in the groove on the back of the humerus; it supplies the posterior compartment of the arm and joins the anastomosis around the elbow.",
+   "entries": [
+    "a-brachialis",
+    "n-radialis",
+    "humerus"
+   ]
+  },
+  {
+   "id": "cv-2354b9a9",
+   "group": "Arteries of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At the wrist, the radial pulse is felt just lateral to which tendon?",
+   "options": [
+    "Flexor carpi radialis",
+    "Flexor carpi ulnaris",
+    "Palmaris longus",
+    "Brachioradialis",
+    "Abductor pollicis longus"
+   ],
+   "answer": 0,
+   "explanation": "At the wrist the radial artery runs superficially in front of the distal end of the radius, lateral to the FCR tendon, and is felt by pressing it against the bone. It then crosses the floor of the snuffbox to the back of the hand.",
+   "entries": [
+    "a-radialis",
+    "m-flexor-carpi-radialis"
+   ]
+  },
+  {
+   "id": "cv-47f821c9",
+   "group": "Arteries of the upper limb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "The Allen test is performed before radial artery cannulation in intensive care. What is the purpose of the test?",
+   "options": [
+    "To check whether the hand is adequately supplied through the ulnar artery and the palmar arches",
+    "To test the function of the median nerve",
+    "To detect a stenosis of the brachial artery",
+    "To measure the wall thickness of the radial artery",
+    "To assess venous return"
+   ],
+   "answer": 0,
+   "explanation": "The radial and ulnar arteries are compressed together and the hand blanches; then the ulnar artery is released. Rapid return of colour shows that the ulnar artery and superficial palmar arch are adequate and that the hand can be supplied even if the radial artery occludes.",
+   "entries": [
+    "a-ulnaris",
+    "a-radialis",
+    "arcus-palmares"
+   ]
+  },
+  {
+   "id": "cv-f33acf1b",
+   "group": "Arteries of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which artery mainly forms the superficial palmar arch?",
+   "options": [
+    "Median artery",
+    "Ulnar artery",
+    "Princeps pollicis artery",
+    "Anterior interosseous artery",
+    "Radial artery"
+   ],
+   "answer": 1,
+   "explanation": "The superficial palmar arch is mainly the continuation of the ulnar artery, completed by the superficial palmar branch of the radial artery; the deep palmar arch is formed mainly by the radial artery and lies more proximally.",
+   "entries": [
+    "arcus-palmares",
+    "a-ulnaris"
+   ]
+  },
+  {
+   "id": "cv-949621d9",
+   "group": "Arteries of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The common interosseous artery is a branch of which artery?",
+   "options": [
+    "Brachial artery",
+    "Radial artery",
+    "Ulnar artery",
+    "Radial recurrent artery",
+    "Profunda brachii artery"
+   ],
+   "answer": 2,
+   "explanation": "Just below the cubital fossa the ulnar artery gives off the common interosseous artery, which divides into the anterior and posterior interosseous arteries running in front of and behind the interosseous membrane.",
+   "entries": [
+    "a-ulnaris"
+   ]
+  },
+  {
+   "id": "cv-182b9c31",
+   "group": "Arteries of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Over which artery is the stethoscope placed when blood pressure is measured?",
+   "options": [
+    "Axillary artery",
+    "Radial artery",
+    "Brachial artery",
+    "Ulnar artery",
+    "Profunda brachii artery"
+   ],
+   "answer": 2,
+   "explanation": "The cuff is wrapped around the arm; the stethoscope is placed in the cubital fossa over the brachial artery, just medial to the biceps tendon. The Korotkoff sounds are heard here.",
+   "entries": [
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-80e9ff2a",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What are the three branches of the coeliac trunk?",
+   "options": [
+    "Inferior phrenic artery, splenic artery, common hepatic artery",
+    "Left gastric artery, splenic artery, common hepatic artery",
+    "Right gastric artery, splenic artery, proper hepatic artery",
+    "Left gastric artery, gastroduodenal artery, renal artery",
+    "Gastroduodenal artery, splenic artery, superior mesenteric artery"
+   ],
+   "answer": 1,
+   "explanation": "The coeliac trunk arises from the front of the aorta at T12 and supplies the foregut derivatives (abdominal oesophagus, stomach, upper duodenum, liver, gallbladder, part of the pancreas and the spleen).",
+   "entries": [
+    "truncus-coeliacus"
+   ]
+  },
+  {
+   "id": "cv-929f7309",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with a history of peptic ulcer presents with massive haematemesis. Endoscopy shows a bleeding ulcer on the posterior wall of the first part of the duodenum. Which artery is most likely bleeding?",
+   "options": [
+    "Superior mesenteric artery",
+    "Left gastric artery",
+    "Gastroduodenal artery",
+    "Splenic artery",
+    "Inferior pancreaticoduodenal artery"
+   ],
+   "answer": 2,
+   "explanation": "The gastroduodenal artery arises from the common hepatic artery and descends just behind the first part of the duodenum. Posterior wall ulcers erode this artery and cause serious bleeding; anterior wall ulcers tend to perforate instead.",
+   "entries": [
+    "truncus-coeliacus",
+    "duodenum"
+   ]
+  },
+  {
+   "id": "cv-ed78d041",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the splenic artery is false?",
+   "options": [
+    "It is the largest branch of the coeliac trunk.",
+    "It runs a tortuous course along the upper border of the pancreas.",
+    "It supplies the fundus of the stomach through the short gastric arteries.",
+    "It reaches the spleen in the splenorenal ligament.",
+    "It gives off the right gastro-omental (gastroepiploic) artery."
+   ],
+   "answer": 4,
+   "explanation": "The splenic artery gives the left gastro-omental artery and the short gastric arteries. The right gastro-omental artery is a branch of the gastroduodenal artery; the two gastro-omental arteries anastomose along the greater curvature of the stomach.",
+   "entries": [
+    "truncus-coeliacus",
+    "splen",
+    "gaster"
+   ]
+  },
+  {
+   "id": "cv-9dcf655b",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What area does the superior mesenteric artery supply?",
+   "options": [
+    "The bowel from the middle of the descending part of the duodenum to about the left third of the transverse colon",
+    "From the oesophagus to the middle of the duodenum",
+    "From the left third of the transverse colon to the upper rectum",
+    "The stomach and spleen",
+    "Only the jejunum and ileum"
+   ],
+   "answer": 0,
+   "explanation": "The SMA (L1) supplies the midgut derivatives: the duodenum beyond the major papilla, jejunum, ileum, caecum, appendix, ascending colon and the proximal 2/3 of the transverse colon. Its branches: inferior pancreaticoduodenal, jejunal and ileal arteries, ileocolic, right colic and middle colic arteries.",
+   "entries": [
+    "a-mesenterica-superior",
+    "intestinum-tenue"
+   ]
+  },
+  {
+   "id": "cv-70883c8c",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A young woman develops severe vomiting and bloating after meals following rapid weight loss; the duodenum is found to be compressed between the aorta and a vessel. Which vessel is it, and which part of the duodenum is affected?",
+   "options": [
+    "Superior mesenteric artery – third (horizontal) part of the duodenum",
+    "Inferior mesenteric artery – fourth part of the duodenum",
+    "Coeliac trunk – first part of the duodenum",
+    "Left renal artery – second part of the duodenum",
+    "Hepatic portal vein – first part of the duodenum"
+   ],
+   "answer": 0,
+   "explanation": "The horizontal part of the duodenum passes between the aorta and the SMA at L3. When retroperitoneal fat is lost, the angle between them narrows and the duodenum is compressed (SMA syndrome, Wilkie syndrome).",
+   "entries": [
+    "a-mesenterica-superior",
+    "duodenum",
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-0614100a",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which area of the colonic blood supply, known as a 'watershed', is most vulnerable to ischaemia?",
+   "options": [
+    "Lower rectum",
+    "Middle of the ascending colon",
+    "Caecum",
+    "Right colic flexure",
+    "Left colic flexure (meeting of the SMA and IMA territories)"
+   ],
+   "answer": 4,
+   "explanation": "The left colic flexure (Griffiths' point) is where the end territories of the SMA's middle colic artery and the IMA's left colic artery meet and where the marginal artery (of Drummond) may be weak. The rectosigmoid junction (Sudeck's point) is the other critical area.",
+   "entries": [
+    "a-mesenterica-inferior",
+    "a-mesenterica-superior",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "cv-bc394f94",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which artery, the terminal branch of the inferior mesenteric artery, supplies the upper rectum?",
+   "options": [
+    "Sigmoid artery",
+    "Superior rectal artery",
+    "Inferior rectal artery",
+    "Median sacral artery",
+    "Middle rectal artery"
+   ],
+   "answer": 1,
+   "explanation": "The IMA (L3) gives the left colic artery, the sigmoid arteries and the superior rectal artery. The middle rectal artery arises from the internal iliac artery and the inferior rectal artery from the internal pudendal artery.",
+   "entries": [
+    "a-mesenterica-inferior",
+    "rectum"
+   ]
+  },
+  {
+   "id": "cv-34e1fdec",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which statement about the renal arteries is correct?",
+   "options": [
+    "The right renal artery passes behind the inferior vena cava.",
+    "There are wide anastomoses between the segmental arteries.",
+    "They arise from the aorta at T10.",
+    "They run in front of the renal veins.",
+    "The left renal artery is longer than the right."
+   ],
+   "answer": 0,
+   "explanation": "The renal arteries arise at L1–L2; because the aorta lies to the left, the right renal artery is longer and passes behind the IVC. At the hilum the order from front to back is vein, artery, pelvis. The segmental arteries are end arteries.",
+   "entries": [
+    "aa-renales",
+    "ren",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-23038544",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which artery arises from the posterior trunk of the internal iliac artery?",
+   "options": [
+    "Superior gluteal artery",
+    "Uterine artery",
+    "Inferior gluteal artery",
+    "Obturator artery",
+    "Internal pudendal artery"
+   ],
+   "answer": 0,
+   "explanation": "The posterior trunk gives the iliolumbar artery, the lateral sacral arteries and the superior gluteal artery. The anterior trunk gives the visceral branches (umbilical, inferior vesical/vaginal, uterine and middle rectal arteries) and the parietal branches (obturator, internal pudendal and inferior gluteal arteries).",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-20f3067b",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The inferior epigastric artery is a branch of which artery?",
+   "options": [
+    "Internal iliac artery",
+    "Obturator artery",
+    "External iliac artery",
+    "Femoral artery",
+    "Internal thoracic artery"
+   ],
+   "answer": 2,
+   "explanation": "The inferior epigastric artery arises from the external iliac artery just above the inguinal ligament, rises medial to the deep inguinal ring and anastomoses in the rectus sheath with the superior epigastric artery (a branch of the internal thoracic artery).",
+   "entries": [
+    "a-iliaca-communis",
+    "m-rectus-abdominis"
+   ]
+  },
+  {
+   "id": "cv-f36779f3",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the bifurcation of the common iliac artery is correct?",
+   "options": [
+    "It lies in front of the sacroiliac joint, and the ureter usually crosses the iliac vessels here.",
+    "It lies at L1, at the hilum of the kidneys.",
+    "Beyond this point the internal iliac artery descends into the thigh.",
+    "The ductus deferens passes behind the bifurcation.",
+    "The inferior vena cava passes in front of this point."
+   ],
+   "answer": 0,
+   "explanation": "The common iliac arteries divide into the internal and external iliac arteries in front of the sacroiliac joint. At the pelvic inlet the ureter passes in front of this bifurcation; this is one of the physiological narrowings of the ureter, where stones lodge.",
+   "entries": [
+    "a-iliaca-communis",
+    "ureter"
+   ]
+  },
+  {
+   "id": "cv-6134b2af",
+   "group": "Arteries of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where is the femoral pulse best felt?",
+   "options": [
+    "At the level of the adductor hiatus",
+    "Just above the pubic tubercle",
+    "Behind the greater trochanter",
+    "In the middle of the thigh, at the lateral border of sartorius",
+    "Below the inguinal ligament, midway between the ASIS and the pubic symphysis (mid-inguinal point)"
+   ],
+   "answer": 4,
+   "explanation": "The femoral artery enters the femoral triangle under the inguinal ligament and is felt at the mid-inguinal point by pressing it against bone (femoral head, pubis). It is the artery most used for catheterisation; the vein lies just medial to it.",
+   "entries": [
+    "a-femoralis",
+    "trigonum-femorale"
+   ]
+  },
+  {
+   "id": "cv-dba30b16",
+   "group": "Arteries of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What are the branches of the profunda femoris artery?",
+   "options": [
+    "External pudendal and inferior epigastric arteries",
+    "Medial circumflex femoral, lateral circumflex femoral and perforating arteries",
+    "Descending genicular and popliteal arteries",
+    "Superficial epigastric and superficial circumflex iliac arteries",
+    "Obturator and inferior gluteal arteries"
+   ],
+   "answer": 1,
+   "explanation": "The deep femoral artery is the main supply of the thigh; the two circumflex arteries supply the region of the hip and the perforating arteries the posterior compartment of the thigh. The medial circumflex artery is the main source of blood for the femoral head.",
+   "entries": [
+    "a-femoralis",
+    "femur"
+   ]
+  },
+  {
+   "id": "cv-d4ddc968",
+   "group": "Arteries of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the order of structures in the popliteal fossa from superficial to deep?",
+   "options": [
+    "Popliteal vein – tibial nerve – popliteal artery",
+    "Popliteal artery – tibial nerve – popliteal vein",
+    "Popliteal artery – popliteal vein – tibial nerve",
+    "Tibial nerve – popliteal vein – popliteal artery",
+    "Tibial nerve – popliteal artery – popliteal vein"
+   ],
+   "answer": 3,
+   "explanation": "In the popliteal fossa the nerve is most superficial, the vein in the middle and the artery deepest (against the femur and the knee capsule). So the popliteal pulse is felt by pressing deeply with the knee slightly bent, and the artery can be injured in supracondylar fractures of the femur.",
+   "entries": [
+    "a-poplitea",
+    "fossa-poplitea",
+    "n-tibialis"
+   ]
+  },
+  {
+   "id": "cv-eefdaca9",
+   "group": "Arteries of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where is the dorsalis pedis pulse best felt?",
+   "options": [
+    "At the base of the 5th metatarsal",
+    "Behind the medial malleolus",
+    "On the inner side of the heel",
+    "In front of the lateral malleolus",
+    "On the dorsum of the foot, lateral to the extensor hallucis longus tendon"
+   ],
+   "answer": 4,
+   "explanation": "The dorsalis pedis artery continues the anterior tibial artery; on the dorsum of the foot it is felt just lateral to the EHL tendon, between the 1st and 2nd metatarsals. It is one of the first pulses lost in peripheral arterial disease.",
+   "entries": [
+    "a-dorsalis-pedis",
+    "a-tibialis-anterior",
+    "m-extensor-hallucis-longus"
+   ]
+  },
+  {
+   "id": "cv-c38d2770",
+   "group": "Arteries of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The fibular (peroneal) artery is a branch of which artery?",
+   "options": [
+    "Posterior tibial artery",
+    "A direct branch of the popliteal artery",
+    "Dorsalis pedis artery",
+    "Femoral artery",
+    "Anterior tibial artery"
+   ],
+   "answer": 0,
+   "explanation": "The posterior tibial artery gives off the fibular artery in the upper leg; it runs close to the fibula and supplies the lateral compartment muscles through perforating branches. The free fibula flap is raised on this artery.",
+   "entries": [
+    "a-tibialis-posterior",
+    "fibula"
+   ]
+  },
+  {
+   "id": "cv-86d9b694",
+   "group": "Arteries of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which arteries take part in the cruciate anastomosis of the hip region?",
+   "options": [
+    "Iliolumbar and lateral sacral arteries",
+    "Superior gluteal, obturator and internal pudendal arteries",
+    "Inferior gluteal artery, medial and lateral circumflex femoral arteries and the 1st perforating artery",
+    "Inferior epigastric and obturator arteries",
+    "Genicular branches of the popliteal artery"
+   ],
+   "answer": 2,
+   "explanation": "The cruciate anastomosis lies behind the femur at the level of the lesser trochanter and provides a collateral path between the internal iliac and femoral systems. It is important in proximal occlusion of the femoral artery.",
+   "entries": [
+    "a-femoralis",
+    "femur"
+   ]
+  },
+  {
+   "id": "cv-d936dd1e",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "In a patient in shock in whom no peripheral vein can be found, which vein is the most reliable site for an emergency venous cut-down?",
+   "options": [
+    "External jugular vein – in the neck",
+    "Great saphenous vein – in front of the medial malleolus",
+    "Small saphenous vein – behind the lateral malleolus",
+    "Cephalic vein – in the deltopectoral groove",
+    "Basilic vein – on the inner side of the elbow"
+   ],
+   "answer": 1,
+   "explanation": "The great saphenous vein is constant and superficial just in front of the medial malleolus, which makes it the classic cut-down site. Here the saphenous nerve runs with the vein and must be protected during the procedure.",
+   "entries": [
+    "v-saphena-magna"
+   ]
+  },
+  {
+   "id": "cv-0c9c8933",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Into which vein does the great saphenous vein drain?",
+   "options": [
+    "Internal iliac vein",
+    "Femoral vein (at the saphenous opening)",
+    "Profunda femoris vein",
+    "External iliac vein",
+    "Popliteal vein"
+   ],
+   "answer": 1,
+   "explanation": "The great saphenous vein rises on the inner thigh and passes through the fascia lata at the saphenous opening, about 3–4 cm below and lateral to the pubic tubercle, to drain into the femoral vein. It is used as a graft in coronary bypass.",
+   "entries": [
+    "v-saphena-magna",
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-99cfaed4",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which statement about the small saphenous vein is correct?",
+   "options": [
+    "It runs under the deep fascia, inside muscle.",
+    "It passes in front of the medial malleolus.",
+    "It drains into the femoral vein.",
+    "It passes behind the lateral malleolus and usually drains into the popliteal vein.",
+    "It runs with the saphenous nerve."
+   ],
+   "answer": 3,
+   "explanation": "The small saphenous vein begins at the lateral edge of the foot, rises behind the lateral malleolus to the midline of the calf and opens into the popliteal vein in the popliteal fossa. In the calf it runs with the sural nerve.",
+   "entries": [
+    "v-saphena-parva",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "cv-efdf82fd",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At which level is the inferior vena cava formed, and at which level does it pass through the diaphragm?",
+   "options": [
+    "Formed at L5, passes through the diaphragm at T8.",
+    "Formed at L1, passes through the diaphragm at T10.",
+    "Formed at S1, passes through the diaphragm at T10.",
+    "Formed at L4, passes through the diaphragm at T12.",
+    "Formed at L3, passes through the diaphragm at T8."
+   ],
+   "answer": 0,
+   "explanation": "The two common iliac veins unite at L5, to the right of and slightly below the aortic bifurcation, to form the IVC. The IVC passes through the caval opening in the central tendon of the diaphragm (T8).",
+   "entries": [
+    "v-cava-inferior",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "cv-147eede0",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which vein opens into the superior vena cava from its right posterior side?",
+   "options": [
+    "Hemiazygos vein",
+    "Right subclavian vein",
+    "Internal thoracic vein",
+    "External jugular vein",
+    "Azygos vein"
+   ],
+   "answer": 4,
+   "explanation": "The azygos vein arches over the root of the right lung at T4 to open into the SVC. It collects the posterior intercostal veins and the oesophageal and bronchial veins; it is an important collateral route when the IVC is blocked.",
+   "entries": [
+    "v-azygos",
+    "v-cava-superior"
+   ]
+  },
+  {
+   "id": "cv-799fea3d",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where, and by the union of which veins, is the hepatic portal vein formed?",
+   "options": [
+    "At the porta hepatis, by the union of the right and left hepatic veins",
+    "At the lesser curvature of the stomach, by the union of the right and left gastric veins",
+    "Behind the neck of the pancreas, by the union of the superior mesenteric and splenic veins",
+    "In front of the duodenum, by the union of the left gastric and splenic veins",
+    "Behind the tail of the pancreas, by the union of the renal and splenic veins"
+   ],
+   "answer": 2,
+   "explanation": "The portal vein forms at L1–L2 behind the neck of the pancreas; the inferior mesenteric vein usually opens into the splenic vein. The vein rises in the hepatoduodenal ligament, behind the bile duct and the hepatic artery.",
+   "entries": [
+    "v-portae-hepatis",
+    "pancreas"
+   ]
+  },
+  {
+   "id": "cv-0cf94980",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with alcoholic cirrhosis is brought in with massive haematemesis; examination shows dilated veins around the umbilicus (caput medusae) and haemorrhoids. Which portocaval anastomosis is the source of the bleeding?",
+   "options": [
+    "Anastomosis between the left colic and renal veins",
+    "Anastomosis between the superior and middle rectal veins",
+    "Anastomosis between the paraumbilical and superficial epigastric veins",
+    "Anastomosis between the left gastric vein and the oesophageal veins (azygos system)",
+    "Anastomosis between the splenic and left renal veins"
+   ],
+   "answer": 3,
+   "explanation": "In portal hypertension blood passes into systemic veins through collaterals: oesophageal varices at the lower oesophagus (their bleeding can be fatal), rectal varices in the anorectal region, caput medusae around the umbilicus and retroperitoneal anastomoses.",
+   "entries": [
+    "v-portae-hepatis",
+    "oesophagus",
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "cv-0f81ede0",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In the neck, what is the position of the internal jugular vein relative to the common carotid artery?",
+   "options": [
+    "Outside the carotid sheath, on the surface of the SCM",
+    "Medial to the artery, close to the trachea",
+    "Within the carotid sheath, lateral to the artery",
+    "Behind the artery, under the prevertebral fascia",
+    "In front of the artery, within the thyroid gland"
+   ],
+   "answer": 2,
+   "explanation": "In the carotid sheath the common carotid artery is medial, the internal jugular vein lateral and the vagus nerve behind both. When a central line is placed, the vein is sought in the triangle between the two heads of the SCM, lateral to the artery.",
+   "entries": [
+    "v-jugularis-interna",
+    "a-carotis-communis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-90f888e4",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "When the jugular venous pressure (JVP) is observed, which vein visible in the neck crosses the SCM superficially?",
+   "options": [
+    "Facial vein",
+    "Vertebral vein",
+    "Middle thyroid vein",
+    "External jugular vein",
+    "Internal jugular vein"
+   ],
+   "answer": 3,
+   "explanation": "The external jugular vein descends obliquely over the surface of the SCM and opens into the subclavian vein above the clavicle. It becomes distended in right heart failure. The JVP itself, however, is properly assessed on the internal jugular vein.",
+   "entries": [
+    "v-jugularis-externa",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "cv-8f6a9c14",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the most common serious complication of subclavian vein catheterisation, and why?",
+   "options": [
+    "Haemopericardium, because the vein opens directly into the pericardium",
+    "There is no air embolism, because the vein has valves.",
+    "Phrenic nerve palsy, because the nerve passes through the vein",
+    "Pneumothorax, because the cervical pleura (cupula) lies just behind and below the vein",
+    "Chylothorax, because the thoracic duct is on the right side"
+   ],
+   "answer": 3,
+   "explanation": "The subclavian vein runs between the clavicle and the 1st rib, in front of the anterior scalene. The pleura and the apex of the lung lie just behind it, so a needle advanced too deeply causes a pneumothorax. Because the thoracic duct drains into the left venous angle, left-sided procedures carry a risk of chylothorax.",
+   "entries": [
+    "v-subclavia",
+    "pleura"
+   ]
+  },
+  {
+   "id": "cv-f04b527e",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which superficial vein in front of the elbow is used most often for taking blood?",
+   "options": [
+    "Axillary vein",
+    "Cephalic vein",
+    "Median cubital vein",
+    "Brachial vein",
+    "Basilic vein"
+   ],
+   "answer": 2,
+   "explanation": "The median cubital vein links the cephalic to the basilic vein and lies on the bicipital aponeurosis, which protects the brachial artery and median nerve beneath it.",
+   "entries": [
+    "vv-membri-superioris"
+   ]
+  },
+  {
+   "id": "cv-09c0276c",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where does the cephalic vein open into a deep vein?",
+   "options": [
+    "Into the brachial vein at the elbow",
+    "Into the basilic vein in the axilla",
+    "Into the brachial vein at mid-arm",
+    "Into the axillary vein, after passing through the deltopectoral groove",
+    "Into the external jugular vein in the neck"
+   ],
+   "answer": 3,
+   "explanation": "The cephalic vein rises on the lateral side of the forearm and arm and, through the groove between deltoid and pectoralis major, pierces the clavipectoral fascia to open into the axillary vein. The basilic vein, by contrast, pierces the deep fascia at mid-arm and joins the brachial veins to form the axillary vein.",
+   "entries": [
+    "vv-membri-superioris"
+   ]
+  },
+  {
+   "id": "cv-9d3e524c",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which option gives the correct drainage route of venous blood inside the skull?",
+   "options": [
+    "Inferior sagittal sinus → cavernous sinus → external jugular vein",
+    "Transverse sinus → superior sagittal sinus → vertebral vein",
+    "Cavernous sinus → straight sinus → external jugular vein",
+    "Sigmoid sinus → transverse sinus → confluence of sinuses → internal jugular vein",
+    "Superior sagittal sinus → confluence of sinuses → transverse sinus → sigmoid sinus → internal jugular vein"
+   ],
+   "answer": 4,
+   "explanation": "The dural sinuses collect blood from the brain, meninges and skull. The superior sagittal sinus also contains the granulations through which CSF is absorbed. The sigmoid sinus continues as the internal jugular vein at the jugular foramen.",
+   "entries": [
+    "sinus-durae-matris",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-b1671c8b",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Where does the left testicular vein drain, and what is the clinical importance of this?",
+   "options": [
+    "It drains into the internal iliac vein and so causes haemorrhoids.",
+    "It drains into the inferior vena cava, so varicocele is not seen on the left.",
+    "It drains into the azygos vein and so causes chest pain.",
+    "It drains into the portal vein and so dilates in portal hypertension.",
+    "It drains into the left renal vein, so varicocele is more common on the left."
+   ],
+   "answer": 4,
+   "explanation": "The right testicular vein opens obliquely into the IVC, while the left testicular vein enters the left renal vein at a right angle. The left renal vein can also be compressed between the aorta and the SMA (nutcracker). That is why dilatation of the pampiniform plexus (varicocele) is mostly left-sided.",
+   "entries": [
+    "testis",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-51ef5367",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the left renal vein is false?",
+   "options": [
+    "It passes between the superior mesenteric artery and the aorta.",
+    "Its compression between the aorta and the SMA causes 'nutcracker' syndrome.",
+    "It receives the left gonadal and left suprarenal veins.",
+    "It passes behind the aorta to open into the inferior vena cava.",
+    "It is longer than the right renal vein."
+   ],
+   "answer": 3,
+   "explanation": "The left renal vein normally passes in front of the aorta, just below the SMA. A retroaortic left renal vein is a rare variant. Because the left renal vein is long, the left kidney is usually preferred for transplantation.",
+   "entries": [
+    "ren",
+    "aorta",
+    "a-mesenterica-superior"
+   ]
+  },
+  {
+   "id": "cv-25ce6332",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which route plays the main role in the spread of infections from the 'danger triangle' of the face to the cavernous sinus?",
+   "options": [
+    "Superficial temporal vein → superior sagittal sinus",
+    "Pterygoid plexus → maxillary vein → external jugular vein",
+    "Retromandibular vein → external jugular vein",
+    "Facial vein → internal jugular vein → sigmoid sinus",
+    "Facial vein → angular vein → superior ophthalmic vein"
+   ],
+   "answer": 4,
+   "explanation": "At the medial angle of the eye, the angular vein – the beginning of the facial vein – communicates with the valveless superior ophthalmic vein. Infections around the nose and upper lip can reach the cavernous sinus by this route and cause thrombophlebitis.",
+   "entries": [
+    "sinus-durae-matris",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-98cd4a4d",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which statement about the left brachiocephalic vein is correct?",
+   "options": [
+    "It is longer than the right and passes obliquely in front of the branches of the aortic arch.",
+    "It is shorter than the right and descends vertically.",
+    "It opens directly into the right atrium.",
+    "It passes behind the aorta.",
+    "It receives the azygos vein."
+   ],
+   "answer": 0,
+   "explanation": "On each side the internal jugular and subclavian veins unite behind the sternoclavicular joint to form the brachiocephalic veins. The left brachiocephalic vein crosses to the right behind the manubrium and joins the right one to form the SVC. The thoracic duct opens into the left venous angle.",
+   "entries": [
+    "v-cava-superior",
+    "v-subclavia",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-a877168d",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many chambers does the heart have?",
+   "options": [
+    "3",
+    "6",
+    "5",
+    "4 (two atria, two ventricles)",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "The heart consists of two atria and two ventricles. The right side pumps deoxygenated blood to the lungs, the left side oxygenated blood to the body.",
+   "entries": [
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-94d9d190",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the double-layered sac surrounding the heart called?",
+   "options": [
+    "Pleura",
+    "Peritoneum",
+    "Pericardium",
+    "Endocardium",
+    "Myocardium"
+   ],
+   "answer": 2,
+   "explanation": "The pericardium is a sac with an outer fibrous layer and an inner serous layer (parietal and visceral). The endocardium lines the inside of the heart, the myocardium is the heart muscle.",
+   "entries": [
+    "pericardium"
+   ]
+  },
+  {
+   "id": "cv-3db2d7ed",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which valve lies between the right atrium and the right ventricle?",
+   "options": [
+    "Aortic valve",
+    "Mitral valve",
+    "Pulmonary valve",
+    "Eustachian valve",
+    "Tricuspid valve"
+   ],
+   "answer": 4,
+   "explanation": "The right atrioventricular valve has three cusps (tricuspid). Between the left atrium and left ventricle lies the two-cusped mitral valve.",
+   "entries": [
+    "valvae-cordis",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-d1d99274",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which valve lies between the left atrium and the left ventricle?",
+   "options": [
+    "Aortic valve",
+    "Tricuspid valve",
+    "Pulmonary valve",
+    "Thebesian valve",
+    "Mitral (bicuspid) valve"
+   ],
+   "answer": 4,
+   "explanation": "The mitral valve has two cusps, anterior and posterior; they are attached by chordae tendineae to the papillary muscles of the left ventricle.",
+   "entries": [
+    "valvae-cordis",
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-26a232bf",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which heart chamber has the thickest wall?",
+   "options": [
+    "All four chambers have equal walls",
+    "Right atrium",
+    "Right ventricle",
+    "Left ventricle",
+    "Left atrium"
+   ],
+   "answer": 3,
+   "explanation": "The left ventricle has the thickest wall because it pumps blood at high pressure to the whole body; it is about three times thicker than the right ventricle.",
+   "entries": [
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-d6a24725",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which chamber forms the tip (apex) of the heart?",
+   "options": [
+    "Left ventricle",
+    "Right ventricle",
+    "Left atrium",
+    "Right atrium",
+    "Left auricle"
+   ],
+   "answer": 0,
+   "explanation": "The apex of the heart is formed by the left ventricle and is felt in the left 5th intercostal space just medial to the midclavicular line (apex beat).",
+   "entries": [
+    "ventriculus-sinister",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-412b75c1",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What are the arteries supplying the heart muscle called?",
+   "options": [
+    "Bronchial arteries",
+    "Intercostal arteries",
+    "Pulmonary arteries",
+    "Coronary arteries",
+    "Pericardiacophrenic arteries"
+   ],
+   "answer": 3,
+   "explanation": "The right and left coronary arteries arise from the aortic sinuses at the root of the ascending aorta and supply the heart wall; their occlusion causes myocardial infarction.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-7d873071",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the heart's natural pacemaker called?",
+   "options": [
+    "Bundle of His",
+    "Sinoatrial (SA) node",
+    "Moderator band",
+    "Purkinje fibres",
+    "Atrioventricular (AV) node"
+   ],
+   "answer": 1,
+   "explanation": "The SA node lies in the right atrium beside the opening of the superior vena cava and initiates the heartbeat. The impulse then passes to the AV node, bundle of His, bundle branches and Purkinje fibres.",
+   "entries": [
+    "cor",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-05cc936f",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "From which heart chamber does the pulmonary circulation begin?",
+   "options": [
+    "Coronary sinus",
+    "Right ventricle",
+    "Left ventricle",
+    "Right atrium",
+    "Left atrium"
+   ],
+   "answer": 1,
+   "explanation": "The pulmonary circulation starts from the right ventricle with the pulmonary trunk and ends in the left atrium via the pulmonary veins. The systemic circulation starts from the left ventricle with the aorta.",
+   "entries": [
+    "ventriculus-dexter",
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-ec83a847",
+   "group": "Aorta and its branches",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the largest artery distributing oxygenated blood to the whole body?",
+   "options": [
+    "Common carotid artery",
+    "Inferior vena cava",
+    "Pulmonary trunk",
+    "Subclavian artery",
+    "Aorta"
+   ],
+   "answer": 4,
+   "explanation": "The aorta leaves the left ventricle; through its ascending part, arch, thoracic and abdominal parts it carries blood to the whole systemic circulation.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-7e929d6e",
+   "group": "Heart",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which vessel carries deoxygenated blood from the heart to the lungs?",
+   "options": [
+    "Aorta",
+    "Pulmonary trunk (pulmonary artery)",
+    "Superior vena cava",
+    "Bronchial arteries",
+    "Pulmonary veins"
+   ],
+   "answer": 1,
+   "explanation": "The pulmonary arteries are the only arteries carrying deoxygenated blood; they leave the right ventricle and go to the lungs.",
+   "entries": [
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-98ef52a0",
+   "group": "Veins",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which veins carry oxygenated blood?",
+   "options": [
+    "Jugular veins",
+    "Pulmonary veins",
+    "Portal vein",
+    "Superior and inferior venae cavae",
+    "Coronary veins"
+   ],
+   "answer": 1,
+   "explanation": "The pulmonary veins bring oxygenated blood from the lungs to the left atrium; they are the only veins carrying oxygenated blood.",
+   "entries": [
+    "vv-pulmonales"
+   ]
+  },
+  {
+   "id": "cv-37cfee07",
+   "group": "Aorta and its branches",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the part of the aorta that curves to the left and backwards after leaving the heart called?",
+   "options": [
+    "Ascending aorta",
+    "Descending aorta",
+    "Aortic bulb",
+    "Aortic arch",
+    "Aortic bifurcation"
+   ],
+   "answer": 3,
+   "explanation": "After rising, the ascending aorta curves backwards over the left main bronchus at T4 to form the aortic arch; three large branches to the head, neck and arms arise from the arch.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-94dfc545",
+   "group": "Arteries of the head and neck",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which artery is used to take the pulse in the neck?",
+   "options": [
+    "Subclavian artery",
+    "Common carotid artery",
+    "Vertebral artery",
+    "Internal jugular vein",
+    "Superior thyroid artery"
+   ],
+   "answer": 1,
+   "explanation": "The carotid pulse is taken at the level of the thyroid cartilage along the anterior border of sternocleidomastoid; in emergencies it is the most reliable central pulse.",
+   "entries": [
+    "a-carotis-communis"
+   ]
+  },
+  {
+   "id": "cv-f01b4115",
+   "group": "Arteries of the head and neck",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which neck artery supplies the anterior and middle parts of the brain and the eye?",
+   "options": [
+    "External carotid artery",
+    "Subclavian artery",
+    "Vertebral artery",
+    "Internal carotid artery",
+    "Facial artery"
+   ],
+   "answer": 3,
+   "explanation": "The internal carotid artery enters the skull without giving branches in the neck; it supplies the eye through the ophthalmic artery and most of the hemispheres through the anterior and middle cerebral arteries.",
+   "entries": [
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-8d543b43",
+   "group": "Arteries of the head and neck",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the arterial ring at the base of the brain connecting the carotid and vertebrobasilar systems called?",
+   "options": [
+    "Palmar arch",
+    "Circle of Willis (circulus arteriosus cerebri)",
+    "Venous arch",
+    "Cavernous sinus",
+    "Aortic arch"
+   ],
+   "answer": 1,
+   "explanation": "The circle of Willis links the anterior and posterior circulations and can provide collateral flow when an artery is occluded; most brain aneurysms develop on this ring.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-40ea677c",
+   "group": "Arteries of the head and neck",
+   "level": "basic",
+   "clinical": false,
+   "stem": "The basilar artery is formed by the union of which arteries?",
+   "options": [
+    "Internal carotid and vertebral arteries",
+    "The two vertebral arteries",
+    "The two internal carotid arteries",
+    "The two subclavian arteries",
+    "The two posterior cerebral arteries"
+   ],
+   "answer": 1,
+   "explanation": "The right and left vertebral arteries join at the pontomedullary junction to form the basilar artery, which supplies the brainstem, cerebellum and occipital lobe.",
+   "entries": [
+    "a-vertebralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-02933170",
+   "group": "Arteries of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Into which two branches does the brachial artery divide in front of the elbow?",
+   "options": [
+    "Radial and ulnar arteries",
+    "Profunda brachii and radial arteries",
+    "Axillary and subclavian arteries",
+    "Superficial and deep palmar arches",
+    "Anterior and posterior interosseous arteries"
+   ],
+   "answer": 0,
+   "explanation": "The brachial artery divides in the cubital fossa, at the level of the neck of the radius, into the radial and ulnar arteries.",
+   "entries": [
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-0111f3a8",
+   "group": "Arteries of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which artery is most often used to take the pulse at the wrist?",
+   "options": [
+    "Anterior interosseous artery",
+    "Ulnar artery",
+    "Superficial palmar arch",
+    "Radial artery",
+    "Brachial artery"
+   ],
+   "answer": 3,
+   "explanation": "The radial pulse is easily felt on the thumb side of the wrist over the lower end of the radius.",
+   "entries": [
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "cv-b50a69cf",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Into which arteries does the abdominal aorta divide at its lower end?",
+   "options": [
+    "Femoral arteries",
+    "Common iliac arteries",
+    "Superior and inferior mesenteric arteries",
+    "Internal iliac arteries",
+    "Renal arteries"
+   ],
+   "answer": 1,
+   "explanation": "The abdominal aorta divides at L4 into the right and left common iliac arteries, which in turn divide into internal and external iliac arteries.",
+   "entries": [
+    "aorta",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-a0f7e29b",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which arteries supply the kidneys?",
+   "options": [
+    "Lumbar arteries",
+    "Suprarenal arteries",
+    "Renal arteries",
+    "Testicular arteries",
+    "Superior mesenteric artery"
+   ],
+   "answer": 2,
+   "explanation": "The renal arteries arise from both sides of the abdominal aorta at L1–L2; about one fifth of the cardiac output goes to the kidneys.",
+   "entries": [
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "cv-b6985d99",
+   "group": "Arteries of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the main artery of the thigh?",
+   "options": [
+    "Internal iliac artery",
+    "Obturator artery",
+    "Anterior tibial artery",
+    "Femoral artery",
+    "Popliteal artery"
+   ],
+   "answer": 3,
+   "explanation": "The external iliac artery becomes the femoral artery after passing under the inguinal ligament; it runs the length of the thigh and becomes the popliteal artery behind the knee.",
+   "entries": [
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "cv-82eb6ab5",
+   "group": "Arteries of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What are the terminal branches of the popliteal artery?",
+   "options": [
+    "Anterior and posterior tibial arteries",
+    "Dorsalis pedis and fibular arteries",
+    "Femoral and profunda femoris arteries",
+    "Superior genicular arteries",
+    "Medial and lateral plantar arteries"
+   ],
+   "answer": 0,
+   "explanation": "The popliteal artery divides at the lower border of popliteus into the anterior and posterior tibial arteries; the fibular artery arises from the posterior tibial artery.",
+   "entries": [
+    "a-poplitea"
+   ]
+  },
+  {
+   "id": "cv-2167b2de",
+   "group": "Arteries of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Where is the posterior tibial pulse taken?",
+   "options": [
+    "Behind the knee",
+    "In front of the lateral malleolus",
+    "Behind the medial malleolus",
+    "In the groin",
+    "On the dorsum of the foot"
+   ],
+   "answer": 2,
+   "explanation": "The posterior tibial artery is superficial between the medial malleolus and the Achilles tendon, where its pulse is taken.",
+   "entries": [
+    "a-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "cv-d0b5e87d",
+   "group": "Veins",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the largest vein of the body?",
+   "options": [
+    "Internal jugular vein",
+    "Inferior vena cava",
+    "Hepatic portal vein",
+    "Superior vena cava",
+    "Femoral vein"
+   ],
+   "answer": 1,
+   "explanation": "The inferior vena cava carries the blood of all body parts below the diaphragm to the right atrium and is the largest vein of the body.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-ad43d739",
+   "group": "Veins",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which main vein brings blood from the head, neck and arms to the heart?",
+   "options": [
+    "Coronary sinus",
+    "Azygos vein",
+    "Hepatic portal vein",
+    "Superior vena cava",
+    "Inferior vena cava"
+   ],
+   "answer": 3,
+   "explanation": "The superior vena cava is formed by the union of the two brachiocephalic veins and brings blood from regions above the diaphragm to the right atrium.",
+   "entries": [
+    "v-cava-superior"
+   ]
+  },
+  {
+   "id": "cv-7aff291e",
+   "group": "Veins",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the longest vein of the body?",
+   "options": [
+    "Small saphenous vein",
+    "Inferior vena cava",
+    "Cephalic vein",
+    "Femoral vein",
+    "Great saphenous vein"
+   ],
+   "answer": 4,
+   "explanation": "The great saphenous vein is the superficial vein running along the medial side of the leg from the dorsum of the foot to the groin; it is the longest vein of the body.",
+   "entries": [
+    "v-saphena-magna"
+   ]
+  },
+  {
+   "id": "cv-a4e595f7",
+   "group": "Veins",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which vein carries nutrient-rich blood from the digestive tract to the liver?",
+   "options": [
+    "Renal vein",
+    "Hepatic veins",
+    "Inferior vena cava",
+    "Hepatic portal vein",
+    "Azygos vein"
+   ],
+   "answer": 3,
+   "explanation": "The portal vein carries blood from the stomach, intestines, spleen and pancreas to the liver; blood filtered by the liver returns to the IVC via the hepatic veins.",
+   "entries": [
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-eec7bdee",
+   "group": "Veins",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which structure prevents backflow of blood in veins?",
+   "options": [
+    "Venous valves",
+    "Elastic membrane",
+    "Thick muscle layer of the tunica media",
+    "Precapillary sphincters",
+    "Papillary muscles"
+   ],
+   "answer": 0,
+   "explanation": "Valves, especially in the leg veins, make blood flow one way towards the heart. Valve incompetence leads to varicose veins.",
+   "entries": [
+    "v-saphena-magna",
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-a92d99f7",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In which phase of the cardiac cycle do the coronary arteries fill most?",
+   "options": [
+    "Ejection",
+    "Atrial systole",
+    "Systole",
+    "Diastole",
+    "Isovolumetric contraction"
+   ],
+   "answer": 3,
+   "explanation": "In systole the contracting myocardium compresses the coronary vessels; left ventricular coronary flow occurs mainly in diastole. That is why coronary perfusion falls in tachycardia, when diastole shortens.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-6061f2af",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Into which two branches does the left main coronary artery divide?",
+   "options": [
+    "Anterior interventricular branch (LAD) and circumflex branch",
+    "Right marginal branch and circumflex branch",
+    "Anterior and posterior interventricular branches",
+    "Circumflex and posterior interventricular branches",
+    "Sinuatrial nodal artery and atrioventricular nodal artery"
+   ],
+   "answer": 0,
+   "explanation": "The left main coronary is a short trunk; it divides into the LAD, descending in the anterior interventricular groove, and the circumflex branch, which runs in the left AV groove around to the back of the heart.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-4e8377fa",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where does the coronary sinus open?",
+   "options": [
+    "Into the right atrium",
+    "Into the right ventricle",
+    "Into the superior vena cava",
+    "Into the left atrium",
+    "Into the azygos vein"
+   ],
+   "answer": 0,
+   "explanation": "The coronary sinus lies in the AV groove on the back of the heart, collects most of the cardiac veins and opens into the right atrium between the IVC opening and the tricuspid valve.",
+   "entries": [
+    "venae-cordis",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-428cedc8",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "How do the semilunar (aortic and pulmonary) valves differ from the AV valves?",
+   "options": [
+    "They have four cusps.",
+    "They have no chordae tendineae or papillary muscles.",
+    "They close in systole.",
+    "They are not attached to the fibrous skeleton.",
+    "They lie inside the ventricle."
+   ],
+   "answer": 1,
+   "explanation": "Semilunar valves consist of three half-moon cusps that close when their pockets fill as blood starts to flow back; they have no chordae tendineae or papillary muscle support.",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-77a5a53e",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The first heart sound (S1) is produced by the closure of what?",
+   "options": [
+    "The ductus arteriosus",
+    "The aortic valve only",
+    "The mitral and tricuspid (AV) valves",
+    "The foramen ovale",
+    "The aortic and pulmonary valves"
+   ],
+   "answer": 2,
+   "explanation": "S1 is produced by closure of the AV valves at the start of ventricular systole, S2 by closure of the semilunar valves at the end of systole.",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-dacff9e8",
+   "group": "Heart",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "From which aortic sinus does the right coronary artery arise, and in which groove does it run?",
+   "options": [
+    "Right aortic sinus – anterior interventricular groove",
+    "Non-coronary sinus – posterior interventricular groove",
+    "Left aortic sinus – anterior interventricular groove",
+    "Left aortic sinus – left AV groove",
+    "Right aortic sinus – right atrioventricular (coronary) groove"
+   ],
+   "answer": 4,
+   "explanation": "The right coronary artery arises from the right aortic sinus, passes between the right auricle and the pulmonary trunk into the right AV groove and runs around to the back of the heart.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-fcb9d64c",
+   "group": "Aorta and its branches",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At which level does the aortic arch begin and end?",
+   "options": [
+    "At C7",
+    "At T12",
+    "At L1",
+    "At the xiphoid process (T9)",
+    "At the sternal angle (T4–T5)"
+   ],
+   "answer": 4,
+   "explanation": "The aortic arch begins and ends in the plane through the sternal angle; this plane also corresponds to the tracheal bifurcation and the level where the azygos vein enters the SVC.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-d81fb0e2",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At which vertebral levels do the coeliac trunk, superior mesenteric artery and inferior mesenteric artery arise, respectively?",
+   "options": [
+    "T11, L1, L2",
+    "T10, L1, L4",
+    "T12, L1, L3",
+    "L1, L2, L3",
+    "T12, L2, L4"
+   ],
+   "answer": 2,
+   "explanation": "The coeliac trunk arises from the front of the aorta at T12, the SMA at L1 and the IMA at L3; the renal arteries arise at L1–L2 and the bifurcation is at L4.",
+   "entries": [
+    "truncus-coeliacus",
+    "a-mesenterica-superior",
+    "a-mesenterica-inferior"
+   ]
+  },
+  {
+   "id": "cv-1938d272",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where do the gonadal (testicular/ovarian) arteries arise?",
+   "options": [
+    "From the internal iliac artery",
+    "From the abdominal aorta, below the renal arteries (L2)",
+    "From the renal artery",
+    "From the inferior mesenteric artery",
+    "From the external iliac artery"
+   ],
+   "answer": 1,
+   "explanation": "Because the gonads develop near the kidneys, their arteries arise high from the abdominal aorta and lengthen as the gonads descend. The left gonadal vein drains into the left renal vein.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-aeedc854",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Through which opening does the vertebral artery enter the skull?",
+   "options": [
+    "Carotid canal",
+    "Foramen magnum",
+    "Foramen lacerum",
+    "Jugular foramen",
+    "Foramen ovale"
+   ],
+   "answer": 1,
+   "explanation": "The vertebral artery ascends through the C6–C1 transverse foramina, winds over the posterior arch of the atlas and enters the skull through the foramen magnum.",
+   "entries": [
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "cv-ae5c2252",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the main area supplied by the middle cerebral artery?",
+   "options": [
+    "Occipital lobe and visual cortex",
+    "Lateral surface of the hemisphere (face and arm motor-sensory areas, language centres)",
+    "Brainstem and cerebellum",
+    "Medial surface of the hemisphere (leg area)",
+    "Thalamus and hippocampus"
+   ],
+   "answer": 1,
+   "explanation": "In MCA occlusion there is marked weakness and sensory loss of the opposite face and arm, with aphasia in the dominant hemisphere; the leg is less affected.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-81f7e82f",
+   "group": "Arteries of the head and neck",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In anterior cerebral artery occlusion, where is the paralysis most marked?",
+   "options": [
+    "In both eyes",
+    "In the leg on the same side",
+    "In the leg on the opposite side",
+    "In the face on the same side",
+    "In the face and arm on the opposite side"
+   ],
+   "answer": 2,
+   "explanation": "The ACA supplies the medial surface of the hemisphere, including the leg area of the motor cortex; its occlusion causes marked weakness and sensory loss in the opposite leg.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-9199711f",
+   "group": "Arteries of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At the lower border of which muscle does the axillary artery become the brachial artery?",
+   "options": [
+    "Upper border of latissimus dorsi",
+    "Coracobrachialis",
+    "Pectoralis minor",
+    "Deltoid",
+    "Teres major"
+   ],
+   "answer": 4,
+   "explanation": "The axillary artery extends from the outer border of the 1st rib to the lower border of teres major, where it becomes the brachial artery.",
+   "entries": [
+    "a-axillaris",
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-ac2759c4",
+   "group": "Arteries of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which artery mainly forms the deep palmar arch?",
+   "options": [
+    "Ulnar artery",
+    "Median artery",
+    "Anterior interosseous artery",
+    "Radial artery",
+    "Brachial artery"
+   ],
+   "answer": 3,
+   "explanation": "The radial artery enters the palm through the 1st interosseous space to form the deep arch, which is completed by the deep branch of the ulnar artery. The superficial arch is mainly the ulnar artery.",
+   "entries": [
+    "arcus-palmares",
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "cv-069cff78",
+   "group": "Arteries of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which is the largest branch of the femoral artery in the thigh?",
+   "options": [
+    "Superficial circumflex iliac artery",
+    "Superficial epigastric artery",
+    "Descending genicular artery",
+    "Profunda femoris artery",
+    "External pudendal artery"
+   ],
+   "answer": 3,
+   "explanation": "The profunda femoris arises about 4 cm below the inguinal ligament and is the main artery of the thigh muscles; it gives circumflex and perforating branches.",
+   "entries": [
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "cv-bbed1d1f",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where do the hepatic veins open?",
+   "options": [
+    "Into the right renal vein",
+    "Into the portal vein",
+    "Into the superior vena cava",
+    "Into the azygos vein",
+    "Directly into the inferior vena cava"
+   ],
+   "answer": 4,
+   "explanation": "The three large hepatic veins open directly into the IVC on the posterior surface of the liver. The portal vein, by contrast, brings blood to the liver.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-2673b4e2",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structures drain cerebrospinal fluid (CSF) into the superior sagittal sinus?",
+   "options": [
+    "Choroid plexus",
+    "Emissary veins",
+    "Ependymal cells",
+    "Bridging veins",
+    "Arachnoid granulations (Pacchionian bodies)"
+   ],
+   "answer": 4,
+   "explanation": "CSF is produced by the choroid plexus and absorbed through the arachnoid granulations into the dural venous sinuses, especially the superior sagittal sinus.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-05c8ce40",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where does the thoracic duct drain?",
+   "options": [
+    "Into the inferior vena cava",
+    "Into the azygos vein",
+    "Into the right venous angle",
+    "Into the left venous angle (junction of the left internal jugular and subclavian veins)",
+    "Into the left atrium"
+   ],
+   "answer": 3,
+   "explanation": "The thoracic duct, which collects most of the body's lymph, opens at the junction of the left internal jugular and subclavian veins; lymph from the right upper body reaches the right venous angle via the right lymphatic duct.",
+   "entries": [
+    "v-subclavia",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-9c435315",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In the fetal circulation, which vessel brings oxygenated blood from the placenta to the fetus?",
+   "options": [
+    "Umbilical vein",
+    "Inferior vena cava",
+    "Ductus arteriosus",
+    "Umbilical arteries",
+    "Internal iliac artery"
+   ],
+   "answer": 0,
+   "explanation": "The single umbilical vein brings oxygenated blood from the placenta; the two umbilical arteries carry deoxygenated blood to the placenta. Part of the blood bypasses the liver through the ductus venosus into the IVC.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-35606634",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which nerve passes through the cavernous sinus itself (not in its wall)?",
+   "options": [
+    "Trochlear nerve (IV)",
+    "Ophthalmic nerve (V1)",
+    "Oculomotor nerve (III)",
+    "Abducens nerve (VI)",
+    "Maxillary nerve (V2)"
+   ],
+   "answer": 3,
+   "explanation": "The internal carotid artery and the abducens nerve pass through the sinus; III, IV, V1 and V2 run in its lateral wall. That is why the abducens is usually the first nerve affected in cavernous sinus thrombosis and ICA aneurysm.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-91f6535e",
+   "group": "Aorta and its branches",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A hypertensive patient has sudden, tearing chest pain radiating to the back and a marked blood pressure difference between the arms. What is the most likely diagnosis?",
+   "options": [
+    "Acute myocardial infarction",
+    "Aortic dissection",
+    "Pulmonary embolism",
+    "Pericarditis",
+    "Pneumothorax"
+   ],
+   "answer": 1,
+   "explanation": "In aortic dissection the inner layer tears and blood enters between the wall layers; because branch origins can be involved, pulse and blood pressure differ between the arms. Involvement of the ascending aorta (Stanford A) is a surgical emergency.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-5e60843b",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "An elderly patient with atrial fibrillation has sudden abdominal pain out of proportion to the examination findings. What is the most likely cause?",
+   "options": [
+    "Superior mesenteric artery embolism",
+    "Ruptured abdominal aortic aneurysm",
+    "Renal artery embolism",
+    "Inferior mesenteric artery thrombosis",
+    "Coeliac trunk stenosis"
+   ],
+   "answer": 0,
+   "explanation": "Because the SMA leaves the aorta at a narrow angle, emboli from the heart often lodge there; early acute mesenteric ischaemia gives very few examination findings compared with the severity of the pain.",
+   "entries": [
+    "a-mesenterica-superior"
+   ]
+  },
+  {
+   "id": "cv-21fae810",
+   "group": "Veins",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A patient who develops leg swelling and pain after a long flight is found to have deep vein thrombosis. What is the most serious complication?",
+   "options": [
+    "Cellulitis",
+    "Compartment syndrome",
+    "Pulmonary embolism",
+    "Lymphoedema",
+    "Varicose veins"
+   ],
+   "answer": 2,
+   "explanation": "A clot in the deep leg veins can break off and travel via the IVC and right heart into the pulmonary artery; massive pulmonary embolism can cause sudden death.",
+   "entries": [
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-ac08c79d",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is NOT a component of tetralogy of Fallot?",
+   "options": [
+    "Pulmonary stenosis (right ventricular outflow obstruction)",
+    "Atrial septal defect",
+    "Right ventricular hypertrophy",
+    "Overriding aorta",
+    "Ventricular septal defect"
+   ],
+   "answer": 1,
+   "explanation": "Tetralogy of Fallot consists of VSD, pulmonary stenosis, overriding aorta and right ventricular hypertrophy; it results from anterior displacement of the conal septum and is the most common cyanotic congenital heart disease.",
+   "entries": [
+    "ventriculus-dexter",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-5dd9592d",
+   "group": "Heart",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the valve guarding the opening of the coronary sinus called?",
+   "options": [
+    "Tendon of Todaro",
+    "Crista terminalis",
+    "Eustachian valve",
+    "Chiari network",
+    "Thebesian valve (valve of the coronary sinus)"
+   ],
+   "answer": 4,
+   "explanation": "The Thebesian valve lies where the coronary sinus opens into the right atrium, the Eustachian valve at the IVC opening. The tendon of Todaro is the continuation of the Eustachian valve and a border of Koch's triangle.",
+   "entries": [
+    "atrium-dextrum",
+    "venae-cordis"
+   ]
+  },
+  {
+   "id": "cv-9c344753",
+   "group": "Aorta and its branches",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which vascular anomaly causes dysphagia lusoria (difficulty swallowing)?",
+   "options": [
+    "Coarctation of the aorta",
+    "Left superior vena cava",
+    "A right subclavian artery arising as the last branch of the aortic arch and passing behind the oesophagus",
+    "Double aortic arch",
+    "Patent ductus arteriosus"
+   ],
+   "answer": 2,
+   "explanation": "The aberrant right subclavian artery (arteria lusoria) is the last branch of the aortic arch and crosses to the right behind the oesophagus, which it can compress; it is the most common aortic arch anomaly. The right recurrent laryngeal nerve is then non-recurrent.",
+   "entries": [
+    "a-subclavia",
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-4fc98b11",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which arteries are the most common source of hypertensive intracerebral haemorrhage?",
+   "options": [
+    "Middle meningeal artery",
+    "Basilar artery",
+    "Cortical branches of the anterior cerebral artery",
+    "Lenticulostriate arteries (perforating branches of the middle cerebral artery)",
+    "Anterior communicating artery"
+   ],
+   "answer": 3,
+   "explanation": "The lenticulostriate arteries are thin end arteries arising at a right angle from the MCA; in chronic hypertension Charcot–Bouchard microaneurysms develop and cause basal ganglia (putaminal) haemorrhages.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-79341972",
+   "group": "Arteries of the head and neck",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which artery does NOT contribute to Kiesselbach's area, the source of most nosebleeds?",
+   "options": [
+    "Sphenopalatine artery",
+    "Ascending pharyngeal artery",
+    "Anterior ethmoidal artery",
+    "Greater palatine artery",
+    "Superior labial artery"
+   ],
+   "answer": 1,
+   "explanation": "Kiesselbach's (Little's) area on the anteroinferior septum is formed by anastomosing branches of the sphenopalatine, anterior ethmoidal, greater palatine and superior labial (facial) arteries.",
+   "entries": [
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-c5892b74",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the 'corona mortis', dangerous in hernia surgery?",
+   "options": [
+    "The posterior trunk of the internal iliac artery",
+    "An anastomosis between the inferior epigastric (external iliac system) and obturator arteries crossing over the pubis",
+    "A connection between the right and left common iliac arteries",
+    "The deep branch of the femoral artery",
+    "An anastomosis between the superior and middle rectal arteries"
+   ],
+   "answer": 1,
+   "explanation": "In some people the obturator artery (or vein) arises from, or widely anastomoses with, the external iliac/inferior epigastric system and crosses the superior pubic ramus. If injured in femoral hernia or pelvic surgery, severe bleeding occurs.",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-edca0ec0",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the adult remnant of the ductus venosus?",
+   "options": [
+    "Fossa ovalis",
+    "Ligamentum arteriosum",
+    "Ligamentum venosum",
+    "Ligamentum teres hepatis",
+    "Medial umbilical ligament"
+   ],
+   "answer": 2,
+   "explanation": "In the fetus the ductus venosus carries blood from the umbilical vein past the liver into the IVC; after birth it closes to become the ligamentum venosum. The umbilical vein becomes the ligamentum teres hepatis.",
+   "entries": [
+    "v-cava-inferior",
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-47659c1d",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the adult remnant of the umbilical vein?",
+   "options": [
+    "Ligamentum venosum",
+    "Ligamentum teres hepatis (in the free edge of the falciform ligament)",
+    "Ligamentum arteriosum",
+    "Medial umbilical ligament",
+    "Median umbilical ligament"
+   ],
+   "answer": 1,
+   "explanation": "After birth the umbilical vein becomes the ligamentum teres hepatis. In portal hypertension the paraumbilical veins around this ligament open up and contribute to caput medusae.",
+   "entries": [
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-96f935f6",
+   "group": "Arteries of the abdomen and pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the adult remnant of the distal part of the umbilical artery?",
+   "options": [
+    "Medial umbilical ligament",
+    "Ligamentum teres hepatis",
+    "Ligamentum arteriosum",
+    "Ligamentum venosum",
+    "Median umbilical ligament"
+   ],
+   "answer": 0,
+   "explanation": "The proximal part of the umbilical arteries stays patent as the superior vesical artery, the distal part becomes the medial umbilical ligament. The median umbilical ligament is the remnant of the urachus.",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-d6da7df0",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What vessels are usually the source of a subdural haematoma?",
+   "options": [
+    "Lenticulostriate arteries",
+    "Anterior communicating artery",
+    "Cavernous sinus",
+    "Middle meningeal artery",
+    "Bridging veins running from the cortex to the dural sinuses"
+   ],
+   "answer": 4,
+   "explanation": "A subdural haematoma forms between dura and arachnoid when bridging veins, stretched by brain atrophy in the elderly and alcoholics, tear; it develops slowly and is crescent-shaped. An epidural haematoma usually arises from the middle meningeal artery.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-2151bfd7",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which valveless venous network plays a role in the spread of prostate cancer to the spine?",
+   "options": [
+    "Vertebral venous plexus (Batson's plexus)",
+    "Pampiniform plexus",
+    "Rectal venous plexus",
+    "Portal system",
+    "Pterygoid plexus"
+   ],
+   "answer": 0,
+   "explanation": "Batson's plexus is a valveless venous network around the spine connected with the pelvic veins; when intra-abdominal pressure rises blood can flow towards the spine, explaining spinal spread of tumours such as prostate and breast cancer.",
+   "entries": [
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "cv-88c74a4e",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In May–Thurner syndrome, which compression predisposes to deep vein thrombosis of the left leg?",
+   "options": [
+    "Compression of the left femoral vein under the inguinal ligament",
+    "Compression of the inferior vena cava by the liver",
+    "Compression of the left common iliac vein against the spine by the right common iliac artery",
+    "Compression of the right external iliac vein by the sigmoid colon",
+    "Compression of the left renal vein between the aorta and SMA"
+   ],
+   "answer": 2,
+   "explanation": "The right common iliac artery crosses in front of the left common iliac vein and presses it against L5; over time a fibrous band forms in the vein wall and left leg DVT develops.",
+   "entries": [
+    "v-cava-inferior",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-ccd14bde",
+   "group": "Veins",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient who squeezed a boil beside the nose develops fever, eyelid swelling, exophthalmos and double vision on lateral gaze. Which nerve is affected first, and why?",
+   "options": [
+    "Facial nerve – because it runs with the facial vein",
+    "Optic nerve – because it lies in the wall of the sinus",
+    "Oculomotor nerve – because it passes through the sinus",
+    "Trochlear nerve – because it lies in the floor of the sinus",
+    "Abducens nerve – because it runs freely through the cavernous sinus"
+   ],
+   "answer": 4,
+   "explanation": "Infection in the danger triangle of the face spreads via the angular vein and superior ophthalmic vein to the cavernous sinus. The abducens nerve, running freely inside the sinus beside the ICA, is usually the first affected; lateral gaze is restricted.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  }
+ ]
+}

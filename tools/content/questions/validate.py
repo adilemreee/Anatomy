@@ -11,12 +11,14 @@ content = os.path.join(ROOT, "Anatomy", "Content")
 
 entries = set()
 for p in glob.glob(os.path.join(content, "atlas-*.json")):
-    if p.endswith("atlas-systems.json"):
-        continue
+    if p.endswith("atlas-systems.json") or os.path.basename(p).count(".") > 1:
+        continue  # the systems list and translations
     entries.update(e["id"] for e in json.load(open(p, encoding="utf-8"))["entries"])
 
 total, bad, positions = 0, [], collections.Counter()
 for p in sorted(glob.glob(os.path.join(content, "questions-*.json"))):
+    if os.path.basename(p).count(".") > 1:
+        continue
     data = json.load(open(p, encoding="utf-8"))
     groups = collections.Counter(q["group"] for q in data["questions"])
     total += len(data["questions"])

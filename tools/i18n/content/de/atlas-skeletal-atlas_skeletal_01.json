@@ -1,0 +1,289 @@
+{
+ "os-lacrimale": {
+  "tr": "Tränenbein",
+  "summary": "Einer der kleinsten und dünnsten Schädelknochen, vorn an der medialen Orbitawand. Er bildet die Grube für den Tränensack mit.",
+  "facts": [
+   "Platter Knochen",
+   "Crista lacrimalis posterior, Sulcus lacrimalis (hinterer Teil der Fossa sacci lacrimalis), Hamulus lacrimalis",
+   "Os frontale, Os ethmoidale, Maxilla, Concha nasalis inferior"
+  ],
+  "sections": [
+   [
+    "Funktion",
+    "Zusammen mit der Maxilla bildet es die Fossa sacci lacrimalis und den Canalis nasolacrimalis, der in die Nasenhöhle mündet."
+   ]
+  ],
+  "clinical": [
+   "Bei Verschluss des Tränennasengangs wird bei der Dakryozystorhinostomie dieser dünne Knochen eröffnet und der Tränensack mit der Nasenhöhle verbunden."
+  ],
+  "tus": [
+   "Kleinster und dünnster Knochen des Gesichtsschädels; er bildet den hinteren Teil der Fossa sacci lacrimalis."
+  ],
+  "aliases": []
+ },
+ "os-palatinum": {
+  "tr": "Gaumenbein",
+  "summary": "Paariger, L-förmiger Knochen, der den hinteren Teil des harten Gaumens, den hinteren Abschnitt der seitlichen Nasenwand und einen kleinen Teil des Orbitabodens bildet.",
+  "facts": [
+   "Unregelmäßiger Knochen",
+   "Lamina horizontalis, Lamina perpendicularis; Processus pyramidalis, orbitalis und sphenoidalis",
+   "Foramen palatinum majus und minus, Spina nasalis posterior"
+  ],
+  "sections": [
+   [
+    "Durchtretende Strukturen",
+    "Durch das Foramen palatinum majus ziehen N. und A. palatina major, durch die Foramina palatina minora die Nn. palatini minores."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "Durch Foramen palatinum majus und minus ziehen die gleichnamigen Nerven und Gefäße zum Gaumen (V2, Äste der A. palatina descendens)."
+  ],
+  "aliases": []
+ },
+ "vomer": {
+  "tr": "Pflugscharbein",
+  "summary": "Unpaarer, dünner Knochen in Form einer Pflugschar, der den hinteren unteren Teil der Nasenscheidewand bildet.",
+  "facts": [
+   "Platter Knochen",
+   "Os sphenoidale, Os ethmoidale, Maxillae, Ossa palatina, Septumknorpel"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Septumdeviation betrifft häufig die Verbindung von Vomer und Septumknorpel und kann die Nasenatmung behindern."
+  ],
+  "tus": [
+   "Er bildet den hinteren unteren Teil des Septums; sein freier Hinterrand trennt die Choanen."
+  ],
+  "aliases": []
+ },
+ "concha-nasalis-inferior": {
+  "tr": "Untere Nasenmuschel",
+  "summary": "Paariger, eingerollter, eigenständiger Knochen an der Seitenwand der Nasenhöhle. Seine Schleimhaut wärmt und befeuchtet die Atemluft.",
+  "facts": [
+   "Unregelmäßiger Knochen",
+   "Maxilla, Os lacrimale, Os ethmoidale, Os palatinum",
+   "In den darunterliegenden unteren Nasengang mündet der Ductus nasolacrimalis"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "In den unteren Nasengang darunter mündet der Ductus nasolacrimalis; keine Nasennebenhöhle mündet hier."
+  ],
+  "aliases": []
+ },
+ "os-hyoideum": {
+  "tr": "Zungenbein",
+  "summary": "U-förmiger Knochen vorn im oberen Halsbereich zwischen Unterkiefer und Kehlkopf. Er artikuliert mit keinem anderen Knochen und ist an Muskeln und Bändern aufgehängt.",
+  "facts": [
+   "Unregelmäßiger Knochen",
+   "Corpus, zwei Cornua majora, zwei Cornua minora",
+   "Höhe des 3. Halswirbels (C3)",
+   "Suprahyoidale Muskeln (M. digastricus, M. stylohyoideus, M. mylohyoideus, M. geniohyoideus), infrahyoidale Muskeln (M. sternohyoideus, M. omohyoideus, M. thyrohyoideus), M. hyoglossus, M. constrictor pharyngis medius"
+  ],
+  "sections": [
+   [
+    "Funktion",
+    "Es bildet eine bewegliche Basis für den Zungengrund und vermittelt das Heben und Senken des Kehlkopfs beim Schlucken und Sprechen."
+   ]
+  ],
+  "clinical": [
+   "In der Rechtsmedizin stützt eine Zungenbeinfraktur den Verdacht auf Erwürgen."
+  ],
+  "tus": [
+   "Eine Zungenbeinfraktur ist ein wichtiges rechtsmedizinisches Zeichen für Strangulation.",
+   "Das Zungenbein liegt in Höhe C3; die mediane Halszyste steht mit seinem Körper in Beziehung, dessen Mitte bei der Operation mitentfernt wird (Sistrunk)."
+  ],
+  "aliases": []
+ },
+ "ossicula-auditus": {
+  "tr": "Gehörknöchelchen",
+  "summary": "Kette aus drei kleinen Knochen im Mittelohr, die den Schall vom Trommelfell zum Innenohr leitet: Hammer (Malleus), Amboss (Incus) und Steigbügel (Stapes). Der Steigbügel ist der kleinste Knochen des Körpers.",
+  "facts": [
+   "Malleus (Hammer), Incus (Amboss), Stapes (Steigbügel)",
+   "Art. incudomallearis und Art. incudostapedialis (Synovialgelenke)",
+   "M. tensor tympani (am Hammer; N. trigeminus/V3) und M. stapedius (am Steigbügel; N. facialis)",
+   "Leiten Schallschwingungen vom Trommelfell zum ovalen Fenster und verstärken sie etwa 20-fach"
+  ],
+  "sections": [
+   [
+    "Verlauf",
+    "Der Hammergriff ist mit dem Trommelfell verwachsen; der Hammerkopf artikuliert mit dem Ambosskörper. Der lange Ambossschenkel verbindet sich mit dem Steigbügelkopf, dessen Fußplatte das ovale Fenster des Innenohrs verschließt."
+   ]
+  ],
+  "clinical": [
+   "Bei der Otosklerose verknöchert die Steigbügelfußplatte im ovalen Fenster; es entsteht eine Schallleitungsschwerhörigkeit, behandelt durch Stapesplastik.",
+   "Bei Fazialisparese fällt der M. stapedius aus, laute Geräusche werden als unangenehm laut empfunden (Hyperakusis)."
+  ],
+  "tus": [
+   "Hammer und Amboss entstehen aus dem 1. Schlundbogen (Meckel), der Steigbügel aus dem 2. (Reichert).",
+   "Der M. tensor tympani (V3) setzt am Hammer, der M. stapedius (VII) am Steigbügel an; Stapediusparese führt zu Hyperakusis."
+  ],
+  "aliases": [
+   "Hammer",
+   "Amboss",
+   "Steigbügel"
+  ]
+ },
+ "dentes": {
+  "tr": "Zähne",
+  "summary": "Harte Gebilde, die Nahrung abbeißen, zerreißen und zermahlen. Erwachsene haben 32 bleibende Zähne (je Kieferhälfte 2 Schneidezähne, 1 Eckzahn, 2 Prämolaren und 3 Molaren); Milchzähne gibt es 20.",
+  "facts": [
+   "2-1-2-3 (je Quadrant); insgesamt 32",
+   "Zahnschmelz, Dentin, Zement, Zahnpulpa",
+   "Krone, Hals, Wurzel",
+   "Obere Zähne: Nn. alveolares superiores (V2); untere Zähne: N. alveolaris inferior (V3)",
+   "Milchzähne im 6.–24. Monat; bleibende Zähne mit 6–12 Jahren, Weisheitszähne mit 17–25 Jahren"
+  ],
+  "sections": [
+   [
+    "Zahntypen",
+    "Schneidezähne beißen ab, Eckzähne reißen, Prämolaren und Molaren zermahlen. Zahnschmelz ist das härteste Gewebe des Körpers."
+   ]
+  ],
+  "clinical": [
+   "Karies, die die Pulpa erreicht (Pulpitis), verursacht starke Schmerzen und kann eine Wurzelbehandlung erfordern.",
+   "Retinierte Weisheitszähne können eine Perikoronitis und Schäden am Nachbarzahn verursachen."
+  ],
+  "tus": [
+   "Der erste bleibende Zahn ist der erste Molar (~6 Jahre); der letzte ist der dritte Molar (Weisheitszahn).",
+   "Obere Zähne werden von den Nn. alveolares superiores (V2), untere vom N. alveolaris inferior (V3) versorgt."
+  ],
+  "aliases": [
+   "Zahn",
+   "Backenzahn",
+   "Schneidezahn",
+   "Eckzahn"
+  ]
+ },
+ "vertebrae-cervicales": {
+  "tr": "Halswirbel",
+  "summary": "Die sieben Wirbel des Halses. Ihr kleiner Körper, das Loch in den Querfortsätzen (Foramen transversarium) und der gespaltene Dornfortsatz unterscheiden sie von anderen Wirbeln.",
+  "facts": [
+   "7 (C1–C7)",
+   "Foramen transversarium (für A. und V. vertebralis; bei C7 meist nur die Vene), gespaltener Dornfortsatz (C2–C6), großes dreieckiges Foramen vertebrale",
+   "C1 Atlas, C2 Axis, C7 Vertebra prominens (am stärksten vorspringender Dornfortsatz)",
+   "Nach vorn konvex (Halslordose)"
+  ],
+  "sections": [
+   [
+    "Beweglichkeit",
+    "Die Halswirbelsäule ist der beweglichste Abschnitt: Flexion, Extension, Seitneigung und Rotation sind möglich. Etwa die Hälfte der Kopfdrehung erfolgt im Atlantoaxialgelenk. Die Processus uncinati an den Seitenrändern der Wirbelkörper C3–C6 bilden die Unkovertebralgelenke (Luschka)."
+   ]
+  ],
+  "clinical": [
+   "Plötzliche Beschleunigungs-Abbrems-Verletzungen (Schleudertrauma) belasten die Weichteile des Halses.",
+   "C5/C6 und C6/C7 sind die häufigsten Etagen für zervikale Bandscheibenvorfälle und Spondylose."
+  ],
+  "tus": [
+   "Kennzeichen der Halswirbel ist das Foramen transversarium; C3–C7 besitzen Processus uncinati (Luschka-Gelenke).",
+   "Am Tuberculum anterius des Querfortsatzes von C6 (Tuberculum caroticum, Chassaignac) lässt sich die A. carotis communis abdrücken."
+  ],
+  "aliases": [
+   "HWS",
+   "Halswirbelsäule"
+  ]
+ },
+ "atlas": {
+  "tr": "Atlas (C1)",
+  "summary": "Der erste Halswirbel, der den Schädel trägt. Er hat weder Körper noch Dornfortsatz; er ist ein Ring aus vorderem und hinterem Bogen und zwei Seitenmassen.",
+  "facts": [
+   "Arcus anterior, Arcus posterior, Massae laterales, Processus transversi",
+   "Art. atlantooccipitalis (mit den Hinterhauptskondylen; „Ja“-Bewegung – Flexion/Extension), Art. atlantoaxialis (mit dem Axis; „Nein“-Bewegung – Rotation)",
+   "Fovea dentis, Tuberculum anterius und posterius, Sulcus arteriae vertebralis",
+   "Das Lig. transversum atlantis hält den Dens an der Fovea dentis"
+  ],
+  "sections": [],
+  "clinical": [
+   "Brechen nach einem Sturz auf den Kopf beide Atlasbögen, spricht man von einer Jefferson-Fraktur.",
+   "Bei rheumatoider Arthritis oder Down-Syndrom kann ein schlaffes Lig. transversum zu atlantoaxialer Instabilität und Rückenmarkskompression führen."
+  ],
+  "tus": [
+   "Die Jefferson-Fraktur ist ein mehrfacher Bruch des Atlasrings durch axiale Stauchung (Kopfsprung).",
+   "Die A. vertebralis verläuft im Sulcus an der Oberseite des hinteren Atlasbogens."
+  ],
+  "aliases": [
+   "C1",
+   "erster Halswirbel"
+  ]
+ },
+ "axis": {
+  "tr": "Axis (C2)",
+  "summary": "Der zweite Halswirbel; der zahnartige Fortsatz, der aus seinem Körper aufragt (Dens axis), ist die Achse, um die sich der Atlas dreht.",
+  "facts": [
+   "Dens axis (Processus odontoideus) – entwicklungsgeschichtlich der Körper des Atlas",
+   "Art. atlantoaxialis mediana (Dens–Atlas) und laterales, Zwischenwirbelgelenk mit C3",
+   "Ligg. alaria, Lig. apicis dentis, Membrana tectoria, Lig. cruciforme atlantis"
+  ],
+  "sections": [],
+  "clinical": [
+   "Densfrakturen sind bei älteren Menschen nach Stürzen häufig.",
+   "Beim Erhängen (Hangman-Fraktur) brechen die Bogenwurzeln des Axis."
+  ],
+  "tus": [
+   "Die Hangman-Fraktur ist ein beidseitiger Bruch der Pars interarticularis des Axis.",
+   "Densfrakturen liegen meist an der Basis (Typ II) und neigen stark zur Pseudarthrose."
+  ],
+  "aliases": [
+   "C2",
+   "Dens"
+  ]
+ },
+ "vertebrae-thoracicae": {
+  "tr": "Brustwirbel",
+  "summary": "Die zwölf Wirbel, die mit den Rippen artikulieren. Sie tragen Gelenkflächen für die Rippen seitlich am Wirbelkörper und an den Querfortsätzen (Foveae costales).",
+  "facts": [
+   "12 (T1–T12, Th1–Th12)",
+   "Fovea costalis superior und inferior am Wirbelkörper, Fovea costalis processus transversi; lange, nach unten geneigte Dornfortsätze; rundes Foramen vertebrale",
+   "Mit den Rippen: Art. capitis costae und Art. costotransversaria",
+   "Nach hinten konvex (Brustkyphose)"
+  ],
+  "sections": [
+   [
+    "Beweglichkeit",
+    "Der Brustkorb schränkt Flexion und Extension ein; die frontal stehenden Gelenkflächen erlauben Rotation. Die Dornfortsätze überlappen dachziegelartig."
+   ]
+  ],
+  "clinical": [
+   "Bei älteren Menschen mit Osteoporose verstärken Kompressionsfrakturen der Brustwirbel die Kyphose (Rundrücken).",
+   "Die Skoliose, eine seitliche Verkrümmung, ist im Brustbereich am häufigsten."
+  ],
+  "tus": [
+   "Th1–Th9 tragen zwei halbe Rippengelenkflächen, Th10–Th12 eine ganze.",
+   "In der Brustwirbelsäule stehen die Facettengelenke frontal; Rotation ist möglich, Flexion wird durch die Rippen begrenzt."
+  ],
+  "aliases": [
+   "BWS",
+   "Brustwirbelsäule"
+  ]
+ },
+ "vertebrae-lumbales": {
+  "tr": "Lendenwirbel",
+  "summary": "Die größten und kräftigsten Wirbel der Wirbelsäule. Da sie den größten Teil des Körpergewichts tragen, sind ihre Körper groß und nierenförmig.",
+  "facts": [
+   "5 (L1–L5)",
+   "Großer Körper, kräftige, waagerechte, rechteckige Dornfortsätze, Processus mammillaris und accessorius; kein Foramen transversarium, keine Rippengelenkflächen",
+   "Beim Erwachsenen endet das Rückenmark in Höhe L1/L2 mit dem Conus medullaris; darunter liegt die Cauda equina",
+   "Nach vorn konvex (Lendenlordose)"
+  ],
+  "sections": [
+   [
+    "Beweglichkeit",
+    "Da die Gelenkflächen nahezu sagittal stehen, sind Flexion und Extension frei, die Rotation ist eingeschränkt."
+   ]
+  ],
+  "clinical": [
+   "Lumbale Bandscheibenvorfälle sind bei L4/L5 und L5/S1 am häufigsten und verursachen Schmerzen entlang des N. ischiadicus.",
+   "Die Lumbalpunktion erfolgt meist zwischen L3/L4 oder L4/L5, um das Rückenmark nicht zu verletzen.",
+   "Die Spondylolisthesis ist das Vorgleiten eines Wirbels über den darunterliegenden; am häufigsten bei L5."
+  ],
+  "tus": [
+   "Die Spondylolyse ist ein Defekt der Pars interarticularis („Halsband des Scotchterriers“ im Schrägbild); am häufigsten bei L5.",
+   "Die lumbalen Facettengelenke stehen sagittal; sie erlauben Flexion–Extension und begrenzen die Rotation."
+  ],
+  "aliases": [
+   "LWS",
+   "Lendenwirbelsäule"
+  ]
+ }
+}

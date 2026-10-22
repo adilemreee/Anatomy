@@ -1,0 +1,290 @@
+{
+ "os-lacrimale": {
+  "tr": "Lacrimal bone",
+  "summary": "One of the smallest and thinnest bones of the skull, at the front of the medial wall of the orbit. It helps form the fossa that holds the lacrimal sac.",
+  "facts": [
+   "Flat bone",
+   "Posterior lacrimal crest, lacrimal groove (back of the fossa for the lacrimal sac), lacrimal hamulus",
+   "Frontal bone, ethmoid, maxilla, inferior nasal concha"
+  ],
+  "sections": [
+   [
+    "Function",
+    "Together with the maxilla it forms the fossa for the lacrimal sac and the nasolacrimal canal, which opens into the nasal cavity."
+   ]
+  ],
+  "clinical": [
+   "When the nasolacrimal duct is blocked, dacryocystorhinostomy opens this thin bone to connect the lacrimal sac to the nasal cavity."
+  ],
+  "tus": [
+   "The smallest and thinnest bone of the facial skeleton; it forms the back of the fossa for the lacrimal sac."
+  ],
+  "aliases": []
+ },
+ "os-palatinum": {
+  "tr": "Palatine bone",
+  "summary": "A paired, L-shaped bone that forms the back of the hard palate, the back of the lateral wall of the nasal cavity and a small part of the orbital floor.",
+  "facts": [
+   "Irregular bone",
+   "Horizontal plate, perpendicular plate; pyramidal, orbital and sphenoidal processes",
+   "Greater and lesser palatine foramina, posterior nasal spine"
+  ],
+  "sections": [
+   [
+    "Structures passing through",
+    "The greater palatine nerve and artery pass through the greater palatine foramen, the lesser palatine nerves through the lesser palatine foramina."
+   ]
+  ],
+  "clinical": [],
+  "tus": [
+   "The nerves and vessels of the same name reach the palate through the greater and lesser palatine foramina (V2, branches of the descending palatine artery)."
+  ],
+  "aliases": []
+ },
+ "vomer": {
+  "tr": "Vomer",
+  "summary": "A single thin bone, shaped like a ploughshare, that forms the lower back part of the nasal septum.",
+  "facts": [
+   "Flat bone",
+   "Sphenoid, ethmoid, maxillae, palatine bones, septal cartilage"
+  ],
+  "sections": [],
+  "clinical": [
+   "Deviation of the nasal septum often involves the junction of the vomer and the septal cartilage and can block the nose."
+  ],
+  "tus": [
+   "It forms the lower back part of the septum; its free posterior border divides the choanae."
+  ],
+  "aliases": []
+ },
+ "concha-nasalis-inferior": {
+  "tr": "Inferior nasal concha",
+  "summary": "A paired, curled, independent bone on the lateral wall of the nasal cavity. Its mucosa warms and humidifies the inhaled air.",
+  "facts": [
+   "Irregular bone",
+   "Maxilla, lacrimal bone, ethmoid, palatine bone",
+   "The nasolacrimal duct opens into the inferior nasal meatus beneath it"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The nasolacrimal duct opens into the inferior meatus beneath it; no paranasal sinus opens here."
+  ],
+  "aliases": []
+ },
+ "os-hyoideum": {
+  "tr": "Hyoid bone",
+  "summary": "A U-shaped bone at the front of the upper neck, between the mandible and the larynx. It articulates with no other bone and is suspended by muscles and ligaments.",
+  "facts": [
+   "Irregular bone",
+   "Body, two greater horns, two lesser horns",
+   "Level of the C3 vertebra",
+   "Suprahyoid muscles (digastric, stylohyoid, mylohyoid, geniohyoid), infrahyoid muscles (sternohyoid, omohyoid, thyrohyoid), hyoglossus, middle pharyngeal constrictor"
+  ],
+  "sections": [
+   [
+    "Function",
+    "It forms a movable base for the root of the tongue and mediates the raising and lowering of the larynx during swallowing and speech."
+   ]
+  ],
+  "clinical": [
+   "In forensic medicine a fractured hyoid supports suspicion of manual strangulation."
+  ],
+  "tus": [
+   "A hyoid fracture is an important forensic sign of strangulation.",
+   "The hyoid lies at C3; a thyroglossal duct cyst is related to its body, and the middle of the hyoid is removed at surgery (Sistrunk)."
+  ],
+  "aliases": []
+ },
+ "ossicula-auditus": {
+  "tr": "Auditory ossicles",
+  "summary": "A chain of three small bones in the middle ear that carries sound from the eardrum to the inner ear: the malleus, incus and stapes. The stapes is the smallest bone in the body.",
+  "facts": [
+   "Malleus (hammer), incus (anvil), stapes (stirrup)",
+   "Incudomallear and incudostapedial joints (synovial)",
+   "Tensor tympani (to the malleus; trigeminal nerve/V3) and stapedius (to the stapes; facial nerve)",
+   "Transmits sound vibrations from the eardrum to the oval window and amplifies them about 20-fold"
+  ],
+  "sections": [
+   [
+    "Course",
+    "The handle of the malleus is attached to the eardrum; its head articulates with the body of the incus. The long limb of the incus joins the head of the stapes, whose base closes the oval window of the inner ear."
+   ]
+  ],
+  "clinical": [
+   "Otosclerosis is the bony fixation of the stapes base to the oval window and causes conductive hearing loss; it is treated by stapedectomy.",
+   "In facial nerve palsy the stapedius does not work, so loud sounds are uncomfortably loud (hyperacusis)."
+  ],
+  "tus": [
+   "The malleus and incus develop from the 1st pharyngeal arch (Meckel), the stapes from the 2nd (Reichert).",
+   "The tensor tympani (V3) attaches to the malleus, the stapedius (VII) to the stapes; stapedius palsy causes hyperacusis."
+  ],
+  "aliases": [
+   "hammer",
+   "anvil",
+   "stirrup",
+   "ear bones"
+  ]
+ },
+ "dentes": {
+  "tr": "Teeth",
+  "summary": "Hard structures that cut, tear and grind food. Adults have 32 permanent teeth (in each half-jaw 2 incisors, 1 canine, 2 premolars and 3 molars); there are 20 deciduous teeth.",
+  "facts": [
+   "2-1-2-3 (per quadrant); 32 in total",
+   "Enamel, dentine, cementum, dental pulp",
+   "Crown, neck, root",
+   "Upper teeth: superior alveolar nerves (V2); lower teeth: inferior alveolar nerve (V3)",
+   "Deciduous teeth at 6–24 months; permanent teeth at 6–12 years, wisdom teeth at 17–25 years"
+  ],
+  "sections": [
+   [
+    "Types of teeth",
+    "Incisors bite and cut, canines tear, premolars and molars grind. Enamel is the hardest tissue in the body."
+   ]
+  ],
+  "clinical": [
+   "Caries reaching the pulp (pulpitis) causes severe pain and may need root canal treatment.",
+   "Impacted wisdom teeth can cause pericoronitis and damage the neighbouring tooth."
+  ],
+  "tus": [
+   "The first permanent tooth to erupt is the first molar (~6 years); the last is the third molar (wisdom tooth).",
+   "Upper teeth are supplied by the superior alveolar nerves (V2), lower teeth by the inferior alveolar nerve (V3)."
+  ],
+  "aliases": [
+   "tooth",
+   "molar",
+   "incisor",
+   "canine"
+  ]
+ },
+ "vertebrae-cervicales": {
+  "tr": "Cervical vertebrae",
+  "summary": "The seven vertebrae of the neck. Their small bodies, the foramina in their transverse processes (foramen transversarium) and their bifid spinous processes set them apart from other vertebrae.",
+  "facts": [
+   "7 (C1–C7)",
+   "Foramen transversarium (vertebral artery and vein pass; usually only the vein at C7), bifid spinous process (C2–C6), large triangular vertebral foramen",
+   "C1 atlas, C2 axis, C7 vertebra prominens (most prominent spinous process)",
+   "Convex forwards (cervical lordosis)"
+  ],
+  "sections": [
+   [
+    "Movement",
+    "The neck is the most mobile part of the spine: flexion, extension, lateral flexion and rotation are possible. About half of head rotation takes place at the atlantoaxial joint. Uncinate processes on the lateral edges of the C3–C6 bodies form the uncovertebral (Luschka) joints."
+   ]
+  ],
+  "clinical": [
+   "Sudden acceleration–deceleration injuries (whiplash) strain the soft tissues of the neck.",
+   "C5–C6 and C6–C7 are the commonest levels of cervical disc herniation and spondylosis."
+  ],
+  "tus": [
+   "The distinguishing feature of cervical vertebrae is the foramen transversarium; C3–C7 have uncinate processes (Luschka joints).",
+   "The anterior tubercle of the C6 transverse process (Chassaignac's tubercle) is where the common carotid artery can be compressed."
+  ],
+  "aliases": [
+   "neck vertebrae",
+   "neck bones"
+  ]
+ },
+ "atlas": {
+  "tr": "Atlas (C1)",
+  "summary": "The first cervical vertebra, which carries the skull. It has no body and no spinous process; it is a ring of anterior and posterior arches and two lateral masses.",
+  "facts": [
+   "Anterior arch, posterior arch, lateral masses, transverse processes",
+   "Atlanto-occipital joint (with the occipital condyles; 'yes' movement – flexion/extension), atlantoaxial joint (with the axis; 'no' movement – rotation)",
+   "Facet for the dens, anterior and posterior tubercles, groove for the vertebral artery",
+   "The transverse ligament of the atlas holds the dens against the facet for the dens"
+  ],
+  "sections": [],
+  "clinical": [
+   "When both arches of the atlas break after a fall on the head, it is called a Jefferson fracture.",
+   "In rheumatoid arthritis or Down syndrome a lax transverse ligament can cause atlantoaxial instability and cord compression."
+  ],
+  "tus": [
+   "A Jefferson fracture is a break of the atlas ring in several places from axial loading (diving).",
+   "The vertebral artery runs in the groove on the upper surface of the posterior arch of the atlas."
+  ],
+  "aliases": [
+   "C1",
+   "first cervical vertebra"
+  ]
+ },
+ "axis": {
+  "tr": "Axis (C2)",
+  "summary": "The second cervical vertebra; the tooth-like process rising from its body (the dens) is the pivot around which the atlas turns.",
+  "facts": [
+   "Dens (odontoid process) – embryologically the body of the atlas",
+   "Median atlantoaxial joint (dens–atlas) and lateral atlantoaxial joints, intervertebral joint with C3",
+   "Alar ligaments, apical ligament of the dens, tectorial membrane, cruciate ligament of the atlas"
+  ],
+  "sections": [],
+  "clinical": [
+   "Fractures of the dens are common in elderly people after falls.",
+   "In judicial hanging (hangman's fracture) the pedicles of the axis break."
+  ],
+  "tus": [
+   "A hangman's fracture is a bilateral fracture of the pars interarticularis of the axis.",
+   "Dens fractures occur most often at its base (type II) and carry a high risk of non-union."
+  ],
+  "aliases": [
+   "C2",
+   "dens",
+   "odontoid"
+  ]
+ },
+ "vertebrae-thoracicae": {
+  "tr": "Thoracic vertebrae",
+  "summary": "The twelve vertebrae that articulate with the ribs. They have articular facets for the ribs on the sides of their bodies and on their transverse processes (costal facets).",
+  "facts": [
+   "12 (T1–T12)",
+   "Superior and inferior costal facets on the body and a costal facet on the transverse process; long, downward-sloping spinous processes; round vertebral foramen",
+   "With the ribs: joints of the head of the rib and costotransverse joints",
+   "Convex backwards (thoracic kyphosis)"
+  ],
+  "sections": [
+   [
+    "Movement",
+    "Flexion and extension are limited by the rib cage; the articular facets lie in the frontal plane and allow rotation. The spinous processes overlap like roof tiles."
+   ]
+  ],
+  "clinical": [
+   "In elderly people with osteoporosis, compression fractures of the thoracic vertebrae increase the kyphosis (hunchback).",
+   "Scoliosis, a sideways curvature, is most common in the thoracic region."
+  ],
+  "tus": [
+   "T1–T9 bodies carry two half facets, T10–T12 a single whole facet.",
+   "In the thoracic spine the facet joints lie in the frontal plane; rotation is possible, flexion is limited by the ribs."
+  ],
+  "aliases": [
+   "dorsal vertebrae"
+  ]
+ },
+ "vertebrae-lumbales": {
+  "tr": "Lumbar vertebrae",
+  "summary": "The largest and strongest vertebrae of the spine. Because they carry most of the body weight, their bodies are large and kidney-shaped.",
+  "facts": [
+   "5 (L1–L5)",
+   "Large body, thick horizontal rectangular spinous processes, mammillary and accessory processes; no foramen transversarium and no costal facets",
+   "In adults the spinal cord ends at L1–L2 as the conus medullaris; the cauda equina lies below",
+   "Convex forwards (lumbar lordosis)"
+  ],
+  "sections": [
+   [
+    "Movement",
+    "Because the articular facets lie close to the sagittal plane, flexion and extension are free and rotation is limited."
+   ]
+  ],
+  "clinical": [
+   "Lumbar disc herniation is commonest at L4–L5 and L5–S1 and causes pain radiating along the sciatic nerve.",
+   "Lumbar puncture is usually done at the L3–L4 or L4–L5 interspace to avoid the spinal cord.",
+   "Spondylolisthesis is the forward slip of a vertebra over the one below; it is commonest at L5."
+  ],
+  "tus": [
+   "Spondylolysis is a defect of the pars interarticularis (the 'Scottie dog's collar' on oblique X-rays); it is commonest at L5.",
+   "Lumbar facet joints lie in the sagittal plane; they allow flexion–extension and limit rotation."
+  ],
+  "aliases": [
+   "lumbar spine",
+   "low back"
+  ]
+ }
+}

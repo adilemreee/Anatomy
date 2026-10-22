@@ -1,0 +1,212 @@
+{
+ "cor": {
+  "tr": "Herz",
+  "summary": "Muskulöses Organ im mittleren Mediastinum zwischen beiden Lungen, das das Blut durch den Körper pumpt. Es ist etwa faustgroß und hat vier Höhlen: zwei Vorhöfe und zwei Kammern.",
+  "facts": [
+   "Beim Erwachsenen etwa 250–350 g",
+   "Mittleres Mediastinum; zwei Drittel links der Mittellinie, die Herzspitze (Apex cordis) im linken 5. Interkostalraum in der Medioklavikularlinie",
+   "Endokard, Myokard (Herzmuskel), Epikard (viszerales Perikard)",
+   "Rechter Vorhof, rechte Kammer, linker Vorhof, linke Kammer",
+   "Trikuspidal-, Pulmonal-, Mitral- (Bikuspidal-) und Aortenklappe",
+   "Rechte und linke Koronararterie",
+   "Plexus cardiacus (Sympathikus: steigert Frequenz und Kontraktionskraft; Parasympathikus – N. vagus: senkt die Herzfrequenz)"
+  ],
+  "sections": [
+   [
+    "Blutfluss",
+    "Sauerstoffarmes Blut aus dem Körper gelangt über die Hohlvenen in den rechten Vorhof, durch die Trikuspidalklappe in die rechte Kammer und durch die Pulmonalklappe in den Truncus pulmonalis und die Lunge. Sauerstoffreiches Blut kehrt über die Lungenvenen in den linken Vorhof zurück, fließt durch die Mitralklappe in die linke Kammer und wird durch die Aortenklappe in die Aorta gepumpt."
+   ],
+   [
+    "Erregungsleitungssystem",
+    "Sinusknoten (Schrittmacher; rechter Vorhof) → AV-Knoten → His-Bündel → rechter und linker Tawara-Schenkel → Purkinje-Fasern."
+   ]
+  ],
+  "clinical": [
+   "Der Myokardinfarkt ist der Untergang von Herzmuskel durch den Verschluss einer Koronararterie.",
+   "Bei Herzinsuffizienz kann das Herz nicht so viel Blut pumpen, wie der Körper braucht; Linksherzinsuffizienz führt zum Lungenödem, Rechtsherzinsuffizienz zu Beinödemen und Lebervergrößerung.",
+   "Auskultationsstellen: Aorta (2. ICR rechts), Pulmonalis (2. ICR links), Trikuspidalis (4.–5. ICR links parasternal), Mitralis (Herzspitze)."
+  ],
+  "tus": [
+   "Die Herzspitze ist im linken 5. Interkostalraum knapp medial der Medioklavikularlinie tastbar (Herzspitzenstoß).",
+   "Der erste Herzschlauch beginnt Ende der 3. Woche zu schlagen; die Septierung erfolgt in der 4.–7. Woche."
+  ],
+  "aliases": [
+   "Herz",
+   "kardial"
+  ]
+ },
+ "atrium-dextrum": {
+  "tr": "Rechter Vorhof",
+  "summary": "Herzhöhle, die sauerstoffarmes Blut aus dem Körper und aus der Herzwand selbst sammelt. Sie enthält den Sinusknoten, den natürlichen Schrittmacher des Herzens.",
+  "facts": [
+   "V. cava superior, V. cava inferior, Sinus coronarius",
+   "Herzohr (Auricula dextra), Mm. pectinati, Crista terminalis, Fossa ovalis (Rest des Foramen ovale), Valvula venae cavae inferioris",
+   "Sinusknoten (nahe der Mündung der V. cava superior), AV-Knoten (im Koch-Dreieck)",
+   "In die rechte Kammer durch das Ostium atrioventriculare dextrum (Trikuspidalklappe)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Schließt sich das Foramen ovale nach der Geburt nicht (offenes Foramen ovale), besteht die Gefahr einer paradoxen Embolie.",
+   "Ein Vorhofseptumdefekt (ASD) führt zur Volumenbelastung des rechten Herzens."
+  ],
+  "tus": [
+   "Der glatte Teil des rechten Vorhofs (Sinus venarum cavarum) stammt vom Sinus venosus, der muskulöse Teil (Mm. pectinati) vom primitiven Vorhof; die Crista terminalis bildet die Grenze.",
+   "An der Mündung der V. cava inferior liegt die Valvula venae cavae inferioris (Eustachi), an der Mündung des Sinus coronarius die Valvula sinus coronarii (Thebesius)."
+  ],
+  "aliases": [
+   "rechter Vorhof",
+   "rechtes Atrium"
+  ]
+ },
+ "ventriculus-dexter": {
+  "tr": "Rechte Kammer",
+  "summary": "Herzhöhle, die sauerstoffarmes Blut in die Lunge pumpt. Sie bildet den größten Teil der Herzvorderfläche; ihre Wand ist etwa dreimal dünner als die der linken Kammer.",
+  "facts": [
+   "Trikuspidalklappe",
+   "Conus arteriosus (Infundibulum) und Pulmonalklappe in den Truncus pulmonalis",
+   "Trabeculae carneae, Papillarmuskeln (anterior, posterior, septalis), Chordae tendineae, Trabecula septomarginalis (Moderatorband – führt den rechten Tawara-Schenkel)",
+   "3–5 mm"
+  ],
+  "sections": [],
+  "clinical": [
+   "Pulmonale Hypertonie führt zu rechtsventrikulärer Hypertrophie und Insuffizienz (Cor pulmonale).",
+   "Die rechtsventrikuläre Hypertrophie ist ein Bestandteil der Fallot-Tetralogie."
+  ],
+  "tus": [
+   "Das Innere der rechten Kammer ist trabekuliert (Trabeculae carneae); ihr Ausflusstrakt (Infundibulum) ist glattwandig.",
+   "Die Trikuspidalklappe hat drei Segel (anterior, posterior, septal) und drei Papillarmuskeln."
+  ],
+  "aliases": [
+   "rechter Ventrikel",
+   "rechte Herzkammer"
+  ]
+ },
+ "atrium-sinistrum": {
+  "tr": "Linker Vorhof",
+  "summary": "Herzhöhle, die sauerstoffreiches Blut aus der Lunge sammelt und den größten Teil der Herzbasis (Basis cordis) bildet. Sie ist die am weitesten hinten gelegene Herzhöhle und grenzt an die Speiseröhre.",
+  "facts": [
+   "Vier Lungenvenen",
+   "In die linke Kammer durch die Mitralklappe",
+   "Wand größtenteils glatt; Mm. pectinati finden sich im linken Herzohr",
+   "Dahinter liegt der Ösophagus – gut darstellbar in der transösophagealen Echokardiographie"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Vorhofflimmern kann das Blut im linken Herzohr gerinnen und einen Schlaganfall verursachen.",
+   "Bei Mitralstenose kann der vergrößerte linke Vorhof auf die Speiseröhre drücken und Schluckbeschwerden verursachen."
+  ],
+  "tus": [
+   "In den linken Vorhof münden vier Lungenvenen; das linke Herzohr ist der häufigste Ort von Thromben (Vorhofflimmern).",
+   "Außer im Herzohr ist die Wand des linken Vorhofs glatt; sie stammt von den Lungenvenen."
+  ],
+  "aliases": [
+   "linker Vorhof",
+   "linkes Atrium"
+  ]
+ },
+ "ventriculus-sinister": {
+  "tr": "Linke Kammer",
+  "summary": "Die kräftigste Herzhöhle; sie pumpt sauerstoffreiches Blut über die Aorta in den ganzen Körper. Sie bildet die Herzspitze und den linken Herzrand.",
+  "facts": [
+   "Mitral- (Bikuspidal-)klappe",
+   "Vestibulum aortae und Aortenklappe",
+   "Feine, dichte Trabeculae carneae, zwei kräftige Papillarmuskeln (anterior und posterior), Chordae tendineae",
+   "8–12 mm",
+   "Normal 55–70 %"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bluthochdruck und Aortenstenose führen zur linksventrikulären Hypertrophie.",
+   "Beim Vorderwandinfarkt (Verschluss des RIVA) sind die Vorderwand der linken Kammer und das Septum betroffen; ein Papillarmuskelabriss kann eine akute Mitralinsuffizienz verursachen."
+  ],
+  "tus": [
+   "Das vordere Mitralsegel steht in fibröser Kontinuität mit der Aortenklappe.",
+   "Die linksventrikuläre Wand ist etwa dreimal dicker als die rechte (~10–15 mm)."
+  ],
+  "aliases": [
+   "linker Ventrikel",
+   "linke Herzkammer"
+  ]
+ },
+ "valvae-cordis": {
+  "tr": "Herzklappen",
+  "summary": "Die vier Klappen, die dafür sorgen, dass das Blut im Herzen nur in eine Richtung fließt: zwei Segelklappen (Trikuspidal- und Mitralklappe) und zwei Taschenklappen (Pulmonal- und Aortenklappe).",
+  "facts": [
+   "Valva atrioventricularis dextra – drei Segel (anterior, posterior, septal)",
+   "Valva atrioventricularis sinistra – zwei Segel (anterior und posterior)",
+   "Valva trunci pulmonalis – drei Taschen",
+   "Valva aortae – drei Taschen (rechts-koronar, links-koronar, akoronar); aus ihren Sinus entspringen die Koronararterien",
+   "Die Segelklappen sind über Chordae tendineae an den Papillarmuskeln befestigt; das Herzskelett (Anuli fibrosi) trägt die Klappen"
+  ],
+  "sections": [
+   [
+    "Herztöne",
+    "Der 1. Herzton entsteht beim Schluss der Segelklappen, der 2. Herzton beim Schluss der Taschenklappen."
+   ]
+  ],
+  "clinical": [
+   "Das rheumatische Fieber befällt am häufigsten die Mitralklappe.",
+   "Bei älteren Menschen verursacht die (kalzifizierende) Aortenstenose Synkopen, Angina pectoris und Herzinsuffizienz.",
+   "Die infektiöse Endokarditis bildet Vegetationen an den Klappensegeln."
+  ],
+  "tus": [
+   "Taschenklappen haben weder Chordae noch Papillarmuskeln; die Koronararterien entspringen aus den Sinus hinter der Aortenklappe.",
+   "Die Herzklappen sind am Herzskelett (Anuli fibrosi) befestigt, das Vorhöfe und Kammern auch elektrisch voneinander isoliert."
+  ],
+  "aliases": [
+   "Klappe",
+   "Mitralklappe",
+   "Trikuspidalklappe",
+   "Aortenklappe",
+   "Pulmonalklappe"
+  ]
+ },
+ "aa-coronariae": {
+  "tr": "Koronararterien",
+  "summary": "Die beiden Arterien aus der Aortenwurzel, die den Herzmuskel versorgen. Die linke Koronararterie teilt sich nach kurzem Stamm in den R. interventricularis anterior (RIVA) und den R. circumflexus.",
+  "facts": [
+   "Aus dem linken Aortensinus; Hauptstamm → R. interventricularis anterior (RIVA) und R. circumflexus",
+   "Aus dem rechten Aortensinus; verläuft im Sulcus coronarius; R. marginalis dexter, R. interventricularis posterior (bei den meisten – Rechtsversorgungstyp), Sinus- und AV-Knoten-Äste",
+   "Vorderwand der linken Kammer, vordere 2/3 des Kammerseptums, Herzspitze",
+   "Seiten- und Hinterwand der linken Kammer, linker Vorhof",
+   "Rechter Vorhof und rechte Kammer, hinteres 1/3 des Septums, Sinusknoten (60 %) und AV-Knoten (80 %)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Der RIVA gilt als „Witwenmacher“; sein Verschluss verursacht einen ausgedehnten Vorderwandinfarkt.",
+   "Ein Verschluss der rechten Koronararterie kann einen Hinterwandinfarkt und einen AV-Block verursachen.",
+   "In der Bypasschirurgie dienen die A. thoracica interna und die V. saphena magna als Transplantate."
+  ],
+  "tus": [
+   "Die Koronararterien füllen sich in der Diastole; das Subendokard der linken Kammer ist am empfindlichsten für Ischämie.",
+   "Der linke Hauptstamm teilt sich in RIVA und R. circumflexus; manchmal entspringt dazwischen ein R. intermedius."
+  ],
+  "aliases": [
+   "Koronararterie",
+   "RIVA",
+   "LAD",
+   "Circumflexus"
+  ]
+ },
+ "venae-cordis": {
+  "tr": "Herzvenen",
+  "summary": "Die Venen, die sauerstoffarmes Blut aus der Herzwand sammeln. Die meisten münden in den Sinus coronarius im Sulcus coronarius an der Herzhinterwand.",
+  "facts": [
+   "Mündet in den rechten Vorhof",
+   "V. cordis magna (mit dem RIVA), V. cordis media (in der hinteren Interventrikularfurche), V. cordis parva, V. ventriculi sinistri posterior",
+   "Vv. cordis anteriores und Vv. cordis minimae (Thebesius)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei der kardialen Resynchronisationstherapie wird die linksventrikuläre Sonde über den Sinus coronarius in eine Herzvene gelegt."
+  ],
+  "tus": [
+   "Die Vv. cordis minimae (Thebesius) münden direkt in die Herzhöhlen; die Vv. cordis anteriores münden in den rechten Vorhof.",
+   "Der Sinus coronarius sammelt die meisten Herzvenen und mündet in den rechten Vorhof; bei der Resynchronisationstherapie wird hier die Sonde platziert."
+  ],
+  "aliases": [
+   "Sinus coronarius",
+   "Koronarsinus"
+  ]
+ }
+}

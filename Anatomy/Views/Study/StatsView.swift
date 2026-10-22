@@ -61,10 +61,10 @@ struct StatsView: View {
         let study = app.study
         let solvedBank = app.bank.questions.filter { study.questionScore($0.id).seen > 0 }.count
         return LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
-            tile("\(study.answered)", "Cevaplanan soru", "checkmark.circle.fill", Theme.accent)
-            tile(study.answered == 0 ? "–" : "%\(Int(study.accuracy * 100))", "Genel doğruluk", "target", Theme.success)
-            tile("\(study.streak)", "Günlük seri", "flame.fill", .orange)
-            tile("\(solvedBank)/\(app.bank.questions.count)", "Bankadan çözülen", "books.vertical.fill", Color(hex: "B07CFF"))
+            tile("\(study.answered)", String(localized: "Cevaplanan soru"), "checkmark.circle.fill", Theme.accent)
+            tile(study.answered == 0 ? "–" : (study.accuracy).formatted(.percent.precision(.fractionLength(0))), String(localized: "Genel doğruluk"), "target", Theme.success)
+            tile("\(study.streak)", String(localized: "Günlük seri"), "flame.fill", .orange)
+            tile("\(solvedBank)/\(app.bank.questions.count)", String(localized: "Bankadan çözülen"), "books.vertical.fill", Color(hex: "B07CFF"))
         }
     }
 
@@ -72,13 +72,13 @@ struct StatsView: View {
         VStack(alignment: .leading, spacing: 22) {
             Card {
                 VStack(alignment: .leading, spacing: 12) {
-                    Eyebrow(text: "Son 30 gün")
+                    Eyebrow(text: String(localized: "Son 30 gün"))
                     let days = app.study.activity(days: 30)
                     Chart {
                         ForEach(Array(days.enumerated()), id: \.offset) { _, day in
-                            BarMark(x: .value("Gün", day.date, unit: .day), y: .value("Doğru", day.tally.correct))
+                            BarMark(x: .value(String(localized: "Gün"), day.date, unit: .day), y: .value(String(localized: "Doğru"), day.tally.correct))
                                 .foregroundStyle(Theme.success)
-                            BarMark(x: .value("Gün", day.date, unit: .day), y: .value("Yanlış", day.tally.answered - day.tally.correct))
+                            BarMark(x: .value(String(localized: "Gün"), day.date, unit: .day), y: .value(String(localized: "Yanlış"), day.tally.answered - day.tally.correct))
                                 .foregroundStyle(Theme.danger.opacity(0.75))
                         }
                         RuleMark(y: .value("Hedef", dailyGoal))
@@ -99,9 +99,9 @@ struct StatsView: View {
                     }
                     .frame(height: 170)
                     HStack(spacing: 14) {
-                        legend(Theme.success, "Doğru")
-                        legend(Theme.danger.opacity(0.75), "Yanlış")
-                        legend(Theme.textTertiary, "Günlük hedef")
+                        legend(Theme.success, String(localized: "Doğru"))
+                        legend(Theme.danger.opacity(0.75), String(localized: "Yanlış"))
+                        legend(Theme.textTertiary, String(localized: "Günlük hedef"))
                     }
                     .font(.caption)
                 }
@@ -109,7 +109,7 @@ struct StatsView: View {
 
             Card {
                 VStack(alignment: .leading, spacing: 14) {
-                    Eyebrow(text: "Sistemlere göre başarı")
+                    Eyebrow(text: String(localized: "Sistemlere göre başarı"))
                     ForEach(app.store.systems) { system in
                         let tally = app.study.systems[system.id] ?? StudyStore.Tally()
                         VStack(alignment: .leading, spacing: 6) {
@@ -121,7 +121,7 @@ struct StatsView: View {
                                     .font(.subheadline)
                                     .foregroundStyle(Theme.textPrimary)
                                 Spacer()
-                                Text(tally.answered == 0 ? "–" : "%\(Int(tally.accuracy * 100)) · \(tally.answered) soru")
+                                Text(tally.answered == 0 ? "–" : String(localized: "\(tally.accuracy.formatted(.percent.precision(.fractionLength(0)))) · \(tally.answered) soru"))
                                     .font(.caption.monospacedDigit())
                                     .foregroundStyle(Theme.textSecondary)
                             }
@@ -137,7 +137,7 @@ struct StatsView: View {
             if !weak.isEmpty {
                 Card {
                     VStack(alignment: .leading, spacing: 12) {
-                        Eyebrow(text: "En zayıf yapıların")
+                        Eyebrow(text: String(localized: "En zayıf yapıların"))
                         ForEach(weak) { entry in
                             let score = app.study.score(entry.id)
                             HStack {
@@ -168,13 +168,13 @@ struct StatsView: View {
             if !app.study.exams.isEmpty {
                 Card {
                     VStack(alignment: .leading, spacing: 12) {
-                        Eyebrow(text: "Deneme netleri")
+                        Eyebrow(text: String(localized: "Deneme netleri"))
                         let exams = Array(app.study.exams.prefix(12).reversed())
                         Chart {
                             ForEach(Array(exams.enumerated()), id: \.offset) { i, exam in
-                                LineMark(x: .value("Sınav", i + 1), y: .value("Başarı", Double(exam.correct) / Double(max(exam.total, 1)) * 100))
+                                LineMark(x: .value(String(localized: "Sınav"), i + 1), y: .value(String(localized: "Başarı"), Double(exam.correct) / Double(max(exam.total, 1)) * 100))
                                     .foregroundStyle(Theme.accent)
-                                PointMark(x: .value("Sınav", i + 1), y: .value("Başarı", Double(exam.correct) / Double(max(exam.total, 1)) * 100))
+                                PointMark(x: .value(String(localized: "Sınav"), i + 1), y: .value(String(localized: "Başarı"), Double(exam.correct) / Double(max(exam.total, 1)) * 100))
                                     .foregroundStyle(Theme.accent)
                             }
                         }
@@ -183,7 +183,7 @@ struct StatsView: View {
                         .chartYAxis {
                             AxisMarks(values: [0, 50, 100]) { value in
                                 AxisGridLine().foregroundStyle(Theme.stroke)
-                                AxisValueLabel { Text("%\(value.as(Int.self) ?? 0)") }.foregroundStyle(Theme.textTertiary)
+                                AxisValueLabel { Text((Double(value.as(Int.self) ?? 0) / 100).formatted(.percent.precision(.fractionLength(0)))) }.foregroundStyle(Theme.textTertiary)
                             }
                         }
                         .frame(height: 130)

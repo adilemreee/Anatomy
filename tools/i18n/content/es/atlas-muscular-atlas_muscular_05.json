@@ -1,0 +1,330 @@
+{
+ "m-iliopsoas": {
+  "tr": "Músculo iliopsoas",
+  "summary": "El flexor más potente de la cadera, que va de la pared abdominal posterior al muslo. Lo forman el psoas mayor y el ilíaco unidos por un tendón común.",
+  "facts": [
+   "Psoas mayor: cuerpos vertebrales y discos de T12–L4 y apófisis transversas de L1–L5; ilíaco: fosa ilíaca",
+   "Trocánter menor del fémur",
+   "Psoas mayor: ramos anteriores de L1–L3; ilíaco: nervio femoral (L2–L3)",
+   "Arteria iliolumbar, arterias lumbares, arteria circunfleja ilíaca profunda",
+   "Flexiona la cadera (subir escaleras, levantar el pie); con el muslo fijo flexiona el tronco (incorporarse desde tumbado)"
+  ],
+  "sections": [
+   [
+    "Relaciones",
+    "Las ramas del plexo lumbar se forman dentro del psoas; el nervio femoral sale por el surco entre psoas e ilíaco, y el obturador por el borde medial del psoas. Los abscesos pueden descender por la vaina del psoas hasta la ingle."
+   ]
+  ],
+  "clinical": [
+   "El absceso del psoas (sobre todo en la espondilitis tuberculosa) desciende a la ingle y el muslo.",
+   "Signo del psoas en la apendicitis: la extensión pasiva de la cadera derecha provoca dolor."
+  ],
+  "tus": [
+   "El psoas mayor lo inervan ramas del plexo lumbar; el ilíaco, el nervio femoral.",
+   "El absceso tuberculoso del psoas puede descender por la vaina del músculo hasta la ingle y el muslo."
+  ],
+  "aliases": [
+   "psoas",
+   "ilíaco",
+   "psoasilíaco"
+  ]
+ },
+ "m-gluteus-maximus": {
+  "tr": "Músculo glúteo mayor",
+  "summary": "El músculo más grande y pesado del cuerpo, que da a la nalga su forma redondeada. En el ser humano está especializado en la postura erguida y la marcha.",
+  "facts": [
+   "Cara externa del ilion (detrás de la línea glútea posterior), cara posterior del sacro y el cóccix, ligamento sacrotuberoso, fascia toracolumbar",
+   "Tracto iliotibial (la mayoría de las fibras) y tuberosidad glútea del fémur",
+   "Nervio glúteo inferior (L5–S2)",
+   "Arterias glúteas superior e inferior",
+   "Extiende y rota externamente la cadera; actúa con fuerza al levantarse de una silla, subir escaleras y correr; estabiliza la rodilla mediante el tracto iliotibial"
+  ],
+  "sections": [],
+  "clinical": [
+   "Las inyecciones intramusculares en la nalga se ponen en el cuadrante superoexterno (o en la zona ventroglútea) para evitar el nervio ciático.",
+   "Si el músculo está débil, el tronco se echa hacia atrás al caminar (marcha del glúteo mayor)."
+  ],
+  "tus": [
+   "La mayor parte del glúteo mayor se inserta en el tracto iliotibial; sus fibras profundas, en la tuberosidad glútea."
+  ],
+  "aliases": [
+   "glúteo",
+   "nalga"
+  ]
+ },
+ "m-gluteus-medius": {
+  "tr": "Músculo glúteo medio",
+  "summary": "Músculo en abanico situado bajo el glúteo mayor, en la cara externa del ilion. Mantiene la pelvis nivelada al caminar.",
+  "facts": [
+   "Cara externa del ilion (entre las líneas glúteas anterior y posterior)",
+   "Cara lateral del trocánter mayor",
+   "Nervio glúteo superior (L4–S1)",
+   "Arteria glútea superior",
+   "Abduce y rota internamente la cadera; impide que caiga el lado opuesto de la pelvis en apoyo monopodal"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la lesión del nervio glúteo superior, al apoyarse sobre una pierna cae el lado opuesto de la pelvis (signo de Trendelenburg positivo) y la marcha es de pato."
+  ],
+  "tus": [
+   "Los glúteos medio y menor impiden que la pelvis caiga al lado opuesto en apoyo monopodal.",
+   "Sus fibras anteriores rotan internamente la cadera."
+  ],
+  "aliases": [
+   "glúteo medio"
+  ]
+ },
+ "m-gluteus-minimus": {
+  "tr": "Músculo glúteo menor",
+  "summary": "El más profundo y pequeño de los glúteos; trabaja junto con el glúteo medio.",
+  "facts": [
+   "Cara externa del ilion (entre las líneas glúteas anterior e inferior)",
+   "Cara anterior del trocánter mayor",
+   "Nervio glúteo superior (L4–S1)",
+   "Arteria glútea superior",
+   "Abduce y rota internamente la cadera; estabiliza la pelvis al caminar"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El glúteo menor está bajo el glúteo medio y lo inerva el mismo nervio (glúteo superior)."
+  ],
+  "aliases": [
+   "glúteo menor"
+  ]
+ },
+ "m-tensor-fasciae-latae": {
+  "tr": "Músculo tensor de la fascia lata",
+  "summary": "Músculo de la parte superolateral del muslo situado entre dos hojas de fascia; actúa hasta la rodilla a través del tracto iliotibial.",
+  "facts": [
+   "Espina ilíaca anterosuperior y parte anterior de la cresta ilíaca",
+   "Tubérculo iliotibial de la tibia (tubérculo de Gerdy) mediante el tracto iliotibial",
+   "Nervio glúteo superior (L4–S1)",
+   "Arteria circunfleja femoral lateral, arteria glútea superior",
+   "Abduce, rota internamente y flexiona la cadera; estabiliza la rodilla extendida"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El TFL estabiliza la rodilla extendida a través del tracto iliotibial."
+  ],
+  "aliases": [
+   "TFL"
+  ]
+ },
+ "tractus-iliotibialis": {
+  "tr": "Tracto iliotibial",
+  "summary": "Banda fibrosa resistente de la cara lateral del muslo formada por un engrosamiento de la fascia lata. En ella se insertan el glúteo mayor y el tensor de la fascia lata.",
+  "facts": [
+   "De la cresta ilíaca al tubérculo iliotibial de la tibia",
+   "Estabiliza lateralmente la rodilla extendida y la cadera"
+  ],
+  "sections": [],
+  "clinical": [
+   "En corredores, el roce de la banda sobre el epicóndilo lateral del fémur causa dolor en la cara externa de la rodilla (síndrome de la banda iliotibial)."
+  ],
+  "tus": [
+   "El síndrome de la banda iliotibial del corredor cursa con dolor sobre el cóndilo femoral lateral."
+  ],
+  "aliases": [
+   "cintilla iliotibial",
+   "banda iliotibial"
+  ]
+ },
+ "mm-rotatores-coxae": {
+  "tr": "Rotadores laterales de la cadera",
+  "summary": "Grupo muscular profundo situado detrás de la cadera que rota el muslo hacia fuera. El piriforme es el músculo clave de la región.",
+  "facts": [
+   "Piriforme: cara anterior del sacro; obturador interno: cara interna de la membrana obturatriz; gemelos: espina isquiática (superior) y tuberosidad isquiática (inferior); cuadrado femoral: tuberosidad isquiática; obturador externo: cara externa de la membrana obturatriz",
+   "Trocánter mayor y fosa trocantérea; cuadrado femoral: cresta intertrocantérea",
+   "Piriforme: S1–S2; obturador interno y gemelo superior: nervio del obturador interno (L5–S2); cuadrado femoral y gemelo inferior: nervio del cuadrado femoral (L4–S1); obturador externo: nervio obturador",
+   "Arterias glúteas superior e inferior, arteria pudenda interna, arteria circunfleja femoral medial",
+   "Rotan el muslo hacia fuera y mantienen la cabeza femoral en el acetábulo; con la cadera flexionada el piriforme es abductor"
+  ],
+  "sections": [
+   [
+    "Importancia del piriforme",
+    "Divide el agujero isquiático mayor: por encima (suprapiriforme) pasan el nervio y los vasos glúteos superiores; por debajo (infrapiriforme), el nervio ciático, el glúteo inferior, el pudendo, el cutáneo femoral posterior y los vasos glúteos inferiores."
+   ]
+  ],
+  "clinical": [
+   "Síndrome del piriforme: dolor que irradia de la nalga a la pierna por compresión del nervio ciático por el músculo."
+  ],
+  "tus": [
+   "Rotadores laterales cortos: piriforme, gemelos superior e inferior, obturadores interno y externo, cuadrado femoral.",
+   "Todos excepto el obturador externo están inervados por ramas del plexo sacro; el obturador externo, por el nervio obturador."
+  ],
+  "aliases": [
+   "piriforme",
+   "gemelos",
+   "obturador",
+   "pelvitrocantéreos"
+  ]
+ },
+ "m-sartorius": {
+  "tr": "Músculo sartorio",
+  "summary": "El músculo más largo del cuerpo, que cruza oblicuamente de lateral a medial la cara anterior del muslo. Se llama «músculo del sastre» porque permite sentarse con las piernas cruzadas.",
+  "facts": [
+   "Espina ilíaca anterosuperior",
+   "Cara superomedial de la tibia (pata de ganso)",
+   "Nervio femoral (L2–L3)",
+   "Ramas musculares de la arteria femoral",
+   "Flexiona, abduce y rota externamente la cadera; flexiona la rodilla"
+  ],
+  "sections": [
+   [
+    "Pata de ganso",
+    "Los tendones del sartorio, el grácil y el semitendinoso se unen en la cara medial de la tibia en forma de pata de ganso (pes anserinus)."
+   ]
+  ],
+  "clinical": [
+   "Forma el borde lateral del triángulo femoral y el límite anterior del conducto aductor (de Hunter); es una referencia importante para llegar a los vasos femorales."
+  ],
+  "tus": [
+   "El sartorio es el borde lateral del triángulo femoral y el techo del conducto aductor."
+  ],
+  "aliases": [
+   "músculo del sastre",
+   "pata de ganso"
+  ]
+ },
+ "m-quadriceps-femoris": {
+  "tr": "Músculo cuádriceps femoral",
+  "summary": "Músculo de cuatro cabezas que forma la mayor parte del compartimento anterior del muslo: recto femoral, vasto lateral, vasto medial y vasto intermedio. Es el único extensor potente de la rodilla.",
+  "facts": [
+   "Recto femoral: espina ilíaca anteroinferior y borde superior del acetábulo; vasto lateral: trocánter mayor y labio lateral de la línea áspera; vasto medial: línea intertrocantérea y labio medial de la línea áspera; vasto intermedio: cara anterolateral de la diáfisis femoral",
+   "Rótula mediante el tendón común del cuádriceps y tuberosidad tibial mediante el ligamento rotuliano",
+   "Nervio femoral (L2–L4)",
+   "Arteria circunfleja femoral lateral, arteria femoral, arteria femoral profunda",
+   "Extiende la rodilla; el recto femoral además flexiona la cadera (única cabeza biarticular)"
+  ],
+  "sections": [],
+  "clinical": [
+   "El reflejo rotuliano (L3–L4) es el reflejo miotático de este grupo.",
+   "En la lesión del nervio femoral se pierde la extensión de la rodilla y el paciente no puede subir escaleras.",
+   "El vasto medial es el que antes se atrofia tras una cirugía o inmovilización de la rodilla."
+  ],
+  "tus": [
+   "El reflejo rotuliano valora L3–L4 (sobre todo L4).",
+   "La rotura del tendón del cuádriceps es más frecuente en mayores; la del tendón rotuliano, en jóvenes."
+  ],
+  "aliases": [
+   "cuádriceps",
+   "recto femoral",
+   "vasto"
+  ]
+ },
+ "mm-adductores": {
+  "tr": "Músculos aductores",
+  "summary": "Grupo del compartimento medial del muslo que acerca las piernas entre sí. El aductor mayor es el más grande del grupo y tiene dos porciones.",
+  "facts": [
+   "Cuerpo y rama inferior del pubis; porción isquiotibial del aductor mayor: tuberosidad isquiática",
+   "Línea áspera del fémur; porción isquiotibial del aductor mayor: tubérculo del aductor",
+   "Nervio obturador (L2–L4); porción isquiotibial del aductor mayor: porción tibial del nervio ciático (L4)",
+   "Arteria femoral profunda, arteria obturatriz",
+   "Aducen el muslo; ayudan a la flexión y la rotación; estabilizan la pelvis al caminar"
+  ],
+  "sections": [
+   [
+    "Conducto aductor",
+    "A través del orificio del aductor mayor (hiato aductor) la arteria y la vena femorales pasan detrás de la rodilla y se convierten en arteria y vena poplíteas."
+   ]
+  ],
+  "clinical": [
+   "En deportistas la distensión inguinal afecta sobre todo al aductor largo."
+  ],
+  "tus": [
+   "El grupo aductor (largo, corto, mayor, grácil, pectíneo) lo inerva sobre todo el nervio obturador.",
+   "La distensión inguinal afecta con más frecuencia al aductor largo."
+  ],
+  "aliases": [
+   "aductores",
+   "aductor largo",
+   "aductor mayor"
+  ]
+ },
+ "m-gracilis": {
+  "tr": "Músculo grácil",
+  "summary": "El músculo más superficial, largo y delgado de la cara medial del muslo; el único del compartimento medial que cruza la cadera y la rodilla.",
+  "facts": [
+   "Cuerpo y rama inferior del pubis",
+   "Cara superomedial de la tibia (pata de ganso)",
+   "Nervio obturador (L2–L3)",
+   "Arteria femoral profunda, arteria obturatriz",
+   "Aduce el muslo y flexiona y rota internamente la rodilla"
+  ],
+  "sections": [],
+  "clinical": [
+   "En cirugía plástica se usa a menudo como colgajo muscular libre funcional."
+  ],
+  "tus": [
+   "El grácil puede usarse como colgajo muscular y su tendón como injerto (reconstrucción del LCA); lo inerva el nervio obturador."
+  ],
+  "aliases": [
+   "recto interno"
+  ]
+ },
+ "m-pectineus": {
+  "tr": "Músculo pectíneo",
+  "summary": "Músculo cuadrilátero del suelo del triángulo femoral, entre el iliopsoas y el aductor largo.",
+  "facts": [
+   "Cresta pectínea del pubis (línea pectínea)",
+   "Línea pectínea del fémur (por debajo del trocánter menor)",
+   "Nervio femoral (L2–L3), a veces también fibras del obturador",
+   "Arteria circunfleja femoral medial, arteria obturatriz",
+   "Aduce y flexiona el muslo"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El pectíneo forma parte del suelo del triángulo femoral."
+  ],
+  "aliases": []
+ },
+ "mm-ischiocrurales": {
+  "tr": "Músculos isquiotibiales",
+  "summary": "Tres músculos del compartimento posterior del muslo que extienden la cadera y flexionan la rodilla. El bíceps femoral es lateral; el semitendinoso y el semimembranoso, mediales.",
+  "facts": [
+   "Tuberosidad isquiática (cabeza corta del bíceps femoral: labio lateral de la línea áspera)",
+   "Bíceps femoral: cabeza del peroné; semitendinoso: cara superomedial de la tibia (pata de ganso); semimembranoso: cara posterior del cóndilo medial de la tibia",
+   "Porción tibial del nervio ciático (L5–S2); cabeza corta del bíceps femoral: porción peronea común",
+   "Arterias perforantes (arteria femoral profunda), arteria circunfleja femoral medial",
+   "Extienden la cadera y flexionan la rodilla; el bíceps femoral rota la rodilla hacia fuera, y el semitendinoso y el semimembranoso hacia dentro"
+  ],
+  "sections": [],
+  "clinical": [
+   "Las roturas de isquiotibiales son de las lesiones musculares más frecuentes en velocistas.",
+   "En la reconstrucción del ligamento cruzado anterior se usa a menudo el tendón del semitendinoso (y del grácil) como injerto."
+  ],
+  "tus": [
+   "Los isquiotibiales extienden la cadera y flexionan la rodilla; la avulsión de la tuberosidad isquiática aparece en deportistas.",
+   "El acortamiento de isquiotibiales puede limitar la elevación de la pierna recta; no debe confundirse con los signos de estiramiento ciático."
+  ],
+  "aliases": [
+   "isquiotibiales",
+   "semitendinoso",
+   "semimembranoso"
+  ]
+ },
+ "m-biceps-femoris": {
+  "tr": "Músculo bíceps femoral",
+  "summary": "Músculo isquiotibial de dos cabezas en la cara posterolateral del muslo. Su tendón se palpa en el lado lateral de la parte posterior de la rodilla.",
+  "facts": [
+   "Cabeza larga: tuberosidad isquiática; cabeza corta: labio lateral de la línea áspera",
+   "Cabeza del peroné",
+   "Cabeza larga: porción tibial; cabeza corta: porción peronea común (L5–S2)",
+   "Arterias perforantes, arteria glútea inferior",
+   "Flexiona la rodilla y rota hacia fuera la rodilla flexionada; la cabeza larga extiende la cadera"
+  ],
+  "sections": [],
+  "clinical": [
+   "El nervio peroneo común, que discurre justo medial y posterior a su tendón, puede lesionarse en la cirugía de la cara lateral de la rodilla."
+  ],
+  "tus": [
+   "El bíceps femoral es un estabilizador dinámico de la cara lateral de la rodilla y se inserta en la cabeza del peroné; el nervio peroneo común pasa justo detrás de su tendón."
+  ],
+  "aliases": [
+   "isquiotibial"
+  ]
+ }
+}

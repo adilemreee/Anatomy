@@ -1,0 +1,2764 @@
+{
+ "system": "cardiovascular",
+ "questions": [
+  {
+   "id": "cv-ff8c208f",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué cavidad forma la mayor parte de la cara esternocostal (anterior) del corazón?",
+   "options": [
+    "Orejuela izquierda",
+    "Ventrículo izquierdo",
+    "Aurícula derecha",
+    "Aurícula izquierda",
+    "Ventrículo derecho"
+   ],
+   "answer": 4,
+   "explanation": "Como el corazón está rotado hacia la izquierda, su cara anterior la forma sobre todo el ventrículo derecho; el borde derecho la aurícula derecha, el borde izquierdo el ventrículo izquierdo (y la orejuela izquierda), el vértice el ventrículo izquierdo y la base (cara posterior) la aurícula izquierda. Al estar cerca del esternón, el ventrículo derecho es la cavidad que más se lesiona en las heridas torácicas penetrantes.",
+   "entries": [
+    "ventriculus-dexter",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-e4391593",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con estenosis mitral presenta dificultad para tragar y ronquera. ¿La dilatación de qué cavidad explica mejor estos síntomas?",
+   "options": [
+    "Ventrículo derecho",
+    "Seno coronario",
+    "Ventrículo izquierdo",
+    "Aurícula izquierda",
+    "Aurícula derecha"
+   ],
+   "answer": 3,
+   "explanation": "La aurícula izquierda forma la base del corazón y está directamente delante del esófago. Al dilatarse comprime el esófago (disfagia) y puede estirar el nervio laríngeo recurrente izquierdo (síndrome de Ortner). Por esa misma relación, la ecocardiografía transesofágica muestra mejor la aurícula izquierda.",
+   "entries": [
+    "atrium-sinistrum",
+    "oesophagus",
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-241ef31a",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "La fosa oval de la aurícula derecha es el resto de ¿qué estructura fetal?",
+   "options": [
+    "Seno venoso",
+    "Vena umbilical",
+    "Conducto arterioso",
+    "Conducto venoso",
+    "Foramen oval"
+   ],
+   "answer": 4,
+   "explanation": "En el feto la sangre pasa de la aurícula derecha a la izquierda por el foramen oval. Al nacer aumenta la presión auricular izquierda, el septum primum se adosa al septum secundum y cierra el orificio, quedando la fosa oval. En cerca de una cuarta parte de las personas persiste una abertura permeable a una sonda (FOP).",
+   "entries": [
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-03099d00",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructuras delimitan el triángulo de Koch, que indica la posición del nódulo auriculoventricular (AV)?",
+   "options": [
+    "Trabécula septomarginal, músculo papilar anterior y válvula pulmonar",
+    "Fosa oval, limbo y desembocadura de la vena cava inferior",
+    "Valva anterior de la mitral, válvula aórtica y tabique membranoso",
+    "Cresta terminal, desembocadura de la vena cava superior y orejuela",
+    "Tendón de Todaro, valva septal de la tricúspide y desembocadura del seno coronario"
+   ],
+   "answer": 4,
+   "explanation": "El triángulo de Koch está en la pared septal de la aurícula derecha. El nódulo AV se sitúa en su vértice; es una referencia importante para proteger el sistema de conducción en cirugía cardíaca y ablación.",
+   "entries": [
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-29f558d6",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En el ventrículo derecho, ¿qué estructura va del tabique interventricular a la base del músculo papilar anterior y lleva la rama derecha del haz de His?",
+   "options": [
+    "Cresta supraventricular",
+    "Cresta terminal",
+    "Cuerdas tendinosas",
+    "Músculos pectíneos",
+    "Trabécula septomarginal (banda moderadora)"
+   ],
+   "answer": 4,
+   "explanation": "La banda moderadora lleva parte de la rama derecha por un camino corto hasta el músculo papilar anterior, de modo que este se contrae a tiempo antes del cierre de la tricúspide. Además limita la distensión excesiva del ventrículo.",
+   "entries": [
+    "ventriculus-dexter"
+   ]
+  },
+  {
+   "id": "cv-db0c2ed6",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre los focos de auscultación de las válvulas cardíacas es correcta?",
+   "options": [
+    "Válvula mitral – 5.º espacio intercostal izquierdo, línea medioclavicular (vértice)",
+    "Válvula aórtica – 2.º espacio intercostal izquierdo, borde esternal",
+    "Válvula mitral – 4.º espacio intercostal derecho, borde esternal",
+    "Válvula tricúspide – 5.º espacio intercostal izquierdo, línea medioclavicular",
+    "Válvula pulmonar – 2.º espacio intercostal derecho, borde esternal"
+   ],
+   "answer": 0,
+   "explanation": "Los focos siguen la dirección del flujo sanguíneo más que la posición anatómica de las válvulas: aórtico en el 2.º espacio derecho, pulmonar en el 2.º espacio izquierdo (borde esternal), tricuspídeo en el borde esternal izquierdo inferior (4.º–5.º espacio) y mitral en el vértice (5.º espacio izquierdo, línea medioclavicular).",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-0b0d9052",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con dolor torácico presenta en el ECG elevación del ST en las derivaciones inferiores (II, III, aVF) y bloqueo AV de segundo grado. ¿Qué arteria está probablemente ocluida?",
+   "options": [
+    "Rama interventricular anterior",
+    "Arteria coronaria derecha",
+    "Rama circunfleja",
+    "Rama marginal izquierda",
+    "Tronco de la coronaria izquierda"
+   ],
+   "answer": 1,
+   "explanation": "En la mayoría de las personas la cara diafragmática (inferior) del corazón la irriga la rama interventricular posterior de la coronaria derecha. Como la arteria del nódulo AV también nace de la coronaria derecha en un 80–90 % de los casos, el infarto inferior se acompaña a menudo de bradicardia y bloqueo AV.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-b34c730f",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué arteria irriga los dos tercios anteriores del tabique interventricular?",
+   "options": [
+    "Arteria del nódulo sinusal",
+    "Rama marginal derecha",
+    "Rama interventricular anterior (DA)",
+    "Rama circunfleja",
+    "Rama interventricular posterior"
+   ],
+   "answer": 2,
+   "explanation": "Las ramas septales de la DA irrigan los 2/3 anteriores del tabique (incluida la mayor parte de la rama izquierda) y la descendente posterior el 1/3 posterior. La DA es la coronaria que más se ocluye y produce infartos anteriores extensos.",
+   "entries": [
+    "aa-coronariae",
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-f11807d6",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cómo se define la «dominancia derecha» de la circulación coronaria?",
+   "options": [
+    "Porque la arteria del cono nace del seno aórtico derecho",
+    "Porque la rama interventricular posterior nace de la coronaria derecha",
+    "Porque la coronaria derecha es más gruesa",
+    "Porque la arteria del nódulo sinusal nace de la coronaria derecha",
+    "Porque el ventrículo derecho es más grande"
+   ],
+   "answer": 1,
+   "explanation": "La dominancia se define por el origen de la descendente posterior, que irriga la cara posterior del corazón y la parte posterior del tabique. Alrededor del 70 % de las personas tiene dominancia derecha; en la dominancia izquierda la descendente posterior nace de la circunfleja.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-f1cfdd20",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Con qué arteria discurre la vena cardíaca magna?",
+   "options": [
+    "Rama interventricular anterior",
+    "Rama interventricular posterior",
+    "Arteria coronaria derecha",
+    "Rama marginal derecha",
+    "Arteria del nódulo auriculoventricular"
+   ],
+   "answer": 0,
+   "explanation": "La vena cardíaca magna asciende con la DA por el surco interventricular anterior, gira hacia el surco AV izquierdo y desemboca en el seno coronario. La vena cardíaca media acompaña a la descendente posterior y la menor a la marginal derecha. El seno coronario se abre en la aurícula derecha.",
+   "entries": [
+    "venae-cordis",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-0b3efcf0",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se encuentra el marcapasos natural del corazón (nódulo sinusal)?",
+   "options": [
+    "En la aurícula derecha, cerca de la desembocadura de la vena cava superior, en el extremo superior de la cresta terminal",
+    "En el tracto de salida del ventrículo derecho",
+    "En el vértice del triángulo de Koch",
+    "En la aurícula izquierda, en la desembocadura de las venas pulmonares",
+    "En la porción membranosa del tabique interventricular"
+   ],
+   "answer": 0,
+   "explanation": "El nódulo sinusal está justo bajo el epicardio, en la unión de la VCS con la aurícula derecha, y en un 60 % de los casos lo irriga la coronaria derecha. El impulso pasa por las aurículas al nódulo AV y por el haz de His y sus ramas a los ventrículos.",
+   "entries": [
+    "atrium-dextrum",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-0cef8d2c",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En cirugía cardíaca, ¿qué espacio permite pasar un dedo por detrás de la aorta y el tronco pulmonar para colocar una pinza?",
+   "options": [
+    "Fosa oval",
+    "Seno transverso del pericardio",
+    "Receso costodiafragmático",
+    "Seno oblicuo del pericardio",
+    "Seno coronario"
+   ],
+   "answer": 1,
+   "explanation": "El seno transverso está entre la aorta y el tronco pulmonar por delante y la VCS y las venas pulmonares por detrás. Se usa en las operaciones de bypass para controlar juntas las grandes arterias. El seno oblicuo es el fondo de saco situado detrás de la aurícula izquierda.",
+   "entries": [
+    "pericardium",
+    "aorta",
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-f911d80e",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un paciente apuñalado en el tórax presenta hipotensión, ingurgitación yugular y ruidos cardíacos apagados (tríada de Beck). ¿Qué vía se usa con más frecuencia para la pericardiocentesis?",
+   "options": [
+    "2.º espacio intercostal izquierdo, línea medioclavicular",
+    "El ángulo entre la apófisis xifoides y el reborde costal izquierdo (vía subxifoidea)",
+    "5.º espacio intercostal derecho, línea axilar anterior",
+    "2.º espacio intercostal derecho, borde esternal",
+    "8.º espacio intercostal izquierdo, línea axilar posterior"
+   ],
+   "answer": 1,
+   "explanation": "En el taponamiento cardíaco la sangre de la cavidad pericárdica impide el llenado del corazón. La aguja se dirige desde la región subxifoidea hacia el hombro izquierdo; esta vía se aleja de la pleura y de las arterias coronarias.",
+   "entries": [
+    "pericardium"
+   ]
+  },
+  {
+   "id": "cv-43207aff",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Por qué el dolor de la pericarditis se irradia a la punta del hombro?",
+   "options": [
+    "Porque el pericardio está inervado por los nervios intercostales",
+    "Porque la sensibilidad del pericardio fibroso y del seroso parietal la conduce el nervio frénico (C3–C5)",
+    "Porque las aferencias simpáticas del corazón entran en T1–T4",
+    "Porque el pericardio recibe fibras del plexo braquial",
+    "Porque el pericardio visceral está inervado por el nervio vago"
+   ],
+   "answer": 1,
+   "explanation": "El pericardio parietal tiene sensibilidad somática conducida por el nervio frénico; el dolor se proyecta a la punta del hombro, dermatoma C4. El dolor de la isquemia miocárdica, en cambio, viaja con las aferencias simpáticas a T1–T4 y se irradia a la cara interna del brazo.",
+   "entries": [
+    "pericardium",
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "cv-b5bdf8d5",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué dos estructuras une el ligamento arterioso?",
+   "options": [
+    "Cayado aórtico y arteria subclavia izquierda",
+    "Tronco pulmonar y vena cava superior",
+    "Raíz aórtica y aurícula derecha",
+    "Arteria pulmonar derecha y vena ácigos",
+    "Arteria pulmonar izquierda y cayado aórtico"
+   ],
+   "answer": 4,
+   "explanation": "El ligamento arterioso es el resto del conducto arterioso fetal; une el origen de la arteria pulmonar izquierda con la cara inferior del cayado aórtico. El nervio laríngeo recurrente izquierdo rodea el cayado lateral a este ligamento.",
+   "entries": [
+    "truncus-pulmonalis",
+    "aorta",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-5b516d51",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre el ventrículo izquierdo es falsa?",
+   "options": [
+    "Tiene dos músculos papilares, anterior y posterior.",
+    "Forma el vértice del corazón.",
+    "La válvula mitral tiene dos valvas.",
+    "Su pared es unas tres veces más gruesa que la del ventrículo derecho.",
+    "Su tracto de salida contiene el cono arterioso (infundíbulo)."
+   ],
+   "answer": 4,
+   "explanation": "El cono arterioso (infundíbulo) es el tracto de salida de pared lisa del ventrículo derecho. El del ventrículo izquierdo se llama vestíbulo aórtico. Como el ventrículo izquierdo trabaja contra la presión sistémica, su pared es la más gruesa de todas las cavidades.",
+   "entries": [
+    "ventriculus-sinister",
+    "ventriculus-dexter",
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-258cd59d",
+   "group": "Aorta y sus ramas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué opción están correctamente ordenadas de derecha a izquierda las ramas del cayado aórtico?",
+   "options": [
+    "Tronco braquiocefálico, arteria subclavia izquierda, arteria carótida común izquierda",
+    "Arteria carótida común izquierda, tronco braquiocefálico, arteria subclavia izquierda",
+    "Tronco braquiocefálico, arteria carótida común izquierda, arteria subclavia izquierda",
+    "Arterias coronarias, tronco braquiocefálico, arteria subclavia izquierda",
+    "Arteria subclavia derecha, arteria carótida común derecha, arteria carótida común izquierda"
+   ],
+   "answer": 2,
+   "explanation": "El cayado aórtico suele dar tres ramas. El tronco braquiocefálico se divide detrás de la articulación esternoclavicular derecha en la subclavia derecha y la carótida común derecha. Las arterias coronarias nacen de la aorta ascendente.",
+   "entries": [
+    "aorta",
+    "truncus-brachiocephalicus"
+   ]
+  },
+  {
+   "id": "cv-0bdc88fc",
+   "group": "Aorta y sus ramas",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente hipertenso de 16 años tiene presión arterial alta en los brazos y pulsos débiles y retrasados en las piernas. La radiografía de tórax muestra muescas en el borde inferior de las costillas. ¿La dilatación de qué vasos las produce?",
+   "options": [
+    "Arterias intercostales posteriores (circulación colateral)",
+    "Arteria torácica lateral",
+    "Arterias bronquiales",
+    "Arterias coronarias",
+    "Venas intercostales anteriores"
+   ],
+   "answer": 0,
+   "explanation": "En la coartación de aorta (generalmente a la altura del ligamento arterioso) la sangre llega a la aorta descendente por la vía arteria subclavia → arteria torácica interna → intercostales anteriores → intercostales posteriores. Las intercostales posteriores dilatadas erosionan el borde inferior de las costillas (3.ª a 8.ª).",
+   "entries": [
+    "aorta",
+    "a-subclavia",
+    "costae"
+   ]
+  },
+  {
+   "id": "cv-f7249148",
+   "group": "Aorta y sus ramas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué nivel se divide la aorta abdominal en las dos arterias ilíacas comunes?",
+   "options": [
+    "L2",
+    "L4 (aproximadamente a la altura del ombligo)",
+    "L1",
+    "T12",
+    "S2"
+   ],
+   "answer": 1,
+   "explanation": "Tras el hiato aórtico (T12), la aorta abdominal desciende a la izquierda de la columna y se divide en L4; este punto corresponde aproximadamente a justo debajo del ombligo y a la línea de las crestas ilíacas.",
+   "entries": [
+    "aorta",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-dc7a4413",
+   "group": "Aorta y sus ramas",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Se detecta una masa abdominal pulsátil en un fumador de 70 años. ¿Dónde se localizan con más frecuencia los aneurismas de aorta abdominal?",
+   "options": [
+    "A la altura del origen de las arterias renales",
+    "En el hiato aórtico",
+    "Por encima del tronco celíaco",
+    "Por debajo de las arterias renales (infrarrenal), por encima de la bifurcación",
+    "En la arteria ilíaca externa"
+   ],
+   "answer": 3,
+   "explanation": "La gran mayoría de los aneurismas de aorta abdominal son infrarrenales. En esta zona hay pocos vasa vasorum y el contenido de elastina es bajo. El riesgo de rotura aumenta con el diámetro.",
+   "entries": [
+    "aorta",
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "cv-7d92b3b7",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué nivel suele dividirse la arteria carótida común en carótidas interna y externa?",
+   "options": [
+    "Borde superior del cartílago tiroides (C4)",
+    "Nivel del cartílago cricoides (C6)",
+    "Por encima del ángulo de la mandíbula (C2)",
+    "Cuerpo del hueso hioides (C3)",
+    "Nivel de la articulación esternoclavicular"
+   ],
+   "answer": 0,
+   "explanation": "La bifurcación carotídea está a la altura del borde superior del cartílago tiroides. La dilatación del inicio de la ACI (seno carotídeo) es un barorreceptor y el pequeño cuerpo de la bifurcación (cuerpo carotídeo) un quimiorreceptor; ambos están inervados por el nervio glosofaríngeo.",
+   "entries": [
+    "a-carotis-communis",
+    "a-carotis-interna",
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-64588484",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Se realiza masaje del seno carotídeo a un paciente con taquicardia supraventricular. ¿Cuáles son las vías aferente y eferente del descenso de la frecuencia cardíaca?",
+   "options": [
+    "Aferente: nervio vago – Eferente: nervio glosofaríngeo",
+    "Aferente: nervio hipogloso – Eferente: nervio vago",
+    "Aferente: nervio glosofaríngeo – Eferente: nervio vago",
+    "Aferente: cadena simpática – Eferente: nervio frénico",
+    "Aferente: nervio accesorio – Eferente: nervio vago"
+   ],
+   "answer": 2,
+   "explanation": "Los barorreceptores del seno carotídeo informan del aumento de presión al tronco encefálico por la rama del seno carotídeo del IX par; como respuesta aumenta el tono vagal y el corazón se enlentece. En los ancianos la hipersensibilidad puede causar síncope.",
+   "entries": [
+    "a-carotis-interna",
+    "n-glossopharyngeus",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-b380c127",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué arteria no da ninguna rama en el cuello?",
+   "options": [
+    "Arteria vertebral",
+    "Arteria carótida interna",
+    "Arteria carótida externa",
+    "Tronco tirocervical",
+    "Arteria subclavia"
+   ],
+   "answer": 1,
+   "explanation": "La arteria carótida interna entra en el conducto carotídeo sin dar ramas en el cuello; su primera rama importante es la arteria oftálmica dentro del cráneo. Esto ayuda al cirujano a distinguir la ACI de la ACE.",
+   "entries": [
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-d408d339",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes NO es rama de la arteria carótida externa?",
+   "options": [
+    "Arteria maxilar",
+    "Arteria facial",
+    "Arteria lingual",
+    "Arteria tiroidea superior",
+    "Arteria oftálmica"
+   ],
+   "answer": 4,
+   "explanation": "Ramas de la ACE: arterias tiroidea superior, faríngea ascendente, lingual, facial, occipital y auricular posterior, y las terminales maxilar y temporal superficial. La arteria oftálmica es la primera rama intracraneal de la ACI.",
+   "entries": [
+    "a-carotis-externa",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-c6279338",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué arteria es rama la arteria meníngea media?",
+   "options": [
+    "Arteria carótida interna",
+    "Arteria occipital",
+    "Arteria oftálmica",
+    "Arteria maxilar",
+    "Arteria temporal superficial"
+   ],
+   "answer": 3,
+   "explanation": "La arteria maxilar da la meníngea media en la fosa infratemporal; esta entra en el cráneo por el agujero espinoso e irriga la mayor parte de la duramadre y los huesos del cráneo.",
+   "entries": [
+    "a-carotis-externa",
+    "meninges"
+   ]
+  },
+  {
+   "id": "cv-7afbacff",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se palpa con más facilidad en la cara el pulso de la arteria facial?",
+   "options": [
+    "Detrás del ángulo de la mandíbula",
+    "Sobre el agujero infraorbitario",
+    "En el ángulo interno del ojo",
+    "Delante del trago",
+    "En el borde anterior del masetero, sobre el borde inferior de la mandíbula"
+   ],
+   "answer": 4,
+   "explanation": "La arteria facial cruza el borde inferior de la mandíbula en el borde anterior del masetero, donde se palpa contra el hueso. Sigue un trayecto sinuoso desde la comisura bucal al ángulo interno del ojo (arteria angular).",
+   "entries": [
+    "a-carotis-externa",
+    "m-masseter"
+   ]
+  },
+  {
+   "id": "cv-937ce9d9",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Una mujer de 70 años presenta dolor temporal de nueva aparición, dolor mandibular al masticar y visión borrosa; la VSG está elevada. ¿De qué arteria se toma con más frecuencia la biopsia diagnóstica?",
+   "options": [
+    "Arteria facial",
+    "Arteria carótida interna",
+    "Arteria maxilar",
+    "Arteria temporal superficial",
+    "Arteria occipital"
+   ],
+   "answer": 3,
+   "explanation": "La arteritis de células gigantes (temporal) afecta a arterias de mediano y gran calibre, sobre todo ramas de la ACE. La arteria temporal superficial, fácil de palpar delante del trago, es adecuada para la biopsia. Si el tratamiento se retrasa, la afectación de la arteria oftálmica puede causar ceguera permanente.",
+   "entries": [
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-43492b44",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿De qué arteria es rama la arteria cerebelosa posteroinferior (PICA)?",
+   "options": [
+    "Arteria basilar",
+    "Arteria vertebral",
+    "Arteria carótida interna",
+    "Arteria cerebral posterior",
+    "Arteria espinal anterior"
+   ],
+   "answer": 1,
+   "explanation": "La PICA suele ser la mayor rama intracraneal de la arteria vertebral. La AICA y la cerebelosa superior nacen de la basilar, que se divide en el borde superior de la protuberancia en las dos cerebrales posteriores. La oclusión de la PICA produce el síndrome bulbar lateral (de Wallenberg).",
+   "entries": [
+    "a-vertebralis",
+    "circulus-arteriosus",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "cv-0adf4674",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes arterias NO forma parte del polígono de Willis (círculo arterial del cerebro)?",
+   "options": [
+    "Arteria cerebral anterior (segmento A1)",
+    "Arteria comunicante posterior",
+    "Arteria comunicante anterior",
+    "Arteria cerebral posterior (segmento P1)",
+    "Arteria cerebral media"
+   ],
+   "answer": 4,
+   "explanation": "El polígono de Willis lo forman la comunicante anterior, los segmentos A1 de ambas cerebrales anteriores, los extremos de ambas carótidas internas, ambas comunicantes posteriores y los segmentos P1 de ambas cerebrales posteriores. La cerebral media continúa la ACI pero no forma parte del anillo.",
+   "entries": [
+    "circulus-arteriosus",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-11e9072b",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente de 65 años presenta pérdida súbita, indolora y completa de la visión de un ojo. En el fondo de ojo la retina está pálida y la mácula muestra una «mancha rojo cereza». ¿Qué arteria está ocluida?",
+   "options": [
+    "Arteria lagrimal",
+    "Arteria cerebral posterior",
+    "Arteria ciliar posterior larga",
+    "Arteria supraorbitaria",
+    "Arteria central de la retina"
+   ],
+   "answer": 4,
+   "explanation": "La arteria central de la retina es rama de la oftálmica y entra en el ojo por dentro del nervio óptico. Al ser terminal, su oclusión deja isquémicas las capas internas de la retina; la fóvea, nutrida por la coroides, se ve como una mancha roja.",
+   "entries": [
+    "retina",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-6db081fa",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente presenta mareo y visión borrosa tras usar mucho rato el brazo izquierdo; la presión arterial del brazo izquierdo es claramente menor que la del derecho. La angiografía muestra una estenosis en el origen de la subclavia izquierda. ¿Cuál es el mecanismo de los síntomas?",
+   "options": [
+    "Aneurisma de la arteria basilar",
+    "Flujo invertido en la carótida interna izquierda",
+    "Oclusión de la arteria torácica interna",
+    "Oclusión de la arteria vertebral derecha",
+    "Flujo invertido en la arteria vertebral izquierda (síndrome del robo de la subclavia)"
+   ],
+   "answer": 4,
+   "explanation": "Cuando la estenosis está antes del origen de la vertebral, el ejercicio del brazo «roba» sangre al tronco encefálico a través de la vertebral izquierda hacia el brazo; aparecen síntomas de insuficiencia vertebrobasilar.",
+   "entries": [
+    "a-subclavia",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "cv-cf804f79",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": false,
+   "stem": "La arteria más usada como injerto en la cirugía de bypass coronario, con la mejor permeabilidad a largo plazo, es rama de ¿qué arteria?",
+   "options": [
+    "Arteria subclavia (arteria torácica interna)",
+    "Tronco tirocervical",
+    "Arteria axilar (arteria torácica lateral)",
+    "Arteria carótida común",
+    "Aorta descendente (arteria intercostal)"
+   ],
+   "answer": 0,
+   "explanation": "La arteria torácica interna (mamaria interna) nace de la 1.ª porción de la subclavia y desciende cerca del borde del esternón. La anastomosis de la torácica interna izquierda a la DA (AMI–DA) ofrece los mejores resultados a largo plazo.",
+   "entries": [
+    "a-subclavia",
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-94f2afe5",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué arteria NO es rama del tronco tirocervical?",
+   "options": [
+    "Arteria cervical ascendente",
+    "Arteria supraescapular",
+    "Arteria tiroidea inferior",
+    "Arteria tiroidea superior",
+    "Arteria cervical transversa"
+   ],
+   "answer": 3,
+   "explanation": "El tronco tirocervical nace de la subclavia y da la arteria tiroidea inferior (de la que sale la cervical ascendente), la supraescapular y la cervical transversa. La arteria tiroidea superior es la primera rama de la ACE.",
+   "entries": [
+    "a-subclavia",
+    "glandula-thyroidea"
+   ]
+  },
+  {
+   "id": "cv-1a1c0e40",
+   "group": "Arterias del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes es rama de la tercera porción de la arteria axilar?",
+   "options": [
+    "Arteria subescapular",
+    "Arteria toracoacromial",
+    "Arteria torácica lateral",
+    "Arteria torácica interna",
+    "Arteria torácica superior"
+   ],
+   "answer": 0,
+   "explanation": "1.ª porción (por encima del pectoral menor): arteria torácica superior. 2.ª porción (detrás): arterias toracoacromial y torácica lateral. 3.ª porción (por debajo): arteria subescapular y circunflejas humerales anterior y posterior. La arteria torácica interna nace de la subclavia.",
+   "entries": [
+    "a-axillaris",
+    "m-pectoralis-minor"
+   ]
+  },
+  {
+   "id": "cv-04d706e5",
+   "group": "Arterias del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Si se liga la arteria axilar entre el tronco tirocervical y la arteria subescapular, ¿qué red colateral mantiene la irrigación del brazo?",
+   "options": [
+    "Anastomosis periescapular (arterias supraescapular, dorsal de la escápula y circunfleja escapular)",
+    "Arco palmar profundo",
+    "Anastomosis toracoacromial",
+    "Arterias intercostales anteriores",
+    "Anastomosis alrededor del codo"
+   ],
+   "answer": 0,
+   "explanation": "Alrededor de la escápula, ramas de la subclavia (supraescapular y dorsal de la escápula) se anastomosan con la rama subescapular de la axilar (circunfleja escapular). Si la ligadura queda entre estas ramas, el brazo sigue irrigado.",
+   "entries": [
+    "a-axillaris",
+    "a-subclavia",
+    "scapula"
+   ]
+  },
+  {
+   "id": "cv-90c880be",
+   "group": "Arterias del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué arteria discurre con el nervio radial por el surco del nervio radial?",
+   "options": [
+    "Arteria circunfleja humeral posterior",
+    "Arteria colateral cubital superior",
+    "Arteria braquial",
+    "Arteria recurrente radial",
+    "Arteria braquial profunda"
+   ],
+   "answer": 4,
+   "explanation": "La arteria braquial profunda es la mayor rama del brazo y acompaña al nervio radial por el surco de la cara posterior del húmero; irriga el compartimento posterior del brazo y participa en la anastomosis del codo.",
+   "entries": [
+    "a-brachialis",
+    "n-radialis",
+    "humerus"
+   ]
+  },
+  {
+   "id": "cv-2354b9a9",
+   "group": "Arterias del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En la muñeca, ¿lateral a qué tendón se palpa el pulso radial?",
+   "options": [
+    "Flexor radial del carpo",
+    "Flexor cubital del carpo",
+    "Palmar largo",
+    "Braquiorradial",
+    "Abductor largo del pulgar"
+   ],
+   "answer": 0,
+   "explanation": "En la muñeca la arteria radial es superficial delante del extremo distal del radio, lateral al tendón del FCR, y se palpa presionándola contra el hueso. Después cruza el suelo de la tabaquera hacia el dorso de la mano.",
+   "entries": [
+    "a-radialis",
+    "m-flexor-carpi-radialis"
+   ]
+  },
+  {
+   "id": "cv-47f821c9",
+   "group": "Arterias del miembro superior",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Antes de canalizar la arteria radial en cuidados intensivos se hace la prueba de Allen. ¿Cuál es su finalidad?",
+   "options": [
+    "Comprobar si la mano está bien irrigada a través de la arteria cubital y los arcos palmares",
+    "Explorar la función del nervio mediano",
+    "Detectar una estenosis de la arteria braquial",
+    "Medir el grosor de la pared de la arteria radial",
+    "Valorar el retorno venoso"
+   ],
+   "answer": 0,
+   "explanation": "Se comprimen a la vez las arterias radial y cubital hasta que la mano palidece y luego se libera la cubital. Si la mano recupera rápido el color, la cubital y el arco palmar superficial son suficientes y la mano seguirá irrigada aunque se ocluya la radial.",
+   "entries": [
+    "a-ulnaris",
+    "a-radialis",
+    "arcus-palmares"
+   ]
+  },
+  {
+   "id": "cv-f33acf1b",
+   "group": "Arterias del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué arteria forma principalmente el arco palmar superficial?",
+   "options": [
+    "Arteria mediana",
+    "Arteria cubital",
+    "Arteria principal del pulgar",
+    "Arteria interósea anterior",
+    "Arteria radial"
+   ],
+   "answer": 1,
+   "explanation": "El arco palmar superficial es sobre todo la continuación de la arteria cubital, completado por la rama palmar superficial de la radial; el arco palmar profundo lo forma principalmente la radial y está más proximal.",
+   "entries": [
+    "arcus-palmares",
+    "a-ulnaris"
+   ]
+  },
+  {
+   "id": "cv-949621d9",
+   "group": "Arterias del miembro superior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿De qué arteria es rama la arteria interósea común?",
+   "options": [
+    "Arteria braquial",
+    "Arteria radial",
+    "Arteria cubital",
+    "Arteria recurrente radial",
+    "Arteria braquial profunda"
+   ],
+   "answer": 2,
+   "explanation": "Justo por debajo de la fosa del codo la arteria cubital da la interósea común, que se divide en interóseas anterior y posterior, situadas delante y detrás de la membrana interósea.",
+   "entries": [
+    "a-ulnaris"
+   ]
+  },
+  {
+   "id": "cv-182b9c31",
+   "group": "Arterias del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Sobre qué arteria se coloca el fonendoscopio al medir la presión arterial?",
+   "options": [
+    "Arteria axilar",
+    "Arteria radial",
+    "Arteria braquial",
+    "Arteria cubital",
+    "Arteria braquial profunda"
+   ],
+   "answer": 2,
+   "explanation": "El manguito se coloca en el brazo; el fonendoscopio se pone en la fosa del codo sobre la arteria braquial, justo medial al tendón del bíceps. Ahí se auscultan los ruidos de Korotkoff.",
+   "entries": [
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-80e9ff2a",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuáles son las tres ramas del tronco celíaco?",
+   "options": [
+    "Arteria frénica inferior, arteria esplénica, arteria hepática común",
+    "Arteria gástrica izquierda, arteria esplénica, arteria hepática común",
+    "Arteria gástrica derecha, arteria esplénica, arteria hepática propia",
+    "Arteria gástrica izquierda, arteria gastroduodenal, arteria renal",
+    "Arteria gastroduodenal, arteria esplénica, arteria mesentérica superior"
+   ],
+   "answer": 1,
+   "explanation": "El tronco celíaco nace de la cara anterior de la aorta en T12 e irriga los derivados del intestino anterior (esófago abdominal, estómago, parte alta del duodeno, hígado, vesícula biliar, parte del páncreas y bazo).",
+   "entries": [
+    "truncus-coeliacus"
+   ]
+  },
+  {
+   "id": "cv-929f7309",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con antecedentes de úlcera péptica acude con hematemesis masiva. La endoscopia muestra una úlcera sangrante en la cara posterior de la 1.ª porción del duodeno. ¿Qué arteria sangra probablemente?",
+   "options": [
+    "Arteria mesentérica superior",
+    "Arteria gástrica izquierda",
+    "Arteria gastroduodenal",
+    "Arteria esplénica",
+    "Arteria pancreaticoduodenal inferior"
+   ],
+   "answer": 2,
+   "explanation": "La arteria gastroduodenal nace de la hepática común y desciende justo detrás de la 1.ª porción del duodeno. Las úlceras de la cara posterior la erosionan y causan hemorragias graves; las de la cara anterior tienden más a perforarse.",
+   "entries": [
+    "truncus-coeliacus",
+    "duodenum"
+   ]
+  },
+  {
+   "id": "cv-ed78d041",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la arteria esplénica es falsa?",
+   "options": [
+    "Es la mayor rama del tronco celíaco.",
+    "Discurre de forma sinuosa por el borde superior del páncreas.",
+    "Irriga el fundus gástrico mediante las arterias gástricas cortas.",
+    "Llega al bazo por el ligamento esplenorrenal.",
+    "Da la arteria gastroomental (gastroepiploica) derecha."
+   ],
+   "answer": 4,
+   "explanation": "La arteria esplénica da la gastroomental izquierda y las gástricas cortas. La gastroomental derecha es rama de la gastroduodenal; ambas gastroomentales se anastomosan a lo largo de la curvatura mayor del estómago.",
+   "entries": [
+    "truncus-coeliacus",
+    "splen",
+    "gaster"
+   ]
+  },
+  {
+   "id": "cv-9dcf655b",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué territorio irriga la arteria mesentérica superior?",
+   "options": [
+    "El intestino desde la mitad de la porción descendente del duodeno hasta aproximadamente el tercio izquierdo del colon transverso",
+    "Desde el esófago hasta la mitad del duodeno",
+    "Desde el tercio izquierdo del colon transverso hasta la parte alta del recto",
+    "El estómago y el bazo",
+    "Solo el yeyuno y el íleon"
+   ],
+   "answer": 0,
+   "explanation": "La AMS (L1) irriga los derivados del intestino medio: el duodeno distal a la papila mayor, yeyuno, íleon, ciego, apéndice, colon ascendente y los 2/3 proximales del colon transverso. Sus ramas: pancreaticoduodenal inferior, arterias yeyunales e ileales, ileocólica, cólica derecha y cólica media.",
+   "entries": [
+    "a-mesenterica-superior",
+    "intestinum-tenue"
+   ]
+  },
+  {
+   "id": "cv-70883c8c",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tras una pérdida rápida de peso, una mujer joven presenta vómitos intensos e hinchazón después de comer; el duodeno está comprimido entre la aorta y un vaso. ¿Qué vaso es y qué porción del duodeno está afectada?",
+   "options": [
+    "Arteria mesentérica superior – 3.ª porción (horizontal) del duodeno",
+    "Arteria mesentérica inferior – 4.ª porción del duodeno",
+    "Tronco celíaco – 1.ª porción del duodeno",
+    "Arteria renal izquierda – 2.ª porción del duodeno",
+    "Vena porta hepática – 1.ª porción del duodeno"
+   ],
+   "answer": 0,
+   "explanation": "La porción horizontal del duodeno pasa entre la aorta y la AMS a la altura de L3. Cuando se pierde la grasa retroperitoneal, el ángulo entre ambas se cierra y el duodeno queda comprimido (síndrome de la AMS, síndrome de Wilkie).",
+   "entries": [
+    "a-mesenterica-superior",
+    "duodenum",
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-0614100a",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué zona de la irrigación del colon, conocida como «divisoria de aguas», es la más sensible a la isquemia?",
+   "options": [
+    "Parte baja del recto",
+    "Mitad del colon ascendente",
+    "Ciego",
+    "Ángulo hepático del colon",
+    "Ángulo esplénico del colon (unión de los territorios de la AMS y la AMI)"
+   ],
+   "answer": 4,
+   "explanation": "El ángulo esplénico (punto de Griffiths) es donde se encuentran los territorios terminales de la cólica media (AMS) y la cólica izquierda (AMI), y donde la arteria marginal (de Drummond) puede ser débil. La unión rectosigmoidea (punto de Sudeck) es la otra zona crítica.",
+   "entries": [
+    "a-mesenterica-inferior",
+    "a-mesenterica-superior",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "cv-bc394f94",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué arteria, rama terminal de la arteria mesentérica inferior, irriga la parte alta del recto?",
+   "options": [
+    "Arteria sigmoidea",
+    "Arteria rectal superior",
+    "Arteria rectal inferior",
+    "Arteria sacra media",
+    "Arteria rectal media"
+   ],
+   "answer": 1,
+   "explanation": "La AMI (L3) da la arteria cólica izquierda, las sigmoideas y la rectal superior. La rectal media nace de la ilíaca interna y la rectal inferior de la pudenda interna.",
+   "entries": [
+    "a-mesenterica-inferior",
+    "rectum"
+   ]
+  },
+  {
+   "id": "cv-34e1fdec",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre las arterias renales es correcta?",
+   "options": [
+    "La arteria renal derecha pasa por detrás de la vena cava inferior.",
+    "Hay amplias anastomosis entre las arterias segmentarias.",
+    "Nacen de la aorta a la altura de T10.",
+    "Discurren por delante de las venas renales.",
+    "La arteria renal izquierda es más larga que la derecha."
+   ],
+   "answer": 0,
+   "explanation": "Las arterias renales nacen en L1–L2; como la aorta está a la izquierda, la renal derecha es más larga y pasa por detrás de la VCI. En el hilio, de delante atrás: vena, arteria, pelvis. Las arterias segmentarias son terminales.",
+   "entries": [
+    "aa-renales",
+    "ren",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-23038544",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué arteria nace del tronco posterior de la arteria ilíaca interna?",
+   "options": [
+    "Arteria glútea superior",
+    "Arteria uterina",
+    "Arteria glútea inferior",
+    "Arteria obturatriz",
+    "Arteria pudenda interna"
+   ],
+   "answer": 0,
+   "explanation": "El tronco posterior da la arteria iliolumbar, las sacras laterales y la glútea superior. El tronco anterior da las ramas viscerales (umbilical, vesical inferior/vaginal, uterina, rectal media) y las parietales (obturatriz, pudenda interna, glútea inferior).",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-20f3067b",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué arteria es rama la arteria epigástrica inferior?",
+   "options": [
+    "Arteria ilíaca interna",
+    "Arteria obturatriz",
+    "Arteria ilíaca externa",
+    "Arteria femoral",
+    "Arteria torácica interna"
+   ],
+   "answer": 2,
+   "explanation": "La arteria epigástrica inferior nace de la ilíaca externa justo por encima del ligamento inguinal, asciende medial al anillo inguinal profundo y se anastomosa en la vaina de los rectos con la epigástrica superior (rama de la torácica interna).",
+   "entries": [
+    "a-iliaca-communis",
+    "m-rectus-abdominis"
+   ]
+  },
+  {
+   "id": "cv-f36779f3",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la bifurcación de la arteria ilíaca común es correcta?",
+   "options": [
+    "Se produce delante de la articulación sacroilíaca y el uréter suele cruzar aquí los vasos ilíacos.",
+    "Se produce en L1, en el hilio de los riñones.",
+    "Después de este punto la arteria ilíaca interna desciende al muslo.",
+    "El conducto deferente pasa por detrás de la bifurcación.",
+    "La vena cava inferior pasa por delante de este punto."
+   ],
+   "answer": 0,
+   "explanation": "Las ilíacas comunes se dividen en interna y externa delante de la articulación sacroilíaca. En el estrecho superior de la pelvis el uréter pasa por delante de esta bifurcación; es uno de los estrechamientos fisiológicos del uréter, donde se enclavan los cálculos.",
+   "entries": [
+    "a-iliaca-communis",
+    "ureter"
+   ]
+  },
+  {
+   "id": "cv-6134b2af",
+   "group": "Arterias del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se palpa mejor el pulso femoral?",
+   "options": [
+    "A la altura del hiato aductor",
+    "Justo por encima del tubérculo del pubis",
+    "Detrás del trocánter mayor",
+    "En la mitad del muslo, en el borde lateral del sartorio",
+    "Bajo el ligamento inguinal, a medio camino entre la EIAS y la sínfisis del pubis (punto medioinguinal)"
+   ],
+   "answer": 4,
+   "explanation": "La arteria femoral entra en el triángulo femoral bajo el ligamento inguinal y se palpa en el punto medioinguinal presionándola contra el hueso (cabeza femoral, pubis). Es la arteria más usada para cateterismo; la vena está justo medial.",
+   "entries": [
+    "a-femoralis",
+    "trigonum-femorale"
+   ]
+  },
+  {
+   "id": "cv-dba30b16",
+   "group": "Arterias del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuáles son las ramas de la arteria femoral profunda?",
+   "options": [
+    "Arterias pudenda externa y epigástrica inferior",
+    "Arterias circunfleja femoral medial, circunfleja femoral lateral y perforantes",
+    "Arteria descendente de la rodilla y arteria poplítea",
+    "Arterias epigástrica superficial y circunfleja ilíaca superficial",
+    "Arterias obturatriz y glútea inferior"
+   ],
+   "answer": 1,
+   "explanation": "La femoral profunda es la principal arteria del muslo; las dos circunflejas irrigan la región de la cadera y las perforantes el compartimento posterior del muslo. La circunfleja medial es la principal fuente de la cabeza femoral.",
+   "entries": [
+    "a-femoralis",
+    "femur"
+   ]
+  },
+  {
+   "id": "cv-d4ddc968",
+   "group": "Arterias del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el orden de las estructuras de la fosa poplítea de superficial a profundo?",
+   "options": [
+    "Vena poplítea – nervio tibial – arteria poplítea",
+    "Arteria poplítea – nervio tibial – vena poplítea",
+    "Arteria poplítea – vena poplítea – nervio tibial",
+    "Nervio tibial – vena poplítea – arteria poplítea",
+    "Nervio tibial – arteria poplítea – vena poplítea"
+   ],
+   "answer": 3,
+   "explanation": "En la fosa poplítea el nervio es lo más superficial, la vena está en medio y la arteria es lo más profundo (contra el fémur y la cápsula de la rodilla). Por eso el pulso poplíteo se palpa presionando en profundidad con la rodilla algo flexionada, y la arteria puede lesionarse en las fracturas supracondíleas del fémur.",
+   "entries": [
+    "a-poplitea",
+    "fossa-poplitea",
+    "n-tibialis"
+   ]
+  },
+  {
+   "id": "cv-eefdaca9",
+   "group": "Arterias del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se palpa mejor el pulso de la arteria dorsal del pie?",
+   "options": [
+    "En la base del 5.º metatarsiano",
+    "Detrás del maléolo medial",
+    "En la cara medial del talón",
+    "Delante del maléolo lateral",
+    "En el dorso del pie, lateral al tendón del extensor largo del dedo gordo"
+   ],
+   "answer": 4,
+   "explanation": "La arteria dorsal del pie continúa la tibial anterior; en el dorso del pie se palpa justo lateral al tendón del EHL, entre el 1.er y el 2.º metatarsiano. Es uno de los primeros pulsos que se pierden en la enfermedad arterial periférica.",
+   "entries": [
+    "a-dorsalis-pedis",
+    "a-tibialis-anterior",
+    "m-extensor-hallucis-longus"
+   ]
+  },
+  {
+   "id": "cv-c38d2770",
+   "group": "Arterias del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿De qué arteria es rama la arteria fibular (peronea)?",
+   "options": [
+    "Arteria tibial posterior",
+    "Rama directa de la arteria poplítea",
+    "Arteria dorsal del pie",
+    "Arteria femoral",
+    "Arteria tibial anterior"
+   ],
+   "answer": 0,
+   "explanation": "La tibial posterior da la arteria fibular en la parte alta de la pierna; esta discurre cerca del peroné e irriga los músculos del compartimento lateral mediante ramas perforantes. El colgajo libre de peroné se levanta sobre esta arteria.",
+   "entries": [
+    "a-tibialis-posterior",
+    "fibula"
+   ]
+  },
+  {
+   "id": "cv-86d9b694",
+   "group": "Arterias del miembro inferior",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué arterias participan en la anastomosis cruciforme de la región de la cadera?",
+   "options": [
+    "Arterias iliolumbar y sacras laterales",
+    "Arterias glútea superior, obturatriz y pudenda interna",
+    "Arteria glútea inferior, circunflejas femorales medial y lateral y 1.ª perforante",
+    "Arterias epigástrica inferior y obturatriz",
+    "Ramas geniculadas de la arteria poplítea"
+   ],
+   "answer": 2,
+   "explanation": "La anastomosis cruciforme está detrás del fémur a la altura del trocánter menor y forma una vía colateral entre los sistemas de la ilíaca interna y la femoral. Es importante en la oclusión proximal de la arteria femoral.",
+   "entries": [
+    "a-femoralis",
+    "femur"
+   ]
+  },
+  {
+   "id": "cv-d936dd1e",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "En un paciente en shock en el que no se encuentra ninguna vena periférica, ¿qué vena es el lugar más fiable para una venodisección urgente?",
+   "options": [
+    "Vena yugular externa – en el cuello",
+    "Vena safena mayor – delante del maléolo medial",
+    "Vena safena menor – detrás del maléolo lateral",
+    "Vena cefálica – en el surco deltopectoral",
+    "Vena basílica – en la cara medial del codo"
+   ],
+   "answer": 1,
+   "explanation": "La vena safena mayor es constante y superficial justo delante del maléolo medial, por lo que es el lugar clásico de la venodisección. Aquí el nervio safeno acompaña a la vena y debe protegerse.",
+   "entries": [
+    "v-saphena-magna"
+   ]
+  },
+  {
+   "id": "cv-0c9c8933",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué vena desemboca la vena safena mayor?",
+   "options": [
+    "Vena ilíaca interna",
+    "Vena femoral (en el hiato safeno)",
+    "Vena femoral profunda",
+    "Vena ilíaca externa",
+    "Vena poplítea"
+   ],
+   "answer": 1,
+   "explanation": "La vena safena mayor asciende por la cara medial del muslo y atraviesa la fascia lata por el hiato safeno, unos 3–4 cm por debajo y lateral al tubérculo del pubis, para desembocar en la vena femoral. Se usa como injerto en el bypass coronario.",
+   "entries": [
+    "v-saphena-magna",
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-99cfaed4",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la vena safena menor es correcta?",
+   "options": [
+    "Discurre bajo la fascia profunda, dentro del músculo.",
+    "Pasa por delante del maléolo medial.",
+    "Desemboca en la vena femoral.",
+    "Pasa por detrás del maléolo lateral y suele desembocar en la vena poplítea.",
+    "Discurre con el nervio safeno."
+   ],
+   "answer": 3,
+   "explanation": "La vena safena menor nace en el borde lateral del pie, asciende por detrás del maléolo lateral hasta la línea media de la pantorrilla y desemboca en la vena poplítea en la fosa poplítea. En la pantorrilla la acompaña el nervio sural.",
+   "entries": [
+    "v-saphena-parva",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "cv-efdf82fd",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué nivel se forma la vena cava inferior y a qué nivel atraviesa el diafragma?",
+   "options": [
+    "Se forma en L5 y atraviesa el diafragma en T8.",
+    "Se forma en L1 y atraviesa el diafragma en T10.",
+    "Se forma en S1 y atraviesa el diafragma en T10.",
+    "Se forma en L4 y atraviesa el diafragma en T12.",
+    "Se forma en L3 y atraviesa el diafragma en T8."
+   ],
+   "answer": 0,
+   "explanation": "Las dos venas ilíacas comunes se unen en L5, a la derecha y algo por debajo de la bifurcación aórtica, para formar la VCI. La VCI atraviesa el orificio de la vena cava del centro tendinoso del diafragma (T8).",
+   "entries": [
+    "v-cava-inferior",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "cv-147eede0",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué vena desemboca en la vena cava superior por su cara posterior derecha?",
+   "options": [
+    "Vena hemiácigos",
+    "Vena subclavia derecha",
+    "Vena torácica interna",
+    "Vena yugular externa",
+    "Vena ácigos"
+   ],
+   "answer": 4,
+   "explanation": "La vena ácigos forma un arco sobre el hilio del pulmón derecho en T4 para desembocar en la VCS. Recoge las venas intercostales posteriores, esofágicas y bronquiales; es una vía colateral importante cuando se obstruye la VCI.",
+   "entries": [
+    "v-azygos",
+    "v-cava-superior"
+   ]
+  },
+  {
+   "id": "cv-799fea3d",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde y por la unión de qué venas se forma la vena porta hepática?",
+   "options": [
+    "En el hilio hepático, por la unión de las venas hepáticas derecha e izquierda",
+    "En la curvatura menor del estómago, por la unión de las venas gástricas derecha e izquierda",
+    "Detrás del cuello del páncreas, por la unión de la vena mesentérica superior y la vena esplénica",
+    "Delante del duodeno, por la unión de la vena gástrica izquierda y la esplénica",
+    "Detrás de la cola del páncreas, por la unión de la vena renal y la esplénica"
+   ],
+   "answer": 2,
+   "explanation": "La vena porta se forma en L1–L2 detrás del cuello del páncreas; la mesentérica inferior suele desembocar en la esplénica. La vena asciende por el ligamento hepatoduodenal, por detrás de la vía biliar y la arteria hepática.",
+   "entries": [
+    "v-portae-hepatis",
+    "pancreas"
+   ]
+  },
+  {
+   "id": "cv-0cf94980",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con cirrosis alcohólica llega con hematemesis masiva; presenta venas dilatadas alrededor del ombligo (cabeza de medusa) y hemorroides. ¿Qué anastomosis portocava es el origen de la hemorragia?",
+   "options": [
+    "Anastomosis entre la vena cólica izquierda y la vena renal",
+    "Anastomosis entre las venas rectales superior y media",
+    "Anastomosis entre las venas paraumbilicales y la epigástrica superficial",
+    "Anastomosis entre la vena gástrica izquierda y las venas esofágicas (sistema ácigos)",
+    "Anastomosis entre la vena esplénica y la renal izquierda"
+   ],
+   "answer": 3,
+   "explanation": "En la hipertensión portal la sangre pasa a las venas sistémicas por colaterales: varices esofágicas en el esófago inferior (su hemorragia puede ser mortal), varices rectales en la región anorrectal, cabeza de medusa alrededor del ombligo y anastomosis retroperitoneales.",
+   "entries": [
+    "v-portae-hepatis",
+    "oesophagus",
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "cv-0f81ede0",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En el cuello, ¿cuál es la posición de la vena yugular interna respecto a la arteria carótida común?",
+   "options": [
+    "Fuera de la vaina carotídea, sobre el ECM",
+    "Medial a la arteria, cerca de la tráquea",
+    "Dentro de la vaina carotídea, lateral a la arteria",
+    "Detrás de la arteria, bajo la fascia prevertebral",
+    "Delante de la arteria, dentro de la glándula tiroides"
+   ],
+   "answer": 2,
+   "explanation": "En la vaina carotídea la carótida común es medial, la yugular interna lateral y el nervio vago está detrás de ambas. Al colocar una vía central se busca la vena en el triángulo entre las dos cabezas del ECM, lateral a la arteria.",
+   "entries": [
+    "v-jugularis-interna",
+    "a-carotis-communis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "cv-90f888e4",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Al observar la presión venosa yugular, ¿qué vena visible en el cuello cruza superficialmente el ECM?",
+   "options": [
+    "Vena facial",
+    "Vena vertebral",
+    "Vena tiroidea media",
+    "Vena yugular externa",
+    "Vena yugular interna"
+   ],
+   "answer": 3,
+   "explanation": "La vena yugular externa desciende oblicuamente sobre el ECM y desemboca en la subclavia por encima de la clavícula. Se ingurgita en la insuficiencia cardíaca derecha. No obstante, la presión venosa yugular se valora propiamente en la yugular interna.",
+   "entries": [
+    "v-jugularis-externa",
+    "m-sternocleidomastoideus"
+   ]
+  },
+  {
+   "id": "cv-8f6a9c14",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es la complicación grave más frecuente del cateterismo de la vena subclavia y por qué?",
+   "options": [
+    "Hemopericardio, porque la vena se abre directamente en el pericardio",
+    "No hay embolia gaseosa porque la vena tiene válvulas.",
+    "Parálisis del frénico, porque el nervio atraviesa la vena",
+    "Neumotórax, porque la cúpula pleural está justo detrás y debajo de la vena",
+    "Quilotórax, porque el conducto torácico está a la derecha"
+   ],
+   "answer": 3,
+   "explanation": "La vena subclavia discurre entre la clavícula y la 1.ª costilla, delante del escaleno anterior. La pleura y el vértice pulmonar están justo detrás, de modo que si la aguja avanza demasiado se produce un neumotórax. Como el conducto torácico desemboca en el ángulo venoso izquierdo, la punción izquierda conlleva riesgo de quilotórax.",
+   "entries": [
+    "v-subclavia",
+    "pleura"
+   ]
+  },
+  {
+   "id": "cv-f04b527e",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué vena superficial de la flexura del codo se usa con más frecuencia para extraer sangre?",
+   "options": [
+    "Vena axilar",
+    "Vena cefálica",
+    "Vena mediana cubital",
+    "Vena braquial",
+    "Vena basílica"
+   ],
+   "answer": 2,
+   "explanation": "La vena mediana cubital une la cefálica con la basílica y descansa sobre la aponeurosis bicipital, que protege la arteria braquial y el nervio mediano situados debajo.",
+   "entries": [
+    "vv-membri-superioris"
+   ]
+  },
+  {
+   "id": "cv-09c0276c",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde desemboca la vena cefálica en una vena profunda?",
+   "options": [
+    "En la vena braquial en el codo",
+    "En la vena basílica en la axila",
+    "En la vena braquial a mitad del brazo",
+    "En la vena axilar, tras pasar por el surco deltopectoral",
+    "En la vena yugular externa en el cuello"
+   ],
+   "answer": 3,
+   "explanation": "La vena cefálica asciende por el lado lateral del antebrazo y el brazo y, por el surco entre deltoides y pectoral mayor, perfora la fascia clavipectoral para desembocar en la vena axilar. La basílica, en cambio, perfora la fascia profunda a mitad del brazo y forma la vena axilar con las venas braquiales.",
+   "entries": [
+    "vv-membri-superioris"
+   ]
+  },
+  {
+   "id": "cv-9d3e524c",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué opción describe correctamente el drenaje de la sangre venosa dentro del cráneo?",
+   "options": [
+    "Seno sagital inferior → seno cavernoso → vena yugular externa",
+    "Seno transverso → seno sagital superior → vena vertebral",
+    "Seno cavernoso → seno recto → vena yugular externa",
+    "Seno sigmoideo → seno transverso → confluencia de los senos → vena yugular interna",
+    "Seno sagital superior → confluencia de los senos → seno transverso → seno sigmoideo → vena yugular interna"
+   ],
+   "answer": 4,
+   "explanation": "Los senos durales recogen la sangre del encéfalo, las meninges y el cráneo. El seno sagital superior contiene además las granulaciones donde se reabsorbe el LCR. El seno sigmoideo se continúa con la yugular interna en el agujero yugular.",
+   "entries": [
+    "sinus-durae-matris",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-b1671c8b",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Dónde desemboca la vena testicular izquierda y qué importancia clínica tiene?",
+   "options": [
+    "En la vena ilíaca interna, por lo que produce hemorroides.",
+    "En la vena cava inferior, por lo que no hay varicocele izquierdo.",
+    "En la vena ácigos, por lo que produce dolor torácico.",
+    "En la vena porta, por lo que se dilata en la hipertensión portal.",
+    "En la vena renal izquierda, por lo que el varicocele es más frecuente en el lado izquierdo."
+   ],
+   "answer": 4,
+   "explanation": "La vena testicular derecha desemboca oblicuamente en la VCI y la izquierda en ángulo recto en la vena renal izquierda. Además, la renal izquierda puede comprimirse entre la aorta y la AMS (cascanueces). Por eso la dilatación del plexo pampiniforme (varicocele) es sobre todo izquierda.",
+   "entries": [
+    "testis",
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-51ef5367",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la vena renal izquierda es falsa?",
+   "options": [
+    "Pasa entre la arteria mesentérica superior y la aorta.",
+    "Su compresión entre la aorta y la AMS produce el síndrome del «cascanueces».",
+    "Recibe las venas gonadal y suprarrenal izquierdas.",
+    "Pasa por detrás de la aorta para desembocar en la vena cava inferior.",
+    "Es más larga que la vena renal derecha."
+   ],
+   "answer": 3,
+   "explanation": "La vena renal izquierda pasa normalmente por delante de la aorta, justo por debajo de la AMS. La vena renal izquierda retroaórtica es una variante rara. Por la longitud de su vena, el riñón izquierdo suele preferirse para el trasplante.",
+   "entries": [
+    "ren",
+    "aorta",
+    "a-mesenterica-superior"
+   ]
+  },
+  {
+   "id": "cv-25ce6332",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué vía tiene el papel principal en la propagación de las infecciones del «triángulo peligroso» de la cara al seno cavernoso?",
+   "options": [
+    "Vena temporal superficial → seno sagital superior",
+    "Plexo pterigoideo → vena maxilar → vena yugular externa",
+    "Vena retromandibular → vena yugular externa",
+    "Vena facial → vena yugular interna → seno sigmoideo",
+    "Vena facial → vena angular → vena oftálmica superior"
+   ],
+   "answer": 4,
+   "explanation": "En el ángulo interno del ojo, la vena angular, origen de la vena facial, comunica con la vena oftálmica superior, que no tiene válvulas. Las infecciones alrededor de la nariz y el labio superior pueden llegar por esta vía al seno cavernoso y causar tromboflebitis.",
+   "entries": [
+    "sinus-durae-matris",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-98cd4a4d",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la vena braquiocefálica izquierda es correcta?",
+   "options": [
+    "Es más larga que la derecha y pasa oblicuamente por delante de las ramas del cayado aórtico.",
+    "Es más corta que la derecha y desciende verticalmente.",
+    "Desemboca directamente en la aurícula derecha.",
+    "Pasa por detrás de la aorta.",
+    "Recibe la vena ácigos."
+   ],
+   "answer": 0,
+   "explanation": "A cada lado, las venas yugular interna y subclavia se unen detrás de la articulación esternoclavicular para formar las venas braquiocefálicas. La braquiocefálica izquierda cruza hacia la derecha por detrás del manubrio y se une a la derecha para formar la VCS. El conducto torácico desemboca en el ángulo venoso izquierdo.",
+   "entries": [
+    "v-cava-superior",
+    "v-subclavia",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-a877168d",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántas cavidades tiene el corazón?",
+   "options": [
+    "3",
+    "6",
+    "5",
+    "4 (dos aurículas, dos ventrículos)",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "El corazón tiene dos aurículas y dos ventrículos. El lado derecho bombea sangre desoxigenada a los pulmones y el izquierdo sangre oxigenada al cuerpo.",
+   "entries": [
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-94d9d190",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el saco de doble capa que rodea el corazón?",
+   "options": [
+    "Pleura",
+    "Peritoneo",
+    "Pericardio",
+    "Endocardio",
+    "Miocardio"
+   ],
+   "answer": 2,
+   "explanation": "El pericardio es un saco con una capa fibrosa externa y una serosa interna (parietal y visceral). El endocardio tapiza el interior del corazón y el miocardio es el músculo cardíaco.",
+   "entries": [
+    "pericardium"
+   ]
+  },
+  {
+   "id": "cv-3db2d7ed",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué válvula está entre la aurícula derecha y el ventrículo derecho?",
+   "options": [
+    "Válvula aórtica",
+    "Válvula mitral",
+    "Válvula pulmonar",
+    "Válvula de Eustaquio",
+    "Válvula tricúspide"
+   ],
+   "answer": 4,
+   "explanation": "La válvula auriculoventricular derecha tiene tres valvas (tricúspide). Entre la aurícula y el ventrículo izquierdos está la válvula mitral, de dos valvas.",
+   "entries": [
+    "valvae-cordis",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-d1d99274",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué válvula está entre la aurícula izquierda y el ventrículo izquierdo?",
+   "options": [
+    "Válvula aórtica",
+    "Válvula tricúspide",
+    "Válvula pulmonar",
+    "Válvula de Tebesio",
+    "Válvula mitral (bicúspide)"
+   ],
+   "answer": 4,
+   "explanation": "La mitral tiene dos valvas, anterior y posterior, unidas por cuerdas tendinosas a los músculos papilares del ventrículo izquierdo.",
+   "entries": [
+    "valvae-cordis",
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-26a232bf",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué cavidad cardíaca tiene la pared más gruesa?",
+   "options": [
+    "Las cuatro cavidades tienen igual pared",
+    "Aurícula derecha",
+    "Ventrículo derecho",
+    "Ventrículo izquierdo",
+    "Aurícula izquierda"
+   ],
+   "answer": 3,
+   "explanation": "El ventrículo izquierdo tiene la pared más gruesa porque bombea la sangre a alta presión a todo el cuerpo; es unas tres veces más gruesa que la del derecho.",
+   "entries": [
+    "ventriculus-sinister"
+   ]
+  },
+  {
+   "id": "cv-d6a24725",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué cavidad forma la punta (ápex) del corazón?",
+   "options": [
+    "Ventrículo izquierdo",
+    "Ventrículo derecho",
+    "Aurícula izquierda",
+    "Aurícula derecha",
+    "Orejuela izquierda"
+   ],
+   "answer": 0,
+   "explanation": "El ápex del corazón lo forma el ventrículo izquierdo y se palpa en el 5.º espacio intercostal izquierdo, justo medial a la línea medioclavicular (latido de la punta).",
+   "entries": [
+    "ventriculus-sinister",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-412b75c1",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llaman las arterias que irrigan el músculo cardíaco?",
+   "options": [
+    "Arterias bronquiales",
+    "Arterias intercostales",
+    "Arterias pulmonares",
+    "Arterias coronarias",
+    "Arterias pericardiofrénicas"
+   ],
+   "answer": 3,
+   "explanation": "Las coronarias derecha e izquierda nacen de los senos aórticos en la raíz de la aorta ascendente e irrigan la pared cardíaca; su oclusión causa infarto de miocardio.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-7d873071",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el marcapasos natural del corazón?",
+   "options": [
+    "Haz de His",
+    "Nodo sinoauricular (SA)",
+    "Banda moderadora",
+    "Fibras de Purkinje",
+    "Nodo auriculoventricular (AV)"
+   ],
+   "answer": 1,
+   "explanation": "El nodo SA está en la aurícula derecha junto a la desembocadura de la vena cava superior e inicia el latido. El impulso pasa luego al nodo AV, al haz de His, sus ramas y las fibras de Purkinje.",
+   "entries": [
+    "cor",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-05cc936f",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿De qué cavidad cardíaca parte la circulación pulmonar?",
+   "options": [
+    "Seno coronario",
+    "Ventrículo derecho",
+    "Ventrículo izquierdo",
+    "Aurícula derecha",
+    "Aurícula izquierda"
+   ],
+   "answer": 1,
+   "explanation": "La circulación pulmonar parte del ventrículo derecho por el tronco pulmonar y termina en la aurícula izquierda por las venas pulmonares. La sistémica parte del ventrículo izquierdo por la aorta.",
+   "entries": [
+    "ventriculus-dexter",
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-ec83a847",
+   "group": "Aorta y sus ramas",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es la arteria más grande que distribuye la sangre oxigenada a todo el cuerpo?",
+   "options": [
+    "Arteria carótida común",
+    "Vena cava inferior",
+    "Tronco pulmonar",
+    "Arteria subclavia",
+    "Aorta"
+   ],
+   "answer": 4,
+   "explanation": "La aorta sale del ventrículo izquierdo; con sus porciones ascendente, cayado, torácica y abdominal lleva sangre a toda la circulación sistémica.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-7e929d6e",
+   "group": "Corazón",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué vaso lleva la sangre desoxigenada del corazón a los pulmones?",
+   "options": [
+    "Aorta",
+    "Tronco pulmonar (arteria pulmonar)",
+    "Vena cava superior",
+    "Arterias bronquiales",
+    "Venas pulmonares"
+   ],
+   "answer": 1,
+   "explanation": "Las arterias pulmonares son las únicas arterias que llevan sangre desoxigenada; salen del ventrículo derecho hacia los pulmones.",
+   "entries": [
+    "truncus-pulmonalis"
+   ]
+  },
+  {
+   "id": "cv-98ef52a0",
+   "group": "Venas",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué venas llevan sangre oxigenada?",
+   "options": [
+    "Venas yugulares",
+    "Venas pulmonares",
+    "Vena porta",
+    "Venas cavas superior e inferior",
+    "Venas coronarias"
+   ],
+   "answer": 1,
+   "explanation": "Las venas pulmonares llevan la sangre oxigenada de los pulmones a la aurícula izquierda; son las únicas venas que transportan sangre oxigenada.",
+   "entries": [
+    "vv-pulmonales"
+   ]
+  },
+  {
+   "id": "cv-37cfee07",
+   "group": "Aorta y sus ramas",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama la parte de la aorta que se curva hacia la izquierda y atrás tras salir del corazón?",
+   "options": [
+    "Aorta ascendente",
+    "Aorta descendente",
+    "Bulbo aórtico",
+    "Cayado (arco) de la aorta",
+    "Bifurcación aórtica"
+   ],
+   "answer": 3,
+   "explanation": "Tras ascender, la aorta se curva hacia atrás sobre el bronquio principal izquierdo a la altura de T4 y forma el cayado; de él salen tres grandes ramas para la cabeza, el cuello y los brazos.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-94dfc545",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué arteria se toma el pulso en el cuello?",
+   "options": [
+    "Arteria subclavia",
+    "Arteria carótida común",
+    "Arteria vertebral",
+    "Vena yugular interna",
+    "Arteria tiroidea superior"
+   ],
+   "answer": 1,
+   "explanation": "El pulso carotídeo se toma a la altura del cartílago tiroides, en el borde anterior del esternocleidomastoideo; en urgencias es el pulso central más fiable.",
+   "entries": [
+    "a-carotis-communis"
+   ]
+  },
+  {
+   "id": "cv-f01b4115",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué arteria del cuello irriga las partes anterior y media del cerebro y el ojo?",
+   "options": [
+    "Arteria carótida externa",
+    "Arteria subclavia",
+    "Arteria vertebral",
+    "Arteria carótida interna",
+    "Arteria facial"
+   ],
+   "answer": 3,
+   "explanation": "La carótida interna entra en el cráneo sin dar ramas en el cuello; irriga el ojo por la arteria oftálmica y la mayor parte de los hemisferios por las cerebrales anterior y media.",
+   "entries": [
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "cv-8d543b43",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el anillo arterial de la base del cerebro que une los sistemas carotídeo y vertebrobasilar?",
+   "options": [
+    "Arco palmar",
+    "Polígono de Willis (círculo arterial del cerebro)",
+    "Arco venoso",
+    "Seno cavernoso",
+    "Cayado de la aorta"
+   ],
+   "answer": 1,
+   "explanation": "El polígono de Willis une las circulaciones anterior y posterior y puede aportar flujo colateral si se ocluye una arteria; la mayoría de los aneurismas cerebrales se forman en este anillo.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-40ea677c",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿La arteria basilar se forma por la unión de qué arterias?",
+   "options": [
+    "Carótida interna y arteria vertebral",
+    "Las dos arterias vertebrales",
+    "Las dos carótidas internas",
+    "Las dos subclavias",
+    "Las dos cerebrales posteriores"
+   ],
+   "answer": 1,
+   "explanation": "Las vertebrales derecha e izquierda se unen en el límite entre puente y bulbo para formar la basilar, que irriga el tronco del encéfalo, el cerebelo y el lóbulo occipital.",
+   "entries": [
+    "a-vertebralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-02933170",
+   "group": "Arterias del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué dos ramas se divide la arteria braquial delante del codo?",
+   "options": [
+    "Arterias radial y cubital",
+    "Arteria braquial profunda y arteria radial",
+    "Arterias axilar y subclavia",
+    "Arcos palmares superficial y profundo",
+    "Arterias interóseas anterior y posterior"
+   ],
+   "answer": 0,
+   "explanation": "La braquial se divide en la fosa cubital, a la altura del cuello del radio, en las arterias radial y cubital.",
+   "entries": [
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-0111f3a8",
+   "group": "Arterias del miembro superior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué arteria se toma con más frecuencia el pulso en la muñeca?",
+   "options": [
+    "Arteria interósea anterior",
+    "Arteria cubital",
+    "Arco palmar superficial",
+    "Arteria radial",
+    "Arteria braquial"
+   ],
+   "answer": 3,
+   "explanation": "El pulso radial se palpa fácilmente en el lado del pulgar de la muñeca, sobre el extremo inferior del radio.",
+   "entries": [
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "cv-b50a69cf",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué arterias se divide la aorta abdominal en su extremo inferior?",
+   "options": [
+    "Arterias femorales",
+    "Arterias ilíacas comunes",
+    "Arterias mesentéricas superior e inferior",
+    "Arterias ilíacas internas",
+    "Arterias renales"
+   ],
+   "answer": 1,
+   "explanation": "La aorta abdominal se divide a la altura de L4 en las ilíacas comunes derecha e izquierda, que a su vez se dividen en ilíacas internas y externas.",
+   "entries": [
+    "aorta",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-a0f7e29b",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué arterias irrigan los riñones?",
+   "options": [
+    "Arterias lumbares",
+    "Arterias suprarrenales",
+    "Arterias renales",
+    "Arterias testiculares",
+    "Arteria mesentérica superior"
+   ],
+   "answer": 2,
+   "explanation": "Las arterias renales nacen a ambos lados de la aorta abdominal a la altura de L1–L2; alrededor de una quinta parte del gasto cardíaco va a los riñones.",
+   "entries": [
+    "aa-renales"
+   ]
+  },
+  {
+   "id": "cv-b6985d99",
+   "group": "Arterias del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es la arteria principal del muslo?",
+   "options": [
+    "Arteria ilíaca interna",
+    "Arteria obturatriz",
+    "Arteria tibial anterior",
+    "Arteria femoral",
+    "Arteria poplítea"
+   ],
+   "answer": 3,
+   "explanation": "La ilíaca externa pasa a llamarse femoral tras cruzar bajo el ligamento inguinal; recorre todo el muslo y se convierte en poplítea detrás de la rodilla.",
+   "entries": [
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "cv-82eb6ab5",
+   "group": "Arterias del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuáles son las ramas terminales de la arteria poplítea?",
+   "options": [
+    "Arterias tibiales anterior y posterior",
+    "Arterias dorsal del pie y peronea",
+    "Arterias femoral y femoral profunda",
+    "Arterias geniculares superiores",
+    "Arterias plantares medial y lateral"
+   ],
+   "answer": 0,
+   "explanation": "La poplítea se divide en el borde inferior del músculo poplíteo en las tibiales anterior y posterior; la peronea nace de la tibial posterior.",
+   "entries": [
+    "a-poplitea"
+   ]
+  },
+  {
+   "id": "cv-2167b2de",
+   "group": "Arterias del miembro inferior",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Dónde se toma el pulso tibial posterior?",
+   "options": [
+    "Detrás de la rodilla",
+    "Delante del maléolo lateral",
+    "Detrás del maléolo medial",
+    "En la ingle",
+    "En el dorso del pie"
+   ],
+   "answer": 2,
+   "explanation": "La tibial posterior es superficial entre el maléolo medial y el tendón de Aquiles; ahí se toma su pulso.",
+   "entries": [
+    "a-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "cv-d0b5e87d",
+   "group": "Venas",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es la vena más grande del cuerpo?",
+   "options": [
+    "Vena yugular interna",
+    "Vena cava inferior",
+    "Vena porta hepática",
+    "Vena cava superior",
+    "Vena femoral"
+   ],
+   "answer": 1,
+   "explanation": "La vena cava inferior lleva a la aurícula derecha la sangre de todas las regiones por debajo del diafragma; es la vena más grande del cuerpo.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-ad43d739",
+   "group": "Venas",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué vena principal lleva al corazón la sangre de la cabeza, el cuello y los brazos?",
+   "options": [
+    "Seno coronario",
+    "Vena ácigos",
+    "Vena porta hepática",
+    "Vena cava superior",
+    "Vena cava inferior"
+   ],
+   "answer": 3,
+   "explanation": "La vena cava superior se forma por la unión de las dos braquiocefálicas y lleva a la aurícula derecha la sangre de las regiones por encima del diafragma.",
+   "entries": [
+    "v-cava-superior"
+   ]
+  },
+  {
+   "id": "cv-7aff291e",
+   "group": "Venas",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es la vena más larga del cuerpo?",
+   "options": [
+    "Vena safena menor",
+    "Vena cava inferior",
+    "Vena cefálica",
+    "Vena femoral",
+    "Vena safena mayor"
+   ],
+   "answer": 4,
+   "explanation": "La safena mayor es la vena superficial que recorre la cara medial del miembro inferior desde el dorso del pie hasta la ingle; es la vena más larga del cuerpo.",
+   "entries": [
+    "v-saphena-magna"
+   ]
+  },
+  {
+   "id": "cv-a4e595f7",
+   "group": "Venas",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué vena lleva al hígado la sangre rica en nutrientes del tubo digestivo?",
+   "options": [
+    "Vena renal",
+    "Venas hepáticas",
+    "Vena cava inferior",
+    "Vena porta hepática",
+    "Vena ácigos"
+   ],
+   "answer": 3,
+   "explanation": "La vena porta lleva al hígado la sangre del estómago, el intestino, el bazo y el páncreas; la sangre filtrada por el hígado vuelve a la VCI por las venas hepáticas.",
+   "entries": [
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-eec7bdee",
+   "group": "Venas",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué estructura impide el reflujo de la sangre en las venas?",
+   "options": [
+    "Válvulas venosas",
+    "Membrana elástica",
+    "Gruesa capa muscular de la túnica media",
+    "Esfínteres precapilares",
+    "Músculos papilares"
+   ],
+   "answer": 0,
+   "explanation": "Las válvulas, sobre todo en las venas de las piernas, hacen que la sangre fluya en un solo sentido hacia el corazón. Su insuficiencia produce varices.",
+   "entries": [
+    "v-saphena-magna",
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-a92d99f7",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué fase del ciclo cardíaco se llenan más las arterias coronarias?",
+   "options": [
+    "Eyección",
+    "Sístole auricular",
+    "Sístole",
+    "Diástole",
+    "Contracción isovolumétrica"
+   ],
+   "answer": 3,
+   "explanation": "En sístole el miocardio contraído comprime los vasos coronarios; el flujo coronario del ventrículo izquierdo es sobre todo diastólico. Por eso en la taquicardia, al acortarse la diástole, disminuye la perfusión coronaria.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-6061f2af",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué dos ramas se divide el tronco de la coronaria izquierda?",
+   "options": [
+    "Rama interventricular anterior (DA) y rama circunfleja",
+    "Rama marginal derecha y rama circunfleja",
+    "Ramas interventriculares anterior y posterior",
+    "Rama circunfleja y rama interventricular posterior",
+    "Arteria del nodo sinoauricular y arteria del nodo auriculoventricular"
+   ],
+   "answer": 0,
+   "explanation": "El tronco coronario izquierdo es corto; se divide en la descendente anterior, que baja por el surco interventricular anterior, y la circunfleja, que rodea el corazón por el surco AV izquierdo hasta la cara posterior.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-4e8377fa",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde desemboca el seno coronario?",
+   "options": [
+    "En la aurícula derecha",
+    "En el ventrículo derecho",
+    "En la vena cava superior",
+    "En la aurícula izquierda",
+    "En la vena ácigos"
+   ],
+   "answer": 0,
+   "explanation": "El seno coronario está en el surco AV de la cara posterior del corazón, recoge la mayoría de las venas cardíacas y desemboca en la aurícula derecha entre el orificio de la VCI y la válvula tricúspide.",
+   "entries": [
+    "venae-cordis",
+    "atrium-dextrum"
+   ]
+  },
+  {
+   "id": "cv-428cedc8",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué se diferencian las válvulas semilunares (aórtica y pulmonar) de las AV?",
+   "options": [
+    "Tienen cuatro valvas.",
+    "No tienen cuerdas tendinosas ni músculos papilares.",
+    "Se cierran en sístole.",
+    "No se fijan al esqueleto fibroso.",
+    "Están dentro del ventrículo."
+   ],
+   "answer": 1,
+   "explanation": "Las semilunares tienen tres valvas en media luna que se cierran cuando sus bolsillos se llenan al empezar el reflujo; no tienen cuerdas tendinosas ni músculos papilares.",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-77a5a53e",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿El primer ruido cardíaco (R1) se produce por el cierre de qué?",
+   "options": [
+    "Del conducto arterioso",
+    "Solo de la válvula aórtica",
+    "De las válvulas mitral y tricúspide (AV)",
+    "Del foramen oval",
+    "De las válvulas aórtica y pulmonar"
+   ],
+   "answer": 2,
+   "explanation": "R1 se debe al cierre de las válvulas AV al inicio de la sístole ventricular y R2 al de las semilunares al final de la sístole.",
+   "entries": [
+    "valvae-cordis"
+   ]
+  },
+  {
+   "id": "cv-dacff9e8",
+   "group": "Corazón",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué seno aórtico nace la coronaria derecha y por qué surco discurre?",
+   "options": [
+    "Seno aórtico derecho – surco interventricular anterior",
+    "Seno no coronario – surco interventricular posterior",
+    "Seno aórtico izquierdo – surco interventricular anterior",
+    "Seno aórtico izquierdo – surco AV izquierdo",
+    "Seno aórtico derecho – surco auriculoventricular (coronario) derecho"
+   ],
+   "answer": 4,
+   "explanation": "La coronaria derecha nace del seno aórtico derecho, pasa entre la orejuela derecha y el tronco pulmonar, entra en el surco AV derecho y rodea el corazón hasta la cara posterior.",
+   "entries": [
+    "aa-coronariae"
+   ]
+  },
+  {
+   "id": "cv-fcb9d64c",
+   "group": "Aorta y sus ramas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué nivel empieza y termina el cayado de la aorta?",
+   "options": [
+    "En C7",
+    "En T12",
+    "En L1",
+    "En la apófisis xifoides (T9)",
+    "En el ángulo esternal (T4–T5)"
+   ],
+   "answer": 4,
+   "explanation": "El cayado aórtico empieza y termina en el plano que pasa por el ángulo esternal; este plano corresponde también a la bifurcación traqueal y a la desembocadura de la ácigos en la VCS.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-d81fb0e2",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué niveles vertebrales nacen, respectivamente, el tronco celíaco, la mesentérica superior y la mesentérica inferior?",
+   "options": [
+    "T11, L1, L2",
+    "T10, L1, L4",
+    "T12, L1, L3",
+    "L1, L2, L3",
+    "T12, L2, L4"
+   ],
+   "answer": 2,
+   "explanation": "El tronco celíaco nace de la cara anterior de la aorta en T12, la AMS en L1 y la AMI en L3; las renales nacen en L1–L2 y la bifurcación está en L4.",
+   "entries": [
+    "truncus-coeliacus",
+    "a-mesenterica-superior",
+    "a-mesenterica-inferior"
+   ]
+  },
+  {
+   "id": "cv-1938d272",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De dónde nacen las arterias gonadales (testiculares/ováricas)?",
+   "options": [
+    "De la ilíaca interna",
+    "De la aorta abdominal, por debajo de las renales (L2)",
+    "De la arteria renal",
+    "De la mesentérica inferior",
+    "De la ilíaca externa"
+   ],
+   "answer": 1,
+   "explanation": "Como las gónadas se desarrollan cerca de los riñones, sus arterias nacen alto en la aorta abdominal y se alargan durante su descenso. La vena gonadal izquierda drena en la renal izquierda.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-aeedc854",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Por qué orificio entra la arteria vertebral en el cráneo?",
+   "options": [
+    "Conducto carotídeo",
+    "Agujero magno",
+    "Agujero rasgado",
+    "Agujero yugular",
+    "Agujero oval"
+   ],
+   "answer": 1,
+   "explanation": "La vertebral asciende por los agujeros transversos de C6 a C1, rodea el arco posterior del atlas y entra en el cráneo por el agujero magno.",
+   "entries": [
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "cv-ae5c2252",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es el territorio principal de la arteria cerebral media?",
+   "options": [
+    "Lóbulo occipital y corteza visual",
+    "Cara lateral del hemisferio (áreas motoras y sensitivas de cara y brazo, centros del lenguaje)",
+    "Tronco del encéfalo y cerebelo",
+    "Cara medial del hemisferio (área de la pierna)",
+    "Tálamo e hipocampo"
+   ],
+   "answer": 1,
+   "explanation": "En la oclusión de la ACM hay debilidad y pérdida sensitiva marcadas de la cara y el brazo contralaterales, con afasia si el hemisferio es dominante; la pierna se afecta menos.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-81f7e82f",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En la oclusión de la arteria cerebral anterior, ¿dónde es más marcada la parálisis?",
+   "options": [
+    "En ambos ojos",
+    "En la pierna del mismo lado",
+    "En la pierna del lado opuesto",
+    "En la cara del mismo lado",
+    "En la cara y el brazo del lado opuesto"
+   ],
+   "answer": 2,
+   "explanation": "La ACA irriga la cara medial del hemisferio, incluida el área motora de la pierna; su oclusión produce debilidad y pérdida sensitiva marcadas en la pierna contralateral.",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-9199711f",
+   "group": "Arterias del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En el borde inferior de qué músculo la arteria axilar pasa a ser braquial?",
+   "options": [
+    "Borde superior del dorsal ancho",
+    "Coracobraquial",
+    "Pectoral menor",
+    "Deltoides",
+    "Redondo mayor"
+   ],
+   "answer": 4,
+   "explanation": "La axilar se extiende desde el borde externo de la 1.ª costilla hasta el borde inferior del redondo mayor, donde pasa a ser la braquial.",
+   "entries": [
+    "a-axillaris",
+    "a-brachialis"
+   ]
+  },
+  {
+   "id": "cv-ac2759c4",
+   "group": "Arterias del miembro superior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué arteria forma principalmente el arco palmar profundo?",
+   "options": [
+    "Arteria cubital",
+    "Arteria mediana",
+    "Arteria interósea anterior",
+    "Arteria radial",
+    "Arteria braquial"
+   ],
+   "answer": 3,
+   "explanation": "La radial entra en la palma por el 1.er espacio interóseo y forma el arco profundo, que completa la rama profunda de la cubital. El arco superficial lo forma sobre todo la cubital.",
+   "entries": [
+    "arcus-palmares",
+    "a-radialis"
+   ]
+  },
+  {
+   "id": "cv-069cff78",
+   "group": "Arterias del miembro inferior",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es la rama más grande de la arteria femoral en el muslo?",
+   "options": [
+    "Arteria circunfleja ilíaca superficial",
+    "Arteria epigástrica superficial",
+    "Arteria genicular descendente",
+    "Arteria femoral profunda",
+    "Arteria pudenda externa"
+   ],
+   "answer": 3,
+   "explanation": "La femoral profunda nace unos 4 cm por debajo del ligamento inguinal y es la arteria principal de los músculos del muslo; da las circunflejas y las perforantes.",
+   "entries": [
+    "a-femoralis"
+   ]
+  },
+  {
+   "id": "cv-bbed1d1f",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde desembocan las venas hepáticas?",
+   "options": [
+    "En la vena renal derecha",
+    "En la vena porta",
+    "En la vena cava superior",
+    "En la vena ácigos",
+    "Directamente en la vena cava inferior"
+   ],
+   "answer": 4,
+   "explanation": "Las tres grandes venas hepáticas desembocan directamente en la VCI en la cara posterior del hígado. La porta, en cambio, lleva sangre al hígado.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-2673b4e2",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructuras drenan el líquido cefalorraquídeo (LCR) al seno sagital superior?",
+   "options": [
+    "Plexos coroideos",
+    "Venas emisarias",
+    "Células ependimarias",
+    "Venas puente",
+    "Granulaciones aracnoideas (de Pacchioni)"
+   ],
+   "answer": 4,
+   "explanation": "El LCR se produce en los plexos coroideos y se reabsorbe por las granulaciones aracnoideas hacia los senos venosos durales, sobre todo el sagital superior.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-05c8ce40",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde desemboca el conducto torácico?",
+   "options": [
+    "En la vena cava inferior",
+    "En la vena ácigos",
+    "En el ángulo venoso derecho",
+    "En el ángulo venoso izquierdo (unión de la yugular interna y la subclavia izquierdas)",
+    "En la aurícula izquierda"
+   ],
+   "answer": 3,
+   "explanation": "El conducto torácico, que recoge la mayor parte de la linfa, desemboca en la unión de la yugular interna y la subclavia izquierdas; la linfa de la mitad superior derecha llega al ángulo venoso derecho por el conducto linfático derecho.",
+   "entries": [
+    "v-subclavia",
+    "v-jugularis-interna"
+   ]
+  },
+  {
+   "id": "cv-9c435315",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En la circulación fetal, ¿qué vaso lleva la sangre oxigenada de la placenta al feto?",
+   "options": [
+    "Vena umbilical",
+    "Vena cava inferior",
+    "Conducto arterioso",
+    "Arterias umbilicales",
+    "Arteria ilíaca interna"
+   ],
+   "answer": 0,
+   "explanation": "La única vena umbilical trae sangre oxigenada de la placenta; las dos arterias umbilicales llevan sangre desoxigenada a la placenta. Parte de la sangre evita el hígado por el conducto venoso hacia la VCI.",
+   "entries": [
+    "v-cava-inferior"
+   ]
+  },
+  {
+   "id": "cv-35606634",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervio atraviesa el propio seno cavernoso (no su pared)?",
+   "options": [
+    "Nervio troclear (IV)",
+    "Nervio oftálmico (V1)",
+    "Nervio oculomotor (III)",
+    "Nervio abducens (VI)",
+    "Nervio maxilar (V2)"
+   ],
+   "answer": 3,
+   "explanation": "La carótida interna y el abducens pasan por el seno; III, IV, V1 y V2 discurren por su pared lateral. Por eso el abducens suele ser el primero afectado en la trombosis del seno cavernoso y en el aneurisma de la ACI.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-91f6535e",
+   "group": "Aorta y sus ramas",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un paciente hipertenso presenta dolor torácico súbito, desgarrador, irradiado a la espalda, con una clara diferencia de presión arterial entre ambos brazos. ¿Cuál es el diagnóstico más probable?",
+   "options": [
+    "Infarto agudo de miocardio",
+    "Disección aórtica",
+    "Embolia pulmonar",
+    "Pericarditis",
+    "Neumotórax"
+   ],
+   "answer": 1,
+   "explanation": "En la disección aórtica se desgarra la íntima y la sangre penetra entre las capas de la pared; al afectarse el origen de las ramas aparecen diferencias de pulso y presión entre los brazos. La afectación de la aorta ascendente (Stanford A) es una urgencia quirúrgica.",
+   "entries": [
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-5e60843b",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un paciente anciano con fibrilación auricular presenta dolor abdominal súbito, desproporcionado respecto a la exploración. ¿Cuál es la causa más probable?",
+   "options": [
+    "Embolia de la arteria mesentérica superior",
+    "Rotura de un aneurisma de aorta abdominal",
+    "Embolia de la arteria renal",
+    "Trombosis de la mesentérica inferior",
+    "Estenosis del tronco celíaco"
+   ],
+   "answer": 0,
+   "explanation": "Como la AMS sale de la aorta en ángulo agudo, los émbolos cardíacos suelen alojarse en ella; al principio la isquemia mesentérica aguda da muy pocos hallazgos exploratorios en comparación con la intensidad del dolor.",
+   "entries": [
+    "a-mesenterica-superior"
+   ]
+  },
+  {
+   "id": "cv-21fae810",
+   "group": "Venas",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A un paciente con hinchazón y dolor en la pierna tras un vuelo largo se le diagnostica trombosis venosa profunda. ¿Cuál es la complicación más grave?",
+   "options": [
+    "Celulitis",
+    "Síndrome compartimental",
+    "Embolia pulmonar",
+    "Linfedema",
+    "Varices"
+   ],
+   "answer": 2,
+   "explanation": "Un coágulo de las venas profundas de la pierna puede desprenderse y llegar por la VCI y el corazón derecho a la arteria pulmonar; una embolia pulmonar masiva puede causar muerte súbita.",
+   "entries": [
+    "v-femoralis"
+   ]
+  },
+  {
+   "id": "cv-ac08c79d",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO es un componente de la tetralogía de Fallot?",
+   "options": [
+    "Estenosis pulmonar (obstrucción del tracto de salida del VD)",
+    "Comunicación interauricular",
+    "Hipertrofia ventricular derecha",
+    "Aorta cabalgante",
+    "Comunicación interventricular"
+   ],
+   "answer": 1,
+   "explanation": "La tetralogía de Fallot consta de CIV, estenosis pulmonar, aorta cabalgante e hipertrofia ventricular derecha; se debe al desplazamiento anterior del septo conal y es la cardiopatía congénita cianótica más frecuente.",
+   "entries": [
+    "ventriculus-dexter",
+    "cor"
+   ]
+  },
+  {
+   "id": "cv-5dd9592d",
+   "group": "Corazón",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cómo se llama la válvula que protege el orificio del seno coronario?",
+   "options": [
+    "Tendón de Todaro",
+    "Cresta terminal",
+    "Válvula de Eustaquio",
+    "Red de Chiari",
+    "Válvula de Tebesio (válvula del seno coronario)"
+   ],
+   "answer": 4,
+   "explanation": "La válvula de Tebesio está en la desembocadura del seno coronario en la aurícula derecha y la de Eustaquio en el orificio de la VCI. El tendón de Todaro continúa la válvula de Eustaquio y limita el triángulo de Koch.",
+   "entries": [
+    "atrium-dextrum",
+    "venae-cordis"
+   ]
+  },
+  {
+   "id": "cv-9c344753",
+   "group": "Aorta y sus ramas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué anomalía vascular produce la disfagia lusoria (dificultad para tragar)?",
+   "options": [
+    "Coartación de aorta",
+    "Vena cava superior izquierda",
+    "Arteria subclavia derecha que nace como última rama del cayado y pasa por detrás del esófago",
+    "Doble cayado aórtico",
+    "Conducto arterioso persistente"
+   ],
+   "answer": 2,
+   "explanation": "La subclavia derecha aberrante (arteria lusoria) es la última rama del cayado y cruza a la derecha por detrás del esófago, al que puede comprimir; es la anomalía del cayado más frecuente. El laríngeo recurrente derecho es entonces no recurrente.",
+   "entries": [
+    "a-subclavia",
+    "aorta"
+   ]
+  },
+  {
+   "id": "cv-4fc98b11",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué arterias son la fuente más frecuente de la hemorragia intracerebral hipertensiva?",
+   "options": [
+    "Arteria meníngea media",
+    "Arteria basilar",
+    "Ramas corticales de la cerebral anterior",
+    "Arterias lenticuloestriadas (perforantes de la cerebral media)",
+    "Arteria comunicante anterior"
+   ],
+   "answer": 3,
+   "explanation": "Las lenticuloestriadas son finas arterias terminales que salen en ángulo recto de la ACM; en la hipertensión crónica se forman microaneurismas de Charcot-Bouchard que producen hemorragias de los ganglios basales (putamen).",
+   "entries": [
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "cv-79341972",
+   "group": "Arterias de la cabeza y el cuello",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué arteria NO participa en el área de Kiesselbach, origen de la mayoría de las epistaxis?",
+   "options": [
+    "Arteria esfenopalatina",
+    "Arteria faríngea ascendente",
+    "Arteria etmoidal anterior",
+    "Arteria palatina mayor",
+    "Arteria labial superior"
+   ],
+   "answer": 1,
+   "explanation": "El área de Kiesselbach (de Little), en la parte anteroinferior del tabique, la forman anastomosis de ramas de las arterias esfenopalatina, etmoidal anterior, palatina mayor y labial superior (facial).",
+   "entries": [
+    "a-carotis-externa"
+   ]
+  },
+  {
+   "id": "cv-c5892b74",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué es la «corona mortis», peligrosa en la cirugía de las hernias?",
+   "options": [
+    "El tronco posterior de la ilíaca interna",
+    "Una anastomosis entre la epigástrica inferior (sistema ilíaco externo) y la obturatriz que cruza sobre el pubis",
+    "Una comunicación entre las ilíacas comunes derecha e izquierda",
+    "La rama profunda de la femoral",
+    "Una anastomosis entre las rectales superior y media"
+   ],
+   "answer": 1,
+   "explanation": "En algunas personas la arteria (o vena) obturatriz nace del sistema ilíaco externo/epigástrico inferior o se anastomosa ampliamente con él y cruza la rama superior del pubis. Si se lesiona en la cirugía de la hernia femoral o pélvica se produce una hemorragia grave.",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-edca0ec0",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el resto adulto del conducto venoso?",
+   "options": [
+    "Fosa oval",
+    "Ligamento arterioso",
+    "Ligamento venoso",
+    "Ligamento redondo del hígado",
+    "Ligamento umbilical medial"
+   ],
+   "answer": 2,
+   "explanation": "En el feto el conducto venoso lleva la sangre de la vena umbilical a la VCI evitando el hígado; tras el nacimiento se cierra y se convierte en el ligamento venoso. La vena umbilical se convierte en el ligamento redondo del hígado.",
+   "entries": [
+    "v-cava-inferior",
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-47659c1d",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el resto adulto de la vena umbilical?",
+   "options": [
+    "Ligamento venoso",
+    "Ligamento redondo del hígado (en el borde libre del ligamento falciforme)",
+    "Ligamento arterioso",
+    "Ligamento umbilical medial",
+    "Ligamento umbilical medio"
+   ],
+   "answer": 1,
+   "explanation": "Tras el nacimiento la vena umbilical se convierte en el ligamento redondo del hígado. En la hipertensión portal las venas paraumbilicales que lo acompañan se abren y contribuyen a la cabeza de medusa.",
+   "entries": [
+    "v-portae-hepatis"
+   ]
+  },
+  {
+   "id": "cv-96f935f6",
+   "group": "Arterias del abdomen y la pelvis",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el resto adulto de la porción distal de la arteria umbilical?",
+   "options": [
+    "Ligamento umbilical medial",
+    "Ligamento redondo del hígado",
+    "Ligamento arterioso",
+    "Ligamento venoso",
+    "Ligamento umbilical medio"
+   ],
+   "answer": 0,
+   "explanation": "La porción proximal de las arterias umbilicales sigue permeable como arteria vesical superior y la distal se convierte en el ligamento umbilical medial. El ligamento umbilical medio es el resto del uraco.",
+   "entries": [
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-d6da7df0",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué vasos suelen originar el hematoma subdural?",
+   "options": [
+    "Arterias lenticuloestriadas",
+    "Arteria comunicante anterior",
+    "Seno cavernoso",
+    "Arteria meníngea media",
+    "Venas puente que van de la corteza a los senos durales"
+   ],
+   "answer": 4,
+   "explanation": "El hematoma subdural se forma entre duramadre y aracnoides al romperse las venas puente, estiradas por la atrofia cerebral en ancianos y alcohólicos; evoluciona lentamente y tiene forma de semiluna. El epidural suele proceder de la arteria meníngea media.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "cv-2151bfd7",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué red venosa sin válvulas interviene en la diseminación del cáncer de próstata a la columna?",
+   "options": [
+    "Plexo venoso vertebral (de Batson)",
+    "Plexo pampiniforme",
+    "Plexo venoso rectal",
+    "Sistema porta",
+    "Plexo pterigoideo"
+   ],
+   "answer": 0,
+   "explanation": "El plexo de Batson es una red venosa sin válvulas alrededor de la columna conectada con las venas pélvicas; al aumentar la presión abdominal la sangre puede fluir hacia la columna, lo que explica las metástasis vertebrales de tumores como el de próstata o mama.",
+   "entries": [
+    "v-azygos"
+   ]
+  },
+  {
+   "id": "cv-88c74a4e",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En el síndrome de May-Thurner, ¿qué compresión predispone a la trombosis venosa profunda de la pierna izquierda?",
+   "options": [
+    "Compresión de la vena femoral izquierda bajo el ligamento inguinal",
+    "Compresión de la vena cava inferior por el hígado",
+    "Compresión de la vena ilíaca común izquierda contra la columna por la arteria ilíaca común derecha",
+    "Compresión de la vena ilíaca externa derecha por el colon sigmoide",
+    "Compresión de la vena renal izquierda entre la aorta y la AMS"
+   ],
+   "answer": 2,
+   "explanation": "La ilíaca común derecha cruza por delante de la vena ilíaca común izquierda y la comprime contra L5; con el tiempo se forma una banda fibrosa en la pared venosa y aparece TVP de la pierna izquierda.",
+   "entries": [
+    "v-cava-inferior",
+    "a-iliaca-communis"
+   ]
+  },
+  {
+   "id": "cv-ccd14bde",
+   "group": "Venas",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente que se apretó un forúnculo junto a la nariz presenta fiebre, edema palpebral, exoftalmos y diplopía en la mirada lateral. ¿Qué nervio se afecta primero y por qué?",
+   "options": [
+    "Nervio facial – porque acompaña a la vena facial",
+    "Nervio óptico – porque está en la pared del seno",
+    "Nervio oculomotor – porque atraviesa el seno",
+    "Nervio troclear – porque está en el suelo del seno",
+    "Nervio abducens – porque atraviesa libremente el seno cavernoso"
+   ],
+   "answer": 4,
+   "explanation": "La infección del triángulo peligroso de la cara se extiende por la vena angular y la oftálmica superior al seno cavernoso. El abducens, libre dentro del seno junto a la ACI, suele ser el primero afectado; se limita la mirada lateral.",
+   "entries": [
+    "sinus-durae-matris"
+   ]
+  }
+ ]
+}

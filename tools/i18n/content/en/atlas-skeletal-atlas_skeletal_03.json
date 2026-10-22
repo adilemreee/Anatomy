@@ -1,0 +1,233 @@
+{
+ "os-lunatum": {
+  "tr": "Lunate bone",
+  "summary": "A crescent-shaped bone in the proximal carpal row between the scaphoid and the triquetrum. It articulates with the radius.",
+  "facts": [
+   "Proximal row, between the scaphoid and triquetrum",
+   "Radius, articular disc, scaphoid, triquetrum, capitate, hamate"
+  ],
+  "sections": [],
+  "clinical": [
+   "The most frequently dislocated carpal bone; anterior dislocation can compress the median nerve in the carpal tunnel.",
+   "Kienböck disease: avascular necrosis of the lunate."
+  ],
+  "tus": [
+   "Kienböck disease is avascular necrosis of the lunate; negative ulnar variance is a risk factor.",
+   "Perilunate and lunate dislocations result from hyperextension of the wrist."
+  ],
+  "aliases": []
+ },
+ "os-triquetrum": {
+  "tr": "Triquetrum",
+  "summary": "A pyramid-shaped bone in the proximal carpal row, medial to the lunate. It articulates with the pisiform on its front.",
+  "facts": [
+   "Proximal row, between the lunate and pisiform",
+   "Lunate, pisiform, hamate, articular disc"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "A dorsal avulsion fracture of the triquetrum is the commonest carpal fracture after the scaphoid.",
+   "The ulnocarpal complex (TFCC) lies between the triquetrum and the ulna."
+  ],
+  "aliases": []
+ },
+ "os-pisiforme": {
+  "tr": "Pisiform bone",
+  "summary": "A small pea-shaped bone at the medial end of the proximal carpal row, sitting on the front of the triquetrum. It is a sesamoid bone that develops in the tendon of flexor carpi ulnaris.",
+  "facts": [
+   "Proximal row, most medial; palpable on the hypothenar side of the palm",
+   "Flexor carpi ulnaris, abductor digiti minimi, pisohamate ligament, pisometacarpal ligament, flexor retinaculum"
+  ],
+  "sections": [
+   [
+    "Guyon's canal",
+    "The ulnar nerve and ulnar artery pass through Guyon's canal between the pisiform and the hook of the hamate."
+   ]
+  ],
+  "clinical": [
+   "Compression of the ulnar nerve in Guyon's canal (cyclist's palsy) weakens the small muscles of the hand."
+  ],
+  "tus": [
+   "It forms the medial wall of Guyon's canal; the ulnar nerve and artery pass just radial to the pisiform."
+  ],
+  "aliases": []
+ },
+ "os-trapezium": {
+  "tr": "Trapezium",
+  "summary": "The most lateral bone of the distal carpal row. With the first metacarpal it forms the saddle joint of the thumb.",
+  "facts": [
+   "Distal row, most lateral",
+   "Scaphoid, trapezoid, 1st and 2nd metacarpals",
+   "Tubercle of the trapezium, groove for the flexor carpi radialis tendon"
+  ],
+  "sections": [
+   [
+    "Thumb joint",
+    "The carpometacarpal joint of the thumb is a saddle joint; it makes opposition of the thumb possible."
+   ]
+  ],
+  "clinical": [
+   "Osteoarthritis at the base of the thumb (trapeziometacarpal joint) is common, especially in middle-aged women."
+  ],
+  "tus": [
+   "The FCR tendon runs in the groove on the front of the trapezium; arthritis of the 1st CMC joint (rhizarthrosis) is common in older women."
+  ],
+  "aliases": []
+ },
+ "os-trapezoideum": {
+  "tr": "Trapezoid bone",
+  "summary": "One of the smallest bones of the distal carpal row, between the trapezium and the capitate. It articulates with the second metacarpal.",
+  "facts": [
+   "Distal row, between trapezium and capitate",
+   "Scaphoid, trapezium, capitate, 2nd metacarpal"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The least frequently fractured carpal bone; it articulates with the base of the 2nd metacarpal."
+  ],
+  "aliases": []
+ },
+ "os-capitatum": {
+  "tr": "Capitate bone",
+  "summary": "The largest carpal bone, in the middle of the distal row; its round head sits in the hollow formed by the scaphoid and lunate of the proximal row.",
+  "facts": [
+   "Distal row, centre",
+   "Scaphoid, lunate, trapezoid, hamate, 2nd–4th metacarpals",
+   "The first carpal bone to ossify (1st–3rd month)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The largest and first-ossifying carpal bone; it articulates with the 3rd metacarpal."
+  ],
+  "aliases": []
+ },
+ "os-hamatum": {
+  "tr": "Hamate bone",
+  "summary": "The most medial bone of the distal carpal row, with a hook (hook of the hamate) on its front.",
+  "facts": [
+   "Distal row, most medial",
+   "Lunate, triquetrum, capitate, 4th and 5th metacarpals",
+   "Hook of the hamate – the flexor retinaculum and pisohamate ligament attach; lateral wall of Guyon's canal"
+  ],
+  "sections": [],
+  "clinical": [
+   "Fractures of the hook occur in golfers and baseball players; the deep branch of the ulnar nerve may be affected."
+  ],
+  "tus": [
+   "Fracture of the hook of the hamate occurs in golf and baseball; the deep branch of the ulnar nerve curves around the hook."
+  ],
+  "aliases": []
+ },
+ "ossa-metacarpi": {
+  "tr": "Metacarpal bones",
+  "summary": "The five long bones forming the skeleton of the palm. They articulate with the carpal bones proximally and with the proximal phalanges distally.",
+  "facts": [
+   "5 (I–V from thumb to little finger)",
+   "Base, shaft, head (seen as the 'knuckles' when making a fist)",
+   "Carpometacarpal, intermetacarpal and metacarpophalangeal joints",
+   "The 1st metacarpal is the shortest, thickest and most mobile"
+  ],
+  "sections": [],
+  "clinical": [
+   "A fracture of the neck of the 5th metacarpal from a punch is known as a boxer's fracture.",
+   "An intra-articular fracture of the base of the 1st metacarpal is called a Bennett fracture."
+  ],
+  "tus": [
+   "A Bennett fracture is an intra-articular fracture-dislocation of the base of the 1st metacarpal; abductor pollicis longus pulls the fragment proximally."
+  ],
+  "aliases": [
+   "metacarpal"
+  ]
+ },
+ "phalanges-manus": {
+  "tr": "Phalanges of the hand",
+  "summary": "The 14 short long bones of the fingers. The thumb has two phalanges, the other fingers three each.",
+  "facts": [
+   "14 (thumb 2, the others 3 each)",
+   "Proximal, middle and distal phalanx",
+   "Metacarpophalangeal, proximal interphalangeal (PIP) and distal interphalangeal (DIP) joints",
+   "Its tip carries the tuberosity of the distal phalanx, which supports the nail bed"
+  ],
+  "sections": [],
+  "clinical": [
+   "Rupture of the extensor tendon at the base of the distal phalanx makes the fingertip drop (mallet finger).",
+   "In osteoarthritis, Heberden nodes form at the DIP joints and Bouchard nodes at the PIP joints."
+  ],
+  "tus": [
+   "Mallet finger results from rupture of the extensor tendon attached to the distal phalanx."
+  ],
+  "aliases": [
+   "finger bones",
+   "phalanx"
+  ]
+ },
+ "os-coxae": {
+  "tr": "Hip bone",
+  "summary": "A large, irregular paired bone forming the side and front walls of the pelvis. It forms by the fusion of three bones (ilium, ischium, pubis) at the acetabulum.",
+  "facts": [
+   "Ilium, ischium and pubis; they fuse at the Y-shaped (triradiate) cartilage of the acetabulum at 15–17 years",
+   "Iliac crest, anterior superior and inferior iliac spines (ASIS, AIIS), posterior superior iliac spine, acetabulum, obturator foramen, ischial tuberosity, ischial spine, greater and lesser sciatic notches, pubic ramus, pubic tubercle, symphyseal surface",
+   "Femur (hip joint), sacrum (sacroiliac joint), opposite hip bone (pubic symphysis)",
+   "Gluteal muscles, iliacus, abdominal muscles, hamstrings (ischial tuberosity), adductors, sartorius (ASIS), rectus femoris (AIIS)"
+  ],
+  "sections": [
+   [
+    "Sex differences of the pelvis",
+    "The female pelvis is wider and shallower, with an oval inlet and a wide subpubic angle (about 80–90°). The male pelvis is narrower and deeper, with a heart-shaped inlet and a narrow subpubic angle (about 50–60°)."
+   ],
+   [
+    "Foramina",
+    "Piriformis, the sciatic nerve, vessels and the pudendal nerve pass through the greater sciatic foramen; the obturator internus tendon and pudendal nerve through the lesser sciatic foramen; the obturator nerve and vessels through the obturator foramen (obturator canal)."
+   ]
+  ],
+  "clinical": [
+   "The iliac crest is used for bone marrow aspiration and harvesting bone grafts.",
+   "The pubic rami often break in elderly people; high-energy pelvic fractures can cause severe internal bleeding.",
+   "Compression of the lateral cutaneous nerve of the thigh near the ASIS causes burning and numbness on the outer thigh (meralgia paraesthetica)."
+  ],
+  "tus": [
+   "The Y-shaped cartilage of the acetabulum fuses at 15–17 years.",
+   "Sartorius and TFL attach to the ASIS, the straight head of rectus femoris to the AIIS and the hamstrings to the ischial tuberosity (avulsion fractures in athletes)."
+  ],
+  "aliases": [
+   "ilium",
+   "ischium",
+   "pubis",
+   "pelvic bone",
+   "innominate bone"
+  ]
+ },
+ "femur": {
+  "tr": "Femur",
+  "summary": "The longest, heaviest and strongest bone of the body. Above it forms the hip joint with the hip bone, below the knee joint with the tibia and patella.",
+  "facts": [
+   "Long bone (about 1/4 of body height)",
+   "Head (fovea of the head), neck, greater and lesser trochanters, intertrochanteric line and crest",
+   "Linea aspera (medial and lateral lips), gluteal tuberosity, pectineal line",
+   "Medial and lateral condyles, epicondyles, adductor tubercle, intercondylar fossa, patellar surface, popliteal surface",
+   "About 125° in adults (angle of inclination); anteversion about 10–15°",
+   "Gluteal muscles, iliopsoas (lesser trochanter), adductors (linea aspera), vasti, heads of gastrocnemius"
+  ],
+  "sections": [
+   [
+    "Blood supply",
+    "Most of the vessels supplying the head of the femur are retinacular branches of the medial circumflex femoral artery; the artery in the ligament of the head contributes little in adults."
+   ]
+  ],
+  "clinical": [
+   "Femoral neck fractures are common in the elderly (especially women with osteoporosis); the leg is shortened and externally rotated. In intracapsular fractures the retinacular vessels tear and the head may become necrotic.",
+   "Femoral shaft fractures can cause heavy blood loss (1–1.5 L) and fat embolism.",
+   "In children, slipped capital femoral epiphysis (SCFE) and Perthes disease cause a limp."
+  ],
+  "tus": [
+   "The neck–shaft angle is ~125° in adults; less is coxa vara, more is coxa valga.",
+   "Femoral shaft fractures can cause heavy blood loss (1–1.5 L) and fat embolism."
+  ],
+  "aliases": [
+   "thigh bone"
+  ]
+ }
+}

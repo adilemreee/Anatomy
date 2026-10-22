@@ -1,0 +1,262 @@
+{
+ "m-pterygoideus-medialis": {
+  "tr": "Medial pterygoid",
+  "summary": "A quadrilateral muscle of mastication on the inner surface of the ramus of the mandible, mirroring masseter; together they form a muscular sling around the angle of the mandible.",
+  "facts": [
+   "Deep head: inner surface of the lateral pterygoid plate (pterygoid fossa) and pyramidal process of the palatine bone; superficial head: maxillary tuberosity",
+   "Inner surface of the angle of the mandible (pterygoid tuberosity)",
+   "Nerve to medial pterygoid (mandibular nerve, V3)",
+   "Pterygoid branches of the maxillary artery",
+   "Elevates the mandible (closes the mouth) and assists protrusion; acting on one side it moves the jaw to the opposite side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "With masseter it forms the 'pterygomasseteric sling', which determines displacement of fragments in fractures of the mandibular angle.",
+   "Its nerve also supplies tensor tympani and tensor veli palatini."
+  ],
+  "aliases": [
+   "pterygoid"
+  ]
+ },
+ "m-rectus-superior": {
+  "tr": "Superior rectus",
+  "summary": "The straight muscle attached to the upper surface of the eyeball that raises the eye.",
+  "facts": [
+   "Common tendinous ring (upper part)",
+   "Sclera, about 7.5 mm above and behind the cornea",
+   "Oculomotor nerve (III), superior division",
+   "Muscular branches of the ophthalmic artery",
+   "Elevation (most effective with the eye abducted), adduction and intorsion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "To test pure elevation, the eye is first turned outwards (abduction) and then asked to look up."
+  ],
+  "aliases": []
+ },
+ "m-rectus-inferior": {
+  "tr": "Inferior rectus",
+  "summary": "The straight muscle attached to the lower surface of the eyeball that lowers the eye.",
+  "facts": [
+   "Common tendinous ring (lower part)",
+   "Sclera, about 6.5 mm below and behind the cornea",
+   "Oculomotor nerve (III), inferior division",
+   "Muscular branches of the ophthalmic artery, infraorbital artery",
+   "Depression (most effective in abduction), adduction and extorsion"
+  ],
+  "sections": [],
+  "clinical": [
+   "In an orbital floor (blow-out) fracture the muscle can be trapped towards the maxillary sinus, causing double vision and restriction on looking up."
+  ],
+  "tus": [],
+  "aliases": []
+ },
+ "m-rectus-medialis": {
+  "tr": "Medial rectus",
+  "summary": "The strongest extra-ocular muscle, attached to the medial surface of the eyeball; it turns the eye towards the nose.",
+  "facts": [
+   "Common tendinous ring (medial part)",
+   "Sclera, about 5.5 mm medial to and behind the cornea",
+   "Oculomotor nerve (III), inferior division",
+   "Muscular branches of the ophthalmic artery",
+   "Adduction"
+  ],
+  "sections": [],
+  "clinical": [
+   "In oculomotor nerve palsy the eye looks 'down and out' (lateral rectus and superior oblique are unopposed), with ptosis and mydriasis.",
+   "In internuclear ophthalmoplegia (MLF lesion) adduction of the eye on the same side fails on lateral gaze."
+  ],
+  "tus": [],
+  "aliases": []
+ },
+ "m-rectus-lateralis": {
+  "tr": "Lateral rectus",
+  "summary": "The muscle attached to the lateral surface of the eyeball that turns the eye outwards; the only muscle supplied by the abducens nerve.",
+  "facts": [
+   "Common tendinous ring (lateral part, two heads)",
+   "Sclera, about 7 mm lateral to and behind the cornea",
+   "Abducens nerve (VI)",
+   "Muscular branches of the ophthalmic artery, lacrimal artery",
+   "Abduction"
+  ],
+  "sections": [],
+  "clinical": [
+   "In abducens palsy the eye turns in (esotropia) with horizontal double vision; because of its long intracranial course it is among the first cranial nerves affected by raised intracranial pressure."
+  ],
+  "tus": [
+   "Mnemonic: LR6 SO4, the rest 3 (lateral rectus VI, superior oblique IV, the others III)."
+  ],
+  "aliases": []
+ },
+ "m-obliquus-superior": {
+  "tr": "Superior oblique",
+  "summary": "A muscle whose tendon turns through a pulley (trochlea) at the upper medial corner of the orbit to attach to the posterior superolateral quadrant of the eyeball.",
+  "facts": [
+   "Body of the sphenoid (superomedial to the common tendinous ring)",
+   "Posterior superolateral quadrant of the sclera, after passing through the trochlea",
+   "Trochlear nerve (IV)",
+   "Muscular branches of the ophthalmic artery",
+   "Intorsion; depression (most effective with the eye adducted) and abduction"
+  ],
+  "sections": [],
+  "clinical": [
+   "In trochlear palsy there is vertical double vision when going downstairs and reading; the patient compensates by tilting the head to the healthy side."
+  ],
+  "tus": [
+   "It is the muscle for looking down and in; nerve IV is the only cranial nerve that emerges from the back of the brainstem and decussates completely."
+  ],
+  "aliases": []
+ },
+ "m-obliquus-inferior": {
+  "tr": "Inferior oblique",
+  "summary": "A muscle that arises from the anterior floor of the orbit, passes beneath the eyeball and attaches to its posterolateral quadrant; the only extra-ocular muscle not arising from the tendinous ring.",
+  "facts": [
+   "Anteromedial floor of the orbit (maxilla, lateral to the fossa for the lacrimal sac)",
+   "Posterior inferolateral quadrant of the sclera",
+   "Oculomotor nerve (III), inferior division",
+   "Muscular branches of the ophthalmic artery, infraorbital artery",
+   "Extorsion; elevation (most effective with the eye adducted) and abduction"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "It produces upward and inward gaze; it is the only extra-ocular muscle arising from the floor of the orbit rather than the orbital apex."
+  ],
+  "aliases": []
+ },
+ "m-levator-palpebrae": {
+  "tr": "Levator palpebrae superioris",
+  "summary": "The muscle that raises the upper eyelid; the smooth muscle fibres on its underside (superior tarsal muscle, Müller's muscle) have a sympathetic supply.",
+  "facts": [
+   "Lesser wing of the sphenoid (above the optic canal)",
+   "Skin of the upper eyelid and superior tarsus",
+   "Oculomotor nerve (III), superior division; smooth muscle part sympathetic fibres",
+   "Muscular branches of the ophthalmic artery",
+   "Raises the upper eyelid"
+  ],
+  "sections": [],
+  "clinical": [
+   "In oculomotor palsy there is complete ptosis; in Horner syndrome only Müller's muscle is affected, so the ptosis is mild."
+  ],
+  "tus": [],
+  "aliases": [
+   "levator",
+   "eyelid"
+  ]
+ },
+ "m-genioglossus": {
+  "tr": "Genioglossus",
+  "summary": "A fan-shaped extrinsic tongue muscle that forms most of the bulk of the tongue; it protrudes the tongue.",
+  "facts": [
+   "Superior mental spine (inner surface of the mandible)",
+   "Whole length of the dorsum of the tongue and body of the hyoid bone",
+   "Hypoglossal nerve (XII)",
+   "Lingual artery (deep lingual and sublingual arteries)",
+   "Protrudes the tongue; acting on both sides it hollows the centre of the tongue"
+  ],
+  "sections": [],
+  "clinical": [
+   "In a hypoglossal nerve lesion the protruded tongue deviates towards the side of the lesion (the healthy genioglossus pushes it that way).",
+   "Its relaxation under anaesthesia lets the tongue fall back and block the airway; the jaw-thrust manoeuvre opens it."
+  ],
+  "tus": [
+   "The 'life-saving muscle': it stops the tongue falling backwards."
+  ],
+  "aliases": []
+ },
+ "m-hyoglossus": {
+  "tr": "Hyoglossus",
+  "summary": "A quadrilateral extrinsic tongue muscle running from the hyoid bone to the side of the tongue; an important landmark in the submandibular region.",
+  "facts": [
+   "Body and greater horn of the hyoid bone",
+   "Side and underside of the tongue",
+   "Hypoglossal nerve (XII)",
+   "Lingual artery",
+   "Depresses and retracts the tongue"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The lingual artery passes deep to this muscle, while the hypoglossal nerve, lingual nerve and submandibular duct pass on its surface."
+  ],
+  "aliases": []
+ },
+ "m-scalenus-anterior": {
+  "tr": "Scalenus anterior",
+  "summary": "A muscle on the side of the neck running from the cervical vertebrae to the 1st rib; an important boundary between artery and vein.",
+  "facts": [
+   "Anterior tubercles of the transverse processes of C3–C6",
+   "Scalene tubercle of the 1st rib (Lisfranc's tubercle)",
+   "Anterior rami of spinal nerves C4–C6",
+   "Ascending cervical artery, transverse cervical artery",
+   "Raises the 1st rib (forced inspiration); flexes the neck forwards and sideways and rotates it to the opposite side"
+  ],
+  "sections": [],
+  "clinical": [
+   "In thoracic outlet syndrome the subclavian artery and brachial plexus can be compressed between the anterior and middle scalenes (scalene gap)."
+  ],
+  "tus": [
+   "The phrenic nerve descends on its anterior surface; the subclavian vein passes in front of the muscle, the subclavian artery and brachial plexus behind it."
+  ],
+  "aliases": [
+   "scalene"
+  ]
+ },
+ "m-scalenus-medius": {
+  "tr": "Scalenus medius",
+  "summary": "The largest and longest of the scalenes, running from the cervical vertebrae to the upper surface of the 1st rib.",
+  "facts": [
+   "Posterior tubercles of the transverse processes of C2–C7",
+   "Upper surface of the 1st rib (behind the groove for the subclavian artery)",
+   "Anterior rami of spinal nerves C3–C8",
+   "Ascending cervical artery, transverse cervical artery",
+   "Raises the 1st rib; bends the neck to the same side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The roots of the dorsal scapular nerve and long thoracic nerve pierce this muscle."
+  ],
+  "aliases": [
+   "scalene"
+  ]
+ },
+ "m-scalenus-posterior": {
+  "tr": "Scalenus posterior",
+  "summary": "The smallest and deepest of the scalenes; the only scalene attached to the 2nd rib.",
+  "facts": [
+   "Posterior tubercles of the transverse processes of C4–C6",
+   "Outer surface of the 2nd rib",
+   "Anterior rami of spinal nerves C6–C8",
+   "Ascending cervical artery, superficial cervical artery",
+   "Raises the 2nd rib; bends the neck to the same side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "scalene"
+  ]
+ },
+ "m-digastricus": {
+  "tr": "Digastric",
+  "summary": "A muscle of anterior and posterior bellies joined by an intermediate tendon; it raises the hyoid and helps open the mouth. Its two bellies develop from different pharyngeal arches.",
+  "facts": [
+   "Posterior belly: mastoid notch (temporal bone); anterior belly: digastric fossa (mandible)",
+   "Intermediate tendon, attached by a fibrous loop to the body and greater horn of the hyoid bone",
+   "Posterior belly: facial nerve (VII); anterior belly: nerve to mylohyoid (mandibular nerve, V3)",
+   "Anterior belly: submental artery; posterior belly: occipital and posterior auricular arteries",
+   "Raises and steadies the hyoid bone; with the hyoid fixed it depresses the mandible (opens the mouth)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The anterior belly comes from the 1st pharyngeal arch (V3), the posterior belly from the 2nd (VII); it bounds the submandibular and submental triangles."
+  ],
+  "aliases": [
+   "digastric"
+  ]
+ }
+}

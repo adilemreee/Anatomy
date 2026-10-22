@@ -1,0 +1,206 @@
+{
+ "patella": {
+  "tr": "Patella",
+  "summary": "The largest sesamoid bone in the body. It develops in the tendon of quadriceps femoris and lies in front of the knee joint.",
+  "facts": [
+   "Sesamoid bone",
+   "Base (top), apex (bottom), articular surface (back; the lateral facet is larger)",
+   "Quadriceps tendon above, patellar ligament below (to the tibial tuberosity)",
+   "Lengthens the lever arm of quadriceps and so increases extension force; protects the femoral condyles"
+  ],
+  "sections": [],
+  "clinical": [
+   "As the Q angle increases (usually in women) the patella tends to dislocate laterally; the lower fibres of vastus medialis resist this.",
+   "Patellar fractures result from direct blows; the integrity of the extensor mechanism must be checked.",
+   "The patellar (knee-jerk) reflex tests segments L2–L4 (especially L4)."
+  ],
+  "tus": [
+   "The largest sesamoid bone in the body; it develops in the quadriceps tendon.",
+   "A bipartite patella is usually at the upper outer corner and must not be mistaken for a fracture."
+  ],
+  "aliases": [
+   "kneecap"
+  ]
+ },
+ "tibia": {
+  "tr": "Tibia",
+  "summary": "The large, weight-bearing bone on the medial side of the leg. Its anterior border can be felt under the skin along its whole length.",
+  "facts": [
+   "Long bone",
+   "Medial and lateral condyles, intercondylar eminence, tibial tuberosity, fibular articular facet",
+   "Anterior border (shin), medial surface (subcutaneous), soleal line",
+   "Medial malleolus, fibular notch, inferior articular surface",
+   "Femur (knee), fibula (proximal and distal tibiofibular joints), talus (ankle)"
+  ],
+  "sections": [],
+  "clinical": [
+   "The tibial shaft is the long bone most often fractured open; its anteromedial surface is covered only by skin and its poor blood supply slows healing.",
+   "Shin splints are common in runners.",
+   "In adolescents a painful swelling at the tibial tuberosity is Osgood–Schlatter disease."
+  ],
+  "tus": [
+   "The front of the tibia lies under the skin; open fractures are commonest in this bone.",
+   "Compartment syndrome is an important complication of tibial fractures."
+  ],
+  "aliases": [
+   "shinbone"
+  ]
+ },
+ "fibula": {
+  "tr": "Fibula",
+  "summary": "The slender long bone on the lateral side of the leg. It carries no body weight; it gives attachment to muscles and joins the ankle by forming the lateral malleolus.",
+  "facts": [
+   "Long bone",
+   "Head (apex), neck, shaft, lateral malleolus",
+   "Tibia (tibiofibular joint, tibiofibular syndesmosis), talus",
+   "Biceps femoris, fibular muscles, extensor digitorum longus, extensor hallucis longus, soleus, tibialis posterior, flexor hallucis longus"
+  ],
+  "sections": [],
+  "clinical": [
+   "The common fibular nerve wrapping around the fibular neck can be damaged by a blow or a tight cast; foot drop results.",
+   "The middle of the fibular shaft can be harvested as a vascularised bone graft.",
+   "Fractures of the lateral malleolus are common in ankle sprains."
+  ],
+  "tus": [
+   "The fibula carries no body weight; the free fibula flap is used to reconstruct the mandible.",
+   "Maisonneuve fracture: deltoid ligament tear + syndesmosis injury + proximal fibular fracture."
+  ],
+  "aliases": []
+ },
+ "talus": {
+  "tr": "Talus",
+  "summary": "The bone that transfers weight between the leg bones and the foot and forms the lower part of the ankle joint. No muscle attaches to it.",
+  "facts": [
+   "Head, neck, body, trochlea, lateral and posterior processes",
+   "Tibia and fibula (ankle joint), calcaneus (subtalar joint), navicular (talocalcaneonavicular joint)",
+   "Most of its surface is covered by articular cartilage; no muscle attaches"
+  ],
+  "sections": [],
+  "clinical": [
+   "Fractures of the talar neck (aviator's fracture) can lead to avascular necrosis because the blood supply is disrupted."
+  ],
+  "tus": [
+   "The risk of AVN after talar neck fractures is graded with the Hawkins classification.",
+   "The upper surface of the talus (trochlea) is wider in front; the ankle is most stable in dorsiflexion."
+  ],
+  "aliases": [
+   "astragalus",
+   "ankle bone"
+  ]
+ },
+ "calcaneus": {
+  "tr": "Calcaneus",
+  "summary": "The largest bone of the foot. It forms the heel and transmits weight to the ground when standing.",
+  "facts": [
+   "Calcaneal tuberosity, sustentaculum tali, groove for the flexor hallucis longus tendon, fibular trochlea",
+   "Talus (subtalar joint), cuboid (calcaneocuboid joint)",
+   "Calcaneal (Achilles) tendon, plantar aponeurosis, flexor digitorum brevis, abductor hallucis, abductor digiti minimi, quadratus plantae, extensor digitorum brevis"
+  ],
+  "sections": [],
+  "clinical": [
+   "The calcaneus breaks in a fall from a height onto the feet; the spine must also be checked because a vertebral compression fracture may accompany it.",
+   "A heel spur (calcaneal spur) and plantar fasciitis are common causes of heel pain."
+  ],
+  "tus": [
+   "The most frequently fractured tarsal bone; a lumbar compression fracture may accompany a fall from a height.",
+   "The Achilles tendon attaches to the calcaneal tuberosity; a reduced Böhler angle indicates a fracture."
+  ],
+  "aliases": [
+   "heel bone",
+   "os calcis"
+  ]
+ },
+ "os-naviculare": {
+  "tr": "Navicular bone",
+  "summary": "A boat-shaped bone on the medial side of the foot between the talus and the cuneiforms. It is the keystone of the medial arch.",
+  "facts": [
+   "Navicular tuberosity (main attachment of tibialis posterior)",
+   "Talus, the three cuneiforms, sometimes the cuboid"
+  ],
+  "sections": [],
+  "clinical": [
+   "An accessory navicular bone can form a painful bump on the medial border of the foot.",
+   "Köhler disease is avascular necrosis of the navicular in children."
+  ],
+  "tus": [
+   "An accessory navicular can cause pain in the tibialis posterior tendon.",
+   "Köhler disease is osteonecrosis of the navicular in children."
+  ],
+  "aliases": [
+   "scaphoid of the foot"
+  ]
+ },
+ "os-cuboideum": {
+  "tr": "Cuboid bone",
+  "summary": "A cube-shaped bone on the lateral side of the foot between the calcaneus and the 4th and 5th metatarsals.",
+  "facts": [
+   "Cuboid tuberosity, groove for the fibularis longus tendon",
+   "Calcaneus, lateral cuneiform, navicular, 4th and 5th metatarsals"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The cuboid is the keystone of the lateral longitudinal arch; the fibularis longus tendon passes beneath it."
+  ],
+  "aliases": []
+ },
+ "ossa-cuneiformia": {
+  "tr": "Cuneiform bones",
+  "summary": "Three wedge-shaped bones between the navicular and the first three metatarsals: medial, intermediate and lateral.",
+  "facts": [
+   "Medial cuneiform (largest), intermediate (smallest), lateral",
+   "Navicular, 1st–3rd metatarsals, cuboid (lateral cuneiform)",
+   "Their wedge shapes help form the transverse arch of the foot"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Tibialis anterior and fibularis longus both attach to the medial cuneiform and base of the 1st metatarsal (the 'stirrup')."
+  ],
+  "aliases": [
+   "cuneiform"
+  ]
+ },
+ "ossa-metatarsi": {
+  "tr": "Metatarsal bones",
+  "summary": "The five long bones forming the skeleton of the forefoot. The first is the shortest and thickest; their heads carry much of the weight when standing.",
+  "facts": [
+   "5 (I–V)",
+   "Tuberosity of the 5th metatarsal at its base (fibularis brevis attaches); two sesamoid bones under the head of the 1st metatarsal",
+   "Tarsometatarsal joints (Lisfranc joint), metatarsophalangeal joints"
+  ],
+  "sections": [],
+  "clinical": [
+   "Fracture of the base of the 5th metatarsal (Jones fracture) is common in ankle sprains.",
+   "Stress fractures of the 2nd–3rd metatarsals (march fracture) can follow long marches.",
+   "In hallux valgus the 1st metatarsal deviates medially and the big toe laterally."
+  ],
+  "tus": [
+   "A march fracture is most often a stress fracture of the shaft of the 2nd metatarsal.",
+   "A Lisfranc injury involves the tarsometatarsal joint complex; the base of the 2nd metatarsal is the keystone."
+  ],
+  "aliases": [
+   "metatarsal"
+  ]
+ },
+ "phalanges-pedis": {
+  "tr": "Phalanges of the foot",
+  "summary": "The 14 bones of the toes. The big toe (hallux) has two phalanges, the other toes three each; they are shorter than those of the hand.",
+  "facts": [
+   "14",
+   "Metatarsophalangeal and interphalangeal joints of the foot",
+   "Two sesamoid bones lie under the metatarsophalangeal joint of the hallux"
+  ],
+  "sections": [],
+  "clinical": [
+   "Hammer toe deformity and gouty arthritis (especially of the 1st MTP joint – podagra) are common problems."
+  ],
+  "tus": [
+   "Hallux valgus is lateral deviation of the big toe; a bunion develops over the head of the 1st metatarsal."
+  ],
+  "aliases": [
+   "toe bones",
+   "phalanx"
+  ]
+ }
+}

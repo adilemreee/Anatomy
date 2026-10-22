@@ -2,29 +2,33 @@
 
 Etkileşimli, üç boyutlu ve Türkçe bir insan anatomisi atlası (iOS / iPadOS 27, SwiftUI + RealityKit).
 
+Bu sürüm **kas-iskelet sistemine** odaklanır: iskelet, eklemler ve bağlar, kaslar ve kas yapışma yerleri; kalp ve damarlar da açıktır. Diğer sistemlerin
+içeriği ve 3D katmanları kodda ve uygulama paketinde durur; `Anatomy/Models/AppScope.swift`'teki listelere eklendiklerinde
+atlasa, Keşfet'e, soru bankasına ve bilgi kartlarına geri gelir.
+
 ## Özellikler
 
-- **3D atlas**: 9 katman (iskelet, eklemler ve bağlar, kaslar, kas yapışma yerleri, kalp ve damarlar, lenfoid organlar, sinir sistemi ve duyu organları, iç organlar, deri ve bölgeler) ve yaklaşık 3.900 seçilebilir parça.
+- **3D atlas**: 9 katman (iskelet, eklemler ve bağlar, kaslar, kas yapışma yerleri, kalp ve damarlar, lenfoid organlar, sinir sistemi ve duyu organları, iç organlar, deri ve bölgeler) ve yaklaşık 3.900 seçilebilir parça; bu sürümde ilk beşi açıktır.
   - Döndürme, kaydırma, yakınlaştırma; dokunarak seçme, odaklama, izole etme, gizleme ve saydamlaştırma
   - Uzaklığa göre detay seviyesi (LOD, meshoptimizer): tüm vücut 4,3 milyon yerine ~0,8 milyon üçgenle çizilir; ekranda görünmeyen parçalar en kaba seviyede tutulur
   - 32 baytlık sıkıştırılmış köşe biçimi, dokulu yüzey gölgelendiricisi (clearcoat), ekran yenilemesine bağlı kamera animasyonları, ana iş parçacığı dışında seçim ve etiket hesabı
   - İç organlar BodyParts3D 3.0'dan (karaciğer segmentleri, mide, bağırsaklar, akciğer lobları ve segmental bronşlar, böbrekler…); kadın üreme organları, kadın mesanesi ve meme bezi Human Reference Atlas'tan; erkek/kadın görünümü değiştirilebilir, bir cinsiyete özgü bir yapı açıldığında atlas o görünüme geçer
-  - **İki ayrı model (Erkek / Kadın)**: araç çubuğundaki seçiciyle değişir. Deri, yüz ve dokular MakeHuman'dan (CC0); deri atlas derisine oturtuldu (katı olmayan ICP), yüz göz ve ağız noktalarından kafatasına hizalandı. Kadın modelinde iskelet, kaslar, damarlar, sinirler ve organlar kadın derisine göre bir hacim dönüşüm alanıyla (`warp-female.bin`) ve köşe başına düzeltmelerle (`female-fix.bin`) biçimlendirilir; meme ve vulva doğrudan kadın bedeninde modellenmiştir. Deri katmanında kıl yoktur (kaş ve kirpik hariç).
+  - **İki ayrı model (Erkek / Kadın)**: araç çubuğundaki seçiciyle değişir. Deri BodyParts3D'nin kendi derisidir (iskeletle aynı bedenden), bu yüzden kemik ve dokulara birebir uyar; sade bir yüzeydir (doku resmi ve kıl yok), gözler atlasın kendi göz küreleridir. Kadın modelinde deri ve bütün katmanlar kadın bedenine bir hacim dönüşüm alanıyla (`warp-female.bin`) taşınır; göğüs ve kasık biçimi MakeHuman (CC0) kadın bedeninden alınır, yumuşak dokular köşe başına düzeltmelerle (`female-fix.bin`) derinin altında tutulur. Deri katmanı beta olarak işaretlidir.
   - Kaynak modellerde olmayan yapılar çevre anatomiye göre modellendi: vajina, kadın üretrası, kadın dış genital bölge derisi, skrotum, perikard, ductus thoracicus, cisterna chyli, sağ lenf kanalı, faringeal (adenoid) ve lingual tonsil; çekum ve anal kanal kolon ve rektumdan ayrıldı
   - **Gerçekçi** ve **Öğretici** renk modları
   - Seçilen yapıya kamera yumuşakça yaklaşır ve onu seçim kartının üstünde ortalar (Profil > Ayarlar'dan kapatılabilir)
   - **Sade görünüm**: sistem çubuğu ve arama tek düğmeye katlanır, araç çubuğu yalnızca simgelerle gösterilir; model ekranın tamamını kullanır
   - Her parçanın Türkçe adı, Latince adı ve kısa Türkçe açıklaması (2.993 terim)
-- **İnceleme modu**: yapı tek başına, koyu bir sahnede açılır; Z-Anatomy'nin 740 oluşum etiketi **Türkçe ad + Latince alt başlık** ve kısa Türkçe açıklamayla gösterilir. Kaslar bağlandıkları kemiklerle, başlangıç (kırmızı) ve tutunma (mavi) yerleriyle açılır.
+- **İnceleme modu**: yapı tek başına, koyu bir sahnede açılır; Z-Anatomy'nin 740 oluşum etiketi **Türkçe ad + Latince alt başlık** ve kısa Türkçe açıklamayla gösterilir. Kaslar bağlandıkları kemiklerle, başlangıç (kırmızı) ve tutunma (mavi) yerleriyle açılır; her pin üzerinde durduğu kemik oluşumunun adını taşır ("Supraglenoid tüberkül · Kürek kemiği"). Kemiklerde atlas metinlerinde ve sorularda en çok geçen oluşumlar önce etiketlenir (`landmarks.json`'daki `rank`).
   - Bir etikete ya da modelin bir noktasına dokununca o oluşumun bölgesi model üzerinde **renkli olarak parlar** (parçalı yapılarda, örneğin karaciğer segmentlerinde tüm parça) ve kamera o bölgeye döner; kartta "Yakınlaş" vardır
   - "Oluşumlar" listesi: yapının tüm işaretli oluşumları aranabilir listede; seçilen oluşuma kamera gider ve bölgesi renklenir
-- **İçerik**: 13 sistemde 416 Türkçe madde. Her maddede Türkçe, Latince (TA2) ve İngilizce ad, temel bilgiler (origo, insersiyo, innervasyon, kanlanma, dallar…), bölümler, klinik bilgi, **TUS notları**, ilişkili yapılar ve 3D karşılığı bulunur.
+- **İçerik**: açık sistemlerde 369 Türkçe madde (72 kemik ve iskelet yapısı, 45 eklem ve bağ, 206 kas, 46 kalp ve damar; kasların çoğu tek tek, gruplarına bağlı olarak), paket içinde 13 sistemde 564 madde. Her maddede Türkçe, Latince (TA2) ve İngilizce ad, temel bilgiler (origo, insersiyo, innervasyon, kanlanma, dallar…), bölümler, klinik bilgi, **TUS notları**, ilişkili yapılar ve 3D karşılığı bulunur.
 - **Çalış**:
-  - **Soru bankası**: 597 özgün soru (311 TUS, 286 fakülte düzeyi; 159 klinik vaka), beş seçenek, ayrıntılı açıklama ve seçenek notları; sistem ve konu bazında testler
-  - Atlas maddelerinden üretilen sorular: Latince terimler, ayrıntı soruları (özelliklerden yapıyı bulma dahil), tanım ve 3D tanıma
-  - **Deneme sınavları**: süreli, soru haritası, işaretleme, TUS neti, sistemlere göre sonuç ve tüm soruların açıklamalı incelemesi
+  - **Soru bankası**: açık sistemlerde 760 özgün soru (kemik 218, eklem 142, kas 260, kalp ve damar 140; paket içinde toplam 1.078), üç düzey (**Temel**, Fakülte, TUS), beş seçenek, ayrıntılı açıklama ve çoğunda seçenek notları; sistem, konu ve düzey bazında testler
+  - Atlas maddelerinden üretilen sorular: Latince terimler, ayrıntı soruları (özelliklerden yapıyı bulma dahil), tanım, 3D tanıma, **kas ve sinirleri** ("hangisi n. femoralis tarafından innerve EDİLMEZ?"; sinir aileleri dalları kapsar), **kemik oluşumları** (488 oluşum: hangi kemikte, hangi kemikte bulunur), grup üyeliği ve TUS/klinik notlarından yapıyı bulma
+  - **Deneme sınavları** (mini, temel tekrar, TUS, komite, maraton): süreli, soru haritası, işaretleme, TUS neti, sistemlere göre sonuç ve tüm soruların açıklamalı incelemesi
   - Yanlışlarım, işaretlediklerim, zayıf konular
-  - **Aralıklı tekrar** bilgi kartları (Tekrar / Zor / İyi / Kolay)
+  - **Aralıklı tekrar** bilgi kartları (Tekrar / Zor / İyi / Kolay): 6 deste ve yaklaşık 3.000 kart (yapı, Latince ad, origo–insersiyo–sinir ve diğer ayrıntılar, kemik oluşumları, TUS bilgileri, klinik bilgiler); her kartın kendi takvimi vardır, sistem ve konu seçilebilir
   - **İstatistikler**: 30 günlük grafik, sistemlere göre başarı, en zayıf yapılar, deneme netleri; günlük hedef ve seri
   - Her madde sayfasında "Bu konudan soru çöz"
 - **Premium** (StoreKit 2; aylık, yıllık, ömür boyu): ücretsiz sürümde iskelet sistemi ve günde 10 soru açıktır; diğer sistemler, inceleme modu, kadın anatomisi, deneme sınavları ve istatistikler Premium'dadır.
@@ -104,7 +108,7 @@ HRA klasöründe `uterus-female.glb`, `ovary-female-left/right.glb`, `fallopian-
 
 ### Deri ve kadın modeli
 
-`tools/skin/` deri ve kadın modeli araçlarını içerir: `write_warp.py` (dönüşüm alanını uygulamanın biçimine yazar), `warp_eval.py` (alanı Python'da değerlendirir), `fit_inside.py` (yumuşak dokuları erkek derisinin altına alır), `fit_breast.py` (meme dokusunu kadın göğsüne yerleştirir), `fit_bronchi.py` (segment bronşlarını akciğer içinde tutar), `female_fix.py` (kadın modeli için köşe düzeltmeleri; kadın biçiminde modellenen meme dokusunu ve kadının küçük burnundan taşan burun kemiklerini de derinin altına alır), `pushout.py` (deriyi kemiklerin üzerinde kaldırır; erkek burun kökünde geniş ve öne doğru yumuşak bir kabartma), `genitals_male.py` (penis ve skrotum derisi; kesenin üst yarısı kasık derisine kavuşarak asılı durur, penis kökü gövdeye yumuşak girer), `replace_parts.py` (yeniden yerleştirilen meme parçalarını iç paketlere aktarır), `vulva.py` (kadın dış genitali: kasık orta hattı boyunca yükseklik alanı olarak kurulan, deriye dikilen yama; açıklıklar iç organlara hizalı), `packedit.py` (paket okuma/yazma). MakeHuman gövdesinin pozlanması, oturtulması, ayak parmaklarının Z-Anatomy ayağına parmak parmak oturtulması, yüz hizalaması, kadın kasığının açılması ve doku boyama adımları çalışma klasöründeki betiklerle (`mh/`) yapılır.
+`tools/skin/` deri ve kadın modeli araçlarını içerir. Deri: `bp3d_skin_prep.py` BodyParts3D derisini (FMA7163; deri ile deri altı yağın katı katmanı) kemik merkezlerinden bulunan tek bir benzerlik dönüşümüyle atlasa taşır ve dış yüzeyini ayırır; `bp3d_skin.py` dış yüzeyin altında kalması gereken her kemik, kas, damar, sinir ve organ noktası için deriyi yumuşak tümseklerle birkaç milimetre kaldırır, üçgenleri en yakın Z-Anatomy bölgesine göre bölgelere ayırır, göz açıklıklarına atlasın göz kürelerini koyar ve kadın derisini kurar (penis ve skrotum çevresi kesilip MakeHuman kadın kasığı dikilir, göğüs MakeHuman kadın bedeninden taşınır, uyluklar orta hatta buluşur). Kadın modeli: `write_warp.py` (dönüşüm alanını uygulamanın biçimine yazar), `warp_eval.py` (alanı Python'da değerlendirir), `female_fix.py` (kadın modeli için köşe düzeltmeleri; meme dokusunu ve burun kemiklerini de derinin altına alır), `fit_breast.py` (meme dokusunu kadın göğsüne yerleştirir), `replace_parts.py` (yeniden yerleştirilen meme parçalarını iç paketlere aktarır). Ayrıca `fit_inside.py`, `fit_bronchi.py`, `pushout.py`, `packedit.py` (paket okuma/yazma) ve önceki MakeHuman derisinin araçları (`genitals_male.py`, `vulva.py`).
 
 `tools/regroup.py`, Z-Anatomy'nin hiyerarşide gruplamadığı el kemiklerini "El kemikleri" altında el bileği, tarak ve parmak kemikleri olarak gruplar (`export_zanatomy.py` bunu her dışa aktarımda uygular; tek başına çalıştırıldığında mevcut manifestleri düzeltir).
 
@@ -113,9 +117,12 @@ HRA klasöründe `uterus-female.glb`, `ovary-female-left/right.glb`, `fallopian-
 ```bash
 tools/content/build_all.sh
 python3 tools/content/terms/build.py
+python3 tools/content/landmarks.py
 ```
 
 - `tools/content/*.py`: maddeler (`viscera_extra.py`, `others_extra.py` ek maddeler; `tus_*.py` TUS notları, `common.write` sırasında eklenir)
+- `tools/content/muscular_detail_axial.py`, `muscular_detail_limbs.py`: grup maddelerinin (ör. M. quadriceps femoris) altındaki tek tek kaslar; her biri `parent` alanıyla grubuna bağlanır, grup maddesi de onları ilişkili yapılarında listeler. Bir 3D parça onu listeleyen en özgül maddeye (en az modelli) aittir.
+- `tools/content/landmarks.py`: inceleme etiketlerinden kemik oluşumu listesi (`landmarks.json`: Türkçe/Latince ad, açıklama, kemiğin maddesi, atlas ve sorulardaki geçme sayısı). Birden çok kemikte bulunan genel omur oluşumları dışarıda bırakılır. Kemik oluşumu soruları, kartları ve inceleme ekranındaki etiket önceliği bu dosyadan gelir.
 - `tools/content/questions/q_*.py`: soru bankası. Her soru `Q(düzey, konu, kök, doğru, [4 çeldirici], açıklama, notlar, e=[madde id'leri])` biçimindedir; seçenekler kökten türetilen sabit bir tohumla karıştırılır, böylece sorunun kimliği ve sırası derlemeler arasında değişmez. `questions/validate.py` madde bağlantılarını ve doğru cevap dağılımını denetler.
 - `tools/content/terms/*.py`: 3D parçaların ve inceleme etiketlerinin Türkçe sözlüğü (`features.py` adlar, `features_desc.py` açıklamalar, `fixes.py` son düzeltmeler ve eksik Latinceler)
 
@@ -140,6 +147,18 @@ Betik maddelerin `models` alanının gerçekten bir 3D parçaya karşılık geld
 - `-atlas.compact YES`: atlası sade görünümle açar
 - `-OpenEntry hepar`: açılışta bir madde sayfası gösterir, `-ShowPaywall YES`: Premium ekranını açar
 
+## Yerelleştirme
+
+Uygulama Türkçe (kaynak), İngilizce, Fransızca, Almanca ve İspanyolca'dır; cihaz başka bir dildeyse İngilizce açılır.
+
+- **Arayüz**: `Anatomy/Localizable.xcstrings`, `tools/i18n/ui/<dil>.py` sözlüklerinden `python3 tools/i18n/build_ui.py` ile doldurulur
+  (önce `xcodebuild -exportLocalizations -project Anatomy.xcodeproj -localizationPath <klasör> -exportLanguage en` ile anahtarlar yenilenir).
+  Aynı Türkçe kelimenin iki anlamı olduğunda kodda `defaultValue`'lu bir anahtar kullanılır (`flashcard.again`, `view.front`…);
+  bunların Türkçesi `build_ui.py`'deki `TURKISH` tablosundadır.
+- **İçerik**: kas-iskelet kapsamındaki maddeler, sorular, parça sözlüğü ve oluşumlar `Anatomy/Content/*.<dil>.json` dosyalarındadır.
+  Çeviri kaynakları `tools/i18n/content/src/*.py`; `python3 tools/i18n/content.py build` birleştirir, `status` eksikleri listeler.
+- **App Store metinleri**: `tools/i18n/appstore.md` (sınırlar: `python3 tools/i18n/check_appstore.py`).
+
 ## App Store notları
 
 - Ürünler (`Anatomy/Products.storekit`, App Store Connect'te aynı kimliklerle oluşturulmalı): `com.adilemre.anatomi.premium.monthly`, `…premium.yearly` (otomatik yenilenen abonelik, aynı grup) ve `…premium.lifetime` (tüketilmeyen). Fiyatlar yer tutucudur.
@@ -153,7 +172,7 @@ Betik maddelerin `models` alanının gerçekten bir 3D parçaya karşılık geld
 
 - **3D modeller**: [Z-Anatomy](https://github.com/Z-Anatomy/Models-of-human-anatomy), CC BY-SA 4.0. Modeller sadeleştirilmiş, yeniden renklendirilmiş ve sistemlere ayrılmıştır. Değiştirilmiş modeller (`Anatomy/Resources/Models`) de CC BY-SA 4.0 lisansıyla sunulur.
 - **BodyParts3D**: Z-Anatomy modelleri bu veritabanından türetilmiştir. İnceleme modundaki yüksek ayrıntılı modeller (`hd-*.bin`) BodyParts3D 3.0 verisinden hazırlanmıştır. BodyParts3D, © The Database Center for Life Science (DBCLS), CC BY-SA 2.1 JP.
-- **Deri, yüz ve deri dokuları**: [MakeHuman](https://www.makehumancommunity.org) taban modeli ve dokuları, CC0 1.0.
+- **Deri**: BodyParts3D derisi (FMA7163), CC BY-SA 2.1 JP. **Kadın bedeninin biçimi**: [MakeHuman](https://www.makehumancommunity.org) taban modeli, CC0 1.0.
 - **Kadın üreme organları, kadın mesanesi ve meme bezi**: [Human Reference Atlas](https://humanatlas.io) (HuBMAP, Visible Human Female), CC BY 4.0.
 - **meshoptimizer**: © Arseny Kapoulkine, MIT (yalnızca araç olarak, uygulamaya gömülü değildir).
 - **İngilizce kaynak metinler** (`glossary.json`): Z-Anatomy / Wikipedia, CC BY-SA.

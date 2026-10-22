@@ -22,7 +22,9 @@ struct LayersSheet: View {
                 } header: {
                     Text("Sistemler")
                 } footer: {
-                    Text("Saydam yaptığın katmanın içinden alttaki yapılara dokunabilirsin.")
+                    Text(ModelLayer.all.contains(where: \.isBeta)
+                         ? String(localized: "Saydam yaptığın katmanın içinden alttaki yapılara dokunabilirsin. Deri katmanı beta aşamasında; geliştirmeye devam ediyoruz.")
+                         : String(localized: "Saydam yaptığın katmanın içinden alttaki yapılara dokunabilirsin."))
                 }
                 .listRowBackground(Theme.card)
 
@@ -37,7 +39,7 @@ struct LayersSheet: View {
                 } header: {
                     Text("Model")
                 } footer: {
-                    Text("Erkek ve kadın modelleri ayrıdır: deri, beden biçimi, iskelet, kaslar, organlar ve üreme organları seçilen modele göre gösterilir.")
+                    Text("Erkek ve kadın modelleri ayrıdır: iskelet ve kaslar seçilen modelin beden biçimine göre gösterilir.")
                 }
                 .listRowBackground(Theme.card)
 
@@ -48,15 +50,17 @@ struct LayersSheet: View {
                     .pickerStyle(.segmented)
                     .listRowSeparator(.hidden)
                     if app.colorMode == .educational {
-                        ColorLegend(title: "Kaslar: hareketine göre", items: MaterialStyles.muscleLegend)
-                        ColorLegend(title: "Beyin: loblar", items: MaterialStyles.brainLegend)
+                        ColorLegend(title: String(localized: "Kaslar: hareketine göre"), items: MaterialStyles.muscleLegend)
+                        if AppScope.includes(layer: "nervous") {
+                            ColorLegend(title: String(localized: "Beyin: loblar"), items: MaterialStyles.brainLegend)
+                        }
                     }
                 } header: {
                     Text("Renkler")
                 } footer: {
                     Text(app.colorMode == .realistic
-                         ? "Dokular kadavradaki gerçek renklerine yakın gösterilir."
-                         : "Kaslar yaptıkları harekete, kemikler ve beyin lobları tek tek ayırt edilecek şekilde renklendirilir.")
+                         ? String(localized: "Dokular kadavradaki gerçek renklerine yakın gösterilir.")
+                         : String(localized: "Kaslar yaptıkları harekete göre, kemikler tek tek ayırt edilecek şekilde renklendirilir."))
                 }
                 .listRowBackground(Theme.card)
 
@@ -68,7 +72,7 @@ struct LayersSheet: View {
                         Label {
                             VStack(alignment: .leading, spacing: 2) {
                                 Text("Örtü dokularını göster")
-                                Text("Fasyalar, plevra, periton ve beyin zarları")
+                                Text(AppScope.includes(layer: "visceral") ? String(localized: "Fasyalar, plevra, periton ve beyin zarları") : String(localized: "Kas fasyaları ve kılıfları"))
                                     .font(.caption)
                                     .foregroundStyle(.secondary)
                             }
@@ -87,13 +91,11 @@ struct LayersSheet: View {
                 .listRowBackground(Theme.card)
 
                 Section("Hazır görünümler") {
-                    preset("Sadece iskelet", icon: "figure.stand", layers: ["skeletal"])
-                    preset("Kaslar ve iskelet", icon: "figure.strengthtraining.traditional", layers: ["skeletal", "muscular"])
-                    preset("İç organlar", icon: "lungs.fill", layers: ["skeletal", "visceral"], ghost: ["skeletal"])
-                    preset("Dolaşım sistemi", icon: "heart.fill", layers: ["skeletal", "cardiovascular"], ghost: ["skeletal"])
-                    preset("Sinir sistemi", icon: "brain.head.profile.fill", layers: ["skeletal", "nervous"], ghost: ["skeletal"])
-                    preset("Eklemler ve bağlar", icon: "figure.flexibility", layers: ["skeletal", "joints"])
-                    preset("Kas yapışma yerleri", icon: "pin.fill", layers: ["skeletal", "insertions"])
+                    preset(String(localized: "Sadece iskelet"), icon: "figure.stand", layers: ["skeletal"])
+                    preset(String(localized: "Kaslar ve iskelet"), icon: "figure.strengthtraining.traditional", layers: ["skeletal", "muscular"])
+                    preset(String(localized: "Eklemler ve bağlar"), icon: "figure.flexibility", layers: ["skeletal", "joints"])
+                    preset(String(localized: "Kas yapışma yerleri"), icon: "pin.fill", layers: ["skeletal", "insertions"])
+                    preset(String(localized: "Saydam kaslar, iskelet"), icon: "circle.dashed", layers: ["skeletal", "muscular"], ghost: ["muscular"])
                 }
                 .listRowBackground(Theme.card)
             }
@@ -133,8 +135,13 @@ private struct LayerRow: View {
         HStack(spacing: 12) {
             SystemBadge(icon: layer.icon, color: layer.tint, size: 34)
             VStack(alignment: .leading, spacing: 2) {
-                Text(layer.title)
-                    .font(.body.weight(.medium))
+                HStack(spacing: 6) {
+                    Text(layer.title)
+                        .font(.body.weight(.medium))
+                    if layer.isBeta {
+                        BetaBadge()
+                    }
+                }
                 Group {
                     if scene.loadingLayers.contains(layer.id) {
                         Text("Yükleniyor…")
@@ -157,7 +164,7 @@ private struct LayerRow: View {
                         .foregroundStyle(layer.tint)
                 }
                 .buttonStyle(.borderless)
-                .accessibilityLabel(scene.isGhosted(layer.id) ? "Opak yap" : "Saydam yap")
+                .accessibilityLabel(scene.isGhosted(layer.id) ? String(localized: "Opak yap") : String(localized: "Saydam yap"))
             }
             Toggle("", isOn: Binding(
                 get: { scene.isEnabled(layer.id) },
@@ -165,6 +172,22 @@ private struct LayerRow: View {
             ))
             .labelsHidden()
         }
+    }
+}
+
+/// A small "Beta" tag for features still being refined.
+struct BetaBadge: View {
+    var compact = false
+
+    var body: some View {
+        Text("BETA")
+            .font(.system(size: compact ? 7 : 9, weight: .heavy, design: .rounded))
+            .tracking(compact ? 0.3 : 0.6)
+            .foregroundStyle(.white)
+            .padding(.horizontal, compact ? 3 : 5)
+            .padding(.vertical, compact ? 1 : 2)
+            .background(Theme.goldGradient, in: .capsule)
+            .accessibilityLabel("Beta")
     }
 }
 

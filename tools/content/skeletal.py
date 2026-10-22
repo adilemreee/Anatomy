@@ -617,4 +617,6 @@ E("phalanges-pedis", "Ayak parmak kemikleri", "Phalanges pedis", "Phalanges of f
   models=["Phalanges of foot", "Sesamoid bones of foot"], aliases=["ayak parmağı"]),
 ]
 
-write("skeletal", entries)
+from skeletal_more import merge, EXTRA
+
+write("skeletal", merge(entries), EXTRA)

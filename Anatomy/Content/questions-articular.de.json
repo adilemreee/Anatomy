@@ -1,0 +1,2800 @@
+{
+ "system": "articular",
+ "questions": [
+  {
+   "id": "ar-71f95389",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches der folgenden Gelenke ist eine Syndesmose?",
+   "options": [
+    "Sutura sagittalis",
+    "Verankerung der Zähne in den Alveolen",
+    "Symphysis pubica",
+    "Erstes Sternokostalgelenk",
+    "Distales Tibiofibulargelenk"
+   ],
+   "answer": 4,
+   "explanation": "Eine Syndesmose ist eine Bandhaft, bei der Knochen durch ein Band oder eine Membran verbunden sind: Beispiele sind das distale Tibiofibulargelenk und die Membranae interosseae von Unterarm und Unterschenkel. Die Symphyse ist faserknorpelig, das 1. Sternokostalgelenk eine Synchondrose, die Zahn-Alveolen-Verbindung eine Gomphosis, Nähte sind schädeltypische Bandhaften.",
+   "notes": [
+    "Naht (Sutura).",
+    "Gomphosis.",
+    "Faserknorpel (Symphyse).",
+    "Hyaliner Knorpel (Synchondrose).",
+    ""
+   ],
+   "entries": [
+    "eklem-tipleri",
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-296e0313",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches der folgenden Gelenke ist ein Sattelgelenk?",
+   "options": [
+    "Art. radiocarpalis",
+    "Proximales Radioulnargelenk",
+    "Daumensattelgelenk (Karpometakarpalgelenk I)",
+    "Art. acromioclavicularis",
+    "Art. humeroulnaris"
+   ],
+   "answer": 2,
+   "explanation": "Bei Sattelgelenken sind beide Flächen in einer Richtung konkav, in der anderen konvex; sie erlauben Bewegungen um zwei Achsen einschließlich Opposition. Beispiele: Karpometakarpalgelenk I und Sternoklavikulargelenk. Das Radiokarpalgelenk ist ein Eigelenk, das Humeroulnargelenk ein Scharniergelenk, das proximale Radioulnargelenk ein Radgelenk und das AC-Gelenk ein planes Gelenk.",
+   "entries": [
+    "eklem-tipleri",
+    "artt-manus"
+   ]
+  },
+  {
+   "id": "ar-ca13fe9c",
+   "group": "Allgemeines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche der folgenden Zuordnungen ist FALSCH?",
+   "options": [
+    "Kniegelenk – bikondyläres Gelenk",
+    "Art. atlantooccipitalis – Radgelenk (Zapfengelenk)",
+    "Art. atlantoaxialis mediana – Radgelenk",
+    "Art. zygapophysialis – planes Gelenk",
+    "Hüftgelenk – Kugelgelenk"
+   ],
+   "answer": 1,
+   "explanation": "Das Atlantookzipitalgelenk ist ein Eigelenk (Kondylengelenk) und ermöglicht das „Ja“-Nicken. Radgelenke sind das mediane Atlantoaxialgelenk („Nein“-Bewegung) sowie das proximale und distale Radioulnargelenk.",
+   "entries": [
+    "eklem-tipleri",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-244f637a",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Die Wachstumsfuge (Epiphysenfuge) ist ein Beispiel für welchen Gelenktyp?",
+   "options": [
+    "Diarthrose",
+    "Synchondrose (primäre Knorpelhaft)",
+    "Symphyse (sekundäre Knorpelhaft)",
+    "Syndesmose",
+    "Gomphosis"
+   ],
+   "answer": 1,
+   "explanation": "Bei primären Knorpelhaften (Synchondrosen) sind die Knochen durch hyalinen Knorpel verbunden, und die meisten verknöchern mit der Zeit: Epiphysenfuge, Verbindung 1. Rippe–Manubrium, Synchondrosis sphenooccipitalis. Sekundäre Knorpelhaften (Symphysen) enthalten Faserknorpel und liegen in der Mittellinie.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-230a765a",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage zum Kiefergelenk ist FALSCH?",
+   "options": [
+    "Ein Teil des M. pterygoideus lateralis setzt am Diskus an.",
+    "Beim Mundöffnen gleiten Kondylus und Diskus nach vorn zum Tuberculum articulare.",
+    "Der Discus articularis teilt das Gelenk in eine obere und eine untere Kammer.",
+    "Die Gelenkflächen sind mit hyalinem Knorpel überzogen.",
+    "In der unteren Gelenkkammer findet die Scharnierbewegung (Rotation) statt."
+   ],
+   "answer": 3,
+   "explanation": "Die Gelenkflächen des Kiefergelenks sind nicht mit hyalinem, sondern mit Faserknorpel überzogen (im Zusammenhang mit der desmalen Herkunft der Knochen). Der Diskus teilt das Gelenk in zwei Kammern: unten Rotation, oben Gleiten nach vorn (Translation). Der Pterygoideus lateralis zieht Kondylus und Diskus nach vorn.",
+   "entries": [
+    "art-temporomandibularis",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "ar-30f33bcd",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient kann nach dem Gähnen den Mund nicht mehr schließen. Der Unterkieferkondylus ist vor das Tuberculum articulare geglitten. In welche Richtung wird der Kiefer zur Reposition gedrückt?",
+   "options": [
+    "Erst seitlich, dann nach oben",
+    "Direkt nach hinten",
+    "Erst nach unten, dann nach hinten",
+    "Direkt nach oben",
+    "Erst nach oben, dann nach vorn"
+   ],
+   "answer": 2,
+   "explanation": "Die Kiefergelenkluxation erfolgt fast immer nach vorn; der Kondylus verhakt sich vor dem Tuberculum, und der Muskelspasmus (Masseter, Temporalis, Pterygoideus medialis) hält ihn dort. Mit den Daumen auf den unteren Molaren wird der Kiefer erst nach unten (unter dem Tuberculum hindurch) und dann nach hinten gedrückt (Hippokrates-Handgriff).",
+   "entries": [
+    "art-temporomandibularis",
+    "mandibula"
+   ]
+  },
+  {
+   "id": "ar-56a27913",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Der gallertige Kern der Bandscheibe (Nucleus pulposus) ist embryologisch ein Rest wovon?",
+   "options": [
+    "Chorda dorsalis",
+    "Sklerotom",
+    "Neuralleiste",
+    "Dermomyotom",
+    "Intermediäres Mesoderm"
+   ],
+   "answer": 0,
+   "explanation": "Der Nucleus pulposus ist ein Rest der Chorda dorsalis; der umgebende Anulus fibrosus besteht aus Faserknorpelringen sklerotomaler Herkunft. Mit dem Alter nimmt sein Wassergehalt ab und die Bandscheibenhöhe sinkt.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-b272030c",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Warum treten lumbale Bandscheibenvorfälle meist posterolateral auf?",
+   "options": [
+    "Das Lig. longitudinale anterius stützt die Rückseite.",
+    "Der Anulus fibrosus ist hinten dicker.",
+    "Das Lig. longitudinale posterius ist in der Mitte kräftig und seitlich dünn.",
+    "Der Nucleus pulposus liegt nahe dem vorderen Bandscheibenteil.",
+    "Das Lig. flavum drückt die Bandscheibe von der Seite."
+   ],
+   "answer": 2,
+   "explanation": "Das hintere Längsband ist ein schmaler Streifen hinter den Wirbelkörpern und stützt die Bandscheibe nur in der Mittellinie. Zudem ist der Anulus fibrosus hinten dünner. Daher prolabiert der Nucleus pulposus meist posterolateral und komprimiert die Nervenwurzel.",
+   "entries": [
+    "discus-intervertebralis",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-a0beeda5",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches gelbe, an elastischen Fasern reiche Band verläuft zwischen den Laminae der Wirbelbögen?",
+   "options": [
+    "Lig. supraspinale",
+    "Lig. longitudinale posterius",
+    "Lig. flavum",
+    "Lig. nuchae",
+    "Lig. interspinale"
+   ],
+   "answer": 2,
+   "explanation": "Die Ligg. flava verbinden benachbarte Laminae; dank ihrer elastischen Fasern helfen sie beim Aufrichten der Wirbelsäule nach der Beugung. Bei der Lumbalpunktion durchquert die Nadel Haut, Lig. supraspinale und interspinale und dann das Lig. flavum (spürbarer Widerstandsverlust), um den Epiduralraum zu erreichen.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-0918e232",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In welchem Gelenk findet der Großteil der „Nein“-Bewegung (Rotation) des Kopfes statt?",
+   "options": [
+    "Art. atlantooccipitalis",
+    "Art. temporomandibularis",
+    "Art. atlantoaxialis",
+    "Bandscheibe C7–T1",
+    "Facettengelenke C2–C3"
+   ],
+   "answer": 2,
+   "explanation": "In den Atlantoaxialgelenken (ein medianes Radgelenk und zwei laterale plane Gelenke) dreht sich der Atlas um den Dens; etwa die Hälfte der Halsrotation erfolgt hier. Die „Ja“-Bewegung findet im Atlantookzipitalgelenk statt. Die Ligg. alaria begrenzen übermäßige Rotation.",
+   "entries": [
+    "atlas",
+    "axis",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-24e0cc41",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Gelenk bildet der Rippenkopf mit den Körpern zweier benachbarter Brustwirbel?",
+   "options": [
+    "Art. sternocostalis",
+    "Art. costochondralis",
+    "Art. costotransversaria",
+    "Art. interchondralis",
+    "Art. capitis costae"
+   ],
+   "answer": 4,
+   "explanation": "Der Kopf einer typischen Rippe bildet mit den Halbfacetten zweier benachbarter Wirbelkörper und der dazwischenliegenden Bandscheibe die Art. capitis costae; ihr Höcker bildet mit dem Querfortsatz des unteren Wirbels die Art. costotransversaria. Diese beiden Gelenke ermöglichen die Eimerhenkel- und Pumpenschwengelbewegung der Rippe bei der Atmung.",
+   "entries": [
+    "artt-thoracis",
+    "costae",
+    "vertebrae-thoracicae"
+   ]
+  },
+  {
+   "id": "ar-e90c051e",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches ist das einzige echte (synoviale) Gelenk, das die obere Extremität mit dem Achsenskelett verbindet?",
+   "options": [
+    "Schultergelenk",
+    "Art. costoclavicularis",
+    "Skapulothorakale Gleitverbindung",
+    "Art. acromioclavicularis",
+    "Art. sternoclavicularis"
+   ],
+   "answer": 4,
+   "explanation": "Die einzige gelenkige Verbindung der oberen Extremität mit dem Achsenskelett ist das Sternoklavikulargelenk. Es ist ein Sattelgelenk mit Diskus und wird durch das Lig. costoclaviculare sehr kräftig gesichert; daher luxiert es selten, die Klavikulafraktur ist häufiger. Die skapulothorakale „Verbindung“ ist kein echtes Gelenk.",
+   "entries": [
+    "art-sternoclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-55314209",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein Rugbyspieler ist auf die Schulter gestürzt; zwischen Acromion und Clavicula besteht eine Stufe, das laterale Klavikulaende steht hoch. Welches Band muss für diese Sprengung (Typ III) zusätzlich gerissen sein?",
+   "options": [
+    "Lig. coracoacromiale",
+    "Lig. coracoclaviculare",
+    "Lig. transversum scapulae superius",
+    "Lig. coracohumerale",
+    "Lig. glenohumerale inferius"
+   ],
+   "answer": 1,
+   "explanation": "Reißt bei der AC-Gelenksprengung nur das AC-Band, ist die Stufe gering. Reißt auch das Lig. coracoclaviculare (Pars conoidea und trapezoidea), sinken Schulterblatt und Arm ab, und das Klavikulaende steht deutlich hoch (Klaviertastenphänomen).",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula",
+    "scapula"
+   ]
+  },
+  {
+   "id": "ar-94215574",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Eine Volleyballspielerin stürzt mit abduziertem und außenrotiertem Arm. Es liegt eine Schulterluxation vor, nach der Reposition besteht ein Sensibilitätsausfall an der Schulteraußenseite. Welche Luxationsrichtung und welcher verletzte Nerv?",
+   "options": [
+    "Obere Luxation – N. musculocutaneus",
+    "Hintere Luxation – N. axillaris",
+    "Vordere untere Luxation – N. axillaris",
+    "Hintere Luxation – N. suprascapularis",
+    "Vordere untere Luxation – N. radialis"
+   ],
+   "answer": 2,
+   "explanation": "Das Glenohumeralgelenk ist das am häufigsten luxierende große Gelenk; über 95 % der Luxationen erfolgen nach vorn unten, weil der untere Kapselteil am schwächsten ist. Beim Tiefertreten des Humeruskopfes wird der N. axillaris direkt unterhalb des Collum chirurgicum gedehnt.",
+   "entries": [
+    "art-humeri",
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ar-75098002",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Faserknorpelring vertieft das Glenohumeralgelenk?",
+   "options": [
+    "Labrum glenoidale",
+    "Discus articularis",
+    "Meniskus",
+    "Bursa subacromialis",
+    "Lig. coracohumerale"
+   ],
+   "answer": 0,
+   "explanation": "Die Cavitas glenoidalis ist flach; das umgebende Labrum glenoidale vertieft die Pfanne. An seinem oberen Teil setzt der lange Bizepskopf an; ein Riss dort heißt SLAP-Läsion, ein Riss im vorderen unteren Teil Bankart-Läsion.",
+   "entries": [
+    "art-humeri",
+    "scapula"
+   ]
+  },
+  {
+   "id": "ar-d0f60251",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein 50-jähriger Maler hat beim seitlichen Armheben zwischen 60° und 120° Schmerzen (schmerzhafter Bogen). Welche Sehne der Rotatorenmanschette wird unter dem Acromion eingeengt und reißt am häufigsten?",
+   "options": [
+    "M. infraspinatus",
+    "M. supraspinatus",
+    "M. teres major",
+    "M. teres minor",
+    "M. subscapularis"
+   ],
+   "answer": 1,
+   "explanation": "Die Supraspinatussehne zieht durch den engen Raum zwischen Acromion, Lig. coracoacromiale und Humeruskopf. In mittleren Abduktionswinkeln wird sie eingeklemmt (subakromiales Impingement); Degeneration und Rupturen betreffen am häufigsten diese Sehne in ihrer schlecht durchbluteten Zone.",
+   "entries": [
+    "art-humeri",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "ar-873e5e75",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wodurch entsteht der „Tragewinkel“ des Ellenbogens?",
+   "options": [
+    "Das Radiusköpfchen ist länger als die Ulna",
+    "Der mediale Rand der Trochlea humeri reicht tiefer als der laterale",
+    "Das Lig. collaterale radiale ist kurz",
+    "Das Capitulum humeri ist groß",
+    "Das Olecranon ist nach lateral geneigt"
+   ],
+   "answer": 1,
+   "explanation": "In Streckung weicht der Unterarm gegenüber dem Oberarm nach außen ab (~10° beim Mann, ~15° bei der Frau). Ursache ist die weiter nach unten reichende mediale Lippe der Trochlea. Cubitus valgus bzw. varus sind Vergrößerung bzw. Verkleinerung dieses Winkels.",
+   "entries": [
+    "art-cubiti",
+    "humerus"
+   ]
+  },
+  {
+   "id": "ar-49c6e4a8",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage zum Ellenbogengelenk ist FALSCH?",
+   "options": [
+    "Das Lig. collaterale ulnare schützt vor Valgusstress.",
+    "Das Humeroulnargelenk ist ein Scharniergelenk.",
+    "Das Lig. anulare radii umgreift das Radiusköpfchen.",
+    "Im Humeroradialgelenk finden sowohl Beugung als auch Rotation statt.",
+    "Das proximale Radioulnargelenk hat eine eigene Gelenkkapsel."
+   ],
+   "answer": 4,
+   "explanation": "Der Ellenbogen ist ein zusammengesetztes Gelenk aus Humeroulnar-, Humeroradial- und proximalem Radioulnargelenk; alle drei liegen in einer gemeinsamen Kapsel. Das mediale (ulnare) Seitenband schützt vor Valgus-, das laterale (radiale) vor Varusstress.",
+   "entries": [
+    "art-cubiti",
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-4fb954c8",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In welchen Gelenken erfolgen Pronation und Supination?",
+   "options": [
+    "Humeroradial- und Karpometakarpalgelenke",
+    "Humeroulnar- und Radiokarpalgelenk",
+    "Mediokarpalgelenk",
+    "Proximales und distales Radioulnargelenk",
+    "Nur im Radiokarpalgelenk"
+   ],
+   "answer": 3,
+   "explanation": "Bei Pronation und Supination dreht sich der Radius proximal in der Incisura radialis ulnae und distal um den Ulnakopf. Die beiden Radgelenke arbeiten mit der Membrana interossea zusammen.",
+   "entries": [
+    "artt-radioulnares",
+    "radius",
+    "ulna"
+   ]
+  },
+  {
+   "id": "ar-ffc10707",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche der folgenden Strukturen ist NICHT direkt an der Art. radiocarpalis beteiligt?",
+   "options": [
+    "Os lunatum",
+    "Distales Ende der Ulna",
+    "Distale Gelenkfläche des Radius",
+    "Discus articularis (TFCC)",
+    "Os scaphoideum"
+   ],
+   "answer": 1,
+   "explanation": "Das Radiokarpalgelenk wird proximal von Radius und triangulärem Faserknorpeldiskus (TFCC), distal von Scaphoideum, Lunatum und Triquetrum gebildet. Die Ulna ist durch den Diskus von den Handwurzelknochen getrennt und daher nicht direkt beteiligt.",
+   "entries": [
+    "art-radiocarpalis",
+    "ulna",
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "ar-51873285",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Zu welchem Gelenktyp gehören die Metakarpophalangealgelenke?",
+   "options": [
+    "Scharniergelenk (Ginglymus)",
+    "Planes Gelenk",
+    "Radgelenk",
+    "Sattelgelenk",
+    "Eigelenk (Kondylengelenk)"
+   ],
+   "answer": 4,
+   "explanation": "Die MCP-Gelenke sind Eigelenke: Beugung–Streckung und Abduktion–Adduktion sind möglich, eine aktive Rotation nicht. Die Interphalangealgelenke sind reine Scharniergelenke.",
+   "entries": [
+    "artt-manus",
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "ar-2a268400",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band, das als stärkstes Band des Körpers gilt, verhindert die Überstreckung der Hüfte?",
+   "options": [
+    "Lig. iliofemorale",
+    "Lig. ischiofemorale",
+    "Lig. capitis femoris",
+    "Lig. inguinale",
+    "Lig. pubofemorale"
+   ],
+   "answer": 0,
+   "explanation": "Das umgekehrt Y-förmige Lig. iliofemorale (Bigelow-Band) zieht von der SIAI zur Linea intertrochanterica. Im Stand verhindert es passiv das Rückwärtskippen des Rumpfes und ermöglicht aufrechtes Stehen ohne Muskelarbeit.",
+   "entries": [
+    "art-coxae",
+    "os-coxae",
+    "femur"
+   ]
+  },
+  {
+   "id": "ar-4674d825",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Bei einem Verkehrsunfall prallte das Knie eines Fahrers gegen das Armaturenbrett; das Bein ist verkürzt, gebeugt, adduziert und innenrotiert. Es liegt eine Hüftluxation vor. Welcher Nerv wird dabei am häufigsten verletzt?",
+   "options": [
+    "N. femoralis",
+    "N. obturatorius",
+    "N. ischiadicus",
+    "N. gluteus inferior",
+    "N. cutaneus femoris lateralis"
+   ],
+   "answer": 2,
+   "explanation": "Bei der „Dashboard“-Verletzung mit gebeugtem Knie luxiert der Hüftkopf nach hinten (die meisten Hüftluxationen). Hinten drückt oder dehnt er den N. ischiadicus; am häufigsten ist der fibulare Anteil betroffen.",
+   "entries": [
+    "art-coxae",
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ar-561bb137",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Die Arterie im Lig. capitis femoris ist meist ein Ast welcher Arterie?",
+   "options": [
+    "A. glutea superior",
+    "A. circumflexa femoris medialis",
+    "A. obturatoria",
+    "A. profunda femoris",
+    "A. circumflexa femoris lateralis"
+   ],
+   "answer": 2,
+   "explanation": "Die Arterie des Lig. capitis femoris (R. acetabularis) ist ein Ast der A. obturatoria; im Kindesalter trägt sie wesentlich zur Versorgung des Hüftkopfes bei, beim Erwachsenen nur wenig. Beim Erwachsenen wird der Kopf hauptsächlich von der A. circumflexa femoris medialis versorgt.",
+   "entries": [
+    "art-coxae",
+    "femur"
+   ]
+  },
+  {
+   "id": "ar-74361042",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Fußballer hört bei plötzlichem Richtungswechsel einen „Plopp“ im Knie, das Knie schwillt rasch an. Bei der Untersuchung gleitet die Tibia bei 90° Beugung übermäßig nach vorn. Welche Struktur ist verletzt?",
+   "options": [
+    "Lig. patellae",
+    "Lig. cruciatum anterius",
+    "Lig. cruciatum posterius",
+    "Lig. collaterale tibiale",
+    "Außenmeniskus"
+   ],
+   "answer": 1,
+   "explanation": "Das vordere Kreuzband verhindert das Vorgleiten der Tibia gegenüber dem Femur; vordere Schublade und Lachman-Test sind positiv. Das hintere Kreuzband verhindert das Zurückgleiten (hintere Schublade).",
+   "entries": [
+    "ligg-cruciata",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-9a262b50",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was ist der Hauptgrund dafür, dass der Innenmeniskus häufiger reißt als der Außenmeniskus?",
+   "options": [
+    "Er ist fest mit dem Lig. collaterale tibiale verwachsen und daher wenig beweglich",
+    "Er ist an der Popliteussehne befestigt",
+    "Er hat überhaupt keine Blutversorgung",
+    "Er ist mit dem hinteren Kreuzband verwachsen",
+    "Er ist kleiner und kreisförmiger"
+   ],
+   "answer": 0,
+   "explanation": "Der Innenmeniskus ist C-förmig und mit seinem Außenrand am Innenband befestigt; da er bei Bewegungen nicht ausweichen kann, reißt er. Der Außenmeniskus ist kreisförmiger und beweglicher; die Popliteussehne trennt ihn vom Außenband. „Unhappy Triad“: Innenband + VKB + Innenmeniskus.",
+   "entries": [
+    "meniscus",
+    "ligg-collateralia-genus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-c86f32a6",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Muskel entriegelt das in voller Streckung verriegelte Knie, damit die Beugung beginnen kann?",
+   "options": [
+    "M. semimembranosus",
+    "M. popliteus",
+    "M. gastrocnemius",
+    "M. sartorius",
+    "M. biceps femoris"
+   ],
+   "answer": 1,
+   "explanation": "In den letzten Graden der Streckung rotiert der Femur auf der Tibia nach innen, und das Knie verriegelt (Schlussrotation). Zu Beginn der Beugung entriegelt der M. popliteus es, indem er den Femur nach außen (ohne Belastung die Tibia nach innen) dreht.",
+   "entries": [
+    "m-popliteus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-dd74f351",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band wird bei einem Valgusstress durch einen Schlag gegen die Knieaußenseite zuerst geschädigt?",
+   "options": [
+    "Lig. collaterale tibiale (Innenband)",
+    "Lig. popliteum obliquum",
+    "Lig. cruciatum posterius",
+    "Lig. patellae",
+    "Lig. collaterale fibulare (Außenband)"
+   ],
+   "answer": 0,
+   "explanation": "Eine von außen einwirkende Kraft spannt die Innenseite des Knies (Valgus): Das Innenband reißt, bei schweren Verletzungen kommen VKB und Innenmeniskus hinzu. Das Außenband wird bei Varusstress verletzt.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-b47c2724",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Eine junge Frau ist auf unebenem Boden nach innen umgeknickt; vor dem Außenknöchel bestehen Schwellung und Druckschmerz. Welches Band ist am häufigsten verletzt?",
+   "options": [
+    "Lig. tibiofibulare anterius",
+    "Lig. calcaneofibulare",
+    "Lig. talofibulare posterius",
+    "Lig. deltoideum",
+    "Lig. talofibulare anterius"
+   ],
+   "answer": 4,
+   "explanation": "Die meisten Sprunggelenkdistorsionen erfolgen in Plantarflexion und Supination; das Lig. talofibulare anterius, das schwächste Außenband, reißt zuerst, dann das Lig. calcaneofibulare. Das mediale Lig. deltoideum ist sehr kräftig und wird meist zusammen mit einer Knöchelfraktur verletzt.",
+   "entries": [
+    "art-talocruralis",
+    "fibula"
+   ]
+  },
+  {
+   "id": "ar-1f239c4c",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In welchen Gelenken erfolgen Inversion und Eversion des Fußes hauptsächlich?",
+   "options": [
+    "Metatarsophalangealgelenke",
+    "Unteres Sprunggelenk (subtalar und talokalkaneonavikular)",
+    "Distales Tibiofibulargelenk",
+    "Oberes Sprunggelenk",
+    "Tarsometatarsalgelenke"
+   ],
+   "answer": 1,
+   "explanation": "Das obere Sprunggelenk ist ein Scharniergelenk für Dorsalextension und Plantarflexion. Inversion und Eversion erfolgen unterhalb des Talus im Subtalar- und Talokalkaneonavikulargelenk, ein kleiner Teil im Chopart-Gelenk.",
+   "entries": [
+    "artt-pedis",
+    "art-talocruralis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-e770222c",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In welcher Stellung ist das obere Sprunggelenk am stabilsten, und warum?",
+   "options": [
+    "In Inversion, weil die Außenbänder gespannt sind.",
+    "In Dorsalextension, weil die vorn breitere Trochlea tali fest zwischen den Knöcheln verkeilt ist.",
+    "In Plantarflexion, weil das Lig. deltoideum am stärksten gespannt ist.",
+    "In Plantarflexion, weil die Knöchel den Talus vollständig umgreifen.",
+    "In Neutralstellung, weil die Kapsel am lockersten ist."
+   ],
+   "answer": 1,
+   "explanation": "Die Trochlea tali ist vorn breit und hinten schmal. In Dorsalextension schiebt sich der breite vordere Teil zwischen die Knöchel, und das Gelenk ist stabil. In Plantarflexion liegt der schmale Teil in der Gabel, das Gelenk lockert sich; deshalb ereignen sich Distorsionen meist in Plantarflexion.",
+   "entries": [
+    "art-talocruralis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-fe165037",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Aussage zum Iliosakralgelenk ist richtig?",
+   "options": [
+    "Es ist ein Kugelgelenk mit großem Bewegungsumfang.",
+    "Es ist ein Mischgelenk: vorn synovial, hinten durch kräftige interossäre Bänder verbunden.",
+    "Es ist beim Morbus Bechterew nicht betroffen.",
+    "Es liegt zwischen Steißbein und Darmbein.",
+    "Es ist ein rein fibröses Gelenk."
+   ],
+   "answer": 1,
+   "explanation": "Der Teil des ISG zwischen den Facies auriculares ist synovial; dahinter liegen die Ligg. sacroiliaca interossea, die zu den stärksten Bändern des Körpers gehören. Es ist kaum beweglich und überträgt die Last vom Rumpf auf das Becken. Der Morbus Bechterew beginnt meist in diesem Gelenk (Sakroiliitis).",
+   "entries": [
+    "art-sacroiliaca",
+    "os-sacrum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-1c090eed",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Gelenktyp ist die Symphysis pubica?",
+   "options": [
+    "Primäre Knorpelhaft (Synchondrose)",
+    "Naht (Sutura)",
+    "Syndesmose",
+    "Synoviales planes Gelenk",
+    "Sekundäre Knorpelhaft (faserknorpelige Symphyse)"
+   ],
+   "answer": 4,
+   "explanation": "Die beiden Schambeine verbinden sich über hyalinknorpelig überzogene Flächen und einen dazwischenliegenden Faserknorpeldiskus (Discus interpubicus). In der Schwangerschaft lockern sich die Bänder hormonell, und das Gelenk weitet sich etwas.",
+   "entries": [
+    "symphysis-pubica",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-fb65a359",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage zu den von Lig. sacrospinale und Lig. sacrotuberale gebildeten Öffnungen ist richtig?",
+   "options": [
+    "Sie verschließen das Foramen obturatum.",
+    "Sie trennen Lacuna musculorum und Lacuna vasorum.",
+    "Sie wandeln die Incisura ischiadica major und minor in das Foramen ischiadicum majus und minus um.",
+    "Sie bilden den Boden des Leistenkanals.",
+    "Sie bilden die Wand des Canalis pudendalis."
+   ],
+   "answer": 2,
+   "explanation": "Die beiden Bänder verbinden Kreuzbein und Sitzbein und verhindern das Vorkippen des Kreuzbeins. Sie machen aus der Incisura ischiadica major das Foramen ischiadicum majus und aus der Incisura minor das Foramen minus. Der Piriformis teilt das große Loch in Foramen supra- und infrapiriforme.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae",
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "ar-081572fb",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches der folgenden Merkmale gehört NICHT zu einem synovialen Gelenk?",
+   "options": [
+    "Gelenkkapsel",
+    "Gelenkhöhle",
+    "Hyaliner Gelenkknorpel",
+    "Durch Bindegewebe verwachsene Knochenenden",
+    "Synovia (Gelenkflüssigkeit)"
+   ],
+   "answer": 3,
+   "explanation": "Bei echten Gelenken sind die Knochenenden mit hyalinem Knorpel überzogen und durch einen Gelenkspalt getrennt; diesen umschließen Synovialmembran und fibröse Kapsel, die Synovia ernährt und schmiert. Die Verwachsung durch Bindegewebe kennzeichnet Bandhaften (Nähte, Syndesmosen).",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-faa2b7bc",
+   "group": "Allgemeines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was besagt das Hilton-Gesetz?",
+   "options": [
+    "Jedes Gelenk wird von einem einzigen Nerv versorgt",
+    "Die Nerven der Muskeln, die ein Gelenk bewegen, versorgen auch dieses Gelenk und die darüberliegende Haut",
+    "Gelenkknorpel ist nervenreich",
+    "Die Bänder eines Gelenks wirken entgegengesetzt zu seinen Muskeln",
+    "Die Blutversorgung eines Gelenks stammt nur aus Kapselarterien"
+   ],
+   "answer": 1,
+   "explanation": "Das Hilton-Gesetz erklärt, warum Gelenkschmerzen in entfernte Regionen ausstrahlen können: Da z. B. der N. obturatorius auch das Hüftgelenk versorgt, kann eine Hüfterkrankung Schmerzen an der Knieinnenseite verursachen. Gelenkknorpel besitzt weder Nerven noch Gefäße.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-35071863",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Gelenktyp verankert die Zähne in den Alveolen?",
+   "options": [
+    "Syndesmose",
+    "Gomphosis (Einkeilung)",
+    "Symphyse",
+    "Synchondrose",
+    "Naht"
+   ],
+   "answer": 1,
+   "explanation": "Die Gomphosis ist eine Bandhaft: Die Zahnwurzel ist über den Zahnhalteapparat (Desmodont) wie ein Pflock in der Alveole befestigt. Nähte verbinden Schädelknochen, eine Syndesmose distal Tibia und Fibula; die Epiphysenfuge ist eine Synchondrose, Schambeinfuge und Bandscheiben sind Symphysen.",
+   "entries": [
+    "eklem-tipleri",
+    "dentes"
+   ]
+  },
+  {
+   "id": "ar-471daa9c",
+   "group": "Allgemeines",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche der folgenden Verbindungen ist KEINE Synchondrose?",
+   "options": [
+    "Spheno-okzipitale Verbindung",
+    "Verbindung zwischen 1. Rippe und Manubrium",
+    "Epiphysenfuge",
+    "Y-Fuge des Hüftbeins",
+    "Symphysis pubica"
+   ],
+   "answer": 4,
+   "explanation": "Synchondrosen sind primäre Knorpelhaften aus hyalinem Knorpel, die meist mit der Zeit verknöchern. Die Schambeinfuge ist eine sekundäre Knorpelhaft (Symphyse) mit Faserknorpeldiskus; auch die Bandscheiben und die Manubriosternalverbindung gehören zu dieser Gruppe.",
+   "entries": [
+    "eklem-tipleri",
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-78703f7e",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Bewegung findet hauptsächlich im Atlantookzipitalgelenk statt?",
+   "options": [
+    "Überhaupt keine Bewegung",
+    "Nur Seitneigung",
+    "Drehen des Kopfes nach rechts und links („Nein“-Bewegung)",
+    "Nur Rotation",
+    "Nicken nach vorn und hinten („Ja“-Bewegung)"
+   ],
+   "answer": 4,
+   "explanation": "Die Hinterhauptskondylen sitzen auf den oberen Gelenkflächen des Atlas; dieses Eigelenk erlaubt vor allem Beugung–Streckung und etwas Seitneigung. Die Rotation erfolgt überwiegend in den Atlantoaxialgelenken.",
+   "entries": [
+    "ligg-columnae",
+    "atlas"
+   ]
+  },
+  {
+   "id": "ar-044f5001",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Das Lig. nuchae ist die Fortsetzung welches Bandes am Hals?",
+   "options": [
+    "Lig. flavum",
+    "Lig. apicis dentis",
+    "Lig. longitudinale anterius",
+    "Membrana tectoria",
+    "Lig. supraspinale"
+   ],
+   "answer": 4,
+   "explanation": "Das Lig. supraspinale, das die Dornfortsatzspitzen verbindet, verbreitert sich oberhalb von C7 zum dreieckigen Lig. nuchae, das bis zur Protuberantia occipitalis externa reicht; es dient Trapezius und Splenius als Ursprung.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-06ded398",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Die Membrana tectoria ist die obere Fortsetzung welches Bandes?",
+   "options": [
+    "Lig. supraspinale",
+    "Lig. longitudinale anterius",
+    "Lig. flavum",
+    "Lig. transversum atlantis",
+    "Lig. longitudinale posterius"
+   ],
+   "answer": 4,
+   "explanation": "Das hintere Längsband verbreitert sich ab dem Axiskörper nach oben zur Membrana tectoria und setzt am Clivus an; es bedeckt Dens und Lig. cruciforme von hinten und schützt das Rückenmark.",
+   "entries": [
+    "ligg-columnae",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-c597d8fc",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aus welchen Anteilen besteht das Lig. cruciforme atlantis?",
+   "options": [
+    "Membrana tectoria und Lig. flavum",
+    "Lig. transversum atlantis und Fasciculi longitudinales",
+    "Ligg. alaria und Lig. apicis dentis",
+    "Lig. nuchae und Lig. supraspinale",
+    "Lig. longitudinale anterius und posterius"
+   ],
+   "answer": 1,
+   "explanation": "Der quere Schenkel des Kreuzbands ist das Lig. transversum atlantis, das den Dens am vorderen Atlasbogen hält; die senkrechten Schenkel sind Längsfasern vom Axiskörper zum Foramen magnum. Die Ligg. alaria ziehen von den Densflanken zu den Hinterhauptskondylen und begrenzen die Rotation.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-ed470bcc",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Vor der Intubation werden bei einem Patienten mit langjähriger rheumatoider Arthritis Funktionsaufnahmen der HWS angefertigt; in Flexion ist der Abstand zwischen Atlas und Dens deutlich vergrößert. Die Schwächung welches Bandes ist hauptsächlich für diese Instabilität verantwortlich?",
+   "options": [
+    "Lig. longitudinale anterius",
+    "Lig. interspinale",
+    "Lig. flavum",
+    "Lig. nuchae",
+    "Lig. transversum atlantis"
+   ],
+   "answer": 4,
+   "explanation": "Die rheumatoide Synovitis zerstört die Bänder um den Dens; lockert sich das Lig. transversum, gleitet der Atlas in Flexion nach vorn, und der Dens kann das Rückenmark komprimieren. Daher wird bei RA-Patienten bei der Intubation eine HWS-Flexion vermieden.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-f49987bc",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Aussage zur Bandscheibe ist richtig?",
+   "options": [
+    "Auch zwischen Atlas und Axis liegt eine Bandscheibe",
+    "Sie macht die Hälfte der Wirbelsäulenlänge aus",
+    "Außen liegt der faserknorpelige Anulus fibrosus, innen der gallertige Nucleus pulposus",
+    "Sie ist ein synoviales Gelenk",
+    "Beim Erwachsenen ist die ganze Bandscheibe gut durchblutet"
+   ],
+   "answer": 2,
+   "explanation": "Bandscheiben sind Knorpelhaften vom Symphysentyp und machen etwa ein Viertel der Wirbelsäulenlänge aus. Zwischen C1 und C2 gibt es keine Bandscheibe. Beim Erwachsenen ist sie weitgehend gefäßlos und wird per Diffusion über die Endplatten ernährt.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-19cb43e5",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Gelenktyp sind die Facettengelenke (Artt. zygapophysiales) zwischen den Wirbeln?",
+   "options": [
+    "Planes synoviales Gelenk",
+    "Synoviales Radgelenk",
+    "Syndesmose",
+    "Synoviales Kugelgelenk",
+    "Symphyse"
+   ],
+   "answer": 0,
+   "explanation": "Die Facettengelenke zwischen oberen und unteren Gelenkfortsätzen sind plane Gelenke, die Gleitbewegungen erlauben; die Stellung ihrer Flächen bestimmt die Beweglichkeit der Region (am Hals schräg, thorakal frontal, lumbal sagittal). Ihre Degeneration ist eine häufige Ursache von Rückenschmerzen.",
+   "entries": [
+    "ligg-columnae",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ar-7888f307",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In welcher Reihenfolge laufen die Bewegungen im Kiefergelenk beim Mundöffnen ab?",
+   "options": [
+    "Es findet nur eine Scharnierbewegung statt",
+    "Der Kondylus bleibt hinter dem Tuberculum articulare fixiert",
+    "Der Diskus gleitet unabhängig vom Kondylus nach hinten",
+    "Zuerst Gleiten in der oberen, dann Drehung in der unteren Kammer",
+    "Zuerst dreht sich der Kondylus scharnierartig in der unteren Kammer, dann gleiten Kondylus und Diskus gemeinsam in der oberen Kammer nach vorn"
+   ],
+   "answer": 4,
+   "explanation": "Der Discus articularis teilt das Kiefergelenk in eine obere (Diskus–Fossa/Tuberculum) und eine untere (Diskus–Kondylus) Kammer. Zu Beginn der Öffnung erfolgt die Rotation in der unteren Kammer; bei weiter Öffnung gleitet der Kondylus-Diskus-Komplex in der oberen Kammer nach vorn zum Tuberculum articulare (Translation), angetrieben vom Pterygoideus lateralis.",
+   "entries": [
+    "art-temporomandibularis",
+    "m-pterygoideus-lateralis"
+   ]
+  },
+  {
+   "id": "ar-9f52e25c",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Womit sind die Gelenkflächen des Kiefergelenks überzogen?",
+   "options": [
+    "Mit blankem Knochen",
+    "Mit Periost",
+    "Mit elastischem Knorpel",
+    "Mit Faserknorpel",
+    "Mit hyalinem Knorpel"
+   ],
+   "answer": 3,
+   "explanation": "Das Kiefergelenk ist ein atypisches synoviales Gelenk, dessen Gelenkflächen nicht mit hyalinem, sondern mit Faserknorpel überzogen sind; dies hängt mit der desmalen Entstehung der Mandibula zusammen. Die Gelenke an beiden Enden der Clavicula zeigen dieselbe Besonderheit.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-fd55eb81",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches ist die schwächste Stelle des Glenohumeralgelenks, und warum?",
+   "options": [
+    "Der untere Teil; dort fehlen Rotatorenmanschette und kräftige Bandverstärkung",
+    "Es gibt keine schwache Stelle",
+    "Der vordere Teil; dort liegt kein Subscapularis",
+    "Der obere Teil; es fehlt die Unterstützung durch das Acromion",
+    "Der hintere Teil; dort ist die Kapsel am dünnsten"
+   ],
+   "answer": 0,
+   "explanation": "Die Rotatorenmanschette umgibt die Kapsel oben, vorn und hinten; der untere Teil wird nur durch die schlaffe Kapsel und das Lig. glenohumerale inferius geschützt. In Abduktion tritt der Humeruskopf hier nach unten vorn aus, und der N. axillaris ist gefährdet.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-0145e5e7",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aus welchen zwei Anteilen besteht das Lig. coracoclaviculare?",
+   "options": [
+    "Lig. glenohumerale superius und medium",
+    "Lig. coracoacromiale und Lig. coracohumerale",
+    "Lig. acromioclaviculare superius und inferius",
+    "Lig. costoclaviculare und Lig. interclaviculare",
+    "Lig. conoideum und Lig. trapezoideum"
+   ],
+   "answer": 4,
+   "explanation": "Das Lig. coracoclaviculare ist das kräftigste Band, an dem die Clavicula am Schulterblatt hängt: medial liegt der konoide Teil (zum Tuberculum conoideum), lateral der trapezoide Teil (zur Linea trapezoidea). Reißt es bei einer AC-Luxation mit, steht die Clavicula deutlich hoch.",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-2ce80442",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage zum Sternoklavikulargelenk ist richtig?",
+   "options": [
+    "Es ist ein Kugelgelenk ohne Diskus",
+    "Es ist ein einachsiges Scharniergelenk",
+    "Es ist eine Knorpelhaft",
+    "Es ist eine Bandhaft",
+    "Es ist ein synoviales Sattelgelenk mit Discus articularis"
+   ],
+   "answer": 4,
+   "explanation": "Das Sternoklavikulargelenk ist das einzige echte Gelenk zwischen oberer Extremität und Rumpf; sein Diskus teilt es in zwei Kammern und wirkt als kräftiges Polster, das ein Abgleiten der Clavicula nach medial verhindert. Das Lig. costoclaviculare ist der Hauptstabilisator.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-b6f1b5ff",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wo liegt der trianguläre fibrokartilaginäre Komplex (TFCC)?",
+   "options": [
+    "Im proximalen Radioulnargelenk",
+    "Im Daumensattelgelenk",
+    "Im Mediokarpalgelenk",
+    "Zwischen Radius und Scaphoideum",
+    "Zwischen distalem Ulnaende und Lunatum sowie Triquetrum"
+   ],
+   "answer": 4,
+   "explanation": "Der TFCC trennt den Ulnakopf von den Handwurzelknochen, ist der Hauptstabilisator des distalen Radioulnargelenks und überträgt einen Teil der Last des Handgelenks. Er kann bei Sturz auf die Hand oder Belastung in Ulnarabduktion reißen und verursacht Schmerzen an der ulnaren Handgelenkseite.",
+   "entries": [
+    "artt-radioulnares",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "ar-9c0521bf",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Warum ist die Radialabduktion des Handgelenks eingeschränkter als die Ulnarabduktion?",
+   "options": [
+    "Die Ulna ist länger als der Radius",
+    "Der Processus styloideus radii reicht weiter nach distal",
+    "Der TFCC liegt radial",
+    "Das Lig. collaterale carpi ulnare ist schwach",
+    "Das Os pisiforme blockiert die Bewegung"
+   ],
+   "answer": 1,
+   "explanation": "Der Griffelfortsatz des Radius endet etwa 1 cm tiefer als der der Ulna und begrenzt die Radialabduktion, indem er am Scaphoid anschlägt. Da die Ulna nicht direkt mit den Handwurzelknochen artikuliert, ist die Ulnarabduktion größer.",
+   "entries": [
+    "art-radiocarpalis",
+    "radius"
+   ]
+  },
+  {
+   "id": "ar-24504957",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Gelenktyp sind das proximale und distale Radioulnargelenk?",
+   "options": [
+    "Syndesmose",
+    "Scharniergelenk",
+    "Planes Gelenk",
+    "Sattelgelenk",
+    "Synoviales Radgelenk (Zapfengelenk)"
+   ],
+   "answer": 4,
+   "explanation": "Proximal dreht sich das Radiusköpfchen im Lig. anulare, distal dreht sich der Radius um den Ulnakopf; zusammen ermöglichen beide Gelenke Pronation und Supination. Die dazwischenliegende Membrana interossea ist eine Syndesmose.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-7abbb713",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Funktion hat der Faserverlauf der Membrana interossea antebrachii?",
+   "options": [
+    "Sie verhindert die Pronation vollständig",
+    "Sie überträgt die Last von Hand und Radius auf die Ulna",
+    "Sie überträgt die Last von der Ulna auf die Hand",
+    "Sie ersetzt die Seitenbänder des Ellenbogens",
+    "Sie dient nur als Muskelursprung"
+   ],
+   "answer": 1,
+   "explanation": "Am Handgelenk geht der Großteil der Last auf den Radius, am Ellenbogen auf die Ulna (Humeroulnargelenk). Da die Membranfasern vom Radius schräg nach distal-ulnar zur Ulna ziehen, übertragen sie die Last vom Radius auf die Ulna und bieten den Muskeln eine breite Ursprungsfläche.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-801c39ac",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Zu welchem Gelenktyp gehört das Kniegelenk?",
+   "options": [
+    "Sattelgelenk",
+    "Planes Gelenk",
+    "Radgelenk",
+    "Kugelgelenk",
+    "Modifiziertes Scharniergelenk (bikondyläres Drehscharniergelenk)"
+   ],
+   "answer": 4,
+   "explanation": "Das Knie ist ein bikondyläres Gelenk zwischen den beiden Femurkondylen und den Tibiaplateaus, das neben der Scharnierbewegung in Beugung etwas Rotation erlaubt; das Femoropatellargelenk liegt in derselben Kapsel.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-8ffbb6ae",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Bewegung verhindert das vordere Kreuzband (VKB) hauptsächlich?",
+   "options": [
+    "Das Vorgleiten der Tibia gegenüber dem Femur",
+    "Das seitliche Abgleiten der Patella",
+    "Den Varusstress des Knies",
+    "Das Zurückgleiten der Tibia gegenüber dem Femur",
+    "Den Valgusstress des Knies"
+   ],
+   "answer": 0,
+   "explanation": "Das VKB zieht von der Area intercondylaris anterior der Tibia zur Innenfläche des lateralen Femurkondylus; es begrenzt das Vorgleiten der Tibia und übermäßige Innenrotation. Geprüft wird es mit vorderer Schublade und Lachman-Test. Das Zurückgleiten begrenzt das HKB, Valgus das Innen-, Varus das Außenband.",
+   "notes": [
+    "",
+    "Das ist Aufgabe des medialen patellofemoralen Bandes und des VMO.",
+    "Das ist Aufgabe des Außenbands.",
+    "Das ist Aufgabe des hinteren Kreuzbands.",
+    "Das ist Aufgabe des Innenbands."
+   ],
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-1653af8f",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Bei einem Motorradunfall erhält ein Patient bei gebeugtem Knie einen Schlag gegen die Vorderseite der proximalen Tibia; bei 90° Beugung lässt sich die Tibia gegenüber dem Femur nach hinten schieben. Welches Band ist verletzt?",
+   "options": [
+    "Lig. patellae",
+    "Außenband",
+    "Innenband",
+    "Vorderes Kreuzband",
+    "Hinteres Kreuzband"
+   ],
+   "answer": 4,
+   "explanation": "Das hintere Kreuzband verhindert das Zurückgleiten der Tibia; die „Dashboard-Verletzung“ ist der typische Mechanismus. Hintere Schublade und hinteres Durchhängen der Tibia (Sag-Zeichen) sind positiv. Das HKB ist dicker und kräftiger als das VKB.",
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-35c5b540",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aus welchen Komponenten besteht die klassische „Unhappy Triad“ (O'Donoghue) des Knies?",
+   "options": [
+    "Hinteres Kreuzband, Außenband und Außenmeniskus",
+    "Vorderes Kreuzband, hinteres Kreuzband und Lig. patellae",
+    "Vorderes Kreuzband, Innenband und Innenmeniskus",
+    "Außenband, Popliteussehne und Außenmeniskus",
+    "Innenband, Pes anserinus und Innenmeniskus"
+   ],
+   "answer": 2,
+   "explanation": "Ein Stoß gegen die Knieaußenseite bei fixiertem Fuß zerreißt durch Valgus und Außenrotation das Innenband, dann den damit verwachsenen Innenmeniskus und das vordere Kreuzband. Neuere Studien zeigen, dass auch der Außenmeniskus häufig betroffen ist.",
+   "entries": [
+    "ligg-cruciata",
+    "ligg-collateralia-genus",
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-d15651f8",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was geschieht bei der Verriegelung des Knies in voller Streckung (Schlussrotation) bei Belastung?",
+   "options": [
+    "Der Femur rotiert auf der Tibia nach außen",
+    "Die Tibia rotiert unter dem Femur nach innen",
+    "Die Menisken gleiten nach hinten",
+    "Der Femur rotiert auf der Tibia nach innen",
+    "Die Patella gleitet nach oben und verriegelt"
+   ],
+   "answer": 3,
+   "explanation": "Da der mediale Femurkondylus länger ist, rotiert der Femur in den letzten Streckgraden bei geschlossener Kette nach innen und verriegelt das Gelenk; bei offener Kette erscheint dieselbe Bewegung als Außenrotation der Tibia. Der Popliteus entriegelt durch Außenrotation des Femurs.",
+   "entries": [
+    "art-genus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-dec32412",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Aussage zur Bursa suprapatellaris ist richtig?",
+   "options": [
+    "Sie ist stets von der Gelenkhöhle getrennt",
+    "Sie liegt zwischen Patella und Haut",
+    "Sie liegt zwischen Lig. patellae und Tibia",
+    "Sie steht meist mit der Kniegelenkhöhle in Verbindung und schwillt bei Erguss an",
+    "Sie liegt unter dem Pes anserinus"
+   ],
+   "answer": 3,
+   "explanation": "Die Bursa suprapatellaris liegt unter der Quadrizepssehne vor dem Femur und ist wie eine Aussackung der Gelenkhöhle nach oben; beim Erguss schwillt sie oberhalb der Patella an. Die Bursa praepatellaris liegt vor der Patella, die Bursa infrapatellaris profunda hinter dem Lig. patellae.",
+   "notes": [
+    "Falsch; sie steht meist in Verbindung.",
+    "Das beschreibt die Bursa praepatellaris.",
+    "Das beschreibt die Bursa infrapatellaris profunda.",
+    "",
+    "Das beschreibt die Bursa anserina."
+   ],
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-bbea335b",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Teil der Menisken ist nicht durchblutet, sodass Risse dort schlecht heilen?",
+   "options": [
+    "Die an der Tibia befestigten Enden der Hinterhörner",
+    "Die mit der Kapsel verwachsenen Ränder",
+    "Die an der Tibia befestigten Enden der Vorderhörner",
+    "Die inneren 2/3, die zum Gelenk zeigen (weiße Zone)",
+    "Das äußere Drittel nahe der Kapsel (rote Zone)"
+   ],
+   "answer": 3,
+   "explanation": "Die Menisken werden peripher über das perimeniskale Kapillarnetz versorgt; das äußere Drittel (rote Zone) ist gut durchblutet und nahtfähig, die inneren Anteile werden per Diffusion aus der Synovia ernährt, und Risse dort werden meist reseziert.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-635bed39",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Fußballer verspürt beim Drehen mit gebeugtem Knie und fixiertem Fuß einen plötzlichen Schmerz. Am nächsten Tag berichtet er über Druckschmerz am medialen Gelenkspalt und gelegentliches Hängenbleiben und Blockieren; der McMurray-Test ist positiv. Was ist die wahrscheinlichste Verletzung?",
+   "options": [
+    "Morbus Osgood-Schlatter",
+    "Innenmeniskusriss",
+    "Patellaluxation",
+    "Riss des vorderen Kreuzbands",
+    "Tractus-iliotibialis-Reibesyndrom"
+   ],
+   "answer": 1,
+   "explanation": "Ein belastetes Knie in Beugung und Rotation klemmt den Meniskus zwischen Femur und Tibia ein; Gelenkspaltschmerz, Blockaden und McMurray-Test sprechen für einen Meniskusriss. Der mit Kapsel und Innenband verwachsene Innenmeniskus ist weniger beweglich und reißt häufiger.",
+   "entries": [
+    "meniscus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-a84a64ee",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches ist die stabilste (verriegelte, close-packed) Stellung des Hüftgelenks?",
+   "options": [
+    "Leichte Beugung und Außenrotation",
+    "Extension, Abduktion und Innenrotation",
+    "Neutralstellung",
+    "Flexion, Abduktion und Außenrotation",
+    "Flexion, Adduktion und Innenrotation"
+   ],
+   "answer": 1,
+   "explanation": "In Extension und Innenrotation spannen sich Lig. iliofemorale, pubofemorale und ischiofemorale spiralig an und pressen den Hüftkopf fest in die Pfanne. Flexion–Adduktion–Innenrotation ist die für eine hintere Luxation anfälligste Stellung (Dashboard-Verletzung).",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-21f160b4",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Faserknorpelring vertieft das Acetabulum?",
+   "options": [
+    "Meniskus",
+    "Lig. capitis femoris",
+    "Labrum acetabuli",
+    "Labrum glenoidale",
+    "Discus articularis"
+   ],
+   "answer": 2,
+   "explanation": "Das Labrum acetabuli setzt am Pfannenrand an; seine untere Lücke wird vom Lig. transversum acetabuli überbrückt. Es vertieft das Gelenk und hält den Hüftkopf wie ein Saugnapf. Beim femoroazetabulären Impingement kann es einreißen.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-2025bf01",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage zum Innenband (Lig. deltoideum) des Sprunggelenks ist richtig?",
+   "options": [
+    "Es besteht aus drei getrennten Zügen und reißt am häufigsten",
+    "Es zieht fächerförmig vom Innenknöchel zu Talus, Calcaneus und Naviculare; es begrenzt die Eversion",
+    "Es verläuft zwischen Tibia und Fibula",
+    "Es begrenzt die Inversion",
+    "Es entspringt am Außenknöchel"
+   ],
+   "answer": 1,
+   "explanation": "Das Lig. deltoideum ist sehr kräftig; bei forcierter Eversion reißt oft eher der Innenknöchel ab als das Band. Der laterale Bandkomplex (ATFL, CFL, PTFL) ist bei Supinationstraumen am häufigsten verletzt.",
+   "entries": [
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-029aa2f6",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches ist das Lisfranc-Gelenk?",
+   "options": [
+    "Subtalargelenk",
+    "Intermetatarsalgelenke",
+    "Metatarsophalangealgelenke",
+    "Talonavikular- und Kalkaneokuboidgelenk",
+    "Tarsometatarsalgelenke"
+   ],
+   "answer": 4,
+   "explanation": "Die Lisfranc-Gelenklinie liegt zwischen Keilbeinen und Würfelbein einerseits und den Mittelfußbasen andererseits; die Basis des 2. Mittelfußknochens ist im mittleren Keilbein verkeilt und bildet den Schlussstein. Talonavikular- und Kalkaneokuboidgelenk bilden zusammen das Chopart-Gelenk (Art. tarsi transversa).",
+   "entries": [
+    "artt-pedis",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "ar-cbb80467",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was ist der „Windlass“-Mechanismus der Plantarfaszie?",
+   "options": [
+    "Die Dorsalextension der Großzehe spannt die Plantarfaszie und hebt das Längsgewölbe",
+    "Die Faszie entspannt sich nur im Stehen",
+    "Die Faszie reißt beim Fersenaufsatz und heftet sich wieder an",
+    "Die Plantarflexion der Großzehe hebt das Gewölbe",
+    "Die Plantarflexion im Sprunggelenk entspannt die Faszie und flacht das Gewölbe ab"
+   ],
+   "answer": 0,
+   "explanation": "Die Plantarfaszie zieht vom Calcaneus zu den Zehenbasen; beim Abstoßen, wenn die Großzehe dorsalextendiert, wickelt sie sich wie ein Seil um das Grundgelenk, nähert Ferse und Mittelfußköpfchen einander an und hebt das Gewölbe. Der Anlaufschmerz am Morgen bei Plantarfasziitis hängt mit dieser Spannung zusammen.",
+   "entries": [
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "ar-9cae36b7",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Was stützt das Lig. calcaneonaviculare plantare („Pfannenband“)?",
+   "options": [
+    "Das untere Ende der Fibula",
+    "Den Taluskopf und das mediale Längsgewölbe",
+    "Das Os cuboideum",
+    "Das Tuber calcanei",
+    "Den 5. Mittelfußknochen"
+   ],
+   "answer": 1,
+   "explanation": "Das Pfannenband zieht vom Sustentaculum tali zum Os naviculare und bildet den Boden der Pfanne, in der der Taluskopf sitzt; zusammen mit der darunter verlaufenden Tibialis-posterior-Sehne ist es die Schlüsselstütze des Längsgewölbes. Seine Lockerung lässt den Taluskopf absinken und führt zum Plattfuß.",
+   "entries": [
+    "artt-pedis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-9dffdcc7",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Gelenktyp ist das distale Tibiofibulargelenk?",
+   "options": [
+    "Planes synoviales Gelenk",
+    "Syndesmose",
+    "Symphyse",
+    "Radgelenk",
+    "Gomphosis"
+   ],
+   "answer": 1,
+   "explanation": "Das distale Tibiofibulargelenk ist eine Bandhaft, gehalten durch kräftige Bänder (Lig. tibiofibulare anterius und posterius, interossäres Band), und sichert die Malleolengabel. Das proximale Tibiofibulargelenk ist ein planes synoviales Gelenk.",
+   "entries": [
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-2170c9e2",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient mit Sprunggelenkdistorsion hat Druckschmerz und Schwellung über dem Innenknöchel; das Sprunggelenkröntgen zeigt keine Fraktur, er klagt aber auch über Schmerzen am oberen Fibulaende direkt unterhalb des Knies. Das Röntgen zeigt eine proximale Fibulafraktur und eine Erweiterung des tibiofibularen Raums. Wie heißt dieses Bild?",
+   "options": [
+    "Lisfranc-Verletzung",
+    "Segond-Fraktur",
+    "Colles-Fraktur",
+    "Maisonneuve-Fraktur",
+    "Jones-Fraktur"
+   ],
+   "answer": 3,
+   "explanation": "Eine Außenrotationskraft zerreißt das Lig. deltoideum (oder den Innenknöchel), setzt sich über die tibiofibulare Syndesmose und die Membrana interossea nach oben fort und bricht die proximale Fibula. Deshalb darf bei Sprunggelenkverletzungen die Untersuchung des Fibulakopfes nicht fehlen.",
+   "entries": [
+    "artt-tibiofibulares",
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-59f5af67",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band hält das Iliosakralgelenk am stärksten zusammen?",
+   "options": [
+    "Lig. sacrotuberale",
+    "Lig. iliolumbale",
+    "Lig. sacroiliacum anterius",
+    "Lig. sacrospinale",
+    "Ligg. sacroiliaca interossea"
+   ],
+   "answer": 4,
+   "explanation": "Die Ligg. sacroiliaca interossea sind kurze, sehr kräftige Fasern hinter dem Gelenk, die den Raum zwischen Kreuzbein und Tuberositas iliaca ausfüllen; sie übertragen das Körpergewicht vom Kreuzbein auf das Darmbein. Das vordere Band ist dünn; Lig. sacrotuberale und sacrospinale sind Hilfsbänder gegen das Vorkippen des Kreuzbeins.",
+   "entries": [
+    "art-sacroiliaca"
+   ]
+  },
+  {
+   "id": "ar-0814aea8",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche der folgenden Strukturen gehört NICHT zur Begrenzung des Beckenausgangs?",
+   "options": [
+    "Promontorium",
+    "Steißbeinspitze",
+    "Arcus pubicus",
+    "Tuber ischiadicum",
+    "Lig. sacrotuberale"
+   ],
+   "answer": 0,
+   "explanation": "Der Beckenausgang wird vorn vom Schambogen und Unterrand der Symphyse, seitlich von Sitzbeinhöckern und Ligg. sacrotuberalia und hinten von der Steißbeinspitze begrenzt. Das Promontorium ist die hintere Grenze des Beckeneingangs.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-158c435d",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Was verbinden Bänder (Ligamente) im Allgemeinen?",
+   "options": [
+    "Nerven mit Knochen",
+    "Haut mit Knochen",
+    "Muskel mit Knochen",
+    "Knochen mit Knochen",
+    "Muskel mit Muskel"
+   ],
+   "answer": 3,
+   "explanation": "Bänder sind straffe Bindegewebszüge, die Knochen miteinander verbinden und das Gelenk passiv sichern. Die Verbindung von Muskel und Knochen ist die Sehne.",
+   "entries": [
+    "eklem-tipleri",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3d9b7532",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie heißt die Struktur, die Muskel und Knochen verbindet?",
+   "options": [
+    "Sehne",
+    "Labrum",
+    "Band (Ligament)",
+    "Schleimbeutel",
+    "Meniskus"
+   ],
+   "answer": 0,
+   "explanation": "Sehnen übertragen die Muskelkraft auf den Knochen. Schleimbeutel erleichtern das Gleiten der Sehnen über den Knochen; Menisken und Labra sind faserknorpelige Strukturen im Gelenk.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3fe924fa",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Knorpelart überzieht gewöhnlich die Gelenkflächen echter Gelenke?",
+   "options": [
+    "Knochengewebe",
+    "Hyaliner Knorpel",
+    "Elastischer Knorpel",
+    "Faserknorpel",
+    "Straffes Bindegewebe"
+   ],
+   "answer": 1,
+   "explanation": "In den meisten echten Gelenken sind die Gelenkflächen von glattem hyalinem Knorpel überzogen. In wenigen, etwa Kiefer- und Sternoklavikulargelenk, ist es Faserknorpel.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-5deb5335",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Struktur bildet die Gelenkflüssigkeit?",
+   "options": [
+    "Gelenkbänder",
+    "Periost",
+    "Synovialmembran",
+    "Fibröse Kapsel",
+    "Gelenkknorpel"
+   ],
+   "answer": 2,
+   "explanation": "Die Synovialmembran an der Innenseite der Kapsel bildet eine hyaluronsäurereiche Gleitflüssigkeit, die den Knorpel ernährt und die Reibung vermindert.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-968e75e8",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie heißt die Bewegung, die den Winkel zwischen zwei Knochen verkleinert (Beugen)?",
+   "options": [
+    "Abduktion",
+    "Extension",
+    "Flexion",
+    "Rotation",
+    "Adduktion"
+   ],
+   "answer": 2,
+   "explanation": "Flexion ist Beugen, Extension Strecken (Winkel wird größer). Abduktion entfernt von der Mittellinie, Adduktion führt zu ihr hin, Rotation dreht um die eigene Achse.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-59af87db",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie heißt das seitliche Abspreizen des Arms vom Rumpf?",
+   "options": [
+    "Flexion",
+    "Zirkumduktion",
+    "Adduktion",
+    "Extension",
+    "Abduktion"
+   ],
+   "answer": 4,
+   "explanation": "Abduktion ist das Wegführen einer Gliedmaße von der Körpermittellinie; an der Schulter erfolgt sie vor allem durch M. supraspinatus und M. deltoideus.",
+   "entries": [
+    "eklem-tipleri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-4d1f8034",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie heißt die Unterarmbewegung, die die Handfläche nach oben (vorn) dreht?",
+   "options": [
+    "Eversion",
+    "Pronation",
+    "Supination",
+    "Opposition",
+    "Inversion"
+   ],
+   "answer": 2,
+   "explanation": "Bei der Supination zeigt die Handfläche nach oben/vorn, bei der Pronation nach unten/hinten; diese Bewegungen erfolgen in den Radioulnargelenken. Inversion und Eversion sind Fußbewegungen.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-d52f46c3",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie heißt die Bewegung, bei der die Fußsohle nach innen gedreht wird?",
+   "options": [
+    "Eversion",
+    "Inversion",
+    "Pronation",
+    "Dorsalextension",
+    "Plantarflexion"
+   ],
+   "answer": 1,
+   "explanation": "Bei der Inversion dreht die Sohle nach innen, bei der Eversion nach außen. Diese Bewegungen erfolgen vor allem im unteren Sprunggelenk und in der Chopart-Linie; die meisten Distorsionen geschehen in Inversion.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-3eb5fefe",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welches ist das beweglichste Gelenk des Körpers?",
+   "options": [
+    "Hüftgelenk",
+    "Schultergelenk",
+    "Kniegelenk",
+    "Ellenbogengelenk",
+    "Handgelenk"
+   ],
+   "answer": 1,
+   "explanation": "Die Schulter opfert Stabilität zugunsten der Beweglichkeit: der Humeruskopf berührt die flache Pfanne nur teilweise. Daher ist sie das am häufigsten luxierende große Gelenk.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-f3f16261",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welches ist das größte Gelenk des Körpers?",
+   "options": [
+    "Kniegelenk",
+    "Hüftgelenk",
+    "Iliosakralgelenk",
+    "Schultergelenk",
+    "Sprunggelenk"
+   ],
+   "answer": 0,
+   "explanation": "Das Kniegelenk aus Femur, Tibia und Patella ist das größte und komplizierteste echte Gelenk des Körpers.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-809c1821",
+   "group": "Gelenke der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Knochen bilden das Kniegelenk?",
+   "options": [
+    "Femur, Patella und Calcaneus",
+    "Femur, Fibula und Patella",
+    "Tibia, Fibula und Talus",
+    "Femur, Tibia und Fibula",
+    "Femur, Tibia und Patella"
+   ],
+   "answer": 4,
+   "explanation": "Das Knie besteht aus Femorotibial- und Femoropatellargelenk. Die Fibula ist nicht am Kniegelenk beteiligt; das obere Tibiofibulargelenk ist ein eigenes Gelenk.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-e4a2fa9a",
+   "group": "Gelenke der oberen Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Zwischen welchen Knochen liegt das Schultergelenk?",
+   "options": [
+    "Klavikula und Scapula",
+    "Scapula und Sternum",
+    "Humerus und Sternum",
+    "Humerus und Klavikula",
+    "Humerus und Scapula"
+   ],
+   "answer": 4,
+   "explanation": "Das Glenohumeralgelenk liegt zwischen Humeruskopf und Cavitas glenoidalis der Scapula. Klavikula und Scapula bilden das Akromioklavikulargelenk.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-aec5db37",
+   "group": "Gelenke der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Gelenktyp ist das Hüftgelenk?",
+   "options": [
+    "Sattelgelenk",
+    "Scharniergelenk",
+    "Kugelgelenk",
+    "Zapfengelenk",
+    "Planes Gelenk"
+   ],
+   "answer": 2,
+   "explanation": "Das Hüftgelenk ist ein Kugelgelenk zwischen Femurkopf und Hüftpfanne; es bewegt sich um drei Achsen und ist dank der tiefen Pfanne stabiler als die Schulter.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-55d60eb1",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Zwischen welchen Knochen liegt das Kiefergelenk?",
+   "options": [
+    "Unterkiefer und Keilbein",
+    "Unterkiefer und Jochbein",
+    "Unterkiefer und Oberkiefer",
+    "Unterkiefer und Schläfenbein",
+    "Oberkiefer und Schläfenbein"
+   ],
+   "answer": 3,
+   "explanation": "Das Kiefergelenk liegt zwischen dem Kondylus des Unterkiefers und Fossa mandibularis sowie Tuberculum articulare des Schläfenbeins; es enthält einen faserknorpeligen Diskus.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-1c1cd56a",
+   "group": "Gelenke der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Zwischen welchen Knochen liegt die Schambeinfuge?",
+   "options": [
+    "Kreuzbein und Steißbein",
+    "Kreuzbein und Darmbein",
+    "Femur und Schambein",
+    "Rechtes und linkes Schambein",
+    "Sitzbein und Schambein"
+   ],
+   "answer": 3,
+   "explanation": "Die Schambeinfuge ist die faserknorpelige Verbindung der beiden Schambeine vorn in der Mittellinie; dazwischen liegt der Discus interpubicus.",
+   "entries": [
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-c9695c99",
+   "group": "Gelenke der unteren Extremität",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchem Gelenk liegen die Menisken?",
+   "options": [
+    "Schultergelenk",
+    "Kniegelenk",
+    "Sprunggelenk",
+    "Hüftgelenk",
+    "Ellenbogengelenk"
+   ],
+   "answer": 1,
+   "explanation": "Innen- und Außenmeniskus liegen im Knie zwischen Femur- und Tibiakondylen; sie verbessern die Kongruenz und verteilen die Last.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-df324558",
+   "group": "Allgemeines",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Was ist ein Schleimbeutel (Bursa)?",
+   "options": [
+    "Ein kleiner, mit Synovialis ausgekleideter Flüssigkeitssack zwischen aneinander reibenden Strukturen",
+    "Ein faserknorpeliger Diskus im Gelenk",
+    "Die äußere Schicht des Gelenkknorpels",
+    "Die Haut, die den Knochen überzieht",
+    "Ein Strang, der Muskel und Knochen verbindet"
+   ],
+   "answer": 0,
+   "explanation": "Schleimbeutel verringern die Reibung zwischen aneinander gleitenden Strukturen, etwa Sehne und Knochen oder Haut und Knochen. Ihre Entzündung durch wiederholten Druck oder Reibung heißt Bursitis.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-0716071b",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie wird der Gelenkknorpel ernährt?",
+   "options": [
+    "Über Gefäße des Perichondriums",
+    "Über eigene Blutgefäße",
+    "Über Periostgefäße",
+    "Über Kapillaren aus dem Knochenmark",
+    "Durch Diffusion aus der Gelenkflüssigkeit"
+   ],
+   "answer": 4,
+   "explanation": "Gelenkknorpel hat weder Gefäße, Nerven noch Perichondrium; er wird durch Diffusion aus der Gelenkflüssigkeit ernährt. Deshalb heilen Knorpelschäden nicht von selbst.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-7804f95c",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie heißt bei rheumatoider Arthritis das entzündliche Gewebe, das Knorpel und Knochen zerstört?",
+   "options": [
+    "Kallus",
+    "Tophus",
+    "Ganglion",
+    "Osteophyt",
+    "Pannus"
+   ],
+   "answer": 4,
+   "explanation": "Die rheumatoide Arthritis ist eine chronische Synovialitis; die verdickte Synovialis, der Pannus, zerstört Knorpel und Knochen. Osteophyten sind ein Zeichen der Arthrose, Tophi der Gicht.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-a742a27f",
+   "group": "Allgemeines",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Bei Menschen, die kniend arbeiten, ist eine Schwellung vor der Kniescheibe eine Bursitis welches Schleimbeutels?",
+   "options": [
+    "Bursa m. semimembranosi",
+    "Bursa infrapatellaris profunda",
+    "Bursa suprapatellaris",
+    "Bursa praepatellaris",
+    "Bursa anserina"
+   ],
+   "answer": 3,
+   "explanation": "Die Bursitis praepatellaris („Fliesenlegerknie“) ist eine Entzündung des Schleimbeutels zwischen Patella und Haut durch wiederholten Druck. Die Bursitis infrapatellaris liegt vor der Tuberositas tibiae.",
+   "entries": [
+    "art-genus",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-4202eeca",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Was ist die Hauptfunktion der Ligg. alaria?",
+   "options": [
+    "Übermäßige Kopfbeugung verhindern",
+    "Den Dens an den vorderen Atlasbogen drücken",
+    "Übermäßige Kopfdrehung begrenzen",
+    "Den hinteren Atlasbogen mit dem Hinterhaupt verbinden",
+    "Die Vorderwand des Wirbelkanals bilden"
+   ],
+   "answer": 2,
+   "explanation": "Die Ligg. alaria ziehen von den Seiten des Dens zu den Hinterhauptskondylen und verhindern eine übermäßige Kopfdrehung im Atlantoaxialgelenk. Den Dens drückt das Lig. transversum atlantis an den vorderen Bogen.",
+   "entries": [
+    "artt-craniovertebrales"
+   ]
+  },
+  {
+   "id": "ar-4ecc76c5",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Warum ist die Rotation der Wirbelsäule im Lendenbereich eingeschränkt?",
+   "options": [
+    "Wegen der Rippen",
+    "Weil die Facettengelenkflächen sagittal stehen",
+    "Weil die Bandscheiben sehr dünn sind",
+    "Weil die Dornfortsätze kurz sind",
+    "Weil das Lig. flavum fehlt"
+   ],
+   "answer": 1,
+   "explanation": "Die Ausrichtung der Facettengelenke bestimmt die Bewegungsart: lumbale Facetten stehen sagittal und erlauben Beugung-Streckung, schränken aber die Rotation ein; thorakale stehen frontal, dort ist Rotation frei.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-0ab30723",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "An welchen Wirbeln finden sich die Unkovertebralgelenke (Luschka)?",
+   "options": [
+    "Halswirbel C3–C7",
+    "Brustwirbel T1–T12",
+    "Zwischen Atlas und Axis",
+    "Lendenwirbel L1–L5",
+    "Zwischen den Kreuzbeinwirbeln"
+   ],
+   "answer": 0,
+   "explanation": "Unkovertebralgelenke sind spaltförmige Gelenke zwischen den Processus uncinati am oberen Seitenrand der Wirbelkörper C3–C7 und dem darüberliegenden Wirbel; ihre Osteophyten können das Foramen intervertebrale einengen.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-ff6c7a3d",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band verhindert das Zurückweichen des Kondylus im Kiefergelenk?",
+   "options": [
+    "Lig. laterale (temporomandibulare)",
+    "Lig. pterygospinale",
+    "Lig. stylomandibulare",
+    "Lig. sphenomandibulare",
+    "Lig. stylohyoideum"
+   ],
+   "answer": 0,
+   "explanation": "Das Lig. laterale ist eine Verstärkung der Kapselaußenseite vom Jochbogen zum Unterkieferhals und verhindert, dass der Kondylus nach hinten unten weicht. Lig. sphenomandibulare und stylomandibulare sind kapselferne Hilfsbänder.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-c413ead3",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie heißt die Atembewegung der unteren Rippen, die den Querdurchmesser des Brustkorbs vergrößert?",
+   "options": [
+    "Scharnierbewegung",
+    "Pumpenschwengelbewegung",
+    "Zirkelbewegung",
+    "Eimerhenkelbewegung",
+    "Gleitbewegung"
+   ],
+   "answer": 3,
+   "explanation": "Die unteren Rippen heben sich in ihrer Mitte nach oben außen wie ein Eimerhenkel und vergrößern den Querdurchmesser. Die Pumpenschwengelbewegung der oberen Rippen vergrößert den Sagittaldurchmesser.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-185a3978",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche dieser Rippen bildet KEIN Gelenk mit einem Querfortsatz (Art. costotransversaria)?",
+   "options": [
+    "12. Rippe",
+    "7. Rippe",
+    "5. Rippe",
+    "1. Rippe",
+    "10. Rippe"
+   ],
+   "answer": 0,
+   "explanation": "Das Kostotransversalgelenk liegt zwischen Rippenhöcker und Querfortsatz. Die 11. und 12. Rippe haben keinen Höcker und bilden dieses Gelenk nicht.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-25e330cf",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Bewegung vergrößert bei der Geburt den Sagittaldurchmesser des Beckenausgangs?",
+   "options": [
+    "Verknöcherung der Schambeinfuge",
+    "Innenrotation des Darmbeins",
+    "Erweiterung der Hüftpfanne",
+    "Vorkippen des Kreuzbeins",
+    "Zurückweichen des Steißbeins"
+   ],
+   "answer": 4,
+   "explanation": "Das Sakrokokzygealgelenk erlaubt dem Steißbein bei der Geburt nach hinten auszuweichen; der Sagittaldurchmesser des Beckenausgangs nimmt um einige Zentimeter zu.",
+   "entries": [
+    "art-sacrococcygea"
+   ]
+  },
+  {
+   "id": "ar-632188f8",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band sichert hauptsächlich das Sternoklavikulargelenk?",
+   "options": [
+    "Lig. interclaviculare",
+    "Lig. costoclaviculare",
+    "Lig. acromioclaviculare",
+    "Lig. coracoclaviculare",
+    "Lig. sternoclaviculare anterius"
+   ],
+   "answer": 1,
+   "explanation": "Das Lig. costoclaviculare zwischen medialem Klavikulaende und 1. Rippenknorpel ist der stärkste Stabilisator des Gelenks und begrenzt das Anheben der Klavikula.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-d9375ce7",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Strukturen bilden das Schulterdach (Fornix humeri)?",
+   "options": [
+    "Akromion, Klavikula und Spina scapulae",
+    "Tuberculum majus, Tuberculum minus und Lig. transversum humeri",
+    "Processus coracoideus, Klavikula und 1. Rippe",
+    "Cavitas glenoidalis, Labrum und Akromion",
+    "Akromion, Lig. coracoacromiale und Processus coracoideus"
+   ],
+   "answer": 4,
+   "explanation": "Das Schulterdach bildet ein schützendes Dach über dem Humeruskopf; darunter ziehen Supraspinatussehne und Bursa subacromialis. Das Impingement-Syndrom entsteht unter diesem Bogen.",
+   "entries": [
+    "ligg-scapulae"
+   ]
+  },
+  {
+   "id": "ar-9da426c2",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band hält die Sehne des langen Bizepskopfes im Sulcus intertubercularis?",
+   "options": [
+    "Lig. coracoacromiale",
+    "Lig. coracohumerale",
+    "Lig. transversum humeri",
+    "Lig. transversum scapulae superius",
+    "Lig. glenohumerale superius"
+   ],
+   "answer": 2,
+   "explanation": "Das Lig. transversum humeri überbrückt Tuberculum majus und minus und macht die Rinne zum Kanal. Reißt es, kann die Sehne mit schmerzhaftem Schnappen aus der Rinne luxieren.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-d525aa5a",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie heißt der anteroinferiore Labrumabriss, der Hauptursache rezidivierender vorderer Schulterluxationen ist?",
+   "options": [
+    "SLAP-Läsion",
+    "Stener-Läsion",
+    "Bankart-Läsion",
+    "Hill-Sachs-Läsion",
+    "Bennett-Läsion"
+   ],
+   "answer": 2,
+   "explanation": "Die Bankart-Läsion ist der Abriss von anteroinferiorem Labrum und unterem glenohumeralem Band vom Glenoid. Hill-Sachs ist eine Impressionsfraktur des posterolateralen Humeruskopfes; SLAP ein oberer Labrumriss.",
+   "entries": [
+    "ligg-art-humeri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-ecd485e2",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welchen Teil des Labrums betrifft eine SLAP-Läsion?",
+   "options": [
+    "Das obere Labrum (Ansatz des langen Bizepskopfes)",
+    "Das posteroinferiore Labrum",
+    "Das Labrum acetabuli",
+    "Das gesamte Labrum",
+    "Das anteroinferiore Labrum"
+   ],
+   "answer": 0,
+   "explanation": "Die SLAP-Läsion (Superior Labrum Anterior to Posterior) ist ein Riss des oberen Labrums am Ansatz des langen Bizepskopfes von vorn nach hinten; häufig bei Wurfsportarten.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-cfe7c2cc",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Struktur ist für die Valgusstabilität des Ellenbogens am wichtigsten?",
+   "options": [
+    "Lig. quadratum",
+    "Vorderes Bündel des Lig. collaterale ulnare",
+    "Lig. anulare radii",
+    "Chorda obliqua",
+    "Lig. collaterale radiale"
+   ],
+   "answer": 1,
+   "explanation": "Das vordere Bündel des medialen (ulnaren) Kollateralbandes schützt den Ellenbogen gegen Valguskräfte. Bei Werfern wird sein Riss mit einem Sehnentransplantat ersetzt („Tommy-John“-Operation).",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-9da28623",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Bandriss verursacht am häufigsten eine Handgelenksinstabilität, und welches Röntgenzeichen zeigt er?",
+   "options": [
+    "Lig. pisohamatum – Fraktur des Hamulus",
+    "Ulnares Kollateralband – Luxation des Ulnakopfes",
+    "Radiales Kollateralband – Fraktur des Processus styloideus radii",
+    "Lunotriquetrales Band – dorsale Kippung des Lunatum",
+    "Skapholunäres Band – Spalt über 3 mm zwischen Scaphoid und Lunatum"
+   ],
+   "answer": 4,
+   "explanation": "Beim skapholunären Bandriss zeigt das a.-p.-Röntgenbild einen Spalt zwischen beiden Knochen (Terry-Thomas-Zeichen) und ein Ringzeichen des Scaphoids; unbehandelt folgen DISI-Fehlstellung und SLAC-Arthrose.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-3707eab2",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wie heißt die Arthrose des Daumensattelgelenks?",
+   "options": [
+    "Rhizarthrose",
+    "Morbus Kienböck",
+    "Tendovaginitis de Quervain",
+    "Heberden-Knoten",
+    "Dupuytren-Kontraktur"
+   ],
+   "answer": 0,
+   "explanation": "Die Rhizarthrose ist die Arthrose des Sattelgelenks zwischen Trapezium und 1. Mittelhandknochen; sie schmerzt beim Greifen und Schlüsseldrehen, vor allem bei Frauen nach der Menopause.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-a495b9af",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Warum werden die MCP-Gelenke bei längerer Ruhigstellung der Hand in Beugung gelagert?",
+   "options": [
+    "In Beugung werden die Sehnen besser ernährt.",
+    "In Beugung werden die Nerven entlastet.",
+    "In Streckung heilen die Knochen nicht.",
+    "Die Kollateralbänder sind in Beugung gespannt und schrumpfen daher nicht.",
+    "In Beugung entspannt sich die palmare Platte und heilt."
+   ],
+   "answer": 3,
+   "explanation": "Wegen der Nockenform des Metakarpalkopfes sind die MCP-Kollateralbänder in Beugung gespannt. Wird das Gelenk lange gestreckt gehalten, schrumpfen die entspannten Bänder und es entsteht eine bleibende Streckkontraktur (Intrinsic-plus-Stellung).",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-9d4ca42d",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Der Skidaumen ist eine Verletzung welches Bandes?",
+   "options": [
+    "Palmare Platte des Daumen-IP-Gelenks",
+    "Ulnares Kollateralband des Daumengrundgelenks",
+    "Skapholunäres Band",
+    "Radiales Kollateralband des Daumengrundgelenks",
+    "Vorderes schräges Band des Daumensattelgelenks"
+   ],
+   "answer": 1,
+   "explanation": "Die gewaltsame Abduktion des Daumens beim Sturz auf den Skistock zerreißt das ulnare Kollateralband des Grundgelenks; Greif- und Spitzgriffkraft nehmen ab.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-d07b4763",
+   "group": "Gelenke der oberen Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Struktur verhindert die Überstreckung der PIP-Gelenke der Finger?",
+   "options": [
+    "Streckaponeurose",
+    "Kollateralbänder",
+    "Lig. metacarpale transversum profundum",
+    "Palmare Platte",
+    "Mm. lumbricales"
+   ],
+   "answer": 3,
+   "explanation": "Die palmare Platte ist eine dicke faserknorpelige Platte an der Beugeseite des Gelenks und begrenzt die Überstreckung. Ihr Ausriss bei Hyperextensionsverletzung kann zur Schwanenhalsdeformität führen.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-b68b4630",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band verhindert eine übermäßige Abduktion im Hüftgelenk?",
+   "options": [
+    "Lig. capitis femoris",
+    "Lig. ischiofemorale",
+    "Lig. transversum acetabuli",
+    "Lig. iliofemorale",
+    "Lig. pubofemorale"
+   ],
+   "answer": 4,
+   "explanation": "Das Lig. pubofemorale zieht vom oberen Schambeinast zum vorderen unteren Kapselanteil und begrenzt die Abduktion. Das Lig. iliofemorale verhindert die Überstreckung, das Lig. ischiofemorale die übermäßige Innenrotation.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-7cb7465b",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Das Lig. popliteum obliquum ist eine Ausstrahlung der Sehne welches Muskels?",
+   "options": [
+    "M. biceps femoris",
+    "M. gastrocnemius",
+    "M. popliteus",
+    "M. semitendinosus",
+    "M. semimembranosus"
+   ],
+   "answer": 4,
+   "explanation": "Das Lig. popliteum obliquum zieht von der Semimembranosussehne nach oben außen und verstärkt die hintere Kniegelenkkapsel; es liegt unmittelbar vor der A. poplitea.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-02199c01",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Sehne verläuft zwischen dem lateralen (fibularen) Kollateralband und dem Außenmeniskus?",
+   "options": [
+    "Popliteussehne",
+    "Sehne des lateralen Gastrocnemiuskopfes",
+    "Plantarissehne",
+    "Tractus iliotibialis",
+    "Bizeps-femoris-Sehne"
+   ],
+   "answer": 0,
+   "explanation": "Das Außenband ist von Kapsel und Außenmeniskus getrennt; zwischen ihnen zieht die Popliteussehne. Deshalb ist der Außenmeniskus beweglicher und reißt seltener als der Innenmeniskus.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "meniscus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-2725a1ee",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Außenband des Sprunggelenks ist am stärksten und reißt am seltensten?",
+   "options": [
+    "Lig. bifurcatum",
+    "Lig. talofibulare posterius",
+    "Lig. talofibulare anterius",
+    "Lig. calcaneofibulare",
+    "Lig. tibiofibulare anterius"
+   ],
+   "answer": 1,
+   "explanation": "Die Außenbänder reißen von vorn nach hinten: zuerst das Lig. talofibulare anterius, dann das Lig. calcaneofibulare. Das Lig. talofibulare posterius ist am stärksten und reißt nur bei schweren Verletzungen.",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-b878c17d",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches Band prüft der vordere Schubladentest am Sprunggelenk hauptsächlich?",
+   "options": [
+    "Lig. calcaneofibulare",
+    "Lig. deltoideum",
+    "Lig. talofibulare posterius",
+    "Syndesmosebänder",
+    "Lig. talofibulare anterius"
+   ],
+   "answer": 4,
+   "explanation": "Beim vorderen Schubladentest wird die Tibia fixiert und die Ferse nach vorn gezogen; ein Vorgleiten des Talus spricht für einen Riss des Lig. talofibulare anterius. Das Lig. calcaneofibulare wird mit dem Talar-Tilt-Test (Inversionsstress) geprüft.",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-47535364",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Strukturen sind bei der hohen Sprunggelenksverstauchung verletzt?",
+   "options": [
+    "Bänder der distalen tibiofibularen Syndesmose",
+    "Achillessehne",
+    "Lisfranc-Band",
+    "Lig. deltoideum",
+    "Außenbänder des Sprunggelenks"
+   ],
+   "answer": 0,
+   "explanation": "Die hohe Sprunggelenksverstauchung entsteht meist durch Außenrotation und zerreißt die Syndesmosebänder zwischen Tibia und Fibula; sie heilt deutlich langsamer als eine Außenbandverletzung.",
+   "entries": [
+    "ligg-tibiofibularia-distalia"
+   ]
+  },
+  {
+   "id": "ar-f12bf4cd",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche im Sinus tarsi gelegene Struktur ist das stärkste Band des unteren Sprunggelenks?",
+   "options": [
+    "Lig. plantare longum",
+    "Lig. talocalcaneum laterale",
+    "Lig. bifurcatum",
+    "Lig. calcaneofibulare",
+    "Lig. talocalcaneum interosseum"
+   ],
+   "answer": 4,
+   "explanation": "Das Lig. talocalcaneum interosseum liegt im Sinus tarsi zwischen Talus und Calcaneus und ist das Hauptband des unteren Sprunggelenks.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-d75092b5",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Gelenke bilden die Chopart-Gelenklinie (Art. tarsi transversa)?",
+   "options": [
+    "Art. cuneonavicularis und Interkuneiformgelenke",
+    "Art. calcaneocuboidea und Art. cuboideonavicularis",
+    "Tarsometatarsal- und Intermetatarsalgelenke",
+    "Oberes und unteres Sprunggelenk",
+    "Art. talonavicularis und Art. calcaneocuboidea"
+   ],
+   "answer": 4,
+   "explanation": "Die Chopart-Linie ist die S-förmige Gelenklinie zwischen Rück- und Mittelfuß und eine Amputationshöhe. Die Lisfranc-Linie entspricht den Tarsometatarsalgelenken.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-a378349f",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo verläuft das Lisfranc-Band?",
+   "options": [
+    "Vom Os naviculare zum inneren Keilbein",
+    "Vom Calcaneus zum Würfelbein",
+    "Vom mittleren Keilbein zur Basis des 2. Mittelfußknochens",
+    "Vom Würfelbein zur Basis des 5. Mittelfußknochens",
+    "Vom inneren Keilbein zur Basis des 2. Mittelfußknochens"
+   ],
+   "answer": 4,
+   "explanation": "Das Lisfranc-Band ist ein kräftiges interossäres Band zwischen innerem Keilbein und Basis des 2. Mittelfußknochens; da zwischen den Basen des 1. und 2. Mittelfußknochens kein Band besteht, ist es der Schlüssel des Tarsometatarsalgelenks.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-e5efb4d3",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Knochen ist der Schlussstein des lateralen Längsgewölbes des Fußes?",
+   "options": [
+    "Würfelbein",
+    "Inneres Keilbein",
+    "Kopf des 5. Mittelfußknochens",
+    "Taluskopf",
+    "Kahnbein"
+   ],
+   "answer": 0,
+   "explanation": "Schlussstein des medialen Längsgewölbes ist der Taluskopf, des lateralen das Würfelbein. Das laterale Gewölbe ist flach und liegt dem Boden nahe.",
+   "entries": [
+    "arcus-pedis",
+    "os-cuboideum"
+   ]
+  },
+  {
+   "id": "ar-ca751a1b",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Was ist die häufigste Ursache des erworbenen Plattfußes beim Erwachsenen?",
+   "options": [
+    "Lähmung des M. tibialis anterior",
+    "Riss des M. fibularis longus",
+    "Achillessehnenruptur",
+    "Verkürzung der Plantarfaszie",
+    "Insuffizienz der Tibialis-posterior-Sehne"
+   ],
+   "answer": 4,
+   "explanation": "Der M. tibialis posterior ist die wichtigste dynamische Stütze des medialen Gewölbes; Degeneration und Insuffizienz seiner Sehne führen zum Einsinken des Gewölbes und zur Valgusstellung der Ferse.",
+   "entries": [
+    "arcus-pedis",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "ar-a91411e8",
+   "group": "Gelenke der unteren Extremität",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein Patient ist auf den plantarflektierten Fuß gestürzt; Mittelfußschwellung und plantares Hämatom, im Röntgen ein Spalt zwischen den Basen des 1. und 2. Mittelfußknochens. Wahrscheinlichste Diagnose?",
+   "options": [
+    "Chopart-Luxation",
+    "Kalkaneusfraktur",
+    "Außenbandverletzung des Sprunggelenks",
+    "Jones-Fraktur",
+    "Lisfranc-Verletzung (tarsometatarsal)"
+   ],
+   "answer": 4,
+   "explanation": "Plantares Hämatom und Spalt zwischen den Basen des 1. und 2. Mittelfußknochens sind typisch für eine Lisfranc-Bandverletzung; etwa jede fünfte wird bei der Erstvorstellung übersehen und muss daher sorgfältig abgeklärt werden.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-fe1c13ee",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Densfrakturtyp hat das höchste Pseudarthroserisiko?",
+   "options": [
+    "Typ I (Densspitze)",
+    "Typ II (Densbasis)",
+    "Hangman-Fraktur",
+    "Typ III (bis in den Axiskörper)",
+    "Jefferson-Fraktur"
+   ],
+   "answer": 1,
+   "explanation": "In der Klassifikation nach Anderson und D'Alonzo verläuft Typ II durch die Densbasis; in diesem schlecht durchbluteten Bereich ist die Pseudarthroserate hoch. Typ III reicht in den Axiskörper und heilt meist.",
+   "entries": [
+    "artt-craniovertebrales",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-55929b2d",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Woher stammt die sensible Innervation der Facettengelenke (Artt. zygapophysiales)?",
+   "options": [
+    "Rr. anteriores der Spinalnerven",
+    "N. sinuvertebralis (R. meningeus recurrens)",
+    "Truncus sympathicus",
+    "Rr. mediales der Rr. posteriores der Spinalnerven",
+    "Rr. laterales der Rr. posteriores"
+   ],
+   "answer": 3,
+   "explanation": "Jedes Facettengelenk wird von den Rr. mediales der Rr. posteriores zweier benachbarter Segmente versorgt. Beim Facettenschmerz werden diese Äste blockiert oder mit Radiofrequenz denerviert.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-dd990884",
+   "group": "Gelenke von Schädel und Wirbelsäule",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Das Lig. sphenomandibulare ist ein Rest welcher Schlundbogenstruktur?",
+   "options": [
+    "Knorpel des 1. Schlundbogens (Meckel-Knorpel)",
+    "Chorda dorsalis",
+    "3. Schlundbogen",
+    "4. Schlundbogen",
+    "Knorpel des 2. Schlundbogens (Reichert)"
+   ],
+   "answer": 0,
+   "explanation": "Aus dem Meckel-Knorpel entstehen Hammer, Amboss und Lig. sphenomandibulare. Der Reichert-Knorpel (2. Bogen) bildet Steigbügel, Processus styloideus und Lig. stylohyoideum.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-bead98f0",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches Unterarmband verläuft mit seinen Fasern entgegengesetzt zur Membrana interossea?",
+   "options": [
+    "Lig. collaterale radiale",
+    "Lig. anulare radii",
+    "Chorda obliqua",
+    "Lig. quadratum",
+    "Lig. radioulnare dorsale"
+   ],
+   "answer": 2,
+   "explanation": "Die Fasern der Membrana interossea ziehen vom Radius nach distal-medial zur Ulna, die Chorda obliqua dagegen von der Tuberositas ulnae nach distal-lateral zum Radius. Sie stützt das proximale Radioulnargelenk.",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-5ba07cbd",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wie heißt die bandarme Zone palmar am Kapitatum, über die perilunäre Luxationen entstehen?",
+   "options": [
+    "Tabatière",
+    "Parona-Raum",
+    "Karpaltunnel",
+    "Loge de Guyon",
+    "Poirier-Raum"
+   ],
+   "answer": 4,
+   "explanation": "Der Poirier-Raum ist die Schwachstelle zwischen radioskaphokapitalem und radiolunärem Band; bei der perilunären Luxation trennt sich hier das Kapitatum vom Lunatum.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-31d4bdc3",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Risse in welchem Teil des TFCC heilen wegen fehlender Durchblutung nicht und erfordern ein Débridement?",
+   "options": [
+    "Dorsales radioulnares Band",
+    "Peripher (ulnarer Rand)",
+    "Zentral (Mitte des Diskus)",
+    "Palmares radioulnares Band",
+    "Sehnenscheide des ECU"
+   ],
+   "answer": 2,
+   "explanation": "Nur der äußere Rand des TFCC ist gut durchblutet. Zentrale Risse heilen nicht und werden arthroskopisch débridiert, periphere werden genäht.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-c3fb2f81",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches Krankheitsbild bei Ulna-Plus-Variante (Elle länger als Speiche) führt zum Verschleiß von TFCC und Lunatum?",
+   "options": [
+    "Madelung-Deformität",
+    "Morbus Kienböck",
+    "Karpaltunnelsyndrom",
+    "Ulnokarpales Impaktionssyndrom",
+    "Tendovaginitis de Quervain"
+   ],
+   "answer": 3,
+   "explanation": "Bei Ulna-Plus-Variante drückt der Ulnakopf auf TFCC und Lunatum; es entstehen ulnarseitige Schmerzen und Knorpelschäden am Lunatum. Der Morbus Kienböck ist eher mit einer Ulna-Minus-Variante verbunden.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-e6d0e58d",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches ist das wichtigste stabilisierende Band des Daumensattelgelenks?",
+   "options": [
+    "Vorderes schräges Band („Beak ligament“)",
+    "Radiales Kollateralband",
+    "Palmare Platte",
+    "Dorsoradiales Band",
+    "Intermetakarpales Band"
+   ],
+   "answer": 0,
+   "explanation": "Das vordere schräge Band zieht vom Tuberculum des Trapeziums zur ulnopalmaren Basis des 1. Mittelhandknochens; es hält bei der Bennett-Fraktur auch das kleine ulnare Fragment an seinem Platz.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-17c5390c",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur schiebt sich bei der Stener-Läsion zwischen das abgerissene ulnare Kollateralband und seinen Ansatz?",
+   "options": [
+    "Palmare Platte",
+    "Aponeurose des M. adductor pollicis",
+    "Sehne des M. abductor pollicis brevis",
+    "Sehne des M. extensor pollicis longus",
+    "Sesambein"
+   ],
+   "answer": 1,
+   "explanation": "Reißt das ulnare Kollateralband des Daumengrundgelenks, kann sein Ende auf der Adduktoraponeurose zu liegen kommen; die zwischengelagerte Aponeurose verhindert die Heilung, daher ist eine Operation nötig.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-dbeaf9b7",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur luxiert bei der Monteggia-Fraktur?",
+   "options": [
+    "Humeruskopf",
+    "Lunatum",
+    "Distales Radioulnargelenk",
+    "Ulnakopf",
+    "Radiuskopf (proximales Radioulnargelenk)"
+   ],
+   "answer": 4,
+   "explanation": "Bei der Monteggia-Fraktur ist eine Fraktur des proximalen Ulnadrittels mit einer Radiuskopfluxation verbunden. Bei der Galeazzi-Fraktur geht eine Radiusschaftfraktur mit einer Luxation im distalen Radioulnargelenk einher.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-9db62430",
+   "group": "Gelenke der oberen Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Warum ist die hintere Luxation des Sternoklavikulargelenks ein Notfall?",
+   "options": [
+    "Sie verletzt den N. axillaris.",
+    "Das mediale Klavikulaende kann die dahinterliegenden großen Gefäße und die Trachea komprimieren.",
+    "Das Lig. costoclaviculare reißt nie.",
+    "Sie luxiert auch das Schultergelenk.",
+    "Sie blockiert das Akromioklavikulargelenk."
+   ],
+   "answer": 1,
+   "explanation": "Bei der hinteren Luxation kann das mediale Klavikulaende brachiozephale Gefäße, Trachea und Ösophagus komprimieren; anders als bei der vorderen Luxation kann daher eine dringliche Reposition nötig sein.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-684028b7",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wie viel der Rückfläche des Schenkelhalses umschließt die Hüftgelenkkapsel?",
+   "options": [
+    "Die medialen 2/3",
+    "Alles bis zum Trochanter major",
+    "Das mediale 1/3",
+    "Den ganzen Hals",
+    "Nur den Femurkopf"
+   ],
+   "answer": 0,
+   "explanation": "Vorn reicht die Kapsel bis zur Linea intertrochanterica und umschließt den ganzen Hals, hinten nur dessen mediale 2/3. Schenkelhalsfrakturen liegen daher größtenteils intrakapsulär.",
+   "entries": [
+    "art-coxae",
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-afbcdf8f",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches Band begrenzt die übermäßige Innenrotation im Hüftgelenk?",
+   "options": [
+    "Lig. transversum acetabuli",
+    "Lig. pubofemorale",
+    "Zona orbicularis",
+    "Lig. capitis femoris",
+    "Lig. ischiofemorale"
+   ],
+   "answer": 4,
+   "explanation": "Das Lig. ischiofemorale zieht spiralig vom Sitzbein zur Kapselrückseite; es spannt sich bei Innenrotation und Streckung.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-eb063057",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches ist der wichtigste statische Stabilisator der posterolateralen Ecke des Knies?",
+   "options": [
+    "Lig. popliteofibulare",
+    "Tractus iliotibialis",
+    "Lig. meniscofemorale",
+    "Lig. collaterale tibiale",
+    "Lig. popliteum obliquum"
+   ],
+   "answer": 0,
+   "explanation": "Die posterolaterale Ecke besteht aus Außenband, Popliteussehne, Lig. popliteofibulare und Kapsel; das Lig. popliteofibulare ist der wichtigste statische Stabilisator gegen Außenrotation.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-8f7a2217",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was spricht beim Dial-Test für eine vermehrte Außenrotation bei 30° und 90° Kniebeugung?",
+   "options": [
+    "Isolierter Riss des Innenbandes",
+    "Patellaluxation",
+    "Innenmeniskusriss",
+    "Kombinierte Verletzung von posterolateraler Ecke und hinterem Kreuzband",
+    "Isolierter Riss des vorderen Kreuzbandes"
+   ],
+   "answer": 3,
+   "explanation": "Vermehrte Außenrotation nur bei 30° spricht für eine isolierte Verletzung der posterolateralen Ecke, bei 30° und 90° für eine kombinierte Verletzung von posterolateraler Ecke und HKB.",
+   "entries": [
+    "ligg-genus-posteriora",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-cf2d6b19",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches Außenband des Sprunggelenks wirkt sowohl auf das obere als auch auf das untere Sprunggelenk?",
+   "options": [
+    "Lig. talofibulare posterius",
+    "Lig. talofibulare anterius",
+    "Lig. talocalcaneum interosseum",
+    "Lig. tibiofibulare anterius",
+    "Lig. calcaneofibulare"
+   ],
+   "answer": 4,
+   "explanation": "Das Lig. calcaneofibulare zieht vom Außenknöchel zum Calcaneus und überbrückt damit beide Gelenke; es wird mit dem Talar-Tilt-Test geprüft.",
+   "entries": [
+    "ligg-talocruralia-lateralia",
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-f8a72f31",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur verhindert am wichtigsten das Lateralgleiten des Talus in der Malleolengabel?",
+   "options": [
+    "Lig. calcaneofibulare",
+    "Tiefer (tibiotalarer) Anteil des Lig. deltoideum",
+    "Lig. plantare longum",
+    "Pars tibionavicularis des Lig. deltoideum",
+    "Lig. talofibulare anterius"
+   ],
+   "answer": 1,
+   "explanation": "Die tiefen tibiotalaren Fasern des Lig. deltoideum binden den Talus an den Innenknöchel; reißen sie, verschiebt sich der Talus nach lateral, die Kontaktfläche nimmt ab und es entsteht Arthrose.",
+   "entries": [
+    "lig-deltoideum"
+   ]
+  },
+  {
+   "id": "ar-90e61aae",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Zu welchen Knochen ziehen die beiden Schenkel des Lig. bifurcatum vom Calcaneus aus?",
+   "options": [
+    "Kahnbein und Würfelbein",
+    "Talus und Würfelbein",
+    "Würfelbein und 5. Mittelfußknochen",
+    "Kahnbein und inneres Keilbein",
+    "Talus und Kahnbein"
+   ],
+   "answer": 0,
+   "explanation": "Die kalkaneonavikulären und kalkaneokuboidalen Schenkel des Y-förmigen Lig. bifurcatum liegen dorsal auf der Chopart-Linie; seine Zerrung schmerzt vor dem Sinus tarsi.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-c4078aba",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was ist das typische Zeichen einer talokalkanearen Koalition im seitlichen Röntgenbild des Sprunggelenks?",
+   "options": [
+    "Terry-Thomas-Zeichen",
+    "Ameisenbärnasen-Zeichen",
+    "Doppelkontur-Zeichen",
+    "C-Zeichen",
+    "Ringzeichen"
+   ],
+   "answer": 3,
+   "explanation": "Bei talokalkanearer Koalition entsteht eine durchgehende C-förmige Kontur zwischen Taluskuppel und Sustentaculum tali. Bei kalkaneonavikulärer Koalition zeigt die Schrägaufnahme die „Ameisenbärnase“.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-358bf10c",
+   "group": "Gelenke der unteren Extremität",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Skifahrer mit Außenrotationstrauma des Knies berichtet über plötzlichen Schmerz und Instabilität; nach VKB-Plastik besteht weiter eine Außenrotationsinstabilität. Welche Verletzung wurde möglicherweise übersehen?",
+   "options": [
+    "Bursitis anserina",
+    "Verletzung der posterolateralen Ecke des Knies",
+    "Patellasehnenruptur",
+    "Bursitis praepatellaris",
+    "Innenmeniskusriss"
+   ],
+   "answer": 1,
+   "explanation": "Verletzungen der posterolateralen Ecke begleiten häufig Kreuzbandverletzungen; werden sie nicht erkannt und versorgt, wird das Kreuzbandtransplantat überlastet und die Rekonstruktion scheitert.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  }
+ ]
+}

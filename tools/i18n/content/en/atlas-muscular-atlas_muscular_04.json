@@ -1,0 +1,311 @@
+{
+ "m-flexor-digitorum-superficialis": {
+  "tr": "Flexor digitorum superficialis",
+  "summary": "A broad muscle forming the middle layer of the anterior compartment of the forearm. Its four tendons insert on the middle phalanges.",
+  "facts": [
+   "Humero-ulnar head: medial epicondyle of the humerus and coronoid process; radial head: upper part of the anterior surface of the radius",
+   "Sides of the middle phalanges of fingers 2–5 (the tendons split to let FDP through)",
+   "Median nerve (C7–T1)",
+   "Ulnar and radial arteries",
+   "Flexes the fingers at the proximal interphalangeal (PIP) joints; assists MCP and wrist flexion"
+  ],
+  "sections": [],
+  "clinical": [
+   "Test: with the other fingers held in extension (neutralising FDP), the PIP joint of the finger being examined is flexed."
+  ],
+  "tus": [
+   "FDS flexes the proximal interphalangeal joint; in its test the other fingers are held in extension.",
+   "Before inserting on the middle phalanx, the FDS tendons split to let the FDP tendon pass (chiasma tendinum)."
+  ],
+  "aliases": [
+   "FDS"
+  ]
+ },
+ "m-flexor-digitorum-profundus": {
+  "tr": "Flexor digitorum profundus",
+  "summary": "A muscle in the deep layer of the anterior forearm that flexes the fingertips. It has a dual nerve supply.",
+  "facts": [
+   "Upper 3/4 of the anterior and medial surfaces of the ulna and the interosseous membrane",
+   "Bases of the distal phalanges of fingers 2–5",
+   "Lateral half (fingers 2–3): anterior interosseous branch of the median nerve; medial half (fingers 4–5): ulnar nerve (C8–T1)",
+   "Ulnar artery, anterior interosseous artery",
+   "Flexes the fingertips at the distal interphalangeal (DIP) joints; assists flexion of all finger joints and the wrist"
+  ],
+  "sections": [],
+  "clinical": [
+   "Rugby/jersey finger: the FDP tendon of the ring finger is avulsed from the distal phalanx.",
+   "In a high ulnar nerve lesion DIP flexion is lost in fingers 4–5."
+  ],
+  "tus": [
+   "FDP is the only muscle that flexes the distal interphalangeal joint.",
+   "Jersey finger is avulsion of the FDP tendon (most often of the 4th finger) from the distal phalanx."
+  ],
+  "aliases": [
+   "FDP"
+  ]
+ },
+ "m-flexor-pollicis-longus": {
+  "tr": "Flexor pollicis longus",
+  "summary": "A muscle in the deep anterior layer of the forearm, in front of the radius, that flexes the tip of the thumb.",
+  "facts": [
+   "Anterior surface of the radius and interosseous membrane",
+   "Base of the distal phalanx of the thumb",
+   "Anterior interosseous nerve (median nerve; C7–C8)",
+   "Anterior interosseous artery",
+   "Flexes the interphalangeal and MCP joints of the thumb"
+  ],
+  "sections": [],
+  "clinical": [
+   "In anterior interosseous nerve injury the thumb and index finger cannot make the 'OK' sign (pinch is impaired)."
+  ],
+  "tus": [
+   "FPL is the only muscle that flexes the thumb IP joint; it is supplied by the anterior interosseous nerve."
+  ],
+  "aliases": [
+   "FPL"
+  ]
+ },
+ "m-pronator-quadratus": {
+  "tr": "Pronator quadratus",
+  "summary": "A quadrilateral muscle running transversely between the radius and ulna at the lower end of the forearm; the principal muscle of pronation.",
+  "facts": [
+   "Lower 1/4 of the anterior surface of the ulna",
+   "Lower 1/4 of the anterior surface of the radius",
+   "Anterior interosseous nerve (median nerve; C7–C8)",
+   "Anterior interosseous artery",
+   "Pronates the forearm; holds the distal radio-ulnar joint together"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Pronator quadratus is the main initiator of pronation; it is supplied by the anterior interosseous nerve."
+  ],
+  "aliases": [
+   "pronator"
+  ]
+ },
+ "m-brachioradialis": {
+  "tr": "Brachioradialis",
+  "summary": "A superficial muscle on the lateral border of the forearm. Although it is a posterior compartment muscle (radial nerve), it flexes the elbow.",
+  "facts": [
+   "Upper 2/3 of the lateral supracondylar ridge of the humerus",
+   "Base of the styloid process of the radius",
+   "Radial nerve (C5–C6)",
+   "Radial recurrent artery",
+   "Flexes the elbow when the forearm is half-pronated (as when holding a hammer); brings the forearm to the mid-position"
+  ],
+  "sections": [],
+  "clinical": [
+   "The brachioradialis reflex tests segments C5–C6."
+  ],
+  "tus": [
+   "The brachioradialis reflex assesses segment C6.",
+   "The lateral border of the cubital fossa is formed by brachioradialis, the medial border by pronator teres."
+  ],
+  "aliases": [
+   "supinator longus"
+  ]
+ },
+ "mm-extensores-carpi-radiales": {
+  "tr": "Extensor carpi radialis longus and brevis",
+  "summary": "Two muscles on the posterolateral forearm that bend the wrist back and so strengthen the grip.",
+  "facts": [
+   "Longus: lateral supracondylar ridge of the humerus; brevis: lateral epicondyle of the humerus (common extensor tendon)",
+   "Longus: base of the 2nd metacarpal; brevis: base of the 3rd metacarpal",
+   "Longus: radial nerve; brevis: deep branch of the radial nerve (C6–C7)",
+   "Radial artery, radial recurrent artery",
+   "Extend the wrist and deviate it radially; steady the wrist when making a fist"
+  ],
+  "sections": [],
+  "clinical": [
+   "Tennis elbow (lateral epicondylitis) is usually an overuse injury of the ECRB tendon at the lateral epicondyle."
+  ],
+  "tus": [
+   "ECRL is supplied by the main trunk of the radial nerve, ECRB by its deep branch; ECRL is spared in PIN palsy."
+  ],
+  "aliases": [
+   "ECRL",
+   "ECRB"
+  ]
+ },
+ "m-extensor-digitorum": {
+  "tr": "Extensor digitorum",
+  "summary": "A muscle in the middle of the posterior forearm that extends the fingers through four tendons.",
+  "facts": [
+   "Lateral epicondyle of the humerus (common extensor tendon)",
+   "Extensor apparatus of fingers 2–5 (bases of the middle and distal phalanges)",
+   "Posterior interosseous nerve (radial nerve; C7–C8)",
+   "Posterior interosseous artery",
+   "Extends fingers 2–5 at the MCP, PIP and DIP joints; assists wrist extension"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "The extensor mechanism (dorsal aponeurosis) is also the attachment of the lumbrical and interosseous muscles.",
+   "Boutonnière deformity results from rupture of the central slip; swan-neck deformity from volar plate laxity and intrinsic imbalance."
+  ],
+  "aliases": [
+   "extensor indicis",
+   "extensor digiti minimi"
+  ]
+ },
+ "m-extensor-carpi-ulnaris": {
+  "tr": "Extensor carpi ulnaris",
+  "summary": "A superficial extensor muscle on the posteromedial border of the forearm.",
+  "facts": [
+   "Lateral epicondyle of the humerus and posterior border of the ulna",
+   "Base of the 5th metacarpal",
+   "Posterior interosseous nerve (radial nerve; C7–C8)",
+   "Ulnar artery, posterior interosseous artery",
+   "Extends the wrist and deviates it to the ulnar side"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "ECU extends the wrist and deviates it ulnarly; it is weakened in PIN palsy."
+  ],
+  "aliases": [
+   "ECU"
+  ]
+ },
+ "m-supinator": {
+  "tr": "Supinator",
+  "summary": "A deep posterior forearm muscle wrapping the upper radius. The deep branch of the radial nerve pierces it to enter the posterior compartment.",
+  "facts": [
+   "Lateral epicondyle of the humerus, radial collateral ligament, anular ligament of the radius, supinator crest of the ulna",
+   "Lateral, posterior and anterior surfaces of the upper 1/3 of the radius",
+   "Deep branch of the radial nerve (C6–C7)",
+   "Radial recurrent artery, recurrent interosseous artery",
+   "Supinates the forearm (especially with the elbow extended)"
+  ],
+  "sections": [],
+  "clinical": [
+   "The posterior interosseous nerve can be compressed under the fibrous arch at the muscle's entrance (arcade of Frohse); finger drop develops without sensory loss."
+  ],
+  "tus": [
+   "Supinator is pierced by the deep branch of the radial nerve; compression at the arcade of Frohse causes PIN syndrome."
+  ],
+  "aliases": []
+ },
+ "mm-pollicis-longi": {
+  "tr": "Long muscles of the thumb",
+  "summary": "Three muscles running from the deep posterior layer of the forearm to the thumb. Their tendons bound the anatomical snuffbox on the lateral side of the wrist.",
+  "facts": [
+   "Posterior surfaces of the ulna, radius and interosseous membrane",
+   "APL: base of the 1st metacarpal; EPB: base of the proximal phalanx of the thumb; EPL: base of the distal phalanx of the thumb",
+   "Posterior interosseous nerve (radial nerve; C7–C8)",
+   "Posterior interosseous artery",
+   "APL abducts the thumb; EPB and EPL extend the thumb"
+  ],
+  "sections": [
+   [
+    "Anatomical snuffbox",
+    "It is bounded in front by the APL and EPB tendons and behind by the EPL tendon. Its floor is formed by the scaphoid and trapezium, and the radial artery runs within it."
+   ]
+  ],
+  "clinical": [
+   "De Quervain's tenosynovitis: inflammation of the APL and EPB tendons in the first extensor compartment (positive Finkelstein test).",
+   "After distal radius fractures the EPL tendon may rupture around Lister's tubercle."
+  ],
+  "tus": [
+   "EPL tendon rupture can develop around Lister's tubercle weeks after a distal radius fracture."
+  ],
+  "aliases": [
+   "APL",
+   "EPB",
+   "EPL",
+   "snuffbox"
+  ]
+ },
+ "mm-thenares": {
+  "tr": "Thenar muscles",
+  "summary": "The group forming the ball of the thumb (thenar eminence): abductor pollicis brevis, flexor pollicis brevis, opponens pollicis and the deeply placed adductor pollicis.",
+  "facts": [
+   "Flexor retinaculum, scaphoid and trapezium (adductor pollicis: 2nd–3rd metacarpals and capitate)",
+   "1st metacarpal and proximal phalanx of the thumb",
+   "Recurrent branch of the median nerve (APB, superficial head of FPB, OP); deep branch of the ulnar nerve (adductor pollicis and deep head of FPB) – C8–T1",
+   "Superficial palmar branch of the radial artery, deep palmar arch",
+   "Abduct, flex, oppose and adduct the thumb"
+  ],
+  "sections": [],
+  "clinical": [
+   "In carpal tunnel syndrome thenar wasting and weakness of opposition develop.",
+   "In ulnar nerve injury adductor pollicis is weak; when gripping a sheet of paper the thumb IP joint flexes (Froment's sign)."
+  ],
+  "tus": [
+   "The thenar muscles are supplied by the recurrent branch of the median nerve, known as the 'million-dollar nerve'.",
+   "Ape-hand deformity results from thenar wasting and loss of opposition in median nerve injury."
+  ],
+  "aliases": [
+   "thenar",
+   "opponens pollicis",
+   "adductor pollicis"
+  ]
+ },
+ "mm-hypothenares": {
+  "tr": "Hypothenar muscles",
+  "summary": "The group forming the swelling at the base of the little finger: abductor digiti minimi, flexor digiti minimi brevis and opponens digiti minimi.",
+  "facts": [
+   "Pisiform, hook of the hamate and flexor retinaculum",
+   "Proximal phalanx of the 5th finger and 5th metacarpal",
+   "Deep branch of the ulnar nerve (C8–T1)",
+   "Deep branch of the ulnar artery",
+   "Abduct, flex and oppose the little finger"
+  ],
+  "sections": [],
+  "clinical": [
+   "Hypothenar wasting is seen in ulnar nerve injury."
+  ],
+  "tus": [
+   "The hypothenar muscles are supplied by the deep branch of the ulnar nerve, palmaris brevis by the superficial branch."
+  ],
+  "aliases": [
+   "hypothenar"
+  ]
+ },
+ "mm-lumbricales-manus": {
+  "tr": "Lumbrical muscles of the hand",
+  "summary": "Four small muscles arising from the tendons of flexor digitorum profundus; they are unusual in attaching to tendon rather than bone.",
+  "facts": [
+   "Tendons of flexor digitorum profundus",
+   "Lateral border of the extensor apparatus of fingers 2–5",
+   "1st–2nd lumbricals: median nerve; 3rd–4th lumbricals: deep branch of the ulnar nerve",
+   "Superficial and deep palmar arches",
+   "Flex the MCP joints and extend the interphalangeal joints (the 'table-holding' position)"
+  ],
+  "sections": [],
+  "clinical": [
+   "In ulnar nerve injury a claw hand develops in fingers 4–5 (MCP hyperextension, IP flexion); ulnar paradox: with a high lesion the claw is less marked."
+  ],
+  "tus": [
+   "The lumbricals are rare muscles that arise from the FDP tendons and do not attach to bone."
+  ],
+  "aliases": [
+   "lumbrical"
+  ]
+ },
+ "mm-interossei-manus": {
+  "tr": "Interossei of the hand",
+  "summary": "Small muscles between the metacarpal bones: four dorsal and three palmar interossei.",
+  "facts": [
+   "Sides of adjacent metacarpal bones",
+   "Bases of the proximal phalanges and the extensor apparatus",
+   "Deep branch of the ulnar nerve (C8–T1)",
+   "Dorsal and palmar metacarpal arteries",
+   "Dorsal interossei spread the fingers (DAB – dorsal abduct); palmar interossei bring them together (PAD – palmar adduct); assist MCP flexion and IP extension"
+  ],
+  "sections": [],
+  "clinical": [
+   "The palmar interossei are tested by gripping a sheet of paper between the fingers; they are weak in ulnar nerve lesions, and wasting is seen in the first dorsal space."
+  ],
+  "tus": [
+   "There are 4 dorsal interossei and 3 (or 4) palmar interossei.",
+   "In ulnar nerve injury, wasting of the first dorsal interosseous produces a marked hollow on the back of the hand."
+  ],
+  "aliases": [
+   "interossei",
+   "DAB",
+   "PAD"
+  ]
+ }
+}

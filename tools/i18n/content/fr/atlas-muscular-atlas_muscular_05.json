@@ -1,0 +1,328 @@
+{
+ "m-iliopsoas": {
+  "tr": "Muscle ilio-psoas",
+  "summary": "Le plus puissant fléchisseur de la hanche, tendu de la paroi abdominale postérieure à la cuisse. Il est formé par le grand psoas et l'iliaque réunis par un tendon commun.",
+  "facts": [
+   "Grand psoas : corps vertébraux et disques de T12–L4 et processus transverses de L1–L5 ; iliaque : fosse iliaque",
+   "Petit trochanter du fémur",
+   "Grand psoas : rameaux antérieurs de L1–L3 ; iliaque : nerf fémoral (L2–L3)",
+   "Artère ilio-lombaire, artères lombaires, artère circonflexe iliaque profonde",
+   "Fléchit la hanche (monter un escalier, lever le pied) ; cuisse fixée, il fléchit le tronc (se redresser en position couchée)"
+  ],
+  "sections": [
+   [
+    "Rapports",
+    "Les branches du plexus lombal se forment dans le psoas ; le nerf fémoral sort dans la gouttière entre psoas et iliaque, le nerf obturateur au bord médial du psoas. Les abcès peuvent fuser le long de la gaine du psoas jusqu'à l'aine."
+   ]
+  ],
+  "clinical": [
+   "L'abcès du psoas (surtout dans le mal de Pott) fuse vers l'aine et la cuisse.",
+   "Signe du psoas dans l'appendicite : l'extension passive de la hanche droite est douloureuse."
+  ],
+  "tus": [
+   "Le grand psoas est innervé par des branches du plexus lombal, l'iliaque par le nerf fémoral.",
+   "L'abcès tuberculeux du psoas peut fuser le long de la gaine du muscle jusqu'à l'aine et la cuisse."
+  ],
+  "aliases": [
+   "psoas",
+   "iliaque",
+   "psoas-iliaque"
+  ]
+ },
+ "m-gluteus-maximus": {
+  "tr": "Muscle grand fessier",
+  "summary": "Le muscle le plus volumineux et le plus lourd du corps, qui donne sa forme arrondie à la fesse. Chez l'humain, il est spécialisé dans la station debout et la marche.",
+  "facts": [
+   "Face externe de l'ilium (en arrière de la ligne glutéale postérieure), face postérieure du sacrum et du coccyx, ligament sacro-tubéral, fascia thoraco-lombaire",
+   "Tractus ilio-tibial (la plupart des fibres) et tubérosité glutéale du fémur",
+   "Nerf glutéal inférieur (L5–S2)",
+   "Artères glutéales supérieure et inférieure",
+   "Étend la hanche et la tourne en dehors ; agit puissamment pour se lever d'une chaise, monter un escalier et courir ; stabilise le genou par le tractus ilio-tibial"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les injections intramusculaires fessières se font dans le quadrant supéro-latéral (ou en ventro-glutéal) pour éviter le nerf sciatique.",
+   "En cas de faiblesse, le tronc est rejeté en arrière à la marche (boiterie du grand fessier)."
+  ],
+  "tus": [
+   "La majorité du grand fessier se termine sur le tractus ilio-tibial, ses fibres profondes sur la tubérosité glutéale."
+  ],
+  "aliases": [
+   "fessier",
+   "fesse"
+  ]
+ },
+ "m-gluteus-medius": {
+  "tr": "Muscle moyen fessier",
+  "summary": "Muscle en éventail situé sous le grand fessier, sur la face externe de l'ilium. Il maintient le bassin horizontal à la marche.",
+  "facts": [
+   "Face externe de l'ilium (entre les lignes glutéales antérieure et postérieure)",
+   "Face latérale du grand trochanter",
+   "Nerf glutéal supérieur (L4–S1)",
+   "Artère glutéale supérieure",
+   "Abduction et rotation médiale de la hanche ; empêche la chute du bassin du côté opposé en appui unipodal"
+  ],
+  "sections": [],
+  "clinical": [
+   "En cas de lésion du nerf glutéal supérieur, le bassin s'abaisse du côté opposé en appui unipodal (signe de Trendelenburg positif) et la marche est dandinante."
+  ],
+  "tus": [
+   "Les moyen et petit fessiers empêchent la bascule du bassin du côté opposé en appui unipodal.",
+   "Ses fibres antérieures assurent la rotation médiale de la hanche."
+  ],
+  "aliases": [
+   "moyen fessier"
+  ]
+ },
+ "m-gluteus-minimus": {
+  "tr": "Muscle petit fessier",
+  "summary": "Le plus profond et le plus petit des muscles fessiers ; il agit avec le moyen fessier.",
+  "facts": [
+   "Face externe de l'ilium (entre les lignes glutéales antérieure et inférieure)",
+   "Face antérieure du grand trochanter",
+   "Nerf glutéal supérieur (L4–S1)",
+   "Artère glutéale supérieure",
+   "Abduction et rotation médiale de la hanche ; stabilise le bassin à la marche"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le petit fessier se trouve sous le moyen fessier et est innervé par le même nerf (nerf glutéal supérieur)."
+  ],
+  "aliases": []
+ },
+ "m-tensor-fasciae-latae": {
+  "tr": "Muscle tenseur du fascia lata",
+  "summary": "Muscle de la partie supéro-latérale de la cuisse, situé entre deux feuillets du fascia ; il agit jusqu'au genou par le tractus ilio-tibial.",
+  "facts": [
+   "Épine iliaque antéro-supérieure et partie antérieure de la crête iliaque",
+   "Tubercule infracondylaire du tibia (tubercule de Gerdy) par le tractus ilio-tibial",
+   "Nerf glutéal supérieur (L4–S1)",
+   "Artère circonflexe latérale de la cuisse, artère glutéale supérieure",
+   "Abduction, rotation médiale et flexion de la hanche ; stabilise le genou en extension"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le tenseur du fascia lata stabilise le genou en extension par le tractus ilio-tibial."
+  ],
+  "aliases": [
+   "TFL"
+  ]
+ },
+ "tractus-iliotibialis": {
+  "tr": "Tractus ilio-tibial",
+  "summary": "Bande fibreuse solide de la face latérale de la cuisse formée par un épaississement du fascia lata. Le grand fessier et le tenseur du fascia lata s'y terminent.",
+  "facts": [
+   "De la crête iliaque au tubercule infracondylaire du tibia",
+   "Stabilise latéralement le genou en extension et la hanche"
+  ],
+  "sections": [],
+  "clinical": [
+   "Chez le coureur, le frottement de la bandelette sur l'épicondyle latéral du fémur provoque une douleur latérale du genou (syndrome de la bandelette ilio-tibiale)."
+  ],
+  "tus": [
+   "Le syndrome de la bandelette ilio-tibiale du coureur se manifeste par une douleur en regard du condyle fémoral latéral."
+  ],
+  "aliases": [
+   "bandelette ilio-tibiale",
+   "BIT"
+  ]
+ },
+ "mm-rotatores-coxae": {
+  "tr": "Muscles rotateurs latéraux de la hanche",
+  "summary": "Groupe musculaire profond situé en arrière de la hanche, qui fait tourner la cuisse en dehors. Le piriforme est le muscle clé de la région.",
+  "facts": [
+   "Piriforme : face antérieure du sacrum ; obturateur interne : face interne de la membrane obturatrice ; jumeaux : épine ischiatique (supérieur) et tubérosité ischiatique (inférieur) ; carré fémoral : tubérosité ischiatique ; obturateur externe : face externe de la membrane obturatrice",
+   "Grand trochanter et fosse trochantérique ; carré fémoral : crête intertrochantérique",
+   "Piriforme : S1–S2 ; obturateur interne et jumeau supérieur : nerf de l'obturateur interne (L5–S2) ; carré fémoral et jumeau inférieur : nerf du carré fémoral (L4–S1) ; obturateur externe : nerf obturateur",
+   "Artères glutéales supérieure et inférieure, artère pudendale interne, artère circonflexe médiale de la cuisse",
+   "Tournent la cuisse en dehors et maintiennent la tête fémorale dans l'acétabulum ; hanche fléchie, le piriforme est abducteur"
+  ],
+  "sections": [
+   [
+    "Importance du piriforme",
+    "Il divise le grand foramen ischiatique : au-dessus (canal suprapiriforme) passent le nerf et les vaisseaux glutéaux supérieurs ; au-dessous (infrapiriforme) le nerf sciatique, le nerf glutéal inférieur, le nerf pudendal, le nerf cutané postérieur de la cuisse et les vaisseaux glutéaux inférieurs."
+   ]
+  ],
+  "clinical": [
+   "Syndrome du piriforme : douleur irradiant de la fesse à la jambe par compression du nerf sciatique par le muscle."
+  ],
+  "tus": [
+   "Petits rotateurs latéraux : piriforme, jumeaux supérieur et inférieur, obturateurs interne et externe, carré fémoral.",
+   "Tous sauf l'obturateur externe sont innervés par des branches du plexus sacral ; l'obturateur externe l'est par le nerf obturateur."
+  ],
+  "aliases": [
+   "piriforme",
+   "jumeaux",
+   "obturateur",
+   "pelvi-trochantériens"
+  ]
+ },
+ "m-sartorius": {
+  "tr": "Muscle sartorius",
+  "summary": "Le muscle le plus long du corps, qui croise obliquement de dehors en dedans la face antérieure de la cuisse. On l'appelle « muscle du tailleur » car il permet de s'asseoir en tailleur.",
+  "facts": [
+   "Épine iliaque antéro-supérieure",
+   "Partie supéro-médiale du tibia (patte d'oie)",
+   "Nerf fémoral (L2–L3)",
+   "Rameaux musculaires de l'artère fémorale",
+   "Flexion, abduction et rotation latérale de la hanche ; flexion du genou"
+  ],
+  "sections": [
+   [
+    "Patte d'oie",
+    "Les tendons du sartorius, du gracile et du semi-tendineux s'unissent à la face médiale du tibia en forme de patte d'oie (pes anserinus)."
+   ]
+  ],
+  "clinical": [
+   "Il forme la limite latérale du trigone fémoral et la paroi antérieure du canal des adducteurs (canal de Hunter) ; c'est un repère important pour aborder les vaisseaux fémoraux."
+  ],
+  "tus": [
+   "Le sartorius forme la limite latérale du trigone fémoral et le toit du canal des adducteurs."
+  ],
+  "aliases": [
+   "couturier",
+   "patte d'oie"
+  ]
+ },
+ "m-quadriceps-femoris": {
+  "tr": "Muscle quadriceps fémoral",
+  "summary": "Muscle à quatre chefs formant l'essentiel de la loge antérieure de la cuisse : droit fémoral, vaste latéral, vaste médial et vaste intermédiaire. C'est le seul extenseur puissant du genou.",
+  "facts": [
+   "Droit fémoral : épine iliaque antéro-inférieure et rebord supérieur de l'acétabulum ; vaste latéral : grand trochanter et lèvre latérale de la ligne âpre ; vaste médial : ligne intertrochantérique et lèvre médiale de la ligne âpre ; vaste intermédiaire : face antéro-latérale de la diaphyse fémorale",
+   "Patella par le tendon quadricipital commun, puis tubérosité tibiale par le ligament patellaire",
+   "Nerf fémoral (L2–L4)",
+   "Artère circonflexe latérale de la cuisse, artère fémorale, artère fémorale profonde",
+   "Étend le genou ; le droit fémoral fléchit aussi la hanche (seul chef biarticulaire)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le réflexe rotulien (L3–L4) est le réflexe myotatique de ce groupe.",
+   "En cas de lésion du nerf fémoral, l'extension du genou est perdue et le patient ne peut monter les escaliers.",
+   "Le vaste médial s'atrophie le plus vite après une chirurgie ou une immobilisation du genou."
+  ],
+  "tus": [
+   "Le réflexe rotulien explore L3–L4 (surtout L4).",
+   "La rupture du tendon quadricipital est plus fréquente chez le sujet âgé, celle du tendon patellaire chez le sujet jeune."
+  ],
+  "aliases": [
+   "quadriceps",
+   "droit fémoral",
+   "vaste"
+  ]
+ },
+ "mm-adductores": {
+  "tr": "Muscles adducteurs",
+  "summary": "Groupe de la loge médiale de la cuisse qui rapproche les membres inférieurs. Le grand adducteur est le plus volumineux du groupe et comporte deux parties.",
+  "facts": [
+   "Corps et branche inférieure du pubis ; partie ischio-jambière du grand adducteur : tubérosité ischiatique",
+   "Ligne âpre du fémur ; partie ischio-jambière du grand adducteur : tubercule de l'adducteur",
+   "Nerf obturateur (L2–L4) ; partie ischio-jambière du grand adducteur : contingent tibial du nerf sciatique (L4)",
+   "Artère fémorale profonde, artère obturatrice",
+   "Adduction de la cuisse ; aident la flexion et la rotation ; stabilisent le bassin à la marche"
+  ],
+  "sections": [
+   [
+    "Canal des adducteurs",
+    "Par l'orifice du grand adducteur (hiatus de l'adducteur), l'artère et la veine fémorales passent en arrière du genou et deviennent artère et veine poplitées."
+   ]
+  ],
+  "clinical": [
+   "Chez le sportif, la pubalgie des adducteurs touche le plus souvent le long adducteur."
+  ],
+  "tus": [
+   "Le groupe des adducteurs (long, court, grand, gracile, pectiné) est principalement innervé par le nerf obturateur.",
+   "L'élongation inguinale touche le plus souvent le long adducteur."
+  ],
+  "aliases": [
+   "adducteurs",
+   "long adducteur",
+   "grand adducteur"
+  ]
+ },
+ "m-gracilis": {
+  "tr": "Muscle gracile",
+  "summary": "Le muscle le plus superficiel, long et grêle de la face médiale de la cuisse ; le seul muscle de la loge médiale à croiser à la fois la hanche et le genou.",
+  "facts": [
+   "Corps et branche inférieure du pubis",
+   "Partie supéro-médiale du tibia (patte d'oie)",
+   "Nerf obturateur (L2–L3)",
+   "Artère fémorale profonde, artère obturatrice",
+   "Adduction de la cuisse, flexion et rotation médiale du genou"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le muscle est souvent utilisé en chirurgie plastique comme lambeau musculaire libre fonctionnel."
+  ],
+  "tus": [
+   "Le gracile peut servir de lambeau musculaire et son tendon de greffon (ligamentoplastie du LCA) ; il est innervé par le nerf obturateur."
+  ],
+  "aliases": [
+   "droit interne"
+  ]
+ },
+ "m-pectineus": {
+  "tr": "Muscle pectiné",
+  "summary": "Muscle quadrilatère du plancher du trigone fémoral, entre l'ilio-psoas et le long adducteur.",
+  "facts": [
+   "Pecten du pubis (ligne pectinée)",
+   "Ligne pectinée du fémur (sous le petit trochanter)",
+   "Nerf fémoral (L2–L3), parfois aussi des fibres du nerf obturateur",
+   "Artère circonflexe médiale de la cuisse, artère obturatrice",
+   "Adduction et flexion de la cuisse"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le pectiné forme une partie du plancher du trigone fémoral."
+  ],
+  "aliases": []
+ },
+ "mm-ischiocrurales": {
+  "tr": "Muscles ischio-jambiers",
+  "summary": "Trois muscles de la loge postérieure de la cuisse qui étendent la hanche et fléchissent le genou. Le biceps fémoral est latéral, le semi-tendineux et le semi-membraneux médiaux.",
+  "facts": [
+   "Tubérosité ischiatique (chef court du biceps fémoral : lèvre latérale de la ligne âpre)",
+   "Biceps fémoral : tête de la fibula ; semi-tendineux : partie supéro-médiale du tibia (patte d'oie) ; semi-membraneux : face postérieure du condyle médial du tibia",
+   "Contingent tibial du nerf sciatique (L5–S2) ; chef court du biceps fémoral : contingent fibulaire commun",
+   "Artères perforantes (artère fémorale profonde), artère circonflexe médiale de la cuisse",
+   "Étendent la hanche et fléchissent le genou ; le biceps fémoral tourne le genou en dehors, le semi-tendineux et le semi-membraneux en dedans"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les lésions des ischio-jambiers sont parmi les blessures musculaires les plus fréquentes chez les sprinteurs.",
+   "Dans la ligamentoplastie du LCA, le tendon du semi-tendineux (et du gracile) est souvent utilisé comme greffon."
+  ],
+  "tus": [
+   "Les ischio-jambiers étendent la hanche et fléchissent le genou ; l'arrachement de la tubérosité ischiatique s'observe chez le sportif.",
+   "La raideur des ischio-jambiers peut limiter l'élévation de la jambe tendue ; il ne faut pas la confondre avec un signe de Lasègue."
+  ],
+  "aliases": [
+   "ischio-jambiers",
+   "semi-tendineux",
+   "semi-membraneux"
+  ]
+ },
+ "m-biceps-femoris": {
+  "tr": "Muscle biceps fémoral",
+  "summary": "Muscle ischio-jambier à deux chefs de la face postéro-latérale de la cuisse. Son tendon se palpe au bord latéral du creux poplité.",
+  "facts": [
+   "Chef long : tubérosité ischiatique ; chef court : lèvre latérale de la ligne âpre",
+   "Tête de la fibula",
+   "Chef long : contingent tibial ; chef court : contingent fibulaire commun (L5–S2)",
+   "Artères perforantes, artère glutéale inférieure",
+   "Fléchit le genou et tourne en dehors le genou fléchi ; le chef long étend la hanche"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le nerf fibulaire commun, qui chemine juste en dedans et en arrière de son tendon, peut être lésé lors d'une chirurgie de la face latérale du genou."
+  ],
+  "tus": [
+   "Le biceps fémoral est un stabilisateur dynamique du compartiment latéral du genou et s'insère sur la tête de la fibula ; le nerf fibulaire commun longe son tendon en arrière."
+  ],
+  "aliases": [
+   "ischio-jambier"
+  ]
+ }
+}

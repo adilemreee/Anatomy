@@ -1,0 +1,320 @@
+{
+ "m-psoas-major": {
+  "tr": "Muscle grand psoas",
+  "summary": "Long muscle fusiforme né à côté des vertèbres lombales, qui passe sous le ligament inguinal vers la cuisse ; avec l'iliaque il forme l'ilio-psoas.",
+  "facts": [
+   "Corps de T12–L4 et disques intercalés, processus transverses de L1–L5",
+   "Petit trochanter (tendon commun avec l'iliaque)",
+   "Rameaux antérieurs des nerfs spinaux L1–L3",
+   "Artères lombales, artère ilio-lombale",
+   "Le plus puissant fléchisseur de la hanche ; cuisse fixée, il fléchit le tronc et incline latéralement le rachis lombal"
+  ],
+  "sections": [],
+  "clinical": [
+   "L'abcès du psoas (p. ex. tuberculose vertébrale) descend dans la gaine du muscle jusqu'à l'aine et forme une tuméfaction à la partie antéro-supérieure de la cuisse.",
+   "Signe du psoas dans l'appendicite : l'extension passive de la hanche droite est douloureuse."
+  ],
+  "tus": [
+   "Le plexus lombal se forme dans l'épaisseur du muscle ; le nerf fémoral sort par son bord latéral, le nerf obturateur par son bord médial, le nerf génito-fémoral par sa face antérieure."
+  ],
+  "aliases": [
+   "psoas",
+   "ilio-psoas"
+  ]
+ },
+ "m-iliacus": {
+  "tr": "Muscle iliaque",
+  "summary": "Muscle en éventail qui remplit la fosse iliaque ; son tendon se joint à celui du grand psoas.",
+  "facts": [
+   "2/3 supérieurs de la fosse iliaque, lèvre interne de la crête iliaque, aile du sacrum et pourtour de l'EIAI",
+   "Petit trochanter (avec le tendon du grand psoas)",
+   "Nerf fémoral (L2–L3)",
+   "Rameau iliaque de l'artère ilio-lombale, artère circonflexe iliaque profonde",
+   "Fléchit la hanche ; bascule le bassin en avant"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "ilio-psoas"
+  ]
+ },
+ "m-piriformis": {
+  "tr": "Muscle piriforme",
+  "summary": "Muscle qui traverse le grand foramen ischiatique pour gagner la région glutéale ; c'est le repère clé de cette région.",
+  "facts": [
+   "Face antérieure du sacrum (en regard de S2–S4) et bord de la grande incisure ischiatique",
+   "Bord supérieur du grand trochanter",
+   "Nerf du muscle piriforme (S1–S2)",
+   "Artères glutéales supérieure et inférieure",
+   "Rotation latérale de la hanche ; abduction de la hanche fléchie ; maintient la tête fémorale dans l'acétabulum"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans le syndrome du piriforme, le nerf sciatique est comprimé sous le muscle, d'où douleur fessière et sciatalgie."
+  ],
+  "tus": [
+   "Il divise le grand foramen ischiatique en canal suprapiriforme (artère, veine et nerf glutéaux supérieurs) et infrapiriforme (nerf sciatique, vaisseaux et nerf glutéaux inférieurs, nerf pudendal, artère pudendale interne, nerf cutané postérieur de la cuisse)."
+  ],
+  "aliases": [
+   "pyramidal du bassin",
+   "pelvi-trochantérien"
+  ]
+ },
+ "m-obturator-internus": {
+  "tr": "Muscle obturateur interne",
+  "summary": "Muscle né de la paroi latérale interne du bassin, dont le tendon se réfléchit par le petit foramen ischiatique pour gagner le trochanter.",
+  "facts": [
+   "Face interne de la membrane obturatrice et pourtour osseux du foramen obturé",
+   "Face médiale du grand trochanter (au-dessus de la fosse trochantérique)",
+   "Nerf du muscle obturateur interne (L5–S2)",
+   "Artère pudendale interne, artère obturatrice",
+   "Rotation latérale de la hanche ; abduction de la hanche fléchie"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "En sortant par le petit foramen ischiatique, son tendon se réfléchit comme sur une poulie sur la petite incisure ischiatique ; son fascia forme la paroi du canal pudendal (d'Alcock)."
+  ],
+  "aliases": [
+   "pelvi-trochantérien"
+  ]
+ },
+ "m-gemellus-superior": {
+  "tr": "Muscle jumeau supérieur",
+  "summary": "Petit muscle qui accompagne le bord supérieur du tendon de l'obturateur interne.",
+  "facts": [
+   "Épine ischiatique",
+   "Face médiale du grand trochanter, avec le tendon de l'obturateur interne",
+   "Nerf du muscle obturateur interne (L5–S2)",
+   "Artère glutéale inférieure",
+   "Rotation latérale de la hanche"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "jumeaux pelviens"
+  ]
+ },
+ "m-gemellus-inferior": {
+  "tr": "Muscle jumeau inférieur",
+  "summary": "Petit muscle qui accompagne le bord inférieur du tendon de l'obturateur interne.",
+  "facts": [
+   "Partie haute de la tubérosité ischiatique",
+   "Face médiale du grand trochanter, avec le tendon de l'obturateur interne",
+   "Nerf du muscle carré fémoral (L4–S1)",
+   "Artère glutéale inférieure, artère circonflexe médiale de la cuisse",
+   "Rotation latérale de la hanche"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Les jumeaux ont des nerfs différents : le supérieur reçoit le nerf de l'obturateur interne, l'inférieur celui du carré fémoral."
+  ],
+  "aliases": [
+   "jumeaux pelviens"
+  ]
+ },
+ "m-quadratus-femoris": {
+  "tr": "Muscle carré fémoral",
+  "summary": "Muscle quadrilatère horizontal tendu entre la tubérosité ischiatique et le fémur.",
+  "facts": [
+   "Bord latéral de la tubérosité ischiatique",
+   "Tubercule carré de la crête intertrochantérique",
+   "Nerf du muscle carré fémoral (L4–S1)",
+   "Artère circonflexe médiale de la cuisse",
+   "Puissant rotateur latéral de la hanche"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "L'artère circonflexe médiale de la cuisse chemine en profondeur de ce muscle ; principale artère de la tête fémorale, elle doit être préservée dans les voies d'abord postérieures."
+  ],
+  "aliases": [
+   "carré crural",
+   "pelvi-trochantérien"
+  ]
+ },
+ "m-obturator-externus": {
+  "tr": "Muscle obturateur externe",
+  "summary": "Muscle né de la face externe de la membrane obturatrice, qui passe sous le col fémoral pour gagner la fosse trochantérique.",
+  "facts": [
+   "Face externe de la membrane obturatrice et pourtour osseux du foramen obturé",
+   "Fosse trochantérique",
+   "Branche postérieure du nerf obturateur (L3–L4)",
+   "Artère obturatrice, artère circonflexe médiale de la cuisse",
+   "Rotation latérale de la hanche ; stabilise la tête fémorale"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "C'est le seul petit rotateur latéral innervé par le nerf obturateur ; anatomiquement il est rangé parmi les adducteurs."
+  ],
+  "aliases": [
+   "pelvi-trochantérien"
+  ]
+ },
+ "m-rectus-femoris": {
+  "tr": "Muscle droit fémoral",
+  "summary": "Chef superficiel central du quadriceps ; le seul chef du quadriceps qui croise à la fois la hanche et le genou.",
+  "facts": [
+   "Chef direct : épine iliaque antéro-inférieure (EIAI) ; chef réfléchi : rebord supérieur de l'acétabulum (sillon supra-acétabulaire)",
+   "Tubérosité tibiale par la patella et le ligament patellaire",
+   "Nerf fémoral (L2–L4)",
+   "Artère circonflexe latérale de la cuisse",
+   "Étend le genou et fléchit la hanche"
+  ],
+  "sections": [],
+  "clinical": [
+   "Chez l'adolescent sportif, il peut provoquer une fracture-avulsion de l'EIAI ; sa contraction simultanée en flexion de hanche et extension de genou l'expose aux lésions."
+  ],
+  "tus": [],
+  "aliases": [
+   "droit antérieur",
+   "quadriceps"
+  ]
+ },
+ "m-vastus-lateralis": {
+  "tr": "Muscle vaste latéral",
+  "summary": "Le plus grand chef du quadriceps, qui recouvre la face latérale de la cuisse.",
+  "facts": [
+   "Partie haute de la ligne intertrochantérique, grand trochanter, tubérosité glutéale et lèvre latérale de la ligne âpre",
+   "Bord latéral de la patella par le tendon quadricipital, puis tubérosité tibiale par le ligament patellaire",
+   "Nerf fémoral (L2–L4)",
+   "Artère circonflexe latérale de la cuisse (branche descendante)",
+   "Étend le genou"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "C'est le site privilégié des injections intramusculaires chez l'enfant (face latérale du tiers moyen de la cuisse)."
+  ],
+  "aliases": [
+   "vaste externe",
+   "quadriceps"
+  ]
+ },
+ "m-vastus-medialis": {
+  "tr": "Muscle vaste médial",
+  "summary": "Chef du quadriceps en forme de goutte, saillant à la partie basse et médiale de la cuisse ; ses fibres obliques inférieures (VMO) attirent la patella en dedans.",
+  "facts": [
+   "Partie basse de la ligne intertrochantérique, lèvre médiale de la ligne âpre et septum intermusculaire médial",
+   "Bord médial de la patella et tendon quadricipital ; tubérosité tibiale par le ligament patellaire",
+   "Nerf fémoral (L2–L4)",
+   "Artère fémorale, artère fémorale profonde",
+   "Étend le genou ; ses fibres obliques empêchent la patella de glisser en dehors"
+  ],
+  "sections": [],
+  "clinical": [
+   "La faiblesse du vaste médial oblique favorise le syndrome fémoro-patellaire et la luxation latérale de la patella ; c'est le premier à s'atrophier après une chirurgie du genou."
+  ],
+  "tus": [],
+  "aliases": [
+   "vaste interne",
+   "VMO",
+   "quadriceps"
+  ]
+ },
+ "m-vastus-intermedius": {
+  "tr": "Muscle vaste intermédiaire",
+  "summary": "Chef profond du quadriceps situé sous le droit fémoral, adhérent aux faces antérieure et latérale de la diaphyse fémorale.",
+  "facts": [
+   "2/3 supérieurs des faces antérieure et latérale de la diaphyse fémorale",
+   "Couche profonde du tendon quadricipital ; patella et tubérosité tibiale",
+   "Nerf fémoral (L2–L4)",
+   "Artère circonflexe latérale de la cuisse, artère fémorale profonde",
+   "Étend le genou"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le muscle articulaire du genou, sous-jacent, attire la bourse suprapatellaire vers le haut lors de l'extension et l'empêche d'être pincée."
+  ],
+  "aliases": [
+   "crural",
+   "quadriceps"
+  ]
+ },
+ "m-adductor-longus": {
+  "tr": "Muscle long adducteur",
+  "summary": "Muscle plat le plus antérieur et le plus superficiel du groupe des adducteurs ; il forme le bord médial du trigone fémoral.",
+  "facts": [
+   "Corps du pubis (sous la crête pubienne)",
+   "1/3 moyen de la ligne âpre (lèvre médiale)",
+   "Branche antérieure du nerf obturateur (L2–L4)",
+   "Artère fémorale profonde, artère obturatrice",
+   "Adduction de la hanche ; aide la flexion et la rotation médiale"
+  ],
+  "sections": [],
+  "clinical": [
+   "C'est l'adducteur le plus souvent lésé dans les élongations inguinales ; fréquent chez les footballeurs."
+  ],
+  "tus": [
+   "Trigone fémoral : ligament inguinal (en haut), sartorius (en dehors), long adducteur (bord médial)."
+  ],
+  "aliases": [
+   "moyen adducteur",
+   "adducteurs"
+  ]
+ },
+ "m-adductor-brevis": {
+  "tr": "Muscle court adducteur",
+  "summary": "Court muscle triangulaire situé sous le long adducteur ; les branches du nerf obturateur passent en avant et en arrière de lui.",
+  "facts": [
+   "Corps et branche inférieure du pubis",
+   "Ligne pectinée et partie haute de la ligne âpre",
+   "Nerf obturateur (L2–L4)",
+   "Artère fémorale profonde, artère obturatrice",
+   "Adduction de la hanche ; aide la flexion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "La branche antérieure du nerf obturateur passe en avant du muscle, la branche postérieure en arrière."
+  ],
+  "aliases": [
+   "petit adducteur",
+   "adducteurs"
+  ]
+ },
+ "m-adductor-magnus": {
+  "tr": "Muscle grand adducteur",
+  "summary": "Le plus grand des adducteurs, avec une partie adductrice et une partie ischio-jambière (ischio-condylienne) innervées par deux nerfs différents.",
+  "facts": [
+   "Partie adductrice : branche inférieure du pubis et branche de l'ischium ; partie ischio-jambière : tubérosité ischiatique",
+   "Partie adductrice : tubérosité glutéale et ligne âpre ; partie ischio-jambière : tubercule de l'adducteur (fémur)",
+   "Partie adductrice : nerf obturateur (L2–L4) ; partie ischio-jambière : contingent tibial du nerf sciatique (L4)",
+   "Artère fémorale profonde (artères perforantes), artère obturatrice",
+   "Adduction de la hanche ; la partie adductrice fléchit, la partie ischio-jambière étend"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Par le hiatus de l'adducteur, entre ses deux insertions, l'artère et la veine fémorales gagnent la fosse poplitée et deviennent artère et veine poplitées."
+  ],
+  "aliases": [
+   "adducteurs"
+  ]
+ },
+ "m-semitendinosus": {
+  "tr": "Muscle semi-tendineux",
+  "summary": "Muscle ischio-jambier de la face postéro-médiale de la cuisse, dont la moitié inférieure devient un long tendon.",
+  "facts": [
+   "Tubérosité ischiatique (tendon commun avec le chef long du biceps fémoral)",
+   "Partie supéro-médiale du tibia (patte d'oie)",
+   "Contingent tibial du nerf sciatique (L5–S2)",
+   "Artères perforantes de la fémorale profonde, artère circonflexe médiale de la cuisse",
+   "Fléchit le genou et étend la hanche ; tourne la jambe en dedans genou fléchi"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "La patte d'oie est formée par le sartorius, le gracile et le semi-tendineux ; son tendon sert de greffon dans la ligamentoplastie du LCA."
+  ],
+  "aliases": [
+   "ischio-jambiers",
+   "patte d'oie"
+  ]
+ }
+}

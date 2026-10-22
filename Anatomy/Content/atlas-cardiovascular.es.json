@@ -1,0 +1,2570 @@
+{
+ "system": "cardiovascular",
+ "entries": [
+  {
+   "id": "cor",
+   "tr": "Corazón",
+   "la": "Cor",
+   "en": "Heart",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Órgano muscular situado en el mediastino medio, entre ambos pulmones, que bombea la sangre a todo el cuerpo. Tiene más o menos el tamaño de un puño y cuatro cavidades: dos aurículas y dos ventrículos.",
+   "facts": [
+    [
+     "Ağırlık",
+     "Unos 250–350 g en el adulto",
+     "Peso"
+    ],
+    [
+     "Konum",
+     "Mediastino medio; dos tercios a la izquierda de la línea media, el vértice (apex cordis) en el 5.º espacio intercostal izquierdo en la línea medioclavicular",
+     "Localización"
+    ],
+    [
+     "Duvar katmanları",
+     "Endocardio, miocardio (músculo cardíaco), epicardio (pericardio visceral)",
+     "Capas de la pared"
+    ],
+    [
+     "Boşlukları",
+     "Aurícula derecha, ventrículo derecho, aurícula izquierda, ventrículo izquierdo",
+     "Cavidades"
+    ],
+    [
+     "Kapakları",
+     "Tricúspide, pulmonar, mitral (bicúspide), aórtica",
+     "Válvulas"
+    ],
+    [
+     "Kanlanma",
+     "Arterias coronarias derecha e izquierda",
+     "Irrigación"
+    ],
+    [
+     "İnnervasyon",
+     "Plexo cardíaco (simpático: aumenta la frecuencia y la contractilidad; parasimpático – nervio vago: reduce la frecuencia)",
+     "Inervación"
+    ]
+   ],
+   "sections": [
+    [
+     "Flujo sanguíneo",
+     "La sangre desoxigenada del cuerpo llega a la aurícula derecha por las venas cavas, pasa la válvula tricúspide al ventrículo derecho y la válvula pulmonar al tronco pulmonar y los pulmones. La sangre oxigenada vuelve de los pulmones por las venas pulmonares a la aurícula izquierda, pasa la válvula mitral al ventrículo izquierdo y se bombea por la válvula aórtica a la aorta."
+    ],
+    [
+     "Sistema de conducción",
+     "Nódulo sinusal (marcapasos; aurícula derecha) → nódulo auriculoventricular → haz de His → ramas derecha e izquierda → fibras de Purkinje."
+    ]
+   ],
+   "clinical": [
+    "El infarto de miocardio es la muerte del músculo cardíaco por oclusión de una arteria coronaria.",
+    "En la insuficiencia cardíaca el corazón no puede bombear toda la sangre que el organismo necesita; la izquierda produce edema pulmonar y la derecha edema de piernas y hepatomegalia.",
+    "Focos de auscultación: aórtico (2.º espacio derecho), pulmonar (2.º espacio izquierdo), tricuspídeo (4.º–5.º espacio izquierdo junto al esternón), mitral (vértice)."
+   ],
+   "tus": [
+    "El vértice del corazón se palpa en el 5.º espacio intercostal izquierdo, justo medial a la línea medioclavicular (choque de punta).",
+    "El primer tubo cardíaco empieza a latir al final de la 3.ª semana; la tabicación tiene lugar entre la 4.ª y la 7.ª semana."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "ventriculus-sinister",
+    "valvae-cordis",
+    "aa-coronariae",
+    "aorta",
+    "pericardium"
+   ],
+   "models": [
+    "Heart"
+   ],
+   "aliases": [
+    "corazón",
+    "cardíaco"
+   ]
+  },
+  {
+   "id": "atrium-dextrum",
+   "tr": "Aurícula derecha",
+   "la": "Atrium dextrum",
+   "en": "Right atrium",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Cavidad cardíaca que recoge la sangre desoxigenada del cuerpo y de la propia pared del corazón. Contiene el nódulo sinusal, el marcapasos natural del corazón.",
+   "facts": [
+    [
+     "Açılan damarlar",
+     "Vena cava superior, vena cava inferior, seno coronario",
+     "Vasos que desembocan"
+    ],
+    [
+     "İç yapılar",
+     "Orejuela derecha, músculos pectíneos, cresta terminal, fosa oval (resto del foramen oval), válvula de la vena cava inferior",
+     "Estructuras internas"
+    ],
+    [
+     "İleti sistemi",
+     "Nódulo sinusal (cerca de la desembocadura de la vena cava superior), nódulo auriculoventricular (en el triángulo de Koch)",
+     "Sistema de conducción"
+    ],
+    [
+     "Çıkış",
+     "Al ventrículo derecho por el orificio auriculoventricular derecho (válvula tricúspide)",
+     "Salida"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Si el foramen oval no se cierra tras el nacimiento (foramen oval permeable), existe riesgo de embolia paradójica.",
+    "La comunicación interauricular (CIA) produce sobrecarga de volumen del corazón derecho."
+   ],
+   "tus": [
+    "La parte lisa de la aurícula derecha (seno de las venas cavas) procede del seno venoso y la parte muscular (músculos pectíneos) de la aurícula primitiva; la cresta terminal marca el límite.",
+    "En la desembocadura de la VCI está la válvula de la vena cava inferior (de Eustaquio) y en la del seno coronario la válvula de Tebesio."
+   ],
+   "related": [
+    "cor",
+    "ventriculus-dexter",
+    "v-cava-superior",
+    "v-cava-inferior",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Right atrium"
+   ],
+   "aliases": [
+    "aurícula derecha",
+    "atrio derecho"
+   ]
+  },
+  {
+   "id": "ventriculus-dexter",
+   "tr": "Ventrículo derecho",
+   "la": "Ventriculus dexter",
+   "en": "Right ventricle",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Cavidad cardíaca que bombea la sangre desoxigenada a los pulmones. Forma la mayor parte de la cara anterior del corazón; su pared es unas tres veces más delgada que la del ventrículo izquierdo.",
+   "facts": [
+    [
+     "Giriş",
+     "Válvula tricúspide",
+     "Entrada"
+    ],
+    [
+     "Çıkış",
+     "Cono arterioso (infundíbulo) y válvula pulmonar hacia el tronco pulmonar",
+     "Salida"
+    ],
+    [
+     "İç yapılar",
+     "Trabéculas carnosas, músculos papilares (anterior, posterior, septal), cuerdas tendinosas, trabécula septomarginal (banda moderadora – lleva la rama derecha)",
+     "Estructuras internas"
+    ],
+    [
+     "Duvar kalınlığı",
+     "3–5 mm",
+     "Grosor de la pared"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La hipertensión pulmonar produce hipertrofia e insuficiencia ventricular derecha (cor pulmonale).",
+    "La hipertrofia ventricular derecha es uno de los componentes de la tetralogía de Fallot."
+   ],
+   "tus": [
+    "El interior del ventrículo derecho es trabeculado (trabéculas carnosas); su tracto de salida (infundíbulo) tiene pared lisa.",
+    "La válvula tricúspide tiene tres valvas (anterior, posterior, septal) y tres músculos papilares."
+   ],
+   "related": [
+    "cor",
+    "atrium-dextrum",
+    "truncus-pulmonalis",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Right ventricle",
+    "Anterior papillary muscle of right ventricle",
+    "Inferior papillary muscle of right ventricle",
+    "Septal papillary muscle of right ventricle"
+   ],
+   "aliases": [
+    "ventrículo derecho"
+   ]
+  },
+  {
+   "id": "atrium-sinistrum",
+   "tr": "Aurícula izquierda",
+   "la": "Atrium sinistrum",
+   "en": "Left atrium",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Cavidad cardíaca que recoge la sangre oxigenada de los pulmones y forma la mayor parte de la base del corazón (basis cordis). Es la cavidad más posterior del corazón y está en contacto con el esófago.",
+   "facts": [
+    [
+     "Açılan damarlar",
+     "Cuatro venas pulmonares",
+     "Vasos que desembocan"
+    ],
+    [
+     "Çıkış",
+     "Al ventrículo izquierdo por la válvula mitral",
+     "Salida"
+    ],
+    [
+     "İç yapılar",
+     "Pared mayormente lisa; los músculos pectíneos están en la orejuela izquierda",
+     "Estructuras internas"
+    ],
+    [
+     "Komşuluk",
+     "Por detrás, el esófago – se ve bien en la ecocardiografía transesofágica",
+     "Relaciones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En la fibrilación auricular la sangre puede coagularse en la orejuela izquierda y causar un ictus.",
+    "En la estenosis mitral la aurícula izquierda dilatada puede comprimir el esófago y dificultar la deglución."
+   ],
+   "tus": [
+    "En la aurícula izquierda desembocan cuatro venas pulmonares; la orejuela izquierda es el lugar más frecuente de trombos (fibrilación auricular).",
+    "Salvo en la orejuela, la pared de la aurícula izquierda es lisa; procede de las venas pulmonares."
+   ],
+   "related": [
+    "cor",
+    "ventriculus-sinister",
+    "vv-pulmonales",
+    "valvae-cordis"
+   ],
+   "models": [
+    "Left atrium"
+   ],
+   "aliases": [
+    "aurícula izquierda",
+    "atrio izquierdo"
+   ]
+  },
+  {
+   "id": "ventriculus-sinister",
+   "tr": "Ventrículo izquierdo",
+   "la": "Ventriculus sinister",
+   "en": "Left ventricle",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "La cavidad más potente del corazón, que bombea la sangre oxigenada por la aorta a todo el cuerpo. Forma el vértice y el borde izquierdo del corazón.",
+   "facts": [
+    [
+     "Giriş",
+     "Válvula mitral (bicúspide)",
+     "Entrada"
+    ],
+    [
+     "Çıkış",
+     "Vestíbulo aórtico y válvula aórtica",
+     "Salida"
+    ],
+    [
+     "İç yapılar",
+     "Trabéculas carnosas finas y densas, dos potentes músculos papilares (anterior y posterior), cuerdas tendinosas",
+     "Estructuras internas"
+    ],
+    [
+     "Duvar kalınlığı",
+     "8–12 mm",
+     "Grosor de la pared"
+    ],
+    [
+     "Ejeksiyon fraksiyonu",
+     "Normalmente 55–70 %",
+     "Fracción de eyección"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La hipertensión y la estenosis aórtica producen hipertrofia ventricular izquierda.",
+    "En el infarto de cara anterior (oclusión de la DA) se afectan la pared anterior del ventrículo izquierdo y el tabique; la rotura de un músculo papilar puede causar insuficiencia mitral aguda."
+   ],
+   "tus": [
+    "La valva anterior de la mitral tiene continuidad fibrosa con la válvula aórtica.",
+    "La pared ventricular izquierda es unas tres veces más gruesa que la derecha (~10–15 mm)."
+   ],
+   "related": [
+    "cor",
+    "atrium-sinistrum",
+    "aorta",
+    "valvae-cordis",
+    "aa-coronariae"
+   ],
+   "models": [
+    "Left ventricle",
+    "Inferior papillary muscle of left ventricle"
+   ],
+   "aliases": [
+    "ventrículo izquierdo"
+   ]
+  },
+  {
+   "id": "valvae-cordis",
+   "tr": "Válvulas cardíacas",
+   "la": "Valvae cordis",
+   "en": "Heart valves",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Las cuatro válvulas que hacen que la sangre circule en un solo sentido dentro del corazón: dos auriculoventriculares (tricúspide y mitral) y dos semilunares (pulmonar y aórtica).",
+   "facts": [
+    [
+     "Triküspit kapak",
+     "Válvula auriculoventricular derecha – tres valvas (anterior, posterior, septal)",
+     "Válvula tricúspide"
+    ],
+    [
+     "Mitral kapak",
+     "Válvula auriculoventricular izquierda – dos valvas (anterior y posterior)",
+     "Válvula mitral"
+    ],
+    [
+     "Pulmoner kapak",
+     "Válvula del tronco pulmonar – tres valvas semilunares",
+     "Válvula pulmonar"
+    ],
+    [
+     "Aort kapağı",
+     "Válvula aórtica – tres valvas semilunares (coronaria derecha, coronaria izquierda, no coronaria); de sus senos nacen las arterias coronarias",
+     "Válvula aórtica"
+    ],
+    [
+     "Destek yapıları",
+     "Las válvulas auriculoventriculares se unen por cuerdas tendinosas a los músculos papilares; el esqueleto fibroso (anillos fibrosos) sostiene las válvulas",
+     "Estructuras de sostén"
+    ]
+   ],
+   "sections": [
+    [
+     "Ruidos cardíacos",
+     "R1 es el cierre de las válvulas auriculoventriculares y R2 el cierre de las válvulas semilunares."
+    ]
+   ],
+   "clinical": [
+    "La cardiopatía reumática afecta con más frecuencia a la válvula mitral.",
+    "En los ancianos, la estenosis aórtica (calcificada) causa síncope, angina e insuficiencia cardíaca.",
+    "La endocarditis infecciosa forma vegetaciones sobre las valvas."
+   ],
+   "tus": [
+    "Las válvulas semilunares no tienen cuerdas ni músculos papilares; las arterias coronarias nacen de los senos situados detrás de la válvula aórtica.",
+    "Las válvulas cardíacas se fijan al esqueleto fibroso (anillos fibrosos), que además aísla eléctricamente las aurículas de los ventrículos."
+   ],
+   "related": [
+    "cor",
+    "atrium-dextrum",
+    "ventriculus-sinister",
+    "aorta"
+   ],
+   "models": [
+    "Valvular complex of heart"
+   ],
+   "aliases": [
+    "válvula",
+    "mitral",
+    "tricúspide",
+    "válvula aórtica",
+    "válvula pulmonar"
+   ]
+  },
+  {
+   "id": "aa-coronariae",
+   "tr": "Arterias coronarias",
+   "la": "Arteriae coronariae",
+   "en": "Coronary arteries",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Las dos arterias que nacen de la raíz aórtica e irrigan el músculo cardíaco. Tras un tronco corto, la coronaria izquierda se divide en descendente anterior (DA) y circunfleja.",
+   "facts": [
+    [
+     "A. coronaria sinistra",
+     "Del seno aórtico izquierdo; tronco común → rama interventricular anterior (DA) y rama circunfleja",
+     "A. coronaria sinistra"
+    ],
+    [
+     "A. coronaria dextra",
+     "Del seno aórtico derecho; discurre por el surco coronario; rama marginal derecha, rama interventricular posterior (en la mayoría – dominancia derecha), ramas de los nódulos sinusal y AV",
+     "A. coronaria dextra"
+    ],
+    [
+     "LAD beslediği alan",
+     "Pared anterior del ventrículo izquierdo, 2/3 anteriores del tabique interventricular, vértice",
+     "Territorio de la DA"
+    ],
+    [
+     "Sirkumfleks beslediği alan",
+     "Paredes lateral y posterior del ventrículo izquierdo, aurícula izquierda",
+     "Territorio de la circunfleja"
+    ],
+    [
+     "Sağ koroner beslediği alan",
+     "Aurícula y ventrículo derechos, 1/3 posterior del tabique, nódulo sinusal (60 %) y nódulo AV (80 %)",
+     "Territorio de la coronaria derecha"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La DA se conoce como «la arteria de la viuda»; su oclusión produce un infarto anterior extenso.",
+    "La oclusión de la coronaria derecha puede causar un infarto inferior y bloqueo AV.",
+    "En la cirugía de revascularización se usan como injertos la arteria torácica interna y la vena safena mayor."
+   ],
+   "tus": [
+    "Las arterias coronarias se llenan en diástole; el subendocardio del ventrículo izquierdo es la zona más sensible a la isquemia.",
+    "El tronco coronario izquierdo se divide en DA y circunfleja; a veces nace entre ellas una rama intermedia."
+   ],
+   "related": [
+    "cor",
+    "aorta",
+    "venae-cordis",
+    "ventriculus-sinister"
+   ],
+   "models": [
+    "Arteries of heart",
+    "Left coronary artery",
+    "Right coronary artery",
+    "Anterior interventricular artery",
+    "Circumflex artery of heart"
+   ],
+   "aliases": [
+    "coronaria",
+    "DA",
+    "circunfleja"
+   ]
+  },
+  {
+   "id": "venae-cordis",
+   "tr": "Venas cardíacas",
+   "la": "Venae cordis",
+   "en": "Cardiac veins",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Las venas que recogen la sangre desoxigenada de la pared del corazón. La mayoría desembocan en el seno coronario, en el surco coronario de la cara posterior del corazón.",
+   "facts": [
+    [
+     "Sinus coronarius",
+     "Desemboca en la aurícula derecha",
+     "Seno coronario"
+    ],
+    [
+     "Ana venler",
+     "Vena cardíaca magna (con la DA), vena cardíaca media (en el surco interventricular posterior), vena cardíaca menor, vena posterior del ventrículo izquierdo",
+     "Venas principales"
+    ],
+    [
+     "Doğrudan açılanlar",
+     "Venas cardíacas anteriores y venas cardíacas mínimas (de Tebesio)",
+     "Desembocan directamente"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En la terapia de resincronización cardíaca el electrodo ventricular izquierdo se coloca en una vena cardíaca a través del seno coronario."
+   ],
+   "tus": [
+    "Las venas cardíacas mínimas (de Tebesio) desembocan directamente en las cavidades cardíacas; las venas cardíacas anteriores en la aurícula derecha.",
+    "El seno coronario recoge la mayoría de las venas cardíacas y desemboca en la aurícula derecha; aquí se coloca el electrodo de resincronización."
+   ],
+   "related": [
+    "aa-coronariae",
+    "atrium-dextrum",
+    "cor"
+   ],
+   "models": [
+    "Cardiac veins",
+    "Coronary sinus",
+    "Great cardiac vein",
+    "Middle cardiac vein"
+   ],
+   "aliases": [
+    "seno coronario"
+   ]
+  },
+  {
+   "id": "pericardium",
+   "tr": "Pericardio",
+   "la": "Pericardium",
+   "en": "Pericardium",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Saco de doble capa que envuelve el corazón y las raíces de los grandes vasos. Por fuera está el pericardio fibroso, resistente, y por dentro el pericardio seroso (hojas parietal y visceral).",
+   "facts": [
+    [
+     "Katmanlar",
+     "Pericardio fibroso y pericardio seroso (lámina parietal y visceral – epicardio)",
+     "Capas"
+    ],
+    [
+     "Boşluk",
+     "Cavidad pericárdica; contiene 15–50 mL de líquido lubricante",
+     "Cavidad"
+    ],
+    [
+     "Sinüsler",
+     "Seno transverso del pericardio (detrás de la aorta y el tronco pulmonar), seno oblicuo del pericardio (detrás de la aurícula izquierda)",
+     "Senos"
+    ],
+    [
+     "İnnervasyon",
+     "Nervio frénico (sensitivo)",
+     "Inervación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La pericarditis produce dolor torácico punzante que mejora al inclinarse hacia delante y roce pericárdico.",
+    "En el taponamiento cardíaco el líquido acumulado en la cavidad pericárdica impide el llenado del corazón (tríada de Beck: hipotensión, ingurgitación yugular, ruidos cardíacos apagados)."
+   ],
+   "tus": [
+    "Por abajo el pericardio fibroso se une al centro tendinoso del diafragma y por delante al esternón mediante los ligamentos esternopericárdicos.",
+    "El derrame pericárdico puede mostrar bajo voltaje y alternancia eléctrica en el ECG."
+   ],
+   "related": [
+    "cor",
+    "n-phrenicus"
+   ],
+   "models": [
+    "Pericardium"
+   ],
+   "aliases": [
+    "saco pericárdico"
+   ]
+  },
+  {
+   "id": "truncus-pulmonalis",
+   "tr": "Tronco pulmonar",
+   "la": "Truncus pulmonalis",
+   "en": "Pulmonary trunk",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Gran arteria que sale del ventrículo derecho y lleva la sangre desoxigenada a los pulmones. Bajo el cayado aórtico se divide en las arterias pulmonares derecha e izquierda.",
+   "facts": [
+    [
+     "Köken",
+     "Cono arterioso del ventrículo derecho (válvula pulmonar)",
+     "Origen"
+    ],
+    [
+     "Dalları",
+     "Arterias pulmonares derecha e izquierda, que se ramifican hacia los lóbulos y segmentos pulmonares",
+     "Ramas"
+    ],
+    [
+     "İlişki",
+     "El ligamento arterioso (resto del conducto arterioso fetal) une la bifurcación con el cayado aórtico",
+     "Relaciones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La embolia pulmonar suele ser un coágulo de las venas profundas de la pierna que obstruye las arterias pulmonares.",
+    "En el conducto arterioso persistente se oye un soplo continuo («en maquinaria») de la aorta a la arteria pulmonar."
+   ],
+   "tus": [
+    "El tronco pulmonar comienza delante de la aorta y se divide bajo el cayado aórtico en arterias pulmonares derecha e izquierda.",
+    "Un émbolo puede quedar enclavado en la bifurcación del tronco como «émbolo en silla de montar»."
+   ],
+   "related": [
+    "ventriculus-dexter",
+    "pulmones",
+    "aorta"
+   ],
+   "models": [
+    "Pulmonary arteries",
+    "Pulmonary trunk",
+    "Left pulmonary artery",
+    "Right pulmonary artery"
+   ],
+   "aliases": [
+    "arteria pulmonar"
+   ]
+  },
+  {
+   "id": "vv-pulmonales",
+   "tr": "Venas pulmonares",
+   "la": "Venae pulmonales",
+   "en": "Pulmonary veins",
+   "group": "Corazón",
+   "region": "thorax",
+   "summary": "Venas, generalmente cuatro (dos derechas y dos izquierdas), que llevan la sangre oxigenada de los pulmones a la aurícula izquierda. Son las únicas venas que transportan sangre oxigenada.",
+   "facts": [
+    [
+     "Sayı",
+     "Generalmente 4: venas pulmonares derechas superior e inferior, izquierdas superior e inferior",
+     "Número"
+    ],
+    [
+     "Döküldüğü yer",
+     "Aurícula izquierda",
+     "Desemboca en"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En el tratamiento de la fibrilación auricular se aíslan con catéter las desembocaduras de las venas pulmonares (ablación)."
+   ],
+   "tus": [
+    "Las venas pulmonares son las únicas venas que llevan sangre rica en oxígeno; de cada pulmón suelen salir dos.",
+    "Los focos ectópicos de la fibrilación auricular suelen estar en las desembocaduras de las venas pulmonares; la ablación aísla esta zona."
+   ],
+   "related": [
+    "atrium-sinistrum",
+    "pulmones"
+   ],
+   "models": [
+    "Pulmonary veins",
+    "Left superior pulmonary vein",
+    "Left inferior pulmonary vein",
+    "Right superior pulmonary vein",
+    "Right inferior pulmonary vein"
+   ],
+   "aliases": [
+    "vena pulmonar"
+   ]
+  },
+  {
+   "id": "aorta",
+   "tr": "Aorta",
+   "la": "Aorta",
+   "en": "Aorta",
+   "group": "Aorta y sus ramas",
+   "region": "thorax",
+   "summary": "La arteria más grande del cuerpo; sale del ventrículo izquierdo y distribuye la sangre oxigenada a todo el organismo. Consta de aorta ascendente, cayado aórtico, aorta torácica descendente y aorta abdominal.",
+   "facts": [
+    [
+     "Köken",
+     "Ventrículo izquierdo (válvula aórtica)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "La porción ascendente sube, el cayado se curva hacia atrás sobre el bronquio principal izquierdo (nivel T4), la porción torácica desciende a la izquierda de la columna, atraviesa el hiato aórtico (T12) hacia el abdomen y se divide en L4 en las arterias ilíacas comunes",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Aorta ascendente: arterias coronarias; cayado: tronco braquiocefálico, arteria carótida común izquierda, arteria subclavia izquierda; aorta torácica: arterias intercostales posteriores, ramas bronquiales y esofágicas; aorta abdominal: tronco celíaco, arterias mesentéricas superior e inferior, arterias renales, arterias suprarrenales, arterias testiculares/ováricas, arterias lumbares, arteria sacra media",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Todo el cuerpo (circulación sistémica)",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El aneurisma de aorta abdominal suele formarse por debajo de las arterias renales; su rotura es mortal.",
+    "En la disección aórtica se desgarra la capa interna del vaso; es típico un dolor torácico desgarrador que se irradia a la espalda.",
+    "En la coartación de aorta la presión arterial es mayor en los brazos que en las piernas; se ven muescas costales por la dilatación de las arterias intercostales."
+   ],
+   "tus": [
+    "La aorta ascendente contiene los senos aórticos (de Valsalva) y el origen de las arterias coronarias.",
+    "La disección aórtica se clasifica en Stanford A (afecta a la aorta ascendente – cirugía) y B (solo aorta descendente)."
+   ],
+   "related": [
+    "ventriculus-sinister",
+    "truncus-brachiocephalicus",
+    "truncus-coeliacus",
+    "aa-renales",
+    "a-iliaca-communis"
+   ],
+   "models": [
+    "Aorta",
+    "Ascending aorta",
+    "Aortic arch",
+    "Thoracic aorta",
+    "Abdominal aorta"
+   ],
+   "aliases": [
+    "aórtico"
+   ]
+  },
+  {
+   "id": "truncus-brachiocephalicus",
+   "tr": "Tronco braquiocefálico",
+   "la": "Truncus brachiocephalicus",
+   "en": "Brachiocephalic trunk",
+   "group": "Aorta y sus ramas",
+   "region": "thorax",
+   "summary": "La primera y mayor rama del cayado aórtico; solo existe en el lado derecho.",
+   "facts": [
+    [
+     "Köken",
+     "Cayado aórtico",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Asciende hacia la derecha por delante de la tráquea; se divide detrás de la articulación esternoclavicular derecha",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria carótida común derecha, arteria subclavia derecha",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Mitad derecha de la cabeza y el cuello, miembro superior derecho",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Puede lesionarse durante una traqueostomía realizada demasiado baja."
+   ],
+   "tus": [
+    "El tronco braquiocefálico asciende por delante de la tráquea; puede lesionarse si la traqueostomía se hace demasiado baja.",
+    "En algunas personas la arteria tiroidea ima nace del tronco braquiocefálico."
+   ],
+   "related": [
+    "aorta",
+    "a-carotis-communis",
+    "a-subclavia"
+   ],
+   "models": [
+    "Brachiocephalic trunk"
+   ],
+   "aliases": [
+    "arteria innominada"
+   ]
+  },
+  {
+   "id": "a-carotis-communis",
+   "tr": "Arteria carótida común",
+   "la": "A. carotis communis",
+   "en": "Common carotid artery",
+   "group": "Arterias de la cabeza y el cuello",
+   "region": "neck",
+   "summary": "La principal arteria de la cabeza y el cuello, que asciende a cada lado del cuello. A la altura del borde superior del cartílago tiroides se divide en carótidas interna y externa.",
+   "facts": [
+    [
+     "Köken",
+     "A la derecha el tronco braquiocefálico, a la izquierda directamente el cayado aórtico",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Asciende dentro de la vaina carotídea con la vena yugular interna (lateral) y el nervio vago (posterior); se bifurca en C4 (borde superior del cartílago tiroides)",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria carótida interna, arteria carótida externa (el tronco no da ramas)",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Cabeza y cuello",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [
+    [
+     "Cuerpo y seno carotídeos",
+     "En la bifurcación, el seno carotídeo detecta la presión arterial (barorreceptor) y el cuerpo carotídeo el nivel de O2/CO2 de la sangre (quimiorreceptor); ambos están inervados por el nervio glosofaríngeo."
+    ]
+   ],
+   "clinical": [
+    "El pulso carotídeo se toma en el borde anterior del esternocleidomastoideo a la altura del cartílago tiroides.",
+    "El masaje del seno carotídeo reduce la frecuencia cardíaca mediante una respuesta vagal.",
+    "Las placas de ateroma de la bifurcación carotídea son una causa importante de ictus."
+   ],
+   "tus": [
+    "La ACC derecha nace del tronco braquiocefálico y la izquierda directamente del cayado aórtico.",
+    "El pulso carotídeo se toma a la altura del borde superior del cartílago tiroides, en el borde anterior del ECM."
+   ],
+   "related": [
+    "a-carotis-interna",
+    "a-carotis-externa",
+    "truncus-brachiocephalicus",
+    "v-jugularis-interna",
+    "n-vagus"
+   ],
+   "models": [
+    "Left common carotid artery",
+    "Right common carotid artery"
+   ],
+   "aliases": [
+    "carótida",
+    "carótida primitiva"
+   ]
+  },
+  {
+   "id": "a-carotis-interna",
+   "tr": "Arteria carótida interna",
+   "la": "A. carotis interna",
+   "en": "Internal carotid artery",
+   "group": "Arterias de la cabeza y el cuello",
+   "region": "head",
+   "summary": "Arteria que irriga las partes anterior y media del cerebro y el ojo. No da ramas en el cuello.",
+   "facts": [
+    [
+     "Köken",
+     "Arteria carótida común (nivel C4)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Asciende por el cuello sin ramificarse, entra en la base del cráneo por el conducto carotídeo, atraviesa el seno cavernoso (sifón carotídeo) y se divide en arterias cerebrales anterior y media",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria oftálmica, arteria comunicante posterior, arteria coroidea anterior, arteria cerebral anterior, arteria cerebral media",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "La mayor parte de los hemisferios cerebrales, el ojo y la órbita, la piel de la frente",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Su estenosis puede causar ataques isquémicos transitorios y ceguera transitoria del ojo del mismo lado (amaurosis fugaz).",
+    "Su rotura dentro del seno cavernoso produce una fístula carótido-cavernosa (exoftalmos pulsátil)."
+   ],
+   "tus": [
+    "Segmentos intracraneales de la ACI: petroso, cavernoso (dentro del seno), clinoideo y supraclinoideo (ramas oftálmica, comunicante posterior y coroidea anterior).",
+    "En la estenosis carotídea la amaurosis fugaz (ceguera monocular transitoria) se debe a émbolos hacia la arteria oftálmica."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "circulus-arteriosus",
+    "cerebrum",
+    "sinus-durae-matris"
+   ],
+   "models": [
+    "Internal carotid artery",
+    "Ophthalmic artery"
+   ],
+   "aliases": [
+    "ACI",
+    "carótida interna"
+   ]
+  },
+  {
+   "id": "a-carotis-externa",
+   "tr": "Arteria carótida externa",
+   "la": "A. carotis externa",
+   "en": "External carotid artery",
+   "group": "Arterias de la cabeza y el cuello",
+   "region": "neck",
+   "summary": "Arteria que irriga las estructuras del cuello y la cara, el cuero cabelludo y la duramadre.",
+   "facts": [
+    [
+     "Köken",
+     "Arteria carótida común (nivel C4)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Asciende por el cuello y se divide dentro de la glándula parótida, a la altura del cuello de la mandíbula, en arterias temporal superficial y maxilar",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arterias tiroidea superior, lingual, facial, faríngea ascendente, occipital, auricular posterior, maxilar y temporal superficial",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Glándula tiroides, laringe, lengua, cara, faringe, cuero cabelludo, maxilares, dientes, cavidad nasal, duramadre (arteria meníngea media)",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La arteria meníngea media (rama de la maxilar) se desgarra en las fracturas del pterion y produce un hematoma epidural.",
+    "La mayoría de las epistaxis proceden del área de Kiesselbach, formada por ramas de las arterias esfenopalatina y facial.",
+    "La arteria temporal superficial se afecta en la arteritis de células gigantes (arteritis temporal)."
+   ],
+   "tus": [
+    "La arteria lingual pasa profunda al músculo hiogloso, mientras que el nervio hipogloso pasa por su superficie.",
+    "La ACE puede ligarse en hemorragias nasales y faciales graves; tiene amplias anastomosis con el lado opuesto y con ramas de la ACI."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "glandula-thyroidea",
+    "meninges"
+   ],
+   "models": [
+    "External carotid artery",
+    "Facial artery",
+    "Superficial temporal artery",
+    "Maxillary artery",
+    "Occipital artery",
+    "Middle meningeal artery",
+    "Ascending pharyngeal artery"
+   ],
+   "aliases": [
+    "ACE",
+    "carótida externa",
+    "arteria facial",
+    "meníngea media"
+   ]
+  },
+  {
+   "id": "a-vertebralis",
+   "tr": "Arteria vertebral",
+   "la": "A. vertebralis",
+   "en": "Vertebral artery",
+   "group": "Arterias de la cabeza y el cuello",
+   "region": "neck",
+   "summary": "Arteria que asciende por los agujeros de las vértebras cervicales hasta el cráneo e irriga el tronco encefálico, el cerebelo y la parte posterior del cerebro. Las dos vertebrales se unen para formar la arteria basilar.",
+   "facts": [
+    [
+     "Köken",
+     "Primera rama de la arteria subclavia",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Asciende por los agujeros transversos de C6 a C1, rodea el arco posterior del atlas, entra en el cráneo por el agujero magno y se une a la del lado opuesto en la unión bulboprotuberancial para formar la arteria basilar",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arterias espinales anterior y posterior, arteria cerebelosa posteroinferior (PICA); de la basilar: AICA, ramas pontinas, arteria cerebelosa superior, arteria cerebral posterior",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Parte alta de la médula, tronco encefálico, cerebelo, oído interno, lóbulo occipital",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La insuficiencia vertebrobasilar produce vértigo, diplopía, caídas súbitas (drop attacks) y disartria.",
+    "La disección de la arteria vertebral tras una manipulación cervical es una de las causas de ictus en jóvenes.",
+    "En el síndrome del robo de la subclavia se invierte el flujo de la arteria vertebral."
+   ],
+   "tus": [
+    "Los cuatro segmentos de la arteria vertebral: V1 (preforaminal), V2 (foraminal), V3 (alrededor del atlas), V4 (intracraneal).",
+    "La manipulación y los traumatismos cervicales pueden causar disección vertebral e ictus de la circulación posterior."
+   ],
+   "related": [
+    "a-subclavia",
+    "circulus-arteriosus",
+    "cerebellum",
+    "medulla-oblongata",
+    "vertebrae-cervicales"
+   ],
+   "models": [
+    "Vertebral artery",
+    "Basilar artery"
+   ],
+   "aliases": [
+    "vertebral",
+    "arteria basilar"
+   ]
+  },
+  {
+   "id": "circulus-arteriosus",
+   "tr": "Polígono de Willis",
+   "la": "Circulus arteriosus cerebri (Willisi)",
+   "en": "Circle of Willis",
+   "group": "Arterias de la cabeza y el cuello",
+   "region": "head",
+   "summary": "Anillo arterial en la base del cerebro, alrededor del tallo hipofisario y el quiasma óptico, que une los sistemas carotídeo y vertebrobasilar.",
+   "facts": [
+    [
+     "Köken",
+     "Arterias carótidas internas y arteria basilar",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Forma un anillo alrededor de la fosa interpeduncular",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria cerebral anterior (ambos lados), arteria comunicante anterior, arteria carótida interna (porción terminal), arteria comunicante posterior (ambos lados), arteria cerebral posterior (ambos lados)",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Arteria cerebral anterior: cara medial de los hemisferios (área motora y sensitiva de la pierna); arteria cerebral media: cara lateral (cara y brazo, áreas del lenguaje); arteria cerebral posterior: lóbulo occipital y cara inferior del lóbulo temporal, tálamo",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La mayoría de los aneurismas cerebrales (aneurismas saculares) se forman en la parte anterior del anillo, sobre todo en la comunicante anterior; su rotura produce una hemorragia subaracnoidea.",
+    "Las variantes del anillo son frecuentes; solo el 20–25 % de las personas tiene un anillo completo «clásico»."
+   ],
+   "tus": [
+    "Las variantes del polígono de Willis son frecuentes; el polígono completo solo existe en aproximadamente la mitad de las personas.",
+    "Un aneurisma de la comunicante posterior puede manifestarse con parálisis del nervio oculomotor y uno de la comunicante anterior con defecto del campo visual y HSA."
+   ],
+   "related": [
+    "a-carotis-interna",
+    "a-vertebralis",
+    "cerebrum",
+    "hypothalamus"
+   ],
+   "models": [
+    "Cerebral arterial circle",
+    "Anterior communicating artery",
+    "Posterior communicating artery",
+    "Anterior cerebral artery",
+    "Middle cerebral artery (M1-segment)",
+    "Posterior cerebral artery"
+   ],
+   "aliases": [
+    "Willis",
+    "arteria cerebral media",
+    "arteria cerebral",
+    "ACM"
+   ]
+  },
+  {
+   "id": "a-subclavia",
+   "tr": "Arteria subclavia",
+   "la": "A. subclavia",
+   "en": "Subclavian artery",
+   "group": "Arterias de la cabeza y el cuello",
+   "region": "neck",
+   "summary": "La principal arteria del miembro superior, que además da ramas importantes al cuello y a la pared torácica. En el borde externo de la primera costilla pasa a llamarse arteria axilar.",
+   "facts": [
+    [
+     "Köken",
+     "A la derecha el tronco braquiocefálico, a la izquierda el cayado aórtico",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Pasa por delante de la cúpula pleural, detrás del escaleno anterior (hiato de los escalenos) y sobre la 1.ª costilla hacia el brazo",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria vertebral, arteria torácica interna, tronco tirocervical, tronco costocervical, arteria dorsal de la escápula",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Miembro superior, encéfalo (arteria vertebral), cuello, pared torácica anterior y mama (arteria torácica interna)",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Síndrome del robo de la subclavia: la estenosis de la subclavia antes del origen de la vertebral produce mareo al ejercitar el brazo.",
+    "La arteria puede puncionarse por error al colocar un catéter venoso central."
+   ],
+   "tus": [
+    "El escaleno anterior divide la arteria subclavia en tres porciones; la vertebral, la torácica interna y el tronco tirocervical nacen de la 1.ª porción.",
+    "Una subclavia derecha que nace como última rama del cayado (arteria lusoria) puede comprimir el esófago y causar disfagia (disfagia lusoria)."
+   ],
+   "related": [
+    "a-axillaris",
+    "a-vertebralis",
+    "mm-scaleni",
+    "truncus-brachiocephalicus"
+   ],
+   "models": [
+    "Left subclavian artery",
+    "Right subclavian artery",
+    "Thyrocervical trunk",
+    "Costocervical trunk",
+    "Internal thoracic artery"
+   ],
+   "aliases": [
+    "subclavia",
+    "arteria torácica interna",
+    "mamaria interna"
+   ]
+  },
+  {
+   "id": "a-axillaris",
+   "tr": "Arteria axilar",
+   "la": "A. axillaris",
+   "en": "Axillary artery",
+   "group": "Arterias del miembro superior",
+   "region": "upperLimb",
+   "summary": "Continuación de la arteria subclavia desde el borde externo de la primera costilla hasta el borde inferior del redondo mayor. El pectoral menor la divide en tres porciones.",
+   "facts": [
+    [
+     "Köken",
+     "Continuación de la arteria subclavia (borde externo de la 1.ª costilla)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Desciende por la axila rodeada por los fascículos del plexo braquial; en el borde inferior del redondo mayor pasa a llamarse arteria braquial",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "1.ª porción: arteria torácica superior; 2.ª porción: arteria toracoacromial, arteria torácica lateral; 3.ª porción: arteria subescapular, arterias circunflejas humerales anterior y posterior",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Hombro, pared torácica, glándula mamaria, axila",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Puede lesionarse en las luxaciones de hombro y las fracturas del cuello del húmero.",
+    "Una rica red colateral alrededor de la escápula (anastomosis escapular) irriga el brazo cuando se obstruye la subclavia."
+   ],
+   "tus": [
+    "La arteria axilar empieza en el borde externo de la 1.ª costilla y pasa a ser la arteria braquial en el borde inferior del redondo mayor.",
+    "La arteria axilar puede lesionarse en luxaciones de hombro y fracturas del cuello del húmero."
+   ],
+   "related": [
+    "a-subclavia",
+    "a-brachialis",
+    "plexus-brachialis",
+    "m-pectoralis-minor"
+   ],
+   "models": [
+    "Axillary artery",
+    "Subscapular artery",
+    "Thoraco-acromial artery",
+    "Lateral thoracic artery",
+    "Posterior circumflex humeral artery",
+    "Anterior circumflex humeral artery"
+   ],
+   "aliases": [
+    "axilar"
+   ]
+  },
+  {
+   "id": "a-brachialis",
+   "tr": "Arteria braquial",
+   "la": "A. brachialis",
+   "en": "Brachial artery",
+   "group": "Arterias del miembro superior",
+   "region": "upperLimb",
+   "summary": "La principal arteria del brazo; desciende por la cara medial del brazo a lo largo del borde medial del bíceps y se divide en el codo en arterias radial y cubital.",
+   "facts": [
+    [
+     "Köken",
+     "Continuación de la arteria axilar (borde inferior del redondo mayor)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Desciende por la cara medial del brazo con el nervio mediano; en la fosa cubital, bajo la aponeurosis bicipital, se divide a la altura del cuello del radio",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria braquial profunda (con el nervio radial), arterias colaterales cubitales superior e inferior, ramas musculares; ramas terminales las arterias radial y cubital",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Músculos del brazo, húmero, región del codo",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Al medir la presión arterial, el fonendoscopio se coloca sobre la arteria braquial en la fosa del codo.",
+    "Puede lesionarse en las fracturas supracondíleas del húmero en niños; la isquemia del antebrazo produce la contractura de Volkmann."
+   ],
+   "tus": [
+    "La arteria braquial recorre la cara medial del brazo con el nervio mediano; el nervio cruza la arteria de lateral a medial a mitad del brazo.",
+    "Se divide en las arterias radial y cubital en la fosa del codo (a la altura del cuello del radio)."
+   ],
+   "related": [
+    "a-axillaris",
+    "a-radialis",
+    "a-ulnaris",
+    "n-medianus",
+    "humerus"
+   ],
+   "models": [
+    "Brachial artery",
+    "Deep brachial artery",
+    "Superior ulnar collateral artery",
+    "Inferior ulnar collateral artery"
+   ],
+   "aliases": [
+    "humeral",
+    "braquial"
+   ]
+  },
+  {
+   "id": "a-radialis",
+   "tr": "Arteria radial",
+   "la": "A. radialis",
+   "en": "Radial artery",
+   "group": "Arterias del miembro superior",
+   "region": "upperLimb",
+   "summary": "Arteria que recorre el lado externo (del pulgar) del antebrazo; es la arteria en la que más se toma el pulso.",
+   "facts": [
+    [
+     "Köken",
+     "Arteria braquial (fosa cubital)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Desciende por el lado lateral del antebrazo bajo el braquiorradial; en la muñeca es superficial, lateral al tendón del FCR, luego pasa por la tabaquera anatómica al dorso de la mano y entra en la palma por el 1.er espacio interóseo para formar el arco palmar profundo",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria recurrente radial, rama palmar superficial, ramas carpianas palmar y dorsal, arteria principal del pulgar, arteria radial del índice",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Parte lateral del antebrazo, muñeca, pulgar e índice, estructuras profundas de la mano",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El pulso radial se toma en la muñeca; es la arteria más usada para la gasometría arterial.",
+    "Antes de canalizarla, la prueba de Allen comprueba que la arteria cubital basta para irrigar la mano.",
+    "La coronariografía se realiza cada vez más por vía radial."
+   ],
+   "tus": [
+    "La arteria radial cruza el suelo de la tabaquera y entra en la palma entre las dos cabezas del 1.er interóseo dorsal para formar el arco profundo.",
+    "La arteria radial se usa como injerto en el bypass coronario y como vía de acceso en el cateterismo cardíaco."
+   ],
+   "related": [
+    "a-brachialis",
+    "a-ulnaris",
+    "arcus-palmares",
+    "m-flexor-carpi-radialis",
+    "os-scaphoideum"
+   ],
+   "models": [
+    "Radial artery"
+   ],
+   "aliases": [
+    "radial",
+    "pulso"
+   ]
+  },
+  {
+   "id": "a-ulnaris",
+   "tr": "Arteria cubital",
+   "la": "A. ulnaris",
+   "en": "Ulnar artery",
+   "group": "Arterias del miembro superior",
+   "region": "upperLimb",
+   "summary": "La mayor de las dos ramas terminales de la arteria braquial; recorre el lado interno (del meñique) del antebrazo.",
+   "facts": [
+    [
+     "Köken",
+     "Arteria braquial (fosa cubital)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Desciende sobre los flexores profundos del antebrazo bajo el FCU; en la muñeca pasa por el canal de Guyon con el nervio cubital y forma el arco palmar superficial",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arterias recurrentes cubitales, arteria interósea común (arterias interóseas anterior y posterior), ramas carpianas palmar y dorsal, rama palmar profunda",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Partes medial y profunda del antebrazo (por las interóseas), la mayor parte de la mano",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "tus": [
+    "En la muñeca la arteria cubital está lateral al tendón del FCU y lateral al nervio cubital."
+   ],
+   "related": [
+    "a-brachialis",
+    "a-radialis",
+    "arcus-palmares",
+    "n-ulnaris"
+   ],
+   "models": [
+    "Ulnar artery",
+    "Common interosseous artery",
+    "Posterior interosseous artery"
+   ],
+   "aliases": [
+    "cubital",
+    "ulnar"
+   ]
+  },
+  {
+   "id": "arcus-palmares",
+   "tr": "Arcos palmares",
+   "la": "Arcus palmaris superficialis et profundus",
+   "en": "Palmar arches",
+   "group": "Arterias del miembro superior",
+   "region": "upperLimb",
+   "summary": "Dos arcos arteriales anastomóticos de la palma formados por las arterias radial y cubital; de ellos nacen las ramas de los dedos.",
+   "facts": [
+    [
+     "Köken",
+     "Arco superficial: sobre todo la arteria cubital; arco profundo: sobre todo la arteria radial",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Arco superficial bajo la aponeurosis palmar, arco profundo bajo los tendones flexores a la altura de las bases de los metacarpianos",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arterias digitales palmares comunes y propias (superficial); arterias metacarpianas palmares (profundo)",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Palma y dedos",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El arco superficial se lesiona fácilmente en los cortes de la palma y produce hemorragias importantes."
+   ],
+   "tus": [
+    "El arco palmar superficial es más distal en la palma (a la altura de la línea trazada desde el pulgar en abducción completa) y el profundo más proximal."
+   ],
+   "related": [
+    "a-radialis",
+    "a-ulnaris",
+    "ossa-metacarpi"
+   ],
+   "models": [
+    "Superficial palmar arch",
+    "Deep palmar arch",
+    "Common palmar digital arteries",
+    "Proper palmar digital arteries"
+   ],
+   "aliases": [
+    "arco palmar"
+   ]
+  },
+  {
+   "id": "truncus-coeliacus",
+   "tr": "Tronco celíaco",
+   "la": "Truncus coeliacus",
+   "en": "Coeliac trunk",
+   "group": "Arterias del abdomen y la pelvis",
+   "region": "abdomen",
+   "summary": "Primera rama anterior de la aorta abdominal; irriga los derivados del intestino anterior: estómago, hígado, vesícula biliar, bazo, parte del páncreas y la mitad superior del duodeno.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominal (T12, justo por debajo del hiato aórtico)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Sale hacia delante como un tronco corto y se divide enseguida en tres ramas",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria gástrica izquierda, arteria hepática común (arteria hepática propia, arteria gastroduodenal, arteria gástrica derecha), arteria esplénica",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Esófago abdominal, estómago, parte alta del duodeno, hígado, vesícula biliar, páncreas, bazo",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Una úlcera duodenal de la cara posterior puede erosionar la arteria gastroduodenal y causar una hemorragia grave.",
+    "El síndrome del ligamento arcuato medio es una compresión extrínseca del tronco celíaco."
+   ],
+   "tus": [
+    "En el síndrome del ligamento arcuato medio, el tronco celíaco queda comprimido por los pilares del diafragma.",
+    "Las arcadas pancreaticoduodenales son una vía colateral importante entre los sistemas celíaco y mesentérico superior."
+   ],
+   "related": [
+    "aorta",
+    "gaster",
+    "hepar",
+    "splen",
+    "pancreas"
+   ],
+   "models": [
+    "Coeliac trunk",
+    "Common hepatic artery",
+    "Proper hepatic artery",
+    "Splenic artery",
+    "Left gastric artery",
+    "Gastroduodenal artery"
+   ],
+   "aliases": [
+    "celíaco",
+    "arteria hepática",
+    "arteria esplénica"
+   ]
+  },
+  {
+   "id": "a-mesenterica-superior",
+   "tr": "Arteria mesentérica superior",
+   "la": "A. mesenterica superior",
+   "en": "Superior mesenteric artery",
+   "group": "Arterias del abdomen y la pelvis",
+   "region": "abdomen",
+   "summary": "Arteria que irriga los derivados del intestino medio, desde la mitad inferior del duodeno hasta dos tercios del colon transverso.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominal (L1, 1 cm por debajo del tronco celíaco)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Sale por detrás del cuello del páncreas, pasa por delante de la vena renal izquierda y de la 3.ª porción del duodeno y entra en el mesenterio",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria pancreaticoduodenal inferior, arterias yeyunales e ileales, arteria ileocólica (arteria apendicular), arteria cólica derecha, arteria cólica media",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Mitad inferior del duodeno, yeyuno, íleon, ciego, apéndice, colon ascendente, 2/3 proximales del colon transverso, cabeza del páncreas",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La isquemia mesentérica aguda (sobre todo embólica) cursa con «dolor abdominal intenso desproporcionado a la exploración».",
+    "Síndrome del cascanueces: compresión de la vena renal izquierda entre la aorta y la AMS.",
+    "En el síndrome de la AMS la 3.ª porción del duodeno queda comprimida entre la aorta y la arteria."
+   ],
+   "tus": [
+    "La embolia de la AMS es la causa más frecuente de isquemia mesentérica aguda; es típico el dolor abdominal intenso desproporcionado a la exploración.",
+    "Por delante de la AMS pasan el cuello del páncreas y la vena esplénica; por detrás, la vena renal izquierda y la 3.ª porción del duodeno."
+   ],
+   "related": [
+    "aorta",
+    "intestinum-tenue",
+    "intestinum-crassum",
+    "pancreas",
+    "v-portae-hepatis"
+   ],
+   "models": [
+    "Superior mesenteric artery",
+    "Ileocolic artery",
+    "Middle colic artery",
+    "Right colic artery",
+    "Appendicular artery"
+   ],
+   "aliases": [
+    "AMS",
+    "arteria mesentérica"
+   ]
+  },
+  {
+   "id": "a-mesenterica-inferior",
+   "tr": "Arteria mesentérica inferior",
+   "la": "A. mesenterica inferior",
+   "en": "Inferior mesenteric artery",
+   "group": "Arterias del abdomen y la pelvis",
+   "region": "abdomen",
+   "summary": "Arteria que irriga los derivados del intestino posterior, desde el último tercio del colon transverso hasta la parte alta del recto.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominal (L3)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Desciende por el retroperitoneo hacia la izquierda",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria cólica izquierda, arterias sigmoideas, arteria rectal (anorrectal) superior",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "1/3 distal del colon transverso, colon descendente, colon sigmoide, parte alta del recto",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [
+    [
+     "Anastomosis",
+     "La arteria marginal (de Drummond) une a lo largo del borde del colon las ramas de la AMS y la AMI. El ángulo esplénico (punto de Griffiths) es la zona limítrofe entre ambos sistemas y por tanto la más sensible a la isquemia."
+    ]
+   ],
+   "clinical": [
+    "La AMI puede ligarse en la cirugía del aneurisma de aorta abdominal, con riesgo de isquemia colónica."
+   ],
+   "tus": [
+    "La AMI nace de la aorta en L3, unos 3–4 cm por encima de la bifurcación.",
+    "La AMI puede ligarse al reparar un aneurisma de aorta abdominal; el colon se sigue irrigando por la arteria marginal."
+   ],
+   "related": [
+    "aorta",
+    "intestinum-crassum",
+    "rectum"
+   ],
+   "models": [
+    "Inferior mesenteric artery",
+    "Left colic artery",
+    "Sigmoid arteries",
+    "Superior anorectal artery",
+    "Marginal artery"
+   ],
+   "aliases": [
+    "AMI"
+   ]
+  },
+  {
+   "id": "aa-renales",
+   "tr": "Arterias renales",
+   "la": "Aa. renales",
+   "en": "Renal arteries",
+   "group": "Arterias del abdomen y la pelvis",
+   "region": "abdomen",
+   "summary": "Grandes arterias que salen a cada lado de la aorta abdominal e irrigan los riñones. Alrededor del 20–25 % del gasto cardíaco va a los riñones.",
+   "facts": [
+    [
+     "Köken",
+     "Aorta abdominal (L1–L2, justo por debajo de la AMS)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "La arteria renal derecha es más larga y pasa por detrás de la vena cava inferior; en el hilio renal se divide en ramas anterior y posterior",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria suprarrenal inferior, arteria ureteral; dentro del riñón, arterias segmentarias → interlobulares → arciformes → interlobulillares",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Riñones, parte de las glándulas suprarrenales, parte alta del uréter",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La estenosis de la arteria renal (aterosclerosis o displasia fibromuscular) es una causa secundaria de hipertensión resistente a fármacos.",
+    "Las arterias segmentarias son terminales; su oclusión produce un infarto en cuña."
+   ],
+   "tus": [
+    "Las arterias renales accesorias (polares) son frecuentes (~25–30 %); al ser terminales, su ligadura produce un infarto segmentario.",
+    "La estenosis de la arteria renal se debe a aterosclerosis (varón mayor, ostial) o a displasia fibromuscular (mujer joven, media-distal «en collar de cuentas»)."
+   ],
+   "related": [
+    "aorta",
+    "ren",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Left renal artery",
+    "Right renal artery",
+    "Intrarenal arteries of left kidney",
+    "Intrarenal arteries of right kidney"
+   ],
+   "aliases": [
+    "arteria renal"
+   ]
+  },
+  {
+   "id": "a-iliaca-communis",
+   "tr": "Arteria ilíaca común",
+   "la": "A. iliaca communis",
+   "en": "Common iliac artery",
+   "group": "Arterias del abdomen y la pelvis",
+   "region": "pelvis",
+   "summary": "Vasos formados por la división de la aorta abdominal en L4, de los que nacen las arterias de la pelvis y las piernas.",
+   "facts": [
+    [
+     "Köken",
+     "Bifurcación aórtica (L4, a la altura del ombligo)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Desciende hacia abajo y afuera por el borde medial del psoas; delante de la articulación sacroilíaca se divide en arterias ilíacas interna y externa",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria ilíaca interna (órganos pélvicos, nalga, periné) y arteria ilíaca externa (bajo el ligamento inguinal pasa a ser la femoral; da las arterias epigástrica inferior y circunfleja ilíaca profunda)",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Pared y órganos pélvicos, región glútea, miembro inferior",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Síndrome de Leriche: oclusión aortoilíaca con claudicación glútea, impotencia y ausencia de pulsos femorales.",
+    "El uréter cruza la bifurcación ilíaca; los cálculos renales pueden enclavarse en este estrechamiento."
+   ],
+   "tus": [
+    "La arteria ilíaca externa pasa a llamarse femoral al cruzar bajo el ligamento inguinal; sus ramas son las arterias epigástrica inferior y circunfleja ilíaca profunda."
+   ],
+   "related": [
+    "aorta",
+    "a-femoralis",
+    "ureter"
+   ],
+   "models": [
+    "Common iliac artery",
+    "External iliac artery",
+    "Internal iliac artery",
+    "Inferior epigastric artery",
+    "Superior gluteal artery",
+    "Inferior gluteal artery",
+    "Internal pudendal artery",
+    "Obturator artery"
+   ],
+   "aliases": [
+    "arteria ilíaca",
+    "ilíaca externa",
+    "ilíaca interna"
+   ]
+  },
+  {
+   "id": "a-femoralis",
+   "tr": "Arteria femoral",
+   "la": "A. femoralis",
+   "en": "Femoral artery",
+   "group": "Arterias del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "La principal arteria del miembro inferior; pasa bajo el ligamento inguinal en la ingle hacia la cara anterior del muslo.",
+   "facts": [
+    [
+     "Köken",
+     "Continuación de la arteria ilíaca externa (bajo el ligamento inguinal)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Es superficial en el triángulo femoral (nervio femoral lateral, vena femoral medial), luego desciende por el conducto de los aductores (de Hunter) y atraviesa el hiato aductor hacia la parte posterior de la rodilla como arteria poplítea",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria epigástrica superficial, arteria circunfleja ilíaca superficial, arterias pudendas externas, arteria femoral profunda (arterias circunflejas femorales medial y lateral, arterias perforantes), arteria descendente de la rodilla",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Muslo, cadera (en parte), cabeza femoral (arteria circunfleja femoral medial), región de la rodilla",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El pulso femoral se palpa en la ingle, justo debajo del punto medio entre la EIAS y la sínfisis del pubis.",
+    "Es una vía de acceso frecuente para el cateterismo cardíaco y la angiografía.",
+    "En la enfermedad arterial periférica la arteria femoral superficial es el segmento más afectado (claudicación)."
+   ],
+   "tus": [
+    "En el triángulo femoral la arteria está dentro de la vaina femoral; el compartimento más medial de la vaina es el conducto femoral (linfáticos y ganglio de Cloquet).",
+    "En el cateterismo femoral la punción debe hacerse por debajo del ligamento inguinal; por encima hay riesgo de hemorragia retroperitoneal."
+   ],
+   "related": [
+    "a-iliaca-communis",
+    "a-poplitea",
+    "n-femoralis",
+    "lig-inguinale",
+    "v-femoralis"
+   ],
+   "models": [
+    "Femoral artery",
+    "Deep femoral artery",
+    "Medial circumflex femoral artery",
+    "Lateral circumflex femoral artery",
+    "Perforating femoral arteries"
+   ],
+   "aliases": [
+    "femoral",
+    "femoral profunda"
+   ]
+  },
+  {
+   "id": "a-poplitea",
+   "tr": "Arteria poplítea",
+   "la": "A. poplitea",
+   "en": "Popliteal artery",
+   "group": "Arterias del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "Continuación de la arteria femoral en la fosa poplítea; es la estructura más profunda de la fosa.",
+   "facts": [
+    [
+     "Köken",
+     "Continuación de la arteria femoral (hiato aductor)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Desciende por la fosa poplítea justo detrás del fémur y de la cápsula de la rodilla; en el borde inferior del poplíteo se divide en arterias tibiales anterior y posterior",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arterias superiores de la rodilla (medial, lateral), arteria media de la rodilla, arterias inferiores de la rodilla, arterias surales",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Articulación de la rodilla (anastomosis geniculada), músculos de la pantorrilla",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El pulso poplíteo se palpa en profundidad con la rodilla flexionada.",
+    "El aneurisma poplíteo es el aneurisma periférico más frecuente.",
+    "La arteria puede lesionarse en las luxaciones de rodilla y siempre debe valorarse."
+   ],
+   "tus": [
+    "En el síndrome de atrapamiento de la arteria poplítea, la arteria queda comprimida por la cabeza medial del gastrocnemio.",
+    "El aneurisma poplíteo es el aneurisma periférico más frecuente y a menudo bilateral."
+   ],
+   "related": [
+    "a-femoralis",
+    "a-tibialis-anterior",
+    "a-tibialis-posterior",
+    "art-genus"
+   ],
+   "models": [
+    "Popliteal artery",
+    "Superior medial genicular artery",
+    "Superior lateral genicular artery",
+    "Inferior medial genicular artery",
+    "Inferior lateral genicular artery",
+    "Middle genicular artery"
+   ],
+   "aliases": [
+    "poplítea"
+   ]
+  },
+  {
+   "id": "a-tibialis-anterior",
+   "tr": "Arteria tibial anterior",
+   "la": "A. tibialis anterior",
+   "en": "Anterior tibial artery",
+   "group": "Arterias del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "Arteria que irriga el compartimento anterior de la pierna; en el tobillo pasa a llamarse arteria dorsal del pie.",
+   "facts": [
+    [
+     "Köken",
+     "Arteria poplítea (borde inferior del poplíteo)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Pasa a la parte anterior de la pierna por el orificio del borde superior de la membrana interósea y desciende delante de la membrana con el nervio fibular profundo",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria recurrente tibial anterior, arterias maleolares anteriores; se continúa como arteria dorsal del pie",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Músculos del compartimento anterior de la pierna, cara anterior del tobillo",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "tus": [
+    "La arteria tibial anterior llega al compartimento anterior por el orificio del borde superior de la membrana interósea y discurre con el nervio fibular profundo."
+   ],
+   "related": [
+    "a-poplitea",
+    "a-dorsalis-pedis",
+    "m-tibialis-anterior",
+    "n-fibularis-communis"
+   ],
+   "models": [
+    "Anterior tibial artery"
+   ],
+   "aliases": [
+    "tibial anterior"
+   ]
+  },
+  {
+   "id": "a-tibialis-posterior",
+   "tr": "Arteria tibial posterior",
+   "la": "A. tibialis posterior",
+   "en": "Posterior tibial artery",
+   "group": "Arterias del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "Arteria que irriga el compartimento posterior de la pierna y la planta del pie.",
+   "facts": [
+    [
+     "Köken",
+     "Arteria poplítea",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Desciende bajo el sóleo con el nervio tibial; detrás del maléolo medial (túnel tarsiano) se divide en arterias plantares medial y lateral",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arteria fibular (peronea – parte lateral y posterior de la pierna), ramas calcáneas, arteria plantar medial, arteria plantar lateral (arco plantar)",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Compartimentos posterior y lateral de la pierna, talón, planta del pie",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El pulso tibial posterior se palpa detrás del maléolo medial, entre el maléolo y el tendón de Aquiles."
+   ],
+   "tus": [
+    "En el túnel tarsiano la arteria tibial posterior se divide en arterias plantares medial y lateral."
+   ],
+   "related": [
+    "a-poplitea",
+    "n-tibialis",
+    "m-tibialis-posterior",
+    "mm-plantares"
+   ],
+   "models": [
+    "Posterior tibial artery",
+    "Fibular artery",
+    "Medial plantar artery",
+    "Lateral plantar artery",
+    "Plantar arch"
+   ],
+   "aliases": [
+    "tibial posterior",
+    "arteria fibular",
+    "arteria plantar"
+   ]
+  },
+  {
+   "id": "a-dorsalis-pedis",
+   "tr": "Arteria dorsal del pie",
+   "la": "A. dorsalis pedis",
+   "en": "Dorsalis pedis artery",
+   "group": "Arterias del miembro inferior",
+   "region": "lowerLimb",
+   "summary": "Continuación de la arteria tibial anterior más allá del tobillo, que irriga el dorso del pie.",
+   "facts": [
+    [
+     "Köken",
+     "Continuación de la arteria tibial anterior (delante del tobillo)",
+     "Origen"
+    ],
+    [
+     "Seyir",
+     "Avanza por el dorso del pie lateral al tendón del EHL; en el 1.er espacio intermetatarsiano se une al arco plantar por su rama plantar profunda",
+     "Trayecto"
+    ],
+    [
+     "Dalları",
+     "Arterias tarsianas lateral y mediales, arteria arqueada (arterias metatarsianas dorsales), arteria plantar profunda",
+     "Ramas"
+    ],
+    [
+     "Beslediği alan",
+     "Dorso del pie y cara dorsal de los dedos",
+     "Territorio irrigado"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El pulso pedio se palpa justo lateral al tendón del EHL; es importante para valorar la enfermedad arterial periférica (en algunas personas falta de forma congénita)."
+   ],
+   "tus": [
+    "El pulso pedio puede faltar de forma congénita en algunas personas sanas."
+   ],
+   "related": [
+    "a-tibialis-anterior",
+    "m-extensor-hallucis-longus"
+   ],
+   "models": [
+    "Dorsalis pedis artery",
+    "Arcuate artery",
+    "Lateral tarsal artery",
+    "Dorsal metatarsal arteries"
+   ],
+   "aliases": [
+    "pedia",
+    "arteria pedia"
+   ]
+  },
+  {
+   "id": "v-cava-superior",
+   "tr": "Vena cava superior",
+   "la": "V. cava superior",
+   "en": "Superior vena cava",
+   "group": "Venas",
+   "region": "thorax",
+   "summary": "Gran vena que lleva la sangre desoxigenada de la cabeza, el cuello, los brazos y la parte alta del tórax a la aurícula derecha. No tiene válvulas.",
+   "facts": [
+    [
+     "Oluşum",
+     "Por la unión de las venas braquiocefálicas derecha e izquierda detrás del 1.er cartílago costal derecho",
+     "Formación"
+    ],
+    [
+     "Döküldüğü yer",
+     "Aurícula derecha (a la altura del 3.er cartílago costal)",
+     "Desemboca en"
+    ],
+    [
+     "Kollar",
+     "Vena ácigos (por detrás), venas braquiocefálicas (vena yugular interna + vena subclavia)",
+     "Afluentes"
+    ],
+    [
+     "Uzunluk",
+     "Unos 7 cm",
+     "Longitud"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Síndrome de la vena cava superior (sobre todo por compresión de un cáncer de pulmón o un linfoma): edema de la cara y los brazos, dilatación de las venas del cuello y el tórax.",
+    "La punta de un catéter venoso central debe situarse idealmente en la parte inferior de esta vena."
+   ],
+   "tus": [
+    "El síndrome de la VCS (sobre todo cáncer de pulmón o linfoma) cursa con edema de cara y cuello y venas dilatadas en el tórax.",
+    "La mitad inferior de la VCS es intrapericárdica; desemboca en la aurícula derecha a la altura del 3.er cartílago costal."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "v-jugularis-interna",
+    "v-subclavia",
+    "v-azygos"
+   ],
+   "models": [
+    "Superior vena cava",
+    "Left brachiocephalic vein",
+    "Right brachiocephalic vein"
+   ],
+   "aliases": [
+    "VCS",
+    "vena braquiocefálica"
+   ]
+  },
+  {
+   "id": "v-cava-inferior",
+   "tr": "Vena cava inferior",
+   "la": "V. cava inferior",
+   "en": "Inferior vena cava",
+   "group": "Venas",
+   "region": "abdomen",
+   "summary": "La vena más grande del cuerpo, que lleva a la aurícula derecha la sangre desoxigenada de todas las partes del cuerpo situadas por debajo del diafragma.",
+   "facts": [
+    [
+     "Oluşum",
+     "Por la unión de las venas ilíacas comunes en L5 (a la derecha de la aorta)",
+     "Formación"
+    ],
+    [
+     "Seyir",
+     "Asciende a la derecha de la columna, discurre por un surco de la cara posterior del hígado y atraviesa el orificio de la vena cava del diafragma (T8)",
+     "Trayecto"
+    ],
+    [
+     "Kollar",
+     "Venas lumbares, vena testicular/ovárica derecha, venas renales, vena suprarrenal derecha, venas hepáticas, venas frénicas inferiores",
+     "Afluentes"
+    ],
+    [
+     "Not",
+     "Las venas gonadal izquierda y suprarrenal izquierda desembocan primero en la vena renal izquierda",
+     "Nota"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En la trombosis venosa profunda y la embolia pulmonar recurrente puede colocarse un filtro de vena cava.",
+    "En el embarazo, la compresión de la VCI por el útero en decúbito supino puede causar hipotensión (síndrome de hipotensión supina); el decúbito lateral izquierdo la corrige."
+   ],
+   "tus": [
+    "Los filtros de vena cava se colocan por debajo de las venas renales.",
+    "La porción retrohepática de la VCI recibe directamente las venas hepáticas."
+   ],
+   "related": [
+    "atrium-dextrum",
+    "hepar",
+    "ren",
+    "aa-renales"
+   ],
+   "models": [
+    "Inferior vena cava (abdominal part)",
+    "Inferior vena cava (thoracic part)",
+    "Left renal vein",
+    "Right renal vein",
+    "Hepatic veins",
+    "Common iliac vein"
+   ],
+   "aliases": [
+    "VCI",
+    "vena renal"
+   ]
+  },
+  {
+   "id": "v-jugularis-interna",
+   "tr": "Vena yugular interna",
+   "la": "V. jugularis interna",
+   "en": "Internal jugular vein",
+   "group": "Venas",
+   "region": "neck",
+   "summary": "Gran vena de la vaina carotídea que recoge la mayor parte de la sangre del encéfalo, la cara y el cuello.",
+   "facts": [
+    [
+     "Başlangıç",
+     "En el agujero yugular, como continuación del seno sigmoideo (bulbo superior)",
+     "Inicio"
+    ],
+    [
+     "Seyir",
+     "Desciende por la vaina carotídea lateral a la arteria carótida; queda bajo el esternocleidomastoideo",
+     "Trayecto"
+    ],
+    [
+     "Sonlanma",
+     "Detrás del extremo medial de la clavícula se une a la vena subclavia para formar la vena braquiocefálica (ángulo venoso – en el lado izquierdo desemboca aquí el conducto torácico)",
+     "Terminación"
+    ],
+    [
+     "Kollar",
+     "Seno petroso inferior, vena facial, vena lingual, venas tiroideas superiores y medias",
+     "Afluentes"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La presión venosa yugular refleja la presión del corazón derecho; aumenta en la insuficiencia cardíaca.",
+    "Los catéteres venosos centrales suelen colocarse en la yugular interna derecha con ecografía."
+   ],
+   "tus": [
+    "La vena yugular interna continúa el seno sigmoideo y empieza en el agujero yugular, donde está el bulbo superior.",
+    "La yugular interna derecha es la preferida para vías centrales: llega a la VCS por un trayecto más recto y el conducto torácico está a la izquierda."
+   ],
+   "related": [
+    "a-carotis-communis",
+    "sinus-durae-matris",
+    "v-subclavia",
+    "v-cava-superior"
+   ],
+   "models": [
+    "Internal jugular vein"
+   ],
+   "aliases": [
+    "yugular",
+    "VYI"
+   ]
+  },
+  {
+   "id": "v-jugularis-externa",
+   "tr": "Vena yugular externa",
+   "la": "V. jugularis externa",
+   "en": "External jugular vein",
+   "group": "Venas",
+   "region": "neck",
+   "summary": "Vena que recoge la sangre superficial del cuero cabelludo y la cara, visible bajo la piel en el lado del cuello.",
+   "facts": [
+    [
+     "Oluşum",
+     "Detrás del ángulo de la mandíbula, por la unión de la rama posterior de la vena retromandibular y la vena auricular posterior",
+     "Formación"
+    ],
+    [
+     "Seyir",
+     "Desciende oblicuamente sobre el esternocleidomastoideo",
+     "Trayecto"
+    ],
+    [
+     "Sonlanma",
+     "Vena subclavia",
+     "Terminación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Se hace prominente cuando aumenta la presión del corazón derecho; en urgencias puede usarse como vía venosa."
+   ],
+   "tus": [
+    "La VYE se forma por la unión de la rama posterior de la vena retromandibular y la vena auricular posterior."
+   ],
+   "related": [
+    "v-jugularis-interna",
+    "v-subclavia",
+    "m-sternocleidomastoideus"
+   ],
+   "models": [
+    "External jugular vein",
+    "Retromandibular vein",
+    "Facial vein",
+    "Anterior jugular vein"
+   ],
+   "aliases": [
+    "yugular externa",
+    "VYE"
+   ]
+  },
+  {
+   "id": "v-subclavia",
+   "tr": "Vena subclavia",
+   "la": "V. subclavia",
+   "en": "Subclavian vein",
+   "group": "Venas",
+   "region": "neck",
+   "summary": "Continuación de la vena axilar que recoge la sangre de las venas profundas y superficiales del brazo.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Continuación de la vena axilar en el borde externo de la 1.ª costilla",
+     "Inicio"
+    ],
+    [
+     "Seyir",
+     "Pasa por delante del escaleno anterior (a diferencia de la arteria) y detrás de la clavícula",
+     "Trayecto"
+    ],
+    [
+     "Sonlanma",
+     "Se une a la vena yugular interna para formar la vena braquiocefálica",
+     "Terminación"
+    ],
+    [
+     "Kollar",
+     "Vena yugular externa",
+     "Afluentes"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Se usa para colocar catéteres venosos centrales por vía infraclavicular; el neumotórax es una complicación importante.",
+    "Síndrome de Paget–Schroetter: trombosis de la vena subclavia tras un esfuerzo intenso del brazo."
+   ],
+   "tus": [
+    "El síndrome de Paget–Schroetter es una trombosis de esfuerzo de la vena subclavia por uso repetido del brazo."
+   ],
+   "related": [
+    "v-jugularis-interna",
+    "a-subclavia",
+    "v-cava-superior",
+    "vv-membri-superioris"
+   ],
+   "models": [
+    "Left subclavian vein",
+    "Right subclavian vein",
+    "Axillary vein"
+   ],
+   "aliases": [
+    "subclavia",
+    "vena axilar"
+   ]
+  },
+  {
+   "id": "vv-membri-superioris",
+   "tr": "Venas superficiales del miembro superior",
+   "la": "Vv. superficiales membri superioris",
+   "en": "Superficial veins of upper limb",
+   "group": "Venas",
+   "region": "upperLimb",
+   "summary": "Venas superficiales que nacen en la red venosa dorsal de la mano y ascienden bajo la piel del brazo: la vena cefálica (lateral), la basílica (medial) y, en el codo, la vena mediana cubital que las une.",
+   "facts": [
+    [
+     "V. cephalica",
+     "Nace en el lado lateral del dorso de la mano, asciende por el lado lateral del brazo y pasa por el surco deltopectoral para desembocar en la vena axilar",
+     "V. cefálica"
+    ],
+    [
+     "V. basilica",
+     "Nace en el lado medial del dorso de la mano, se hace profunda a mitad del brazo y forma la vena axilar junto con las venas braquiales",
+     "V. basílica"
+    ],
+    [
+     "V. mediana cubiti",
+     "Va oblicuamente de la vena cefálica a la basílica en la fosa del codo",
+     "V. mediana del codo"
+    ],
+    [
+     "Derin venler",
+     "Venas pares que acompañan a las arterias (venas satélites): venas radiales, cubitales, braquiales",
+     "Venas profundas"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La vena mediana cubital es la más usada para extracciones y vías venosas; debajo, protegidos por la aponeurosis bicipital, están la arteria braquial y el nervio mediano.",
+    "La vena cefálica puede usarse para colocar los electrodos de marcapasos."
+   ],
+   "tus": [
+    "Las venas profundas del miembro superior son venas pares que acompañan a las arterias (venas satélites)."
+   ],
+   "related": [
+    "v-subclavia",
+    "a-brachialis",
+    "art-cubiti"
+   ],
+   "models": [
+    "Cephalic vein",
+    "Basilic vein",
+    "Median cubital vein",
+    "Median antebrachial vein",
+    "Dorsal venous network of hand",
+    "Brachial veins",
+    "Radial veins",
+    "Ulnar veins"
+   ],
+   "aliases": [
+    "vena cefálica",
+    "vena basílica",
+    "extracción de sangre"
+   ]
+  },
+  {
+   "id": "v-portae-hepatis",
+   "tr": "Vena porta hepática",
+   "la": "V. portae hepatis",
+   "en": "Hepatic portal vein",
+   "group": "Venas",
+   "region": "abdomen",
+   "summary": "Vena que lleva al hígado la sangre rica en nutrientes del tubo digestivo, el bazo, el páncreas y la vesícula biliar. Aporta alrededor del 75 % de la sangre que llega al hígado.",
+   "facts": [
+    [
+     "Oluşum",
+     "Detrás del cuello del páncreas, por la unión de la vena mesentérica superior y la vena esplénica (la mesentérica inferior suele desembocar en la esplénica)",
+     "Formación"
+    ],
+    [
+     "Seyir",
+     "Discurre por el ligamento hepatoduodenal, detrás de la vía biliar (delante a la derecha) y de la arteria hepática propia (delante a la izquierda), hasta el hilio hepático",
+     "Trayecto"
+    ],
+    [
+     "Dallanma",
+     "Ramas derecha e izquierda; termina en los sinusoides hepáticos",
+     "División"
+    ],
+    [
+     "Portokaval anastomozlar",
+     "Esófago inferior (venas gástricas – vena ácigos), recto (rectal superior – rectales media/inferior), alrededor del ombligo (venas paraumbilicales – venas de la pared abdominal), venas retroperitoneales",
+     "Anastomosis portocavas"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Cuando aparece hipertensión portal, por ejemplo en la cirrosis, las anastomosis forman varices esofágicas (hemorragia mortal), hemorroides y venas dilatadas alrededor del ombligo (cabeza de medusa); el bazo aumenta de tamaño y aparece ascitis."
+   ],
+   "tus": [
+    "La vena porta aporta ~75 % de la sangre y ~50 % del oxígeno que llegan al hígado.",
+    "La trombosis portal es la causa más frecuente de hipertensión portal prehepática."
+   ],
+   "related": [
+    "hepar",
+    "splen",
+    "pancreas",
+    "a-mesenterica-superior",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Hepatic portal vein",
+    "Splenic vein",
+    "Superior mesenteric vein",
+    "Inferior mesenteric vein"
+   ],
+   "aliases": [
+    "vena porta",
+    "vena esplénica",
+    "vena mesentérica"
+   ]
+  },
+  {
+   "id": "v-azygos",
+   "tr": "Vena ácigos",
+   "la": "V. azygos",
+   "en": "Azygos vein",
+   "group": "Venas",
+   "region": "thorax",
+   "summary": "Vena que recoge la sangre de las paredes posteriores del tórax y el abdomen y asciende a la derecha de la columna para desembocar en la vena cava superior. Forma una vía colateral importante entre las venas cavas.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Unión de las venas lumbar ascendente y subcostal derechas (L1–L2)",
+     "Inicio"
+    ],
+    [
+     "Seyir",
+     "Entra en el tórax por el hiato aórtico, asciende a la derecha de los cuerpos vertebrales y en T4 forma un arco sobre el hilio del pulmón derecho para desembocar en la vena cava superior",
+     "Trayecto"
+    ],
+    [
+     "Kollar",
+     "Venas intercostales posteriores derechas, venas hemiácigos y hemiácigos accesoria (del lado izquierdo), venas esofágicas y bronquiales",
+     "Afluentes"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Cuando se obstruye la VCI, el sistema ácigos es una vía colateral importante para el retorno al corazón de la sangre de la parte inferior del cuerpo."
+   ],
+   "tus": [
+    "La vena hemiácigos cruza por delante de la columna hacia la derecha en T8–T9 y se abre en la ácigos.",
+    "El lóbulo ácigos es una variante anatómica en la que la vena ácigos queda incrustada en el vértice del pulmón derecho."
+   ],
+   "related": [
+    "v-cava-superior",
+    "v-cava-inferior",
+    "oesophagus"
+   ],
+   "models": [
+    "Azygos vein",
+    "Hemi-azygos vein",
+    "Accessory hemi-azygos vein"
+   ],
+   "aliases": [
+    "ácigos",
+    "hemiácigos"
+   ]
+  },
+  {
+   "id": "v-femoralis",
+   "tr": "Vena femoral",
+   "la": "V. femoralis",
+   "en": "Femoral vein",
+   "group": "Venas",
+   "region": "lowerLimb",
+   "summary": "Gran vena profunda que recoge la sangre venosa profunda de la pierna y acompaña a la arteria femoral.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Continuación de la vena poplítea en el hiato aductor",
+     "Inicio"
+    ],
+    [
+     "Seyir",
+     "Asciende por detrás de la arteria en el conducto de los aductores y medial a ella en el triángulo femoral",
+     "Trayecto"
+    ],
+    [
+     "Sonlanma",
+     "Pasa bajo el ligamento inguinal y se convierte en la vena ilíaca externa",
+     "Terminación"
+    ],
+    [
+     "Kollar",
+     "Vena femoral profunda, vena safena mayor (unión safenofemoral)",
+     "Afluentes"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La trombosis venosa profunda (TVP) se forma sobre todo en las venas profundas de la pierna; si el coágulo se desprende y llega al pulmón produce una embolia pulmonar.",
+    "En urgencias puede colocarse un catéter en la vena femoral justo medial al pulso femoral."
+   ],
+   "tus": [
+    "En la ingle la vena femoral está medial a la arteria; puede usarse para un catéter venoso central.",
+    "La trombosis venosa profunda es más frecuente en el segmento femoropoplíteo."
+   ],
+   "related": [
+    "a-femoralis",
+    "v-saphena-magna",
+    "v-cava-inferior"
+   ],
+   "models": [
+    "Femoral vein",
+    "Deep femoral vein",
+    "Popliteal vein",
+    "Anterior tibial veins",
+    "Posterior tibial veins",
+    "Fibular veins",
+    "External iliac vein",
+    "Internal iliac vein"
+   ],
+   "aliases": [
+    "vena femoral",
+    "vena poplítea",
+    "vena profunda"
+   ]
+  },
+  {
+   "id": "v-saphena-magna",
+   "tr": "Vena safena mayor",
+   "la": "V. saphena magna",
+   "en": "Great saphenous vein",
+   "group": "Venas",
+   "region": "lowerLimb",
+   "summary": "La vena más larga del cuerpo; asciende bajo la piel por la cara medial de la pierna desde el borde medial del dorso del pie hasta la ingle.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Extremo medial del arco venoso dorsal del pie",
+     "Inicio"
+    ],
+    [
+     "Seyir",
+     "Pasa por delante del maléolo medial (posición constante), asciende por la cara medial de la pierna con el nervio safeno, por detrás del lado medial de la rodilla y por la cara medial del muslo",
+     "Trayecto"
+    ],
+    [
+     "Sonlanma",
+     "Atraviesa el hiato safeno para desembocar en la vena femoral en la ingle (cayado, unión safenofemoral)",
+     "Terminación"
+    ],
+    [
+     "Kapaklar",
+     "Contiene 10–20 válvulas; se une a las venas profundas por venas perforantes",
+     "Válvulas"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La insuficiencia valvular produce varices.",
+    "Se usa a menudo como injerto en la cirugía de revascularización coronaria (invertida por sus válvulas).",
+    "Su posición constante delante del maléolo medial se aprovecha para el acceso venoso urgente (venodisección)."
+   ],
+   "tus": [
+    "La vena safena mayor se une a las venas profundas por perforantes; la insuficiencia valvular produce varices.",
+    "En el cayado desembocan las venas pudenda externa superficial, epigástrica superficial y circunfleja ilíaca superficial."
+   ],
+   "related": [
+    "v-femoralis",
+    "v-saphena-parva",
+    "n-femoralis"
+   ],
+   "models": [
+    "Great saphenous vein"
+   ],
+   "aliases": [
+    "safena",
+    "varices",
+    "safena interna"
+   ]
+  },
+  {
+   "id": "v-saphena-parva",
+   "tr": "Vena safena menor",
+   "la": "V. saphena parva",
+   "en": "Small saphenous vein",
+   "group": "Venas",
+   "region": "lowerLimb",
+   "summary": "Vena superficial que nace en el borde lateral del pie, asciende por la parte posterior de la pantorrilla y desemboca en la vena poplítea en la fosa poplítea.",
+   "facts": [
+    [
+     "Başlangıç",
+     "Extremo lateral del arco venoso dorsal del pie",
+     "Inicio"
+    ],
+    [
+     "Seyir",
+     "Pasa por detrás del maléolo lateral y asciende por el centro de la pantorrilla con el nervio sural",
+     "Trayecto"
+    ],
+    [
+     "Sonlanma",
+     "Vena poplítea en la fosa poplítea",
+     "Terminación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Puede ser el origen de varices en la parte posterior de la pantorrilla."
+   ],
+   "tus": [
+    "En la cirugía de la safena menor puede lesionarse el nervio sural, con entumecimiento del borde lateral del pie."
+   ],
+   "related": [
+    "v-saphena-magna",
+    "v-femoralis",
+    "n-tibialis"
+   ],
+   "models": [
+    "Small saphenous vein",
+    "Dorsal venous arch of foot"
+   ],
+   "aliases": [
+    "safena menor",
+    "safena externa"
+   ]
+  },
+  {
+   "id": "sinus-durae-matris",
+   "tr": "Senos de la duramadre",
+   "la": "Sinus durae matris",
+   "en": "Dural venous sinuses",
+   "group": "Venas",
+   "region": "head",
+   "summary": "Conductos venosos sin válvulas situados entre las dos hojas de la duramadre, que recogen la sangre venosa del encéfalo y el LCR y los llevan a la vena yugular interna.",
+   "facts": [
+    [
+     "Başlıca sinüsler",
+     "Senos sagitales superior e inferior, seno recto, confluencia de los senos, seno transverso, seno sigmoideo, seno occipital, seno cavernoso, senos petrosos superior e inferior",
+     "Senos principales"
+    ],
+    [
+     "Akım yönü",
+     "Seno sagital superior → confluencia de los senos → seno transverso → seno sigmoideo → vena yugular interna",
+     "Dirección del flujo"
+    ],
+    [
+     "Sinus cavernosus içeriği",
+     "Lo atraviesan la arteria carótida interna y el nervio abducens; por su pared lateral discurren los nervios oculomotor, troclear, oftálmico y maxilar",
+     "Contenido del seno cavernoso"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Las infecciones del «triángulo peligroso» de la cara pueden extenderse por la vena oftálmica al seno cavernoso y causar trombosis del seno cavernoso.",
+    "La trombosis de los senos venosos durales cursa con cefalea, convulsiones e hipertensión intracraneal."
+   ],
+   "tus": [
+    "Los senos durales no tienen válvulas; comunican con las venas extracraneales mediante venas emisarias.",
+    "La trombosis de senos puede cursar con cefalea, papiledema e infarto hemorrágico; el embarazo y los anticonceptivos orales son factores de riesgo."
+   ],
+   "related": [
+    "meninges",
+    "v-jugularis-interna",
+    "a-carotis-interna",
+    "n-abducens"
+   ],
+   "models": [
+    "Superior sagittal sinus",
+    "Inferior sagittal sinus",
+    "Straight sinus",
+    "Transverse sinus",
+    "Sigmoid sinus",
+    "Cavernous sinus",
+    "Superior petrosal sinus",
+    "Inferior petrosal sinus",
+    "Occipital sinus"
+   ],
+   "aliases": [
+    "seno cavernoso",
+    "seno sagital",
+    "seno venoso"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "art-synovialis": {
+  "tr": "Aufbau eines echten Gelenks",
+  "summary": "Frei bewegliche Gelenke mit einem flüssigkeitsgefüllten Gelenkspalt zwischen den Knochenenden. Die Gelenkflächen sind mit hyalinem Knorpel überzogen; eine fibröse Kapsel umschließt das Gelenk, eine Synovialmembran kleidet es aus.",
+  "facts": [
+   "Gelenkknorpel (meist hyalin), Gelenkhöhle, Gelenkkapsel (außen Membrana fibrosa, innen Membrana synovialis), Gelenkflüssigkeit",
+   "Bänder (extra- und intrakapsulär), Disci und Menisken, Labra, Fettkörper, Schleimbeutel",
+   "Hyaluronsäurereiche Gleitflüssigkeit der Synovialmembran; ernährt den Knorpel und vermindert die Reibung",
+   "Versorgung über die Arteriennetze um das Gelenk; nach dem Hilton-Gesetz innervieren die Nerven der gelenküberschreitenden Muskeln auch das Gelenk",
+   "Gelenkknorpel hat weder Gefäße noch Nerven; er wird durch Diffusion aus der Gelenkflüssigkeit ernährt"
+  ],
+  "sections": [
+   [
+    "Schleimbeutel und Sehnenscheiden",
+    "Ein Schleimbeutel ist ein kleiner, mit Synovialis ausgekleideter Sack zwischen Strukturen, die aneinander reiben, etwa Sehne und Knochen oder Haut und Knochen. Manche stehen mit der Gelenkhöhle in Verbindung (z. B. Bursa suprapatellaris). Sehnenscheiden umhüllen lange Sehnen in osteofibrösen Kanälen; sie sind an Hand- und Sprunggelenk ausgeprägt."
+   ],
+   [
+    "Gelenkstabilität",
+    "Die Stabilität eines Gelenks hängt von drei Faktoren ab: Form und Kongruenz der Gelenkflächen (Hüfte), Festigkeit der Bänder (Knie) und Tonus der umgebenden Muskeln (Schulter). Sehr bewegliche Gelenke sind meist weniger stabil."
+   ]
+  ],
+  "clinical": [
+   "Die Arthrose ist ein Verschleiß des Gelenkknorpels; typisch sind Gelenkspaltverschmälerung, Osteophyten und subchondrale Sklerose.",
+   "Die rheumatoide Arthritis ist eine chronische Entzündung der Synovialmembran; der Pannus zerstört Knorpel und Knochen.",
+   "Eine Bursitis (z. B. Bursitis praepatellaris – „Fliesenlegerknie“, Bursitis olecrani) entsteht durch wiederholten Druck oder Reibung."
+  ],
+  "tus": [
+   "Hilton-Gesetz: Die Nerven der Muskeln, die ein Gelenk überqueren, innervieren auch dieses Gelenk und die darüberliegende Haut.",
+   "Gelenkknorpel ist gefäßlos und hat kein Perichondrium; Schäden heilen daher nicht."
+  ],
+  "aliases": [
+   "Gelenk",
+   "Gelenkkapsel",
+   "Schleimbeutel",
+   "Synovialis"
+  ]
+ },
+ "artt-craniovertebrales": {
+  "tr": "Kopfgelenke",
+  "summary": "Die Gelenke zwischen Schädel und den ersten beiden Halswirbeln: das obere Kopfgelenk (Atlantookzipitalgelenk) zwischen Hinterhauptskondylen und Atlas und die unteren Kopfgelenke (Atlantoaxialgelenke) zwischen Atlas und Axis. Sie ermöglichen das Nicken („Ja“) und das Drehen („Nein“) des Kopfes.",
+  "facts": [
+   "Condyli occipitales – obere Gelenkflächen des Atlas; Ellipsoidgelenk; Beugung-Streckung des Kopfes („Ja“) und geringe Seitneigung",
+   "Mittleres Atlantoaxialgelenk (Dens – vorderer Atlasbogen und Lig. transversum; Zapfengelenk) und zwei seitliche (planare) Atlantoaxialgelenke; Drehung des Kopfes („Nein“)",
+   "Lig. cruciforme atlantis (Lig. transversum und Längszüge), Ligg. alaria (vom Dens zu den Hinterhauptskondylen; begrenzen übermäßige Drehung), Lig. apicis dentis, Membrana tectoria (Fortsetzung des Lig. longitudinale posterius), Membrana atlantooccipitalis anterior und posterior",
+   "Etwa die Hälfte der Halsdrehung erfolgt im unteren, ein großer Teil der Beugung-Streckung im oberen Kopfgelenk"
+  ],
+  "sections": [
+   [
+    "Lig. transversum atlantis",
+    "Das wichtigste Band: es drückt den Dens an den vorderen Atlasbogen und verhindert, dass er nach hinten ins Rückenmark gleitet. Reißt es, kann der Dens Rückenmark und Medulla oblongata komprimieren."
+   ]
+  ],
+  "clinical": [
+   "Bei rheumatoider Arthritis und Down-Syndrom kann eine Lockerheit des Lig. transversum zu atlantoaxialer Instabilität und Rückenmarkkompression führen.",
+   "Densfrakturen (vor allem Typ II – Densbasis) sind bei Stürzen älterer Menschen häufig und neigen zur Pseudarthrose.",
+   "Die Berstungsfraktur des Atlas (Jefferson-Fraktur) entsteht durch axiale Stauchung auf den Scheitel."
+  ],
+  "tus": [
+   "Das obere Kopfgelenk ermöglicht das „Ja“, das untere das „Nein“.",
+   "Die Ligg. alaria begrenzen eine übermäßige Kopfdrehung; die Membrana tectoria ist die Fortsetzung des Lig. longitudinale posterius bis zur Schädelbasis."
+  ],
+  "aliases": [
+   "Kopfgelenk",
+   "Atlantookzipitalgelenk",
+   "Atlantoaxialgelenk"
+  ]
+ },
+ "artt-zygapophysiales": {
+  "tr": "Facetten- und Unkovertebralgelenke",
+  "summary": "Kleine echte Gelenke zwischen den Gelenkfortsätzen benachbarter Wirbel (Wirbelbogengelenke, Facettengelenke). Die Halswirbel haben zusätzlich Unkovertebralgelenke (Luschka) an den Seitenrändern der Wirbelkörper. Die Ausrichtung dieser Gelenke bestimmt die Bewegungsart in jedem Abschnitt.",
+  "facts": [
+   "Facettengelenke: echte, plane Gelenke; Unkovertebralgelenke: spaltförmige Gelenke am Seitenrand der Bandscheibe",
+   "Halsbereich nahezu horizontal (von vorn nach hinten geneigt) – Bewegung in alle Richtungen; Brustbereich in der Frontalebene – Rotation; Lendenbereich in der Sagittalebene – Beugung-Streckung, Rotation eingeschränkt",
+   "Rr. mediales der Rr. posteriores der Spinalnerven; jedes Facettengelenk erhält Fasern aus zwei benachbarten Segmenten",
+   "Zwischen den Processus uncinati am oberen Seitenrand der Wirbelkörper C3–C7 und dem darüberliegenden Wirbel"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Facettengelenkarthrose ist eine häufige Ursache von Rücken- und Nackenschmerzen; sie kann mit Facettenblockade oder Radiofrequenzdenervation behandelt werden.",
+   "Osteophyten der Unkovertebralgelenke können das Foramen intervertebrale einengen und eine zervikale Radikulopathie verursachen.",
+   "Bei der Spondylolyse ist die Interartikularportion unterbrochen (meist L5); auf der Schrägaufnahme zeigt sich das „Halsband des Hündchens“."
+  ],
+  "tus": [
+   "Die lumbalen Facetten stehen sagittal, daher ist die Rotation in der Lendenwirbelsäule eingeschränkt; in der Brustwirbelsäule ist die Rotation frei.",
+   "Die Pars interarticularis ist die Knochenbrücke zwischen oberem und unterem Gelenkfortsatz; ihre Ermüdungsfraktur ist die Spondylolyse."
+  ],
+  "aliases": [
+   "Facettengelenk",
+   "Wirbelbogengelenk",
+   "Luschka",
+   "Unkovertebralgelenk"
+  ]
+ },
+ "ligg-art-temporomandibularis": {
+  "tr": "Diskus und Bänder des Kiefergelenks",
+  "summary": "Der faserknorpelige Diskus im Kiefergelenk teilt die Gelenkhöhle in eine obere und eine untere Kammer. Das Gelenk wird seitlich vom Lig. laterale und in größerem Abstand von Lig. sphenomandibulare und Lig. stylomandibulare gesichert.",
+  "facts": [
+   "Bikonkaver Faserknorpeldiskus; vorn am oberen Kopf des M. pterygoideus lateralis, hinten an der bilaminären Zone (retrodiskales Gewebe) befestigt",
+   "Obere Kammer: Gleitbewegung (Translation); untere Kammer: Scharnierbewegung (Rotation)",
+   "Vom Jochbogen zum Collum mandibulae; Verstärkung der Kapsel, die ein Zurückweichen des Kondylus verhindert",
+   "Lig. sphenomandibulare (Spina ossis sphenoidalis – Lingula mandibulae), Lig. stylomandibulare (Processus styloideus – Kieferwinkel), Lig. pterygospinale"
+  ],
+  "sections": [
+   [
+    "Mechanik der Mundöffnung",
+    "Zu Beginn der Öffnung dreht sich der Kondylus in der unteren Kammer um seine eigene Achse; bei weiter Öffnung gleiten Kondylus und Diskus gemeinsam in der oberen Kammer nach vorn auf das Tuberculum articulare. Dieses Vorgleiten bewirkt vor allem der M. pterygoideus lateralis."
+   ]
+  ],
+  "clinical": [
+   "Bei kraniomandibulärer Dysfunktion kann der Diskus nach vorn verlagert sein; beim Öffnen treten Knacken und Schmerzen auf, im Spätstadium blockiert die Öffnung.",
+   "Bei der Kieferluxation springt der Kondylus vor das Tuberculum articulare und der Mund kann nicht geschlossen werden; die Reposition erfolgt durch Druck nach unten und hinten."
+  ],
+  "tus": [
+   "Der Muskel, der den Diskus nach vorn zieht, ist der M. pterygoideus lateralis; die Kiefergelenkluxation erfolgt stets nach vorn.",
+   "Das Lig. sphenomandibulare ist ein Rest des 1. Schlundbogens (Meckel-Knorpel)."
+  ],
+  "aliases": [
+   "Diskus",
+   "Kiefergelenkdiskus"
+  ]
+ },
+ "artt-costovertebrales": {
+  "tr": "Rippen-Wirbel-Gelenke",
+  "summary": "Jede Rippe bildet hinten zwei Gelenke mit der Wirbelsäule: das Rippenkopfgelenk mit den Wirbelkörpern und das Rippenhöckergelenk zwischen Tuberculum costae und Querfortsatz. Sie ermöglichen die Atembewegungen der Rippen.",
+  "facts": [
+   "Bei typischen Rippen artikuliert der Kopf mit zwei benachbarten Wirbelkörpern und der Bandscheibe dazwischen; verstärkt durch Lig. capitis costae radiatum und Lig. capitis costae intraarticulare",
+   "Rippenhöcker – Querfortsatz des gleichnamigen Wirbels; verstärkt durch Lig. costotransversarium, superius und laterale (fehlt an der 11. und 12. Rippe)",
+   "„Pumpenschwengel“-Bewegung der oberen Rippen (vergrößert den Sagittaldurchmesser), „Eimerhenkel“-Bewegung der unteren Rippen (vergrößert den Querdurchmesser)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Morbus Bechterew vermindert die Beteiligung der Rippen-Wirbel-Gelenke die Atembreite des Brustkorbs und die Atemkapazität."
+  ],
+  "tus": [
+   "Die Köpfe der 1., 10., 11. und 12. Rippe artikulieren nur mit dem gleichnamigen Wirbel (eine Gelenkfläche).",
+   "Die Pumpenschwengelbewegung vergrößert an den oberen Rippen den Sagittaldurchmesser, die Eimerhenkelbewegung an den unteren Rippen den Querdurchmesser des Brustkorbs."
+  ],
+  "aliases": [
+   "Rippenkopfgelenk",
+   "Kostotransversalgelenk"
+  ]
+ },
+ "art-sacrococcygea": {
+  "tr": "Kreuzbein-Steißbein-Gelenk",
+  "summary": "Kleine knorpelige Verbindung zwischen Kreuzbeinspitze und Steißbeinbasis; durch eine dünne Bandscheibe und Bänder verstärkt.",
+  "facts": [
+   "Symphyse (sekundäre Knorpelverbindung); kann im Alter verknöchern",
+   "Lig. sacrococcygeum anterius, posterius superficiale und profundum sowie laterale; Ligg. intercornualia zwischen Cornua sacralia und coccygea",
+   "Bei der Geburt bewegt sich das Steißbein etwas nach hinten und erweitert den Beckenausgang"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Kokzygodynie (Steißbeinschmerz) entsteht meist nach einem Sturz aufs Gesäß oder nach der Geburt durch Überlastung dieses Gelenks."
+  ],
+  "tus": [
+   "Bei der Geburt weicht das Steißbein nach hinten aus und vergrößert den geraden Durchmesser des Beckenausgangs."
+  ],
+  "aliases": [
+   "Sakrokokzygealgelenk",
+   "Steißbein"
+  ]
+ },
+ "ligg-art-humeri": {
+  "tr": "Bänder und Labrum des Schultergelenks",
+  "summary": "Die drei glenohumeralen Bänder an der Vorderseite der Schulterkapsel, das Lig. coracohumerale oben und das faserknorpelige Labrum, das den Rand der Gelenkpfanne vertieft, sind die passiven Stabilisatoren des Gelenks.",
+  "facts": [
+   "Faserknorpelring am Rand der Cavitas glenoidalis; vertieft die Pfanne um etwa 50 %; aus seinem oberen Teil entspringt der lange Bizepskopf",
+   "Superius, medium und inferius an der Kapselvorderseite; das inferius ist das wichtigste und schützt bei Abduktion und Außenrotation vor der vorderen Luxation",
+   "Vom Processus coracoideus zum Tuberculum majus und minus; verstärkt das Rotatorenintervall und verhindert das Abgleiten des Arms nach unten",
+   "Überbrückt den Sulcus intertubercularis zwischen Tuberculum majus und minus und hält die Sehne des langen Bizepskopfes in ihrer Rinne",
+   "Der untere Kapselteil (Recessus axillaris) und das Rotatorenintervall zwischen Subscapularis und Supraspinatus"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Bankart-Läsion ist ein Abriss des vorderen unteren Labrums und des unteren glenohumeralen Bandes; sie ist die Hauptursache rezidivierender vorderer Luxationen.",
+   "Reißt das Lig. transversum humeri, kann die lange Bizepssehne aus ihrer Rinne springen (Subluxation) und ein schmerzhaftes Schnappen verursachen.",
+   "Die SLAP-Läsion ist ein Abriss des oberen Labrums von vorn nach hinten; sie tritt bei Wurfsportarten auf."
+  ],
+  "tus": [
+   "Das untere glenohumerale Band ist der wichtigste statische Stabilisator gegen die vordere Luxation in Abduktion und Außenrotation.",
+   "Der lange Bizepskopf entspringt am Tuberculum supraglenoidale und am oberen Labrum; er verläuft in einer Sehnenscheide innerhalb der Kapsel."
+  ],
+  "aliases": [
+   "Labrum",
+   "glenohumerales Band",
+   "Lig. coracohumerale"
+  ]
+ },
+ "ligg-scapulae": {
+  "tr": "Bänder des Schulterblatts und Schulterdach",
+  "summary": "Bänder, die zwischen Teilen des Schulterblatts selbst ausgespannt sind. Das Lig. coracoacromiale bildet mit Akromion und Processus coracoideus ein schützendes Dach über dem Schultergelenk; die Ligg. transversa scapulae ergänzen die Öffnungen für N. und Vasa suprascapularia.",
+  "facts": [
+   "Akromion, Lig. coracoacromiale und Processus coracoideus; verhindert das Höhertreten des Humeruskopfs; darunter liegen Supraspinatussehne und Bursa subacromialis",
+   "Macht die Incisura scapulae zum Loch: der N. suprascapularis zieht darunter, A. und V. suprascapularis darüber",
+   "Zwischen dem lateralen Rand der Spina scapulae und der Cavitas glenoidalis; N. und A. suprascapularis ziehen darunter in die Fossa infraspinata",
+   "Lig. conoideum (medial, kegelförmig) und Lig. trapezoideum (lateral); hängen das Schlüsselbein am Schulterblatt auf und sichern das AC-Gelenk vertikal"
+  ],
+  "sections": [],
+  "clinical": [
+   "Beim Impingement-Syndrom werden Supraspinatussehne und Bursa subacromialis beim seitlichen Armheben unter dem Schulterdach eingeklemmt; der schmerzhafte Bogen liegt zwischen 60 und 120°.",
+   "Eine Einengung des N. suprascapularis an der Incisura scapulae führt zur Atrophie von Supra- und Infraspinatus; an der spinoglenoidalen Kerbe (unteres Band) ist nur der Infraspinatus betroffen."
+  ],
+  "tus": [
+   "An der Incisura scapulae zieht der Nerv unter dem Band, die Arterie darüber (englische Eselsbrücke „Army over Navy“).",
+   "AC-Gelenk-Luxationen werden (nach Rockwood) danach eingeteilt, ob die korakoklavikulären Bänder gerissen sind."
+  ],
+  "aliases": [
+   "Schulterdach",
+   "Lig. transversum scapulae",
+   "subakromial"
+  ]
+ }
+}

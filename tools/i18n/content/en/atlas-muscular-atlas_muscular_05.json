@@ -1,0 +1,324 @@
+{
+ "m-iliopsoas": {
+  "tr": "Iliopsoas",
+  "summary": "The strongest flexor of the hip, running from the posterior abdominal wall to the thigh. It is formed by psoas major and iliacus joining in a common tendon.",
+  "facts": [
+   "Psoas major: vertebral bodies and discs of T12–L4 and transverse processes of L1–L5; iliacus: iliac fossa",
+   "Lesser trochanter of the femur",
+   "Psoas major: anterior rami of L1–L3; iliacus: femoral nerve (L2–L3)",
+   "Iliolumbar artery, lumbar arteries, deep circumflex iliac artery",
+   "Flexes the hip (climbing stairs, lifting the foot); with the thigh fixed it flexes the trunk (sitting up from lying)"
+  ],
+  "sections": [
+   [
+    "Relations",
+    "The branches of the lumbar plexus form within psoas; the femoral nerve emerges in the groove between psoas and iliacus, the obturator nerve from the medial border of psoas. Abscesses can track down the psoas sheath to the groin."
+   ]
+  ],
+  "clinical": [
+   "A psoas abscess (especially in tuberculous spondylitis) tracks down to the groin and thigh.",
+   "Psoas sign in appendicitis: passive extension of the right hip causes pain."
+  ],
+  "tus": [
+   "Psoas major is supplied by lumbar plexus branches, iliacus by the femoral nerve.",
+   "A tuberculous psoas abscess can track along the muscle sheath to the groin and thigh."
+  ],
+  "aliases": [
+   "psoas",
+   "iliacus",
+   "hip flexor"
+  ]
+ },
+ "m-gluteus-maximus": {
+  "tr": "Gluteus maximus",
+  "summary": "The largest and heaviest muscle in the body, giving the buttock its rounded shape. In humans it is specialised for upright posture and walking.",
+  "facts": [
+   "Outer surface of the ilium (behind the posterior gluteal line), back of the sacrum and coccyx, sacrotuberous ligament, thoracolumbar fascia",
+   "Iliotibial tract (most fibres) and gluteal tuberosity of the femur",
+   "Inferior gluteal nerve (L5–S2)",
+   "Superior and inferior gluteal arteries",
+   "Extends and externally rotates the hip; acts powerfully when rising from sitting, climbing stairs and running; stabilises the knee through the iliotibial tract"
+  ],
+  "sections": [],
+  "clinical": [
+   "Intramuscular injections into the buttock are given in the upper outer quadrant (or ventrogluteal site) to avoid the sciatic nerve.",
+   "When the muscle is weak the trunk is thrown backwards when walking (gluteus maximus gait)."
+  ],
+  "tus": [
+   "Most of gluteus maximus inserts into the iliotibial tract, its deep fibres into the gluteal tuberosity."
+  ],
+  "aliases": [
+   "glutes",
+   "buttock"
+  ]
+ },
+ "m-gluteus-medius": {
+  "tr": "Gluteus medius",
+  "summary": "A fan-shaped muscle beneath gluteus maximus on the outer surface of the ilium. It keeps the pelvis level when walking.",
+  "facts": [
+   "Outer surface of the ilium (between the anterior and posterior gluteal lines)",
+   "Lateral surface of the greater trochanter",
+   "Superior gluteal nerve (L4–S1)",
+   "Superior gluteal artery",
+   "Abducts and internally rotates the hip; prevents the opposite side of the pelvis dropping when standing on one leg"
+  ],
+  "sections": [],
+  "clinical": [
+   "In superior gluteal nerve injury the opposite side of the pelvis drops when the patient stands on one leg (positive Trendelenburg sign) and the gait waddles."
+  ],
+  "tus": [
+   "Gluteus medius and minimus stop the pelvis dropping to the opposite side when standing on one leg.",
+   "Its anterior fibres internally rotate the hip."
+  ],
+  "aliases": [
+   "glute med"
+  ]
+ },
+ "m-gluteus-minimus": {
+  "tr": "Gluteus minimus",
+  "summary": "The deepest and smallest of the gluteal muscles; it works together with gluteus medius.",
+  "facts": [
+   "Outer surface of the ilium (between the anterior and inferior gluteal lines)",
+   "Anterior surface of the greater trochanter",
+   "Superior gluteal nerve (L4–S1)",
+   "Superior gluteal artery",
+   "Abducts and internally rotates the hip; stabilises the pelvis in walking"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Gluteus minimus lies beneath gluteus medius and is supplied by the same nerve (superior gluteal nerve)."
+  ],
+  "aliases": []
+ },
+ "m-tensor-fasciae-latae": {
+  "tr": "Tensor fasciae latae",
+  "summary": "A muscle on the upper lateral thigh lying between two layers of fascia; it acts down to the knee through the iliotibial tract.",
+  "facts": [
+   "Anterior superior iliac spine and anterior part of the iliac crest",
+   "Iliotibial tubercle of the tibia (Gerdy's tubercle) via the iliotibial tract",
+   "Superior gluteal nerve (L4–S1)",
+   "Lateral circumflex femoral artery, superior gluteal artery",
+   "Abducts, internally rotates and flexes the hip; stabilises the extended knee"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "TFL stabilises the extended knee through the iliotibial tract."
+  ],
+  "aliases": [
+   "TFL"
+  ]
+ },
+ "tractus-iliotibialis": {
+  "tr": "Iliotibial tract",
+  "summary": "A strong fibrous band on the lateral thigh formed by a thickening of the fascia lata. Gluteus maximus and tensor fasciae latae insert into it.",
+  "facts": [
+   "From the iliac crest to the iliotibial tubercle of the tibia",
+   "Stabilises the extended knee and the hip laterally"
+  ],
+  "sections": [],
+  "clinical": [
+   "In runners, friction of the band over the lateral femoral epicondyle causes pain on the outer knee (iliotibial band syndrome)."
+  ],
+  "tus": [
+   "Iliotibial band syndrome in runners presents with pain over the lateral femoral condyle."
+  ],
+  "aliases": [
+   "IT band",
+   "ITB"
+  ]
+ },
+ "mm-rotatores-coxae": {
+  "tr": "Lateral rotators of the hip",
+  "summary": "A deep group of muscles behind the hip joint that rotate the thigh outwards. Piriformis is the key muscle of the region.",
+  "facts": [
+   "Piriformis: front of the sacrum; obturator internus: inner surface of the obturator membrane; gemelli: ischial spine (superior) and ischial tuberosity (inferior); quadratus femoris: ischial tuberosity; obturator externus: outer surface of the obturator membrane",
+   "Greater trochanter and trochanteric fossa; quadratus femoris: intertrochanteric crest",
+   "Piriformis: S1–S2; obturator internus and gemellus superior: nerve to obturator internus (L5–S2); quadratus femoris and gemellus inferior: nerve to quadratus femoris (L4–S1); obturator externus: obturator nerve",
+   "Superior and inferior gluteal arteries, internal pudendal artery, medial circumflex femoral artery",
+   "Rotate the thigh outwards and hold the head of the femur in the acetabulum; with the hip flexed piriformis abducts"
+  ],
+  "sections": [
+   [
+    "Importance of piriformis",
+    "It divides the greater sciatic foramen: above it (suprapiriform) pass the superior gluteal nerve and vessels; below it (infrapiriform) the sciatic nerve, inferior gluteal nerve, pudendal nerve, posterior femoral cutaneous nerve and inferior gluteal vessels."
+   ]
+  ],
+  "clinical": [
+   "Piriformis syndrome: pain radiating from the buttock down the leg due to compression of the sciatic nerve by the muscle."
+  ],
+  "tus": [
+   "The short lateral rotators: piriformis, gemellus superior and inferior, obturator internus and externus, quadratus femoris.",
+   "All except obturator externus are supplied by branches of the sacral plexus; obturator externus is supplied by the obturator nerve."
+  ],
+  "aliases": [
+   "piriformis",
+   "gemellus",
+   "obturator"
+  ]
+ },
+ "m-sartorius": {
+  "tr": "Sartorius",
+  "summary": "The longest muscle in the body, crossing obliquely from lateral to medial across the front of the thigh. It is named the 'tailor's muscle' because it produces the cross-legged sitting position.",
+  "facts": [
+   "Anterior superior iliac spine",
+   "Upper medial surface of the tibia (pes anserinus)",
+   "Femoral nerve (L2–L3)",
+   "Muscular branches of the femoral artery",
+   "Flexes, abducts and externally rotates the hip; flexes the knee"
+  ],
+  "sections": [
+   [
+    "Pes anserinus",
+    "The tendons of sartorius, gracilis and semitendinosus join on the medial surface of the tibia in a goose-foot shape (pes anserinus). Memory aid: 'SGT – Say Grace before Tea'."
+   ]
+  ],
+  "clinical": [
+   "It forms the lateral border of the femoral triangle and the anterior boundary of the adductor (Hunter's) canal; it is an important landmark for reaching the femoral vessels."
+  ],
+  "tus": [
+   "Sartorius is the lateral border of the femoral triangle and the roof of the adductor canal."
+  ],
+  "aliases": [
+   "tailor's muscle"
+  ]
+ },
+ "m-quadriceps-femoris": {
+  "tr": "Quadriceps femoris",
+  "summary": "The four-headed muscle forming most of the anterior compartment of the thigh: rectus femoris, vastus lateralis, vastus medialis and vastus intermedius. It is the only powerful extensor of the knee.",
+  "facts": [
+   "Rectus femoris: anterior inferior iliac spine and upper rim of the acetabulum; vastus lateralis: greater trochanter and lateral lip of the linea aspera; vastus medialis: intertrochanteric line and medial lip of the linea aspera; vastus intermedius: anterolateral surface of the femoral shaft",
+   "Patella via the common quadriceps tendon, and the tibial tuberosity via the patellar ligament",
+   "Femoral nerve (L2–L4)",
+   "Lateral circumflex femoral artery, femoral artery, profunda femoris artery",
+   "Extends the knee; rectus femoris also flexes the hip (the only head crossing two joints)"
+  ],
+  "sections": [],
+  "clinical": [
+   "The patellar reflex (L3–L4) is the stretch reflex of this muscle group.",
+   "In femoral nerve injury knee extension is lost and the patient cannot climb stairs.",
+   "Vastus medialis atrophies fastest after knee surgery or immobilisation."
+  ],
+  "tus": [
+   "The patellar reflex assesses segments L3–L4 (especially L4).",
+   "Quadriceps tendon rupture is more common in older people, patellar tendon rupture in younger people."
+  ],
+  "aliases": [
+   "quads",
+   "rectus femoris",
+   "vastus"
+  ]
+ },
+ "mm-adductores": {
+  "tr": "Adductor muscles",
+  "summary": "The muscle group in the medial compartment of the thigh that draws the legs together. Adductor magnus is the largest of the group and has two parts.",
+  "facts": [
+   "Body and inferior ramus of the pubis; hamstring part of adductor magnus: ischial tuberosity",
+   "Linea aspera of the femur; hamstring part of adductor magnus: adductor tubercle",
+   "Obturator nerve (L2–L4); hamstring part of adductor magnus: tibial part of the sciatic nerve (L4)",
+   "Profunda femoris artery, obturator artery",
+   "Adduct the thigh; assist flexion and rotation; stabilise the pelvis in walking"
+  ],
+  "sections": [
+   [
+    "Adductor canal",
+    "Through the opening in adductor magnus (adductor hiatus) the femoral artery and vein pass behind the knee and become the popliteal artery and vein."
+   ]
+  ],
+  "clinical": [
+   "In athletes a groin strain most often affects adductor longus."
+  ],
+  "tus": [
+   "The adductor group (longus, brevis, magnus, gracilis, pectineus) is supplied mainly by the obturator nerve.",
+   "Groin strain most often involves adductor longus."
+  ],
+  "aliases": [
+   "adductors",
+   "adductor longus",
+   "adductor magnus"
+  ]
+ },
+ "m-gracilis": {
+  "tr": "Gracilis",
+  "summary": "The most superficial, long and slender muscle on the medial thigh; the only muscle of the medial compartment crossing both hip and knee.",
+  "facts": [
+   "Body and inferior ramus of the pubis",
+   "Upper medial surface of the tibia (pes anserinus)",
+   "Obturator nerve (L2–L3)",
+   "Profunda femoris artery, obturator artery",
+   "Adducts the thigh and flexes and internally rotates the knee"
+  ],
+  "sections": [],
+  "clinical": [
+   "The muscle is often used in plastic surgery as a functional free muscle flap."
+  ],
+  "tus": [
+   "Gracilis can be used as a muscle flap and its tendon as a graft (ACL reconstruction); it is supplied by the obturator nerve."
+  ],
+  "aliases": []
+ },
+ "m-pectineus": {
+  "tr": "Pectineus",
+  "summary": "A quadrilateral muscle in the floor of the femoral triangle, between iliopsoas and adductor longus.",
+  "facts": [
+   "Pecten pubis (pectineal line) of the pubis",
+   "Pectineal line of the femur (below the lesser trochanter)",
+   "Femoral nerve (L2–L3), sometimes also fibres from the obturator nerve",
+   "Medial circumflex femoral artery, obturator artery",
+   "Adducts and flexes the thigh"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Pectineus forms part of the floor of the femoral triangle."
+  ],
+  "aliases": []
+ },
+ "mm-ischiocrurales": {
+  "tr": "Hamstring muscles",
+  "summary": "Three muscles forming the posterior compartment of the thigh that extend the hip and flex the knee. Biceps femoris lies laterally, semitendinosus and semimembranosus medially.",
+  "facts": [
+   "Ischial tuberosity (short head of biceps femoris: lateral lip of the linea aspera)",
+   "Biceps femoris: head of the fibula; semitendinosus: upper medial surface of the tibia (pes anserinus); semimembranosus: posterior surface of the medial condyle of the tibia",
+   "Tibial part of the sciatic nerve (L5–S2); short head of biceps femoris: common fibular part",
+   "Perforating arteries (profunda femoris artery), medial circumflex femoral artery",
+   "Extend the hip and flex the knee; biceps femoris rotates the knee outwards, semitendinosus and semimembranosus inwards"
+  ],
+  "sections": [],
+  "clinical": [
+   "Hamstring tears are among the most common muscle injuries in sprinters.",
+   "In anterior cruciate ligament reconstruction the semitendinosus (and gracilis) tendon is often used as a graft."
+  ],
+  "tus": [
+   "The hamstrings extend the hip and flex the knee; avulsion from the ischial tuberosity occurs in athletes.",
+   "Hamstring tightness can limit the straight leg raise test; it should not be confused with sciatic nerve stretch signs."
+  ],
+  "aliases": [
+   "hamstrings",
+   "semitendinosus",
+   "semimembranosus"
+  ]
+ },
+ "m-biceps-femoris": {
+  "tr": "Biceps femoris",
+  "summary": "A two-headed hamstring muscle on the posterolateral thigh. Its tendon can be felt on the lateral side of the back of the knee.",
+  "facts": [
+   "Long head: ischial tuberosity; short head: lateral lip of the linea aspera",
+   "Head of the fibula",
+   "Long head: tibial part; short head: common fibular part (L5–S2)",
+   "Perforating arteries, inferior gluteal artery",
+   "Flexes the knee and rotates the flexed knee outwards; the long head extends the hip"
+  ],
+  "sections": [],
+  "clinical": [
+   "The common fibular nerve, running just medial and posterior to its tendon, can be injured in surgery on the lateral knee."
+  ],
+  "tus": [
+   "Biceps femoris is a dynamic stabiliser of the lateral knee and inserts on the fibular head; the common fibular nerve runs just behind its tendon."
+  ],
+  "aliases": [
+   "hamstring"
+  ]
+ }
+}

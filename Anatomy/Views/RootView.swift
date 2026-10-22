@@ -17,10 +17,10 @@ struct RootView: View {
             Tab("Atlas", systemImage: "figure.arms.open", value: AppModel.Tab.atlas) {
                 AtlasView()
             }
-            Tab("Keşfet", systemImage: "square.grid.2x2.fill", value: AppModel.Tab.systems) {
+            Tab(String(localized: "Keşfet"), systemImage: "square.grid.2x2.fill", value: AppModel.Tab.systems) {
                 SystemsView()
             }
-            Tab("Çalış", systemImage: "graduationcap.fill", value: AppModel.Tab.study) {
+            Tab(String(localized: "Çalış"), systemImage: "graduationcap.fill", value: AppModel.Tab.study) {
                 StudyView()
             }
             Tab("Profil", systemImage: "person.crop.circle.fill", value: AppModel.Tab.library) {
@@ -44,7 +44,7 @@ struct RootView: View {
         .alert(app.notice ?? "", isPresented: Binding(get: { app.notice != nil }, set: { if !$0 { app.notice = nil } })) {
             Button("Tamam", role: .cancel) {}
         }
-        .fullScreenCover(isPresented: Binding(get: { !onboardingDone && !app.hidesChrome && !UserDefaults.standard.bool(forKey: "SkipOnboarding") },
+        .fullScreenCover(isPresented: Binding(get: { app.launchFinished && !onboardingDone && !app.hidesChrome && !UserDefaults.standard.bool(forKey: "SkipOnboarding") },
                                               set: { if !$0 { onboardingDone = true } })) {
             OnboardingView { onboardingDone = true }
         }
@@ -63,12 +63,26 @@ struct RootView: View {
         }
         .task {
             await app.bank.load(systems: app.store.systems.map(\.id))
+            #if DEBUG
+            // -DumpQuestions landmarks prints generated questions (content checks).
+            if let dump = UserDefaults.standard.string(forKey: "DumpQuestions"), let source = QuizSource(rawValue: dump) {
+                let config = QuizConfig(title: dump, source: source, count: 80, preferNew: false)
+                for q in QuizEngine.questions(for: config, store: app.store, bank: app.bank, study: app.study, hasModel: app.hasModel) {
+                    let options = q.options.enumerated().map { "  \($0.offset == q.answer ? "*" : "-") \($0.element)" }
+                    print("Q \(q.id)\n  \(q.prompt)\n  \(q.detail ?? "")\n\(options.joined(separator: "\n"))")
+                }
+                print("DUMP-END")
+            }
+            #endif
             // -StartQuiz mixed|bank|clinical|… or -StartQuiz exam (screenshots, testing)
             if let start = UserDefaults.standard.string(forKey: "StartQuiz") {
                 if start == "exam" {
                     app.startQuiz(ExamPreset.all[0].config)
-                } else if start == "cards" {
-                    app.startFlashcards(systems: nil)
+                } else if start.hasPrefix("cards") {
+                    // -StartQuiz cards or cards:landmarks
+                    let kind = start.split(separator: ":").dropFirst().first.flatMap { Flashcard.Kind(rawValue: String($0)) }
+                    app.startFlashcards(kinds: kind.map { [$0] } ?? Set(Flashcard.Kind.allCases), systems: nil,
+                                        title: kind?.title ?? String(localized: "Bilgi kartları"))
                 } else if let source = QuizSource(rawValue: start) {
                     app.startQuiz(QuizConfig(title: source.title, source: source, count: 10))
                 }

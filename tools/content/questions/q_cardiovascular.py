@@ -620,4 +620,6 @@ Q("f", VE, "V. brachiocephalica sinistra için hangisi doğrudur?",
   e=["v-cava-superior", "v-subclavia", "v-jugularis-interna"]),
 ]
 
-write("cardiovascular", questions)
+from q_cardiovascular2 import questions as more
+
+write("cardiovascular", questions + more)

@@ -1,0 +1,240 @@
+{
+ "os-lunatum": {
+  "tr": "Semilunar",
+  "summary": "Hueso en forma de media luna de la fila proximal del carpo, entre el escafoides y el piramidal. Se articula con el radio.",
+  "facts": [
+   "Fila proximal, entre escafoides y piramidal",
+   "Radio, disco articular, escafoides, piramidal, grande, ganchoso"
+  ],
+  "sections": [],
+  "clinical": [
+   "Es el hueso del carpo que más se luxa; su luxación anterior puede comprimir el nervio mediano en el túnel carpiano.",
+   "Enfermedad de Kienböck: necrosis avascular del semilunar."
+  ],
+  "tus": [
+   "La enfermedad de Kienböck es la necrosis avascular del semilunar; la varianza cubital negativa es un factor de riesgo.",
+   "Las luxaciones perilunares y del semilunar se producen por hiperextensión de la muñeca."
+  ],
+  "aliases": [
+   "lunatum"
+  ]
+ },
+ "os-triquetrum": {
+  "tr": "Piramidal",
+  "summary": "Hueso en forma de pirámide de la fila proximal del carpo, medial al semilunar. Por delante se articula con el pisiforme.",
+  "facts": [
+   "Fila proximal, entre semilunar y pisiforme",
+   "Semilunar, pisiforme, ganchoso, disco articular"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "La fractura-avulsión dorsal del piramidal es la fractura del carpo más frecuente después de la del escafoides.",
+   "El complejo cubitocarpiano (FCT) está entre el piramidal y el cúbito."
+  ],
+  "aliases": [
+   "triquetrum"
+  ]
+ },
+ "os-pisiforme": {
+  "tr": "Pisiforme",
+  "summary": "Pequeño hueso en forma de guisante en el extremo medial de la fila proximal, apoyado en la cara anterior del piramidal. Es un sesamoideo que se desarrolla en el tendón del flexor cubital del carpo.",
+  "facts": [
+   "Fila proximal, el más medial; palpable en el lado hipotenar de la palma",
+   "Flexor cubital del carpo, abductor del meñique, ligamentos pisoganchoso y pisometacarpiano, retináculo flexor"
+  ],
+  "sections": [
+   [
+    "Canal de Guyon",
+    "El nervio y la arteria cubitales pasan por el canal de Guyon, entre el pisiforme y el gancho del ganchoso."
+   ]
+  ],
+  "clinical": [
+   "La compresión del nervio cubital en el canal de Guyon (parálisis del ciclista) debilita los pequeños músculos de la mano."
+  ],
+  "tus": [
+   "Forma la pared medial del canal de Guyon; el nervio y la arteria cubitales pasan justo radiales al pisiforme."
+  ],
+  "aliases": []
+ },
+ "os-trapezium": {
+  "tr": "Trapecio",
+  "summary": "El hueso más lateral de la fila distal del carpo. Con el primer metacarpiano forma la articulación en silla de montar del pulgar.",
+  "facts": [
+   "Fila distal, el más lateral",
+   "Escafoides, trapezoide, 1.º y 2.º metacarpianos",
+   "Tubérculo del trapecio, surco del tendón del flexor radial del carpo"
+  ],
+  "sections": [
+   [
+    "Articulación del pulgar",
+    "La articulación carpometacarpiana del pulgar es en silla de montar; permite la oposición del pulgar."
+   ]
+  ],
+  "clinical": [
+   "La artrosis de la base del pulgar (articulación trapeciometacarpiana) es frecuente, sobre todo en mujeres de mediana edad."
+  ],
+  "tus": [
+   "Por el surco anterior del trapecio pasa el tendón del FRC; la rizartrosis (artrosis de la 1.ª CMC) es frecuente en mujeres mayores."
+  ],
+  "aliases": []
+ },
+ "os-trapezoideum": {
+  "tr": "Trapezoide",
+  "summary": "Uno de los huesos más pequeños de la fila distal, entre el trapecio y el grande. Se articula con el segundo metacarpiano.",
+  "facts": [
+   "Fila distal, entre trapecio y grande",
+   "Escafoides, trapecio, grande, 2.º metacarpiano"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Es el hueso del carpo que menos se fractura; se articula con la base del 2.º metacarpiano."
+  ],
+  "aliases": []
+ },
+ "os-capitatum": {
+  "tr": "Hueso grande",
+  "summary": "El mayor hueso del carpo, en el centro de la fila distal; su cabeza redondeada encaja en la cavidad formada por el escafoides y el semilunar.",
+  "facts": [
+   "Fila distal, centro",
+   "Escafoides, semilunar, trapezoide, ganchoso, metacarpianos 2.º–4.º",
+   "Primer hueso del carpo en osificarse (meses 1–3)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Es el hueso del carpo más grande y el primero en osificarse; se articula con el 3.er metacarpiano."
+  ],
+  "aliases": [
+   "capitatum",
+   "grande"
+  ]
+ },
+ "os-hamatum": {
+  "tr": "Ganchoso",
+  "summary": "El hueso más medial de la fila distal, con un gancho (gancho del ganchoso) en su cara anterior.",
+  "facts": [
+   "Fila distal, el más medial",
+   "Semilunar, piramidal, grande, 4.º y 5.º metacarpianos",
+   "Gancho del ganchoso – se insertan el retináculo flexor y el ligamento pisoganchoso; pared lateral del canal de Guyon"
+  ],
+  "sections": [],
+  "clinical": [
+   "Las fracturas del gancho se ven en golfistas y jugadores de béisbol; puede afectarse la rama profunda del nervio cubital."
+  ],
+  "tus": [
+   "La fractura del gancho del ganchoso aparece en golf y béisbol; la rama profunda del nervio cubital rodea el gancho."
+  ],
+  "aliases": [
+   "hamatum"
+  ]
+ },
+ "ossa-metacarpi": {
+  "tr": "Metacarpianos",
+  "summary": "Los cinco huesos largos que forman el esqueleto de la palma. Por arriba se articulan con el carpo y por abajo con las falanges proximales.",
+  "facts": [
+   "5 (I–V del pulgar al meñique)",
+   "Base, cuerpo, cabeza (se ven como los «nudillos» al cerrar el puño)",
+   "Articulaciones carpometacarpianas, intermetacarpianas y metacarpofalángicas",
+   "El 1.er metacarpiano es el más corto, grueso y móvil"
+  ],
+  "sections": [],
+  "clinical": [
+   "La fractura del cuello del 5.º metacarpiano por un puñetazo se llama fractura del boxeador.",
+   "La fractura intraarticular de la base del 1.er metacarpiano se llama fractura de Bennett."
+  ],
+  "tus": [
+   "La fractura de Bennett es una fractura-luxación intraarticular de la base del 1.er metacarpiano; el abductor largo del pulgar tracciona del fragmento hacia proximal."
+  ],
+  "aliases": [
+   "metacarpo"
+  ]
+ },
+ "phalanges-manus": {
+  "tr": "Falanges de la mano",
+  "summary": "Los 14 huesos largos cortos de los dedos. El pulgar tiene dos falanges y los demás dedos tres cada uno.",
+  "facts": [
+   "14 (pulgar 2, los demás 3 cada uno)",
+   "Falanges proximal, media y distal",
+   "Articulaciones metacarpofalángicas, interfalángicas proximales (IFP) y distales (IFD)",
+   "En su extremo tiene la tuberosidad de la falange distal, que sostiene el lecho ungueal"
+  ],
+  "sections": [],
+  "clinical": [
+   "La rotura del tendón extensor en la base de la falange distal hace caer la punta del dedo (dedo en martillo).",
+   "En la artrosis aparecen nódulos de Heberden en las IFD y de Bouchard en las IFP."
+  ],
+  "tus": [
+   "El dedo en martillo se debe a la rotura del tendón extensor que se inserta en la falange distal."
+  ],
+  "aliases": [
+   "falange"
+  ]
+ },
+ "os-coxae": {
+  "tr": "Coxal",
+  "summary": "Hueso par, grande e irregular, que forma las paredes lateral y anterior de la pelvis. Se forma por la fusión de tres huesos (ilion, isquion y pubis) en el acetábulo.",
+  "facts": [
+   "Ilion, isquion y pubis; se fusionan en el cartílago en Y (trirradiado) del acetábulo hacia los 15–17 años",
+   "Cresta ilíaca, espinas ilíacas anterosuperior e anteroinferior (EIAS, EIAI), espina ilíaca posterosuperior, acetábulo, agujero obturador, tuberosidad isquiática, espina isquiática, escotaduras isquiáticas mayor y menor, rama del pubis, tubérculo púbico, carilla sinfisaria",
+   "Fémur (articulación de la cadera), sacro (articulación sacroilíaca), coxal opuesto (sínfisis del pubis)",
+   "Glúteos, ilíaco, músculos abdominales, isquiotibiales (tuberosidad isquiática), aductores, sartorio (EIAS), recto femoral (EIAI)"
+  ],
+  "sections": [
+   [
+    "Diferencias sexuales de la pelvis",
+    "La pelvis femenina es más ancha y menos profunda, con estrecho superior oval y ángulo subpubiano amplio (unos 80–90°). La masculina es más estrecha y profunda, con estrecho en forma de corazón y ángulo subpubiano cerrado (unos 50–60°)."
+   ],
+   [
+    "Agujeros",
+    "Por el agujero isquiático mayor pasan el piriforme, el nervio ciático, vasos y el nervio pudendo; por el menor, el tendón del obturador interno y el nervio pudendo; por el agujero obturador (conducto obturador), el nervio y los vasos obturadores."
+   ]
+  ],
+  "clinical": [
+   "La cresta ilíaca se usa para aspirar médula ósea y obtener injertos óseos.",
+   "Las ramas del pubis se fracturan a menudo en ancianos; las fracturas pélvicas de alta energía pueden sangrar mucho.",
+   "La compresión del nervio cutáneo femoral lateral cerca de la EIAS produce ardor y entumecimiento en la cara lateral del muslo (meralgia parestésica)."
+  ],
+  "tus": [
+   "El cartílago en Y del acetábulo se fusiona hacia los 15–17 años.",
+   "En la EIAS se insertan el sartorio y el TFL, en la EIAI la cabeza recta del recto femoral y en la tuberosidad isquiática los isquiotibiales (fracturas por avulsión en deportistas)."
+  ],
+  "aliases": [
+   "ilion",
+   "isquion",
+   "pubis",
+   "hueso ilíaco"
+  ]
+ },
+ "femur": {
+  "tr": "Fémur",
+  "summary": "El hueso más largo, pesado y fuerte del cuerpo. Arriba forma con el coxal la articulación de la cadera y abajo, con la tibia y la rótula, la de la rodilla.",
+  "facts": [
+   "Hueso largo (cerca de 1/4 de la estatura)",
+   "Cabeza (fosita de la cabeza), cuello, trocánteres mayor y menor, línea y cresta intertrocantéreas",
+   "Línea áspera (labios medial y lateral), tuberosidad glútea, línea pectínea",
+   "Cóndilos medial y lateral, epicóndilos, tubérculo del aductor, fosa intercondílea, carilla rotuliana, cara poplítea",
+   "Unos 125° en el adulto (ángulo de inclinación); anteversión de unos 10–15°",
+   "Glúteos, iliopsoas (trocánter menor), aductores (línea áspera), vastos, cabezas del gastrocnemio"
+  ],
+  "sections": [
+   [
+    "Irrigación",
+    "La mayoría de los vasos de la cabeza femoral son ramas retinaculares de la arteria circunfleja femoral medial; la arteria del ligamento de la cabeza aporta poco en el adulto."
+   ]
+  ],
+  "clinical": [
+   "Las fracturas del cuello femoral son frecuentes en ancianos (sobre todo mujeres con osteoporosis); la pierna queda acortada y en rotación externa. En las intracapsulares se rompen los vasos retinaculares y la cabeza puede necrosarse.",
+   "Las fracturas diafisarias pueden causar gran pérdida de sangre (1–1,5 L) y embolia grasa.",
+   "En niños, la epifisiólisis femoral proximal y la enfermedad de Perthes causan cojera."
+  ],
+  "tus": [
+   "El ángulo cervicodiafisario es de ~125° en el adulto; menor: coxa vara; mayor: coxa valga.",
+   "Las fracturas diafisarias pueden causar gran pérdida de sangre (1–1,5 L) y embolia grasa."
+  ],
+  "aliases": [
+   "muslo"
+  ]
+ }
+}

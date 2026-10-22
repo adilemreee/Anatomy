@@ -1,0 +1,4882 @@
+[
+ {
+  "name": "Canal for vertebral artery",
+  "tr": "Conducto de la arteria vertebral",
+  "la": "Canalis arteriae vertebralis",
+  "d": "Conducto formado en algunas personas por un puente óseo sobre el surco de la arteria vertebral (ponticulus posticus).",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "External occipital crest",
+  "tr": "Cresta occipital externa",
+  "la": "Crista occipitalis externa",
+  "d": "Cresta media que va de la protuberancia occipital externa al agujero magno; en ella se fija el ligamento nucal.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Internal occipital crest",
+  "tr": "Cresta occipital interna",
+  "la": "Crista occipitalis interna",
+  "d": "Cresta media de la cara interna del occipital; en ella se fija la hoz del cerebelo.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Mandibular symphysis",
+  "tr": "Sínfisis mandibular",
+  "la": "Symphysis mandibulae",
+  "d": "Lugar donde las dos mitades de la mandíbula se fusionan en la línea media tras el nacimiento.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Middle clinoid process",
+  "tr": "Apófisis clinoides media",
+  "la": "Processus clinoideus medius",
+  "d": "Pequeña apófisis en la esquina anterolateral de la silla turca; a veces se une a la clinoides anterior.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior obturator tubercle",
+  "tr": "Tubérculo obturador posterior",
+  "la": "Tuberculum obturatorium posterius",
+  "d": "Pequeña prominencia del borde posterior del agujero obturador; en ella se fija la membrana obturatriz.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Supra-orbital notch",
+  "tr": "Escotadura supraorbitaria",
+  "la": "Incisura supraorbitalis",
+  "d": "Escotadura del reborde superior de la órbita; por ella pasan el nervio y la arteria supraorbitarios.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Third trochanter",
+  "tr": "Tercer trocánter",
+  "la": "Trochanter tertius",
+  "d": "Saliente adicional presente en algunas personas en el extremo superior de la tuberosidad glútea; zona de inserción del glúteo mayor.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Vermian fossa",
+  "tr": "Fosa vermiana",
+  "la": "Fossa vermiana",
+  "d": "Fosa presente en algunas personas en el extremo inferior de la cresta occipital interna; en ella se aloja el vermis del cerebelo.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Trochlear spine",
+  "tr": "Espina troclear",
+  "la": "Spina trochlearis",
+  "d": "Pequeña espina de la fóvea troclear; sujeta la polea del oblicuo superior.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Acetabular fossa",
+  "tr": "Fosa acetabular",
+  "la": "Fossa acetabuli",
+  "d": "Fondo no articular del acetábulo; contiene grasa y el ligamento de la cabeza del fémur.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Acetabular margin",
+  "tr": "Borde del acetábulo",
+  "la": "Margo acetabuli",
+  "d": "Reborde del acetábulo; en él se fija el labrum, que profundiza la cavidad.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Acetabular notch",
+  "tr": "Escotadura acetabular",
+  "la": "Incisura acetabuli",
+  "d": "Escotadura del borde inferior del acetábulo; la cierra el ligamento transverso del acetábulo y por ella pasan vasos.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Acetabulum",
+  "tr": "Acetábulo (cavidad cotiloidea)",
+  "la": "Acetabulum",
+  "d": "Cavidad del hueso coxal; formada por la unión de ilion, isquion y pubis, recibe la cabeza del fémur.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 16
+ },
+ {
+  "name": "Acromial angle",
+  "tr": "Ángulo acromial",
+  "la": "Angulus acromii",
+  "d": "Esquina posterolateral del acromion; referencia para medir la longitud del brazo.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Acromial end",
+  "tr": "Extremo acromial",
+  "la": "Extremitas acromialis",
+  "d": "Extremo lateral aplanado de la clavícula; forma la articulación acromioclavicular con el acromion.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Acromial facet",
+  "tr": "Carilla articular acromial",
+  "la": "Facies articularis acromialis",
+  "d": "Pequeña carilla del extremo lateral; se articula con el acromion.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Acromion",
+  "tr": "Acromion",
+  "la": "Acromion",
+  "d": "Extremo lateral de la espina de la escápula; punto más alto del hombro, se articula con la clavícula.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 18
+ },
+ {
+  "name": "Adductor tubercle",
+  "tr": "Tubérculo del aductor",
+  "la": "Tuberculum adductorium",
+  "d": "Pequeña prominencia por encima del epicóndilo medial; en ella se inserta la porción isquiotibial del aductor mayor.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Ala of ilium",
+  "tr": "Ala del ilion",
+  "la": "Ala ossis ilium",
+  "d": "Ala ancha del ilion; en su cara interna está la fosa ilíaca y en la externa los músculos glúteos.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Ala of sacrum",
+  "tr": "Ala del sacro",
+  "la": "Ala ossis sacri",
+  "d": "Ala lateral del sacro; por delante pasa el tronco lumbosacro.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Anatomical neck of humerus",
+  "tr": "Cuello anatómico del húmero",
+  "la": "Collum anatomicum humeri",
+  "d": "Estrechamiento justo por debajo del cartílago de la cabeza humeral; en él se inserta la cápsula.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Angle of rib",
+  "tr": "Ángulo de la costilla",
+  "la": "Angulus costae",
+  "d": "Punto donde la costilla se curva hacia delante por detrás; lugar más frecuente de fractura.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Anterior arch of atlas",
+  "tr": "Arco anterior del atlas",
+  "la": "Arcus anterior atlantis",
+  "d": "Arco anterior corto del atlas; en su cara interna hay una carilla que se articula con el diente.",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Anterior articular facet of dens axis",
+  "tr": "Carilla articular anterior del diente",
+  "la": "Facies articularis anterior dentis axis",
+  "d": "Cara anterior del diente del axis; se articula con el arco anterior del atlas.",
+  "entry": "axis",
+  "part": "Axis (C2)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior border of fibula",
+  "tr": "Borde anterior del peroné",
+  "la": "Margo anterior fibulae",
+  "d": "Borde anterior del peroné; en él se fija el tabique entre los compartimentos anterior y lateral.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior border of humerus",
+  "tr": "Borde anterior del húmero",
+  "la": "Margo anterior humeri",
+  "d": "Borde anterior del húmero.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior border of radius",
+  "tr": "Borde anterior del radio",
+  "la": "Margo anterior radii",
+  "d": "Borde anterior del radio.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior border of tibia",
+  "tr": "Borde anterior de la tibia",
+  "la": "Margo anterior tibiae",
+  "d": "Borde anterior cortante palpable bajo la piel (la espinilla).",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior border of ulna",
+  "tr": "Borde anterior del cúbito",
+  "la": "Margo anterior ulnae",
+  "d": "Borde anterior del cúbito.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior clinoid process",
+  "tr": "Apófisis clinoides anterior",
+  "la": "Processus clinoideus anterior",
+  "d": "Punta posterior del ala menor; en ella se fija la tienda del cerebelo y está junto a la carótida interna.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Anterior gluteal line",
+  "tr": "Línea glútea anterior",
+  "la": "Linea glutea anterior",
+  "d": "Línea anterior de la cara externa del ilion; separa los orígenes del glúteo medio y el menor.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Anterior inferior iliac spine",
+  "tr": "Espina ilíaca anteroinferior (EIAI)",
+  "la": "Spina iliaca anterior inferior",
+  "d": "Saliente por debajo de la EIAS; en ella se fijan la cabeza recta del recto femoral y el ligamento iliofemoral.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Anterior intercondylar area",
+  "tr": "Área intercondílea anterior",
+  "la": "Area intercondylaris anterior",
+  "d": "Área anterior entre los cóndilos; en ella se fijan el ligamento cruzado anterior y los cuernos anteriores de los meniscos.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Anterior limb of stapes",
+  "tr": "Rama anterior del estribo",
+  "la": "Crus anterius stapedis",
+  "d": "Rama anterior del estribo.",
+  "entry": "ossicula-auditus",
+  "part": "Stapes",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior obturator tubercle",
+  "tr": "Tubérculo obturador anterior",
+  "la": "Tuberculum obturatorium anterius",
+  "d": "Prominencia del borde anterior del agujero obturador.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior process of calcaneus",
+  "tr": "Apófisis anterior del calcáneo",
+  "la": "Processus anterior calcanei",
+  "d": "Extremo anterior del calcáneo; se articula con el cuboides y puede fracturarse en los esguinces.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior process of malleus",
+  "tr": "Apófisis anterior del martillo",
+  "la": "Processus anterior mallei",
+  "d": "Fina apófisis que se proyecta hacia delante desde el cuello del martillo.",
+  "entry": "ossicula-auditus",
+  "part": "Malleus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior sacral foramina",
+  "tr": "Agujeros sacros anteriores",
+  "la": "Foramina sacralia anteriora",
+  "d": "Agujeros sacros anteriores; por ellos salen los ramos anteriores de los nervios sacros.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Anterior superior iliac spine",
+  "tr": "Espina ilíaca anterosuperior (EIAS)",
+  "la": "Spina iliaca anterior superior",
+  "d": "Extremo anterior de la cresta ilíaca; en ella se fijan el ligamento inguinal, el sartorio y el TFL; se palpa con facilidad.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Anterior surface of petrous part",
+  "tr": "Cara anterior de la porción petrosa",
+  "la": "Facies anterior partis petrosae",
+  "d": "Cara del peñasco orientada a la fosa craneal media; presenta la impresión trigeminal y la eminencia arqueada.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior surface of radius",
+  "tr": "Cara anterior del radio",
+  "la": "Facies anterior radii",
+  "d": "Cara anterior del radio; en ella nacen el FLP y el pronador cuadrado.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior tubercle of atlas",
+  "tr": "Tubérculo anterior del atlas",
+  "la": "Tuberculum anterius atlantis",
+  "d": "Prominencia en la cara anterior del arco anterior; en ella se fijan el largo del cuello y el ligamento longitudinal anterior.",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterior tubercle of transverse process",
+  "tr": "Tubérculo anterior de la apófisis transversa",
+  "la": "Tuberculum anterius processus transversi",
+  "d": "Prominencia anterior de la apófisis transversa cervical; en C6 se palpa el tubérculo carotídeo (de Chassaignac).",
+  "entry": "vertebrae-cervicales",
+  "part": "Vertebra C4",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anterolateral surface of humerus",
+  "tr": "Cara anterolateral del húmero",
+  "la": "Facies anterolateralis humeri",
+  "d": "Cara anterolateral del húmero; en ella está la tuberosidad deltoidea.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anteromedial surface of fibula",
+  "tr": "Cara anteromedial del peroné",
+  "la": "Facies anteromedialis fibulae",
+  "d": "Cara anteromedial del peroné; en ella nacen los músculos del compartimento anterior.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Anteromedial surface of humerus",
+  "tr": "Cara anteromedial del húmero",
+  "la": "Facies anteromedialis humeri",
+  "d": "Cara anteromedial del húmero; en ella se fijan el coracobraquial y el braquial.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Apex of coccyx",
+  "tr": "Vértice del cóccix",
+  "la": "Apex ossis coccygis",
+  "d": "Punta del cóccix; en ella se fijan el esfínter anal externo y el ligamento anococcígeo.",
+  "entry": "os-coccygis",
+  "part": "Coccyx",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Apex of dens axis",
+  "tr": "Vértice del diente del axis",
+  "la": "Apex dentis axis",
+  "d": "Punta del diente; de aquí parte el ligamento del vértice hacia el borde anterior del agujero magno.",
+  "entry": "axis",
+  "part": "Axis (C2)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Apex of head of fibula",
+  "tr": "Vértice de la cabeza del peroné",
+  "la": "Apex capitis fibulae",
+  "d": "Punta de la cabeza del peroné; cerca de ella se insertan el ligamento colateral lateral y el tendón del bíceps femoral.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Apex of petrous part",
+  "tr": "Vértice de la porción petrosa",
+  "la": "Apex partis petrosae",
+  "d": "Punta medial del peñasco; limita el agujero rasgado y está cerca del ganglio trigeminal.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Apex of sacrum",
+  "tr": "Vértice del sacro",
+  "la": "Apex ossis sacri",
+  "d": "Extremo inferior del sacro; se articula con el cóccix.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Arcuate eminence",
+  "tr": "Eminencia arqueada",
+  "la": "Eminentia arcuata",
+  "d": "Relieve producido por el conducto semicircular anterior.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Arcuate line of ilium",
+  "tr": "Línea arqueada del ilion",
+  "la": "Linea arcuata ossis ilium",
+  "d": "Línea curva de la cara interna del ilion; forma parte del límite del estrecho superior de la pelvis.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular circumference of head of radius",
+  "tr": "Circunferencia articular de la cabeza del radio",
+  "la": "Circumferentia articularis capitis radii",
+  "d": "Contorno de la cabeza del radio; gira dentro de la escotadura radial del cúbito y del ligamento anular.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular circumference of head of ulna",
+  "tr": "Circunferencia articular de la cabeza del cúbito",
+  "la": "Circumferentia articularis capitis ulnae",
+  "d": "Superficie de la cabeza del cúbito que se articula con la escotadura cubital del radio.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facet for malleus",
+  "tr": "Carilla articular para el martillo",
+  "la": "Facies articularis mallearis",
+  "d": "Superficie del cuerpo del yunque que se articula con la cabeza del martillo.",
+  "entry": "ossicula-auditus",
+  "part": "Incus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facet for stapes",
+  "tr": "Carilla articular para el estribo",
+  "la": "Facies articularis stapedialis",
+  "d": "Superficie de la apófisis lenticular del yunque que se articula con la cabeza del estribo.",
+  "entry": "ossicula-auditus",
+  "part": "Incus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facet of head of fibula",
+  "tr": "Carilla articular de la cabeza del peroné",
+  "la": "Facies articularis capitis fibulae",
+  "d": "Superficie articular de la cabeza del peroné; forma con la tibia la articulación tibioperonea proximal.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facet of head of malleus",
+  "tr": "Carilla articular de la cabeza del martillo",
+  "la": "Facies articularis capitis mallei",
+  "d": "Superficie de la cabeza del martillo que se articula con el yunque.",
+  "entry": "ossicula-auditus",
+  "part": "Malleus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facet of head of radius",
+  "tr": "Fóvea articular de la cabeza del radio",
+  "la": "Fovea articularis capitis radii",
+  "d": "Concavidad superior de la cabeza del radio; se articula con el capítulo del húmero.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Articular facet of head of stapes",
+  "tr": "Carilla articular de la cabeza del estribo",
+  "la": "Facies articularis capitis stapedis",
+  "d": "Superficie de la cabeza del estribo que se articula con el yunque; el músculo del estribo se inserta cerca.",
+  "entry": "ossicula-auditus",
+  "part": "Stapes",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facet of lateral malleolus",
+  "tr": "Carilla articular del maléolo lateral",
+  "la": "Facies articularis malleoli lateralis",
+  "d": "Cara interna del maléolo lateral; participa con el astrágalo en la articulación del tobillo.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facet of medial malleolus",
+  "tr": "Carilla articular del maléolo medial",
+  "la": "Facies articularis malleoli",
+  "d": "Superficie del maléolo medial que se articula con el astrágalo.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facet of tubercle of rib",
+  "tr": "Carilla articular del tubérculo costal",
+  "la": "Facies articularis tuberculi costae",
+  "d": "Superficie del tubérculo que se articula con la apófisis transversa.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular facets of head of rib",
+  "tr": "Carillas articulares de la cabeza de la costilla",
+  "la": "Facies articulares capitis costae",
+  "d": "Superficies de la cabeza costal que se articulan con dos cuerpos vertebrales vecinos.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular surface for cuboid",
+  "tr": "Carilla articular para el cuboides",
+  "la": "Facies articularis cuboidea",
+  "d": "Carilla en silla de montar en la parte anterior del calcáneo; forma la articulación calcaneocuboidea.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Articular surface of medial condyle",
+  "tr": "Superficie articular del cóndilo medial",
+  "la": "Facies articularis condyli medialis",
+  "d": "Superficie ovalada del cóndilo medial que se articula con el fémur.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Auricular surface of ilium",
+  "tr": "Superficie auricular del ilion",
+  "la": "Facies auricularis ossis ilium",
+  "d": "Superficie articular en forma de oreja; forma con el sacro la articulación sacroilíaca.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Auricular surface of sacrum",
+  "tr": "Superficie auricular del sacro",
+  "la": "Facies auricularis ossis sacri",
+  "d": "Superficie en forma de oreja que forma con el ilion la articulación sacroilíaca.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Base of coccyx",
+  "tr": "Base del cóccix",
+  "la": "Basis ossis coccygis",
+  "d": "Cara superior del cóccix; se articula con el vértice del sacro.",
+  "entry": "os-coccygis",
+  "part": "Coccyx",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Base of mandible",
+  "tr": "Base de la mandíbula",
+  "la": "Basis mandibulae",
+  "d": "Borde inferior del cuerpo de la mandíbula; aquí se palpa el pulso de la arteria facial.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Base of metatarsal bone",
+  "tr": "Base del metatarsiano",
+  "la": "Basis ossis metatarsi",
+  "d": "Extremo proximal del metatarsiano; se articula con los huesos del tarso y los metatarsianos vecinos.",
+  "entry": "ossa-metatarsi",
+  "part": "Third metatarsal bone",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Base of phalanx of foot",
+  "tr": "Base de la falange del pie",
+  "la": "Basis phalangis pedis",
+  "d": "Extremo proximal de una falange del pie; se articula con el hueso anterior.",
+  "entry": "phalanges-pedis",
+  "part": "Proximal phalanx of third finger of foot",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Base of phalanx of hand",
+  "tr": "Base de la falange de la mano",
+  "la": "Basis phalangis manus",
+  "d": "Extremo proximal de una falange de la mano; se articula con la cabeza del metacarpiano o con la falange anterior.",
+  "entry": "phalanges-manus",
+  "part": "Proximal phalanx of third finger of hand",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Base of sacrum",
+  "tr": "Base del sacro",
+  "la": "Basis ossis sacri",
+  "d": "Cara superior del sacro; se articula con L5 y por delante presenta el promontorio.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Base of stapes",
+  "tr": "Base (platina) del estribo",
+  "la": "Basis stapedis",
+  "d": "Base del estribo; encaja en la ventana oval y transmite la vibración al oído interno.",
+  "entry": "ossicula-auditus",
+  "part": "Stapes",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Basilar part of occipital bone",
+  "tr": "Porción basilar del hueso occipital",
+  "la": "Pars basilaris ossis occipitalis",
+  "d": "Parte gruesa por delante del agujero magno (clivus); sobre ella descansa el tronco del encéfalo.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Body of clavicle",
+  "tr": "Cuerpo de la clavícula",
+  "la": "Corpus claviculae",
+  "d": "Cuerpo de la clavícula; tiene forma de S y se fractura con más frecuencia en su tercio medio.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of femur",
+  "tr": "Cuerpo del fémur",
+  "la": "Corpus ossis femoris",
+  "d": "Diáfisis del fémur; por su cara posterior discurre la línea áspera y sus fracturas pueden causar una gran pérdida de sangre.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Body of fibula",
+  "tr": "Cuerpo del peroné",
+  "la": "Corpus fibulae",
+  "d": "Cuerpo delgado del peroné; no soporta peso pero sirve de inserción a los músculos.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Body of humerus",
+  "tr": "Cuerpo del húmero",
+  "la": "Corpus humeri",
+  "d": "Diáfisis del húmero; el nervio radial discurre por el surco de su cara posterior.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Body of hyoid bone",
+  "tr": "Cuerpo del hioides",
+  "la": "Corpus ossis hyoidei",
+  "d": "Cuerpo central del hioides; en él se fijan los músculos suprahioideos e infrahioideos.",
+  "entry": "os-hyoideum",
+  "part": "Hyoid bone",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Body of ilium",
+  "tr": "Cuerpo del ilion",
+  "la": "Corpus ossis ilium",
+  "d": "Cuerpo del ilion que participa en el acetábulo.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of incus",
+  "tr": "Cuerpo del yunque",
+  "la": "Corpus incudis",
+  "d": "Cuerpo del yunque; se articula con la cabeza del martillo.",
+  "entry": "ossicula-auditus",
+  "part": "Incus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of ischium",
+  "tr": "Cuerpo del isquion",
+  "la": "Corpus ossis ischii",
+  "d": "Cuerpo del isquion que participa en el acetábulo.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of mandible",
+  "tr": "Cuerpo de la mandíbula",
+  "la": "Corpus mandibulae",
+  "d": "Cuerpo en herradura de la mandíbula; lleva los dientes inferiores.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Body of metatarsal bone",
+  "tr": "Cuerpo del metatarsiano",
+  "la": "Corpus ossis metatarsi",
+  "d": "Cuerpo del metatarsiano; las fracturas por estrés de la marcha son más frecuentes aquí.",
+  "entry": "ossa-metatarsi",
+  "part": "Third metatarsal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of phalanx of foot",
+  "tr": "Cuerpo de la falange del pie",
+  "la": "Corpus phalangis pedis",
+  "d": "Cuerpo de una falange del pie.",
+  "entry": "phalanges-pedis",
+  "part": "Proximal phalanx of third finger of foot",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of phalanx of hand",
+  "tr": "Cuerpo de la falange de la mano",
+  "la": "Corpus phalangis manus",
+  "d": "Cuerpo de una falange de la mano; su cara anterior lleva la vaina de los tendones flexores.",
+  "entry": "phalanges-manus",
+  "part": "Proximal phalanx of third finger of hand",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of pubis",
+  "tr": "Cuerpo del pubis",
+  "la": "Corpus ossis pubis",
+  "d": "Cuerpo medial del pubis; forma la sínfisis con el del lado opuesto.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Body of radius",
+  "tr": "Cuerpo del radio",
+  "la": "Corpus radii",
+  "d": "Diáfisis del radio; ligeramente curvada hacia fuera, lo que facilita la supinación.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of rib",
+  "tr": "Cuerpo de la costilla",
+  "la": "Corpus costae",
+  "d": "Cuerpo delgado y curvo de la costilla.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of sphenoid bone",
+  "tr": "Cuerpo del esfenoides",
+  "la": "Corpus ossis sphenoidei",
+  "d": "Cuerpo cúbico del esfenoides; contiene el seno esfenoidal y por arriba presenta la silla turca.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Body of talus",
+  "tr": "Cuerpo del astrágalo",
+  "la": "Corpus ossis tali",
+  "d": "Masa principal del astrágalo; en su parte superior está la tróclea.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Body of tibia",
+  "tr": "Cuerpo de la tibia",
+  "la": "Corpus tibiae",
+  "d": "Diáfisis de la tibia; de sección triangular, su cara anteromedial está bajo la piel.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Body of ulna",
+  "tr": "Cuerpo del cúbito",
+  "la": "Corpus ulnae",
+  "d": "Diáfisis del cúbito; su borde posterior se palpa bajo la piel.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Calcaneal sulcus",
+  "tr": "Surco del calcáneo",
+  "la": "Sulcus calcanei",
+  "d": "Surco de la cara superior del calcáneo; con el del astrágalo forma el seno del tarso.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Calcaneal tubercle",
+  "tr": "Tubérculo del calcáneo",
+  "la": "Tuberculum calcanei",
+  "d": "Prominencia de la cara inferoanterior del calcáneo; en ella se fijan los ligamentos plantares.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Calcaneal tuberosity",
+  "tr": "Tuberosidad del calcáneo",
+  "la": "Tuber calcanei",
+  "d": "Saliente posterior del talón; en ella se inserta el tendón de Aquiles y soporta el peso al estar de pie.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 12
+ },
+ {
+  "name": "Capitulum of humerus",
+  "tr": "Capítulo del húmero",
+  "la": "Capitulum humeri",
+  "d": "Superficie articular redondeada en el extremo inferolateral del húmero; forma con la cabeza del radio la articulación humerorradial.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Carotid sulcus",
+  "tr": "Surco carotídeo",
+  "la": "Sulcus carotidis",
+  "d": "Surco de la cara lateral del cuerpo del esfenoides; por él discurre la carótida interna dentro del seno cavernoso.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Carpal articular surface",
+  "tr": "Carilla articular carpiana",
+  "la": "Facies articularis carpea",
+  "d": "Superficie articular inferior del radio; forma la articulación de la muñeca con el escafoides y el semilunar.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Cerebral fossa",
+  "tr": "Fosa cerebral",
+  "la": "Fossa cerebralis",
+  "d": "Fosas superiores donde descansan los lóbulos occipitales.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Cerebral surface of greater wing",
+  "tr": "Cara cerebral del ala mayor",
+  "la": "Facies cerebralis alae majoris",
+  "d": "Cara del ala mayor orientada a la fosa craneal media; en ella se apoya el lóbulo temporal.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Chiasmatic sulcus",
+  "tr": "Surco quiasmático",
+  "la": "Sulcus chiasmaticus",
+  "d": "Surco entre los dos conductos ópticos; vecino del quiasma óptico.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Clavicular facet",
+  "tr": "Carilla articular clavicular",
+  "la": "Facies articularis clavicularis",
+  "d": "Pequeña superficie del acromion que se articula con la clavícula.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Clavicular notch",
+  "tr": "Escotadura clavicular",
+  "la": "Incisura clavicularis",
+  "d": "Escotadura superolateral del manubrio; forma la articulación esternoclavicular con la clavícula.",
+  "entry": "sternum",
+  "part": "Manubrium of sternum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Coccygeal horn",
+  "tr": "Asta del cóccix",
+  "la": "Cornu coccygeum",
+  "d": "Salientes que suben desde la base del cóccix; se articulan con las astas sacras.",
+  "entry": "os-coccygis",
+  "part": "Coccyx",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Condylar canal",
+  "tr": "Conducto condíleo",
+  "la": "Canalis condylaris",
+  "d": "Conducto situado detrás del cóndilo; lo atraviesa una vena emisaria.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Condylar fossa",
+  "tr": "Fosa condílea",
+  "la": "Fossa condylaris",
+  "d": "Fosa por detrás del cóndilo occipital.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Condyle of humerus",
+  "tr": "Cóndilo del húmero",
+  "la": "Condylus humeri",
+  "d": "Extremo inferior del húmero; comprende la tróclea, el capítulo y las fosas.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Conoid tubercle",
+  "tr": "Tubérculo conoide",
+  "la": "Tuberculum conoideum",
+  "d": "Prominencia de la cara inferior del extremo lateral; en ella se fija la porción conoide del ligamento coracoclavicular.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Coracoid process",
+  "tr": "Apófisis coracoides",
+  "la": "Processus coracoideus",
+  "d": "Saliente en pico de cuervo de la escápula dirigido hacia delante; en ella se fijan el pectoral menor, el coracobraquial y la cabeza corta del bíceps.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 15
+ },
+ {
+  "name": "Coronoid fossa",
+  "tr": "Fosa coronoidea",
+  "la": "Fossa coronoidea",
+  "d": "Fosa anterior por encima de la tróclea; en ella entra la apófisis coronoides del cúbito al flexionar el codo.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Coronoid process of ulna",
+  "tr": "Apófisis coronoides del cúbito",
+  "la": "Processus coronoideus ulnae",
+  "d": "Saliente anterior de la escotadura troclear; en ella se inserta el braquial y puede fracturarse en la luxación del codo.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Costal groove",
+  "tr": "Surco costal",
+  "la": "Sulcus costae",
+  "d": "Surco de la cara interna del borde inferior de la costilla; por él discurren la vena, la arteria y el nervio intercostales.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Costal notches",
+  "tr": "Escotaduras costales",
+  "la": "Incisurae costales",
+  "d": "Escotaduras de los bordes del esternón; aquí se articulan los cartílagos costales.",
+  "entry": "sternum",
+  "part": "Body of sternum",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Costal part of transverse process",
+  "tr": "Apófisis costal (costiforme)",
+  "la": "Pars costalis processus transversi",
+  "d": "Parte de la apófisis transversa lumbar que es un resto de costilla.",
+  "entry": "vertebrae-lumbales",
+  "part": "Vertebra L3",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Crest of greater tubercle",
+  "tr": "Cresta del tubérculo mayor",
+  "la": "Crista tuberculi majoris",
+  "d": "Cresta que desciende del tubérculo mayor; en ella se inserta el pectoral mayor.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Crest of head of rib",
+  "tr": "Cresta de la cabeza de la costilla",
+  "la": "Crista capitis costae",
+  "d": "Cresta que separa las dos carillas de la cabeza costal; en ella se fija el ligamento intraarticular.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Crest of lesser tubercle",
+  "tr": "Cresta del tubérculo menor",
+  "la": "Crista tuberculi minoris",
+  "d": "Cresta que desciende del tubérculo menor; en ella se inserta el redondo mayor.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Crest of neck of rib",
+  "tr": "Cresta del cuello de la costilla",
+  "la": "Crista colli costae",
+  "d": "Borde superior del cuello costal; en él se fija el ligamento costotransverso superior.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Crown of tooth",
+  "tr": "Corona dental",
+  "la": "Corona dentis",
+  "d": "Parte del diente cubierta de esmalte y visible en la boca.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Cruciform eminence",
+  "tr": "Eminencia cruciforme",
+  "la": "Eminentia cruciformis",
+  "d": "Relieve en cruz de la cara interna; aquí confluyen los surcos de los senos durales.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Cusp of tooth",
+  "tr": "Cúspide dental",
+  "la": "Cuspis dentis",
+  "d": "Elevaciones de la cara masticatoria de premolares y molares.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Deltoid tubercle",
+  "tr": "Tubérculo deltoideo",
+  "la": "Tuberculum deltoideum",
+  "d": "Prominencia de la espina de la escápula; en ella se fijan el deltoides y el trapecio.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Deltoid tuberosity",
+  "tr": "Tuberosidad deltoidea",
+  "la": "Tuberositas deltoidea",
+  "d": "Área rugosa de la cara lateral de la diáfisis humeral; en ella se inserta el deltoides.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Dens axis",
+  "tr": "Diente del axis (apófisis odontoides)",
+  "la": "Dens axis",
+  "d": "Saliente en forma de diente que se eleva desde el axis; el atlas gira a su alrededor y produce el movimiento de «no» de la cabeza.",
+  "entry": "axis",
+  "part": "Axis (C2)",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Digastric fossa",
+  "tr": "Fosa digástrica",
+  "la": "Fossa digastrica",
+  "d": "Fosa de la cara interna inferior de la mandíbula; en ella se fija el vientre anterior del digástrico.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Distal surface of tooth",
+  "tr": "Cara distal del diente",
+  "la": "Facies distalis dentis",
+  "d": "Cara del diente orientada hacia la parte posterior de la arcada.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Dorsal radial tubercle",
+  "tr": "Tubérculo dorsal del radio (de Lister)",
+  "la": "Tuberculum dorsale radii",
+  "d": "Tubérculo de Lister; el tendón del ELP lo rodea para dirigirse al pulgar.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Dorsal surface of sacrum",
+  "tr": "Cara dorsal del sacro",
+  "la": "Facies dorsalis ossis sacri",
+  "d": "Cara posterior convexa del sacro; en ella se fijan los músculos profundos de la espalda.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Dorsum sellae",
+  "tr": "Dorso de la silla",
+  "la": "Dorsum sellae",
+  "d": "Pared posterior de la silla turca.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Ethmoidal notch",
+  "tr": "Escotadura etmoidal",
+  "la": "Incisura ethmoidea",
+  "d": "Hueco entre las láminas orbitarias del frontal; en él encaja la lámina cribosa del etmoides.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "External occipital protuberance",
+  "tr": "Protuberancia occipital externa (inion)",
+  "la": "Protuberantia occipitalis externa",
+  "d": "Prominencia palpable en el centro de la nuca (inion); en ella se fijan el trapecio y el ligamento nucal.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "External surface of squamous part of frontal bone",
+  "tr": "Cara externa de la escama del frontal",
+  "la": "Facies externa squamae frontalis",
+  "d": "Superficie ósea de la frente; por debajo está el seno frontal.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "External surface of parietal bone",
+  "tr": "Cara externa del parietal",
+  "la": "Facies externa ossis parietalis",
+  "d": "Cara externa del hueso parietal; en ella están las líneas temporales.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Facet for calcaneonavicular part of bifurcate ligament",
+  "tr": "Carilla para la porción calcaneonavicular del ligamento bifurcado",
+  "la": "Facies articularis partis calcaneonavicularis ligamenti bifurcati",
+  "d": "Superficie de la cabeza del astrágalo en contacto con el ligamento bifurcado.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Facet for dens",
+  "tr": "Carilla del diente",
+  "la": "Fovea dentis",
+  "d": "Carilla de la cara posterior del arco anterior del atlas; forma con el diente la articulación atlantoaxial media.",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Facet for plantar calcaneonavicular ligament",
+  "tr": "Carilla para el ligamento calcaneonavicular plantar",
+  "la": "Facies articularis ligamenti calcaneonavicularis plantaris",
+  "d": "Superficie de la cabeza del astrágalo que se apoya en el ligamento calcaneonavicular plantar (ligamento en hamaca).",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Fibular articular facet",
+  "tr": "Carilla articular peronea",
+  "la": "Facies articularis fibularis",
+  "d": "Superficie del cóndilo lateral que se articula con la cabeza del peroné.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Fibular notch",
+  "tr": "Escotadura peronea",
+  "la": "Incisura fibularis",
+  "d": "Escotadura del extremo inferior de la tibia; forma una sindesmosis con el peroné.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Foramen caecum of frontal bone",
+  "tr": "Agujero ciego del frontal",
+  "la": "Foramen caecum ossis frontalis",
+  "d": "Pequeño orificio por delante de la cresta frontal; puede atravesarlo una vena emisaria de la nariz al seno sagital superior.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Foramen magnum",
+  "tr": "Agujero magno",
+  "la": "Foramen magnum",
+  "d": "Gran orificio de la base del cráneo; lo atraviesan el bulbo raquídeo, las arterias vertebrales y las raíces espinales del nervio accesorio (XI).",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 10
+ },
+ {
+  "name": "Foramen ovale",
+  "tr": "Agujero oval",
+  "la": "Foramen ovale",
+  "d": "Orificio oval del ala mayor; por él pasa el nervio mandibular (V3).",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Foramen rotundum",
+  "tr": "Agujero redondo",
+  "la": "Foramen rotundum",
+  "d": "Orificio redondo del ala mayor; por él pasa el nervio maxilar (V2).",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Foramen spinosum",
+  "tr": "Agujero espinoso",
+  "la": "Foramen spinosum",
+  "d": "Pequeño orificio del ala mayor; por él pasa la arteria meníngea media.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Foramen transversarium",
+  "tr": "Agujero transverso",
+  "la": "Foramen transversarium",
+  "d": "Orificio de las apófisis transversas cervicales; por él pasa la arteria vertebral de C6 a C1.",
+  "entry": "vertebrae-cervicales",
+  "part": "Vertebra C4",
+  "shared": false,
+  "rank": 10
+ },
+ {
+  "name": "Fossa for lacrimal gland",
+  "tr": "Fosa de la glándula lagrimal",
+  "la": "Fossa glandulae lacrimalis",
+  "d": "Fosa de la parte anterolateral del techo de la órbita; aloja la porción orbitaria de la glándula lagrimal.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Fovea for ligament of head of femur",
+  "tr": "Fóvea de la cabeza del fémur",
+  "la": "Fovea capitis ossis femoris",
+  "d": "Fosita de la cabeza femoral; aquí entran el ligamento de la cabeza y la pequeña arteria que contiene.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Frontal angle of parietal bone",
+  "tr": "Ángulo frontal del parietal",
+  "la": "Angulus frontalis ossis parietalis",
+  "d": "Ángulo anterosuperior orientado hacia el bregma.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Frontal border of parietal bone",
+  "tr": "Borde frontal del parietal",
+  "la": "Margo frontalis ossis parietalis",
+  "d": "Borde que forma la sutura coronal con el frontal.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Frontal crest",
+  "tr": "Cresta frontal",
+  "la": "Crista frontalis",
+  "d": "Cresta media de la cara interna del frontal; en ella se fija la hoz del cerebro.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Frontal eminence",
+  "tr": "Eminencia frontal",
+  "la": "Eminentia frontalis",
+  "d": "Prominencia a cada lado de la frente; lugar del centro de osificación al nacer.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Frontal margin of greater wing",
+  "tr": "Borde frontal del ala mayor",
+  "la": "Margo frontalis alae majoris",
+  "d": "Borde que se articula con el frontal.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Genion",
+  "tr": "Genion",
+  "la": "Genion",
+  "d": "Punta de las espinas mentonianas; punto antropométrico.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Glabella",
+  "tr": "Glabela",
+  "la": "Glabella",
+  "d": "Zona lisa entre las cejas; punto de referencia en las mediciones antropométricas.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Glenoid fossa",
+  "tr": "Cavidad glenoidea",
+  "la": "Fossa glenoidea",
+  "d": "Fosa poco profunda que forma el hombro con la cabeza humeral; la profundiza el labrum.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Glenoid process of scapula",
+  "tr": "Apófisis glenoidea de la escápula",
+  "la": "Processus glenoideus scapulae",
+  "d": "Ángulo lateral que lleva la cavidad glenoidea.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Gluteal surface of ilium",
+  "tr": "Cara glútea del ilion",
+  "la": "Facies glutea ossis ilium",
+  "d": "Cara externa del ilion; en ella nacen los músculos glúteos.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Gluteal tuberosity",
+  "tr": "Tuberosidad glútea",
+  "la": "Tuberositas glutea",
+  "d": "Área rugosa de la cara posterosuperior del fémur; en ella se fijan las fibras profundas del glúteo mayor.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Gnathion",
+  "tr": "Gnatión",
+  "la": "Gnathion",
+  "d": "Punto más inferior y anterior del mentón; punto antropométrico.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Greater horn of hyoid bone",
+  "tr": "Asta mayor del hioides",
+  "la": "Cornu majus ossis hyoidei",
+  "d": "Asta grande que se dirige hacia atrás desde el cuerpo; se palpa a ambos lados al explorar el cuello.",
+  "entry": "os-hyoideum",
+  "part": "Hyoid bone",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Greater sciatic foramen",
+  "tr": "Agujero ciático mayor",
+  "la": "Foramen ischiadicum majus",
+  "d": "Agujero ciático mayor; lo atraviesan el piriforme, el nervio ciático y los vasos y nervios glúteos.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 11
+ },
+ {
+  "name": "Greater sciatic notch",
+  "tr": "Escotadura ciática mayor",
+  "la": "Incisura ischiadica major",
+  "d": "Gran escotadura del borde posterior del coxal; los ligamentos la convierten en el agujero ciático mayor.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Greater trochanter",
+  "tr": "Trocánter mayor",
+  "la": "Trochanter major",
+  "d": "Gran saliente en el extremo superolateral del cuello femoral; en él se fijan el glúteo medio, el menor y el piriforme, y se palpa en el lado de la cadera.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 18
+ },
+ {
+  "name": "Greater tubercle",
+  "tr": "Tubérculo mayor",
+  "la": "Tuberculum majus",
+  "d": "Gran prominencia lateral de la cabeza humeral; en ella se insertan el supraespinoso, el infraespinoso y el redondo menor.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Greater wing",
+  "tr": "Ala mayor del esfenoides",
+  "la": "Ala major",
+  "d": "Gran ala lateral del esfenoides; forma parte de la fosa craneal media y la pared lateral de la órbita.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 12
+ },
+ {
+  "name": "Groove for marginal sinus",
+  "tr": "Surco del seno marginal",
+  "la": "Sulcus sinus marginalis",
+  "d": "Surco del seno marginal alrededor del agujero magno.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Groove for middle meningeal artery",
+  "tr": "Surco de la arteria meníngea media",
+  "la": "Sulcus arteriae meningeae mediae",
+  "d": "Surco ramificado de la cara interna; por él discurre la meníngea media y las fracturas aquí producen un hematoma epidural.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": true,
+  "rank": 0
+ },
+ {
+  "name": "Groove for occipital sinus",
+  "tr": "Surco del seno occipital",
+  "la": "Sulcus sinus occipitalis",
+  "d": "Surco del seno occipital a lo largo de la cresta occipital interna.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Groove for spinal nerve",
+  "tr": "Surco del nervio espinal",
+  "la": "Sulcus nervi spinalis",
+  "d": "Surco de la cara superior de la apófisis transversa cervical; por él discurre el nervio espinal.",
+  "entry": "vertebrae-cervicales",
+  "part": "Vertebra C4",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Groove for subclavius muscle",
+  "tr": "Surco del músculo subclavio",
+  "la": "Sulcus musculi subclavii",
+  "d": "Surco de la cara inferior del cuerpo; en él se inserta el subclavio.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Groove for tendon of flexor hallucis longus of calcaneus",
+  "tr": "Surco del tendón del flexor largo del dedo gordo (calcáneo)",
+  "la": "Sulcus tendinis flexoris longi hallucis calcanei",
+  "d": "Surco bajo el sustentáculo del astrágalo; por él pasa el tendón del flexor largo del dedo gordo.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Groove for transverse sinus",
+  "tr": "Surco del seno transverso",
+  "la": "Sulcus sinus transversi",
+  "d": "Surco horizontal de la cara interna; por él discurre el seno transverso y en él se fija la tienda del cerebelo.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": true,
+  "rank": 1
+ },
+ {
+  "name": "Groove for ulnar nerve",
+  "tr": "Surco del nervio cubital",
+  "la": "Sulcus nervi ulnaris",
+  "d": "Surco por detrás del epicóndilo medial; aquí el nervio cubital es superficial (el «hueso de la risa»).",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Groove for vertebral artery",
+  "tr": "Surco de la arteria vertebral",
+  "la": "Sulcus arteriae vertebralis",
+  "d": "Surco de la cara superior del arco posterior; por él discurren la arteria vertebral y el nervio suboccipital (C1).",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Groove of pterygoid hamulus",
+  "tr": "Surco del gancho pterigoideo",
+  "la": "Sulcus hamuli pterygoidei",
+  "d": "Surco del gancho pterigoideo; en él se refleja el tendón del tensor del velo del paladar.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Grooves for extensor tendons",
+  "tr": "Surcos de los tendones extensores",
+  "la": "Sulci tendinum extensorum",
+  "d": "Surcos de la cara posteroinferior del radio; por ellos pasan los tendones extensores.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Handle of malleus",
+  "tr": "Mango del martillo",
+  "la": "Manubrium mallei",
+  "d": "Mango del martillo; está incluido en el tímpano y su punta forma el umbo. En él se fija el tensor del tímpano.",
+  "entry": "ossicula-auditus",
+  "part": "Malleus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Head of femur",
+  "tr": "Cabeza del fémur",
+  "la": "Caput ossis femoris",
+  "d": "Cabeza articular redondeada del fémur; forma la cadera con el acetábulo y su irrigación procede de la circunfleja femoral medial.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 16
+ },
+ {
+  "name": "Head of fibula",
+  "tr": "Cabeza del peroné",
+  "la": "Caput fibulae",
+  "d": "Extremo superior del peroné; el nervio peroneo común la rodea por detrás y por fuera.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 18
+ },
+ {
+  "name": "Head of humerus",
+  "tr": "Cabeza del húmero",
+  "la": "Caput humeri",
+  "d": "Cabeza articular hemisférica; forma el hombro con la cavidad glenoidea.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 14
+ },
+ {
+  "name": "Head of malleus",
+  "tr": "Cabeza del martillo",
+  "la": "Caput mallei",
+  "d": "Cabeza del martillo en la parte superior del oído medio; se articula con el yunque.",
+  "entry": "ossicula-auditus",
+  "part": "Malleus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Head of metatarsal bone",
+  "tr": "Cabeza del metatarsiano",
+  "la": "Caput ossis metatarsi",
+  "d": "Cabeza distal del metatarsiano; soporta peso en la planta y se articula con la falange proximal.",
+  "entry": "ossa-metatarsi",
+  "part": "Third metatarsal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Head of radius",
+  "tr": "Cabeza del radio",
+  "la": "Caput radii",
+  "d": "Extremo superior discoideo del radio; gira en el codo y en los niños puede salirse del ligamento anular.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 19
+ },
+ {
+  "name": "Head of rib",
+  "tr": "Cabeza de la costilla",
+  "la": "Caput costae",
+  "d": "Cabeza de la costilla que se articula con la columna vertebral.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Head of talus",
+  "tr": "Cabeza del astrágalo",
+  "la": "Caput ossis tali",
+  "d": "Cabeza que se articula con el navicular; clave del arco medial.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Head of ulna",
+  "tr": "Cabeza del cúbito",
+  "la": "Caput ulnae",
+  "d": "Cabeza del extremo inferior del cúbito; se palpa en la cara posteromedial de la muñeca.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 10
+ },
+ {
+  "name": "Hook of hamate bone",
+  "tr": "Gancho del ganchoso",
+  "la": "Hamulus ossis hamati",
+  "d": "Gancho del ganchoso dirigido hacia la palma; forma la pared lateral del canal de Guyon y puede fracturarse en golfistas.",
+  "entry": "os-hamatum",
+  "part": "Hamate bone",
+  "shared": false,
+  "rank": 12
+ },
+ {
+  "name": "Hypoglossal canal",
+  "tr": "Conducto del hipogloso",
+  "la": "Canalis hypoglossus",
+  "d": "Conducto por encima del cóndilo; por él sale del cráneo el nervio hipogloso.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Hypophysial fossa",
+  "tr": "Fosa hipofisaria",
+  "la": "Fossa hypophysialis",
+  "d": "Fosa de la silla turca; aloja la hipófisis.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Iliac crest",
+  "tr": "Cresta ilíaca",
+  "la": "Crista iliaca",
+  "d": "Borde superior del ilion; en ella se fijan los músculos del abdomen y de la espalda, y puede realizarse aquí una punción de médula ósea.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 24
+ },
+ {
+  "name": "Iliac fossa",
+  "tr": "Fosa ilíaca",
+  "la": "Fossa iliaca",
+  "d": "Amplia fosa de la cara interna del ilion; en ella nace el músculo ilíaco.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Iliac tubercle",
+  "tr": "Tubérculo ilíaco",
+  "la": "Tuberculum iliacum",
+  "d": "Prominencia del labio externo de la cresta ilíaca, unos 5 cm por detrás de la EIAS.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Iliac tuberosity",
+  "tr": "Tuberosidad ilíaca",
+  "la": "Tuberositas iliaca",
+  "d": "Área rugosa por encima de la superficie auricular; en ella se fijan los fuertes ligamentos sacroilíacos.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Iliopubic eminence",
+  "tr": "Eminencia iliopúbica",
+  "la": "Eminentia iliopubica",
+  "d": "Prominencia en la unión del ilion y el pubis.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Ilium",
+  "tr": "Ilion",
+  "la": "Os ilium",
+  "d": "Parte superior y más grande del hueso coxal.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Impression for costoclavicular ligament",
+  "tr": "Impresión del ligamento costoclavicular",
+  "la": "Impressio ligamenti costoclavicularis",
+  "d": "Área rugosa de la cara inferior del extremo medial; en ella se fija el ligamento costoclavicular hacia la 1.ª costilla.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Inferior angle of scapula",
+  "tr": "Ángulo inferior de la escápula",
+  "la": "Angulus inferior scapulae",
+  "d": "Punta inferior de la escápula; a nivel de T7.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Inferior articular surface of atlas",
+  "tr": "Superficie articular inferior del atlas",
+  "la": "Facies articularis inferior atlantis",
+  "d": "Cara inferior de la masa lateral; forma con el axis la articulación atlantoaxial lateral.",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Inferior articular surface of tibia",
+  "tr": "Superficie articular inferior de la tibia",
+  "la": "Facies articularis inferior tibiae",
+  "d": "Cara inferior que forma el tobillo con el astrágalo.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Inferior costal facet",
+  "tr": "Fosita costal inferior",
+  "la": "Fovea costalis inferior",
+  "d": "Hemicarilla del borde inferior del cuerpo vertebral torácico; se articula con la cabeza de la costilla inferior.",
+  "entry": "vertebrae-thoracicae",
+  "part": "Vertebra T8",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Inferior gluteal line",
+  "tr": "Línea glútea inferior",
+  "la": "Linea glutea inferior",
+  "d": "Línea inferior de la cara externa del ilion; limita el origen del glúteo menor.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Inferior mental spine",
+  "tr": "Espina mentoniana inferior",
+  "la": "Spina mentalis inferior",
+  "d": "Espina inferior de la cara interna; en ella se fija el genihioideo.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Inferior nuchal line",
+  "tr": "Línea nucal inferior",
+  "la": "Linea nuchalis inferior",
+  "d": "Línea inferior de inserción de los músculos de la nuca; en ella se fijan los músculos suboccipitales.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Inferior pubic ramus",
+  "tr": "Rama inferior del pubis",
+  "la": "Ramus inferior ossis pubis",
+  "d": "Rama inferior del pubis; se une a la rama del isquion para formar la rama isquiopúbica.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Infraglenoid tubercle",
+  "tr": "Tubérculo infraglenoideo",
+  "la": "Tuberculum infraglenoideum",
+  "d": "Prominencia por debajo de la glena; en ella nace la cabeza larga del tríceps.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Infraspinous fossa",
+  "tr": "Fosa infraespinosa",
+  "la": "Fossa infraspinata",
+  "d": "Fosa por debajo de la espina; en ella nace el infraespinoso.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Infratemporal surface of greater wing",
+  "tr": "Cara infratemporal del ala mayor",
+  "la": "Facies infratemporalis alae majoris",
+  "d": "Cara del ala mayor orientada a la fosa infratemporal; en ella nace la cabeza superior del pterigoideo lateral.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Inner lip of iliac crest",
+  "tr": "Labio interno de la cresta ilíaca",
+  "la": "Labium internum cristae iliacae",
+  "d": "Labio interno de la cresta ilíaca; en él se fijan el transverso del abdomen y el cuadrado lumbar.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Intercondylar area",
+  "tr": "Área intercondílea",
+  "la": "Area intercondylaris",
+  "d": "Área entre los dos cóndilos de la meseta tibial.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Intercondylar eminence",
+  "tr": "Eminencia intercondílea",
+  "la": "Eminentia intercondylaris",
+  "d": "Prominencia entre los cóndilos; a su alrededor se fijan los ligamentos cruzados.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Intercondylar fossa",
+  "tr": "Fosa intercondílea",
+  "la": "Fossa intercondylaris",
+  "d": "Profunda escotadura entre los dos cóndilos; en ella se fijan los ligamentos cruzados anterior y posterior.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Intercondylar line",
+  "tr": "Línea intercondílea",
+  "la": "Linea intercondylaris",
+  "d": "Línea que separa la fosa intercondílea de la cara poplítea; en ella se fija la cápsula articular.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Intermediate sacral crest",
+  "tr": "Cresta sacra intermedia",
+  "la": "Crista sacralis medialis",
+  "d": "Cresta formada por las apófisis articulares fusionadas.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Intermediate zone",
+  "tr": "Línea intermedia de la cresta ilíaca",
+  "la": "Linea intermedia",
+  "d": "Línea entre los labios interno y externo de la cresta ilíaca; en ella se fija el oblicuo interno.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Internal surface of parietal bone",
+  "tr": "Cara interna del parietal",
+  "la": "Facies interna ossis parietalis",
+  "d": "Cara interna orientada hacia el cerebro.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Internal surface of squamous part of frontal bone",
+  "tr": "Cara interna de la escama del frontal",
+  "la": "Facies interna squamae frontalis",
+  "d": "Cara del frontal orientada hacia el cerebro; sostiene el lóbulo frontal.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Interosseous border of radius",
+  "tr": "Borde interóseo del radio",
+  "la": "Margo interosseus radii",
+  "d": "Borde cortante orientado hacia el cúbito; en él se fija la membrana interósea.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Interosseous border of tibia",
+  "tr": "Borde interóseo de la tibia",
+  "la": "Margo interosseus tibiae",
+  "d": "Borde orientado hacia el peroné; en él se fija la membrana interósea.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Interosseous border of ulna",
+  "tr": "Borde interóseo del cúbito",
+  "la": "Margo interosseus ulnae",
+  "d": "Borde cortante orientado hacia el radio; en él se fija la membrana interósea.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Interosseous crest of fibula",
+  "tr": "Borde interóseo del peroné",
+  "la": "Crista interossea fibulae",
+  "d": "Borde del peroné orientado hacia la tibia; en él se fija la membrana interósea.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Intertrochanteric crest",
+  "tr": "Cresta intertrocantérea",
+  "la": "Crista intertrochanterica",
+  "d": "Cresta que une los trocánteres por detrás; en ella está el tubérculo cuadrado.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Intertrochanteric line",
+  "tr": "Línea intertrocantérea",
+  "la": "Linea intertrochanterica",
+  "d": "Línea que une los trocánteres por delante; en ella se fijan la cápsula de la cadera y el ligamento iliofemoral.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Intervertebral foramina",
+  "tr": "Agujeros intervertebrales del sacro",
+  "la": "Foramina intervertebralia",
+  "d": "Orificios que comunican el conducto sacro con los agujeros sacros anteriores y posteriores.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Intrajugular process of occipital bone",
+  "tr": "Apófisis intrayugular del occipital",
+  "la": "Processus intrajugularis ossis occipitalis",
+  "d": "Pequeña apófisis que divide parcialmente el agujero yugular.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Ischial spine",
+  "tr": "Espina ciática",
+  "la": "Spina ischiadica",
+  "d": "Espina del borde posterior del isquion; en ella se fija el ligamento sacroespinoso y sirve de guía para el bloqueo pudendo.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 13
+ },
+ {
+  "name": "Ischial tuberosity",
+  "tr": "Tuberosidad isquiática",
+  "la": "Tuber ischiadicum",
+  "d": "Tuberosidad que soporta el peso al sentarse; en ella se fijan los isquiotibiales y el ligamento sacrotuberoso.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 22
+ },
+ {
+  "name": "Ischiopubic ramus",
+  "tr": "Rama isquiopúbica",
+  "la": "Ramus ischiopubicus",
+  "d": "Unión de las ramas del isquion y del pubis; limita por abajo el agujero obturador y en ella se fijan los pilares del pene/clítoris.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Ischium",
+  "tr": "Isquion",
+  "la": "Os ischii",
+  "d": "Parte posteroinferior del hueso coxal (hueso del asiento).",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Jugular notch of occipital bone",
+  "tr": "Escotadura yugular del occipital",
+  "la": "Incisura jugularis ossis occipitalis",
+  "d": "Escotadura que forma con el temporal el agujero yugular.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Jugular process",
+  "tr": "Apófisis yugular",
+  "la": "Processus jugularis",
+  "d": "Apófisis por detrás de la escotadura yugular; en ella se fija el recto lateral de la cabeza.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Lateral angle of scapula",
+  "tr": "Ángulo lateral de la escápula",
+  "la": "Angulus lateralis scapulae",
+  "d": "Ángulo lateral de la escápula que lleva la glena.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral border of humerus",
+  "tr": "Borde lateral del húmero",
+  "la": "Margo lateralis humeri",
+  "d": "Borde lateral del húmero; por abajo se continúa con la cresta supracondílea lateral.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral border of scapula",
+  "tr": "Borde lateral de la escápula",
+  "la": "Margo lateralis scapulae",
+  "d": "Borde lateral orientado hacia la axila; en él nacen el redondo mayor y el menor.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Lateral condyle of femur",
+  "tr": "Cóndilo lateral del fémur",
+  "la": "Condylus lateralis femoris",
+  "d": "Cóndilo lateral del fémur; forma la rodilla con la tibia y el menisco, y su saliente anterior impide que la rótula se desplace hacia fuera.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Lateral condyle of tibia",
+  "tr": "Cóndilo lateral de la tibia",
+  "la": "Condylus lateralis tibiae",
+  "d": "Cóndilo lateral de la tibia; sobre él descansa el menisco lateral.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Lateral epicondyle of femur",
+  "tr": "Epicóndilo lateral del fémur",
+  "la": "Epicondylus lateralis ossis femoris",
+  "d": "Prominencia del cóndilo lateral; en ella se fijan el ligamento colateral lateral y la cabeza lateral del gastrocnemio.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral epicondyle of humerus",
+  "tr": "Epicóndilo lateral del húmero",
+  "la": "Epicondylus lateralis humeri",
+  "d": "Epicóndilo lateral del húmero; origen común de los extensores del antebrazo (codo de tenista).",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 9
+ },
+ {
+  "name": "Lateral intercondylar tubercle",
+  "tr": "Tubérculo intercondíleo lateral",
+  "la": "Tuberculum intercondylare laterale",
+  "d": "Tubérculo lateral de la eminencia intercondílea.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral lip of linea aspera",
+  "tr": "Labio lateral de la línea áspera",
+  "la": "Labium laterale lineae asperae",
+  "d": "Labio lateral de la línea áspera; en él se fijan el vasto lateral y la cabeza corta del bíceps femoral.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Lateral malleolar facet",
+  "tr": "Carilla maleolar lateral",
+  "la": "Facies malleolaris lateralis",
+  "d": "Superficie triangular que se articula con el maléolo lateral.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral malleolus",
+  "tr": "Maléolo lateral",
+  "la": "Malleolus lateralis",
+  "d": "Extremo inferior del peroné; desciende más y queda más posterior que el maléolo medial.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Lateral mass",
+  "tr": "Masa lateral del atlas",
+  "la": "Massa lateralis atlantis",
+  "d": "Parte lateral gruesa del atlas a cada lado; transmite el peso del cráneo al axis.",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Lateral process of calcaneal tuberosity",
+  "tr": "Apófisis lateral de la tuberosidad del calcáneo",
+  "la": "Processus lateralis tuberis calcanei",
+  "d": "Apófisis lateral de la tuberosidad del calcáneo; en ella nace el abductor del quinto dedo.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral process of malleus",
+  "tr": "Apófisis lateral del martillo",
+  "la": "Processus lateralis mallei",
+  "d": "Pequeña apófisis del martillo que forma un relieve en el tímpano.",
+  "entry": "ossicula-auditus",
+  "part": "Malleus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral process of talus",
+  "tr": "Apófisis lateral del astrágalo",
+  "la": "Processus lateralis ossis tali",
+  "d": "Apófisis lateral del astrágalo; lugar de la fractura del snowboarder.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral pterygoid plate",
+  "tr": "Lámina lateral de la apófisis pterigoides",
+  "la": "Lamina lateralis processus pterygoidei",
+  "d": "Lámina lateral de la apófisis pterigoides; en ella nacen ambos músculos pterigoideos.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Lateral sacral crest",
+  "tr": "Cresta sacra lateral",
+  "la": "Crista sacralis lateralis",
+  "d": "Cresta formada por las apófisis transversas fusionadas; en ella se fija el ligamento sacrotuberoso.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Lateral supracondylar line",
+  "tr": "Línea supracondílea lateral",
+  "la": "Linea supracondylaris lateralis",
+  "d": "Continuación de la línea áspera hacia el cóndilo lateral; en ella nacen el plantar y la cabeza lateral del gastrocnemio.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Lateral supracondylar ridge",
+  "tr": "Cresta supracondílea lateral",
+  "la": "Crista supracondylaris lateralis",
+  "d": "Cresta por encima del epicóndilo lateral; en ella nacen el braquiorradial y el ERLC.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Lateral surface of fibula",
+  "tr": "Cara lateral del peroné",
+  "la": "Facies lateralis fibulae",
+  "d": "Cara lateral del peroné; en ella nacen los peroneos largo y corto.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral surface of radius",
+  "tr": "Cara lateral del radio",
+  "la": "Facies lateralis radii",
+  "d": "Cara lateral del radio; en su mitad se inserta el pronador redondo.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral surface of tibia",
+  "tr": "Cara lateral de la tibia",
+  "la": "Facies lateralis tibiae",
+  "d": "Cara lateral de la tibia; en ella nace el tibial anterior.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral tubercle",
+  "tr": "Tubérculo lateral del astrágalo",
+  "la": "Tuberculum laterale",
+  "d": "Tubérculo lateral de la apófisis posterior del astrágalo; en él se fija el ligamento peroneoastragalino posterior.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Lenticular process of incus",
+  "tr": "Apófisis lenticular del yunque",
+  "la": "Processus lenticularis incudis",
+  "d": "Apófisis en forma de lente en el extremo de la rama larga; se articula con el estribo.",
+  "entry": "ossicula-auditus",
+  "part": "Incus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lesser horn of hyoid bone",
+  "tr": "Asta menor del hioides",
+  "la": "Cornu minus ossis hyoidei",
+  "d": "Asta menor; en ella se fija el ligamento estilohioideo.",
+  "entry": "os-hyoideum",
+  "part": "Hyoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lesser sciatic foramen",
+  "tr": "Agujero ciático menor",
+  "la": "Foramen ischiadicum minus",
+  "d": "Agujero ciático menor; lo atraviesan el tendón del obturador interno, el nervio pudendo y los vasos pudendos internos.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Lesser sciatic notch",
+  "tr": "Escotadura ciática menor",
+  "la": "Incisura ischiadica minor",
+  "d": "Escotadura por debajo de la espina ciática; los ligamentos la convierten en el agujero ciático menor.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Lesser trochanter",
+  "tr": "Trocánter menor",
+  "la": "Trochanter minor",
+  "d": "Saliente posteromedial del cuello femoral; en él se inserta el iliopsoas.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 10
+ },
+ {
+  "name": "Lesser tubercle",
+  "tr": "Tubérculo menor",
+  "la": "Tuberculum minus",
+  "d": "Pequeña prominencia anterior del húmero; en ella se inserta el subescapular.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Lesser wing",
+  "tr": "Ala menor del esfenoides",
+  "la": "Ala minor",
+  "d": "Ala pequeña que rodea el conducto óptico; forma el borde posterior de la fosa craneal anterior.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Limbus of sphenoid",
+  "tr": "Limbo del esfenoides",
+  "la": "Limbus sphenoideus",
+  "d": "Borde posterior del yugo esfenoidal.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Linea aspera",
+  "tr": "Línea áspera",
+  "la": "Linea aspera",
+  "d": "Línea rugosa de la cara posterior de la diáfisis femoral; en ella se fijan los aductores y los vastos.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 20
+ },
+ {
+  "name": "Lingual surface of tooth",
+  "tr": "Cara lingual del diente",
+  "la": "Facies lingualis dentis",
+  "d": "Cara del diente orientada hacia la lengua.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Long limb of incus",
+  "tr": "Rama larga del yunque",
+  "la": "Crus longum incudis",
+  "d": "Rama larga descendente del yunque; discurre paralela al mango del martillo.",
+  "entry": "ossicula-auditus",
+  "part": "Incus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lunate surface",
+  "tr": "Cara semilunar",
+  "la": "Facies lunata",
+  "d": "Superficie articular en forma de media luna del acetábulo; parte cubierta de cartílago en contacto con la cabeza femoral.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Malleolar fossa",
+  "tr": "Fosa maleolar",
+  "la": "Fossa malleoli lateralis",
+  "d": "Fosa de la cara posteromedial del maléolo lateral; en ella se fija el ligamento peroneoastragalino posterior.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Mastoid angle of parietal bone",
+  "tr": "Ángulo mastoideo del parietal",
+  "la": "Angulus mastoideus ossis parietalis",
+  "d": "Ángulo posteroinferior orientado hacia la región mastoidea.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Mastoid notch",
+  "tr": "Escotadura mastoidea",
+  "la": "Incisura mastoidea",
+  "d": "Escotadura de la cara medial de la apófisis mastoides; en ella nace el vientre posterior del digástrico.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Mastoid process",
+  "tr": "Apófisis mastoides",
+  "la": "Processus mastoideus",
+  "d": "Saliente palpable detrás de la oreja; está llena de celdillas aéreas y en ella se inserta el ECM.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 12
+ },
+ {
+  "name": "Maxillary dental arch",
+  "tr": "Arcada dental maxilar",
+  "la": "Arcus dentalis maxillaris",
+  "d": "Arcada dental superior; lleva 16 dientes permanentes.",
+  "entry": "maxilla",
+  "part": "Maxilla",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Maxillary surface of greater wing",
+  "tr": "Cara maxilar del ala mayor",
+  "la": "Facies maxillaris alae majoris",
+  "d": "Cara del ala mayor orientada a la fosa pterigopalatina; en ella se abre el agujero redondo.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial border of fibula",
+  "tr": "Borde medial del peroné",
+  "la": "Margo medialis fibulae",
+  "d": "Borde medial del peroné.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial condyle of femur",
+  "tr": "Cóndilo medial del fémur",
+  "la": "Condylus medialis ossis femoris",
+  "d": "Cóndilo medial del fémur; es más largo y desciende más que el lateral, lo que crea el ángulo de valgo fisiológico.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial condyle of tibia",
+  "tr": "Cóndilo medial de la tibia",
+  "la": "Condylus medialis tibiae",
+  "d": "Cóndilo medial de la tibia; en su cara posterior se inserta el semimembranoso.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Medial epicondyle of femur",
+  "tr": "Epicóndilo medial del fémur",
+  "la": "Epicondylus medialis ossis femoris",
+  "d": "Prominencia del cóndilo medial; en ella se fija el ligamento colateral medial.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial epicondyle of humerus",
+  "tr": "Epicóndilo medial del húmero",
+  "la": "Epicondylus medialis humeri",
+  "d": "Epicóndilo medial del húmero; origen común de los flexores del antebrazo, por detrás pasa el nervio cubital.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Medial intercondylar tubercle",
+  "tr": "Tubérculo intercondíleo medial",
+  "la": "Tuberculum intercondylare mediale",
+  "d": "Tubérculo medial de la eminencia intercondílea.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial lip of linea aspera",
+  "tr": "Labio medial de la línea áspera",
+  "la": "Labium mediale lineae asperae",
+  "d": "Labio medial de la línea áspera; en él se fijan el vasto medial y los aductores.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Medial malleolar facet",
+  "tr": "Carilla maleolar medial",
+  "la": "Facies malleolaris medialis",
+  "d": "Superficie en forma de coma que se articula con el maléolo medial.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial malleolus",
+  "tr": "Maléolo medial",
+  "la": "Malleolus medialis",
+  "d": "Extremo inferior de la tibia palpable bajo la piel; por delante pasa la vena safena mayor (acceso venoso de urgencia).",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Medial process of calcaneal tuberosity",
+  "tr": "Apófisis medial de la tuberosidad del calcáneo",
+  "la": "Processus medialis tuberis calcanei",
+  "d": "Apófisis medial de la tuberosidad del calcáneo; en ella nacen el abductor del dedo gordo y la aponeurosis plantar.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial pterygoid plate",
+  "tr": "Lámina medial de la apófisis pterigoides",
+  "la": "Lamina medialis processus pterygoidei",
+  "d": "Lámina medial de la apófisis pterigoides; en su punta está el gancho pterigoideo.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial supracondylar line",
+  "tr": "Línea supracondílea medial",
+  "la": "Linea supracondylaris medialis",
+  "d": "Continuación de la línea áspera hacia el cóndilo medial; termina en el tubérculo del aductor.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial supracondylar ridge",
+  "tr": "Cresta supracondílea medial",
+  "la": "Crista supracondylaris medialis",
+  "d": "Cresta por encima del epicóndilo medial.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial surface of fibula",
+  "tr": "Cara medial del peroné",
+  "la": "Facies medialis fibulae",
+  "d": "Cara medial del peroné; en ella nacen los extensores del compartimento anterior.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial surface of tibia",
+  "tr": "Cara medial de la tibia",
+  "la": "Facies medialis tibiae",
+  "d": "Amplia cara anteromedial subcutánea; aquí pueden obtenerse injertos óseos y colocarse una vía intraósea.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Medial surface of ulna",
+  "tr": "Cara medial del cúbito",
+  "la": "Facies medialis ulnae",
+  "d": "Cara medial del cúbito; en ella nace el FPD.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial tubercle",
+  "tr": "Tubérculo medial del astrágalo",
+  "la": "Tuberculum mediale",
+  "d": "Tubérculo medial de la apófisis posterior; en él se fija el ligamento deltoideo.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Median sacral crest",
+  "tr": "Cresta sacra media",
+  "la": "Crista sacralis mediana",
+  "d": "Cresta media formada por las apófisis espinosas fusionadas.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Mental foramen",
+  "tr": "Agujero mentoniano",
+  "la": "Foramen mentale",
+  "d": "Orificio por debajo del segundo premolar; por él salen el nervio y la arteria mentonianos.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Mental protuberance",
+  "tr": "Protuberancia mentoniana",
+  "la": "Protuberantia mentalis",
+  "d": "Saliente del mentón.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Mental tubercle",
+  "tr": "Tubérculo mentoniano",
+  "la": "Tuberculum mentale",
+  "d": "Prominencia a cada lado de la protuberancia mentoniana.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Mesial surface of tooth",
+  "tr": "Cara mesial del diente",
+  "la": "Facies mesialis dentis",
+  "d": "Cara del diente orientada hacia la parte anterior (línea media) de la arcada.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Mylohyoid line",
+  "tr": "Línea milohioidea",
+  "la": "Linea mylohyoidea",
+  "d": "Línea oblicua de la cara interna de la mandíbula; en ella se fija el milohioideo, que forma el suelo de la boca.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Nasal spine of frontal bone",
+  "tr": "Espina nasal del frontal",
+  "la": "Spina nasalis ossis frontalis",
+  "d": "Pequeña espina que sostiene el tabique nasal.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Neck of femur",
+  "tr": "Cuello del fémur",
+  "la": "Collum ossis femoris",
+  "d": "Cuello que une la cabeza a la diáfisis; se fractura con frecuencia en ancianos y puede producir necrosis avascular de la cabeza.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Neck of fibula",
+  "tr": "Cuello del peroné",
+  "la": "Collum fibulae",
+  "d": "Cuello por debajo de la cabeza; aquí el nervio peroneo común está en contacto con el hueso y su fractura puede causar pie caído.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Neck of malleus",
+  "tr": "Cuello del martillo",
+  "la": "Collum mallei",
+  "d": "Estrechamiento entre la cabeza y el mango del martillo.",
+  "entry": "ossicula-auditus",
+  "part": "Malleus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Neck of radius",
+  "tr": "Cuello del radio",
+  "la": "Collum radii",
+  "d": "Estrechamiento entre la cabeza y la tuberosidad.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Neck of rib",
+  "tr": "Cuello de la costilla",
+  "la": "Collum costae",
+  "d": "Parte entre la cabeza y el tubérculo.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Neck of scapula",
+  "tr": "Cuello de la escápula",
+  "la": "Collum scapulae",
+  "d": "Estrechamiento justo medial a la glena.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Neck of talus",
+  "tr": "Cuello del astrágalo",
+  "la": "Collum ossis tali",
+  "d": "Estrechamiento entre la cabeza y el cuerpo; tras su fractura es frecuente la necrosis avascular del cuerpo.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Neck of tooth",
+  "tr": "Cuello del diente",
+  "la": "Cervix dentis",
+  "d": "Estrechamiento donde la corona se une a la raíz; aquí termina la encía.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Oblique line of mandible",
+  "tr": "Línea oblicua de la mandíbula",
+  "la": "Linea obliqua mandibulae",
+  "d": "Línea oblicua de la cara externa; en ella se fijan los músculos de la comisura.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Obturator crest",
+  "tr": "Cresta obturatriz",
+  "la": "Crista obturatoria",
+  "d": "Cresta de la rama superior del pubis; en ella se fija el ligamento pubofemoral.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Obturator foramen",
+  "tr": "Agujero obturador",
+  "la": "Foramen obturatum",
+  "d": "Gran orificio rodeado por el pubis y el isquion; lo cierra la membrana obturatriz y por el conducto superior pasan los vasos y el nervio obturadores.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 9
+ },
+ {
+  "name": "Occipital angle of parietal bone",
+  "tr": "Ángulo occipital del parietal",
+  "la": "Angulus occipitalis ossis parietalis",
+  "d": "Ángulo posterosuperior orientado hacia el lambda.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Occipital condyle",
+  "tr": "Cóndilo occipital",
+  "la": "Condylus occipitalis",
+  "d": "Saliente articular a cada lado del agujero magno; forma con el atlas la articulación del movimiento de «sí».",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Occipital plane",
+  "tr": "Plano occipital",
+  "la": "Planum occipitale",
+  "d": "Zona lisa por encima de la línea nucal superior.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Occlusal surface of tooth",
+  "tr": "Cara oclusal del diente",
+  "la": "Facies occlusalis dentis",
+  "d": "Superficie masticatoria que contacta con el diente antagonista.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Olecranon fossa",
+  "tr": "Fosa olecraniana",
+  "la": "Fossa olecrani",
+  "d": "Fosa profunda de la cara posteroinferior del húmero; en ella entra el olécranon al extender el codo.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Olecranon",
+  "tr": "Olécranon",
+  "la": "Olecranon",
+  "d": "Saliente que forma la punta del codo; en él se inserta el tríceps.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 14
+ },
+ {
+  "name": "Opening of frontal sinus",
+  "tr": "Abertura del seno frontal",
+  "la": "Apertura sinus frontalis",
+  "d": "Orificio del seno frontal; drena por el conducto frontonasal al meato medio.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Optic canal",
+  "tr": "Conducto óptico",
+  "la": "Canalis opticus",
+  "d": "Conducto del ala menor; por él pasan el nervio óptico y la arteria oftálmica.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 9
+ },
+ {
+  "name": "Orbital plate of frontal bone",
+  "tr": "Lámina orbitaria del frontal",
+  "la": "Lamina orbitalis ossis frontalis",
+  "d": "Fina lámina ósea que forma el techo de la órbita; es el suelo de la fosa craneal anterior.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Orbital surface of frontal bone",
+  "tr": "Cara orbitaria del frontal",
+  "la": "Facies orbitalis ossis frontalis",
+  "d": "Cara del techo de la órbita orientada hacia el ojo.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Orbital surface of greater wing",
+  "tr": "Cara orbitaria del ala mayor",
+  "la": "Facies orbitalis alae majoris",
+  "d": "Cara que forma la pared lateral de la órbita.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Parietal eminence",
+  "tr": "Eminencia parietal",
+  "la": "Eminentia parietalis",
+  "d": "Punto más prominente del parietal; centro de osificación.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Parietal foramen",
+  "tr": "Agujero parietal",
+  "la": "Foramen parietale",
+  "d": "Pequeño orificio cerca del borde sagital; lo atraviesa una vena emisaria.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Patellar surface of femur",
+  "tr": "Cara rotuliana del fémur",
+  "la": "Facies patellaris ossis femoris",
+  "d": "Superficie articular por delante de los cóndilos; forma con la rótula la articulación femororrotuliana.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Pectineal line of femur",
+  "tr": "Línea pectínea del fémur",
+  "la": "Linea pectinea",
+  "d": "Línea que va del trocánter menor a la línea áspera; en ella se inserta el pectíneo.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Pharyngeal tubercle",
+  "tr": "Tubérculo faríngeo",
+  "la": "Tuberculum pharyngeum",
+  "d": "Prominencia de la cara inferior de la porción basilar; en ella se fija el rafe fibroso de la faringe.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Popliteal surface of femur",
+  "tr": "Cara poplítea del fémur",
+  "la": "Facies poplitea ossis femoris",
+  "d": "Cara posteroinferior plana del fémur; forma el suelo de la fosa poplítea y está junto a la arteria poplítea.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior arch of atlas",
+  "tr": "Arco posterior del atlas",
+  "la": "Arcus posterior atlantis",
+  "d": "Arco posterior largo del atlas; lleva un tubérculo posterior en lugar de apófisis espinosa.",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Posterior clinoid process",
+  "tr": "Apófisis clinoides posterior",
+  "la": "Processus clinoideus posterior",
+  "d": "Esquinas superiores del dorso de la silla; en ellas se fija la tienda del cerebelo.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior gluteal line",
+  "tr": "Línea glútea posterior",
+  "la": "Linea glutea posterior",
+  "d": "Línea posterior de la cara externa del ilion; limita el origen del glúteo mayor.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Posterior inferior iliac spine",
+  "tr": "Espina ilíaca posteroinferior",
+  "la": "Spina iliaca posterior inferior",
+  "d": "Saliente en el extremo posteroinferior de la superficie auricular.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior intercondylar area",
+  "tr": "Área intercondílea posterior",
+  "la": "Area intercondylaris posterior",
+  "d": "Área posterior entre los cóndilos; en ella se fija el ligamento cruzado posterior.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Posterior limb of stapes",
+  "tr": "Rama posterior del estribo",
+  "la": "Crus posterius stapedis",
+  "d": "Rama posterior del estribo.",
+  "entry": "ossicula-auditus",
+  "part": "Stapes",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior malleolus",
+  "tr": "Maléolo posterior",
+  "la": "Malleolus posterior",
+  "d": "Borde posterior del extremo inferior de la tibia; se fractura en las fracturas trimaleolares.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior sacral foramina",
+  "tr": "Agujeros sacros posteriores",
+  "la": "Foramina sacralia posteriora",
+  "d": "Agujeros sacros posteriores; por ellos salen los ramos posteriores de los nervios sacros.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Posterior superior iliac spine",
+  "tr": "Espina ilíaca posterosuperior (EIPS)",
+  "la": "Spina iliaca posterior superior",
+  "d": "Extremo posterior de la cresta ilíaca; el hoyuelo cutáneo que la cubre (hoyuelo de Venus) señala el nivel S2.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Posterior surface of fibula",
+  "tr": "Cara posterior del peroné",
+  "la": "Facies posterior fibulae",
+  "d": "Cara posterior del peroné; en ella nacen el sóleo y el FLDG.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior surface of petrous part",
+  "tr": "Cara posterior de la porción petrosa",
+  "la": "Facies posterior partis petrosae",
+  "d": "Cara orientada a la fosa craneal posterior; en ella se abre el conducto auditivo interno.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior surface of scapula",
+  "tr": "Cara posterior de la escápula",
+  "la": "Facies posterior scapulae",
+  "d": "Cara posterior dividida en dos por la espina de la escápula.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior tubercle of atlas",
+  "tr": "Tubérculo posterior del atlas",
+  "la": "Tuberculum posterius atlantis",
+  "d": "Prominencia en el centro del arco posterior; en ella se fijan el recto posterior menor de la cabeza y el ligamento nucal.",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior tubercle of transverse process",
+  "tr": "Tubérculo posterior de la apófisis transversa",
+  "la": "Tuberculum posterius processus transversi",
+  "d": "Prominencia posterior de la apófisis transversa cervical; en ella se fijan los escalenos.",
+  "entry": "vertebrae-cervicales",
+  "part": "Vertebra C4",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Pronator tuberosity",
+  "tr": "Tuberosidad pronadora",
+  "la": "Tuberositas pronatoria",
+  "d": "Área rugosa de la cara lateral del radio; en ella se inserta el pronador redondo.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Pterygoid canal",
+  "tr": "Conducto pterigoideo",
+  "la": "Canalis pterygoideus",
+  "d": "Conducto en la raíz de la apófisis pterigoides; por él pasa el nervio del conducto pterigoideo (vidiano).",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Pterygoid fossa",
+  "tr": "Fosa pterigoidea",
+  "la": "Fossa pterygoidea",
+  "d": "Fosa entre las dos láminas pterigoideas; en ella nace el pterigoideo medial.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Pterygoid hamulus",
+  "tr": "Gancho pterigoideo",
+  "la": "Hamulus pterygoideus",
+  "d": "Gancho en la punta de la lámina medial; a su alrededor gira el tendón del tensor del velo del paladar.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Pterygoid notch",
+  "tr": "Escotadura pterigoidea",
+  "la": "Incisura pterygoidea",
+  "d": "Escotadura en el extremo inferior de las dos láminas; en ella encaja una apófisis del palatino.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Pubic crest",
+  "tr": "Cresta púbica",
+  "la": "Crista pubica",
+  "d": "Borde superior del cuerpo del pubis; en ella se fijan el recto del abdomen y el piramidal.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Pubic tubercle",
+  "tr": "Tubérculo púbico",
+  "la": "Tuberculum pubicum",
+  "d": "Prominencia en el extremo lateral de la cresta púbica; en ella se fija el ligamento inguinal y es referencia en la exploración de hernias.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Quadrate tubercle",
+  "tr": "Tubérculo cuadrado",
+  "la": "Tuberculum quadratum",
+  "d": "Prominencia de la cresta intertrocantérea; en ella se inserta el cuadrado femoral.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Radial fossa",
+  "tr": "Fosa radial",
+  "la": "Fossa radialis",
+  "d": "Pequeña fosa anterior por encima del capítulo; en ella entra la cabeza del radio al flexionar el codo.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Radial notch",
+  "tr": "Escotadura radial del cúbito",
+  "la": "Incisura radialis",
+  "d": "Escotadura de la cara lateral de la apófisis coronoides; forma con la cabeza del radio la radiocubital proximal.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Outer lip of iliac crest",
+  "tr": "Labio externo de la cresta ilíaca",
+  "la": "Labium externum cristae iliacae",
+  "d": "Labio externo de la cresta ilíaca; en él se fijan el oblicuo externo, el TFL y la fascia lata.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Root apex",
+  "tr": "Ápice radicular",
+  "la": "Apex radicis dentis",
+  "d": "Punta de la raíz; nervios y vasos entran en el diente por el agujero apical.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sacral canal",
+  "tr": "Conducto sacro",
+  "la": "Canalis sacralis",
+  "d": "Continuación del conducto vertebral en el sacro; contiene las raíces inferiores de la cola de caballo y el filum terminal.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Sacral hiatus",
+  "tr": "Hiato sacro",
+  "la": "Hiatus sacralis",
+  "d": "Abertura en el extremo posteroinferior del sacro; aquí se realiza la anestesia epidural caudal.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Sacral horn",
+  "tr": "Asta sacra",
+  "la": "Cornu sacrale",
+  "d": "Astas a cada lado del hiato; sirven de guía para el bloqueo caudal.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Scaphoid fossa",
+  "tr": "Fosa escafoidea",
+  "la": "Fossa scaphoidea",
+  "d": "Fosa por encima de la lámina medial; en ella nace el tensor del velo del paladar.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Scapular notch",
+  "tr": "Escotadura de la escápula",
+  "la": "Incisura scapulae",
+  "d": "Escotadura del borde superior; por debajo pasa el nervio supraescapular y por encima la arteria supraescapular.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Soleal line",
+  "tr": "Línea del sóleo",
+  "la": "Linea musculi solei",
+  "d": "Línea oblicua de la cara posterior; en ella nace el sóleo.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Sphenoidal angle of parietal bone",
+  "tr": "Ángulo esfenoidal del parietal",
+  "la": "Angulus sphenoideus ossis parietalis",
+  "d": "Ángulo anteroinferior que participa en el pterion; por su cara interna discurre la rama anterior de la meníngea media.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sphenoidal crest",
+  "tr": "Cresta esfenoidal",
+  "la": "Crista sphenoidea",
+  "d": "Cresta media de la cara anterior del cuerpo; participa en el tabique nasal.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sphenoidal lingula",
+  "tr": "Língula esfenoidal",
+  "la": "Lingula sphenoidea",
+  "d": "Saliente en forma de lengüeta en el borde lateral del surco carotídeo.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sphenoidal yoke",
+  "tr": "Yugo esfenoidal",
+  "la": "Jugum sphenoideum",
+  "d": "Área ósea plana que une las dos alas menores (yugo).",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Frontal part of orbital margin",
+  "tr": "Porción frontal del reborde orbitario",
+  "la": "Pars frontalis marginis orbitalis",
+  "d": "Parte del frontal que forma el reborde superior de la órbita.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Groove for popliteus muscle",
+  "tr": "Surco del músculo poplíteo",
+  "la": "Sulcus popliteus",
+  "d": "Surco de la cara externa del cóndilo lateral; en él se aloja el tendón del poplíteo.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Intertubercular sulcus",
+  "tr": "Surco intertubercular (bicipital)",
+  "la": "Sulcus intertubercularis",
+  "d": "Surco entre los dos tubérculos; por él discurre el tendón de la cabeza larga del bíceps.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 10
+ },
+ {
+  "name": "Lateral part of occipital bone",
+  "tr": "Porción lateral del occipital",
+  "la": "Pars lateralis ossis occipitalis",
+  "d": "Parte situada a los lados del agujero magno; lleva los cóndilos.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Lateral part of sacrum",
+  "tr": "Porción lateral del sacro",
+  "la": "Pars lateralis ossis sacri",
+  "d": "Partes laterales del sacro; llevan las alas y las superficies auriculares.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Malleolar groove of fibula",
+  "tr": "Surco maleolar del peroné",
+  "la": "Sulcus malleolaris fibulae",
+  "d": "Surco por detrás del maléolo lateral; por él pasan los tendones peroneos.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Malleolar groove of tibia",
+  "tr": "Surco maleolar de la tibia",
+  "la": "Sulcus malleolaris tibiae",
+  "d": "Surco por detrás del maléolo medial; por él pasan los tendones del tibial posterior y del FLD.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Mastoid border of occipital bone",
+  "tr": "Borde mastoideo del occipital",
+  "la": "Margo mastoideus ossis occipitalis",
+  "d": "Borde que se articula con la porción mastoidea del temporal.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial border of humerus",
+  "tr": "Borde medial del húmero",
+  "la": "Margo medialis humeri",
+  "d": "Borde medial del húmero.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Medial border of scapula",
+  "tr": "Borde medial de la escápula",
+  "la": "Margo medialis scapulae",
+  "d": "Borde medial orientado hacia la columna; en él se fijan los romboides y el serrato anterior.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 17
+ },
+ {
+  "name": "Middle facet for calcaneus",
+  "tr": "Carilla articular calcánea media",
+  "la": "Facies articularis calcanea media",
+  "d": "Superficie media que se articula con el sustentáculo del astrágalo.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Nasal margin of frontal bone",
+  "tr": "Borde nasal del frontal",
+  "la": "Margo nasalis ossis frontalis",
+  "d": "Borde que se articula con los huesos nasales.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Nasal part of frontal bone",
+  "tr": "Porción nasal del frontal",
+  "la": "Pars nasalis ossis frontalis",
+  "d": "Parte del frontal que llega a la raíz de la nariz.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Navicular articular surface",
+  "tr": "Carilla articular navicular",
+  "la": "Facies articularis navicularis",
+  "d": "Superficie de la cabeza del astrágalo que se articula con el navicular.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Obturator groove",
+  "tr": "Surco obturador",
+  "la": "Sulcus obturatorius",
+  "d": "Surco de la cara inferior de la rama superior del pubis; forma el techo del conducto obturador.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Occipital border of parietal bone",
+  "tr": "Borde occipital del parietal",
+  "la": "Margo occipitalis ossis parietalis",
+  "d": "Borde que forma la sutura lambdoidea con el occipital.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Occipital margin of temporal bone",
+  "tr": "Borde occipital del temporal",
+  "la": "Margo occipitalis ossis temporalis",
+  "d": "Borde que se articula con el occipital.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Parietal margin of frontal bone",
+  "tr": "Borde parietal del frontal",
+  "la": "Margo parietalis ossis frontalis",
+  "d": "Borde que forma la sutura coronal con los parietales.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Parietal margin of greater wing",
+  "tr": "Borde parietal del ala mayor",
+  "la": "Margo parietalis alae majoris",
+  "d": "Extremo que se articula con el parietal; participa en el pterion.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Pecten pubis",
+  "tr": "Pecten del pubis",
+  "la": "Pecten ossis pubis",
+  "d": "Borde cortante de la rama superior del pubis; en él se fijan el pectíneo y el ligamento pectíneo.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Pelvic surface of sacrum",
+  "tr": "Cara pélvica del sacro",
+  "la": "Facies pelvica ossis sacri",
+  "d": "Cara anterior cóncava del sacro orientada a la pelvis; en ella nace el piriforme.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Petrous part of temporal bone",
+  "tr": "Porción petrosa del temporal (peñasco)",
+  "la": "Pars petrosa ossis temporalis",
+  "d": "Parte piramidal dura que aloja el oído interno y el medio.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Posterior articular facet of dens axis",
+  "tr": "Carilla articular posterior del diente",
+  "la": "Facies articularis posterior dentis axis",
+  "d": "Cara posterior del diente; se articula con el ligamento transverso del atlas.",
+  "entry": "axis",
+  "part": "Axis (C2)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior border of fibula",
+  "tr": "Borde posterior del peroné",
+  "la": "Margo posterior fibulae",
+  "d": "Borde posterior del peroné.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior border of radius",
+  "tr": "Borde posterior del radio",
+  "la": "Margo posterior radii",
+  "d": "Borde posterior del radio.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior border of ulna",
+  "tr": "Borde posterior del cúbito",
+  "la": "Margo posterior ulnae",
+  "d": "Borde posterior palpable bajo la piel.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior calcaneal articular facet",
+  "tr": "Carilla articular calcánea posterior",
+  "la": "Facies articularis calcanea posterior",
+  "d": "Gran superficie posterior que forma con el calcáneo la articulación subastragalina.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior process of talus",
+  "tr": "Apófisis posterior del astrágalo",
+  "la": "Processus posterior ossis tali",
+  "d": "Apófisis posterior; por el surco entre sus dos tubérculos pasa el tendón del FLDG.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Posterior surface of humerus",
+  "tr": "Cara posterior del húmero",
+  "la": "Facies posterior humeri",
+  "d": "Cara posterior del húmero; en ella están las cabezas del tríceps y el surco del nervio radial.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Posterior surface of radius",
+  "tr": "Cara posterior del radio",
+  "la": "Facies posterior radii",
+  "d": "Cara posterior del radio; en ella nacen el ALP y el ECP.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posterior surface of tibia",
+  "tr": "Cara posterior de la tibia",
+  "la": "Facies posterior tibiae",
+  "d": "Cara posterior de la tibia; en ella está la línea del sóleo.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Posterior surface of ulna",
+  "tr": "Cara posterior del cúbito",
+  "la": "Facies posterior ulnae",
+  "d": "Cara posterior del cúbito; en ella nacen los extensores profundos.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Posteromedial surface of fibula",
+  "tr": "Cara posteromedial del peroné",
+  "la": "Facies posteromedialis fibulae",
+  "d": "Cara posteromedial del peroné; en ella nace el tibial posterior.",
+  "entry": "fibula",
+  "part": "Fibula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Promontory",
+  "tr": "Promontorio",
+  "la": "Promontorium",
+  "d": "Borde anterosuperior del sacro; límite posterior del estrecho superior y referencia de las mediciones obstétricas.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 10
+ },
+ {
+  "name": "Pterygoid process",
+  "tr": "Apófisis pterigoides",
+  "la": "Processus pterygoideus",
+  "d": "Apófisis que desciende del esfenoides; está formada por dos láminas.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Pterygospinous process",
+  "tr": "Apófisis pterigoespinosa",
+  "la": "Processus pterygospinosus",
+  "d": "Apófisis del borde posterior de la lámina lateral; un ligamento la une a la espina del esfenoides.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Pubis",
+  "tr": "Pubis",
+  "la": "Os pubis",
+  "d": "Parte anteroinferior del hueso coxal.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Radial groove",
+  "tr": "Surco del nervio radial",
+  "la": "Sulcus nervi radialis",
+  "d": "Surco espiral de la cara posterior de la diáfisis humeral; por él discurren el nervio radial y la arteria braquial profunda.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 8
+ },
+ {
+  "name": "Radial styloid process",
+  "tr": "Apófisis estiloides del radio",
+  "la": "Processus styloideus radii",
+  "d": "Saliente del extremo inferolateral del radio; en ella se inserta el braquiorradial y desciende más que la estiloides cubital.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Radial tuberosity",
+  "tr": "Tuberosidad del radio",
+  "la": "Tuberositas radii",
+  "d": "Prominencia por debajo del cuello; en ella se inserta el tendón del bíceps braquial.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Ramus of ischium",
+  "tr": "Rama del isquion",
+  "la": "Ramus ossis ischii",
+  "d": "Rama del isquion que se dirige hacia delante.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Root of tooth",
+  "tr": "Raíz del diente",
+  "la": "Radix dentis",
+  "d": "Parte del diente incluida en el alvéolo; está cubierta de cemento.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Sacral tuberosity",
+  "tr": "Tuberosidad sacra",
+  "la": "Tuberositas ossis sacri",
+  "d": "Área rugosa por detrás de la superficie auricular; en ella se fijan los ligamentos sacroilíacos interóseos.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sacropelvic surface of ilium",
+  "tr": "Cara sacropélvica del ilion",
+  "la": "Facies sacropelvica ossis ilium",
+  "d": "Cara posterointerna del ilion orientada al sacro y la pelvis.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sagittal border of parietal bone",
+  "tr": "Borde sagital del parietal",
+  "la": "Margo sagittalis ossis parietalis",
+  "d": "Borde que forma la sutura sagital con el parietal opuesto.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sella turcica",
+  "tr": "Silla turca",
+  "la": "Sella turcica",
+  "d": "Estructura en forma de silla de montar en la cara superior del cuerpo; contiene la fosa hipofisaria.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 7
+ },
+ {
+  "name": "Septum of frontal sinuses",
+  "tr": "Tabique de los senos frontales",
+  "la": "Septum sinuum frontalium",
+  "d": "Fino tabique óseo que separa los dos senos frontales; suele desviarse de la línea media.",
+  "entry": "os-frontale",
+  "part": "Sinus of frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Septum of sphenoidal sinuses",
+  "tr": "Tabique de los senos esfenoidales",
+  "la": "Septum sinuum sphenoideorum",
+  "d": "Tabique que separa los dos senos esfenoidales; sirve de guía en la cirugía transesfenoidal.",
+  "entry": "os-sphenoidale",
+  "part": "Sinus of sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sphenoidal margin of frontal bone",
+  "tr": "Borde esfenoidal del frontal",
+  "la": "Margo sphenoideus ossis frontalis",
+  "d": "Borde que se articula con el esfenoides.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Spine of scapula",
+  "tr": "Espina de la escápula",
+  "la": "Spina scapulae",
+  "d": "Saliente óseo que divide en dos la cara posterior; en él se fijan el trapecio y el deltoides.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 9
+ },
+ {
+  "name": "Spine of sphenoid bone",
+  "tr": "Espina del esfenoides",
+  "la": "Spina ossis sphenoidei",
+  "d": "Espina en el extremo posterior del ala mayor; en ella se fija el ligamento esfenomandibular.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Spinoglenoid notch",
+  "tr": "Escotadura espinoglenoidea",
+  "la": "Incisura spinoglenoidea",
+  "d": "Escotadura entre la espina y la glena; por ella pasa el nervio supraescapular a la fosa infraespinosa.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Squamosal border of parietal bone",
+  "tr": "Borde escamoso del parietal",
+  "la": "Margo squamosus ossis parietalis",
+  "d": "Borde que se articula con la escama del temporal.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Squamosal margin of greater wing",
+  "tr": "Borde escamoso del ala mayor",
+  "la": "Margo squamosus alae majoris",
+  "d": "Borde que se articula con la escama del temporal.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Squamous part of frontal bone",
+  "tr": "Escama del frontal",
+  "la": "Squama frontalis",
+  "d": "Amplia porción escamosa que forma la frente.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Squamous part of occipital bone",
+  "tr": "Escama del occipital",
+  "la": "Squama occipitalis",
+  "d": "Amplia porción escamosa posterior del occipital.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Squamous part of temporal bone",
+  "tr": "Porción escamosa del temporal",
+  "la": "Pars squamosa ossis temporalis",
+  "d": "Porción escamosa delgada que forma la sien; su fractura puede producir un hematoma epidural.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sternal angle",
+  "tr": "Ángulo esternal (de Louis)",
+  "la": "Angulus sterni",
+  "d": "Ángulo en la unión del manubrio y el cuerpo; a la altura de la 2.ª costilla, sirve para contar las costillas.",
+  "entry": "sternum",
+  "part": "Body of sternum",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Sternal articular surface",
+  "tr": "Carilla articular esternal",
+  "la": "Facies articularis sternalis",
+  "d": "Carilla del extremo medial; forma con el esternón y el disco la articulación esternoclavicular.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sternal end",
+  "tr": "Extremo esternal",
+  "la": "Extremitas sternalis",
+  "d": "Extremo medial grueso de la clavícula; forma la única articulación que une el miembro superior al tronco.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Styloid process of temporal bone",
+  "tr": "Apófisis estiloides del temporal",
+  "la": "Processus styloideus ossis temporalis",
+  "d": "Fina apófisis que desciende bajo la oreja; en ella se fijan tres músculos «estilo-» y dos ligamentos.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Styloid process of third metacarpal bone",
+  "tr": "Apófisis estiloides del 3.er metacarpiano",
+  "la": "Processus styloideus ossis tertii metacarpi",
+  "d": "Pequeña apófisis de la base del 3.er metacarpiano; cerca de ella se inserta el tendón del ERCC.",
+  "entry": "ossa-metacarpi",
+  "part": "Third metacarpal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sublime tubercle",
+  "tr": "Tubérculo sublime",
+  "la": "Tuberculum sublime",
+  "d": "Prominencia de la cara medial de la apófisis coronoides; en ella se fija la banda anterior del ligamento colateral cubital.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Sublingual fossa",
+  "tr": "Fosa sublingual",
+  "la": "Fovea sublingualis",
+  "d": "Fosa de la cara interna por encima de la línea milohioidea; en ella se aloja la glándula sublingual.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Subscapular fossa",
+  "tr": "Fosa subescapular",
+  "la": "Fossa subscapularis",
+  "d": "Cara anterior orientada a la pared torácica; en ella nace el subescapular.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Sulcus of auditory tube",
+  "tr": "Surco de la trompa auditiva",
+  "la": "Sulcus tubae auditivae",
+  "d": "Surco en el que se aloja la porción cartilaginosa de la trompa auditiva.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Superior angle of scapula",
+  "tr": "Ángulo superior de la escápula",
+  "la": "Angulus superior scapulae",
+  "d": "Ángulo superomedial de la escápula; en él se fija el elevador de la escápula.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Superior articular process of sacrum",
+  "tr": "Apófisis articular superior del sacro",
+  "la": "Processus articularis superior ossis sacri",
+  "d": "Apófisis que forma una articulación facetaria con L5.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Superior articular surface of atlas",
+  "tr": "Superficie articular superior del atlas",
+  "la": "Facies articularis superior atlantis",
+  "d": "Concavidad de la cara superior de la masa lateral; con los cóndilos occipitales forma la articulación del movimiento de «sí».",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Superior articular surface of lateral condyle",
+  "tr": "Superficie articular superior del cóndilo lateral",
+  "la": "Facies articularis superior condyli lateralis",
+  "d": "Superficie del cóndilo lateral que se articula con el fémur.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Superior articular surfaces of tibia",
+  "tr": "Superficies articulares superiores de la tibia",
+  "la": "Facies articulares superiores tibiae",
+  "d": "Superficies de la meseta tibial que se articulan con los cóndilos femorales.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Superior border of scapula",
+  "tr": "Borde superior de la escápula",
+  "la": "Margo superior scapulae",
+  "d": "Borde superior corto de la escápula; en él nace el vientre inferior del omohioideo.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Superior costal facet",
+  "tr": "Fosita costal superior",
+  "la": "Fovea costalis superior",
+  "d": "Hemicarilla del borde superior del cuerpo; se articula con la cabeza de la costilla del mismo número.",
+  "entry": "vertebrae-thoracicae",
+  "part": "Vertebra T8",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Superior facet of talus",
+  "tr": "Carilla superior de la tróclea del astrágalo",
+  "la": "Facies superior ossis tali",
+  "d": "Superficie articular superior de la tróclea orientada a la tibia.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Superior mental spine",
+  "tr": "Espina mentoniana superior",
+  "la": "Spina mentalis superior",
+  "d": "Espina superior de la cara interna; en ella se fija el geniogloso.",
+  "entry": "mandibula",
+  "part": "Mandible",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Superior nuchal line",
+  "tr": "Línea nucal superior",
+  "la": "Linea nuchalis superior",
+  "d": "Línea nucal superior; en ella se fijan el trapecio, el ECM y el esplenio de la cabeza.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Superior pubic ramus",
+  "tr": "Rama superior del pubis",
+  "la": "Ramus superior ossis pubis",
+  "d": "Rama superior del pubis; por delante pasan los vasos femorales hacia el muslo.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Superior temporal line",
+  "tr": "Línea temporal superior",
+  "la": "Linea temporalis superior",
+  "d": "Línea superior en la que se fija la fascia temporal.",
+  "entry": "os-parietale",
+  "part": "Parietal bone",
+  "shared": true,
+  "rank": 1
+ },
+ {
+  "name": "Supinator crest",
+  "tr": "Cresta del supinador",
+  "la": "Crista supinatoria",
+  "d": "Cresta por debajo de la escotadura radial; en ella nace el supinador.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Supra-acetabular groove",
+  "tr": "Surco supraacetabular",
+  "la": "Sulcus supraacetabularis",
+  "d": "Surco del borde superior del acetábulo; en él se fija la cabeza refleja del recto femoral.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Supraglenoid tubercle",
+  "tr": "Tubérculo supraglenoideo",
+  "la": "Tuberculum supraglenoideum",
+  "d": "Prominencia por encima de la glena; en ella nace la cabeza larga del bíceps.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Supraspinous fossa",
+  "tr": "Fosa supraespinosa",
+  "la": "Fossa supraspinata",
+  "d": "Fosa por encima de la espina; en ella nace el supraespinoso.",
+  "entry": "scapula",
+  "part": "Scapula",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Suprastyloid crest",
+  "tr": "Cresta supraestiloidea",
+  "la": "Crista suprastyloidea",
+  "d": "Cresta por encima de la apófisis estiloides.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Supreme nuchal line",
+  "tr": "Línea nucal suprema",
+  "la": "Linea nuchalis suprema",
+  "d": "Línea nucal más alta; en ella se fija la galea aponeurótica.",
+  "entry": "os-occipitale",
+  "part": "Occipital bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Surgical neck of humerus",
+  "tr": "Cuello quirúrgico del húmero",
+  "la": "Collum chirurgicum humeri",
+  "d": "Estrechamiento por debajo de los tubérculos; se fractura a menudo y puede lesionarse el nervio axilar.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Sustentaculum tali",
+  "tr": "Sustentáculo del astrágalo",
+  "la": "Sustentaculum tali",
+  "d": "Repisa que sale de la cara medial del calcáneo; sostiene la cabeza del astrágalo y por debajo pasa el tendón del FLDG.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Symphysial surface of pubis",
+  "tr": "Cara sinfisaria del pubis",
+  "la": "Facies symphysialis ossis pubis",
+  "d": "Superficie articular medial del pubis; forma la sínfisis con el lado opuesto.",
+  "entry": "os-coxae",
+  "part": "Hip bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Talar sulcus",
+  "tr": "Surco del astrágalo",
+  "la": "Sulcus ossis tali",
+  "d": "Surco de la cara inferior del astrágalo; con el del calcáneo forma el seno del tarso.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Tarsal sinus",
+  "tr": "Seno del tarso",
+  "la": "Sinus tarsi",
+  "d": "Conducto abierto lateralmente entre el astrágalo y el calcáneo; contiene el ligamento astragalocalcáneo interóseo.",
+  "entry": "calcaneus",
+  "part": "Calcaneus",
+  "shared": false,
+  "rank": 5
+ },
+ {
+  "name": "Tegmen tympani",
+  "tr": "Tegmen tympani",
+  "la": "Tegmen tympani",
+  "d": "Hueso delgado que forma el techo del oído medio; las infecciones del oído medio pueden extenderse por él al interior del cráneo.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Temporal line",
+  "tr": "Línea temporal del frontal",
+  "la": "Linea temporalis",
+  "d": "Línea de la cara externa del frontal en la que se fija la fascia temporal.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": true,
+  "rank": 1
+ },
+ {
+  "name": "Temporal surface of frontal bone",
+  "tr": "Cara temporal del frontal",
+  "la": "Facies temporalis ossis frontalis",
+  "d": "Cara que forma la pared anterior de la fosa temporal; en ella nace el temporal.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Temporal surface of greater wing",
+  "tr": "Cara temporal del ala mayor",
+  "la": "Facies temporalis alae majoris",
+  "d": "Cara orientada a la fosa temporal; en ella nace el temporal.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Tibial plateau",
+  "tr": "Meseta tibial",
+  "la": "Planum tibiae",
+  "d": "Cara superior plana de la tibia; sus fracturas afectan a la articulación de la rodilla.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Tibial tuberosity",
+  "tr": "Tuberosidad tibial",
+  "la": "Tuberositas tibiae",
+  "d": "Prominencia de la cara anterior de la tibia; en ella se inserta el ligamento rotuliano y aquí se produce la enfermedad de Osgood-Schlatter.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 14
+ },
+ {
+  "name": "Transverse costal facet",
+  "tr": "Fosita costal transversa",
+  "la": "Fovea costalis processus transversi",
+  "d": "Carilla de la apófisis transversa que se articula con el tubérculo costal.",
+  "entry": "vertebrae-thoracicae",
+  "part": "Vertebra T8",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Transverse ligament tubercle",
+  "tr": "Tubérculo del ligamento transverso",
+  "la": "Tuberculum ligamenti transversi",
+  "d": "Prominencia de la cara interna de la masa lateral; en ella se fija el ligamento transverso del atlas, que sujeta el diente.",
+  "entry": "atlas",
+  "part": "Atlas (C1)",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Transverse ridges",
+  "tr": "Líneas transversas del sacro",
+  "la": "Lineae transversae",
+  "d": "Líneas transversales de la cara pélvica; marcan los límites de los cuerpos vertebrales fusionados.",
+  "entry": "os-sacrum",
+  "part": "Sacrum",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Trapezoid line",
+  "tr": "Línea trapezoidea",
+  "la": "Linea trapezoidea",
+  "d": "Línea de la cara inferior del extremo lateral; en ella se fija la porción trapezoide del ligamento coracoclavicular.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Trochanteric fossa",
+  "tr": "Fosa trocantérea",
+  "la": "Fossa trochanterica",
+  "d": "Fosa de la cara medial del trocánter mayor; en ella se inserta el obturador externo.",
+  "entry": "femur",
+  "part": "Femur",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Trochlea of humerus",
+  "tr": "Tróclea del húmero",
+  "la": "Trochlea humeri",
+  "d": "Superficie articular en polea del extremo inferomedial del húmero; forma con el cúbito la articulación en bisagra.",
+  "entry": "humerus",
+  "part": "Humerus",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Trochlea of phalanx of foot",
+  "tr": "Tróclea de la falange del pie",
+  "la": "Trochlea phalangis pedis",
+  "d": "Cabeza distal en polea de una falange del pie; forma una articulación en bisagra con la siguiente.",
+  "entry": "phalanges-pedis",
+  "part": "Proximal phalanx of third finger of foot",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Trochlea of phalanx of hand",
+  "tr": "Tróclea de la falange de la mano",
+  "la": "Trochlea phalangis manus",
+  "d": "Cabeza en polea de una falange de la mano; forma la articulación interfalángica en bisagra.",
+  "entry": "phalanges-manus",
+  "part": "Proximal phalanx of third finger of hand",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Trochlea of talus",
+  "tr": "Tróclea del astrágalo",
+  "la": "Trochlea ossis tali",
+  "d": "Polea que encaja en la mortaja entre tibia y peroné; al ser más ancha por delante, la articulación es estable en flexión dorsal.",
+  "entry": "talus",
+  "part": "Talus",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Trochlear fovea",
+  "tr": "Fóvea troclear",
+  "la": "Fovea trochlearis",
+  "d": "Fosita en el ángulo superomedial de la órbita; en ella se fija la tróclea del oblicuo superior.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Trochlear notch",
+  "tr": "Escotadura troclear",
+  "la": "Incisura trochlearis",
+  "d": "Gran escotadura que abraza la tróclea del húmero.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Tubercle of iliotibial tract",
+  "tr": "Tubérculo del tracto iliotibial (de Gerdy)",
+  "la": "Tuberculum tractus iliotibialis",
+  "d": "Prominencia del cóndilo lateral (tubérculo de Gerdy); en ella se inserta la cintilla iliotibial.",
+  "entry": "tibia",
+  "part": "Tibia",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Tubercle of rib",
+  "tr": "Tubérculo de la costilla",
+  "la": "Tuberculum costae",
+  "d": "Prominencia por detrás de la unión del cuello y el cuerpo; se articula con la apófisis transversa.",
+  "entry": "costae",
+  "part": "Sixth rib",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Tubercle of scaphoid bone",
+  "tr": "Tubérculo del escafoides",
+  "la": "Tuberculum ossis scaphoidei",
+  "d": "Prominencia palmar del escafoides; en ella se fija el retináculo flexor y se palpa en la cara anterior de la muñeca.",
+  "entry": "os-scaphoideum",
+  "part": "Scaphoid bone",
+  "shared": false,
+  "rank": 3
+ },
+ {
+  "name": "Tubercle of trapezium bone",
+  "tr": "Tubérculo del trapecio",
+  "la": "Tuberculum ossis trapezii",
+  "d": "Prominencia palmar del trapecio; por el surco vecino pasa el tendón del FRC.",
+  "entry": "os-trapezium",
+  "part": "Trapezium bone",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Tuberculum sellae",
+  "tr": "Tubérculo de la silla",
+  "la": "Tuberculum sellae",
+  "d": "Relieve por delante de la fosa hipofisaria.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 2
+ },
+ {
+  "name": "Tuberosity for coracoclavicular ligament",
+  "tr": "Tuberosidad del ligamento coracoclavicular",
+  "la": "Tuberositas ligamenti coracoclavicularis",
+  "d": "Cara inferolateral de la clavícula; en ella se fijan las dos partes del ligamento coracoclavicular.",
+  "entry": "clavicula",
+  "part": "Clavicle",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Tuberosity of cuboid bone",
+  "tr": "Tuberosidad del cuboides",
+  "la": "Tuberositas ossis cuboidei",
+  "d": "Relieve de la cara plantar del cuboides; por el surco que tiene delante pasa el tendón del peroneo largo.",
+  "entry": "os-cuboideum",
+  "part": "Cuboid bone",
+  "shared": false,
+  "rank": 1
+ },
+ {
+  "name": "Tuberosity of distal phalanx of foot",
+  "tr": "Tuberosidad de la falange distal del pie",
+  "la": "Tuberositas phalangis distalis pedis",
+  "d": "Ensanchamiento rugoso en la punta de la falange distal de un dedo del pie; sostiene las partes blandas del pulpejo.",
+  "entry": "phalanges-pedis",
+  "part": "Distal phalanx of third finger of foot",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Tuberosity of distal phalanx of hand",
+  "tr": "Tuberosidad de la falange distal de la mano",
+  "la": "Tuberositas phalangis distalis manus",
+  "d": "Ensanchamiento en la punta de la falange distal de un dedo; sostiene el pulpejo y el lecho ungueal.",
+  "entry": "phalanges-manus",
+  "part": "Distal phalanx of third finger of hand",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Tuberosity of navicular bone",
+  "tr": "Tuberosidad del navicular",
+  "la": "Tuberositas ossis navicularis",
+  "d": "Saliente de la cara medial del navicular; inserción principal del tibial posterior.",
+  "entry": "os-naviculare",
+  "part": "Navicular bone",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Tuberosity of ulna",
+  "tr": "Tuberosidad del cúbito",
+  "la": "Tuberositas ulnae",
+  "d": "Área rugosa por debajo de la apófisis coronoides; en ella se inserta el braquial.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Tympanic part of temporal bone",
+  "tr": "Porción timpánica del temporal",
+  "la": "Pars tympanica ossis temporalis",
+  "d": "Parte que forma la pared ósea del conducto auditivo externo.",
+  "entry": "os-temporale",
+  "part": "Temporal bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Ulnar notch",
+  "tr": "Escotadura cubital del radio",
+  "la": "Incisura ulnaris",
+  "d": "Escotadura del extremo inferior del radio; forma con la cabeza del cúbito la radiocubital distal.",
+  "entry": "radius",
+  "part": "Radius",
+  "shared": false,
+  "rank": 6
+ },
+ {
+  "name": "Ulnar styloid process",
+  "tr": "Apófisis estiloides del cúbito",
+  "la": "Processus styloideus ulnae",
+  "d": "Saliente en el extremo posteromedial de la cabeza del cúbito; en él se fija el disco articular.",
+  "entry": "ulna",
+  "part": "Ulna",
+  "shared": false,
+  "rank": 4
+ },
+ {
+  "name": "Uncinate process of vertebra",
+  "tr": "Apófisis unciforme",
+  "la": "Processus uncinatus vertebrae",
+  "d": "Saliente del borde superolateral de un cuerpo vertebral cervical; forma la articulación uncovertebral (de Luschka) y sus osteofitos pueden comprimir raíces nerviosas.",
+  "entry": "vertebrae-cervicales",
+  "part": "Vertebra C4",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Vaginal process of sphenoid bone",
+  "tr": "Apófisis vaginal del esfenoides",
+  "la": "Processus vaginalis ossis sphenoidei",
+  "d": "Fina apófisis de la cara inferior del cuerpo; se articula con el vómer.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Vestibular surface of tooth",
+  "tr": "Cara vestibular del diente",
+  "la": "Facies vestibularis dentis",
+  "d": "Cara del diente orientada hacia la mejilla o el labio.",
+  "entry": "dentes",
+  "part": "Lower first molar tooth",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Zygomatic margin of greater wing",
+  "tr": "Borde cigomático del ala mayor",
+  "la": "Margo zygomaticus alae majoris",
+  "d": "Borde que se articula con el cigomático.",
+  "entry": "os-sphenoidale",
+  "part": "Sphenoid bone",
+  "shared": false,
+  "rank": 0
+ },
+ {
+  "name": "Zygomatic process of frontal bone",
+  "tr": "Apófisis cigomática del frontal",
+  "la": "Processus zygomaticus ossis frontalis",
+  "d": "Apófisis lateral que se articula con el cigomático; forma el reborde superolateral de la órbita.",
+  "entry": "os-frontale",
+  "part": "Frontal bone",
+  "shared": false,
+  "rank": 0
+ }
+]

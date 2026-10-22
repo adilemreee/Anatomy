@@ -1,0 +1,227 @@
+{
+ "iskelet-genel": {
+  "tr": "Gliederung des Skeletts",
+  "summary": "Das Skelett des Erwachsenen besteht aus etwa 206 Knochen und gliedert sich in zwei Hauptteile: das Achsenskelett, das die Körperachse bildet (Schädel, Wirbelsäule, Brustkorb), und das Extremitätenskelett, das Arme und Beine trägt (Gürtel und Knochen der freien Gliedmaßen).",
+  "facts": [
+   "Beim Erwachsenen etwa 206 Knochen; beim Neugeborenen etwa 270–300, wenn man die noch nicht verschmolzenen Teile zählt",
+   "80 Knochen: Schädel und Gehörknöchelchen (29, einschließlich Zungenbein), Wirbelsäule (26), Brustkorb (25: Brustbein und 24 Rippen)",
+   "126 Knochen: Schultergürtel (4), obere Extremitäten (60), Beckengürtel (2), untere Extremitäten (60)",
+   "Lange (Femur, Humerus), kurze (Handwurzelknochen), platte (Sternum, Schädeldach), unregelmäßige (Wirbel), lufthaltige (Maxilla, Siebbein) und Sesambeine (Patella)",
+   "Stütze und Form, Schutz der Organe, Hebel für die Bewegung, Blutbildung (rotes Knochenmark), Speicher für Calcium und Phosphat"
+  ],
+  "sections": [
+   [
+    "Gürtel",
+    "Der Schultergürtel besteht aus Schlüsselbein und Schulterblatt; er ist nur über das Sternoklavikulargelenk mit dem Rumpf verbunden und erlaubt einen großen Bewegungsumfang. Der Beckengürtel besteht aus den beiden Hüftbeinen; fest mit dem Kreuzbein hinten und miteinander vorn verbunden, übertragen sie das Körpergewicht auf die Beine."
+   ]
+  ],
+  "clinical": [
+   "Beim Erwachsenen werden Knochenmarkbiopsie und -aspiration meist am hinteren Beckenkamm (um die Spina iliaca posterior superior) entnommen.",
+   "Das Knochenalter wird anhand der Ossifikationszentren auf einer Röntgenaufnahme der linken Hand bestimmt."
+  ],
+  "tus": [
+   "Das Achsenskelett hat 80, das Extremitätenskelett 126 Knochen.",
+   "Rotes Knochenmark findet sich beim Erwachsenen vor allem in den platten Knochen (Sternum, Rippen, Hüftbein, Wirbel) und in den proximalen Enden der Röhrenknochen."
+  ],
+  "aliases": [
+   "Skelett",
+   "Knochen"
+  ]
+ },
+ "os-structura": {
+  "tr": "Bau und Entwicklung des Knochens",
+  "summary": "Knochen ist ein hartes Bindegewebe aus Calciumphosphatkristallen und Kollagen. Außen liegt dichter kompakter, innen spongiöser Knochen; die Oberfläche ist von Periost bedeckt. Knochen entstehen durch desmale oder chondrale Ossifikation.",
+  "facts": [
+   "Kompakta (Kortikalis) – aus Osteonen (Havers-Systemen); Spongiosa (Trabekelknochen) – zwischen den Trabekeln liegt das Knochenmark",
+   "Osteoblast (baut Knochen auf), Osteozyt (reife, eingemauerte Knochenzelle), Osteoklast (baut Knochen ab; mehrkernige Zelle monozytären Ursprungs)",
+   "Epiphyse (Ende), Metaphyse (Übergangszone, in der das Wachstum stattfindet), Diaphyse (Schaft mit Markhöhle), Epiphysenfuge (Wachstumsknorpel)",
+   "Desmal: Schädeldach, Gesichtsknochen, größter Teil der Klavikula. Chondral: Schädelbasis, Wirbel, die meisten Extremitätenknochen",
+   "Die Diaphyse wird von der A. nutricia (Eintritt am Foramen nutricium), die Enden von metaphysären und epiphysären Arterien, die äußere Kortikalis von Periostarterien versorgt"
+  ],
+  "sections": [
+   [
+    "Periost und Endost",
+    "Das Periost ist eine nerven- und gefäßreiche Haut auf der Außenfläche des Knochens; die Zellen seiner inneren Schicht ermöglichen Dickenwachstum und Frakturheilung. Gelenkflächen haben kein Periost, sie sind mit hyalinem Knorpel überzogen. Das Endost kleidet die Markhöhle aus."
+   ],
+   [
+    "Wachstum",
+    "Röhrenknochen wachsen in die Länge, indem sich die Knorpelzellen der Epiphysenfuge vermehren und verknöchern; die Fuge schließt sich am Ende der Pubertät (es bleibt die Epiphysenlinie). Das Dickenwachstum erfolgt durch Anlagerung neuen Knochens vom Periost aus."
+   ]
+  ],
+  "clinical": [
+   "Bei Kindern können Frakturen mit Beteiligung der Epiphysenfuge (Salter–Harris) das Wachstum stören und eine Beinlängendifferenz verursachen.",
+   "Bei Osteoporose sind Knochenmasse und Trabekelstruktur vermindert; Frakturen betreffen vor allem Wirbelkörper, Schenkelhals und distalen Radius.",
+   "Die Frakturheilung verläuft über Hämatom → weichen Kallus (Faserknorpel) → harten Kallus (Geflechtknochen) → Umbau (Lamellenknochen)."
+  ],
+  "tus": [
+   "Die Klavikula beginnt als erster Knochen des Körpers zu verknöchern (5.–6. Woche) und verknöchert überwiegend desmal.",
+   "Volkmann-Kanäle verlaufen quer und verbinden die Havers-Kanäle untereinander und mit dem Periost."
+  ],
+  "aliases": [
+   "Knochengewebe",
+   "Osteon",
+   "Periost",
+   "Ossifikation"
+  ]
+ },
+ "ossa-sesamoidea": {
+  "tr": "Sesambeine",
+  "summary": "Kleine Knochen, die sich in einer Sehne entwickeln; sie lassen die Sehne über einen Knochenvorsprung gleiten, verringern die Reibung und vergrößern den Hebelarm des Muskels. Das größte ist die Patella.",
+  "facts": [
+   "Patella (Sehne des M. quadriceps femoris), Os pisiforme (Sehne des M. flexor carpi ulnaris), Sesambeine unter den Grundgelenken von Daumen und Großzehe",
+   "Schützt die Sehne, ändert ihre Richtung und verlängert den Hebelarm, wodurch die Muskelkraft steigt",
+   "Die Fabella (im lateralen Gastrocnemiuskopf) und das Os peroneum (in der Sehne des M. fibularis longus) kommen bei manchen Menschen vor"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Entzündung der Großzehen-Sesambeine (Sesamoiditis) verursacht bei Tänzern und Läufern Vorfußschmerzen.",
+   "Fabella und Os peroneum können im Röntgenbild mit Frakturfragmenten verwechselt werden."
+  ],
+  "tus": [
+   "Die Patella ist das größte Sesambein des Körpers; auch das Os pisiforme gilt als Sesambein in der Sehne des M. flexor carpi ulnaris."
+  ],
+  "aliases": [
+   "Sesambein"
+  ]
+ },
+ "cranium": {
+  "tr": "Schädel (als Ganzes)",
+  "summary": "Knöcherne Struktur aus dem Hirnschädel (Neurocranium), der das Gehirn schützt, und dem Gesichtsschädel (Viscerocranium); bis auf den Unterkiefer sind die Knochen fest durch Nähte verbunden. Mit Zungenbein und Gehörknöchelchen umfasst er 29 Knochen.",
+  "facts": [
+   "8 Knochen: Stirnbein, zwei Scheitelbeine, Hinterhauptsbein, zwei Schläfenbeine, Keilbein, Siebbein",
+   "14 Knochen: zwei Oberkiefer, zwei Jochbeine, zwei Nasenbeine, zwei Tränenbeine, zwei Gaumenbeine, zwei untere Nasenmuscheln, Pflugscharbein, Unterkiefer",
+   "Schädeldach (Calvaria) und Schädelbasis (Basis cranii)",
+   "Das einzige echte Gelenk des Schädels ist das Kiefergelenk; die übrigen Knochen sind durch Nähte verbunden",
+   "Bregma (Treffpunkt von Sagittal- und Kranznaht), Lambda (Sagittal- und Lambdanaht), Pterion (Stirn-, Scheitel-, Schläfen-, Keilbein), Asterion (Scheitel-, Hinterhaupts-, Schläfenbein), Nasion, Inion"
+  ],
+  "sections": [
+   [
+    "Ansichten",
+    "Von vorn (Norma frontalis) sieht man die Augenhöhlen, die Apertura piriformis und die Kiefer. Von der Seite (Norma lateralis) Fossa temporalis, Jochbogen und Pterion; von unten (Norma basalis) Foramen magnum, Kondylen und die Öffnungen der Schädelbasis. In der Schädelhöhle liegen vordere, mittlere und hintere Schädelgrube stufenförmig hintereinander."
+   ]
+  ],
+  "clinical": [
+   "Das Pterion ist die dünnste Stelle des Schädels; da darunter der vordere Ast der A. meningea media verläuft, können Frakturen hier ein epidurales Hämatom verursachen.",
+   "Ein vorzeitiger Verschluss der Schädelnähte (Kraniosynostose) führt zu einer abnormen Kopfform."
+  ],
+  "tus": [
+   "Der Hirnschädel hat 8, der Gesichtsschädel 14 Knochen (ohne Zungenbein und Gehörknöchelchen).",
+   "Pterion, Asterion und Bregma sind wichtige Oberflächenpunkte für operative Zugänge; das Pterion liegt etwa 4 cm über der Mitte des Jochbogens."
+  ],
+  "aliases": [
+   "Schädel",
+   "Kopf",
+   "Cranium"
+  ]
+ },
+ "suturae-fonticuli": {
+  "tr": "Schädelnähte und Fontanellen",
+  "summary": "Die Schädelknochen sind durch faserige Gelenke, die Nähte, verbunden. Beim Neugeborenen liegen an den Treffpunkten der Nähte noch nicht verknöcherte, häutige Bereiche – die Fontanellen; sie ermöglichen die Verformung des Kopfes bei der Geburt und das Wachstum des Gehirns.",
+  "facts": [
+   "Kranznaht (Stirn–Scheitelbein), Pfeilnaht (zwischen den Scheitelbeinen), Lambdanaht (Scheitel–Hinterhauptsbein), Schuppennaht (Scheitel–Schläfenbein), Stirnnaht (zwischen den Stirnbeinhälften)",
+   "Rautenförmig, die größte; zwischen Stirn- und Scheitelbeinen; schließt sich mit 18–24 Monaten",
+   "Dreieckig; zwischen Scheitel- und Hinterhauptsbein; schließt sich mit 2–3 Monaten",
+   "Keilbeinfontanelle (vorn seitlich, am Pterion) und Warzenfontanelle (hinten seitlich, am Asterion); schließen sich im ersten Lebensjahr",
+   "Synarthrose – faserige Verbindung (Suturen); kann im Alter verknöchern (Synostose)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine eingesunkene große Fontanelle spricht für Austrocknung, eine gespannte, vorgewölbte für erhöhten Hirndruck (Meningitis, Hydrozephalus).",
+   "Vorzeitiger Verschluss der Pfeilnaht ergibt einen langen, schmalen Kopf (Skaphozephalie), einseitiger Verschluss der Kranznaht einen asymmetrischen Kopf (Plagiozephalie).",
+   "Ein verspäteter Verschluss der großen Fontanelle kommt bei Rachitis, Hypothyreose und Hydrozephalus vor."
+  ],
+  "tus": [
+   "Die große Fontanelle schließt sich mit 18–24 Monaten, die kleine mit 2–3 Monaten; beim Neugeborenen ist der Sinus sagittalis superior über die große Fontanelle erreichbar.",
+   "Die häufigste Kraniosynostose ist die Sagittalnahtsynostose (Skaphozephalie)."
+  ],
+  "aliases": [
+   "Naht",
+   "Fontanelle"
+  ]
+ },
+ "basis-cranii": {
+  "tr": "Schädelbasis und ihre Öffnungen",
+  "summary": "Der Boden der Schädelhöhle gliedert sich von vorn nach hinten in drei stufenförmige Gruben: vordere, mittlere und hintere Schädelgrube. Durch ihre Löcher und Kanäle ziehen die Hirnnerven und die Gefäße von und zum Gehirn.",
+  "facts": [
+   "Pars orbitalis des Stirnbeins, Lamina cribrosa (Siebbein) und kleine Keilbeinflügel; trägt die Frontallappen. Öffnungen: Löcher der Lamina cribrosa (Fila olfactoria), Foramen caecum",
+   "Keilbeinkörper und große Keilbeinflügel, Schuppe und Felsenbein des Schläfenbeins; trägt die Temporallappen und die Hypophyse (Sella turcica). Öffnungen: Canalis opticus (II, A. ophthalmica), Fissura orbitalis superior (III, IV, V1, VI, V. ophthalmica superior), Foramen rotundum (V2), Foramen ovale (V3, N. petrosus minor), Foramen spinosum (A. meningea media), Foramen lacerum (knorpelig verschlossen; darüber zieht die ACI)",
+   "Hinterhauptsbein und Hinterfläche der Felsenbeinpyramide; trägt Kleinhirn, Brücke und Medulla oblongata. Öffnungen: Meatus acusticus internus (VII, VIII, A. labyrinthi), Foramen jugulare (IX, X, XI, V. jugularis interna, Sinus petrosus inferior), Canalis nervi hypoglossi (XII), Foramen magnum (Medulla oblongata, Aa. vertebrales, spinale Wurzeln des XI)",
+   "Canalis caroticus (A. carotis interna, sympathischer Plexus), Foramen stylomastoideum (VII), Canalis condylaris (Emissarvene), Foramina palatina, Fossa incisiva"
+  ],
+  "sections": [
+   [
+    "Klinische Bedeutung",
+    "Schädelbasisfrakturen betreffen am häufigsten die mittlere Schädelgrube. Eine vordere Schädelbasisfraktur kann Brillenhämatom, Liquorrhinorrhö und Riechverlust verursachen; eine Fraktur der mittleren Basis (Felsenbein) ein Hämatom hinter dem Ohr (Battle-Zeichen), Hämatotympanon, Liquorotorrhö und Fazialisparese."
+   ]
+  ],
+  "clinical": [
+   "Ein Tumor oder eine Fraktur am Foramen jugulare schädigt die Hirnnerven IX, X und XI gemeinsam (Vernet-Syndrom): Schluckstörung, Heiserkeit, Schwäche von Trapezius und SCM.",
+   "Bei erhöhtem Hirndruck kann die Einklemmung der Kleinhirntonsillen im Foramen magnum zum Atemstillstand führen."
+  ],
+  "tus": [
+   "Durch die Fissura orbitalis superior ziehen III, IV, V1 und VI; durch den Canalis opticus II und die A. ophthalmica.",
+   "Das Foramen rotundum führt V2, das Foramen ovale V3 und das Foramen spinosum die A. meningea media (von vorn nach hinten: „Rotundum–Ovale–Spinosum“).",
+   "Durch das Foramen jugulare ziehen IX, X, XI und die V. jugularis interna; durch den Canalis nervi hypoglossi XII."
+  ],
+  "aliases": [
+   "Schädelbasis",
+   "Foramen",
+   "Schädelgrube"
+  ]
+ },
+ "orbita": {
+  "tr": "Augenhöhle (Orbita)",
+  "summary": "Knöcherne Höhle in Form einer vierseitigen Pyramide mit der Basis vorn und der Spitze hinten, die Augapfel, Augenmuskeln, Nerven und Gefäße enthält. Sieben Knochen sind an ihrem Aufbau beteiligt.",
+  "facts": [
+   "Stirnbein, Jochbein, Oberkiefer, Keilbein, Siebbein, Tränenbein, Gaumenbein",
+   "Dach: Pars orbitalis des Stirnbeins und kleiner Keilbeinflügel; Boden: Oberkiefer, Jochbein, Gaumenbein; mediale Wand: Lamina orbitalis des Siebbeins, Tränenbein, Oberkiefer, Keilbein; laterale Wand: Jochbein und großer Keilbeinflügel (dickste Wand)",
+   "Canalis opticus (II, A. ophthalmica), Fissura orbitalis superior (III, IV, V1, VI, V. ophthalmica superior), Fissura orbitalis inferior (N. infraorbitalis, V. ophthalmica inferior), Canalis nasolacrimalis, Foramina ethmoidalia",
+   "Augapfel, äußere Augenmuskeln, N. opticus, Tränendrüse, Orbitafett, A. ophthalmica und ihre Äste"
+  ],
+  "sections": [
+   [
+    "Schwächste Wände",
+    "Die Lamina orbitalis (papyracea) der medialen Wand ist die dünnste Wand; Siebbeinentzündungen können durch sie in die Orbita übergreifen. Auch der Boden ist dünn, darunter liegt die Kieferhöhle; ein stumpfes Trauma auf das Auge kann ihn brechen (Blow-out-Fraktur)."
+   ]
+  ],
+  "clinical": [
+   "Bei der Blow-out-Fraktur bricht der Orbitaboden; der M. rectus inferior kann im Frakturspalt eingeklemmt werden (Doppelbilder beim Blick nach oben), eine Schädigung des N. infraorbitalis verursacht Taubheit von Wange und Oberlippe.",
+   "Die Orbitaphlegmone entsteht meist aus einer Siebbeinentzündung; unbehandelt kann sie zur Sinus-cavernosus-Thrombose fortschreiten."
+  ],
+  "tus": [
+   "Die dünnste Orbitawand ist die mediale (Lamina papyracea), die dickste die laterale; Blow-out-Frakturen betreffen meist den Boden.",
+   "Der Anulus tendineus communis (Zinn-Ring) ist Ursprung der vier geraden Augenmuskeln; II, III, VI und der N. nasociliaris ziehen hindurch, IV, N. frontalis und N. lacrimalis außerhalb."
+  ],
+  "aliases": [
+   "Orbita",
+   "Augenhöhle"
+  ]
+ },
+ "fossa-pterygopalatina": {
+  "tr": "Flügelgaumengrube",
+  "summary": "Kleiner, umgekehrt pyramidenförmiger Raum hinter dem Oberkiefer und vor dem Processus pterygoideus des Keilbeins. Er enthält den N. maxillaris, den letzten Abschnitt der A. maxillaris und das Ganglion pterygopalatinum und ist ein wichtiger Knotenpunkt zwischen Nase, Gaumen, Orbita und Schädelhöhle.",
+  "facts": [
+   "Vorn der Oberkiefer (Tuber maxillae), hinten Processus pterygoideus und großer Keilbeinflügel, medial die Lamina perpendicularis des Gaumenbeins, lateral die Fissura pterygomaxillaris zur Fossa infratemporalis",
+   "N. maxillaris (V2), Ganglion pterygopalatinum, 3. (pterygopalatinaler) Abschnitt der A. maxillaris und ihre Äste",
+   "Foramen rotundum (mittlere Schädelgrube), Canalis pterygoideus (Bereich des Foramen lacerum), Fissura orbitalis inferior (Orbita), Foramen sphenopalatinum (Nasenhöhle), Canalis palatinus major (Gaumen), Fissura pterygomaxillaris (Fossa infratemporalis)"
+  ],
+  "sections": [
+   [
+    "Ganglion pterygopalatinum",
+    "Ein parasympathisches Ganglion; seine präganglionären Fasern kommen vom N. facialis über den N. petrosus major (N. canalis pterygoidei). Die postganglionären Fasern ziehen zur Tränendrüse und zu den Schleimdrüsen von Nase, Gaumen und Rachen; es wird daher manchmal „Heuschnupfenganglion“ genannt."
+   ]
+  ],
+  "clinical": [
+   "Die A. sphenopalatina ist die Quelle des hinteren Nasenblutens; bei nicht stillbarer Blutung kann sie in der Flügelgaumengrube oder am Foramen sphenopalatinum ligiert werden.",
+   "Das juvenile Nasenrachenfibrom breitet sich bevorzugt in diese Grube aus."
+  ],
+  "tus": [
+   "N. petrosus major (VII, parasympathisch) und N. petrosus profundus (sympathisch) vereinigen sich zum N. canalis pterygoidei (Vidianus), der zum Ganglion pterygopalatinum zieht.",
+   "Parasympathischer Weg der Tränendrüse: N. facialis → N. petrosus major → Ganglion pterygopalatinum → N. zygomaticus → N. lacrimalis."
+  ],
+  "aliases": [
+   "Fossa pterygopalatina",
+   "sphenopalatin"
+  ]
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "m-psoas-major": {
+  "tr": "Músculo psoas mayor",
+  "summary": "Músculo largo y fusiforme que nace junto a las vértebras lumbares y pasa bajo el ligamento inguinal hacia el muslo; con el ilíaco forma el iliopsoas.",
+  "facts": [
+   "Cuerpos de T12–L4 y discos intermedios, apófisis transversas de L1–L5",
+   "Trocánter menor (tendón común con el ilíaco)",
+   "Ramos anteriores de los nervios espinales L1–L3",
+   "Arterias lumbares, arteria iliolumbar",
+   "El flexor más potente de la cadera; con el muslo fijo flexiona el tronco e inclina lateralmente la columna lumbar"
+  ],
+  "sections": [],
+  "clinical": [
+   "El absceso del psoas (p. ej. tuberculosis vertebral) desciende por la vaina del músculo hasta la ingle y produce una tumefacción en la cara anterosuperior del muslo.",
+   "Signo del psoas en la apendicitis: la extensión pasiva de la cadera derecha es dolorosa."
+  ],
+  "tus": [
+   "El plexo lumbar se forma dentro del músculo; el nervio femoral sale por su borde lateral, el obturador por el medial y el genitofemoral por su cara anterior."
+  ],
+  "aliases": [
+   "psoas",
+   "iliopsoas"
+  ]
+ },
+ "m-iliacus": {
+  "tr": "Músculo ilíaco",
+  "summary": "Músculo en abanico que ocupa la fosa ilíaca; su tendón se une al del psoas mayor.",
+  "facts": [
+   "2/3 superiores de la fosa ilíaca, labio interno de la cresta ilíaca, ala del sacro y alrededor de la EIAI",
+   "Trocánter menor (con el tendón del psoas mayor)",
+   "Nervio femoral (L2–L3)",
+   "Rama ilíaca de la arteria iliolumbar, arteria circunfleja ilíaca profunda",
+   "Flexiona la cadera; inclina la pelvis hacia delante"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "iliopsoas"
+  ]
+ },
+ "m-piriformis": {
+  "tr": "Músculo piriforme",
+  "summary": "Músculo que atraviesa el agujero isquiático mayor hacia la región glútea; la referencia clave de esta región.",
+  "facts": [
+   "Cara anterior del sacro (a la altura de S2–S4) y borde de la escotadura isquiática mayor",
+   "Borde superior del trocánter mayor",
+   "Nervio del piriforme (S1–S2)",
+   "Arterias glúteas superior e inferior",
+   "Rota la cadera hacia fuera; abduce la cadera flexionada; mantiene la cabeza femoral en el acetábulo"
+  ],
+  "sections": [],
+  "clinical": [
+   "En el síndrome del piriforme el nervio ciático se comprime bajo el músculo, con dolor glúteo y ciática."
+  ],
+  "tus": [
+   "Divide el agujero isquiático mayor en suprapiriforme (arteria, vena y nervio glúteos superiores) e infrapiriforme (nervio ciático, vasos y nervio glúteos inferiores, nervio pudendo, arteria pudenda interna, nervio cutáneo femoral posterior)."
+  ],
+  "aliases": [
+   "piramidal de la pelvis",
+   "pelvitrocantéreo"
+  ]
+ },
+ "m-obturator-internus": {
+  "tr": "Músculo obturador interno",
+  "summary": "Músculo que nace en la pared lateral interna de la pelvis y cuyo tendón sale por el agujero isquiático menor hacia el trocánter.",
+  "facts": [
+   "Cara interna de la membrana obturatriz y hueso que rodea el agujero obturador",
+   "Cara medial del trocánter mayor (por encima de la fosa trocantérea)",
+   "Nervio del obturador interno (L5–S2)",
+   "Arteria pudenda interna, arteria obturatriz",
+   "Rota la cadera hacia fuera; abduce la cadera flexionada"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Al salir por el agujero isquiático menor su tendón se refleja como en una polea sobre la escotadura isquiática menor; su fascia forma la pared del conducto pudendo (de Alcock)."
+  ],
+  "aliases": [
+   "pelvitrocantéreo"
+  ]
+ },
+ "m-gemellus-superior": {
+  "tr": "Músculo gemelo superior",
+  "summary": "Pequeño músculo que acompaña el borde superior del tendón del obturador interno.",
+  "facts": [
+   "Espina isquiática",
+   "Cara medial del trocánter mayor, junto con el tendón del obturador interno",
+   "Nervio del obturador interno (L5–S2)",
+   "Arteria glútea inferior",
+   "Rota la cadera hacia fuera"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [],
+  "aliases": [
+   "gemelos pélvicos"
+  ]
+ },
+ "m-gemellus-inferior": {
+  "tr": "Músculo gemelo inferior",
+  "summary": "Pequeño músculo que acompaña el borde inferior del tendón del obturador interno.",
+  "facts": [
+   "Parte superior de la tuberosidad isquiática",
+   "Cara medial del trocánter mayor, junto con el tendón del obturador interno",
+   "Nervio del cuadrado femoral (L4–S1)",
+   "Arteria glútea inferior, arteria circunfleja femoral medial",
+   "Rota la cadera hacia fuera"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Los gemelos tienen nervios distintos: el superior lo inerva el nervio del obturador interno y el inferior el del cuadrado femoral."
+  ],
+  "aliases": [
+   "gemelos pélvicos"
+  ]
+ },
+ "m-quadratus-femoris": {
+  "tr": "Músculo cuadrado femoral",
+  "summary": "Músculo cuadrilátero que va horizontalmente entre la tuberosidad isquiática y el fémur.",
+  "facts": [
+   "Borde lateral de la tuberosidad isquiática",
+   "Tubérculo cuadrado de la cresta intertrocantérea",
+   "Nervio del cuadrado femoral (L4–S1)",
+   "Arteria circunfleja femoral medial",
+   "Potente rotador lateral de la cadera"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "La arteria circunfleja femoral medial discurre profunda a este músculo; como principal irrigación de la cabeza femoral debe protegerse en los abordajes posteriores."
+  ],
+  "aliases": [
+   "cuadrado crural",
+   "pelvitrocantéreo"
+  ]
+ },
+ "m-obturator-externus": {
+  "tr": "Músculo obturador externo",
+  "summary": "Músculo que nace de la cara externa de la membrana obturatriz y pasa bajo el cuello femoral hasta la fosa trocantérea.",
+  "facts": [
+   "Cara externa de la membrana obturatriz y hueso que rodea el agujero obturador",
+   "Fosa trocantérea",
+   "Rama posterior del nervio obturador (L3–L4)",
+   "Arteria obturatriz, arteria circunfleja femoral medial",
+   "Rota la cadera hacia fuera; estabiliza la cabeza femoral"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Es el único rotador lateral corto inervado por el nervio obturador; anatómicamente se incluye entre los aductores."
+  ],
+  "aliases": [
+   "pelvitrocantéreo"
+  ]
+ },
+ "m-rectus-femoris": {
+  "tr": "Músculo recto femoral",
+  "summary": "La cabeza superficial central del cuádriceps; la única que cruza la cadera y la rodilla.",
+  "facts": [
+   "Cabeza directa: espina ilíaca anteroinferior (EIAI); cabeza refleja: borde superior del acetábulo (surco supraacetabular)",
+   "Tuberosidad tibial mediante la rótula y el ligamento rotuliano",
+   "Nervio femoral (L2–L4)",
+   "Arteria circunfleja femoral lateral",
+   "Extiende la rodilla y flexiona la cadera"
+  ],
+  "sections": [],
+  "clinical": [
+   "En deportistas adolescentes puede producir una fractura por avulsión de la EIAI; al contraerse a la vez en flexión de cadera y extensión de rodilla es propenso a las distensiones."
+  ],
+  "tus": [],
+  "aliases": [
+   "recto anterior",
+   "cuádriceps"
+  ]
+ },
+ "m-vastus-lateralis": {
+  "tr": "Músculo vasto lateral",
+  "summary": "La cabeza más grande del cuádriceps, que cubre la cara lateral del muslo.",
+  "facts": [
+   "Parte superior de la línea intertrocantérea, trocánter mayor, tuberosidad glútea y labio lateral de la línea áspera",
+   "Borde lateral de la rótula mediante el tendón del cuádriceps, y tuberosidad tibial mediante el ligamento rotuliano",
+   "Nervio femoral (L2–L4)",
+   "Arteria circunfleja femoral lateral (rama descendente)",
+   "Extiende la rodilla"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Es el lugar preferido para la inyección intramuscular en niños (cara lateral del tercio medio del muslo)."
+  ],
+  "aliases": [
+   "vasto externo",
+   "cuádriceps"
+  ]
+ },
+ "m-vastus-medialis": {
+  "tr": "Músculo vasto medial",
+  "summary": "Cabeza del cuádriceps en forma de gota, prominente en la cara inferomedial del muslo; sus fibras oblicuas inferiores (VMO) tiran de la rótula hacia dentro.",
+  "facts": [
+   "Parte inferior de la línea intertrocantérea, labio medial de la línea áspera y tabique intermuscular medial",
+   "Borde medial de la rótula y tendón del cuádriceps; tuberosidad tibial mediante el ligamento rotuliano",
+   "Nervio femoral (L2–L4)",
+   "Arteria femoral, arteria femoral profunda",
+   "Extiende la rodilla; sus fibras oblicuas impiden que la rótula se desplace hacia fuera"
+  ],
+  "sections": [],
+  "clinical": [
+   "La debilidad del VMO predispone al dolor femororrotuliano y a la luxación lateral de la rótula; es el primero en atrofiarse tras una cirugía de rodilla."
+  ],
+  "tus": [],
+  "aliases": [
+   "vasto interno",
+   "VMO",
+   "cuádriceps"
+  ]
+ },
+ "m-vastus-intermedius": {
+  "tr": "Músculo vasto intermedio",
+  "summary": "La cabeza profunda del cuádriceps bajo el recto femoral, adherida a las caras anterior y lateral de la diáfisis femoral.",
+  "facts": [
+   "2/3 superiores de las caras anterior y lateral de la diáfisis femoral",
+   "Capa profunda del tendón del cuádriceps; rótula y tuberosidad tibial",
+   "Nervio femoral (L2–L4)",
+   "Arteria circunfleja femoral lateral, arteria femoral profunda",
+   "Extiende la rodilla"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "El músculo articular de la rodilla, situado debajo, tira de la bolsa suprarrotuliana hacia arriba en la extensión e impide que quede pinzada."
+  ],
+  "aliases": [
+   "crural",
+   "cuádriceps"
+  ]
+ },
+ "m-adductor-longus": {
+  "tr": "Músculo aductor largo",
+  "summary": "El músculo plano más anterior y superficial del grupo aductor; forma el borde medial del triángulo femoral.",
+  "facts": [
+   "Cuerpo del pubis (debajo de la cresta del pubis)",
+   "1/3 medio de la línea áspera (labio medial)",
+   "Rama anterior del nervio obturador (L2–L4)",
+   "Arteria femoral profunda, arteria obturatriz",
+   "Aduce la cadera; ayuda a la flexión y la rotación interna"
+  ],
+  "sections": [],
+  "clinical": [
+   "Es el aductor que más se lesiona en la distensión inguinal; frecuente en futbolistas."
+  ],
+  "tus": [
+   "Triángulo femoral: ligamento inguinal (arriba), sartorio (lateral), aductor largo (borde medial)."
+  ],
+  "aliases": [
+   "aductor medio",
+   "aductores"
+  ]
+ },
+ "m-adductor-brevis": {
+  "tr": "Músculo aductor corto",
+  "summary": "Músculo corto y triangular profundo al aductor largo; las ramas del nervio obturador pasan por delante y por detrás de él.",
+  "facts": [
+   "Cuerpo y rama inferior del pubis",
+   "Línea pectínea y parte superior de la línea áspera",
+   "Nervio obturador (L2–L4)",
+   "Arteria femoral profunda, arteria obturatriz",
+   "Aduce la cadera; ayuda a la flexión"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "La rama anterior del nervio obturador pasa por delante del músculo y la posterior por detrás."
+  ],
+  "aliases": [
+   "aductor menor",
+   "aductores"
+  ]
+ },
+ "m-adductor-magnus": {
+  "tr": "Músculo aductor mayor",
+  "summary": "El mayor de los aductores, con una porción aductora y otra isquiotibial (isquiocondílea) inervadas por dos nervios distintos.",
+  "facts": [
+   "Porción aductora: rama inferior del pubis y rama del isquion; porción isquiotibial: tuberosidad isquiática",
+   "Porción aductora: tuberosidad glútea y línea áspera; porción isquiotibial: tubérculo del aductor (fémur)",
+   "Porción aductora: nervio obturador (L2–L4); porción isquiotibial: porción tibial del nervio ciático (L4)",
+   "Arteria femoral profunda (arterias perforantes), arteria obturatriz",
+   "Aduce la cadera; la porción aductora flexiona y la isquiotibial extiende"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Por el hiato aductor, entre sus dos inserciones, la arteria y la vena femorales pasan a la fosa poplítea y se convierten en arteria y vena poplíteas."
+  ],
+  "aliases": [
+   "aductores"
+  ]
+ },
+ "m-semitendinosus": {
+  "tr": "Músculo semitendinoso",
+  "summary": "Músculo isquiotibial de la cara posteromedial del muslo cuya mitad inferior se convierte en un largo tendón.",
+  "facts": [
+   "Tuberosidad isquiática (tendón común con la cabeza larga del bíceps femoral)",
+   "Cara superomedial de la tibia (pata de ganso)",
+   "Porción tibial del nervio ciático (L5–S2)",
+   "Arterias perforantes de la femoral profunda, arteria circunfleja femoral medial",
+   "Flexiona la rodilla y extiende la cadera; con la rodilla flexionada rota la pierna hacia dentro"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "La pata de ganso la forman el sartorio, el grácil y el semitendinoso; su tendón se usa como injerto en la reconstrucción del ligamento cruzado anterior."
+  ],
+  "aliases": [
+   "isquiotibiales",
+   "pata de ganso"
+  ]
+ }
+}

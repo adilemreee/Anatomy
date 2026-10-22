@@ -26,7 +26,7 @@ struct PartDetailView: View {
                         header(info: info, layer: layer)
                         if let entry {
                             NavigationLink(value: entry) {
-                                ContentCard(title: "Bağlı olduğu yapı", systemImage: "arrow.turn.up.right", tint: layer?.tint ?? .accentColor) {
+                                ContentCard(title: String(localized: "Bağlı olduğu yapı"), systemImage: "arrow.turn.up.right", tint: layer?.tint ?? .accentColor) {
                                     HStack {
                                         VStack(alignment: .leading, spacing: 2) {
                                             Text(entry.tr).font(.title3.weight(.semibold))
@@ -101,7 +101,7 @@ struct PartDetailView: View {
                 .padding(.top, 6)
             }
             if let kind = info.kind {
-                Text(kind == "origin" ? "Kasın başlangıç (origo) alanı" : "Kasın yapışma (insersiyo) alanı")
+                Text(kind == "origin" ? String(localized: "Kasın başlangıç (origo) alanı") : String(localized: "Kasın yapışma (insersiyo) alanı"))
                     .font(.subheadline.weight(.medium))
                     .foregroundStyle(kind == "origin" ? .red : .blue)
             }
@@ -110,7 +110,7 @@ struct PartDetailView: View {
     }
 
     private func partCard(info: PartInfo, layer: ModelLayer?) -> some View {
-        ContentCard(title: "3D model", systemImage: "cube", tint: layer?.tint ?? .accentColor) {
+        ContentCard(title: String(localized: "3D model"), systemImage: "cube", tint: layer?.tint ?? .accentColor) {
             VStack(alignment: .leading, spacing: 10) {
                 if let side = info.sideTitle {
                     LabeledContent("Taraf", value: side)

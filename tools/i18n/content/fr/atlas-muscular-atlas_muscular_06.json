@@ -1,0 +1,318 @@
+{
+ "m-tibialis-anterior": {
+  "tr": "Muscle tibial antérieur",
+  "summary": "Muscle de la loge antérieure de la jambe situé le long du tibia. Il relève le pied et le tourne en dedans.",
+  "facts": [
+   "Condyle latéral et 2/3 supérieurs de la face latérale du tibia, membrane interosseuse",
+   "Faces médiale et inférieure du cunéiforme médial et base du 1er métatarsien",
+   "Nerf fibulaire profond (L4–L5)",
+   "Artère tibiale antérieure",
+   "Flexion dorsale (relever le pied) et inversion du pied ; soutient l'arche médiale"
+  ],
+  "sections": [],
+  "clinical": [
+   "En cas de lésion du nerf fibulaire, le pied tombe et le patient lève haut le genou pour ne pas traîner le pied (steppage).",
+   "Dans le syndrome de loge antérieure, la douleur de la face antérieure de jambe est intense et la flexion dorsale faible."
+  ],
+  "tus": [
+   "La paralysie du tibial antérieur donne un pied tombant ; la pointe accroche le sol et le patient lève haut le genou (steppage)."
+  ],
+  "aliases": [
+   "jambier antérieur"
+  ]
+ },
+ "m-extensor-digitorum-longus": {
+  "tr": "Muscle long extenseur des orteils",
+  "summary": "Muscle de la loge antérieure de la jambe, en dehors du tibial antérieur, qui relève les orteils 2 à 5. Le troisième fibulaire se détache de sa partie basse pour gagner le 5e métatarsien.",
+  "facts": [
+   "Condyle latéral du tibia, 3/4 supérieurs de la face antérieure de la fibula, membrane interosseuse",
+   "Phalanges moyennes et distales des orteils 2 à 5 (aponévrose dorsale) ; troisième fibulaire : base du 5e métatarsien",
+   "Nerf fibulaire profond (L5–S1)",
+   "Artère tibiale antérieure",
+   "Étend les orteils 2 à 5 et fléchit dorsalement le pied ; le troisième fibulaire aide l'éversion"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le long extenseur des orteils et le troisième fibulaire appartiennent à la loge antérieure ; le troisième fibulaire assure flexion dorsale et éversion du pied."
+  ],
+  "aliases": [
+   "troisième fibulaire",
+   "extenseur commun des orteils"
+  ]
+ },
+ "m-extensor-hallucis-longus": {
+  "tr": "Muscle long extenseur de l'hallux",
+  "summary": "Muscle profond situé entre le tibial antérieur et le long extenseur des orteils, qui relève le gros orteil.",
+  "facts": [
+   "Partie moyenne de la face antérieure de la fibula et membrane interosseuse",
+   "Base de la phalange distale de l'hallux",
+   "Nerf fibulaire profond (L5)",
+   "Artère tibiale antérieure",
+   "Étend l'hallux et fléchit dorsalement le pied"
+  ],
+  "sections": [],
+  "clinical": [
+   "La force d'extension du gros orteil sert à évaluer la racine L5."
+  ],
+  "tus": [
+   "La force du long extenseur de l'hallux est le meilleur test moteur de la racine L5."
+  ],
+  "aliases": [
+   "extenseur propre du gros orteil",
+   "LEH"
+  ]
+ },
+ "m-fibularis-longus": {
+  "tr": "Muscle long fibulaire",
+  "summary": "Muscle superficiel de la loge latérale de la jambe. Son tendon passe derrière la malléole latérale et sous le cuboïde pour croiser la plante du pied.",
+  "facts": [
+   "Tête de la fibula et 2/3 supérieurs de la face latérale de la fibula",
+   "Face inférieure du cunéiforme médial et de la base du 1er métatarsien",
+   "Nerf fibulaire superficiel (L5–S1)",
+   "Artère fibulaire, artère tibiale antérieure",
+   "Éversion et flexion plantaire du pied ; soutient l'arche transversale"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les muscles fibulaires et leurs tendons sont sollicités dans les entorses de cheville en inversion."
+  ],
+  "tus": [
+   "Le long fibulaire et le tibial antérieur forment ensemble un « étrier » qui soutient l'arche transversale du pied."
+  ],
+  "aliases": [
+   "long péronier",
+   "long péronier latéral"
+  ]
+ },
+ "m-fibularis-brevis": {
+  "tr": "Muscle court fibulaire",
+  "summary": "Muscle situé sous le long fibulaire, dont le tendon passe derrière la malléole latérale jusqu'au 5e métatarsien.",
+  "facts": [
+   "2/3 inférieurs de la face latérale de la fibula",
+   "Tubérosité de la base du 5e métatarsien",
+   "Nerf fibulaire superficiel (L5–S1)",
+   "Artère fibulaire",
+   "Éversion et flexion plantaire du pied"
+  ],
+  "sections": [],
+  "clinical": [
+   "Lors d'une inversion de cheville, son tendon peut arracher un fragment osseux de la base du 5e métatarsien (fracture-avulsion)."
+  ],
+  "tus": [
+   "Le tendon du court fibulaire passe derrière la malléole latérale en avant (au contact de l'os) du tendon du long."
+  ],
+  "aliases": [
+   "court péronier",
+   "court péronier latéral"
+  ]
+ },
+ "m-triceps-surae": {
+  "tr": "Muscle triceps sural",
+  "summary": "Complexe musculaire puissant qui forme le galbe du mollet, composé du gastrocnémien à deux chefs et du soléaire sous-jacent. Leur tendon commun est le tendon calcanéen (d'Achille), le plus épais du corps.",
+  "facts": [
+   "Gastrocnémien : chef médial en arrière du condyle fémoral médial, chef latéral sur le condyle fémoral latéral ; soléaire : tête de la fibula, face postérieure de la fibula et ligne du muscle soléaire du tibia",
+   "Tubérosité calcanéenne par le tendon calcanéen (d'Achille)",
+   "Nerf tibial (S1–S2)",
+   "Artères surales (artère poplitée), artère tibiale postérieure, artère fibulaire",
+   "Flexion plantaire du pied (se mettre sur la pointe des pieds, propulsion à la marche) ; le gastrocnémien aide la flexion du genou ; le soléaire empêche le corps de tomber en avant en station debout"
+  ],
+  "sections": [
+   [
+    "Pompe musculaire",
+    "Les larges sinus veineux du soléaire sont comprimés lors de la contraction et chassent le sang vers le cœur (« cœur périphérique »). L'immobilité supprime cette pompe et augmente le risque de thrombose veineuse profonde."
+   ]
+  ],
+  "clinical": [
+   "Le réflexe achilléen explore le segment S1.",
+   "En cas de rupture du tendon d'Achille, le test de Thompson est positif (la pression du mollet ne mobilise pas le pied).",
+   "Le « coup de fouet » : déchirure brutale du chef médial du gastrocnémien."
+  ],
+  "tus": [
+   "Le gastrocnémien croisant aussi le genou, la force de flexion plantaire diminue genou fléchi ; le soléaire est alors prédominant.",
+   "La ligne du muscle soléaire, à la face postérieure du tibia, est l'origine du soléaire."
+  ],
+  "aliases": [
+   "gastrocnémien",
+   "soléaire",
+   "Achille",
+   "mollet",
+   "jumeaux"
+  ]
+ },
+ "m-plantaris": {
+  "tr": "Muscle plantaire",
+  "summary": "Petit muscle au ventre court et au tendon parmi les plus longs du corps ; il est absent chez environ 10 % des personnes.",
+  "facts": [
+   "Ligne supracondylaire latérale au-dessus du condyle fémoral latéral",
+   "Bord médial du tendon calcanéen ou tubérosité calcanéenne",
+   "Nerf tibial (S1–S2)",
+   "Branches surales de l'artère poplitée",
+   "Aide faible du gastrocnémien pour la flexion plantaire et la flexion du genou"
+  ],
+  "sections": [],
+  "clinical": [
+   "Son tendon peut servir de greffon en chirurgie reconstructrice."
+  ],
+  "tus": [
+   "La rupture du plantaire peut donner une douleur brutale du mollet appelée « coup de fouet »."
+  ],
+  "aliases": [
+   "plantaire grêle"
+  ]
+ },
+ "m-popliteus": {
+  "tr": "Muscle poplité",
+  "summary": "Muscle mince et triangulaire situé en arrière du genou, au fond de la fosse poplitée. On l'appelle la « clé » qui déverrouille le genou.",
+  "facts": [
+   "Face latérale du condyle fémoral latéral et ménisque latéral",
+   "Partie haute de la face postérieure du tibia (au-dessus de la ligne du soléaire)",
+   "Nerf tibial (L4–S1)",
+   "Artères inférieures médiale et latérale du genou",
+   "Déverrouille le genou en extension complète (rotation latérale du fémur sur le tibia) ; aide la flexion du genou"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le tendon du poplité passe entre le ménisque latéral et le ligament collatéral ; il envoie des fibres à la corne postérieure du ménisque."
+  ],
+  "aliases": []
+ },
+ "m-tibialis-posterior": {
+  "tr": "Muscle tibial postérieur",
+  "summary": "Le muscle le plus profond de la loge postérieure de la jambe. Son tendon passe derrière la malléole médiale vers la plante et constitue le principal soutien de l'arche médiale du pied.",
+  "facts": [
+   "Membrane interosseuse et faces postérieures voisines du tibia et de la fibula",
+   "Tubérosité du naviculaire, cunéiformes, cuboïde et bases des métatarsiens 2 à 4",
+   "Nerf tibial (L4–L5)",
+   "Artère tibiale postérieure, artère fibulaire",
+   "Inversion et flexion plantaire du pied ; soutient l'arche médiale"
+  ],
+  "sections": [
+   [
+    "Canal tarsien",
+    "Derrière la malléole médiale passent, d'avant en arrière : le tendon du tibial postérieur, le tendon du long fléchisseur des orteils, l'artère et la veine tibiales postérieures, le nerf tibial et le tendon du long fléchisseur de l'hallux."
+   ]
+  ],
+  "clinical": [
+   "La dysfonction du tendon du tibial postérieur est la cause la plus fréquente de pied plat acquis de l'adulte."
+  ],
+  "tus": [
+   "La dysfonction du tibial postérieur est la cause la plus fréquente de pied plat acquis de l'adulte (signe du « trop d'orteils »)."
+  ],
+  "aliases": [
+   "jambier postérieur"
+  ]
+ },
+ "m-flexor-digitorum-longus": {
+  "tr": "Muscle long fléchisseur des orteils",
+  "summary": "Muscle de la couche profonde de la loge postérieure de la jambe, en arrière du tibia, qui fléchit les orteils 2 à 5.",
+  "facts": [
+   "Partie moyenne de la face postérieure du tibia",
+   "Phalanges distales des orteils 2 à 5",
+   "Nerf tibial (S2–S3)",
+   "Artère tibiale postérieure",
+   "Fléchit les orteils 2 à 5 ; aide la flexion plantaire et l'inversion ; soutient les arches plantaires"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "À la plante, le tendon du long fléchisseur des orteils reçoit le carré plantaire et donne naissance aux lombricaux."
+  ],
+  "aliases": [
+   "fléchisseur commun des orteils",
+   "LFO"
+  ]
+ },
+ "m-flexor-hallucis-longus": {
+  "tr": "Muscle long fléchisseur de l'hallux",
+  "summary": "Muscle puissant de la couche profonde de la loge postérieure de la jambe, en arrière de la fibula, qui fléchit le gros orteil.",
+  "facts": [
+   "2/3 inférieurs de la face postérieure de la fibula et membrane interosseuse",
+   "Base de la phalange distale de l'hallux",
+   "Nerf tibial (S2–S3)",
+   "Artère fibulaire",
+   "Fléchit l'hallux (dernière impulsion de la marche) ; aide la flexion plantaire ; soutient l'arche médiale"
+  ],
+  "sections": [],
+  "clinical": [
+   "Chez les danseurs classiques, son tendon peut être comprimé en arrière du talus (tendinite du danseur)."
+  ],
+  "tus": [
+   "Le tendon du long fléchisseur de l'hallux glisse dans les gouttières du processus postérieur du talus et sous le sustentaculum tali ; une ténosynovite s'observe chez les danseuses."
+  ],
+  "aliases": [
+   "fléchisseur propre du gros orteil",
+   "LFH"
+  ]
+ },
+ "mm-dorsi-pedis": {
+  "tr": "Muscles du dos du pied",
+  "summary": "Seul groupe musculaire du dos du pied ; ils aident les longs extenseurs à étendre les orteils.",
+  "facts": [
+   "Face supéro-latérale du calcanéus",
+   "CEO : tendons des longs extenseurs des orteils 2 à 4 ; CEH : phalange proximale de l'hallux",
+   "Nerf fibulaire profond (L5–S1)",
+   "Artère dorsale du pied, artère tarsienne latérale",
+   "Étendent les orteils"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le ventre musculaire, qui forme un léger relief sur le dos du pied, peut s'atrophier dans une radiculopathie L5–S1."
+  ],
+  "tus": [
+   "Le court extenseur des orteils est la masse molle palpable sur le dos du pied, en avant de la malléole latérale."
+  ],
+  "aliases": [
+   "pédieux",
+   "court extenseur des orteils"
+  ]
+ },
+ "mm-plantares": {
+  "tr": "Muscles plantaires du pied",
+  "summary": "Muscles de la plante disposés en quatre couches : 1re couche abducteur de l'hallux, court fléchisseur des orteils, abducteur du petit orteil ; 2e couche carré plantaire et lombricaux ; 3e couche court fléchisseur de l'hallux, adducteur de l'hallux, court fléchisseur du petit orteil ; 4e couche interosseux.",
+  "facts": [
+   "Calcanéus, aponévrose plantaire, os du tarse et métatarsiens",
+   "Phalanges des orteils et tendons des longs fléchisseurs",
+   "Nerf plantaire médial (abducteur de l'hallux, court fléchisseur des orteils, court fléchisseur de l'hallux, 1er lombrical) et nerf plantaire latéral (les autres) – branches du nerf tibial (S1–S3)",
+   "Artères plantaires médiale et latérale, arcade plantaire",
+   "Fléchissent, écartent et rapprochent les orteils ; soutiennent activement les arches et assurent l'équilibre à la marche"
+  ],
+  "sections": [],
+  "clinical": [
+   "La faiblesse des muscles plantaires et la tension de l'aponévrose plantaire favorisent la fasciite plantaire."
+  ],
+  "tus": [
+   "Les muscles plantaires s'étudient en quatre couches ; l'aponévrose plantaire est la plus superficielle.",
+   "La fasciite plantaire donne typiquement une talalgie maximale aux premiers pas du matin."
+  ],
+  "aliases": [
+   "abducteur de l'hallux",
+   "court fléchisseur des orteils",
+   "carré plantaire",
+   "adducteur de l'hallux"
+  ]
+ },
+ "m-pterygoideus-lateralis": {
+  "tr": "Muscle ptérygoïdien latéral",
+  "summary": "Muscle masticateur à deux chefs, horizontal dans la fosse infratemporale ; le seul masticateur qui ouvre la bouche.",
+  "facts": [
+   "Chef supérieur : face et crête infratemporales de la grande aile du sphénoïde ; chef inférieur : face externe de la lame latérale du processus ptérygoïde",
+   "Fossette ptérygoïdienne (col de la mandibule), disque et capsule de l'articulation temporo-mandibulaire",
+   "Nerf du ptérygoïdien latéral (nerf mandibulaire, V3)",
+   "Rameaux ptérygoïdiens de l'artère maxillaire",
+   "Bilatéral : propulse la mandibule et amorce l'ouverture buccale ; unilatéral : déplace la mâchoire du côté opposé (diduction)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans une lésion unilatérale du V3, la mâchoire dévie du côté paralysé à l'ouverture (le muscle sain pousse son condyle en avant)."
+  ],
+  "tus": [
+   "C'est le seul masticateur abaisseur ; les trois autres (masséter, temporal, ptérygoïdien médial) ferment la bouche.",
+   "Comme il s'insère sur le disque articulaire, il intervient dans la luxation antérieure du disque de l'ATM."
+  ],
+  "aliases": [
+   "ptérygoïdien externe"
+  ]
+ }
+}

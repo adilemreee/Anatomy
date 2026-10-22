@@ -19,8 +19,8 @@ for p in glob.glob(os.path.join(models, "mesh-*.json")):
 systems = {s["id"] for s in json.load(open(os.path.join(content, "atlas-systems.json"), encoding="utf-8"))}
 entries = {}
 for p in sorted(glob.glob(os.path.join(content, "atlas-*.json"))):
-    if p.endswith("atlas-systems.json"):
-        continue
+    if p.endswith("atlas-systems.json") or os.path.basename(p).count(".") > 1:
+        continue  # the systems list and translations
     data = json.load(open(p, encoding="utf-8"))
     assert data["system"] in systems, p
     for e in data["entries"]:

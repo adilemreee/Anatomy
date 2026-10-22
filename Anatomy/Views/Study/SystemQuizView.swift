@@ -23,13 +23,13 @@ struct SystemQuizView: View {
                 Button {
                     start(group: nil)
                 } label: {
-                    Label(locked ? "Premium ile aç" : "Tüm konulardan \(count) soru", systemImage: locked ? "lock.open.fill" : "play.fill")
+                    Label(locked ? String(localized: "Premium ile aç") : String(localized: "Tüm konulardan \(count) soru"), systemImage: locked ? "lock.open.fill" : "play.fill")
                 }
                 .buttonStyle(locked ? PrimaryButtonStyle(gradient: Theme.goldGradient, foreground: Color(hex: "2A1D05"))
                                     : PrimaryButtonStyle())
 
                 VStack(alignment: .leading, spacing: 12) {
-                    SectionHeader(title: "Konular", subtitle: "Bir konuya dokunarak o konunun testini başlat")
+                    SectionHeader(title: String(localized: "Konular"), subtitle: String(localized: "Bir konuya dokunarak o konunun testini başlat"))
                     VStack(spacing: 0) {
                         let groups = system.groups
                         ForEach(Array(groups.enumerated()), id: \.element) { i, group in
@@ -45,9 +45,9 @@ struct SystemQuizView: View {
                 }
 
                 VStack(alignment: .leading, spacing: 12) {
-                    SectionHeader(title: "Atlastan sorular", subtitle: "Maddelerden otomatik üretilen sorular")
+                    SectionHeader(title: String(localized: "Atlastan sorular"), subtitle: String(localized: "Maddelerden otomatik üretilen sorular"))
                     LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
-                        ForEach([QuizSource.terms, .facts, .model, .weak], id: \.self) { source in
+                        ForEach(atlasSources, id: \.self) { source in
                             Button {
                                 app.startQuiz(QuizConfig(title: "\(system.tr) · \(source.title)", source: source,
                                                          systems: [system.id], count: 10))
@@ -79,6 +79,15 @@ struct SystemQuizView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 
+    /// Question modes made from the atlas, with the system's own one first.
+    private var atlasSources: [QuizSource] {
+        switch system.id {
+        case "skeletal": [.landmarks, .terms, .facts, .model, .weak, .clinical]
+        case "muscular": [.innervation, .terms, .facts, .model, .weak, .clinical]
+        default: [.terms, .facts, .model, .weak]
+        }
+    }
+
     private func header(questions: [BankQuestion]) -> some View {
         let solved = questions.filter { app.study.questionScore($0.id).seen > 0 }
         let right = solved.filter { let s = app.study.questionScore($0.id); return s.correct > 0 && s.correct == s.seen }.count
@@ -97,10 +106,10 @@ struct SystemQuizView: View {
                 }
             }
             HStack(spacing: 10) {
-                metric("\(questions.count)", "soru")
-                metric("\(clinical)", "klinik vaka")
-                metric("\(tus)", "TUS düzeyi")
-                metric(solved.isEmpty ? "–" : "%\(Int(Double(right) / Double(solved.count) * 100))", "başarı")
+                metric("\(questions.count)", String(localized: "soru"))
+                metric("\(clinical)", String(localized: "klinik vaka"))
+                metric("\(tus)", String(localized: "TUS düzeyi"))
+                metric(solved.isEmpty ? "–" : (Double(right) / Double(solved.count)).formatted(.percent.precision(.fractionLength(0))), String(localized: "başarı"))
             }
             ProgressBar(value: questions.isEmpty ? 0 : Double(solved.count) / Double(questions.count), color: system.tint)
                 .frame(height: 6)
@@ -130,16 +139,17 @@ struct SystemQuizView: View {
     private var settings: some View {
         VStack(alignment: .leading, spacing: 14) {
             VStack(alignment: .leading, spacing: 8) {
-                Eyebrow(text: "Düzey")
+                Eyebrow(text: String(localized: "Düzey"))
                 Picker("Düzey", selection: $level) {
                     Text("Tümü").tag(QuestionLevel?.none)
-                    Text("Fakülte").tag(QuestionLevel?.some(.faculty))
-                    Text("TUS").tag(QuestionLevel?.some(.tus))
+                    ForEach(QuestionLevel.allCases) { level in
+                        Text(level.title).tag(QuestionLevel?.some(level))
+                    }
                 }
                 .pickerStyle(.segmented)
             }
             VStack(alignment: .leading, spacing: 8) {
-                Eyebrow(text: "Soru sayısı")
+                Eyebrow(text: String(localized: "Soru sayısı"))
                 Picker("Soru sayısı", selection: $count) {
                     ForEach([10, 20, 40, 60], id: \.self) { Text("\($0)").tag($0) }
                 }

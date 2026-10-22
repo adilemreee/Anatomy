@@ -1,0 +1,230 @@
+[
+ {
+  "id": "skeletal",
+  "tr": "Sistema esquelético",
+  "la": "Systema skeletale",
+  "en": "Skeletal system",
+  "icon": "figure.stand",
+  "color": "B8975A",
+  "layer": "skeletal",
+  "summary": "El armazón óseo del cuerpo",
+  "intro": "El esqueleto adulto tiene unos 206 huesos. Los huesos sostienen y dan forma al cuerpo, protegen los órganos internos, ofrecen inserciones a los músculos y así hacen posible el movimiento, producen células sanguíneas en la médula ósea y almacenan calcio y fósforo. El esqueleto se divide en esqueleto axial (cráneo, columna vertebral y caja torácica) y esqueleto apendicular, que incluye las cinturas escapular y pélvica.",
+  "groups": [
+   "Cráneo (Cranium)",
+   "Columna vertebral",
+   "Caja torácica",
+   "Huesos del miembro superior",
+   "Huesos de la mano",
+   "Huesos del miembro inferior",
+   "Huesos del pie",
+   "Generalidades"
+  ]
+ },
+ {
+  "id": "articular",
+  "tr": "Sistema articular",
+  "la": "Systema articulare",
+  "en": "Articular system",
+  "icon": "figure.flexibility",
+  "color": "4F87A6",
+  "layer": "joints",
+  "summary": "Las articulaciones y ligamentos que unen los huesos",
+  "intro": "Las articulaciones (articulationes) son las uniones entre dos o más huesos. Según su estructura son fibrosas, cartilaginosas o sinoviales; según su movilidad, sinartrosis (inmóviles), anfiartrosis (poco móviles) o diartrosis (móviles). Las articulaciones sinoviales tienen cartílago articular, cápsula, membrana sinovial y líquido sinovial; los ligamentos (ligamenta) las estabilizan.",
+  "groups": [
+   "Articulaciones del cráneo y la columna",
+   "Articulaciones del miembro superior",
+   "Articulaciones del miembro inferior",
+   "Generalidades"
+  ]
+ },
+ {
+  "id": "muscular",
+  "tr": "Sistema muscular",
+  "la": "Systema musculare",
+  "en": "Muscular system",
+  "icon": "figure.strengthtraining.traditional",
+  "color": "C2453C",
+  "layer": "muscular",
+  "summary": "Los músculos esqueléticos que producen el movimiento",
+  "intro": "El cuerpo humano tiene más de 600 músculos esqueléticos, alrededor del 40 % del peso corporal. Cada músculo tiene un origen, una inserción, una inervación y una acción. Los músculos esqueléticos son estriados y voluntarios; se fijan a los huesos mediante tendones y mueven las articulaciones. También mantienen la postura y producen calor.",
+  "groups": [
+   "Músculos de la cabeza",
+   "Músculos del cuello",
+   "Músculos de la espalda",
+   "Músculos del tórax",
+   "Músculos del abdomen y del suelo pélvico",
+   "Músculos del hombro",
+   "Músculos del brazo",
+   "Músculos del antebrazo",
+   "Músculos de la mano",
+   "Músculos de la cadera",
+   "Músculos del muslo",
+   "Músculos de la pierna",
+   "Músculos del pie"
+  ]
+ },
+ {
+  "id": "nervous",
+  "tr": "Sinir Sistemi",
+  "la": "Systema nervosum",
+  "en": "Nervous system",
+  "icon": "brain.head.profile.fill",
+  "color": "D29A1C",
+  "layer": "nervous",
+  "summary": "Beyin, omurilik ve periferik sinirler",
+  "intro": "Sinir sistemi, vücudun iç ve dış ortamdan gelen uyarıları algılayan, işleyen ve yanıt oluşturan kontrol sistemidir. Merkezi sinir sistemi (beyin ve omurilik) ile periferik sinir sisteminden (12 çift kranial sinir, 31 çift spinal sinir ve ganglionlar) oluşur. İşlevsel olarak somatik (istemli) ve otonom (sempatik ve parasempatik) bölümlere ayrılır.",
+  "groups": [
+   "Beyin",
+   "Beyin sapı ve beyincik",
+   "Omurilik ve zarlar",
+   "Kranial sinirler",
+   "Spinal sinirler ve pleksuslar",
+   "Otonom sinir sistemi"
+  ]
+ },
+ {
+  "id": "cardiovascular",
+  "tr": "Sistema cardiovascular",
+  "la": "Systema cardiovasculare",
+  "en": "Cardiovascular system",
+  "icon": "heart.fill",
+  "color": "D3333A",
+  "layer": "cardiovascular",
+  "summary": "El corazón, las arterias y las venas",
+  "intro": "El sistema cardiovascular está formado por el corazón y los vasos sanguíneos. Mediante la circulación mayor (sistémica) el corazón bombea sangre oxigenada a todos los tejidos, y mediante la menor (pulmonar) envía sangre desoxigenada a los pulmones. Las arterias (arteriae) alejan la sangre del corazón, las venas (venae) la devuelven, y en los capilares (capillaria) se produce el intercambio de sustancias y gases.",
+  "groups": [
+   "Corazón",
+   "Aorta y sus ramas",
+   "Arterias de la cabeza y el cuello",
+   "Arterias del miembro superior",
+   "Arterias del abdomen y la pelvis",
+   "Arterias del miembro inferior",
+   "Venas"
+  ]
+ },
+ {
+  "id": "respiratory",
+  "tr": "Solunum Sistemi",
+  "la": "Systema respiratorium",
+  "en": "Respiratory system",
+  "icon": "lungs.fill",
+  "color": "3E8FD6",
+  "layer": "visceral",
+  "summary": "Hava yolları ve akciğerler",
+  "intro": "Solunum sistemi, havanın vücuda alınması, oksijenin kana geçmesi ve karbondioksitin atılmasını sağlar. Üst solunum yolları (burun, paranazal sinüsler, farinks, larinks) havayı ısıtır, nemlendirir ve süzer; alt solunum yolları (trakea, bronşlar, bronşioller) havayı alveollere iletir. Gaz alışverişi yaklaşık 300 milyon alveolde gerçekleşir.",
+  "groups": [
+   "Üst solunum yolları",
+   "Alt solunum yolları",
+   "Akciğerler ve plevra"
+  ]
+ },
+ {
+  "id": "digestive",
+  "tr": "Sindirim Sistemi",
+  "la": "Systema digestorium",
+  "en": "Digestive system",
+  "icon": "fork.knife",
+  "color": "D98026",
+  "layer": "visceral",
+  "summary": "Sindirim kanalı ve yardımcı bezler",
+  "intro": "Sindirim sistemi besinlerin alınması, mekanik ve kimyasal olarak parçalanması, emilmesi ve artıkların atılmasını sağlar. Ağızdan anüse uzanan yaklaşık 8–9 metrelik sindirim kanalı (canalis alimentarius) ile tükürük bezleri, karaciğer, safra kesesi ve pankreas gibi yardımcı organlardan oluşur.",
+  "groups": [
+   "Ağız ve yutak",
+   "Sindirim kanalı",
+   "Karaciğer, safra yolları ve pankreas",
+   "Periton"
+  ]
+ },
+ {
+  "id": "urinary",
+  "tr": "Üriner Sistem",
+  "la": "Systema urinarium",
+  "en": "Urinary system",
+  "icon": "drop.fill",
+  "color": "2A9F96",
+  "layer": "visceral",
+  "summary": "Böbrekler ve idrar yolları",
+  "intro": "Üriner sistem kanı süzerek metabolik atıkları idrarla atar; vücudun sıvı-elektrolit ve asit-baz dengesini, kan basıncını ve kırmızı kan hücresi yapımını (eritropoetin) düzenler. İki böbrek, iki üreter, idrar kesesi ve üretradan oluşur.",
+  "groups": [
+   "Böbrekler",
+   "İdrar yolları"
+  ]
+ },
+ {
+  "id": "reproductive",
+  "tr": "Üreme Sistemi",
+  "la": "Systema genitale",
+  "en": "Reproductive system",
+  "icon": "figure.dress.line.vertical.figure",
+  "color": "CF5A93",
+  "layer": "visceral",
+  "summary": "Erkek ve kadın genital organları",
+  "intro": "Üreme sistemi gamet (sperm ve ovum) üretimi, cinsiyet hormonlarının salgılanması ve neslin devamından sorumludur. Erkekte testisler, genital yollar, yardımcı bezler ve dış genital organlardan; kadında overler, tuba uterina, uterus, vajina ve dış genital organlardan oluşur. Uygulamadaki 3D model erkek anatomisini gösterir.",
+  "groups": [
+   "Erkek üreme organları",
+   "Kadın üreme organları",
+   "Perine"
+  ]
+ },
+ {
+  "id": "endocrine",
+  "tr": "Endokrin Sistem",
+  "la": "Systema endocrinum",
+  "en": "Endocrine system",
+  "icon": "flask.fill",
+  "color": "8C5FC7",
+  "layer": "visceral",
+  "summary": "Hormon salgılayan bezler",
+  "intro": "Endokrin sistem, hormonlarını doğrudan kana salgılayan kanalsız bezlerden oluşur. Hipotalamus–hipofiz ekseni diğer bezlerin çoğunu yönetir. Hormonlar büyüme, metabolizma, üreme, stres yanıtı, sıvı-elektrolit dengesi ve kan şekerinin düzenlenmesinde rol oynar.",
+  "groups": [
+   "Endokrin bezler"
+  ]
+ },
+ {
+  "id": "lymphatic",
+  "tr": "Lenfatik ve Bağışıklık Sistemi",
+  "la": "Systema lymphoideum",
+  "en": "Lymphatic system",
+  "icon": "shield.lefthalf.filled",
+  "color": "5A9E45",
+  "layer": "lymphoid",
+  "summary": "Lenf damarları, düğümleri ve lenfoid organlar",
+  "intro": "Lenfatik sistem, dokulardan sızan sıvıyı (lenf) toplayıp venöz sisteme geri döndürür, bağırsaktan yağ emilimini sağlar ve bağışıklık sisteminin önemli bir parçasıdır. Primer lenfoid organlar (kemik iliği, timus) lenfositlerin olgunlaştığı yerlerdir; sekonder lenfoid organlar (lenf düğümleri, dalak, tonsiller, mukoza ilişkili lenfoid doku) bağışıklık yanıtının başladığı yerlerdir.",
+  "groups": [
+   "Lenfoid organlar",
+   "Lenf düğümleri ve damarları"
+  ]
+ },
+ {
+  "id": "integumentary",
+  "tr": "Deri ve Ekleri",
+  "la": "Integumentum commune",
+  "en": "Integumentary system",
+  "icon": "hand.raised.fill",
+  "color": "C2856A",
+  "layer": "regions",
+  "summary": "Deri, kıl, tırnak ve deri bezleri",
+  "intro": "Deri vücudun en büyük organıdır; erişkinde yaklaşık 1,5–2 m² yüzey alanına ve vücut ağırlığının %15'ine ulaşır. Epidermis, dermis ve hipodermisten (subkutis) oluşur. Vücudu mekanik, kimyasal ve mikrobiyal etkenlerden korur, ısıyı düzenler, duyu algısı sağlar ve D vitamini sentezine katılır.",
+  "groups": [
+   "Deri katmanları",
+   "Deri ekleri",
+   "Vücut bölgeleri"
+  ]
+ },
+ {
+  "id": "senses",
+  "tr": "Duyu Organları",
+  "la": "Organa sensuum",
+  "en": "Sense organs",
+  "icon": "eye.fill",
+  "color": "5867BF",
+  "layer": "nervous",
+  "summary": "Göz, kulak, koku ve tat organları",
+  "intro": "Duyu organları, özel reseptörleri sayesinde ışık, ses, yerçekimi ve ivme, koku ve tat uyaranlarını algılayarak sinir uyarısına dönüştürür. Görme organı göz, işitme ve denge organı kulak, koku organı burun boşluğunun olfaktör mukozası, tat organı ise dildeki tat tomurcuklarıdır.",
+  "groups": [
+   "Görme organı",
+   "İşitme ve denge organı",
+   "Koku ve tat"
+  ]
+ }
+]

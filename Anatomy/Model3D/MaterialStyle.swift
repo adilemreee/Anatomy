@@ -22,8 +22,8 @@ nonisolated enum ColorMode: String, CaseIterable, Identifiable, Sendable {
 
     var title: String {
         switch self {
-        case .realistic: "Gerçekçi"
-        case .educational: "Öğretici"
+        case .realistic: String(localized: "Gerçekçi")
+        case .educational: String(localized: "Öğretici")
         }
     }
 }
@@ -148,33 +148,33 @@ nonisolated enum MaterialStyles {
 
     /// Teaching legend for the muscle action colours.
     static let muscleLegend: [(material: String, title: String)] = [
-        ("Flexion", "Fleksiyon (bükme)"),
-        ("Extension", "Ekstansiyon (açma)"),
-        ("Abductor", "Abdüksiyon (uzaklaştırma)"),
-        ("Adductor", "Addüksiyon (yaklaştırma)"),
-        ("External rotation", "Dış rotasyon"),
-        ("Internal rotator", "İç rotasyon"),
-        ("Levator", "Kaldırıcı (elevasyon)"),
-        ("Depressor", "İndirici (depresyon)"),
-        ("Flexion fingers", "Parmak fleksörleri"),
-        ("Extensor extremities", "Parmak ekstansörleri"),
-        ("Flexion hand/foot", "El / ayak fleksörleri"),
-        ("Extension hand/foot", "El / ayak ekstansörleri"),
-        ("Biarticular", "İki eklemli kaslar"),
-        ("Orbicularis/Constrictor", "Halka / büzücü kaslar"),
-        ("Masticator", "Çiğneme kasları"),
+        ("Flexion", String(localized: "Fleksiyon (bükme)")),
+        ("Extension", String(localized: "Ekstansiyon (açma)")),
+        ("Abductor", String(localized: "Abdüksiyon (uzaklaştırma)")),
+        ("Adductor", String(localized: "Addüksiyon (yaklaştırma)")),
+        ("External rotation", String(localized: "Dış rotasyon")),
+        ("Internal rotator", String(localized: "İç rotasyon")),
+        ("Levator", String(localized: "Kaldırıcı (elevasyon)")),
+        ("Depressor", String(localized: "İndirici (depresyon)")),
+        ("Flexion fingers", String(localized: "Parmak fleksörleri")),
+        ("Extensor extremities", String(localized: "Parmak ekstansörleri")),
+        ("Flexion hand/foot", String(localized: "El / ayak fleksörleri")),
+        ("Extension hand/foot", String(localized: "El / ayak ekstansörleri")),
+        ("Biarticular", String(localized: "İki eklemli kaslar")),
+        ("Orbicularis/Constrictor", String(localized: "Halka / büzücü kaslar")),
+        ("Masticator", String(localized: "Çiğneme kasları")),
         ("Ingestion", "Yutma"),
-        ("Phonation", "Ses oluşumu"),
-        ("Superficial", "Yüzeyel kaslar"),
+        ("Phonation", String(localized: "Ses oluşumu")),
+        ("Superficial", String(localized: "Yüzeyel kaslar")),
         ("Diaphragm", "Diyafram"),
     ]
 
     static let brainLegend: [(material: String, title: String)] = [
-        ("Frontal lobe", "Alın lobu"),
+        ("Frontal lobe", String(localized: "Alın lobu")),
         ("Parietal lobe", "Yan kafa lobu"),
-        ("Temporal lobe", "Şakak lobu"),
+        ("Temporal lobe", String(localized: "Şakak lobu")),
         ("Occipital lobe", "Art kafa lobu"),
-        ("Insula", "İnsula"),
+        ("Insula", String(localized: "İnsula")),
         ("Limbic lobe", "Limbik lob"),
         ("Cerebellum", "Beyincik"),
     ]

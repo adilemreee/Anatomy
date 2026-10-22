@@ -41,7 +41,7 @@ struct FavoriteButton: View {
                 .foregroundStyle(on ? Theme.gold : Theme.textPrimary)
         }
         .sensoryFeedback(.impact(weight: .light), trigger: on)
-        .accessibilityLabel(on ? "Favorilerden çıkar" : "Favorilere ekle")
+        .accessibilityLabel(on ? String(localized: "Favorilerden çıkar") : String(localized: "Favorilere ekle"))
     }
 }
 
@@ -93,7 +93,7 @@ struct EntryContent: View {
     @ViewBuilder
     private func details(tint: Color) -> some View {
         if !entry.facts.isEmpty {
-            InfoCard(title: "Temel bilgiler", icon: "list.bullet.rectangle", tint: tint) {
+            InfoCard(title: String(localized: "Temel bilgiler"), icon: "list.bullet.rectangle", tint: tint) {
                 FactTable(facts: entry.facts, tint: tint)
             }
         }
@@ -108,20 +108,20 @@ struct EntryContent: View {
         }
 
         if !entry.tus.isEmpty {
-            InfoCard(title: "TUS notları", icon: "target", tint: Theme.gold) {
+            InfoCard(title: String(localized: "TUS notları"), icon: "target", tint: Theme.gold) {
                 BulletList(items: entry.tus, color: Theme.gold)
             }
         }
 
         if !entry.clinical.isEmpty {
-            InfoCard(title: "Klinik bilgi", icon: "stethoscope", tint: Theme.clinical) {
+            InfoCard(title: String(localized: "Klinik bilgi"), icon: "stethoscope", tint: Theme.clinical) {
                 BulletList(items: entry.clinical, color: Theme.clinical)
             }
         }
 
         let related = app.store.related(of: entry)
         if !related.isEmpty {
-            InfoCard(title: "İlişkili yapılar", icon: "point.3.connected.trianglepath.dotted", tint: tint) {
+            InfoCard(title: String(localized: "İlişkili yapılar"), icon: "point.3.connected.trianglepath.dotted", tint: tint) {
                 FlowLayout(spacing: 8) {
                     ForEach(related) { other in
                         NavigationLink(value: other) {
@@ -177,7 +177,7 @@ struct EntryContent: View {
 
     private var questionCountText: String {
         let written = app.bank.questions.filter { $0.entries.contains(entry.id) }.count
-        return written > 0 ? "\(written) soru bankası sorusu ve atlas soruları" : "Bu yapı ve ilişkili yapılar hakkında sorular"
+        return written > 0 ? String(localized: "\(written) soru bankası sorusu ve atlas soruları") : String(localized: "Bu yapı ve ilişkili yapılar hakkında sorular")
     }
 
     private var referenceText: String? {
@@ -263,7 +263,7 @@ private struct LockedEntryCard: View {
             VStack(alignment: .leading, spacing: 8) {
                 ForEach(entry.facts.prefix(3), id: \.label) { fact in
                     VStack(alignment: .leading, spacing: 3) {
-                        Text(fact.label.uppercased(with: Locale(identifier: "tr_TR")))
+                        Text(fact.title.uppercased(with: .current))
                             .font(Theme.eyebrow)
                             .foregroundStyle(Theme.textTertiary)
                         Text(fact.value)

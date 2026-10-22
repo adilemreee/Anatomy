@@ -799,4 +799,8 @@ Q("t", AYK, "Aşağıdaki ayak tabanı kaslarından hangisi n. plantaris mediali
   e=["mm-plantares", "n-tibialis"]),
 ]
 
-write("muscular", questions)
+from q_muscular_trunk2 import questions as trunk2
+from q_muscular_limbs2 import questions as limbs2
+from q_muscular3 import questions as more3
+
+write("muscular", questions + trunk2 + limbs2 + more3)

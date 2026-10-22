@@ -6,7 +6,8 @@ Anatomy/Content/questions-<system>.json.
 
     Q(level, group, stem, answer, wrong, explain, notes=None, e=(), m=())
 
-level   "f" faculty, "t" TUS; add "v" for a clinical vignette ("fv", "tv")
+level   "b" basic, "f" faculty, "t" TUS; add "v" for a clinical vignette
+        ("bv", "fv", "tv")
 group   one of the system's group headings (atlas-systems.json)
 answer  the correct option; wrong: the four distractors
 notes   optional, one short note per distractor (why it is wrong)
@@ -31,11 +32,11 @@ PREFIX = {
 
 
 def Q(level, group, stem, answer, wrong, explain, notes=None, e=(), m=()):
-    assert level in ("f", "t", "fv", "tv"), level
+    assert level in ("b", "f", "t", "bv", "fv", "tv"), level
     assert len(wrong) == 4, (stem, wrong)
     assert notes is None or len(notes) == 4, stem
     return {
-        "level": "tus" if level.startswith("t") else "faculty",
+        "level": {"b": "basic", "f": "faculty", "t": "tus"}[level[0]],
         "clinical": level.endswith("v"),
         "group": group,
         "stem": " ".join(stem.split()),
@@ -82,4 +83,5 @@ def write(system, questions):
         json.dump({"system": system, "questions": out}, fh, ensure_ascii=False, indent=1)
     tus = sum(1 for q in out if q["level"] == "tus")
     clinical = sum(1 for q in out if q["clinical"])
-    print(f"{system}: {len(out)} questions ({tus} TUS, {clinical} clinical)")
+    basic = sum(1 for q in out if q["level"] == "basic")
+    print(f"{system}: {len(out)} questions ({basic} basic, {tus} TUS, {clinical} clinical)")

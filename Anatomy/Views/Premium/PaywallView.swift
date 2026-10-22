@@ -88,11 +88,11 @@ struct PaywallView: View {
     private var titleBlock: some View {
         VStack(alignment: .leading, spacing: 8) {
             PremiumBadge()
-            Text(context.feature == .general ? "Anatomiyi en iyi hâliyle öğren" : context.feature.title)
+            Text(context.feature == .general ? String(localized: "Anatomiyi en iyi hâliyle öğren") : context.feature.title)
                 .font(.system(.largeTitle, weight: .bold))
                 .foregroundStyle(Theme.textPrimary)
                 .fixedSize(horizontal: false, vertical: true)
-            Text("13 sistem, 2.900'den fazla Türkçe–Latince terim, 400'ü aşkın ayrıntılı madde ve yaklaşık 600 özgün TUS ve komite sorusu, tek bir uygulamada.")
+            Text("Kemikler, eklemler ve kaslar için 280'i aşkın ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, 380'i aşkın özgün TUS ve komite sorusu ve 3.000'e yakın bilgi kartı, tek bir uygulamada.")
                 .font(.body)
                 .foregroundStyle(Theme.textSecondary)
         }
@@ -100,11 +100,11 @@ struct PaywallView: View {
 
     private var benefits: some View {
         VStack(alignment: .leading, spacing: 14) {
-            benefit("figure.arms.open", "Bütün vücut, tüm sistemler", "Kaslar, damarlar, sinirler, iç organlar, lenf ve bölgeler; kadın ve erkek anatomisi")
-            benefit("cube.transparent", "İnceleme modu", "Her yapıyı tek başına, işaretli oluşumlarıyla incele; kasların origo ve insersiyosunu gör")
-            benefit("text.book.closed", "Ayrıntılı Türkçe maddeler", "Latince terimler, kanlanma, sinir, klinik bilgi ve her maddede TUS notları")
-            benefit("checkmark.seal", "Sınırsız soru bankası", "Açıklamalı özgün sorular, klinik vakalar, süreli deneme sınavları, yanlışlarım ve istatistikler")
-            benefit("rectangle.on.rectangle.angled", "Aralıklı tekrar kartları", "Unutmadan önce hatırlatan bilgi kartları")
+            benefit("figure.strengthtraining.traditional", String(localized: "Kas-iskelet sistemi, en ince ayrıntısıyla"), String(localized: "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri; kadın ve erkek anatomisi"))
+            benefit("cube.transparent", String(localized: "İnceleme modu"), String(localized: "Her yapıyı tek başına, işaretli oluşumlarıyla incele; kasların origo ve insersiyosunu gör"))
+            benefit("text.book.closed", String(localized: "Ayrıntılı Türkçe maddeler"), String(localized: "Latince terimler, kanlanma, sinir, klinik bilgi ve her maddede TUS notları"))
+            benefit("checkmark.seal", String(localized: "Sınırsız soru bankası"), String(localized: "Açıklamalı özgün sorular, klinik vakalar, kas–sinir ve kemik oluşumu soruları, süreli denemeler ve istatistikler"))
+            benefit("rectangle.on.rectangle.angled", String(localized: "Aralıklı tekrar kartları"), String(localized: "Yapı, Latince ad, origo–insersiyo–sinir, kemik oluşumu, TUS ve klinik desteleri"))
         }
     }
 
@@ -162,19 +162,21 @@ struct PaywallView: View {
     }
 
     private var ctaTitle: String {
-        if let trial = purchases.trialText(plan) { return "\(trial) dene" }
-        return plan == .lifetime ? "Bir kez öde, hep kullan" : "Premium'a geç"
+        if let trial = purchases.trialText(plan) { return String(localized: "\(trial) dene") }
+        return plan == .lifetime ? String(localized: "Bir kez öde, hep kullan") : String(localized: "Premium'a geç")
     }
 
     private var footnote: String {
         switch plan {
         case .lifetime:
-            return "Tek seferlik ödeme. Abonelik değildir."
+            return String(localized: "Tek seferlik ödeme. Abonelik değildir.")
         case .yearly:
-            let trial = purchases.trialText(plan).map { "\($0) sonra " } ?? ""
-            return "\(trial)yılda bir \(purchases.price(.yearly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin."
+            if let trial = purchases.trialText(plan) {
+                return String(localized: "\(trial), sonra yılda bir \(purchases.price(.yearly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin.")
+            }
+            return String(localized: "Yılda bir \(purchases.price(.yearly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin.")
         case .monthly:
-            return "Ayda bir \(purchases.price(.monthly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin."
+            return String(localized: "Ayda bir \(purchases.price(.monthly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin.")
         }
     }
 
@@ -209,7 +211,7 @@ private struct PlanRow: View {
                     HStack(spacing: 6) {
                         Text(plan.title).font(.headline).foregroundStyle(Theme.textPrimary)
                         if plan == .yearly, let saving = purchases.yearlySavings {
-                            Text("%\(saving) tasarruf")
+                            Text("\((Double(saving) / 100).formatted(.percent.precision(.fractionLength(0)))) tasarruf")
                                 .font(.caption2.weight(.heavy))
                                 .foregroundStyle(Color(hex: "2A1D05"))
                                 .padding(.horizontal, 6).padding(.vertical, 2)
@@ -237,9 +239,9 @@ private struct PlanRow: View {
 
     private var detail: String {
         switch plan {
-        case .yearly: purchases.trialText(plan).map { "\($0), sonra yıllık" } ?? "Yılda bir ödeme"
-        case .monthly: "Her ay yenilenir"
-        case .lifetime: "Tek seferlik ödeme, abonelik yok"
+        case .yearly: purchases.trialText(plan).map { String(localized: "\($0), sonra yıllık") } ?? String(localized: "Yılda bir ödeme")
+        case .monthly: String(localized: "Her ay yenilenir")
+        case .lifetime: String(localized: "Tek seferlik ödeme, abonelik yok")
         }
     }
 }

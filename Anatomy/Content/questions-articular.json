@@ -695,6 +695,2106 @@
     "os-coxae",
     "os-sacrum"
    ]
+  },
+  {
+   "id": "ar-081572fb",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi sinovyal eklemin özelliklerinden biri değildir?",
+   "options": [
+    "Eklem kapsülü",
+    "Eklem boşluğu",
+    "Hiyalin eklem kıkırdağı",
+    "Kemik uçlarının fibröz dokuyla birbirine kaynaşmış olması",
+    "Sinovyal sıvı"
+   ],
+   "answer": 3,
+   "explanation": "Sinovyal eklemlerde kemik uçları hiyalin kıkırdakla örtülüdür ve bir eklem boşluğu ile birbirinden ayrılır; boşluğu sinovyal zar ve fibröz kapsül sarar, sinovyal sıvı besler ve kayganlaştırır. Fibröz dokuyla kaynaşma fibröz eklemlerin (sutur, sindesmoz) özelliğidir.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-faa2b7bc",
+   "group": "Genel yapılar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Hilton yasası neyi ifade eder?",
+   "options": [
+    "Her eklem tek bir sinirle innerve edilir",
+    "Bir eklemi hareket ettiren kasları innerve eden sinirler o eklemi ve üstündeki deriyi de innerve eder",
+    "Eklem kıkırdağı sinirden zengindir",
+    "Bir eklemin bağları kasların tersine hareket eder",
+    "Eklemin kanlanması yalnızca kapsülün arterlerinden gelir"
+   ],
+   "answer": 1,
+   "explanation": "Hilton yasası, eklem ağrısının neden uzak bölgelere yansıyabildiğini açıklar: örneğin kalça eklemini n. obturatorius da innerve ettiği için kalça hastalığı diz iç yanında ağrı yapabilir. Eklem kıkırdağında sinir ve damar yoktur.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-35071863",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dişlerin alveollere bağlandığı eklem tipi hangisidir?",
+   "options": [
+    "Syndesmosis",
+    "Gomphosis",
+    "Symphysis",
+    "Synchondrosis",
+    "Sutura"
+   ],
+   "answer": 1,
+   "explanation": "Gomphosis bir fibröz eklem tipidir: diş kökü periodontal bağ ile alveol soketine çivi gibi tutturulur. Suturlar kafatası kemikleri, sindesmoz distal tibiofibular eklem, sinkondroz epifiz plağı, simfiz ise symphysis pubica ve intervertebral disk örnekleridir.",
+   "entries": [
+    "eklem-tipleri",
+    "dentes"
+   ]
+  },
+  {
+   "id": "ar-471daa9c",
+   "group": "Genel yapılar",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi synchondrosis değildir?",
+   "options": [
+    "Sfeno-oksipital birleşme",
+    "1. kaburga ile manubrium arasındaki eklem",
+    "Epifiz plağı",
+    "Os coxae'nin Y biçimli kıkırdağı",
+    "Symphysis pubica"
+   ],
+   "answer": 4,
+   "explanation": "Sinkondrozlar hiyalin kıkırdakla oluşan primer kıkırdak eklemlerdir ve çoğu zamanla kemikleşir. Symphysis pubica ise fibrokartilaj disk içeren sekonder kıkırdak eklemdir (simfiz); intervertebral diskler ve manubriosternal eklem de bu gruptadır.",
+   "entries": [
+    "eklem-tipleri",
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-78703f7e",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Atlanto-oksipital eklemde başlıca hangi hareket olur?",
+   "options": [
+    "Hiçbir hareket olmaz",
+    "Yalnızca lateral fleksiyon",
+    "Başın sağa-sola dönmesi (‘hayır’ hareketi)",
+    "Yalnızca rotasyon",
+    "Başın öne-arkaya eğilmesi (‘evet’ hareketi)"
+   ],
+   "answer": 4,
+   "explanation": "Oksipital kondiller atlasın üst eklem yüzlerine oturur; bu elipsoid eklem başlıca fleksiyon-ekstansiyona, biraz da yana eğilmeye izin verir. Rotasyonun büyük bölümü atlantoaksiyel eklemlerde olur.",
+   "entries": [
+    "ligg-columnae",
+    "atlas"
+   ]
+  },
+  {
+   "id": "ar-044f5001",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lig. nuchae hangi bağın boyundaki devamıdır?",
+   "options": [
+    "Lig. flavum",
+    "Lig. apicis dentis",
+    "Lig. longitudinale anterius",
+    "Membrana tectoria",
+    "Lig. supraspinale"
+   ],
+   "answer": 4,
+   "explanation": "Dikensi çıkıntıların uçlarını birleştiren lig. supraspinale C7'nin üstünde genişleyerek protuberantia occipitalis externa'ya uzanan üçgen lig. nuchae'yı oluşturur; trapezius ve splenius'un tutunma yüzeyidir.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-06ded398",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Membrana tectoria hangi bağın yukarıdaki devamıdır?",
+   "options": [
+    "Lig. supraspinale",
+    "Lig. longitudinale anterius",
+    "Lig. flavum",
+    "Lig. transversum atlantis",
+    "Lig. longitudinale posterius"
+   ],
+   "answer": 4,
+   "explanation": "Arka uzunlamasına bağ axis gövdesinden yukarı doğru genişleyerek membrana tectoria adını alır ve clivus'a tutunur; dens ile çapraz bağı arkadan örterek omuriliği korur.",
+   "entries": [
+    "ligg-columnae",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-c597d8fc",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lig. cruciforme atlantis'in bileşenleri hangileridir?",
+   "options": [
+    "Membrana tectoria ve lig. flavum",
+    "Lig. transversum atlantis ve fasciculi longitudinales",
+    "Ligg. alaria ve lig. apicis dentis",
+    "Lig. nuchae ve lig. supraspinale",
+    "Lig. longitudinale anterius ve posterius"
+   ],
+   "answer": 1,
+   "explanation": "Çapraz bağın yatay kolu densi atlasın ön kemerine karşı tutan lig. transversum atlantis, dikey kolları axis gövdesinden foramen magnum'a uzanan uzunlamasına liflerdir. Alar bağlar densin yanlarından oksipital kondillere uzanır ve rotasyonu sınırlar.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-ed470bcc",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Uzun süredir romatoid artriti olan hastaya entübasyon öncesi boyun fleksiyon-ekstansiyon grafisi çekiliyor; fleksiyonda atlas ile dens arasındaki mesafenin belirgin arttığı görülüyor. Bu instabiliteden en çok hangi bağın zayıflaması sorumludur?",
+   "options": [
+    "Lig. longitudinale anterius",
+    "Lig. interspinale",
+    "Lig. flavum",
+    "Lig. nuchae",
+    "Lig. transversum atlantis"
+   ],
+   "answer": 4,
+   "explanation": "Romatoid sinovit densin çevresindeki bağları aşındırır; transvers bağ gevşeyince fleksiyonda atlas öne kayar ve dens omuriliğe bası yapabilir. Bu nedenle RA hastalarında entübasyonda boyun fleksiyonundan kaçınılır.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-f49987bc",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "İntervertebral disk için hangisi doğrudur?",
+   "options": [
+    "Atlas ile axis arasında da disk bulunur",
+    "Omurga uzunluğunun yarısını oluşturur",
+    "Dış kısmı fibrokartilaj anulus fibrosus, iç kısmı jelatinöz nucleus pulposus'tur",
+    "Sinovyal eklemdir",
+    "Erişkinde diskin her yeri iyi damarlanır"
+   ],
+   "answer": 2,
+   "explanation": "Diskler simfiz tipi kıkırdak eklemlerdir ve omurga uzunluğunun yaklaşık dörtte birini oluşturur. C1–C2 arasında disk yoktur. Erişkinde disk büyük ölçüde damarsızdır ve uç plaklardan difüzyonla beslenir.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-19cb43e5",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Omurlar arasındaki faset (zigapofizyal) eklemler hangi tiptedir?",
+   "options": [
+    "Düzlem tipi sinovyal eklem",
+    "Pivot sinovyal eklem",
+    "Sindesmoz",
+    "Küresel sinovyal eklem",
+    "Simfiz"
+   ],
+   "answer": 0,
+   "explanation": "Üst ve alt eklem çıkıntıları arasındaki faset eklemler kayma hareketine izin veren düzlem eklemlerdir; yüzlerinin yönü bölgenin hareket yeteneğini belirler (boyunda oblik, göğüste koronal, belde sagittal). Dejenerasyonları bel ağrısının sık nedenlerindendir.",
+   "entries": [
+    "ligg-columnae",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ar-7888f307",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ağız açılırken temporomandibular eklemde hareketler hangi sırayla olur?",
+   "options": [
+    "Yalnızca menteşe hareketi olur",
+    "Kondil tuberculum articulare'nin arkasında sabit kalır",
+    "Disk kondilden bağımsız olarak geriye kayar",
+    "Önce üst kompartmanda kayma, sonra alt kompartmanda dönme olur",
+    "Önce alt kompartmanda kondil menteşe gibi döner, sonra üst kompartmanda kondil ve disk birlikte öne kayar"
+   ],
+   "answer": 4,
+   "explanation": "Eklem diski TME'yi üst (disk–fossa/tuberculum) ve alt (disk–kondil) bölmelere ayırır. Ağız açılmasının başında alt bölmede rotasyon, geniş açılmada üst bölmede kondil-disk kompleksinin tuberculum articulare'ye doğru öne kayması (translasyon) olur; lateral pterygoid bu kaymayı sağlar.",
+   "entries": [
+    "art-temporomandibularis",
+    "m-pterygoideus-lateralis"
+   ]
+  },
+  {
+   "id": "ar-9f52e25c",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Temporomandibular eklemin eklem yüzleri hangi dokuyla örtülüdür?",
+   "options": [
+    "Çıplak kemik",
+    "Periost",
+    "Elastik kıkırdak",
+    "Fibrokartilaj",
+    "Hiyalin kıkırdak"
+   ],
+   "answer": 3,
+   "explanation": "TME, eklem yüzleri hiyalin değil fibrokartilajla örtülü olan atipik bir sinovyal eklemdir; bu özellik mandibulanın intramembranöz kökeniyle ilişkilidir. Klavikulanın iki ucundaki eklemler de benzer özellik gösterir.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-fd55eb81",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Glenohumeral eklemin en zayıf bölgesi neresidir ve neden?",
+   "options": [
+    "Alt kısmı; burada rotator manşet kası ve güçlü bağ desteği yoktur",
+    "Hiçbir bölgesi zayıf değildir",
+    "Ön kısmı; subscapularis burada bulunmaz",
+    "Üst kısmı; akromiyon desteği yoktur",
+    "Arka kısmı; kapsül en ince buradadır"
+   ],
+   "answer": 0,
+   "explanation": "Rotator manşet kapsülü üstten, önden ve arkadan sarar; alt kısım yalnızca gevşek kapsül ve alt glenohumeral bağla korunur. Abdüksiyonda humerus başı bu bölgeden aşağı-öne çıkar ve n. axillaris risk altına girer.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-0145e5e7",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lig. coracoclaviculare'nin iki bölümü hangileridir?",
+   "options": [
+    "Lig. glenohumerale superius ve medium",
+    "Lig. coracoacromiale ve lig. coracohumerale",
+    "Lig. acromioclaviculare superius ve inferius",
+    "Lig. costoclaviculare ve lig. interclaviculare",
+    "Lig. conoideum ve lig. trapezoideum"
+   ],
+   "answer": 4,
+   "explanation": "Korakoklaviküler bağ klavikulayı skapulaya asan en güçlü bağdır: içte konoid (konoid tüberküle), dışta trapezoid (trapezoid çizgiye) bölümü vardır. AC çıkığında bu bağ da yırtılırsa klavikula belirgin biçimde yukarı kalkar.",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-2ce80442",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sternoklaviküler eklem için hangisi doğrudur?",
+   "options": [
+    "Disk içermeyen küresel eklemdir",
+    "Tek eksenli menteşe eklemidir",
+    "Kıkırdak bir eklemdir",
+    "Fibröz bir eklemdir",
+    "İçinde discus articularis bulunan eyer tipi sinovyal eklemdir"
+   ],
+   "answer": 4,
+   "explanation": "Sternoklaviküler eklem, üst ekstremiteyi gövdeye bağlayan tek gerçek eklemdir; eklem diski eklemi ikiye ayırır ve klavikulanın içe doğru kaymasını önleyen güçlü bir yastık görevi görür. Lig. costoclaviculare eklemin asıl dengeleyicisidir.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-b6f1b5ff",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Üçgen fibrokartilaj kompleksi (TFCC) nerede bulunur?",
+   "options": [
+    "Proksimal radioulnar eklemde",
+    "Başparmağın karpometakarpal ekleminde",
+    "Midkarpal eklemde",
+    "Radius ile scaphoideum arasında",
+    "Ulnanın distal ucu ile lunatum ve triquetrum arasında"
+   ],
+   "answer": 4,
+   "explanation": "TFCC ulna başını karpal kemiklerden ayırır, distal radioulnar eklemin asıl dengeleyicisidir ve el bileğine gelen yükün bir kısmını taşır. Elin üzerine düşme ve ulnar deviasyonda zorlanma ile yırtılabilir; bileğin ulnar tarafında ağrı yapar.",
+   "entries": [
+    "artt-radioulnares",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "ar-9c0521bf",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "El bileğinde radial deviasyon (abdüksiyon) ulnar deviasyondan neden daha kısıtlıdır?",
+   "options": [
+    "Ulna radiustan daha uzundur",
+    "Processus styloideus radii daha aşağıya uzanır",
+    "TFCC radial taraftadır",
+    "Lig. collaterale carpi ulnare zayıftır",
+    "Os pisiforme hareketi engeller"
+   ],
+   "answer": 1,
+   "explanation": "Radiusun stiloid çıkıntısı ulnanınkinden yaklaşık 1 cm aşağıda biter ve scaphoid'e çarparak radial deviasyonu sınırlar. Ulna ise karpal kemiklerle doğrudan eklem yapmadığı için ulnar deviasyon daha geniştir.",
+   "entries": [
+    "art-radiocarpalis",
+    "radius"
+   ]
+  },
+  {
+   "id": "ar-24504957",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Proksimal ve distal radioulnar eklemler hangi tiptedir?",
+   "options": [
+    "Sindesmoz",
+    "Menteşe eklem",
+    "Düzlem eklem",
+    "Eyer eklem",
+    "Pivot (trokoid) sinovyal eklem"
+   ],
+   "answer": 4,
+   "explanation": "Proksimalde radius başı lig. anulare içinde, distalde radius ulna başı çevresinde döner; iki eklem birlikte pronasyon ve supinasyonu sağlar. Ortadaki membrana interossea ise bir sindesmozdur.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-7abbb713",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Önkol membrana interossea'sının liflerinin yönü hangi işlevi sağlar?",
+   "options": [
+    "Pronasyonu tamamen engeller",
+    "Elden radiusa gelen yükü ulnaya aktarır",
+    "Ulnadan radiusa gelen yükü ele aktarır",
+    "Dirseğin yan bağlarının yerini tutar",
+    "Yalnızca kaslara origo sağlar"
+   ],
+   "answer": 1,
+   "explanation": "El bileğinde yükün büyük kısmı radiusa, dirsekte ise ulnaya (humeroulnar eklem) geçer. Membran lifleri radiustan aşağı-içe ulnaya uzandığı için radiustaki yükü ulnaya aktarır ve kaslara geniş bir origo yüzeyi sağlar.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-801c39ac",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Diz eklemi hangi tipe girer?",
+   "options": [
+    "Eyer eklem",
+    "Düzlem eklem",
+    "Pivot eklem",
+    "Küresel eklem",
+    "Modifiye menteşe (bikondiler) sinovyal eklem"
+   ],
+   "answer": 4,
+   "explanation": "Diz, femurun iki kondili ile tibia platoları arasında menteşe hareketine ek olarak fleksiyonda bir miktar rotasyona izin veren bikondiler eklemdir; patellofemoral eklem de aynı kapsül içindedir.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-8ffbb6ae",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ön çapraz bağ (LCA) başlıca hangi hareketi engeller?",
+   "options": [
+    "Tibianın femura göre öne kaymasını",
+    "Patellanın dışa kaymasını",
+    "Dizin varus zorlanmasını",
+    "Tibianın femura göre arkaya kaymasını",
+    "Dizin valgus zorlanmasını"
+   ],
+   "answer": 0,
+   "explanation": "LCA tibianın area intercondylaris anterior'undan femurun lateral kondilinin iç yüzüne uzanır; tibianın öne kaymasını ve aşırı iç rotasyonu sınırlar. Ön çekmece ve Lachman testleriyle değerlendirilir. Arkaya kaymayı LCP, valgusu iç, varusu dış yan bağ sınırlar.",
+   "notes": [
+    "",
+    "Medial patellofemoral bağ ve VMO'nun görevidir.",
+    "Dış kollateral bağın görevidir.",
+    "Arka çapraz bağın görevidir.",
+    "İç kollateral bağın görevidir."
+   ],
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-1653af8f",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Motosiklet kazasında dizi bükülüyken tibianın üst ucuna önden darbe alan hastada, diz 90° fleksiyondayken tibia femura göre arkaya doğru itilebiliyor. Hangi bağ yaralanmıştır?",
+   "options": [
+    "Lig. patellae",
+    "Dış kollateral bağ",
+    "İç kollateral bağ",
+    "Ön çapraz bağ",
+    "Arka çapraz bağ"
+   ],
+   "answer": 4,
+   "explanation": "Arka çapraz bağ tibianın arkaya kaymasını engeller; ‘ön panel yaralanması’ tipik mekanizmadır. Arka çekmece testi ve tibianın arkaya sarkması (sag işareti) pozitiftir. LCP, LCA'dan daha kalın ve güçlüdür.",
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-35c5b540",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Klasik ‘mutsuz üçlü’ (O'Donoghue) diz yaralanmasının bileşenleri hangileridir?",
+   "options": [
+    "Arka çapraz bağ, dış kollateral bağ ve lateral menisküs",
+    "Ön çapraz bağ, arka çapraz bağ ve lig. patellae",
+    "Ön çapraz bağ, iç kollateral bağ ve medial menisküs",
+    "Dış kollateral bağ, popliteus tendonu ve lateral menisküs",
+    "İç kollateral bağ, pes anserinus ve medial menisküs"
+   ],
+   "answer": 2,
+   "explanation": "Ayak yere sabitken dizin dış yanına gelen darbe valgus ve dış rotasyonla iç yan bağı, ardından ona yapışık medial menisküsü ve ön çapraz bağı yırtar. Güncel çalışmalarda lateral menisküsün de sık tutulduğu gösterilmiştir.",
+   "entries": [
+    "ligg-cruciata",
+    "ligg-collateralia-genus",
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-d15651f8",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ayak yere basarken dizin tam ekstansiyona kilitlenmesi (screw-home) sırasında ne olur?",
+   "options": [
+    "Femur tibia üzerinde dış rotasyon yapar",
+    "Tibia femur üzerinde iç rotasyon yapar",
+    "Menisküsler arkaya kayar",
+    "Femur tibia üzerinde iç rotasyon yapar",
+    "Patella yukarı kayarak kilitlenir"
+   ],
+   "answer": 3,
+   "explanation": "Femurun medial kondili daha uzun olduğundan ekstansiyonun son derecelerinde kapalı zincirde femur iç rotasyon yaparak eklemi kilitler; açık zincirde aynı hareket tibianın dış rotasyonu olarak görülür. Kilidi m. popliteus femuru dışa döndürerek açar.",
+   "entries": [
+    "art-genus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-dec32412",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Bursa suprapatellaris için hangisi doğrudur?",
+   "options": [
+    "Eklem boşluğundan her zaman ayrıdır",
+    "Patella ile deri arasında bulunur",
+    "Lig. patellae ile tibia arasındadır",
+    "Çoğunlukla diz eklem boşluğuyla bağlantılıdır; eklem içi sıvıda şişer",
+    "Pes anserinus'un altındadır"
+   ],
+   "answer": 3,
+   "explanation": "Suprapatellar bursa kuadriseps tendonunun altında, femurun önünde uzanır ve eklem boşluğunun yukarı doğru bir uzantısı gibidir; efüzyonda patellanın üstünde şişlik yapar. Prepatellar bursa patellanın önünde, derin infrapatellar bursa lig. patellae'nin arkasındadır.",
+   "notes": [
+    "Yanlıştır; çoğunlukla bağlantılıdır.",
+    "Prepatellar bursayı tanımlar.",
+    "Derin infrapatellar bursayı tanımlar.",
+    "",
+    "Pes anserinus bursasını tanımlar."
+   ],
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-bbea335b",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Menisküslerin hangi bölümü kanlanmadığı için yırtıkları zor iyileşir?",
+   "options": [
+    "Arka boynuzların tibiaya tutunan uçları",
+    "Kapsüle yapışık kenarlar",
+    "Ön boynuzların tibiaya tutunan uçları",
+    "Eklem içine bakan iç 2/3'lük bölüm (beyaz bölge)",
+    "Kapsüle yakın dış 1/3'lük bölüm (kırmızı bölge)"
+   ],
+   "answer": 3,
+   "explanation": "Menisküsler perimenisküsal kapiller ağdan çevresel olarak beslenir; dış üçte bir (kırmızı bölge) iyi damarlanır ve onarılabilir, iç kısımlar sinovyal sıvıdan difüzyonla beslenir ve yırtıkları genellikle rezeke edilir.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-635bed39",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Futbolcu dizi bükülü ve ayağı yerde sabitken dönerken ani ağrı hissediyor. Ertesi gün eklem çizgisinin iç tarafında hassasiyet ve dizde zaman zaman takılma-kilitlenme tarif ediyor; McMurray testi pozitif. En olası yaralanma hangisidir?",
+   "options": [
+    "Osgood–Schlatter hastalığı",
+    "Medial menisküs yırtığı",
+    "Patella çıkığı",
+    "Ön çapraz bağ yırtığı",
+    "İliotibial bant sürtünme sendromu"
+   ],
+   "answer": 1,
+   "explanation": "Fleksiyon ve rotasyon altında yük binen diz menisküsü femur ile tibia arasında sıkıştırır; eklem çizgisi hassasiyeti, kilitlenme ve McMurray testi menisküs yırtığını düşündürür. Medial menisküs kapsüle ve iç yan bağa yapışık olduğundan daha az hareketlidir ve daha sık yırtılır.",
+   "entries": [
+    "meniscus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-a84a64ee",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kalça ekleminin en kararlı (close-packed) pozisyonu hangisidir?",
+   "options": [
+    "Hafif fleksiyon ve dış rotasyon",
+    "Ekstansiyon, abdüksiyon ve iç rotasyon",
+    "Nötral pozisyon",
+    "Fleksiyon, abdüksiyon ve dış rotasyon",
+    "Fleksiyon, addüksiyon ve iç rotasyon"
+   ],
+   "answer": 1,
+   "explanation": "Ekstansiyon ve iç rotasyonda iliofemoral, pubofemoral ve iskiofemoral bağlar spiral biçimde gerilir ve femur başını asetabuluma sıkıca bastırır. Fleksiyon-addüksiyon-iç rotasyon ise arka çıkığa en yatkın pozisyondur (ön panel yaralanması).",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-21f160b4",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Asetabulumun derinliğini artıran fibrokartilaj halka hangisidir?",
+   "options": [
+    "Menisküs",
+    "Lig. capitis femoris",
+    "Labrum acetabuli",
+    "Labrum glenoidale",
+    "Discus articularis"
+   ],
+   "answer": 2,
+   "explanation": "Labrum acetabuli asetabulumun kenarına tutunur, alttaki çentiği lig. transversum acetabuli ile tamamlanır; femur başını bir vakum gibi tutarak eklemi derinleştirir. Femoroasetabüler sıkışmada yırtılabilir.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-2025bf01",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ayak bileğinin iç yan (deltoid) bağı için hangisi doğrudur?",
+   "options": [
+    "Üç ayrı banttan oluşur ve en sık yırtılan bağdır",
+    "Malleolus medialis'ten talus, calcaneus ve naviculare'ye yelpaze gibi uzanır; eversiyonu sınırlar",
+    "Tibia ile fibula arasında uzanır",
+    "İnversiyonu sınırlar",
+    "Malleolus lateralis'ten başlar"
+   ],
+   "answer": 1,
+   "explanation": "Deltoid bağ çok güçlüdür; zorlu eversiyonda bağ yırtılmak yerine çoğu zaman iç malleolü koparır. Dış yan bağ kompleksi (ATFL, CFL, PTFL) ise inversiyon burkulmalarında en sık yaralanan yapıdır.",
+   "entries": [
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-029aa2f6",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lisfranc eklemi hangisidir?",
+   "options": [
+    "Subtalar eklem",
+    "İntermetatarsal eklemler",
+    "Metatarsofalangeal eklemler",
+    "Talonaviküler ve kalkaneokuboid eklemler",
+    "Tarsometatarsal eklemler"
+   ],
+   "answer": 4,
+   "explanation": "Lisfranc eklemi cuneiformia ve kuboid ile metatars tabanları arasındadır; 2. metatars tabanı orta cuneiforme'ye kilitlenerek eklemin kilit taşı olur. Talonaviküler ve kalkaneokuboid eklemler birlikte Chopart (transvers tarsal) eklemini oluşturur.",
+   "entries": [
+    "artt-pedis",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "ar-cbb80467",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Plantar fasyanın ‘ırgat’ (windlass) mekanizması nedir?",
+   "options": [
+    "Ayak başparmağının dorsifleksiyonu plantar fasyayı gererek medial kavsi yükseltir",
+    "Fasya yalnızca ayakta dururken gevşer",
+    "Topuk vuruşunda fasya kopar ve yeniden bağlanır",
+    "Başparmağın plantar fleksiyonu kavsi yükseltir",
+    "Ayak bileği plantar fleksiyonu fasyayı gevşeterek kavsi düzleştirir"
+   ],
+   "answer": 0,
+   "explanation": "Plantar fasya calcaneus'tan parmak tabanlarına uzanır; itme fazında başparmak dorsifleksiyona gelince fasya MTF eklemin etrafında bir halat gibi sarılır, topuk ile metatars başlarını yaklaştırır ve kavsi yükseltir. Plantar fasiitte sabah ilk adımlardaki ağrı bu gerilimle ilişkilidir.",
+   "entries": [
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "ar-9cae36b7",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lig. calcaneonaviculare plantare (‘yaylı bağ’) neyi destekler?",
+   "options": [
+    "Fibulanın alt ucunu",
+    "Talus başını ve medial longitudinal kavsi",
+    "Os cuboideum'u",
+    "Tuber calcanei'yi",
+    "5. metatarsı"
+   ],
+   "answer": 1,
+   "explanation": "Yaylı bağ sustentaculum tali'den os naviculare'ye uzanır ve talus başının oturduğu yatağın tabanını oluşturur; altından geçen tibialis posterior tendonu ile birlikte medial kavsin anahtar destekçisidir. Gevşemesi talus başının aşağı kaymasına ve düztabanlığa yol açar.",
+   "entries": [
+    "artt-pedis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-9dffdcc7",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Distal tibiofibular eklem hangi tiptedir?",
+   "options": [
+    "Düzlem tipi sinovyal eklem",
+    "Syndesmosis",
+    "Simfiz",
+    "Pivot eklem",
+    "Gomphosis"
+   ],
+   "answer": 1,
+   "explanation": "Distal tibiofibular eklem güçlü bağlarla (ön ve arka tibiofibular bağlar, interosseöz bağ) tutturulan fibröz bir eklemdir ve ayak bileği zıvanasının bütünlüğünü sağlar. Proksimal tibiofibular eklem ise düzlem tipi sinovyal eklemdir.",
+   "entries": [
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-2170c9e2",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ayak bileği burkulmasıyla gelen hastada iç malleol üzerinde hassasiyet ve şişlik var; ayak bileği grafisinde kırık yok, ancak dizin hemen altında fibula üst ucunda da ağrı tarif ediyor. Grafide proksimal fibula kırığı ve tibiofibular aralıkta genişleme saptanıyor. Bu tablonun adı hangisidir?",
+   "options": [
+    "Lisfranc yaralanması",
+    "Segond kırığı",
+    "Colles kırığı",
+    "Maisonneuve kırığı",
+    "Jones kırığı"
+   ],
+   "answer": 3,
+   "explanation": "Dış rotasyon kuvveti deltoid bağı (veya iç malleolü) yırtar, tibiofibular sindesmoz ve membrana interossea boyunca yukarı ilerleyerek proksimal fibulayı kırar. Ayak bileği yaralanmalarında fibula başının muayenesi bu yüzden atlanmamalıdır.",
+   "entries": [
+    "artt-tibiofibulares",
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-59f5af67",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sakroiliak eklemi en güçlü biçimde bir arada tutan bağ hangisidir?",
+   "options": [
+    "Lig. sacrotuberale",
+    "Lig. iliolumbale",
+    "Lig. sacroiliacum anterius",
+    "Lig. sacrospinale",
+    "Ligg. sacroiliaca interossea"
+   ],
+   "answer": 4,
+   "explanation": "İnterosseöz sakroiliak bağlar eklemin arkasında, sakrum ile ilium tüberozitesi arasındaki boşluğu dolduran kısa ve çok güçlü liflerdir; vücut ağırlığını sakrumdan iliuma aktarır. Ön bağ incedir; sakrotuberal ve sakrospinal bağlar sakrumun öne dönmesini engelleyen yardımcı bağlardır.",
+   "entries": [
+    "art-sacroiliaca"
+   ]
+  },
+  {
+   "id": "ar-0814aea8",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Aşağıdakilerden hangisi pelvis çıkımının (apertura pelvis inferior) sınırlarına katılmaz?",
+   "options": [
+    "Promontorium",
+    "Os coccygis'in ucu",
+    "Arcus pubicus",
+    "Tuber ischiadicum",
+    "Lig. sacrotuberale"
+   ],
+   "answer": 0,
+   "explanation": "Pelvis çıkımı önde arcus pubicus ve simfizin alt kenarı, yanlarda tuber ischiadicum ve lig. sacrotuberale, arkada koksiksin ucu ile sınırlıdır. Promontorium pelvis girişinin (apertura superior) arka sınırıdır.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-158c435d",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Bağlar (ligamentler) genel olarak neyi neye bağlar?",
+   "options": [
+    "Sinirleri kemiğe",
+    "Deriyi kemiğe",
+    "Kası kemiğe",
+    "Kemiği kemiğe",
+    "Kası kasa"
+   ],
+   "answer": 3,
+   "explanation": "Bağlar kemikleri birbirine bağlayan sıkı bağ dokusu şeritleridir ve eklemi pasif olarak destekler. Kası kemiğe bağlayan yapı tendondur.",
+   "entries": [
+    "eklem-tipleri",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3d9b7532",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kası kemiğe bağlayan yapıya ne ad verilir?",
+   "options": [
+    "Tendon (kiriş)",
+    "Labrum",
+    "Bağ (ligament)",
+    "Bursa",
+    "Menisküs"
+   ],
+   "answer": 0,
+   "explanation": "Tendonlar kas kuvvetini kemiğe iletir. Bursalar tendonun kemik üzerinde kaymasını kolaylaştıran keselerdir; menisküs ve labrum eklem içi fibrokıkırdak yapılardır.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3fe924fa",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Sinovyal eklemlerde eklem yüzlerini örten kıkırdak genellikle hangi tiptedir?",
+   "options": [
+    "Kemik doku",
+    "Hiyalin kıkırdak",
+    "Elastik kıkırdak",
+    "Fibrokıkırdak",
+    "Yoğun bağ dokusu"
+   ],
+   "answer": 1,
+   "explanation": "Sinovyal eklemlerin çoğunda eklem yüzleri kaygan hiyalin kıkırdakla örtülüdür. Çene ve sternoklaviküler eklem gibi birkaç eklemde ise yüzeyleri fibrokıkırdak örter.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-5deb5335",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Sinovyal sıvıyı üreten yapı hangisidir?",
+   "options": [
+    "Eklem bağları",
+    "Periost",
+    "Sinovyal zar (membrana synovialis)",
+    "Fibröz kapsül",
+    "Eklem kıkırdağı"
+   ],
+   "answer": 2,
+   "explanation": "Eklem kapsülünün iç yüzünü döşeyen sinovyal zar, hiyalüronik asitten zengin kaygan sıvıyı üretir; bu sıvı kıkırdağı besler ve sürtünmeyi azaltır.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-968e75e8",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Bir eklemde iki kemik arasındaki açıyı azaltan (bükme) harekete ne ad verilir?",
+   "options": [
+    "Abdüksiyon",
+    "Ekstansiyon",
+    "Fleksiyon",
+    "Rotasyon",
+    "Addüksiyon"
+   ],
+   "answer": 2,
+   "explanation": "Fleksiyon bükme, ekstansiyon germe (açıyı artırma) hareketidir. Abdüksiyon orta hattan uzaklaştırma, addüksiyon orta hatta yaklaştırma, rotasyon ise kendi ekseni etrafında döndürmedir.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-59af87db",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kolu gövdeden yana doğru uzaklaştırma hareketine ne ad verilir?",
+   "options": [
+    "Fleksiyon",
+    "Sirkümdüksiyon",
+    "Addüksiyon",
+    "Ekstansiyon",
+    "Abdüksiyon"
+   ],
+   "answer": 4,
+   "explanation": "Abdüksiyon bir ekstremitenin vücudun orta hattından uzaklaştırılmasıdır; omuzda başlıca m. supraspinatus ve m. deltoideus tarafından yapılır.",
+   "entries": [
+    "eklem-tipleri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-4d1f8034",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Önkolda avuç içini yukarı (öne) çeviren harekete ne ad verilir?",
+   "options": [
+    "Everziyon",
+    "Pronasyon",
+    "Supinasyon",
+    "Opozisyon",
+    "İnversiyon"
+   ],
+   "answer": 2,
+   "explanation": "Supinasyonda avuç içi yukarı/öne, pronasyonda aşağı/arkaya döner; bu hareketler radioulnar eklemlerde olur. İnversiyon ve everziyon ayağa ait hareketlerdir.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-d52f46c3",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Ayak tabanını içe doğru çeviren harekete ne ad verilir?",
+   "options": [
+    "Everziyon",
+    "İnversiyon",
+    "Pronasyon",
+    "Dorsifleksiyon",
+    "Plantar fleksiyon"
+   ],
+   "answer": 1,
+   "explanation": "İnversiyonda ayak tabanı içe, everziyonda dışa döner. Bu hareketler başlıca subtalar ve transvers tarsal eklemlerde gerçekleşir; ayak bileği burkulmalarının çoğu inversiyonla olur.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-3eb5fefe",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Vücudun en hareketli eklemi hangisidir?",
+   "options": [
+    "Kalça eklemi",
+    "Omuz (glenohumeral) eklemi",
+    "Diz eklemi",
+    "Dirsek eklemi",
+    "El bileği eklemi"
+   ],
+   "answer": 1,
+   "explanation": "Omuz eklemi geniş hareket açıklığı için stabiliteden fedakârlık eder: humerus başı sığ glenoid çukurla ancak kısmen temas eder. Bu nedenle en sık çıkan büyük eklemdir.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-f3f16261",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Vücudun en büyük eklemi hangisidir?",
+   "options": [
+    "Diz eklemi",
+    "Kalça eklemi",
+    "Sakroiliak eklem",
+    "Omuz eklemi",
+    "Ayak bileği eklemi"
+   ],
+   "answer": 0,
+   "explanation": "Diz eklemi femur, tibia ve patellanın katıldığı, vücudun en büyük ve en karmaşık sinovyal eklemidir.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-809c1821",
+   "group": "Alt ekstremite eklemleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Diz eklemine hangi kemikler katılır?",
+   "options": [
+    "Femur, patella ve kalkaneus",
+    "Femur, fibula ve patella",
+    "Tibia, fibula ve talus",
+    "Femur, tibia ve fibula",
+    "Femur, tibia ve patella"
+   ],
+   "answer": 4,
+   "explanation": "Diz eklemi tibiofemoral ve patellofemoral eklemlerden oluşur. Fibula diz eklemine katılmaz; üst tibiofibular eklem ayrı bir eklemdir.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-e4a2fa9a",
+   "group": "Üst ekstremite eklemleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Omuz eklemi hangi kemikler arasındadır?",
+   "options": [
+    "Clavicula ve scapula",
+    "Scapula ve sternum",
+    "Humerus ve sternum",
+    "Humerus ve clavicula",
+    "Humerus ve scapula"
+   ],
+   "answer": 4,
+   "explanation": "Glenohumeral eklem humerus başı ile skapulanın cavitas glenoidalis'i arasındadır. Klavikula ile skapula akromiyoklaviküler eklemi yapar.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-aec5db37",
+   "group": "Alt ekstremite eklemleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kalça eklemi hangi eklem tipindedir?",
+   "options": [
+    "Eyer eklem",
+    "Menteşe eklem",
+    "Küresel (top–çukur) eklem",
+    "Silindir (pivot) eklem",
+    "Düzlem eklem"
+   ],
+   "answer": 2,
+   "explanation": "Kalça eklemi femur başı ile asetabulum arasındaki küresel eklemdir (enartroz); üç eksende hareket eder ve derin çukuru nedeniyle omuzdan daha stabildir.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-55d60eb1",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Çene eklemi hangi kemikler arasındadır?",
+   "options": [
+    "Mandibula ve os sphenoidale",
+    "Mandibula ve os zygomaticum",
+    "Mandibula ve maxilla",
+    "Mandibula ve os temporale",
+    "Maxilla ve os temporale"
+   ],
+   "answer": 3,
+   "explanation": "Temporomandibular eklem mandibulanın kondili ile temporal kemiğin fossa mandibularis ve tuberculum articulare'si arasındadır; içinde bir fibrokıkırdak disk bulunur.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-1c1cd56a",
+   "group": "Alt ekstremite eklemleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Pubik simfiz hangi kemikler arasında yer alır?",
+   "options": [
+    "Sakrum ve koksiks",
+    "Sakrum ve ilium",
+    "Femur ve pubis",
+    "Sağ ve sol pubis kemikleri",
+    "İskium ve pubis"
+   ],
+   "answer": 3,
+   "explanation": "Pubik simfiz iki pubis kemiğini önde orta hatta birleştiren fibrokıkırdak eklemdir; arada discus interpubicus bulunur.",
+   "entries": [
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-c9695c99",
+   "group": "Alt ekstremite eklemleri",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Menisküsler hangi eklemde bulunur?",
+   "options": [
+    "Omuz eklemi",
+    "Diz eklemi",
+    "Ayak bileği eklemi",
+    "Kalça eklemi",
+    "Dirsek eklemi"
+   ],
+   "answer": 1,
+   "explanation": "Diz ekleminde femur ve tibia kondilleri arasında medial ve lateral menisküs bulunur; eklem uyumunu artırır ve yükü dağıtırlar.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-df324558",
+   "group": "Genel yapılar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Bursa nedir?",
+   "options": [
+    "Sürtünen yapılar arasında bulunan, sinovyal zarla döşeli küçük sıvı kesesi",
+    "Eklem içindeki fibrokıkırdak disk",
+    "Eklem kıkırdağının dış katmanı",
+    "Kemiği örten zar",
+    "Kası kemiğe bağlayan şerit"
+   ],
+   "answer": 0,
+   "explanation": "Bursalar tendon–kemik veya deri–kemik gibi birbirine sürtünen yapılar arasında sürtünmeyi azaltır. Tekrarlayan bası veya sürtünmeyle iltihaplanmasına bursit denir.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-0716071b",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Eklem kıkırdağı nasıl beslenir?",
+   "options": [
+    "Perikondriyum damarlarıyla",
+    "Kendi kan damarlarıyla",
+    "Periost damarlarıyla",
+    "Kemik iliğinden gelen kapillerlerle",
+    "Sinovyal sıvıdan difüzyonla"
+   ],
+   "answer": 4,
+   "explanation": "Eklem kıkırdağında damar, sinir ve perikondriyum yoktur; besinler sinovyal sıvıdan difüzyonla gelir. Bu yüzden kıkırdak hasarları kendiliğinden iyileşmez.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-7804f95c",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Romatoid artritte eklem kıkırdağını ve kemiği aşındıran iltihabi dokuya ne ad verilir?",
+   "options": [
+    "Kallus",
+    "Tofüs",
+    "Ganglion",
+    "Osteofit",
+    "Pannus"
+   ],
+   "answer": 4,
+   "explanation": "Romatoid artrit sinovyal zarın kronik iltihabıdır; kalınlaşan sinovya pannus adını alır ve kıkırdak ile kemiği aşındırır. Osteofit osteoartritin, tofüs gutun bulgusudur.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-a742a27f",
+   "group": "Genel yapılar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sürekli diz çökerek çalışanlarda diz kapağının önünde şişlik yapan bursit hangi bursaya aittir?",
+   "options": [
+    "Bursa semimembranosa",
+    "Bursa infrapatellaris profunda",
+    "Bursa suprapatellaris",
+    "Bursa prepatellaris",
+    "Bursa anserina"
+   ],
+   "answer": 3,
+   "explanation": "Prepatellar bursit ('hizmetçi dizi') patella ile deri arasındaki bursanın tekrarlayan basıyla iltihaplanmasıdır. Rahip dizi denen infrapatellar bursit ise tuberositas tibiae önündedir.",
+   "entries": [
+    "art-genus",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-4202eeca",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ligg. alaria'nın temel işlevi nedir?",
+   "options": [
+    "Başın aşırı fleksiyonunu önlemek",
+    "Dens'i atlas'ın ön kemerine bastırmak",
+    "Başın aşırı rotasyonunu sınırlamak",
+    "Atlas'ın arka kemerini oksipitale bağlamak",
+    "Omurga kanalının ön duvarını oluşturmak"
+   ],
+   "answer": 2,
+   "explanation": "Alar bağlar dens'in yanlarından oksipital kondillere uzanır ve atlanto-aksiyal eklemde başın aşırı dönmesini engeller. Dens'i ön kemere bastıran lig. transversum atlantis'tir.",
+   "entries": [
+    "artt-craniovertebrales"
+   ]
+  },
+  {
+   "id": "ar-4ecc76c5",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lomber bölgede omurga rotasyonunun kısıtlı olmasının nedeni nedir?",
+   "options": [
+    "Kaburgaların varlığı",
+    "Faset eklem yüzlerinin sagittal düzlemde yerleşmesi",
+    "Disklerin çok ince olması",
+    "Dikenlerin kısa olması",
+    "Lig. flavum'un bulunmaması"
+   ],
+   "answer": 1,
+   "explanation": "Faset eklemlerin yönü bölgedeki hareket tipini belirler: lomber yüzler sagittaldir ve fleksiyon-ekstansiyona izin verip rotasyonu kısıtlar; torakal yüzler frontal düzlemdedir ve rotasyon serbesttir.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-0ab30723",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Unkovertebral (Luschka) eklemler hangi omurlarda bulunur?",
+   "options": [
+    "C3–C7 boyun omurlarında",
+    "T1–T12 göğüs omurlarında",
+    "Atlas ile aksis arasında",
+    "L1–L5 bel omurlarında",
+    "Sakral omurlar arasında"
+   ],
+   "answer": 0,
+   "explanation": "Unkovertebral eklemler C3–C7 omur gövdelerinin üst-yan kenarındaki processus uncinatus ile üstteki omur arasındaki yarık benzeri eklemlerdir; osteofitleri foramen intervertebrale'yi daraltabilir.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-ff6c7a3d",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Çene ekleminde kondilin arkaya doğru yer değiştirmesini önleyen bağ hangisidir?",
+   "options": [
+    "Lig. laterale (temporomandibulare)",
+    "Lig. pterygospinale",
+    "Lig. stylomandibulare",
+    "Lig. sphenomandibulare",
+    "Lig. stylohyoideum"
+   ],
+   "answer": 0,
+   "explanation": "Lig. laterale kapsülün dış yanındaki kalınlaşmadır; arcus zygomaticus'tan mandibula boynuna uzanır ve kondilin arkaya ve aşağıya kaymasını önler. Sfeno- ve stilomandibular bağlar kapsülden uzaktaki yardımcı bağlardır.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-c413ead3",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Alt kaburgaların solunumda göğsün yan (transvers) çapını artıran hareketine ne ad verilir?",
+   "options": [
+    "Menteşe hareketi",
+    "Pompa kolu (pump handle) hareketi",
+    "Kaliper hareketi",
+    "Kova sapı (bucket handle) hareketi",
+    "Kayma hareketi"
+   ],
+   "answer": 3,
+   "explanation": "Alt kaburgalar orta kısımları yukarı ve dışa kalkarak kova sapı gibi hareket eder ve yan çapı artırır. Üst kaburgaların pompa kolu hareketi ön-arka çapı artırır.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-185a3978",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aşağıdaki kaburgalardan hangisi transvers çıkıntıyla eklem (art. costotransversaria) yapmaz?",
+   "options": [
+    "12. kaburga",
+    "7. kaburga",
+    "5. kaburga",
+    "1. kaburga",
+    "10. kaburga"
+   ],
+   "answer": 0,
+   "explanation": "Kostotransvers eklem kaburga tüberkülü ile transvers çıkıntı arasındadır. 11. ve 12. kaburgaların tüberkülü yoktur ve bu eklemi yapmazlar.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-25e330cf",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Doğum sırasında pelvis çıkışının ön-arka çapını artıran hareket hangisidir?",
+   "options": [
+    "Pubik simfizin kaynaşması",
+    "İliumun içe dönmesi",
+    "Asetabulumun genişlemesi",
+    "Sakrumun öne eğilmesi",
+    "Koksiksin geriye doğru hareketi"
+   ],
+   "answer": 4,
+   "explanation": "Sakrokoksigeal eklem doğumda koksiksin geriye hareket etmesine izin verir ve pelvis çıkışının ön-arka çapı birkaç santimetre artar.",
+   "entries": [
+    "art-sacrococcygea"
+   ]
+  },
+  {
+   "id": "ar-632188f8",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sternoklaviküler eklemin stabilitesini esas olarak sağlayan bağ hangisidir?",
+   "options": [
+    "Lig. interclaviculare",
+    "Lig. costoclaviculare",
+    "Lig. acromioclaviculare",
+    "Lig. coracoclaviculare",
+    "Lig. sternoclaviculare anterius"
+   ],
+   "answer": 1,
+   "explanation": "Klavikulanın iç ucunu 1. kaburga kıkırdağına bağlayan kostoklaviküler bağ, eklemin en güçlü stabilizatörüdür ve klavikulanın yukarı kalkmasını sınırlar.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-d9375ce7",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Korakoakromiyal arkı oluşturan yapılar hangileridir?",
+   "options": [
+    "Akromiyon, klavikula ve spina scapulae",
+    "Tuberculum majus, tuberculum minus ve lig. transversum humeri",
+    "Processus coracoideus, klavikula ve 1. kaburga",
+    "Cavitas glenoidalis, labrum ve akromiyon",
+    "Akromiyon, lig. coraco-acromiale ve processus coracoideus"
+   ],
+   "answer": 4,
+   "explanation": "Korakoakromiyal ark humerus başının üstünde koruyucu bir çatı oluşturur; altından supraspinatus tendonu ve bursa subacromialis geçer. Sıkışma sendromu bu arkın altında olur.",
+   "entries": [
+    "ligg-scapulae"
+   ]
+  },
+  {
+   "id": "ar-9da426c2",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Biceps uzun baş tendonunu sulcus intertubercularis içinde tutan bağ hangisidir?",
+   "options": [
+    "Lig. coraco-acromiale",
+    "Lig. coracohumerale",
+    "Lig. transversum humeri",
+    "Lig. transversum scapulae superius",
+    "Lig. glenohumerale superius"
+   ],
+   "answer": 2,
+   "explanation": "Lig. transversum humeri tuberculum majus ile minus arasında uzanarak oluğu kanala çevirir. Yırtılırsa tendon oluktan çıkarak ağrılı bir klik yapabilir.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-d525aa5a",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Tekrarlayan ön omuz çıkıklarının başlıca nedeni olan ön-alt labrum yırtığına ne ad verilir?",
+   "options": [
+    "SLAP lezyonu",
+    "Stener lezyonu",
+    "Bankart lezyonu",
+    "Hill–Sachs lezyonu",
+    "Bennett lezyonu"
+   ],
+   "answer": 2,
+   "explanation": "Bankart lezyonu ön-alt labrum ve alt glenohumeral bağın glenoidden kopmasıdır. Hill–Sachs humerus başının arka-dış yüzündeki çökme kırığıdır; SLAP üst labrum yırtığıdır.",
+   "entries": [
+    "ligg-art-humeri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-ecd485e2",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "SLAP lezyonu labrumun hangi bölümünü tutar?",
+   "options": [
+    "Üst labrumu (biceps uzun başının tutunduğu yer)",
+    "Arka-alt labrumu",
+    "Asetabular labrumu",
+    "Labrumun tamamını",
+    "Ön-alt labrumu"
+   ],
+   "answer": 0,
+   "explanation": "SLAP (Superior Labrum Anterior to Posterior) lezyonu biceps uzun başının tutunduğu üst labrumun önden arkaya yırtılmasıdır; atma sporlarında sık görülür.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-cfe7c2cc",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dirsek ekleminin valgus stabilitesini sağlayan en önemli yapı hangisidir?",
+   "options": [
+    "Lig. quadratum",
+    "Lig. collaterale ulnare'nin ön bandı",
+    "Lig. anulare radii",
+    "Chorda obliqua",
+    "Lig. collaterale radiale"
+   ],
+   "answer": 1,
+   "explanation": "Medial (ulnar) kollateral bağın ön bandı dirseği valgus kuvvetine karşı korur. Atıcı sporcularda bu bandın yırtığı tendon grefti ile onarılır ('Tommy John' ameliyatı).",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-9da28623",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El bileği instabilitesinin en sık nedeni olan bağ yırtığı ve grafideki bulgusu hangisidir?",
+   "options": [
+    "Pisohamat bağ – hamulus kırığı",
+    "Ulnar kollateral bağ – ulna başının çıkığı",
+    "Radial kollateral bağ – processus styloideus radii kırığı",
+    "Lunotrikuetral bağ – lunatumun dorsale dönmesi",
+    "Skafolunat bağ – skafoid ile lunatum arasında 3 mm'den geniş açıklık"
+   ],
+   "answer": 4,
+   "explanation": "Skafolunat bağ yırtığında ön-arka grafide iki kemik arasında açıklık (Terry Thomas bulgusu) ve skafoidin halka görünümü vardır; tedavi edilmezse DISI deformitesi ve SLAC artrozu gelişir.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-3707eab2",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Başparmak karpometakarpal ekleminin artrozuna ne ad verilir?",
+   "options": [
+    "Rizartroz",
+    "Kienböck hastalığı",
+    "De Quervain tenosinoviti",
+    "Heberden nodülü",
+    "Dupuytren kontraktürü"
+   ],
+   "answer": 0,
+   "explanation": "Rizartroz trapezium ile 1. metakarp arasındaki eyer ekleminin artrozudur; özellikle menopoz sonrası kadınlarda kavrama ve anahtar çevirmede ağrı yapar.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-a495b9af",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El uzun süre atele alınacaksa MCP eklemlerinin fleksiyonda tutulmasının nedeni nedir?",
+   "options": [
+    "Fleksiyonda tendonlar daha iyi beslenir.",
+    "Fleksiyonda sinirler basıdan kurtulur.",
+    "Ekstansiyonda kemikler kaynamaz.",
+    "Kollateral bağlar fleksiyonda gergin olduğundan kısalıp sertliğe yol açmaz.",
+    "Fleksiyonda volar plak gevşeyerek iyileşir."
+   ],
+   "answer": 3,
+   "explanation": "MCP kollateral bağları metakarp başının kam şekli nedeniyle fleksiyonda gerilir. Eklem ekstansiyonda uzun süre tutulursa gevşek bağlar kısalır ve kalıcı ekstansiyon kontraktürü gelişir.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-9d4ca42d",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kayakçı başparmağı (avcı başparmağı) hangi bağın yaralanmasıdır?",
+   "options": [
+    "Başparmak IP ekleminin volar plağı",
+    "Başparmak MCP ekleminin ulnar kollateral bağı",
+    "Skafolunat bağ",
+    "Başparmak MCP ekleminin radial kollateral bağı",
+    "Başparmak CMC ekleminin ön oblik bağı"
+   ],
+   "answer": 1,
+   "explanation": "Batonla düşerken başparmağın zorla abdüksiyona itilmesi MCP ekleminin ulnar kollateral bağını yırtar; kavrama ve çimdikleme gücü azalır.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-d07b4763",
+   "group": "Üst ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Parmakların PIP ekleminde aşırı ekstansiyonu (hiperekstansiyon) önleyen yapı hangisidir?",
+   "options": [
+    "Ekstansör aponevroz",
+    "Kollateral bağlar",
+    "Derin transvers metakarpal bağ",
+    "Volar plak",
+    "Lumbrikal kaslar"
+   ],
+   "answer": 3,
+   "explanation": "Volar plak eklemin avuç yüzündeki kalın fibrokıkırdak levhadır ve hiperekstansiyonu sınırlar. Hiperekstansiyon yaralanmasında avülsiyonu kuğu boynu deformitesine yol açabilir.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-b68b4630",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Kalça ekleminin aşırı abdüksiyonunu önleyen bağ hangisidir?",
+   "options": [
+    "Lig. capitis femoris",
+    "Lig. ischiofemorale",
+    "Lig. transversum acetabuli",
+    "Lig. iliofemorale",
+    "Lig. pubofemorale"
+   ],
+   "answer": 4,
+   "explanation": "Pubofemoral bağ ramus superior ossis pubis'ten kapsülün alt-önüne uzanır ve aşırı abdüksiyonu sınırlar. İliofemoral bağ aşırı ekstansiyonu, iskiofemoral bağ aşırı iç rotasyonu önler.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-7cb7465b",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lig. popliteum obliquum hangi kasın tendonunun uzantısıdır?",
+   "options": [
+    "M. biceps femoris",
+    "M. gastrocnemius",
+    "M. popliteus",
+    "M. semitendinosus",
+    "M. semimembranosus"
+   ],
+   "answer": 4,
+   "explanation": "Oblik popliteal bağ semimembranosus tendonundan yukarı-dışa uzanarak diz kapsülünün arka yüzünü güçlendirir; popliteal arterin hemen önünde yer alır.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-02199c01",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dizde dış (fibular) kollateral bağ ile dış menisküs arasından geçen tendon hangisidir?",
+   "options": [
+    "M. popliteus tendonu",
+    "M. gastrocnemius lateral başının tendonu",
+    "M. plantaris tendonu",
+    "Tractus iliotibialis",
+    "M. biceps femoris tendonu"
+   ],
+   "answer": 0,
+   "explanation": "Dış kollateral bağ kapsülden ve dış menisküsten ayrıdır; aralarından popliteus tendonu geçer. Bu nedenle dış menisküs daha hareketlidir ve iç menisküse göre daha az yırtılır.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "meniscus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-2725a1ee",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ayak bileği dış bağlarından en güçlü olan ve en nadir yırtılan hangisidir?",
+   "options": [
+    "Lig. bifurcatum",
+    "Lig. talofibulare posterius",
+    "Lig. talofibulare anterius",
+    "Lig. calcaneofibulare",
+    "Lig. tibiofibulare anterius"
+   ],
+   "answer": 1,
+   "explanation": "Dış bağlar sırayla önden arkaya yırtılır: önce talofibulare anterius, sonra calcaneofibulare. En güçlüsü talofibulare posterius'tur ve ancak ciddi yaralanmalarda yırtılır.",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-b878c17d",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ayak bileği ön çekmece testi esas olarak hangi bağı değerlendirir?",
+   "options": [
+    "Lig. calcaneofibulare",
+    "Deltoid bağ",
+    "Lig. talofibulare posterius",
+    "Sindezmoz bağları",
+    "Lig. talofibulare anterius"
+   ],
+   "answer": 4,
+   "explanation": "Ön çekmece testinde tibia sabitlenip topuk öne çekilir; talusun öne kayması ön talofibular bağ yırtığını gösterir. Kalkaneofibular bağ talar tilt (inversiyon stres) testiyle değerlendirilir.",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-47535364",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Yüksek ayak bileği burkulmasında yaralanan yapılar hangileridir?",
+   "options": [
+    "Distal tibiofibular sindezmoz bağları",
+    "Aşil tendonu",
+    "Lisfranc bağı",
+    "Deltoid bağ",
+    "Ayak bileği dış yan bağları"
+   ],
+   "answer": 0,
+   "explanation": "Yüksek ayak bileği burkulması çoğunlukla dış rotasyonla olur ve tibia ile fibulayı bağlayan sindezmoz bağlarını yırtar; iyileşmesi lateral bağ burkulmasından çok daha uzundur.",
+   "entries": [
+    "ligg-tibiofibularia-distalia"
+   ]
+  },
+  {
+   "id": "ar-f12bf4cd",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sinus tarsi içinde bulunan ve subtalar eklemin en güçlü bağı olan yapı hangisidir?",
+   "options": [
+    "Lig. plantare longum",
+    "Lig. talocalcaneum laterale",
+    "Lig. bifurcatum",
+    "Lig. calcaneofibulare",
+    "Lig. talocalcaneum interosseum"
+   ],
+   "answer": 4,
+   "explanation": "İnterosseöz talokalkaneal bağ talus ile kalkaneus arasındaki sinus tarsi'de yer alır ve subtalar eklemin ana bağıdır.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-d75092b5",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Chopart (transvers tarsal) eklemini oluşturan eklemler hangileridir?",
+   "options": [
+    "Kuneonaviküler ve interkuneiform eklemler",
+    "Kalkaneokuboid ve kuboideonaviküler eklemler",
+    "Tarsometatarsal ve intermetatarsal eklemler",
+    "Talokrural ve subtalar eklemler",
+    "Talonaviküler ve kalkaneokuboid eklemler"
+   ],
+   "answer": 4,
+   "explanation": "Chopart eklemi arka ayak ile orta ayak arasındaki S şeklindeki eklem çizgisidir; amputasyon seviyelerinden biridir. Lisfranc ise tarsometatarsal eklemlerdir.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-a378349f",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Lisfranc bağı nereden nereye uzanır?",
+   "options": [
+    "Navikülerden iç kuneiforma",
+    "Kalkaneustan kuboide",
+    "Orta kuneiformdan 1. metatars tabanına",
+    "Kuboidden 5. metatars tabanına",
+    "İç kuneiformdan 2. metatars tabanına"
+   ],
+   "answer": 4,
+   "explanation": "Lisfranc bağı iç kuneiform ile 2. metatars tabanı arasındaki güçlü interosseöz bağdır; 1. ve 2. metatars tabanları arasında bağ bulunmadığından bu bağ tarsometatarsal eklemin anahtarıdır.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-e5efb4d3",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Ayağın dış boyuna kemerinin kilit taşı hangi kemiktir?",
+   "options": [
+    "Os cuboideum",
+    "Os cuneiforme mediale",
+    "5. metatars başı",
+    "Talus başı",
+    "Os naviculare"
+   ],
+   "answer": 0,
+   "explanation": "İç boyuna kemerin kilit taşı talus başı, dış boyuna kemerinki kuboiddir. Dış kemer alçaktır ve yere yakındır.",
+   "entries": [
+    "arcus-pedis",
+    "os-cuboideum"
+   ]
+  },
+  {
+   "id": "ar-ca751a1b",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Erişkinde edinsel düztabanın en sık nedeni hangisidir?",
+   "options": [
+    "M. tibialis anterior felci",
+    "M. fibularis longus yırtığı",
+    "Aşil tendonu yırtığı",
+    "Plantar fasyanın kısalması",
+    "M. tibialis posterior tendon yetmezliği"
+   ],
+   "answer": 4,
+   "explanation": "Tibialis posterior iç kemeri dinamik olarak destekleyen en önemli kastır; tendonunun dejenerasyonu ve yetmezliği iç kemerin çökmesine, topuğun valgusa dönmesine yol açar.",
+   "entries": [
+    "arcus-pedis",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "ar-a91411e8",
+   "group": "Alt ekstremite eklemleri",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Bükük ayağının üzerine düşen hastada orta ayakta şişlik ve ayak tabanında ekimoz var; grafide 1. ve 2. metatars tabanları arasında açıklık görülüyor. En olası tanı hangisidir?",
+   "options": [
+    "Chopart çıkığı",
+    "Kalkaneus kırığı",
+    "Ayak bileği dış bağ burkulması",
+    "Jones kırığı",
+    "Lisfranc (tarsometatarsal) yaralanması"
+   ],
+   "answer": 4,
+   "explanation": "Ayak tabanında ekimoz ve 1.–2. metatars tabanları arasında açıklık Lisfranc bağı yaralanmasının tipik bulgularıdır; yaklaşık beşte biri ilk başvuruda gözden kaçtığı için dikkatli değerlendirilmelidir.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-fe1c13ee",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kaynamama riski en yüksek olan dens kırığı tipi hangisidir?",
+   "options": [
+    "Tip I (dens ucu)",
+    "Tip II (dens tabanı)",
+    "Hangman kırığı",
+    "Tip III (aksis gövdesine uzanan)",
+    "Jefferson kırığı"
+   ],
+   "answer": 1,
+   "explanation": "Anderson–D'Alonzo sınıflamasında tip II kırık dens tabanından geçer; kanlanmanın zayıf olduğu bu bölgede kaynamama oranı yüksektir. Tip III aksis gövdesine uzandığı için genellikle kaynar.",
+   "entries": [
+    "artt-craniovertebrales",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-55929b2d",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Faset (zigapofizyal) eklemlerin duyu innervasyonu hangi yapıdan gelir?",
+   "options": [
+    "Spinal sinirlerin ön dalları",
+    "Sinuvertebral (rekürren meningeal) sinir",
+    "Sempatik zincir",
+    "Spinal sinirlerin arka dalının medial dalları",
+    "Arka dalın lateral dalları"
+   ],
+   "answer": 3,
+   "explanation": "Her faset eklem iki komşu seviyenin arka dal medial dallarından innervasyon alır. Faset kaynaklı ağrıda bu dallara blok veya radyofrekans uygulanır.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-dd990884",
+   "group": "Kafa ve omurga eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lig. sphenomandibulare hangi faringeal ark yapısının kalıntısıdır?",
+   "options": [
+    "1. faringeal arkın kıkırdağı (Meckel kıkırdağı)",
+    "Notokord",
+    "3. faringeal ark",
+    "4. faringeal ark",
+    "2. faringeal arkın kıkırdağı (Reichert)"
+   ],
+   "answer": 0,
+   "explanation": "Meckel kıkırdağından malleus, incus ve lig. sphenomandibulare gelişir. Reichert kıkırdağı (2. ark) stapes, processus styloideus ve lig. stylohyoideum'u oluşturur.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-bead98f0",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Önkolda lifleri membrana interossea'nın tersi yönde uzanan bağ hangisidir?",
+   "options": [
+    "Lig. collaterale radiale",
+    "Lig. anulare radii",
+    "Chorda obliqua",
+    "Lig. quadratum",
+    "Lig. radioulnare dorsale"
+   ],
+   "answer": 2,
+   "explanation": "Membrana interossea lifleri radiustan ulnaya aşağı-içe uzanır; chorda obliqua ise tuberositas ulnae'den radiusa aşağı-dışa iner. Proksimal radioulnar eklemi destekler.",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-5ba07cbd",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Perilunat çıkıkların gerçekleştiği, kapitatumun palmar yüzündeki bağ bakımından zayıf alana ne ad verilir?",
+   "options": [
+    "Anatomik enfiye çukuru",
+    "Parona aralığı",
+    "Karpal tünel",
+    "Guyon kanalı",
+    "Poirier aralığı"
+   ],
+   "answer": 4,
+   "explanation": "Poirier aralığı radioskafokapitat ile radiolunat bağlar arasındaki zayıf bölgedir; perilunat çıkıkta kapitatum buradan lunatumdan ayrılır.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-31d4bdc3",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "TFCC'nin hangi bölümündeki yırtıklar avasküler olduğu için iyileşmez ve debridman gerektirir?",
+   "options": [
+    "Dorsal radioulnar bağ",
+    "Periferik (ulnar kenar)",
+    "Merkezi (diskin orta kısmı)",
+    "Palmar radioulnar bağ",
+    "ECU tendon kılıfı"
+   ],
+   "answer": 2,
+   "explanation": "TFCC'nin yalnızca dış kenarı iyi kanlanır. Merkezi yırtıklar iyileşmediğinden artroskopik debridmanla, periferik yırtıklar ise onarımla tedavi edilir.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-c3fb2f81",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ulnanın radiustan uzun olduğu (ulna plus varyansı) kişilerde görülen ve TFCC ile lunatumun aşınmasına yol açan durum hangisidir?",
+   "options": [
+    "Madelung deformitesi",
+    "Kienböck hastalığı",
+    "Karpal tünel sendromu",
+    "Ulnokarpal sıkışma (impaksiyon) sendromu",
+    "De Quervain tenosinoviti"
+   ],
+   "answer": 3,
+   "explanation": "Ulna plus varyansında ulna başı TFCC ve lunatuma baskı yapar; ulnar taraf ağrısı ve lunatumda kıkırdak hasarı gelişir. Kienböck ise daha çok ulna minus varyansıyla ilişkilidir.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-e6d0e58d",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Başparmak karpometakarpal ekleminin en önemli stabilizatör bağı hangisidir?",
+   "options": [
+    "Ön oblik bağ ('gaga bağı')",
+    "Radial kollateral bağ",
+    "Volar plak",
+    "Dorsoradial bağ",
+    "İntermetakarpal bağ"
+   ],
+   "answer": 0,
+   "explanation": "Ön oblik bağ trapezium tüberkülünden 1. metakarp tabanının iç-ön kısmına uzanır; Bennett kırığında küçük iç parçayı yerinde tutan da bu bağdır.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-17c5390c",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Stener lezyonunda kopan ulnar kollateral bağ ile tutunma yeri arasına giren yapı hangisidir?",
+   "options": [
+    "Volar plak",
+    "M. adductor pollicis aponevrozu",
+    "M. abductor pollicis brevis tendonu",
+    "M. extensor pollicis longus tendonu",
+    "Sesamoid kemik"
+   ],
+   "answer": 1,
+   "explanation": "Başparmak MCP ulnar kollateral bağı koptuğunda bağ ucu adductor aponevrozunun üstüne kalabilir; araya giren aponevroz iyileşmeyi engellediği için cerrahi gerekir.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-dbeaf9b7",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Monteggia kırığında hangi yapı çıkar?",
+   "options": [
+    "Humerus başı",
+    "Lunatum",
+    "Distal radioulnar eklem",
+    "Ulna başı",
+    "Radius başı (proksimal radioulnar eklem)"
+   ],
+   "answer": 4,
+   "explanation": "Monteggia kırığında ulna proksimal 1/3 kırığına radius başı çıkığı eşlik eder. Galeazzi kırığında ise radius gövde kırığına distal radioulnar eklem çıkığı eşlik eder.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-9db62430",
+   "group": "Üst ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sternoklaviküler eklemin arka çıkığı neden acil bir durumdur?",
+   "options": [
+    "N. axillaris'i yaralar.",
+    "Klavikulanın iç ucu arkadaki büyük damarlara ve trakeaya bası yapabilir.",
+    "Kostoklaviküler bağ asla yırtılmaz.",
+    "Omuz ekleminin de çıkmasına yol açar.",
+    "Akromiyoklaviküler eklemi kilitler."
+   ],
+   "answer": 1,
+   "explanation": "Arka çıkıkta klavikulanın iç ucu brakiyosefalik damarlara, trakeaya ve özofagusa bası yapabilir; bu nedenle ön çıkıktan farklı olarak acil redüksiyon gerekebilir.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-684028b7",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kalça ekleminin kapsülü femur boynunun arka yüzünde ne kadarını içine alır?",
+   "options": [
+    "İç 2/3'ünü",
+    "Trochanter major'a kadar tamamını",
+    "İç 1/3'ünü",
+    "Tamamını",
+    "Yalnızca femur başını"
+   ],
+   "answer": 0,
+   "explanation": "Kapsül önde linea intertrochanterica'ya kadar uzanır ve boynun tamamını, arkada ise boynun yalnızca iç 2/3'ünü kapsar. Boyun kırıkları bu nedenle büyük ölçüde kapsül içidir.",
+   "entries": [
+    "art-coxae",
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-afbcdf8f",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Kalça ekleminde aşırı iç rotasyonu sınırlayan bağ hangisidir?",
+   "options": [
+    "Lig. transversum acetabuli",
+    "Lig. pubofemorale",
+    "Zona orbicularis",
+    "Lig. capitis femoris",
+    "Lig. ischiofemorale"
+   ],
+   "answer": 4,
+   "explanation": "İskiofemoral bağ iskiumdan kapsülün arka yüzüne spiral şekilde uzanır; iç rotasyon ve ekstansiyonda gerilir.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-eb063057",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dizin arka-dış köşesinin en önemli statik stabilizatörü hangisidir?",
+   "options": [
+    "Lig. popliteofibulare",
+    "Tractus iliotibialis",
+    "Lig. meniscofemorale",
+    "Lig. collaterale tibiale",
+    "Lig. popliteum obliquum"
+   ],
+   "answer": 0,
+   "explanation": "Arka-dış köşe dış kollateral bağ, popliteus tendonu, popliteofibular bağ ve kapsülden oluşur; popliteofibular bağ dış rotasyon stabilitesinin başlıca statik yapısıdır.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-8f7a2217",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dial testinde hem 30° hem 90° diz fleksiyonunda artmış dış rotasyon neyi düşündürür?",
+   "options": [
+    "Yalnız iç kollateral bağ yırtığını",
+    "Patella çıkığını",
+    "Medial menisküs yırtığını",
+    "Arka-dış köşe ile arka çapraz bağın birlikte yaralanmasını",
+    "Yalnız ön çapraz bağ yırtığını"
+   ],
+   "answer": 3,
+   "explanation": "Dış rotasyon artışı yalnız 30°'de ise izole arka-dış köşe yaralanması, hem 30° hem 90°'de ise arka-dış köşe ile AÇB'nin birlikte yaralanması düşünülür.",
+   "entries": [
+    "ligg-genus-posteriora",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-cf2d6b19",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Hem talokrural hem subtalar ekleme katkı veren ayak bileği dış bağı hangisidir?",
+   "options": [
+    "Lig. talofibulare posterius",
+    "Lig. talofibulare anterius",
+    "Lig. talocalcaneum interosseum",
+    "Lig. tibiofibulare anterius",
+    "Lig. calcaneofibulare"
+   ],
+   "answer": 4,
+   "explanation": "Kalkaneofibular bağ malleolus lateralis'ten kalkaneusa uzandığı için iki eklemi birden çaprazlar; talar tilt testiyle değerlendirilir.",
+   "entries": [
+    "ligg-talocruralia-lateralia",
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-f8a72f31",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Ayak bileğinde talusun mortis içinde dışa kaymasını önleyen en önemli yapı hangisidir?",
+   "options": [
+    "Lig. calcaneofibulare",
+    "Deltoid bağın derin (tibiotalar) kısmı",
+    "Lig. plantare longum",
+    "Deltoid bağın tibionaviküler kısmı",
+    "Lig. talofibulare anterius"
+   ],
+   "answer": 1,
+   "explanation": "Deltoid bağın derin tibiotalar lifleri talusu iç malleole bağlar; bu lifler yırtıldığında talus dışa kayar ve eklem temas yüzeyi azalarak artroz gelişir.",
+   "entries": [
+    "lig-deltoideum"
+   ]
+  },
+  {
+   "id": "ar-90e61aae",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lig. bifurcatum'un iki kolu kalkaneustan hangi kemiklere uzanır?",
+   "options": [
+    "Os naviculare ve os cuboideum",
+    "Talus ve os cuboideum",
+    "Os cuboideum ve 5. metatars",
+    "Os naviculare ve iç kuneiform",
+    "Talus ve os naviculare"
+   ],
+   "answer": 0,
+   "explanation": "Y şeklindeki bifurkat bağın kalkaneonaviküler ve kalkaneokuboid kolları Chopart ekleminin dorsalinde yer alır; burkulması sinus tarsi'nin önünde ağrı yapar.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-c4078aba",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Talokalkaneal koalisyonun yan ayak bileği grafisindeki tipik bulgusu hangisidir?",
+   "options": [
+    "Terry Thomas işareti",
+    "Karıncayiyen burnu işareti",
+    "Çift kontur işareti",
+    "C işareti",
+    "Halka işareti"
+   ],
+   "answer": 3,
+   "explanation": "Talokalkaneal koalisyonda talus kubbesi ile sustentaculum tali arasında devamlı bir C şeklinde kontur oluşur. Kalkaneonaviküler koalisyonda ise oblik grafide 'karıncayiyen burnu' görülür.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-358bf10c",
+   "group": "Alt ekstremite eklemleri",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Kayak yaparken dizi dışa dönen sporcu ani ağrı ve instabilite tarif ediyor; ön çapraz bağ rekonstrüksiyonundan sonra dizde dış rotasyon instabilitesi sürüyor. Gözden kaçmış olabilecek yaralanma hangisidir?",
+   "options": [
+    "Pes anserinus bursiti",
+    "Dizin arka-dış köşe yaralanması",
+    "Patellar tendon yırtığı",
+    "Prepatellar bursit",
+    "Medial menisküs yırtığı"
+   ],
+   "answer": 1,
+   "explanation": "Arka-dış köşe yaralanmaları sıklıkla çapraz bağ yaralanmalarına eşlik eder; tanınıp onarılmazsa çapraz bağ greftine aşırı yük biner ve rekonstrüksiyon başarısız olur.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
   }
  ]
 }

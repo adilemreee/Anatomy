@@ -1,0 +1,2800 @@
+{
+ "system": "articular",
+ "questions": [
+  {
+   "id": "ar-71f95389",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following joints is a syndesmosis?",
+   "options": [
+    "Sagittal suture",
+    "Attachment of the teeth to their sockets",
+    "Pubic symphysis",
+    "First sternocostal joint",
+    "Distal tibiofibular joint"
+   ],
+   "answer": 4,
+   "explanation": "A syndesmosis is a fibrous joint in which bones are joined by a ligament or membrane: the distal tibiofibular joint and the interosseous membranes of the forearm and leg are examples. The pubic symphysis is fibrocartilaginous, the 1st sternocostal joint a synchondrosis, the tooth–socket union a gomphosis, and sutures are fibrous joints peculiar to the skull.",
+   "notes": [
+    "Suture.",
+    "Gomphosis.",
+    "Fibrocartilage (symphysis).",
+    "Hyaline cartilage (synchondrosis).",
+    ""
+   ],
+   "entries": [
+    "eklem-tipleri",
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-296e0313",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following is a saddle (sellar) synovial joint?",
+   "options": [
+    "Radiocarpal joint",
+    "Proximal radio-ulnar joint",
+    "Carpometacarpal joint of the thumb",
+    "Acromioclavicular joint",
+    "Humero-ulnar joint"
+   ],
+   "answer": 2,
+   "explanation": "In saddle joints both surfaces are concave in one direction and convex in the other; they allow movement about two axes, including opposition. Examples: the 1st carpometacarpal joint and the sternoclavicular joint. The radiocarpal joint is ellipsoid, the humero-ulnar a hinge, the proximal radio-ulnar a pivot and the acromioclavicular a plane joint.",
+   "entries": [
+    "eklem-tipleri",
+    "artt-manus"
+   ]
+  },
+  {
+   "id": "ar-ca13fe9c",
+   "group": "General principles",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following pairings is WRONG?",
+   "options": [
+    "Knee joint – bicondylar joint",
+    "Atlanto-occipital joint – pivot (trochoid) joint",
+    "Median atlanto-axial joint – pivot joint",
+    "Zygapophysial joint – plane joint",
+    "Hip joint – ball-and-socket (spheroidal) joint"
+   ],
+   "answer": 1,
+   "explanation": "The atlanto-occipital joint is ellipsoid (condylar) and allows the 'yes' movement. Pivot joints are the median atlanto-axial joint ('no' movement) and the proximal and distal radio-ulnar joints.",
+   "entries": [
+    "eklem-tipleri",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-244f637a",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The growth plate (epiphyseal plate) is an example of which type of joint?",
+   "options": [
+    "Diarthrosis",
+    "Synchondrosis (primary cartilaginous joint)",
+    "Symphysis (secondary cartilaginous joint)",
+    "Syndesmosis",
+    "Gomphosis"
+   ],
+   "answer": 1,
+   "explanation": "In primary cartilaginous joints (synchondroses) bones are joined by hyaline cartilage and most ossify with time: the epiphyseal plate, the 1st rib–manubrium joint, the spheno-occipital synchondrosis. Secondary cartilaginous joints (symphyses) contain fibrocartilage and lie in the midline.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-230a765a",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following about the temporomandibular joint is FALSE?",
+   "options": [
+    "Part of the lateral pterygoid attaches to the disc.",
+    "On opening the mouth, the condyle and disc glide forwards towards the articular tubercle.",
+    "The articular disc divides the joint into upper and lower cavities.",
+    "The articular surfaces are covered with hyaline cartilage.",
+    "Hinge (rotation) movement occurs in the lower joint cavity."
+   ],
+   "answer": 3,
+   "explanation": "The articular surfaces of the TMJ are covered with fibrocartilage, not hyaline cartilage (related to the intramembranous origin of the bones). The disc divides the joint in two: rotation occurs in the lower cavity, forward gliding (translation) in the upper. Lateral pterygoid pulls the condyle and disc forwards.",
+   "entries": [
+    "art-temporomandibularis",
+    "mm-pterygoidei"
+   ]
+  },
+  {
+   "id": "ar-30f33bcd",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient who yawned cannot close the mouth. The mandibular condyle has passed in front of the articular tubercle. In which direction is the jaw pushed for reduction?",
+   "options": [
+    "First sideways, then upwards",
+    "Straight backwards",
+    "First downwards, then backwards",
+    "Straight upwards",
+    "First upwards, then forwards"
+   ],
+   "answer": 2,
+   "explanation": "TMJ dislocation is almost always anterior; the condyle catches in front of the eminence and spasm of the muscles (masseter, temporalis, medial pterygoid) holds it there. With the thumbs on the lower molars the jaw is pushed first downwards (to pass beneath the eminence) and then backwards.",
+   "entries": [
+    "art-temporomandibularis",
+    "mandibula"
+   ]
+  },
+  {
+   "id": "ar-56a27913",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The gelatinous centre of the intervertebral disc (nucleus pulposus) is embryologically a remnant of what?",
+   "options": [
+    "Notochord",
+    "Sclerotome",
+    "Neural crest",
+    "Dermomyotome",
+    "Intermediate mesoderm"
+   ],
+   "answer": 0,
+   "explanation": "The nucleus pulposus is a remnant of the notochord; the surrounding anulus fibrosus consists of fibrocartilaginous rings of sclerotomal origin. With age its water content falls and disc height decreases.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-b272030c",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Why are lumbar disc herniations most often posterolateral?",
+   "options": [
+    "The anterior longitudinal ligament supports the back.",
+    "The anulus fibrosus is thicker posteriorly.",
+    "The posterior longitudinal ligament is thick in the midline and thin at the sides.",
+    "The nucleus pulposus lies near the front of the disc.",
+    "The ligamentum flavum pushes the disc from the sides."
+   ],
+   "answer": 2,
+   "explanation": "The posterior longitudinal ligament is a narrow band behind the vertebral bodies and supports the disc only in the midline. The anulus fibrosus is also thinner posteriorly. So the nucleus pulposus herniates most often posterolaterally and compresses the nerve root.",
+   "entries": [
+    "discus-intervertebralis",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-a0beeda5",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which yellow ligament, rich in elastic fibres, runs between the laminae of the vertebral arches?",
+   "options": [
+    "Supraspinous ligament",
+    "Posterior longitudinal ligament",
+    "Ligamentum flavum",
+    "Nuchal ligament",
+    "Interspinous ligament"
+   ],
+   "answer": 2,
+   "explanation": "The ligamenta flava join adjacent laminae; thanks to their elastic fibres they help straighten the spine after flexion. In lumbar puncture the needle passes the skin, supraspinous and interspinous ligaments and then the ligamentum flavum (a 'pop') to reach the epidural space.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-0918e232",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "At which joint does most of the 'no' movement (rotation) of the head occur?",
+   "options": [
+    "Atlanto-occipital joint",
+    "Temporomandibular joint",
+    "Atlanto-axial joint",
+    "C7–T1 disc",
+    "C2–C3 facet joints"
+   ],
+   "answer": 2,
+   "explanation": "At the atlanto-axial joints (one median pivot and two lateral plane joints) the atlas rotates around the dens; about half of neck rotation occurs here. The 'yes' movement is at the atlanto-occipital joint. The alar ligaments limit excessive rotation.",
+   "entries": [
+    "atlas",
+    "axis",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-24e0cc41",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which joint does the head of a rib form with the bodies of two adjacent thoracic vertebrae?",
+   "options": [
+    "Sternocostal joint",
+    "Costochondral joint",
+    "Costotransverse joint",
+    "Interchondral joint",
+    "Joint of the head of the rib"
+   ],
+   "answer": 4,
+   "explanation": "The head of a typical rib forms the joint of the head of the rib with the demifacets on the bodies of two adjacent vertebrae and the intervening disc; its tubercle forms the costotransverse joint with the transverse process of the lower vertebra. These two joints allow the rib's 'bucket-handle' and 'pump-handle' movements in breathing.",
+   "entries": [
+    "artt-thoracis",
+    "costae",
+    "vertebrae-thoracicae"
+   ]
+  },
+  {
+   "id": "ar-e90c051e",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which is the only true (synovial) joint connecting the upper limb to the axial skeleton?",
+   "options": [
+    "Shoulder joint",
+    "Costoclavicular joint",
+    "Scapulothoracic connection",
+    "Acromioclavicular joint",
+    "Sternoclavicular joint"
+   ],
+   "answer": 4,
+   "explanation": "The only articular connection between the upper limb and the axial skeleton is the sternoclavicular joint. It is a saddle joint with an articular disc and very strong support from the costoclavicular ligament; so it rarely dislocates, and clavicle fracture is more common. The scapulothoracic 'joint' is not a true joint.",
+   "entries": [
+    "art-sternoclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-55314209",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A rugby player who fell on his shoulder has a step between the acromion and clavicle, with the outer end of the clavicle prominent above. Which ligament must also be torn for this (type III) separation?",
+   "options": [
+    "Coraco-acromial ligament",
+    "Coracoclavicular ligament",
+    "Superior transverse scapular ligament",
+    "Coracohumeral ligament",
+    "Inferior glenohumeral ligament"
+   ],
+   "answer": 1,
+   "explanation": "In acromioclavicular separation, if only the AC ligament tears the step is slight. If the coracoclavicular ligament (conoid and trapezoid parts) also tears, the scapula and arm drop and the end of the clavicle stays markedly high.",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula",
+    "scapula"
+   ]
+  },
+  {
+   "id": "ar-94215574",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A volleyball player falls with the arm abducted and externally rotated. A shoulder dislocation is found, and after reduction there is sensory loss over the outer shoulder. What is the direction of the dislocation and which nerve is injured?",
+   "options": [
+    "Superior dislocation – musculocutaneous nerve",
+    "Posterior dislocation – axillary nerve",
+    "Anteroinferior dislocation – axillary nerve",
+    "Posterior dislocation – suprascapular nerve",
+    "Anteroinferior dislocation – radial nerve"
+   ],
+   "answer": 2,
+   "explanation": "The glenohumeral joint is the most frequently dislocated large joint in the body; more than 95% of dislocations are anteroinferior because the lower part of the capsule is weakest. As the humeral head descends, the axillary nerve just below the surgical neck is stretched.",
+   "entries": [
+    "art-humeri",
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ar-75098002",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which fibrocartilaginous ring deepens the glenohumeral joint?",
+   "options": [
+    "Glenoid labrum",
+    "Articular disc",
+    "Meniscus",
+    "Subacromial bursa",
+    "Coracohumeral ligament"
+   ],
+   "answer": 0,
+   "explanation": "The glenoid cavity is shallow; the glenoid labrum around it deepens the socket. The long head of biceps attaches to its upper part; a tear there is a SLAP lesion, and a tear of the anteroinferior part a Bankart lesion.",
+   "entries": [
+    "art-humeri",
+    "scapula"
+   ]
+  },
+  {
+   "id": "ar-d0f60251",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A 50-year-old painter has pain between 60° and 120° when raising the arm sideways (painful arc). Which rotator cuff tendon is impinged under the acromion and torn most often?",
+   "options": [
+    "Infraspinatus",
+    "Supraspinatus",
+    "Teres major",
+    "Teres minor",
+    "Subscapularis"
+   ],
+   "answer": 1,
+   "explanation": "The supraspinatus tendon passes through the narrow space between the acromion, coraco-acromial ligament and humeral head. It is impinged in the mid-range of abduction (subacromial impingement); degeneration and tears are most common in this tendon, in its poorly vascularised zone.",
+   "entries": [
+    "art-humeri",
+    "m-supraspinatus"
+   ]
+  },
+  {
+   "id": "ar-873e5e75",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Why does the 'carrying angle' of the elbow exist?",
+   "options": [
+    "The radial head is longer than the ulna",
+    "The medial edge of the trochlea lies lower than the lateral edge",
+    "The radial collateral ligament is short",
+    "The capitulum of the humerus is large",
+    "The olecranon is tilted laterally"
+   ],
+   "answer": 1,
+   "explanation": "In extension the forearm angles outwards relative to the arm (~10° in men, ~15° in women). This is because the medial lip of the trochlea extends further down. Cubitus valgus and varus are an increase and decrease of this angle.",
+   "entries": [
+    "art-cubiti",
+    "humerus"
+   ]
+  },
+  {
+   "id": "ar-49c6e4a8",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following about the elbow joint is FALSE?",
+   "options": [
+    "The ulnar collateral ligament protects against valgus stress.",
+    "The humero-ulnar joint is a hinge joint.",
+    "The anular ligament encircles the radial head.",
+    "Both flexion and rotation occur at the humeroradial joint.",
+    "The proximal radio-ulnar joint has a separate joint capsule."
+   ],
+   "answer": 4,
+   "explanation": "The elbow is a compound joint of the humero-ulnar, humeroradial and proximal radio-ulnar joints, all three within a single capsule. The medial (ulnar) collateral ligament protects against valgus stress, the lateral (radial) collateral ligament against varus stress.",
+   "entries": [
+    "art-cubiti",
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-4fb954c8",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At which joints do pronation and supination occur?",
+   "options": [
+    "Humeroradial and carpometacarpal joints",
+    "Humero-ulnar and radiocarpal joints",
+    "Midcarpal joint",
+    "Proximal and distal radio-ulnar joints",
+    "Radiocarpal joint only"
+   ],
+   "answer": 3,
+   "explanation": "In pronation–supination the radius rotates proximally within the radial notch of the ulna and distally around the head of the ulna. The two pivot joints work together with the interosseous membrane.",
+   "entries": [
+    "artt-radioulnares",
+    "radius",
+    "ulna"
+   ]
+  },
+  {
+   "id": "ar-ffc10707",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following does NOT directly take part in the radiocarpal joint?",
+   "options": [
+    "Lunate",
+    "Distal end of the ulna",
+    "Distal articular surface of the radius",
+    "Articular disc (TFCC)",
+    "Scaphoid"
+   ],
+   "answer": 1,
+   "explanation": "The radiocarpal joint is formed proximally by the radius and the triangular fibrocartilage disc (TFCC) and distally by the scaphoid, lunate and triquetrum. The ulna is separated from the carpal bones by the disc, so it does not enter the joint directly.",
+   "entries": [
+    "art-radiocarpalis",
+    "ulna",
+    "ossa-carpi"
+   ]
+  },
+  {
+   "id": "ar-51873285",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What type of joint are the metacarpophalangeal joints?",
+   "options": [
+    "Hinge (ginglymus)",
+    "Plane",
+    "Pivot",
+    "Saddle",
+    "Ellipsoid (condylar)"
+   ],
+   "answer": 4,
+   "explanation": "MCP joints are ellipsoid: flexion–extension and abduction–adduction occur, with no active rotation. The interphalangeal joints are pure hinge joints.",
+   "entries": [
+    "artt-manus",
+    "phalanges-manus"
+   ]
+  },
+  {
+   "id": "ar-2a268400",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which ligament, known as the strongest in the body, prevents hyperextension of the hip?",
+   "options": [
+    "Iliofemoral ligament",
+    "Ischiofemoral ligament",
+    "Ligament of the head of the femur",
+    "Inguinal ligament",
+    "Pubofemoral ligament"
+   ],
+   "answer": 0,
+   "explanation": "The inverted-Y iliofemoral ligament (Bigelow's ligament) runs between the AIIS and the intertrochanteric line. When standing it passively stops the trunk falling backwards, allowing upright posture without muscular effort.",
+   "entries": [
+    "art-coxae",
+    "os-coxae",
+    "femur"
+   ]
+  },
+  {
+   "id": "ar-4674d825",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "In a traffic accident a driver's knee struck the dashboard; the leg is shortened, flexed, adducted and internally rotated. A hip dislocation is found. Which nerve is most often injured in this dislocation?",
+   "options": [
+    "Femoral nerve",
+    "Obturator nerve",
+    "Sciatic nerve",
+    "Inferior gluteal nerve",
+    "Lateral femoral cutaneous nerve"
+   ],
+   "answer": 2,
+   "explanation": "In a 'dashboard' injury with the knee bent, the femoral head dislocates posteriorly (most hip dislocations). Behind, the head compresses or stretches the sciatic nerve; the fibular part is most often affected.",
+   "entries": [
+    "art-coxae",
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ar-561bb137",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The artery running within the ligament of the head of the femur is usually a branch of which artery?",
+   "options": [
+    "Superior gluteal artery",
+    "Medial circumflex femoral artery",
+    "Obturator artery",
+    "Profunda femoris artery",
+    "Lateral circumflex femoral artery"
+   ],
+   "answer": 2,
+   "explanation": "The artery of the ligament of the head (acetabular artery) is a branch of the obturator artery; in childhood it makes an important contribution to the femoral head, in adults only a small one. In adults the head is mainly supplied by the medial circumflex femoral artery.",
+   "entries": [
+    "art-coxae",
+    "femur"
+   ]
+  },
+  {
+   "id": "ar-74361042",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A footballer hears a 'pop' from his knee while changing direction suddenly, and the knee swells rapidly. On examination, with the knee at 90° of flexion, the tibia slides excessively forwards. Which structure is injured?",
+   "options": [
+    "Patellar ligament",
+    "Anterior cruciate ligament",
+    "Posterior cruciate ligament",
+    "Tibial collateral ligament",
+    "Lateral meniscus"
+   ],
+   "answer": 1,
+   "explanation": "The anterior cruciate ligament prevents the tibia sliding forwards on the femur; the anterior drawer and Lachman tests are positive. The posterior cruciate ligament prevents it sliding backwards (posterior drawer test).",
+   "entries": [
+    "ligg-cruciata",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-9a262b50",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the main reason the medial meniscus tears more often than the lateral meniscus?",
+   "options": [
+    "It is firmly attached to the tibial collateral ligament and so is less mobile",
+    "It is attached to the popliteus tendon",
+    "It has no blood supply at all",
+    "It is fused with the posterior cruciate ligament",
+    "It is smaller and more circular"
+   ],
+   "answer": 0,
+   "explanation": "The medial meniscus is C-shaped and its outer edge is attached to the medial collateral ligament; because it cannot move during movement, it tears. The lateral meniscus is more circular and mobile; the popliteus tendon separates it from the collateral ligament. 'Unhappy triad': MCL + ACL + medial meniscus.",
+   "entries": [
+    "meniscus",
+    "ligg-collateralia-genus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-c86f32a6",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which muscle unlocks the knee, locked in full extension, so that flexion can begin?",
+   "options": [
+    "Semimembranosus",
+    "Popliteus",
+    "Gastrocnemius",
+    "Sartorius",
+    "Biceps femoris"
+   ],
+   "answer": 1,
+   "explanation": "In the last degrees of full extension the femur rotates medially on the tibia and the knee locks. At the start of flexion popliteus unlocks it by rotating the femur laterally (or, when not weight-bearing, the tibia medially).",
+   "entries": [
+    "m-popliteus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-dd74f351",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In a valgus stress caused by a blow to the outer side of the knee, which ligament is damaged first?",
+   "options": [
+    "Tibial (medial) collateral ligament",
+    "Oblique popliteal ligament",
+    "Posterior cruciate ligament",
+    "Patellar ligament",
+    "Fibular (lateral) collateral ligament"
+   ],
+   "answer": 0,
+   "explanation": "A force from the outside stretches the medial side of the knee (valgus): the medial collateral ligament tears, and in severe injuries the ACL and medial meniscus are also involved. The lateral collateral ligament is injured in varus stress.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-b47c2724",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A young woman who rolled her ankle inwards on uneven ground has swelling and tenderness in front of the lateral malleolus. Which ligament is most often injured?",
+   "options": [
+    "Anterior tibiofibular ligament",
+    "Calcaneofibular ligament",
+    "Posterior talofibular ligament",
+    "Deltoid ligament",
+    "Anterior talofibular ligament"
+   ],
+   "answer": 4,
+   "explanation": "Most ankle sprains occur in plantarflexion and inversion; the anterior talofibular ligament, the weakest lateral ligament, tears first, followed by the calcaneofibular ligament. The medial deltoid ligament is very strong and is usually injured together with a malleolar fracture.",
+   "entries": [
+    "art-talocruralis",
+    "fibula"
+   ]
+  },
+  {
+   "id": "ar-1f239c4c",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "At which joints do inversion and eversion of the foot mainly occur?",
+   "options": [
+    "Metatarsophalangeal joints",
+    "Subtalar and talocalcaneonavicular joints",
+    "Distal tibiofibular joint",
+    "Talocrural joint",
+    "Tarsometatarsal joints"
+   ],
+   "answer": 1,
+   "explanation": "The talocrural joint is a hinge and allows dorsiflexion–plantarflexion. Inversion–eversion occurs below the talus, at the subtalar (talocalcaneal) and talocalcaneonavicular joints, with a small part at the transverse tarsal (Chopart) joint.",
+   "entries": [
+    "artt-pedis",
+    "art-talocruralis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-e770222c",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In which position is the ankle (talocrural) joint most stable, and why?",
+   "options": [
+    "In inversion, because the lateral ligaments are taut.",
+    "In dorsiflexion, because the trochlea of the talus is wider in front and locks firmly between the malleoli.",
+    "In plantarflexion, because the deltoid ligament is tautest.",
+    "In plantarflexion, because the malleoli fully grip the talus.",
+    "In neutral, because the capsule is most lax."
+   ],
+   "answer": 1,
+   "explanation": "The trochlea of the talus is wide in front and narrow behind. In dorsiflexion the wide front part wedges between the malleoli and the joint is stable. In plantarflexion the narrow part lies in the mortise and the joint loosens; this is why sprains mostly occur in plantarflexion.",
+   "entries": [
+    "art-talocruralis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-fe165037",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which statement about the sacroiliac joint is true?",
+   "options": [
+    "It is a ball-and-socket joint allowing a wide range of movement.",
+    "It is a mixed joint: synovial in front, joined behind by strong interosseous ligaments.",
+    "It is not affected in ankylosing spondylitis.",
+    "It lies between the coccyx and the ilium.",
+    "It is an entirely fibrous joint."
+   ],
+   "answer": 1,
+   "explanation": "The part of the sacroiliac joint between the auricular surfaces is synovial; behind it are the interosseous sacroiliac ligaments, among the strongest in the body. It moves very little and transfers weight from the trunk to the pelvis. Ankylosing spondylitis usually begins at this joint (sacroiliitis).",
+   "entries": [
+    "art-sacroiliaca",
+    "os-sacrum",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-1c090eed",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What type of joint is the pubic symphysis?",
+   "options": [
+    "Primary cartilaginous joint (synchondrosis)",
+    "Suture",
+    "Syndesmosis",
+    "Synovial plane joint",
+    "Secondary cartilaginous joint (fibrocartilaginous symphysis)"
+   ],
+   "answer": 4,
+   "explanation": "The two pubic bones meet by surfaces covered with hyaline cartilage through an intervening fibrocartilaginous disc (interpubic disc). In pregnancy the ligaments loosen under hormonal influence and the joint widens slightly.",
+   "entries": [
+    "symphysis-pubica",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-fb65a359",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the openings formed by the sacrospinous and sacrotuberous ligaments is true?",
+   "options": [
+    "They close the obturator foramen.",
+    "They separate the muscular and vascular lacunae.",
+    "They convert the greater and lesser sciatic notches into the greater and lesser sciatic foramina.",
+    "They form the floor of the inguinal canal.",
+    "They form the wall of the pudendal canal."
+   ],
+   "answer": 2,
+   "explanation": "These two ligaments bind the sacrum to the ischium and stop the sacrum tipping forwards. They convert the greater sciatic notch into the greater sciatic foramen and the lesser notch into the lesser sciatic foramen. Piriformis divides the greater sciatic foramen into suprapiriform and infrapiriform parts.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae",
+    "os-sacrum"
+   ]
+  },
+  {
+   "id": "ar-081572fb",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following is NOT a feature of a synovial joint?",
+   "options": [
+    "Joint capsule",
+    "Joint cavity",
+    "Hyaline articular cartilage",
+    "Bone ends fused together by fibrous tissue",
+    "Synovial fluid"
+   ],
+   "answer": 3,
+   "explanation": "In synovial joints the bone ends are covered with hyaline cartilage and separated by a joint cavity; the cavity is enclosed by the synovial membrane and fibrous capsule, and synovial fluid nourishes and lubricates it. Fusion by fibrous tissue is a feature of fibrous joints (sutures, syndesmoses).",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-faa2b7bc",
+   "group": "General principles",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What does Hilton's law state?",
+   "options": [
+    "Each joint is supplied by a single nerve",
+    "The nerves supplying the muscles that move a joint also supply that joint and the skin over it",
+    "Articular cartilage is rich in nerves",
+    "A joint's ligaments act opposite to its muscles",
+    "A joint's blood supply comes only from the capsular arteries"
+   ],
+   "answer": 1,
+   "explanation": "Hilton's law explains why joint pain can be referred to distant areas: for example, because the obturator nerve also supplies the hip joint, hip disease can cause pain on the inner side of the knee. Articular cartilage has no nerves or vessels.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-35071863",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What type of joint attaches the teeth to their sockets?",
+   "options": [
+    "Syndesmosis",
+    "Gomphosis",
+    "Symphysis",
+    "Synchondrosis",
+    "Suture"
+   ],
+   "answer": 1,
+   "explanation": "A gomphosis is a type of fibrous joint: the tooth root is pegged into its alveolar socket by the periodontal ligament. Sutures join skull bones, a syndesmosis the distal tibia and fibula; the epiphyseal plate is a synchondrosis, and the pubic symphysis and intervertebral discs are symphyses.",
+   "entries": [
+    "eklem-tipleri",
+    "dentes"
+   ]
+  },
+  {
+   "id": "ar-471daa9c",
+   "group": "General principles",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is NOT a synchondrosis?",
+   "options": [
+    "Spheno-occipital junction",
+    "Joint between the 1st rib and manubrium",
+    "Epiphyseal plate",
+    "Y-shaped cartilage of the hip bone",
+    "Pubic symphysis"
+   ],
+   "answer": 4,
+   "explanation": "Synchondroses are primary cartilaginous joints formed by hyaline cartilage, and most ossify with time. The pubic symphysis is a secondary cartilaginous joint (symphysis) containing a fibrocartilage disc; the intervertebral discs and manubriosternal joint also belong to this group.",
+   "entries": [
+    "eklem-tipleri",
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-78703f7e",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What movement mainly occurs at the atlanto-occipital joint?",
+   "options": [
+    "No movement at all",
+    "Lateral flexion only",
+    "Turning the head left and right (the 'no' movement)",
+    "Rotation only",
+    "Nodding the head forwards and backwards (the 'yes' movement)"
+   ],
+   "answer": 4,
+   "explanation": "The occipital condyles sit on the superior articular facets of the atlas; this ellipsoid joint mainly allows flexion–extension and a little lateral bending. Most rotation occurs at the atlanto-axial joints.",
+   "entries": [
+    "ligg-columnae",
+    "atlas"
+   ]
+  },
+  {
+   "id": "ar-044f5001",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The nuchal ligament is the continuation in the neck of which ligament?",
+   "options": [
+    "Ligamentum flavum",
+    "Apical ligament of the dens",
+    "Anterior longitudinal ligament",
+    "Tectorial membrane",
+    "Supraspinous ligament"
+   ],
+   "answer": 4,
+   "explanation": "The supraspinous ligament, joining the tips of the spinous processes, broadens above C7 into the triangular nuchal ligament extending to the external occipital protuberance; it provides attachment for trapezius and splenius.",
+   "entries": [
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ar-06ded398",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The tectorial membrane is the upward continuation of which ligament?",
+   "options": [
+    "Supraspinous ligament",
+    "Anterior longitudinal ligament",
+    "Ligamentum flavum",
+    "Transverse ligament of the atlas",
+    "Posterior longitudinal ligament"
+   ],
+   "answer": 4,
+   "explanation": "The posterior longitudinal ligament broadens upwards from the body of the axis as the tectorial membrane and attaches to the clivus; it covers the dens and cruciform ligament from behind and protects the spinal cord.",
+   "entries": [
+    "ligg-columnae",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-c597d8fc",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What are the components of the cruciform ligament of the atlas?",
+   "options": [
+    "Tectorial membrane and ligamentum flavum",
+    "Transverse ligament of the atlas and longitudinal bands",
+    "Alar ligaments and apical ligament of the dens",
+    "Nuchal ligament and supraspinous ligament",
+    "Anterior and posterior longitudinal ligaments"
+   ],
+   "answer": 1,
+   "explanation": "The horizontal limb of the cruciform ligament is the transverse ligament of the atlas, holding the dens against the anterior arch; its vertical limbs are longitudinal fibres running from the body of the axis to the foramen magnum. The alar ligaments run from the sides of the dens to the occipital condyles and limit rotation.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-ed470bcc",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Before intubation, a patient with long-standing rheumatoid arthritis has flexion–extension neck X-rays; in flexion the distance between the atlas and dens increases markedly. Weakening of which ligament is chiefly responsible for this instability?",
+   "options": [
+    "Anterior longitudinal ligament",
+    "Interspinous ligament",
+    "Ligamentum flavum",
+    "Nuchal ligament",
+    "Transverse ligament of the atlas"
+   ],
+   "answer": 4,
+   "explanation": "Rheumatoid synovitis erodes the ligaments around the dens; when the transverse ligament loosens, the atlas slides forwards in flexion and the dens can compress the spinal cord. This is why neck flexion is avoided during intubation in RA patients.",
+   "entries": [
+    "ligg-columnae",
+    "atlas",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-f49987bc",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which statement about the intervertebral disc is true?",
+   "options": [
+    "There is also a disc between the atlas and axis",
+    "It makes up half the length of the spine",
+    "Its outer part is the fibrocartilaginous anulus fibrosus and its inner part the gelatinous nucleus pulposus",
+    "It is a synovial joint",
+    "In adults the whole disc is well vascularised"
+   ],
+   "answer": 2,
+   "explanation": "The discs are symphysis-type cartilaginous joints and make up about a quarter of the length of the spine. There is no disc between C1 and C2. In adults the disc is largely avascular and is nourished by diffusion from the end plates.",
+   "entries": [
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ar-19cb43e5",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What type of joint are the facet (zygapophysial) joints between the vertebrae?",
+   "options": [
+    "Plane synovial joint",
+    "Pivot synovial joint",
+    "Syndesmosis",
+    "Ball-and-socket synovial joint",
+    "Symphysis"
+   ],
+   "answer": 0,
+   "explanation": "The facet joints between the superior and inferior articular processes are plane joints that allow gliding; the orientation of their surfaces determines the range of movement of each region (oblique in the neck, coronal in the thorax, sagittal in the lumbar spine). Their degeneration is a common cause of low back pain.",
+   "entries": [
+    "ligg-columnae",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ar-7888f307",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In what order do movements occur at the temporomandibular joint when the mouth opens?",
+   "options": [
+    "Only a hinge movement occurs",
+    "The condyle stays fixed behind the articular tubercle",
+    "The disc glides backwards independently of the condyle",
+    "First gliding in the upper compartment, then rotation in the lower compartment",
+    "First the condyle rotates like a hinge in the lower compartment, then the condyle and disc glide forwards together in the upper compartment"
+   ],
+   "answer": 4,
+   "explanation": "The articular disc divides the TMJ into an upper (disc–fossa/tubercle) and a lower (disc–condyle) compartment. At the start of opening rotation occurs in the lower compartment; in wide opening the condyle–disc complex glides forwards towards the articular tubercle in the upper compartment (translation), driven by lateral pterygoid.",
+   "entries": [
+    "art-temporomandibularis",
+    "m-pterygoideus-lateralis"
+   ]
+  },
+  {
+   "id": "ar-9f52e25c",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "With what tissue are the articular surfaces of the temporomandibular joint covered?",
+   "options": [
+    "Bare bone",
+    "Periosteum",
+    "Elastic cartilage",
+    "Fibrocartilage",
+    "Hyaline cartilage"
+   ],
+   "answer": 3,
+   "explanation": "The TMJ is an atypical synovial joint whose articular surfaces are covered with fibrocartilage, not hyaline cartilage; this relates to the intramembranous origin of the mandible. The joints at both ends of the clavicle show the same feature.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-fd55eb81",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the weakest part of the glenohumeral joint, and why?",
+   "options": [
+    "The inferior part; there is no rotator cuff muscle or strong ligament support there",
+    "No part is weak",
+    "The anterior part; subscapularis is not present there",
+    "The superior part; there is no acromial support",
+    "The posterior part; the capsule is thinnest there"
+   ],
+   "answer": 0,
+   "explanation": "The rotator cuff wraps the capsule above, in front and behind; the inferior part is protected only by the lax capsule and the inferior glenohumeral ligament. In abduction the humeral head escapes downwards and forwards through this area, putting the axillary nerve at risk.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-0145e5e7",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What are the two parts of the coracoclavicular ligament?",
+   "options": [
+    "Superior and middle glenohumeral ligaments",
+    "Coraco-acromial and coracohumeral ligaments",
+    "Superior and inferior acromioclavicular ligaments",
+    "Costoclavicular and interclavicular ligaments",
+    "Conoid and trapezoid ligaments"
+   ],
+   "answer": 4,
+   "explanation": "The coracoclavicular ligament is the strongest ligament suspending the clavicle from the scapula: it has a medial conoid part (to the conoid tubercle) and a lateral trapezoid part (to the trapezoid line). If it also tears in an AC dislocation, the clavicle rises markedly.",
+   "entries": [
+    "art-acromioclavicularis",
+    "clavicula"
+   ]
+  },
+  {
+   "id": "ar-2ce80442",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the sternoclavicular joint is true?",
+   "options": [
+    "It is a ball-and-socket joint without a disc",
+    "It is a uniaxial hinge joint",
+    "It is a cartilaginous joint",
+    "It is a fibrous joint",
+    "It is a saddle-type synovial joint containing an articular disc"
+   ],
+   "answer": 4,
+   "explanation": "The sternoclavicular joint is the only true joint connecting the upper limb to the trunk; its articular disc divides it in two and acts as a strong cushion preventing the clavicle sliding medially. The costoclavicular ligament is the joint's main stabiliser.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-b6f1b5ff",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Where is the triangular fibrocartilage complex (TFCC) located?",
+   "options": [
+    "At the proximal radio-ulnar joint",
+    "At the carpometacarpal joint of the thumb",
+    "At the midcarpal joint",
+    "Between the radius and the scaphoid",
+    "Between the distal end of the ulna and the lunate and triquetrum"
+   ],
+   "answer": 4,
+   "explanation": "The TFCC separates the ulnar head from the carpal bones, is the main stabiliser of the distal radio-ulnar joint and carries part of the load on the wrist. It can tear in a fall on the hand or with strain in ulnar deviation, causing pain on the ulnar side of the wrist.",
+   "entries": [
+    "artt-radioulnares",
+    "art-radiocarpalis"
+   ]
+  },
+  {
+   "id": "ar-9c0521bf",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Why is radial deviation (abduction) of the wrist more limited than ulnar deviation?",
+   "options": [
+    "The ulna is longer than the radius",
+    "The radial styloid process extends further down",
+    "The TFCC is on the radial side",
+    "The ulnar collateral ligament of the wrist is weak",
+    "The pisiform blocks the movement"
+   ],
+   "answer": 1,
+   "explanation": "The radial styloid process ends about 1 cm lower than the ulnar styloid and limits radial deviation by striking the scaphoid. Because the ulna does not articulate directly with the carpal bones, ulnar deviation is wider.",
+   "entries": [
+    "art-radiocarpalis",
+    "radius"
+   ]
+  },
+  {
+   "id": "ar-24504957",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What type of joint are the proximal and distal radio-ulnar joints?",
+   "options": [
+    "Syndesmosis",
+    "Hinge joint",
+    "Plane joint",
+    "Saddle joint",
+    "Pivot (trochoid) synovial joint"
+   ],
+   "answer": 4,
+   "explanation": "Proximally the radial head rotates within the anular ligament, and distally the radius rotates around the ulnar head; together the two joints produce pronation and supination. The interosseous membrane between them is a syndesmosis.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-7abbb713",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What function does the direction of the fibres of the forearm interosseous membrane serve?",
+   "options": [
+    "It completely prevents pronation",
+    "It transfers load from the hand and radius to the ulna",
+    "It transfers load from the ulna and radius to the hand",
+    "It replaces the collateral ligaments of the elbow",
+    "It only provides an origin for muscles"
+   ],
+   "answer": 1,
+   "explanation": "At the wrist most of the load passes to the radius, at the elbow to the ulna (humero-ulnar joint). Because the membrane fibres run downwards and medially from the radius to the ulna, they transfer load from the radius to the ulna and provide a broad surface of origin for muscles.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-801c39ac",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What type of joint is the knee?",
+   "options": [
+    "Saddle joint",
+    "Plane joint",
+    "Pivot joint",
+    "Ball-and-socket joint",
+    "Modified hinge (bicondylar) synovial joint"
+   ],
+   "answer": 4,
+   "explanation": "The knee is a bicondylar joint between the two femoral condyles and the tibial plateaus that, in addition to hinge movement, allows some rotation in flexion; the patellofemoral joint lies within the same capsule.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-8ffbb6ae",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which movement does the anterior cruciate ligament (ACL) mainly prevent?",
+   "options": [
+    "Forward slide of the tibia on the femur",
+    "Lateral slide of the patella",
+    "Varus stress of the knee",
+    "Backward slide of the tibia on the femur",
+    "Valgus stress of the knee"
+   ],
+   "answer": 0,
+   "explanation": "The ACL runs from the anterior intercondylar area of the tibia to the inner surface of the lateral femoral condyle; it limits forward slide of the tibia and excessive internal rotation. It is assessed with the anterior drawer and Lachman tests. Backward slide is limited by the PCL, valgus by the medial and varus by the lateral collateral ligament.",
+   "notes": [
+    "",
+    "This is the role of the medial patellofemoral ligament and VMO.",
+    "This is the role of the lateral collateral ligament.",
+    "This is the role of the posterior cruciate ligament.",
+    "This is the role of the medial collateral ligament."
+   ],
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-1653af8f",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "In a motorcycle accident a patient takes a blow to the front of the upper tibia with the knee bent; with the knee at 90° of flexion the tibia can be pushed backwards relative to the femur. Which ligament is injured?",
+   "options": [
+    "Patellar ligament",
+    "Lateral collateral ligament",
+    "Medial collateral ligament",
+    "Anterior cruciate ligament",
+    "Posterior cruciate ligament"
+   ],
+   "answer": 4,
+   "explanation": "The posterior cruciate ligament prevents the tibia sliding backwards; the 'dashboard injury' is the typical mechanism. The posterior drawer test and posterior sag of the tibia (sag sign) are positive. The PCL is thicker and stronger than the ACL.",
+   "entries": [
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-35c5b540",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What are the components of the classic 'unhappy triad' (O'Donoghue) knee injury?",
+   "options": [
+    "Posterior cruciate ligament, lateral collateral ligament and lateral meniscus",
+    "Anterior cruciate ligament, posterior cruciate ligament and patellar ligament",
+    "Anterior cruciate ligament, medial collateral ligament and medial meniscus",
+    "Lateral collateral ligament, popliteus tendon and lateral meniscus",
+    "Medial collateral ligament, pes anserinus and medial meniscus"
+   ],
+   "answer": 2,
+   "explanation": "A blow to the outer side of the knee with the foot fixed on the ground tears, through valgus and external rotation, the medial collateral ligament, then the medial meniscus attached to it and the anterior cruciate ligament. Recent studies show that the lateral meniscus is also often involved.",
+   "entries": [
+    "ligg-cruciata",
+    "ligg-collateralia-genus",
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-d15651f8",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What happens during the locking of the knee in full extension (screw-home) with the foot on the ground?",
+   "options": [
+    "The femur rotates laterally on the tibia",
+    "The tibia rotates medially on the femur",
+    "The menisci slide backwards",
+    "The femur rotates medially on the tibia",
+    "The patella slides upwards and locks"
+   ],
+   "answer": 3,
+   "explanation": "Because the medial femoral condyle is longer, in the last degrees of extension in a closed chain the femur rotates medially and locks the joint; in an open chain the same movement appears as lateral rotation of the tibia. Popliteus unlocks it by rotating the femur laterally.",
+   "entries": [
+    "art-genus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-dec32412",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which statement about the suprapatellar bursa is true?",
+   "options": [
+    "It is always separate from the joint cavity",
+    "It lies between the patella and the skin",
+    "It lies between the patellar ligament and the tibia",
+    "It usually communicates with the knee joint cavity and swells with joint fluid",
+    "It lies beneath the pes anserinus"
+   ],
+   "answer": 3,
+   "explanation": "The suprapatellar bursa lies beneath the quadriceps tendon in front of the femur and is like an upward extension of the joint cavity; in an effusion it swells above the patella. The prepatellar bursa lies in front of the patella, the deep infrapatellar bursa behind the patellar ligament.",
+   "notes": [
+    "Wrong; it usually communicates.",
+    "This describes the prepatellar bursa.",
+    "This describes the deep infrapatellar bursa.",
+    "",
+    "This describes the pes anserinus bursa."
+   ],
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-bbea335b",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which part of the menisci has no blood supply, so that tears heal poorly?",
+   "options": [
+    "The ends of the posterior horns attached to the tibia",
+    "The edges attached to the capsule",
+    "The ends of the anterior horns attached to the tibia",
+    "The inner 2/3 facing into the joint (white zone)",
+    "The outer 1/3 near the capsule (red zone)"
+   ],
+   "answer": 3,
+   "explanation": "The menisci are supplied peripherally by the perimeniscal capillary plexus; the outer third (red zone) is well vascularised and can be repaired, while the inner parts are nourished by diffusion from synovial fluid and their tears are usually resected.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-635bed39",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A footballer feels sudden pain while twisting with the knee bent and foot planted. The next day he describes tenderness along the medial joint line and occasional catching and locking; McMurray's test is positive. What is the most likely injury?",
+   "options": [
+    "Osgood–Schlatter disease",
+    "Medial meniscus tear",
+    "Patellar dislocation",
+    "Anterior cruciate ligament tear",
+    "Iliotibial band friction syndrome"
+   ],
+   "answer": 1,
+   "explanation": "A loaded knee in flexion and rotation traps the meniscus between femur and tibia; joint-line tenderness, locking and McMurray's test suggest a meniscal tear. The medial meniscus, attached to the capsule and medial collateral ligament, is less mobile and tears more often.",
+   "entries": [
+    "meniscus",
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-a84a64ee",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the most stable (close-packed) position of the hip joint?",
+   "options": [
+    "Slight flexion and external rotation",
+    "Extension, abduction and internal rotation",
+    "Neutral position",
+    "Flexion, abduction and external rotation",
+    "Flexion, adduction and internal rotation"
+   ],
+   "answer": 1,
+   "explanation": "In extension and internal rotation the iliofemoral, pubofemoral and ischiofemoral ligaments tighten spirally and press the femoral head firmly into the acetabulum. Flexion–adduction–internal rotation is the position most prone to posterior dislocation (dashboard injury).",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-21f160b4",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which fibrocartilaginous ring deepens the acetabulum?",
+   "options": [
+    "Meniscus",
+    "Ligament of the head of the femur",
+    "Acetabular labrum",
+    "Glenoid labrum",
+    "Articular disc"
+   ],
+   "answer": 2,
+   "explanation": "The acetabular labrum attaches to the rim of the acetabulum, its lower notch completed by the transverse acetabular ligament; it deepens the joint and holds the femoral head like a suction seal. It can tear in femoroacetabular impingement.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-2025bf01",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the medial (deltoid) ligament of the ankle is true?",
+   "options": [
+    "It consists of three separate bands and is the ligament most often torn",
+    "It fans out from the medial malleolus to the talus, calcaneus and navicular; it limits eversion",
+    "It runs between the tibia and fibula",
+    "It limits inversion",
+    "It arises from the lateral malleolus"
+   ],
+   "answer": 1,
+   "explanation": "The deltoid ligament is very strong; in forced eversion it often avulses the medial malleolus rather than tearing. The lateral ligament complex (ATFL, CFL, PTFL) is the structure most often injured in inversion sprains.",
+   "entries": [
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-029aa2f6",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the Lisfranc joint?",
+   "options": [
+    "Subtalar joint",
+    "Intermetatarsal joints",
+    "Metatarsophalangeal joints",
+    "Talonavicular and calcaneocuboid joints",
+    "Tarsometatarsal joints"
+   ],
+   "answer": 4,
+   "explanation": "The Lisfranc joint lies between the cuneiforms and cuboid and the metatarsal bases; the base of the 2nd metatarsal locks into the middle cuneiform and is the keystone of the joint. The talonavicular and calcaneocuboid joints together form the Chopart (transverse tarsal) joint.",
+   "entries": [
+    "artt-pedis",
+    "ossa-metatarsi"
+   ]
+  },
+  {
+   "id": "ar-cbb80467",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the 'windlass' mechanism of the plantar fascia?",
+   "options": [
+    "Dorsiflexion of the big toe tightens the plantar fascia and raises the medial arch",
+    "The fascia relaxes only when standing",
+    "The fascia tears and reattaches at heel strike",
+    "Plantarflexion of the big toe raises the arch",
+    "Ankle plantarflexion relaxes the fascia and flattens the arch"
+   ],
+   "answer": 0,
+   "explanation": "The plantar fascia runs from the calcaneus to the bases of the toes; in push-off, when the big toe dorsiflexes, the fascia winds like a rope around the MTP joint, draws the heel and metatarsal heads together and raises the arch. The pain of the first morning steps in plantar fasciitis relates to this tension.",
+   "entries": [
+    "artt-pedis"
+   ]
+  },
+  {
+   "id": "ar-9cae36b7",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What does the plantar calcaneonavicular ('spring') ligament support?",
+   "options": [
+    "The lower end of the fibula",
+    "The head of the talus and the medial longitudinal arch",
+    "The cuboid",
+    "The calcaneal tuberosity",
+    "The 5th metatarsal"
+   ],
+   "answer": 1,
+   "explanation": "The spring ligament runs from the sustentaculum tali to the navicular and forms the floor of the socket in which the head of the talus sits; with the tibialis posterior tendon passing beneath it, it is the key support of the medial arch. Its laxity lets the head of the talus sink and causes flat foot.",
+   "entries": [
+    "artt-pedis",
+    "talus"
+   ]
+  },
+  {
+   "id": "ar-9dffdcc7",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What type of joint is the distal tibiofibular joint?",
+   "options": [
+    "Plane synovial joint",
+    "Syndesmosis",
+    "Symphysis",
+    "Pivot joint",
+    "Gomphosis"
+   ],
+   "answer": 1,
+   "explanation": "The distal tibiofibular joint is a fibrous joint held by strong ligaments (anterior and posterior tibiofibular ligaments, interosseous ligament) and maintains the integrity of the ankle mortise. The proximal tibiofibular joint is a plane synovial joint.",
+   "entries": [
+    "artt-tibiofibulares"
+   ]
+  },
+  {
+   "id": "ar-2170c9e2",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with an ankle sprain has tenderness and swelling over the medial malleolus; the ankle X-ray shows no fracture, but he also reports pain at the upper end of the fibula just below the knee. X-ray shows a proximal fibular fracture and widening of the tibiofibular space. What is this condition called?",
+   "options": [
+    "Lisfranc injury",
+    "Segond fracture",
+    "Colles fracture",
+    "Maisonneuve fracture",
+    "Jones fracture"
+   ],
+   "answer": 3,
+   "explanation": "An external rotation force tears the deltoid ligament (or medial malleolus), travels up through the tibiofibular syndesmosis and interosseous membrane and fractures the proximal fibula. This is why the fibular head should never be left unexamined in ankle injuries.",
+   "entries": [
+    "artt-tibiofibulares",
+    "fibula",
+    "art-talocruralis"
+   ]
+  },
+  {
+   "id": "ar-59f5af67",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which ligament holds the sacroiliac joint together most strongly?",
+   "options": [
+    "Sacrotuberous ligament",
+    "Iliolumbar ligament",
+    "Anterior sacroiliac ligament",
+    "Sacrospinous ligament",
+    "Interosseous sacroiliac ligaments"
+   ],
+   "answer": 4,
+   "explanation": "The interosseous sacroiliac ligaments are short, very strong fibres behind the joint filling the space between the sacrum and the iliac tuberosity; they transfer body weight from the sacrum to the ilium. The anterior ligament is thin; the sacrotuberous and sacrospinous ligaments are accessory ligaments that stop the sacrum tipping forwards.",
+   "entries": [
+    "art-sacroiliaca"
+   ]
+  },
+  {
+   "id": "ar-0814aea8",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following does NOT form part of the boundary of the pelvic outlet?",
+   "options": [
+    "Sacral promontory",
+    "Tip of the coccyx",
+    "Pubic arch",
+    "Ischial tuberosity",
+    "Sacrotuberous ligament"
+   ],
+   "answer": 0,
+   "explanation": "The pelvic outlet is bounded in front by the pubic arch and lower border of the symphysis, at the sides by the ischial tuberosities and sacrotuberous ligaments, and behind by the tip of the coccyx. The promontory is the posterior boundary of the pelvic inlet.",
+   "entries": [
+    "ligg-pelvis",
+    "os-coxae"
+   ]
+  },
+  {
+   "id": "ar-158c435d",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In general, what do ligaments connect?",
+   "options": [
+    "Nerves to bone",
+    "Skin to bone",
+    "Muscle to bone",
+    "Bone to bone",
+    "Muscle to muscle"
+   ],
+   "answer": 3,
+   "explanation": "Ligaments are bands of dense connective tissue joining bones together; they support the joint passively. The structure joining muscle to bone is a tendon.",
+   "entries": [
+    "eklem-tipleri",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3d9b7532",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the structure joining muscle to bone called?",
+   "options": [
+    "Tendon",
+    "Labrum",
+    "Ligament",
+    "Bursa",
+    "Meniscus"
+   ],
+   "answer": 0,
+   "explanation": "Tendons transmit muscle force to bone. Bursae are sacs that help tendons glide over bone; menisci and labra are intra-articular fibrocartilaginous structures.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-3fe924fa",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What type of cartilage usually covers the articular surfaces of synovial joints?",
+   "options": [
+    "Bone tissue",
+    "Hyaline cartilage",
+    "Elastic cartilage",
+    "Fibrocartilage",
+    "Dense connective tissue"
+   ],
+   "answer": 1,
+   "explanation": "In most synovial joints the articular surfaces are covered by smooth hyaline cartilage. In a few joints, such as the temporomandibular and sternoclavicular joints, they are covered by fibrocartilage.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-5deb5335",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which structure produces synovial fluid?",
+   "options": [
+    "Joint ligaments",
+    "Periosteum",
+    "Synovial membrane",
+    "Fibrous capsule",
+    "Articular cartilage"
+   ],
+   "answer": 2,
+   "explanation": "The synovial membrane lining the inside of the joint capsule produces a slippery fluid rich in hyaluronic acid, which nourishes the cartilage and reduces friction.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-968e75e8",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the movement that decreases the angle between two bones (bending) called?",
+   "options": [
+    "Abduction",
+    "Extension",
+    "Flexion",
+    "Rotation",
+    "Adduction"
+   ],
+   "answer": 2,
+   "explanation": "Flexion is bending and extension straightening (increasing the angle). Abduction moves away from the midline, adduction towards it, and rotation turns a part about its own axis.",
+   "entries": [
+    "eklem-tipleri"
+   ]
+  },
+  {
+   "id": "ar-59af87db",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the movement of raising the arm sideways away from the body called?",
+   "options": [
+    "Flexion",
+    "Circumduction",
+    "Adduction",
+    "Extension",
+    "Abduction"
+   ],
+   "answer": 4,
+   "explanation": "Abduction is moving a limb away from the midline of the body; at the shoulder it is produced mainly by supraspinatus and deltoid.",
+   "entries": [
+    "eklem-tipleri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-4d1f8034",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the forearm movement that turns the palm upwards (forwards) called?",
+   "options": [
+    "Eversion",
+    "Pronation",
+    "Supination",
+    "Opposition",
+    "Inversion"
+   ],
+   "answer": 2,
+   "explanation": "In supination the palm faces up/forwards, in pronation down/backwards; these movements take place at the radio-ulnar joints. Inversion and eversion are movements of the foot.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-d52f46c3",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the movement that turns the sole of the foot inwards called?",
+   "options": [
+    "Eversion",
+    "Inversion",
+    "Pronation",
+    "Dorsiflexion",
+    "Plantar flexion"
+   ],
+   "answer": 1,
+   "explanation": "In inversion the sole turns inwards, in eversion outwards. These movements take place mainly at the subtalar and transverse tarsal joints; most ankle sprains occur in inversion.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-3eb5fefe",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the most mobile joint of the body?",
+   "options": [
+    "Hip joint",
+    "Shoulder (glenohumeral) joint",
+    "Knee joint",
+    "Elbow joint",
+    "Wrist joint"
+   ],
+   "answer": 1,
+   "explanation": "The shoulder trades stability for a wide range of movement: the humeral head contacts the shallow glenoid only partly. It is therefore the large joint that dislocates most often.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-f3f16261",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the largest joint of the body?",
+   "options": [
+    "Knee joint",
+    "Hip joint",
+    "Sacroiliac joint",
+    "Shoulder joint",
+    "Ankle joint"
+   ],
+   "answer": 0,
+   "explanation": "The knee, formed by the femur, tibia and patella, is the largest and most complex synovial joint of the body.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-809c1821",
+   "group": "Joints of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which bones take part in the knee joint?",
+   "options": [
+    "Femur, patella and calcaneus",
+    "Femur, fibula and patella",
+    "Tibia, fibula and talus",
+    "Femur, tibia and fibula",
+    "Femur, tibia and patella"
+   ],
+   "answer": 4,
+   "explanation": "The knee consists of the tibiofemoral and patellofemoral joints. The fibula does not take part in the knee joint; the superior tibiofibular joint is a separate joint.",
+   "entries": [
+    "art-genus"
+   ]
+  },
+  {
+   "id": "ar-e4a2fa9a",
+   "group": "Joints of the upper limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Between which bones is the shoulder joint?",
+   "options": [
+    "Clavicle and scapula",
+    "Scapula and sternum",
+    "Humerus and sternum",
+    "Humerus and clavicle",
+    "Humerus and scapula"
+   ],
+   "answer": 4,
+   "explanation": "The glenohumeral joint lies between the head of the humerus and the glenoid cavity of the scapula. The clavicle and scapula form the acromioclavicular joint.",
+   "entries": [
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-aec5db37",
+   "group": "Joints of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What type of joint is the hip joint?",
+   "options": [
+    "Saddle joint",
+    "Hinge joint",
+    "Ball-and-socket joint",
+    "Pivot joint",
+    "Plane joint"
+   ],
+   "answer": 2,
+   "explanation": "The hip joint is a ball-and-socket joint between the femoral head and the acetabulum; it moves in three axes and, thanks to its deep socket, is more stable than the shoulder.",
+   "entries": [
+    "art-coxae"
+   ]
+  },
+  {
+   "id": "ar-55d60eb1",
+   "group": "Joints of the skull and spine",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Between which bones is the jaw (temporomandibular) joint?",
+   "options": [
+    "Mandible and sphenoid",
+    "Mandible and zygomatic bone",
+    "Mandible and maxilla",
+    "Mandible and temporal bone",
+    "Maxilla and temporal bone"
+   ],
+   "answer": 3,
+   "explanation": "The temporomandibular joint lies between the condyle of the mandible and the mandibular fossa and articular tubercle of the temporal bone; it contains a fibrocartilaginous disc.",
+   "entries": [
+    "art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-1c1cd56a",
+   "group": "Joints of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Between which bones is the pubic symphysis?",
+   "options": [
+    "Sacrum and coccyx",
+    "Sacrum and ilium",
+    "Femur and pubis",
+    "Right and left pubic bones",
+    "Ischium and pubis"
+   ],
+   "answer": 3,
+   "explanation": "The pubic symphysis is the fibrocartilaginous joint joining the two pubic bones in the midline in front; the interpubic disc lies between them.",
+   "entries": [
+    "symphysis-pubica"
+   ]
+  },
+  {
+   "id": "ar-c9695c99",
+   "group": "Joints of the lower limb",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which joint are the menisci found?",
+   "options": [
+    "Shoulder joint",
+    "Knee joint",
+    "Ankle joint",
+    "Hip joint",
+    "Elbow joint"
+   ],
+   "answer": 1,
+   "explanation": "The medial and lateral menisci lie between the femoral and tibial condyles in the knee; they improve congruence and distribute load.",
+   "entries": [
+    "meniscus"
+   ]
+  },
+  {
+   "id": "ar-df324558",
+   "group": "General principles",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is a bursa?",
+   "options": [
+    "A small fluid-filled sac lined by synovial membrane between structures that rub together",
+    "A fibrocartilaginous disc inside a joint",
+    "The outer layer of articular cartilage",
+    "The membrane covering bone",
+    "A band joining muscle to bone"
+   ],
+   "answer": 0,
+   "explanation": "Bursae reduce friction between structures that rub against each other, such as tendon and bone or skin and bone. Their inflammation from repeated pressure or friction is called bursitis.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-0716071b",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "How is articular cartilage nourished?",
+   "options": [
+    "By perichondrial vessels",
+    "By its own blood vessels",
+    "By periosteal vessels",
+    "By capillaries from the bone marrow",
+    "By diffusion from the synovial fluid"
+   ],
+   "answer": 4,
+   "explanation": "Articular cartilage has no vessels, nerves or perichondrium; nutrients come by diffusion from the synovial fluid. That is why cartilage damage does not heal on its own.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-7804f95c",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In rheumatoid arthritis, what is the inflammatory tissue that erodes articular cartilage and bone called?",
+   "options": [
+    "Callus",
+    "Tophus",
+    "Ganglion",
+    "Osteophyte",
+    "Pannus"
+   ],
+   "answer": 4,
+   "explanation": "Rheumatoid arthritis is chronic inflammation of the synovial membrane; the thickened synovium, called pannus, erodes cartilage and bone. Osteophytes are a sign of osteoarthritis, tophi of gout.",
+   "entries": [
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-a742a27f",
+   "group": "General principles",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In people who work kneeling, swelling in front of the kneecap is a bursitis of which bursa?",
+   "options": [
+    "Semimembranosus bursa",
+    "Deep infrapatellar bursa",
+    "Suprapatellar bursa",
+    "Prepatellar bursa",
+    "Anserine bursa"
+   ],
+   "answer": 3,
+   "explanation": "Prepatellar bursitis ('housemaid's knee') is inflammation of the bursa between the patella and the skin from repeated pressure. Infrapatellar bursitis ('clergyman's knee') lies in front of the tibial tuberosity.",
+   "entries": [
+    "art-genus",
+    "art-synovialis"
+   ]
+  },
+  {
+   "id": "ar-4202eeca",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the main function of the alar ligaments?",
+   "options": [
+    "To prevent excessive flexion of the head",
+    "To press the dens against the anterior arch of the atlas",
+    "To limit excessive rotation of the head",
+    "To join the posterior arch of the atlas to the occiput",
+    "To form the anterior wall of the vertebral canal"
+   ],
+   "answer": 2,
+   "explanation": "The alar ligaments run from the sides of the dens to the occipital condyles and prevent excessive turning of the head at the atlanto-axial joint. The ligament pressing the dens against the anterior arch is the transverse ligament of the atlas.",
+   "entries": [
+    "artt-craniovertebrales"
+   ]
+  },
+  {
+   "id": "ar-4ecc76c5",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Why is rotation of the spine limited in the lumbar region?",
+   "options": [
+    "Because of the ribs",
+    "Because the facet joint surfaces lie in the sagittal plane",
+    "Because the discs are very thin",
+    "Because the spines are short",
+    "Because there is no ligamentum flavum"
+   ],
+   "answer": 1,
+   "explanation": "The orientation of the facet joints determines the type of movement in each region: lumbar facets are sagittal and allow flexion-extension but restrict rotation; thoracic facets lie in the frontal plane and rotation is free.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-0ab30723",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In which vertebrae are the uncovertebral (Luschka) joints found?",
+   "options": [
+    "Cervical vertebrae C3–C7",
+    "Thoracic vertebrae T1–T12",
+    "Between atlas and axis",
+    "Lumbar vertebrae L1–L5",
+    "Between the sacral vertebrae"
+   ],
+   "answer": 0,
+   "explanation": "Uncovertebral joints are cleft-like joints between the uncinate processes on the upper lateral margins of the C3–C7 bodies and the vertebra above; their osteophytes can narrow the intervertebral foramen.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-ff6c7a3d",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which ligament prevents backward displacement of the condyle at the jaw joint?",
+   "options": [
+    "Lateral (temporomandibular) ligament",
+    "Pterygospinous ligament",
+    "Stylomandibular ligament",
+    "Sphenomandibular ligament",
+    "Stylohyoid ligament"
+   ],
+   "answer": 0,
+   "explanation": "The lateral ligament is a thickening of the outer side of the capsule; it runs from the zygomatic arch to the neck of the mandible and prevents the condyle from moving backwards and downwards. The spheno- and stylomandibular ligaments are accessory ligaments away from the capsule.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-c413ead3",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the respiratory movement of the lower ribs that increases the transverse diameter of the chest called?",
+   "options": [
+    "Hinge movement",
+    "Pump-handle movement",
+    "Caliper movement",
+    "Bucket-handle movement",
+    "Gliding movement"
+   ],
+   "answer": 3,
+   "explanation": "The lower ribs rise upwards and outwards at their middle like a bucket handle and increase the transverse diameter. The pump-handle movement of the upper ribs increases the anteroposterior diameter.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-185a3978",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following ribs does NOT articulate with a transverse process (costotransverse joint)?",
+   "options": [
+    "12th rib",
+    "7th rib",
+    "5th rib",
+    "1st rib",
+    "10th rib"
+   ],
+   "answer": 0,
+   "explanation": "The costotransverse joint lies between the tubercle of the rib and the transverse process. The 11th and 12th ribs have no tubercle and do not form this joint.",
+   "entries": [
+    "artt-costovertebrales"
+   ]
+  },
+  {
+   "id": "ar-25e330cf",
+   "group": "Joints of the skull and spine",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which movement increases the anteroposterior diameter of the pelvic outlet during childbirth?",
+   "options": [
+    "Fusion of the pubic symphysis",
+    "Inward rotation of the ilium",
+    "Widening of the acetabulum",
+    "Forward tilting of the sacrum",
+    "Backward movement of the coccyx"
+   ],
+   "answer": 4,
+   "explanation": "The sacrococcygeal joint lets the coccyx move backwards during childbirth, increasing the anteroposterior diameter of the pelvic outlet by a few centimetres.",
+   "entries": [
+    "art-sacrococcygea"
+   ]
+  },
+  {
+   "id": "ar-632188f8",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which ligament mainly provides stability of the sternoclavicular joint?",
+   "options": [
+    "Interclavicular ligament",
+    "Costoclavicular ligament",
+    "Acromioclavicular ligament",
+    "Coracoclavicular ligament",
+    "Anterior sternoclavicular ligament"
+   ],
+   "answer": 1,
+   "explanation": "The costoclavicular ligament, joining the medial end of the clavicle to the first costal cartilage, is the strongest stabiliser of the joint and limits elevation of the clavicle.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-d9375ce7",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structures form the coracoacromial arch?",
+   "options": [
+    "Acromion, clavicle and spine of the scapula",
+    "Greater tubercle, lesser tubercle and transverse humeral ligament",
+    "Coracoid process, clavicle and 1st rib",
+    "Glenoid cavity, labrum and acromion",
+    "Acromion, coracoacromial ligament and coracoid process"
+   ],
+   "answer": 4,
+   "explanation": "The coracoacromial arch forms a protective roof over the humeral head; the supraspinatus tendon and subacromial bursa pass beneath it. Impingement syndrome occurs under this arch.",
+   "entries": [
+    "ligg-scapulae"
+   ]
+  },
+  {
+   "id": "ar-9da426c2",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which ligament holds the tendon of the long head of biceps in the intertubercular groove?",
+   "options": [
+    "Coracoacromial ligament",
+    "Coracohumeral ligament",
+    "Transverse humeral ligament",
+    "Superior transverse scapular ligament",
+    "Superior glenohumeral ligament"
+   ],
+   "answer": 2,
+   "explanation": "The transverse humeral ligament spans the greater and lesser tubercles and turns the groove into a canal. If it tears, the tendon can slip out of the groove with a painful click.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-d525aa5a",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the anteroinferior labral tear that is the main cause of recurrent anterior shoulder dislocation called?",
+   "options": [
+    "SLAP lesion",
+    "Stener lesion",
+    "Bankart lesion",
+    "Hill–Sachs lesion",
+    "Bennett lesion"
+   ],
+   "answer": 2,
+   "explanation": "A Bankart lesion is detachment of the anteroinferior labrum and inferior glenohumeral ligament from the glenoid. Hill–Sachs is an impaction fracture of the posterolateral humeral head; SLAP is a superior labral tear.",
+   "entries": [
+    "ligg-art-humeri",
+    "art-humeri"
+   ]
+  },
+  {
+   "id": "ar-ecd485e2",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which part of the labrum does a SLAP lesion involve?",
+   "options": [
+    "The superior labrum (where the long head of biceps attaches)",
+    "The posteroinferior labrum",
+    "The acetabular labrum",
+    "The whole labrum",
+    "The anteroinferior labrum"
+   ],
+   "answer": 0,
+   "explanation": "A SLAP (Superior Labrum Anterior to Posterior) lesion is a front-to-back tear of the superior labrum where the long head of biceps attaches; it is common in throwing sports.",
+   "entries": [
+    "ligg-art-humeri"
+   ]
+  },
+  {
+   "id": "ar-cfe7c2cc",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which is the most important structure for valgus stability of the elbow?",
+   "options": [
+    "Quadrate ligament",
+    "Anterior band of the ulnar collateral ligament",
+    "Annular ligament of the radius",
+    "Oblique cord",
+    "Radial collateral ligament"
+   ],
+   "answer": 1,
+   "explanation": "The anterior band of the medial (ulnar) collateral ligament protects the elbow against valgus force. In throwing athletes a tear of this band is reconstructed with a tendon graft ('Tommy John' surgery).",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-9da28623",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the ligament tear that most often causes wrist instability, and its radiographic sign?",
+   "options": [
+    "Pisohamate ligament – fracture of the hook of hamate",
+    "Ulnar collateral ligament – dislocation of the ulnar head",
+    "Radial collateral ligament – fracture of the radial styloid",
+    "Lunotriquetral ligament – dorsal rotation of the lunate",
+    "Scapholunate ligament – gap wider than 3 mm between scaphoid and lunate"
+   ],
+   "answer": 4,
+   "explanation": "In a scapholunate ligament tear the AP radiograph shows a gap between the two bones (Terry Thomas sign) and a ring sign of the scaphoid; untreated, it leads to DISI deformity and SLAC arthritis.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-3707eab2",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is osteoarthritis of the carpometacarpal joint of the thumb called?",
+   "options": [
+    "Rhizarthrosis",
+    "Kienböck disease",
+    "De Quervain tenosynovitis",
+    "Heberden node",
+    "Dupuytren contracture"
+   ],
+   "answer": 0,
+   "explanation": "Rhizarthrosis is osteoarthritis of the saddle joint between the trapezium and the 1st metacarpal; it causes pain on gripping and turning a key, especially in postmenopausal women.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-a495b9af",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "If the hand is to be splinted for a long time, why are the MCP joints kept in flexion?",
+   "options": [
+    "Tendons are better nourished in flexion.",
+    "Nerves are freed from pressure in flexion.",
+    "Bones do not unite in extension.",
+    "The collateral ligaments are taut in flexion, so they do not shorten and cause stiffness.",
+    "The volar plate relaxes and heals in flexion."
+   ],
+   "answer": 3,
+   "explanation": "Because of the cam shape of the metacarpal head, the MCP collateral ligaments are taut in flexion. If the joint is held in extension for long, the slack ligaments shorten and a permanent extension contracture develops.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-9d4ca42d",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Skier's thumb (gamekeeper's thumb) is an injury of which ligament?",
+   "options": [
+    "Volar plate of the thumb IP joint",
+    "Ulnar collateral ligament of the thumb MCP joint",
+    "Scapholunate ligament",
+    "Radial collateral ligament of the thumb MCP joint",
+    "Anterior oblique ligament of the thumb CMC joint"
+   ],
+   "answer": 1,
+   "explanation": "Forced abduction of the thumb when falling onto a ski pole tears the ulnar collateral ligament of the MCP joint; grip and pinch strength are reduced.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-d07b4763",
+   "group": "Joints of the upper limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structure prevents hyperextension at the PIP joints of the fingers?",
+   "options": [
+    "Extensor expansion",
+    "Collateral ligaments",
+    "Deep transverse metacarpal ligament",
+    "Volar plate",
+    "Lumbrical muscles"
+   ],
+   "answer": 3,
+   "explanation": "The volar plate is a thick fibrocartilaginous plate on the palmar side of the joint and limits hyperextension. Its avulsion in a hyperextension injury can lead to a swan-neck deformity.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-b68b4630",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which ligament prevents excessive abduction of the hip joint?",
+   "options": [
+    "Ligament of the head of the femur",
+    "Ischiofemoral ligament",
+    "Transverse acetabular ligament",
+    "Iliofemoral ligament",
+    "Pubofemoral ligament"
+   ],
+   "answer": 4,
+   "explanation": "The pubofemoral ligament runs from the superior pubic ramus to the inferior-anterior capsule and limits excessive abduction. The iliofemoral ligament prevents hyperextension, the ischiofemoral excessive internal rotation.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-7cb7465b",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The oblique popliteal ligament is an expansion of the tendon of which muscle?",
+   "options": [
+    "Biceps femoris",
+    "Gastrocnemius",
+    "Popliteus",
+    "Semitendinosus",
+    "Semimembranosus"
+   ],
+   "answer": 4,
+   "explanation": "The oblique popliteal ligament runs upwards and laterally from the semimembranosus tendon and reinforces the posterior knee capsule; it lies just in front of the popliteal artery.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-02199c01",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which tendon passes between the lateral (fibular) collateral ligament and the lateral meniscus of the knee?",
+   "options": [
+    "Popliteus tendon",
+    "Tendon of the lateral head of gastrocnemius",
+    "Plantaris tendon",
+    "Iliotibial tract",
+    "Biceps femoris tendon"
+   ],
+   "answer": 0,
+   "explanation": "The lateral collateral ligament is separate from the capsule and the lateral meniscus, and the popliteus tendon passes between them. The lateral meniscus is therefore more mobile and tears less often than the medial one.",
+   "entries": [
+    "ligg-collateralia-genus",
+    "meniscus",
+    "m-popliteus"
+   ]
+  },
+  {
+   "id": "ar-2725a1ee",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which lateral ankle ligament is the strongest and tears least often?",
+   "options": [
+    "Bifurcate ligament",
+    "Posterior talofibular ligament",
+    "Anterior talofibular ligament",
+    "Calcaneofibular ligament",
+    "Anterior tibiofibular ligament"
+   ],
+   "answer": 1,
+   "explanation": "The lateral ligaments tear in sequence from front to back: first the anterior talofibular, then the calcaneofibular. The posterior talofibular is the strongest and tears only in severe injuries.",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-b878c17d",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which ligament does the anterior drawer test of the ankle mainly assess?",
+   "options": [
+    "Calcaneofibular ligament",
+    "Deltoid ligament",
+    "Posterior talofibular ligament",
+    "Syndesmotic ligaments",
+    "Anterior talofibular ligament"
+   ],
+   "answer": 4,
+   "explanation": "In the anterior drawer test the tibia is fixed and the heel pulled forwards; forward sliding of the talus indicates a tear of the anterior talofibular ligament. The calcaneofibular ligament is assessed with the talar tilt (inversion stress) test.",
+   "entries": [
+    "ligg-talocruralia-lateralia"
+   ]
+  },
+  {
+   "id": "ar-47535364",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structures are injured in a high ankle sprain?",
+   "options": [
+    "Distal tibiofibular syndesmotic ligaments",
+    "Achilles tendon",
+    "Lisfranc ligament",
+    "Deltoid ligament",
+    "Lateral collateral ligaments of the ankle"
+   ],
+   "answer": 0,
+   "explanation": "A high ankle sprain usually occurs with external rotation and tears the syndesmotic ligaments joining the tibia and fibula; it takes much longer to heal than a lateral ligament sprain.",
+   "entries": [
+    "ligg-tibiofibularia-distalia"
+   ]
+  },
+  {
+   "id": "ar-f12bf4cd",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structure, located in the sinus tarsi, is the strongest ligament of the subtalar joint?",
+   "options": [
+    "Long plantar ligament",
+    "Lateral talocalcaneal ligament",
+    "Bifurcate ligament",
+    "Calcaneofibular ligament",
+    "Interosseous talocalcaneal ligament"
+   ],
+   "answer": 4,
+   "explanation": "The interosseous talocalcaneal ligament lies in the sinus tarsi between the talus and calcaneus and is the main ligament of the subtalar joint.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-d75092b5",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which joints make up Chopart's (transverse tarsal) joint?",
+   "options": [
+    "Cuneonavicular and intercuneiform joints",
+    "Calcaneocuboid and cuboideonavicular joints",
+    "Tarsometatarsal and intermetatarsal joints",
+    "Talocrural and subtalar joints",
+    "Talonavicular and calcaneocuboid joints"
+   ],
+   "answer": 4,
+   "explanation": "Chopart's joint is the S-shaped joint line between the hindfoot and midfoot and is one of the amputation levels. Lisfranc's joint is the tarsometatarsal joints.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-a378349f",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where does the Lisfranc ligament run?",
+   "options": [
+    "From the navicular to the medial cuneiform",
+    "From the calcaneus to the cuboid",
+    "From the intermediate cuneiform to the base of the 2nd metatarsal",
+    "From the cuboid to the base of the 5th metatarsal",
+    "From the medial cuneiform to the base of the 2nd metatarsal"
+   ],
+   "answer": 4,
+   "explanation": "The Lisfranc ligament is a strong interosseous ligament between the medial cuneiform and the base of the 2nd metatarsal; since there is no ligament between the bases of the 1st and 2nd metatarsals, it is the key to the tarsometatarsal joint.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-e5efb4d3",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which bone is the keystone of the lateral longitudinal arch of the foot?",
+   "options": [
+    "Cuboid",
+    "Medial cuneiform",
+    "Head of the 5th metatarsal",
+    "Head of the talus",
+    "Navicular"
+   ],
+   "answer": 0,
+   "explanation": "The keystone of the medial longitudinal arch is the head of the talus, that of the lateral arch the cuboid. The lateral arch is low and close to the ground.",
+   "entries": [
+    "arcus-pedis",
+    "os-cuboideum"
+   ]
+  },
+  {
+   "id": "ar-ca751a1b",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the most common cause of acquired flatfoot in adults?",
+   "options": [
+    "Paralysis of tibialis anterior",
+    "Tear of fibularis longus",
+    "Achilles tendon rupture",
+    "Shortening of the plantar fascia",
+    "Tibialis posterior tendon dysfunction"
+   ],
+   "answer": 4,
+   "explanation": "Tibialis posterior is the most important dynamic support of the medial arch; degeneration and failure of its tendon lead to collapse of the medial arch and valgus of the heel.",
+   "entries": [
+    "arcus-pedis",
+    "m-tibialis-posterior"
+   ]
+  },
+  {
+   "id": "ar-a91411e8",
+   "group": "Joints of the lower limb",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A patient who fell onto a plantarflexed foot has midfoot swelling and plantar ecchymosis; the radiograph shows a gap between the bases of the 1st and 2nd metatarsals. What is the most likely diagnosis?",
+   "options": [
+    "Chopart dislocation",
+    "Calcaneal fracture",
+    "Lateral ankle ligament sprain",
+    "Jones fracture",
+    "Lisfranc (tarsometatarsal) injury"
+   ],
+   "answer": 4,
+   "explanation": "Plantar ecchymosis and a gap between the 1st and 2nd metatarsal bases are typical signs of a Lisfranc ligament injury; about one in five is missed at first presentation, so it needs careful assessment.",
+   "entries": [
+    "artt-tarsometatarsales"
+   ]
+  },
+  {
+   "id": "ar-fe1c13ee",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which type of dens fracture has the highest risk of non-union?",
+   "options": [
+    "Type I (tip of the dens)",
+    "Type II (base of the dens)",
+    "Hangman's fracture",
+    "Type III (extending into the body of the axis)",
+    "Jefferson fracture"
+   ],
+   "answer": 1,
+   "explanation": "In the Anderson–D'Alonzo classification a type II fracture crosses the base of the dens; non-union is frequent in this poorly vascularised region. Type III extends into the body of the axis and usually heals.",
+   "entries": [
+    "artt-craniovertebrales",
+    "axis"
+   ]
+  },
+  {
+   "id": "ar-55929b2d",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Where does the sensory innervation of the facet (zygapophyseal) joints come from?",
+   "options": [
+    "Anterior rami of the spinal nerves",
+    "Sinuvertebral (recurrent meningeal) nerve",
+    "Sympathetic trunk",
+    "Medial branches of the posterior rami of the spinal nerves",
+    "Lateral branches of the posterior rami"
+   ],
+   "answer": 3,
+   "explanation": "Each facet joint is supplied by the medial branches of the posterior rami of two adjacent levels. In facet pain these branches are targeted with blocks or radiofrequency ablation.",
+   "entries": [
+    "artt-zygapophysiales"
+   ]
+  },
+  {
+   "id": "ar-dd990884",
+   "group": "Joints of the skull and spine",
+   "level": "tus",
+   "clinical": false,
+   "stem": "The sphenomandibular ligament is a remnant of which pharyngeal arch structure?",
+   "options": [
+    "Cartilage of the 1st pharyngeal arch (Meckel's cartilage)",
+    "Notochord",
+    "3rd pharyngeal arch",
+    "4th pharyngeal arch",
+    "Cartilage of the 2nd pharyngeal arch (Reichert)"
+   ],
+   "answer": 0,
+   "explanation": "Meckel's cartilage gives rise to the malleus, incus and sphenomandibular ligament. Reichert's cartilage (2nd arch) forms the stapes, styloid process and stylohyoid ligament.",
+   "entries": [
+    "ligg-art-temporomandibularis"
+   ]
+  },
+  {
+   "id": "ar-bead98f0",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which forearm ligament has fibres running in the opposite direction to those of the interosseous membrane?",
+   "options": [
+    "Radial collateral ligament",
+    "Annular ligament of the radius",
+    "Oblique cord",
+    "Quadrate ligament",
+    "Dorsal radio-ulnar ligament"
+   ],
+   "answer": 2,
+   "explanation": "Fibres of the interosseous membrane run downwards and medially from radius to ulna, whereas the oblique cord descends laterally from the ulnar tuberosity to the radius. It supports the proximal radio-ulnar joint.",
+   "entries": [
+    "ligg-cubiti"
+   ]
+  },
+  {
+   "id": "ar-5ba07cbd",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the ligament-poor area on the palmar side of the capitate, through which perilunate dislocations occur, called?",
+   "options": [
+    "Anatomical snuffbox",
+    "Space of Parona",
+    "Carpal tunnel",
+    "Guyon's canal",
+    "Space of Poirier"
+   ],
+   "answer": 4,
+   "explanation": "The space of Poirier is the weak area between the radioscaphocapitate and radiolunate ligaments; in perilunate dislocation the capitate separates from the lunate here.",
+   "entries": [
+    "ligg-carpi"
+   ]
+  },
+  {
+   "id": "ar-31d4bdc3",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Tears in which part of the TFCC do not heal because it is avascular, and require debridement?",
+   "options": [
+    "Dorsal radio-ulnar ligament",
+    "Peripheral (ulnar margin)",
+    "Central (middle of the disc)",
+    "Palmar radio-ulnar ligament",
+    "ECU tendon sheath"
+   ],
+   "answer": 2,
+   "explanation": "Only the outer margin of the TFCC is well vascularised. Central tears do not heal and are treated by arthroscopic debridement, whereas peripheral tears are repaired.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-c3fb2f81",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which condition, seen in people whose ulna is longer than the radius (ulnar positive variance), causes wear of the TFCC and lunate?",
+   "options": [
+    "Madelung deformity",
+    "Kienböck disease",
+    "Carpal tunnel syndrome",
+    "Ulnocarpal impaction syndrome",
+    "De Quervain tenosynovitis"
+   ],
+   "answer": 3,
+   "explanation": "In ulnar positive variance the ulnar head presses on the TFCC and lunate, causing ulnar-sided pain and cartilage damage of the lunate. Kienböck disease is associated rather with ulnar negative variance.",
+   "entries": [
+    "tfcc"
+   ]
+  },
+  {
+   "id": "ar-e6d0e58d",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the most important stabilising ligament of the thumb carpometacarpal joint?",
+   "options": [
+    "Anterior oblique ligament ('beak ligament')",
+    "Radial collateral ligament",
+    "Volar plate",
+    "Dorsoradial ligament",
+    "Intermetacarpal ligament"
+   ],
+   "answer": 0,
+   "explanation": "The anterior oblique ligament runs from the tubercle of the trapezium to the anteromedial base of the 1st metacarpal; it is also the ligament that holds the small medial fragment in place in a Bennett fracture.",
+   "entries": [
+    "art-carpometacarpalis-pollicis"
+   ]
+  },
+  {
+   "id": "ar-17c5390c",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In a Stener lesion, which structure becomes interposed between the torn ulnar collateral ligament and its attachment?",
+   "options": [
+    "Volar plate",
+    "Adductor pollicis aponeurosis",
+    "Abductor pollicis brevis tendon",
+    "Extensor pollicis longus tendon",
+    "Sesamoid bone"
+   ],
+   "answer": 1,
+   "explanation": "When the ulnar collateral ligament of the thumb MCP joint ruptures, its end may come to lie on top of the adductor aponeurosis; the interposed aponeurosis prevents healing, so surgery is needed.",
+   "entries": [
+    "artt-digitorum-manus"
+   ]
+  },
+  {
+   "id": "ar-dbeaf9b7",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structure dislocates in a Monteggia fracture?",
+   "options": [
+    "Head of the humerus",
+    "Lunate",
+    "Distal radio-ulnar joint",
+    "Head of the ulna",
+    "Head of the radius (proximal radio-ulnar joint)"
+   ],
+   "answer": 4,
+   "explanation": "In a Monteggia fracture a fracture of the proximal third of the ulna is accompanied by dislocation of the radial head. In a Galeazzi fracture a radial shaft fracture is accompanied by dislocation of the distal radio-ulnar joint.",
+   "entries": [
+    "artt-radioulnares"
+   ]
+  },
+  {
+   "id": "ar-9db62430",
+   "group": "Joints of the upper limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Why is posterior dislocation of the sternoclavicular joint an emergency?",
+   "options": [
+    "It injures the axillary nerve.",
+    "The medial end of the clavicle can compress the great vessels and trachea behind it.",
+    "The costoclavicular ligament never tears.",
+    "It also dislocates the shoulder joint.",
+    "It locks the acromioclavicular joint."
+   ],
+   "answer": 1,
+   "explanation": "In posterior dislocation the medial end of the clavicle can compress the brachiocephalic vessels, trachea and oesophagus; unlike anterior dislocation, it may therefore need urgent reduction.",
+   "entries": [
+    "art-sternoclavicularis"
+   ]
+  },
+  {
+   "id": "ar-684028b7",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "How much of the posterior surface of the femoral neck does the hip joint capsule enclose?",
+   "options": [
+    "The medial 2/3",
+    "All of it up to the greater trochanter",
+    "The medial 1/3",
+    "All of it",
+    "Only the femoral head"
+   ],
+   "answer": 0,
+   "explanation": "Anteriorly the capsule reaches the intertrochanteric line and encloses the whole neck; posteriorly it covers only the medial 2/3 of the neck. Femoral neck fractures are therefore largely intracapsular.",
+   "entries": [
+    "art-coxae",
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-afbcdf8f",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which ligament limits excessive internal rotation of the hip joint?",
+   "options": [
+    "Transverse acetabular ligament",
+    "Pubofemoral ligament",
+    "Zona orbicularis",
+    "Ligament of the head of the femur",
+    "Ischiofemoral ligament"
+   ],
+   "answer": 4,
+   "explanation": "The ischiofemoral ligament spirals from the ischium onto the posterior capsule; it is taut in internal rotation and extension.",
+   "entries": [
+    "ligg-art-coxae"
+   ]
+  },
+  {
+   "id": "ar-eb063057",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the most important static stabiliser of the posterolateral corner of the knee?",
+   "options": [
+    "Popliteofibular ligament",
+    "Iliotibial tract",
+    "Meniscofemoral ligament",
+    "Tibial collateral ligament",
+    "Oblique popliteal ligament"
+   ],
+   "answer": 0,
+   "explanation": "The posterolateral corner consists of the lateral collateral ligament, popliteus tendon, popliteofibular ligament and capsule; the popliteofibular ligament is the main static restraint to external rotation.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  },
+  {
+   "id": "ar-8f7a2217",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In the dial test, increased external rotation at both 30° and 90° of knee flexion suggests what?",
+   "options": [
+    "An isolated medial collateral ligament tear",
+    "Patellar dislocation",
+    "A medial meniscus tear",
+    "Combined injury of the posterolateral corner and posterior cruciate ligament",
+    "An isolated anterior cruciate ligament tear"
+   ],
+   "answer": 3,
+   "explanation": "Increased external rotation only at 30° suggests an isolated posterolateral corner injury; at both 30° and 90°, a combined injury of the posterolateral corner and PCL.",
+   "entries": [
+    "ligg-genus-posteriora",
+    "ligg-cruciata"
+   ]
+  },
+  {
+   "id": "ar-cf2d6b19",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which lateral ankle ligament contributes to both the talocrural and subtalar joints?",
+   "options": [
+    "Posterior talofibular ligament",
+    "Anterior talofibular ligament",
+    "Interosseous talocalcaneal ligament",
+    "Anterior tibiofibular ligament",
+    "Calcaneofibular ligament"
+   ],
+   "answer": 4,
+   "explanation": "The calcaneofibular ligament runs from the lateral malleolus to the calcaneus and thus crosses both joints; it is assessed with the talar tilt test.",
+   "entries": [
+    "ligg-talocruralia-lateralia",
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-f8a72f31",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the most important structure preventing lateral shift of the talus within the ankle mortise?",
+   "options": [
+    "Calcaneofibular ligament",
+    "Deep (tibiotalar) part of the deltoid ligament",
+    "Long plantar ligament",
+    "Tibionavicular part of the deltoid ligament",
+    "Anterior talofibular ligament"
+   ],
+   "answer": 1,
+   "explanation": "The deep tibiotalar fibres of the deltoid ligament bind the talus to the medial malleolus; if they tear, the talus shifts laterally, the joint contact area decreases and osteoarthritis develops.",
+   "entries": [
+    "lig-deltoideum"
+   ]
+  },
+  {
+   "id": "ar-90e61aae",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "From the calcaneus, to which bones do the two limbs of the bifurcate ligament run?",
+   "options": [
+    "Navicular and cuboid",
+    "Talus and cuboid",
+    "Cuboid and 5th metatarsal",
+    "Navicular and medial cuneiform",
+    "Talus and navicular"
+   ],
+   "answer": 0,
+   "explanation": "The calcaneonavicular and calcaneocuboid limbs of the Y-shaped bifurcate ligament lie on the dorsum of Chopart's joint; its sprain causes pain in front of the sinus tarsi.",
+   "entries": [
+    "art-tarsi-transversa"
+   ]
+  },
+  {
+   "id": "ar-c4078aba",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the typical sign of talocalcaneal coalition on a lateral ankle radiograph?",
+   "options": [
+    "Terry Thomas sign",
+    "Anteater nose sign",
+    "Double contour sign",
+    "C sign",
+    "Ring sign"
+   ],
+   "answer": 3,
+   "explanation": "In talocalcaneal coalition a continuous C-shaped contour forms between the dome of the talus and the sustentaculum tali. In calcaneonavicular coalition the oblique view shows the 'anteater nose'.",
+   "entries": [
+    "art-subtalaris"
+   ]
+  },
+  {
+   "id": "ar-358bf10c",
+   "group": "Joints of the lower limb",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A skier who twisted the knee into external rotation reports sudden pain and instability; after ACL reconstruction, external rotation instability of the knee persists. Which injury may have been missed?",
+   "options": [
+    "Pes anserinus bursitis",
+    "Posterolateral corner injury of the knee",
+    "Patellar tendon rupture",
+    "Prepatellar bursitis",
+    "Medial meniscus tear"
+   ],
+   "answer": 1,
+   "explanation": "Posterolateral corner injuries often accompany cruciate ligament injuries; if they are not recognised and repaired, the cruciate graft is overloaded and the reconstruction fails.",
+   "entries": [
+    "ligg-genus-posteriora"
+   ]
+  }
+ ]
+}
