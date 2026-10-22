@@ -1,6 +1,6 @@
 {
   "identifier" : "6A0C2F51",
-  "nonRenewingSubscriptions" : [ ],
+  "nonRenewingSubscriptions" : [],
   "products" : [
     {
       "displayPrice" : "1799.99",
@@ -11,6 +11,26 @@
           "description" : "Tüm Premium özellikler, tek seferlik ödeme.",
           "displayName" : "Premium – Ömür boyu",
           "locale" : "tr"
+        },
+        {
+          "description" : "All Premium features, one-time payment.",
+          "displayName" : "Premium – Lifetime",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Tout Premium, en un seul paiement.",
+          "displayName" : "Premium – À vie",
+          "locale" : "fr_FR"
+        },
+        {
+          "description" : "Alle Premium-Funktionen, einmalige Zahlung.",
+          "displayName" : "Premium – Lebenslang",
+          "locale" : "de_DE"
+        },
+        {
+          "description" : "Todo Premium con un único pago.",
+          "displayName" : "Premium – De por vida",
+          "locale" : "es_ES"
         }
       ],
       "productID" : "com.adilemre.anatomi.premium.lifetime",
@@ -23,17 +43,43 @@
     "_developerTeamID" : "GHV7BT96W7",
     "_locale" : "tr_TR",
     "_storefront" : "TUR",
-    "_storeKitErrors" : [ ]
+    "_storeKitErrors" : []
   },
   "subscriptionGroups" : [
     {
       "id" : "6A0C2F53",
-      "localizations" : [ ],
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Anatomi Atlası Premium",
+          "locale" : "tr"
+        },
+        {
+          "description" : "",
+          "displayName" : "Anatomy Atlas Premium",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "",
+          "displayName" : "Atlas Anatomie Premium",
+          "locale" : "fr_FR"
+        },
+        {
+          "description" : "",
+          "displayName" : "Anatomie Atlas Premium",
+          "locale" : "de_DE"
+        },
+        {
+          "description" : "",
+          "displayName" : "Atlas Anatomía Premium",
+          "locale" : "es_ES"
+        }
+      ],
       "name" : "Premium",
       "subscriptions" : [
         {
-          "adHocOffers" : [ ],
-          "codeOffers" : [ ],
+          "adHocOffers" : [],
+          "codeOffers" : [],
           "displayPrice" : "799.99",
           "familyShareable" : false,
           "groupNumber" : 1,
@@ -49,6 +95,26 @@
               "description" : "Tüm sistemler, inceleme modu ve soru bankası.",
               "displayName" : "Premium – Yıllık",
               "locale" : "tr"
+            },
+            {
+              "description" : "All systems, inspection mode and questions.",
+              "displayName" : "Premium – Yearly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Tous les systèmes, mode examen et questions.",
+              "displayName" : "Premium – Annuel",
+              "locale" : "fr_FR"
+            },
+            {
+              "description" : "Alle Systeme, Präparatmodus und Fragenbank.",
+              "displayName" : "Premium – Jährlich",
+              "locale" : "de_DE"
+            },
+            {
+              "description" : "Todos los sistemas, modo examen y preguntas.",
+              "displayName" : "Premium – Anual",
+              "locale" : "es_ES"
             }
           ],
           "productID" : "com.adilemre.anatomi.premium.yearly",
@@ -56,11 +122,11 @@
           "referenceName" : "Premium Yearly",
           "subscriptionGroupID" : "6A0C2F53",
           "type" : "RecurringSubscription",
-          "winbackOffers" : [ ]
+          "winbackOffers" : []
         },
         {
-          "adHocOffers" : [ ],
-          "codeOffers" : [ ],
+          "adHocOffers" : [],
+          "codeOffers" : [],
           "displayPrice" : "129.99",
           "familyShareable" : false,
           "groupNumber" : 2,
@@ -70,6 +136,26 @@
               "description" : "Tüm sistemler, inceleme modu ve soru bankası.",
               "displayName" : "Premium – Aylık",
               "locale" : "tr"
+            },
+            {
+              "description" : "All systems, inspection mode and questions.",
+              "displayName" : "Premium – Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Tous les systèmes, mode examen et questions.",
+              "displayName" : "Premium – Mensuel",
+              "locale" : "fr_FR"
+            },
+            {
+              "description" : "Alle Systeme, Präparatmodus und Fragenbank.",
+              "displayName" : "Premium – Monatlich",
+              "locale" : "de_DE"
+            },
+            {
+              "description" : "Todos los sistemas, modo examen y preguntas.",
+              "displayName" : "Premium – Mensual",
+              "locale" : "es_ES"
             }
           ],
           "productID" : "com.adilemre.anatomi.premium.monthly",
@@ -77,7 +163,7 @@
           "referenceName" : "Premium Monthly",
           "subscriptionGroupID" : "6A0C2F53",
           "type" : "RecurringSubscription",
-          "winbackOffers" : [ ]
+          "winbackOffers" : []
         }
       ]
     }

@@ -146,6 +146,13 @@ struct LibraryView: View {
                     } label: {
                         Label("Satın alımları geri yükle", systemImage: "arrow.clockwise")
                     }
+                    if let review = Legal.review {
+                        Button {
+                            openURL(review)
+                        } label: {
+                            Label("Uygulamayı puanla", systemImage: "star.bubble")
+                        }
+                    }
                     Button {
                         openURL(Legal.support)
                     } label: {

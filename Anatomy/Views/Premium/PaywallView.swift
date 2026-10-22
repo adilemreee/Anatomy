@@ -93,7 +93,7 @@ struct PaywallView: View {
                 .font(.system(.largeTitle, weight: .bold))
                 .foregroundStyle(Theme.textPrimary)
                 .fixedSize(horizontal: false, vertical: true)
-            Text("Kemikler, eklemler ve kaslar için 280'i aşkın ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, 380'i aşkın özgün TUS ve komite sorusu ve 3.000'e yakın bilgi kartı, tek bir uygulamada.")
+            Text("Kemikler, eklemler, kaslar, kalp ve damarlar için 369 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 760 özgün soru ve 3.000'e yakın bilgi kartı, tek bir uygulamada.")
                 .font(.body)
                 .foregroundStyle(Theme.textSecondary)
         }
@@ -101,7 +101,7 @@ struct PaywallView: View {
 
     private var benefits: some View {
         VStack(alignment: .leading, spacing: 14) {
-            benefit("figure.strengthtraining.traditional", String(localized: "Kas-iskelet sistemi, en ince ayrıntısıyla"), String(localized: "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri; kadın ve erkek anatomisi"))
+            benefit("figure.strengthtraining.traditional", String(localized: "Kas-iskelet sistemi, kalp ve damarlar"), String(localized: "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar; kadın ve erkek anatomisi"))
             benefit("cube.transparent", String(localized: "İnceleme modu"), String(localized: "Her yapıyı tek başına, işaretli oluşumlarıyla incele; kasların origo ve insersiyosunu gör"))
             benefit("text.book.closed", String(localized: "Ayrıntılı Türkçe maddeler"), String(localized: "Latince terimler, kanlanma, sinir, klinik bilgi ve her maddede TUS notları"))
             benefit("checkmark.seal", String(localized: "Sınırsız soru bankası"), String(localized: "Açıklamalı özgün sorular, klinik vakalar, kas–sinir ve kemik oluşumu soruları, süreli denemeler ve istatistikler"))
@@ -253,4 +253,10 @@ enum Legal {
     static let terms = URL(string: "https://anatomi.adilemree.xyz/terms")!
     static let privacy = URL(string: "https://anatomi.adilemree.xyz/privacy")!
     static let support = URL(string: "https://anatomi.adilemree.xyz/destek")!
+    /// The app's Apple ID in App Store Connect (App Information > Apple ID).
+    static let appStoreID: String? = "6820685457"
+    /// Opens the App Store straight on the review sheet.
+    static var review: URL? {
+        appStoreID.flatMap { URL(string: "https://apps.apple.com/app/id\($0)?action=write-review") }
+    }
 }

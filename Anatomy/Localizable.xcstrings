@@ -852,40 +852,6 @@
         }
       }
     },
-    "%@ · %@" : {
-      "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ · %2$@"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ · %2$@"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ · %2$@"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ · %2$@"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ · %@"
-          }
-        }
-      }
-    },
     "%@ · %lld soru" : {
       "localizations" : {
         "de" : {
@@ -6588,36 +6554,36 @@
         }
       }
     },
-    "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri; kadın ve erkek anatomisi" : {
+    "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar; kadın ve erkek anatomisi" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alle Knochen, Gelenke und Bänder, über 200 Muskeln mit Ursprung und Ansatz; weibliche und männliche Anatomie"
-          }
-        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Every bone, joint and ligament, 200+ muscles and their attachments; female and male anatomy"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Todos los huesos, articulaciones y ligamentos, más de 200 músculos y sus inserciones; anatomía femenina y masculina"
+            "value" : "Every bone, joint and ligament, 200+ muscles and their attachments, the heart and vessels; female and male anatomy"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tous les os, articulations et ligaments, plus de 200 muscles et leurs insertions ; anatomie féminine et masculine"
+            "value" : "Tous les os, articulations et ligaments, plus de 200 muscles et leurs insertions, le cœur et les vaisseaux ; anatomie féminine et masculine"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle Knochen, Gelenke und Bänder, über 200 Muskeln mit Ursprung und Ansatz, Herz und Gefäße; weibliche und männliche Anatomie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todos los huesos, articulaciones y ligamentos, más de 200 músculos y sus inserciones, corazón y vasos; anatomía femenina y masculina"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri; kadın ve erkek anatomisi"
+            "value" : "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar; kadın ve erkek anatomisi"
           }
         }
       }
@@ -11464,36 +11430,36 @@
         }
       }
     },
-    "Kas-iskelet sistemi, en ince ayrıntısıyla" : {
+    "Kas-iskelet sistemi, kalp ve damarlar" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Der Bewegungsapparat bis ins Detail"
-          }
-        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The musculoskeletal system in full detail"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "El sistema musculoesquelético al detalle"
+            "value" : "Musculoskeletal system, heart and vessels"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Le système musculo-squelettique dans les moindres détails"
+            "value" : "Appareil locomoteur, cœur et vaisseaux"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewegungsapparat, Herz und Gefäße"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aparato locomotor, corazón y vasos"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kas-iskelet sistemi, en ince ayrıntısıyla"
+            "value" : "Kas-iskelet sistemi, kalp ve damarlar"
           }
         }
       }
@@ -12076,36 +12042,36 @@
         }
       }
     },
-    "Kemikler, eklemler ve kaslar için 280'i aşkın ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, 380'i aşkın özgün TUS ve komite sorusu ve 3.000'e yakın bilgi kartı, tek bir uygulamada." : {
+    "Kemikler, eklemler, kaslar, kalp ve damarlar için 369 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 760 özgün soru ve 3.000'e yakın bilgi kartı, tek bir uygulamada." : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Über 280 ausführliche Artikel zu Knochen, Gelenken und Muskeln, rund 500 beschriftete Knochenmerkmale, über 380 originale Prüfungsfragen und fast 3.000 Lernkarten – in einer App."
-          }
-        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "280+ detailed articles on bones, joints and muscles, about 500 labelled bone landmarks, 380+ original exam-style questions and nearly 3,000 flashcards, in one app."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Más de 280 fichas detalladas de huesos, articulaciones y músculos, unos 500 accidentes óseos señalados, más de 380 preguntas originales tipo examen y casi 3000 tarjetas, en una sola app."
+            "value" : "369 detailed articles on bones, joints, muscles, the heart and vessels, about 500 labelled bone landmarks, 760 original questions at three levels and nearly 3,000 flashcards, in one app."
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Plus de 280 fiches détaillées sur les os, articulations et muscles, environ 500 repères osseux annotés, plus de 380 questions originales de type examen et près de 3 000 cartes mémoire, dans une seule app."
+            "value" : "369 fiches détaillées sur les os, les articulations, les muscles, le cœur et les vaisseaux, environ 500 repères osseux annotés, 760 questions originales sur trois niveaux et près de 3 000 cartes, dans une seule app."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "369 ausführliche Artikel zu Knochen, Gelenken, Muskeln, Herz und Gefäßen, rund 500 beschriftete Knochenmerkmale, 760 originale Fragen auf drei Niveaus und fast 3.000 Lernkarten – in einer App."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "369 fichas detalladas de huesos, articulaciones, músculos, corazón y vasos, unos 500 relieves óseos señalados, 760 preguntas originales en tres niveles y casi 3.000 tarjetas, en una sola app."
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kemikler, eklemler ve kaslar için 280'i aşkın ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, 380'i aşkın özgün TUS ve komite sorusu ve 3.000'e yakın bilgi kartı, tek bir uygulamada."
+            "value" : "Kemikler, eklemler, kaslar, kalp ve damarlar için 369 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 760 özgün soru ve 3.000'e yakın bilgi kartı, tek bir uygulamada."
           }
         }
       }
@@ -12758,28 +12724,28 @@
     },
     "Latince adlar önde" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Latin names first"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Noms latins en premier"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lateinische Namen zuerst"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latin names first"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nombres latinos primero"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noms latins en premier"
           }
         },
         "tr" : {
@@ -18594,6 +18560,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uygulama"
+          }
+        }
+      }
+    },
+    "Uygulamayı puanla" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App bewerten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rate the app"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valorar la app"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter l'app"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı puanla"
           }
         }
       }

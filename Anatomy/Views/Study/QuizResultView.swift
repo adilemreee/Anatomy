@@ -3,11 +3,13 @@
 //  Anatomy
 //
 
+import StoreKit
 import SwiftUI
 
 /// Score, TUS net, per-system breakdown and a review of every question.
 struct QuizResultView: View {
     @Environment(AppModel.self) private var app
+    @Environment(\.requestReview) private var requestReview
     let session: QuizSession
     @Binding var scene: AnatomyScene?
     let close: () -> Void
@@ -123,6 +125,14 @@ struct QuizResultView: View {
             .readableWidth()
         }
         .scrollIndicators(.hidden)
+        .task {
+            // A good result is the moment to ask for a rating.
+            guard ReviewPrompt.shouldAsk(score: ratio, questions: total, answeredInTotal: app.study.answered) else { return }
+            try? await Task.sleep(for: .seconds(1.5))
+            guard !Task.isCancelled else { return }
+            ReviewPrompt.markAsked()
+            requestReview()
+        }
         .safeAreaInset(edge: .bottom) {
             VStack(spacing: 10) {
                 let wrong = session.questions.indices.filter { session.isCorrect($0) != true }
