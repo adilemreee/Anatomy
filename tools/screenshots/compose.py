@@ -96,7 +96,7 @@ def ribbon_svg(w, h, index, count, accent):
             + "".join(lines) + "</svg>")
 
 
-def sparkles(w, h, seed, accent):
+def sparkles(w, h, seed, accent, stars=4, star_size=1.0):
     rnd = random.Random(seed)
     out = []
     for _ in range(26):
@@ -106,9 +106,9 @@ def sparkles(w, h, seed, accent):
         o = rnd.uniform(0.25, 0.8)
         out.append(f'<i class="spark" style="left:{x:.0f}px;top:{y:.0f}px;width:{r * 2:.1f}px;height:{r * 2:.1f}px;'
                    f'background:{c};opacity:{o:.2f};box-shadow:0 0 {r * 6:.0f}px {r * 2:.0f}px {c}"></i>')
-    for _ in range(4):
+    for _ in range(stars):
         x, y = rnd.uniform(0.05, 0.95) * w, rnd.uniform(0.25, 0.9) * h
-        s = rnd.uniform(18, 34) * w / 1320
+        s = rnd.uniform(18, 34) * w / 1320 * star_size
         c = rnd.choice([accent[0], accent[1], "#ffffff"])
         out.append(f'<svg class="star4" style="left:{x - s:.0f}px;top:{y - s:.0f}px;width:{s * 2:.0f}px;height:{s * 2:.0f}px" viewBox="0 0 20 20">'
                    f'<path d="M10 0C10.8 7 13 9.2 20 10 13 10.8 10.8 13 10 20 9.2 13 7 10.8 0 10 7 9.2 9.2 7 10 0z" fill="{c}"/></svg>')

@@ -168,6 +168,12 @@ Betik maddelerin `models` alanının gerçekten bir 3D parçaya karşılık geld
 
 `raw/` ve `out/` git'e eklenmez.
 
+**Ürün sayfası başlığı ve arama sonucu** (App Store Connect > Header and Search Results, iOS 27): `render_figures.py` Blender ile
+atlas paketlerinden dört figürü (deri, kaslar, iskelet, kalp ve damarlar) çizer (`still` tek kare, `turntable` 360 karelik dönüş);
+`compose_creative.py header|video|search` bunlardan `out/creative/header.png` (3840×1646, metinsiz), `header.mp4` (12 sn döngü,
+30 fps) ve her dil için `out/creative/<dil>/search.png` (3840×2560) üretir. Önemli öğeler Apple şablonlarındaki güvenli alanlarda kalır
+(başlık ortadaki 1646×661, arama x 836–3004 / y 765–1795); deri figürü 4+ yaş sınırı için genital bölgesiz beyaz silüet olarak çizilir.
+
 ## Yerelleştirme
 
 Uygulama Türkçe (kaynak), İngilizce, Fransızca, Almanca ve İspanyolca'dır; cihaz başka bir dildeyse İngilizce açılır.
