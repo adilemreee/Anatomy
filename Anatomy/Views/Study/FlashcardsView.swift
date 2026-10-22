@@ -191,7 +191,7 @@ struct FlashcardsView: View {
                     .background(tint.opacity(0.08), in: .rect(cornerRadius: 12))
             }
             if card.kind == .facts, let entry = app.store.entry(card.entryID) {
-                Text("\(entry.tr) · \(entry.la)")
+                Text(app.store.fullName(entry))
                     .font(.footnote)
                     .foregroundStyle(Theme.textTertiary)
             }

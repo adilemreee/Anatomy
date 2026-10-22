@@ -271,7 +271,7 @@ final class AppModel {
         }
         // Very large groups would be unreadable on their own.
         if refs.count > 40 { refs = Array(refs.prefix(40)) }
-        specimen = specimenRequest(for: refs, title: entry.tr, subtitle: entry.la, entryID: entry.id)
+        specimen = specimenRequest(for: refs, title: store.title(entry), subtitle: store.subtitle(entry), entryID: entry.id)
     }
 
     /// The specimen for `refs`. Muscles come with their attachment patches

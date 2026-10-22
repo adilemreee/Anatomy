@@ -83,6 +83,12 @@ struct RootView: View {
                     let kind = start.split(separator: ":").dropFirst().first.flatMap { Flashcard.Kind(rawValue: String($0)) }
                     app.startFlashcards(kinds: kind.map { [$0] } ?? Set(Flashcard.Kind.allCases), systems: nil,
                                         title: kind?.title ?? String(localized: "Bilgi kartları"))
+                } else if start.hasPrefix("key:") {
+                    // -StartQuiz key:mu-b57e5057,g|model|m-deltoideus opens these questions in order
+                    let questions = start.dropFirst(4).split(separator: ",").compactMap {
+                        QuizEngine.question(forKey: String($0), store: app.store, bank: app.bank)
+                    }
+                    if !questions.isEmpty { app.startQuiz(title: String(localized: "Soru bankası"), questions: questions) }
                 } else if let source = QuizSource(rawValue: start) {
                     app.startQuiz(QuizConfig(title: source.title, source: source, count: 10))
                 }

@@ -12756,6 +12756,40 @@
         }
       }
     },
+    "Latince adlar önde" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latin names first"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noms latins en premier"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lateinische Namen zuerst"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombres latinos primero"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latince adlar önde"
+          }
+        }
+      }
+    },
     "Latince terimler" : {
       "localizations" : {
         "de" : {
@@ -16783,12 +16817,11 @@
       }
     },
     "streak.oneDay" : {
-      "extractionState" : "extracted_with_value",
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "gün seri"
+            "value" : "Tag in Folge"
           }
         },
         "en" : {
@@ -16797,22 +16830,22 @@
             "value" : "day streak"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "día de racha"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "jour de série"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tag in Folge"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "día de racha"
+            "value" : "gün seri"
           }
         }
       }

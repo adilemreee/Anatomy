@@ -160,9 +160,9 @@ final class PartSearchIndex {
                 for name in info.path.dropFirst() {
                     let key = layer.id + "/" + name
                     if groups[key] == nil {
-                        let title = store.groupName(name)
-                        let latin = store.latinName(name) ?? ""
-                        let names = [title, latin, name]
+                        let title = store.title(ofGroup: name)
+                        let latin = store.subtitle(ofGroup: name)
+                        let names = [store.groupName(name), store.latinName(name) ?? "", name]
                         groups[key] = Group(layer: layer.id, name: name, title: title, latin: latin,
                                             folded: names.map(SearchText.fold), typed: names.map(SearchText.typed))
                         order.append(key)
@@ -323,13 +323,13 @@ private struct NodeView: View {
             }
         } label: {
             HStack {
-                let latin = app.store.latinName(node.name)
+                let store = app.store
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(app.store.groupName(node.name))
+                    Text(store.title(ofGroup: node.name))
                         .font(.subheadline.weight(.semibold))
-                    if let latin {
-                        Text(latin)
-                            .font(.caption.italic())
+                    if !store.subtitle(ofGroup: node.name).isEmpty {
+                        Text(store.subtitle(ofGroup: node.name))
+                            .font(store.latinFirst ? .caption : .caption.italic())
                             .foregroundStyle(.secondary)
                     }
                 }
@@ -364,7 +364,7 @@ private struct PartRow: View {
                         .frame(width: 10, height: 10)
                     VStack(alignment: .leading, spacing: 2) {
                         HStack(spacing: 4) {
-                            Text(store.displayName(for: info))
+                            Text(store.title(for: info))
                                 .foregroundStyle(.primary)
                             if let side = info.sideTitle {
                                 Text(side).foregroundStyle(.secondary)
@@ -379,7 +379,7 @@ private struct PartRow: View {
                             }
                         }
                         .font(.subheadline)
-                        Text(showsLayer ? "\(ModelLayer.layer(ref.system)?.title ?? "") · \(store.latinName(for: info) ?? info.base)" : (store.latinName(for: info) ?? info.base))
+                        Text([showsLayer ? ModelLayer.layer(ref.system)?.title : nil, store.subtitle(for: info)].compactMap { $0 }.filter { !$0.isEmpty }.joined(separator: " · "))
                             .font(.caption)
                             .foregroundStyle(.secondary)
                             .lineLimit(1)

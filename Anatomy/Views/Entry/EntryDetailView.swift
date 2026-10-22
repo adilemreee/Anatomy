@@ -15,9 +15,10 @@ struct EntryDetailView: View {
             EntryContent(entry: entry)
                 .padding(.horizontal, 16)
                 .padding(.bottom, 32)
+                .readableWidth()
         }
         .themedBackground()
-        .navigationTitle(entry.tr)
+        .navigationTitle(app.store.title(entry))
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
@@ -125,7 +126,7 @@ struct EntryContent: View {
                 FlowLayout(spacing: 8) {
                     ForEach(related) { other in
                         NavigationLink(value: other) {
-                            Text(other.tr)
+                            Text(app.store.title(other))
                                 .font(.subheadline.weight(.medium))
                                 .padding(.horizontal, 12)
                                 .padding(.vertical, 7)
@@ -141,7 +142,7 @@ struct EntryContent: View {
         // Not offered from inside a running test or the specimen viewer.
         if app.quiz == nil, app.specimen == nil {
             Button {
-                app.startQuiz(QuizConfig(title: entry.tr, source: .bank, systems: [entry.systemID], count: 8,
+                app.startQuiz(QuizConfig(title: app.store.title(entry), source: .bank, systems: [entry.systemID], count: 8,
                                          preferNew: false, entries: [entry.id]))
             } label: {
                 HStack(spacing: 12) {
@@ -195,14 +196,16 @@ struct EntryContent: View {
                 }
                 TagView(text: entry.region.title, color: Theme.textSecondary, systemImage: entry.region.icon)
             }
-            Text(entry.tr)
+            Text(app.store.title(entry))
                 .font(.system(.largeTitle, weight: .bold))
                 .foregroundStyle(Theme.textPrimary)
                 .fixedSize(horizontal: false, vertical: true)
-            Text(entry.la)
-                .font(Theme.latin(.title3))
-                .foregroundStyle(tint)
-            if entry.en != entry.la {
+            if !app.store.subtitle(entry).isEmpty {
+                Text(app.store.subtitle(entry))
+                    .font(Theme.secondName(.title3, latinFirst: app.store.latinFirst))
+                    .foregroundStyle(tint)
+            }
+            if entry.en != entry.la, entry.en != entry.tr {
                 Text(entry.en)
                     .font(.subheadline)
                     .foregroundStyle(Theme.textTertiary)

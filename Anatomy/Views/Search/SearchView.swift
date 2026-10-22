@@ -118,11 +118,13 @@ private struct PartResultRow: View {
                         SystemBadge(icon: layer.icon, color: layer.tint, size: 30)
                     }
                     VStack(alignment: .leading, spacing: 2) {
-                        Text(app.store.displayName(for: info))
+                        Text(app.store.title(for: info))
                             .foregroundStyle(.primary)
-                        Text(app.store.latinName(for: info) ?? info.base)
-                            .font(.caption.italic())
-                            .foregroundStyle(.secondary)
+                        if !app.store.subtitle(for: info).isEmpty {
+                            Text(app.store.subtitle(for: info))
+                                .font(app.store.latinFirst ? .caption : .caption.italic())
+                                .foregroundStyle(.secondary)
+                        }
                     }
                     Spacer()
                     Image(systemName: "cube.transparent")

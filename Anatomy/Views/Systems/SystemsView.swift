@@ -53,6 +53,7 @@ struct SystemsView: View {
                 }
                 .padding(.horizontal, 16)
                 .padding(.bottom, 32)
+                .readableWidth(ReadableWidth.dashboard)
             }
             .themedBackground()
             .navigationTitle("Keşfet")
@@ -85,6 +86,7 @@ struct SystemsView: View {
 }
 
 private struct DailyCard: View {
+    @Environment(AppModel.self) private var app
     let entry: AtlasEntry
     let system: BodySystem?
 
@@ -106,12 +108,14 @@ private struct DailyCard: View {
                 .clipped()
             VStack(alignment: .leading, spacing: 5) {
                 Eyebrow(text: String(localized: "Günün yapısı"), color: tint)
-                Text(entry.tr)
+                Text(app.store.title(entry))
                     .font(.title2.weight(.bold))
                     .foregroundStyle(.white)
-                Text(entry.la)
-                    .font(Theme.latin(.subheadline))
-                    .foregroundStyle(.white.opacity(0.75))
+                if !app.store.subtitle(entry).isEmpty {
+                    Text(app.store.subtitle(entry))
+                        .font(Theme.secondName(latinFirst: app.store.latinFirst))
+                        .foregroundStyle(.white.opacity(0.75))
+                }
                 Text(entry.summary)
                     .font(.footnote)
                     .foregroundStyle(.white.opacity(0.75))
@@ -246,6 +250,7 @@ struct SystemDetailView: View {
             }
             .padding(.horizontal, 16)
             .padding(.bottom, 32)
+            .readableWidth(ReadableWidth.dashboard)
         }
         .themedBackground()
         .navigationTitle(system.tr)
@@ -327,6 +332,7 @@ struct RegionDetailView: View {
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 12)
+            .readableWidth()
         }
         .themedBackground()
         .navigationTitle(region.title)
@@ -344,12 +350,14 @@ struct EntryRow: View {
     var body: some View {
         HStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 2) {
-                Text(entry.tr)
+                Text(app.store.title(entry))
                     .font(.body.weight(.medium))
                     .foregroundStyle(Theme.textPrimary)
-                Text(entry.la)
-                    .font(Theme.latin(.subheadline))
-                    .foregroundStyle(Theme.textSecondary)
+                if !app.store.subtitle(entry).isEmpty {
+                    Text(app.store.subtitle(entry))
+                        .font(Theme.secondName(latinFirst: app.store.latinFirst))
+                        .foregroundStyle(Theme.textSecondary)
+                }
             }
             Spacer()
             if locked {

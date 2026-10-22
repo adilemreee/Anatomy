@@ -1,4 +1,4 @@
-# App Store listing (EN / FR / DE / ES)
+# App Store listing (TR / EN / FR / DE / ES)
 
 Text to paste into App Store Connect for each localization. Limits: name and subtitle 30 characters,
 promotional text 170, keywords 100 (comma separated, no spaces), description 4000.
@@ -10,6 +10,70 @@ Before submitting: check in App Store Connect that the name is free in each stor
 - Support URL: https://anatomi.adilemree.xyz/destek (has an English section)
 - Privacy Policy URL: https://anatomi.adilemree.xyz/privacy
 - Terms of Use (EULA): Apple's standard EULA; https://anatomi.adilemree.xyz/terms in the description
+
+---
+
+## Turkish (Türkçe)
+
+### Name
+Anatomi Atlası 3D
+
+### Subtitle
+Kemik, kas, eklem ve damarlar
+
+### Promotional text
+Her kemiği, eklemi, kası, kalbi ve damarı 3D incele; kasların nereden başlayıp nereye tutunduğunu gör, açıklamalı sorular ve bilgi kartlarıyla kalıcı öğren.
+
+### Keywords
+iskelet,origo,insersiyo,innervasyon,tus,tıp,diş,fizyoterapi,hemşirelik,soru,test,kart,latince,3b,bağ
+
+### Description
+Anatomi Atlası 3D; tıp, diş hekimliği, fizyoterapi ve hemşirelik öğrencileri ile anatomiyi gerçekten öğrenmek isteyen herkes için hazırlanmış ayrıntılı ve etkileşimli bir kas-iskelet sistemi atlasıdır. Tamamen Türkçedir; derslerde ve TUS'ta olduğu gibi yapıların Latince adı önde, Türkçe karşılığı altındadır.
+
+3D ATLAS
+• 2.700'den fazla seçilebilir 3D yapı: kemikler, eklemler ve bağlar, kaslar ve kas yapışma yerleri, kalp ve damarlar
+• Ayrı erkek ve kadın modeli
+• Bir yapıya dokun; Latince adını, Türkçe adını ve kısa açıklamasını gör
+• Yapıları tek başına göster, gizle ya da saydamlaştır; katmanları açıp kapat
+• Gerçekçi ve öğretici renk modları, röntgen görünümü
+
+İNCELEME MODU
+• Her kemiği ya da kası tek başına, oluşumları etiketlenmiş olarak aç
+• Kaslar bağlandıkları kemiklerle görünür: başlangıç (origo) kırmızı, tutunma (insersiyo) mavi
+• Bir etikete dokun, o oluşum model üzerinde parlasın
+
+MADDELER
+• 369 madde: 72 kemik ve iskelet yapısı, 45 eklem ve bağ, 206 kas, 46 kalp ve damar maddesi
+• Türkçe, Latince (Terminologia Anatomica) ve İngilizce adlar
+• Origo, insersiyo, innervasyon, kanlanma, fonksiyon, klinik bilgiler ve TUS notları
+
+ÇALIŞ
+• 760 özgün soru, üç düzeyde (Temel, Fakülte, TUS); her biri beş seçenekli ve ayrıntılı açıklamalı
+• Klinik vakalar, kas–sinir soruları ve kemik oluşumu soruları
+• Soru haritası, işaretleme ve TUS neti olan süreli deneme sınavları
+• 6 destede yaklaşık 3.000 aralıklı tekrar kartı: yapılar, Latince adlar, origo–insersiyo–sinir, kemik oluşumları, TUS ve klinik bilgiler
+• Yanlışlarım, işaretlediklerim, zayıf konular ve ayrıntılı istatistikler; günlük hedef ve seri
+
+GİZLİ VE ÇEVRİMDIŞI
+• Her şey cihazında: hesap yok, reklam yok, takip yok
+• İnternet bağlantısı olmadan çalışır
+
+PREMIUM
+İskelet sistemi ve günde 10 soru ücretsizdir. Premium; eklemleri, kasları, kalp ve damarları, inceleme modunu, kadın modelini, deneme sınavlarını, tüm bilgi kartlarını ve istatistikleri açar. Premium, aylık ya da yıllık otomatik yenilenen abonelik veya tek seferlik ömür boyu satın alma olarak sunulur. Ödeme, satın alma onaylandığında Apple Hesabından tahsil edilir. Abonelik, dönem bitmeden en az 24 saat önce iptal edilmezse otomatik olarak yenilenir; aboneliğini App Store hesap ayarlarından yönetebilir ya da iptal edebilirsin.
+
+Kullanım Koşulları: https://anatomi.adilemree.xyz/terms
+Gizlilik Politikası: https://anatomi.adilemree.xyz/privacy
+
+Sorular ve metinler bu uygulama için özgün olarak hazırlanmıştır. Anatomi Atlası 3D yalnızca eğitim amaçlıdır ve tıbbi tavsiyenin yerine geçmez.
+
+### What's New
+Kalp ve damarlar geri döndü: 46 madde ve kendi soruları.
+Soru bankası 760 soruya çıktı; Fakülte ve TUS düzeyinin yanına yeni Temel düzey eklendi.
+İskelet ve eklemlerde daha fazla ayrıntı: kafa tabanı, orbita, omurga, pelvis, ayak kemerleri ve omuz, dirsek, el bileği, kalça, diz ve ayak bileğinin başlıca bağları.
+Yapı adları artık Latince önde, Türkçesi altında; istersen Ayarlar'dan Türkçe adları öne alabilirsin.
+3D modelde daha net ve okunaklı etiketler.
+iPad'de daha ferah ve rahat okunan düzen.
+Uygulama artık İngilizce, Fransızca, Almanca ve İspanyolca da kullanılabiliyor.
 
 ---
 
@@ -72,6 +136,7 @@ The heart and blood vessels are back, with 46 articles and their own questions.
 The question bank has grown to 760 questions, with a new Basic level next to course and board level.
 More skeleton and joint detail: skull base, orbit, spine, pelvis, foot arches and the main ligaments of the shoulder, elbow, wrist, hip, knee and ankle.
 Clearer, easier-to-read labels on the 3D model.
+A roomier, easier-to-read layout on iPad.
 
 ---
 
@@ -134,6 +199,7 @@ Le cœur et les vaisseaux sont de retour, avec 46 fiches et leurs propres questi
 La banque de questions passe à 760 questions, avec un nouveau niveau Base à côté des niveaux faculté et concours.
 Plus de détails sur le squelette et les articulations : base du crâne, orbite, rachis, bassin, arches du pied et principaux ligaments de l'épaule, du coude, du poignet, de la hanche, du genou et de la cheville.
 Des étiquettes plus claires et plus lisibles sur le modèle 3D.
+Une mise en page plus aérée et plus lisible sur iPad.
 
 ---
 
@@ -157,7 +223,7 @@ Anatomie Atlas 3D ist ein ausführlicher, interaktiver Atlas des Bewegungsappara
 3D-ATLAS
 • Über 2.000 auswählbare 3D-Strukturen: Knochen, Gelenke und Bänder, Muskeln und Muskelansätze, Herz und Blutgefäße
 • Getrennte männliche und weibliche Modelle
-• Tippe auf eine Struktur und sieh ihren Namen, den lateinischen Namen und eine kurze Beschreibung
+• Tippe auf eine Struktur und sieh ihren lateinischen und deutschen Namen und eine kurze Beschreibung
 • Strukturen isolieren, ausblenden oder transparent machen; ganze Schichten ein- und ausschalten
 • Realistischer und didaktischer Farbmodus
 
@@ -168,7 +234,7 @@ PRÄPARATMODUS
 
 ARTIKEL
 • 369 Artikel: 72 zu Knochen, 45 zu Gelenken und Bändern, 206 zu Muskeln, 46 zu Herz und Gefäßen
-• Deutsche und lateinische Namen (Terminologia Anatomica)
+• Lateinische Namen (Terminologia Anatomica) zuerst, die deutschen darunter – wie im Studium
 • Ursprung, Ansatz, Innervation, Blutversorgung, Funktion, klinische Hinweise und Prüfungswissen
 
 LERNEN
@@ -196,6 +262,7 @@ Herz und Blutgefäße sind zurück, mit 46 Artikeln und eigenen Fragen.
 Die Fragenbank wächst auf 760 Fragen, mit dem neuen Basisniveau neben Studium und Examen.
 Mehr Details zu Skelett und Gelenken: Schädelbasis, Augenhöhle, Wirbelsäule, Becken, Fußgewölbe und die wichtigsten Bänder von Schulter, Ellenbogen, Handgelenk, Hüfte, Knie und Sprunggelenk.
 Klarere, besser lesbare Beschriftungen am 3D-Modell.
+Ein großzügigeres, besser lesbares Layout auf dem iPad.
 
 ---
 
@@ -258,3 +325,4 @@ El corazón y los vasos sanguíneos vuelven, con 46 fichas y sus propias pregunt
 El banco de preguntas crece hasta 760, con un nuevo nivel Básico junto a los niveles de grado y examen.
 Más detalle en el esqueleto y las articulaciones: base del cráneo, órbita, columna, pelvis, arcos del pie y los principales ligamentos del hombro, el codo, la muñeca, la cadera, la rodilla y el tobillo.
 Etiquetas más claras y fáciles de leer en el modelo 3D.
+Un diseño más amplio y fácil de leer en iPad.

@@ -141,4 +141,18 @@ extension View {
         background(Theme.background.ignoresSafeArea())
             .scrollContentBackground(.hidden)
     }
+
+    /// Caps the content's width on wide windows (iPad, the inner display of
+    /// iPhone Duo) and centres it, so lines and rows stay easy to read;
+    /// narrow windows are unaffected.
+    func readableWidth(_ maxWidth: CGFloat = 720) -> some View {
+        frame(maxWidth: maxWidth)
+            .frame(maxWidth: .infinity)
+    }
+}
+
+/// Widths for `readableWidth`: reading pages and the dashboard-like tabs.
+enum ReadableWidth {
+    static let text: CGFloat = 720
+    static let dashboard: CGFloat = 1000
 }

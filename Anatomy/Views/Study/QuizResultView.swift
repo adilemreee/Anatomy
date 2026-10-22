@@ -120,6 +120,7 @@ struct QuizResultView: View {
             }
             .padding(16)
             .padding(.bottom, 100)
+            .readableWidth()
         }
         .scrollIndicators(.hidden)
         .safeAreaInset(edge: .bottom) {
@@ -138,6 +139,7 @@ struct QuizResultView: View {
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 10)
+            .readableWidth()
             .background(.ultraThinMaterial)
         }
     }

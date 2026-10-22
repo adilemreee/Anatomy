@@ -50,6 +50,7 @@ struct StatsView: View {
             }
             .padding(16)
             .padding(.bottom, 24)
+            .readableWidth(ReadableWidth.dashboard)
         }
         .scrollIndicators(.hidden)
         .themedBackground()
@@ -142,12 +143,14 @@ struct StatsView: View {
                             let score = app.study.score(entry.id)
                             HStack {
                                 VStack(alignment: .leading, spacing: 2) {
-                                    Text(entry.tr)
+                                    Text(app.store.title(entry))
                                         .font(.subheadline.weight(.medium))
                                         .foregroundStyle(Theme.textPrimary)
-                                    Text(entry.la)
-                                        .font(Theme.latin(.caption))
-                                        .foregroundStyle(Theme.textSecondary)
+                                    if !app.store.subtitle(entry).isEmpty {
+                                        Text(app.store.subtitle(entry))
+                                            .font(Theme.secondName(.caption, latinFirst: app.store.latinFirst))
+                                            .foregroundStyle(Theme.textSecondary)
+                                    }
                                 }
                                 Spacer()
                                 Text("\(score.correct)/\(score.seen)")

@@ -58,6 +58,13 @@ final class AtlasStore {
     /// Bone landmarks of the entries in scope.
     let landmarks: [Landmark]
     private(set) var glossary: [String: GlossaryTerm] = [:]
+    /// Shows the Latin (Terminologia Anatomica) name first and the language's
+    /// own name below it. Anatomy is taught with the Latin names in Turkey and
+    /// Germany, so this is the default there; English, French and Spanish
+    /// courses use their own nomenclature.
+    var latinFirst: Bool = UserDefaults.standard.object(forKey: "names.latinFirst") as? Bool ?? ["tr", "de"].contains(AppLanguage.current) {
+        didSet { UserDefaults.standard.set(latinFirst, forKey: "names.latinFirst") }
+    }
 
     @ObservationIgnored private let byID: [String: AtlasEntry]
     @ObservationIgnored private let byModel: [String: String]
@@ -245,6 +252,78 @@ final class AtlasStore {
     /// Turkish name of a model group (a folder in the parts browser).
     func groupName(_ englishName: String) -> String {
         partTerm(englishName)?.tr ?? term(englishName)?.la ?? englishName
+    }
+
+    // MARK: Names in the chosen order
+
+    /// The name shown first for an entry, and the one under it.
+    func title(_ entry: AtlasEntry) -> String {
+        latinFirst && !entry.la.isEmpty ? entry.la : entry.tr
+    }
+
+    /// Empty when both names are the same ("Femur", or a German muscle name).
+    func subtitle(_ entry: AtlasEntry) -> String {
+        let name = latinFirst && !entry.la.isEmpty ? entry.tr : entry.la
+        return Self.same(name, title(entry)) ? "" : name
+    }
+
+    /// "M. deltoideus (Omuz kası)", or the one name when both are the same.
+    func fullName(_ entry: AtlasEntry) -> String {
+        let second = subtitle(entry)
+        return second.isEmpty ? title(entry) : "\(title(entry)) (\(second))"
+    }
+
+    /// The name shown first for a 3D part (labels, the selection card).
+    func title(for part: PartInfo) -> String {
+        guard latinFirst, let latin = latinName(for: part) else { return displayName(for: part) }
+        return Self.shortLatin(latin)
+    }
+
+    func subtitle(for part: PartInfo) -> String {
+        let name = latinFirst && latinName(for: part) != nil ? displayName(for: part) : latinName(for: part) ?? part.base
+        return Self.same(name, title(for: part)) ? "" : name
+    }
+
+    /// The same for a model group or a named part (folders, landmarks).
+    func title(ofGroup name: String) -> String {
+        guard latinFirst, let latin = latinName(name) else { return groupName(name) }
+        return Self.shortLatin(latin)
+    }
+
+    func subtitle(ofGroup name: String) -> String {
+        let other = latinFirst && latinName(name) != nil ? groupName(name) : latinName(name) ?? name
+        return Self.same(other, title(ofGroup: name)) ? "" : other
+    }
+
+    /// Whether two names only differ in case or abbreviation.
+    private static func same(_ a: String, _ b: String) -> Bool {
+        shortLatin(a).compare(shortLatin(b), options: [.caseInsensitive, .diacriticInsensitive]) == .orderedSame
+    }
+
+    /// Names of an inspection label (a landmark or part, by its English
+    /// name) in the chosen order: the first one leads, the second goes under it.
+    func featureNames(_ englishName: String) -> (tr: String?, la: String?) {
+        let native = partTerm(englishName)?.tr
+        let latin = latinName(englishName).map(Self.shortLatin)
+        let names = latinFirst && latin != nil ? (latin, native) : (native, latin)
+        if let first = names.0, let second = names.1, Self.same(first, second) { return (first, nil) }
+        return names
+    }
+
+    /// Abbreviates the long genitive forms the way anatomy texts write them:
+    /// "Caput breve musculi bicipitis brachii" → "Caput breve m. bicipitis brachii".
+    static func shortLatin(_ name: String) -> String {
+        var out = " " + name + " "
+        for (long, short) in [("Musculus", "M."), ("Musculi", "Mm."), ("Arteria", "A."), ("Arteriae", "Aa."),
+                              ("Vena", "V."), ("Venae", "Vv."), ("Nervus", "N."), ("Nervi", "Nn."),
+                              ("Ligamentum", "Lig."), ("Ligamenta", "Ligg.")] where out.hasPrefix(" \(long) ") {
+            out = " " + short + out.dropFirst(long.count + 1)
+        }
+        for (long, short) in [("musculi", "m."), ("musculorum", "mm."), ("arteriae", "a."), ("venae", "v."),
+                              ("nervi", "n."), ("ligamenti", "lig.")] {
+            out = out.replacingOccurrences(of: " \(long) ", with: " \(short) ")
+        }
+        return out.trimmingCharacters(in: .whitespaces)
     }
 
     /// Short Turkish description of a part or group.

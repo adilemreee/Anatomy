@@ -92,7 +92,7 @@ struct AtlasView: View {
             let bottom = chromeBottom > chromeTop + 200 ? chromeBottom - 8 : viewSize.height - 150
             let result = await scene.labels(in: viewSize, top: chromeTop + 8, bottom: bottom,
                                             avoiding: railFrame.isEmpty ? [] : [railFrame.insetBy(dx: -4, dy: -4)]) {
-                store.displayName(for: $0)
+                store.title(for: $0)
             }
                 .filter { premium || $0.ref.system == Access.freeLayer }
             guard !Task.isCancelled else { return }
@@ -654,14 +654,17 @@ private struct SelectionCard: View {
                     SystemBadge(icon: layer.icon, color: layer.tint, size: 40)
                 }
                 VStack(alignment: .leading, spacing: 3) {
-                    Text(wholeGroup ? (level?.title ?? "") : store.displayName(for: info) + side)
+                    Text(wholeGroup ? (level?.title ?? "") : store.title(for: info) + side)
                         .font(.headline)
                         .foregroundStyle(Theme.textPrimary)
                         .lineLimit(2)
-                    Text(wholeGroup ? (level?.latin ?? "") : subtitle)
-                        .font(Theme.latin(.subheadline))
-                        .foregroundStyle(Theme.textSecondary)
-                        .lineLimit(1)
+                    let second = wholeGroup ? (level?.subtitle ?? "") : subtitle
+                    if !second.isEmpty {
+                        Text(second)
+                            .font(info.kind == nil ? Theme.secondName(latinFirst: store.latinFirst) : Theme.latin(.subheadline))
+                            .foregroundStyle(Theme.textSecondary)
+                            .lineLimit(1)
+                    }
                     if group.count > 1 {
                         Text(wholeGroup ? String(localized: "\(group.count) parça birlikte seçili") : String(localized: "\(group.count) bölümüyle birlikte seçildi"))
                             .font(.caption)
@@ -752,8 +755,8 @@ private struct SelectionCard: View {
                     let entry = wholeGroup ? nil : store.entry(for: info)
                     app.specimen = app.specimenRequest(
                         for: refs,
-                        title: wholeGroup ? (level?.title ?? "") : store.displayName(for: info),
-                        subtitle: wholeGroup ? (level?.latin ?? "") : (store.latinName(for: info) ?? info.base),
+                        title: wholeGroup ? (level?.title ?? "") : store.title(for: info),
+                        subtitle: wholeGroup ? (level?.subtitle ?? "") : store.subtitle(for: info),
                         entryID: entry?.id
                     )
                 }
@@ -784,7 +787,8 @@ private struct SelectionCard: View {
     /// groups it belongs to, nearest first (same side, this body's sex).
     private struct Level {
         let title: String
-        let latin: String
+        /// The other name: the Latin one, or the language's own when Latin leads.
+        let subtitle: String
         var name: String? = nil
         let refs: Set<PartRef>
     }
@@ -800,7 +804,7 @@ private struct SelectionCard: View {
         let store = app.store
         var base = scene.groupResolver?(ref) ?? [ref]
         base.insert(ref)
-        var out = [Level(title: store.displayName(for: info), latin: store.latinName(for: info) ?? info.base, refs: base)]
+        var out = [Level(title: store.title(for: info), subtitle: store.subtitle(for: info), refs: base)]
         var lastCount = base.count
         for name in info.path.dropFirst().reversed() {
             let refs = Set(scene.matchingSex(scene.refs(matching: [name])).filter { other in
@@ -808,7 +812,7 @@ private struct SelectionCard: View {
                 return info.side == nil || otherInfo.side == nil || otherInfo.side == info.side
             })
             guard refs.count > lastCount, refs.count <= 150 else { continue }
-            out.append(Level(title: store.groupName(name), latin: store.latinName(name) ?? name, name: name, refs: refs.union([ref])))
+            out.append(Level(title: store.title(ofGroup: name), subtitle: store.subtitle(ofGroup: name), name: name, refs: refs.union([ref])))
             lastCount = refs.count
             if out.count == 3 { break }
         }
@@ -816,7 +820,8 @@ private struct SelectionCard: View {
             guard let wider = Self.combined[name] else { continue }
             let refs = Set(scene.matchingSex(scene.refs(matching: wider.groups)).filter { $0.system == ref.system })
             if refs.count > lastCount {
-                out.append(Level(title: wider.title, latin: wider.latin, refs: refs.union([ref])))
+                out.append(store.latinFirst ? Level(title: wider.latin, subtitle: wider.title, refs: refs.union([ref]))
+                                            : Level(title: wider.title, subtitle: wider.latin, refs: refs.union([ref])))
             }
         }
         return out
@@ -824,7 +829,7 @@ private struct SelectionCard: View {
 
     private var subtitle: String {
         if let kind = info.kind { return kind == "origin" ? String(localized: "Kasın başlangıç yeri (origo)") : String(localized: "Kasın tutunma yeri (insersiyo)") }
-        return app.store.latinName(for: info) ?? info.base
+        return app.store.subtitle(for: info)
     }
 
     private var summary: String? {

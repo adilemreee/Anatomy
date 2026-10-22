@@ -37,6 +37,7 @@ struct PaywallView: View {
                 }
                 .padding(.horizontal, 20)
                 .padding(.bottom, 140)
+                .readableWidth(560)
             }
             .scrollIndicators(.hidden)
         }

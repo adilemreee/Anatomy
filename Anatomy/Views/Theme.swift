@@ -44,6 +44,12 @@ enum Theme {
         .system(style, design: .serif).italic()
     }
 
+    /// Font of the name under a structure's title: the Latin face when the
+    /// Latin name is the second one, plain text when it leads.
+    static func secondName(_ style: Font.TextStyle = .subheadline, latinFirst: Bool) -> Font {
+        latinFirst ? .system(style) : latin(style)
+    }
+
     static func display(_ style: Font.TextStyle = .largeTitle) -> Font {
         .system(style, design: .default).weight(.bold)
     }

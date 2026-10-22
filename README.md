@@ -19,7 +19,9 @@ atlasa, Keşfet'e, soru bankasına ve bilgi kartlarına geri gelir.
   - Seçilen yapıya kamera yumuşakça yaklaşır ve onu seçim kartının üstünde ortalar (Profil > Ayarlar'dan kapatılabilir)
   - **Sade görünüm**: sistem çubuğu ve arama tek düğmeye katlanır, araç çubuğu yalnızca simgelerle gösterilir; model ekranın tamamını kullanır
   - Her parçanın Türkçe adı, Latince adı ve kısa Türkçe açıklaması (2.993 terim)
-- **İnceleme modu**: yapı tek başına, koyu bir sahnede açılır; Z-Anatomy'nin 740 oluşum etiketi **Türkçe ad + Latince alt başlık** ve kısa Türkçe açıklamayla gösterilir. Kaslar bağlandıkları kemiklerle, başlangıç (kırmızı) ve tutunma (mavi) yerleriyle açılır; her pin üzerinde durduğu kemik oluşumunun adını taşır ("Supraglenoid tüberkül · Kürek kemiği"). Kemiklerde atlas metinlerinde ve sorularda en çok geçen oluşumlar önce etiketlenir (`landmarks.json`'daki `rank`).
+  - **Yapı adları**: Türkçe ve Almancada Latince ad önde, dilin kendi adı altında (Profil > Ayarlar > "Latince adlar önde"; İngilizce, Fransızca ve İspanyolcada
+    varsayılan kapalı). Etiketlerde uzun Latince biçimler kısaltılır ("musculi" → "m."). Ad sırası `AtlasStore.title`/`subtitle`'dadır
+- **İnceleme modu**: yapı tek başına, koyu bir sahnede açılır; Z-Anatomy'nin 740 oluşum etiketi **Latince ad + Türkçe alt başlık** (ya da ayara göre tersi) ve kısa Türkçe açıklamayla gösterilir. Kaslar bağlandıkları kemiklerle, başlangıç (kırmızı) ve tutunma (mavi) yerleriyle açılır; her pin üzerinde durduğu kemik oluşumunun adını taşır ("Supraglenoid tüberkül · Kürek kemiği"). Kemiklerde atlas metinlerinde ve sorularda en çok geçen oluşumlar önce etiketlenir (`landmarks.json`'daki `rank`).
   - Bir etikete ya da modelin bir noktasına dokununca o oluşumun bölgesi model üzerinde **renkli olarak parlar** (parçalı yapılarda, örneğin karaciğer segmentlerinde tüm parça) ve kamera o bölgeye döner; kartta "Yakınlaş" vardır
   - "Oluşumlar" listesi: yapının tüm işaretli oluşumları aranabilir listede; seçilen oluşuma kamera gider ve bölgesi renklenir
 - **İçerik**: açık sistemlerde 369 Türkçe madde (72 kemik ve iskelet yapısı, 45 eklem ve bağ, 206 kas, 46 kalp ve damar; kasların çoğu tek tek, gruplarına bağlı olarak), paket içinde 13 sistemde 564 madde. Her maddede Türkçe, Latince (TA2) ve İngilizce ad, temel bilgiler (origo, insersiyo, innervasyon, kanlanma, dallar…), bölümler, klinik bilgi, **TUS notları**, ilişkili yapılar ve 3D karşılığı bulunur.
@@ -146,6 +148,25 @@ Betik maddelerin `models` alanının gerçekten bir 3D parçaya karşılık geld
 - `-AtlasDebugLOD YES`: çizilen üçgen sayısını gösterir
 - `-atlas.compact YES`: atlası sade görünümle açar
 - `-OpenEntry hepar`: açılışta bir madde sayfası gösterir, `-ShowPaywall YES`: Premium ekranını açar
+- `-StartQuiz key:cv-ac08c79d,g|model|m-deltoideus`: belirli soruları sırayla açar; `-QuizReveal YES` ilk soruyu doğru cevaplar
+- `-SkipSplash YES`: açılış animasyonunu atlar, `-AtlasNoHint YES`: hareket ipucunu göstermez
+- `-ForceLandscape YES` (yalnızca geliştirme): pencereyi yatay çevirir (alçak ekran düzeni denemeleri)
+- `-WindowSize 669x951` (yalnızca geliştirme): pencereyi iPad'de bu boyuta küçültür (iPhone Duo ekranları)
+
+### App Store ekran görüntüleri
+
+`tools/screenshots/` görüntüleri iki adımda üretir:
+
+1. `python3 tools/screenshots/capture.py <udid> <aygıt> [diller] [--only 01-atlas …]` uygulamayı simülatörde yukarıdaki argümanlarla
+   açar ve ham ekranları `raw/<aygıt>/<dil>/` altına kaydeder (`iphone69`: iPhone 18 Pro Max, `ipad13`: iPad Pro 13 inç).
+   iPhone Duo ekranları tam ekran bir iPad'de alınır: `--window 466x678` (dış ekran) veya `--window 669x951` (iç ekran) uygulamanın
+   penceresini o boyuta küçültür ve boyut sınıfını ona göre ayarlar (`-WindowSize`, yalnızca geliştirme), görüntü pencereden kırpılır
+   (`duo-outer`, `duo-inner`). Yavaş aygıtlarda `WAIT_SCALE=1.4` bekleme süresini uzatır.
+2. `python3 tools/screenshots/compose.py [diller] [--device …] [--slide …]` her ekranı cihaz çerçevesi, başlık, ışık şeridi ve etiketlerle
+   birleştirip headless Chrome ile App Store Connect ölçülerinde çizer: `out/<dil>/<aygıt>/` (iPhone 6,9 inç 1320×2868, 6,3 inç 1206×2622,
+   iPad 13 inç 2064×2752, iPhone Duo dış ekran 1398×2034, iç ekran 2007×2853). Başlıklar `captions.py`'dedir.
+
+`raw/` ve `out/` git'e eklenmez.
 
 ## Yerelleştirme
 

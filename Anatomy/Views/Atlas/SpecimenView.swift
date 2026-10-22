@@ -85,7 +85,7 @@ struct SpecimenView: View {
             guard !Task.isCancelled else { return }
             let store = app.store
             let result = await scene.labels(in: size, top: headerBottom + 10, bottom: controlsTop - 12,
-                                            names: { (store.partTerm($0)?.tr, store.latinName($0)) },
+                                            names: { store.featureNames($0) },
                                             priority: { store.landmark($0)?.rank ?? 0 })
             guard !Task.isCancelled else { return }
             withAnimation(.easeOut(duration: 0.25)) { labels = result }
@@ -131,9 +131,11 @@ struct SpecimenView: View {
                 Text(request.title)
                     .font(.title2.weight(.bold))
                     .foregroundStyle(.white)
-                Text(request.subtitle)
-                    .font(.subheadline.italic())
-                    .foregroundStyle(.white.opacity(0.7))
+                if !request.subtitle.isEmpty {
+                    Text(request.subtitle)
+                        .font(app.store.latinFirst ? .subheadline : .subheadline.italic())
+                        .foregroundStyle(.white.opacity(0.7))
+                }
                 if scene.hasAttachments {
                     HStack(spacing: 12) {
                         legendDot(.origin, String(localized: "Başlangıç yeri"))
@@ -165,13 +167,13 @@ struct SpecimenView: View {
     /// Turkish name and Latin subtitle of a feature, as on its label.
     private func names(for feature: FeatureLibrary.Feature) -> (title: String, subtitle: String?) {
         let store = app.store
-        let latin = store.latinName(feature.name)
-        let title = store.partTerm(feature.name)?.tr ?? latin ?? feature.name
+        let name = store.featureNames(feature.name)
+        let title = name.tr ?? name.la ?? feature.name
         switch feature.kind {
         case .origin, .insertion:
             let role = feature.kind == .origin ? String(localized: "Başlangıç yeri") : String(localized: "Tutunma yeri")
-            return (title, feature.bone.map { "\(role) · \(store.partTerm($0)?.tr ?? $0)" } ?? role)
-        case .feature, .part: return (title, LabelLayout.subtitle(latin, under: title))
+            return (title, feature.bone.map { "\(role) · \(store.featureNames($0).tr ?? $0)" } ?? role)
+        case .feature, .part: return (title, LabelLayout.subtitle(name.la, under: title))
         }
     }
 
@@ -285,7 +287,7 @@ struct SpecimenView: View {
                             .minimumScaleFactor(0.85)
                         if let subtitle = label.subtitle {
                             Text(subtitle)
-                                .font(.caption2.italic())
+                                .font(app.store.latinFirst ? .caption2 : .caption2.italic())
                                 .foregroundStyle(.white.opacity(0.62))
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.7)

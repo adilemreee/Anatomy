@@ -28,6 +28,7 @@ struct StudyView: View {
                 .padding(.horizontal, 16)
                 .padding(.top, 4)
                 .padding(.bottom, 32)
+                .readableWidth(ReadableWidth.dashboard)
             }
             .scrollIndicators(.hidden)
             .themedBackground()

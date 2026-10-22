@@ -69,6 +69,10 @@ struct LibraryView: View {
                     } label: {
                         Label("Model", systemImage: "figure.dress.line.vertical.figure")
                     }
+                    Toggle(isOn: Binding(get: { app.store.latinFirst }, set: { app.store.latinFirst = $0 })) {
+                        Label("Latince adlar önde", systemImage: "character.book.closed")
+                    }
+                    .tint(Theme.accent)
                     Picker(selection: $level) {
                         Text("Tıp fakültesi").tag("faculty")
                         Text("TUS hazırlığı").tag("tus")

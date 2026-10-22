@@ -619,7 +619,9 @@ enum QuizEngine {
 
     private static func compose(_ kind: Kind, entry: AtlasEntry, store: AtlasStore) -> QuizQuestion? {
         let key = "g|\(kind.key)|\(entry.id)"
-        let about = "\(entry.tr) (\(entry.la)): \(firstSentence(entry.summary))"
+        // Structures are named as the app shows them: Latin first when chosen.
+        func named(_ e: AtlasEntry) -> String { store.title(e) }
+        let about = "\(store.fullName(entry)): \(firstSentence(entry.summary))"
         switch kind {
         case .latinName:
             let others = distractors(for: entry, store: store) { !similar($0.la, entry.la) && $0.tr != entry.tr }
@@ -632,19 +634,19 @@ enum QuizEngine {
         case .description:
             let others = distractors(for: entry, store: store) { $0.tr != entry.tr }
             return build(key, entry: entry, prompt: String(localized: "Tanımı verilen yapı hangisidir?"), detail: masked(entry.summary, entry: entry),
-                         answer: entry.tr, others: others.map { ($0.tr, "\($0.tr): \(firstSentence($0.summary))") },
+                         answer: named(entry), others: others.map { (named($0), "\(named($0)): \(firstSentence($0.summary))") },
                          explanation: about)
         case .fact(let label):
             guard let value = entry.facts.first(where: { $0.label == label })?.value,
-                  let prompt = factPrompts[label]?(entry.tr) else { return nil }
+                  let prompt = factPrompts[label]?(named(entry)) else { return nil }
             let others = distractors(for: entry, store: store) { other in
                 guard let v = other.facts.first(where: { $0.label == label })?.value else { return false }
                 return !similar(v, value)
             }.compactMap { other in
-                other.facts.first(where: { $0.label == label }).map { ($0.value, String(localized: "\(other.tr) – \($0.title.lowercased(with: .current)) bilgisidir.")) }
+                other.facts.first(where: { $0.label == label }).map { ($0.value, String(localized: "\(named(other)) – \($0.title.lowercased(with: .current)) bilgisidir.")) }
             }
             guard others.count >= 3 else { return nil }
-            var explanation = "\(entry.tr) – \(entry.facts.first { $0.label == label }?.title ?? label): \(value)."
+            var explanation = "\(named(entry)) – \(entry.facts.first { $0.label == label }?.title ?? label): \(value)."
             let extra = entry.facts.filter { $0.label != label && factPrompts[$0.label] != nil }.prefix(2)
             for fact in extra { explanation += "\n\(fact.title): \(fact.value)." }
             return build(key, entry: entry, prompt: prompt, detail: nil, answer: value, others: others, explanation: explanation)
@@ -660,16 +662,16 @@ enum QuizEngine {
                 } && other.tr != entry.tr
             }
             let detail = facts.map { "\($0.title): \($0.value)" }.joined(separator: "\n")
-            return build(key, entry: entry, prompt: String(localized: "Özellikleri verilen yapı hangisidir?"), detail: detail, answer: entry.tr,
+            return build(key, entry: entry, prompt: String(localized: "Özellikleri verilen yapı hangisidir?"), detail: detail, answer: named(entry),
                          others: others.map { other in
                              let first = labels.first.flatMap { l in other.facts.first { $0.label == l } }
-                             return (other.tr, first.map { "\(other.tr) – \($0.title): \($0.value)" } ?? other.tr)
+                             return (named(other), first.map { "\(named(other)) – \($0.title): \($0.value)" } ?? named(other))
                          },
                          explanation: about)
         case .model:
             let others = distractors(for: entry, store: store) { !$0.models.isEmpty && $0.tr != entry.tr }
             return build(key, entry: entry, prompt: String(localized: "Modelde işaretlenen yapı hangisidir?"), detail: nil,
-                         answer: entry.tr, others: others.map { ($0.tr, "\($0.tr) = \($0.la)") }, explanation: about,
+                         answer: named(entry), others: others.map { (named($0), store.fullName($0)) }, explanation: about,
                          models: entry.models)
         case .landmark(let name):
             guard let mark = store.landmark(name), mark.entry == entry.id, !names(entry, in: mark.title) else { return nil }
@@ -679,13 +681,13 @@ enum QuizEngine {
                     && mine.isDisjoint(with: other.models.map { $0.lowercased() })
             }
             return build(key, entry: entry, prompt: String(localized: "‘\(mark.title)’ hangi kemik üzerinde bulunur?"), detail: nil,
-                         answer: entry.tr,
+                         answer: named(entry),
                          others: others.map { other in
                              let example = store.landmarks(of: other.id).filter { !names(other, in: $0.title) }.randomElement()
-                             return (other.tr, example.map { String(localized: "\(other.tr) üzerinde değildir; o kemikte ör. ‘\($0.tr)’ bulunur.") }
-                                 ?? String(localized: "\(other.tr) üzerinde değildir."))
+                             return (named(other), example.map { String(localized: "\(named(other)) üzerinde değildir; o kemikte ör. ‘\($0.tr)’ bulunur.") }
+                                 ?? String(localized: "\(named(other)) üzerinde değildir."))
                          },
-                         explanation: "\(mark.title) – \(entry.tr). \(mark.d)")
+                         explanation: "\(mark.title) – \(named(entry)). \(mark.d)")
         case .landmarkOn(let name):
             guard let mark = store.landmark(name), mark.entry == entry.id, !names(entry, in: mark.title) else { return nil }
             let own = store.landmarks(of: entry.id).map { plain($0.tr) }
@@ -700,9 +702,9 @@ enum QuizEngine {
                     let name = plain(other.tr)
                     return !own.contains { $0.contains(name) || name.contains($0) }
                         && !names(entry, in: other.title) && !names(bone, in: other.title)
-                }.map { ($0.title, String(localized: "\($0.tr) \(bone.tr) üzerindedir.")) }
+                }.map { ($0.title, String(localized: "\($0.tr) \(named(bone)) üzerindedir.")) }
             }
-            return build(key, entry: entry, prompt: String(localized: "Aşağıdakilerden hangisi ‘\(entry.tr)’ üzerinde bulunur?"), detail: nil,
+            return build(key, entry: entry, prompt: String(localized: "Aşağıdakilerden hangisi ‘\(named(entry))’ üzerinde bulunur?"), detail: nil,
                          answer: mark.title, others: others, explanation: "\(mark.title): \(mark.d)")
         case .nerveExcept(let family):
             let index = nerveIndex(store)
@@ -730,7 +732,7 @@ enum QuizEngine {
             let kids = childIDs(of: parent, store: store).compactMap(store.entry)
             guard kids.count >= 3, !kids.contains(where: { $0.id == entry.id }) else { return nil }
             let latin = entry.systemID == "muscular"
-            func label(_ e: AtlasEntry) -> String { latin ? e.la : e.tr }
+            func label(_ e: AtlasEntry) -> String { latin ? e.la : named(e) }
             let list = kids.map(label).joined(separator: ", ")
             return build(key, entry: entry, prompt: String(localized: "Aşağıdakilerden hangisi ‘\(parent.tr)’ (\(parent.la)) kapsamında yer almaz?"),
                          detail: nil, answer: label(entry),
@@ -744,9 +746,9 @@ enum QuizEngine {
             let others = distractors(for: entry, store: store) { $0.tr != entry.tr && !mentions(note, $0) }
             return build(key, entry: entry,
                          prompt: isTus ? String(localized: "Aşağıdaki bilgi hangi yapıyla ilgilidir?") : String(localized: "Aşağıdaki klinik bilgi hangi yapıyla ilgilidir?"),
-                         detail: masked(note, entry: entry), answer: entry.tr,
-                         others: others.map { ($0.tr, "\($0.tr): \(firstSentence($0.summary))") },
-                         explanation: "\(entry.tr) (\(entry.la)): \(note)")
+                         detail: masked(note, entry: entry), answer: named(entry),
+                         others: others.map { (named($0), "\(named($0)): \(firstSentence($0.summary))") },
+                         explanation: "\(store.fullName(entry)): \(note)")
         }
     }
 

@@ -29,8 +29,8 @@ struct PartDetailView: View {
                                 ContentCard(title: String(localized: "Bağlı olduğu yapı"), systemImage: "arrow.turn.up.right", tint: layer?.tint ?? .accentColor) {
                                     HStack {
                                         VStack(alignment: .leading, spacing: 2) {
-                                            Text(entry.tr).font(.title3.weight(.semibold))
-                                            Text(entry.la).font(.subheadline.italic()).foregroundStyle(.secondary)
+                                            Text(store.title(entry)).font(.title3.weight(.semibold))
+                                            if !store.subtitle(entry).isEmpty { Text(store.subtitle(entry)).font(store.latinFirst ? .subheadline : .subheadline.italic()).foregroundStyle(.secondary) }
                                             Text(entry.summary)
                                                 .font(.subheadline)
                                                 .foregroundStyle(.secondary)
@@ -52,9 +52,10 @@ struct PartDetailView: View {
                 }
                 .padding(.horizontal, 16)
                 .padding(.bottom, 32)
+                .readableWidth()
             }
             .themedBackground()
-            .navigationTitle(store.displayName(for: info))
+            .navigationTitle(store.title(for: info))
             .navigationBarTitleDisplayMode(.inline)
             .navigationDestination(for: AtlasEntry.self) { EntryDetailView(entry: $0) }
             .toolbar {
@@ -74,18 +75,18 @@ struct PartDetailView: View {
     }
 
     private func header(info: PartInfo, layer: ModelLayer?) -> some View {
-        let latin = app.store.latinName(for: info)
+        let store = app.store
         return VStack(alignment: .leading, spacing: 8) {
             if let layer {
                 TagView(text: layer.title, color: layer.tint, systemImage: layer.icon)
             }
-            Text(app.store.displayName(for: info) + (info.sideTitle.map { " (\($0))" } ?? ""))
+            Text(store.title(for: info) + (info.sideTitle.map { " (\($0))" } ?? ""))
                 .font(.system(.largeTitle, weight: .bold))
                 .foregroundStyle(Theme.textPrimary)
                 .fixedSize(horizontal: false, vertical: true)
-            if let latin {
-                Text(latin)
-                    .font(Theme.latin(.title3))
+            if !store.subtitle(for: info).isEmpty {
+                Text(store.subtitle(for: info))
+                    .font(Theme.secondName(.title3, latinFirst: store.latinFirst))
                     .foregroundStyle(layer?.tint ?? Theme.accent)
             }
             Text(info.base)
@@ -120,7 +121,7 @@ struct PartDetailView: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Hiyerarşi")
                             .font(.subheadline)
-                        Text(info.path.map { app.store.groupName($0) }.joined(separator: "  ›  "))
+                        Text(info.path.map { app.store.title(ofGroup: $0) }.joined(separator: "  ›  "))
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }

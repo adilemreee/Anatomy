@@ -299,6 +299,7 @@ T = {
 "Konuyu çalış": "Study the topic",
 "Kullanım Koşulları": "Terms of Use",
 "Kullanım koşulları": "Terms of use",
+"Latince adlar önde": "Latin names first",
 "Latince adlar": "Latin names",
 "Latince adı": "Latin name",
 "Latince adı, tanımı ve temel bilgileri": "Latin name, definition and key facts",

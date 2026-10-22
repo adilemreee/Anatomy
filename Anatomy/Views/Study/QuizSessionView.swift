@@ -71,6 +71,12 @@ struct QuizSessionView: View {
         .appOverlays(active: showEntry == nil && !showNavigator)
         .sensoryFeedback(trigger: feedback) { _, _ in lastCorrect ? .success : .error }
         .task(id: session.id) { await runClock() }
+        .task(id: session.id) {
+            // -QuizReveal YES answers the first question correctly (screenshots).
+            guard UserDefaults.standard.bool(forKey: "QuizReveal"), !session.isExam, let q = session.current else { return }
+            try? await Task.sleep(for: .seconds(1.5))
+            choose(q.answer)
+        }
         .preferredColorScheme(.dark)
     }
 
@@ -144,6 +150,7 @@ struct QuizSessionView: View {
                             onChoose: { choose($0) }, onOpenEntry: { showEntry = $0 })
                 .padding(16)
                 .padding(.bottom, 90)
+                .readableWidth()
         }
         .scrollIndicators(.hidden)
         .safeAreaInset(edge: .bottom) { bottomBar }
@@ -194,6 +201,7 @@ struct QuizSessionView: View {
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 10)
+            .readableWidth()
             .background(.ultraThinMaterial)
         } else if session.isRevealed(session.index) {
             Button {
@@ -208,6 +216,7 @@ struct QuizSessionView: View {
             .buttonStyle(PrimaryButtonStyle())
             .padding(.horizontal, 16)
             .padding(.vertical, 10)
+            .readableWidth()
             .background(.ultraThinMaterial)
             .transition(.move(edge: .bottom).combined(with: .opacity))
         }
@@ -403,7 +412,7 @@ struct QuestionContent: View {
                                 onOpenEntry(entry)
                             } label: {
                                 HStack(spacing: 5) {
-                                    Text(entry.tr)
+                                    Text(app.store.title(entry))
                                     Image(systemName: "arrow.up.right")
                                         .font(.caption2.weight(.bold))
                                 }

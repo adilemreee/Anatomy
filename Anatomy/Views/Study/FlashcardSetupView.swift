@@ -58,6 +58,7 @@ struct FlashcardSetupView: View {
             }
             .padding(16)
             .padding(.bottom, 24)
+            .readableWidth()
         }
         .themedBackground()
         .navigationTitle("Bilgi kartları")

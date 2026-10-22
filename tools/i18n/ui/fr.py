@@ -298,6 +298,7 @@ T = {
 "Konuyu çalış": "Étudier le thème",
 "Kullanım Koşulları": "Conditions d'utilisation",
 "Kullanım koşulları": "Conditions d'utilisation",
+"Latince adlar önde": "Noms latins en premier",
 "Latince adlar": "Noms latins",
 "Latince adı": "Nom latin",
 "Latince adı, tanımı ve temel bilgileri": "Nom latin, définition et données clés",
