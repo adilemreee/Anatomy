@@ -67,13 +67,27 @@ Gizlilik Politikası: https://anatomi.adilemree.xyz/privacy
 Sorular ve metinler bu uygulama için özgün olarak hazırlanmıştır. Anatomi Atlası 3D yalnızca eğitim amaçlıdır ve tıbbi tavsiyenin yerine geçmez.
 
 ### What's New
-Kalp ve damarlar geri döndü: 46 madde ve kendi soruları.
-Soru bankası 760 soruya çıktı; Fakülte ve TUS düzeyinin yanına yeni Temel düzey eklendi.
-İskelet ve eklemlerde daha fazla ayrıntı: kafa tabanı, orbita, omurga, pelvis, ayak kemerleri ve omuz, dirsek, el bileği, kalça, diz ve ayak bileğinin başlıca bağları.
-Yapı adları artık Latince önde, Türkçesi altında; istersen Ayarlar'dan Türkçe adları öne alabilirsin.
-3D modelde daha net ve okunaklı etiketler.
-iPad'de daha ferah ve rahat okunan düzen.
-Uygulama artık İngilizce, Fransızca, Almanca ve İspanyolca da kullanılabiliyor.
+Bu sürümde atlas hem daha anlaşılır hem daha hafif ✨
+
+🦴 Eklemler kemiklerinin arasında
+İnceleme modunda bağlar ve kapsüller artık çevrelerindeki kemiklerle birlikte görünüyor. Kemikler saydam çiziliyor; neyin nereye tutunduğu bir bakışta anlaşılıyor.
+
+🏷️ Daha okunaklı etiketler
+Uzun Latince adlar artık bölünmüyor. Çapraz bağlar gibi birbirini kesen yapıların hepsi etiketleniyor.
+
+🎯 Yakından 3D tanıma soruları
+"Modelde işaretlenen yapı hangisidir?" sorularında model artık işaretli yapıya yakından bakıyor.
+
+🔋 Daha serin telefon, daha uzun pil
+3D atlas yalnızca döndürürken ya da bir şey değiştiğinde çiziliyor. Görüntü aynı, telefon daha az ısınıyor.
+
+⚡️ Pürüzsüz açılış
+Açılış animasyonu takılmadan akıyor, uygulama daha çabuk açılıyor.
+
+🛠️ Düzeltme
+Bir eklem kapsülüne dokununca başka eklemlerin kapsülleri de seçiliyordu; düzeltildi.
+
+Görüşlerin bizim için çok değerli. Beğendiysen bir puan bırakmayı unutma 💙
 
 ---
 
@@ -131,12 +145,27 @@ Privacy Policy: https://anatomi.adilemree.xyz/privacy
 Anatomy Atlas 3D is for education only and is not a substitute for medical advice.
 
 ### What's New
-Now in English, French, German and Spanish: the whole atlas, every article, question and flashcard, and all 3D structure names.
-The heart and blood vessels are back, with 46 articles and their own questions.
-The question bank has grown to 760 questions, with a new Basic level next to course and board level.
-More skeleton and joint detail: skull base, orbit, spine, pelvis, foot arches and the main ligaments of the shoulder, elbow, wrist, hip, knee and ankle.
-Clearer, easier-to-read labels on the 3D model.
-A roomier, easier-to-read layout on iPad.
+This update makes the atlas clearer and lighter ✨
+
+🦴 Joints among their bones
+In inspection mode, ligaments and capsules now appear together with the bones around them. The bones are drawn see-through, so you can tell at a glance what attaches where.
+
+🏷️ Clearer labels
+Long Latin names are no longer broken up, and structures that cross each other, such as the cruciate ligaments, are all labelled.
+
+🎯 Close-up 3D questions
+In "Which structure is highlighted on the model?" questions, the model now shows the highlighted structure close up.
+
+🔋 A cooler phone, a longer-lasting battery
+The 3D atlas only draws while you move it or something changes. Same picture, less heat.
+
+⚡️ Smooth launch
+The launch animation plays without stutter and the app opens faster.
+
+🛠️ Fix
+Tapping one joint capsule no longer selects the capsules of other joints too.
+
+Your feedback means a lot to us. If you enjoy the app, please leave a rating 💙
 
 ---
 
@@ -194,12 +223,27 @@ Politique de confidentialité : https://anatomi.adilemree.xyz/privacy
 Atlas Anatomie 3D est destiné à l'apprentissage et ne remplace pas un avis médical.
 
 ### What's New
-Désormais en français, en anglais, en allemand et en espagnol : tout l'atlas, chaque fiche, question et carte, et les noms de toutes les structures 3D.
-Le cœur et les vaisseaux sont de retour, avec 46 fiches et leurs propres questions.
-La banque de questions passe à 760 questions, avec un nouveau niveau Base à côté des niveaux faculté et concours.
-Plus de détails sur le squelette et les articulations : base du crâne, orbite, rachis, bassin, arches du pied et principaux ligaments de l'épaule, du coude, du poignet, de la hanche, du genou et de la cheville.
-Des étiquettes plus claires et plus lisibles sur le modèle 3D.
-Une mise en page plus aérée et plus lisible sur iPad.
+Cette mise à jour rend l'atlas plus clair et plus léger ✨
+
+🦴 Les articulations au milieu de leurs os
+En mode examen, ligaments et capsules apparaissent désormais avec les os qui les entourent. Les os sont dessinés en transparence : on voit d'un coup d'œil ce qui s'attache où.
+
+🏷️ Des étiquettes plus lisibles
+Les longs noms latins ne sont plus coupés, et les structures qui se croisent, comme les ligaments croisés, sont toutes étiquetées.
+
+🎯 Questions 3D en gros plan
+Dans les questions « Quelle structure est mise en évidence sur le modèle ? », le modèle montre désormais cette structure de près.
+
+🔋 Un téléphone plus frais, une batterie qui dure
+L'atlas 3D n'est dessiné que lorsque vous le déplacez ou que quelque chose change. Même image, moins de chaleur.
+
+⚡️ Un lancement fluide
+L'animation de lancement ne saccade plus et l'app s'ouvre plus vite.
+
+🛠️ Correction
+Toucher une capsule articulaire ne sélectionne plus les capsules d'autres articulations.
+
+Votre avis compte beaucoup pour nous. Si l'app vous plaît, pensez à laisser une note 💙
 
 ---
 
@@ -257,12 +301,27 @@ Datenschutz: https://anatomi.adilemree.xyz/privacy
 Anatomie Atlas 3D dient nur der Ausbildung und ersetzt keine ärztliche Beratung.
 
 ### What's New
-Jetzt auf Deutsch, Englisch, Französisch und Spanisch: der ganze Atlas, alle Artikel, Fragen und Lernkarten sowie die Namen aller 3D-Strukturen.
-Herz und Blutgefäße sind zurück, mit 46 Artikeln und eigenen Fragen.
-Die Fragenbank wächst auf 760 Fragen, mit dem neuen Basisniveau neben Studium und Examen.
-Mehr Details zu Skelett und Gelenken: Schädelbasis, Augenhöhle, Wirbelsäule, Becken, Fußgewölbe und die wichtigsten Bänder von Schulter, Ellenbogen, Handgelenk, Hüfte, Knie und Sprunggelenk.
-Klarere, besser lesbare Beschriftungen am 3D-Modell.
-Ein großzügigeres, besser lesbares Layout auf dem iPad.
+Dieses Update macht den Atlas klarer und leichter ✨
+
+🦴 Gelenke zwischen ihren Knochen
+Im Präparatmodus erscheinen Bänder und Kapseln jetzt zusammen mit den Knochen um sie herum. Die Knochen werden durchscheinend gezeichnet, so siehst du auf einen Blick, was wo ansetzt.
+
+🏷️ Besser lesbare Beschriftungen
+Lange lateinische Namen werden nicht mehr getrennt, und Strukturen, die sich kreuzen, wie die Kreuzbänder, werden alle beschriftet.
+
+🎯 3D-Fragen aus der Nähe
+Bei „Welche Struktur ist am Modell markiert?“ zeigt das Modell die markierte Struktur jetzt aus der Nähe.
+
+🔋 Kühleres iPhone, längere Akkulaufzeit
+Der 3D-Atlas wird nur gezeichnet, während du ihn bewegst oder sich etwas ändert. Gleiches Bild, weniger Wärme.
+
+⚡️ Flüssiger Start
+Die Startanimation läuft ohne Ruckeln und die App öffnet schneller.
+
+🛠️ Fehlerbehebung
+Das Antippen einer Gelenkkapsel wählt nicht mehr auch die Kapseln anderer Gelenke aus.
+
+Dein Feedback ist uns wichtig. Wenn dir die App gefällt, freuen wir uns über eine Bewertung 💙
 
 ---
 
@@ -320,9 +379,24 @@ Política de privacidad: https://anatomi.adilemree.xyz/privacy
 Atlas Anatomía 3D es solo para el aprendizaje y no sustituye el consejo médico.
 
 ### What's New
-Ahora en español, inglés, francés y alemán: todo el atlas, cada ficha, pregunta y tarjeta, y los nombres de todas las estructuras 3D.
-El corazón y los vasos sanguíneos vuelven, con 46 fichas y sus propias preguntas.
-El banco de preguntas crece hasta 760, con un nuevo nivel Básico junto a los niveles de grado y examen.
-Más detalle en el esqueleto y las articulaciones: base del cráneo, órbita, columna, pelvis, arcos del pie y los principales ligamentos del hombro, el codo, la muñeca, la cadera, la rodilla y el tobillo.
-Etiquetas más claras y fáciles de leer en el modelo 3D.
-Un diseño más amplio y fácil de leer en iPad.
+Esta actualización hace el atlas más claro y más ligero ✨
+
+🦴 Las articulaciones entre sus huesos
+En el modo examen, los ligamentos y las cápsulas aparecen ahora junto a los huesos que los rodean. Los huesos se dibujan transparentes: se ve de un vistazo qué se inserta dónde.
+
+🏷️ Etiquetas más legibles
+Los nombres latinos largos ya no se cortan y las estructuras que se cruzan, como los ligamentos cruzados, se etiquetan todas.
+
+🎯 Preguntas 3D de cerca
+En las preguntas «¿Qué estructura está resaltada en el modelo?», el modelo muestra ahora la estructura resaltada de cerca.
+
+🔋 Un teléfono más fresco, una batería que dura más
+El atlas 3D solo se dibuja mientras lo mueves o algo cambia. La misma imagen, menos calor.
+
+⚡️ Inicio fluido
+La animación de inicio ya no se entrecorta y la app se abre más rápido.
+
+🛠️ Corrección
+Tocar una cápsula articular ya no selecciona también las cápsulas de otras articulaciones.
+
+Tu opinión nos importa mucho. Si te gusta la app, déjanos una valoración 💙
