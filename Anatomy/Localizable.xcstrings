@@ -6556,28 +6556,28 @@
     },
     "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar; kadın ve erkek anatomisi" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Every bone, joint and ligament, 200+ muscles and their attachments, the heart and vessels; female and male anatomy"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tous les os, articulations et ligaments, plus de 200 muscles et leurs insertions, le cœur et les vaisseaux ; anatomie féminine et masculine"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle Knochen, Gelenke und Bänder, über 200 Muskeln mit Ursprung und Ansatz, Herz und Gefäße; weibliche und männliche Anatomie"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every bone, joint and ligament, 200+ muscles and their attachments, the heart and vessels; female and male anatomy"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todos los huesos, articulaciones y ligamentos, más de 200 músculos y sus inserciones, corazón y vasos; anatomía femenina y masculina"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tous les os, articulations et ligaments, plus de 200 muscles et leurs insertions, le cœur et les vaisseaux ; anatomie féminine et masculine"
           }
         },
         "tr" : {
@@ -11432,28 +11432,28 @@
     },
     "Kas-iskelet sistemi, kalp ve damarlar" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Musculoskeletal system, heart and vessels"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Appareil locomoteur, cœur et vaisseaux"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bewegungsapparat, Herz und Gefäße"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Musculoskeletal system, heart and vessels"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aparato locomotor, corazón y vasos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appareil locomoteur, cœur et vaisseaux"
           }
         },
         "tr" : {
@@ -12044,28 +12044,28 @@
     },
     "Kemikler, eklemler, kaslar, kalp ve damarlar için 369 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 760 özgün soru ve 3.000'e yakın bilgi kartı, tek bir uygulamada." : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "369 detailed articles on bones, joints, muscles, the heart and vessels, about 500 labelled bone landmarks, 760 original questions at three levels and nearly 3,000 flashcards, in one app."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "369 fiches détaillées sur les os, les articulations, les muscles, le cœur et les vaisseaux, environ 500 repères osseux annotés, 760 questions originales sur trois niveaux et près de 3 000 cartes, dans une seule app."
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "369 ausführliche Artikel zu Knochen, Gelenken, Muskeln, Herz und Gefäßen, rund 500 beschriftete Knochenmerkmale, 760 originale Fragen auf drei Niveaus und fast 3.000 Lernkarten – in einer App."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "369 detailed articles on bones, joints, muscles, the heart and vessels, about 500 labelled bone landmarks, 760 original questions at three levels and nearly 3,000 flashcards, in one app."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "369 fichas detalladas de huesos, articulaciones, músculos, corazón y vasos, unos 500 relieves óseos señalados, 760 preguntas originales en tres niveles y casi 3.000 tarjetas, en una sola app."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "369 fiches détaillées sur les os, les articulations, les muscles, le cœur et les vaisseaux, environ 500 repères osseux annotés, 760 questions originales sur trois niveaux et près de 3 000 cartes, dans une seule app."
           }
         },
         "tr" : {
@@ -14354,6 +14354,40 @@
         }
       }
     },
+    "Planını seç" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose your plan"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez votre formule"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle deinen Plan"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige tu plan"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Planını seç"
+          }
+        }
+      }
+    },
     "pratik" : {
       "localizations" : {
         "de" : {
@@ -14554,6 +14588,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Premium ile aç"
+          }
+        }
+      }
+    },
+    "Premium ile neler açılır" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What Premium unlocks"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce que Premium débloque"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das schaltet Premium frei"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo que desbloquea Premium"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium ile neler açılır"
           }
         }
       }

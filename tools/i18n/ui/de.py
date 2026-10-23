@@ -349,6 +349,8 @@ T = {
 "Premium aktif": "Premium aktiv",
 "Premium ile aç": "Mit Premium freischalten",
 "Premium'a geç": "Premium holen",
+"Planını seç": "Wähle deinen Plan",
+"Premium ile neler açılır": "Das schaltet Premium frei",
 "Profil": "Profil",
 "Rahim, yumurtalıklar, fallop tüpleri, kadın mesanesi ve meme bezi Human Reference Atlas 3D referans organlarından (Visible Human Female, NIH) alınmış ve atlasa hizalanmıştır. Creative Commons Atıf 4.0 (CC BY 4.0).": "Gebärmutter, Eierstöcke, Eileiter, weibliche Harnblase und Brustdrüse stammen aus den 3D-Referenzorganen des Human Reference Atlas (Visible Human Female, NIH) und sind am Atlas ausgerichtet. Creative Commons Namensnennung 4.0 (CC BY 4.0).",
 "Renkler": "Farben",

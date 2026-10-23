@@ -19,38 +19,51 @@ struct PaywallView: View {
     private var purchases: PurchaseStore { app.purchases }
 
     var body: some View {
-        ZStack(alignment: .top) {
-            Theme.background.ignoresSafeArea()
-            header
-            ScrollView {
-                VStack(alignment: .leading, spacing: 22) {
-                    Spacer().frame(height: 190)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 0) {
+                hero
+                VStack(alignment: .leading, spacing: 28) {
                     titleBlock
-                    benefits
-                    plans
-                    if let error = purchases.lastError {
-                        Text(error)
-                            .font(.footnote)
-                            .foregroundStyle(Theme.danger)
+                    section(String(localized: "Planını seç")) {
+                        plans
+                        if let error = purchases.lastError {
+                            Text(error)
+                                .font(.footnote)
+                                .foregroundStyle(Theme.danger)
+                        }
+                    }
+                    section(String(localized: "Premium ile neler açılır")) {
+                        benefits
                     }
                     legal
                 }
                 .padding(.horizontal, 20)
-                .padding(.bottom, 140)
-                .readableWidth(560)
+                // The title starts over the faded bottom of the figure.
+                .padding(.top, -64)
+                .padding(.bottom, 24)
             }
-            .scrollIndicators(.hidden)
+            .readableWidth(560)
         }
-        .safeAreaInset(edge: .bottom) { purchaseBar }
+        .scrollIndicators(.hidden)
+        .scrollBounceBehavior(.basedOnSize, axes: .horizontal)
+        .background(Theme.background.ignoresSafeArea())
+        .safeAreaInset(edge: .bottom, spacing: 0) { purchaseBar }
+        // The page fades out under the status bar when scrolled.
+        .overlay(alignment: .top) {
+            LinearGradient(colors: [Theme.background, Theme.background.opacity(0)], startPoint: .top, endPoint: .bottom)
+                .frame(height: 20)
+                .ignoresSafeArea(edges: .top)
+                .allowsHitTesting(false)
+        }
         .overlay(alignment: .topTrailing) {
             Button {
                 dismiss()
             } label: {
                 Image(systemName: "xmark")
                     .font(.subheadline.weight(.bold))
-                    .foregroundStyle(Theme.textSecondary)
+                    .foregroundStyle(Theme.textPrimary)
                     .frame(width: 36, height: 36)
-                    .background(Color.white.opacity(0.08), in: .circle)
+                    .background(.ultraThinMaterial, in: .circle)
             }
             .padding(16)
             .accessibilityLabel("Kapat")
@@ -64,15 +77,17 @@ struct PaywallView: View {
 
     // MARK: Header
 
-    /// The figure starts below the status bar and Dynamic Island and fades
-    /// in from the dark background at the top and into it at the bottom.
-    private var header: some View {
+    /// The figure, as wide as the screen and never wider (a picture that
+    /// fills its frame would otherwise widen the page and let it slide
+    /// sideways), fading in from the background at the top and out at the
+    /// bottom.
+    private var hero: some View {
         Color.clear
-            .frame(height: 250)
+            .frame(height: 270)
             .overlay(alignment: .top) {
                 if let image = UIImage(named: "card-muscular") {
                     Image(uiImage: image).resizable().scaledToFill()
-                        .frame(height: 250, alignment: .top)
+                        .frame(height: 270, alignment: .top)
                 } else {
                     Theme.accentGradient
                 }
@@ -80,46 +95,61 @@ struct PaywallView: View {
             .clipped()
             .mask {
                 LinearGradient(stops: [.init(color: .clear, location: 0), .init(color: .black, location: 0.16),
-                                       .init(color: .black, location: 0.55), .init(color: .clear, location: 1)],
+                                       .init(color: .black, location: 0.5), .init(color: .clear, location: 1)],
                                startPoint: .top, endPoint: .bottom)
             }
-            .padding(.top, 8)
+            .accessibilityHidden(true)
     }
 
     private var titleBlock: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .leading, spacing: 10) {
             PremiumBadge()
             Text(context.feature == .general ? String(localized: "Anatomiyi en iyi hâliyle öğren") : context.feature.title)
                 .font(.system(.largeTitle, weight: .bold))
                 .foregroundStyle(Theme.textPrimary)
                 .fixedSize(horizontal: false, vertical: true)
             Text("Kemikler, eklemler, kaslar, kalp ve damarlar için 369 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 760 özgün soru ve 3.000'e yakın bilgi kartı, tek bir uygulamada.")
-                .font(.body)
+                .font(.subheadline)
                 .foregroundStyle(Theme.textSecondary)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+    }
+
+    private func section(_ title: String, @ViewBuilder content: () -> some View) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text(title)
+                .font(.headline)
+                .foregroundStyle(Theme.textPrimary)
+            content()
         }
     }
 
     private var benefits: some View {
-        VStack(alignment: .leading, spacing: 14) {
+        VStack(alignment: .leading, spacing: 16) {
             benefit("figure.strengthtraining.traditional", String(localized: "Kas-iskelet sistemi, kalp ve damarlar"), String(localized: "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar; kadın ve erkek anatomisi"))
             benefit("cube.transparent", String(localized: "İnceleme modu"), String(localized: "Her yapıyı tek başına, işaretli oluşumlarıyla incele; kasların origo ve insersiyosunu gör"))
             benefit("text.book.closed", String(localized: "Ayrıntılı Türkçe maddeler"), String(localized: "Latince terimler, kanlanma, sinir, klinik bilgi ve her maddede TUS notları"))
             benefit("checkmark.seal", String(localized: "Sınırsız soru bankası"), String(localized: "Açıklamalı özgün sorular, klinik vakalar, kas–sinir ve kemik oluşumu soruları, süreli denemeler ve istatistikler"))
             benefit("rectangle.on.rectangle.angled", String(localized: "Aralıklı tekrar kartları"), String(localized: "Yapı, Latince ad, origo–insersiyo–sinir, kemik oluşumu, TUS ve klinik desteleri"))
         }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Theme.card, in: .rect(cornerRadius: 20))
+        .overlay { RoundedRectangle(cornerRadius: 20).strokeBorder(Theme.stroke) }
     }
 
     private func benefit(_ icon: String, _ title: String, _ detail: String) -> some View {
         HStack(alignment: .top, spacing: 14) {
             Image(systemName: icon)
-                .font(.system(size: 17, weight: .semibold))
+                .font(.system(size: 16, weight: .semibold))
                 .foregroundStyle(Theme.gold)
-                .frame(width: 36, height: 36)
+                .frame(width: 34, height: 34)
                 .background(Theme.gold.opacity(0.12), in: .rect(cornerRadius: 10))
             VStack(alignment: .leading, spacing: 2) {
                 Text(title).font(.subheadline.weight(.semibold)).foregroundStyle(Theme.textPrimary)
                 Text(detail).font(.footnote).foregroundStyle(Theme.textSecondary).fixedSize(horizontal: false, vertical: true)
             }
+            Spacer(minLength: 0)
         }
     }
 
@@ -135,6 +165,8 @@ struct PaywallView: View {
         }
     }
 
+    /// Solid, so the plans do not show through it; the page fades out
+    /// just above it.
     private var purchaseBar: some View {
         VStack(spacing: 8) {
             Button {
@@ -155,11 +187,23 @@ struct PaywallView: View {
                 .font(.caption2)
                 .foregroundStyle(Theme.textTertiary)
                 .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
         }
         .padding(.horizontal, 20)
         .padding(.top, 12)
         .padding(.bottom, 6)
-        .background(Theme.background.opacity(0.96))
+        .frame(maxWidth: 560)
+        .frame(maxWidth: .infinity)
+        .background {
+            Theme.background
+                .ignoresSafeArea(edges: .bottom)
+                .overlay(alignment: .top) {
+                    LinearGradient(colors: [Theme.background.opacity(0), Theme.background], startPoint: .top, endPoint: .bottom)
+                        .frame(height: 28)
+                        .offset(y: -28)
+                        .allowsHitTesting(false)
+                }
+        }
     }
 
     private var ctaTitle: String {
@@ -181,18 +225,23 @@ struct PaywallView: View {
         }
     }
 
+    /// On one line, or one under the other where the names are long.
     private var legal: some View {
-        HStack(spacing: 18) {
-            Button("Satın alımları geri yükle") {
-                Task { await purchases.restore() }
-            }
-            Button("Kullanım Koşulları") { openURL(Legal.terms) }
-            Button("Gizlilik") { openURL(Legal.privacy) }
+        ViewThatFits(in: .horizontal) {
+            HStack(spacing: 18) { legalLinks }
+            VStack(spacing: 10) { legalLinks }
         }
         .font(.caption.weight(.medium))
         .foregroundStyle(Theme.textSecondary)
         .frame(maxWidth: .infinity)
-        .padding(.top, 4)
+    }
+
+    @ViewBuilder private var legalLinks: some View {
+        Button("Satın alımları geri yükle") {
+            Task { await purchases.restore() }
+        }
+        Button("Kullanım Koşulları") { openURL(Legal.terms) }
+        Button("Gizlilik") { openURL(Legal.privacy) }
     }
 }
 

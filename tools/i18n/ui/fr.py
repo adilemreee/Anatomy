@@ -349,6 +349,8 @@ T = {
 "Premium aktif": "Premium actif",
 "Premium ile aç": "Débloquer avec Premium",
 "Premium'a geç": "Passer à Premium",
+"Planını seç": "Choisissez votre formule",
+"Premium ile neler açılır": "Ce que Premium débloque",
 "Profil": "Profil",
 "Rahim, yumurtalıklar, fallop tüpleri, kadın mesanesi ve meme bezi Human Reference Atlas 3D referans organlarından (Visible Human Female, NIH) alınmış ve atlasa hizalanmıştır. Creative Commons Atıf 4.0 (CC BY 4.0).": "L'utérus, les ovaires, les trompes utérines, la vessie féminine et la glande mammaire proviennent des organes de référence 3D du Human Reference Atlas (Visible Human Female, NIH), alignés sur l'atlas. Creative Commons Attribution 4.0 (CC BY 4.0).",
 "Renkler": "Couleurs",
