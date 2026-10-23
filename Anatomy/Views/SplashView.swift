@@ -4,165 +4,273 @@
 //
 
 import SwiftUI
+import UIKit
 
 /// The launch animation: the figure rises out of the dark as a skin
 /// silhouette, a scan line sweeps across its right half and reveals the
 /// muscles and bones under the skin, the name fades in; when the atlas has
 /// loaded it opens onto the app.
 ///
-/// The animation runs on its own clock that only advances while frames are
-/// drawn: while the 3D atlas is being built behind it the main thread can
-/// stall, and the animation then pauses instead of skipping ahead.
+/// Building the 3D atlas behind it holds up the main thread for a few
+/// hundred milliseconds at a time, so the animation is made of Core
+/// Animation layers: the render server plays them on its own and they stay
+/// smooth while the app is busy. The app starts building its screens as
+/// soon as the animation is running.
 struct SplashView: View {
     /// Whether what the splash waits for (the first 3D layers) is ready.
     let isReady: () -> Bool
-    /// Called once the figure is on screen: the app builds its screens then.
+    /// Called once the animation runs: the app builds its screens then.
     let onFigureShown: () -> Void
     let onFinish: () -> Void
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @State private var clock = Clock()
-
-    /// Seconds of animation before the splash may leave, and its exit.
-    private static let minimum = 2.5, exit = 0.45, longest = 7.0
 
     var body: some View {
-        TimelineView(.animation) { context in
-            let t = clock.tick(context.date, ready: isReady(), minimum: reduceMotion ? 0.6 : Self.minimum,
-                               longest: Self.longest)
-            frame(t: reduceMotion ? max(t, 2.4) : t, leave: clock.leaveProgress(exit: Self.exit))
-        }
-        .onChange(of: clock.figureShown) { _, shown in
-            if shown { onFigureShown() }
-        }
-        .onChange(of: clock.finished) { _, done in
-            if done { onFinish() }
-        }
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Anatomi Atlası yükleniyor")
+        SplashAnimation(reduceMotion: reduceMotion, isReady: isReady, onStarted: onFigureShown, onFinish: onFinish)
+            .ignoresSafeArea()
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Anatomi Atlası yükleniyor")
+    }
+}
+
+private struct SplashAnimation: UIViewRepresentable {
+    let reduceMotion: Bool
+    let isReady: () -> Bool
+    let onStarted: () -> Void
+    let onFinish: () -> Void
+
+    func makeUIView(context: Context) -> SplashLayerView {
+        SplashLayerView(reduceMotion: reduceMotion, isReady: isReady, onStarted: onStarted, onFinish: onFinish)
     }
 
-    private func frame(t: Double, leave: Double) -> some View {
-        let figureIn = ease(t / 0.7)
-        let reveal = easeInOut((t - 0.45) / 1.15)
-        let scan = min(ease((t - 0.45) / 0.2), 1 - ease((t - 1.55) / 0.35))
-        let titleIn = ease((t - 1.0) / 0.7)
-        return GeometryReader { geo in
-            let height = min(geo.size.height * 0.56, 560)
-            let width = height * Self.aspect
-            ZStack {
-                Theme.background.ignoresSafeArea()
-                RadialGradient(colors: [Color(hex: "1E4FD8").opacity(0.42 * figureIn), .clear],
-                               center: .init(x: 0.5, y: 0.42), startRadius: 10, endRadius: geo.size.height * 0.55)
-                    .ignoresSafeArea()
-                VStack(spacing: 34) {
-                    figure(width: width, height: height, reveal: reveal, scan: scan)
-                        .scaleEffect(0.94 + 0.06 * figureIn)
-                        .opacity(figureIn)
-                        .offset(y: 14 * (1 - figureIn))
-                    VStack(spacing: 8) {
-                        Text("Anatomi Atlası")
-                            .font(.system(size: 30, weight: .bold, design: .rounded))
-                            .foregroundStyle(Theme.textPrimary)
-                            .tracking(0.4 + 3.6 * (1 - titleIn))
-                        Text("3B KAS-İSKELET ANATOMİSİ")
-                            .font(.system(size: 11, weight: .semibold))
-                            .tracking(3)
-                            .foregroundStyle(Theme.accent.opacity(0.9))
-                    }
-                    .opacity(titleIn)
-                    .offset(y: 10 * (1 - titleIn))
-                }
-                .offset(y: -geo.size.height * 0.02)
-            }
-            .scaleEffect(1 + 0.08 * leave)
-            .opacity(1 - leave)
-        }
-    }
+    func updateUIView(_ view: SplashLayerView, context: Context) {}
+}
 
+private final class SplashLayerView: UIView {
+    /// Seconds of animation before the splash may leave, its exit, and the
+    /// longest it waits for the atlas.
+    private static let minimum = 2.5, exit = 0.45, longest = 7.0
+
+    private let reduceMotion: Bool
+    private let isReady: () -> Bool
+    private let onStarted: () -> Void
+    private let onFinish: () -> Void
+
+    private let content = CALayer()
+    private let glow = CAGradientLayer()
+    private let figure = CALayer()
+    private let skinHolder = CALayer()
+    private let skin = CALayer()
+    private let skinMask = CALayer()
+    private let skinMaskLeft = CALayer()
+    private let skinMaskRight = CALayer()
+    private let anatomy = CALayer()
+    private let anatomyMask = CALayer()
+    private let scanGlow = CAGradientLayer()
+    private let scan = CAGradientLayer()
+    private let titles = CALayer()
+    private let title = CATextLayer()
+    private let subtitle = CATextLayer()
+    private var started = false
+
+    private static let skinImage = UIImage(named: "SplashSkin")
+    private static let anatomyImage = UIImage(named: "SplashAnatomy")
     private static let aspect: CGFloat = {
-        guard let image = UIImage(named: "SplashSkin"), image.size.height > 0 else { return 0.4 }
+        guard let image = skinImage, image.size.height > 0 else { return 0.4 }
         return image.size.width / image.size.height
     }()
 
-    /// The skin silhouette, with the muscles shown on the right half up to
-    /// the scan line.
-    private func figure(width: CGFloat, height: CGFloat, reveal: Double, scan: Double) -> some View {
+    init(reduceMotion: Bool, isReady: @escaping () -> Bool, onStarted: @escaping () -> Void, onFinish: @escaping () -> Void) {
+        self.reduceMotion = reduceMotion
+        self.isReady = isReady
+        self.onStarted = onStarted
+        self.onFinish = onFinish
+        super.init(frame: .zero)
+        backgroundColor = UIColor(Theme.background)
+        isUserInteractionEnabled = true
+        buildLayers()
+    }
+
+    required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
+
+    private func buildLayers() {
+        let accent = UIColor(Theme.accent)
+        layer.addSublayer(content)
+
+        glow.type = .radial
+        glow.colors = [UIColor(Color(hex: "1E4FD8")).withAlphaComponent(0.42).cgColor, UIColor.clear.cgColor]
+        content.addSublayer(glow)
+
+        // The skin, hidden over the revealed band right of the midline.
+        skin.contents = Self.skinImage?.cgImage
+        skin.contentsGravity = .resize
+        skinMaskLeft.backgroundColor = UIColor.black.cgColor
+        skinMaskRight.backgroundColor = UIColor.black.cgColor
+        skinMask.addSublayer(skinMaskLeft)
+        skinMask.addSublayer(skinMaskRight)
+        skin.mask = skinMask
+        skinHolder.addSublayer(skin)
+        skinHolder.shadowColor = accent.cgColor
+        skinHolder.shadowOpacity = 0.35
+        skinHolder.shadowRadius = 24
+        skinHolder.shadowOffset = .zero
+        figure.addSublayer(skinHolder)
+
+        // The muscles and bones, shown up to the scan line.
+        anatomy.contents = Self.anatomyImage?.cgImage
+        anatomy.contentsGravity = .resize
+        anatomyMask.backgroundColor = UIColor.black.cgColor
+        anatomy.mask = anatomyMask
+        figure.addSublayer(anatomy)
+
+        // The scan line at the edge of the reveal, with a wide and a tight glow.
+        for (line, radius, strength) in [(scanGlow, CGFloat(24), Float(0.6)), (scan, 10, 1)] {
+            line.colors = [UIColor.clear, accent.withAlphaComponent(0.9), .white, accent.withAlphaComponent(0.9), .clear].map(\.cgColor)
+            line.startPoint = CGPoint(x: 0.5, y: 0)
+            line.endPoint = CGPoint(x: 0.5, y: 1)
+            line.shadowColor = accent.cgColor
+            line.shadowRadius = radius
+            line.shadowOpacity = strength
+            line.shadowOffset = .zero
+            line.opacity = 0
+            figure.addSublayer(line)
+        }
+        content.addSublayer(figure)
+
+        title.string = NSAttributedString(string: String(localized: "Anatomi Atlası"), attributes: [
+            .font: UIFont.systemFont(ofSize: 30, weight: .bold).rounded,
+            .foregroundColor: UIColor(Theme.textPrimary),
+            .kern: 0.4,
+        ])
+        subtitle.string = NSAttributedString(string: String(localized: "3B KAS-İSKELET ANATOMİSİ"), attributes: [
+            .font: UIFont.systemFont(ofSize: 11, weight: .semibold),
+            .foregroundColor: accent.withAlphaComponent(0.9),
+            .kern: 3,
+        ])
+        for text in [title, subtitle] {
+            text.alignmentMode = .center
+            text.truncationMode = .end
+            titles.addSublayer(text)
+        }
+        content.addSublayer(titles)
+    }
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        guard bounds.width > 0, bounds.height > 0 else { return }
+        CATransaction.begin()
+        CATransaction.setDisableActions(true)
+        let size = bounds.size
+        content.frame = bounds
+        glow.frame = bounds
+        glow.startPoint = CGPoint(x: 0.5, y: 0.42)
+        glow.endPoint = CGPoint(x: 0.5 + size.height * 0.55 / size.width, y: 0.42 + 0.55)
+
+        let height = min(size.height * 0.56, 560), width = height * Self.aspect
+        let titleHeight = ceil(UIFont.systemFont(ofSize: 30, weight: .bold).rounded.lineHeight)
+        let subtitleHeight = ceil(UIFont.systemFont(ofSize: 11, weight: .semibold).lineHeight)
+        let stack = height + 34 + titleHeight + 8 + subtitleHeight
+        let top = (size.height - stack) / 2 - size.height * 0.02
+        figure.frame = CGRect(x: (size.width - width) / 2, y: top, width: width, height: height)
+        for layer in [skinHolder, skin, skinMask, anatomy] { layer.frame = figure.bounds }
+        // Fully revealed: the animations start from the closed state.
         let half = width / 2
-        let edge = half + half * reveal
-        return ZStack(alignment: .leading) {
-            Image("SplashSkin")
-                .resizable()
-                .frame(width: width, height: height)
-                .mask(alignment: .leading) {
-                    // everything but the revealed band right of the midline
-                    HStack(spacing: 0) {
-                        Rectangle().frame(width: half)
-                        Color.clear.frame(width: edge - half)
-                        Rectangle()
-                    }
-                }
-                .shadow(color: Theme.accent.opacity(0.35), radius: 24)
-            Image("SplashAnatomy")
-                .resizable()
-                .frame(width: width, height: height)
-                .mask(alignment: .leading) {
-                    Rectangle().frame(width: edge)
-                }
-            // the scan line at the edge of the reveal
-            LinearGradient(colors: [.clear, Theme.accent.opacity(0.9), .white, Theme.accent.opacity(0.9), .clear],
-                           startPoint: .top, endPoint: .bottom)
-                .frame(width: 2.5, height: height * 1.04)
-                .shadow(color: Theme.accent, radius: 10)
-                .shadow(color: Theme.accent.opacity(0.6), radius: 24)
-                .offset(x: edge - 1.25)
-                .opacity(scan)
+        skinMaskLeft.frame = CGRect(x: 0, y: 0, width: half, height: height)
+        skinMaskRight.frame = CGRect(x: width, y: 0, width: half, height: height)
+        anatomyMask.frame = CGRect(x: 0, y: 0, width: width, height: height)
+        for line in [scanGlow, scan] {
+            line.frame = CGRect(x: width - 1.25, y: -height * 0.02, width: 2.5, height: height * 1.04)
         }
-        .frame(width: width, height: height)
+        titles.frame = CGRect(x: 16, y: top + height + 34, width: size.width - 32, height: titleHeight + 8 + subtitleHeight)
+        title.frame = CGRect(x: 0, y: 0, width: titles.bounds.width, height: titleHeight)
+        subtitle.frame = CGRect(x: 0, y: titleHeight + 8, width: titles.bounds.width, height: subtitleHeight)
+        for text in [title, subtitle] { text.contentsScale = traitCollection.displayScale }
+        CATransaction.commit()
+
+        if !started {
+            started = true
+            start()
+        }
     }
 
-    private func ease(_ x: Double) -> Double {
-        let t = min(max(x, 0), 1)
-        return 1 - pow(1 - t, 3)
-    }
+    // MARK: Animation
 
-    private func easeInOut(_ x: Double) -> Double {
-        let t = min(max(x, 0), 1)
-        return t < 0.5 ? 4 * t * t * t : 1 - pow(-2 * t + 2, 3) / 2
-    }
+    private static let easeOut = CAMediaTimingFunction(controlPoints: 0.215, 0.61, 0.355, 1)
+    private static let easeInOut = CAMediaTimingFunction(controlPoints: 0.645, 0.045, 0.355, 1)
+    private static let easeIn = CAMediaTimingFunction(controlPoints: 0.55, 0.085, 0.68, 0.53)
 
-    /// Animation time that advances by at most a frame's worth per drawn
-    /// frame, and the exit once the atlas is ready.
-    @Observable
-    final class Clock {
-        private(set) var finished = false
-        private(set) var figureShown = false
-        @ObservationIgnored private var last: Date?
-        @ObservationIgnored private var time = 0.0
-        @ObservationIgnored private var started: Date?
-        @ObservationIgnored private var leaving: Double?
-
-        func tick(_ now: Date, ready: Bool, minimum: Double, longest: Double) -> Double {
-            if started == nil { started = now }
-            if let last { time += min(max(now.timeIntervalSince(last), 0), 1.0 / 30) }
-            last = now
-            if time > 0.75, !figureShown {
-                DispatchQueue.main.async { self.figureShown = true }
+    private func start() {
+        let width = figure.bounds.width, half = width / 2
+        if !reduceMotion {
+            let t0 = CACurrentMediaTime() + 0.05
+            animate(content: glow, "opacity", from: 0, to: 1, at: t0, 0.7)
+            animate(content: figure, "opacity", from: 0, to: 1, at: t0, 0.7)
+            animate(content: figure, "transform", from: CATransform3DConcat(CATransform3DMakeScale(0.94, 0.94, 1), CATransform3DMakeTranslation(0, 14, 0)),
+                    to: CATransform3DIdentity, at: t0, 0.7)
+            // The reveal: the skin opens and the anatomy follows the scan line.
+            animate(content: skinMaskRight, "position.x", from: half + half / 2, to: width + half / 2, at: t0 + 0.45, 1.15, Self.easeInOut)
+            animate(content: anatomyMask, "position.x", from: half - width / 2, to: width / 2, at: t0 + 0.45, 1.15, Self.easeInOut)
+            for line in [scanGlow, scan] {
+                animate(content: line, "position.x", from: half, to: width, at: t0 + 0.45, 1.15, Self.easeInOut)
+                let fade = CAKeyframeAnimation(keyPath: "opacity")
+                fade.values = [0, 1, 1, 0]
+                fade.keyTimes = [0, 0.2 / 1.45, 1.1 / 1.45, 1].map { NSNumber(value: $0) }
+                fade.timingFunctions = [Self.easeOut, CAMediaTimingFunction(name: .linear), Self.easeOut]
+                fade.beginTime = t0 + 0.45
+                fade.duration = 1.45
+                fade.fillMode = .both
+                line.add(fade, forKey: "fade")
             }
-            let waitedTooLong = now.timeIntervalSince(started ?? now) > longest
-            if leaving == nil, time >= minimum, ready || waitedTooLong {
-                leaving = time
-            }
-            return time
+            animate(content: titles, "opacity", from: 0, to: 1, at: t0 + 1.0, 0.7)
+            animate(content: titles, "transform", from: CATransform3DMakeTranslation(0, 10, 0), to: CATransform3DIdentity, at: t0 + 1.0, 0.7)
         }
 
-        func leaveProgress(exit: Double) -> Double {
-            guard let leaving else { return 0 }
-            let p = min((time - leaving) / exit, 1)
-            if p >= 1, !finished {
-                DispatchQueue.main.async { self.finished = true }
+        // Let the first frames reach the screen, then build the app behind.
+        let launched = Date()
+        Task { @MainActor [weak self] in
+            try? await Task.sleep(for: .milliseconds(150))
+            self?.onStarted()
+            try? await Task.sleep(for: .seconds(self?.reduceMotion == true ? 0.6 : Self.minimum))
+            while let self, !self.isReady(), Date().timeIntervalSince(launched) < Self.longest {
+                try? await Task.sleep(for: .milliseconds(100))
             }
-            return p * p
+            self?.leave()
         }
+    }
+
+    private func leave() {
+        CATransaction.begin()
+        CATransaction.setCompletionBlock { [onFinish] in onFinish() }
+        content.opacity = 0
+        content.transform = CATransform3DMakeScale(1.08, 1.08, 1)
+        animate(content: content, "opacity", from: 1, to: 0, at: CACurrentMediaTime(), Self.exit, Self.easeIn)
+        animate(content: content, "transform", from: CATransform3DIdentity, to: CATransform3DMakeScale(1.08, 1.08, 1),
+                at: CACurrentMediaTime(), Self.exit, Self.easeIn)
+        backgroundColor = .clear
+        let fade = CABasicAnimation(keyPath: "backgroundColor")
+        fade.fromValue = UIColor(Theme.background).cgColor
+        fade.toValue = UIColor.clear.cgColor
+        fade.duration = Self.exit
+        fade.timingFunction = Self.easeIn
+        layer.add(fade, forKey: "fade")
+        CATransaction.commit()
+    }
+
+    private func animate(content layer: CALayer, _ keyPath: String, from: Any, to: Any, at begin: CFTimeInterval,
+                         _ duration: CFTimeInterval, _ timing: CAMediaTimingFunction = SplashLayerView.easeOut) {
+        let animation = CABasicAnimation(keyPath: keyPath)
+        animation.fromValue = from
+        animation.toValue = to
+        animation.beginTime = begin
+        animation.duration = duration
+        animation.timingFunction = timing
+        animation.fillMode = .backwards
+        layer.add(animation, forKey: keyPath)
+    }
+}
+
+private extension UIFont {
+    var rounded: UIFont {
+        fontDescriptor.withDesign(.rounded).map { UIFont(descriptor: $0, size: pointSize) } ?? self
     }
 }
