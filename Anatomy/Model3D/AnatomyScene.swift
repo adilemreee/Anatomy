@@ -628,7 +628,8 @@ final class AnatomyScene {
 
     /// Shows `refs` on screen: enables their layers, highlights and frames them.
     /// Organs of the other sex only switch the atlas to that sex.
-    func reveal(_ refs: [PartRef], isolate: Bool = false, margin: Float = 1.15) async {
+    /// `belowCard`: the atlas's selection card covers the bottom of the view.
+    func reveal(_ refs: [PartRef], isolate: Bool = false, margin: Float = 1.15, belowCard: Bool = true) async {
         let refs = matchingSex(refs)
         guard !refs.isEmpty else { return }
         if let other = refs.first.flatMap(sex(of:)), refs.allSatisfy({ sex(of: $0) == other }), other != sex {
@@ -675,7 +676,7 @@ final class AnatomyScene {
         if let center, let view = await viewpoint(for: refs, target: center, distance: fit) {
             if view.visible < 0.6 { fade(view.blockers) }
             // The selection card covers the bottom of the screen: the structure sits higher.
-            let lift = selection == nil ? 0 : view.distance * tan(fieldOfView * .pi / 360) * 0.22
+            let lift = selection == nil || !belowCard ? 0 : view.distance * tan(fieldOfView * .pi / 360) * 0.22
             animateCamera(target: center - SIMD3(0, lift, 0), distance: view.distance, yaw: view.yaw, pitch: view.pitch)
         } else {
             frame(refs, margin: margin)

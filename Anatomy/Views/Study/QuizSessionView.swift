@@ -516,31 +516,49 @@ struct OptionButton: View {
 struct QuizModelPreview: View {
     let models: [String]
     @Binding var scene: AnatomyScene?
+    @Environment(\.displayScale) private var displayScale
 
     var body: some View {
         ZStack {
+            // The specimen viewer's stage.
             RoundedRectangle(cornerRadius: 22)
-                .fill(LinearGradient(colors: [Color(hex: "1A1F2A"), Color(hex: "0C0E13")], startPoint: .top, endPoint: .bottom))
+                .fill(RadialGradient(colors: [Color(hex: "262c38"), Color(hex: "0c0e13")], center: .init(x: 0.5, y: 0.45),
+                                     startRadius: 10, endRadius: 260))
             if let scene {
-                AnatomyViewport(scene: scene)
-                    .clipShape(.rect(cornerRadius: 22))
+                AnatomyViewport(scene: scene, onSizeChange: { scene.setViewport(size: $0, scale: displayScale) }) {
+                    EmptyView()
+                }
+                .clipShape(.rect(cornerRadius: 22))
                 if !scene.loadingLayers.isEmpty {
                     ProgressView()
                 }
             }
         }
         .overlay { RoundedRectangle(cornerRadius: 22).strokeBorder(Theme.stroke) }
-        .frame(height: 280)
+        .frame(height: 320)
         .task(id: models) {
             let scene = self.scene ?? AnatomyScene(initialLayers: [])
             self.scene = scene
-            let refs = scene.refs(matching: models)
-            let systems = Set(refs.map(\.system))
-            for layer in ModelLayer.all where !systems.contains(layer.id) {
-                scene.setLayer(layer.id, enabled: false)
+            var refs = scene.matchingSex(scene.refs(matching: models))
+            // "Thoracic aorta" also names a group with every branch of it: the
+            // parts named in the question, else the ones directly under it.
+            let names = Set(models.map { $0.lowercased() })
+            let named = refs.filter { scene.info($0).map { names.contains($0.base.lowercased()) } ?? false }
+            let direct = refs.filter { scene.info($0).map { names.contains($0.path.last?.lowercased() ?? "") } ?? false }
+            if !named.isEmpty { refs = named } else if !direct.isEmpty { refs = direct }
+            // One side, close up, like an atlas plate: both deltoids at once
+            // would take in the whole body.
+            if refs.contains(where: { scene.info($0)?.side == "r" }) {
+                refs = refs.filter { scene.info($0)?.side != "l" }
+            }
+            var systems = Set(refs.map(\.system))
+            // Ligaments and capsules are placed by the bones they join.
+            if systems.contains("joints") { systems.insert("skeletal") }
+            for layer in ModelLayer.all {
+                scene.setLayer(layer.id, enabled: systems.contains(layer.id))
             }
             scene.showAll()
-            await scene.reveal(refs, margin: 2.6)
+            await scene.reveal(refs, margin: 1.7, belowCard: false)
         }
     }
 }
