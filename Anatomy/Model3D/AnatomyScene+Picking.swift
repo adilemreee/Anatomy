@@ -40,6 +40,8 @@ extension AnatomyScene {
         let systems: [System]
         let camera: simd_float4x4
         let fieldOfView: Float
+        /// What the section view cut away is not hit.
+        var section: SectionPlane?
 
         func ray(at point: CGPoint, in size: CGSize) -> (SIMD3<Float>, SIMD3<Float>) {
             let aspect = Float(size.width / size.height)
@@ -66,6 +68,7 @@ extension AnatomyScene {
             var candidates: [(system: Int, part: Int, entry: Float, ghost: Bool)] = []
             for (s, system) in systems.enumerated() {
                 for i in system.state.indices where system.state[i] != 0 {
+                    if let section, !section.keeps(lo: system.lo[i], hi: system.hi[i]) { continue }
                     if let entry = AnatomyScene.rayBox(origin, direction, lo: system.lo[i], hi: system.hi[i]) {
                         candidates.append((s, i, entry, system.state[i] == 2))
                     }
@@ -80,7 +83,7 @@ extension AnatomyScene {
                 let limit = c.ghost ? (bestGhost?.0 ?? .infinity) : (best?.0 ?? .infinity)
                 if c.entry >= limit { continue }
                 let system = systems[c.system]
-                if let hit = AnatomyScene.rayMesh(origin, direction, pack: system.pack, part: c.part, limit: limit) {
+                if let hit = AnatomyScene.rayMesh(origin, direction, pack: system.pack, part: c.part, limit: limit, keep: section) {
                     let ref = PartRef(system: system.id, index: c.part)
                     if c.ghost { bestGhost = (hit, ref) } else { best = (hit, ref) }
                 }
@@ -104,7 +107,7 @@ extension AnatomyScene {
             }
             out.append(.init(id: layer.id, pack: system.pack, lo: system.bounds.map(\.min), hi: system.bounds.map(\.max), state: states))
         }
-        return PickSnapshot(systems: out, camera: camera.transformMatrix(relativeTo: nil), fieldOfView: fieldOfView)
+        return PickSnapshot(systems: out, camera: camera.transformMatrix(relativeTo: nil), fieldOfView: fieldOfView, section: section)
     }
 
     /// Picks the largest parts on screen that are actually visible at their
@@ -389,7 +392,8 @@ extension AnatomyScene {
         return max(tmin, 0)
     }
 
-    nonisolated static func rayMesh(_ o: SIMD3<Float>, _ d: SIMD3<Float>, pack: MeshPack, part: Int, limit: Float) -> Float? {
+    nonisolated static func rayMesh(_ o: SIMD3<Float>, _ d: SIMD3<Float>, pack: MeshPack, part: Int, limit: Float,
+                                    keep section: SectionPlane? = nil) -> Float? {
         let range = pack.ranges[part]
         var best = limit
         var found = false
@@ -413,6 +417,7 @@ extension AnatomyScene {
                     if v < 0 || u + v > 1 { continue }
                     let t = simd_dot(e2, q) * invDet
                     if t > 0.0005 && t < best {
+                        if let section, !section.keeps(o + d * t) { continue }
                         best = t
                         found = true
                     }

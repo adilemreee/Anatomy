@@ -1,0 +1,252 @@
+{
+ "cerebrum": {
+  "tr": "Cerebrum (telencephalon)",
+  "summary": "The largest part of the central nervous system, divided by a deep midline cleft (fissura longitudinalis cerebri) into two hemispheres. Its folded surface is grey matter (the cortex), responsible for consciousness, thought, language, memory, voluntary movement and the perception of the senses.",
+  "facts": [
+   "About 1300–1400 g in adults (whole brain)",
+   "Frontal, parietal, temporal, occipital, insular and limbic lobes",
+   "Central sulcus (Rolando), lateral sulcus (Sylvius), parieto-occipital sulcus, longitudinal cerebral fissure",
+   "Grey matter outside (cortex cerebri), white matter inside (association, commissural and projection fibres) and deep nuclei (basal nuclei)",
+   "Anterior, middle and posterior cerebral arteries (circulus arteriosus cerebri)"
+  ],
+  "sections": [
+   [
+    "Lateralisation",
+    "In most people (more than 95% of right-handers) the left hemisphere is dominant for language. The right hemisphere is more active in spatial perception, face recognition and the emotional tone of speech."
+   ],
+   [
+    "White matter fibres",
+    "Association fibres link areas of the same hemisphere, commissural fibres (corpus callosum) link the two hemispheres, and projection fibres (internal capsule) link the cortex with the brainstem and spinal cord."
+   ]
+  ],
+  "clinical": [
+   "Stroke most often affects the territory of the middle cerebral artery: contralateral weakness mainly of the face and arm, and aphasia when the dominant hemisphere is involved.",
+   "The Glasgow Coma Scale grades the level of consciousness by eye opening, verbal and motor responses."
+  ],
+  "tus": [
+   "The hemispheres are divided into lobes by the central sulcus (Rolando), the lateral sulcus (Sylvius) and the parieto-occipital sulcus.",
+   "The lateral surface of a hemisphere is supplied by the MCA, the medial surface by the ACA and the inferior and posterior surfaces by the PCA."
+  ],
+  "aliases": [
+   "brain",
+   "cerebrum",
+   "telencephalon",
+   "cerebral hemisphere"
+  ]
+ },
+ "lobus-frontalis": {
+  "tr": "Frontal lobe",
+  "summary": "The largest lobe of the brain, lying in front of the central sulcus. Planning and starting voluntary movement, executive functions, personality, decision-making and the production of speech are linked to it.",
+  "facts": [
+   "Central sulcus behind, lateral sulcus below",
+   "Precentral gyrus – primary motor cortex (Brodmann 4); premotor and supplementary motor area (6); frontal eye field (8); Broca's area – motor speech (44, 45; in the dominant hemisphere); prefrontal cortex",
+   "Middle cerebral artery (lateral surface) and anterior cerebral artery (medial surface)"
+  ],
+  "sections": [
+   [
+    "Motor homunculus",
+    "The body is mapped upside down on the primary motor cortex: the leg on the medial surface (paracentral lobule – anterior cerebral artery territory), the arm and face on the lateral surface (middle cerebral artery territory). The hand, face and tongue take up large areas."
+   ]
+  ],
+  "clinical": [
+   "In Broca's aphasia speech is non-fluent and effortful, while comprehension is relatively preserved.",
+   "Prefrontal damage causes personality change, impulsivity and poor planning (the case of Phineas Gage).",
+   "With a lesion of the frontal eye field the eyes look towards the side of the lesion."
+  ],
+  "tus": [
+   "The frontal eye field (BA 8) controls voluntary saccades; after a lesion the eyes deviate towards the lesion.",
+   "In frontal lobe syndrome primitive reflexes (grasp, sucking) may reappear."
+  ],
+  "aliases": [
+   "frontal lobe"
+  ]
+ },
+ "gyrus-precentralis": {
+  "tr": "Precentral gyrus (motor cortex)",
+  "summary": "The gyrus just in front of the central sulcus, containing the primary motor cortex that carries out voluntary movement. Most of the corticospinal and corticobulbar tracts start here.",
+  "facts": [
+   "4 (primary motor cortex)",
+   "Giant pyramidal cells (Betz cells) – layer 5",
+   "Motor homunculus: leg at the midline, face low and lateral",
+   "Corticospinal tract (to the spinal cord) and corticonuclear tract (to the motor nuclei of the brainstem)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Damage here causes contralateral upper motor neuron weakness (spasticity, hyperreflexia, a positive Babinski sign).",
+   "In a Jacksonian seizure the jerking spreads along the homunculus (for example from the hand to the arm and face)."
+  ],
+  "tus": [
+   "The primary motor cortex is BA 4; the Betz cells (giant pyramidal cells) lie here.",
+   "In the motor homunculus the hand and face areas are disproportionately large."
+  ],
+  "aliases": [
+   "motor cortex",
+   "primary motor area"
+  ]
+ },
+ "lobus-parietalis": {
+  "tr": "Parietal lobe",
+  "summary": "The lobe between the central sulcus and the parieto-occipital sulcus. It is linked to the perception and interpretation of the body senses (touch, pain, temperature, position), spatial awareness and attention.",
+  "facts": [
+   "Postcentral gyrus – primary somatosensory cortex (3, 1, 2); superior and inferior parietal lobules; supramarginal and angular gyri (linked to language, reading and writing in the dominant hemisphere)",
+   "Middle cerebral artery and anterior cerebral artery"
+  ],
+  "sections": [],
+  "clinical": [
+   "Damage to the non-dominant (usually right) parietal lobe causes neglect of the opposite side (hemispatial neglect).",
+   "A lesion of the dominant angular gyrus causes Gerstmann syndrome: agraphia, acalculia, finger agnosia and left–right confusion."
+  ],
+  "tus": [
+   "The superior parietal lobule deals with stereognosis and the body schema; the inferior parietal lobule contains the supramarginal and angular gyri.",
+   "Parietal lesions can cause a contralateral inferior quadrantanopia."
+  ],
+  "aliases": [
+   "parietal lobe"
+  ]
+ },
+ "gyrus-postcentralis": {
+  "tr": "Postcentral gyrus (sensory cortex)",
+  "summary": "The gyrus just behind the central sulcus, containing the primary somatosensory cortex that receives touch, pain, temperature and position sense from the opposite half of the body.",
+  "facts": [
+   "3, 1, 2",
+   "Ventral posterolateral (body) and ventral posteromedial (face) nuclei of the thalamus",
+   "Sensory homunculus; the hand, lips and tongue take up large areas"
+  ],
+  "sections": [],
+  "clinical": [
+   "Damage causes contralateral loss of fine touch and position sense and astereognosis (inability to recognise objects by touch)."
+  ],
+  "tus": [
+   "Fibres from the thalamic VPL and VPM nuclei reach the postcentral gyrus through the posterior limb of the internal capsule."
+  ],
+  "aliases": [
+   "somatosensory cortex",
+   "sensory cortex"
+  ]
+ },
+ "lobus-temporalis": {
+  "tr": "Temporal lobe",
+  "summary": "The lobe below the lateral sulcus. It is linked to hearing, the understanding of language, memory and emotion; the hippocampus and amygdala lie on its medial side.",
+  "facts": [
+   "Transverse temporal gyri (Heschl) – primary auditory cortex (41, 42); Wernicke's area – language comprehension (22, in the dominant hemisphere); superior, middle and inferior temporal gyri",
+   "Hippocampus, amygdala (corpus amygdaloideum), parahippocampal gyrus",
+   "Middle cerebral artery and posterior cerebral artery"
+  ],
+  "sections": [],
+  "clinical": [
+   "In Wernicke's aphasia speech is fluent but meaningless and language is not understood.",
+   "Temporal lobe epilepsy may present with olfactory hallucinations, déjà vu and automatisms.",
+   "Atrophy of the medial temporal lobe (hippocampus) is an early sign of Alzheimer's disease."
+  ],
+  "tus": [
+   "Temporal lobe epilepsy presents with olfactory hallucinations, déjà vu and automatisms.",
+   "In temporal lobe (uncal) herniation the oculomotor nerve is compressed; the pupil on the same side dilates."
+  ],
+  "aliases": [
+   "temporal lobe"
+  ]
+ },
+ "lobus-occipitalis": {
+  "tr": "Occipital lobe",
+  "summary": "The most posterior lobe of the brain; it contains the visual centre where visual information is processed.",
+  "facts": [
+   "Primary visual cortex around the calcarine sulcus (striate area, Brodmann 17); visual association areas (18, 19); cuneus, lingual gyrus",
+   "Optic radiation from the lateral geniculate body",
+   "Posterior cerebral artery (calcarine artery)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Damage to one visual cortex causes a contralateral homonymous hemianopia; when the posterior cerebral artery is occluded the macula is usually spared (dual blood supply).",
+   "Bilateral damage causes cortical blindness; in Anton syndrome the patient denies being blind."
+  ],
+  "tus": [
+   "The occipital pole represents the macula and lies in the MCA–PCA watershed zone.",
+   "In cortical blindness (bilateral occipital lesions) the pupillary light reflexes are preserved (Anton syndrome: denial of blindness)."
+  ],
+  "aliases": [
+   "occipital lobe",
+   "visual cortex"
+  ]
+ },
+ "insula": {
+  "tr": "Insula",
+  "summary": "A region of cortex hidden deep in the lateral sulcus under the coverings (opercula) of the frontal, parietal and temporal lobes.",
+  "facts": [
+   "At the floor of the lateral sulcus, surrounded by the circular sulcus of the insula",
+   "Taste perception (primary gustatory cortex), interoception (visceral sensation), pain, emotional awareness, autonomic regulation",
+   "M2 (insular) branches of the middle cerebral artery"
+  ],
+  "sections": [],
+  "clinical": [
+   "In middle cerebral artery stroke the insular cortex is involved early, seen on CT as loss of the 'insular ribbon'."
+  ],
+  "tus": [
+   "The insula lies deep in the lateral sulcus, over the M2 branches of the MCA."
+  ],
+  "aliases": [
+   "insular lobe"
+  ]
+ },
+ "systema-limbicum": {
+  "tr": "Limbic system",
+  "summary": "A group of structures arranged in a ring on the medial side of the cerebral hemispheres, responsible for emotion, motivation, learning and memory.",
+  "facts": [
+   "Cingulate gyrus, parahippocampal gyrus, hippocampus, amygdala, fornix, mammillary bodies, septal nuclei, anterior nuclei of the thalamus, hypothalamus",
+   "Hippocampus → fornix → mammillary body → mammillothalamic tract → anterior thalamic nuclei → cingulate gyrus → parahippocampal gyrus → hippocampus"
+  ],
+  "sections": [],
+  "clinical": [
+   "In thiamine deficiency from chronic alcohol use, damage to the mammillary bodies causes Wernicke–Korsakoff syndrome (memory loss, confabulation)."
+  ],
+  "tus": [
+   "Papez circuit: hippocampus → fornix → mammillary body → mammillothalamic tract → anterior thalamus → cingulate gyrus → hippocampus."
+  ],
+  "aliases": [
+   "limbic",
+   "cingulate gyrus",
+   "fornix"
+  ]
+ },
+ "hippocampus": {
+  "tr": "Hippocampus",
+  "summary": "A seahorse-shaped band of grey matter on the medial side of the temporal lobe, in the floor of the inferior horn of the lateral ventricle. It is essential for storing new information in long-term memory and for spatial navigation.",
+  "facts": [
+   "Medial side of the temporal lobe, floor of the inferior horn of the lateral ventricle",
+   "Cornu ammonis (CA1–CA4), dentate gyrus, subiculum",
+   "Input: entorhinal cortex; output: through the fornix to the mammillary bodies and septal nuclei"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bilateral hippocampal damage leaves a person unable to form new memories (anterograde amnesia) – the case of H.M.",
+   "The hippocampus is one of the regions most sensitive to hypoxia (the CA1 field).",
+   "It is among the first structures affected in Alzheimer's disease; mesial temporal sclerosis is a cause of drug-resistant epilepsy."
+  ],
+  "tus": [
+   "The CA1 field of the hippocampus (Sommer's sector) is the region most sensitive to hypoxia.",
+   "The case of H.M. showed anterograde amnesia after bilateral medial temporal resection."
+  ],
+  "aliases": [
+   "hippocampus"
+  ]
+ },
+ "corpus-amygdaloideum": {
+  "tr": "Amygdala",
+  "summary": "An almond-shaped cluster of nuclei in the anterior medial temporal lobe, in front of the hippocampus. It plays a central part in fear, the perception of threat and the formation of emotional memories.",
+  "facts": [
+   "Anterior medial part of the temporal lobe (under the uncus)",
+   "To the hypothalamus through the stria terminalis; to the cortex, thalamus and autonomic centres of the brainstem",
+   "Fear conditioning, emotional learning, social behaviour, triggering autonomic and endocrine stress responses"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bilateral damage to the amygdala causes Klüver–Bucy syndrome (fearlessness, hyperorality, hypersexuality)."
+  ],
+  "tus": [
+   "The amygdala lies at the front of the temporal lobe, in front of and above the hippocampus, under the uncus."
+  ],
+  "aliases": [
+   "amygdala",
+   "amygdaloid body"
+  ]
+ }
+}

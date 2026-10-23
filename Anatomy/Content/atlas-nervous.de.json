@@ -1,0 +1,2961 @@
+{
+ "system": "nervous",
+ "entries": [
+  {
+   "id": "cerebrum",
+   "tr": "Großhirn (Telencephalon)",
+   "la": "Cerebrum (telencephalon)",
+   "en": "Cerebrum",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Der größte Teil des zentralen Nervensystems, durch eine tiefe Mittelspalte (Fissura longitudinalis cerebri) in zwei Hemisphären geteilt. Seine gefaltete Oberfläche besteht aus grauer Substanz (der Rinde) und ist für Bewusstsein, Denken, Sprache, Gedächtnis, willkürliche Bewegung und Sinneswahrnehmung zuständig.",
+   "facts": [
+    [
+     "Ağırlık",
+     "Beim Erwachsenen etwa 1300–1400 g (gesamtes Gehirn)",
+     "Gewicht"
+    ],
+    [
+     "Lobları",
+     "Frontal-, Parietal-, Temporal-, Okzipital-, Insel- und Limbischer Lappen",
+     "Lappen"
+    ],
+    [
+     "Ana yarıklar",
+     "Sulcus centralis (Rolando), Sulcus lateralis (Sylvius), Sulcus parietooccipitalis, Fissura longitudinalis cerebri",
+     "Hauptfurchen"
+    ],
+    [
+     "Yapısı",
+     "Außen graue Substanz (Cortex cerebri), innen weiße Substanz (Assoziations-, Kommissuren- und Projektionsfasern) und tiefe Kerne (Basalkerne)",
+     "Aufbau"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri anterior, media und posterior (Circulus arteriosus cerebri)",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Lateralisation",
+     "Bei den meisten Menschen (über 95 % der Rechtshänder) ist die linke Hemisphäre sprachdominant. Die rechte Hemisphäre ist bei räumlicher Wahrnehmung, Gesichtererkennung und der emotionalen Färbung der Sprache stärker beteiligt."
+    ],
+    [
+     "Fasern der weißen Substanz",
+     "Assoziationsfasern verbinden Areale derselben Hemisphäre, Kommissurenfasern (Balken) die beiden Hemisphären und Projektionsfasern (Capsula interna) die Rinde mit Hirnstamm und Rückenmark."
+    ]
+   ],
+   "clinical": [
+    "Ein Schlaganfall betrifft am häufigsten das Versorgungsgebiet der A. cerebri media: kontralaterale, gesichts- und armbetonte Parese, bei Befall der dominanten Hemisphäre Aphasie.",
+    "Die Glasgow-Koma-Skala bewertet die Bewusstseinslage anhand von Augenöffnen, verbaler und motorischer Reaktion."
+   ],
+   "tus": [
+    "Die Hemisphären werden durch Sulcus centralis (Rolando), Sulcus lateralis (Sylvius) und Sulcus parietooccipitalis in Lappen gegliedert.",
+    "Die laterale Hemisphärenfläche wird von der A. cerebri media, die mediale von der A. cerebri anterior und die basale und hintere von der A. cerebri posterior versorgt."
+   ],
+   "related": [
+    "lobus-frontalis",
+    "lobus-parietalis",
+    "lobus-temporalis",
+    "lobus-occipitalis",
+    "corpus-callosum",
+    "circulus-arteriosus"
+   ],
+   "models": [
+    "Cerebrum",
+    "Telencephalon"
+   ],
+   "aliases": [
+    "Großhirn",
+    "Telencephalon",
+    "Endhirn",
+    "Hemisphäre"
+   ]
+  },
+  {
+   "id": "lobus-frontalis",
+   "tr": "Frontallappen",
+   "la": "Lobus frontalis",
+   "en": "Frontal lobe",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Der größte Hirnlappen, vor dem Sulcus centralis gelegen. Planung und Einleitung willkürlicher Bewegungen, exekutive Funktionen, Persönlichkeit, Entscheidungen und das Sprechen sind an ihn gebunden.",
+   "facts": [
+    [
+     "Sınırları",
+     "Hinten Sulcus centralis, unten Sulcus lateralis",
+     "Begrenzungen"
+    ],
+    [
+     "Önemli alanlar",
+     "Gyrus precentralis – primärer motorischer Kortex (Brodmann 4); prämotorisches und supplementär-motorisches Areal (6); frontales Augenfeld (8); Broca-Areal – motorisches Sprachzentrum (44, 45; dominante Hemisphäre); präfrontaler Kortex",
+     "Wichtige Areale"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri media (laterale Fläche) und A. cerebri anterior (mediale Fläche)",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Motorischer Homunkulus",
+     "Der Körper ist auf dem primären motorischen Kortex kopfüber abgebildet: das Bein an der medialen Fläche (Lobulus paracentralis – Gebiet der A. cerebri anterior), Arm und Gesicht an der lateralen Fläche (Gebiet der A. cerebri media). Hand, Gesicht und Zunge nehmen große Flächen ein."
+    ]
+   ],
+   "clinical": [
+    "Bei der Broca-Aphasie ist die Sprache nicht flüssig und mühsam, das Verständnis ist relativ erhalten.",
+    "Präfrontale Schäden führen zu Persönlichkeitsveränderung, Impulsivität und gestörter Planung (Fall Phineas Gage).",
+    "Bei einer Läsion des frontalen Augenfelds blicken die Augen zur Seite der Läsion."
+   ],
+   "tus": [
+    "Das frontale Augenfeld (BA 8) steuert willkürliche Sakkaden; bei einer Läsion weichen die Augen zur Läsionsseite ab.",
+    "Beim Frontalhirnsyndrom können Primitivreflexe (Greif-, Saugreflex) wieder auftreten."
+   ],
+   "related": [
+    "cerebrum",
+    "gyrus-precentralis",
+    "lobus-parietalis"
+   ],
+   "models": [
+    "Frontal lobe"
+   ],
+   "aliases": [
+    "Stirnlappen",
+    "Frontallappen"
+   ]
+  },
+  {
+   "id": "gyrus-precentralis",
+   "tr": "Gyrus precentralis (motorischer Kortex)",
+   "la": "Gyrus precentralis",
+   "en": "Precentral gyrus",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Die Windung unmittelbar vor dem Sulcus centralis mit dem primären motorischen Kortex, der willkürliche Bewegungen ausführt. Ein Großteil der Tractus corticospinalis und corticobulbaris beginnt hier.",
+   "facts": [
+    [
+     "Brodmann alanı",
+     "4 (primärer motorischer Kortex)",
+     "Brodmann-Areal"
+    ],
+    [
+     "Hücreler",
+     "Riesenpyramidenzellen (Betz-Zellen) – Schicht 5",
+     "Zellen"
+    ],
+    [
+     "Somatotopi",
+     "Motorischer Homunkulus: Bein an der Mantelkante, Gesicht unten-lateral",
+     "Somatotopie"
+    ],
+    [
+     "Projeksiyon",
+     "Tractus corticospinalis (zum Rückenmark) und Tractus corticonuclearis (zu den motorischen Hirnstammkernen)",
+     "Projektionen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Schädigung führt zu einer kontralateralen zentralen Parese (Spastik, Hyperreflexie, positives Babinski-Zeichen).",
+    "Beim Jackson-Anfall breiten sich die Zuckungen entlang des Homunkulus aus (z. B. von der Hand auf Arm und Gesicht)."
+   ],
+   "tus": [
+    "Der primäre motorische Kortex entspricht BA 4; hier liegen die Betz-Zellen (Riesenpyramidenzellen).",
+    "Im motorischen Homunkulus sind Hand und Gesicht überproportional groß repräsentiert."
+   ],
+   "related": [
+    "lobus-frontalis",
+    "gyrus-postcentralis",
+    "medulla-spinalis"
+   ],
+   "models": [
+    "Precentral gyrus"
+   ],
+   "aliases": [
+    "Motorkortex",
+    "primär motorisches Areal"
+   ]
+  },
+  {
+   "id": "lobus-parietalis",
+   "tr": "Parietallappen",
+   "la": "Lobus parietalis",
+   "en": "Parietal lobe",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Der Lappen zwischen Sulcus centralis und Sulcus parietooccipitalis. Er dient der Wahrnehmung und Deutung der Körperempfindungen (Berührung, Schmerz, Temperatur, Lage), der räumlichen Orientierung und der Aufmerksamkeit.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Gyrus postcentralis – primärer somatosensorischer Kortex (3, 1, 2); Lobulus parietalis superior und inferior; Gyrus supramarginalis und Gyrus angularis (in der dominanten Hemisphäre an Sprache, Lesen und Schreiben beteiligt)",
+     "Wichtige Areale"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri media und A. cerebri anterior",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Schädigung des nicht dominanten (meist rechten) Parietallappens führt zum Neglect der Gegenseite.",
+    "Eine Läsion des dominanten Gyrus angularis verursacht das Gerstmann-Syndrom: Agraphie, Akalkulie, Fingeragnosie und Rechts-links-Störung."
+   ],
+   "tus": [
+    "Der Lobulus parietalis superior dient Stereognosie und Körperschema; der Lobulus parietalis inferior umfasst Gyrus supramarginalis und angularis.",
+    "Parietale Läsionen können eine kontralaterale untere Quadrantenanopsie verursachen."
+   ],
+   "related": [
+    "cerebrum",
+    "gyrus-postcentralis",
+    "lobus-frontalis",
+    "lobus-occipitalis"
+   ],
+   "models": [
+    "Parietal lobe"
+   ],
+   "aliases": [
+    "Scheitellappen",
+    "Parietallappen"
+   ]
+  },
+  {
+   "id": "gyrus-postcentralis",
+   "tr": "Gyrus postcentralis (sensibler Kortex)",
+   "la": "Gyrus postcentralis",
+   "en": "Postcentral gyrus",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Die Windung unmittelbar hinter dem Sulcus centralis mit dem primären somatosensorischen Kortex, der Berührung, Schmerz, Temperatur und Lageempfinden der Gegenseite empfängt.",
+   "facts": [
+    [
+     "Brodmann alanları",
+     "3, 1, 2",
+     "Brodmann-Areale"
+    ],
+    [
+     "Girdi",
+     "Nucleus ventralis posterolateralis (Körper) und ventralis posteromedialis (Gesicht) des Thalamus",
+     "Zuflüsse"
+    ],
+    [
+     "Somatotopi",
+     "Sensibler Homunkulus; Hand, Lippen und Zunge nehmen große Flächen ein",
+     "Somatotopie"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Schädigung führt zum kontralateralen Verlust von feiner Berührung und Lagesinn sowie zur Astereognosie (Gegenstände können nicht ertastet werden)."
+   ],
+   "tus": [
+    "Fasern aus den Thalamuskernen VPL und VPM erreichen den Gyrus postcentralis über den hinteren Schenkel der Capsula interna."
+   ],
+   "related": [
+    "lobus-parietalis",
+    "gyrus-precentralis",
+    "thalamus"
+   ],
+   "models": [
+    "Postcentral gyrus"
+   ],
+   "aliases": [
+    "somatosensorischer Kortex",
+    "sensibler Kortex"
+   ]
+  },
+  {
+   "id": "lobus-temporalis",
+   "tr": "Temporallappen",
+   "la": "Lobus temporalis",
+   "en": "Temporal lobe",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Der Lappen unterhalb des Sulcus lateralis. Er ist an Hören, Sprachverständnis, Gedächtnis und Emotionen beteiligt; an seiner medialen Seite liegen Hippocampus und Amygdala.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Gyri temporales transversi (Heschl) – primärer auditorischer Kortex (41, 42); Wernicke-Areal – Sprachverständnis (22, dominante Hemisphäre); Gyrus temporalis superior, medius und inferior",
+     "Wichtige Areale"
+    ],
+    [
+     "İç yapılar",
+     "Hippocampus, Amygdala (Corpus amygdaloideum), Gyrus parahippocampalis",
+     "Innere Strukturen"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri media und A. cerebri posterior",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei der Wernicke-Aphasie ist die Sprache flüssig, aber inhaltsleer, und das Sprachverständnis ist gestört.",
+    "Die Temporallappenepilepsie kann mit Geruchshalluzinationen, Déjà-vu und Automatismen einhergehen.",
+    "Die Atrophie des medialen Temporallappens (Hippocampus) ist ein frühes Zeichen der Alzheimer-Krankheit."
+   ],
+   "tus": [
+    "Die Temporallappenepilepsie äußert sich mit Geruchshalluzinationen, Déjà-vu und Automatismen.",
+    "Bei der temporalen (unkalen) Herniation wird der N. oculomotorius komprimiert; die gleichseitige Pupille wird weit."
+   ],
+   "related": [
+    "cerebrum",
+    "hippocampus",
+    "corpus-amygdaloideum",
+    "n-vestibulocochlearis"
+   ],
+   "models": [
+    "Temporal lobe"
+   ],
+   "aliases": [
+    "Schläfenlappen",
+    "Temporallappen"
+   ]
+  },
+  {
+   "id": "lobus-occipitalis",
+   "tr": "Okzipitallappen",
+   "la": "Lobus occipitalis",
+   "en": "Occipital lobe",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Der hinterste Hirnlappen; er enthält das Sehzentrum, in dem visuelle Information verarbeitet wird.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Primäre Sehrinde um den Sulcus calcarinus (Area striata, Brodmann 17); visuelle Assoziationsareale (18, 19); Cuneus, Gyrus lingualis",
+     "Wichtige Areale"
+    ],
+    [
+     "Girdi",
+     "Sehstrahlung (Radiatio optica) aus dem Corpus geniculatum laterale",
+     "Zuflüsse"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri posterior (A. calcarina)",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine einseitige Schädigung der Sehrinde führt zur kontralateralen homonymen Hemianopsie; beim Verschluss der A. cerebri posterior bleibt die Makula oft ausgespart (doppelte Versorgung).",
+    "Beidseitige Schäden verursachen eine Rindenblindheit; beim Anton-Syndrom leugnet der Patient seine Blindheit."
+   ],
+   "tus": [
+    "Der Okzipitalpol repräsentiert die Makula und liegt in der Grenzzone zwischen A. cerebri media und posterior.",
+    "Bei der Rindenblindheit (beidseitige okzipitale Läsionen) bleiben die Pupillenlichtreflexe erhalten (Anton-Syndrom: Leugnen der Blindheit)."
+   ],
+   "related": [
+    "cerebrum",
+    "n-opticus",
+    "lobus-parietalis",
+    "lobus-temporalis"
+   ],
+   "models": [
+    "Occipital lobe"
+   ],
+   "aliases": [
+    "Hinterhauptslappen",
+    "Sehrinde"
+   ]
+  },
+  {
+   "id": "insula",
+   "tr": "Insel",
+   "la": "Lobus insularis (insula)",
+   "en": "Insula",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Ein Rindenareal, das tief im Sulcus lateralis unter den Deckeln (Opercula) von Frontal-, Parietal- und Temporallappen verborgen liegt.",
+   "facts": [
+    [
+     "Konum",
+     "Am Grund des Sulcus lateralis, umgeben vom Sulcus circularis insulae",
+     "Lage"
+    ],
+    [
+     "İşlevler",
+     "Geschmackswahrnehmung (primärer gustatorischer Kortex), Interozeption (Eingeweideempfindungen), Schmerz, emotionale Wahrnehmung, autonome Regulation",
+     "Funktionen"
+    ],
+    [
+     "Kanlanma",
+     "M2-(Insel-)Äste der A. cerebri media",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Beim Mediainfarkt ist die Inselrinde früh betroffen, im CT als Verlust des „insular ribbon“ sichtbar."
+   ],
+   "tus": [
+    "Die Insel liegt tief im Sulcus lateralis über den M2-Ästen der A. cerebri media."
+   ],
+   "related": [
+    "cerebrum",
+    "lobus-temporalis",
+    "lobus-frontalis"
+   ],
+   "models": [
+    "Insula"
+   ],
+   "aliases": [
+    "Inselrinde",
+    "Insellappen"
+   ]
+  },
+  {
+   "id": "systema-limbicum",
+   "tr": "Limbisches System",
+   "la": "Systema limbicum (lobus limbicus)",
+   "en": "Limbic system",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Eine Gruppe ringförmig an der Innenseite der Großhirnhemisphären angeordneter Strukturen, zuständig für Emotion, Motivation, Lernen und Gedächtnis.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Gyrus cinguli, Gyrus parahippocampalis, Hippocampus, Amygdala, Fornix, Corpora mamillaria, Septumkerne, vordere Thalamuskerne, Hypothalamus",
+     "Bestandteile"
+    ],
+    [
+     "Papez devresi",
+     "Hippocampus → Fornix → Corpus mamillare → Tractus mamillothalamicus → vordere Thalamuskerne → Gyrus cinguli → Gyrus parahippocampalis → Hippocampus",
+     "Papez-Kreis"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Beim Thiaminmangel infolge chronischen Alkoholkonsums führt die Schädigung der Corpora mamillaria zum Wernicke-Korsakow-Syndrom (Gedächtnisverlust, Konfabulation)."
+   ],
+   "tus": [
+    "Papez-Kreis: Hippocampus → Fornix → Corpus mamillare → Tractus mamillothalamicus → vorderer Thalamus → Gyrus cinguli → Hippocampus."
+   ],
+   "related": [
+    "hippocampus",
+    "corpus-amygdaloideum",
+    "hypothalamus",
+    "thalamus"
+   ],
+   "models": [
+    "Limbic lobe",
+    "Fornix",
+    "Septal nuclei",
+    "Mamillary body"
+   ],
+   "aliases": [
+    "limbisch",
+    "Gyrus cinguli",
+    "Fornix"
+   ]
+  },
+  {
+   "id": "hippocampus",
+   "tr": "Hippocampus",
+   "la": "Hippocampus",
+   "en": "Hippocampus",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Ein seepferdchenförmiger Streifen grauer Substanz an der Innenseite des Temporallappens, im Boden des Unterhorns des Seitenventrikels. Er ist unerlässlich für die Überführung neuer Information ins Langzeitgedächtnis und für die räumliche Orientierung.",
+   "facts": [
+    [
+     "Konum",
+     "Innenseite des Temporallappens, Boden des Unterhorns des Seitenventrikels",
+     "Lage"
+    ],
+    [
+     "Yapısı",
+     "Cornu ammonis (CA1–CA4), Gyrus dentatus, Subiculum",
+     "Aufbau"
+    ],
+    [
+     "Bağlantılar",
+     "Zufluss: entorhinaler Kortex; Abfluss: über den Fornix zu den Corpora mamillaria und den Septumkernen",
+     "Verbindungen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine beidseitige Hippocampusschädigung verhindert die Bildung neuer Erinnerungen (anterograde Amnesie) – der Fall H.M.",
+    "Der Hippocampus gehört zu den hypoxieempfindlichsten Regionen (Sektor CA1).",
+    "Er ist bei der Alzheimer-Krankheit früh betroffen; die mesiale Temporallappensklerose ist eine Ursache pharmakoresistenter Epilepsie."
+   ],
+   "tus": [
+    "Der Sektor CA1 des Hippocampus (Sommer-Sektor) ist die hypoxieempfindlichste Region.",
+    "Der Fall H.M. zeigte eine anterograde Amnesie nach beidseitiger medialer Temporallappenresektion."
+   ],
+   "related": [
+    "systema-limbicum",
+    "lobus-temporalis",
+    "corpus-amygdaloideum"
+   ],
+   "models": [
+    "Hippocampus",
+    "Hippocampal commissure"
+   ],
+   "aliases": [
+    "Ammonshorn",
+    "Hippocampus"
+   ]
+  },
+  {
+   "id": "corpus-amygdaloideum",
+   "tr": "Amygdala",
+   "la": "Corpus amygdaloideum",
+   "en": "Amygdala",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Ein mandelförmiger Kernkomplex im vorderen medialen Temporallappen vor dem Hippocampus. Er spielt eine zentrale Rolle bei Angst, Bedrohungswahrnehmung und der Bildung emotionaler Erinnerungen.",
+   "facts": [
+    [
+     "Konum",
+     "Vorderer medialer Temporallappen (unter dem Uncus)",
+     "Lage"
+    ],
+    [
+     "Bağlantılar",
+     "Über die Stria terminalis zum Hypothalamus; zu Kortex, Thalamus und autonomen Hirnstammzentren",
+     "Verbindungen"
+    ],
+    [
+     "İşlev",
+     "Angstkonditionierung, emotionales Lernen, Sozialverhalten, Auslösung autonomer und endokriner Stressreaktionen",
+     "Funktion"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine beidseitige Schädigung der Amygdala verursacht das Klüver-Bucy-Syndrom (Furchtlosigkeit, Hyperoralität, Hypersexualität)."
+   ],
+   "tus": [
+    "Die Amygdala liegt vorn im Temporallappen, vor und über dem Hippocampus, unter dem Uncus."
+   ],
+   "related": [
+    "systema-limbicum",
+    "hippocampus",
+    "hypothalamus"
+   ],
+   "models": [
+    "Amygdaloid body",
+    "Stria terminalis"
+   ],
+   "aliases": [
+    "Mandelkern",
+    "Amygdala"
+   ]
+  },
+  {
+   "id": "corpus-callosum",
+   "tr": "Balken (Corpus callosum)",
+   "la": "Corpus callosum",
+   "en": "Corpus callosum",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Die größte Kommissur aus etwa 200 Millionen Nervenfasern, die die beiden Großhirnhemisphären verbindet.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Rostrum, Genu, Truncus, Splenium",
+     "Teile"
+    ],
+    [
+     "Diğer komissürler",
+     "Commissura anterior, Commissura posterior, Commissura fornicis (Commissura hippocampi)",
+     "Weitere Kommissuren"
+    ],
+    [
+     "Kanlanma",
+     "A. cerebri anterior (A. pericallosa) und A. cerebri posterior (Splenium)",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei pharmakoresistenter Epilepsie kann der Balken durchtrennt werden (Kallosotomie); bei „Split-Brain“-Patienten ist der Informationsaustausch zwischen den Hemisphären gestört.",
+    "Die Balkenagenesie ist eine angeborene Fehlbildung."
+   ],
+   "tus": [
+    "Agenesie oder Durchtrennung des Balkens führen zu Diskonnektionssyndromen (Unfähigkeit, mit der linken Hand zu schreiben, Anomie der linken Hand)."
+   ],
+   "related": [
+    "cerebrum",
+    "ventriculi-cerebri"
+   ],
+   "models": [
+    "Corpus callosum",
+    "Anterior commissure",
+    "Posterior commissure",
+    "Commissural fibres of telencephalon"
+   ],
+   "aliases": [
+    "Balken",
+    "Corpus callosum"
+   ]
+  },
+  {
+   "id": "nuclei-basales",
+   "tr": "Basalkerne (Basalganglien)",
+   "la": "Nuclei basales",
+   "en": "Basal nuclei (basal ganglia)",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Ansammlungen grauer Substanz tief in den Großhirnhemisphären, die an der Einleitung und Regulation von Bewegungen und am motorischen Lernen beteiligt sind.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Nucleus caudatus, Putamen, Globus pallidus (Putamen + Globus pallidus = Nucleus lentiformis; Nucleus caudatus + Putamen = Corpus striatum); funktionell auch Nucleus subthalamicus und Substantia nigra",
+     "Bestandteile"
+    ],
+    [
+     "Yolaklar",
+     "Der direkte Weg fördert, der indirekte hemmt Bewegungen; Dopamin aus der Substantia nigra hält beide im Gleichgewicht",
+     "Bahnen"
+    ],
+    [
+     "Kapsül",
+     "Die Capsula interna verläuft zwischen Nucleus caudatus und Thalamus einerseits und Nucleus lentiformis andererseits",
+     "Kapsel"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Parkinson-Krankheit entsteht durch den Verlust dopaminerger Neurone der Substantia nigra: Ruhetremor, Rigor, Bradykinese.",
+    "Bei der Chorea Huntington führt die Atrophie des Nucleus caudatus zu Chorea (unwillkürliche, tanzartige Bewegungen) und Demenz.",
+    "Beim Morbus Wilson betreffen Kupferablagerungen besonders das Putamen."
+   ],
+   "tus": [
+    "Corpus striatum: Nucleus caudatus + Putamen; Nucleus lentiformis: Putamen + Globus pallidus.",
+    "Beim Morbus Wilson reichert sich Kupfer vor allem im Putamen an."
+   ],
+   "related": [
+    "thalamus",
+    "mesencephalon",
+    "cerebrum"
+   ],
+   "models": [
+    "Corpus striatum",
+    "Caudate nucleus",
+    "Putamen",
+    "Globus pallidus",
+    "Lentiform nucleus",
+    "Dorsal striatum"
+   ],
+   "aliases": [
+    "Basalganglien",
+    "Striatum",
+    "Putamen",
+    "Nucleus caudatus"
+   ]
+  },
+  {
+   "id": "thalamus",
+   "tr": "Thalamus",
+   "la": "Thalamus",
+   "en": "Thalamus",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Eine eiförmige Masse grauer Substanz beiderseits des dritten Ventrikels, der größte Teil des Zwischenhirns. Er ist die Umschaltstation aller Sinne außer dem Riechen auf ihrem Weg zum Kortex.",
+   "facts": [
+    [
+     "Konum",
+     "Diencephalon; Seitenwand des dritten Ventrikels",
+     "Lage"
+    ],
+    [
+     "Önemli çekirdekler",
+     "VPL (Körpersensibilität), VPM (Gesichtssensibilität und Geschmack), Corpus geniculatum laterale (Sehen), Corpus geniculatum mediale (Hören), VA/VL (Motorik – Zuflüsse aus Basalkernen und Kleinhirn), vordere Kerne (limbisch), Pulvinar",
+     "Wichtige Kerne"
+    ],
+    [
+     "Kanlanma",
+     "Äste der A. cerebri posterior und der A. communicans posterior",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ein Thalamusinfarkt kann einen kontralateralen Verlust aller Qualitäten und später starke brennende Schmerzen verursachen (Thalamusschmerzsyndrom nach Dejerine-Roussy)."
+   ],
+   "tus": [
+    "Der größte Thalamuskern ist das Pulvinar; es dient der visuellen Aufmerksamkeit.",
+    "Der Thalamus wird von den thalamoperforierenden und thalamogenikulären Ästen der A. cerebri posterior versorgt."
+   ],
+   "related": [
+    "hypothalamus",
+    "nuclei-basales",
+    "gyrus-postcentralis",
+    "ventriculi-cerebri"
+   ],
+   "models": [
+    "Thalamus",
+    "Lateral geniculate body",
+    "Medial geniculate body",
+    "Habenula",
+    "Stria medullaris thalami"
+   ],
+   "aliases": [
+    "Thalamus",
+    "Zwischenhirn"
+   ]
+  },
+  {
+   "id": "hypothalamus",
+   "tr": "Hypothalamus",
+   "la": "Hypothalamus",
+   "en": "Hypothalamus",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Ein kleiner, aber lebenswichtiger Teil des Zwischenhirns unter dem Thalamus, der den Boden des dritten Ventrikels bildet. Er ist die oberste Steuerzentrale des autonomen Nervensystems und des Hormonsystems.",
+   "facts": [
+    [
+     "Konum",
+     "Diencephalon; Boden und untere Seitenwände des dritten Ventrikels; darunter der Hypophysenstiel (Infundibulum)",
+     "Lage"
+    ],
+    [
+     "Bölümleri",
+     "Chiasma opticum, Tuber cinereum, Infundibulum, Corpora mamillaria",
+     "Teile"
+    ],
+    [
+     "Çekirdekler ve işlevler",
+     "Supraoptischer und paraventrikulärer Kern (ADH, Oxytocin), suprachiasmatischer (innere Uhr), arcuatus (Releasing-Hormone, Appetit), ventromedialer (Sättigung), lateraler (Hunger), präoptischer (Temperaturregulation)",
+     "Kerne und Funktionen"
+    ],
+    [
+     "Hipofiz ilişkisi",
+     "Mit der Neurohypophyse über Nervenfasern, mit der Adenohypophyse über ein Portalsystem verbunden",
+     "Beziehung zur Hypophyse"
+    ]
+   ],
+   "sections": [
+    [
+     "Homöostase",
+     "Er regelt Körpertemperatur, Hunger und Sättigung, Durst und Wasserhaushalt, den Schlaf-wach-Rhythmus, die Stressreaktion, das Fortpflanzungsverhalten und autonome Funktionen (Herzfrequenz, Blutdruck)."
+    ]
+   ],
+   "clinical": [
+    "Eine Schädigung des Nucleus supraopticus oder des Hypophysenstiels führt zum zentralen Diabetes insipidus (große Harnmengen und Durst).",
+    "Ein Kraniopharyngeom, das auf den Hypothalamus drückt, kann Adipositas, Schlafstörungen und endokrine Ausfälle verursachen."
+   ],
+   "tus": [
+    "Eine Läsion des lateralen Hypothalamus führt zum Verlust des Hungergefühls (Anorexie), eine ventromediale Läsion zu Hyperphagie und Adipositas.",
+    "Der vordere Hypothalamus steuert die Wärmeabgabe (Schwitzen, Vasodilatation), der hintere die Wärmeerhaltung."
+   ],
+   "related": [
+    "hypophysis",
+    "thalamus",
+    "systema-limbicum",
+    "n-opticus"
+   ],
+   "models": [
+    "Hypothalamus",
+    "Mamillary body",
+    "Optic chiasm"
+   ],
+   "aliases": [
+    "Hypothalamus"
+   ]
+  },
+  {
+   "id": "ventriculi-cerebri",
+   "tr": "Hirnventrikel und Liquor",
+   "la": "Ventriculi encephali",
+   "en": "Ventricles of the brain",
+   "group": "Gehirn",
+   "region": "head",
+   "summary": "Vier miteinander verbundene, mit Liquor cerebrospinalis gefüllte Hohlräume im Gehirn: zwei Seitenventrikel, der dritte und der vierte Ventrikel.",
+   "facts": [
+    [
+     "Karıncıklar",
+     "Seitenventrikel (je einer pro Hemisphäre, mit Vorder-, Hinter- und Unterhorn), dritter Ventrikel (Zwischenhirn), vierter Ventrikel (zwischen Pons–Medulla und Kleinhirn)",
+     "Ventrikel"
+    ],
+    [
+     "Bağlantılar",
+     "Foramen interventriculare (Monro): Seitenventrikel → 3.; Aqueductus mesencephali (Sylvius): 3. → 4.; Apertura mediana (Magendie) und Aperturae laterales (Luschka): 4. → Subarachnoidalraum",
+     "Verbindungen"
+    ],
+    [
+     "BOS yapımı",
+     "Plexus choroideus; etwa 500 mL pro Tag, Gesamtmenge etwa 150 mL",
+     "Liquorbildung"
+    ],
+    [
+     "BOS emilimi",
+     "Über die Granulationes arachnoideae in den Sinus sagittalis superior",
+     "Liquorresorption"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ein behinderter Liquorabfluss (z. B. Aquäduktstenose) verursacht einen Verschlusshydrozephalus; ein ventrikuloperitonealer Shunt kann angelegt werden.",
+    "Der per Lumbalpunktion gewonnene Liquor wird zur Diagnose von Meningitis und Subarachnoidalblutung untersucht."
+   ],
+   "tus": [
+    "Das Vorderhorn des Seitenventrikels liegt im Frontal-, das Unterhorn im Temporal- und das Hinterhorn im Okzipitallappen.",
+    "Der Plexus choroideus liegt in Körper und Unterhorn des Seitenventrikels und im Dach des 3. und 4. Ventrikels; Vorder- und Hinterhorn enthalten keinen."
+   ],
+   "related": [
+    "thalamus",
+    "corpus-callosum",
+    "meninges",
+    "mesencephalon"
+   ],
+   "models": [
+    "Lateral ventricle",
+    "Third ventricle",
+    "Fourth ventricle",
+    "Aqueduct of midbrain",
+    "Choroid plexus",
+    "Septum pellucidum",
+    "Walls of lateral ventricle"
+   ],
+   "aliases": [
+    "Ventrikel",
+    "Liquor",
+    "Hirnwasser"
+   ]
+  },
+  {
+   "id": "mesencephalon",
+   "tr": "Mittelhirn",
+   "la": "Mesencephalon",
+   "en": "Midbrain",
+   "group": "Hirnstamm und Kleinhirn",
+   "region": "head",
+   "summary": "Der oberste Abschnitt des Hirnstamms zwischen Zwischenhirn und Pons. Es ist an visuellen und akustischen Reflexen, Augenbewegungen und der Motorik beteiligt.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Tectum (Colliculi superiores – visuelle Reflexe, Colliculi inferiores – Hören), Tegmentum (Nucleus ruber, Kerne des III. und IV. Hirnnervs), Crura cerebri (kortikospinale Fasern), Substantia nigra",
+     "Teile"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "N. oculomotorius (III) – aus der Fossa interpeduncularis; N. trochlearis (IV) – als einziger Nerv an der Rückseite",
+     "Austretende Hirnnerven"
+    ],
+    [
+     "Boşluk",
+     "Aqueductus mesencephali",
+     "Höhle"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Weber-Syndrom: Läsion von Crus cerebri und N. oculomotorius – ipsilaterale Okulomotoriusparese mit kontralateraler Hemiplegie.",
+    "Parinaud-Syndrom (bei Pinealistumoren): vertikale Blicklähmung nach oben."
+   ],
+   "tus": [
+    "Im Mittelhirnquerschnitt liegen dorsal die Colliculi (obere: visuelle Reflexe, untere: Hören), in der Mitte der Aquädukt und ventral die Pedunculi cerebri.",
+    "Parinaud-Syndrom (Pinealistumor): Blickparese nach oben, Licht-Nah-Dissoziation."
+   ],
+   "related": [
+    "pons",
+    "nuclei-basales",
+    "n-oculomotorius",
+    "n-trochlearis"
+   ],
+   "models": [
+    "Midbrain",
+    "Superior colliculus",
+    "Inferior colliculus",
+    "Red nucleus",
+    "Cerebral peduncle",
+    "Base of peduncle"
+   ],
+   "aliases": [
+    "Mesencephalon",
+    "Mittelhirn"
+   ]
+  },
+  {
+   "id": "pons",
+   "tr": "Brücke (Pons)",
+   "la": "Pons",
+   "en": "Pons",
+   "group": "Hirnstamm und Kleinhirn",
+   "region": "head",
+   "summary": "Der mittlere Abschnitt des Hirnstamms, eine vorn deutlich vorgewölbte Wulst querer Fasern vor dem Kleinhirn. Er verbindet Großhirn und Kleinhirn und wirkt an der Atemregulation mit.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Pars basilaris (vorn; Brückenkerne, kortikospinale Fasern) und Tegmentum (hinten)",
+     "Teile"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "N. trigeminus (V) – an der vorderen Seitenfläche; N. abducens (VI), N. facialis (VII) und N. vestibulocochlearis (VIII) – an der Brücken-Medulla-Grenze",
+     "Austretende Hirnnerven"
+    ],
+    [
+     "Bağlantı",
+     "Über den Pedunculus cerebellaris medius zum Kleinhirn",
+     "Verbindungen"
+    ],
+    [
+     "Kanlanma",
+     "Brückenäste der A. basilaris",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Große Läsionen der Brückenbasis verursachen ein Locked-in-Syndrom: Der Patient ist bei Bewusstsein, kann sich aber nur durch vertikale Augenbewegungen und Lidschlag verständigen.",
+    "Ein zu schneller Natriumausgleich kann eine zentrale pontine Myelinolyse auslösen."
+   ],
+   "tus": [
+    "Ventral enthält die Brücke kortikospinale Fasern und die Brückenkerne, dorsal (Tegmentum) die Hirnnervenkerne.",
+    "Die zentrale pontine Myelinolyse folgt einem zu raschen Ausgleich einer Hyponatriämie."
+   ],
+   "related": [
+    "mesencephalon",
+    "medulla-oblongata",
+    "cerebellum",
+    "n-trigeminus",
+    "n-facialis"
+   ],
+   "models": [
+    "Pons",
+    "Tegmentum of pons"
+   ],
+   "aliases": [
+    "Pons",
+    "Brücke"
+   ]
+  },
+  {
+   "id": "medulla-oblongata",
+   "tr": "Verlängertes Mark (Medulla oblongata)",
+   "la": "Medulla oblongata",
+   "en": "Medulla oblongata",
+   "group": "Hirnstamm und Kleinhirn",
+   "region": "head",
+   "summary": "Der unterste Abschnitt des Hirnstamms, der in Höhe des Foramen magnum ins Rückenmark übergeht. Er enthält lebenswichtige Zentren für Atmung, Herzschlag und Blutdruck.",
+   "facts": [
+    [
+     "Dış yapılar",
+     "Pyramiden (kortikospinale Fasern – an ihrem unteren Ende gekreuzt: Decussatio pyramidum), Oliven, Tuberculum gracile und cuneatum",
+     "Äußere Gestalt"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "N. glossopharyngeus (IX), N. vagus (X) und N. accessorius (XI) – aus der seitlichen Furche; N. hypoglossus (XII) – zwischen Pyramide und Olive",
+     "Austretende Hirnnerven"
+    ],
+    [
+     "Yaşamsal merkezler",
+     "Atemzentrum, Kreislaufzentrum, Reflexzentren für Erbrechen, Husten und Schlucken",
+     "Lebenswichtige Zentren"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Wallenberg-Syndrom (laterales Medulla-oblongata-Syndrom): Verschluss der A. vertebralis/PICA – Ausfall von Schmerz- und Temperaturempfinden im gleichseitigen Gesicht und am gegenseitigen Körper, Dysphagie, Heiserkeit, Horner-Syndrom, Ataxie.",
+    "Bei erhöhtem Hirndruck drückt die Einklemmung der Kleinhirntonsillen ins Foramen magnum auf die Medulla und führt zum Atemstillstand."
+   ],
+   "tus": [
+    "Die Medulla enthält Atem- und Kreislaufzentren; die Einklemmung ins Foramen magnum ist tödlich.",
+    "Die Area postrema (Brechzentrum) ist eine Region ohne Blut-Hirn-Schranke."
+   ],
+   "related": [
+    "pons",
+    "medulla-spinalis",
+    "n-vagus",
+    "n-hypoglossus",
+    "os-occipitale"
+   ],
+   "models": [
+    "Medulla oblongata",
+    "Pyramid of medulla oblongata",
+    "Olive"
+   ],
+   "aliases": [
+    "Medulla oblongata",
+    "Nachhirn"
+   ]
+  },
+  {
+   "id": "cerebellum",
+   "tr": "Kleinhirn",
+   "la": "Cerebellum",
+   "en": "Cerebellum",
+   "group": "Hirnstamm und Kleinhirn",
+   "region": "head",
+   "summary": "Das „kleine Gehirn“ in der hinteren Schädelgrube hinter dem Hirnstamm. Es ist für die Koordination von Bewegungen, Gleichgewicht, Muskeltonus und motorisches Lernen zuständig.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Vermis in der Mitte, Kleinhirnhemisphären beiderseits; Lobus anterior, posterior und flocculonodularis",
+     "Teile"
+    ],
+    [
+     "Bağlantılar",
+     "Pedunculus cerebellaris superior (zum Mittelhirn), medius (zur Pons) und inferior (zur Medulla)",
+     "Verbindungen"
+    ],
+    [
+     "Derin çekirdekler",
+     "Nucleus dentatus, emboliformis, globosus und fastigii",
+     "Kleinhirnkerne"
+    ],
+    [
+     "İşlevsel bölgeler",
+     "Vestibulocerebellum (Gleichgewicht, Augenbewegungen), Spinocerebellum (Koordination von Rumpf und Extremitäten), Cerebrocerebellum (Bewegungsplanung)",
+     "Funktionelle Areale"
+    ],
+    [
+     "Kanlanma",
+     "A. superior cerebelli, A. inferior anterior cerebelli (AICA), A. inferior posterior cerebelli (PICA)",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Regel der gleichen Seite",
+     "Jede Kleinhirnhemisphäre steuert dieselbe Körperseite; eine einseitige Läsion verursacht eine gleichseitige Koordinationsstörung."
+    ]
+   ],
+   "clinical": [
+    "Kleinhirnläsionen verursachen Ataxie, Dysmetrie (Zielverfehlen beim Finger-Nase-Versuch), Dysdiadochokinese, Intentionstremor, Nystagmus und Dysarthrie (skandierende Sprache).",
+    "Alkohol schädigt vor allem den Vermis und führt zu einem breitbasigen Gang (Rumpfataxie)."
+   ],
+   "tus": [
+    "Kleinhirnläsionen machen gleichseitige Symptome (die Bahnen kreuzen zweimal).",
+    "Blutversorgung des Kleinhirns: SCA (obere Fläche), AICA (vordere untere Fläche), PICA (hintere untere Fläche)."
+   ],
+   "related": [
+    "pons",
+    "medulla-oblongata",
+    "mesencephalon"
+   ],
+   "models": [
+    "Cerebellum"
+   ],
+   "aliases": [
+    "Cerebellum",
+    "Kleinhirn"
+   ]
+  },
+  {
+   "id": "medulla-spinalis",
+   "tr": "Rückenmark",
+   "la": "Medulla spinalis",
+   "en": "Spinal cord",
+   "group": "Rückenmark und Hirnhäute",
+   "region": "back",
+   "summary": "Der zylinderförmige Teil des Zentralnervensystems im Wirbelkanal, vom Foramen magnum bis zum Conus medullaris in Höhe der Wirbel L1–L2 beim Erwachsenen. Es gibt 31 Spinalnervenpaare ab.",
+   "facts": [
+    [
+     "Uzunluk",
+     "Beim Erwachsenen 42–45 cm",
+     "Länge"
+    ],
+    [
+     "Segmentler",
+     "8 zervikale, 12 thorakale, 5 lumbale, 5 sakrale, 1 kokzygeales",
+     "Segmente"
+    ],
+    [
+     "Kalınlaşmalar",
+     "Intumescentia cervicalis (C4–T1; Armnerven) und Intumescentia lumbosacralis (L2–S3; Beinnerven)",
+     "Anschwellungen"
+    ],
+    [
+     "İç yapı",
+     "Zentral H-förmige graue Substanz (Vorderhorn – motorisch, Hinterhorn – sensibel, Seitenhorn – sympathisch T1–L2), umgeben von Strängen weißer Substanz (Funiculi)",
+     "Innerer Aufbau"
+    ],
+    [
+     "Kanlanma",
+     "A. spinalis anterior (vordere zwei Drittel), Aa. spinales posteriores (hinteres Drittel), Segmentarterien (A. radicularis magna – Adamkiewicz)",
+     "Blutversorgung"
+    ]
+   ],
+   "sections": [
+    [
+     "Hauptbahnen",
+     "Hinterstränge (Fasciculus gracilis und cuneatus): feine Berührung und Lagesinn, Kreuzung in der Medulla. Tractus spinothalamicus: Schmerz und Temperatur, Kreuzung im Rückenmark auf Höhe des Eintritts. Tractus corticospinalis lateralis: Willkürmotorik, bereits in der Medulla gekreuzt."
+    ]
+   ],
+   "clinical": [
+    "Brown-Séquard-Syndrom (Halbseitenläsion): auf der Läsionsseite Ausfall von Motorik und Lagesinn, auf der Gegenseite Ausfall von Schmerz- und Temperaturempfinden.",
+    "Beim A.-spinalis-anterior-Syndrom bleiben die Hinterstrangqualitäten erhalten.",
+    "Die Höhe einer Rückenmarksverletzung entscheidet über Tetraplegie (zervikal) oder Paraplegie (thorakal und tiefer)."
+   ],
+   "tus": [
+    "Die zervikale und lumbale Anschwellung entsprechen den Segmenten, aus denen Arm- und Beinplexus hervorgehen.",
+    "Das Rückenmark wird von der A. spinalis anterior (vordere zwei Drittel) und zwei Aa. spinales posteriores versorgt; die Adamkiewicz-Arterie ist die Hauptversorgung des unteren Brust- und Lendenmarks."
+   ],
+   "related": [
+    "cauda-equina",
+    "meninges",
+    "vertebrae-cervicales",
+    "medulla-oblongata",
+    "plexus-brachialis"
+   ],
+   "models": [
+    "Spinal cord"
+   ],
+   "aliases": [
+    "Rückenmark",
+    "Medulla spinalis"
+   ]
+  },
+  {
+   "id": "cauda-equina",
+   "tr": "Cauda equina",
+   "la": "Cauda equina",
+   "en": "Cauda equina",
+   "group": "Rückenmark und Hirnhäute",
+   "region": "back",
+   "summary": "Das Bündel lumbaler, sakraler und kokzygealer Nervenwurzeln, das unterhalb des Rückenmarkendes am Conus medullaris im Wirbelkanal abwärts zieht.",
+   "facts": [
+    [
+     "Konum",
+     "Vom Wirbel L2 bis zum Kreuzbein, in der Cisterna lumbalis",
+     "Lage"
+    ],
+    [
+     "İçerik",
+     "Spinalnervenwurzeln L2–Co1 und Filum terminale",
+     "Inhalt"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Kauda-Syndrom (z. B. durch einen großen medialen Bandscheibenvorfall): Reithosenanästhesie, Harn- und Stuhlinkontinenz oder -verhalt, Beinschwäche – ein chirurgischer Notfall.",
+    "Bei der Lumbalpunktion weichen die Wurzeln der Nadel aus, das Rückenmark wird nicht verletzt; daher sind L3–L4 / L4–L5 sicher."
+   ],
+   "tus": [
+    "Das Konus-Syndrom beginnt plötzlicher und symmetrisch, das Kauda-Syndrom eher asymmetrisch und schmerzhaft."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "vertebrae-lumbales",
+    "plexus-lumbalis",
+    "plexus-sacralis"
+   ],
+   "models": [
+    "Cauda equina"
+   ],
+   "aliases": [
+    "Cauda equina",
+    "Pferdeschweif"
+   ]
+  },
+  {
+   "id": "meninges",
+   "tr": "Hirn- und Rückenmarkshäute",
+   "la": "Meninges",
+   "en": "Meninges",
+   "group": "Rückenmark und Hirnhäute",
+   "region": "head",
+   "summary": "Die drei schützenden Hüllen von Gehirn und Rückenmark: von außen nach innen Dura mater (harte Haut), Arachnoidea mater (Spinnwebenhaut) und Pia mater (weiche Haut).",
+   "facts": [
+    [
+     "Dura mater",
+     "Dicke, faserige äußere Haut; im Schädel zweiblättrig, dazwischen die venösen Sinus. Duplikaturen: Falx cerebri, Tentorium cerebelli, Falx cerebelli, Diaphragma sellae",
+     "Dura mater"
+    ],
+    [
+     "Arachnoidea mater",
+     "Dünne, gefäßlose mittlere Haut; darunter zirkuliert im Subarachnoidalraum der Liquor",
+     "Arachnoidea mater"
+    ],
+    [
+     "Pia mater",
+     "Gefäßreiche innere Haut, die der Oberfläche von Gehirn und Rückenmark fest anliegt; am Rückenmark bildet sie die Ligg. denticulata und das Filum terminale",
+     "Pia mater"
+    ],
+    [
+     "Aralıklar",
+     "Epidural (im Schädel potenziell, im Wirbelkanal real – Fett und Venen), subdural (potenziell), subarachnoidal (real – Liquor)",
+     "Räume"
+    ],
+    [
+     "İnnervasyon",
+     "Dura: Äste des N. trigeminus (vordere und mittlere Schädelgrube), N. vagus und obere Zervikalnerven (hintere Schädelgrube)",
+     "Innervation"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Epidurales Hämatom: meist Riss der A. meningea media; linsenförmig (bikonvex), „freies Intervall“.",
+    "Subdurales Hämatom: Riss der Brückenvenen; sichelförmig, häufig bei älteren Menschen und Alkoholkranken.",
+    "Subarachnoidalblutung: meist Ruptur eines Aneurysmas; „der schlimmste Kopfschmerz meines Lebens“.",
+    "Bei Meningitis finden sich Nackensteifigkeit sowie Kernig- und Brudzinski-Zeichen."
+   ],
+   "tus": [
+    "Im Schädel hat die Dura zwei Blätter, ein äußeres periostales und ein inneres meningeales; dazwischen liegen die venösen Sinus.",
+    "Falx cerebri, Tentorium cerebelli, Falx cerebelli und Diaphragma sellae sind innere Duplikaturen der Dura."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "cerebrum",
+    "ventriculi-cerebri",
+    "sinus-durae-matris"
+   ],
+   "models": [
+    "Meninges",
+    "Dura",
+    "Cranial dura",
+    "Spinal dura",
+    "Falx cerebri",
+    "Tentorium cerebelli",
+    "Pia",
+    "Cranial pia",
+    "Leptomeninges"
+   ],
+   "aliases": [
+    "Dura mater",
+    "Arachnoidea",
+    "Pia mater",
+    "Meningen"
+   ]
+  },
+  {
+   "id": "tractus-spinales",
+   "tr": "Rückenmarksbahnen",
+   "la": "Tractus medullae spinalis",
+   "en": "Spinal cord tracts",
+   "group": "Rückenmark und Hirnhäute",
+   "region": "back",
+   "summary": "Nervenfaserbündel in der weißen Substanz des Rückenmarks, die Information zwischen Gehirn und Körper leiten: aufsteigend (sensibel) und absteigend (motorisch).",
+   "facts": [
+    [
+     "Çıkan yollar",
+     "Fasciculus gracilis und cuneatus (Hinterstränge – feine Berührung, Vibration, Lage), Tractus spinothalamicus lateralis und anterior (Schmerz, Temperatur, grobe Berührung), Tractus spinocerebellaris anterior und posterior (unbewusste Propriozeption)",
+     "Aufsteigende Bahnen"
+    ],
+    [
+     "İnen yollar",
+     "Tractus corticospinalis lateralis und anterior (Willkürmotorik); Tractus rubrospinalis, vestibulospinalis, reticulospinalis und tectospinalis (Haltung, Reflexe und Tonus)",
+     "Absteigende Bahnen"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Funikuläre Myelose (Vitamin-B12-Mangel): Hinterstränge und Pyramidenbahnen sind betroffen.",
+    "Bei der Syringomyelie unterbricht der erweiterte Zentralkanal die kreuzenden spinothalamischen Fasern; es entsteht ein pelerinenartiger Ausfall von Schmerz und Temperatur."
+   ],
+   "tus": [
+    "Der Tractus spinocerebellaris posterior leitet gleichseitige Information; der anterior kreuzt zweimal und erreicht so ebenfalls das gleichseitige Kleinhirn.",
+    "Tractus rubrospinalis, reticulospinalis, vestibulospinalis und tectospinalis sind extrapyramidale absteigende Bahnen."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "gyrus-precentralis",
+    "gyrus-postcentralis"
+   ],
+   "models": [
+    "Lateral corticospinal tract",
+    "Anterior corticospinal tract",
+    "Gracile fasciculus",
+    "Cuneate fasciculus",
+    "Lateral spinothalamic tract",
+    "Anterior spinothalamic tract",
+    "Anterior spinocerebellar tract",
+    "Posterior spinocerebellar tract",
+    "Rubrospinal tract",
+    "Tectospinal tract",
+    "Lateral vestibulospinal tract",
+    "Medial vestibulospinal tract"
+   ],
+   "aliases": [
+    "Pyramidenbahn",
+    "spinothalamisch",
+    "Hinterstrang"
+   ]
+  },
+  {
+   "id": "n-olfactorius",
+   "tr": "Riechnerv (N. olfactorius, I)",
+   "la": "N. olfactorius (I)",
+   "en": "Olfactory nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der sensorische Hirnnerv des Geruchs, unmittelbar mit dem Vorderende des Gehirns verbunden. Er besteht eigentlich aus feinen Fäden (Fila olfactoria), die von den Riechzellen im Dach der Nasenhöhle ausgehen.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Riechsinneszellen in der Schleimhaut der Regio olfactoria (Dach der Nasenhöhle)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Zieht durch die Lamina cribrosa und endet im Bulbus olfactorius; über den Tractus olfactorius zum Riechkortex (Uncus, Umgebung der Amygdala)",
+     "Verlauf"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Spezielle Sinnesqualität: Geruch",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei Frakturen der vorderen Schädelbasis können die Fäden abreißen und einen Riechverlust (Anosmie) verursachen.",
+    "Riechverlust kann ein Frühzeichen der Parkinson- und Alzheimer-Krankheit sein; auch bei COVID-19 war er häufig."
+   ],
+   "tus": [
+    "Die Riechsinneszellen sind die einzigen Neurone, die sich ständig erneuern.",
+    "Foster-Kennedy-Syndrom: beim Olfaktoriusmeningeom ipsilateral Optikusatrophie und Anosmie, kontralateral Stauungspapille."
+   ],
+   "related": [
+    "os-ethmoidale",
+    "cavitas-nasi",
+    "organum-olfactus"
+   ],
+   "models": [
+    "Olfactory nerve (I)"
+   ],
+   "aliases": [
+    "Riechnerv",
+    "Olfaktorius",
+    "I. Hirnnerv"
+   ]
+  },
+  {
+   "id": "n-opticus",
+   "tr": "Sehnerv (N. opticus, II)",
+   "la": "N. opticus (II)",
+   "en": "Optic nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der sensorische Nerv, der die visuelle Information von der Netzhaut leitet. Entwicklungsgeschichtlich ist er eine Ausstülpung des Gehirns und daher von den Hirnhäuten umhüllt.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Axone der retinalen Ganglienzellen (Papilla nervi optici)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Tritt durch den Canalis opticus in den Schädel; über der Hypophyse kreuzen im Chiasma opticum die nasalen Fasern; der Tractus opticus zieht zum Corpus geniculatum laterale, von dort die Sehstrahlung zur Sehrinde",
+     "Verlauf"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Spezielle Sinnesqualität: Sehen; afferenter Schenkel des Pupillenlichtreflexes",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ein Druck auf das Chiasma opticum (Hypophysenadenom) verursacht eine bitemporale Hemianopsie.",
+    "Erhöhter Hirndruck führt zur Schwellung der Sehnervenpapille (Stauungspapille).",
+    "Eine Optikusneuritis kann das erste Zeichen einer Multiplen Sklerose sein."
+   ],
+   "tus": [
+    "Der N. opticus ist ein Ausläufer des Gehirns; er ist von Hirnhäuten umgeben, bei erhöhtem Hirndruck entsteht eine Stauungspapille.",
+    "Beim Lichtreflex ist der afferente Schenkel der N. opticus, der efferente der N. oculomotorius; die Marcus-Gunn-Pupille (RAPD) zeigt einen afferenten Defekt."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "lobus-occipitalis",
+    "hypothalamus",
+    "hypophysis"
+   ],
+   "models": [
+    "Optic nerve (II)",
+    "Optic chiasm",
+    "Optic tract"
+   ],
+   "aliases": [
+    "Sehnerv",
+    "Optikus",
+    "II. Hirnnerv",
+    "Chiasma"
+   ]
+  },
+  {
+   "id": "n-oculomotorius",
+   "tr": "N. oculomotorius (III)",
+   "la": "N. oculomotorius (III)",
+   "en": "Oculomotor nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Ein motorischer und parasympathischer Hirnnerv, der die meisten Augenbewegungen ausführt, die Pupille verengt und die Akkommodation der Linse steuert.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Mittelhirn (Fossa interpeduncularis); seine Kerne sind der Nucleus n. oculomotorii und der Nucleus accessorius (Edinger-Westphal)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Verläuft in der Seitenwand des Sinus cavernosus und tritt durch die Fissura orbitalis superior in die Orbita",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. rectus superior, inferior und medialis, M. obliquus inferior, M. levator palpebrae superioris; parasympathisch: über das Ganglion ciliare zum M. sphincter pupillae und M. ciliaris",
+     "Motorisch (efferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei kompletter Parese blickt das Auge nach unten außen, mit Ptosis und lichtstarrer weiter Pupille.",
+    "Die außen liegenden Pupillenfasern werden bei Druck durch ein Aneurysma der A. communicans posterior früh betroffen (Okulomotoriusparese mit Pupillenbeteiligung ist ein Notfall); bei diabetischer Ischämie bleibt die Pupille meist ausgespart."
+   ],
+   "tus": [
+    "Der N. oculomotorius versorgt M. rectus superior, inferior und medialis, M. obliquus inferior und M. levator palpebrae.",
+    "Der Okulomotoriuskern liegt im Mittelhirn auf Höhe des Colliculus superior; der Edinger-Westphal-Kern ist Ursprung der parasympathischen Fasern."
+   ],
+   "related": [
+    "mm-bulbi",
+    "mesencephalon",
+    "bulbus-oculi",
+    "n-trochlearis",
+    "n-abducens"
+   ],
+   "models": [
+    "Oculomotor nerve (III)",
+    "Oculomotor complex"
+   ],
+   "aliases": [
+    "Okulomotorius",
+    "III. Hirnnerv"
+   ]
+  },
+  {
+   "id": "n-trochlearis",
+   "tr": "N. trochlearis (IV)",
+   "la": "N. trochlearis (IV)",
+   "en": "Trochlear nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der dünnste Hirnnerv mit dem längsten intrakraniellen Verlauf; er versorgt nur den M. obliquus superior des Auges. Er tritt als einziger Nerv an der Rückseite des Hirnstamms aus und kreuzt als einziger vollständig.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Rückseite des Mittelhirns (unterhalb des Colliculus inferior)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Zieht um den Hirnstamm nach vorn und durch die Seitenwand des Sinus cavernosus und die Fissura orbitalis superior",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. obliquus superior",
+     "Motorisch (efferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei einer Parese entstehen Doppelbilder beim Blick nach unten innen; der Patient hat Mühe beim Treppabgehen und neigt den Kopf zur gesunden Seite.",
+    "Wegen seines langen Verlaufs wird er bei Schädel-Hirn-Traumen leicht verletzt."
+   ],
+   "tus": [
+    "Der Trochleariskern liegt auf Höhe des Colliculus inferior; seine Fasern kreuzen."
+   ],
+   "related": [
+    "mm-bulbi",
+    "n-oculomotorius",
+    "mesencephalon"
+   ],
+   "models": [
+    "Trochlear nerve (IV)"
+   ],
+   "aliases": [
+    "Trochlearis",
+    "IV. Hirnnerv"
+   ]
+  },
+  {
+   "id": "n-trigeminus",
+   "tr": "N. trigeminus (V)",
+   "la": "N. trigeminus (V)",
+   "en": "Trigeminal nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der wichtigste sensible Nerv des Gesichts und motorische Nerv der Kaumuskeln. Er ist der größte Hirnnerv und teilt sich am Ganglion trigeminale in drei Äste: ophthalmicus (V1), maxillaris (V2) und mandibularis (V3).",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Vordere Seitenfläche der Pons (große sensible und kleine motorische Wurzel)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Ganglion trigeminale (Gasseri) – V1 durch die Fissura orbitalis superior, V2 durch das Foramen rotundum, V3 durch das Foramen ovale",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "V3: Kaumuskeln (M. masseter, M. temporalis, Mm. pterygoidei), M. mylohyoideus, Venter anterior des M. digastricus, M. tensor tympani, M. tensor veli palatini",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Gesichtshaut, Auge (Hornhaut), Nasen- und Mundschleimhaut, Zähne, allgemeine Sensibilität der vorderen zwei Drittel der Zunge, Dura mater",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [
+    [
+     "Sensible Versorgungsgebiete der Äste",
+     "V1: Stirn, Oberlid, Nasenrücken, Hornhaut; V2: Unterlid, Wange, Oberlippe, Oberkieferzähne, Gaumen; V3: Unterlippe, Kinn, Teil der Schläfe, Unterkieferzähne, vordere zwei Drittel der Zunge (allgemeine Sensibilität)."
+    ]
+   ],
+   "clinical": [
+    "Trigeminusneuralgie: sekundenlange, elektrisierende heftige Schmerzattacken, meist im Gebiet von V2–V3.",
+    "Die Gürtelrose (Zoster ophthalmicus) verursacht einen Ausschlag im V1-Gebiet; ein Befall der Nasenspitze (Hutchinson-Zeichen) spricht für eine Augenbeteiligung.",
+    "V1 ist der afferente Schenkel des Kornealreflexes."
+   ],
+   "tus": [
+    "Das Ganglion trigeminale (Gasseri) liegt im Cavum trigeminale (Meckel-Höhle).",
+    "Die Trigeminusneuralgie betrifft meist die Gebiete von V2 und V3 und wird oft durch ein Gefäß verursacht, das auf die Nervenwurzel drückt."
+   ],
+   "related": [
+    "m-masseter",
+    "m-temporalis",
+    "mm-pterygoidei",
+    "pons",
+    "dentes"
+   ],
+   "models": [
+    "Trigeminal nerve (V)",
+    "Ophthalmic nerve",
+    "Maxillary nerve",
+    "Mandibular nerve"
+   ],
+   "aliases": [
+    "Trigeminus",
+    "V. Hirnnerv",
+    "ophthalmicus",
+    "maxillaris",
+    "mandibularis"
+   ]
+  },
+  {
+   "id": "n-abducens",
+   "tr": "N. abducens (VI)",
+   "la": "N. abducens (VI)",
+   "en": "Abducens nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der motorische Hirnnerv des M. rectus lateralis, der das Auge nach außen dreht.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Furche zwischen Pons und Medulla oblongata",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Langer Verlauf am Clivus entlang, zieht durch den Sinus cavernosus (neben der A. carotis interna) und tritt durch die Fissura orbitalis superior ein",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. rectus lateralis",
+     "Motorisch (efferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei erhöhtem Hirndruck kann er über dem Clivus gedehnt werden und eine „falsch lokalisierende“ Parese verursachen.",
+    "Bei einer Parese weicht das Auge nach innen ab, mit horizontalen Doppelbildern beim Blick nach außen."
+   ],
+   "tus": [
+    "Bei erhöhtem Hirndruck führt der lange intrakranielle Verlauf des N. abducens zu einer „falsch lokalisierenden“ Parese."
+   ],
+   "related": [
+    "mm-bulbi",
+    "pons",
+    "n-oculomotorius"
+   ],
+   "models": [
+    "Abducens nerve (VI)"
+   ],
+   "aliases": [
+    "Abduzens",
+    "VI. Hirnnerv"
+   ]
+  },
+  {
+   "id": "n-facialis",
+   "tr": "N. facialis (VII)",
+   "la": "N. facialis (VII)",
+   "en": "Facial nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der motorische Nerv der mimischen Muskulatur; er leitet außerdem den Geschmack der vorderen zwei Drittel der Zunge und gibt parasympathische Fasern an Tränen- und Speicheldrüsen ab.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Kleinhirnbrückenwinkel an der Pons-Medulla-Grenze (motorische Wurzel und N. intermedius)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Meatus acusticus internus → Canalis facialis (Schläfenbein; Ganglion geniculi) → Foramen stylomastoideum → teilt sich in der Ohrspeicheldrüse in fünf Endäste",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "Mimische Muskulatur, M. stapedius, Venter posterior des M. digastricus, M. stylohyoideus; parasympathisch: Tränendrüse (N. petrosus major), Glandula submandibularis und sublingualis (Chorda tympani)",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Geschmack der vorderen zwei Drittel der Zunge (Chorda tympani), Haut eines Teils des äußeren Ohrs",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [
+    [
+     "Endäste",
+     "In der Parotis: Rr. temporales, zygomatici, buccales, R. marginalis mandibulae und R. colli."
+    ]
+   ],
+   "clinical": [
+    "Fazialisparese (peripher, Bell-Parese): Lähmung der gesamten Gesichtshälfte – die Stirn runzelt nicht, das Auge schließt nicht, der Mundwinkel hängt; je nach Läsionshöhe Geschmacksverlust und Hyperakusis.",
+    "Bei einer zentralen Läsion bleibt die Stirn verschont, weil der Kernanteil für die Stirnmuskeln Fasern aus beiden Hemisphären erhält.",
+    "Bei der Operation von Parotistumoren müssen die Nervenäste geschont werden."
+   ],
+   "tus": [
+    "Äste des N. facialis von proximal nach distal: N. petrosus major, N. stapedius, Chorda tympani, dann die Gesichtsäste.",
+    "Das Ramsay-Hunt-Syndrom ist ein Zoster des Ganglion geniculi: Fazialisparese und Bläschen am Ohr."
+   ],
+   "related": [
+    "m-occipitofrontalis",
+    "m-orbicularis-oculi",
+    "glandula-parotidea",
+    "ossicula-auditus",
+    "pons"
+   ],
+   "models": [
+    "Facial nerve (VII)",
+    "Chorda tympani"
+   ],
+   "aliases": [
+    "Fazialis",
+    "VII. Hirnnerv",
+    "Fazialisparese"
+   ]
+  },
+  {
+   "id": "n-vestibulocochlearis",
+   "tr": "N. vestibulocochlearis (VIII)",
+   "la": "N. vestibulocochlearis (VIII)",
+   "en": "Vestibulocochlear nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der sensorische Hirnnerv, der Hör- und Gleichgewichtsinformation vom Innenohr zum Hirnstamm leitet; er besteht aus einem kochleären und einem vestibulären Anteil.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Pons-Medulla-Grenze (Kleinhirnbrückenwinkel)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Verläuft mit dem N. facialis im Meatus acusticus internus; im Innenohr erreicht er das Ganglion spirale (kochleär) und das Ganglion vestibulare",
+     "Verlauf"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Spezielle Sinnesqualitäten: Hören (Cochlea) und Gleichgewicht (Utriculus, Sacculus, Bogengänge)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ein Vestibularisschwannom (Akustikusneurinom) im Kleinhirnbrückenwinkel beginnt mit einseitiger Hörminderung, Tinnitus und Unsicherheit; beim Wachsen betrifft es den V. und VII. Hirnnerv.",
+    "Die Neuritis vestibularis verursacht plötzlichen heftigen Drehschwindel."
+   ],
+   "tus": [
+    "Bei der Schallempfindungsschwerhörigkeit lateralisiert der Weber-Versuch ins gesunde Ohr, der Rinne-Versuch ist positiv."
+   ],
+   "related": [
+    "auris-interna",
+    "pons",
+    "n-facialis"
+   ],
+   "models": [
+    "Vestibulocochlear nerve (VIII)",
+    "Cochlear nerve",
+    "Vestibular nerve"
+   ],
+   "aliases": [
+    "Hörnerv",
+    "VIII. Hirnnerv",
+    "Akustikus"
+   ]
+  },
+  {
+   "id": "n-glossopharyngeus",
+   "tr": "N. glossopharyngeus (IX)",
+   "la": "N. glossopharyngeus (IX)",
+   "en": "Glossopharyngeal nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Ein gemischter Hirnnerv, der Geschmack und allgemeine Sensibilität des hinteren Zungendrittels, die Sensibilität des Rachens und die parasympathische Versorgung der Ohrspeicheldrüse übernimmt.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Seitliche Furche der Medulla oblongata",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Tritt durch das Foramen jugulare aus und zieht am M. stylopharyngeus entlang nach vorn unten zur Zungenwurzel",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. stylopharyngeus; parasympathisch: über das Ganglion oticum zur Glandula parotidea",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Geschmack und allgemeine Sensibilität des hinteren Zungendrittels, Oropharynx, Tonsillen, Mittelohr, Sinus caroticus (Barorezeptor) und Glomus caroticum (Chemorezeptor)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Er bildet den afferenten Schenkel des Würgereflexes (efferent: N. vagus).",
+    "Bei der Glossopharyngeusneuralgie löst Schlucken Schmerzen in Rachen und Ohr aus."
+   ],
+   "tus": [
+    "Der einzige vom IX. Hirnnerv versorgte Muskel ist der M. stylopharyngeus; seine parasympathischen Fasern erreichen die Parotis über das Ganglion oticum.",
+    "Die Glossopharyngeusneuralgie ist ein durch Schlucken ausgelöster Schmerz an Zungengrund und Ohr."
+   ],
+   "related": [
+    "n-vagus",
+    "lingua",
+    "pharynx",
+    "glandula-parotidea"
+   ],
+   "models": [
+    "Glossopharyngeal nerve (IX)"
+   ],
+   "aliases": [
+    "Glossopharyngeus",
+    "IX. Hirnnerv"
+   ]
+  },
+  {
+   "id": "n-vagus",
+   "tr": "N. vagus (X)",
+   "la": "N. vagus (X)",
+   "en": "Vagus nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der Hirnnerv mit dem größten Verbreitungsgebiet; er versorgt die meisten Organe von Hals, Brust und Bauch parasympathisch. Außerdem innerviert er die Muskeln von Rachen und Kehlkopf.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Seitliche Furche der Medulla oblongata (Nucleus ambiguus, Nucleus dorsalis n. vagi, Nucleus tractus solitarii)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Tritt durch das Foramen jugulare aus; am Hals zieht er in der Karotisscheide mit A. carotis und V. jugularis interna abwärts; im Thorax bildet er den Plexus oesophageus und gelangt durch den Hiatus oesophageus in den Bauch (Truncus vagalis anterior und posterior)",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "Rachen- und Gaumenmuskeln (außer M. tensor veli palatini), alle Kehlkopfmuskeln (N. laryngeus recurrens und superior); parasympathisch: Herz, Lunge und Verdauungstrakt bis zu zwei Dritteln des Colon transversum",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Unterer Kehlkopf und Rachen, Teil des äußeren Gehörgangs, viszerale Sensibilität der Brust- und Bauchorgane; Geschmack aus der Umgebung der Epiglottis",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [
+    [
+     "N. laryngeus recurrens",
+     "Er schlingt sich rechts um die A. subclavia, links um den Aortenbogen, steigt in der Rinne zwischen Luft- und Speiseröhre auf und versorgt alle Kehlkopfmuskeln außer dem M. cricothyroideus."
+    ]
+   ],
+   "clinical": [
+    "Eine Schädigung des N. laryngeus recurrens (Thyreoidektomie, Aortenaneurysma, Lungentumor) verursacht Heiserkeit; eine beidseitige Schädigung Atemnot.",
+    "Bei einer Vagusläsion wird das Gaumensegel zur gesunden Seite gezogen und die Uvula weicht zur gesunden Seite ab.",
+    "Die vasovagale Synkope ist eine Ohnmacht durch Bradykardie und Blutdruckabfall infolge übermäßiger Vagusaktivität."
+   ],
+   "tus": [
+    "Vagusfasern zum Herzen wirken rechts stärker auf den Sinusknoten, links auf den AV-Knoten.",
+    "Der R. auricularis des Vagus (Arnold-Nerv) versorgt einen Teil des äußeren Gehörgangs; beim Ohrreinigen kann ein Hustenreflex auftreten."
+   ],
+   "related": [
+    "medulla-oblongata",
+    "larynx",
+    "cor",
+    "oesophagus",
+    "truncus-sympathicus"
+   ],
+   "models": [
+    "Vagus nerve (X)"
+   ],
+   "aliases": [
+    "Vagus",
+    "X. Hirnnerv",
+    "Rekurrens"
+   ]
+  },
+  {
+   "id": "n-accessorius",
+   "tr": "N. accessorius (XI)",
+   "la": "N. accessorius (XI)",
+   "en": "Accessory nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der motorische Hirnnerv des M. sternocleidomastoideus und des M. trapezius.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Seine spinalen Wurzeln stammen aus dem Vorderhorn der Rückenmarksegmente C1–C5; er tritt durch das Foramen magnum in den Schädel ein",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Verlässt den Schädel durch das Foramen jugulare, durchbohrt den M. sternocleidomastoideus und zieht durch das seitliche Halsdreieck zum M. trapezius",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. sternocleidomastoideus, M. trapezius",
+     "Motorisch (efferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Da er im seitlichen Halsdreieck oberflächlich liegt, kann er bei Lymphknotenbiopsien verletzt werden; die Schulter hängt, das Schulterheben ist schwach."
+   ],
+   "tus": [
+    "Die spinale Wurzel des N. accessorius entspringt aus dem Vorderhorn von C1–C5, tritt durch das Foramen magnum in den Schädel und verlässt ihn durch das Foramen jugulare."
+   ],
+   "related": [
+    "m-sternocleidomastoideus",
+    "m-trapezius"
+   ],
+   "models": [
+    "Accessory nerve (XI)",
+    "Nucleus of accessory nerve"
+   ],
+   "aliases": [
+    "Akzessorius",
+    "XI. Hirnnerv"
+   ]
+  },
+  {
+   "id": "n-hypoglossus",
+   "tr": "N. hypoglossus (XII)",
+   "la": "N. hypoglossus (XII)",
+   "en": "Hypoglossal nerve",
+   "group": "Hirnnerven",
+   "region": "head",
+   "summary": "Der motorische Nerv der Zungenmuskulatur.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Medulla oblongata (Furche zwischen Pyramide und Olive)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Verlässt den Schädel durch den Canalis nervi hypoglossi, kreuzt die A. carotis externa und tritt an der Außenfläche des M. hyoglossus in die Zunge",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "Alle inneren Zungenmuskeln sowie M. genioglossus, M. hyoglossus und M. styloglossus (nicht M. palatoglossus)",
+     "Motorisch (efferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Bei einer einseitigen Läsion des unteren Motoneurons weicht die herausgestreckte Zunge zur gelähmten Seite ab, die Atrophie und Faszikulationen zeigt.",
+    "Er kann bei der Karotis-Endarteriektomie verletzt werden."
+   ],
+   "tus": [
+    "Der N. hypoglossus kreuzt die A. carotis externa und interna lateral; bei der Karotis-Endarteriektomie kann er verletzt werden."
+   ],
+   "related": [
+    "mm-linguae",
+    "lingua",
+    "medulla-oblongata"
+   ],
+   "models": [
+    "Hypoglossal nerve (XII)",
+    "Nucleus of hypoglossal nerve"
+   ],
+   "aliases": [
+    "Hypoglossus",
+    "XII. Hirnnerv"
+   ]
+  },
+  {
+   "id": "plexus-brachialis",
+   "tr": "Armgeflecht (Plexus brachialis)",
+   "la": "Plexus brachialis",
+   "en": "Brachial plexus",
+   "group": "Spinalnerven und Plexus",
+   "region": "upperLimb",
+   "summary": "Das aus den vorderen Ästen der Spinalnerven C5–T1 gebildete Nervengeflecht, das die gesamte motorische und sensible Versorgung der oberen Extremität übernimmt.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Rr. anteriores von C5, C6, C7, C8 und T1 (Wurzeln)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Wurzeln → Trunci (superior, medius, inferior; in der Skalenuslücke) → Divisionen (vordere/hintere; hinter dem Schlüsselbein) → Faszikel (lateralis, medialis, posterior; um die A. axillaris) → Endäste",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "Endäste: N. musculocutaneus, N. medianus, N. ulnaris, N. radialis und N. axillaris; außerdem N. dorsalis scapulae, N. thoracicus longus, N. suprascapularis, Nn. pectorales, Nn. subscapulares und N. thoracodorsalis",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Haut der oberen Extremität (N. cutaneus brachii und antebrachii medialis u. a.)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [
+    [
+     "Merkhilfe",
+     "Wurzeln–Trunci–Divisionen–Faszikel–Äste. Fasciculus lateralis: N. musculocutaneus und laterale Medianuswurzel; Fasciculus medialis: N. ulnaris und mediale Medianuswurzel; Fasciculus posterior: N. axillaris und N. radialis."
+    ]
+   ],
+   "clinical": [
+    "Obere Plexuslähmung nach Erb-Duchenne (Truncus superior, C5–C6): durch gewaltsames Auseinanderziehen von Kopf und Schulter (Geburt, Motorradunfall) – der Arm hängt innenrotiert am Körper, der Unterarm proniert („Kellnertrinkgeld-Stellung“).",
+    "Untere Plexuslähmung nach Klumpke (Truncus inferior, C8–T1): durch plötzlichen Zug des Arms nach oben – Krallenhand, eventuell mit Horner-Syndrom.",
+    "Plexusblockaden (interskalenär, supraklavikulär, axillär) werden in der Armchirurgie eingesetzt."
+   ],
+   "tus": [
+    "Wurzeln (C5–T1) und Trunci des Plexus brachialis liegen im seitlichen Halsdreieck, die Faszikel in der Achselhöhle.",
+    "Bei einem Wurzelausriss sprechen Horner-Syndrom (T1) und Beteiligung von N. dorsalis scapulae und N. thoracicus longus für eine präganglionäre Läsion."
+   ],
+   "related": [
+    "n-medianus",
+    "n-ulnaris",
+    "n-radialis",
+    "n-musculocutaneus",
+    "n-axillaris",
+    "mm-scaleni",
+    "a-axillaris"
+   ],
+   "models": [
+    "Brachial plexus",
+    "Long thoracic nerve",
+    "Dorsal scapular nerve",
+    "Suprascapular nerve",
+    "Thoracodorsal nerve",
+    "Lateral pectoral nerve",
+    "Medial pectoral nerve"
+   ],
+   "aliases": [
+    "Armplexus",
+    "Plexus brachialis"
+   ]
+  },
+  {
+   "id": "n-musculocutaneus",
+   "tr": "N. musculocutaneus",
+   "la": "N. musculocutaneus",
+   "en": "Musculocutaneous nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "upperLimb",
+   "summary": "Der Nerv der Beugemuskeln in der vorderen Loge des Oberarms; er versorgt außerdem die Haut an der Außenseite des Unterarms.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus lateralis (C5–C7)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Durchbohrt den M. coracobrachialis und zieht zwischen M. biceps und M. brachialis abwärts; am Ellenbogen setzt er sich als N. cutaneus antebrachii lateralis fort",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. coracobrachialis, M. biceps brachii, M. brachialis",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Haut der Außenseite des Unterarms",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine isolierte Verletzung ist selten; Ellenbogenbeugung und Supination sind abgeschwächt, der Bizepsreflex fehlt."
+   ],
+   "tus": [
+    "Bei einer Musculocutaneus-Läsion bleibt die Ellenbogenbeugung durch den M. brachioradialis teilweise erhalten; der Bizepsreflex fehlt, an der Unterarmaußenseite besteht ein Sensibilitätsverlust."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-biceps-brachii",
+    "m-brachialis"
+   ],
+   "models": [
+    "Musculocutaneous nerve",
+    "Lateral antebrachial cutaneous nerve"
+   ],
+   "aliases": [
+    "Musculocutaneus"
+   ]
+  },
+  {
+   "id": "n-axillaris",
+   "tr": "N. axillaris",
+   "la": "N. axillaris",
+   "en": "Axillary nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "upperLimb",
+   "summary": "Der Nerv des M. deltoideus und des M. teres minor; er versorgt außerdem die Haut an der Außenseite der Schulter.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus posterior (C5–C6)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Zieht mit der A. circumflexa humeri posterior durch die laterale Achsellücke und umschlingt das Collum chirurgicum des Humerus",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. deltoideus, M. teres minor",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Haut an der Außenseite der Schulter (N. cutaneus brachii lateralis superior – „Uniform-Abzeichen-Feld“)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Er wird bei Frakturen des Collum chirurgicum und bei Schulterluxationen verletzt: die Armabduktion ist schwach, der Deltamuskel atrophiert und an der Schulteraußenseite fehlt die Sensibilität."
+   ],
+   "tus": [
+    "Der sensible Ast des N. axillaris ist der N. cutaneus brachii lateralis superior (Areal des „Ärmelabzeichens“)."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-deltoideus",
+    "m-teres-minor",
+    "humerus"
+   ],
+   "models": [
+    "Axillary nerve"
+   ],
+   "aliases": [
+    "Axillaris"
+   ]
+  },
+  {
+   "id": "n-radialis",
+   "tr": "N. radialis",
+   "la": "N. radialis",
+   "en": "Radial nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "upperLimb",
+   "summary": "Der größte Ast des Plexus brachialis; er versorgt alle Strecker in den hinteren Logen von Ober- und Unterarm.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus posterior (C5–T1)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Windet sich mit der A. profunda brachii im Sulcus nervi radialis um die Rückseite des Humerus; vor dem Ellenbogen teilt er sich in einen oberflächlichen (sensiblen) und einen tiefen (motorischen; N. interosseus posterior) Ast",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. triceps brachii, M. anconeus, M. brachioradialis, Hand- und Fingerstrecker, M. supinator, lange Daumenmuskeln",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Rückseite von Ober- und Unterarm, laterale (radiale) Hälfte des Handrückens (erster Zwischenfingerraum)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Humerusschaftfraktur oder längerer Druck auf den Arm („Parkbanklähmung“) führt zur Fallhand.",
+    "Eine Schädigung des N. interosseus posterior verursacht eine Fallfinger ohne Sensibilitätsausfall.",
+    "Falscher Gebrauch von Unterarmgehstützen kann den Nerv in der Achsel drücken."
+   ],
+   "tus": [
+    "Der N. radialis versorgt alle Strecker von Ober- und Unterarm; sein oberflächlicher Ast leitet die Sensibilität der lateralen Handrückenhälfte.",
+    "Parkbanklähmung: Druck im Sulcus nervi radialis, wenn der Arm lange über einer Stuhlkante liegt."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-triceps-brachii",
+    "humerus",
+    "m-extensor-digitorum",
+    "m-supinator"
+   ],
+   "models": [
+    "Radial nerve"
+   ],
+   "aliases": [
+    "Radialis"
+   ]
+  },
+  {
+   "id": "n-medianus",
+   "tr": "N. medianus",
+   "la": "N. medianus",
+   "en": "Median nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "upperLimb",
+   "summary": "Der Nerv der meisten Unterarmbeuger und der Daumenballenmuskeln und der einzige Nerv im Karpaltunnel. Er gilt als „Auge der Hand“, weil er für feine Fingerbewegungen und die Sensibilität der Fingerkuppen unentbehrlich ist.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Zwei Wurzeln aus dem Fasciculus lateralis und medialis (C5–T1)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Zieht am Oberarm neben der A. brachialis und liegt in der Ellenbeuge medial von ihr; tritt zwischen den beiden Köpfen des M. pronator teres hindurch, zieht zwischen FDS und FDP abwärts und gelangt durch den Karpaltunnel zur Hand",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "Unterarmbeuger (außer FCU und ulnarer Hälfte des FDP), M. pronator teres und quadratus; an der Hand: 1.–2. Mm. lumbricales, M. opponens pollicis, M. abductor pollicis brevis, M. flexor pollicis brevis",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Radiale Hälfte der Handfläche, Beugeseite von Daumen, Zeige-, Mittelfinger und radialer Hälfte des Ringfingers sowie die Rückseite ihrer Endglieder",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Das Karpaltunnelsyndrom ist das häufigste Engpasssyndrom: nächtliche Kribbelparästhesien, positives Tinel- und Phalen-Zeichen, im Spätstadium Thenaratrophie.",
+    "Eine Läsion oberhalb des Ellenbogens führt zur „Schwurhand“ (Zeige- und Mittelfinger können nicht gebeugt werden).",
+    "Bei Schnittverletzungen am Handgelenk (Suizidversuch) kann er wegen seiner oberflächlichen Lage verletzt werden."
+   ],
+   "tus": [
+    "Der N. medianus ist der Nerv für „Hand und Auge“: Thenarmuskeln, 1.–2. Lumbrikalmuskeln und die palmare Sensibilität der radialen dreieinhalb Finger.",
+    "Eine Schädigung am Ellenbogen führt zur „Schwurhand“ (Zeige- und Mittelfinger können nicht gebeugt werden)."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "ossa-carpi",
+    "mm-thenares",
+    "m-flexor-digitorum-superficialis",
+    "m-pronator-teres"
+   ],
+   "models": [
+    "Median nerve",
+    "Anterior interosseous nerve of forearm"
+   ],
+   "aliases": [
+    "Medianus",
+    "Karpaltunnel"
+   ]
+  },
+  {
+   "id": "n-ulnaris",
+   "tr": "N. ulnaris",
+   "la": "N. ulnaris",
+   "en": "Ulnar nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "upperLimb",
+   "summary": "Der Nerv der meisten kleinen Handmuskeln, der außerdem die ulnare (Kleinfinger-)Seite der Hand sensibel versorgt. Da er am Ellenbogen direkt unter der Haut liegt, verursacht ein Stoß dort das „Musikantenknochen“-Gefühl.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fasciculus medialis (C8–T1)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Zieht an der Innenseite des Oberarms abwärts, durch die Rinne hinter dem Epicondylus medialis, tritt zwischen den beiden Köpfen des FCU in den Unterarm und erreicht die Hand am Handgelenk durch die Loge de Guyon",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. flexor carpi ulnaris, ulnare Hälfte des FDP; an der Hand Hypothenarmuskeln, 3.–4. Mm. lumbricales, alle Mm. interossei, M. adductor pollicis, Caput profundum des FPB",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Ulnare Seite der Hand: Kleinfinger und ulnare Hälfte des Ringfingers",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Er kann am Ellenbogen (Kubitaltunnel) oder am Handgelenk (Loge de Guyon) eingeengt werden.",
+    "Eine Schädigung verursacht eine Krallenhand (4.–5. Finger), eine Atrophie der Mm. interossei und ein positives Froment-Zeichen.",
+    "Bei Frakturen des Epicondylus medialis kann er verletzt werden."
+   ],
+   "tus": [
+    "Der N. ulnaris ist der Nerv der Feinmotorik der Hand: Hypothenarmuskeln, Mm. interossei, 3.–4. Lumbrikalmuskeln, M. adductor pollicis.",
+    "Er leitet die palmare und dorsale Sensibilität der ulnaren eineinhalb Finger."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-flexor-carpi-ulnaris",
+    "mm-interossei-manus",
+    "mm-hypothenares",
+    "os-pisiforme"
+   ],
+   "models": [
+    "Ulnar nerve"
+   ],
+   "aliases": [
+    "Ulnaris",
+    "Musikantenknochen"
+   ]
+  },
+  {
+   "id": "n-phrenicus",
+   "tr": "N. phrenicus",
+   "la": "N. phrenicus",
+   "en": "Phrenic nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "thorax",
+   "summary": "Der einzige motorische Nerv des Zwerchfells. Er zieht vom Hals durch den Brustkorb zum Zwerchfell und leitet die Sensibilität von Herzbeutel, mediastinaler Pleura und Zwerchfellpleura bzw. -peritoneum.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus cervicalis – C3, C4, C5 (vorwiegend C4)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Zieht auf dem M. scalenus anterior abwärts, tritt zwischen A. und V. subclavia in den Thorax und verläuft an der Seite des Perikards vor der Lungenwurzel zum Zwerchfell",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "Zwerchfell (Diaphragma)",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Perikard, mediastinale und diaphragmale Pleura, diaphragmales Peritoneum (zentraler Teil)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Reizung unter dem Zwerchfell (Gallenblase, Milz) verursacht in die Dermatome C3–C5, also in die Schulter, projizierte Schmerzen.",
+    "Nach einer Schädigung steht das gleichseitige Zwerchfell hoch und bewegt sich paradox."
+   ],
+   "tus": [
+    "Der rechte N. phrenicus zieht neben der V. cava superior und dem rechten Vorhof, der linke über das Perikard der linken Kammer.",
+    "Ein N. phrenicus accessorius (meist aus dem N. subclavius) kann die Zwerchfellfunktion nach Phrenikusschädigung teilweise erhalten."
+   ],
+   "related": [
+    "diaphragma",
+    "mm-scaleni",
+    "cor"
+   ],
+   "models": [
+    "Phrenic nerve"
+   ],
+   "aliases": [
+    "Phrenikus",
+    "Zwerchfellnerv"
+   ]
+  },
+  {
+   "id": "n-intercostales",
+   "tr": "Interkostalnerven",
+   "la": "Nn. intercostales",
+   "en": "Intercostal nerves",
+   "group": "Spinalnerven und Plexus",
+   "region": "thorax",
+   "summary": "Die vorderen Äste der Spinalnerven T1–T11; sie versorgen Muskeln und Haut von Brustkorb und Bauchwand. Der vordere Ast von T12 heißt N. subcostalis.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Rr. anteriores der Spinalnerven T1–T11",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Verlaufen im Sulcus costae am Unterrand jeder Rippe unterhalb von Interkostalarterie und -vene (VAN); die unteren sechs ziehen weiter in die Bauchwand",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "Mm. intercostales, Muskeln der vorderen Bauchwand (T7–T12), M. serratus posterior",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Haut von Brust und Bauchwand (Dermatome: T4 Brustwarze, T10 Nabel)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Gürtelrose (Herpes zoster) verursacht einen schmerzhaften bandförmigen Ausschlag entlang eines Interkostalnervs.",
+    "Bei Rippenfrakturen lindert eine Interkostalblockade die Schmerzen."
+   ],
+   "tus": [
+    "Der größte Teil des ersten Interkostalnervs schließt sich dem Plexus brachialis an; der zweite gibt den N. intercostobrachialis ab (Oberarminnenseite).",
+    "Die Interkostalnerven 7–11 versorgen die Bauchwand (thorakoabdominale Nerven)."
+   ],
+   "related": [
+    "mm-intercostales",
+    "costae",
+    "medulla-spinalis"
+   ],
+   "models": [
+    "Intercostal nerves",
+    "Thoracic nerves"
+   ],
+   "aliases": [
+    "Interkostalnerv"
+   ]
+  },
+  {
+   "id": "plexus-lumbalis",
+   "tr": "Lendengeflecht (Plexus lumbalis)",
+   "la": "Plexus lumbalis",
+   "en": "Lumbar plexus",
+   "group": "Spinalnerven und Plexus",
+   "region": "abdomen",
+   "summary": "Das im M. psoas major aus den vorderen Ästen der Spinalnerven L1–L4 gebildete Nervengeflecht; es versorgt die untere Bauchwand, die Leiste und die Vorder- und Innenseite des Oberschenkels.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "T12 (Beitrag), Rr. anteriores von L1–L4",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Entsteht im M. psoas major; seine Äste treten am lateralen Rand des Muskels (N. iliohypogastricus, N. ilioinguinalis, N. cutaneus femoris lateralis, N. femoralis), an seiner Vorderfläche (N. genitofemoralis) und an seinem medialen Rand (N. obturatorius) aus",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "N. femoralis (vordere Oberschenkelmuskeln), N. obturatorius (Adduktoren), N. iliohypogastricus und N. ilioinguinalis (untere Bauchwand)",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Leiste, vorderer Genitalbereich, Vorder-, Innen- und Außenseite des Oberschenkels",
+     "Sensibel (afferent)"
+    ],
+    [
+     "Dalları",
+     "N. iliohypogastricus (L1), N. ilioinguinalis (L1), N. genitofemoralis (L1–L2), N. cutaneus femoris lateralis (L2–L3), N. femoralis (L2–L4), N. obturatorius (L2–L4)",
+     "Äste"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Wird der N. ilioinguinalis bei einer Leistenbruchoperation verletzt, entsteht ein Taubheitsgefühl in Leiste und Skrotum/großer Schamlippe.",
+    "Der Kremasterreflex prüft die Segmente L1–L2 (N. genitofemoralis)."
+   ],
+   "tus": [
+    "Der Plexus lumbalis entsteht im M. psoas major; seine Äste treten am lateralen Rand (N. femoralis, N. cutaneus femoris lateralis), am medialen Rand (N. obturatorius) und an der Vorderfläche (N. genitofemoralis) aus."
+   ],
+   "related": [
+    "n-femoralis",
+    "n-obturatorius",
+    "m-iliopsoas",
+    "plexus-sacralis"
+   ],
+   "models": [
+    "Lumbar plexus",
+    "Iliohypogastric nerve",
+    "Ilio-inguinal nerve",
+    "Genitofemoral nerve",
+    "Lateral femoral cutaneous nerve"
+   ],
+   "aliases": [
+    "Lendenplexus",
+    "Plexus lumbalis"
+   ]
+  },
+  {
+   "id": "n-femoralis",
+   "tr": "N. femoralis",
+   "la": "N. femoralis",
+   "en": "Femoral nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "lowerLimb",
+   "summary": "Der größte Ast des Plexus lumbalis; er versorgt die Muskeln der vorderen Oberschenkelloge (Quadrizeps) und die Haut an der Vorderseite des Oberschenkels und der Innenseite des Unterschenkels.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus lumbalis (hintere Divisionen von L2–L4)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Zieht in der Rinne zwischen M. psoas und M. iliacus abwärts, unter dem Leistenband (Lacuna musculorum) ins Trigonum femorale und teilt sich sofort in seine Äste; sein langer sensibler Ast, der N. saphenus, zieht mit der V. saphena magna an der Innenseite des Unterschenkels abwärts",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. iliacus, M. pectineus, M. sartorius, M. quadriceps femoris",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Vorderseite des Oberschenkels; über den N. saphenus Innenrand von Unterschenkel und Fuß",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Nach einer Schädigung fallen die Kniestreckung und der Patellarsehnenreflex aus, die Oberschenkelvorderseite ist taub.",
+    "Die Femoralisblockade wird zur Schmerztherapie bei Hüft- und Knieoperationen eingesetzt."
+   ],
+   "tus": [
+    "Der N. femoralis tritt durch die Lacuna musculorum lateral der Gefäße in den Oberschenkel; er liegt außerhalb der Gefäßscheide."
+   ],
+   "related": [
+    "plexus-lumbalis",
+    "m-quadriceps-femoris",
+    "m-sartorius",
+    "lig-inguinale",
+    "a-femoralis"
+   ],
+   "models": [
+    "Femoral nerve",
+    "Saphenous nerve"
+   ],
+   "aliases": [
+    "Femoralis",
+    "Saphenus"
+   ]
+  },
+  {
+   "id": "n-obturatorius",
+   "tr": "N. obturatorius",
+   "la": "N. obturatorius",
+   "en": "Obturator nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "lowerLimb",
+   "summary": "Der Nerv der Muskeln der medialen (Adduktoren-)Loge des Oberschenkels.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus lumbalis (vordere Divisionen von L2–L4)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Tritt am medialen Rand des M. psoas aus, zieht an der seitlichen Beckenwand abwärts und durch den Canalis obturatorius in den Oberschenkel, wo er sich in einen vorderen und einen hinteren Ast teilt",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. adductor longus, brevis und magnus (Adduktorenanteil), M. gracilis, M. obturatorius externus",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Mittlerer Teil der Innenseite des Oberschenkels",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Beckenoperationen oder eine Hernia obturatoria können den Nerv komprimieren und Schmerzen an der Oberschenkelinnenseite verursachen (Howship-Romberg-Zeichen)."
+   ],
+   "tus": [
+    "Das Ovar liegt in der Fossa ovarica an der seitlichen Beckenwand neben dem N. obturatorius; das erklärt bei Ovarerkrankungen Schmerzen, die in die Oberschenkelinnenseite ausstrahlen."
+   ],
+   "related": [
+    "plexus-lumbalis",
+    "mm-adductores",
+    "m-gracilis"
+   ],
+   "models": [
+    "Obturator nerve"
+   ],
+   "aliases": [
+    "Obturatorius"
+   ]
+  },
+  {
+   "id": "plexus-sacralis",
+   "tr": "Kreuzbeingeflecht (Plexus sacralis)",
+   "la": "Plexus sacralis",
+   "en": "Sacral plexus",
+   "group": "Spinalnerven und Plexus",
+   "region": "pelvis",
+   "summary": "Das an der hinteren Beckenwand (vor dem M. piriformis) aus den vorderen Ästen von L4–S4 gebildete Nervengeflecht; es versorgt Gesäß, Oberschenkelrückseite, Unterschenkel, Fuß und Damm.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Truncus lumbosacralis (L4–L5) und Rr. anteriores von S1–S4",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Entsteht auf der Vorderfläche des M. piriformis; die meisten Äste verlassen das Becken durch das Foramen ischiadicum majus",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "N. ischiadicus, N. gluteus superior und inferior, N. pudendus, Nerven zum M. piriformis, M. obturatorius internus und M. quadratus femoris",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "N. cutaneus femoris posterior (Oberschenkelrückseite), N. pudendus (Damm)",
+     "Sensibel (afferent)"
+    ],
+    [
+     "Dalları",
+     "N. gluteus superior (L4–S1), N. gluteus inferior (L5–S2), N. ischiadicus (L4–S3), N. cutaneus femoris posterior (S1–S3), N. pudendus (S2–S4)",
+     "Äste"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "tus": [
+    "Der Plexus sacralis entsteht auf der Vorderfläche des M. piriformis aus den ventralen Ästen von L4–S4 (einschließlich Truncus lumbosacralis)."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "n-pudendus",
+    "mm-rotatores-coxae",
+    "plexus-lumbalis"
+   ],
+   "models": [
+    "Sacral plexus",
+    "Lumbosacral plexus",
+    "Superior gluteal nerve",
+    "Posterior femoral cutaneous nerve",
+    "Nerve to piriformis muscle",
+    "Nerve to quadratus femoris muscle"
+   ],
+   "aliases": [
+    "Sakralplexus",
+    "Plexus sacralis"
+   ]
+  },
+  {
+   "id": "n-ischiadicus",
+   "tr": "Ischiasnerv (N. ischiadicus)",
+   "la": "N. ischiadicus",
+   "en": "Sciatic nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "lowerLimb",
+   "summary": "Der dickste und längste Nerv des Körpers. Er versorgt die Muskeln der Oberschenkelrückseite und alle Muskeln unterhalb des Knies.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus sacralis (L4–S3)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Verlässt das Becken durch das Foramen ischiadicum majus unterhalb des M. piriformis, zieht unter dem M. gluteus maximus zwischen Trochanter major und Tuber ischiadicum abwärts, an der Oberschenkelrückseite unter den ischiokruralen Muskeln, und teilt sich meist oberhalb der Kniekehle in N. tibialis und N. fibularis communis",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "Ischiokrurale Muskeln (M. biceps femoris, M. semitendinosus, M. semimembranosus), ischiokruraler Anteil des M. adductor magnus; über seine Äste alle Muskeln von Unterschenkel und Fuß",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Über seine Äste der größte Teil der Haut von Unterschenkel und Fuß (außer dem Innenrand – N. saphenus)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ischialgie: vom Gesäß ins Bein ausstrahlender Schmerz, meist durch einen Bandscheibenvorfall L4–L5 oder L5–S1; das Lasègue-Zeichen ist positiv.",
+    "Fehlerhafte Injektionen in den unteren inneren Quadranten des Gesäßes können den Nerv schädigen.",
+    "Bei der hinteren Hüftluxation kann er verletzt werden."
+   ],
+   "tus": [
+    "Der N. ischiadicus besteht eigentlich aus zwei Nerven in einer gemeinsamen Hülle: tibialer und fibularer Anteil.",
+    "Bei einer Ischiadikusläsion sind Kniebeugung und alle Muskeln unterhalb des Knies betroffen; die Sensibilität der Oberschenkelinnenseite (N. obturatorius) und der Unterschenkelinnenseite (N. saphenus) bleibt erhalten."
+   ],
+   "related": [
+    "plexus-sacralis",
+    "n-tibialis",
+    "n-fibularis-communis",
+    "mm-ischiocrurales",
+    "mm-rotatores-coxae"
+   ],
+   "models": [
+    "Sciatic nerve"
+   ],
+   "aliases": [
+    "Ischiasnerv",
+    "Ischiadikus"
+   ]
+  },
+  {
+   "id": "n-tibialis",
+   "tr": "N. tibialis",
+   "la": "N. tibialis",
+   "en": "Tibial nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "lowerLimb",
+   "summary": "Der größere Endast des N. ischiadicus; er versorgt die Muskeln der hinteren Unterschenkelloge und alle Muskeln der Fußsohle.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "N. ischiadicus (L4–S3)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Zieht in der Mitte der Kniekehle oberflächlich der A. poplitea abwärts, unter dem M. soleus an die Rückseite des Unterschenkels und teilt sich hinter dem Innenknöchel (Tarsaltunnel) in N. plantaris medialis und lateralis",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. gastrocnemius, M. soleus, M. plantaris, M. popliteus, M. tibialis posterior, M. flexor digitorum longus, M. flexor hallucis longus; über die Plantarnerven alle Fußsohlenmuskeln",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Der N. suralis (gemeinsam mit dem N. fibularis) versorgt die hintere Außenseite des Unterschenkels und den Außenrand des Fußes, die Plantarnerven die Fußsohle",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Beim Tarsaltunnelsyndrom brennt und kribbelt die Fußsohle.",
+    "Nach einer Schädigung fallen Plantarflexion und Zehenbeugung aus, der Zehenstand ist nicht möglich; der Fuß steht in Dorsalextension und Eversion (Hackenfuß).",
+    "Der Achillessehnenreflex (S1) verläuft über diesen Nerv."
+   ],
+   "tus": [
+    "Der N. tibialis liegt in der Kniekehle oberflächlich; er gibt die mediale Wurzel des N. suralis ab."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "m-triceps-surae",
+    "m-tibialis-posterior",
+    "mm-plantares"
+   ],
+   "models": [
+    "Tibial nerve",
+    "Medial plantar nerve",
+    "Lateral plantar nerve",
+    "Sural nerve",
+    "Medial sural cutaneous nerve"
+   ],
+   "aliases": [
+    "Tibialis",
+    "Plantarnerv",
+    "Suralis"
+   ]
+  },
+  {
+   "id": "n-fibularis-communis",
+   "tr": "N. fibularis communis (N. peroneus communis)",
+   "la": "N. fibularis (peroneus) communis",
+   "en": "Common fibular nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "lowerLimb",
+   "summary": "Der kleinere Endast des N. ischiadicus; er versorgt die Muskeln der vorderen und seitlichen Unterschenkelloge. Weil er das Collum fibulae oberflächlich unter der Haut umschlingt, ist er der am häufigsten verletzte Nerv der unteren Extremität.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "N. ischiadicus (L4–S2)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Folgt der Sehne des M. biceps femoris am Außenrand der Kniekehle, umschlingt das Collum fibulae und teilt sich im M. fibularis longus in N. fibularis superficialis und profundus",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "N. fibularis superficialis: M. fibularis longus und brevis; N. fibularis profundus: M. tibialis anterior, M. extensor digitorum longus, M. extensor hallucis longus, M. fibularis tertius, Fußrückenmuskeln",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "N. fibularis superficialis: Vorderaußenseite des Unterschenkels und größter Teil des Fußrückens; N. fibularis profundus: Haut zwischen 1. und 2. Zehe",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Eine Fibulaköpfchenfraktur, ein enger Gips, Übereinanderschlagen der Beine oder langes Hocken führen zur Fußheberschwäche: Der Fuß kann weder gehoben noch evertiert werden, es entsteht ein Steppergang."
+   ],
+   "tus": [
+    "Der N. fibularis communis ist der am häufigsten verletzte Nerv der unteren Extremität (Collum fibulae).",
+    "Gewohnheitsmäßiges Übereinanderschlagen der Beine und enge Gipsverbände sind häufige Ursachen der Peroneusparese."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "fibula",
+    "m-tibialis-anterior",
+    "m-fibularis-longus"
+   ],
+   "models": [
+    "Common fibular nerve",
+    "Superficial fibular nerve",
+    "Deep fibular nerve"
+   ],
+   "aliases": [
+    "Peroneus",
+    "Fibularis",
+    "Fußheberschwäche"
+   ]
+  },
+  {
+   "id": "n-pudendus",
+   "tr": "N. pudendus",
+   "la": "N. pudendus",
+   "en": "Pudendal nerve",
+   "group": "Spinalnerven und Plexus",
+   "region": "pelvis",
+   "summary": "Der Hauptnerv des Damms; er versorgt die Haut der äußeren Geschlechtsorgane und des Damms sensibel sowie die Dammmuskeln und die äußeren Schließmuskeln motorisch.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexus sacralis (S2–S4)",
+     "Ursprung / Austritt"
+    ],
+    [
+     "Seyir",
+     "Verlässt das Becken durch das Foramen ischiadicum majus, umschlingt die Spina ischiadica (Lig. sacrospinale) und tritt durch das Foramen ischiadicum minus in den Damm; er verläuft im Canalis pudendalis (Alcock)",
+     "Verlauf"
+    ],
+    [
+     "Motor (efferent)",
+     "M. sphincter ani externus, M. sphincter urethrae externus, Dammmuskeln",
+     "Motorisch (efferent)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Haut des Damms, äußere Geschlechtsorgane (N. dorsalis penis/clitoridis)",
+     "Sensibel (afferent)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Unter der Geburt wird vor einer Episiotomie eine Pudendusblockade nahe der Spina ischiadica gesetzt.",
+    "Langes Radfahren kann den N. pudendus komprimieren (Pudendusneuralgie)."
+   ],
+   "tus": [
+    "Der N. pudendus entspringt aus S2–S4 und gibt N. rectalis inferior, N. perinealis und N. dorsalis penis/clitoridis ab.",
+    "Bei Radfahrern kann die Kompression des N. pudendus im Alcock-Kanal zu einem Taubheitsgefühl im Damm führen."
+   ],
+   "related": [
+    "plexus-sacralis",
+    "diaphragma-pelvis",
+    "ligg-pelvis"
+   ],
+   "models": [
+    "Pudendal nerve"
+   ],
+   "aliases": [
+    "Pudendus"
+   ]
+  },
+  {
+   "id": "truncus-sympathicus",
+   "tr": "Grenzstrang (Truncus sympathicus)",
+   "la": "Truncus sympathicus",
+   "en": "Sympathetic trunk",
+   "group": "Autonomes Nervensystem",
+   "region": "back",
+   "summary": "Eine Kette miteinander verbundener sympathischer Ganglien beiderseits der Wirbelsäule von der Schädelbasis bis zum Steißbein. Er ist die wichtigste Verteilerstruktur des Sympathikus, der die „Kampf-oder-Flucht“-Reaktion auslöst.",
+   "facts": [
+    [
+     "Ganglionlar",
+     "3 zervikale (superius, medium, cervicothoracicum/stellatum), 11–12 thorakale, 4–5 lumbale, 4–5 sakrale; unten das unpaare Ganglion impar",
+     "Ganglien"
+    ],
+    [
+     "Preganglionik lifler",
+     "Aus dem Seitenhorn der Rückenmarksegmente T1–L2 (thorakolumbaler Abfluss); sie erreichen den Grenzstrang über die Rr. communicantes albi",
+     "Präganglionäre Fasern"
+    ],
+    [
+     "Postganglionik lifler",
+     "Schließen sich über die Rr. communicantes grisei allen Spinalnerven an; weitere Äste ziehen zu Kopf, Herz und Lunge",
+     "Postganglionäre Fasern"
+    ],
+    [
+     "Splanknik sinirler",
+     "N. splanchnicus major (T5–T9), minor (T10–T11) und imus (T12): zu den prävertebralen Ganglien (Ganglion coeliacum, mesenterica)",
+     "Nn. splanchnici"
+    ]
+   ],
+   "sections": [
+    [
+     "Sympathische Wirkungen",
+     "Die Pupille wird weit, Herzfrequenz und Kontraktionskraft steigen, die Bronchien erweitern sich, die Verdauung wird gebremst, Schweißdrüsen und Nebennierenmark werden angeregt, Haut- und Eingeweidegefäße verengen sich."
+    ]
+   ],
+   "clinical": [
+    "Horner-Syndrom (Schädigung des zervikalen Grenzstrangs – z. B. Pancoast-Tumor): gleichseitige Ptosis, Miosis und Anhidrose.",
+    "Eine Stellatumblockade kann bei Schmerzsyndromen des Arms eingesetzt werden."
+   ],
+   "tus": [
+    "Der zervikale Grenzstrang hat drei Ganglien: superius (Höhe C1–C4, das größte), medium (C6) und inferius (zum Ganglion stellatum verschmolzen).",
+    "Die Sympathektomie bei Hyperhidrose der Hände erfolgt auf Höhe T2–T3."
+   ],
+   "related": [
+    "systema-autonomicum",
+    "medulla-spinalis",
+    "n-vagus"
+   ],
+   "models": [
+    "Sympathetic trunk",
+    "Ganglia of sympathetic trunk",
+    "Sympathetic nerves",
+    "Thoracolumbar part of autonomic division"
+   ],
+   "aliases": [
+    "Sympathikus",
+    "Grenzstrang"
+   ]
+  },
+  {
+   "id": "systema-autonomicum",
+   "tr": "Autonomes (vegetatives) Nervensystem",
+   "la": "Pars autonomica systematis nervosi",
+   "en": "Autonomic nervous system",
+   "group": "Autonomes Nervensystem",
+   "region": "general",
+   "summary": "Der Teil des Nervensystems, der die unwillkürlichen Funktionen von Organen, Gefäßen und Drüsen regelt. Er besteht aus Sympathikus und Parasympathikus mit meist gegensätzlicher Wirkung und dem enterischen Nervensystem in der Darmwand.",
+   "facts": [
+    [
+     "Sempatik bölüm",
+     "Thorakolumbaler Abfluss (T1–L2); kurze präganglionäre und lange postganglionäre Fasern; Überträgerstoff meist Noradrenalin",
+     "Sympathikus"
+    ],
+    [
+     "Parasempatik bölüm",
+     "Kraniosakraler Abfluss (Hirnnerven III, VII, IX, X und S2–S4); lange präganglionäre und kurze postganglionäre Fasern; Überträgerstoff Acetylcholin",
+     "Parasympathikus"
+    ],
+    [
+     "Parasempatik ganglionlar (baş)",
+     "Ganglion ciliare (III), Ganglion pterygopalatinum und submandibulare (VII), Ganglion oticum (IX)",
+     "Parasympathische Ganglien (Kopf)"
+    ],
+    [
+     "Enterik sinir sistemi",
+     "Plexus myentericus (Auerbach) und submucosus (Meissner)",
+     "Enterisches Nervensystem"
+    ],
+    [
+     "Merkezi kontrol",
+     "Hypothalamus, autonome Zentren des Hirnstamms",
+     "Zentrale Steuerung"
+    ]
+   ],
+   "sections": [
+    [
+     "Parasympathische Wirkungen",
+     "„Ruhe und Verdauung“: Das Herz schlägt langsamer, die Pupille wird eng, Speichel- und Verdauungssekretion nehmen zu, die Darmbewegung wird angeregt und die Harnblase kontrahiert."
+    ]
+   ],
+   "clinical": [
+    "Die diabetische autonome Neuropathie verursacht orthostatische Hypotonie, Gastroparese und Blasenfunktionsstörungen.",
+    "Beim Morbus Hirschsprung fehlen in der Kolonwand die enterischen Ganglienzellen."
+   ],
+   "tus": [
+    "Parasympathische Ganglien liegen nahe oder in der Wand des Zielorgans, sympathische nahe der Wirbelsäule (kurze präganglionäre Fasern).",
+    "Alle präganglionären Fasern setzen Acetylcholin frei (nikotinische Rezeptoren)."
+   ],
+   "related": [
+    "truncus-sympathicus",
+    "n-vagus",
+    "hypothalamus",
+    "glandula-suprarenalis"
+   ],
+   "models": [
+    "Autonomic division of peripheral nervous system"
+   ],
+   "aliases": [
+    "autonom",
+    "Parasympathikus",
+    "vegetatives Nervensystem"
+   ]
+  },
+  {
+   "id": "ganglion-spinale",
+   "tr": "Spinalnerv und Spinalganglion",
+   "la": "Nervus spinalis et ganglion sensorium",
+   "en": "Spinal nerve and ganglion",
+   "group": "Spinalnerven und Plexus",
+   "region": "back",
+   "summary": "Gemischte Nerven, die im Foramen intervertebrale aus der Vereinigung der vorderen (motorischen) und hinteren (sensiblen) Wurzel des Rückenmarks entstehen. Das Ganglion der hinteren Wurzel enthält die Zellkörper der sensiblen Neurone.",
+   "facts": [
+    [
+     "Sayı",
+     "31 Paare: 8 zervikale, 12 thorakale, 5 lumbale, 5 sakrale, 1 kokzygeales",
+     "Anzahl"
+    ],
+    [
+     "Kökler",
+     "Radix anterior (motorisch, Vorderhorn) und Radix posterior (sensibel; Spinalganglion)",
+     "Wurzeln"
+    ],
+    [
+     "Dallar",
+     "R. anterior (bildet die Plexus und die Interkostalnerven), R. posterior (tiefe Rückenmuskeln und Rückenhaut), R. meningeus, Rr. communicantes",
+     "Äste"
+    ],
+    [
+     "Dermatom",
+     "Das von einem Spinalnerv versorgte Hautareal (z. B. C6 Daumen, T4 Brustwarze, T10 Nabel, L4 Knievorderseite, S1 Fußaußenrand)",
+     "Dermatom"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Die Radikulopathie umfasst Schmerz und Taubheit in einem Dermatom, Schwäche in einem Myotom und Reflexverlust durch Kompression einer einzelnen Nervenwurzel."
+   ],
+   "tus": [
+    "Das Spinalganglion liegt im Foramen intervertebrale; es kann durch Bandscheibenvorfall und Foramenstenose betroffen sein."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "plexus-brachialis",
+    "plexus-lumbalis",
+    "discus-intervertebralis"
+   ],
+   "models": [
+    "Spinal ganglion",
+    "Anterior root of spinal nerve",
+    "Posterior root of spinal nerve",
+    "Roots of nerves"
+   ],
+   "aliases": [
+    "Spinalnerv",
+    "Dermatom",
+    "Spinalganglion"
+   ]
+  }
+ ]
+}

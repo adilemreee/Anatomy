@@ -21,21 +21,24 @@ enum AnatomyMaterials {
 
     /// Materials for one entity. `occlusion` lowers the baked crease shading,
     /// which is useful when deep structures are shown on their own; `glass`
-    /// scales how much of a see-through part shows.
+    /// scales how much of a see-through part shows; `section` uses the
+    /// shader that can cut (see `sectioned`).
     /// RealityKit only allows this on the main thread.
-    static func make(occlusion: Float = 1, rim: Float = 0.35, glass: Float = 1, detail: TextureResource?,
-                     skin: TextureResource? = nil) -> [any RealityKit.Material] {
+    static func make(occlusion: Float = 1, rim: Float = 0.35, glass: Float = 1, section: Bool = false,
+                     detail: TextureResource?, skin: TextureResource? = nil) -> [any RealityKit.Material] {
         guard let library else { return fallback() }
         do {
-            let shader = CustomMaterial.SurfaceShader(named: "anatomySurface", in: library)
+            let shader = CustomMaterial.SurfaceShader(named: section ? "anatomySurfaceSection" : "anatomySurface", in: library)
             func material(_ values: SIMD4<Float>) throws -> CustomMaterial {
                 var m = try CustomMaterial(surfaceShader: shader, lightingModel: .clearcoat)
                 m.custom.value = values
+                m.metallic = .init(floatLiteral: 0)
                 if let detail { m.custom.texture = .init(detail) }
                 // Skin texture atlas, sampled where a vertex has texture coordinates.
                 if let skin { m.baseColor = .init(tint: .white, texture: .init(skin)) }
                 return m
             }
+            // The metallic scale carries the section plane (0: no cut).
             // w: 1 on devices that need the lighter surface detail (AnatomyScene.isLowPowerDevice).
             let lite: Float = AnatomyScene.isLowPowerDevice ? 1 : 0
             var solid = try material(SIMD4(0, occlusion, rim, lite))
@@ -54,6 +57,19 @@ enum AnatomyMaterials {
             return [solid, ghost, selected, highlighted]
         } catch {
             return fallback()
+        }
+    }
+
+    /// A `section: true` set cutting along `plane`: the shader reads the axis
+    /// from the metallic scale, the offset from the roughness scale (0…1 for
+    /// -1…2 m) and the side kept from the specular scale.
+    static func sectioned(_ set: [any RealityKit.Material], by plane: SectionPlane) -> [any RealityKit.Material] {
+        set.map { material in
+            guard var m = material as? CustomMaterial else { return material }
+            m.metallic = .init(floatLiteral: plane.axis.code)
+            m.roughness = .init(floatLiteral: (plane.offset + 1) / 3)
+            m.specular = .init(floatLiteral: plane.keepBelow ? 1 : 0)
+            return m
         }
     }
 
@@ -169,7 +185,7 @@ enum AnatomyMaterials {
 }
 
 extension AnatomyMaterials {
-    private static var cache: [SIMD3<Float>: [any RealityKit.Material]] = [:]
+    private static var cache: [SIMD4<Float>: [any RealityKit.Material]] = [:]
     private static var spotMaterial: (any RealityKit.Material)?
     private static var skinLoad: Task<TextureResource?, Never>?
 
@@ -210,13 +226,13 @@ extension AnatomyMaterials {
     /// Shared material sets. Compiling the surface shader blocks the main
     /// thread for over a second the first time, so callers await this after
     /// the first frame instead of building materials while views appear.
-    static func shared(occlusion: Float = 1, rim: Float = 0.35, glass: Float = 1) async -> [any RealityKit.Material] {
-        let key = SIMD3(occlusion, rim, glass)
+    static func shared(occlusion: Float = 1, rim: Float = 0.35, glass: Float = 1, section: Bool = false) async -> [any RealityKit.Material] {
+        let key = SIMD4(occlusion, rim, glass, section ? 1 : 0)
         if let cached = cache[key] { return cached }
         let detail = await DetailTexture.resource()
         let skin = await skinTexture()
         if let cached = cache[key] { return cached }
-        let materials = make(occlusion: occlusion, rim: rim, glass: glass, detail: detail, skin: skin)
+        let materials = make(occlusion: occlusion, rim: rim, glass: glass, section: section, detail: detail, skin: skin)
         cache[key] = materials
         return materials
     }

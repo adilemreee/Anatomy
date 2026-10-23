@@ -776,4 +776,6 @@ Q("t", OT, "Rami communicantes albi (ak bağlantı dalları) için aşağıdakil
   e=["truncus-sympathicus", "ganglion-spinale"]),
 ]
 
-write("nervous", questions)
+from q_nervous2 import questions as more  # noqa: E402
+
+write("nervous", questions + more)

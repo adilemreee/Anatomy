@@ -1,0 +1,271 @@
+{
+ "meninges": {
+  "tr": "Méninges",
+  "summary": "Les trois enveloppes protectrices de l'encéphale et de la moelle spinale : de dehors en dedans la dure-mère (membrane résistante), l'arachnoïde (membrane en toile d'araignée) et la pie-mère (membrane souple).",
+  "facts": [
+   "Membrane externe épaisse et fibreuse ; dans le crâne elle comporte deux feuillets entre lesquels se trouvent les sinus veineux. Replis : faux du cerveau, tente du cervelet, faux du cervelet, diaphragme sellaire",
+   "Membrane intermédiaire fine et avasculaire ; le LCS circule dans l'espace sous-arachnoïdien sous-jacent",
+   "Membrane interne vascularisée, étroitement accolée à la surface de l'encéphale et de la moelle ; au niveau de la moelle, elle forme les ligaments dentelés et le filum terminal",
+   "Épidural (virtuel dans le crâne, réel dans le rachis – graisse et veines), sous-dural (virtuel), sous-arachnoïdien (réel – LCS)",
+   "Dure-mère : branches du nerf trijumeau (fosses antérieure et moyenne), nerf vague et nerfs cervicaux supérieurs (fosse postérieure)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Hématome extradural : le plus souvent rupture de l'artère méningée moyenne ; aspect lenticulaire (biconvexe), « intervalle libre ».",
+   "Hématome sous-dural : rupture des veines ponts ; aspect en croissant, fréquent chez le sujet âgé et l'alcoolique.",
+   "Hémorragie méningée : le plus souvent rupture d'anévrisme ; « la pire céphalée de ma vie ».",
+   "Dans la méningite on observe une raideur de nuque et des signes de Kernig et de Brudzinski."
+  ],
+  "tus": [
+   "Dans le crâne, la dure-mère a deux feuillets, périosté externe et méningé interne ; les sinus veineux sont situés entre eux.",
+   "La faux du cerveau, la tente du cervelet, la faux du cervelet et le diaphragme sellaire sont des replis internes de la dure-mère."
+  ],
+  "aliases": [
+   "dure-mère",
+   "arachnoïde",
+   "pie-mère",
+   "méninge"
+  ]
+ },
+ "tractus-spinales": {
+  "tr": "Voies de la moelle spinale",
+  "summary": "Faisceaux de fibres nerveuses de la substance blanche de la moelle spinale qui transportent l'information entre l'encéphale et le corps : ascendants (sensitifs) et descendants (moteurs).",
+  "facts": [
+   "Faisceaux gracile et cunéiforme (cordons postérieurs – tact fin, vibration, position), faisceaux spinothalamiques latéral et antérieur (douleur, température, tact grossier), faisceaux spinocérébelleux antérieur et postérieur (proprioception inconsciente)",
+   "Faisceaux corticospinaux latéral et antérieur (motricité volontaire) ; faisceaux rubrospinal, vestibulospinal, réticulospinal et tectospinal (posture, réflexes et tonus)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Sclérose combinée de la moelle (carence en vitamine B12) : les cordons postérieurs et les faisceaux corticospinaux sont touchés.",
+   "Dans la syringomyélie, le canal central dilaté interrompt les fibres spinothalamiques qui se croisent : perte thermoalgique « en pèlerine »."
+  ],
+  "tus": [
+   "Le faisceau spinocérébelleux postérieur transporte l'information du même côté ; l'antérieur se croise deux fois et rejoint lui aussi le cervelet homolatéral.",
+   "Les faisceaux rubrospinal, réticulospinal, vestibulospinal et tectospinal sont des voies descendantes extrapyramidales."
+  ],
+  "aliases": [
+   "corticospinal",
+   "spinothalamique",
+   "cordons postérieurs"
+  ]
+ },
+ "n-olfactorius": {
+  "tr": "Nerf olfactif (I)",
+  "summary": "Le nerf crânien sensoriel de l'odorat, relié directement à l'extrémité antérieure du cerveau. Il est en fait formé de fins filets (fila olfactoria) issus des cellules olfactives du toit de la cavité nasale.",
+  "facts": [
+   "Cellules réceptrices olfactives de la muqueuse de la région olfactive (toit de la cavité nasale)",
+   "Traverse la lame criblée et se termine dans le bulbe olfactif ; la bandelette olfactive gagne le cortex olfactif (uncus, région de l'amygdale)",
+   "Sensibilité spéciale : odorat"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans les fractures de l'étage antérieur de la base du crâne, les filets peuvent être arrachés, entraînant une perte de l'odorat (anosmie).",
+   "La perte de l'odorat peut être un signe précoce des maladies de Parkinson et d'Alzheimer ; elle a aussi été fréquente au cours de la COVID-19."
+  ],
+  "tus": [
+   "Les neurones récepteurs olfactifs sont les seuls neurones renouvelés en permanence.",
+   "Syndrome de Foster Kennedy : dans le méningiome de la gouttière olfactive, atrophie optique et anosmie homolatérales et œdème papillaire controlatéral."
+  ],
+  "aliases": [
+   "nerf olfactif",
+   "nerf I"
+  ]
+ },
+ "n-opticus": {
+  "tr": "Nerf optique (II)",
+  "summary": "Le nerf sensoriel qui transmet l'information visuelle de la rétine. Sur le plan embryologique, c'est un prolongement du cerveau ; il est donc entouré par les méninges.",
+  "facts": [
+   "Axones des cellules ganglionnaires de la rétine (papille optique)",
+   "Entre dans le crâne par le canal optique ; au-dessus de l'hypophyse, dans le chiasma optique, les fibres nasales se croisent ; la bandelette optique gagne le corps géniculé latéral, puis les radiations optiques le cortex visuel",
+   "Sensibilité spéciale : vision ; voie afférente du réflexe photomoteur"
+  ],
+  "sections": [],
+  "clinical": [
+   "La compression du chiasma optique (adénome hypophysaire) entraîne une hémianopsie bitemporale.",
+   "L'hypertension intracrânienne entraîne un œdème de la papille optique.",
+   "La névrite optique peut être le premier signe d'une sclérose en plaques."
+  ],
+  "tus": [
+   "Le nerf optique est un prolongement du tissu cérébral ; il est entouré par les méninges et l'hypertension intracrânienne provoque un œdème papillaire.",
+   "Dans le réflexe photomoteur, la voie afférente est le nerf optique et la voie efférente le nerf oculomoteur ; la pupille de Marcus Gunn (DPAR) traduit un déficit afférent."
+  ],
+  "aliases": [
+   "nerf optique",
+   "nerf II",
+   "chiasma"
+  ]
+ },
+ "n-oculomotorius": {
+  "tr": "Nerf oculomoteur (III)",
+  "summary": "Nerf crânien moteur et parasympathique qui assure la plupart des mouvements des yeux, resserre la pupille et commande l'accommodation du cristallin.",
+  "facts": [
+   "Mésencéphale (fosse interpédonculaire) ; ses noyaux sont le noyau oculomoteur et le noyau accessoire (Edinger–Westphal)",
+   "Chemine dans la paroi latérale du sinus caverneux et entre dans l'orbite par la fissure orbitaire supérieure",
+   "Muscles droits supérieur, inférieur et médial, oblique inférieur, releveur de la paupière supérieure ; parasympathique : par le ganglion ciliaire vers le sphincter de la pupille et le muscle ciliaire"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans la paralysie complète, l'œil regarde en bas et en dehors, avec ptosis et mydriase aréactive.",
+   "La partie externe, qui porte les fibres pupillaires, est atteinte précocement par la compression d'un anévrisme de l'artère communicante postérieure (paralysie du III avec atteinte pupillaire = urgence) ; dans l'ischémie diabétique, la pupille est généralement épargnée."
+  ],
+  "tus": [
+   "Le nerf oculomoteur innerve les droits supérieur, inférieur et médial, l'oblique inférieur et le releveur de la paupière.",
+   "Le noyau du III se situe dans le mésencéphale au niveau du colliculus supérieur ; le noyau d'Edinger–Westphal est la source des fibres parasympathiques."
+  ],
+  "aliases": [
+   "oculomoteur",
+   "nerf III"
+  ]
+ },
+ "n-trochlearis": {
+  "tr": "Nerf trochléaire (IV)",
+  "summary": "Le plus fin des nerfs crâniens, au plus long trajet intracrânien, qui innerve seulement le muscle oblique supérieur de l'œil. C'est le seul nerf qui émerge de la face postérieure du tronc cérébral et le seul qui se croise complètement.",
+  "facts": [
+   "Face postérieure du mésencéphale (sous le colliculus inférieur)",
+   "Contourne le tronc cérébral vers l'avant et traverse la paroi latérale du sinus caverneux et la fissure orbitaire supérieure",
+   "Muscle oblique supérieur"
+  ],
+  "sections": [],
+  "clinical": [
+   "Sa paralysie entraîne une diplopie dans le regard en bas et en dedans ; le patient est gêné pour descendre les escaliers et incline la tête du côté sain.",
+   "En raison de son long trajet, il est facilement lésé lors des traumatismes crâniens."
+  ],
+  "tus": [
+   "Le noyau du nerf trochléaire se situe au niveau du colliculus inférieur ; ses fibres se croisent."
+  ],
+  "aliases": [
+   "trochléaire",
+   "nerf IV",
+   "nerf pathétique"
+  ]
+ },
+ "n-trigeminus": {
+  "tr": "Nerf trijumeau (V)",
+  "summary": "Le principal nerf sensitif de la face et le nerf moteur des muscles masticateurs. C'est le plus gros nerf crânien ; au ganglion trigéminal il se divise en trois branches : ophtalmique (V1), maxillaire (V2) et mandibulaire (V3).",
+  "facts": [
+   "Face antérolatérale du pont (une grosse racine sensitive et une petite racine motrice)",
+   "Ganglion trigéminal (de Gasser) – V1 sort par la fissure orbitaire supérieure, V2 par le foramen rond, V3 par le foramen ovale",
+   "V3 : muscles masticateurs (masséter, temporal, ptérygoïdiens), mylohyoïdien, ventre antérieur du digastrique, tenseur du tympan, tenseur du voile du palais",
+   "Peau de la face, œil (cornée), muqueuses nasale et buccale, dents, sensibilité générale des deux tiers antérieurs de la langue, dure-mère"
+  ],
+  "sections": [
+   [
+    "Territoires sensitifs des branches",
+    "V1 : front, paupière supérieure, dos du nez, cornée ; V2 : paupière inférieure, joue, lèvre supérieure, dents supérieures, palais ; V3 : lèvre inférieure, menton, partie de la tempe, dents inférieures, deux tiers antérieurs de la langue (sensibilité générale)."
+   ]
+  ],
+  "clinical": [
+   "Névralgie trigéminale : accès de douleur intense en décharge électrique de quelques secondes, le plus souvent dans le territoire V2–V3.",
+   "Le zona (zona ophtalmique) donne une éruption dans le territoire V1 ; l'atteinte de la pointe du nez (signe de Hutchinson) fait craindre une atteinte oculaire.",
+   "V1 est la voie afférente du réflexe cornéen."
+  ],
+  "tus": [
+   "Le ganglion trigéminal (de Gasser) se trouve dans la cavité trigéminale (cavum de Meckel).",
+   "La névralgie trigéminale touche surtout les territoires V2 et V3 et est souvent due à un conflit vasculo-nerveux au niveau de la racine."
+  ],
+  "aliases": [
+   "trijumeau",
+   "nerf V",
+   "ophtalmique",
+   "maxillaire",
+   "mandibulaire"
+  ]
+ },
+ "n-abducens": {
+  "tr": "Nerf abducens (VI)",
+  "summary": "Le nerf crânien moteur du muscle droit latéral, qui tourne l'œil en dehors.",
+  "facts": [
+   "Le sillon entre le pont et la moelle allongée",
+   "Long trajet le long du clivus ; traverse le sinus caverneux (à côté de l'artère carotide interne) et entre par la fissure orbitaire supérieure",
+   "Muscle droit latéral"
+  ],
+  "sections": [],
+  "clinical": [
+   "En cas d'hypertension intracrânienne, il peut être étiré sur le clivus et donner une paralysie « sans valeur localisatrice ».",
+   "En cas de paralysie, l'œil dévie en dedans, avec une diplopie horizontale dans le regard latéral."
+  ],
+  "tus": [
+   "En cas d'hypertension intracrânienne, le long trajet intracrânien de l'abducens explique une paralysie « sans valeur localisatrice »."
+  ],
+  "aliases": [
+   "abducens",
+   "nerf VI",
+   "nerf moteur oculaire externe"
+  ]
+ },
+ "n-facialis": {
+  "tr": "Nerf facial (VII)",
+  "summary": "Le nerf moteur des muscles de la mimique ; il transporte aussi le goût des deux tiers antérieurs de la langue et donne des fibres parasympathiques aux glandes lacrymale et salivaires.",
+  "facts": [
+   "Sillon bulbopontique (racine motrice et nerf intermédiaire)",
+   "Méat acoustique interne → canal facial (os temporal ; ganglion géniculé) → foramen stylomastoïdien → se divise en cinq branches terminales dans la glande parotide",
+   "Muscles de la mimique, muscle stapédien, ventre postérieur du digastrique, stylohyoïdien ; parasympathique : glande lacrymale (nerf grand pétreux), glandes submandibulaire et sublinguale (corde du tympan)",
+   "Goût des deux tiers antérieurs de la langue (corde du tympan), peau d'une partie de l'oreille externe"
+  ],
+  "sections": [
+   [
+    "Branches terminales",
+    "Dans la parotide : branches temporale, zygomatique, buccale, marginale de la mandibule et cervicale."
+   ]
+  ],
+  "clinical": [
+   "Paralysie de Bell (périphérique) : paralysie de toute l'hémiface – le front ne se plisse pas, l'œil ne se ferme pas, la commissure labiale tombe ; selon le niveau de la lésion, perte du goût et hyperacousie possibles.",
+   "Dans une lésion centrale (neurone moteur supérieur), le front est épargné, car la partie du noyau destinée aux muscles du front reçoit des fibres des deux hémisphères.",
+   "Les branches du nerf doivent être préservées dans la chirurgie des tumeurs parotidiennes."
+  ],
+  "tus": [
+   "Branches du nerf facial de proximal à distal : nerf grand pétreux, nerf du muscle stapédien, corde du tympan, puis branches faciales.",
+   "Le syndrome de Ramsay Hunt est un zona du ganglion géniculé : paralysie faciale et vésicules dans l'oreille."
+  ],
+  "aliases": [
+   "nerf facial",
+   "nerf VII",
+   "paralysie faciale"
+  ]
+ },
+ "n-vestibulocochlearis": {
+  "tr": "Nerf vestibulocochléaire (VIII)",
+  "summary": "Le nerf crânien sensoriel qui transmet l'audition et l'équilibre de l'oreille interne au tronc cérébral ; il comprend une partie cochléaire et une partie vestibulaire.",
+  "facts": [
+   "Sillon bulbopontique (angle pontocérébelleux)",
+   "Chemine avec le nerf facial dans le méat acoustique interne ; dans l'oreille interne il gagne le ganglion spiral (cochléaire) et le ganglion vestibulaire",
+   "Sensibilités spéciales : audition (cochlée) et équilibre (utricule, saccule, canaux semi-circulaires)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Le schwannome vestibulaire (neurinome de l'acoustique) de l'angle pontocérébelleux débute par une surdité unilatérale, des acouphènes et une instabilité ; en grossissant, il atteint les nerfs V et VII.",
+   "La névrite vestibulaire provoque un grand vertige d'apparition brutale."
+  ],
+  "tus": [
+   "Dans la surdité de perception, le Weber est latéralisé du côté sain et le Rinne est positif."
+  ],
+  "aliases": [
+   "nerf auditif",
+   "nerf VIII",
+   "nerf cochléaire"
+  ]
+ },
+ "n-glossopharyngeus": {
+  "tr": "Nerf glossopharyngien (IX)",
+  "summary": "Nerf crânien mixte qui transporte le goût et la sensibilité générale du tiers postérieur de la langue, la sensibilité du pharynx et l'innervation parasympathique de la glande parotide.",
+  "facts": [
+   "Sillon latéral de la moelle allongée",
+   "Sort par le foramen jugulaire et descend en avant le long du muscle stylopharyngien jusqu'à la racine de la langue",
+   "Muscle stylopharyngien ; parasympathique : par le ganglion otique vers la glande parotide",
+   "Goût et sensibilité générale du tiers postérieur de la langue, oropharynx, amygdales, oreille moyenne, sinus carotidien (barorécepteur) et glomus carotidien (chémorécepteur)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Il forme la voie afférente du réflexe nauséeux (voie efférente : nerf vague).",
+   "Dans la névralgie du glossopharyngien, la déglutition déclenche des douleurs de la gorge et de l'oreille."
+  ],
+  "tus": [
+   "Le seul muscle innervé par le IX est le stylopharyngien ; ses fibres parasympathiques gagnent la parotide par le ganglion otique.",
+   "La névralgie du glossopharyngien est une douleur de la base de la langue et de l'oreille déclenchée par la déglutition."
+  ],
+  "aliases": [
+   "glossopharyngien",
+   "nerf IX"
+  ]
+ }
+}

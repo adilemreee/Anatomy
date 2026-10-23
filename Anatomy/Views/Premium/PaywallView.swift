@@ -68,7 +68,12 @@ struct PaywallView: View {
             .padding(16)
             .accessibilityLabel("Kapat")
         }
-        .task { await purchases.loadProducts() }
+        .task {
+            await purchases.loadProducts()
+            await purchases.refreshWinBackOffers()
+            // A former subscriber's offer is the plan to show first.
+            if let offered = PurchaseStore.Plan.allCases.first(where: { purchases.winBackOffers[$0] != nil }) { plan = offered }
+        }
         .onChange(of: purchases.isPremium) { _, premium in
             if premium { dismiss() }
         }
@@ -108,7 +113,7 @@ struct PaywallView: View {
                 .font(.system(.largeTitle, weight: .bold))
                 .foregroundStyle(Theme.textPrimary)
                 .fixedSize(horizontal: false, vertical: true)
-            Text("Kemikler, eklemler, kaslar, kalp ve damarlar için 369 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 760 özgün soru ve 3.000'e yakın bilgi kartı, tek bir uygulamada.")
+            Text("Kemikler, eklemler, kaslar, kalp, damarlar ve sinir sistemi için 424 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 900 özgün soru ve 3.000'i aşkın bilgi kartı, tek bir uygulamada.")
                 .font(.subheadline)
                 .foregroundStyle(Theme.textSecondary)
                 .fixedSize(horizontal: false, vertical: true)
@@ -126,7 +131,7 @@ struct PaywallView: View {
 
     private var benefits: some View {
         VStack(alignment: .leading, spacing: 16) {
-            benefit("figure.strengthtraining.traditional", String(localized: "Kas-iskelet sistemi, kalp ve damarlar"), String(localized: "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar; kadın ve erkek anatomisi"))
+            benefit("figure.strengthtraining.traditional", String(localized: "Kas-iskelet, dolaşım ve sinir sistemi"), String(localized: "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar, beyin ve sinirler; kadın ve erkek anatomisi"))
             benefit("cube.transparent", String(localized: "İnceleme modu"), String(localized: "Her yapıyı tek başına, işaretli oluşumlarıyla incele; kasların origo ve insersiyosunu gör"))
             benefit("text.book.closed", String(localized: "Ayrıntılı Türkçe maddeler"), String(localized: "Latince terimler, kanlanma, sinir, klinik bilgi ve her maddede TUS notları"))
             benefit("checkmark.seal", String(localized: "Sınırsız soru bankası"), String(localized: "Açıklamalı özgün sorular, klinik vakalar, kas–sinir ve kemik oluşumu soruları, süreli denemeler ve istatistikler"))
@@ -207,6 +212,7 @@ struct PaywallView: View {
     }
 
     private var ctaTitle: String {
+        if purchases.winBackOffers[plan] != nil { return String(localized: "Teklifi kullan") }
         if let trial = purchases.trialText(plan) { return String(localized: "\(trial) dene") }
         return plan == .lifetime ? String(localized: "Bir kez öde, hep kullan") : String(localized: "Premium'a geç")
     }
@@ -216,11 +222,17 @@ struct PaywallView: View {
         case .lifetime:
             return String(localized: "Tek seferlik ödeme. Abonelik değildir.")
         case .yearly:
+            if let offer = purchases.winBackText(plan) {
+                return String(localized: "\(offer), sonra yılda bir \(purchases.price(.yearly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin.")
+            }
             if let trial = purchases.trialText(plan) {
                 return String(localized: "\(trial), sonra yılda bir \(purchases.price(.yearly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin.")
             }
             return String(localized: "Yılda bir \(purchases.price(.yearly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin.")
         case .monthly:
+            if let offer = purchases.winBackText(plan) {
+                return String(localized: "\(offer), sonra ayda bir \(purchases.price(.monthly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin.")
+            }
             return String(localized: "Ayda bir \(purchases.price(.monthly)) ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin.")
         }
     }
@@ -268,7 +280,11 @@ private struct PlanRow: View {
                                 .background(Theme.goldGradient, in: .capsule)
                         }
                     }
-                    Text(detail).font(.caption).foregroundStyle(Theme.textSecondary)
+                    if let offer = purchases.winBackText(plan) {
+                        Text("Sana özel: \(offer)").font(.caption.weight(.semibold)).foregroundStyle(Theme.gold)
+                    } else {
+                        Text(detail).font(.caption).foregroundStyle(Theme.textSecondary)
+                    }
                 }
                 Spacer()
                 VStack(alignment: .trailing, spacing: 2) {

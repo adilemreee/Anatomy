@@ -31,11 +31,12 @@ iskelet,origo,insersiyo,innervasyon,tus,tıp,diş,fizyoterapi,hemşirelik,soru,t
 Anatomi Atlası 3D; tıp, diş hekimliği, fizyoterapi ve hemşirelik öğrencileri ile anatomiyi gerçekten öğrenmek isteyen herkes için hazırlanmış ayrıntılı ve etkileşimli bir kas-iskelet sistemi atlasıdır. Tamamen Türkçedir; derslerde ve TUS'ta olduğu gibi yapıların Latince adı önde, Türkçe karşılığı altındadır.
 
 3D ATLAS
-• 2.700'den fazla seçilebilir 3D yapı: kemikler, eklemler ve bağlar, kaslar ve kas yapışma yerleri, kalp ve damarlar
+• 3.300'den fazla seçilebilir 3D yapı: kemikler, eklemler ve bağlar, kaslar ve kas yapışma yerleri, kalp ve damarlar, beyin, omurilik ve sinirler
 • Ayrı erkek ve kadın modeli
 • Bir yapıya dokun; Latince adını, Türkçe adını ve kısa açıklamasını gör
 • Yapıları tek başına göster, gizle ya da saydamlaştır; katmanları açıp kapat
 • Gerçekçi ve öğretici renk modları, röntgen görünümü
+• Diseksiyon: kasları yüzeyelden derine katman katman kaldır; modeli yatay, sagital ya da koronal düzlemde kesip içini gör
 
 İNCELEME MODU
 • Her kemiği ya da kası tek başına, oluşumları etiketlenmiş olarak aç
@@ -43,16 +44,16 @@ Anatomi Atlası 3D; tıp, diş hekimliği, fizyoterapi ve hemşirelik öğrencil
 • Bir etikete dokun, o oluşum model üzerinde parlasın
 
 MADDELER
-• 369 madde: 72 kemik ve iskelet yapısı, 45 eklem ve bağ, 206 kas, 46 kalp ve damar maddesi
+• 424 madde: 72 kemik ve iskelet yapısı, 45 eklem ve bağ, 206 kas, 46 kalp ve damar, 55 sinir sistemi maddesi
 • Türkçe, Latince (Terminologia Anatomica) ve İngilizce adlar
 • Origo, insersiyo, innervasyon, kanlanma, fonksiyon, klinik bilgiler ve TUS notları
 
 ÇALIŞ
-• 760 özgün soru, üç düzeyde (Temel, Fakülte, TUS); her biri beş seçenekli ve ayrıntılı açıklamalı
+• 900 özgün soru, üç düzeyde (Temel, Fakülte, TUS); her biri beş seçenekli ve ayrıntılı açıklamalı
 • Klinik vakalar, kas–sinir soruları ve kemik oluşumu soruları
 • Soru haritası, işaretleme ve TUS neti olan süreli deneme sınavları
-• 6 destede yaklaşık 3.000 aralıklı tekrar kartı: yapılar, Latince adlar, origo–insersiyo–sinir, kemik oluşumları, TUS ve klinik bilgiler
-• Yanlışlarım, işaretlediklerim, zayıf konular ve ayrıntılı istatistikler; günlük hedef ve seri
+• 6 destede 3.000'i aşkın aralıklı tekrar kartı: yapılar, Latince adlar, origo–insersiyo–sinir, kemik oluşumları, TUS ve klinik bilgiler
+• Yanlışlarım, işaretlediklerim, zayıf konular ve ayrıntılı istatistikler; günlük hedef, seri ve günlük tekrar hatırlatması
 
 GİZLİ VE ÇEVRİMDIŞI
 • Her şey cihazında: hesap yok, reklam yok, takip yok
@@ -109,11 +110,12 @@ anatomy,skeleton,muscle,bone,ligament,origin,insertion,innervation,quiz,flashcar
 Anatomy Atlas 3D is a detailed, interactive atlas of the musculoskeletal system, built for medical, dental and physiotherapy students and anyone who wants to really learn anatomy.
 
 3D ATLAS
-• More than 2,000 selectable 3D structures: bones, joints and ligaments, muscles and muscle attachments, heart and blood vessels
+• More than 3,000 selectable 3D structures: bones, joints and ligaments, muscles and muscle attachments, heart and blood vessels, brain, spinal cord and nerves
 • Separate male and female models
 • Tap any structure to see its name, Latin name and a short description
 • Isolate, hide or make structures transparent; turn whole layers on and off
 • Realistic and teaching colour modes
+• Dissection: peel the muscles away layer by layer, from superficial to deep; cut the model in an axial, sagittal or coronal plane to see inside
 
 INSPECTION MODE
 • Open any bone or muscle on its own, with its landmarks labelled
@@ -121,16 +123,16 @@ INSPECTION MODE
 • Tap a label and the landmark lights up on the model
 
 ARTICLES
-• 369 articles: 72 on bones, 45 on joints and ligaments, 206 on muscles, 46 on the heart and vessels
+• 424 articles: 72 on bones, 45 on joints and ligaments, 206 on muscles, 46 on the heart and vessels, 55 on the nervous system
 • English and Latin (Terminologia Anatomica) names
 • Origin, insertion, innervation, blood supply, function, clinical notes and high-yield exam notes
 
 STUDY
-• 760 original questions at three levels (basic, course, board exam), each with five options and a full explanation
+• 900 original questions at three levels (basic, course, board exam), each with five options and a full explanation
 • Clinical cases, muscle–nerve questions and bone landmark questions
 • Timed practice exams with a question map, flags and review
-• About 3,000 spaced-repetition flashcards in 6 decks: structures, Latin names, origin–insertion–nerve, bone landmarks, exam and clinical notes
-• Mistakes, bookmarks, weak topics and detailed statistics; daily goal and streak
+• More than 3,000 spaced-repetition flashcards in 6 decks: structures, Latin names, origin–insertion–nerve, bone landmarks, exam and clinical notes
+• Mistakes, bookmarks, weak topics and detailed statistics; daily goal, streak and a daily review reminder
 
 PRIVATE AND OFFLINE
 • Everything is on your device: no account, no ads, no tracking
@@ -187,11 +189,12 @@ anatomie,squelette,muscle,ligament,origine,insertion,innervation,QCM,flashcards,
 Atlas Anatomie 3D est un atlas interactif et détaillé de l'appareil locomoteur, conçu pour les étudiants en médecine, en odontologie et en kinésithérapie, et pour tous ceux qui veulent vraiment apprendre l'anatomie.
 
 ATLAS 3D
-• Plus de 2 000 structures 3D sélectionnables : os, articulations et ligaments, muscles et insertions musculaires, cœur et vaisseaux
+• Plus de 3 000 structures 3D sélectionnables : os, articulations et ligaments, muscles et insertions musculaires, cœur et vaisseaux, encéphale, moelle spinale et nerfs
 • Modèles masculin et féminin distincts
 • Touchez une structure pour voir son nom, son nom latin et une courte description
 • Isolez, masquez ou rendez transparentes les structures ; affichez ou masquez des couches entières
 • Modes de couleurs réaliste et pédagogique
+• Dissection : retirez les muscles couche par couche, du superficiel au profond ; coupez le modèle selon un plan axial, sagittal ou frontal pour voir l'intérieur
 
 MODE EXAMEN
 • Ouvrez chaque os ou muscle seul, avec ses repères annotés
@@ -199,16 +202,16 @@ MODE EXAMEN
 • Touchez une étiquette et le repère s'illumine sur le modèle
 
 FICHES
-• 369 fiches : 72 sur les os, 45 sur les articulations et ligaments, 206 sur les muscles, 46 sur le cœur et les vaisseaux
+• 424 fiches : 72 sur les os, 45 sur les articulations et ligaments, 206 sur les muscles, 46 sur le cœur et les vaisseaux, 55 sur le système nerveux
 • Noms français et latins (Terminologia Anatomica)
 • Origine, terminaison, innervation, vascularisation, fonction, notes cliniques et points clés pour les concours
 
 RÉVISER
-• 760 questions originales sur trois niveaux (base, faculté, concours), chacune à cinq propositions avec une explication complète
+• 900 questions originales sur trois niveaux (base, faculté, concours), chacune à cinq propositions avec une explication complète
 • Cas cliniques, questions muscles–nerfs et questions sur les repères osseux
 • Examens blancs chronométrés avec carte des questions, marque-pages et correction
-• Environ 3 000 cartes de révision espacée en 6 paquets : structures, noms latins, origine–terminaison–nerf, repères osseux, notes de concours et cliniques
-• Erreurs, favoris, points faibles et statistiques détaillées ; objectif quotidien et série
+• Plus de 3 000 cartes de révision espacée en 6 paquets : structures, noms latins, origine–terminaison–nerf, repères osseux, notes de concours et cliniques
+• Erreurs, favoris, points faibles et statistiques détaillées ; objectif quotidien, série et rappel de révision quotidien
 
 PRIVÉ ET HORS LIGNE
 • Tout reste sur votre appareil : pas de compte, pas de publicité, pas de suivi
@@ -265,11 +268,12 @@ Anatomie,Skelett,Muskel,Bänder,Ursprung,Ansatz,Innervation,Quiz,Karteikarten,Me
 Anatomie Atlas 3D ist ein ausführlicher, interaktiver Atlas des Bewegungsapparats – für Studierende der Medizin, Zahnmedizin und Physiotherapie und alle, die Anatomie wirklich lernen wollen.
 
 3D-ATLAS
-• Über 2.000 auswählbare 3D-Strukturen: Knochen, Gelenke und Bänder, Muskeln und Muskelansätze, Herz und Blutgefäße
+• Über 3.000 auswählbare 3D-Strukturen: Knochen, Gelenke und Bänder, Muskeln und Muskelansätze, Herz und Blutgefäße, Gehirn, Rückenmark und Nerven
 • Getrennte männliche und weibliche Modelle
 • Tippe auf eine Struktur und sieh ihren lateinischen und deutschen Namen und eine kurze Beschreibung
 • Strukturen isolieren, ausblenden oder transparent machen; ganze Schichten ein- und ausschalten
 • Realistischer und didaktischer Farbmodus
+• Präparation: Muskeln Schicht für Schicht von oberflächlich bis tief entfernen; das Modell axial, sagittal oder koronal schneiden und hineinsehen
 
 PRÄPARATMODUS
 • Jeden Knochen oder Muskel einzeln betrachten, mit beschrifteten Merkmalen
@@ -277,16 +281,16 @@ PRÄPARATMODUS
 • Tippe auf ein Etikett und das Merkmal leuchtet am Modell auf
 
 ARTIKEL
-• 369 Artikel: 72 zu Knochen, 45 zu Gelenken und Bändern, 206 zu Muskeln, 46 zu Herz und Gefäßen
+• 424 Artikel: 72 zu Knochen, 45 zu Gelenken und Bändern, 206 zu Muskeln, 46 zu Herz und Gefäßen, 55 zum Nervensystem
 • Lateinische Namen (Terminologia Anatomica) zuerst, die deutschen darunter – wie im Studium
 • Ursprung, Ansatz, Innervation, Blutversorgung, Funktion, klinische Hinweise und Prüfungswissen
 
 LERNEN
-• 760 eigene Fragen auf drei Niveaus (Basis, Studium, Examen), jeweils mit fünf Antworten und ausführlicher Erklärung
+• 900 eigene Fragen auf drei Niveaus (Basis, Studium, Examen), jeweils mit fünf Antworten und ausführlicher Erklärung
 • Klinische Fälle, Muskel-Nerv-Fragen und Fragen zu Knochenmerkmalen
 • Probeprüfungen mit Zeitlimit, Fragenübersicht, Markierungen und Auswertung
-• Rund 3.000 Lernkarten mit verteilter Wiederholung in 6 Stapeln: Strukturen, lateinische Namen, Ursprung–Ansatz–Nerv, Knochenmerkmale, Prüfungs- und klinische Hinweise
-• Fehler, Lesezeichen, Schwachstellen und ausführliche Statistiken; Tagesziel und Lernserie
+• Über 3.000 Lernkarten mit verteilter Wiederholung in 6 Stapeln: Strukturen, lateinische Namen, Ursprung–Ansatz–Nerv, Knochenmerkmale, Prüfungs- und klinische Hinweise
+• Fehler, Lesezeichen, Schwachstellen und ausführliche Statistiken; Tagesziel, Lernserie und tägliche Lernerinnerung
 
 PRIVAT UND OFFLINE
 • Alles bleibt auf deinem Gerät: kein Konto, keine Werbung, kein Tracking
@@ -343,11 +347,12 @@ anatomía,esqueleto,articulaciones,ligamento,origen,inserción,inervación,test,
 Atlas Anatomía 3D es un atlas interactivo y detallado del aparato locomotor, pensado para estudiantes de medicina, odontología y fisioterapia y para cualquiera que quiera aprender anatomía de verdad.
 
 ATLAS 3D
-• Más de 2.000 estructuras 3D seleccionables: huesos, articulaciones y ligamentos, músculos e inserciones musculares, corazón y vasos sanguíneos
+• Más de 3.000 estructuras 3D seleccionables: huesos, articulaciones y ligamentos, músculos e inserciones musculares, corazón y vasos sanguíneos, encéfalo, médula espinal y nervios
 • Modelos masculino y femenino independientes
 • Toca cualquier estructura para ver su nombre, su nombre latino y una breve descripción
 • Aísla, oculta o vuelve transparentes las estructuras; activa y desactiva capas completas
 • Modos de color realista y didáctico
+• Disección: retira los músculos capa a capa, de superficiales a profundos; corta el modelo en un plano axial, sagital o coronal para ver su interior
 
 MODO EXAMEN
 • Abre cada hueso o músculo por separado, con sus accidentes rotulados
@@ -355,16 +360,16 @@ MODO EXAMEN
 • Toca una etiqueta y el accidente se ilumina en el modelo
 
 FICHAS
-• 369 fichas: 72 sobre huesos, 45 sobre articulaciones y ligamentos, 206 sobre músculos, 46 sobre el corazón y los vasos
+• 424 fichas: 72 sobre huesos, 45 sobre articulaciones y ligamentos, 206 sobre músculos, 46 sobre el corazón y los vasos, 55 sobre el sistema nervioso
 • Nombres en español y en latín (Terminologia Anatomica)
 • Origen, inserción, inervación, irrigación, función, notas clínicas y claves de examen
 
 ESTUDIA
-• 760 preguntas originales en tres niveles (básico, grado, examen), cada una con cinco opciones y una explicación completa
+• 900 preguntas originales en tres niveles (básico, grado, examen), cada una con cinco opciones y una explicación completa
 • Casos clínicos, preguntas de músculos y nervios y de accidentes óseos
 • Simulacros cronometrados con mapa de preguntas, marcadores y corrección
-• Unas 3.000 tarjetas de repetición espaciada en 6 mazos: estructuras, nombres latinos, origen–inserción–nervio, accidentes óseos, notas de examen y clínicas
-• Errores, guardadas, temas flojos y estadísticas detalladas; objetivo diario y racha
+• Más de 3.000 tarjetas de repetición espaciada en 6 mazos: estructuras, nombres latinos, origen–inserción–nervio, accidentes óseos, notas de examen y clínicas
+• Errores, guardadas, temas flojos y estadísticas detalladas; objetivo diario, racha y recordatorio diario de repaso
 
 PRIVADO Y SIN CONEXIÓN
 • Todo se queda en tu dispositivo: sin cuenta, sin anuncios, sin seguimiento

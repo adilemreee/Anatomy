@@ -282,10 +282,13 @@ final class StudyStore {
 
     func card(_ id: String) -> Card? { cards[id] }
 
-    func isDue(_ id: String) -> Bool {
+    func isDue(_ id: String, at date: Date = .now) -> Bool {
         guard let card = cards[id] else { return false }
-        return card.due <= .now
+        return card.due <= date
     }
+
+    /// Whether something was studied today (a question or a card).
+    var studiedToday: Bool { studyDays.contains(Self.dayKey(.now)) }
 
     /// Grades a flashcard; the structure it is about (`entry`) gains or
     /// loses mastery with it.

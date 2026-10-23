@@ -65,8 +65,11 @@ float3 reliefNormal(texture2d<half> tex, float3 p, float3 n, float3 t, float sca
 
 } // namespace
 
-[[visible]]
-void anatomySurface(realitykit::surface_parameters params)
+/// The surface of every part. `Cut` builds the section view's variant:
+/// only that one can discard fragments, which would otherwise cost the
+/// GPU's hidden surface removal on every frame.
+template <bool Cut>
+inline void shadeSurface(realitykit::surface_parameters params)
 {
     auto geometry = params.geometry();
     auto surface = params.surface();
@@ -95,6 +98,24 @@ void anatomySurface(realitykit::surface_parameters params)
     int pattern = code / 16;
     int tissue = code % 16;
     float3 p = geometry.model_position();
+
+    // Section view: the material constants carry a cutting plane (see
+    // AnatomyMaterials.sectioned). What lies beyond it is not drawn (the
+    // opacity threshold drops it) and the inside of a cut part, seen through
+    // the opening, reads as a flat section surface.
+    auto constants = params.material_constants();
+    float cutAxis = constants.metallic_scale();
+    bool sectionFace = false;
+    if (Cut && cutAxis > 0.05) {
+        int axis = cutAxis < 0.35 ? 0 : (cutAxis < 0.65 ? 1 : 2);
+        float offset = constants.roughness_scale() * 3.0 - 1.0;
+        float coord = axis == 0 ? p.x : (axis == 1 ? p.y : p.z);
+        float side = constants.specular_scale() > 0.5 ? offset - coord : coord - offset;
+        if (side < 0.0) {
+            discard_fragment();
+        }
+        sectionFace = dot(geometry.normal(), geometry.view_direction()) < 0.0;
+    }
 
     // Textured skin (MakeHuman atlas): the texture is the base colour.
     float2 skinUV = geometry.uv0();
@@ -303,6 +324,17 @@ void anatomySurface(realitykit::surface_parameters params)
         emissive = float3(0.5, 0.66, 0.95) * fresnel * rimStrength * ao * 0.8 * (textured || tissue == skin ? 0.3 : 1.0);
     }
 
+    if (sectionFace) {
+        // Cut tissue: its own colour a shade darker, flat, turned to the viewer.
+        base *= 0.8;
+        tangentNormal = float3(0, 0, -1);
+        roughness = 0.85;
+        specular = 0.15;
+        clearcoat = 0.0;
+        emissive = base * 0.2;
+        opacity = 1.0;
+    }
+
     surface.set_base_color(half3(base));
     surface.set_normal(tangentNormal);
     surface.set_roughness(half(roughness));
@@ -313,4 +345,16 @@ void anatomySurface(realitykit::surface_parameters params)
     surface.set_ambient_occlusion(half(ao));
     surface.set_emissive_color(half3(emissive));
     surface.set_opacity(half(opacity));
+}
+
+[[visible]]
+void anatomySurface(realitykit::surface_parameters params)
+{
+    shadeSurface<false>(params);
+}
+
+[[visible]]
+void anatomySurfaceSection(realitykit::surface_parameters params)
+{
+    shadeSurface<true>(params);
 }

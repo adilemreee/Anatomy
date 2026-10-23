@@ -1,0 +1,266 @@
+{
+ "corpus-callosum": {
+  "tr": "Balken (Corpus callosum)",
+  "summary": "Die größte Kommissur aus etwa 200 Millionen Nervenfasern, die die beiden Großhirnhemisphären verbindet.",
+  "facts": [
+   "Rostrum, Genu, Truncus, Splenium",
+   "Commissura anterior, Commissura posterior, Commissura fornicis (Commissura hippocampi)",
+   "A. cerebri anterior (A. pericallosa) und A. cerebri posterior (Splenium)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei pharmakoresistenter Epilepsie kann der Balken durchtrennt werden (Kallosotomie); bei „Split-Brain“-Patienten ist der Informationsaustausch zwischen den Hemisphären gestört.",
+   "Die Balkenagenesie ist eine angeborene Fehlbildung."
+  ],
+  "tus": [
+   "Agenesie oder Durchtrennung des Balkens führen zu Diskonnektionssyndromen (Unfähigkeit, mit der linken Hand zu schreiben, Anomie der linken Hand)."
+  ],
+  "aliases": [
+   "Balken",
+   "Corpus callosum"
+  ]
+ },
+ "nuclei-basales": {
+  "tr": "Basalkerne (Basalganglien)",
+  "summary": "Ansammlungen grauer Substanz tief in den Großhirnhemisphären, die an der Einleitung und Regulation von Bewegungen und am motorischen Lernen beteiligt sind.",
+  "facts": [
+   "Nucleus caudatus, Putamen, Globus pallidus (Putamen + Globus pallidus = Nucleus lentiformis; Nucleus caudatus + Putamen = Corpus striatum); funktionell auch Nucleus subthalamicus und Substantia nigra",
+   "Der direkte Weg fördert, der indirekte hemmt Bewegungen; Dopamin aus der Substantia nigra hält beide im Gleichgewicht",
+   "Die Capsula interna verläuft zwischen Nucleus caudatus und Thalamus einerseits und Nucleus lentiformis andererseits"
+  ],
+  "sections": [],
+  "clinical": [
+   "Die Parkinson-Krankheit entsteht durch den Verlust dopaminerger Neurone der Substantia nigra: Ruhetremor, Rigor, Bradykinese.",
+   "Bei der Chorea Huntington führt die Atrophie des Nucleus caudatus zu Chorea (unwillkürliche, tanzartige Bewegungen) und Demenz.",
+   "Beim Morbus Wilson betreffen Kupferablagerungen besonders das Putamen."
+  ],
+  "tus": [
+   "Corpus striatum: Nucleus caudatus + Putamen; Nucleus lentiformis: Putamen + Globus pallidus.",
+   "Beim Morbus Wilson reichert sich Kupfer vor allem im Putamen an."
+  ],
+  "aliases": [
+   "Basalganglien",
+   "Striatum",
+   "Putamen",
+   "Nucleus caudatus"
+  ]
+ },
+ "thalamus": {
+  "tr": "Thalamus",
+  "summary": "Eine eiförmige Masse grauer Substanz beiderseits des dritten Ventrikels, der größte Teil des Zwischenhirns. Er ist die Umschaltstation aller Sinne außer dem Riechen auf ihrem Weg zum Kortex.",
+  "facts": [
+   "Diencephalon; Seitenwand des dritten Ventrikels",
+   "VPL (Körpersensibilität), VPM (Gesichtssensibilität und Geschmack), Corpus geniculatum laterale (Sehen), Corpus geniculatum mediale (Hören), VA/VL (Motorik – Zuflüsse aus Basalkernen und Kleinhirn), vordere Kerne (limbisch), Pulvinar",
+   "Äste der A. cerebri posterior und der A. communicans posterior"
+  ],
+  "sections": [],
+  "clinical": [
+   "Ein Thalamusinfarkt kann einen kontralateralen Verlust aller Qualitäten und später starke brennende Schmerzen verursachen (Thalamusschmerzsyndrom nach Dejerine-Roussy)."
+  ],
+  "tus": [
+   "Der größte Thalamuskern ist das Pulvinar; es dient der visuellen Aufmerksamkeit.",
+   "Der Thalamus wird von den thalamoperforierenden und thalamogenikulären Ästen der A. cerebri posterior versorgt."
+  ],
+  "aliases": [
+   "Thalamus",
+   "Zwischenhirn"
+  ]
+ },
+ "hypothalamus": {
+  "tr": "Hypothalamus",
+  "summary": "Ein kleiner, aber lebenswichtiger Teil des Zwischenhirns unter dem Thalamus, der den Boden des dritten Ventrikels bildet. Er ist die oberste Steuerzentrale des autonomen Nervensystems und des Hormonsystems.",
+  "facts": [
+   "Diencephalon; Boden und untere Seitenwände des dritten Ventrikels; darunter der Hypophysenstiel (Infundibulum)",
+   "Chiasma opticum, Tuber cinereum, Infundibulum, Corpora mamillaria",
+   "Supraoptischer und paraventrikulärer Kern (ADH, Oxytocin), suprachiasmatischer (innere Uhr), arcuatus (Releasing-Hormone, Appetit), ventromedialer (Sättigung), lateraler (Hunger), präoptischer (Temperaturregulation)",
+   "Mit der Neurohypophyse über Nervenfasern, mit der Adenohypophyse über ein Portalsystem verbunden"
+  ],
+  "sections": [
+   [
+    "Homöostase",
+    "Er regelt Körpertemperatur, Hunger und Sättigung, Durst und Wasserhaushalt, den Schlaf-wach-Rhythmus, die Stressreaktion, das Fortpflanzungsverhalten und autonome Funktionen (Herzfrequenz, Blutdruck)."
+   ]
+  ],
+  "clinical": [
+   "Eine Schädigung des Nucleus supraopticus oder des Hypophysenstiels führt zum zentralen Diabetes insipidus (große Harnmengen und Durst).",
+   "Ein Kraniopharyngeom, das auf den Hypothalamus drückt, kann Adipositas, Schlafstörungen und endokrine Ausfälle verursachen."
+  ],
+  "tus": [
+   "Eine Läsion des lateralen Hypothalamus führt zum Verlust des Hungergefühls (Anorexie), eine ventromediale Läsion zu Hyperphagie und Adipositas.",
+   "Der vordere Hypothalamus steuert die Wärmeabgabe (Schwitzen, Vasodilatation), der hintere die Wärmeerhaltung."
+  ],
+  "aliases": [
+   "Hypothalamus"
+  ]
+ },
+ "ventriculi-cerebri": {
+  "tr": "Hirnventrikel und Liquor",
+  "summary": "Vier miteinander verbundene, mit Liquor cerebrospinalis gefüllte Hohlräume im Gehirn: zwei Seitenventrikel, der dritte und der vierte Ventrikel.",
+  "facts": [
+   "Seitenventrikel (je einer pro Hemisphäre, mit Vorder-, Hinter- und Unterhorn), dritter Ventrikel (Zwischenhirn), vierter Ventrikel (zwischen Pons–Medulla und Kleinhirn)",
+   "Foramen interventriculare (Monro): Seitenventrikel → 3.; Aqueductus mesencephali (Sylvius): 3. → 4.; Apertura mediana (Magendie) und Aperturae laterales (Luschka): 4. → Subarachnoidalraum",
+   "Plexus choroideus; etwa 500 mL pro Tag, Gesamtmenge etwa 150 mL",
+   "Über die Granulationes arachnoideae in den Sinus sagittalis superior"
+  ],
+  "sections": [],
+  "clinical": [
+   "Ein behinderter Liquorabfluss (z. B. Aquäduktstenose) verursacht einen Verschlusshydrozephalus; ein ventrikuloperitonealer Shunt kann angelegt werden.",
+   "Der per Lumbalpunktion gewonnene Liquor wird zur Diagnose von Meningitis und Subarachnoidalblutung untersucht."
+  ],
+  "tus": [
+   "Das Vorderhorn des Seitenventrikels liegt im Frontal-, das Unterhorn im Temporal- und das Hinterhorn im Okzipitallappen.",
+   "Der Plexus choroideus liegt in Körper und Unterhorn des Seitenventrikels und im Dach des 3. und 4. Ventrikels; Vorder- und Hinterhorn enthalten keinen."
+  ],
+  "aliases": [
+   "Ventrikel",
+   "Liquor",
+   "Hirnwasser"
+  ]
+ },
+ "mesencephalon": {
+  "tr": "Mittelhirn",
+  "summary": "Der oberste Abschnitt des Hirnstamms zwischen Zwischenhirn und Pons. Es ist an visuellen und akustischen Reflexen, Augenbewegungen und der Motorik beteiligt.",
+  "facts": [
+   "Tectum (Colliculi superiores – visuelle Reflexe, Colliculi inferiores – Hören), Tegmentum (Nucleus ruber, Kerne des III. und IV. Hirnnervs), Crura cerebri (kortikospinale Fasern), Substantia nigra",
+   "N. oculomotorius (III) – aus der Fossa interpeduncularis; N. trochlearis (IV) – als einziger Nerv an der Rückseite",
+   "Aqueductus mesencephali"
+  ],
+  "sections": [],
+  "clinical": [
+   "Weber-Syndrom: Läsion von Crus cerebri und N. oculomotorius – ipsilaterale Okulomotoriusparese mit kontralateraler Hemiplegie.",
+   "Parinaud-Syndrom (bei Pinealistumoren): vertikale Blicklähmung nach oben."
+  ],
+  "tus": [
+   "Im Mittelhirnquerschnitt liegen dorsal die Colliculi (obere: visuelle Reflexe, untere: Hören), in der Mitte der Aquädukt und ventral die Pedunculi cerebri.",
+   "Parinaud-Syndrom (Pinealistumor): Blickparese nach oben, Licht-Nah-Dissoziation."
+  ],
+  "aliases": [
+   "Mesencephalon",
+   "Mittelhirn"
+  ]
+ },
+ "pons": {
+  "tr": "Brücke (Pons)",
+  "summary": "Der mittlere Abschnitt des Hirnstamms, eine vorn deutlich vorgewölbte Wulst querer Fasern vor dem Kleinhirn. Er verbindet Großhirn und Kleinhirn und wirkt an der Atemregulation mit.",
+  "facts": [
+   "Pars basilaris (vorn; Brückenkerne, kortikospinale Fasern) und Tegmentum (hinten)",
+   "N. trigeminus (V) – an der vorderen Seitenfläche; N. abducens (VI), N. facialis (VII) und N. vestibulocochlearis (VIII) – an der Brücken-Medulla-Grenze",
+   "Über den Pedunculus cerebellaris medius zum Kleinhirn",
+   "Brückenäste der A. basilaris"
+  ],
+  "sections": [],
+  "clinical": [
+   "Große Läsionen der Brückenbasis verursachen ein Locked-in-Syndrom: Der Patient ist bei Bewusstsein, kann sich aber nur durch vertikale Augenbewegungen und Lidschlag verständigen.",
+   "Ein zu schneller Natriumausgleich kann eine zentrale pontine Myelinolyse auslösen."
+  ],
+  "tus": [
+   "Ventral enthält die Brücke kortikospinale Fasern und die Brückenkerne, dorsal (Tegmentum) die Hirnnervenkerne.",
+   "Die zentrale pontine Myelinolyse folgt einem zu raschen Ausgleich einer Hyponatriämie."
+  ],
+  "aliases": [
+   "Pons",
+   "Brücke"
+  ]
+ },
+ "medulla-oblongata": {
+  "tr": "Verlängertes Mark (Medulla oblongata)",
+  "summary": "Der unterste Abschnitt des Hirnstamms, der in Höhe des Foramen magnum ins Rückenmark übergeht. Er enthält lebenswichtige Zentren für Atmung, Herzschlag und Blutdruck.",
+  "facts": [
+   "Pyramiden (kortikospinale Fasern – an ihrem unteren Ende gekreuzt: Decussatio pyramidum), Oliven, Tuberculum gracile und cuneatum",
+   "N. glossopharyngeus (IX), N. vagus (X) und N. accessorius (XI) – aus der seitlichen Furche; N. hypoglossus (XII) – zwischen Pyramide und Olive",
+   "Atemzentrum, Kreislaufzentrum, Reflexzentren für Erbrechen, Husten und Schlucken"
+  ],
+  "sections": [],
+  "clinical": [
+   "Wallenberg-Syndrom (laterales Medulla-oblongata-Syndrom): Verschluss der A. vertebralis/PICA – Ausfall von Schmerz- und Temperaturempfinden im gleichseitigen Gesicht und am gegenseitigen Körper, Dysphagie, Heiserkeit, Horner-Syndrom, Ataxie.",
+   "Bei erhöhtem Hirndruck drückt die Einklemmung der Kleinhirntonsillen ins Foramen magnum auf die Medulla und führt zum Atemstillstand."
+  ],
+  "tus": [
+   "Die Medulla enthält Atem- und Kreislaufzentren; die Einklemmung ins Foramen magnum ist tödlich.",
+   "Die Area postrema (Brechzentrum) ist eine Region ohne Blut-Hirn-Schranke."
+  ],
+  "aliases": [
+   "Medulla oblongata",
+   "Nachhirn"
+  ]
+ },
+ "cerebellum": {
+  "tr": "Kleinhirn",
+  "summary": "Das „kleine Gehirn“ in der hinteren Schädelgrube hinter dem Hirnstamm. Es ist für die Koordination von Bewegungen, Gleichgewicht, Muskeltonus und motorisches Lernen zuständig.",
+  "facts": [
+   "Vermis in der Mitte, Kleinhirnhemisphären beiderseits; Lobus anterior, posterior und flocculonodularis",
+   "Pedunculus cerebellaris superior (zum Mittelhirn), medius (zur Pons) und inferior (zur Medulla)",
+   "Nucleus dentatus, emboliformis, globosus und fastigii",
+   "Vestibulocerebellum (Gleichgewicht, Augenbewegungen), Spinocerebellum (Koordination von Rumpf und Extremitäten), Cerebrocerebellum (Bewegungsplanung)",
+   "A. superior cerebelli, A. inferior anterior cerebelli (AICA), A. inferior posterior cerebelli (PICA)"
+  ],
+  "sections": [
+   [
+    "Regel der gleichen Seite",
+    "Jede Kleinhirnhemisphäre steuert dieselbe Körperseite; eine einseitige Läsion verursacht eine gleichseitige Koordinationsstörung."
+   ]
+  ],
+  "clinical": [
+   "Kleinhirnläsionen verursachen Ataxie, Dysmetrie (Zielverfehlen beim Finger-Nase-Versuch), Dysdiadochokinese, Intentionstremor, Nystagmus und Dysarthrie (skandierende Sprache).",
+   "Alkohol schädigt vor allem den Vermis und führt zu einem breitbasigen Gang (Rumpfataxie)."
+  ],
+  "tus": [
+   "Kleinhirnläsionen machen gleichseitige Symptome (die Bahnen kreuzen zweimal).",
+   "Blutversorgung des Kleinhirns: SCA (obere Fläche), AICA (vordere untere Fläche), PICA (hintere untere Fläche)."
+  ],
+  "aliases": [
+   "Cerebellum",
+   "Kleinhirn"
+  ]
+ },
+ "medulla-spinalis": {
+  "tr": "Rückenmark",
+  "summary": "Der zylinderförmige Teil des Zentralnervensystems im Wirbelkanal, vom Foramen magnum bis zum Conus medullaris in Höhe der Wirbel L1–L2 beim Erwachsenen. Es gibt 31 Spinalnervenpaare ab.",
+  "facts": [
+   "Beim Erwachsenen 42–45 cm",
+   "8 zervikale, 12 thorakale, 5 lumbale, 5 sakrale, 1 kokzygeales",
+   "Intumescentia cervicalis (C4–T1; Armnerven) und Intumescentia lumbosacralis (L2–S3; Beinnerven)",
+   "Zentral H-förmige graue Substanz (Vorderhorn – motorisch, Hinterhorn – sensibel, Seitenhorn – sympathisch T1–L2), umgeben von Strängen weißer Substanz (Funiculi)",
+   "A. spinalis anterior (vordere zwei Drittel), Aa. spinales posteriores (hinteres Drittel), Segmentarterien (A. radicularis magna – Adamkiewicz)"
+  ],
+  "sections": [
+   [
+    "Hauptbahnen",
+    "Hinterstränge (Fasciculus gracilis und cuneatus): feine Berührung und Lagesinn, Kreuzung in der Medulla. Tractus spinothalamicus: Schmerz und Temperatur, Kreuzung im Rückenmark auf Höhe des Eintritts. Tractus corticospinalis lateralis: Willkürmotorik, bereits in der Medulla gekreuzt."
+   ]
+  ],
+  "clinical": [
+   "Brown-Séquard-Syndrom (Halbseitenläsion): auf der Läsionsseite Ausfall von Motorik und Lagesinn, auf der Gegenseite Ausfall von Schmerz- und Temperaturempfinden.",
+   "Beim A.-spinalis-anterior-Syndrom bleiben die Hinterstrangqualitäten erhalten.",
+   "Die Höhe einer Rückenmarksverletzung entscheidet über Tetraplegie (zervikal) oder Paraplegie (thorakal und tiefer)."
+  ],
+  "tus": [
+   "Die zervikale und lumbale Anschwellung entsprechen den Segmenten, aus denen Arm- und Beinplexus hervorgehen.",
+   "Das Rückenmark wird von der A. spinalis anterior (vordere zwei Drittel) und zwei Aa. spinales posteriores versorgt; die Adamkiewicz-Arterie ist die Hauptversorgung des unteren Brust- und Lendenmarks."
+  ],
+  "aliases": [
+   "Rückenmark",
+   "Medulla spinalis"
+  ]
+ },
+ "cauda-equina": {
+  "tr": "Cauda equina",
+  "summary": "Das Bündel lumbaler, sakraler und kokzygealer Nervenwurzeln, das unterhalb des Rückenmarkendes am Conus medullaris im Wirbelkanal abwärts zieht.",
+  "facts": [
+   "Vom Wirbel L2 bis zum Kreuzbein, in der Cisterna lumbalis",
+   "Spinalnervenwurzeln L2–Co1 und Filum terminale"
+  ],
+  "sections": [],
+  "clinical": [
+   "Kauda-Syndrom (z. B. durch einen großen medialen Bandscheibenvorfall): Reithosenanästhesie, Harn- und Stuhlinkontinenz oder -verhalt, Beinschwäche – ein chirurgischer Notfall.",
+   "Bei der Lumbalpunktion weichen die Wurzeln der Nadel aus, das Rückenmark wird nicht verletzt; daher sind L3–L4 / L4–L5 sicher."
+  ],
+  "tus": [
+   "Das Konus-Syndrom beginnt plötzlicher und symmetrisch, das Kauda-Syndrom eher asymmetrisch und schmerzhaft."
+  ],
+  "aliases": [
+   "Cauda equina",
+   "Pferdeschweif"
+  ]
+ }
+}

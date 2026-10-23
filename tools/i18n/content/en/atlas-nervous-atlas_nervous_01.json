@@ -1,0 +1,261 @@
+{
+ "corpus-callosum": {
+  "tr": "Corpus callosum",
+  "summary": "The largest commissure, made of about 200 million nerve fibres, linking the two cerebral hemispheres.",
+  "facts": [
+   "Rostrum, genu, body (truncus), splenium",
+   "Anterior commissure, posterior commissure, commissure of the fornix (hippocampal commissure)",
+   "Anterior cerebral artery (pericallosal artery) and posterior cerebral artery (splenium)"
+  ],
+  "sections": [],
+  "clinical": [
+   "In drug-resistant epilepsy the corpus callosum may be cut (callosotomy); in 'split-brain' patients the transfer of information between the hemispheres is disrupted.",
+   "Agenesis of the corpus callosum is a congenital anomaly."
+  ],
+  "tus": [
+   "Agenesis or section of the corpus callosum causes disconnection syndromes (inability to write with the left hand, left-hand anomia)."
+  ],
+  "aliases": [
+   "corpus callosum"
+  ]
+ },
+ "nuclei-basales": {
+  "tr": "Basal nuclei (basal ganglia)",
+  "summary": "Masses of grey matter deep in the cerebral hemispheres that take part in starting and regulating movement and in motor learning.",
+  "facts": [
+   "Caudate nucleus, putamen, globus pallidus (putamen + globus pallidus = lentiform nucleus; caudate nucleus + putamen = corpus striatum); functionally also the subthalamic nucleus and the substantia nigra",
+   "The direct pathway facilitates movement, the indirect pathway suppresses it; dopamine from the substantia nigra keeps them in balance",
+   "The internal capsule runs between the caudate nucleus and thalamus on one side and the lentiform nucleus on the other"
+  ],
+  "sections": [],
+  "clinical": [
+   "Parkinson's disease results from loss of the dopaminergic neurons of the substantia nigra: resting tremor, rigidity, bradykinesia.",
+   "In Huntington's disease atrophy of the caudate nucleus causes chorea (involuntary dance-like movements) and dementia.",
+   "In Wilson's disease copper deposits affect the putamen in particular."
+  ],
+  "tus": [
+   "Corpus striatum: caudate nucleus + putamen; lentiform nucleus: putamen + globus pallidus.",
+   "In Wilson's disease copper accumulates mainly in the putamen."
+  ],
+  "aliases": [
+   "basal ganglia",
+   "striatum",
+   "putamen",
+   "caudate nucleus"
+  ]
+ },
+ "thalamus": {
+  "tr": "Thalamus",
+  "summary": "An egg-shaped mass of grey matter on each side of the third ventricle, forming the largest part of the diencephalon. It is the relay station for all senses except smell on their way to the cortex.",
+  "facts": [
+   "Diencephalon; lateral wall of the third ventricle",
+   "VPL (body sensation), VPM (face sensation and taste), lateral geniculate body (vision), medial geniculate body (hearing), VA/VL (motor – input from the basal nuclei and cerebellum), anterior nuclei (limbic), pulvinar",
+   "Branches of the posterior cerebral artery and posterior communicating artery"
+  ],
+  "sections": [],
+  "clinical": [
+   "A thalamic stroke can cause loss of all sensation on the opposite side, later followed by severe burning pain (Dejerine–Roussy thalamic pain syndrome)."
+  ],
+  "tus": [
+   "The largest thalamic nucleus is the pulvinar, which is involved in visual attention.",
+   "The thalamus is supplied by the thalamoperforating and thalamogeniculate branches of the posterior cerebral artery."
+  ],
+  "aliases": [
+   "thalamus",
+   "diencephalon"
+  ]
+ },
+ "hypothalamus": {
+  "tr": "Hypothalamus",
+  "summary": "A small but vital part of the diencephalon below the thalamus, forming the floor of the third ventricle. It is the main control centre of the autonomic nervous system and the endocrine system.",
+  "facts": [
+   "Diencephalon; floor and lower lateral walls of the third ventricle; the pituitary stalk (infundibulum) below",
+   "Optic chiasm, tuber cinereum, infundibulum, mammillary bodies",
+   "Supraoptic and paraventricular (ADH, oxytocin), suprachiasmatic (biological clock), arcuate (releasing hormones, appetite), ventromedial (satiety), lateral (hunger), preoptic (temperature control)",
+   "Connected to the neurohypophysis by nerve fibres and to the adenohypophysis by a portal venous system"
+  ],
+  "sections": [
+   [
+    "Homeostasis",
+    "It regulates body temperature, hunger and satiety, thirst and water balance, the sleep–wake cycle, the stress response, reproductive behaviour and autonomic functions (heart rate, blood pressure)."
+   ]
+  ],
+  "clinical": [
+   "Damage to the supraoptic nucleus or the pituitary stalk causes central diabetes insipidus (excessive urine and thirst).",
+   "A craniopharyngioma pressing on the hypothalamus can cause obesity, sleep disturbance and endocrine failure."
+  ],
+  "tus": [
+   "A lesion of the lateral hypothalamus causes loss of hunger (anorexia); a ventromedial lesion causes hyperphagia and obesity.",
+   "The anterior hypothalamus drives heat loss (sweating, vasodilatation), the posterior hypothalamus heat conservation."
+  ],
+  "aliases": [
+   "hypothalamus"
+  ]
+ },
+ "ventriculi-cerebri": {
+  "tr": "Ventricles of the brain and CSF",
+  "summary": "Four interconnected cavities inside the brain, filled with cerebrospinal fluid (CSF): two lateral ventricles, the third and the fourth ventricle.",
+  "facts": [
+   "Lateral ventricles (one in each hemisphere, with anterior, posterior and inferior horns), third ventricle (diencephalon), fourth ventricle (between pons–medulla and cerebellum)",
+   "Interventricular foramen (Monro): lateral → 3rd; cerebral aqueduct (Sylvius): 3rd → 4th; median aperture (Magendie) and lateral apertures (Luschka): 4th → subarachnoid space",
+   "Choroid plexus; about 500 mL a day, total volume about 150 mL",
+   "Through the arachnoid granulations into the superior sagittal sinus"
+  ],
+  "sections": [],
+  "clinical": [
+   "Blocked CSF flow (for example aqueductal stenosis) causes obstructive hydrocephalus; a ventriculoperitoneal shunt may be placed.",
+   "CSF obtained by lumbar puncture is examined to diagnose meningitis and subarachnoid haemorrhage."
+  ],
+  "tus": [
+   "The anterior horn of the lateral ventricle lies in the frontal lobe, the inferior horn in the temporal lobe and the posterior horn in the occipital lobe.",
+   "The choroid plexus lies in the body and inferior horn of the lateral ventricle and in the roof of the 3rd and 4th ventricles; there is none in the anterior and posterior horns."
+  ],
+  "aliases": [
+   "ventricle",
+   "CSF",
+   "cerebrospinal fluid"
+  ]
+ },
+ "mesencephalon": {
+  "tr": "Midbrain",
+  "summary": "The uppermost part of the brainstem, between the diencephalon and the pons. It takes part in visual and auditory reflexes, eye movements and motor control.",
+  "facts": [
+   "Tectum (superior colliculi – visual reflexes, inferior colliculi – hearing), tegmentum (red nucleus, nuclei of nerves III and IV), cerebral crura (corticospinal fibres), substantia nigra",
+   "Oculomotor nerve (III) – from the interpeduncular fossa; trochlear nerve (IV) – the only nerve to leave from the back",
+   "Cerebral aqueduct"
+  ],
+  "sections": [],
+  "clinical": [
+   "Weber syndrome: a lesion of the cerebral crus and oculomotor nerve – ipsilateral third nerve palsy with contralateral hemiplegia.",
+   "Parinaud syndrome (in pineal tumours): paralysis of upward gaze."
+  ],
+  "tus": [
+   "In a section of the midbrain the colliculi lie dorsally (superior: visual reflexes, inferior: hearing), the aqueduct in the middle and the cerebral peduncles ventrally.",
+   "Parinaud syndrome (pineal tumour): upward gaze palsy, light–near dissociation."
+  ],
+  "aliases": [
+   "mesencephalon",
+   "midbrain"
+  ]
+ },
+ "pons": {
+  "tr": "Pons",
+  "summary": "The middle part of the brainstem, a prominent swelling of transverse fibres at the front, in front of the cerebellum. It links the cerebrum with the cerebellum and takes part in the control of breathing.",
+  "facts": [
+   "Basilar part (front; pontine nuclei, corticospinal fibres) and tegmentum (back)",
+   "Trigeminal nerve (V) – from the anterolateral surface; abducens (VI), facial (VII) and vestibulocochlear (VIII) nerves – from the pontomedullary groove",
+   "To the cerebellum through the middle cerebellar peduncle",
+   "Pontine branches of the basilar artery"
+  ],
+  "sections": [],
+  "clinical": [
+   "Large lesions of the basal pons cause locked-in syndrome: the patient is conscious but can communicate only with vertical eye movements and blinking.",
+   "Correcting sodium too quickly can cause central pontine myelinolysis."
+  ],
+  "tus": [
+   "Ventrally the pons contains corticospinal fibres and the pontine nuclei, dorsally (tegmentum) the cranial nerve nuclei.",
+   "Central pontine myelinolysis follows too rapid correction of hyponatraemia."
+  ],
+  "aliases": [
+   "pons"
+  ]
+ },
+ "medulla-oblongata": {
+  "tr": "Medulla oblongata",
+  "summary": "The lowest part of the brainstem, continuous with the spinal cord at the level of the foramen magnum. It contains vital centres such as those for breathing, heartbeat and blood pressure.",
+  "facts": [
+   "Pyramids (corticospinal fibres – crossing at their lower end: decussation of the pyramids), olives, gracile and cuneate tubercles",
+   "Glossopharyngeal (IX), vagus (X) and accessory (XI) nerves – from the lateral groove; hypoglossal nerve (XII) – between the pyramid and the olive",
+   "Respiratory centre, cardiovascular centre, reflex centres for vomiting, coughing and swallowing"
+  ],
+  "sections": [],
+  "clinical": [
+   "Wallenberg (lateral medullary) syndrome: occlusion of the vertebral artery/PICA – loss of pain and temperature on the same side of the face and the opposite side of the body, dysphagia, hoarseness, Horner syndrome, ataxia.",
+   "With raised intracranial pressure, herniation of the cerebellar tonsils into the foramen magnum compresses the medulla and stops breathing."
+  ],
+  "tus": [
+   "The medulla holds the respiratory and cardiovascular centres; herniation into the foramen magnum is fatal.",
+   "The area postrema (vomiting centre) is a region without a blood–brain barrier."
+  ],
+  "aliases": [
+   "medulla",
+   "bulb"
+  ]
+ },
+ "cerebellum": {
+  "tr": "Cerebellum",
+  "summary": "The 'little brain' in the posterior cranial fossa behind the brainstem. It is responsible for coordinating movement, balance, muscle tone and motor learning.",
+  "facts": [
+   "Vermis in the midline, the cerebellar hemispheres on either side; anterior, posterior and flocculonodular lobes",
+   "Superior (to the midbrain), middle (to the pons) and inferior (to the medulla) cerebellar peduncles",
+   "Dentate, emboliform, globose and fastigial nuclei",
+   "Vestibulocerebellum (balance, eye movements), spinocerebellum (coordination of trunk and limbs), cerebrocerebellum (planning of movement)",
+   "Superior cerebellar artery, anterior inferior cerebellar artery (AICA), posterior inferior cerebellar artery (PICA)"
+  ],
+  "sections": [
+   [
+    "Same-side rule",
+    "Each cerebellar hemisphere controls the same side of the body; a one-sided lesion causes incoordination on the same side."
+   ]
+  ],
+  "clinical": [
+   "Cerebellar lesions cause ataxia, dysmetria (missing the target in the finger–nose test), dysdiadochokinesia, intention tremor, nystagmus and dysarthria (scanning speech).",
+   "Alcohol mainly affects the vermis and causes a broad-based gait (truncal ataxia)."
+  ],
+  "tus": [
+   "Cerebellar lesions cause signs on the same side (the pathways cross twice).",
+   "Blood supply of the cerebellum: SCA (upper surface), AICA (anterior inferior surface), PICA (posterior inferior surface)."
+  ],
+  "aliases": [
+   "cerebellum"
+  ]
+ },
+ "medulla-spinalis": {
+  "tr": "Spinal cord",
+  "summary": "The cylindrical part of the central nervous system in the vertebral canal, running from the foramen magnum to the conus medullaris at the level of the L1–L2 vertebrae in adults. It gives off 31 pairs of spinal nerves.",
+  "facts": [
+   "42–45 cm in adults",
+   "8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal",
+   "Cervical enlargement (C4–T1; nerves of the arm) and lumbosacral enlargement (L2–S3; nerves of the leg)",
+   "H-shaped grey matter in the centre (anterior horn – motor, posterior horn – sensory, lateral horn – sympathetic T1–L2), surrounded by white matter columns (funiculi)",
+   "Anterior spinal artery (anterior two thirds), posterior spinal arteries (posterior third), segmental arteries (great radicular artery – Adamkiewicz)"
+  ],
+  "sections": [
+   [
+    "Main tracts",
+    "Posterior columns (gracile and cuneate fasciculi): fine touch and position sense, crossing in the medulla. Spinothalamic tract: pain and temperature, crossing in the cord at the level of entry. Lateral corticospinal tract: voluntary movement, already crossed in the medulla."
+   ]
+  ],
+  "clinical": [
+   "Brown-Séquard syndrome (hemisection): loss of motor function and position sense on the side of the lesion, loss of pain and temperature on the opposite side.",
+   "In anterior spinal artery syndrome the posterior column senses are preserved.",
+   "The level of a spinal cord injury decides whether tetraplegia (cervical) or paraplegia (thoracic and below) results."
+  ],
+  "tus": [
+   "The cervical and lumbar enlargements of the cord match the segments from which the arm and leg plexuses arise.",
+   "The cord is supplied by the anterior spinal artery (anterior two thirds) and two posterior spinal arteries; the artery of Adamkiewicz is the main supply of the lower thoracic and lumbar region."
+  ],
+  "aliases": [
+   "spinal cord"
+  ]
+ },
+ "cauda-equina": {
+  "tr": "Cauda equina",
+  "summary": "The bundle of lumbar, sacral and coccygeal nerve roots that runs down in the vertebral canal below the end of the spinal cord at the conus medullaris.",
+  "facts": [
+   "From the L2 vertebra to the sacrum, in the lumbar cistern",
+   "Spinal nerve roots L2–Co1 and the filum terminale"
+  ],
+  "sections": [],
+  "clinical": [
+   "Cauda equina syndrome (for example from a large central disc herniation): saddle anaesthesia, urinary and faecal incontinence or retention, weakness of the legs – it needs emergency surgery.",
+   "In a lumbar puncture the needle pushes the roots aside and does not harm the cord; this is why L3–L4 / L4–L5 are safe."
+  ],
+  "tus": [
+   "Conus medullaris syndrome is more sudden and symmetrical, cauda equina syndrome more asymmetrical and painful."
+  ],
+  "aliases": [
+   "cauda equina"
+  ]
+ }
+}

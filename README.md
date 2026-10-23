@@ -8,7 +8,7 @@ atlasa, Keşfet'e, soru bankasına ve bilgi kartlarına geri gelir.
 
 ## Özellikler
 
-- **3D atlas**: 9 katman (iskelet, eklemler ve bağlar, kaslar, kas yapışma yerleri, kalp ve damarlar, lenfoid organlar, sinir sistemi ve duyu organları, iç organlar, deri ve bölgeler) ve yaklaşık 3.900 seçilebilir parça; bu sürümde ilk beşi açıktır.
+- **3D atlas**: 9 katman (iskelet, eklemler ve bağlar, kaslar, kas yapışma yerleri, kalp ve damarlar, lenfoid organlar, sinir sistemi ve duyu organları, iç organlar, deri ve bölgeler) ve yaklaşık 3.900 seçilebilir parça; bu sürümde iskelet, eklemler, kaslar, kas yapışma yerleri, kalp ve damarlar ile sinir sistemi açıktır.
   - Döndürme, kaydırma, yakınlaştırma; dokunarak seçme, odaklama, izole etme, gizleme ve saydamlaştırma
   - Uzaklığa göre detay seviyesi (LOD, meshoptimizer): tüm vücut 4,3 milyon yerine ~0,8 milyon üçgenle çizilir; ekranda görünmeyen parçalar en kaba seviyede tutulur
   - 32 baytlık sıkıştırılmış köşe biçimi, dokulu yüzey gölgelendiricisi (clearcoat), ekran yenilemesine bağlı kamera animasyonları, ana iş parçacığı dışında seçim ve etiket hesabı
@@ -17,6 +17,7 @@ atlasa, Keşfet'e, soru bankasına ve bilgi kartlarına geri gelir.
   - **İki ayrı model (Erkek / Kadın)**: araç çubuğundaki seçiciyle değişir. Deri BodyParts3D'nin kendi derisidir (iskeletle aynı bedenden), bu yüzden kemik ve dokulara birebir uyar; sade bir yüzeydir (doku resmi ve kıl yok), gözler atlasın kendi göz küreleridir. Kadın modelinde deri ve bütün katmanlar kadın bedenine bir hacim dönüşüm alanıyla (`warp-female.bin`) taşınır; göğüs ve kasık biçimi MakeHuman (CC0) kadın bedeninden alınır, yumuşak dokular köşe başına düzeltmelerle (`female-fix.bin`) derinin altında tutulur. Deri katmanı beta olarak işaretlidir.
   - Kaynak modellerde olmayan yapılar çevre anatomiye göre modellendi: vajina, kadın üretrası, kadın dış genital bölge derisi, skrotum, perikard, ductus thoracicus, cisterna chyli, sağ lenf kanalı, faringeal (adenoid) ve lingual tonsil; çekum ve anal kanal kolon ve rektumdan ayrıldı
   - **Gerçekçi** ve **Öğretici** renk modları
+  - **Diseksiyon** paneli (araç çubuğundaki makas): **kas katmanları** kaydırıcısı kasları yüzeyelden derine soyar (6 katman, `muscle-layers.json`; `tools/dissection_layers.py` Blender'da her kasın dışarıdan görünen yüzeyini ölçerek katmanları sırayla çıkarır), **kesit** yatay, sagital ya da koronal bir düzlemle modeli keser; kesilen yüzler koyu bir kesit rengiyle gösterilir ve kesilen taraf değiştirilebilir (`AnatomyScene+Section.swift`, gölgelendiricinin `anatomySurfaceSection` sürümü). Panelde röntgen görünümü de vardır
   - Seçilen yapıya kamera yumuşakça yaklaşır ve onu seçim kartının üstünde ortalar (Profil > Ayarlar'dan kapatılabilir)
   - **Sade görünüm**: sistem çubuğu ve arama tek düğmeye katlanır, araç çubuğu yalnızca simgelerle gösterilir; model ekranın tamamını kullanır
   - Her parçanın Türkçe adı, Latince adı ve kısa Türkçe açıklaması (2.993 terim)
@@ -27,14 +28,16 @@ atlasa, Keşfet'e, soru bankasına ve bilgi kartlarına geri gelir.
   - "Oluşumlar" listesi: yapının tüm işaretli oluşumları aranabilir listede; seçilen oluşuma kamera gider ve bölgesi renklenir
 - **İçerik**: açık sistemlerde 369 Türkçe madde (72 kemik ve iskelet yapısı, 45 eklem ve bağ, 206 kas, 46 kalp ve damar; kasların çoğu tek tek, gruplarına bağlı olarak), paket içinde 13 sistemde 564 madde. Her maddede Türkçe, Latince (TA2) ve İngilizce ad, temel bilgiler (origo, insersiyo, innervasyon, kanlanma, dallar…), bölümler, klinik bilgi, **TUS notları**, ilişkili yapılar ve 3D karşılığı bulunur.
 - **Çalış**:
-  - **Soru bankası**: açık sistemlerde 760 özgün soru (kemik 218, eklem 142, kas 260, kalp ve damar 140; paket içinde toplam 1.078), üç düzey (**Temel**, Fakülte, TUS), beş seçenek, ayrıntılı açıklama ve çoğunda seçenek notları; sistem, konu ve düzey bazında testler
+  - **Soru bankası**: açık sistemlerde 900 özgün soru (kemik 218, eklem 142, kas 260, kalp ve damar 140, sinir sistemi 140; paket içinde toplam 1.125), üç düzey (**Temel**, Fakülte, TUS), beş seçenek, ayrıntılı açıklama ve çoğunda seçenek notları; sistem, konu ve düzey bazında testler
   - Atlas maddelerinden üretilen sorular: Latince terimler, ayrıntı soruları (özelliklerden yapıyı bulma dahil), tanım, 3D tanıma, **kas ve sinirleri** ("hangisi n. femoralis tarafından innerve EDİLMEZ?"; sinir aileleri dalları kapsar), **kemik oluşumları** (488 oluşum: hangi kemikte, hangi kemikte bulunur), grup üyeliği ve TUS/klinik notlarından yapıyı bulma
   - **Deneme sınavları** (mini, temel tekrar, TUS, komite, maraton): süreli, soru haritası, işaretleme, TUS neti, sistemlere göre sonuç ve tüm soruların açıklamalı incelemesi
   - Yanlışlarım, işaretlediklerim, zayıf konular
-  - **Aralıklı tekrar** bilgi kartları (Tekrar / Zor / İyi / Kolay): 6 deste ve yaklaşık 3.000 kart (yapı, Latince ad, origo–insersiyo–sinir ve diğer ayrıntılar, kemik oluşumları, TUS bilgileri, klinik bilgiler); her kartın kendi takvimi vardır, sistem ve konu seçilebilir
+  - **Aralıklı tekrar** bilgi kartları (Tekrar / Zor / İyi / Kolay): 6 deste ve 3.000'i aşkın kart (yapı, Latince ad, origo–insersiyo–sinir ve diğer ayrıntılar, kemik oluşumları, TUS bilgileri, klinik bilgiler); her kartın kendi takvimi vardır, sistem ve konu seçilebilir
   - **İstatistikler**: 30 günlük grafik, sistemlere göre başarı, en zayıf yapılar, deneme netleri; günlük hedef ve seri
+  - **Günlük tekrar hatırlatması** (Profil): seçilen saatte, o gün çalışılmadıysa bekleyen kart sayısıyla bildirim; 7 gün ileriye planlanır ve uygulama arka plana geçtikçe yenilenir (`ReviewReminder.swift`). Bildirime dokununca Çalış sekmesi açılır
   - Her madde sayfasında "Bu konudan soru çöz"
-- **Premium** (StoreKit 2; aylık, yıllık, ömür boyu): ücretsiz sürümde iskelet sistemi ve günde 10 soru açıktır; diğer sistemler, inceleme modu, kadın anatomisi, deneme sınavları ve istatistikler Premium'dadır.
+- **Premium** (StoreKit 2; aylık, yıllık, ömür boyu): ücretsiz sürümde iskelet sistemi ve günde 10 soru açıktır; diğer sistemler, inceleme modu, kadın anatomisi, deneme sınavları ve istatistikler Premium'dadır. Aboneliği bitmiş kullanıcıya App Store Connect'te tanımlanan **kazandırma (win-back) teklifi** varsa satın alma ekranında o plan seçili gelir ve teklif "Sana özel" olarak gösterilir.
+- **Tanılama**: MetricKit çökme ve performans raporları cihazda saklanır (en fazla 20); Profil'deki "Tanılama raporlarını gönder" ile kullanıcı isterse paylaşır (`Diagnostics.swift`). Atlas ve inceleme yükleme süreleri signpost olarak ölçülür.
 - **Profil**: Premium durumu, sistem bazında ilerleme, ayarlar (renk modu, üreme organları, çalışma düzeyi, günlük hedef), favoriler, son bakılanlar, kaynaklar ve lisanslar.
 
 ## Proje yapısı
@@ -137,6 +140,7 @@ Betik maddelerin `models` alanının gerçekten bir 3D parçaya karşılık geld
 - `-AtlasGhost skeletal`: saydam başlayacak katmanlar
 - `-AtlasCamera "x,y,z,mesafe,yaw"`: kamera konumu
 - `-AtlasHideSide muscular:r`: bir katmanın tek tarafını gizler
+- `-AtlasSection "horizontal,1.3[,above]"`: kesitle açar (`sagittal`, `horizontal` ya da `coronal`; düzlemin konumu metre cinsinden; üçüncü değer verilirse düzlemin üstü kalır)
 - `-AtlasNoChrome YES`: kontrolleri gizler
 - `-AtlasColors educational`: öğretici renklerle açar
 - `-AtlasInspect "Femur"`: açılışta bir yapıyı inceleme modunda gösterir

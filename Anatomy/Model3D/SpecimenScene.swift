@@ -7,6 +7,7 @@
 //  uploaded, so it opens quickly next to the main atlas.
 //
 
+import MetricKit
 import RealityKit
 import SwiftUI
 
@@ -152,6 +153,8 @@ final class SpecimenScene: ViewportScene {
     /// Loads `refs` (framed and labelled), `context` (shown around them) and
     /// `faded` (see-through around them, ignored by labels and taps).
     func load(refs: [PartRef], context: [PartRef] = [], faded: [PartRef] = [], mode: ColorMode) async {
+        mxSignpost(.begin, log: Diagnostics.log, name: "SpecimenLoad")
+        defer { mxSignpost(.end, log: Diagnostics.log, name: "SpecimenLoad") }
         let library = PackLibrary.shared
         let focus = Set(refs)
         let all = refs + context.filter { !focus.contains($0) }

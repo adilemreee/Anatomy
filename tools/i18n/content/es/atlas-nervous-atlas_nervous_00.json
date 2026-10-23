@@ -1,0 +1,251 @@
+{
+ "cerebrum": {
+  "tr": "Cerebro (telencéfalo)",
+  "summary": "La mayor parte del sistema nervioso central, dividida por una profunda hendidura media (fissura longitudinalis cerebri) en dos hemisferios. Su superficie plegada es sustancia gris (la corteza), responsable de la consciencia, el pensamiento, el lenguaje, la memoria, el movimiento voluntario y la percepción de los sentidos.",
+  "facts": [
+   "Unos 1300–1400 g en el adulto (encéfalo completo)",
+   "Lóbulos frontal, parietal, temporal, occipital, insular y límbico",
+   "Surco central (Rolando), surco lateral (Silvio), surco parietooccipital, fisura longitudinal del cerebro",
+   "Sustancia gris por fuera (corteza cerebral), sustancia blanca por dentro (fibras de asociación, comisurales y de proyección) y núcleos profundos (núcleos basales)",
+   "Arterias cerebrales anterior, media y posterior (polígono de Willis)"
+  ],
+  "sections": [
+   [
+    "Lateralización",
+    "En la mayoría de las personas (más del 95 % de los diestros) el hemisferio izquierdo es dominante para el lenguaje. El hemisferio derecho participa más en la percepción espacial, el reconocimiento de caras y el tono emocional del habla."
+   ],
+   [
+    "Fibras de la sustancia blanca",
+    "Las fibras de asociación unen áreas del mismo hemisferio, las comisurales (cuerpo calloso) unen ambos hemisferios y las de proyección (cápsula interna) unen la corteza con el tronco del encéfalo y la médula espinal."
+   ]
+  ],
+  "clinical": [
+   "El ictus afecta con más frecuencia al territorio de la arteria cerebral media: debilidad contralateral de predominio facial y braquial y afasia si se afecta el hemisferio dominante.",
+   "La escala de coma de Glasgow valora el nivel de consciencia mediante la apertura ocular y las respuestas verbal y motora."
+  ],
+  "tus": [
+   "Los hemisferios se dividen en lóbulos por el surco central (Rolando), el surco lateral (Silvio) y el surco parietooccipital.",
+   "La cara lateral del hemisferio está irrigada por la ACM, la medial por la ACA y las caras inferior y posterior por la ACP."
+  ],
+  "aliases": [
+   "cerebro",
+   "telencéfalo",
+   "hemisferio cerebral"
+  ]
+ },
+ "lobus-frontalis": {
+  "tr": "Lóbulo frontal",
+  "summary": "El lóbulo más grande del cerebro, situado por delante del surco central. Con él se relacionan la planificación y el inicio del movimiento voluntario, las funciones ejecutivas, la personalidad, la toma de decisiones y la producción del habla.",
+  "facts": [
+   "Por detrás el surco central, por debajo el surco lateral",
+   "Giro precentral – corteza motora primaria (Brodmann 4); área premotora y motora suplementaria (6); campo ocular frontal (8); área de Broca – habla motora (44, 45; hemisferio dominante); corteza prefrontal",
+   "Arteria cerebral media (cara lateral) y arteria cerebral anterior (cara medial)"
+  ],
+  "sections": [
+   [
+    "Homúnculo motor",
+    "El cuerpo está representado al revés en la corteza motora primaria: la pierna en la cara medial (lobulillo paracentral – territorio de la arteria cerebral anterior), el brazo y la cara en la cara lateral (territorio de la arteria cerebral media). La mano, la cara y la lengua ocupan áreas grandes."
+   ]
+  ],
+  "clinical": [
+   "En la afasia de Broca el habla no es fluida y cuesta esfuerzo, mientras que la comprensión se conserva relativamente.",
+   "El daño prefrontal produce cambios de personalidad, impulsividad y alteración de la planificación (caso de Phineas Gage).",
+   "Con una lesión del campo ocular frontal los ojos miran hacia el lado de la lesión."
+  ],
+  "tus": [
+   "El campo ocular frontal (área 8) controla las sacadas voluntarias; tras una lesión los ojos se desvían hacia el lado lesionado.",
+   "En el síndrome frontal pueden reaparecer reflejos primitivos (prensión, succión)."
+  ],
+  "aliases": [
+   "lóbulo frontal"
+  ]
+ },
+ "gyrus-precentralis": {
+  "tr": "Giro precentral (corteza motora)",
+  "summary": "La circunvolución situada justo delante del surco central, que contiene la corteza motora primaria encargada del movimiento voluntario. La mayor parte de los tractos corticoespinal y corticobulbar nace aquí.",
+  "facts": [
+   "4 (corteza motora primaria)",
+   "Células piramidales gigantes (células de Betz) – capa 5",
+   "Homúnculo motor: la pierna junto a la línea media, la cara abajo y lateral",
+   "Tracto corticoespinal (a la médula) y tracto corticonuclear (a los núcleos motores del tronco del encéfalo)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Su lesión produce debilidad contralateral de tipo motoneurona superior (espasticidad, hiperreflexia, signo de Babinski).",
+   "En la crisis jacksoniana las sacudidas se extienden a lo largo del homúnculo (por ejemplo de la mano al brazo y a la cara)."
+  ],
+  "tus": [
+   "La corteza motora primaria es el área 4; allí se encuentran las células de Betz (piramidales gigantes).",
+   "En el homúnculo motor la mano y la cara tienen una representación desproporcionadamente grande."
+  ],
+  "aliases": [
+   "corteza motora",
+   "área motora primaria"
+  ]
+ },
+ "lobus-parietalis": {
+  "tr": "Lóbulo parietal",
+  "summary": "El lóbulo situado entre el surco central y el surco parietooccipital. Se relaciona con la percepción e interpretación de las sensaciones somáticas (tacto, dolor, temperatura, posición), la orientación espacial y la atención.",
+  "facts": [
+   "Giro poscentral – corteza somatosensorial primaria (3, 1, 2); lobulillos parietales superior e inferior; giros supramarginal y angular (relacionados con el lenguaje, la lectura y la escritura en el hemisferio dominante)",
+   "Arteria cerebral media y arteria cerebral anterior"
+  ],
+  "sections": [],
+  "clinical": [
+   "La lesión del lóbulo parietal no dominante (por lo general el derecho) produce heminegligencia del lado opuesto.",
+   "La lesión del giro angular dominante produce el síndrome de Gerstmann: agrafia, acalculia, agnosia digital y confusión derecha–izquierda."
+  ],
+  "tus": [
+   "El lobulillo parietal superior se ocupa de la estereognosia y el esquema corporal; el inferior contiene los giros supramarginal y angular.",
+   "Las lesiones parietales pueden producir una cuadrantanopsia inferior contralateral."
+  ],
+  "aliases": [
+   "lóbulo parietal"
+  ]
+ },
+ "gyrus-postcentralis": {
+  "tr": "Giro poscentral (corteza sensitiva)",
+  "summary": "La circunvolución situada justo detrás del surco central, que contiene la corteza somatosensorial primaria; recibe el tacto, el dolor, la temperatura y la posición de la mitad opuesta del cuerpo.",
+  "facts": [
+   "3, 1, 2",
+   "Núcleos ventral posterolateral (cuerpo) y ventral posteromedial (cara) del tálamo",
+   "Homúnculo sensitivo; la mano, los labios y la lengua ocupan áreas grandes"
+  ],
+  "sections": [],
+  "clinical": [
+   "Su lesión produce pérdida contralateral del tacto fino y del sentido de posición y astereognosia (incapacidad para reconocer objetos al tacto)."
+  ],
+  "tus": [
+   "Las fibras de los núcleos talámicos VPL y VPM llegan al giro poscentral por el brazo posterior de la cápsula interna."
+  ],
+  "aliases": [
+   "corteza somatosensorial",
+   "corteza sensitiva"
+  ]
+ },
+ "lobus-temporalis": {
+  "tr": "Lóbulo temporal",
+  "summary": "El lóbulo situado por debajo del surco lateral. Se relaciona con la audición, la comprensión del lenguaje, la memoria y las emociones; en su cara medial se encuentran el hipocampo y la amígdala.",
+  "facts": [
+   "Giros temporales transversos (Heschl) – corteza auditiva primaria (41, 42); área de Wernicke – comprensión del lenguaje (22, hemisferio dominante); giros temporales superior, medio e inferior",
+   "Hipocampo, amígdala (corpus amygdaloideum), giro parahipocampal",
+   "Arteria cerebral media y arteria cerebral posterior"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la afasia de Wernicke el habla es fluida pero sin sentido y el lenguaje no se comprende.",
+   "La epilepsia del lóbulo temporal puede cursar con alucinaciones olfativas, déjà vu y automatismos.",
+   "La atrofia del lóbulo temporal medial (hipocampo) es un signo precoz de la enfermedad de Alzheimer."
+  ],
+  "tus": [
+   "La epilepsia temporal cursa con alucinaciones olfativas, déjà vu y automatismos.",
+   "En la herniación temporal (uncal) se comprime el nervio oculomotor; la pupila del mismo lado se dilata."
+  ],
+  "aliases": [
+   "lóbulo temporal"
+  ]
+ },
+ "lobus-occipitalis": {
+  "tr": "Lóbulo occipital",
+  "summary": "El lóbulo más posterior del cerebro; contiene el centro de la visión, donde se procesa la información visual.",
+  "facts": [
+   "Corteza visual primaria alrededor del surco calcarino (área estriada, Brodmann 17); áreas visuales de asociación (18, 19); cuña, giro lingual",
+   "Radiación óptica desde el cuerpo geniculado lateral",
+   "Arteria cerebral posterior (arteria calcarina)"
+  ],
+  "sections": [],
+  "clinical": [
+   "La lesión de una corteza visual produce una hemianopsia homónima contralateral; en la oclusión de la arteria cerebral posterior suele respetarse la mácula (doble irrigación).",
+   "La lesión bilateral produce ceguera cortical; en el síndrome de Anton el paciente niega estar ciego."
+  ],
+  "tus": [
+   "El polo occipital representa la mácula y está en la zona limítrofe entre ACM y ACP.",
+   "En la ceguera cortical (lesiones occipitales bilaterales) se conservan los reflejos pupilares a la luz (síndrome de Anton: negación de la ceguera)."
+  ],
+  "aliases": [
+   "lóbulo occipital",
+   "corteza visual"
+  ]
+ },
+ "insula": {
+  "tr": "Ínsula",
+  "summary": "Región de corteza oculta en el fondo del surco lateral, bajo los opérculos de los lóbulos frontal, parietal y temporal.",
+  "facts": [
+   "En el fondo del surco lateral, rodeada por el surco circular de la ínsula",
+   "Percepción del gusto (corteza gustativa primaria), interocepción (sensibilidad visceral), dolor, conciencia emocional, regulación autonómica",
+   "Ramas M2 (insulares) de la arteria cerebral media"
+  ],
+  "sections": [],
+  "clinical": [
+   "En el ictus de la arteria cerebral media la corteza insular se afecta pronto, lo que en la TC se ve como pérdida de la «cinta insular»."
+  ],
+  "tus": [
+   "La ínsula está en el fondo del surco lateral, sobre las ramas M2 de la ACM."
+  ],
+  "aliases": [
+   "lóbulo de la ínsula"
+  ]
+ },
+ "systema-limbicum": {
+  "tr": "Sistema límbico",
+  "summary": "Conjunto de estructuras dispuestas en anillo en la cara medial de los hemisferios cerebrales, responsable de las emociones, la motivación, el aprendizaje y la memoria.",
+  "facts": [
+   "Giro cingular, giro parahipocampal, hipocampo, amígdala, fórnix, cuerpos mamilares, núcleos septales, núcleos anteriores del tálamo, hipotálamo",
+   "Hipocampo → fórnix → cuerpo mamilar → tracto mamilotalámico → núcleos anteriores del tálamo → giro cingular → giro parahipocampal → hipocampo"
+  ],
+  "sections": [],
+  "clinical": [
+   "En el déficit de tiamina por alcoholismo crónico, la lesión de los cuerpos mamilares produce el síndrome de Wernicke–Korsakoff (pérdida de memoria, confabulación)."
+  ],
+  "tus": [
+   "Circuito de Papez: hipocampo → fórnix → cuerpo mamilar → tracto mamilotalámico → tálamo anterior → giro cingular → hipocampo."
+  ],
+  "aliases": [
+   "límbico",
+   "giro cingular",
+   "fórnix"
+  ]
+ },
+ "hippocampus": {
+  "tr": "Hipocampo",
+  "summary": "Banda de sustancia gris con forma de caballito de mar en la cara medial del lóbulo temporal, en el suelo del asta inferior del ventrículo lateral. Es esencial para almacenar información nueva en la memoria a largo plazo y para la orientación espacial.",
+  "facts": [
+   "Cara medial del lóbulo temporal, suelo del asta inferior del ventrículo lateral",
+   "Asta de Amón (CA1–CA4), giro dentado, subículo",
+   "Aferencias: corteza entorrinal; eferencias: por el fórnix a los cuerpos mamilares y los núcleos septales"
+  ],
+  "sections": [],
+  "clinical": [
+   "La lesión hipocampal bilateral impide formar recuerdos nuevos (amnesia anterógrada) – el caso de H.M.",
+   "El hipocampo es una de las regiones más sensibles a la hipoxia (sector CA1).",
+   "Es de las primeras estructuras afectadas en la enfermedad de Alzheimer; la esclerosis temporal mesial es causa de epilepsia farmacorresistente."
+  ],
+  "tus": [
+   "El sector CA1 del hipocampo (sector de Sommer) es la región más sensible a la hipoxia.",
+   "El caso de H.M. mostró una amnesia anterógrada tras la resección temporal medial bilateral."
+  ],
+  "aliases": [
+   "hipocampo"
+  ]
+ },
+ "corpus-amygdaloideum": {
+  "tr": "Amígdala",
+  "summary": "Conjunto de núcleos en forma de almendra en la parte anteromedial del lóbulo temporal, por delante del hipocampo. Desempeña un papel central en el miedo, la percepción de amenazas y la formación de recuerdos emocionales.",
+  "facts": [
+   "Parte anteromedial del lóbulo temporal (bajo el uncus)",
+   "Al hipotálamo por la estría terminal; a la corteza, el tálamo y los centros autonómicos del tronco del encéfalo",
+   "Condicionamiento del miedo, aprendizaje emocional, conducta social, puesta en marcha de las respuestas autonómicas y endocrinas al estrés"
+  ],
+  "sections": [],
+  "clinical": [
+   "La lesión bilateral de la amígdala produce el síndrome de Klüver–Bucy (ausencia de miedo, hiperoralidad, hipersexualidad)."
+  ],
+  "tus": [
+   "La amígdala está en la parte anterior del lóbulo temporal, por delante y encima del hipocampo, bajo el uncus."
+  ],
+  "aliases": [
+   "amígdala",
+   "cuerpo amigdalino"
+  ]
+ }
+}

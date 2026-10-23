@@ -1,0 +1,260 @@
+{
+ "n-vagus": {
+  "tr": "Nervio vago (X)",
+  "summary": "El nervio craneal de distribución más amplia, que da fibras parasimpáticas a la mayor parte de los órganos del cuello, el tórax y el abdomen. También inerva los músculos de la faringe y la laringe.",
+  "facts": [
+   "Surco lateral del bulbo raquídeo (núcleo ambiguo, núcleo dorsal del vago, núcleo del tracto solitario)",
+   "Sale por el agujero yugular; en el cuello desciende en la vaina carotídea con la arteria carótida y la vena yugular interna; en el tórax forma el plexo esofágico y pasa al abdomen por el hiato esofágico (troncos vagales anterior y posterior)",
+   "Músculos de la faringe y del paladar (salvo el tensor del velo del paladar), todos los músculos de la laringe (nervios laríngeos recurrente y superior); parasimpático: corazón, pulmones y tubo digestivo hasta los dos tercios del colon transverso",
+   "Parte inferior de la laringe y la faringe, parte del conducto auditivo externo, sensibilidad visceral de los órganos torácicos y abdominales; gusto de la región de la epiglotis"
+  ],
+  "sections": [
+   [
+    "Nervio laríngeo recurrente",
+    "Rodea por debajo la arteria subclavia a la derecha y el arco aórtico a la izquierda, asciende por el surco traqueoesofágico e inerva todos los músculos de la laringe salvo el cricotiroideo."
+   ]
+  ],
+  "clinical": [
+   "La lesión del nervio laríngeo recurrente (tiroidectomía, aneurisma aórtico, tumor pulmonar) produce disfonía; la bilateral produce dificultad respiratoria.",
+   "En una lesión del vago el velo del paladar es atraído y la úvula se desvía hacia el lado sano.",
+   "El síncope vasovagal es un desmayo por bradicardia e hipotensión debidas a una actividad vagal excesiva."
+  ],
+  "tus": [
+   "Las fibras vagales cardíacas actúan más sobre el nodo sinusal a la derecha y sobre el nodo auriculoventricular a la izquierda.",
+   "La rama auricular del vago (nervio de Arnold) inerva parte del conducto auditivo externo; al limpiar el oído puede desencadenarse un reflejo de tos."
+  ],
+  "aliases": [
+   "vago",
+   "X par craneal",
+   "neumogástrico",
+   "recurrente"
+  ]
+ },
+ "n-accessorius": {
+  "tr": "Nervio accesorio (XI)",
+  "summary": "El nervio craneal motor de los músculos esternocleidomastoideo y trapecio.",
+  "facts": [
+   "Sus raíces espinales proceden del asta anterior de los segmentos medulares C1–C5; entra en el cráneo por el agujero magno",
+   "Sale por el agujero yugular, perfora el esternocleidomastoideo y cruza el triángulo posterior del cuello hasta el trapecio",
+   "Esternocleidomastoideo, trapecio"
+  ],
+  "sections": [],
+  "clinical": [
+   "Por su trayecto superficial en el triángulo posterior puede lesionarse en una biopsia ganglionar; el hombro cae y la elevación del hombro es débil."
+  ],
+  "tus": [
+   "La raíz espinal del nervio accesorio nace del asta anterior de C1–C5, entra en el cráneo por el agujero magno y sale por el agujero yugular."
+  ],
+  "aliases": [
+   "nervio accesorio",
+   "XI par craneal",
+   "nervio espinal"
+  ]
+ },
+ "n-hypoglossus": {
+  "tr": "Nervio hipogloso (XII)",
+  "summary": "El nervio motor de los músculos de la lengua.",
+  "facts": [
+   "Bulbo raquídeo (surco entre la pirámide y la oliva)",
+   "Sale por el conducto del hipogloso, cruza la arteria carótida externa y entra en la lengua por la cara externa del hiogloso",
+   "Todos los músculos intrínsecos de la lengua y el geniogloso, el hiogloso y el estilogloso (pero no el palatogloso)"
+  ],
+  "sections": [],
+  "clinical": [
+   "En una lesión unilateral de motoneurona inferior, la lengua protruida se desvía hacia el lado paralizado, que muestra atrofia y fasciculaciones.",
+   "Puede lesionarse en la endarterectomía carotídea."
+  ],
+  "tus": [
+   "El hipogloso cruza por fuera las arterias carótidas externa e interna; puede lesionarse en la endarterectomía carotídea."
+  ],
+  "aliases": [
+   "hipogloso",
+   "XII par craneal"
+  ]
+ },
+ "plexus-brachialis": {
+  "tr": "Plexo braquial",
+  "summary": "La red nerviosa formada por los ramos anteriores de los nervios espinales C5–T1, que proporciona toda la inervación motora y sensitiva del miembro superior.",
+  "facts": [
+   "Ramos anteriores de C5, C6, C7, C8 y T1 (raíces)",
+   "Raíces → troncos (superior, medio, inferior; en el desfiladero de los escalenos) → divisiones (anteriores/posteriores; detrás de la clavícula) → fascículos (lateral, medial, posterior; alrededor de la arteria axilar) → ramas terminales",
+   "Ramas terminales: nervios musculocutáneo, mediano, cubital, radial y axilar; además los nervios dorsal de la escápula, torácico largo, supraescapular, pectorales, subescapulares y toracodorsal",
+   "Piel del miembro superior (nervios cutáneos mediales del brazo y del antebrazo, entre otros)"
+  ],
+  "sections": [
+   [
+    "Regla mnemotécnica",
+    "Raíces–Troncos–Divisiones–Fascículos–Ramas. Fascículo lateral: nervio musculocutáneo y raíz lateral del mediano; fascículo medial: nervio cubital y raíz medial del mediano; fascículo posterior: nervios axilar y radial."
+   ]
+  ],
+  "clinical": [
+   "Parálisis de Erb–Duchenne (tronco superior, C5–C6): por separación brusca de la cabeza y el hombro (parto, accidente de moto) – brazo colgando junto al cuerpo en rotación interna, antebrazo en pronación («posición de propina del camarero»).",
+   "Parálisis de Klumpke (tronco inferior, C8–T1): por tracción brusca del brazo hacia arriba – mano en garra, a veces con síndrome de Horner.",
+   "Los bloqueos del plexo braquial (interescalénico, supraclavicular, axilar) se usan en la cirugía del miembro superior."
+  ],
+  "tus": [
+   "Las raíces (C5–T1) y los troncos del plexo braquial están en el triángulo posterior del cuello; los fascículos, en la axila.",
+   "En la avulsión radicular, el síndrome de Horner (T1) y la afectación de los nervios dorsal de la escápula y torácico largo indican una lesión preganglionar."
+  ],
+  "aliases": [
+   "plexo braquial",
+   "plexo"
+  ]
+ },
+ "n-musculocutaneus": {
+  "tr": "Nervio musculocutáneo",
+  "summary": "El nervio de los músculos flexores del compartimento anterior del brazo, que además da sensibilidad a la piel de la cara lateral del antebrazo.",
+  "facts": [
+   "Fascículo lateral (C5–C7)",
+   "Perfora el coracobraquial y desciende entre el bíceps y el braquial; en el codo continúa como nervio cutáneo lateral del antebrazo",
+   "Coracobraquial, bíceps braquial, braquial",
+   "Piel de la cara lateral del antebrazo"
+  ],
+  "sections": [],
+  "clinical": [
+   "Su lesión aislada es rara; la flexión del codo y la supinación se debilitan y se pierde el reflejo bicipital."
+  ],
+  "tus": [
+   "Tras una lesión del musculocutáneo la flexión del codo se conserva en parte gracias al braquiorradial; se pierde el reflejo bicipital y la sensibilidad de la cara lateral del antebrazo."
+  ],
+  "aliases": [
+   "musculocutáneo"
+  ]
+ },
+ "n-axillaris": {
+  "tr": "Nervio axilar",
+  "summary": "El nervio de los músculos deltoides y redondo menor, que además da sensibilidad a la cara externa del hombro.",
+  "facts": [
+   "Fascículo posterior (C5–C6)",
+   "Pasa por el espacio cuadrangular con la arteria circunfleja humeral posterior y rodea el cuello quirúrgico del húmero",
+   "Deltoides, redondo menor",
+   "Piel de la cara externa del hombro (nervio cutáneo lateral superior del brazo – zona del «galón»)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Se lesiona en las fracturas del cuello quirúrgico del húmero y en las luxaciones del hombro: la abducción del brazo es débil, el deltoides se atrofia y se pierde la sensibilidad en la cara externa del hombro."
+  ],
+  "tus": [
+   "La rama sensitiva del nervio axilar es el nervio cutáneo lateral superior del brazo (zona del «galón»)."
+  ],
+  "aliases": [
+   "nervio axilar",
+   "nervio circunflejo"
+  ]
+ },
+ "n-radialis": {
+  "tr": "Nervio radial",
+  "summary": "La rama más grande del plexo braquial, que inerva todos los músculos extensores de los compartimentos posteriores del brazo y del antebrazo.",
+  "facts": [
+   "Fascículo posterior (C5–T1)",
+   "Rodea en espiral la cara posterior del húmero por el surco del nervio radial con la arteria braquial profunda; delante del codo se divide en una rama superficial (sensitiva) y otra profunda (motora; nervio interóseo posterior)",
+   "Tríceps braquial, ancóneo, braquiorradial, extensores de la muñeca y los dedos, supinador, músculos largos del pulgar",
+   "Cara posterior del brazo y del antebrazo, mitad lateral (radial) del dorso de la mano (primer espacio interdigital)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Una fractura de la diáfisis humeral o una presión prolongada sobre el brazo («parálisis del sábado por la noche») produce mano caída.",
+   "La lesión del nervio interóseo posterior produce caída de los dedos sin pérdida sensitiva.",
+   "El mal uso de las muletas puede comprimir el nervio en la axila."
+  ],
+  "tus": [
+   "El nervio radial inerva todos los extensores del brazo y el antebrazo; su rama superficial recoge la sensibilidad de la mitad lateral del dorso de la mano.",
+   "Parálisis del sábado por la noche: compresión en el surco radial por apoyar el brazo mucho tiempo sobre el borde de una silla."
+  ],
+  "aliases": [
+   "nervio radial"
+  ]
+ },
+ "n-medianus": {
+  "tr": "Nervio mediano",
+  "summary": "El nervio de la mayoría de los flexores del antebrazo y de los músculos tenares, y el único que pasa por el túnel carpiano. Se le llama «el ojo de la mano» porque es esencial para los movimientos finos de los dedos y la sensibilidad de las yemas.",
+  "facts": [
+   "Dos raíces de los fascículos lateral y medial (C5–T1)",
+   "En el brazo desciende junto a la arteria braquial y en la fosa del codo queda medial a ella; pasa entre las dos cabezas del pronador redondo, desciende entre FDS y FDP y entra en la mano por el túnel carpiano",
+   "Flexores del antebrazo (salvo FCU y la mitad medial del FDP), pronadores redondo y cuadrado; en la mano: 1.º–2.º lumbricales, oponente del pulgar, abductor corto del pulgar, flexor corto del pulgar",
+   "Mitad lateral de la palma, cara palmar del pulgar, índice, medio y mitad lateral del anular, y dorso de sus puntas"
+  ],
+  "sections": [],
+  "clinical": [
+   "El síndrome del túnel carpiano es la neuropatía por atrapamiento más frecuente: entumecimiento que empeora por la noche, signos de Tinel y Phalen positivos y atrofia tenar en fases avanzadas.",
+   "Una lesión por encima del codo produce la «mano de bendición» (no pueden flexionarse el índice y el medio).",
+   "Puede lesionarse en los cortes de la muñeca (intentos de suicidio) por su posición superficial."
+  ],
+  "tus": [
+   "El mediano es el nervio «de la mano y el ojo»: músculos tenares, 1.º–2.º lumbricales y sensibilidad palmar de los tres dedos y medio laterales.",
+   "Su lesión en el codo produce la «mano de bendición» (no se flexionan el índice ni el medio)."
+  ],
+  "aliases": [
+   "nervio mediano",
+   "túnel carpiano"
+  ]
+ },
+ "n-ulnaris": {
+  "tr": "Nervio cubital (ulnar)",
+  "summary": "El nervio que inerva la mayoría de los músculos intrínsecos de la mano y da sensibilidad al lado medial (del meñique) de la mano. Como en el codo está bajo la piel, un golpe allí produce la sensación del «hueso de la risa».",
+  "facts": [
+   "Fascículo medial (C8–T1)",
+   "Desciende por la cara medial del brazo, pasa por el canal detrás del epicóndilo medial, entra en el antebrazo entre las dos cabezas del FCU y llega a la mano por el canal de Guyon en la muñeca",
+   "Flexor cubital del carpo, mitad medial del FDP; en la mano músculos hipotenares, 3.º–4.º lumbricales, todos los interóseos, aductor del pulgar, cabeza profunda del flexor corto del pulgar",
+   "Lado medial (cubital) de la mano: meñique y mitad medial del anular"
+  ],
+  "sections": [],
+  "clinical": [
+   "Puede atraparse en el codo (túnel cubital) o en la muñeca (canal de Guyon).",
+   "Su lesión produce mano en garra (4.º–5.º dedos), atrofia de los interóseos y signo de Froment.",
+   "Puede lesionarse en las fracturas del epicóndilo medial."
+  ],
+  "tus": [
+   "El cubital es el nervio de los movimientos finos de la mano: músculos hipotenares, interóseos, 3.º–4.º lumbricales, aductor del pulgar.",
+   "Recoge la sensibilidad palmar y dorsal del dedo y medio medial."
+  ],
+  "aliases": [
+   "nervio cubital",
+   "nervio ulnar"
+  ]
+ },
+ "n-phrenicus": {
+  "tr": "Nervio frénico",
+  "summary": "El único nervio motor del diafragma. Desciende desde el cuello a través del tórax hasta el diafragma y lleva la sensibilidad del pericardio, la pleura mediastínica y la pleura y el peritoneo diafragmáticos.",
+  "facts": [
+   "Plexo cervical – C3, C4, C5 (sobre todo C4)",
+   "Desciende por delante del escaleno anterior, entra en el tórax entre la arteria y la vena subclavias y baja por el lado del pericardio, por delante del hilio pulmonar, hasta el diafragma",
+   "Diafragma",
+   "Pericardio, pleuras mediastínica y diafragmática, peritoneo diafragmático (parte central)"
+  ],
+  "sections": [],
+  "clinical": [
+   "La irritación subdiafragmática (vesícula biliar, bazo) produce dolor referido a los dermatomas C3–C5, es decir, al hombro.",
+   "Tras su lesión el hemidiafragma del mismo lado se eleva y se mueve de forma paradójica."
+  ],
+  "tus": [
+   "El frénico derecho desciende junto a la vena cava superior y la aurícula derecha; el izquierdo, sobre el pericardio del ventrículo izquierdo.",
+   "Un nervio frénico accesorio (casi siempre del nervio del subclavio) puede mantener en parte la función diafragmática tras una lesión del frénico."
+  ],
+  "aliases": [
+   "frénico"
+  ]
+ },
+ "n-intercostales": {
+  "tr": "Nervios intercostales",
+  "summary": "Los ramos anteriores de los nervios espinales T1–T11; inervan los músculos y la piel del tórax y de la pared abdominal. El ramo anterior de T12 se llama nervio subcostal.",
+  "facts": [
+   "Ramos anteriores de los nervios espinales T1–T11",
+   "Discurren por el surco costal del borde inferior de cada costilla, por debajo de la arteria y la vena intercostales (VAN); los seis inferiores continúan en la pared abdominal",
+   "Músculos intercostales, músculos de la pared abdominal anterior (T7–T12), serrato posterior",
+   "Piel del tórax y de la pared abdominal (dermatomas: T4 pezón, T10 ombligo)"
+  ],
+  "sections": [],
+  "clinical": [
+   "El herpes zóster produce una erupción dolorosa en banda a lo largo de un nervio intercostal.",
+   "En las fracturas costales el bloqueo intercostal alivia el dolor."
+  ],
+  "tus": [
+   "La mayor parte del primer nervio intercostal se une al plexo braquial; el segundo da el nervio intercostobraquial (cara medial del brazo).",
+   "Los nervios intercostales 7–11 inervan la pared abdominal (nervios toracoabdominales)."
+  ],
+  "aliases": [
+   "nervio intercostal"
+  ]
+ }
+}

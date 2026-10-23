@@ -7,6 +7,7 @@ import SwiftUI
 
 struct RootView: View {
     @Environment(AppModel.self) private var app
+    @Environment(\.scenePhase) private var scenePhase
     @AppStorage("onboarding.done") private var onboardingDone = false
     /// -OpenEntry hepar shows an entry page on launch (screenshots, testing).
     @State private var launchEntry: AtlasEntry?
@@ -35,6 +36,10 @@ struct RootView: View {
         .preferredColorScheme(.dark)
         // Inspection and the paywall open over whatever modal is in front.
         .appOverlays(active: app.quiz == nil && app.flashcards == nil)
+        // The reminders carry the day's card count: planned again on leaving.
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .background { app.scheduleReminders() }
+        }
         .fullScreenCover(item: $app.quiz) { session in
             QuizSessionView(session: session)
         }

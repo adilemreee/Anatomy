@@ -1,0 +1,271 @@
+{
+ "meninges": {
+  "tr": "Hirn- und Rückenmarkshäute",
+  "summary": "Die drei schützenden Hüllen von Gehirn und Rückenmark: von außen nach innen Dura mater (harte Haut), Arachnoidea mater (Spinnwebenhaut) und Pia mater (weiche Haut).",
+  "facts": [
+   "Dicke, faserige äußere Haut; im Schädel zweiblättrig, dazwischen die venösen Sinus. Duplikaturen: Falx cerebri, Tentorium cerebelli, Falx cerebelli, Diaphragma sellae",
+   "Dünne, gefäßlose mittlere Haut; darunter zirkuliert im Subarachnoidalraum der Liquor",
+   "Gefäßreiche innere Haut, die der Oberfläche von Gehirn und Rückenmark fest anliegt; am Rückenmark bildet sie die Ligg. denticulata und das Filum terminale",
+   "Epidural (im Schädel potenziell, im Wirbelkanal real – Fett und Venen), subdural (potenziell), subarachnoidal (real – Liquor)",
+   "Dura: Äste des N. trigeminus (vordere und mittlere Schädelgrube), N. vagus und obere Zervikalnerven (hintere Schädelgrube)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Epidurales Hämatom: meist Riss der A. meningea media; linsenförmig (bikonvex), „freies Intervall“.",
+   "Subdurales Hämatom: Riss der Brückenvenen; sichelförmig, häufig bei älteren Menschen und Alkoholkranken.",
+   "Subarachnoidalblutung: meist Ruptur eines Aneurysmas; „der schlimmste Kopfschmerz meines Lebens“.",
+   "Bei Meningitis finden sich Nackensteifigkeit sowie Kernig- und Brudzinski-Zeichen."
+  ],
+  "tus": [
+   "Im Schädel hat die Dura zwei Blätter, ein äußeres periostales und ein inneres meningeales; dazwischen liegen die venösen Sinus.",
+   "Falx cerebri, Tentorium cerebelli, Falx cerebelli und Diaphragma sellae sind innere Duplikaturen der Dura."
+  ],
+  "aliases": [
+   "Dura mater",
+   "Arachnoidea",
+   "Pia mater",
+   "Meningen"
+  ]
+ },
+ "tractus-spinales": {
+  "tr": "Rückenmarksbahnen",
+  "summary": "Nervenfaserbündel in der weißen Substanz des Rückenmarks, die Information zwischen Gehirn und Körper leiten: aufsteigend (sensibel) und absteigend (motorisch).",
+  "facts": [
+   "Fasciculus gracilis und cuneatus (Hinterstränge – feine Berührung, Vibration, Lage), Tractus spinothalamicus lateralis und anterior (Schmerz, Temperatur, grobe Berührung), Tractus spinocerebellaris anterior und posterior (unbewusste Propriozeption)",
+   "Tractus corticospinalis lateralis und anterior (Willkürmotorik); Tractus rubrospinalis, vestibulospinalis, reticulospinalis und tectospinalis (Haltung, Reflexe und Tonus)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Funikuläre Myelose (Vitamin-B12-Mangel): Hinterstränge und Pyramidenbahnen sind betroffen.",
+   "Bei der Syringomyelie unterbricht der erweiterte Zentralkanal die kreuzenden spinothalamischen Fasern; es entsteht ein pelerinenartiger Ausfall von Schmerz und Temperatur."
+  ],
+  "tus": [
+   "Der Tractus spinocerebellaris posterior leitet gleichseitige Information; der anterior kreuzt zweimal und erreicht so ebenfalls das gleichseitige Kleinhirn.",
+   "Tractus rubrospinalis, reticulospinalis, vestibulospinalis und tectospinalis sind extrapyramidale absteigende Bahnen."
+  ],
+  "aliases": [
+   "Pyramidenbahn",
+   "spinothalamisch",
+   "Hinterstrang"
+  ]
+ },
+ "n-olfactorius": {
+  "tr": "Riechnerv (N. olfactorius, I)",
+  "summary": "Der sensorische Hirnnerv des Geruchs, unmittelbar mit dem Vorderende des Gehirns verbunden. Er besteht eigentlich aus feinen Fäden (Fila olfactoria), die von den Riechzellen im Dach der Nasenhöhle ausgehen.",
+  "facts": [
+   "Riechsinneszellen in der Schleimhaut der Regio olfactoria (Dach der Nasenhöhle)",
+   "Zieht durch die Lamina cribrosa und endet im Bulbus olfactorius; über den Tractus olfactorius zum Riechkortex (Uncus, Umgebung der Amygdala)",
+   "Spezielle Sinnesqualität: Geruch"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei Frakturen der vorderen Schädelbasis können die Fäden abreißen und einen Riechverlust (Anosmie) verursachen.",
+   "Riechverlust kann ein Frühzeichen der Parkinson- und Alzheimer-Krankheit sein; auch bei COVID-19 war er häufig."
+  ],
+  "tus": [
+   "Die Riechsinneszellen sind die einzigen Neurone, die sich ständig erneuern.",
+   "Foster-Kennedy-Syndrom: beim Olfaktoriusmeningeom ipsilateral Optikusatrophie und Anosmie, kontralateral Stauungspapille."
+  ],
+  "aliases": [
+   "Riechnerv",
+   "Olfaktorius",
+   "I. Hirnnerv"
+  ]
+ },
+ "n-opticus": {
+  "tr": "Sehnerv (N. opticus, II)",
+  "summary": "Der sensorische Nerv, der die visuelle Information von der Netzhaut leitet. Entwicklungsgeschichtlich ist er eine Ausstülpung des Gehirns und daher von den Hirnhäuten umhüllt.",
+  "facts": [
+   "Axone der retinalen Ganglienzellen (Papilla nervi optici)",
+   "Tritt durch den Canalis opticus in den Schädel; über der Hypophyse kreuzen im Chiasma opticum die nasalen Fasern; der Tractus opticus zieht zum Corpus geniculatum laterale, von dort die Sehstrahlung zur Sehrinde",
+   "Spezielle Sinnesqualität: Sehen; afferenter Schenkel des Pupillenlichtreflexes"
+  ],
+  "sections": [],
+  "clinical": [
+   "Ein Druck auf das Chiasma opticum (Hypophysenadenom) verursacht eine bitemporale Hemianopsie.",
+   "Erhöhter Hirndruck führt zur Schwellung der Sehnervenpapille (Stauungspapille).",
+   "Eine Optikusneuritis kann das erste Zeichen einer Multiplen Sklerose sein."
+  ],
+  "tus": [
+   "Der N. opticus ist ein Ausläufer des Gehirns; er ist von Hirnhäuten umgeben, bei erhöhtem Hirndruck entsteht eine Stauungspapille.",
+   "Beim Lichtreflex ist der afferente Schenkel der N. opticus, der efferente der N. oculomotorius; die Marcus-Gunn-Pupille (RAPD) zeigt einen afferenten Defekt."
+  ],
+  "aliases": [
+   "Sehnerv",
+   "Optikus",
+   "II. Hirnnerv",
+   "Chiasma"
+  ]
+ },
+ "n-oculomotorius": {
+  "tr": "N. oculomotorius (III)",
+  "summary": "Ein motorischer und parasympathischer Hirnnerv, der die meisten Augenbewegungen ausführt, die Pupille verengt und die Akkommodation der Linse steuert.",
+  "facts": [
+   "Mittelhirn (Fossa interpeduncularis); seine Kerne sind der Nucleus n. oculomotorii und der Nucleus accessorius (Edinger-Westphal)",
+   "Verläuft in der Seitenwand des Sinus cavernosus und tritt durch die Fissura orbitalis superior in die Orbita",
+   "M. rectus superior, inferior und medialis, M. obliquus inferior, M. levator palpebrae superioris; parasympathisch: über das Ganglion ciliare zum M. sphincter pupillae und M. ciliaris"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei kompletter Parese blickt das Auge nach unten außen, mit Ptosis und lichtstarrer weiter Pupille.",
+   "Die außen liegenden Pupillenfasern werden bei Druck durch ein Aneurysma der A. communicans posterior früh betroffen (Okulomotoriusparese mit Pupillenbeteiligung ist ein Notfall); bei diabetischer Ischämie bleibt die Pupille meist ausgespart."
+  ],
+  "tus": [
+   "Der N. oculomotorius versorgt M. rectus superior, inferior und medialis, M. obliquus inferior und M. levator palpebrae.",
+   "Der Okulomotoriuskern liegt im Mittelhirn auf Höhe des Colliculus superior; der Edinger-Westphal-Kern ist Ursprung der parasympathischen Fasern."
+  ],
+  "aliases": [
+   "Okulomotorius",
+   "III. Hirnnerv"
+  ]
+ },
+ "n-trochlearis": {
+  "tr": "N. trochlearis (IV)",
+  "summary": "Der dünnste Hirnnerv mit dem längsten intrakraniellen Verlauf; er versorgt nur den M. obliquus superior des Auges. Er tritt als einziger Nerv an der Rückseite des Hirnstamms aus und kreuzt als einziger vollständig.",
+  "facts": [
+   "Rückseite des Mittelhirns (unterhalb des Colliculus inferior)",
+   "Zieht um den Hirnstamm nach vorn und durch die Seitenwand des Sinus cavernosus und die Fissura orbitalis superior",
+   "M. obliquus superior"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei einer Parese entstehen Doppelbilder beim Blick nach unten innen; der Patient hat Mühe beim Treppabgehen und neigt den Kopf zur gesunden Seite.",
+   "Wegen seines langen Verlaufs wird er bei Schädel-Hirn-Traumen leicht verletzt."
+  ],
+  "tus": [
+   "Der Trochleariskern liegt auf Höhe des Colliculus inferior; seine Fasern kreuzen."
+  ],
+  "aliases": [
+   "Trochlearis",
+   "IV. Hirnnerv"
+  ]
+ },
+ "n-trigeminus": {
+  "tr": "N. trigeminus (V)",
+  "summary": "Der wichtigste sensible Nerv des Gesichts und motorische Nerv der Kaumuskeln. Er ist der größte Hirnnerv und teilt sich am Ganglion trigeminale in drei Äste: ophthalmicus (V1), maxillaris (V2) und mandibularis (V3).",
+  "facts": [
+   "Vordere Seitenfläche der Pons (große sensible und kleine motorische Wurzel)",
+   "Ganglion trigeminale (Gasseri) – V1 durch die Fissura orbitalis superior, V2 durch das Foramen rotundum, V3 durch das Foramen ovale",
+   "V3: Kaumuskeln (M. masseter, M. temporalis, Mm. pterygoidei), M. mylohyoideus, Venter anterior des M. digastricus, M. tensor tympani, M. tensor veli palatini",
+   "Gesichtshaut, Auge (Hornhaut), Nasen- und Mundschleimhaut, Zähne, allgemeine Sensibilität der vorderen zwei Drittel der Zunge, Dura mater"
+  ],
+  "sections": [
+   [
+    "Sensible Versorgungsgebiete der Äste",
+    "V1: Stirn, Oberlid, Nasenrücken, Hornhaut; V2: Unterlid, Wange, Oberlippe, Oberkieferzähne, Gaumen; V3: Unterlippe, Kinn, Teil der Schläfe, Unterkieferzähne, vordere zwei Drittel der Zunge (allgemeine Sensibilität)."
+   ]
+  ],
+  "clinical": [
+   "Trigeminusneuralgie: sekundenlange, elektrisierende heftige Schmerzattacken, meist im Gebiet von V2–V3.",
+   "Die Gürtelrose (Zoster ophthalmicus) verursacht einen Ausschlag im V1-Gebiet; ein Befall der Nasenspitze (Hutchinson-Zeichen) spricht für eine Augenbeteiligung.",
+   "V1 ist der afferente Schenkel des Kornealreflexes."
+  ],
+  "tus": [
+   "Das Ganglion trigeminale (Gasseri) liegt im Cavum trigeminale (Meckel-Höhle).",
+   "Die Trigeminusneuralgie betrifft meist die Gebiete von V2 und V3 und wird oft durch ein Gefäß verursacht, das auf die Nervenwurzel drückt."
+  ],
+  "aliases": [
+   "Trigeminus",
+   "V. Hirnnerv",
+   "ophthalmicus",
+   "maxillaris",
+   "mandibularis"
+  ]
+ },
+ "n-abducens": {
+  "tr": "N. abducens (VI)",
+  "summary": "Der motorische Hirnnerv des M. rectus lateralis, der das Auge nach außen dreht.",
+  "facts": [
+   "Furche zwischen Pons und Medulla oblongata",
+   "Langer Verlauf am Clivus entlang, zieht durch den Sinus cavernosus (neben der A. carotis interna) und tritt durch die Fissura orbitalis superior ein",
+   "M. rectus lateralis"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei erhöhtem Hirndruck kann er über dem Clivus gedehnt werden und eine „falsch lokalisierende“ Parese verursachen.",
+   "Bei einer Parese weicht das Auge nach innen ab, mit horizontalen Doppelbildern beim Blick nach außen."
+  ],
+  "tus": [
+   "Bei erhöhtem Hirndruck führt der lange intrakranielle Verlauf des N. abducens zu einer „falsch lokalisierenden“ Parese."
+  ],
+  "aliases": [
+   "Abduzens",
+   "VI. Hirnnerv"
+  ]
+ },
+ "n-facialis": {
+  "tr": "N. facialis (VII)",
+  "summary": "Der motorische Nerv der mimischen Muskulatur; er leitet außerdem den Geschmack der vorderen zwei Drittel der Zunge und gibt parasympathische Fasern an Tränen- und Speicheldrüsen ab.",
+  "facts": [
+   "Kleinhirnbrückenwinkel an der Pons-Medulla-Grenze (motorische Wurzel und N. intermedius)",
+   "Meatus acusticus internus → Canalis facialis (Schläfenbein; Ganglion geniculi) → Foramen stylomastoideum → teilt sich in der Ohrspeicheldrüse in fünf Endäste",
+   "Mimische Muskulatur, M. stapedius, Venter posterior des M. digastricus, M. stylohyoideus; parasympathisch: Tränendrüse (N. petrosus major), Glandula submandibularis und sublingualis (Chorda tympani)",
+   "Geschmack der vorderen zwei Drittel der Zunge (Chorda tympani), Haut eines Teils des äußeren Ohrs"
+  ],
+  "sections": [
+   [
+    "Endäste",
+    "In der Parotis: Rr. temporales, zygomatici, buccales, R. marginalis mandibulae und R. colli."
+   ]
+  ],
+  "clinical": [
+   "Fazialisparese (peripher, Bell-Parese): Lähmung der gesamten Gesichtshälfte – die Stirn runzelt nicht, das Auge schließt nicht, der Mundwinkel hängt; je nach Läsionshöhe Geschmacksverlust und Hyperakusis.",
+   "Bei einer zentralen Läsion bleibt die Stirn verschont, weil der Kernanteil für die Stirnmuskeln Fasern aus beiden Hemisphären erhält.",
+   "Bei der Operation von Parotistumoren müssen die Nervenäste geschont werden."
+  ],
+  "tus": [
+   "Äste des N. facialis von proximal nach distal: N. petrosus major, N. stapedius, Chorda tympani, dann die Gesichtsäste.",
+   "Das Ramsay-Hunt-Syndrom ist ein Zoster des Ganglion geniculi: Fazialisparese und Bläschen am Ohr."
+  ],
+  "aliases": [
+   "Fazialis",
+   "VII. Hirnnerv",
+   "Fazialisparese"
+  ]
+ },
+ "n-vestibulocochlearis": {
+  "tr": "N. vestibulocochlearis (VIII)",
+  "summary": "Der sensorische Hirnnerv, der Hör- und Gleichgewichtsinformation vom Innenohr zum Hirnstamm leitet; er besteht aus einem kochleären und einem vestibulären Anteil.",
+  "facts": [
+   "Pons-Medulla-Grenze (Kleinhirnbrückenwinkel)",
+   "Verläuft mit dem N. facialis im Meatus acusticus internus; im Innenohr erreicht er das Ganglion spirale (kochleär) und das Ganglion vestibulare",
+   "Spezielle Sinnesqualitäten: Hören (Cochlea) und Gleichgewicht (Utriculus, Sacculus, Bogengänge)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Ein Vestibularisschwannom (Akustikusneurinom) im Kleinhirnbrückenwinkel beginnt mit einseitiger Hörminderung, Tinnitus und Unsicherheit; beim Wachsen betrifft es den V. und VII. Hirnnerv.",
+   "Die Neuritis vestibularis verursacht plötzlichen heftigen Drehschwindel."
+  ],
+  "tus": [
+   "Bei der Schallempfindungsschwerhörigkeit lateralisiert der Weber-Versuch ins gesunde Ohr, der Rinne-Versuch ist positiv."
+  ],
+  "aliases": [
+   "Hörnerv",
+   "VIII. Hirnnerv",
+   "Akustikus"
+  ]
+ },
+ "n-glossopharyngeus": {
+  "tr": "N. glossopharyngeus (IX)",
+  "summary": "Ein gemischter Hirnnerv, der Geschmack und allgemeine Sensibilität des hinteren Zungendrittels, die Sensibilität des Rachens und die parasympathische Versorgung der Ohrspeicheldrüse übernimmt.",
+  "facts": [
+   "Seitliche Furche der Medulla oblongata",
+   "Tritt durch das Foramen jugulare aus und zieht am M. stylopharyngeus entlang nach vorn unten zur Zungenwurzel",
+   "M. stylopharyngeus; parasympathisch: über das Ganglion oticum zur Glandula parotidea",
+   "Geschmack und allgemeine Sensibilität des hinteren Zungendrittels, Oropharynx, Tonsillen, Mittelohr, Sinus caroticus (Barorezeptor) und Glomus caroticum (Chemorezeptor)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Er bildet den afferenten Schenkel des Würgereflexes (efferent: N. vagus).",
+   "Bei der Glossopharyngeusneuralgie löst Schlucken Schmerzen in Rachen und Ohr aus."
+  ],
+  "tus": [
+   "Der einzige vom IX. Hirnnerv versorgte Muskel ist der M. stylopharyngeus; seine parasympathischen Fasern erreichen die Parotis über das Ganglion oticum.",
+   "Die Glossopharyngeusneuralgie ist ein durch Schlucken ausgelöster Schmerz an Zungengrund und Ohr."
+  ],
+  "aliases": [
+   "Glossopharyngeus",
+   "IX. Hirnnerv"
+  ]
+ }
+}

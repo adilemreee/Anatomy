@@ -1,0 +1,251 @@
+{
+ "cerebrum": {
+  "tr": "Cerveau (télencéphale)",
+  "summary": "La plus grande partie du système nerveux central, divisée par une profonde fente médiane (fissura longitudinalis cerebri) en deux hémisphères. Sa surface plissée est faite de substance grise (le cortex), siège de la conscience, de la pensée, du langage, de la mémoire, du mouvement volontaire et de la perception des sensations.",
+  "facts": [
+   "Environ 1300–1400 g chez l'adulte (encéphale entier)",
+   "Lobes frontal, pariétal, temporal, occipital, insulaire et limbique",
+   "Sillon central (Rolando), sillon latéral (Sylvius), sillon pariéto-occipital, fissure longitudinale du cerveau",
+   "Substance grise en surface (cortex cerebri), substance blanche en profondeur (fibres d'association, commissurales et de projection) et noyaux profonds (noyaux gris centraux)",
+   "Artères cérébrales antérieure, moyenne et postérieure (cercle artériel du cerveau)"
+  ],
+  "sections": [
+   [
+    "Latéralisation",
+    "Chez la plupart des personnes (plus de 95 % des droitiers), l'hémisphère gauche est dominant pour le langage. L'hémisphère droit est plus actif pour la perception spatiale, la reconnaissance des visages et la tonalité émotionnelle de la parole."
+   ],
+   [
+    "Fibres de la substance blanche",
+    "Les fibres d'association relient des régions d'un même hémisphère, les fibres commissurales (corps calleux) relient les deux hémisphères et les fibres de projection (capsule interne) relient le cortex au tronc cérébral et à la moelle spinale."
+   ]
+  ],
+  "clinical": [
+   "L'accident vasculaire cérébral touche le plus souvent le territoire de l'artère cérébrale moyenne : déficit controlatéral prédominant à la face et au membre supérieur, aphasie si l'hémisphère dominant est atteint.",
+   "L'échelle de Glasgow évalue le niveau de conscience par l'ouverture des yeux et les réponses verbale et motrice."
+  ],
+  "tus": [
+   "Les hémisphères sont divisés en lobes par le sillon central (Rolando), le sillon latéral (Sylvius) et le sillon pariéto-occipital.",
+   "La face latérale de l'hémisphère est vascularisée par l'ACM, la face médiale par l'ACA et les faces inférieure et postérieure par l'ACP."
+  ],
+  "aliases": [
+   "cerveau",
+   "télencéphale",
+   "hémisphère cérébral"
+  ]
+ },
+ "lobus-frontalis": {
+  "tr": "Lobe frontal",
+  "summary": "Le plus grand lobe du cerveau, situé en avant du sillon central. La planification et le déclenchement du mouvement volontaire, les fonctions exécutives, la personnalité, la prise de décision et la production de la parole lui sont liés.",
+  "facts": [
+   "En arrière le sillon central, en bas le sillon latéral",
+   "Gyrus précentral – cortex moteur primaire (Brodmann 4) ; aire prémotrice et motrice supplémentaire (6) ; champ oculomoteur frontal (8) ; aire de Broca – parole motrice (44, 45 ; hémisphère dominant) ; cortex préfrontal",
+   "Artère cérébrale moyenne (face latérale) et artère cérébrale antérieure (face médiale)"
+  ],
+  "sections": [
+   [
+    "Homonculus moteur",
+    "Le corps est représenté à l'envers sur le cortex moteur primaire : le membre inférieur à la face médiale (lobule paracentral – territoire de l'artère cérébrale antérieure), le membre supérieur et la face à la face latérale (territoire de l'artère cérébrale moyenne). La main, la face et la langue occupent de vastes zones."
+   ]
+  ],
+  "clinical": [
+   "Dans l'aphasie de Broca, la parole est non fluente et laborieuse, alors que la compréhension est relativement conservée.",
+   "Une lésion préfrontale entraîne des troubles de la personnalité, une impulsivité et des troubles de la planification (cas de Phineas Gage).",
+   "En cas de lésion du champ oculomoteur frontal, les yeux regardent du côté de la lésion."
+  ],
+  "tus": [
+   "Le champ oculomoteur frontal (aire 8) commande les saccades volontaires ; en cas de lésion, les yeux dévient vers le côté lésé.",
+   "Dans le syndrome frontal, des réflexes archaïques (préhension, succion) peuvent réapparaître."
+  ],
+  "aliases": [
+   "lobe frontal"
+  ]
+ },
+ "gyrus-precentralis": {
+  "tr": "Gyrus précentral (cortex moteur)",
+  "summary": "Le gyrus situé juste en avant du sillon central, qui contient le cortex moteur primaire exécutant le mouvement volontaire. La plus grande partie des faisceaux corticospinal et corticobulbaire y prend naissance.",
+  "facts": [
+   "4 (cortex moteur primaire)",
+   "Cellules pyramidales géantes (cellules de Betz) – couche 5",
+   "Homonculus moteur : membre inférieur près de la ligne médiane, face en bas et en dehors",
+   "Faisceau corticospinal (vers la moelle) et faisceau corticonucléaire (vers les noyaux moteurs du tronc cérébral)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une lésion de cette région entraîne un déficit moteur controlatéral de type central (spasticité, hyperréflexie, signe de Babinski).",
+   "Dans la crise jacksonienne, les secousses s'étendent le long de l'homonculus (par exemple de la main au bras puis à la face)."
+  ],
+  "tus": [
+   "Le cortex moteur primaire correspond à l'aire 4 ; les cellules de Betz (cellules pyramidales géantes) s'y trouvent.",
+   "Dans l'homonculus moteur, les représentations de la main et de la face sont disproportionnées."
+  ],
+  "aliases": [
+   "cortex moteur",
+   "aire motrice primaire"
+  ]
+ },
+ "lobus-parietalis": {
+  "tr": "Lobe pariétal",
+  "summary": "Le lobe compris entre le sillon central et le sillon pariéto-occipital. Il intervient dans la perception et l'interprétation des sensations somatiques (tact, douleur, température, position), la conscience de l'espace et l'attention.",
+  "facts": [
+   "Gyrus postcentral – cortex somesthésique primaire (3, 1, 2) ; lobules pariétaux supérieur et inférieur ; gyrus supramarginal et gyrus angulaire (liés au langage, à la lecture et à l'écriture dans l'hémisphère dominant)",
+   "Artère cérébrale moyenne et artère cérébrale antérieure"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une lésion du lobe pariétal non dominant (le plus souvent droit) entraîne une négligence de l'hémiespace controlatéral.",
+   "Une lésion du gyrus angulaire dominant donne un syndrome de Gerstmann : agraphie, acalculie, agnosie digitale et indistinction droite–gauche."
+  ],
+  "tus": [
+   "Le lobule pariétal supérieur sert à la stéréognosie et au schéma corporel ; le lobule pariétal inférieur comprend les gyrus supramarginal et angulaire.",
+   "Les lésions pariétales peuvent entraîner une quadranopsie inférieure controlatérale."
+  ],
+  "aliases": [
+   "lobe pariétal"
+  ]
+ },
+ "gyrus-postcentralis": {
+  "tr": "Gyrus postcentral (cortex sensitif)",
+  "summary": "Le gyrus situé juste en arrière du sillon central, qui contient le cortex somesthésique primaire recevant le tact, la douleur, la température et le sens de position de la moitié opposée du corps.",
+  "facts": [
+   "3, 1, 2",
+   "Noyaux ventral postéro-latéral (corps) et ventral postéro-médian (face) du thalamus",
+   "Homonculus sensitif ; la main, les lèvres et la langue occupent de vastes zones"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une lésion entraîne une perte controlatérale du tact fin et du sens de position et une astéréognosie (incapacité à reconnaître les objets au toucher)."
+  ],
+  "tus": [
+   "Les fibres des noyaux thalamiques VPL et VPM atteignent le gyrus postcentral par le bras postérieur de la capsule interne."
+  ],
+  "aliases": [
+   "cortex somesthésique",
+   "cortex sensitif"
+  ]
+ },
+ "lobus-temporalis": {
+  "tr": "Lobe temporal",
+  "summary": "Le lobe situé sous le sillon latéral. Il intervient dans l'audition, la compréhension du langage, la mémoire et les émotions ; l'hippocampe et l'amygdale se trouvent à sa face médiale.",
+  "facts": [
+   "Gyrus temporaux transverses (Heschl) – cortex auditif primaire (41, 42) ; aire de Wernicke – compréhension du langage (22, hémisphère dominant) ; gyrus temporaux supérieur, moyen et inférieur",
+   "Hippocampe, amygdale (corpus amygdaloideum), gyrus parahippocampique",
+   "Artère cérébrale moyenne et artère cérébrale postérieure"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans l'aphasie de Wernicke, la parole est fluente mais vide de sens et le langage n'est pas compris.",
+   "L'épilepsie temporale peut se manifester par des hallucinations olfactives, une impression de déjà-vu et des automatismes.",
+   "L'atrophie du lobe temporal médial (hippocampe) est un signe précoce de la maladie d'Alzheimer."
+  ],
+  "tus": [
+   "L'épilepsie temporale se manifeste par des hallucinations olfactives, un déjà-vu et des automatismes.",
+   "Dans l'engagement temporal (uncal), le nerf oculomoteur est comprimé ; la pupille du même côté se dilate."
+  ],
+  "aliases": [
+   "lobe temporal"
+  ]
+ },
+ "lobus-occipitalis": {
+  "tr": "Lobe occipital",
+  "summary": "Le lobe le plus postérieur du cerveau ; il contient le centre de la vision où l'information visuelle est traitée.",
+  "facts": [
+   "Cortex visuel primaire autour du sillon calcarin (aire striée, Brodmann 17) ; aires visuelles associatives (18, 19) ; cunéus, gyrus lingual",
+   "Radiations optiques venant du corps géniculé latéral",
+   "Artère cérébrale postérieure (artère calcarine)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une lésion d'un cortex visuel entraîne une hémianopsie latérale homonyme controlatérale ; lors d'une occlusion de l'artère cérébrale postérieure, la macula est souvent épargnée (double vascularisation).",
+   "Une lésion bilatérale entraîne une cécité corticale ; dans le syndrome d'Anton, le patient nie sa cécité."
+  ],
+  "tus": [
+   "Le pôle occipital représente la macula et se situe dans la zone de jonction ACM–ACP.",
+   "Dans la cécité corticale (lésions occipitales bilatérales), les réflexes photomoteurs sont conservés (syndrome d'Anton : déni de la cécité)."
+  ],
+  "aliases": [
+   "lobe occipital",
+   "cortex visuel"
+  ]
+ },
+ "insula": {
+  "tr": "Insula",
+  "summary": "Région corticale cachée au fond du sillon latéral, sous les opercules des lobes frontal, pariétal et temporal.",
+  "facts": [
+   "Au fond du sillon latéral, entourée par le sillon circulaire de l'insula",
+   "Perception du goût (cortex gustatif primaire), intéroception (sensibilité viscérale), douleur, conscience émotionnelle, régulation autonome",
+   "Branches M2 (insulaires) de l'artère cérébrale moyenne"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans l'infarctus sylvien, l'atteinte précoce du cortex insulaire se traduit au scanner par la disparition du « ruban insulaire »."
+  ],
+  "tus": [
+   "L'insula se trouve au fond du sillon latéral, sur les branches M2 de l'ACM."
+  ],
+  "aliases": [
+   "lobe de l'insula"
+  ]
+ },
+ "systema-limbicum": {
+  "tr": "Système limbique",
+  "summary": "Ensemble de structures disposées en anneau à la face médiale des hémisphères cérébraux, responsable des émotions, de la motivation, de l'apprentissage et de la mémoire.",
+  "facts": [
+   "Gyrus cingulaire, gyrus parahippocampique, hippocampe, amygdale, fornix, corps mamillaires, noyaux septaux, noyaux antérieurs du thalamus, hypothalamus",
+   "Hippocampe → fornix → corps mamillaire → faisceau mamillothalamique → noyaux antérieurs du thalamus → gyrus cingulaire → gyrus parahippocampique → hippocampe"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans la carence en thiamine liée à l'alcoolisme chronique, l'atteinte des corps mamillaires entraîne le syndrome de Gayet-Wernicke–Korsakoff (amnésie, fabulations)."
+  ],
+  "tus": [
+   "Circuit de Papez : hippocampe → fornix → corps mamillaire → faisceau mamillothalamique → thalamus antérieur → gyrus cingulaire → hippocampe."
+  ],
+  "aliases": [
+   "limbique",
+   "gyrus cingulaire",
+   "fornix"
+  ]
+ },
+ "hippocampus": {
+  "tr": "Hippocampe",
+  "summary": "Bande de substance grise en forme d'hippocampe (le poisson) à la face médiale du lobe temporal, dans le plancher de la corne inférieure du ventricule latéral. Il est indispensable à l'enregistrement des informations nouvelles en mémoire à long terme et à l'orientation spatiale.",
+  "facts": [
+   "Face médiale du lobe temporal, plancher de la corne inférieure du ventricule latéral",
+   "Corne d'Ammon (CA1–CA4), gyrus denté, subiculum",
+   "Afférences : cortex entorhinal ; efférences : par le fornix vers les corps mamillaires et les noyaux septaux"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une lésion hippocampique bilatérale empêche de former de nouveaux souvenirs (amnésie antérograde) – cas de H.M.",
+   "L'hippocampe est l'une des régions les plus sensibles à l'hypoxie (secteur CA1).",
+   "Il est parmi les premières structures atteintes dans la maladie d'Alzheimer ; la sclérose temporale mésiale est une cause d'épilepsie pharmacorésistante."
+  ],
+  "tus": [
+   "Le secteur CA1 de l'hippocampe (secteur de Sommer) est la région la plus sensible à l'hypoxie.",
+   "Le cas de H.M. a montré une amnésie antérograde après résection temporale médiale bilatérale."
+  ],
+  "aliases": [
+   "hippocampe"
+  ]
+ },
+ "corpus-amygdaloideum": {
+  "tr": "Amygdale",
+  "summary": "Amas de noyaux en forme d'amande situé à la partie antéro-médiale du lobe temporal, en avant de l'hippocampe. Il joue un rôle central dans la peur, la perception de la menace et la formation des souvenirs émotionnels.",
+  "facts": [
+   "Partie antéro-médiale du lobe temporal (sous l'uncus)",
+   "Vers l'hypothalamus par la strie terminale ; vers le cortex, le thalamus et les centres autonomes du tronc cérébral",
+   "Conditionnement de la peur, apprentissage émotionnel, comportement social, déclenchement des réponses autonomes et endocrines au stress"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une lésion bilatérale de l'amygdale entraîne le syndrome de Klüver–Bucy (absence de peur, hyperoralité, hypersexualité)."
+  ],
+  "tus": [
+   "L'amygdale se trouve à l'avant du lobe temporal, en avant et au-dessus de l'hippocampe, sous l'uncus."
+  ],
+  "aliases": [
+   "amygdale",
+   "corps amygdaloïde"
+  ]
+ }
+}

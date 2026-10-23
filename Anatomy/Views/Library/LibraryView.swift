@@ -17,6 +17,14 @@ struct LibraryView: View {
     @AppStorage("study.dailyGoal") private var dailyGoal = 20
     @AppStorage("atlas.focusOnTap") private var focusOnTap = true
     @AppStorage("atlas.compact") private var compactAtlas = false
+    @AppStorage(ReviewReminder.enabledKey) private var reminder = false
+    @AppStorage(ReviewReminder.timeKey) private var reminderMinutes = ReviewReminder.defaultMinutes
+    @State private var notificationsDenied = false
+
+    /// The reminder time as today's date at that time, for the picker.
+    private var reminderTime: Date {
+        Calendar.current.date(byAdding: .minute, value: reminderMinutes, to: Calendar.current.startOfDay(for: .now)) ?? .now
+    }
 
     var body: some View {
         @Bindable var app = app
@@ -84,6 +92,33 @@ struct LibraryView: View {
                     Stepper(value: $dailyGoal, in: 10...100, step: 10) {
                         Label("Günlük hedef: \(dailyGoal) soru", systemImage: "flag.checkered")
                     }
+                    Toggle(isOn: Binding(get: { reminder }, set: { on in
+                        guard on else {
+                            reminder = false
+                            app.scheduleReminders()
+                            return
+                        }
+                        Task {
+                            if await ReviewReminder.requestPermission() {
+                                reminder = true
+                                app.scheduleReminders()
+                            } else {
+                                notificationsDenied = true
+                            }
+                        }
+                    })) {
+                        Label("Günlük tekrar hatırlatması", systemImage: "bell.badge")
+                    }
+                    .tint(Theme.accent)
+                    if reminder {
+                        DatePicker(selection: Binding(get: { reminderTime }, set: { date in
+                            let parts = Calendar.current.dateComponents([.hour, .minute], from: date)
+                            reminderMinutes = (parts.hour ?? 20) * 60 + (parts.minute ?? 0)
+                            app.scheduleReminders()
+                        }), displayedComponents: .hourAndMinute) {
+                            Label("Hatırlatma saati", systemImage: "clock")
+                        }
+                    }
                     Toggle(isOn: $focusOnTap) {
                         Label("Seçilen yapıya yaklaş", systemImage: "scope")
                     }
@@ -94,6 +129,15 @@ struct LibraryView: View {
                     .tint(Theme.accent)
                 }
                 .listRowBackground(Theme.card)
+
+                .alert("Bildirimler kapalı", isPresented: $notificationsDenied) {
+                    Button("Ayarları aç") {
+                        if let url = URL(string: UIApplication.openNotificationSettingsURLString) { openURL(url) }
+                    }
+                    Button("Vazgeç", role: .cancel) {}
+                } message: {
+                    Text("Hatırlatma gönderebilmemiz için Ayarlar'dan Anatomi Atlası'nın bildirimlerine izin ver.")
+                }
 
                 Section("Favoriler") {
                     let favorites = app.study.favorites.compactMap(app.store.entry)
@@ -158,6 +202,14 @@ struct LibraryView: View {
                     } label: {
                         Label("Destek", systemImage: "questionmark.circle")
                     }
+                    // Crash and performance reports MetricKit gave the app, if any.
+                    let reports = Diagnostics.reports
+                    if !reports.isEmpty {
+                        ShareLink(items: reports, subject: Text("Anatomi Atlası tanılama raporları"),
+                                  message: Text("Alıcı: destek@adilemree.xyz")) {
+                            Label("Tanılama raporlarını gönder", systemImage: "stethoscope")
+                        }
+                    }
                     Button {
                         openURL(Legal.privacy)
                     } label: {
@@ -188,6 +240,9 @@ struct LibraryView: View {
         }
     }
 
+    /// Corner radius of an inset-grouped list section.
+    private static let sectionRadius: CGFloat = 26
+
     @ViewBuilder
     private var premiumCard: some View {
         if app.isPremium {
@@ -211,8 +266,13 @@ struct LibraryView: View {
                 }
             }
             .padding(16)
-            .background(Theme.card, in: .rect(cornerRadius: 20))
-            .overlay { RoundedRectangle(cornerRadius: 20).strokeBorder(Theme.gold.opacity(0.4)) }
+            // The list clips its sections to its own corner radius; the card
+            // uses the same one so the gold border is not cut at the corners.
+            .background(Theme.card, in: .rect(cornerRadius: Self.sectionRadius, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: Self.sectionRadius, style: .continuous)
+                    .strokeBorder(Theme.gold.opacity(0.4))
+            }
         } else {
             Button {
                 app.requirePremium(.general)
@@ -232,7 +292,7 @@ struct LibraryView: View {
                 }
                 .padding(18)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .background(Theme.goldGradient, in: .rect(cornerRadius: 22))
+                .background(Theme.goldGradient, in: .rect(cornerRadius: Self.sectionRadius, style: .continuous))
             }
             .buttonStyle(PressableStyle())
         }

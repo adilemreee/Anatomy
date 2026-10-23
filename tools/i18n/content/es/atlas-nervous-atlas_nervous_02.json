@@ -1,0 +1,271 @@
+{
+ "meninges": {
+  "tr": "Meninges",
+  "summary": "Las tres membranas protectoras que rodean el encéfalo y la médula espinal: de fuera adentro la duramadre (membrana resistente), la aracnoides (membrana en tela de araña) y la piamadre (membrana blanda).",
+  "facts": [
+   "Membrana externa gruesa y fibrosa; dentro del cráneo tiene dos hojas entre las que se encuentran los senos venosos. Repliegues: hoz del cerebro, tienda del cerebelo, hoz del cerebelo, diafragma selar",
+   "Membrana media fina y avascular; bajo ella, en el espacio subaracnoideo, circula el LCR",
+   "Membrana interna vascularizada, firmemente adherida a la superficie del encéfalo y la médula; en la médula forma los ligamentos dentados y el filum terminal",
+   "Epidural (virtual en el cráneo, real en la columna – grasa y venas), subdural (virtual), subaracnoideo (real – LCR)",
+   "Duramadre: ramas del nervio trigémino (fosas anterior y media), nervio vago y nervios cervicales superiores (fosa posterior)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Hematoma epidural: casi siempre rotura de la arteria meníngea media; forma lenticular (biconvexa), «intervalo lúcido».",
+   "Hematoma subdural: rotura de las venas puente; forma de semiluna, frecuente en ancianos y alcohólicos.",
+   "Hemorragia subaracnoidea: casi siempre rotura de un aneurisma; «el peor dolor de cabeza de mi vida».",
+   "En la meningitis hay rigidez de nuca y signos de Kernig y Brudzinski."
+  ],
+  "tus": [
+   "En el cráneo la duramadre tiene dos hojas, perióstica externa y meníngea interna; los senos venosos están entre ellas.",
+   "La hoz del cerebro, la tienda del cerebelo, la hoz del cerebelo y el diafragma selar son repliegues internos de la duramadre."
+  ],
+  "aliases": [
+   "duramadre",
+   "aracnoides",
+   "piamadre",
+   "meninge"
+  ]
+ },
+ "tractus-spinales": {
+  "tr": "Tractos de la médula espinal",
+  "summary": "Haces de fibras nerviosas de la sustancia blanca medular que llevan información entre el encéfalo y el cuerpo: ascendentes (sensitivos) y descendentes (motores).",
+  "facts": [
+   "Fascículos grácil y cuneiforme (cordones posteriores – tacto fino, vibración, posición), tractos espinotalámicos lateral y anterior (dolor, temperatura, tacto grosero), tractos espinocerebelosos anterior y posterior (propiocepción inconsciente)",
+   "Tractos corticoespinales lateral y anterior (movimiento voluntario); tractos rubroespinal, vestibuloespinal, reticuloespinal y tectoespinal (postura, reflejos y tono)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Degeneración combinada subaguda (déficit de vitamina B12): se afectan los cordones posteriores y los tractos corticoespinales.",
+   "En la siringomielia el conducto central dilatado interrumpe las fibras espinotalámicas que se cruzan y produce pérdida del dolor y la temperatura «en esclavina»."
+  ],
+  "tus": [
+   "El tracto espinocerebeloso posterior lleva información del mismo lado; el anterior se cruza dos veces y también llega al cerebelo del mismo lado.",
+   "Los tractos rubroespinal, reticuloespinal, vestibuloespinal y tectoespinal son vías descendentes extrapiramidales."
+  ],
+  "aliases": [
+   "corticoespinal",
+   "espinotalámico",
+   "cordón posterior"
+  ]
+ },
+ "n-olfactorius": {
+  "tr": "Nervio olfatorio (I)",
+  "summary": "El nervio craneal sensorial del olfato, unido directamente al extremo anterior del cerebro. En realidad está formado por finos filetes (fila olfactoria) que salen de las células olfatorias del techo de la cavidad nasal.",
+  "facts": [
+   "Células receptoras olfatorias de la mucosa de la región olfatoria (techo de la cavidad nasal)",
+   "Atraviesa la lámina cribosa y termina en el bulbo olfatorio; el tracto olfatorio lo lleva a la corteza olfatoria (uncus, alrededor de la amígdala)",
+   "Sentido especial: olfato"
+  ],
+  "sections": [],
+  "clinical": [
+   "En las fracturas de la base craneal anterior los filetes pueden romperse y causar pérdida del olfato (anosmia).",
+   "La pérdida del olfato puede ser un signo precoz de las enfermedades de Parkinson y Alzheimer; también fue frecuente en la COVID-19."
+  ],
+  "tus": [
+   "Las neuronas receptoras olfatorias son las únicas que se renuevan constantemente.",
+   "Síndrome de Foster Kennedy: en el meningioma del surco olfatorio, atrofia óptica y anosmia ipsilaterales con papiledema contralateral."
+  ],
+  "aliases": [
+   "nervio olfatorio",
+   "I par craneal"
+  ]
+ },
+ "n-opticus": {
+  "tr": "Nervio óptico (II)",
+  "summary": "El nervio sensorial que lleva la información visual desde la retina. Embriológicamente es una prolongación del cerebro, por lo que está envuelto por las meninges.",
+  "facts": [
+   "Axones de las células ganglionares de la retina (disco óptico)",
+   "Entra en el cráneo por el conducto óptico; encima de la hipófisis, en el quiasma óptico, se cruzan las fibras nasales; el tracto óptico llega al cuerpo geniculado lateral y desde allí la radiación óptica a la corteza visual",
+   "Sentido especial: visión; vía aferente del reflejo pupilar a la luz"
+  ],
+  "sections": [],
+  "clinical": [
+   "La compresión del quiasma óptico (adenoma hipofisario) produce una hemianopsia bitemporal.",
+   "El aumento de la presión intracraneal produce edema del disco óptico (papiledema).",
+   "La neuritis óptica puede ser el primer signo de la esclerosis múltiple."
+  ],
+  "tus": [
+   "El nervio óptico es una prolongación del tejido cerebral; está envuelto por meninges y con hipertensión intracraneal aparece papiledema.",
+   "En el reflejo fotomotor la vía aferente es el nervio óptico y la eferente el oculomotor; la pupila de Marcus Gunn (DPAR) indica un defecto aferente."
+  ],
+  "aliases": [
+   "nervio óptico",
+   "II par craneal",
+   "quiasma"
+  ]
+ },
+ "n-oculomotorius": {
+  "tr": "Nervio oculomotor (III)",
+  "summary": "Nervio craneal motor y parasimpático que produce la mayoría de los movimientos oculares, contrae la pupila y controla la acomodación del cristalino.",
+  "facts": [
+   "Mesencéfalo (fosa interpeduncular); sus núcleos son el núcleo oculomotor y el núcleo accesorio (Edinger–Westphal)",
+   "Recorre la pared lateral del seno cavernoso y entra en la órbita por la fisura orbitaria superior",
+   "Rectos superior, inferior y medial, oblicuo inferior, elevador del párpado superior; parasimpático: por el ganglio ciliar al esfínter de la pupila y al músculo ciliar"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la parálisis completa el ojo mira hacia abajo y afuera, con ptosis y pupila dilatada y arreactiva.",
+   "La parte externa, que lleva las fibras pupilares, se afecta pronto por la compresión de un aneurisma de la arteria comunicante posterior (la parálisis del III con afectación pupilar es una urgencia); en la isquemia diabética la pupila suele respetarse."
+  ],
+  "tus": [
+   "El nervio oculomotor inerva los rectos superior, inferior y medial, el oblicuo inferior y el elevador del párpado.",
+   "El núcleo del III está en el mesencéfalo a la altura del colículo superior; el núcleo de Edinger–Westphal es el origen de las fibras parasimpáticas."
+  ],
+  "aliases": [
+   "oculomotor",
+   "III par craneal"
+  ]
+ },
+ "n-trochlearis": {
+  "tr": "Nervio troclear (IV)",
+  "summary": "El más fino de los nervios craneales y el de recorrido intracraneal más largo; inerva solo el músculo oblicuo superior del ojo. Es el único nervio que sale por la cara posterior del tronco del encéfalo y el único que se cruza por completo.",
+  "facts": [
+   "Cara posterior del mesencéfalo (por debajo del colículo inferior)",
+   "Rodea el tronco del encéfalo hacia delante y atraviesa la pared lateral del seno cavernoso y la fisura orbitaria superior",
+   "Músculo oblicuo superior"
+  ],
+  "sections": [],
+  "clinical": [
+   "Su parálisis produce visión doble al mirar hacia abajo y adentro; al paciente le cuesta bajar escaleras e inclina la cabeza hacia el lado sano.",
+   "Por su largo recorrido se lesiona con facilidad en los traumatismos craneales."
+  ],
+  "tus": [
+   "El núcleo del troclear está a la altura del colículo inferior; sus fibras se cruzan."
+  ],
+  "aliases": [
+   "troclear",
+   "IV par craneal",
+   "nervio patético"
+  ]
+ },
+ "n-trigeminus": {
+  "tr": "Nervio trigémino (V)",
+  "summary": "El principal nervio sensitivo de la cara y el nervio motor de los músculos de la masticación. Es el mayor nervio craneal y en el ganglio trigeminal se divide en tres ramas: oftálmica (V1), maxilar (V2) y mandibular (V3).",
+  "facts": [
+   "Cara anterolateral de la protuberancia (una gran raíz sensitiva y una pequeña raíz motora)",
+   "Ganglio trigeminal (de Gasser) – V1 sale por la fisura orbitaria superior, V2 por el agujero redondo y V3 por el agujero oval",
+   "V3: músculos de la masticación (masetero, temporal, pterigoideos), milohioideo, vientre anterior del digástrico, tensor del tímpano, tensor del velo del paladar",
+   "Piel de la cara, ojo (córnea), mucosas nasal y oral, dientes, sensibilidad general de los dos tercios anteriores de la lengua, duramadre"
+  ],
+  "sections": [
+   [
+    "Territorios sensitivos de las ramas",
+    "V1: frente, párpado superior, dorso de la nariz, córnea; V2: párpado inferior, mejilla, labio superior, dientes superiores, paladar; V3: labio inferior, mentón, parte de la sien, dientes inferiores, dos tercios anteriores de la lengua (sensibilidad general)."
+   ]
+  ],
+  "clinical": [
+   "Neuralgia del trigémino: crisis de dolor intenso como una descarga eléctrica que duran segundos, por lo general en el territorio V2–V3.",
+   "El herpes zóster oftálmico produce una erupción en el territorio V1; la afectación de la punta de la nariz (signo de Hutchinson) sugiere afectación ocular.",
+   "V1 es la vía aferente del reflejo corneal."
+  ],
+  "tus": [
+   "El ganglio trigeminal (de Gasser) está en la cavidad trigeminal (cavum de Meckel).",
+   "La neuralgia del trigémino afecta sobre todo a los territorios V2 y V3 y a menudo se debe a la compresión de la raíz por un vaso."
+  ],
+  "aliases": [
+   "trigémino",
+   "V par craneal",
+   "oftálmico",
+   "maxilar",
+   "mandibular"
+  ]
+ },
+ "n-abducens": {
+  "tr": "Nervio abducens (VI)",
+  "summary": "El nervio craneal motor del músculo recto lateral, que gira el ojo hacia fuera.",
+  "facts": [
+   "El surco entre la protuberancia y el bulbo",
+   "Largo recorrido a lo largo del clivus; atraviesa el seno cavernoso (junto a la arteria carótida interna) y entra por la fisura orbitaria superior",
+   "Músculo recto lateral"
+  ],
+  "sections": [],
+  "clinical": [
+   "Con hipertensión intracraneal puede estirarse sobre el clivus y producir una parálisis «falsamente localizadora».",
+   "En la parálisis el ojo se desvía hacia dentro y hay visión doble horizontal al mirar hacia fuera."
+  ],
+  "tus": [
+   "Con hipertensión intracraneal el largo recorrido intracraneal del abducens explica una parálisis «falsamente localizadora»."
+  ],
+  "aliases": [
+   "abducens",
+   "VI par craneal",
+   "motor ocular externo"
+  ]
+ },
+ "n-facialis": {
+  "tr": "Nervio facial (VII)",
+  "summary": "El nervio motor de los músculos de la expresión facial; además lleva el gusto de los dos tercios anteriores de la lengua y da fibras parasimpáticas a las glándulas lagrimal y salivales.",
+  "facts": [
+   "Surco bulboprotuberancial (raíz motora y nervio intermedio)",
+   "Conducto auditivo interno → conducto facial (hueso temporal; ganglio geniculado) → agujero estilomastoideo → se divide en cinco ramas terminales dentro de la glándula parótida",
+   "Músculos de la expresión facial, estapedio, vientre posterior del digástrico, estilohioideo; parasimpático: glándula lagrimal (nervio petroso mayor), glándulas submandibular y sublingual (cuerda del tímpano)",
+   "Gusto de los dos tercios anteriores de la lengua (cuerda del tímpano), piel de parte del oído externo"
+  ],
+  "sections": [
+   [
+    "Ramas terminales",
+    "Dentro de la parótida: ramas temporal, cigomática, bucal, marginal de la mandíbula y cervical."
+   ]
+  ],
+  "clinical": [
+   "Parálisis de Bell (periférica): parálisis de toda la hemicara – la frente no se arruga, el ojo no se cierra, la comisura bucal cae; según el nivel de la lesión puede haber pérdida del gusto e hiperacusia.",
+   "En una lesión central (motoneurona superior) la frente se respeta, porque la parte del núcleo de los músculos de la frente recibe fibras de ambos hemisferios.",
+   "En la cirugía de tumores parotídeos deben preservarse las ramas del nervio."
+  ],
+  "tus": [
+   "Ramas del nervio facial de proximal a distal: nervio petroso mayor, nervio del estapedio, cuerda del tímpano y luego las ramas faciales.",
+   "El síndrome de Ramsay Hunt es un herpes zóster del ganglio geniculado: parálisis facial y vesículas en el oído."
+  ],
+  "aliases": [
+   "nervio facial",
+   "VII par craneal",
+   "parálisis facial"
+  ]
+ },
+ "n-vestibulocochlearis": {
+  "tr": "Nervio vestibulococlear (VIII)",
+  "summary": "El nervio craneal sensorial que lleva la información de la audición y el equilibrio desde el oído interno al tronco del encéfalo; tiene una parte coclear y otra vestibular.",
+  "facts": [
+   "Surco bulboprotuberancial (ángulo pontocerebeloso)",
+   "Recorre el conducto auditivo interno junto al nervio facial; en el oído interno llega al ganglio espiral (coclear) y al ganglio vestibular",
+   "Sentidos especiales: audición (cóclea) y equilibrio (utrículo, sáculo, conductos semicirculares)"
+  ],
+  "sections": [],
+  "clinical": [
+   "El schwannoma vestibular (neurinoma del acústico) del ángulo pontocerebeloso empieza con hipoacusia unilateral, acúfenos e inestabilidad; al crecer afecta a los nervios V y VII.",
+   "La neuritis vestibular produce un vértigo intenso de comienzo brusco."
+  ],
+  "tus": [
+   "En la hipoacusia neurosensorial el Weber se lateraliza al oído sano y el Rinne es positivo."
+  ],
+  "aliases": [
+   "nervio auditivo",
+   "VIII par craneal",
+   "nervio coclear"
+  ]
+ },
+ "n-glossopharyngeus": {
+  "tr": "Nervio glosofaríngeo (IX)",
+  "summary": "Nervio craneal mixto que lleva el gusto y la sensibilidad general del tercio posterior de la lengua, la sensibilidad de la faringe y la inervación parasimpática de la glándula parótida.",
+  "facts": [
+   "Surco lateral del bulbo raquídeo",
+   "Sale por el agujero yugular y desciende hacia delante a lo largo del estilofaríngeo hasta la raíz de la lengua",
+   "Músculo estilofaríngeo; parasimpático: por el ganglio ótico a la glándula parótida",
+   "Gusto y sensibilidad general del tercio posterior de la lengua, orofaringe, amígdalas, oído medio, seno carotídeo (barorreceptor) y cuerpo carotídeo (quimiorreceptor)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Forma la vía aferente del reflejo nauseoso (eferente: nervio vago).",
+   "En la neuralgia del glosofaríngeo la deglución desencadena dolor en la garganta y el oído."
+  ],
+  "tus": [
+   "El único músculo inervado por el IX es el estilofaríngeo; sus fibras parasimpáticas llegan a la parótida por el ganglio ótico.",
+   "La neuralgia del glosofaríngeo es un dolor en la raíz de la lengua y el oído desencadenado por la deglución."
+  ],
+  "aliases": [
+   "glosofaríngeo",
+   "IX par craneal"
+  ]
+ }
+}

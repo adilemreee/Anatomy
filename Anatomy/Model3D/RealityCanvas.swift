@@ -53,9 +53,8 @@ final class RealityCanvas: UIView {
     private var metalLayer: CAMetalLayer { layer as! CAMetalLayer }
     private let schedule: RenderSchedule
     private let renderer: RealityRenderer?
-    private let queue: MTLCommandQueue?
-    private let presented: MTLSharedEvent?
-    private var frameNumber = UInt64(0)
+    /// Frames handed to the GPU and not drawn yet; at most two.
+    private var inFlight = 0
     private var link: CADisplayLink?
     private var lastTime: CFTimeInterval?
     /// A frame is owed even if the schedule has run out (a new size, back on screen).
@@ -64,8 +63,6 @@ final class RealityCanvas: UIView {
     init(root: Entity, camera: Entity, schedule: RenderSchedule) {
         self.schedule = schedule
         let device = MTLCreateSystemDefaultDevice()
-        queue = device?.makeCommandQueue()
-        presented = device?.makeSharedEvent()
         let renderer = try? RealityRenderer()
         renderer?.entities.append(contentsOf: [root])
         renderer?.activeCamera = camera
@@ -137,24 +134,25 @@ final class RealityCanvas: UIView {
             lastTime = nil
             return
         }
-        guard let renderer, let queue, let presented, metalLayer.drawableSize.width > 0,
+        // The GPU is still on earlier frames: try again on the next tick.
+        guard inFlight < 2, let renderer, metalLayer.drawableSize.width > 0,
               let drawable = metalLayer.nextDrawable() else { return }
         needsFrame = false
         let now = link.targetTimestamp
         let delta = lastTime.map { min(max(now - $0, 0), 1.0 / 15) } ?? 1.0 / 60
         lastTime = now
-        frameNumber += 1
+        nonisolated(unsafe) let frame = drawable
+        guard let output = try? RealityRenderer.CameraOutput(.singleProjection(colorTexture: drawable.texture)) else { return }
+        inFlight += 1
         do {
-            let output = try RealityRenderer.CameraOutput(.singleProjection(colorTexture: drawable.texture))
-            try renderer.updateAndRender(deltaTime: delta, cameraOutput: output,
-                                         actionsAfterRender: [.signal(presented, value: frameNumber)])
+            // Shown once the GPU has drawn it; nothing on the GPU waits for
+            // anything, so a frame that is never drawn cannot stall the rest.
+            try renderer.updateAndRender(deltaTime: delta, cameraOutput: output, onComplete: { [weak self] _ in
+                frame.present()
+                Task { @MainActor in self?.inFlight -= 1 }
+            })
         } catch {
-            return
+            inFlight -= 1
         }
-        // Shown once the GPU has drawn it.
-        guard let buffer = queue.makeCommandBuffer() else { return }
-        buffer.encodeWaitForEvent(presented, value: frameNumber)
-        buffer.present(drawable)
-        buffer.commit()
     }
 }

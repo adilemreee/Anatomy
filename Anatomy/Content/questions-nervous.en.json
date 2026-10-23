@@ -1,0 +1,2772 @@
+{
+ "system": "nervous",
+ "questions": [
+  {
+   "id": "ne-3da316f2",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A right-handed 62-year-old understands what is said to them after a stroke, but their speech is halting, effortful and uses few words. Writing is also impaired. Where is the lesion most likely?",
+   "options": [
+    "Upper part of the left precentral gyrus",
+    "Left angular gyrus",
+    "Left inferior frontal gyrus (Broca's area, BA 44–45)",
+    "Posterior part of the left superior temporal gyrus (Wernicke's area)",
+    "Right inferior frontal gyrus"
+   ],
+   "answer": 2,
+   "explanation": "Broca's (motor/expressive) aphasia follows damage to the pars opercularis and triangularis of the inferior frontal gyrus of the dominant hemisphere: speech is non-fluent, comprehension relatively preserved. It is usually caused by occlusion of the upper division of the MCA and may come with contralateral face–arm weakness.",
+   "notes": [
+    "It is the motor area of the leg.",
+    "It causes Gerstmann syndrome.",
+    "",
+    "It causes fluent but meaningless speech and impaired comprehension.",
+    "Non-dominant hemisphere; it affects the melody of speech (prosody)."
+   ],
+   "entries": [
+    "lobus-frontalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-63b5b117",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": true,
+   "stem": "After a stroke a patient speaks fluently but meaninglessly, uses made-up words and does not understand simple commands; they are unaware of their errors. Where is the lesion?",
+   "options": [
+    "Left inferior frontal gyrus",
+    "Posterior part of the left superior temporal gyrus (Wernicke's area, BA 22)",
+    "Arcuate fasciculus",
+    "Right superior temporal gyrus",
+    "Left occipital lobe"
+   ],
+   "answer": 1,
+   "explanation": "In Wernicke's (sensory/receptive) aphasia speech is fluent but its content is disturbed (paraphasias, neologisms); comprehension and repetition are impaired. The lesion lies in the posterior part of the superior temporal gyrus of the dominant hemisphere.",
+   "entries": [
+    "lobus-temporalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-41911115",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In the type of aphasia with fluent speech and good comprehension but clearly impaired repetition, where is the damage?",
+   "options": [
+    "Hippocampus",
+    "Arcuate fasciculus",
+    "Corpus callosum",
+    "Precentral gyrus",
+    "Posterior limb of the internal capsule"
+   ],
+   "answer": 1,
+   "explanation": "Conduction aphasia results from damage to the arcuate fasciculus linking Wernicke's and Broca's areas (mostly at the level of the supramarginal gyrus). Comprehension and fluency are preserved, repetition is impaired.",
+   "entries": [
+    "cerebrum",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-14b513ee",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient has sudden marked weakness and sensory loss in the left leg; the arm and face are relatively spared. Which artery is occluded?",
+   "options": [
+    "Right anterior cerebral artery",
+    "Left anterior cerebral artery",
+    "Right middle cerebral artery",
+    "Right posterior cerebral artery",
+    "Basilar artery"
+   ],
+   "answer": 0,
+   "explanation": "The motor and sensory area of the leg and foot lies in the paracentral lobule on the medial surface of the hemisphere and is supplied by the anterior cerebral artery. ACA occlusion therefore affects mainly the opposite leg, whereas MCA occlusion mainly affects the face and arm.",
+   "entries": [
+    "gyrus-precentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-01618983",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A right-handed 65-year-old has marked weakness and sensory loss of the right face and arm with a speech disorder; the leg is less affected. Which artery is occluded?",
+   "options": [
+    "Left anterior cerebral artery",
+    "Right middle cerebral artery",
+    "Left anterior choroidal artery",
+    "Left middle cerebral artery",
+    "Left posterior cerebral artery"
+   ],
+   "answer": 3,
+   "explanation": "The MCA supplies the lateral surface of the hemisphere, and so the motor and sensory areas of the face and arm and, in the dominant hemisphere, the language areas. Left MCA occlusion causes right face- and arm-predominant hemiparesis, hemihypaesthesia and aphasia.",
+   "entries": [
+    "gyrus-precentralis",
+    "gyrus-postcentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-b32e3978",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "What is the typical visual field defect in posterior cerebral artery occlusion?",
+   "options": [
+    "Bitemporal hemianopia",
+    "Blindness of one eye on the same side",
+    "Contralateral homonymous hemianopia with macular sparing",
+    "Binasal hemianopia",
+    "Contralateral superior quadrantanopia"
+   ],
+   "answer": 2,
+   "explanation": "The PCA supplies the occipital lobe (the primary visual cortex). Its occlusion causes a homonymous hemianopia of the opposite visual field; because the occipital pole representing the macula also receives collaterals from the MCA, central vision is usually spared.",
+   "entries": [
+    "lobus-occipitalis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-950a7863",
+   "group": "Brain",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where is the primary visual cortex (Brodmann 17)?",
+   "options": [
+    "In the lateral geniculate body",
+    "On the inferior surface of the frontal lobe",
+    "In the occipital lobe on either side of the calcarine sulcus",
+    "In the postcentral gyrus",
+    "In the superior temporal gyrus"
+   ],
+   "answer": 2,
+   "explanation": "The primary visual cortex lies on the medial surface of the occipital lobe, in the upper (cuneus) and lower (lingual gyrus) lips of the calcarine sulcus. The upper lip represents the lower visual field and the lower lip the upper visual field.",
+   "entries": [
+    "lobus-occipitalis",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-3b3c0c08",
+   "group": "Brain",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where is the primary auditory cortex (Brodmann 41–42)?",
+   "options": [
+    "Transverse temporal gyri (Heschl's gyri)",
+    "Lower end of the precentral gyrus",
+    "Parahippocampal gyrus",
+    "Angular gyrus",
+    "Cingulate gyrus"
+   ],
+   "answer": 0,
+   "explanation": "The primary auditory area lies in the floor of the lateral sulcus, in the transverse temporal (Heschl's) gyri on the upper surface of the superior temporal gyrus. Because input from each ear is represented on both sides, one-sided cortical damage does not cause deafness.",
+   "entries": [
+    "lobus-temporalis",
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-87c1b640",
+   "group": "Brain",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which Brodmann areas correspond to the primary somatosensory cortex?",
+   "options": [
+    "22 (superior temporal gyrus)",
+    "17 (calcarine sulcus)",
+    "6 (premotor area)",
+    "4 (precentral gyrus)",
+    "3, 1, 2 (postcentral gyrus)"
+   ],
+   "answer": 4,
+   "explanation": "The postcentral gyrus receives touch, pain, temperature and proprioception from the opposite half of the body and is organised somatotopically (sensory homunculus). Its input comes from the VPL and VPM nuclei of the thalamus.",
+   "entries": [
+    "gyrus-postcentralis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-2daff929",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In Gerstmann syndrome – agraphia, acalculia, finger agnosia and left–right confusion – where is the lesion?",
+   "options": [
+    "Superior parietal lobule of the non-dominant hemisphere",
+    "Inferior frontal gyrus of the dominant hemisphere",
+    "Angular gyrus of the dominant hemisphere",
+    "Hippocampus of the dominant hemisphere",
+    "Splenium of the corpus callosum"
+   ],
+   "answer": 2,
+   "explanation": "Gerstmann syndrome follows lesions of the angular gyrus in the lower part of the dominant (usually left) parietal lobe. Damage to the non-dominant parietal lobe instead causes neglect of the opposite side (hemineglect) and apraxias.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-28eb07b3",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": true,
+   "stem": "After a right hemisphere stroke a patient eats only the right half of their meal, does not notice people on their left and says their left arm is not theirs. Which lobe is affected?",
+   "options": [
+    "Left parietal lobe",
+    "Left temporal lobe",
+    "Right frontal lobe",
+    "Right parietal lobe",
+    "Right occipital lobe"
+   ],
+   "answer": 3,
+   "explanation": "Neglect of the opposite side (hemispatial neglect) and anosognosia occur most often with lesions of the non-dominant (right) parietal lobe, because the right hemisphere attends to both halves of space whereas the left attends mainly to the right half.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-dbe702a4",
+   "group": "Brain",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Personality change, inappropriate behaviour and impaired planning and judgement are seen most with damage to which region?",
+   "options": [
+    "Vermis of the cerebellum",
+    "Prefrontal cortex",
+    "Postcentral gyrus",
+    "Occipital lobe",
+    "Medial geniculate body"
+   ],
+   "answer": 1,
+   "explanation": "The prefrontal cortex is responsible for executive functions, social behaviour and personality. Patients with frontal lobe damage may show apathy or impulsivity, perseveration and socially inappropriate behaviour.",
+   "entries": [
+    "lobus-frontalis"
+   ]
+  },
+  {
+   "id": "ne-3de004e8",
+   "group": "Brain",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which lobe is regarded as the cortical centre for taste and is involved in visceral sensation?",
+   "options": [
+    "Occipital lobe",
+    "Insula (and the adjacent frontal operculum)",
+    "Cuneus",
+    "Precentral gyrus",
+    "Cingulate gyrus"
+   ],
+   "answer": 1,
+   "explanation": "The insula is the lobe hidden deep in the lateral sulcus beneath the opercula. Its anterior part contains the primary gustatory cortex; it is also linked to pain, visceral sensation and autonomic responses. It is supplied by branches of the MCA.",
+   "entries": [
+    "insula"
+   ]
+  },
+  {
+   "id": "ne-f34b6253",
+   "group": "Brain",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which structure is essential for transferring new information into long-term memory and undergoes early atrophy in Alzheimer's disease?",
+   "options": [
+    "Amygdala",
+    "Caudate nucleus",
+    "Hippocampus",
+    "Pulvinar of the thalamus",
+    "Cerebellum"
+   ],
+   "answer": 2,
+   "explanation": "The hippocampus lies in the medial temporal lobe, in the floor of the inferior horn of the lateral ventricle. Bilateral damage causes anterograde amnesia. It is part of the Papez circuit: hippocampus → fornix → mammillary body → anterior thalamus → cingulate gyrus → hippocampus.",
+   "entries": [
+    "hippocampus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-1b940b7b",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is NOT expected in Klüver–Bucy syndrome caused by bilateral damage to the amygdala?",
+   "options": [
+    "Hypersexuality",
+    "Hyperorality (putting everything in the mouth)",
+    "Visual agnosia",
+    "Docility, loss of fear",
+    "Excessive fear and aggression"
+   ],
+   "answer": 4,
+   "explanation": "The amygdala is the centre of fear and emotional learning. After bilateral medial temporal damage fear and aggression decrease and the patient becomes docile; hyperorality, hypersexuality and visual agnosia appear.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afbdd4fd",
+   "group": "Brain",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "What is the largest commissure linking the two cerebral hemispheres?",
+   "options": [
+    "Internal capsule",
+    "Fornix",
+    "Corpus callosum",
+    "Anterior commissure",
+    "Posterior commissure"
+   ],
+   "answer": 2,
+   "explanation": "The corpus callosum is a bridge of white matter containing about 200 million axons; it has a rostrum, genu, body and splenium. When it is cut ('split brain') the transfer of information between the two hemispheres is disrupted.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-b72d492f",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A hypertensive patient has a sudden pure motor hemiparesis affecting the face, arm and leg equally on the opposite side; sensation, vision and speech are normal. Where is the lacunar infarct most likely?",
+   "options": [
+    "Occipital lobe",
+    "Posterior limb of the internal capsule",
+    "Cerebellar hemisphere",
+    "Postcentral gyrus",
+    "Genu of the corpus callosum"
+   ],
+   "answer": 1,
+   "explanation": "The corticospinal and corticobulbar fibres run very close together in the posterior limb of the internal capsule, so even a small infarct affects the face, arm and leg of the opposite side equally. This region is supplied by the lenticulostriate branches of the MCA, which are vulnerable in hypertension.",
+   "entries": [
+    "nuclei-basales",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-46d5bedc",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Where are the dopaminergic neurons that degenerate in Parkinson's disease?",
+   "options": [
+    "Caudate nucleus",
+    "Pars compacta of the substantia nigra (midbrain)",
+    "Red nucleus",
+    "Subthalamic nucleus",
+    "Internal globus pallidus"
+   ],
+   "answer": 1,
+   "explanation": "The dopaminergic neurons of the substantia nigra pars compacta project to the striatum (nigrostriatal pathway). Their loss causes bradykinesia, rigidity and resting tremor. Huntington's disease shows atrophy of the caudate nucleus, hemiballismus a lesion of the subthalamic nucleus.",
+   "entries": [
+    "mesencephalon",
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-2a67af34",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A hypertensive patient suddenly develops violent, flinging, involuntary movements of the left arm and leg. Where is the lesion?",
+   "options": [
+    "Right caudate nucleus",
+    "Right substantia nigra",
+    "Left subthalamic nucleus",
+    "Right subthalamic nucleus",
+    "Left cerebellar hemisphere"
+   ],
+   "answer": 3,
+   "explanation": "Hemiballismus follows a lesion of the subthalamic nucleus on the opposite side; this nucleus normally brakes movement by exciting the internal globus pallidus. Lesions of the basal nuclei produce signs on the opposite side.",
+   "entries": [
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-e0795ee8",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which thalamic nucleus lies on the visual pathway?",
+   "options": [
+    "Ventral lateral nucleus",
+    "Medial geniculate body",
+    "Lateral geniculate body",
+    "Ventral posterolateral nucleus",
+    "Anterior nucleus of the thalamus"
+   ],
+   "answer": 2,
+   "explanation": "The fibres of the optic tract synapse in the LGN; from there the optic radiation runs to the occipital cortex. The MGN deals with hearing, VPL with body sensation, VPM with facial sensation and taste, VL with motor input from the cerebellum and basal nuclei, and the anterior nucleus with the Papez circuit.",
+   "entries": [
+    "thalamus",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-e54d7172",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which thalamic nucleus relays sensation from the face (trigeminal nerve) and taste fibres to the cortex?",
+   "options": [
+    "Pulvinar",
+    "Mediodorsal nucleus",
+    "Medial geniculate body",
+    "Ventral posterolateral nucleus (VPL)",
+    "Ventral posteromedial nucleus (VPM)"
+   ],
+   "answer": 4,
+   "explanation": "The trigeminal lemniscus and the taste fibres from the solitary nucleus end in the VPM; the medial lemniscus and spinothalamic fibres from the body end in the VPL. Thalamic lesions may cause contralateral hemianaesthesia and thalamic pain (Dejerine–Roussy).",
+   "entries": [
+    "thalamus",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-48237eed",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which hypothalamic nucleus mainly synthesises antidiuretic hormone (ADH)?",
+   "options": [
+    "Ventromedial nucleus",
+    "Arcuate nucleus",
+    "Suprachiasmatic nucleus",
+    "Mammillary body",
+    "Supraoptic nucleus"
+   ],
+   "answer": 4,
+   "explanation": "ADH is made mostly in the supraoptic and oxytocin mostly in the paraventricular nucleus; both are carried along axons to the neurohypophysis. The suprachiasmatic nucleus regulates the circadian rhythm, the ventromedial nucleus satiety and the lateral hypothalamus hunger.",
+   "entries": [
+    "hypothalamus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-1cff0e6f",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which hypothalamic structure is characteristically damaged in Wernicke–Korsakoff syndrome (thiamine deficiency)?",
+   "options": [
+    "Paraventricular nucleus",
+    "Tuber cinereum",
+    "Suprachiasmatic nucleus",
+    "Mammillary bodies",
+    "Median eminence"
+   ],
+   "answer": 3,
+   "explanation": "In chronic alcoholism and thiamine deficiency the mammillary bodies, the medial thalamic nuclei and the periaqueductal grey matter are damaged. Disruption of the Papez circuit explains Korsakoff amnesia and confabulation.",
+   "entries": [
+    "hypothalamus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afe9b56a",
+   "group": "Brain",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A newborn's head circumference is growing rapidly. MRI shows enlarged lateral and third ventricles with a fourth ventricle of normal size. Where is the obstruction most likely?",
+   "options": [
+    "Median aperture (Magendie)",
+    "Interventricular foramen (Monro)",
+    "Central canal",
+    "Arachnoid granulations",
+    "Cerebral aqueduct (aqueduct of Sylvius)"
+   ],
+   "answer": 4,
+   "explanation": "CSF passes from the lateral ventricles through the foramen of Monro into the third ventricle, through the aqueduct of Sylvius into the fourth ventricle, and from there through the foramina of Magendie and Luschka into the subarachnoid space. If the third ventricle is enlarged and the fourth normal, the block is in the aqueduct (congenital aqueductal stenosis).",
+   "entries": [
+    "ventriculi-cerebri",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-25e1a0ce",
+   "group": "Brain",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where is cerebrospinal fluid (CSF) mainly produced and where is it absorbed?",
+   "options": [
+    "Produced in the choroid plexus, absorbed through the arachnoid granulations into the dural venous sinuses.",
+    "Produced by ependymal cells, absorbed into lymphatic vessels.",
+    "Produced in the arachnoid granulations, absorbed in the choroid plexus.",
+    "Produced in the pia mater, absorbed in the central canal.",
+    "Produced in the choroid plexus, absorbed in the fourth ventricle."
+   ],
+   "answer": 0,
+   "explanation": "In adults about 500 ml of CSF is produced a day; about 150 ml is present at any one time. Absorption occurs mostly through the arachnoid granulations projecting into the superior sagittal sinus. Impaired absorption causes communicating hydrocephalus.",
+   "entries": [
+    "ventriculi-cerebri",
+    "meninges",
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "ne-37bdea3f",
+   "group": "Brainstem and cerebellum",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient has ptosis, mydriasis and a down-and-out deviation of the right eye together with weakness of the left arm and leg. Where is the lesion most likely?",
+   "options": [
+    "Medial part of the left medulla oblongata",
+    "Ventral part of the left midbrain",
+    "Ventral part of the right pons",
+    "Ventral part of the right midbrain (Weber syndrome)",
+    "Right internal capsule"
+   ],
+   "answer": 3,
+   "explanation": "In Weber syndrome the oculomotor fibres and the cerebral peduncle are affected together in the ventral midbrain: third nerve palsy on the same side, hemiparesis on the opposite side. Because the corticospinal fibres cross in the medulla, brainstem lesions give 'crossed' signs.",
+   "entries": [
+    "mesencephalon",
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-3d7055ab",
+   "group": "Brainstem and cerebellum",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with sudden vertigo and nausea has loss of pain and temperature on the left face and the right trunk and limbs, hoarseness, difficulty swallowing, a left Horner syndrome and left-sided ataxia. Tongue movements are normal. Which artery is occluded?",
+   "options": [
+    "Basilar artery",
+    "Left anterior spinal artery",
+    "Right posterior cerebral artery",
+    "Left posterior inferior cerebellar artery (or left vertebral artery)",
+    "Left superior cerebellar artery"
+   ],
+   "answer": 3,
+   "explanation": "In lateral medullary (Wallenberg) syndrome the spinal trigeminal nucleus (same-side face), the spinothalamic tract (opposite-side trunk), the nucleus ambiguus (dysphagia, dysphonia), the descending sympathetic fibres (Horner), the vestibular nuclei and the inferior cerebellar peduncle are involved. The medially placed nucleus of XII is spared.",
+   "entries": [
+    "medulla-oblongata",
+    "a-vertebralis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-81f72625",
+   "group": "Brainstem and cerebellum",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is NOT expected in medial medullary syndrome (anterior spinal artery occlusion)?",
+   "options": [
+    "Loss of pain and temperature on the same side of the face",
+    "Atrophy of the tongue muscles on the same side",
+    "Hemiparesis on the opposite side",
+    "Loss of proprioception and vibration on the opposite side",
+    "Deviation of the protruded tongue towards the side of the lesion"
+   ],
+   "answer": 0,
+   "explanation": "The medial medulla contains the pyramid (contralateral hemiparesis), the medial lemniscus (contralateral loss of deep sensation) and the hypoglossal nerve (ipsilateral tongue palsy). The spinal trigeminal nucleus lies in the lateral medulla and is affected in Wallenberg syndrome.",
+   "entries": [
+    "medulla-oblongata",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-443079d7",
+   "group": "Brainstem and cerebellum",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The motor nucleus of which of the following cranial nerves lies in the pons?",
+   "options": [
+    "Hypoglossal nerve",
+    "Trochlear nerve",
+    "Glossopharyngeal nerve",
+    "Oculomotor nerve",
+    "Abducens nerve"
+   ],
+   "answer": 4,
+   "explanation": "III and IV have their nuclei in the midbrain; V (motor), VI and VII in the pons; IX, X and XII in the medulla. The nuclei of VIII lie at the pontomedullary junction.",
+   "entries": [
+    "pons",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-8ecd7107",
+   "group": "Brainstem and cerebellum",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structures form the facial colliculus in the floor of the fourth ventricle?",
+   "options": [
+    "The abducens nucleus and the facial nerve fibres looping around it",
+    "Locus coeruleus and solitary nucleus",
+    "Trochlear fibres and red nucleus",
+    "Hypoglossal nucleus and dorsal nucleus of the vagus",
+    "Vestibular nuclei and cochlear nerve fibres"
+   ],
+   "answer": 0,
+   "explanation": "Within the pons the facial motor fibres loop around the abducens nucleus (internal genu) and raise a bulge in the floor of the fourth ventricle. A lesion here causes ipsilateral palsies of VI and VII together.",
+   "entries": [
+    "pons",
+    "n-facialis",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-5da8a287",
+   "group": "Brainstem and cerebellum",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient sways from side to side when standing and walking and walks with the feet wide apart, but has no clear dysmetria when sitting and using the arms. Where is the lesion most likely?",
+   "options": [
+    "Left cerebellar hemisphere",
+    "Right cerebellar hemisphere",
+    "Vermis of the cerebellum",
+    "Dentate nucleus",
+    "Internal capsule"
+   ],
+   "answer": 2,
+   "explanation": "The vermis and paravermal zone coordinate the trunk and axial muscles; a lesion causes truncal ataxia and a broad-based gait (for example from alcohol). Hemispheric lesions cause dysmetria, intention tremor and dysdiadochokinesia in the limbs on the same side.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-aa74e926",
+   "group": "Brainstem and cerebellum",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which structure carries the fibres from the pontine nuclei to the cerebellum (pontocerebellar fibres)?",
+   "options": [
+    "Inferior cerebellar peduncle",
+    "Superior cerebellar peduncle",
+    "Superior medullary velum",
+    "Medial lemniscus",
+    "Middle cerebellar peduncle"
+   ],
+   "answer": 4,
+   "explanation": "The middle cerebellar peduncle (brachium pontis) is the largest peduncle and consists entirely of pontocerebellar (afferent) fibres. The superior peduncle mainly carries fibres leaving the cerebellum (efferent), and the inferior peduncle carries fibres from the spinal cord and the olive.",
+   "entries": [
+    "cerebellum",
+    "pons"
+   ]
+  },
+  {
+   "id": "ne-d50b404c",
+   "group": "Brainstem and cerebellum",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which cell is the only output neuron of the cerebellar cortex and is inhibitory (GABAergic)?",
+   "options": [
+    "Mossy fibre",
+    "Granule cell",
+    "Golgi cell",
+    "Purkinje cell",
+    "Basket cell"
+   ],
+   "answer": 3,
+   "explanation": "The axons of Purkinje cells go to the deep cerebellar nuclei (dentate, emboliform, globose, fastigial) and the vestibular nuclei and inhibit them. The main output of the cerebellum is through the deep nuclei, the largest being the dentate nucleus.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-05903053",
+   "group": "Brainstem and cerebellum",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where do most corticospinal fibres cross?",
+   "options": [
+    "In the internal capsule",
+    "In the pons",
+    "In the midbrain",
+    "At the lower end of the medulla oblongata (decussation of the pyramids)",
+    "In every segment of the spinal cord"
+   ],
+   "answer": 3,
+   "explanation": "About 85–90% of corticospinal fibres cross at the lower end of the pyramids and form the lateral corticospinal tract. The uncrossed fibres descend in the anterior corticospinal tract and cross at segmental level.",
+   "entries": [
+    "medulla-oblongata",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-6d09f28c",
+   "group": "Brainstem and cerebellum",
+   "level": "tus",
+   "clinical": true,
+   "stem": "After basilar artery thrombosis a patient is fully conscious but cannot move their arms, legs or face and cannot speak. They can only move their eyes up and down and blink. What is this condition?",
+   "options": [
+    "Akinetic mutism – frontal lobe lesion",
+    "Locked-in syndrome – ventral pontine lesion",
+    "Coma – lesion of the reticular activating system",
+    "Weber syndrome – midbrain lesion",
+    "Wallenberg syndrome – lateral medullary lesion"
+   ],
+   "answer": 1,
+   "explanation": "A ventral pontine lesion interrupts the corticospinal and corticobulbar tracts; because the reticular formation in the dorsal pons is spared, consciousness is preserved. Vertical eye movements and blinking are controlled by the midbrain and so are preserved.",
+   "entries": [
+    "pons",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "ne-0a8db49c",
+   "group": "Brainstem and cerebellum",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which reddish nucleus in the midbrain receives fibres from the cerebellum?",
+   "options": [
+    "Inferior olivary nucleus",
+    "Substantia nigra",
+    "Red nucleus",
+    "Locus coeruleus",
+    "Dentate nucleus"
+   ],
+   "answer": 2,
+   "explanation": "The red nucleus receives fibres through the superior cerebellar peduncle and influences the flexors of the upper limb through the rubrospinal tract. Its rich blood supply and iron content make it look pinkish in a fresh section.",
+   "entries": [
+    "mesencephalon",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-8a618879",
+   "group": "Spinal cord and meninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In adults, at what level does the lower end of the spinal cord (conus medullaris) usually end?",
+   "options": [
+    "L1–L2",
+    "L5–S1",
+    "T10–T11",
+    "S2",
+    "L3–L4"
+   ],
+   "answer": 0,
+   "explanation": "Because the vertebral column grows faster than the spinal cord during development, in adults the conus medullaris lies at L1–L2 (about L3 in the newborn). Below it are the cauda equina and the filum terminale. The dural sac ends at S2.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-c6fa7ddb",
+   "group": "Spinal cord and meninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Which is the most suitable and safe interspace for lumbar puncture in adults?",
+   "options": [
+    "T12–L1 interspace",
+    "S2–S3 interspace",
+    "L1–L2 interspace",
+    "L3–L4 or L4–L5 interspace",
+    "T10–T11 interspace"
+   ],
+   "answer": 3,
+   "explanation": "The line joining the highest points of the two iliac crests (Tuffier's line) passes roughly through the spinous process of L4. Because the cord ends at L1–L2, a needle inserted at L3–L4 or L4–L5 only pushes aside the roots of the cauda equina.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ne-f7851598",
+   "group": "Spinal cord and meninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In a lumbar puncture, which is the last ligament the needle passes before entering the epidural space?",
+   "options": [
+    "Ligamentum flavum",
+    "Supraspinous ligament",
+    "Interspinous ligament",
+    "Denticulate ligament",
+    "Posterior longitudinal ligament"
+   ],
+   "answer": 0,
+   "explanation": "The needle passes in turn through skin, subcutaneous tissue, the supraspinous, interspinous and flavum ligaments into the epidural space, then through the dura and arachnoid into the subarachnoid space. Loss of resistance at the ligamentum flavum guides epidural anaesthesia.",
+   "entries": [
+    "ligg-columnae",
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-6dcbddb7",
+   "group": "Spinal cord and meninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient stabbed in the back has motor paralysis and loss of deep sensation (vibration, position) below T10 on the right, and loss of pain and temperature starting about T12 on the left. What is the lesion?",
+   "options": [
+    "Hemisection of the left half of the cord",
+    "Hemisection of the right half of the cord (Brown-Séquard syndrome)",
+    "Posterior cord syndrome",
+    "Anterior spinal artery syndrome",
+    "Central cord syndrome"
+   ],
+   "answer": 1,
+   "explanation": "In a hemisection the corticospinal tract (motor paralysis) and the dorsal column (deep sensation) are affected on the same side. Because pain and temperature fibres cross 1–2 segments above their entry, loss of pain and temperature appears on the opposite side, starting a few segments below the lesion.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-a9f875c2",
+   "group": "Spinal cord and meninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which tract carries fine touch and proprioception from the lower limb?",
+   "options": [
+    "Fasciculus gracilis",
+    "Fasciculus cuneatus",
+    "Lateral spinothalamic tract",
+    "Lateral corticospinal tract",
+    "Anterior spinocerebellar tract"
+   ],
+   "answer": 0,
+   "explanation": "In the dorsal columns the medially placed fasciculus gracilis carries information from the lower trunk and leg, the laterally placed fasciculus cuneatus (above T6) from the upper trunk and arm. The fibres ascend on the same side, synapse in the medulla (gracile/cuneate nuclei) and cross to form the medial lemniscus.",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-dda468ea",
+   "group": "Spinal cord and meninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient who burns their hands on a hot stove without noticing has a 'cape-like' loss of pain and temperature over both shoulders and arms; touch and position sense are preserved. What is the most likely diagnosis?",
+   "options": [
+    "Tabes dorsalis",
+    "Brown-Séquard syndrome",
+    "Anterior spinal artery occlusion",
+    "Cervical syringomyelia",
+    "Subacute combined degeneration from B12 deficiency"
+   ],
+   "answer": 3,
+   "explanation": "In syringomyelia the central canal widens and first damages the spinothalamic fibres crossing in the anterior white commissure, so pain and temperature are lost on both sides in a 'cape' over the affected segments. The dorsal columns are spared (dissociated sensory loss).",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-4634c777",
+   "group": "Spinal cord and meninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is usually preserved in anterior spinal artery occlusion?",
+   "options": [
+    "Motor power below the lesion",
+    "Bladder and bowel control",
+    "Lower motor neuron function at the level of the lesion",
+    "Vibration and position sense",
+    "Pain and temperature sensation"
+   ],
+   "answer": 3,
+   "explanation": "The anterior spinal artery supplies the anterior two thirds of the cord: the anterior horns and the corticospinal and spinothalamic tracts are affected. Because the dorsal columns are supplied by the posterior spinal arteries, vibration and proprioception are preserved.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-bcf0f483",
+   "group": "Spinal cord and meninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which tracts are affected in subacute combined degeneration due to vitamin B12 deficiency?",
+   "options": [
+    "Dorsal columns and lateral corticospinal tracts",
+    "Only the motor neurons of the anterior horn",
+    "Anterior white commissure and lateral horns",
+    "Spinocerebellar tracts and dorsal roots",
+    "Spinothalamic tracts and anterior horns"
+   ],
+   "answer": 0,
+   "explanation": "B12 deficiency impairs myelin synthesis and affects in particular the dorsal columns (loss of deep sensation, ataxia) together with the lateral corticospinal tracts (spasticity, Babinski sign).",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-f37384b3",
+   "group": "Spinal cord and meninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A young man struck on the head with a baseball bat briefly loses consciousness and recovers, then deteriorates hours later. CT shows a biconvex (lens-shaped) haemorrhage that does not cross the sutures. In which space is the bleed and what is its source?",
+   "options": [
+    "Brain parenchyma – lenticulostriate arteries",
+    "Subdural space – bridging veins",
+    "Subarachnoid space – aneurysm",
+    "Epidural space – superior sagittal sinus",
+    "Epidural space – middle meningeal artery"
+   ],
+   "answer": 4,
+   "explanation": "An epidural haematoma forms between the skull and the dura, usually from arterial bleeding; because the dura is firmly attached at the sutures, the bleed does not cross them and is lens-shaped. A subdural haematoma comes from torn bridging veins, is crescent-shaped, crosses sutures and is common in the elderly and in alcoholics.",
+   "entries": [
+    "meninges",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-56835093",
+   "group": "Spinal cord and meninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A patient presents with the worst headache of their life; the CSF is bloody and xanthochromic. What is the most common cause?",
+   "options": [
+    "Rupture of the middle meningeal artery",
+    "Rupture of a saccular (berry) aneurysm of the cerebral arterial circle",
+    "Haemorrhage from the choroid plexus",
+    "Cavernous sinus thrombosis",
+    "Rupture of the bridging veins"
+   ],
+   "answer": 1,
+   "explanation": "The commonest cause of non-traumatic subarachnoid haemorrhage is an aneurysm around the circle of Willis, most often at the anterior communicating artery junction. The blood mixes with the CSF in the subarachnoid space.",
+   "entries": [
+    "meninges",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-c9d1565d",
+   "group": "Spinal cord and meninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which tooth-like extensions of the pia mater attach the spinal cord to the dura mater on each side?",
+   "options": [
+    "Filum terminale",
+    "Ligamentum flavum",
+    "Denticulate ligaments",
+    "Coccygeal ligament",
+    "Intermediate cervical septum"
+   ],
+   "answer": 2,
+   "explanation": "On each side the pia mater forms about 21 tooth-like extensions (denticulate ligaments) that pierce the arachnoid, attach to the dura and suspend the cord in the dural sac. The filum terminale runs from the conus medullaris to the coccyx.",
+   "entries": [
+    "meninges",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-86030d28",
+   "group": "Spinal cord and meninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the epidural space of the vertebral canal is correct?",
+   "options": [
+    "It is filled with CSF.",
+    "It is freely continuous with an epidural space inside the skull.",
+    "It ends at L1 together with the spinal cord.",
+    "It lies between the pia mater and the arachnoid.",
+    "It contains fat and the internal vertebral venous plexus."
+   ],
+   "answer": 4,
+   "explanation": "The spinal epidural space lies between the dura and the periosteum of the vertebral canal and contains fat and the valveless internal vertebral venous plexus (Batson). In the skull the dura is fused to the periosteum, so normally there is no epidural space; the space ends at the foramen magnum. These veins allow pelvic and breast cancers to spread to the spine.",
+   "entries": [
+    "meninges",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ne-beeb8a52",
+   "group": "Spinal cord and meninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A patient with a massive lumbar disc herniation has 'saddle' anaesthesia over the perineum and inner thighs, urinary retention and reduced anal sphincter tone. What is this emergency?",
+   "options": [
+    "Piriformis syndrome",
+    "Brown-Séquard syndrome",
+    "Unilateral compression of the conus medullaris",
+    "Meralgia paraesthetica",
+    "Cauda equina syndrome"
+   ],
+   "answer": 4,
+   "explanation": "When the nerve roots below L1–L2 (cauda equina) are compressed, the perineal skin, bladder and anal sphincter supplied by the sacral roots are affected. It requires urgent surgical decompression.",
+   "entries": [
+    "cauda-equina",
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ne-80f02adb",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which is the only sense that does not synapse in the thalamus before reaching the cortex?",
+   "options": [
+    "Vision",
+    "Smell",
+    "Hearing",
+    "Touch",
+    "Taste"
+   ],
+   "answer": 1,
+   "explanation": "Olfactory fibres synapse in the olfactory bulb; the olfactory tract runs directly to areas such as the piriform cortex and the amygdala. All other senses are relayed in the thalamus before reaching the cortex.",
+   "entries": [
+    "n-olfactorius",
+    "organum-olfactus"
+   ]
+  },
+  {
+   "id": "ne-f7431de4",
+   "group": "Cranial nerves",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "A patient with headache and visual disturbance has lost the outer (temporal) visual fields of both eyes. A pituitary adenoma is suspected. Which structure is being compressed?",
+   "options": [
+    "Optic radiation",
+    "Optic nerve",
+    "Lateral geniculate body",
+    "Optic chiasm",
+    "Optic tract"
+   ],
+   "answer": 3,
+   "explanation": "In the optic chiasm the fibres from the nasal halves of both retinas cross; these fibres carry the temporal visual fields. A pituitary tumour pressing from below compresses them and causes bitemporal hemianopia.",
+   "entries": [
+    "n-opticus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-c94ccfe0",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which visual field defect results from a lesion of the right optic tract?",
+   "options": [
+    "Right homonymous hemianopia",
+    "Complete blindness of the right eye",
+    "Left homonymous hemianopia",
+    "Bitemporal hemianopia",
+    "Left upper quadrantanopia"
+   ],
+   "answer": 2,
+   "explanation": "All lesions behind the chiasm cause a homonymous defect in the opposite visual field. The right optic tract carries fibres from the temporal retina of the right eye and the nasal retina of the left eye, that is, from the left visual field.",
+   "entries": [
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-cbc1f080",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which defect is expected after damage to the optic radiation fibres passing through the temporal lobe (Meyer's loop)?",
+   "options": [
+    "Contralateral superior homonymous quadrantanopia",
+    "Ipsilateral superior quadrantanopia",
+    "Complete hemianopia with macular sparing",
+    "Contralateral inferior homonymous quadrantanopia",
+    "Bitemporal hemianopia"
+   ],
+   "answer": 0,
+   "explanation": "The lower fibres of the optic radiation (from the lower half of the retina, carrying the upper visual field) form Meyer's loop in the temporal lobe; their damage causes contralateral upper quadrantanopia ('pie in the sky'). Parietal lobe lesions affect the lower quadrant.",
+   "entries": [
+    "n-opticus",
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-48c33959",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with a sudden, severe headache has ptosis, a fixed dilated pupil and a down-and-out deviation of the right eye. An aneurysm of which artery most often causes this picture?",
+   "options": [
+    "Middle cerebral artery",
+    "Posterior communicating artery",
+    "Ophthalmic artery",
+    "Anterior communicating artery",
+    "Tip of the basilar artery"
+   ],
+   "answer": 1,
+   "explanation": "The oculomotor nerve runs right beside the PCom. Because the parasympathetic pupillary fibres travel on the surface of the nerve, external compression (aneurysm) affects the pupil early. In diabetic (ischaemic) third nerve palsy the interior of the nerve is affected, so the pupil is usually spared.",
+   "entries": [
+    "n-oculomotorius",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-0abd7abf",
+   "group": "Cranial nerves",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In which option are the three divisions of the trigeminal nerve correctly matched with the openings through which they leave the skull?",
+   "options": [
+    "V1 – foramen rotundum, V2 – foramen ovale, V3 – foramen spinosum",
+    "V1 – superior orbital fissure, V2 – foramen rotundum, V3 – foramen ovale",
+    "V1 – foramen ovale, V2 – foramen rotundum, V3 – superior orbital fissure",
+    "V1 – optic canal, V2 – inferior orbital fissure, V3 – foramen ovale",
+    "V1 – superior orbital fissure, V2 – foramen ovale, V3 – foramen rotundum"
+   ],
+   "answer": 1,
+   "explanation": "The ophthalmic nerve passes through the superior orbital fissure into the orbit, the maxillary nerve through the foramen rotundum into the pterygopalatine fossa, and the mandibular nerve through the foramen ovale into the infratemporal fossa. Only V3 contains motor fibres.",
+   "entries": [
+    "n-trigeminus",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "ne-3ea7d066",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following muscles is NOT supplied by the mandibular nerve (V3)?",
+   "options": [
+    "Anterior belly of digastric",
+    "Stapedius",
+    "Tensor tympani",
+    "Tensor veli palatini",
+    "Mylohyoid"
+   ],
+   "answer": 1,
+   "explanation": "V3 supplies the muscles of the first pharyngeal arch: the muscles of mastication, tensor tympani, tensor veli palatini, mylohyoid and the anterior belly of digastric. Stapedius is a second-arch muscle supplied by the facial nerve; its paralysis causes hyperacusis.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "ne-119b3c5e",
+   "group": "Cranial nerves",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which nerves form the afferent and efferent limbs of the corneal reflex?",
+   "options": [
+    "Afferent: ophthalmic nerve – Efferent: oculomotor nerve",
+    "Afferent: maxillary nerve (V2) – Efferent: oculomotor nerve",
+    "Afferent: optic nerve (II) – Efferent: oculomotor nerve (III)",
+    "Afferent: ophthalmic nerve (V1) – Efferent: facial nerve (VII)",
+    "Afferent: facial nerve – Efferent: trigeminal nerve"
+   ],
+   "answer": 3,
+   "explanation": "Touching the cornea is sensed by the nasociliary nerve (V1); in response orbicularis oculi (VII) contracts in both eyes. In the light reflex the afferent limb is II and the efferent III.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "cornea"
+   ]
+  },
+  {
+   "id": "ne-2746f878",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with facial palsy that began with pain behind the ear cannot wrinkle the forehead or close the eye on the same side, but taste, tear secretion and hearing are normal. Where is the lesion?",
+   "options": [
+    "In the facial nucleus in the pons",
+    "At the level of the geniculate ganglion",
+    "Just before the chorda tympani leaves",
+    "At or distal to the stylomastoid foramen",
+    "In the internal acoustic meatus"
+   ],
+   "answer": 3,
+   "explanation": "In the facial canal the facial nerve gives off, in turn, the greater petrosal nerve (lacrimal gland), the nerve to stapedius and the chorda tympani (taste from the anterior two thirds of the tongue). If only the muscles of facial expression are affected, the lesion lies after all these branches, at the stylomastoid foramen or in the parotid.",
+   "entries": [
+    "n-facialis",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-f733b124",
+   "group": "Cranial nerves",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which option correctly lists the terminal branches into which the facial nerve divides within the parotid gland?",
+   "options": [
+    "Temporal, infraorbital, buccal, mental and cervical branches",
+    "Ophthalmic, maxillary, mandibular, buccal and cervical branches",
+    "Auricular, temporal, lingual, buccal and mental branches",
+    "Frontal, zygomatic, lingual, mandibular and cervical branches",
+    "Temporal, zygomatic, buccal, marginal mandibular and cervical branches"
+   ],
+   "answer": 4,
+   "explanation": "After leaving the stylomastoid foramen the facial nerve forms the pes anserinus within the parotid and divides into five terminal branches. Preserving these branches is the main priority in parotid surgery; the nerve does not supply the gland.",
+   "entries": [
+    "n-facialis",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-fe75f44a",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient with progressive one-sided hearing loss and tinnitus has a reduced corneal reflex on the same side. MRI shows a mass at the cerebellopontine angle. What is the most likely diagnosis?",
+   "options": [
+    "Pituitary adenoma",
+    "Craniopharyngioma",
+    "Vestibular schwannoma (acoustic neuroma)",
+    "Glomus jugulare tumour",
+    "Meningioma (olfactory groove)"
+   ],
+   "answer": 2,
+   "explanation": "A vestibular schwannoma arises from the Schwann cells of the vestibular part of the vestibulocochlear nerve, grows in the internal acoustic meatus and extends into the cerebellopontine angle. As it grows it can compress the trigeminal nerve (corneal reflex) and the facial nerve.",
+   "entries": [
+    "n-vestibulocochlearis",
+    "pons",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-f804d1d2",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following about the glossopharyngeal nerve is FALSE?",
+   "options": [
+    "It stimulates parotid secretion through the otic ganglion.",
+    "It is the afferent limb of the gag reflex.",
+    "It carries taste from the anterior two thirds of the tongue.",
+    "It carries baroreceptor information from the carotid sinus.",
+    "It carries both taste and general sensation from the posterior third of the tongue."
+   ],
+   "answer": 2,
+   "explanation": "IX carries taste and general sensation from the posterior third of the tongue, the pharyngeal mucosa and information from the carotid sinus and body; its only muscle is stylopharyngeus. Taste from the anterior two thirds of the tongue is carried by the chorda tympani (VII) and general sensation by the lingual nerve (V3).",
+   "entries": [
+    "n-glossopharyngeus",
+    "gustus"
+   ]
+  },
+  {
+   "id": "ne-c4430a06",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": true,
+   "stem": "When asked to say 'aah', the patient's uvula deviates to the right. Which nerve and side are affected?",
+   "options": [
+    "Left vagus nerve",
+    "Left facial nerve",
+    "Right hypoglossal nerve",
+    "Right vagus nerve",
+    "Left glossopharyngeal nerve"
+   ],
+   "answer": 0,
+   "explanation": "The muscles of the soft palate (levator veli palatini and others) are supplied by the vagus nerve. With one side paralysed, the healthy side pulls the palate towards itself, so the uvula deviates to the healthy side, away from the lesion. The tongue, by contrast, deviates towards the side of the lesion.",
+   "entries": [
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-bc679c52",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Under which structure does the left recurrent laryngeal nerve hook before turning upwards?",
+   "options": [
+    "Left brachiocephalic vein",
+    "Brachiocephalic trunk",
+    "Arch of the aorta (just lateral to the ligamentum arteriosum)",
+    "Left subclavian artery",
+    "Left main bronchus"
+   ],
+   "answer": 2,
+   "explanation": "The left recurrent nerve hooks under the arch of the aorta beside the ligamentum arteriosum; the right recurrent nerve turns under the right subclavian artery. Because of its long course, the left nerve can be compressed by an aortic aneurysm, an enlarged left atrium or a lung tumour, causing hoarseness.",
+   "entries": [
+    "n-vagus",
+    "aorta",
+    "larynx"
+   ]
+  },
+  {
+   "id": "ne-e83d1843",
+   "group": "Cranial nerves",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which cranial nerves carry parasympathetic fibres?",
+   "options": [
+    "III, VII, IX and X",
+    "V, VII, IX and XI",
+    "II, III, VII and XII",
+    "VII, IX, X and XII",
+    "III, IV, V and VI"
+   ],
+   "answer": 0,
+   "explanation": "The cranial parasympathetic outflow travels in four nerves: III (ciliary ganglion – pupil and accommodation), VII (pterygopalatine and submandibular ganglia), IX (otic ganglion – parotid) and X (thoracic and abdominal organs).",
+   "entries": [
+    "systema-autonomicum",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-a9ee3049",
+   "group": "Cranial nerves",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which is the only cranial nerve that emerges from the dorsal (posterior) surface of the brainstem?",
+   "options": [
+    "Accessory nerve",
+    "Oculomotor nerve",
+    "Trigeminal nerve",
+    "Abducens nerve",
+    "Trochlear nerve"
+   ],
+   "answer": 4,
+   "explanation": "The trochlear fibres cross in the midbrain and emerge from the dorsal surface below the inferior colliculi. It is the thinnest cranial nerve and has the longest intracranial course. It supplies the superior oblique of the opposite side.",
+   "entries": [
+    "n-trochlearis",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-e3ffe10b",
+   "group": "Cranial nerves",
+   "level": "tus",
+   "clinical": false,
+   "stem": "After squeezing a boil on the face a patient develops fever, periorbital oedema and proptosis; cavernous sinus thrombosis is suspected. Which cranial nerve is expected to be affected first, and why?",
+   "options": [
+    "Maxillary nerve; because it lies in the floor of the sinus",
+    "Oculomotor nerve; because it is highest in the lateral wall of the sinus",
+    "Optic nerve; because it passes through the sinus",
+    "Trochlear nerve; because it runs free inside the sinus",
+    "Abducens nerve; because it runs free inside the sinus together with the internal carotid artery"
+   ],
+   "answer": 4,
+   "explanation": "In the lateral wall of the cavernous sinus lie, from above downwards, III, IV, V1 and V2; inside the sinus are the internal carotid artery and the abducens nerve. Abducens palsy (limited lateral gaze) is therefore often the first sign. The 'danger triangle' of the face communicates with the sinus through the ophthalmic veins.",
+   "entries": [
+    "n-abducens",
+    "sinus-durae-matris",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "ne-eed7e04e",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "How are the cords of the brachial plexus named?",
+   "options": [
+    "By their position relative to the second part of the axillary artery",
+    "By their position relative to scalenus anterior",
+    "By their position relative to the clavicle",
+    "By the compartment they supply",
+    "By the spinal segments they come from"
+   ],
+   "answer": 0,
+   "explanation": "The lateral, medial and posterior cords surround the second part of the axillary artery behind pectoralis minor and are named after their position relative to it. The roots (C5–T1) lie in the scalene gap, the trunks in the posterior triangle and the divisions behind the clavicle.",
+   "entries": [
+    "plexus-brachialis",
+    "a-axillaris"
+   ]
+  },
+  {
+   "id": "ne-3c25db81",
+   "group": "Spinal nerves and plexuses",
+   "level": "tus",
+   "clinical": true,
+   "stem": "After a difficult delivery with shoulder dystocia, the baby's arm lies adducted and internally rotated at the side, with the elbow extended and the forearm pronated (the 'waiter's tip' position). Which structure is affected?",
+   "options": [
+    "Musculocutaneous nerve",
+    "Lower trunk of the brachial plexus (C8–T1) – Klumpke palsy",
+    "Upper trunk of the brachial plexus (C5–C6) – Erb–Duchenne palsy",
+    "Axillary nerve",
+    "Posterior cord"
+   ],
+   "answer": 2,
+   "explanation": "Forcibly widening the angle between head and shoulder stretches the upper trunk. Deltoid, supraspinatus, infraspinatus (abduction and external rotation), biceps and brachialis (elbow flexion) and the supinators are paralysed, and the arm takes up the typical position.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-7352de71",
+   "group": "Spinal nerves and plexuses",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A patient who grabbed a branch while falling, so that the arm was forcibly pulled upwards, develops clawing of the hand, wasting of the intrinsic muscles, sensory loss on the inner forearm, and ptosis with miosis on the same side. What is the lesion?",
+   "options": [
+    "Lower trunk of the brachial plexus (C8–T1) – Klumpke palsy",
+    "Upper trunk of the brachial plexus (C5–C6)",
+    "Injury of the radial nerve in the axilla",
+    "Lateral cord",
+    "Injury of the median nerve at the wrist"
+   ],
+   "answer": 0,
+   "explanation": "Forcible traction of the abducted arm stretches the lower trunk (C8–T1): the intrinsic muscles of the hand are paralysed and a claw hand develops. Involvement of the sympathetic fibres near the T1 root (stellate ganglion) explains the Horner syndrome.",
+   "entries": [
+    "plexus-brachialis",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-abc65d94",
+   "group": "Spinal nerves and plexuses",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following nerves does NOT arise from the posterior cord of the brachial plexus?",
+   "options": [
+    "Upper subscapular nerve",
+    "Thoracodorsal nerve",
+    "Musculocutaneous nerve",
+    "Radial nerve",
+    "Axillary nerve"
+   ],
+   "answer": 2,
+   "explanation": "The posterior cord gives the branches supplying the back of the shoulder and arm: the upper and lower subscapular, thoracodorsal, axillary and radial nerves. The musculocutaneous nerve arises from the lateral cord and supplies the anterior compartment of the arm.",
+   "entries": [
+    "plexus-brachialis",
+    "n-musculocutaneus"
+   ]
+  },
+  {
+   "id": "ne-b856c3f9",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "From which parts of the brachial plexus is the median nerve formed?",
+   "options": [
+    "Lateral cord and posterior cord",
+    "Lateral cord and medial cord",
+    "Lateral cord only",
+    "Upper trunk and middle trunk",
+    "Posterior cord and medial cord"
+   ],
+   "answer": 1,
+   "explanation": "The median nerve is formed by two roots from the lateral and medial cords that join in front of the axillary artery (C6–T1, sometimes with C5 fibres). It gives no branches in the arm; it supplies most of the forearm flexors and the thenar muscles.",
+   "entries": [
+    "n-medianus",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-cd2e97f1",
+   "group": "Spinal nerves and plexuses",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which nerves give no branches at all in the arm (brachium)?",
+   "options": [
+    "Ulnar nerve and radial nerve",
+    "Musculocutaneous nerve and median nerve",
+    "Axillary nerve and radial nerve",
+    "Radial nerve and musculocutaneous nerve",
+    "Median nerve and ulnar nerve"
+   ],
+   "answer": 4,
+   "explanation": "Although the median and ulnar nerves run through the arm, they give no motor or sensory branches there; their branches are in the forearm and hand. The anterior compartment of the arm is supplied by the musculocutaneous nerve and the posterior compartment by the radial nerve.",
+   "entries": [
+    "n-medianus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-cfd5de8f",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which of the following dermatome pairings is wrong?",
+   "options": [
+    "T10 – umbilicus",
+    "S1 – lateral edge of the foot and heel",
+    "L1 – groin",
+    "C8 – thumb",
+    "T4 – nipple"
+   ],
+   "answer": 3,
+   "explanation": "In the hand the thumb is C6, the middle finger C7 and the little finger C8. On the trunk T4 is the nipple, T10 the umbilicus and L1 the groin; on the leg L4 is the medial malleolus, L5 the dorsum of the foot and big toe, and S1 the lateral edge of the foot and the heel.",
+   "entries": [
+    "ganglion-spinale",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "ne-78ef009f",
+   "group": "Spinal nerves and plexuses",
+   "level": "tus",
+   "clinical": true,
+   "stem": "An obese patient who wears a tight belt has burning, numbness and tingling over the anterolateral thigh; muscle power and reflexes are normal. Which nerve is compressed?",
+   "options": [
+    "Lateral femoral cutaneous nerve",
+    "Femoral nerve",
+    "Genitofemoral nerve",
+    "Saphenous nerve",
+    "Obturator nerve"
+   ],
+   "answer": 0,
+   "explanation": "Meralgia paraesthetica: the purely sensory lateral femoral cutaneous nerve (L2–L3) is compressed as it passes under the inguinal ligament just medial to the ASIS. Because it has no motor fibres, there is no weakness.",
+   "entries": [
+    "plexus-lumbalis",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "ne-4b8d4357",
+   "group": "Spinal nerves and plexuses",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following is NOT expected after a femoral nerve injury?",
+   "options": [
+    "Sensory loss on the front of the thigh",
+    "Marked weakness of thigh adduction",
+    "Weakness of knee extension",
+    "Sensory loss on the medial side of the leg",
+    "Loss of the patellar reflex"
+   ],
+   "answer": 1,
+   "explanation": "The femoral nerve (L2–L4) supplies quadriceps, sartorius, iliacus and pectineus, and carries sensation from the front of the thigh and, through the saphenous nerve, from the medial side of the leg. The adductors are supplied by the obturator nerve.",
+   "entries": [
+    "n-femoralis",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "ne-1b1b302a",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "After prolonged pelvic surgery a patient has difficulty bringing the legs together and numbness over a small area on the inner thigh. Which nerve was injured?",
+   "options": [
+    "Obturator nerve",
+    "Femoral nerve",
+    "Genitofemoral nerve",
+    "Pudendal nerve",
+    "Superior gluteal nerve"
+   ],
+   "answer": 0,
+   "explanation": "The obturator nerve (L2–L4) runs on the lateral pelvic wall, near the ovarian fossa, and enters the obturator canal. It can be injured in pelvic surgery, by tumours or in difficult labour; the thigh adductors weaken and sensation is lost on the inner thigh.",
+   "entries": [
+    "n-obturatorius",
+    "mm-adductores"
+   ]
+  },
+  {
+   "id": "ne-96063403",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "At what level does the sciatic nerve most often divide into its two terminal branches (tibial and common fibular nerves)?",
+   "options": [
+    "As it leaves the greater sciatic foramen",
+    "At the very top of the thigh, at the gluteal fold",
+    "At the neck of the fibula",
+    "Behind the medial malleolus",
+    "At the upper angle of the popliteal fossa"
+   ],
+   "answer": 4,
+   "explanation": "The sciatic nerve (L4–S3), the thickest nerve in the body, usually divides at the apex of the popliteal fossa. Sometimes the division is higher and the fibular part pierces piriformis.",
+   "entries": [
+    "n-ischiadicus",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "ne-7800f94a",
+   "group": "Spinal nerves and plexuses",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which of the following results from injury to the tibial nerve in the popliteal fossa?",
+   "options": [
+    "Foot drop and sensory loss on the dorsum of the foot",
+    "Sensory loss on the medial side of the leg",
+    "Loss of plantar flexion of the foot and of toe flexion, sensory loss on the sole",
+    "Loss of knee extension",
+    "Loss of eversion of the foot"
+   ],
+   "answer": 2,
+   "explanation": "The tibial nerve supplies the posterior compartment muscles (triceps surae, tibialis posterior, long flexors) and, through its plantar branches, the muscles of the sole. After injury the foot is held in dorsiflexion and eversion (calcaneovalgus), the patient cannot walk on tiptoe and sensation on the sole is lost.",
+   "entries": [
+    "n-tibialis",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "ne-bbd6023c",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Which nerve supplies the external anal sphincter?",
+   "options": [
+    "Inferior hypogastric plexus",
+    "Obturator nerve",
+    "Pelvic splanchnic nerves",
+    "Genitofemoral nerve",
+    "Pudendal nerve (inferior rectal nerve)"
+   ],
+   "answer": 4,
+   "explanation": "The voluntarily controlled external anal and external urethral sphincters are supplied by the pudendal nerve (S2–S4). The internal sphincters are smooth muscle and are controlled by autonomic nerves.",
+   "entries": [
+    "n-pudendus",
+    "rectum"
+   ]
+  },
+  {
+   "id": "ne-91182414",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The spinal (dorsal root) ganglion contains the cell bodies of which cells?",
+   "options": [
+    "Interneurons",
+    "Preganglionic sympathetic neurons",
+    "Postganglionic parasympathetic neurons",
+    "Lower motor neurons",
+    "Pseudounipolar sensory neurons"
+   ],
+   "answer": 4,
+   "explanation": "The peripheral process of the pseudounipolar neurons in the dorsal root ganglion receives information from receptors, and the central process enters the spinal cord in the dorsal root. There are no synapses in this ganglion. The herpes zoster virus lies latent here.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d3c5354b",
+   "group": "Spinal nerves and plexuses",
+   "level": "tus",
+   "clinical": false,
+   "stem": "If the radial nerve is compressed in the axilla in a patient using crutches incorrectly, what else is seen, unlike a lesion at the radial groove?",
+   "options": [
+    "Weakness of triceps brachii and a reduced triceps reflex",
+    "There is no wrist drop.",
+    "Wasting of the intrinsic muscles of the hand",
+    "Weakness of biceps brachii",
+    "Sensory loss in the palm"
+   ],
+   "answer": 0,
+   "explanation": "The branches to triceps leave the radial nerve in the axilla and upper arm. In an axillary (crutch) lesion elbow extension is also affected; in a lesion at the shaft of the humerus triceps is usually spared. Both cause wrist drop.",
+   "entries": [
+    "n-radialis",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "ne-ae42ee32",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "From which spinal segments does the phrenic nerve arise?",
+   "options": [
+    "C7–T1",
+    "C1–C3",
+    "C3–C5",
+    "T1–T2",
+    "C5–C7"
+   ],
+   "answer": 2,
+   "explanation": "'C3, 4, 5 keeps the diaphragm alive.' The phrenic nerve is the most important branch of the cervical plexus; C4 makes the main contribution. In spinal cord injuries above C3 spontaneous breathing stops.",
+   "entries": [
+    "n-phrenicus",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "ne-adea3654",
+   "group": "Autonomic nervous system",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where in the spinal cord are the cell bodies of the preganglionic sympathetic neurons?",
+   "options": [
+    "In the dorsal horn of every segment",
+    "In the lateral horn of segments T1–L2 (intermediolateral nucleus)",
+    "In the anterior horn of segments S2–S4",
+    "In the parasympathetic nuclei of the brainstem",
+    "In the lateral horn of segments C1–C8"
+   ],
+   "answer": 1,
+   "explanation": "The sympathetic system has a thoracolumbar outflow: the preganglionic neurons lie in the lateral horn of T1–L2 and reach the sympathetic chain through the white rami communicantes. The parasympathetic system is craniosacral (III, VII, IX, X and S2–S4).",
+   "entries": [
+    "truncus-sympathicus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-d3fdff6f",
+   "group": "Autonomic nervous system",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In which ganglion do the parasympathetic fibres to the lacrimal gland synapse?",
+   "options": [
+    "Otic ganglion",
+    "Superior cervical ganglion",
+    "Submandibular ganglion",
+    "Pterygopalatine ganglion",
+    "Ciliary ganglion"
+   ],
+   "answer": 3,
+   "explanation": "The fibres leave the facial nerve in the greater petrosal nerve and reach the pterygopalatine ganglion through the nerve of the pterygoid canal; postganglionic fibres stimulate the gland via the zygomatic and lacrimal nerves. This is why VII lesions proximal to the geniculate ganglion cause a dry eye.",
+   "entries": [
+    "n-facialis",
+    "apparatus-lacrimalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-41a47503",
+   "group": "Autonomic nervous system",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In which nerve do the parasympathetic fibres that stimulate parotid secretion begin, and in which ganglion do they synapse?",
+   "options": [
+    "Glossopharyngeal nerve – ciliary ganglion",
+    "Glossopharyngeal nerve – otic ganglion",
+    "Facial nerve – submandibular ganglion",
+    "Facial nerve – pterygopalatine ganglion",
+    "Vagus nerve – otic ganglion"
+   ],
+   "answer": 1,
+   "explanation": "The tympanic branch of IX forms the lesser petrosal nerve; the fibres synapse in the otic ganglion and reach the parotid with the auriculotemporal nerve (V3). The submandibular and sublingual glands are stimulated by the chorda tympani fibres of VII.",
+   "entries": [
+    "n-glossopharyngeus",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-196a637e",
+   "group": "Autonomic nervous system",
+   "level": "tus",
+   "clinical": true,
+   "stem": "A long-term smoker has pain radiating to the right shoulder and inner arm, mild ptosis and miosis of the right eye and loss of sweating on the right half of the face. What is the most likely cause?",
+   "options": [
+    "Right facial nerve palsy",
+    "Myasthenia gravis",
+    "Left hemisphere stroke",
+    "Right oculomotor nerve palsy",
+    "A Pancoast tumour at the right lung apex involving the cervical sympathetic chain"
+   ],
+   "answer": 4,
+   "explanation": "Horner syndrome (ptosis – superior tarsal muscle, miosis – dilator pupillae, anhidrosis) results from damage anywhere along the sympathetic pathway. A tumour of the lung apex involves the stellate ganglion and the lower trunk (C8–T1), causing Horner syndrome and arm pain.",
+   "entries": [
+    "truncus-sympathicus",
+    "pulmones",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-829e615f",
+   "group": "Autonomic nervous system",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the sympathetic innervation of the adrenal medulla is correct?",
+   "options": [
+    "The medulla receives no autonomic innervation.",
+    "The chromaffin cells are stimulated by postganglionic neurons.",
+    "The postganglionic fibres come from the coeliac ganglion.",
+    "The preganglionic fibres end directly on the medullary cells; the medulla behaves like a ganglion.",
+    "Parasympathetic fibres arrive through the vagus nerve."
+   ],
+   "answer": 3,
+   "explanation": "The chromaffin cells of the adrenal medulla come from the neural crest and are regarded as modified postganglionic neurons. Preganglionic fibres arriving in the splanchnic nerves synapse directly on these cells and stimulate the release of adrenaline and noradrenaline.",
+   "entries": [
+    "glandula-suprarenalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-86aa969a",
+   "group": "Autonomic nervous system",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which neurotransmitter is released by the postganglionic fibres in the sympathetic innervation of sweat glands?",
+   "options": [
+    "Adrenaline",
+    "Serotonin",
+    "Dopamine",
+    "Noradrenaline",
+    "Acetylcholine"
+   ],
+   "answer": 4,
+   "explanation": "Most sympathetic postganglionic fibres are noradrenergic, but those to the eccrine sweat glands are cholinergic (muscarinic receptors). This is why anticholinergic drugs reduce sweating.",
+   "entries": [
+    "glandulae-cutis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-bdaebe1a",
+   "group": "Autonomic nervous system",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the pelvic splanchnic nerves is correct?",
+   "options": [
+    "They consist only of sensory fibres.",
+    "They carry preganglionic sympathetic fibres from T5–T9.",
+    "They carry postganglionic sympathetic fibres.",
+    "They are the pelvic branches of the vagus nerve.",
+    "They carry preganglionic parasympathetic fibres from S2–S4."
+   ],
+   "answer": 4,
+   "explanation": "The pelvic splanchnic nerves carry the parasympathetic fibres to the bladder (detrusor contraction), rectum, descending and sigmoid colon, and those producing erection ('point'). The thoracic splanchnic nerves (greater T5–T9, lesser T10–T11, least T12) are sympathetic.",
+   "entries": [
+    "systema-autonomicum",
+    "vesica-urinaria"
+   ]
+  },
+  {
+   "id": "ne-f843505f",
+   "group": "Autonomic nervous system",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "At the onset of appendicitis the patient describes poorly localised pain around the umbilicus; hours later the pain settles in the right lower quadrant. Why is the initial pain felt around the umbilicus?",
+   "options": [
+    "The ilioinguinal nerve supplies the appendix.",
+    "The parietal peritoneum is involved early.",
+    "The phrenic nerve is irritated.",
+    "The appendix lies just behind the umbilicus.",
+    "The visceral afferents of the appendix enter segment T10, and the pain is referred to that dermatome."
+   ],
+   "answer": 4,
+   "explanation": "Visceral pain from midgut organs is carried with sympathetic fibres to segment T10 and referred to the periumbilical area. When the inflammation reaches the parietal peritoneum, its somatic innervation localises the pain to McBurney's point.",
+   "entries": [
+    "appendix-vermiformis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-6eb71b69",
+   "group": "Autonomic nervous system",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Roughly how far along the gut does the parasympathetic supply of the vagus nerve extend?",
+   "options": [
+    "To the left third of the transverse colon (near the left colic flexure)",
+    "To the beginning of the sigmoid colon",
+    "To the end of the rectum",
+    "To the end of the duodenum",
+    "To the end of the ileum"
+   ],
+   "answer": 0,
+   "explanation": "The vagus supplies derivatives of the foregut and midgut (up to about two thirds of the transverse colon). From the left colic flexure onwards, hindgut derivatives receive their parasympathetic fibres from the pelvic splanchnic nerves (S2–S4).",
+   "entries": [
+    "n-vagus",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "ne-dd43e180",
+   "group": "Autonomic nervous system",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The stellate ganglion is formed by the fusion of which ganglia?",
+   "options": [
+    "The inferior cervical ganglion and the first thoracic ganglion",
+    "The coeliac and aorticorenal ganglia",
+    "The ciliary and pterygopalatine ganglia",
+    "The middle cervical and second thoracic ganglia",
+    "The superior and middle cervical ganglia"
+   ],
+   "answer": 0,
+   "explanation": "In most people the stellate (cervicothoracic) ganglion forms by fusion of the inferior cervical and T1 ganglia; it lies in front of the neck of the first rib, behind the origin of the vertebral artery. Blocking it is used for sympathetically maintained pain of the upper limb and causes Horner syndrome.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-53acb8d2",
+   "group": "Autonomic nervous system",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Which statement about the white rami communicantes is correct?",
+   "options": [
+    "They are found only on spinal nerves T1–L2 and carry myelinated preganglionic fibres.",
+    "They are found on all spinal nerves.",
+    "They carry parasympathetic fibres to the sympathetic chain.",
+    "They carry unmyelinated postganglionic fibres.",
+    "They are found only on cervical nerves."
+   ],
+   "answer": 0,
+   "explanation": "The white rami look white because the preganglionic fibres are myelinated, and they exist only in segments T1–L2, where the sympathetic outflow is. Grey rami (unmyelinated postganglionic) return from the chain to every spinal nerve, so the vessels, sweat glands and hair muscles of the skin all over the body receive sympathetic fibres.",
+   "entries": [
+    "truncus-sympathicus",
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-04a5f34d",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the largest commissural fibre bundle connecting the two cerebral hemispheres?",
+   "options": [
+    "Corona radiata",
+    "Internal capsule",
+    "Corpus callosum",
+    "Fornix",
+    "Anterior commissure"
+   ],
+   "answer": 2,
+   "explanation": "The corpus callosum is the largest commissure linking the cortex of the two hemispheres. The internal capsule and corona radiata are projection fibres linking the cortex to lower centres; the fornix is the output pathway of the hippocampus.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-7ac85b98",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which gyrus is the primary motor cortex?",
+   "options": [
+    "Postcentral gyrus",
+    "Angular gyrus",
+    "Precentral gyrus",
+    "Cingulate gyrus",
+    "Superior temporal gyrus"
+   ],
+   "answer": 2,
+   "explanation": "The primary motor cortex (Brodmann 4) lies in the precentral gyrus just in front of the central sulcus. It initiates voluntary movements of the opposite half of the body; its map is known as the motor homunculus.",
+   "entries": [
+    "gyrus-precentralis"
+   ]
+  },
+  {
+   "id": "ne-2c3b62da",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which gyrus is the primary somatosensory cortex?",
+   "options": [
+    "Postcentral gyrus",
+    "Precentral gyrus",
+    "Cuneus",
+    "Superior frontal gyrus",
+    "Parahippocampal gyrus"
+   ],
+   "answer": 0,
+   "explanation": "The postcentral gyrus (Brodmann 3, 1, 2) lies just behind the central sulcus and receives touch, pain, temperature and position sense from the opposite half of the body.",
+   "entries": [
+    "gyrus-postcentralis"
+   ]
+  },
+  {
+   "id": "ne-9f3ed11f",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which lobe is the primary visual cortex?",
+   "options": [
+    "Frontal lobe",
+    "Occipital lobe (around the calcarine sulcus)",
+    "Temporal lobe",
+    "Insula",
+    "Parietal lobe"
+   ],
+   "answer": 1,
+   "explanation": "The primary visual cortex (Brodmann 17) lies on the medial surface of the occipital lobe, on both sides of the calcarine sulcus. Damage here causes loss of the opposite visual field.",
+   "entries": [
+    "lobus-occipitalis"
+   ]
+  },
+  {
+   "id": "ne-d82e578e",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Where is the primary auditory cortex?",
+   "options": [
+    "Inferior temporal gyrus",
+    "Transverse temporal gyri (Heschl) on the superior temporal gyrus",
+    "Precentral gyrus",
+    "Cuneus",
+    "Angular gyrus"
+   ],
+   "answer": 1,
+   "explanation": "The primary auditory cortex (Brodmann 41–42) lies in the transverse temporal (Heschl) gyri on the surface of the superior temporal gyrus facing the lateral sulcus.",
+   "entries": [
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-630caf8b",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which sulcus separates the frontal lobe from the parietal lobe?",
+   "options": [
+    "Calcarine sulcus",
+    "Central sulcus (Rolando)",
+    "Lateral sulcus (Sylvius)",
+    "Parieto-occipital sulcus",
+    "Cingulate sulcus"
+   ],
+   "answer": 1,
+   "explanation": "The central sulcus separates the frontal and parietal lobes; the motor cortex lies in front of it and the sensory cortex behind it. The lateral sulcus separates the temporal lobe from the frontal and parietal lobes.",
+   "entries": [
+    "lobus-frontalis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-e956823f",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which structure is most important for forming new memories?",
+   "options": [
+    "Cerebellum",
+    "Caudate nucleus",
+    "Thalamus",
+    "Hippocampus",
+    "Amygdaloid body"
+   ],
+   "answer": 3,
+   "explanation": "The hippocampus lies in the medial part of the temporal lobe and plays a key role in transferring short-term memory to long-term memory; bilateral damage leads to inability to form new memories (anterograde amnesia).",
+   "entries": [
+    "hippocampus"
+   ]
+  },
+  {
+   "id": "ne-2e30cb21",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which almond-shaped nucleus deep in the temporal lobe plays the main role in processing fear and emotional responses?",
+   "options": [
+    "Hippocampus",
+    "Claustrum",
+    "Mammillary body",
+    "Amygdaloid body",
+    "Putamen"
+   ],
+   "answer": 3,
+   "explanation": "The amygdala is part of the limbic system; it is involved in detecting danger, in fear and in forming emotional memories. It lies just in front of the hippocampus.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-e1589513",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Through which group of nuclei are all senses except smell relayed before reaching the cortex?",
+   "options": [
+    "Basal nuclei",
+    "Cerebellum",
+    "Hypothalamus",
+    "Hippocampus",
+    "Thalamus"
+   ],
+   "answer": 4,
+   "explanation": "The thalamus is the largest part of the diencephalon; vision, hearing, taste and body sensation are relayed in its nuclei and sent on to the corresponding cortical areas. The olfactory pathway reaches the cortex without passing through the thalamus.",
+   "entries": [
+    "thalamus"
+   ]
+  },
+  {
+   "id": "ne-ee3fb626",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which structure regulates body temperature, hunger and thirst, and pituitary secretion?",
+   "options": [
+    "Pons",
+    "Midbrain",
+    "Hypothalamus",
+    "Thalamus",
+    "Pineal body"
+   ],
+   "answer": 2,
+   "explanation": "The hypothalamus forms the floor of the third ventricle and the lower part of its side walls. By controlling the autonomic system and the pituitary it maintains the balance of the internal environment (homeostasis).",
+   "entries": [
+    "hypothalamus"
+   ]
+  },
+  {
+   "id": "ne-da4674e1",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which structure produces most of the cerebrospinal fluid (CSF)?",
+   "options": [
+    "Pia mater",
+    "Superior sagittal sinus",
+    "Choroid plexus",
+    "Dura mater",
+    "Arachnoid granulations"
+   ],
+   "answer": 2,
+   "explanation": "CSF is produced mostly in the choroid plexuses of the ventricles (about 500 ml a day). The arachnoid granulations reabsorb the CSF into the venous sinuses.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a7eeee6f",
+   "group": "Brain",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which opening connects the lateral ventricles with the third ventricle?",
+   "options": [
+    "Cerebral aqueduct (Sylvius)",
+    "Interventricular foramen (Monro)",
+    "Central canal",
+    "Lateral aperture (Luschka)",
+    "Median aperture (Magendie)"
+   ],
+   "answer": 1,
+   "explanation": "CSF passes from the lateral ventricles through the foramina of Monro into the third ventricle, then through the aqueduct of Sylvius into the fourth ventricle, and leaves through the apertures of Magendie and Luschka into the subarachnoid space.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a1b6cd84",
+   "group": "Brainstem and cerebellum",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In what order, from top to bottom, are the parts of the brainstem?",
+   "options": [
+    "Thalamus – midbrain – pons",
+    "Midbrain – pons – medulla oblongata",
+    "Pons – midbrain – medulla oblongata",
+    "Midbrain – medulla oblongata – pons",
+    "Diencephalon – pons – medulla oblongata"
+   ],
+   "answer": 1,
+   "explanation": "From top to bottom the brainstem consists of the midbrain (mesencephalon), the pons and the medulla oblongata; the medulla continues as the spinal cord at the level of the foramen magnum.",
+   "entries": [
+    "mesencephalon",
+    "pons",
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-000ce129",
+   "group": "Brainstem and cerebellum",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which part of the brainstem are the vital centres for breathing and circulation?",
+   "options": [
+    "Midbrain",
+    "Corpus callosum",
+    "Thalamus",
+    "Cerebellum",
+    "Medulla oblongata"
+   ],
+   "answer": 4,
+   "explanation": "The medulla oblongata contains the centres regulating breathing, heart rate and vascular tone. This is why compression of the medulla by herniation through the foramen magnum can be fatal.",
+   "entries": [
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-eb4c66bd",
+   "group": "Brainstem and cerebellum",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which structure is responsible for balance, muscle tone and the coordination of movements?",
+   "options": [
+    "Hypothalamus",
+    "Occipital lobe",
+    "Cerebellum",
+    "Pons",
+    "Corpus callosum"
+   ],
+   "answer": 2,
+   "explanation": "The cerebellum regulates the timing and smoothness of movement and maintains balance and muscle tone. Damage causes ataxia, tremor and imbalance; the signs are on the same side as the lesion.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-3a99b000",
+   "group": "Brainstem and cerebellum",
+   "level": "basic",
+   "clinical": false,
+   "stem": "By how many pairs of peduncles is the cerebellum attached to the brainstem?",
+   "options": [
+    "5",
+    "1",
+    "3 (superior, middle and inferior)",
+    "4",
+    "2"
+   ],
+   "answer": 2,
+   "explanation": "The superior cerebellar peduncle connects to the midbrain, the middle to the pons and the inferior to the medulla oblongata. The largest is the middle peduncle, carrying fibres from the pons.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-64f89be2",
+   "group": "Spinal cord and meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In adults, at what vertebral level does the spinal cord (conus medullaris) usually end?",
+   "options": [
+    "L4–L5",
+    "T8",
+    "L1–L2",
+    "C7",
+    "S2"
+   ],
+   "answer": 2,
+   "explanation": "In adults the spinal cord ends with the conus medullaris at L1–L2; in the newborn it is lower, at about L3. Below it there are only nerve roots (the cauda equina).",
+   "entries": [
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-17d73e1a",
+   "group": "Spinal cord and meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In what order, from outside inwards, are the membranes covering the brain and spinal cord?",
+   "options": [
+    "Arachnoid mater – dura mater – pia mater",
+    "Dura mater – arachnoid mater – pia mater",
+    "Dura mater – pia mater – arachnoid mater",
+    "Pia mater – arachnoid mater – dura mater",
+    "Pia mater – dura mater – arachnoid mater"
+   ],
+   "answer": 1,
+   "explanation": "Outermost is the thick, tough dura mater, in the middle the web-like arachnoid, and innermost the thin pia mater, closely attached to the surface of the brain.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-904c7a31",
+   "group": "Spinal cord and meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which space does the cerebrospinal fluid circulate?",
+   "options": [
+    "Between the two layers of the dura",
+    "Between the dura and the arachnoid (subdural space)",
+    "Between the pia mater and the brain tissue",
+    "Between the arachnoid and the pia mater (subarachnoid space)",
+    "Between the dura and the bone (epidural space)"
+   ],
+   "answer": 3,
+   "explanation": "CSF circulates in the subarachnoid space, which widens into the cisterns. In lumbar puncture the needle enters this space to obtain CSF.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-4de7a681",
+   "group": "Spinal cord and meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "At which interspace is lumbar puncture usually performed in adults?",
+   "options": [
+    "Between T10 and T11",
+    "Between the L3–L4 or L4–L5 vertebrae",
+    "Between C7 and T1",
+    "Between L1 and L2",
+    "Between T12 and L1"
+   ],
+   "answer": 1,
+   "explanation": "Because the spinal cord ends at L1–L2, the needle is inserted lower, around the line joining the iliac crests (about L4); here there are only the roots of the cauda equina, which move away from the needle.",
+   "entries": [
+    "cauda-equina",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-407bca30",
+   "group": "Spinal cord and meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the bundle of nerve roots descending in the vertebral canal below the conus medullaris called?",
+   "options": [
+    "Lumbosacral enlargement",
+    "Filum terminale",
+    "Cauda equina",
+    "Sacral plexus",
+    "Sympathetic trunk"
+   ],
+   "answer": 2,
+   "explanation": "Because the spinal cord is shorter than the vertebral column, the lower lumbar and sacral roots descend to reach their foramina and form the cauda equina, which resembles a horse's tail. The filum terminale is a pial thread running from the conus to the coccyx.",
+   "entries": [
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-50ebda82",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many pairs of cranial nerves are there?",
+   "options": [
+    "8",
+    "10",
+    "31",
+    "12",
+    "11"
+   ],
+   "answer": 3,
+   "explanation": "Twelve pairs of cranial nerves arise from the brain and brainstem, from I (olfactory) to XII (hypoglossal). There are 31 pairs of spinal nerves.",
+   "entries": [
+    "n-olfactorius",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-ee88b313",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve supplies the muscle that raises the eyelid and most of the eye muscles?",
+   "options": [
+    "Trigeminal nerve (V)",
+    "Abducens nerve (VI)",
+    "Oculomotor nerve (III)",
+    "Facial nerve (VII)",
+    "Trochlear nerve (IV)"
+   ],
+   "answer": 2,
+   "explanation": "The oculomotor nerve supplies levator palpebrae superioris, the superior, inferior and medial recti and the inferior oblique; it also carries the parasympathetic fibres that constrict the pupil.",
+   "entries": [
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-b6c92d74",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve supplies lateral rectus (the muscle that turns the eye outwards)?",
+   "options": [
+    "Abducens nerve (VI)",
+    "Ophthalmic nerve",
+    "Oculomotor nerve (III)",
+    "Trochlear nerve (IV)",
+    "Facial nerve (VII)"
+   ],
+   "answer": 0,
+   "explanation": "The abducens nerve supplies only lateral rectus. When it is paralysed the eye cannot be turned outwards and there is double vision on looking to the side (in short: LR6, SO4, the rest III).",
+   "entries": [
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-994f4b2e",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve carries sensation from the skin of the face and supplies the muscles of mastication?",
+   "options": [
+    "Glossopharyngeal nerve (IX)",
+    "Facial nerve (VII)",
+    "Hypoglossal nerve (XII)",
+    "Trigeminal nerve (V)",
+    "Accessory nerve (XI)"
+   ],
+   "answer": 3,
+   "explanation": "The three divisions of the trigeminal nerve (ophthalmic, maxillary, mandibular) carry sensation from the skin of the face; the mandibular division also supplies the muscles of mastication such as masseter, temporalis and the pterygoids.",
+   "entries": [
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-252939b1",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve supplies the muscles of facial expression?",
+   "options": [
+    "Trigeminal nerve (V)",
+    "Facial nerve (VII)",
+    "Accessory nerve (XI)",
+    "Hypoglossal nerve (XII)",
+    "Vagus nerve (X)"
+   ],
+   "answer": 1,
+   "explanation": "All the muscles that produce facial expression are supplied by the facial nerve. The muscles of mastication are supplied by the trigeminal nerve; this distinction is often confused.",
+   "entries": [
+    "n-facialis"
+   ]
+  },
+  {
+   "id": "ne-347049b5",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the motor nerve of the tongue muscles (except palatoglossus)?",
+   "options": [
+    "Vagus nerve (X)",
+    "Facial nerve (VII)",
+    "Lingual nerve",
+    "Hypoglossal nerve (XII)",
+    "Glossopharyngeal nerve (IX)"
+   ],
+   "answer": 3,
+   "explanation": "The hypoglossal nerve supplies all the intrinsic and extrinsic muscles of the tongue; only palatoglossus is supplied by the vagus. In a one-sided palsy the protruded tongue deviates towards the paralysed side.",
+   "entries": [
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-50ced078",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which cranial nerve supplies sternocleidomastoid and trapezius?",
+   "options": [
+    "Brachial plexus",
+    "Hypoglossal nerve (XII)",
+    "Vagus nerve (X)",
+    "Accessory nerve (XI)",
+    "Facial nerve (VII)"
+   ],
+   "answer": 3,
+   "explanation": "The accessory nerve leaves through the jugular foramen, pierces sternocleidomastoid and crosses the posterior triangle of the neck to reach trapezius. It can be injured in the posterior triangle during neck dissection.",
+   "entries": [
+    "n-accessorius"
+   ]
+  },
+  {
+   "id": "ne-c94694b2",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which cranial nerve gives parasympathetic fibres to most of the thoracic and abdominal organs?",
+   "options": [
+    "Oculomotor nerve (III)",
+    "Glossopharyngeal nerve (IX)",
+    "Accessory nerve (XI)",
+    "Vagus nerve (X)",
+    "Phrenic nerve"
+   ],
+   "answer": 3,
+   "explanation": "The vagus nerve has the longest course of any cranial nerve; it gives parasympathetic fibres to the heart, lungs and digestive tract (up to about the left third of the transverse colon).",
+   "entries": [
+    "n-vagus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-34dda1f9",
+   "group": "Cranial nerves",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve carries hearing and balance?",
+   "options": [
+    "Abducens nerve (VI)",
+    "Facial nerve (VII)",
+    "Vestibulocochlear nerve (VIII)",
+    "Glossopharyngeal nerve (IX)",
+    "Trigeminal nerve (V)"
+   ],
+   "answer": 2,
+   "explanation": "The cochlear part of the vestibulocochlear nerve carries hearing and the vestibular part carries balance. It passes through the internal acoustic meatus together with the facial nerve.",
+   "entries": [
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-667ba770",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How many pairs of spinal nerves are there?",
+   "options": [
+    "30",
+    "33",
+    "12",
+    "31",
+    "24"
+   ],
+   "answer": 3,
+   "explanation": "There are 31 pairs of spinal nerves: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal. Although there are 7 cervical vertebrae, there are 8 cervical nerves.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-15f8e734",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "The brachial plexus is formed by the anterior rami of which spinal nerves?",
+   "options": [
+    "T1–T6",
+    "C5–T1",
+    "C3–C7",
+    "C1–C4",
+    "L1–L4"
+   ],
+   "answer": 1,
+   "explanation": "The brachial plexus is formed by the anterior rami of C5–T1 and is organised into roots, trunks, divisions, cords and branches; it provides all motor and sensory innervation of the upper limb.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-26e018da",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "What is the motor nerve of the diaphragm?",
+   "options": [
+    "Vagus nerve",
+    "Phrenic nerve (C3–C5)",
+    "Accessory nerve",
+    "Intercostal nerves",
+    "Sympathetic trunk"
+   ],
+   "answer": 1,
+   "explanation": "The phrenic nerve descends in the neck on the front of scalenus anterior and supplies the diaphragm. Pain from the diaphragm is referred to the shoulder, the dermatome of the same segments.",
+   "entries": [
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "ne-d86f39c7",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which is the thickest and longest nerve in the body?",
+   "options": [
+    "Tibial nerve",
+    "Obturator nerve",
+    "Median nerve",
+    "Femoral nerve",
+    "Sciatic nerve"
+   ],
+   "answer": 4,
+   "explanation": "The sciatic nerve comes from the L4–S3 roots, leaves through the greater sciatic foramen and descends in the back of the thigh; it usually divides above the popliteal fossa into the tibial and common fibular nerves.",
+   "entries": [
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ne-da1e6de1",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve supplies the anterior muscles of the thigh (quadriceps femoris)?",
+   "options": [
+    "Sciatic nerve",
+    "Obturator nerve",
+    "Pudendal nerve",
+    "Femoral nerve",
+    "Tibial nerve"
+   ],
+   "answer": 3,
+   "explanation": "The femoral nerve (L2–L4) passes into the thigh through the muscular lacuna and supplies quadriceps femoris, sartorius and pectineus; when it is damaged, knee extension and the patellar reflex are lost.",
+   "entries": [
+    "n-femoralis"
+   ]
+  },
+  {
+   "id": "ne-63d6ca4d",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve supplies most of the medial (adductor) muscles of the thigh?",
+   "options": [
+    "Sciatic nerve",
+    "Obturator nerve",
+    "Genitofemoral nerve",
+    "Femoral nerve",
+    "Pudendal nerve"
+   ],
+   "answer": 1,
+   "explanation": "The obturator nerve (L2–L4) passes through the obturator canal into the medial compartment of the thigh and supplies most of the adductors; the hamstring part of adductor magnus is supplied by the sciatic nerve.",
+   "entries": [
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "ne-6c143cec",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve is compressed in carpal tunnel syndrome?",
+   "options": [
+    "Ulnar nerve",
+    "Axillary nerve",
+    "Median nerve",
+    "Radial nerve",
+    "Musculocutaneous nerve"
+   ],
+   "answer": 2,
+   "explanation": "At the wrist the median nerve passes under the flexor retinaculum through the carpal tunnel together with the flexor tendons. Compression causes numbness in the first three and a half fingers and weakness of the thenar muscles.",
+   "entries": [
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "ne-8a555c3e",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve causes tingling on the little-finger side of the hand when the inner side of the elbow is knocked?",
+   "options": [
+    "Musculocutaneous nerve",
+    "Radial nerve",
+    "Ulnar nerve",
+    "Median nerve",
+    "Lateral cutaneous nerve of the forearm"
+   ],
+   "answer": 2,
+   "explanation": "At the elbow the ulnar nerve runs just under the skin behind the medial epicondyle (the 'funny bone'). A blow or compression causes tingling in the 4th and 5th fingers.",
+   "entries": [
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-4bd49a5e",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve supplies triceps brachii, the posterior muscle of the arm?",
+   "options": [
+    "Musculocutaneous nerve",
+    "Radial nerve",
+    "Axillary nerve",
+    "Median nerve",
+    "Ulnar nerve"
+   ],
+   "answer": 1,
+   "explanation": "The radial nerve supplies all the posterior (extensor) muscles of the arm and forearm. In fractures of the shaft of the humerus it can be injured in the radial groove, causing wrist drop.",
+   "entries": [
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "ne-d2881471",
+   "group": "Spinal nerves and plexuses",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Which nerve supplies deltoid?",
+   "options": [
+    "Axillary nerve",
+    "Radial nerve",
+    "Long thoracic nerve",
+    "Suprascapular nerve",
+    "Musculocutaneous nerve"
+   ],
+   "answer": 0,
+   "explanation": "The axillary nerve (C5–C6) winds around the surgical neck of the humerus and supplies deltoid and teres minor. It can be injured in fractures of the surgical neck and in shoulder dislocations.",
+   "entries": [
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ne-4eef8b32",
+   "group": "Autonomic nervous system",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In which segments of the spinal cord are the cell bodies of the sympathetic preganglionic neurons?",
+   "options": [
+    "T1–L2 (lateral horn)",
+    "S2–S4",
+    "C1–C8",
+    "Only in brainstem nuclei",
+    "L3–S1"
+   ],
+   "answer": 0,
+   "explanation": "The sympathetic system has a thoracolumbar outflow: the preganglionic neurons lie in the lateral horn of segments T1–L2. Their fibres reach the sympathetic trunk through the ventral root and the white ramus communicans.",
+   "entries": [
+    "systema-autonomicum",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-8691959b",
+   "group": "Autonomic nervous system",
+   "level": "basic",
+   "clinical": false,
+   "stem": "From which regions do the fibres of the parasympathetic system arise?",
+   "options": [
+    "T1–L2 (thoracolumbar)",
+    "From segments C5–T1",
+    "Only from segments S2–S4",
+    "Only from the brainstem",
+    "Brainstem (III, VII, IX, X) and S2–S4 (craniosacral)"
+   ],
+   "answer": 4,
+   "explanation": "The parasympathetic system has a craniosacral outflow: it is distributed through cranial nerves III, VII, IX and X and through the pelvic splanchnic nerves from segments S2–S4.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-11836b1d",
+   "group": "Autonomic nervous system",
+   "level": "basic",
+   "clinical": false,
+   "stem": "How does the pupil change in the 'fight or flight' response, and which system does this?",
+   "options": [
+    "It dilates (mydriasis) – sympathetic system",
+    "It constricts (miosis) – parasympathetic system",
+    "It does not change – somatic system",
+    "It constricts (miosis) – sympathetic system",
+    "It dilates (mydriasis) – parasympathetic system"
+   ],
+   "answer": 0,
+   "explanation": "Sympathetic stimulation contracts dilator pupillae and widens the pupil. Parasympathetic fibres (oculomotor nerve) constrict the pupil through sphincter pupillae.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-aca0bd08",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "The cell bodies of which neurons are found in the spinal ganglion?",
+   "options": [
+    "Sympathetic preganglionic neurons",
+    "Interneurons",
+    "Pseudounipolar sensory neurons",
+    "Multipolar motor neurons",
+    "Parasympathetic postganglionic neurons"
+   ],
+   "answer": 2,
+   "explanation": "The spinal ganglion on the dorsal root contains the pseudounipolar neurons that carry sensation from the periphery to the spinal cord; there are no synapses in this ganglion.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d5797703",
+   "group": "Autonomic nervous system",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "By which branch do the preganglionic fibres to the sympathetic trunk ganglia leave the spinal nerve?",
+   "options": [
+    "White ramus communicans",
+    "Dorsal ramus",
+    "Grey ramus communicans",
+    "Meningeal branch",
+    "Dorsal root"
+   ],
+   "answer": 0,
+   "explanation": "Myelinated preganglionic fibres enter the sympathetic trunk through the white ramus communicans (present only at T1–L2). Unmyelinated postganglionic fibres return to the spinal nerve through the grey ramus communicans.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-4d840655",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Through which opening does the pudendal nerve leave the pelvis, and through which does it enter the perineum?",
+   "options": [
+    "Leaves through the greater sciatic foramen, enters through the inguinal canal",
+    "Leaves through the obturator canal, enters through the lesser sciatic foramen",
+    "Leaves through the sacral hiatus, enters through the lesser sciatic foramen",
+    "Leaves through the greater sciatic foramen, enters through the lesser sciatic foramen",
+    "Leaves through the lesser sciatic foramen, enters through the greater sciatic foramen"
+   ],
+   "answer": 3,
+   "explanation": "The pudendal nerve (S2–S4) leaves the pelvis below piriformis through the greater sciatic foramen, hooks behind the sacrospinous ligament and enters the perineum through the lesser sciatic foramen, running on in the pudendal canal (Alcock).",
+   "entries": [
+    "n-pudendus"
+   ]
+  },
+  {
+   "id": "ne-7a6e6c80",
+   "group": "Spinal nerves and plexuses",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Where is the common fibular nerve most often injured?",
+   "options": [
+    "Around the neck of the fibula",
+    "Behind the medial malleolus",
+    "In the greater sciatic foramen",
+    "In the adductor canal",
+    "In the tarsal tunnel"
+   ],
+   "answer": 0,
+   "explanation": "The common fibular nerve runs superficially just below the head of the fibula, winding around its neck. A fracture, pressure from a plaster cast or sitting cross-legged can damage the nerve here and cause foot drop.",
+   "entries": [
+    "n-fibularis-communis"
+   ]
+  }
+ ]
+}

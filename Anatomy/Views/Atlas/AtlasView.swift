@@ -13,6 +13,7 @@ struct AtlasView: View {
     @Environment(\.displayScale) private var displayScale
     @State private var showLayers = false
     @State private var showSearch = false
+    @State private var showDissection = false
     @State private var detail: PartRef?
     @State private var tapCount = 0
     @AppStorage("atlas.labels") private var showLabels = false
@@ -142,15 +143,21 @@ struct AtlasView: View {
                 }
                 .transition(.move(edge: .bottom).combined(with: .opacity))
             } else {
-                toolBar
-                    .onGeometryChange(for: CGFloat.self) { $0.frame(in: .global).minY } action: { chromeBottom = $0 }
-                    .transition(.move(edge: .bottom).combined(with: .opacity))
+                VStack(spacing: 10) {
+                    if showDissection {
+                        DissectionPanel { withAnimation(.snappy) { showDissection = false } }
+                            .transition(.move(edge: .bottom).combined(with: .opacity))
+                    }
+                    toolBar
+                }
+                .onGeometryChange(for: CGFloat.self) { $0.frame(in: .global).minY } action: { chromeBottom = $0 }
+                .transition(.move(edge: .bottom).combined(with: .opacity))
             }
         }
         .padding(.horizontal, 16)
         .padding(.bottom, 8)
         .overlay(alignment: .leading) {
-            if scene.selection == nil {
+            if scene.selection == nil, !showDissection {
                 Group {
                     if compact {
                         CollapsedRail { withAnimation(.snappy) { compact = false } }
@@ -262,6 +269,9 @@ struct AtlasView: View {
                         scene.showAll()
                         scene.highlight([])
                         scene.select(nil)
+                        scene.section = nil
+                        scene.dissection = 0
+                        scene.xray = false
                     }
                     scene.resetCamera()
                 }
@@ -277,8 +287,9 @@ struct AtlasView: View {
                 ToolButton(title: String(localized: "Etiketler"), systemImage: "tag", isOn: showLabels, compact: compact) {
                     withAnimation(.snappy) { showLabels.toggle() }
                 }
-                ToolButton(title: String(localized: "Röntgen"), systemImage: "circle.lefthalf.filled", isOn: scene.xray, compact: compact) {
-                    scene.xray.toggle()
+                ToolButton(title: String(localized: "Diseksiyon"), systemImage: "scissors",
+                           isOn: showDissection || scene.xray || scene.section != nil || scene.dissection > 0, compact: compact) {
+                    withAnimation(.snappy) { showDissection.toggle() }
                 }
                 Menu {
                     Picker("Model", selection: Binding(get: { app.sex }, set: { newValue in
@@ -452,6 +463,116 @@ private struct ToolButton: View {
         }
         .buttonStyle(.plain)
         .accessibilityLabel(title)
+    }
+}
+
+// MARK: - Dissection
+
+/// The cutting tools over the tool bar: a section through the body along one
+/// of its planes, the muscles taken away layer by layer from the surface, and
+/// the see-through view.
+private struct DissectionPanel: View {
+    @Environment(AppModel.self) private var app
+    let close: () -> Void
+    /// Where the plane sits along each axis, 0…1 across the body.
+    @State private var positions: [SectionPlane.Axis: Double] = [.horizontal: 0.74, .sagittal: 0.5, .coronal: 0.5]
+
+    private var scene: AnatomyScene { app.scene }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            HStack {
+                Label("Diseksiyon", systemImage: "scissors")
+                    .font(.headline)
+                Spacer()
+                Button(action: close) {
+                    Image(systemName: "xmark")
+                        .font(.footnote.weight(.bold))
+                        .frame(width: 30, height: 30)
+                }
+                .buttonStyle(.plain)
+                .glassEffect(.regular.interactive(), in: .circle)
+                .accessibilityLabel("Kapat")
+            }
+
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Kesit")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.textSecondary)
+                Picker("Kesit", selection: Binding(get: { scene.section?.axis.rawValue ?? -1 }, set: setAxis)) {
+                    Text("Kapalı").tag(-1)
+                    ForEach(SectionPlane.Axis.ordered) { Text($0.title).tag($0.rawValue) }
+                }
+                .pickerStyle(.segmented)
+                if let section = scene.section {
+                    HStack(spacing: 12) {
+                        Slider(value: Binding(get: { positions[section.axis] ?? 0.5 }, set: { move(section.axis, to: $0) }), in: 0...1)
+                            .tint(Theme.accent)
+                        Button {
+                            var flipped = section
+                            flipped.keepBelow.toggle()
+                            scene.section = flipped
+                            scene.faceSection(flipped)
+                        } label: {
+                            Image(systemName: section.axis == .horizontal ? "arrow.up.arrow.down" : "arrow.left.arrow.right")
+                                .font(.subheadline.weight(.semibold))
+                                .frame(width: 36, height: 36)
+                        }
+                        .buttonStyle(.plain)
+                        .glassEffect(.regular.interactive(), in: .circle)
+                        .accessibilityLabel("Kesilen tarafı değiştir")
+                    }
+                }
+            }
+
+            if scene.isEnabled("muscular"), scene.dissectionLayers > 1 {
+                VStack(alignment: .leading, spacing: 8) {
+                    HStack {
+                        Text("Kas katmanları")
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(Theme.textSecondary)
+                        Spacer()
+                        Text(scene.dissection == 0 ? String(localized: "Tümü") : String(localized: "\(scene.dissection) katman kaldırıldı"))
+                            .font(.caption.weight(.semibold))
+                            .foregroundStyle(Theme.accent)
+                    }
+                    Slider(value: Binding(get: { Double(scene.dissection) }, set: { scene.dissection = Int($0.rounded()) }),
+                           in: 0...Double(scene.dissectionLayers - 1), step: 1)
+                        .tint(Theme.accent)
+                    Text("Kaydırdıkça yüzeydeki kaslar kalkar, derindekiler ortaya çıkar.")
+                        .font(.caption)
+                        .foregroundStyle(Theme.textTertiary)
+                }
+            }
+
+            Toggle(isOn: Binding(get: { scene.xray }, set: { scene.xray = $0 })) {
+                Label("Röntgen", systemImage: "circle.lefthalf.filled")
+                    .font(.subheadline.weight(.semibold))
+            }
+            .tint(Theme.accent)
+        }
+        .padding(16)
+        .frame(maxWidth: 520)
+        .glassEffect(.regular, in: .rect(cornerRadius: 24))
+    }
+
+    private func setAxis(_ raw: Int) {
+        guard let axis = SectionPlane.Axis(rawValue: raw) else {
+            scene.section = nil
+            return
+        }
+        move(axis, to: positions[axis] ?? 0.5)
+        if let section = scene.section { scene.faceSection(section) }
+    }
+
+    private func move(_ axis: SectionPlane.Axis, to position: Double) {
+        positions[axis] = position
+        let range = scene.sectionRange(axis)
+        let offset = range.lowerBound + Float(position) * (range.upperBound - range.lowerBound)
+        let previous = scene.section?.axis == axis ? scene.section : nil
+        scene.section = SectionPlane(axis: axis, offset: offset, keepBelow: previous?.keepBelow ?? true)
+        // An axial slice stays in view while it is slid.
+        if let previous, axis == .horizontal { scene.followSection(by: offset - previous.offset) }
     }
 }
 

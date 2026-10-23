@@ -36,6 +36,9 @@ final class PurchaseStore {
     private(set) var activePlan: Plan?
     private(set) var isLoading = false
     private(set) var lastError: String?
+    /// Win-back offers (set up in App Store Connect) the App Store makes to
+    /// this former subscriber, by plan: bought with the offer price.
+    private(set) var winBackOffers: [Plan: Product.SubscriptionOffer] = [:]
 
     @ObservationIgnored private var updates: Task<Void, Never>?
     #if DEBUG
@@ -59,6 +62,7 @@ final class PurchaseStore {
         Task {
             await loadProducts()
             await refreshEntitlements()
+            await refreshWinBackOffers()
         }
     }
 
@@ -91,6 +95,26 @@ final class PurchaseStore {
         isPremium = forcedUnlock || plan != nil
     }
 
+    /// The win-back offers this user is eligible for: only someone whose
+    /// subscription lapsed gets them.
+    func refreshWinBackOffers() async {
+        var offers: [Plan: Product.SubscriptionOffer] = [:]
+        if !isPremium {
+            for plan in [Plan.yearly, .monthly] {
+                guard let subscription = products[plan]?.subscription, !subscription.winBackOffers.isEmpty,
+                      let statuses = try? await subscription.status else { continue }
+                var eligible = Set<String>()
+                for status in statuses {
+                    if case .verified(let info) = status.renewalInfo { eligible.formUnion(info.eligibleWinBackOfferIDs) }
+                }
+                if let offer = subscription.winBackOffers.first(where: { $0.id.map(eligible.contains) ?? false }) {
+                    offers[plan] = offer
+                }
+            }
+        }
+        winBackOffers = offers
+    }
+
     /// Buys `plan`; returns whether Premium is active afterwards.
     @discardableResult
     func purchase(_ plan: Plan) async -> Bool {
@@ -100,7 +124,8 @@ final class PurchaseStore {
         }
         lastError = nil
         do {
-            switch try await product.purchase() {
+            let options: Set<Product.PurchaseOption> = winBackOffers[plan].map { [.winBackOffer($0)] } ?? []
+            switch try await product.purchase(options: options) {
             case .success(let verification):
                 if case .verified(let transaction) = verification {
                     await transaction.finish()
@@ -151,14 +176,43 @@ final class PurchaseStore {
         return saving > 0 ? saving : nil
     }
 
+    /// "3 ay boyunca ₺99,99/ay" for a win-back offer.
+    func winBackText(_ plan: Plan) -> String? {
+        guard let offer = winBackOffers[plan] else { return nil }
+        let price = offer.displayPrice
+        let unit = offer.period.unit
+        let count = offer.period.value * max(offer.periodCount, 1)
+        switch offer.paymentMode {
+        case .freeTrial:
+            return Self.free(count, unit)
+        case .payUpFront:
+            return String(localized: "\(Self.duration(count, unit)) için \(price)")
+        default:
+            return String(localized: "\(Self.duration(count, unit)) boyunca dönem başına \(price)")
+        }
+    }
+
+    private static func duration(_ count: Int, _ unit: Product.SubscriptionPeriod.Unit) -> String {
+        switch unit {
+        // Identifier keys: "%lld ay" is already the compact review interval.
+        case .week: String(localized: "duration.week", defaultValue: "\(count) hafta")
+        case .month: String(localized: "duration.month", defaultValue: "\(count) ay")
+        case .year: String(localized: "duration.year", defaultValue: "\(count) yıl")
+        default: String(localized: "duration.day", defaultValue: "\(count) gün")
+        }
+    }
+
     func trialText(_ plan: Plan) -> String? {
         guard let offer = products[plan]?.subscription?.introductoryOffer, offer.paymentMode == .freeTrial else { return nil }
-        let count = offer.period.value
-        switch offer.period.unit {
-        case .week: return String(localized: "\(count) hafta ücretsiz")
-        case .month: return String(localized: "\(count) ay ücretsiz")
-        case .year: return String(localized: "\(count) yıl ücretsiz")
-        default: return String(localized: "\(count) gün ücretsiz")
+        return Self.free(offer.period.value, offer.period.unit)
+    }
+
+    private static func free(_ count: Int, _ unit: Product.SubscriptionPeriod.Unit) -> String {
+        switch unit {
+        case .week: String(localized: "\(count) hafta ücretsiz")
+        case .month: String(localized: "\(count) ay ücretsiz")
+        case .year: String(localized: "\(count) yıl ücretsiz")
+        default: String(localized: "\(count) gün ücretsiz")
         }
     }
 }

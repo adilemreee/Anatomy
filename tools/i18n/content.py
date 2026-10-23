@@ -27,7 +27,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 CONTENT = os.path.join(ROOT, "Anatomy", "Content")
 SOURCES = os.path.join(HERE, "content")
 LANGS = ["en", "fr", "de", "es"]
-SYSTEMS = ["skeletal", "articular", "muscular", "cardiovascular"]
+SYSTEMS = ["skeletal", "articular", "muscular", "cardiovascular", "nervous"]
 MODELS = os.path.join(ROOT, "Anatomy", "Resources", "Models")
 
 
@@ -56,7 +56,7 @@ def shared(lang):
 def used_terms():
     """English keys of the 3D parts, groups and bone labels in scope."""
     names = set()
-    for layer in ["skeletal", "joints", "muscular", "insertions", "cardiovascular"]:
+    for layer in ["skeletal", "joints", "muscular", "insertions", "cardiovascular", "nervous"]:
         for p in load(os.path.join(MODELS, f"mesh-{layer}.json"))["parts"]:
             names.add(p["base"].lower())
             names.update(x.lower() for x in p["path"])

@@ -1,0 +1,257 @@
+{
+ "cerebrum": {
+  "tr": "Großhirn (Telencephalon)",
+  "summary": "Der größte Teil des zentralen Nervensystems, durch eine tiefe Mittelspalte (Fissura longitudinalis cerebri) in zwei Hemisphären geteilt. Seine gefaltete Oberfläche besteht aus grauer Substanz (der Rinde) und ist für Bewusstsein, Denken, Sprache, Gedächtnis, willkürliche Bewegung und Sinneswahrnehmung zuständig.",
+  "facts": [
+   "Beim Erwachsenen etwa 1300–1400 g (gesamtes Gehirn)",
+   "Frontal-, Parietal-, Temporal-, Okzipital-, Insel- und Limbischer Lappen",
+   "Sulcus centralis (Rolando), Sulcus lateralis (Sylvius), Sulcus parietooccipitalis, Fissura longitudinalis cerebri",
+   "Außen graue Substanz (Cortex cerebri), innen weiße Substanz (Assoziations-, Kommissuren- und Projektionsfasern) und tiefe Kerne (Basalkerne)",
+   "A. cerebri anterior, media und posterior (Circulus arteriosus cerebri)"
+  ],
+  "sections": [
+   [
+    "Lateralisation",
+    "Bei den meisten Menschen (über 95 % der Rechtshänder) ist die linke Hemisphäre sprachdominant. Die rechte Hemisphäre ist bei räumlicher Wahrnehmung, Gesichtererkennung und der emotionalen Färbung der Sprache stärker beteiligt."
+   ],
+   [
+    "Fasern der weißen Substanz",
+    "Assoziationsfasern verbinden Areale derselben Hemisphäre, Kommissurenfasern (Balken) die beiden Hemisphären und Projektionsfasern (Capsula interna) die Rinde mit Hirnstamm und Rückenmark."
+   ]
+  ],
+  "clinical": [
+   "Ein Schlaganfall betrifft am häufigsten das Versorgungsgebiet der A. cerebri media: kontralaterale, gesichts- und armbetonte Parese, bei Befall der dominanten Hemisphäre Aphasie.",
+   "Die Glasgow-Koma-Skala bewertet die Bewusstseinslage anhand von Augenöffnen, verbaler und motorischer Reaktion."
+  ],
+  "tus": [
+   "Die Hemisphären werden durch Sulcus centralis (Rolando), Sulcus lateralis (Sylvius) und Sulcus parietooccipitalis in Lappen gegliedert.",
+   "Die laterale Hemisphärenfläche wird von der A. cerebri media, die mediale von der A. cerebri anterior und die basale und hintere von der A. cerebri posterior versorgt."
+  ],
+  "aliases": [
+   "Großhirn",
+   "Telencephalon",
+   "Endhirn",
+   "Hemisphäre"
+  ]
+ },
+ "lobus-frontalis": {
+  "tr": "Frontallappen",
+  "summary": "Der größte Hirnlappen, vor dem Sulcus centralis gelegen. Planung und Einleitung willkürlicher Bewegungen, exekutive Funktionen, Persönlichkeit, Entscheidungen und das Sprechen sind an ihn gebunden.",
+  "facts": [
+   "Hinten Sulcus centralis, unten Sulcus lateralis",
+   "Gyrus precentralis – primärer motorischer Kortex (Brodmann 4); prämotorisches und supplementär-motorisches Areal (6); frontales Augenfeld (8); Broca-Areal – motorisches Sprachzentrum (44, 45; dominante Hemisphäre); präfrontaler Kortex",
+   "A. cerebri media (laterale Fläche) und A. cerebri anterior (mediale Fläche)"
+  ],
+  "sections": [
+   [
+    "Motorischer Homunkulus",
+    "Der Körper ist auf dem primären motorischen Kortex kopfüber abgebildet: das Bein an der medialen Fläche (Lobulus paracentralis – Gebiet der A. cerebri anterior), Arm und Gesicht an der lateralen Fläche (Gebiet der A. cerebri media). Hand, Gesicht und Zunge nehmen große Flächen ein."
+   ]
+  ],
+  "clinical": [
+   "Bei der Broca-Aphasie ist die Sprache nicht flüssig und mühsam, das Verständnis ist relativ erhalten.",
+   "Präfrontale Schäden führen zu Persönlichkeitsveränderung, Impulsivität und gestörter Planung (Fall Phineas Gage).",
+   "Bei einer Läsion des frontalen Augenfelds blicken die Augen zur Seite der Läsion."
+  ],
+  "tus": [
+   "Das frontale Augenfeld (BA 8) steuert willkürliche Sakkaden; bei einer Läsion weichen die Augen zur Läsionsseite ab.",
+   "Beim Frontalhirnsyndrom können Primitivreflexe (Greif-, Saugreflex) wieder auftreten."
+  ],
+  "aliases": [
+   "Stirnlappen",
+   "Frontallappen"
+  ]
+ },
+ "gyrus-precentralis": {
+  "tr": "Gyrus precentralis (motorischer Kortex)",
+  "summary": "Die Windung unmittelbar vor dem Sulcus centralis mit dem primären motorischen Kortex, der willkürliche Bewegungen ausführt. Ein Großteil der Tractus corticospinalis und corticobulbaris beginnt hier.",
+  "facts": [
+   "4 (primärer motorischer Kortex)",
+   "Riesenpyramidenzellen (Betz-Zellen) – Schicht 5",
+   "Motorischer Homunkulus: Bein an der Mantelkante, Gesicht unten-lateral",
+   "Tractus corticospinalis (zum Rückenmark) und Tractus corticonuclearis (zu den motorischen Hirnstammkernen)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Schädigung führt zu einer kontralateralen zentralen Parese (Spastik, Hyperreflexie, positives Babinski-Zeichen).",
+   "Beim Jackson-Anfall breiten sich die Zuckungen entlang des Homunkulus aus (z. B. von der Hand auf Arm und Gesicht)."
+  ],
+  "tus": [
+   "Der primäre motorische Kortex entspricht BA 4; hier liegen die Betz-Zellen (Riesenpyramidenzellen).",
+   "Im motorischen Homunkulus sind Hand und Gesicht überproportional groß repräsentiert."
+  ],
+  "aliases": [
+   "Motorkortex",
+   "primär motorisches Areal"
+  ]
+ },
+ "lobus-parietalis": {
+  "tr": "Parietallappen",
+  "summary": "Der Lappen zwischen Sulcus centralis und Sulcus parietooccipitalis. Er dient der Wahrnehmung und Deutung der Körperempfindungen (Berührung, Schmerz, Temperatur, Lage), der räumlichen Orientierung und der Aufmerksamkeit.",
+  "facts": [
+   "Gyrus postcentralis – primärer somatosensorischer Kortex (3, 1, 2); Lobulus parietalis superior und inferior; Gyrus supramarginalis und Gyrus angularis (in der dominanten Hemisphäre an Sprache, Lesen und Schreiben beteiligt)",
+   "A. cerebri media und A. cerebri anterior"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Schädigung des nicht dominanten (meist rechten) Parietallappens führt zum Neglect der Gegenseite.",
+   "Eine Läsion des dominanten Gyrus angularis verursacht das Gerstmann-Syndrom: Agraphie, Akalkulie, Fingeragnosie und Rechts-links-Störung."
+  ],
+  "tus": [
+   "Der Lobulus parietalis superior dient Stereognosie und Körperschema; der Lobulus parietalis inferior umfasst Gyrus supramarginalis und angularis.",
+   "Parietale Läsionen können eine kontralaterale untere Quadrantenanopsie verursachen."
+  ],
+  "aliases": [
+   "Scheitellappen",
+   "Parietallappen"
+  ]
+ },
+ "gyrus-postcentralis": {
+  "tr": "Gyrus postcentralis (sensibler Kortex)",
+  "summary": "Die Windung unmittelbar hinter dem Sulcus centralis mit dem primären somatosensorischen Kortex, der Berührung, Schmerz, Temperatur und Lageempfinden der Gegenseite empfängt.",
+  "facts": [
+   "3, 1, 2",
+   "Nucleus ventralis posterolateralis (Körper) und ventralis posteromedialis (Gesicht) des Thalamus",
+   "Sensibler Homunkulus; Hand, Lippen und Zunge nehmen große Flächen ein"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine Schädigung führt zum kontralateralen Verlust von feiner Berührung und Lagesinn sowie zur Astereognosie (Gegenstände können nicht ertastet werden)."
+  ],
+  "tus": [
+   "Fasern aus den Thalamuskernen VPL und VPM erreichen den Gyrus postcentralis über den hinteren Schenkel der Capsula interna."
+  ],
+  "aliases": [
+   "somatosensorischer Kortex",
+   "sensibler Kortex"
+  ]
+ },
+ "lobus-temporalis": {
+  "tr": "Temporallappen",
+  "summary": "Der Lappen unterhalb des Sulcus lateralis. Er ist an Hören, Sprachverständnis, Gedächtnis und Emotionen beteiligt; an seiner medialen Seite liegen Hippocampus und Amygdala.",
+  "facts": [
+   "Gyri temporales transversi (Heschl) – primärer auditorischer Kortex (41, 42); Wernicke-Areal – Sprachverständnis (22, dominante Hemisphäre); Gyrus temporalis superior, medius und inferior",
+   "Hippocampus, Amygdala (Corpus amygdaloideum), Gyrus parahippocampalis",
+   "A. cerebri media und A. cerebri posterior"
+  ],
+  "sections": [],
+  "clinical": [
+   "Bei der Wernicke-Aphasie ist die Sprache flüssig, aber inhaltsleer, und das Sprachverständnis ist gestört.",
+   "Die Temporallappenepilepsie kann mit Geruchshalluzinationen, Déjà-vu und Automatismen einhergehen.",
+   "Die Atrophie des medialen Temporallappens (Hippocampus) ist ein frühes Zeichen der Alzheimer-Krankheit."
+  ],
+  "tus": [
+   "Die Temporallappenepilepsie äußert sich mit Geruchshalluzinationen, Déjà-vu und Automatismen.",
+   "Bei der temporalen (unkalen) Herniation wird der N. oculomotorius komprimiert; die gleichseitige Pupille wird weit."
+  ],
+  "aliases": [
+   "Schläfenlappen",
+   "Temporallappen"
+  ]
+ },
+ "lobus-occipitalis": {
+  "tr": "Okzipitallappen",
+  "summary": "Der hinterste Hirnlappen; er enthält das Sehzentrum, in dem visuelle Information verarbeitet wird.",
+  "facts": [
+   "Primäre Sehrinde um den Sulcus calcarinus (Area striata, Brodmann 17); visuelle Assoziationsareale (18, 19); Cuneus, Gyrus lingualis",
+   "Sehstrahlung (Radiatio optica) aus dem Corpus geniculatum laterale",
+   "A. cerebri posterior (A. calcarina)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine einseitige Schädigung der Sehrinde führt zur kontralateralen homonymen Hemianopsie; beim Verschluss der A. cerebri posterior bleibt die Makula oft ausgespart (doppelte Versorgung).",
+   "Beidseitige Schäden verursachen eine Rindenblindheit; beim Anton-Syndrom leugnet der Patient seine Blindheit."
+  ],
+  "tus": [
+   "Der Okzipitalpol repräsentiert die Makula und liegt in der Grenzzone zwischen A. cerebri media und posterior.",
+   "Bei der Rindenblindheit (beidseitige okzipitale Läsionen) bleiben die Pupillenlichtreflexe erhalten (Anton-Syndrom: Leugnen der Blindheit)."
+  ],
+  "aliases": [
+   "Hinterhauptslappen",
+   "Sehrinde"
+  ]
+ },
+ "insula": {
+  "tr": "Insel",
+  "summary": "Ein Rindenareal, das tief im Sulcus lateralis unter den Deckeln (Opercula) von Frontal-, Parietal- und Temporallappen verborgen liegt.",
+  "facts": [
+   "Am Grund des Sulcus lateralis, umgeben vom Sulcus circularis insulae",
+   "Geschmackswahrnehmung (primärer gustatorischer Kortex), Interozeption (Eingeweideempfindungen), Schmerz, emotionale Wahrnehmung, autonome Regulation",
+   "M2-(Insel-)Äste der A. cerebri media"
+  ],
+  "sections": [],
+  "clinical": [
+   "Beim Mediainfarkt ist die Inselrinde früh betroffen, im CT als Verlust des „insular ribbon“ sichtbar."
+  ],
+  "tus": [
+   "Die Insel liegt tief im Sulcus lateralis über den M2-Ästen der A. cerebri media."
+  ],
+  "aliases": [
+   "Inselrinde",
+   "Insellappen"
+  ]
+ },
+ "systema-limbicum": {
+  "tr": "Limbisches System",
+  "summary": "Eine Gruppe ringförmig an der Innenseite der Großhirnhemisphären angeordneter Strukturen, zuständig für Emotion, Motivation, Lernen und Gedächtnis.",
+  "facts": [
+   "Gyrus cinguli, Gyrus parahippocampalis, Hippocampus, Amygdala, Fornix, Corpora mamillaria, Septumkerne, vordere Thalamuskerne, Hypothalamus",
+   "Hippocampus → Fornix → Corpus mamillare → Tractus mamillothalamicus → vordere Thalamuskerne → Gyrus cinguli → Gyrus parahippocampalis → Hippocampus"
+  ],
+  "sections": [],
+  "clinical": [
+   "Beim Thiaminmangel infolge chronischen Alkoholkonsums führt die Schädigung der Corpora mamillaria zum Wernicke-Korsakow-Syndrom (Gedächtnisverlust, Konfabulation)."
+  ],
+  "tus": [
+   "Papez-Kreis: Hippocampus → Fornix → Corpus mamillare → Tractus mamillothalamicus → vorderer Thalamus → Gyrus cinguli → Hippocampus."
+  ],
+  "aliases": [
+   "limbisch",
+   "Gyrus cinguli",
+   "Fornix"
+  ]
+ },
+ "hippocampus": {
+  "tr": "Hippocampus",
+  "summary": "Ein seepferdchenförmiger Streifen grauer Substanz an der Innenseite des Temporallappens, im Boden des Unterhorns des Seitenventrikels. Er ist unerlässlich für die Überführung neuer Information ins Langzeitgedächtnis und für die räumliche Orientierung.",
+  "facts": [
+   "Innenseite des Temporallappens, Boden des Unterhorns des Seitenventrikels",
+   "Cornu ammonis (CA1–CA4), Gyrus dentatus, Subiculum",
+   "Zufluss: entorhinaler Kortex; Abfluss: über den Fornix zu den Corpora mamillaria und den Septumkernen"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine beidseitige Hippocampusschädigung verhindert die Bildung neuer Erinnerungen (anterograde Amnesie) – der Fall H.M.",
+   "Der Hippocampus gehört zu den hypoxieempfindlichsten Regionen (Sektor CA1).",
+   "Er ist bei der Alzheimer-Krankheit früh betroffen; die mesiale Temporallappensklerose ist eine Ursache pharmakoresistenter Epilepsie."
+  ],
+  "tus": [
+   "Der Sektor CA1 des Hippocampus (Sommer-Sektor) ist die hypoxieempfindlichste Region.",
+   "Der Fall H.M. zeigte eine anterograde Amnesie nach beidseitiger medialer Temporallappenresektion."
+  ],
+  "aliases": [
+   "Ammonshorn",
+   "Hippocampus"
+  ]
+ },
+ "corpus-amygdaloideum": {
+  "tr": "Amygdala",
+  "summary": "Ein mandelförmiger Kernkomplex im vorderen medialen Temporallappen vor dem Hippocampus. Er spielt eine zentrale Rolle bei Angst, Bedrohungswahrnehmung und der Bildung emotionaler Erinnerungen.",
+  "facts": [
+   "Vorderer medialer Temporallappen (unter dem Uncus)",
+   "Über die Stria terminalis zum Hypothalamus; zu Kortex, Thalamus und autonomen Hirnstammzentren",
+   "Angstkonditionierung, emotionales Lernen, Sozialverhalten, Auslösung autonomer und endokriner Stressreaktionen"
+  ],
+  "sections": [],
+  "clinical": [
+   "Eine beidseitige Schädigung der Amygdala verursacht das Klüver-Bucy-Syndrom (Furchtlosigkeit, Hyperoralität, Hypersexualität)."
+  ],
+  "tus": [
+   "Die Amygdala liegt vorn im Temporallappen, vor und über dem Hippocampus, unter dem Uncus."
+  ],
+  "aliases": [
+   "Mandelkern",
+   "Amygdala"
+  ]
+ }
+}

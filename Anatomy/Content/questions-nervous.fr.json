@@ -1,0 +1,2772 @@
+{
+ "system": "nervous",
+ "questions": [
+  {
+   "id": "ne-3da316f2",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un droitier de 62 ans comprend ce qu'on lui dit après un AVC, mais sa parole est hachée, laborieuse et pauvre en mots. L'écriture est également perturbée. Où se situe le plus probablement la lésion ?",
+   "options": [
+    "Partie haute du gyrus précentral gauche",
+    "Gyrus angulaire gauche",
+    "Gyrus frontal inférieur gauche (aire de Broca, BA 44–45)",
+    "Partie postérieure du gyrus temporal supérieur gauche (aire de Wernicke)",
+    "Gyrus frontal inférieur droit"
+   ],
+   "answer": 2,
+   "explanation": "L'aphasie de Broca (motrice/d'expression) résulte d'une lésion des parties operculaire et triangulaire du gyrus frontal inférieur de l'hémisphère dominant : parole non fluente, compréhension relativement conservée. Elle est le plus souvent due à l'occlusion de la branche supérieure de l'ACM et peut s'accompagner d'un déficit facio-brachial controlatéral.",
+   "notes": [
+    "C'est l'aire motrice du membre inférieur.",
+    "Il entraîne un syndrome de Gerstmann.",
+    "",
+    "Il entraîne une parole fluente mais vide de sens et des troubles de la compréhension.",
+    "Hémisphère non dominant ; il touche la mélodie de la parole (prosodie)."
+   ],
+   "entries": [
+    "lobus-frontalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-63b5b117",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Après un AVC, un patient parle de façon fluente mais incohérente, utilise des mots inventés et ne comprend pas des ordres simples ; il n'a pas conscience de ses erreurs. Où se situe la lésion ?",
+   "options": [
+    "Gyrus frontal inférieur gauche",
+    "Partie postérieure du gyrus temporal supérieur gauche (aire de Wernicke, BA 22)",
+    "Faisceau arqué",
+    "Gyrus temporal supérieur droit",
+    "Lobe occipital gauche"
+   ],
+   "answer": 1,
+   "explanation": "Dans l'aphasie de Wernicke (sensorielle/de réception), la parole est fluente mais son contenu est altéré (paraphasies, néologismes) ; la compréhension et la répétition sont perturbées. La lésion siège dans la partie postérieure du gyrus temporal supérieur de l'hémisphère dominant.",
+   "entries": [
+    "lobus-temporalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-41911115",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans le type d'aphasie où la parole est fluente et la compréhension bonne mais la répétition nettement altérée, où se situe la lésion ?",
+   "options": [
+    "Hippocampe",
+    "Faisceau arqué",
+    "Corps calleux",
+    "Gyrus précentral",
+    "Bras postérieur de la capsule interne"
+   ],
+   "answer": 1,
+   "explanation": "L'aphasie de conduction résulte d'une lésion du faisceau arqué qui relie les aires de Wernicke et de Broca (le plus souvent au niveau du gyrus supramarginal). La compréhension et la fluence sont conservées, la répétition est perturbée.",
+   "entries": [
+    "cerebrum",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-14b513ee",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient présente un déficit moteur et sensitif brutal et marqué de la jambe gauche ; le membre supérieur et la face sont relativement épargnés. Quelle artère est occluse ?",
+   "options": [
+    "Artère cérébrale antérieure droite",
+    "Artère cérébrale antérieure gauche",
+    "Artère cérébrale moyenne droite",
+    "Artère cérébrale postérieure droite",
+    "Artère basilaire"
+   ],
+   "answer": 0,
+   "explanation": "L'aire motrice et sensitive du membre inférieur se trouve dans le lobule paracentral, à la face médiale de l'hémisphère, vascularisé par l'artère cérébrale antérieure. L'occlusion de l'ACA touche donc surtout le membre inférieur controlatéral, celle de l'ACM surtout la face et le membre supérieur.",
+   "entries": [
+    "gyrus-precentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-01618983",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un droitier de 65 ans présente un déficit moteur et sensitif marqué de l'hémiface et du membre supérieur droits avec un trouble du langage ; le membre inférieur est moins touché. Quelle artère est occluse ?",
+   "options": [
+    "Artère cérébrale antérieure gauche",
+    "Artère cérébrale moyenne droite",
+    "Artère choroïdienne antérieure gauche",
+    "Artère cérébrale moyenne gauche",
+    "Artère cérébrale postérieure gauche"
+   ],
+   "answer": 3,
+   "explanation": "L'ACM vascularise la face latérale de l'hémisphère, donc les aires motrices et sensitives de la face et du membre supérieur et, dans l'hémisphère dominant, les aires du langage. L'occlusion de l'ACM gauche entraîne une hémiparésie et une hémihypoesthésie droites à prédominance facio-brachiale et une aphasie.",
+   "entries": [
+    "gyrus-precentralis",
+    "gyrus-postcentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-b32e3978",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le déficit du champ visuel typique d'une occlusion de l'artère cérébrale postérieure ?",
+   "options": [
+    "Hémianopsie bitemporale",
+    "Cécité d'un œil du même côté",
+    "Hémianopsie latérale homonyme controlatérale avec épargne maculaire",
+    "Hémianopsie binasale",
+    "Quadranopsie supérieure controlatérale"
+   ],
+   "answer": 2,
+   "explanation": "L'ACP vascularise le lobe occipital (cortex visuel primaire). Son occlusion entraîne une hémianopsie homonyme du champ visuel opposé ; comme le pôle occipital, où la macula est représentée, reçoit aussi des collatérales de l'ACM, la vision centrale est le plus souvent épargnée.",
+   "entries": [
+    "lobus-occipitalis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-950a7863",
+   "group": "Encéphale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où se trouve le cortex visuel primaire (Brodmann 17) ?",
+   "options": [
+    "Dans le corps géniculé latéral",
+    "À la face inférieure du lobe frontal",
+    "Dans le lobe occipital, de part et d'autre du sillon calcarin",
+    "Dans le gyrus postcentral",
+    "Dans le gyrus temporal supérieur"
+   ],
+   "answer": 2,
+   "explanation": "Le cortex visuel primaire se trouve à la face médiale du lobe occipital, sur les lèvres supérieure (cunéus) et inférieure (gyrus lingual) du sillon calcarin. La lèvre supérieure représente le champ visuel inférieur et la lèvre inférieure le champ visuel supérieur.",
+   "entries": [
+    "lobus-occipitalis",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-3b3c0c08",
+   "group": "Encéphale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où se trouve le cortex auditif primaire (Brodmann 41–42) ?",
+   "options": [
+    "Gyrus temporaux transverses (gyrus de Heschl)",
+    "Extrémité inférieure du gyrus précentral",
+    "Gyrus parahippocampique",
+    "Gyrus angulaire",
+    "Gyrus cingulaire"
+   ],
+   "answer": 0,
+   "explanation": "L'aire auditive primaire se trouve au fond du sillon latéral, dans les gyrus temporaux transverses (de Heschl) de la face supérieure du gyrus temporal supérieur. Comme chaque oreille est représentée des deux côtés, une lésion corticale unilatérale n'entraîne pas de surdité.",
+   "entries": [
+    "lobus-temporalis",
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-87c1b640",
+   "group": "Encéphale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quelles aires de Brodmann correspond le cortex somesthésique primaire ?",
+   "options": [
+    "22 (gyrus temporal supérieur)",
+    "17 (sillon calcarin)",
+    "6 (aire prémotrice)",
+    "4 (gyrus précentral)",
+    "3, 1, 2 (gyrus postcentral)"
+   ],
+   "answer": 4,
+   "explanation": "Le gyrus postcentral reçoit le tact, la douleur, la température et la proprioception de la moitié opposée du corps et a une organisation somatotopique (homonculus sensitif). Ses afférences viennent des noyaux VPL et VPM du thalamus.",
+   "entries": [
+    "gyrus-postcentralis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-2daff929",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans le syndrome de Gerstmann – agraphie, acalculie, agnosie digitale et indistinction droite–gauche –, où se situe la lésion ?",
+   "options": [
+    "Lobule pariétal supérieur de l'hémisphère non dominant",
+    "Gyrus frontal inférieur de l'hémisphère dominant",
+    "Gyrus angulaire de l'hémisphère dominant",
+    "Hippocampe de l'hémisphère dominant",
+    "Splénium du corps calleux"
+   ],
+   "answer": 2,
+   "explanation": "Le syndrome de Gerstmann s'observe dans les lésions du gyrus angulaire, à la partie inférieure du lobe pariétal dominant (le plus souvent gauche). Une lésion pariétale non dominante entraîne plutôt une négligence de l'hémiespace controlatéral et des apraxies.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-28eb07b3",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Après un AVC hémisphérique droit, un patient ne mange que la moitié droite de son assiette, ne remarque pas les personnes à sa gauche et affirme que son bras gauche ne lui appartient pas. Quel lobe est atteint ?",
+   "options": [
+    "Lobe pariétal gauche",
+    "Lobe temporal gauche",
+    "Lobe frontal droit",
+    "Lobe pariétal droit",
+    "Lobe occipital droit"
+   ],
+   "answer": 3,
+   "explanation": "La négligence de l'hémiespace controlatéral et l'anosognosie s'observent surtout dans les lésions du lobe pariétal non dominant (droit), car l'hémisphère droit gère l'attention dans les deux moitiés de l'espace, alors que le gauche s'occupe surtout de la moitié droite.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-dbe702a4",
+   "group": "Encéphale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Des troubles de la personnalité, un comportement inadapté et des troubles de la planification et du jugement s'observent surtout dans la lésion de quelle région ?",
+   "options": [
+    "Vermis du cervelet",
+    "Cortex préfrontal",
+    "Gyrus postcentral",
+    "Lobe occipital",
+    "Corps géniculé médial"
+   ],
+   "answer": 1,
+   "explanation": "Le cortex préfrontal gère les fonctions exécutives, le comportement social et la personnalité. Les patients atteints d'une lésion frontale peuvent présenter une apathie ou une impulsivité, des persévérations et des comportements socialement inadaptés.",
+   "entries": [
+    "lobus-frontalis"
+   ]
+  },
+  {
+   "id": "ne-3de004e8",
+   "group": "Encéphale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel lobe est considéré comme le centre cortical du goût et intervient dans la sensibilité viscérale ?",
+   "options": [
+    "Lobe occipital",
+    "Insula (et opercule frontal voisin)",
+    "Cunéus",
+    "Gyrus précentral",
+    "Gyrus cingulaire"
+   ],
+   "answer": 1,
+   "explanation": "L'insula est le lobe caché au fond du sillon latéral, sous les opercules. Sa partie antérieure contient le cortex gustatif primaire ; elle intervient aussi dans la douleur, la sensibilité viscérale et les réponses autonomes. Elle est vascularisée par des branches de l'ACM.",
+   "entries": [
+    "insula"
+   ]
+  },
+  {
+   "id": "ne-f34b6253",
+   "group": "Encéphale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle structure est indispensable au transfert des informations nouvelles en mémoire à long terme et s'atrophie précocement dans la maladie d'Alzheimer ?",
+   "options": [
+    "Amygdale",
+    "Noyau caudé",
+    "Hippocampe",
+    "Pulvinar du thalamus",
+    "Cervelet"
+   ],
+   "answer": 2,
+   "explanation": "L'hippocampe se trouve à la face médiale du lobe temporal, dans le plancher de la corne temporale du ventricule latéral. Une lésion bilatérale entraîne une amnésie antérograde. Il fait partie du circuit de Papez : hippocampe → fornix → corps mamillaire → thalamus antérieur → gyrus cingulaire → hippocampe.",
+   "entries": [
+    "hippocampus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-1b940b7b",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel des éléments suivants N'est PAS attendu dans le syndrome de Klüver–Bucy dû à une lésion bilatérale des amygdales ?",
+   "options": [
+    "Hypersexualité",
+    "Hyperoralité (tout porter à la bouche)",
+    "Agnosie visuelle",
+    "Docilité, disparition de la peur",
+    "Peur et agressivité excessives"
+   ],
+   "answer": 4,
+   "explanation": "L'amygdale est le centre de la peur et de l'apprentissage émotionnel. Après une lésion temporale médiale bilatérale, la peur et l'agressivité diminuent et le patient devient docile ; apparaissent une hyperoralité, une hypersexualité et une agnosie visuelle.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afbdd4fd",
+   "group": "Encéphale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle est la plus grande commissure reliant les deux hémisphères cérébraux ?",
+   "options": [
+    "Capsule interne",
+    "Fornix",
+    "Corps calleux",
+    "Commissure antérieure",
+    "Commissure postérieure"
+   ],
+   "answer": 2,
+   "explanation": "Le corps calleux est un pont de substance blanche d'environ 200 millions d'axones ; il comprend un rostre, un genou, un tronc et un splénium. Lorsqu'il est sectionné (« cerveau divisé »), le transfert d'informations entre les deux hémisphères est perturbé.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-b72d492f",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient hypertendu présente brutalement une hémiparésie motrice pure touchant de façon égale la face, le membre supérieur et le membre inférieur du côté opposé ; sensibilité, vision et langage sont normaux. Où se trouve le plus probablement l'infarctus lacunaire ?",
+   "options": [
+    "Lobe occipital",
+    "Bras postérieur de la capsule interne",
+    "Hémisphère cérébelleux",
+    "Gyrus postcentral",
+    "Genou du corps calleux"
+   ],
+   "answer": 1,
+   "explanation": "Les fibres corticospinales et corticobulbaires cheminent très près les unes des autres dans le bras postérieur de la capsule interne ; un petit infarctus suffit à toucher de façon égale la face, le membre supérieur et le membre inférieur controlatéraux. Cette région est vascularisée par les branches lenticulostriées de l'ACM, vulnérables dans l'hypertension.",
+   "entries": [
+    "nuclei-basales",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-46d5bedc",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Où se trouvent les neurones dopaminergiques qui dégénèrent dans la maladie de Parkinson ?",
+   "options": [
+    "Noyau caudé",
+    "Partie compacte de la substance noire (mésencéphale)",
+    "Noyau rouge",
+    "Noyau subthalamique",
+    "Globus pallidus interne"
+   ],
+   "answer": 1,
+   "explanation": "Les neurones dopaminergiques de la partie compacte de la substance noire se projettent sur le striatum (voie nigrostriée). Leur perte entraîne bradykinésie, rigidité et tremblement de repos. La maladie de Huntington s'accompagne d'une atrophie du noyau caudé, l'hémiballisme d'une lésion du noyau subthalamique.",
+   "entries": [
+    "mesencephalon",
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-2a67af34",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient hypertendu présente brutalement des mouvements involontaires violents, de grande amplitude, du membre supérieur et du membre inférieur gauches. Où se situe la lésion ?",
+   "options": [
+    "Noyau caudé droit",
+    "Substance noire droite",
+    "Noyau subthalamique gauche",
+    "Noyau subthalamique droit",
+    "Hémisphère cérébelleux gauche"
+   ],
+   "answer": 3,
+   "explanation": "L'hémiballisme s'observe dans les lésions du noyau subthalamique controlatéral ; ce noyau freine normalement le mouvement en excitant le globus pallidus interne. Les lésions des noyaux gris centraux donnent des signes du côté opposé.",
+   "entries": [
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-e0795ee8",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel noyau thalamique se trouve sur la voie visuelle ?",
+   "options": [
+    "Noyau ventral latéral",
+    "Corps géniculé médial",
+    "Corps géniculé latéral",
+    "Noyau ventral postéro-latéral",
+    "Noyau antérieur du thalamus"
+   ],
+   "answer": 2,
+   "explanation": "Les fibres de la bandelette optique font synapse dans le CGL ; de là, les radiations optiques gagnent le cortex occipital. Le CGM concerne l'audition, le VPL la sensibilité du corps, le VPM la sensibilité de la face et le goût, le VL les afférences motrices du cervelet et des noyaux gris centraux, et le noyau antérieur le circuit de Papez.",
+   "entries": [
+    "thalamus",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-e54d7172",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel noyau thalamique relaie vers le cortex la sensibilité de la face (nerf trijumeau) et les fibres gustatives ?",
+   "options": [
+    "Pulvinar",
+    "Noyau dorsomédian",
+    "Corps géniculé médial",
+    "Noyau ventral postéro-latéral (VPL)",
+    "Noyau ventral postéro-médian (VPM)"
+   ],
+   "answer": 4,
+   "explanation": "Le lemnisque trigéminal et les fibres gustatives issues du noyau solitaire se terminent dans le VPM ; le lemnisque médial et les fibres spinothalamiques du corps dans le VPL. Les lésions thalamiques peuvent entraîner une hémianesthésie controlatérale et des douleurs thalamiques (Dejerine–Roussy).",
+   "entries": [
+    "thalamus",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-48237eed",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel noyau hypothalamique synthétise principalement l'hormone antidiurétique (ADH) ?",
+   "options": [
+    "Noyau ventromédian",
+    "Noyau arqué",
+    "Noyau suprachiasmatique",
+    "Corps mamillaire",
+    "Noyau supra-optique"
+   ],
+   "answer": 4,
+   "explanation": "L'ADH est produite surtout par le noyau supra-optique et l'ocytocine surtout par le noyau paraventriculaire ; toutes deux sont transportées le long des axones vers la neurohypophyse. Le noyau suprachiasmatique règle le rythme circadien, le noyau ventromédian la satiété et l'hypothalamus latéral la faim.",
+   "entries": [
+    "hypothalamus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-1cff0e6f",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle structure hypothalamique est typiquement lésée dans le syndrome de Gayet-Wernicke–Korsakoff (carence en thiamine) ?",
+   "options": [
+    "Noyau paraventriculaire",
+    "Tuber cinereum",
+    "Noyau suprachiasmatique",
+    "Corps mamillaires",
+    "Éminence médiane"
+   ],
+   "answer": 3,
+   "explanation": "Dans l'alcoolisme chronique et la carence en thiamine, les corps mamillaires, les noyaux médians du thalamus et la substance grise périaqueducale sont lésés. L'interruption du circuit de Papez explique l'amnésie de Korsakoff et les fabulations.",
+   "entries": [
+    "hypothalamus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afe9b56a",
+   "group": "Encéphale",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Le périmètre crânien d'un nouveau-né augmente rapidement. L'IRM montre une dilatation des ventricules latéraux et du troisième ventricule, avec un quatrième ventricule de taille normale. Où se situe le plus probablement l'obstacle ?",
+   "options": [
+    "Ouverture médiane (Magendie)",
+    "Foramen interventriculaire (Monro)",
+    "Canal central",
+    "Granulations arachnoïdiennes",
+    "Aqueduc du mésencéphale (aqueduc de Sylvius)"
+   ],
+   "answer": 4,
+   "explanation": "Le LCS passe des ventricules latéraux au troisième ventricule par le foramen de Monro, au quatrième ventricule par l'aqueduc de Sylvius, puis dans l'espace sous-arachnoïdien par les foramens de Magendie et de Luschka. Si le troisième ventricule est dilaté et le quatrième normal, l'obstacle siège dans l'aqueduc (sténose congénitale de l'aqueduc).",
+   "entries": [
+    "ventriculi-cerebri",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-25e1a0ce",
+   "group": "Encéphale",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où le liquide cérébrospinal (LCS) est-il principalement produit et où est-il résorbé ?",
+   "options": [
+    "Produit dans les plexus choroïdes, résorbé par les granulations arachnoïdiennes dans les sinus veineux duraux.",
+    "Produit par les épendymocytes, résorbé dans les vaisseaux lymphatiques.",
+    "Produit dans les granulations arachnoïdiennes, résorbé dans les plexus choroïdes.",
+    "Produit dans la pie-mère, résorbé dans le canal central.",
+    "Produit dans les plexus choroïdes, résorbé dans le quatrième ventricule."
+   ],
+   "answer": 0,
+   "explanation": "Chez l'adulte, environ 500 ml de LCS sont produits chaque jour ; environ 150 ml sont présents à un instant donné. La résorption se fait surtout par les granulations arachnoïdiennes saillant dans le sinus sagittal supérieur. Un défaut de résorption entraîne une hydrocéphalie communicante.",
+   "entries": [
+    "ventriculi-cerebri",
+    "meninges",
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "ne-37bdea3f",
+   "group": "Tronc cérébral et cervelet",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient présente un ptosis, une mydriase et une déviation de l'œil droit en bas et en dehors, associés à un déficit moteur du membre supérieur et du membre inférieur gauches. Où se situe le plus probablement la lésion ?",
+   "options": [
+    "Partie médiale de la moelle allongée gauche",
+    "Partie ventrale du mésencéphale gauche",
+    "Partie ventrale du pont droit",
+    "Partie ventrale du mésencéphale droit (syndrome de Weber)",
+    "Capsule interne droite"
+   ],
+   "answer": 3,
+   "explanation": "Dans le syndrome de Weber, les fibres du nerf oculomoteur et le pédoncule cérébral sont touchés ensemble dans le mésencéphale ventral : paralysie du III homolatérale, hémiparésie controlatérale. Les fibres corticospinales se croisant dans le bulbe, les lésions du tronc cérébral donnent des signes « croisés ».",
+   "entries": [
+    "mesencephalon",
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-3d7055ab",
+   "group": "Tronc cérébral et cervelet",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient présentant un vertige brutal et des nausées a une perte de la sensibilité thermoalgique de l'hémiface gauche et du tronc et des membres droits, une dysphonie, une dysphagie, un syndrome de Claude Bernard–Horner gauche et une ataxie gauche. La motricité de la langue est normale. Quelle artère est occluse ?",
+   "options": [
+    "Artère basilaire",
+    "Artère spinale antérieure gauche",
+    "Artère cérébrale postérieure droite",
+    "Artère cérébelleuse postéro-inférieure gauche (ou artère vertébrale gauche)",
+    "Artère cérébelleuse supérieure gauche"
+   ],
+   "answer": 3,
+   "explanation": "Dans le syndrome bulbaire latéral (Wallenberg), sont atteints le noyau spinal du trijumeau (hémiface homolatérale), le faisceau spinothalamique (tronc controlatéral), le noyau ambigu (dysphagie, dysphonie), les fibres sympathiques descendantes (Horner), les noyaux vestibulaires et le pédoncule cérébelleux inférieur. Le noyau du XII, médial, est épargné.",
+   "entries": [
+    "medulla-oblongata",
+    "a-vertebralis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-81f72625",
+   "group": "Tronc cérébral et cervelet",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel des signes suivants N'est PAS attendu dans le syndrome bulbaire médial (occlusion de l'artère spinale antérieure) ?",
+   "options": [
+    "Perte de la sensibilité thermoalgique de l'hémiface du même côté",
+    "Atrophie des muscles de la langue du même côté",
+    "Hémiparésie du côté opposé",
+    "Perte de la proprioception et de la pallesthésie du côté opposé",
+    "Déviation de la langue tirée du côté de la lésion"
+   ],
+   "answer": 0,
+   "explanation": "Le bulbe médial contient la pyramide (hémiparésie controlatérale), le lemnisque médial (perte de la sensibilité profonde controlatérale) et le nerf hypoglosse (paralysie linguale homolatérale). Le noyau spinal du trijumeau est situé dans le bulbe latéral et touché dans le syndrome de Wallenberg.",
+   "entries": [
+    "medulla-oblongata",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-443079d7",
+   "group": "Tronc cérébral et cervelet",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le noyau moteur duquel des nerfs crâniens suivants se trouve dans le pont ?",
+   "options": [
+    "Nerf hypoglosse",
+    "Nerf trochléaire",
+    "Nerf glossopharyngien",
+    "Nerf oculomoteur",
+    "Nerf abducens"
+   ],
+   "answer": 4,
+   "explanation": "Les noyaux des nerfs III et IV sont dans le mésencéphale ; ceux du V (moteur), du VI et du VII dans le pont ; ceux du IX, du X et du XII dans la moelle allongée. Les noyaux du VIII sont à la jonction bulbopontique.",
+   "entries": [
+    "pons",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-8ecd7107",
+   "group": "Tronc cérébral et cervelet",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelles structures forment le colliculus facial dans le plancher du quatrième ventricule ?",
+   "options": [
+    "Le noyau de l'abducens et les fibres du nerf facial qui le contournent",
+    "Locus cœruleus et noyau solitaire",
+    "Fibres du nerf trochléaire et noyau rouge",
+    "Noyau de l'hypoglosse et noyau dorsal du vague",
+    "Noyaux vestibulaires et fibres du nerf cochléaire"
+   ],
+   "answer": 0,
+   "explanation": "Dans le pont, les fibres motrices du facial contournent le noyau de l'abducens (genou interne) et soulèvent le plancher du quatrième ventricule. Une lésion à ce niveau entraîne une paralysie homolatérale associée du VI et du VII.",
+   "entries": [
+    "pons",
+    "n-facialis",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-5da8a287",
+   "group": "Tronc cérébral et cervelet",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient oscille de part et d'autre en position debout et à la marche et marche les pieds écartés, mais n'a pas de dysmétrie nette assis lorsqu'il utilise ses bras. Où se situe le plus probablement la lésion ?",
+   "options": [
+    "Hémisphère cérébelleux gauche",
+    "Hémisphère cérébelleux droit",
+    "Vermis du cervelet",
+    "Noyau dentelé",
+    "Capsule interne"
+   ],
+   "answer": 2,
+   "explanation": "Le vermis et la zone paravermienne coordonnent le tronc et les muscles axiaux ; leur lésion entraîne une ataxie du tronc et une marche à base élargie (par exemple dans l'alcoolisme). Les lésions hémisphériques entraînent une dysmétrie, un tremblement intentionnel et une adiadococinésie des membres homolatéraux.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-aa74e926",
+   "group": "Tronc cérébral et cervelet",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle structure transporte les fibres allant des noyaux pontiques au cervelet (fibres pontocérébelleuses) ?",
+   "options": [
+    "Pédoncule cérébelleux inférieur",
+    "Pédoncule cérébelleux supérieur",
+    "Voile médullaire supérieur",
+    "Lemnisque médial",
+    "Pédoncule cérébelleux moyen"
+   ],
+   "answer": 4,
+   "explanation": "Le pédoncule cérébelleux moyen (bras du pont) est le plus volumineux et est entièrement fait de fibres pontocérébelleuses (afférentes). Le pédoncule supérieur porte surtout les fibres sortant du cervelet (efférentes), le pédoncule inférieur les fibres venant de la moelle et de l'olive.",
+   "entries": [
+    "cerebellum",
+    "pons"
+   ]
+  },
+  {
+   "id": "ne-d50b404c",
+   "group": "Tronc cérébral et cervelet",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle cellule est le seul neurone de sortie du cortex cérébelleux et est inhibitrice (GABAergique) ?",
+   "options": [
+    "Fibre moussue",
+    "Cellule en grain",
+    "Cellule de Golgi",
+    "Cellule de Purkinje",
+    "Cellule en corbeille"
+   ],
+   "answer": 3,
+   "explanation": "Les axones des cellules de Purkinje gagnent les noyaux profonds du cervelet (dentelé, emboliforme, globuleux, fastigial) et les noyaux vestibulaires, qu'ils inhibent. La principale sortie du cervelet passe par les noyaux profonds, dont le plus grand est le noyau dentelé.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-05903053",
+   "group": "Tronc cérébral et cervelet",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où se croisent la plupart des fibres corticospinales ?",
+   "options": [
+    "Dans la capsule interne",
+    "Dans le pont",
+    "Dans le mésencéphale",
+    "À la partie basse de la moelle allongée (décussation pyramidale)",
+    "À chaque segment de la moelle spinale"
+   ],
+   "answer": 3,
+   "explanation": "Environ 85–90 % des fibres corticospinales se croisent à la partie basse des pyramides et forment le faisceau corticospinal latéral. Les fibres directes descendent dans le faisceau corticospinal antérieur et se croisent au niveau segmentaire.",
+   "entries": [
+    "medulla-oblongata",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-6d09f28c",
+   "group": "Tronc cérébral et cervelet",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Après une thrombose du tronc basilaire, un patient est parfaitement conscient mais ne peut bouger ni les membres ni la face et ne peut parler. Il ne peut que mouvoir les yeux verticalement et cligner. De quel tableau s'agit-il ?",
+   "options": [
+    "Mutisme akinétique – lésion frontale",
+    "Locked-in syndrome – lésion de la partie ventrale du pont",
+    "Coma – lésion de la formation réticulée activatrice",
+    "Syndrome de Weber – lésion mésencéphalique",
+    "Syndrome de Wallenberg – lésion bulbaire latérale"
+   ],
+   "answer": 1,
+   "explanation": "Une lésion de la partie ventrale du pont interrompt les voies corticospinales et corticobulbaires ; la formation réticulée du pont dorsal étant épargnée, la conscience est conservée. Les mouvements verticaux des yeux et le clignement, contrôlés par le mésencéphale, sont préservés.",
+   "entries": [
+    "pons",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "ne-0a8db49c",
+   "group": "Tronc cérébral et cervelet",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel noyau rougeâtre du mésencéphale reçoit des fibres du cervelet ?",
+   "options": [
+    "Noyau olivaire inférieur",
+    "Substance noire",
+    "Noyau rouge",
+    "Locus cœruleus",
+    "Noyau dentelé"
+   ],
+   "answer": 2,
+   "explanation": "Le noyau rouge reçoit des fibres par le pédoncule cérébelleux supérieur et agit sur les fléchisseurs du membre supérieur par le faisceau rubrospinal. Sa riche vascularisation et sa teneur en fer lui donnent une teinte rosée sur coupe fraîche.",
+   "entries": [
+    "mesencephalon",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-8a618879",
+   "group": "Moelle spinale et méninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Chez l'adulte, à quel niveau se termine habituellement l'extrémité inférieure de la moelle spinale (cône médullaire) ?",
+   "options": [
+    "L1–L2",
+    "L5–S1",
+    "T10–T11",
+    "S2",
+    "L3–L4"
+   ],
+   "answer": 0,
+   "explanation": "La colonne vertébrale grandissant plus vite que la moelle au cours du développement, le cône médullaire se situe chez l'adulte en L1–L2 (vers L3 chez le nouveau-né). En dessous se trouvent la queue de cheval et le filum terminal. Le cul-de-sac dural se termine en S2.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-c6fa7ddb",
+   "group": "Moelle spinale et méninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Quel est l'espace le plus adapté et le plus sûr pour une ponction lombaire chez l'adulte ?",
+   "options": [
+    "Espace T12–L1",
+    "Espace S2–S3",
+    "Espace L1–L2",
+    "Espace L3–L4 ou L4–L5",
+    "Espace T10–T11"
+   ],
+   "answer": 3,
+   "explanation": "La ligne réunissant les points les plus hauts des deux crêtes iliaques (ligne de Tuffier) passe environ par l'épineuse de L4. La moelle se terminant en L1–L2, une aiguille introduite en L3–L4 ou L4–L5 ne fait qu'écarter les racines de la queue de cheval.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ne-f7851598",
+   "group": "Moelle spinale et méninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lors d'une ponction lombaire, quel est le dernier ligament traversé par l'aiguille avant l'espace épidural ?",
+   "options": [
+    "Ligament jaune",
+    "Ligament supra-épineux",
+    "Ligament interépineux",
+    "Ligament dentelé",
+    "Ligament longitudinal postérieur"
+   ],
+   "answer": 0,
+   "explanation": "L'aiguille traverse successivement la peau, le tissu sous-cutané, les ligaments supra-épineux, interépineux et jaune pour gagner l'espace épidural, puis la dure-mère et l'arachnoïde pour atteindre l'espace sous-arachnoïdien. La perte de résistance au passage du ligament jaune guide l'anesthésie péridurale.",
+   "entries": [
+    "ligg-columnae",
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-6dcbddb7",
+   "group": "Moelle spinale et méninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient poignardé dans le dos présente une paralysie motrice et une perte de la sensibilité profonde (vibration, position) sous T10 à droite, et une perte thermoalgique débutant vers T12 à gauche. Quelle est la lésion ?",
+   "options": [
+    "Hémisection de la moitié gauche de la moelle",
+    "Hémisection de la moitié droite de la moelle (syndrome de Brown-Séquard)",
+    "Syndrome cordonal postérieur",
+    "Syndrome de l'artère spinale antérieure",
+    "Syndrome centromédullaire"
+   ],
+   "answer": 1,
+   "explanation": "Dans l'hémisection, le faisceau corticospinal (paralysie motrice) et le cordon postérieur (sensibilité profonde) sont atteints du même côté. Les fibres de la douleur et de la température se croisant 1 à 2 segments au-dessus de leur entrée, la perte thermoalgique apparaît du côté opposé, quelques segments sous la lésion.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-a9f875c2",
+   "group": "Moelle spinale et méninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel faisceau transporte le tact fin et la proprioception du membre inférieur ?",
+   "options": [
+    "Faisceau gracile",
+    "Faisceau cunéiforme",
+    "Faisceau spinothalamique latéral",
+    "Faisceau corticospinal latéral",
+    "Faisceau spinocérébelleux antérieur"
+   ],
+   "answer": 0,
+   "explanation": "Dans les cordons postérieurs, le faisceau gracile, médial, transporte les informations du bas du tronc et du membre inférieur, et le faisceau cunéiforme, latéral (au-dessus de T6), celles du haut du tronc et du membre supérieur. Les fibres montent du même côté, font synapse dans le bulbe (noyaux gracile et cunéiforme) et se croisent pour former le lemnisque médial.",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-dda468ea",
+   "group": "Moelle spinale et méninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient qui se brûle les mains sur un poêle sans s'en rendre compte présente une perte thermoalgique « en pèlerine » sur les deux épaules et les deux bras ; le tact et le sens de position sont conservés. Quel est le diagnostic le plus probable ?",
+   "options": [
+    "Tabès dorsal",
+    "Syndrome de Brown-Séquard",
+    "Occlusion de l'artère spinale antérieure",
+    "Syringomyélie cervicale",
+    "Sclérose combinée subaiguë par carence en B12"
+   ],
+   "answer": 3,
+   "explanation": "Dans la syringomyélie, le canal central se dilate et lèse d'abord les fibres spinothalamiques qui se croisent dans la commissure blanche antérieure ; la perte thermoalgique est donc bilatérale, « en pèlerine », sur les segments concernés. Les cordons postérieurs sont épargnés (dissociation sensitive).",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-4634c777",
+   "group": "Moelle spinale et méninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel des éléments suivants est habituellement conservé dans l'occlusion de l'artère spinale antérieure ?",
+   "options": [
+    "La force motrice sous la lésion",
+    "Le contrôle sphinctérien vésical et anal",
+    "Les fonctions du motoneurone périphérique au niveau de la lésion",
+    "La pallesthésie et le sens de position",
+    "La sensibilité thermoalgique"
+   ],
+   "answer": 3,
+   "explanation": "L'artère spinale antérieure vascularise les deux tiers antérieurs de la moelle : cornes antérieures, faisceaux corticospinaux et spinothalamiques sont atteints. Les cordons postérieurs étant vascularisés par les artères spinales postérieures, la pallesthésie et la proprioception sont conservées.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-bcf0f483",
+   "group": "Moelle spinale et méninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quels faisceaux sont atteints dans la sclérose combinée subaiguë due à une carence en vitamine B12 ?",
+   "options": [
+    "Les cordons postérieurs et les faisceaux corticospinaux latéraux",
+    "Uniquement les motoneurones de la corne antérieure",
+    "La commissure blanche antérieure et les cornes latérales",
+    "Les faisceaux spinocérébelleux et les racines postérieures",
+    "Les faisceaux spinothalamiques et les cornes antérieures"
+   ],
+   "answer": 0,
+   "explanation": "La carence en B12 perturbe la synthèse de la myéline et touche surtout, ensemble, les cordons postérieurs (perte de la sensibilité profonde, ataxie) et les faisceaux corticospinaux latéraux (spasticité, signe de Babinski).",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-f37384b3",
+   "group": "Moelle spinale et méninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un jeune homme frappé à la tête avec une batte de baseball perd brièvement connaissance puis se réveille ; quelques heures plus tard sa conscience se dégrade. Le scanner montre une hémorragie biconvexe (lenticulaire) qui ne franchit pas les sutures. Dans quel espace siège le saignement et quelle en est la source ?",
+   "options": [
+    "Parenchyme cérébral – artères lenticulostriées",
+    "Espace sous-dural – veines ponts",
+    "Espace sous-arachnoïdien – anévrisme",
+    "Espace épidural – sinus sagittal supérieur",
+    "Espace épidural – artère méningée moyenne"
+   ],
+   "answer": 4,
+   "explanation": "L'hématome extradural se forme entre la voûte et la dure-mère, en général par saignement artériel ; la dure-mère adhérant fortement aux sutures, il ne les franchit pas et prend une forme lenticulaire. L'hématome sous-dural provient de la rupture des veines ponts, est en croissant, franchit les sutures et est fréquent chez le sujet âgé et l'alcoolique.",
+   "entries": [
+    "meninges",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-56835093",
+   "group": "Moelle spinale et méninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un patient consulte pour la pire céphalée de sa vie ; le LCS est hémorragique et xanthochromique. Quelle est la cause la plus fréquente ?",
+   "options": [
+    "Rupture de l'artère méningée moyenne",
+    "Rupture d'un anévrisme sacciforme du cercle artériel du cerveau",
+    "Hémorragie des plexus choroïdes",
+    "Thrombose du sinus caverneux",
+    "Rupture des veines ponts"
+   ],
+   "answer": 1,
+   "explanation": "La cause la plus fréquente d'hémorragie sous-arachnoïdienne non traumatique est un anévrisme du polygone de Willis, le plus souvent à la jonction de l'artère communicante antérieure. Le sang se mélange au LCS dans l'espace sous-arachnoïdien.",
+   "entries": [
+    "meninges",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-c9d1565d",
+   "group": "Moelle spinale et méninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quels prolongements dentelés de la pie-mère amarrent de chaque côté la moelle spinale à la dure-mère ?",
+   "options": [
+    "Filum terminal",
+    "Ligament jaune",
+    "Ligaments dentelés",
+    "Ligament coccygien",
+    "Septum cervical intermédiaire"
+   ],
+   "answer": 2,
+   "explanation": "De chaque côté, la pie-mère forme environ 21 prolongements dentelés (ligaments dentelés) qui traversent l'arachnoïde, s'attachent à la dure-mère et suspendent la moelle dans le sac dural. Le filum terminal va du cône médullaire au coccyx.",
+   "entries": [
+    "meninges",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-86030d28",
+   "group": "Moelle spinale et méninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle affirmation concernant l'espace épidural du canal vertébral est exacte ?",
+   "options": [
+    "Il est rempli de LCS.",
+    "Il se continue librement avec un espace épidural intracrânien.",
+    "Il se termine en L1 avec la moelle spinale.",
+    "Il est situé entre la pie-mère et l'arachnoïde.",
+    "Il contient de la graisse et le plexus veineux vertébral interne."
+   ],
+   "answer": 4,
+   "explanation": "L'espace épidural rachidien est situé entre la dure-mère et le périoste du canal vertébral ; il contient de la graisse et le plexus veineux vertébral interne, dépourvu de valvules (Batson). Dans le crâne, la dure-mère est accolée au périoste : il n'y a normalement pas d'espace épidural, qui s'arrête au foramen magnum. Ces veines permettent la dissémination rachidienne des cancers pelviens et mammaires.",
+   "entries": [
+    "meninges",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ne-beeb8a52",
+   "group": "Moelle spinale et méninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un patient porteur d'une volumineuse hernie discale lombaire présente une anesthésie « en selle » du périnée et de la face interne des cuisses, une rétention urinaire et une hypotonie du sphincter anal. De quelle urgence s'agit-il ?",
+   "options": [
+    "Syndrome du piriforme",
+    "Syndrome de Brown-Séquard",
+    "Compression unilatérale du cône médullaire",
+    "Méralgie paresthésique",
+    "Syndrome de la queue de cheval"
+   ],
+   "answer": 4,
+   "explanation": "Lorsque les racines situées sous L1–L2 (queue de cheval) sont comprimées, la peau du périnée, la vessie et le sphincter anal innervés par les racines sacrées sont atteints. Une décompression chirurgicale urgente est nécessaire.",
+   "entries": [
+    "cauda-equina",
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ne-80f02adb",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel est le seul sens dont l'information ne fait pas synapse dans le thalamus avant d'atteindre le cortex ?",
+   "options": [
+    "La vision",
+    "L'odorat",
+    "L'audition",
+    "Le toucher",
+    "Le goût"
+   ],
+   "answer": 1,
+   "explanation": "Les fibres olfactives font synapse dans le bulbe olfactif ; le tractus olfactif se rend directement à des aires comme le cortex piriforme et l'amygdale. Tous les autres sens sont relayés dans le thalamus avant d'atteindre le cortex.",
+   "entries": [
+    "n-olfactorius",
+    "organum-olfactus"
+   ]
+  },
+  {
+   "id": "ne-f7431de4",
+   "group": "Nerfs crâniens",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un patient souffrant de céphalées et de troubles visuels a perdu les champs visuels externes (temporaux) des deux yeux. On suspecte un adénome hypophysaire. Quelle structure est comprimée ?",
+   "options": [
+    "Radiations optiques",
+    "Nerf optique",
+    "Corps géniculé latéral",
+    "Chiasma optique",
+    "Tractus optique"
+   ],
+   "answer": 3,
+   "explanation": "Dans le chiasma optique se croisent les fibres issues des hémirétines nasales des deux yeux, qui portent les champs visuels temporaux. Une tumeur hypophysaire qui les comprime par en dessous entraîne une hémianopsie bitemporale.",
+   "entries": [
+    "n-opticus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-c94ccfe0",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel déficit du champ visuel entraîne une lésion du tractus optique droit ?",
+   "options": [
+    "Hémianopsie latérale homonyme droite",
+    "Cécité complète de l'œil droit",
+    "Hémianopsie latérale homonyme gauche",
+    "Hémianopsie bitemporale",
+    "Quadranopsie supérieure gauche"
+   ],
+   "answer": 2,
+   "explanation": "Toutes les lésions situées en arrière du chiasma donnent un déficit homonyme du champ visuel opposé. Le tractus optique droit porte les fibres de la rétine temporale de l'œil droit et de la rétine nasale de l'œil gauche, c'est-à-dire du champ visuel gauche.",
+   "entries": [
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-cbc1f080",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel déficit attend-on après une lésion des fibres des radiations optiques traversant le lobe temporal (anse de Meyer) ?",
+   "options": [
+    "Quadranopsie homonyme supérieure controlatérale",
+    "Quadranopsie supérieure homolatérale",
+    "Hémianopsie complète avec épargne maculaire",
+    "Quadranopsie homonyme inférieure controlatérale",
+    "Hémianopsie bitemporale"
+   ],
+   "answer": 0,
+   "explanation": "Les fibres inférieures des radiations optiques (issues de la moitié inférieure de la rétine, portant le champ visuel supérieur) forment l'anse de Meyer dans le lobe temporal ; leur lésion entraîne une quadranopsie supérieure controlatérale. Les lésions pariétales touchent le quadrant inférieur.",
+   "entries": [
+    "n-opticus",
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-48c33959",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient présentant une céphalée brutale et intense a un ptosis, une pupille fixe et dilatée et une déviation de l'œil droit en bas et en dehors. Un anévrisme de quelle artère provoque le plus souvent ce tableau ?",
+   "options": [
+    "Artère cérébrale moyenne",
+    "Artère communicante postérieure",
+    "Artère ophtalmique",
+    "Artère communicante antérieure",
+    "Sommet du tronc basilaire"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf oculomoteur passe juste à côté de l'artère communicante postérieure. Les fibres parasympathiques pupillaires cheminant à la surface du nerf, une compression externe (anévrisme) atteint tôt la pupille. Dans la paralysie du III diabétique (ischémique), c'est le centre du nerf qui est touché et la pupille est habituellement épargnée.",
+   "entries": [
+    "n-oculomotorius",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-0abd7abf",
+   "group": "Nerfs crâniens",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Dans quelle proposition les trois branches du nerf trijumeau sont-elles correctement associées aux orifices par lesquels elles quittent le crâne ?",
+   "options": [
+    "V1 – foramen rond, V2 – foramen ovale, V3 – foramen épineux",
+    "V1 – fissure orbitaire supérieure, V2 – foramen rond, V3 – foramen ovale",
+    "V1 – foramen ovale, V2 – foramen rond, V3 – fissure orbitaire supérieure",
+    "V1 – canal optique, V2 – fissure orbitaire inférieure, V3 – foramen ovale",
+    "V1 – fissure orbitaire supérieure, V2 – foramen ovale, V3 – foramen rond"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf ophtalmique gagne l'orbite par la fissure orbitaire supérieure, le nerf maxillaire la fosse ptérygopalatine par le foramen rond, et le nerf mandibulaire la fosse infratemporale par le foramen ovale. Seul le V3 contient des fibres motrices.",
+   "entries": [
+    "n-trigeminus",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "ne-3ea7d066",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel des muscles suivants N'est PAS innervé par le nerf mandibulaire (V3) ?",
+   "options": [
+    "Ventre antérieur du digastrique",
+    "Muscle stapédien",
+    "Muscle tenseur du tympan",
+    "Muscle tenseur du voile du palais",
+    "Muscle mylohyoïdien"
+   ],
+   "answer": 1,
+   "explanation": "Le V3 innerve les muscles du premier arc pharyngien : muscles masticateurs, tenseur du tympan, tenseur du voile du palais, mylohyoïdien et ventre antérieur du digastrique. Le muscle stapédien est un muscle du deuxième arc innervé par le nerf facial ; sa paralysie entraîne une hyperacousie.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "ne-119b3c5e",
+   "group": "Nerfs crâniens",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quels nerfs forment les voies afférente et efférente du réflexe cornéen ?",
+   "options": [
+    "Afférent : nerf ophtalmique – Efférent : nerf oculomoteur",
+    "Afférent : nerf maxillaire (V2) – Efférent : nerf oculomoteur",
+    "Afférent : nerf optique (II) – Efférent : nerf oculomoteur (III)",
+    "Afférent : nerf ophtalmique (V1) – Efférent : nerf facial (VII)",
+    "Afférent : nerf facial – Efférent : nerf trijumeau"
+   ],
+   "answer": 3,
+   "explanation": "Le contact cornéen est perçu par le nerf nasociliaire (V1) ; en réponse, le muscle orbiculaire de l'œil (VII) se contracte des deux côtés. Dans le réflexe photomoteur, la voie afférente est le II et la voie efférente le III.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "cornea"
+   ]
+  },
+  {
+   "id": "ne-2746f878",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient ayant une paralysie faciale débutée par une douleur rétro-auriculaire ne peut ni plisser le front ni fermer l'œil du même côté ; le goût, la sécrétion lacrymale et l'audition sont normaux. Où siège la lésion ?",
+   "options": [
+    "Dans le noyau du facial dans le pont",
+    "Au niveau du ganglion géniculé",
+    "Juste avant l'émergence de la corde du tympan",
+    "Au niveau du foramen stylomastoïdien ou en aval",
+    "Dans le méat acoustique interne"
+   ],
+   "answer": 3,
+   "explanation": "Dans le canal facial, le nerf facial donne successivement le nerf grand pétreux (glande lacrymale), le nerf du muscle stapédien et la corde du tympan (goût des deux tiers antérieurs de la langue). Si seuls les muscles de la mimique sont atteints, la lésion est en aval de toutes ces branches, au foramen stylomastoïdien ou dans la parotide.",
+   "entries": [
+    "n-facialis",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-f733b124",
+   "group": "Nerfs crâniens",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quelle proposition énumère correctement les branches terminales du nerf facial dans la glande parotide ?",
+   "options": [
+    "Branches temporales, infra-orbitaires, buccales, mentonnières et cervicale",
+    "Branches ophtalmique, maxillaire, mandibulaire, buccales et cervicale",
+    "Branches auriculaire, temporales, linguale, buccales et mentonnière",
+    "Branches frontale, zygomatiques, linguale, mandibulaire et cervicale",
+    "Branches temporales, zygomatiques, buccales, marginale de la mandibule et cervicale"
+   ],
+   "answer": 4,
+   "explanation": "Après sa sortie du foramen stylomastoïdien, le nerf facial forme dans la parotide la patte d'oie et se divise en cinq branches terminales. Leur préservation est la priorité de la chirurgie parotidienne ; le nerf n'innerve pas la glande.",
+   "entries": [
+    "n-facialis",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-fe75f44a",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient ayant une surdité unilatérale progressive et des acouphènes a un réflexe cornéen diminué du même côté. L'IRM montre une masse de l'angle pontocérébelleux. Quel est le diagnostic le plus probable ?",
+   "options": [
+    "Adénome hypophysaire",
+    "Craniopharyngiome",
+    "Schwannome vestibulaire (neurinome de l'acoustique)",
+    "Tumeur du glomus jugulaire",
+    "Méningiome (gouttière olfactive)"
+   ],
+   "answer": 2,
+   "explanation": "Le schwannome vestibulaire naît des cellules de Schwann de la partie vestibulaire du nerf vestibulocochléaire, grossit dans le méat acoustique interne et s'étend dans l'angle pontocérébelleux. En grossissant, il peut comprimer le nerf trijumeau (réflexe cornéen) et le nerf facial.",
+   "entries": [
+    "n-vestibulocochlearis",
+    "pons",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-f804d1d2",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle des propositions suivantes concernant le nerf glossopharyngien est FAUSSE ?",
+   "options": [
+    "Il stimule la sécrétion parotidienne par l'intermédiaire du ganglion otique.",
+    "Il est la voie afférente du réflexe nauséeux.",
+    "Il transmet le goût des deux tiers antérieurs de la langue.",
+    "Il transmet l'information des barorécepteurs du sinus carotidien.",
+    "Il transmet à la fois le goût et la sensibilité générale du tiers postérieur de la langue."
+   ],
+   "answer": 2,
+   "explanation": "Le IX transmet le goût et la sensibilité générale du tiers postérieur de la langue, la muqueuse pharyngée et les informations du sinus et du glomus carotidiens ; son seul muscle est le stylopharyngien. Le goût des deux tiers antérieurs de la langue passe par la corde du tympan (VII), la sensibilité générale par le nerf lingual (V3).",
+   "entries": [
+    "n-glossopharyngeus",
+    "gustus"
+   ]
+  },
+  {
+   "id": "ne-c4430a06",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Lorsqu'on lui demande de dire « aah », la luette du patient dévie vers la droite. Quel nerf et quel côté sont atteints ?",
+   "options": [
+    "Nerf vague gauche",
+    "Nerf facial gauche",
+    "Nerf hypoglosse droit",
+    "Nerf vague droit",
+    "Nerf glossopharyngien gauche"
+   ],
+   "answer": 0,
+   "explanation": "Les muscles du voile du palais (élévateur du voile, etc.) sont innervés par le nerf vague. En cas de paralysie d'un côté, le côté sain attire le voile vers lui : la luette dévie vers le côté sain, à l'opposé de la lésion. La langue, à l'inverse, dévie du côté de la lésion.",
+   "entries": [
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-bc679c52",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Sous quelle structure le nerf laryngé récurrent gauche passe-t-il avant de remonter ?",
+   "options": [
+    "Veine brachiocéphalique gauche",
+    "Tronc brachiocéphalique",
+    "Arc de l'aorte (juste en dehors du ligament artériel)",
+    "Artère subclavière gauche",
+    "Bronche principale gauche"
+   ],
+   "answer": 2,
+   "explanation": "Le nerf récurrent gauche contourne l'arc aortique à côté du ligament artériel ; le récurrent droit passe sous l'artère subclavière droite. En raison de son long trajet, le nerf gauche peut être comprimé par un anévrisme aortique, une dilatation de l'atrium gauche ou une tumeur pulmonaire, d'où une dysphonie.",
+   "entries": [
+    "n-vagus",
+    "aorta",
+    "larynx"
+   ]
+  },
+  {
+   "id": "ne-e83d1843",
+   "group": "Nerfs crâniens",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quels nerfs crâniens transportent des fibres parasympathiques ?",
+   "options": [
+    "III, VII, IX et X",
+    "V, VII, IX et XI",
+    "II, III, VII et XII",
+    "VII, IX, X et XII",
+    "III, IV, V et VI"
+   ],
+   "answer": 0,
+   "explanation": "Le contingent parasympathique crânien emprunte quatre nerfs : III (ganglion ciliaire – pupille et accommodation), VII (ganglions ptérygopalatin et submandibulaire), IX (ganglion otique – parotide) et X (organes thoraciques et abdominaux).",
+   "entries": [
+    "systema-autonomicum",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-a9ee3049",
+   "group": "Nerfs crâniens",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel est le seul nerf crânien qui émerge de la face dorsale (postérieure) du tronc cérébral ?",
+   "options": [
+    "Nerf accessoire",
+    "Nerf oculomoteur",
+    "Nerf trijumeau",
+    "Nerf abducens",
+    "Nerf trochléaire"
+   ],
+   "answer": 4,
+   "explanation": "Les fibres du nerf trochléaire se croisent dans le mésencéphale et émergent de la face dorsale sous les colliculus inférieurs. C'est le nerf crânien le plus grêle et celui dont le trajet intracrânien est le plus long. Il innerve le muscle oblique supérieur controlatéral.",
+   "entries": [
+    "n-trochlearis",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-e3ffe10b",
+   "group": "Nerfs crâniens",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Après avoir pressé un furoncle du visage, un patient présente de la fièvre, un œdème périorbitaire et une exophtalmie ; on suspecte une thrombose du sinus caverneux. Quel nerf crânien devrait être atteint en premier, et pourquoi ?",
+   "options": [
+    "Le nerf maxillaire, car il est situé dans le plancher du sinus",
+    "Le nerf oculomoteur, car il est le plus haut dans la paroi latérale du sinus",
+    "Le nerf optique, car il traverse le sinus",
+    "Le nerf trochléaire, car il chemine librement dans le sinus",
+    "Le nerf abducens, car il chemine librement dans le sinus avec l'artère carotide interne"
+   ],
+   "answer": 4,
+   "explanation": "Dans la paroi latérale du sinus caverneux se trouvent de haut en bas le III, le IV, le V1 et le V2 ; dans la lumière du sinus, l'artère carotide interne et le nerf abducens. La paralysie du VI (limitation du regard latéral) est donc souvent le premier signe. Le « triangle dangereux » de la face communique avec le sinus par les veines ophtalmiques.",
+   "entries": [
+    "n-abducens",
+    "sinus-durae-matris",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "ne-eed7e04e",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Comment sont nommés les faisceaux (cordons) du plexus brachial ?",
+   "options": [
+    "Selon leur position par rapport à la deuxième portion de l'artère axillaire",
+    "Selon leur position par rapport au muscle scalène antérieur",
+    "Selon leur position par rapport à la clavicule",
+    "Selon la loge qu'ils innervent",
+    "Selon les segments médullaires dont ils proviennent"
+   ],
+   "answer": 0,
+   "explanation": "Les faisceaux latéral, médial et postérieur entourent la deuxième portion de l'artère axillaire en arrière du petit pectoral et tirent leur nom de leur position par rapport à elle. Les racines (C5–T1) sont dans le défilé des scalènes, les troncs dans le triangle postérieur et les divisions en arrière de la clavicule.",
+   "entries": [
+    "plexus-brachialis",
+    "a-axillaris"
+   ]
+  },
+  {
+   "id": "ne-3c25db81",
+   "group": "Nerfs spinaux et plexus",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Après un accouchement difficile avec dystocie des épaules, le bras du bébé est le long du corps en adduction et rotation interne, coude en extension et avant-bras en pronation (position du « pourboire du serveur »). Quelle structure est atteinte ?",
+   "options": [
+    "Nerf musculocutané",
+    "Tronc inférieur du plexus brachial (C8–T1) – paralysie de Klumpke",
+    "Tronc supérieur du plexus brachial (C5–C6) – paralysie d'Erb–Duchenne",
+    "Nerf axillaire",
+    "Faisceau postérieur"
+   ],
+   "answer": 2,
+   "explanation": "L'écartement forcé de la tête et de l'épaule étire le tronc supérieur. Le deltoïde, le supra-épineux, l'infra-épineux (abduction et rotation externe), le biceps et le brachial (flexion du coude) et les supinateurs sont paralysés ; le bras prend la position typique.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-7352de71",
+   "group": "Nerfs spinaux et plexus",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient qui s'est rattrapé à une branche en tombant, le bras tiré violemment vers le haut, présente une main en griffe, une amyotrophie des muscles intrinsèques, une perte sensitive de la face médiale de l'avant-bras ainsi qu'un ptosis et un myosis du même côté. Quelle est la lésion ?",
+   "options": [
+    "Tronc inférieur du plexus brachial (C8–T1) – paralysie de Klumpke",
+    "Tronc supérieur du plexus brachial (C5–C6)",
+    "Lésion du nerf radial dans l'aisselle",
+    "Faisceau latéral",
+    "Lésion du nerf médian au poignet"
+   ],
+   "answer": 0,
+   "explanation": "La traction forcée du bras en abduction étire le tronc inférieur (C8–T1) : les muscles intrinsèques de la main sont paralysés et une main en griffe apparaît. L'atteinte des fibres sympathiques proches de la racine T1 (ganglion stellaire) explique le syndrome de Claude Bernard–Horner.",
+   "entries": [
+    "plexus-brachialis",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-abc65d94",
+   "group": "Nerfs spinaux et plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel des nerfs suivants NE naît PAS du faisceau postérieur du plexus brachial ?",
+   "options": [
+    "Nerf subscapulaire supérieur",
+    "Nerf thoracodorsal",
+    "Nerf musculocutané",
+    "Nerf radial",
+    "Nerf axillaire"
+   ],
+   "answer": 2,
+   "explanation": "Le faisceau postérieur donne les branches destinées à la face postérieure de l'épaule et du bras : nerfs subscapulaires supérieur et inférieur, thoracodorsal, axillaire et radial. Le nerf musculocutané naît du faisceau latéral et innerve la loge antérieure du bras.",
+   "entries": [
+    "plexus-brachialis",
+    "n-musculocutaneus"
+   ]
+  },
+  {
+   "id": "ne-b856c3f9",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À partir de quelles parties du plexus brachial le nerf médian est-il formé ?",
+   "options": [
+    "Faisceau latéral et faisceau postérieur",
+    "Faisceau latéral et faisceau médial",
+    "Faisceau latéral seul",
+    "Tronc supérieur et tronc moyen",
+    "Faisceau postérieur et faisceau médial"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf médian est formé par la réunion, en avant de l'artère axillaire, de deux racines issues des faisceaux latéral et médial (C6–T1, parfois avec des fibres de C5). Il ne donne aucune branche au bras ; il innerve la plupart des fléchisseurs de l'avant-bras et les muscles thénariens.",
+   "entries": [
+    "n-medianus",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-cd2e97f1",
+   "group": "Nerfs spinaux et plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quels nerfs ne donnent aucune branche au bras ?",
+   "options": [
+    "Nerf ulnaire et nerf radial",
+    "Nerf musculocutané et nerf médian",
+    "Nerf axillaire et nerf radial",
+    "Nerf radial et nerf musculocutané",
+    "Nerf médian et nerf ulnaire"
+   ],
+   "answer": 4,
+   "explanation": "Bien qu'ils traversent le bras, les nerfs médian et ulnaire n'y donnent aucune branche motrice ou sensitive ; leurs branches sont à l'avant-bras et à la main. La loge antérieure du bras est innervée par le nerf musculocutané, la loge postérieure par le nerf radial.",
+   "entries": [
+    "n-medianus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-cfd5de8f",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Laquelle des correspondances de dermatomes suivantes est fausse ?",
+   "options": [
+    "T10 – ombilic",
+    "S1 – bord latéral du pied et talon",
+    "L1 – région inguinale",
+    "C8 – pouce",
+    "T4 – mamelon"
+   ],
+   "answer": 3,
+   "explanation": "À la main, le pouce correspond à C6, le majeur à C7 et l'auriculaire à C8. Au tronc, T4 correspond au mamelon, T10 à l'ombilic et L1 à l'aine ; au membre inférieur, L4 à la malléole médiale, L5 au dos du pied et au gros orteil, S1 au bord latéral du pied et au talon.",
+   "entries": [
+    "ganglion-spinale",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "ne-78ef009f",
+   "group": "Nerfs spinaux et plexus",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un patient obèse portant une ceinture serrée ressent des brûlures, un engourdissement et des fourmillements à la face antérolatérale de la cuisse ; la force et les réflexes sont normaux. Quel nerf est comprimé ?",
+   "options": [
+    "Nerf cutané latéral de la cuisse",
+    "Nerf fémoral",
+    "Nerf génitofémoral",
+    "Nerf saphène",
+    "Nerf obturateur"
+   ],
+   "answer": 0,
+   "explanation": "Méralgie paresthésique : le nerf cutané latéral de la cuisse (L2–L3), purement sensitif, est comprimé lors de son passage sous le ligament inguinal juste en dedans de l'EIAS. Ne contenant pas de fibres motrices, il ne donne pas de déficit moteur.",
+   "entries": [
+    "plexus-lumbalis",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "ne-4b8d4357",
+   "group": "Nerfs spinaux et plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Lequel des signes suivants N'est PAS attendu après une lésion du nerf fémoral ?",
+   "options": [
+    "Perte sensitive de la face antérieure de la cuisse",
+    "Faiblesse nette de l'adduction de la cuisse",
+    "Faiblesse de l'extension du genou",
+    "Perte sensitive de la face médiale de la jambe",
+    "Abolition du réflexe rotulien"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf fémoral (L2–L4) innerve le quadriceps, le sartorius, l'iliaque et le pectiné ; il assure la sensibilité de la face antérieure de la cuisse et, par le nerf saphène, de la face médiale de la jambe. Les adducteurs sont innervés par le nerf obturateur.",
+   "entries": [
+    "n-femoralis",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "ne-1b1b302a",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Après une longue chirurgie pelvienne, une patiente a du mal à rapprocher les jambes et présente un engourdissement d'une petite zone de la face interne de la cuisse. Quel nerf a été lésé ?",
+   "options": [
+    "Nerf obturateur",
+    "Nerf fémoral",
+    "Nerf génitofémoral",
+    "Nerf pudendal",
+    "Nerf glutéal supérieur"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf obturateur (L2–L4) chemine sur la paroi latérale du pelvis, près de la fossette ovarienne, puis entre dans le canal obturateur. Il peut être lésé lors d'une chirurgie pelvienne, par une tumeur ou lors d'un accouchement difficile ; les adducteurs de la cuisse s'affaiblissent et la sensibilité de la face interne de la cuisse est perdue.",
+   "entries": [
+    "n-obturatorius",
+    "mm-adductores"
+   ]
+  },
+  {
+   "id": "ne-96063403",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "À quel niveau le nerf sciatique se divise-t-il le plus souvent en ses deux branches terminales (nerf tibial et nerf fibulaire commun) ?",
+   "options": [
+    "À sa sortie du grand foramen ischiatique",
+    "Tout en haut de la cuisse, au pli fessier",
+    "Au col de la fibula",
+    "En arrière de la malléole médiale",
+    "À l'angle supérieur de la fosse poplitée"
+   ],
+   "answer": 4,
+   "explanation": "Le nerf sciatique (L4–S3), le plus gros nerf du corps, se divise habituellement au sommet de la fosse poplitée. Parfois la division est plus haute et la partie fibulaire traverse le muscle piriforme.",
+   "entries": [
+    "n-ischiadicus",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "ne-7800f94a",
+   "group": "Nerfs spinaux et plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Laquelle des conséquences suivantes résulte d'une lésion du nerf tibial dans la fosse poplitée ?",
+   "options": [
+    "Pied tombant et perte sensitive du dos du pied",
+    "Perte sensitive de la face médiale de la jambe",
+    "Perte de la flexion plantaire du pied et de la flexion des orteils, perte sensitive de la plante",
+    "Perte de l'extension du genou",
+    "Perte de l'éversion du pied"
+   ],
+   "answer": 2,
+   "explanation": "Le nerf tibial innerve les muscles de la loge postérieure (triceps sural, tibial postérieur, longs fléchisseurs) et, par ses branches plantaires, les muscles de la plante. Après lésion, le pied reste en flexion dorsale et éversion (talus valgus), la marche sur la pointe est impossible et la sensibilité plantaire est perdue.",
+   "entries": [
+    "n-tibialis",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "ne-bbd6023c",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Quel nerf innerve le muscle sphincter externe de l'anus ?",
+   "options": [
+    "Plexus hypogastrique inférieur",
+    "Nerf obturateur",
+    "Nerfs splanchniques pelviens",
+    "Nerf génitofémoral",
+    "Nerf pudendal (nerf rectal inférieur)"
+   ],
+   "answer": 4,
+   "explanation": "Les sphincters externes de l'anus et de l'urètre, à commande volontaire, sont innervés par le nerf pudendal (S2–S4). Les sphincters internes sont des muscles lisses contrôlés par le système nerveux autonome.",
+   "entries": [
+    "n-pudendus",
+    "rectum"
+   ]
+  },
+  {
+   "id": "ne-91182414",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le ganglion spinal (ganglion de la racine postérieure) contient les corps cellulaires de quelles cellules ?",
+   "options": [
+    "Interneurones",
+    "Neurones sympathiques préganglionnaires",
+    "Neurones parasympathiques postganglionnaires",
+    "Motoneurones périphériques",
+    "Neurones sensitifs pseudo-unipolaires"
+   ],
+   "answer": 4,
+   "explanation": "Le prolongement périphérique des neurones pseudo-unipolaires du ganglion spinal reçoit les informations des récepteurs ; le prolongement central entre dans la moelle par la racine postérieure. Il n'y a pas de synapse dans ce ganglion. Le virus du zona y reste latent.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d3c5354b",
+   "group": "Nerfs spinaux et plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Si le nerf radial est comprimé dans l'aisselle chez un patient utilisant mal ses béquilles, que voit-on en plus, à la différence d'une lésion au niveau du sillon du nerf radial ?",
+   "options": [
+    "Une faiblesse du triceps brachial et une diminution du réflexe tricipital",
+    "Il n'y a pas de main tombante.",
+    "Une amyotrophie des muscles intrinsèques de la main",
+    "Une faiblesse du biceps brachial",
+    "Une perte sensitive de la paume"
+   ],
+   "answer": 0,
+   "explanation": "Les branches du triceps quittent le nerf radial dans l'aisselle et à la partie haute du bras. Dans une lésion axillaire (béquilles), l'extension du coude est aussi atteinte ; dans une lésion au niveau de la diaphyse humérale, le triceps est le plus souvent épargné. Les deux donnent une main tombante.",
+   "entries": [
+    "n-radialis",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "ne-ae42ee32",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "De quels segments médullaires naît le nerf phrénique ?",
+   "options": [
+    "C7–T1",
+    "C1–C3",
+    "C3–C5",
+    "T1–T2",
+    "C5–C7"
+   ],
+   "answer": 2,
+   "explanation": "« C3, C4, C5 maintiennent le diaphragme en vie. » Le nerf phrénique est la branche la plus importante du plexus cervical ; C4 en est le contingent principal. Dans les lésions médullaires au-dessus de C3, la respiration spontanée cesse.",
+   "entries": [
+    "n-phrenicus",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "ne-adea3654",
+   "group": "Système nerveux autonome",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où se trouvent dans la moelle spinale les corps cellulaires des neurones sympathiques préganglionnaires ?",
+   "options": [
+    "Dans la corne postérieure de tous les segments",
+    "Dans la corne latérale des segments T1–L2 (noyau intermédiolatéral)",
+    "Dans la corne antérieure des segments S2–S4",
+    "Dans les noyaux parasympathiques du tronc cérébral",
+    "Dans la corne latérale des segments C1–C8"
+   ],
+   "answer": 1,
+   "explanation": "Le système sympathique a une sortie thoracolombaire : les neurones préganglionnaires sont dans la corne latérale de T1–L2 et gagnent la chaîne sympathique par les rameaux communicants blancs. Le système parasympathique est craniosacré (III, VII, IX, X et S2–S4).",
+   "entries": [
+    "truncus-sympathicus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-d3fdff6f",
+   "group": "Système nerveux autonome",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans quel ganglion font synapse les fibres parasympathiques destinées à la glande lacrymale ?",
+   "options": [
+    "Ganglion otique",
+    "Ganglion cervical supérieur",
+    "Ganglion submandibulaire",
+    "Ganglion ptérygopalatin",
+    "Ganglion ciliaire"
+   ],
+   "answer": 3,
+   "explanation": "Les fibres quittent le nerf facial par le nerf grand pétreux et gagnent le ganglion ptérygopalatin par le nerf du canal ptérygoïdien ; les fibres postganglionnaires stimulent la glande par les nerfs zygomatique et lacrymal. C'est pourquoi les lésions du VII en amont du ganglion géniculé entraînent une sécheresse oculaire.",
+   "entries": [
+    "n-facialis",
+    "apparatus-lacrimalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-41a47503",
+   "group": "Système nerveux autonome",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Dans quel nerf naissent les fibres parasympathiques qui stimulent la sécrétion parotidienne, et dans quel ganglion font-elles synapse ?",
+   "options": [
+    "Nerf glossopharyngien – ganglion ciliaire",
+    "Nerf glossopharyngien – ganglion otique",
+    "Nerf facial – ganglion submandibulaire",
+    "Nerf facial – ganglion ptérygopalatin",
+    "Nerf vague – ganglion otique"
+   ],
+   "answer": 1,
+   "explanation": "Le rameau tympanique du IX forme le nerf petit pétreux ; les fibres font synapse dans le ganglion otique et gagnent la parotide avec le nerf auriculotemporal (V3). Les glandes submandibulaire et sublinguale sont stimulées par les fibres de la corde du tympan (VII).",
+   "entries": [
+    "n-glossopharyngeus",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-196a637e",
+   "group": "Système nerveux autonome",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un fumeur de longue date présente une douleur irradiant à l'épaule droite et à la face interne du bras, un léger ptosis et un myosis de l'œil droit ainsi qu'une anhidrose de l'hémiface droite. Quelle est la cause la plus probable ?",
+   "options": [
+    "Paralysie faciale droite",
+    "Myasthénie",
+    "AVC de l'hémisphère gauche",
+    "Paralysie du nerf oculomoteur droit",
+    "Tumeur de Pancoast de l'apex pulmonaire droit envahissant la chaîne sympathique cervicale"
+   ],
+   "answer": 4,
+   "explanation": "Le syndrome de Claude Bernard–Horner (ptosis – muscle tarsal supérieur, myosis – muscle dilatateur de la pupille, anhidrose) résulte d'une atteinte en un point quelconque de la voie sympathique. Une tumeur de l'apex pulmonaire envahit le ganglion stellaire et le tronc inférieur (C8–T1), d'où le Horner et la douleur du bras.",
+   "entries": [
+    "truncus-sympathicus",
+    "pulmones",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-829e615f",
+   "group": "Système nerveux autonome",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle affirmation concernant l'innervation sympathique de la médullosurrénale est exacte ?",
+   "options": [
+    "La médullosurrénale ne reçoit pas d'innervation autonome.",
+    "Les cellules chromaffines sont stimulées par des neurones postganglionnaires.",
+    "Les fibres postganglionnaires viennent du ganglion cœliaque.",
+    "Les fibres préganglionnaires se terminent directement sur les cellules médullaires ; la médullosurrénale se comporte comme un ganglion.",
+    "Des fibres parasympathiques arrivent par le nerf vague."
+   ],
+   "answer": 3,
+   "explanation": "Les cellules chromaffines de la médullosurrénale dérivent de la crête neurale et sont considérées comme des neurones postganglionnaires modifiés. Les fibres préganglionnaires arrivant par les nerfs splanchniques font directement synapse sur ces cellules et stimulent la libération d'adrénaline et de noradrénaline.",
+   "entries": [
+    "glandula-suprarenalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-86aa969a",
+   "group": "Système nerveux autonome",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quel neurotransmetteur est libéré par les fibres postganglionnaires dans l'innervation sympathique des glandes sudoripares ?",
+   "options": [
+    "Adrénaline",
+    "Sérotonine",
+    "Dopamine",
+    "Noradrénaline",
+    "Acétylcholine"
+   ],
+   "answer": 4,
+   "explanation": "La plupart des fibres sympathiques postganglionnaires sont noradrénergiques, mais celles destinées aux glandes sudoripares eccrines sont cholinergiques (récepteurs muscariniques). C'est pourquoi les anticholinergiques diminuent la sudation.",
+   "entries": [
+    "glandulae-cutis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-bdaebe1a",
+   "group": "Système nerveux autonome",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle affirmation concernant les nerfs splanchniques pelviens est exacte ?",
+   "options": [
+    "Ils ne contiennent que des fibres sensitives.",
+    "Ils transportent des fibres sympathiques préganglionnaires issues de T5–T9.",
+    "Ils transportent des fibres sympathiques postganglionnaires.",
+    "Ce sont les branches pelviennes du nerf vague.",
+    "Ils transportent des fibres parasympathiques préganglionnaires issues de S2–S4."
+   ],
+   "answer": 4,
+   "explanation": "Les nerfs splanchniques pelviens (nerfs érecteurs) portent les fibres parasympathiques de la vessie (contraction du détrusor), du rectum, du côlon descendant et sigmoïde, ainsi que celles de l'érection. Les nerfs splanchniques thoraciques (grand T5–T9, petit T10–T11, imus T12) sont sympathiques.",
+   "entries": [
+    "systema-autonomicum",
+    "vesica-urinaria"
+   ]
+  },
+  {
+   "id": "ne-f843505f",
+   "group": "Système nerveux autonome",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Au début d'une appendicite, le patient décrit une douleur mal limitée autour de l'ombilic ; quelques heures plus tard, elle se fixe dans la fosse iliaque droite. Pourquoi la douleur initiale est-elle ressentie autour de l'ombilic ?",
+   "options": [
+    "Le nerf ilio-inguinal innerve l'appendice.",
+    "Le péritoine pariétal est atteint précocement.",
+    "Le nerf phrénique est irrité.",
+    "L'appendice est situé juste derrière l'ombilic.",
+    "Les afférences viscérales de l'appendice entrent au segment T10 et la douleur est projetée sur ce dermatome."
+   ],
+   "answer": 4,
+   "explanation": "La douleur viscérale des organes issus de l'intestin moyen est transmise avec les fibres sympathiques au segment T10 et projetée autour de l'ombilic. Lorsque l'inflammation atteint le péritoine pariétal, son innervation somatique localise la douleur au point de McBurney.",
+   "entries": [
+    "appendix-vermiformis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-6eb71b69",
+   "group": "Système nerveux autonome",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Jusqu'où s'étend approximativement l'innervation parasympathique du nerf vague le long du tube digestif ?",
+   "options": [
+    "Jusqu'au tiers gauche du côlon transverse (près de l'angle colique gauche)",
+    "Jusqu'au début du côlon sigmoïde",
+    "Jusqu'à la fin du rectum",
+    "Jusqu'à la fin du duodénum",
+    "Jusqu'à la fin de l'iléum"
+   ],
+   "answer": 0,
+   "explanation": "Le vague innerve les dérivés de l'intestin antérieur et moyen (jusqu'aux deux tiers environ du côlon transverse). À partir de l'angle colique gauche, les dérivés de l'intestin postérieur reçoivent leurs fibres parasympathiques des nerfs splanchniques pelviens (S2–S4).",
+   "entries": [
+    "n-vagus",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "ne-dd43e180",
+   "group": "Système nerveux autonome",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Le ganglion stellaire est formé par la fusion de quels ganglions ?",
+   "options": [
+    "Le ganglion cervical inférieur et le premier ganglion thoracique",
+    "Les ganglions cœliaque et aorticorénal",
+    "Les ganglions ciliaire et ptérygopalatin",
+    "Le ganglion cervical moyen et le deuxième ganglion thoracique",
+    "Les ganglions cervicaux supérieur et moyen"
+   ],
+   "answer": 0,
+   "explanation": "Chez la plupart des sujets, le ganglion stellaire (cervicothoracique) résulte de la fusion des ganglions cervical inférieur et T1 ; il se situe en avant du col de la première côte, en arrière de l'origine de l'artère vertébrale. Son blocage est utilisé dans les douleurs d'origine sympathique du membre supérieur et entraîne un syndrome de Claude Bernard–Horner.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-53acb8d2",
+   "group": "Système nerveux autonome",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Quelle affirmation concernant les rameaux communicants blancs est exacte ?",
+   "options": [
+    "Ils n'existent que sur les nerfs spinaux T1–L2 et transportent des fibres préganglionnaires myélinisées.",
+    "Ils existent sur tous les nerfs spinaux.",
+    "Ils transportent des fibres parasympathiques vers la chaîne sympathique.",
+    "Ils transportent des fibres postganglionnaires amyéliniques.",
+    "Ils n'existent que sur les nerfs cervicaux."
+   ],
+   "answer": 0,
+   "explanation": "Les rameaux blancs paraissent blancs parce que les fibres préganglionnaires sont myélinisées, et ils n'existent qu'aux segments T1–L2, siège de la sortie sympathique. Les rameaux gris (postganglionnaires amyéliniques) repartent de la chaîne vers tous les nerfs spinaux ; ainsi les vaisseaux, glandes sudoripares et muscles arrecteurs de toute la peau reçoivent des fibres sympathiques.",
+   "entries": [
+    "truncus-sympathicus",
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-04a5f34d",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est le plus grand faisceau de fibres commissurales reliant les deux hémisphères cérébraux ?",
+   "options": [
+    "Couronne rayonnante",
+    "Capsule interne",
+    "Corps calleux",
+    "Fornix",
+    "Commissure antérieure"
+   ],
+   "answer": 2,
+   "explanation": "Le corps calleux est la plus grande commissure reliant le cortex des deux hémisphères. La capsule interne et la couronne rayonnante sont des fibres de projection reliant le cortex aux centres inférieurs ; le fornix est la voie de sortie de l'hippocampe.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-7ac85b98",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quel gyrus se trouve le cortex moteur primaire ?",
+   "options": [
+    "Gyrus postcentral",
+    "Gyrus angulaire",
+    "Gyrus précentral",
+    "Gyrus cingulaire",
+    "Gyrus temporal supérieur"
+   ],
+   "answer": 2,
+   "explanation": "Le cortex moteur primaire (aire 4 de Brodmann) se trouve dans le gyrus précentral, juste en avant du sillon central. Il déclenche les mouvements volontaires de l'hémicorps opposé ; sa carte de représentation est l'homoncule moteur.",
+   "entries": [
+    "gyrus-precentralis"
+   ]
+  },
+  {
+   "id": "ne-2c3b62da",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quel gyrus se trouve le cortex somesthésique primaire ?",
+   "options": [
+    "Gyrus postcentral",
+    "Gyrus précentral",
+    "Cunéus",
+    "Gyrus frontal supérieur",
+    "Gyrus parahippocampique"
+   ],
+   "answer": 0,
+   "explanation": "Le gyrus postcentral (aires 3, 1, 2 de Brodmann) est situé juste en arrière du sillon central et reçoit le tact, la douleur, la température et le sens de position de l'hémicorps opposé.",
+   "entries": [
+    "gyrus-postcentralis"
+   ]
+  },
+  {
+   "id": "ne-9f3ed11f",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quel lobe se trouve le cortex visuel primaire ?",
+   "options": [
+    "Lobe frontal",
+    "Lobe occipital (autour du sillon calcarin)",
+    "Lobe temporal",
+    "Insula",
+    "Lobe pariétal"
+   ],
+   "answer": 1,
+   "explanation": "Le cortex visuel primaire (aire 17 de Brodmann) se trouve à la face médiale du lobe occipital, de part et d'autre du sillon calcarin. Sa lésion entraîne une perte du champ visuel opposé.",
+   "entries": [
+    "lobus-occipitalis"
+   ]
+  },
+  {
+   "id": "ne-d82e578e",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Où se trouve le cortex auditif primaire ?",
+   "options": [
+    "Gyrus temporal inférieur",
+    "Gyrus temporaux transverses (Heschl) sur le gyrus temporal supérieur",
+    "Gyrus précentral",
+    "Cunéus",
+    "Gyrus angulaire"
+   ],
+   "answer": 1,
+   "explanation": "Le cortex auditif primaire (aires 41–42 de Brodmann) se trouve dans les gyrus temporaux transverses (de Heschl), sur la face du gyrus temporal supérieur tournée vers le sillon latéral.",
+   "entries": [
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-630caf8b",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel sillon sépare le lobe frontal du lobe pariétal ?",
+   "options": [
+    "Sillon calcarin",
+    "Sillon central (Rolando)",
+    "Sillon latéral (Sylvius)",
+    "Sillon pariéto-occipital",
+    "Sillon cingulaire"
+   ],
+   "answer": 1,
+   "explanation": "Le sillon central sépare les lobes frontal et pariétal ; le cortex moteur est en avant, le cortex sensitif en arrière. Le sillon latéral sépare le lobe temporal des lobes frontal et pariétal.",
+   "entries": [
+    "lobus-frontalis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-e956823f",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle structure est la plus importante pour la formation de nouveaux souvenirs ?",
+   "options": [
+    "Cervelet",
+    "Noyau caudé",
+    "Thalamus",
+    "Hippocampe",
+    "Corps amygdaloïde"
+   ],
+   "answer": 3,
+   "explanation": "L'hippocampe, situé à la partie médiale du lobe temporal, joue un rôle essentiel dans le passage de la mémoire à court terme à la mémoire à long terme ; sa lésion bilatérale empêche la formation de nouveaux souvenirs (amnésie antérograde).",
+   "entries": [
+    "hippocampus"
+   ]
+  },
+  {
+   "id": "ne-2e30cb21",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel noyau en forme d'amande, situé dans la profondeur du lobe temporal, joue le rôle principal dans le traitement de la peur et des réactions émotionnelles ?",
+   "options": [
+    "Hippocampe",
+    "Claustrum",
+    "Corps mamillaire",
+    "Corps amygdaloïde",
+    "Putamen"
+   ],
+   "answer": 3,
+   "explanation": "L'amygdale fait partie du système limbique ; elle intervient dans la détection du danger, la peur et la formation de la mémoire émotionnelle. Elle est située juste en avant de l'hippocampe.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-e1589513",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Par quel groupe de noyaux sont relayés tous les sens, sauf l'odorat, avant d'atteindre le cortex ?",
+   "options": [
+    "Noyaux basaux",
+    "Cervelet",
+    "Hypothalamus",
+    "Hippocampe",
+    "Thalamus"
+   ],
+   "answer": 4,
+   "explanation": "Le thalamus est la plus grande partie du diencéphale ; la vision, l'audition, le goût et la sensibilité du corps y sont relayés puis envoyés aux aires corticales correspondantes. La voie olfactive atteint le cortex sans passer par le thalamus.",
+   "entries": [
+    "thalamus"
+   ]
+  },
+  {
+   "id": "ne-ee3fb626",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle structure règle la température corporelle, la faim, la soif et les sécrétions hypophysaires ?",
+   "options": [
+    "Pont",
+    "Mésencéphale",
+    "Hypothalamus",
+    "Thalamus",
+    "Glande pinéale"
+   ],
+   "answer": 2,
+   "explanation": "L'hypothalamus forme le plancher du troisième ventricule et la partie basse de ses parois latérales. En commandant le système autonome et l'hypophyse, il maintient l'équilibre du milieu intérieur (homéostasie).",
+   "entries": [
+    "hypothalamus"
+   ]
+  },
+  {
+   "id": "ne-da4674e1",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle structure produit la plus grande partie du liquide cérébrospinal (LCS) ?",
+   "options": [
+    "Pie-mère",
+    "Sinus sagittal supérieur",
+    "Plexus choroïdes",
+    "Dure-mère",
+    "Granulations arachnoïdiennes"
+   ],
+   "answer": 2,
+   "explanation": "Le LCS est produit surtout par les plexus choroïdes des ventricules (environ 500 ml par jour). Les granulations arachnoïdiennes le résorbent dans les sinus veineux.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a7eeee6f",
+   "group": "Encéphale",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel orifice relie les ventricules latéraux au troisième ventricule ?",
+   "options": [
+    "Aqueduc du mésencéphale (Sylvius)",
+    "Foramen interventriculaire (Monro)",
+    "Canal central",
+    "Ouverture latérale (Luschka)",
+    "Ouverture médiane (Magendie)"
+   ],
+   "answer": 1,
+   "explanation": "Le LCS passe des ventricules latéraux au troisième ventricule par les foramens de Monro, puis au quatrième ventricule par l'aqueduc de Sylvius, et gagne l'espace sous-arachnoïdien par les ouvertures de Magendie et de Luschka.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a1b6cd84",
+   "group": "Tronc cérébral et cervelet",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quel ordre, de haut en bas, se succèdent les parties du tronc cérébral ?",
+   "options": [
+    "Thalamus – mésencéphale – pont",
+    "Mésencéphale – pont – moelle allongée",
+    "Pont – mésencéphale – moelle allongée",
+    "Mésencéphale – moelle allongée – pont",
+    "Diencéphale – pont – moelle allongée"
+   ],
+   "answer": 1,
+   "explanation": "De haut en bas, le tronc cérébral comprend le mésencéphale, le pont et la moelle allongée (bulbe) ; celle-ci se continue par la moelle spinale au niveau du foramen magnum.",
+   "entries": [
+    "mesencephalon",
+    "pons",
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-000ce129",
+   "group": "Tronc cérébral et cervelet",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quelle partie du tronc cérébral se trouvent les centres vitaux de la respiration et de la circulation ?",
+   "options": [
+    "Mésencéphale",
+    "Corps calleux",
+    "Thalamus",
+    "Cervelet",
+    "Moelle allongée"
+   ],
+   "answer": 4,
+   "explanation": "La moelle allongée contient les centres régulant la respiration, la fréquence cardiaque et le tonus vasculaire. C'est pourquoi sa compression par un engagement dans le foramen magnum peut être mortelle.",
+   "entries": [
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-eb4c66bd",
+   "group": "Tronc cérébral et cervelet",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quelle structure est chargée de l'équilibre, du tonus musculaire et de la coordination des mouvements ?",
+   "options": [
+    "Hypothalamus",
+    "Lobe occipital",
+    "Cervelet",
+    "Pont",
+    "Corps calleux"
+   ],
+   "answer": 2,
+   "explanation": "Le cervelet règle la chronologie et l'harmonie du mouvement et maintient l'équilibre et le tonus musculaire. Sa lésion entraîne ataxie, tremblement et troubles de l'équilibre ; les signes sont du même côté que la lésion.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-3a99b000",
+   "group": "Tronc cérébral et cervelet",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Par combien de paires de pédoncules le cervelet est-il relié au tronc cérébral ?",
+   "options": [
+    "5",
+    "1",
+    "3 (supérieur, moyen et inférieur)",
+    "4",
+    "2"
+   ],
+   "answer": 2,
+   "explanation": "Le pédoncule cérébelleux supérieur le relie au mésencéphale, le moyen au pont et l'inférieur à la moelle allongée. Le plus volumineux est le pédoncule moyen, qui porte les fibres venant du pont.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-64f89be2",
+   "group": "Moelle spinale et méninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Chez l'adulte, à quel niveau vertébral la moelle spinale (cône médullaire) se termine-t-elle habituellement ?",
+   "options": [
+    "L4–L5",
+    "T8",
+    "L1–L2",
+    "C7",
+    "S2"
+   ],
+   "answer": 2,
+   "explanation": "Chez l'adulte, la moelle se termine par le cône médullaire en L1–L2 ; chez le nouveau-né, elle descend plus bas, vers L3. En dessous, il n'y a que des racines nerveuses (queue de cheval).",
+   "entries": [
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-17d73e1a",
+   "group": "Moelle spinale et méninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quel ordre, de dehors en dedans, se disposent les méninges qui enveloppent l'encéphale et la moelle spinale ?",
+   "options": [
+    "Arachnoïde – dure-mère – pie-mère",
+    "Dure-mère – arachnoïde – pie-mère",
+    "Dure-mère – pie-mère – arachnoïde",
+    "Pie-mère – arachnoïde – dure-mère",
+    "Pie-mère – dure-mère – arachnoïde"
+   ],
+   "answer": 1,
+   "explanation": "La plus externe est la dure-mère, épaisse et résistante ; au milieu l'arachnoïde, en forme de toile ; la plus interne est la fine pie-mère, étroitement adhérente à la surface de l'encéphale.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-904c7a31",
+   "group": "Moelle spinale et méninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quel espace circule le liquide cérébrospinal ?",
+   "options": [
+    "Entre les deux feuillets de la dure-mère",
+    "Entre la dure-mère et l'arachnoïde (espace sous-dural)",
+    "Entre la pie-mère et le tissu cérébral",
+    "Entre l'arachnoïde et la pie-mère (espace sous-arachnoïdien)",
+    "Entre la dure-mère et l'os (espace épidural)"
+   ],
+   "answer": 3,
+   "explanation": "Le LCS circule dans l'espace sous-arachnoïdien, qui s'élargit en citernes. Lors de la ponction lombaire, l'aiguille pénètre dans cet espace pour prélever le LCS.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-4de7a681",
+   "group": "Moelle spinale et méninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "À quel niveau réalise-t-on habituellement la ponction lombaire chez l'adulte ?",
+   "options": [
+    "Entre T10 et T11",
+    "Entre les vertèbres L3–L4 ou L4–L5",
+    "Entre C7 et T1",
+    "Entre L1 et L2",
+    "Entre T12 et L1"
+   ],
+   "answer": 1,
+   "explanation": "La moelle se terminant en L1–L2, l'aiguille est introduite plus bas, autour de la ligne joignant les crêtes iliaques (environ L4) ; à ce niveau il n'y a que les racines de la queue de cheval, qui s'écartent de l'aiguille.",
+   "entries": [
+    "cauda-equina",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-407bca30",
+   "group": "Moelle spinale et méninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment appelle-t-on le faisceau de racines nerveuses qui descend dans le canal vertébral sous le cône médullaire ?",
+   "options": [
+    "Renflement lombosacral",
+    "Filum terminal",
+    "Queue de cheval",
+    "Plexus sacral",
+    "Tronc sympathique"
+   ],
+   "answer": 2,
+   "explanation": "La moelle étant plus courte que la colonne, les racines lombaires basses et sacrées descendent pour rejoindre leurs foramens et forment la queue de cheval. Le filum terminal est un fin cordon pial allant du cône au coccyx.",
+   "entries": [
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-50ebda82",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien y a-t-il de paires de nerfs crâniens ?",
+   "options": [
+    "8",
+    "10",
+    "31",
+    "12",
+    "11"
+   ],
+   "answer": 3,
+   "explanation": "Douze paires de nerfs crâniens naissent de l'encéphale et du tronc cérébral, du I (olfactif) au XII (hypoglosse). Les nerfs spinaux forment 31 paires.",
+   "entries": [
+    "n-olfactorius",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-ee88b313",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf innerve le muscle releveur de la paupière et la plupart des muscles de l'œil ?",
+   "options": [
+    "Nerf trijumeau (V)",
+    "Nerf abducens (VI)",
+    "Nerf oculomoteur (III)",
+    "Nerf facial (VII)",
+    "Nerf trochléaire (IV)"
+   ],
+   "answer": 2,
+   "explanation": "Le nerf oculomoteur innerve le releveur de la paupière supérieure, les droits supérieur, inférieur et médial et l'oblique inférieur ; il transporte aussi les fibres parasympathiques qui contractent la pupille.",
+   "entries": [
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-b6c92d74",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf innerve le muscle droit latéral (qui tourne l'œil en dehors) ?",
+   "options": [
+    "Nerf abducens (VI)",
+    "Nerf ophtalmique",
+    "Nerf oculomoteur (III)",
+    "Nerf trochléaire (IV)",
+    "Nerf facial (VII)"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf abducens n'innerve que le droit latéral. En cas de paralysie, l'œil ne peut être tourné en dehors et une diplopie apparaît dans le regard latéral (en résumé : DL6, OS4, le reste III).",
+   "entries": [
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-994f4b2e",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf assure la sensibilité de la peau du visage et innerve les muscles masticateurs ?",
+   "options": [
+    "Nerf glossopharyngien (IX)",
+    "Nerf facial (VII)",
+    "Nerf hypoglosse (XII)",
+    "Nerf trijumeau (V)",
+    "Nerf accessoire (XI)"
+   ],
+   "answer": 3,
+   "explanation": "Les trois branches du nerf trijumeau (ophtalmique, maxillaire, mandibulaire) assurent la sensibilité de la peau du visage ; la branche mandibulaire innerve en outre les muscles masticateurs comme le masséter, le temporal et les ptérygoïdiens.",
+   "entries": [
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-252939b1",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf innerve les muscles de la mimique (expression du visage) ?",
+   "options": [
+    "Nerf trijumeau (V)",
+    "Nerf facial (VII)",
+    "Nerf accessoire (XI)",
+    "Nerf hypoglosse (XII)",
+    "Nerf vague (X)"
+   ],
+   "answer": 1,
+   "explanation": "Tous les muscles de l'expression du visage sont innervés par le nerf facial. Les muscles masticateurs le sont par le nerf trijumeau ; cette distinction est souvent confondue.",
+   "entries": [
+    "n-facialis"
+   ]
+  },
+  {
+   "id": "ne-347049b5",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est le nerf moteur des muscles de la langue (sauf le palatoglosse) ?",
+   "options": [
+    "Nerf vague (X)",
+    "Nerf facial (VII)",
+    "Nerf lingual",
+    "Nerf hypoglosse (XII)",
+    "Nerf glossopharyngien (IX)"
+   ],
+   "answer": 3,
+   "explanation": "Le nerf hypoglosse innerve tous les muscles intrinsèques et extrinsèques de la langue ; seul le palatoglosse dépend du nerf vague. En cas de paralysie unilatérale, la langue tirée dévie du côté paralysé.",
+   "entries": [
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-50ced078",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf crânien innerve le sterno-cléido-mastoïdien et le trapèze ?",
+   "options": [
+    "Plexus brachial",
+    "Nerf hypoglosse (XII)",
+    "Nerf vague (X)",
+    "Nerf accessoire (XI)",
+    "Nerf facial (VII)"
+   ],
+   "answer": 3,
+   "explanation": "Le nerf accessoire sort par le foramen jugulaire, traverse le sterno-cléido-mastoïdien et croise le triangle postérieur du cou pour atteindre le trapèze. Il peut être lésé dans le triangle postérieur lors d'un curage cervical.",
+   "entries": [
+    "n-accessorius"
+   ]
+  },
+  {
+   "id": "ne-c94694b2",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf crânien fournit des fibres parasympathiques à la plupart des organes du thorax et de l'abdomen ?",
+   "options": [
+    "Nerf oculomoteur (III)",
+    "Nerf glossopharyngien (IX)",
+    "Nerf accessoire (XI)",
+    "Nerf vague (X)",
+    "Nerf phrénique"
+   ],
+   "answer": 3,
+   "explanation": "Le nerf vague est le nerf crânien au trajet le plus long ; il donne des fibres parasympathiques au cœur, aux poumons et au tube digestif (jusqu'au tiers gauche environ du côlon transverse).",
+   "entries": [
+    "n-vagus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-34dda1f9",
+   "group": "Nerfs crâniens",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf transporte l'audition et l'équilibre ?",
+   "options": [
+    "Nerf abducens (VI)",
+    "Nerf facial (VII)",
+    "Nerf vestibulocochléaire (VIII)",
+    "Nerf glossopharyngien (IX)",
+    "Nerf trijumeau (V)"
+   ],
+   "answer": 2,
+   "explanation": "La partie cochléaire du nerf vestibulocochléaire transporte l'audition, la partie vestibulaire l'équilibre. Il traverse le méat acoustique interne avec le nerf facial.",
+   "entries": [
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-667ba770",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Combien y a-t-il de paires de nerfs spinaux ?",
+   "options": [
+    "30",
+    "33",
+    "12",
+    "31",
+    "24"
+   ],
+   "answer": 3,
+   "explanation": "Il y a 31 paires de nerfs spinaux : 8 cervicales, 12 thoraciques, 5 lombaires, 5 sacrées et 1 coccygienne. Bien qu'il n'y ait que 7 vertèbres cervicales, il existe 8 nerfs cervicaux.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-15f8e734",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Le plexus brachial est formé par les rameaux antérieurs de quels nerfs spinaux ?",
+   "options": [
+    "T1–T6",
+    "C5–T1",
+    "C3–C7",
+    "C1–C4",
+    "L1–L4"
+   ],
+   "answer": 1,
+   "explanation": "Le plexus brachial est formé par les rameaux antérieurs de C5–T1 et s'organise en racines, troncs, divisions, faisceaux et branches ; il assure toute l'innervation motrice et sensitive du membre supérieur.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-26e018da",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est le nerf moteur du diaphragme ?",
+   "options": [
+    "Nerf vague",
+    "Nerf phrénique (C3–C5)",
+    "Nerf accessoire",
+    "Nerfs intercostaux",
+    "Tronc sympathique"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf phrénique descend dans le cou en avant du scalène antérieur et innerve le diaphragme. La douleur d'origine diaphragmatique est projetée à l'épaule, dermatome des mêmes segments.",
+   "entries": [
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "ne-d86f39c7",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel est le nerf le plus gros et le plus long du corps ?",
+   "options": [
+    "Nerf tibial",
+    "Nerf obturateur",
+    "Nerf médian",
+    "Nerf fémoral",
+    "Nerf sciatique"
+   ],
+   "answer": 4,
+   "explanation": "Le nerf sciatique naît des racines L4–S3, sort par le grand foramen ischiatique et descend à la face postérieure de la cuisse ; il se divise habituellement au-dessus de la fosse poplitée en nerfs tibial et fibulaire commun.",
+   "entries": [
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ne-da1e6de1",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf innerve les muscles antérieurs de la cuisse (quadriceps fémoral) ?",
+   "options": [
+    "Nerf sciatique",
+    "Nerf obturateur",
+    "Nerf pudendal",
+    "Nerf fémoral",
+    "Nerf tibial"
+   ],
+   "answer": 3,
+   "explanation": "Le nerf fémoral (L2–L4) gagne la cuisse par la lacune musculaire et innerve le quadriceps fémoral, le sartorius et le pectiné ; sa lésion abolit l'extension du genou et le réflexe rotulien.",
+   "entries": [
+    "n-femoralis"
+   ]
+  },
+  {
+   "id": "ne-63d6ca4d",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf innerve la plupart des muscles médiaux (adducteurs) de la cuisse ?",
+   "options": [
+    "Nerf sciatique",
+    "Nerf obturateur",
+    "Nerf génitofémoral",
+    "Nerf fémoral",
+    "Nerf pudendal"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf obturateur (L2–L4) traverse le canal obturateur pour gagner la loge médiale de la cuisse et innerve la plupart des adducteurs ; la partie ischio-jambière du grand adducteur est innervée par le nerf sciatique.",
+   "entries": [
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "ne-6c143cec",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf est comprimé dans le syndrome du canal carpien ?",
+   "options": [
+    "Nerf ulnaire",
+    "Nerf axillaire",
+    "Nerf médian",
+    "Nerf radial",
+    "Nerf musculocutané"
+   ],
+   "answer": 2,
+   "explanation": "Au poignet, le nerf médian passe sous le rétinaculum des fléchisseurs, dans le canal carpien, avec les tendons fléchisseurs. Sa compression entraîne un engourdissement des trois premiers doigts et demi et une faiblesse des muscles thénariens.",
+   "entries": [
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "ne-8a555c3e",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf provoque des fourmillements du côté de l'auriculaire lorsqu'on se cogne la face interne du coude ?",
+   "options": [
+    "Nerf musculocutané",
+    "Nerf radial",
+    "Nerf ulnaire",
+    "Nerf médian",
+    "Nerf cutané latéral de l'avant-bras"
+   ],
+   "answer": 2,
+   "explanation": "Au coude, le nerf ulnaire chemine sous la peau en arrière de l'épicondyle médial (le « petit juif »). Un choc ou une compression provoque des fourmillements des 4e et 5e doigts.",
+   "entries": [
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-4bd49a5e",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf innerve le triceps brachial, muscle postérieur du bras ?",
+   "options": [
+    "Nerf musculocutané",
+    "Nerf radial",
+    "Nerf axillaire",
+    "Nerf médian",
+    "Nerf ulnaire"
+   ],
+   "answer": 1,
+   "explanation": "Le nerf radial innerve tous les muscles postérieurs (extenseurs) du bras et de l'avant-bras. Dans les fractures de la diaphyse humérale, il peut être lésé dans le sillon du nerf radial, d'où une main tombante.",
+   "entries": [
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "ne-d2881471",
+   "group": "Nerfs spinaux et plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Quel nerf innerve le muscle deltoïde ?",
+   "options": [
+    "Nerf axillaire",
+    "Nerf radial",
+    "Nerf thoracique long",
+    "Nerf suprascapulaire",
+    "Nerf musculocutané"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf axillaire (C5–C6) contourne le col chirurgical de l'humérus et innerve le deltoïde et le petit rond. Il peut être lésé dans les fractures du col chirurgical et les luxations de l'épaule.",
+   "entries": [
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ne-4eef8b32",
+   "group": "Système nerveux autonome",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dans quels segments de la moelle spinale se trouvent les corps cellulaires des neurones sympathiques préganglionnaires ?",
+   "options": [
+    "T1–L2 (corne latérale)",
+    "S2–S4",
+    "C1–C8",
+    "Uniquement dans des noyaux du tronc cérébral",
+    "L3–S1"
+   ],
+   "answer": 0,
+   "explanation": "Le système sympathique a une sortie thoracolombaire : les neurones préganglionnaires sont dans la corne latérale des segments T1–L2. Leurs fibres gagnent le tronc sympathique par la racine antérieure et le rameau communicant blanc.",
+   "entries": [
+    "systema-autonomicum",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-8691959b",
+   "group": "Système nerveux autonome",
+   "level": "basic",
+   "clinical": false,
+   "stem": "De quelles régions naissent les fibres du système parasympathique ?",
+   "options": [
+    "T1–L2 (thoracolombaire)",
+    "Des segments C5–T1",
+    "Uniquement des segments S2–S4",
+    "Uniquement du tronc cérébral",
+    "Du tronc cérébral (III, VII, IX, X) et de S2–S4 (craniosacré)"
+   ],
+   "answer": 4,
+   "explanation": "Le système parasympathique a une sortie craniosacrée : il se distribue par les nerfs crâniens III, VII, IX et X et par les nerfs splanchniques pelviens issus des segments S2–S4.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-11836b1d",
+   "group": "Système nerveux autonome",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Comment la pupille se modifie-t-elle lors de la réaction de « lutte ou fuite », et quel système en est responsable ?",
+   "options": [
+    "Elle se dilate (mydriase) – système sympathique",
+    "Elle se contracte (myosis) – système parasympathique",
+    "Elle ne change pas – système somatique",
+    "Elle se contracte (myosis) – système sympathique",
+    "Elle se dilate (mydriase) – système parasympathique"
+   ],
+   "answer": 0,
+   "explanation": "La stimulation sympathique contracte le muscle dilatateur de la pupille et élargit celle-ci. Les fibres parasympathiques (nerf oculomoteur) la rétrécissent par le muscle sphincter de la pupille.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-aca0bd08",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Les corps cellulaires de quels neurones se trouvent dans le ganglion spinal ?",
+   "options": [
+    "Neurones sympathiques préganglionnaires",
+    "Interneurones",
+    "Neurones sensitifs pseudo-unipolaires",
+    "Motoneurones multipolaires",
+    "Neurones parasympathiques postganglionnaires"
+   ],
+   "answer": 2,
+   "explanation": "Le ganglion spinal, situé sur la racine postérieure, contient les neurones pseudo-unipolaires qui transmettent la sensibilité de la périphérie à la moelle ; il n'y a pas de synapse dans ce ganglion.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d5797703",
+   "group": "Système nerveux autonome",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Par quelle branche les fibres préganglionnaires destinées aux ganglions du tronc sympathique quittent-elles le nerf spinal ?",
+   "options": [
+    "Rameau communicant blanc",
+    "Rameau postérieur",
+    "Rameau communicant gris",
+    "Rameau méningé",
+    "Racine postérieure"
+   ],
+   "answer": 0,
+   "explanation": "Les fibres préganglionnaires myélinisées entrent dans le tronc sympathique par le rameau communicant blanc (présent seulement de T1 à L2). Les fibres postganglionnaires amyéliniques regagnent le nerf spinal par le rameau communicant gris.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-4d840655",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Par quel orifice le nerf pudendal quitte-t-il le pelvis, et par lequel entre-t-il dans le périnée ?",
+   "options": [
+    "Il sort par le grand foramen ischiatique et entre par le canal inguinal",
+    "Il sort par le canal obturateur et entre par le petit foramen ischiatique",
+    "Il sort par le hiatus sacral et entre par le petit foramen ischiatique",
+    "Il sort par le grand foramen ischiatique et entre par le petit foramen ischiatique",
+    "Il sort par le petit foramen ischiatique et entre par le grand foramen ischiatique"
+   ],
+   "answer": 3,
+   "explanation": "Le nerf pudendal (S2–S4) quitte le pelvis sous le piriforme par le grand foramen ischiatique, contourne le ligament sacro-épineux et entre dans le périnée par le petit foramen ischiatique, puis chemine dans le canal pudendal (d'Alcock).",
+   "entries": [
+    "n-pudendus"
+   ]
+  },
+  {
+   "id": "ne-7a6e6c80",
+   "group": "Nerfs spinaux et plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Où le nerf fibulaire commun est-il le plus souvent lésé ?",
+   "options": [
+    "Autour du col de la fibula",
+    "En arrière de la malléole médiale",
+    "Dans le grand foramen ischiatique",
+    "Dans le canal des adducteurs",
+    "Dans le tunnel tarsien"
+   ],
+   "answer": 0,
+   "explanation": "Le nerf fibulaire commun chemine superficiellement juste sous la tête de la fibula en contournant son col. Une fracture, la compression par un plâtre ou le croisement des jambes peuvent le léser à ce niveau et entraîner un pied tombant.",
+   "entries": [
+    "n-fibularis-communis"
+   ]
+  }
+ ]
+}

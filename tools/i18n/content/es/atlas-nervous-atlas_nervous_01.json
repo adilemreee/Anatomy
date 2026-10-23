@@ -1,0 +1,263 @@
+{
+ "corpus-callosum": {
+  "tr": "Cuerpo calloso",
+  "summary": "La mayor comisura, formada por unos 200 millones de fibras nerviosas, que une los dos hemisferios cerebrales.",
+  "facts": [
+   "Rostro, rodilla, tronco, esplenio",
+   "Comisura anterior, comisura posterior, comisura del fórnix (comisura hipocampal)",
+   "Arteria cerebral anterior (arteria pericallosa) y arteria cerebral posterior (esplenio)"
+  ],
+  "sections": [],
+  "clinical": [
+   "En la epilepsia farmacorresistente puede seccionarse el cuerpo calloso (callosotomía); en los pacientes con «cerebro dividido» se altera el paso de información entre hemisferios.",
+   "La agenesia del cuerpo calloso es una anomalía congénita."
+  ],
+  "tus": [
+   "La agenesia o la sección del cuerpo calloso produce síndromes de desconexión (incapacidad de escribir con la mano izquierda, anomia de la mano izquierda)."
+  ],
+  "aliases": [
+   "cuerpo calloso"
+  ]
+ },
+ "nuclei-basales": {
+  "tr": "Núcleos basales (ganglios basales)",
+  "summary": "Masas de sustancia gris situadas en la profundidad de los hemisferios cerebrales que intervienen en el inicio y la regulación del movimiento y en el aprendizaje motor.",
+  "facts": [
+   "Núcleo caudado, putamen, globo pálido (putamen + globo pálido = núcleo lenticular; núcleo caudado + putamen = cuerpo estriado); funcionalmente también el núcleo subtalámico y la sustancia negra",
+   "La vía directa facilita el movimiento y la indirecta lo inhibe; la dopamina de la sustancia negra mantiene el equilibrio",
+   "La cápsula interna pasa entre el núcleo caudado y el tálamo por un lado y el núcleo lenticular por otro"
+  ],
+  "sections": [],
+  "clinical": [
+   "La enfermedad de Parkinson se debe a la pérdida de neuronas dopaminérgicas de la sustancia negra: temblor de reposo, rigidez, bradicinesia.",
+   "En la enfermedad de Huntington la atrofia del núcleo caudado produce corea (movimientos involuntarios como de baile) y demencia.",
+   "En la enfermedad de Wilson el depósito de cobre afecta sobre todo al putamen."
+  ],
+  "tus": [
+   "Cuerpo estriado: núcleo caudado + putamen; núcleo lenticular: putamen + globo pálido.",
+   "En la enfermedad de Wilson el cobre se acumula sobre todo en el putamen."
+  ],
+  "aliases": [
+   "ganglios basales",
+   "estriado",
+   "putamen",
+   "núcleo caudado"
+  ]
+ },
+ "thalamus": {
+  "tr": "Tálamo",
+  "summary": "Masa ovoide de sustancia gris a cada lado del tercer ventrículo, la mayor parte del diencéfalo. Es la estación de relevo de todos los sentidos, salvo el olfato, en su camino a la corteza.",
+  "facts": [
+   "Diencéfalo; pared lateral del tercer ventrículo",
+   "VPL (sensibilidad del cuerpo), VPM (sensibilidad de la cara y gusto), cuerpo geniculado lateral (visión), cuerpo geniculado medial (audición), VA/VL (motor – aferencias de los núcleos basales y el cerebelo), núcleos anteriores (límbico), pulvinar",
+   "Ramas de la arteria cerebral posterior y de la arteria comunicante posterior"
+  ],
+  "sections": [],
+  "clinical": [
+   "Un infarto talámico puede producir pérdida de toda la sensibilidad del lado opuesto, seguida de un dolor urente intenso (síndrome talámico de Dejerine–Roussy)."
+  ],
+  "tus": [
+   "El mayor núcleo del tálamo es el pulvinar, relacionado con la atención visual.",
+   "El tálamo está irrigado por las ramas talamoperforantes y talamogeniculadas de la arteria cerebral posterior."
+  ],
+  "aliases": [
+   "tálamo",
+   "diencéfalo"
+  ]
+ },
+ "hypothalamus": {
+  "tr": "Hipotálamo",
+  "summary": "Pequeña pero vital parte del diencéfalo situada bajo el tálamo, que forma el suelo del tercer ventrículo. Es el principal centro de control del sistema nervioso autónomo y del sistema endocrino.",
+  "facts": [
+   "Diencéfalo; suelo y parte inferior de las paredes laterales del tercer ventrículo; debajo, el tallo hipofisario (infundíbulo)",
+   "Quiasma óptico, tuber cinereum, infundíbulo, cuerpos mamilares",
+   "Supraóptico y paraventricular (ADH, oxitocina), supraquiasmático (reloj biológico), arqueado (hormonas liberadoras, apetito), ventromedial (saciedad), lateral (hambre), preóptico (regulación térmica)",
+   "Unido a la neurohipófisis por fibras nerviosas y a la adenohipófisis por un sistema porta"
+  ],
+  "sections": [
+   [
+    "Homeostasis",
+    "Regula la temperatura corporal, el hambre y la saciedad, la sed y el equilibrio hídrico, el ciclo sueño–vigilia, la respuesta al estrés, la conducta reproductora y las funciones autonómicas (frecuencia cardíaca, presión arterial)."
+   ]
+  ],
+  "clinical": [
+   "La lesión del núcleo supraóptico o del tallo hipofisario produce diabetes insípida central (orina abundante y sed).",
+   "Un craneofaringioma que comprime el hipotálamo puede causar obesidad, alteraciones del sueño e insuficiencia endocrina."
+  ],
+  "tus": [
+   "La lesión del hipotálamo lateral suprime el hambre (anorexia); la lesión ventromedial produce hiperfagia y obesidad.",
+   "El hipotálamo anterior favorece la pérdida de calor (sudor, vasodilatación) y el posterior su conservación."
+  ],
+  "aliases": [
+   "hipotálamo"
+  ]
+ },
+ "ventriculi-cerebri": {
+  "tr": "Ventrículos cerebrales y LCR",
+  "summary": "Cuatro cavidades comunicadas dentro del encéfalo, llenas de líquido cefalorraquídeo (LCR): dos ventrículos laterales, el tercero y el cuarto ventrículo.",
+  "facts": [
+   "Ventrículos laterales (uno en cada hemisferio, con astas anterior, posterior e inferior), tercer ventrículo (diencéfalo), cuarto ventrículo (entre protuberancia–bulbo y cerebelo)",
+   "Agujero interventricular (Monro): lateral → 3.º; acueducto del mesencéfalo (Silvio): 3.º → 4.º; abertura media (Magendie) y aberturas laterales (Luschka): 4.º → espacio subaracnoideo",
+   "Plexos coroideos; unos 500 mL al día, volumen total de unos 150 mL",
+   "Por las granulaciones aracnoideas al seno sagital superior"
+  ],
+  "sections": [],
+  "clinical": [
+   "La obstrucción del flujo de LCR (por ejemplo, estenosis del acueducto) produce hidrocefalia obstructiva; puede colocarse una derivación ventriculoperitoneal.",
+   "El LCR obtenido por punción lumbar se analiza para diagnosticar meningitis y hemorragia subaracnoidea."
+  ],
+  "tus": [
+   "El asta anterior del ventrículo lateral está en el lóbulo frontal, la inferior en el temporal y la posterior en el occipital.",
+   "El plexo coroideo está en el cuerpo y el asta inferior del ventrículo lateral y en el techo del 3.º y 4.º ventrículos; no lo hay en las astas anterior y posterior."
+  ],
+  "aliases": [
+   "ventrículo",
+   "LCR",
+   "líquido cefalorraquídeo"
+  ]
+ },
+ "mesencephalon": {
+  "tr": "Mesencéfalo",
+  "summary": "La parte más alta del tronco del encéfalo, entre el diencéfalo y la protuberancia. Interviene en los reflejos visuales y auditivos, los movimientos oculares y el control motor.",
+  "facts": [
+   "Techo (colículos superiores – reflejos visuales, colículos inferiores – audición), tegmento (núcleo rojo, núcleos de los nervios III y IV), pedúnculos cerebrales (fibras corticoespinales), sustancia negra",
+   "Nervio oculomotor (III) – por la fosa interpeduncular; nervio troclear (IV) – el único que sale por la cara posterior",
+   "Acueducto del mesencéfalo"
+  ],
+  "sections": [],
+  "clinical": [
+   "Síndrome de Weber: lesión del pedúnculo cerebral y del nervio oculomotor – parálisis del III par ipsilateral con hemiplejía contralateral.",
+   "Síndrome de Parinaud (tumores pineales): parálisis de la mirada hacia arriba."
+  ],
+  "tus": [
+   "En un corte del mesencéfalo los colículos están por detrás (superiores: reflejos visuales, inferiores: audición), el acueducto en el centro y los pedúnculos cerebrales por delante.",
+   "Síndrome de Parinaud (tumor pineal): parálisis de la mirada hacia arriba, disociación luz–acomodación."
+  ],
+  "aliases": [
+   "mesencéfalo",
+   "cerebro medio"
+  ]
+ },
+ "pons": {
+  "tr": "Protuberancia (puente)",
+  "summary": "La parte media del tronco del encéfalo, un abultamiento de fibras transversales por delante del cerebelo. Une el cerebro con el cerebelo e interviene en la regulación de la respiración.",
+  "facts": [
+   "Porción basilar (anterior; núcleos pontinos, fibras corticoespinales) y tegmento (posterior)",
+   "Nervio trigémino (V) – por la cara anterolateral; nervios abducens (VI), facial (VII) y vestibulococlear (VIII) – por el surco bulboprotuberancial",
+   "Al cerebelo por el pedúnculo cerebeloso medio",
+   "Ramas pontinas de la arteria basilar"
+  ],
+  "sections": [],
+  "clinical": [
+   "Las lesiones extensas de la base de la protuberancia causan el síndrome de enclaustramiento (locked-in): el paciente está consciente pero solo se comunica con movimientos oculares verticales y parpadeo.",
+   "Corregir el sodio demasiado deprisa puede producir mielinólisis central pontina."
+  ],
+  "tus": [
+   "Por delante la protuberancia contiene las fibras corticoespinales y los núcleos pontinos; por detrás (tegmento), los núcleos de los nervios craneales.",
+   "La mielinólisis central pontina aparece tras corregir demasiado rápido una hiponatremia."
+  ],
+  "aliases": [
+   "protuberancia",
+   "puente"
+  ]
+ },
+ "medulla-oblongata": {
+  "tr": "Bulbo raquídeo (médula oblongada)",
+  "summary": "La parte más baja del tronco del encéfalo, que se continúa con la médula espinal a nivel del agujero magno. Contiene centros vitales como los de la respiración, el latido cardíaco y la presión arterial.",
+  "facts": [
+   "Pirámides (fibras corticoespinales – se cruzan en su parte inferior: decusación de las pirámides), olivas, tubérculos grácil y cuneiforme",
+   "Nervios glosofaríngeo (IX), vago (X) y accesorio (XI) – por el surco lateral; nervio hipogloso (XII) – entre la pirámide y la oliva",
+   "Centro respiratorio, centro cardiovascular, centros reflejos del vómito, la tos y la deglución"
+  ],
+  "sections": [],
+  "clinical": [
+   "Síndrome de Wallenberg (bulbar lateral): oclusión de la arteria vertebral/PICA – pérdida de la sensibilidad dolorosa y térmica en la hemicara ipsilateral y el hemicuerpo contralateral, disfagia, disfonía, síndrome de Horner, ataxia.",
+   "Con hipertensión intracraneal, la herniación de las amígdalas cerebelosas por el agujero magno comprime el bulbo y detiene la respiración."
+  ],
+  "tus": [
+   "El bulbo contiene los centros respiratorio y cardiovascular; la herniación por el agujero magno es mortal.",
+   "El área postrema (centro del vómito) es una región sin barrera hematoencefálica."
+  ],
+  "aliases": [
+   "bulbo",
+   "médula oblongada"
+  ]
+ },
+ "cerebellum": {
+  "tr": "Cerebelo",
+  "summary": "El «cerebro pequeño» situado en la fosa craneal posterior, detrás del tronco del encéfalo. Se encarga de la coordinación del movimiento, el equilibrio, el tono muscular y el aprendizaje motor.",
+  "facts": [
+   "Vermis en la línea media y hemisferios cerebelosos a cada lado; lóbulos anterior, posterior y floculonodular",
+   "Pedúnculos cerebelosos superior (al mesencéfalo), medio (a la protuberancia) e inferior (al bulbo)",
+   "Núcleos dentado, emboliforme, globoso y del fastigio",
+   "Vestibulocerebelo (equilibrio, movimientos oculares), espinocerebelo (coordinación del tronco y las extremidades), cerebrocerebelo (planificación del movimiento)",
+   "Arteria cerebelosa superior, arteria cerebelosa anteroinferior (AICA), arteria cerebelosa posteroinferior (PICA)"
+  ],
+  "sections": [
+   [
+    "Regla del mismo lado",
+    "Cada hemisferio cerebeloso controla el mismo lado del cuerpo; una lesión unilateral produce incoordinación del mismo lado."
+   ]
+  ],
+  "clinical": [
+   "Las lesiones cerebelosas producen ataxia, dismetría (no alcanzar el objetivo en la prueba dedo–nariz), disdiadococinesia, temblor intencional, nistagmo y disartria (habla escandida).",
+   "El alcohol afecta sobre todo al vermis y produce una marcha con base amplia (ataxia troncal)."
+  ],
+  "tus": [
+   "Las lesiones cerebelosas dan signos del mismo lado (las vías se cruzan dos veces).",
+   "Irrigación del cerebelo: SCA (cara superior), AICA (cara anteroinferior), PICA (cara posteroinferior)."
+  ],
+  "aliases": [
+   "cerebelo"
+  ]
+ },
+ "medulla-spinalis": {
+  "tr": "Médula espinal",
+  "summary": "La parte cilíndrica del sistema nervioso central situada en el conducto vertebral, desde el agujero magno hasta el cono medular a la altura de las vértebras L1–L2 en el adulto. Da origen a 31 pares de nervios espinales.",
+  "facts": [
+   "42–45 cm en el adulto",
+   "8 cervicales, 12 torácicos, 5 lumbares, 5 sacros, 1 coccígeo",
+   "Intumescencia cervical (C4–T1; nervios del brazo) e intumescencia lumbosacra (L2–S3; nervios de la pierna)",
+   "Sustancia gris en forma de H en el centro (asta anterior – motora, asta posterior – sensitiva, asta lateral – simpática T1–L2), rodeada de cordones de sustancia blanca (funículos)",
+   "Arteria espinal anterior (dos tercios anteriores), arterias espinales posteriores (tercio posterior), arterias segmentarias (arteria radicular magna – Adamkiewicz)"
+  ],
+  "sections": [
+   [
+    "Vías principales",
+    "Cordones posteriores (fascículos grácil y cuneiforme): tacto fino y sentido de posición, se cruzan en el bulbo. Tracto espinotalámico: dolor y temperatura, se cruza en la médula al nivel de entrada. Tracto corticoespinal lateral: movimiento voluntario, ya cruzado en el bulbo."
+   ]
+  ],
+  "clinical": [
+   "Síndrome de Brown-Séquard (hemisección): pérdida de la motricidad y del sentido de posición del lado de la lesión y del dolor y la temperatura del lado opuesto.",
+   "En el síndrome de la arteria espinal anterior se conservan las sensibilidades de los cordones posteriores.",
+   "El nivel de una lesión medular determina si se produce tetraplejía (cervical) o paraplejía (torácica o inferior)."
+  ],
+  "tus": [
+   "Las intumescencias cervical y lumbar corresponden a los segmentos de los que nacen los plexos de los miembros.",
+   "La médula está irrigada por la arteria espinal anterior (dos tercios anteriores) y dos arterias espinales posteriores; la arteria de Adamkiewicz es la principal fuente de la región torácica baja y lumbar."
+  ],
+  "aliases": [
+   "médula espinal"
+  ]
+ },
+ "cauda-equina": {
+  "tr": "Cola de caballo",
+  "summary": "El haz de raíces nerviosas lumbares, sacras y coccígeas que desciende por el conducto vertebral por debajo del final de la médula en el cono medular.",
+  "facts": [
+   "Desde la vértebra L2 hasta el sacro, en la cisterna lumbar",
+   "Raíces de los nervios espinales L2–Co1 y filum terminal"
+  ],
+  "sections": [],
+  "clinical": [
+   "Síndrome de cola de caballo (por ejemplo, por una gran hernia discal central): anestesia en silla de montar, incontinencia o retención urinaria y fecal, debilidad de las piernas – requiere cirugía urgente.",
+   "En la punción lumbar la aguja aparta las raíces sin dañar la médula; por eso los niveles L3–L4 / L4–L5 son seguros."
+  ],
+  "tus": [
+   "El síndrome del cono medular es más brusco y simétrico; el de la cola de caballo, más asimétrico y doloroso."
+  ],
+  "aliases": [
+   "cola de caballo",
+   "cauda equina"
+  ]
+ }
+}

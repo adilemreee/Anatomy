@@ -27,6 +27,10 @@ TURKISH = {
     "view.back": "Arka",
     "view.right": "Sağ",
     "streak.oneDay": "gün seri",
+    "duration.week": "%lld hafta",
+    "duration.month": "%lld ay",
+    "duration.year": "%lld yıl",
+    "duration.day": "%lld gün",
 }
 
 # App name on the home screen, per language.
@@ -79,12 +83,13 @@ def main():
         for key, value in table.items():
             if key not in strings:
                 continue
-            if isinstance(value, dict) and len(specs(key)) != 1:
+            source = TURKISH.get(key, key)
+            if isinstance(value, dict) and len(specs(source)) != 1:
                 print(f"{lang}: plural forms need exactly one placeholder: {key!r}")
                 problems += 1
             forms = value if isinstance(value, dict) else {"other": value}
             for form in forms.values():
-                if specs(form) != specs(key) and not (len(specs(key)) == 1 and form == ""):
+                if specs(form) != specs(source) and not (len(specs(source)) == 1 and form == ""):
                     print(f"{lang}: placeholders differ in {key!r} → {form!r}")
                     problems += 1
             entry = strings[key].setdefault("localizations", {})

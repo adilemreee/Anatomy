@@ -1,0 +1,262 @@
+{
+ "plexus-lumbalis": {
+  "tr": "Plexus lombal",
+  "summary": "Le réseau nerveux formé dans le muscle grand psoas par les rameaux antérieurs des nerfs spinaux L1–L4 ; il innerve la partie basse de la paroi abdominale, l'aine et les faces antérieure et médiale de la cuisse.",
+  "facts": [
+   "T12 (participation), rameaux antérieurs de L1–L4",
+   "Se forme dans le grand psoas ; ses branches sortent par le bord latéral du muscle (ilio-hypogastrique, ilio-inguinal, cutané latéral de la cuisse, fémoral), par sa face antérieure (génitofémoral) et par son bord médial (obturateur)",
+   "Nerf fémoral (muscles antérieurs de la cuisse), nerf obturateur (adducteurs), nerfs ilio-hypogastrique et ilio-inguinal (paroi abdominale basse)",
+   "Aine, partie antérieure de la région génitale, faces antérieure, médiale et latérale de la cuisse",
+   "Ilio-hypogastrique (L1), ilio-inguinal (L1), génitofémoral (L1–L2), cutané latéral de la cuisse (L2–L3), fémoral (L2–L4), obturateur (L2–L4)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une lésion du nerf ilio-inguinal lors d'une cure de hernie inguinale entraîne une hypoesthésie de l'aine et du scrotum/de la grande lèvre.",
+   "Le réflexe crémastérien explore les segments L1–L2 (nerf génitofémoral)."
+  ],
+  "tus": [
+   "Le plexus lombal se forme dans le grand psoas ; ses branches émergent par le bord latéral (fémoral, cutané latéral de la cuisse), le bord médial (obturateur) et la face antérieure (génitofémoral)."
+  ],
+  "aliases": [
+   "plexus lombaire",
+   "plexus lombal"
+  ]
+ },
+ "n-femoralis": {
+  "tr": "Nerf fémoral",
+  "summary": "La plus grosse branche du plexus lombal ; il innerve les muscles de la loge antérieure de la cuisse (quadriceps) et la sensibilité de la face antérieure de la cuisse et de la face médiale de la jambe.",
+  "facts": [
+   "Plexus lombal (divisions postérieures de L2–L4)",
+   "Descend dans la gouttière entre psoas et iliaque, passe sous le ligament inguinal (lacune musculaire) dans le trigone fémoral et se divise aussitôt en ses branches ; sa longue branche sensitive, le nerf saphène, descend à la face médiale de la jambe avec la grande veine saphène",
+   "Iliaque, pectiné, sartorius, quadriceps fémoral",
+   "Face antérieure de la cuisse ; par le nerf saphène, bord médial de la jambe et du pied"
+  ],
+  "sections": [],
+  "clinical": [
+   "Sa lésion entraîne une perte de l'extension du genou, une abolition du réflexe rotulien et une hypoesthésie de la face antérieure de la cuisse.",
+   "Le bloc du nerf fémoral est utilisé pour l'analgésie en chirurgie de la hanche et du genou."
+  ],
+  "tus": [
+   "Le nerf fémoral entre dans la cuisse par la lacune musculaire, en dehors des vaisseaux ; il est en dehors de la gaine fémorale."
+  ],
+  "aliases": [
+   "nerf fémoral",
+   "nerf crural",
+   "nerf saphène"
+  ]
+ },
+ "n-obturatorius": {
+  "tr": "Nerf obturateur",
+  "summary": "Le nerf des muscles de la loge médiale (des adducteurs) de la cuisse.",
+  "facts": [
+   "Plexus lombal (divisions antérieures de L2–L4)",
+   "Émerge du bord médial du psoas, longe la paroi latérale du pelvis et passe par le canal obturateur dans la cuisse, où il se divise en branches antérieure et postérieure",
+   "Long, court et grand adducteurs (partie adductrice), gracile, obturateur externe",
+   "Partie moyenne de la face médiale de la cuisse"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une chirurgie pelvienne ou une hernie obturatrice peut comprimer le nerf et provoquer une douleur de la face médiale de la cuisse (signe de Howship–Romberg)."
+  ],
+  "tus": [
+   "L'ovaire, situé dans la fossette ovarienne de la paroi pelvienne latérale, est au contact du nerf obturateur, ce qui explique les douleurs projetées à la face médiale de la cuisse dans les pathologies ovariennes."
+  ],
+  "aliases": [
+   "obturateur"
+  ]
+ },
+ "plexus-sacralis": {
+  "tr": "Plexus sacral",
+  "summary": "Le réseau nerveux formé sur la paroi postérieure du pelvis (en avant du piriforme) par les rameaux antérieurs de L4–S4 ; il innerve la fesse, la face postérieure de la cuisse, la jambe, le pied et le périnée.",
+  "facts": [
+   "Tronc lombosacral (L4–L5) et rameaux antérieurs de S1–S4",
+   "Se forme sur la face antérieure du piriforme ; la plupart des branches quittent le pelvis par le grand foramen ischiatique",
+   "Nerf ischiatique, nerfs glutéaux supérieur et inférieur, nerf pudendal, nerfs du piriforme, de l'obturateur interne et du carré fémoral",
+   "Nerf cutané postérieur de la cuisse (face postérieure de la cuisse), nerf pudendal (périnée)",
+   "Glutéal supérieur (L4–S1), glutéal inférieur (L5–S2), ischiatique (L4–S3), cutané postérieur de la cuisse (S1–S3), pudendal (S2–S4)"
+  ],
+  "sections": [],
+  "clinical": [],
+  "tus": [
+   "Le plexus sacral se forme sur la face antérieure du piriforme à partir des rameaux ventraux de L4–S4 (tronc lombosacral compris)."
+  ],
+  "aliases": [
+   "plexus sacré",
+   "plexus sacral"
+  ]
+ },
+ "n-ischiadicus": {
+  "tr": "Nerf ischiatique (sciatique)",
+  "summary": "Le nerf le plus gros et le plus long du corps. Il innerve les muscles de la face postérieure de la cuisse et tous les muscles situés sous le genou.",
+  "facts": [
+   "Plexus sacral (L4–S3)",
+   "Sort par le grand foramen ischiatique sous le piriforme et descend sous le grand glutéal entre le grand trochanter et la tubérosité ischiatique ; il chemine sous les ischio-jambiers à la face postérieure de la cuisse et se divise le plus souvent au-dessus du creux poplité en nerfs tibial et fibulaire commun",
+   "Ischio-jambiers (biceps fémoral, semi-tendineux, semi-membraneux), partie ischio-jambière du grand adducteur ; par ses branches, tous les muscles de la jambe et du pied",
+   "Par ses branches, la plus grande partie de la peau de la jambe et du pied (sauf le bord médial – nerf saphène)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Sciatique : douleur irradiant de la fesse vers la jambe, le plus souvent due à une hernie discale L4–L5 ou L5–S1 ; le signe de Lasègue est positif.",
+   "Les injections mal placées dans le quadrant inféro-médial de la fesse peuvent léser le nerf.",
+   "Il peut être lésé dans la luxation postérieure de la hanche."
+  ],
+  "tus": [
+   "Le nerf ischiatique est en réalité formé de deux nerfs dans une même gaine : parties tibiale et fibulaire.",
+   "Dans une lésion du nerf ischiatique, la flexion du genou et tous les muscles sous le genou sont touchés ; la sensibilité de la face médiale de la cuisse (obturateur) et de la jambe (saphène) est conservée."
+  ],
+  "aliases": [
+   "sciatique",
+   "ischiatique"
+  ]
+ },
+ "n-tibialis": {
+  "tr": "Nerf tibial",
+  "summary": "La plus grosse branche terminale du nerf ischiatique ; il innerve les muscles de la loge postérieure de la jambe et tous les muscles de la plante du pied.",
+  "facts": [
+   "Nerf ischiatique (L4–S3)",
+   "Descend au milieu du creux poplité, superficiel par rapport à l'artère poplitée, passe sous le soléaire à la face postérieure de la jambe et se divise en arrière de la malléole médiale (tunnel tarsien) en nerfs plantaires médial et latéral",
+   "Gastrocnémien, soléaire, plantaire, poplité, tibial postérieur, long fléchisseur des orteils, long fléchisseur de l'hallux ; par les nerfs plantaires, tous les muscles de la plante",
+   "Le nerf sural (avec le nerf fibulaire) innerve la face postéro-latérale de la jambe et le bord latéral du pied ; les nerfs plantaires, la plante"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans le syndrome du tunnel tarsien, la plante du pied brûle et est engourdie.",
+   "Après une lésion, la flexion plantaire et la flexion des orteils sont perdues et le patient ne peut se mettre sur la pointe des pieds ; le pied reste en flexion dorsale et éversion (pied talus valgus).",
+   "Le réflexe achilléen (S1) emprunte ce nerf."
+  ],
+  "tus": [
+   "Le nerf tibial est superficiel dans le creux poplité ; il donne la racine médiale du nerf sural."
+  ],
+  "aliases": [
+   "nerf tibial",
+   "nerf plantaire",
+   "nerf sural"
+  ]
+ },
+ "n-fibularis-communis": {
+  "tr": "Nerf fibulaire commun",
+  "summary": "La plus petite branche terminale du nerf ischiatique ; il innerve les muscles des loges antérieure et latérale de la jambe. Parce qu'il contourne superficiellement le col de la fibula sous la peau, c'est le nerf du membre inférieur le plus souvent lésé.",
+  "facts": [
+   "Nerf ischiatique (L4–S2)",
+   "Suit le tendon du biceps fémoral le long du bord latéral du creux poplité, contourne le col de la fibula et se divise dans le long fibulaire en nerfs fibulaires superficiel et profond",
+   "Nerf fibulaire superficiel : long et court fibulaires ; nerf fibulaire profond : tibial antérieur, long extenseur des orteils, long extenseur de l'hallux, troisième fibulaire, muscles du dos du pied",
+   "Nerf fibulaire superficiel : face antérolatérale de la jambe et plus grande partie du dos du pied ; nerf fibulaire profond : peau entre le 1er et le 2e orteil"
+  ],
+  "sections": [],
+  "clinical": [
+   "Une fracture de la tête de la fibula, un plâtre trop serré, le croisement des jambes ou un accroupissement prolongé entraînent un pied tombant : le pied ne peut être relevé ni éversé et la marche est en steppage."
+  ],
+  "tus": [
+   "Le nerf fibulaire commun est le nerf du membre inférieur le plus souvent lésé (col de la fibula).",
+   "L'habitude de croiser les jambes et les plâtres serrés sont des causes fréquentes de paralysie fibulaire."
+  ],
+  "aliases": [
+   "nerf fibulaire",
+   "nerf sciatique poplité externe",
+   "pied tombant"
+  ]
+ },
+ "n-pudendus": {
+  "tr": "Nerf pudendal",
+  "summary": "Le principal nerf du périnée ; il donne la sensibilité de la peau des organes génitaux externes et du périnée et les fibres motrices des muscles du périnée et des sphincters externes.",
+  "facts": [
+   "Plexus sacral (S2–S4)",
+   "Sort par le grand foramen ischiatique, contourne l'épine ischiatique (ligament sacro-épineux) et entre dans le périnée par le petit foramen ischiatique ; il chemine dans le canal pudendal (d'Alcock)",
+   "Sphincter externe de l'anus, sphincter externe de l'urètre, muscles du périnée",
+   "Peau du périnée, organes génitaux externes (nerf dorsal du pénis/du clitoris)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Lors de l'accouchement, un bloc pudendal est réalisé près de l'épine ischiatique avant une épisiotomie.",
+   "La pratique prolongée du vélo peut comprimer le nerf pudendal (névralgie pudendale)."
+  ],
+  "tus": [
+   "Le nerf pudendal naît de S2–S4 et donne le nerf rectal inférieur, le nerf périnéal et le nerf dorsal du pénis/du clitoris.",
+   "Chez le cycliste, la compression du nerf pudendal dans le canal d'Alcock peut entraîner une hypoesthésie périnéale."
+  ],
+  "aliases": [
+   "pudendal",
+   "nerf honteux"
+  ]
+ },
+ "truncus-sympathicus": {
+  "tr": "Tronc sympathique",
+  "summary": "Chaîne de ganglions sympathiques reliés entre eux, de chaque côté de la colonne vertébrale, de la base du crâne au coccyx. C'est la principale structure de distribution du système nerveux sympathique, qui produit la réaction « combat ou fuite ».",
+  "facts": [
+   "3 cervicaux (supérieur, moyen, cervicothoracique/stellaire), 11–12 thoraciques, 4–5 lombaux, 4–5 sacraux ; en bas, le ganglion impar",
+   "Issues de la corne latérale des segments médullaires T1–L2 (efférence thoracolombaire) ; elles entrent dans la chaîne par les rameaux communicants blancs",
+   "Rejoignent tous les nerfs spinaux par les rameaux communicants gris ; d'autres branches vont à la tête, au cœur et aux poumons",
+   "Grand (T5–T9), petit (T10–T11) et plus petit (T12) nerfs splanchniques : vers les ganglions prévertébraux (cœliaque, mésentériques)"
+  ],
+  "sections": [
+   [
+    "Effets sympathiques",
+    "La pupille se dilate, la fréquence et la contractilité cardiaques augmentent, les bronches se dilatent, la digestion ralentit, les glandes sudoripares et la médullosurrénale sont stimulées, les vaisseaux cutanés et viscéraux se contractent."
+   ]
+  ],
+  "clinical": [
+   "Syndrome de Claude Bernard–Horner (lésion de la chaîne sympathique cervicale – par exemple tumeur de Pancoast) : ptosis, myosis et anhidrose du même côté.",
+   "Un bloc du ganglion stellaire peut être utilisé dans les syndromes douloureux du membre supérieur."
+  ],
+  "tus": [
+   "La chaîne sympathique cervicale comporte trois ganglions : supérieur (niveau C1–C4, le plus gros), moyen (C6) et inférieur (fusionné dans le ganglion stellaire).",
+   "La sympathectomie pour l'hyperhidrose des mains est réalisée au niveau T2–T3."
+  ],
+  "aliases": [
+   "sympathique",
+   "chaîne sympathique"
+  ]
+ },
+ "systema-autonomicum": {
+  "tr": "Système nerveux autonome",
+  "summary": "La partie du système nerveux qui règle les fonctions involontaires des organes, des vaisseaux et des glandes. Il comprend les systèmes sympathique et parasympathique, aux effets le plus souvent opposés, et le système nerveux entérique de la paroi digestive.",
+  "facts": [
+   "Efférence thoracolombaire (T1–L2) ; fibres préganglionnaires courtes et postganglionnaires longues ; médiateur généralement la noradrénaline",
+   "Efférence craniosacrale (nerfs crâniens III, VII, IX, X et S2–S4) ; fibres préganglionnaires longues et postganglionnaires courtes ; médiateur l'acétylcholine",
+   "Ganglion ciliaire (III), ganglions ptérygopalatin et submandibulaire (VII), ganglion otique (IX)",
+   "Plexus myentérique (d'Auerbach) et sous-muqueux (de Meissner)",
+   "Hypothalamus, centres autonomes du tronc cérébral"
+  ],
+  "sections": [
+   [
+    "Effets parasympathiques",
+    "« Repos et digestion » : le cœur ralentit, la pupille se resserre, la salive et les sécrétions digestives augmentent, le péristaltisme s'accélère et la vessie se contracte."
+   ]
+  ],
+  "clinical": [
+   "La neuropathie autonome diabétique entraîne hypotension orthostatique, gastroparésie et troubles vésicaux.",
+   "Dans la maladie de Hirschsprung, la paroi du côlon est dépourvue de cellules ganglionnaires entériques."
+  ],
+  "tus": [
+   "Les ganglions parasympathiques sont près de l'organe cible ou dans sa paroi, les ganglions sympathiques près de la colonne (fibres préganglionnaires courtes).",
+   "Toutes les fibres préganglionnaires libèrent de l'acétylcholine (récepteurs nicotiniques)."
+  ],
+  "aliases": [
+   "autonome",
+   "parasympathique",
+   "système nerveux végétatif"
+  ]
+ },
+ "ganglion-spinale": {
+  "tr": "Nerf spinal et ganglion spinal",
+  "summary": "Nerfs mixtes formés par la réunion, dans le foramen intervertébral, des racines antérieure (motrice) et postérieure (sensitive) issues de la moelle. Le ganglion de la racine postérieure contient les corps cellulaires des neurones sensitifs.",
+  "facts": [
+   "31 paires : 8 cervicales, 12 thoraciques, 5 lombales, 5 sacrales, 1 coccygienne",
+   "Racine antérieure (motrice, corne antérieure) et racine postérieure (sensitive ; ganglion spinal)",
+   "Rameau antérieur (forme les plexus et les nerfs intercostaux), rameau postérieur (muscles profonds et peau du dos), rameau méningé, rameaux communicants",
+   "Territoire cutané innervé par un nerf spinal (par exemple C6 pouce, T4 mamelon, T10 ombilic, L4 face antérieure du genou, S1 bord latéral du pied)"
+  ],
+  "sections": [],
+  "clinical": [
+   "La radiculopathie associe douleur et engourdissement dans un dermatome, faiblesse dans un myotome et abolition d'un réflexe, par compression d'une seule racine."
+  ],
+  "tus": [
+   "Le ganglion spinal se trouve dans le foramen intervertébral ; il peut être touché par une hernie discale ou une sténose foraminale."
+  ],
+  "aliases": [
+   "nerf spinal",
+   "dermatome",
+   "ganglion spinal"
+  ]
+ }
+}

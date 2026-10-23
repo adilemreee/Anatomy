@@ -1866,6 +1866,907 @@
     "truncus-sympathicus",
     "ganglion-spinale"
    ]
+  },
+  {
+   "id": "ne-04a5f34d",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Beyin yarımkürelerini birbirine bağlayan en büyük komissural lif demeti hangisidir?",
+   "options": [
+    "Corona radiata",
+    "Capsula interna",
+    "Corpus callosum",
+    "Fornix",
+    "Commissura anterior"
+   ],
+   "answer": 2,
+   "explanation": "Corpus callosum iki hemisferin korteksini birbirine bağlayan en büyük komissürdür. Capsula interna ve corona radiata korteksi alt merkezlere bağlayan projeksiyon lifleridir; fornix hipokampusun çıkış yoludur.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-7ac85b98",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Birincil motor korteks hangi girusta bulunur?",
+   "options": [
+    "Gyrus postcentralis",
+    "Gyrus angularis",
+    "Gyrus precentralis",
+    "Gyrus cinguli",
+    "Gyrus temporalis superior"
+   ],
+   "answer": 2,
+   "explanation": "Birincil motor korteks (Brodmann 4) sulcus centralis'in hemen önündeki gyrus precentralis'tedir. Vücudun karşı yarısının istemli hareketlerini başlatır; temsil haritası motor homunkulus olarak bilinir.",
+   "entries": [
+    "gyrus-precentralis"
+   ]
+  },
+  {
+   "id": "ne-2c3b62da",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Birincil somatosensoriyel (duyu) korteks hangi girustadır?",
+   "options": [
+    "Gyrus postcentralis",
+    "Gyrus precentralis",
+    "Cuneus",
+    "Gyrus frontalis superior",
+    "Gyrus parahippocampalis"
+   ],
+   "answer": 0,
+   "explanation": "Gyrus postcentralis (Brodmann 3, 1, 2) sulcus centralis'in hemen arkasındadır ve karşı vücut yarısından gelen dokunma, ağrı, ısı ve pozisyon duyusunu alır.",
+   "entries": [
+    "gyrus-postcentralis"
+   ]
+  },
+  {
+   "id": "ne-9f3ed11f",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Birincil görme korteksi hangi lobdadır?",
+   "options": [
+    "Lobus frontalis",
+    "Lobus occipitalis (sulcus calcarinus çevresi)",
+    "Lobus temporalis",
+    "Insula",
+    "Lobus parietalis"
+   ],
+   "answer": 1,
+   "explanation": "Birincil görme korteksi (Brodmann 17) oksipital lobun iç yüzünde, sulcus calcarinus'un iki yanındadır. Buranın hasarı karşı görme alanında kayba yol açar.",
+   "entries": [
+    "lobus-occipitalis"
+   ]
+  },
+  {
+   "id": "ne-d82e578e",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Birincil işitme korteksi nerededir?",
+   "options": [
+    "Gyrus temporalis inferior",
+    "Gyrus temporalis superior'daki transvers temporal girusler (Heschl)",
+    "Gyrus precentralis",
+    "Cuneus",
+    "Gyrus angularis"
+   ],
+   "answer": 1,
+   "explanation": "Birincil işitme korteksi (Brodmann 41–42) üst temporal girusun sulcus lateralis'e bakan yüzündeki transvers temporal (Heschl) giruslarındadır.",
+   "entries": [
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-630caf8b",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Frontal lobu parietal loptan ayıran oluk hangisidir?",
+   "options": [
+    "Sulcus calcarinus",
+    "Sulcus centralis (Rolando)",
+    "Sulcus lateralis (Sylvius)",
+    "Sulcus parieto-occipitalis",
+    "Sulcus cinguli"
+   ],
+   "answer": 1,
+   "explanation": "Sulcus centralis frontal ve parietal lobları ayırır; önünde motor, arkasında duyu korteksi bulunur. Sulcus lateralis temporal lobu frontal ve parietal loplardan ayırır.",
+   "entries": [
+    "lobus-frontalis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-e956823f",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Yeni anıların oluşmasında (bellek) en önemli yapı hangisidir?",
+   "options": [
+    "Cerebellum",
+    "Nucleus caudatus",
+    "Thalamus",
+    "Hippocampus",
+    "Corpus amygdaloideum"
+   ],
+   "answer": 3,
+   "explanation": "Hipokampus temporal lobun iç kısmındadır ve kısa süreli belleğin uzun süreli belleğe aktarılmasında temel rol oynar; iki taraflı hasarı yeni anı oluşturamamaya (anterograd amnezi) yol açar.",
+   "entries": [
+    "hippocampus"
+   ]
+  },
+  {
+   "id": "ne-2e30cb21",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Korku ve duygusal tepkilerin işlenmesinde başlıca rol oynayan, temporal lobun derinindeki badem biçimli çekirdek hangisidir?",
+   "options": [
+    "Hippocampus",
+    "Claustrum",
+    "Corpus mamillare",
+    "Corpus amygdaloideum",
+    "Putamen"
+   ],
+   "answer": 3,
+   "explanation": "Amigdala limbik sistemin parçasıdır; tehlikenin algılanması, korku ve duygusal belleğin oluşmasında görev alır. Hipokampusun hemen önünde yer alır.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-e1589513",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Koku dışındaki tüm duyuların kortekse ulaşmadan önce aktarıldığı (röle) çekirdek grubu hangisidir?",
+   "options": [
+    "Nuclei basales",
+    "Cerebellum",
+    "Hypothalamus",
+    "Hippocampus",
+    "Thalamus"
+   ],
+   "answer": 4,
+   "explanation": "Talamus diensefalonun en büyük bölümüdür; görme, işitme, tat ve vücut duyuları buradaki çekirdeklerde aktarılarak ilgili kortikal alanlara gönderilir. Koku yolu talamusa uğramadan kortekse ulaşır.",
+   "entries": [
+    "thalamus"
+   ]
+  },
+  {
+   "id": "ne-ee3fb626",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Vücut ısısını, açlık ve susuzluğu ve hipofiz salgılarını düzenleyen yapı hangisidir?",
+   "options": [
+    "Pons",
+    "Mesencephalon",
+    "Hypothalamus",
+    "Thalamus",
+    "Corpus pineale"
+   ],
+   "answer": 2,
+   "explanation": "Hipotalamus üçüncü ventrikülün tabanını ve yan duvarlarının alt kısmını oluşturur. Otonom sistemi ve hipofizi yöneterek iç ortamın dengesini (homeostaz) sağlar.",
+   "entries": [
+    "hypothalamus"
+   ]
+  },
+  {
+   "id": "ne-da4674e1",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Beyin omurilik sıvısını (BOS) en çok üreten yapı hangisidir?",
+   "options": [
+    "Pia mater",
+    "Sinus sagittalis superior",
+    "Plexus choroideus",
+    "Dura mater",
+    "Granulationes arachnoideae"
+   ],
+   "answer": 2,
+   "explanation": "BOS büyük ölçüde ventriküllerdeki koroid pleksuslarda üretilir (günde yaklaşık 500 ml). Araknoid granülasyonlar ise BOS'u venöz sinüslere geri emer.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a7eeee6f",
+   "group": "Beyin",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Lateral ventrikülleri üçüncü ventriküle bağlayan delik hangisidir?",
+   "options": [
+    "Aqueductus mesencephali (Sylvius)",
+    "Foramen interventriculare (Monro)",
+    "Canalis centralis",
+    "Apertura lateralis (Luschka)",
+    "Apertura mediana (Magendie)"
+   ],
+   "answer": 1,
+   "explanation": "BOS lateral ventriküllerden Monro deliklerinden üçüncü ventriküle, oradan Sylvius kanalıyla dördüncü ventriküle geçer; Magendie ve Luschka açıklıklarından subaraknoid boşluğa çıkar.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a1b6cd84",
+   "group": "Beyin sapı ve beyincik",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Beyin sapını oluşturan bölümler yukarıdan aşağıya hangi sıradadır?",
+   "options": [
+    "Thalamus – mesencephalon – pons",
+    "Mesencephalon – pons – medulla oblongata",
+    "Pons – mesencephalon – medulla oblongata",
+    "Mesencephalon – medulla oblongata – pons",
+    "Diencephalon – pons – medulla oblongata"
+   ],
+   "answer": 1,
+   "explanation": "Beyin sapı yukarıdan aşağıya orta beyin (mesencephalon), pons ve medulla oblongata'dan oluşur; medulla foramen magnum düzeyinde omurilik ile devam eder.",
+   "entries": [
+    "mesencephalon",
+    "pons",
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-000ce129",
+   "group": "Beyin sapı ve beyincik",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Solunum ve dolaşımın hayati merkezleri beyin sapının hangi bölümündedir?",
+   "options": [
+    "Mesencephalon",
+    "Corpus callosum",
+    "Thalamus",
+    "Cerebellum",
+    "Medulla oblongata"
+   ],
+   "answer": 4,
+   "explanation": "Medulla oblongata'da solunum, kalp atımı ve damar tonusunu düzenleyen merkezler bulunur. Bu yüzden foramen magnum herniasyonu ile medullanın sıkışması öldürücü olabilir.",
+   "entries": [
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-eb4c66bd",
+   "group": "Beyin sapı ve beyincik",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Denge, kas tonusu ve hareketlerin koordinasyonunda görevli yapı hangisidir?",
+   "options": [
+    "Hypothalamus",
+    "Lobus occipitalis",
+    "Cerebellum",
+    "Pons",
+    "Corpus callosum"
+   ],
+   "answer": 2,
+   "explanation": "Beyincik hareketin zamanlamasını ve uyumunu düzenler, dengeyi ve kas tonusunu korur. Hasarında ataksi, tremor ve denge bozukluğu görülür; bulgular lezyonla aynı taraftadır.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-3a99b000",
+   "group": "Beyin sapı ve beyincik",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Cerebellum beyin sapına kaç çift pedinkül (sap) ile bağlanır?",
+   "options": [
+    "5",
+    "1",
+    "3 (üst, orta ve alt)",
+    "4",
+    "2"
+   ],
+   "answer": 2,
+   "explanation": "Pedunculus cerebellaris superior mezensefalona, medius ponsa, inferior medulla oblongata'ya bağlanır. En büyüğü ponstan gelen lifleri taşıyan orta pedinküldür.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-64f89be2",
+   "group": "Omurilik ve zarlar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Yetişkinde omurilik (conus medullaris) genellikle hangi omur düzeyinde sona erer?",
+   "options": [
+    "L4–L5",
+    "T8",
+    "L1–L2",
+    "C7",
+    "S2"
+   ],
+   "answer": 2,
+   "explanation": "Yetişkinde omurilik L1–L2 düzeyinde conus medullaris ile sona erer; yenidoğanda daha aşağıda, yaklaşık L3'tedir. Altında yalnızca sinir kökleri (cauda equina) bulunur.",
+   "entries": [
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-17d73e1a",
+   "group": "Omurilik ve zarlar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Beyin ve omuriliği saran zarlar dıştan içe hangi sıradadır?",
+   "options": [
+    "Arachnoidea mater – dura mater – pia mater",
+    "Dura mater – arachnoidea mater – pia mater",
+    "Dura mater – pia mater – arachnoidea mater",
+    "Pia mater – arachnoidea mater – dura mater",
+    "Pia mater – dura mater – arachnoidea mater"
+   ],
+   "answer": 1,
+   "explanation": "En dışta kalın ve sert dura mater, ortada ağımsı arachnoidea, en içte beyin yüzeyine sıkıca yapışan ince pia mater bulunur.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-904c7a31",
+   "group": "Omurilik ve zarlar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Beyin omurilik sıvısı hangi aralıkta dolaşır?",
+   "options": [
+    "Duranın iki yaprağı arasında",
+    "Dura ile arachnoidea arasında (spatium subdurale)",
+    "Pia mater ile beyin dokusu arasında",
+    "Arachnoidea ile pia mater arasında (spatium subarachnoideum)",
+    "Dura ile kemik arasında (spatium epidurale)"
+   ],
+   "answer": 3,
+   "explanation": "BOS subaraknoid aralıkta dolaşır; bu aralık sisternalarda genişler. Lomber ponksiyonda iğne bu aralığa girilerek BOS alınır.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-4de7a681",
+   "group": "Omurilik ve zarlar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Lomber ponksiyon yetişkinde genellikle hangi aralıktan yapılır?",
+   "options": [
+    "T10–T11 arası",
+    "L3–L4 veya L4–L5 omurları arası",
+    "C7–T1 arası",
+    "L1–L2 arası",
+    "T12–L1 arası"
+   ],
+   "answer": 1,
+   "explanation": "Omurilik L1–L2'de sona erdiği için iğne daha aşağıdan, iliak kristaları birleştiren hattın (yaklaşık L4) çevresinden girilir; burada yalnızca cauda equina kökleri vardır ve iğneden kaçarlar.",
+   "entries": [
+    "cauda-equina",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-407bca30",
+   "group": "Omurilik ve zarlar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Conus medullaris'in altında, omurga kanalında aşağı inen sinir köklerinin oluşturduğu demete ne ad verilir?",
+   "options": [
+    "Intumescentia lumbosacralis",
+    "Filum terminale",
+    "Cauda equina",
+    "Plexus sacralis",
+    "Truncus sympathicus"
+   ],
+   "answer": 2,
+   "explanation": "Omurilik omurgadan kısa olduğu için alt lomber ve sakral kökler kendi deliklerine ulaşmak üzere aşağı iner ve at kuyruğuna benzeyen cauda equina'yı oluşturur. Filum terminale conus'tan kuyruk sokumuna uzanan pial bir iplikçiktir.",
+   "entries": [
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-50ebda82",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kaç çift kranial (kafa çifti) sinir vardır?",
+   "options": [
+    "8",
+    "10",
+    "31",
+    "12",
+    "11"
+   ],
+   "answer": 3,
+   "explanation": "On iki çift kranial sinir beyinden ve beyin sapından çıkar: I olfactorius'tan XII hypoglossus'a kadar. Spinal sinirler ise 31 çifttir.",
+   "entries": [
+    "n-olfactorius",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-ee88b313",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Göz kapağını kaldıran kasın ve göz kaslarının çoğunun siniri hangisidir?",
+   "options": [
+    "N. trigeminus (V)",
+    "N. abducens (VI)",
+    "N. oculomotorius (III)",
+    "N. facialis (VII)",
+    "N. trochlearis (IV)"
+   ],
+   "answer": 2,
+   "explanation": "N. oculomotorius m. levator palpebrae superioris'i, m. rectus superior, inferior ve medialis'i ve m. obliquus inferior'u uyarır; ayrıca göz bebeğini daraltan parasempatik lifleri taşır.",
+   "entries": [
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-b6c92d74",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "M. rectus lateralis'i (gözü dışa çeviren kas) hangi sinir uyarır?",
+   "options": [
+    "N. abducens (VI)",
+    "N. ophthalmicus",
+    "N. oculomotorius (III)",
+    "N. trochlearis (IV)",
+    "N. facialis (VII)"
+   ],
+   "answer": 0,
+   "explanation": "N. abducens yalnızca m. rectus lateralis'i uyarır. Felcinde göz dışa döndürülemez ve yana bakışta çift görme olur (kısaca: LR6, SO4, geri kalanı III).",
+   "entries": [
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-994f4b2e",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Yüz derisinin duyusunu taşıyan ve çiğneme kaslarını uyaran sinir hangisidir?",
+   "options": [
+    "N. glossopharyngeus (IX)",
+    "N. facialis (VII)",
+    "N. hypoglossus (XII)",
+    "N. trigeminus (V)",
+    "N. accessorius (XI)"
+   ],
+   "answer": 3,
+   "explanation": "N. trigeminus'un üç dalı (oftalmik, maksiller, mandibular) yüz derisinin duyusunu alır; mandibular dalı ayrıca m. masseter, m. temporalis ve pterygoid kaslar gibi çiğneme kaslarını uyarır.",
+   "entries": [
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-252939b1",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Mimik (yüz ifadesi) kaslarının siniri hangisidir?",
+   "options": [
+    "N. trigeminus (V)",
+    "N. facialis (VII)",
+    "N. accessorius (XI)",
+    "N. hypoglossus (XII)",
+    "N. vagus (X)"
+   ],
+   "answer": 1,
+   "explanation": "Yüz ifadesini oluşturan kasların tümü n. facialis'ten innerve olur. Çiğneme kasları ise n. trigeminus'tan uyarılır; bu ayrım sık karıştırılır.",
+   "entries": [
+    "n-facialis"
+   ]
+  },
+  {
+   "id": "ne-347049b5",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dil kaslarının (m. palatoglossus hariç) motor siniri hangisidir?",
+   "options": [
+    "N. vagus (X)",
+    "N. facialis (VII)",
+    "N. lingualis",
+    "N. hypoglossus (XII)",
+    "N. glossopharyngeus (IX)"
+   ],
+   "answer": 3,
+   "explanation": "N. hypoglossus dilin iç ve dış kaslarının hepsini uyarır, yalnızca m. palatoglossus n. vagus'tan gelir. Tek taraflı felcinde dil dışarı çıkarıldığında felçli tarafa sapar.",
+   "entries": [
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-50ced078",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "M. sternocleidomastoideus ve m. trapezius'u uyaran kranial sinir hangisidir?",
+   "options": [
+    "Plexus brachialis",
+    "N. hypoglossus (XII)",
+    "N. vagus (X)",
+    "N. accessorius (XI)",
+    "N. facialis (VII)"
+   ],
+   "answer": 3,
+   "explanation": "N. accessorius foramen jugulare'den çıkar, m. sternocleidomastoideus'u deler ve boynun arka üçgenini geçerek m. trapezius'a ulaşır. Boyun diseksiyonunda arka üçgende yaralanabilir.",
+   "entries": [
+    "n-accessorius"
+   ]
+  },
+  {
+   "id": "ne-c94694b2",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Göğüs ve karın organlarının çoğuna parasempatik lif veren kranial sinir hangisidir?",
+   "options": [
+    "N. oculomotorius (III)",
+    "N. glossopharyngeus (IX)",
+    "N. accessorius (XI)",
+    "N. vagus (X)",
+    "N. phrenicus"
+   ],
+   "answer": 3,
+   "explanation": "N. vagus en uzun seyirli kranial sinirdir; kalbe, akciğerlere ve sindirim kanalına (yaklaşık transvers kolonun sol üçte birine kadar) parasempatik lif verir.",
+   "entries": [
+    "n-vagus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-34dda1f9",
+   "group": "Kranial sinirler",
+   "level": "basic",
+   "clinical": false,
+   "stem": "İşitme ve denge duyusunu taşıyan sinir hangisidir?",
+   "options": [
+    "N. abducens (VI)",
+    "N. facialis (VII)",
+    "N. vestibulocochlearis (VIII)",
+    "N. glossopharyngeus (IX)",
+    "N. trigeminus (V)"
+   ],
+   "answer": 2,
+   "explanation": "N. vestibulocochlearis'in koklear bölümü işitmeyi, vestibüler bölümü dengeyi taşır. N. facialis ile birlikte meatus acusticus internus'tan geçer.",
+   "entries": [
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-667ba770",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kaç çift spinal sinir vardır?",
+   "options": [
+    "30",
+    "33",
+    "12",
+    "31",
+    "24"
+   ],
+   "answer": 3,
+   "explanation": "8 servikal, 12 torakal, 5 lomber, 5 sakral ve 1 koksigeal olmak üzere 31 çift spinal sinir vardır. Servikal omur 7 olduğu hâlde 8 servikal sinir bulunur.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-15f8e734",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Plexus brachialis hangi spinal sinirlerin ön dallarından oluşur?",
+   "options": [
+    "T1–T6",
+    "C5–T1",
+    "C3–C7",
+    "C1–C4",
+    "L1–L4"
+   ],
+   "answer": 1,
+   "explanation": "Plexus brachialis C5–T1 ön dallarından oluşur ve kökler, trunkuslar, bölümler, kordlar ve dallar halinde düzenlenir; üst ekstremitenin tüm motor ve duyu innervasyonunu sağlar.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-26e018da",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Diyaframın motor siniri hangisidir?",
+   "options": [
+    "N. vagus",
+    "N. phrenicus (C3–C5)",
+    "N. accessorius",
+    "Nn. intercostales",
+    "Truncus sympathicus"
+   ],
+   "answer": 1,
+   "explanation": "N. phrenicus boyunda m. scalenus anterior'un önünden iner ve diyaframı uyarır. Diyaframdan kaynaklanan ağrı aynı segmentlerin dermatomu olan omuza yansır.",
+   "entries": [
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "ne-d86f39c7",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Vücudun en kalın ve en uzun siniri hangisidir?",
+   "options": [
+    "N. tibialis",
+    "N. obturatorius",
+    "N. medianus",
+    "N. femoralis",
+    "N. ischiadicus"
+   ],
+   "answer": 4,
+   "explanation": "N. ischiadicus L4–S3 köklerinden gelir, foramen ischiadicum majus'tan çıkar ve uyluğun arkasında iner; genellikle fossa poplitea'nın üstünde n. tibialis ve n. fibularis communis'e ayrılır.",
+   "entries": [
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ne-da1e6de1",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Uyluğun ön kaslarını (m. quadriceps femoris) uyaran sinir hangisidir?",
+   "options": [
+    "N. ischiadicus",
+    "N. obturatorius",
+    "N. pudendus",
+    "N. femoralis",
+    "N. tibialis"
+   ],
+   "answer": 3,
+   "explanation": "N. femoralis (L2–L4) lacuna musculorum'dan uyluğa geçer ve m. quadriceps femoris, m. sartorius ve m. pectineus'u uyarır; hasarında diz ekstansiyonu ve patella refleksi kaybolur.",
+   "entries": [
+    "n-femoralis"
+   ]
+  },
+  {
+   "id": "ne-63d6ca4d",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Uyluğun iç (adduktor) kaslarının çoğunu uyaran sinir hangisidir?",
+   "options": [
+    "N. ischiadicus",
+    "N. obturatorius",
+    "N. genitofemoralis",
+    "N. femoralis",
+    "N. pudendus"
+   ],
+   "answer": 1,
+   "explanation": "N. obturatorius (L2–L4) canalis obturatorius'tan geçerek uyluğun medial bölmesine girer ve adduktor kasların çoğunu uyarır; m. adductor magnus'un hamstring bölümü ise n. ischiadicus'tan innerve olur.",
+   "entries": [
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "ne-6c143cec",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Karpal tünel sendromunda sıkışan sinir hangisidir?",
+   "options": [
+    "N. ulnaris",
+    "N. axillaris",
+    "N. medianus",
+    "N. radialis",
+    "N. musculocutaneus"
+   ],
+   "answer": 2,
+   "explanation": "N. medianus el bileğinde retinaculum musculorum flexorum'un altından, fleksör tendonlarla birlikte karpal tünelden geçer. Sıkışmasında ilk üç buçuk parmakta uyuşma ve tenar kaslarda zayıflık olur.",
+   "entries": [
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "ne-8a555c3e",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Dirseğin iç yanı çarptığında elin küçük parmak tarafında karıncalanmaya yol açan sinir hangisidir?",
+   "options": [
+    "N. musculocutaneus",
+    "N. radialis",
+    "N. ulnaris",
+    "N. medianus",
+    "N. cutaneus antebrachii lateralis"
+   ],
+   "answer": 2,
+   "explanation": "N. ulnaris dirsekte epicondylus medialis'in arkasında deri altında seyreder ('komik kemik'). Darbe ya da sıkışma 4. ve 5. parmakta karıncalanma yapar.",
+   "entries": [
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-4bd49a5e",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Kolun arka kası m. triceps brachii'yi uyaran sinir hangisidir?",
+   "options": [
+    "N. musculocutaneus",
+    "N. radialis",
+    "N. axillaris",
+    "N. medianus",
+    "N. ulnaris"
+   ],
+   "answer": 1,
+   "explanation": "N. radialis kolun ve önkolun arka (ekstansör) kaslarının tümünü uyarır. Humerus cisminin kırıklarında sulcus nervi radialis'te yaralanabilir ve el bileği düşüklüğü gelişir.",
+   "entries": [
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "ne-d2881471",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "basic",
+   "clinical": false,
+   "stem": "M. deltoideus'u uyaran sinir hangisidir?",
+   "options": [
+    "N. axillaris",
+    "N. radialis",
+    "N. thoracicus longus",
+    "N. suprascapularis",
+    "N. musculocutaneus"
+   ],
+   "answer": 0,
+   "explanation": "N. axillaris (C5–C6) humerusun collum chirurgicum'u çevresinde dolanır ve m. deltoideus ile m. teres minor'u uyarır. Collum chirurgicum kırıkları ve omuz çıkıklarında yaralanabilir.",
+   "entries": [
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ne-4eef8b32",
+   "group": "Otonom sinir sistemi",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Sempatik preganglioner nöronların hücre gövdeleri omuriliğin hangi segmentlerindedir?",
+   "options": [
+    "T1–L2 (lateral boynuz)",
+    "S2–S4",
+    "C1–C8",
+    "Yalnız beyin sapı çekirdekleri",
+    "L3–S1"
+   ],
+   "answer": 0,
+   "explanation": "Sempatik sistem torakolomber çıkışlıdır: preganglioner nöronlar T1–L2 segmentlerinin lateral boynuzundadır. Lifleri ön kök ve ramus communicans albus ile sempatik gövdeye ulaşır.",
+   "entries": [
+    "systema-autonomicum",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-8691959b",
+   "group": "Otonom sinir sistemi",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Parasempatik sistemin lifleri hangi bölgelerden çıkar?",
+   "options": [
+    "T1–L2 (torakolomber)",
+    "C5–T1 segmentlerinden",
+    "Yalnız S2–S4 segmentlerinden",
+    "Yalnız beyin sapından",
+    "Beyin sapı (III, VII, IX, X) ve S2–S4 (kraniyosakral)"
+   ],
+   "answer": 4,
+   "explanation": "Parasempatik sistem kraniyosakral çıkışlıdır: III, VII, IX ve X. kranial sinirlerle ve S2–S4 segmentlerinden çıkan pelvik splanknik sinirlerle dağılır.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-11836b1d",
+   "group": "Otonom sinir sistemi",
+   "level": "basic",
+   "clinical": false,
+   "stem": "'Savaş ya da kaç' tepkisinde göz bebeği nasıl değişir ve bunu hangi sistem yapar?",
+   "options": [
+    "Genişler (midriyazis) – sempatik sistem",
+    "Daralır (miyozis) – parasempatik sistem",
+    "Değişmez – somatik sistem",
+    "Daralır (miyozis) – sempatik sistem",
+    "Genişler (midriyazis) – parasempatik sistem"
+   ],
+   "answer": 0,
+   "explanation": "Sempatik uyarı m. dilatator pupillae'yi kasarak göz bebeğini genişletir. Parasempatik lifler (n. oculomotorius) ise m. sphincter pupillae ile göz bebeğini daraltır.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-aca0bd08",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Spinal ganglionda (ganglion spinale) hangi nöronların hücre gövdeleri bulunur?",
+   "options": [
+    "Sempatik preganglioner nöronlar",
+    "Ara nöronlar (internöronlar)",
+    "Psödounipolar duyusal nöronlar",
+    "Multipolar motor nöronlar",
+    "Parasempatik postganglioner nöronlar"
+   ],
+   "answer": 2,
+   "explanation": "Arka kök üzerindeki spinal ganglionda periferden gelen duyuyu omuriliğe taşıyan psödounipolar nöronlar bulunur; bu ganglionda sinaps yapılmaz.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d5797703",
+   "group": "Otonom sinir sistemi",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Sempatik gövde ganglionlarına giden preganglioner lifler spinal sinirden hangi dal ile ayrılır?",
+   "options": [
+    "Ramus communicans albus",
+    "Ramus dorsalis",
+    "Ramus communicans griseus",
+    "Ramus meningeus",
+    "Radix posterior"
+   ],
+   "answer": 0,
+   "explanation": "Miyelinli preganglioner lifler ramus communicans albus ile sempatik gövdeye girer (yalnız T1–L2 düzeyinde bulunur). Miyelinsiz postganglioner lifler ramus communicans griseus ile spinal sinire geri döner.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-4d840655",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "N. pudendus pelvisten hangi delikten çıkar ve perineye hangi delikten girer?",
+   "options": [
+    "Foramen ischiadicum majus'tan çıkar, canalis inguinalis'ten girer",
+    "Canalis obturatorius'tan çıkar, foramen ischiadicum minus'tan girer",
+    "Hiatus sacralis'ten çıkar, foramen ischiadicum minus'tan girer",
+    "Foramen ischiadicum majus'tan çıkar, foramen ischiadicum minus'tan girer",
+    "Foramen ischiadicum minus'tan çıkar, foramen ischiadicum majus'tan girer"
+   ],
+   "answer": 3,
+   "explanation": "N. pudendus (S2–S4) m. piriformis'in altından foramen ischiadicum majus ile pelvisten çıkar, lig. sacrospinale'nin arkasından dolanır ve foramen ischiadicum minus ile perineye girerek canalis pudendalis'te (Alcock) ilerler.",
+   "entries": [
+    "n-pudendus"
+   ]
+  },
+  {
+   "id": "ne-7a6e6c80",
+   "group": "Spinal sinirler ve pleksuslar",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "N. fibularis communis en sık nerede yaralanır?",
+   "options": [
+    "Collum fibulae çevresinde",
+    "Malleolus medialis'in arkasında",
+    "Foramen ischiadicum majus'ta",
+    "Canalis adductorius'ta",
+    "Tarsal tünelde"
+   ],
+   "answer": 0,
+   "explanation": "N. fibularis communis fibula başının hemen altında, collum fibulae'yi sararak yüzeyel seyreder. Kırık, alçı baskısı ya da bacak bacak üstüne atma burada sinire hasar verir ve düşük ayak gelişir.",
+   "entries": [
+    "n-fibularis-communis"
+   ]
   }
  ]
 }

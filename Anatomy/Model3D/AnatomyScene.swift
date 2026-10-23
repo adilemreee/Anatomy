@@ -8,6 +8,7 @@
 //
 
 import Metal
+import MetricKit
 import RealityKit
 import SwiftUI
 import UIKit
@@ -100,6 +101,24 @@ final class AnatomyScene {
         }
     }
     var xray = false { didSet { refreshAll() } }
+    /// Dissection: how many layers of muscle, from the surface inwards, are
+    /// taken away (tools/dissection_layers.py sorted them into layers).
+    var dissection = 0 {
+        didSet { if dissection != oldValue { refresh("muscular") } }
+    }
+    /// Per muscular part, its layer (0 the outermost).
+    @ObservationIgnored let muscleLayer: [UInt8]
+    let dissectionLayers: Int
+    /// The section view's cutting plane; nil shows the whole body.
+    var section: SectionPlane? {
+        didSet {
+            guard section != oldValue else { return }
+            visibilityVersion &+= 1
+            applyMaterials()
+        }
+    }
+    /// `materials` with the shader that can cut, loaded with the first section.
+    @ObservationIgnored private var sectionMaterials: (isolated: Bool, set: [any RealityKit.Material])?
     var colorMode: ColorMode = .realistic { didSet { if colorMode != oldValue { recolorAll() } } }
     /// Bumped whenever the camera comes to rest (after a gesture or animation).
     private(set) var cameraVersion = 0
@@ -184,6 +203,11 @@ final class AnatomyScene {
         coverings = manifests.mapValues { $0.map(\.isCovering) }
         partSex = manifests.mapValues { $0.map { $0.sex.flatMap(BodySex.init(code:)) } }
         subdivisions = manifests.mapValues { $0.map(\.isSubdivision) }
+        struct Layers: Decodable { let layers: Int; let depth: [String: Int] }
+        let layers = Bundle.main.url(forResource: "muscle-layers", withExtension: "json")
+            .flatMap { try? Data(contentsOf: $0) }.flatMap { try? JSONDecoder().decode(Layers.self, from: $0) }
+        muscleLayer = (manifests["muscular"] ?? []).map { UInt8(clamping: layers?.depth[$0.name] ?? 0) }
+        dissectionLayers = layers?.layers ?? 0
 
         camera.components.set(PerspectiveCameraComponent(near: 0.01, far: 50, fieldOfViewInDegrees: fieldOfView, fieldOfViewOrientation: .vertical))
         for light in AnatomyMaterials.cameraLights() {
@@ -224,6 +248,8 @@ final class AnatomyScene {
     /// Loads every enabled layer that is not on screen yet.
     func loadEnabledLayers() async {
         let pending = ModelLayer.all.filter { enabledLayers.contains($0.id) && systems[$0.id] == nil }
+        mxSignpost(.begin, log: Diagnostics.log, name: "AtlasLoad")
+        defer { mxSignpost(.end, log: Diagnostics.log, name: "AtlasLoad") }
         // Decode all packs in the background while the shader compiles on the
         // main thread; the layers still appear in order.
         for layer in pending {
@@ -307,7 +333,7 @@ final class AnatomyScene {
         partLevels[pack.system] = Array(repeating: UInt8(max(pack.levelCount - 1, 0)), count: pack.parts.count)
         mesh.parts.replaceAll(parts(for: loaded))
         let resource = try MeshResource(from: mesh)
-        entity.components.set(ModelComponent(mesh: resource, materials: materials))
+        entity.components.set(ModelComponent(mesh: resource, materials: drawMaterials))
         if let iblEntity {
             entity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: iblEntity))
         }
@@ -395,6 +421,8 @@ final class AnatomyScene {
     func state(of ref: PartRef) -> PartState {
         guard enabledLayers.contains(ref.system) else { return .hidden }
         if hiddenParts.contains(ref) { return .hidden }
+        if dissection > 0, ref.system == "muscular", muscleLayer.indices.contains(ref.index),
+           Int(muscleLayer[ref.index]) < dissection { return .hidden }
         if let partSex = partSex[ref.system]?[ref.index], partSex != sex { return .hidden }
         if let isolation, !isolation.contains(ref) { return .hidden }
         let selected = selectedGroup.contains(ref)
@@ -476,6 +504,28 @@ final class AnatomyScene {
         renderSchedule.setNeedsDisplay(for: pulsing ? 4 : 0.4)
     }
 
+    /// The materials as drawn: with the cutting plane when there is one.
+    var drawMaterials: [any RealityKit.Material] {
+        guard let section, let cut = sectionMaterials, cut.isolated == materialsIsolated else { return materials }
+        return AnatomyMaterials.sectioned(cut.set, by: section)
+    }
+
+    /// Puts `drawMaterials` on every layer, loading the cutting set first
+    /// when a section needs it.
+    private func applyMaterials() {
+        if section != nil, sectionMaterials?.isolated != materialsIsolated {
+            let isolated = materialsIsolated
+            Task {
+                let set = await AnatomyMaterials.shared(occlusion: isolated ? 0.45 : 1, section: true)
+                guard materialsIsolated == isolated else { return }
+                sectionMaterials = (isolated, set)
+                applyMaterials()
+            }
+        }
+        for system in systems.values { system.entity.model?.materials = drawMaterials }
+        renderSchedule.setNeedsDisplay()
+    }
+
     func refreshAll() {
         // Deep structures look too dark with full crease shading when isolated.
         let isolated = isolation != nil
@@ -485,10 +535,7 @@ final class AnatomyScene {
                 let set = await AnatomyMaterials.shared(occlusion: isolated ? 0.45 : 1)
                 guard materialsIsolated == isolated else { return }
                 materials = set
-                for system in systems.values {
-                    system.entity.model?.materials = set
-                }
-                renderSchedule.setNeedsDisplay()
+                applyMaterials()
             }
         }
         for layer in systems.keys { refresh(layer) }

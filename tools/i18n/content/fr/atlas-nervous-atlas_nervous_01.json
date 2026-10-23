@@ -1,0 +1,262 @@
+{
+ "corpus-callosum": {
+  "tr": "Corps calleux",
+  "summary": "La plus grande commissure, formée d'environ 200 millions de fibres nerveuses, qui relie les deux hémisphères cérébraux.",
+  "facts": [
+   "Rostre, genou, tronc, splénium",
+   "Commissure antérieure, commissure postérieure, commissure du fornix (commissure hippocampique)",
+   "Artère cérébrale antérieure (artère péricalleuse) et artère cérébrale postérieure (splénium)"
+  ],
+  "sections": [],
+  "clinical": [
+   "Dans l'épilepsie pharmacorésistante, le corps calleux peut être sectionné (callosotomie) ; chez les patients « cerveau divisé », le transfert d'informations entre les hémisphères est perturbé.",
+   "L'agénésie du corps calleux est une malformation congénitale."
+  ],
+  "tus": [
+   "L'agénésie ou la section du corps calleux entraîne des syndromes de déconnexion (agraphie de la main gauche, anomie de la main gauche)."
+  ],
+  "aliases": [
+   "corps calleux"
+  ]
+ },
+ "nuclei-basales": {
+  "tr": "Noyaux gris centraux (noyaux de la base)",
+  "summary": "Masses de substance grise situées dans la profondeur des hémisphères cérébraux, qui interviennent dans le déclenchement et la régulation du mouvement et dans l'apprentissage moteur.",
+  "facts": [
+   "Noyau caudé, putamen, globus pallidus (putamen + globus pallidus = noyau lenticulaire ; noyau caudé + putamen = corps strié) ; sur le plan fonctionnel aussi le noyau subthalamique et la substance noire",
+   "La voie directe facilite le mouvement, la voie indirecte le freine ; la dopamine de la substance noire assure l'équilibre",
+   "La capsule interne passe entre le noyau caudé et le thalamus d'une part et le noyau lenticulaire d'autre part"
+  ],
+  "sections": [],
+  "clinical": [
+   "La maladie de Parkinson résulte de la perte des neurones dopaminergiques de la substance noire : tremblement de repos, rigidité, bradykinésie.",
+   "Dans la maladie de Huntington, l'atrophie du noyau caudé entraîne une chorée (mouvements involontaires dansants) et une démence.",
+   "Dans la maladie de Wilson, les dépôts de cuivre touchent surtout le putamen."
+  ],
+  "tus": [
+   "Corps strié : noyau caudé + putamen ; noyau lenticulaire : putamen + globus pallidus.",
+   "Dans la maladie de Wilson, le cuivre s'accumule surtout dans le putamen."
+  ],
+  "aliases": [
+   "noyaux gris centraux",
+   "striatum",
+   "putamen",
+   "noyau caudé"
+  ]
+ },
+ "thalamus": {
+  "tr": "Thalamus",
+  "summary": "Masse ovoïde de substance grise de chaque côté du troisième ventricule, la plus grande partie du diencéphale. C'est le relais de toutes les sensations, sauf l'olfaction, vers le cortex.",
+  "facts": [
+   "Diencéphale ; paroi latérale du troisième ventricule",
+   "VPL (sensibilité du corps), VPM (sensibilité de la face et goût), corps géniculé latéral (vision), corps géniculé médial (audition), VA/VL (moteur – afférences des noyaux gris centraux et du cervelet), noyaux antérieurs (limbique), pulvinar",
+   "Branches de l'artère cérébrale postérieure et de l'artère communicante postérieure"
+  ],
+  "sections": [],
+  "clinical": [
+   "Un infarctus thalamique peut entraîner une perte de toutes les sensibilités du côté opposé, suivie de douleurs à type de brûlure sévères (syndrome thalamique de Dejerine–Roussy)."
+  ],
+  "tus": [
+   "Le plus grand noyau du thalamus est le pulvinar, impliqué dans l'attention visuelle.",
+   "Le thalamus est vascularisé par les branches thalamo-perforantes et thalamo-géniculées de l'artère cérébrale postérieure."
+  ],
+  "aliases": [
+   "thalamus",
+   "diencéphale"
+  ]
+ },
+ "hypothalamus": {
+  "tr": "Hypothalamus",
+  "summary": "Petite partie vitale du diencéphale, sous le thalamus, formant le plancher du troisième ventricule. C'est le principal centre de commande du système nerveux autonome et du système endocrinien.",
+  "facts": [
+   "Diencéphale ; plancher et partie inférieure des parois latérales du troisième ventricule ; en dessous, la tige pituitaire (infundibulum)",
+   "Chiasma optique, tuber cinereum, infundibulum, corps mamillaires",
+   "Supra-optique et paraventriculaire (ADH, ocytocine), suprachiasmatique (horloge biologique), arqué (hormones de libération, appétit), ventromédian (satiété), latéral (faim), préoptique (thermorégulation)",
+   "Relié à la neurohypophyse par des fibres nerveuses et à l'adénohypophyse par un système porte"
+  ],
+  "sections": [
+   [
+    "Homéostasie",
+    "Il régule la température corporelle, la faim et la satiété, la soif et l'équilibre hydrique, le cycle veille–sommeil, la réponse au stress, les comportements de reproduction et les fonctions autonomes (fréquence cardiaque, pression artérielle)."
+   ]
+  ],
+  "clinical": [
+   "Une lésion du noyau supra-optique ou de la tige pituitaire entraîne un diabète insipide central (polyurie et soif intense).",
+   "Un craniopharyngiome comprimant l'hypothalamus peut entraîner obésité, troubles du sommeil et insuffisance endocrinienne."
+  ],
+  "tus": [
+   "Une lésion de l'hypothalamus latéral fait perdre la faim (anorexie) ; une lésion ventromédiane entraîne hyperphagie et obésité.",
+   "L'hypothalamus antérieur commande la perte de chaleur (sudation, vasodilatation), l'hypothalamus postérieur sa conservation."
+  ],
+  "aliases": [
+   "hypothalamus"
+  ]
+ },
+ "ventriculi-cerebri": {
+  "tr": "Ventricules cérébraux et LCS",
+  "summary": "Quatre cavités communicantes à l'intérieur de l'encéphale, remplies de liquide cérébrospinal (LCS) : deux ventricules latéraux, le troisième et le quatrième ventricule.",
+  "facts": [
+   "Ventricules latéraux (un par hémisphère, avec cornes frontale, occipitale et temporale), troisième ventricule (diencéphale), quatrième ventricule (entre pont–moelle allongée et cervelet)",
+   "Foramen interventriculaire (Monro) : latéral → 3e ; aqueduc du mésencéphale (Sylvius) : 3e → 4e ; ouverture médiane (Magendie) et ouvertures latérales (Luschka) : 4e → espace sous-arachnoïdien",
+   "Plexus choroïdes ; environ 500 mL par jour, volume total d'environ 150 mL",
+   "Par les granulations arachnoïdiennes dans le sinus sagittal supérieur"
+  ],
+  "sections": [],
+  "clinical": [
+   "Un obstacle à l'écoulement du LCS (par exemple une sténose de l'aqueduc) entraîne une hydrocéphalie obstructive ; une dérivation ventriculo-péritonéale peut être posée.",
+   "Le LCS prélevé par ponction lombaire est analysé pour le diagnostic de méningite et d'hémorragie méningée."
+  ],
+  "tus": [
+   "La corne frontale du ventricule latéral est dans le lobe frontal, la corne temporale dans le lobe temporal et la corne occipitale dans le lobe occipital.",
+   "Le plexus choroïde occupe le corps et la corne temporale du ventricule latéral ainsi que le toit des 3e et 4e ventricules ; il n'y en a pas dans les cornes frontale et occipitale."
+  ],
+  "aliases": [
+   "ventricule",
+   "LCS",
+   "liquide cérébrospinal"
+  ]
+ },
+ "mesencephalon": {
+  "tr": "Mésencéphale",
+  "summary": "La partie la plus haute du tronc cérébral, entre le diencéphale et le pont. Il intervient dans les réflexes visuels et auditifs, les mouvements oculaires et le contrôle moteur.",
+  "facts": [
+   "Toit (colliculus supérieurs – réflexes visuels, colliculus inférieurs – audition), tegmentum (noyau rouge, noyaux des nerfs III et IV), pédoncules cérébraux (fibres corticospinales), substance noire",
+   "Nerf oculomoteur (III) – par la fosse interpédonculaire ; nerf trochléaire (IV) – le seul nerf à émerger de la face postérieure",
+   "Aqueduc du mésencéphale"
+  ],
+  "sections": [],
+  "clinical": [
+   "Syndrome de Weber : lésion du pédoncule cérébral et du nerf oculomoteur – paralysie du III homolatérale et hémiplégie controlatérale.",
+   "Syndrome de Parinaud (tumeurs de la région pinéale) : paralysie de la verticalité du regard vers le haut."
+  ],
+  "tus": [
+   "Sur une coupe du mésencéphale, les colliculus sont en arrière (supérieurs : réflexes visuels, inférieurs : audition), l'aqueduc au milieu et les pédoncules cérébraux en avant.",
+   "Syndrome de Parinaud (tumeur pinéale) : paralysie du regard vers le haut, dissociation lumière–accommodation."
+  ],
+  "aliases": [
+   "mésencéphale"
+  ]
+ },
+ "pons": {
+  "tr": "Pont",
+  "summary": "La partie moyenne du tronc cérébral, renflement saillant de fibres transversales en avant, devant le cervelet. Il relie le cerveau au cervelet et participe à la régulation de la respiration.",
+  "facts": [
+   "Partie basilaire (en avant ; noyaux pontiques, fibres corticospinales) et tegmentum (en arrière)",
+   "Nerf trijumeau (V) – par la face antérolatérale ; nerfs abducens (VI), facial (VII) et vestibulocochléaire (VIII) – par le sillon bulbopontique",
+   "Au cervelet par le pédoncule cérébelleux moyen",
+   "Branches pontiques de l'artère basilaire"
+  ],
+  "sections": [],
+  "clinical": [
+   "Les lésions étendues de la base du pont entraînent un locked-in syndrome : le patient est conscient mais ne peut communiquer que par les mouvements verticaux des yeux et le clignement.",
+   "Une correction trop rapide de la natrémie peut entraîner une myélinolyse centropontine."
+  ],
+  "tus": [
+   "En avant, le pont contient les fibres corticospinales et les noyaux pontiques ; en arrière (tegmentum), les noyaux des nerfs crâniens.",
+   "La myélinolyse centropontine survient après une correction trop rapide d'une hyponatrémie."
+  ],
+  "aliases": [
+   "pont",
+   "protubérance annulaire"
+  ]
+ },
+ "medulla-oblongata": {
+  "tr": "Moelle allongée (bulbe rachidien)",
+  "summary": "La partie la plus basse du tronc cérébral, qui se continue avec la moelle spinale au niveau du foramen magnum. Elle contient des centres vitaux, comme ceux de la respiration, du rythme cardiaque et de la pression artérielle.",
+  "facts": [
+   "Pyramides (fibres corticospinales – qui se croisent à leur partie basse : décussation pyramidale), olives, tubercules gracile et cunéiforme",
+   "Nerfs glossopharyngien (IX), vague (X) et accessoire (XI) – par le sillon latéral ; nerf hypoglosse (XII) – entre pyramide et olive",
+   "Centre respiratoire, centre cardiovasculaire, centres réflexes du vomissement, de la toux et de la déglutition"
+  ],
+  "sections": [],
+  "clinical": [
+   "Syndrome de Wallenberg (bulbaire latéral) : occlusion de l'artère vertébrale/PICA – perte de la sensibilité thermoalgique de l'hémiface homolatérale et de l'hémicorps controlatéral, dysphagie, dysphonie, syndrome de Claude Bernard–Horner, ataxie.",
+   "En cas d'hypertension intracrânienne, l'engagement des amygdales cérébelleuses dans le foramen magnum comprime le bulbe et arrête la respiration."
+  ],
+  "tus": [
+   "Le bulbe contient les centres respiratoires et cardiovasculaires ; l'engagement dans le foramen magnum est mortel.",
+   "L'area postrema (centre du vomissement) est une région dépourvue de barrière hématoencéphalique."
+  ],
+  "aliases": [
+   "bulbe",
+   "moelle allongée"
+  ]
+ },
+ "cerebellum": {
+  "tr": "Cervelet",
+  "summary": "Le « petit cerveau » situé dans la fosse crânienne postérieure, en arrière du tronc cérébral. Il assure la coordination des mouvements, l'équilibre, le tonus musculaire et l'apprentissage moteur.",
+  "facts": [
+   "Vermis sur la ligne médiane, hémisphères cérébelleux de chaque côté ; lobes antérieur, postérieur et flocculonodulaire",
+   "Pédoncules cérébelleux supérieur (vers le mésencéphale), moyen (vers le pont) et inférieur (vers la moelle allongée)",
+   "Noyaux dentelé, emboliforme, globuleux et fastigial",
+   "Vestibulocervelet (équilibre, mouvements oculaires), spinocervelet (coordination du tronc et des membres), cérébrocervelet (planification du mouvement)",
+   "Artère cérébelleuse supérieure, artère cérébelleuse antéro-inférieure (AICA), artère cérébelleuse postéro-inférieure (PICA)"
+  ],
+  "sections": [
+   [
+    "Règle homolatérale",
+    "Chaque hémisphère cérébelleux contrôle le même côté du corps ; une lésion unilatérale entraîne une incoordination du même côté."
+   ]
+  ],
+  "clinical": [
+   "Les lésions cérébelleuses entraînent ataxie, dysmétrie (le doigt manque le nez), adiadococinésie, tremblement intentionnel, nystagmus et dysarthrie (parole scandée).",
+   "L'alcool touche surtout le vermis et entraîne une marche à base élargie (ataxie du tronc)."
+  ],
+  "tus": [
+   "Les lésions cérébelleuses donnent des signes homolatéraux (double croisement des voies).",
+   "Vascularisation du cervelet : SCA (face supérieure), AICA (face antéro-inférieure), PICA (face postéro-inférieure)."
+  ],
+  "aliases": [
+   "cervelet"
+  ]
+ },
+ "medulla-spinalis": {
+  "tr": "Moelle spinale",
+  "summary": "La partie cylindrique du système nerveux central contenue dans le canal vertébral, du foramen magnum jusqu'au cône médullaire au niveau des vertèbres L1–L2 chez l'adulte. Elle donne naissance à 31 paires de nerfs spinaux.",
+  "facts": [
+   "42–45 cm chez l'adulte",
+   "8 cervicaux, 12 thoraciques, 5 lombaires, 5 sacrés, 1 coccygien",
+   "Renflement cervical (C4–T1 ; nerfs du membre supérieur) et renflement lombosacré (L2–S3 ; nerfs du membre inférieur)",
+   "Substance grise en H au centre (corne antérieure – motrice, corne postérieure – sensitive, corne latérale – sympathique T1–L2), entourée de cordons de substance blanche (funiculi)",
+   "Artère spinale antérieure (deux tiers antérieurs), artères spinales postérieures (tiers postérieur), artères segmentaires (grande artère radiculaire – Adamkiewicz)"
+  ],
+  "sections": [
+   [
+    "Principales voies",
+    "Cordons postérieurs (faisceaux gracile et cunéiforme) : tact fin et sens de position, croisement dans la moelle allongée. Faisceau spinothalamique : douleur et température, croisement dans la moelle au niveau d'entrée. Faisceau corticospinal latéral : motricité volontaire, déjà croisé dans la moelle allongée."
+   ]
+  ],
+  "clinical": [
+   "Syndrome de Brown-Séquard (hémisection) : perte de la motricité et du sens de position du côté de la lésion, perte de la sensibilité thermoalgique du côté opposé.",
+   "Dans le syndrome de l'artère spinale antérieure, les sensibilités des cordons postérieurs sont conservées.",
+   "Le niveau d'une lésion médullaire détermine la survenue d'une tétraplégie (cervicale) ou d'une paraplégie (thoracique et en dessous)."
+  ],
+  "tus": [
+   "Les renflements cervical et lombaire correspondent aux segments d'où naissent les plexus des membres.",
+   "La moelle est vascularisée par l'artère spinale antérieure (deux tiers antérieurs) et deux artères spinales postérieures ; l'artère d'Adamkiewicz est la principale source de la région thoracique basse et lombaire."
+  ],
+  "aliases": [
+   "moelle spinale",
+   "moelle épinière"
+  ]
+ },
+ "cauda-equina": {
+  "tr": "Queue de cheval",
+  "summary": "Le faisceau de racines nerveuses lombaires, sacrées et coccygiennes qui descend dans le canal vertébral sous la terminaison de la moelle au niveau du cône médullaire.",
+  "facts": [
+   "De la vertèbre L2 au sacrum, dans la citerne lombaire",
+   "Racines des nerfs spinaux L2–Co1 et filum terminal"
+  ],
+  "sections": [],
+  "clinical": [
+   "Syndrome de la queue de cheval (par exemple grosse hernie discale médiane) : anesthésie en selle, incontinence ou rétention urinaire et fécale, déficit des membres inférieurs – urgence chirurgicale.",
+   "Lors de la ponction lombaire, l'aiguille écarte les racines sans léser la moelle ; c'est pourquoi les niveaux L3–L4 / L4–L5 sont sûrs."
+  ],
+  "tus": [
+   "Le syndrome du cône médullaire est plus brutal et symétrique, le syndrome de la queue de cheval plus asymétrique et douloureux."
+  ],
+  "aliases": [
+   "queue de cheval"
+  ]
+ }
+}

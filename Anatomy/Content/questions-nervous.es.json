@@ -1,0 +1,2772 @@
+{
+ "system": "nervous",
+ "questions": [
+  {
+   "id": "ne-3da316f2",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un diestro de 62 años entiende lo que se le dice tras un ictus, pero su habla es entrecortada, costosa y con pocas palabras. La escritura también está alterada. ¿Dónde está con más probabilidad la lesión?",
+   "options": [
+    "Parte superior del giro precentral izquierdo",
+    "Giro angular izquierdo",
+    "Giro frontal inferior izquierdo (área de Broca, BA 44–45)",
+    "Parte posterior del giro temporal superior izquierdo (área de Wernicke)",
+    "Giro frontal inferior derecho"
+   ],
+   "answer": 2,
+   "explanation": "La afasia de Broca (motora/expresiva) se debe a una lesión de las porciones opercular y triangular del giro frontal inferior del hemisferio dominante: habla no fluida con comprensión relativamente conservada. Suele deberse a la oclusión de la división superior de la ACM y puede acompañarse de debilidad facio-braquial contralateral.",
+   "notes": [
+    "Es el área motora de la pierna.",
+    "Produce el síndrome de Gerstmann.",
+    "",
+    "Produce habla fluida pero sin sentido y trastorno de la comprensión.",
+    "Hemisferio no dominante; afecta a la melodía del habla (prosodia)."
+   ],
+   "entries": [
+    "lobus-frontalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-63b5b117",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tras un ictus un paciente habla con fluidez pero sin sentido, usa palabras inventadas y no entiende órdenes sencillas; no es consciente de sus errores. ¿Dónde está la lesión?",
+   "options": [
+    "Giro frontal inferior izquierdo",
+    "Parte posterior del giro temporal superior izquierdo (área de Wernicke, BA 22)",
+    "Fascículo arqueado",
+    "Giro temporal superior derecho",
+    "Lóbulo occipital izquierdo"
+   ],
+   "answer": 1,
+   "explanation": "En la afasia de Wernicke (sensitiva/receptiva) el habla es fluida pero su contenido está alterado (parafasias, neologismos); la comprensión y la repetición están alteradas. La lesión está en la parte posterior del giro temporal superior del hemisferio dominante.",
+   "entries": [
+    "lobus-temporalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-41911115",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En el tipo de afasia con habla fluida y buena comprensión pero repetición claramente alterada, ¿dónde está la lesión?",
+   "options": [
+    "Hipocampo",
+    "Fascículo arqueado",
+    "Cuerpo calloso",
+    "Giro precentral",
+    "Brazo posterior de la cápsula interna"
+   ],
+   "answer": 1,
+   "explanation": "La afasia de conducción se debe a la lesión del fascículo arqueado, que une las áreas de Wernicke y Broca (casi siempre a la altura del giro supramarginal). Se conservan la comprensión y la fluidez y se altera la repetición.",
+   "entries": [
+    "cerebrum",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-14b513ee",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente presenta de forma brusca debilidad y pérdida sensitiva marcadas en la pierna izquierda; el brazo y la cara están relativamente respetados. ¿Qué arteria está ocluida?",
+   "options": [
+    "Arteria cerebral anterior derecha",
+    "Arteria cerebral anterior izquierda",
+    "Arteria cerebral media derecha",
+    "Arteria cerebral posterior derecha",
+    "Arteria basilar"
+   ],
+   "answer": 0,
+   "explanation": "El área motora y sensitiva de la pierna y el pie está en el lobulillo paracentral, en la cara medial del hemisferio, irrigado por la arteria cerebral anterior. La oclusión de la ACA afecta sobre todo a la pierna contralateral; la de la ACM, sobre todo a la cara y el brazo.",
+   "entries": [
+    "gyrus-precentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-01618983",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un diestro de 65 años presenta debilidad y pérdida sensitiva marcadas en la hemicara y el brazo derechos, con un trastorno del habla; la pierna está menos afectada. ¿Qué arteria está ocluida?",
+   "options": [
+    "Arteria cerebral anterior izquierda",
+    "Arteria cerebral media derecha",
+    "Arteria coroidea anterior izquierda",
+    "Arteria cerebral media izquierda",
+    "Arteria cerebral posterior izquierda"
+   ],
+   "answer": 3,
+   "explanation": "La ACM irriga la cara lateral del hemisferio y, por tanto, las áreas motoras y sensitivas de la cara y el brazo y, en el hemisferio dominante, las áreas del lenguaje. La oclusión de la ACM izquierda produce hemiparesia y hemihipoestesia derechas de predominio facio-braquial y afasia.",
+   "entries": [
+    "gyrus-precentralis",
+    "gyrus-postcentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-b32e3978",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el defecto del campo visual típico de la oclusión de la arteria cerebral posterior?",
+   "options": [
+    "Hemianopsia bitemporal",
+    "Ceguera de un ojo del mismo lado",
+    "Hemianopsia homónima contralateral con respeto macular",
+    "Hemianopsia binasal",
+    "Cuadrantanopsia superior contralateral"
+   ],
+   "answer": 2,
+   "explanation": "La ACP irriga el lóbulo occipital (corteza visual primaria). Su oclusión produce una hemianopsia homónima del campo visual opuesto; como el polo occipital, donde se representa la mácula, recibe también colaterales de la ACM, la visión central suele respetarse.",
+   "entries": [
+    "lobus-occipitalis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-950a7863",
+   "group": "Encéfalo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde está la corteza visual primaria (Brodmann 17)?",
+   "options": [
+    "En el cuerpo geniculado lateral",
+    "En la cara inferior del lóbulo frontal",
+    "En el lóbulo occipital, a ambos lados del surco calcarino",
+    "En el giro poscentral",
+    "En el giro temporal superior"
+   ],
+   "answer": 2,
+   "explanation": "La corteza visual primaria está en la cara medial del lóbulo occipital, en los labios superior (cuña) e inferior (giro lingual) del surco calcarino. El labio superior representa el campo visual inferior y el inferior, el campo visual superior.",
+   "entries": [
+    "lobus-occipitalis",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-3b3c0c08",
+   "group": "Encéfalo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde está la corteza auditiva primaria (Brodmann 41–42)?",
+   "options": [
+    "Giros temporales transversos (giros de Heschl)",
+    "Extremo inferior del giro precentral",
+    "Giro parahipocampal",
+    "Giro angular",
+    "Giro cingular"
+   ],
+   "answer": 0,
+   "explanation": "El área auditiva primaria está en el fondo del surco lateral, en los giros temporales transversos (de Heschl) de la cara superior del giro temporal superior. Como cada oído se representa en ambos lados, una lesión cortical unilateral no produce sordera.",
+   "entries": [
+    "lobus-temporalis",
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-87c1b640",
+   "group": "Encéfalo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué áreas de Brodmann corresponde la corteza somatosensorial primaria?",
+   "options": [
+    "22 (giro temporal superior)",
+    "17 (surco calcarino)",
+    "6 (área premotora)",
+    "4 (giro precentral)",
+    "3, 1, 2 (giro poscentral)"
+   ],
+   "answer": 4,
+   "explanation": "El giro poscentral recibe el tacto, el dolor, la temperatura y la propiocepción de la mitad opuesta del cuerpo y tiene una organización somatotópica (homúnculo sensitivo). Sus aferencias proceden de los núcleos VPL y VPM del tálamo.",
+   "entries": [
+    "gyrus-postcentralis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-2daff929",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En el síndrome de Gerstmann – agrafia, acalculia, agnosia digital y confusión derecha–izquierda –, ¿dónde está la lesión?",
+   "options": [
+    "Lobulillo parietal superior del hemisferio no dominante",
+    "Giro frontal inferior del hemisferio dominante",
+    "Giro angular del hemisferio dominante",
+    "Hipocampo del hemisferio dominante",
+    "Esplenio del cuerpo calloso"
+   ],
+   "answer": 2,
+   "explanation": "El síndrome de Gerstmann aparece en lesiones del giro angular, en la parte inferior del lóbulo parietal dominante (casi siempre el izquierdo). La lesión parietal no dominante produce en cambio heminegligencia del lado opuesto y apraxias.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-28eb07b3",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tras un ictus del hemisferio derecho un paciente solo come la mitad derecha del plato, no se fija en las personas de su izquierda y dice que su brazo izquierdo no es suyo. ¿Qué lóbulo está afectado?",
+   "options": [
+    "Lóbulo parietal izquierdo",
+    "Lóbulo temporal izquierdo",
+    "Lóbulo frontal derecho",
+    "Lóbulo parietal derecho",
+    "Lóbulo occipital derecho"
+   ],
+   "answer": 3,
+   "explanation": "La negligencia del lado opuesto (heminegligencia) y la anosognosia aparecen sobre todo en lesiones del lóbulo parietal no dominante (derecho), porque el hemisferio derecho atiende a ambas mitades del espacio y el izquierdo sobre todo a la mitad derecha.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-dbe702a4",
+   "group": "Encéfalo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "El cambio de personalidad, la conducta inadecuada y la alteración de la planificación y el juicio se ven sobre todo en la lesión de qué región?",
+   "options": [
+    "Vermis del cerebelo",
+    "Corteza prefrontal",
+    "Giro poscentral",
+    "Lóbulo occipital",
+    "Cuerpo geniculado medial"
+   ],
+   "answer": 1,
+   "explanation": "La corteza prefrontal se encarga de las funciones ejecutivas, la conducta social y la personalidad. Los pacientes con lesión frontal pueden mostrar apatía o impulsividad, perseveración y conductas socialmente inadecuadas.",
+   "entries": [
+    "lobus-frontalis"
+   ]
+  },
+  {
+   "id": "ne-3de004e8",
+   "group": "Encéfalo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué lóbulo se considera el centro cortical del gusto y participa en la sensibilidad visceral?",
+   "options": [
+    "Lóbulo occipital",
+    "Ínsula (y opérculo frontal vecino)",
+    "Cuña",
+    "Giro precentral",
+    "Giro cingular"
+   ],
+   "answer": 1,
+   "explanation": "La ínsula es el lóbulo oculto en el fondo del surco lateral, bajo los opérculos. Su parte anterior contiene la corteza gustativa primaria; también se relaciona con el dolor, la sensibilidad visceral y las respuestas autonómicas. Está irrigada por ramas de la ACM.",
+   "entries": [
+    "insula"
+   ]
+  },
+  {
+   "id": "ne-f34b6253",
+   "group": "Encéfalo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué estructura es esencial para pasar la información nueva a la memoria a largo plazo y se atrofia pronto en la enfermedad de Alzheimer?",
+   "options": [
+    "Amígdala",
+    "Núcleo caudado",
+    "Hipocampo",
+    "Pulvinar del tálamo",
+    "Cerebelo"
+   ],
+   "answer": 2,
+   "explanation": "El hipocampo está en la cara medial del lóbulo temporal, en el suelo del asta inferior del ventrículo lateral. Su lesión bilateral produce amnesia anterógrada. Forma parte del circuito de Papez: hipocampo → fórnix → cuerpo mamilar → tálamo anterior → giro cingular → hipocampo.",
+   "entries": [
+    "hippocampus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-1b940b7b",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO es de esperar en el síndrome de Klüver–Bucy por lesión bilateral de la amígdala?",
+   "options": [
+    "Hipersexualidad",
+    "Hiperoralidad (llevarse todo a la boca)",
+    "Agnosia visual",
+    "Docilidad, pérdida del miedo",
+    "Miedo y agresividad excesivos"
+   ],
+   "answer": 4,
+   "explanation": "La amígdala es el centro del miedo y del aprendizaje emocional. Tras una lesión temporal medial bilateral disminuyen el miedo y la agresividad y el paciente se vuelve dócil; aparecen hiperoralidad, hipersexualidad y agnosia visual.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afbdd4fd",
+   "group": "Encéfalo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es la mayor comisura que une los dos hemisferios cerebrales?",
+   "options": [
+    "Cápsula interna",
+    "Fórnix",
+    "Cuerpo calloso",
+    "Comisura anterior",
+    "Comisura posterior"
+   ],
+   "answer": 2,
+   "explanation": "El cuerpo calloso es un puente de sustancia blanca con unos 200 millones de axones; tiene rostro, rodilla, tronco y esplenio. Cuando se secciona («cerebro dividido») se altera el paso de información entre ambos hemisferios.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-b72d492f",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente hipertenso presenta de forma brusca una hemiparesia motora pura que afecta por igual a la cara, el brazo y la pierna del lado opuesto; la sensibilidad, la visión y el habla son normales. ¿Dónde está con más probabilidad el infarto lacunar?",
+   "options": [
+    "Lóbulo occipital",
+    "Brazo posterior de la cápsula interna",
+    "Hemisferio cerebeloso",
+    "Giro poscentral",
+    "Rodilla del cuerpo calloso"
+   ],
+   "answer": 1,
+   "explanation": "Las fibras corticoespinales y corticobulbares discurren muy juntas en el brazo posterior de la cápsula interna, de modo que un infarto pequeño afecta por igual a la cara, el brazo y la pierna contralaterales. Esta zona está irrigada por las ramas lenticuloestriadas de la ACM, vulnerables en la hipertensión.",
+   "entries": [
+    "nuclei-basales",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-46d5bedc",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Dónde están las neuronas dopaminérgicas que degeneran en la enfermedad de Parkinson?",
+   "options": [
+    "Núcleo caudado",
+    "Porción compacta de la sustancia negra (mesencéfalo)",
+    "Núcleo rojo",
+    "Núcleo subtalámico",
+    "Globo pálido interno"
+   ],
+   "answer": 1,
+   "explanation": "Las neuronas dopaminérgicas de la sustancia negra compacta proyectan al estriado (vía nigroestriada). Su pérdida produce bradicinesia, rigidez y temblor de reposo. En la enfermedad de Huntington se atrofia el núcleo caudado y en el hemibalismo se lesiona el núcleo subtalámico.",
+   "entries": [
+    "mesencephalon",
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-2a67af34",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente hipertenso presenta de forma brusca movimientos involuntarios violentos, de lanzamiento, del brazo y la pierna izquierdos. ¿Dónde está la lesión?",
+   "options": [
+    "Núcleo caudado derecho",
+    "Sustancia negra derecha",
+    "Núcleo subtalámico izquierdo",
+    "Núcleo subtalámico derecho",
+    "Hemisferio cerebeloso izquierdo"
+   ],
+   "answer": 3,
+   "explanation": "El hemibalismo aparece por lesión del núcleo subtalámico del lado opuesto; este núcleo frena normalmente el movimiento estimulando el globo pálido interno. Las lesiones de los núcleos basales dan signos en el lado opuesto.",
+   "entries": [
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-e0795ee8",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué núcleo talámico está en la vía visual?",
+   "options": [
+    "Núcleo ventral lateral",
+    "Cuerpo geniculado medial",
+    "Cuerpo geniculado lateral",
+    "Núcleo ventral posterolateral",
+    "Núcleo anterior del tálamo"
+   ],
+   "answer": 2,
+   "explanation": "Las fibras del tracto óptico hacen sinapsis en el CGL; desde allí la radiación óptica va a la corteza occipital. El CGM se ocupa de la audición, el VPL de la sensibilidad corporal, el VPM de la sensibilidad facial y el gusto, el VL de las aferencias motoras del cerebelo y los núcleos basales y el núcleo anterior del circuito de Papez.",
+   "entries": [
+    "thalamus",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-e54d7172",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué núcleo talámico transmite a la corteza la sensibilidad de la cara (nervio trigémino) y las fibras gustativas?",
+   "options": [
+    "Pulvinar",
+    "Núcleo dorsomedial",
+    "Cuerpo geniculado medial",
+    "Núcleo ventral posterolateral (VPL)",
+    "Núcleo ventral posteromedial (VPM)"
+   ],
+   "answer": 4,
+   "explanation": "El lemnisco trigeminal y las fibras gustativas del núcleo solitario terminan en el VPM; el lemnisco medial y las fibras espinotalámicas del cuerpo, en el VPL. Las lesiones talámicas pueden causar hemianestesia contralateral y dolor talámico (Dejerine–Roussy).",
+   "entries": [
+    "thalamus",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-48237eed",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué núcleo hipotalámico sintetiza principalmente la hormona antidiurética (ADH)?",
+   "options": [
+    "Núcleo ventromedial",
+    "Núcleo arqueado",
+    "Núcleo supraquiasmático",
+    "Cuerpo mamilar",
+    "Núcleo supraóptico"
+   ],
+   "answer": 4,
+   "explanation": "La ADH se produce sobre todo en el núcleo supraóptico y la oxitocina sobre todo en el paraventricular; ambas viajan por los axones a la neurohipófisis. El núcleo supraquiasmático regula el ritmo circadiano, el ventromedial la saciedad y el hipotálamo lateral el hambre.",
+   "entries": [
+    "hypothalamus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-1cff0e6f",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructura hipotalámica se lesiona de forma característica en el síndrome de Wernicke–Korsakoff (déficit de tiamina)?",
+   "options": [
+    "Núcleo paraventricular",
+    "Tuber cinereum",
+    "Núcleo supraquiasmático",
+    "Cuerpos mamilares",
+    "Eminencia media"
+   ],
+   "answer": 3,
+   "explanation": "En el alcoholismo crónico y el déficit de tiamina se lesionan los cuerpos mamilares, los núcleos mediales del tálamo y la sustancia gris periacueductal. La interrupción del circuito de Papez explica la amnesia de Korsakoff y la confabulación.",
+   "entries": [
+    "hypothalamus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afe9b56a",
+   "group": "Encéfalo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "El perímetro cefálico de un recién nacido crece con rapidez. La RM muestra dilatación de los ventrículos laterales y del tercer ventrículo con el cuarto de tamaño normal. ¿Dónde está con más probabilidad la obstrucción?",
+   "options": [
+    "Abertura media (Magendie)",
+    "Agujero interventricular (Monro)",
+    "Conducto central",
+    "Granulaciones aracnoideas",
+    "Acueducto del mesencéfalo (acueducto de Silvio)"
+   ],
+   "answer": 4,
+   "explanation": "El LCR pasa de los ventrículos laterales al tercer ventrículo por el agujero de Monro, al cuarto por el acueducto de Silvio y de allí al espacio subaracnoideo por los agujeros de Magendie y Luschka. Si el tercer ventrículo está dilatado y el cuarto es normal, el bloqueo está en el acueducto (estenosis congénita del acueducto).",
+   "entries": [
+    "ventriculi-cerebri",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-25e1a0ce",
+   "group": "Encéfalo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se produce principalmente el líquido cefalorraquídeo (LCR) y dónde se absorbe?",
+   "options": [
+    "Se produce en los plexos coroideos y se absorbe por las granulaciones aracnoideas hacia los senos venosos durales.",
+    "Se produce en las células ependimarias y se absorbe en los vasos linfáticos.",
+    "Se produce en las granulaciones aracnoideas y se absorbe en los plexos coroideos.",
+    "Se produce en la piamadre y se absorbe en el conducto central.",
+    "Se produce en los plexos coroideos y se absorbe en el cuarto ventrículo."
+   ],
+   "answer": 0,
+   "explanation": "En el adulto se producen unos 500 ml de LCR al día; en cada momento hay unos 150 ml. La absorción se hace sobre todo por las granulaciones aracnoideas que protruyen en el seno sagital superior. Una absorción deficiente produce hidrocefalia comunicante.",
+   "entries": [
+    "ventriculi-cerebri",
+    "meninges",
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "ne-37bdea3f",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente tiene ptosis, midriasis y desviación del ojo derecho hacia abajo y afuera, junto con debilidad del brazo y la pierna izquierdos. ¿Dónde está con más probabilidad la lesión?",
+   "options": [
+    "Parte medial del bulbo izquierdo",
+    "Parte ventral del mesencéfalo izquierdo",
+    "Parte ventral de la protuberancia derecha",
+    "Parte ventral del mesencéfalo derecho (síndrome de Weber)",
+    "Cápsula interna derecha"
+   ],
+   "answer": 3,
+   "explanation": "En el síndrome de Weber se afectan juntas en el mesencéfalo ventral las fibras del oculomotor y el pedúnculo cerebral: parálisis del III del mismo lado y hemiparesia del lado opuesto. Como las fibras corticoespinales se cruzan en el bulbo, las lesiones del tronco dan signos «cruzados».",
+   "entries": [
+    "mesencephalon",
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-3d7055ab",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con vértigo y náuseas de inicio brusco presenta pérdida de la sensibilidad dolorosa y térmica en la hemicara izquierda y en el tronco y las extremidades derechos, disfonía, disfagia, síndrome de Horner izquierdo y ataxia izquierda. Los movimientos de la lengua son normales. ¿Qué arteria está ocluida?",
+   "options": [
+    "Arteria basilar",
+    "Arteria espinal anterior izquierda",
+    "Arteria cerebral posterior derecha",
+    "Arteria cerebelosa posteroinferior izquierda (o arteria vertebral izquierda)",
+    "Arteria cerebelosa superior izquierda"
+   ],
+   "answer": 3,
+   "explanation": "En el síndrome bulbar lateral (Wallenberg) se afectan el núcleo espinal del trigémino (cara del mismo lado), el tracto espinotalámico (tronco del lado opuesto), el núcleo ambiguo (disfagia, disfonía), las fibras simpáticas descendentes (Horner), los núcleos vestibulares y el pedúnculo cerebeloso inferior. El núcleo del XII, de situación medial, se respeta.",
+   "entries": [
+    "medulla-oblongata",
+    "a-vertebralis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-81f72625",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO es de esperar en el síndrome bulbar medial (oclusión de la arteria espinal anterior)?",
+   "options": [
+    "Pérdida de la sensibilidad dolorosa y térmica de la hemicara del mismo lado",
+    "Atrofia de los músculos de la lengua del mismo lado",
+    "Hemiparesia del lado opuesto",
+    "Pérdida de la propiocepción y la vibración del lado opuesto",
+    "Desviación de la lengua protruida hacia el lado de la lesión"
+   ],
+   "answer": 0,
+   "explanation": "El bulbo medial contiene la pirámide (hemiparesia contralateral), el lemnisco medial (pérdida de la sensibilidad profunda contralateral) y el nervio hipogloso (parálisis lingual ipsilateral). El núcleo espinal del trigémino está en el bulbo lateral y se afecta en el síndrome de Wallenberg.",
+   "entries": [
+    "medulla-oblongata",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-443079d7",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿El núcleo motor de cuál de los siguientes nervios craneales está en la protuberancia?",
+   "options": [
+    "Nervio hipogloso",
+    "Nervio troclear",
+    "Nervio glosofaríngeo",
+    "Nervio oculomotor",
+    "Nervio abducens"
+   ],
+   "answer": 4,
+   "explanation": "Los núcleos del III y el IV están en el mesencéfalo; los del V (motor), VI y VII, en la protuberancia; los del IX, X y XII, en el bulbo. Los núcleos del VIII están en la unión bulboprotuberancial.",
+   "entries": [
+    "pons",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-8ecd7107",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructuras forman el colículo facial en el suelo del cuarto ventrículo?",
+   "options": [
+    "El núcleo del abducens y las fibras del nervio facial que lo rodean",
+    "Locus coeruleus y núcleo solitario",
+    "Fibras del troclear y núcleo rojo",
+    "Núcleo del hipogloso y núcleo dorsal del vago",
+    "Núcleos vestibulares y fibras del nervio coclear"
+   ],
+   "answer": 0,
+   "explanation": "Dentro de la protuberancia las fibras motoras del facial rodean el núcleo del abducens (rodilla interna) y abomban el suelo del cuarto ventrículo. Una lesión aquí produce parálisis ipsilateral conjunta del VI y el VII.",
+   "entries": [
+    "pons",
+    "n-facialis",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-5da8a287",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente se tambalea de un lado a otro al estar de pie y al caminar y anda con los pies separados, pero sentado no tiene una dismetría clara al usar los brazos. ¿Dónde está con más probabilidad la lesión?",
+   "options": [
+    "Hemisferio cerebeloso izquierdo",
+    "Hemisferio cerebeloso derecho",
+    "Vermis del cerebelo",
+    "Núcleo dentado",
+    "Cápsula interna"
+   ],
+   "answer": 2,
+   "explanation": "El vermis y la zona paravermiana coordinan el tronco y los músculos axiales; su lesión produce ataxia troncal y marcha con base amplia (por ejemplo, por alcohol). Las lesiones hemisféricas producen dismetría, temblor intencional y disdiadococinesia en las extremidades del mismo lado.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-aa74e926",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué estructura lleva las fibras de los núcleos pontinos al cerebelo (fibras pontocerebelosas)?",
+   "options": [
+    "Pedúnculo cerebeloso inferior",
+    "Pedúnculo cerebeloso superior",
+    "Velo medular superior",
+    "Lemnisco medial",
+    "Pedúnculo cerebeloso medio"
+   ],
+   "answer": 4,
+   "explanation": "El pedúnculo cerebeloso medio (brazo del puente) es el mayor y está formado solo por fibras pontocerebelosas (aferentes). El superior lleva sobre todo fibras que salen del cerebelo (eferentes) y el inferior, fibras de la médula y la oliva.",
+   "entries": [
+    "cerebellum",
+    "pons"
+   ]
+  },
+  {
+   "id": "ne-d50b404c",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué célula es la única neurona de salida de la corteza cerebelosa y es inhibidora (GABAérgica)?",
+   "options": [
+    "Fibra musgosa",
+    "Célula granulosa",
+    "Célula de Golgi",
+    "Célula de Purkinje",
+    "Célula en cesta"
+   ],
+   "answer": 3,
+   "explanation": "Los axones de las células de Purkinje van a los núcleos profundos del cerebelo (dentado, emboliforme, globoso, del fastigio) y a los núcleos vestibulares, a los que inhiben. La salida principal del cerebelo se hace por los núcleos profundos, el mayor de los cuales es el dentado.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-05903053",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se cruza la mayor parte de las fibras corticoespinales?",
+   "options": [
+    "En la cápsula interna",
+    "En la protuberancia",
+    "En el mesencéfalo",
+    "En el extremo inferior del bulbo raquídeo (decusación de las pirámides)",
+    "En cada segmento de la médula espinal"
+   ],
+   "answer": 3,
+   "explanation": "Alrededor del 85–90 % de las fibras corticoespinales se cruzan en el extremo inferior de las pirámides y forman el tracto corticoespinal lateral. Las no cruzadas descienden por el tracto corticoespinal anterior y se cruzan a nivel segmentario.",
+   "entries": [
+    "medulla-oblongata",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-6d09f28c",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tras una trombosis de la arteria basilar un paciente está plenamente consciente pero no puede mover los brazos, las piernas ni la cara ni hablar. Solo puede mover los ojos arriba y abajo y parpadear. ¿Qué cuadro es este?",
+   "options": [
+    "Mutismo acinético – lesión del lóbulo frontal",
+    "Síndrome de enclaustramiento (locked-in) – lesión de la protuberancia ventral",
+    "Coma – lesión del sistema reticular activador",
+    "Síndrome de Weber – lesión mesencefálica",
+    "Síndrome de Wallenberg – lesión bulbar lateral"
+   ],
+   "answer": 1,
+   "explanation": "Una lesión de la protuberancia ventral interrumpe los tractos corticoespinal y corticobulbar; como se conserva la formación reticular de la protuberancia dorsal, la consciencia está preservada. Los movimientos oculares verticales y el parpadeo dependen del mesencéfalo y se conservan.",
+   "entries": [
+    "pons",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "ne-0a8db49c",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué núcleo rojizo del mesencéfalo recibe fibras del cerebelo?",
+   "options": [
+    "Núcleo olivar inferior",
+    "Sustancia negra",
+    "Núcleo rojo",
+    "Locus coeruleus",
+    "Núcleo dentado"
+   ],
+   "answer": 2,
+   "explanation": "El núcleo rojo recibe fibras por el pedúnculo cerebeloso superior y actúa sobre los flexores del miembro superior mediante el tracto rubroespinal. Su rica irrigación y su contenido en hierro le dan un tono rosado en el corte fresco.",
+   "entries": [
+    "mesencephalon",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-8a618879",
+   "group": "Médula espinal y meninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "En el adulto, ¿a qué nivel termina normalmente el extremo inferior de la médula espinal (cono medular)?",
+   "options": [
+    "L1–L2",
+    "L5–S1",
+    "T10–T11",
+    "S2",
+    "L3–L4"
+   ],
+   "answer": 0,
+   "explanation": "Como la columna crece más deprisa que la médula durante el desarrollo, en el adulto el cono medular está en L1–L2 (hacia L3 en el recién nacido). Por debajo están la cola de caballo y el filum terminal. El saco dural termina en S2.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-c6fa7ddb",
+   "group": "Médula espinal y meninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "¿Cuál es el espacio más adecuado y seguro para una punción lumbar en el adulto?",
+   "options": [
+    "Espacio T12–L1",
+    "Espacio S2–S3",
+    "Espacio L1–L2",
+    "Espacio L3–L4 o L4–L5",
+    "Espacio T10–T11"
+   ],
+   "answer": 3,
+   "explanation": "La línea que une los puntos más altos de ambas crestas ilíacas (línea de Tuffier) pasa aproximadamente por la apófisis espinosa de L4. Como la médula termina en L1–L2, una aguja introducida en L3–L4 o L4–L5 solo aparta las raíces de la cola de caballo.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ne-f7851598",
+   "group": "Médula espinal y meninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "En la punción lumbar, ¿cuál es el último ligamento que atraviesa la aguja antes de entrar en el espacio epidural?",
+   "options": [
+    "Ligamento amarillo",
+    "Ligamento supraespinoso",
+    "Ligamento interespinoso",
+    "Ligamento dentado",
+    "Ligamento longitudinal posterior"
+   ],
+   "answer": 0,
+   "explanation": "La aguja atraviesa sucesivamente la piel, el tejido subcutáneo y los ligamentos supraespinoso, interespinoso y amarillo hasta el espacio epidural, y luego la duramadre y la aracnoides hasta el espacio subaracnoideo. La pérdida de resistencia al pasar el ligamento amarillo guía la anestesia epidural.",
+   "entries": [
+    "ligg-columnae",
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-6dcbddb7",
+   "group": "Médula espinal y meninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente apuñalado en la espalda tiene parálisis motora y pérdida de la sensibilidad profunda (vibración, posición) por debajo de T10 en el lado derecho y pérdida del dolor y la temperatura desde aproximadamente T12 en el izquierdo. ¿Cuál es la lesión?",
+   "options": [
+    "Hemisección de la mitad izquierda de la médula",
+    "Hemisección de la mitad derecha de la médula (síndrome de Brown-Séquard)",
+    "Síndrome cordonal posterior",
+    "Síndrome de la arteria espinal anterior",
+    "Síndrome centromedular"
+   ],
+   "answer": 1,
+   "explanation": "En la hemisección se afectan en el mismo lado el tracto corticoespinal (parálisis motora) y el cordón posterior (sensibilidad profunda). Como las fibras del dolor y la temperatura se cruzan 1–2 segmentos por encima de su entrada, la pérdida de estas sensibilidades aparece en el lado opuesto, unos segmentos por debajo de la lesión.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-a9f875c2",
+   "group": "Médula espinal y meninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué vía lleva el tacto fino y la propiocepción del miembro inferior?",
+   "options": [
+    "Fascículo grácil",
+    "Fascículo cuneiforme",
+    "Tracto espinotalámico lateral",
+    "Tracto corticoespinal lateral",
+    "Tracto espinocerebeloso anterior"
+   ],
+   "answer": 0,
+   "explanation": "En los cordones posteriores, el fascículo grácil, medial, lleva información de la parte baja del tronco y la pierna, y el cuneiforme, lateral (por encima de T6), de la parte alta del tronco y el brazo. Las fibras ascienden del mismo lado, hacen sinapsis en el bulbo (núcleos grácil y cuneiforme) y se cruzan para formar el lemnisco medial.",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-dda468ea",
+   "group": "Médula espinal y meninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente que se quema las manos con una estufa sin darse cuenta presenta una pérdida «en esclavina» del dolor y la temperatura en ambos hombros y brazos; el tacto y el sentido de posición están conservados. ¿Cuál es el diagnóstico más probable?",
+   "options": [
+    "Tabes dorsal",
+    "Síndrome de Brown-Séquard",
+    "Oclusión de la arteria espinal anterior",
+    "Siringomielia cervical",
+    "Degeneración combinada subaguda por déficit de B12"
+   ],
+   "answer": 3,
+   "explanation": "En la siringomielia el conducto central se dilata y daña primero las fibras espinotalámicas que se cruzan en la comisura blanca anterior, por lo que el dolor y la temperatura se pierden en ambos lados, «en esclavina», en los segmentos afectados. Los cordones posteriores se respetan (disociación sensitiva).",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-4634c777",
+   "group": "Médula espinal y meninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes suele conservarse en la oclusión de la arteria espinal anterior?",
+   "options": [
+    "La fuerza motora por debajo de la lesión",
+    "El control de la vejiga y el intestino",
+    "La función de la motoneurona inferior al nivel de la lesión",
+    "La sensibilidad vibratoria y la posicional",
+    "La sensibilidad dolorosa y térmica"
+   ],
+   "answer": 3,
+   "explanation": "La arteria espinal anterior irriga los dos tercios anteriores de la médula: se afectan las astas anteriores y los tractos corticoespinal y espinotalámico. Como los cordones posteriores se irrigan por las arterias espinales posteriores, se conservan la vibración y la propiocepción.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-bcf0f483",
+   "group": "Médula espinal y meninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué vías se afectan en la degeneración combinada subaguda por déficit de vitamina B12?",
+   "options": [
+    "Los cordones posteriores y los tractos corticoespinales laterales",
+    "Solo las motoneuronas del asta anterior",
+    "La comisura blanca anterior y las astas laterales",
+    "Los tractos espinocerebelosos y las raíces posteriores",
+    "Los tractos espinotalámicos y las astas anteriores"
+   ],
+   "answer": 0,
+   "explanation": "El déficit de B12 altera la síntesis de mielina y afecta sobre todo, a la vez, a los cordones posteriores (pérdida de la sensibilidad profunda, ataxia) y a los tractos corticoespinales laterales (espasticidad, signo de Babinski).",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-f37384b3",
+   "group": "Médula espinal y meninges",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un joven golpeado en la cabeza con un bate de béisbol pierde brevemente la consciencia y se recupera; horas después empeora su nivel de consciencia. La TC muestra una hemorragia biconvexa (lenticular) que no cruza las suturas. ¿En qué espacio está la hemorragia y cuál es su origen?",
+   "options": [
+    "Parénquima cerebral – arterias lenticuloestriadas",
+    "Espacio subdural – venas puente",
+    "Espacio subaracnoideo – aneurisma",
+    "Espacio epidural – seno sagital superior",
+    "Espacio epidural – arteria meníngea media"
+   ],
+   "answer": 4,
+   "explanation": "El hematoma epidural se forma entre el cráneo y la duramadre, por lo general por sangrado arterial; como la duramadre está muy adherida a las suturas, no las cruza y tiene forma lenticular. El hematoma subdural se debe a la rotura de venas puente, tiene forma de semiluna, cruza las suturas y es frecuente en ancianos y alcohólicos.",
+   "entries": [
+    "meninges",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-56835093",
+   "group": "Médula espinal y meninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un paciente acude con la peor cefalea de su vida; el LCR es hemorrágico y xantocrómico. ¿Cuál es la causa más frecuente?",
+   "options": [
+    "Rotura de la arteria meníngea media",
+    "Rotura de un aneurisma sacular del círculo arterial cerebral",
+    "Hemorragia del plexo coroideo",
+    "Trombosis del seno cavernoso",
+    "Rotura de las venas puente"
+   ],
+   "answer": 1,
+   "explanation": "La causa más frecuente de hemorragia subaracnoidea no traumática son los aneurismas del polígono de Willis, sobre todo en la unión de la arteria comunicante anterior. La sangre se mezcla con el LCR en el espacio subaracnoideo.",
+   "entries": [
+    "meninges",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-c9d1565d",
+   "group": "Médula espinal y meninges",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué prolongaciones dentadas de la piamadre fijan a cada lado la médula espinal a la duramadre?",
+   "options": [
+    "Filum terminal",
+    "Ligamento amarillo",
+    "Ligamentos dentados",
+    "Ligamento coccígeo",
+    "Tabique cervical intermedio"
+   ],
+   "answer": 2,
+   "explanation": "A cada lado la piamadre forma unas 21 prolongaciones dentadas (ligamentos dentados) que atraviesan la aracnoides, se fijan en la duramadre y mantienen suspendida la médula en el saco dural. El filum terminal va del cono medular al cóccix.",
+   "entries": [
+    "meninges",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-86030d28",
+   "group": "Médula espinal y meninges",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre el espacio epidural del conducto vertebral es correcta?",
+   "options": [
+    "Está lleno de LCR.",
+    "Se continúa libremente con un espacio epidural dentro del cráneo.",
+    "Termina en L1 junto con la médula espinal.",
+    "Está entre la piamadre y la aracnoides.",
+    "Contiene grasa y el plexo venoso vertebral interno."
+   ],
+   "answer": 4,
+   "explanation": "El espacio epidural espinal está entre la duramadre y el periostio del conducto vertebral y contiene grasa y el plexo venoso vertebral interno, sin válvulas (Batson). En el cráneo la duramadre está unida al periostio, por lo que normalmente no hay espacio epidural; el espacio termina en el agujero magno. Estas venas permiten la diseminación vertebral de los cánceres pélvicos y de mama.",
+   "entries": [
+    "meninges",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ne-beeb8a52",
+   "group": "Médula espinal y meninges",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un paciente con una hernia discal lumbar masiva tiene anestesia «en silla de montar» en el periné y la cara interna de los muslos, retención urinaria y tono del esfínter anal disminuido. ¿Qué urgencia es esta?",
+   "options": [
+    "Síndrome del piriforme",
+    "Síndrome de Brown-Séquard",
+    "Compresión unilateral del cono medular",
+    "Meralgia parestésica",
+    "Síndrome de la cola de caballo"
+   ],
+   "answer": 4,
+   "explanation": "Cuando se comprimen las raíces nerviosas por debajo de L1–L2 (cola de caballo), se afectan la piel del periné, la vejiga y el esfínter anal inervados por las raíces sacras. Requiere descompresión quirúrgica urgente.",
+   "entries": [
+    "cauda-equina",
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ne-80f02adb",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál es el único sentido que no hace sinapsis en el tálamo antes de llegar a la corteza?",
+   "options": [
+    "La vista",
+    "El olfato",
+    "El oído",
+    "El tacto",
+    "El gusto"
+   ],
+   "answer": 1,
+   "explanation": "Las fibras olfatorias hacen sinapsis en el bulbo olfatorio; el tracto olfatorio va directamente a áreas como la corteza piriforme y la amígdala. Todos los demás sentidos se relevan en el tálamo antes de llegar a la corteza.",
+   "entries": [
+    "n-olfactorius",
+    "organum-olfactus"
+   ]
+  },
+  {
+   "id": "ne-f7431de4",
+   "group": "Nervios craneales",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Un paciente con cefalea y alteraciones visuales ha perdido los campos visuales externos (temporales) de ambos ojos. Se sospecha un adenoma hipofisario. ¿Qué estructura está comprimida?",
+   "options": [
+    "Radiación óptica",
+    "Nervio óptico",
+    "Cuerpo geniculado lateral",
+    "Quiasma óptico",
+    "Tracto óptico"
+   ],
+   "answer": 3,
+   "explanation": "En el quiasma óptico se cruzan las fibras de las mitades nasales de ambas retinas, que llevan los campos visuales temporales. Un tumor hipofisario que las comprime desde abajo produce hemianopsia bitemporal.",
+   "entries": [
+    "n-opticus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-c94ccfe0",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué defecto del campo visual produce una lesión del tracto óptico derecho?",
+   "options": [
+    "Hemianopsia homónima derecha",
+    "Ceguera completa del ojo derecho",
+    "Hemianopsia homónima izquierda",
+    "Hemianopsia bitemporal",
+    "Cuadrantanopsia superior izquierda"
+   ],
+   "answer": 2,
+   "explanation": "Todas las lesiones por detrás del quiasma producen un defecto homónimo en el campo visual opuesto. El tracto óptico derecho lleva fibras de la retina temporal del ojo derecho y de la retina nasal del ojo izquierdo, es decir, del campo visual izquierdo.",
+   "entries": [
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-cbc1f080",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué defecto se espera tras una lesión de las fibras de la radiación óptica que atraviesan el lóbulo temporal (asa de Meyer)?",
+   "options": [
+    "Cuadrantanopsia homónima superior contralateral",
+    "Cuadrantanopsia superior ipsilateral",
+    "Hemianopsia completa con respeto macular",
+    "Cuadrantanopsia homónima inferior contralateral",
+    "Hemianopsia bitemporal"
+   ],
+   "answer": 0,
+   "explanation": "Las fibras inferiores de la radiación óptica (de la mitad inferior de la retina, que llevan el campo visual superior) forman el asa de Meyer en el lóbulo temporal; su lesión produce cuadrantanopsia superior contralateral. Las lesiones parietales afectan al cuadrante inferior.",
+   "entries": [
+    "n-opticus",
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-48c33959",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con una cefalea brusca e intensa tiene ptosis, una pupila fija y dilatada y desviación del ojo derecho hacia abajo y afuera. ¿El aneurisma de qué arteria causa con más frecuencia este cuadro?",
+   "options": [
+    "Arteria cerebral media",
+    "Arteria comunicante posterior",
+    "Arteria oftálmica",
+    "Arteria comunicante anterior",
+    "Punta de la arteria basilar"
+   ],
+   "answer": 1,
+   "explanation": "El nervio oculomotor pasa justo al lado de la comunicante posterior. Como las fibras parasimpáticas pupilares van por la superficie del nervio, la compresión externa (aneurisma) afecta pronto a la pupila. En la parálisis diabética (isquémica) del III se afecta el interior del nervio y la pupila suele respetarse.",
+   "entries": [
+    "n-oculomotorius",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-0abd7abf",
+   "group": "Nervios craneales",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿En qué opción están bien emparejadas las tres ramas del nervio trigémino con los orificios por los que salen del cráneo?",
+   "options": [
+    "V1 – agujero redondo, V2 – agujero oval, V3 – agujero espinoso",
+    "V1 – fisura orbitaria superior, V2 – agujero redondo, V3 – agujero oval",
+    "V1 – agujero oval, V2 – agujero redondo, V3 – fisura orbitaria superior",
+    "V1 – conducto óptico, V2 – fisura orbitaria inferior, V3 – agujero oval",
+    "V1 – fisura orbitaria superior, V2 – agujero oval, V3 – agujero redondo"
+   ],
+   "answer": 1,
+   "explanation": "El nervio oftálmico pasa por la fisura orbitaria superior a la órbita, el maxilar por el agujero redondo a la fosa pterigopalatina y el mandibular por el agujero oval a la fosa infratemporal. Solo el V3 contiene fibras motoras.",
+   "entries": [
+    "n-trigeminus",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "ne-3ea7d066",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes músculos NO está inervado por el nervio mandibular (V3)?",
+   "options": [
+    "Vientre anterior del digástrico",
+    "Músculo estapedio",
+    "Músculo tensor del tímpano",
+    "Músculo tensor del velo del paladar",
+    "Músculo milohioideo"
+   ],
+   "answer": 1,
+   "explanation": "El V3 inerva los músculos del primer arco faríngeo: los masticadores, el tensor del tímpano, el tensor del velo del paladar, el milohioideo y el vientre anterior del digástrico. El estapedio es un músculo del segundo arco inervado por el facial; su parálisis produce hiperacusia.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "ne-119b3c5e",
+   "group": "Nervios craneales",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervios forman las vías aferente y eferente del reflejo corneal?",
+   "options": [
+    "Aferente: nervio oftálmico – Eferente: nervio oculomotor",
+    "Aferente: nervio maxilar (V2) – Eferente: nervio oculomotor",
+    "Aferente: nervio óptico (II) – Eferente: nervio oculomotor (III)",
+    "Aferente: nervio oftálmico (V1) – Eferente: nervio facial (VII)",
+    "Aferente: nervio facial – Eferente: nervio trigémino"
+   ],
+   "answer": 3,
+   "explanation": "El contacto con la córnea lo percibe el nervio nasociliar (V1); en respuesta se contrae el orbicular de los párpados (VII) en ambos ojos. En el reflejo fotomotor la vía aferente es el II y la eferente el III.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "cornea"
+   ]
+  },
+  {
+   "id": "ne-2746f878",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con parálisis facial que comenzó con dolor detrás de la oreja no puede arrugar la frente ni cerrar el ojo del mismo lado, pero el gusto, la secreción lagrimal y la audición son normales. ¿Dónde está la lesión?",
+   "options": [
+    "En el núcleo del facial en la protuberancia",
+    "A la altura del ganglio geniculado",
+    "Justo antes de la salida de la cuerda del tímpano",
+    "En el agujero estilomastoideo o distal a él",
+    "En el conducto auditivo interno"
+   ],
+   "answer": 3,
+   "explanation": "En el conducto facial el nervio facial da sucesivamente el nervio petroso mayor (glándula lagrimal), el nervio del estapedio y la cuerda del tímpano (gusto de los dos tercios anteriores de la lengua). Si solo se afectan los músculos de la mímica, la lesión está después de todas estas ramas, en el agujero estilomastoideo o en la parótida.",
+   "entries": [
+    "n-facialis",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-f733b124",
+   "group": "Nervios craneales",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué opción enumera correctamente las ramas terminales en que se divide el nervio facial dentro de la parótida?",
+   "options": [
+    "Ramas temporales, infraorbitarias, bucales, mentonianas y cervical",
+    "Ramas oftálmica, maxilar, mandibular, bucales y cervical",
+    "Ramas auricular, temporales, lingual, bucales y mentoniana",
+    "Ramas frontal, cigomáticas, lingual, mandibular y cervical",
+    "Ramas temporales, cigomáticas, bucales, marginal de la mandíbula y cervical"
+   ],
+   "answer": 4,
+   "explanation": "Tras salir por el agujero estilomastoideo el nervio facial forma la pata de ganso dentro de la parótida y se divide en cinco ramas terminales. Preservarlas es la prioridad de la cirugía parotídea; el nervio no inerva la glándula.",
+   "entries": [
+    "n-facialis",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-fe75f44a",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente con hipoacusia unilateral progresiva y acúfenos tiene el reflejo corneal disminuido del mismo lado. La RM muestra una masa en el ángulo pontocerebeloso. ¿Cuál es el diagnóstico más probable?",
+   "options": [
+    "Adenoma hipofisario",
+    "Craneofaringioma",
+    "Schwannoma vestibular (neurinoma del acústico)",
+    "Tumor del glomus yugular",
+    "Meningioma (surco olfatorio)"
+   ],
+   "answer": 2,
+   "explanation": "El schwannoma vestibular nace de las células de Schwann de la porción vestibular del nervio vestibulococlear, crece en el conducto auditivo interno y se extiende al ángulo pontocerebeloso. Al crecer puede comprimir el nervio trigémino (reflejo corneal) y el facial.",
+   "entries": [
+    "n-vestibulocochlearis",
+    "pons",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-f804d1d2",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes afirmaciones sobre el nervio glosofaríngeo es FALSA?",
+   "options": [
+    "Estimula la secreción parotídea a través del ganglio ótico.",
+    "Es la vía aferente del reflejo nauseoso.",
+    "Lleva el gusto de los dos tercios anteriores de la lengua.",
+    "Lleva información de los barorreceptores del seno carotídeo.",
+    "Lleva el gusto y la sensibilidad general del tercio posterior de la lengua."
+   ],
+   "answer": 2,
+   "explanation": "El IX lleva el gusto y la sensibilidad general del tercio posterior de la lengua, la mucosa faríngea y la información del seno y el cuerpo carotídeos; su único músculo es el estilofaríngeo. El gusto de los dos tercios anteriores lo lleva la cuerda del tímpano (VII) y la sensibilidad general, el nervio lingual (V3).",
+   "entries": [
+    "n-glossopharyngeus",
+    "gustus"
+   ]
+  },
+  {
+   "id": "ne-c4430a06",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Al pedirle que diga «aaa», la úvula del paciente se desvía a la derecha. ¿Qué nervio y de qué lado está afectado?",
+   "options": [
+    "Nervio vago izquierdo",
+    "Nervio facial izquierdo",
+    "Nervio hipogloso derecho",
+    "Nervio vago derecho",
+    "Nervio glosofaríngeo izquierdo"
+   ],
+   "answer": 0,
+   "explanation": "Los músculos del velo del paladar (elevador del velo y otros) están inervados por el vago. Si un lado está paralizado, el lado sano tira del paladar hacia sí, de modo que la úvula se desvía hacia el lado sano, opuesto a la lesión. La lengua, en cambio, se desvía hacia el lado de la lesión.",
+   "entries": [
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-bc679c52",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Bajo qué estructura se curva el nervio laríngeo recurrente izquierdo antes de volver a ascender?",
+   "options": [
+    "Vena braquiocefálica izquierda",
+    "Tronco braquiocefálico",
+    "Arco de la aorta (justo lateral al ligamento arterioso)",
+    "Arteria subclavia izquierda",
+    "Bronquio principal izquierdo"
+   ],
+   "answer": 2,
+   "explanation": "El recurrente izquierdo rodea el arco aórtico junto al ligamento arterioso; el derecho se curva bajo la arteria subclavia derecha. Por su largo trayecto, el nervio izquierdo puede comprimirse por un aneurisma aórtico, una aurícula izquierda dilatada o un tumor pulmonar, causando disfonía.",
+   "entries": [
+    "n-vagus",
+    "aorta",
+    "larynx"
+   ]
+  },
+  {
+   "id": "ne-e83d1843",
+   "group": "Nervios craneales",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervios craneales llevan fibras parasimpáticas?",
+   "options": [
+    "III, VII, IX y X",
+    "V, VII, IX y XI",
+    "II, III, VII y XII",
+    "VII, IX, X y XII",
+    "III, IV, V y VI"
+   ],
+   "answer": 0,
+   "explanation": "La salida parasimpática craneal viaja por cuatro nervios: III (ganglio ciliar – pupila y acomodación), VII (ganglios pterigopalatino y submandibular), IX (ganglio ótico – parótida) y X (órganos torácicos y abdominales).",
+   "entries": [
+    "systema-autonomicum",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-a9ee3049",
+   "group": "Nervios craneales",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál es el único nervio craneal que sale de la cara dorsal (posterior) del tronco del encéfalo?",
+   "options": [
+    "Nervio accesorio",
+    "Nervio oculomotor",
+    "Nervio trigémino",
+    "Nervio abducens",
+    "Nervio troclear"
+   ],
+   "answer": 4,
+   "explanation": "Las fibras del troclear se cruzan en el mesencéfalo y salen por la cara dorsal por debajo de los colículos inferiores. Es el nervio craneal más fino y el de trayecto intracraneal más largo. Inerva el oblicuo superior del lado opuesto.",
+   "entries": [
+    "n-trochlearis",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-e3ffe10b",
+   "group": "Nervios craneales",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Tras exprimir un forúnculo de la cara, un paciente presenta fiebre, edema periorbitario y proptosis; se sospecha una trombosis del seno cavernoso. ¿Qué nervio craneal se espera que se afecte primero y por qué?",
+   "options": [
+    "El nervio maxilar, porque está en el suelo del seno",
+    "El nervio oculomotor, porque es el más alto en la pared lateral del seno",
+    "El nervio óptico, porque atraviesa el seno",
+    "El nervio troclear, porque discurre libre dentro del seno",
+    "El nervio abducens, porque discurre libre dentro del seno junto con la arteria carótida interna"
+   ],
+   "answer": 4,
+   "explanation": "En la pared lateral del seno cavernoso están, de arriba abajo, el III, el IV, el V1 y el V2; dentro del seno, la carótida interna y el nervio abducens. Por eso la parálisis del VI (limitación de la mirada lateral) suele ser el primer signo. El «triángulo peligroso» de la cara comunica con el seno por las venas oftálmicas.",
+   "entries": [
+    "n-abducens",
+    "sinus-durae-matris",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "ne-eed7e04e",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cómo se nombran los fascículos del plexo braquial?",
+   "options": [
+    "Por su posición respecto a la segunda porción de la arteria axilar",
+    "Por su posición respecto al escaleno anterior",
+    "Por su posición respecto a la clavícula",
+    "Por el compartimento que inervan",
+    "Por los segmentos medulares de los que proceden"
+   ],
+   "answer": 0,
+   "explanation": "Los fascículos lateral, medial y posterior rodean la segunda porción de la arteria axilar por detrás del pectoral menor y reciben su nombre por su posición respecto a ella. Las raíces (C5–T1) están en el desfiladero de los escalenos, los troncos en el triángulo posterior y las divisiones detrás de la clavícula.",
+   "entries": [
+    "plexus-brachialis",
+    "a-axillaris"
+   ]
+  },
+  {
+   "id": "ne-3c25db81",
+   "group": "Nervios espinales y plexos",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Tras un parto difícil con distocia de hombros, el brazo del bebé queda junto al cuerpo en aducción y rotación interna, con el codo extendido y el antebrazo en pronación (posición de «propina del camarero»). ¿Qué estructura está afectada?",
+   "options": [
+    "Nervio musculocutáneo",
+    "Tronco inferior del plexo braquial (C8–T1) – parálisis de Klumpke",
+    "Tronco superior del plexo braquial (C5–C6) – parálisis de Erb–Duchenne",
+    "Nervio axilar",
+    "Fascículo posterior"
+   ],
+   "answer": 2,
+   "explanation": "La separación forzada entre la cabeza y el hombro estira el tronco superior. Se paralizan el deltoides, el supraespinoso, el infraespinoso (abducción y rotación externa), el bíceps y el braquial (flexión del codo) y los supinadores; el brazo adopta la posición típica.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-7352de71",
+   "group": "Nervios espinales y plexos",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente que se agarró a una rama al caer, de modo que el brazo fue traccionado con fuerza hacia arriba, presenta mano en garra, atrofia de los músculos intrínsecos, pérdida sensitiva en la cara interna del antebrazo y ptosis con miosis del mismo lado. ¿Cuál es la lesión?",
+   "options": [
+    "Tronco inferior del plexo braquial (C8–T1) – parálisis de Klumpke",
+    "Tronco superior del plexo braquial (C5–C6)",
+    "Lesión del nervio radial en la axila",
+    "Fascículo lateral",
+    "Lesión del nervio mediano en la muñeca"
+   ],
+   "answer": 0,
+   "explanation": "La tracción forzada del brazo en abducción estira el tronco inferior (C8–T1): se paralizan los músculos intrínsecos de la mano y aparece la mano en garra. La afectación de las fibras simpáticas próximas a la raíz T1 (ganglio estrellado) explica el síndrome de Horner.",
+   "entries": [
+    "plexus-brachialis",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-abc65d94",
+   "group": "Nervios espinales y plexos",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes nervios NO procede del fascículo posterior del plexo braquial?",
+   "options": [
+    "Nervio subescapular superior",
+    "Nervio toracodorsal",
+    "Nervio musculocutáneo",
+    "Nervio radial",
+    "Nervio axilar"
+   ],
+   "answer": 2,
+   "explanation": "El fascículo posterior da las ramas para la cara posterior del hombro y el brazo: los nervios subescapulares superior e inferior, el toracodorsal, el axilar y el radial. El musculocutáneo nace del fascículo lateral e inerva el compartimento anterior del brazo.",
+   "entries": [
+    "plexus-brachialis",
+    "n-musculocutaneus"
+   ]
+  },
+  {
+   "id": "ne-b856c3f9",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A partir de qué partes del plexo braquial se forma el nervio mediano?",
+   "options": [
+    "Fascículo lateral y fascículo posterior",
+    "Fascículo lateral y fascículo medial",
+    "Solo el fascículo lateral",
+    "Tronco superior y tronco medio",
+    "Fascículo posterior y fascículo medial"
+   ],
+   "answer": 1,
+   "explanation": "El nervio mediano se forma por la unión, delante de la arteria axilar, de dos raíces de los fascículos lateral y medial (C6–T1, a veces con fibras de C5). No da ramas en el brazo; inerva la mayoría de los flexores del antebrazo y los músculos tenares.",
+   "entries": [
+    "n-medianus",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-cd2e97f1",
+   "group": "Nervios espinales y plexos",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué nervios no dan ninguna rama en el brazo?",
+   "options": [
+    "Nervio cubital y nervio radial",
+    "Nervio musculocutáneo y nervio mediano",
+    "Nervio axilar y nervio radial",
+    "Nervio radial y nervio musculocutáneo",
+    "Nervio mediano y nervio cubital"
+   ],
+   "answer": 4,
+   "explanation": "Aunque el mediano y el cubital recorren el brazo, no dan allí ramas motoras ni sensitivas; sus ramas están en el antebrazo y la mano. El compartimento anterior del brazo lo inerva el musculocutáneo y el posterior, el radial.",
+   "entries": [
+    "n-medianus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-cfd5de8f",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes correspondencias de dermatomas es incorrecta?",
+   "options": [
+    "T10 – ombligo",
+    "S1 – borde lateral del pie y talón",
+    "L1 – ingle",
+    "C8 – pulgar",
+    "T4 – pezón"
+   ],
+   "answer": 3,
+   "explanation": "En la mano el pulgar es C6, el dedo medio C7 y el meñique C8. En el tronco T4 es el pezón, T10 el ombligo y L1 la ingle; en la pierna L4 es el maléolo medial, L5 el dorso del pie y el primer dedo, y S1 el borde lateral del pie y el talón.",
+   "entries": [
+    "ganglion-spinale",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "ne-78ef009f",
+   "group": "Nervios espinales y plexos",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un paciente obeso que lleva un cinturón apretado tiene ardor, entumecimiento y hormigueo en la cara anterolateral del muslo; la fuerza y los reflejos son normales. ¿Qué nervio está comprimido?",
+   "options": [
+    "Nervio cutáneo femoral lateral",
+    "Nervio femoral",
+    "Nervio genitofemoral",
+    "Nervio safeno",
+    "Nervio obturador"
+   ],
+   "answer": 0,
+   "explanation": "Meralgia parestésica: el nervio cutáneo femoral lateral (L2–L3), puramente sensitivo, se comprime al pasar bajo el ligamento inguinal justo medial a la EIAS. Como no tiene fibras motoras, no hay debilidad.",
+   "entries": [
+    "plexus-lumbalis",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "ne-4b8d4357",
+   "group": "Nervios espinales y plexos",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de los siguientes NO es de esperar tras una lesión del nervio femoral?",
+   "options": [
+    "Pérdida sensitiva en la cara anterior del muslo",
+    "Debilidad marcada de la aducción del muslo",
+    "Debilidad de la extensión de la rodilla",
+    "Pérdida sensitiva en la cara medial de la pierna",
+    "Pérdida del reflejo rotuliano"
+   ],
+   "answer": 1,
+   "explanation": "El nervio femoral (L2–L4) inerva el cuádriceps, el sartorio, el ilíaco y el pectíneo, y recoge la sensibilidad de la cara anterior del muslo y, por el nervio safeno, de la cara medial de la pierna. Los aductores los inerva el nervio obturador.",
+   "entries": [
+    "n-femoralis",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "ne-1b1b302a",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Tras una cirugía pélvica prolongada una paciente tiene dificultad para juntar las piernas y entumecimiento en una pequeña zona de la cara interna del muslo. ¿Qué nervio se lesionó?",
+   "options": [
+    "Nervio obturador",
+    "Nervio femoral",
+    "Nervio genitofemoral",
+    "Nervio pudendo",
+    "Nervio glúteo superior"
+   ],
+   "answer": 0,
+   "explanation": "El nervio obturador (L2–L4) recorre la pared lateral de la pelvis, cerca de la fosa ovárica, y entra en el conducto obturador. Puede lesionarse en la cirugía pélvica, por tumores o en partos difíciles; se debilitan los aductores del muslo y se pierde la sensibilidad de su cara interna.",
+   "entries": [
+    "n-obturatorius",
+    "mm-adductores"
+   ]
+  },
+  {
+   "id": "ne-96063403",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿A qué nivel se divide con más frecuencia el nervio ciático en sus dos ramas terminales (nervio tibial y nervio peroneo común)?",
+   "options": [
+    "Al salir del agujero ciático mayor",
+    "En la parte más alta del muslo, en el pliegue glúteo",
+    "En el cuello del peroné",
+    "Detrás del maléolo medial",
+    "En el ángulo superior de la fosa poplítea"
+   ],
+   "answer": 4,
+   "explanation": "El nervio ciático (L4–S3), el más grueso del cuerpo, suele dividirse en el vértice de la fosa poplítea. A veces la división es más alta y la porción peronea atraviesa el piriforme.",
+   "entries": [
+    "n-ischiadicus",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "ne-7800f94a",
+   "group": "Nervios espinales y plexos",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Cuál de las siguientes resulta de una lesión del nervio tibial en la fosa poplítea?",
+   "options": [
+    "Pie caído y pérdida sensitiva en el dorso del pie",
+    "Pérdida sensitiva en la cara medial de la pierna",
+    "Pérdida de la flexión plantar del pie y de la flexión de los dedos, pérdida sensitiva en la planta",
+    "Pérdida de la extensión de la rodilla",
+    "Pérdida de la eversión del pie"
+   ],
+   "answer": 2,
+   "explanation": "El nervio tibial inerva los músculos del compartimento posterior (tríceps sural, tibial posterior, flexores largos) y, por sus ramas plantares, los músculos de la planta. Tras su lesión el pie queda en flexión dorsal y eversión (pie talo valgo), no se puede andar de puntillas y se pierde la sensibilidad de la planta.",
+   "entries": [
+    "n-tibialis",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "ne-bbd6023c",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Qué nervio inerva el esfínter anal externo?",
+   "options": [
+    "Plexo hipogástrico inferior",
+    "Nervio obturador",
+    "Nervios esplácnicos pélvicos",
+    "Nervio genitofemoral",
+    "Nervio pudendo (nervio rectal inferior)"
+   ],
+   "answer": 4,
+   "explanation": "Los esfínteres anal externo y uretral externo, de control voluntario, los inerva el nervio pudendo (S2–S4). Los esfínteres internos son músculo liso y están controlados por nervios autónomos.",
+   "entries": [
+    "n-pudendus",
+    "rectum"
+   ]
+  },
+  {
+   "id": "ne-91182414",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Los cuerpos de qué células contiene el ganglio espinal (ganglio de la raíz dorsal)?",
+   "options": [
+    "Interneuronas",
+    "Neuronas simpáticas preganglionares",
+    "Neuronas parasimpáticas posganglionares",
+    "Motoneuronas inferiores",
+    "Neuronas sensitivas seudounipolares"
+   ],
+   "answer": 4,
+   "explanation": "La prolongación periférica de las neuronas seudounipolares del ganglio espinal recibe información de los receptores y la central entra en la médula por la raíz dorsal. En este ganglio no hay sinapsis. El virus del herpes zóster permanece latente aquí.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d3c5354b",
+   "group": "Nervios espinales y plexos",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Si el nervio radial se comprime en la axila en un paciente que usa mal las muletas, ¿qué se observa además, a diferencia de una lesión a nivel del surco del nervio radial?",
+   "options": [
+    "Debilidad del tríceps braquial y disminución del reflejo tricipital",
+    "No hay mano caída.",
+    "Atrofia de los músculos intrínsecos de la mano",
+    "Debilidad del bíceps braquial",
+    "Pérdida sensitiva en la palma"
+   ],
+   "answer": 0,
+   "explanation": "Las ramas del tríceps salen del nervio radial en la axila y la parte alta del brazo. En una lesión axilar (por muletas) también se afecta la extensión del codo; en una lesión a nivel de la diáfisis humeral el tríceps suele respetarse. Ambas producen mano caída.",
+   "entries": [
+    "n-radialis",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "ne-ae42ee32",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De qué segmentos medulares procede el nervio frénico?",
+   "options": [
+    "C7–T1",
+    "C1–C3",
+    "C3–C5",
+    "T1–T2",
+    "C5–C7"
+   ],
+   "answer": 2,
+   "explanation": "«C3, C4 y C5 mantienen vivo el diafragma.» El frénico es la rama más importante del plexo cervical; C4 hace el aporte principal. En las lesiones medulares por encima de C3 cesa la respiración espontánea.",
+   "entries": [
+    "n-phrenicus",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "ne-adea3654",
+   "group": "Sistema nervioso autónomo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde están en la médula espinal los cuerpos de las neuronas simpáticas preganglionares?",
+   "options": [
+    "En el asta posterior de todos los segmentos",
+    "En el asta lateral de los segmentos T1–L2 (núcleo intermediolateral)",
+    "En el asta anterior de los segmentos S2–S4",
+    "En los núcleos parasimpáticos del tronco del encéfalo",
+    "En el asta lateral de los segmentos C1–C8"
+   ],
+   "answer": 1,
+   "explanation": "El simpático tiene salida toracolumbar: las neuronas preganglionares están en el asta lateral de T1–L2 y llegan a la cadena simpática por los ramos comunicantes blancos. El parasimpático es craneosacro (III, VII, IX, X y S2–S4).",
+   "entries": [
+    "truncus-sympathicus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-d3fdff6f",
+   "group": "Sistema nervioso autónomo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿En qué ganglio hacen sinapsis las fibras parasimpáticas destinadas a la glándula lagrimal?",
+   "options": [
+    "Ganglio ótico",
+    "Ganglio cervical superior",
+    "Ganglio submandibular",
+    "Ganglio pterigopalatino",
+    "Ganglio ciliar"
+   ],
+   "answer": 3,
+   "explanation": "Las fibras salen del facial con el nervio petroso mayor y llegan al ganglio pterigopalatino por el nervio del conducto pterigoideo; las posganglionares estimulan la glándula a través de los nervios cigomático y lagrimal. Por eso las lesiones del VII proximales al ganglio geniculado producen ojo seco.",
+   "entries": [
+    "n-facialis",
+    "apparatus-lacrimalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-41a47503",
+   "group": "Sistema nervioso autónomo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿En qué nervio se originan las fibras parasimpáticas que estimulan la secreción parotídea y en qué ganglio hacen sinapsis?",
+   "options": [
+    "Nervio glosofaríngeo – ganglio ciliar",
+    "Nervio glosofaríngeo – ganglio ótico",
+    "Nervio facial – ganglio submandibular",
+    "Nervio facial – ganglio pterigopalatino",
+    "Nervio vago – ganglio ótico"
+   ],
+   "answer": 1,
+   "explanation": "El ramo timpánico del IX forma el nervio petroso menor; las fibras hacen sinapsis en el ganglio ótico y llegan a la parótida con el nervio auriculotemporal (V3). Las glándulas submandibular y sublingual se estimulan por las fibras de la cuerda del tímpano (VII).",
+   "entries": [
+    "n-glossopharyngeus",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-196a637e",
+   "group": "Sistema nervioso autónomo",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Un fumador de larga evolución tiene dolor que se irradia al hombro derecho y la cara interna del brazo, ptosis leve y miosis del ojo derecho y ausencia de sudoración en la hemicara derecha. ¿Cuál es la causa más probable?",
+   "options": [
+    "Parálisis facial derecha",
+    "Miastenia grave",
+    "Ictus del hemisferio izquierdo",
+    "Parálisis del oculomotor derecho",
+    "Un tumor de Pancoast del vértice pulmonar derecho que afecta a la cadena simpática cervical"
+   ],
+   "answer": 4,
+   "explanation": "El síndrome de Horner (ptosis – músculo tarsal superior, miosis – dilatador de la pupila, anhidrosis) se debe a una lesión en cualquier punto de la vía simpática. Un tumor del vértice pulmonar afecta al ganglio estrellado y al tronco inferior (C8–T1), produciendo Horner y dolor en el brazo.",
+   "entries": [
+    "truncus-sympathicus",
+    "pulmones",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-829e615f",
+   "group": "Sistema nervioso autónomo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre la inervación simpática de la médula suprarrenal es correcta?",
+   "options": [
+    "La médula no recibe inervación autónoma.",
+    "Las células cromafines son estimuladas por neuronas posganglionares.",
+    "Las fibras posganglionares proceden del ganglio celíaco.",
+    "Las fibras preganglionares terminan directamente en las células medulares; la médula se comporta como un ganglio.",
+    "Recibe fibras parasimpáticas por el nervio vago."
+   ],
+   "answer": 3,
+   "explanation": "Las células cromafines de la médula suprarrenal proceden de la cresta neural y se consideran neuronas posganglionares modificadas. Las fibras preganglionares que llegan por los nervios esplácnicos hacen sinapsis directamente con ellas y estimulan la liberación de adrenalina y noradrenalina.",
+   "entries": [
+    "glandula-suprarenalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-86aa969a",
+   "group": "Sistema nervioso autónomo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué neurotransmisor liberan las fibras posganglionares en la inervación simpática de las glándulas sudoríparas?",
+   "options": [
+    "Adrenalina",
+    "Serotonina",
+    "Dopamina",
+    "Noradrenalina",
+    "Acetilcolina"
+   ],
+   "answer": 4,
+   "explanation": "La mayoría de las fibras simpáticas posganglionares son noradrenérgicas, pero las de las glándulas sudoríparas ecrinas son colinérgicas (receptores muscarínicos). Por eso los anticolinérgicos reducen la sudoración.",
+   "entries": [
+    "glandulae-cutis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-bdaebe1a",
+   "group": "Sistema nervioso autónomo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre los nervios esplácnicos pélvicos es correcta?",
+   "options": [
+    "Solo contienen fibras sensitivas.",
+    "Llevan fibras simpáticas preganglionares de T5–T9.",
+    "Llevan fibras simpáticas posganglionares.",
+    "Son las ramas pélvicas del nervio vago.",
+    "Llevan fibras parasimpáticas preganglionares de S2–S4."
+   ],
+   "answer": 4,
+   "explanation": "Los nervios esplácnicos pélvicos (nervios erectores) llevan las fibras parasimpáticas de la vejiga (contracción del detrusor), el recto, el colon descendente y sigmoide, y las de la erección. Los esplácnicos torácicos (mayor T5–T9, menor T10–T11, imo T12) son simpáticos.",
+   "entries": [
+    "systema-autonomicum",
+    "vesica-urinaria"
+   ]
+  },
+  {
+   "id": "ne-f843505f",
+   "group": "Sistema nervioso autónomo",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Al comienzo de una apendicitis el paciente describe un dolor mal delimitado alrededor del ombligo; horas después el dolor se fija en la fosa ilíaca derecha. ¿Por qué el dolor inicial se siente alrededor del ombligo?",
+   "options": [
+    "El nervio ilioinguinal inerva el apéndice.",
+    "El peritoneo parietal se afecta pronto.",
+    "Se irrita el nervio frénico.",
+    "El apéndice está justo detrás del ombligo.",
+    "Las aferencias viscerales del apéndice entran en el segmento T10 y el dolor se refiere a ese dermatoma."
+   ],
+   "answer": 4,
+   "explanation": "El dolor visceral de los órganos derivados del intestino medio viaja con fibras simpáticas al segmento T10 y se refiere a la región periumbilical. Cuando la inflamación alcanza el peritoneo parietal, su inervación somática localiza el dolor en el punto de McBurney.",
+   "entries": [
+    "appendix-vermiformis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-6eb71b69",
+   "group": "Sistema nervioso autónomo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Hasta dónde llega aproximadamente la inervación parasimpática del nervio vago en el tubo digestivo?",
+   "options": [
+    "Hasta el tercio izquierdo del colon transverso (cerca del ángulo cólico izquierdo)",
+    "Hasta el comienzo del colon sigmoide",
+    "Hasta el final del recto",
+    "Hasta el final del duodeno",
+    "Hasta el final del íleon"
+   ],
+   "answer": 0,
+   "explanation": "El vago inerva los derivados del intestino anterior y medio (hasta unos dos tercios del colon transverso). A partir del ángulo cólico izquierdo, los derivados del intestino posterior reciben las fibras parasimpáticas de los nervios esplácnicos pélvicos (S2–S4).",
+   "entries": [
+    "n-vagus",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "ne-dd43e180",
+   "group": "Sistema nervioso autónomo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿De la fusión de qué ganglios se forma el ganglio estrellado?",
+   "options": [
+    "El ganglio cervical inferior y el primer ganglio torácico",
+    "Los ganglios celíaco y aorticorrenal",
+    "Los ganglios ciliar y pterigopalatino",
+    "El ganglio cervical medio y el segundo torácico",
+    "Los ganglios cervicales superior y medio"
+   ],
+   "answer": 0,
+   "explanation": "En la mayoría de las personas el ganglio estrellado (cervicotorácico) se forma por fusión del ganglio cervical inferior y el T1; está delante del cuello de la primera costilla, detrás del origen de la arteria vertebral. Su bloqueo se usa en el dolor de origen simpático del miembro superior y produce síndrome de Horner.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-53acb8d2",
+   "group": "Sistema nervioso autónomo",
+   "level": "tus",
+   "clinical": false,
+   "stem": "¿Qué afirmación sobre los ramos comunicantes blancos es correcta?",
+   "options": [
+    "Solo existen en los nervios espinales T1–L2 y llevan fibras preganglionares mielínicas.",
+    "Existen en todos los nervios espinales.",
+    "Llevan fibras parasimpáticas a la cadena simpática.",
+    "Llevan fibras posganglionares amielínicas.",
+    "Solo existen en los nervios cervicales."
+   ],
+   "answer": 0,
+   "explanation": "Los ramos blancos se ven blancos porque las fibras preganglionares son mielínicas, y solo existen en los segmentos T1–L2, donde está la salida simpática. Los ramos grises (posganglionares amielínicos) vuelven desde la cadena a todos los nervios espinales, de modo que los vasos, las glándulas sudoríparas y los músculos erectores del pelo de toda la piel reciben fibras simpáticas.",
+   "entries": [
+    "truncus-sympathicus",
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-04a5f34d",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el mayor haz de fibras comisurales que une los dos hemisferios cerebrales?",
+   "options": [
+    "Corona radiada",
+    "Cápsula interna",
+    "Cuerpo calloso",
+    "Fórnix",
+    "Comisura anterior"
+   ],
+   "answer": 2,
+   "explanation": "El cuerpo calloso es la mayor comisura y une la corteza de ambos hemisferios. La cápsula interna y la corona radiada son fibras de proyección que unen la corteza con centros inferiores; el fórnix es la vía de salida del hipocampo.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-7ac85b98",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué giro está la corteza motora primaria?",
+   "options": [
+    "Giro poscentral",
+    "Giro angular",
+    "Giro precentral",
+    "Giro del cíngulo",
+    "Giro temporal superior"
+   ],
+   "answer": 2,
+   "explanation": "La corteza motora primaria (área 4 de Brodmann) está en el giro precentral, justo delante del surco central. Inicia los movimientos voluntarios de la mitad opuesta del cuerpo; su mapa se conoce como homúnculo motor.",
+   "entries": [
+    "gyrus-precentralis"
+   ]
+  },
+  {
+   "id": "ne-2c3b62da",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué giro está la corteza somatosensitiva primaria?",
+   "options": [
+    "Giro poscentral",
+    "Giro precentral",
+    "Cúneo",
+    "Giro frontal superior",
+    "Giro parahipocampal"
+   ],
+   "answer": 0,
+   "explanation": "El giro poscentral (áreas 3, 1 y 2 de Brodmann) está justo detrás del surco central y recibe el tacto, el dolor, la temperatura y el sentido de posición de la mitad opuesta del cuerpo.",
+   "entries": [
+    "gyrus-postcentralis"
+   ]
+  },
+  {
+   "id": "ne-9f3ed11f",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué lóbulo está la corteza visual primaria?",
+   "options": [
+    "Lóbulo frontal",
+    "Lóbulo occipital (alrededor del surco calcarino)",
+    "Lóbulo temporal",
+    "Ínsula",
+    "Lóbulo parietal"
+   ],
+   "answer": 1,
+   "explanation": "La corteza visual primaria (área 17 de Brodmann) está en la cara medial del lóbulo occipital, a ambos lados del surco calcarino. Su lesión produce pérdida del campo visual opuesto.",
+   "entries": [
+    "lobus-occipitalis"
+   ]
+  },
+  {
+   "id": "ne-d82e578e",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Dónde está la corteza auditiva primaria?",
+   "options": [
+    "Giro temporal inferior",
+    "Giros temporales transversos (Heschl) en el giro temporal superior",
+    "Giro precentral",
+    "Cúneo",
+    "Giro angular"
+   ],
+   "answer": 1,
+   "explanation": "La corteza auditiva primaria (áreas 41–42 de Brodmann) está en los giros temporales transversos (de Heschl), en la cara del giro temporal superior que mira al surco lateral.",
+   "entries": [
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-630caf8b",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué surco separa el lóbulo frontal del parietal?",
+   "options": [
+    "Surco calcarino",
+    "Surco central (de Rolando)",
+    "Surco lateral (de Silvio)",
+    "Surco parietooccipital",
+    "Surco del cíngulo"
+   ],
+   "answer": 1,
+   "explanation": "El surco central separa los lóbulos frontal y parietal; delante está la corteza motora y detrás la sensitiva. El surco lateral separa el lóbulo temporal de los lóbulos frontal y parietal.",
+   "entries": [
+    "lobus-frontalis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-e956823f",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué estructura es la más importante para formar recuerdos nuevos?",
+   "options": [
+    "Cerebelo",
+    "Núcleo caudado",
+    "Tálamo",
+    "Hipocampo",
+    "Cuerpo amigdalino"
+   ],
+   "answer": 3,
+   "explanation": "El hipocampo está en la parte medial del lóbulo temporal y desempeña un papel clave en el paso de la memoria a corto plazo a la de largo plazo; su lesión bilateral impide formar recuerdos nuevos (amnesia anterógrada).",
+   "entries": [
+    "hippocampus"
+   ]
+  },
+  {
+   "id": "ne-2e30cb21",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué núcleo en forma de almendra, situado en la profundidad del lóbulo temporal, desempeña el papel principal en el procesamiento del miedo y las respuestas emocionales?",
+   "options": [
+    "Hipocampo",
+    "Claustro",
+    "Cuerpo mamilar",
+    "Cuerpo amigdalino",
+    "Putamen"
+   ],
+   "answer": 3,
+   "explanation": "La amígdala forma parte del sistema límbico; interviene en la detección del peligro, el miedo y la formación de la memoria emocional. Está justo delante del hipocampo.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-e1589513",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Por qué grupo de núcleos se relevan todos los sentidos, salvo el olfato, antes de llegar a la corteza?",
+   "options": [
+    "Núcleos basales",
+    "Cerebelo",
+    "Hipotálamo",
+    "Hipocampo",
+    "Tálamo"
+   ],
+   "answer": 4,
+   "explanation": "El tálamo es la mayor parte del diencéfalo; la vista, el oído, el gusto y la sensibilidad corporal se relevan en sus núcleos y se envían a las áreas corticales correspondientes. La vía olfatoria llega a la corteza sin pasar por el tálamo.",
+   "entries": [
+    "thalamus"
+   ]
+  },
+  {
+   "id": "ne-ee3fb626",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué estructura regula la temperatura corporal, el hambre, la sed y la secreción hipofisaria?",
+   "options": [
+    "Protuberancia",
+    "Mesencéfalo",
+    "Hipotálamo",
+    "Tálamo",
+    "Glándula pineal"
+   ],
+   "answer": 2,
+   "explanation": "El hipotálamo forma el suelo del tercer ventrículo y la parte baja de sus paredes laterales. Al controlar el sistema autónomo y la hipófisis mantiene el equilibrio del medio interno (homeostasis).",
+   "entries": [
+    "hypothalamus"
+   ]
+  },
+  {
+   "id": "ne-da4674e1",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué estructura produce la mayor parte del líquido cefalorraquídeo (LCR)?",
+   "options": [
+    "Piamadre",
+    "Seno sagital superior",
+    "Plexo coroideo",
+    "Duramadre",
+    "Granulaciones aracnoideas"
+   ],
+   "answer": 2,
+   "explanation": "El LCR se produce sobre todo en los plexos coroideos de los ventrículos (unos 500 ml al día). Las granulaciones aracnoideas lo reabsorben hacia los senos venosos.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a7eeee6f",
+   "group": "Encéfalo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué orificio comunica los ventrículos laterales con el tercer ventrículo?",
+   "options": [
+    "Acueducto del mesencéfalo (Silvio)",
+    "Agujero interventricular (Monro)",
+    "Conducto central",
+    "Abertura lateral (Luschka)",
+    "Abertura media (Magendie)"
+   ],
+   "answer": 1,
+   "explanation": "El LCR pasa de los ventrículos laterales al tercer ventrículo por los agujeros de Monro, de allí al cuarto por el acueducto de Silvio y sale al espacio subaracnoideo por las aberturas de Magendie y Luschka.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a1b6cd84",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué orden, de arriba abajo, están las partes del tronco del encéfalo?",
+   "options": [
+    "Tálamo – mesencéfalo – protuberancia",
+    "Mesencéfalo – protuberancia – bulbo raquídeo",
+    "Protuberancia – mesencéfalo – bulbo raquídeo",
+    "Mesencéfalo – bulbo raquídeo – protuberancia",
+    "Diencéfalo – protuberancia – bulbo raquídeo"
+   ],
+   "answer": 1,
+   "explanation": "De arriba abajo el tronco del encéfalo consta del mesencéfalo, la protuberancia y el bulbo raquídeo; el bulbo se continúa con la médula espinal a la altura del agujero magno.",
+   "entries": [
+    "mesencephalon",
+    "pons",
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-000ce129",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué parte del tronco del encéfalo están los centros vitales de la respiración y la circulación?",
+   "options": [
+    "Mesencéfalo",
+    "Cuerpo calloso",
+    "Tálamo",
+    "Cerebelo",
+    "Bulbo raquídeo"
+   ],
+   "answer": 4,
+   "explanation": "El bulbo raquídeo contiene los centros que regulan la respiración, la frecuencia cardíaca y el tono vascular. Por eso su compresión por herniación a través del agujero magno puede ser mortal.",
+   "entries": [
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-eb4c66bd",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué estructura se encarga del equilibrio, el tono muscular y la coordinación de los movimientos?",
+   "options": [
+    "Hipotálamo",
+    "Lóbulo occipital",
+    "Cerebelo",
+    "Protuberancia",
+    "Cuerpo calloso"
+   ],
+   "answer": 2,
+   "explanation": "El cerebelo regula la sincronización y la armonía del movimiento y mantiene el equilibrio y el tono muscular. Su lesión produce ataxia, temblor y alteración del equilibrio; los signos están en el mismo lado que la lesión.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-3a99b000",
+   "group": "Tronco del encéfalo y cerebelo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Con cuántos pares de pedúnculos se une el cerebelo al tronco del encéfalo?",
+   "options": [
+    "5",
+    "1",
+    "3 (superior, medio e inferior)",
+    "4",
+    "2"
+   ],
+   "answer": 2,
+   "explanation": "El pedúnculo cerebeloso superior lo une al mesencéfalo, el medio a la protuberancia y el inferior al bulbo raquídeo. El mayor es el medio, que lleva las fibras de la protuberancia.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-64f89be2",
+   "group": "Médula espinal y meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "En el adulto, ¿a qué nivel vertebral termina normalmente la médula espinal (cono medular)?",
+   "options": [
+    "L4–L5",
+    "T8",
+    "L1–L2",
+    "C7",
+    "S2"
+   ],
+   "answer": 2,
+   "explanation": "En el adulto la médula termina con el cono medular en L1–L2; en el recién nacido llega más abajo, hacia L3. Por debajo solo hay raíces nerviosas (la cola de caballo).",
+   "entries": [
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-17d73e1a",
+   "group": "Médula espinal y meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué orden, de fuera hacia dentro, están las membranas que cubren el encéfalo y la médula espinal?",
+   "options": [
+    "Aracnoides – duramadre – piamadre",
+    "Duramadre – aracnoides – piamadre",
+    "Duramadre – piamadre – aracnoides",
+    "Piamadre – aracnoides – duramadre",
+    "Piamadre – duramadre – aracnoides"
+   ],
+   "answer": 1,
+   "explanation": "La más externa es la duramadre, gruesa y resistente; en medio está la aracnoides, con aspecto de telaraña; y la más interna es la fina piamadre, muy adherida a la superficie del encéfalo.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-904c7a31",
+   "group": "Médula espinal y meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué espacio circula el líquido cefalorraquídeo?",
+   "options": [
+    "Entre las dos hojas de la duramadre",
+    "Entre la duramadre y la aracnoides (espacio subdural)",
+    "Entre la piamadre y el tejido cerebral",
+    "Entre la aracnoides y la piamadre (espacio subaracnoideo)",
+    "Entre la duramadre y el hueso (espacio epidural)"
+   ],
+   "answer": 3,
+   "explanation": "El LCR circula por el espacio subaracnoideo, que se ensancha en las cisternas. En la punción lumbar la aguja entra en este espacio para obtener LCR.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-4de7a681",
+   "group": "Médula espinal y meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué espacio se realiza normalmente la punción lumbar en el adulto?",
+   "options": [
+    "Entre T10 y T11",
+    "Entre las vértebras L3–L4 o L4–L5",
+    "Entre C7 y T1",
+    "Entre L1 y L2",
+    "Entre T12 y L1"
+   ],
+   "answer": 1,
+   "explanation": "Como la médula termina en L1–L2, la aguja se introduce más abajo, en torno a la línea que une las crestas ilíacas (aproximadamente L4); ahí solo están las raíces de la cola de caballo, que se apartan de la aguja.",
+   "entries": [
+    "cauda-equina",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-407bca30",
+   "group": "Médula espinal y meninges",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo se llama el haz de raíces nerviosas que desciende por el conducto vertebral por debajo del cono medular?",
+   "options": [
+    "Intumescencia lumbosacra",
+    "Filum terminal",
+    "Cola de caballo",
+    "Plexo sacro",
+    "Tronco simpático"
+   ],
+   "answer": 2,
+   "explanation": "Como la médula es más corta que la columna, las raíces lumbares bajas y sacras descienden hasta sus agujeros y forman la cola de caballo. El filum terminal es un hilo pial que va del cono al cóccix.",
+   "entries": [
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-50ebda82",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántos pares de nervios craneales hay?",
+   "options": [
+    "8",
+    "10",
+    "31",
+    "12",
+    "11"
+   ],
+   "answer": 3,
+   "explanation": "Del encéfalo y el tronco del encéfalo salen doce pares de nervios craneales, del I (olfatorio) al XII (hipogloso). Los nervios espinales son 31 pares.",
+   "entries": [
+    "n-olfactorius",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-ee88b313",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio inerva el músculo que eleva el párpado y la mayoría de los músculos del ojo?",
+   "options": [
+    "Nervio trigémino (V)",
+    "Nervio abducens (VI)",
+    "Nervio oculomotor (III)",
+    "Nervio facial (VII)",
+    "Nervio troclear (IV)"
+   ],
+   "answer": 2,
+   "explanation": "El oculomotor inerva el elevador del párpado superior, los rectos superior, inferior y medial y el oblicuo inferior; además lleva las fibras parasimpáticas que contraen la pupila.",
+   "entries": [
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-b6c92d74",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio inerva el recto lateral (el músculo que gira el ojo hacia fuera)?",
+   "options": [
+    "Nervio abducens (VI)",
+    "Nervio oftálmico",
+    "Nervio oculomotor (III)",
+    "Nervio troclear (IV)",
+    "Nervio facial (VII)"
+   ],
+   "answer": 0,
+   "explanation": "El abducens solo inerva el recto lateral. Si se paraliza, el ojo no puede girar hacia fuera y aparece visión doble al mirar hacia el lado (en resumen: RL6, OS4, el resto III).",
+   "entries": [
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-994f4b2e",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio lleva la sensibilidad de la piel de la cara e inerva los músculos masticadores?",
+   "options": [
+    "Nervio glosofaríngeo (IX)",
+    "Nervio facial (VII)",
+    "Nervio hipogloso (XII)",
+    "Nervio trigémino (V)",
+    "Nervio accesorio (XI)"
+   ],
+   "answer": 3,
+   "explanation": "Las tres ramas del trigémino (oftálmica, maxilar y mandibular) llevan la sensibilidad de la piel de la cara; la mandibular inerva además los músculos masticadores, como el masetero, el temporal y los pterigoideos.",
+   "entries": [
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-252939b1",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio inerva los músculos de la mímica (expresión facial)?",
+   "options": [
+    "Nervio trigémino (V)",
+    "Nervio facial (VII)",
+    "Nervio accesorio (XI)",
+    "Nervio hipogloso (XII)",
+    "Nervio vago (X)"
+   ],
+   "answer": 1,
+   "explanation": "Todos los músculos de la expresión facial los inerva el nervio facial. Los músculos masticadores los inerva el trigémino; esta distinción se confunde a menudo.",
+   "entries": [
+    "n-facialis"
+   ]
+  },
+  {
+   "id": "ne-347049b5",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el nervio motor de los músculos de la lengua (salvo el palatogloso)?",
+   "options": [
+    "Nervio vago (X)",
+    "Nervio facial (VII)",
+    "Nervio lingual",
+    "Nervio hipogloso (XII)",
+    "Nervio glosofaríngeo (IX)"
+   ],
+   "answer": 3,
+   "explanation": "El hipogloso inerva todos los músculos intrínsecos y extrínsecos de la lengua; solo el palatogloso depende del vago. En la parálisis unilateral la lengua protruida se desvía hacia el lado paralizado.",
+   "entries": [
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-50ced078",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio craneal inerva el esternocleidomastoideo y el trapecio?",
+   "options": [
+    "Plexo braquial",
+    "Nervio hipogloso (XII)",
+    "Nervio vago (X)",
+    "Nervio accesorio (XI)",
+    "Nervio facial (VII)"
+   ],
+   "answer": 3,
+   "explanation": "El nervio accesorio sale por el agujero yugular, atraviesa el esternocleidomastoideo y cruza el triángulo posterior del cuello hasta el trapecio. Puede lesionarse en el triángulo posterior durante un vaciamiento cervical.",
+   "entries": [
+    "n-accessorius"
+   ]
+  },
+  {
+   "id": "ne-c94694b2",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio craneal da fibras parasimpáticas a la mayoría de los órganos torácicos y abdominales?",
+   "options": [
+    "Nervio oculomotor (III)",
+    "Nervio glosofaríngeo (IX)",
+    "Nervio accesorio (XI)",
+    "Nervio vago (X)",
+    "Nervio frénico"
+   ],
+   "answer": 3,
+   "explanation": "El vago es el nervio craneal de trayecto más largo; da fibras parasimpáticas al corazón, los pulmones y el tubo digestivo (hasta aproximadamente el tercio izquierdo del colon transverso).",
+   "entries": [
+    "n-vagus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-34dda1f9",
+   "group": "Nervios craneales",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio lleva la audición y el equilibrio?",
+   "options": [
+    "Nervio abducens (VI)",
+    "Nervio facial (VII)",
+    "Nervio vestibulococlear (VIII)",
+    "Nervio glosofaríngeo (IX)",
+    "Nervio trigémino (V)"
+   ],
+   "answer": 2,
+   "explanation": "La porción coclear del vestibulococlear lleva la audición y la vestibular, el equilibrio. Pasa por el conducto auditivo interno junto con el nervio facial.",
+   "entries": [
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-667ba770",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuántos pares de nervios espinales hay?",
+   "options": [
+    "30",
+    "33",
+    "12",
+    "31",
+    "24"
+   ],
+   "answer": 3,
+   "explanation": "Hay 31 pares de nervios espinales: 8 cervicales, 12 torácicos, 5 lumbares, 5 sacros y 1 coccígeo. Aunque hay 7 vértebras cervicales, existen 8 nervios cervicales.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-15f8e734",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿De los ramos anteriores de qué nervios espinales se forma el plexo braquial?",
+   "options": [
+    "T1–T6",
+    "C5–T1",
+    "C3–C7",
+    "C1–C4",
+    "L1–L4"
+   ],
+   "answer": 1,
+   "explanation": "El plexo braquial se forma con los ramos anteriores de C5–T1 y se organiza en raíces, troncos, divisiones, fascículos y ramas; proporciona toda la inervación motora y sensitiva del miembro superior.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-26e018da",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el nervio motor del diafragma?",
+   "options": [
+    "Nervio vago",
+    "Nervio frénico (C3–C5)",
+    "Nervio accesorio",
+    "Nervios intercostales",
+    "Tronco simpático"
+   ],
+   "answer": 1,
+   "explanation": "El frénico desciende por el cuello sobre la cara anterior del escaleno anterior e inerva el diafragma. El dolor diafragmático se refiere al hombro, dermatoma de los mismos segmentos.",
+   "entries": [
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "ne-d86f39c7",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cuál es el nervio más grueso y más largo del cuerpo?",
+   "options": [
+    "Nervio tibial",
+    "Nervio obturador",
+    "Nervio mediano",
+    "Nervio femoral",
+    "Nervio ciático"
+   ],
+   "answer": 4,
+   "explanation": "El ciático procede de las raíces L4–S3, sale por el agujero ciático mayor y desciende por la parte posterior del muslo; suele dividirse por encima de la fosa poplítea en los nervios tibial y peroneo común.",
+   "entries": [
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ne-da1e6de1",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio inerva los músculos anteriores del muslo (cuádriceps femoral)?",
+   "options": [
+    "Nervio ciático",
+    "Nervio obturador",
+    "Nervio pudendo",
+    "Nervio femoral",
+    "Nervio tibial"
+   ],
+   "answer": 3,
+   "explanation": "El femoral (L2–L4) pasa al muslo por la laguna muscular e inerva el cuádriceps femoral, el sartorio y el pectíneo; si se lesiona se pierden la extensión de la rodilla y el reflejo rotuliano.",
+   "entries": [
+    "n-femoralis"
+   ]
+  },
+  {
+   "id": "ne-63d6ca4d",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio inerva la mayoría de los músculos mediales (aductores) del muslo?",
+   "options": [
+    "Nervio ciático",
+    "Nervio obturador",
+    "Nervio genitofemoral",
+    "Nervio femoral",
+    "Nervio pudendo"
+   ],
+   "answer": 1,
+   "explanation": "El obturador (L2–L4) pasa por el conducto obturador al compartimento medial del muslo e inerva la mayoría de los aductores; la porción isquiotibial del aductor mayor la inerva el ciático.",
+   "entries": [
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "ne-6c143cec",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio se comprime en el síndrome del túnel carpiano?",
+   "options": [
+    "Nervio cubital",
+    "Nervio axilar",
+    "Nervio mediano",
+    "Nervio radial",
+    "Nervio musculocutáneo"
+   ],
+   "answer": 2,
+   "explanation": "En la muñeca el nervio mediano pasa bajo el retináculo flexor por el túnel carpiano junto con los tendones flexores. Su compresión produce entumecimiento de los tres primeros dedos y medio y debilidad de los músculos tenares.",
+   "entries": [
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "ne-8a555c3e",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio produce hormigueo en el lado del meñique de la mano cuando uno se golpea la cara interna del codo?",
+   "options": [
+    "Nervio musculocutáneo",
+    "Nervio radial",
+    "Nervio cubital",
+    "Nervio mediano",
+    "Nervio cutáneo lateral del antebrazo"
+   ],
+   "answer": 2,
+   "explanation": "En el codo el nervio cubital pasa justo bajo la piel por detrás del epicóndilo medial (el «hueso de la risa»). Un golpe o una compresión produce hormigueo en los dedos 4.º y 5.º.",
+   "entries": [
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-4bd49a5e",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio inerva el tríceps braquial, el músculo posterior del brazo?",
+   "options": [
+    "Nervio musculocutáneo",
+    "Nervio radial",
+    "Nervio axilar",
+    "Nervio mediano",
+    "Nervio cubital"
+   ],
+   "answer": 1,
+   "explanation": "El nervio radial inerva todos los músculos posteriores (extensores) del brazo y el antebrazo. En las fracturas de la diáfisis humeral puede lesionarse en el surco del nervio radial y producir mano caída.",
+   "entries": [
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "ne-d2881471",
+   "group": "Nervios espinales y plexos",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Qué nervio inerva el deltoides?",
+   "options": [
+    "Nervio axilar",
+    "Nervio radial",
+    "Nervio torácico largo",
+    "Nervio supraescapular",
+    "Nervio musculocutáneo"
+   ],
+   "answer": 0,
+   "explanation": "El nervio axilar (C5–C6) rodea el cuello quirúrgico del húmero e inerva el deltoides y el redondo menor. Puede lesionarse en las fracturas del cuello quirúrgico y en las luxaciones de hombro.",
+   "entries": [
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ne-4eef8b32",
+   "group": "Sistema nervioso autónomo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿En qué segmentos de la médula espinal están los cuerpos de las neuronas simpáticas preganglionares?",
+   "options": [
+    "T1–L2 (asta lateral)",
+    "S2–S4",
+    "C1–C8",
+    "Solo en núcleos del tronco del encéfalo",
+    "L3–S1"
+   ],
+   "answer": 0,
+   "explanation": "El simpático tiene salida toracolumbar: las neuronas preganglionares están en el asta lateral de los segmentos T1–L2. Sus fibras llegan al tronco simpático por la raíz anterior y el ramo comunicante blanco.",
+   "entries": [
+    "systema-autonomicum",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-8691959b",
+   "group": "Sistema nervioso autónomo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿De qué regiones salen las fibras del sistema parasimpático?",
+   "options": [
+    "T1–L2 (toracolumbar)",
+    "De los segmentos C5–T1",
+    "Solo de los segmentos S2–S4",
+    "Solo del tronco del encéfalo",
+    "Tronco del encéfalo (III, VII, IX, X) y S2–S4 (craneosacro)"
+   ],
+   "answer": 4,
+   "explanation": "El parasimpático tiene salida craneosacra: se distribuye por los nervios craneales III, VII, IX y X y por los nervios esplácnicos pélvicos de los segmentos S2–S4.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-11836b1d",
+   "group": "Sistema nervioso autónomo",
+   "level": "basic",
+   "clinical": false,
+   "stem": "¿Cómo cambia la pupila en la respuesta de «lucha o huida» y qué sistema lo produce?",
+   "options": [
+    "Se dilata (midriasis) – sistema simpático",
+    "Se contrae (miosis) – sistema parasimpático",
+    "No cambia – sistema somático",
+    "Se contrae (miosis) – sistema simpático",
+    "Se dilata (midriasis) – sistema parasimpático"
+   ],
+   "answer": 0,
+   "explanation": "La estimulación simpática contrae el músculo dilatador de la pupila y la agranda. Las fibras parasimpáticas (nervio oculomotor) la estrechan mediante el esfínter de la pupila.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-aca0bd08",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Los cuerpos de qué neuronas se encuentran en el ganglio espinal?",
+   "options": [
+    "Neuronas simpáticas preganglionares",
+    "Interneuronas",
+    "Neuronas sensitivas seudounipolares",
+    "Motoneuronas multipolares",
+    "Neuronas parasimpáticas posganglionares"
+   ],
+   "answer": 2,
+   "explanation": "El ganglio espinal, en la raíz dorsal, contiene las neuronas seudounipolares que llevan la sensibilidad de la periferia a la médula; en este ganglio no hay sinapsis.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d5797703",
+   "group": "Sistema nervioso autónomo",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Por qué rama salen del nervio espinal las fibras preganglionares que van a los ganglios del tronco simpático?",
+   "options": [
+    "Ramo comunicante blanco",
+    "Ramo dorsal",
+    "Ramo comunicante gris",
+    "Ramo meníngeo",
+    "Raíz posterior"
+   ],
+   "answer": 0,
+   "explanation": "Las fibras preganglionares mielínicas entran en el tronco simpático por el ramo comunicante blanco (solo existe en T1–L2). Las posganglionares amielínicas vuelven al nervio espinal por el ramo comunicante gris.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-4d840655",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Por qué orificio sale de la pelvis el nervio pudendo y por cuál entra en el periné?",
+   "options": [
+    "Sale por el agujero ciático mayor y entra por el conducto inguinal",
+    "Sale por el conducto obturador y entra por el agujero ciático menor",
+    "Sale por el hiato sacro y entra por el agujero ciático menor",
+    "Sale por el agujero ciático mayor y entra por el agujero ciático menor",
+    "Sale por el agujero ciático menor y entra por el agujero ciático mayor"
+   ],
+   "answer": 3,
+   "explanation": "El pudendo (S2–S4) sale de la pelvis por debajo del piriforme a través del agujero ciático mayor, rodea por detrás el ligamento sacroespinoso, entra en el periné por el agujero ciático menor y continúa por el conducto pudendo (de Alcock).",
+   "entries": [
+    "n-pudendus"
+   ]
+  },
+  {
+   "id": "ne-7a6e6c80",
+   "group": "Nervios espinales y plexos",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "¿Dónde se lesiona con más frecuencia el nervio peroneo común?",
+   "options": [
+    "Alrededor del cuello del peroné",
+    "Detrás del maléolo medial",
+    "En el agujero ciático mayor",
+    "En el conducto aductor",
+    "En el túnel tarsiano"
+   ],
+   "answer": 0,
+   "explanation": "El peroneo común discurre superficialmente justo debajo de la cabeza del peroné, rodeando su cuello. Una fractura, la presión de un yeso o cruzar las piernas pueden dañarlo aquí y producir pie caído.",
+   "entries": [
+    "n-fibularis-communis"
+   ]
+  }
+ ]
+}

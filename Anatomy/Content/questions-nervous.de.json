@@ -1,0 +1,2772 @@
+{
+ "system": "nervous",
+ "questions": [
+  {
+   "id": "ne-3da316f2",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein 62-jähriger Rechtshänder versteht nach einem Schlaganfall, was man zu ihm sagt, spricht aber stockend, mühsam und wortarm. Auch das Schreiben ist gestört. Wo liegt die Läsion am wahrscheinlichsten?",
+   "options": [
+    "Oberer Teil des linken Gyrus precentralis",
+    "Linker Gyrus angularis",
+    "Linker Gyrus frontalis inferior (Broca-Areal, BA 44–45)",
+    "Hinterer Teil des linken Gyrus temporalis superior (Wernicke-Areal)",
+    "Rechter Gyrus frontalis inferior"
+   ],
+   "answer": 2,
+   "explanation": "Die Broca-Aphasie (motorische/expressive Aphasie) entsteht durch eine Schädigung der Pars opercularis und triangularis des Gyrus frontalis inferior der dominanten Hemisphäre: nicht flüssige Sprache bei relativ erhaltenem Verständnis. Meist liegt ein Verschluss des oberen Mediaastes vor, oft mit kontralateraler brachiofazialer Parese.",
+   "notes": [
+    "Das ist das motorische Areal des Beins.",
+    "Er verursacht das Gerstmann-Syndrom.",
+    "",
+    "Er verursacht flüssige, aber inhaltsleere Sprache und gestörtes Verständnis.",
+    "Nicht dominante Hemisphäre; betrifft die Sprachmelodie (Prosodie)."
+   ],
+   "entries": [
+    "lobus-frontalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-63b5b117",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Nach einem Schlaganfall spricht ein Patient flüssig, aber sinnlos, verwendet erfundene Wörter und versteht einfache Aufforderungen nicht; seine Fehler bemerkt er nicht. Wo liegt die Läsion?",
+   "options": [
+    "Linker Gyrus frontalis inferior",
+    "Hinterer Teil des linken Gyrus temporalis superior (Wernicke-Areal, BA 22)",
+    "Fasciculus arcuatus",
+    "Rechter Gyrus temporalis superior",
+    "Linker Okzipitallappen"
+   ],
+   "answer": 1,
+   "explanation": "Bei der Wernicke-Aphasie (sensorische/rezeptive Aphasie) ist die Sprache flüssig, der Inhalt aber gestört (Paraphasien, Neologismen); Verständnis und Nachsprechen sind beeinträchtigt. Die Läsion liegt im hinteren Teil des Gyrus temporalis superior der dominanten Hemisphäre.",
+   "entries": [
+    "lobus-temporalis",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-41911115",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Bei welcher Läsion entsteht die Aphasie mit flüssiger Sprache und gutem Verständnis, aber deutlich gestörtem Nachsprechen?",
+   "options": [
+    "Hippocampus",
+    "Fasciculus arcuatus",
+    "Balken",
+    "Gyrus precentralis",
+    "Hinterer Schenkel der Capsula interna"
+   ],
+   "answer": 1,
+   "explanation": "Die Leitungsaphasie entsteht durch eine Schädigung des Fasciculus arcuatus, der Wernicke- und Broca-Areal verbindet (meist auf Höhe des Gyrus supramarginalis). Verständnis und Sprachfluss bleiben erhalten, das Nachsprechen ist gestört.",
+   "entries": [
+    "cerebrum",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-14b513ee",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient hat plötzlich eine ausgeprägte Lähmung und Gefühlsstörung des linken Beins; Arm und Gesicht sind relativ verschont. Welche Arterie ist verschlossen?",
+   "options": [
+    "Rechte A. cerebri anterior",
+    "Linke A. cerebri anterior",
+    "Rechte A. cerebri media",
+    "Rechte A. cerebri posterior",
+    "A. basilaris"
+   ],
+   "answer": 0,
+   "explanation": "Das motorische und sensible Areal von Bein und Fuß liegt im Lobulus paracentralis an der medialen Hemisphärenfläche und wird von der A. cerebri anterior versorgt. Ein Anteriorverschluss betrifft daher vor allem das Bein der Gegenseite, ein Mediaverschluss dagegen Gesicht und Arm.",
+   "entries": [
+    "gyrus-precentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-01618983",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein 65-jähriger Rechtshänder hat eine ausgeprägte Lähmung und Gefühlsstörung von rechter Gesichtshälfte und rechtem Arm sowie eine Sprachstörung; das Bein ist weniger betroffen. Welche Arterie ist verschlossen?",
+   "options": [
+    "Linke A. cerebri anterior",
+    "Rechte A. cerebri media",
+    "Linke A. choroidea anterior",
+    "Linke A. cerebri media",
+    "Linke A. cerebri posterior"
+   ],
+   "answer": 3,
+   "explanation": "Die A. cerebri media versorgt die laterale Hemisphärenfläche und damit die motorischen und sensiblen Areale von Gesicht und Arm sowie in der dominanten Hemisphäre die Sprachareale. Ein linksseitiger Mediaverschluss führt zu rechtsseitiger brachiofazial betonter Hemiparese, Hemihypästhesie und Aphasie.",
+   "entries": [
+    "gyrus-precentralis",
+    "gyrus-postcentralis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-b32e3978",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Gesichtsfeldausfall ist typisch für einen Verschluss der A. cerebri posterior?",
+   "options": [
+    "Bitemporale Hemianopsie",
+    "Einseitige Blindheit auf derselben Seite",
+    "Kontralaterale homonyme Hemianopsie mit Makulaaussparung",
+    "Binasale Hemianopsie",
+    "Kontralaterale obere Quadrantenanopsie"
+   ],
+   "answer": 2,
+   "explanation": "Die A. cerebri posterior versorgt den Okzipitallappen (primäre Sehrinde). Ihr Verschluss führt zur homonymen Hemianopsie des gegenseitigen Gesichtsfelds; da der Okzipitalpol, in dem die Makula repräsentiert ist, auch Kollateralen aus der A. cerebri media erhält, bleibt das zentrale Sehen meist erhalten.",
+   "entries": [
+    "lobus-occipitalis",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-950a7863",
+   "group": "Gehirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo liegt die primäre Sehrinde (Brodmann 17)?",
+   "options": [
+    "Im Corpus geniculatum laterale",
+    "An der Unterfläche des Frontallappens",
+    "Im Okzipitallappen beiderseits des Sulcus calcarinus",
+    "Im Gyrus postcentralis",
+    "Im Gyrus temporalis superior"
+   ],
+   "answer": 2,
+   "explanation": "Die primäre Sehrinde liegt an der medialen Fläche des Okzipitallappens in der oberen (Cuneus) und unteren (Gyrus lingualis) Lippe des Sulcus calcarinus. Die obere Lippe repräsentiert das untere, die untere Lippe das obere Gesichtsfeld.",
+   "entries": [
+    "lobus-occipitalis",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-3b3c0c08",
+   "group": "Gehirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo liegt der primäre auditorische Kortex (Brodmann 41–42)?",
+   "options": [
+    "Gyri temporales transversi (Heschl-Querwindungen)",
+    "Unteres Ende des Gyrus precentralis",
+    "Gyrus parahippocampalis",
+    "Gyrus angularis",
+    "Gyrus cinguli"
+   ],
+   "answer": 0,
+   "explanation": "Die primäre Hörrinde liegt am Boden des Sulcus lateralis in den Heschl-Querwindungen an der Oberfläche des Gyrus temporalis superior. Da jedes Ohr beidseitig repräsentiert ist, führt eine einseitige Rindenschädigung nicht zur Taubheit.",
+   "entries": [
+    "lobus-temporalis",
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-87c1b640",
+   "group": "Gehirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welchen Brodmann-Arealen entspricht der primäre somatosensorische Kortex?",
+   "options": [
+    "22 (Gyrus temporalis superior)",
+    "17 (Sulcus calcarinus)",
+    "6 (prämotorisches Areal)",
+    "4 (Gyrus precentralis)",
+    "3, 1, 2 (Gyrus postcentralis)"
+   ],
+   "answer": 4,
+   "explanation": "Der Gyrus postcentralis empfängt Berührung, Schmerz, Temperatur und Propriozeption der Gegenseite und ist somatotop gegliedert (sensibler Homunkulus). Seine Zuflüsse kommen aus den Thalamuskernen VPL und VPM.",
+   "entries": [
+    "gyrus-postcentralis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-2daff929",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wo liegt beim Gerstmann-Syndrom – Agraphie, Akalkulie, Fingeragnosie und Rechts-links-Störung – die Läsion?",
+   "options": [
+    "Lobulus parietalis superior der nicht dominanten Hemisphäre",
+    "Gyrus frontalis inferior der dominanten Hemisphäre",
+    "Gyrus angularis der dominanten Hemisphäre",
+    "Hippocampus der dominanten Hemisphäre",
+    "Splenium des Balkens"
+   ],
+   "answer": 2,
+   "explanation": "Das Gerstmann-Syndrom tritt bei Läsionen des Gyrus angularis im unteren Teil des dominanten (meist linken) Parietallappens auf. Eine Schädigung des nicht dominanten Parietallappens führt dagegen zum Neglect der Gegenseite und zu Apraxien.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-28eb07b3",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Nach einem rechtshemisphärischen Schlaganfall isst ein Patient nur die rechte Hälfte seines Tellers, bemerkt Menschen zu seiner Linken nicht und sagt, sein linker Arm gehöre nicht zu ihm. Welcher Lappen ist betroffen?",
+   "options": [
+    "Linker Parietallappen",
+    "Linker Temporallappen",
+    "Rechter Frontallappen",
+    "Rechter Parietallappen",
+    "Rechter Okzipitallappen"
+   ],
+   "answer": 3,
+   "explanation": "Neglect der Gegenseite und Anosognosie treten am häufigsten bei Läsionen des nicht dominanten (rechten) Parietallappens auf, weil die rechte Hemisphäre beide Raumhälften beachtet, die linke dagegen überwiegend die rechte.",
+   "entries": [
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-dbe702a4",
+   "group": "Gehirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Persönlichkeitsveränderung, unangemessenes Verhalten sowie gestörte Planung und Urteilsfähigkeit treten am ehesten bei Schädigung welcher Region auf?",
+   "options": [
+    "Vermis des Kleinhirns",
+    "Präfrontaler Kortex",
+    "Gyrus postcentralis",
+    "Okzipitallappen",
+    "Corpus geniculatum mediale"
+   ],
+   "answer": 1,
+   "explanation": "Der präfrontale Kortex ist für exekutive Funktionen, Sozialverhalten und Persönlichkeit zuständig. Patienten mit Frontalhirnschäden können Apathie oder Impulsivität, Perseveration und sozial unangemessenes Verhalten zeigen.",
+   "entries": [
+    "lobus-frontalis"
+   ]
+  },
+  {
+   "id": "ne-3de004e8",
+   "group": "Gehirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Lappen gilt als kortikales Geschmackszentrum und ist an der Eingeweidewahrnehmung beteiligt?",
+   "options": [
+    "Okzipitallappen",
+    "Insel (und benachbartes frontales Operculum)",
+    "Cuneus",
+    "Gyrus precentralis",
+    "Gyrus cinguli"
+   ],
+   "answer": 1,
+   "explanation": "Die Insel ist der tief im Sulcus lateralis unter den Opercula verborgene Lappen. Ihr vorderer Teil enthält den primären Geschmackskortex; außerdem ist sie an Schmerz, Eingeweidewahrnehmung und autonomen Reaktionen beteiligt. Sie wird von Ästen der A. cerebri media versorgt.",
+   "entries": [
+    "insula"
+   ]
+  },
+  {
+   "id": "ne-f34b6253",
+   "group": "Gehirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Struktur ist für die Überführung neuer Information ins Langzeitgedächtnis entscheidend und atrophiert früh bei der Alzheimer-Krankheit?",
+   "options": [
+    "Amygdala",
+    "Nucleus caudatus",
+    "Hippocampus",
+    "Pulvinar des Thalamus",
+    "Kleinhirn"
+   ],
+   "answer": 2,
+   "explanation": "Der Hippocampus liegt im medialen Temporallappen am Boden des Unterhorns des Seitenventrikels. Eine beidseitige Schädigung verursacht eine anterograde Amnesie. Er ist Teil des Papez-Kreises: Hippocampus → Fornix → Corpus mamillare → vorderer Thalamus → Gyrus cinguli → Hippocampus.",
+   "entries": [
+    "hippocampus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-1b940b7b",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was ist beim Klüver-Bucy-Syndrom infolge einer beidseitigen Amygdalaschädigung NICHT zu erwarten?",
+   "options": [
+    "Hypersexualität",
+    "Hyperoralität (alles in den Mund nehmen)",
+    "Visuelle Agnosie",
+    "Zahmheit, Verlust der Angst",
+    "Übermäßige Angst und Aggression"
+   ],
+   "answer": 4,
+   "explanation": "Die Amygdala ist das Zentrum von Angst und emotionalem Lernen. Nach beidseitiger medialer Temporallappenschädigung nehmen Angst und Aggression ab, der Patient wird zahm; Hyperoralität, Hypersexualität und visuelle Agnosie treten auf.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afbdd4fd",
+   "group": "Gehirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welches ist die größte Kommissur zwischen den beiden Großhirnhemisphären?",
+   "options": [
+    "Capsula interna",
+    "Fornix",
+    "Balken (Corpus callosum)",
+    "Commissura anterior",
+    "Commissura posterior"
+   ],
+   "answer": 2,
+   "explanation": "Der Balken ist eine Brücke aus weißer Substanz mit etwa 200 Millionen Axonen; er gliedert sich in Rostrum, Genu, Truncus und Splenium. Wird er durchtrennt („Split Brain“), ist der Informationsaustausch zwischen den Hemisphären gestört.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-b72d492f",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Hypertoniker hat plötzlich eine rein motorische Hemiparese, die Gesicht, Arm und Bein der Gegenseite gleich stark betrifft; Sensibilität, Sehen und Sprache sind normal. Wo liegt der lakunäre Infarkt am wahrscheinlichsten?",
+   "options": [
+    "Okzipitallappen",
+    "Hinterer Schenkel der Capsula interna",
+    "Kleinhirnhemisphäre",
+    "Gyrus postcentralis",
+    "Genu des Balkens"
+   ],
+   "answer": 1,
+   "explanation": "Kortikospinale und kortikobulbäre Fasern verlaufen im hinteren Schenkel der Capsula interna dicht beieinander; schon ein kleiner Infarkt betrifft daher Gesicht, Arm und Bein der Gegenseite gleich stark. Das Gebiet wird von den lentikulostriären Ästen der A. cerebri media versorgt, die bei Hypertonie gefährdet sind.",
+   "entries": [
+    "nuclei-basales",
+    "cerebrum"
+   ]
+  },
+  {
+   "id": "ne-46d5bedc",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wo liegen die dopaminergen Neurone, die bei der Parkinson-Krankheit degenerieren?",
+   "options": [
+    "Nucleus caudatus",
+    "Pars compacta der Substantia nigra (Mittelhirn)",
+    "Nucleus ruber",
+    "Nucleus subthalamicus",
+    "Globus pallidus internus"
+   ],
+   "answer": 1,
+   "explanation": "Die dopaminergen Neurone der Substantia nigra pars compacta projizieren zum Striatum (nigrostriatale Bahn). Ihr Verlust verursacht Bradykinese, Rigor und Ruhetremor. Bei der Chorea Huntington atrophiert der Nucleus caudatus, beim Hemiballismus ist der Nucleus subthalamicus geschädigt.",
+   "entries": [
+    "mesencephalon",
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-2a67af34",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Bei einem Hypertoniker treten plötzlich heftige, schleudernde, unwillkürliche Bewegungen von linkem Arm und Bein auf. Wo liegt die Läsion?",
+   "options": [
+    "Rechter Nucleus caudatus",
+    "Rechte Substantia nigra",
+    "Linker Nucleus subthalamicus",
+    "Rechter Nucleus subthalamicus",
+    "Linke Kleinhirnhemisphäre"
+   ],
+   "answer": 3,
+   "explanation": "Der Hemiballismus entsteht bei einer Läsion des gegenseitigen Nucleus subthalamicus; dieser Kern bremst normalerweise die Bewegung, indem er den Globus pallidus internus erregt. Läsionen der Basalkerne verursachen Symptome auf der Gegenseite.",
+   "entries": [
+    "nuclei-basales"
+   ]
+  },
+  {
+   "id": "ne-e0795ee8",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Thalamuskern liegt in der Sehbahn?",
+   "options": [
+    "Nucleus ventralis lateralis",
+    "Corpus geniculatum mediale",
+    "Corpus geniculatum laterale",
+    "Nucleus ventralis posterolateralis",
+    "Nucleus anterior thalami"
+   ],
+   "answer": 2,
+   "explanation": "Die Fasern des Tractus opticus werden im CGL umgeschaltet; von dort zieht die Sehstrahlung zur Okzipitalrinde. Das CGM dient dem Hören, VPL der Körpersensibilität, VPM der Gesichtssensibilität und dem Geschmack, VL motorischen Zuflüssen aus Kleinhirn und Basalkernen und der vordere Kern dem Papez-Kreis.",
+   "entries": [
+    "thalamus",
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-e54d7172",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Thalamuskern leitet die Sensibilität des Gesichts (N. trigeminus) und die Geschmacksfasern zur Rinde?",
+   "options": [
+    "Pulvinar",
+    "Nucleus mediodorsalis",
+    "Corpus geniculatum mediale",
+    "Nucleus ventralis posterolateralis (VPL)",
+    "Nucleus ventralis posteromedialis (VPM)"
+   ],
+   "answer": 4,
+   "explanation": "Der Lemniscus trigeminalis und die Geschmacksfasern aus dem Nucleus solitarius enden im VPM, Lemniscus medialis und spinothalamische Fasern vom Körper im VPL. Thalamusläsionen können eine kontralaterale Hemianästhesie und Thalamusschmerz (Dejerine-Roussy) verursachen.",
+   "entries": [
+    "thalamus",
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-48237eed",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Hypothalamuskern bildet hauptsächlich das antidiuretische Hormon (ADH)?",
+   "options": [
+    "Nucleus ventromedialis",
+    "Nucleus arcuatus",
+    "Nucleus suprachiasmaticus",
+    "Corpus mamillare",
+    "Nucleus supraopticus"
+   ],
+   "answer": 4,
+   "explanation": "ADH wird vor allem im Nucleus supraopticus, Oxytocin vor allem im Nucleus paraventricularis gebildet; beide gelangen über Axone in die Neurohypophyse. Der Nucleus suprachiasmaticus steuert den zirkadianen Rhythmus, der ventromediale Kern die Sättigung und der laterale Hypothalamus den Hunger.",
+   "entries": [
+    "hypothalamus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-1cff0e6f",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche hypothalamische Struktur ist beim Wernicke-Korsakow-Syndrom (Thiaminmangel) typischerweise geschädigt?",
+   "options": [
+    "Nucleus paraventricularis",
+    "Tuber cinereum",
+    "Nucleus suprachiasmaticus",
+    "Corpora mamillaria",
+    "Eminentia mediana"
+   ],
+   "answer": 3,
+   "explanation": "Bei chronischem Alkoholismus und Thiaminmangel werden Corpora mamillaria, mediale Thalamuskerne und periaquäduktales Grau geschädigt. Die Unterbrechung des Papez-Kreises erklärt die Korsakow-Amnesie und die Konfabulationen.",
+   "entries": [
+    "hypothalamus",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-afe9b56a",
+   "group": "Gehirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Bei einem Neugeborenen nimmt der Kopfumfang rasch zu. Das MRT zeigt erweiterte Seitenventrikel und einen erweiterten dritten Ventrikel bei normal großem vierten Ventrikel. Wo liegt das Abflusshindernis am wahrscheinlichsten?",
+   "options": [
+    "Apertura mediana (Magendie)",
+    "Foramen interventriculare (Monro)",
+    "Canalis centralis",
+    "Granulationes arachnoideae",
+    "Aqueductus mesencephali (Sylvius)"
+   ],
+   "answer": 4,
+   "explanation": "Der Liquor fließt aus den Seitenventrikeln durch das Foramen Monroi in den dritten Ventrikel, durch den Aquädukt in den vierten Ventrikel und von dort durch die Foramina Magendii und Luschkae in den Subarachnoidalraum. Ist der dritte Ventrikel erweitert und der vierte normal, liegt das Hindernis im Aquädukt (angeborene Aquäduktstenose).",
+   "entries": [
+    "ventriculi-cerebri",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-25e1a0ce",
+   "group": "Gehirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo wird der Liquor cerebrospinalis hauptsächlich gebildet und wo resorbiert?",
+   "options": [
+    "Gebildet im Plexus choroideus, resorbiert über die Granulationes arachnoideae in die venösen Sinus der Dura.",
+    "Gebildet von Ependymzellen, resorbiert in Lymphgefäße.",
+    "Gebildet in den Granulationes arachnoideae, resorbiert im Plexus choroideus.",
+    "Gebildet in der Pia mater, resorbiert im Zentralkanal.",
+    "Gebildet im Plexus choroideus, resorbiert im vierten Ventrikel."
+   ],
+   "answer": 0,
+   "explanation": "Beim Erwachsenen werden täglich etwa 500 ml Liquor gebildet; zu jedem Zeitpunkt sind etwa 150 ml vorhanden. Die Resorption erfolgt vor allem über die Arachnoidalzotten, die in den Sinus sagittalis superior ragen. Eine gestörte Resorption führt zum kommunizierenden Hydrozephalus.",
+   "entries": [
+    "ventriculi-cerebri",
+    "meninges",
+    "sinus-durae-matris"
+   ]
+  },
+  {
+   "id": "ne-37bdea3f",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient hat Ptosis, Mydriasis und eine Abweichung des rechten Auges nach unten außen sowie eine Schwäche von linkem Arm und Bein. Wo liegt die Läsion am wahrscheinlichsten?",
+   "options": [
+    "Medialer Teil der linken Medulla oblongata",
+    "Ventraler Teil des linken Mittelhirns",
+    "Ventraler Teil der rechten Pons",
+    "Ventraler Teil des rechten Mittelhirns (Weber-Syndrom)",
+    "Rechte Capsula interna"
+   ],
+   "answer": 3,
+   "explanation": "Beim Weber-Syndrom sind im ventralen Mittelhirn die Okulomotoriusfasern und der Hirnschenkel gemeinsam betroffen: gleichseitige Okulomotoriusparese, gegenseitige Hemiparese. Da die kortikospinalen Fasern in der Medulla kreuzen, verursachen Hirnstammläsionen „gekreuzte“ Symptome.",
+   "entries": [
+    "mesencephalon",
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-3d7055ab",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient mit plötzlichem Schwindel und Übelkeit hat einen Ausfall von Schmerz- und Temperaturempfinden in der linken Gesichtshälfte und an Rumpf und Extremitäten rechts, Heiserkeit, Schluckstörung, ein linksseitiges Horner-Syndrom und eine linksseitige Ataxie. Die Zungenbewegungen sind normal. Welche Arterie ist verschlossen?",
+   "options": [
+    "A. basilaris",
+    "Linke A. spinalis anterior",
+    "Rechte A. cerebri posterior",
+    "Linke A. inferior posterior cerebelli (oder linke A. vertebralis)",
+    "Linke A. superior cerebelli"
+   ],
+   "answer": 3,
+   "explanation": "Beim lateralen Medulla-oblongata-Syndrom (Wallenberg) sind der Nucleus spinalis n. trigemini (gleichseitiges Gesicht), der Tractus spinothalamicus (gegenseitiger Rumpf), der Nucleus ambiguus (Dysphagie, Dysphonie), die absteigenden Sympathikusfasern (Horner), die Vestibulariskerne und der untere Kleinhirnstiel betroffen. Der medial gelegene Hypoglossuskern bleibt verschont.",
+   "entries": [
+    "medulla-oblongata",
+    "a-vertebralis",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-81f72625",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was ist beim medialen Medulla-oblongata-Syndrom (Verschluss der A. spinalis anterior) NICHT zu erwarten?",
+   "options": [
+    "Ausfall von Schmerz- und Temperaturempfinden in der gleichseitigen Gesichtshälfte",
+    "Atrophie der Zungenmuskulatur auf derselben Seite",
+    "Hemiparese der Gegenseite",
+    "Ausfall von Lage- und Vibrationsempfinden auf der Gegenseite",
+    "Abweichen der herausgestreckten Zunge zur Läsionsseite"
+   ],
+   "answer": 0,
+   "explanation": "Die mediale Medulla enthält die Pyramide (kontralaterale Hemiparese), den Lemniscus medialis (kontralateraler Ausfall der Tiefensensibilität) und den N. hypoglossus (ipsilaterale Zungenlähmung). Der Nucleus spinalis n. trigemini liegt in der lateralen Medulla und ist beim Wallenberg-Syndrom betroffen.",
+   "entries": [
+    "medulla-oblongata",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-443079d7",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Der motorische Kern welches der folgenden Hirnnerven liegt in der Pons?",
+   "options": [
+    "N. hypoglossus",
+    "N. trochlearis",
+    "N. glossopharyngeus",
+    "N. oculomotorius",
+    "N. abducens"
+   ],
+   "answer": 4,
+   "explanation": "Die Kerne von III und IV liegen im Mittelhirn, die von V (motorisch), VI und VII in der Pons, die von IX, X und XII in der Medulla oblongata. Die Kerne des VIII liegen am pontomedullären Übergang.",
+   "entries": [
+    "pons",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-8ecd7107",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Strukturen bilden den Colliculus facialis am Boden des vierten Ventrikels?",
+   "options": [
+    "Der Abduzenskern und die ihn umschlingenden Fazialisfasern",
+    "Locus caeruleus und Nucleus solitarius",
+    "Trochlearisfasern und Nucleus ruber",
+    "Hypoglossuskern und Nucleus dorsalis n. vagi",
+    "Vestibulariskerne und Fasern des N. cochlearis"
+   ],
+   "answer": 0,
+   "explanation": "In der Pons umschlingen die motorischen Fazialisfasern den Abduzenskern (inneres Fazialisknie) und wölben den Boden des vierten Ventrikels vor. Eine Läsion hier verursacht eine gleichseitige kombinierte Abduzens- und Fazialisparese.",
+   "entries": [
+    "pons",
+    "n-facialis",
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-5da8a287",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient schwankt im Stehen und Gehen zu beiden Seiten und geht breitbeinig, zeigt aber im Sitzen bei Armbewegungen keine deutliche Dysmetrie. Wo liegt die Läsion am wahrscheinlichsten?",
+   "options": [
+    "Linke Kleinhirnhemisphäre",
+    "Rechte Kleinhirnhemisphäre",
+    "Vermis des Kleinhirns",
+    "Nucleus dentatus",
+    "Capsula interna"
+   ],
+   "answer": 2,
+   "explanation": "Vermis und paravermale Zone koordinieren Rumpf- und Achsenmuskulatur; ihre Schädigung führt zu Rumpfataxie und breitbasigem Gang (z. B. durch Alkohol). Hemisphärenläsionen verursachen Dysmetrie, Intentionstremor und Dysdiadochokinese der gleichseitigen Extremitäten.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-aa74e926",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Struktur führt die Fasern von den Brückenkernen zum Kleinhirn (pontozerebelläre Fasern)?",
+   "options": [
+    "Pedunculus cerebellaris inferior",
+    "Pedunculus cerebellaris superior",
+    "Velum medullare superius",
+    "Lemniscus medialis",
+    "Pedunculus cerebellaris medius"
+   ],
+   "answer": 4,
+   "explanation": "Der mittlere Kleinhirnstiel (Brachium pontis) ist der größte und besteht ausschließlich aus pontozerebellären (afferenten) Fasern. Der obere Stiel führt vor allem die aus dem Kleinhirn austretenden (efferenten) Fasern, der untere Fasern aus Rückenmark und Olive.",
+   "entries": [
+    "cerebellum",
+    "pons"
+   ]
+  },
+  {
+   "id": "ne-d50b404c",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Zelle ist das einzige Ausgangsneuron der Kleinhirnrinde und hemmend (GABAerg)?",
+   "options": [
+    "Moosfaser",
+    "Körnerzelle",
+    "Golgi-Zelle",
+    "Purkinje-Zelle",
+    "Korbzelle"
+   ],
+   "answer": 3,
+   "explanation": "Die Axone der Purkinje-Zellen ziehen zu den Kleinhirnkernen (dentatus, emboliformis, globosus, fastigii) und den Vestibulariskernen und hemmen sie. Der eigentliche Ausgang des Kleinhirns erfolgt über die Kleinhirnkerne, deren größter der Nucleus dentatus ist.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-05903053",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo kreuzt der größte Teil der kortikospinalen Fasern?",
+   "options": [
+    "In der Capsula interna",
+    "In der Pons",
+    "Im Mittelhirn",
+    "Am unteren Ende der Medulla oblongata (Decussatio pyramidum)",
+    "In jedem Rückenmarksegment"
+   ],
+   "answer": 3,
+   "explanation": "Etwa 85–90 % der kortikospinalen Fasern kreuzen am unteren Ende der Pyramiden und bilden den Tractus corticospinalis lateralis. Die ungekreuzten Fasern ziehen im Tractus corticospinalis anterior abwärts und kreuzen auf Segmentebene.",
+   "entries": [
+    "medulla-oblongata",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-6d09f28c",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Nach einer Basilaristhrombose ist ein Patient voll bei Bewusstsein, kann aber weder Arme, Beine noch Gesicht bewegen und nicht sprechen. Er kann nur die Augen auf und ab bewegen und blinzeln. Um welches Krankheitsbild handelt es sich?",
+   "options": [
+    "Akinetischer Mutismus – Frontalhirnläsion",
+    "Locked-in-Syndrom – Läsion der ventralen Pons",
+    "Koma – Läsion des aufsteigenden retikulären Aktivierungssystems",
+    "Weber-Syndrom – Mittelhirnläsion",
+    "Wallenberg-Syndrom – laterale Medulla-Läsion"
+   ],
+   "answer": 1,
+   "explanation": "Eine Läsion der ventralen Pons unterbricht kortikospinale und kortikobulbäre Bahnen; da die Formatio reticularis in der dorsalen Pons erhalten bleibt, ist das Bewusstsein ungestört. Vertikale Augenbewegungen und Lidschlag werden vom Mittelhirn gesteuert und bleiben erhalten.",
+   "entries": [
+    "pons",
+    "a-vertebralis"
+   ]
+  },
+  {
+   "id": "ne-0a8db49c",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher rötliche Kern im Mittelhirn erhält Fasern aus dem Kleinhirn?",
+   "options": [
+    "Nucleus olivaris inferior",
+    "Substantia nigra",
+    "Nucleus ruber",
+    "Locus caeruleus",
+    "Nucleus dentatus"
+   ],
+   "answer": 2,
+   "explanation": "Der Nucleus ruber erhält Fasern über den oberen Kleinhirnstiel und beeinflusst über den Tractus rubrospinalis die Beuger der oberen Extremität. Gute Durchblutung und Eisengehalt lassen ihn im Frischschnitt rötlich erscheinen.",
+   "entries": [
+    "mesencephalon",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-8a618879",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Auf welcher Höhe endet beim Erwachsenen das untere Ende des Rückenmarks (Conus medullaris) gewöhnlich?",
+   "options": [
+    "L1–L2",
+    "L5–S1",
+    "T10–T11",
+    "S2",
+    "L3–L4"
+   ],
+   "answer": 0,
+   "explanation": "Da die Wirbelsäule in der Entwicklung schneller wächst als das Rückenmark, liegt der Conus medullaris beim Erwachsenen auf Höhe L1–L2 (beim Neugeborenen etwa L3). Darunter liegen Cauda equina und Filum terminale. Der Durasack endet auf Höhe S2.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-c6fa7ddb",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Welcher Zwischenraum ist beim Erwachsenen für die Lumbalpunktion am besten geeignet und am sichersten?",
+   "options": [
+    "Zwischen T12 und L1",
+    "Zwischen S2 und S3",
+    "Zwischen L1 und L2",
+    "Zwischen L3 und L4 oder L4 und L5",
+    "Zwischen T10 und T11"
+   ],
+   "answer": 3,
+   "explanation": "Die Verbindungslinie der höchsten Punkte beider Darmbeinkämme (Tuffier-Linie) verläuft etwa durch den Dornfortsatz von L4. Da das Rückenmark bei L1–L2 endet, schiebt eine bei L3–L4 oder L4–L5 eingeführte Nadel nur die Wurzeln der Cauda equina beiseite.",
+   "entries": [
+    "medulla-spinalis",
+    "cauda-equina",
+    "vertebrae-lumbales"
+   ]
+  },
+  {
+   "id": "ne-f7851598",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welches ist bei der Lumbalpunktion das letzte Band, das die Nadel vor dem Epiduralraum durchsticht?",
+   "options": [
+    "Lig. flavum",
+    "Lig. supraspinale",
+    "Lig. interspinale",
+    "Lig. denticulatum",
+    "Lig. longitudinale posterius"
+   ],
+   "answer": 0,
+   "explanation": "Die Nadel durchdringt nacheinander Haut, Unterhaut, Lig. supraspinale, Lig. interspinale und Lig. flavum bis in den Epiduralraum, dann Dura und Arachnoidea bis in den Subarachnoidalraum. Der Widerstandsverlust nach dem Lig. flavum leitet die Periduralanästhesie.",
+   "entries": [
+    "ligg-columnae",
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-6dcbddb7",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein in den Rücken gestochener Patient hat rechts unterhalb von T10 eine motorische Lähmung und einen Ausfall der Tiefensensibilität (Vibration, Lage), links ab etwa T12 einen Ausfall von Schmerz- und Temperaturempfinden. Welche Läsion liegt vor?",
+   "options": [
+    "Halbseitenläsion der linken Rückenmarkshälfte",
+    "Halbseitenläsion der rechten Rückenmarkshälfte (Brown-Séquard-Syndrom)",
+    "Hinterstrangsyndrom",
+    "A.-spinalis-anterior-Syndrom",
+    "Zentrales Rückenmarksyndrom"
+   ],
+   "answer": 1,
+   "explanation": "Bei der Halbseitenläsion sind auf derselben Seite der Tractus corticospinalis (motorische Lähmung) und der Hinterstrang (Tiefensensibilität) betroffen. Da Schmerz- und Temperaturfasern 1–2 Segmente oberhalb ihres Eintritts kreuzen, tritt der Ausfall dieser Qualitäten auf der Gegenseite einige Segmente unterhalb der Läsion auf.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-a9f875c2",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Bahn leitet feine Berührung und Propriozeption aus der unteren Extremität?",
+   "options": [
+    "Fasciculus gracilis",
+    "Fasciculus cuneatus",
+    "Tractus spinothalamicus lateralis",
+    "Tractus corticospinalis lateralis",
+    "Tractus spinocerebellaris anterior"
+   ],
+   "answer": 0,
+   "explanation": "In den Hintersträngen führt der medial gelegene Fasciculus gracilis Informationen aus unterem Rumpf und Bein, der lateral gelegene Fasciculus cuneatus (oberhalb T6) aus oberem Rumpf und Arm. Die Fasern steigen gleichseitig auf, werden in der Medulla (Nucleus gracilis/cuneatus) umgeschaltet und kreuzen zum Lemniscus medialis.",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-dda468ea",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient, der sich unbemerkt die Hände an einem heißen Ofen verbrennt, hat einen „pelerinenförmigen“ Ausfall von Schmerz- und Temperaturempfinden an beiden Schultern und Armen; Berührungs- und Lageempfinden sind erhalten. Was ist die wahrscheinlichste Diagnose?",
+   "options": [
+    "Tabes dorsalis",
+    "Brown-Séquard-Syndrom",
+    "Verschluss der A. spinalis anterior",
+    "Zervikale Syringomyelie",
+    "Funikuläre Myelose bei B12-Mangel"
+   ],
+   "answer": 3,
+   "explanation": "Bei der Syringomyelie erweitert sich der Zentralkanal und schädigt zuerst die in der Commissura alba anterior kreuzenden spinothalamischen Fasern; daher fallen Schmerz und Temperatur in den betroffenen Segmenten beidseits „pelerinenförmig“ aus. Die Hinterstränge bleiben erhalten (dissoziierte Empfindungsstörung).",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-4634c777",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was bleibt beim Verschluss der A. spinalis anterior gewöhnlich erhalten?",
+   "options": [
+    "Die motorische Kraft unterhalb der Läsion",
+    "Blasen- und Mastdarmkontrolle",
+    "Die Funktion des unteren Motoneurons auf Läsionshöhe",
+    "Vibrations- und Lageempfinden",
+    "Schmerz- und Temperaturempfinden"
+   ],
+   "answer": 3,
+   "explanation": "Die A. spinalis anterior versorgt die vorderen zwei Drittel des Rückenmarks: Vorderhörner, kortikospinale und spinothalamische Bahnen sind betroffen. Da die Hinterstränge von den Aa. spinales posteriores versorgt werden, bleiben Vibrations- und Lageempfinden erhalten.",
+   "entries": [
+    "medulla-spinalis",
+    "tractus-spinales"
+   ]
+  },
+  {
+   "id": "ne-bcf0f483",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Bahnen sind bei der funikulären Myelose infolge Vitamin-B12-Mangels betroffen?",
+   "options": [
+    "Hinterstränge und Tractus corticospinales laterales",
+    "Nur die Motoneurone des Vorderhorns",
+    "Commissura alba anterior und Seitenhörner",
+    "Spinozerebelläre Bahnen und Hinterwurzeln",
+    "Spinothalamische Bahnen und Vorderhörner"
+   ],
+   "answer": 0,
+   "explanation": "Bei B12-Mangel ist die Myelinsynthese gestört; besonders betroffen sind gemeinsam die Hinterstränge (Ausfall der Tiefensensibilität, Ataxie) und die lateralen kortikospinalen Bahnen (Spastik, Babinski-Zeichen).",
+   "entries": [
+    "tractus-spinales",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-f37384b3",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein junger Mann, der mit einem Baseballschläger am Kopf getroffen wurde, ist kurz bewusstlos und erholt sich, Stunden später trübt er ein. Das CT zeigt eine bikonvexe (linsenförmige) Blutung, die die Schädelnähte nicht überschreitet. In welchem Raum liegt die Blutung und was ist ihre Quelle?",
+   "options": [
+    "Hirnparenchym – Aa. lenticulostriatae",
+    "Subduralraum – Brückenvenen",
+    "Subarachnoidalraum – Aneurysma",
+    "Epiduralraum – Sinus sagittalis superior",
+    "Epiduralraum – A. meningea media"
+   ],
+   "answer": 4,
+   "explanation": "Das epidurale Hämatom entsteht zwischen Schädel und Dura, meist durch eine arterielle Blutung; da die Dura an den Nähten fest haftet, überschreitet es diese nicht und ist linsenförmig. Das subdurale Hämatom entsteht durch Einriss von Brückenvenen, ist sichelförmig, überschreitet Nähte und ist bei älteren Menschen und Alkoholkranken häufig.",
+   "entries": [
+    "meninges",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-56835093",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein Patient stellt sich mit dem schlimmsten Kopfschmerz seines Lebens vor; der Liquor ist blutig und xanthochrom. Was ist die häufigste Ursache?",
+   "options": [
+    "Ruptur der A. meningea media",
+    "Ruptur eines sakkulären (Beeren-)Aneurysmas am Circulus arteriosus cerebri",
+    "Blutung aus dem Plexus choroideus",
+    "Sinus-cavernosus-Thrombose",
+    "Ruptur der Brückenvenen"
+   ],
+   "answer": 1,
+   "explanation": "Häufigste Ursache der nichttraumatischen Subarachnoidalblutung sind Aneurysmen am Circulus Willisii, am häufigsten an der A. communicans anterior. Das Blut vermischt sich im Subarachnoidalraum mit dem Liquor.",
+   "entries": [
+    "meninges",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-c9d1565d",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche zahnartigen Fortsätze der Pia mater befestigen das Rückenmark beidseits an der Dura mater?",
+   "options": [
+    "Filum terminale",
+    "Lig. flavum",
+    "Ligg. denticulata",
+    "Lig. coccygeum",
+    "Septum cervicale intermedium"
+   ],
+   "answer": 2,
+   "explanation": "Die Pia mater bildet beidseits etwa 21 zahnartige Fortsätze (Ligg. denticulata), die die Arachnoidea durchbrechen, an der Dura ansetzen und das Rückenmark im Durasack aufhängen. Das Filum terminale zieht vom Conus medullaris zum Steißbein.",
+   "entries": [
+    "meninges",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-86030d28",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage über den Epiduralraum des Wirbelkanals ist richtig?",
+   "options": [
+    "Er ist mit Liquor gefüllt.",
+    "Er geht frei in einen Epiduralraum innerhalb des Schädels über.",
+    "Er endet zusammen mit dem Rückenmark bei L1.",
+    "Er liegt zwischen Pia mater und Arachnoidea.",
+    "Er enthält Fett und den Plexus venosus vertebralis internus."
+   ],
+   "answer": 4,
+   "explanation": "Der spinale Epiduralraum liegt zwischen Dura und Periost des Wirbelkanals und enthält Fett und den klappenlosen inneren Wirbelvenenplexus (Batson). Im Schädel ist die Dura mit dem Periost verwachsen, sodass normalerweise kein Epiduralraum besteht; der Raum endet am Foramen magnum. Über diese Venen metastasieren Becken- und Mammakarzinome in die Wirbelsäule.",
+   "entries": [
+    "meninges",
+    "ligg-columnae"
+   ]
+  },
+  {
+   "id": "ne-beeb8a52",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein Patient mit massivem lumbalem Bandscheibenvorfall hat eine „Reithosenanästhesie“ an Damm und Oberschenkelinnenseiten, einen Harnverhalt und einen verminderten Analsphinktertonus. Um welchen Notfall handelt es sich?",
+   "options": [
+    "Piriformis-Syndrom",
+    "Brown-Séquard-Syndrom",
+    "Einseitige Kompression des Conus medullaris",
+    "Meralgia paraesthetica",
+    "Cauda-equina-Syndrom"
+   ],
+   "answer": 4,
+   "explanation": "Werden die Nervenwurzeln unterhalb L1–L2 (Cauda equina) komprimiert, sind die von den Sakralwurzeln versorgte Dammhaut, Harnblase und Analsphinkter betroffen. Eine notfallmäßige operative Dekompression ist nötig.",
+   "entries": [
+    "cauda-equina",
+    "discus-intervertebralis"
+   ]
+  },
+  {
+   "id": "ne-80f02adb",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Sinn ist der einzige, dessen Information vor dem Erreichen der Rinde nicht im Thalamus umgeschaltet wird?",
+   "options": [
+    "Sehen",
+    "Riechen",
+    "Hören",
+    "Tasten",
+    "Schmecken"
+   ],
+   "answer": 1,
+   "explanation": "Die Riechfasern werden im Bulbus olfactorius umgeschaltet; der Tractus olfactorius zieht direkt zu Arealen wie dem piriformen Kortex und der Amygdala. Alle anderen Sinne werden vor der Rinde im Thalamus umgeschaltet.",
+   "entries": [
+    "n-olfactorius",
+    "organum-olfactus"
+   ]
+  },
+  {
+   "id": "ne-f7431de4",
+   "group": "Hirnnerven",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Ein Patient mit Kopfschmerzen und Sehstörung hat an beiden Augen die äußeren (temporalen) Gesichtsfelder verloren. Man vermutet ein Hypophysenadenom. Welche Struktur wird komprimiert?",
+   "options": [
+    "Radiatio optica",
+    "N. opticus",
+    "Corpus geniculatum laterale",
+    "Chiasma opticum",
+    "Tractus opticus"
+   ],
+   "answer": 3,
+   "explanation": "Im Chiasma opticum kreuzen die Fasern aus den nasalen Netzhauthälften beider Augen; sie tragen die temporalen Gesichtsfelder. Ein von unten drückender Hypophysentumor komprimiert sie und verursacht eine bitemporale Hemianopsie.",
+   "entries": [
+    "n-opticus",
+    "hypophysis"
+   ]
+  },
+  {
+   "id": "ne-c94ccfe0",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Gesichtsfelddefekt entsteht bei einer Läsion des rechten Tractus opticus?",
+   "options": [
+    "Homonyme Hemianopsie nach rechts",
+    "Vollständige Blindheit des rechten Auges",
+    "Homonyme Hemianopsie nach links",
+    "Bitemporale Hemianopsie",
+    "Quadrantenanopsie links oben"
+   ],
+   "answer": 2,
+   "explanation": "Alle Läsionen hinter dem Chiasma verursachen einen homonymen Defekt im gegenseitigen Gesichtsfeld. Der rechte Tractus opticus führt Fasern aus der temporalen Netzhaut des rechten und der nasalen Netzhaut des linken Auges, also aus dem linken Gesichtsfeld.",
+   "entries": [
+    "n-opticus"
+   ]
+  },
+  {
+   "id": "ne-cbc1f080",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher Defekt ist bei einer Schädigung der durch den Temporallappen ziehenden Fasern der Sehstrahlung (Meyer-Schleife) zu erwarten?",
+   "options": [
+    "Kontralaterale homonyme obere Quadrantenanopsie",
+    "Ipsilaterale obere Quadrantenanopsie",
+    "Vollständige Hemianopsie mit Makulaaussparung",
+    "Kontralaterale homonyme untere Quadrantenanopsie",
+    "Bitemporale Hemianopsie"
+   ],
+   "answer": 0,
+   "explanation": "Die unteren Fasern der Sehstrahlung (aus der unteren Netzhauthälfte, tragen das obere Gesichtsfeld) bilden im Temporallappen die Meyer-Schleife; ihre Schädigung verursacht eine kontralaterale obere Quadrantenanopsie. Parietallappenläsionen betreffen den unteren Quadranten.",
+   "entries": [
+    "n-opticus",
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-48c33959",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient mit plötzlichem, heftigem Kopfschmerz hat eine Ptosis, eine lichtstarre weite Pupille und eine Abweichung des rechten Auges nach unten außen. Ein Aneurysma welcher Arterie verursacht dieses Bild am häufigsten?",
+   "options": [
+    "A. cerebri media",
+    "A. communicans posterior",
+    "A. ophthalmica",
+    "A. communicans anterior",
+    "Basilariskopf"
+   ],
+   "answer": 1,
+   "explanation": "Der N. oculomotorius verläuft direkt neben der A. communicans posterior. Da die parasympathischen Pupillenfasern an der Oberfläche des Nervs liegen, betrifft eine Kompression von außen (Aneurysma) früh die Pupille. Bei der diabetischen (ischämischen) Okulomotoriusparese ist das Innere des Nervs betroffen, die Pupille bleibt meist verschont.",
+   "entries": [
+    "n-oculomotorius",
+    "circulus-arteriosus"
+   ]
+  },
+  {
+   "id": "ne-0abd7abf",
+   "group": "Hirnnerven",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "In welcher Antwort sind die drei Äste des N. trigeminus den Öffnungen, durch die sie den Schädel verlassen, richtig zugeordnet?",
+   "options": [
+    "V1 – Foramen rotundum, V2 – Foramen ovale, V3 – Foramen spinosum",
+    "V1 – Fissura orbitalis superior, V2 – Foramen rotundum, V3 – Foramen ovale",
+    "V1 – Foramen ovale, V2 – Foramen rotundum, V3 – Fissura orbitalis superior",
+    "V1 – Canalis opticus, V2 – Fissura orbitalis inferior, V3 – Foramen ovale",
+    "V1 – Fissura orbitalis superior, V2 – Foramen ovale, V3 – Foramen rotundum"
+   ],
+   "answer": 1,
+   "explanation": "Der N. ophthalmicus zieht durch die Fissura orbitalis superior in die Orbita, der N. maxillaris durch das Foramen rotundum in die Fossa pterygopalatina und der N. mandibularis durch das Foramen ovale in die Fossa infratemporalis. Nur V3 führt motorische Fasern.",
+   "entries": [
+    "n-trigeminus",
+    "os-sphenoidale"
+   ]
+  },
+  {
+   "id": "ne-3ea7d066",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher der folgenden Muskeln wird NICHT vom N. mandibularis (V3) innerviert?",
+   "options": [
+    "Venter anterior des M. digastricus",
+    "M. stapedius",
+    "M. tensor tympani",
+    "M. tensor veli palatini",
+    "M. mylohyoideus"
+   ],
+   "answer": 1,
+   "explanation": "V3 innerviert die Muskeln des ersten Schlundbogens: Kaumuskeln, M. tensor tympani, M. tensor veli palatini, M. mylohyoideus und den vorderen Digastrikusbauch. Der M. stapedius ist ein Muskel des zweiten Bogens und wird vom N. facialis innerviert; seine Lähmung verursacht Hyperakusis.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "auris-media"
+   ]
+  },
+  {
+   "id": "ne-119b3c5e",
+   "group": "Hirnnerven",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Nerven bilden den afferenten und efferenten Schenkel des Kornealreflexes?",
+   "options": [
+    "Afferent: N. ophthalmicus – Efferent: N. oculomotorius",
+    "Afferent: N. maxillaris (V2) – Efferent: N. oculomotorius",
+    "Afferent: N. opticus (II) – Efferent: N. oculomotorius (III)",
+    "Afferent: N. ophthalmicus (V1) – Efferent: N. facialis (VII)",
+    "Afferent: N. facialis – Efferent: N. trigeminus"
+   ],
+   "answer": 3,
+   "explanation": "Die Berührung der Hornhaut wird vom N. nasociliaris (V1) wahrgenommen; als Antwort kontrahiert sich beidseits der M. orbicularis oculi (VII). Beim Lichtreflex ist der afferente Schenkel II, der efferente III.",
+   "entries": [
+    "n-trigeminus",
+    "n-facialis",
+    "cornea"
+   ]
+  },
+  {
+   "id": "ne-2746f878",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient mit einer Fazialisparese, die mit Schmerzen hinter dem Ohr begann, kann auf derselben Seite die Stirn nicht runzeln und das Auge nicht schließen; Geschmack, Tränensekretion und Gehör sind normal. Wo liegt die Läsion?",
+   "options": [
+    "Im Fazialiskern in der Pons",
+    "Auf Höhe des Ganglion geniculi",
+    "Kurz vor dem Abgang der Chorda tympani",
+    "Auf Höhe des Foramen stylomastoideum oder distal davon",
+    "Im Meatus acusticus internus"
+   ],
+   "answer": 3,
+   "explanation": "Im Fazialiskanal gibt der N. facialis nacheinander den N. petrosus major (Tränendrüse), den N. stapedius und die Chorda tympani (Geschmack der vorderen zwei Zungendrittel) ab. Sind nur die mimischen Muskeln betroffen, liegt die Läsion nach all diesen Abgängen, also am Foramen stylomastoideum oder in der Parotis.",
+   "entries": [
+    "n-facialis",
+    "os-temporale"
+   ]
+  },
+  {
+   "id": "ne-f733b124",
+   "group": "Hirnnerven",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Antwort nennt die Endäste, in die sich der N. facialis in der Parotis aufteilt, richtig?",
+   "options": [
+    "Rr. temporales, infraorbitales, buccales, mentales und R. colli",
+    "Rr. ophthalmicus, maxillaris, mandibularis, buccales und R. colli",
+    "Rr. auricularis, temporales, lingualis, buccales und mentalis",
+    "Rr. frontalis, zygomatici, lingualis, mandibularis und R. colli",
+    "Rr. temporales, zygomatici, buccales, R. marginalis mandibulae und R. colli"
+   ],
+   "answer": 4,
+   "explanation": "Nach dem Austritt aus dem Foramen stylomastoideum bildet der N. facialis in der Parotis den Plexus intraparotideus (Pes anserinus) und teilt sich in fünf Endäste. Ihr Erhalt hat in der Parotischirurgie oberste Priorität; der Nerv innerviert die Drüse nicht.",
+   "entries": [
+    "n-facialis",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-fe75f44a",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient mit fortschreitender einseitiger Schwerhörigkeit und Tinnitus hat auf derselben Seite einen abgeschwächten Kornealreflex. Das MRT zeigt eine Raumforderung im Kleinhirnbrückenwinkel. Was ist die wahrscheinlichste Diagnose?",
+   "options": [
+    "Hypophysenadenom",
+    "Kraniopharyngeom",
+    "Vestibularisschwannom (Akustikusneurinom)",
+    "Glomus-jugulare-Tumor",
+    "Meningeom (Olfaktoriusrinne)"
+   ],
+   "answer": 2,
+   "explanation": "Das Vestibularisschwannom geht von den Schwann-Zellen des vestibulären Anteils des N. vestibulocochlearis aus, wächst im Meatus acusticus internus und dehnt sich in den Kleinhirnbrückenwinkel aus. Mit zunehmender Größe kann es N. trigeminus (Kornealreflex) und N. facialis komprimieren.",
+   "entries": [
+    "n-vestibulocochlearis",
+    "pons",
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-f804d1d2",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage über den N. glossopharyngeus ist FALSCH?",
+   "options": [
+    "Er regt über das Ganglion oticum die Parotissekretion an.",
+    "Er ist der afferente Schenkel des Würgereflexes.",
+    "Er leitet den Geschmack der vorderen zwei Zungendrittel.",
+    "Er leitet Barorezeptorinformationen aus dem Sinus caroticus.",
+    "Er leitet Geschmack und allgemeine Sensibilität des hinteren Zungendrittels."
+   ],
+   "answer": 2,
+   "explanation": "IX leitet Geschmack und allgemeine Sensibilität des hinteren Zungendrittels, die Rachenschleimhaut sowie Informationen aus Sinus und Glomus caroticum; sein einziger Muskel ist der M. stylopharyngeus. Der Geschmack der vorderen zwei Zungendrittel läuft über die Chorda tympani (VII), die allgemeine Sensibilität über den N. lingualis (V3).",
+   "entries": [
+    "n-glossopharyngeus",
+    "gustus"
+   ]
+  },
+  {
+   "id": "ne-c4430a06",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Bei der Aufforderung, „Aaa“ zu sagen, weicht das Zäpfchen (Uvula) des Patienten nach rechts ab. Welcher Nerv auf welcher Seite ist betroffen?",
+   "options": [
+    "Linker N. vagus",
+    "Linker N. facialis",
+    "Rechter N. hypoglossus",
+    "Rechter N. vagus",
+    "Linker N. glossopharyngeus"
+   ],
+   "answer": 0,
+   "explanation": "Die Gaumensegelmuskeln (M. levator veli palatini u. a.) werden vom N. vagus innerviert. Bei einseitiger Lähmung zieht die gesunde Seite das Gaumensegel zu sich; die Uvula weicht zur gesunden Seite, also von der Läsion weg, ab. Die Zunge dagegen weicht zur Läsionsseite ab.",
+   "entries": [
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-bc679c52",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Unter welcher Struktur schlingt sich der linke N. laryngeus recurrens, bevor er nach oben zurückläuft?",
+   "options": [
+    "Linke V. brachiocephalica",
+    "Truncus brachiocephalicus",
+    "Arcus aortae (direkt lateral des Lig. arteriosum)",
+    "Linke A. subclavia",
+    "Linker Hauptbronchus"
+   ],
+   "answer": 2,
+   "explanation": "Der linke N. recurrens schlingt sich neben dem Lig. arteriosum unter dem Aortenbogen hindurch, der rechte unter der rechten A. subclavia. Wegen seines langen Verlaufs kann der linke Nerv durch ein Aortenaneurysma, einen vergrößerten linken Vorhof oder einen Lungentumor komprimiert werden und Heiserkeit verursachen.",
+   "entries": [
+    "n-vagus",
+    "aorta",
+    "larynx"
+   ]
+  },
+  {
+   "id": "ne-e83d1843",
+   "group": "Hirnnerven",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche Hirnnerven führen parasympathische Fasern?",
+   "options": [
+    "III, VII, IX und X",
+    "V, VII, IX und XI",
+    "II, III, VII und XII",
+    "VII, IX, X und XII",
+    "III, IV, V und VI"
+   ],
+   "answer": 0,
+   "explanation": "Der kraniale Parasympathikus verläuft in vier Nerven: III (Ganglion ciliare – Pupille und Akkommodation), VII (Ganglion pterygopalatinum und submandibulare), IX (Ganglion oticum – Parotis) und X (Brust- und Bauchorgane).",
+   "entries": [
+    "systema-autonomicum",
+    "n-vagus"
+   ]
+  },
+  {
+   "id": "ne-a9ee3049",
+   "group": "Hirnnerven",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Hirnnerv tritt als einziger an der dorsalen (hinteren) Fläche des Hirnstamms aus?",
+   "options": [
+    "N. accessorius",
+    "N. oculomotorius",
+    "N. trigeminus",
+    "N. abducens",
+    "N. trochlearis"
+   ],
+   "answer": 4,
+   "explanation": "Die Trochlearisfasern kreuzen im Mittelhirn und treten unterhalb der Colliculi inferiores dorsal aus. Er ist der dünnste Hirnnerv mit dem längsten intrakraniellen Verlauf und innerviert den M. obliquus superior der Gegenseite.",
+   "entries": [
+    "n-trochlearis",
+    "mesencephalon"
+   ]
+  },
+  {
+   "id": "ne-e3ffe10b",
+   "group": "Hirnnerven",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Nach dem Ausdrücken eines Furunkels im Gesicht entwickelt ein Patient Fieber, ein Lidödem und einen Exophthalmus; man vermutet eine Sinus-cavernosus-Thrombose. Welcher Hirnnerv ist voraussichtlich zuerst betroffen und warum?",
+   "options": [
+    "N. maxillaris, da er am Boden des Sinus liegt",
+    "N. oculomotorius, da er in der Seitenwand des Sinus am höchsten liegt",
+    "N. opticus, da er durch den Sinus zieht",
+    "N. trochlearis, da er frei im Sinus verläuft",
+    "N. abducens, da er zusammen mit der A. carotis interna frei im Sinus verläuft"
+   ],
+   "answer": 4,
+   "explanation": "In der Seitenwand des Sinus cavernosus liegen von oben nach unten III, IV, V1 und V2; im Sinus selbst verlaufen A. carotis interna und N. abducens. Daher ist die Abduzensparese (eingeschränkter Seitblick) oft das erste Zeichen. Das „gefährliche Dreieck“ des Gesichts steht über die Vv. ophthalmicae mit dem Sinus in Verbindung.",
+   "entries": [
+    "n-abducens",
+    "sinus-durae-matris",
+    "a-carotis-interna"
+   ]
+  },
+  {
+   "id": "ne-eed7e04e",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wonach werden die Faszikel des Plexus brachialis benannt?",
+   "options": [
+    "Nach ihrer Lage zum zweiten Abschnitt der A. axillaris",
+    "Nach ihrer Lage zum M. scalenus anterior",
+    "Nach ihrer Lage zur Klavikula",
+    "Nach dem Kompartiment, das sie versorgen",
+    "Nach den Rückenmarksegmenten, aus denen sie stammen"
+   ],
+   "answer": 0,
+   "explanation": "Fasciculus lateralis, medialis und posterior umgeben hinter dem M. pectoralis minor den zweiten Abschnitt der A. axillaris und sind nach ihrer Lage zu ihr benannt. Die Wurzeln (C5–T1) liegen in der Skalenuslücke, die Trunci im seitlichen Halsdreieck, die Divisionen hinter der Klavikula.",
+   "entries": [
+    "plexus-brachialis",
+    "a-axillaris"
+   ]
+  },
+  {
+   "id": "ne-3c25db81",
+   "group": "Spinalnerven und Plexus",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Nach einer schweren Geburt mit Schulterdystokie liegt der Arm des Babys adduziert und innenrotiert am Körper, der Ellbogen gestreckt, der Unterarm proniert („Kellnertrinkgeld“-Stellung). Welche Struktur ist betroffen?",
+   "options": [
+    "N. musculocutaneus",
+    "Unterer Truncus des Plexus brachialis (C8–T1) – Klumpke-Lähmung",
+    "Oberer Truncus des Plexus brachialis (C5–C6) – Erb-Duchenne-Lähmung",
+    "N. axillaris",
+    "Fasciculus posterior"
+   ],
+   "answer": 2,
+   "explanation": "Das gewaltsame Auseinanderziehen von Kopf und Schulter überdehnt den oberen Truncus. Deltoideus, Supraspinatus, Infraspinatus (Abduktion und Außenrotation), Bizeps und Brachialis (Ellbogenbeugung) sowie die Supinatoren sind gelähmt; der Arm nimmt die typische Stellung ein.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-7352de71",
+   "group": "Spinalnerven und Plexus",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein Patient, der sich im Fallen an einem Ast festhielt, wobei der Arm gewaltsam nach oben gezogen wurde, entwickelt eine Krallenhand, eine Atrophie der Handbinnenmuskeln, einen Sensibilitätsausfall an der Unterarminnenseite sowie Ptosis und Miosis auf derselben Seite. Welche Läsion liegt vor?",
+   "options": [
+    "Unterer Truncus des Plexus brachialis (C8–T1) – Klumpke-Lähmung",
+    "Oberer Truncus des Plexus brachialis (C5–C6)",
+    "Verletzung des N. radialis in der Achsel",
+    "Fasciculus lateralis",
+    "Verletzung des N. medianus am Handgelenk"
+   ],
+   "answer": 0,
+   "explanation": "Gewaltsamer Zug am abduzierten Arm überdehnt den unteren Truncus (C8–T1): Die Handbinnenmuskeln sind gelähmt, es entsteht eine Krallenhand. Die Mitbeteiligung der sympathischen Fasern nahe der Wurzel T1 (Ganglion stellatum) erklärt das Horner-Syndrom.",
+   "entries": [
+    "plexus-brachialis",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-abc65d94",
+   "group": "Spinalnerven und Plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welcher der folgenden Nerven geht NICHT aus dem Fasciculus posterior des Plexus brachialis hervor?",
+   "options": [
+    "N. subscapularis superior",
+    "N. thoracodorsalis",
+    "N. musculocutaneus",
+    "N. radialis",
+    "N. axillaris"
+   ],
+   "answer": 2,
+   "explanation": "Der Fasciculus posterior gibt die Äste für die Rückseite von Schulter und Arm ab: Nn. subscapulares superior und inferior, N. thoracodorsalis, N. axillaris und N. radialis. Der N. musculocutaneus entspringt dem Fasciculus lateralis und versorgt das vordere Oberarmkompartiment.",
+   "entries": [
+    "plexus-brachialis",
+    "n-musculocutaneus"
+   ]
+  },
+  {
+   "id": "ne-b856c3f9",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aus welchen Teilen des Plexus brachialis entsteht der N. medianus?",
+   "options": [
+    "Fasciculus lateralis und Fasciculus posterior",
+    "Fasciculus lateralis und Fasciculus medialis",
+    "Nur Fasciculus lateralis",
+    "Truncus superior und Truncus medius",
+    "Fasciculus posterior und Fasciculus medialis"
+   ],
+   "answer": 1,
+   "explanation": "Der N. medianus entsteht durch Vereinigung zweier Wurzeln aus Fasciculus lateralis und medialis vor der A. axillaris (C6–T1, evtl. auch C5-Fasern; Medianusgabel). Am Oberarm gibt er keine Äste ab; er versorgt die meisten Unterarmbeuger und die Thenarmuskeln.",
+   "entries": [
+    "n-medianus",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-cd2e97f1",
+   "group": "Spinalnerven und Plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Nerven geben am Oberarm (Brachium) überhaupt keine Äste ab?",
+   "options": [
+    "N. ulnaris und N. radialis",
+    "N. musculocutaneus und N. medianus",
+    "N. axillaris und N. radialis",
+    "N. radialis und N. musculocutaneus",
+    "N. medianus und N. ulnaris"
+   ],
+   "answer": 4,
+   "explanation": "N. medianus und N. ulnaris verlaufen zwar am Oberarm, geben dort aber keine motorischen oder sensiblen Äste ab; ihre Äste liegen an Unterarm und Hand. Das vordere Oberarmkompartiment versorgt der N. musculocutaneus, das hintere der N. radialis.",
+   "entries": [
+    "n-medianus",
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-cfd5de8f",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welche der folgenden Dermatomzuordnungen ist falsch?",
+   "options": [
+    "T10 – Nabel",
+    "S1 – Fußaußenrand und Ferse",
+    "L1 – Leistenregion",
+    "C8 – Daumen",
+    "T4 – Brustwarze"
+   ],
+   "answer": 3,
+   "explanation": "An der Hand gehört der Daumen zu C6, der Mittelfinger zu C7 und der Kleinfinger zu C8. Am Rumpf entspricht T4 der Brustwarze, T10 dem Nabel und L1 der Leiste; am Bein L4 dem Innenknöchel, L5 dem Fußrücken und der Großzehe, S1 dem Fußaußenrand und der Ferse.",
+   "entries": [
+    "ganglion-spinale",
+    "n-intercostales"
+   ]
+  },
+  {
+   "id": "ne-78ef009f",
+   "group": "Spinalnerven und Plexus",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein adipöser Patient mit eng sitzendem Gürtel hat Brennen, Taubheit und Kribbeln an der Vorderaußenseite des Oberschenkels; Kraft und Reflexe sind normal. Welcher Nerv ist eingeklemmt?",
+   "options": [
+    "N. cutaneus femoris lateralis",
+    "N. femoralis",
+    "N. genitofemoralis",
+    "N. saphenus",
+    "N. obturatorius"
+   ],
+   "answer": 0,
+   "explanation": "Meralgia paraesthetica: Der rein sensible N. cutaneus femoris lateralis (L2–L3) wird beim Durchtritt unter dem Leistenband direkt medial der Spina iliaca anterior superior komprimiert. Da er keine motorischen Fasern führt, tritt keine Schwäche auf.",
+   "entries": [
+    "plexus-lumbalis",
+    "lig-inguinale"
+   ]
+  },
+  {
+   "id": "ne-4b8d4357",
+   "group": "Spinalnerven und Plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Was ist bei einer Verletzung des N. femoralis NICHT zu erwarten?",
+   "options": [
+    "Sensibilitätsausfall an der Oberschenkelvorderseite",
+    "Deutliche Schwäche der Oberschenkeladduktion",
+    "Schwäche der Kniestreckung",
+    "Sensibilitätsausfall an der Unterschenkelinnenseite",
+    "Ausfall des Patellarsehnenreflexes"
+   ],
+   "answer": 1,
+   "explanation": "Der N. femoralis (L2–L4) innerviert Quadrizeps, Sartorius, Iliacus und Pectineus und leitet die Sensibilität der Oberschenkelvorderseite sowie über den N. saphenus der Unterschenkelinnenseite. Die Adduktoren werden vom N. obturatorius innerviert.",
+   "entries": [
+    "n-femoralis",
+    "m-quadriceps-femoris"
+   ]
+  },
+  {
+   "id": "ne-1b1b302a",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Nach einer langen Beckenoperation hat eine Patientin Mühe, die Beine zusammenzuführen, und ein kleines Taubheitsareal an der Oberschenkelinnenseite. Welcher Nerv wurde verletzt?",
+   "options": [
+    "N. obturatorius",
+    "N. femoralis",
+    "N. genitofemoralis",
+    "N. pudendus",
+    "N. gluteus superior"
+   ],
+   "answer": 0,
+   "explanation": "Der N. obturatorius (L2–L4) verläuft an der seitlichen Beckenwand nahe der Fossa ovarica und tritt in den Canalis obturatorius ein. Er kann bei Beckenoperationen, durch Tumoren oder bei schwierigen Geburten verletzt werden; die Adduktoren werden schwach und die Sensibilität an der Oberschenkelinnenseite fällt aus.",
+   "entries": [
+    "n-obturatorius",
+    "mm-adductores"
+   ]
+  },
+  {
+   "id": "ne-96063403",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Auf welcher Höhe teilt sich der N. ischiadicus am häufigsten in seine beiden Endäste (N. tibialis und N. fibularis communis)?",
+   "options": [
+    "Beim Austritt aus dem Foramen ischiadicum majus",
+    "Ganz oben am Oberschenkel, an der Gesäßfalte",
+    "Am Fibulahals",
+    "Hinter dem Malleolus medialis",
+    "Am oberen Winkel der Fossa poplitea"
+   ],
+   "answer": 4,
+   "explanation": "Der N. ischiadicus (L4–S3), der dickste Nerv des Körpers, teilt sich meist an der Spitze der Kniekehle. Manchmal erfolgt die Teilung höher, und der fibulare Anteil durchbohrt den M. piriformis.",
+   "entries": [
+    "n-ischiadicus",
+    "fossa-poplitea"
+   ]
+  },
+  {
+   "id": "ne-7800f94a",
+   "group": "Spinalnerven und Plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Folge hat eine Verletzung des N. tibialis in der Kniekehle?",
+   "options": [
+    "Fallfuß und Sensibilitätsausfall am Fußrücken",
+    "Sensibilitätsausfall an der Unterschenkelinnenseite",
+    "Ausfall der Plantarflexion des Fußes und der Zehenbeugung, Sensibilitätsausfall an der Fußsohle",
+    "Ausfall der Kniestreckung",
+    "Ausfall der Fußeversion"
+   ],
+   "answer": 2,
+   "explanation": "Der N. tibialis innerviert die Muskeln der hinteren Loge (Triceps surae, Tibialis posterior, lange Beuger) und über die Plantarnerven die Fußsohlenmuskeln. Bei Schädigung steht der Fuß in Dorsalextension und Eversion (Hackenfuß), Zehenspitzengang ist unmöglich und die Sohlensensibilität fällt aus.",
+   "entries": [
+    "n-tibialis",
+    "m-triceps-surae"
+   ]
+  },
+  {
+   "id": "ne-bbd6023c",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Welcher Nerv innerviert den M. sphincter ani externus?",
+   "options": [
+    "Plexus hypogastricus inferior",
+    "N. obturatorius",
+    "Nn. splanchnici pelvici",
+    "N. genitofemoralis",
+    "N. pudendus (N. rectalis inferior)"
+   ],
+   "answer": 4,
+   "explanation": "Der willkürlich steuerbare äußere Analsphinkter und der äußere Harnröhrensphinkter werden vom N. pudendus (S2–S4) innerviert. Die inneren Sphinkteren sind glatte Muskulatur und werden vegetativ gesteuert.",
+   "entries": [
+    "n-pudendus",
+    "rectum"
+   ]
+  },
+  {
+   "id": "ne-91182414",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Die Zellkörper welcher Zellen enthält das Spinalganglion (Hinterwurzelganglion)?",
+   "options": [
+    "Interneurone",
+    "Präganglionäre sympathische Neurone",
+    "Postganglionäre parasympathische Neurone",
+    "Untere Motoneurone",
+    "Pseudounipolare sensible Neurone"
+   ],
+   "answer": 4,
+   "explanation": "Der periphere Fortsatz der pseudounipolaren Neurone im Spinalganglion nimmt Informationen von Rezeptoren auf, der zentrale Fortsatz tritt mit der Hinterwurzel ins Rückenmark ein. In diesem Ganglion gibt es keine Synapsen. Das Varizella-Zoster-Virus persistiert hier latent.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d3c5354b",
+   "group": "Spinalnerven und Plexus",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Wird der N. radialis bei einem Patienten mit falsch benutzten Unterarmgehstützen in der Achsel komprimiert, was zeigt sich im Unterschied zu einer Läsion im Sulcus nervi radialis zusätzlich?",
+   "options": [
+    "Schwäche des M. triceps brachii und abgeschwächter Trizepssehnenreflex",
+    "Es besteht keine Fallhand.",
+    "Atrophie der Handbinnenmuskeln",
+    "Schwäche des M. biceps brachii",
+    "Sensibilitätsausfall in der Hohlhand"
+   ],
+   "answer": 0,
+   "explanation": "Die Äste zum Trizeps verlassen den N. radialis in der Achsel und am proximalen Oberarm. Bei einer axillären (Krücken-)Läsion ist auch die Ellbogenstreckung betroffen; bei einer Läsion am Humerusschaft bleibt der Trizeps meist verschont. Beide verursachen eine Fallhand.",
+   "entries": [
+    "n-radialis",
+    "m-triceps-brachii"
+   ]
+  },
+  {
+   "id": "ne-ae42ee32",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Aus welchen Rückenmarksegmenten entspringt der N. phrenicus?",
+   "options": [
+    "C7–T1",
+    "C1–C3",
+    "C3–C5",
+    "T1–T2",
+    "C5–C7"
+   ],
+   "answer": 2,
+   "explanation": "„C3, 4, 5 hält das Zwerchfell am Leben.“ Der N. phrenicus ist der wichtigste Ast des Plexus cervicalis; den Hauptanteil liefert C4. Bei Rückenmarkverletzungen oberhalb C3 sistiert die Spontanatmung.",
+   "entries": [
+    "n-phrenicus",
+    "diaphragma"
+   ]
+  },
+  {
+   "id": "ne-adea3654",
+   "group": "Autonomes Nervensystem",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo im Rückenmark liegen die Zellkörper der präganglionären sympathischen Neurone?",
+   "options": [
+    "Im Hinterhorn aller Segmente",
+    "Im Seitenhorn der Segmente T1–L2 (Nucleus intermediolateralis)",
+    "Im Vorderhorn der Segmente S2–S4",
+    "In den parasympathischen Kernen des Hirnstamms",
+    "Im Seitenhorn der Segmente C1–C8"
+   ],
+   "answer": 1,
+   "explanation": "Der Sympathikus hat einen thorakolumbalen Ursprung: Die präganglionären Neurone liegen im Seitenhorn von T1–L2 und erreichen über die Rr. communicantes albi den Grenzstrang. Der Parasympathikus ist kraniosakral (III, VII, IX, X und S2–S4).",
+   "entries": [
+    "truncus-sympathicus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-d3fdff6f",
+   "group": "Autonomes Nervensystem",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In welchem Ganglion werden die parasympathischen Fasern zur Tränendrüse umgeschaltet?",
+   "options": [
+    "Ganglion oticum",
+    "Ganglion cervicale superius",
+    "Ganglion submandibulare",
+    "Ganglion pterygopalatinum",
+    "Ganglion ciliare"
+   ],
+   "answer": 3,
+   "explanation": "Die Fasern verlassen den N. facialis mit dem N. petrosus major und erreichen über den N. canalis pterygoidei das Ganglion pterygopalatinum; postganglionäre Fasern regen die Drüse über N. zygomaticus und N. lacrimalis an. Deshalb verursachen Fazialisläsionen proximal des Ganglion geniculi ein trockenes Auge.",
+   "entries": [
+    "n-facialis",
+    "apparatus-lacrimalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-41a47503",
+   "group": "Autonomes Nervensystem",
+   "level": "tus",
+   "clinical": false,
+   "stem": "In welchem Nerv beginnen die parasympathischen Fasern, die die Parotissekretion anregen, und in welchem Ganglion werden sie umgeschaltet?",
+   "options": [
+    "N. glossopharyngeus – Ganglion ciliare",
+    "N. glossopharyngeus – Ganglion oticum",
+    "N. facialis – Ganglion submandibulare",
+    "N. facialis – Ganglion pterygopalatinum",
+    "N. vagus – Ganglion oticum"
+   ],
+   "answer": 1,
+   "explanation": "Der N. tympanicus des IX bildet den N. petrosus minor; die Fasern werden im Ganglion oticum umgeschaltet und erreichen mit dem N. auriculotemporalis (V3) die Parotis. Glandula submandibularis und sublingualis werden über die Chorda-tympani-Fasern des VII angeregt.",
+   "entries": [
+    "n-glossopharyngeus",
+    "glandula-parotidea"
+   ]
+  },
+  {
+   "id": "ne-196a637e",
+   "group": "Autonomes Nervensystem",
+   "level": "tus",
+   "clinical": true,
+   "stem": "Ein langjähriger Raucher hat in die rechte Schulter und die Arminnenseite ausstrahlende Schmerzen, eine leichte Ptosis und Miosis am rechten Auge sowie fehlendes Schwitzen in der rechten Gesichtshälfte. Was ist die wahrscheinlichste Ursache?",
+   "options": [
+    "Rechtsseitige Fazialisparese",
+    "Myasthenia gravis",
+    "Schlaganfall der linken Hemisphäre",
+    "Rechtsseitige Okulomotoriusparese",
+    "Ein Pancoast-Tumor der rechten Lungenspitze mit Befall des zervikalen Grenzstrangs"
+   ],
+   "answer": 4,
+   "explanation": "Das Horner-Syndrom (Ptosis – M. tarsalis superior, Miosis – M. dilatator pupillae, Anhidrose) entsteht durch eine Schädigung an beliebiger Stelle der Sympathikusbahn. Ein Lungenspitzentumor befällt Ganglion stellatum und unteren Truncus (C8–T1) und verursacht so Horner-Syndrom und Armschmerz.",
+   "entries": [
+    "truncus-sympathicus",
+    "pulmones",
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-829e615f",
+   "group": "Autonomes Nervensystem",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage über die sympathische Innervation des Nebennierenmarks ist richtig?",
+   "options": [
+    "Das Mark erhält keine vegetative Innervation.",
+    "Die chromaffinen Zellen werden von postganglionären Neuronen erregt.",
+    "Die postganglionären Fasern stammen aus dem Ganglion coeliacum.",
+    "Die präganglionären Fasern enden direkt an den Markzellen; das Mark verhält sich wie ein Ganglion.",
+    "Parasympathische Fasern erreichen es über den N. vagus."
+   ],
+   "answer": 3,
+   "explanation": "Die chromaffinen Zellen des Nebennierenmarks stammen aus der Neuralleiste und gelten als modifizierte postganglionäre Neurone. Die über die Nn. splanchnici eintreffenden präganglionären Fasern bilden direkt an diesen Zellen Synapsen und regen die Ausschüttung von Adrenalin und Noradrenalin an.",
+   "entries": [
+    "glandula-suprarenalis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-86aa969a",
+   "group": "Autonomes Nervensystem",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welchen Neurotransmitter setzen die postganglionären Fasern bei der sympathischen Innervation der Schweißdrüsen frei?",
+   "options": [
+    "Adrenalin",
+    "Serotonin",
+    "Dopamin",
+    "Noradrenalin",
+    "Acetylcholin"
+   ],
+   "answer": 4,
+   "explanation": "Die meisten sympathischen postganglionären Fasern sind noradrenerg, die zu den ekkrinen Schweißdrüsen aber cholinerg (muskarinische Rezeptoren). Deshalb vermindern Anticholinergika das Schwitzen.",
+   "entries": [
+    "glandulae-cutis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-bdaebe1a",
+   "group": "Autonomes Nervensystem",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage über die Nn. splanchnici pelvici ist richtig?",
+   "options": [
+    "Sie bestehen nur aus sensiblen Fasern.",
+    "Sie führen präganglionäre sympathische Fasern aus T5–T9.",
+    "Sie führen postganglionäre sympathische Fasern.",
+    "Sie sind die Beckenäste des N. vagus.",
+    "Sie führen präganglionäre parasympathische Fasern aus S2–S4."
+   ],
+   "answer": 4,
+   "explanation": "Die Nn. splanchnici pelvici (Nn. erigentes) führen die parasympathischen Fasern zu Harnblase (Detrusorkontraktion), Rektum, Colon descendens und sigmoideum sowie die Fasern für die Erektion. Die thorakalen Nn. splanchnici (major T5–T9, minor T10–T11, imus T12) sind sympathisch.",
+   "entries": [
+    "systema-autonomicum",
+    "vesica-urinaria"
+   ]
+  },
+  {
+   "id": "ne-f843505f",
+   "group": "Autonomes Nervensystem",
+   "level": "faculty",
+   "clinical": true,
+   "stem": "Zu Beginn einer Appendizitis beschreibt der Patient schlecht lokalisierbare Schmerzen um den Nabel; Stunden später verlagert sich der Schmerz in den rechten Unterbauch. Warum wird der anfängliche Schmerz um den Nabel empfunden?",
+   "options": [
+    "Der N. ilioinguinalis innerviert die Appendix.",
+    "Das parietale Peritoneum ist früh beteiligt.",
+    "Der N. phrenicus wird gereizt.",
+    "Die Appendix liegt direkt hinter dem Nabel.",
+    "Die viszeralen Afferenzen der Appendix treten in Segment T10 ein; der Schmerz wird in dieses Dermatom projiziert."
+   ],
+   "answer": 4,
+   "explanation": "Der viszerale Schmerz aus Organen des Mitteldarms wird mit sympathischen Fasern zum Segment T10 geleitet und in die Nabelregion projiziert. Erreicht die Entzündung das parietale Peritoneum, lokalisiert dessen somatische Innervation den Schmerz am McBurney-Punkt.",
+   "entries": [
+    "appendix-vermiformis",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-6eb71b69",
+   "group": "Autonomes Nervensystem",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Bis wohin reicht die parasympathische Versorgung durch den N. vagus im Darm ungefähr?",
+   "options": [
+    "Bis zum linken Drittel des Colon transversum (nahe der Flexura coli sinistra)",
+    "Bis zum Beginn des Colon sigmoideum",
+    "Bis zum Ende des Rektums",
+    "Bis zum Ende des Duodenums",
+    "Bis zum Ende des Ileums"
+   ],
+   "answer": 0,
+   "explanation": "Der Vagus versorgt die Abkömmlinge von Vorder- und Mitteldarm (bis etwa zwei Drittel des Colon transversum; Cannon-Böhm-Punkt). Ab der linken Kolonflexur erhalten die Enddarmabkömmlinge ihre parasympathischen Fasern aus den Nn. splanchnici pelvici (S2–S4).",
+   "entries": [
+    "n-vagus",
+    "intestinum-crassum"
+   ]
+  },
+  {
+   "id": "ne-dd43e180",
+   "group": "Autonomes Nervensystem",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Durch die Verschmelzung welcher Ganglien entsteht das Ganglion stellatum?",
+   "options": [
+    "Ganglion cervicale inferius und erstes Brustganglion",
+    "Ganglion coeliacum und Ganglion aorticorenale",
+    "Ganglion ciliare und Ganglion pterygopalatinum",
+    "Ganglion cervicale medium und zweites Brustganglion",
+    "Ganglion cervicale superius und medium"
+   ],
+   "answer": 0,
+   "explanation": "Das Ganglion stellatum (cervicothoracicum) entsteht bei den meisten Menschen durch Verschmelzung des unteren Halsganglions mit dem Ganglion T1; es liegt vor dem Hals der ersten Rippe, hinter dem Ursprung der A. vertebralis. Seine Blockade wird bei sympathisch unterhaltenen Schmerzen der oberen Extremität eingesetzt und verursacht ein Horner-Syndrom.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-53acb8d2",
+   "group": "Autonomes Nervensystem",
+   "level": "tus",
+   "clinical": false,
+   "stem": "Welche Aussage über die Rr. communicantes albi ist richtig?",
+   "options": [
+    "Sie kommen nur an den Spinalnerven T1–L2 vor und führen markhaltige präganglionäre Fasern.",
+    "Sie kommen an allen Spinalnerven vor.",
+    "Sie führen parasympathische Fasern zum Grenzstrang.",
+    "Sie führen marklose postganglionäre Fasern.",
+    "Sie kommen nur an zervikalen Nerven vor."
+   ],
+   "answer": 0,
+   "explanation": "Die weißen Rami erscheinen weiß, weil die präganglionären Fasern markhaltig sind, und kommen nur in den Segmenten T1–L2 mit sympathischem Ausstrom vor. Die grauen Rami (marklos, postganglionär) ziehen vom Grenzstrang zu allen Spinalnerven zurück; so erhalten Gefäße, Schweißdrüsen und Haarbalgmuskeln der gesamten Haut sympathische Fasern.",
+   "entries": [
+    "truncus-sympathicus",
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-04a5f34d",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welches ist das größte Kommissurenfaserbündel, das die beiden Großhirnhemisphären verbindet?",
+   "options": [
+    "Corona radiata",
+    "Capsula interna",
+    "Corpus callosum",
+    "Fornix",
+    "Commissura anterior"
+   ],
+   "answer": 2,
+   "explanation": "Das Corpus callosum ist die größte Kommissur und verbindet die Rinde beider Hemisphären. Capsula interna und Corona radiata sind Projektionsfasern zwischen Rinde und tieferen Zentren; der Fornix ist die Ausgangsbahn des Hippocampus.",
+   "entries": [
+    "corpus-callosum"
+   ]
+  },
+  {
+   "id": "ne-7ac85b98",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchem Gyrus liegt die primäre motorische Rinde?",
+   "options": [
+    "Gyrus postcentralis",
+    "Gyrus angularis",
+    "Gyrus precentralis",
+    "Gyrus cinguli",
+    "Gyrus temporalis superior"
+   ],
+   "answer": 2,
+   "explanation": "Die primäre motorische Rinde (Brodmann-Areal 4) liegt im Gyrus precentralis direkt vor dem Sulcus centralis. Sie startet die Willkürbewegungen der Gegenseite; ihre Repräsentationskarte ist der motorische Homunkulus.",
+   "entries": [
+    "gyrus-precentralis"
+   ]
+  },
+  {
+   "id": "ne-2c3b62da",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchem Gyrus liegt die primäre somatosensible Rinde?",
+   "options": [
+    "Gyrus postcentralis",
+    "Gyrus precentralis",
+    "Cuneus",
+    "Gyrus frontalis superior",
+    "Gyrus parahippocampalis"
+   ],
+   "answer": 0,
+   "explanation": "Der Gyrus postcentralis (Brodmann 3, 1, 2) liegt direkt hinter dem Sulcus centralis und empfängt Berührung, Schmerz, Temperatur und Lagesinn der Gegenseite.",
+   "entries": [
+    "gyrus-postcentralis"
+   ]
+  },
+  {
+   "id": "ne-9f3ed11f",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchem Lappen liegt die primäre Sehrinde?",
+   "options": [
+    "Frontallappen",
+    "Okzipitallappen (um den Sulcus calcarinus)",
+    "Temporallappen",
+    "Insula",
+    "Parietallappen"
+   ],
+   "answer": 1,
+   "explanation": "Die primäre Sehrinde (Brodmann-Areal 17) liegt an der Innenfläche des Okzipitallappens beiderseits des Sulcus calcarinus. Ihre Schädigung führt zum Ausfall des gegenseitigen Gesichtsfelds.",
+   "entries": [
+    "lobus-occipitalis"
+   ]
+  },
+  {
+   "id": "ne-d82e578e",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wo liegt die primäre Hörrinde?",
+   "options": [
+    "Gyrus temporalis inferior",
+    "Gyri temporales transversi (Heschl) am Gyrus temporalis superior",
+    "Gyrus precentralis",
+    "Cuneus",
+    "Gyrus angularis"
+   ],
+   "answer": 1,
+   "explanation": "Die primäre Hörrinde (Brodmann 41–42) liegt in den Heschl-Querwindungen an der dem Sulcus lateralis zugewandten Fläche des Gyrus temporalis superior.",
+   "entries": [
+    "lobus-temporalis"
+   ]
+  },
+  {
+   "id": "ne-630caf8b",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Furche trennt den Frontallappen vom Parietallappen?",
+   "options": [
+    "Sulcus calcarinus",
+    "Sulcus centralis (Rolando)",
+    "Sulcus lateralis (Sylvius)",
+    "Sulcus parietooccipitalis",
+    "Sulcus cinguli"
+   ],
+   "answer": 1,
+   "explanation": "Der Sulcus centralis trennt Frontal- und Parietallappen; davor liegt die motorische, dahinter die sensible Rinde. Der Sulcus lateralis trennt den Temporallappen von Frontal- und Parietallappen.",
+   "entries": [
+    "lobus-frontalis",
+    "lobus-parietalis"
+   ]
+  },
+  {
+   "id": "ne-e956823f",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Struktur ist für die Bildung neuer Erinnerungen am wichtigsten?",
+   "options": [
+    "Kleinhirn",
+    "Nucleus caudatus",
+    "Thalamus",
+    "Hippocampus",
+    "Corpus amygdaloideum"
+   ],
+   "answer": 3,
+   "explanation": "Der Hippocampus liegt im medialen Temporallappen und spielt eine Schlüsselrolle bei der Überführung des Kurzzeit- ins Langzeitgedächtnis; eine beidseitige Schädigung macht das Bilden neuer Erinnerungen unmöglich (anterograde Amnesie).",
+   "entries": [
+    "hippocampus"
+   ]
+  },
+  {
+   "id": "ne-2e30cb21",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher mandelförmige Kern tief im Temporallappen spielt die Hauptrolle bei der Verarbeitung von Angst und emotionalen Reaktionen?",
+   "options": [
+    "Hippocampus",
+    "Claustrum",
+    "Corpus mamillare",
+    "Corpus amygdaloideum",
+    "Putamen"
+   ],
+   "answer": 3,
+   "explanation": "Die Amygdala gehört zum limbischen System; sie ist an der Gefahrenerkennung, an Angst und an der Bildung des emotionalen Gedächtnisses beteiligt. Sie liegt direkt vor dem Hippocampus.",
+   "entries": [
+    "corpus-amygdaloideum",
+    "systema-limbicum"
+   ]
+  },
+  {
+   "id": "ne-e1589513",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Über welche Kerngruppe werden alle Sinne außer dem Geruch umgeschaltet, bevor sie die Rinde erreichen?",
+   "options": [
+    "Basalkerne",
+    "Kleinhirn",
+    "Hypothalamus",
+    "Hippocampus",
+    "Thalamus"
+   ],
+   "answer": 4,
+   "explanation": "Der Thalamus ist der größte Teil des Zwischenhirns; Sehen, Hören, Schmecken und Körpersensibilität werden in seinen Kernen umgeschaltet und an die zugehörigen Rindenfelder weitergeleitet. Die Riechbahn erreicht die Rinde ohne Umweg über den Thalamus.",
+   "entries": [
+    "thalamus"
+   ]
+  },
+  {
+   "id": "ne-ee3fb626",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Struktur regelt Körpertemperatur, Hunger und Durst sowie die Hypophysensekretion?",
+   "options": [
+    "Pons",
+    "Mittelhirn",
+    "Hypothalamus",
+    "Thalamus",
+    "Zirbeldrüse"
+   ],
+   "answer": 2,
+   "explanation": "Der Hypothalamus bildet den Boden des dritten Ventrikels und den unteren Teil seiner Seitenwände. Über die Steuerung von vegetativem Nervensystem und Hypophyse hält er das Gleichgewicht des inneren Milieus (Homöostase) aufrecht.",
+   "entries": [
+    "hypothalamus"
+   ]
+  },
+  {
+   "id": "ne-da4674e1",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Struktur bildet den größten Teil des Liquor cerebrospinalis?",
+   "options": [
+    "Pia mater",
+    "Sinus sagittalis superior",
+    "Plexus choroideus",
+    "Dura mater",
+    "Granulationes arachnoideae"
+   ],
+   "answer": 2,
+   "explanation": "Der Liquor wird überwiegend in den Plexus choroidei der Ventrikel gebildet (etwa 500 ml pro Tag). Die Arachnoidalzotten resorbieren ihn in die venösen Sinus.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a7eeee6f",
+   "group": "Gehirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Öffnung verbindet die Seitenventrikel mit dem dritten Ventrikel?",
+   "options": [
+    "Aqueductus mesencephali (Sylvius)",
+    "Foramen interventriculare (Monro)",
+    "Canalis centralis",
+    "Apertura lateralis (Luschka)",
+    "Apertura mediana (Magendie)"
+   ],
+   "answer": 1,
+   "explanation": "Der Liquor fließt aus den Seitenventrikeln durch die Foramina Monroi in den dritten Ventrikel, von dort durch den Aquädukt in den vierten Ventrikel und tritt durch die Aperturen von Magendie und Luschka in den Subarachnoidalraum aus.",
+   "entries": [
+    "ventriculi-cerebri"
+   ]
+  },
+  {
+   "id": "ne-a1b6cd84",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welcher Reihenfolge von oben nach unten liegen die Abschnitte des Hirnstamms?",
+   "options": [
+    "Thalamus – Mittelhirn – Pons",
+    "Mittelhirn – Pons – Medulla oblongata",
+    "Pons – Mittelhirn – Medulla oblongata",
+    "Mittelhirn – Medulla oblongata – Pons",
+    "Zwischenhirn – Pons – Medulla oblongata"
+   ],
+   "answer": 1,
+   "explanation": "Von oben nach unten besteht der Hirnstamm aus Mittelhirn (Mesencephalon), Pons und Medulla oblongata; die Medulla geht auf Höhe des Foramen magnum in das Rückenmark über.",
+   "entries": [
+    "mesencephalon",
+    "pons",
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-000ce129",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchem Abschnitt des Hirnstamms liegen die lebenswichtigen Zentren für Atmung und Kreislauf?",
+   "options": [
+    "Mittelhirn",
+    "Corpus callosum",
+    "Thalamus",
+    "Kleinhirn",
+    "Medulla oblongata"
+   ],
+   "answer": 4,
+   "explanation": "In der Medulla oblongata liegen die Zentren, die Atmung, Herzschlag und Gefäßtonus regeln. Deshalb kann ihre Kompression bei einer Einklemmung im Foramen magnum tödlich sein.",
+   "entries": [
+    "medulla-oblongata"
+   ]
+  },
+  {
+   "id": "ne-eb4c66bd",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welche Struktur ist für Gleichgewicht, Muskeltonus und Koordination der Bewegungen zuständig?",
+   "options": [
+    "Hypothalamus",
+    "Okzipitallappen",
+    "Kleinhirn",
+    "Pons",
+    "Corpus callosum"
+   ],
+   "answer": 2,
+   "explanation": "Das Kleinhirn regelt Zeitablauf und Harmonie der Bewegungen und erhält Gleichgewicht und Muskeltonus. Bei Schädigung treten Ataxie, Tremor und Gleichgewichtsstörungen auf; die Zeichen liegen auf der Seite der Läsion.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-3a99b000",
+   "group": "Hirnstamm und Kleinhirn",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Durch wie viele Paare von Stielen ist das Kleinhirn mit dem Hirnstamm verbunden?",
+   "options": [
+    "5",
+    "1",
+    "3 (oberer, mittlerer und unterer)",
+    "4",
+    "2"
+   ],
+   "answer": 2,
+   "explanation": "Der Pedunculus cerebellaris superior verbindet mit dem Mittelhirn, der medius mit der Pons und der inferior mit der Medulla oblongata. Der größte ist der mittlere Stiel mit den Fasern aus der Pons.",
+   "entries": [
+    "cerebellum"
+   ]
+  },
+  {
+   "id": "ne-64f89be2",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Auf welcher Wirbelhöhe endet das Rückenmark (Conus medullaris) beim Erwachsenen gewöhnlich?",
+   "options": [
+    "L4–L5",
+    "T8",
+    "L1–L2",
+    "C7",
+    "S2"
+   ],
+   "answer": 2,
+   "explanation": "Beim Erwachsenen endet das Rückenmark mit dem Conus medullaris auf Höhe L1–L2, beim Neugeborenen tiefer, etwa bei L3. Darunter liegen nur noch Nervenwurzeln (Cauda equina).",
+   "entries": [
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-17d73e1a",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welcher Reihenfolge von außen nach innen liegen die Häute, die Gehirn und Rückenmark umhüllen?",
+   "options": [
+    "Arachnoidea mater – Dura mater – Pia mater",
+    "Dura mater – Arachnoidea mater – Pia mater",
+    "Dura mater – Pia mater – Arachnoidea mater",
+    "Pia mater – Arachnoidea mater – Dura mater",
+    "Pia mater – Dura mater – Arachnoidea mater"
+   ],
+   "answer": 1,
+   "explanation": "Außen liegt die dicke, derbe Dura mater, in der Mitte die spinnwebartige Arachnoidea, innen die dünne Pia mater, die der Hirnoberfläche fest anliegt.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-904c7a31",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchem Raum zirkuliert der Liquor cerebrospinalis?",
+   "options": [
+    "Zwischen den beiden Blättern der Dura",
+    "Zwischen Dura und Arachnoidea (Subduralraum)",
+    "Zwischen Pia mater und Hirngewebe",
+    "Zwischen Arachnoidea und Pia mater (Subarachnoidalraum)",
+    "Zwischen Dura und Knochen (Epiduralraum)"
+   ],
+   "answer": 3,
+   "explanation": "Der Liquor zirkuliert im Subarachnoidalraum, der sich zu Zisternen erweitert. Bei der Lumbalpunktion wird die Nadel in diesen Raum eingeführt, um Liquor zu gewinnen.",
+   "entries": [
+    "meninges"
+   ]
+  },
+  {
+   "id": "ne-4de7a681",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchem Zwischenraum wird die Lumbalpunktion beim Erwachsenen gewöhnlich durchgeführt?",
+   "options": [
+    "Zwischen T10 und T11",
+    "Zwischen den Wirbeln L3–L4 oder L4–L5",
+    "Zwischen C7 und T1",
+    "Zwischen L1 und L2",
+    "Zwischen T12 und L1"
+   ],
+   "answer": 1,
+   "explanation": "Da das Rückenmark bei L1–L2 endet, wird die Nadel tiefer eingeführt, etwa auf Höhe der Verbindungslinie der Darmbeinkämme (ca. L4); hier liegen nur die Wurzeln der Cauda equina, die der Nadel ausweichen.",
+   "entries": [
+    "cauda-equina",
+    "medulla-spinalis"
+   ]
+  },
+  {
+   "id": "ne-407bca30",
+   "group": "Rückenmark und Hirnhäute",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie heißt das Bündel von Nervenwurzeln, das unterhalb des Conus medullaris im Wirbelkanal absteigt?",
+   "options": [
+    "Intumescentia lumbosacralis",
+    "Filum terminale",
+    "Cauda equina",
+    "Plexus sacralis",
+    "Truncus sympathicus"
+   ],
+   "answer": 2,
+   "explanation": "Da das Rückenmark kürzer ist als die Wirbelsäule, steigen die unteren Lumbal- und Sakralwurzeln zu ihren Foramina ab und bilden die einem Pferdeschweif ähnelnde Cauda equina. Das Filum terminale ist ein pialer Faden vom Conus zum Steißbein.",
+   "entries": [
+    "cauda-equina"
+   ]
+  },
+  {
+   "id": "ne-50ebda82",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie viele Hirnnervenpaare gibt es?",
+   "options": [
+    "8",
+    "10",
+    "31",
+    "12",
+    "11"
+   ],
+   "answer": 3,
+   "explanation": "Zwölf Hirnnervenpaare entspringen aus Gehirn und Hirnstamm, von I (N. olfactorius) bis XII (N. hypoglossus). Spinalnerven gibt es 31 Paare.",
+   "entries": [
+    "n-olfactorius",
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-ee88b313",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv versorgt den Lidheber und die meisten Augenmuskeln?",
+   "options": [
+    "N. trigeminus (V)",
+    "N. abducens (VI)",
+    "N. oculomotorius (III)",
+    "N. facialis (VII)",
+    "N. trochlearis (IV)"
+   ],
+   "answer": 2,
+   "explanation": "Der N. oculomotorius innerviert M. levator palpebrae superioris, Mm. recti superior, inferior und medialis sowie M. obliquus inferior; außerdem führt er die parasympathischen Fasern, die die Pupille verengen.",
+   "entries": [
+    "n-oculomotorius"
+   ]
+  },
+  {
+   "id": "ne-b6c92d74",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv innerviert den M. rectus lateralis (der das Auge nach außen dreht)?",
+   "options": [
+    "N. abducens (VI)",
+    "N. ophthalmicus",
+    "N. oculomotorius (III)",
+    "N. trochlearis (IV)",
+    "N. facialis (VII)"
+   ],
+   "answer": 0,
+   "explanation": "Der N. abducens innerviert nur den M. rectus lateralis. Bei seiner Lähmung kann das Auge nicht nach außen gewendet werden, und beim Seitblick treten Doppelbilder auf (kurz: RL6, OS4, der Rest III).",
+   "entries": [
+    "n-abducens"
+   ]
+  },
+  {
+   "id": "ne-994f4b2e",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv leitet die Sensibilität der Gesichtshaut und versorgt die Kaumuskeln?",
+   "options": [
+    "N. glossopharyngeus (IX)",
+    "N. facialis (VII)",
+    "N. hypoglossus (XII)",
+    "N. trigeminus (V)",
+    "N. accessorius (XI)"
+   ],
+   "answer": 3,
+   "explanation": "Die drei Äste des N. trigeminus (ophthalmicus, maxillaris, mandibularis) leiten die Sensibilität der Gesichtshaut; der N. mandibularis innerviert zudem die Kaumuskeln wie M. masseter, M. temporalis und die Mm. pterygoidei.",
+   "entries": [
+    "n-trigeminus"
+   ]
+  },
+  {
+   "id": "ne-252939b1",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv versorgt die mimische Muskulatur?",
+   "options": [
+    "N. trigeminus (V)",
+    "N. facialis (VII)",
+    "N. accessorius (XI)",
+    "N. hypoglossus (XII)",
+    "N. vagus (X)"
+   ],
+   "answer": 1,
+   "explanation": "Alle Muskeln des Gesichtsausdrucks werden vom N. facialis innerviert. Die Kaumuskeln werden vom N. trigeminus versorgt; diese Unterscheidung wird oft verwechselt.",
+   "entries": [
+    "n-facialis"
+   ]
+  },
+  {
+   "id": "ne-347049b5",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv ist der motorische Nerv der Zungenmuskeln (außer M. palatoglossus)?",
+   "options": [
+    "N. vagus (X)",
+    "N. facialis (VII)",
+    "N. lingualis",
+    "N. hypoglossus (XII)",
+    "N. glossopharyngeus (IX)"
+   ],
+   "answer": 3,
+   "explanation": "Der N. hypoglossus innerviert alle inneren und äußeren Zungenmuskeln, nur der M. palatoglossus wird vom N. vagus versorgt. Bei einseitiger Lähmung weicht die herausgestreckte Zunge zur gelähmten Seite ab.",
+   "entries": [
+    "n-hypoglossus"
+   ]
+  },
+  {
+   "id": "ne-50ced078",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Hirnnerv innerviert M. sternocleidomastoideus und M. trapezius?",
+   "options": [
+    "Plexus brachialis",
+    "N. hypoglossus (XII)",
+    "N. vagus (X)",
+    "N. accessorius (XI)",
+    "N. facialis (VII)"
+   ],
+   "answer": 3,
+   "explanation": "Der N. accessorius tritt durch das Foramen jugulare aus, durchbohrt den M. sternocleidomastoideus und zieht durch das seitliche Halsdreieck zum M. trapezius. Bei einer Neck Dissection kann er im seitlichen Halsdreieck verletzt werden.",
+   "entries": [
+    "n-accessorius"
+   ]
+  },
+  {
+   "id": "ne-c94694b2",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Hirnnerv versorgt die meisten Brust- und Bauchorgane mit parasympathischen Fasern?",
+   "options": [
+    "N. oculomotorius (III)",
+    "N. glossopharyngeus (IX)",
+    "N. accessorius (XI)",
+    "N. vagus (X)",
+    "N. phrenicus"
+   ],
+   "answer": 3,
+   "explanation": "Der N. vagus hat den längsten Verlauf aller Hirnnerven; er versorgt Herz, Lunge und Verdauungstrakt (bis etwa zum linken Drittel des Colon transversum) parasympathisch.",
+   "entries": [
+    "n-vagus",
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-34dda1f9",
+   "group": "Hirnnerven",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv leitet Hören und Gleichgewicht?",
+   "options": [
+    "N. abducens (VI)",
+    "N. facialis (VII)",
+    "N. vestibulocochlearis (VIII)",
+    "N. glossopharyngeus (IX)",
+    "N. trigeminus (V)"
+   ],
+   "answer": 2,
+   "explanation": "Der kochleäre Anteil des N. vestibulocochlearis leitet das Hören, der vestibuläre das Gleichgewicht. Er zieht zusammen mit dem N. facialis durch den Meatus acusticus internus.",
+   "entries": [
+    "n-vestibulocochlearis"
+   ]
+  },
+  {
+   "id": "ne-667ba770",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie viele Spinalnervenpaare gibt es?",
+   "options": [
+    "30",
+    "33",
+    "12",
+    "31",
+    "24"
+   ],
+   "answer": 3,
+   "explanation": "Es gibt 31 Spinalnervenpaare: 8 zervikale, 12 thorakale, 5 lumbale, 5 sakrale und 1 kokzygeales. Obwohl es nur 7 Halswirbel gibt, existieren 8 Zervikalnerven.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-15f8e734",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Aus den vorderen Ästen welcher Spinalnerven entsteht der Plexus brachialis?",
+   "options": [
+    "T1–T6",
+    "C5–T1",
+    "C3–C7",
+    "C1–C4",
+    "L1–L4"
+   ],
+   "answer": 1,
+   "explanation": "Der Plexus brachialis entsteht aus den Rr. anteriores von C5–T1 und gliedert sich in Wurzeln, Trunci, Divisionen, Faszikel und Äste; er stellt die gesamte motorische und sensible Innervation der oberen Extremität.",
+   "entries": [
+    "plexus-brachialis"
+   ]
+  },
+  {
+   "id": "ne-26e018da",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv ist der motorische Nerv des Zwerchfells?",
+   "options": [
+    "N. vagus",
+    "N. phrenicus (C3–C5)",
+    "N. accessorius",
+    "Nn. intercostales",
+    "Truncus sympathicus"
+   ],
+   "answer": 1,
+   "explanation": "Der N. phrenicus zieht am Hals auf dem M. scalenus anterior abwärts und innerviert das Zwerchfell. Schmerzen aus dem Zwerchfell werden in die Schulter projiziert, das Dermatom derselben Segmente.",
+   "entries": [
+    "n-phrenicus"
+   ]
+  },
+  {
+   "id": "ne-d86f39c7",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher ist der dickste und längste Nerv des Körpers?",
+   "options": [
+    "N. tibialis",
+    "N. obturatorius",
+    "N. medianus",
+    "N. femoralis",
+    "N. ischiadicus"
+   ],
+   "answer": 4,
+   "explanation": "Der N. ischiadicus stammt aus den Wurzeln L4–S3, verlässt das Becken durch das Foramen ischiadicum majus und zieht an der Oberschenkelrückseite abwärts; meist teilt er sich oberhalb der Kniekehle in N. tibialis und N. fibularis communis.",
+   "entries": [
+    "n-ischiadicus"
+   ]
+  },
+  {
+   "id": "ne-da1e6de1",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv innerviert die vorderen Oberschenkelmuskeln (M. quadriceps femoris)?",
+   "options": [
+    "N. ischiadicus",
+    "N. obturatorius",
+    "N. pudendus",
+    "N. femoralis",
+    "N. tibialis"
+   ],
+   "answer": 3,
+   "explanation": "Der N. femoralis (L2–L4) gelangt durch die Lacuna musculorum zum Oberschenkel und innerviert M. quadriceps femoris, M. sartorius und M. pectineus; bei Schädigung fallen Kniestreckung und Patellarsehnenreflex aus.",
+   "entries": [
+    "n-femoralis"
+   ]
+  },
+  {
+   "id": "ne-63d6ca4d",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv innerviert die meisten medialen (Adduktoren-)Muskeln des Oberschenkels?",
+   "options": [
+    "N. ischiadicus",
+    "N. obturatorius",
+    "N. genitofemoralis",
+    "N. femoralis",
+    "N. pudendus"
+   ],
+   "answer": 1,
+   "explanation": "Der N. obturatorius (L2–L4) gelangt durch den Canalis obturatorius in die mediale Oberschenkelloge und innerviert die meisten Adduktoren; der ischiokrurale Anteil des M. adductor magnus wird vom N. ischiadicus versorgt.",
+   "entries": [
+    "n-obturatorius"
+   ]
+  },
+  {
+   "id": "ne-6c143cec",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv wird beim Karpaltunnelsyndrom komprimiert?",
+   "options": [
+    "N. ulnaris",
+    "N. axillaris",
+    "N. medianus",
+    "N. radialis",
+    "N. musculocutaneus"
+   ],
+   "answer": 2,
+   "explanation": "Am Handgelenk zieht der N. medianus unter dem Retinaculum musculorum flexorum zusammen mit den Beugesehnen durch den Karpaltunnel. Seine Kompression verursacht Taubheit an den ersten dreieinhalb Fingern und eine Schwäche der Thenarmuskeln.",
+   "entries": [
+    "n-medianus"
+   ]
+  },
+  {
+   "id": "ne-8a555c3e",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv verursacht ein Kribbeln an der Kleinfingerseite der Hand, wenn man sich die Innenseite des Ellbogens stößt?",
+   "options": [
+    "N. musculocutaneus",
+    "N. radialis",
+    "N. ulnaris",
+    "N. medianus",
+    "N. cutaneus antebrachii lateralis"
+   ],
+   "answer": 2,
+   "explanation": "Am Ellbogen verläuft der N. ulnaris direkt unter der Haut hinter dem Epicondylus medialis (der „Musikantenknochen“). Ein Stoß oder Druck verursacht Kribbeln im 4. und 5. Finger.",
+   "entries": [
+    "n-ulnaris"
+   ]
+  },
+  {
+   "id": "ne-4bd49a5e",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv innerviert den M. triceps brachii, den hinteren Oberarmmuskel?",
+   "options": [
+    "N. musculocutaneus",
+    "N. radialis",
+    "N. axillaris",
+    "N. medianus",
+    "N. ulnaris"
+   ],
+   "answer": 1,
+   "explanation": "Der N. radialis innerviert alle hinteren (Streck-)Muskeln von Ober- und Unterarm. Bei Humerusschaftfrakturen kann er im Sulcus nervi radialis verletzt werden; es entsteht eine Fallhand.",
+   "entries": [
+    "n-radialis"
+   ]
+  },
+  {
+   "id": "ne-d2881471",
+   "group": "Spinalnerven und Plexus",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Welcher Nerv innerviert den M. deltoideus?",
+   "options": [
+    "N. axillaris",
+    "N. radialis",
+    "N. thoracicus longus",
+    "N. suprascapularis",
+    "N. musculocutaneus"
+   ],
+   "answer": 0,
+   "explanation": "Der N. axillaris (C5–C6) schlingt sich um das Collum chirurgicum des Humerus und innerviert M. deltoideus und M. teres minor. Bei Frakturen des Collum chirurgicum und Schulterluxationen kann er verletzt werden.",
+   "entries": [
+    "n-axillaris"
+   ]
+  },
+  {
+   "id": "ne-4eef8b32",
+   "group": "Autonomes Nervensystem",
+   "level": "basic",
+   "clinical": false,
+   "stem": "In welchen Rückenmarksegmenten liegen die Zellkörper der sympathischen präganglionären Neurone?",
+   "options": [
+    "T1–L2 (Seitenhorn)",
+    "S2–S4",
+    "C1–C8",
+    "Nur in Hirnstammkernen",
+    "L3–S1"
+   ],
+   "answer": 0,
+   "explanation": "Der Sympathikus hat einen thorakolumbalen Ursprung: Die präganglionären Neurone liegen im Seitenhorn der Segmente T1–L2. Ihre Fasern erreichen über die Vorderwurzel und den R. communicans albus den Grenzstrang.",
+   "entries": [
+    "systema-autonomicum",
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-8691959b",
+   "group": "Autonomes Nervensystem",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Aus welchen Regionen entspringen die Fasern des Parasympathikus?",
+   "options": [
+    "T1–L2 (thorakolumbal)",
+    "Aus den Segmenten C5–T1",
+    "Nur aus den Segmenten S2–S4",
+    "Nur aus dem Hirnstamm",
+    "Hirnstamm (III, VII, IX, X) und S2–S4 (kraniosakral)"
+   ],
+   "answer": 4,
+   "explanation": "Der Parasympathikus hat einen kraniosakralen Ursprung: Er verteilt sich über die Hirnnerven III, VII, IX und X und über die Nn. splanchnici pelvici aus den Segmenten S2–S4.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-11836b1d",
+   "group": "Autonomes Nervensystem",
+   "level": "basic",
+   "clinical": false,
+   "stem": "Wie verändert sich die Pupille bei der „Kampf-oder-Flucht“-Reaktion, und welches System bewirkt das?",
+   "options": [
+    "Sie erweitert sich (Mydriasis) – Sympathikus",
+    "Sie verengt sich (Miosis) – Parasympathikus",
+    "Sie verändert sich nicht – somatisches System",
+    "Sie verengt sich (Miosis) – Sympathikus",
+    "Sie erweitert sich (Mydriasis) – Parasympathikus"
+   ],
+   "answer": 0,
+   "explanation": "Sympathische Erregung kontrahiert den M. dilatator pupillae und erweitert die Pupille. Parasympathische Fasern (N. oculomotorius) verengen sie über den M. sphincter pupillae.",
+   "entries": [
+    "systema-autonomicum"
+   ]
+  },
+  {
+   "id": "ne-aca0bd08",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Die Zellkörper welcher Neurone liegen im Spinalganglion?",
+   "options": [
+    "Sympathische präganglionäre Neurone",
+    "Interneurone",
+    "Pseudounipolare sensible Neurone",
+    "Multipolare motorische Neurone",
+    "Parasympathische postganglionäre Neurone"
+   ],
+   "answer": 2,
+   "explanation": "Das Spinalganglion an der Hinterwurzel enthält die pseudounipolaren Neurone, die die Sensibilität aus der Peripherie zum Rückenmark leiten; in diesem Ganglion gibt es keine Synapsen.",
+   "entries": [
+    "ganglion-spinale"
+   ]
+  },
+  {
+   "id": "ne-d5797703",
+   "group": "Autonomes Nervensystem",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Über welchen Ast verlassen die präganglionären Fasern zu den Grenzstrangganglien den Spinalnerv?",
+   "options": [
+    "R. communicans albus",
+    "R. dorsalis",
+    "R. communicans griseus",
+    "R. meningeus",
+    "Radix posterior"
+   ],
+   "answer": 0,
+   "explanation": "Markhaltige präganglionäre Fasern treten über den R. communicans albus in den Grenzstrang ein (nur auf Höhe T1–L2 vorhanden). Marklose postganglionäre Fasern kehren über den R. communicans griseus zum Spinalnerv zurück.",
+   "entries": [
+    "truncus-sympathicus"
+   ]
+  },
+  {
+   "id": "ne-4d840655",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Durch welche Öffnung verlässt der N. pudendus das Becken, und durch welche tritt er in den Damm ein?",
+   "options": [
+    "Austritt durch das Foramen ischiadicum majus, Eintritt durch den Leistenkanal",
+    "Austritt durch den Canalis obturatorius, Eintritt durch das Foramen ischiadicum minus",
+    "Austritt durch den Hiatus sacralis, Eintritt durch das Foramen ischiadicum minus",
+    "Austritt durch das Foramen ischiadicum majus, Eintritt durch das Foramen ischiadicum minus",
+    "Austritt durch das Foramen ischiadicum minus, Eintritt durch das Foramen ischiadicum majus"
+   ],
+   "answer": 3,
+   "explanation": "Der N. pudendus (S2–S4) verlässt das Becken unterhalb des M. piriformis durch das Foramen ischiadicum majus, schlingt sich hinter dem Lig. sacrospinale herum, tritt durch das Foramen ischiadicum minus in den Damm ein und verläuft im Canalis pudendalis (Alcock-Kanal).",
+   "entries": [
+    "n-pudendus"
+   ]
+  },
+  {
+   "id": "ne-7a6e6c80",
+   "group": "Spinalnerven und Plexus",
+   "level": "faculty",
+   "clinical": false,
+   "stem": "Wo wird der N. fibularis communis am häufigsten verletzt?",
+   "options": [
+    "Am Collum fibulae",
+    "Hinter dem Malleolus medialis",
+    "Im Foramen ischiadicum majus",
+    "Im Adduktorenkanal",
+    "Im Tarsaltunnel"
+   ],
+   "answer": 0,
+   "explanation": "Der N. fibularis communis verläuft direkt unterhalb des Fibulakopfes oberflächlich um das Collum fibulae. Frakturen, Gipsdruck oder übereinandergeschlagene Beine können ihn hier schädigen und einen Fallfuß verursachen.",
+   "entries": [
+    "n-fibularis-communis"
+   ]
+  }
+ ]
+}

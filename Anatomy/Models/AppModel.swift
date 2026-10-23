@@ -5,6 +5,7 @@
 
 import Observation
 import SwiftUI
+import UserNotifications
 
 /// Top-level app state shared through the environment.
 @MainActor
@@ -163,12 +164,22 @@ final class AppModel {
         flashcards = FlashcardDeck(title: title, cards: cards, study: study)
     }
 
-    /// Cards whose review is due, in the systems the user can study.
+    /// Cards whose review is due (now, or by `date`), in the systems the user can study.
     func dueCards(kinds: Set<Flashcard.Kind> = Set(Flashcard.Kind.allCases), systems: Set<String>? = nil,
-                  group: String? = nil) -> Int {
+                  group: String? = nil, at date: Date = .now) -> Int {
         let scope = (systems ?? Set(store.systems.map(\.id))).intersection(openSystems)
-        return flashcardLibrary.cards(kinds: kinds, systems: scope, group: group).count { study.isDue($0.id) }
+        return flashcardLibrary.cards(kinds: kinds, systems: scope, group: group).count { study.isDue($0.id, at: date) }
     }
+
+    /// Plans the daily review reminders for the coming week (see ReviewReminder).
+    func scheduleReminders() {
+        ReviewReminder.schedule(studiedToday: study.studiedToday) { [weak self] date in
+            self?.dueCards(at: date) ?? 0
+        }
+    }
+
+    /// Opens the Study tab when a review reminder is tapped.
+    @ObservationIgnored private let notifications = NotificationRouter()
 
     init() {
         store = AtlasStore()
@@ -179,6 +190,9 @@ final class AppModel {
         let defaults = UserDefaults.standard
         let layers = defaults.string(forKey: "AtlasLayers").map { Set($0.split(separator: ",").map(String.init)) }
         scene = AnatomyScene(initialLayers: layers)
+        Diagnostics.shared.start()
+        notifications.open = { [weak self] in self?.tab = .study }
+        UNUserNotificationCenter.current().delegate = notifications
         // -AppTab study opens another tab (screenshots).
         if let tab = defaults.string(forKey: "AppTab").flatMap(Tab.init(rawValue:)) {
             self.tab = tab
@@ -225,6 +239,12 @@ final class AppModel {
         if let name = defaults.string(forKey: "AtlasReveal") {
             let refs = scene.refs(matching: [name])
             Task { await scene.reveal(refs) }
+        }
+        // -AtlasSection "horizontal,1.3[,above]" opens a section view.
+        if let spec = defaults.string(forKey: "AtlasSection")?.split(separator: ","), spec.count >= 2,
+           let axis = ["sagittal", "horizontal", "coronal"].firstIndex(of: String(spec[0])).flatMap(SectionPlane.Axis.init(rawValue:)),
+           let offset = Float(spec[1]) {
+            scene.section = SectionPlane(axis: axis, offset: offset, keepBelow: spec.count < 3)
         }
         // -AtlasCamera "x,y,z,distance,yaw[,pitch]"
         if let values = defaults.string(forKey: "AtlasCamera")?.split(separator: ",").compactMap({ Float($0) }), values.count >= 5 {
@@ -334,5 +354,20 @@ final class AppModel {
 
     func hasModel(_ entry: AtlasEntry) -> Bool {
         !entry.models.isEmpty && !scene.refs(matching: entry.models).isEmpty
+    }
+}
+
+/// Receives taps on the review reminders.
+private final class NotificationRouter: NSObject, UNUserNotificationCenterDelegate {
+    @MainActor var open: (() -> Void)?
+
+    nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
+        await MainActor.run { open?() }
+    }
+
+    /// No banner while the app is in front: the Study tab shows the count.
+    nonisolated func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification) async
+        -> UNNotificationPresentationOptions {
+        []
     }
 }

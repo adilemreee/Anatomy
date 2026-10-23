@@ -1,0 +1,2952 @@
+{
+ "system": "nervous",
+ "entries": [
+  {
+   "id": "cerebrum",
+   "tr": "Cerebro (telencéfalo)",
+   "la": "Cerebrum (telencephalon)",
+   "en": "Cerebrum",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "La mayor parte del sistema nervioso central, dividida por una profunda hendidura media (fissura longitudinalis cerebri) en dos hemisferios. Su superficie plegada es sustancia gris (la corteza), responsable de la consciencia, el pensamiento, el lenguaje, la memoria, el movimiento voluntario y la percepción de los sentidos.",
+   "facts": [
+    [
+     "Ağırlık",
+     "Unos 1300–1400 g en el adulto (encéfalo completo)",
+     "Peso"
+    ],
+    [
+     "Lobları",
+     "Lóbulos frontal, parietal, temporal, occipital, insular y límbico",
+     "Lóbulos"
+    ],
+    [
+     "Ana yarıklar",
+     "Surco central (Rolando), surco lateral (Silvio), surco parietooccipital, fisura longitudinal del cerebro",
+     "Fisuras principales"
+    ],
+    [
+     "Yapısı",
+     "Sustancia gris por fuera (corteza cerebral), sustancia blanca por dentro (fibras de asociación, comisurales y de proyección) y núcleos profundos (núcleos basales)",
+     "Estructura"
+    ],
+    [
+     "Kanlanma",
+     "Arterias cerebrales anterior, media y posterior (polígono de Willis)",
+     "Irrigación"
+    ]
+   ],
+   "sections": [
+    [
+     "Lateralización",
+     "En la mayoría de las personas (más del 95 % de los diestros) el hemisferio izquierdo es dominante para el lenguaje. El hemisferio derecho participa más en la percepción espacial, el reconocimiento de caras y el tono emocional del habla."
+    ],
+    [
+     "Fibras de la sustancia blanca",
+     "Las fibras de asociación unen áreas del mismo hemisferio, las comisurales (cuerpo calloso) unen ambos hemisferios y las de proyección (cápsula interna) unen la corteza con el tronco del encéfalo y la médula espinal."
+    ]
+   ],
+   "clinical": [
+    "El ictus afecta con más frecuencia al territorio de la arteria cerebral media: debilidad contralateral de predominio facial y braquial y afasia si se afecta el hemisferio dominante.",
+    "La escala de coma de Glasgow valora el nivel de consciencia mediante la apertura ocular y las respuestas verbal y motora."
+   ],
+   "tus": [
+    "Los hemisferios se dividen en lóbulos por el surco central (Rolando), el surco lateral (Silvio) y el surco parietooccipital.",
+    "La cara lateral del hemisferio está irrigada por la ACM, la medial por la ACA y las caras inferior y posterior por la ACP."
+   ],
+   "related": [
+    "lobus-frontalis",
+    "lobus-parietalis",
+    "lobus-temporalis",
+    "lobus-occipitalis",
+    "corpus-callosum",
+    "circulus-arteriosus"
+   ],
+   "models": [
+    "Cerebrum",
+    "Telencephalon"
+   ],
+   "aliases": [
+    "cerebro",
+    "telencéfalo",
+    "hemisferio cerebral"
+   ]
+  },
+  {
+   "id": "lobus-frontalis",
+   "tr": "Lóbulo frontal",
+   "la": "Lobus frontalis",
+   "en": "Frontal lobe",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "El lóbulo más grande del cerebro, situado por delante del surco central. Con él se relacionan la planificación y el inicio del movimiento voluntario, las funciones ejecutivas, la personalidad, la toma de decisiones y la producción del habla.",
+   "facts": [
+    [
+     "Sınırları",
+     "Por detrás el surco central, por debajo el surco lateral",
+     "Límites"
+    ],
+    [
+     "Önemli alanlar",
+     "Giro precentral – corteza motora primaria (Brodmann 4); área premotora y motora suplementaria (6); campo ocular frontal (8); área de Broca – habla motora (44, 45; hemisferio dominante); corteza prefrontal",
+     "Áreas principales"
+    ],
+    [
+     "Kanlanma",
+     "Arteria cerebral media (cara lateral) y arteria cerebral anterior (cara medial)",
+     "Irrigación"
+    ]
+   ],
+   "sections": [
+    [
+     "Homúnculo motor",
+     "El cuerpo está representado al revés en la corteza motora primaria: la pierna en la cara medial (lobulillo paracentral – territorio de la arteria cerebral anterior), el brazo y la cara en la cara lateral (territorio de la arteria cerebral media). La mano, la cara y la lengua ocupan áreas grandes."
+    ]
+   ],
+   "clinical": [
+    "En la afasia de Broca el habla no es fluida y cuesta esfuerzo, mientras que la comprensión se conserva relativamente.",
+    "El daño prefrontal produce cambios de personalidad, impulsividad y alteración de la planificación (caso de Phineas Gage).",
+    "Con una lesión del campo ocular frontal los ojos miran hacia el lado de la lesión."
+   ],
+   "tus": [
+    "El campo ocular frontal (área 8) controla las sacadas voluntarias; tras una lesión los ojos se desvían hacia el lado lesionado.",
+    "En el síndrome frontal pueden reaparecer reflejos primitivos (prensión, succión)."
+   ],
+   "related": [
+    "cerebrum",
+    "gyrus-precentralis",
+    "lobus-parietalis"
+   ],
+   "models": [
+    "Frontal lobe"
+   ],
+   "aliases": [
+    "lóbulo frontal"
+   ]
+  },
+  {
+   "id": "gyrus-precentralis",
+   "tr": "Giro precentral (corteza motora)",
+   "la": "Gyrus precentralis",
+   "en": "Precentral gyrus",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "La circunvolución situada justo delante del surco central, que contiene la corteza motora primaria encargada del movimiento voluntario. La mayor parte de los tractos corticoespinal y corticobulbar nace aquí.",
+   "facts": [
+    [
+     "Brodmann alanı",
+     "4 (corteza motora primaria)",
+     "Área de Brodmann"
+    ],
+    [
+     "Hücreler",
+     "Células piramidales gigantes (células de Betz) – capa 5",
+     "Células"
+    ],
+    [
+     "Somatotopi",
+     "Homúnculo motor: la pierna junto a la línea media, la cara abajo y lateral",
+     "Somatotopía"
+    ],
+    [
+     "Projeksiyon",
+     "Tracto corticoespinal (a la médula) y tracto corticonuclear (a los núcleos motores del tronco del encéfalo)",
+     "Proyecciones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Su lesión produce debilidad contralateral de tipo motoneurona superior (espasticidad, hiperreflexia, signo de Babinski).",
+    "En la crisis jacksoniana las sacudidas se extienden a lo largo del homúnculo (por ejemplo de la mano al brazo y a la cara)."
+   ],
+   "tus": [
+    "La corteza motora primaria es el área 4; allí se encuentran las células de Betz (piramidales gigantes).",
+    "En el homúnculo motor la mano y la cara tienen una representación desproporcionadamente grande."
+   ],
+   "related": [
+    "lobus-frontalis",
+    "gyrus-postcentralis",
+    "medulla-spinalis"
+   ],
+   "models": [
+    "Precentral gyrus"
+   ],
+   "aliases": [
+    "corteza motora",
+    "área motora primaria"
+   ]
+  },
+  {
+   "id": "lobus-parietalis",
+   "tr": "Lóbulo parietal",
+   "la": "Lobus parietalis",
+   "en": "Parietal lobe",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "El lóbulo situado entre el surco central y el surco parietooccipital. Se relaciona con la percepción e interpretación de las sensaciones somáticas (tacto, dolor, temperatura, posición), la orientación espacial y la atención.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Giro poscentral – corteza somatosensorial primaria (3, 1, 2); lobulillos parietales superior e inferior; giros supramarginal y angular (relacionados con el lenguaje, la lectura y la escritura en el hemisferio dominante)",
+     "Áreas principales"
+    ],
+    [
+     "Kanlanma",
+     "Arteria cerebral media y arteria cerebral anterior",
+     "Irrigación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La lesión del lóbulo parietal no dominante (por lo general el derecho) produce heminegligencia del lado opuesto.",
+    "La lesión del giro angular dominante produce el síndrome de Gerstmann: agrafia, acalculia, agnosia digital y confusión derecha–izquierda."
+   ],
+   "tus": [
+    "El lobulillo parietal superior se ocupa de la estereognosia y el esquema corporal; el inferior contiene los giros supramarginal y angular.",
+    "Las lesiones parietales pueden producir una cuadrantanopsia inferior contralateral."
+   ],
+   "related": [
+    "cerebrum",
+    "gyrus-postcentralis",
+    "lobus-frontalis",
+    "lobus-occipitalis"
+   ],
+   "models": [
+    "Parietal lobe"
+   ],
+   "aliases": [
+    "lóbulo parietal"
+   ]
+  },
+  {
+   "id": "gyrus-postcentralis",
+   "tr": "Giro poscentral (corteza sensitiva)",
+   "la": "Gyrus postcentralis",
+   "en": "Postcentral gyrus",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "La circunvolución situada justo detrás del surco central, que contiene la corteza somatosensorial primaria; recibe el tacto, el dolor, la temperatura y la posición de la mitad opuesta del cuerpo.",
+   "facts": [
+    [
+     "Brodmann alanları",
+     "3, 1, 2",
+     "Áreas de Brodmann"
+    ],
+    [
+     "Girdi",
+     "Núcleos ventral posterolateral (cuerpo) y ventral posteromedial (cara) del tálamo",
+     "Aferencias"
+    ],
+    [
+     "Somatotopi",
+     "Homúnculo sensitivo; la mano, los labios y la lengua ocupan áreas grandes",
+     "Somatotopía"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Su lesión produce pérdida contralateral del tacto fino y del sentido de posición y astereognosia (incapacidad para reconocer objetos al tacto)."
+   ],
+   "tus": [
+    "Las fibras de los núcleos talámicos VPL y VPM llegan al giro poscentral por el brazo posterior de la cápsula interna."
+   ],
+   "related": [
+    "lobus-parietalis",
+    "gyrus-precentralis",
+    "thalamus"
+   ],
+   "models": [
+    "Postcentral gyrus"
+   ],
+   "aliases": [
+    "corteza somatosensorial",
+    "corteza sensitiva"
+   ]
+  },
+  {
+   "id": "lobus-temporalis",
+   "tr": "Lóbulo temporal",
+   "la": "Lobus temporalis",
+   "en": "Temporal lobe",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "El lóbulo situado por debajo del surco lateral. Se relaciona con la audición, la comprensión del lenguaje, la memoria y las emociones; en su cara medial se encuentran el hipocampo y la amígdala.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Giros temporales transversos (Heschl) – corteza auditiva primaria (41, 42); área de Wernicke – comprensión del lenguaje (22, hemisferio dominante); giros temporales superior, medio e inferior",
+     "Áreas principales"
+    ],
+    [
+     "İç yapılar",
+     "Hipocampo, amígdala (corpus amygdaloideum), giro parahipocampal",
+     "Estructuras internas"
+    ],
+    [
+     "Kanlanma",
+     "Arteria cerebral media y arteria cerebral posterior",
+     "Irrigación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En la afasia de Wernicke el habla es fluida pero sin sentido y el lenguaje no se comprende.",
+    "La epilepsia del lóbulo temporal puede cursar con alucinaciones olfativas, déjà vu y automatismos.",
+    "La atrofia del lóbulo temporal medial (hipocampo) es un signo precoz de la enfermedad de Alzheimer."
+   ],
+   "tus": [
+    "La epilepsia temporal cursa con alucinaciones olfativas, déjà vu y automatismos.",
+    "En la herniación temporal (uncal) se comprime el nervio oculomotor; la pupila del mismo lado se dilata."
+   ],
+   "related": [
+    "cerebrum",
+    "hippocampus",
+    "corpus-amygdaloideum",
+    "n-vestibulocochlearis"
+   ],
+   "models": [
+    "Temporal lobe"
+   ],
+   "aliases": [
+    "lóbulo temporal"
+   ]
+  },
+  {
+   "id": "lobus-occipitalis",
+   "tr": "Lóbulo occipital",
+   "la": "Lobus occipitalis",
+   "en": "Occipital lobe",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "El lóbulo más posterior del cerebro; contiene el centro de la visión, donde se procesa la información visual.",
+   "facts": [
+    [
+     "Önemli alanlar",
+     "Corteza visual primaria alrededor del surco calcarino (área estriada, Brodmann 17); áreas visuales de asociación (18, 19); cuña, giro lingual",
+     "Áreas principales"
+    ],
+    [
+     "Girdi",
+     "Radiación óptica desde el cuerpo geniculado lateral",
+     "Aferencias"
+    ],
+    [
+     "Kanlanma",
+     "Arteria cerebral posterior (arteria calcarina)",
+     "Irrigación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La lesión de una corteza visual produce una hemianopsia homónima contralateral; en la oclusión de la arteria cerebral posterior suele respetarse la mácula (doble irrigación).",
+    "La lesión bilateral produce ceguera cortical; en el síndrome de Anton el paciente niega estar ciego."
+   ],
+   "tus": [
+    "El polo occipital representa la mácula y está en la zona limítrofe entre ACM y ACP.",
+    "En la ceguera cortical (lesiones occipitales bilaterales) se conservan los reflejos pupilares a la luz (síndrome de Anton: negación de la ceguera)."
+   ],
+   "related": [
+    "cerebrum",
+    "n-opticus",
+    "lobus-parietalis",
+    "lobus-temporalis"
+   ],
+   "models": [
+    "Occipital lobe"
+   ],
+   "aliases": [
+    "lóbulo occipital",
+    "corteza visual"
+   ]
+  },
+  {
+   "id": "insula",
+   "tr": "Ínsula",
+   "la": "Lobus insularis (insula)",
+   "en": "Insula",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "Región de corteza oculta en el fondo del surco lateral, bajo los opérculos de los lóbulos frontal, parietal y temporal.",
+   "facts": [
+    [
+     "Konum",
+     "En el fondo del surco lateral, rodeada por el surco circular de la ínsula",
+     "Localización"
+    ],
+    [
+     "İşlevler",
+     "Percepción del gusto (corteza gustativa primaria), interocepción (sensibilidad visceral), dolor, conciencia emocional, regulación autonómica",
+     "Funciones"
+    ],
+    [
+     "Kanlanma",
+     "Ramas M2 (insulares) de la arteria cerebral media",
+     "Irrigación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En el ictus de la arteria cerebral media la corteza insular se afecta pronto, lo que en la TC se ve como pérdida de la «cinta insular»."
+   ],
+   "tus": [
+    "La ínsula está en el fondo del surco lateral, sobre las ramas M2 de la ACM."
+   ],
+   "related": [
+    "cerebrum",
+    "lobus-temporalis",
+    "lobus-frontalis"
+   ],
+   "models": [
+    "Insula"
+   ],
+   "aliases": [
+    "lóbulo de la ínsula"
+   ]
+  },
+  {
+   "id": "systema-limbicum",
+   "tr": "Sistema límbico",
+   "la": "Systema limbicum (lobus limbicus)",
+   "en": "Limbic system",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "Conjunto de estructuras dispuestas en anillo en la cara medial de los hemisferios cerebrales, responsable de las emociones, la motivación, el aprendizaje y la memoria.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Giro cingular, giro parahipocampal, hipocampo, amígdala, fórnix, cuerpos mamilares, núcleos septales, núcleos anteriores del tálamo, hipotálamo",
+     "Componentes"
+    ],
+    [
+     "Papez devresi",
+     "Hipocampo → fórnix → cuerpo mamilar → tracto mamilotalámico → núcleos anteriores del tálamo → giro cingular → giro parahipocampal → hipocampo",
+     "Circuito de Papez"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En el déficit de tiamina por alcoholismo crónico, la lesión de los cuerpos mamilares produce el síndrome de Wernicke–Korsakoff (pérdida de memoria, confabulación)."
+   ],
+   "tus": [
+    "Circuito de Papez: hipocampo → fórnix → cuerpo mamilar → tracto mamilotalámico → tálamo anterior → giro cingular → hipocampo."
+   ],
+   "related": [
+    "hippocampus",
+    "corpus-amygdaloideum",
+    "hypothalamus",
+    "thalamus"
+   ],
+   "models": [
+    "Limbic lobe",
+    "Fornix",
+    "Septal nuclei",
+    "Mamillary body"
+   ],
+   "aliases": [
+    "límbico",
+    "giro cingular",
+    "fórnix"
+   ]
+  },
+  {
+   "id": "hippocampus",
+   "tr": "Hipocampo",
+   "la": "Hippocampus",
+   "en": "Hippocampus",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "Banda de sustancia gris con forma de caballito de mar en la cara medial del lóbulo temporal, en el suelo del asta inferior del ventrículo lateral. Es esencial para almacenar información nueva en la memoria a largo plazo y para la orientación espacial.",
+   "facts": [
+    [
+     "Konum",
+     "Cara medial del lóbulo temporal, suelo del asta inferior del ventrículo lateral",
+     "Localización"
+    ],
+    [
+     "Yapısı",
+     "Asta de Amón (CA1–CA4), giro dentado, subículo",
+     "Estructura"
+    ],
+    [
+     "Bağlantılar",
+     "Aferencias: corteza entorrinal; eferencias: por el fórnix a los cuerpos mamilares y los núcleos septales",
+     "Conexiones"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La lesión hipocampal bilateral impide formar recuerdos nuevos (amnesia anterógrada) – el caso de H.M.",
+    "El hipocampo es una de las regiones más sensibles a la hipoxia (sector CA1).",
+    "Es de las primeras estructuras afectadas en la enfermedad de Alzheimer; la esclerosis temporal mesial es causa de epilepsia farmacorresistente."
+   ],
+   "tus": [
+    "El sector CA1 del hipocampo (sector de Sommer) es la región más sensible a la hipoxia.",
+    "El caso de H.M. mostró una amnesia anterógrada tras la resección temporal medial bilateral."
+   ],
+   "related": [
+    "systema-limbicum",
+    "lobus-temporalis",
+    "corpus-amygdaloideum"
+   ],
+   "models": [
+    "Hippocampus",
+    "Hippocampal commissure"
+   ],
+   "aliases": [
+    "hipocampo"
+   ]
+  },
+  {
+   "id": "corpus-amygdaloideum",
+   "tr": "Amígdala",
+   "la": "Corpus amygdaloideum",
+   "en": "Amygdala",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "Conjunto de núcleos en forma de almendra en la parte anteromedial del lóbulo temporal, por delante del hipocampo. Desempeña un papel central en el miedo, la percepción de amenazas y la formación de recuerdos emocionales.",
+   "facts": [
+    [
+     "Konum",
+     "Parte anteromedial del lóbulo temporal (bajo el uncus)",
+     "Localización"
+    ],
+    [
+     "Bağlantılar",
+     "Al hipotálamo por la estría terminal; a la corteza, el tálamo y los centros autonómicos del tronco del encéfalo",
+     "Conexiones"
+    ],
+    [
+     "İşlev",
+     "Condicionamiento del miedo, aprendizaje emocional, conducta social, puesta en marcha de las respuestas autonómicas y endocrinas al estrés",
+     "Función"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La lesión bilateral de la amígdala produce el síndrome de Klüver–Bucy (ausencia de miedo, hiperoralidad, hipersexualidad)."
+   ],
+   "tus": [
+    "La amígdala está en la parte anterior del lóbulo temporal, por delante y encima del hipocampo, bajo el uncus."
+   ],
+   "related": [
+    "systema-limbicum",
+    "hippocampus",
+    "hypothalamus"
+   ],
+   "models": [
+    "Amygdaloid body",
+    "Stria terminalis"
+   ],
+   "aliases": [
+    "amígdala",
+    "cuerpo amigdalino"
+   ]
+  },
+  {
+   "id": "corpus-callosum",
+   "tr": "Cuerpo calloso",
+   "la": "Corpus callosum",
+   "en": "Corpus callosum",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "La mayor comisura, formada por unos 200 millones de fibras nerviosas, que une los dos hemisferios cerebrales.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Rostro, rodilla, tronco, esplenio",
+     "Partes"
+    ],
+    [
+     "Diğer komissürler",
+     "Comisura anterior, comisura posterior, comisura del fórnix (comisura hipocampal)",
+     "Otras comisuras"
+    ],
+    [
+     "Kanlanma",
+     "Arteria cerebral anterior (arteria pericallosa) y arteria cerebral posterior (esplenio)",
+     "Irrigación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En la epilepsia farmacorresistente puede seccionarse el cuerpo calloso (callosotomía); en los pacientes con «cerebro dividido» se altera el paso de información entre hemisferios.",
+    "La agenesia del cuerpo calloso es una anomalía congénita."
+   ],
+   "tus": [
+    "La agenesia o la sección del cuerpo calloso produce síndromes de desconexión (incapacidad de escribir con la mano izquierda, anomia de la mano izquierda)."
+   ],
+   "related": [
+    "cerebrum",
+    "ventriculi-cerebri"
+   ],
+   "models": [
+    "Corpus callosum",
+    "Anterior commissure",
+    "Posterior commissure",
+    "Commissural fibres of telencephalon"
+   ],
+   "aliases": [
+    "cuerpo calloso"
+   ]
+  },
+  {
+   "id": "nuclei-basales",
+   "tr": "Núcleos basales (ganglios basales)",
+   "la": "Nuclei basales",
+   "en": "Basal nuclei (basal ganglia)",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "Masas de sustancia gris situadas en la profundidad de los hemisferios cerebrales que intervienen en el inicio y la regulación del movimiento y en el aprendizaje motor.",
+   "facts": [
+    [
+     "Bileşenleri",
+     "Núcleo caudado, putamen, globo pálido (putamen + globo pálido = núcleo lenticular; núcleo caudado + putamen = cuerpo estriado); funcionalmente también el núcleo subtalámico y la sustancia negra",
+     "Componentes"
+    ],
+    [
+     "Yolaklar",
+     "La vía directa facilita el movimiento y la indirecta lo inhibe; la dopamina de la sustancia negra mantiene el equilibrio",
+     "Vías"
+    ],
+    [
+     "Kapsül",
+     "La cápsula interna pasa entre el núcleo caudado y el tálamo por un lado y el núcleo lenticular por otro",
+     "Cápsula"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La enfermedad de Parkinson se debe a la pérdida de neuronas dopaminérgicas de la sustancia negra: temblor de reposo, rigidez, bradicinesia.",
+    "En la enfermedad de Huntington la atrofia del núcleo caudado produce corea (movimientos involuntarios como de baile) y demencia.",
+    "En la enfermedad de Wilson el depósito de cobre afecta sobre todo al putamen."
+   ],
+   "tus": [
+    "Cuerpo estriado: núcleo caudado + putamen; núcleo lenticular: putamen + globo pálido.",
+    "En la enfermedad de Wilson el cobre se acumula sobre todo en el putamen."
+   ],
+   "related": [
+    "thalamus",
+    "mesencephalon",
+    "cerebrum"
+   ],
+   "models": [
+    "Corpus striatum",
+    "Caudate nucleus",
+    "Putamen",
+    "Globus pallidus",
+    "Lentiform nucleus",
+    "Dorsal striatum"
+   ],
+   "aliases": [
+    "ganglios basales",
+    "estriado",
+    "putamen",
+    "núcleo caudado"
+   ]
+  },
+  {
+   "id": "thalamus",
+   "tr": "Tálamo",
+   "la": "Thalamus",
+   "en": "Thalamus",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "Masa ovoide de sustancia gris a cada lado del tercer ventrículo, la mayor parte del diencéfalo. Es la estación de relevo de todos los sentidos, salvo el olfato, en su camino a la corteza.",
+   "facts": [
+    [
+     "Konum",
+     "Diencéfalo; pared lateral del tercer ventrículo",
+     "Localización"
+    ],
+    [
+     "Önemli çekirdekler",
+     "VPL (sensibilidad del cuerpo), VPM (sensibilidad de la cara y gusto), cuerpo geniculado lateral (visión), cuerpo geniculado medial (audición), VA/VL (motor – aferencias de los núcleos basales y el cerebelo), núcleos anteriores (límbico), pulvinar",
+     "Núcleos principales"
+    ],
+    [
+     "Kanlanma",
+     "Ramas de la arteria cerebral posterior y de la arteria comunicante posterior",
+     "Irrigación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Un infarto talámico puede producir pérdida de toda la sensibilidad del lado opuesto, seguida de un dolor urente intenso (síndrome talámico de Dejerine–Roussy)."
+   ],
+   "tus": [
+    "El mayor núcleo del tálamo es el pulvinar, relacionado con la atención visual.",
+    "El tálamo está irrigado por las ramas talamoperforantes y talamogeniculadas de la arteria cerebral posterior."
+   ],
+   "related": [
+    "hypothalamus",
+    "nuclei-basales",
+    "gyrus-postcentralis",
+    "ventriculi-cerebri"
+   ],
+   "models": [
+    "Thalamus",
+    "Lateral geniculate body",
+    "Medial geniculate body",
+    "Habenula",
+    "Stria medullaris thalami"
+   ],
+   "aliases": [
+    "tálamo",
+    "diencéfalo"
+   ]
+  },
+  {
+   "id": "hypothalamus",
+   "tr": "Hipotálamo",
+   "la": "Hypothalamus",
+   "en": "Hypothalamus",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "Pequeña pero vital parte del diencéfalo situada bajo el tálamo, que forma el suelo del tercer ventrículo. Es el principal centro de control del sistema nervioso autónomo y del sistema endocrino.",
+   "facts": [
+    [
+     "Konum",
+     "Diencéfalo; suelo y parte inferior de las paredes laterales del tercer ventrículo; debajo, el tallo hipofisario (infundíbulo)",
+     "Localización"
+    ],
+    [
+     "Bölümleri",
+     "Quiasma óptico, tuber cinereum, infundíbulo, cuerpos mamilares",
+     "Partes"
+    ],
+    [
+     "Çekirdekler ve işlevler",
+     "Supraóptico y paraventricular (ADH, oxitocina), supraquiasmático (reloj biológico), arqueado (hormonas liberadoras, apetito), ventromedial (saciedad), lateral (hambre), preóptico (regulación térmica)",
+     "Núcleos y funciones"
+    ],
+    [
+     "Hipofiz ilişkisi",
+     "Unido a la neurohipófisis por fibras nerviosas y a la adenohipófisis por un sistema porta",
+     "Relación con la hipófisis"
+    ]
+   ],
+   "sections": [
+    [
+     "Homeostasis",
+     "Regula la temperatura corporal, el hambre y la saciedad, la sed y el equilibrio hídrico, el ciclo sueño–vigilia, la respuesta al estrés, la conducta reproductora y las funciones autonómicas (frecuencia cardíaca, presión arterial)."
+    ]
+   ],
+   "clinical": [
+    "La lesión del núcleo supraóptico o del tallo hipofisario produce diabetes insípida central (orina abundante y sed).",
+    "Un craneofaringioma que comprime el hipotálamo puede causar obesidad, alteraciones del sueño e insuficiencia endocrina."
+   ],
+   "tus": [
+    "La lesión del hipotálamo lateral suprime el hambre (anorexia); la lesión ventromedial produce hiperfagia y obesidad.",
+    "El hipotálamo anterior favorece la pérdida de calor (sudor, vasodilatación) y el posterior su conservación."
+   ],
+   "related": [
+    "hypophysis",
+    "thalamus",
+    "systema-limbicum",
+    "n-opticus"
+   ],
+   "models": [
+    "Hypothalamus",
+    "Mamillary body",
+    "Optic chiasm"
+   ],
+   "aliases": [
+    "hipotálamo"
+   ]
+  },
+  {
+   "id": "ventriculi-cerebri",
+   "tr": "Ventrículos cerebrales y LCR",
+   "la": "Ventriculi encephali",
+   "en": "Ventricles of the brain",
+   "group": "Encéfalo",
+   "region": "head",
+   "summary": "Cuatro cavidades comunicadas dentro del encéfalo, llenas de líquido cefalorraquídeo (LCR): dos ventrículos laterales, el tercero y el cuarto ventrículo.",
+   "facts": [
+    [
+     "Karıncıklar",
+     "Ventrículos laterales (uno en cada hemisferio, con astas anterior, posterior e inferior), tercer ventrículo (diencéfalo), cuarto ventrículo (entre protuberancia–bulbo y cerebelo)",
+     "Ventrículos"
+    ],
+    [
+     "Bağlantılar",
+     "Agujero interventricular (Monro): lateral → 3.º; acueducto del mesencéfalo (Silvio): 3.º → 4.º; abertura media (Magendie) y aberturas laterales (Luschka): 4.º → espacio subaracnoideo",
+     "Conexiones"
+    ],
+    [
+     "BOS yapımı",
+     "Plexos coroideos; unos 500 mL al día, volumen total de unos 150 mL",
+     "Producción de LCR"
+    ],
+    [
+     "BOS emilimi",
+     "Por las granulaciones aracnoideas al seno sagital superior",
+     "Absorción de LCR"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La obstrucción del flujo de LCR (por ejemplo, estenosis del acueducto) produce hidrocefalia obstructiva; puede colocarse una derivación ventriculoperitoneal.",
+    "El LCR obtenido por punción lumbar se analiza para diagnosticar meningitis y hemorragia subaracnoidea."
+   ],
+   "tus": [
+    "El asta anterior del ventrículo lateral está en el lóbulo frontal, la inferior en el temporal y la posterior en el occipital.",
+    "El plexo coroideo está en el cuerpo y el asta inferior del ventrículo lateral y en el techo del 3.º y 4.º ventrículos; no lo hay en las astas anterior y posterior."
+   ],
+   "related": [
+    "thalamus",
+    "corpus-callosum",
+    "meninges",
+    "mesencephalon"
+   ],
+   "models": [
+    "Lateral ventricle",
+    "Third ventricle",
+    "Fourth ventricle",
+    "Aqueduct of midbrain",
+    "Choroid plexus",
+    "Septum pellucidum",
+    "Walls of lateral ventricle"
+   ],
+   "aliases": [
+    "ventrículo",
+    "LCR",
+    "líquido cefalorraquídeo"
+   ]
+  },
+  {
+   "id": "mesencephalon",
+   "tr": "Mesencéfalo",
+   "la": "Mesencephalon",
+   "en": "Midbrain",
+   "group": "Tronco del encéfalo y cerebelo",
+   "region": "head",
+   "summary": "La parte más alta del tronco del encéfalo, entre el diencéfalo y la protuberancia. Interviene en los reflejos visuales y auditivos, los movimientos oculares y el control motor.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Techo (colículos superiores – reflejos visuales, colículos inferiores – audición), tegmento (núcleo rojo, núcleos de los nervios III y IV), pedúnculos cerebrales (fibras corticoespinales), sustancia negra",
+     "Partes"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "Nervio oculomotor (III) – por la fosa interpeduncular; nervio troclear (IV) – el único que sale por la cara posterior",
+     "Nervios craneales que emergen"
+    ],
+    [
+     "Boşluk",
+     "Acueducto del mesencéfalo",
+     "Cavidad"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Síndrome de Weber: lesión del pedúnculo cerebral y del nervio oculomotor – parálisis del III par ipsilateral con hemiplejía contralateral.",
+    "Síndrome de Parinaud (tumores pineales): parálisis de la mirada hacia arriba."
+   ],
+   "tus": [
+    "En un corte del mesencéfalo los colículos están por detrás (superiores: reflejos visuales, inferiores: audición), el acueducto en el centro y los pedúnculos cerebrales por delante.",
+    "Síndrome de Parinaud (tumor pineal): parálisis de la mirada hacia arriba, disociación luz–acomodación."
+   ],
+   "related": [
+    "pons",
+    "nuclei-basales",
+    "n-oculomotorius",
+    "n-trochlearis"
+   ],
+   "models": [
+    "Midbrain",
+    "Superior colliculus",
+    "Inferior colliculus",
+    "Red nucleus",
+    "Cerebral peduncle",
+    "Base of peduncle"
+   ],
+   "aliases": [
+    "mesencéfalo",
+    "cerebro medio"
+   ]
+  },
+  {
+   "id": "pons",
+   "tr": "Protuberancia (puente)",
+   "la": "Pons",
+   "en": "Pons",
+   "group": "Tronco del encéfalo y cerebelo",
+   "region": "head",
+   "summary": "La parte media del tronco del encéfalo, un abultamiento de fibras transversales por delante del cerebelo. Une el cerebro con el cerebelo e interviene en la regulación de la respiración.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Porción basilar (anterior; núcleos pontinos, fibras corticoespinales) y tegmento (posterior)",
+     "Partes"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "Nervio trigémino (V) – por la cara anterolateral; nervios abducens (VI), facial (VII) y vestibulococlear (VIII) – por el surco bulboprotuberancial",
+     "Nervios craneales que emergen"
+    ],
+    [
+     "Bağlantı",
+     "Al cerebelo por el pedúnculo cerebeloso medio",
+     "Conexiones"
+    ],
+    [
+     "Kanlanma",
+     "Ramas pontinas de la arteria basilar",
+     "Irrigación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Las lesiones extensas de la base de la protuberancia causan el síndrome de enclaustramiento (locked-in): el paciente está consciente pero solo se comunica con movimientos oculares verticales y parpadeo.",
+    "Corregir el sodio demasiado deprisa puede producir mielinólisis central pontina."
+   ],
+   "tus": [
+    "Por delante la protuberancia contiene las fibras corticoespinales y los núcleos pontinos; por detrás (tegmento), los núcleos de los nervios craneales.",
+    "La mielinólisis central pontina aparece tras corregir demasiado rápido una hiponatremia."
+   ],
+   "related": [
+    "mesencephalon",
+    "medulla-oblongata",
+    "cerebellum",
+    "n-trigeminus",
+    "n-facialis"
+   ],
+   "models": [
+    "Pons",
+    "Tegmentum of pons"
+   ],
+   "aliases": [
+    "protuberancia",
+    "puente"
+   ]
+  },
+  {
+   "id": "medulla-oblongata",
+   "tr": "Bulbo raquídeo (médula oblongada)",
+   "la": "Medulla oblongata",
+   "en": "Medulla oblongata",
+   "group": "Tronco del encéfalo y cerebelo",
+   "region": "head",
+   "summary": "La parte más baja del tronco del encéfalo, que se continúa con la médula espinal a nivel del agujero magno. Contiene centros vitales como los de la respiración, el latido cardíaco y la presión arterial.",
+   "facts": [
+    [
+     "Dış yapılar",
+     "Pirámides (fibras corticoespinales – se cruzan en su parte inferior: decusación de las pirámides), olivas, tubérculos grácil y cuneiforme",
+     "Configuración externa"
+    ],
+    [
+     "Çıkan kranial sinirler",
+     "Nervios glosofaríngeo (IX), vago (X) y accesorio (XI) – por el surco lateral; nervio hipogloso (XII) – entre la pirámide y la oliva",
+     "Nervios craneales que emergen"
+    ],
+    [
+     "Yaşamsal merkezler",
+     "Centro respiratorio, centro cardiovascular, centros reflejos del vómito, la tos y la deglución",
+     "Centros vitales"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Síndrome de Wallenberg (bulbar lateral): oclusión de la arteria vertebral/PICA – pérdida de la sensibilidad dolorosa y térmica en la hemicara ipsilateral y el hemicuerpo contralateral, disfagia, disfonía, síndrome de Horner, ataxia.",
+    "Con hipertensión intracraneal, la herniación de las amígdalas cerebelosas por el agujero magno comprime el bulbo y detiene la respiración."
+   ],
+   "tus": [
+    "El bulbo contiene los centros respiratorio y cardiovascular; la herniación por el agujero magno es mortal.",
+    "El área postrema (centro del vómito) es una región sin barrera hematoencefálica."
+   ],
+   "related": [
+    "pons",
+    "medulla-spinalis",
+    "n-vagus",
+    "n-hypoglossus",
+    "os-occipitale"
+   ],
+   "models": [
+    "Medulla oblongata",
+    "Pyramid of medulla oblongata",
+    "Olive"
+   ],
+   "aliases": [
+    "bulbo",
+    "médula oblongada"
+   ]
+  },
+  {
+   "id": "cerebellum",
+   "tr": "Cerebelo",
+   "la": "Cerebellum",
+   "en": "Cerebellum",
+   "group": "Tronco del encéfalo y cerebelo",
+   "region": "head",
+   "summary": "El «cerebro pequeño» situado en la fosa craneal posterior, detrás del tronco del encéfalo. Se encarga de la coordinación del movimiento, el equilibrio, el tono muscular y el aprendizaje motor.",
+   "facts": [
+    [
+     "Bölümleri",
+     "Vermis en la línea media y hemisferios cerebelosos a cada lado; lóbulos anterior, posterior y floculonodular",
+     "Partes"
+    ],
+    [
+     "Bağlantılar",
+     "Pedúnculos cerebelosos superior (al mesencéfalo), medio (a la protuberancia) e inferior (al bulbo)",
+     "Conexiones"
+    ],
+    [
+     "Derin çekirdekler",
+     "Núcleos dentado, emboliforme, globoso y del fastigio",
+     "Núcleos profundos"
+    ],
+    [
+     "İşlevsel bölgeler",
+     "Vestibulocerebelo (equilibrio, movimientos oculares), espinocerebelo (coordinación del tronco y las extremidades), cerebrocerebelo (planificación del movimiento)",
+     "Áreas funcionales"
+    ],
+    [
+     "Kanlanma",
+     "Arteria cerebelosa superior, arteria cerebelosa anteroinferior (AICA), arteria cerebelosa posteroinferior (PICA)",
+     "Irrigación"
+    ]
+   ],
+   "sections": [
+    [
+     "Regla del mismo lado",
+     "Cada hemisferio cerebeloso controla el mismo lado del cuerpo; una lesión unilateral produce incoordinación del mismo lado."
+    ]
+   ],
+   "clinical": [
+    "Las lesiones cerebelosas producen ataxia, dismetría (no alcanzar el objetivo en la prueba dedo–nariz), disdiadococinesia, temblor intencional, nistagmo y disartria (habla escandida).",
+    "El alcohol afecta sobre todo al vermis y produce una marcha con base amplia (ataxia troncal)."
+   ],
+   "tus": [
+    "Las lesiones cerebelosas dan signos del mismo lado (las vías se cruzan dos veces).",
+    "Irrigación del cerebelo: SCA (cara superior), AICA (cara anteroinferior), PICA (cara posteroinferior)."
+   ],
+   "related": [
+    "pons",
+    "medulla-oblongata",
+    "mesencephalon"
+   ],
+   "models": [
+    "Cerebellum"
+   ],
+   "aliases": [
+    "cerebelo"
+   ]
+  },
+  {
+   "id": "medulla-spinalis",
+   "tr": "Médula espinal",
+   "la": "Medulla spinalis",
+   "en": "Spinal cord",
+   "group": "Médula espinal y meninges",
+   "region": "back",
+   "summary": "La parte cilíndrica del sistema nervioso central situada en el conducto vertebral, desde el agujero magno hasta el cono medular a la altura de las vértebras L1–L2 en el adulto. Da origen a 31 pares de nervios espinales.",
+   "facts": [
+    [
+     "Uzunluk",
+     "42–45 cm en el adulto",
+     "Longitud"
+    ],
+    [
+     "Segmentler",
+     "8 cervicales, 12 torácicos, 5 lumbares, 5 sacros, 1 coccígeo",
+     "Segmentos"
+    ],
+    [
+     "Kalınlaşmalar",
+     "Intumescencia cervical (C4–T1; nervios del brazo) e intumescencia lumbosacra (L2–S3; nervios de la pierna)",
+     "Engrosamientos"
+    ],
+    [
+     "İç yapı",
+     "Sustancia gris en forma de H en el centro (asta anterior – motora, asta posterior – sensitiva, asta lateral – simpática T1–L2), rodeada de cordones de sustancia blanca (funículos)",
+     "Estructura interna"
+    ],
+    [
+     "Kanlanma",
+     "Arteria espinal anterior (dos tercios anteriores), arterias espinales posteriores (tercio posterior), arterias segmentarias (arteria radicular magna – Adamkiewicz)",
+     "Irrigación"
+    ]
+   ],
+   "sections": [
+    [
+     "Vías principales",
+     "Cordones posteriores (fascículos grácil y cuneiforme): tacto fino y sentido de posición, se cruzan en el bulbo. Tracto espinotalámico: dolor y temperatura, se cruza en la médula al nivel de entrada. Tracto corticoespinal lateral: movimiento voluntario, ya cruzado en el bulbo."
+    ]
+   ],
+   "clinical": [
+    "Síndrome de Brown-Séquard (hemisección): pérdida de la motricidad y del sentido de posición del lado de la lesión y del dolor y la temperatura del lado opuesto.",
+    "En el síndrome de la arteria espinal anterior se conservan las sensibilidades de los cordones posteriores.",
+    "El nivel de una lesión medular determina si se produce tetraplejía (cervical) o paraplejía (torácica o inferior)."
+   ],
+   "tus": [
+    "Las intumescencias cervical y lumbar corresponden a los segmentos de los que nacen los plexos de los miembros.",
+    "La médula está irrigada por la arteria espinal anterior (dos tercios anteriores) y dos arterias espinales posteriores; la arteria de Adamkiewicz es la principal fuente de la región torácica baja y lumbar."
+   ],
+   "related": [
+    "cauda-equina",
+    "meninges",
+    "vertebrae-cervicales",
+    "medulla-oblongata",
+    "plexus-brachialis"
+   ],
+   "models": [
+    "Spinal cord"
+   ],
+   "aliases": [
+    "médula espinal"
+   ]
+  },
+  {
+   "id": "cauda-equina",
+   "tr": "Cola de caballo",
+   "la": "Cauda equina",
+   "en": "Cauda equina",
+   "group": "Médula espinal y meninges",
+   "region": "back",
+   "summary": "El haz de raíces nerviosas lumbares, sacras y coccígeas que desciende por el conducto vertebral por debajo del final de la médula en el cono medular.",
+   "facts": [
+    [
+     "Konum",
+     "Desde la vértebra L2 hasta el sacro, en la cisterna lumbar",
+     "Localización"
+    ],
+    [
+     "İçerik",
+     "Raíces de los nervios espinales L2–Co1 y filum terminal",
+     "Contenido"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Síndrome de cola de caballo (por ejemplo, por una gran hernia discal central): anestesia en silla de montar, incontinencia o retención urinaria y fecal, debilidad de las piernas – requiere cirugía urgente.",
+    "En la punción lumbar la aguja aparta las raíces sin dañar la médula; por eso los niveles L3–L4 / L4–L5 son seguros."
+   ],
+   "tus": [
+    "El síndrome del cono medular es más brusco y simétrico; el de la cola de caballo, más asimétrico y doloroso."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "vertebrae-lumbales",
+    "plexus-lumbalis",
+    "plexus-sacralis"
+   ],
+   "models": [
+    "Cauda equina"
+   ],
+   "aliases": [
+    "cola de caballo",
+    "cauda equina"
+   ]
+  },
+  {
+   "id": "meninges",
+   "tr": "Meninges",
+   "la": "Meninges",
+   "en": "Meninges",
+   "group": "Médula espinal y meninges",
+   "region": "head",
+   "summary": "Las tres membranas protectoras que rodean el encéfalo y la médula espinal: de fuera adentro la duramadre (membrana resistente), la aracnoides (membrana en tela de araña) y la piamadre (membrana blanda).",
+   "facts": [
+    [
+     "Dura mater",
+     "Membrana externa gruesa y fibrosa; dentro del cráneo tiene dos hojas entre las que se encuentran los senos venosos. Repliegues: hoz del cerebro, tienda del cerebelo, hoz del cerebelo, diafragma selar",
+     "Duramadre"
+    ],
+    [
+     "Arachnoidea mater",
+     "Membrana media fina y avascular; bajo ella, en el espacio subaracnoideo, circula el LCR",
+     "Aracnoides"
+    ],
+    [
+     "Pia mater",
+     "Membrana interna vascularizada, firmemente adherida a la superficie del encéfalo y la médula; en la médula forma los ligamentos dentados y el filum terminal",
+     "Piamadre"
+    ],
+    [
+     "Aralıklar",
+     "Epidural (virtual en el cráneo, real en la columna – grasa y venas), subdural (virtual), subaracnoideo (real – LCR)",
+     "Espacios"
+    ],
+    [
+     "İnnervasyon",
+     "Duramadre: ramas del nervio trigémino (fosas anterior y media), nervio vago y nervios cervicales superiores (fosa posterior)",
+     "Inervación"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Hematoma epidural: casi siempre rotura de la arteria meníngea media; forma lenticular (biconvexa), «intervalo lúcido».",
+    "Hematoma subdural: rotura de las venas puente; forma de semiluna, frecuente en ancianos y alcohólicos.",
+    "Hemorragia subaracnoidea: casi siempre rotura de un aneurisma; «el peor dolor de cabeza de mi vida».",
+    "En la meningitis hay rigidez de nuca y signos de Kernig y Brudzinski."
+   ],
+   "tus": [
+    "En el cráneo la duramadre tiene dos hojas, perióstica externa y meníngea interna; los senos venosos están entre ellas.",
+    "La hoz del cerebro, la tienda del cerebelo, la hoz del cerebelo y el diafragma selar son repliegues internos de la duramadre."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "cerebrum",
+    "ventriculi-cerebri",
+    "sinus-durae-matris"
+   ],
+   "models": [
+    "Meninges",
+    "Dura",
+    "Cranial dura",
+    "Spinal dura",
+    "Falx cerebri",
+    "Tentorium cerebelli",
+    "Pia",
+    "Cranial pia",
+    "Leptomeninges"
+   ],
+   "aliases": [
+    "duramadre",
+    "aracnoides",
+    "piamadre",
+    "meninge"
+   ]
+  },
+  {
+   "id": "tractus-spinales",
+   "tr": "Tractos de la médula espinal",
+   "la": "Tractus medullae spinalis",
+   "en": "Spinal cord tracts",
+   "group": "Médula espinal y meninges",
+   "region": "back",
+   "summary": "Haces de fibras nerviosas de la sustancia blanca medular que llevan información entre el encéfalo y el cuerpo: ascendentes (sensitivos) y descendentes (motores).",
+   "facts": [
+    [
+     "Çıkan yollar",
+     "Fascículos grácil y cuneiforme (cordones posteriores – tacto fino, vibración, posición), tractos espinotalámicos lateral y anterior (dolor, temperatura, tacto grosero), tractos espinocerebelosos anterior y posterior (propiocepción inconsciente)",
+     "Vías ascendentes"
+    ],
+    [
+     "İnen yollar",
+     "Tractos corticoespinales lateral y anterior (movimiento voluntario); tractos rubroespinal, vestibuloespinal, reticuloespinal y tectoespinal (postura, reflejos y tono)",
+     "Vías descendentes"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Degeneración combinada subaguda (déficit de vitamina B12): se afectan los cordones posteriores y los tractos corticoespinales.",
+    "En la siringomielia el conducto central dilatado interrumpe las fibras espinotalámicas que se cruzan y produce pérdida del dolor y la temperatura «en esclavina»."
+   ],
+   "tus": [
+    "El tracto espinocerebeloso posterior lleva información del mismo lado; el anterior se cruza dos veces y también llega al cerebelo del mismo lado.",
+    "Los tractos rubroespinal, reticuloespinal, vestibuloespinal y tectoespinal son vías descendentes extrapiramidales."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "gyrus-precentralis",
+    "gyrus-postcentralis"
+   ],
+   "models": [
+    "Lateral corticospinal tract",
+    "Anterior corticospinal tract",
+    "Gracile fasciculus",
+    "Cuneate fasciculus",
+    "Lateral spinothalamic tract",
+    "Anterior spinothalamic tract",
+    "Anterior spinocerebellar tract",
+    "Posterior spinocerebellar tract",
+    "Rubrospinal tract",
+    "Tectospinal tract",
+    "Lateral vestibulospinal tract",
+    "Medial vestibulospinal tract"
+   ],
+   "aliases": [
+    "corticoespinal",
+    "espinotalámico",
+    "cordón posterior"
+   ]
+  },
+  {
+   "id": "n-olfactorius",
+   "tr": "Nervio olfatorio (I)",
+   "la": "N. olfactorius (I)",
+   "en": "Olfactory nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El nervio craneal sensorial del olfato, unido directamente al extremo anterior del cerebro. En realidad está formado por finos filetes (fila olfactoria) que salen de las células olfatorias del techo de la cavidad nasal.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Células receptoras olfatorias de la mucosa de la región olfatoria (techo de la cavidad nasal)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Atraviesa la lámina cribosa y termina en el bulbo olfatorio; el tracto olfatorio lo lleva a la corteza olfatoria (uncus, alrededor de la amígdala)",
+     "Trayecto"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Sentido especial: olfato",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En las fracturas de la base craneal anterior los filetes pueden romperse y causar pérdida del olfato (anosmia).",
+    "La pérdida del olfato puede ser un signo precoz de las enfermedades de Parkinson y Alzheimer; también fue frecuente en la COVID-19."
+   ],
+   "tus": [
+    "Las neuronas receptoras olfatorias son las únicas que se renuevan constantemente.",
+    "Síndrome de Foster Kennedy: en el meningioma del surco olfatorio, atrofia óptica y anosmia ipsilaterales con papiledema contralateral."
+   ],
+   "related": [
+    "os-ethmoidale",
+    "cavitas-nasi",
+    "organum-olfactus"
+   ],
+   "models": [
+    "Olfactory nerve (I)"
+   ],
+   "aliases": [
+    "nervio olfatorio",
+    "I par craneal"
+   ]
+  },
+  {
+   "id": "n-opticus",
+   "tr": "Nervio óptico (II)",
+   "la": "N. opticus (II)",
+   "en": "Optic nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El nervio sensorial que lleva la información visual desde la retina. Embriológicamente es una prolongación del cerebro, por lo que está envuelto por las meninges.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Axones de las células ganglionares de la retina (disco óptico)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Entra en el cráneo por el conducto óptico; encima de la hipófisis, en el quiasma óptico, se cruzan las fibras nasales; el tracto óptico llega al cuerpo geniculado lateral y desde allí la radiación óptica a la corteza visual",
+     "Trayecto"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Sentido especial: visión; vía aferente del reflejo pupilar a la luz",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La compresión del quiasma óptico (adenoma hipofisario) produce una hemianopsia bitemporal.",
+    "El aumento de la presión intracraneal produce edema del disco óptico (papiledema).",
+    "La neuritis óptica puede ser el primer signo de la esclerosis múltiple."
+   ],
+   "tus": [
+    "El nervio óptico es una prolongación del tejido cerebral; está envuelto por meninges y con hipertensión intracraneal aparece papiledema.",
+    "En el reflejo fotomotor la vía aferente es el nervio óptico y la eferente el oculomotor; la pupila de Marcus Gunn (DPAR) indica un defecto aferente."
+   ],
+   "related": [
+    "bulbus-oculi",
+    "lobus-occipitalis",
+    "hypothalamus",
+    "hypophysis"
+   ],
+   "models": [
+    "Optic nerve (II)",
+    "Optic chiasm",
+    "Optic tract"
+   ],
+   "aliases": [
+    "nervio óptico",
+    "II par craneal",
+    "quiasma"
+   ]
+  },
+  {
+   "id": "n-oculomotorius",
+   "tr": "Nervio oculomotor (III)",
+   "la": "N. oculomotorius (III)",
+   "en": "Oculomotor nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "Nervio craneal motor y parasimpático que produce la mayoría de los movimientos oculares, contrae la pupila y controla la acomodación del cristalino.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Mesencéfalo (fosa interpeduncular); sus núcleos son el núcleo oculomotor y el núcleo accesorio (Edinger–Westphal)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Recorre la pared lateral del seno cavernoso y entra en la órbita por la fisura orbitaria superior",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Rectos superior, inferior y medial, oblicuo inferior, elevador del párpado superior; parasimpático: por el ganglio ciliar al esfínter de la pupila y al músculo ciliar",
+     "Motor (eferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En la parálisis completa el ojo mira hacia abajo y afuera, con ptosis y pupila dilatada y arreactiva.",
+    "La parte externa, que lleva las fibras pupilares, se afecta pronto por la compresión de un aneurisma de la arteria comunicante posterior (la parálisis del III con afectación pupilar es una urgencia); en la isquemia diabética la pupila suele respetarse."
+   ],
+   "tus": [
+    "El nervio oculomotor inerva los rectos superior, inferior y medial, el oblicuo inferior y el elevador del párpado.",
+    "El núcleo del III está en el mesencéfalo a la altura del colículo superior; el núcleo de Edinger–Westphal es el origen de las fibras parasimpáticas."
+   ],
+   "related": [
+    "mm-bulbi",
+    "mesencephalon",
+    "bulbus-oculi",
+    "n-trochlearis",
+    "n-abducens"
+   ],
+   "models": [
+    "Oculomotor nerve (III)",
+    "Oculomotor complex"
+   ],
+   "aliases": [
+    "oculomotor",
+    "III par craneal"
+   ]
+  },
+  {
+   "id": "n-trochlearis",
+   "tr": "Nervio troclear (IV)",
+   "la": "N. trochlearis (IV)",
+   "en": "Trochlear nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El más fino de los nervios craneales y el de recorrido intracraneal más largo; inerva solo el músculo oblicuo superior del ojo. Es el único nervio que sale por la cara posterior del tronco del encéfalo y el único que se cruza por completo.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Cara posterior del mesencéfalo (por debajo del colículo inferior)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Rodea el tronco del encéfalo hacia delante y atraviesa la pared lateral del seno cavernoso y la fisura orbitaria superior",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Músculo oblicuo superior",
+     "Motor (eferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Su parálisis produce visión doble al mirar hacia abajo y adentro; al paciente le cuesta bajar escaleras e inclina la cabeza hacia el lado sano.",
+    "Por su largo recorrido se lesiona con facilidad en los traumatismos craneales."
+   ],
+   "tus": [
+    "El núcleo del troclear está a la altura del colículo inferior; sus fibras se cruzan."
+   ],
+   "related": [
+    "mm-bulbi",
+    "n-oculomotorius",
+    "mesencephalon"
+   ],
+   "models": [
+    "Trochlear nerve (IV)"
+   ],
+   "aliases": [
+    "troclear",
+    "IV par craneal",
+    "nervio patético"
+   ]
+  },
+  {
+   "id": "n-trigeminus",
+   "tr": "Nervio trigémino (V)",
+   "la": "N. trigeminus (V)",
+   "en": "Trigeminal nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El principal nervio sensitivo de la cara y el nervio motor de los músculos de la masticación. Es el mayor nervio craneal y en el ganglio trigeminal se divide en tres ramas: oftálmica (V1), maxilar (V2) y mandibular (V3).",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Cara anterolateral de la protuberancia (una gran raíz sensitiva y una pequeña raíz motora)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Ganglio trigeminal (de Gasser) – V1 sale por la fisura orbitaria superior, V2 por el agujero redondo y V3 por el agujero oval",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "V3: músculos de la masticación (masetero, temporal, pterigoideos), milohioideo, vientre anterior del digástrico, tensor del tímpano, tensor del velo del paladar",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Piel de la cara, ojo (córnea), mucosas nasal y oral, dientes, sensibilidad general de los dos tercios anteriores de la lengua, duramadre",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [
+    [
+     "Territorios sensitivos de las ramas",
+     "V1: frente, párpado superior, dorso de la nariz, córnea; V2: párpado inferior, mejilla, labio superior, dientes superiores, paladar; V3: labio inferior, mentón, parte de la sien, dientes inferiores, dos tercios anteriores de la lengua (sensibilidad general)."
+    ]
+   ],
+   "clinical": [
+    "Neuralgia del trigémino: crisis de dolor intenso como una descarga eléctrica que duran segundos, por lo general en el territorio V2–V3.",
+    "El herpes zóster oftálmico produce una erupción en el territorio V1; la afectación de la punta de la nariz (signo de Hutchinson) sugiere afectación ocular.",
+    "V1 es la vía aferente del reflejo corneal."
+   ],
+   "tus": [
+    "El ganglio trigeminal (de Gasser) está en la cavidad trigeminal (cavum de Meckel).",
+    "La neuralgia del trigémino afecta sobre todo a los territorios V2 y V3 y a menudo se debe a la compresión de la raíz por un vaso."
+   ],
+   "related": [
+    "m-masseter",
+    "m-temporalis",
+    "mm-pterygoidei",
+    "pons",
+    "dentes"
+   ],
+   "models": [
+    "Trigeminal nerve (V)",
+    "Ophthalmic nerve",
+    "Maxillary nerve",
+    "Mandibular nerve"
+   ],
+   "aliases": [
+    "trigémino",
+    "V par craneal",
+    "oftálmico",
+    "maxilar",
+    "mandibular"
+   ]
+  },
+  {
+   "id": "n-abducens",
+   "tr": "Nervio abducens (VI)",
+   "la": "N. abducens (VI)",
+   "en": "Abducens nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El nervio craneal motor del músculo recto lateral, que gira el ojo hacia fuera.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "El surco entre la protuberancia y el bulbo",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Largo recorrido a lo largo del clivus; atraviesa el seno cavernoso (junto a la arteria carótida interna) y entra por la fisura orbitaria superior",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Músculo recto lateral",
+     "Motor (eferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Con hipertensión intracraneal puede estirarse sobre el clivus y producir una parálisis «falsamente localizadora».",
+    "En la parálisis el ojo se desvía hacia dentro y hay visión doble horizontal al mirar hacia fuera."
+   ],
+   "tus": [
+    "Con hipertensión intracraneal el largo recorrido intracraneal del abducens explica una parálisis «falsamente localizadora»."
+   ],
+   "related": [
+    "mm-bulbi",
+    "pons",
+    "n-oculomotorius"
+   ],
+   "models": [
+    "Abducens nerve (VI)"
+   ],
+   "aliases": [
+    "abducens",
+    "VI par craneal",
+    "motor ocular externo"
+   ]
+  },
+  {
+   "id": "n-facialis",
+   "tr": "Nervio facial (VII)",
+   "la": "N. facialis (VII)",
+   "en": "Facial nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El nervio motor de los músculos de la expresión facial; además lleva el gusto de los dos tercios anteriores de la lengua y da fibras parasimpáticas a las glándulas lagrimal y salivales.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Surco bulboprotuberancial (raíz motora y nervio intermedio)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Conducto auditivo interno → conducto facial (hueso temporal; ganglio geniculado) → agujero estilomastoideo → se divide en cinco ramas terminales dentro de la glándula parótida",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Músculos de la expresión facial, estapedio, vientre posterior del digástrico, estilohioideo; parasimpático: glándula lagrimal (nervio petroso mayor), glándulas submandibular y sublingual (cuerda del tímpano)",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Gusto de los dos tercios anteriores de la lengua (cuerda del tímpano), piel de parte del oído externo",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [
+    [
+     "Ramas terminales",
+     "Dentro de la parótida: ramas temporal, cigomática, bucal, marginal de la mandíbula y cervical."
+    ]
+   ],
+   "clinical": [
+    "Parálisis de Bell (periférica): parálisis de toda la hemicara – la frente no se arruga, el ojo no se cierra, la comisura bucal cae; según el nivel de la lesión puede haber pérdida del gusto e hiperacusia.",
+    "En una lesión central (motoneurona superior) la frente se respeta, porque la parte del núcleo de los músculos de la frente recibe fibras de ambos hemisferios.",
+    "En la cirugía de tumores parotídeos deben preservarse las ramas del nervio."
+   ],
+   "tus": [
+    "Ramas del nervio facial de proximal a distal: nervio petroso mayor, nervio del estapedio, cuerda del tímpano y luego las ramas faciales.",
+    "El síndrome de Ramsay Hunt es un herpes zóster del ganglio geniculado: parálisis facial y vesículas en el oído."
+   ],
+   "related": [
+    "m-occipitofrontalis",
+    "m-orbicularis-oculi",
+    "glandula-parotidea",
+    "ossicula-auditus",
+    "pons"
+   ],
+   "models": [
+    "Facial nerve (VII)",
+    "Chorda tympani"
+   ],
+   "aliases": [
+    "nervio facial",
+    "VII par craneal",
+    "parálisis facial"
+   ]
+  },
+  {
+   "id": "n-vestibulocochlearis",
+   "tr": "Nervio vestibulococlear (VIII)",
+   "la": "N. vestibulocochlearis (VIII)",
+   "en": "Vestibulocochlear nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El nervio craneal sensorial que lleva la información de la audición y el equilibrio desde el oído interno al tronco del encéfalo; tiene una parte coclear y otra vestibular.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Surco bulboprotuberancial (ángulo pontocerebeloso)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Recorre el conducto auditivo interno junto al nervio facial; en el oído interno llega al ganglio espiral (coclear) y al ganglio vestibular",
+     "Trayecto"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Sentidos especiales: audición (cóclea) y equilibrio (utrículo, sáculo, conductos semicirculares)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El schwannoma vestibular (neurinoma del acústico) del ángulo pontocerebeloso empieza con hipoacusia unilateral, acúfenos e inestabilidad; al crecer afecta a los nervios V y VII.",
+    "La neuritis vestibular produce un vértigo intenso de comienzo brusco."
+   ],
+   "tus": [
+    "En la hipoacusia neurosensorial el Weber se lateraliza al oído sano y el Rinne es positivo."
+   ],
+   "related": [
+    "auris-interna",
+    "pons",
+    "n-facialis"
+   ],
+   "models": [
+    "Vestibulocochlear nerve (VIII)",
+    "Cochlear nerve",
+    "Vestibular nerve"
+   ],
+   "aliases": [
+    "nervio auditivo",
+    "VIII par craneal",
+    "nervio coclear"
+   ]
+  },
+  {
+   "id": "n-glossopharyngeus",
+   "tr": "Nervio glosofaríngeo (IX)",
+   "la": "N. glossopharyngeus (IX)",
+   "en": "Glossopharyngeal nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "Nervio craneal mixto que lleva el gusto y la sensibilidad general del tercio posterior de la lengua, la sensibilidad de la faringe y la inervación parasimpática de la glándula parótida.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Surco lateral del bulbo raquídeo",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Sale por el agujero yugular y desciende hacia delante a lo largo del estilofaríngeo hasta la raíz de la lengua",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Músculo estilofaríngeo; parasimpático: por el ganglio ótico a la glándula parótida",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Gusto y sensibilidad general del tercio posterior de la lengua, orofaringe, amígdalas, oído medio, seno carotídeo (barorreceptor) y cuerpo carotídeo (quimiorreceptor)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Forma la vía aferente del reflejo nauseoso (eferente: nervio vago).",
+    "En la neuralgia del glosofaríngeo la deglución desencadena dolor en la garganta y el oído."
+   ],
+   "tus": [
+    "El único músculo inervado por el IX es el estilofaríngeo; sus fibras parasimpáticas llegan a la parótida por el ganglio ótico.",
+    "La neuralgia del glosofaríngeo es un dolor en la raíz de la lengua y el oído desencadenado por la deglución."
+   ],
+   "related": [
+    "n-vagus",
+    "lingua",
+    "pharynx",
+    "glandula-parotidea"
+   ],
+   "models": [
+    "Glossopharyngeal nerve (IX)"
+   ],
+   "aliases": [
+    "glosofaríngeo",
+    "IX par craneal"
+   ]
+  },
+  {
+   "id": "n-vagus",
+   "tr": "Nervio vago (X)",
+   "la": "N. vagus (X)",
+   "en": "Vagus nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El nervio craneal de distribución más amplia, que da fibras parasimpáticas a la mayor parte de los órganos del cuello, el tórax y el abdomen. También inerva los músculos de la faringe y la laringe.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Surco lateral del bulbo raquídeo (núcleo ambiguo, núcleo dorsal del vago, núcleo del tracto solitario)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Sale por el agujero yugular; en el cuello desciende en la vaina carotídea con la arteria carótida y la vena yugular interna; en el tórax forma el plexo esofágico y pasa al abdomen por el hiato esofágico (troncos vagales anterior y posterior)",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Músculos de la faringe y del paladar (salvo el tensor del velo del paladar), todos los músculos de la laringe (nervios laríngeos recurrente y superior); parasimpático: corazón, pulmones y tubo digestivo hasta los dos tercios del colon transverso",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Parte inferior de la laringe y la faringe, parte del conducto auditivo externo, sensibilidad visceral de los órganos torácicos y abdominales; gusto de la región de la epiglotis",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [
+    [
+     "Nervio laríngeo recurrente",
+     "Rodea por debajo la arteria subclavia a la derecha y el arco aórtico a la izquierda, asciende por el surco traqueoesofágico e inerva todos los músculos de la laringe salvo el cricotiroideo."
+    ]
+   ],
+   "clinical": [
+    "La lesión del nervio laríngeo recurrente (tiroidectomía, aneurisma aórtico, tumor pulmonar) produce disfonía; la bilateral produce dificultad respiratoria.",
+    "En una lesión del vago el velo del paladar es atraído y la úvula se desvía hacia el lado sano.",
+    "El síncope vasovagal es un desmayo por bradicardia e hipotensión debidas a una actividad vagal excesiva."
+   ],
+   "tus": [
+    "Las fibras vagales cardíacas actúan más sobre el nodo sinusal a la derecha y sobre el nodo auriculoventricular a la izquierda.",
+    "La rama auricular del vago (nervio de Arnold) inerva parte del conducto auditivo externo; al limpiar el oído puede desencadenarse un reflejo de tos."
+   ],
+   "related": [
+    "medulla-oblongata",
+    "larynx",
+    "cor",
+    "oesophagus",
+    "truncus-sympathicus"
+   ],
+   "models": [
+    "Vagus nerve (X)"
+   ],
+   "aliases": [
+    "vago",
+    "X par craneal",
+    "neumogástrico",
+    "recurrente"
+   ]
+  },
+  {
+   "id": "n-accessorius",
+   "tr": "Nervio accesorio (XI)",
+   "la": "N. accessorius (XI)",
+   "en": "Accessory nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El nervio craneal motor de los músculos esternocleidomastoideo y trapecio.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Sus raíces espinales proceden del asta anterior de los segmentos medulares C1–C5; entra en el cráneo por el agujero magno",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Sale por el agujero yugular, perfora el esternocleidomastoideo y cruza el triángulo posterior del cuello hasta el trapecio",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Esternocleidomastoideo, trapecio",
+     "Motor (eferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Por su trayecto superficial en el triángulo posterior puede lesionarse en una biopsia ganglionar; el hombro cae y la elevación del hombro es débil."
+   ],
+   "tus": [
+    "La raíz espinal del nervio accesorio nace del asta anterior de C1–C5, entra en el cráneo por el agujero magno y sale por el agujero yugular."
+   ],
+   "related": [
+    "m-sternocleidomastoideus",
+    "m-trapezius"
+   ],
+   "models": [
+    "Accessory nerve (XI)",
+    "Nucleus of accessory nerve"
+   ],
+   "aliases": [
+    "nervio accesorio",
+    "XI par craneal",
+    "nervio espinal"
+   ]
+  },
+  {
+   "id": "n-hypoglossus",
+   "tr": "Nervio hipogloso (XII)",
+   "la": "N. hypoglossus (XII)",
+   "en": "Hypoglossal nerve",
+   "group": "Nervios craneales",
+   "region": "head",
+   "summary": "El nervio motor de los músculos de la lengua.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Bulbo raquídeo (surco entre la pirámide y la oliva)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Sale por el conducto del hipogloso, cruza la arteria carótida externa y entra en la lengua por la cara externa del hiogloso",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Todos los músculos intrínsecos de la lengua y el geniogloso, el hiogloso y el estilogloso (pero no el palatogloso)",
+     "Motor (eferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En una lesión unilateral de motoneurona inferior, la lengua protruida se desvía hacia el lado paralizado, que muestra atrofia y fasciculaciones.",
+    "Puede lesionarse en la endarterectomía carotídea."
+   ],
+   "tus": [
+    "El hipogloso cruza por fuera las arterias carótidas externa e interna; puede lesionarse en la endarterectomía carotídea."
+   ],
+   "related": [
+    "mm-linguae",
+    "lingua",
+    "medulla-oblongata"
+   ],
+   "models": [
+    "Hypoglossal nerve (XII)",
+    "Nucleus of hypoglossal nerve"
+   ],
+   "aliases": [
+    "hipogloso",
+    "XII par craneal"
+   ]
+  },
+  {
+   "id": "plexus-brachialis",
+   "tr": "Plexo braquial",
+   "la": "Plexus brachialis",
+   "en": "Brachial plexus",
+   "group": "Nervios espinales y plexos",
+   "region": "upperLimb",
+   "summary": "La red nerviosa formada por los ramos anteriores de los nervios espinales C5–T1, que proporciona toda la inervación motora y sensitiva del miembro superior.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Ramos anteriores de C5, C6, C7, C8 y T1 (raíces)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Raíces → troncos (superior, medio, inferior; en el desfiladero de los escalenos) → divisiones (anteriores/posteriores; detrás de la clavícula) → fascículos (lateral, medial, posterior; alrededor de la arteria axilar) → ramas terminales",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Ramas terminales: nervios musculocutáneo, mediano, cubital, radial y axilar; además los nervios dorsal de la escápula, torácico largo, supraescapular, pectorales, subescapulares y toracodorsal",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Piel del miembro superior (nervios cutáneos mediales del brazo y del antebrazo, entre otros)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [
+    [
+     "Regla mnemotécnica",
+     "Raíces–Troncos–Divisiones–Fascículos–Ramas. Fascículo lateral: nervio musculocutáneo y raíz lateral del mediano; fascículo medial: nervio cubital y raíz medial del mediano; fascículo posterior: nervios axilar y radial."
+    ]
+   ],
+   "clinical": [
+    "Parálisis de Erb–Duchenne (tronco superior, C5–C6): por separación brusca de la cabeza y el hombro (parto, accidente de moto) – brazo colgando junto al cuerpo en rotación interna, antebrazo en pronación («posición de propina del camarero»).",
+    "Parálisis de Klumpke (tronco inferior, C8–T1): por tracción brusca del brazo hacia arriba – mano en garra, a veces con síndrome de Horner.",
+    "Los bloqueos del plexo braquial (interescalénico, supraclavicular, axilar) se usan en la cirugía del miembro superior."
+   ],
+   "tus": [
+    "Las raíces (C5–T1) y los troncos del plexo braquial están en el triángulo posterior del cuello; los fascículos, en la axila.",
+    "En la avulsión radicular, el síndrome de Horner (T1) y la afectación de los nervios dorsal de la escápula y torácico largo indican una lesión preganglionar."
+   ],
+   "related": [
+    "n-medianus",
+    "n-ulnaris",
+    "n-radialis",
+    "n-musculocutaneus",
+    "n-axillaris",
+    "mm-scaleni",
+    "a-axillaris"
+   ],
+   "models": [
+    "Brachial plexus",
+    "Long thoracic nerve",
+    "Dorsal scapular nerve",
+    "Suprascapular nerve",
+    "Thoracodorsal nerve",
+    "Lateral pectoral nerve",
+    "Medial pectoral nerve"
+   ],
+   "aliases": [
+    "plexo braquial",
+    "plexo"
+   ]
+  },
+  {
+   "id": "n-musculocutaneus",
+   "tr": "Nervio musculocutáneo",
+   "la": "N. musculocutaneus",
+   "en": "Musculocutaneous nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "upperLimb",
+   "summary": "El nervio de los músculos flexores del compartimento anterior del brazo, que además da sensibilidad a la piel de la cara lateral del antebrazo.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fascículo lateral (C5–C7)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Perfora el coracobraquial y desciende entre el bíceps y el braquial; en el codo continúa como nervio cutáneo lateral del antebrazo",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Coracobraquial, bíceps braquial, braquial",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Piel de la cara lateral del antebrazo",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Su lesión aislada es rara; la flexión del codo y la supinación se debilitan y se pierde el reflejo bicipital."
+   ],
+   "tus": [
+    "Tras una lesión del musculocutáneo la flexión del codo se conserva en parte gracias al braquiorradial; se pierde el reflejo bicipital y la sensibilidad de la cara lateral del antebrazo."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-biceps-brachii",
+    "m-brachialis"
+   ],
+   "models": [
+    "Musculocutaneous nerve",
+    "Lateral antebrachial cutaneous nerve"
+   ],
+   "aliases": [
+    "musculocutáneo"
+   ]
+  },
+  {
+   "id": "n-axillaris",
+   "tr": "Nervio axilar",
+   "la": "N. axillaris",
+   "en": "Axillary nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "upperLimb",
+   "summary": "El nervio de los músculos deltoides y redondo menor, que además da sensibilidad a la cara externa del hombro.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fascículo posterior (C5–C6)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Pasa por el espacio cuadrangular con la arteria circunfleja humeral posterior y rodea el cuello quirúrgico del húmero",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Deltoides, redondo menor",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Piel de la cara externa del hombro (nervio cutáneo lateral superior del brazo – zona del «galón»)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Se lesiona en las fracturas del cuello quirúrgico del húmero y en las luxaciones del hombro: la abducción del brazo es débil, el deltoides se atrofia y se pierde la sensibilidad en la cara externa del hombro."
+   ],
+   "tus": [
+    "La rama sensitiva del nervio axilar es el nervio cutáneo lateral superior del brazo (zona del «galón»)."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-deltoideus",
+    "m-teres-minor",
+    "humerus"
+   ],
+   "models": [
+    "Axillary nerve"
+   ],
+   "aliases": [
+    "nervio axilar",
+    "nervio circunflejo"
+   ]
+  },
+  {
+   "id": "n-radialis",
+   "tr": "Nervio radial",
+   "la": "N. radialis",
+   "en": "Radial nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "upperLimb",
+   "summary": "La rama más grande del plexo braquial, que inerva todos los músculos extensores de los compartimentos posteriores del brazo y del antebrazo.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fascículo posterior (C5–T1)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Rodea en espiral la cara posterior del húmero por el surco del nervio radial con la arteria braquial profunda; delante del codo se divide en una rama superficial (sensitiva) y otra profunda (motora; nervio interóseo posterior)",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Tríceps braquial, ancóneo, braquiorradial, extensores de la muñeca y los dedos, supinador, músculos largos del pulgar",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Cara posterior del brazo y del antebrazo, mitad lateral (radial) del dorso de la mano (primer espacio interdigital)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Una fractura de la diáfisis humeral o una presión prolongada sobre el brazo («parálisis del sábado por la noche») produce mano caída.",
+    "La lesión del nervio interóseo posterior produce caída de los dedos sin pérdida sensitiva.",
+    "El mal uso de las muletas puede comprimir el nervio en la axila."
+   ],
+   "tus": [
+    "El nervio radial inerva todos los extensores del brazo y el antebrazo; su rama superficial recoge la sensibilidad de la mitad lateral del dorso de la mano.",
+    "Parálisis del sábado por la noche: compresión en el surco radial por apoyar el brazo mucho tiempo sobre el borde de una silla."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-triceps-brachii",
+    "humerus",
+    "m-extensor-digitorum",
+    "m-supinator"
+   ],
+   "models": [
+    "Radial nerve"
+   ],
+   "aliases": [
+    "nervio radial"
+   ]
+  },
+  {
+   "id": "n-medianus",
+   "tr": "Nervio mediano",
+   "la": "N. medianus",
+   "en": "Median nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "upperLimb",
+   "summary": "El nervio de la mayoría de los flexores del antebrazo y de los músculos tenares, y el único que pasa por el túnel carpiano. Se le llama «el ojo de la mano» porque es esencial para los movimientos finos de los dedos y la sensibilidad de las yemas.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Dos raíces de los fascículos lateral y medial (C5–T1)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "En el brazo desciende junto a la arteria braquial y en la fosa del codo queda medial a ella; pasa entre las dos cabezas del pronador redondo, desciende entre FDS y FDP y entra en la mano por el túnel carpiano",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Flexores del antebrazo (salvo FCU y la mitad medial del FDP), pronadores redondo y cuadrado; en la mano: 1.º–2.º lumbricales, oponente del pulgar, abductor corto del pulgar, flexor corto del pulgar",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Mitad lateral de la palma, cara palmar del pulgar, índice, medio y mitad lateral del anular, y dorso de sus puntas",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El síndrome del túnel carpiano es la neuropatía por atrapamiento más frecuente: entumecimiento que empeora por la noche, signos de Tinel y Phalen positivos y atrofia tenar en fases avanzadas.",
+    "Una lesión por encima del codo produce la «mano de bendición» (no pueden flexionarse el índice y el medio).",
+    "Puede lesionarse en los cortes de la muñeca (intentos de suicidio) por su posición superficial."
+   ],
+   "tus": [
+    "El mediano es el nervio «de la mano y el ojo»: músculos tenares, 1.º–2.º lumbricales y sensibilidad palmar de los tres dedos y medio laterales.",
+    "Su lesión en el codo produce la «mano de bendición» (no se flexionan el índice ni el medio)."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "ossa-carpi",
+    "mm-thenares",
+    "m-flexor-digitorum-superficialis",
+    "m-pronator-teres"
+   ],
+   "models": [
+    "Median nerve",
+    "Anterior interosseous nerve of forearm"
+   ],
+   "aliases": [
+    "nervio mediano",
+    "túnel carpiano"
+   ]
+  },
+  {
+   "id": "n-ulnaris",
+   "tr": "Nervio cubital (ulnar)",
+   "la": "N. ulnaris",
+   "en": "Ulnar nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "upperLimb",
+   "summary": "El nervio que inerva la mayoría de los músculos intrínsecos de la mano y da sensibilidad al lado medial (del meñique) de la mano. Como en el codo está bajo la piel, un golpe allí produce la sensación del «hueso de la risa».",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Fascículo medial (C8–T1)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Desciende por la cara medial del brazo, pasa por el canal detrás del epicóndilo medial, entra en el antebrazo entre las dos cabezas del FCU y llega a la mano por el canal de Guyon en la muñeca",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Flexor cubital del carpo, mitad medial del FDP; en la mano músculos hipotenares, 3.º–4.º lumbricales, todos los interóseos, aductor del pulgar, cabeza profunda del flexor corto del pulgar",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Lado medial (cubital) de la mano: meñique y mitad medial del anular",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Puede atraparse en el codo (túnel cubital) o en la muñeca (canal de Guyon).",
+    "Su lesión produce mano en garra (4.º–5.º dedos), atrofia de los interóseos y signo de Froment.",
+    "Puede lesionarse en las fracturas del epicóndilo medial."
+   ],
+   "tus": [
+    "El cubital es el nervio de los movimientos finos de la mano: músculos hipotenares, interóseos, 3.º–4.º lumbricales, aductor del pulgar.",
+    "Recoge la sensibilidad palmar y dorsal del dedo y medio medial."
+   ],
+   "related": [
+    "plexus-brachialis",
+    "m-flexor-carpi-ulnaris",
+    "mm-interossei-manus",
+    "mm-hypothenares",
+    "os-pisiforme"
+   ],
+   "models": [
+    "Ulnar nerve"
+   ],
+   "aliases": [
+    "nervio cubital",
+    "nervio ulnar"
+   ]
+  },
+  {
+   "id": "n-phrenicus",
+   "tr": "Nervio frénico",
+   "la": "N. phrenicus",
+   "en": "Phrenic nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "thorax",
+   "summary": "El único nervio motor del diafragma. Desciende desde el cuello a través del tórax hasta el diafragma y lleva la sensibilidad del pericardio, la pleura mediastínica y la pleura y el peritoneo diafragmáticos.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexo cervical – C3, C4, C5 (sobre todo C4)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Desciende por delante del escaleno anterior, entra en el tórax entre la arteria y la vena subclavias y baja por el lado del pericardio, por delante del hilio pulmonar, hasta el diafragma",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Diafragma",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Pericardio, pleuras mediastínica y diafragmática, peritoneo diafragmático (parte central)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La irritación subdiafragmática (vesícula biliar, bazo) produce dolor referido a los dermatomas C3–C5, es decir, al hombro.",
+    "Tras su lesión el hemidiafragma del mismo lado se eleva y se mueve de forma paradójica."
+   ],
+   "tus": [
+    "El frénico derecho desciende junto a la vena cava superior y la aurícula derecha; el izquierdo, sobre el pericardio del ventrículo izquierdo.",
+    "Un nervio frénico accesorio (casi siempre del nervio del subclavio) puede mantener en parte la función diafragmática tras una lesión del frénico."
+   ],
+   "related": [
+    "diaphragma",
+    "mm-scaleni",
+    "cor"
+   ],
+   "models": [
+    "Phrenic nerve"
+   ],
+   "aliases": [
+    "frénico"
+   ]
+  },
+  {
+   "id": "n-intercostales",
+   "tr": "Nervios intercostales",
+   "la": "Nn. intercostales",
+   "en": "Intercostal nerves",
+   "group": "Nervios espinales y plexos",
+   "region": "thorax",
+   "summary": "Los ramos anteriores de los nervios espinales T1–T11; inervan los músculos y la piel del tórax y de la pared abdominal. El ramo anterior de T12 se llama nervio subcostal.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Ramos anteriores de los nervios espinales T1–T11",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Discurren por el surco costal del borde inferior de cada costilla, por debajo de la arteria y la vena intercostales (VAN); los seis inferiores continúan en la pared abdominal",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Músculos intercostales, músculos de la pared abdominal anterior (T7–T12), serrato posterior",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Piel del tórax y de la pared abdominal (dermatomas: T4 pezón, T10 ombligo)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "El herpes zóster produce una erupción dolorosa en banda a lo largo de un nervio intercostal.",
+    "En las fracturas costales el bloqueo intercostal alivia el dolor."
+   ],
+   "tus": [
+    "La mayor parte del primer nervio intercostal se une al plexo braquial; el segundo da el nervio intercostobraquial (cara medial del brazo).",
+    "Los nervios intercostales 7–11 inervan la pared abdominal (nervios toracoabdominales)."
+   ],
+   "related": [
+    "mm-intercostales",
+    "costae",
+    "medulla-spinalis"
+   ],
+   "models": [
+    "Intercostal nerves",
+    "Thoracic nerves"
+   ],
+   "aliases": [
+    "nervio intercostal"
+   ]
+  },
+  {
+   "id": "plexus-lumbalis",
+   "tr": "Plexo lumbar",
+   "la": "Plexus lumbalis",
+   "en": "Lumbar plexus",
+   "group": "Nervios espinales y plexos",
+   "region": "abdomen",
+   "summary": "La red nerviosa formada dentro del psoas mayor por los ramos anteriores de los nervios espinales L1–L4; inerva la parte baja de la pared abdominal, la ingle y las caras anterior y medial del muslo.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "T12 (contribución), ramos anteriores de L1–L4",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Se forma dentro del psoas mayor; sus ramas salen por el borde lateral del músculo (iliohipogástrico, ilioinguinal, cutáneo femoral lateral, femoral), por su cara anterior (genitofemoral) y por su borde medial (obturador)",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Nervio femoral (músculos anteriores del muslo), nervio obturador (aductores), nervios iliohipogástrico e ilioinguinal (pared abdominal baja)",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Ingle, parte anterior de la región genital, caras anterior, medial y lateral del muslo",
+     "Sensitivo (aferente)"
+    ],
+    [
+     "Dalları",
+     "Iliohipogástrico (L1), ilioinguinal (L1), genitofemoral (L1–L2), cutáneo femoral lateral (L2–L3), femoral (L2–L4), obturador (L2–L4)",
+     "Ramas"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Si se lesiona el nervio ilioinguinal en la cirugía de una hernia inguinal, se adormece la ingle y el escroto/labio mayor.",
+    "El reflejo cremastérico explora los segmentos L1–L2 (nervio genitofemoral)."
+   ],
+   "tus": [
+    "El plexo lumbar se forma dentro del psoas mayor; sus ramas salen por el borde lateral (femoral, cutáneo femoral lateral), el borde medial (obturador) y la cara anterior (genitofemoral)."
+   ],
+   "related": [
+    "n-femoralis",
+    "n-obturatorius",
+    "m-iliopsoas",
+    "plexus-sacralis"
+   ],
+   "models": [
+    "Lumbar plexus",
+    "Iliohypogastric nerve",
+    "Ilio-inguinal nerve",
+    "Genitofemoral nerve",
+    "Lateral femoral cutaneous nerve"
+   ],
+   "aliases": [
+    "plexo lumbar"
+   ]
+  },
+  {
+   "id": "n-femoralis",
+   "tr": "Nervio femoral",
+   "la": "N. femoralis",
+   "en": "Femoral nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "lowerLimb",
+   "summary": "La rama más grande del plexo lumbar; inerva los músculos del compartimento anterior del muslo (cuádriceps) y da sensibilidad a la cara anterior del muslo y a la cara medial de la pierna.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexo lumbar (divisiones posteriores de L2–L4)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Desciende por el surco entre el psoas y el ilíaco, pasa bajo el ligamento inguinal (laguna muscular) al triángulo femoral y se divide enseguida en sus ramas; su larga rama sensitiva, el nervio safeno, baja por la cara medial de la pierna con la vena safena mayor",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Ilíaco, pectíneo, sartorio, cuádriceps femoral",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Cara anterior del muslo; por el nervio safeno, borde medial de la pierna y del pie",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Tras su lesión se pierde la extensión de la rodilla y el reflejo rotuliano, y se adormece la cara anterior del muslo.",
+    "El bloqueo del nervio femoral se usa para la analgesia en la cirugía de cadera y rodilla."
+   ],
+   "tus": [
+    "El nervio femoral entra en el muslo por la laguna muscular, lateral a los vasos; queda fuera de la vaina femoral."
+   ],
+   "related": [
+    "plexus-lumbalis",
+    "m-quadriceps-femoris",
+    "m-sartorius",
+    "lig-inguinale",
+    "a-femoralis"
+   ],
+   "models": [
+    "Femoral nerve",
+    "Saphenous nerve"
+   ],
+   "aliases": [
+    "nervio femoral",
+    "nervio crural",
+    "nervio safeno"
+   ]
+  },
+  {
+   "id": "n-obturatorius",
+   "tr": "Nervio obturador",
+   "la": "N. obturatorius",
+   "en": "Obturator nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "lowerLimb",
+   "summary": "El nervio de los músculos del compartimento medial (aductor) del muslo.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexo lumbar (divisiones anteriores de L2–L4)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Sale por el borde medial del psoas, desciende por la pared lateral de la pelvis y pasa por el conducto obturador al muslo, donde se divide en ramas anterior y posterior",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Aductores largo, corto y mayor (porción aductora), grácil, obturador externo",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Parte media de la cara medial del muslo",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La cirugía pélvica o una hernia obturatriz pueden comprimir el nervio y causar dolor en la cara medial del muslo (signo de Howship–Romberg)."
+   ],
+   "tus": [
+    "El ovario, en la fosa ovárica de la pared lateral de la pelvis, está junto al nervio obturador, lo que explica el dolor referido a la cara medial del muslo en la patología ovárica."
+   ],
+   "related": [
+    "plexus-lumbalis",
+    "mm-adductores",
+    "m-gracilis"
+   ],
+   "models": [
+    "Obturator nerve"
+   ],
+   "aliases": [
+    "obturador"
+   ]
+  },
+  {
+   "id": "plexus-sacralis",
+   "tr": "Plexo sacro",
+   "la": "Plexus sacralis",
+   "en": "Sacral plexus",
+   "group": "Nervios espinales y plexos",
+   "region": "pelvis",
+   "summary": "La red nerviosa formada en la pared posterior de la pelvis (delante del piriforme) por los ramos anteriores de L4–S4; inerva la nalga, la cara posterior del muslo, la pierna, el pie y el periné.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Tronco lumbosacro (L4–L5) y ramos anteriores de S1–S4",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Se forma en la cara anterior del piriforme; la mayoría de las ramas salen de la pelvis por el agujero ciático mayor",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Nervio ciático, nervios glúteos superior e inferior, nervio pudendo, nervios del piriforme, del obturador interno y del cuadrado femoral",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Nervio cutáneo femoral posterior (cara posterior del muslo), nervio pudendo (periné)",
+     "Sensitivo (aferente)"
+    ],
+    [
+     "Dalları",
+     "Glúteo superior (L4–S1), glúteo inferior (L5–S2), ciático (L4–S3), cutáneo femoral posterior (S1–S3), pudendo (S2–S4)",
+     "Ramas"
+    ]
+   ],
+   "sections": [],
+   "clinical": [],
+   "tus": [
+    "El plexo sacro se forma en la cara anterior del piriforme a partir de los ramos ventrales de L4–S4 (incluido el tronco lumbosacro)."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "n-pudendus",
+    "mm-rotatores-coxae",
+    "plexus-lumbalis"
+   ],
+   "models": [
+    "Sacral plexus",
+    "Lumbosacral plexus",
+    "Superior gluteal nerve",
+    "Posterior femoral cutaneous nerve",
+    "Nerve to piriformis muscle",
+    "Nerve to quadratus femoris muscle"
+   ],
+   "aliases": [
+    "plexo sacro"
+   ]
+  },
+  {
+   "id": "n-ischiadicus",
+   "tr": "Nervio ciático",
+   "la": "N. ischiadicus",
+   "en": "Sciatic nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "lowerLimb",
+   "summary": "El nervio más grueso y más largo del cuerpo. Inerva los músculos de la cara posterior del muslo y todos los músculos situados por debajo de la rodilla.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexo sacro (L4–S3)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Sale por el agujero ciático mayor bajo el piriforme y desciende bajo el glúteo mayor entre el trocánter mayor y la tuberosidad isquiática; recorre la cara posterior del muslo bajo los isquiotibiales y por lo general se divide por encima de la fosa poplítea en los nervios tibial y peroneo común",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Isquiotibiales (bíceps femoral, semitendinoso, semimembranoso), porción isquiotibial del aductor mayor; a través de sus ramas, todos los músculos de la pierna y el pie",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "A través de sus ramas, la mayor parte de la piel de la pierna y el pie (salvo el borde medial – nervio safeno)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Ciática: dolor que se irradia desde la nalga hacia la pierna, casi siempre por una hernia discal L4–L5 o L5–S1; la elevación de la pierna recta (Lasègue) es positiva.",
+    "Las inyecciones mal colocadas en el cuadrante inferomedial de la nalga pueden dañar el nervio.",
+    "Puede lesionarse en la luxación posterior de cadera."
+   ],
+   "tus": [
+    "El nervio ciático son en realidad dos nervios en una vaina común: porciones tibial y peronea.",
+    "En la lesión del ciático se afectan la flexión de la rodilla y todos los músculos por debajo de ella; se conserva la sensibilidad de la cara medial del muslo (obturador) y de la pierna (safeno)."
+   ],
+   "related": [
+    "plexus-sacralis",
+    "n-tibialis",
+    "n-fibularis-communis",
+    "mm-ischiocrurales",
+    "mm-rotatores-coxae"
+   ],
+   "models": [
+    "Sciatic nerve"
+   ],
+   "aliases": [
+    "ciático"
+   ]
+  },
+  {
+   "id": "n-tibialis",
+   "tr": "Nervio tibial",
+   "la": "N. tibialis",
+   "en": "Tibial nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "lowerLimb",
+   "summary": "La rama terminal mayor del nervio ciático; inerva los músculos del compartimento posterior de la pierna y todos los músculos de la planta del pie.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Nervio ciático (L4–S3)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Desciende por el centro de la fosa poplítea, superficial a la arteria poplítea, pasa bajo el sóleo a la cara posterior de la pierna y se divide detrás del maléolo medial (túnel tarsiano) en los nervios plantares medial y lateral",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Gastrocnemio, sóleo, plantar, poplíteo, tibial posterior, flexor largo de los dedos, flexor largo del dedo gordo; por los nervios plantares, todos los músculos de la planta",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "El nervio sural (junto con el peroneo) inerva la cara posterolateral de la pierna y el borde lateral del pie; los nervios plantares, la planta",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En el síndrome del túnel tarsiano la planta del pie arde y está entumecida.",
+    "Tras su lesión se pierden la flexión plantar y la flexión de los dedos y el paciente no puede ponerse de puntillas; el pie queda en dorsiflexión y eversión (pie talo valgo).",
+    "El reflejo aquíleo (S1) discurre por este nervio."
+   ],
+   "tus": [
+    "El nervio tibial es superficial en la fosa poplítea; da la raíz medial del nervio sural."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "m-triceps-surae",
+    "m-tibialis-posterior",
+    "mm-plantares"
+   ],
+   "models": [
+    "Tibial nerve",
+    "Medial plantar nerve",
+    "Lateral plantar nerve",
+    "Sural nerve",
+    "Medial sural cutaneous nerve"
+   ],
+   "aliases": [
+    "nervio tibial",
+    "nervio plantar",
+    "nervio sural"
+   ]
+  },
+  {
+   "id": "n-fibularis-communis",
+   "tr": "Nervio peroneo común (fibular común)",
+   "la": "N. fibularis (peroneus) communis",
+   "en": "Common fibular nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "lowerLimb",
+   "summary": "La rama terminal menor del nervio ciático; inerva los músculos de los compartimentos anterior y lateral de la pierna. Como rodea el cuello del peroné de forma superficial bajo la piel, es el nervio del miembro inferior que se lesiona con más frecuencia.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Nervio ciático (L4–S2)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Sigue el tendón del bíceps femoral por el borde lateral de la fosa poplítea, rodea el cuello del peroné y se divide dentro del peroneo largo en los nervios peroneos superficial y profundo",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Nervio peroneo superficial: peroneos largo y corto; nervio peroneo profundo: tibial anterior, extensor largo de los dedos, extensor largo del dedo gordo, peroneo tercero, músculos del dorso del pie",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Nervio peroneo superficial: cara anterolateral de la pierna y la mayor parte del dorso del pie; nervio peroneo profundo: piel entre el 1.º y el 2.º dedo",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "Una fractura de la cabeza del peroné, una escayola apretada, cruzar las piernas o estar mucho tiempo en cuclillas producen pie caído: no se puede hacer la dorsiflexión ni la eversión del pie y aparece la marcha en estepaje."
+   ],
+   "tus": [
+    "El nervio peroneo común es el nervio del miembro inferior que más se lesiona (cuello del peroné).",
+    "El hábito de cruzar las piernas y las escayolas apretadas son causas frecuentes de parálisis peronea."
+   ],
+   "related": [
+    "n-ischiadicus",
+    "fibula",
+    "m-tibialis-anterior",
+    "m-fibularis-longus"
+   ],
+   "models": [
+    "Common fibular nerve",
+    "Superficial fibular nerve",
+    "Deep fibular nerve"
+   ],
+   "aliases": [
+    "nervio peroneo",
+    "nervio fibular",
+    "pie caído"
+   ]
+  },
+  {
+   "id": "n-pudendus",
+   "tr": "Nervio pudendo",
+   "la": "N. pudendus",
+   "en": "Pudendal nerve",
+   "group": "Nervios espinales y plexos",
+   "region": "pelvis",
+   "summary": "El nervio principal del periné; da sensibilidad a la piel de los genitales externos y del periné y fibras motoras a los músculos perineales y a los esfínteres externos.",
+   "facts": [
+    [
+     "Çıkış / köken",
+     "Plexo sacro (S2–S4)",
+     "Origen / emergencia"
+    ],
+    [
+     "Seyir",
+     "Sale por el agujero ciático mayor, rodea la espina isquiática (ligamento sacroespinoso) y entra en el periné por el agujero ciático menor; recorre el conducto pudendo (de Alcock)",
+     "Trayecto"
+    ],
+    [
+     "Motor (efferent)",
+     "Esfínter externo del ano, esfínter externo de la uretra, músculos perineales",
+     "Motor (eferente)"
+    ],
+    [
+     "Duyusal (afferent)",
+     "Piel del periné, genitales externos (nervio dorsal del pene/del clítoris)",
+     "Sensitivo (aferente)"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "En el parto, antes de una episiotomía se realiza un bloqueo pudendo cerca de la espina isquiática.",
+    "Montar en bicicleta muchas horas puede comprimir el nervio pudendo (neuralgia del pudendo)."
+   ],
+   "tus": [
+    "El nervio pudendo nace de S2–S4 y da el nervio rectal inferior, el nervio perineal y el nervio dorsal del pene/del clítoris.",
+    "En los ciclistas la compresión del pudendo en el conducto de Alcock puede causar entumecimiento perineal."
+   ],
+   "related": [
+    "plexus-sacralis",
+    "diaphragma-pelvis",
+    "ligg-pelvis"
+   ],
+   "models": [
+    "Pudendal nerve"
+   ],
+   "aliases": [
+    "pudendo"
+   ]
+  },
+  {
+   "id": "truncus-sympathicus",
+   "tr": "Tronco simpático",
+   "la": "Truncus sympathicus",
+   "en": "Sympathetic trunk",
+   "group": "Sistema nervioso autónomo",
+   "region": "back",
+   "summary": "Cadena de ganglios simpáticos unidos entre sí a cada lado de la columna vertebral, desde la base del cráneo hasta el cóccix. Es la principal estructura de distribución del sistema nervioso simpático, que produce la respuesta de «lucha o huida».",
+   "facts": [
+    [
+     "Ganglionlar",
+     "3 cervicales (superior, medio, cervicotorácico/estrellado), 11–12 torácicos, 4–5 lumbares, 4–5 sacros; abajo, el ganglio impar",
+     "Ganglios"
+    ],
+    [
+     "Preganglionik lifler",
+     "Del asta lateral de los segmentos medulares T1–L2 (salida toracolumbar); entran en la cadena por los ramos comunicantes blancos",
+     "Fibras preganglionares"
+    ],
+    [
+     "Postganglionik lifler",
+     "Se unen a todos los nervios espinales por los ramos comunicantes grises; otras ramas van a la cabeza, el corazón y los pulmones",
+     "Fibras posganglionares"
+    ],
+    [
+     "Splanknik sinirler",
+     "Nervios esplácnicos mayor (T5–T9), menor (T10–T11) e imo (T12): a los ganglios prevertebrales (celíaco, mesentéricos)",
+     "Nervios esplácnicos"
+    ]
+   ],
+   "sections": [
+    [
+     "Efectos simpáticos",
+     "La pupila se dilata, la frecuencia y la contractilidad cardíacas aumentan, los bronquios se dilatan, la digestión se enlentece, se estimulan las glándulas sudoríparas y la médula suprarrenal, y se contraen los vasos de la piel y las vísceras."
+    ]
+   ],
+   "clinical": [
+    "Síndrome de Horner (lesión de la cadena simpática cervical – por ejemplo un tumor de Pancoast): ptosis, miosis y anhidrosis del mismo lado.",
+    "El bloqueo del ganglio estrellado puede usarse en los síndromes dolorosos del brazo."
+   ],
+   "tus": [
+    "La cadena simpática cervical tiene tres ganglios: superior (altura de C1–C4, el mayor), medio (C6) e inferior (fusionado en el ganglio estrellado).",
+    "La simpatectomía para la sudoración de las manos (hiperhidrosis) se realiza a nivel T2–T3."
+   ],
+   "related": [
+    "systema-autonomicum",
+    "medulla-spinalis",
+    "n-vagus"
+   ],
+   "models": [
+    "Sympathetic trunk",
+    "Ganglia of sympathetic trunk",
+    "Sympathetic nerves",
+    "Thoracolumbar part of autonomic division"
+   ],
+   "aliases": [
+    "simpático",
+    "cadena simpática"
+   ]
+  },
+  {
+   "id": "systema-autonomicum",
+   "tr": "Sistema nervioso autónomo",
+   "la": "Pars autonomica systematis nervosi",
+   "en": "Autonomic nervous system",
+   "group": "Sistema nervioso autónomo",
+   "region": "general",
+   "summary": "La parte del sistema nervioso que regula las funciones involuntarias de los órganos, los vasos y las glándulas. Consta de las divisiones simpática y parasimpática, de efectos casi siempre opuestos, y del sistema nervioso entérico de la pared intestinal.",
+   "facts": [
+    [
+     "Sempatik bölüm",
+     "Salida toracolumbar (T1–L2); fibras preganglionares cortas y posganglionares largas; neurotransmisor habitual la noradrenalina",
+     "División simpática"
+    ],
+    [
+     "Parasempatik bölüm",
+     "Salida craneosacra (nervios craneales III, VII, IX, X y S2–S4); fibras preganglionares largas y posganglionares cortas; neurotransmisor la acetilcolina",
+     "División parasimpática"
+    ],
+    [
+     "Parasempatik ganglionlar (baş)",
+     "Ganglio ciliar (III), ganglios pterigopalatino y submandibular (VII), ganglio ótico (IX)",
+     "Ganglios parasimpáticos (cabeza)"
+    ],
+    [
+     "Enterik sinir sistemi",
+     "Plexos mientérico (de Auerbach) y submucoso (de Meissner)",
+     "Sistema nervioso entérico"
+    ],
+    [
+     "Merkezi kontrol",
+     "Hipotálamo, centros autonómicos del tronco del encéfalo",
+     "Control central"
+    ]
+   ],
+   "sections": [
+    [
+     "Efectos parasimpáticos",
+     "«Reposo y digestión»: el corazón se enlentece, la pupila se contrae, aumentan la saliva y las secreciones digestivas, se aceleran los movimientos intestinales y la vejiga se contrae."
+    ]
+   ],
+   "clinical": [
+    "La neuropatía autonómica diabética produce hipotensión ortostática, gastroparesia y disfunción vesical.",
+    "En la enfermedad de Hirschsprung faltan las células ganglionares entéricas en la pared del colon."
+   ],
+   "tus": [
+    "Los ganglios parasimpáticos están cerca del órgano diana o en su pared; los simpáticos, junto a la columna (fibras preganglionares cortas).",
+    "Todas las fibras preganglionares liberan acetilcolina (receptores nicotínicos)."
+   ],
+   "related": [
+    "truncus-sympathicus",
+    "n-vagus",
+    "hypothalamus",
+    "glandula-suprarenalis"
+   ],
+   "models": [
+    "Autonomic division of peripheral nervous system"
+   ],
+   "aliases": [
+    "autónomo",
+    "parasimpático",
+    "sistema nervioso vegetativo"
+   ]
+  },
+  {
+   "id": "ganglion-spinale",
+   "tr": "Nervio espinal y ganglio espinal",
+   "la": "Nervus spinalis et ganglion sensorium",
+   "en": "Spinal nerve and ganglion",
+   "group": "Nervios espinales y plexos",
+   "region": "back",
+   "summary": "Nervios mixtos formados por la unión, en el agujero intervertebral, de las raíces anterior (motora) y posterior (sensitiva) de la médula. El ganglio de la raíz posterior contiene los cuerpos de las neuronas sensitivas.",
+   "facts": [
+    [
+     "Sayı",
+     "31 pares: 8 cervicales, 12 torácicos, 5 lumbares, 5 sacros, 1 coccígeo",
+     "Número"
+    ],
+    [
+     "Kökler",
+     "Raíz anterior (motora, asta anterior) y raíz posterior (sensitiva; ganglio espinal)",
+     "Raíces"
+    ],
+    [
+     "Dallar",
+     "Ramo anterior (forma los plexos y los nervios intercostales), ramo posterior (músculos profundos y piel de la espalda), ramo meníngeo, ramos comunicantes",
+     "Ramas"
+    ],
+    [
+     "Dermatom",
+     "El área de piel inervada por un nervio espinal (por ejemplo C6 pulgar, T4 pezón, T10 ombligo, L4 cara anterior de la rodilla, S1 borde lateral del pie)",
+     "Dermatoma"
+    ]
+   ],
+   "sections": [],
+   "clinical": [
+    "La radiculopatía es dolor y entumecimiento en un dermatoma, debilidad en un miotoma y pérdida de un reflejo por la compresión de una sola raíz nerviosa."
+   ],
+   "tus": [
+    "El ganglio de la raíz dorsal está dentro del agujero intervertebral; puede afectarse por una hernia discal o una estenosis foraminal."
+   ],
+   "related": [
+    "medulla-spinalis",
+    "plexus-brachialis",
+    "plexus-lumbalis",
+    "discus-intervertebralis"
+   ],
+   "models": [
+    "Spinal ganglion",
+    "Anterior root of spinal nerve",
+    "Posterior root of spinal nerve",
+    "Roots of nerves"
+   ],
+   "aliases": [
+    "nervio espinal",
+    "dermatoma",
+    "ganglio de la raíz dorsal"
+   ]
+  }
+ ]
+}
