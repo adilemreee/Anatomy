@@ -114,7 +114,8 @@ final class SpecimenScene: ViewportScene {
     private(set) var highlightedFeature: Int?
 
     @ObservationIgnored let root = Entity()
-    @ObservationIgnored private let camera = Entity()
+    @ObservationIgnored let camera = Entity()
+    @ObservationIgnored let renderSchedule = RenderSchedule()
     @ObservationIgnored private var features: [FeatureLibrary.Feature] = []
     @ObservationIgnored private var positions: [SIMD3<Float>] = []
     @ObservationIgnored private var indices: [UInt32] = []
@@ -342,6 +343,7 @@ final class SpecimenScene: ViewportScene {
             root.addChild(ibl)
             entity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
             ghost?.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
+            renderSchedule.setNeedsDisplay()
         }
 
         // Light meshes get two levels of curved subdivision, dense ones one;
@@ -355,6 +357,7 @@ final class SpecimenScene: ViewportScene {
         guard !Task.isCancelled, smoothIndices.count > drawIndices.count,
               let smooth = try? await Self.meshResource(vertices: smoothVertices, indices: smoothIndices, bounds: box) else { return }
         entity.model?.mesh = smooth
+        renderSchedule.setNeedsDisplay()
         // Every triangle became `factor` consecutive ones: scale the ranges.
         let factor = smoothIndices.count / drawIndices.count
         displayRanges = displayRanges.mapValues { $0.lowerBound * factor..<$0.upperBound * factor }
@@ -413,6 +416,7 @@ final class SpecimenScene: ViewportScene {
         guard let index, features.indices.contains(index), !displayIndices.isEmpty else {
             spot?.removeFromParent()
             spot = nil
+            renderSchedule.setNeedsDisplay()
             return
         }
         let feature = features[index]
@@ -448,6 +452,8 @@ final class SpecimenScene: ViewportScene {
             self.spot?.removeFromParent()
             self.root.addChild(entity)
             self.spot = entity
+            // The patch pulses a few times, then holds still.
+            self.renderSchedule.setNeedsDisplay(for: 4)
         }
     }
 
@@ -637,6 +643,7 @@ final class SpecimenScene: ViewportScene {
     private func applyCamera() {
         let offset = SIMD3<Float>(sin(yaw) * cos(pitch), sin(pitch), cos(yaw) * cos(pitch)) * distance
         camera.look(at: target, from: target + offset, relativeTo: nil)
+        renderSchedule.setNeedsDisplay()
     }
 
     /// The feature nearest a tap on the model (nil for empty space), and a

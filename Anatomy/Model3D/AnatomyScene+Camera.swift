@@ -142,6 +142,7 @@ extension AnatomyScene {
             cos(yaw) * cos(pitch)
         ) * distance
         camera.look(at: target, from: target + offset, relativeTo: nil)
+        renderSchedule.setNeedsDisplay()
         updateDetail()
     }
 
@@ -194,7 +195,10 @@ extension AnatomyScene {
 
         // The finest levels within `tolerance` pixels of error; when that is more
         // than this device draws smoothly, the tolerance grows until it fits.
-        let budget = isCameraMoving ? Self.triangleBudget * 7 / 10 : Self.triangleBudget
+        // A phone that is already hot draws less while the camera moves;
+        // at rest it keeps its full detail.
+        let hot = ProcessInfo.processInfo.thermalState.rawValue >= ProcessInfo.ThermalState.serious.rawValue
+        let budget = isCameraMoving ? Self.triangleBudget * (hot ? 4 : 7) / 10 : Self.triangleBudget
         var tolerance: Float = isCameraMoving ? 3.5 : 1.6
         var chosen: [String: [UInt8]] = [:]
         for attempt in 0..<6 {

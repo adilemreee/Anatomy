@@ -127,6 +127,7 @@ final class AnatomyScene {
 
     @ObservationIgnored let root = Entity()
     @ObservationIgnored let camera = Entity()
+    @ObservationIgnored let renderSchedule = RenderSchedule()
     @ObservationIgnored private let modelRoot = Entity()
     @ObservationIgnored private var iblEntity: Entity?
     @ObservationIgnored private var shadow: Entity?
@@ -378,9 +379,11 @@ final class AnatomyScene {
             for system in self.systems.values {
                 system.entity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
             }
+            self.renderSchedule.setNeedsDisplay()
             if let shadow = await AnatomyMaterials.contactShadow() {
                 self.shadow = shadow
                 self.modelRoot.addChild(shadow)
+                self.renderSchedule.setNeedsDisplay()
             }
         }
     }
@@ -468,6 +471,9 @@ final class AnatomyScene {
         guard let system = systems[layer] else { return }
         system.mesh.parts.replaceAll(parts(for: system))
         system.entity.isEnabled = enabledLayers.contains(layer)
+        // Selected and highlighted parts pulse a few times, then hold still.
+        let pulsing = selectedGroup.contains { $0.system == layer } || highlighted.contains { $0.system == layer }
+        renderSchedule.setNeedsDisplay(for: pulsing ? 4 : 0.4)
     }
 
     func refreshAll() {
@@ -482,6 +488,7 @@ final class AnatomyScene {
                 for system in systems.values {
                     system.entity.model?.materials = set
                 }
+                renderSchedule.setNeedsDisplay()
             }
         }
         for layer in systems.keys { refresh(layer) }

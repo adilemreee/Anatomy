@@ -11,6 +11,9 @@ import UIKit
 @MainActor
 protocol ViewportScene: AnyObject {
     var root: Entity { get }
+    var camera: Entity { get }
+    /// Asked after every change: the view only draws when something moved.
+    var renderSchedule: RenderSchedule { get }
     func orbit(by delta: CGSize)
     func zoom(by factor: CGFloat)
     func pan(by delta: CGSize, viewHeight: CGFloat)
@@ -33,9 +36,7 @@ struct AnatomyViewport<Scene: ViewportScene, Overlay: View>: View {
     var body: some View {
         GeometryReader { proxy in
             ZStack(alignment: .topLeading) {
-                RealityView { content in
-                    content.add(scene.root)
-                }
+                RealityCanvasView(root: scene.root, camera: scene.camera, schedule: scene.renderSchedule)
                 .gesture(PanRecognizer(touches: 1...1, scene: scene) { delta in
                     scene.orbit(by: delta)
                 })
