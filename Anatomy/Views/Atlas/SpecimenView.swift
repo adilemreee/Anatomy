@@ -12,6 +12,9 @@ struct SpecimenRequest: Identifiable, Hashable {
     let refs: [PartRef]
     /// Shown around it for orientation, e.g. the bones a muscle attaches to.
     var context: [PartRef] = []
+    /// Shown see-through around it, e.g. the bones a ligament joins: they
+    /// place it without hiding the ligaments that run behind them.
+    var faded: [PartRef] = []
     let title: String
     let subtitle: String
     let entryID: String?
@@ -77,7 +80,7 @@ struct SpecimenView: View {
         .statusBarHidden(false)
         .task {
             await app.store.loadGlossary()
-            await scene.load(refs: request.refs, context: request.context, mode: app.scene.colorMode)
+            await scene.load(refs: request.refs, context: request.context, faded: request.faded, mode: app.scene.colorMode)
         }
         .task(id: LabelKey(version: scene.cameraVersion, show: showLabels, size: size, top: headerBottom, bottom: controlsTop)) {
             guard showLabels, scene.isReady else { labels = []; return }
@@ -280,7 +283,7 @@ struct SpecimenView: View {
                     if !isFocused { scene.focus(feature: label.id, zoom: false) }
                 } label: {
                     VStack(alignment: .leading, spacing: 1) {
-                        Text(label.title)
+                        Text(Self.unhyphenated(label.title))
                             .font(.caption.weight(.semibold))
                             .foregroundStyle(.white)
                             .lineLimit(3)
@@ -314,6 +317,14 @@ struct SpecimenView: View {
             }
         }
         .frame(width: size.width, height: size.height, alignment: .topLeading)
+    }
+
+    /// German would hyphenate "gleno-humerale": the box is sized to break
+    /// between words only (LabelLayout.size).
+    private static func unhyphenated(_ text: String) -> AttributedString {
+        var string = AttributedString(text)
+        string.languageIdentifier = "la"
+        return string
     }
 
     private struct LabelKey: Hashable {

@@ -148,8 +148,9 @@ final class SpecimenScene: ViewportScene {
         root.addChild(camera)
     }
 
-    /// Loads `refs` (framed and labelled) and `context` (shown around them).
-    func load(refs: [PartRef], context: [PartRef] = [], mode: ColorMode) async {
+    /// Loads `refs` (framed and labelled), `context` (shown around them) and
+    /// `faded` (see-through around them, ignored by labels and taps).
+    func load(refs: [PartRef], context: [PartRef] = [], faded: [PartRef] = [], mode: ColorMode) async {
         let library = PackLibrary.shared
         let focus = Set(refs)
         let all = refs + context.filter { !focus.contains($0) }
@@ -247,6 +248,9 @@ final class SpecimenScene: ViewportScene {
         guard let resource = try? await Self.meshResource(vertices: vertexData, indices: drawIndices, bounds: box) else { return }
         let entity = ModelEntity(mesh: resource, materials: await AnatomyMaterials.shared(occlusion: 0.28, rim: 0.7))
         root.addChild(entity)
+        let shown = Set(all)
+        let ghost = await fadedEntity(faded.filter { !shown.contains($0) }, mode: mode)
+        if let ghost { root.addChild(ghost) }
         positions = allPositions
         indices = allIndices
         displayVertices = vertexData
@@ -296,10 +300,16 @@ final class SpecimenScene: ViewportScene {
         let muscles = partIsMuscle
         let heads = (2...10).contains(structures.count) ? structures : []
         let headSpans = heads.map(\.span), patchSpans = attachments.map(\.span)
+        let pinGap = simd_length(hi - lo) * 0.12
         let pins = await Task.detached(priority: .userInitiated) { () -> (parts: [(SIMD3<Float>, SIMD3<Float>)], attachments: [(SIMD3<Float>, SIMD3<Float>)]) in
             let bones = boxes.enumerated().filter { !muscles[$0.offset] }.map(\.element)
-            let parts = headSpans.map { Self.visiblePoint(positions: pts, normals: nrm, span: $0, facing: facing, eye: eye,
-                                                           occluders: boxes, indices: idx) }
+            // Parts that cross (the cruciate ligaments) would otherwise get
+            // pins on top of each other, and one label would be dropped.
+            var parts: [(SIMD3<Float>, SIMD3<Float>)] = []
+            for span in headSpans {
+                parts.append(Self.visiblePoint(positions: pts, normals: nrm, span: span, facing: facing, eye: eye,
+                                               occluders: boxes, indices: idx, avoiding: parts.map(\.0), gap: pinGap))
+            }
             let patches = patchSpans.map { Self.visiblePoint(positions: pts, normals: nrm, span: $0, facing: facing, eye: eye,
                                                             occluders: bones, indices: idx) }
             return (parts, patches)
@@ -331,6 +341,7 @@ final class SpecimenScene: ViewportScene {
             ibl.components.set(ImageBasedLightComponent(source: .single(environment), intensityExponent: 0.25))
             root.addChild(ibl)
             entity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
+            ghost?.components.set(ImageBasedLightReceiverComponent(imageBasedLight: ibl))
         }
 
         // Light meshes get two levels of curved subdivision, dense ones one;
@@ -352,11 +363,40 @@ final class SpecimenScene: ViewportScene {
         if let feature = highlightedFeature { highlight(feature: feature) }
     }
 
-    private static func meshResource(vertices: Data, indices: [UInt32], bounds: BoundingBox) async throws -> MeshResource {
+    private static func meshResource(vertices: Data, indices: [UInt32], bounds: BoundingBox,
+                                     slot: AnatomyMaterials.Slot = .solid) async throws -> MeshResource {
         let mesh = try AnatomyScene.makeMesh(vertexCount: vertices.count / VertexBuilder.stride, indexCount: indices.count)
         AnatomyScene.upload(VertexBuilder.Output(vertices: vertices, indices: indices, ranges: [], bounds: []), into: mesh)
-        mesh.parts.replaceAll([LowLevelMesh.Part(indexCount: indices.count, topology: .triangle, materialIndex: 0, bounds: bounds)])
+        mesh.parts.replaceAll([LowLevelMesh.Part(indexCount: indices.count, topology: .triangle, materialIndex: slot.rawValue, bounds: bounds)])
         return try await MeshResource(from: mesh)
+    }
+
+    /// `refs` from the atlas packs, drawn as glass.
+    private func fadedEntity(_ refs: [PartRef], mode: ColorMode) async -> ModelEntity? {
+        var vertexData = Data()
+        var drawIndices: [UInt32] = []
+        var lo = SIMD3<Float>(repeating: .greatestFiniteMagnitude), hi = -lo
+        for system in Set(refs.map(\.system)).sorted() {
+            guard let pack = try? await PackLibrary.shared.pack(system) else { continue }
+            let parts = refs.filter { $0.system == system }.map(\.index).sorted()
+            let output = await Task.detached(priority: .userInitiated) {
+                VertexBuilder.build(pack: pack, parts: parts, mode: mode)
+            }.value
+            let base = UInt32(vertexData.count / VertexBuilder.stride)
+            vertexData.append(output.vertices)
+            drawIndices.append(contentsOf: output.indices.map { $0 + base })
+            for p in parts {
+                let b = pack.parts[p].bounds
+                lo = simd_min(lo, SIMD3(b[0], b[1], b[2]))
+                hi = simd_max(hi, SIMD3(b[3], b[4], b[5]))
+            }
+        }
+        guard !drawIndices.isEmpty,
+              let resource = try? await Self.meshResource(vertices: vertexData, indices: drawIndices,
+                                                          bounds: BoundingBox(min: lo, max: hi), slot: .ghost) else { return nil }
+        // Fainter than in the atlas: seen up close, the bones would cover
+        // the ligaments.
+        return ModelEntity(mesh: resource, materials: await AnatomyMaterials.shared(occlusion: 0.28, rim: 0.7, glass: 0.45))
     }
 
     // MARK: Highlight
@@ -783,27 +823,33 @@ final class SpecimenScene: ViewportScene {
     }
 
     /// A vertex of `span` that faces the viewer and is not hidden behind any
-    /// of `occluders`, as near the middle of the part as possible; the plain
+    /// of `occluders`, as near the middle of the part as possible and, where
+    /// it can be, at least `gap` from the points `avoiding`; the plain
     /// surface point when none is visible.
     nonisolated private static func visiblePoint(positions: [SIMD3<Float>], normals: [SIMD3<Float>], span: Range<Int>,
                                                  facing: SIMD3<Float>, eye: SIMD3<Float>,
                                                  occluders: [(range: Range<Int>, lo: SIMD3<Float>, hi: SIMD3<Float>)],
-                                                 indices: [UInt32]) -> (SIMD3<Float>, SIMD3<Float>) {
+                                                 indices: [UInt32], avoiding: [SIMD3<Float>] = [],
+                                                 gap: Float = 0) -> (SIMD3<Float>, SIMD3<Float>) {
         guard !span.isEmpty else { return (.zero, facing) }
         var sum = SIMD3<Float>.zero
         for i in span { sum += positions[i] }
         let middle = sum / Float(span.count)
-        let candidates = span.filter { simd_dot(normals[$0], facing) > 0.2 }
+        let facingViewer = span.filter { simd_dot(normals[$0], facing) > 0.2 }
             .sorted { simd_length_squared(positions[$0] - middle) < simd_length_squared(positions[$1] - middle) }
-        // Test the nearest few, then a spread of the rest.
-        let step = max(candidates.count / 40, 1)
-        let tested = Array(candidates.prefix(12)) + Swift.stride(from: 12, to: candidates.count, by: step).map { candidates[$0] }
-        for i in tested {
-            let toPoint = positions[i] - eye
-            let d = simd_length(toPoint)
-            if !blocked(eye, toPoint / d, before: d - 0.003, parts: occluders, positions: positions, indices: indices) {
-                return (positions[i], normals[i])
+        let apart = facingViewer.filter { i in avoiding.allSatisfy { simd_distance(positions[i], $0) >= gap } }
+        for candidates in [apart, facingViewer] where !candidates.isEmpty {
+            // Test the nearest few, then a spread of the rest.
+            let step = max(candidates.count / 40, 1)
+            let tested = Array(candidates.prefix(12)) + Swift.stride(from: 12, to: candidates.count, by: step).map { candidates[$0] }
+            for i in tested {
+                let toPoint = positions[i] - eye
+                let d = simd_length(toPoint)
+                if !blocked(eye, toPoint / d, before: d - 0.003, parts: occluders, positions: positions, indices: indices) {
+                    return (positions[i], normals[i])
+                }
             }
+            if avoiding.isEmpty { break }
         }
         return surfacePoint(positions: positions, normals: normals, span: span, facing: facing)
     }

@@ -119,10 +119,14 @@ final class AtlasStore {
         }
         // A part belongs to the most specific entry that lists it: the psoas
         // to "M. psoas major", not to the group entry "M. iliopsoas".
+        // General entries ("Structure of a synovial joint") only show
+        // examples from all over the body: they come last.
         for entry in entries {
             for model in entry.models {
                 let key = model.lowercased()
-                if let owner = byModel[key].flatMap({ byID[$0] }), owner.models.count <= entry.models.count { continue }
+                if let owner = byModel[key].flatMap({ byID[$0] }),
+                   (owner.region == .general) == (entry.region == .general) ? owner.models.count <= entry.models.count
+                                                                            : entry.region == .general { continue }
                 byModel[key] = entry.id
             }
         }
@@ -210,11 +214,14 @@ final class AtlasStore {
     /// The written entry describing a 3D part: the part itself, or the closest
     /// ancestor group that has an entry.
     func entry(for part: PartInfo) -> AtlasEntry? {
-        if let id = byModel[part.base.lowercased()] { return byID[id] }
+        let own = byModel[part.base.lowercased()].flatMap { byID[$0] }
+        if let own, own.region != .general { return own }
+        // The knee capsule is an example in the general synovial joint
+        // entry; the knee joint describes it better.
         for ancestor in part.path.reversed() {
-            if let id = byModel[ancestor.lowercased()] { return byID[id] }
+            if let entry = byModel[ancestor.lowercased()].flatMap({ byID[$0] }), entry.region != .general { return entry }
         }
-        return nil
+        return own
     }
 
     /// Whether `part` is described by `entry` exactly (not through an ancestor).

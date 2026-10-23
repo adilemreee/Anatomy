@@ -20,9 +20,11 @@ enum AnatomyMaterials {
     private static let library: MTLLibrary? = MTLCreateSystemDefaultDevice()?.makeDefaultLibrary()
 
     /// Materials for one entity. `occlusion` lowers the baked crease shading,
-    /// which is useful when deep structures are shown on their own.
+    /// which is useful when deep structures are shown on their own; `glass`
+    /// scales how much of a see-through part shows.
     /// RealityKit only allows this on the main thread.
-    static func make(occlusion: Float = 1, rim: Float = 0.35, detail: TextureResource?, skin: TextureResource? = nil) -> [any RealityKit.Material] {
+    static func make(occlusion: Float = 1, rim: Float = 0.35, glass: Float = 1, detail: TextureResource?,
+                     skin: TextureResource? = nil) -> [any RealityKit.Material] {
         guard let library else { return fallback() }
         do {
             let shader = CustomMaterial.SurfaceShader(named: "anatomySurface", in: library)
@@ -39,7 +41,7 @@ enum AnatomyMaterials {
             var solid = try material(SIMD4(0, occlusion, rim, lite))
             solid.faceCulling = .none
 
-            var ghost = try material(SIMD4(1, occlusion * 0.5, 0, lite))
+            var ghost = try material(SIMD4(1, occlusion * 0.5, glass, lite))
             ghost.blending = .transparent(opacity: .init(floatLiteral: 1))
             ghost.writesDepth = false
             ghost.faceCulling = .back
@@ -167,7 +169,7 @@ enum AnatomyMaterials {
 }
 
 extension AnatomyMaterials {
-    private static var cache: [SIMD2<Float>: [any RealityKit.Material]] = [:]
+    private static var cache: [SIMD3<Float>: [any RealityKit.Material]] = [:]
     private static var spotMaterial: (any RealityKit.Material)?
     private static var skinLoad: Task<TextureResource?, Never>?
 
@@ -208,13 +210,13 @@ extension AnatomyMaterials {
     /// Shared material sets. Compiling the surface shader blocks the main
     /// thread for over a second the first time, so callers await this after
     /// the first frame instead of building materials while views appear.
-    static func shared(occlusion: Float = 1, rim: Float = 0.35) async -> [any RealityKit.Material] {
-        let key = SIMD2(occlusion, rim)
+    static func shared(occlusion: Float = 1, rim: Float = 0.35, glass: Float = 1) async -> [any RealityKit.Material] {
+        let key = SIMD3(occlusion, rim, glass)
         if let cached = cache[key] { return cached }
         let detail = await DetailTexture.resource()
         let skin = await skinTexture()
         if let cached = cache[key] { return cached }
-        let materials = make(occlusion: occlusion, rim: rim, detail: detail, skin: skin)
+        let materials = make(occlusion: occlusion, rim: rim, glass: glass, detail: detail, skin: skin)
         cache[key] = materials
         return materials
     }

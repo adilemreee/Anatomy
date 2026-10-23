@@ -14,7 +14,7 @@
 //               tissue  see `Tissue` in MaterialStyle.swift
 //  custom_parameter: x = mode (0 solid, 1 ghost, 2 selected, 3 highlighted,
 //                    4 specimen highlight patch: colour = glow, alpha = strength),
-//                    y = occlusion strength, z = rim strength.
+//                    y = occlusion strength, z = rim strength (ghost: glass strength).
 //  custom texture (DetailTexture.swift), tiling, linear, mipmapped:
 //    r  broad mottling (fbm)     g  fine isotropic grain     b  cell borders
 //
@@ -293,8 +293,8 @@ void anatomySurface(realitykit::surface_parameters params)
         clearcoat = 0.4;
     } else if (mode == 1) {
         // X-ray glass: faint in the middle, brighter towards the silhouette.
-        opacity = 0.05 + 0.4 * fresnel;
-        emissive = base * fresnel * 0.25;
+        opacity = (0.05 + 0.4 * fresnel) * rimStrength;
+        emissive = base * fresnel * 0.25 * rimStrength;
         clearcoat = 0;
     } else {
         // A cool rim light separates the figure from the background.

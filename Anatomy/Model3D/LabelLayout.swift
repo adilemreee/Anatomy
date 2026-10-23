@@ -189,9 +189,21 @@ nonisolated enum LabelLayout {
     /// optional one-line subtitle, no wider than `maxWidth`.
     static func size(title: String, subtitle: String?, maxWidth: CGFloat, titleLines: Int = 2,
                      titleFont: UIFont, subtitleFont: UIFont, padding: CGSize) -> CGSize {
-        let inner = max(maxWidth - padding.width * 2, 20)
-        let titleRect = (title as NSString).boundingRect(with: CGSize(width: inner, height: .greatestFiniteMagnitude),
-                                                         options: [.usesLineFragmentOrigin], attributes: [.font: titleFont], context: nil)
+        // Never narrower than the longest word: "coracohumerale" would
+        // otherwise be broken in the middle.
+        let longestWord = title.split(separator: " ").map { (String($0) as NSString).size(withAttributes: [.font: titleFont]).width }.max() ?? 0
+        var inner = max(maxWidth - padding.width * 2, 20, ceil(longestWord) + 1)
+        func measure() -> CGRect {
+            (title as NSString).boundingRect(with: CGSize(width: inner, height: .greatestFiniteMagnitude),
+                                             options: [.usesLineFragmentOrigin], attributes: [.font: titleFont], context: nil)
+        }
+        // Wider rather than cut off when the name needs more lines.
+        var titleRect = measure()
+        let widest = max(inner, 200)
+        while titleRect.height > ceil(titleFont.lineHeight) * CGFloat(titleLines) + 1, inner < widest {
+            inner = min(inner + 10, widest)
+            titleRect = measure()
+        }
         let oneLine = (title as NSString).size(withAttributes: [.font: titleFont]).width
         var width = min(oneLine, inner)
         var height = min(ceil(titleRect.height), ceil(titleFont.lineHeight) * CGFloat(titleLines))
@@ -199,7 +211,9 @@ nonisolated enum LabelLayout {
             width = max(width, min((subtitle as NSString).size(withAttributes: [.font: subtitleFont]).width, inner))
             height += ceil(subtitleFont.lineHeight) + 1
         }
-        return CGSize(width: ceil(width) + padding.width * 2, height: height + padding.height * 2)
+        // SwiftUI sets the text a little wider than UIKit measures it: a few
+        // points to spare keep the lines where they were measured.
+        return CGSize(width: ceil(width) + 4 + padding.width * 2, height: height + padding.height * 2)
     }
 
     /// The Latin subtitle unless it only repeats the title

@@ -278,7 +278,10 @@ final class AppModel {
     /// (origins red, insertions blue) and the bones they attach to.
     func specimenRequest(for refs: [PartRef], title: String, subtitle: String, entryID: String?) -> SpecimenRequest {
         let muscles = refs.filter { $0.system == "muscular" }.compactMap { scene.info($0) }
-        guard !muscles.isEmpty else { return SpecimenRequest(refs: refs, title: title, subtitle: subtitle, entryID: entryID) }
+        guard !muscles.isEmpty else {
+            return SpecimenRequest(refs: refs, faded: bones(around: refs.filter { $0.system == "joints" }),
+                                   title: title, subtitle: subtitle, entryID: entryID)
+        }
         var names = Set<String>()
         for muscle in muscles {
             names.insert(muscle.base.lowercased())
@@ -305,6 +308,28 @@ final class AppModel {
         }
         return SpecimenRequest(refs: refs + attachments, context: Array(bones.prefix(14)),
                                title: title, subtitle: subtitle, entryID: entryID)
+    }
+
+    /// The bones a set of ligaments, capsules and cartilages touch: the
+    /// largest overlaps first (the femur and hip bone for the hip capsule
+    /// before a sesamoid nearby).
+    private func bones(around refs: [PartRef]) -> [PartRef] {
+        let boxes = refs.compactMap { scene.info($0)?.bounds }
+        guard !boxes.isEmpty else { return [] }
+        let m: Float = 0.006
+        var touching: [(ref: PartRef, overlap: Float)] = []
+        for (i, bone) in (scene.manifests["skeletal"] ?? []).enumerated() {
+            let b = bone.bounds
+            var overlap: Float = 0
+            for a in boxes {
+                let dx = min(a[3], b[3]) - max(a[0], b[0]) + 2 * m
+                let dy = min(a[4], b[4]) - max(a[1], b[1]) + 2 * m
+                let dz = min(a[5], b[5]) - max(a[2], b[2]) + 2 * m
+                if dx > 0, dy > 0, dz > 0 { overlap += dx * dy * dz }
+            }
+            if overlap > 0 { touching.append((PartRef(system: "skeletal", index: i), overlap)) }
+        }
+        return Array(scene.matchingSex(touching.sorted { $0.overlap > $1.overlap }.map(\.ref)).prefix(16))
     }
 
     func hasModel(_ entry: AtlasEntry) -> Bool {
