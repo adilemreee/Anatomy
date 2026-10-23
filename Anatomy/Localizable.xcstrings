@@ -1,7 +1,9 @@
 {
   "sourceLanguage" : "tr",
   "strings" : {
-    "" : {},
+    "" : {
+
+    },
     "‘%@’ hangi bölgeyi besler?" : {
       "localizations" : {
         "de" : {
@@ -1024,10 +1026,10 @@
     },
     "%@ boyunca dönem başına %@" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ boyunca dönem başına %@"
+            "value" : "%2$@ pro Zeitraum für %1$@"
           }
         },
         "en" : {
@@ -1036,22 +1038,22 @@
             "value" : "%2$@ per period for %1$@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ por periodo durante %1$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%2$@ par période pendant %1$@"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%2$@ pro Zeitraum für %1$@"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%2$@ por periodo durante %1$@"
+            "value" : "%@ boyunca dönem başına %@"
           }
         }
       }
@@ -1126,10 +1128,10 @@
     },
     "%@ için %@" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ için %@"
+            "value" : "%1$@ für %2$@"
           }
         },
         "en" : {
@@ -1138,22 +1140,22 @@
             "value" : "%1$@ for %2$@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ por %2$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ pour %2$@"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ für %2$@"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ por %2$@"
+            "value" : "%@ için %@"
           }
         }
       }
@@ -1500,10 +1502,10 @@
     },
     "%@, sonra ayda bir %@ ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin." : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@, sonra ayda bir %@ ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin."
+            "value" : "%1$@, danach %2$@ pro Monat. Jederzeit in den App-Store-Einstellungen kündbar."
           }
         },
         "en" : {
@@ -1512,22 +1514,22 @@
             "value" : "%1$@, then %2$@ per month. Cancel anytime in your App Store settings."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, después %2$@ al mes. Cancela cuando quieras en los ajustes del App Store."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@, puis %2$@ par mois. Résiliable à tout moment dans les réglages de l'App Store."
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@, danach %2$@ pro Monat. Jederzeit in den App-Store-Einstellungen kündbar."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@, después %2$@ al mes. Cancela cuando quieras en los ajustes del App Store."
+            "value" : "%@, sonra ayda bir %@ ücretlendirilir. İstediğin zaman App Store ayarlarından iptal edebilirsin."
           }
         }
       }
@@ -2472,10 +2474,22 @@
     },
     "%lld katman kaldırıldı" : {
       "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld katman kaldırıldı"
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schicht entfernt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Schichten entfernt"
+                }
+              }
+            }
           }
         },
         "en" : {
@@ -2491,6 +2505,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld layers removed"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld capa retirada"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld capas retiradas"
                 }
               }
             }
@@ -2514,40 +2546,10 @@
             }
           }
         },
-        "de" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld Schicht entfernt"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld Schichten entfernt"
-                }
-              }
-            }
-          }
-        },
-        "es" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld capa retirada"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld capas retiradas"
-                }
-              }
-            }
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld katman kaldırıldı"
           }
         }
       }
@@ -4142,10 +4144,10 @@
     },
     "Alıcı: destek@adilemree.xyz" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alıcı: destek@adilemree.xyz"
+            "value" : "Empfänger: destek@adilemree.xyz"
           }
         },
         "en" : {
@@ -4154,22 +4156,22 @@
             "value" : "Recipient: destek@adilemree.xyz"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destinatario: destek@adilemree.xyz"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Destinataire : destek@adilemree.xyz"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Empfänger: destek@adilemree.xyz"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Destinatario: destek@adilemree.xyz"
+            "value" : "Alıcı: destek@adilemree.xyz"
           }
         }
       }
@@ -4312,10 +4314,10 @@
     },
     "Anatomi Atlası tanılama raporları" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anatomi Atlası tanılama raporları"
+            "value" : "Diagnoseberichte von Anatomie Atlas"
           }
         },
         "en" : {
@@ -4324,22 +4326,22 @@
             "value" : "Anatomy Atlas diagnostic reports"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informes de diagnóstico de Atlas Anatomía"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rapports de diagnostic d'Atlas Anatomie"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Diagnoseberichte von Anatomie Atlas"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Informes de diagnóstico de Atlas Anatomía"
+            "value" : "Anatomi Atlası tanılama raporları"
           }
         }
       }
@@ -4958,10 +4960,10 @@
     },
     "Ayarları aç" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ayarları aç"
+            "value" : "Einstellungen öffnen"
           }
         },
         "en" : {
@@ -4970,22 +4972,22 @@
             "value" : "Open Settings"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir Ajustes"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvrir les Réglages"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Einstellungen öffnen"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abrir Ajustes"
+            "value" : "Ayarları aç"
           }
         }
       }
@@ -5706,10 +5708,10 @@
     },
     "Bildirimler kapalı" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bildirimler kapalı"
+            "value" : "Mitteilungen sind aus"
           }
         },
         "en" : {
@@ -5718,22 +5720,22 @@
             "value" : "Notifications are off"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones desactivadas"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notifications désactivées"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mitteilungen sind aus"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notificaciones desactivadas"
+            "value" : "Bildirimler kapalı"
           }
         }
       }
@@ -6692,10 +6694,22 @@
     },
     "Bugün %lld kartın seni bekliyor." : {
       "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bugün %lld kartın seni bekliyor."
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Heute wartet %lld Karte auf dich."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Heute warten %lld Karten auf dich."
+                }
+              }
+            }
           }
         },
         "en" : {
@@ -6711,6 +6725,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld cards are waiting for you today."
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hoy te espera %lld tarjeta."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hoy te esperan %lld tarjetas."
                 }
               }
             }
@@ -6734,40 +6766,10 @@
             }
           }
         },
-        "de" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "Heute wartet %lld Karte auf dich."
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "Heute warten %lld Karten auf dich."
-                }
-              }
-            }
-          }
-        },
-        "es" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "Hoy te espera %lld tarjeta."
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "Hoy te esperan %lld tarjetas."
-                }
-              }
-            }
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugün %lld kartın seni bekliyor."
           }
         }
       }
@@ -6956,7 +6958,11 @@
         }
       }
     },
+    "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar, beyin ve sinirler; kadın ve erkek anatomisi" : {
+
+    },
     "Bütün kemikler, eklemler ve bağlar, 200'ü aşkın kas ve yapışma yerleri, kalp ve damarlar; kadın ve erkek anatomisi" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -7706,10 +7712,10 @@
     },
     "Diseksiyon" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Diseksiyon"
+            "value" : "Präparation"
           }
         },
         "en" : {
@@ -7718,22 +7724,22 @@
             "value" : "Dissection"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disección"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dissection"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Präparation"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Disección"
+            "value" : "Diseksiyon"
           }
         }
       }
@@ -7943,12 +7949,23 @@
       }
     },
     "duration.day" : {
-      "extractionState" : "extracted_with_value",
       "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld gün"
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Tag"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Tage"
+                }
+              }
+            }
           }
         },
         "en" : {
@@ -7964,6 +7981,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld days"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld día"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld días"
                 }
               }
             }
@@ -7987,51 +8022,32 @@
             }
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld gün"
+          }
+        }
+      }
+    },
+    "duration.month" : {
+      "localizations" : {
         "de" : {
           "variations" : {
             "plural" : {
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld Tag"
+                  "value" : "%lld Monat"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld Tage"
+                  "value" : "%lld Monate"
                 }
               }
             }
-          }
-        },
-        "es" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld día"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld días"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "duration.month" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld ay"
           }
         },
         "en" : {
@@ -8047,6 +8063,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld months"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld mes"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld meses"
                 }
               }
             }
@@ -8070,51 +8104,32 @@
             }
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ay"
+          }
+        }
+      }
+    },
+    "duration.week" : {
+      "localizations" : {
         "de" : {
           "variations" : {
             "plural" : {
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld Monat"
+                  "value" : "%lld Woche"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld Monate"
+                  "value" : "%lld Wochen"
                 }
               }
             }
-          }
-        },
-        "es" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld mes"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld meses"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "duration.week" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld hafta"
           }
         },
         "en" : {
@@ -8130,6 +8145,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld weeks"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld semana"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld semanas"
                 }
               }
             }
@@ -8153,51 +8186,32 @@
             }
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hafta"
+          }
+        }
+      }
+    },
+    "duration.year" : {
+      "localizations" : {
         "de" : {
           "variations" : {
             "plural" : {
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld Woche"
+                  "value" : "%lld Jahr"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld Wochen"
+                  "value" : "%lld Jahre"
                 }
               }
             }
-          }
-        },
-        "es" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld semana"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld semanas"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "duration.year" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld yıl"
           }
         },
         "en" : {
@@ -8213,6 +8227,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld years"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld año"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld años"
                 }
               }
             }
@@ -8236,40 +8268,10 @@
             }
           }
         },
-        "de" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld Jahr"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld Jahre"
-                }
-              }
-            }
-          }
-        },
-        "es" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld año"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld años"
-                }
-              }
-            }
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld yıl"
           }
         }
       }
@@ -9922,10 +9924,10 @@
     },
     "Günlük hedefin için kısa bir tekrara ne dersin?" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Günlük hedefin için kısa bir tekrara ne dersin?"
+            "value" : "Wie wäre es mit einer kurzen Wiederholung für dein Tagesziel?"
           }
         },
         "en" : {
@@ -9934,22 +9936,22 @@
             "value" : "How about a quick review for your daily goal?"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Qué tal un repaso rápido para tu objetivo diario?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une petite révision pour votre objectif du jour ?"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wie wäre es mit einer kurzen Wiederholung für dein Tagesziel?"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "¿Qué tal un repaso rápido para tu objetivo diario?"
+            "value" : "Günlük hedefin için kısa bir tekrara ne dersin?"
           }
         }
       }
@@ -9990,10 +9992,10 @@
     },
     "Günlük tekrar hatırlatması" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Günlük tekrar hatırlatması"
+            "value" : "Tägliche Lernerinnerung"
           }
         },
         "en" : {
@@ -10002,22 +10004,22 @@
             "value" : "Daily review reminder"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recordatorio diario de repaso"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rappel de révision quotidien"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tägliche Lernerinnerung"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recordatorio diario de repaso"
+            "value" : "Günlük tekrar hatırlatması"
           }
         }
       }
@@ -10364,10 +10366,10 @@
     },
     "Hatırlatma gönderebilmemiz için Ayarlar'dan Anatomi Atlası'nın bildirimlerine izin ver." : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hatırlatma gönderebilmemiz için Ayarlar'dan Anatomi Atlası'nın bildirimlerine izin ver."
+            "value" : "Damit wir dich erinnern können, erlaube Mitteilungen für Anatomie Atlas in den Einstellungen."
           }
         },
         "en" : {
@@ -10376,32 +10378,32 @@
             "value" : "To get reminders, allow notifications for Anatomy Atlas in Settings."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para recibir recordatorios, permite las notificaciones de Atlas Anatomía en Ajustes."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pour recevoir des rappels, autorisez les notifications d'Atlas Anatomie dans les Réglages."
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Damit wir dich erinnern können, erlaube Mitteilungen für Anatomie Atlas in den Einstellungen."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Para recibir recordatorios, permite las notificaciones de Atlas Anatomía en Ajustes."
+            "value" : "Hatırlatma gönderebilmemiz için Ayarlar'dan Anatomi Atlası'nın bildirimlerine izin ver."
           }
         }
       }
     },
     "Hatırlatma saati" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hatırlatma saati"
+            "value" : "Erinnerungszeit"
           }
         },
         "en" : {
@@ -10410,22 +10412,22 @@
             "value" : "Reminder time"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hora del recordatorio"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heure du rappel"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Erinnerungszeit"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hora del recordatorio"
+            "value" : "Hatırlatma saati"
           }
         }
       }
@@ -12200,10 +12202,10 @@
     },
     "Kas katmanları" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kas katmanları"
+            "value" : "Muskelschichten"
           }
         },
         "en" : {
@@ -12212,22 +12214,22 @@
             "value" : "Muscle layers"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capas musculares"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couches musculaires"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Muskelschichten"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Capas musculares"
+            "value" : "Kas katmanları"
           }
         }
       }
@@ -12369,6 +12371,7 @@
       }
     },
     "Kas-iskelet sistemi, kalp ve damarlar" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -12401,6 +12404,9 @@
           }
         }
       }
+    },
+    "Kas-iskelet, dolaşım ve sinir sistemi" : {
+
     },
     "Kasın başlangıç (origo) alanı" : {
       "localizations" : {
@@ -12812,10 +12818,10 @@
     },
     "Kaydırdıkça yüzeydeki kaslar kalkar, derindekiler ortaya çıkar." : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kaydırdıkça yüzeydeki kaslar kalkar, derindekiler ortaya çıkar."
+            "value" : "Beim Schieben werden die oberflächlichen Muskeln entfernt und die tieferen sichtbar."
           }
         },
         "en" : {
@@ -12824,22 +12830,22 @@
             "value" : "As you slide, the surface muscles come away and the deeper ones appear."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al deslizar, se retiran los músculos superficiales y aparecen los profundos."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "En faisant glisser, les muscles superficiels s'enlèvent et les plus profonds apparaissent."
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beim Schieben werden die oberflächlichen Muskeln entfernt und die tieferen sichtbar."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Al deslizar, se retiran los músculos superficiales y aparecen los profundos."
+            "value" : "Kaydırdıkça yüzeydeki kaslar kalkar, derindekiler ortaya çıkar."
           }
         }
       }
@@ -13015,6 +13021,7 @@
       }
     },
     "Kemikler, eklemler, kaslar, kalp ve damarlar için 369 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 760 özgün soru ve 3.000'e yakın bilgi kartı, tek bir uygulamada." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -13047,6 +13054,9 @@
           }
         }
       }
+    },
+    "Kemikler, eklemler, kaslar, kalp, damarlar ve sinir sistemi için 424 ayrıntılı madde, yaklaşık 500 işaretli kemik oluşumu, üç düzeyde 900 özgün soru ve 3.000'i aşkın bilgi kartı, tek bir uygulamada." : {
+
     },
     "Kemikleri, eklemleri ve kasları döndür, yakınlaştır, katman katman aç." : {
       "localizations" : {
@@ -13118,10 +13128,10 @@
     },
     "Kesilen tarafı değiştir" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kesilen tarafı değiştir"
+            "value" : "Abgeschnittene Seite wechseln"
           }
         },
         "en" : {
@@ -13130,32 +13140,32 @@
             "value" : "Switch the cut side"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar el lado cortado"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inverser le côté coupé"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abgeschnittene Seite wechseln"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cambiar el lado cortado"
+            "value" : "Kesilen tarafı değiştir"
           }
         }
       }
     },
     "Kesit" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kesit"
+            "value" : "Schnitt"
           }
         },
         "en" : {
@@ -13164,22 +13174,22 @@
             "value" : "Section"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corte"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coupe"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schnitt"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Corte"
+            "value" : "Kesit"
           }
         }
       }
@@ -13594,7 +13604,7 @@
     },
     "Koronal" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koronal"
@@ -13606,22 +13616,22 @@
             "value" : "Coronal"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coronal"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frontale"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koronal"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Coronal"
           }
         }
       }
@@ -16042,10 +16052,10 @@
     },
     "Sagital" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sagital"
+            "value" : "Sagittal"
           }
         },
         "en" : {
@@ -16054,19 +16064,19 @@
             "value" : "Sagittal"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sagital"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sagittale"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sagittal"
-          }
-        },
-        "es" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sagital"
@@ -16110,10 +16120,10 @@
     },
     "Sana özel: %@" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sana özel: %@"
+            "value" : "Nur für dich: %@"
           }
         },
         "en" : {
@@ -16122,22 +16132,22 @@
             "value" : "Just for you: %@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo para ti: %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rien que pour vous : %@"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nur für dich: %@"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Solo para ti: %@"
+            "value" : "Sana özel: %@"
           }
         }
       }
@@ -18096,10 +18106,10 @@
     },
     "Tanılama raporlarını gönder" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tanılama raporlarını gönder"
+            "value" : "Diagnoseberichte senden"
           }
         },
         "en" : {
@@ -18108,22 +18118,22 @@
             "value" : "Send diagnostic reports"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar informes de diagnóstico"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Envoyer les rapports de diagnostic"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Diagnoseberichte senden"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enviar informes de diagnóstico"
+            "value" : "Tanılama raporlarını gönder"
           }
         }
       }
@@ -18334,10 +18344,10 @@
     },
     "Teklifi kullan" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Teklifi kullan"
+            "value" : "Angebot einlösen"
           }
         },
         "en" : {
@@ -18346,22 +18356,22 @@
             "value" : "Redeem offer"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canjear oferta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profiter de l'offre"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Angebot einlösen"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Canjear oferta"
+            "value" : "Teklifi kullan"
           }
         }
       }
@@ -19946,10 +19956,10 @@
     },
     "Vazgeç" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vazgeç"
+            "value" : "Abbrechen"
           }
         },
         "en" : {
@@ -19958,22 +19968,22 @@
             "value" : "Cancel"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuler"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abbrechen"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancelar"
+            "value" : "Vazgeç"
           }
         }
       }
@@ -20728,13 +20738,19 @@
     },
     "Yatay" : {
       "localizations" : {
-        "tr" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yatay"
+            "value" : "Axial"
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Axial"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Axial"
@@ -20746,16 +20762,10 @@
             "value" : "Axiale"
           }
         },
-        "de" : {
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Axial"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Axial"
+            "value" : "Yatay"
           }
         }
       }

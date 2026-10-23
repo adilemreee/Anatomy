@@ -161,7 +161,11 @@ private final class SplashLayerView: UIView {
         CATransaction.begin()
         CATransaction.setDisableActions(true)
         let size = bounds.size
-        content.frame = bounds
+        // Bounds and position, not frame: SwiftUI lays the view out again
+        // while the exit animation scales `content`, and setting the frame of
+        // a scaled layer shrinks its bounds, which shifted the whole figure.
+        content.bounds = CGRect(origin: .zero, size: size)
+        content.position = CGPoint(x: size.width / 2, y: size.height / 2)
         glow.frame = bounds
         glow.startPoint = CGPoint(x: 0.5, y: 0.42)
         glow.endPoint = CGPoint(x: 0.5 + size.height * 0.55 / size.width, y: 0.42 + 0.55)
